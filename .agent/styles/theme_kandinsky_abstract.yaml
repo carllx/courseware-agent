@@ -1,0 +1,107 @@
+# Visual System Constitution (视觉系统宪法)
+# SSOT: Single Source of Truth
+# Style: Kandinsky Abstract (康定斯基抽象艺术风 / 联觉交互 / 点线面张力)
+
+meta:
+  version: "1.0"
+  last_updated: "2026-03-29"
+  maintainer: "Antigravity Agent (Based on KA v1.0 Spec)"
+  principles: "Spiritual, Synesthetic, Geometric"
+
+style:
+  keywords: "Wassily Kandinsky abstract artwork UI, synesthetic interaction metaphor, geometric composition of circles triangles and squares, varying line weights, overlapping shapes, dynamic equilibrium, floating abstract UI, profound negative space, bold asymmetric layouts"
+  atmosphere: "spiritual, dynamic, lyrical abstraction, tension between shapes, highly artistic"
+  negative_prompt: "realistic, 3d render, cyberpunk, dark mode, uniform border-radius, mechanical symmetry, drop shadows, gradients, realistic textures, mundane UI"
+  
+  prompt_variants:
+    Title: "lyrical abstract composition, giant floating circle and tiny sharp triangles, intense synesthetic colors"
+    Diagram: "intersecting lines with varying weights, floating geometric nodes, pure abstraction over spiritual white"
+    List: "asymmetric dynamic equilibrium, floating points of color, tension lines"
+    Comparison: "sharp contrast between deep blue shapes and vibrant red accents, no mechanical dividing lines"
+    Split: "abstract structural tension, color acting as weight"
+
+  prompt_templates:
+    base_en: "Wassily Kandinsky lyrical abstract UI aesthetic, geometric composition of circles triangles and squares, varying line weights, overlapping shapes, dynamic equilibrium, floating abstract UI, profound negative space"
+    suffix_negative: "realistic, 3d render, cyberpunk, dark mode, uniform border-radius, mechanical symmetry, drop shadows, gradients"
+    text_directive: "All visible text in the image must be in Simplified Chinese"
+
+palette:
+  # 背景体系
+  bg_base: "#FDFDFD"         # 巨大的沉默 (Spiritual White) - 大背景/画板
+  bg_surface: "#F2F2F2"      # KA 基础承载容器背景 (CSS 中的 --ka-bg)
+  bg_elevated: "#F2F2F2"
+  bg_dark: "#063970"         # 沉浸大提琴蓝调
+  
+  primary: "#1A1A1B"         # 永恒的寂灭 (Cosmic Black) - 描边/次级文本
+  secondary: "#063970"       # 天堂、超脱、大提琴 (Deep Blue) - 背板/重器
+  accent: "#FFCC00"          # 锐利侵略小号 (Eccentric Yellow) - CTA/行动点
+
+  success: "#063970"         # 以蓝代绿 (平缓稳定)
+  warning: "#FFCC00"         # 侵略黄
+  error: "#D62828"           # 内在的热力、大号 (Stable Red)
+  info: "#063970"            # 深蓝
+
+  text_main: "#1A1A1B"       # Cosmic black
+  text_secondary: "#555555"  
+  text_muted: "#999999"      
+  text_on_dark: "#FDFDFD"    # Spiritual White over Deep Blue
+
+  border: "#1A1A1B"          # Cosmic black
+  divider: "#1A1A1B"         
+
+typography:
+  # 康定斯基式的抽象无需过分厚重，要求轻盈、锐利
+  font_cn_primary: "Noto Serif SC"       # 具有艺术性和锋芒感的衬线
+  font_cn_body: "Noto Sans SC"           # 保证内文阅读性
+  font_en_primary: "Playfair Display"    # 具有张力的英文字体
+  font_en_body: "Inter"                  # 理性基础支撑
+  font_en_display: "Playfair Display"
+  size_hero: 64
+  size_h1: 44
+  size_h2: 32
+  size_body: 18
+  size_caption: 14
+  size_label: 12
+
+physics:
+  # KA v1.0 几何与物理令牌
+  stroke_width_base: 1    # stroke-weight-thin (1px) 辅助引导线
+  stroke_width_large: 3   # stroke-weight-bold (3px) 形状轮廓，强调结构
+  corner_radius_base: 0   # 不使用统一圆角，根据功能 0°-90° 切换
+  corner_radius_large: 0  
+  cap_join_style: "miter" # 倾向锐角张力，非 round
+  
+  # 物体弹射与张力缓动
+  easing: "cubic-bezier(0.5, -0.5, 0.2, 1.5)"
+  motion_short: "200ms"
+  motion_medium: "350ms"  # 需要略长的时间展示超伸（Overshoot）效果
+
+ppt_layout_styles:
+  Title:
+    background: "bg_base"
+    title_color: "text_main"
+    accent: "accent"
+    effect: "none" # shadow-less depth
+    border_color: "none"
+  List:
+    background: "bg_surface"
+    title_color: "text_main"
+    bullet_icon_color: "error" # 红点作为鼓点
+    effect: "none"
+    border_color: "primary"
+    border_width: "1px"
+  Diagram:
+    background: "bg_base"
+    node_fill: "accent" # Yellow nodes
+    node_border_color: "primary"
+    node_border_width: "3px" # Bold contours
+    line_color: "primary"
+    line_width: "1px" # Variable thickness: thin lines crossing thick shapes
+    label_color: "text_main"
+    accent: "secondary"
+  Comparison:
+    background: "bg_base"
+    left_accent: "secondary" # Deep Blue (Cold)
+    right_accent: "error"    # Red (Hot)
+    divider_color: "primary"
+    divider_width: "1px"

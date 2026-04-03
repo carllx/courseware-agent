@@ -1,0 +1,248 @@
+# Visual System Constitution (视觉系统宪法)
+# SSOT: Single Source of Truth
+# Style: Constructivist Dada Photomontage (建构主义·达达拼贴 / 1920s 复古影像 × Kandinsky 几何张力)
+
+meta:
+  version: "2.0.0"
+  last_updated: "2026-03-29"
+  maintainer: "Antigravity Agent"
+  principles: "Semantic Collision, Anti-Affordance, Asymmetrical Tension"
+
+# 1. 全局风格定义 (用于 AI 生成 Prompt)
+style:
+  # 核心风格词
+  keywords: "1920s Constructivist vintage photomontage, mixed media collage art, high-contrast black-and-white vintage photographic cutouts, Wassily Kandinsky Composition VIII geometric tension, sharp yellow triangles, overlapping translucent prussian blue circles, intersecting fine black tension lines, pale warm cream canvas, asymmetrical dynamic balance"
+  # 环境氛围
+  atmosphere: "avant-garde editorial, dramatic visual tension, 1920s Bauhaus workshop aesthetic, warm parchment-like canvas, intentional asymmetry, philosophical depth, museum-quality mixed media"
+  # 否定词 (避免出现的内容)
+  negative_prompt: "minimalism, De Stijl, Mondrian, Dutch grid, solid pure white background, 3d render, cyberpunk, neon colors, cartoon, clip art, glossy, photo-realistic faces, digital paint, smooth gradients, watermark, blurry"
+  # 按 Layout 类型的 Prompt 变体 (注意：仅描述 Asset 图像本身的视觉风格，严禁包含排版布局或文字指令)
+  prompt_variants:
+    Title: "dramatic Dadaist photomontage hero, vintage black-and-white photographic cutouts colliding with bold Kandinsky geometric shapes, asymmetrical off-center composition, high visual tension"
+    Diagram: "Bauhaus Dada collage infographic, vintage cutouts of machines and hands connected by fine intricate black lines, floating colored geometric shapes as nodes, pale parchment background"
+    List: "Dadaist grid broken into asymmetrical photomontage, Kandinsky Composition VIII geometric elements interacting with early 20th-century photographic clippings, dynamic intersecting tension lines"
+    Comparison: "Dadaist dialectic comparison, mixed media collage. Left side dominated by sharp triangles and vintage cutouts of the problem, right side counterbalanced by calm overlapping concentric circles and vintage images of the solution"
+    Split: "editorial photomontage detail, vintage black-and-white photography fragment with Kandinsky geometric overlay, warm cream tones, suitable for placing alongside text"
+    Grid: "matrix of Dadaist photomontage fragments, each cell containing a vintage cutout interacting with a geometric element, cohesive pale warm canvas"
+    Image: "high-contrast vintage black-and-white photography cutout, isolated on warm cream canvas, with subtle geometric tension accents"
+
+  # 预编译 Prompt 模板（减少运行时 Token 拼接开销）
+  prompt_templates:
+    base_en: "1920s Constructivist vintage photomontage, mixed media collage art, high-contrast black-and-white vintage photographic cutouts interacting with Wassily Kandinsky Composition VIII geometry, sharp yellow triangles #E6B828, overlapping translucent prussian blue circles #384E77, intersecting fine black tension lines, pale warm cream canvas #F4F0E6, asymmetrical dynamic balance, museum-quality"
+    suffix_negative: "minimalism, De Stijl, Mondrian, Dutch grid, solid pure white background, 3d render, cyberpunk, neon colors, cartoon, clip art, glossy, photo-realistic faces"
+    pure_geometry_en: "pure mathematical geometry, strict rigid grid layout, Kandinsky Composition VIII primary forms absolutely isolated from noise, pristine clean vector style, solid color fills, zero texture, zero photography, pale warm cream canvas #F4F0E6, perfectly uniform spacing, pedagogical cognitive test mechanism"
+    suffix_negative_pure: "vintage photo, collage, mixed media, noise, grain, paper texture, chaotic layout, asymmetrical, messy, 3d render, realism, drop shadow, clutter, text, letters, numbers, hand-drawn"
+    text_directive: "All visible text in the image must be in Simplified Chinese"
+
+# 2. 色彩系统 (PPT / H5 / Python 通用)
+palette:
+  # 基础色 (Warm Cream Mode)
+  bg_base: "#F4F0E6"         # 暖奶油画布 (Pale Cream Canvas) — 主画布背景
+  bg_surface: "#FBFAF5"      # 浅奶油 — 卡片/面板背景
+  bg_elevated: "#EAE6DB"     # 暖灰底色 — 区块分隔/引用底色
+  bg_dark: "#1A191C"         # 深炭黑 (Deep Charcoal) — 反转区块/封面背景
+
+  # 品牌主色 (取自 Kandinsky Composition VIII 色盘)
+  primary: "#E6B828"         # 芥末黄 (Muted Mustard Yellow) — 锐三角/焦点/CTA
+  primary_light: "#F0D060"   # 浅芥末黄 — hover/次要交互
+  primary_muted: "#B89820"   # 深芥末黄 — 强调按钮
+
+  # 辅助色
+  secondary: "#384E77"       # 消光普鲁士蓝 (Muted Prussian Blue) — 重叠圆/沉稳容器
+  tertiary: "#C84B31"        # 砖红/铁锈 (Brick Red/Rust) — 反方向配重几何
+
+  # 语义色
+  success: "#384E77"         # 普鲁士蓝 (流畅、平稳感)
+  warning: "#E6B828"         # 芥末黄 (侵略性注意)
+  error: "#C84B31"           # 砖红 (紧迫/危险)
+  info: "#8B7B9E"            # 柔丁香紫 (Soft Lilac) — 补充/链接/同心环
+
+  # 文本色
+  text_main: "#121C26"       # 近黑/炭色 — 正文主色 (高可读性)
+  text_secondary: "#5C5856"  # 暖灰 — 次要文字
+  text_muted: "#96908A"      # 浅暖灰 — 标签/说明
+  text_on_dark: "#F4F0E6"    # 暖奶油 — 深色背景上的文字
+
+  # 边框与分割
+  border: "#1C1C1D"          # 纤细动态黑线 (如琴弦)
+  divider: "#CFCAC2"         # 柔和结构线
+
+# 3. 排版系统
+typography:
+  # 中文字体 (跨平台)
+  font_cn_primary: "Noto Sans SC"        # 几何纯净的无衬线
+  font_cn_body: "Noto Sans SC"
+  font_cn_fallback: "Microsoft YaHei"
+  font_cn_mac: "PingFang SC"
+
+  # 英文/数字字体
+  font_en_primary: "Inter"               # 标题用，圆润现代
+  font_en_body: "Inter"                  # 正文用
+  font_en_display: "Georgia"             # 引言/大字号 — 人文主义衬线产生张力对比
+
+  # 字号层级 (PPT 基准)
+  size_hero: 54
+  size_h1: 40
+  size_h2: 28
+  size_body: 18
+  size_caption: 14
+  size_label: 12
+
+# 4. 几何与动效参数
+physics:
+  stroke_width_base: 1    # 纤细张力线 (1px)，如 Kandinsky 的弦
+  stroke_width_large: 3   # 粗轮廓，强调结构边界
+  corner_radius_base: 0   # 锐利直角 — 与三角/对角线同源
+  corner_radius_large: 0
+  cap_join_style: "miter" # 锐角张力，非圆润
+
+  # 弹性物理动效 (spring tension)
+  easing: "cubic-bezier(0.5, -0.5, 0.2, 1.5)"  # overshooot — 弹射张力
+  motion_short: "150ms"
+  motion_medium: "300ms"
+
+# 5. PPT 版式映射 (与 pptx SKILL Layout 对齐)
+ppt_layout_styles:
+  Title:
+    background: "bg_dark"
+    title_color: "text_on_dark"
+    accent: "primary"
+    effect: "none"
+    border_color: "none"
+  List:
+    background: "bg_base"
+    title_color: "text_main"
+    bullet_icon_color: "tertiary"     # 砖红圆点 — 作为警醒节拍
+    effect: "none"
+    border_color: "border"
+    border_width: "1px"
+  Diagram:
+    background: "bg_base"
+    node_fill: "primary"              # 芥末黄节点
+    node_border_color: "border"
+    node_border_width: "1px"
+    line_color: "border"              # 纤细黑线连接
+    line_width: "1px"
+    label_color: "text_main"
+    accent: "secondary"
+  Comparison:
+    background: "bg_base"
+    left_accent: "tertiary"           # 砖红 (冲突面)
+    right_accent: "secondary"         # 普鲁士蓝 (解决面)
+    divider_color: "border"
+    divider_width: "1px"
+  Split:
+    background: "bg_base"
+    left_panel: "bg_elevated"
+    right_panel: "bg_surface"
+    divider: "border"
+    border_width: "1px"
+  Grid:
+    background: "bg_base"
+    card_bg: "bg_surface"
+    card_border: "border"
+    card_border_width: "1px"
+    card_accent: "primary"
+  Image:
+    background: "bg_base"
+    caption_color: "text_muted"
+    image_border: "border"
+    image_border_width: "1px"
+
+# 6. 尺寸与比例标准
+dimensions:
+  ppt_slide:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "Constructivist Dada photomontage presentation slide, vintage collage meets Kandinsky geometry"
+  infographic:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "Dadaist mixed media infographic, high-contrast vintage cutouts with geometric tension"
+  diagram:
+    ratio: "1:1"
+    width: 1080
+    height: 1080
+    suffix: "Bauhaus-Dada network diagram, interconnected vintage fragments with tension lines"
+  icon:
+    ratio: "1:1"
+    width: 512
+    height: 512
+    suffix: "geometric icon, Kandinsky-inspired sharp shape on warm cream canvas"
+
+# 7. 对比度约束 (WCAG AA)
+accessibility:
+  min_contrast_ratio: 4.5
+  rules:
+    - text: "text_main"
+      on: "bg_base"
+      # #121C26 on #F4F0E6 = 13.5:1 ✅
+    - text: "text_main"
+      on: "bg_surface"
+      # #121C26 on #FBFAF5 = 15.8:1 ✅
+    - text: "text_secondary"
+      on: "bg_base"
+      # #5C5856 on #F4F0E6 = 5.2:1 ✅
+    - text: "text_on_dark"
+      on: "bg_dark"
+      # #F4F0E6 on #1A191C = 13.8:1 ✅
+
+# ═══════════════════════════════════════════════════════════
+# 8. 扩展：Dada 生成指南 (generation_guide)
+#    本节为该主题特有的增量扩展，不破坏上方标准 Schema。
+#    Agent 在为本主题生成视觉资产时，应参考此节以提升隐喻深度。
+# ═══════════════════════════════════════════════════════════
+generation_guide:
+  philosophy: |
+    Dada ≠ 混乱。Dada = 有意识的反意义结构 (anti-meaning structure)。
+    Agent 必须避免纯粹的随机堆砌，而应通过"概念整合理论 (Conceptual Blending Theory)"
+    系统性地构造语义冲突，制造摧毁功能暗示 (Affordance) 却引人深思的视觉隐喻。
+
+  pipeline_steps:
+    step_1_semantic_collision: |
+      选择两个不兼容的概念 (Input A: 具象实体 + Input B: 对抗领域)。
+      定义冲突关系: 融合 (Fusion) 或 对立 (Conflict)。
+      案例: A=人类手指, B=齿轮 → 关系=融合 (手指变成机械零件)
+    step_2_transformation: |
+      破坏 Affordance：功能倒置 / 比例错乱 / 环境剥除。
+      案例: 梯子悬空指向虚无；水龙头流出穿孔纸带。
+    step_3_tension_overlay: |
+      注入 Kandinsky 几何，依据下方 state_mapping 选择形状与色彩。
+      画面呈绝对不对称: 一侧厚重旧影像 ↔ 另一侧高对比纯色几何体。
+      以极细黑色直线 (弦) 穿插连接两者。
+    step_4_render: |
+      锁定: "1920s Constructivist vintage photomontage"
+      背景色值: pale warm cream canvas #F4F0E6
+      负面控制: --no minimalism, Dutch grid, De Stijl
+
+  # Kandinsky 形状→情绪→UI 状态映射
+  state_mapping:
+    success:
+      emotion: "流畅、平稳、延续"
+      geometry: "重叠半透明同心圆"
+      color: "secondary (#384E77 普鲁士蓝)"
+    warning:
+      emotion: "能量、侵略、警觉"
+      geometry: "浮动偏心多边形"
+      color: "primary (#E6B828 芥末黄)"
+    error:
+      emotion: "紧张、迫切、危险"
+      geometry: "锐角三角形 + 斜交叉线"
+      color: "tertiary (#C84B31 砖红)"
+    neutral:
+      emotion: "稳定、可靠"
+      geometry: "精密矩形框架"
+      color: "divider (#CFCAC2 柔灰)"
+
+  # Dry-run 范例
+  example_memory_leak: |
+    Context: 教学幻灯片讲到内存泄露宕机 (Error 状态)。
+    Step 1: A=滴水旧式水龙头, B=穿孔计算机纸带 → Conflict
+    Step 2: 水龙头巨大，流出燃烧的纸带 (比例错乱 + 功能倒置)
+    Step 3: Error → 砖红锐角倒三角刺穿纸带，芥末黄斜线斩断，极度不对称
+    Step 4: "1920s Constructivist vintage photomontage, mixed media collage art.
+    A giant vintage metal faucet pouring burning shredded punch cards. Sharp
+    brick-red triangles piercing the cards, mustard-yellow diagonal tension lines.
+    Asymmetrical layout, pale warm cream canvas --no minimalism, Dutch grid --ar 16:9"

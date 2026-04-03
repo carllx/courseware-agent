@@ -1,0 +1,35 @@
+---
+trigger: glob
+description: 规定课程大纲中平常成绩（Normal Score）各分项比例的动态换算与验证断言。
+globs:
+  - "**/course.yaml"
+---
+
+# 规则：平常成绩分值映射与验证 (Assessment Mapping Constraints)
+
+## 1. 背景与核心断言
+
+在过往的大纲设计中，由于误将 `100分` 作为各项比例的静态分母，导致各组件总和经常导致总成绩超限。为了确保生成的大纲数据在教务系统中可以直接換算，必须遵循以下动态断言：
+
+> [!IMPORTANT]
+> **核心验证公式**：
+> `attendance_ratio + Σ(normal_items.ratio) == normal_score_ratio`
+
+- `attendance_ratio`: 出勤表现占比。
+- `normal_items`: 章节测试/实验测试等分项数组。
+- `normal_score_ratio`: 课程定义的平时成绩总占比（通常为 50 或 40）。
+
+## 2. 工程执行准则 (Execution Standards)
+
+1. **禁止硬编码 100 分**：在填写 `normal_items` 的 `ratio` 时，其基准不再是 100%，而是分配剩余的平时分额度。
+2. **示例分配（平时分 50 为例）**：
+   - 出勤占比：10
+   - 测试1：10
+   - 测试2：15
+   - 测试3：15
+   - **合计**：10 + 10 + 15 + 15 = 50 (✅ 合法)
+3. **异常拦截**：一旦发现加和不等于 `normal_score_ratio`，必须主动报错或修正，不得允许不平衡的数据进入 `course.yaml`。
+
+## 3. 对 AI Agent 的约束
+
+Agent 在执行 `/new_course` 脚本生成初始 YAML 或通过推理自动填充分数占比时，**必须优先满足此公式**。如果用户给出的各实验权重之和不符合平时总分，Agent 应按比例进行缩放调整并提醒用户。

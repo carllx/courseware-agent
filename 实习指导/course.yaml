@@ -1,0 +1,24 @@
+course:
+  id: "internship_guidance"
+  name: "实习指导"
+  semester: "2025-2026-2"
+  instructor: "指导教师"
+  hours: "Variable"
+
+structure:
+  type: "phasic"
+  units:
+    - S01_Preparation
+    - S02_Process
+    - S03_Conclusion
+
+knowledge:
+  entry_point: "knowledge/syllabus.md"
+  textbook_dir: "knowledge/textbook/"
+  glossary: "knowledge/glossary.md"
+
+agent:
+  standards:
+    visual_system: "@theme:swiss_typographic"
+  extra_rules: []
+  extra_skills: []

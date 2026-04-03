@@ -1,0 +1,166 @@
+# NFU (广州南方学院) 设计学院 PPT 品牌设计 Token
+# 从官方模板 Template_PPT_16-9.pptx / Template_PPT_4-3.pptx 逆向提取
+
+brand:
+  name_cn: "广州南方学院设计学院"
+  name_en: "SCHOOL OF DESIGN"
+  university_cn: "广州南方学院"
+
+# === 色板 (来源: ppt/theme/theme1.xml) ===
+palette:
+  # 深色系 - 封面/结尾页使用
+  cover_bg: "505050"           # 封面深灰背景主色调（实际为背景图）
+  dk1: "000000"                # 系统窗口文字色
+  dk2: "44546A"                # 深蓝灰
+
+  # 浅色系 - 内容/回顾页使用
+  lt1: "FFFFFF"                # 白色
+  lt2: "E7E6E6"                # 浅灰背景
+  content_bg: "F5F5F5"         # 内容页实际浅灰背景
+
+  # 强调色 - 图表/装饰元素
+  accent1: "4874CB"            # 主蓝色
+  accent2: "EE822F"            # 橙色
+  accent3: "F2BA02"            # 金黄
+  accent4: "75BD42"            # 绿色（模板上缘装饰条用色）
+  accent5: "30C0B4"            # 青色
+  accent6: "E54C5E"            # 红色
+
+  # 文字色
+  text_on_dark: "FFFFFF"       # 深色背景上的文字（封面/结尾页）
+  text_on_light: "595959"      # lumMod=65% lumOff=35% 的 tx1 等效值
+  title_muted: "808080"        # lumMod=50% 的 bg1 等效值（回顾页标题）
+
+  # 链接色
+  hyperlink: "0026E5"
+  followed_link: "7E1FAD"
+
+# === 字体方案 (来源: theme1.xml fontScheme) ===
+typography:
+  cn_primary: "微软雅黑"
+  cn_fallback: "PingFang SC"           # macOS 回退字体
+  en_primary: "Calibri"
+  panose: "020B0503020204020204"
+  charset: -122                         # GB2312
+
+  # 字号规范 (单位: 百分之一磅, 即 sz 值)
+  cover_title_sz: 6600                  # 66pt - 封面课程名称
+  section_title_sz: 3600                # 36pt - 知识点标题
+  page_title_sz: 2400                   # 24pt - 回顾/目录页标题
+  body_sz: 2000                         # 20pt - 正文
+  meta_sz: 1800                         # 18pt - 默认正文
+  small_sz: 1200                        # 12pt - 章/节/注释
+
+  # 行距
+  cover_line_spacing_pct: 100           # 封面标题行距 100%
+  meta_line_spacing_pct: 160            # 封面元数据行距 160%
+  content_line_spacing_pct: 115         # 内容正文行距 115%
+  section_line_spacing_pct: 150         # 章节头行距 150%
+
+# === 布局尺寸 (单位: EMU, 1英寸 = 914400 EMU) ===
+layout:
+  "16:9":
+    slide_width: 12192000               # 约 13.33 英寸
+    slide_height: 6858000               # 约 7.5 英寸
+
+    # 封面/结尾页 - 文本框位置
+    cover_text:
+      x: 565150
+      y: 800100
+      cx: 11031855
+      cy: 4507865
+
+    # Logo 组合位置（右下角，校徽+院标+SCHOOL OF DESIGN）
+    logo:
+      x: 8952230
+      y: 5230495
+      cx: 3239770
+      cy: 1627505
+
+    # 回顾页标题位置
+    review_title:
+      x: 801370
+      y: 946150
+      cx: 7971790
+      cy: 622300
+
+    # 回顾页内容区域
+    review_content:
+      x: 3670300
+      y: 2224405
+      cx: 7912100
+      cy: 3342640
+
+    # 章节头位置
+    section_meta:
+      x: 484505
+      y: 398780
+      cx: 3243580
+      cy: 759460
+
+  "4:3":
+    slide_width: 9144000                # 约 10 英寸
+    slide_height: 6858000               # 约 7.5 英寸
+
+# === 媒体素材清单 ===
+media:
+  cover_bg:
+    file: "image1.jpeg"                 # 封面深灰背景 + 左下角 SCHOOL OF DESIGN 大字
+    desc: "PPT模版-14"
+  logo_combo:
+    file: "image2.png"                  # 校徽 + "广州南方学院 设计学院" + 英文院名
+    desc: "PPT模版-13"
+  content_bg:
+    file: "image3.jpeg"                 # 白色内容页底图 + 左下角翻页效果
+    desc: "PPT模版-15"
+  # image4.png 是示例思维导图，非品牌素材，不纳入
+
+# === 页面类型定义 ===
+slide_types:
+  cover:
+    desc: "封面页 - 深灰背景，课程名称/编号/教师/学期"
+    bg: "cover_bg"
+    logo: true
+    source_slide: [1, 13]               # 对应原模板的 slide 编号
+
+  review:
+    desc: "回顾页 - 浅灰背景，知识点列表"
+    bg: "content_bg"
+    logo: false
+    source_slide: [2, 8]
+
+  toc:
+    desc: "目录页 - 浅灰背景，章/节缩进列表"
+    bg: "content_bg"
+    logo: false
+    source_slide: [3]
+
+  section:
+    desc: "章节头页 - 白色简洁，章/节标题"
+    bg: null
+    logo: false
+    source_slide: [4]
+
+  content:
+    desc: "内容页 - 白色背景，支持文+图多种布局"
+    bg: null
+    logo: false
+    source_slide: [5, 6, 7]
+
+  reference:
+    desc: "引用/拓展页 - 浅灰背景，文献/书籍/网址"
+    bg: "content_bg"
+    logo: false
+    source_slide: [9, 10]
+
+  assignment:
+    desc: "作业页 - 浅灰背景，作业内容/提交要求/时间"
+    bg: "content_bg"
+    logo: false
+    source_slide: [11]
+
+  ending:
+    desc: "结尾页 - 深灰背景，联系方式"
+    bg: "cover_bg"
+    logo: true
+    source_slide: [12]

@@ -1,0 +1,65 @@
+{
+    "version": "1.0",
+    "workspace": {
+        "name": "2025-2026-2 课程",
+        "semester": "2025-2026-2"
+    },
+    "courses": [
+        {
+            "id": "internship_guidance",
+            "name": "实习指导",
+            "path": "实习指导",
+            "status": "active"
+        },
+        {
+            "id": "interaction_design",
+            "name": "交互产品开发",
+            "path": "交互产品开发",
+            "status": "configured"
+        },
+        {
+            "id": "info_visualization",
+            "name": "信息可视化",
+            "path": "信息可视化",
+            "status": "configured"
+        }
+    ],
+    "skills": [
+        {
+            "id": "agent-architect",
+            "name": "Agent Architect",
+            "path": "skills/agent-architect",
+            "description": "创建、编辑和管理 Antigravity IDE 的三大扩展机制（Rule/Workflow/Skill）"
+        },
+        {
+            "id": "script-format",
+            "name": "Script Format",
+            "path": "skills/script_format",
+            "description": "脚本格式规范"
+        },
+        {
+            "id": "narrative-archaeologist",
+            "name": "Narrative Archaeologist",
+            "path": "skills/narrative_archaeologist",
+            "description": "叙事考古/概念发掘"
+        },
+        {
+            "id": "validation-suite",
+            "name": "Validation Suite",
+            "path": "skills/validation_suite",
+            "description": "验证套件（链接/时长/语法）"
+        },
+        {
+            "id": "librarian",
+            "name": "Librarian",
+            "path": "skills/librarian",
+            "description": "知识枢纽查询引擎（三层漏斗：hub扫描 → search_knowledge → view_file段落）"
+        },
+        {
+            "id": "pptx-nfu-branded",
+            "name": "NFU Branded PPTX",
+            "path": "skills/pptx-nfu-branded",
+            "description": "NFU 南方学院品牌 PPTX 模板注入（封面/主题色/校徽/字体）"
+        }
+    ]
+}

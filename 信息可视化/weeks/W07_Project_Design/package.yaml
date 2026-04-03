@@ -1,0 +1,30 @@
+week: 7
+topic: 洞察与共鸣：从宏大议题到人文关怀的原型设计
+title: 洞察与共鸣：从宏大议题到人文关怀的原型设计
+theory_hours: 3
+practice_hours: 2
+objectives:
+- 学习《信息可视化设计》第六章中关于社会焦点案例的整合信息设计
+- 学习运用 Munzner Ch4 的嵌套模型 (Nested Model) 验证设计思路
+- 基于文化保护或生态等社会议题开展宏大数据的搜索与意向搜集
+- 完成项目的自然语言逻辑推演以及交互低保真设计 Critique 互评
+created: 2026-02-21
+status: ready
+tags:
+- hao-ch6-social-projects
+- ch04-validation
+- nested-model-validation
+- social-issue-data-research
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_为什么要做宏大议题.md
+- id: M02
+  src: src/M02_嵌套模型_防御设计的级联崩塌.md
+- id: M03
+  src: src/M03_狂野的数据工程与_AI_净化室.md
+- id: M04
+  src: src/M04_架构解体，如何向机器描绘宏大工程.md

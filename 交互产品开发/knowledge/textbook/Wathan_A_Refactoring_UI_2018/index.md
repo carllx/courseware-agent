@@ -1,0 +1,155 @@
+# Table of Contents
+
+> Generated from source TOC
+
+- [Starting from Scratch](chapter_01_Starting_from_Scratch.md)
+- Start with a feature, not a layout
+- [Detail comes later](chapter_02_Detail_comes_later.md)
+- [Don’t design too much](chapter_03_Don_t_design_too_much.md)
+- [Choose a personality](chapter_04_Choose_a_personality.md)
+- [Limit your choices](chapter_05_Limit_your_choices.md)
+- [Hierarchy is Everything](chapter_06_Hierarchy_is_Everything.md)
+- Not all elements are equal
+- [Size isn’t everything](chapter_07_Size_isn_t_everything.md)
+- [Don’t use grey text on colored backgrounds](chapter_08_Don_t_use_grey_text_on_colored_backgrounds.md)
+- [Emphasize by de-emphasizing](chapter_09_Emphasize_by_de_emphasizing.md)
+- [Labels are a last resort](chapter_10_Labels_are_a_last_resort.md)
+- [Separate visual hierarchy from document hierarchy](chapter_11_Separate_visual_hierarchy_from_document_hierarchy.md)
+- [Balance weight and contrast](chapter_12_Balance_weight_and_contrast.md)
+- [Semantics are secondary](chapter_13_Semantics_are_secondary.md)
+- [Layout and Spacing](chapter_14_Layout_and_Spacing.md)
+- Start with too much white space
+- [Establish a spacing and sizing system](chapter_15_Establish_a_spacing_and_sizing_system.md)
+- [You don’t have to fill the whole screen](chapter_16_You_don_t_have_to_fill_the_whole_screen.md)
+- [Grids are overrated](chapter_17_Grids_are_overrated.md)
+- [Relative sizing doesn’t scale](chapter_18_Relative_sizing_doesn_t_scale.md)
+- [Avoid ambiguous spacing](chapter_19_Avoid_ambiguous_spacing.md)
+- [Designing Text](chapter_20_Designing_Text.md)
+- Establish a type scale
+- [Use good fonts](chapter_21_Use_good_fonts.md)
+- [Keep your line length in check](chapter_22_Keep_your_line_length_in_check.md)
+- [Baseline, not center](chapter_23_Baseline_not_center.md)
+- [Line-height is proportional](chapter_24_Line_height_is_proportional.md)
+- [Not every link needs a color](chapter_25_Not_every_link_needs_a_color.md)
+- [Align with readability in mind](chapter_27_Align_with_readability_in_mind.md)
+- [Use letter-spacing effectively](chapter_28_Use_letter_spacing_effectively.md)
+- [Working with Color](chapter_29_Working_with_Color.md)
+- Ditch hex for HSL
+- [You need more colors than you think](chapter_30_You_need_more_colors_than_you_think.md)
+- [Define your shades up front](chapter_31_Define_your_shades_up_front.md)
+- [Don’t let lightness kill your saturation](chapter_32_Don_t_let_lightness_kill_your_saturation.md)
+- [Greys don’t have to be grey](chapter_33_Greys_don_t_have_to_be_grey.md)
+- [Accessible doesn’t have to mean ugly](chapter_34_Accessible_doesn_t_have_to_mean_ugly.md)
+- [Don’t rely on color alone](chapter_35_Don_t_rely_on_color_alone.md)
+- [Creating Depth](chapter_36_Creating_Depth.md)
+- Emulate a light source
+- [Use shadows to convey elevation](chapter_37_Use_shadows_to_convey_elevation.md)
+- [Shadows can have two parts](chapter_38_Shadows_can_have_two_parts.md)
+- [Even flat designs can have depth](chapter_39_Even_flat_designs_can_have_depth.md)
+- [Overlap elements to create layers](chapter_40_Overlap_elements_to_create_layers.md)
+- [Working with Images](chapter_41_Working_with_Images.md)
+- Use good photos
+- [Text needs consistent contrast](chapter_42_Text_needs_consistent_contrast.md)
+- [Everything has an intended size](chapter_43_Everything_has_an_intended_size.md)
+- [Beware user-uploaded content](chapter_44_Beware_user_uploaded_content.md)
+- [Finishing Touches](chapter_45_Finishing_Touches.md)
+- Supercharge the defaults
+- [Add color with accent borders](chapter_46_Add_color_with_accent_borders.md)
+- [Decorate your backgrounds](chapter_47_Decorate_your_backgrounds.md)
+- [Don’t overlook empty states](chapter_48_Don_t_overlook_empty_states.md)
+- [Use fewer borders](chapter_49_Use_fewer_borders.md)
+- [Think outside the box](chapter_50_Think_outside_the_box.md)
+- [Leveling Up](chapter_51_Leveling_Up.md)
+- Start with a feature, not a layout
+- Hell, you might not even need that other stuff anyways — it worked for Google
+- 13 Detail comes later By designing in grayscale, you’re forced to use spacing, contrast, and size to do all of the heavy lifting. It’s a little more challenging, but you’ll end up with a clearer interface with a strong hierarchy that’s easy to enhance with color later. Detail comes later
+- Don’t over-invest The whole point of designing in low-fidelity is to be able to move fast, so you can start building the real thing as soon as possible. Sketches and wireframes are disposable — users can’t do anything with static mockups. Use them to explore your ideas, and leave them behind when you’ve made a decision
+- [Don’t design too much](chapter_03_Don_t_design_too_much.md)
+- [Choose a personality](chapter_04_Choose_a_personality.md)
+- [Choose a personality](chapter_04_Choose_a_personality.md)
+- [Choose a personality](chapter_04_Choose_a_personality.md)
+- …while using friendlier, more casual language makes a site feel, well, friendlier: Words are everywhere in a user interface, and choosing the right ones is just as (if not more) important than choosing the right color or typeface. Deciding what you actually want A lot of the time you’ll probably just have a gut feeling for the personality you’re going for. But if you don’t, a great way to simplify the decision is to take a look at other sites used by the people who want to reach. If they are mostly pretty “serious business”, maybe that’s how your site should look too. If they are more playful with a bit of humor, maybe that’s a better direction to take. Just try not to borrow too much from direct competitors, you don’t want to look like a second-rate version of something else
+- [Limit your choices](chapter_05_Limit_your_choices.md)
+- 31 Limit your choices If one of the outer options looks best, do another comparison using that option as the “middle” value and make sure there’s not a better choice. This approach works for anything where you’ve defined a system. When you’re limited to a set of options that all look noticeably different, picking the best one is a piece of cake. Systematize everything The more systems you have in place, the faster you’ll be able to work and the less you’ll second guess your own decisions. You’ll want systems for things like: • Font size • Font weight • Line height • Color • Margin • Padding • Width • Height • Box shadows Limit your choices
+- [Size isn’t everything](chapter_07_Size_isn_t_everything.md)
+- Try and stick to two or three colors: • A dark color for primary content (like the headline of an article) • A grey for secondary content (like the date an article was published) • A lighter grey for tertiary content (maybe the copyright notice in a footer) Similarly, two font weights are usually enough for UI work: • A normal font weight (400 or 500 depending on the font) for most text • A heavier font weight (600 or 700) for text you want to emphasize Stay away from font weights under 400 for UI work — they can work for large headings but are too hard to read at smaller sizes. If you’re considering
+- [Don’t use grey text on colored backgrounds](chapter_08_Don_t_use_grey_text_on_colored_backgrounds.md)
+- Even worse, using this approach on top of an image or pattern means the background will show through the text: A better approach is to hand-pick a new color, based on the background color. Choose a color with the same hue, and adjust the saturation and lightness until it looks right to you: Hand-picking a color this way makes it easy to reduce the contrast without the text looking faded
+- [Labels are a last resort](chapter_10_Labels_are_a_last_resort.md)
+- 51 Labels are a last resort In these situations, add the label, but treat it as supporting content. The data itself is what matters, the label is just there for clarity. De-emphasize the label by making it smaller, reducing the contrast, using a lighter font weight, or some combination of all three. When to emphasize a label If you’re designing an interface where you know the user will be looking for the label, it might make sense to the emphasize the label instead of the data. This is often the case on information-dense pages, like the technical specifications of a product. If a user is trying to find out the dimensions of a smartphone, they’re probably scanning the page for words like “depth”, not “7.6mm”. Labels are a last resort
+- Don’t de-emphasize the data too much in these scenarios; it’s still important information. Simply using a darker color for the label and a slightly lighter color for the value is often enough
+- [Balance weight and contrast](chapter_12_Balance_weight_and_contrast.md)
+- [Semantics are secondary](chapter_13_Semantics_are_secondary.md)
+- Start with too much white space
+- [Establish a spacing and sizing system](chapter_15_Establish_a_spacing_and_sizing_system.md)
+- [Establish a spacing and sizing system](chapter_15_Establish_a_spacing_and_sizing_system.md)
+- Need to add some space under an element? Grab a value from your scale and try it out. Not quite enough? The next value is probably perfect. While the workflow improvements are probably the biggest benefit, you’ll also start to notice a subtle consistency in your designs that wasn’t there before, and things will look just a little bit cleaner. A spacing and sizing system will help you create better designs, with less effort, in less time. Design advice doesn’t get much more valuable than that
+- [You don’t have to fill the whole screen](chapter_16_You_don_t_have_to_fill_the_whole_screen.md)
+- [You don’t have to fill the whole screen](chapter_16_You_don_t_have_to_fill_the_whole_screen.md)
+- 81 You don’t have to fill the whole screen If you wanted to make better use of the available space without making the form harder to use, you could break the supporting text out into a separate column: This makes the design feel more balanced and consistent without compromising on the optimal width for the form itself. You don’t have to fill the whole screen
+- Don’t force it Just like you shouldn’t worry about filling the whole screen, you shouldn’t try to cram everything into a small area unnecessarily either. If you need a lot of space, go for it! Just don’t feel obligated to fill it if you don’t have to
+- [Grids are overrated](chapter_17_Grids_are_overrated.md)
+- [Grids are overrated](chapter_17_Grids_are_overrated.md)
+- [Grids are overrated](chapter_17_Grids_are_overrated.md)
+- Don’t be a slave to the grid — give your components the space they need and don’t make any compromises until it’s actually necessary
+- Relative sizing doesn’t scale It’s tempting to believe that every part of an interface should be sized relative to one another, and that if element A needs to shrink by 25% on smaller screens, that element B should shrink by 25%, too. For example, say you’re designing an article at a large screen size. If your body copy is 18px and your headlines are 45px, it’s tempting to encode that relationship by defining your headline size as 2.5em; 2
+- [Relative sizing doesn’t scale](chapter_18_Relative_sizing_doesn_t_scale.md)
+- [Avoid ambiguous spacing](chapter_19_Avoid_ambiguous_spacing.md)
+- between font sizes are useful at the bottom of the scale, but you don’t want to waste time deciding between 46px and 48px for a large headline. Modular scales One approach is to calculate your type scale using a ratio, like 4:5 (a “major third”), 2:3 (a “perfect fifth”), or perhaps the “golden ratio”, 1:1.618. This is often called a “modular scale”. You start with a sensible base value (16px is common since it’s the default font size for most browsers), apply your ratio to get the next value, then apply your ratio to that value to get the next value, and so on and so forth: Establish a type scale
+- Establish a type scale
+- Avoid em units When you’re building a type scale, don’t use em units to define your sizes. Because em units are relative to the current font size, the computed font size of nested elements is often not actually a value in your scale. For example, say you’ve defined an em-based type scale like this:
+- [Use good fonts](chapter_21_Use_good_fonts.md)
+- 111 Use good fonts Leveraging the collective decision-making power of thousands of other people can make it a lot easier. Steal from people who care Inspect some of your favorite sites and see what typefaces they are using. Use good fonts
+- There are a lot of great design teams out there full of people with really strong opinions about typography, and they’ll often choose great fonts that you might have never found using some of the safer approaches outlined above. Developing your intuition Once you start paying closer attention to the typography on well-designed sites, it’s not long before you feel pretty comfortable labeling a typeface as awesome or terrible. You’re gonna be a type snob soon enough, but the advice outlined above will help get you by in the meantime
+- [Keep your line length in check](chapter_22_Keep_your_line_length_in_check.md)
+- It might seem counterintuitive at first to use different widths in the same content area, but the result almost always looks more polished
+- [Baseline, not center](chapter_23_Baseline_not_center.md)
+- When you align mixed font sizes by their baseline, you’re taking advantage of an alignment reference that your eyes already perceive. The result is a simpler, cleaner look than what you get when you center two pieces of text and offset their baselines
+- [Line-height is proportional](chapter_24_Line_height_is_proportional.md)
+- [Align with readability in mind](chapter_27_Align_with_readability_in_mind.md)
+- [Use letter-spacing effectively](chapter_28_Use_letter_spacing_effectively.md)
+- Ditch hex for HSL
+- Lightness is just what it sounds like — it measures how close a color is to black or to white. 0% lightness is pure black, 100% lightness is pure white, and 50% lightness is a pure color at the given hue. HSL vs. HSB Don’t confuse HSL for HSB — lightness in HSL is not the same than brightness in HSB. In HSB, 0% brightness is always black, but 100% brightness is only white when the saturation is 0%. When saturation is 100%, 100% brightness in HSB is the same as 100% saturation and 50% lightness in HSL
+- [You need more colors than you think](chapter_30_You_need_more_colors_than_you_think.md)
+- [You need more colors than you think](chapter_30_You_need_more_colors_than_you_think.md)
+- You might also need colors to emphasize different semantic states, like red for confirming a destructive action: …yellow for a warning message: …or green to highlight a positive trend:
+- Define your shades up front When you need to create a lighter or darker variation of a color in your palette, don’t get clever using CSS preprocessor functions like “lighten” or “darken” to create shades on the fly. That’s how you end up with
+- [Define your shades up front](chapter_31_Define_your_shades_up_front.md)
+- [Don’t let lightness kill your saturation](chapter_32_Don_t_let_lightness_kill_your_saturation.md)
+- [Don’t let lightness kill your saturation](chapter_32_Don_t_let_lightness_kill_your_saturation.md)
+- To make a color darker, rotate the hue towards the nearest dark hue — 0°, 120°, or 240°. This can be really useful when trying to create a palette for a light color like yellow. By gradually rotating the hue towards more of an orange as you decrease the lightness, the darker shades will feel warm and rich instead of dull and brown: You can of course combine these approaches too, getting some of the brightness by adjusting the hue and some from adjusting the lightness
+- 159 Greys don’t have to be grey Color temperature If you’ve ever purchased light bulbs before, you’ve had to make the decision between “warm white” bulbs that give off a yellow-ish light, and “cool white” bulbs that give off a blue-ish light. Saturating greys in a user interface works in a similar same way. If you want your greys to feel cool, saturate them with a bit of blue: To give your greys a warmer feel, saturate them with a bit of yellow or orange: Greys don’t have to be grey
+- To maintain a consistent temperature, don’t forget to increase the saturation for the lighter and darker shades. If you don’t, those shades will look a bit washed out compared to the greys that are closer to 50% lightness. How much you want to saturate your greys is completely up to you — add just a little if you only want to tip the temperature slightly, or crank it up if you want the interface to lean strongly in one direction or the other
+- [Accessible doesn’t have to mean ugly](chapter_34_Accessible_doesn_t_have_to_mean_ugly.md)
+- [Don’t rely on color alone](chapter_35_Don_t_rely_on_color_alone.md)
+- Emulate a light source
+- Emulate a light source
+- Emulate a light source
+- The area above the well should block some of the light from reaching the very top of the well, so add a small dark inset box shadow with a slight positive vertical offset to make sure it doesn’t poke through at the bottom: This same treatment works for any element that may need to appear inset, for example text inputs and checkboxes:
+- [Use shadows to convey elevation](chapter_37_Use_shadows_to_convey_elevation.md)
+- [Use shadows to convey elevation](chapter_37_Use_shadows_to_convey_elevation.md)
+- Similarly, you can make a button feel like it’s being pressed into the page when a user clicks it by switching to a smaller shadow, or perhaps removing the shadow altogether: Using shadows in a meaningful way like this is a great way to hack the process of choosing what sort of shadow an element should have. Don’t think about the shadow itself, think about where you want the element to sit on the z-axis and assign it a shadow accordingly
+- [Shadows can have two parts](chapter_38_Shadows_can_have_two_parts.md)
+- [Even flat designs can have depth](chapter_39_Even_flat_designs_can_have_depth.md)
+- Using solid shadows Another way to communicate depth in a flat design is to use short, vertically offset shadows with no blur radius at all. It’s a great way to make a card or button stand off the page a little bit without sacrificing that flat aesthetic
+- [Overlap elements to create layers](chapter_40_Overlap_elements_to_create_layers.md)
+- Use good photos Bad photos will ruin a design, even if everything else about it looks great. If your design needs photography and you’re not a talented photographer, you’ve got two options: 1\. Hire a professional photographer. If you need very specific photos for your project, entrust a professional. Taking great photos isn’t just about using an expensive camera, it’s about lighting, composition, color — skills that take years to develop
+- [Text needs consistent contrast](chapter_42_Text_needs_consistent_contrast.md)
+- [Text needs consistent contrast](chapter_42_Text_needs_consistent_contrast.md)
+- Add a text shadow If you want to preserve a bit more of the dynamics in a background image, a text shadow can be a great way to increase contrast only where you need it most. You want it to look more like a subtle glow than an actual shadow, so use a large blur radius and don’t add any kind of offset. It’s still a good idea to reduce the overall image contrast, but combining that with a text shadow means you can reduce it a little less
+- [Everything has an intended size](chapter_43_Everything_has_an_intended_size.md)
+- [Everything has an intended size](chapter_43_Everything_has_an_intended_size.md)
+- [Beware user-uploaded content](chapter_44_Beware_user_uploaded_content.md)
+- Supercharge the defaults
+- If you’re working on a form, using custom checkboxes and radio buttons is an easy way to add some color to the design: Just using one of your brand colors for the selected states instead of the browser defaults is often enough to take something from feeling boring to feeling polished and well-designed
+- [Add color with accent borders](chapter_46_Add_color_with_accent_borders.md)
+- …or even across the top of your entire layout: It doesn’t take any graphic design talent to add a colored rectangle to your UI, and it can go a long way towards making something feel more “designed.”
+- [Decorate your backgrounds](chapter_47_Decorate_your_backgrounds.md)
+- [Decorate your backgrounds](chapter_47_Decorate_your_backgrounds.md)
+- You can even do something more complex, like a simplified world map: Just like with a full background pattern, it’s best to keep the contrast low so nothing interferes with the content
+- [Don’t overlook empty states](chapter_48_Don_t_overlook_empty_states.md)
+- If you’re working on something that has a bunch of supporting UI like tabs or filters, consider hiding that stuff entirely. There’s no point in presenting a bunch of actions that don’t do anything until the user has created some content. Empty states are a user’s first interaction with a new product or feature. Use them as an opportunity to be interesting and exciting — don’t settle for plain and boring
+- [Use fewer borders](chapter_49_Use_fewer_borders.md)
+- [Think outside the box](chapter_50_Think_outside_the_box.md)
+- [Think outside the box](chapter_50_Think_outside_the_box.md)
+- [Leveling up](chapter_51_Leveling_Up.md)

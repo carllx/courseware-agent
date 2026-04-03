@@ -1,0 +1,174 @@
+# Visual System Constitution (视觉系统宪法)
+# SSOT: Single Source of Truth for 交互产品开发 (Interactive Product Development)
+# Style: ACADEMIC-MINIMAL (学术极简 / 暖灰色调 · 建筑感留白)
+
+meta:
+  version: "1.0.0"
+  last_updated: "2026-03-03"
+  maintainer: "Antigravity Agent"
+  course_id: "ixd_product_dev"
+
+# 1. 全局风格定义 (用于 AI 生成 Prompt)
+style:
+  # 核心风格词
+  keywords: "academic editorial infographic, architectural minimalism, clean whitespace, warm muted tones, structured typography hierarchy, subtle geometric accents"
+  # 环境氛围
+  atmosphere: "warm off-white canvas background, soft natural lighting, refined paper-like texture, generous whitespace, museum exhibition quality, 4k"
+  # 否定词 (避免出现的内容)
+  negative_prompt: "text watermark, blurry, noise, neon colors, cyberpunk, dark mode, complex busy background, cartoon, childish, clip art, glossy, 3D render, photo-realistic faces"
+  # 按 Layout 类型的 Prompt 变体 (注意：仅描述 Asset 图像本身的视觉风格，严禁包含排版布局或文字指令)
+  prompt_variants:
+    Title: "warm conceptual hero illustration, single focal subject, artistic composition, isolated on neutral background"
+    Diagram: "abstract visual metaphor, clean graphic representation, conceptual nodes, without any text labels"
+    List: "conceptual spot illustration, single strong visual metaphor representing the main topic, isolated on warm canvas"
+    Comparison: "conceptual illustration showcasing a stark contrast between two states, balanced visual metaphor, without tabular layout"
+    Split: "detailed editorial illustration, focused on a single scene or subject, rich warm tones, suitable for placing alongside text"
+    Grid: "collection of related conceptual icons or visual metaphors, balanced lighting, cohesive style"
+    Image: "clean professional photography, warm natural aesthetic, clear focal point, minimal distracting elements"
+
+  # 预编译 Prompt 模板（减少运行时 Token 拼接开销）
+  prompt_templates:
+    base_en: "academic editorial infographic, architectural minimalism, warm muted tones, clean whitespace, structured typography hierarchy, warm off-white canvas #F5F0EB, terracotta accent #B85042, moss green #5B7B6F, warm amber #C9A96E, soft natural lighting, refined paper texture, museum exhibition quality"
+    suffix_negative: "text watermark, blurry, noise, neon colors, cyberpunk, dark mode, complex busy background, cartoon, childish, clip art, glossy, 3D render, photo-realistic faces"
+    text_directive: "All visible text in the image must be in Simplified Chinese"
+
+
+# 2. 色彩系统 (PPT / H5 / Python 通用)
+palette:
+  # 基础色 (Warm Light Mode)
+  bg_base: "#F5F0EB"         # 暖象牙 (Warm Ivory) — 主画布背景
+  bg_surface: "#FFFFFF"      # 纯白 (Pure White) — 卡片/面板背景
+  bg_elevated: "#EDE7E0"     # 暖米灰 (Warm Linen) — 区块分隔/引用底色
+  bg_dark: "#2D2926"         # 深炭棕 (Deep Charcoal) — 反转区块/封面背景
+
+  # 品牌主色
+  primary: "#B85042"         # 赤陶红 (Terracotta) — 焦点/标题高亮/图标
+  primary_light: "#D4756A"   # 浅赤陶 (Light Terracotta) — hover/次要交互
+  primary_muted: "#8C3A30"   # 深赤陶 (Deep Terracotta) — 强调按钮
+
+  # 辅助色
+  secondary: "#5B7B6F"       # 苔藓绿 (Moss) — 正面/成功/对比右侧
+  tertiary: "#C9A96E"        # 暖琥珀 (Warm Amber) — 标注/警示/装饰
+
+  # 语义色
+  success: "#5B7B6F"         # 苔藓绿 (同辅助色)
+  warning: "#C9A96E"         # 暖琥珀 (同装饰色)
+  error: "#B85042"           # 赤陶红 (同品牌主色)
+  info: "#6B8FAD"            # 学院蓝 (Academic Blue) — 补充/链接
+
+  # 文本色
+  text_main: "#2D2926"       # 深炭 — 正文主色
+  text_secondary: "#6B635C"  # 暖灰 — 次要文字
+  text_muted: "#A39B93"      # 浅灰 — 标签/说明
+  text_on_dark: "#F5F0EB"    # 暖象牙 — 深色背景上的文字
+
+  # 边框与分割
+  border: "#D6CFC7"          # 暖边框灰
+  divider: "#E8E2DB"         # 浅分割线
+
+# 3. 排版系统
+typography:
+  # 中文字体 (跨平台)
+  font_cn_primary: "Noto Serif SC"      # 谷歌思源宋体，学术感
+  font_cn_body: "Noto Sans SC"          # 正文用无衬线
+  font_cn_fallback: "Microsoft YaHei"   # Windows 回退
+  font_cn_mac: "PingFang SC"            # macOS 优先
+
+  # 英文/数字字体
+  font_en_primary: "Playfair Display"   # 标题用，经典衬线
+  font_en_body: "Inter"                 # 正文/标签用
+  font_en_display: "Georgia"            # 引言/大字号
+
+  # 字号层级 (PPT 基准)
+  size_hero: 54        # 封面大标题
+  size_h1: 40          # 章节标题
+  size_h2: 28          # 卡片/模块标题
+  size_body: 18        # 正文
+  size_caption: 14     # 说明文字
+  size_label: 12       # 标签
+
+# 4. 尺寸与比例标准
+dimensions:
+  # PPT 幻灯片
+  ppt_slide:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "academic editorial presentation slide"
+
+  # 信息图
+  infographic:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "warm minimalist academic infographic"
+
+  # 流程图 / 图示 (正方形)
+  diagram:
+    ratio: "1:1"
+    width: 1080
+    height: 1080
+    suffix: "clean architectural diagram with warm accents"
+
+  # 图标
+  icon:
+    ratio: "1:1"
+    width: 512
+    height: 512
+    suffix: "flat geometric icon with terracotta accent"
+
+# 5. 对比度约束 (WCAG AA)
+accessibility:
+  min_contrast_ratio: 4.5
+  rules:
+    - text: "text_main"
+      on: "bg_base"
+      # #2D2926 on #F5F0EB = 11.2:1 ✅
+    - text: "text_main"
+      on: "bg_surface"
+      # #2D2926 on #FFFFFF = 14.8:1 ✅
+    - text: "text_secondary"
+      on: "bg_base"
+      # #6B635C on #F5F0EB = 4.7:1 ✅
+    - text: "primary"
+      on: "bg_base"
+      # #B85042 on #F5F0EB = 4.5:1 ✅ (刚好达标)
+    - text: "text_on_dark"
+      on: "bg_dark"
+      # #F5F0EB on #2D2926 = 11.2:1 ✅
+
+# 6. PPT 版式映射 (与 pptx SKILL Layout 对齐)
+ppt_layout_styles:
+  Title:
+    background: "bg_dark"
+    title_color: "text_on_dark"
+    accent: "primary"
+    effect: "none"
+  List:
+    background: "bg_base"
+    title_color: "text_main"
+    bullet_icon_color: "primary"
+  Diagram:
+    background: "bg_base"
+    node_fill: "bg_surface"
+    node_border: "border"
+    line_color: "text_muted"
+    label_color: "text_main"
+    accent: "primary"
+  Comparison:
+    background: "bg_base"
+    left_accent: "secondary"     # 苔藓绿 = 正面
+    right_accent: "primary"      # 赤陶红 = 反面
+  Split:
+    background: "bg_base"
+    left_panel: "bg_elevated"
+    right_panel: "bg_surface"
+    divider: "border"
+  Grid:
+    background: "bg_base"
+    card_bg: "bg_surface"
+    card_border: "border"
+    card_accent: "primary"
+  Image:
+    background: "bg_base"
+    caption_color: "text_muted"

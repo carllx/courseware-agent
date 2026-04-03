@@ -1,0 +1,640 @@
+# ──────────────────────────────────────────────────────────
+# 人培参考 (Training Plan Reference)
+# ──────────────────────────────────────────────────────────
+# 本课程服务年级: 24级 (2024 入学)
+# 适用人培版本:   2024 人培（数字媒体艺术四年制本科）
+# 人培中课程名:   信息可视化 / 信息可视化设计
+# 人培学分/学时:  3学分 / 60学时 (理30+实30 [2024] / 理20+实40 [2025])
+# 实际开课设置:   2学分 / 40学时 (理20+实20), 以实际排课为准
+# 人培支撑矩阵:
+#   2024版: 毕业要求3(专业知识) ✓, 毕业要求4(基本技能) ✓
+#   2025版: 2.2跨学科知识整合(M), 4.1专业技术实现能力(M), 5.3现代工具应用(M)
+# ──────────────────────────────────────────────────────────
+course:
+  name: 信息可视化设计
+  code: CNFU003847
+  semester: 2025-2026-2
+  nature: 专业选修课
+  credits: 2.0
+  department: 设计学院
+  major: 数字媒体艺术
+  prerequisites: 交互设计基础
+  resources_url: |
+    1.校内在线教学平台（学习通课件发布、作业提交与互动讨论）。
+    2.软件支持：Adobe Illustrator、Figma、Visual Studio Code、Node.js、RAWGraphs、FFmpeg、AI 辅助工具及 Python 运行环境。
+    3.教室与实验室条件：投影设备、多媒体教室、计算机实验室。
+  classes:
+  - name: 24数字媒体艺术影视班
+    archive_id: 45
+    schedule_time: 周五1-5节
+    classroom: 温泉校区 3实208
+    week_range: 1-8
+    official_weeks: 8             # 教务注册周数
+  - name: 24数字媒体艺术游戏班
+    archive_id: 46
+    schedule_time: 周五1-5节
+    schedule_segments:                # ISSUE-010修复：课表确认节次变化
+      - weeks: "10-13"
+        period: "1-5节"
+      - weeks: "14-18"
+        period: "2-5节"
+    classroom: 温泉校区 3实208
+    week_range: 10-18
+    excluded_weeks: [16]          # 端午节停课（2026-06-19），进度表跳过该日期
+    official_weeks: 9             # 教务注册周数（含W16，官方文档用）
+  hours:
+    total: 40
+    theory: 20
+    practice: 20
+    minutes_per_period: 45   # 每节课标准分钟数（MSG-010：教务端校验基准）
+    per_class: true   # ISSUE-002修复：表示单班学时，影视班与游戏班均为 40学时
+  introduction:
+    content: '本课程针对数字媒体艺术（DMA）专业学生，旨在探讨将抽象冷硬的数据转化为富有情感与叙事张力的视觉表达。课程以"信息可视化设计"和"视觉分析基础"为理论基石，引入"Vibe Coding（自然语言驱动编程）"前沿范式。通过学习，学生将掌握从视觉意象构思、自然语言抽象建模到生成式艺术与复杂交互图表呈现的全新工作流，极大拓展数据处理能力与交互艺术表达力。
+
+      '
+    design: '课程结合人文理论讲授与 Vibe 驱动实践，重构传统的"数据→编程→图表"工程路线为"视觉意象设想→自然语言定义→AI引擎生成→交互修改"的艺术打磨流程。前期深耕视觉叙事、符号隐喻与数据艺术理论；中期运用自然语言熟练调度
+      D3.js 与 ECharts 等高低阶框架进行生成创作；后期通过整合社会文化议题的数据调研，完成具有人文关怀与艺术深度的综合交互叙事原型开发与部署。
+
+      '
+teacher:
+  name: 林昕
+  title: 无
+  office: A101
+  department: 数字媒体艺术
+  team: 无    # 课程团队字段：填写协作教师，不含主讲教师本人；如无其他教师则填'无'
+
+objectives:
+  knowledge:
+  - index: 1
+    desc: 解释数据可视化与视觉编码的基本理论，分析数据类型、视觉通道映射规律，并评价跨学科知识在信息可视化设计中的整合策略
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.2 跨学科知识整合
+      support_level: M
+  - index: 2
+    desc: 阐述数据抽象分类体系与 Tidy Data 整洁数据规范，构建面向大语言模型的结构化数据建模策略并验证其有效性
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.1 基础知识掌握
+      support_level: H
+  - index: 3
+    desc: 列举网络拓扑、空间数据与交互操作的可视化原理及其差异，比较 Scrollytelling 叙事架构的设计方法论与传统展示方式的适用场景
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.2 跨学科知识整合
+      support_level: H
+  ability:
+  - index: 1
+    desc: 能够通过自然语言建模，灵活驱动 D3 或 ECharts 等高级框架进行复杂交互叙事的生成
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.1 专业技术实现能力
+      support_level: M
+  - index: 2
+    desc: 能综合运用嵌套模型验证法与数据调研策略，独立完成从议题选择到交互原型设计的全流程规划
+    mappings:
+    - requirement: 3 创造性思维
+      point: 3.2 独立创意思考与原创设计
+      support_level: M
+  - index: 3
+    desc: 能运用矢量精修工具与生成艺术技法，将抽象数据转化为具有视觉冲击力与人文深度的数据艺术作品
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.1 专业技术实现能力
+      support_level: H
+  quality:
+  - index: 1
+    desc: 具备运用现代信息技术手段获取、整理与呈现数据的能力，能以数字信息化手段系统性解决可视化项目问题
+    mappings:
+    - requirement: 5 信息能力
+      point: 5.2 信息收集与筛选
+      support_level: M
+  - index: 2
+    desc: 具备数据治理中的诚信与规范意识，能在数据获取和可视化呈现中坚守学术伦理底线
+    mappings:
+    - requirement: 5 信息能力
+      point: 5.1 信息应用
+      support_level: H
+  - index: 3
+    desc: 能以数据艺术作品关照文化保护与社会公平等议题，在项目展示与互评中体现专业诚信与社会责任意识
+    mappings:
+    - requirement: 6 沟通表达
+      point: 6.2 沟通策略和适应性
+      support_level: M
+student_analysis: |
+  本课程面向数字媒体艺术专业大二学生（24级影视班/游戏班），已完成交互设计基础等先修课程。学生普遍具有较强的视觉审美与数字工具操作能力，但编程基础薄弱，数据处理经验有限。课程通过 Vibe Coding 自然语言驱动范式降低技术门槛，使学生能聚焦于视觉叙事与数据艺术的创意表达。
+semester_config:
+  start_date: '2026-03-02'
+textbooks:
+- title: 信息可视化设计
+  author: 郝亚维, 张博文
+  publisher: 电子工业出版社
+  year: '2023'
+  type: textbook
+  citation: "郝亚维, 张博文. 信息可视化设计[M]. 北京: 电子工业出版社, 2023."
+- title: Visualization Analysis & Design
+  author: Tamara Munzner
+  publisher: CRC Press
+  year: '2014'
+  type: reference
+  citation: "Tamara Munzner. Visualization Analysis & Design[M]. Boca Raton: CRC Press, 2014."
+calendar:
+- week: 1
+  chapter_title: "第一章 数据作为媒介：可视化艺术与 Vibe 范式初探"
+  topic: 数据作为媒介：可视化艺术与 Vibe 范式初探
+  content: 1.1 认知外显：视觉感知与自然语言建模
+  hours_theory: 3
+  hours_practice: 2
+  teaching_requirements:
+    knowledge: 理解数据可视化的基本概念与发展历程，掌握可视化有效性的基本分析框架
+    ability: 初步体验无代码可视化工具与自然语言建模的映射关系
+  focus: 可视化有效性的 What/Why/How 三大基石
+  difficulty: 自然语言到视觉元素的映射关系理解
+  ideology: 结合中国大数据发展战略，认识数据可视化在国家治理与社会服务中的作用
+  teaching_method: 理论讲授、案例演示、工具实操
+  lessons:
+  - topic: 认知外显：视觉感知与自然语言建模
+    objectives:
+    - 解释《信息可视化设计》第一、二章中从壁画到大数据的视觉隐喻演变脉络
+    - 运用 Munzner Ch1 关于可视化有效性的 What/Why/How 框架分析图表设计
+    - 体验 RAWGraphs 等无代码工具的零门槛数据美学
+    - 描述 Vibe Coding 范式的核心理念，初步识别自然语言到视觉元素的映射关系
+    steps:
+    - stage: 导入
+      summary: 首节课开篇介绍课程概况与评估方式，以安斯库姆四重奏案例引入可视化的认知价值
+      minutes: 25
+    - stage: 讲授
+      summary: 视觉感知与前注意处理原理、格式塔原则的图表映射、Vibe Coding 范式介绍
+      ideology: 结合中国大数据发展战略，认识数据可视化在国家治理与社会服务中的作用
+      minutes: 110
+    - stage: 实践
+      summary: RAWGraphs 零代码数据映射实操 + Vibe Coding 初体验（安斯库姆四重奏复现）
+      minutes: 75
+    - stage: 小结
+      summary: 回顾核心概念：可视化是认知外包而非装饰
+      minutes: 15
+  supported_objectives:
+  - 知识1
+  - 素质1
+  task: 使用 RAWGraphs 完成一组数据的可视化探索，导出 SVG 并撰写简短的设计决策说明（约300字）。
+- week: 2
+  chapter_title: "第二章 视觉叙事与符号隐喻"
+  topic: 视觉叙事与符号隐喻
+  content: 2.1 不仅是数据，更是隐喻：构建符号的艺术表达
+  exp_id: 2   # 对应实验2「静态图表设计」启动周
+  hours_theory: 3
+  hours_practice: 2
+  teaching_requirements:
+    knowledge: 掌握视觉标记与通道的有效性法则，理解图表类型的符号隐喻机理
+    ability: 能运用 AI 辅助工具进行基础图表的艺术化生成与矢量精修
+    quality: 培养文化审美自觉，理解中西视觉叙事差异
+  focus: 标记 (Marks) 与通道 (Channels) 的有效性排序法则
+  difficulty: 如何基于数据语义选择恰当的视觉隐喻而非简单堆砌装饰
+  ideology: 对比中西视觉叙事传统中的信息表达差异，培养文化审美自觉
+  teaching_method: 理论讲授、案例对比分析、AI 辅助生成实操、矢量设计实践
+  lessons:
+  - topic: 不仅是数据，更是隐喻：构建符号的艺术表达
+    objectives:
+    - 基于《信息可视化设计》第三章理解图表的时空隐喻与类型选择
+    - 掌握 Munzner Ch5/Ch6 中关于标记 (Marks) 与通道 (Channels) 的有效性法则
+    - 通过 AI 辅助生成基础图表，对比色彩、形状等通道改变带来的艺术情绪差异
+    - 掌握使用 Illustrator 进行矢量输出与排版精修
+    steps:
+    - stage: 复习
+      summary: 回顾 W01 核心概念：可视化作为认知外包，前注意处理原理
+      minutes: 10
+    - stage: 导入
+      summary: 图表类型的时空隐喻——从 Excel 下拉菜单中跳出
+      minutes: 15
+    - stage: 讲授
+      summary: 标记与通道有效性法则、视觉弹出死亡边界、数据墨水比原则与反 3D 饼图
+      ideology: 对比中西视觉叙事传统中的信息表达差异，培养文化审美自觉
+      minutes: 95
+    - stage: 演示
+      summary: 'Mini-Lab 介绍：电影作为数据——Movie Barcode 色彩指纹演示，展示逐帧色彩提取与 Marks/Channels 映射关系（待定拓展实践，详见 knowledge/notes/film-as-data-cinematic-visualization.md）'
+      minutes: 15
+    - stage: 实践
+      summary: AI 辅助图表生成对比实验 + Illustrator SVG 外科手术精修
+      minutes: 75
+    - stage: 小结
+      summary: 总结标记-通道-隐喻三位一体的设计语法
+      minutes: 15
+  supported_objectives:
+  - 知识1
+  - 能力1
+  - 能力3
+  task: 使用 AI 辅助生成一组基础图表（如柱状图/散点图），运用数据墨水比原则进行 Illustrator 矢量精修，提交精修前后对比及设计决策说明。
+- week: 3
+  chapter_title: "第三章 数据提炼与自然语言建模"
+  topic: 数据提炼与自然语言建模 (Specification)
+  content: 3.1 看不见的冰山：从数据抽象到重塑 (Data Abstraction & Tidy Data)
+  exp_id: 1   # 对应实验1「数据获取与清洗」启动周
+  hours_theory: 3
+  hours_practice: 2
+  teaching_requirements:
+    knowledge: 理解数据抽象与任务抽象的理论框架，掌握面向大模型的数据定义策略
+    ability: 能独立完成复杂数据的结构化建模与清洗
+    quality: 培养严谨求实的数据素养，强调数据治理中的诚信与规范意识
+  focus: 数据类型抽象与 Tidy Data 规范化建模
+  difficulty: 如何将非结构化的现实世界数据转化为面向大模型的规范化自然语言描述
+  ideology: 强调数据治理中的诚信与规范意识，培养严谨求实的数据素养
+  teaching_method: 理论讲授、作品解码分析、数据建模实操、AI 辅助清洗演练
+  lessons:
+  - topic: 看不见的冰山：从数据抽象到重塑 (Data Abstraction & Tidy Data)
+    objectives:
+    - 深入理解 Munzner 框架的 What（数据抽象）与 Why（任务抽象）核心体系
+    - 掌握属性类型的精确辨析（量化/序数/分类）及其与 Key/Value 语义的绑定关系
+    - 理解并践行 Hadley Wickham 的 Tidy Data（整洁数据）三原则
+    - 熟练运用自然语言提示词（Prompt），指导 AI 完成复杂宽表到 Tidy Data 的清洗流
+    steps:
+    - stage: 复习
+      summary: 回顾 W02 标记与通道编码原则，引出数据质量对可视化的影响
+      minutes: 10
+    - stage: 导入
+      summary: 展示 AI 面对未处理原始数据时的失败案例，引出数据抽象的必要性
+      minutes: 15
+    - stage: 讲授
+      summary: Munzner 数据抽象分类体系（What）、任务抽象漏斗（Why）、Tidy Data 三原则
+      ideology: 强调数据治理中的诚信与规范意识，培养严谨求实的数据素养
+      minutes: 110
+    - stage: 实践
+      summary: 自然语言结构化 Prompt 驱动 AI 清洗灾难级宽表为 Tidy Data
+      minutes: 75
+    - stage: 小结
+      summary: 总结数据抽象到整洁化的全链路，预告 D3/ECharts 框架
+      minutes: 15
+  supported_objectives:
+  - 知识2   # ISSUE-005修复：W3主题为 Tidy Data = 知识目标 2
+  - 素质1
+  - 素质2
+  task: 从公开数据源获取一份原始宽表数据，利用 LLM Prompt 清洗为 Tidy CSV，并撰写约500字的数据抽象分析（Item/Attribute/Derive 策略）。
+- week: 4
+  chapter_title: "第四章 声明式生成与深层定制的 Vibe 指挥术"
+  topic: 声明式生成 (ECharts) 与深层定制 (D3) 的 Vibe 指挥术
+  content: 4.1 驾驭复杂：高低阶框架的语言驱动策略
+  exp_id: 3   # 对应实验3「交互可视化开发」启动周
+  hours_theory: 2
+  hours_practice: 3
+  teaching_requirements:
+    knowledge: 掌握高低阶可视化框架的核心差异与应用场景
+    ability: 能运用自然语言精准驱动 ECharts 与 D3.js 进行图表生成与深层定制
+    quality: 培养人脑构思架构与 AI 填充代码的 Vibe 工作流协作感
+  focus: ECharts 声明式配置与 D3.js 底层定制的差异化应用策略
+  difficulty: 理解 D3.js 坐标系边界约束并运用 AI 进行精准调试
+  ideology: 以国产开源框架 ECharts 的全球影响力为例，增强技术自信与开源贡献意识
+  teaching_method: 理论讲授、框架对比演示、Vibe Coding 实操、协作调试
+  lessons:
+  - topic: 驾驭复杂：高低阶框架的语言驱动策略
+    objectives:
+    - 掌握 Munzner Ch7 表格数据空间排布的底层原理与布局选项
+    - 利用文本向 AI 精准下达 ECharts 声明式图表的生成与配置要求
+    - 挑战 D3.js 深度视觉定制：理解坐标系边界、比例尺并运用系统排错策略
+    - 培养人脑构思架构与AI填充代码的 Vibe 工作流协作感
+    steps:
+    - stage: 复习
+      summary: 回顾 W03 数据类型体系与 Tidy Data 原则
+      minutes: 10
+    - stage: 导入
+      summary: 从空间排布理论引入：折线图的谎言与饼图的原罪
+      minutes: 15
+    - stage: 讲授
+      summary: Munzner Ch7 表格排布原理、ECharts 声明式架构、D3.js 比例尺与数据绑定
+      ideology: 以国产开源框架 ECharts 的全球影响力为例，增强技术自信与开源贡献意识
+      minutes: 65
+    - stage: 实践
+      summary: AI 驱动 ECharts 急速生成 + D3 幻觉抢修竞速赛 + 双轨范式综合演练
+      minutes: 120
+    - stage: 小结
+      summary: 对比声明式与指令式范式的适用场景，强调排错漏斗策略
+      minutes: 15
+  supported_objectives:
+  - 知识1
+  - 能力1
+  task: 使用 Tidy 数据集完成 ECharts 声明式商业版（含 dataZoom/tooltip）+ D3.js 艺术指令版（非常规映射），提交双 HTML 及排错对话截图。
+- week: 5
+  chapter_title: "第五章 数据情绪与生成艺术"
+  topic: 数据情绪与生成艺术
+  content: 5.1 无形之境：网络拓扑、地缘隐喻与力导向生成艺术
+  hours_theory: 2
+  hours_practice: 3
+  teaching_requirements:
+    knowledge: 理解空间数据与网络结构的拓扑可视化原理，掌握力导向图等生成艺术形态的创作方法
+    ability: 能将抽象情感数据映射为视觉作品
+    quality: 探讨数据艺术的社会责任，结合中国社会网络研究案例
+  focus: 力导向图 (Force-directed) 等具有生成艺术属性的可视化形态
+  difficulty: 如何将抽象的情感数据与粒子系统、动态链接有机结合以实现艺术表达
+  ideology: 结合中国社会网络与文化传播研究案例，探讨数据艺术的社会责任
+  teaching_method: 理论讲授、生成艺术案例赏析、D3 力导向实操、创意表达实验
+  lessons:
+  - topic: 无形之境：网络拓扑、地缘隐喻与力导向生成艺术
+    objectives:
+    - 探索《信息可视化设计》第五章提及的区域与事件地图的艺术表达
+    - 深究 Munzner Ch8/Ch9 空间数据与网络/树状结构的拓扑原理
+    - 实操力导向图 (Force-directed) 等具有生成艺术属性的可视化形态
+    - 将抽象情感数据与粒子系统、动态链接相结合，完成高表现力作品
+    steps:
+    - stage: 复习
+      summary: 回顾 W04 ECharts/D3 双轨框架，引出超越表格数据的复杂结构
+      minutes: 10
+    - stage: 导入
+      summary: 从社交网络的'看不见的关系'引入网络拓扑与空间数据的概念
+      minutes: 15
+    - stage: 讲授
+      summary: 网络拓扑权衡（Node-Link vs 邻接矩阵）、力导向物理引擎、地理空间编码与面积偏见
+      ideology: 结合中国社会网络与文化传播研究案例，探讨数据艺术的社会责任
+      minutes: 65
+    - stage: 实践
+      summary: D3 力导向悲惨世界人物网生成 + 变形地图构思 + 数据生命体情绪大作
+      minutes: 120
+    - stage: 小结
+      summary: 总结生成艺术与传统图表的分野，预告滚动叙事
+      minutes: 15
+  supported_objectives:
+  - 知识1
+  - 知识3
+  - 能力1
+  - 素质3   # ISSUE-005修复：W5生成艺术/社会责任主题，直接支撑素质目标 3
+  task: 基于自拟情感议题，使用 D3 力导向引擎构建'数据生命体'作品，截取 3 帧极致美感瞬间并撰写寓意说明。
+- week: 6
+  chapter_title: "第六章 空间流动与事件叙事"
+  topic: 空间流动与事件叙事
+  content: 6.1 滑动揭秘：以现代滚动叙事导演数据图景
+  hours_theory: 2
+  hours_practice: 3
+  teaching_requirements:
+    knowledge: 理解交互操作的三大操作族与 Scrollytelling 三层架构模型
+    ability: 能构建动效分镜表并运用结构化 Prompt 指导 AI 搭建完整滚动叙事页面
+    quality: 培养导演式叙事思维，理解交互设计的人文关怀
+  focus: 以 GSAP/ScrollTrigger 为代表的现代滚动叙事架构
+  difficulty: 如何设计合理的动效分镜表使读者滚动时自然感知数据故事的节奏变化
+  ideology: 以中国数据新闻（如澎湃新闻）为例，展示本土交互叙事创新
+  teaching_method: 理论讲授、灾难案例赏析、分镜白板推演、全栈 Prompt 实操
+  lessons:
+  - topic: 滑动揭秘：以现代滚动叙事导演数据图景
+    objectives:
+    - 学习 Munzner Ch11 提出的关键交互操作族（Change / Select / Navigate）
+    - 了解以 GSAP / ScrollTrigger 为代表的现代滚动叙事（Scrollytelling）三层架构
+    - 结合《信息可视化设计》第五章的方法论，掌握如同电影运镜般的数据叙事节奏
+    - 运用动效分镜表，通过结构化 Prompt 指导 AI 搭建高完成度的参数化滚动页面
+    steps:
+    - stage: 复习
+      summary: 回顾 W05 力导向与空间数据编码，引出交互在多维数据展示中的必要性
+      minutes: 10
+    - stage: 导入
+      summary: 展示交互失败案例——被交互逼疯的瞬间，引出认知负荷理论
+      minutes: 15
+    - stage: 讲授
+      summary: Munzner Ch11 交互操作族（Change/Select/Navigate）、Scrollytelling 三层架构、动效分镜方法论
+      ideology: 以中国数据新闻（如澎湃新闻）为例，展示本土交互叙事创新
+      minutes: 65
+    - stage: 实践
+      summary: 动效分镜白板推演 + 全栈 Prompt 驱动 AI 搭建 Scrollytelling 页面
+      minutes: 120
+    - stage: 小结
+      summary: 总结导演式叙事节奏控制方法，预告项目整合
+      minutes: 15
+  supported_objectives:
+  - 知识3
+  - 能力1
+  - 素质1
+  task: 基于自选社会议题数据，完成一个 GSAP ScrollTrigger + ECharts/D3 的 Scrollytelling 单页面长卷，包含至少 4 个触发步骤。
+- week: 7
+  chapter_title: "第七章 综合项目启动：文化/社会议题的数据调研"
+  topic: 综合项目启动：文化/社会议题的数据调研
+  content: 7.1 洞察与共鸣：从宏大议题到人文关怀的原型设计
+  exp_id: 4   # 对应实验4「综合项目实战」启动周
+  hours_theory: 3
+  hours_practice: 2
+  teaching_requirements:
+    knowledge: 掌握嵌套模型验证方法与宏大社会议题数据调研策略
+    ability: 能综合运用前序周次的全部技能进行复杂项目的架构设计
+    quality: 培养对文化保护、生态等社会议题的人文关怀与责任意识
+  focus: 运用嵌套模型 (Nested Model) 系统验证可视化设计决策
+  difficulty: 如何从宏大的社会议题中提炼出具有数据支撑和人文关怀的可视化切入点
+  ideology: 以中国文化保护与生态治理数据为载体，培养社会责任感与家国情怀
+  teaching_method: 理论讲授、案例驱动、项目制学习、互评研讨
+  lessons:
+  - topic: 洞察与共鸣：从宏大议题到人文关怀的原型设计
+    objectives:
+    - 学习《信息可视化设计》第六章中关于社会焦点案例的整合信息设计
+    - 学习运用 Munzner Ch4 的嵌套模型 (Nested Model) 验证设计思路
+    - 基于文化保护或生态等社会议题开展宏大数据的搜索与意向搜集
+    - 完成项目的自然语言逻辑推演以及交互低保真设计 Critique 互评
+    steps:
+    - stage: 复习
+      summary: 回顾 W01-W06 全链路技术栈，梳理项目所需的完整知识图谱
+      minutes: 10
+    - stage: 导入
+      summary: 从宏大社会议题（文化保护/生态/不平等）引入项目选题方法论
+      minutes: 15
+    - stage: 讲授
+      summary: 嵌套模型的级联验证、社会议题数据工程策略、Prompt 工程的架构解体法
+      ideology: 以中国文化保护与生态治理数据为载体，培养社会责任感与家国情怀
+      minutes: 110
+    - stage: 实践
+      summary: 议题调研 + 逻辑推演文档撰写 + 低保真交互设计 Critique 互评
+      minutes: 75
+    - stage: 小结
+      summary: 总结项目设计思维，部署下周冲刺计划
+      minutes: 15
+  supported_objectives:
+  - 知识1
+  - 能力1
+  - 能力2
+  - 素质1
+  task: 完成综合项目的自然语言逻辑推演文档，包含议题选择、嵌套模型验证、数据源清洗策略、Prompt 工程架构，并进行小组互评。
+- week: 8
+  chapter_title: "第八章 终极冲刺：让不可见的大规模情感被视觉感知"
+  topic: 终极冲刺：让不可见的大规模情感被视觉感知
+  content: 8.1 大音希声：全链路生成、艺术封装与项目上线
+  hours_theory: 2
+  hours_practice: 3
+  teaching_requirements:
+    knowledge: 综合复盘可视化全流程编码规则与项目整合排错方法
+    ability: 完成从原型到部署的全链路数字产品交付
+    quality: 在公开评审中锤炼专业批判与建设性反馈能力，坚守艺术的人文关怀底线
+  focus: 全链路生成创作流程的整合与交互叙事的前端封装
+  difficulty: 在技术实现与艺术表达之间取得平衡，完成高完成度的综合可视化作品
+  ideology: 在项目展示与互评中体现专业诚信与知识产权尊重意识
+  teaching_method: 理论讲授、全链路排错实操、艺术封装实践、Peer Critique 互评
+  lessons:
+  - topic: 大音希声：全链路生成、艺术封装与项目上线
+    objectives:
+    - 回溯《信息可视化设计》理论：在科技狂欢中坚守艺术的直觉表达
+    - 综合复盘可视化全流程编码规则并排除最终作品的生成异常
+    - 为可视化原型披上叙事性与情感化的前端封装界面
+    - 完成最终数据艺术项目在数字平台的独立部署，并进行公众展示评述
+    steps:
+    - stage: 复习
+      summary: 回顾 W07 项目架构设计，检查各组项目进度与遗留问题
+      minutes: 10
+    - stage: 导入
+      summary: 以'大音希声'理念引入——警惕科技狂欢，回归艺术本真
+      minutes: 15
+    - stage: 讲授
+      summary: 整合排错三大死亡场景（作用域/Z-index/竞态）、CSS 艺术封装三层法则、静态部署工作流
+      ideology: 在项目展示与互评中体现专业诚信与知识产权尊重意识
+      minutes: 65
+    - stage: 实践
+      summary: 终极报错排雷 + 艺术封装大改造 + Vercel 部署上线
+      minutes: 120
+    - stage: 小结
+      summary: Peer Critique 与 Best Prompt 洞察大会，课程结业总结
+      minutes: 15
+  supported_objectives:
+  - 能力1
+  - 素质1
+  - 素质3
+  task: 完成最终数据艺术项目的全链路部署（GitHub Pages / Vercel 上线），参加 Peer Critique 并提交 Best Final Killer Prompt 分析。
+experiments:
+- id: 1
+  name: 数据获取与清洗
+  type: 验证性
+  hours: 4
+  group_size: 1
+  requirement: 必做
+  objectives: |
+    （一）建立数据处理基础意识，掌握将原始数据规范化为可视化就绪格式的完整流程。
+    （二）能使用 Python（Pandas）或 AI 辅助识别缺失值、异常值，完成数据清洗。
+    （三）掌握 Tidy Data 规范，将数据重构为每行一观测、每列一变量的标准格式。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：Windows 10+；Python / Jupyter Notebook、Excel（可选）、AI 辅助工具
+  requirements: |
+    （一）数据来源须为 Kaggle 或政府开放平台等公开合法渠道，并在报告中注明出处。
+    （二）清洗操作须记录完整决策日志，说明每步清洗依据。
+    （三）最终输出须符合 Tidy Data 三原则，并附数据描述报告。
+  methods: |
+    1. 从 Kaggle / 政府开放平台下载真实数据集（CSV / JSON）。
+    2. 使用 Python（Pandas）或 AI 辅助识别缺失值、异常值，完成数据清洗。
+    3. 将数据重构为 Tidy Data 格式（每行一个观测，每列一个变量）。
+    4. 撰写数据描述报告：数据来源、字段说明、清洗决策记录。
+  conclusions: |
+    记录清洗前后数据的行列数变化及主要缺失/异常值的处理结果，说明 Tidy Data 转换逻辑，总结本次数据处理流程的关键经验。
+  questions: |
+    （一）Tidy Data 的三大原则是什么？违反各原则的数据形态分别称为什么？
+    （二）在 AI 辅助清洗场景下，如何验证 AI 给出的清洗结果是否符合原始数据语义？
+- id: 2
+  name: 静态图表设计
+  type: 设计性
+  hours: 4
+  group_size: 1
+  requirement: 必做
+  summary: 运用视觉编码理论（Munzner Marks & Channels）为真实数据选择合理图表类型，完成具有视觉隐喻意图的静态可视化作品。
+  objectives: |
+    （一）运用视觉编码理论（Munzner Marks & Channels）为真实数据选择合理图表类型。
+    （二）掌握使用 AI 辅助生成图表并通过 Illustrator 进行矢量精修的工作流。
+    （三）能够撰写设计说明，阐述视觉通道映射逻辑与视觉隐喻意图。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：Windows 10+；ECharts / RAWGraphs / D3.js（AI 辅助生成）、Adobe Illustrator
+  requirements: |
+    （一）需基于实验一的 Tidy Data 数据集进行图表设计，并说明数据类型与分析任务。
+    （二）使用 AI 辅助生成至少 3 种不同类型的图表（可选：柱状/折线/散点/树图/热力图）。
+    （三）须使用 Illustrator 或 CSS 对图表进行配色、字体、布局精修，提交精修前后对比。
+  methods: |
+    1. 基于实验一数据集，确定数据类型与分析任务（描述/比较/关系/分布）。
+    2. 为每个任务选择合适的图表类型，说明视觉通道映射逻辑。
+    3. 使用 AI 辅助生成至少 3 种图表（柱状/折线/散点/树图/热力图，任选）。
+    4. 使用 Illustrator 或 CSS 对图表进行配色、字体、布局精修。
+    5. 撰写设计说明：通道选择依据与视觉隐喻意图。
+  conclusions: |
+    总结所选图表类型与视觉通道的对应关系，分析精修前后视觉效果的提升要点，反思视觉编码选择的合理性。
+  questions: |
+    （一）当数据集同时包含分类型和数值型变量时，如何系统地选择最合适的视觉通道？
+    （二）数据墨水比（Data-Ink Ratio）原则对图表精修有何指导意义？请结合实验案例说明。
+- id: 3
+  name: 交互可视化开发
+  type: 综合性
+  hours: 6
+  group_size: 1
+  requirement: 必做
+  summary: 运用 Vibe Coding 工作流，基于 Web 技术实现具有响应式交互功能的可视化组件，完成从数据绑定到动效的完整前端开发。
+  objectives: |
+    （一）运用 Vibe Coding 工作流，基于 Web 技术实现具有响应式交互功能的可视化组件。
+    （二）掌握分步提示词接力策略，驱动 AI 生成 ECharts 或 D3.js 组件并进行调试。
+    （三）实现数据的动态加载与绑定（异步 fetch / CSV 解析），并添加前端过渡动效。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：Windows 10+；ECharts / D3.js、HTML + CSS + JS、GSAP / ScrollTrigger（可选）、AI 辅助工具
+  requirements: |
+    （一）须实现至少 2 种交互功能（筛选/缩放/详情提示/滚动叙事任选）。
+    （二）采用分步提示词接力策略驱动 AI 生成代码，并保留 Vibe 工作流对话记录截图。
+    （三）最终作品须在本地可完整运行，并录制至少 1 分钟的演示视频展示交互功能。
+  methods: |
+    1. 确定交互目标：筛选/缩放/详情提示/滚动叙事（Scrollytelling），至少实现 2 种。
+    2. 采用分步提示词接力策略驱动 AI 生成 ECharts 或 D3.js 组件。
+    3. 实现数据的动态加载与绑定（异步 fetch / CSV 解析）。
+    4. 添加前端动效（过渡动画/hover 高亮/联动过滤）。
+    5. 本地运行并录制演示视频。
+  conclusions: |
+    总结 Vibe Coding 工作流中提示词迭代的关键策略，记录主要排错节点与解决方案，反思 AI 辅助前端开发与手动编码的优缺点对比。
+- id: 4
+  name: 综合项目实战
+  type: 综合性
+  hours: 6
+  group_size: 1
+  requirement: 必做
+  summary: 围绕真实社会/文化议题，独立完成具有人文关怀与艺术深度的交互数据叙事作品，实现从议题选择、数据调研到作品部署的全链路创作。
+  objectives: |
+    （一）围绕真实社会/文化议题，独立完成具有人文关怀与艺术深度的交互数据叙事作品并部署至公网。
+    （二）综合运用嵌套模型验证方法与 Vibe Coding 全技术栈，完成从议题选择到交互原型的全流程规划。
+    （三）能在 Peer Critique 中以建设性姿态表达专业反馈，并基于评审意见完成最终修订。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：D3.js / ECharts / GSAP、HTML + CSS + JS、GitHub Pages / Vercel（部署）、AI 辅助工具
+  requirements: |
+    （一）选题须围绕真实社会/文化/生态议题，数据来源合法且具有人文价值。
+    （二）须通过 Munzner 嵌套模型四层验证，提交项目一页纸逻辑推演文档。
+    （三）作品须成功部署至 GitHub Pages 或 Vercel 等公开平台，提交在线访问链接。
+    （四）须参与 Peer Critique 互评环节，并提交 Best Final Killer Prompt 分析报告。
+  methods: |
+    1. 完成综合项目的自然语言逻辑推演，包含议题选择、嵌套模型验证、数据源清洗策略、Prompt 工程架构。
+    2. 进行议题数据调研，完成数据获取与 Tidy Data 清洗。
+    3. 基于 Scrollytelling 架构，完成全链路可视化生成与艺术封装。
+    4. 完成最终项目的 Vercel / GitHub Pages 部署上线。
+    5. 参加 Peer Critique 并进行 Final Presentation 答辩。
+  conclusions: |
+    从选题动因、数据洞察到设计决策的全链路总结；记录 Best Final Killer Prompt 的构建逻辑；反思交互数据叙事的人文价值与社会责任担当。
+assessment_methods:
+  normal_score_ratio: 50
+  final_score_ratio: 50
+  attendance_ratio: 10
+  normal_items:
+  - name: 章节测试1
+    ratio: 10
+    desc: 对应实验1「数据获取与清洗」。考核要求：按规范完成数据抓取与结构化重组任务，产出符合Tidy Data标准的清洗数据集及过程文档。
+  - name: 章节测试2
+    ratio: 15
+    desc: 对应实验2「静态图表设计」。考核要求：完成具有合理视觉隐喻的静态图表设计，体现Marks与Channels有效性法则及视觉编码原理的运用。
+  - name: 章节测试3
+    ratio: 15
+    desc: 对应实验3「交互可视化开发」。考核要求：运用D3.js或ECharts等框架实现具有响应式反馈的可视化交互组件，体现Vibe Coding自然语言驱动的协作能力。
+  final_item:
+    name: 期末综合项目考查
+    ratio: 100
+    desc: 对应实验4「综合项目实战」。考核要求：围绕社会/文化议题完成交互数据艺术作品，涵盖数据处理与编码设计（30%）、交互叙事与技术实现（40%）、项目答辩与人文价值（30%）三个维度。详见 planning/project_brief.md。
+exams:
+  final_exam:
+  - name: 期末综合项目考查
+    total_score: 100
+    duration: 120
+    sections:
+    - section_name: 数据处理与编码设计
+      total_score: 30
+      questions:
+      - content: 对应实验4「综合项目实战」。考核要求：数据获取来源合法且具有社会价值，清洗流程规范并产出符合 Tidy Data 标准的结构化数据集；视觉编码遵循 Marks/Channels 有效性法则，色彩与形状通道的选择具有明确的数据语义支撑而非纯装饰。
+        type: 综合
+        score: 30
+    - section_name: 交互叙事与技术实现
+      total_score: 40
+      questions:
+      - content: 对应实验4「综合项目实战」。考核要求：交互叙事架构完整，滚动/点击等交互行为与数据故事的节奏演进逻辑匹配；D3.js/ECharts 等框架运用得当，代码可运行且无严重渲染异常；作品已成功部署至公开可访问的数字平台，加载性能与响应式适配达到基本可用标准。
+        type: 综合
+        score: 40
+    - section_name: 项目答辩与人文价值
+      total_score: 30
+      questions:
+      - content: 对应实验4「综合项目实战」。考核要求：课堂 Presentation 逻辑清晰、表达流畅，能在限定时间内完整阐述从选题动因、数据洞察到设计决策的全链路思考；作品所选社会/文化议题具有现实关照与人文深度，数据呈现严谨不误导，体现信息可视化的社会责任意识。
+        type: 综合
+        score: 30

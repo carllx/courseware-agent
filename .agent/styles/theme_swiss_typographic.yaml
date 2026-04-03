@@ -1,0 +1,98 @@
+# Visual System Constitution (视觉系统宪法)
+# SSOT: Single Source of Truth
+# Style: Swiss Typographic Style (瑞士国际排版风 / 高对比无衬线字体 / 大留白与极值红)
+
+meta:
+  version: "1.0.0"
+  last_updated: "2026-03-29"
+  maintainer: "Antigravity Agent"
+
+style:
+  keywords: "Swiss International Typographic Style data visualization slide, strict asymmetric grid layout, pure white background, vast negative space, bold sans-serif black typography, single strong accent color Swiss Red #DA291C, extremely clean and objective, no decoration"
+  atmosphere: "cold, rational, extremely clean, highly legible, modern graphic design, universal"
+  negative_prompt: "3d, realistic, cyberpunk, dark mode, thick borders, cartoons, noisy background, serifs, multiple colors"
+  
+  prompt_variants:
+    Title: "flush left ragged right typography, heavy black sans-serif, intense Swiss composition"
+    Diagram: "minimalist information design, clean thin rules, highly structured objective diagram"
+    List: "structured typographical layout, vast negative space, tiny red accents"
+    Comparison: "clear typographic dichotomy, no boxes, just rules and alignment"
+    Split: "strict grid column layout, heavy contrast between black text and white space"
+
+  prompt_templates:
+    base_en: "Swiss International Typographic Style data visualization slide, strict asymmetric grid layout, pure white background, vast negative space, bold sans-serif black typography, single strong accent color Swiss Red #DA291C, extremely clean and objective, no decoration"
+    suffix_negative: "3d, realistic, cyberpunk, dark mode, thick borders, cartoons, noisy background, serifs"
+    text_directive: "All visible text in the image must be in Simplified Chinese"
+
+palette:
+  bg_base: "#FFFFFF"         # 纯白画布
+  bg_surface: "#FFFFFF"      # 纯白卡片，无界限
+  bg_elevated: "#FAFAFA"     # 几乎不可见的极浅灰
+  bg_dark: "#000000"         
+  
+  primary: "#000000"         # 绝对黑 (黑字为王)
+  secondary: "#DA291C"       # 瑞士红 (唯一的色彩，极其克制地使用)
+  tertiary: "#1A1A1A"        # 深灰 (层级辅助)
+
+  success: "#000000"         # 黑
+  warning: "#DA291C"         # 红
+  error: "#DA291C"           # 红
+  info: "#1A1A1A"            # 暗灰
+
+  text_main: "#000000"       # 黑
+  text_secondary: "#555555"  # 深灰
+  text_muted: "#B3B3B3"      # 浅灰
+
+  border: "#E6E6E6"          # 非常淡的细线，仅做辅助网格
+  divider: "#000000"         # 粗黑线仅作大区位分割标志 (如页眉/页脚线)
+
+typography:
+  font_cn_primary: "Noto Sans SC"       # 使用其最高字重 (Black)
+  font_cn_body: "Noto Sans SC"          # Regular
+  font_en_primary: "Helvetica Neue"     # 瑞士体之魂
+  font_en_body: "Helvetica Neue"
+  font_en_display: "Helvetica Neue"     
+  size_hero: 72
+  size_h1: 48
+  size_h2: 32
+  size_body: 18
+  size_caption: 14
+  size_label: 12
+
+physics:
+  stroke_width_base: 1    
+  stroke_width_large: 4   # 瑞士风特有的强重红/黑水平横线标尺
+  corner_radius_base: 0   # 强硬直角
+  corner_radius_large: 0  
+  cap_join_style: "square" 
+  easing: "ease-out"       
+  motion_short: "150ms"
+  motion_medium: "250ms"
+
+ppt_layout_styles:
+  Title:
+    background: "bg_base"
+    title_color: "text_main"
+    accent: "secondary"
+    effect: "none"
+    border_color: "none"
+  List:
+    background: "bg_base"
+    title_color: "text_main"
+    bullet_icon_color: "secondary" 
+    effect: "none"
+  Diagram:
+    background: "bg_base"
+    node_fill: "bg_base"
+    node_border_color: "border" # 很细
+    node_border_width: "1px"
+    line_color: "text_muted"
+    line_width: "1px"
+    label_color: "text_main"
+    accent: "secondary"
+  Comparison:
+    background: "bg_base"
+    left_accent: "primary"
+    right_accent: "secondary"
+    divider_color: "border" 
+    divider_width: "1px"

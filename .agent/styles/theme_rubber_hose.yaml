@@ -1,0 +1,183 @@
+# Visual System Constitution (视觉系统宪法)
+# SSOT: Single Source of Truth for 信息可视化设计 (Information Visualization Design)
+# Style: Rubber Hose Data Structuralism (1930s 橡皮管动画与数据结构主义的结合 / 高对比黑白粗描线)
+
+meta:
+  version: "2.0.0"
+  last_updated: "2026-03-29"
+  maintainer: "Antigravity Agent (Based on Rubber Hose Design System v1.1)"
+  course_id: "info_viz_design"
+
+# 1. 全局风格定义 (用于 AI 生成 Prompt)
+style:
+  # 核心风格词
+  keywords: "1930s rubber hose animation style, thick black outlines, bold 2px lines, high contrast monochrome, pure white background #FFFFFF, simple rounded geometry, flat vector data illustration, minimal noise, functional structuralism, Bauhaus principles"
+  # 环境氛围
+  atmosphere: "crisp and clean white background, educational diagram, vintage yet modern and functional, no distractions, sharp edges, pure mathematical clarity"
+  # 否定词 (避免出现的内容)
+  negative_prompt: "realistic, 3d render, shadows, gradients, neon colors, cyberpunk, glowing effects, complex texture, noise, blurry, watermark, background clutter, clip art, low resolution"
+  # 按 Layout 类型的 Prompt 变体
+  prompt_variants:
+    Title: "minimalist abstract data structure diagram, rubber hose style, thick black strokes, high contrast"
+    Diagram: "intricate network topology diagram, interconnecting thick black lines, rounded geometric nodes, clean white background"
+    List: "orderly arranged geometric components, thick black outlines, high contrast minimalist presentation"
+    Comparison: "split contrast visualization metaphor, structural dichotomy, left side complex vs right side organized, 1930s rubber hose cartoon style without characters"
+    Split: "detailed abstract data aesthetic scene, focused on high-tech but retro interface elements, pure white background"
+    Grid: "ordered matrix of abstract metric elements, repeating rounded geometric patterns, highly contrasted black strokes"
+    Image: "clean and sharp aesthetic diagram, thick outlines, minimal distracting elements"
+    Card: "floating rounded geometric block, thick bounds, high precision, isolated in white space"
+
+  # 预编译 Prompt 模板
+  prompt_templates:
+    base_en: "1930s rubber hose animation style, thick black outlines, bold 2px lines, high contrast monochrome, pure white background #FFFFFF, simple rounded geometry, flat vector data illustration, functional structuralism, crisp and clean"
+    suffix_negative: "realistic, 3d render, shadows, gradients, neon colors, cyberpunk, glowing effects, complex texture, noise, blurry, watermark"
+    text_directive: "All visible text in the image must be in Simplified Chinese"
+
+# 2. 色彩系统 (PPT / H5 / Python 通用 - V3 Token)
+palette:
+  # 基础色 (Light Mode / High Contrast)
+  bg_base: "#FFFFFF"         # 纯白 — 主画布背景 (--color-inverse)
+  bg_surface: "#FFFFFF"      # 纯白 — 卡片/面板背景
+  bg_elevated: "#F5F5F5"     # 极淡灰 — 区块分隔/引用底色
+  bg_dark: "#202020"         # 封面背景反转
+  
+  # 品牌主色
+  primary: "#202020"         # 深炭黑 (--color-primary) — 焦点/标题高亮/网络主干/所有笔画描边
+  primary_light: "#4A4A4A"   # 中灰色 — hover/次要交互
+  primary_muted: "#8A8A8A"   # 浅色边 / 失效状态
+  
+  # 辅助色/状态色 (高对比度点缀)
+  secondary: "#005FCC"       # 焦点蓝 (--color-focus-outline) — 焦点环/外链辅助色
+  tertiary: "#B85042"        # 赤陶红 — 警告辅助功能 (继承前方案中少量点缀，但控制比例)
+
+  # 语义色
+  success: "#10B981"         # 绿 — 正常流/合格
+  warning: "#F59E0B"         # 黄 — 注意阈值
+  error: "#EF4444"           # 红 — 错误/危险数据
+  info: "#005FCC"            # 焦点蓝 — 补全
+
+  # 文本色
+  text_main: "#202020"       # 深炭主黑 — 正文主色
+  text_secondary: "#475569"  # 冷石灰 — 次要文字
+  text_muted: "#94A3B8"      # 极暗灰 — 坐标轴/弱标签
+  text_on_dark: "#FFFFFF"    # 暗底上的白文字
+
+  # 边框与分割
+  border: "#202020"          # UI 边框 (与粗描线风格统一)
+  divider: "#CCCCCC"         # 底层辅分割线
+
+# 3. 排版系统
+typography:
+  # 中文字体 (跨平台)
+  font_cn_primary: "Noto Sans SC"       # 谷歌思源黑体，无衬线
+  font_cn_body: "Noto Sans SC"
+  font_cn_fallback: "Microsoft YaHei"
+  font_cn_mac: "PingFang SC"
+
+  # 英文/数字字体 (匹配橡皮管圆润几何特征)
+  font_en_primary: "Inter"              # 标题极简现代，圆角饱满
+  font_en_body: "Inter"                 # 正文用
+  font_en_display: "Inter"              # 引言/代码片段
+
+  # 字号层级 (PPT 基准)
+  size_hero: 54
+  size_h1: 40
+  size_h2: 28
+  size_body: 18
+  size_caption: 14
+  size_label: 12
+
+# 4. 几何与动效参数 (Rubber Hose 新增)
+physics:
+  # V3/V4 Tokens
+  stroke_width_base: 2    # 基础粗描线 (2px)
+  stroke_width_large: 3   # 按压状态增厚或大型图标
+  corner_radius_base: 2   # 基础圆角
+  corner_radius_large: 4  # 大圆角
+  cap_join_style: "round" # 所有线条端点与交汇处均为圆润
+  
+  # 橡皮管弹性物理动效
+  easing: "cubic-bezier(0.2, 0.8, 0.2, 1)"
+  motion_short: "120ms"
+  motion_medium: "180ms"
+
+# 5. PPT 版式映射
+ppt_layout_styles:
+  Title:
+    background: "bg_base"
+    title_color: "primary"
+    accent: "secondary"
+    effect: "none"        # 彻底废除 glow
+    border_color: "border" # 新增强调：2px 粗黑边框特征
+  List:
+    background: "bg_surface"
+    title_color: "text_main"
+    bullet_icon_color: "primary" # 粗黑圆点
+    effect: "none"
+    border_color: "border"
+  Diagram:
+    background: "bg_base"
+    node_fill: "bg_surface"
+    node_border_color: "border"  # 节点强制带黑框
+    node_border_width: "2px"
+    line_color: "primary"        # 连接线粗黑
+    line_width: "2px"
+    label_color: "text_main"
+    accent: "secondary"
+  Comparison:
+    background: "bg_base"
+    left_accent: "error"
+    right_accent: "success"
+    divider_color: "border" 
+    divider_width: "2px"
+  Split:
+    background: "bg_base"
+    left_panel: "bg_surface"
+    right_panel: "bg_elevated"
+    divider: "border"
+    border_width: "2px"
+  Grid:
+    background: "bg_base"
+    card_bg: "bg_surface"
+    card_border: "border"
+    card_border_width: "2px"
+    card_accent: "secondary"
+  Image:
+    background: "bg_base"
+    caption_color: "text_muted"
+    image_border: "border"
+    image_border_width: "2px"
+
+# 6. 尺寸与比例标准
+dimensions:
+  ppt_slide:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "rubber hose style presentation slide, flat thick outlines"
+  infographic:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "data infographic, high contrast monochrome with thick bounds"
+  diagram:
+    ratio: "1:1"
+    width: 1080
+    height: 1080
+    suffix: "abstract network diagram, geometric shapes with thick black outlines"
+  icon:
+    ratio: "1:1"
+    width: 512
+    height: 512
+    suffix: "simple geometric icon, 1930s rubber hose style"
+
+# 7. 对比度约束 (WCAG AA)
+accessibility:
+  min_contrast_ratio: 4.5
+  rules:
+    - text: "text_main"
+      on: "bg_base"
+    - text: "primary"
+      on: "bg_base"
+    - text: "text_on_dark"
+      on: "bg_dark"
