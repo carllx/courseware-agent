@@ -26,9 +26,13 @@ description: 定义课程逐字稿的格式规范与标签体系。当 Agent 执
 2.  **Anchor**: 后续 Speech 必须通过**指示性词汇** (如"如图"、"左侧") 锚定画面内容 (See `rule_narrative_standards.md`).
 3.  **Bullet Sync (要点同步)**: 当 Speech 中出现**结构化要点**（≥3 个并列项、阶段划分、评分/考核/任务说明等），紧邻的 `> [VISUAL]` 块**必须**包含 `**List**` 字段，将关键要点同步显示在 PPT 上。严禁出现"讲了但 PPT 上看不到"的信息断层。
 4.  **Intent Alignment (意图对齐)**: `[VISUAL].Scene` 的描述必须与其后续 Speech 段落共享同一个**认知意图**（而非表层实体名词）。在抽象风格系统（如 Dada/Bauhaus）下，Scene 使用隐喻/情绪/张力来表达此意图；在具象风格系统下，Scene 可直接引用 Speech 中的实体对象。
-    - 写作时的自检问句：「如果学生同时看到这张图、听到这段话，他们能否感受到**同一种情绪或认知张力**？」
-    - 若答案为否，必须调整 Scene 或 Speech 之一使两者对齐。
-    - **不可能三角警示**：在抽象风格系统下，严禁为了对齐而违反 `rule_visual_generation.md` §6.6（具象禁令）。正确做法是提取 Speech 中案例的**心理学内核**（如"被信息淹没的焦虑"、"新旧断裂的冲击"），将其映射为抽象视觉张力。
+    - 写作时的自检问句：「如果学生同时看到这张图、听到这段话，他们能否感受到与此概念匹配的**情感火花与心理张力**？」
+    - 若答案为否，必须调整 Scene 或 Speech 之一使两者对齐。重点在于捕捉讲者内心的共鸣与受众需要的精神氧气（解脱感、震撼感、焦虑感）。
+    - **不可能三角警示**：在抽象风格系统下，严禁为了对齐而违反 `rule_visual_generation.md` §6.6（具象禁令）。正确做法是提取 Speech 中案例的**心理学内核与冲突点(Complication)**（如"被信息淹没的焦虑"、"新旧断裂的冲击"），将其隐喻映射为抽象视觉张力。
+5.  **Progressive Sequence (渐进式披露/多帧连击)**: 严禁为了“少写一个块”而将含有 SCQA 完整逻辑的内容堆叠在单张排版上（如同时抛出痛点、发问与底层 3 个支撑点）。对于核心知识节点的高潮引入，必须使用**多帧视觉切花序列**替代信息堆叠：
+    - ① **(悬念/冲突)**：使用 `Layout: Full` 极简放大充满张力的痛点切片 + 留白 `**(Pause: 3s)**`。
+    - ② **(焦点发问)**：紧接使用 `Layout: Center` 提出直指灵魂的反问。
+    - ③ **(结构解答)**：最后进入 `Layout: Grid` 或 `Split` 层层解构金字塔的论点。
 
 ---
 
@@ -41,7 +45,7 @@ description: 定义课程逐字稿的格式规范与标签体系。当 Agent 执
 *   `> [WARNING]` — 操作风险、常见错误
 *   `> [DID YOU KNOW]` — 冷知识、科普趣闻
 
-**人文层** (触发深度 Web 调研):
+**人文层** (触发深度 Web 调研。**核心规则**：这些标签所承载的内容必须是能够点燃讲述者心流的**感性燃料 (情感火花)**，写作时需寻找能引发深度共鸣的生活切片或行业痛点进行交织，不要使用干瘪枯燥的背景):
 *   `> [STORY TIME]` — 比喻、寓言、经典故事
 *   `> [PHILOSOPHY]` — 哲学思辨、认知科学
 *   `> [CASE STUDY]` — 行业案例、历史事件、文化现象
@@ -52,7 +56,7 @@ description: 定义课程逐字稿的格式规范与标签体系。当 Agent 执
 
 **静默层** (不朗读):
 *   `> [VISUAL]` — 画面描述 + Slide 内联定义
-*   `> [PACING]` — 节奏控制（留白/加速）
+*   `> [PACING]` — 情绪走位与节奏控制标签。**不得仅记录停顿秒数，必须写明与视觉 `[Emotional Tension]` 匹配的讲师语气转移及形体能量推移**（例如：`语速放缓，带着压迫感，随后视线扫过全场深呼吸`）。
 
 ### 人文层标签调研指引
 
@@ -107,35 +111,21 @@ description: 定义课程逐字稿的格式规范与标签体系。当 Agent 执
 > - 反引号:  `` `visuals/assets/W01/img.png` ``
 > - 双引号: `"visuals/assets/W01/img.png"`
 
-### Layout 排版类型
+### Layout 排版类型 (语义预设版)
 
-详见 [pptx/layouts.md](../pptx/layouts.md) (Single Source of Truth)。
+> 详见项目规范 [VISUAL_LAYOUT_SPEC.md](../../../../docs/VISUAL_LAYOUT_SPEC.md) 和 [layouts_v2.md](./layouts_v2.md)。
 
-| Layout | 定义 | 渲染函数 |
-|:---|:---|:---|
-| `Title` | 封面/开场页 | renderTitle |
-| `Section` | 章节过渡页 | renderTitle |
-| `Agenda` | 议程/大纲 | renderList |
-| `Split` | 双栏（文+图）| renderSplit |
-| `Icons` | 图标+文字行 | renderList |
-| `Grid` | 2×2/2×3 卡片网格 | renderGrid |
-| `Full` | 全屏沉浸/大图叠字 | renderImage |
-| `Table` | 精简表格 | renderList |
-| `Comparison` | 对比列 | renderGrid |
-| `Dashboard` | KPI 仪表盘 | renderGrid |
-| `Stat` | 巨型数字聚焦 | renderTitle |
-| `Timeline` | 时间线/流程 | renderDiagram |
-| `Poll` | 投票/QR 互动 | renderImage |
-| `Workshop` | 练习/工坊引导 | renderList |
-| `Quote` | 金句卡片 | renderSplit |
-| `CTA` | 行动号召/致谢 | renderTitle |
-| `Code` | 代码展示 | renderSplit |
-| `Diagram` | 流程图/逻辑图 | renderDiagram |
-| `Image` | 单张大图+标题 | renderImage |
-| `Screenshot` | 软件界面截图 | renderImage |
-| `List` | 列表/要点 | renderList |
+为保持写作直觉，作者在编写 `[VISUAL]` 块时，可直接使用以下 12 种**语义别名**，底层引擎会自动将他们派发到正确的三层正交架构组件中：
 
-> ⚠️ `Card`, `Cards`, `Full Screen`, `CodeBlock`, `Triple-Column`, `Quadrant`, `Flow`, `Canvas`, `Chat-Bubble`, `Template-Card`, `Spectrum`, `Text`, `Chart`, `Video` 已弃用。详见 `layouts.md` 弃用别名表。
+| 基础空间 | 可用的教学场景 (语义推断) |
+|:---|:---|
+| **`Center`** (居中视觉) | `CTA` (行动号召), `Agenda` (大纲目录) |
+| **`Split`** (常规双栏) | `Quote` (金句引言), `Workshop` (操作工坊模式) |
+| **`Grid`** (多格矩阵) | `Comparison` (方案/红绿对比阵列。**建构法则：**作为引入新法则的破冰工具，先呈现“坏设计 vs 更坏设计”，激发学生内心的疑问与判断，**不要过早闭合结论**) |
+| **`Full`** (沉浸满屏) | `Screenshot` (带设备外壳截图), `Poll` (互动轮询) |
+| **`Flow`** (节点流线) | - |
+
+> ⚠️ 警告：原有的部分伪布局（`Title`, `Timeline`, `Card`, `Table`, `List` 等）不代表排版骨架，**已全数废弃并被 Validation Suite 拦截**。当内容为表格、代码、列表时，只需按 markdown 规则使用 `Text`/`List`/`Code` 字段，配合基础空间如 `Split` 或 `Full`，引擎会**自动推算并嵌入组件**。
 
 ---
 
@@ -150,7 +140,7 @@ description: 定义课程逐字稿的格式规范与标签体系。当 Agent 执
 
 | 字段 | 必填 | 说明 |
 |:---|:---|:---|
-| `Type` | ✅ | 活动类型：`Practice` / `Discussion` / `Workshop` / `Quiz` / `QA` / `Demo` / `Warm-up` |
+| `Type` | ✅ | 活动类型：`Practice` / `Discussion` / `Workshop` / `Quiz` / `QA` / `Demo` / `Warm-up` (强烈鼓励每穿行完一段高能理论后，插入 1 分钟量级的极微小 `QA` 心跳校验，避免长时单向说教导致心流断裂) |
 | `Duration` | ✅ | 时长，如 `30min` |
 | `Desc` | ✅ | 活动名称或简述 |
 
@@ -186,6 +176,15 @@ description: 定义课程逐字稿的格式规范与标签体系。当 Agent 执
 *   每 3 分钟设计一个留白 `**(Pause: 3s)**`。
 *   遵循 `rule_narrative_standards.md`（过渡焊接、韵律句法、反翻译腔）。
 *   遵循 `rule_localization.md` 语言协议。
+
+### 5.1 表达的终极公式 (SCQA Pyramid)
+
+> **核心法则**：**以真诚的情感火花作为燃料，以严密的金字塔作为引擎外壳。**
+
+在展开任何重要知识点（尤其是引入新模块或使用人文标签时），必须严格执行以下“冷热交替”的结构：
+1. **顶层结论（骨骼/冷）**：金字塔尖的核心知识点或解决方案，必须客观精准、直接回答靶向疑问。
+2. **共情切入（血肉/热）**：引入 SCQA 结构中的 **Complication（冲突点）**——这不是干巴巴的背景介绍，而是必须击中痛点的“情感火花”（Emotional Spark），借此带领听众进入深度共鸣与心流。
+3. **结构支撑（冷暖交织）**：支撑结论的 3 个维度（Pyramid Points）必须符合逻辑维度的完整性，但在阐述这些支撑点时，必须使用带有温度的案例或真实切片包裹。切忌为了列点而罗列生硬的词汇。
 
 ---
 

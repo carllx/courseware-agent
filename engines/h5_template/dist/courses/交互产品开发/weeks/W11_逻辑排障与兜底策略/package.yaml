@@ -1,0 +1,26 @@
+week: 11
+topic: 逻辑排障与兜底策略
+title: 逻辑排障与兜底策略
+theory_hours: 3
+practice_hours: 2
+objectives: []
+created: '2026-03-30'
+status: ready
+tags:
+- ch12-prototyping
+- prototyping-fidelity-spectrum
+- llm-code-reading-debugging
+- exp3-demo-fallback-strategy
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_代码不是黑箱_LLM_辅助代码阅读.md
+- id: M02
+  src: src/M02_原型的本质_混合保真度光谱.md
+- id: M03
+  src: src/M03_绝地求生_三级兜底策略.md
+- id: M04
+  src: src/M04_实验3_收尾实战准备.md

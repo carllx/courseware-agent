@@ -1,0 +1,2863 @@
+{
+  "version": "2.1",
+  "generated": "2026-04-05T15:08:38.554179",
+  "course": "信息可视化设计",
+  "script": "W02_Design_Principles",
+  "theme": {
+    "bg": "#F5F0EB",
+    "bgSurface": "#FFFFFF",
+    "bgElevated": "#EDE7E0",
+    "bgDark": "#2D2926",
+    "primary": "#B85042",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#6B8FAD",
+    "textOnDark": "#F5F0EB",
+    "primaryLight": "#B85042",
+    "primaryMuted": "#8C3A30",
+    "success": "#5B7B6F",
+    "warning": "#C9A96E",
+    "error": "#B85042",
+    "border": "#D6CFC7",
+    "text": "#2D2926",
+    "textSecondary": "#6B635C",
+    "textMuted": "#A39B93",
+    "primaryRgb": "184, 80, 66",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": false,
+    "fontTitle": "Playfair Display",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": null,
+    "srt": null
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "W02_Design_Principles",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!INFO",
+          "text": "[!INFO]\n课程：**Information Visualization（信息可视化）**\n学时：5 课时 (理论 2.5 + 实践 2.5)\n授课模式：Lecture + Workshop\n核心理论库：`hao-ch3-chart-types`, `ch05-marks-channels`, `ch06-rules-encoding`, `marks-channels-effectiveness`, `channel-accuracy-separability`, `data-ink-ratio-anti-patterns`, `ch10-map-color`",
+          "ttsFp": "308abe46_286",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md",
+          "srcLStart": 3,
+          "srcLEnd": 7
+        }
+      ],
+      "firstSrtCueIdx": null,
+      "oralCharCount": 0,
+      "estimatedMinutes": 0.0,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-2",
+      "title": "Module 1: 跳出模板——寻找数据的时空隐喻 (30 分钟)",
+      "slides": [
+        {
+          "id": "S01_Title_W02",
+          "layout": "Center",
+          "text": "不仅是数据，更是隐喻",
+          "heading": "",
+          "scene": "深邃的背景中，一半是生硬的 Excel 默认柱状图，另一半是充满流线和情感的南丁格尔玫瑰图与复杂的弦图交织，形成强烈的机械与有机的视觉对比。",
+          "image": "weeks/W02_Design_Principles/public/slides/S01_Title_W02.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S01_Title_W02.png"
+          ],
+          "assetExpected": [
+            "public/slides/S01_Title_W02.png"
+          ],
+          "list": null,
+          "paragraphStart": 1
+        },
+        {
+          "id": "S02_Metaphors_in_Vis",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧展示传统财务报表的折线图面板（冰冷、机械，带有默认的灰色网格线）；右侧展示《信息可视化设计》中提到的流柱图和雷达图（有机、呈现出能量流动或牵制的生态感）。",
+          "image": "weeks/W02_Design_Principles/public/slides/S02_Metaphors_in_Vis.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S02_Metaphors_in_Vis.png"
+          ],
+          "assetExpected": [
+            "public/slides/S02_Metaphors_in_Vis.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "S02b_Metaphor_Examples",
+          "layout": "Grid",
+          "text": "寻找最贴切的时空隐喻：约束与流动",
+          "heading": "",
+          "scene": "在网格中呈现各种不同的生活隐喻。例如左侧是“木桶”和雷达图的叠影，右侧是“河流”与桑基图的交织。",
+          "image": "weeks/W02_Design_Principles/public/slides/S02b_Metaphor_Examples.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S02b_Metaphor_Examples.png"
+          ],
+          "assetExpected": [
+            "public/slides/S02b_Metaphor_Examples.png"
+          ],
+          "list": null,
+          "paragraphStart": 9
+        },
+        {
+          "id": "S02d_Four_Metaphor_Networks",
+          "layout": "Grid",
+          "text": "解构图表库：所有现成模板都在这两张隐喻网中",
+          "heading": "",
+          "scene": "四宫格展示四大核心隐喻象限，对应 RAWGraphs 中的分类模板地图。",
+          "image": null,
+          "images": [],
+          "assetExpected": [
+            "public/slides/S02d_Four_Metaphor_Networks.png"
+          ],
+          "list": null,
+          "paragraphStart": 15
+        },
+        {
+          "id": "S02c_Transition_Grammar",
+          "layout": "Center",
+          "text": "隐喻背后的原子语法是什么？",
+          "heading": "",
+          "scene": "画面中央是一个巨大的闪烁问号，背景由模糊的各种图表碎片（柱状图、散点图、桑基图的局部）组合而成，形成一种\"拆解与重组\"的视觉暗示。",
+          "image": "weeks/W02_Design_Principles/public/slides/S02c_Transition_Grammar.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S02c_Transition_Grammar.png"
+          ],
+          "assetExpected": [
+            "public/slides/S02c_Transition_Grammar.png"
+          ],
+          "list": null,
+          "paragraphStart": 24
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "本模块承接 W01 视觉感知与格式塔理论（**知识目标 1 回链**：数据可视化与视觉编码的基本理论），通过回顾上周实践引入本周核心议题：视觉隐喻与符号编码。",
+          "ttsFp": "bdbbe981_79",
+          "srtCueIdx": 0,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 5,
+          "srcLEnd": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "上周，我们通过手动描绘安斯库姆四重奏，深刻体会到了人类视觉系统的前注意处理能力，也体验了 RAWGraphs 在零代码环境下的极速探索。",
+          "ttsFp": "ece7b94e_68",
+          "srtCueIdx": 1,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但在今天这节课，我们要按下一个暂停键。",
+          "ttsFp": "09ff6ab5_19",
+          "srtCueIdx": 2,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个\"一键生成图表\"、各种大语言模型争相斗艳的 AI 时代，技术永远走在前面，而我们需要找回作为\"人\"的叙事直觉。",
+          "ttsFp": "92761fde_58",
+          "srtCueIdx": 3,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在动手敲代码或者向大模型发号施令之前，我想请大家闭上眼睛思考一个问题：当你面对一堆庞杂的财务报表数据，或者某座城市十年的气象降水数据时，你脑海里跳出的第一个念头，是不是\"我该用柱状图还是折线图\"？",
+          "ttsFp": "d944f152_98",
+          "srtCueIdx": 4,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果是，那么你已经被数十年来由软件工程师为 Excel 这类软件写下的\"标准模板\"锁死了。你的思维带宽被压缩在了那几个可怜的下拉菜单里。",
+          "ttsFp": "edac00c2_68",
+          "srtCueIdx": 5,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在《信息可视化设计》这本书的第三章中，作者郝亚维提出了一个非常核心且极具启发性的观点：**图表类型的选择，本质上是在寻找一种时空隐喻**。这绝不是单纯的美学风格差异，而是直接关乎于人类视知觉信息获取效率的底层科学。",
+          "ttsFp": "b48cc80a_107",
+          "srtCueIdx": 6,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "图表不仅仅是承载数字的容器。每一种几何形状的展开方式，都在无意识中调动着观众关于空间、时间、流动或对立的记忆。",
+          "ttsFp": "35b44816_55",
+          "srtCueIdx": 7,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们来举几个具体的例子：",
+          "ttsFp": "3f1e4012_12",
+          "srtCueIdx": 8,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你选用**雷达图（蜘蛛网图）**时，你并不是在简单地画一个多边形或在坐标轴上标点。你是在向观众隐喻一种\"不同能力维度之间的相互牵制与平衡\"。由于它的各个轴线是从一个中心点向外辐射的，这意味着每一个指标的增长都在试图拉扯整个形状的面貌。这就是我们在游戏角色设计或企业综合信用评价中最常用它的原因，因为它本质上是一个\"木桶理论\"的视觉化。",
+          "ttsFp": "28bc570b_168",
+          "srtCueIdx": 9,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们再来看**流柱图（河流图）**或者**桑基图**。为什么在展示能源消耗、材料回收或是用户网页访问路径时，我们首选桑基图？因为桑基能量分流图不仅仅是展示出入口的数字大小。它通过那些互相纠缠、分叉又汇合的彩色条带，向观众隐喻了\"历史长河中能量或物质的交织流动\"。宽窄代表了通量，颜色的汇聚代表了演变。",
+          "ttsFp": "a9a89d0c_150",
+          "srtCueIdx": 10,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "再举一个例子：**旭日图**。这种从圆心向外辐散开去的多层环形结构，你觉得它在暗示什么？它在暗示\"层级\"——从最内层的根结点，到第二环的分类，到第三环的子分类，就像一棵大树从主干分出枝丫，又从枝丫分出细叶。它隐喻的是\"一切复杂的整体，都可以被层层剥开来观察\"。这种\"由内而外层递展开\"的空间逻辑，恰好与人脑中\"从整体概览到细节钻取\"的认知路径完美吻合。",
+          "ttsFp": "fac946f4_176",
+          "srtCueIdx": 11,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而**和弦图**呢？想象你把所有的数据节点均匀地摆放在一个圆环上，然后在它们之间拉出一条条粗细不等的弧线带。这种结构隐喻的是\"万物之间的关联强度\"——谁跟谁之间的贸易额最大？哪两个学科之间的论文引用最频繁？那些最宽最粗的弧带，就是关系最紧密的纽带。和弦图不仅仅是在画连线——它是在用几何圆的完美对称结构，向观众揭示一个复杂系统内部那些隐秘的、支配性的力量通道。",
+          "ttsFp": "e4559252_180",
+          "srtCueIdx": 12,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 50,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就像是在拍电影。顶级导演从不问自己\"这场戏我该用单纯的 35mm 定焦镜头还是 200mm 长焦镜头\"。导演问的是：\"我想让观众感受到一种压抑的幽闭感，还是想要呈现出在这片荒野上的极度孤独感？\"我们可以从 `film-as-data-cinematic-visualization` 此类将电影叙事与数据结构相融合的先锋视角中汲取跨学科的灵感。",
+          "ttsFp": "f831f5bc_173",
+          "srtCueIdx": 13,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在信息可视化设计里，我们要跳出单纯的\"数据展示\"，让这种时空隐喻为主旨服务。我们不是在画线，我们是在讲故事。",
+          "ttsFp": "6e810d05_54",
+          "srtCueIdx": 14,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了让大家在这个充斥着海量模板的工具时代（比如你们上周刚刚操作过的 RAWGraphs）保持清醒，我们必须把那些令人眼花缭乱的复杂名字分门别类地归纳进四副“隐喻画框”里。任何一种深层次的商业或社会分析需求，其可视化的物理落脚点必然落入以下四大时空隐喻生态：",
+          "ttsFp": "f8683d51_128",
+          "srtCueIdx": 15,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **时间之渊 (Time series)**：隐喻不可逆的线性流逝。无论是 `Line chart` 还是 `Streamgraph`，本质都是在水平空间维度上用向右的线性延伸稳隐喻时间的无情演进。",
+          "ttsFp": "1ce390a2_102",
+          "srtCueIdx": 16,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **引力与纽带 (Networks & Correlations)**：隐喻群体社会的网络连接与内在牵制。当你需要表达数据间的纠缠或强弱关联联结时，请立刻抛弃纯面积的拼盘版，果断启用点迹聚落 `Scatterplot`（用距离逼近隐喻正负相关性）或交织图腾 `Chord Diagram`（用彩色丝带的粗细交融隐喻资金与人口流量的疯狂交互枢纽）。",
+          "ttsFp": "06b67f1c_176",
+          "srtCueIdx": 17,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 65,
+          "srcLEnd": 65
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **俄罗斯套娃 (Hierarchies)**：隐喻庞大组织的层层肃穆剥离与从属关系。从平面领土层面的 `Treemap` 面积切割到微观显微镜视角细胞堆积的 `Circle Packing`，本质都在动用“强行物理包含 (Containment)”这一极度霸道的地盘空间吞吐圈禁隐喻。",
+          "ttsFp": "356dc0db_146",
+          "srtCueIdx": 18,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. **聚落与领地 (Distributions & Proportions)**：隐喻势力份额的掠夺划分或群居生态位。`Pie chart` 或 `Violin plot` 其实都是在特定区域切割版图，从而以直观大面积领地优势建立起群体分布落差的第一层社会直觉判断优势。",
+          "ttsFp": "e3b69b27_137",
+          "srtCueIdx": 19,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "只要你如同鹰眼般洞悉了这四张无形的隐喻网，你就不需要在工具库成百上千个所谓的“高级组合酷炫 Chart”大名单迷宫里晕头转向了。",
+          "ttsFp": "2f40de14_64",
+          "srtCueIdx": 20,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "说到隐喻与叙事，我们必须意识到：不同文化背景下的视觉信息传达，有着截然不同的底层逻辑。\n在西方文艺复兴之后的视觉传统中，透视法（Perspective）主导了信息图形的构造方式——单点视角、固定观察者、时间被冻结在一个瞬间。这直接催生了我们今天熟悉的笛卡尔坐标系图表。\n但中国传统视觉叙事走了完全不同的路。北宋张择端的《清明上河图》长达 5 米，采用\"散点透视\"——观者的视角是流动的，从城外到城内，时间和空间在一幅画卷中连续展开。这种\"横卷叙事\"与我们下几周将要学习的 Scrollytelling（滚动叙事）在底层哲学上惊人地一致：都是以空间的线性展开来承载时间的流逝。\n更早的例子还有裴秀的《禹贡地域图》（公元 3 世纪），这是世界上最早的系统化地理信息可视化实践之一，比西方的等比例地图早了近千年。\n作为数字媒体艺术的学生，我们不应盲目套用西方图表范式。在选择视觉隐喻时，要有**文化审美自觉**——理解不同叙事传统的优势，并在当代数据可视化实践中探索属于中国视觉语言的独特表达。",
+          "ttsFp": "7f4c614f_444",
+          "srtCueIdx": 21,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 71,
+          "srcLEnd": 76
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Discussion",
+          "duration": "20min",
+          "desc": "**\"走错片场的隐喻\"——破冰纠错讨论。**",
+          "text": "[ACTIVITY]\n*   **Type**: `Discussion`\n*   **Duration**: `20min`\n*   **Desc**: **\"走错片场的隐喻\"——破冰纠错讨论。**\n**执行流程**：在大屏幕上随机展示 3 张在真实商业环境或新闻报道中\"用错隐喻\"的灾难图表。\n例如：用雷达图来展示一个人从 1 岁到 50 岁的身高流变；用平行的折线图来展示某企业下辖六个毫无关联的独立子公司的今年利润额。\n让同学们当场指出：这些图表为什么看起来\"很怪\"？它们在潜意识里向观众传递了什么错误的时空关联假象？通过这个 20 分钟的抢答热身，彻底摧垮大家之前脑海中根深蒂固的\"只要能把数据画出来用什么图都可以\"的理科生惯性思维。",
+          "ttsFp": "09bc9e3f_316",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 78,
+          "srcLEnd": 84
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "既然我们懂得了破除模版、寻找隐喻，那么隐喻的最高境界是什么？是“形神合一”。\n[VISUAL]\n*   **Slide**: `S02b2_Frames_of_Mind_Meta_Art`\n*   **Asset**: ![预览](../public/slides/S02b2_Frames_of_Mind_Meta_Art.png)\n*   **Layout**: `Comparison`\n*   **Scene**: 左侧展示一张使用 ECharts 默认皮肤生成的普通方形树图 (TreeMap)，右侧并排展示 Alberto Lucas López 的《Frames of Mind》中那些被画成如立体主义碎玻璃般不规则的面积区块组合。\n*   **Text**: \"Meta-Art：最高维的视觉隐喻\"\n看看国家地理这件斩获无数大奖的作品《Frames of Mind》。设计师要对毕加索一生的 8000 件作品进行面积矩形的树图 (TreeMap) 分类可视化。如果用传统的思路，我们会像屏幕左边那样，生成一堆冷冰冰、毫无生气的规整矩形方块（面积通道）。\n但设计师做了一件惊世骇俗的事。他提取了毕加索标志性的“立体派线条”作为数据的载体边框。如果你的数据对象是毕加索，那么最顶配的视觉通道，绝对不是纯粹无机质的长方形，而是能够直接隐喻其精神内核的视觉图腾。这不仅呈现了数据结构的严谨隐喻，甚至在**视觉外观层面上彻底与被观测的客观实体发生了同构**。这，就是“Meta-Art（视觉语言同构）”的巅峰。教导我们这样一个真理：隐喻不仅在“形”，更在骨血里的“神”。",
+          "ttsFp": "fd03174c_678",
+          "srtCueIdx": 22,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 88,
+          "srcLEnd": 99
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你同意这个观点，那么接下来的问题就是：隐喻是如何被拆解并最终独立构建出来的？正如屏幕上这些模糊且破碎的图表局部一样，每一种复杂的隐喻效果，底层的本质都是由某几个极其基础的视觉原子——形状、位置、方向、颜色、大小——被精心设计与重新组装而成的。",
+          "ttsFp": "7fe882bc_123",
+          "srtCueIdx": 23,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 110,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了掌控这种视觉魔法，你必须首先了解法术元素的周期表。这就需要我们熟练掌握可视化的\"原子语法\"。",
+          "ttsFp": "eee51be2_48",
+          "srtCueIdx": 24,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M01_跳出模板__寻找数据的时空隐喻.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        }
+      ],
+      "firstSrtCueIdx": 0,
+      "budgetChars": 1800,
+      "oralCharCount": 2547,
+      "estimatedMinutes": 14.2,
+      "fillRatio": 1.42
+    },
+    {
+      "id": "mod-3",
+      "title": "Module 2: 原子语法——**Marks（标记）** 与**Channels（通道）** (70 分钟)",
+      "slides": [
+        {
+          "id": "S03_Marks_Channels_Intro",
+          "layout": "Grid",
+          "text": "可视化的元素周期表：从抽象数据到具象图形的桥梁",
+          "heading": "",
+          "scene": "界面设计得像飞机的驾驶舱。左侧是基础几何图形（点、线、面），被标记为\"Marks\"；右侧是一系列控制旋钮、推子与表盘（位置、颜色、大小、形状等），被标记为\"Channels\"，呈现出一种高度可控的机械质感。",
+          "image": "weeks/W02_Design_Principles/public/slides/S03_Marks_Channels_Intro.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S03_Marks_Channels_Intro.png"
+          ],
+          "assetExpected": [
+            "public/slides/S03_Marks_Channels_Intro.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "S03b_Marks_Hierarchy",
+          "layout": "Full",
+          "text": "标记的几何层级：从自由到约束",
+          "heading": "",
+          "scene": "从左到右的几何递进阶梯图：0D 点（标注\"自由度：最高\"）→1D 线（标注\"自由度：中等，长度已被占用\"）→2D 面（标注\"自由度：最低，形状/面积已被锚定\"），每一级之间用向下的箭头标注\"自由度衰减\"。",
+          "image": "weeks/W02_Design_Principles/public/slides/S03b_Marks_Hierarchy.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S03b_Marks_Hierarchy.png"
+          ],
+          "assetExpected": [
+            "public/slides/S03b_Marks_Hierarchy.png"
+          ],
+          "list": null,
+          "paragraphStart": 4
+        },
+        {
+          "id": "S03c_Five_Dim_Scatter",
+          "layout": "Full",
+          "text": "五维数据，一张图搞定",
+          "heading": "",
+          "scene": "一张精心渲染的五维散点图示意——X轴标注\"年龄\"，Y轴标注\"收入\"，图中散点的颜色按职业分类（蓝=IT，绿=金融），面积大小映射健康评分，形状区分性别（方=男，圆=女），右侧配以图例面板。",
+          "image": "weeks/W02_Design_Principles/public/slides/S03c_Five_Dim_Scatter.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S03c_Five_Dim_Scatter.png"
+          ],
+          "assetExpected": [
+            "public/slides/S03c_Five_Dim_Scatter.png"
+          ],
+          "list": null,
+          "paragraphStart": 11
+        },
+        {
+          "id": "S03d_Channel_Power_Summary",
+          "layout": "Grid",
+          "text": "原子的力量：一个点，五个维度",
+          "heading": "",
+          "scene": "极简总结卡片——中央用大号字体展示公式 \"1 Mark + 5 Channels = 5 维降维\"，下方配以刚才演示的五维散点图缩略图，四周环绕着五个通道图标（位置×2、色相、面积、形状），用连线指向中央的点标记。",
+          "image": "weeks/W02_Design_Principles/public/slides/S03d_Channel_Power_Summary.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S03d_Channel_Power_Summary.png"
+          ],
+          "assetExpected": [
+            "public/slides/S03d_Channel_Power_Summary.png"
+          ],
+          "list": null,
+          "paragraphStart": 20
+        },
+        {
+          "id": "S04_Channel_Effectiveness",
+          "layout": "Grid",
+          "text": "通道也是论资排辈的——表达性与有效性",
+          "heading": "",
+          "scene": "展示 Tamara Munzner 理论中通道的视觉效能硬性排序梯队。左列为最强通道\"空间位置\"（高亮闪烁）；中列为次强次要通道（长度、面积、颜色明度等）；右列为辅助标识通道（色相、运动、形状）。",
+          "image": "weeks/W02_Design_Principles/public/slides/S04_Channel_Effectiveness.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S04_Channel_Effectiveness.png"
+          ],
+          "assetExpected": [
+            "public/slides/S04_Channel_Effectiveness.png"
+          ],
+          "list": null,
+          "paragraphStart": 21
+        },
+        {
+          "id": "S04b_Expressiveness_Rule",
+          "layout": "Split",
+          "text": "表达性原则：数据特征必须精准匹配通道类型",
+          "heading": "",
+          "scene": "左半屏展示正确匹配——数量型数据（温度渐变）→量化通道（位置/长度），用绿色对勾标注；右半屏展示正确匹配——分类数据（水果种类）→标识通道（色相），用绿色对勾标注；中间用巨大的红色叉号标出错误的交叉搭配。",
+          "image": "weeks/W02_Design_Principles/public/slides/S04b_Expressiveness_Rule.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S04b_Expressiveness_Rule.png"
+          ],
+          "assetExpected": [
+            "public/slides/S04b_Expressiveness_Rule.png"
+          ],
+          "list": null,
+          "paragraphStart": 27
+        },
+        {
+          "id": "S04c_Color_Lie_Map",
+          "layout": "Full",
+          "text": "当颜色变成武器——选举地图的视觉谎言",
+          "heading": "",
+          "scene": "一张被红色渐变严重误导的美国选举地图——共和党州用强烈的深红填充，民主党州用微弱的浅粉填充，旁边用黄色警告标签标注\"视觉谎言：色相强度 ≠ 政治权力\"，下方对比展示正确的分类色阶版本。",
+          "image": "weeks/W02_Design_Principles/public/slides/S04c_Color_Lie_Map.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S04c_Color_Lie_Map.png"
+          ],
+          "assetExpected": [
+            "public/slides/S04c_Color_Lie_Map.png"
+          ],
+          "list": null,
+          "paragraphStart": 30
+        },
+        {
+          "id": "S04d_Magnitude_Ranking",
+          "layout": "Split",
+          "text": "量化通道排名：衡量'多少'",
+          "heading": "",
+          "scene": "量化通道排名阶梯图——从顶到底依次排列：①对齐空间位置（配以柱状图小图标，高亮闪烁）②非对齐位置与长度 ③角度（配以饼图小图标，标注\"⚠️ 人类天生弱\"）④面积与体积（标注\"🔴 严重认知压缩\"），整体呈递降阶梯式布局。",
+          "image": "weeks/W02_Design_Principles/public/slides/S04d_Magnitude_Ranking.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S04d_Magnitude_Ranking.png"
+          ],
+          "assetExpected": [
+            "public/slides/S04d_Magnitude_Ranking.png"
+          ],
+          "list": [
+            "- #1 对齐空间位置 (Position on common scale)",
+            "- #2 非对齐位置 / 长度",
+            "- #3 角度 (Angle)",
+            "- #4 面积 / 体积 (Area / Volume)"
+          ],
+          "paragraphStart": 36
+        },
+        {
+          "id": "S04e_Identity_Ranking",
+          "layout": "Split",
+          "text": "标识通道排名：区分'是什么'",
+          "heading": "",
+          "scene": "标识通道排名阶梯图——从上到下依次排列：①空间区域（配以左右分屏分类示意）②色相（配以红蓝绿色块）③运动/形状（配以微缩的圆方三角图标，标注\"易混淆\"警告），整体风格与 S04d 保持统一。",
+          "image": "weeks/W02_Design_Principles/public/slides/S04e_Identity_Ranking.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S04e_Identity_Ranking.png"
+          ],
+          "assetExpected": [
+            "public/slides/S04e_Identity_Ranking.png"
+          ],
+          "list": [
+            "- #1 空间区域 (Spatial Region)",
+            "- #2 色相 (Color Hue)",
+            "- #3 运动 / 形状 (Motion / Shape)"
+          ],
+          "paragraphStart": 41
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "可视化的世界看似千变万化，从微信步数的柱状图，到《纽约时报》美轮美奂的全球疫情流动地图，所有这些复杂的呈现，如果你把它们放到理论的显微镜下，拆到底只有两样东西。",
+          "ttsFp": "c772b84b_80",
+          "srtCueIdx": 25,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**这是我们在向 AI (比如 ChatGPT 或是 Claude) 描述可视化需求时，必须熟练使用的核心专业词汇**。掌握了它们，你就掌握了控制 AI 画笔的终极密码。",
+          "ttsFp": "da6fbdd1_85",
+          "srtCueIdx": 26,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这两样东西，就是 **Marks（标记）** 和 **Channels（通道）**。它们就像是一套高度精密的几何控制台，决定了你是否能够精准地把抽象冰冷的数字，无损且高效转化为屏幕上那些鲜活的视觉构件。",
+          "ttsFp": "124b8836_101",
+          "srtCueIdx": 27,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "tech_note",
+          "tag": "TECH NOTE",
+          "text": "[TECH NOTE: 标记的几何层级]\n**Marks（标记）** 是几何原子。在二维屏幕平面上，它们分三个维度层级：\n\n1. **点 (0D / Points)**：它是最自由的。从数学意义上讲，它不占面积，没有长宽限制。正因如此，你可以尽情地赋予它任何形状、任何颜色、或者人为设定的大和小。在散点图中，每一个数据条目就是一个点。\n2. **线 (1D / Lines)**：线是有约束的。它的长度已经被它的存在本身\"占用\"了（用于连接起点和终点）。因此，你能调整的只剩下它的线宽以及它的颜色。在关系图或者折线图中，线是连接网络的主力。\n3. **面 (2D / Areas)**：如果你画的是一个国家地图的版块，那它就是个面。它的尺寸和形状已经被地理边界死死绑定了。你几乎无法再去改变它的大小来代表其他含义，你能动用的只有它的填充颜色或纹理。",
+          "ttsFp": "3756de21_373",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 17,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "更进一步，如果你翻开底层教材，标记还可以被划分为**项目标记 (Items)** 和**链接标记 (Links)**。",
+          "ttsFp": "79491fa5_59",
+          "srtCueIdx": 28,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所谓项目标记，就是那些孤立存在的个体单元——屏幕上的一个点、一根柱子、或者一个区块。而**链接标记**则专门用来展示它们之间的羁绊。连接 (Connection) 时我们用线（例如网络拓扑图的连线），包含 (Containment) 时我们用嵌套的面（例如旭日图或者树图的面层叠）。",
+          "ttsFp": "95b192d5_141",
+          "srtCueIdx": 29,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这里，大家必须记住一个致命的约束：虽然线 (1D) 拥有自由的宽度可以用来编码附加属性（比如用线的粗细表示车流量），但人类眼睛对**线宽可辨别步级极限 (Bins)** 只有可怜的 3 到 4 级。也就是说，你可以分清极细、正常、极粗，但绝别指望观众能通过线宽肉眼看出交通量是 480 辆还是 510 辆！当你企图把连续不断的一长串浮点数塞进一条连线的宽度里时，你其实已经把通道阻塞撑爆了。",
+          "ttsFp": "bae774d3_196",
+          "srtCueIdx": 30,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家可以把\"标记\"想象成舞台上的演员。演员本身是骨骼和肉体，是图表的承载物。",
+          "ttsFp": "6a3af553_38",
+          "srtCueIdx": 31,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但他们穿什么颜色的衣服登场？他们是胖还是瘦？他们站在舞台中央的左侧偏南 30 度位置，还是紧紧挤在角落里？说话声音是大是小？这些用以修饰他们、并且随数据变量产生起伏变化的属性，就是 **Channels（通道）**。",
+          "ttsFp": "f9e55f35_108",
+          "srtCueIdx": 32,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 38,
+          "srcLEnd": 38
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "举个例子，假设我们拿到了一份包含五个变量的数据集：某地区 500 个不同用户的【年龄】、【收入】、【职业】、【健康评分】和【性别】。",
+          "ttsFp": "54b06afb_66",
+          "srtCueIdx": 33,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果使用最基础的点标记（Point），由于点是 0D 的，极度自由，我们可以瞬间挂载极其丰富的信息：",
+          "ttsFp": "d314d949_50",
+          "srtCueIdx": 34,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **位置 X 轴（通道1）**映射【年龄】。",
+          "ttsFp": "1a6aa20f_24",
+          "srtCueIdx": 35,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **位置 Y 轴（通道2）**映射【收入】。",
+          "ttsFp": "35098ef4_24",
+          "srtCueIdx": 36,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 53,
+          "srcLEnd": 53
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **颜色色相（通道3）**映射【职业】（IT 业用蓝色，金融业用绿色）。",
+          "ttsFp": "def1608c_38",
+          "srtCueIdx": 37,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **面积大小（通道4）**映射【健康评分】。",
+          "ttsFp": "50113a20_24",
+          "srtCueIdx": 38,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 55,
+          "srcLEnd": 55
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **形状（通道5）**映射【性别】（男性为正方形，女性为圆形）。",
+          "ttsFp": "133b9b6d_34",
+          "srtCueIdx": 39,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 56,
+          "srcLEnd": 56
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看！仅仅使用一个被疯狂赋予通道属性的点，我们就在二维平面上完成了一次五维数据的降维打击式呈现。这就是原子的力量。",
+          "ttsFp": "01f632e8_56",
+          "srtCueIdx": 40,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "让我们趁热打铁，直接把你们在上周初阶探索课程那个工具库里觉得极其不可莫测、高大上又非常常见的“精美组合套装”按上解剖床开膛破肚——著名的 **Bubble Chart (气泡图)**。\n在业余甲方或普通初学者眼里，这叫“一种名叫气泡图的高级流行样式”。但如果你成功植入了这节课传授的“通道与标记原子级视觉显微镜视野”，气泡图华丽的流行词外衣会被瞬间无情撕碎并扒光殆尽：\n1. 解剖刀切开表皮，你会发现它的内部承载肉体**几何原子 (Mark)** 完全未变：仅仅只是一颗不能再简陋的极低阶微小粉尘 **0D 点 (Point)**。\n2. 紧接着，这颗原子的 **绝对物理位置 X/Y 轴 (Position Channel 1 & 2)** 分线通道被你无情征用收编，用来分别搭载捆绑了两个不同维度的数值变量，并在二维幕布上以此来残忍揭露隐喻它们两者之间的那千古不变的“正负相关性 (Correlations)”。\n3. 然后，也是最致命的一击。这颗原子的最表层外皮囊 **大小面积 (Size Channel)** 抢夺获取了这套编码规则的更高维视觉突刺指挥权，被充作气囊吹胀用来隐喻附着第三个关键属性变量的绝对“总资产吞吐量差异断层比例 (Proportions)”。\n对！就这么极其纯粹简单！\n顿悟这一层公式后，这就意味着：这所谓的经典款高定 Bubble chart 再也不是什么固定而神圣不容侵犯被供奉在神坛的独立不可变更物体结构！一旦你这个造物主敏锐意识到，在这个图里它的**面积通道系统**目前正在承受着极其严重乃至致命的心理认知压缩效能亏损（由于 Steven's Law 的惩罚），你作为全能全知系统指令师完全有生杀大权在代码控制层面对其进行粗暴干预换血：毫不犹豫残忍剥夺并关闭掉它的可憎面积维度映射权利通路，将这一指标变量数据紧急倒车输送改挂并转移注入到并联通道隔壁的**强烈突变色彩色阶光度 (Luminance) 阀门**身上去。这时的你，就已经宣告彻底脱胎换骨再也不仅仅是只会拖拽拉取生搬硬套某个烂大街现成命名 Chart 模板名字的可怜流水线工具操作员，而是真正冷血清醒、死死手握能够驱动宇宙语法重组创世生杀大权的高维 Vibe 指令系数据建筑架构总师！",
+          "ttsFp": "535625db_942",
+          "srtCueIdx": 41,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 60,
+          "srcLEnd": 67
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "让我们暂停一下，请大家盯着屏幕上刚才那张五维散点图的最右上角那颗又大又蓝的正方形点。此刻，你的大脑神经在毫秒内经历了一场极其复杂的潜意识解构风暴。\n第一毫秒，你的眼动仪锁定了它的位置，你的空间直觉立刻告诉你：\"位置最靠右上，这个人年纪最大、收入最高\"；第二毫秒，你的视锥细胞捕捉到了冷色域蓝光，你的左脑开始归类：\"蓝色，他是 IT 行业的\"；第三毫秒，你的前注意机制发现这颗点比周围的大出一圈：\"面积显著偏大，他的健康状态极好\"；第四毫秒，你靠近屏幕，看清了它的直角边缘：\"正方形，喔，是个老爷子\"。\n一秒钟内，完全没有借助任何外部的文字标注，仅凭直觉你就从密密麻麻的五百个点里，瞬间筛选出了一个高收入、高龄、健康状态极佳的 IT 业男性标本。这就是原子的魔法组合。",
+          "ttsFp": "187c441e_333",
+          "srtCueIdx": 42,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 69,
+          "srcLEnd": 72
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "18 世纪末至 19 世纪初（1786-1801），英国统计学家 William Playfair 发明了柱状图和饼图，但当时并没有人真正意识到\"位置通道\"的生死攸关。直到 1854 年，伦敦医生 John Snow 在一张伦敦街道地图上，用小黑点标注了每一个霍乱死亡病例的位置——密集的黑点迅速聚集在 Broad Street 水泵周围。那张图直接说服了当局关闭了那口受污染的水泵，一场瘟疫就此被终结。这是人类历史上第一次，\"空间位置通道\"被用来拯救生命。",
+          "ttsFp": "0df1445e_229",
+          "srtCueIdx": 43,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 74,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家仔细看大屏幕上这张极其核心的总结图，特别是中央被五根引线拉扯的那颗点。这就是为什么我们今天绝不能停留在“选择下拉模板”的肤浅层面。在这个公式里，“1 Mark + 5 Channels”意味着你在向 AI 下达指令时，你可以对这颗点进行深度的五元解构。图中每一个环绕中央的通道图标，它们指向点的连线，都是你在干预数据的手段。这五根牢固的连线，完全构成了你在二维世界中重建高维数据宇宙的提线木偶控制绳缆。",
+          "ttsFp": "41906aef_203",
+          "srtCueIdx": 44,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 85,
+          "srcLEnd": 85
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "通道，就是图表外观的控制旋钮。但如果你以为你可以随意把任何数据挂载到任何旋钮上，那就大错特错了。",
+          "ttsFp": "4d5f9221_48",
+          "srtCueIdx": 45,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在信息可视化领域，有两位泰斗级人物 William S. Cleveland 和 Robert McGill，他们在 1980 年代做过一系列极为硬核的认知科学实验。他们让试验者辨认不同视觉通道中存在的微小数据差异。实验结果震惊了当时的图形学界：人类在判断不同维度的图形大小时，神经系统的敏感度呈现出了极为残酷和断崖式的层级划分！这就是为什么这些通道并不是平等的——它们在你的视网膜和前额叶皮层里，早就被漫长的生物进化安排好了\"老幼尊卑\"的铁定统领秩序。",
+          "ttsFp": "511df79f_227",
+          "srtCueIdx": 46,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "通道的使用必须遵守两大核心原则：**Expressiveness（表达性原则）**和**Effectiveness（有效性原则）**。外行最常犯的典型灾难错误，就是强行用\"颜色\"去衡量精确的数量大小。",
+          "ttsFp": "5577f68a_100",
+          "srtCueIdx": 47,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 98,
+          "srcLEnd": 99
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "表达性原则意味着：你所选用的通道，必须且只能完全匹配你手中数据的内在特征。",
+          "ttsFp": "cb42c4cc_37",
+          "srtCueIdx": 48,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 101,
+          "srcLEnd": 101
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你手里是一份有序的连续数字（比如 1, 2, 3，或者由低到高的气温，这叫 **数量型 Magnitude 数据**），你必须使用能够表达大小顺序的**量化通道**（如长度、位置）。",
+          "ttsFp": "d0a1f39e_93",
+          "srtCueIdx": 49,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你手里是一份散装的分类标签（如苹果、梨、香蕉，这叫 **分类类别型 Identity 数据**），你必须使用只能区分\"是什么\"的**标识通道**（如颜色色相，因为红黄蓝没有谁比谁大）。",
+          "ttsFp": "3b9411b6_94",
+          "srtCueIdx": 50,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请大家看屏幕中间那个巨大的红色叉号：这就是用错了表达性原则的恐怖代价。当你手上拿到的是一堆汽车类别标签（福特、丰田、大众），你为了制造图表的\"动态变化高级感\"，非要强行按照序列给它们挂上从浅到深渐变的颜色亮度（这是属于量化通道）。你的读者脑海里瞬间就会产生一个荒诞的潜台词：“大众的颜色更深更粗犷，所以它的体量必然碾压福特？”这就完全扭曲了底层数据仅仅想展现分类标签的本意。这叫做“极其业余的通道越权”。",
+          "ttsFp": "c347c025_202",
+          "srtCueIdx": 51,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当然，很多同学会问：我明明可以用颜色区分种类，可不可以再顺便给它挂上不同的几何形状（比如蓝色圆圈、红色方块）？这叫**冗余编码（Redundant Encoding）**。双通道编码确实能极其有效且强烈地加强这批核心数据的视觉剥离感。但代价是什么呢？资源总是稀缺的。当你原本宝贵的通道资源（形状、颜色）被你一次性过度挥霍在这一个无关紧要的属性上时，这幅图就永远封死了加载第六维叙事数据的空间。",
+          "ttsFp": "886ddd70_196",
+          "srtCueIdx": 52,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "更为致命的是违背通道绑定特征的灾难。如果违反了这条法则，产生可笑的认知错乱——比如当你审视一张选举日战场的美国地图，如果用强烈的深红色阴影渐变去填充标注为共和党的广大荒芜内陆州，用微弱的粉色去区分为民主党的州地盘，读者视神经潜意识地就会判定\"代表强烈颜色的那一方政治权力和胜率要远远强大百倍\"，这种视觉谎言甚至会在敏感的选举周期中直接引发并扭曲舆论倒向。何况，**面积标记本身也是早已被地理边界死死硬绑定的产物**！你根本就不可能通过改变得克萨斯州的省份轮廓版图大小来任意强行映射选票数量的大小涨跌，一旦你试图动用缩放能力，整个国家的大陆地缘形状就会在读者眼里像被融化的塑胶玩具一样荒唐扭曲，这是不可理喻的视觉犯罪。",
+          "ttsFp": "4e4842c3_308",
+          "srtCueIdx": 53,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在有效性原则下，每一类通道都有着其不可撼动的阶级排名。也就是说，当你手上的数据是极其关键的绝对核心指标时，你必须把这笔预算花在最顶尖的通道上。",
+          "ttsFp": "5a003d5e_72",
+          "srtCueIdx": 54,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 126,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "首先看**量化通道（衡量多少）**。在这个领域里：",
+          "ttsFp": "a0b8f52c_25",
+          "srtCueIdx": 55,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 128,
+          "srcLEnd": 128
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **对齐的空间位置（Position on common scale）**，毫无悬念排名第一。这就是为什么平平无奇的**柱状图**（所有柱子都在 X 轴底部对齐）在这个星球上永远是比较数字大小最精准的王者。",
+          "ttsFp": "e437a56e_106",
+          "srtCueIdx": 56,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. 其次是**非对齐位置（Position on unaligned scale）**和**长度（Length）**。",
+          "ttsFp": "62bb2545_60",
+          "srtCueIdx": 57,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. 再其次是**角度（Angle）**（这正是为什么通常我们不推荐复杂的饼图，因为人类对角度的辨识度天生弱于长度）。",
+          "ttsFp": "d2abe1c2_59",
+          "srtCueIdx": 58,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. 最后才轮到**面积（Area）**和**体积（Volume）**。这两者经常由于心理感知压缩而造成重大认知误差，这部分我们在下个模块细讲。",
+          "ttsFp": "2c444382_72",
+          "srtCueIdx": 59,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 132,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请大声告诉我，盯着这幅阶梯画面最顶层那个不羁并持续闪烁的高亮王冠，排名绝对第一无法撼动的主宰者是谁？是**对齐空间位置**。这就是为什么，哪怕计算机科学再如何狂飙突进更迭、甚至进入元宇宙全息虚拟数据纪元，那看起来土得掉渣、平平无奇的**经典二维柱状图（Bar Chart）**，由于底边所有排列矩阵柱子都被强横地牢牢锁死在统一的水平零基础 X 轴对齐基线上，这使得我们人类脆弱但精准的大脑视觉神经此时仅仅只需要执行极其微量极低负荷的顶部视平线平移差值比对运算，就能瞬间捕捉极其微弱的数据波涛高度差！它曾经是、现在是、且永远都将是这个星球上比较数量落差的最精准兵器！而垫底压在黑暗底层的面积与三维立体厚度呢？那仅仅是牺牲精度换来烘托氛围场景的牺牲品感应区。",
+          "ttsFp": "43a7109b_327",
+          "srtCueIdx": 60,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 146,
+          "srcLEnd": 146
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "再来看**标识通道（区分是什么）**。在这个领域里：",
+          "ttsFp": "cb9e1dc4_26",
+          "srtCueIdx": 61,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 148,
+          "srcLEnd": 148
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **空间区域（Spatial Region）**永远排名第一（比如把水果放左侧半屏，把肉类放右侧半屏，读者一秒钟内瞬间完成分类）。",
+          "ttsFp": "0c1ad146_68",
+          "srtCueIdx": 62,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 149,
+          "srcLEnd": 149
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. 在同一区域内，**色相（Color Hue）**则是排名第二的区分王者。",
+          "ttsFp": "6835e3fc_39",
+          "srtCueIdx": 63,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 150,
+          "srcLEnd": 150
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. 最后才是**运动模式（Motion）**和**形状（Shape）**（因为在小图形下，圆形、方形、甚至三角形很难在一瞬间被远处的眼球清晰区分）。",
+          "ttsFp": "52039090_75",
+          "srtCueIdx": 64,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 151,
+          "srcLEnd": 151
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "让我们用一个载入数据新闻发展史册的殿堂级别展示神迹来为通道阶梯规则打下烙印。已故全球顶级统计学演讲大师 Hans Rosling 曾经于 TED 讲台上向亿万世人展示过一副震惊环宇的气泡散点动图。他要在有限画框内，极其狂野地同时塞入全球几百个国家的五维变迁历史庞大数据群落：【人均国民GDP】、【国民预期健康寿命】、【该国隶属的各大洲地缘】、【该国现有人口巨量规模】以及那跨越几个世纪的【时间流逝轴】。\n请大家立刻凝视并结合对比刚刚学完的这份森严通道排行榜单，站在一位底层代码架构者的视角去深度逆向透析老爷子的手术式配置框架思路：\n第一维大杀器与第二维命脉变量——两个最致命且无容错空间的定量考核体：【人均GDP】与【预期健康寿命】。老爷子毫不犹豫地将这两个象征国家命门的核心，重金押注并强行锁扣砸在了量化排名榜第 1 与次席的**双轴对齐二维空间坐标轴（X与Y）**基准格栅上！凭此奠定钢铁对比底座的基础。\n第三维变数——纯绝对分类的离散数据：【国家所属各异的地缘大洲板块（欧亚非）】。他精准地抽调挂载启用了分类识别榜内极高位次的亚军标识通道方案：赋予最鲜明的纯系**色彩色相区分（Hue）**，像京剧涂染脸谱面膜一样装载于表层。\n第四维变位——极度悬殊的次要定量数据：【国家庞大到可怖或微小若尘埃的人口总规模落差】。在对齐位置已经被占领的前提下，他只得退而求其次，使用了感知压缩但具有无与伦比气壮山河磅礴氛围压迫感的量化维度中段排名通道：**饱满膨胀的气泡表面面积量级（Area）**。靠此直接在视觉平面上压垮那些蕞尔小邦，让巨型气泡呼之欲出。\n最后一维演化：【延绵演化的漫长时间序列里程】。作为连续流逝方向明确的终极变量流体流光，他大胆提取激进了分类领域排名第三、极易失效引人发怒但一旦操作得当则神鬼辟易的时间通道属性：直接召唤**运动延时延轨迹顺滑流亡图层（Motion）**！让一百个大大小小的国度气泡犹如培养皿细胞剧变一般横扫大屏幕。这就是极其苛刻的遵守甚至逼死表达有效性铁血强规则所组合推陈升华出来的科学逻辑与视觉绝美千古绝唱完美合体交响乐神曲！",
+          "ttsFp": "61d2aa7c_880",
+          "srtCueIdx": 65,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 164,
+          "srcLEnd": 170
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这套由先辈与脑神经科学家趟出来的\"铁律语法体系架构\"，就是我们得以直接深入机器图纸底层逻辑、向未来更为先进哪怕是拥有几亿参数量的深层学习黑盒人工智能下达最精确不容置疑统属命令词组的最佳利刃接口。",
+          "ttsFp": "c428fb34_97",
+          "srtCueIdx": 66,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 172,
+          "srcLEnd": 172
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "1858 年，佛罗伦萨·南丁格尔用一张\"鸡冠花图\"（极坐标面积图）说服了英国议会拨款改善军医院卫生条件。在克里米亚战争中，她发现士兵的死亡原因大多不是战伤，而是感染。她把这个发现编码成了一张前所未有的视觉图表——用扇区面积映射死亡人数，用颜色区分死因。议员们看了一眼就沉默了。这是人类历史上第一次，一张图表直接改变了一个国家的政策，拯救了成千上万条生命。标记与通道的力量，远比你想象的更加真实。",
+          "ttsFp": "12d4176d_197",
+          "srtCueIdx": 67,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 174,
+          "srcLEnd": 175
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Workshop",
+          "duration": "45min",
+          "desc": "**通道拆解与重构实战演练**",
+          "text": "[ACTIVITY]\n*   **Type**: `Workshop`\n*   **Duration**: `45min`\n*   **Desc**: **通道拆解与重构实战演练**\n**操作指南与教师话术**：\n1. （大屏亮起）“同学们，现在请看大屏幕上的这幅《南华早报》关于历年春节春运人口迁徙路径的得奖大画幅信息图。第一眼看过去，它像是一团绚丽的星云。现在，我给大家 15 分钟，两人一组，像执行一台外科手术那样去解剖它。”\n2. “第一步，先找骨架——告诉我，图中的主体使用的是什么 **Marks**？是不是那些成千上万细不可见的 **1D 线**？”\n3. “第二步，找旋钮——数据集中的核心变量，分别被挂载到了哪些 **Channels** 上？仔细看，出发地和目的地被挂载到了线的**空间末端位置**上；迁徙路线的拥堵度被挂载到了线的**宽度通道**上；交通方式（高铁、飞机、大巴）则被剥离出来，降级挂载到了**颜色的色相通道**上。”\n4. （15分钟后）“好，现在开始实施反事实破坏！假设你是那个拿错了说明书的乙方设计师，你试图将非常重要的**拥堵度**指标，从强感知效能的宽度通道，撤下来，挂载到仅仅依靠**运动闪烁频率通道**上，这幅图会遭遇何种毁灭性的崩塌？是的，它将变成一个巨大的频闪光污染现场，所有老人都会出现癫痫前兆，而信息在其中已经彻底无法被阅读。”",
+          "ttsFp": "c1736902_587",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 178,
+          "srcLEnd": 186
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "5. （教师补充警示）\"最后请注意一个极其重要的前提：我们刚才学过的 Munzner 通道排名，并不是放之四海而皆准的绝对铁律——它是**任务依赖（Task-dependent）**的。同一种编码通道，在'比较'任务下可能极其高效，但换到'趋势'或'关联'任务时就可能失效。UBC 的 Munzner 教授本人以及华盛顿大学的实证研究均已证明：彩色散点图在逐点比较时表现优异，但当类别增多且需要做全局趋势总结时，其效能会断崖式下跌。所以，在你下一次向 AI 下达编码指令之前，**永远先问自己：我的用户需要完成的核心分析任务（Task）是什么？**通道的选择，必须服从于任务。\"",
+          "ttsFp": "9c6c282d_289",
+          "srtCueIdx": 68,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 188,
+          "srcLEnd": 188
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "有了这套底层原子词汇，你就不必再像个迷茫的甲方一样对 AI 说：\"给我画个漂亮的统计图，高端一点的，色彩丰富一点的\"。",
+          "ttsFp": "7261d843_59",
+          "srtCueIdx": 69,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 190,
+          "srcLEnd": 190
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "相反，你可以像一个真正的系统架构师那样掷地有声地说：\"请在此次可视化中使用散点图底模，**锁定它们的对齐空间位置不变，把它们的颜色色相通道 (Hue) 重置映射为社会阶层分类，并用外显轮廓线的面积 (Area) 映射家庭年度纯利润额**。\"",
+          "ttsFp": "37752313_120",
+          "srtCueIdx": 70,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 191,
+          "srcLEnd": 191
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是从\"外围看客\"到\"操盘架构师\"的阶跃。",
+          "ttsFp": "bbe4a9e1_22",
+          "srtCueIdx": 71,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M02_原子语法____Marks_标记____与__Channels_通道.md",
+          "srcLStart": 193,
+          "srcLEnd": 193
+        }
+      ],
+      "firstSrtCueIdx": 25,
+      "budgetChars": 4500,
+      "oralCharCount": 5123,
+      "estimatedMinutes": 28.5,
+      "fillRatio": 1.14
+    },
+    {
+      "id": "mod-4",
+      "title": "Module 3: 视觉偏差的陷阱——心理学精度与视觉弹出 (20 分钟)",
+      "slides": [
+        {
+          "id": "S05_Channel_Accuracy",
+          "layout": "Split",
+          "text": "心理物理学定律：你以为的两倍，真的是两倍吗？",
+          "heading": "",
+          "scene": "极尽直观的图形对比实验。左半屏：三条黑色的直线，长度分别为 1 厘米, 2 厘米, 4 厘米，呈递增阶梯；右半屏：三个红色的实体圆，面积参数由于计算被严格设定为 1, 2, 4 倍递增。",
+          "image": "weeks/W02_Design_Principles/public/slides/S05_Channel_Accuracy.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S05_Channel_Accuracy.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05_Channel_Accuracy.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "S05b_Stevens_Power_Law",
+          "layout": "Split",
+          "text": "Stevens 幂定律：长度是诚实的，面积在撒谎",
+          "heading": "",
+          "scene": "左图展示长度感知曲线——X轴为物理刺激量，Y轴为感知量，曲线近乎完美的45度对角线（系数1.0）；右图展示面积感知曲线——同样的坐标系，曲线明显下凹（系数0.7），两条曲线之间的阴影区域标注为\"认知盲区\"。",
+          "image": "weeks/W02_Design_Principles/public/slides/S05b_Stevens_Power_Law.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S05b_Stevens_Power_Law.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05b_Stevens_Power_Law.png"
+          ],
+          "list": null,
+          "paragraphStart": 2
+        },
+        {
+          "id": "S05c_Area_Volume_Illusion",
+          "layout": "Full",
+          "text": "Stevens 定律实证：你的大脑在骗你",
+          "heading": "",
+          "scene": "三组红色实体圆的对比展示——上方标注实际面积比 1:2:4，下方用虚线圈出人脑感知的等效面积比约 1:1.4:2.5，两组数字之间用醒目的黄色闪电符号标注\"心理压缩系数 0.7\"。",
+          "image": "weeks/W02_Design_Principles/public/slides/S05c_Area_Volume_Illusion.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S05c_Area_Volume_Illusion.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05c_Area_Volume_Illusion.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "S05d_Wealth_Bubble_Lie",
+          "layout": "Full",
+          "text": "你以为的 3 倍差距，实际是 100 倍——面积通道的认知陷阱",
+          "heading": "",
+          "scene": "一张全球财富气泡地图案例——最大气泡（代表美国）与最小气泡（代表某发展中国家）之间，用红色标注线分别标出\"视觉感知落差：×3\"和\"真实数值落差：×100\"，形成触目惊心的反差警示。",
+          "image": "weeks/W02_Design_Principles/public/slides/S05d_Wealth_Bubble_Lie.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S05d_Wealth_Bubble_Lie.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05d_Wealth_Bubble_Lie.png"
+          ],
+          "list": null,
+          "paragraphStart": 9
+        },
+        {
+          "id": "S05e_Weber_Diverging_Bar",
+          "layout": "Split",
+          "text": "破局韦伯盲区：用发散图放大微小差异",
+          "heading": "",
+          "scene": "左半屏：两根近乎等高的巨大柱子（一万五千亿 vs 一万五千零一亿），顶部差异肉眼不可辨，上方标注\"韦伯盲区\"；右半屏：切换为发散性误差偏离图后，以去年均值为零点基线，那一亿的差异被显著放大为清晰可见的偏差条。",
+          "image": "weeks/W02_Design_Principles/public/slides/S05e_Weber_Diverging_Bar.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S05e_Weber_Diverging_Bar.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05e_Weber_Diverging_Bar.png"
+          ],
+          "list": null,
+          "paragraphStart": 13
+        },
+        {
+          "id": "S05f_Checker_Shadow_Illusion",
+          "layout": "Split",
+          "text": "相对判断的代价：色彩被环境劫持",
+          "heading": "",
+          "scene": "左侧展示经典的阴影棋盘错觉图，A格（位于亮部看似深灰色）和B格（位于阴影中看似浅灰色）分别被明显标出；右侧是用一条纯色带连接A格和B格，证明它们在色值上是绝对且完全相同的纯灰度颜色。",
+          "image": "weeks/W02_Design_Principles/public/slides/S05f_Checker_Shadow_Illusion.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S05f_Checker_Shadow_Illusion.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05f_Checker_Shadow_Illusion.png"
+          ],
+          "list": null,
+          "paragraphStart": 17
+        },
+        {
+          "id": "S06_Visual_Popout_Failure",
+          "layout": "Grid",
+          "text": "**Visual Popout（视觉弹出）** 的死亡边界与结合检索陷阱",
+          "heading": "",
+          "scene": "展示一系列前注意处理（Pre-attentive processing）的极限压力测试演示动图。",
+          "image": "weeks/W02_Design_Principles/public/slides/S06_Visual_Popout_Failure.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S06_Visual_Popout_Failure.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06_Visual_Popout_Failure.png"
+          ],
+          "list": null,
+          "paragraphStart": 19
+        },
+        {
+          "id": "S06b_Conjunction_Search_Demo",
+          "layout": "Full",
+          "text": "从闪电直击到地毯搜索——结合检索的代价",
+          "heading": "",
+          "scene": "模拟眼球轨迹扫描路径的对比动线图——左侧\"特征检索\"模式下眼球直接跳到目标（一条直线箭头）；右侧\"结合检索\"模式下眼球被迫逐个扫描（密密麻麻的 Z 字形折线路径），路径长度增加了 20 倍以上。",
+          "image": "weeks/W02_Design_Principles/public/slides/S06b_Conjunction_Search_Demo.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S06b_Conjunction_Search_Demo.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06b_Conjunction_Search_Demo.png"
+          ],
+          "list": null,
+          "paragraphStart": 23
+        },
+        {
+          "id": "S06c_Color_Section_Header",
+          "layout": "Center",
+          "text": "颜色：最危险的通道",
+          "heading": "",
+          "scene": "章节转场画面——深邃黑色背景上，一滴鲜红的墨水正在缓慢扩散开来，形成不规则的有机形态。画面中央以冷峻的无衬线字体写着核心议题标题。",
+          "image": "weeks/W02_Design_Principles/public/slides/S06c_Color_Section_Header.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S06c_Color_Section_Header.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06c_Color_Section_Header.png"
+          ],
+          "list": null,
+          "paragraphStart": 34
+        },
+        {
+          "id": "S06d_Three_Colormaps",
+          "layout": "Grid",
+          "text": "Munzner Ch10: 三大色阶不可跨界",
+          "heading": "",
+          "scene": "三列并排展示色阶类型：左列为顺序色阶（从淡天蓝渐变到深海军蓝，下方标注\"单向强度\"）；中列为发散色阶（暗蓝→白灰→深红，中间标注零点基线）；右列为分类色阶（7个离散独立色块，下方标注\"≤7-8种\"警告）。",
+          "image": "weeks/W02_Design_Principles/public/slides/S06d_Three_Colormaps.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S06d_Three_Colormaps.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06d_Three_Colormaps.png"
+          ],
+          "list": null,
+          "paragraphStart": 40
+        },
+        {
+          "id": "S06e_Accessibility_ColorBrewer",
+          "layout": "Split",
+          "text": "色觉缺陷不是少数人的问题——它是设计师的职业道德底线",
+          "heading": "",
+          "scene": "左半屏展示同一张热力图在红绿色盲模拟滤镜下的灾难效果（关键区域完全无法区分）；右半屏展示应用 ColorBrewer 无障碍调色板后的清晰效果，两张图下方分别标注\"8% 男性看到的世界\"和\"无障碍设计后的世界\"。",
+          "image": "weeks/W02_Design_Principles/public/slides/S06e_Accessibility_ColorBrewer.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S06e_Accessibility_ColorBrewer.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06e_Accessibility_ColorBrewer.png"
+          ],
+          "list": null,
+          "paragraphStart": 43
+        },
+        {
+          "id": "S06f_ColorBrewer_Simulator_Tools",
+          "layout": "Grid",
+          "text": "防雷神器：ColorBrewer 与色盲模拟器",
+          "heading": "",
+          "scene": "界面工作流演示。上方展示 ColorBrewer 网站界面，鼠标正在勾选 \"colorblind safe\"（色盲安全）选项并生成出一组发散色阶；下方展示安装在浏览器或 Figma 中的色盲滤镜模拟器插件界面，正在对一幅图表执行一键灰度与红绿色盲视效检查。",
+          "image": "weeks/W02_Design_Principles/public/slides/S06f_ColorBrewer_Simulator_Tools.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S06f_ColorBrewer_Simulator_Tools.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06f_ColorBrewer_Simulator_Tools.png"
+          ],
+          "list": null,
+          "paragraphStart": 48
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "既然前面提到通道有着森严的排名，那么这个排名是谁制定的？答案是：数百万年进化出来的人类视觉系统底层的物理和心理神经法则。这也是为什么可视化设计绝不仅仅是美工排版，它是彻头彻尾的认知科学。",
+          "ttsFp": "2610439f_93",
+          "srtCueIdx": 72,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请大家盯着屏幕左边。如果线段 A 刚好是线段 B 的两倍长，你的视神经反馈给大脑的信号会毫不犹豫地判定：A 确实等于 2B。因为**长度通道的感知响应，完美符合真实的物理数值增长**。这在心理物理学里被称为 **Stevens 幂定律（Stevens' Power Law）** 中的线性响应。对于一维的长度，其感知系数是 1.0。",
+          "ttsFp": "4be32390_166",
+          "srtCueIdx": 73,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "除了面积被严重压缩之外，这个定律同样向我们揭示了另一个极端：**饱和度（Saturation）的超线性放大效应**。当颜色饱和度在物理属性上仅仅增加了一丁点，人类的肉眼却会觉得它剧烈地变得极其刺眼（感知系数 n > 1.0）。这就解释了为什么当我们在图表中滥用高饱和纯色去编码微弱数值增量时，整个版面会显得突兀刺眼且极具侵略性。因此，通道不仅有阶级，它们各自的油门灵敏度还完全不一样！",
+          "ttsFp": "9f16876f_192",
+          "srtCueIdx": 74,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但是，现在请看大屏幕右侧 S05b 中对比的这三个圆。虽然我在后台生成代码时，严格将最右边圆的面积设定为最左边小圆的纯数学 4 倍。但如果我不告诉你这个前提，只让你凭直觉扫一眼，大部分人的判断可能是：\"这个大圆看起来只比小圆大了一倍半多一点吧。\"",
+          "ttsFp": "a1a0a1a8_123",
+          "srtCueIdx": 75,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是一个极其重要的生理限制：**人类的神经系统天生会严重低估面积和体积的差异**。",
+          "ttsFp": "3b35bb94_41",
+          "srtCueIdx": 76,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 26,
+          "srcLEnd": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "根据 Stevens 定律测算，人类对面积差距的心理膨胀系数仅为 0.7 左右，而对 3D 深度体积的感知系数更是低至 0.6 以下甚至极度混沌。我们在看立体的方块或球体时，如果它实际上变大了十倍，你的大脑往往只会感觉到它变大了六倍甚至更低。",
+          "ttsFp": "5ddcfd3b_121",
+          "srtCueIdx": 77,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就意味着一个灾难性的隐患：如果你在制作一期有关全球各大洲财富差异的数据新闻时，轻率地选择用\"金块的 3D 体积或者地理气泡占据的巨大面积\"去直接映射庞大的财富差值，那么，超级富翁和底层平民在图表上的视觉断层，将会被读者的大脑自动大幅度\"压缩\"、甚至\"和谐\"。",
+          "ttsFp": "6b228419_130",
+          "srtCueIdx": 78,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 37,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你以为你客观地呈现了 100 倍的差距，但观众眼里体验到的痛楚可能只有 10 倍。这在具有强烈公共社会属性的纪实叙事中，由于你选用通道的随意与业余，你已经在潜意识里实施了新闻蒙蔽，这可能会带来致命的认知偏差与从业失职。",
+          "ttsFp": "faf7fdcd_109",
+          "srtCueIdx": 79,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 38,
+          "srcLEnd": 38
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "2015 年某知名商业媒体用 3D 气泡图展示科技公司市值，苹果的气泡面积看起来仅比小米大两三倍，而实际市值差距超过 20 倍。该图被可视化社区大量截图批评，成为教科书级别的\"Stevens 定律犯罪现场\"。这起事件至今仍被 Munzner 和 Tufte 的学生们当作反面教材在课堂上反复鞭尸。",
+          "ttsFp": "0e3b0aa1_148",
+          "srtCueIdx": 80,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 40,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "既然通道的感知精度差异这么大，那么是不是我们所有数据全用位置和长度来展示就一劳永逸了？抱歉，这里还有一条如同铁律般的**可辨别性约束 (Discriminability)**。每个通道能提供给我们的“**可辨别步级极限 (Bins)**”是极其有限和苛刻的。",
+          "ttsFp": "362ad9b9_129",
+          "srtCueIdx": 81,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 51,
+          "srcLEnd": 51
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "刚才我们提到线宽只有 3-4 步可被肉眼区分，那么大名鼎鼎的色彩**色相通道 (Hue)** 呢？在没有特定背景比对独立存在的情况下，普通人不经过专业训练最多只能毫无压力地区分大约 6 到 12 种色彩（比如区分红、橙、黄、绿、青、蓝、紫、粉）。这就是我们在做饼图或者多折线图时，类别序列一旦超过十二个，图例颜色就不可避免地开始发生严重撞车打架从而变成灾难色彩泥潭的根源。",
+          "ttsFp": "6af59d68_186",
+          "srtCueIdx": 82,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "铁律是：你企图在图表上编码表达的值的数量级，**绝对不能超过**该选定通道自身所能承受的最大步级数（Bins）。一旦发生越界，必须果断降维聚合，或者转手换别的通道！",
+          "ttsFp": "e4c671bc_82",
+          "srtCueIdx": 83,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 53,
+          "srcLEnd": 53
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "这里还要引入另外一位心理学家发现的**韦伯定律（Weber's Law）**：人类感知的，是两者的**相对百分比差异**，而不是**绝对数值差异**。\n如果长城加高一米，你根本看不出来；哪怕你家天花板加高一米，你会明显觉得房子好宽敞。同样是一米，基数不同，刺激完全不同。\n在可视化里，如果我们要拿两根分别代表一万五千亿GDP和一万五千零一亿GDP的巨大柱子做对比，由于它们自身的基数极其庞大，那微小的顶部落差将完美地隐没在韦伯定律的盲区里，肉眼根本不可辨！\n此时作为老手，你应该立刻停止使用绝对底端对齐柱状图，果断切换为以基准线（如去年的平均水平）为零点的**发散性误差偏离图**。强行放大那一亿的落差，这是高级数据分析师破局认知的核心手段。",
+          "ttsFp": "c9bcba2b_321",
+          "srtCueIdx": 84,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 55,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家请看大屏幕上的这个真实的业务对比动效。我们假设这两根巨大的、顶天立地的深色柱子代表的是国内两家头部互联网巨头在刚刚过去的双十一狂欢节中的总交易额（GMV）。左侧这柱子是一万五千亿，右侧那根是一万五千零一亿。",
+          "ttsFp": "7b68c3dd_105",
+          "srtCueIdx": 85,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在传统的绝对值柱状图（也就是屏幕左侧这种无懈可击的、从 0 开始的完美柱形）中，这一亿的惊人厮杀与差距，由于这高达一万五千亿的巨大底座基数，使得原本极具戏剧性冲突的那百分之零点几的落差彻底隐没在了人类视网膜的识别盲区里，肉眼根本不可辨认！老板看了一眼这幅毫无差异的齐平柱子图，只会觉得大家打成了平手，波澜不惊，殊不知底下已经血流成河惨烈至极。",
+          "ttsFp": "44696b6f_171",
+          "srtCueIdx": 86,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是盲区。在这个盲区下，一切所谓的视觉数据直观性都被绝对宽幅淹死了。作为老手，你怎么破局？",
+          "ttsFp": "8acd4a75_46",
+          "srtCueIdx": 87,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 70,
+          "srcLEnd": 70
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看右边：此时你应该立刻舍弃绝对坐标，果断将数据切分开来！将去年的平均基准 GMV 设置为水平中部的 0 点安全线，只绘制今年对比去年盈亏的相对偏离差额。瞬间，那个原本微不可察的 1 亿人民币差距，就会像一把明晃晃的红色匕首一样，被这发散图显著且无限放大为了一根极其粗壮、清晰可见并且直刺云霄的悬殊条形柱。这不仅是破局，这属于真正能够触碰到企业核心痛点脉络的高阶数据分析诊断能力。",
+          "ttsFp": "30a4bbac_189",
+          "srtCueIdx": 88,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "不仅是比较长度，**韦伯定律所揭示的这套“人类只做相对判断而不是绝对判断”的神经错觉机制，在色彩学上更为恐怖**。请看大屏幕上这幅最著名的能把大猩猩和博士生全部耍得团团转的**阴影棋盘错觉（Checker shadow illusion）**。你们眼中这截然不同的A格与B格，其实它们的RGB物理底色是处于同一色值的绝对纯灰度区块。仅仅因为旁边站着不同的明暗格子背景和那片圆柱体带来的阴影包裹覆盖，你的大脑就会对天发誓其中一个格子必然比另外一个深邃黑得多！看右边，当我们用一条纯色带把它们连接起来时，谎言不攻自破。这种\"绝对色彩数值被相对视觉环境彻底劫持\"的恐怖特征极端地要求我们，在运用色彩去给关键数据映射编码时，所有比较的底座或底层背景环境务必保证高度统一、纯净且极其客观！",
+          "ttsFp": "0e527844_339",
+          "srtCueIdx": 89,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 80,
+          "srcLEnd": 80
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "除了对绝对参数的不敏感与相对判断带来的错觉泥潭，通道编码还有一个更深层的技术陷阱，也是初涉数字媒体与 UI 交互设计的学生最容易掉进去的诱惑深渊：为了形式感滥用叠加通道属性所导致的\"终极视觉瘫痪\"。",
+          "ttsFp": "9efd2b71_99",
+          "srtCueIdx": 90,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 84,
+          "srcLEnd": 84
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家还记得第一周我们讲过的人体自带的\"视觉光线外接显卡\"——前注意处理吗？一个红色的斑点，可以在一堆蓝色的汪洋海洋中瞬间\"跳跃\"出来，这叫做高度专注的 **Visual Popout（视觉弹出）**。这是一种所谓的\"特征检索\"，不管画面里的干扰对象是 10 个还是 10,000 个，你发现那个红点的时间几乎都是恒定的，因为它们是由你的神经系统视网膜大片区底层做全画幅无差别大规模并行计算处理出来的。",
+          "ttsFp": "7cd080c0_200",
+          "srtCueIdx": 91,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 97,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但在这个神奇的幻灯片右下角象限，安妮·特瑞斯曼 (Anne Treisman) 的特征整合理论为人类敲响了警钟。如果我想让你在一大堆复杂的蓝色的圆形、红色的方形海量杂波中，找出一个同时必须具备两个特定通道属性叠加的目标——也就是一个**红色的圆形**，会发生什么？",
+          "ttsFp": "309e1f81_132",
+          "srtCueIdx": 92,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 99,
+          "srcLEnd": 99
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "突然之间，你大脑里的这片\"超级显卡\"降级宕机了。你失去了并行计算的所有高速能力，退化到了最老式的单线程串行模式卡带式 CPU。你必须强迫你的眼球像旧扫雷兵一般挨个扫过每一个图形：\"恩，这个是红的，不对，是方的弃用；这个是圆的，不对，它是蓝的也弃用……\"",
+          "ttsFp": "294d9e06_126",
+          "srtCueIdx": 93,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 101,
+          "srcLEnd": 101
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就叫做 **结合检索（Conjunction Search）**，这会带来海量的运算负荷暴发。",
+          "ttsFp": "d3c2d2a2_48",
+          "srtCueIdx": 94,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "仔细盯着屏幕，让我们彻底看清这座地狱般的视觉深渊是如何吞噬你的。",
+          "ttsFp": "be96d7b5_32",
+          "srtCueIdx": 95,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 111,
+          "srcLEnd": 111
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在左边的画面里，我们模拟了人类视神经追踪眼动仪在执行\"特征检索\"（找红点）时的行动光轨路径：那是极其凌厉干脆的一条绝对直线闪电！你的眼球根本完全连扫都不扫旁边那些密密麻麻蓝得像背景墙一样的杂波对象，瞬间直奔标靶，这就是上帝赋予我们进化出来的用来防备草丛里突然窜出的亮黄色老虎皮毛波纹的保命级神经直觉反射。",
+          "ttsFp": "0ae6997f_152",
+          "srtCueIdx": 96,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但请转过目光，看向右半屏这片被强行叠加了两个要求（找红色的、且圆形的）的重灾区。红色与形状的结合彻底炸毁了那套宝贵的反射回路。你看图上这条密密麻麻、重重叠叠、甚至在原地反复打转、犹如无头苍蝇一般曲折往返的 Z 字型搜索折线！那记录的正是测试者那极度崩溃且被迫进行逐个排雷式的人眼地毯搜索痕迹轨迹！",
+          "ttsFp": "d3501d82_148",
+          "srtCueIdx": 97,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 113,
+          "srcLEnd": 113
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们在这里看到了几十倍于此前的耗时落差，读者的耐心在这一段漫长的找寻过程中会瞬间粉碎并彻底流失。所以请记住：**Visual Popout 就像核武器按钮，它极其极其强大威力无穷，但每一次，你也必须且只能按下一枚独立不干扰的首要特征键！**不要试图用颜色、运动和形状对它进行狂轰滥炸齐射并发。",
+          "ttsFp": "0066afcc_146",
+          "srtCueIdx": 98,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们为什么会在视觉上\"彻底宕机\"？这涉及到更底层的一个关键交互评价指标——**通道的可分离性 (Separability) 与融合性 (Integrality)**。",
+          "ttsFp": "810ba351_83",
+          "srtCueIdx": 99,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "比如你使用**位置 + 色相**（在散点图右上角画一个红色的点），这是极其优秀的**可分离通道组合**；你的大脑可以毫无障碍地将这两个属性分开读取剥离分析：“恩，这是一个利润较高（位置右上）的电子产品类别（红色）。”",
+          "ttsFp": "4d9a9ba3_108",
+          "srtCueIdx": 100,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但如果你使用**宽度 + 高度**呢？这就构成了一个棘手霸道的**整合融合通道对**。你的底层视神经在零点几秒内会强势暴力介入，直接把一维的宽度和一维的高度粗暴融合成为了一个直觉上的二阶面积属性：“这就是一个大块头！”你再也不可能十分顺利地从脑海中倒向逆推出它最初精确的绝对宽高明细落差比例数值了。",
+          "ttsFp": "981150a0_149",
+          "srtCueIdx": 101,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "tech_note",
+          "tag": "WARNING",
+          "text": "[WARNING: 永远避开 RGB 融合代码陷阱]\n提到不可分离，最大的编码灾难莫过于大家常常在 CSS 里随手敲下的那三原色 `RGB` 或 `CMYK` 十六进制值。这三个颜色基向量通道是完完全全、如胶似漆且根本无法在大脑里物理分解的！你永远不可以指望读者能从一块屏幕上的紫色像素点里，人工分离并且倒推出：\"哦，我看见了 30% 的红和 70% 的蓝，所以 A 商品代表利润 30% 而 B 商品代表 70%\"。这就是为什么我们在定义高级系统色彩数据通道时，必须强制放弃前端计算机界所习惯使用的 `RGB/HEX` 模型，而全面切入到与人类直觉认知直接挂钩的 `HSL`（色相/饱和度/亮度）空间！",
+          "ttsFp": "297ec873_302",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 120,
+          "srcLEnd": 121
+        },
+        {
+          "type": "tech_note",
+          "tag": "WARNING",
+          "text": "[WARNING: 通道干扰导致的体验灾难]\n为什么会这样？认知心理学给我们的铁律就是：**人类的视觉系统在绝大多数场景下，一次仅能毫不费力的依赖唯一一条最强显式独立通道来发起弹出效应。**\n当你自作聪明，为了让图表\"更繁华绚丽，更能展示这花钱买的报表系统的高级\"，而随心所欲地同时叠加三个通道属性（比如既要求用红中黄的粗暴渐变区分品类，又要求三角矩形与圆圈映射区域重要度，还挂上了线条粗细去映射时间戳），去粗暴地轰击污染读者的视觉时，整个版面的视觉弹出机制将彻底陷入深渊死锁，任何图表阅读的效率与洞察力都将荡然无存。",
+          "ttsFp": "d2c8264e_259",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 123,
+          "srcLEnd": 125
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以，在这间教室里，我给到所有的未来可能统筹掌握百万级别前端设计大权的总师们的最高忠告是两个字：**克制**。如履薄冰般地冷酷克制！不要像展示商品橱窗一样把你脑海中懂的所有代码技能和 CSS 变量技巧，一股脑儿没品位地倾泻倒进一张严肃的数据图纸里。",
+          "ttsFp": "cd8514b0_124",
+          "srtCueIdx": 102,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 127,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "既然提到了颜色导致的灾难大屠杀，我们必须深挖最后这部分的核心知识，那就是**颜色映射通道控制**的最恐怖雷区。",
+          "ttsFp": "6e336787_55",
+          "srtCueIdx": 103,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家请看屏幕此刻沉浸下来的巨大转场。黑色的深渊里，一滴不可控的猩红色墨水在屏幕中央像有机生命体一般、无规则且极具侵略性地炸裂和弥漫。",
+          "ttsFp": "5223cba8_66",
+          "srtCueIdx": 104,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 138,
+          "srcLEnd": 138
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果说大小、长度和位置是我们设计师手里极其精确无比的游标卡尺和激光切割刀，那颜色……颜色就像是滴在画布上的酸液，它充满不可预知的魔力，既能拥有在一秒钟内让这幅画面焕发出摄人心神、极其震撼华美生命感官的伟岸神力，更能随时准备反噬摧毁你一切精心编排的信息层级并毁掉这个图纸的基础根基！",
+          "ttsFp": "00f419ec_140",
+          "srtCueIdx": 105,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 139,
+          "srcLEnd": 139
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是我们在踏入数据可视化修罗地狱场时必须首先端肃起来对付它的心态：对一切能操纵并迷惑视觉感官的光影心存敬畏，尤其是——颜色。",
+          "ttsFp": "9a3ecd7c_63",
+          "srtCueIdx": 106,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 140,
+          "srcLEnd": 140
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在长驱直入开启色彩大门之前，我再最后补充一句关于大脑自动分类的**分组机制 (Grouping)** 大战。根据格式塔理论与神经机能，如果我们将分类属性的威力进行排位大决战，这之中强度最压倒性的是**包含 (Containment)** 圈定结构，其次是**连线 (Connection)** 绑缚。但在最隐性且普遍潜意识的相似性自动分组里，**空间区域位置 (Spatial Region)** 的天然无形分割能力极其野蛮地碾压了所有诸如颜色和形状等任何表面视觉标记点。这就是为什么当我们面对重构海量层级的系统分类面板数据时，我们下意识的第一直觉动作永远必须是坚决干净的在屏幕上下划出“左交互区”与“右功能域”，而不是妄图祈求用微弱的点缀颜色甚至变换按钮形状去区分统属它们！把最高最神圣的分组特权底座，永远留给无形的空间！",
+          "ttsFp": "3c32f1ab_362",
+          "srtCueIdx": 107,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 142,
+          "srcLEnd": 142
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而令人绝望的是不可否认现实中图表面积永远极其狭小受限。当我们空间耗尽退无可退，必须动用最危险最具杀伤性的武器来进行多维拥挤信息分流辨识逃生时，我们就无可避免地触碰到了通道雷区里绝对的暴君王者——颜色。",
+          "ttsFp": "03c5654f_101",
+          "srtCueIdx": 108,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 144,
+          "srcLEnd": 144
+        },
+        {
+          "type": "tech_note",
+          "tag": "TECH NOTE",
+          "text": "[TECH NOTE: 颜色映射的色阶选择与禁忌——Ch10 核心要义]\n**知识节点**: `ch10-map-color`\nMunzner 在第十章中将颜色的使用严格剥离为三大不可跨界的色阶类型阵营，每一种背后都有着严密的逻辑与场景对应生死契约，切勿错用混用：\n\n1. **顺序色阶（Sequential Colormaps）**：从最浅的苍白过度到深邃刺目的主色（如从淡天蓝逐渐深入到深海军蓝），这条跑道专用于去表达**从低值到相对高值的纯粹单向量化强度提升**。例如各省份人均收入热力图地图。\n2. **发散色阶（Diverging Colormaps）**：从一个冰冷的极端色，中间安全地穿过一段完全呈现中性苍白的地带（零点基线），再一路飙升到另外一个如烈性火焰般的极端色（如经典的暗蓝→白灰→深红）。这条跑道天生专用于表达**围绕着某一确定基准零点展开的对称型盈亏或冷暖偏差数据**。比如企业的净利润正负情况或者全球年度平均气温异常指数偏移量。当你用错时意味着隐没了基线的震慑力。\n3. **分类色阶（Categorical Colormaps）**：这批由彼此毫无亮度关联的绝对离散独立色相团拼凑成的组合（如西红柿红、天青蓝、抹茶绿、暖黄），是专用于向观众脑波发出**无内在上下左右大小强相关比较意图的标签分类归属暗示**的工具。最致命的警告：受制于短时工作记忆缓存，图例的类别数无论如何切忌不应去强推突破逾越过 7–8 种！否则哪怕是具有极高分辨精度的人类眼球也会在一大通混乱糊成一锅粥的马赛克色彩面前发昏。",
+          "ttsFp": "54483355_661",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 146,
+          "srcLEnd": 152
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "此外，更具有人文灾难性且经常被程序员误踩的，是**臭名昭著的“彩虹色阶 (Rainbow Colormap)”**。之所以被全体学术研究界下发联合死灰复燃封杀令，是因为在它的红黄绿青蓝靛紫自然光谱排列里，人眼天生对黄色和中间的那抹青蓝过渡区段的亮度（Luminance）与饱和度敏感捕捉度是极不均匀参差不齐的。这就极其恶劣地会人为凭空在画面中生造出一道原本在冰冷数据后台就不曾实际真实存在过的\"断层切割伪边界\"假象！",
+          "ttsFp": "a195e8b0_208",
+          "srtCueIdx": 109,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 161,
+          "srcLEnd": 162
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "更重要的是，同理心也是我们对数字世界必须抱有的温柔。全球大概有近 8% 的无辜男性存在一定程度的色觉隐式感知剥夺缺陷，主要是红绿色弱（Deuteranomaly）。如果在一场关乎到国民基本避险出逃生命通道的预警指引路线可视化设计大展中，你唯一的灾情紧急预警区分高亮对比指示仅仅只是傲慢地纯靠极高饱和度的明亮红和纯鲜翠绿的色相属性区分去扛大梁隔离信息……那这庞大的千万计无声求助观众群体在这张灾难宣告画布面前，将彻底沦为被时代和代码所系统性抛弃遗忘的盲人！请务必在你的所有的顶层颜色底层框架设计里，自觉、主动且永远强制纳入调用对视障高阶无障碍极度友好且受用性广的 **ColorBrewer 专业验证调色板**解决方案。这也是我们评价专业段位操守的一把终极人性度量衡尺。",
+          "ttsFp": "62954bc2_334",
+          "srtCueIdx": 110,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 164,
+          "srcLEnd": 164
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "2014 年 NASA 全球气候数据发布后，科学家发现使用彩虹色阶的海温图中出现了两条\"异常温度断层\"。经排查证实，这些断层纯属色阶不均匀产生的视觉假象——数据本身完全平滑。此事件在学术界引发地震，直接推动了感知均匀色阶 Viridis 的诞生与推广。从此，\"永远不要用彩虹\"成为了数据科学界的第一戒律。",
+          "ttsFp": "232139b6_152",
+          "srtCueIdx": 111,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 166,
+          "srcLEnd": 167
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请大家立刻抬起头，极其严肃注视屏幕上对比最惨烈的这一组画面展示。",
+          "ttsFp": "56ed08a9_32",
+          "srtCueIdx": 112,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 177,
+          "srcLEnd": 177
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在左边这张被强加了模拟红绿色盲（Deuteranomaly）滤镜的全国温度气象预警热力图上，你可以看到刚才我们引以为豪的那一套极高饱和度和反差的预警红色斑块与绿野草原，如今竟然彻底堕落降维坍缩成了一片泥泞且浑浊不堪的屎黄色与土褐色的死亡废土。那些红绿撞色的强烈对比在这个多达 8% 群体的世界里完全彻底不复存在。假设此刻这张图表是在标示安全避难高地与地震灾区洪水洼地，那么我们对这千万计生命群体的引导无疑是在直接下达屠杀指引。",
+          "ttsFp": "964301d9_213",
+          "srtCueIdx": 113,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 178,
+          "srcLEnd": 178
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是技术从业者的血色傲慢与极度职业失职造成的人性深渊剥夺！",
+          "ttsFp": "972e97ac_30",
+          "srtCueIdx": 114,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 179,
+          "srcLEnd": 179
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而现在，对比看右边。这是同一个数据源，但我们应用了由顶级地理学、认知学以及设计团队千锤百炼开发出的具有严格约束计算证明的 ColorBrewer 无障碍安全保护色梯队。在这套配色体系下，即便滤除了那些特定的极度敏感有缺陷色频波长光段，那依然残留并被巧妙放大的明度（Luminance）以及饱和度差异斜坡，稳稳当当、清清楚楚地扛起了区分灾区与安全地的视觉指引防线大旗！一目了然的深蓝与苍黄明暗界限被保留保留下来了，这不仅是专业，这更是一个手握大规模数字话语权传播系统权力的设计师悲悯众生的底线操守防线。",
+          "ttsFp": "980520dd_250",
+          "srtCueIdx": 115,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 180,
+          "srcLEnd": 180
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "自从 2014 年 NASA 海温数据在彩虹色阶（Rainbow Colormap）下暴露出凭空生造出来的人为“截断式气温断裂假象”，并直接遭受到了整个学界与业界联合口诛笔伐式的无情报复封杀之后，科学界便将此类无障碍色谱验证纳入了终极标尺。",
+          "ttsFp": "ab645ed7_120",
+          "srtCueIdx": 116,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 182,
+          "srcLEnd": 182
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "既然如此危机四伏，我们如何在极高压的执行交付过程中排开所有的生死暗坑？",
+          "ttsFp": "23265eb6_35",
+          "srtCueIdx": 117,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 192,
+          "srcLEnd": 192
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "手段极其简单且强硬粗暴，答案就在大家头顶的演示画面中。大家今后出入任何项目组的工作流里，请切记将上方的 **ColorBrewer (colorbrewer2.org)** 网站直接加入你们的底层硬性依赖工具白名单库。这是整个数据可视化界泰山北斗团队专门为了安全地图学及统计配色调试而出、并千锤百炼完全验证对各类色觉轻重度障碍人群绝对友好的神级色板调配生成库。在你构建 `Categorical` 分类或者是 `Diverging` 离散发散式阶梯选项时，勾选那个小小的 \"colorblind safe\"，它将直接为你锁死并划定经过层层计算的安全上限色域池，强行规避明度与感知断层漏洞，并直接输出安全对应的高级 Hex 或者 RGB 一键复制代码给你。",
+          "ttsFp": "14388111_327",
+          "srtCueIdx": 118,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 193,
+          "srcLEnd": 193
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "同时，如屏幕下方演示的，我在这里向所有人提出强制硬性要求：希望你们能在日常的操作系统、Figma 或者核心主力浏览器里永远挂载安装任意一款 \"Colorblind Simulator (色盲视觉实时滤镜模拟器) \" 的常态化插件。务必养成在向任何甲方或者导师交付汇报、并最终按下保存输出键之前，去主动点击一次那个灰暗的快捷切换键以检验审视全盘的残酷职业素养习惯。去直视你的得意成果，如果在褪去所有华丽斑斓伪装后的单色残绘通道里、抑或只有红绿盲冰冷光谱的残障视界中，它依然能够让人清晰明了地读出一丝捍卫底层逻辑的数据尊严时，你才配在这个圈子里骄傲地下班。",
+          "ttsFp": "5b08a162_276",
+          "srtCueIdx": 119,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M03_视觉偏差的陷阱__心理学精度与视觉弹出.md",
+          "srcLStart": 194,
+          "srcLEnd": 194
+        }
+      ],
+      "firstSrtCueIdx": 72,
+      "budgetChars": 5400,
+      "oralCharCount": 5709,
+      "estimatedMinutes": 31.7,
+      "fillRatio": 1.06
+    },
+    {
+      "id": "mod-5",
+      "title": "Module 4: 删减的艺术——数据墨水与抵制伪 3D 的诱惑 (45 分钟)",
+      "slides": [
+        {
+          "id": "S07_Data_Ink_Ratio",
+          "layout": "Split",
+          "text": "黄金法则：**Data-Ink Ratio（数据墨水比）**",
+          "heading": "",
+          "scene": "呈现一幅强烈的\"断舍离\"式对照画面。左侧是一个带有巨大 3D 深度的厚重饼图，图表后方漂满黑色的加粗网格线，甚至刻意增加了投影光晕与华丽渐变背景。右侧则是剥离一切伪装后，用极其克制的细线及浅灰作为辅色、仅以纯色主体高亮数据走势的极简当代设计。",
+          "image": "weeks/W02_Design_Principles/public/slides/S07_Data_Ink_Ratio.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S07_Data_Ink_Ratio.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07_Data_Ink_Ratio.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "S07b_DataInk_Formula",
+          "layout": "Center",
+          "text": "数据墨水比：一个公式统治所有图表",
+          "heading": "",
+          "scene": "画面中央以超大号字体展示公式 \"Data Ink ÷ Total Ink → 1.0\"，下方配以一条从 0 到 1 的渐变进度条，左端标注\"全是垃圾\"（深红），右端标注\"极致纯净\"（翠绿），当前指针停在约 0.85 位置，旁边标注\"优秀设计的起点\"。",
+          "image": "weeks/W02_Design_Principles/public/slides/S07b_DataInk_Formula.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S07b_DataInk_Formula.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07b_DataInk_Formula.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "S07c_Erasing_Steps",
+          "layout": "Grid",
+          "text": "Tufte 的删减四步法：擦掉一切不传达数据的墨水",
+          "heading": "",
+          "scene": "四宫格渐进式删减演示：①原始图（满版装饰、厚边框、背景渐变、密集网格线）②擦除外边框 ③擦除背景网格线 ④最终极简版（仅剩纯净的数据走势线与最少量的标注文字），每一步都用红色虚线圈出被删减的元素。",
+          "image": "weeks/W02_Design_Principles/public/slides/S07c_Erasing_Steps.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S07c_Erasing_Steps.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07c_Erasing_Steps.png"
+          ],
+          "list": null,
+          "paragraphStart": 8
+        },
+        {
+          "id": "S07d_3D_Pie_Sins",
+          "layout": "Split",
+          "text": "3D 饼图的三宗罪",
+          "heading": "",
+          "scene": "列表式展示 3D 饼图三宗罪，每条配以简洁示意图：①Occlusion（遮挡）——前方扇区投影吃掉后方数据；②Perspective Distortion（透视失真）——近大远小导致比例骗局；③深度算力浪费——大脑被迫反推真实角度。",
+          "image": "weeks/W02_Design_Principles/public/slides/S07d_3D_Pie_Sins.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S07d_3D_Pie_Sins.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07d_3D_Pie_Sins.png"
+          ],
+          "list": [
+            "- 第一宗: Occlusion（遮挡）",
+            "- 第二宗: Perspective Distortion（透视失真）",
+            "- 第三宗: 深度感知算力浪费"
+          ],
+          "paragraphStart": 17
+        },
+        {
+          "id": "S07d2_Eyes_Beat_Memory",
+          "layout": "Split",
+          "text": "法则二：Eyes Beat Memory（眼动战胜脑记）",
+          "heading": "",
+          "scene": "左侧是需要不断来回翻页才能看完的四张跨屏单线趋势图，下方标注“大脑缓存仅几秒，逐渐流失”；右侧是直接并排铺开的四宫格小多图 (Small Multiples)，观者视线只需横向微小移动即可瞬间完成全局比对。",
+          "image": "weeks/W02_Design_Principles/public/slides/S07d2_Eyes_Beat_Memory.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S07d2_Eyes_Beat_Memory.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07d2_Eyes_Beat_Memory.png"
+          ],
+          "list": null,
+          "paragraphStart": 21
+        },
+        {
+          "id": "S07d3_Black_and_White_Test",
+          "layout": "Split",
+          "text": "法则三：Get It Right in BW（黑白炼狱测试）",
+          "heading": "",
+          "scene": "左侧是一张绚丽刺眼但色层混乱的极高饱和度彩图；右侧是给该图执行一键去色提取后展现出的黑白灰阶图，图中原本依靠红绿色差强行区分的关键分类由于明度极其接近，在灰阶下彻底融成一团不可辨认的死灰，上方印有一个醒目的“FAIL”红色印章。",
+          "image": "weeks/W02_Design_Principles/public/slides/S07d3_Black_and_White_Test.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S07d3_Black_and_White_Test.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07d3_Black_and_White_Test.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        },
+        {
+          "id": "S07e_No_Unjustified_3D",
+          "layout": "Split",
+          "text": "Munzner 铁律第一条",
+          "heading": "",
+          "scene": "Munzner 经典引言卡片——画面中央用大号无衬线字体展示 \"No Unjustified 3D\"，背景是一个被巨大红色叉号划掉的厚重 3D 饼图残骸，四周散落着被\"删减\"击碎的阴影碎片。",
+          "image": "weeks/W02_Design_Principles/public/slides/S07e_No_Unjustified_3D.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S07e_No_Unjustified_3D.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07e_No_Unjustified_3D.png"
+          ],
+          "list": null,
+          "paragraphStart": 26
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "信息设计界有一位无可争议的泰斗级人物，Edward Tufte（爱德华·塔夫特）。他在 1983 年撰写了《定量信息的视觉展示》这一传世经典。在其中，他提出了一个至今仍然被谷歌、苹果的数据团队奉为最高信条的概念：**Data-Ink Ratio（数据墨水比）**，它也与 `hao-ch2-design-principles` 中的大道至简的深层设计原则形成强烈共鸣。",
+          "ttsFp": "d4eba862_184",
+          "srtCueIdx": 120,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家请看大屏幕上的这幅极其震撼的断舍离式左右对照画面。左侧那个充斥着重度 3D 深度投影、黑粗网格式背景和渐变光晕的厚重庞然巨物，正是 Tufte 会将其毫不留情撕碎抨击的典型原罪反面教材；而相对的右侧画卷，那是一幅被无情剥离了一切虚假电子伪装、仅仅使用极简细线和纯色主体标尺来致命高亮核心数据走势的冷峻精算设计，而这，才是我们一生唯一需要去追求的终极剔透美学目标！",
+          "ttsFp": "c1402eda_183",
+          "srtCueIdx": 121,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以它的定义非常冷酷无情：",
+          "ttsFp": "37df2ff7_13",
+          "srtCueIdx": 122,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**图表中用于绘制核心数据的墨水总量 / 打印整张图表所耗费的总墨水总量 = 数据墨水比**。",
+          "ttsFp": "bd880ff5_47",
+          "srtCueIdx": 123,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个除法得出的数值，应当**尽可能高**——这意味着你正在铁腕剔除一切不为数据服务的视觉噪声。但请注意，它的终极目标并非盲目追求数学极限上的理想 1.0。因为在真实的受众场景中，某些看似\"非数据\"的元素（如辅助参考线、关键标注、冗余色彩编码）恰恰承担着降低读者认知负荷的关键使命。Semantic Scholar 上多项认知科学实证研究已表明：**过度删减反而会增加认知负荷**，而在简单数据集中适度保留的 Chartjunk 甚至能提升信息记忆度。所以，DIR 的正确追求是：**尽可能高，但底线永远是可读性与任务完成度**。",
+          "ttsFp": "67352d3b_264",
+          "srtCueIdx": 124,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "换个更通俗的说法解释：此时此刻幻灯片上印出的每一滴墨水、屏幕上亮起的每一个数字或由于 CSS 渲染出的那哪怕一丁点的灰色像素，都必须为了且仅为了**展示数据波动本身**而服务。否则，它就是一种罪恶的视觉污染，Tufte 将之称为 **Chartjunk（图表垃圾）**。",
+          "ttsFp": "bd7c05c6_135",
+          "srtCueIdx": 125,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Tufte 给出的操作规范就是**无情地删减（Erasing）**：",
+          "ttsFp": "657fa714_34",
+          "srtCueIdx": 126,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你擦掉图表上的某个装饰性元素（比如这厚黑粗壮的主坐标轴内边框、这无任何实际意义为了好看而上的背景渐变大阴影，或是那些横贯画面、每一格都显得多余的次级背景辅助线），擦除之后你发现，这份图表传达的数量大小与趋势信息并没有发生哪怕一丝一毫的折损减少——那就**果断删掉它**，不要有半点犹豫！",
+          "ttsFp": "80e6734a_145",
+          "srtCueIdx": 127,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "具体来说，Tufte 在书中猛烈开火的核心 Chartjunk (图表垃圾) 有四大常客：",
+          "ttsFp": "fabfe545_45",
+          "srtCueIdx": 128,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第一是**沉重的网格线 (Heavy Grids)**。网格线应该是且仅仅只是若有若无的背景音。但在现实的新手作品中，它们常常喧宾夺主，又粗又黑密集交织，硬生生变成了囚禁灵动数据曲线的黑色铁笼。试着把网格线全部改为 5% 透明度的浅灰点状虚线，你会发现数据立刻获得了呼吸感。",
+          "ttsFp": "3424b5bf_137",
+          "srtCueIdx": 129,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 40,
+          "srcLEnd": 40
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第二是**无意义的底色与填充 (Unnecessary Backgrounds)**。很多数字媒体专业的同学因为害怕画面\"空\"，喜欢给图表背景加上花里胡哨的浅蓝色或者极其业余的渐变灰底纹。这不仅不会增加任何一丝数据的严谨度，只会在投影仪或者打印机上残忍地稀释掉原本想要高亮的走势线对比度。",
+          "ttsFp": "9f53ef79_144",
+          "srtCueIdx": 130,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第三是**过度的边框边界 (Redundant Borders)**。为什么一个折线图外面非要像画框一样再套上四个又粗又黑的矩形边框？你的屏幕本身就已经有一个物理边框了，不要在界面内再堆砌这令人窒息的围墙。",
+          "ttsFp": "7b7b9c9d_103",
+          "srtCueIdx": 131,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第四是**极其多余的三维假立体效果 (Faux 3D)**。这也是接下来我们要重型炮轰的灾难区。",
+          "ttsFp": "729107e1_48",
+          "srtCueIdx": 132,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当然，这也是一柄带有强烈反噬效果的双刃剑。在这里我必须警告所谓的\"极端极简的反面\"！当我们把这套删减法则执行到走火入魔、原教旨主义的地步时，比如你为了追求所谓的\"极致高级留白\"，而丧心病狂地擦掉了全部的 Y 坐标轴刻度数字和所有的横向参考背景线。当这卷图画呈现在大屏幕上时，它确实变得无比极致纯粹、像一幅现代抽象艺术画，但对于稍微外行一点或急需获取精确信息来决策的读者来说，他们瞬间就彻底失去了定位数值高度的视线依靠锚点！那些起伏的折线变成了无根之水。这张图表就会彻底滑向\"不知所云\"的深渊。",
+          "ttsFp": "7893d983_246",
+          "srtCueIdx": 133,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "我们必须非常诚实地面对一个事实：Tufte 的 Data-Ink Ratio 诞生于 1983 年的印刷媒体时代，当时每一滴实体油墨都有物理成本。但在今天的交互屏幕时代，\"墨水\"几乎零成本，而**读者的认知带宽（Cognitive Bandwidth）才是真正最稀缺的资源**。\n认知科学家 Bateman 等人在 2010 年的实证实验中发现：在简单数据集条件下，保留一定程度的视觉装饰（所谓的 Chartjunk）非但没有降低信息提取效率，反而显著提升了读者对数据的**长期记忆度**。瑞士苏黎世艺术大学的研究团队也指出：对关键数据点添加的冗余标注（Redundant Annotation）——虽然在纯数学意义上降低了 DIR——却能在高噪声环境下（如手机屏幕阅读、投影仪演示）为读者提供**认知锚点**，实质上加速了任务完成速度。\n所以，我们在这间教室里建立的准则不是\"DIR = 1.0 = 完美\"，而是：**DIR 应尽可能高，但底线永远是可读性与受众的任务完成度。必要的冗余不是垃圾，它是为特定受众精心设计的认知辅助。**",
+          "ttsFp": "58000a10_468",
+          "srtCueIdx": 134,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 47,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以在真正的工程实践设计中，我们要的是数据墨水比尽可能高的克制美德，但永远且绝对不能为了追求删减的视觉快感而盲目删减，从而导致作品彻底跌破那条名为【可读性】的及格生命底线。判断一个元素该不该删的终极标准，不是\"它是否是数据本身\"，而是**\"删掉它之后，我的目标受众完成分析任务的速度和准确度是否受损？\"**如果答案是肯定的——留下它，哪怕 Tufte 本人站在你面前也不要犹豫。",
+          "ttsFp": "e2414094_189",
+          "srtCueIdx": 135,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "在所有的\"低数据墨水比\"犯罪现场中，尤其对于我们传媒和数字媒体背景、手里掌握强大 C4D/Blender 等 3D 软件渲染能力的同学来说，最容易掉进去的诱惑陷阱，就是盲目追求\"高科技的立体炫酷\"。最臭名昭著的毒瘤案例，就是所谓的商业 **3D立体加厚版饼图（3D Pie Chart）**。\n我们来根据刚才学过的理论，历数一下胡乱运用 3D 图形的几大罪状：\n首先，第一宗罪叫**Occlusion（遮挡）**。前方处于三维空间最高点或最外延的数据滑块，它那长长的无中生有的立体厚度投影，将会严严实实地挡住并吃掉后方原本也拥有合法曝光权的细长扇区数据。数据信息就这样在你华丽的灯光下凭空蒸发了。",
+          "ttsFp": "bdff28fe_298",
+          "srtCueIdx": 136,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 54,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其次第二宗罪，叫**Perspective Distortion（透视失真）**。这在学术界是大案要案！这是我们刚才在通道精度讲过的内容衍生。在带有强烈俯视视角的透视中，如果一个只占据 10% 份额的小切片凑巧被你旋转放置在了画面的最前端（离镜头最近的地方），由于厚度的加持与透视近大远小原理，它看起来的横截面积甚至比位于画面最远端但实际上拥有 30% 真实份额的巨大切片还要显得更为庞大。这在新闻媒体或者严肃的财务财报上，等同于在运用图表技巧实施明目张胆的数据造假与投资人蒙骗！\n\n第三，它无故消耗人类宝贵且并不怎么精准的深度感知脑算力。你逼迫你的观众把脑力浪费在反向推算透视变形前的真实扇形夹角角度上。",
+          "ttsFp": "e8aff61e_302",
+          "srtCueIdx": 137,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 71,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以，在学术界，Munzner 教授所列的八大经验法则中，第一条铁律也是最高不可触碰的高压线便是：**No Unjustified 3D（没有正当理由，绝不使用虚假 3D）**。",
+          "ttsFp": "5773b84e_89",
+          "srtCueIdx": 138,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 76,
+          "srcLEnd": 76
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "除非你正在给波音客机展示真实的流体力学机翼气流摩擦分布物理地形图，否则，在处理金融、社会等本身根本不具备物理实质三维空间结构的数据体系时，在二维屏幕上试图表现纯粹的信息比较，**永远不要使用厚重的 3D 阴影来让你看起来更高大上。那不仅低效，而且业余。**",
+          "ttsFp": "5aae2414_128",
+          "srtCueIdx": 139,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "除了向虚假 3D 猛烈开火，Munzner 的八大人机交互法则中还有几根绝对金线，死死地贯穿了当代最顶级企业与科研机构的设计规范标准：",
+          "ttsFp": "81f96652_67",
+          "srtCueIdx": 140,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 80,
+          "srcLEnd": 80
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其一是大家现在在屏幕上看到的 **Eyes Beat Memory（让眼睛的微小物理平移去直接做强对比，而不是强迫大脑去痛苦记忆翻页前的美好印象）**。如果你的数据洞察报告涉及到几组极其复杂的长线时间演化趋势大比对，永远、绝对不要把它们像左侧残局那样拆分开、放在你需要让受众去不断点击翻页才能连载看完的多张离散幻灯片或者交互折叠页面上！因为人类的神经前额叶短时视觉工作记忆缓存只有极其可怜的区区几秒钟，一旦翻到不可逆转的下一页，前一页那刚刚艰难建立起的波峰波谷细节轮廓印记就会在脑海中彻底烟消云散死无对证。你必须像右侧案例一样，极度残酷地强迫自己在这同一张物理画幅巨幕屏幕内，使用高密度全局分面小多图并置 (Small Multiples / Juxtaposition) 的硬核大局观排版手段。让你的用户的眼球只需不费吹灰之力地哪怕微微左右平移滑动哪怕只有零点三秒钟，就能在这唯一的一眼之间，酣畅淋漓地看尽这天下大势里所有代表财富生命曲线的残酷交锋与无声撕咬！",
+          "ttsFp": "9ca3ce9f_431",
+          "srtCueIdx": 141,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 89,
+          "srcLEnd": 89
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其二是如同屏幕上这场正在审判大戏里揭示的，极其冷酷决绝的 **Get It Right in Black and White（先用去色灰阶的刑罚去检验你那些繁杂图纸设计的生死存亡底线）**。这是一手能让所有浮华花拳绣腿无所遁形的残忍技术测试杀招。当你结束长达数小时沾沾自喜的高强度打光特效渲染、得意洋洋面对你面前电脑屏幕上那张看似绚丽斑斓、色彩过度饱和夺目至极的心血大作图纸时，请勇敢试着直接按一下右边演示里的那个一键去色纯黑白滤镜开关！把你整张浮华画卷里最后一丝华美生命血液瞬间粗暴抽干，让它立刻强行沦落退化为这片纯粹的黑白灰三色枯萎遗骸境地。如果此时，你在这片绝望黑白中惊恐万分地发现，你原本绞尽脑汁试图用红绿高亮想要突出的那一块极高优先级重点冲突区域数据，现在彻底由于底层基础明暗对比度的极度烂透与匮乏，从而直接与四周满地其它浅灰色杂音糊成一团、隐没并在背景无形虚无之中直接悄无声息地走向不可逆转的视觉死亡……那你必须低头承认：你之前所有的所有所谓绝美高级颜色渐变层级调配魔法，都只不过是在这摇摇欲坠的学术沙盘上全无任何根基支撑的虚幻假象欺世粉饰而已。图形科学真正的热血与钢铁般不可磨灭的硬核工程魂骨，它必然也要而且必须要在褪去了所有斑驳表象色彩外衣的那片至深至纯的黑与白生死炼狱深渊之底，依然能够像一座不可摧毁发着寒光之光的灯塔一样，能够毫不动摇地向每一位盲眼寻根路人傲然独立、刺眼怒放显形！这就是你对所绘刻事实的终极至高尊重。",
+          "ttsFp": "7ad58c23_618",
+          "srtCueIdx": 142,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其三是 **Function First, Form Next（功能永远优先，但这并不是借口）**。不要把这条守则当成了可以肆意提交丑陋图表的免死金牌！它的真谛是：如果你连图表的精确坐标体系和标签可读性功能都没有绝对夯实保住，在那上面去叠加任何所谓的生成艺术或是赛博朋克先锋形式感，都是一种巨大的亵渎；但在功能被钢铁般守住的坚实极简地基之上，形式的美感才是决定这幅图纸能否具有史诗般强壮生命力与传播力的隐蔽第二阶梯。两者的缺一不可，构成了专业工程师与二流画图匠的天然门槛。",
+          "ttsFp": "7d45c913_236",
+          "srtCueIdx": 143,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其四则是极具现实工程反思意义的 **Resolution over Immersion（信息分辨率远大于沉浸感噱头）**。现在市面上充斥着狂妄的鼓吹声，声称可以用 VR 头显或者极其夸张的空间全息去观看那些悬空的数据流。但请面对现实痛点：目前那几百克的头显设备往往伴随极低的像素密度和令人眩晕的防畸变计算落差，你原本可以在 4K 乃至 8K 级别的顶级硬核数据指挥中心平面巨幕大屏上，一眼看尽几万级别的密集散点数据汪洋，而在低分辨率的沉浸式设备中，你连那根小小的针状柱子标尺数字都永远无法聚焦看清。所以，在绝对的海量数据检阅面前，平面超高清晰信息密度面板的权杖，永远凌驾于任何虚幻的三维沉浸幻觉之上。",
+          "ttsFp": "19ff111f_300",
+          "srtCueIdx": 144,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "Edward Tufte 被称为\"数据可视化的达芬奇\"。他自费出版了四本经典著作——因为没有出版社敢赌——结果大卖超 200 万册。他的核心哲学只有六个字：\"Above all else, show the data.\" 在他位于康涅狄格州的私人领地上，他亲手设计了一座雕塑花园，其中每件作品都是\"用最少的材料传达最多信息\"的物理隐喻。",
+          "ttsFp": "8974ad3a_168",
+          "srtCueIdx": 145,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 104,
+          "srcLEnd": 105
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请牢牢盯着大屏右侧这张写有 \"No Unjustified 3D\" 箴言的绝命卡片总结符咒。这就是你们在这个极其严酷的专业图纸领域里必须要死死坚守捍卫的最底线铁幕操守。记住画面中央那个被巨大惨烈且醒目的红色叉号所无情击碎斩落的、那些原本所谓华美沉重但实际上却是极其拙劣且充斥着遮挡掩盖罪恶隐患的反面 3D 阴影残骸碎片！当你握着最高权限渲染引擎、试图为了单纯地去满足虚荣心追求炫光技术而去无脑堆砌景深透视算力时，请停下手想一想：往往仅仅是因为你的所谓美学傲慢，从而导致画卷深远背景层可能被物理吞噬或者直接强行掩盖抹除掉的那些关系到生灵财富、气候灾变甚至国家宏大决策命脉底层的关键角落微弱数据变数。数据不容撒谎，绝不允许被美学谋杀。",
+          "ttsFp": "6876120b_315",
+          "srtCueIdx": 146,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 115,
+          "srcLEnd": 115
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Workshop",
+          "duration": "30min",
+          "desc": "**\"逼迫 AI\"——大模型提示词抗震压力测试。**",
+          "text": "[ACTIVITY]\n*   **Type**: `Workshop`\n*   **Duration**: `30min`\n*   **Desc**: **\"逼迫 AI\"——大模型提示词抗震压力测试。**\n\n**执行流程与具体指导台词**：此工作坊旨在揭秘当前市面上 LLM（大语言模型）在生成代码时的常见审美陷阱与降维打击操作法。\n1. （向全班下发一份含有噪点但具备典型特征的企业季度销售真实数据集）。\n2. （教师大屏演示）：将课堂一分为二。**对照组**用一种极其散漫、口语化、外行客户式的 Prompt 去指挥 ChatGPT/Claude 输出 ECharts 等前端图表代码：“帮我画一张 2024 年四个季度不同产品线销售数据的统计图，要求看着高大上一点、霸气一点，最好有明显的立体感和强烈的炫酷色彩。”\n3. （静待 10 秒钟出图，嘲讽粗陋的结果。）\n4. **核心组**则上台，祭出本节课的王牌——\"数据墨水比与通道克制\"法则，展开降维打击式指令 Prompt 设计：“基于上述同一份数据，使用 ECharts 绘制一张水平的 Grouped Bar Chart（分组柱状图）。**首要强制规则：绝对断然禁止任何形式的伪 3D 效果透视映射与阴影背景投影属性**。**次要强制规划：实施极简化剔除作业**，彻底移除所有 Y 轴内横向网格刻度网格线（令 `splitLine.show: false`），去除外发光环境包围框线。整体色彩仅准予使用统一的低饱和、高明度的性冷淡灰阶（Grey scale）作为背景色底衬，而后单独挑出并将第四季度增速最猛的代表性明星产品数据长条，利用通道强制分离法，填涂为高亮警示警戒橙红色作为全画面的唯一视觉突击点核心。”\n5. 两组各自将最终生成出的代码复制并部署在本地浏览器中运行渲染。大屏幕做左右震撼同框对比展示！\n\n这个大对比的实验现场结果淋漓尽致地向全场所有人展现宣判了：哪怕你手握再强的 AI 神兵利器，如果你作为最高裁决权主宰操盘手的潜意识大局观脑海深层当中，根本就未曾刻录过\"极限数据墨水比删减准则\"这把极其残忍且锋利的手术锯刀标尺去主动施加宏大预先干预与架构约束——那么，不管这世界底层正在提供多模态输出的大型演算模型它自称自己能有多么的聪明绝顶拟人化思维，AI 仅仅也只是在单纯凭藉着其那毫无情感的、爬取自全人类互联网长达二十年所累积下来的浩繁但审美低劣平均数据大杂烩所揉合拼贴出的所谓产出而已；它能够最后交付给你的，永远永远都只会是那些彻底缺乏当代高端工程艺术高级留白节流修养呼吸感缺失、甚至满屏充斥着坐标网格线与阴影噪点遮挡垃圾冗余堆叠的极其恶俗且低幼丑陋半成品玩具而已。\n对我们数字媒体艺术相关设计传媒专业的全体学生同学与业界同仁们来说，刚才那半成品画卷对比尤其称得上一记极其凄厉且震耳发聩轰鸣不止的警世洪钟怒吼！是的，你们每个人的指尖现在都拥有并且掌握着极其强大至极的诸如 Blender / C4D / Unreal Engine 或者是 Houdini 全自动虚幻高阶物理漫反射节点引擎计算光影渲染级别的重型压制核武器。这种能够无限模拟甚至欺骗人类眼球真实物理法则的终极视觉表现刻画能力，如果将它降临并释放在信息量化展现这片原本干涸的领域领土上，它的的确确是一种既能让你们轻而易举降维秒推平杀那些死磕抽象数理的纯理科程序员的无上华彩美学降魔神剑；但在与此同时的硬币另一面，你们也绝不要抱有丝毫轻敌与幻想，它也必然是那时刻倒悬漂浮在你们冷酷逻辑思维主导苍穹之上、时时刻刻闪烁寒光引诱并魅惑你随时无意识去跨过雷池肆无忌惮地滑向虚假 3D 造作深海罪恶深渊边缘的那把剧毒恐怖双刃剑！因为视觉极度扩张放纵的华丽高光本身真的太容易让人麻醉，它太过容易诱使你们在纯粹追求引擎画面极限炫技堆叠多边形的迷幻过程中，由于沉溺技术快感从而选择性极强地彻底背弃并彻底迷失掩埋掉这幅画作中它最珍贵且不可被篡改替代的数据本身那一丝不挂、带着甚至有些冷酷孤傲与苍凉感的事实本真！永远！永远将 Tufte 这位一代大宗师生前的座右铭犹如精神铭印般刺青在你们脑海：去向全天下人类展示那赤裸底层的数据，且唯有数据而已！因为只有带着最高绝对冷视的批判与疯狂减法切割斩断准则去支配与运用目前地球上最为顶级狂飙的 AI 与渲染管线，你，而非冰冷的程序机器，才是这能永恒牢控这股信息数字洪流方向盘、并永远立于高维视界不败之地的极简真理绝对唯一主人君王。",
+          "ttsFp": "564c9c73_1839",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑.md",
+          "srcLStart": 117,
+          "srcLEnd": 130
+        }
+      ],
+      "firstSrtCueIdx": 120,
+      "budgetChars": 2700,
+      "oralCharCount": 4190,
+      "estimatedMinutes": 23.3,
+      "fillRatio": 1.55
+    },
+    {
+      "id": "mod-6",
+      "title": "Module 5: 认知审计实验室——三阶段对比实验 (150 分钟)",
+      "slides": [
+        {
+          "id": "S08_The_Black_Museum",
+          "layout": "Grid",
+          "text": "The Black Museum：信息犯罪现场",
+          "heading": "",
+          "scene": "大屏幕上仿佛推开了一扇生锈的铁门，展现出一个暗黑风格的画廊，墙壁上挂着三幅令人极其不适的真实图表标本：一个是用连续色彩面积去映射类别的饼图，一个是用雷达图连接时间趋势的怪图，一个是比较任务却用了3D堆叠柱状图。每幅图下方贴着红色的\"犯罪档案编号\"标签。",
+          "image": null,
+          "images": [],
+          "assetExpected": [
+            "public/slides/S08_The_Black_Museum.png"
+          ],
+          "list": null,
+          "paragraphStart": 1
+        },
+        {
+          "id": "S08d_Texture_Overlay_Example",
+          "layout": "Full",
+          "text": "当冰冷的逻辑遇上温暖的材质：红线之上的艺术",
+          "heading": "5.3 阶段三：美学与叙事增强——情感附魔 (45 min)",
+          "scene": "一幅精修后的作品范例——底层是清晰理性的折线走势图，上方叠加了粗糙的宣纸纹理与复古油墨质感，整体由冰冷的数据变成了极具社会关怀纪实摄影温度的人文画卷。",
+          "image": "weeks/W02_Design_Principles/public/slides/S08d_Texture_Overlay_Example.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S08d_Texture_Overlay_Example.png"
+          ],
+          "assetExpected": [
+            "public/slides/S08d_Texture_Overlay_Example.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位，走到这里，我们确立了时空隐喻的心智，学会了控制标记与通道的底层代码理论，更从 Tufte 大师那里懂得了如何用数据墨水比剔除冗余。理论已经武装完毕，现在，我们要戴上主治医师的白手套，进入本周最核心的\"认知审计实验室\"。",
+          "ttsFp": "2eacb128_112",
+          "srtCueIdx": 147,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 4,
+          "srcLEnd": 4
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "\"同学们，请看大屏幕。这里是 The Black Museum（黑历史博物馆）。这些挂在墙上的标本，不是我凭空捏造的——它们来自真实的商业报告、新闻门户和财报发布会。它们曾经被成千上万的人认真阅读过，而其中隐藏着的通道映射错误，可能已经导致了错误的商业决策。\"",
+          "ttsFp": "18c608f4_130",
+          "srtCueIdx": 148,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "\"接下来 150 分钟，你们不再是茫然的观众，而是数字媒体世界的法医与外科医生。你们需要对这些犯了重罪的图表标本进行解剖、逻辑修正，并最终赋予它们情感与美学的尊严。\"",
+          "ttsFp": "a840c53a_83",
+          "srtCueIdx": 149,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "你们可能会问：既然市面上有那么多 AI 画图工具，为什么今天不让你们直接用 AI 生成图表？答案很简单——**你必须先学会用肉眼判断什么是「对」的，才有资格去指挥工具。** 如果你连通道映射的对错都看不出来，你怎么知道 AI 给你画的图是不是在骗你？\n今天我们练的是**最底层的审计直觉**——纯手工、纯人脑、纯 Figma 鼠标。等到第四周（W04），当你们的审计毒瞳已经练到炉火纯青、闭着眼睛都能嗅出通道错误的时候，我们再正式解锁 AI 辅助生成的高阶魔法（Vibe Coding）。到那时你们才真正有资格去驾驭它，而不是被它牵着鼻子走。",
+          "ttsFp": "29259856_271",
+          "srtCueIdx": 150,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 17,
+          "srcLEnd": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "\"在可视化中，**任何脱离了具体任务和受众谈『好坏』的图表，都是在耍流氓。**\"",
+          "ttsFp": "c247a43d_40",
+          "srtCueIdx": 151,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "教师下发场景任务卡与对应的预制错误标本 SVG（`Black_Museum_Case_A/B/C.svg`）。每组收到的不是空泛的\"美化这张图\"，而是一个极其具体的用户需求挑战：",
+          "ttsFp": "b780abde_89",
+          "srtCueIdx": 152,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 25,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "例如：*\"某三线城市的普通学生家长，需要在 10 秒内，通过手机屏幕读懂三所不同梯队小学近五年的升学率演变历程，以决定是否购买学区房。\"*",
+          "ttsFp": "9676baf6_69",
+          "srtCueIdx": 153,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 26,
+          "srcLEnd": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请在草稿纸上快速画下：",
+          "ttsFp": "30672b18_11",
+          "srtCueIdx": 154,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 28,
+          "srcLEnd": 28
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **分析任务 (Task)** 是什么？（是展现【比较】？描绘【趋势】？还是寻找变量间的【关联】？）",
+          "ttsFp": "31e40a0b_53",
+          "srtCueIdx": 155,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **目标受众 (Audience)** 的认知锚点是什么？（他们有专业统计知识吗？他们是在大屏还是手机上阅读？）",
+          "ttsFp": "2a9448e3_59",
+          "srtCueIdx": 156,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Workshop",
+          "duration": "30min",
+          "desc": "**预制标本通道错误审计与诊断日志**",
+          "text": "[ACTIVITY]\n*   **Type**: `Workshop`\n*   **Duration**: `30min`\n*   **Desc**: **预制标本通道错误审计与诊断日志**",
+          "ttsFp": "68acbb66_89",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 34,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**操作指南与教师话术**：",
+          "ttsFp": "a2ffdf69_14",
+          "srtCueIdx": 157,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. 请大家打开学习通，下载我刚刚下发的 `Black_Museum_Case_X.svg` 文件——这是我课前从真实商业报告中截取并转换的矢量标本。用 Figma 打开它。",
+          "ttsFp": "62a15eae_87",
+          "srtCueIdx": 158,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 40,
+          "srcLEnd": 40
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. SVG 的好处在于它是**绝对的数学矢量坐标**。这意味着你可以用鼠标毫不留情地把它分解回最基础的几何原子（Release Mask 解构蒙版）。",
+          "ttsFp": "54092786_76",
+          "srtCueIdx": 159,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. 现在，对照你们手里的《Munzner 通道有效性量表》和刚才写好的任务卡，填写发给你们的\"通道审计表\"。指出这张图中到底犯了哪些致命的映射错误？",
+          "ttsFp": "19c9e4e6_75",
+          "srtCueIdx": 160,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. （教师巡场指导）：\"你看这张图，它的受众是要看历年【趋势】，但制作者却错误地使用了离散的柱状阵列甚至是极坐标系面积去映射连续时间。这是在强迫读者用肉眼去测算面积差异——这是反人类认知规律的罪行纪录。记在审计表上！\"",
+          "ttsFp": "56186b37_110",
+          "srtCueIdx": 161,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "45min",
+          "desc": "**Figma 矢量拖拽重组与数据墨水比决策实验**",
+          "text": "[ACTIVITY]\n*   **Type**: `Practice`\n*   **Duration**: `45min`\n*   **Desc**: **Figma 矢量拖拽重组与数据墨水比决策实验**",
+          "ttsFp": "1b8ff6dd_96",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 47,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**操作指南与教师话术**：",
+          "ttsFp": "a2ffdf69_14",
+          "srtCueIdx": 162,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. 诊断结束，现在开始手术。利用 Figma 的 Release Mask 暴力解构刚才那张烂标本的所有节点。",
+          "ttsFp": "4cee6f3d_56",
+          "srtCueIdx": 163,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 53,
+          "srcLEnd": 53
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. 根据你们推导出的正确 Task，选择排位第一的高效通道，把散落的数据点重新以正确的视觉逻辑拼合起来！如果是时间趋势，就老老实实给我换回【空间位置】+【连线】。",
+          "ttsFp": "6d77a697_82",
+          "srtCueIdx": 164,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **冗余决策对比实验**：当你们完成了一个极其干净的骨架后（这就叫 DIR 接近 1.0 的极简版），停一下！回头看你们的任务卡——你们的受众是三线城市在手机上焦虑划动的普通家长！",
+          "ttsFp": "ac94ee08_93",
+          "srtCueIdx": 165,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 55,
+          "srcLEnd": 55
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. 思考一下：在这个极简骨架上，我们是不是应当引入\"必要冗余\"？尝试添加一条显眼的参考基准线，或者用醒目的红色单独标注出那所目标小学的关键折线。对比一下，在这个特定场景下，**带有精心设计冗余的标注版（DIR=0.7），是不是反而比极简版（DIR=0.95）的认知提取速度更快？**",
+          "ttsFp": "660fa55c_142",
+          "srtCueIdx": 166,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 56,
+          "srcLEnd": 56
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**操作指南与教师话术**：",
+          "ttsFp": "a2ffdf69_14",
+          "srtCueIdx": 167,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. 当且仅当你们在阶段二完成了无懈可击的通道逻辑拼图后，我们才允许进入身为数字媒体艺术家的舒适区：情感附魔。",
+          "ttsFp": "2b2cdd70_55",
+          "srtCueIdx": 168,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. 第一招，**重塑骨架字体**。把那些充满廉价系统感的默认 Arial 全给我删了，替换为能够展现数据权威与极简优雅的无衬线英文字体家族（如 Inter, Helvetica 或 思源黑体）。",
+          "ttsFp": "e53dcd7b_98",
+          "srtCueIdx": 169,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. 第二招，**注入色板情绪**。运用 ColorBrewer 理念，把乱七八糟的彩虹色刷成安静的灰阶遗址，然后单独拿起名为\"高亮主旨\"的画笔，用绝对聚焦的警戒红色，粗暴地刻画出那条你最想震撼家长的关键数据走势。这叫**焦点引航 (Focus Navigation)**。",
+          "ttsFp": "41cd475a_137",
+          "srtCueIdx": 170,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 70,
+          "srcLEnd": 70
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. 第三招，**材质温度附魔**。尝试在完稿上方垫一层手打麻布纸纹理，或是复古打字机油墨粗粝噪点。打破它刺眼的工业科技反光感，赋予它纪实摄影般的厚重与呼吸感。",
+          "ttsFp": "bf142a76_80",
+          "srtCueIdx": 171,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "5. **铁腕红线警示**：\"你们可以穷尽一切排版与色彩技巧，但有一条绝对红线不允许触碰——**你们的任何美学添加，绝不能改变底层数学坐标中哪怕一毫米的比例空间误差。** 美学必须臣服并服务于数据的真实性。\"",
+          "ttsFp": "76a05338_104",
+          "srtCueIdx": 172,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Critique",
+          "duration": "15min",
+          "desc": "**Peer Critique 投屏审判**",
+          "text": "[ACTIVITY]\n*   **Type**: `Critique`\n*   **Duration**: `15min`\n*   **Desc**: **Peer Critique 投屏审判**",
+          "ttsFp": "589fa0e8_92",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 76,
+          "srcLEnd": 79
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在最后的 15 分钟里，请每组代表走上讲台，在投影仪打出你们的三阶段并列画面：",
+          "ttsFp": "e148d46c_39",
+          "srtCueIdx": 173,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 81,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **画面一：教师下发的原始犯罪标本 (Anatomy)**",
+          "ttsFp": "78c94652_31",
+          "srtCueIdx": 174,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **画面二：冷酷严谨的通道修正版 (Logic)**",
+          "ttsFp": "ff98d221_28",
+          "srtCueIdx": 175,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 83,
+          "srcLEnd": 83
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **画面三：饱含情感的高定精修版 (Aesthetic)**",
+          "ttsFp": "744002af_32",
+          "srtCueIdx": 176,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 84,
+          "srcLEnd": 84
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "台下的同学，你们要变作世界上最尖锐的审计官，提出质询：",
+          "ttsFp": "3326bf0d_27",
+          "srtCueIdx": 177,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- \"你阶段二选择的这个通道，真的比原始版本提效了吗？\"",
+          "ttsFp": "0f718fe8_28",
+          "srtCueIdx": 178,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 87,
+          "srcLEnd": 87
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- \"你阶段三加的那个红色渐变，是不是引入了不必要的视觉偏差错觉？\"",
+          "ttsFp": "4838ec32_34",
+          "srtCueIdx": 179,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一场完美的实验，就该在这样刀光剑影的辩论中落幕。",
+          "ttsFp": "e7a150b4_24",
+          "srtCueIdx": 180,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 90,
+          "srcLEnd": 90
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "带着今天训练出的审计毒瞳，今晚回去审视一下你们自己的求职简历。你用的加粗、颜色、字体大小，是否真的构成了有效的通道映射？信息层级是否经得起 HR 6 秒钟阅读极限的考验？",
+          "ttsFp": "cfb7b034_85",
+          "srtCueIdx": 181,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 92,
+          "srcLEnd": 93
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "本周结束，你们终于懂得了一张真正优秀的数据可视化图纸是怎么被锻造出来的：它源自冰冷的数学，受制于读者的认知神经，却最终抵达炽热的社会人文关怀。",
+          "ttsFp": "57edd4f3_71",
+          "srtCueIdx": 182,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "下周，当我们学会了如何辨识正确的通道与图纸法则后，我们将面对那看不见、摸不到却又必须被呈现出来的\"复杂非结构化数据黑洞\"。",
+          "ttsFp": "d58f4c6c_61",
+          "srtCueIdx": 183,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位，下周见！",
+          "ttsFp": "8245d657_7",
+          "srtCueIdx": 184,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 99,
+          "srcLEnd": 99
+        }
+      ],
+      "firstSrtCueIdx": 147,
+      "budgetChars": 4500,
+      "oralCharCount": 1908,
+      "estimatedMinutes": 10.6,
+      "fillRatio": 0.42
+    },
+    {
+      "id": "mod-7",
+      "title": "课后任务：通道审计独立实战 (Assignments)",
+      "slides": [
+        {
+          "id": "S09_Homework_Assignment",
+          "layout": "Grid",
+          "text": "课后任务：从真实世界的犯罪现场到你的手术台",
+          "heading": "",
+          "scene": "课后任务卡片——左侧列出三步指令（狩猎真实劣质图→Figma通道重建→墨水比精修与附魔），右侧标注提交要求（三阶段对比图 + 300字通道决策审计书），底部显示截止时间与提交平台。",
+          "image": "weeks/W02_Design_Principles/public/slides/S09_Homework_Assignment.png",
+          "images": [
+            "weeks/W02_Design_Principles/public/slides/S09_Homework_Assignment.png"
+          ],
+          "assetExpected": [
+            "public/slides/S09_Homework_Assignment.png"
+          ],
+          "list": null,
+          "paragraphStart": 7
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "[!NOTE]\n本课后任务同时服务于**实验1（数据获取与清洗）**的交付物积累。你在本次作业中使用的数据集，应当来源于你在实验1中从 Kaggle 或政府开放平台下载并完成 Tidy 清洗的同一份真实数据。",
+          "ttsFp": "6f10050a_104",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 104,
+          "srcLEnd": 105
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请大家回顾本节课的\"三阶段对比实验\"模型，完成以下课后个人项目：",
+          "ttsFp": "3e815969_32",
+          "srtCueIdx": 185,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 107,
+          "srcLEnd": 107
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **狩猎反面教材**：去新闻门户站点、企业财报、各类充斥着浮夸设计的报告（PPT 模板网站也可以）里，找出一张典型的**\"为了酷炫而牺牲了可读性 / 通道映射严重出错\"**的真实劣质数据图。截图保存。",
+          "ttsFp": "1d30ad75_103",
+          "srtCueIdx": 186,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 109,
+          "srcLEnd": 109
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **通道重建**：在 Figma 里，运用 Munzner 通道有效性和\"任务匹配\"原则，**结合你在实验1中清洗过的同一份 Tidy 数据**，把它用正确的几何表现形式重新排布出来。",
+          "ttsFp": "0e2550e3_95",
+          "srtCueIdx": 187,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 110,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **极简精修与情感附魔**：贯彻 Tufte 数据墨水比准则，剔除所有 Chartjunk，并运用字体重塑、色板克制与材质附魔进行美学升级。",
+          "ttsFp": "9a2d9093_73",
+          "srtCueIdx": 188,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 111,
+          "srcLEnd": 111
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. **提交产物**：\"原始劣质图截图\" + \"Figma 通道修正重建图\" + \"最终美学精修图\"，以及一段 300 字的 **《通道决策与冗余权衡报告》**，清晰阐述你为什么要替换原始图的错误通道，并在最终成品中保留了哪些必要的辅助冗余。",
+          "ttsFp": "8685c17a_122",
+          "srtCueIdx": 189,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "下周上课前提交到学习通。",
+          "ttsFp": "a29c5b93_12",
+          "srtCueIdx": 190,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后，在大家关电脑之前，请一定要仔细阅读屏幕上这张课后任务卡片。你们要从真实的商业世界中亲手抓获一名\"通道犯罪嫌疑人\"，然后像今天在课堂上一样，对它施以最专业的三阶段外科手术。特别是那份 300 字审计报告，你们务必像面对一场苛刻的法庭盘问般讲清你的每一个选型逻辑依据！下周同一时间带着你们震撼的作品见，下课！",
+          "ttsFp": "d7e46547_155",
+          "srtCueIdx": 191,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 123,
+          "srcLEnd": 123
+        }
+      ],
+      "firstSrtCueIdx": 185,
+      "budgetChars": null,
+      "oralCharCount": 430,
+      "estimatedMinutes": 2.4,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-8",
+      "title": "Self-Verification Checklist:",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] 技术参数是否与知识库一致？(已采用《信息可视化设计》第三章和 Munzner 核心理论，完美贴合。)",
+          "ttsFp": "8b755887_56",
+          "srtCueIdx": 192,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 128,
+          "srcLEnd": 128
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] 所有 `[VISUAL]` 块是否包含必填字段 (Slide, Layout, Scene)？(是，包含 2 组独立精细化设计的 VISUAL 展示画面指示块。)",
+          "ttsFp": "96640254_87",
+          "srtCueIdx": 193,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] 知识面覆盖：是否至少有 1 个人文层标签？(是，包含 1 个 `LIFE CONNECT` 和 2 个 `TEACHING MOMENT`。)",
+          "ttsFp": "d1e00187_77",
+          "srtCueIdx": 194,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] 是否包含留白标记？(是的，在理论宣讲和实操过渡中包含必要的话段留白与沉思区。)",
+          "ttsFp": "aedcb13e_45",
+          "srtCueIdx": 195,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] **Visual Anchoring**: 正文是否包含指向画面的指示性词汇？(包含大量自然语言锚定，如\"请看大屏幕\"、\"挂在墙上的标本\"等。)",
+          "ttsFp": "7fcc8a3f_78",
+          "srtCueIdx": 196,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 132,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] `[ACTIVITY]` 块类型是否齐全？(充分：包含 Workshop 30min + Practice 45min + Critique 15min = 90min 结构化实践。)",
+          "ttsFp": "201cc644_98",
+          "srtCueIdx": 197,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 133,
+          "srcLEnd": 133
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] **实验联动**：课后任务是否与 `practices/experiment_planning.md` 实验1数据流对接？(是，明确要求学生使用实验1中的同一份 Tidy 数据集。)",
+          "ttsFp": "2187cb3b_97",
+          "srtCueIdx": 198,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 134,
+          "srcLEnd": 134
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- [x] **AI 边界**：本周是否避免了学生端 AI 操作？(是，本周为纯手工审计与 Figma 重建，AI 生成图表保留在 W03-W04 实验2中。)",
+          "ttsFp": "6ca631de_80",
+          "srtCueIdx": 199,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W02_Design_Principles/src/M05_认知审计实验室__三阶段对比实验.md",
+          "srcLStart": 135,
+          "srcLEnd": 135
+        }
+      ],
+      "firstSrtCueIdx": 192,
+      "budgetChars": 0,
+      "oralCharCount": 249,
+      "estimatedMinutes": 1.4,
+      "fillRatio": null
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+/* ============================================================
+   布局框架 — app-container / header / main-content
+   ============================================================ */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 顶栏 */
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-md);
+  padding: var(--sp-sm) var(--sp-lg);
+  background: var(--theme-bgDark);
+  color: var(--theme-bg);
+  flex-shrink: 0;
+  min-height: 44px;
+}
+
+.course-title {
+  font-family: var(--theme-fontTitleCn);
+  font-weight: 700;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.script-title {
+  font-family: var(--theme-fontTitleCn);
+  font-weight: 600;
+  font-size: 15px;
+  flex: 1;
+}
+
+.audio-badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(var(--theme-primaryRgb), 0.3);
+  color: var(--theme-bg);
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  flex-shrink: 0;
+}
+
+.header-back-link {
+  font-size: 13px;
+  color: rgba(245, 240, 235, 0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.header-back-link:hover {
+  color: rgba(245, 240, 235, 0.9);
+}
+
+/* 主区域: 左幻灯片 + 右文本 */
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  gap: 0;
+}
+
+/* ============================================================
+   响应式 — 主视图
+   ============================================================ */
+
+@media (max-width: 900px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .slide-area {
+    flex: 0 0 50%;
+    border-right: none;
+    border-bottom: 1px solid var(--theme-overlay-subtle);
+  }
+
+  .text-panel {
+    flex: 1;
+  }
+}

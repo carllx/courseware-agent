@@ -12,7 +12,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S08c_Shneiderman_Mantra`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Scene**: 一个漏斗形的视觉模型。最上方是极其庞大、密集的海洋般的数据云（Overview）；中间经过几道带有漏网和放大镜的屏障（Zoom & Filter）；最底部滴落下来的是几颗极其璀璨、带有详细参数标签的钻石（Details-on-demand）。
 > *   **Text**: "寻找信息的神圣准则：Shneiderman 漏斗"
 

@@ -1,0 +1,284 @@
+{
+  "version": "2.0",
+  "generated": "2026-04-05T15:08:37.973305",
+  "courses": [
+    {
+      "id": "交互产品开发",
+      "name": "交互产品开发",
+      "dirName": "交互产品开发",
+      "structureType": "weekly",
+      "semester": "2025-2026-2",
+      "theme": {
+        "bg": "#F5F0EB",
+        "bgSurface": "#FFFFFF",
+        "bgElevated": "#EDE7E0",
+        "bgDark": "#2D2926",
+        "primary": "#B85042",
+        "secondary": "#5B7B6F",
+        "accent": "#C9A96E",
+        "info": "#6B8FAD",
+        "textOnDark": "#F5F0EB",
+        "primaryLight": "#D4756A",
+        "primaryMuted": "#8C3A30",
+        "success": "#5B7B6F",
+        "warning": "#C9A96E",
+        "error": "#B85042",
+        "border": "#D6CFC7",
+        "text": "#2D2926",
+        "textSecondary": "#6B635C",
+        "textMuted": "#A39B93",
+        "primaryRgb": "184, 80, 66",
+        "secondaryRgb": "91, 123, 111",
+        "isDark": false,
+        "fontTitle": "Georgia",
+        "fontBody": "Inter",
+        "fontTitleCn": "Noto Serif SC",
+        "fontBodyCn": "Noto Sans SC"
+      },
+      "weeks": [
+        {
+          "script": "W01_交互体系概论基础",
+          "sections": 8,
+          "slides": 50,
+          "paragraphs": 264,
+          "hasAudio": true,
+          "hasSrt": true,
+          "visualCoverage": "50/50"
+        },
+        {
+          "script": "W02_人类认知与心智摩擦",
+          "sections": 10,
+          "slides": 51,
+          "paragraphs": 248,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "51/51"
+        },
+        {
+          "script": "W03_产品洞察与痛点切入",
+          "sections": 7,
+          "slides": 42,
+          "paragraphs": 176,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "41/42"
+        },
+        {
+          "script": "W04_假设驱动与MVP构建",
+          "sections": 9,
+          "slides": 33,
+          "paragraphs": 187,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "33/33"
+        },
+        {
+          "script": "W05_目标导向路径与架构",
+          "sections": 8,
+          "slides": 29,
+          "paragraphs": 184,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "29/29"
+        },
+        {
+          "script": "W06_容器工程化基础映射",
+          "sections": 8,
+          "slides": 31,
+          "paragraphs": 228,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "31/31"
+        },
+        {
+          "script": "W07_视觉重构：层级与色彩",
+          "sections": 7,
+          "slides": 33,
+          "paragraphs": 290,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "33/33"
+        },
+        {
+          "script": "W08_视觉重构：深度与防错",
+          "sections": 7,
+          "slides": 33,
+          "paragraphs": 138,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "33/33"
+        },
+        {
+          "script": "W09_AI原型协作结构化",
+          "sections": 6,
+          "slides": 33,
+          "paragraphs": 155,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "33/33"
+        },
+        {
+          "script": "W10_前沿动效组件融入",
+          "sections": 6,
+          "slides": 35,
+          "paragraphs": 103,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "35/35"
+        },
+        {
+          "script": "W11_逻辑排障与兜底策略",
+          "sections": 5,
+          "slides": 27,
+          "paragraphs": 155,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "26/27"
+        },
+        {
+          "script": "W12_启发式评估原理与应用",
+          "sections": 6,
+          "slides": 21,
+          "paragraphs": 266,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "21/21"
+        },
+        {
+          "script": "W13_对话与可操作测试法",
+          "sections": 4,
+          "slides": 19,
+          "paragraphs": 176,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "19/19"
+        },
+        {
+          "script": "W14_数据复盘与作品库凝练",
+          "sections": 7,
+          "slides": 23,
+          "paragraphs": 249,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "23/23"
+        }
+      ]
+    },
+    {
+      "id": "信息可视化",
+      "name": "信息可视化设计",
+      "dirName": "信息可视化",
+      "structureType": "weekly",
+      "semester": "2025-2026-2",
+      "theme": {
+        "bg": "#F5F0EB",
+        "bgSurface": "#FFFFFF",
+        "bgElevated": "#EDE7E0",
+        "bgDark": "#2D2926",
+        "primary": "#B85042",
+        "secondary": "#5B7B6F",
+        "accent": "#C9A96E",
+        "info": "#6B8FAD",
+        "textOnDark": "#F5F0EB",
+        "primaryLight": "#B85042",
+        "primaryMuted": "#8C3A30",
+        "success": "#5B7B6F",
+        "warning": "#C9A96E",
+        "error": "#B85042",
+        "border": "#D6CFC7",
+        "text": "#2D2926",
+        "textSecondary": "#6B635C",
+        "textMuted": "#A39B93",
+        "primaryRgb": "184, 80, 66",
+        "secondaryRgb": "91, 123, 111",
+        "isDark": false,
+        "fontTitle": "Playfair Display",
+        "fontBody": "Inter",
+        "fontTitleCn": "Noto Serif SC",
+        "fontBodyCn": "Noto Sans SC"
+      },
+      "weeks": [
+        {
+          "script": "W01_Visual_Perception",
+          "sections": 8,
+          "slides": 85,
+          "paragraphs": 303,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "69/85"
+        },
+        {
+          "script": "W02_Design_Principles",
+          "sections": 8,
+          "slides": 36,
+          "paragraphs": 212,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "34/36"
+        },
+        {
+          "script": "W03_Data_Literacy",
+          "sections": 7,
+          "slides": 54,
+          "paragraphs": 177,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "54/54"
+        },
+        {
+          "script": "W04_AI_D3_Basics",
+          "sections": 6,
+          "slides": 51,
+          "paragraphs": 192,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "51/51"
+        },
+        {
+          "script": "W05_AI_D3_Aesthetics",
+          "sections": 6,
+          "slides": 29,
+          "paragraphs": 77,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "29/29"
+        },
+        {
+          "script": "W06_Interaction",
+          "sections": 7,
+          "slides": 43,
+          "paragraphs": 434,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "43/43"
+        },
+        {
+          "script": "W07_Project_Design",
+          "sections": 7,
+          "slides": 21,
+          "paragraphs": 122,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "21/21"
+        },
+        {
+          "script": "W08_Project_Dev",
+          "sections": 6,
+          "slides": 41,
+          "paragraphs": 123,
+          "hasAudio": false,
+          "hasSrt": false,
+          "visualCoverage": "41/41"
+        }
+      ]
+    },
+    {
+      "id": "internship_guidance",
+      "name": "实习指导",
+      "dirName": "实习指导",
+      "structureType": "phasic",
+      "semester": "2025-2026-2",
+      "weeks": []
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import '../styles/course-page.css'
 
 /**
  * CoursePage — 课程周次列表页

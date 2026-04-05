@@ -11,7 +11,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S06_Title`
-> *   **Layout**: `Title`
+> *   **Layout**: `Center`
 > *   **Scene**: 标题页 "总结考核与归档"
 
 ## 2. Content

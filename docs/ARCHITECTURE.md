@@ -169,11 +169,14 @@ graph TB
 5. 在 `validate_project.py` 的 `validators` 列表中注册
 6. 更新 `SKILL.md`
 
-### 添加新 Layout 类型
+### 添加新表现层类型 (Layout / Intent)
 
-1. 在 `.agent/skills/pptx/layouts.md` 的统一映射总表中添加（SSoT）
-2. 在 `script_parser.py` 的 `VALID_LAYOUTS` 集合中同步添加
-3. 在 `ppt_layouts.js` 的 `LAYOUT_MAP` 中添加渲染映射
+> 参见 [VISUAL_LAYOUT_SPEC.md](./VISUAL_LAYOUT_SPEC.md) 的三层架构，原则上**不再添加新 Layout（空间骨架已锁定为 5 种）**，大多数视觉需求仅需添加或重用内容组件机制，极少情况下可添加新 `Intent` 语义修饰符。
+
+1. 在 `docs/VISUAL_LAYOUT_SPEC.md` 中论证并记录新的 Intent 行动修饰语义
+2. 在 `.agent/skills/script_format/layouts_v2.md` 的支持表中同步注册
+3. 在 `script_parser.py` 中更新推断判断逻辑，或更新可用修饰符
+4. 在 `ppt_layouts.js` / H5 Vue 组件库 中挂载映射与修饰类
 
 ### PPT 引擎标题管道 (v3)
 

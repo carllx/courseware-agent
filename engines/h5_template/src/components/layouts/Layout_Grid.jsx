@@ -1,34 +1,32 @@
+import AssetPlaceholder from '../primitives/AssetPlaceholder'
+
 /**
- * Layout_Grid — 网格布局
- * 标题 + 列表项以网格形式排列
+ * Layout_Grid — 网格卡片矩阵布局
+ * 带有 Subtle 阴影和强调色描边的信息卡片阵列
  */
 export default function Layout_Grid({ slide }) {
+  const items = slide.parsedList || []
+  
   return (
     <>
-      {slide.heading && <div className="slide-heading">{slide.heading}</div>}
-      <div className="slide-body" style={{ flexWrap: 'wrap', padding: '12px', gap: '8px', alignContent: 'start' }}>
+      {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+      <div className="h5-slide-body h5-layout-grid">
         {slide.resolvedImage ? (
-          <img className="slide-image" src={slide.resolvedImage} alt="" />
-        ) : slide.list && slide.list.length > 0 ? (
-          slide.list.map((item, i) => (
-            <div key={i} style={{
-              flex: '1 1 calc(50% - 8px)',
-              minWidth: '140px',
-              padding: '12px',
-              background: 'var(--theme-bgElevated)',
-              borderRadius: 'var(--radius-sm)',
-              fontSize: '13px',
-              lineHeight: 1.5,
-              borderLeft: '3px solid var(--theme-primary)',
-            }}>
-              {item}
-            </div>
-          ))
+          <AssetPlaceholder slide={slide} proportion="100%" />
+        ) : items && items.length > 0 ? (
+          items.map((item, i) => {
+            const itemTitle = typeof item === 'string' ? item : item.title;
+            const itemDesc = typeof item === 'string' ? '' : item.desc;
+            
+            return (
+              <div key={i} className="h5-grid-card">
+                {itemTitle && <div className="h5-grid-card-title">{itemTitle}</div>}
+                {itemDesc && <div className="h5-grid-card-desc">{itemDesc}</div>}
+              </div>
+            )
+          })
         ) : (
-          <div className="greybox">
-            <span className="greybox-label">Grid</span>
-            <span className="greybox-text">{slide.scene || '等待网格内容'}</span>
-          </div>
+          <AssetPlaceholder customStyle={{ flex: 1 }} slide={slide} />
         )}
       </div>
     </>

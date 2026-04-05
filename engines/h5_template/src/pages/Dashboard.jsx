@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import '../styles/dashboard.css'
 
 /**
  * Dashboard — 全课程总览主页

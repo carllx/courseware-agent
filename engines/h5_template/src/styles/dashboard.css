@@ -1,0 +1,169 @@
+/* ============================================================
+   Dashboard — 全课程总览
+   ============================================================ */
+
+.dashboard {
+  min-height: 100vh;
+  background: #0f1117;
+  color: #e4e6eb;
+  overflow-y: auto;
+}
+
+.dashboard-header {
+  padding: var(--sp-2xl) var(--sp-xl) var(--sp-lg);
+  text-align: center;
+  background: linear-gradient(180deg, #161924 0%, #0f1117 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.dashboard-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #e4e6eb 0%, #8b8fa3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dashboard-subtitle {
+  margin-top: var(--sp-sm);
+  font-size: 14px;
+  color: #8b8fa3;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--sp-md);
+  padding: var(--sp-lg) var(--sp-xl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-footer {
+  text-align: center;
+  padding: var(--sp-xl);
+  font-size: 12px;
+  color: #6b6f82;
+}
+
+/* 课程卡片 */
+.course-card {
+  display: flex;
+  flex-direction: column;
+  background: #1a1d27;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+  border-color: rgba(255,255,255,0.12);
+}
+
+.course-card-header {
+  padding: var(--sp-lg) var(--sp-lg) var(--sp-md);
+  position: relative;
+}
+
+.course-card-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+
+.course-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: var(--sp-sm);
+  line-height: 1.4;
+}
+
+.course-card-badges {
+  display: flex;
+  gap: var(--sp-sm);
+  flex-wrap: wrap;
+}
+
+.course-card-stats {
+  padding: 0 var(--sp-lg) var(--sp-md);
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  margin-bottom: var(--sp-xs);
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #8b8fa3;
+  min-width: 60px;
+}
+
+.stat-value {
+  font-size: 12px;
+  font-weight: 600;
+  color: #8b8fa3;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-row.error .stat-label,
+.stat-row.error .stat-value {
+  color: #ff6b6b;
+}
+
+.course-card-footer {
+  padding: var(--sp-md) var(--sp-lg);
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+
+.card-link-hint {
+  font-size: 12px;
+  color: #9498ab;
+  transition: color 0.2s;
+}
+
+.course-card:hover .card-link-hint {
+  color: #a29bfe;
+}
+
+/* ============================================================
+   Dashboard 响应式断点
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    padding: var(--sp-md);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* 末位卡片居中（3列→2列时解决孤立问题） */
+  .dashboard-grid > .course-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: 50%;
+    justify-self: center;
+  }
+}

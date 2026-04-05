@@ -11,7 +11,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S05_Title`
-> *   **Layout**: `Title`
+> *   **Layout**: `Center`
 > *   **Scene**: 标题页 "过程管理与监控"
 
 ## 2. Content

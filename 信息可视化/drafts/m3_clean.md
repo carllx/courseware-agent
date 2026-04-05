@@ -60,7 +60,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S20_Storyboard_Practice`
-> *   **Layout**: `Table`
+> *   **Layout**: `Split`
 > *   **Scene**: 展示一张真实的工业级 Scrollytelling 分镜表（JSON/Excel混排表格巨幅特写），表头清晰列出令人极度苏爽的工程化秩序排列：Step编号序列、Trigger文本(X)、视觉描述意象(Y)、图表Options变更(Z)、缓动曲线类型(Ease-emotion type)。
 > *   **Caption**: 别写代码，先填表。填满这张表，你就赢了百分之八十。
 
@@ -85,7 +85,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S21_Easing_Psychology`
-> *   **Layout**: `Quadrant`
+> *   **Layout**: `Grid`
 > *   **Scene**: 四组带着残留视觉慧尾拖迹的动态圆球正在向右横冲直撞冲刺跨海比赛，每个不同性格圆球正上方悬浮标注了相应的数学曲线函数图（例如缓拉陡升再平滑的极坐标高阶二次抛物线）。
 > *   **Text**: "情绪的心跳切片函数：数据也是有强烈性格的演员"
 

@@ -111,7 +111,7 @@ grep_search "<变更关键词>" --path .agent/ --includes "*.md,*.py,*.js"
 | D2 | 其他验证器是否调用了被修改的函数（`validate_project.py` 统一入口） |
 | D3 | 命令行参数变更时，所有工作流中的示例命令是否同步更新 |
 | D4 | `[VISUAL]` 块字段变更时，PPT 解析器 (`ppt_parser.js`) 和 H5 解析器 (`generate_course_h5.py`) 是否均已适配 |
-| D5 | `vite-plugin-h5-hot-reload.js` 变更时：① `shouldHandle()` 正则是否匹配当前目录结构 ② Python spawn 的 CLI 参数是否与 `generate_course_h5.py` 的 `main()` 路由一致 ③ WebSocket 事件名 (`h5:reload`/`h5:error`) 是否与 `LessonViewer.jsx`/`App.jsx` 的监听器匹配（ADR 037） |
+| D5 | `vite-plugin-h5-hot-reload.js` 变更时：① `shouldHandle()` 正则是否匹配当前目录结构 ② Python spawn 的 CLI 参数是否与 `generate_course_h5.py` 的 `main()` 路由一致 ③ WebSocket 事件名 (`h5:reload`/`h5:error`) 是否与 `LessonViewer.jsx`/`App.jsx` 的监听器匹配（ADR 037） ④ TTS 中间件（save/manifest/audio proxy）是否在 engines/ 和 build/ 两个副本间保持同步（ADR 040） |
 
 ### §E: 通用文档修改
 

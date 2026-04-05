@@ -273,6 +273,9 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
             tag_m = RE_TAG_START.match(block_lines[0])
             if tag_m:
                 tag_name = tag_m.group(1).strip()
+                
+                # 去除开头的 [TAG_NAME] 标记（支持 inline 文本，更健壮）
+                clean_content = re.sub(r'^\[(?:[A-Z ]+|![A-Z]+)(?::.*?)?\]\s*', '', inner_content, count=1)
 
                 # (2a) VISUAL 块
                 if tag_name == "VISUAL":
@@ -307,7 +310,7 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
 
                     blocks.append(ScriptBlock(
                         block_type=BlockType.VISUAL,
-                        content=inner_content,
+                        content=clean_content,
                         line_start=block_start,
                         line_end=block_end,
                         metadata=meta,
@@ -317,22 +320,30 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                 # (2b) ACTIVITY 块
                 elif tag_name == "ACTIVITY":
                     meta = {}
+                    filtered_lines = []
                     for il in inner_lines:
                         tm = RE_ACTIVITY_TYPE.search(il)
                         if tm:
                             meta["activity_type"] = _extract(tm)
+                            continue
                         dm = RE_ACTIVITY_DURATION.search(il)
                         if dm:
                             raw = _extract(dm)
                             meta["duration_raw"] = raw
                             meta["duration_sec"] = _parse_duration(raw)
+                            continue
                         desc_m = RE_ACTIVITY_DESC.search(il)
                         if desc_m:
                             meta["desc"] = _extract(desc_m, freeform=True)
+                            continue
+                        filtered_lines.append(il)
+
+                    inner_filtered = '\n'.join(filtered_lines)
+                    clean_content = re.sub(r'^\[(?:[A-Z ]+|![A-Z]+)(?::.*?)?\]\s*', '', inner_filtered, count=1).strip()
 
                     blocks.append(ScriptBlock(
                         block_type=BlockType.ACTIVITY,
-                        content=inner_content,
+                        content=clean_content,
                         line_start=block_start,
                         line_end=block_end,
                         metadata=meta,
@@ -341,14 +352,10 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
 
                 # (2c) 口头叙事型标签 -> 归为 SPEECH（计入字数）
                 elif tag_name in ORAL_TAGS:
-                    # 去掉标签行本身，仅保留正文内容
-                    oral_lines = [l for l in inner_lines[1:] if l.strip()]
-                    oral_content = '\n'.join(oral_lines)
-                    # 即使标签块内无引用正文（内容在后续非引用段落中），
-                    # 也需创建块以便 validate_spec.py 正确计数标签
+                    # 即使标签块内无引用正文，也需创建块以便计数标签
                     blocks.append(ScriptBlock(
                         block_type=BlockType.SPEECH,
-                        content=oral_content,
+                        content=clean_content,
                         line_start=block_start,
                         line_end=block_end,
                         metadata={"tag_name": tag_name, "oral_tag": True},
@@ -359,7 +366,7 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                 else:
                     blocks.append(ScriptBlock(
                         block_type=BlockType.TAG,
-                        content=inner_content,
+                        content=clean_content,
                         line_start=block_start,
                         line_end=block_end,
                         metadata={"tag_name": tag_name},

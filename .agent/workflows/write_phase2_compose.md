@@ -36,7 +36,9 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
 
    **Phase A：骨架生成（占目标字数的 ~60%）**
    - 仅加载该模块所需的知识素材（控制上下文消耗）
-   - 写入模块的主体叙事结构：开场过渡 + 核心概念展开 + 案例/人文标签 + VISUAL 块
+   - **强制前置思考 (Thought Process) - 提取火花与建构防御**：在编写前，必须识别本模块的 "Emotional/Cognitive Resonance Point" (共情火花/核心冲突点)。同时自检：**是否过早给出了答案？** 必须按建构主义法则，设计出“刻意隐瞒结论、先用对比缺陷激发疑问”的引入路径。
+   - **多帧连击输出 (Progressive Disclosure)**：遵循 `SKILL.md` §1 约定，**严禁将全量 SCQA 逻辑塞入单张排版**。必须依照 悬念(Full) → 发问(Center) → 解答(Grid/Split) 等渐进式切花序列。
+   - 写入模块的主体叙事结构：多帧序列起手(痛点对比引发猜测) + 阶梯解构金字塔支撑点 + 案例/人文标签 + 微互动熔断 + VISUAL 块
    - **字数目标**：模块预算的 **60%-70%**
    - Phase A 完成后，**立即调用字数中间检查点**：
      ```bash
@@ -83,6 +85,9 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
       2. 提取 `[VISUAL]` 块后紧随的首段 Speech 的核心**认知意图标签**
       3. 若两者的意图标签不一致或无法建立隐喻映射关系，标记为「⚠️ Scene-Speech 意图脱节」，要求修正 Scene 使其与 Speech 的心理学内核对齐
       4. 在抽象风格系统下，**不得**通过插入具象实体名词来"修复"对齐——必须通过调整隐喻/情绪/张力来实现
+    - **微互动心跳校验 (Micro-Activity Check)**：
+      1. 若该模块为纯理论解读，检查是否未含任何 `[ACTIVITY]`。
+      2. 强制在概念转折点或大段讲解之间，插入 1分钟量级的极其轻量的互动（如 `> [ACTIVITY] Type: QA | Duration: 1min | Desc: 灵魂发问` 或 `Warm-up`），打破单向说教导致的心流断裂。
 
 > [!IMPORTANT]
 > **Phase A → 中间检查点 → Phase B** 是字数达标的核心机制。禁止跳过中间检查点直接将模块标记为 done。禁止 Agent 自行估算字数——必须依赖外部验证器的精确计数。

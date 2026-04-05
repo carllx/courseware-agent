@@ -1,0 +1,559 @@
+/* ============================================================
+   Craft-room Phase 0 — 断链覆盖层 (BrokenImageOverlay)
+   ============================================================ */
+
+.slide-frame--broken {
+  position: relative;
+}
+
+.broken-image-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-sm);
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 180, 50, 0.06),
+    rgba(255, 180, 50, 0.06) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  border: 2px dashed rgba(255, 180, 50, 0.4);
+  border-radius: var(--radius-md);
+  z-index: 5;
+  backdrop-filter: blur(1px);
+}
+
+.broken-image-icon {
+  font-size: 32px;
+  opacity: 0.6;
+}
+
+.broken-image-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffb432;
+  letter-spacing: 0.5px;
+}
+
+.broken-image-path {
+  font-size: 11px;
+  color: var(--theme-textMuted);
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+.broken-image-copy {
+  margin-top: var(--sp-xs);
+  padding: 4px 12px;
+  border: 1px solid rgba(255, 180, 50, 0.3);
+  border-radius: 4px;
+  background: rgba(255, 180, 50, 0.08);
+  color: #ffb432;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.broken-image-copy:hover {
+  background: rgba(255, 180, 50, 0.15);
+  border-color: rgba(255, 180, 50, 0.5);
+}
+
+/* ============================================================
+   Craft-room Phase 0 — 字数进度胶囊 (DurationGauge)
+   ============================================================ */
+
+.gauge-capsule {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  vertical-align: middle;
+  line-height: 1.5;
+  cursor: default;
+  transition: all 0.2s ease;
+}
+
+/* 状态：饥饿/不足 (虚线，暗示待填空) */
+.gauge-capsule.under-budget {
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  background: transparent;
+  color: var(--theme-textMuted, #888);
+  font-weight: 400;
+}
+
+/* 状态：健康/吃饱 (安静的淡色，无框融合) */
+.gauge-capsule.healthy {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--theme-textSecondary, #ccc);
+  font-weight: 400;
+}
+
+/* 状态：过载/吃撑 (实体感，重量感) */
+.gauge-capsule.over-budget {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--theme-text, #fff);
+  font-weight: 600;
+}
+
+/* ============================================================
+   Craft-room Phase 0 — 健康指示灯 (HealthDot)
+   ============================================================ */
+
+.health-dot-container {
+  position: relative;
+}
+
+.health-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  transition: transform 0.2s;
+}
+
+.health-dot:hover {
+  transform: scale(1.3);
+}
+
+.health-dot--green { background: #2ed573; }
+.health-dot--yellow { background: #ffa502; }
+.health-dot--red { background: #ff6b6b; }
+
+.health-dot-pulse {
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  animation: health-pulse 2s ease-in-out infinite;
+}
+
+.health-dot--green .health-dot-pulse { background: rgba(46, 213, 115, 0.3); }
+.health-dot--yellow .health-dot-pulse { background: rgba(255, 165, 2, 0.3); }
+.health-dot--red .health-dot-pulse { background: rgba(255, 107, 107, 0.3); }
+
+@keyframes health-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.5); opacity: 0; }
+}
+
+.health-popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: 280px;
+  background: var(--theme-bgElevated, #252836);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  z-index: 100;
+  animation: popoverFadeIn 0.2s ease;
+  overflow: hidden;
+}
+
+@keyframes popoverFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.health-popover-header {
+  padding: var(--sp-sm) var(--sp-md);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.health-status {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.health-status--green { color: #2ed573; }
+.health-status--yellow { color: #ffa502; }
+.health-status--red { color: #ff6b6b; }
+
+.health-popover-body {
+  padding: var(--sp-sm) var(--sp-md);
+}
+
+.health-stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+  font-size: 12px;
+  color: var(--theme-textSecondary);
+}
+
+.health-stat-row.warning { color: #ffa502; }
+.health-stat-row.error { color: #ff6b6b; }
+
+.health-popover-issues {
+  padding: var(--sp-sm) var(--sp-md);
+  border-top: 1px solid rgba(255,255,255,0.04);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.health-issue {
+  font-size: 11px;
+  color: var(--theme-textMuted);
+  padding: 2px 0;
+  line-height: 1.5;
+}
+
+.health-issue strong {
+  color: var(--theme-textSecondary);
+}
+
+.health-issue.muted {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+/* ============================================================
+   Craft-room Phase 2 — ValidationOverlay (验证面板)
+   ============================================================ */
+
+.validation-overlay {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  bottom: 50px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+.validation-overlay > * {
+  pointer-events: auto;
+}
+
+.validation-overlay.collapsed {
+  align-items: flex-end;
+}
+
+.validation-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  margin-right: 8px;
+  margin-top: 8px;
+  background: rgba(255, 107, 107, 0.9);
+  border: none;
+  border-radius: 8px 0 0 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  transition: all 0.2s;
+}
+
+.validation-toggle:hover {
+  background: rgba(255, 107, 107, 1);
+  transform: translateX(-4px);
+}
+
+.validation-toggle-icon {
+  font-size: 14px;
+}
+
+.validation-toggle-count {
+  min-width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.25);
+  border-radius: 9px;
+  font-size: 11px;
+}
+
+.validation-panel {
+  width: 280px;
+  max-height: calc(100vh - 120px);
+  background: var(--theme-bgElevated, #1e2130);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-right: none;
+  border-radius: var(--radius-md) 0 0 var(--radius-md);
+  box-shadow: -4px 0 24px rgba(0,0,0,0.4);
+  overflow-y: auto;
+  animation: slideInRight 0.25s ease;
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.validation-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--sp-sm) var(--sp-md);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--theme-text);
+}
+
+.validation-close {
+  background: none;
+  border: none;
+  color: var(--theme-textMuted);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.validation-close:hover {
+  background: rgba(255,255,255,0.08);
+  color: var(--theme-text);
+}
+
+.validation-gate-warning {
+  padding: var(--sp-sm) var(--sp-md);
+  background: rgba(255, 165, 2, 0.1);
+  border-bottom: 1px solid rgba(255, 165, 2, 0.2);
+  font-size: 11px;
+  color: #ffa502;
+}
+
+.validation-section {
+  padding: var(--sp-sm) var(--sp-md);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.validation-section-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--theme-textSecondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--sp-xs);
+}
+
+.validation-module-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 0;
+  font-size: 11px;
+}
+
+.validation-module-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--theme-textSecondary);
+}
+
+.validation-mini-bar {
+  width: 40px;
+  height: 3px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 1.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.validation-mini-fill {
+  height: 100%;
+  border-radius: 1.5px;
+  transition: width 0.3s;
+}
+
+.validation-mini-fill.ok { background: #2ed573; }
+.validation-mini-fill.warn { background: #ffa502; }
+.validation-mini-fill.fail { background: #ff6b6b; }
+
+.validation-percent {
+  min-width: 28px;
+  text-align: right;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--theme-textMuted);
+}
+
+.validation-percent.ok { color: #2ed573; }
+.validation-percent.warn { color: #ffa502; }
+.validation-percent.fail { color: #ff6b6b; }
+
+.validation-hint {
+  font-size: 10px;
+  color: var(--theme-textMuted);
+  padding-top: var(--sp-xs);
+}
+
+.validation-missing-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+  font-size: 11px;
+}
+
+.validation-slide-id {
+  color: var(--theme-textSecondary);
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 10px;
+}
+
+.validation-jump {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  padding: 2px;
+}
+
+.validation-jump:hover {
+  opacity: 1;
+}
+
+.validation-ok {
+  font-size: 11px;
+  color: #2ed573;
+  padding: 2px 0;
+}
+
+.validation-footer {
+  padding: var(--sp-xs) var(--sp-md);
+  font-size: 10px;
+  color: var(--theme-textMuted);
+  opacity: 0.5;
+  text-align: right;
+}
+
+/* ============================================================
+   Craft-room Phase 3 — AnnotationOverlay (Agent 批注层)
+   ============================================================ */
+
+.annotation-overlay {
+  position: relative;
+}
+
+.annotation-markers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-xs);
+  padding: 0 var(--sp-md);
+  margin-bottom: var(--sp-sm);
+}
+
+.annotation-marker {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-sm);
+  padding: var(--sp-sm) var(--sp-md);
+  background: rgba(var(--anno-color-rgb, 162, 155, 254), 0.08);
+  border-left: 3px solid var(--anno-color, #a29bfe);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 12px;
+  line-height: 1.5;
+  animation: annoFadeIn 0.3s ease;
+}
+
+@keyframes annoFadeIn {
+  from { opacity: 0; transform: translateX(-8px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.annotation-marker-icon {
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.annotation-marker-text {
+  color: var(--theme-text);
+  flex: 1;
+}
+
+.annotation-marker-rule {
+  font-size: 10px;
+  color: var(--theme-textMuted);
+  opacity: 0.6;
+  flex-shrink: 0;
+  font-style: italic;
+}
+
+/* 孤立批注区 */
+.annotation-orphaned {
+  margin: var(--sp-sm) var(--sp-md);
+}
+
+.annotation-orphaned-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  width: 100%;
+  padding: var(--sp-xs) var(--sp-sm);
+  background: rgba(255, 165, 2, 0.06);
+  border: 1px dashed rgba(255, 165, 2, 0.3);
+  border-radius: var(--radius-sm);
+  color: #ffa502;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.annotation-orphaned-toggle:hover {
+  background: rgba(255, 165, 2, 0.12);
+}
+
+.annotation-orphaned-arrow {
+  margin-left: auto;
+  font-size: 9px;
+}
+
+.annotation-orphaned-list {
+  margin-top: var(--sp-xs);
+  padding: var(--sp-sm);
+  background: rgba(255, 165, 2, 0.04);
+  border-radius: var(--radius-sm);
+}
+
+.annotation-orphaned-item {
+  display: flex;
+  gap: var(--sp-sm);
+  padding: var(--sp-xs) 0;
+  font-size: 11px;
+  color: var(--theme-textMuted);
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+.annotation-orphaned-item:last-child {
+  border-bottom: none;
+}
+
+.annotation-orphaned-msg {
+  color: var(--theme-textSecondary);
+}
+
+.annotation-orphaned-preview {
+  font-size: 10px;
+  color: var(--theme-textMuted);
+  opacity: 0.6;
+  font-style: italic;
+  margin-top: 2px;
+}

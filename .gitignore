@@ -20,6 +20,7 @@ __pycache__/
 *.avi
 *.wav
 *.mp3
+*.aac
 *.flac
 
 # 包管理锁文件 (各子项目独立安装)

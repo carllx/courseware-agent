@@ -1,0 +1,107 @@
+{
+  "version": "2.0",
+  "generated": "2026-03-22T20:55:20.304375",
+  "course": "实习指导",
+  "script": "S05_Process",
+  "theme": {
+    "bg": "#0F1923",
+    "bgSurface": "#1B2A41",
+    "bgElevated": "#243B53",
+    "bgDark": "#2D2926",
+    "primary": "#00D2D3",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#3498DB",
+    "textOnDark": "#0F1923",
+    "primaryLight": "#00D2D3",
+    "primaryMuted": "#007C7D",
+    "success": "#2ECC71",
+    "warning": "#F1C40F",
+    "error": "#FF4D4D",
+    "border": "#2A3F55",
+    "text": "#FFFFFF",
+    "textSecondary": "#A8C0D8",
+    "textMuted": "#5A7A94",
+    "primaryRgb": "0, 210, 211",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": true,
+    "fontTitle": "DM Sans",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": null,
+    "srt": null
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "S05_Process",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "**Context**: 职业生涯是一场长跑，甚至比百米冲刺更需要耐力。\n**tags**: [CareerGrowth]",
+          "srtCueIdx": 0
+        }
+      ],
+      "firstSrtCueIdx": 0
+    },
+    {
+      "id": "mod-2",
+      "title": "1. Opening",
+      "slides": [
+        {
+          "id": "S05_Title",
+          "layout": "Title",
+          "heading": "",
+          "scene": "标题页 \"过程管理与监控\"",
+          "image": null,
+          "assetExpected": null,
+          "list": null,
+          "paragraphStart": 0
+        }
+      ],
+      "paragraphs": [],
+      "firstSrtCueIdx": null
+    },
+    {
+      "id": "mod-3",
+      "title": "2. Content",
+      "slides": [],
+      "paragraphs": [],
+      "firstSrtCueIdx": null
+    },
+    {
+      "id": "mod-4",
+      "title": "2. Content",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   (TODO: Add details about log submission)",
+          "srtCueIdx": 1
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   (TODO: Add details about contacting tutors)",
+          "srtCueIdx": 2
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "QA",
+          "duration": "5 min",
+          "desc": "",
+          "text": "[ACTIVITY]\n*   **Type**: `QA`\n*   **Topic**: \"过程管理疑问解答\"\n*   **Duration**: `5 min`",
+          "srtCueIdx": null
+        }
+      ],
+      "firstSrtCueIdx": 1
+    }
+  ]
+}

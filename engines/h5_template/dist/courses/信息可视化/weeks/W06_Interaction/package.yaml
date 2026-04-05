@@ -1,0 +1,33 @@
+week: 6
+topic: 滑动揭秘：以现代滚动叙事导演数据图景
+title: 滑动揭秘：以现代滚动叙事导演数据图景
+theory_hours: 2
+practice_hours: 3
+objectives:
+- 学习 Munzner Ch11 提出的关键交互操作族（Change / Select / Navigate）
+- 了解以 GSAP / ScrollTrigger 为代表的现代滚动叙事（Scrollytelling）三层架构
+- 结合《信息可视化设计》第五章的方法论，掌握如同电影运镜般的数据叙事节奏
+- 运用动效分镜表，通过结构化 Prompt 指导 AI 搭建高完成度的参数化滚动页面
+created: 2026-02-21
+status: ready
+tags:
+- interaction-manipulate-taxonomy
+- scrollytelling-gsap-arch
+- motion-storyboard-method
+- dma-artistic
+- ch12-facets
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_打破第四面墙_从"看"数据到"玩"数据的感官觉醒.md
+- id: M02
+  src: src/M02_夺回叙事权_Scrollytelling_与电影级编导.md
+- id: M03
+  src: src/M03_运筹帷幄_动效分镜与时空编排法.md
+- id: M04
+  src: src/M04_魂穿代码_用自然语言指挥_AI_搭建_Scrollytelling_叙事空间.md
+- id: M05
+  src: src/M05_总结与预告.md

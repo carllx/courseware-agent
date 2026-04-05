@@ -1,0 +1,182 @@
+/* ============================================================
+   CoursePage — 周次列表
+   ============================================================ */
+
+.course-page {
+  min-height: 100vh;
+  background: #0f1117;
+  color: #e4e6eb;
+  overflow-y: auto;
+}
+
+.course-page-header {
+  padding: var(--sp-lg) var(--sp-xl) var(--sp-lg);
+  background: linear-gradient(180deg, #161924 0%, #0f1117 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.course-page-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin: var(--sp-sm) 0;
+}
+
+.course-page-meta {
+  font-size: 13px;
+  color: #6b6f82;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  color: #8b8fa3;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #a29bfe;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--sp-md);
+  padding: var(--sp-xl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 周次卡片 */
+.week-card {
+  display: flex;
+  gap: var(--sp-md);
+  padding: var(--sp-md) var(--sp-lg);
+  background: #1a1d27;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s ease;
+}
+
+.week-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  border-color: rgba(255,255,255,0.12);
+}
+
+.week-card-error {
+  border-color: rgba(239, 68, 68, 0.2);
+  opacity: 0.7;
+}
+
+.week-card-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.week-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.week-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: var(--sp-xs);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.week-card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-sm);
+  margin-bottom: var(--sp-xs);
+}
+
+.week-stat {
+  font-size: 11px;
+  color: #8b8fa3;
+}
+
+/* P2 #10: 信息密度 — 次要统计项默认隐藏，hover 展示 */
+.week-stat-extra {
+  display: none;
+}
+
+.week-card:hover .week-stat-extra {
+  display: inline;
+}
+
+.week-card-badges {
+  display: flex;
+  gap: var(--sp-xs);
+  margin-bottom: var(--sp-xs);
+}
+
+.week-card-error-msg {
+  font-size: 12px;
+  color: #ff6b6b;
+}
+
+.week-progress {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+}
+
+.progress-label {
+  font-size: 11px;
+  color: #8b8fa3;
+  font-variant-numeric: tabular-nums;
+  min-width: 52px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   灰盒诊断信息 (C5)
+   ============================================================ */
+
+.greybox-asset {
+  position: absolute;
+  bottom: var(--sp-sm);
+  right: var(--sp-md);
+  font-size: 10px;
+  color: var(--theme-textMuted);
+  opacity: 0.5;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   CoursePage 响应式断点
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .week-grid {
+    grid-template-columns: 1fr;
+    padding: var(--sp-md);
+  }
+
+  /* 移动端始终显示全部统计项 */
+  .week-stat-extra {
+    display: inline;
+  }
+}

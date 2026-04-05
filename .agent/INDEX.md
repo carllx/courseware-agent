@@ -82,6 +82,7 @@ graph LR
 - `validation_suite/` — 验证套件（链接/时长/语法）
 - `librarian/` — 知识枢纽查询引擎（三层漏斗：hub扫描 → search_knowledge → view_file段落）
 - `pptx-nfu-branded/` — NFU 南方学院品牌 PPTX 注入
+- `doubaotts/` — 豆包 TTS 桥接引擎（段落级动态合成 + IndexedDB 缓存）
 
 ## 全局技能包（系统级，非 .agent/ 目录内）
 

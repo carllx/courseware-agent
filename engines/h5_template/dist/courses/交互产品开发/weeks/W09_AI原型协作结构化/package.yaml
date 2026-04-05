@@ -1,0 +1,30 @@
+week: 9
+topic: AI原型协作结构化
+title: AI原型协作结构化
+theory_hours: 3
+practice_hours: 2
+objectives:
+- 理解 AI 生成代码的边界与约束
+- 掌握界面级 Prompt 结构化工程
+created: '2026-03-30'
+status: ready
+tags:
+- vibe-coding-human-ai-collaboration
+- prompt-engineering-ui
+- ai-code-generation-constraints
+- book-refactoring-ui
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_复习与导入_Vibe_Coding_与人机协同纪元.md
+- id: M02
+  src: src/M02_讲授_Prompt_工程与跟_AI_的精确沟通法.md
+- id: M03
+  src: src/M03_讲授_失控的副驾驶_AI_的六大约束边界.md
+- id: M04
+  src: src/M04_实践_实验3_驱动壳层生成.md
+- id: M05
+  src: src/M05_小结_对比与总结最佳实践.md

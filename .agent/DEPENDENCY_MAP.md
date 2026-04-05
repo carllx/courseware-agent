@@ -73,6 +73,11 @@
 | `dumptext.py` 的 `BEGIN/END` 标记格式 | `generate_course_h5.py` 的 `_build_source_map()` 正则 | 标记格式变更须同步更新源映射正则，否则 copy-locator 精度静默退化（ADR 036） |
 | 课程目录结构 `<course>/weeks/<week>/src/*.md` | `vite-plugin-h5-hot-reload.js` 的 `shouldHandle()` 正则 | 目录层级变更（如 V5→V6 重构）会静默使热重载监听失效（ADR 037） |
 | `generate_course_h5.py` 的 `--rebuild-week` CLI 参数 | `vite-plugin-h5-hot-reload.js` 的 `handleFileChange()` spawn 调用 | Python CLI 参数名变更须同步更新插件中的 args 数组（ADR 037） |
+| `validate_runner.py` 的 JSON 返回结构 | `ValidationContext.jsx` 及相关可视化组件 | 前端 Craft-room 的可视化强依赖由 `--h5-ws` 通道传来的字数、断链等数据结构（ADR 038） |
+| `tts_bridge.user.js` 的 postMessage 协议 | `doubao-tts.js` 消息路由 + `TtsSegmentContext.jsx` 状态引擎 | 桥接协议变更须三文件同步（ADR 039） |
+| `generate_course_h5.py` 的 `_compute_tts_fingerprint()` 格式 | `fingerprint.js` 的 `computeTtsFingerprint()` + IndexedDB 缓存键 | 指纹格式不一致将导致前后端缓存键永久失配（ADR 039 V-04） |
+| `engines/h5_template/vite-plugin-h5-hot-reload.js` 的 TTS 中间件 | `build/h5_preview/vite-plugin-h5-hot-reload.js`（部署快照） | **SSOT 在 engines/**，修改后须 `cp` 同步到 build/（ADR 040） |
+| `TtsSegmentContext.jsx` 的 `getTtsAudioUrl()` URL 格式 | `vite-plugin-h5-hot-reload.js` 的 TTS 音频代理正则 | URL 路径格式变更须同步代理中间件（ADR 040） |
 
 ---
 

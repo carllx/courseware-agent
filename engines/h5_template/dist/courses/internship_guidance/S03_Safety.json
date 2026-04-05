@@ -1,0 +1,407 @@
+{
+  "version": "2.0",
+  "generated": "2026-03-22T20:55:20.300441",
+  "course": "实习指导",
+  "script": "S03_Safety",
+  "theme": {
+    "bg": "#0F1923",
+    "bgSurface": "#1B2A41",
+    "bgElevated": "#243B53",
+    "bgDark": "#2D2926",
+    "primary": "#00D2D3",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#3498DB",
+    "textOnDark": "#0F1923",
+    "primaryLight": "#00D2D3",
+    "primaryMuted": "#007C7D",
+    "success": "#2ECC71",
+    "warning": "#F1C40F",
+    "error": "#FF4D4D",
+    "border": "#2A3F55",
+    "text": "#FFFFFF",
+    "textSecondary": "#A8C0D8",
+    "textMuted": "#5A7A94",
+    "primaryRgb": "0, 210, 211",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": true,
+    "fontTitle": "DM Sans",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": null,
+    "srt": null
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "S03_Safety",
+      "slides": [],
+      "paragraphs": [],
+      "firstSrtCueIdx": null
+    },
+    {
+      "id": "mod-2",
+      "title": "1. 开场：安全是底线 (Safety First)",
+      "slides": [
+        {
+          "id": "S03_Cover",
+          "layout": "Title",
+          "heading": "",
+          "scene": "标题页，严肃而温馨的风格，文案：\"安全实习，平安归来\"。",
+          "image": null,
+          "assetExpected": "S03_Safety/S03_Cover.png",
+          "list": null,
+          "paragraphStart": 0
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "同学们好。请大家先看屏幕。",
+          "srtCueIdx": 0
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在动员大会上，我们已经强调了**实习的时间逻辑**和**材料规范**。特别是**法定节假日严禁落款**这一条，这是法律红线，也是评价你职业素养的底线，请务必死记硬背下来。",
+          "srtCueIdx": 1
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天这节课，我们不谈材料，只谈**生存**。",
+          "srtCueIdx": 2
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "作为“社会人”，你们从迈出校门那一刻起，就是自己安全的第一责任人。我的任务是交给你们一份“护身符”，确保大家不仅能顺利拿学分毕业，更能平平安安地回来。",
+          "srtCueIdx": 3
+        }
+      ],
+      "firstSrtCueIdx": 0
+    },
+    {
+      "id": "mod-3",
+      "title": "2. 人身安全：防诈骗与防风险 (Personal Safety)",
+      "slides": [
+        {
+          "id": "S03_Scam_Case",
+          "layout": "Split",
+          "heading": "",
+          "scene": "昏暗背景，手机显示\"高薪内推\"，旁边是破碎钱币。文字：\"真实案例：高薪陷阱\"。",
+          "image": null,
+          "assetExpected": "S03_Safety/S03_Scam_Case.png",
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "S03_Scam_Alert",
+          "layout": "Title",
+          "heading": "",
+          "scene": "黑底红字，警示语：\"凡是入职要交钱的，99.9% 都是骗子！\"",
+          "image": null,
+          "assetExpected": "S03_Safety/S03_Scam_Alert.png",
+          "list": null,
+          "paragraphStart": 8
+        },
+        {
+          "id": "S03_Physical_Safety",
+          "layout": "Card",
+          "heading": "",
+          "scene": "三个图标警示：1. 🏠 房屋租赁（拒绝黑中介）；2. 🚗 交通出行（拒乘黑车）；3. 🌙 夜间行动（结伴/位置共享）。",
+          "image": null,
+          "assetExpected": "S03_Safety/S03_Physical_Safety.png",
+          "list": null,
+          "paragraphStart": 11
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请同学们看大屏幕。",
+          "srtCueIdx": 4
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "老师不仅关心你们的学业，更关心你们的口袋和安危。",
+          "srtCueIdx": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "去年就有个惨痛的真实案例：一位同学急于找实习，相信了网上所谓的“高薪内推”，对方要求先交两千块“保密费”和“培训费”。",
+          "srtCueIdx": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "结果呢？钱刚转过去，公司就人去楼空了。这种利用“求职焦虑”设置的陷阱，每年都在割新人的韭菜。",
+          "srtCueIdx": 7
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "这里的核心教训是：任何在入职前要求产生金钱往来的行为，都是诈骗的预警信号。",
+          "srtCueIdx": 8
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请同学们看大屏幕上的这组红色警示。",
+          "srtCueIdx": 9
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "时刻保持警惕：**正规的实习单位，绝不会以任何名义向学生收取费用。**",
+          "srtCueIdx": 10
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "凡是要求你先交钱才能入职的，无论是押金、服装费还是系统入驻费，**百分之九十九点九都是骗子**。遇到这种情况，请立即拉黑，并向我报告。",
+          "srtCueIdx": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "除了资金账户，也要注意生活半径里的陷阱。",
+          "srtCueIdx": 12
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在外租房的同学，请务必检查房源的合法性，不租住没有证件的“黑公寓”或二房东的房子；出行时，即便再急也坚决不坐“黑车”。",
+          "srtCueIdx": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "女生尽量避免深夜单独外出。你们的安全，是家人和老师最大的牵挂。",
+          "srtCueIdx": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家请看这张图标，我们总结了三个核心警示点：",
+          "srtCueIdx": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "首先是 **房屋租赁**，要坚决拒绝黑中介，确保租房合同上有正式的物权证明；",
+          "srtCueIdx": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其次是 **交通出行**，绝对不能因为图便宜或图方便去坐非法的营运黑车；",
+          "srtCueIdx": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后是 **夜间行动**，建议三人以上结伴，并且主动向密友或家长开启手机的位置共享功能。",
+          "srtCueIdx": 18
+        }
+      ],
+      "firstSrtCueIdx": 4
+    },
+    {
+      "id": "mod-4",
+      "title": "3. 紧急响应机制：黄金15分钟 (Emergency Protocol)",
+      "slides": [
+        {
+          "id": "S03_Contact_Card",
+          "layout": "List",
+          "heading": "",
+          "scene": "分类清晰的通讯录列表。分为：教学行政（卢老师）、人员管理（汪老师）、安全保卫（陈老师）。",
+          "image": null,
+          "assetExpected": "S03_Safety/S03_Contact_Card.png",
+          "list": null,
+          "paragraphStart": 1
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "虽然我们不希望意外发生，但必须做好万全的备战准备。一旦发生突发情况，比如发生了工伤、突发急病或者遇到了合同纠纷，请大家务必保持绝对冷静。",
+          "srtCueIdx": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "正如屏幕上这张联系卡所示，请现在拿出手机，我们做一个互动，存好以下三个关键号码。",
+          "srtCueIdx": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**牢记“黄金时间”原则**：",
+          "srtCueIdx": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "遇到突发事件，必须 **立即向上报告**。这里的立即，就是 **Immediately**。",
+          "srtCueIdx": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**注意：学校规定老师必须在接报后 10 分钟内上报学院。这意味着你们必须争分夺秒，第一时间联系我们！你拖延的一分钟，可能就是救援的致命缺口。**",
+          "srtCueIdx": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第一是 **教学行政类**，凡是涉及换单位、成绩认定或者学分问题的，存好卢老师的办公电话：020-6178-7811。",
+          "srtCueIdx": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第二是 **人员管理类**，如果是生病请假或者是心理压力太大了，存好汪老师的电话：020-6178-7128。",
+          "srtCueIdx": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第三是 **校园安保类**，涉及刑事或者人身威胁的紧急协调，存好陈老师电话：139-2407-6110。",
+          "srtCueIdx": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果是火灾、暴力或者重症等紧急时刻，请跳过老师，直接拨打 **110、119 或 120**。",
+          "srtCueIdx": 27
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "2 min",
+          "desc": "",
+          "text": "[ACTIVITY]\n**Type**: `Practice`\n**Duration**: `2 min`\n**Task**: “紧急救生圈”存号演练。请全体同学将屏幕上的三个号码存入手机通讯录，并分类标注。",
+          "srtCueIdx": null
+        }
+      ],
+      "firstSrtCueIdx": 19
+    },
+    {
+      "id": "mod-5",
+      "title": "4. 结语：责任与契约 (Discipline)",
+      "slides": [
+        {
+          "id": "S03_Discipline_Rule",
+          "layout": "Diagram",
+          "heading": "",
+          "scene": "纪律红线图：1. 请假 = 双重确认（企业+校内）；2. 失联 > 24H = 紧急报警。",
+          "image": null,
+          "assetExpected": "S03_Safety/S03_Discipline_Rule.png",
+          "list": null,
+          "paragraphStart": 4
+        },
+        {
+          "id": "S03_Final_Commitment",
+          "layout": "Image",
+          "heading": "",
+          "scene": "老师目送学生远行的背影或毕业典礼温馨画面。配文：\"平安实习，顺利毕业\"。",
+          "image": null,
+          "assetExpected": "S03_Safety/S03_Final_Commitment.png",
+          "list": null,
+          "paragraphStart": 8
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后，我要强调纪律。",
+          "srtCueIdx": 28
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**严禁擅自离岗。**",
+          "srtCueIdx": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "实习期间的请假，必须经过“企业导师”和“校内导师”的双重批准，不是你自己发个微信说不来就不来了。",
+          "srtCueIdx": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果失联超过24小时，学校将立即启动黄色预案，通知家长并报警寻找。",
+          "srtCueIdx": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这里我们要明确责任的边界：",
+          "srtCueIdx": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你请假，必须同时拿到企业导师和校内导师的签字或线上确认；",
+          "srtCueIdx": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一旦发生失联超过一昼夜的情况，为了你的安危，我们会启动最高等级的紧急响应。",
+          "srtCueIdx": 34
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "**Subject**: 契约与自然状态 (Contract and State of Nature)\n**Ref**: 托马斯·霍布斯《利维坦》 (Thomas Hobbes, \"Leviathan\")\n**Body**: \n政治哲学家霍布斯曾说，在没有规则约束的“自然状态”下，人与人的关系是“所有人对所有人的战争”，充满了孤独、贫困与恐惧。\n你们签署的《三方协议》和学校的纪律，本质上不是枷锁，而是一份“社会契约”。\n我们通过放弃一点点“想走就走的自由”，换取了整个社会协作体系对你的保护。\n当你处于这份契约保护之下，你就不是孤胆英雄，而是身后站着学校与法律支持的职业人。",
+          "srtCueIdx": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "同学们，实习是你们职业生涯真正意义上的起点。",
+          "srtCueIdx": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所谓职业精神，第一条就是“对自己负责”。",
+          "srtCueIdx": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "守护好自己的安全，就是守护好家人的期待。",
+          "srtCueIdx": 38
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我在这里等着你们，带着满满的职场经验与平安的承诺，回来参加毕业典礼！",
+          "srtCueIdx": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "祝大家平安通关，职场顺利！",
+          "srtCueIdx": 40
+        }
+      ],
+      "firstSrtCueIdx": 28
+    }
+  ]
+}

@@ -28,7 +28,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S07b_Paradox_of_Choice`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Scene**: 一张图，左边是给了用户 24 种果酱选择的超市货架（导致用户选择困难而放弃购买），右边是只给了 6 种经典口味的货架（购买率大幅上升）。
 > *   **Caption**: 交互设计中的"选择悖论"（Paradox of Choice）也同样适用。
 
@@ -60,7 +60,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S08b_The_Illusion_of_Control`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Scene**: 玩家在驾驶一辆过山车，过山车有一个方向盘。玩家以为自己在控制方向，但其实过山车是死死卡在铁轨上的。
 > *   **Caption**: 滚动叙事的双重隐喻：你以为你在探索，其实是被引导。
 
@@ -84,7 +84,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S09_Three_Layer_Architecture`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Scene**: 一个三明治般的架构图。最上层是白色的文本方块（Narrative Layer）；中间是透明的、布满传感器的网格（Trigger Layer）；底层是一个庞大运转的显卡或 ECharts 引擎核心（Render Layer）。
 > *   **Text**: "分解魔法：叙事、触发与渲染"
 
@@ -96,7 +96,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S09b_Narrative_Divs`
-> *   **Layout**: `Code`
+> *   **Layout**: `Split`
 > *   **Scene**: HTML 代码片段，几个带有 `class="step"` 的 div，中间用很长的 margin 或 padding 隔开，里面写着文字。
 > *   **Caption**: 叙事层本质：裹着巨大空白的文本盒子。
 
@@ -119,7 +119,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S10_Trigger_Mechanism`
-> *   **Layout**: `Code`
+> *   **Layout**: `Split`
 > *   **Scene**: 左半边是一张浏览器窗口的示意图，上面有红色的虚拟横线标记着 `start`（触发位）和 `end`；右半边是简单的一段核心 JS 代码：`ScrollTrigger.create({ trigger: ".step", onEnter: () => chart.setOption(...) })`。
 > *   **Caption**: "当文本行触碰触发线，就是魔法爆裂的时刻"
 
@@ -164,7 +164,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S11b_Sticky_CSS_Magic`
-> *   **Layout**: `Code`
+> *   **Layout**: `Split`
 > *   **Scene**: 一段极其简单的 CSS 核心机密展示：`.graphic { position: sticky; top: 0; height: 100vh; }`
 > *   **Caption**: 一行极度优雅的 CSS 魔法，锁死了渲染引擎的空间维度。
 
@@ -202,7 +202,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S13_Advanced_Trigger_Offsets`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Scene**: 一个细分的触发配置示意图，展示了 `start: "top 80%"`（提前进入预热）和 `end: "bottom 20%"`（滑出视野前收尾）控制下的过度区间规划。
 > *   **Caption**: 控制呼吸感：在出场和退场的渐进式消隐设计。
 
@@ -254,7 +254,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S15_The_Pitfalls_of_Scrollytelling`
-> *   **Layout**: `List`
+> *   **Layout**: `Split`
 > *   **Scene**: 屏幕上是一个正在播放的错误范例 GIF：鼠标微动之下，一堆花哨的条形图在疯狂翻滚旋转并放射镭射光，右上角的观众反馈是一个呕吐的表情包图标。
 > *   **List**:
 >   *   陷阱一：幽闭恐惧锁喉（极长的页面进程中，始终不给用户提供纵览全局坐标退出的权利）。
@@ -283,7 +283,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S15b_SnowFall_Autopsy`
-> *   **Layout**: `Quadrant`
+> *   **Layout**: `Grid`
 > *   **Scene**: 屏幕分为四大冰雪四分格显影板，展示此页最核心的四个递进节点截屏切片：1. 首屏全覆盖压迫感极强的静态白雪实景；2. 随着初滚动，地形等高线骨架如隐形墨水般泛出；3. 再拉半寸距，代表多名受难滑雪者迷途路径的多条血红色细箭头开始顺着崖壁等高线向上蠕动攀附；4. 在最致命的触发段落，代表终局雪崩区域扩散边界的巨大惨白色透明巨浪斑块瞬时强硬切出覆盖住 70% 的画面。
 > *   **Text**: "拉片式外科手术拆解：利用 Z 深轴重塑蒙太奇的时间与命途"
 
@@ -311,7 +311,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S17_3D_Scrollytelling_WebGL`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Scene**: 前景是一排极度缩微极简克制的经典半透黑底泛出素白色文字悬浮的独立纯解说模块框架框体。然而这区区一层薄底之下：所能窥见的无边大背景墙纸区域早已不再是哪怕绘制极其复杂精细度拉满的世界平面位图或矢量柱线：替换上来的却是一个经由显存极其粗暴暴力燃烧压榨出来的、运用跨平台 WebGL 引擎驱动的高拟真光线追踪实时全局大光照下的荒凉火星红铁氧体外地圈全景环境无死角立体大实境演播现场！
 > *   **Search**: `NASA Perseverance Mars rover landing full scrollytelling WebGL architecture`
 > *   **Caption**: 脱离画纸二维诅咒，向第四维的真·全息迈进。

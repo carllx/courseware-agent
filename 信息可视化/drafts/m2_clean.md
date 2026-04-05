@@ -25,7 +25,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S07b_Paradox_of_Choice`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Scene**: 一张图，左边是给了用户 24 种果酱选择的超市货架（导致用户选择困难而放弃购买），右边是只给了 6 种经典口味的货架（购买率大幅上升）。
 > *   **Caption**: 交互设计中的"选择悖论"（Paradox of Choice）同样适用。
 
@@ -54,7 +54,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S08b_The_Illusion_of_Control`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Scene**: 玩家在驾驶一辆过山车，过山车有一个方向盘。玩家以为自己在控制方向，但其实过山车是死死卡在铁轨上的。
 > *   **Caption**: 滚动叙事的双重隐喻：你以为你在探索，其实是被引导。
 
@@ -74,7 +74,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S09_Three_Layer_Architecture`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Scene**: 一个三明治般的架构图。最上层是白色的文本方块（Narrative Layer）；中间是透明的、布满传感器的网格（Trigger Layer）；底层是一个庞大运转的显卡或 ECharts 引擎核心（Render Layer）。
 > *   **Text**: "分解魔法：叙事、触发与渲染"
 
@@ -85,7 +85,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S09b_Narrative_Divs`
-> *   **Layout**: `Code`
+> *   **Layout**: `Split`
 > *   **Scene**: HTML 代码片段，几个带有 `class="step"` 的 div，中间用很长的 margin 或 padding 隔开。
 > *   **Caption**: 叙事层本质：裹着巨大空白的文本盒子。
 
@@ -104,7 +104,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S10_Trigger_Mechanism`
-> *   **Layout**: `Code`
+> *   **Layout**: `Split`
 > *   **Scene**: 左半边是一张浏览器窗口的示意图，上面有红色的虚拟横线标记着 `start`（触发位）和 `end`；右半边是简单的一段核心 JS 代码：`ScrollTrigger.create({ trigger: ".step", onEnter: () => chart.setOption(...) })`。
 > *   **Caption**: "当文本行触碰触发线，就是魔法爆裂的时刻"
 
@@ -165,7 +165,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 
 > [VISUAL]
 > *   **Slide**: `S12_Interaction_Fatigue`
-> *   **Layout**: `Chart`
+> *   **Layout**: `Flow`
 > *   **Scene**: 一张模拟读者心电图和注意力衰减的图表。前 3 个滚动特效，注意力达到波峰，到了第 10 个特效，注意力曲线像断崖一样跌入低谷，并配有警告图标："警惕：为了炫技而炫技，是毁灭故事最快的捷径"。
 
 如果一部电影全片两个小时全是在打碎玻璃、全是爆炸连天没有一秒钟安静对白，这就是不入流的烂片。我们需要留白。我们需要安静的呼吸节奏。
@@ -176,7 +176,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 
 > [VISUAL]
 > *   **Slide**: `S13_Small_Multiples`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Scene**: 屏幕上不是一个巨大复杂的动态折线图，而是由 50 个整整齐齐、大小如邮票般、排满屏幕网格阵列的极简迷你小折线图组成。每个图的 X 轴和 Y 轴比例完全一模一样，分别代表了美国 50 个大州。
 > *   **Text**: "重复的力量：用空间维度替换时间维度的疲劳"
 

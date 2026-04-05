@@ -14,7 +14,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03_Cover`
-> *   **Layout**: `Title`
+> *   **Layout**: `Center`
 > *   **Scene**: 标题页，严肃而温馨的风格，文案："安全实习，平安归来"。
 > *   **Asset**: ![预览](assets/slides/S03_Cover.png)
 
@@ -48,7 +48,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03_Scam_Alert`
-> *   **Layout**: `Title`
+> *   **Layout**: `Center`
 > *   **Scene**: 黑底红字，警示语："凡是入职要交钱的，99.9% 都是骗子！"
 > *   **Asset**: ![预览](assets/slides/S03_Scam_Alert.png)
 
@@ -58,7 +58,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03_Physical_Safety`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Scene**: 三个图标警示：1. 🏠 房屋租赁（拒绝黑中介）；2. 🚗 交通出行（拒乘黑车）；3. 🌙 夜间行动（结伴/位置共享）。
 > *   **Asset**: ![预览](assets/slides/S03_Physical_Safety.png)
 
@@ -75,7 +75,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03_Contact_Card`
-> *   **Layout**: `List`
+> *   **Layout**: `Split`
 > *   **Scene**: 分类清晰的通讯录列表。分为：教学行政（卢老师）、人员管理（汪老师）、安全保卫（陈老师）。
 > *   **Asset**: ![预览](assets/slides/S03_Contact_Card.png)
 
@@ -106,7 +106,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03_Discipline_Rule`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Scene**: 纪律红线图：1. 请假 = 双重确认（企业+校内）；2. 失联 > 24H = 紧急报警。
 > *   **Asset**: ![预览](assets/slides/S03_Discipline_Rule.png)
 
@@ -125,7 +125,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03_Final_Commitment`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Scene**: 老师目送学生远行的背影或毕业典礼温馨画面。配文："平安实习，顺利毕业"。
 > *   **Asset**: ![预览](assets/slides/S03_Final_Commitment.png)
 

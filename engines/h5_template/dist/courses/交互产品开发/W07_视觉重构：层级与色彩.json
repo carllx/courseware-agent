@@ -1,0 +1,3628 @@
+{
+  "version": "2.1",
+  "generated": "2026-04-05T15:08:38.186052",
+  "course": "交互产品开发",
+  "script": "W07_视觉重构：层级与色彩",
+  "theme": {
+    "bg": "#F5F0EB",
+    "bgSurface": "#FFFFFF",
+    "bgElevated": "#EDE7E0",
+    "bgDark": "#2D2926",
+    "primary": "#B85042",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#6B8FAD",
+    "textOnDark": "#F5F0EB",
+    "primaryLight": "#D4756A",
+    "primaryMuted": "#8C3A30",
+    "success": "#5B7B6F",
+    "warning": "#C9A96E",
+    "error": "#B85042",
+    "border": "#D6CFC7",
+    "text": "#2D2926",
+    "textSecondary": "#6B635C",
+    "textMuted": "#A39B93",
+    "primaryRgb": "184, 80, 66",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": false,
+    "fontTitle": "Georgia",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": null,
+    "srt": null
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "W07_视觉重构：层级与色彩",
+      "slides": [
+        {
+          "id": "第一印象",
+          "layout": "Center",
+          "text": "",
+          "heading": "",
+          "scene": "黑色背景，中间浮现一行极细的灰色文字“设计不在于添加，而在于凸显”，然后瞬间切换为对比强烈的黑白粗细排版，视觉冲击力强。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-01.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-01.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "同学们好，欢迎进入第七周的课程。",
+          "ttsFp": "60fb7ba2_16",
+          "srtCueIdx": 0,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M00_课程导览.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[PHILOSOPHY]",
+          "ttsFp": "72b56fac_12",
+          "srtCueIdx": 1,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M00_课程导览.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在之前的课程里，我们把精力放在了“骨架”和“骨肉”上。我们整理了逻辑流，砍掉了多余的“附加税”，画出了高保真线框图。但当你们把线框图交给用户时，他们可能会说：“看起来有点干瘪”或者“不够专业”。",
+          "ttsFp": "254dc9b6_97",
+          "srtCueIdx": 2,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M00_课程导览.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是因为，优秀的骨架还需要**视觉层级**的赋能。在这个阶段，设计不在于你添加了多少装饰，而在于你如何**控制用户的注意力**。",
+          "ttsFp": "86d084ba_64",
+          "srtCueIdx": 3,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M00_课程导览.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天，我们将从“直觉式”和“战术级”的角度，重构界面的视觉层级与色彩系统。",
+          "ttsFp": "e4815275_37",
+          "srtCueIdx": 4,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M00_课程导览.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        }
+      ],
+      "firstSrtCueIdx": 0,
+      "oralCharCount": 174,
+      "estimatedMinutes": 1.0,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-2",
+      "title": "模块 1: 视觉层级原理与排版基础 (约 20 分钟)",
+      "slides": [
+        {
+          "id": "真实的混沌",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "早期互联网或典型 ToB 后台系统，满屏高饱和度色块与密集文字，缺乏任何整体的排版秩序。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-02.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "认知极限的崩溃测试",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧展示 LingsCars.com 网站极度杂乱无章、色彩冲突的截图；右侧文本提炼认知过载的生理与心理机制。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-03.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-03.png"
+          ],
+          "list": [
+            "所有元素互相争夺注意力",
+            "眼球无法找到确定的视觉起点",
+            "工作记忆在瞬间被超载击穿"
+          ],
+          "paragraphStart": 7
+        },
+        {
+          "id": "层级即权力分配",
+          "layout": "Split",
+          "text": "层级，就是界面上的权力分配地图。",
+          "heading": "",
+          "scene": "深色或纯色背景下，以极具冲击力的大字号排版展示关于视觉层级的一句名言。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-04.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-04.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-04.png"
+          ],
+          "list": null,
+          "paragraphStart": 15
+        },
+        {
+          "id": "放大字号的体积灾难",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧展示单纯把字号粗暴放大的排版，元素互相排挤，行间距告急，显得拥挤笨拙；右侧展示字号较小但通过字重和对比度巧妙调整的精致高端排版。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-05.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-05.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-05.png"
+          ],
+          "list": [
+            "吞噬极度稀缺的留白呼吸空间",
+            "破坏原有的系统对齐与网格平衡",
+            "制造出“头重脚轻”的拙劣压迫感"
+          ],
+          "paragraphStart": 32
+        },
+        {
+          "id": "建立稳固的文字护城河",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "演示如何建立一套可靠的文字色彩与粗细系统。清晰地展示主文本、次文本和辅助文本的三层颜色梯队，并标注使用的标准字重。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-06.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-06.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-06.png"
+          ],
+          "list": [
+            "一级：深灰黑（主内容 / 强调的核心标题）",
+            "二级：中度灰（大段的漫长正文 / 常规描述）",
+            "三级：浅低灰（免责标签 / 辅助性时间戳）",
+            "字重武器：常规体 + 中粗体"
+          ],
+          "paragraphStart": 39
+        },
+        {
+          "id": "排版的音阶地图",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧展示无序的字号递增序列（12, 13, 14, 15...），右侧展示类似钢琴琴键的严格跳跃式字号音阶规范（12, 14, 16, 20, 24, 32...）。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-07.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-07.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-07.png"
+          ],
+          "list": [
+            "拒绝线性递增的泥潭",
+            "建立几何级的视觉落差",
+            "像钢琴定调一样确定基准字号"
+          ],
+          "paragraphStart": 50
+        },
+        {
+          "id": "留白绝不是空白",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕上并列展示一张极其拥挤密集的老式发票单据，和一张使用大量奢侈留白的现代艺术展邀请函。画面动画将邀请函中那些没有任何视觉元素的“空隙”区域高亮标注，显示它们构成了不可见的支撑力。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-08.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-08.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-08.png"
+          ],
+          "list": null,
+          "paragraphStart": 59
+        },
+        {
+          "id": "排版的建筑法则",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕左侧是一张极其复杂的现代主义派建筑骨架结构图纸，右侧是纽约地铁标志牌的骨架网格布局图。通过鲜艳的红色几何辅助线，强烈展示两者在严谨的“空间切割与分配”上的高度同构性。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-09.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-09.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-09.png"
+          ],
+          "list": [
+            "屏幕是一整块物理维度的钢筋地基",
+            "文本块与图片是房间的承重实体墙",
+            "负空间是供人眼肆意行走穿梭的走廊"
+          ],
+          "paragraphStart": 68
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位，回想一下你们曾经用过的那些极度“难用”的内部系统。",
+          "ttsFp": "b79ca87b_28",
+          "srtCueIdx": 5,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "可能是学校选课时期永远打不开的选课网站，也可能是某个几十年前开发的、堆满表格的报销后台。",
+          "ttsFp": "e930ba58_44",
+          "srtCueIdx": 6,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你第一眼看到那样的页面时，满屏密集的输入框、几百个不同颜色的按钮，同时像弹片一样向你砸来。",
+          "ttsFp": "89bdc13f_46",
+          "srtCueIdx": 7,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那是一种扑面而来的窒息感。但这种窒息最根本的原因是什么？",
+          "ttsFp": "2ae14519_28",
+          "srtCueIdx": 8,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其实并不是因为系统的功能真的“太多了”，**而是因为系统里视觉秩序的彻底坍塌**。",
+          "ttsFp": "afc4c32a_41",
+          "srtCueIdx": 9,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当界面上所有的元素都“一样大”、“一样黑”、“一样抢眼”时，最终产生的结果只有一个：什么都不突出，一切都变成了刺耳的噪音。",
+          "ttsFp": "a4964aba_61",
+          "srtCueIdx": 10,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 19,
+          "srcLEnd": 19
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "英国租车网站 LingsCars.com 被 UX 业界戏称为“世界上最疯狂的网站”。\n它的界面充斥着高饱和度的冲突色彩、几十个闪烁的 GIF 动画，甚至有自动播放的嘈杂音效。\n从认知心理学和交互设计的角度看，这是一个难得的“感官与信息完全过载”实体标本。它直接突破了人类大脑处理视觉信号的阈值。",
+          "ttsFp": "c431cb6c_148",
+          "srtCueIdx": 11,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 21,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看看左侧这张被称为视觉灾难的截图。",
+          "ttsFp": "42860acf_17",
+          "srtCueIdx": 12,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 38,
+          "srcLEnd": 38
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多时候，新手设计师看到这样的页面，只会轻蔑地用一秒钟评价一句“太丑了”。",
+          "ttsFp": "72cd05ab_37",
+          "srtCueIdx": 13,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这绝不仅仅是美与丑的辩论赛。这是设计师彻底放弃了作为主导者，对用户眼球的“引导权”。",
+          "ttsFp": "e9b541c6_43",
+          "srtCueIdx": 14,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 40,
+          "srcLEnd": 40
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "人类大脑在处理视觉信息时，极度依赖于环境提供的优先级暗示。",
+          "ttsFp": "83444688_29",
+          "srtCueIdx": 15,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当视线落在一个屏幕上，如果所有的信息都在以最高分贝尖叫着“看我！先扫码！先点这里！”，大脑的保护机制就会被强制触发。",
+          "ttsFp": "04b62ff1_58",
+          "srtCueIdx": 16,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在心理学上，这被称为**认知过载 (Cognitive Overload)**。",
+          "ttsFp": "f97dfdac_40",
+          "srtCueIdx": 17,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你原本用来执行“租赁一辆红色轿车”这个核心任务的工作记忆，在不到一秒钟的时间内，就被这片混沌彻底击穿了，导致决策瘫痪。",
+          "ttsFp": "d57d53a9_59",
+          "srtCueIdx": 18,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以，我们需要引入一个所有专业级产品设计都绕不开的核心概念——**视觉层级 (Visual Hierarchy)**。",
+          "ttsFp": "ecb4f69f_59",
+          "srtCueIdx": 19,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "视觉层级绝对不是一门玄学，也不是所谓艺术家独有的直觉。",
+          "ttsFp": "93564872_27",
+          "srtCueIdx": 20,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 57,
+          "srcLEnd": 57
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它是一套非常严密和残酷的权力分配系统。",
+          "ttsFp": "b2bff30e_19",
+          "srtCueIdx": 21,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它明确且强硬地规定了——用户的眼睛必须先落在哪儿，停留多久，然后再顺着斜谷滑向哪里。",
+          "ttsFp": "cc82c1ce_42",
+          "srtCueIdx": 22,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "有了极其清晰的视觉层级，即使面对数量庞大的复杂工程数据，一片疯狂喧哗的广场，也能立刻变成秩序井然的交响音乐厅。",
+          "ttsFp": "83bce6b1_55",
+          "srtCueIdx": 23,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们根本不需要去为了所谓的“极简主义”，粗暴地砍掉那些高频且必要的功能。",
+          "ttsFp": "f86bc3a5_36",
+          "srtCueIdx": 24,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 61,
+          "srcLEnd": 61
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们要做的不是删除，而是让那些次要信息，学会“闭嘴退后”。",
+          "ttsFp": "a9a2af77_29",
+          "srtCueIdx": 25,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "认知科学表明，人在阅读屏幕时，眼球绝不是像冰壶在冰面上滑动那样平顺。\n我们的眼球是以剧烈的、跳跃式的方式移动的，这种现象在生理学上叫做“眼跳 (Saccades)”。\n两次眼跳之间短暂的停顿（注视阶段），才是大脑真正吸收信息的时刻。\n优秀的视觉层级，就是在为用户的眼跳提前铺设好一块块极其稳固的“踏脚石”。",
+          "ttsFp": "6fd67b0e_153",
+          "srtCueIdx": 26,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 65,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "试着体会一下阅读复杂报表时的生理感受。",
+          "ttsFp": "220d04c5_19",
+          "srtCueIdx": 27,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "认知科学家早就发现，人类在看屏幕时，眼球根本不是在按部就班地平顺滑行。",
+          "ttsFp": "4d1b5c63_35",
+          "srtCueIdx": 28,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们的眼睛其实在飞起、落下、剧烈地左右跳跃，这在生理学上叫做“眼跳”。",
+          "ttsFp": "02363db7_35",
+          "srtCueIdx": 29,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 73,
+          "srcLEnd": 73
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "只有在跳跃中间停顿的那一瞬间，你的大脑才开始以毫秒为单位“下载”眼前的视觉信息。",
+          "ttsFp": "0a91c426_40",
+          "srtCueIdx": 30,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以，所谓的建立视觉层级，就是在漫无边际的白色像素海洋中，为用户的眼跳路径，提前精准铺设好一块块无比稳固的“踏脚石”。",
+          "ttsFp": "ea050e0f_59",
+          "srtCueIdx": 31,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 75,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果界面层级混乱，那么每一次眼跳都会变成一次疲惫的踩空。",
+          "ttsFp": "2b3a939e_28",
+          "srtCueIdx": 32,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 76,
+          "srcLEnd": 76
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "既然层级这么重要，那么在日常开发中，我们到底该怎么着手建立这种权力的分配呢？",
+          "ttsFp": "53a8d8a4_38",
+          "srtCueIdx": 33,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多研发工程师或是刚入行的视觉新兵，他们的首选本能反应几乎都是一致的：",
+          "ttsFp": "e405ea53_35",
+          "srtCueIdx": 34,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 79,
+          "srcLEnd": 79
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "“这段文字超级重要？很简单，那我们就把这行字的字号放大一倍！”",
+          "ttsFp": "c5ed2048_31",
+          "srtCueIdx": 35,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 80,
+          "srcLEnd": 80
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "听起来似乎合情合理，但在真实的复杂工业界面里，这是最致命、最廉价的坏习惯。",
+          "ttsFp": "163b2abf_37",
+          "srtCueIdx": 36,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 81,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你只知道“放大字号”这一招，你的系统界面很快就会变成一堆恐怖巨无霸的合集。",
+          "ttsFp": "ccebbea3_39",
+          "srtCueIdx": 37,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 95,
+          "srcLEnd": 95
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你要知道，字号越大，它所占用的版面物理体积就越贪婪。",
+          "ttsFp": "a00bf5d0_26",
+          "srtCueIdx": 38,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在一个以像素为基准的数字系统里，屏幕上的留白空间是极度稀缺且昂贵的资源。",
+          "ttsFp": "bdbb652d_36",
+          "srtCueIdx": 39,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 97,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那些被强行放大两三倍的字体，会无情地吞噬掉周围按钮的呼吸空间，毫不留情地撞碎你前期精心设定的模块网格对齐线。",
+          "ttsFp": "8d5a70de_54",
+          "srtCueIdx": 40,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最终，除了制造出一种“头重脚轻”的严重压迫感之外，它完全无法传递出任何精美的专业气息。",
+          "ttsFp": "d32b4351_43",
+          "srtCueIdx": 41,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 99,
+          "srcLEnd": 99
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那么，不用傻大黑粗的字号，我们拿什么来建立不容挑战的视觉层级？",
+          "ttsFp": "8f513b31_31",
+          "srtCueIdx": 42,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 101,
+          "srcLEnd": 101
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正高级的玩法，是克制地控制另外两个精密杠杆：**字重 (Weight)** 和 **对比度 (Contrast)**。",
+          "ttsFp": "e752252c_60",
+          "srtCueIdx": 43,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在现代排版的基础第一条军规里，如果你想快速建立专家级的文本秩序，你只需要牢牢咬住“三加二”原则。",
+          "ttsFp": "069c9839_48",
+          "srtCueIdx": 44,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那就是：**三级颜色对比度**，加上绝对不超过**两级的字重变化**。",
+          "ttsFp": "a94dbc6b_35",
+          "srtCueIdx": 45,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "右侧的图很好地说明了这一点。",
+          "ttsFp": "241891d2_14",
+          "srtCueIdx": 46,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 120,
+          "srcLEnd": 120
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第一级绝对对比度，也就是最深的黑色或接近于黑的深灰黑，它是页面绝对的司令官。只用来扛起当前最重要的标题，和用户亲自输入的核心数据。",
+          "ttsFp": "716b72ee_65",
+          "srtCueIdx": 47,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第二级中间对比度，则需要明显地向后退让一步。它通常是极其舒适柔和的中度灰，专门作为大段漫长阅读区的正文，确保人的眼睛在长时间扫视时不会感到刺痛。",
+          "ttsFp": "063ca99b_72",
+          "srtCueIdx": 48,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第三级次级对比度，必须要浅得足以彻底隐身。那些密密麻麻的法律声明、无关紧要的副级标签、或者仅仅作为后台记录的时间戳，就该安静地待在最底层的阴影里。",
+          "ttsFp": "e9087256_73",
+          "srtCueIdx": 49,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 123,
+          "srcLEnd": 123
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在字重的使用上，果断抛弃那些花里胡哨的特粗体或是极细体。",
+          "ttsFp": "48775111_29",
+          "srtCueIdx": 50,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 125,
+          "srcLEnd": 125
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "把武器库精简到极致，只用最为干净的“常规体 (Regular)”和态度强硬的“中粗体 (Medium 或 Semibold)”，这就足够让你从容应对至少 90% 的页面战场布局了。",
+          "ttsFp": "5f9527ff_90",
+          "srtCueIdx": 51,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 126,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在确立了色彩对比度和字重的核心统帅地位之后，我们再回过头来看字号。",
+          "ttsFp": "4e6980f2_33",
+          "srtCueIdx": 52,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 128,
+          "srcLEnd": 128
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "难道字号就完全不重要了吗？当然不是。",
+          "ttsFp": "d454ce07_18",
+          "srtCueIdx": 53,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但是，如果你把界面的字号设置当作一个可以在 `12px` 到 `100px` 之间随意且无缝拉扯的数字滑块，那你就大错特错了。",
+          "ttsFp": "c7fe3636_63",
+          "srtCueIdx": 54,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "专业级极其优秀的排版系统，绝对不是一条平滑过渡的均匀直线，而是像钢琴一样的**离散音阶 (Modular Scale)**。",
+          "ttsFp": "a3f1cf2e_62",
+          "srtCueIdx": 55,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 144,
+          "srcLEnd": 144
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家想象一下，如果一台钢琴的琴键之间没有任何固定的半音距离，而是可以随意滑动的无极音调，那你永远无法弹奏出和谐动听的宏大和弦。",
+          "ttsFp": "a61c14e2_63",
+          "srtCueIdx": 56,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 145,
+          "srcLEnd": 145
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "屏幕排版也是一模一样的物理道理。如果你在同一个复杂页面里，非常随意且不加节制地混用了 `13px`、`14px` 和 `15px` 的字号，",
+          "ttsFp": "1865efc5_70",
+          "srtCueIdx": 57,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 146,
+          "srcLEnd": 146
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "用户的眼睛根本无法在极速的扫视中辨认出这 1 像素微小的结构差异。这种平庸至极的线性递增，只会带来视觉上的高度粘连和潜意识里的极度混乱感。",
+          "ttsFp": "7cd0bc74_69",
+          "srtCueIdx": 58,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 148,
+          "srcLEnd": 148
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们需要在系统中强制建立一种基于几何级数的残暴跳跃感。比如从 `16px` 直接粗暴地跳跃到 `20px`，再以更大的跨度跳跃到 `24px` 和 `32px`。",
+          "ttsFp": "0ee373d3_81",
+          "srtCueIdx": 59,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 149,
+          "srcLEnd": 149
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "只有当你极度刻意地人为拉开这种物理落差，层级的绝对权力才能被瞬间清晰地让大脑感知到。",
+          "ttsFp": "c362e9c7_42",
+          "srtCueIdx": 60,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 150,
+          "srcLEnd": 150
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就好比一支军队里的军衔制度，列兵的肩章和将军的星星之间，必须要有哪怕隔着五十米的漆黑操场，也能一眼看透的不可逾越的标识鸿沟。",
+          "ttsFp": "17e0e901_63",
+          "srtCueIdx": 61,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 151,
+          "srcLEnd": 151
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但有了这些大小不一、粗细不同的所有文本语言块之后，我们到底该怎么把它们完美拼装在一张坚硬的屏幕玻璃上呢？",
+          "ttsFp": "9c70d141_52",
+          "srtCueIdx": 62,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 153,
+          "srcLEnd": 153
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就要非常郑重地引入现代排版艺术中最高级，但也最容易被所有新手甚至部分资深系统工程师完全忽略的核心概念——**负空间 (Negative Space)**。",
+          "ttsFp": "2966e539_78",
+          "srtCueIdx": 63,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 154,
+          "srcLEnd": 154
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "绝大多数从后端转行来做界面的开发工程师，脑子里通常都带着一个根深蒂固且极具破坏性的执念：",
+          "ttsFp": "f313043e_44",
+          "srtCueIdx": 64,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 164,
+          "srcLEnd": 164
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果屏幕上暂时有一块空白的区域，那它就是一种极大的“浪费”或者说“功能上的未完成”。",
+          "ttsFp": "b78cb3be_42",
+          "srtCueIdx": 65,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 165,
+          "srcLEnd": 165
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "于是他们的直觉是，必须赶紧拿点什么线框、横线、或者是刺眼的底色，把它彻底填满。",
+          "ttsFp": "e460c4ef_39",
+          "srtCueIdx": 66,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 166,
+          "srcLEnd": 166
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是一个极其沉重的认知灾难。",
+          "ttsFp": "650b568f_14",
+          "srtCueIdx": 67,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 168,
+          "srcLEnd": 168
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在专业水准的视觉层级构建中，留白（或者在更严肃的学术语境里我们称之为“负空间”），从来都不是没有内容的、廉价的“纯背景板”。",
+          "ttsFp": "c7528587_62",
+          "srtCueIdx": 68,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 169,
+          "srcLEnd": 169
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "恰恰完全相反，留白它本身就是一种极其强烈的、充满进攻性肌肉与结构张力的物理建筑材料。",
+          "ttsFp": "8661c1c6_42",
+          "srtCueIdx": 69,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 170,
+          "srcLEnd": 170
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就好比在贝多芬的命运交响曲中，**休止符也是乐谱中最震撼灵魂、最具精神爆发力的一部分**。",
+          "ttsFp": "bb64b349_46",
+          "srtCueIdx": 70,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 171,
+          "srcLEnd": 171
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你强行删除了那些长达几秒的休止符，让所有乐器无缝发声，任何伟大的史诗交响乐都会在瞬间沦为持续不断、令人发疯的刺耳防空警报。",
+          "ttsFp": "77f6b7b1_63",
+          "srtCueIdx": 71,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 172,
+          "srcLEnd": 172
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "回顾 1970 年的纽约，当时整个肮脏地下的城市地铁导视系统完全是一场史诗级别的噩梦。\n几十种完全不同家族的随意字体、毫无设计规律的大小、随心所欲的粘贴位置，直接导致每天成千上万的无辜乘客，在这座庞大冰冷的地下迷宫中绝望地迷路失踪。\n20 世纪最伟大的现代主义设计宗师马西莫·维涅里 (Massimo Vignelli) 在接手这个烂摊子后，他用一种近乎独裁的残酷纪律彻底重塑了这一切。\n他只允许使用唯一的、冷酷无情的一种字体（Helvetica），并制定了严格到毫米级别的刚性系统网格和恐怖的留白限制规范。\n他强行用那些不可见的、被重重奢侈留白包裹的底层结构网格，将杂乱无章的站点信息暴力切割成了大脑可以瞬间无压消化的几何区块。\n这个颠覆性的设计直接沿用至今，成为了整个人类信息设计历史上的终极精神图腾。\n维涅里生前有一句非常著名的狂妄格言：“网格就像是贴身的内衣，你作为文明人每天都必须穿着它，但你绝对不应该让外人看到它的存在。”",
+          "ttsFp": "9f319185_417",
+          "srtCueIdx": 72,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 174,
+          "srcLEnd": 181
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大师维涅里的这句话，非常精准且冷酷地点出了整个排版学最核心、最血腥的本质特征。",
+          "ttsFp": "220bd73c_39",
+          "srtCueIdx": 73,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 195,
+          "srcLEnd": 195
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当我们在编写网页前端的 CSS 样式代码，给某一段枯燥文字辛苦设置 `Margin` (外边距) 或者是 `Padding` (内边距) 的时候，",
+          "ttsFp": "5c601855_73",
+          "srtCueIdx": 74,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 196,
+          "srcLEnd": 196
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们绝对不是像蒙着眼睛一样，在极其随意地敲击键盘上的像素数字滑块。我们是在屏幕上**真实地建造一条条虚拟的深邃走廊**。",
+          "ttsFp": "91b030e4_60",
+          "srtCueIdx": 75,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 197,
+          "srcLEnd": 197
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就精准回到了底层认知科学的基础：",
+          "ttsFp": "19145056_17",
+          "srtCueIdx": 76,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 199,
+          "srcLEnd": 199
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "格式塔心理学中鼎鼎大名的“邻近性原则 (Law of Proximity)”明确地告诉我们，人类的大脑本身就是一个极其慵懒的模式识别黑盒机器。",
+          "ttsFp": "e4306fdb_71",
+          "srtCueIdx": 77,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 200,
+          "srcLEnd": 200
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当屏幕上的两个元素距离靠得足够近时，大脑根本就不需要唤醒高能耗的大脑皮层参与逻辑计算，",
+          "ttsFp": "f42316d9_43",
+          "srtCueIdx": 78,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 201,
+          "srcLEnd": 201
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "视觉神经就会像巴甫洛夫的狗听到低音铃声一样，产生条件反射般地直接认定：“不管它们长什么样，这两个东西绝对是牢不可破的同一伙人”。",
+          "ttsFp": "b8d79ec7_64",
+          "srtCueIdx": 79,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 202,
+          "srcLEnd": 202
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "反过来，如果你想要将界面上两个完全不同功能组的层级，比如一个极其危险、能瞬间清空用户所有工作数据的“毁灭性删除”按钮，和一个极其常规稳妥的“下一步保存”按钮彻底物理隔离开，",
+          "ttsFp": "319f23f0_86",
+          "srtCueIdx": 80,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 204,
+          "srcLEnd": 204
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你手里最有效、最安全的防御武器，绝对不应该只是一根生硬无比的浅灰色像素分割线条。",
+          "ttsFp": "4f70e571_40",
+          "srtCueIdx": 81,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 205,
+          "srcLEnd": 205
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "因为任何多余的线条实体，它本身也是一种抢夺视网膜注意力的恶性视觉噪音污染。",
+          "ttsFp": "3c70b49c_37",
+          "srtCueIdx": 82,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 206,
+          "srcLEnd": 206
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正高级的、令人窒息的大师手笔是：你应该大刀阔斧地使用大面积的、不可见的昂贵负空间，在危险组和安全组之间，毫不留情地挖出一条又深又宽、足以立刻淹没所有错误操作的致命安全护城河。",
+          "ttsFp": "1640aacc_88",
+          "srtCueIdx": 83,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 208,
+          "srcLEnd": 208
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你赋予的留白越是奢侈大方，这道视觉上的层级物理界限就越发森严不可侵犯。",
+          "ttsFp": "a2029ddf_35",
+          "srtCueIdx": 84,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 209,
+          "srcLEnd": 209
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后，在这个关于严苛的基础排版原理的第一个模块正式下课结束之前，请各位务必将这条极为反常识的终极铁律深深刺进大脑的认知区域里。",
+          "ttsFp": "39c4c6bb_63",
+          "srtCueIdx": 85,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 211,
+          "srcLEnd": 211
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "数字界面上的每一个最终被显卡渲染出来的像素，都必须随时准备为了降低普通用户的毫秒级认知摩擦而光荣牺牲。\n当我们在日常开发现场常常挂在嘴边，艳羡地谈论那些所谓的硅谷顶级大厂里“高大上”的产品呼吸感与晶莹剔透的质感时，\n我们实际上真正仰望和谈论的，是在用极其克制冷血的色彩对比度、绝对毫不妥协的底层物理几何网格、以及大面积堪比黄金般昂贵的奢侈负空间，\n去像对待早产的婴儿一样，小心翼翼地精心呵护和拼死保卫用户大脑里那无比脆弱、稀缺的瞬时工作记忆容量。",
+          "ttsFp": "e54bde34_223",
+          "srtCueIdx": 86,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 213,
+          "srcLEnd": 217
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "只有当你的产品骨架里，极其安静但却有力地流淌着这样不讲情面、近乎机器一般的严格秩序时，",
+          "ttsFp": "f4c82544_43",
+          "srtCueIdx": 87,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 220,
+          "srcLEnd": 220
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你的整个界面，才算是刚刚穿上那层隐形的数字盔甲，拥有了真正属于顶级软件工程师的工业灵魂。",
+          "ttsFp": "4171481d_44",
+          "srtCueIdx": 88,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M01_视觉层级原理与排版基础.md",
+          "srcLStart": 221,
+          "srcLEnd": 221
+        }
+      ],
+      "firstSrtCueIdx": 5,
+      "budgetChars": 3600,
+      "oralCharCount": 3910,
+      "estimatedMinutes": 21.7,
+      "fillRatio": 1.09
+    },
+    {
+      "id": "mod-3",
+      "title": "模块 2: 层级实战策略 (约 20 分钟)",
+      "slides": [
+        {
+          "id": "强调的悖论",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕左侧展示一个满是红字和加粗字体的报警面板，毫无重点；右侧通过动画演示：将原本所有明亮的菜单项和外框全部剥离颜色洗淡，只留下一个目标高亮，重点瞬间锐利凸显。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-10.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-10.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-10.png"
+          ],
+          "list": [
+            "反向弱化：为了强调而退让",
+            "剥夺竞争者的视觉声量",
+            "大合唱中唯一的独唱者"
+          ],
+          "paragraphStart": 3
+        },
+        {
+          "id": "鸡尾酒会效应",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一张复古的纽约晚宴老照片，人群喧闹模糊，但中心焦点对准一个正在回头聆听的人类剪影，周围环境被极度暗角虚化，完美刻画出选择性注意力的开启瞬间。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-11.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-11.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-11.png"
+          ],
+          "list": null,
+          "paragraphStart": 11
+        },
+        {
+          "id": "标签后置原则",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧展示充满了形如“Email: abc@xyz.com”、“Status: Active”字样的“键值对”生硬枯燥堆砌；右侧展示抹掉一切多余标签，仅靠数据本身排版本身自证的清爽界面（如小徽章、不同字体强弱区分）。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-12.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-12.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-12.png"
+          ],
+          "list": [
+            "拒绝机械的研发键值对思维",
+            "数据格式本身即是自解释声明",
+            "让真实数据成为唯一的舞台主角"
+          ],
+          "paragraphStart": 16
+        },
+        {
+          "id": "后置标签的视觉物理降级",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "在浅色底图上，极其直观地演示如何冷酷处理那些必须保留的顽固表头标签。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-13.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-13.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-13.png"
+          ],
+          "list": [
+            "极限缩小物理字号尺寸",
+            "颜色洗脱至濒死边缘的浅低灰",
+            "全面强行卸载所有加粗骨骼装甲"
+          ],
+          "paragraphStart": 32
+        },
+        {
+          "id": "语义与视觉的物理剥离",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "动画演示 HTML 底层语义标签（H1-H6）与最终渲染视图大小的强行物理剥离。左侧代码展示使用 `h1`，右侧终端的视觉屏幕上却把这个标题压缩得极小甚至变淡，反而是下方卡片里的正文活动使用了大号极其醒目的加粗字体。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-14.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-14.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-14.png"
+          ],
+          "list": [
+            "语义标签仅服务于无脑机器爬虫与视障设备",
+            "视觉层级必须且只服务于人类视网膜",
+            "坚决用铁腕打破“H1就必须全场最大”的石器时代教条"
+          ],
+          "paragraphStart": 35
+        },
+        {
+          "id": "寻找屏幕上的真实热区",
+          "layout": "Screenshot",
+          "text": "",
+          "heading": "",
+          "scene": "一张极其庞大、充满图表数据的企业后台监控面板截图，用高对比度的红色眼动追踪热区图 (Heatmap) 覆盖在上方，用最冰冷的数据证明人类真正的注意力焦点完全集中在数据跳动区和核心交互按钮上，而不是顶部高高在上的巨型 H1 标题。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-15.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-15.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-15.png"
+          ],
+          "list": null,
+          "paragraphStart": 45
+        },
+        {
+          "id": "权重与对比度的无情跷跷板",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧展示一个极度抢眼、重量惊人的纯黑实心重型保存图标紧挨着极其纤细娇弱的浅灰色正文文本，两者显得极其割裂与违和；右侧展示将这个实心图标强制洗淡成浅低灰色后，它原本庞大的物理重量感瞬间被抵消，与旁边纤细的正文达成了视觉上令人惊叹的完美机械平衡。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-16.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-16.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-16.png"
+          ],
+          "list": [
+            "像素的物理表面积即是绝对视觉重量",
+            "图标面积溢出惩罚：果断降低色彩对比度",
+            "细微边框存在感崩塌：强制增加物理厚度"
+          ],
+          "paragraphStart": 50
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "上一讲，我们给界面穿上了严格遵守建筑学网格和色彩对比度法则的无形盔甲。",
+          "ttsFp": "d75233d2_35",
+          "srtCueIdx": 89,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 5,
+          "srcLEnd": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你把所有的文字和负空间都收拾得像瑞士名表一样精确严密之后，你以为这就结束了吗？",
+          "ttsFp": "703588c5_40",
+          "srtCueIdx": 90,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 6,
+          "srcLEnd": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "不。有了坚不可摧的基础骨架，我们才刚刚拿到进入残酷真实战场的入场券。接下来，我们要面对具体的实战战术。",
+          "ttsFp": "63ef792a_51",
+          "srtCueIdx": 91,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 7,
+          "srcLEnd": 7
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "战术一：**反向弱化。也就是强调的悖论。**",
+          "ttsFp": "6509af67_22",
+          "srtCueIdx": 92,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在几乎所有新晋全栈开发工程师或者初级产品经理的心智模型里，如果想要强调某个新上线的促销功能，或者是某个极度危险的删除按钮，他们的第一直觉永远是高度同质化的：",
+          "ttsFp": "652348b2_78",
+          "srtCueIdx": 93,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "“把它搞大！把它变红！给它玩命加粗！”",
+          "ttsFp": "cc9d5e93_19",
+          "srtCueIdx": 94,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在没有任何干扰元素的单一页面真空试验场里，这招可能有效。但在一个挤满了七八十个控件和多重复杂表单的真实后台 Dashboard 里，这也是一种最愚蠢的做法。",
+          "ttsFp": "6344f977_78",
+          "srtCueIdx": 95,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 25,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你界面上所有的元素都在极度绝望地大喊大叫的时候，你继续用尽全力去拉高某一个按钮的物理音量，只会让整个场面的混乱指数呈几何级数上升，变成一场极其可怕的声学灾难。",
+          "ttsFp": "5fb8c090_80",
+          "srtCueIdx": 96,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 26,
+          "srcLEnd": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正绝顶聪明的做法，是极其冷静地反其道而行之。",
+          "ttsFp": "68093752_23",
+          "srtCueIdx": 97,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 28,
+          "srcLEnd": 28
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你觉得主角不够突出的时候，请不要继续盲目去加强你的主角，而是转身去**冷酷地弱化所有试图与主角竞争注意力的庞大配角阵营**。",
+          "ttsFp": "bb39cf04_63",
+          "srtCueIdx": 98,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "认知心理学中有一个极为经典的人类生理现象，叫做“鸡尾酒会效应 (Cocktail Party Effect)”。\n试着想象你在一个几百人同时喧哗狂饮的舞会上，整个环境的底噪震耳欲聋。但如果突然有人在几十米开外，用非常微弱但完全清晰的声音轻轻叫了一声你的名字，你的大脑能够在几毫秒内瞬间过滤掉几百人的巨大轰鸣，像雷达一样精确定位到那个声音。\n大脑之所以能完成这项奇迹，靠的根本不是那个呼喊的声音分贝有多大，而是大脑瞬间主动开启了防御性的“选择性过滤”底层的神经抑制机制，把所有其他无关的噪音强制判定为背景音。",
+          "ttsFp": "880efb97_253",
+          "srtCueIdx": 99,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 31,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在界面排版构图上，我们要做的就是人为地制造出这种强大的“神经抑制过滤”。",
+          "ttsFp": "78b2c0c2_36",
+          "srtCueIdx": 100,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "打个比方，一个常见的左侧导航侧边栏，你觉得当前处于激活状态的菜单项不够明显？千万不要去给它加刺眼的红框或者荧光底色。",
+          "ttsFp": "b5615d9e_58",
+          "srtCueIdx": 101,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "去把那十几个没有被激活的同辈普通菜单项揪出来，统统扒掉它们身上深灰色的厚重背景图层，把它们的字重残暴地降到最薄的常规体，把颜色无情地洗淡成极其微弱可怜的中度灰。彻底剥夺它们的视觉物理声量，让它们老老实实地退却到后方的黑暗阴影里。",
+          "ttsFp": "e2d73db3_114",
+          "srtCueIdx": 102,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一退一进之间，目标元素甚至都不需要增加哪怕区区一像素的面积，就能像暗夜里的一根火柴一样，极其自然、且锐利无比地刺痛视网膜凸显出来。",
+          "ttsFp": "a867a7ff_65",
+          "srtCueIdx": 103,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是属于高阶架构大师的实战绝密心法：**通过无情消灭周围的竞争者，来建立界面上的独裁统治**。",
+          "ttsFp": "e07a3cda_48",
+          "srtCueIdx": 104,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "战术二：**标签后置原则 (Labels Are a Last Resort)。**",
+          "ttsFp": "026d25c5_42",
+          "srtCueIdx": 105,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 62,
+          "srcLEnd": 62
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果说有什么东西是让一个精心设计的界面瞬间看起来像个极其枯燥无聊的“九十年代数据库后台”的罪魁祸首，那就是泛滥成灾的“字段标签”。",
+          "ttsFp": "ef1586f7_65",
+          "srtCueIdx": 106,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多全栈工程师在写前端页面的时候，大脑内存里装的完全还是后端的 JSON 或者是关系型数据库表中的“键值对 (Key-Value)”底层映射逻辑。",
+          "ttsFp": "525030b8_73",
+          "srtCueIdx": 107,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 65,
+          "srcLEnd": 65
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一旦这种粗暴的逻辑直接物理反映到 UI 界面上，就变成了无休止的、极其枯燥的流水账：",
+          "ttsFp": "6417670e_42",
+          "srtCueIdx": 108,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "“邮箱：张三@公司.com”",
+          "ttsFp": "aa089a91_14",
+          "srtCueIdx": 109,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "“产品单价：$19.99”",
+          "ttsFp": "f68e025a_13",
+          "srtCueIdx": 110,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "“所属部门：云端平台架构部”",
+          "ttsFp": "4ba14e8b_14",
+          "srtCueIdx": 111,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是一个极其偷懒且极度落后的视觉翻译过程。",
+          "ttsFp": "48ae8210_21",
+          "srtCueIdx": 112,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在真正的顶级视觉层级划分里，**标签从来都不应该成为你的默认选择**。它是你在穷尽了绝大多数的排版解构手段之后，走投无路迫不得已才动用的最后一道防线。",
+          "ttsFp": "de929fef_75",
+          "srtCueIdx": 113,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为什么？因为对于人类那经历了百万年进化的极其敏锐的模式识别能力来说，很多现代数据格式本身，就是极其强烈的、不可磨灭的自解释声明。",
+          "ttsFp": "09fdb98b_64",
+          "srtCueIdx": 114,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 73,
+          "srcLEnd": 73
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一串中间带着非常独特 `@` 符号的英文字符串，屏幕前任何人只要扫一眼就知道那绝对是邮箱；",
+          "ttsFp": "405df845_45",
+          "srtCueIdx": 115,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一串最前头挂着显眼 `$` 符号的阿拉伯数字，哪怕是六七岁的小孩都知道那是一张价签。",
+          "ttsFp": "7f34e1bc_42",
+          "srtCueIdx": 116,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 75,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这类拥有强烈格式自证特性的数据前面，强行加上极其生硬的冒号和六角黑字的标签前缀，就像是你极其可笑地在一个真苹果上用马克笔刻上“这是一个苹果”一样荒谬绝伦。",
+          "ttsFp": "b6930a70_78",
+          "srtCueIdx": 117,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 77,
+          "srcLEnd": 77
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这些冗杂的多余标签，就像是一大盆极其粘稠恶心的泥浆，死死地糊住了用户试图快速扫视有效数据的黄金视线。",
+          "ttsFp": "f6a7063a_50",
+          "srtCueIdx": 118,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果有些特定的垂直业务数据，确实需要标签才能辨认呢？比如一个内部仓库报表里的数字 `12`。",
+          "ttsFp": "70ed563e_46",
+          "srtCueIdx": 119,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 80,
+          "srcLEnd": 80
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最高级的处理办法是把它们极其平滑地融合进人类的自然语言流里，写成“库存当前还剩 12 件”。",
+          "ttsFp": "72509cf0_46",
+          "srtCueIdx": 120,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 81,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果在极其密集的专业比对表格里，不得不保留呆板的表头标签矩阵，那么请你务必对这些辅助性的标签进行最严酷的“视觉降级”残酷处理。",
+          "ttsFp": "d6cff287_63",
+          "srtCueIdx": 121,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "狠狠地缩小它们的物理字号、把全黑刺目的文字疯狂洗脱到边缘濒死的浅低灰、全面卸掉它们身上所有的字重粗体装甲。",
+          "ttsFp": "055683bd_53",
+          "srtCueIdx": 122,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 95,
+          "srcLEnd": 95
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "永远要将这个极其珍贵的铁律刻在脑子里：标签，永远只是负责在漆黑剧院里默默搭台子、打杂的背景板；**只有那些真实变动的数据，才是永远在这个舞台中央聚光灯下翩翩起舞的绝对主角。**",
+          "ttsFp": "8b3cc8cb_88",
+          "srtCueIdx": 123,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "战术三：**语义让位原则。**",
+          "ttsFp": "3d474e1d_15",
+          "srtCueIdx": 124,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 110,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "接下来，我们来到最容易让前端工程师和视觉设计师拔刀相向、起激烈争执的一个血腥防区：底层语义架构与上层视觉层级的彻底割裂。",
+          "ttsFp": "d22c59ec_60",
+          "srtCueIdx": 125,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在我们接触的最原始的启蒙 HTML 教程里，我们所有人都被老师植入过一个不可冒犯的教条概念：`H1` 标签代表着整个页面中最高级别、最具统领权的主页面标题。所以，全世界的 Web 浏览器在没有 CSS 介入时，默认都会把它渲染得巨大无比，像是一块沉重吓人的黑色搬砖。",
+          "ttsFp": "ac7b3a63_133",
+          "srtCueIdx": 126,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 113,
+          "srcLEnd": 113
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "由于这种极为深刻的思维钢印，很多带有纯粹工程师直线思维的人，会不自觉地在潜意识里认为：只要这行字代表着当前页面的主语义统帅地位，那它的物理字号，就必须是全场范围内毋庸置疑的最大值。",
+          "ttsFp": "7f0d32b1_90",
+          "srtCueIdx": 127,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是一个极其僵化、不知变通的远古教条主义。",
+          "ttsFp": "5eb8c442_21",
+          "srtCueIdx": 128,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位要深刻、彻底地理解这一点：隐藏在代码底层里面的 `H1` 到 `H6` 标签结构，那叫做**文档的语义抽象层级**。",
+          "ttsFp": "6c1b27b9_60",
+          "srtCueIdx": 129,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它存在的唯一目的和意义，是为了给屏幕阅读器里的无助盲人进行语音播报识别，或者是给 Google 那些没有眼睛的爬虫机器抓取关键字去阅读解析的。",
+          "ttsFp": "02d5395d_71",
+          "srtCueIdx": 130,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而我们今天在课堂上花了如此大代价讲述的，是前端的**物理视觉层级**。它是活生生的、直接极其感性地投射进人类视网膜上的光影魔术幻觉。",
+          "ttsFp": "951225e6_66",
+          "srtCueIdx": 131,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 119,
+          "srcLEnd": 119
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在绝大部分极其庞大现代且复杂的企业级产品（ERP）里，页面左上角最顶端的那个万年不变的大标题（比如“商品管理全局控制中心”或者是“管理员核心账户设置”），在骨架语义上，它确实是当仁不让的最高统帅 `H1`。",
+          "ttsFp": "a7d913f2_103",
+          "srtCueIdx": 132,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但在屏幕前坐着的用户的真实注意力分配雷达中，它仅仅只是一个极其廉价的、用来安抚情绪告诉你“兄弟，你没走错路”的背景贴纸罢了。它只是一张落满灰尘的无聊出入证。",
+          "ttsFp": "8e2c2651_78",
+          "srtCueIdx": 133,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正的焦点、真正主宰战场的生死胜负手在哪儿？是页面下方那一排排疯狂跳动、闪烁着红色警报的焦灼数据监控卡片，以及那个决定了千万资金流向的、散发着刺眼蓝色光芒的“提交最终算力结算”按钮。",
+          "ttsFp": "696068dd_91",
+          "srtCueIdx": 134,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 132,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以，在极其职业化、冷酷的商业实战开发里，我们要异常勇敢且绝不手软地把这些被称为 `H1` 老大级别的页面骨干标题，在最终的视觉效果上极限度地压缩、缩小，甚至极其无情地将其直接洗成毫无存在感的浅灰色。",
+          "ttsFp": "becbc7cf_100",
+          "srtCueIdx": 135,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 134,
+          "srcLEnd": 134
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在更加极端追求沉浸式屏效的恶劣场景下，我们通常是在代码的坟墓里虚伪地保留这个 `H1` 标签，仅仅为了去机械地照顾无障碍法案的机器访问，但在用户看到的物理视觉上，却毫不留情地用 `display: none` 把它的尸体彻底沉到水底。",
+          "ttsFp": "bb93a2b2_117",
+          "srtCueIdx": 136,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 135,
+          "srcLEnd": 135
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在做页面排版结构设计时，请在脑子里挥舞利刃，死死地斩断这两者之间被洗脑绑定的荒谬勾连：",
+          "ttsFp": "dfdbe42a_43",
+          "srtCueIdx": 137,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 136,
+          "srcLEnd": 136
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**选择往代码里写什么层级的标签，那是完全极其死板地基于逻辑与抽象语义的刚性需求；而最终决定在屏幕上赋予它什么样令人胆寒的物理张力和色彩渲染样式，绝对有且只能有一条理由，那就是极其贪婪与势利的人类视觉权力统治的层级需求。**",
+          "ttsFp": "97fc28f7_112",
+          "srtCueIdx": 138,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后，我们来看这项绝地重生的战术四：**权重与色彩对比度的终极跷跷板平衡 (Balance Weight and Contrast)。**",
+          "ttsFp": "63fb06fb_69",
+          "srtCueIdx": 139,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 151,
+          "srcLEnd": 151
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在人类构筑视觉层级时，有一个埋藏得很深、极其隐蔽的底层物理规律：",
+          "ttsFp": "9602ba26_32",
+          "srtCueIdx": 140,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 153,
+          "srcLEnd": 153
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "前端界面上任何一个组件对象，它最终被渲染出来的绝对物理面积，将直接而且强硬地决定了它在这个页面二维世界里的“视觉物理总重量”。",
+          "ttsFp": "d1b91fe2_63",
+          "srtCueIdx": 141,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 154,
+          "srcLEnd": 154
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为什么人们总是觉得加粗的超重型字体看起来更加重要？因为它的总含墨量飙升了，它霸占的总可视面积剧烈膨胀了。",
+          "ttsFp": "69914090_52",
+          "srtCueIdx": 142,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 155,
+          "srcLEnd": 155
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个极其粗暴、不可谈判的基础面积物理定律，同样无情并且死板地统治着整个复杂界面上那些细微的矢量小图标和辅助边框线。",
+          "ttsFp": "3ad94412_57",
+          "srtCueIdx": 143,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 156,
+          "srcLEnd": 156
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "举一个所有新手或初级主案在日常高密度交互开发中都会狠狠撞墙的烂熟例子：",
+          "ttsFp": "e2b81d33_35",
+          "srtCueIdx": 144,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 158,
+          "srcLEnd": 158
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你在一个经过重重验证设计得非常柔和、排版极其完美的浅灰色信息报表列表旁边，由于某种低劣直觉，极其不怀好意地放置了一个纯黑色的、被实心油墨死死填满全涂的重量级微型 SVG 图标时，你会瞬间感到整个局部区域产生一种极其尖锐强烈的刺眼割裂感。",
+          "ttsFp": "e3a388ae_119",
+          "srtCueIdx": 145,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 159,
+          "srcLEnd": 159
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这一切的根源到底是为什么？就是因为实心图标它物理本身的表面积在这片宁静的局部空间里远远超标溢出了！",
+          "ttsFp": "21abb83c_49",
+          "srtCueIdx": 146,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 160,
+          "srcLEnd": 160
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它在这个本来和谐的区域里变得极其沉重不堪，就像一个贪婪狂暴的微型引力黑洞一样，四处掠夺疯狂抢占周围用户用于阅读文本的黄金核心注意力。",
+          "ttsFp": "a1b12ed3_66",
+          "srtCueIdx": 147,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 161,
+          "srcLEnd": 161
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "遇到这种情况，那些刚出新手村的雏鸟架构师往往会彻底陷入恐慌，完全不知所措。而顶尖主笔级架构师给出的工业终极解药，却极其令人费解和反常识：",
+          "ttsFp": "740789dd_68",
+          "srtCueIdx": 148,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 163,
+          "srcLEnd": 163
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**既然它的整体物理死面积实在完全无法减小，已经被代码逼到退无可退的死角，那就反手一刀，去大刀阔斧残酷地砍掉、稀释它的核心色彩对比度！**",
+          "ttsFp": "edf4f8e8_69",
+          "srtCueIdx": 149,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 164,
+          "srcLEnd": 164
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "不要有哪怕一丝一毫的虚伪犹豫，立刻直接把这个看起来极其具有毁灭性和喧闹感的实心全黑色灾难图标，直接强制高压洗淡成顺从的中度灰，甚至直接剥离到毫无攻击威胁可言的浅低边缘灰。",
+          "ttsFp": "c60c51d3_85",
+          "srtCueIdx": 150,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 166,
+          "srcLEnd": 166
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在按完保存刷新的那一刻，你会像亲眼见证黑盒魔法一样极其震撼窒息地发现：",
+          "ttsFp": "db100f0e_35",
+          "srtCueIdx": 151,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 168,
+          "srcLEnd": 168
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "正是因为其核心色彩对比度的直线断崖式雪崩下降，它原本庞大沉重得令人发指的物理占有重量感，终于被毫不留情地完美彻底对冲抵消了。",
+          "ttsFp": "0a27626a_62",
+          "srtCueIdx": 152,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 169,
+          "srcLEnd": 169
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "原本极其嚣张跋扈、在版图里到处喧宾夺主横冲直撞的黑色实心图标怪兽，瞬间如同被完全驯化一般乖巧顺从地和旁边同属于第二层级的文字正文方阵手牵着手，达成了极其优雅、极其安静、却具有毁灭效率和妥帖感知的视觉机械永恒平衡。",
+          "ttsFp": "2d7cbd33_106",
+          "srtCueIdx": 153,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 170,
+          "srcLEnd": 170
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这也是底层物理世界宇宙宏大核心法则极其完美的正反闭环双通。如果此时你在该界面的最为残酷核心的高级隔离区，手刻画下了一根仅仅只有代码层面自带区区 `1px` 宽度的极纤细微薄隔离分割线，却绝望地发现在充斥着数万表格元的高精度满屏重卡型数据面前，它的存在感实在是太弱、乃至微薄到极其可怜，根本完全无力且无法起到任何一点切断阻止视线的物理阻挡切割壁垒作用的话……",
+          "ttsFp": "1ce47300_178",
+          "srtCueIdx": 154,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 172,
+          "srcLEnd": 172
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "千万，千万，永远不要去用极其愚蠢廉价且缺乏专业设计基础审美修养的下等业余直觉，去试图走旁门捷径把这根线狠狠加深描绘变成刺眼突兀、割裂视网膜的重墨纯黑色线条！那是整个工业标准的行业灾难重灾区。",
+          "ttsFp": "4aaac749_95",
+          "srtCueIdx": 155,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 173,
+          "srcLEnd": 173
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个修罗战场上，唯一并且绝对精准的高阶存活正确做法是：",
+          "ttsFp": "519e811e_28",
+          "srtCueIdx": 156,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 174,
+          "srcLEnd": 174
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**像个冰冷的雕塑机器一样，死死保持住，锁死它原本毫无侵略扩张性的、极其柔和内敛的浅低底灰色参数常量绝对不容侵犯，在此基础上，毫不吝啬、极其粗暴狂放地强行硬加它横向走廊的物理空间排版绝对厚宽厚度。**",
+          "ttsFp": "f029b25d_100",
+          "srtCueIdx": 157,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 175,
+          "srcLEnd": 175
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "直接把它极其果断霸道地加宽夯厚，把它堆砌到巨大甚至恐怖的 `2px` 绝对实线护栏，乃至直接挖一条深到见骨的 `4px` 中空防洪槽留白宽边框！",
+          "ttsFp": "893326dc_72",
+          "srtCueIdx": 158,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 176,
+          "srcLEnd": 176
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这所有惊心动魄、不容有半点闪失的过程，完全就好像是把所有程序员逼迫在没有任何防护栏、极其危险绝望的三百米透明百尺高空上，蒙眼玩着一局生与死极度高精度精密走钢丝的最后存活赌博游戏。",
+          "ttsFp": "e8be5d18_89",
+          "srtCueIdx": 159,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 178,
+          "srcLEnd": 178
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而此时此刻被牢牢攥在你因为恐惧流汗的双手之中的、这个系统整个位面世界上唯一仅存、能把你和整个服务器底库从地狱深渊坠楼惨结局中拯救回来的唯一最终绝对保命神级筹码，",
+          "ttsFp": "5cd79360_80",
+          "srtCueIdx": 160,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 179,
+          "srcLEnd": 179
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "就只能是你在屏幕框架的后台，犹如机械疯子般不断狂热地在代表着屏幕“绝对物理总渲染面积下坠重力感”的庞然大物，和那象征着光剑刺透眼球般尖锐的“色彩明度对比值光年刺眼度”这两个掌握一切的宏大终极杠杆生杀参数变量之间——满头大汗、近乎崩溃地来回疯狂极速拉扯腾挪测试！",
+          "ttsFp": "dc60c971_130",
+          "srtCueIdx": 161,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 180,
+          "srcLEnd": 180
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "不断拉扯。来回调转。疯狂测试。",
+          "ttsFp": "cb62e140_15",
+          "srtCueIdx": 162,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 182,
+          "srcLEnd": 182
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "直到耗尽无尽无数版地狱般的 Git 代码强迫推出版迭代编译漫长耐心，最终找到并死死锚定那个在这块几十寸二维平行晶体管玻璃大地上，那唯一且能将所有光与暗暴力元素镇压平复，那能代表着整个人类所创造过的人工数字交互宇宙中最具神迹般最高纯粹绝对恒定平衡静止秩序、不可一世的黄金完美分割生杀造物临界奇点。",
+          "ttsFp": "d047af0a_147",
+          "srtCueIdx": 163,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M02_层级实战策略.md",
+          "srcLStart": 183,
+          "srcLEnd": 183
+        }
+      ],
+      "firstSrtCueIdx": 89,
+      "budgetChars": 3600,
+      "oralCharCount": 4426,
+      "estimatedMinutes": 24.6,
+      "fillRatio": 1.23
+    },
+    {
+      "id": "mod-4",
+      "title": "模块 3: HSL 色彩系统与 9 阶色板 (约 15 分钟)",
+      "slides": [
+        {
+          "id": "告别 HEX 的炼金术",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕左侧展示一串像天书一样难以理解的 HEX 取色码（如 `#2D9CDB`）和令人作呕的底层 `RGB(45, 156, 219)` 数组；右侧则通过极其顺滑直观的三个滑块动画，分别极限拉动演示 Hue (色相)、Saturation (饱和度)、Lightness (亮度) 的分离物理控制。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-17.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-17.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-17.png"
+          ],
+          "list": [
+            "HEX/RGB 是给机器阅读的机器方言",
+            "HSL 是人类视觉视网膜的感性母语",
+            "像调节收音机一样直觉掌控色彩"
+          ],
+          "paragraphStart": 1
+        },
+        {
+          "id": "孟塞尔的物理感知球体",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "在深邃无垠的黑色背景中，悬浮着一个 1905 年版手绘复古风格的、结构极其复杂扭曲的孟塞尔色彩三维模型空间球体。用极其刺眼的冷色调红外线高亮标注它以人类眼球心理轨迹为基准的不规则诡异切面。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-18.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-18.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-18.png"
+          ],
+          "list": null,
+          "paragraphStart": 12
+        },
+        {
+          "id": "五色板的致命阵亡现场",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕左侧展示一个只有区区可怜 5 种配色的单薄纸糊设计系统，在遇到 Hover 悬停、Disabled 禁用态和暗黑模式一键切换的绞肉机测试时，瞬间全线崩溃疯狂报错的严重灾难代码界面；右侧则极尽震撼地展示一支由近百个极具肃杀纪律性的严密颜色方阵军团构成、如钢铁长城般的无死角全天候工业级大型色板库。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-19.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-19.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-19.png"
+          ],
+          "list": [
+            "5色板无法应对真实系统并发",
+            "系统级开发需要极端的面状火力覆盖",
+            "面向极限气候的工业原子化色彩法则"
+          ],
+          "paragraphStart": 13
+        },
+        {
+          "id": "构建全天候的面状防御战线",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "在一张巨大冰冷散发着机油味的灰黑色硬核重金属工业作台上，像极其整齐地陈列着一排排大口径重机枪子弹夹一样，陈列出一条由极浅近乎透明蓝暴走到极度深邃窒息黑蓝、带有极其冰冷金属质感光泽的 9 个完整横向梯度的严苛数字色板装甲群（冰冷地标上一排排诸如 50 到 900 的军事编号）。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-20.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-20.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-20.png"
+          ],
+          "list": null,
+          "paragraphStart": 16
+        },
+        {
+          "id": "铸造 9 阶色板的生死硬核铁三角锚点",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "一条没有任何生命迹象带有 9 个极寒空白方阵的进度条坑位序列。动画开始极其残暴演示：首先，最中间的 `500` 号核心神级方块被犹如万吨钢压机一样极其沉重、刺眼的直接凿入深邃的主战蓝色；紧接着，最左端濒临死亡边缘的虚弱 `50` 号极浅冰蓝和最右端深不见底如同深渊般的 `900` 号极暗虚无深渊蓝被极其暴力地直接死死两头钉死锁定在墙上，发出沉重冰冷的金属撞击声。最后，这三个主核绝对锚点之间被极其精密复杂的算法拉丝连线，剩余的 6 个空隙瞬间通过高强度的抛物线渐变函数暴力计算，像被充入高压电一样瞬间在一毫秒内被极其丝滑、毫无颗粒感地瞬间通导贯穿补齐全部爆亮。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-21.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-21.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-21.png"
+          ],
+          "list": [
+            "定海神针：不惜一切代价直接强行敲定 500 号主战机甲色",
+            "锁死生死两极：强行设定 50 号天花板濒死区与 900 号无尽深渊底线",
+            "无缝内插算法补余：用极其致命丝滑的贝塞尔抛物曲线填补所有极其脆弱的中间连队过渡防线"
+          ],
+          "paragraphStart": 17
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "上一讲我们彻底解决了界面的明暗、冰冷的骨架和辽阔的负空间。现在，这个由灰白线条框定的坚固水泥碉堡，终于准备好迎接整个系统中最具感性欺骗力、同时也最具致命杀伤力的终极武器了——色彩。",
+          "ttsFp": "734debf7_90",
+          "srtCueIdx": 164,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 5,
+          "srcLEnd": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在深入讨论所有形而上的色彩感官哲学之前，我们需要先在极其肮脏的开发代码战壕里，统一我们最底层的交流语言。",
+          "ttsFp": "dd4ca243_52",
+          "srtCueIdx": 165,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 19,
+          "srcLEnd": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多刚刚入行、或者单纯只是偶尔跨界对全栈开发感兴趣的工程师，在给新系统草率配色时，非常喜欢去那些花里胡哨的所谓“每日配色灵感网站”上，直接无脑复制粘贴 5 个由十六进制代码 (HEX) 拼凑而成的所谓“完美爆款配色方案”。",
+          "ttsFp": "4fe37fdc_111",
+          "srtCueIdx": 166,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你盯着终端上的一个名叫 `#2D9CDB` 的干瘪色值时，你的大脑能瞬间凭空想象出，该怎样在代码里精确地把这个该死的蓝色调暗区区 10% 吗？",
+          "ttsFp": "18121e3b_72",
+          "srtCueIdx": 167,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "绝对不能，甚至没有人能做到。因为 HEX 和 RGB 系统，那是上个世纪极其恶劣地设计给冷酷的显示器发光晶体管，或者是喷墨打印机的下水管喷头去阅读的底层死板机器方言。它极其反人类、极其傲慢。",
+          "ttsFp": "beb9fc03_95",
+          "srtCueIdx": 168,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正在一线扛枪搏杀的专业主级架构师和顶级视觉设计师，早就全面抛弃了这种玄学般的炼金术，全盘彻底拥抱了 **HSL 色彩系统**。",
+          "ttsFp": "0afa49a4_64",
+          "srtCueIdx": 169,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个 HSL 的极简数字宇宙里，一切看似神秘莫测的色彩，都被极其残暴且精准地解构成了三个你可以直接用手去拨动的物理参数滑块：",
+          "ttsFp": "e6e89228_63",
+          "srtCueIdx": 170,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 25,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第一档，是掌控生死的 **Hue (色相)**。这是颜色的灵魂和国籍。从 0 到 360 度，就像一个三百六十度无死角的完整地球仪，你狠狠把滑块拨到哪，它就是红橙黄绿青蓝紫中的哪一个国家，绝不越界。",
+          "ttsFp": "e5e2d8e9_99",
+          "srtCueIdx": 171,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 26,
+          "srcLEnd": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第二档，是爆发张力的 **Saturation (饱和度)**。它是整个界面的情绪释放频率和视觉肌肉密度。从 0% 的绝对冷酷禁欲灰白，一路飙升狂飙到 100% 的极致嘶吼刺眼鲜艳。",
+          "ttsFp": "e641e8e1_91",
+          "srtCueIdx": 172,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第三档，是掌控一切明暗深渊的 **Lightness (亮度)**。你可以非常霸道地把它理解为，上帝为了折磨你，往这个无辜的颜色里强行泼了多少桶极渊黑墨水或者高光白颜料。50% 是它最纯粹未受污染的本色，100% 则是彻底被高光刺瞎双眼的白板空洞，0% 则是一切物体坠入的黑洞。",
+          "ttsFp": "dfa24a07_139",
+          "srtCueIdx": 173,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 28,
+          "srcLEnd": 28
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "有了 HSL 在手，界面的调色从此不再是痛苦不堪的盲人摸象，而是让你像一个拥有绝对控制权的顶级调音大师一样，极其精确地扼压控制每一丝微妙的情感成分。",
+          "ttsFp": "bd13229d_74",
+          "srtCueIdx": 174,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "HSL 的这种极其伟大的三维物理感官解构，并不仅仅只是当代硅谷极客和前端工程师们的专利发明。早在久远的 1905 年，人类历史上最伟大的色彩学宗师阿尔伯特·孟塞尔 (Albert Munsell) 就提出了震古烁今的“孟塞尔色彩系统”。\n他极其不可思议且堪称天才地，将全人类几十万年来对色彩那极其主观模糊的感官体验，用数学一样严密的纪律，物理化为一个包含“色相 (Hue)、明度 (Value) 和彩度 (Chroma)”的庞大三维不规则球体模型。\n孟塞尔名垂青史的伟大之处在于，他第一次不是从冰冷无情的物理学棱镜光谱数据出发，而是极其极其偏执地以**人类肉眼的视觉心理感知机制**为宇宙绝对核心，来霸道地构建这套规则系统。在这个被切开的球体里，鼠标指向的每一个孤独坐标点，都丝毫不差地对应着人类潜意识心理上的绝对颜色预期。",
+          "ttsFp": "0d081655_362",
+          "srtCueIdx": 175,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 31,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "彻底理解了 HSL，我们才算真正在这个二维代码世界里拥有了被称为“造物主”的终极调节工具。但在一个动辄拥有数十万行代码构成的极其复杂庞大的真实企业级交互系统里，如果你妄想仅仅依靠网上抄来的 5 个看起来极具迷惑性漂亮的所谓“主题品牌颜色”就能打通关，那简直是无异于在极度寒冬下全副武装却只带了五颗手枪子弹。",
+          "ttsFp": "49a774b3_153",
+          "srtCueIdx": 176,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "因为在这个充满了各种变态场景的修罗场里，当你真实面对一个巨型数据操作终端时，你会碰到像幽灵一般的多级悬浮状态阴影按钮、被死死按住不能动弹的极度压抑按下态按钮、像灰烬一样失效报废的干瘪文字、只敢在角落里发出极其嘶哑微弱极浅警告底色的错误高亮框、以及犹如一堵极其深重的黑墙一般压迫人的巨型全屏模态层遮罩。",
+          "ttsFp": "c3b910b2_150",
+          "srtCueIdx": 177,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你手里那区区可怜的 5 个单色块？这种破铜烂铁在这种宛如绞肉机一样高强度的无情实战战场里，绝对连一分钟的地狱火都扛不住就会瞬间灰飞烟灭！",
+          "ttsFp": "95cbbcbe_68",
+          "srtCueIdx": 178,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你需要建立的绝对不仅仅是一个极其孤立、在真空中纯粹漂浮的所谓“品牌蓝定海神针”，你需要的，其实是一支拥有武装到牙齿的完整数字纵深梯度、能强行应对整条战线从赤道到极地所有极端恶劣物理气候变化的“重型钢铁装甲体系兵团”。",
+          "ttsFp": "3c7816be_108",
+          "srtCueIdx": 179,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在当今硅谷最顶尖极其冷血的现代工业级原子化开发严格规范里，这冷酷无情地意味着：对于你手中的每一种必须使用的核心基础色彩大族体系（比如代表着系统脊梁骨的沉稳品牌蓝、代表着生死存亡防错红线的极其危险刺目狂暴红、代表着最高权限提交成功态的极度安全呼吸绿，以及撑起整个后台宇宙暗物质纯粹背景的庞大内敛中性灰禁卫军家族），你都必须像对待精密的神级航空航天级工业零件一样，不带任何私有感情色彩地为它们量身打造并且死死打磨出一套标号从 `50` 极其陡峭残酷攀登拉升到 `900` 的 **9 阶或 10 阶武装到牙齿的全火力密集覆盖战术色板大军**。",
+          "ttsFp": "7ac64449_269",
+          "srtCueIdx": 180,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 70,
+          "srcLEnd": 70
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "怎么在这个毫无生机的一片荒原上一砖一瓦地残酷铸造这条能够抵挡核弹级冲击波、无坚不摧坚甲战衣般恐怖的终极战术色板链条防御网？只需要开发人员坚决彻底死板执行极其冰冷无名、犹如杀人机器般精准的三步走绝对战略纪律。",
+          "ttsFp": "65ba382f_103",
+          "srtCueIdx": 181,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 84,
+          "srcLEnd": 84
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第一步：极度险境中寻找不退的一线中流砥柱。在全色板最绝对正中央的安全火力核心区，极其毫不讲理地直接残暴选定出那只骨架抗压最硬朗、能够在涵盖整张业务大网绝大多数中庸平级残酷高并发场景里都极其死板死死扛压站得住脚、绝不软弱退缩的高纯度颜色，作为统御你整支军队极其核心精锐的 `500` 号主战信仰色彩（比如你的昂贵独裁 App 最初一开机那个启动页上的那一抹不容反驳的霸道强权蓝）。它不仅仅是一个普通的色标常量，它是维系贯穿整个庞大深邃家族暗黑色系的唯一工业合金骨架脊椎，是负责在最残酷的前线搏杀战场扛起整条战线绝大部分主要重型物理火力网网段绝对伤害攻击输出的主力装甲合成护卫先锋军。",
+          "ttsFp": "a111f4d1_290",
+          "srtCueIdx": 182,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第二步：死死锁死绝对极地的生死阴阳两界极限极向。毫不畏惧地向光亮得令人目眩、光芒万丈极浅极其刺瞎眼球的一端极速疯狂挺进抬升抓取，极其决绝地硬性绝对确定出那个几乎快要随时融化在全白底色真理幕墙深海里、如同纯粹微弱物理幽灵一般只能保留着极其可怜到几乎无法正常呼吸存活的极其惨绝本基色发光核心光晕的绝对 `50` 号极浅限界濒死色。然后下一秒钟立刻暴怒反转操纵杆狂调庞大沉重的下沉坠海重力，像一艘失控自杀暴雨般的核动力潜艇一样对准极其至暗无底流冷流海湾深处一头极其无情直潜，强行绝对无情确定出那个深得令人近乎发指发狂、暗沉极其令人精神扭曲压抑让你几乎完全彻底无法做到任何物理顺畅呼吸、但你必须脑海里死死严守住底线绝对不能完全沦落黑化为那恶劣无比纯黑色块坟墓的 `900` 号极其深邃压抑极限恐惧沉渊色。这两个极其决定生与死物理存亡边界的冰冷极点物理界线锚点一旦在代码图纸上被极其极重冷血无情地盖章确立绝对锁死划死，就等于直截了当地像倒下万吨纯净钢筋水泥防波堤沉降一样，为整个风雨飘摇极其脆弱可能会崩溃土崩瓦解的危险系统外围防线，硬生生地设定砸下两道极其稳固绝不可逾越、甚至根本完全无法用任何普通手段推翻重来的庞大深海厚重防撞绝对冰冷沉重隔离防暴雷区！",
+          "ttsFp": "14eadb88_522",
+          "srtCueIdx": 183,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第三步：终极上帝视角的超精密制导无缝内插残暴极速补余。当你终于有了这三个即便是用高能物理战术破甲弹核榴弹直接近距离轰炸也绝对无法摧毁它们哪怕任何一分一小毫的绝对刚性锚点基础承重连防线阵池地基的时刻，剩余那些填平在大地干枯沟壑裂缝里的那群极度大量的诸如 `100`、`200` 或者靠近高压重力深水极高极压深海区的 `700`、`800` 号这类处于极为危险高灰色过渡脆弱状态地带连队的士兵们，你此时完全可以极其高傲且大胆放手去绝对盲信你在过去火海项目死人堆里锤炼出来的那极其神明般超级冰冷极速精确极致的第一视觉终极机器神经直觉，或者干脆更加彻底无情残暴不讲人类情感极其理智地去大规模成群机械化调用极其深奥极致高维算法优美极点的基于 HSL 等差几何参数贝塞尔多参数究极平滑全抛物数学曲线高精度在线渐变方程式编译器高级外挂算力辅助计算黑盒封装类插件工具集，去将这极其极其庞大到令人绝望无情感却要保持极高精密度极速充当炮灰战线填充物战队的大批量冷血士兵数字阵列集群兵种军团方阵库，在让你极其极其毛骨悚然战栗且绝对极度疯狂、极致丝滑且毫无由于低劣像素误差卡顿带来的断层感的高压光年视觉强效渲染下，以极速极高压光速密集极其瞬间强行无差异全面物理填充饱和满配塞死进弹匣极速强行无脑填列满编全部强制光速暴力瞬间爆满填充填满到位！",
+          "ttsFp": "b72cd2b8_558",
+          "srtCueIdx": 184,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 90,
+          "srcLEnd": 90
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当这套几乎完全覆盖了从最微弱的 50 高光濒死极限地带，一路贯穿攀登拉升跨越直到那压迫得连光线都无法逃逸的极点深渊 900 的严苛链条 9 阶色板，在一片机器轰鸣声中彻底组装完毕交付编译时，你在未来绝大部分前端代码编写最险恶复杂的战区里，都会感到一种无比冷酷从容与极度奢侈的极致战场安全感。",
+          "ttsFp": "7d3671d1_145",
+          "srtCueIdx": 185,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M03_HSL_色彩系统与_9_阶色板.md",
+          "srcLStart": 92,
+          "srcLEnd": 92
+        }
+      ],
+      "firstSrtCueIdx": 164,
+      "budgetChars": 2700,
+      "oralCharCount": 3220,
+      "estimatedMinutes": 17.9,
+      "fillRatio": 1.19
+    },
+    {
+      "id": "mod-5",
+      "title": "模块 4: 色彩进阶与灰阶温度 (约 20 分钟)",
+      "slides": [
+        {
+          "id": "亮度的视觉衰减悖论",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左侧展示单纯改变 Lightness 算出的“数学渐变蓝色”。放大细节展示：在色阵向极限延伸时，极浅的 50 号特浅蓝和深压的 900 号暗蓝，全部显现出一种如同蒙上灰尘的浑浊感；右侧是对照组，设计师手动介入抢救后的高通透工业级色板大阵，其色彩强度在明亮和重压下依然保持着清晰纯净的张力。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-22.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-22.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-22.png"
+          ],
+          "list": [
+            "数学算法上的纯洁，往往带来视觉肉眼上的浑浊",
+            "Lightness 会在极昼或极渊中吞噬你的饱和度",
+            "必须手动进行抢救式的物理“饱和度极值补偿”"
+          ],
+          "paragraphStart": 3
+        },
+        {
+          "id": "基因原罪：色彩的先天明度不平等",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕上并列出现绝对同级、被锁死同频 Lightness 设定在 50% 的纯黄色、纯红色和深大蓝色方块。动画展示：最左的黄色爆明仿佛在核爆般直刺视网膜；而最右的沉重蓝色块则截然相反显得绝望压抑、深邃不可见底。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-24.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-24.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-24.png"
+          ],
+          "list": [
+            "黄色天生属于高光区霸权",
+            "蓝色骨子里就死死刻印着深渊基因",
+            "绝不要试图用平视的眼光去衡量不同色相"
+          ],
+          "paragraphStart": 18
+        },
+        {
+          "id": "后台物理宇宙真正的万王之王：中立灰阶军团",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一个庞大的企业级管理后台界面。高亮提取出页面里占据了 80% 面积的所有“灰色”区域：背景、分割线、侧边栏底色、次级文字、禁用态按钮、卡片阴影。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-26.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-26.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-26.png"
+          ],
+          "list": null,
+          "paragraphStart": 26
+        },
+        {
+          "id": "《黑客帝国》与《教父》的视觉温度",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "截取《黑客帝国》矩阵物理死区的冷绿色死灰墙影视截图，对比《教父》复古陈旧幽暗厚重的经典古堡室暖灰色大截面。展现出“温度，才是灰暗系真正的灵魂基石”。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-27.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-27.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-27.png"
+          ],
+          "list": null,
+          "paragraphStart": 30
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "拥有了 9 阶色板，初学者常会陷入一种误区。",
+          "ttsFp": "ffbc00b3_22",
+          "srtCueIdx": 186,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 5,
+          "srcLEnd": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "理论上，在 HSL 模型中固定色相 (Hue) 和饱和度 (Saturation)，只拨动明度 (Lightness) 滑块，就能自动生成完美的渐变色带。",
+          "ttsFp": "06a6fd1d_77",
+          "srtCueIdx": 187,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 6,
+          "srcLEnd": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这仅仅是理想的数学模型，人眼的神经机制在极端的灰暗死角里，并不认这个死板的数学账。",
+          "ttsFp": "04fbb60d_42",
+          "srtCueIdx": 188,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 7,
+          "srcLEnd": 7
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[WARNING]",
+          "ttsFp": "f5355353_9",
+          "srtCueIdx": 189,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是色彩数据世界里埋藏极深的第一个视错觉骗局：**亮度天生就会吃掉你的饱和度**。",
+          "ttsFp": "fca9d748_42",
+          "srtCueIdx": 190,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你把光彩逼人的 `500` 号主基准色，单纯通过增加 Lightness 强拉洗白成 `50` 号，或者压黑沦陷成 `900` 号黑池时……",
+          "ttsFp": "fe5fbefd_71",
+          "srtCueIdx": 191,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你立刻会发现：它原本那种水灵灵的纯净张力迅速流失了！它在极暗和极亮的那一极看起来就像一块老化发灰的旧布，极其浑浊且缺乏底气。",
+          "ttsFp": "91db3b97_62",
+          "srtCueIdx": 192,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了强行从这种极限脱色溃败感中抢救色的原貌生命体征，专业的视觉设计师在调配极度偏离居中 `500` 号、向两边极限滑落的色阶时，将会敏锐且果断地**手动拉高两端极远色的绝对饱和度 (Saturation) 参数**。",
+          "ttsFp": "db4bd6f7_108",
+          "srtCueIdx": 193,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 26,
+          "srcLEnd": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是进阶重火力调色神技：**饱和度物理过载补偿**。",
+          "ttsFp": "aeb30df3_27",
+          "srtCueIdx": 194,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[PRACTICE]",
+          "ttsFp": "e7553dc8_10",
+          "srtCueIdx": 195,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**实战解析：如何徒手捏出一条 9 阶色阶？**",
+          "ttsFp": "79414224_24",
+          "srtCueIdx": 196,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "光说理论很抽象，让我们进入连线操作。假设你的主品牌色定在 `500` 号的蓝色（比如一种克莱因蓝）。要如何靠色相旋转扩展出 `50` 到 `900` 呢？",
+          "ttsFp": "d8147d35_77",
+          "srtCueIdx": 197,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **确立锚点**：你的色盘核心锚点是 `500`。",
+          "ttsFp": "75994a74_28",
+          "srtCueIdx": 198,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **向高光进军 (50-400)**：当你设定 `400`、`300` 一直到 `50` 时，不要只单纯加亮度。你要同时把 Hue 的数值向青色 (Cyan) 或者绿色 (Green) 极其缓慢地推移。比如主色是 Hue 210，那么 `50` 号色可以偏移到 Hue 195。这模拟了现实世界中，阳光直射在蓝色物体上时，最亮的高光处往往会带上一点点环境天空光漫反射的偏青冷蓝效应。",
+          "ttsFp": "26d76311_194",
+          "srtCueIdx": 199,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **向暗渊下潜 (600-900)**：当你设定 `600` 到 `900` 时，在拉低亮度的同时，把 Hue 向深紫色 (Purple) 方向扭转。比如主色 Hue 210，`900` 号色可能转到了 Hue 225。这模拟了自然界物理环境中，暗部的阴影往往会因为天光散射定律（瑞利散射底层机制）而显得偏向更为深邃的紫蓝调。",
+          "ttsFp": "82ffa5c2_166",
+          "srtCueIdx": 200,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种完全遵照物理光学自然环境光渲染客观规律进行的人工偏移补偿，能让你的数字色阶图谱不再是冷冰冰机器吐出的 Hex 码死板数据，而是仿佛在真实的日照天光物理世界光影下自然投射产生的立体存在。这就是那些世界顶级 UI 界面之所以看起来极为“通透”、极其富有“生命呼吸感”的硬核底层大招组合拳：**亮度极值动态过载补偿控制与物理光学级别色相微调。**\\n\\n> [VISUAL]",
+          "ttsFp": "58f699cc_186",
+          "srtCueIdx": 201,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Slide**: 抢救褪色发灰的按钮\n*   **Layout**: `Screenshot`\n*   **Scene**: 悬浮态 (Hover) 变化的提交按钮。鼠标极快滑放的微秒瞬间，左边错误的示范仅仅拉高了亮度，看起来活像被撒上了一层惨白的大白粉，干枯发蒙；右方高阶示范中，系统同步精确推高了内在浓稠的极限饱和度血液参数，保住了按钮如同水晶通透的质感。\n*   **Search**: `UI button hover state lightness saturation compensation`\n*   **Asset**: ![预览](../public/slides/w07-slide-23.png)",
+          "ttsFp": "d3496858_306",
+          "srtCueIdx": 202,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 37,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你觉得这就是全部陷阱，那大错特错。在色相维度的参数相轴极深处，还潜伏着第二个具有绝对反直觉的视觉魔法幽灵。",
+          "ttsFp": "ab85aa7c_55",
+          "srtCueIdx": 203,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**盲区之二：感知视觉与色相扭力旋转 (Color Hue Rotation)。**",
+          "ttsFp": "efc38218_42",
+          "srtCueIdx": 204,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "虽然在代码编辑器后台，你大笔一挥极其省事地把原色极黄和暗冷蓝的 Lightness 明度都锁死为看起来平等的 50%，在计算器看来它们是完全死寂相等的。",
+          "ttsFp": "afb6e86e_76",
+          "srtCueIdx": 205,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这只是机器看到的。渲染到人类视网膜时，事实是：黄色这种色系诞生时就带有极高的明度压强感；而哪怕最高亮度的蓝色也天生显得沉暗。",
+          "ttsFp": "f5fe35a5_63",
+          "srtCueIdx": 206,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就等于你在做一道极高难度的物理计算题：当你想要把一个颜色调亮，由于色相基因存在不平等，如果你仅仅只知道去抠 Lightness 那个苍白无力的滑块，渲染结局只会是没有任何生气的发灰。",
+          "ttsFp": "45d33832_92",
+          "srtCueIdx": 207,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 62,
+          "srcLEnd": 62
+        },
+        {
+          "type": "tech_note",
+          "tag": "TIP",
+          "text": "[TIP]\n**前端技术前瞻：OKLCH 感知色彩模型**\n为了解决我们刚才提到的“色相先天明度不平等”问题，苹果和 W3C 等主导了全新的色彩空间规范：**OKLCH (Lightness, Chroma, Hue)**。\n与 HSL 最大的不同是，OKLCH 是第一个真正基于人类视觉感知建立的大众生产级色彩空间。\n\n如果你在 OKLCH 模型中，把黄色和蓝色的 Lightness（感知明度）都设定为 50%。系统会自动在底层复杂的数学空间中进行折算，最终渲染出来的黄色和蓝色，在你肉眼看来，它们的“发光强度”将是**绝对相等**的！如果你在 OKLCH 里拉动一个高对比度渐变，你再也不需要极其痛苦地去手动做刚才讲过的“色相旋转”和“饱和度极值补偿”了，底层的感知引擎会自动帮你保持住色彩最完美的通透与纯净感。这也正是现代技术栈正在默默往 OKLCH 全面迁移的根本原因。\\n\\n> [VISUAL]\n*   **Slide**: 色相神级旋转：用光谱对抗极度虚无褪色\n*   **Layout**: `Flow`\n*   **Scene**: 在深色背景上，高级演绎动态过程：如何要把颜色调亮，除了拉扯明度，还要像个化学家一样，把它的色相 (Hue) 微妙地向光谱上那些“天生显得更明亮”的相邻色相倾斜偏移。深蓝色慢慢向青绿旋转变得通透空灵；暗红色慢慢向暖橙色旋转，不再显得像干涸的泥水。\n*   **Search**: `hue rotation color palette UI design advanced`\n*   **Asset**: ![预览](../public/slides/w07-slide-25.png)",
+          "ttsFp": "1d27b869_708",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 64,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正大宗师的调色手法，是大胆的**“色相旋转”**。",
+          "ttsFp": "d09b98b6_26",
+          "srtCueIdx": 208,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 77,
+          "srcLEnd": 77
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你想要把一个颜色极其自然地调亮时，除了推高明度，你还需要把它的 Hue 向更高明度的感官光带去做顺畅转移微调。",
+          "ttsFp": "fd0abb87_56",
+          "srtCueIdx": 209,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种运用底层光学和人眼生理逻辑的高阶调色法，能打造出绝对水晶般通透、毫无浑浊干杂质的数字调色库。",
+          "ttsFp": "5db3357b_48",
+          "srtCueIdx": 210,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 79,
+          "srcLEnd": 79
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在这夺目的彩色表演之下，隐藏着实则统治整个数字界面版图的绝对暗物质：**中立灰阶 (Grayscale)**。",
+          "ttsFp": "927f4390_56",
+          "srtCueIdx": 211,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 89,
+          "srcLEnd": 89
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "统计整个大型界面，那些惊艳的品牌色大抵连 5% 面积都占不到。霸占 80% 以上界面表面积的，全是用于区隔物理空槽、承载文本的灰阶框架集合。",
+          "ttsFp": "17b07ec0_70",
+          "srtCueIdx": 212,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 90,
+          "srcLEnd": 90
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "品牌色决定头一眼惊艳，而庞大安静的灰阶基准线，则无情地决定了整个产品的“底层质感”与潜意识中的“情感绝对温度”。",
+          "ttsFp": "762a7268_56",
+          "srtCueIdx": 213,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 91,
+          "srcLEnd": 91
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "在顶级的电影工业调色室里，绝对没有哪位调色师会去使用物理意义上纯粹干净、无任何色偏偏向的“死灰”。\n真正的高级灰色，都带着微弱但致命的情感神经注射。\n犹如《黑客帝国 (The Matrix)》，那看似压抑的世界阴冷死寂灰色框架下，全被注入了幽怨窒息的冷绿色调基因；\n再比如《教父 (The Godfather)》，柯里昂家族暗室内的深灰暗影表面下，底子里一直向外散发着陈旧权柄般血腥且复古的冷橘暗金色光芒。",
+          "ttsFp": "4f4ea9b2_203",
+          "srtCueIdx": 214,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 93,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为什么电影工业比互联网 UI 更重视灰阶？因为影视屏幕不仅要传递信息，更要**植入潜意识**。",
+          "ttsFp": "494d7539_47",
+          "srtCueIdx": 215,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 107,
+          "srcLEnd": 107
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "《黑客帝国》中那个虚假的矩阵世界，之所以采用死寂的冷绿色调灰底，是因为在光学原理上，“冷绿”是人类面部血液“暖红”的绝对反比补色。当整个屏幕弥漫着这种带绿光的灰调时，所有角色脸上的生机与血气都在视觉上被完全中和、被抽干了。观众不需要听任何台词，生理上潜意识里就已经感受到了一种被数字技术严重剥削压抑的窒息感。",
+          "ttsFp": "8969c5fd_154",
+          "srtCueIdx": 216,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 108,
+          "srcLEnd": 108
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而《教父》室内那标志性的古铜暖橙金色暗影，则是在极致高仿黄昏与篝火时分的光谱。在人类远古几十万年的进化基因中，火光橘黄不仅与黄昏降临的静谧相连，更象征着族群聚落、绝对的防御安全、不可挑战的权力以及温暖封闭的避风港。这种被重度混入了暖陈色光的古铜灰阶暗流，让原本充满血腥残酷屠杀暴力的黑手党肮脏交易环境，在视觉心理学上瞬间蒙上了一层极其浓墨重彩、充满古典帝国般不容置疑的绝对威严与老派家长制强权保护伞的家族荣光浪漫滤镜。",
+          "ttsFp": "3b2e63bb_209",
+          "srtCueIdx": 217,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 110,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "回到你的 SaaS 面板上，你希望你的高管用户在面对那一屏庞大繁杂无比的数据 Dashboard 时，感到的是被代码淹没的麻木枯竭？还是稳坐中军帐、统御全局的绝对掌控安全感？这就是你作为一个界面架构师，能够通过那几丝灰阶温度去直接干涉的维度。\\n\\n> [VISUAL]",
+          "ttsFp": "302c765e_135",
+          "srtCueIdx": 218,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[ADVANCED]",
+          "ttsFp": "73ddd013_10",
+          "srtCueIdx": 219,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 113,
+          "srcLEnd": 113
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**高阶命题：暗黑模式 (Dark Mode) 下的灰阶反转物理坍塌**",
+          "ttsFp": "5185dc90_36",
+          "srtCueIdx": 220,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "既然提到了灰色庞大体系，就绝对绕不开现代界面高端开发项目里的地狱级挑战关卡：暗色原生模式 (Dark Mode)。",
+          "ttsFp": "fa4c194d_57",
+          "srtCueIdx": 221,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 115,
+          "srcLEnd": 115
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "许多初级开发团队在做前端暗黑模式适配时，往往只是极其粗暴草率地将系统色板无脑反相：将 `White (亮度 100%)` 强转成 `Black (亮度 0%)`，将原本极浅灰的基底层背景直接一键替换成死寂深黑色，把文本颜色直接从黑暴力变白。结果就是交付的最终界面像是一张恐怖过曝冲印失败的劣质摄影底片，原先精心构建的所有层级 Z 轴深度关系在这一刻全被强行压平抹平了。",
+          "ttsFp": "e35914c7_184",
+          "srtCueIdx": 222,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Asset**: ![预览](../public/slides/w07-slide-28.png)",
+          "ttsFp": "b18bdcf9_53",
+          "srtCueIdx": 223,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为什么这种小聪明式的简单“色值反向映射”完全行不通？",
+          "ttsFp": "2b25872b_26",
+          "srtCueIdx": 224,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 120,
+          "srcLEnd": 120
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "因为在亮色正向模式下，我们通过在无色白色画布基底上叠加不同浓度、逐渐加深的“阴影灰色”来创建深度纵深感。因为纸是白的，背景就是最亮的底层，突出的前置悬浮卡片略暗，或者需要带有深色坠落阴影才能突出。",
+          "ttsFp": "ca1b3eb9_98",
+          "srtCueIdx": 225,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在真正的沉浸式暗黑模式物理逻辑里，视觉高程真理是**完全反转的**：在暗室里，越靠近底层地表的基础层背景系统，越是需要接近于绝对的黑谷底深渊 `900` 号（但在此绝不推荐纯黑 #000000，容易引起像素发光严重拖影）；而随着 Z 轴向上弹出的模态卡片层、前置悬浮窗警告层，因为它们在物理上“离用户的眼睛眼球更拔高更接近”，所以它们必须**反其道而行之地被调亮（用相对更亮一度的浅暗灰色去涂装覆盖）**。在暗色深层物理空间里，能够争取到“更高光照度”本身就意味着获得了“更高的物理海拔维度”。这与亮色模式的阴影堆叠法则截然相反。",
+          "ttsFp": "cbb595ad_266",
+          "srtCueIdx": 226,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你在此前的亮色模式系统中，严格使用了带着情感温度配置的科技冷面灰（即在灰阶系统池里小心注入蓝光参数基因），那么在制作应对夜晚的暗色版图时，你打底的全局底色 `900` 号也绝对、绝不允许是毫无生气的纯死亡黑，而必须是一种极度深邃、如深夜大洋深处那般蕴含巨大压迫力的深冷蓝灰调色海。在深夜环境特有的超高原生对比度极限放大器作用下，人眼黑白视锥细胞对色彩偏差异质杂质的灵敏感知度会变得比白天正午大太阳底下敏感无数倍。在此时此地，你对整个产品底层灰阶里那微不足道仅仅 `3%` 品牌色血脉基因的控制阀门就显现出了尤为直接见血的决定性——一旦底层深色体系稍微操作失控、被混杂了哪怕 1% 的多余红黄暖色冲突光谱杂色，你的整个界面系统立刻就会全面散发出一种像地下室未清理干净的脏旧生锈服务器机房般令人不安的恶劣低端破败感。\\n\\n> *   **Slide**: 赋予无界机器死灰以心跳温度：冷科技与生活暖灰",
+          "ttsFp": "0aa9797a_399",
+          "srtCueIdx": 227,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 124,
+          "srcLEnd": 124
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Layout**: `Split`\n*   **Scene**: 屏幕被一分为三。左边死板物理纯灰，如同原始的开发工具；中间混入了蓝色基因的冷灰 (Cool Grey)，立刻展现出专业克制的强大控制感科技冷锋；右侧灰色系则被混入微弱柔和的橙黄色，变得具有手磨咖啡质感般的暖灰 (Warm Grey)。\n*   **Search**: `cool grey vs warm grey UI design tint`",
+          "ttsFp": "065cfe40_206",
+          "srtCueIdx": 228,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 125,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在我们的交互界面开发域，同理：**永远不要大面积使用 Saturation 为绝对 0 的死尸物理纯灰。**",
+          "ttsFp": "a835ced4_54",
+          "srtCueIdx": 229,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "若你开发极度强调专业纪律的硬核金融监控台或安防数据中心屏，果断用品牌蓝为庞大的灰阶区域注入一丝“蓝色防线基因”。这便是令人大脑强制降温的**科技冷灰 (Cool Grey)**。",
+          "ttsFp": "6fae5243_89",
+          "srtCueIdx": 230,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "若面临休闲、社交分享或陪伴生活型应用，那就隐秘地为灰色涂装混入微量的暖橙黄色生命力。让整个面板散发阳光烘烤般的**舒适暖灰 (Warm Grey)**。",
+          "ttsFp": "518e7f29_76",
+          "srtCueIdx": 231,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "温度，才是决定灰阶生死的致命武器。",
+          "ttsFp": "13aab50e_17",
+          "srtCueIdx": 232,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 133,
+          "srcLEnd": 133
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[TIP]",
+          "ttsFp": "0e9d070a_5",
+          "srtCueIdx": 233,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 135,
+          "srcLEnd": 135
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**工程实践中如何落地“有温度的灰色”**",
+          "ttsFp": "48a06ef8_21",
+          "srtCueIdx": 234,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 136,
+          "srcLEnd": 136
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你使用的是现代 CSS 预处理器或原生 CSS3 变量系统，大规模引入并维护灰阶温度体系变得极其简单高效。",
+          "ttsFp": "42467ca0_55",
+          "srtCueIdx": 235,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你不需要去色环上手动挨个辛苦推导出那 9 个甚至 10 个灰色变态十六进制数值。更好的高级做法是使用原生混色函数体系。",
+          "ttsFp": "b16cf940_59",
+          "srtCueIdx": 236,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 138,
+          "srcLEnd": 138
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "例如：`color-mix(in oklch, var(--brand-primary) 3%, var(--neutral-grey))`。",
+          "ttsFp": "f599b610_71",
+          "srtCueIdx": 237,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 139,
+          "srcLEnd": 139
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "仅仅只凭借着这不到 3% 的品牌主颜色（或者特定暖橙色）的极其微弱代码注入混血，就能以极低近乎于零的工程长期维护成本支出，让你界面的整个地基灰色支撑网络瞬间在物理上拥有了与品牌基调绝对同频、高度统一且极其高级的情绪心跳。这种看似极其克制但在底层却无比精准、可无限一键扩展的高维工程化色彩温控体系建设，才是真正匹配和决定现代大型多终端协同 SaaS 互联网系统产品应有的专业高阶重度工业水准生命力。\\n\\n---",
+          "ttsFp": "93625fe0_205",
+          "srtCueIdx": 238,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M04_色彩进阶与灰阶温度.md",
+          "srcLStart": 140,
+          "srcLEnd": 140
+        }
+      ],
+      "firstSrtCueIdx": 186,
+      "budgetChars": 3600,
+      "oralCharCount": 3411,
+      "estimatedMinutes": 18.9,
+      "fillRatio": 0.95
+    },
+    {
+      "id": "mod-6",
+      "title": "模块 5: 色彩无障碍与冗余设计 (约 20 分钟)",
+      "slides": [
+        {
+          "id": "WCAG 对比度底线",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左半区是浅紫底色配淡白文字的卡片；右半区模拟了光线不佳环境下的阅读视角，文字无法分辨。旁边打出红色警告与 WCAG 对比度指标。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-29.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-29.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-29.png"
+          ],
+          "list": [
+            "正文底线：4.5:1",
+            "大标题底线：3.0:1"
+          ],
+          "paragraphStart": 1
+        },
+        {
+          "id": "WCAG 算法的局限与 APCA",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "上方是深蓝背景配白字；下方是明橙背景配黑字。这两组在 WCAG 2 检测下都得到“Fail”。但肉眼透视图表显示，普通人看这两个按钮时对比度足够清晰。随后系统切入 APCA 滤镜，给这两组打出“Pass”。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-30.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-30.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-30.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "多通道冗余设计",
+          "layout": "Screenshot",
+          "text": "",
+          "heading": "",
+          "scene": "在色盲画面的基础上进行修复。绿色成功区域叠加打上锐利的对号图形；红色危险区嵌上叹号三角符号。同时伴随高反差文本下划线。即使处于色盲模式色彩褪去，几何图形和字体骨架依然能清晰传达告警信息。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-32.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-32.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-32.png"
+          ],
+          "list": [
+            "第一防线：原生颜色",
+            "第二防线：Iconography (几何标识)",
+            "第三防线：原生文字段标签"
+          ],
+          "paragraphStart": 12
+        },
+        {
+          "id": "三哩岛核泄漏事故控制面板",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "展示 1970 年代真实的核电站控制室大屏照片。在核心阀门监控区，由于控制灯的设计极其违反直觉，红绿灯的常规含义被完全颠倒。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-33.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-33.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-33.png"
+          ],
+          "list": null,
+          "paragraphStart": 14
+        },
+        {
+          "id": "暗黑模式下的散光光晕",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "右侧引出暗黑模式面板，展示“光晕现象 (Halation)”。纯黑背景上的纯白大亮文字，在散光用户眼中产生明显的边缘眩光。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-34.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-34.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-34.png"
+          ],
+          "list": null,
+          "paragraphStart": 16
+        },
+        {
+          "id": "给骨架填色",
+          "layout": "Workshop",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是上节课搭建的灰色高保真线框图。中间是一个空白的 Design Token 面板（包含色彩、字体粗细槽位）。右侧是目标渲染的界面框架。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-35.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-35.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-35.png"
+          ],
+          "list": null,
+          "paragraphStart": 20
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当我们把色板调整到理想状态时，工程学必须介入，并设立防线：**无障碍性 (Accessibility, a11y)**。",
+          "ttsFp": "fc12e4e0_60",
+          "srtCueIdx": 239,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 5,
+          "srcLEnd": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[CAUTION]",
+          "ttsFp": "877cc3d0_9",
+          "srtCueIdx": 240,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "色彩是传递信息的载体。在前端规范中，对文本与背景色之间有着严苛界定：**WCAG 对比度标准**。",
+          "ttsFp": "bcd5d4e6_49",
+          "srtCueIdx": 241,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 19,
+          "srcLEnd": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "对于正文信息，对比度不允许低于 **4.5:1**。大标题可放宽到 **3.0:1**。",
+          "ttsFp": "f2260cb9_44",
+          "srtCueIdx": 242,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "无论多渴望用浅灰文字在白底上营造极简感，只要不满足对比度测试，便是不及格。",
+          "ttsFp": "bef911c6_37",
+          "srtCueIdx": 243,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但哪怕遵守了 WCAG，色彩底层依然藏着盲区。",
+          "ttsFp": "fe2bae3d_23",
+          "srtCueIdx": 244,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**工程学盲区：单纯基于机器物理逻辑的旧标准并不可靠。**",
+          "ttsFp": "faadf37e_29",
+          "srtCueIdx": 245,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "传统 WCAG 2.0 算法制定较早，基于简单的亮度差模型，未充分考虑人类视觉对字重与明度的真实补偿偏好。",
+          "ttsFp": "dfaa0d64_53",
+          "srtCueIdx": 246,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就导致它会误判清晰组合为不及格，又会把难读配置判定为安全。这也是现代设计系统正向新一代的 **APCA (Advanced Perceptual Contrast Algorithm)** 仿生标准迁移的原因。APCA 真正基于人类在复杂光影下阅读文本的方式构建。",
+          "ttsFp": "aaff09db_133",
+          "srtCueIdx": 247,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "tech_note",
+          "tag": "NOTE",
+          "text": "[NOTE]\n**深度进阶：APCA 算法到底为什么比 WCAG 2.0 更懂人眼？**\nWCAG 2.0 的对比度公式建立在一个极其粗糙的早期纯物理光度学模型之上（单纯基于相对亮度 L1/L2 的数值相除）。它有一个极其致命的系统设定缺陷：它假设“白底黑字”和“黑底白字”在人类视网膜系统上的感知消耗是完全对称相等的。也就是说，如果白底黑字的对比度得分是 21:1，那么同样颜色的黑底白字在它的算法里也只能是完全一模一样的 21:1。\n\n但这完全违背并无视了人类眼球的真实物理生理结构！在明亮的白底环境中，由于整体环境光通量巨大且充沛，人眼的瞳孔会自动收缩变小，从而极大地减少了由于晶状体边缘不规则带来的“球面像差”。此时视网膜上的成像边缘极其锐利，用户能够轻易毫不费力地分辨出极细的黑色字体骨架边界。\n\n而相反，在极端黑暗的背景（深黑底）下，为了捕获更多微弱的光线，人眼的瞳孔会不由自主地被迫剧烈放大。放大的瞳孔会带来不可避免的物理边缘散光现象（这就像高端相机的光圈如果开到最大参数就极易产生边缘失焦一样）。此时如果上面悬浮的是发着高频强光的纯白文字，高能白光子会在黑色感光细胞的交界边缘发生剧烈疯狂的光晕溢出，这在眼科医学上被称为极其有害的“光晕 (Halation)”。\n\n革命性的 APCA (Advanced Perceptual Contrast Algorithm 基于感知的进阶对比度算法) 则极其精准深刻地抓住了这一人因生理界限的不对称性。在它严苛高端的矩阵评级计算中，如果背景由于过度低光暗沉导致判断使用者瞳孔处于放大拉伸状态，它会智能且毫不留情地要求前端必须“强制增加字体的几何粗细 (Font-Weight) 与面积”，而不是单单愚蠢地把白光亮度滑块强推到最高峰值。因为在这个深黑数字宇宙里，能将文本从眼花模糊中剥离解救出来的，永远都不是“更刺目耀眼的白色闪光”，而是“更粗壮结实的绝对字号物理骨架”。这就是真正代表现代高阶顶层系统设计的底层光学拦截密码。\\n\\n> [VISUAL]\n*   **Slide**: 色盲模拟下的视觉挑战\n*   **Layout**: `Split`\n*   **Scene**: 左侧是正常视界下的红黄绿指示灯。右侧切入色盲滤镜，代表警告、安全与危险的灯全部变成了相似的黄褐色。\n*   **Search**: `color blindness simulator UI design redundancy`\n*   **Asset**: ![预览](../public/slides/w07-slide-31.png)",
+          "ttsFp": "76b71ba6_1078",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 37,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就引出了交互开发中的重要原则：**永远不要将单一颜色的变化，作为传达关键状态信息的唯一途径。**",
+          "ttsFp": "46bfab36_49",
+          "srtCueIdx": 248,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 53,
+          "srcLEnd": 53
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "对于全球有色觉障碍的用户来说，依赖强对比色的报错与指示，可能只是一片难以区分的灰色区域。因此，系统设计中必须引入航天级理念：**多通道冗余设计 (Redundancy Design)**。",
+          "ttsFp": "9a04e7dc_94",
+          "srtCueIdx": 249,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "“冗余”在防错工程里，是阻挡认知偏差的保险丝。设计者必须在特定色彩被剥除之外的维度上，附加几何图案和结构边框。即便处于光线不佳或病理环境下，信息本体依然能通过坚实的骨架传递。如果不重视系统冗余防御，往往会引起严重的代价。",
+          "ttsFp": "18f582cc_110",
+          "srtCueIdx": 250,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "tech_note",
+          "tag": "ADVANCED",
+          "text": "[ADVANCED]\n**多模态冗余补位：视网膜防线失效时的听觉与触觉反馈**\n现代系统不仅要求视觉层面的防错，更要求多维度的感官冗余。当用户的视觉通道被全部占用或阻断时（例如户外强光、驾驶盲操），优质的系统会自动切入听觉与触觉维度的防御。\n以 iOS 系统为例：当面临关键校验失败（例如 Apple Pay 失败）时，系统除了展示红色警告图标，还会立即通过底层的 Taptic Engine 触发强烈的双重线性震动反馈，并伴随低频阻断警告音。通过视觉、触觉、听觉三路联合警报，即便用户没有看清屏幕，系统传达阻断状态的成功率也大幅提升这就是典型的现代人机工程多通道冗余设计。",
+          "ttsFp": "c1344e91_287",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 70,
+          "srcLEnd": 73
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "1979 年的三哩岛核泄漏事故中，反常的指示灯设计是促成灾难的重要考量因素。在常理认知中，红色代表“危险与停止”，绿色代表“安全与运行”。但在老旧的操作面板上，红色亮起代表“阀门开启处于带压流量状态”，绿色代表“阀门关闭冷态阻断”。\n当事故突发，操纵员在紧张下顺从了本能，看错了指示灯信息状态，导致了部分连环误操作。",
+          "ttsFp": "02de164b_158",
+          "srtCueIdx": 251,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 83,
+          "srcLEnd": 85
+        },
+        {
+          "type": "tech_note",
+          "tag": "LESSON",
+          "text": "[LESSON]\n**灾后反思：摒弃红绿灯，采用明确语言符号印刻**\n应对这类容错率为零的关键系统，防错重构的最优解是直接采用“语言符号标签”。\n放弃容易引发歧义和色弱困扰的布尔状态红绿指示灯，改为在阀门旁嵌入微型电子屏。屏幕直接以最高对比度的白底黑字显示出确切状态：当阀门打开时显示大写单词 **[OPEN]**，关闭时显示 **[CLOSED]**。\n这彻底消除了色彩隐喻的模糊性，利用人类最直接的共同语义——文本，直接接管了最核心状态的传达，这也是设计中最高级别的冗余保险。",
+          "ttsFp": "bab2a837_240",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 87,
+          "srcLEnd": 91
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天，对比度偏差在暗黑模式 (Dark Mode) 中继续发酵。许多人在暗色界面中为追求高对比度，盲目选择纯黑背景配置最亮的纯白文本。对于散光群体而言，由于明暗落差过大，这会在水晶体折射中产生明显的**散光光晕 (Halation)**，造成文字发虚、引发晕眩。",
+          "ttsFp": "a01f83f9_131",
+          "srtCueIdx": 252,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 101,
+          "srcLEnd": 101
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "合理理智的做法，是在暗底板中留有一丝灰度的缓冲液底色，且将纯前端文本的极白光收拢控制，为视网膜降低对比负担。",
+          "ttsFp": "d21ef4c3_54",
+          "srtCueIdx": 253,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "tech_note",
+          "tag": "TIP",
+          "text": "[TIP]\n**前端工程落地：我们该如何应对这套新世界的视网膜标准？**\n面对标准更迭的深水区，你可能会问：“既然老旧规范千疮百孔甚至可能阻断信息，那我到底该如何在眼下的项目中进行工程落地以规避全方位的体验灾难？”\n这一问题的绝佳解法极其务实且清晰。请在你们的 Design Token 根系统定义层，强行引入双重防御检查网关：\n1. 当设计受众极广、偏向白天的常规浅色系庞大后台或 C 端页面时，WCAG 2.0 依然是可以被信任的最后一条底线基本盘防线。按照它来跑基础自动化巡检绝对没问题。\n2. 但凡你的项目、组件或者模态弹窗开始深度涉足哪怕一丁点的“深色模式 (Dark Mode)”，请毫不犹豫、不可商量地在组件库层面丢弃老的 WCAG 2.0，必须直接使用 APCA 最新算法参数在 Figma 测算插件或 CI/CD 构建前端组件库里发起视觉强行并网对比测试拦截。\n3. 最终赋予开发执行者的具体神级启示是：永远、永远必须在全局样式表中，为所有深色暗夜模式下的关键操作文本，准备一套完全独立的、额外强加粗的物理字重层级（例如强制提升至 `font-weight: 500` 甚至 `600`）来依靠纯粹物理结构厚度抵御视网膜散光造成的光漫射吞噬；与此同时，必须保持最绝对清醒的系统克制——必须刻意将系统默认下那看似光鲜实则刺目剧毒的 `#FFFFFF` 纯满屏高白漆文本颜色，坚决强制削峰平谷地往下拉低回调压缩至毫不刺眼的 `rgba(255, 255, 255, 0.87)` 甚至更低的透明度白膜遮罩透辉绝对安全限界级别。",
+          "ttsFp": "4bff8e62_670",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 104,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这不到几毫米极其微小不起眼的系统最高明度峰值极限回调抑制，以及这几盎司悄无声息偷偷加派的基础支撑字重加强固化指令，就是在用数字架构系统最温柔隐秘的工程底层代码力量，极其精准小心而又无声息地，大规模抚平并治愈着全世界终端屏幕外几十亿潜在轻度或重度散光视障用户们，原本早已焦躁不堪且饱受眩光刺痛折磨的脆弱神经系统。\\n\\n\\n\\n---\\n\\n## 模块 6：实践 — 重建骨架脉络 (约 80 分钟)",
+          "ttsFp": "65d66dea_199",
+          "srtCueIdx": 254,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Workshop",
+          "duration": "80min",
+          "desc": "重建骨架脉络 — 为界面注入 9 阶色板与色彩层级",
+          "text": "[ACTIVITY]\n**Type**: `Workshop`\n**Duration**: `80min`\n**Desc**: 重建骨架脉络 — 为界面注入 9 阶色板与色彩层级",
+          "ttsFp": "32d48845_89",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 123,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "本周的实验室任务非常具体：我们要给 W05 和 W06 留下来的极简骨架“填色”。",
+          "ttsFp": "0f5479a1_41",
+          "srtCueIdx": 255,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 128,
+          "srcLEnd": 128
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1.  请打开你的设计工程，不要急着去填充主视区。",
+          "ttsFp": "8efe41a8_24",
+          "srtCueIdx": 256,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2.  先在你的 Design System 或者 CSS 变量库中，调配出一套专属于你们组产品的 **9 阶基础色彩 Token 库**和带有温度的**灰阶库**。",
+          "ttsFp": "c2c36c9c_82",
+          "srtCueIdx": 257,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3.  从“最大片”的空间开始，尝试利用我们讲过的“反向弱化”战术，利用不同的浅层灰阶分离容器边缘。",
+          "ttsFp": "62ee6b62_49",
+          "srtCueIdx": 258,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 132,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4.  在给按钮等交互控件上色时，注意使用刚才提到的“色相旋转”和“饱和度补偿”，保持颜色的呼吸感。同时在代码检查中验证对比度是否全部满足 `>= 4.5:1`。",
+          "ttsFp": "7cc96d91_80",
+          "srtCueIdx": 259,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 133,
+          "srcLEnd": 133
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你们的骨架沾染了正确的色彩系统与层级分配后，这个产品模型才算真正“破土而出”。大家回实验室见真章。",
+          "ttsFp": "6bdca347_50",
+          "srtCueIdx": 260,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M05_色彩无障碍与冗余设计.md",
+          "srcLStart": 135,
+          "srcLEnd": 135
+        }
+      ],
+      "firstSrtCueIdx": 239,
+      "budgetChars": 3600,
+      "oralCharCount": 1144,
+      "estimatedMinutes": 6.4,
+      "fillRatio": 0.32
+    },
+    {
+      "id": "mod-7",
+      "title": "模块 7: 小结 — 视觉层级与色彩纪律 (约 10 分钟)",
+      "slides": [
+        {
+          "id": "UI 工程化的三位一体",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "左栏显示排版控制（字重逆向削弱）；中栏显示 9 阶色彩梯度模型计算面板；右栏展示三哩岛事故对比的冗余组件防线。上方统摄着“工程化界面体系 (Engineered UI Architecture)” 的大标题。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-36.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-36.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-36.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "悬崖边缘的高压系统：W08 预告",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是本周完成的美好静态组件图集；右侧画面伴随强烈音效突然切转极端报错动效——触发了不可逆的大误操作（删除了重要核心数据库表单），原本极其扁平的层级空间突然破裂浮现出深深的三维 Z 轴阴影视差，生硬弹出带有强劲警语红光锁屏防错的警告拦截悬浮框 (Destructive Modal)。",
+          "image": "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-37.png",
+          "images": [
+            "weeks/W07_视觉重构：层级与色彩/public/slides/w07-slide-37.png"
+          ],
+          "assetExpected": [
+            "public/slides/w07-slide-37.png"
+          ],
+          "list": null,
+          "paragraphStart": 9
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[RECAP]",
+          "ttsFp": "2500b0e8_7",
+          "srtCueIdx": 261,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 5,
+          "srcLEnd": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在今天的《视觉重构：层级与色彩》中，我们彻底推翻了“界面设计依靠个人审美直觉”的传统迷思，转而用系统工程学的方法重新界定了 UI 视觉呈现。",
+          "ttsFp": "640700dc_70",
+          "srtCueIdx": 262,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 6,
+          "srcLEnd": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "回想我们今天贯穿始终的核心武器：",
+          "ttsFp": "30b6912e_16",
+          "srtCueIdx": 263,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 8,
+          "srcLEnd": 8
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **逆向削弱体系 (Reverse De-emphasis)**：为了突显核心操作，我们不再盲目将其放大变红，而是理智克制地去削弱周围次要元素（降低字重、融入深层灰阶）。",
+          "ttsFp": "56ecef11_88",
+          "srtCueIdx": 264,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 9,
+          "srcLEnd": 9
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **九阶色彩工程纪律 (9-Step Palette Doctrine)**：我们利用 HSL 模型理性推演，配合人工的环境光矫正，彻底放弃了随意的吸管盲目点选抽色，建立起了工业级通透的色板和携带情感锚点温度的深水蓝复合灰阶库。",
+          "ttsFp": "5d828934_117",
+          "srtCueIdx": 265,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 10,
+          "srcLEnd": 10
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **多通道冗余容错机制 (Redundancy Engineering)**：我们超越了机器时代的 WCAG 与单一色彩限制，通过引入防错几何图形符号与底层文本标签的多重通道结构，来严格守护极端视网膜病理条件与光害下的系统语义传递。",
+          "ttsFp": "df1f62b1_119",
+          "srtCueIdx": 266,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位同学，至此你的开发武器库里已经初步拥有了对信息架构、容器坐标布局、甚至像素排版色彩的精细系统控制力。你们已经能够搭建出一个看起来非常专业、整洁的标准化现代化应用。",
+          "ttsFp": "b590bdd3_83",
+          "srtCueIdx": 267,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这足够了吗？",
+          "ttsFp": "0b2beeb2_7",
+          "srtCueIdx": 268,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "别忘了，交互产品开发的核心在于“复杂系统的交互容错能力”。当真实世界中代入情绪的用户在终端上飞速猛击危险按钮、拉起重置系统弹窗、甚至在焦躁下粗暴强行操作你的表单时，单纯美好和谐的排版色彩绝对防不住系统流程的崩盘。",
+          "ttsFp": "518d690c_106",
+          "srtCueIdx": 269,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[PREVIEW]",
+          "ttsFp": "7e44199f_9",
+          "srtCueIdx": 270,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在下周的 **W08《视觉重构：深度与防错》** 中，我们将会把今天还处于安全扁平二维的坐标系，向下深挖出具备纵深 Z 轴的三维视觉深度。",
+          "ttsFp": "7ea7dd26_69",
+          "srtCueIdx": 271,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你将学会如何利用阴影视差 (Box-Shadow) 和毛玻璃滤镜 (Backdrop-filter) 强制建立脱离地表悬浮空间的高程秩序权；你将直面那些暗存恶意、极度欺骗型的 Dark Patterns (暗黑模式反人性陷阱)；最后，你更会化身为系统总防线守门员，利用全位兜底提示、状态沙盒撤销来编织保护普通用户的安全巨网。",
+          "ttsFp": "d8a50948_162",
+          "srtCueIdx": 272,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[ADVANCED]",
+          "ttsFp": "73ddd013_10",
+          "srtCueIdx": 273,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 38,
+          "srcLEnd": 38
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**工程纪律的落幕：从视觉线框到代码基石**",
+          "ttsFp": "f82fdde5_22",
+          "srtCueIdx": 274,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在结束今天理论之前，我们必须面对工业界的现实：再精美的水晶级色彩系统设计方案，如果不能在前端代码仓库里稳定重构为数字化资产，它永远只是脆弱的概念稿。",
+          "ttsFp": "461a4325_74",
+          "srtCueIdx": 275,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 40,
+          "srcLEnd": 40
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在大型企业级项目架构里，现代设计师与前端开发者的层级交接，早已抛弃了只发 `#Hex` 色值切图标注的原始模式。",
+          "ttsFp": "6eb3d2da_56",
+          "srtCueIdx": 276,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们今天调配出的 9 阶系统色彩主轴（例如 `blue-500`）、带情绪温度的灰阶架构（例如 `warm-gray-900`）以及一系列字重对比梯队，最终都必须以 **设计令牌 (Design Tokens)** 的形式固化下来。",
+          "ttsFp": "71b7b734_116",
+          "srtCueIdx": 277,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "设计令牌是整个前端视觉系统的“绝对常量”。当交互师在 Figma 中指定毁灭性操作按钮必须调用 `Token: Danger-500` 时，这并非一个单薄的六位代码，它背后绑定着工程化承诺：它预设了最高级别的色彩对比度强制拦截标准，并要求周围的干扰元素必须全盘配合执行反向弱化削弱。",
+          "ttsFp": "fcdc3784_141",
+          "srtCueIdx": 278,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "前端工程师在获取这个系统指令后，即可在诸如 Tailwind CSS 或是原生层叠样式变量树中建立严丝合缝的物理级映射挂载。",
+          "ttsFp": "9ec88234_62",
+          "srtCueIdx": 279,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种严苛极权化的高压强制绑定，带来了不可估量的规模效益：三年长周期之后，当你们公司的品牌主色需要全盘刷新变动，或者必须对深色版暗黑系统进行高反差亮度适配迁移优化修复时，开发团队压根不需要在几十万行破旧残缺生满铁锈的老代码屎山史库里逐行费力挖掘修改那些散装且隐秘极深难以追踪排雷的颜色色值。",
+          "ttsFp": "cb1710c6_144",
+          "srtCueIdx": 280,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "核心开发组只需在架构原点库深层动一动手指，把底层代数物理映射引擎变量阈值集中拔高，成千上万个界面的层级阴影视差防线瞬间全网全端无缝自动同频翻新，无一死角完美继承执行下发纪律。",
+          "ttsFp": "2024fc26_87",
+          "srtCueIdx": 281,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这，才是统治现代超级数字航母级产品矩阵界面的基座秘密。你们不再是只会调色的画手，而是能利用规则引擎建造秩序架构高墙的交互执剑人。",
+          "ttsFp": "13441cd5_64",
+          "srtCueIdx": 282,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 50,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "用理性的数字色彩模型搭建基础秩序，用不可侵犯的三维Z轴深度接住人性试错。我们下周再见。",
+          "ttsFp": "120548c4_43",
+          "srtCueIdx": 283,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W07_视觉重构：层级与色彩/src/M07_小结_视觉层级与色彩纪律.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        }
+      ],
+      "firstSrtCueIdx": 261,
+      "budgetChars": 1800,
+      "oralCharCount": 1272,
+      "estimatedMinutes": 7.1,
+      "fillRatio": 0.71
+    }
+  ]
+}

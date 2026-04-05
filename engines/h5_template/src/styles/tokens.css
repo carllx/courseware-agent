@@ -1,0 +1,228 @@
+/* ============================================================
+   设计令牌 + 全局重置 + 通用原语
+   主题色通过 CSS 变量由 slides.json 运行时注入
+   ============================================================ */
+
+:root {
+  /* 默认主题回退值（被 JS 运行时覆盖） */
+  --theme-bg: #F5F0EB;
+  --theme-bgSurface: #FFFFFF;
+  --theme-bgElevated: #EDE7E0;
+  --theme-bgDark: #2D2926;
+  --theme-primary: #B85042;
+  --theme-secondary: #5B7B6F;
+  --theme-accent: #C9A96E;
+  --theme-info: #6B8FAD;
+  --theme-text: #2D2926;
+  --theme-textSecondary: #6B635C;
+  --theme-textMuted: #A39B93;
+  /* Phase 1 新增：语义色 */
+  --theme-textOnDark: #F5F0EB;
+  --theme-primaryLight: #D4756A;
+  --theme-primaryMuted: #8C3A30;
+  --theme-success: #5B7B6F;
+  --theme-warning: #C9A96E;
+  --theme-error: #B85042;
+  --theme-border: #D6CFC7;
+  /* RGB 通道 — 用于半透明 rgba() 需求 */
+  --theme-primaryRgb: 184, 80, 66;
+  --theme-secondaryRgb: 91, 123, 111;
+  /* 字体 */
+  --theme-fontTitle: 'Playfair Display', 'Noto Serif SC', serif;
+  --theme-fontBody: 'Inter', 'Noto Sans SC', sans-serif;
+  --theme-fontTitleCn: 'Noto Serif SC', serif;
+  --theme-fontBodyCn: 'Noto Sans SC', sans-serif;
+
+  /* 间距系统 */
+  --sp-xs: 4px;
+  --sp-sm: 8px;
+  --sp-md: 16px;
+  --sp-lg: 24px;
+  --sp-xl: 32px;
+  --sp-2xl: 48px;
+
+  /* 圆角 */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* 阴影 */
+  --shadow-card: 0 2px 12px rgba(0,0,0,0.06);
+  --shadow-elevated: 0 8px 32px rgba(0,0,0,0.1);
+
+  /* 自适应透明层（Phase 4: 由 JS 根据 isDark 覆盖） */
+  --theme-overlay-subtle: rgba(0,0,0,0.06);
+  --theme-overlay-hover: rgba(0,0,0,0.02);
+  --theme-overlay-divider: rgba(0,0,0,0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--theme-fontBody), var(--theme-fontBodyCn);
+  background: var(--theme-bg);
+  color: var(--theme-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   通用状态
+   ============================================================ */
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: var(--sp-md);
+  color: var(--theme-textMuted);
+}
+
+.loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--theme-bgElevated);
+  border-top-color: var(--theme-primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--theme-textMuted);
+  font-size: 14px;
+  gap: var(--sp-sm);
+}
+
+.empty-state-enhanced {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, transparent 100%);
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  opacity: 0.4;
+  margin-bottom: var(--sp-sm);
+}
+
+.empty-state-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--theme-textSecondary);
+}
+
+.empty-state-hint {
+  font-size: 13px;
+  color: var(--theme-textMuted);
+  opacity: 0.7;
+}
+
+/* ============================================================
+   通用原语（跨组件共用）
+   ============================================================ */
+
+/* 错误页面 — Dashboard + LessonViewer 共用 */
+.dashboard-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  gap: var(--sp-md);
+  text-align: center;
+  padding: var(--sp-xl);
+}
+
+.dashboard-error h2 {
+  font-size: 20px;
+  color: #e4e6eb;
+}
+
+.dashboard-error code {
+  background: #252836;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #8b8fa3;
+}
+
+.error-hint {
+  font-size: 13px;
+  color: #6b6f82;
+}
+
+/* 通用 badge — Dashboard + CoursePage 共用 */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.badge-weeks {
+  background: rgba(108, 99, 255, 0.15);
+  color: #a29bfe;
+}
+
+.badge-type {
+  background: rgba(255, 176, 46, 0.12);
+  color: #ffc048;
+}
+
+.badge-audio {
+  background: rgba(46, 213, 115, 0.12);
+  color: #2ed573;
+  font-size: 12px;
+}
+
+.badge-srt {
+  background: rgba(108, 99, 255, 0.12);
+  color: #a29bfe;
+}
+
+/* 进度条基础 — Dashboard + CoursePage 共用 */
+.progress-bar {
+  flex: 1;
+  height: 4px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 2px;
+  overflow: hidden;
+  min-width: 60px;
+}
+
+/* P1 #4: 进度条 0% 空状态 */
+.progress-bar-empty {
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255,255,255,0.08) 0px,
+    rgba(255,255,255,0.08) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}

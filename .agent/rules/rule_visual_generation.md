@@ -31,7 +31,7 @@ description: 当准备调用 generate_image 为课程生成视觉资产时，必
 最终 Prompt 必须按以下的“模块化”架构进行拼装，并在第二步进行**场景路由分流**：
 
 ```
-[Scene 描述（根据 [VISUAL].Scene 并结合 yaml 内指导精神的英文发散叙述）],
+[Scene 描述（核心要求：不仅仅翻译物理画面，必须强制加入 `[Emotional/Psychological Tension]` 层。提取脚本上下文中潜藏的痛点、焦虑或顿悟，翻译为视觉张力形容词，例如：'overwhelming, feeling of suffocation, sterile, high contrast tension, breathing room' 等，以确保生成资产具有受众共鸣的氧气感和情绪张力）],
 [路由条件分流：
   - 若为封面、隐喻、插画、转场：附加 `style.prompt_variants.Layout` + `style.prompt_templates.base_en`。
   - 若为认知诊断测试图、数据纯净图纸 (Infographic/Test)：强制忽略所有 Layout，唯一附加 `style.prompt_templates.pure_geometry_en`。],

@@ -1,4 +1,6 @@
 import { useRef, useEffect, useState } from 'react'
+import '../styles/nav-bar.css'
+import DurationGauge from './DurationGauge'
 
 /**
  * NavigationBar — 底部模块导航条
@@ -55,6 +57,7 @@ export default function NavigationBar({ sections = [], currentIdx, onSwitch }) {
             {sec.slides?.length > 0 && (
               <span className="slide-count">{sec.slides.length}</span>
             )}
+            <DurationGauge section={sec} />
           </button>
         ))}
       </nav>

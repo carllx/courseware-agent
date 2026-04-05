@@ -1,0 +1,103 @@
+/* ============================================================
+   底部导航栏
+   ============================================================ */
+
+/* P1 #6: 导航栏滚动指示器包装器 */
+.nav-bar-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.nav-bar-wrapper::before,
+.nav-bar-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.nav-bar-wrapper::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--theme-bgDark, #2D2926) 0%, transparent 100%);
+}
+
+.nav-bar-wrapper::after {
+  right: 0;
+  background: linear-gradient(-90deg, var(--theme-bgDark, #2D2926) 0%, transparent 100%);
+}
+
+.nav-bar-wrapper.has-overflow-left::before {
+  opacity: 1;
+}
+
+.nav-bar-wrapper.has-overflow-right::after {
+  opacity: 1;
+}
+
+.nav-bar {
+  display: flex;
+  flex-shrink: 0;
+  background: var(--theme-bgDark);
+  overflow-x: auto;
+  min-height: 42px;
+}
+
+.nav-bar::-webkit-scrollbar {
+  height: 3px;
+}
+
+.nav-bar::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 2px;
+}
+
+.nav-tab {
+  flex-shrink: 0;
+  padding: var(--sp-sm) var(--sp-md);
+  border: none;
+  background: transparent;
+  color: rgba(245, 240, 235, 0.5);
+  font-family: var(--theme-fontBodyCn);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.nav-tab:hover {
+  color: rgba(245, 240, 235, 0.8);
+}
+
+.nav-tab.active {
+  color: var(--theme-bg);
+  border-bottom-color: var(--theme-primary);
+  font-weight: 600;
+}
+
+.slide-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(245, 240, 235, 0.6);
+  line-height: 1;
+}
+
+.nav-tab.active .slide-count {
+  background: rgba(var(--theme-primaryRgb), 0.4);
+  color: var(--theme-bg);
+}

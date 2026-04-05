@@ -14,7 +14,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S04_Title_Cover`
-> *   **Layout**: `Title`
+> *   **Layout**: `Center`
 > *   **Asset**: ![预览](assets/slides/S04_Title_Cover.png)
 > *   **Scene**: 标题页。标题“岗前培训：高分攻略”，副标题“Pre-job Training: How to Score High”。
 
@@ -32,7 +32,7 @@ S01 强调了“先申请后实习”的大逻辑。现在我们进入实操层�
 
 > [VISUAL]
 > *   **Slide**: `S04_Three_Dates_Logic`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Asset**: ![预览](assets/slides/S04_Three_Dates_Logic.png)
 > *   **Scene**: 三个方块依次排列：1. 学生总结日期 -> 2. 老师意见日期 -> 3. 学生整改日期。重点是每个方块之间的红色不等号“≠”，强调这三个日期绝不能是同一天。这个流程形成了一个时间的闭环，每一个节点的日期都必须逻辑自洽，体现出真实的流转过程，而非瞬时完成。
 
@@ -54,7 +54,7 @@ S01 强调了“先申请后实习”的大逻辑。现在我们进入实操层�
 
 > [VISUAL]
 > *   **Slide**: `S04_Log_Four_Elements`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S04_Log_Four_Elements.png)
 > *   **Scene**: 四张卡片组成的矩阵。左上：Task (做了什么)；右上：Learning (学到了什么)；左下：Difficulty (遇到了什么困难)；右下：Solution (如何解决的)。
 
@@ -76,7 +76,7 @@ S01 讲了公章要盖红色、不能压字。这里不再赘述。
 
 > [VISUAL]
 > *   **Slide**: `S04_Score_Distribution`
-> *   **Layout**: `Chart`
+> *   **Layout**: `Flow`
 > *   **Asset**: ![预览](assets/slides/S04_Score_Distribution.png)
 > *   **Scene**: 一个正态分布图。大多数分数在 85-95 区间，100分 区域被打上“Warning”标签。
 > *   **Text**: "100分 = 假 (Too Perfect to be True)"
@@ -95,7 +95,7 @@ S01 讲了公章要盖红色、不能压字。这里不再赘述。
 
 > [VISUAL]
 > *   **Slide**: `S04_Proof_Duration`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Asset**: ![预览](assets/slides/S04_Proof_Duration.png)
 > *   **Scene**: 一张《在岗证明》样本，高亮"实习期限"一栏。
 > *   **Text**: "Aim for 1 Year (争取写一年)"
@@ -109,7 +109,7 @@ S01 讲了公章要盖红色、不能压字。这里不再赘述。
 
 > [VISUAL]
 > *   **Slide**: `S04_Final_Checklist`
-> *   **Layout**: `List`
+> *   **Layout**: `Split`
 > *   **Asset**: ![预览](assets/slides/S04_Final_Checklist.png)
 > *   **Scene**: 最终清单：1. 月志拒绝流水账；2. 日期逻辑不仅要对，还要有间隔；3. 评分拒绝100分。这份清单是你们通向“优秀实习生”的最后一道防火墙，请务必拍照留存。
 

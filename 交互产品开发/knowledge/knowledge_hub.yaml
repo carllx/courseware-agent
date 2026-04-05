@@ -1,786 +1,200 @@
 meta:
   course: 交互产品开发
   last_updated: 2026-02-24
-  supplementary_textbooks:
-  - Lean UX, Jeff Gothelf, 2022
-  - About Face 4, Alan Cooper, 2015
-  - Refactoring UI, Adam Wathan, 2018
-  - 数字媒体交互设计(慕课版), 张靖瑶, 2022
+  supplementary_textbooks: ['Lean UX, Jeff Gothelf, 2022', 'About Face 4, Alan Cooper,
+      2015', 'Refactoring UI, Adam Wathan, 2018', '数字媒体交互设计(慕课版), 张靖瑶, 2022']
   textbook: 'Interaction Design: Beyond HCI, Yvonne Rogers, 2023'
   textbook_dir: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact
     Ion, -- Yvonne Rogers,2023
-entries:
-- id: ch01-what-is-ixd
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_03_Chapter_1.md
-  summary: 交互设计定义、可用性目标与用户体验目标的区分
-  tags:
-  - UX
-  - usability
-  - definition
-  - UX-goals
-  type: textbook
-- id: ch02-ixd-process
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_04_Chapter_2.md
-  summary: 以用户为中心的设计流程：发现-原型-评估循环
-  tags:
-  - design-process
-  - people-centered
-  - iteration
-  type: textbook
-- id: ch03-conceptual-models
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_05_Chapter_3.md
-  summary: 概念模型与五种交互类型：指令/对话/操控/探索/响应
-  tags:
-  - conceptual-model
-  - interaction-types
-  - metaphor
-  - mental-model
-  type: textbook
-- id: ch04-cognitive-aspects
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_06_Chapter_4.md
-  summary: 认知维度：注意力/感知/记忆/学习/决策与分布式认知
-  tags:
-  - cognition
-  - attention
-  - memory
-  - mental-load
-  type: textbook
-- id: ch06-emotional-interaction
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_08_Chapter_6.md
-  summary: 情感化设计：情绪与行为、说服性技术与拟人化风险
-  tags:
-  - emotion
-  - affective-computing
-  - persuasion
-  type: textbook
-- id: ch07-interfaces
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_09_Chapter_7.md
-  summary: 界面类型：NUI/语音/AR-VR/可穿戴/触觉及选型
-  tags:
-  - interface-types
-  - NUI
-  - wearable
-  - AR
-  type: textbook
-- id: ch08-data-gathering
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_10_Chapter_8.md
-  summary: 数据收集：访谈/问卷/观察/日记的适用场景与要点
-  tags:
-  - data-gathering
-  - interview
-  - questionnaire
-  - observation
-  type: textbook
-- id: ch11-requirements
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_18_Chapter_11.md
-  summary: 需求发现：Persona与Scenario构建方法
-  tags:
-  - requirements
-  - persona
-  - scenario
-  type: textbook
-- id: ch12-prototyping
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_19_Chapter_12.md
-  summary: 原型方法论：低/高保真权衡与评估方式
-  tags:
-  - prototyping
-  - low-fi
-  - high-fi
-  - wireframe
-  type: textbook
-- id: ch13-agile-ux
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_20_Chapter_13.md
-  summary: AgileUX方法、设计模式复用与现代工具链
-  tags:
-  - agile-UX
-  - design-patterns
-  - lean-UX
-  type: textbook
-- id: ch14-16-evaluation
-  source: knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact Ion,
-    -- Yvonne Rogers,2023/chapter_21_Chapter_14.md
-  summary: 评估体系：启发式评估/实验室测试/A-B测试
-  tags:
-  - evaluation
-  - usability-testing
-  - Nielsen-10
-  - analytics
-  type: textbook
-- id: book-refactoring-ui
-  source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/index.md
-  summary: 视觉实战圣经，适用Exp3视觉重塑阶段
-  tags:
-  - visual-design
-  - ui-patterns
-  - Exp3
-  type: textbook
-- id: book-lean-ux
-  source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/index.md
-  summary: 敏捷开发工作流指南，支持Exp1洞察阶段
-  tags:
-  - agile-development
-  - MVP
-  - Exp1
-  type: textbook
-- id: book-about-face-4
-  source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/index.md
-  summary: 交互设计经典，目标导向设计流程与界面规范
-  tags:
-  - goal-directed
-  - classic-theory
-  type: textbook
-- id: book-dm-ixd-zhang
-  source: knowledge/textbook/张靖瑶_数字媒体交互设计_慕课版_2022/index.md
-  summary: 国内十四五标准教材，补充项目管理与需求分析
-  tags:
-  - chinese-textbook
-  - standard-framework
-  type: textbook
-- id: lean-ux-ch05-06-business
-  source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/chapter_08_Chapter_5_Box_1_Business_Problem.md
-  summary: LeanUX画布前两步：商业痛点与预期产出
-  tags:
-  - lean-UX
-  - business-problem
-  - Exp1
-  type: textbook
-- id: lean-ux-ch07-proto-persona
-  source: knowledge/notes/lean-ux-ch07-proto-persona.md
-  summary: Proto-Persona 极简用户画像：三分区模板、先假设再验证的敏捷用户建模、三次早期验证法则
-  tags:
-  - lean-UX
-  - proto-persona
-  - user-modeling
-  - Exp1
-  type: note
-- id: lean-ux-ch10-hypotheses
-  source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/chapter_13_Chapter_10_Box_6_Hypotheses.md
-  summary: 假说驱动：产品猜想转化为可验证假设
-  tags:
-  - lean-UX
-  - hypotheses
-  - assumption
-  - Exp1
-  type: textbook
-- id: lean-ux-ch12-mvp
-  source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/chapter_15_Chapter_12_Box_8_MVPs_and_Experiments.md
-  summary: MVP定义：用最低成本测试产品假设
-  tags:
-  - lean-UX
-  - MVP
-  - experiment
-  - Exp1
-  type: textbook
-- id: exp1-lean-ux-overview
-  source: knowledge/notes/exp1-lean-ux-overview.md
-  summary: Exp1聚合笔记：Lean UX循环、痛点陈述、假设模板、MVP类型光谱
-  tags:
-  - Exp1
-  - lean-UX
-  - MVP
-  - hypotheses
-  type: note
-- id: about-face-ch01-digital-fail
-  source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_05_A_DESIGN_PROCESS_FOR_DIGITAL_PRODUCTS.md
-  summary: 数字产品失败原因与恶劣产品行为代价
-  tags:
-  - about-face
-  - digital-products
-  - failure
-  type: textbook
-- id: about-face-ch11-flow
-  source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_23_ORCHESTRATION_AND_FLOW.md
-  summary: 页面流与和谐交互的状态机梳理
-  tags:
-  - about-face
-  - orchestration
-  - flow
-  - Exp2
-  type: textbook
-- id: about-face-ch15-prevent-errors
-  source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_34_PREVENTING_ERRORS_AND_INFORMING_DECISIONS.md
-  summary: 预防错误与情境反馈的兜底设计
-  tags:
-  - about-face
-  - error-prevention
-  - affordance
-  - Exp2
-  type: textbook
-- id: refactoring-ui-hierarchy
-  source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_06_Hierarchy_is_Everything.md
-  summary: 信息层级构建：字重/比例/空间的非侵入式策略
-  tags:
-  - refactoring-ui
-  - hierarchy
-  - visual-design
-  - Exp2
-  type: textbook
-- id: refactoring-ui-color
-  source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_29_Working_with_Color.md
-  summary: HSL调色板构建及原色与灰阶运用
-  tags:
-  - refactoring-ui
-  - color
-  - HSL
-  - Exp2
-  type: textbook
-- id: refactoring-ui-depth
-  source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_36_Creating_Depth.md
-  summary: 阴影/多重边框与覆盖建立界面深度
-  tags:
-  - refactoring-ui
-  - depth
-  - shadows
-  - Exp2
-  type: textbook
-- id: refactoring-ui-empty-states
-  source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_48_Don_t_overlook_empty_states.md
-  summary: 空箱状态设计盲区
-  tags:
-  - refactoring-ui
-  - empty-states
-  - Exp2
-  type: textbook
-- id: ixd-usability-goals
-  source: knowledge/notes/ixd-usability-goals.md
-  summary: 可用性六目标深度解析与权衡
-  tags:
-  - usability-goals
-  - effectiveness
-  - learnability
-  - Exp1
-  type: note
-- id: ixd-design-principles
-  source: knowledge/notes/ixd-design-principles.md
-  summary: 交互五大原则：可见性/反馈/约束/一致性/示能
-  tags:
-  - design-principles
-  - visibility
-  - feedback
-  - affordance
-  type: note
-- id: about-face-mental-models
-  source: knowledge/notes/about-face-mental-models.md
-  summary: 心理模型vs实施模型vs表现模型核心分野
-  tags:
-  - mental-model
-  - implementation-model
-  - represented-model
-  type: note
-- id: vibe-coding-human-ai-collaboration
-  source: knowledge/notes/vibe-coding-human-ai-collaboration.md
-  summary: VibeCoding人机协同：Karpathy理念与v0+Cursor工具链
-  tags:
-  - vibe-coding
-  - AI-prototyping
-  - Exp3
-  type: note
-- id: prompt-engineering-ui
-  source: knowledge/notes/prompt-engineering-ui.md
-  summary: UI生成Prompt RCPVU五层框架与三阶段迭代法
-  tags:
-  - prompt-engineering
-  - design-tokens
-  - AI-generation
-  - Exp3
-  type: note
-- id: ai-code-generation-constraints
-  source: knowledge/notes/ai-code-generation-constraints.md
-  summary: AI代码生成六大约束与人机职责边界
-  tags:
-  - AI-constraints
-  - vibe-coding
-  - code-review
-  - Exp3
-  type: note
-- id: vibe-coding-textbook-guidance
-  source: knowledge/notes/vibe-coding-textbook-guidance.md
-  summary: AI驱动视觉实战教材缺口补完方案
-  tags:
-  - textbook-guidance
-  - vibe-coding
-  type: note
-- id: glossary
-  source: knowledge/glossary.md
-  summary: 课程中英文核心术语对照表
-  tags:
-  - glossary
-  - definition
-  type: note
-- id: china-app-accessibility-status
-  source: knowledge/notes/china-app-accessibility-status.md
-  summary: 中国App无障碍现状：GB/T37668与头部平台改造
-  tags:
-  - accessibility
-  - GB/T-37668
-  - ideology
-  type: note
-- id: dark-pattern-china-cases
-  source: knowledge/notes/dark-pattern-china-cases.md
-  summary: 暗黑模式六大中国App案例及中欧监管对比
-  tags:
-  - dark-pattern
-  - ethics
-  - deceptive-design
-  - ideology
-  type: note
-- id: ixd-interface-metaphors
-  source: knowledge/notes/ixd-interface-metaphors.md
-  summary: 界面隐喻优势与局限、逻辑冲突解析
-  tags:
-  - metaphor
-  - conceptual-model
-  - mental-model
-  type: note
-- id: ixd-memory-load
-  source: knowledge/notes/ixd-memory-load.md
-  summary: 工作记忆瓶颈与"识别胜于回忆"原则
-  tags:
-  - memory-load
-  - recognition-vs-recall
-  - cognition
-  - Exp2
-  type: note
-- id: ixd-gulfs-of-execution-and-evaluation
-  source: knowledge/notes/ixd-gulfs-of-execution-and-evaluation.md
-  summary: 执行与评估鸿沟：Norman认知框架与心智摩擦来源
-  tags:
-  - gulf-of-execution
-  - gulf-of-evaluation
-  - Norman
-  type: note
-- id: case-cognitive-overload
-  source: knowledge/notes/case-cognitive-overload.md
-  summary: LingsCars/ERP等认知过载灾难真实案例
-  tags:
-  - case-study
-  - cognitive-overload
-  - sensory-overload
-  - Exp2
-  type: note
-- id: about-face-orchestration-strategies
-  source: knowledge/notes/about-face-orchestration-strategies.md
-  summary: 交互编排14条策略：心智模型/少即是多/提供选择
-  tags:
-  - orchestration
-  - harmonious-interaction
-  - Exp2
-  type: note
-- id: about-face-excise-types
-  source: knowledge/notes/about-face-excise-types.md
-  summary: 附加税6类型及消除策略
-  tags:
-  - excise
-  - navigation
-  - goal-directed
-  - Exp2
-  type: note
-- id: refactoring-ui-hierarchy-tactics
-  source: knowledge/notes/refactoring-ui-hierarchy-tactics.md
-  summary: 层级实战5策略：弱化强调/标签后置/语义让位
-  tags:
-  - hierarchy
-  - de-emphasize
-  - labels
-  - Exp2
-  type: note
-- id: refactoring-ui-color-advanced
-  source: knowledge/notes/refactoring-ui-color-advanced.md
-  summary: 色彩进阶：饱和度补偿/感知亮度/灰阶温度
-  tags:
-  - color
-  - saturation
-  - perceived-brightness
-  - Exp2
-  type: note
-- id: refactoring-ui-color-accessibility
-  source: knowledge/notes/refactoring-ui-color-accessibility.md
-  summary: WCAG对比度/翻转策略/多通道冗余
-  tags:
-  - color
-  - accessibility
-  - WCAG
-  - Exp2
-  type: note
-- id: dom-box-model-mental-map
-  source: knowledge/notes/dom-box-model-mental-map.md
-  summary: DOM盒模型与Figma属性映射
-  tags:
-  - DOM
-  - box-model
-  - CSS
-  - Figma
-  type: note
-- id: flex-autolayout-mapping
-  source: knowledge/notes/flex-autolayout-mapping.md
-  summary: CSS Flex与Figma AutoLayout双向翻译协议
-  tags:
-  - CSS-flex
-  - auto-layout
-  - Figma
-  - Exp2
-  type: note
-- id: refactoring-ui-layout-spacing
-  source: knowledge/notes/refactoring-ui-layout-spacing.md
-  summary: 布局间距系统6策略：留白/刻度/消除歧义
-  tags:
-  - layout
-  - spacing-system
-  - grid
-  - Exp2
-  type: note
-- id: component-thinking-token-api
-  source: knowledge/notes/component-thinking-token-api.md
-  summary: 组件化思维：Atomic Design五层与Design Token命名
-  tags:
-  - atomic-design
-  - design-token
-  - component
-  - Exp2
-  type: note
-- id: refactoring-ui-shadow-elevation
-  source: knowledge/notes/refactoring-ui-shadow-elevation.md
-  summary: 5级阴影系统与双阴影技法
-  tags:
-  - shadows
-  - elevation
-  - interaction
-  - Exp2
-  type: note
-- id: refactoring-ui-flat-depth
-  source: knowledge/notes/refactoring-ui-flat-depth.md
-  summary: 扁平化深度：颜色明暗/实心阴影/元素重叠
-  tags:
-  - flat-design
-  - depth
-  - overlap
-  - Exp2
-  type: note
-- id: about-face-motion-microinteractions
-  source: knowledge/notes/about-face-motion-microinteractions.md
-  summary: 微交互Saffer四要素与Cooper动效六目标
-  tags:
-  - microinteraction
-  - motion
-  - transition
-  - Exp3
-  type: note
-- id: frontend-animation-techniques
-  source: knowledge/notes/frontend-animation-techniques.md
-  summary: CSS动效原理：transition/animation/60fps/无障碍
-  tags:
-  - CSS
-  - animation
-  - performance
-  - Exp3
-  type: note
-- id: ai-driven-animation-generation
-  source: knowledge/notes/ai-driven-animation-generation.md
-  summary: v0动效生成能力与Prompt工程实践
-  tags:
-  - AI
-  - v0
-  - framer-motion
-  - Exp3
-  type: note
-- id: evaluation-framework-overview
-  source: knowledge/notes/evaluation-framework-overview.md
-  summary: 评估三大类与形成性vs总结性选型
-  tags:
-  - evaluation
-  - formative
-  - summative
-  - Exp4
-  type: note
-- id: nielsen-10-heuristics
-  source: knowledge/notes/nielsen-10-heuristics.md
-  summary: Nielsen十大启发式逐条详解与3-5人实证
-  tags:
-  - Nielsen-10
-  - heuristic
-  - usability
-  - Exp4
-  type: note
-- id: heuristic-evaluation-methodology
-  source: knowledge/notes/heuristic-evaluation-methodology.md
-  summary: 启发式评估三阶段与假阳性43%统计
-  tags:
-  - heuristic
-  - methodology
-  - expert-review
-  - Exp4
-  type: note
-- id: prototyping-fidelity-spectrum
-  source: knowledge/notes/prototyping-fidelity-spectrum.md
-  summary: 混合保真度光谱与进化式vs抛弃式策略
-  tags:
-  - prototyping
-  - fidelity
-  - compromise
-  - Exp3
-  type: note
-- id: llm-code-reading-debugging
-  source: knowledge/notes/llm-code-reading-debugging.md
-  summary: LLM辅助代码排障Read→Explain→Fix三步法
-  tags:
-  - LLM
-  - debugging
-  - code-reading
-  - Exp3
-  type: note
-- id: exp3-demo-fallback-strategy
-  source: knowledge/notes/exp3-demo-fallback-strategy.md
-  summary: Exp3三级降级：AI自查→Figma热补→混合演示
-  tags:
-  - fallback
-  - mixed-fidelity
-  - demo-strategy
-  - Exp3
-  type: note
-- id: think-aloud-methodology
-  source: knowledge/notes/think-aloud-methodology.md
-  summary: 出声思考法：并发CTA vs回溯RTA与执行要素
-  tags:
-  - think-aloud
-  - CTA
-  - usability-testing
-  - Exp4
-  type: note
-- id: usability-testing-lab-workflow
-  source: knowledge/notes/usability-testing-lab-workflow.md
-  summary: 可用性测试五步流程与5人ROI拐点
-  tags:
-  - usability-testing
-  - lab-workflow
-  - SUS
-  - Exp4
-  type: note
-- id: classroom-usability-testing-adaptation
-  source: knowledge/notes/classroom-usability-testing-adaptation.md
-  summary: 课堂降维方案：Krug车库理念与预制模板
-  tags:
-  - classroom-testing
-  - peer-testing
-  - Krug
-  - Exp4
-  type: note
-- id: usability-data-analysis
-  source: knowledge/notes/usability-data-analysis.md
-  summary: 亲和图聚类→严重度矩阵→修复影响决策
-  tags:
-  - affinity-diagram
-  - severity-rating
-  - SUS
-  - Exp4
-  type: note
-- id: ux-closure-narrative
-  source: knowledge/notes/ux-closure-narrative.md
-  summary: UX闭环三幕叙事与双层旅程图格式
-  tags:
-  - narrative
-  - journey-map
-  - before-after
-  - Exp4
-  type: note
-- id: portfolio-case-study-structure
-  source: knowledge/notes/portfolio-case-study-structure.md
-  summary: 作品集八章节法与艺术生三大误区
-  tags:
-  - portfolio
-  - case-study
-  - design-process
-  - Exp4
-  type: note
-- id: china-app-global-ixd-paradigm
-  source: knowledge/notes/china-app-global-ixd-paradigm.md
-  summary: 微信/TikTok/SHEIN交互范式全球影响力核查
-  tags:
-  - WeChat
-  - TikTok
-  - interaction-paradigm
-  - ideology
-  type: note
-- id: sms-accessibility-history
-  source: knowledge/notes/sms-accessibility-history.md
-  summary: SMS非专为听障设计但听障率先采用的普世创新
-  tags:
-  - SMS
-  - accessibility
-  - inclusive-design
-  type: note
-- id: dark-pattern-regulation-2025
-  source: knowledge/notes/dark-pattern-regulation-2025.md
-  summary: EU DSA/FTC暗黑模式审查与Adobe/Amazon诉讼
-  tags:
-  - dark-pattern
-  - regulation
-  - DSA
-  - ethics
-  type: note
-- id: inclusive-design-frontier-2025
-  source: knowledge/notes/inclusive-design-frontier-2025.md
-  summary: AI驱动无障碍与超个性化自适应界面前沿
-  tags:
-  - inclusive-design
-  - AI
-  - EAA
-  - adaptive-interface
-  type: note
-- id: fatal-interface-design-cases
-  source: knowledge/notes/fatal-interface-design-cases.md
-  summary: Therac-25/三哩岛/737MAX致命界面设计缺陷
-  tags:
-  - fatal-design
-  - Therac-25
-  - Boeing-737-MAX
-  - safety
-  type: note
-- id: china-daily-digital-friction
-  source: knowledge/notes/china-daily-digital-friction.md
-  summary: 公交扫码老人/健康码排斥等中国数字化代价
-  tags:
-  - digital-divide
-  - elderly
-  - China
-  - friction
-  type: note
-- id: teamlab-borderless-ixd
-  source: knowledge/notes/teamlab-borderless-ixd.md
-  summary: 零标识导视与触摸响应式装置的零认知负荷设计
-  tags:
-  - teamLab
-  - immersive
-  - zero-friction
-  type: note
-- id: w01-narrative-archaeology
-  source: knowledge/notes/w01-narrative-archaeology.md
-  summary: W01叙事考古素材集：数字灾难/可用性极端案例/心理模型日常/设计原则奇闻
-  tags:
-  - w01
-  - narrative
-  - case-study
-  - human-culture
-  type: note
-- id: frontend_css_box_model
-  source: knowledge/notes/frontend_css_box_model.md
-  summary: 探讨浏览器世界中的物理边界与空间挤压规则，为从自由画板向响应式工程实现过渡奠定基础。
-  tags:
-  - engineering
-  - w06
-  type: note
-- id: w10-afa-mechanism
-  type: note
-  tags:
-  - microinteraction
-  - AFA
-  - w10
-  summary: 剖析 Action-Feedback-Animation 机制在降低用户心智摩擦和提供空间感知的核心作用
-  source: knowledge/notes/w10-afa-mechanism.md
-- id: w10-chinese-aesthetics-motion
-  type: note
-  tags:
-  - chinese-aesthetics
-  - ideology
-  - emotional-design
-  - w10
-  summary: 以文化符号为例，探讨中国本土设计师如何在数字动效中融入留白、呼吸感与气韵生动的东方哲学
-  source: knowledge/notes/w10-chinese-aesthetics-motion.md
-- id: w10-ai-prompt-gsap-workflow
-  type: note
-  tags:
-  - GSAP
-  - AI-driven-animation
-  - w10
-  summary: 探讨如何通过大模型生成复杂的 GSAP 前沿特效，解决 React/Next.js 环境中的接入冲突
-  source: knowledge/notes/w10-ai-prompt-gsap-workflow.md
-- id: dribbblisation-of-design
-  type: note
-  tags:
-  - portfolio
-  - case-study
-  - pitfall
-  - dribbblisation
-  summary: 过度追求视觉表现（高保真微动效）而忽视真实可用性的行业倾向，提醒学生作品集不能只放假图
-  source: knowledge/notes/dribbblisation-of-design.md
-- id: hero-journey-portfolio
-  type: note
-  tags:
-  - portfolio
-  - narrative
-  - hero-journey
-  - storytelling
-  summary: 将用户视作英雄，产品作为导师，以克服痛点的史诗叙事重构枯燥的作品集流水账
-  source: knowledge/notes/hero-journey-portfolio.md
-- id: design-failure-ux-pivot
-  type: note
-  tags:
-  - design-failure
-  - pivot
-  - usability-testing
-  - portfolio
-  summary: 通过顶级公司的可用性灾难案例，论证作品集中展示根据负面数据进行重构往往比完美结果更有说服力
-  source: knowledge/notes/design-failure-ux-pivot.md
-- id: nielsen-h1-h2-visibility-realworld
-  type: note
-  tags:
-  - Nielsen-10
-  - visibility
-  - real-world-match
-  - usability-testing
-  - error-codes
-  summary: Nielsen H1（可见性）与H2（真实世界匹配）在常见App中的反面案例，如无加载反馈与内部错误码。
-  source: knowledge/notes/nielsen-h1-h2-visibility-realworld.md
-  query_hint: view_file knowledge/notes/nielsen-h1-h2-visibility-realworld.md
-- id: nielsen-h3-h4-psychology-roots
-  type: note
-  tags:
-  - Nielsen-10
-  - consistency
-  - user-control
-  - psychology
-  - cognitive-load
-  summary: H3（用户控制感）与H4（一致性）背后的心理学机制：系统1与系统2、习得性无助与控制错觉。
-  source: knowledge/notes/nielsen-h3-h4-psychology-roots.md
-  query_hint: view_file knowledge/notes/nielsen-h3-h4-psychology-roots.md
-- id: nielsen-h5-h9-safety-critical-errors
-  type: note
-  tags:
-  - Nielsen-10
-  - error-prevention
-  - error-recovery
-  - medical-devices
-  - aviation
-  summary: 医疗输液泵与波音737 MAX空难案例，论证H5（防错）与H9（错误恢复）在安全苛求系统中的致命重要性。
-  source: knowledge/notes/nielsen-h5-h9-safety-critical-errors.md
-  query_hint: view_file knowledge/notes/nielsen-h5-h9-safety-critical-errors.md
-- id: nielsen-h8-minimalist-signal-noise
-  type: note
-  tags:
-  - Nielsen-10
-  - minimalist-design
-  - signal-to-noise-ratio
-  - aesthetics
-  - ui-history
-  summary: 从拟物化到扁平化的UI演变史，以信噪比（Signal-to-Noise Ratio）量化解释H8极简设计原则。
-  source: knowledge/notes/nielsen-h8-minimalist-signal-noise.md
-  query_hint: view_file knowledge/notes/nielsen-h8-minimalist-signal-noise.md
-- id: heuristic-evaluation-false-positives
-  type: note
-  tags:
-  - heuristic-evaluation
-  - false-positives
-  - usability-testing
-  - methodology-limits
-  summary: Bailey(1992)指出启发式走查有43%的问题属假阳性警告，揭示了该方法的理论边界与实操局限。
-  source: knowledge/notes/heuristic-evaluation-false-positives.md
-  query_hint: view_file knowledge/notes/heuristic-evaluation-false-positives.md
+entries: [{id: ch01-what-is-ixd, source: 'knowledge/textbook/Interaction Design_ Beyond
+      Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_03_Chapter_1.md',
+    summary: 交互设计定义、可用性目标与用户体验目标的区分, tags: [UX, usability, definition, UX-goals],
+    type: textbook}, {id: ch02-ixd-process, source: 'knowledge/textbook/Interaction
+      Design_ Beyond Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_04_Chapter_2.md',
+    summary: 以用户为中心的设计流程：发现-原型-评估循环, tags: [design-process, people-centered, iteration],
+    type: textbook}, {id: ch03-conceptual-models, source: 'knowledge/textbook/Interaction
+      Design_ Beyond Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_05_Chapter_3.md',
+    summary: 概念模型与五种交互类型：指令/对话/操控/探索/响应, tags: [conceptual-model, interaction-types,
+      metaphor, mental-model], type: textbook}, {id: ch04-cognitive-aspects, source: 'knowledge/textbook/Interaction
+      Design_ Beyond Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_06_Chapter_4.md',
+    summary: 认知维度：注意力/感知/记忆/学习/决策与分布式认知, tags: [cognition, attention, memory, mental-load],
+    type: textbook}, {id: ch06-emotional-interaction, source: 'knowledge/textbook/Interaction
+      Design_ Beyond Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_08_Chapter_6.md',
+    summary: 情感化设计：情绪与行为、说服性技术与拟人化风险, tags: [emotion, affective-computing, persuasion],
+    type: textbook}, {id: ch07-interfaces, source: 'knowledge/textbook/Interaction
+      Design_ Beyond Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_09_Chapter_7.md',
+    summary: 界面类型：NUI/语音/AR-VR/可穿戴/触觉及选型, tags: [interface-types, NUI, wearable, AR],
+    type: textbook}, {id: ch08-data-gathering, source: 'knowledge/textbook/Interaction
+      Design_ Beyond Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_10_Chapter_8.md',
+    summary: 数据收集：访谈/问卷/观察/日记的适用场景与要点, tags: [data-gathering, interview, questionnaire,
+      observation], type: textbook}, {id: ch11-requirements, source: 'knowledge/textbook/Interaction
+      Design_ Beyond Human-Computer Interact Ion, -- Yvonne Rogers,2023/chapter_18_Chapter_11.md',
+    summary: 需求发现：Persona与Scenario构建方法, tags: [requirements, persona, scenario], type: textbook},
+  {id: ch12-prototyping, source: 'knowledge/textbook/Interaction Design_ Beyond Human-Computer
+      Interact Ion, -- Yvonne Rogers,2023/chapter_19_Chapter_12.md', summary: 原型方法论：低/高保真权衡与评估方式,
+    tags: [prototyping, low-fi, high-fi, wireframe], type: textbook}, {id: ch13-agile-ux,
+    source: 'knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact
+      Ion, -- Yvonne Rogers,2023/chapter_20_Chapter_13.md', summary: AgileUX方法、设计模式复用与现代工具链,
+    tags: [agile-UX, design-patterns, lean-UX], type: textbook}, {id: ch14-16-evaluation,
+    source: 'knowledge/textbook/Interaction Design_ Beyond Human-Computer Interact
+      Ion, -- Yvonne Rogers,2023/chapter_21_Chapter_14.md', summary: 评估体系：启发式评估/实验室测试/A-B测试,
+    tags: [evaluation, usability-testing, Nielsen-10, analytics], type: textbook},
+  {id: book-refactoring-ui, source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/index.md,
+    summary: 视觉实战圣经，适用Exp3视觉重塑阶段, tags: [visual-design, ui-patterns, Exp3], type: textbook},
+  {id: book-lean-ux, source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/index.md,
+    summary: 敏捷开发工作流指南，支持Exp1洞察阶段, tags: [agile-development, MVP, Exp1], type: textbook},
+  {id: book-about-face-4, source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/index.md,
+    summary: 交互设计经典，目标导向设计流程与界面规范, tags: [goal-directed, classic-theory], type: textbook},
+  {id: book-dm-ixd-zhang, source: knowledge/textbook/张靖瑶_数字媒体交互设计_慕课版_2022/index.md,
+    summary: 国内十四五标准教材，补充项目管理与需求分析, tags: [chinese-textbook, standard-framework],
+    type: textbook}, {id: lean-ux-ch05-06-business, source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/chapter_08_Chapter_5_Box_1_Business_Problem.md,
+    summary: LeanUX画布前两步：商业痛点与预期产出, tags: [lean-UX, business-problem, Exp1], type: textbook},
+  {id: lean-ux-ch07-proto-persona, source: knowledge/notes/lean-ux-ch07-proto-persona.md,
+    summary: Proto-Persona 极简用户画像：三分区模板、先假设再验证的敏捷用户建模、三次早期验证法则, tags: [lean-UX, proto-persona,
+      user-modeling, Exp1], type: note}, {id: lean-ux-ch10-hypotheses, source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/chapter_13_Chapter_10_Box_6_Hypotheses.md,
+    summary: 假说驱动：产品猜想转化为可验证假设, tags: [lean-UX, hypotheses, assumption, Exp1], type: textbook},
+  {id: lean-ux-ch12-mvp, source: knowledge/textbook/Gothelf_J_Lean_UX_Designing_Great_Products_with_Ag/chapter_15_Chapter_12_Box_8_MVPs_and_Experiments.md,
+    summary: MVP定义：用最低成本测试产品假设, tags: [lean-UX, MVP, experiment, Exp1], type: textbook},
+  {id: exp1-lean-ux-overview, source: knowledge/notes/exp1-lean-ux-overview.md, summary: Exp1聚合笔记：Lean
+      UX循环、痛点陈述、假设模板、MVP类型光谱, tags: [Exp1, lean-UX, MVP, hypotheses], type: note},
+  {id: about-face-ch01-digital-fail, source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_05_A_DESIGN_PROCESS_FOR_DIGITAL_PRODUCTS.md,
+    summary: 数字产品失败原因与恶劣产品行为代价, tags: [about-face, digital-products, failure], type: textbook},
+  {id: about-face-ch11-flow, source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_23_ORCHESTRATION_AND_FLOW.md,
+    summary: 页面流与和谐交互的状态机梳理, tags: [about-face, orchestration, flow, Exp2], type: textbook},
+  {id: about-face-ch15-prevent-errors, source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_34_PREVENTING_ERRORS_AND_INFORMING_DECISIONS.md,
+    summary: 预防错误与情境反馈的兜底设计, tags: [about-face, error-prevention, affordance, Exp2],
+    type: textbook}, {id: refactoring-ui-hierarchy, source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_06_Hierarchy_is_Everything.md,
+    summary: 信息层级构建：字重/比例/空间的非侵入式策略, tags: [refactoring-ui, hierarchy, visual-design,
+      Exp2], type: textbook}, {id: refactoring-ui-color, source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_29_Working_with_Color.md,
+    summary: HSL调色板构建及原色与灰阶运用, tags: [refactoring-ui, color, HSL, Exp2], type: textbook},
+  {id: refactoring-ui-depth, source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_36_Creating_Depth.md,
+    summary: 阴影/多重边框与覆盖建立界面深度, tags: [refactoring-ui, depth, shadows, Exp2], type: textbook},
+  {id: refactoring-ui-empty-states, source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_48_Don_t_overlook_empty_states.md,
+    summary: 空箱状态设计盲区, tags: [refactoring-ui, empty-states, Exp2], type: textbook},
+  {id: ixd-usability-goals, source: knowledge/notes/ixd-usability-goals.md, summary: 可用性六目标深度解析与权衡,
+    tags: [usability-goals, effectiveness, learnability, Exp1], type: note}, {id: ixd-design-principles,
+    source: knowledge/notes/ixd-design-principles.md, summary: 交互五大原则：可见性/反馈/约束/一致性/示能,
+    tags: [design-principles, visibility, feedback, affordance], type: note}, {id: about-face-mental-models,
+    source: knowledge/notes/about-face-mental-models.md, summary: 心理模型vs实施模型vs表现模型核心分野,
+    tags: [mental-model, implementation-model, represented-model], type: note}, {
+    id: vibe-coding-human-ai-collaboration, source: knowledge/notes/vibe-coding-human-ai-collaboration.md,
+    summary: VibeCoding人机协同：Karpathy理念与v0+Cursor工具链, tags: [vibe-coding, AI-prototyping,
+      Exp3], type: note}, {id: prompt-engineering-ui, source: knowledge/notes/prompt-engineering-ui.md,
+    summary: UI生成Prompt RCPVU五层框架与三阶段迭代法, tags: [prompt-engineering, design-tokens,
+      AI-generation, Exp3], type: note}, {id: ai-code-generation-constraints, source: knowledge/notes/ai-code-generation-constraints.md,
+    summary: AI代码生成六大约束与人机职责边界, tags: [AI-constraints, vibe-coding, code-review, Exp3],
+    type: note}, {id: vibe-coding-textbook-guidance, source: knowledge/notes/vibe-coding-textbook-guidance.md,
+    summary: AI驱动视觉实战教材缺口补完方案, tags: [textbook-guidance, vibe-coding], type: note},
+  {id: glossary, source: knowledge/glossary.md, summary: 课程中英文核心术语对照表, tags: [glossary,
+      definition], type: note}, {id: china-app-accessibility-status, source: knowledge/notes/china-app-accessibility-status.md,
+    summary: 中国App无障碍现状：GB/T37668与头部平台改造, tags: [accessibility, GB/T-37668, ideology],
+    type: note}, {id: dark-pattern-china-cases, source: knowledge/notes/dark-pattern-china-cases.md,
+    summary: 暗黑模式六大中国App案例及中欧监管对比, tags: [dark-pattern, ethics, deceptive-design,
+      ideology], type: note}, {id: ixd-interface-metaphors, source: knowledge/notes/ixd-interface-metaphors.md,
+    summary: 界面隐喻优势与局限、逻辑冲突解析, tags: [metaphor, conceptual-model, mental-model], type: note},
+  {id: ixd-memory-load, source: knowledge/notes/ixd-memory-load.md, summary: 工作记忆瓶颈与"识别胜于回忆"原则,
+    tags: [memory-load, recognition-vs-recall, cognition, Exp2], type: note}, {id: ixd-gulfs-of-execution-and-evaluation,
+    source: knowledge/notes/ixd-gulfs-of-execution-and-evaluation.md, summary: 执行与评估鸿沟：Norman认知框架与心智摩擦来源,
+    tags: [gulf-of-execution, gulf-of-evaluation, Norman], type: note}, {id: case-cognitive-overload,
+    source: knowledge/notes/case-cognitive-overload.md, summary: LingsCars/ERP等认知过载灾难真实案例,
+    tags: [case-study, cognitive-overload, sensory-overload, Exp2], type: note}, {
+    id: about-face-orchestration-strategies, source: knowledge/notes/about-face-orchestration-strategies.md,
+    summary: 交互编排14条策略：心智模型/少即是多/提供选择, tags: [orchestration, harmonious-interaction,
+      Exp2], type: note}, {id: about-face-excise-types, source: knowledge/notes/about-face-excise-types.md,
+    summary: 附加税6类型及消除策略, tags: [excise, navigation, goal-directed, Exp2], type: note},
+  {id: refactoring-ui-hierarchy-tactics, source: knowledge/notes/refactoring-ui-hierarchy-tactics.md,
+    summary: 层级实战5策略：弱化强调/标签后置/语义让位, tags: [hierarchy, de-emphasize, labels, Exp2],
+    type: note}, {id: refactoring-ui-color-advanced, source: knowledge/notes/refactoring-ui-color-advanced.md,
+    summary: 色彩进阶：饱和度补偿/感知亮度/灰阶温度, tags: [color, saturation, perceived-brightness,
+      Exp2], type: note}, {id: refactoring-ui-color-accessibility, source: knowledge/notes/refactoring-ui-color-accessibility.md,
+    summary: WCAG对比度/翻转策略/多通道冗余, tags: [color, accessibility, WCAG, Exp2], type: note},
+  {id: dom-box-model-mental-map, source: knowledge/notes/dom-box-model-mental-map.md,
+    summary: DOM盒模型与Figma属性映射, tags: [DOM, box-model, CSS, Figma], type: note}, {
+    id: flex-autolayout-mapping, source: knowledge/notes/flex-autolayout-mapping.md,
+    summary: CSS Flex与Figma AutoLayout双向翻译协议, tags: [CSS-flex, auto-layout, Figma,
+      Exp2], type: note}, {id: refactoring-ui-layout-spacing, source: knowledge/notes/refactoring-ui-layout-spacing.md,
+    summary: 布局间距系统6策略：留白/刻度/消除歧义, tags: [layout, spacing-system, grid, Exp2], type: note},
+  {id: component-thinking-token-api, source: knowledge/notes/component-thinking-token-api.md,
+    summary: 组件化思维：Atomic Design五层与Design Token命名, tags: [atomic-design, design-token,
+      component, Exp2], type: note}, {id: refactoring-ui-shadow-elevation, source: knowledge/notes/refactoring-ui-shadow-elevation.md,
+    summary: 5级阴影系统与双阴影技法, tags: [shadows, elevation, interaction, Exp2], type: note},
+  {id: refactoring-ui-flat-depth, source: knowledge/notes/refactoring-ui-flat-depth.md,
+    summary: 扁平化深度：颜色明暗/实心阴影/元素重叠, tags: [flat-design, depth, overlap, Exp2], type: note},
+  {id: about-face-motion-microinteractions, source: knowledge/notes/about-face-motion-microinteractions.md,
+    summary: 微交互Saffer四要素与Cooper动效六目标, tags: [microinteraction, motion, transition,
+      Exp3], type: note}, {id: frontend-animation-techniques, source: knowledge/notes/frontend-animation-techniques.md,
+    summary: CSS动效原理：transition/animation/60fps/无障碍, tags: [CSS, animation, performance,
+      Exp3], type: note}, {id: ai-driven-animation-generation, source: knowledge/notes/ai-driven-animation-generation.md,
+    summary: v0动效生成能力与Prompt工程实践, tags: [AI, v0, framer-motion, Exp3], type: note},
+  {id: evaluation-framework-overview, source: knowledge/notes/evaluation-framework-overview.md,
+    summary: 评估三大类与形成性vs总结性选型, tags: [evaluation, formative, summative, Exp4], type: note},
+  {id: nielsen-10-heuristics, source: knowledge/notes/nielsen-10-heuristics.md, summary: Nielsen十大启发式逐条详解与3-5人实证,
+    tags: [Nielsen-10, heuristic, usability, Exp4], type: note}, {id: heuristic-evaluation-methodology,
+    source: knowledge/notes/heuristic-evaluation-methodology.md, summary: 启发式评估三阶段与假阳性43%统计,
+    tags: [heuristic, methodology, expert-review, Exp4], type: note}, {id: prototyping-fidelity-spectrum,
+    source: knowledge/notes/prototyping-fidelity-spectrum.md, summary: 混合保真度光谱与进化式vs抛弃式策略,
+    tags: [prototyping, fidelity, compromise, Exp3], type: note}, {id: llm-code-reading-debugging,
+    source: knowledge/notes/llm-code-reading-debugging.md, summary: LLM辅助代码排障Read→Explain→Fix三步法,
+    tags: [LLM, debugging, code-reading, Exp3], type: note}, {id: exp3-demo-fallback-strategy,
+    source: knowledge/notes/exp3-demo-fallback-strategy.md, summary: Exp3三级降级：AI自查→Figma热补→混合演示,
+    tags: [fallback, mixed-fidelity, demo-strategy, Exp3], type: note}, {id: think-aloud-methodology,
+    source: knowledge/notes/think-aloud-methodology.md, summary: 出声思考法：并发CTA vs回溯RTA与执行要素,
+    tags: [think-aloud, CTA, usability-testing, Exp4], type: note}, {id: usability-testing-lab-workflow,
+    source: knowledge/notes/usability-testing-lab-workflow.md, summary: 可用性测试五步流程与5人ROI拐点,
+    tags: [usability-testing, lab-workflow, SUS, Exp4], type: note}, {id: classroom-usability-testing-adaptation,
+    source: knowledge/notes/classroom-usability-testing-adaptation.md, summary: 课堂降维方案：Krug车库理念与预制模板,
+    tags: [classroom-testing, peer-testing, Krug, Exp4], type: note}, {id: usability-data-analysis,
+    source: knowledge/notes/usability-data-analysis.md, summary: 亲和图聚类→严重度矩阵→修复影响决策,
+    tags: [affinity-diagram, severity-rating, SUS, Exp4], type: note}, {id: ux-closure-narrative,
+    source: knowledge/notes/ux-closure-narrative.md, summary: UX闭环三幕叙事与双层旅程图格式, tags: [
+      narrative, journey-map, before-after, Exp4], type: note}, {id: portfolio-case-study-structure,
+    source: knowledge/notes/portfolio-case-study-structure.md, summary: 作品集八章节法与艺术生三大误区,
+    tags: [portfolio, case-study, design-process, Exp4], type: note}, {id: china-app-global-ixd-paradigm,
+    source: knowledge/notes/china-app-global-ixd-paradigm.md, summary: 微信/TikTok/SHEIN交互范式全球影响力核查,
+    tags: [WeChat, TikTok, interaction-paradigm, ideology], type: note}, {id: sms-accessibility-history,
+    source: knowledge/notes/sms-accessibility-history.md, summary: SMS非专为听障设计但听障率先采用的普世创新,
+    tags: [SMS, accessibility, inclusive-design], type: note}, {id: dark-pattern-regulation-2025,
+    source: knowledge/notes/dark-pattern-regulation-2025.md, summary: EU DSA/FTC暗黑模式审查与Adobe/Amazon诉讼,
+    tags: [dark-pattern, regulation, DSA, ethics], type: note}, {id: inclusive-design-frontier-2025,
+    source: knowledge/notes/inclusive-design-frontier-2025.md, summary: AI驱动无障碍与超个性化自适应界面前沿,
+    tags: [inclusive-design, AI, EAA, adaptive-interface], type: note}, {id: fatal-interface-design-cases,
+    source: knowledge/notes/fatal-interface-design-cases.md, summary: Therac-25/三哩岛/737MAX致命界面设计缺陷,
+    tags: [fatal-design, Therac-25, Boeing-737-MAX, safety], type: note}, {id: china-daily-digital-friction,
+    source: knowledge/notes/china-daily-digital-friction.md, summary: 公交扫码老人/健康码排斥等中国数字化代价,
+    tags: [digital-divide, elderly, China, friction], type: note}, {id: teamlab-borderless-ixd,
+    source: knowledge/notes/teamlab-borderless-ixd.md, summary: 零标识导视与触摸响应式装置的零认知负荷设计,
+    tags: [teamLab, immersive, zero-friction], type: note}, {id: w01-narrative-archaeology,
+    source: knowledge/notes/w01-narrative-archaeology.md, summary: W01叙事考古素材集：数字灾难/可用性极端案例/心理模型日常/设计原则奇闻,
+    tags: [w01, narrative, case-study, human-culture], type: note}, {id: frontend_css_box_model,
+    source: knowledge/notes/frontend_css_box_model.md, summary: 探讨浏览器世界中的物理边界与空间挤压规则，为从自由画板向响应式工程实现过渡奠定基础。,
+    tags: [engineering, w06], type: note}, {id: w10-afa-mechanism, type: note, tags: [
+      microinteraction, AFA, w10], summary: 剖析 Action-Feedback-Animation 机制在降低用户心智摩擦和提供空间感知的核心作用,
+    source: knowledge/notes/w10-afa-mechanism.md}, {id: w10-chinese-aesthetics-motion,
+    type: note, tags: [chinese-aesthetics, ideology, emotional-design, w10], summary: 以文化符号为例，探讨中国本土设计师如何在数字动效中融入留白、呼吸感与气韵生动的东方哲学,
+    source: knowledge/notes/w10-chinese-aesthetics-motion.md}, {id: w10-ai-prompt-gsap-workflow,
+    type: note, tags: [GSAP, AI-driven-animation, w10], summary: 探讨如何通过大模型生成复杂的 GSAP
+      前沿特效，解决 React/Next.js 环境中的接入冲突, source: knowledge/notes/w10-ai-prompt-gsap-workflow.md},
+  {id: dribbblisation-of-design, type: note, tags: [portfolio, case-study, pitfall,
+      dribbblisation], summary: 过度追求视觉表现（高保真微动效）而忽视真实可用性的行业倾向，提醒学生作品集不能只放假图, source: knowledge/notes/dribbblisation-of-design.md},
+  {id: hero-journey-portfolio, type: note, tags: [portfolio, narrative, hero-journey,
+      storytelling], summary: 将用户视作英雄，产品作为导师，以克服痛点的史诗叙事重构枯燥的作品集流水账, source: knowledge/notes/hero-journey-portfolio.md},
+  {id: design-failure-ux-pivot, type: note, tags: [design-failure, pivot, usability-testing,
+      portfolio], summary: 通过顶级公司的可用性灾难案例，论证作品集中展示根据负面数据进行重构往往比完美结果更有说服力, source: knowledge/notes/design-failure-ux-pivot.md},
+  {id: nielsen-h1-h2-visibility-realworld, type: note, tags: [Nielsen-10, visibility,
+      real-world-match, usability-testing, error-codes], summary: Nielsen H1（可见性）与H2（真实世界匹配）在常见App中的反面案例，如无加载反馈与内部错误码。,
+    source: knowledge/notes/nielsen-h1-h2-visibility-realworld.md, query_hint: view_file
+      knowledge/notes/nielsen-h1-h2-visibility-realworld.md}, {id: nielsen-h3-h4-psychology-roots,
+    type: note, tags: [Nielsen-10, consistency, user-control, psychology, cognitive-load],
+    summary: H3（用户控制感）与H4（一致性）背后的心理学机制：系统1与系统2、习得性无助与控制错觉。, source: knowledge/notes/nielsen-h3-h4-psychology-roots.md,
+    query_hint: view_file knowledge/notes/nielsen-h3-h4-psychology-roots.md}, {id: nielsen-h5-h9-safety-critical-errors,
+    type: note, tags: [Nielsen-10, error-prevention, error-recovery, medical-devices,
+      aviation], summary: 医疗输液泵与波音737 MAX空难案例，论证H5（防错）与H9（错误恢复）在安全苛求系统中的致命重要性。, source: knowledge/notes/nielsen-h5-h9-safety-critical-errors.md,
+    query_hint: view_file knowledge/notes/nielsen-h5-h9-safety-critical-errors.md},
+  {id: nielsen-h8-minimalist-signal-noise, type: note, tags: [Nielsen-10, minimalist-design,
+      signal-to-noise-ratio, aesthetics, ui-history], summary: 从拟物化到扁平化的UI演变史，以信噪比（Signal-to-Noise
+      Ratio）量化解释H8极简设计原则。, source: knowledge/notes/nielsen-h8-minimalist-signal-noise.md,
+    query_hint: view_file knowledge/notes/nielsen-h8-minimalist-signal-noise.md},
+  {id: heuristic-evaluation-false-positives, type: note, tags: [heuristic-evaluation,
+      false-positives, usability-testing, methodology-limits], summary: Bailey(1992)指出启发式走查有43%的问题属假阳性警告，揭示了该方法的理论边界与实操局限。,
+    source: knowledge/notes/heuristic-evaluation-false-positives.md, query_hint: view_file
+      knowledge/notes/heuristic-evaluation-false-positives.md}]

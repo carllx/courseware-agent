@@ -287,3 +287,74 @@ ADR 036 引入的 `--fragment` 模式将修改→渲染闭环缩短到秒级，�
 
 **变更文件**：`engines/generate_course_h5.py`（`run_rebuild_week()` + CLI 路由）、`engines/h5_template/vite-plugin-h5-hot-reload.js`（新建）、`engines/h5_template/vite.config.js`、`engines/h5_template/src/pages/LessonViewer.jsx`、`engines/h5_template/src/App.jsx`、`.agent/workflows/h5.md`、`.agent/memory/ADR.md`。
 
+## ADR 038: H5 Craft-room 实时审计系统与双管线验证架构
+
+**状态**: 已接受
+**时间**: 2026-04-03
+**上下文**:
+随着 H5 热重载能力（ADR 037）的完善，我们希望在创作过程中实现“边写边审”（Craft-room 工作台模式）。以前的审计报告依赖命令行静态输出，割裂了心流状态。为了提供直接的交互式反馈，前端需要实时看到断链警告、字数预算预警、填充热力图，甚至是 Agent 的语义批注。
+但这面临三个核心挑战：
+1. **性能冲突**：现有的 Python 验证端包含极其复杂的解析逻辑提取，每次调用需数秒，不能直接混入 HMR 热重载进程（其耗时须在 ~300ms）。
+2. **状态闪烁**：持续保存时频繁重刷验证界面会导致组件在红（Error）、黄、绿间闪烁、抽搐。
+3. **批注漂移**：传统的行号锚点在文段持续增删和拆分合并的热加载阶段极其脆弱。
+
+**决策**:
+1. **P0 / P1 双管线异步引擎**：将热重载 H5 构建一分为二——`P0 渲染管线`（~300ms）通过 `generate_course_h5.py` 只负责内容生成和 DOM 变动推送，让内容优先上屏；随后触发在 Node 侧起异步子进程进行的 `P1 验证管线`（~2000ms），调用新建的综合入口 `validate_runner.py`。
+2. **WebSocket 状态推送与门控分发**：P1 验证产物（JSON）通过新 WebSocket 事件 `h5:validation` 下发；在 Python 端引入了 `Q3 严重门控` 功能，例如字数太少时折叠后传的图片审计环节。
+3. **ValidationContext 心流保护机制**：React 前端新增 ValidationProvider 接管验证数据。如果前端接收到频繁的 `h5:reload`，会抛出 `isInFlow=true`，进入心流冻结保护期（延时 2 秒），防止警告层频繁弹脸；在这期后淡入最新的数据。
+4. **组件可视化大升级**：将原组件升级为四大核心交互层：HealthDot (全局脉搏)、DurationGauge (实虚时间差指示器)、ValidationOverlay (侧边抽屉热力详情) 以及直接使用 `vscode://file` 协议打通 H5 和 IDE 视角的定位直跳锚点。
+5. **指纹引擎替代行号绑定**：引入无依赖的 DJB2 哈希引擎，对段落全文计算哈希并附加文本长度后缀（格式 `hash_len`，如 `d075f24e_24`），放弃行号，确保 Agent 批注如魔术贴般稳固吸附在动态编辑的文本上，并新增 Annotation 孤立区接收因大改而无家可归的批注。TTS 段落指纹采用相同算法，Python（`generate_course_h5.py`）和 JS（`fingerprint.js`）双端一致。
+
+**影响**:
+- 极大地丰富了开发者和审核者的在场体验感。
+- React 前端成为 Python 原生验证报告的直观承载容器；该管线拓宽了向外集成任何后续 Validator 的能力。
+
+**变更文件**：`engines/generate_course_h5.py`、`engines/h5_template/vite-plugin-h5-hot-reload.js`、`validate_runner.py`、`engines/h5_template/src/contexts/ValidationContext.jsx`、`engines/h5_template/src/utils/fingerprint.js` + 此相关衍生组件（`ValidationOverlay.jsx`, `AnnotationOverlay.jsx`, `HealthDot.jsx`, `DurationGauge.js`, `LessonViewer.jsx`）。
+
+## ADR 039: H5 段落级动态 TTS 引擎与桥接安全加固 (Phase 8)
+
+**状态**: 已接受
+**时间**: 2026-04-05
+**上下文**:
+ADR 026.7 的音频管线依赖离线批量 TTS（外部工具合成 MP3 → aeneas 对齐生成 SRT → generate_course_h5.py 检测并写入 slides.json media 节点）。该流程存在三个系统性缺陷：(1) 需手动维护 MP3/SRT 文件，脚本每次修改都要重跑离线管线；(2) 音频粒度为整篇脚本而非段落，无法支持段落级按需播放/重录；(3) TTS 凭证需要人工从 doubao.com 提取并配置到 H5 中。在交接审计（cdb9996b 会话）中还识别出 11 项安全和架构漏洞，其中 `postMessage('*')` 通配符凭证泄漏为最高危。
+
+**决策**:
+1. **弹窗桥接架构**：H5 不直连豆包 WebSocket（被 Origin 拒绝），而是通过 `doubao.com` 弹窗中的 `tts_bridge.user.js` 油猴脚本中继。桥接脚本调用原版 userscript 暴露的 `window.tts()` API（回退路径：`window.ttsSingleChunk()`），音频以 `Transferable ArrayBuffer` 零拷贝传输回 H5。
+2. **凭证安全交换（V-01 修复）**：弹窗端不再使用 `postMessage('*')` 通配符推送凭证，改为白名单候选 origin 逐一尝试（`localhost:5173/5174/3000`）。H5 端同时以 2 秒间隔主动轮询 `h5_tts_request_credentials`，双保险确保跨域场景下凭证交换。
+3. **段落索引为 UI 主键（V-06 重构）**：`segmentMap` 从以 `ttsFp` 为键改为以段落索引为键。相同文本的段落拥有独立 UI 状态（播放/提取中/错误），但共享 IndexedDB 缓存（以 `ttsFp` 为键）。解决了重复文本段落的状态污染问题。
+4. **增量 diff 防重灾（V2 抗偏移）**：`computeStatus()` 采用三层查找策略——(1) 索引+指纹精确匹配（零偏移场景）→ (2) 按指纹全局查找（处理插入/删除导致的索引偏移）→ (3) IndexedDB 缓存查找（含 V-04 新旧格式兼容回退和自动迁移）。编辑脚本后仅实际变更的段落需重新提取。
+5. **指纹抗碰撞增强（V-04）**：DJB2 指纹格式从 `8位hex`（如 `e3b0c442`）升级为 `hash_len`（如 `e3b0c442_1280`），附加文本长度降低碰撞概率。Python（`_compute_tts_fingerprint()`）和 JS（`computeTtsFingerprint()`）双端一致。
+6. **异常防阻塞（V-07）**：`extractAll()` 内每个 `extractSingle` 调用包裹 try/catch，外层 finally 确保 `isExtracting` 和 `extractProgress` 始终重置。单段失败不阻塞队列。
+7. **Stale Closure 消除（V-08）**：引入 `segmentMapRef` 持有最新状态。`playSegment`/`stopPlayback`/`playAll`/`getStats` 改用 ref 访问，依赖数组清空，消除频繁重建。
+8. **IndexedDB 缓存自清洁（V-05）**：`computeStatus()` 末尾异步执行 `cacheCleanup()`，清理超过 30 天且不在当前活跃指纹集中的孤儿缓存。
+9. **BlobURL 内存管理**：旧 `segmentMap` 中不再被引用的 `blobUrl` 在 `computeStatus()` 中主动 revoke，防止内存泄漏。
+
+**遗留项（BFF 重构方向）**：
+- V-09/10/11（Cookie 泄漏、WebSocket 协议实现、HMR 递归冲突）属于 Backend-For-Frontend 本地代理架构范畴，待 doubao.com 弹窗方案稳定运行后启动。
+
+**变更文件**：`.agent/skills/doubaotts/scripts/tts_bridge.user.js`、`engines/h5_template/src/contexts/TtsSegmentContext.jsx`、`engines/h5_template/src/components/TtsParaButton.jsx`、`engines/h5_template/src/components/TextPanel.jsx`、`engines/h5_template/src/utils/fingerprint.js`、`engines/generate_course_h5.py`、`build/h5_preview/src/utils/doubao-tts.js`、`.agent/workflows/h5.md`、`.agent/memory/ADR.md`、`.agent/DEPENDENCY_MAP.md`、`.agent/INDEX.md`。
+
+## ADR 040: TTS 中间件 SSOT 统一与音频静态代理 (Phase 9)
+
+**状态**: 已接受
+**时间**: 2026-04-05
+**上下文**:
+ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_template/`（模板目录）和 `build/h5_preview/`（运行实例）采用双写策略。但 ADR 039 Phase 8 的 TTS 中间件仅被写入了 `build/h5_preview/` 版本，**引擎源码从未同步**。这导致任何从模板新部署的 H5 实例以及直接在 `engines/h5_template/` 下运行 dev server 的场景中，三条 TTS 关键 API 全部缺失：
+1. `POST /api/tts/save` — 接收音频、写入本地文件系统
+2. `GET /api/tts/manifest` — 返回指定周的 TTS manifest
+3. `GET /courses/{id}/weeks/{week}/tts/*.aac` — 音频文件服务
+
+前端的 `TtsSegmentContext.computeStatus()` 从 manifest API 获取段落状态时收到 404 HTML → JSON 解析失败 → **所有 178 个段落全部被标记为 `missing`**，且播放 URL 404 导致已提取的音频无法回放。
+
+**决策**:
+1. **SSOT 统一为 engines/**：`engines/h5_template/vite-plugin-h5-hot-reload.js` 确立为 TTS 中间件的唯一真相来源(SSOT)。`build/h5_preview/` 版本通过 `cp` 命令从前者同步。
+2. **新增 TTS 音频静态代理中间件**：Dev 模式下 Vite 中间件拦截 `/courses/{courseId}/weeks/{weekName}/tts/{fp}.aac`，从 workspace 源目录（`{workspaceRoot}/{courseId}/weeks/{weekName}/tts/`）读取物理文件并流式返回。这消除了对 `publicDir` symlink 的依赖——build 版依赖物理文件+Vite publicDir 自动服务，引擎版走中间件代理，两者行为等价。
+3. **DEPENDENCY_MAP 新增两条隐式依赖**：(a) 引擎版插件 → 部署版插件的同步约束；(b) `getTtsAudioUrl()` URL 格式 → 代理正则的匹配约束。
+
+**影响**:
+- 修复 TTS manifest/save/audio 三条 API 在引擎源码开发模式下的完全缺失。
+- 后续新建 H5 实例（`_sync_template_to_instance()`）将自动继承完整 TTS 能力。
+- `doubaotts/SKILL.md` 核心文件表路径已从 `build/` 修正为 `engines/`。
+
+**变更文件**：`engines/h5_template/vite-plugin-h5-hot-reload.js`、`build/h5_preview/vite-plugin-h5-hot-reload.js`（同步）、`.agent/skills/doubaotts/SKILL.md`、`.agent/DEPENDENCY_MAP.md`、`.agent/memory/ADR.md`。
+

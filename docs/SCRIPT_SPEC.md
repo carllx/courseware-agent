@@ -68,33 +68,22 @@ Frontmatter 之后，必须紧跟一级标题（H1）：
 | **Scene** | ✅ | 画面描述，一行中文 |
 | **Asset** | 可选 | 物理文件的相对路径（相对于 `visuals/assets/`） |
 
-### 有效 Layout 列表
+### 有效 Layout 列表 (语义别名版)
 
-> 详见 [layouts.md](../.agent/skills/pptx/layouts.md) (Single Source of Truth)。
+> 📗 编写脚本时，请务必查看 **[VISUAL_LAYOUT_CATALOG.md](./VISUAL_LAYOUT_CATALOG.md)** 获取每种排版所对应的语法范例与底层渲染结果对照。
+> 详见 [VISUAL_LAYOUT_SPEC.md](./VISUAL_LAYOUT_SPEC.md) 和 [.agent/skills/script_format/layouts_v2.md](../.agent/skills/script_format/layouts_v2.md)。
 
-| Layout | 场景 | PPT 排版 |
-|:---|:---|:---|
-| `Title` | 封面/开场 | 全屏深色背景 + 居中大标题 |
-| `Section` | 章节过渡 | 反转背景 + 章节号+标题 |
-| `Agenda` | 议程/大纲 | 编号列表 / 图标引导 |
-| `Split` | 图文并排 | 左图右文 / 左文右图 |
-| `Icons` | 特性列举 | 图标+文字行 |
-| `Grid` | 卡片/矩阵 | 2×2/2×3 卡片网格 |
-| `Full` | 全屏沉浸 | 满版大图 + 暗蒙版叠字 |
-| `Table` | 数据对比 | 精简表格 |
-| `Comparison` | 方案对比 | 2-3 列并排 |
-| `Dashboard` | KPI 仪表盘 | 大数字卡+小图表 |
-| `Stat` | 巨型数字 | 居中大数字+标签 |
-| `Timeline` | 时间线/流程 | 水平节点 + 连接线 |
-| `Poll` | 投票/互动 | QR Code + 短网址 |
-| `Workshop` | 练习引导 | 步骤列表 + 时间标识 |
-| `Quote` | 名言/金句 | 极简背景 + 大字引言 |
-| `CTA` | 收尾/致谢 | 深色背景 + 行动号召 |
-| `Code` | 代码展示 | 深色背景 + 等宽字体 |
-| `Diagram` | 流程/架构 | 图示 + 说明 |
-| `Image` | 图片展示 | 图片为主 + 可选 Caption |
-| `Screenshot` | 软件截图 | 截图 + 标注 |
-| `List` | 列举要点 | 标题 + 列表 |
+为保持写作流畅，本系统采用**语义化版式名称**。作者写明版式诉求即可，底层引擎将通过三层解析系统自动匹配最佳空间网格与内容组件。合法 Layout 限定为以下 12 项：
+
+| 基础空间网格 | 复合教学场景 (语义宏) |
+|:---|:---|
+| `Center` (居中排版) | `CTA` (行动号召), `Agenda` (大纲目录) |
+| `Split` (极简双栏) | `Quote` (金句展示), `Workshop` (指导工坊) |
+| `Grid` (常规矩阵) | `Comparison` (红绿对比) |
+| `Full` (沉浸满屏) | `Screenshot` (带设备的截图), `Poll` (互动轮询) |
+| `Flow` (节点流线) | - |
+
+*(注：不再支持手动定义特定的 List、CodeBlock、Table 等内容类型相关的 Layout，当 `[VISUAL]` 块中存在相应的 `List`, `Code` 字段时，引擎会自动启用特定组件。原有的 20 多种混淆名称现已被强制拦截)*
 
 ### 放置规则
 

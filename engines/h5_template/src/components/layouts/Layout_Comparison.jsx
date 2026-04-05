@@ -1,64 +1,89 @@
+import AssetPlaceholder from '../primitives/AssetPlaceholder'
+import EditorialList from '../primitives/EditorialList'
+
 /**
  * Layout_Comparison — 对比表布局
- * 左右两列对比
+ * 严谨的双栏对比布局
  */
 export default function Layout_Comparison({ slide }) {
-  // 尝试将 List 拆分为左右两组（按 "vs" 或 "/" 分隔）
-  const items = slide.list || []
+  // 如果有图片，优先全幅展现（用于设计稿对比图等场景）
+  if (slide.resolvedImage) {
+    return (
+      <>
+        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        <div className="h5-slide-body">
+          <AssetPlaceholder slide={slide} proportion="100%" />
+        </div>
+      </>
+    )
+  }
 
+  // 从数据代理层获取已清洗对比数据或回退的列表数据
+  const comparisonData = slide.comparisonData
+  const parsedList = slide.parsedList || []
+  const hasData = comparisonData || parsedList.length > 0
+
+  // 无任何内容时显示占位符
+  if (!hasData) {
+    return (
+      <>
+        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        <div className="h5-slide-body">
+          <AssetPlaceholder slide={slide} proportion="100%" />
+        </div>
+      </>
+    )
+  }
+
+  // 回退渲染逻辑：没有明确的 left/right 则均分普通列表
+  if (!comparisonData) {
+    const leftItems = parsedList.filter((_, i) => i % 2 === 0)
+    const rightItems = parsedList.filter((_, i) => i % 2 === 1)
+    
+    return (
+      <ComparisonView 
+        heading={slide.heading}
+        leftLabel="左侧" rightLabel="右侧"
+        leftItems={leftItems} rightItems={rightItems}
+      />
+    )
+  }
+
+  // 渲染高保真对比图
+  const { left, right } = comparisonData
+  return (
+    <ComparisonView 
+      heading={slide.heading}
+      leftLabel={left.label || '正方'} rightLabel={right.label || '反方'}
+      leftItems={left.items} rightItems={right.items}
+    />
+  )
+}
+
+function ComparisonView({ heading, leftLabel, rightLabel, leftItems, rightItems }) {
   return (
     <>
-      {slide.heading && <div className="slide-heading">{slide.heading}</div>}
-      <div className="slide-body">
-        {slide.resolvedImage ? (
-          <img className="slide-image" src={slide.resolvedImage} alt="" />
-        ) : items.length > 0 ? (
-          <div style={{
-            display: 'flex',
-            flex: 1,
-            gap: '2px',
-            padding: '12px',
-          }}>
-            {/* 渲染列表为两列 */}
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <div style={{
-                fontSize: '12px', fontWeight: 600, color: 'var(--theme-secondary)',
-                padding: '4px 8px', textTransform: 'uppercase', letterSpacing: '0.5px'
-              }}>
-                ✓ 正面
-              </div>
-              {items.filter((_, i) => i % 2 === 0).map((item, i) => (
-                <div key={i} style={{
-                  padding: '8px 12px', background: 'rgba(var(--theme-secondaryRgb), 0.06)',
-                  borderRadius: '6px', fontSize: '13px', lineHeight: 1.5,
-                }}>
-                  {item}
-                </div>
-              ))}
-            </div>
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <div style={{
-                fontSize: '12px', fontWeight: 600, color: 'var(--theme-primary)',
-                padding: '4px 8px', textTransform: 'uppercase', letterSpacing: '0.5px'
-              }}>
-                ✗ 反面
-              </div>
-              {items.filter((_, i) => i % 2 === 1).map((item, i) => (
-                <div key={i} style={{
-                  padding: '8px 12px', background: 'rgba(var(--theme-primaryRgb), 0.06)',
-                  borderRadius: '6px', fontSize: '13px', lineHeight: 1.5,
-                }}>
-                  {item}
-                </div>
-              ))}
-            </div>
+      {heading && <div className="h5-slide-heading">{heading}</div>}
+      <div className="h5-slide-body h5-layout-comparison">
+        {/* 左栏（正面、绿色基调） */}
+        <div className="h5-comparison-col h5-comparison-col--positive">
+          <div className="h5-comparison-header">
+            <span className="h5-comparison-icon">✓</span> {leftLabel}
           </div>
-        ) : (
-          <div className="greybox">
-            <span className="greybox-label">Comparison</span>
-            <span className="greybox-text">{slide.scene || '等待对比数据'}</span>
+          <div className="h5-comparison-list">
+            <EditorialList items={leftItems} variant="numbered" customStyle={{ gap: '8px' }} />
           </div>
-        )}
+        </div>
+        
+        {/* 右栏（反面、红色基调） */}
+        <div className="h5-comparison-col h5-comparison-col--negative">
+          <div className="h5-comparison-header">
+            <span className="h5-comparison-icon">✗</span> {rightLabel}
+          </div>
+          <div className="h5-comparison-list">
+            <EditorialList items={rightItems} variant="numbered" customStyle={{ gap: '8px' }} />
+          </div>
+        </div>
       </div>
     </>
   )

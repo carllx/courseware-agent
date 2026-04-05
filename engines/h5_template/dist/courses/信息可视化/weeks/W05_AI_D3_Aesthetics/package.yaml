@@ -1,0 +1,18 @@
+week: 5
+topic: 无形之境：网络拓扑、地缘隐喻与力导向生成艺术
+title: 无形之境：网络拓扑、地缘隐喻与力导向生成艺术
+theory_hours: 2.0
+practice_hours: 3.0
+objectives:
+- '[知识1/素质3] 探索《信息可视化设计》第五章提及的区域与事件地图的艺术表达'
+- '[知识3] 深究 Munzner Ch8/Ch9 空间数据与网络/树状结构的拓扑原理'
+- '[能力1/能力3] 实操力导向图 (Force-directed) 等具有生成艺术属性的可视化形态'
+- '[能力1/能力3/素质3] 将抽象情感数据与粒子系统、动态链接相结合，完成高表现力作品'
+created: 2026-02-21
+status: ready
+tags: []
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md

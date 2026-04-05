@@ -1,3 +1,5 @@
+import '../styles/slide-area.css'
+import '../styles/h5-layouts.css'
 import Layout_Split from './layouts/Layout_Split'
 import Layout_List from './layouts/Layout_List'
 import Layout_Diagram from './layouts/Layout_Diagram'
@@ -5,6 +7,8 @@ import Layout_Grid from './layouts/Layout_Grid'
 import Layout_Image from './layouts/Layout_Image'
 import Layout_Comparison from './layouts/Layout_Comparison'
 import Layout_Title from './layouts/Layout_Title'
+import BrokenImageOverlay from './BrokenImageOverlay'
+import { parseListString, parseComparisonData } from '../utils/slide_parser'
 
 /**
  * 规范布局 → 组件映射（全小写 key）
@@ -58,10 +62,7 @@ const DEPRECATED_ALIASES = {
 }
 
 /**
- * SlideFactory — 幻灯片布局路由器
- *
- * 接受 courseId 用于构建正确的图片 URL 前缀。
- * 将 slide.image 的相对路径映射为 /courses/{courseId}/... 的绝对 URL。
+ * SlideFactory — 幻灯片布局路由器 & 数据代理层
  */
 export default function SlideFactory({ slide, courseId }) {
   if (!slide) return null
@@ -71,18 +72,29 @@ export default function SlideFactory({ slide, courseId }) {
   if (DEPRECATED_ALIASES[key]) key = DEPRECATED_ALIASES[key]
   const LayoutComponent = CANONICAL_MAP[key] || Layout_Image
 
-  // 构造带 courseId 前缀的 slide 副本
+  // 构造带 courseId 前缀的图片 URL
+  const resolvedImage = slide.image
+    ? (courseId ? `/courses/${courseId}/${slide.image}` : `/${slide.image}`)
+    : null
+
+  // 数据代理层 (Data Proxy): 统一拆解 Markdown 字符串列为规整数据结构，使子组件保持纯净
+  const parsedList = parseListString(slide.list)
+  const comparisonData = parseComparisonData(slide.list)
+
   const resolvedSlide = {
     ...slide,
-    // 将 visuals/W01_xxx/W01_S01.png → /courses/courseId/visuals/W01_xxx/W01_S01.png
-    resolvedImage: slide.image
-      ? (courseId ? `/courses/${courseId}/${slide.image}` : `/${slide.image}`)
-      : null,
+    resolvedImage,
+    parsedList,
+    comparisonData,
   }
 
+  // 检测断链状态
+  const isBroken = resolvedSlide.assetExpected && !resolvedSlide.image
+
   return (
-    <div className="slide-frame">
+    <div className={`slide-frame${isBroken ? ' slide-frame--broken' : ''}`}>
       <LayoutComponent slide={resolvedSlide} />
+      {isBroken && <BrokenImageOverlay expected={resolvedSlide.assetExpected} />}
     </div>
   )
 }

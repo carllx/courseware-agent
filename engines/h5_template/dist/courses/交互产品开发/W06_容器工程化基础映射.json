@@ -1,0 +1,2919 @@
+{
+  "version": "2.1",
+  "generated": "2026-04-05T15:08:38.160535",
+  "course": "交互产品开发",
+  "script": "W06_容器工程化基础映射",
+  "theme": {
+    "bg": "#F5F0EB",
+    "bgSurface": "#FFFFFF",
+    "bgElevated": "#EDE7E0",
+    "bgDark": "#2D2926",
+    "primary": "#B85042",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#6B8FAD",
+    "textOnDark": "#F5F0EB",
+    "primaryLight": "#D4756A",
+    "primaryMuted": "#8C3A30",
+    "success": "#5B7B6F",
+    "warning": "#C9A96E",
+    "error": "#B85042",
+    "border": "#D6CFC7",
+    "text": "#2D2926",
+    "textSecondary": "#6B635C",
+    "textMuted": "#A39B93",
+    "primaryRgb": "184, 80, 66",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": false,
+    "fontTitle": "Georgia",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": null,
+    "srt": null
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "W06_容器工程化基础映射",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**本节目标**\n建立从\"画布思维\"到\"容器思维\"的心智模型转换。理解 DOM 盒模型（Box Model）的四层结构，掌握 Figma Auto Layout 与 CSS Flexbox 的底层对应关系。建立组件化与 Design Token 意识，为 实验3(Exp3) 阶段的 AI 辅助编码提供标准化的前端设计物料。本讲的核心不仅是教工具，而是教大家如何配置一个**真正能被 AI 代码助手听懂**的设计基建。",
+          "ttsFp": "4622837b_209",
+          "srtCueIdx": 0,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M00_课程导览.md",
+          "srcLStart": 3,
+          "srcLEnd": 4
+        }
+      ],
+      "firstSrtCueIdx": 0,
+      "oralCharCount": 110,
+      "estimatedMinutes": 0.6,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-2",
+      "title": "模块 1: 复习 — 从状态流转到物理界面 (约 10 分钟)",
+      "slides": [
+        {
+          "id": "M1-01",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "W05的白板流转图回顾。满屏的彩色便利贴，不同颜色的线框代表不同的页面核心状态，连接的线条穿梭其间，标注着诸如\"点击加入购物车\"或\"滑动结算\"等用户关键动作。白板图代表了逻辑架构的完备。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M1-01.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M1-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/M1-01.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "M1-02",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左右分栏极具张力的对比隐喻。左边：轻盈的建筑结构概念草图，只有漂浮的点和线段，完美而脱离重力；右边：钢筋混合泥土浇筑的轰鸣工地现场，沉重、充满物理常识与材料约束。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M1-02.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M1-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/M1-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "M1-03",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕切分。左侧：自由艺术家的调色板与画布，颜料可以随意挥洒（隐喻传统设计的绝对坐标）。右侧：精密加工车间，游标卡尺卡住一个金属零件，旁边标着极其严苛的公差数据（隐喻工程化的容器规则）。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M1-03.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M1-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/M1-03.png"
+          ],
+          "list": null,
+          "paragraphStart": 18
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在上一周的课程里，我们在结束时得到了一张非常复杂且严密的白板流转图。",
+          "ttsFp": "97a589af_34",
+          "srtCueIdx": 1,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们成功地将一个听起来宏大而无从下手的应用程序，像外科手术一样拆解成了五六个核心状态。你们在这张图纸上精准地规定了：在这个特定的状态下，用户到底能做什么，绝对不能做什么；你们排除了无数个在白板上很容易被发现的、可能打断心流的附加操作税，让状态到状态之间的跳转箭头尽可能地短而直。",
+          "ttsFp": "ebfb4616_139",
+          "srtCueIdx": 2,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们甚至为那些极端的边角场景都做了谨慎的退路考量——当网络突然断开时用户正停留在哪个安全状态？当用户连续快速点击两次提交按钮时系统该如何锁定防御？当购物车里的最后一件商品被后台实时下架清空时，界面应该用怎样优雅的兜底空态来为用户护航？这些在白板上用红色记号笔圈出来的异常路径分支，正是上一周课堂上你们进行激烈辩论的精华成果。",
+          "ttsFp": "07df4ae7_162",
+          "srtCueIdx": 3,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 19,
+          "srcLEnd": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在白板图上，这一切看起来都非常完美。从逻辑层面看，闭环完全自洽，用户的旅程路径也是极度清晰的。",
+          "ttsFp": "5ac81501_47",
+          "srtCueIdx": 4,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但问题在于：完美的逻辑图不能当饭吃，真实世界的用户也没法看着白板图去点击付款操作。那张白板图，本质上还只是一份纯粹的**逻辑蓝图**，它告诉了我们\"应该发生什么\"，却完全没有回答\"它在屏幕上到底长什么样\"——而这两者之间的鸿沟，远比你们此刻想象的要深得多得多。我们的最终目标，是要把白板上这些飘逸的逻辑线，变成真正能摸到、能看到的屏幕交互界面。我们要让这个应用\"活\"过来，落到真实的设备上。",
+          "ttsFp": "2e0678af_195",
+          "srtCueIdx": 5,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位，你们现在正站在一道巨大的鸿沟边缘。",
+          "ttsFp": "85203ec1_20",
+          "srtCueIdx": 6,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "《About Face》的作者 Alan Cooper 曾提出著名的三大模型理论：用户的心理模型、设计师的表现模型、以及后台的工程实施模型。什么意思？用户心中有一个\"它应该怎么工作\"的模糊幻想；设计师呢，是在用线框和色彩搭建一套\"它看起来怎么工作\"的视觉承诺。但最终，真正在底层支撑一切的，是工程师用代码浇筑的\"它实际上怎么工作\"的物理事实。这三层模型之间的对齐程度，直接决定了一个产品是给人流畅的丝滑感，还是让人暴怒摔手机。",
+          "ttsFp": "7daedc6c_213",
+          "srtCueIdx": 7,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家以往画的原型往往是完全剥离代码的\"纯视觉表现模型\"，它看起来很美，但它在面对真实运转的机器时往往显得非常脆弱——因为它压根不知道自己将要被装进一个什么样的物理容器里去。",
+          "ttsFp": "9098e4bd_86",
+          "srtCueIdx": 8,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "左边是你们亲手画好的架构图纸，它是一种\"将会发生什么\"的理想承诺；而右侧，是即将面对的数字终端\"物理世界\"的施工现场，它代表的是一场来自底层代码与浏览器环境的无情拷问：\"它究竟要怎么盖出来？\"",
+          "ttsFp": "d7f3d25b_96",
+          "srtCueIdx": 9,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 38,
+          "srcLEnd": 38
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在你们的架构图里，一个\"展示商品信息\"的状态，仅仅是一个轻飘飘的水性笔方框，画在随手撕下来的便利贴上。",
+          "ttsFp": "5d618c42_51",
+          "srtCueIdx": 10,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 40,
+          "srcLEnd": 40
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但是，一旦这套设计进入到真实的开发实施现场，这个随意的方框立刻会膨胀出几十上百个极其尖锐、极其具体的工程问题：",
+          "ttsFp": "6db3c57a_55",
+          "srtCueIdx": 11,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 这个长方形框在这个屏幕上到底占据多大的固定宽度或比例？如果只占 50%，剩下的 50% 是被拉伸还是被留白？",
+          "ttsFp": "f9433813_56",
+          "srtCueIdx": 12,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 如果设备横过来呢？原本的横向排列是否需要折行变成瀑布流？",
+          "ttsFp": "ad2f7255_30",
+          "srtCueIdx": 13,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 如果是老爸老妈用的放大字体模式，系统将所有的字号强制暴涨了两倍，这会导致文字截断吗？",
+          "ttsFp": "b42659f0_44",
+          "srtCueIdx": 14,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 如果商品标题只有两个字，容器怎样聪明地收缩？或者名字长达三行五十个字，甚至包含连串不换行的英文字符，多余的文字又要在何处被打断或是以省略号隐藏？",
+          "ttsFp": "b3676795_74",
+          "srtCueIdx": 15,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 如果用户正在滑动浏览列表的一瞬间，后端推送过来一条\"限时闪购\"的横幅通知，这个突然插入的新元素会把用户正在阅读的卡片往下挤开多少像素？用户会不会因此点错了相邻的按钮？",
+          "ttsFp": "a99429fe_85",
+          "srtCueIdx": 16,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "每一个你们在画板上毫不费力就画出来的轻薄线框，到了前端工程师的键盘下，都是一整套环环相扣的空间博弈算式。",
+          "ttsFp": "0bc52df8_52",
+          "srtCueIdx": 17,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "交互设计，就是在这个充满无限变异的终端现实中，通过一整套底层的空间系统规则，给出唯一的标准防线和退路。",
+          "ttsFp": "32aabb3c_51",
+          "srtCueIdx": 18,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 50,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这牵扯到设计界长久以来的一个巨大误解。过去很长一段时间，太多初学界面的同学，错误地将界面设计等同于在画板上作画。",
+          "ttsFp": "976ea5fa_56",
+          "srtCueIdx": 19,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你们打开一张 1920 乘 1080 像素的固定尺寸画布时，你们感觉自己像画家一样掌握着神一般的绝对权力。觉得右上角空了一块，随手就拖拽一个矩形过去；觉得背景颜色不够饱满，就用吸管泼上一层渐变色度。你可以用画笔，也可以使用鼠标，在画布的 `X=256, Y=512` 这样的绝对坐标系统上，极其精确地点下一个不会移动的像素。",
+          "ttsFp": "b3c070d0_163",
+          "srtCueIdx": 20,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但请大家时刻牢记，数字界面产品绝对不是没有生命的、死气沉沉的画板。数字产品是\"活着\"的有机体。它需要呼吸，需要有生命力地拉伸和变形，需要去适应成千上万种你们连见都没见过的屏幕碎屏。那些用绝对像素坐标写死的、看起来很美丽的设计图纸……",
+          "ttsFp": "fb09ab5f_116",
+          "srtCueIdx": 21,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 62,
+          "srcLEnd": 62
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "一旦进入浏览器这个极其冷酷无情、只认底层物理规则的工程环境里，立刻就会分崩离析，支离破碎。\n想让你的设计在任何设备、任何突发状况下都屹立不倒，甚至为了在接下来的 实验3 阶段，让你们未来的 AI 编码助手能够完美理解你的意图并且写出极其严谨且清晰可维护的前端代码，你就必须要亲手打碎过去那套随心所欲的\"画布思维（Canvas Thinking）\"。",
+          "ttsFp": "3e6fbb0f_174",
+          "srtCueIdx": 22,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 64,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们要建立一种全新的工业世界观。这就是我们今天这四个学时要死磕的绝对核心——**容器思维（Container Thinking）**。只有理解了机器是如何看待界面的物理本质的，你才能真正跨越那道鸿沟，拥有对现代化交互设计的真正统治力。",
+          "ttsFp": "276bc632_117",
+          "srtCueIdx": 23,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M01_复习_从状态流转到物理界面.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        }
+      ],
+      "firstSrtCueIdx": 1,
+      "budgetChars": 1800,
+      "oralCharCount": 1824,
+      "estimatedMinutes": 10.1,
+      "fillRatio": 1.01
+    },
+    {
+      "id": "mod-3",
+      "title": "模块 2: 导入 — 画布思维的崩塌与响应式觉醒 (约 10 分钟)",
+      "slides": [
+        {
+          "id": "M2-01",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "这是灾难现场真实例子演示。左边是美丽的、像素完美的原始设计源文件。右侧是同一个设计在被极端拉长的带鱼屏和极其窄小的折叠手机屏幕上呈现的恐怖惨状：文本段落飞出内容边框、精美的背景大图被粗暴压扁、最重要的\"立即购买\"大按钮一半被挤出了屏幕可视化显示窗口外面。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M2-01.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M2-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/M2-01.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "M2-02",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕正中显示巨大的反差引言。背景缓慢隐约浮现出 1990 年代万维网早期的、没有任何 CSS 装饰的纯净 HTML 网页源代码流。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M2-02.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M2-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/M2-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "M2-03",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "现代建筑大师勒·柯布西耶的模度（Modulor）历史概念图解。一张极具表现力的黑白照片图示：一个人形张开巨大的手臂，旁边标记着有着连绵不绝的严密比例分割数值与多维度的空间数学网格结构图。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M2-03.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M2-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/M2-03.png"
+          ],
+          "list": null,
+          "paragraphStart": 11
+        },
+        {
+          "id": "M2-04",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "容器响应式思维的工程逻辑全知视角解析图。三个不断向外扩张嵌套的方块：最核心的内层块向外突破产生箭头，标注为\"内容自我向外适应撑开\"；中间包裹层标注为\"容器极值约束（最大/最小容限）\"；而最外层的庞大虚线框标注的是\"不可抗拒的环境最终屏幕边界截断\"。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M2-04.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M2-04.png"
+          ],
+          "assetExpected": [
+            "public/slides/M2-04.png"
+          ],
+          "list": null,
+          "paragraphStart": 17
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在正式认识构成容器底层框架的盒子法则之前，我们先来看看如果不守工程规矩，将会落得怎样惨痛的下场。",
+          "ttsFp": "8a7b1f2c_48",
+          "srtCueIdx": 24,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看看屏幕上这张对比图。前几年，有一位学生做了一份毕业设计，他拿着自己在大型高分辨率显示屏上精心打磨、引以为傲的设计稿发给了导师看。在他的高端 4K 制图显示器上，这份交互原型堪称完美工艺品——排版对齐极其精美，中西文间距的留白也都做得极为考究。他认为这就是设计的终极状态了。",
+          "ttsFp": "a869192b_137",
+          "srtCueIdx": 25,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但在期末评审的那天，这套被硬编码强行缝合起来的本地系统，被投射到了阶梯教室那台老旧且分辨率极其拉垮的投影仪上。在那一刻，灾难瞬间降临了：",
+          "ttsFp": "adafd766_68",
+          "srtCueIdx": 26,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "他那精心布置且锁死在右上角的\"用户登录\"按键，直接因为分辨率挤压而跑到了屏幕外；他那张横纵比 16:9 展示的超宽屏主视觉头图，无情地碾压了底部本来应该存在的说明文字。更要命的是，他用 Photoshop 切图导出的那些精确到像素级别的元素间距，在投影仪的低分辨率下产生了严重的亚像素混叠，文字边缘模糊得像洗过水的报纸。整个产品界面的视觉骨架，就像一座没有打稳地基的漂亮玻璃房子一样，在浏览器不同的窗口尺寸冲击下，随风摇摆并轰然倒塌。",
+          "ttsFp": "a9cdbe01_217",
+          "srtCueIdx": 27,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个悲剧在互联网设计史上并非孤例。事实上，根据大量设计团队的复盘与教训，超过三分之二的初级设计师在职业生涯的某个时刻，都曾经被这种\"在我的电脑上明明好好的啊\"的幻觉冲击过。问题的根源极其统一：他们没有意识到——**设计稿是在特定的物理环境中生存的，一旦离开那个温室，它的一切假设都会被无情打破**。",
+          "ttsFp": "7944871a_149",
+          "srtCueIdx": 28,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为什么看似完美的稿子会塌得这么彻底？",
+          "ttsFp": "df0a9e68_18",
+          "srtCueIdx": 29,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "根本原因就在于：设计师傲慢地用静止的假设，去对抗流动的物理现实。",
+          "ttsFp": "7f30c504_32",
+          "srtCueIdx": 30,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "从万维网和超文本引擎被发明诞生的那一天起，它在基因层面就注定了自己不是一页被锁死的印刷纸张。",
+          "ttsFp": "16da285a_46",
+          "srtCueIdx": 31,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们回想一下最早的 HTML 结构，那个时候甚至连 CSS（层叠样式表）这种排版工具都还没有被引入。那时候只有内容段落和标题标签，文本的流动就像水一样自然流淌。后来时代演进了，终端设备爆发了，我们有了各式的电脑屏幕，有了单手操作的智能手机，有了可翻折的平板，甚至有了穿戴在手腕上的智能手表界面。",
+          "ttsFp": "8b72f631_147",
+          "srtCueIdx": 32,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "物理设备的屏幕尺寸在每天演进，操作系统的系统级字体缩放比例也在每天变动。在这张无始无终的网里，如果你依然像个旧时代的油画家一样，坚持要在一张固定长宽尺寸的绝对画布上去强行框定每一根毛发的绝对走向，那你就永远是在和浏览器的底层法则作对，永远在制造碎裂的脆弱界面。",
+          "ttsFp": "fa4148c8_130",
+          "srtCueIdx": 33,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而解决这道折磨了设计师整整二十年难题的唯一解药，叫做**响应式设计 (Responsive Design)**。",
+          "ttsFp": "fbde8c67_56",
+          "srtCueIdx": 34,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 37,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果跳出互联网看，这其实并不是数字时代才独有的难题。传统的建筑大师们早就遇到了同样的瓶颈。在这之前，建筑工人们全靠各自手里的尺子、经验甚至是直觉去垒砖头，这就导致了不同施工队负责的承重墙面根本无法实现完美拼接，楼稍微盖高一点就会因为底层的公差累积而出现极其致命的结构错位倾斜。这就像我们今天很多没有受过前端工程系统化训练的设计新手一样，在 Figma 里仅仅凭着眼缘和直觉去自由拖拽按钮位置，最后强行拼凑出来的所谓高保真原型，根本经不起真实设备终端运行时的任何拉扯。",
+          "ttsFp": "8ec02d9c_233",
+          "srtCueIdx": 35,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在现代建筑史中，被尊为巨匠的勒·柯布西耶（Le Corbusier）发现了什么致命问题？他敏锐地发现：如果施工现场的每一个砖瓦工人都完全按照自己的直觉喜好去丈量尺寸、去砌墙角，那么百层高的钢筋水泥房子是绝对盖不起来的。于是，他发明了著名的\"模度\"（Modulor）理论，把混乱的人体生理比例抽丝剥茧，变成了一套极其极其严密的数学网格基础与工业集成的容器系统标准。",
+          "ttsFp": "59e7a456_181",
+          "srtCueIdx": 36,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "正是因为有了这套标准化的客观积木体系，我们到了今天才能够在大规模量产的工业化进程中，极为精准地向云端盖出无论在什么极端地形或风沙中都站得非常稳的高楼大厦。",
+          "ttsFp": "b9a0df80_77",
+          "srtCueIdx": 37,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 49,
+          "srcLEnd": 49
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你想在这个智能设备层出不穷、终端碎片化如宇宙星辰般的复杂年代做一份立得住脚的产品设计，你就必须停止去纯粹只画那些漂亮但一碰就碎的界面外壳。你必须跳出现有的维度，学会像建筑结构师一样去深入思考底层的受力结构。",
+          "ttsFp": "80bdc1ae_105",
+          "srtCueIdx": 38,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 51,
+          "srcLEnd": 51
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个庞大的建筑结构体系里，你用鼠标设计的，再也不是诸如\"一个绝对高度 300 像素宽的图片，外加在其下方紧贴着一行 20 像素的细体字\"这样死板的内容拼贴。",
+          "ttsFp": "f5973799_79",
+          "srtCueIdx": 39,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 53,
+          "srcLEnd": 53
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你真正设计并输出的，是一个**充满弹性的容器边界适应规则**。",
+          "ttsFp": "878c861f_31",
+          "srtCueIdx": 40,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你要学着用参数大声告诉底层的前端机器甚至是负责生成的 AI 模型：",
+          "ttsFp": "4a0a7d4a_33",
+          "srtCueIdx": 41,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当屏幕随着用户拖拽，变得趋近无限宽的时候，容器中间的排版该如何合理分布地向外膨胀吸纳多余真空？",
+          "ttsFp": "cb5b4fe8_47",
+          "srtCueIdx": 42,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而当用户的物理操作空间被极限手机屏幕压缩到极其狭窄的边缘时，容器内的文案该如何优雅地自动收缩和进行换行跌落以保护主要信息不致丢失？",
+          "ttsFp": "bae23f17_65",
+          "srtCueIdx": 43,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 65,
+          "srcLEnd": 65
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你要把所有这些无形的边界规则——就像给复杂的乐高积木提前打好互相咬合的凹凸接口槽位一样——通过 Figma 右侧那排精密严酷的工具栏定义下来。然后把这些接口设定，平滑且毫无二致地翻译为最高标准的底层代码参数属性进行交付。",
+          "ttsFp": "99df8c78_110",
+          "srtCueIdx": 44,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而这一切所有奇迹发生的共同起点，都源自于浏览器物理世界里那套牢不可破的核心定律底座——也就是我们在接下来的下个核心模块里，要带大家深入剖析与解构的底层秘密武器。",
+          "ttsFp": "b09f6177_80",
+          "srtCueIdx": 45,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M02_导入_画布思维的崩塌与响应式觉醒.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        }
+      ],
+      "firstSrtCueIdx": 24,
+      "budgetChars": 1800,
+      "oralCharCount": 1844,
+      "estimatedMinutes": 10.2,
+      "fillRatio": 1.02
+    },
+    {
+      "id": "mod-4",
+      "title": "模块 3: 讲授(上) — 万物皆盒：DOM 盒模型与物理法则 (约 20 分钟)",
+      "slides": [
+        {
+          "id": "M3-01",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "经典的 CSS 盒模型 3D 拆解透视图。从最内层向外依次漂浮：最蓝色的核心区域是 Content（内容区），向外一层包裹着绿色的缓冲带 Padding（内边距），紧接着是一道黄色的坚固围墙 Border（边框），而最外层则散发着橙色虚线的排斥力结界 Margin（外边距）。图示要求像建筑大楼的结构解剖图一样，展现极其严密的包裹感与层级关系。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M3-01.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M3-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/M3-01.png"
+          ],
+          "list": null,
+          "paragraphStart": 1
+        },
+        {
+          "id": "M3-01b",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "Margin 坍塔陷阱图解。上下紧挨的两个盒子，上方盒子的底部 Margin 标记为 30px，下方盒子的顶部 Margin 标记为 20px。但实际渲染的间距并不是 50px，而是被坝塔吞没为 30px，用大红叉和警示符号标注。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M3-01b.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M3-01b.png"
+          ],
+          "assetExpected": [
+            "public/slides/M3-01b.png"
+          ],
+          "list": null,
+          "paragraphStart": 14
+        },
+        {
+          "id": "M3-02",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧隐喻再现：现实世界货架上的鞋盒比喻。一双崭新的鞋子放在耐克鞋盒里。鞋子是 Content，裹着鞋子防止碰撞的海绵与防潮纸团是 Padding，纸盒的硬纸板本身是 Border，而放在大型仓库货架上，两个鞋盒之间出于拿取方便留出的空隙是 Margin。右侧界面映射：一个真实的 UI 按钮，对应标注出文字 (Content)、文字到边界的蓝底区域 (Padding)、描边 (Border)、周围与其他输入框推开的白色留白 (Margin)。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M3-02.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M3-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/M3-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 17
+        },
+        {
+          "id": "M3-02b",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "Figma 与代码的一一对映表，左半侧显示 Figma 属性面板截图（标注 Frame 宽高、Padding、Item Spacing、Stroke），右半侧对应 CSS 代码块（width/height, padding, gap, border），中间用精确的箭头连接。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M3-02b.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M3-02b.png"
+          ],
+          "assetExpected": [
+            "public/slides/M3-02b.png"
+          ],
+          "list": null,
+          "paragraphStart": 28
+        },
+        {
+          "id": "M3-03",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "尺寸计算法则灾难展示图表。左边是 `box-sizing: content-box` (W3C传统算力模式)：设计师给盒子设定了 300px 的理想宽度指令，然后给其加上了左右各 20px 的 Padding 属性。结果整个盒子发生了恐怖的参数膨胀，变成了 340px 宽，像一头怪物一样把旁边原本排错好的组件卡片给无情地顶飞了。右边是 `box-sizing: border-box` (现代应用模式)：同样的 300px 宽度指令，Padding 被强制向内收缩挤压内容的可用空间，盒子整体视觉外观死死地守住 300px 的坚固物理边界寸步不让。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M3-03.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M3-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/M3-03.png"
+          ],
+          "list": null,
+          "paragraphStart": 31
+        },
+        {
+          "id": "M3-04",
+          "layout": "Screenshot",
+          "text": "",
+          "heading": "",
+          "scene": "被全行业奉为\"设计界天花板\"的著名海外支付工具 Stripe 的真理官网代码审查截图。通过右键 Inspect 调出了浏览器极其极客视角的 Chrome DevTools（开发者工具）。在右侧的 Computed（计算属性）面板中，那个举世著名的、用来解析 DOM 的彩色同心矩形（也就是我们的盒模型 X 光透视图）清晰可见。数字极其密集且精准地显示了其在多级容器下，有着极度疯狂克制和如同数学矩阵般绝对规律的 padding 与 margin 的双层数值控制体系。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M3-04.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M3-04.png"
+          ],
+          "assetExpected": [
+            "public/slides/M3-04.png"
+          ],
+          "list": null,
+          "paragraphStart": 40
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!INFO",
+          "text": "[!INFO]\n**核心理论库**\n- 引用节点: `dom-box-model-mental-map`\n- 理论溯源: W3C 盒模型规范与网页空间渲染的底层物理引擎抽象。",
+          "ttsFp": "9d413698_87",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 4,
+          "srcLEnd": 7
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "前端的世界，和你们刚才看到的自由画板，有着本质的不同。",
+          "ttsFp": "f24c400e_27",
+          "srtCueIdx": 46,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "前端的屏幕上，并没有那些可以让你随意画的、孤立存在的圆形，也没有轻飘飘浮在半空的线段。",
+          "ttsFp": "81dbb307_43",
+          "srtCueIdx": 47,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "统治这个庞大数字世界的最底层物理法则，有且只有一个：**DOM 盒模型 (Box Model)**。",
+          "ttsFp": "adc8cb3b_50",
+          "srtCueIdx": 48,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "HTML 里的每一个元素元素，无论是大大的背景主视觉图、一段包含几千字的文章，还是哪怕仅仅是一行极其微小、微不足道的文字标题。在冷酷无情的浏览器引擎眼里，它们永远都只是一个方方正正的\"矩形盒子\"。请你千万不要被视觉表象所欺骗了，就算你把它在这层画布上画成了一个绝对正义的圆形按钮，它的物理占位边界依然是个长方形。",
+          "ttsFp": "30839786_156",
+          "srtCueIdx": 49,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个占据物理空间的盒子，就像洋葱一样，天生有着四层皮肤。",
+          "ttsFp": "bd9c6506_28",
+          "srtCueIdx": 50,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第一层最核心的肉，叫做 Content（内容区）。**",
+          "ttsFp": "ee29321a_29",
+          "srtCueIdx": 51,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 25,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你的文字排版、图片素材本身有多大的实体尺寸，它在中心就占据多大。我们在 CSS 代码里写下 `width: 100px` 的时候，在远古时代的浏览器规则计算里，指的仅仅是这块\"肉\"的精确宽度。",
+          "ttsFp": "6b5e3043_96",
+          "srtCueIdx": 52,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 26,
+          "srcLEnd": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第二层，叫做 Padding（内边距）。**",
+          "ttsFp": "4e33cffd_24",
+          "srtCueIdx": 53,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 28,
+          "srcLEnd": 28
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是紧紧包裹着核心内容的向内缓冲带。如果内容是你的身体，Padding 就是你身上穿的那件厚厚的防撞服。",
+          "ttsFp": "ec884f11_52",
+          "srtCueIdx": 54,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第三层，叫做 Border（边框）。**",
+          "ttsFp": "93196445_22",
+          "srtCueIdx": 55,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是容器的显式物理边界，就像一堵你无法穿透的墙。你可以通过参数给墙加上各种颜色，也可以让它是完全透明的伪装色，但它永远都在那里。",
+          "ttsFp": "c786f567_64",
+          "srtCueIdx": 56,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**最外面的第四层，叫做 Margin（外边距）。**",
+          "ttsFp": "4ecbd640_27",
+          "srtCueIdx": 57,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这并不是实体的阻挡，而是一种排斥力场、一种无法跨越的结界。它决定了这个盒子和相邻的另一个盒子之间，必须保持多远的坚定的社交隔离距离。",
+          "ttsFp": "a3a95fb1_66",
+          "srtCueIdx": 58,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但是，这第四层结界里还藏着一个让无数前端工程师在深夜拔头发的经典程序感染现象——**Margin 坍塔（Margin Collapsing）**。",
+          "ttsFp": "d17ca4b3_73",
+          "srtCueIdx": 59,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你设定上方盒子的底部结界为 30px，下方盒子的顶部结界为 20px。理想情况下你觉得它们之间应该是 30+20=50px 的庞大安全缓冲区吧？不！浏览器极其霜冷地告诉你：当两个垂直相邻的 Margin 面对面碰撞时，它们不会像不同味道的果汁一样叠加融合，而是会发生吂坍！只有较大的那个值会被留下，较小的那个直接被吞没，最终只留下 30px。",
+          "ttsFp": "31cc5780_171",
+          "srtCueIdx": 60,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种反直觉的抢占行为，曾经导致无数工程师和设计师对着屏幕上“明明标注了 50px 间距为什么只显示了 30px”的愫尬谜题纠结一整晚。在 Figma 里，Auto Layout 巧妙地用 `gap` 属性彻底规避了这个历史坑——它定义的是子元素之间显式且不会坍塔的间距，而不是两个盒子各自向外投射的排斥场。",
+          "ttsFp": "1ba9204a_153",
+          "srtCueIdx": 61,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果这些英文术语太过抽象，你们完全可以跳出冷冰冰的代码浏览器窗口，把整个由光和电组成的渲染引擎立刻想象成一个极其庞大、物流运转极度高效的现代化生鲜仓储货架系统。而每一个网页界面里的原生元素，不管它在表面的设计稿上被你们用色彩粉饰得多不像，在底层分拣机器人红外射线的眼里，它们永远都只是货架上的一个个方方正正的**鞋盒**。你绝不可能试图把一个没有外层方正包装的水球直接赤裸裸地扔到高速运转的平铺物流履带上，所有的零碎东西在进入这个严苛系统前，必须被强制塞进一个个标准化的长方体盒子里。这就是万物皆盒的绝对前提。",
+          "ttsFp": "530e69e9_255",
+          "srtCueIdx": 62,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 56,
+          "srcLEnd": 56
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在鞋盒里面的那双鞋子，就是你的 Content（内容），它是有明确三维实体尺寸的。",
+          "ttsFp": "e61b5fa9_41",
+          "srtCueIdx": 63,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了在运输过程中保护鞋子不晃荡、不被边角撞散，你在鞋子周围严密塞进去的一圈一圈防撞海绵或者揉皱的防潮纸，就是 Padding（内边距）。",
+          "ttsFp": "c4348a3d_68",
+          "srtCueIdx": 64,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那个用硬纸板折叠而成的外包装外壳本身，就是 Border（边框）。",
+          "ttsFp": "2c388991_33",
+          "srtCueIdx": 65,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你把这个包装好的鞋盒放到货架上时，为了方便之后拿取，你刻意和旁边另一个鞋盒之间留出了一段清晰的空隙，这就是外边距结界 Margin。",
+          "ttsFp": "cd80ab5c_67",
+          "srtCueIdx": 66,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 61,
+          "srcLEnd": 61
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "现在让我们把视线从鞋盒拉回数字 UI 界面。",
+          "ttsFp": "d6766519_22",
+          "srtCueIdx": 67,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看看你们在上节课表单设计里画的那个\"确认提交\"按钮。在这上面，文字\"提交\"就是里面那双鞋（核心内容）。在文字到按钮的物理边线之间，那些用来撑起蓝色背景并让按钮看起来有呼吸感和张力的内部空间，全部都是塞进去的海绵 Padding。",
+          "ttsFp": "43d942d7_114",
+          "srtCueIdx": 68,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多初级设计师在检查设计稿时都会反应：\"哎呀，这个按钮在手机端看起来太小了，经常会点不到报错\"，而他们的第一直觉反应，就是赶紧去把字体级别放大。",
+          "ttsFp": "c9c61fd9_72",
+          "srtCueIdx": 69,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 65,
+          "srcLEnd": 65
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "错了。**增加触控面积最科学、最工程化的方法，绝对不是放大内容本身去抢占面积，而是加厚海绵——也就是增加内部的 Padding。这能在不破坏视觉层级的前提下，极大扩充可点击的热区范围。** Apple 的人机界面指南里明确规定了最小触控热区为 44x44pt，而 Google 的 Material Design 规范更加激进，建议为 48x48dp。这些底线尺寸中真正起作用的大部分空间，可不是文字本身，而是裹着文字的那层厚实的 Padding 缓冲护甲。",
+          "ttsFp": "6aa5459c_229",
+          "srtCueIdx": 70,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而按钮的最外侧物理边缘，到紧接着的下一个诸如\"密码输入框\"之间的强制隔离距离，就是绝对结界 Margin。",
+          "ttsFp": "917be168_53",
+          "srtCueIdx": 71,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "**跨学科视角：Margin 结界与霍尔的近距学 (Proxemics)**\n我们为什么需要如此残忍地控制 Margin 这个\"排斥结界\"？如果跳出代码，从美国人类学家爱德华·霍尔 (Edward T. Hall) 提出的「近距学 (Proxemics)」来看，人类在物理世界中本能地划分了亲密、个人、社交与公共四种空间距离。如果一个陌生人在拥挤的地铁里完全无视你的\"个人距离\"强行贴向你，你会感到本能的极度不适甚至愤怒。数字界面的容器组件也是一样。\n如果两个毫无功能血缘关系的卡片（比如\"购物车去结算\"的安全按钮和\"猜你喜欢\"的促销横幅）没有通过足够大倍数的 Margin 保持安全的\"社交距离\"，它们就会像不速之客一样互相粗暴地侵犯对方的私人领地。缺乏 Margin 结界保护的粘连界面，本质上是在视觉潜意识层面不断诱发用户的空间幽闭恐惧与压迫感。控制 Margin，就是在用社会心理学的法则，为这些冷冰冰的代码方块画出优雅的社交礼仪边界。",
+          "ttsFp": "3bff86ec_422",
+          "srtCueIdx": 72,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 69,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我说到盒模型的四层结构，其实想告诉大家一件极其重要的事：你们每天在 Figma 里操作的那些属性，**和真实代码里的盒模型参数，是一条沟里的两头牛**。",
+          "ttsFp": "72f0b0c4_76",
+          "srtCueIdx": 73,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 81,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你在 Figma 里给 Frame 设定的宽高，就是代码中的 `width` 和 `height`；你在 Auto Layout 面板上调整的四个方向的 Padding，直接对应的就是 CSS 的 `padding`；你在那个标注着 Item Spacing 的输入框里敲入的数字，对应的恰好是 Flex 布局里的 `gap`；而你为元素添加的描边 Stroke，就是盒模型的 `border`。",
+          "ttsFp": "d26bc943_198",
+          "srtCueIdx": 74,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以请大家牢记这一点：**你在 Figma 里走过的每一步属性设置，都干干净净地映射在前端代码的盒模型体系里，一个不多，一个不少。**你设定得越规范，工程师在代码里复现的成本越低；你设定得越随意，期间的翻译损耗就越巨大，最终呈现出来的差距也就越让人崩溃。",
+          "ttsFp": "f68ec96b_127",
+          "srtCueIdx": 75,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 83,
+          "srcLEnd": 83
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这看似清晰的四层洋葱皮结构，不仅仅是为了我们在视觉上好区分做划分，它更是整个前端世界里最血腥、最残酷的尺寸计算公式与 Bug 的根源所在。",
+          "ttsFp": "260985a9_69",
+          "srtCueIdx": 76,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 92,
+          "srcLEnd": 92
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这曾经是整个早期 Web 前端工程界的一个无法避开的巨大天坑。",
+          "ttsFp": "82baed27_31",
+          "srtCueIdx": 77,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "假设你现在是一个初级的设计师，你在你的草图中想在可视区域画一个正好 300 像素宽的精美用户卡片。画出来之后，你觉得里面的标题文字太贴边了，简直像被关在监狱里，于是你在控制台输入了指令，加上了左侧 20 像素，右侧 20 像素的内部缓冲边距 (Padding)。",
+          "ttsFp": "9cbbfd18_131",
+          "srtCueIdx": 78,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 95,
+          "srcLEnd": 95
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在过去（也就是远古的 IE 时代的暗黑岁月，或者是严格 W3C 的早期粗糙规范中），当你天真地给元素设定 `width: 300px` 时，它默认只约束了最里面的那层极其狭窄的肉 (Content)。它不管外面的死活。",
+          "ttsFp": "291a9be8_109",
+          "srtCueIdx": 79,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 97,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "于是，浏览器极其死板且刻薄的计算公式开始运作了：**300px (核心肉体) + 20px (左侧海绵充填) + 20px (右侧海绵充填) = 340px 的总显示尺寸。**",
+          "ttsFp": "fd44521c_88",
+          "srtCueIdx": 80,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最终在那个原本只有有限像素宽度的屏幕上被暴躁渲染出来的，是一个宽达 340 像素的膨胀怪物盒子！这种由于 Padding 无脑加法计算导致的意料之外的空间膨胀，曾经让无数号称\"像素级还原\"的精美设计稿，在浏览器里因为宽度爆表而四分五裂。",
+          "ttsFp": "a1360bc5_118",
+          "srtCueIdx": 81,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了彻底解决这个反人类的空间加解算法，随后而来的 CSS3 正式规范化了一个极其霸道的指令——也就是今天拯救了所有人的 **`box-sizing: border-box`**。",
+          "ttsFp": "b15e9804_89",
+          "srtCueIdx": 82,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这条指令的意思非常明确：当你果断写下宽度 300px 的时候，这是直接越过内容层，对第三层洋葱皮——边框(Border)这层物理防线下发的最高命令。不管里面被疯狂塞入多少用作缓冲的海绵，你的可视总体外壳必须死死守住 300 像素这条红线，绝对不准向外产生任何一纳米的膨胀！所有多出来的防守海绵，只能乖乖地往内去残忍挤压和压缩核心肉体的生存空间。",
+          "ttsFp": "6663fb55_172",
+          "srtCueIdx": 83,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "今天你们在 Figma 画板里每一次调引用的 Auto Layout（自动布局），其底层逻辑就是完美且苛刻地默认基于 `border-box` 的防膨胀算法去运行的。这就意味着一个质变：当你在 Figma 最右侧属性栏里拖拽或锁定出一个宽度固定（Fixed）的弹性 Frame 容器，然后再去试图增加或缩减它的内部 Padding 内边距数值拉扯间距时，它的整体宏观总宽带永远都不会擅自越轨变长——这种绝对安全的尺寸锁定操作，是设计软件向代码底层执行协议妥协而换来的伟大胜利。",
+          "ttsFp": "29831f7b_238",
+          "srtCueIdx": 84,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 105,
+          "srcLEnd": 106
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们今天在这里一直谈论工程化、规则化，它真正的目的，就是要求你们必须把以往基于灵感触发的设计直觉，全部强制且无缝地转化为可以被机器直接解析的浏览器底层网格参数。",
+          "ttsFp": "56dacae7_80",
+          "srtCueIdx": 85,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 115,
+          "srcLEnd": 115
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们可以在下课后，亲自去打开那个被全世界 SaaS 开发者与同行极力推崇、被称为\"设计界绝对天花板\"的 Stripe 支付平台的官方网。不要只看它的表面视觉，请点开鼠标右键，勇敢地选择\"检查 (Inspect)\"，直接带上头盔去窥视它庞大视觉体系下运转的代码底层发动机。",
+          "ttsFp": "98d544fd_135",
+          "srtCueIdx": 86,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你凝视浏览器的 DevTools 右下角，你会立刻看到我们要讲的那个彩色的层层叠套的同心矩形，那就是能照透一切设计外衣的真实照妖镜。",
+          "ttsFp": "2618129b_67",
+          "srtCueIdx": 87,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这面全视照妖镜的严密扫描下，你会无比吃惊地发现：Stripe 那些在普通用户看起来无比轻盈梦幻、似乎顺理成章完全浑然天成的设计元素，其背后其实隐藏着一个在空间约束上达到了极端狂热程度的\"盒子控制狂\"团队。",
+          "ttsFp": "a233a27b_103",
+          "srtCueIdx": 88,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 120,
+          "srcLEnd": 120
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它页面上的每一处看起来极其通透的呼吸感，全都是被严厉的数学公式计算好并强行注入的 Padding 参数；而所有的元素与元素的社交安全距离，全都是被极其残暴地控制且精确约束到必须是 8px 倍数值的 Margin。在它的整个前端视图帝国里，没有哪怕一个像素的游离。",
+          "ttsFp": "a9161837_131",
+          "srtCueIdx": 89,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这也是为什么 Stripe 的那套史诗级组件库，可以允许毫无天赋的新手实习工程师哪怕是闭着眼睛去胡乱调用拼接，最终呈现的界面也绝对不会崩塌离析的最核心原因。",
+          "ttsFp": "f12cbe92_78",
+          "srtCueIdx": 90,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 123,
+          "srcLEnd": 123
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种对底层盒模型进行偏执且极权式控制的做法，绝非 Stripe 一家公司独有的怪癖。翻开当今世界上任何一家统治级大厂的开源前端规范手册——无论是支撑起整个北美独立站电商半壁江山的 Shopify 的 Polaris 设计系统，还是支撑着国内无数复杂中后台业务流转和金融级数据呈现的阿里的 Ant Design——只要你稍微深入去向下翻阅阅读，你会发现它们的组件库文档里，往往都有一整页甚至好几页极度冗长、看上去枯燥乏味的矩阵制表。里面专门用来精细定义和强硬锁死每一颗最最普通的警示按钮、每一张带着阴影的商品图文信息卡片的内外部四层洋葱圈盒模型约束参数，甚至连一像素的多余视觉溢散都在规范里被直接明令禁止。",
+          "ttsFp": "6dff0d5e_302",
+          "srtCueIdx": 91,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 126,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这绝对不是什么由强迫症重度患者所自嗨搞出来的狂欢节，这是当一个工业级别的商业产品在团队规模高速进化扩张到上百名、甚至跨越多个遥远时区进行散装分布协作的设计师与全栈工程师团队群体时，产品总监们用来对抗混乱，唯一能够彻底阻止由于个人审美偏差习惯所带来的全链路视觉雪崩崩溃、以及不可逆的熵增失控走向深渊的最后一条钢铁防线。",
+          "ttsFp": "1818bfad_158",
+          "srtCueIdx": 92,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 127,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "记住，**要把那些漂浮在空中的设计直觉，强硬且不可逆地转化为能够用游标卡尺去度量的盒子边界参数，才是对复杂产品与用户界面系统秩序的最深层、最具权力的掌控。**",
+          "ttsFp": "b9da374a_79",
+          "srtCueIdx": 93,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你们返回到 Figma 设计界面的时候，请先别急着画那些好看的渐变色块和花俘的装饰图标。请先对着你的屏幕大声回答我三个问题：第一，这个元素的内容边界在哪里？第二，它的缓冲距离应该是多少？第三，它和邻居之间的强制隔离约束又是多少？只有当你能清晰地回答这三个问题的时候，你才算是真正拥有了用工程思维去看待每一个屏幕元素的能力。",
+          "ttsFp": "2a7ed057_162",
+          "srtCueIdx": 94,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M03_讲授_万物皆盒_DOM_盒模型与物理法则.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        }
+      ],
+      "firstSrtCueIdx": 46,
+      "budgetChars": 3600,
+      "oralCharCount": 3957,
+      "estimatedMinutes": 22.0,
+      "fillRatio": 1.1
+    },
+    {
+      "id": "mod-5",
+      "title": "模块 4: 讲授(中) — 弹性宇宙：Flexbox与AutoLayout双向翻译 (约 25 分钟)",
+      "slides": [
+        {
+          "id": "M4-01",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "极具视觉冲击力的从\"僵硬排版\"到\"弹性有机体\"跨越演示。屏幕左边是一堵用死硬灰色砖头严丝合缝砌死的墙（隐喻 Float 浮动与绝对定位的旧时代）。屏幕右边是一个充满弹簧、橡皮筋、活塞与连杆的极其精密且泛着光泽的现代机械引擎组。当受到外部强力施压（隐喻屏幕断点压缩）时，内部所有零件会平滑地发生连锁收缩和结构避让，绝不断裂。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M4-01.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M4-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/M4-01.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "M4-02",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是极其清晰的、放大版的高清 Figma Auto Layout 属性操作面板视图，右侧是其本质完全一一对应的原生浏览器 CSS Flexbox 底层编译代码块。两边用极为耀眼的荧光色连线，进行毫无误差的一对一全量高亮属性翻译绑定：例如横向纵向排列选项箭头精准对应 `flex-direction`；Item Spacing 输入框精准对应代码的 `gap` 属性；而局部的 Padding 边距设置甚至直接对应 CSS 原始的同名 `padding` 节点设置。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M4-02.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M4-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/M4-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 4
+        },
+        {
+          "id": "M4-02b",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "俄罗斯套娃式的 Flex 嵌套架构图解。最外层是一个巨大的垂直向下箭头（代表最外层父容器 `flex-direction: column`），内部包含了三个水平向右箭头的\"子一层\"长条容器（`flex-direction: row`）。在其中一个长条容器内，又包含了两个垂直向下的小容器。生动展示 Auto Layout 无限嵌套构建复杂界面的能力。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M4-02b.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M4-02b.png"
+          ],
+          "assetExpected": [
+            "public/slides/M4-02b.png"
+          ],
+          "list": null,
+          "paragraphStart": 13
+        },
+        {
+          "id": "M4-03",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "Hug vs Fill 最为惨烈的终极博弈视觉重现。左侧的子图案（象征 Hug 机制）：这是一个由极其柔软和贴合的软布袋材质包裹着的一个巨大硬质水杯，整个软布袋外部轮廓的形状和隆起，百分之百是被布袋里面那块坚硬固体水杯（也就是内容物）给绝对强行从内部撑死出来的。右侧子图（象征 Fill 机制）：这是一个装满了极其具备膨胀力水压的巨大弹性气球，它被人被粗暴丢进了一个非常空旷的硬体快递纸箱（约束容器）里，气球在接触底部的瞬间，向四周疯狂地、毫无保留地极速扩张，水流挤占瞬间填满了四周纸箱所有的物理角落。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M4-03.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M4-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/M4-03.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        },
+        {
+          "id": "M4-03b",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "Wrap 换行机制图解。左边是没有开启 Wrap 保护的惨状：由于屏幕挤压，一排本来应该完整的 Tag 标签被粗暴截断，一半字面飞出屏幕；右边是开启了 Wrap (折行) 机制后的优雅：多出来的几个标签像是遇到了瀑布的边缘，平滑、自然地跌落到第二行，形成优雅的双排或三排网格状态。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M4-03b.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M4-03b.png"
+          ],
+          "assetExpected": [
+            "public/slides/M4-03b.png"
+          ],
+          "list": null,
+          "paragraphStart": 30
+        },
+        {
+          "id": "M4-04",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "现场急救：卡片响应崩溃重症诊疗室大赏。一次性残暴展示 4 种因为胡乱随心嵌套导致的典型、高发性崩溃惨状截图：1. 【脑溢血病】超长的多行商品标题文字直接冲破了单行父容器防线，文字飞出白底卡片边缘外，叠加在深色背景上完全不可阅读（原因是父级死硬缺乏 Fill 向下的折行保护网）。2. 【粘连挤压病】结账卡片下部的购买按钮，原本该优雅地独占居右，而价格信息由于应该独立居左却在断点变化时和按钮死死黏在了一起（原因是全局缺少水平分布 space-between 基本对齐思想或者内部缺少占坑位防挤压的底层核心 Fill 透明扩张卡块）。3. 【斩首式切割病】极其重要的配图横幅在设备屏幕水平缩放后被垂直粗暴切割，人脸被切断，图片素材不再保持本身的优良裁切比例尺寸。4. 【中风锁妖塔】把本该极其具备流体自适应生命力的整个左侧导航系统栏，硬生生写死了最荒谬且违背自然响应常识的、死硬定宽（绝对 Fixed 像素点）的万恶老旧设置。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M4-04.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M4-04.png"
+          ],
+          "assetExpected": [
+            "public/slides/M4-04.png"
+          ],
+          "list": null,
+          "paragraphStart": 34
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当我们花了一节课的时间，终于理解了如何精确铸造出每一个孤立存在的合格积木块（也就是严酷的盒模型）之后，随之而来摆在你们面前的第二个巨大挑战是：如果把一堆不同尺寸的盒子扔进同一个巨大的屏幕容器里，积木和积木之间，究竟该按照什么法则来协同排列？",
+          "ttsFp": "0dc4c92d_120",
+          "srtCueIdx": 95,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 12,
+          "srcLEnd": 12
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果我们回到早期的 Web 拓荒时代，你会发现那时的网页排版更像是在做极其痛苦的算术泥水匠。我们只能使用一种叫做 `Float`（浮动）的老旧属性，一点点、一像素一像素地去算计一排还剩余几像素的坑位。只要用户的屏幕比你预想的稍微窄了哪怕也是可怜的 5 像素，排在最后一块的砖头盒子就会被无情地挤压跌落到下一排，整个原本对齐的精美页面瞬间发生恐怖的车祸现场。那是一个死硬的年代，没有宽容度可言。",
+          "ttsFp": "f4bc6fb0_196",
+          "srtCueIdx": 96,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "直到后来，一种叫做 **Flexbox (弹性灵活盒子)** 的革命性底层布局技术石破天惊地出现了。网页的二维乃至一维排版交互，才算是真正从旧石器时代的刀耕火种，大跨步进入了可缩放的现代工业革命。",
+          "ttsFp": "54a0c40c_98",
+          "srtCueIdx": 97,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这也是你们现在每天重度依赖并且觉得理所当然的那个神兵利器——**Figma 右边栏里的 Auto Layout (自动布局)** 的亲生父亲。",
+          "ttsFp": "fcdaa2b7_71",
+          "srtCueIdx": 98,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多非技术出身的同学一直有个错觉，以为 Auto Layout 是 Figma 团队自己在小黑屋里发明的什么绝世黑魔法引擎。",
+          "ttsFp": "36776905_62",
+          "srtCueIdx": 99,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 26,
+          "srcLEnd": 26
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其实根本不是。本质上来看，**Figma 的 Auto Layout 就是给底层极客向的 CSS Flexbox 穿上了一件极其美观、直观、而且操作门槛极低的可视化图形外衣（GUI）**。它们两者之间，甚至是同呼吸共命运的，有着一套极其严密、一比一锁死的双向翻译协议。",
+          "ttsFp": "6d5e9551_134",
+          "srtCueIdx": 100,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就意味你们在操作 Figma 的时候，实际上就是在云端写着最高标准的样板代码：",
+          "ttsFp": "4f5f63fc_40",
+          "srtCueIdx": 101,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 当你在 Figma 对界面里点击那个\"横向排列\"（Horizontal Direction）的直箭头操作时，Figma 在后台的翻译器其实是毫不犹豫地在代码虚拟层里下发了一句绝对的重设命令 `flex-direction: row`；",
+          "ttsFp": "a0463f48_119",
+          "srtCueIdx": 102,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 当你在数字框里小心翼翼地敲击，设置着容器里三个子卡片元素间的间隙为 16px (Spacing between items) 的时候，你的行为等同于一个资深前端亲手写下一句最干净利落的 `gap: 16px`。",
+          "ttsFp": "97c45a1c_107",
+          "srtCueIdx": 103,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "只要你搞懂了 Auto Layout 界面的每一寸结构，实际上，你早就在无形中掌握了写当代最高效、最具鲁棒能力的前端 CSS 布局代码的黄金技能了。",
+          "ttsFp": "6dece986_74",
+          "srtCueIdx": 104,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在这一套被称作弹性宇宙的系统里，它运行的首要、也是最根本、不能违背的大法则是：**父容器绝对控制子元素**。",
+          "ttsFp": "77b3ebc1_55",
+          "srtCueIdx": 105,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一个套着大层级 Auto Layout 的父级 Frame，它就好像是一个拥有绝对权力的军事统帅。它只要发号施令制定了横向还是纵向，它里面的所有那些子元素、孙子元素图层，都必须立刻无条件服从这套整体的排列轴线分布与对齐规则（也就是著名的 Justify Content 与 Align Items 参数）。",
+          "ttsFp": "71d180b2_153",
+          "srtCueIdx": 106,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是一个极其关键的排障（Debug）思维：如果在未来的做图或者写代码中，你发现你怎么拼命去强行拖拽微调一个小文本图层它就是死活不听话归位，你甚至急得流汗。停下来。原因往往 100% 都不是这个子元素自己出了问题，而是因为它外面的\"爹\"——那个绝对包裹着它的父级容器的属性规则配置冲突了。",
+          "ttsFp": "fbd8b79e_143",
+          "srtCueIdx": 107,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 37,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种父子控制的法则，还衍生出了 Flexbox 最伟大的力量来源：**嵌套（Nesting）**。",
+          "ttsFp": "726c9041_49",
+          "srtCueIdx": 108,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "复杂的数字产品界面，从来都不是只有一个轴线的一维面条。它是由横竖横竖交织而成的迷宫。一个垂直方向的 Auto Layout 大容器里，可以包含三个水平方向的 Auto Layout 子容器（比如网页的页头、主体和页脚）；而在那个水平的主体容器里，又可以再嵌套一个垂直的侧边栏和一个弹性的主内容区。",
+          "ttsFp": "2bca74e5_148",
+          "srtCueIdx": 109,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "就像你出门旅行打包行李箱（最外层垂直容器），你不是把所有零散的衣服牙刷都随便扔进去。你是先把洗漱用品装进一个洗漱包（水平子容器 A），把内衣裤装进另一个收纳袋（垂直子容器 B），然后把这些装好的子容器再整齐地放进行李箱里。一旦外出行李箱受到了积压变形，里面的每一个子包都会自己调整自适应——这就是高级前端布局最迷人的俄罗斯套娃艺术。",
+          "ttsFp": "df8afe6f_166",
+          "srtCueIdx": 110,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你想亲眼目睹这种属于现代工业级代码级多端组件嵌套的终极精妙杰作，今天下课后请你们立刻去亲手打开大家经常在做笔记使用的 Notion 强大的长文档页面编辑器，并且尝试着用审查元素的视角去彻底解构它。Notion 的每一个可被随意拖拽操作的细小文字 Block，其在前端构架的本质上本身就是一个极其严密且自带逻辑约束的垂直 Auto Layout 的深层容器——它中间的主文本区内容块默认采用了极度柔软包容的 Hug 先进属性，去极其温柔地包裹并且自适应地追随你不断大量敲打输入的单行文字数量进而撑高其物理容器；可是它左侧那个永远用于悬浮出现、供鼠标定位的六个小白点拖拽手柄区域，则反向采用了绝对冷酷死板的 Fixed 固定硬编码宽度去死皮赖脸地占位防守，以此来防止整体条块在鼠标滑过时出现任何一点点令人不安的滑动偏移错乱感；而那一个位于最外层架构、用于承重囊括承载它们这群细小组件组合的整个超宽大页面主体白色大区呢，则完完全全是一个采用了极其贪婪特质设计的大面积巨大 Fill 伸展容器，像一头被饿坏的巨兽时刻准备着去瞬间涌入并填满你那随着鼠标疯狂横向拉伸变宽后电脑屏幕里新增出来的每一寸真空物理像素。",
+          "ttsFp": "34a8fe46_502",
+          "srtCueIdx": 111,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 51,
+          "srcLEnd": 51
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你漫不经心地随手把一个折叠展开列表块（Toggle List）无情地用光标拖进另一个已经展开了的折叠列表块肚子内部的纵深里，然后再在那层深不可测的代码抽象结构里面直接暴躁地内嵌塞进一个个带有明黄色背景底色的强力刺眼 Callout 信息引语提示警告大方块时，各位，恭喜你，你就在无意间亲眼见证了这三层乃至可能是可怕的四级五级俄罗斯套娃循环系统在超大规模的真实世界端产品商业级别运转引擎当中的完美无瑕的兼容包容神话——在这个深邃恐怖且极度复杂的 DOM 操作架构层级节点树里面，每一层粗壮的干脉、甚至是末梢的每一片单调的独立树叶节点，都在严选各自被划分好的特定绝对封闭层级包裹空间里，极其严格苛刻且一丝不苟地在默默执行和绝对遵守着属于 Hug 与疯狂的 Fill 他们之间那些永不调停的复杂、绝妙的空间张力挤压博弈法则权衡。",
+          "ttsFp": "e6675cad_362",
+          "srtCueIdx": 112,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果把视野拔得更高、更深一层地透过表象向更广袤的人文学科领域去看，我们会震撼并且极其诧异地发觉：这种极度讲究层级所属和套件制约的、近乎数学般冷酷的嵌套的庄严秩序感，它其实压根并非是几十年前硅谷那某几几个百无聊赖编写底层协议框架的老派计算机图形界程序员的偶然灵光乍现和独创思维产物。早在现代的电子管计算机设备被人类彻底完全发明和点亮诞生之前足足大半个多世纪那么久远的时候，研究全人类文化演进密码的顶尖当代结构语言学家大师们，就已经极其敏锐地透过漫长的历史卷宗发现了全人类地球表面这几千种截然不同语种深处由于大脑机制所隐藏的同一套极度惊人的逻辑和递归嵌套规律本质。",
+          "ttsFp": "a29c22e9_280",
+          "srtCueIdx": 113,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 55,
+          "srcLEnd": 55
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当代最负盛名的一代宗师语言学泰斗诺姆·乔姆斯基，在他那震惊学界、如同计算机汇编般严密的著名的生成语法（Generative Grammar）理论早就告诉并且警告了我们：人类这一充满局限的生物之所以能够仅仅只用区区几千个极其有限、甚至看起来十分可怜的短小残缺基础词汇符号集，就能去创造、去编织和倾诉出有着无限多种繁复可能、甚至可以组合出近乎无限长的长度、并且在其庞大结构内部能够包囊和隐藏着无数多个修饰从句的各种完全前所未有的全新句法模式句子；这背后一切力量的来源，正是因为我们作为智慧物种大脑里自带固化的那一道古老语言生成法则机制、其本身的天性，就是天然地、而且并且是毫无阻拦地被全权允许着让一个个小型的片段子句结构近乎是如同盗梦空间般无限降维地去嵌套堆砌、填充嵌合进一个更加庞大宏伟的母体大结构的边界管辖容器之中。",
+          "ttsFp": "66a51298_358",
+          "srtCueIdx": 114,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 56,
+          "srcLEnd": 56
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以说到底，各位今天在这个微观层面上、满屏报错发狂而在 Figma 全黑死板的基础属性界面里，咬着牙死磕硬靠人力拖拽搭建出来的那套令人绝望的横向嵌套着无数纵向、而那些深不可测的繁杂内部纵向系统里又再次极其荒诞地反向深层包裹嵌套隐藏着横向网格分布的系统工程化组件结构大乱斗容器迷宫幻阵图，它并非只是一堆冷冰冰的多余代码废物。相反，它在构成这套体系底层的数字世界运行逻辑和那些更加深远的古老哲学演进的本质宿命上而言，它的确是完完全全、一脉相承地在和你此时此刻使用着极其复杂修饰语序的中文母语沟通去小心翼翼地造出那些错综迷离、层层叠叠包罗万象且相互制衡呼应附带着连环条件定语、同时还不忘穿插多重转折状语从句的庞大复杂高级句型，在这个宇宙级别的底层构建里死死地共同分享并且牢牢绑定着同一个不可违抗也是不可被修改破坏的、绝对纯粹同宗同源的宏伟底层递归闭环运行机制。",
+          "ttsFp": "5bc9d062_377",
+          "srtCueIdx": 115,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 57,
+          "srcLEnd": 57
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而，弹性布局里真正最折磨新手神经、也是最考验交互工程师空间感官的难点死地，还不是静态对齐，而是发生动态拉扯变化时的——**尺寸博弈**。",
+          "ttsFp": "f8f847ec_69",
+          "srtCueIdx": 116,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是业界赫赫有名的 **Hug (适应并且紧紧拥抱内容)** 阵营和 **Fill (野蛮疯狂地充满容器)** 阵营长年不息的宿命对决战。",
+          "ttsFp": "3c54f2cc_70",
+          "srtCueIdx": 117,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是什么高维概念？为了让各位产生深层肌肉记忆，我们必须用一个极其生动甚至是残暴的生活比喻。",
+          "ttsFp": "08ea40d8_45",
+          "srtCueIdx": 118,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**Hug (适应内容) 它的性格就像一个极度内向、没有安全感的人；或者我们在画板上看到的心智映射，就是一个装固体水杯的超软布袋**。",
+          "ttsFp": "f7da4e12_67",
+          "srtCueIdx": 119,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在代码世界里，它的初始占位完全由内部内容决定（对应 `flex-basis: auto`）。布袋里只有三个汉字，它就那么短短一截；后来传入十个字的标题，布袋立刻被撑长。它从不主动向外扩张（`flex-grow: 0`），只在乎紧紧抱着自己的核心内容。空间不够时，它甚至会优先委屈自己缩起来让道（`flex-shrink: 1`）。",
+          "ttsFp": "5df24c7c_165",
+          "srtCueIdx": 120,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 73,
+          "srcLEnd": 73
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "什么样的 UI 用 Hug 最安全？各类文本标签 Tags、功能图标以及行数字数不确定的长文章描述段落。",
+          "ttsFp": "b6190d0e_52",
+          "srtCueIdx": 121,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "与 Hug 完全相反的对立面，**Fill (充满容器) 它的性格就像一个极度贪婪的地产暴发户；也是那个被抛进纸箱内部之后疯狂向四周扩张、极富野心的水气球**。",
+          "ttsFp": "dbb3b217_80",
+          "srtCueIdx": 122,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 76,
+          "srcLEnd": 76
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "映射到参数面板底层，它有着无止境的扩张欲望（对应 `flex-grow: 1`）。它不在乎自己内部装了多少内容，哪怕是个空壳子！只要父级容器里还有任何无主的剩余空间，它就会如同水流一般贪婪地膨胀填充，直到占据父级提供的全部可利用底盘。",
+          "ttsFp": "695589a7_117",
+          "srtCueIdx": 123,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 77,
+          "srcLEnd": 77
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "什么样的 UI 必须用 Fill？所有全屏拉伸的广告头幅 Banner、横跨整屏的主搜索栏和输入框、以及作为视觉承重主干的自适应内容阅读专区或相册滚动区域。",
+          "ttsFp": "bfb0ffb1_78",
+          "srtCueIdx": 124,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当这两个性格截然不同的怪物在同一个容器内相互冲撞挤压时，如果你依然觉得不够安全，现代的弹性容器还准备了最后一道终极的柔性防线——**Wrap (换行折叠机制)**。",
+          "ttsFp": "2a6bcc6b_82",
+          "srtCueIdx": 125,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 87,
+          "srcLEnd": 87
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在过去，我们要让过多的按钮或标签换行是一件要人命的数学题。但在 Flexbox 的宇宙里，你只需要在代码中加上一句 `flex-wrap: wrap`，或者在 Figma 属性栏点一下那个代表\"跌落\"的小图标。它就像是告诉统帅：如果士兵冲锋时遇到了前方悬崖，不要死板地挤在一起掉出屏幕外，请聪明地跌落到第二行重新排开阵列！",
+          "ttsFp": "71899182_161",
+          "srtCueIdx": 126,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[CASE STUDY]",
+          "ttsFp": "8631db52_12",
+          "srtCueIdx": 127,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 90,
+          "srcLEnd": 90
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "去打开淘宝任意一件商品的详情页，看看颜色选择和尺码选择区域。当可选标签多达十几个而屏幕宽度不够排成一行时，Wrap 机制让多余的标签像瀑布一样优雅跌落到第二排、第三排——而不是被挤出屏幕成为用户永远触及不到的幽灵。这就是不可预知碎片数量场景下的绝对生存法则。",
+          "ttsFp": "d5abaea2_129",
+          "srtCueIdx": 128,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 91,
+          "srcLEnd": 91
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了加深大家的印象，让我们来举办一场残酷的\"响应崩溃重症诊疗室大会\"。屏幕上这四个病例，是各大公司初级设计师向工程侧交付资产时，每天都会爆发血案的经典绝症。",
+          "ttsFp": "0743d749_78",
+          "srtCueIdx": 129,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**一号重症：脑溢血病。**",
+          "ttsFp": "0c77e2cc_14",
+          "srtCueIdx": 130,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你看到左上角那个商品的标题像喷血一样冲破了白色卡片的下底座，直接叠加在底层黑灰色的背景上完全变成了无法阅读的黑暗体了吗？这场事故的主因，就是那位自信的新手仅仅因为此时自己输入的标题\"苹果手机\"这四个字正好没有填满那行空隙，就傲慢地关闭了向下折行保护阀（没有赋予内部文字 Fill 参数，或者父级锁死了绝对高度）。当后来数据库里吐出一个名称长达三十个字的欧洲进口巧克力名称时，悲剧发生了。对于所有承载多行不可预测文本的主干框架，记住：**拥抱内容的自适应垂直延展高度必须永远开启。**",
+          "ttsFp": "06b5702d_241",
+          "srtCueIdx": 131,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**二号重症：粘连挤压病。**",
+          "ttsFp": "c8f99dca_15",
+          "srtCueIdx": 132,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 105,
+          "srcLEnd": 105
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "右上角的那个付款横条里，象征价格的那行红字和右边那颗极大的\"立刻购买\"按钮竟然像被强力胶粘连在了一起死死挤着，连透气呼吸的空间都没有。明明设计本意上一个是永远居左，一个是永远居右驻守，为什么它们会发生可怕的移位融合？因为在那个由水平横向 Auto Layout 构建出的大长条父级管辖宇宙里，这位设计师愚蠢地忘记去选定那个名叫 `space-between`（两端强制对齐）的核心救命稻草属性，或者是粗心之下没有在它们两者中间塞进那一块绝对隐形但是可以凭借填充拉扯属性不断向外发力的霸气空心占位透明 Fill 充填模块！",
+          "ttsFp": "d45cc941_260",
+          "srtCueIdx": 133,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 106,
+          "srcLEnd": 106
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**三号重症：斩首式切割病。**",
+          "ttsFp": "29829ea9_16",
+          "srtCueIdx": 134,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 108,
+          "srcLEnd": 108
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "左下角的这幅极其昂贵的精美摄影头图的模特脸盆，在手机宽度被压缩之后被极其粗暴且毫无人性地从头顶正中间直批一刀纵向一切两段了。在所有的现代响应式图形组件中，你们绝不能让图片像死肉一样被人一刀切。你们必须给底层代码或者 Figma 灌注 `aspect-ratio`（保持固有长宽比例）的图片对象适应指令！让图片在横向变窄的同时，它的纵向高也要对应温柔地等比例萎缩，或者使用 `object-fit: cover` 哪怕裁切边缘，也要保护住主体的完整人像对焦！",
+          "ttsFp": "baac7202_228",
+          "srtCueIdx": 135,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 109,
+          "srcLEnd": 109
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**四号重症：中风锁妖塔。**",
+          "ttsFp": "55d42d35_15",
+          "srtCueIdx": 136,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 111,
+          "srcLEnd": 111
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "右下角的这张满屏图！在这个四处都需要水流般灵活性以应对未知平板尺寸的世界里，这也就是我们在 Figma 属性面板选单上常常一不小心就选中的第三种模式。讲了两个大营，我们最后来看看绝对的毒瘤反派。",
+          "ttsFp": "7c8d25e2_97",
+          "srtCueIdx": 137,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那就是臭名昭著的 **Fixed（固定绝对定死无弹性尺寸法）**。",
+          "ttsFp": "65526bfb_33",
+          "srtCueIdx": 138,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 113,
+          "srcLEnd": 113
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种设定，就是来自上个没有响应式概念的史前旧时代的代码剧毒遗毒。",
+          "ttsFp": "1c4bcbf2_32",
+          "srtCueIdx": 139,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 115,
+          "srcLEnd": 115
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "试想一下：当你在一个处处讲究弹性妥协的当代有机活页体系内，为了贪图一时之快，强行往这层活水里投下一大块固定了绝对宽度的花岗岩石板时，整个响应式宇宙的重力灾难就瞬间爆发了。",
+          "ttsFp": "09c070a3_85",
+          "srtCueIdx": 140,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各大公司初级交互设计师交付原型时，工程团队怨声载道的\"屏幕一拉就撕裂、文本溢出容器\"的总崩溃惨案中，绝大多数都是因为新手擅自给本该弹性的元素，强加了一个绝对硬编码（Hard-coded）锁死的 Fixed 控制宽度。",
+          "ttsFp": "8833aba4_108",
+          "srtCueIdx": 141,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "当你下次打开 Figma 准备搭建一个新页面时，请先在脑中默念三遍这道工程化口诀：**外层定方向，内层定伸缩，间隙走系统**。方向用 row 或 column，伸缩在 Hug 和 Fill 之间二选一，间隙只允许踩在 4px 倍数的刻度上。任何违反这三条铁律的行为，都将不可避免地制造出你刚刚在急诊室里见证过的那些灾难。",
+          "ttsFp": "d4749623_160",
+          "srtCueIdx": 142,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 119,
+          "srcLEnd": 120
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "永远不要在没有建立刻度大局观的情况下轻易落笔。一个完美无缺、极其优美在各类极限严苛分辨率测试设备运转下都不会动摇的弹性全界面，它是怎么被构建出来的？它就像是一套俄罗斯套娃、极其绝妙的微型生态系统一样，是由无数个极其明细且恪守本分的、柔软随境变幻的内向抱紧型 Hug 软质布袋元素，与那些填缝且兼顾支撑承重功能的生命型扩张极值 Fill 水质弹性气球彼此渗透、相互穿插嵌套而精密组合成的复合有机宏大复合连体！",
+          "ttsFp": "13d448c6_203",
+          "srtCueIdx": 143,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你学会了像代码工程师一样去驯养这头名为容器组合引擎的巨兽，那么在 Figma 中搭建响应式的复杂框架，不再是画图纸，而是亲自设计整套骨头、内脏和活体肌肉组织系统！",
+          "ttsFp": "f93dffcc_83",
+          "srtCueIdx": 144,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 124,
+          "srcLEnd": 124
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而当这些活体的组合盒子完全获得了自动调整身体机能、掌握了完美避障身姿的能力之后，这并不是结束。它们之间彼此该相处留有的极度具有艺术规律的绝佳舒适控制防守距离和秩序，还需要更加站在顶端法则上的上层建筑去降维指导。这也就是接下来的这个模块环节里，我们要揭开的面纱——属于全局工业规范中的终极武器：间距系统。",
+          "ttsFp": "3143f5db_151",
+          "srtCueIdx": 145,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译.md",
+          "srcLStart": 125,
+          "srcLEnd": 125
+        }
+      ],
+      "firstSrtCueIdx": 95,
+      "budgetChars": 4500,
+      "oralCharCount": 5311,
+      "estimatedMinutes": 29.5,
+      "fillRatio": 1.18
+    },
+    {
+      "id": "mod-6",
+      "title": "模块 5: 讲授(下) — 秩序的终局：间距刻度与Design Token (约 25 分钟)",
+      "slides": [
+        {
+          "id": "M5-01",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左右两套极其典型的间距排版策略实战对比。左侧赫然标注着\"随心所欲的破坏性间距\"：整个 UI 界面内充斥着毫无规律的 13px, 17px, 21px 这种由设计师靠肉眼和直觉零散瞎拽出来的数值，视觉表现上显得极其杂乱无章、呼吸感断裂且边缘无法对齐。右侧用金字雕刻般标注着\"系统化绝对控制的间距刻度\"：所有的元素内外间距全都极其严格地踩在以 4px 或 8px 为最小公倍数的整倍数网络上（如 16, 24, 32, 48px 等），整个画面瞬间形成了一股不可侵犯的强烈的工业节律感和极端的对齐秩序感。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M5-01.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M5-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/M5-01.png"
+          ],
+          "list": null,
+          "paragraphStart": 1
+        },
+        {
+          "id": "M5-02",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "清晰展示在复杂用户表单登录设计中有关\"消除歧义间距\"的经典正反案例大剖析。左侧的极其失败的错误案例（其组内标签与内容的间距数值，竟然和不同组块之间的上下间距完全相等），这就导致普通用户一眼扫过去，根本分不清中间那个悬空的副标题标签，到底是归属于上方的输入框，还是用来管辖下方的输入框；右侧是经过修正的绝对正确案例，设计师通过极大幅度地加大组与组之间的隔离留白（全局 Margin），并且极度收紧同一组内标题和输入框的贴合间距（局部 Gap），通过经典的格式塔亲密性原则原理，极其强力地明确了所有的从属统治关系。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M5-02.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M5-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/M5-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 12
+        },
+        {
+          "id": "M5-03",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "对 Brad Frost 极尽经典的 [Atomic Design 原子设计] 理论架构图的重度再诠释与现代拓展。从地基底层的无名代码堆，向上抽象出基础的 Design Tokens（各种色块参数、间距倍数、暗模式翻转标识），再从 Tokens 聚合成最基础的 Atoms（原子级：比如一个带字和背景的底层按钮），再继续往上组合攀爬为 Molecules（分子级：比如一个带有验证提示的全能表单输入区），最终组装拼变为庞大的 Organisms（有机宏观模块体系）。其中，画面必须高亮且用粗重箭头特写重点突出最底层的、作为一切基因根基的 Token 及其语用语义化映射。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M5-03.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M5-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/M5-03.png"
+          ],
+          "list": null,
+          "paragraphStart": 18
+        },
+        {
+          "id": "M5-04",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "极尽直观的三列渐进矩阵对比，展现震撼的阶跃式视觉数值如何演变、最终进化为 Token 语义抽象名称、并直接被无缝穿刺输出转化为前端代码组件库的三列神级对比转换流程：",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M5-04.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M5-04.png"
+          ],
+          "assetExpected": [
+            "public/slides/M5-04.png"
+          ],
+          "list": null,
+          "paragraphStart": 23
+        },
+        {
+          "id": "M5-04b",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "W3C 官方标准推荐的 Design Token 三端分离层级架构图（三明治架构）。底层是最基础的粗糙原始矿石**【Global Tokens (全局极值)】**（比如：`blue-500 = #3B82F6`, `spacing-base = 16px`）；被吸管抽到中间层进行第一次过滤赋能语义，变成了**【Alias Tokens (别名意图)】**（比如：`color-primary = blue-500`）；而最顶层的末端也就是直接暴露给按钮或界面的管线触手，进化为了极度具体的**【Component Specific Tokens (组件专有定义)】**（比如：`button-background-default = color-primary`）。通过极其严密的管线层层隔离映射，展示了现代工程中一处底层数值更改，如何通过管网顺滑地无缝升级波及顶端成千上万个界面的恐怖控制力。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M5-04b.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M5-04b.png"
+          ],
+          "assetExpected": [
+            "public/slides/M5-04b.png"
+          ],
+          "list": null,
+          "paragraphStart": 26
+        },
+        {
+          "id": "M5-05",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "史诗级的深色模式（Dark Mode）硬编码灾难与 Token 魔法的绝对对比。左侧（旧时代灾难）：一个疲惫不堪的前端工程师在面临苹果系统强制要求发布深色模式时，被迫在一个几百万行的屎山代码库里，如同盲人摸象一般去写无数个 `if (theme === 'dark')` 的恐怖补丁，整个屏幕被红色高亮的死板逻辑分支占据。右侧（Token 魔法）：一张极其优雅的\"一键翻转\"示意图。只有一个名为 `surface-card-base` 的语义化 Alias Token 枢纽，只连着两根线，系统开关一拨，瞬间从白昼切换到深邃暗夜，业务代码零改动。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M5-05.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M5-05.png"
+          ],
+          "assetExpected": [
+            "public/slides/M5-05.png"
+          ],
+          "list": null,
+          "paragraphStart": 33
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!INFO",
+          "text": "[!INFO]\n**核心理论库**\n- 引用节点: `book-refactoring-ui`, `refactoring-ui-layout-spacing`, `component-thinking-token-api`\n- 理论溯源: 亚当·瓦森 (Adam Wathan) 所著《Refactoring UI》中的非破坏性间距刻度机制；现代前端工程中的原子化设计体系与 Design Token 前沿语义标准。",
+          "ttsFp": "da69b0f0_209",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 4,
+          "srcLEnd": 7
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你们好不容易用盒子容器的思维模式，极其辛苦地拼装出整个产品界面架构时，另一个每天都在折磨初级设计师的致命问题立刻就凭空出现了：盒子和盒子之间，到底应该留多少空隙才是\"对\"的？",
+          "ttsFp": "e8531890_88",
+          "srtCueIdx": 146,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多同学过去在做排版设计的时候，唯一依靠的测量工具就是自己那虚无缥缈的\"感觉\"和\"直觉\"。",
+          "ttsFp": "ebdb849f_45",
+          "srtCueIdx": 147,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 19,
+          "srcLEnd": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "觉得上面有点空了，就直接把整个模块往下一拖，然后一看属性面板，刚好是个不长不短的 21px 间距；觉得底下的卡片有点挤了，就随手往上挪一挪，距离变成了尴尬的 15px。结果到最后交付的时候，打开你的 Figma 源文件一看，整个庞大交错的项目文档里面，充斥着成千上万个仿佛是随机乱码掷骰子生成的间距数值孤岛。",
+          "ttsFp": "6ee000f5_154",
+          "srtCueIdx": 148,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种完全凭借所谓设计师虚无\"眼感\"的做法，不仅是对自身职业的不负责任，在移交给下一道工程交付环节时，更是毁灭性的灾难。前端工程师不可能为了你的 21 像素去单独写一个只存在一次的特定变量代码。",
+          "ttsFp": "6b0c6a14_96",
+          "srtCueIdx": 149,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "在《Refactoring UI》这本被无数海外独立开发者奉为圣经的实战指南里，作者给出了一条不容置疑的流血铁律：**永远不要把哪怕一秒钟的宝贵生命用来在 120px 和 125px 的间距到底选哪个之间进行毫无意义的内耗纠结。你唯一需要做和必须做的，就是提前为自己建立一套永不妥协的\"间距刻度体系（Spacing System Scale）\"。**",
+          "ttsFp": "760cfd39_175",
+          "srtCueIdx": 150,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 24,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你需要一把在数字世界绝对通用的游标卡尺，一个像阶梯一样的强制约束刻度表。",
+          "ttsFp": "5785583c_36",
+          "srtCueIdx": 151,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在现代交互设计工业界，通常我们无脑采用以 **4px 或者 8px** 作为绝对基准的系统。为什么是 4 和 8 这种看起来不怎么起眼的偶数？这是因为现代屏幕的物理像素密度（PPI）缩放通常都是 1.5 倍、2 倍甚至 3 倍的整数或者半整数倍率（比如 Retina 屏幕的 @2x, @3x 渲染机制）。如果你的基准是 5px，当它乘以 1.5 倍进行渲染时就会出现 7.5px 这种令人作呕的无法被屏幕极小发光二极管物理对齐的亚像素（Sub-pixel）点阵，边缘立刻发生模糊糊化（Anti-aliasing artifacts）。而 4 与 8 这些有着极好整除公倍数特性的偶数，无论怎么乘以主流的缩放倍率，都能保持绝对锐利的物理边缘折算。",
+          "ttsFp": "86c14917_323",
+          "srtCueIdx": 152,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 28,
+          "srcLEnd": 28
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个科学基石上，行业衍生出了一条指数或者线性递增的倍数链条。比如：4 (微调), 8 (极紧), 12 (较紧), 16 (标准常规), 24 (较松), 32 (分区块), 48 (大隔离), 64, 96 直到 128 (巨屏留白)。",
+          "ttsFp": "0f132ecd_120",
+          "srtCueIdx": 153,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "有了这套刻度表之后，你再也不需要用方向键去微调那可笑的 2 像素或 3 像素。你只需要在预设好的刻度表里，直接向上选大一档次，或者向下降低一档次。这套看似死板的数学约束，恰恰是在解放你大脑的算力，让你不要在细枝末节上浪费生命。更重要的是，这让整个应用里的空白，产生出了一种绝对统一的视觉节律感（Rhythm）。",
+          "ttsFp": "dfe7e1eb_155",
+          "srtCueIdx": 154,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[PHILOSOPHY]",
+          "ttsFp": "72b56fac_12",
+          "srtCueIdx": 155,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这套建立在数学倍率上的间距刻度体系，和古典音乐中的节拍系统有着惊人的同构性。当音乐家在五线谱上标注 4/4 拍时，他实际上是在为时间维度施加一套不可违逆的网格——全音符、二分音符、四分音符、八分音符的时值恰好是 2 的幂次递减，和你在界面中使用的 64/32/16/8/4 的空间刻度在数学本质上完全吻合。正因为有了这套时间网格的纪律，交响乐队里上百位演奏者才能在毫秒级的精度上协同；同样，正因为有了空间网格的纪律，你界面中成百上千个元素才能像合奏一样呈现出统一的视觉韵律。",
+          "ttsFp": "fe9f1045_237",
+          "srtCueIdx": 156,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "建立系统刻度这件事情，还能在无形中自动帮你们解决一个极其高频爆发的、关乎用户认知的交互排版核心大案——那就是**坚决消除一切可能引发歧义的间距（Ambiguous Spacing）**。",
+          "ttsFp": "999c60d9_93",
+          "srtCueIdx": 157,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当界面中有很多不同功能的组件堆叠在一起，而且它们周围并没有画上明显的框线或者刺眼的背景颜色块来进行物理强拆分提醒的话，仅仅凭借间距的远近留白，这就是用户在此刻潜意识里用来区分不同分组的唯一也是最后一条暗示防线。",
+          "ttsFp": "d0c72c66_105",
+          "srtCueIdx": 158,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们看左边这个让用户极度困惑抓狂的填写表单。你一眼分得清这中间夹着的那个名为\"送货备用家庭地址\"的描述文本标签，它到底是属于并且在管辖上面这大个输入框的内容，还是属于底下的那个输入框输入规则？你根本看不清，因为左侧设计师懒惰地把所有的上下间距全部平均等分设定为了 20 像素散漫分布。",
+          "ttsFp": "57974bf2_142",
+          "srtCueIdx": 159,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 49,
+          "srcLEnd": 49
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在右侧的重构典范里，我们动用了极其分明的间距刻度武器。我们用 8px 这个极小的收紧组内距（Gap），让标题死死地贴紧并且抱住了属于它的输入框；同时，我们选用了 32px 这样巨大跨度的安全防线（大倍数的 Margin）去拉开不同模块、不同表单卡组之间的疏远距离。",
+          "ttsFp": "a6642bea_133",
+          "srtCueIdx": 160,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 51,
+          "srcLEnd": 51
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "因为视觉差距被拉得极其巨大，原本充满歧义的从属关系瞬间变得不言自明，甚至不需要任何一句多余的解释。",
+          "ttsFp": "3f6cc7cb_49",
+          "srtCueIdx": 161,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请大家把这句话抄在你们的笔记本上死记硬背：**组内那些具备亲属从属关系的牵手距离，永远、永远一定要远远小于组与组之间那些互相独立、互不干扰的社交隔离距离。**",
+          "ttsFp": "3101faee_79",
+          "srtCueIdx": 162,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "好，走到这一步，我们现在手头已经彻底拥有了基于盒子的弹性布局绝对规律，也确立了属于自己的度量恒权间距刻度网格。但是，如果为了让现代工程，特别是让下几周实验中那些没有自我意识的极客 AI 自动化代码生成引擎助手，能够百分之百、毫无遗漏地理解我们所有艰深隐秘的设计意图，我们最后还需要将这些散落的属性全部封装打包起来，造出最后一样也是最致命的核心设计物料武器：",
+          "ttsFp": "2972a9ad_178",
+          "srtCueIdx": 163,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位，这就是在这个大时代必须学会的统治工具——**Design Token (设计标准令牌体系)**。",
+          "ttsFp": "3b52f148_51",
+          "srtCueIdx": 164,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 65,
+          "srcLEnd": 65
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家思想要从过去美院的传统中完全跳脱、彻底转变一个宏大观念。现代的大型软件 UI 界面，它早就不是一整张用喷枪画出来的画布了，它完完全全是一辆用着数以万计不同规格并且有着严格公差要求的工业标准通用零件，拼装集成起来的高铁机车！",
+          "ttsFp": "6f531f5d_113",
+          "srtCueIdx": 165,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们大都听说过业界显学\"原子设计 (Atomic Design)\"这套神圣不可侵犯的方法论吧？这套理论号召我们把庞大的界面残忍拆分为不可分割的最底层原子、由原子组合成的复合分子、以及分子组合聚变的巨大有机宏模块体制。但在那颗极其微小的原子外壳哪怕更进一步深层的基因里，还有一种更加不可名状的基础物质参数构成。",
+          "ttsFp": "873c1a74_154",
+          "srtCueIdx": 166,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是 Token。设计师最神秘的语言。",
+          "ttsFp": "ef094791_20",
+          "srtCueIdx": 167,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 70,
+          "srcLEnd": 70
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "到底什么是 Token？",
+          "ttsFp": "177a6241_12",
+          "srtCueIdx": 168,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "本质上，它是将**人类那些不可言说的微妙设计视觉属性，精确翻译成一套能和机器进行有效底层沟通的语义化语言体系**。这是设计维度的降维打击。",
+          "ttsFp": "d736b271_69",
+          "srtCueIdx": 169,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 83,
+          "srcLEnd": 83
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "比如，你的品牌主色是湖蓝色 `#3B82F6`。如果你在设计文件和工程交付中到处裸奔这个具体数值，那么当三个月后老板要求将主色微调为深海蓝时，你就必须满世界用正则去痛苦地逐一替换这个十六进制僵尸代码，哪怕漏了一个角落，设计一致性都会被污染。",
+          "ttsFp": "04826893_120",
+          "srtCueIdx": 170,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 85,
+          "srcLEnd": 85
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但是，如果你学会了使用建立语义系统的权利，在构建 Figma 最初架构时，把这种脆弱不堪的具体色值彻底剥离封装，你就能实现魔法般的降维打击。",
+          "ttsFp": "70f8be47_70",
+          "srtCueIdx": 171,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "业界甚至为这种封装制定了极其严密的工业标准三明治法则：",
+          "ttsFp": "1f601ae0_27",
+          "srtCueIdx": 172,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 95,
+          "srcLEnd": 95
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第一层：Global Tokens（全局配置矿区）。**这是那些死硬的原子数值本身（仅仅赋予比如 `blue-500 = #3B82F6` 这样的基础调色环映射命名）。",
+          "ttsFp": "a756fc97_86",
+          "srtCueIdx": 173,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第二层核心：Alias Tokens（意图别名神经节）。**这里不直接存色值，只存意图指向（比如宣告在这个系统里 `color-primary = blue-500`，代表主行动色是由蓝色提供的）。",
+          "ttsFp": "d31a3859_101",
+          "srtCueIdx": 174,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 97,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**最顶层武器包：Component-specific Tokens（特种组件接线端）。**这也就是下放到具体组件极微代码世界里的针脚接口（比如下令一个登录按钮的底色 `button-bg-default = color-primary`）。",
+          "ttsFp": "db78305b_121",
+          "srtCueIdx": 175,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为什么这个被无数初级设计学生忽视的命名映射概念，对我们这门课走向最后的终局呈现（后续周次的 AI 辅助编码生成实验）有着全生命周期级别的决定性生死作用？",
+          "ttsFp": "d1ab6229_76",
+          "srtCueIdx": 176,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你还不信 Token 体系的威力，看看 IBM 的 Carbon Design System。IBM 全球数以千计的产品团队，从企业云控制台到 Watson AI 面板，全部使用同一套 Token 字典。当 2023 年 IBM 品牌部门决定将全局主色微调 2 度色相时，他们只修改了 Token 字典中的一个 Global Token 数值——48 小时之内，全球所有产品界面同步完成了视觉升级，无需任何一位前端工程师手动改动哪怕一行代码。",
+          "ttsFp": "0704f5ca_223",
+          "srtCueIdx": 177,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了让大家更深刻地体会这种对底层建筑控制权剥离的颠覆性力量，让我们来看看业界最痛的一个业务测试场景：暗黑模式（Dark Mode）的全局适配。",
+          "ttsFp": "931d542b_71",
+          "srtCueIdx": 178,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在苹果 iOS 历史性地在全球强推系统级深色模式的那一年，世界上绝大多数的传统研发团队都经历了一场生不如死的地狱级代码重构雪崩灾难。为什么？因为在那个连 Token 概念都还没有彻底普及的古典年代，设计师交付给工程师的设计稿上，全都是赤裸裸的绝对色值。背景是死白的 `#FFFFFF`，文字是幽黑的 `#000000`。",
+          "ttsFp": "96d29127_160",
+          "srtCueIdx": 179,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当最高指令下达，要求应用必须在一周内全部支持黑夜模式翻转时，那些没有基建支撑的团队只能使用最屈辱、最暴力的人肉硬编码（Hard-coding）人海战术：他们迫使几十个前端工程师，去翻遍几十万行历史遗留代码的屎山，在每一个按钮、每一个卡片、每一条极其微小的分割线的底层逻辑代码上，去极其痛苦地加上一句状态判断：\"如果现在手机是晚上开启，请剥除白色，强行替换为深灰色；如果现在是白天，再把它换回来\"。",
+          "ttsFp": "339ef256_198",
+          "srtCueIdx": 180,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最终的灾难结果是什么？产品上线的那一天，有的二级子页面漏改了判断分支，导致黑色的文字直接显示在了黑色的夜间背景上，成了一片完全不可卒读的黑暗盲区；有的弹出警告层忘了写夜间补丁，在寂静深邃的暗夜模式下，突然爆闪出一块巨大的高亮刺眼白块，像一枚震撼闪光弹一样直接刺痛、击飞了用户的眼睛。这些极其惨烈且大面积爆发的线上崩溃事故，其原罪的本质全部都在于：他们极其业余地把\"系统状态判断\"和\"绝对物理数值\"像一团没有梳理过的毛线球一样，直接赤裸裸地暴露并硬绑定在了业务的最前端末梢。",
+          "ttsFp": "93fd72aa_236",
+          "srtCueIdx": 181,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而那些一早就在地基里埋设了 Design Token 三明治管网极客架构的超一线大厂体验团队，在面对这场史诗级的主题大扫荡翻转战役时，表现出了怎样跨越时代的降维碾压打击？",
+          "ttsFp": "df89e6bc_85",
+          "srtCueIdx": 182,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 120,
+          "srcLEnd": 120
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "他们几乎没有惊动任何业务线的开发人员节点。前方的冲锋工程师一个都没动，只剩下他们总部的架构师，在系统中层那个名为 Alias Token（意图别名神经节）的中央控制塔台里，极其优雅、极其安静地轻轻向下拨动了一个道岔枢纽物理开关。",
+          "ttsFp": "5e3fb356_114",
+          "srtCueIdx": 183,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在那些被彻底 Token 化的系统维度里，终端开发者根本不知道也绝不被允许去探测背景究竟到底是白色还是黑色。前端组件唯一能够并且合法被允许读取的请求变量，是一个绝对不包含任何显式物理颜色光波含义的纯语义命名字段，比如叫做 `surface-card-base`（卡片基础表面）。",
+          "ttsFp": "61a39827_139",
+          "srtCueIdx": 184,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 123,
+          "srcLEnd": 123
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在白天的充足光源下，设计团队在中央 Token 控制台后台里，将 `#FFFFFF` 这个矿工挖出来的底层死硬矿石（Global Token）塞进了 `surface-card-base` 这个通电插槽；而当移动操作系统底层监听到夕阳西下，传感器进入深色模式的瞬间，Token 引擎会在一毫秒级别的时间内，自动发指令拔出那块白色的发光矿石，从备用的深渊矿区里无缝切出一块深邃的黑曜石暗码 `#1A202C`，并且极其丝滑地瞬间切入同一个 `surface-card-base` 电源接口之中。",
+          "ttsFp": "41a71e9d_246",
+          "srtCueIdx": 185,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 124,
+          "srcLEnd": 124
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在物理距离数万公里之外、运行在数以千万计的具体设备页面终端机上，那些必须完全依靠读取这个接线端口才能显示存活界面的卡片和按钮组件，甚至直到结束都完全不需要感知到原来外面的天已经彻底黑了。它们只是忠实地、被动无脑地从这根中央分发的水管里拼命汲取流出来的颜色。所以，当底层源头的矿石包一旦被切换替换，成千上万个跨越不同子站点的业务界面，就在那零点零一秒内兵不血刃地瞬间完成了史诗级别的全量暗黑模式大翻转。它没有制造哪怕一行多余的恶臭 if/else 业务修补代码，更不会有任何闪光弹一般的遗漏瑕疵空间漏洞。",
+          "ttsFp": "f07a05e3_252",
+          "srtCueIdx": 186,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 125,
+          "srcLEnd": 125
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个宏大的运作中，没有任何一行实体前端业务排版代码被推翻重写，光影的切换却在数千万真实用户的手机屏幕上如水银泻地般极其流畅地疯狂流转。这就是彻底抽象封装的力量。这就是为什么在这个时代，你们必须强迫自己忘掉十六进制机器符码，开始用人类工程师的深厚语用学和语义学的哲学思考去为产品线上的每一个色彩、每一个可缩放的间距、每一道微弱的阴影进行严酷甚至带有法典式神圣命名的终极原因。",
+          "ttsFp": "e1b81334_187",
+          "srtCueIdx": 187,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 127,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在波澜壮阔的泛计算机科学史长河里有一句至高无上的名言法则，那就是来自图灵奖得主大师 David Wheeler 所提出的终极定律：\"计算机科学体系中的任何哪怕再庞大棘手的问题，最终也都可以通过引入一个额外的间接层（Indirection Layer）来优雅地解决。\"",
+          "ttsFp": "61ea553e_133",
+          "srtCueIdx": 188,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其实，回看今天这四个小时：无论是我们之前花费大量时间让各位抛弃肉眼随意拖拽，硬是在原本自由不受约束的画布和最终内容之间引入和架设的那层 DOM 盒模型参数限制笼子；还是我们在弹性排版时为了避免坍塌而设置的 Auto Layout 虚构隐形嵌套缓冲防波堤；乃至于最终在绝对耀眼的视觉表象与最深层机器代码之间插入并锁死的这一层厚厚的 Design Token 语义翻译降维网关。它们在本质上，通通都是在为你们这些新时代的构建者创造并部署那个极其昂贵、实施门槛极高，但也极其一劳永逸的无敌\"间接防火层\"。",
+          "ttsFp": "18b19a5a_249",
+          "srtCueIdx": 189,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "现代交互工程的精髓，就是把那些原本会随着功能堆积和迭代而产生指数级暴雷、最终不可逆引爆整个产品可用性的灾难性碎片现实变量，极其巧妙且润物无声地提前拦截、并且彻底消化在了底层系统基建缓冲池那波澜不惊的水下深层之内。只要当你什么时候不再恐惧这些限制，当你真正能极其熟练自如地建立、并像弹奏钢琴一样精准控制和拨动这个虚无间接层上的每一个参数指针时，那你就不再是一个仅仅局限在某一个孤立页面上涂抹像素和色彩的临摹匠人，而是一位真正执掌着庞大产品系统生命体征权限以及所有演进呼吸法则脉搏的、当之无愧的现代化数字界面的架构宗师。",
+          "ttsFp": "a1bdf302_258",
+          "srtCueIdx": 190,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 132,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在后续实验中，当你们调遣 v0 或 Cursor 这类 AI 前端生成工具，把原型翻译为真正可交互的 React / Vue 代码库时。如果你极其业余，对着对话框念出原始人的咒语：帮我画一个提交按钮，记得用那个蓝色。",
+          "ttsFp": "41ab8fbe_108",
+          "srtCueIdx": 191,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 134,
+          "srcLEnd": 134
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "面对如此外行的指令，大模型吐出的成品往往惨不忍睹——充满着无法适应暗色模式反转、到处都是孤立的 Hardcode 垃圾架构。",
+          "ttsFp": "cb58f206_62",
+          "srtCueIdx": 192,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 135,
+          "srcLEnd": 135
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但如果换一种方式，你把定义好的一整套 Token 语义变量字典（比如 Tailwind CSS 的 `tailwind.config.js`）强势喂给 AI 并下达严格使用令：所有按钮背景一律引用 `bg-primary-500`，所有卡片圆角锁定为 `radius-lg`！",
+          "ttsFp": "8fe97aa2_138",
+          "srtCueIdx": 193,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在那一刻，AI 将彻底摆脱草台班子像素拼贴美工的角色，瞬间跃迁为一位精通前端基建、深谙组件复用架构的资深工程总监模式！",
+          "ttsFp": "4fd06dd7_59",
+          "srtCueIdx": 194,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 139,
+          "srcLEnd": 139
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "在过去的四个学时里，我们极其残忍地一层层剥开了画布美丽的幻觉伪装。从冷酷的盒模型边界计算、到弹性引擎机制下的抗挤压博弈死战、再到绝对网格刻度纪律和这种如同掌握生杀大权一般的终极语义降维控制术（Token 架构系统）。\n这一切冰冷秩序的背后不是枯燥，而是现代造物主对不可抗自然熵增规律进行的伟大概括。不要把你那些珍贵的同理心和创造热血挥霍在诸如纠结一个死板像素对不对齐的杂务上；把你真正的狂野想象力、去用来深刻理解人的心智、去挑战商业流转的深层模式痛点，去在这个已经为你铺满严密代码砖头、由系统框架无缝编织搭建出来的工业化金字塔宏大工程基石之上，自由无畏地产出跳动着人性和商业光辉的高级复合产品！\n因为从你掌握容器工程化与接口映射规律的这一秒起，你的工具箱里就不再只有画笔，你还同时夺取了这整台能够全天候稳定大规模印刷精密零件并且毫无差错全量重装组建的高速旋转冲床机械巨兽的最高管理员启动钥匙。",
+          "ttsFp": "33a5b446_396",
+          "srtCueIdx": 195,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M05_讲授_秩序的终局_间距刻度与Design_Token.md",
+          "srcLStart": 142,
+          "srcLEnd": 145
+        }
+      ],
+      "firstSrtCueIdx": 146,
+      "budgetChars": 4500,
+      "oralCharCount": 5115,
+      "estimatedMinutes": 28.4,
+      "fillRatio": 1.14
+    },
+    {
+      "id": "mod-7",
+      "title": "模块 6: 实践 — 严苛组件框架搭建 (约 80 分钟)",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "80min",
+          "desc": "实验2(Exp2) 实践：Figma 响应式组件框架搭建",
+          "text": "[ACTIVITY]\n**Type**: `Practice`\n**Duration**: `80min`\n**Desc**: 实验2(Exp2) 实践：Figma 响应式组件框架搭建\n\n**目标**: 在 Figma 中，基于上节课画的状态流转，搭建 3 个核心页面的\"极端严苛版\"骨架。不允许使用任何绝对定位。\n\n**约束要求**:\n1. **全容器化**: 页面内任何元素（无论是导航、卡片还是单个按钮），都必须置于 Auto Layout 的掌控之中。你不能手动拖放微调其具体位置。\n2. **建立间距刻度**: 先在文件中建立一个 4px 基准的倍数参照系（例如：4/8/16/24/32/48）。然后整个页面的 Layout 内边距和间距必须全都选自这个刻度表中的数字。\n3. **基础 Token 映射**: 为你的页面配置核心的 Color Styles 和 Spacing Variables，命名必须遵循语义化规范（如 `surface-primary`, `spacing-lg`），禁止出现色值的原生硬编码。\n4. **响应式测试 (Stress Test)**: 选中你建立的页面顶层容器，横向及纵向拖拽改变外框宽度。你的界面必须能够按照合理的逻辑自动缩放或换行，不能散落一地。如果崩溃了，检查你的 Hug 与 Fill 规则配置。\n\n**交付物**:\n具备完美自适应能力的 3 张关键态页面骨架，并附带你所建立的一套极简版本的 Local Variable（包含语义化的主色阶与间隙值体系）配置界面截图。",
+          "ttsFp": "9229f3bb_663",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M06_实践_严苛组件框架搭建.md",
+          "srcLStart": 4,
+          "srcLEnd": 18
+        }
+      ],
+      "firstSrtCueIdx": null,
+      "budgetChars": 0,
+      "oralCharCount": 0,
+      "estimatedMinutes": 0.0,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-8",
+      "title": "模块 7: 小结 — 容器工程化的心流纪律 (约 10 分钟)",
+      "slides": [
+        {
+          "id": "M7-01",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "整个 W06 课程的超高密度核心知识网络地图总结。一棵由底层向上生长的赛博朋克风格科技树：树根深扎在 `box-sizing: border-box` 的 DOM 盒模型物理土壤中；粗壮的树干是被强行约束绑定的 `Flexbox` 横纵主轴线；繁茂交织的枝桠则是通过 `Nesting` (嵌套) 机制与 `Wrap` (换行) 机制生长的巨大组件系统；而结出的那一颗颗闪烁着特定代号光点（如 `#bg-surface`, `4px/8px 网格`）的抽象果实，就是最终统治一切的 `Design Tokens` 控制枢纽。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M7-01.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M7-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/M7-01.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "M7-02",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "极简深色背景排版，四个刺眼的关键词像碑文一样逐行强势淡入（Fade In）：1. 万物皆盒 (Box Model)；2. 弹性生死战 (Hug vs Fill)；3. 刻度防线 (8px Spacing)；4. 语义统治 (Design Tokens)。每一个词条旁边都画了一个锋利的警示小图标。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M7-02.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M7-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/M7-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 3
+        },
+        {
+          "id": "M7-03",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "一张极其安静、极具禅意的黑白摄影照片：日本老剑客正在枯山水庭院中极其刻板地重复挥动木刀的枯燥基础动作，汗水湿透了后背。画面中央浮现出一句极具冲击力的现代哲学引言文本。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M7-03.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M7-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/M7-03.png"
+          ],
+          "list": null,
+          "paragraphStart": 8
+        },
+        {
+          "id": "M7-04",
+          "layout": "Center",
+          "text": "",
+          "heading": "",
+          "scene": "充满极度前瞻性与压迫感和宏大指引感的下一周高危悬念预告下集预告大字报。背景是黑暗中散发着冷光的错综复杂的电子架构数据管线，中央是一排深邃透亮的霓虹重型字体核心标语：\"The Visual System awakens. AI Assembly Line approaches.\" （视觉系统觉醒，AI流水线逼近）。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M7-04.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M7-04.png"
+          ],
+          "assetExpected": [
+            "public/slides/M7-04.png"
+          ],
+          "list": null,
+          "paragraphStart": 14
+        },
+        {
+          "id": "M7-05",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一张极具仪式感的终局升华全景巨幅大图。在幽暗的光影下，一幅包含了刚刚所有学过知识的——有着绝密嵌套的 Auto Layout 连线、带着精准计算的 8px 倍数间距刻度网格、以及散发着荧光色高亮的严密语义化 Token 定义参数的代码级组件设计图纸，正在被一双无形且巨大的手（象征着未来的机器算法或者开发系统环境），以前所未有的平滑无阻力姿态，像水流入大海一般被全盘接受和吸纳收编。没有撕裂，没有抗拒，只有完美的齿轮咬合与极其惊人的严密无阻流转契合。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M7-05.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M7-05.png"
+          ],
+          "assetExpected": [
+            "public/slides/M7-05.png"
+          ],
+          "list": null,
+          "paragraphStart": 21
+        },
+        {
+          "id": "M7-06",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "以极致黑色背景作为底版映衬，白色的极致极简衬线字体在屏幕巨大显示。极具压迫感但又让人深省反思。",
+          "image": "weeks/W06_容器工程化基础映射/public/slides/M7-06.png",
+          "images": [
+            "weeks/W06_容器工程化基础映射/public/slides/M7-06.png"
+          ],
+          "assetExpected": [
+            "public/slides/M7-06.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "四个学时的漫长拉锯，还有整整 80 分钟极其枯燥且充满绝望报错提示的实战操作，各位，你们今天经历了一场思维层面的残酷外科手术洗礼。",
+          "ttsFp": "2e9d47c4_65",
+          "srtCueIdx": 196,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们在开课时说过，你们之前在画布上自由挥洒的那套心智模型，面对如同巨兽一般的现代软件工程流水线时，是极其脆弱不堪一击的。今天，我们亲手打碎了那层画板的滤镜，带大家看清了这个由光与电、像素与矩阵构筑起来的数字容器世界最底层的冰冷骨架。",
+          "ttsFp": "136856f4_116",
+          "srtCueIdx": 197,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "让我们用最后十分钟，把这庞大的信息洪流重新凝练，印入你们作为交互设计师最深层的肌肉记忆之中。",
+          "ttsFp": "e835b353_46",
+          "srtCueIdx": 198,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请牢牢记住这四道护城河法则：",
+          "ttsFp": "2c6a0993_14",
+          "srtCueIdx": 199,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第一层防线：万物皆盒。**永远不要相信你眼睛看到的圆形或多边形，在浏览器的真实物理世界里，每一个元素都是带着四层洋葱皮（Content, Padding, Border, Margin）的绝对矩形。想要扩大热区？不要去无脑放大字体，去极其贪婪地增加你的内部缓冲海绵（Padding）避震器。",
+          "ttsFp": "fa54c7fd_147",
+          "srtCueIdx": 200,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 25,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第二层防线：弹性博弈。**当这些盒子被扔进同一个宏大宇宙时，你要像指挥千军万马的将军一样去调配权责。是让元素成为极度克制、无条件拥抱内部内容的 `Hug` 阵营？还是让它化身为充满野心、挤占一切周边空白生存空间的 `Fill` 怪兽？记住，绝大多数的响应式屏幕惨烈灾难断裂车祸，全部源于你在该用柔软的 Hug 时错用了固定死硬的 Fixed，或者在该用强横的 Fill 底座时忘记了开启 Wrap 换行保护网。",
+          "ttsFp": "5c17ec0f_207",
+          "srtCueIdx": 201,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第三层防线：刻度纪律。**抛弃你们过去引以为傲的所谓\"设计师视觉眼感随心微调\"。在拥有这套不可通融的、基于 4px 最小物理渲染像素对齐乘数的宏大数学间距刻度表之后，你们在界面上按下的每一次方向键，都必须是对大一统系统纪律的绝对服从。消除那些让用户抓狂的表单模糊间距，用巨大的 Margin 划清无关界限，用紧凑的 Gap 定义血亲从属关系。",
+          "ttsFp": "b6f5bd9f_173",
+          "srtCueIdx": 202,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第四层防线：语义降维。**这是属于神之领域的架构特权。如果今天之后，谁还没有在 Figma 资产库中构建出哪怕最基本的三明治 Token 隔离体系，谁还在直接把极其业余的十六进制色号硬编码直接丢给后续工程链条或者是 AI 代码小球生成模块，那他就不配称自己正在做\"交互产品设计\"。掌握它，你就是那个制定宏大 API 规则蓝图的造物主。",
+          "ttsFp": "d763077f_169",
+          "srtCueIdx": 203,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多刚接触工程底层的学生，在经历了今天极其折磨人的嵌套报错、在面对极其繁琐的甚至要把全屏幕颜色清一遍并且重新做上变态极权映射命名之后，往往会陷入一种极度的委屈与痛苦。他们会跑来问我：\"老师，设计不应该是极其浪漫的、天马行空的、充满无限生命灵感的发散性艺术创造吗？我们为什么非要用这么多冰冷无情的工程卡地亚标尺、极其生硬死板的规矩去把自己死死锁在这重极高难度的镣铐之中？\"",
+          "ttsFp": "56fb6d51_185",
+          "srtCueIdx": 204,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是一个非常伟大且极其深刻的问题。",
+          "ttsFp": "2f642476_17",
+          "srtCueIdx": 205,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但我能给你们的唯一答案是：恰恰相反，在极其精密的现代数字工业体系下，**绝对的纪律，才是通向终极设计自由与创造心流的唯一通行密钥。**",
+          "ttsFp": "2a3c1eac_67",
+          "srtCueIdx": 206,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你不知道这些底层规则怎么运转的时候，你所谓的挥洒自如，只会换来每一次屏幕比例改变时的全盘崩溃，只会让你在开发阶段每天被满头大汗的工程师无休止地去反复追问：\"这个间距到底是对齐这里还是那里？\"。你原本用在极具价值的商业体验闭环设计上的黄金精力，将会在这种毫无尊严、极其琐碎且不断扯皮发大水的补锅地狱里被彻底榨干蚕食。",
+          "ttsFp": "16919d35_158",
+          "srtCueIdx": 207,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而如果，你从一开始就在极深层地接纳并且完美拥抱、甚至主动主导控制了这套工程化的铁血戒律；当你极其熟练地运用 Auto Layout 像呼吸一样自然，当你的页面框架被强硬绑死在 Token 骨架上。那一刻，你将脱胎换骨。你再也不用去畏惧任何物理设备的挤压，你的所有设计将会坚如磐石！在这个极其坚固的容器堡垒内，你那被解放出来的疯狂想象力，才能不被打断、极其专注地全部倾注在真正去塑造能够直击用户灵魂核心深处的\"体验\"这件极度迷人的工作本身。",
+          "ttsFp": "1cf5a133_219",
+          "srtCueIdx": 208,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以各位，请学着像拥抱爱人一样去拥抱这套看起来冰冷的规则枷锁吧。因为真正的高手，都是带着最粗重镣铐在进行最绝美惊艳的刀尖之舞！",
+          "ttsFp": "5f0a4d8f_63",
+          "srtCueIdx": 209,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 50,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**下周预告与课后死线：**",
+          "ttsFp": "afa3a05c_14",
+          "srtCueIdx": 210,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天在这 80 分钟实战下课前，没有完整跑通极度抗压测试的那三套核心组件状态页面（Exp2产出物），请你们今天务必熬夜带走死磕，解决掉它！",
+          "ttsFp": "510784e5_69",
+          "srtCueIdx": 211,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 61,
+          "srcLEnd": 61
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为什么我给你们下达这么残忍的时间死线？",
+          "ttsFp": "0229a246_19",
+          "srtCueIdx": 212,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 62,
+          "srcLEnd": 62
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "因为在下下周，我们将正式跨越到深水区！你们所亲手建立起来的这套被间距体系和底层映射 Token 重重加固保护好的纯素面原型钢筋骨架，即将迎来它生命中最极其残酷血腥的第二次试炼大检与绝美升华转折！",
+          "ttsFp": "33a5671e_97",
+          "srtCueIdx": 213,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们将带着它，直接对接接入那台最新工业化强力的 **AI 辅助生成流水线引擎大局**。如果你的底盘在没有打稳这套容器化基础的前提下，哪怕差一像素的松动，当强大的机器算力顺着你的脉络强势汹涌灌注附加上去的那一瞬间，整个架构就会被直接撕成凄惨的碎片！",
+          "ttsFp": "fed5fedf_123",
+          "srtCueIdx": 214,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "回去打磨好你们的无敌底盘防线。下周，我们将在最完美的钢铁骨架上，揭开那一层属于现代视觉、属于高级产品光影艺术渲染权杖控制的——\"界面与视觉设计系统（W07）\"的新篇章风暴。",
+          "ttsFp": "1a3e3225_86",
+          "srtCueIdx": 215,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位架构师们，下课！",
+          "ttsFp": "79a5a09a_10",
+          "srtCueIdx": 216,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个长达四个多小时的极其高强度的脑力激荡和残酷物理工程结构观念重塑的思维洗礼课程接近尾声的时候，当你们看着屏幕上或者画板里，那些刚刚从你们手下经历过无数次崩溃断裂、但最终却被极其严厉的盒模型纪律、极其包容且韧性的 Auto Layout 弹性法则系统，以及不可违背违抗的工业标准级间距网格刻度所彻底降服和驯化了的——并且完美跑通了各种极端屏幕暴力拉扯测试而依然能够保持绝美身姿且坚如磐石的组件框架体系框架矩阵时。我想，各位此时此刻的内心应该对\"规则机制\"这两个字，已经产生了一种绝非以往的、刻骨且深入骨髓的认知级敬畏感和掌控自豪感了。",
+          "ttsFp": "1136eb2b_268",
+          "srtCueIdx": 217,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 77,
+          "srcLEnd": 77
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "工程化，绝对不是为了把艺术扼杀或者套上枷锁锁死在牢笼里。",
+          "ttsFp": "b2d264fc_28",
+          "srtCueIdx": 218,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "相反地，容器工程与极其死板的绝对控制机制，是为了给你们脑海中那些脆弱且敏感娇嫩的美丽产品架构理念，打造一层最坚不可摧和能够防御任何不确定性风暴的坚固装甲地基外壳。",
+          "ttsFp": "e8d386d0_81",
+          "srtCueIdx": 219,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 87,
+          "srcLEnd": 87
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你把画布上散乱的元素装进盒子，当你让盒子学会像水库里的水流一般收放自如地进行弹性折叠与自我保护，当你用 Token 系统替代了混乱无法解释的十六进制暗语时，你就亲手搭建了一座桥梁。这座桥，连接了感性的心理愿景，与极其冷峻的工程实施底层模型深渊。",
+          "ttsFp": "e8287e25_123",
+          "srtCueIdx": 220,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是一种带着强烈工业美感的心流纪律。",
+          "ttsFp": "16cd32ad_18",
+          "srtCueIdx": 221,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 90,
+          "srcLEnd": 90
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "每一次向着底层技术本质规则的残酷妥协低头，换回来的，都将会是在接下来的 AI 生成无界浪潮、以及前端真实构建的巨大汪洋波浪里的一次从无到有的重生蜕变式的伟大反击升华！",
+          "ttsFp": "664ae56b_83",
+          "srtCueIdx": 222,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 91,
+          "srcLEnd": 91
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "下一周，在这套绝对规则化容器的坚固地基基础上，我们将在此之上进行视觉重构的第一道美学质变突破！下课！",
+          "ttsFp": "f00d0e3a_50",
+          "srtCueIdx": 223,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 93,
+          "srcLEnd": 93
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "人们已经在洞穴壁。好的。",
+          "ttsFp": "3a43836c_12",
+          "srtCueIdx": 224,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W06_容器工程化基础映射/src/M07_小结_容器工程化的心流纪律.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        }
+      ],
+      "firstSrtCueIdx": 196,
+      "budgetChars": 1800,
+      "oralCharCount": 2330,
+      "estimatedMinutes": 12.9,
+      "fillRatio": 1.29
+    }
+  ]
+}

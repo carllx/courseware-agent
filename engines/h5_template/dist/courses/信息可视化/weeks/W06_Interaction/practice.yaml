@@ -1,0 +1,110 @@
+# W06_practice.yaml — Scrollytelling 交互叙事实战
+week: 6
+title: "GSAP Scrollytelling 交互叙事实战"
+experiment_link: "实验3"
+total_minutes: 135  # hours_practice=3 → 3×45=135
+
+theory_prerequisites:
+  - "Munzner 交互分类体系 (Select/Navigate/Arrange/Change/Filter/Aggregate/Annotate)"
+  - "Shneiderman 概览-缩放-过滤-按需细节 (Overview+Detail)"
+  - "GSAP ScrollTrigger 滚动驱动动画机制"
+  - "Scrollytelling 叙事长卷范式"
+
+phases:
+  - id: P1
+    name: "交互灾难反面赏析"
+    minutes: 20
+    type: discussion
+    description: "'被交互逼疯的瞬间'——鉴赏反面 UI 灾难案例"
+    tools: ["学习通"]
+    steps:
+      - "展示过度交互/缺失交互的反面案例"
+      - "小组讨论：识别违反 Shneiderman 原则的设计缺陷"
+    weight: "10%"
+  scoring_rubric:
+    full_marks: 100
+    criteria: |
+      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
+      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+  deliverables:
+      - "课堂实战打卡与交互记录"
+    materials:
+      - type: dataset
+        title: "本周占位验证数据集"
+        file: "assets/practice/placeholder_data.csv"
+        format: csv
+        schema:
+          keys: ["id"]
+          values: ["value"]
+          types:
+            id: categorical
+            value: quantitative
+
+  - id: P2
+    name: "分镜狂魔集训"
+    minutes: 25
+    type: workshop
+    description: "手绘 Scrollytelling 分镜剧本——构思数据故事的滚动触发节奏"
+    tools: ["纸笔", "Figma"]
+    steps:
+      - "选定自选社会议题"
+      - "手绘至少 4 个触发步骤的分镜草图"
+      - "标注每步的数据变换、图表类型与交互类型"
+    weight: "10%"
+  scoring_rubric:
+    full_marks: 100
+    criteria: |
+      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
+      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+  deliverables:
+      - "4+ 步分镜草图"
+    theory_link: "Scrollytelling 叙事节奏设计"
+
+  - id: P3
+    name: "GSAP + ECharts/D3 高燃落地实战"
+    minutes: 80
+    type: practice
+    description: "一人胜过整个前端交互重构组——Scrollytelling 长卷开发"
+    tools: ["Claude/DeepSeek", "VS Code/Cursor", "浏览器"]
+    steps:
+      - "使用 AI 搭建 GSAP ScrollTrigger 基础骨架"
+      - "逐步接入 ECharts/D3 图表，绑定滚动触发事件"
+      - "至少 4 个触发步骤：数据过渡动画/图表切换/标注高亮/叙事文字渐入"
+      - "调试移动端响应与性能"
+    weight: "10%"
+  scoring_rubric:
+    full_marks: 100
+    criteria: |
+      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
+      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+  deliverables:
+      - "Scrollytelling 单页面长卷 HTML"
+    theory_link: "GSAP ScrollTrigger + Munzner 交互分类"
+
+  - id: P4
+    name: "互评复盘"
+    minutes: 10
+    type: critique
+    description: "同桌互审 Scrollytelling 作品的叙事节奏与交互合理性"
+    tools: []
+    weight: "10%"
+  scoring_rubric:
+    full_marks: 100
+    criteria: |
+      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
+      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+  deliverables:
+      - "课堂实战打卡与交互记录"
+
+homework:
+  title: "Scrollytelling 长卷完善"
+  description: "基于自选社会议题数据，完成 GSAP ScrollTrigger + ECharts/D3 的 Scrollytelling 单页面长卷"
+  weight: "10%"
+  scoring_rubric:
+    full_marks: 100
+    criteria: |
+      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
+      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+  deliverables:
+    - "完整 Scrollytelling HTML（至少 4 个触发步骤）"
+    - "分镜设计文档"

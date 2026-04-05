@@ -1,0 +1,32 @@
+week: 4
+topic: 假设驱动与MVP构建
+title: 假设驱动与MVP构建
+theory_hours: 3
+practice_hours: 2
+objectives:
+- 应用假设驱动的敏捷设计思维
+- 能界定极简场景并输出 MVP 需求清单
+created: '2026-03-30'
+status: ready
+tags:
+- lean-ux-ch10-hypotheses
+- lean-ux-ch12-mvp
+- lean-ux-ch07-proto-persona
+- lean-ux-ch05-06-business
+- CASE-STUDY
+- PHILOSOPHY
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_杀死重型_Persona.md
+- id: M02
+  src: src/M02_从假设到子弹_假设驱动设计.md
+- id: M03
+  src: src/M03_假设优先级_风险_×_价值矩阵.md
+- id: M04
+  src: src/M04_MVP_最小可行「学习工具」.md
+- id: M05
+  src: src/M05_实验1_收官_调研汇报与可行性清单.md

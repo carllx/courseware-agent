@@ -1,0 +1,34 @@
+week: 8
+topic: 大音希声：全链路生成、艺术封装与项目上线
+title: 大音希声：全链路生成、艺术封装与项目上线
+theory_hours: 2
+practice_hours: 3
+objectives:
+- 回溯《信息可视化设计》理论：在科技狂欢中坚守艺术的直觉表达
+- 综合复盘可视化全流程编码规则并排除最终作品的生成异常
+- 为可视化原型披上叙事性与情感化的前端封装界面
+- 完成最终数据艺术项目在数字平台的独立部署，并进行公众展示评述
+created: 2026-03-20
+status: ready
+tags:
+- ch15-vis-in-practice
+- hao-ch6-social-projects
+- aesthetic-wrapper-css
+- static-deploy-workflow
+- critique-review-method
+- ai-code-debug-strategy
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_勿忘初心_警惕科技狂欢与艺术的回归.md
+- id: M02
+  src: src/M02_全面查错与_Vibe_缝合_驯服最后的混沌.md
+- id: M03
+  src: src/M03_前端叙事包装.md
+- id: M04
+  src: src/M04_存在即被看见.md
+- id: M05
+  src: src/M05_最终审判与反哺.md

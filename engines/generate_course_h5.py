@@ -230,8 +230,77 @@ def clean_speech_text(text: str) -> str:
     """清洗演讲稿文本。"""
     text = re.sub(r"\*?\*?\(Pause:.*?\)\*?\*?", "", text)
     text = re.sub(r"（讲师口述）[：:]?", "", text)
+    # 过滤 HTML 注释行（BUDGET / STATUS 等元数据注释）
+    text = re.sub(r'^\s*<!--.*?-->\s*$', '', text, flags=re.MULTILINE)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
+
+
+def get_scqa_role(tag_name: str, activity_type: str = None) -> str:
+    """根据 tag_name 和 activity_type 推断当前段落的 SCQA 角色。"""
+    if not tag_name:
+        return "none"
+    t = tag_name.upper()
+    if t == "LIFE CONNECT": return "s"
+    if t in ["CASE STUDY", "WARNING", "STORY TIME", "DID YOU KNOW", "!WARNING", "!CAUTION", "!IMPORTANT"]: return "c"
+    if t in ["PACING", "QA"]: return "q"
+    if t == "ACTIVITY" and activity_type in ["QA", "Quiz", "Warm-up", "Discussion"]: return "q"
+    if t in ["TECH NOTE", "PHILOSOPHY", "TEACHING MOMENT", "NOTE", "!NOTE", "!TIP", "ACTIVITY"]: return "a"
+    return "none"
+
+
+def _compute_tts_fingerprint(text: str) -> str:
+    """计算 TTS 段落指纹（DJB2 hash，与前端 fingerprint.js 算法一致）。
+
+    基于完整文本内容（标准化空白后），8 位十六进制。
+    """
+    if not text:
+        return '00000000'
+    normalized = ' '.join(text.strip().split())
+    if not normalized:
+        return '00000000'
+    h = 5381
+    for ch in normalized:
+        h = ((h << 5) + h + ord(ch)) & 0xFFFFFFFF
+    # V-04: 附加文本长度，增强抗碰撞性（hash_len 格式）
+    return f"{h:08x}_{len(normalized)}"
+
+
+# 中文字符正则（与 validate_script_length.py 保持一致）
+_RE_CN_CHAR = re.compile(r'[\u4e00-\u9fff]')
+# BUDGET 注释正则
+_RE_BUDGET = re.compile(r'<!--\s*BUDGET:\s*(\d+)\s*chars')
+
+
+def _count_cn_chars(text: str) -> int:
+    """统计文本中的中文字数（与验证器使用相同算法）。"""
+    return len(_RE_CN_CHAR.findall(text))
+
+
+def _enrich_section_stats(section: dict) -> None:
+    """为 section 注入口述字数统计（原地修改）。
+
+    仅统计 type 为 speech 或 oral_tag 类型的段落，
+    与 validate_script_length.py 的统计口径一致。
+    """
+    oral_types = {"speech"}  # speech 类型包括普通口述和 oral_tag
+    # oral_tag 在 generate 中被映射为 tag_name.lower()，如 story_time, case_study
+    # 它们都不是 tech_note / activity，所以用排除法更稳健
+    exclude_types = {"activity", "tech_note"}
+
+    oral_char_count = 0
+    for para in section.get("paragraphs", []):
+        if para.get("type") not in exclude_types:
+            oral_char_count += _count_cn_chars(para.get("text", ""))
+
+    section["oralCharCount"] = oral_char_count
+    section["estimatedMinutes"] = round(oral_char_count / 180, 1)
+
+    budget = section.get("budgetChars")
+    if budget and budget > 0:
+        section["fillRatio"] = round(oral_char_count / budget, 2)
+    else:
+        section["fillRatio"] = None
 
 
 def find_image(course_path: Path, asset_field: str) -> str | None:
@@ -291,7 +360,15 @@ def blocks_to_h5_json(
     """将 ScriptBlock 列表转化为 H5 预览 JSON。
 
     纯渲染职责，不处理源映射。源映射由 _apply_source_map() 后处理完成。
+    v2.1: 增加 oralCharCount / budgetChars / fillRatio / estimatedMinutes 注入。
     """
+
+    # 读取原始文件行，用于解析 BUDGET 注释
+    # （BUDGET 注释位于 ## 标题行的下一行，解析器不会将其捕获为 block）
+    try:
+        _raw_lines = script_file_path.read_text(encoding="utf-8").splitlines()
+    except Exception:
+        _raw_lines = []
 
     # TTS 路径：新架构 build/tts/ 优先，旧架构 tts/ fallback
     tts_dir = course_path / "build" / "tts"
@@ -308,7 +385,7 @@ def blocks_to_h5_json(
     }
 
     manifest = {
-        "version": "2.0",
+        "version": "2.1",
         "generated": datetime.now().isoformat(),
         "course": course_name,
         "script": script_name,
@@ -327,14 +404,33 @@ def blocks_to_h5_json(
             level = block.metadata.get("level", 1)
             if level == 2:
                 if current_section:
+                    _enrich_section_stats(current_section)
                     manifest["sections"].append(current_section)
                 section_id = f"mod-{len(manifest['sections']) + 1}"
+
+                # 解析标题行后的 BUDGET 注释
+                budget_chars = None
+                header_line_idx = block.line_start - 1  # 0-indexed
+                # 向后扫描最多 3 行寻找 BUDGET 注释
+                for offset in range(1, 4):
+                    peek_idx = header_line_idx + offset
+                    if peek_idx < len(_raw_lines):
+                        bm = _RE_BUDGET.search(_raw_lines[peek_idx])
+                        if bm:
+                            budget_chars = int(bm.group(1))
+                            break
+                        # 遇到非注释/非空行则停止搜索
+                        stripped = _raw_lines[peek_idx].strip()
+                        if stripped and not stripped.startswith("<!--"):
+                            break
+
                 current_section = {
                     "id": section_id,
                     "title": block.content,
                     "slides": [],
                     "paragraphs": [],
                     "firstSrtCueIdx": None,
+                    "budgetChars": budget_chars,
                 }
                 current_slide = None
                 last_heading = ""
@@ -403,7 +499,9 @@ def blocks_to_h5_json(
             current_section["paragraphs"].append({
                 "type": para_type,
                 "tag": tag_name,
+                "scqaRole": get_scqa_role(tag_name),
                 "text": text,
+                "ttsFp": _compute_tts_fingerprint(text),
                 "srtCueIdx": cue_idx,
                 "srcPath": str(script_file_path.resolve()),
                 "srcLStart": block.line_start,
@@ -413,13 +511,16 @@ def blocks_to_h5_json(
 
         if block.block_type == BlockType.ACTIVITY:
             meta = block.metadata
+            activity_type = meta.get("activity_type", "Practice")
             current_section["paragraphs"].append({
                 "type": "activity",
                 "tag": "ACTIVITY",
-                "activityType": meta.get("activity_type", "Practice"),
+                "scqaRole": get_scqa_role("ACTIVITY", activity_type),
+                "activityType": activity_type,
                 "duration": meta.get("duration_raw", ""),
                 "desc": meta.get("desc", ""),
                 "text": block.content,
+                "ttsFp": _compute_tts_fingerprint(block.content),
                 "srtCueIdx": None,
                 "srcPath": str(script_file_path.resolve()),
                 "srcLStart": block.line_start,
@@ -432,7 +533,9 @@ def blocks_to_h5_json(
             current_section["paragraphs"].append({
                 "type": "tech_note",
                 "tag": tag_name,
+                "scqaRole": get_scqa_role(tag_name),
                 "text": block.content,
+                "ttsFp": _compute_tts_fingerprint(block.content),
                 "srtCueIdx": None,
                 "srcPath": str(script_file_path.resolve()),
                 "srcLStart": block.line_start,
@@ -441,6 +544,7 @@ def blocks_to_h5_json(
             continue
 
     if current_section:
+        _enrich_section_stats(current_section)
         manifest["sections"].append(current_section)
 
     return manifest

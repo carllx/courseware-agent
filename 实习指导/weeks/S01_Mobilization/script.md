@@ -19,7 +19,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Cover`
-> *   **Layout**: `Title`
+> *   **Layout**: `Center`
 > *   **Asset**: ![预览](assets/slides/S01_Cover.png)
 > *   **Text**: "2026届毕业实习动员会"
 > *   **Scene**: 标题页。主视觉为校徽与中央大标题。背景透出职场剪影。
@@ -44,7 +44,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Timeline_Matrix`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Asset**: ![预览](assets/slides/S01_Timeline_Matrix.png)
 > *   **Text**: "实习主线任务：通关路线图"
 > *   **Scene**: 三阶段实习时间轴，标注为“装备期”、“练级期”、“存档期”。重点高亮第一阶段的“6个关键任务点”。
@@ -76,7 +76,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Meeting_Evidence`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Asset**: ![预览](assets/slides/S01_Meeting_Evidence.png)
 > *   **Caption**: "Your Face is Your Pass（露脸即考勤）"
 > *   **Scene**: 线上会议“开摄像头”的截图墙。右侧文字：Your Face is Your Pass（露脸即考勤）。
@@ -110,7 +110,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Grading_System`
-> *   **Layout**: `Chart`
+> *   **Layout**: `Flow`
 > *   **Asset**: ![预览](assets/slides/S01_Grading_System.png)
 > *   **Scene**: 通关评价体系天平图。左侧30%（企业导师）：关键词“工作表现/黑盒”；右侧70%（校内导师）：关键词“文档留痕/白盒”。
 
@@ -143,7 +143,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Time_Logic`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Asset**: ![预览](assets/slides/S01_Time_Logic.png)
 > *   **Text**: "不可逆的时间法则：文件递交顺序"
 > *   **List**:
@@ -165,7 +165,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Doc_Checklist`
-> *   **Layout**: `List`
+> *   **Layout**: `Split`
 > *   **Asset**: ![预览](assets/slides/S01_Doc_Checklist.png)
 > *   **Text**: "核心装备包（护盾值）"
 > *   **List**: 申请表, 安全承诺书, 三方协议
@@ -182,7 +182,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_App_Form_Detail`
-> *   **Layout**: `Detail_Focus`
+> *   **Layout**: `Center`
 > *   **Asset**: ![预览](assets/slides/S01_App_Form_Detail.png)
 > *   **Text**: "装备一：分散实习申请表（通行证）"
 > *   **Scene**: 申请表局部特写。红圈圈出“班级全称”和“盖章处”。两个错误示范被打叉（简称、章名不符）。
@@ -200,7 +200,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Safety_Commitment`
-> *   **Layout**: `Warning_Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S01_Safety_Commitment.png)
 > *   **Text**: "装备二：安全承诺书（日期陷阱）"
 > *   **Scene**: 承诺书底部日期栏特写。日期处打了一个巨大的问号（?），旁边注明“Wait for Signal”。
@@ -238,7 +238,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Stamp_Signature`
-> *   **Layout**: `Grid_4`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S01_Stamp_Signature.png)
 > *   **Text**: "洁癖规则：红章与真迹"
 > *   **Scene**: 四格漫画风格的规则展示：1.红章特写（对）vs 黑白复印件（错）；2.盖章在空白处（对）vs 盖住字（错）；3.手写签名（对）vs 电子签名（错）。
@@ -260,7 +260,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Safety_Alert`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S01_Safety_Alert.png)
 > *   **Text**: "紧急汇报流程：校外不孤单"
 > *   **Scene**: 一个醒目的红色求救按钮图标，连接着两位老师的电话。
@@ -280,7 +280,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S01_Contacts`
-> *   **Layout**: `Title`
+> *   **Layout**: `Center`
 > *   **Asset**: ![预览](assets/slides/S01_Contacts.png)
 > *   **Scene**: 紧急联系人信息卡片。大字展示张巍老师和夏莉娜老师的姓名与手机号，背景简洁方便拍照。
 

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视觉系统 Layout Storybook (v2 三层正交架构)</title>
+    <style>
+        :root {
+            --bg-color: #f7f9fc;
+            --text-color: #1a202c;
+            --primary: #4a5568;
+            --accent: #3182ce;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.8rem;
+        }
+        .subtitle {
+            color: #718096;
+            font-size: 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        .layout-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .layout-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+        .layout-tag {
+            background: rgba(255,255,255,0.2);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        .preview-box {
+            padding: 1.5rem;
+            background-color: #edf2f7;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* --- Mock Previews --- */
+        .mock-slide {
+            width: 100%;
+            height: 100%;
+            background: white;
+            border: 1px solid #cbd5e0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* 1. Center */
+        .mock-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .mock-center .title { font-size: 24px; font-weight: bold; color: #2d3748; margin-bottom: 10px; }
+        .mock-center .text { font-size: 14px; color: #4a5568; }
+
+        /* 2. Split */
+        .mock-split {
+            display: flex;
+            height: 100%;
+        }
+        .mock-split > div { flex: 1; display: flex; align-items: center; justify-content: center; padding: 20px; }
+        .mock-split .left { background: #f7fafc; border-right: 1px solid #e2e8f0; font-size: 14px; }
+        .mock-split .right { background: #ebf8ff; color: #2b6cb0; font-weight: bold; }
+
+        /* 3. Full */
+        .mock-full {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%23edf2f7" width="100" height="100"/><circle cx="50" cy="50" r="40" fill="%23cbd5e0"/></svg>') center/cover;
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+        }
+        .mock-full .overlay {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            font-size: 14px;
+        }
+
+        /* 4. Grid */
+        .mock-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+            height: 100%;
+            padding: 10px;
+        }
+        .mock-grid > div {
+            background: #e2e8f0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: #4a5568;
+        }
+        .mock-grid .g-compare-left { background: #fed7d7; color: #c53030; }
+        .mock-grid .g-compare-right { background: #c6f6d5; color: #2f855a; }
+
+        /* 5. Flow */
+        .mock-flow {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100%;
+            padding: 20px;
+            position: relative;
+        }
+        .mock-flow .node {
+            width: 40px; height: 40px; border-radius: 50%; background: #3182ce; color: white; display: flex; justify-content: center; align-items: center; z-index: 2; font-size: 12px;
+        }
+        .mock-flow .line {
+            position: absolute; top: 50%; left: 10%; right: 10%; height: 2px; background: #90cdf4; z-index: 1; transform: translateY(-50%);
+        }
+
+        .code-block {
+            background-color: #2d3748;
+            color: #e2e8f0;
+            padding: 1rem;
+            font-family: monospace;
+            font-size: 0.85rem;
+            overflow-x: auto;
+            border-top: 1px solid var(--border);
+            margin: 0;
+            white-space: pre-wrap;
+        }
+        
+        .intent-badge {
+            display: inline-block;
+            background: #feebc8;
+            color: #c05621;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Visual System Layout Storybook</h1>
+    <div class="subtitle">三层正交架构验证面板 (5 Layouts × N Content Types × M Intents)</div>
+</header>
+
+<div class="container">
+    <div class="grid-container">
+
+        <!-- Center Layout -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <span>1. Center (居中焦点)</span>
+                <span class="layout-tag">Render: renderTitle</span>
+            </div>
+            <div class="preview-box">
+                <div class="mock-slide mock-center">
+                    <div class="title">从用户体验到交互生态</div>
+                    <div class="text">理解系统的复杂性边界</div>
+                </div>
+            </div>
+            <pre class="code-block">
+> [VISUAL]
+> **Slide**: `W01_Intro`
+> **Layout**: `Center`
+> **Scene**: 极简封面临摹
+> **Text**: 从用户体验到交互生态
+            </pre>
+        </div>
+
+        <!-- Split Layout -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <span>2. Split (双栏分割)</span>
+                <span class="layout-tag">Render: renderSplit</span>
+            </div>
+            <div class="preview-box">
+                <div class="mock-slide mock-split">
+                    <div class="left">理论解析<br/>+ 无序列表</div>
+                    <div class="right">[Image Asset]</div>
+                </div>
+            </div>
+            <pre class="code-block">
+> [VISUAL]
+> **Slide**: `W01_Model`
+> **Layout**: `Split`
+> **Scene**: 艾伦·库珀展示人物角色图
+> **List**: 背景墙 / 人物刻画
+> **Asset**: `img.png`
+            </pre>
+        </div>
+
+        <!-- Full Layout -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <span>3. Full (全屏沉浸)</span>
+                <span class="layout-tag">Render: renderImage</span>
+            </div>
+            <div class="preview-box">
+                <div class="mock-slide mock-full">
+                    <div class="overlay">“坏的交互如同糟糕的建筑工程”</div>
+                </div>
+            </div>
+            <pre class="code-block">
+> [VISUAL]
+> **Slide**: `W01_Crash`
+> **Layout**: `Full`
+> **Scene**: 蓝屏死机/系统崩溃的沉浸画面
+> **Text**: 糟糕的建筑工程
+> **Asset**: `bsod.png`
+            </pre>
+        </div>
+
+        <!-- Grid Layout -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <span>4. Grid (多格矩阵 + compare)</span>
+                <span class="layout-tag">Render: renderGrid</span>
+            </div>
+            <div class="preview-box">
+                <div class="mock-slide mock-grid">
+                    <div class="g-compare-left">Bad (❌)</div>
+                    <div class="g-compare-right">Good (✅)</div>
+                    <div class="g-compare-left">无视反馈</div>
+                    <div class="g-compare-right">即时响应</div>
+                </div>
+            </div>
+            <pre class="code-block">
+> [VISUAL]
+> **Slide**: `W01_Versus`
+> **Layout**: `Grid`
+<span class="intent-badge">Intent: compare</span>
+> **Scene**: 坏设计与好设计的矩阵对比
+> **List**: ❌ 无视反馈 / ✅ 即时响应
+            </pre>
+        </div>
+
+        <!-- Flow Layout -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <span>5. Flow (流向连线)</span>
+                <span class="layout-tag">Render: renderDiagram</span>
+            </div>
+            <div class="preview-box">
+                <div class="mock-slide mock-flow">
+                    <div class="line"></div>
+                    <div class="node">1</div>
+                    <div class="node">2</div>
+                    <div class="node">3</div>
+                </div>
+            </div>
+            <pre class="code-block">
+> [VISUAL]
+> **Slide**: `W01_Timeline`
+> **Layout**: `Flow`
+> **Scene**: 用户旅程的三个核心触点流程图
+> **List**: 1.发现 / 2.体验 / 3.反馈
+            </pre>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

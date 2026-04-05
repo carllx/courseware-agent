@@ -1,0 +1,2793 @@
+{
+  "version": "2.1",
+  "generated": "2026-04-05T15:08:38.628133",
+  "course": "信息可视化设计",
+  "script": "W03_Data_Literacy",
+  "theme": {
+    "bg": "#F5F0EB",
+    "bgSurface": "#FFFFFF",
+    "bgElevated": "#EDE7E0",
+    "bgDark": "#2D2926",
+    "primary": "#B85042",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#6B8FAD",
+    "textOnDark": "#F5F0EB",
+    "primaryLight": "#B85042",
+    "primaryMuted": "#8C3A30",
+    "success": "#5B7B6F",
+    "warning": "#C9A96E",
+    "error": "#B85042",
+    "border": "#D6CFC7",
+    "text": "#2D2926",
+    "textSecondary": "#6B635C",
+    "textMuted": "#A39B93",
+    "primaryRgb": "184, 80, 66",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": false,
+    "fontTitle": "Playfair Display",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": null,
+    "srt": null
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "W03_Data_Literacy",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "[!NOTE]\n课程：信息可视化，即 Information Visualization\n学时：5 课时 (理论 2.5 + 实践 2.5)\n授课模式：Lecture + Workshop\n核心理论库：`data-abstraction-taxonomy`, `task-abstraction-framework`, `tidy-data-ai-workflow`, `hao-ch4-masterworks`",
+          "ttsFp": "c8eb2bce_206",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M00_课程导览.md",
+          "srcLStart": 3,
+          "srcLEnd": 7
+        }
+      ],
+      "firstSrtCueIdx": null,
+      "oralCharCount": 0,
+      "estimatedMinutes": 0.0,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-2",
+      "title": "模块 1: 为什么你的 AI 画不出一张正常的图？ (30 分钟)",
+      "slides": [
+        {
+          "id": "S01_Title_W03",
+          "layout": "Center",
+          "text": "看不见的冰山：数据洗礼与抽象建模",
+          "heading": "",
+          "scene": "深色背景。中心是一座巨大的冰山。水面上是五光十色的漂亮图表（如同上周讲的那些符合格式塔与数据墨水的图）；水面下则是庞大、错综复杂、布满划痕的原始数据表。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S01_Title_W03.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S01_Title_W03.png"
+          ],
+          "assetExpected": [
+            "public/slides/S01_Title_W03.png"
+          ],
+          "list": null,
+          "paragraphStart": 2
+        },
+        {
+          "id": "S01b_W02_Review_Gestalt",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧重现第二周的格式塔法则图解，右侧展示数据墨水比的精简打磨动画。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S01b_W02_Review_Gestalt.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S01b_W02_Review_Gestalt.png"
+          ],
+          "assetExpected": [
+            "public/slides/S01b_W02_Review_Gestalt.png"
+          ],
+          "list": null,
+          "paragraphStart": 3
+        },
+        {
+          "id": "S01c_The_Aesthetics_Myth",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一名设计师对着满屏漂浮的代码特效、绚丽的调色板顶礼膜拜，却忽视了脚下正在崩塌的断层数据地基。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S01c_The_Aesthetics_Myth.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S01c_The_Aesthetics_Myth.png"
+          ],
+          "assetExpected": [
+            "public/slides/S01c_The_Aesthetics_Myth.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "S02_The_LLM_Illusion",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧显示一个极其粗糙的提示词：\"拿这个Excel给我画个好看的图，最好有科技感\"。右侧显示一个无尽转动的加载动画，随后吐出一大串代码，但渲染出的图表是一团黑红相间的乱码。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S02_The_LLM_Illusion.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S02_The_LLM_Illusion.png"
+          ],
+          "assetExpected": [
+            "public/slides/S02_The_LLM_Illusion.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "S02b_Debugging_Workshop_Intro",
+          "layout": "Grid",
+          "text": "异常排查大研讨：揭开 AI 失控背后的隐秘病灶。",
+          "heading": "",
+          "scene": "屏幕中心打出巨大的红色警告标志，周围环绕着乱序的代码错误条目碎片。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S02b_Debugging_Workshop_Intro.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S02b_Debugging_Workshop_Intro.png"
+          ],
+          "assetExpected": [
+            "public/slides/S02b_Debugging_Workshop_Intro.png"
+          ],
+          "list": null,
+          "paragraphStart": 7
+        },
+        {
+          "id": "S03_AI_Plot_Failure_1",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是一张原始的透视表截屏。右侧是一张被 AI 生成的柱状图，X 轴的刻度上，不仅排布着 \"2019\", \"2020\", \"2021\" 这样的年份，竟然在中段硬生生地插进来了 \"北京市\"、\"上海市\"、\"广东省\" 的分类标签。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S03_AI_Plot_Failure_1.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S03_AI_Plot_Failure_1.png"
+          ],
+          "assetExpected": [
+            "public/slides/S03_AI_Plot_Failure_1.png"
+          ],
+          "list": null,
+          "paragraphStart": 8
+        },
+        {
+          "id": "S03b_Merge_Cell_Catastrophe",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "展示合并单元格在读取过程中的错乱路径：视觉上的合并跨列，到了解析器中变成了平等的离散列表头。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S03b_Merge_Cell_Catastrophe.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S03b_Merge_Cell_Catastrophe.png"
+          ],
+          "assetExpected": [
+            "public/slides/S03b_Merge_Cell_Catastrophe.png"
+          ],
+          "list": null,
+          "paragraphStart": 9
+        },
+        {
+          "id": "S04_AI_Plot_Failure_2",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一张极其荒诞的折线图，Y 轴的刻度达到了“2.58 亿”。图的标题写着《全球重点地震带空间趋势波动图》。下方红字警示框写着：Y轴计算逻辑解析：SUM(Longtiude + Latitude)。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S04_AI_Plot_Failure_2.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S04_AI_Plot_Failure_2.png"
+          ],
+          "assetExpected": [
+            "public/slides/S04_AI_Plot_Failure_2.png"
+          ],
+          "list": null,
+          "paragraphStart": 12
+        },
+        {
+          "id": "S04b_Coordinate_Addition_Absurdity",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "动画演示：116.4°E（北京） + 74.0°W（纽约） = 虚无。地图从中间撕裂。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S04b_Coordinate_Addition_Absurdity.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S04b_Coordinate_Addition_Absurdity.png"
+          ],
+          "assetExpected": [
+            "public/slides/S04b_Coordinate_Addition_Absurdity.png"
+          ],
+          "list": null,
+          "paragraphStart": 13
+        },
+        {
+          "id": "S05_AI_Plot_Failure_3",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是几万条日志滚动的黑色后台。右侧是典型的高密度面条图灾难：几百条颜色几乎无法肉眼分辨的杂乱线段紧紧交缠在一起，像是一团乱麻，背景还密密麻麻标满了毫无意义的十六进制 User_ID 号。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S05_AI_Plot_Failure_3.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S05_AI_Plot_Failure_3.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05_AI_Plot_Failure_3.png"
+          ],
+          "list": null,
+          "paragraphStart": 17
+        },
+        {
+          "id": "S05b_Overplotting_Blindness",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "视网膜被无数黑色细线遮蔽的特写。在黑线的深处隐约闪着红光，但完全无法看清。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S05b_Overplotting_Blindness.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S05b_Overplotting_Blindness.png"
+          ],
+          "assetExpected": [
+            "public/slides/S05b_Overplotting_Blindness.png"
+          ],
+          "list": null,
+          "paragraphStart": 18
+        },
+        {
+          "id": "S06_The_Machine_View",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "屏幕底色变为深沉的代码编辑器。一段被拆解为极小片段、单一维度的 Token 数据流犹如《黑客帝国》的瀑布流般滑落。上面覆盖着一个大语言模型的闪烁自回归光标。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S06_The_Machine_View.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S06_The_Machine_View.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06_The_Machine_View.png"
+          ],
+          "list": null,
+          "paragraphStart": 20
+        },
+        {
+          "id": "S06b_Grid_Vs_Stream",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左边是人类大脑视觉皮层下的严整二维矩阵，闪耀着交叉十字光芒。右边是大模型算力核心中，排队等待进入 Transformer 窗口的单行无限字符串列车。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S06b_Grid_Vs_Stream.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S06b_Grid_Vs_Stream.png"
+          ],
+          "assetExpected": [
+            "public/slides/S06b_Grid_Vs_Stream.png"
+          ],
+          "list": null,
+          "paragraphStart": 21
+        },
+        {
+          "id": "S07_Data_Shape_Concept",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧动画：从布满灰尘的原始矿坑里被挖出来极其粗糙、夹杂着大量泥土杂质的铁矿石原石，旁边标注原始死板数据，也就是 **Raw Messy Data**。右侧动画：矿石被扔进高温红色高炉中熔炼锻打，最后弹射出发出寒光的精确机械齿轮，旁边标注提炼后的数据抽象形状，也就是 **Abstracted Data Shape**。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S07_Data_Shape_Concept.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S07_Data_Shape_Concept.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07_Data_Shape_Concept.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        },
+        {
+          "id": "S07b_The_Core_Questions",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "两条深刻的发问像灼热烙铁一样烫印在厚重的书籍封面上。配合缓慢推进的光影特效。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S07b_The_Core_Questions.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S07b_The_Core_Questions.png"
+          ],
+          "assetExpected": [
+            "public/slides/S07b_The_Core_Questions.png"
+          ],
+          "list": [
+            "[\"这个对象到底是个什么，即 What性质？\", \"客户让我看这个图到底是为什么，即 Why？\"]"
+          ],
+          "paragraphStart": 23
+        },
+        {
+          "id": "S08_Munzner_Framework_Intro",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "一座雅典神庙式的古典建筑，支撑金字塔顶端的三根巨大柱子模型。左侧纯蓝色的巨柱写着：What（数据抽象 - 破译基因）；正中央红色的巨柱写着：Why（任务抽象 - 截获意图）；右侧金色的巨柱写着：How（视觉与交互编码 - 表达万象）。底部台阶上深深地刻着 Tamara Munzner 的名字。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S08_Munzner_Framework_Intro.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S08_Munzner_Framework_Intro.png"
+          ],
+          "assetExpected": [
+            "public/slides/S08_Munzner_Framework_Intro.png"
+          ],
+          "list": null,
+          "paragraphStart": 24
+        },
+        {
+          "id": "S09_What_Why_How_Depth",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "一个三层的俄罗斯套娃式漏斗图，展示数据从真实世界依次流经 What、Why 和 How 层的过滤与映射过程。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S09_What_Why_How_Depth.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S09_What_Why_How_Depth.png"
+          ],
+          "assetExpected": [
+            "public/slides/S09_What_Why_How_Depth.png"
+          ],
+          "list": null,
+          "paragraphStart": 25
+        },
+        {
+          "id": "S10_LLM_Prompt_Hierarchy",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧：一个菜鸟的简陋提示词（\"用这些数据画个折线图\"）。右侧：展示震撼的架构师级别提示词控制面板。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S10_LLM_Prompt_Hierarchy.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S10_LLM_Prompt_Hierarchy.png"
+          ],
+          "assetExpected": [
+            "public/slides/S10_LLM_Prompt_Hierarchy.png"
+          ],
+          "list": null,
+          "paragraphStart": 26
+        },
+        {
+          "id": "S10b_AI_Sharpshooter",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一名戴着狙击镜的生化仿生人，即 AI，但镜头准星的红点由他身旁的人类观察手指引。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S10b_AI_Sharpshooter.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S10b_AI_Sharpshooter.png"
+          ],
+          "assetExpected": [
+            "public/slides/S10b_AI_Sharpshooter.png"
+          ],
+          "list": null,
+          "paragraphStart": 28
+        },
+        {
+          "id": "S11_The_Iceberg_Dive",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "第一张开篇巨型冰山的动态延伸版。聚焦水面图表的镜头，发出穿戴潜水装置的下潜声响。随着幽蓝海水起伏，镜头急剧破入冰冷深渊海域，一位光影特效探险家开始逼近冰山底座——那里盘根错节生长着狂野庞大的原始数据逻辑结构基底暗礁。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S11_The_Iceberg_Dive.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S11_The_Iceberg_Dive.png"
+          ],
+          "assetExpected": [
+            "public/slides/S11_The_Iceberg_Dive.png"
+          ],
+          "list": null,
+          "paragraphStart": 29
+        },
+        {
+          "id": "S11b_Dive_Roadmap",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "潜水仪表盘上弹出的深海探测量表与下潜目标指南。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S11b_Dive_Roadmap.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S11b_Dive_Roadmap.png"
+          ],
+          "assetExpected": [
+            "public/slides/S11b_Dive_Roadmap.png"
+          ],
+          "list": [
+            "[\"基因解剖：破译数据特性的 What 密码\", \"意图截获：降维拆解用户场景的 Why 动力\", \"混沌熔炼：驯服杂乱宽阵的 Tidy Data 法则\"]"
+          ],
+          "paragraphStart": 30
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "[!NOTE] 核心标签回溯\n[data-ethics] [anti-tech-hegemony]",
+          "ttsFp": "4c81b73e_49",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 3,
+          "srcLEnd": 4
+        },
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "[!NOTE] 教学备忘: 复习/导入\n本模块回顾 W02 标记与通道编码原则，通过深入展示大语言模型，也就是 **Large Language Model** 面对未处理原始数据时的失败案例与底层缺陷（一维 Token 序列 vs 二维空间网格），系统性论证在 Vibe Coding 时代梳理数据抽象（What、Why）的终极必要性。",
+          "ttsFp": "7148269a_169",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 6,
+          "srcLEnd": 7
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位同学，欢迎来到数据可视化核心框架体系理论的第三周。在经历了上周对视觉感知基石的探索后，今天我们将经历一次更加底层的跨维思维打击。如果说通道与标记是可视化的肌肤色彩，那么今天我们要面对的，就是数据的骨骼与灵魂。我们将深入探讨数据本身的形态，理解如何通过解构与重组，让哪怕最混沌的原始数据重新建立秩序，完成从野生废土到精准工程件的绝对升华。",
+          "ttsFp": "fe9e72fa_170",
+          "srtCueIdx": 0,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在第二周，我们系统学习了“格式塔空间法则”和“数据墨水比原则”，探讨了如何极其克制地利用特定标记，也就是 **Marks** 和通道，也就是 **Channels** 这一套视觉语法，去设计出不骗人、高信噪比、极具叙事张力的优雅图表。",
+          "ttsFp": "5ef1c372_117",
+          "srtCueIdx": 1,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 25,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "现在，看看屏幕上这座巨大的冰山。请大家盯着水面之上那些闪闪发光、色彩绚丽的可视化图表。如果我现在问你们，开发出一张惊艳全球的纽约时报级别的信息图，最难的部分在哪里？很多人可能会回答：是极其厉害的审美！是复杂的 D3.js 贝塞尔曲线过渡动画！是对莫兰迪色系的精准运用！",
+          "ttsFp": "34cc4355_134",
+          "srtCueIdx": 2,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看起来，我们似乎已经掌握了让图表变美的所有魔法，对吧？尤其是在这个当下由 ChatGPT、Claude 和各类 Copilot 主导的氛围编程，也就是 **Vibe Coding** 时代，这种错觉被无限放大了。很多人拿到了导师或老板丢过来的一堆堪称灾难的 Excel 数据，第一反应不是去阅读数据，而是直接把这坨长达 50MB 的乱码往大模型的对话框里一扔，满心欢喜地敲入一段极其口语化的提示词：“帮我把这些数据画成超级酷炫的动态散点图！”",
+          "ttsFp": "dd17cc28_221",
+          "srtCueIdx": 3,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家是不是觉得，只要把文件拖进去，AI 这个全知全能的神就能自动理解你的心意，不仅帮你读懂了那些充满缩写和黑话的表头，还顺便帮你排查了数据污染，最后渲染出一幅传世佳作？结果往往是灾难。当加载动画停止，你以为会看到一张洞察秋毫的神图。但实际呈现的，却是一堆令人窒息的、充满着错位、折叠、甚至完全违反物理常识的赛博朋克垃圾图表。",
+          "ttsFp": "f8e59824_162",
+          "srtCueIdx": 4,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了打破大家对 AI 的迷信，今天我们先来办一场异常排查研讨会。我们来看看，那些未经人类数据建筑师审查的原始表格，是如何把目前最聪明的大脑逼疯的。",
+          "ttsFp": "e5bce667_73",
+          "srtCueIdx": 5,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "比如这里，一位非常用功的分析师，试着用最新潮的工具，试图将一份涵盖了全世界每一次微小地震事件的记录表，直接喂给系统。他甚至没有检查这份表单的结构，只写下：“帮我展现全球地震的空间分布热力趋势”。他期望得到一张精确标注每次震中位置的地核脉搏图。但他完全忽略了这堆未经处理的数据中，不仅包含了各种混杂的非量度文本，甚至其经纬度也是互相穿插的。这就直接导致了系统将这些地理坐标视为普通数值执行暴力累加，出来的画面根本不是地球，而是一团彻底错位、毫无空间逻辑的黑色曲解乱阵。",
+          "ttsFp": "7b6efa1d_233",
+          "srtCueIdx": 6,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但对于没有经过严密结构预处理的大模型来说，一旦它读取的 Excel 文件中存在跨列合并单元格，它的解析逻辑就会瞬间崩溃。大家在 Excel 里看到的“合并居中”非常美观，但在底层物理结构上，这种合并实际上只在左上角的第一个物理单元格内保留了文字，而其余原本被覆盖的空间全都被彻底掏空，变成了致命的空值变量，也就是 `NaN`。",
+          "ttsFp": "39ba345b_163",
+          "srtCueIdx": 7,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你把这种带有巨大空洞的表格强行扔给代码解析器或者大模型时，它根本不知道那些空白地带有历史遗留的合并意图。在它的视野中，只要文字出现，它就把文字拿走，而遇到成片的空白，它就直接截断数据流。原本归属于同一个省份的几十条城市数据，瞬间变成了找不到归属地址的无主孤儿，于是大模型只能把它们统统当成同级别的独立分类标签，也就是 **Categorical Labels**，然后在一条水平线上不受控制地死板平铺开来。这就是数据维度的物理性坍塌。",
+          "ttsFp": "eb7a2310_218",
+          "srtCueIdx": 8,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "这就好像你试图把同属一栋大楼里的三个不同的住户包裹，只凭借一份极其简略的便签打包发走。你自以为在便签最顶上写了一个巨大的“某某小区”就能统管下方所有人，但大模型这个快递分拣机器人是不讲情面的。它扫描第一份包裹时读到了地址，顺利发件；但扫到第二和第三份时，由于标签页上的跨行文字已经被抽空为空值，它只会直接把这两份包裹扔进系统死信退件箱。",
+          "ttsFp": "8700bf9e_168",
+          "srtCueIdx": 9,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 76,
+          "srcLEnd": 77
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "更恐怖的还在后面。来看第二个案例。这里有一份全球地震监测台网的原始数据，包含了发生地震的城市经度、纬度，以及里氏震级。一位产品经理急忙让大模型“帮我统计一下各个地震带整体的危害波动程度”，结果大模型自动生成的折线图，Y 轴直接飙升到了几百甚至几千万！",
+          "ttsFp": "1333329f_125",
+          "srtCueIdx": 10,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你仔细去反查底层代码，会绝望地发现它干了什么：它看了一眼这些数字，发现都是浮点数，于是它非常“聪明”地把所有地震的经度和纬度当作普通的存款余额一样，执行了无差别的求和运算！",
+          "ttsFp": "23301508_86",
+          "srtCueIdx": 11,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 95,
+          "srcLEnd": 95
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是我们这门课要死死咬住的一个核心数据认知错位：长得像数字的东西，未必就是可以用来做算术的。在数据科学的严格分类中，这被称为分类属性，也就是 **Categorical**，与量化属性，也就是 **Quantitative**，两者之间不可逾越的天堑。对于人类而言，经纬度是空间位置，也就是 **Position**，它是纯粹用来标定你在这个地球上唯一物理地址的名牌，绝对不能相加。北京的经纬度和纽约的经纬度加起来毫无物理意义，这就好比你把你和同桌的学号加起来求平均一样，除了制造一串不属于任何人的幽灵乱码之外，什么都得不到。但 AI 系统如果得不到你“人类意志”的前置数据结构声明，它只要看到纯碎的阿拉伯数字，默认的潜意识习惯就是调用 CPU 去狂暴地求和求平均。",
+          "ttsFp": "674cb55c_334",
+          "srtCueIdx": 12,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 97,
+          "srcLEnd": 97
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "在一个真实的政府开放数据可视化项目中，有开发者未做数据抽象，直接将包含国家统计局设定的城市六位行政区划代码（例如北京是 110000，上海是 310000）的巨型逗号分隔值表格，也就是 **CSV** 喂给大模型画对比图。结果，大模型为了展现“总体趋势”，极其可笑地把这些区划代码全部当作收入总额作了暴力相加，生成了一个高达几千亿的不存在坐标总和！这不仅是图表的失败，这更是人类交出数据释义权后的逻辑溃败。",
+          "ttsFp": "ce9e8e52_203",
+          "srtCueIdx": 13,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 99,
+          "srcLEnd": 100
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "在这个核心算法可以自动补全代码、自动聚合查询的狂奔时代，坚守对“数据物理语义”的解释权，是我们作为信息可视化工程师与数字工匠的最后尊严。机器不懂社会的痛楚，不懂地理空间的限制；因此，永远不要把思考“这个数字意味着什么现实”的权力，让渡给一个盲目套用数学公式的聚合函数。你是数据的立法者，AI 只是执行法条的法警。",
+          "ttsFp": "29edd93e_156",
+          "srtCueIdx": 14,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 102,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后这张图，我们在很多糟糕的 B 端管理后台上常常能见到，这就是声名狼藉的面条图，英文称作 **Spaghetti Chart** 灾难。当你把包含五万名客户行为记录的原始日志，不加任何聚类条件，直接扔给 AI 并说“帮我画出趋势”，它非常忠诚地把每一行都画成了一条独立连线。结果就是屏幕变成了一段失去任何信噪比的黑色乱麻网络。这不仅毫无沉浸感，更致命的是，所有的有效信息全部被淹没在了无差别的线条叠加中。观众的视网膜会立刻发出超载警报。这是彻底放弃数据意图拆解的最终惩罚，你必须在大模型渲染前先行砍掉这些无效冗余。",
+          "ttsFp": "89817c0b_258",
+          "srtCueIdx": 15,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这严重违背了我们在第二周学习的关键像素分配法则。当未经降噪裁切的数据量直接突破了屏幕像素格的物理渲染极限时，如果只是盲目去执行无差别的百分百机械点线映射，不仅根本无法向读者传递任何有效商业或科学洞察，甚至会带来灾难性的反向遮蔽。因为在前端代码眼里，一百根相互叠加在同一个极窄坐标位上的黑线，在视网膜的最终成像效果上，和一根单独孤零零画在那里的粗黑线没有任何色差感知上的本质区别！这就是所谓极其恐怖的视觉终极遮蔽绝症，也就是 **Overplotting**。这层厚重如黑泥般的数据油墨板结，会彻底彻底掩盖掉真正在底部底层微小缝隙里发生异动和严重持续衰退的报警求救信号。不经提炼提取便全盘照收的大画卷，形同于视觉谋杀。记住这个教训：**数量不等于质量，堆砌不等于呈现**。真正的数据素养，从懂得何时该剔除、何时该聚合开始。",
+          "ttsFp": "35eaf91f_360",
+          "srtCueIdx": 16,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "为了让大家更直观地感受这道“机器视差”的深渊鸿沟，我们可以重演一段大模型曾真实输出的灾难级别解析日志。在那间缺乏经验的外包开发室里，由于前置数据架构师的严重缺位，原始的《中国统计年鉴》宽跨大表，在连带各种恶心合并单元格、无意义脚注、以及极度冗余的中文多重嵌套表头的情况下，未经任何结构修剪和防腐处理，就直接扔给了大语言模型的文本输入核心。\n当它那基于一维线性的底层 Token 序列解析器，在触及那些本该在二维空间展开的复杂合并年份栏时，当场发生了严重的维度扭曲与逻辑短路。模型完全无法同时去建立和关联横纵上下的多层从属附庸关系，它只能绝望且生硬地把它切分碾碎成了毫无因果牵绊的平行碎片序列。在它的扭曲理解里，原本应该牢固结合的“2010年-东部地区-GDP总额”这三重统摄立体结构，被无情剥离成了互不相识的字符孤岛。它甚至把地区分类属性当作了计算数值去强行拉扯。\n结局自然是一连串崩溃。最终生成的底层渲染脚本发生极其致命的变量类型错位，数百条红色 Error 报错和无法成型的 SVG 图表破片瀑布般涌向控制台界面。你以为它是无所不能的多维超级神明，但必须警惕：面对那些未经整洁约束规则彻底清洗的极度杂乱无章超大宽表，大模型的智识会瞬间跌入谷底，变成一条在冰冷数据迷宫墙壁上不断盲目撞击的一维盲蛇。",
+          "ttsFp": "25794208_550",
+          "srtCueIdx": 17,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 123,
+          "srcLEnd": 128
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你不作任何的数据重塑而直接下达画图指令，你就是在强迫一个纯粹算数引擎去理解人类社会极端混乱的潜规则。当我们把那些包含着五六万条未经清洗的黑匣子日志原样推进去时，就会爆发前面展示的那种面条图，也就是 **Spaghetti Chart** 灾祸。更深层的原因在于，对于一个基于自然语言符号序列的大语言模型来说，表格里多出来的合并居中、隐藏的空缺值、和夹杂在数据中的备注星号，全都是剧毒的乱码。在它的单向度逻辑世界观中，根本没有你眼中那浑然天成的格式塔表格网格结构。如果不事先清理出畅通的矩阵数据通道，它唯一能给你的反应，就是像被异物卡住喉咙一般，吐出一堆完全错位的像素映射，或者是直接甩给你满屏红色崩溃退出的严重报错日志。",
+          "ttsFp": "8b088147_312",
+          "srtCueIdx": 18,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当人类瞥向一张表格时，千万年来进化出的格式塔认知模型瞬间告诉我们：横向和纵向的排列潜藏着统摄逻辑，我们是在多维空间里理解数据的。但大模型底层的架构决定了，它本质是一个自回归预测序列引擎。它看到的，是经过字符编码切分后的单维度词汇序列流。逗号、回车、数字，全是排队关系。如果你不给出清晰的属性框架和业务逻辑，它就只能按照最浅显的字面意思瞎猜。",
+          "ttsFp": "3bd89e1e_170",
+          "srtCueIdx": 19,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 146,
+          "srcLEnd": 146
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "因此，为了摆脱这种一抓瞎的绝境，在真正的专业数据可视化工程流中，我们存在一个不可跨越的神圣领域：那就是数据抽象与形状重组。这绝不是你在表格软件里简单点个排序或者筛选那么儿戏。这是要在心智层面，如同法医骨骼重构般，深度审视这团毫无头绪的数字组织。你必须亲自裁定它的本质属性，拔除一切干扰杂质，将其强硬锻打淬炼为大模型能够无损吞吐的纯净结晶体。任何试图跨过这道工序去追求图表炫目的行径，最终只会画出一堆虚无的美丽垃圾。你对数据的重压提炼程度，直接决定了最终作品可供下钻分析的理论深度边界，这也是你与普通做图员的根本区别所在。",
+          "ttsFp": "265a22e2_260",
+          "srtCueIdx": 20,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 155,
+          "srcLEnd": 155
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那最底层、最决定生死的一万个为什么：“这段字符串到底是个什么，也就是 **What** 对象？”“客户背后的本质心愿为什么，也就是 **Why** 要挖掘它？”就像你拿着生锈矿石命令顶级工匠打造绝世兵器，结局必然是崩裂。在严防死守的现代可视化体系中，不经过深度抽象和派生重塑，也就是 **Derive** 的表格，就是定时炸弹。熔炼必须先于展示。",
+          "ttsFp": "2a6fd936_173",
+          "srtCueIdx": 21,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 165,
+          "srcLEnd": 165
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个领域，我们要向现任不列颠哥伦比亚大学计算机科学系教授、可视化界的泰斗级人物 —— Tamara Munzner 致以最高的敬意。她的著作不仅定义了整个现代数据可视化的框架基石，更提出了一套彻底斩绝数据错乱分析方法论。这不仅是你这门课的最高纲领防线，更是你未来面对海量企业级报表时不致思维崩溃的底层护甲。掌握了它，你就不再是可以被随时替代的查图表画图员，而是能够掌舵大模型、具备独立数据降维打击能力的高端架构师。在这个框架下，所有的混沌都将无所遁形，所有的意图都将被严格量化和执行，这是通向可视化真理的唯一地图。",
+          "ttsFp": "686120c2_258",
+          "srtCueIdx": 22,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 174,
+          "srcLEnd": 174
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "回顾前两周死命纠结的色彩搭配和标记选择，这些全都被限制在名为 How（如何呈现）的最终执行层。如果没有精准的 What（这到底是周期数据还是离散分类？），以及洞悉人性的 Why（我们画图是为了找异常还是做汇报？），你的 How 就会像打扮得花枝招展却完全指错路的向导。这就要求大家建立起一种结构化数字透视眼。当你面对密集的表格，你要能在刹那间看破它们隐藏在底层的基元属性和意图语义。",
+          "ttsFp": "a74f3f87_191",
+          "srtCueIdx": 23,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 183,
+          "srcLEnd": 183
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "身处于这个提示词工程狂飙时代，开发速度固然被拉升，但关于数据背后的物理模型阐释权威，始终只牢牢握在人类数据架构师手中！如果不懂得底层数据的拓扑骨架，你甚至无法给 AI 编写出哪怕一条具有纠错自愈能力的结构化高级提示词。你只能像个毫无主见的乞求者一样写下：“求求你把我的乱码修好画个好看的图。”然后在使用这种黑盒指令的过程中，在报错和不断扭曲的胡乱渲染中陷入无尽绝望。",
+          "ttsFp": "01ad2929_183",
+          "srtCueIdx": 24,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 192,
+          "srcLEnd": 192
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "相反，如果你拥有了数据世界的 X 光极强透视力，你向大模型下达的指令就会如同冷酷精准的手术执刀报告一般：“提取 A 列的唯一主键；剥离 B 列的量化废弃字符并转换为高精度浮点类型；舍弃掉底部带有‘总计’字眼的伪造数据行；最后，以上述干净长表格为单一维度源，利用 D3 渲染出一幅以时间轴为底向发散开的流线图。”当你能极其流利地说出这些专业术语指令来控制流程节点时，AI 就会瞬间变成你手中最强悍的重火力机枪，配合你行云流水般干脆利落地击穿一切数据迷雾。",
+          "ttsFp": "587c41c4_226",
+          "srtCueIdx": 25,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 194,
+          "srcLEnd": 194
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大模型就是你手中的超级重火力，但这挺机枪是不长眼睛的。唯有你亲自用肉眼确认了每一层数据的地基形状，才能在最后百发百中。如果你连自己弹巢里装的是实心铁球还是高爆散弹都分不清，就对着 AI 大喊开火轰炸，那等待你的必然是难以收场的全盘数据车祸报错。真正的核心竞争力，是你脑海中那一整套严丝合缝、能够彻底透视数据结构图景的高维雷达扫描系统。",
+          "ttsFp": "5cf7cb04_167",
+          "srtCueIdx": 26,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 203,
+          "srcLEnd": 203
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是所谓的 What —— 它到底是什么！这是 Munzner 指出的第一阶绝对法则：抛开一切图表形式的外壳，深潜到那几乎能将人冻伤的原始数据冰冷深渊深海里。你必须像专业基因测序中心的操作员一样，冷血、极度理智且毫不留情地将这堆密密麻麻如泥浆般的统计数字，执行显微镜级别的严格分类。你不但要识别它们是孤立存在的独立个体，还是互相交织咬合的网络链路，还要给它们的每一列数据头上打上不可串改的物种属性基底基因烙印标识。唯有经历了这般极其严苛彻底的底层清洗重塑，才能绝对保证后续的图形渲染引擎不会因为吞入异物而引发那种灾难性的系统崩溃报错。这是你作为数字架构师压倒一切的最高职责所在。",
+          "ttsFp": "bc9ce098_290",
+          "srtCueIdx": 27,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 212,
+          "srcLEnd": 212
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们将全副武装地学习：如何像分子生物学家一样，给一切信息源定性确权，回答 What 难题。如何像联合国资深翻译官一样，把毫无逻辑的需求，精确降频翻译为纯粹计算机行动指令，回答 Why 的动力来源。以及最核心的战役，握紧顶级数据架构师的真理之剑，将千疮百孔的野生表格，重新压缩为即使大模型也能百分百读懂解析的整洁完美长表结构。",
+          "ttsFp": "04cd1e60_162",
+          "srtCueIdx": 28,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 222,
+          "srcLEnd": 222
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "探照灯已经打开，高炉的熔炼火焰正在燃烧！带好行装，向深渊进发。",
+          "ttsFp": "9e048c5d_31",
+          "srtCueIdx": 29,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M01_为什么你的_AI_画不出一张正常的图.md",
+          "srcLStart": 224,
+          "srcLEnd": 224
+        }
+      ],
+      "firstSrtCueIdx": 0,
+      "budgetChars": 4500,
+      "oralCharCount": 5286,
+      "estimatedMinutes": 29.4,
+      "fillRatio": 1.17
+    },
+    {
+      "id": "mod-3",
+      "title": "模块 2: What — 拆解数据的基因组 (40 分钟)",
+      "slides": [
+        {
+          "id": "S01b_Taxonomy_Intro",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "展现 Munzner 数据抽象分类体系的庞大树状架构，从顶层的“Dataset Types”向下不断分化到“Item”和“Attribute”，颜色冷峻、学术感极强。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S01b_Taxonomy_Intro.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S01b_Taxonomy_Intro.png"
+          ],
+          "assetExpected": [
+            "public/slides/S01b_Taxonomy_Intro.png"
+          ],
+          "list": null,
+          "paragraphStart": 3
+        },
+        {
+          "id": "S12_Basic_Data_Types_Intro",
+          "layout": "Grid",
+          "text": "数据世界的五种基本粒子：构建可视化的物理原石。",
+          "heading": "1. 最小粒子：五种基本数据类型",
+          "scene": "显微镜下漂浮的五种几何晶体元件，代表构成数据宇宙的五种基本物理粒子。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S12_Basic_Data_Types_Intro.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S12_Basic_Data_Types_Intro.png"
+          ],
+          "assetExpected": [
+            "public/slides/S12_Basic_Data_Types_Intro.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "S13_Basic_Data_Types_Details",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "五张依次排列的高亮讲解卡片。分别画着：一个独立旋转的小方块，即 Item、一个小口径玻璃量杯，即 Attribute、连接两颗微粒的一根强拉力线，即 Link、一个雷达三维坐标系上的红色十字星，即 Position、一张覆盖地形的绿色等高线渔网，即 Grid。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S13_Basic_Data_Types_Details.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S13_Basic_Data_Types_Details.png"
+          ],
+          "assetExpected": [
+            "public/slides/S13_Basic_Data_Types_Details.png"
+          ],
+          "list": [
+            "[\"项，即 Item：绝对个体与本体载体\", \"属性，即 Attribute：数值特征外挂装备\", \"链接，即 Link：项与项的引力关系\", \"位置，即 Position：三维时空的地理烙印\", \"网格，即 Grid：切分拓扑空间的采样场\"]"
+          ],
+          "paragraphStart": 6
+        },
+        {
+          "id": "S14_Dataset_Types",
+          "layout": "Grid",
+          "text": "",
+          "heading": "2. 构建聚落：四大数据集类型",
+          "scene": "被切割成四格的视点宇宙。左上角是一叠层叠千丝万缕的数字电子表阵列，即 Tables；右上角是节点如繁星、线路发光的引力星系，即 Networks；左下角是一张满是冷热光晕红蓝交错的脑部核磁横切面图，即 Fields；右下角是纯净且中空的冰冷国门折线边界，即 Geometry。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S14_Dataset_Types.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S14_Dataset_Types.png"
+          ],
+          "assetExpected": [
+            "public/slides/S14_Dataset_Types.png"
+          ],
+          "list": [
+            "[\"表，即 Tables：最世俗的二维离散世界\", \"网络与树，即 Networks",
+            "Trees：关系的拓扑纠缠体\", \"场，即 Fields：不可穷尽的无缝平滑连贯时空\", \"几何，即 Geometry：纯粹抽离的极简外轮廓线框\"]"
+          ],
+          "paragraphStart": 13
+        },
+        {
+          "id": "S15_Continuous_Fields",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "深层聚焦展示场，即 Fields的壮观。左侧：一台高速运转的医疗大孔径扫描仪，正生成脑切片；右侧：风洞模拟器中充斥红蓝交织的光速激波粒子气流风场压强演示。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S15_Continuous_Fields.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S15_Continuous_Fields.png"
+          ],
+          "assetExpected": [
+            "public/slides/S15_Continuous_Fields.png"
+          ],
+          "list": null,
+          "paragraphStart": 16
+        },
+        {
+          "id": "S16_Attribute_Types_Flowchart",
+          "layout": "Split",
+          "text": "",
+          "heading": "3. 最庞大且最容易踩坑的陷阱：属性变量的阶级壁垒",
+          "scene": "屏幕一分为三，展现审判：最左是独立孤岛标签的分类型游标卡尺；居中则是模糊阶层序列的宽厚标板阶梯；右侧闪耀精确定理光环的无尽绵长高精微米级度量长卷尺。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S16_Attribute_Types_Flowchart.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S16_Attribute_Types_Flowchart.png"
+          ],
+          "assetExpected": [
+            "public/slides/S16_Attribute_Types_Flowchart.png"
+          ],
+          "list": [
+            "[\"分类型，即 Categorical：并列的名称标识无高下之分\", \"序数型，即 Ordinal：带偏见的模糊阶级序列\", \"量化型，即 Quantitative：冰冷的精确实体测量算术距离\"]"
+          ],
+          "paragraphStart": 24
+        },
+        {
+          "id": "S17_The_Numbers_Trap",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是滚动列表导出的普通高校学号排列序列：\"20240101\", \"20240102\"。突然右侧红色全息警报灯炸起，大字写着警告弹窗阻断：“警示：切勿迷信单纯阿拉伯整数的高昂表亲数字伪装外衣壳！”",
+          "image": "weeks/W03_Data_Literacy/public/slides/S17_The_Numbers_Trap.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S17_The_Numbers_Trap.png"
+          ],
+          "assetExpected": [
+            "public/slides/S17_The_Numbers_Trap.png"
+          ],
+          "list": null,
+          "paragraphStart": 27
+        },
+        {
+          "id": "S18_Ordinal_Vs_Quantitative",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧墙体挂着四张不同夸张剪裁设计的服装码数标签（S、M、L、XL），并弹出拷问框：“L码的布料比M码多几平方厘米？”右侧是立式精确数字体测激光身高测量仪，精准打出浮点算式结果屏： “180.5cm - 160.0cm = 20.50cm”。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S18_Ordinal_Vs_Quantitative.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S18_Ordinal_Vs_Quantitative.png"
+          ],
+          "assetExpected": [
+            "public/slides/S18_Ordinal_Vs_Quantitative.png"
+          ],
+          "list": [
+            "[\"序数型，即 Ordinal：主观间距阶层定位\", \"量化型，即 Quantitative：容忍任何代数解构的纯物理标量\"]"
+          ],
+          "paragraphStart": 29
+        },
+        {
+          "id": "S19_Sequential_Vs_Diverging",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "两个极度对立的世界。左半边：象征无损蓄积热量的单一水银线条，从归零的结冻线底层发狂似的朝向深红顶峰无限突刺拉伸。右轴向：深深切下的绝对原点十字水平基准线横在正中间位置！向上发疯衍生突破云端的巨大青阳线，以及同时狂坠而下猛烈向下深渊底砸出深黑底线的阴绿跌停倒悬锥体刺！",
+          "image": "weeks/W03_Data_Literacy/public/slides/S19_Sequential_Vs_Diverging.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S19_Sequential_Vs_Diverging.png"
+          ],
+          "assetExpected": [
+            "public/slides/S19_Sequential_Vs_Diverging.png"
+          ],
+          "list": null,
+          "paragraphStart": 33
+        },
+        {
+          "id": "S20_Cyclic_Clock",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "以 24 小时制为结构圆盘，展示夜晚 23:59 分即将完美且无缝平滑过渡到 00:00 分的弧圈衔接图像。图示强调\"绝不存在坠落崖底\"的圆润与首尾接合无极大环。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S20_Cyclic_Clock.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S20_Cyclic_Clock.png"
+          ],
+          "assetExpected": [
+            "public/slides/S20_Cyclic_Clock.png"
+          ],
+          "list": null,
+          "paragraphStart": 36
+        },
+        {
+          "id": "S21_Key_And_Value_Semantics",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "一张薪资流水表。左侧唯一指代的工号字段顶端虚空浮动着一只代表寻址锁定权的黄金钥匙。右边总计报酬的方阵被黑铁外壳封装，呈现出内部含金体量的宝箱。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S21_Key_And_Value_Semantics.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S21_Key_And_Value_Semantics.png"
+          ],
+          "assetExpected": [
+            "public/slides/S21_Key_And_Value_Semantics.png"
+          ],
+          "list": [
+            "[\"检索键，即 Key：不容重叠的定位信标\", \"装载值，即 Value：长宽极大量纲沉淀物质\"]"
+          ],
+          "paragraphStart": 38
+        },
+        {
+          "id": "S21b_Key_Uniqueness_Demo",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "对比图。左面：将“学号”标记为绿色的 Key，完美对应 50 名独立学生名单；右面：将“红白蓝颜色偏好”标记为带红色警告框的错误 Key，下面一堆同学挤在一起，发生碰撞爆炸。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S21b_Key_Uniqueness_Demo.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S21b_Key_Uniqueness_Demo.png"
+          ],
+          "assetExpected": [
+            "public/slides/S21b_Key_Uniqueness_Demo.png"
+          ],
+          "list": null,
+          "paragraphStart": 41
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "[!NOTE] 核心标签回溯\n[data-abstraction-taxonomy] [hao-ch4-masterworks] [task-abstraction-framework]",
+          "ttsFp": "2606cd9e_93",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 3,
+          "srcLEnd": 4
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们要做的第一步，就是像分子生物学家拿到未知病毒样本一样，面对我们手头杂乱无章的数据，强制开启极其客观的成分破译。这就是 Munzner 框架的第一层：**What**（数据抽象，即 `ch02-data-abstraction` 理论模块）。",
+          "ttsFp": "ed16c362_122",
+          "srtCueIdx": 30,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 6,
+          "srcLEnd": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你盯着一个 Excel 电子表格时，你看到的是满屏幕阿拉伯数字和各种莫名其妙的缩写。但在前端渲染引擎（包括 D3.js 乃至大型语言模型）眼中，世界绝对不是由电子单元格单纯构筑的。这牵涉到最底层的分类哲学。",
+          "ttsFp": "2a020ab0_104",
+          "srtCueIdx": 31,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 8,
+          "srcLEnd": 8
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Tamara Munzner 在其著作中，提出了一个极其严密的数据抽象分类体系，也就是 **Data Abstraction Taxonomy**。她毫无保留地指出一个残酷事实：在动手写哪怕一行画图代码之前，你必须先把数据从上到下拆解为不可分割的明确层级：基本粒子、数据集类型、以及决定生死的属性类型。",
+          "ttsFp": "a4c7fc59_151",
+          "srtCueIdx": 32,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一切现实原材料，都可以精准投射为五种最小粒子。如同物理学中的原子结构，所有的可视化图形，都不可动摇地建立在这五种粒子基岩之上。",
+          "ttsFp": "eb6b9aaf_63",
+          "srtCueIdx": 33,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Tamara Munzner 在其著作中，提出了一个极其严密的数据抽象分类体系，也就是 **Data Abstraction Taxonomy**。她毫无保留地指出一个残酷事实：在动手呼叫代码绘制出哪怕一条轴线之前，你必须先把数据从上到下拆解为不可分割的明确层级：基本粒子、数据集类型、以及决定生死的属性类型。没有这三层绝对解构步骤作为担保，任何百兆级的报表在你眼前都只是一片无意义的数字乱坟岗。这一步是将大模型从混沌中拯救出来的唯一前置安全栓。",
+          "ttsFp": "9a583693_223",
+          "srtCueIdx": 34,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1.  **Item（项）**：它是离散存在的、具有明确边界的绝对个体。比如患者信息名单中的独立一份档案，或社交网络中的单体用户。它是整件事物的物理本体和承载者。在传统关系型数据库语言中，它就是一条神圣不可侵犯的记录记录，也就是 **Record**。",
+          "ttsFp": "40048c08_125",
+          "srtCueIdx": 35,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 40,
+          "srcLEnd": 40
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2.  **Attribute（属性）**：这是可被仪器测量、被感官观察的某个特定维度的特征数据。比如那位患者清晨被记录的血压读数、或者是记录用户的当月消费总计金额。属性永远不能脱离实体漂浮，它是死死挂载在项，也就是 **Item** 这个核心躯干上的数值增益装备。",
+          "ttsFp": "ad385601_132",
+          "srtCueIdx": 36,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3.  **Link（链接）**：当视界中存在哪怕两个以上的独立项，也就是 **Item**，它们之间就可能因为互动而激发出引力网络。这个引力就是链接。它描述了个体与个体间复杂的关联度。比如你我在通讯录里的互相通讯频次，或者网页彼此间交错复杂的跳转关系。有了它，世界才衍生出宏大的拓扑形态。",
+          "ttsFp": "051d94e5_144",
+          "srtCueIdx": 37,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4.  **Position（位置）**：这是一个极其特殊的属性特权代表。它专精刻画真实物理坐标或多维空间的精确定位（如 GPS 的长维度与短维度序列）。人类大脑天生对空间位置具有最高级别的感知优先级，这一点我们在视觉感知课里已反复论证过。",
+          "ttsFp": "23e80995_119",
+          "srtCueIdx": 38,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "5.  **Grid（网格）**：它是一种极其冷酷暴力的拓扑切分控制策略。用于规范采样连续无限存在的区域。比如气象局预测风暴，在版图上强行划分出千百个同等观测尺寸的矩形网格区；或是医学断层扫描中的体素，也就是 **Voxel** 切割断面切片矩阵。",
+          "ttsFp": "3954ae37_123",
+          "srtCueIdx": 39,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "拿到一堆不明所以的数据源，你要像审问嫌疑人一样质询：我的主角是谁？挂载了什么装备？它是否与其它的点存在羁绊牵连？这立马能判定，你是要画散点云图，还是该渲染一个超庞大的错综家族引力图谱。",
+          "ttsFp": "40f245e8_92",
+          "srtCueIdx": 40,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "粒子无法独自抗衡时代，庞大的集群组合在一起，才构成了压倒性力量的数据集，也就是 **Dataset**。认定这堆数据的组合归属宗族，直接裁决了 D3 调用哪一类强大的渲染树。",
+          "ttsFp": "707829f5_87",
+          "srtCueIdx": 41,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 50,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当今产生的商业和科研成果大多可归位于以下四个巨型板块阵营中：",
+          "ttsFp": "b26df185_30",
+          "srtCueIdx": 42,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Tables（表）**：这是最简单粗暴的类型。横侧队列铺设无数个体项，也就是 **Item**，向下的列栏插满对应的丰富变量属性，也就是 **Attribute**。这里存放的，就是典型的离散记录合辑。能用普通工作簿打开的大多源自于此。但你要懂得，这是最为平庸平坦的基础形态。",
+          "ttsFp": "2f11e2df_142",
+          "srtCueIdx": 43,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 61,
+          "srcLEnd": 61
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Networks（网络）与 Trees（树）**：一旦你的个体间产生难以斩绝的羁绊连线，也就是 **Link**，原本极度扁平的表就撑破维度爆裂开来。若从上一级向下一级辐射绝无闭合回路，这就是森严的科层属性树。如果是相互交错反噬渗透，那就是关系纠缠网络，如同巨大金融资本交叉持股的黑暗漩涡星云版图。",
+          "ttsFp": "d406b8c5_153",
+          "srtCueIdx": 44,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 62,
+          "srcLEnd": 62
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Fields（连续场）**：在前两者探讨的都是离散的个体，但在高精尖学术与科学场域，连续场才是绝对的主宰。闭眼想象，表和网络就像是夜空里一颗颗分明的星辰，而场则是弥漫在整个宇宙中无处不在的暗物质网格微波背景辐射。在连续场里，不管你把网格切片切得多薄多致密，哪怕小到一个极微弱的体素，也就是 **Voxel**，你总能在这已知测出的两点虚空间隔内，借由数学物理公式无穷无尽地推导出新的过渡补完色块。这被称为高深莫测的连续不绝数据。它最高的渲染难处绝非常规的点线标记盲目叠放，而是如何编写极致丝滑、符合物理热力学严谨分布规律的计算平滑补值过渡，也就是插值运算引擎 **Interpolation** 的深渊着色策略。",
+          "ttsFp": "e18edace_310",
+          "srtCueIdx": 45,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "让我们看看中国气象局是如何在超算中心内部去渲染强热带风暴涡旋风场的。气象局并不能在广阔无垠太平洋海面上的每一寸海浪上都插满物理阵列传感器探头，他们只能在离散漂泊的浮标和气象站网格上收集到星星点点的断续截断数据。但为什么每晚新闻联播里的卫星风云图，却像极了一幅流金溢彩、风暴眼清晰可见的梵高星空流动画卷？这就是场，即 Fields 的恐怖填算威力。前端高性能渲染代码获取这些离散网格的压强与风速后，并非画上一个个孤立呆板的长剑柱子，而是启动了极其复杂的张量场非线性插值逼近渲染算法，用万千极其平滑的流体粒子动画，硬生生通过算力“脑补”出了那些没有传感器的海面上每一丝狂风的走向气流暴走轨迹结构。这种无中生有、却又无比符合宏观物理真实流体动力的绝美画卷，正是场数据被高等抽象后才能赋予商业与军工工程的不可思议视觉魔法结界！",
+          "ttsFp": "3103e14d_359",
+          "srtCueIdx": 46,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 73,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Geometry（几何）**：它剥夺了万物附加的外在财产属性，只剩下最不近人情的死寂外形边境骨架线。好比丢失了 GDP 与人口说明文档后留下的一张满是空洞多边形套嵌的国家荒凉折线空白图谱 JSON 数据。",
+          "ttsFp": "76ed0285_106",
+          "srtCueIdx": 47,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 75,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Multidimensional Table（多维组合巨表）**：仅仅搞懂平坦的一维表格是远远不够的。在极具挑战甚至刀光剑影的真实高频业务世界里，数据源头极少像单行陈列的简编流水账那样仁慈。多维表通过多个定位键位的复杂深层联合封锁，犹如三维坐标系里的 X/Y/Z 轴定海神针，共同严格指定网格空间里那枚绝对唯一的交点实体数据。它的构造本质，是将不同的时间切片维度和空间横断面刻度，犹如极其厚重密集的千层堡式钢铁合金阵列一般，重重叠叠严密包裹缝合在一处。如果一个高阶数据架构师无法在脑海中瞬间拔地而起、并一眼看穿支撑这个巨大魔方运转的多重骨架核心轴线交汇点，那么他手下画出来的任何高级图表仪表盘，注定是被多重紊乱狂暴维度无情碾压揉碎后残留出的扭曲失真残影。",
+          "ttsFp": "2eca4b89_331",
+          "srtCueIdx": 48,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 77,
+          "srcLEnd": 77
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "千万不要被“多维组合”这个充满着冰冷数学与科研科幻威压感的学术前沿词汇给过度恐吓吓倒。只需随手在裤兜里掏出一张下楼随便买东西拿到的极其普通极其廉价的便利店结账热敏打印纸单据，在那一小方天地里，你凝视的正是一个极度标准严谨的多维数字空间立体魔方的底层微缩投影模型。“2024年10月4日下午三点整”（精确锁定时间轴向）、“南山区海岸城第三十字路口连锁分店”（物理空间锚点轴向）、“全麦原味无糖低脂切片面包”（销售商品所属独立 SKU 品类轴向），再加上扫描绑定的你本人专属加密白金级别会员识别代号序列。就是这看似毫不相干的四条强劲有力锁链维度轴，在这张单薄甚至快要褪色的微小纸片交点上发生了惊天动地的激烈交织碰撞约束，才最终无可争辩、极其精准无误地在这颗星球上死死碰撞锚定出了那个唯一的量化结果输出量——“应付售价总金额 15.80 元人民币”。一旦你学会如何像神一样把其中任意一条时间或空间的固化维度单独抽离解绑出来并彻底展开折叠，你就在掌心之上徒手完成了一张能监测全城商圈消费动级起伏更迭的巨大动态时序狂热热力波动分布图谱。理解多维表的精髓，就是彻底理解你该如何握紧手术刀，去冷酷无情地解剖分离然后再降维重塑眼前这个杂乱多层的立体世界。",
+          "ttsFp": "14b251c8_519",
+          "srtCueIdx": 49,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 79,
+          "srcLEnd": 80
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "认清你的对手！无数外行曾试着用普通条形图生搬硬套一个交差持股的复杂黑网结构，这是可笑的原生架构错配。",
+          "ttsFp": "f6cabffd_50",
+          "srtCueIdx": 50,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "闯过组合大关，接下来的挑战，则是最容易诱骗资深数字工匠栽跟头的幽暗水月镜花——属性类型，也就是 **Attribute Types** 的等级界定审判。",
+          "ttsFp": "13337d99_76",
+          "srtCueIdx": 51,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在计算机刻板印象里，列存下的内容无非就是文字与带数点的数字这两种类型。但在这张冰冷外衣底下，数字与数字间潜藏着森严且不可违逆的可视化映射天生贵贱区隔等级。",
+          "ttsFp": "c5364309_77",
+          "srtCueIdx": 52,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "闯过组合大关，接下来的挑战，则是最容易诱骗资深数字工匠栽跟头的幽暗水月镜花——属性类型，即 **Attribute Types** 的等级界定审判。如果说上一步区分了表和网格是宏观宇宙尺度的观测，那这里就是在对表内同一栏里的数字发起真正的灵魂定性拷问。你看到的明明都是毫无差别的阿拉伯数字 1、2、3，但它们可能是指代地区的主键代号，也可能是满意度评级的序数等级，更可能是绝对真实的物理库存重量。一旦错判了这其中的层级秩序差异，你将会面临大模型把男女代码强行相加求平均值的荒谬绝境灾难。",
+          "ttsFp": "ac30afe4_243",
+          "srtCueIdx": 53,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这类词条完全没有伦理高低或阶级从属序列。它们只提供这苍苍众生中用来互斥确认它究竟是“哪家哪派”的独立立标标识。",
+          "ttsFp": "db5b8112_55",
+          "srtCueIdx": 54,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "比方说生鲜卖场中的货架标注名称（苹果，香蕉）或是影视网里的风格流派分类签（暗黑机甲，废土纪元）。谁的大于号也指不到对方长阶上。",
+          "ttsFp": "d45a01e9_63",
+          "srtCueIdx": 55,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "注意，数字并不天然享有数值运算的主轴豁免权！你身上绑定极其紧密的“身份证编号”、“邮政六位区域划片编码代号”，或者医院病人登记系统打上的体质登记编号（例如 1 指白种皮肤，2 指偏暗黑色泽）。在 CPU 处理指令时这确实被当作纯净的长整型载体。但在现实世界语义深渊中，它们是彻头彻尾的分类独立标签。你不可抗拒更不能愚蠢去教唆你的 AI，将全班三十人的这六位长长学号相加起来做均值，这没有任何物理社会现象投射价值可言，完全是伪数据科学最典型的虚假膨胀计算灾变！",
+          "ttsFp": "7228ed95_229",
+          "srtCueIdx": 56,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 112,
+          "srcLEnd": 113
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但凡在这个社会体系存在明确、共识的顺位递进先后等第位置序列规约，统一定义作有序型阵列。但这里又硬划为两道绝对隔离的天堑：",
+          "ttsFp": "3153e199_60",
+          "srtCueIdx": 57,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Ordinal（序数型）**：它确实界定出了明显且不容破坏的长短长幼顺序，但是极度致命的是：它极其主观，且绝不会容忍你实施哪怕极其基础精确的一维距离等距度量运算差数比较。比如问及 T 恤的大中小版型。大家都明确知晓 L 总是压着 M 一头。但 L 版多出几个百分比针头布线，没有答案。又譬如你在影视打分里留下的点评三颗星或四颗星阶级划分，其中蕴藏的心路历程差距主观无比，不可等距对比强求算数代指。",
+          "ttsFp": "c8e2a03d_202",
+          "srtCueIdx": 58,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 127,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Quantitative（量化型）**：这不仅拥有至高无上的刻度支配权级，而且原生地赋予了前端组件执行任何形式高级加减乘除代数变换积分能力，且无论数据怎么做乘法降噪切割，都绝不会失真跑偏其物理本质指向的内核神韵。就如同一个人的身高从 180 厘米狠狠地暴降截断跌落至 160 厘米，其准确无误的落空差异就是确实存在切实的二十厘米长尺差值。它理所应当而且必须被高举作为主导纵深坐标轴点，去统御并绝对控制整盘图幅跨度网格线基准底网的最终宏大画布版图终局选择。",
+          "ttsFp": "c71aa1c1_231",
+          "srtCueIdx": 59,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 128,
+          "srcLEnd": 128
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "现在，所有同学请在脑海中虚拟全息展开提取出一份名为“全国百万级高校在校学生年度详细体测档案库”的超大千万级并行宽表。如果在坐的各位是负责清洗这张灾难级厚重数据图纸的最高权限数据架构师，请对我念出的每一列作灵魂级敲骨吸髓定性判断审判：\n第一座孤岛列：**全网唯一加密学号**。它是数字，并且长得极度规整。但在计算系统里，它能相加求全班学号均值吗？不能！它只是用来贴在各个学生额头防止报错查重的唯一标识防伪标签。显然，这是纯粹且无可置辩的 **Categorical（分类型）** 标签阵营！\n第二座高塔列：**肺活量极限吹气量测试绝对得分（精确到小数点后五位的50分满分制）**。它毫不留情地精确衡量了每一个个体肺部能够喷吐的极限气旋容量，50 分的猛汉比 25 分的体力就是要精准地翻足了整整一倍体积。因此不需要怀疑，这是不容篡改对抗绝对理性的 **Quantitative（量化型）** 神圣标杆！\n第三座阶梯列：**本年度体育期末评定综合评级称号颁发（分别为拔尖优秀、稳定良好、勉强及格、惨痛不及格）**。这四个长短各异的评级语汇词条之间，必然存在且维系着极其森严刺眼的高下晋升阶级序列之分阶梯。但即便最强大的 AI 也无法精准回答你，一个拔尖优秀到底比稳定良好究竟多出了几个精确数字点数的肌肉组织耐受力。因此，这是不折不扣饱含了社会人类学刻板偏见凝视的 **Ordinal（序数型）** 模糊评价界层！\n各位未来的数字空间建筑大师，这种犹如本能呼吸般瞬间条件反射爆发出来的层级底座定性审判本能反射能力，是在面对未知的混沌乱码深渊时，你不至于被粗糙无边际的大模型盲目狂飙运算骗出血、导致全盘图表毁约崩塌的最后、也是最为钢铁般坚固的一道认知铁幕防线阵地大坝！",
+          "ttsFp": "03237a76_730",
+          "srtCueIdx": 60,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 130,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "作为统治极点的量化型长廊度量标段，依其内在的侵略导向性张力动力源，又被划定对决在两个战局方阵体系之上：",
+          "ttsFp": "2832a4d9_51",
+          "srtCueIdx": 61,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 141,
+          "srcLEnd": 141
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Sequential（单向顺序型）**：这代表着数值只能在一维方向上无穷延展。它必须锁定一个绝对的起点位置，通常是零值冰点。在这之后，所有的数值演化都只沿着同一条轨迹攀升。例如自然界的树木年轮扩张，抑或是人类无法逆转的年龄增长。图表引擎最爱默认为此类数据调用色彩渐变柱状体系。",
+          "ttsFp": "9967b4cb_142",
+          "srtCueIdx": 62,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 150,
+          "srcLEnd": 150
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Diverging（撕裂发散型）**：它像是一柄双刃利剑。发散型数据的终极核心，是必须在坐标系中央定下方一道基准轴——也就是核心中位标点（**Mid-Point**）。数据的全部波澜，都会沿着这条光暗交界线向着两个极端猛烈延伸。在华尔街残酷的财报赌局图幅中，零轴之上爆发着黄金的耀眼盈利，而底端深潜的则是崩盘出血的赤字。红与蓝，在此针锋相对地交织撕裂。",
+          "ttsFp": "bd971e46_180",
+          "srtCueIdx": 63,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 152,
+          "srcLEnd": 152
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Cyclic（无休周期型）**：这是常常由于不在一条直线路径中前进，而被大量前端开发者意外忽略遗忘掉的特殊数字螺旋大河。周期型数据的迷人之处在于，当数值向无穷大攀升触及某个设定阈值峰顶极值后，系统并不会崩溃，而是如衔尾蛇一般平滑回转！它将天衣无缝地接驳到初始的原点起石碑那里，重新开启一轮神秘的时间轮回螺旋。时钟的 24 小时绝对轮回法阵，公历记录下的十二个月份无极循环，全是它的绝佳寄托宿主。",
+          "ttsFp": "5c616aea_201",
+          "srtCueIdx": 64,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 154,
+          "srcLEnd": 154
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "假设你错误地把“一天内的订单量”当成了枯燥顺序型数据。在半夜 23:59 跨向隔天 00:00 时，折线图会绝望地砸向零点谷底。一幅触目惊心的千尺断崖大跳水图景将生生出现在画布中央。这就是对属性流向特性的致命误断。这股洪流的归途，本该是被小心端放在极坐标系统下，或者是温暖封闭的圆弧环带中。让最放纵的顶端，完美丝滑地接合初始的零点，化为永恒循环。",
+          "ttsFp": "9c1d1ffe_173",
+          "srtCueIdx": 65,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 163,
+          "srcLEnd": 164
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "剖视完数值的类型体系，接下来必须决定这些数据阵列的终极物理指配归宿：确权。我们称呼这两大主神岗位叫做：寻址检索阵列主键（**Key**），与数值被装载展现的体量池（**Value**）。",
+          "ttsFp": "fe07ddfe_93",
+          "srtCueIdx": 66,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 168,
+          "srcLEnd": 168
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在开发控制台上，你必须签署下这无情且极其冰冷判决的一笔：它到底该担当去发坐标定标指北领地的冲锋兵头领（**Key**）？还是它只能作为一节被迫被塞满装载各种数值洪流度量斤两货重附庸容量仓库池水柜箱罐车（**Value**）？",
+          "ttsFp": "4af60a5d_112",
+          "srtCueIdx": 67,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 178,
+          "srcLEnd": 178
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "一个是定海神针铁钉。决定了我能在茫茫百万坐标表单星空汪洋里靠什么不可撼动、独一无二唯一的指纹来寻向摸寻锁定唯一的你。另一个则是回应召唤的深井阀门：当精确探针精准钻透那一片刻度地壳后，我将爆炸式解封并喷出展现它所拥有的磅礴重量数据海啸巨浪。",
+          "ttsFp": "58648eff_119",
+          "srtCueIdx": 68,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 179,
+          "srcLEnd": 179
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **唯一寻址定位信标列（Key）**：它的最高法则便是排他性的精确定点击穿式寻址大追踪！它就像潜底泥海最底层扎下的一束激光滑尺标记钉子。必须挑起那条杜绝全部克隆同伙与多胞胎影子克隆人的绝对唯一定位符防伪线之锁重任。只有诸如精确电子毫秒级打点唯一邮戳，员工特制终身大写标识序列号，这类大主轴宿命密码骨干才能承担起极其高危这不可饶恕被撼动的核心位置。",
+          "ttsFp": "e6054b6c_175",
+          "srtCueIdx": 69,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 181,
+          "srcLEnd": 181
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而，部分缺乏经验的架构师竟热衷于拿系统命门走钢丝。他们狂想把大颗粒、宽泛的分类选项字眼当作这座金库的核心钥匙。在设计选课系统时，如果妄图把“计算机学院”和“男生”这种含有上千人重合度的泛指属性当作主键去锁定唯一数据条目，那将是对架构最胆大包天的亵渎。",
+          "ttsFp": "c6efd38f_126",
+          "srtCueIdx": 70,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 190,
+          "srcLEnd": 190
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种极度宽泛的信息缺乏排他性。当绘图引擎尝试基于这种垃圾键位去渲染独立散点时，它会发现成百上千个生命被强制折叠在同一个坐标点上互相碾压。许多图表上出现莫名其妙的“空缺”或“数据黑洞”，罪魁祸首正是主键设计的崩塌。",
+          "ttsFp": "606385ce_106",
+          "srtCueIdx": 71,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 192,
+          "srcLEnd": 192
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那么，那些真正的顶级工程师主导打造出的正面且极端强悍的主键超级防线，又该作何不败铁血姿态？在军事级地理空间定位跟踪系统和超级航海空域全局坐标追踪雷达阵列网络之中，那种追求精确到极致且绝对不允许产生哪怕微秒级延迟误判的底层主键结构设计，堪称是一整部高度浓缩的人类现代工业防撞击规章结晶。所有的飞行轰炸光点行动运行轨迹线段，绝不、也绝对不可以去依赖“波音737型号”或者“飞往某大洲定点班机通称”这类随时可能在天空中发生大规模重叠互通同类项掩盖灾祸的极度泛用型废弃脆弱标签。",
+          "ttsFp": "80ddf21f_235",
+          "srtCueIdx": 72,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 194,
+          "srcLEnd": 194
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "支撑一整盘监控底座无边际死角的唯一核心钢铸钥匙，是那些绝对严厉而苛刻的、正不断实时疯狂跳动的动态空间经纬度双轴绝对坐标数字，再加上尾部死死咬住不放的已经精确切割直至极高频微秒级别的高纯度冷酷时间戳探测针芒戳记点印记。这种物理空间与线性时间三大绝命维度的全方位无死角多重焊死浇筑封固，在苍穹之上冷酷地编织铺开出了一张绝对滴水不漏的大型数据绝命捕捉网。当且仅当任何一个高规格商业图表监控前端渲染系统，选择将这些纯粹、干净且无可代底替代更不可能被篡改的底层冷峻物理坐标矩阵全部接纳认证为最高优先级的定位主键之后，哪怕此时此刻在这片模型中瞬时间极高密度涌入千万海量数据编队呼啸压境，中央屏幕上的所有实体数字标记红原光点，也将各自保持独立并拥有无可辩驳的自由空间席位界标，永远再无任何可能发生令人作呕的荒诞挤压碰壁甚至自相残杀崩坏吞并折叠覆灭惨剧剧本！",
+          "ttsFp": "68e768c1_371",
+          "srtCueIdx": 73,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 195,
+          "srcLEnd": 195
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "在这个任何数字和文本都在被无尽廉价一键复制粘贴翻制甚至大水漫灌制造数字垃圾的无边界赛博世界宇宙里，为了能够从根本架构物理底层上彻底终结那无休止的由于重名引发的“键值死锁重名血腥踩踏崩坏连环事故”，初代那些开辟网际拓荒的极客系统大架构师们，联手锻造打造出了一把用以对抗混乱数据熵增末日的终极大杀器武器定海神针——这就是万能唯一标识符（Universally Unique Identifier），即后端程序员必须时刻顶礼膜拜的 **UUID**。\n这种堪称神迹的数据类型列，它骨子里高冷到根本不屑于去依赖任何哪怕一丝一毫具体的常规生硬现实业务逻辑含义（比如姓名/学号/身份证条码）。它是直接深入指挑调取甚至强悍触及了主机底部极其隐秘绝对锁死无暇的物理网卡机器硬件唯一地址独立出厂源信标，然后再深入交汇融合进疯狂混合调配颠覆了服务器内那不断高速高频剧烈超绝震动震荡不歇的最底层极高微秒级别时钟晶振波动暗流能量。经过几道高深散列算法的极速加密狂乱裂变狂算洗涤轰炸炼制操作后，当场凭空生硬强造捏合成一段足足长达极其恐怖具备极其可怕视觉震荡威慑力、且外在结构看起来毫无半点文字组合规律仿佛犹如外星远洋极密天书密码般几乎永远都不可能被猜测破解和复原的 128 位超大无尽长度乱码核心指令序列段符串（例如 `550e8400-e29b-41d4-a716-446655440000`）。它的核心绝对唯一超维防碰撞极权排他性达到了令人目屏息胆寒并且深感绝望战栗的数学绝对恐怖天顶星境界。有顶级超级计算机应用统计学家曾极其肃穆地论述指出，哪怕就在全球云网并网互联且大超算规模疯狂膨胀导致此时现如今的整个业界甚至陷入到了一个每秒钟足可以夸张地如同超级巨舰流水线造车船板般疯狂大批量光速倾注喷射出十几个万亿个海量此类极度泛滥重负印记的史诗级极寒庞大巨无霸算力时代，在这般近乎发狂地数字造山拔地背景之下，即使残忍无情地跨越并把无休止无限的时间观察尺度强行无限倒逼拉长并死死紧盯不放经历历尽整整一列万年的一百个春秋轮回时间大长河长波极酷折磨极限冲刷无尽洗礼考验之后，全球库区内会发生两组毫无二致的完整相同序列编码正面惨烈对撞的系统级重伤重复车祸事件极限终极灾变微小概率依然也永远不过是停留在被无情摁在冰冷牢笼极底深渊里仅仅能苟延残喘不足并且只敢甚至远远低于一个绝不会过界的百万个百亿分之一微弱下探漂浮区间范畴！当最强硬、最绝对不能妥协发生一次失算误差的金融与世界大型医疗生命级特护监控重装超重型运转系统集群，发出了它绝对要求必须不可反驳获得绝对唯一必须无限制万无一失无懈可击无漏洞的极寒苛刻主键坐标锚定底座死锁防沉终极大定位深渊铁门终极指令权限震天咆哮吼声之时，它就是这颗寂寥星球上现有多维数据网络阵列里存留着的属于数字王国世界里那唯一一道光不可争辩、处于绝对免疫一切法力豁免放行通过甚乃至于在这个法则世界中都绝对无任何人以及程序胆敢无知或有意识地去提出质疑挑战阻拦查验的至尊无上超级防爆平叛止乱的唯一主大印信真神圣无暇庇佑护身符绝空不可逾越禁令铁令。",
+          "ttsFp": "c167739f_1263",
+          "srtCueIdx": 74,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 197,
+          "srcLEnd": 200
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "让我们从真实的计算机工程血泪史中提取教训。曾经有某高校开发了一套新生抢课的可视化统计大屏，意图通过散点图动态展示各个教学楼当前涌入的学生人数。最初的开发外包团队为了省事，错误地将“课程代码”（类似 CS101）与“学生选课时间戳”简单缝合，误以为这足以构成联合主键。\n灾难在开抢的那一刻降临了：系统底层的毫秒级记录仪精度严重不足，导致出现数百名学生在完全相同的同一毫秒内点击了“提交”按钮。在 D3.js 渲染引擎的严格视角中，这数百个活生生的独立学生数据，仅仅是因为主键（课程代码+残缺时间戳）完全一样，就被底层逻辑冷酷地判定为了“同一个实体的重复刷新”！\n结果是令人窒息的。大屏上原本应该爆发出的数百个代表生命力的亮色学生散点，瞬间坍塌合并成了一个极度刺目的、永远不会改变位置的死亡孤点。业务方惊恐地以为系统根本没有流量涌入。实际上却是底层的 Key 设计彻底崩溃，导致大量真实数据的实体存在，被图表引擎在内存网格中直接物理抹杀、合并销毁。这段惨痛的往事告诉我们：如果没有不可撼动的唯一指代信标 Key 作为防伪锚点，你画在屏幕上的任何美丽图形，都只不过是对真实世界数据荒诞的扭曲和掩埋罢了。只有真正尊重并确立绝对唯一的 Key，图表才能诚实地呼吸。\n[VISUAL]\n*   **Slide**: `S22_Key_Value_Traps`\n*   **Layout**: `Grid`\n*   **Scene**: 模拟一个系统发生的毁灭弹窗警报崩局死结绝境界面。\"Fatal Collapsed Conflict!\" 红色闪光闪电覆盖乱码断层。\n*   **Caption**: \"无知拿垃圾复用属性字做深锁核心阵列钢钉的下场，便是大内存崩坏被底核互相碾死倾轧。\"\n*   **Asset**: ![预览](../public/slides/S22_Key_Value_Traps.png)",
+          "ttsFp": "ff5e066a_790",
+          "srtCueIdx": 75,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 202,
+          "srcLEnd": 213
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "千万别妄想在投产系统上耍花招。拿“男/女”这种宽泛的性别字段去充当千人大榜的排列主轴？D3 引擎会瞬间发出内存告警。道理很简单：当上百条记录共用同一个 Key 值，渲染器只好把它们全部折叠压进同一个坐标槽。结果，上百个本该独立闪烁的数据点，被强行挤成一团无法辨认的死灰色块。你的可视化，就在这一刻宣告数据灭绝。",
+          "ttsFp": "8f3c3081_155",
+          "srtCueIdx": 76,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 215,
+          "srcLEnd": 215
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "听到这儿你可能会问：如果在巨型连锁商超的百万级交易底表里，单靠一列根本无法锁定唯一记录，该怎么办？\n答案是复合键，也就是 **Compound Keys**。它允许引擎同时抓取多个字段——比如把“交易时间戳”、“门店编号”和“收银终端号”三者焊接在一起，组成一把联合钥匙。这三个字段单独拿出来都有重复的可能，但拼在一起后，就构成了在全表中绝对唯一的定位信标。这就好比你的身份证号：省份代码、出生日期、顺称号，任何一段都不唯一，但组合起来就是全球唯一的你。",
+          "ttsFp": "81d89810_227",
+          "srtCueIdx": 77,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 217,
+          "srcLEnd": 219
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看清了什么是 **What**，我们还要挖掘其根源意图：客户绘制它的初衷幽暗心愿究竟何在？这导向下一模块中枢审判——洞悉它的动机：为什么要这么去做？这是属于 **Why** 深究领域的严查大任。",
+          "ttsFp": "dd84e4a6_97",
+          "srtCueIdx": 78,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M02_What_拆解数据的基因组.md",
+          "srcLStart": 221,
+          "srcLEnd": 221
+        }
+      ],
+      "firstSrtCueIdx": 30,
+      "budgetChars": 5000,
+      "oralCharCount": 8322,
+      "estimatedMinutes": 46.2,
+      "fillRatio": 1.66
+    },
+    {
+      "id": "mod-4",
+      "title": "模块 3: Why — 意图识别与重塑魔法 (35 分钟)",
+      "slides": [
+        {
+          "id": "S22b_The_Lost_Analyst",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一个被成千上万份完美标注了“分类、量化”属性的整洁数据表格包围的数据分析师，手握着顶级的可视化开发工具，却双眼空洞地望着屏幕，不知从何画起。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S22b_The_Lost_Analyst.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S22b_The_Lost_Analyst.png"
+          ],
+          "assetExpected": [
+            "public/slides/S22b_The_Lost_Analyst.png"
+          ],
+          "list": null,
+          "paragraphStart": 4
+        },
+        {
+          "id": "S23_The_Why_Intent_Funnel",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "人类意图翻译机。左侧是甲方拍脑袋提出的极其抽象的愿望：“我要在图里震撼地看清今年的所有动静”；这愿望犹如一道高能等离子束，打入一台标着“Why 意图分流引擎”的铁盒子中，右侧输出了极端冷静死寂的计算机交互执行动作指令。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S23_The_Why_Intent_Funnel.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S23_The_Why_Intent_Funnel.png"
+          ],
+          "assetExpected": [
+            "public/slides/S23_The_Why_Intent_Funnel.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "S26_Analyze_Layer",
+          "layout": "Grid",
+          "text": "",
+          "heading": "1. 第一过滤级行动判决：高维解析域，即 Analyze",
+          "scene": "三张面具。第一张：宣威者举着金牌大声夸耀；第二张：侦探在极度黑暗的洞窟内用放大镜搜索；第三张：游客带着耳机沉醉浅笑享受。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S26_Analyze_Layer.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S26_Analyze_Layer.png"
+          ],
+          "assetExpected": [
+            "public/slides/S26_Analyze_Layer.png"
+          ],
+          "list": [
+            "[\"宣示展示，即 Present：不容反驳的战果汇报\", \"幽暗发现，即 Discover：死守边界的可疑风暴捕猎\", \"消遣享受，即 Enjoy：零压力的情感共鸣赋予\"]"
+          ],
+          "paragraphStart": 8
+        },
+        {
+          "id": "S26b_Produce_Layer",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左半边是一双眼睛仅仅停留在观看屏幕上的消费数据（Consume）；右半边则是一只机械臂猛然伸出，在屏幕图海上重重盖下大红印章，并将其抽屉式归档（Produce）。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S26b_Produce_Layer.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S26b_Produce_Layer.png"
+          ],
+          "assetExpected": [
+            "public/slides/S26b_Produce_Layer.png"
+          ],
+          "list": null,
+          "paragraphStart": 20
+        },
+        {
+          "id": "S27_Search_Matrix",
+          "layout": "Flow",
+          "text": "",
+          "heading": "2. 第二过滤级行动判决：目标围猎寻址场，即 Search",
+          "scene": "目标极度明确/目标特征彻底模糊 vs 位置彻底洞悉/位置完完全全遗失 的二维象限地狱矩阵。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S27_Search_Matrix.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S27_Search_Matrix.png"
+          ],
+          "assetExpected": [
+            "public/slides/S27_Search_Matrix.png"
+          ],
+          "list": [
+            "[\"明确检索，即 Lookup：目标明确，坐标已知\", \"迷雾定位，即 Locate：目标明确，坐标丢失\", \"大浪淘金，即 Browse：目标模糊，锁定高地\", \"混沌乱猎，即 Explore：茫然无知，全域探测\"]"
+          ],
+          "paragraphStart": 23
+        },
+        {
+          "id": "S27b_Search_Interactions",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧：展现明确检索，即 Lookup 下的极简搜索框响应。右侧：展现混沌探索，即 Explore 下密密麻麻的框选、缩放、多重条件联动高亮组合技响应。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S27b_Search_Interactions.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S27b_Search_Interactions.png"
+          ],
+          "assetExpected": [
+            "public/slides/S27b_Search_Interactions.png"
+          ],
+          "list": null,
+          "paragraphStart": 28
+        },
+        {
+          "id": "S28_Query_Types",
+          "layout": "Grid",
+          "text": "",
+          "heading": "3. 第三过滤级落点裁决：单点行为审级，即 Query",
+          "scene": "一名探员不断切换眼镜视界距的操作：Identify (死死用极高倍放大镜聚焦烧灼一棵孤立野草)，Compare (瞳孔极限往复在两棵高树之间剧烈狂奔衡量极差)，Summarize (视距大幅后拉覆盖整片百万亩树林的星海)。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S28_Query_Types.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S28_Query_Types.png"
+          ],
+          "assetExpected": [
+            "public/slides/S28_Query_Types.png"
+          ],
+          "list": [
+            "[\"指认识别，即 Identify：全盘聚焦孤立点\", \"对抗比较，即 Compare：狂暴衡量悬殊鸿沟\", \"万象概览，即 Summarize：纵览全局大脉络走势\"]"
+          ],
+          "paragraphStart": 31
+        },
+        {
+          "id": "S28b_Derive_Concept",
+          "layout": "Split",
+          "text": "",
+          "heading": "4. 最被低估的战略级重器：派生创生界，即 Derive",
+          "scene": "左侧：一张包含“进口”和“出口”字段的基础数据表。右侧：一道强光闪过，两列数据碰撞后产生出一列全新的耀眼荧光绿数据柱——“贸易顺逆差”。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S28b_Derive_Concept.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S28b_Derive_Concept.png"
+          ],
+          "assetExpected": [
+            "public/slides/S28b_Derive_Concept.png"
+          ],
+          "list": null,
+          "paragraphStart": 38
+        },
+        {
+          "id": "S29_Funnel_Combined",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "三层巨大的铁制过滤重碾同轴相嵌、严密咬合运作，将高层的模糊愿望硬生生压片成了不可辩驳的计算机机械底层行动语言执行阵。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S29_Funnel_Combined.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S29_Funnel_Combined.png"
+          ],
+          "assetExpected": [
+            "public/slides/S29_Funnel_Combined.png"
+          ],
+          "list": null,
+          "paragraphStart": 42
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "[!NOTE] 核心标签回溯\n[task-abstraction-framework] [data-ethics] [anti-tech-hegemony] [hao-ch4-masterworks]",
+          "ttsFp": "6154ac36_100",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 3,
+          "srcLEnd": 4
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在上一模块极其烧脑的数据基因测序法庭上，我们历尽万般劫难，终于剥开了数据极其伪善的拟态表层，彻底看透了组成这座庞大冰山的数字基底——无论是分类、序数、量化的阶级属性鸿沟，还是被死死锁止的特定寻址主键与承载内容值的宿命分配机制。这便是 Munzner 数据抽象框架体系的第一斩击：**What**（明确数据特性的绝对本体界定）。进入第二层 `ch03-task-abstraction` 任务抽象领域，我们需要更深理解使用者的动力。",
+          "ttsFp": "d21c34da_215",
+          "srtCueIdx": 79,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 6,
+          "srcLEnd": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这远远不够。如果天真地以为只要查明了基因序列就能直接调用代码成功画图，那么你立刻会陷入另一场由于缺乏业务场景共情力而引发的空洞灾难。你画出的是一具毫无灵魂的数字骷髅，而不是一把能刺穿人类心智的利刃。",
+          "ttsFp": "3724b27d_100",
+          "srtCueIdx": 80,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 8,
+          "srcLEnd": 8
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "这个世界上最遥远的距离，不是大模型与底层代码的报错，而是“人类那充斥着隐喻、模糊与妄念的业务语言”与“计算机那犹如铁板一块、绝对理性的标量计算矩阵”之间的巨大鸿沟。大语言模型听不懂什么是“我要在图里震撼地看清今年的所有动静”，D3 绘图引擎也不在乎到底什么叫作“这批劣质退火材料的波动预警”。信息可视化架构师在这个狂飙突进的 AI 时代，其不可替代的核心身价，就是扮演那位能够身兼两界两域的终极“同声传译翻译官”！你必须极度冷酷地抽干甲方话语里的沸腾情绪水分，把那些千丝万缕的领域特定概念，降维、拆解、强行扭曲翻译成为这世界上唯独少数几种机器能够绝对理解执行的通用动词操作指令网关。",
+          "ttsFp": "ec5191bf_291",
+          "srtCueIdx": 81,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 10,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当你完美解构了一份包含两千万条全国电商交易流水记录的长表，你的代码技能随时待命。但问题是，你到底该将其渲染成一张极其震撼绚丽、宏大壮观、用于给投资人年度峰会展示炫耀的“宇宙级全国热力高亮分布图”？还是该将它切分为极度克制、满屏皆是致密交互下钻控件阀的“异常极速跌损退货预警侦测排查面板”？",
+          "ttsFp": "d9a20f41_144",
+          "srtCueIdx": 82,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这里彻底失去了计算机客观标尺的庇护。我们踏入了人类那深不见底的、极其主观且常常自相矛盾的需求欲望深渊。",
+          "ttsFp": "6e1f8c9f_51",
+          "srtCueIdx": 83,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是 Munzner 传授的第二大架构神技：基于 Why（底层意图解码驱动）的动作降维拆分法术。把那些毫无逻辑的业务废话，强效脱水逼迫压缩成计算机可以执行的三大行动分层逻辑指令网关：Analyze（高维动作解析）、Search（猎物寻址围捕模式）、以及 Query（观测反馈确认级）。任何庞杂混沌的客户诉求只要抛进这口巨大的高频压榨熔炉漏斗，都会被无情碾碎、剥离情绪，然后降维成系统底层的点击、拉伸、对比与缩放。这不但是过滤，更是对人类虚妄心智的一次绝对整形结构重铸风暴。只要你能熟练操纵这个漏斗引擎，你就能将所有感性的要求转化为理性的机器指令动作。",
+          "ttsFp": "7bbaa463_276",
+          "srtCueIdx": 84,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你在第一回合要搞清楚的首要生死边界：使用者在注视这面可视化大屏的时候，他当下的心流处于哪种捕获消费状态位阶？面对这既成的数据，他是去享用，还是去掘金，亦或创造？",
+          "ttsFp": "e0200759_80",
+          "srtCueIdx": 85,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Present（宣示展示）**：当你作为调查者已经毫无保留地探明了所有的底牌结果，确定了凶手是谁，此刻你唯一的目的，就是去向世界高调且无争议地宣告胜利。",
+          "ttsFp": "69e78b69_80",
+          "srtCueIdx": 86,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **设计制约法则**：此时的图表构建理念必须秉持一种不容置疑的“极致独断力”。图表界面应当像剃刀一样，无情地剔除掉任何可能引发观众游移、猜测、或者产生纷繁复杂交互探索欲望的干扰控件。图注警示数字必须要以极其清晰、且体量硕大的字重排布，死死烙印在整个视觉画布心智的最核心中央，甚至只允许单一且具最强吸睛冲击力的主色调留存。",
+          "ttsFp": "9dee8d68_162",
+          "srtCueIdx": 87,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   > [CASE STUDY] 纽约时报与《彭博商业周刊》的宣判式版面",
+          "ttsFp": "00497c38_36",
+          "srtCueIdx": 88,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "> 比如《纽约时报》在发布总统选举最终压倒性选票结果版面时，绝不会给你提供什么“放大缩小、滑动时间轴看历史选票”的拖沓交互组件。它只会用几乎占据了屏幕三分之二、刺目到极点的大面积猩红或深海蓝单一色块，配以大如脸盆的无衬线粗体数字，像法官落下的重锤一般给这场博弈盖棺定论。这就是 Present 意图的最高展现。",
+          "ttsFp": "8da192d4_155",
+          "srtCueIdx": 89,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Discover（幽暗发现）**：这里弥漫着求生绝境的战栗感。",
+          "ttsFp": "001b4860_35",
+          "srtCueIdx": 90,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 50,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **设计制约法则**：分析学者面对着刚刚脱敏下发的数百万条极度混杂留痕流水，犹如潜水员在深海强压盲区摸索。他们正试图极度敏锐地挖掘其内深藏不露的恶意潜伏规律。这种图表，绝不纵容哪怕一次异常峰值的漏网。画面必然充斥极度致密的预警图层。同时必须搭载海量深潜的无限互动切片与过滤控件组。",
+          "ttsFp": "e9609910_142",
+          "srtCueIdx": 91,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 51,
+          "srcLEnd": 51
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   > [CASE STUDY] 彭博金融数据终端（Bloomberg Terminal）的密集视场",
+          "ttsFp": "4c00fc0a_50",
+          "srtCueIdx": 92,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 52,
+          "srcLEnd": 52
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "> 为什么金融交易员的屏幕总是密密麻麻、如同黑客帝国般挤满了令人眼花缭乱的 K 线、散点和雷达网段，毫无留白甚至有些“丑陋”？因为他们的意图是 Discover！在这里，“极简主义美学”就是谋杀财富的毒药。交易员需要在一个无边的浩瀚画布上同屏榨取所有的微弱波动信号极差！一根微小但在多个并置图表中同时发生共振的极细红线，可能正是预示着下周千万级资本做空风暴的深海大地震初波！",
+          "ttsFp": "9e1e7f07_187",
+          "srtCueIdx": 93,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 53,
+          "srcLEnd": 53
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Enjoy（消遣享受）**：这里彻底舍弃了以上两者带有的强压强目的性的战斗血腥意味。",
+          "ttsFp": "f4fe031e_46",
+          "srtCueIdx": 94,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 55,
+          "srcLEnd": 55
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **设计制约法则**：这是放松神经的领地，设计师的职责不再是施加强压或深渊探灯，而是情感的抚慰羁绊。此时的可视化可以不择手段地大量引入高度柔化圆润的物理碰撞动效交互、平滑丝滑的曲线以及毫无攻击性的低反差柔和马卡龙渐变色阶包裹层。",
+          "ttsFp": "a8b90c50_116",
+          "srtCueIdx": 95,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 56,
+          "srcLEnd": 56
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   > [CASE STUDY] Spotify Wrapped 的年度沉浸时光长卷",
+          "ttsFp": "6a31818f_42",
+          "srtCueIdx": 96,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 57,
+          "srcLEnd": 57
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "> 每年年底刷爆朋友圈的 Spotify 或网易云年度听歌音乐总结。它将你全年的几十万行枯燥播放点触日志代码流水库，转化成了一卷带着宇宙星轨、伴随微小粒子炸裂动效的时光漫游沉浸长图。在这里，你不需要去找什么异常，不需要跟谁攀比，你只是戴着耳机划动屏幕，在这柔美的视觉与数据隐喻中感受岁月时光的流逝余温。",
+          "ttsFp": "e0a7e7c8_151",
+          "srtCueIdx": 97,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "除去上述三种“消费型（Consume）”动作体系，Analyze 层级还隐藏着另一套极具攻击性的“创生型（Produce）”矩阵分类：",
+          "ttsFp": "3bd1d426_67",
+          "srtCueIdx": 98,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Annotate & Record（确权标定与历史刻录）**：真正的分析闭环绝不仅仅止步于肉眼发现规律。当你在巨量网络簇丛中敏锐锁定了一个极微小的异常破局点群落时，你必须立即动用 Annotate（标注）组件，给它狠狠地打上鲜血般的警告标签圈禁地阵列，建立属于你的侦察确权阵地。随后紧接 Record（刻录）步骤，将这一瞬间极为珍贵的界面参数状态与图谱矩阵快照，强制永久打包装盒存入不可篡改的历史封印库中。这两套连环重击操作，真正将原本易逝的数字流星幻影，化为了团队协同攻坚中最为坚硬传承的实体情报炮弹。",
+          "ttsFp": "bd6f3c0b_256",
+          "srtCueIdx": 99,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "明确了心态之后，随之进入犹如深山狩猎般的物理坐标查探阶段。你要追猎的东西，你知晓它长什么样吗？你知道它在图纸上的具象出没点吗？",
+          "ttsFp": "fb595077_63",
+          "srtCueIdx": 100,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这四种寻猎情境，定义了你在构筑大屏时必须装配的交互密度大阵：",
+          "ttsFp": "daeb3b03_30",
+          "srtCueIdx": 101,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1.  **Lookup（明确检索）**：不仅极度清晰刺杀目标的外貌，更高维全盘掌握其物理阵脚坐标。极其类似在拼音黄页里毫无阻滞地翻找特定词条起始。在这个象限，UI 层面你甚至不需要复杂的交互视图库，**仅仅需要给用户弹出一个极为干练精简的“精准文字输入搜索框”**，让他直接通过键入身份证号或书名直达画面中心点基站！",
+          "ttsFp": "c27da0e3_158",
+          "srtCueIdx": 102,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 84,
+          "srcLEnd": 84
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2.  **Locate（迷雾定位）**：知晓射击目标的大名，但致命的是，彻底不知道它隐遁大图平面何方角落。在几千点密集交织的股市发散图海中，全凭人力耗费心血去追踪那一柱“阿里巴巴”所属的独有绿柱位置。针对此劫，你必须布置**高对比度的状态触发悬停高亮提示器 (Hover Highlight)** 或者是能让全局底色一瞬间黯淡灰置退局、唯独让那个搜索词组猎物阵列如星辰般在夜空中爆闪跃出的**条件着色过滤器**。",
+          "ttsFp": "e9fd538a_206",
+          "srtCueIdx": 103,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 85,
+          "srcLEnd": 85
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3.  **Browse（大浪淘金）**：内心茫然无确切指定目标悬赏，但依凭深厚战斗经验直觉行事。只要动用火力集中扫射图线上矗立的最巅峰高塔或者是色彩最深浓的红色谷底带，必能捞到有价值的大鱼。这就要求界面务必装载**平滑无极的缩放画布 (Semantic Zooming)** 和** 支持平移拖拽的抓手底版 (Pan/Drag Canvas)**，让老练猎手能像巡河雄鹰般在这无垠像素疆域任意盘旋扫荡。",
+          "ttsFp": "9fd1f5e0_201",
+          "srtCueIdx": 104,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4.  **Explore（混沌探索乱猎）**：处于蒙昧的太初黑暗中。既不曾知晓猎物属性，更彻底不知目标栖息地图的何处深渊。只有面对这种最高深度的深水区迷局探险，才能授权你搬出**套索多边几何框选阵列 (Lasso Selection)**，以及**多重仪表盘极限联动交叉过滤 (Cross-Filtering)** 这种超级重火力航母复合式交互组件网络。",
+          "ttsFp": "f5316968_177",
+          "srtCueIdx": 105,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 87,
+          "srcLEnd": 87
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "让我们的思维立刻进入一场无防护的实战判定：当你在极其枯燥疲惫的高铁旅途上，随手掏出手机打开微信朋友圈页面，指尖漫无目的地滑动着那个永远看不到尽头的卡片流。此时此刻你的大脑和手眼协同机制，到底处于上述矩阵中的哪一格？\n答案呼之欲出：这就是不折不扣、最具代表性的图文 **Browse（大浪淘金浏览模式）**！你不仅不知道下一条滑出的会是老同学的自拍还是微商的狂轰滥炸，你大概率连页面滑到了哪个精确的基岩物理刻度尺位置（坐标全无）也毫不在意。你完全是在凭着生物进化千万年沉淀下的对“奇特影像”、“暴红警告反色”、“极其长篇的吵架长文”等高频特征的经验直觉神经末梢，在这条瀑布流里去捞那极其微量能提供情绪多巴胺的多偶价值大鱼大瓜罢了！",
+          "ttsFp": "7a816bfe_314",
+          "srtCueIdx": 106,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 96,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "由于这四阶难度深浅彻底错位，在 UI 控件层面你的供弹逻辑决不能有丝毫同质化。面对 Explore 的混沌地狱，你必须端出套索框选、无限视界层递缩放的超级联动武器航母阵列，以应对极高频度的大海捞针扫荡；但面对 Lookup 这种已经知晓敌营底裤阵地的情境，强推上述繁重重火力组件，不过是杀鸡用牛刀般的累赘与智商侮辱。明确追踪矩阵坐标边界，是你避免交互过度架构设计的铁血压舱阀门。",
+          "ttsFp": "86f7e102_189",
+          "srtCueIdx": 107,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们不断收束漏斗，从主观愿景、寻猎坐标，最终收束到了那个视网膜真正凝视、鼠标指针真正点击微操的那个极其细微单粒子落点。",
+          "ttsFp": "0559ef14_59",
+          "srtCueIdx": 108,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 104,
+          "srcLEnd": 104
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这里，使用者的肉眼将只保留三种极限操作形态：",
+          "ttsFp": "ea502726_23",
+          "srtCueIdx": 109,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Identify（指认识别）**：将极其狭窄的准星死死收束到全局内仅有的一个特级被观察主干上。你悄悄悬停在一个孤城的散点上查询它的气温读数。",
+          "ttsFp": "96e7e810_74",
+          "srtCueIdx": 110,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 115,
+          "srcLEnd": 115
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Compare（对抗比较）**：视网膜极其狂暴并快速往复在多端阵营极速跳跃，残忍探底极深悬殊差距体量鸿沟。这种情况下并列放置对齐的柱形条要远压过去逼迫大脑估算两个圆环面积差那种花里胡哨的图形排布派系表现。",
+          "ttsFp": "a373ed07_106",
+          "srtCueIdx": 111,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **Summarize（万象归一概览）**：极其用力将全身后仰挣脱局域碎片牢笼，极限拉大视界域广角距扫视幅面，去鸟瞰一幅大星系离散阵图长河极宏大趋势定调底牌脉光流形貌。",
+          "ttsFp": "891c895f_86",
+          "srtCueIdx": 112,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 117,
+          "srcLEnd": 117
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "在这里，很多初学者会犯下极度致命的错误：把所有酷炫的交互组件不分青红皂白地全部堆砌上去。但根据 Tamara Munzner 的《Visualization Analysis and Design》核心指导原则，不同粒度的 Query 必须受到极度严格的 UI 节制：\n1. **Identify 的节制**：当用户的 Query 意图仅仅是指认识别某个极小点阵的读数时，哪怕你只给他加上零点五秒的渐隐动画，或是强迫他先框选再查看，都是在反人类。最高效的做法是**悬停即显（Hover-to-tooltip）**，让交互阻尼趋近于零。\n2. **Compare 的强链接**：当用户在 Compare 两个相隔甚远的柱图时。你绝对不能靠他自己的记忆力去人肉对抗。你必须动用**跨维高亮（Cross-Highlight）**组件。一旦他点击其中一根柱子，远端的那根对照必须强制性同步爆闪发亮！\n3. **Summarize 的空间让渡**：对于概览全局意图，任何干扰视线的小浮窗、任何微弱的鼠标悬停交互都是累赘。这里需要的只有**全局缩略小地图（Brush and Link）**，把最大面积的空间让渡给宏大的静态底图。不匹配的交互重火力，不仅榨干了浏览器的内存，更强暴了使用者的心智。",
+          "ttsFp": "2ddcaa6a_542",
+          "srtCueIdx": 113,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 119,
+          "srcLEnd": 124
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "当你在精心构筑这套极度深邃、从 Lookup 到 Explore 的交互操控漏斗时，请务必时刻保持清醒。当今硅谷的资本科技巨头们，总是极尽能事地在终端界面上，海量铺设最为极致丝滑、毫无摩擦力的“混沌探索深渊（Explore）”与“消遣沉浸流（Enjoy）”动效。\n这背后掩藏的，实则是一场精密算计到微秒的流量剥削阴谋。这就是最为骇人的“技术霸权凝视”！他们通过无底线的诱导滑动阻尼机制和瀑布流深网，去无穷无尽地诱骗你的心智。强迫你在发光的屏幕上多深陷哪怕零点一秒，从而极其贪婪地榨取全人类不可逆的专注力残渣。\n因此，你在布置交互闸门时，必须拥有反抗系统性凌霸的伦理界限底线心智：\n当用户处于极其明确目标寻迹的 Lookup 意图时，请立即大发慈悲地甩给他最粗暴干脆的纯文字输入框！绝不可以越权滥用那些繁复叠加的炫目深坑图表墙，去硬生生将他囚禁于你为炫技而编织的数据大迷宫之中。过度设计交互，就是对使用者智力和时间的谋杀。图形不等于图表，更不等于真相。只有最克制的交互，才体现了最高级的技术悲悯。",
+          "ttsFp": "459b4757_447",
+          "srtCueIdx": 114,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 126,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "刚才讲的 Analyze、Search、Query 都是面对既定数据做出的探测。但在 Munzner 这个意图漏斗的最偏僻角落，潜藏着一柄堪称信息可视化领域最具逆转威力的大杀器——派生（**Derive**）！",
+          "ttsFp": "d3dd1527_105",
+          "srtCueIdx": 115,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 136,
+          "srcLEnd": 136
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它的核心理念无比狂妄：永远不要仅仅只是画你拿到的那副底牌！如果原始数据画不出神韵，那你就应当像创世神一般，动用数学逻辑组合，在这堆原石中派生出原本不存在的全新高层次属性！直接抛弃旧图，画这新图！",
+          "ttsFp": "659b377c_97",
+          "srtCueIdx": 116,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 145,
+          "srcLEnd": 145
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "让我们立刻翻开这血淋淋的历史战报铁证。第一幕：如何呈现两个常年大宗进出贸易极富对抗摩擦超级大国横跨数十年的极其枯燥贸易货值角抵。如果由二等流庸手来做，他们只会极其死守本分地把“连年总进口额曲线”以及“总数出口额狂暴折线”并列死板画在这张图纸表里。但这种死结画法根本让人无法在毫秒间算出每隔一年的纠缠盈亏大底！而真正的派生大宗师是如何出手的？他们极为果决地在系统里直接暴力下达算算式衍生操作指令：“出口”狠狠减去“进口”！瞬间派生凭空缔造出一个这原始底稿表格上根本不存在的虚拟列——“极巨贸易顺逆净差额”。然后抛弃原稿，极其潇洒地直接渲染画出这条唯一纯粹的一根净差分大脉络曲线。瞬间，两国经济深战那此起彼落的绞杀跌宕胜负波峰巨谷，犹如被闪电劈开一般赤裸裸呈现无疑。\n第二幕更为悲壮。1869 年伟人大师 Charles Minard 徒手绘制了被公认为地球上最伟大的统计图之一——《拿破仑大军 1812 东征俄罗斯陨落图》。\n四十二万人的庞大军团，从法国浩荡出发。挺进莫斯科，再无尽惨烈撤回。沿途人数随气温一起暴跌溃灭。Minard 没有枯燥地罗列一张“村落折损花名册”式的数字大表。他做了一件天才的事：在地理路线图上，派生出了一条宽度随军团人数同步萎缩的流线带。\n出发时，这条金带极为宽广；横渡涅曼河后开始极度收缩；抵达莫斯科时已瘦骨嶙峋；撤退归来，仅剩一万人，线带几乎随极寒一同消失于茫茫纸面。这根随时间和空间变化无情改变粗细的骇人数据带，无声控诉着一场人道灾难。\n这就是派生的伟大力量。数据抽象绝对不是对残缺碎片的低头折腰。它是设计者手中最凌厉的武器——你有权创造原始图纸中不存在的生命体征维度，进而重塑历史。",
+          "ttsFp": "d5f03ab9_707",
+          "srtCueIdx": 117,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 147,
+          "srcLEnd": 157
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第四幕，降维镇压超大网络死结灾厄。面对含有恐怖如五十万个交叉节点的巨型毛线球盘根错节网络，哪怕是最顶级的超级计算机渲染出图，留在人类瞳孔中的也只会是一团极其恶心丑陋的黑色“毛线球（Hairball）”遮挡泥淖。面对这种视觉死局，高阶派生大师根本不想去硬刚这个数量级。他们从拓扑学的异度空间召唤出了绝秘的评价体系：斯特劳勒数（Strahler Number）。他们不画图，而是先算这五十万个节点的层级重要性权值。剥夺甚至无情抹杀掉那四十九万五千个无关痛痒的边缘树叶极细小弱节点，只留下区区五千个真正承载着整体架构生命命脉的核心粗壮主干。一瞬间，厚重的黑色泥沼退避三舍，一棵极其骨感且傲然挺立的神经晶格树之王被极其清晰地推到了视网膜前。这就叫派生过滤的残酷神权。\n\n第五幕：极地反转热力暗流。当你拿到一个海洋洋流或风洞测试的超巨型密集连续场基底时，如果你只会照本宣科地用颜色去映射基础流速值，那注定只能得到一张平庸且毫无生机的平坦渐变色卡。只有那些在流体力学中爬行过地狱的魔导师，才会调动数学工具逆向解构场强。他们通过极其极其剧烈的偏微分方程涡度裂变矩阵重铸法则，凭空生出旋度（Curl）、散度甚至焓等更加极致狂暴的派生属性变种。把这些二次魔改派生极值直接扔进渲染场，曾经平淡无奇的风场便瞬间幻化出了一万个微小气旋的狂暴星云阵列。在这片极其暴虐的派生深空视点中，你终于用肉眼生生抓握住了那些原点数据一辈子都无法窥探的隐秘结构宇宙法则力量。这就是最高维度 Derive 的降维碾压屠杀统治！",
+          "ttsFp": "85df0b14_641",
+          "srtCueIdx": 118,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 159,
+          "srcLEnd": 161
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "有些初学者总是将其与前端框架的单纯遍历映射甚至粗浅的 Excel 公式混为一谈。绝非如此。Derive 的核心并不在于代码实现有多困难，而在于这是数据架构师脑海中第一次主动介入数据的主权宣示！\n面对一份“进口与出口”大宽表，直接画出两条毫无交集的平行折线，是机械码农的低劣敷衍；而脑海中立刻闪过“这并不能揭示贸易战争的胜负本质”，从而立刻动用算式狂热推导出“顺逆差净额绝对值”并只画这一根净差红线，才是一位数据操盘大宗师具备的可怕商业嗅觉素养。Derive，永远是对死板原始数据集发起的一次极高智慧抗争。",
+          "ttsFp": "a6c6c638_252",
+          "srtCueIdx": 119,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 163,
+          "srcLEnd": 165
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "三个层级——Analyze（意图）、Search（坐标）、Query（落点）——彼此咬合、环环相扣，共同构成了将莫糊诉求转化为精确机器指令的解码网络。这不仅是可视化设计的框架，更是一种思维方式的训练：在你正式打开任何代码编辑器之前，先在这张三级漏斗里走完一整圈。当你能清晰说出\"这是一个 Present 意图下的 Locate 场景，用户的 Query 是 Compare\"，你就已经完成了设计中最有价值的工作。剩下的色彩、布局、交互，不过是这个决策的自然延伸。缺少了意图定位框架，再华丽的图表也只是黑暗中射出的一支随机之箭；而有了它，每一根像素的落地都将有据可依。",
+          "ttsFp": "29803cd4_283",
+          "srtCueIdx": 120,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 174,
+          "srcLEnd": 174
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "Munzner 的 Why 框架最深刻之处，在于它逼迫你问出一个最朴素也最难回答的问题：**「用户来这里是为了做什么？」**。从 Analyze 到 Query 的三级漏斗，本质上是把每一个主观的人类愿望，都翻译成了客观的、可执行的信号术语。这是连接数据与人类智慧的最后一公里。学会了这套语言，你就拥有了与任何甲方、工程师以及 AI，平等对话的共同词汇表——无论行业、无论领域。",
+          "ttsFp": "80312eb3_189",
+          "srtCueIdx": 121,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 176,
+          "srcLEnd": 177
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "将这天马行空的三重行动意愿漏斗层严丝合缝地深套重卡嵌套合并合拢后，我们就彻底完成了数据意图界定战场的极终兵棋推演！你获取了把极其散漫、矛盾甲方需求，无情强制硬性转译解体拼装落定为纯净透明的“高交互高亮过滤选择点选”与“高级数值派生提纯”等底层机器代码组件块阵的逆天权杖。",
+          "ttsFp": "ee9c1848_135",
+          "srtCueIdx": 122,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 179,
+          "srcLEnd": 179
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但光有对底层物质粒子的洞察（What），光有高屋建瓴的读心理想（Why），依旧救不活一个充满泥淖绝望深井的项目大坑。我们最后极度欠缺乃至极其渴求的，是那套能彻底荡平表格垃圾乱象、让污泥浊水瞬间清澈化作可用活水晶源的极其强横硬核的行动纲领深层数据血肉淬火重铸大一统神谕。",
+          "ttsFp": "2ca3852d_134",
+          "srtCueIdx": 123,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 181,
+          "srcLEnd": 181
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "全体肃立。随我拔剑，毅然跨入本堂大课最终且最致命的终极决胜战场最后一模块领域：Tidy Data 整洁数据清洗极刑大炼狱考卷篇。",
+          "ttsFp": "bc2e6628_64",
+          "srtCueIdx": 124,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M03_Why_意图识别与重塑魔法.md",
+          "srcLStart": 183,
+          "srcLEnd": 183
+        }
+      ],
+      "firstSrtCueIdx": 79,
+      "budgetChars": 4000,
+      "oralCharCount": 6341,
+      "estimatedMinutes": 35.2,
+      "fillRatio": 1.59
+    },
+    {
+      "id": "mod-5",
+      "title": "模块 4: 驯服混沌——Tidy Data 的真理之眼 (30 分钟)",
+      "slides": [
+        {
+          "id": "S30_The_Real_World_Swamp",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "一名全副武装的骑士（数据架构师）拿着一把闪耀着蓝光的利刃（Tidy Data 原则），面对着一头由无数合并单元格、错茬表头、空值和混合统计大计缝合而成的丑陋多头数据粘液怪兽。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S30_The_Real_World_Swamp.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S30_The_Real_World_Swamp.png"
+          ],
+          "assetExpected": [
+            "public/slides/S30_The_Real_World_Swamp.png"
+          ],
+          "list": null,
+          "paragraphStart": 2
+        },
+        {
+          "id": "S31_The_Monstrous_Wide_Table",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "一张极其典型、令人作呕的层级透视总表（大宽表）。顶部有足足三层合并表头，横跨数界年份与季度。行则混合了省份、总计数值以及不知所谓的标注星号。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S31_The_Monstrous_Wide_Table.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S31_The_Monstrous_Wide_Table.png"
+          ],
+          "assetExpected": [
+            "public/slides/S31_The_Monstrous_Wide_Table.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "S32_The_Engine_Jam",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左半边是那张宽表被倒入了精密程序的处理漏斗中；右半边是齿轮卡死断裂爆火的画面，AI 在无助地弹窗报警 “Error: Multiple variable instances per record layout found.”",
+          "image": "weeks/W03_Data_Literacy/public/slides/S32_The_Engine_Jam.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S32_The_Engine_Jam.png"
+          ],
+          "assetExpected": [
+            "public/slides/S32_The_Engine_Jam.png"
+          ],
+          "list": null,
+          "paragraphStart": 7
+        },
+        {
+          "id": "S33_Enter_Hadley_Wickham",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "一本厚重古典文献书籍翻开，书页散发神圣光芒。书页上印着 “Tidy Data” ，旁边的引言属名：Hadley Wickham。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S33_Enter_Hadley_Wickham.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S33_Enter_Hadley_Wickham.png"
+          ],
+          "assetExpected": [
+            "public/slides/S33_Enter_Hadley_Wickham.png"
+          ],
+          "list": null,
+          "paragraphStart": 10
+        },
+        {
+          "id": "S34_Tidy_Data_Principles",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "三架极度标准化的高压模具冲压床，正在将形状极其怪异扭曲的宽表铁块逐步强硬冲压敲打成极简瘦长的纯净直列标准钢轨长条。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S34_Tidy_Data_Principles.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S34_Tidy_Data_Principles.png"
+          ],
+          "assetExpected": [
+            "public/slides/S34_Tidy_Data_Principles.png"
+          ],
+          "list": [
+            "[\"每列独占变量，即 Variable as Column\", \"每行独立观测，即 Observation as Row\", \"单表单一单元，即 Unit as Table\"]"
+          ],
+          "paragraphStart": 11
+        },
+        {
+          "id": "S33b_Anti_Pattern_Visual",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左图：极度扭曲恶鬼般的脏数据宽表盘桓扭曲在屏幕中；右图：经过重锤锻打后的一条根根分明、极度平整的 Tidy Data 钢化条列。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S33b_Anti_Pattern_Visual.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S33b_Anti_Pattern_Visual.png"
+          ],
+          "assetExpected": [
+            "public/slides/S33b_Anti_Pattern_Visual.png"
+          ],
+          "list": null,
+          "paragraphStart": 16
+        },
+        {
+          "id": "S35_The_Pivot_Longer_Spell",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "演示史诗级的矩阵转换：原有的数十个跨度年份列的表头瞬间坍塌瓦解融化，即 Melt，向下如瀑布般疯狂流淌跌落凝聚压缩成名为“时间属性”的单一窄列，与之对应的宽阔体量数据群随之被极度延展拉伸成不见底的长河阵列。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S35_The_Pivot_Longer_Spell.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S35_The_Pivot_Longer_Spell.png"
+          ],
+          "assetExpected": [
+            "public/slides/S35_The_Pivot_Longer_Spell.png"
+          ],
+          "list": null,
+          "paragraphStart": 19
+        },
+        {
+          "id": "S35c_Tidy_Before_After",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "将同一份 10 年统计文件分别放入渲染器：左侧宽表状态引发全盘警报和数据黑洞；右侧长表被极度丝滑吞入，立刻吐出一张极其耀眼的彩色多线条折线序列图。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S35c_Tidy_Before_After.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S35c_Tidy_Before_After.png"
+          ],
+          "assetExpected": [
+            "public/slides/S35c_Tidy_Before_After.png"
+          ],
+          "list": null,
+          "paragraphStart": 21
+        },
+        {
+          "id": "S35b_Data_Binding_Loop",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "D3 Data Binding 引擎工作示意图。一个名为 `.data(longData).enter().append('circle')` 的机械夹爪，每次抓起一行只含单一变量的纯净长数据行，精准无误地在画布上烙印出一个闪光数据散点，循环往复毫不卡滞。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S35b_Data_Binding_Loop.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S35b_Data_Binding_Loop.png"
+          ],
+          "assetExpected": [
+            "public/slides/S35b_Data_Binding_Loop.png"
+          ],
+          "list": null,
+          "paragraphStart": 24
+        },
+        {
+          "id": "S36_The_AI_Sigh_Of_Relief",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "之前那个处于宕机卡死边缘的 AI 大脑，一旦接管读取到这份纯净瘦长的 Tidy 长表格结构体，瞬间通体发散出舒畅通达的蓝光光晕，秒速毫无阻滞地渲染出了一幅层次分明逻辑自恰的绝美复杂多维散点阵列名画幅。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S36_The_AI_Sigh_Of_Relief.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S36_The_AI_Sigh_Of_Relief.png"
+          ],
+          "assetExpected": [
+            "public/slides/S36_The_AI_Sigh_Of_Relief.png"
+          ],
+          "list": null,
+          "paragraphStart": 25
+        },
+        {
+          "id": "S10_AI_Clean_Prompt",
+          "layout": "Split",
+          "text": "清洗 Prompt 三要素：Context, Shape, Constraints",
+          "heading": "",
+          "scene": "剖析一个具有极高稳定性的清洗 Prompt 的金字塔三结构。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S10_AI_Clean_Prompt.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S10_AI_Clean_Prompt.png"
+          ],
+          "assetExpected": [
+            "public/slides/S10_AI_Clean_Prompt.png"
+          ],
+          "list": null,
+          "paragraphStart": 32
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "[!NOTE] 核心标签回溯\n[tidy-data-ai-workflow] [data-abstraction-taxonomy] [data-ethics]",
+          "ttsFp": "b182ea3d_80",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 3,
+          "srcLEnd": 4
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在前三个模块里，我们完成了一场大脑层面的数据心智重塑。但是，仅仅在脑海中完成数据抽象与任务拆解是不够的。现在我们要直面最血淋淋的现实地狱：如何在不改变源端系统底座的情况下，强行降伏并重铸那些反人类的可怕野生表格。这也是连接理论概念与实战落地最关键的一座桥梁。",
+          "ttsFp": "a40fdfb9_129",
+          "srtCueIdx": 125,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 6,
+          "srcLEnd": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "各位未来的数据操盘手，请闭上眼睛，狠狠回想一下你从政府开放网站，或是从公司内部那些跑着十年老旧代码的财务统揽 企业资源计划系统，也就是 **ERP** 系统里拿到过的第一手数据历史沉淀包袱总表。",
+          "ttsFp": "9e9a186b_97",
+          "srtCueIdx": 126,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "理论模型在那里显得如此可笑且苍白无力。你必须亲手披挂上阵，举起结构化的真理之剑，在这个充满着极其反人类的错位跨行合并单元格、杂糅着无限嵌套错茬表头的混乱无底泥沼里，一寸一寸地撕开厚重的业务迷雾，亲自肢解那头可怕的多头聚合数据粘液怪兽，逼迫它吐出最干净的骨架维度来呈供大模型处理。",
+          "ttsFp": "704a44c6_139",
+          "srtCueIdx": 127,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "每一个初入职场的数据分析师都经历过这地狱般的一幕：当你极其兴奋地打开业务部门发来的名为《集团三季度绝对核心战报汇总.xlsx》时，你的瞳孔瞬间地震。你看到的不是冰冷清澈的数据矩阵，而是一张被人精心画成了“艺术品”的财务迷宫大宽图！\n第一行是极其硕大华丽的居中大标题，第二行合并了七个格子写着“华东区”，下面再细分“浙江、江苏、总计”；而左侧行栏的表头甚至出现了“年度”与“环比增减幅”的诡异折叠！表格深处甚至还极其荒唐地用浅黄底色和深红加粗字体来表达“需要重查”的隐秘信息，却连半个批注说明都没有！\n当你颤抖着手把这份“艺术品”强行喂进哪怕全人类最顶级的 Claude 3.5 Sonnet 模型口中时，模型也会惨叫宕机，因为它根本不知道那一列既融合了年份，又融合了地区，还带着背景色数据的字符串到底算什么神仙属性。这就是我们真实面对的、令人作呕的 World Swamp（现实泥沼）。",
+          "ttsFp": "38c019bc_393",
+          "srtCueIdx": 128,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 18,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大部分人在工作中最习惯使用、潜意识认为理所当然的，就是这种横纵交织、自带美观排版与强力聚合展示效果的大宽表，也就是 **Wide Data**。例如，横向的列不仅标示着 \"2020\", \"2021\", \"2022\" 等年份岁月刻度，还疯狂地将 \"人口\"、\"GDP\"、\"增幅\" 等迥异指标交织平铺组合在一起。由于大一统的阅读视角，这种宽表极大迎合了人类那一眼万年的宏大总览快感。",
+          "ttsFp": "6f21783e_188",
+          "srtCueIdx": 129,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这正是数据科学中最大的毒药！如果你胆敢不经处理就把这种杂冗表丢给 AI 或者商业智能分析工具，也就是 **BI** 工具，这就好比你将一台构造精密的喷气式航发引擎强行塞进全是泥沙木屑的沼泽燃料。毫无疑问，等待你的绝对是毁灭性宕机。",
+          "ttsFp": "a6f3eb92_116",
+          "srtCueIdx": 130,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大宽表之所以极度邪恶并被底层系统视作癌细胞，在于它严重违反了关系型代数的单向单一维度流铁血理论。在计算机处理器或者标准结构化查询语言，也就是 **SQL** 查询机的心智眼里，“2020年”和“2021年”并不是两个截然不同、风马牛不相及的神奇平行物理宇宙，它们只属于同一个名为“核心时间切片变量，也就是 **Year**”主干下的两个平平无奇的子级属性切片节点。",
+          "ttsFp": "e5bb6eb5_182",
+          "srtCueIdx": 131,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而，宽表却荒谬越权地将属于同一个血缘变量的不同具体时间切片值，硬生生扯断拆分成了数百个极其高高在上的一级平权列头矩阵护卫。这就使得程序永远无法执行哪怕最基础的一键聚合交叉查统计——因为它在列头上迷失了方向，根本找不到全盘统一收口的那个标准刻度发条阀门。",
+          "ttsFp": "3a0c76f7_127",
+          "srtCueIdx": 132,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "为什么 Python 数据科学生态中的 Pandas 引擎对大宽表深恶痛绝？\n假设你有一份全国居民 10 年来的每日体温监测表。如果你按“宽表”格式，把十年的每一天作为横向超展开的 3650 个列头记录下来（例如列名是 `2020-01-01`, `2020-01-02`），这就等于同时强行命令 Pandas 在极珍贵的 DataFrame 处理池里挂载注册并维护 3650 个截然独立的内存数据系列（Series）句柄。\n每当你哪怕只想极其简单地算一个跨月均值，底层 C++ 引擎都要在成千上万个相互独立且散乱的列指针之间疲于奔命地跳转寻址。不到几毫秒，这种极低效的横向跳读就会彻底抽干原本雄厚的内存堆栈，爆出惨烈的 `MemoryError` 甚至直接强行杀掉内核（Kernel Died）。宽表的本质，就是对现代列式数据库存储原理的一场赤裸裸的挑衅与凌辱！",
+          "ttsFp": "d689e10b_382",
+          "srtCueIdx": 133,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 44,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了斩断长久以来的纠葛混乱，将千疮百孔的野生网路强压成大模型乃至任何统计模块都能零歧义解析的统一神圣底牌，数据科学先驱 Hadley Wickham 提出了名震天下的整洁数据理念，也就是 **Tidy Data**。他以无可辩驳的强硬口吻，定死了所有高维数据流向画纸前的极简重铸规范门槛。",
+          "ttsFp": "28ac314c_144",
+          "srtCueIdx": 134,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 56,
+          "srcLEnd": 56
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "不管你拿到的宽表长成多奇怪变异的肿瘤异状，要想顺利通晓可视化的神谕之路并且活下来，这份数据就必须被强行打入这个极其残忍断骨的三个铁血模子重新铸就：",
+          "ttsFp": "cee12e29_73",
+          "srtCueIdx": 135,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1.  **每一个变量，独立成且仅成一单独笔直列**（Variable as Column）：无论是国家、年份、品类还是利润值，绝不允许任何两方混杂同居合租在一个列槽口里。",
+          "ttsFp": "c3d6c95c_85",
+          "srtCueIdx": 136,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2.  **每一个观测实体记录，独立成唯一的平铺行**（Observation as Row）：中国上海市在2022年的第一季度钢铁产量记录，它必须拥有绝对独立完整的一段长线命理阵组合。",
+          "ttsFp": "a8e1edf8_92",
+          "srtCueIdx": 137,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3.  **每一个类型的数据观测单元，单独存成一张干净表**（Unit as Table）：严禁把汽车销量走势图数字和月球表面陨石坑直径物理参数图谱强行杂揉杂交在一张物理 Excel Sheet 汪洋里同框展现。",
+          "ttsFp": "b2580c47_105",
+          "srtCueIdx": 138,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "Wickham 教授之所以伟大，是因为他穷尽一生精力抓住了深渊中的这五头最常见、也最害人不浅的数据污染“异鬼”（Anti-patterns），也就是你拿到原始档时必须警惕斩杀的五个毒蘑菇：\n1.  **列头竟然是值，而不是变量名**：比如列名叫 `15-25岁` 和 `25-45岁`，这绝不该是列名，它们只是被隐藏的真神变量 `Age` 旗下的具体取值！\n2.  **一个列槽里竟然硬塞了两个变量**：比如有个列叫 `Male_TB`，硬是把性别和疾病种类通过下划线强行嫁接捆绑成了四不像双头怪，必须毫不留情地切开拆为两列！\n3.  **变量不知羞耻地同时寄生在行和列里**：行标写最小气温，列标写具体天数，这是矩阵代数灾难！\n4.  **在同一张表里藏污纳垢放了不同观测粒度的数据**：行 1-10 记录的是每日详细销售单，第 11 行冷不丁冒出一条跨年度“全年国家级总计汇总”行，这完全破坏了粒度平权系统。\n5.  **同一个观测单元被极其破碎地分布在多张表里**：2010 年数据存一个文件，2011 年存另一个文件，让你在渲染连贯折线时不得不发疯地手动拼接补缸缝合缝隙。\n牢牢盯死这五头恶鬼，一旦在原始文档中捕捉到它们的踪迹，立刻启动 Tidy 级净化！",
+          "ttsFp": "2ec3667c_527",
+          "srtCueIdx": 139,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 71,
+          "srcLEnd": 79
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "要驱逐这些异鬼，在没有任何代码基础的时代，你只能被迫在粗糙软件里生不如死地使用无穷尽的手工复制粘贴甚至手写复杂宏去人肉缝合洗刷。但现在，有了大语言模型，这一切完全被颠覆了。你不再是搬砖苦工，你是指挥最高算力魔法引擎作战的数据架构先知。但前提是，你必须绝对严谨地掌握“结构化 Prompt 咒语”的三段式炼金释放铁律。",
+          "ttsFp": "87f7182a_158",
+          "srtCueIdx": 140,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "假设你拿到了一份含有极其恶心“中文多年份合并巨大跨列表头”的省市十年统计宽表废墟，正确的狩猎过程绝非一句毫无灵魂的“帮我洗一下”。\n第一轮降临打击：“这是一份 2010-2020 年含合并单元格的省份 GDP 宽表。请将其彻底折叠为 CSV 长表，强硬切分成 Year, Province, GDP 三列。”这道精纯的指令，瞬间让 AI 端正身姿，明确理解了你的目标 Tidy 形状。\n第二轮精密微调：“很好，但我发现输出的 Year 带有‘年’字后缀。请追加约束条件：清洗年份列只保留数字前缀；去除带有‘总计’字样污染的统计干扰行，仅保留最底层省市级实质实体量化点。”\n第三轮终极验收入库：“完美。现在以无任何截断的 raw 字符串格式强压流出压出。”\n面对极其浑浊的垃圾填埋区，只有用这种夹杂着坚硬物理属性术语（长表、CSV、三列、总计排除）的精确步步紧逼三段审问，大模型才会被逼迫收起散漫的瞎脑补能力，彻底沦为你手下最无可挑剔的数据黄金重构炼金剥离车间工厂。",
+          "ttsFp": "f2a49a3a_432",
+          "srtCueIdx": 141,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 90,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这个极为严苛的神圣审判标准下，原本文本框合并满天飞的横向霸占整个屏幕领域的超大宽阵总表，会被机器极其无情地横刀斩断，然后犹如面团般被强烈纵向下扯拉伸粉碎，重铸为一张列数被极限裁员极少、行数却疯狂呈几何万倍级数向着地壳深渊海量暴涨的极度致密长表序列，也就是传说中无坚不摧的 **Long Data（长整洁格式数据）**。",
+          "ttsFp": "9f796f4b_160",
+          "srtCueIdx": 142,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 99,
+          "srcLEnd": 99
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "数据界称这一壮举为 Pivot Longer，也就是宽表折叠转长。它的本质是一场剧烈维度的置换：用行数的纵向暴增，去强硬抵消抹平列数的横向虚张声势。原本占据数十列的庞大年份表头，统统坍塌融化，被逼迫向下流淌凝聚成一柱名为“年份”的窄列。经过这道犹如炼狱打铁的高压捶打，所有的字段列头只剩纯粹的单一属性，再无杂质蔓延。由此诞生的简练长表血肉，将成为大模型的最优口齿口粮，终结所有因庞大格式而爆发的歧义恶疾。",
+          "ttsFp": "ba665855_202",
+          "srtCueIdx": 143,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 108,
+          "srcLEnd": 108
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "为什么 D3.js 和 ECharts 等工业级图表库，极其严酷地只接受这种反人类阅读的的长整洁格式数据 (Long Data)？\n请想象机器绘制图表时的底层轮询绑定（Data Binding）逻辑：当引擎被命令绘制一张包含 50 个国家、跨越 10 年的变迁图形时，它真正在执行的，是一个极其机械化的遍历动作。如果强行喂一张杂糅宽表，当高速代码扫到第一行（平铺着 10 个年份的数据点）时，机器内存就会遭遇灾难——这一行究竟该揉捏成 1 个畸形球体，还是勉强劈裂成 10 个散点？脆弱的刻度尺映射（Scale）将因为列宽自身的多重性而瞬间撕扯崩溃。",
+          "ttsFp": "dc45b8ce_275",
+          "srtCueIdx": 144,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 110,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "进一步深挖至底层骨架血脉，你会发现这种强迫性症结并不仅仅停留在绘图前端。整座现代数字技术大厦的根基底盘——包括统治着海量数据吞吐生死的极核数据库大主脑 ，标准的结构化查询语言也就是 **SQL** 查询引擎库——对纯粹的长表都有着如同病态般的绝对嗜好偏执。在 SQL 的重型火炮系统眼中，不管是一年还是一百年跨度，只要全部时间切片都被老老实实折叠且乖巧地塞入唯一那根名为“Year”长条窄柱形槽口管线维度内，它一记极度简单的 `GROUP BY` 或求和聚合指令加特林猛烈扫射，就能在一瞬间且在极端的毫秒微秒微服极差间，无情跨越扫平并狠狠绝对碾压求出成千上万个跨越不同年份宏大周期的聚合总和。这展现的正是 `ch13-reduce` 理念中关于数据项聚合与降维的核心操作精髓。",
+          "ttsFp": "47ee5944_338",
+          "srtCueIdx": 145,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这既不是某种临时巧合，更绝不是工程师的妥协让步计算。这是因为从最低阶硅基半导体逻辑电路图的汇编死板寻址指令，再直通直到最顶层的数据交互极致呈现艺术，整条主算力大江大河全权秩序数据链，天生并天然就只对缝接纳并且绝对臣服屈从于一维无间断单向延伸、血统无比纯正的单一结构维度阵列！这就是为什么作为能够操纵这些死物的新神明，你必须铁面无私坚守断臂残暴级地强迫并命令全宇宙的所有变种乱局结构数据，全部严格强制重折重叠并入归于到完全被 Tidy Data 锁死的这条钢铁强压模子主架构大河正道航线之中。",
+          "ttsFp": "649efafa_245",
+          "srtCueIdx": 146,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 123,
+          "srcLEnd": 123
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**Tidy Data 是一份写给未来自己的承诺**。今天多花五分钟将宽表折叠成长表，明天的可视化引擎和 AI 模型就能为你少走十个弯路。这种不被眼前便捷所诱惑、坚持以机器可读性为最高设计原则的数据素养，正是区分数据操作者与数据架构师的那道分水岭。格式不是技术细节，是你向所有下游工具传递的第一道、也是最关键的一道设计决策信号。",
+          "ttsFp": "db1f96a8_164",
+          "srtCueIdx": 147,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 125,
+          "srcLEnd": 125
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但是，如果丢进显存的是只有 4 单列死板数据的长表（国家、年份、品类、数值隔绝分明），哪怕总体行数暴涨到了 5 万行，机器每次高频读取摄入的却是一个绝对单一不可分割的观测原子单元！它只需闭着眼睛毫秒级机械化地抽取 X/Y 坐标，5 万个气泡粒子流就会极其平滑地喷放映射在画布上。机器运算集群从不害怕海量行数，它唯一惧怕的，是人脑杂糅导致的列属性逻辑维度的杂交错乱。长表，便是通往可视化终极渲染霸权的唯一门扉。",
+          "ttsFp": "fe69eb3c_204",
+          "srtCueIdx": 148,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 134,
+          "srcLEnd": 134
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "回望起点，当你将这份历尽重铸淬炼后的极精纯标准长表递交到大模型手中时，一切的卡顿、谬误、纬度坍陷惨案均会烟消云散。因为你提前替它铺平了认知底座架构！机器便能奔放无阻地调用 CPU 线程池，去专注开展它的宏图渲染本职。",
+          "ttsFp": "014243da_108",
+          "srtCueIdx": 149,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 143,
+          "srcLEnd": 143
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这也是我们在数据可视化长河里教授给诸位的终极奥义底牌：不要迷恋在最后一英里的表层皮囊颜色图徽涂脂抹粉。真正决定生死成败巅峰高度功底的核心内功，永远在第一公里开端的底层维度架构破译重组洗骨换血大阵列里。你必须深处脏污混沌之地，以极强硬铁腕之姿亲自掌舵降维熔炼驯服。",
+          "ttsFp": "bff969b8_131",
+          "srtCueIdx": 150,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 145,
+          "srcLEnd": 145
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这周的硬核底层理论基石大盘即将彻底收官。但在正式放逐你们踏入深坑实战战场之前，我们必须强行挂载掌握最后一项绝杀级核威慑指令投喂应用技术战术——即自然语言数据大表清理炼金术防线。",
+          "ttsFp": "4cc8db0d_88",
+          "srtCueIdx": 151,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 147,
+          "srcLEnd": 147
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是将 Munzner 的多维层递抽象哲学，与 Tidy Data 大清洗法则完美粘合的终极决战！它是我们将理论投入最终火力落地的收尾阀门！",
+          "ttsFp": "c9af9b7b_70",
+          "srtCueIdx": 152,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 148,
+          "srcLEnd": 148
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在向当今这个星球上最顶配的巨型 AI 大语言模型（如 ChatGPT O1 星系大阵或是顶配 Claude 3.5 Sonnet 模型）下达底层数据重塑改写要求时，绝大多数门外汉架构师写出来的 Prompt 乞求信指令只会极其敷衍干瘪地写下一句：\"求你帮我清理一下这坨恶心的乱码和合并单元格\"。",
+          "ttsFp": "86f4ca1e_147",
+          "srtCueIdx": 153,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 150,
+          "srcLEnd": 150
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种放养式指令的回复率和成功存活率绝对是极其惨不忍睹的修罗场。AI 引擎由于失去了强制护栏锚点，绝对会肆无忌惮地依靠它的多动症发散随机性，如同绞肉机般给你直接把宝贵的原始字段生生切毁乱割数据流面。",
+          "ttsFp": "7f988a51_98",
+          "srtCueIdx": 154,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 151,
+          "srcLEnd": 151
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正的顶流数据架构师，必然只依靠冷酷严苛的 **\"结构化重塑 Prompt 阵列\"** 来下放军权。这个指令结构必须如铁幕般焊死三大禁区：",
+          "ttsFp": "c75243c8_69",
+          "srtCueIdx": 155,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 153,
+          "srcLEnd": 153
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "让我们来见证真正能在深寒实战项目中，把一个发疯的表格收拾得服服帖帖的零误判指令体系范本大典：\n1.  **Input Context（输入病理场域绝对描述）**：极其尖锐且一针见血地全盘指出眼下宿主病征重症区（强迫你使用刚才刚学的学术级专业词汇痛击它）。\n* *\"大模型听令：这附带传入的废墟 CSV 是一份中国各省极度非标野生散秩的 **大宽表 (Wide Data)**。它的顶部列头极其可笑地同时塞进了'2021年'这种混杂跨界截维的值，其内部还夹杂着人为强制合并单元格所遗留导致的大孔径空缺黑洞列。最致命的是，它的第一列竟然混淆标注的是'东部/西部'类别高维标签而并非最关键核心不可失守的市级下沉锚点细支主键（Key）。\"*\n2.  **Target Shape（终极目标骨架极其精确勾画）**：利用 Munzner 大师级的权威定义强行框出最终毫无反抗余地的 Tidy 归宿结构底座。\n* *\"我不要你的任何擅自发挥。我要你立即强制执行极其狂暴的宽转长劈裂置换也就是 Pivot Longer 降维派生神术转化。请将其彻底无情碾碎展平压直，重铸为全球金标准的 **Tidy Data 长表阵列**。输出成品有且仅能包含 4 条绝对严格对齐的纯净属性变量矩阵骨干：归属为分类型（Categorical）的地区物理变量 Region，归属为序数单向延展型（Sequential Ordinal）的年份变量 Year，归属分类型的子类别变量 Category，以及绝对归属量化型（Quantitative）承压的数值度量池 GDP_Value。\"*\n3.  **Constraints（死亡越线拘束带条件阀门）**：如同布雷区一样，在全周边死角设置下防患越境触怒禁区的物理防爆指令网。\n* *\"强制约束法则第一条：那些在原行上被财务大妈写着'年末主汇总', '强求累加总和', '全省数据暂缺失'的混淆视听废弃伪附属行，必须立刻全部执行最高优先级的物理抹杀丢弃剔除，也就是 Drop 判决，绝不允许你手软发疯把它们当做可用数据给错误混编扔进死圣的 Value 数值列里。强制约束第二条：任何在此表凡是以星号特殊字符极其诡异被包裹标记的附属杂项脚注，一经触碰立刻统统暴力清空，不可有任何遗毒留下。给我极其干脆冷峻地返回那张毫无血色的清洗结果表格代码。\"*",
+          "ttsFp": "e6ef8bde_975",
+          "srtCueIdx": 156,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 162,
+          "srcLEnd": 171
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "明白了吗？在这场极其血腥残酷的数据人机清剿搏杀中，你永远、永远是在扮演那位手持绝对威权高维蓝图指令图谱、高高在上的绝对意志暴君与统帅主将军。而即便是看似极其神通广大的智能 AI 大模型机器引擎，也不过只是那个替你满手泥污，去下深渊地狱战壕里执行无脑写复杂正则劈砍表达式规则、从而去执行极其无聊繁重全量机械化查剿清算和苦命全维重组体力活的底层大头苦力小兵。主次倒置的唯一报应结果，就是你被错乱的图纸拉入同坑阵毁约殉葬。",
+          "ttsFp": "b95e65b5_208",
+          "srtCueIdx": 157,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 173,
+          "srcLEnd": 173
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "明白了吗？你在扮演那个掌握了蓝图的将军。AI 就是那个帮你写正则表达式执行批量清空和重组的小兵。现在的你，早已经不是那个被一坨合并乱码逼得抱头痛哭的菜鸟了。现在，立刻披挂上阵去大干一场！",
+          "ttsFp": "05d07232_93",
+          "srtCueIdx": 158,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M04_驯服混沌_Tidy_Data_的真理之眼.md",
+          "srcLStart": 175,
+          "srcLEnd": 175
+        }
+      ],
+      "firstSrtCueIdx": 125,
+      "budgetChars": 3500,
+      "oralCharCount": 5409,
+      "estimatedMinutes": 30.1,
+      "fillRatio": 1.55
+    },
+    {
+      "id": "mod-6",
+      "title": "模块 5: 实践工作坊——真实大表重组极刑突围 (90 分钟)",
+      "slides": [
+        {
+          "id": "S11_Outro",
+          "layout": "Grid",
+          "text": "看不见的功勋：致敬结构化之美",
+          "heading": "",
+          "scene": "一块原石在经过高温熔炼后成为一颗晶莹剔透的水晶体，背后是排列成行的严整矩阵数据。",
+          "image": "weeks/W03_Data_Literacy/public/slides/S11_Outro.png",
+          "images": [
+            "weeks/W03_Data_Literacy/public/slides/S11_Outro.png"
+          ],
+          "assetExpected": [
+            "public/slides/S11_Outro.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Workshop",
+          "duration": "75min",
+          "desc": "**废墟重组大作战**。",
+          "text": "[ACTIVITY]\n*   **Type**: `Workshop`\n*   **Duration**: `75min`\n*   **Desc**: **废墟重组大作战**。\n- （1）所有同学从课程仓库拉取名为 `disaster_china_stat.xlsx` 的典型灾难级真实国家统计数据宽表。\n- （2）使用 Claude 或 DeepSeek 传入文件，使用本节课提到的三层结构的 Prompt 对话模板，命令大模型清洗并重组这些数据。\n- （3）**迭代挑战**：如果模型在第一次转换时误把含有空格的城市名（如`香港(特别行政区)`）拆成了错乱的两列，记录下你的修正 Prompt（比如：\"注意约束条件：括号内及带标点的值严禁拆分！重新转换并输出CSV\"）。\n- （4）提取最终干净无比的小体积 Tidy Data CSV，直接拖入我们在 W01 使用的 RAWGraphs 检查器中，一秒画出一张以前死活都画不出的极度精美的平滑折线图，证明长数据的纯净威力。",
+          "ttsFp": "8f88aad2_432",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 4,
+          "srcLEnd": 11
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "回想这个工作坊的挣扎：当那个名为 `disaster_china_stat.xlsx` 的宽表在你手里百般扭曲却终究变成了漂亮的长表时，请记住，这就是很多数据工程师和咨询顾问在通宵达旦、痛哭流涕才拿到的通关证。能够清晰利用语言大模型作为利器，把这些不规范的杂项强压成 Tidy Data 格式，远比单纯懂如何写一个 D3.js 画图函数，更能决定你在未来职业生涯中的生存寿命与高阶上限值。没有这条命脉骨架，再炫目的可视化，也不过是用错别字写出的华丽辞藻。",
+          "ttsFp": "ac69bec2_227",
+          "srtCueIdx": 159,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 13,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在跟 AI 一轮轮对话搏斗修正的过程中，实际上你是在完成一次脑力体操。你在反复逼问自己：哪一个才是我们要观察的主 Key 键，哪一个才是可以相加的 Value，怎么才是最标准的长表格。",
+          "ttsFp": "547b2600_92",
+          "srtCueIdx": 160,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "只要你能把这坨数据完全洗白成 Tidy Data，后续在面对任何复杂的 ECharts 或 D3 代码渲染时，你就已经提前跨越了 80% 会报错的死亡深渊。",
+          "ttsFp": "67a8caba_78",
+          "srtCueIdx": 161,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Discussion",
+          "duration": "30min",
+          "desc": "**经典作品逆向工程抢答**。展示《信息可视化设计》中提到的向帆团队《解构藏文》或者查尔斯·米纳德\"拿破仑东征\"经典设计的截图片段。要求同学们以小组为单位，在 5 分钟内逆向画出这幅原版画作背后的底层数据表形态，必须严谨标注每一列的 Title 名称，以及它们的 Munzner 属性分类（如序数型、量化发散型等），最快且最准的组获胜。",
+          "text": "[ACTIVITY]\n*   **Type**: `Discussion`\n*   **Duration**: `30min`\n*   **Desc**: **经典作品逆向工程抢答**。展示《信息可视化设计》中提到的向帆团队《解构藏文》或者查尔斯·米纳德\"拿破仑东征\"经典设计的截图片段。要求同学们以小组为单位，在 5 分钟内逆向画出这幅原版画作背后的底层数据表形态，必须严谨标注每一列的 Title 名称，以及它们的 Munzner 属性分类（如序数型、量化发散型等），最快且最准的组获胜。",
+          "ttsFp": "e5fa71eb_240",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 19,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "任何一幅被推上神坛的大师级信息可视化神作，我们可能总是第一时间惊叹于它们极度惊艳的视觉排版。",
+          "ttsFp": "3fd8dae7_46",
+          "srtCueIdx": 162,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但千万铭记：支撑起这些宏伟画卷的承压钢骨，全部是由在经过极高温熔炼去杂之后、严丝合缝的长数据体系（Tidy Data）所构成的。",
+          "ttsFp": "3e883d47_64",
+          "srtCueIdx": 163,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那庞大冰山深藏海面之下、往往被忽视的数据抽象基底，那团被千百次切割重压提炼的逻辑脉络，才是最终一锤定音决定你能在这个数据架构设计领域走多深、看多透的底池骨血。",
+          "ttsFp": "464c1ff0_79",
+          "srtCueIdx": 164,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这周，我们在极其痛苦的认知重塑中，融会贯通了降维重组的奥义阵法。把这只历尽千辛万苦烙上 Tidy Data 权柄的权杖紧紧握住吧，那是你破开混沌现实泥沼的唯一利器。",
+          "ttsFp": "647969de_82",
+          "srtCueIdx": 165,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "下周，各位幸存的勇士们，你们就将带队拿着这些历经你们血手与大模型烈火双重极限千锤百炼彻底洗净所有凡间原罪、极度纯洁毫无挂碍负重最精简的极速数据流武器，我们将昂首重甲正式拔营向 Web 前端数据图形界底层极核法典大框架 D3.js——全领域最血肉横飞、不可一世且以屠戳百万开发者发丝代码为无穷狂乐的修罗场渲染机大魔王、发起毁天灭地的无差别超级大总攻越级极爆冲锋搏杀，就在前方等待你们的，是正式亲手拉开真正的 Web 图形霸权硬编码器征伐的宇宙神级之旅！",
+          "ttsFp": "d0c86ee4_225",
+          "srtCueIdx": 166,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 37,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们下周大逃杀试炼决斗战场场上，再见！",
+          "ttsFp": "317afc4b_19",
+          "srtCueIdx": 167,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        }
+      ],
+      "firstSrtCueIdx": 159,
+      "budgetChars": 0,
+      "oralCharCount": 735,
+      "estimatedMinutes": 4.1,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-7",
+      "title": "课后作业，即 Assignment",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "0min",
+          "desc": "作业要求：请从任意公开政府数据源或kaggle获取一份你觉得\"极其恶心宽大\"的公开原始数据集。利用学到的 Prompt 清洗大法，引导 LLM 为你彻底洗干净，变成一张 Tidy CSV 表。并写一份少于 500 字的小短文分析，在这份数据中，你是如何定义它的 Item、Attribute 以及你的清洗派生 Derive 策略的。",
+          "text": "[ACTIVITY]\n*   **Type**: `Practice`\n*   **Duration**: `0min`\n*   **Desc**: 作业要求：请从任意公开政府数据源或kaggle获取一份你觉得\"极其恶心宽大\"的公开原始数据集。利用学到的 Prompt 清洗大法，引导 LLM 为你彻底洗干净，变成一张 Tidy CSV 表。并写一份少于 500 字的小短文分析，在这份数据中，你是如何定义它的 Item、Attribute 以及你的清洗派生 Derive 策略的。",
+          "ttsFp": "5df1be41_235",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W03_Data_Literacy/src/M05_实践工作坊_真实大表重组极刑突围.md",
+          "srcLStart": 44,
+          "srcLEnd": 47
+        }
+      ],
+      "firstSrtCueIdx": null,
+      "budgetChars": 0,
+      "oralCharCount": 0,
+      "estimatedMinutes": 0.0,
+      "fillRatio": null
+    }
+  ]
+}

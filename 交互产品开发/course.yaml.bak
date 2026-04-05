@@ -1,0 +1,20 @@
+course:
+  id: "interaction_design"
+  name: "交互产品开发"
+  semester: "2025-2026-2"
+  instructor: "林昕"
+  hours: 48
+
+structure:
+  type: "weekly"
+  units: []
+
+knowledge:
+  entry_point: "knowledge/syllabus.md"
+  textbook_dir: "knowledge/textbook/"
+  glossary: "knowledge/glossary.md"
+
+agent:
+  style: null
+  extra_rules: []
+  extra_skills: []

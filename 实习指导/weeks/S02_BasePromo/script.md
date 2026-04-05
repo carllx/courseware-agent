@@ -13,7 +13,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Industry_Map`
-> *   **Layout**: `Diagram`
+> *   **Layout**: `Flow`
 > *   **Asset**: ![预览](assets/slides/S02_Industry_Map.png)
 > *   **Scene**: 泛娱乐内容产业三大赛道分支图：游戏与交互、影视动画、新媒体运营，各赛道下方列出典型岗位。
 
@@ -36,7 +36,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Base_Logos`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Scene**: 展示 5 家重点推介公司的 Logo（悦游、口可口可、原象、新众创、名匠）与核心业务关键词。
 
 根据学院与企业的深度合作，今年我们将重点推介**屏幕上这五家**优质实习基地。分别是：悦游、口可口可、原象、新众创，以及名匠。我逐一给大家介绍。
@@ -45,7 +45,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Base_Yueyou`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S02_Base_Yueyou.png)
 > *   **Scene**: 悦游公司简介卡片：Logo + 标签"动漫游戏开发 / 技术服务" + 核心业务关键词 + 广州分公司信息。
 
@@ -59,7 +59,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Base_Coco`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S02_Base_Coco.png)
 > *   **Scene**: 口可口可公司简介卡片：Logo + 标签"软件开发 / 互动娱乐" + VR/AR/MR/XR 技术栈 + 知识产权数据（94 项软著、21 项专利）。
 
@@ -75,7 +75,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Base_Yuanxiang`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S02_Base_Yuanxiang.png)
 > *   **Scene**: 原象公司简介卡片：Logo + 标签"整合营销 / 数字广告" + 服务品牌案例 + 校企合作数据。
 
@@ -94,7 +94,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Base_XZC`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S02_Base_XZC.png)
 > *   **Scene**: 新众创公司简介卡片：Logo + 标签"网络技术 / 软件开发" + 核心业务关键词。
 
@@ -108,7 +108,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Base_MingJiang`
-> *   **Layout**: `Card`
+> *   **Layout**: `Grid`
 > *   **Asset**: ![预览](assets/slides/S02_Base_MingJiang.png)
 > *   **Scene**: 名匠公司简介卡片：Logo + 标签"游戏美术外包 / 3D 制作" + 核心技术（动作捕捉系统专利）+ 高校合作案例。
 
@@ -135,7 +135,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Skill_Match`
-> *   **Layout**: `Image`
+> *   **Layout**: `Full`
 > *   **Asset**: ![预览](assets/slides/S02_Skill_Match.png)
 > *   **Scene**: 技能-公司匹配对照表：左列为技能方向（3D 建模、UI/UX、动效、平面创意、技术开发），右列为对应推荐公司。
 
@@ -225,7 +225,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S02_Next_Steps`
-> *   **Layout**: `List`
+> *   **Layout**: `Split`
 > *   **Asset**: ![预览](assets/slides/S02_Next_Steps.png)
 > *   **Scene**: 接下来的行动清单：1. 确定意向赛道 2. 研究目标公司 3. 准备作品集 4. 完善简历 5. 参加安全教育课程。
 

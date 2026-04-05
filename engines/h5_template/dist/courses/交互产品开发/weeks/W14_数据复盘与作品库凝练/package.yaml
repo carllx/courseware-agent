@@ -1,0 +1,28 @@
+week: 14
+topic: 数据复盘与作品库凝练
+title: 数据复盘与作品库凝练
+theory_hours: 3
+practice_hours: 2
+objectives:
+- 系统梳理并量化测试反馈
+- 掌握闭环叙事结构与展示资产制作
+created: '2026-03-30'
+status: ready
+tags: []
+delivery_mode: Lecture + Workshop
+core_theories: []
+segments:
+- id: M00
+  src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_复习与数据打捞.md
+- id: M02
+  src: src/M02_导入_美丽的废物与生还者偏差.md
+- id: M03
+  src: src/M03_讲授_质性数据分析与严重度分级实战.md
+- id: M04
+  src: src/M04_讲授_UX_闭环叙事与作品集视觉包装.md
+- id: M05
+  src: src/M05_实践_实验4_收尾指引.md
+- id: M06
+  src: src/M06_小结_你的终极身份.md

@@ -3,7 +3,13 @@ import { useParams, Link } from 'react-router-dom'
 import SlideFactory from '../components/SlideFactory'
 import TextPanel from '../components/TextPanel'
 import NavigationBar from '../components/NavigationBar'
-import AudioPlayer from '../components/AudioPlayer'
+
+import HealthDot from '../components/HealthDot'
+import ValidationOverlay from '../components/ValidationOverlay'
+import AnnotationOverlay from '../components/AnnotationOverlay'
+import { useValidation } from '../contexts/ValidationContext'
+import { TtsSegmentProvider, useTtsSegments } from '../contexts/TtsSegmentContext'
+import '../styles/craft-room.css'
 
 /**
  * LessonViewer — 单讲预览器
@@ -15,17 +21,29 @@ import AudioPlayer from '../components/AudioPlayer'
  */
 export default function LessonViewer() {
   const { courseId, scriptName } = useParams()
+
+  return (
+    <TtsSegmentProvider courseId={courseId} weekName={scriptName}>
+      <LessonViewerInner courseId={courseId} scriptName={scriptName} />
+    </TtsSegmentProvider>
+  )
+}
+
+function LessonViewerInner({ courseId, scriptName }) {
   const [manifest, setManifest] = useState(null)
   const [error, setError] = useState(null)
   const [currentSectionIdx, setCurrentSectionIdx] = useState(0)
   const [currentSlideIdx, setCurrentSlideIdx] = useState(0)
 
   // === 联动状态 ===
-  const [srtCues, setSrtCues] = useState([])
   const [activeParagraphIdx, setActiveParagraphIdx] = useState(-1)
-  const [seekToTime, setSeekToTime] = useState(null)
-  const isAudioDriving = useRef(false)
   const [hotReloadToast, setHotReloadToast] = useState(null)
+
+  // === P1 验证上下文 ===
+  const { onReload, onValidation, isInFlow } = useValidation()
+
+  // === TTS 段落缓存 ===
+  const ttsCtx = useTtsSegments()
 
   // === HMR 热重载监听 ===
   useEffect(() => {
@@ -33,6 +51,8 @@ export default function LessonViewer() {
 
     const handleReload = (data) => {
       console.log('[h5-hot-reload] 收到重载通知', data)
+      // P1: 标记进入心流保护期
+      onReload()
       const jsonUrl = `/courses/${courseId}/${scriptName}.json`
       fetch(jsonUrl + '?t=' + Date.now())
         .then(res => {
@@ -66,8 +86,21 @@ export default function LessonViewer() {
       setTimeout(() => setHotReloadToast(null), 5000)
     }
 
+    const handleValidation = (data) => {
+      console.log('[h5:validation] 收到验证结果', data.gateLevel, `${data.elapsed}ms`)
+      onValidation(data)
+    }
+
     import.meta.hot.on('h5:reload', handleReload)
     import.meta.hot.on('h5:error', handleError)
+    import.meta.hot.on('h5:validation', handleValidation)
+
+    // 漏洞修复：清理旧监听器，防止 courseId/scriptName 变化时多重触发
+    return () => {
+      import.meta.hot.off('h5:reload', handleReload)
+      import.meta.hot.off('h5:error', handleError)
+      import.meta.hot.off('h5:validation', handleValidation)
+    }
   }, [courseId, scriptName])
 
   // === 热重载后的位置钳位（防止 section/slide 越界）===
@@ -85,16 +118,69 @@ export default function LessonViewer() {
     setCurrentSlideIdx(prev => prev > maxSlide ? maxSlide : prev)
   }, [manifest, currentSectionIdx])
 
+  // === TTS: section 切换时计算段落缓存状态 ===
+  useEffect(() => {
+    if (!manifest || !ttsCtx) return
+    const section = manifest.sections[currentSectionIdx]
+    if (section?.paragraphs) {
+      ttsCtx.computeStatus(section.paragraphs)
+    }
+  }, [manifest, currentSectionIdx, ttsCtx?.manifest]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // === 同步 TTS 播放状态到当前高亮段落 ===
+  useEffect(() => {
+    if (!ttsCtx) return
+    
+    // 找到当前正在播放的段落
+    let playingIdx = null
+    const keys = Object.keys(ttsCtx.segmentMap)
+    for (let k of keys) {
+      if (ttsCtx.segmentMap[k].status === 'playing') {
+        playingIdx = Number(k)
+        break
+      }
+    }
+
+    if (playingIdx !== null && playingIdx !== activeParagraphIdx) {
+      setActiveParagraphIdx(playingIdx)
+      
+      // 同步 Slide
+      const section = manifest?.sections[currentSectionIdx]
+      if (section?.slides?.length > 0) {
+        let targetSlideIdx = 0
+        for (let i = 0; i < section.slides.length; i++) {
+          if (section.slides[i].paragraphStart != null && section.slides[i].paragraphStart <= playingIdx) {
+            targetSlideIdx = i
+          }
+        }
+        setCurrentSlideIdx(targetSlideIdx)
+      }
+    }
+  }, [ttsCtx?.segmentMap, manifest, currentSectionIdx, activeParagraphIdx])
+
   // 加载数据
   useEffect(() => {
     // 重置状态
     setManifest(null)
     setError(null)
-    setCurrentSectionIdx(0)
-    setCurrentSlideIdx(0)
-    setSrtCues([])
+
+    // UX 优化支柱 2：恢复记忆锚点 (断点续传)
+    const savedPos = sessionStorage.getItem(`h5-pos-${courseId}-${scriptName}`)
+    if (savedPos) {
+      try {
+        const { section, slide } = JSON.parse(savedPos)
+        setCurrentSectionIdx(section || 0)
+        setCurrentSlideIdx(slide || 0)
+      } catch (e) {
+        setCurrentSectionIdx(0)
+        setCurrentSlideIdx(0)
+      }
+    } else {
+      setCurrentSectionIdx(0)
+      setCurrentSlideIdx(0)
+    }
+
     setActiveParagraphIdx(-1)
-    setSeekToTime(null)
 
     const jsonUrl = `/courses/${courseId}/${scriptName}.json`
     fetch(jsonUrl)
@@ -104,10 +190,13 @@ export default function LessonViewer() {
       })
       .then(data => {
         setManifest(data)
-        // P0 #2: 自动跳到首个有 slides 的模块，避免首屏空白
-        const firstWithSlides = data.sections.findIndex(s => s.slides && s.slides.length > 0)
-        if (firstWithSlides > 0) {
-          setCurrentSectionIdx(firstWithSlides)
+        // P0 #2: 如果没有记忆锚点，自动跳到首个有 slides 的模块，避免首屏空白
+        const savedPos = sessionStorage.getItem(`h5-pos-${courseId}-${scriptName}`)
+        if (!savedPos) {
+          const firstWithSlides = data.sections.findIndex(s => s.slides && s.slides.length > 0)
+          if (firstWithSlides > 0) {
+            setCurrentSectionIdx(firstWithSlides)
+          }
         }
         // 注入 CSS 变量
         if (data.theme) {
@@ -126,6 +215,16 @@ export default function LessonViewer() {
       })
       .catch(err => setError(err.message))
   }, [courseId, scriptName])
+
+  // === UX 优化支柱 2：写入记忆锚点 ===
+  useEffect(() => {
+    if (manifest) {
+      sessionStorage.setItem(`h5-pos-${courseId}-${scriptName}`, JSON.stringify({
+        section: currentSectionIdx,
+        slide: currentSlideIdx
+      }))
+    }
+  }, [currentSectionIdx, currentSlideIdx, courseId, scriptName, manifest])
 
   // 键盘导航
   useEffect(() => {
@@ -159,47 +258,16 @@ export default function LessonViewer() {
   }, [manifest, currentSectionIdx, currentSlideIdx])
 
   // === 联动回调 ===
-  const handleSubtitlesLoaded = useCallback((cues) => {
-    setSrtCues(cues)
-  }, [])
-
-  const handleAudioTimeUpdate = useCallback((time, subIdx) => {
-    if (!manifest || srtCues.length === 0 || subIdx < 0) return
-    const section = manifest.sections[currentSectionIdx]
-    if (!section) return
-
-    const paraIdx = section.paragraphs.findIndex(p => p.srtCueIdx === subIdx)
-    if (paraIdx >= 0) {
-      setActiveParagraphIdx(paraIdx)
-      const slides = section.slides
-      if (slides.length > 0) {
-        let matchedSlide = 0
-        for (let i = 0; i < slides.length; i++) {
-          if (slides[i].paragraphStart != null && slides[i].paragraphStart <= paraIdx) {
-            matchedSlide = i
-          }
-        }
-        isAudioDriving.current = true
-        setCurrentSlideIdx(matchedSlide)
-        setTimeout(() => { isAudioDriving.current = false }, 100)
-      }
-    }
-  }, [manifest, currentSectionIdx, srtCues])
-
-  const handleSeekToSrtCue = useCallback((srtCueIdx) => {
-    if (srtCues[srtCueIdx]) {
-      setSeekToTime(srtCues[srtCueIdx].start)
-    }
-  }, [srtCues])
-
-  const handleParagraphSelect = useCallback((paraIdx, srtCueIdx) => {
-    if (srtCueIdx != null && srtCues[srtCueIdx]) {
-      setSeekToTime(srtCues[srtCueIdx].start)
+  const handleParagraphSelect = useCallback((paraIdx) => {
+    const section = manifest?.sections[currentSectionIdx]
+    
+    // 1. 如果段落 TTS 已就绪，触发连播
+    if (ttsCtx?.segmentMap[paraIdx]?.status === 'ready') {
+      ttsCtx.playFrom(paraIdx, section.paragraphs)
       return
     }
     
-    // 如果没有音频同步（纯图文模式），点击段落可以切换到对应的 Slide
-    const section = manifest?.sections[currentSectionIdx]
+    // 2. 否则，点击段落仅切换到对应的 Slide
     if (section && section.slides) {
       let targetSlideIdx = 0
       for (let i = 0; i < section.slides.length; i++) {
@@ -212,19 +280,15 @@ export default function LessonViewer() {
         setActiveParagraphIdx(paraIdx)
       }, 0)
     }
-  }, [manifest, currentSectionIdx, srtCues])
+  }, [manifest, currentSectionIdx, ttsCtx])
 
   const switchSlide = (idx) => {
     setCurrentSlideIdx(idx)
-    if (!isAudioDriving.current && manifest) {
+    if (manifest) {
       const section = manifest.sections[currentSectionIdx]
       const paraStart = section?.slides[idx]?.paragraphStart
       if (paraStart != null) {
         setActiveParagraphIdx(paraStart)
-        const para = section.paragraphs[paraStart]
-        if (para?.srtCueIdx != null && srtCues[para.srtCueIdx]) {
-          setSeekToTime(srtCues[para.srtCueIdx].start)
-        }
       }
     }
   }
@@ -233,12 +297,6 @@ export default function LessonViewer() {
     setCurrentSectionIdx(idx)
     setCurrentSlideIdx(0)
     setActiveParagraphIdx(-1)
-    if (manifest && srtCues.length > 0) {
-      const targetSection = manifest.sections[idx]
-      if (targetSection?.firstSrtCueIdx != null && srtCues[targetSection.firstSrtCueIdx]) {
-        setSeekToTime(srtCues[targetSection.firstSrtCueIdx].start)
-      }
-    }
   }
 
   if (error) {
@@ -268,11 +326,6 @@ export default function LessonViewer() {
   const currentSection = manifest.sections[currentSectionIdx]
   const currentSlide = currentSection?.slides[currentSlideIdx]
   const totalSlides = currentSection?.slides.length || 0
-  const hasAudio = manifest.media?.audio
-
-  // 修正音频 URL 路径（多课程模式下需前缀 courseId）
-  const audioSrc = hasAudio ? `/courses/${courseId}/${manifest.media.audio}` : null
-  const srtSrc = manifest.media?.srt ? `/courses/${courseId}/${manifest.media.srt}` : null
 
   return (
     <div className="app-container">
@@ -280,20 +333,10 @@ export default function LessonViewer() {
       <header className="app-header">
         <Link to={`/${courseId}`} className="header-back-link">← {manifest.course}</Link>
         <div className="script-title">{manifest.script}</div>
-        {hasAudio && <span className="audio-badge">🔊 音频</span>}
+        <div className="header-right">
+          <HealthDot manifest={manifest} />
+        </div>
       </header>
-
-      {/* 音频播放器 */}
-      {hasAudio && (
-        <AudioPlayer
-          audioSrc={audioSrc}
-          srtSrc={srtSrc}
-          onTimeUpdate={handleAudioTimeUpdate}
-          onSubtitlesLoaded={handleSubtitlesLoaded}
-          seekToTime={seekToTime}
-          onSubtitleClick={handleSeekToSrtCue}
-        />
-      )}
 
       {/* 主内容区 */}
       <main className="main-content">
@@ -344,11 +387,19 @@ export default function LessonViewer() {
         <TextPanel
           paragraphs={currentSection?.paragraphs || []}
           activeParagraphIdx={activeParagraphIdx}
-          onParagraphClick={handleSeekToSrtCue}
           onParagraphSelect={handleParagraphSelect}
           slides={currentSection?.slides || []}
         />
       </main>
+
+      {/* Phase 2: 验证数据可视化覆盖层 */}
+      <ValidationOverlay />
+
+      {/* Phase 3: Agent 批注层（基于指纹的语义吸附） */}
+      <AnnotationOverlay
+        annotations={manifest.annotations || []}
+        paragraphs={currentSection?.paragraphs || []}
+      />
 
       {/* 底部模块导航 */}
       <NavigationBar

@@ -1,0 +1,3515 @@
+{
+  "version": "2.1",
+  "generated": "2026-04-05T15:08:38.045724",
+  "course": "交互产品开发",
+  "script": "W02_人类认知与心智摩擦",
+  "theme": {
+    "bg": "#F5F0EB",
+    "bgSurface": "#FFFFFF",
+    "bgElevated": "#EDE7E0",
+    "bgDark": "#2D2926",
+    "primary": "#B85042",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#6B8FAD",
+    "textOnDark": "#F5F0EB",
+    "primaryLight": "#D4756A",
+    "primaryMuted": "#8C3A30",
+    "success": "#5B7B6F",
+    "warning": "#C9A96E",
+    "error": "#B85042",
+    "border": "#D6CFC7",
+    "text": "#2D2926",
+    "textSecondary": "#6B635C",
+    "textMuted": "#A39B93",
+    "primaryRgb": "184, 80, 66",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": false,
+    "fontTitle": "Georgia",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": null,
+    "srt": null
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "W02_人类认知与心智摩擦",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**本节目标**\n1. 深入理解人类认知局限与短时记忆负荷\n2. 掌握心智模型与界面隐喻的映射规律",
+          "ttsFp": "8d70e0ad_49",
+          "srtCueIdx": 0,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 3,
+          "srcLEnd": 5
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*Tags*: `[THEORY]` `[CASE STUDY]` `[COGNITIVE FRAMEWORK]` `[ACTIVITY]` `[PHILOSOPHY]`",
+          "ttsFp": "3012bb3c_85",
+          "srtCueIdx": 1,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 7,
+          "srcLEnd": 7
+        }
+      ],
+      "firstSrtCueIdx": 0,
+      "oralCharCount": 37,
+      "estimatedMinutes": 0.2,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-2",
+      "title": "复习：W01 回顾 (10 min)",
+      "slides": [
+        {
+          "id": "w02-slide-01",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧为可用性目标（有效性/效率/安全性等）五边形雷达图，右侧为用户体验目标（满意/愉悦/有趣等）情感色轮图",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-01.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-01.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-01.png"
+          ],
+          "list": [
+            "可用性目标：有效·高效·安全·易学·易记 | 体验目标：满意·愉悦·有趣·有价值"
+          ],
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-01b",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "五条设计原则的图标化卡片列表，每条配一句核心定义",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-01b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-01b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-01b.png"
+          ],
+          "list": [
+            "可见性 Visibility：让用户看见能做什么 | 反馈 Feedback：让用户知道做了什么 | 约束 Constraints：让用户不能做错什么 | 一致性 Consistency：让用户不必重学什么 | 示能 Affordance：让物体自己说话"
+          ],
+          "paragraphStart": 3
+        },
+        {
+          "id": "w02-slide-02",
+          "layout": "Center",
+          "text": "",
+          "heading": "",
+          "scene": "过渡页，大字\"WHY?\"配以模糊的抓狂用户剪影背景",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-02.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-02.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-02.png"
+          ],
+          "list": null,
+          "paragraphStart": 13
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "上周我们撕开了一个口子。",
+          "ttsFp": "8fe11cee_12",
+          "srtCueIdx": 2,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们说，交互设计不是画界面，它是在打造一段**人与数字世界之间的对话**。而这段对话的质量，有两把尺子——一把量\"用着顺不顺\"，叫**可用性目标**；另一把量\"感受好不好\"，叫**用户体验目标**。",
+          "ttsFp": "02c22c65_99",
+          "srtCueIdx": 3,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "快速回忆一下。可用性的五根支柱——有效、高效、安全、易学、易记——像一张及格线：做不到，产品直接出局。而体验目标——满意、愉悦、有趣——则是加分项，是让用户从\"能用\"跃迁到\"爱用\"的催化剂。",
+          "ttsFp": "fac63268_95",
+          "srtCueIdx": 4,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 28,
+          "srcLEnd": 28
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "另外，我们还认识了五把武器——**设计原则**。快速过一遍。",
+          "ttsFp": "121840e7_30",
+          "srtCueIdx": 5,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 37,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**可见性（Visibility）**——功能存在却看不见，等于不存在。当一个关键的退订按钮隐藏在三级菜单的灰色小字里，它和不存在有什么区别？系统必须把用户的操作选项\"亮\"出来。",
+          "ttsFp": "991a6e9d_89",
+          "srtCueIdx": 6,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**反馈（Feedback）**——用户的每一次操作都应该得到系统的明确回应，哪怕只是一个微妙的颜色变深、一声清脆的\"咔哒\"音效或一个短暂的物理振动。沉默的系统就是在实施**冷暴力**。",
+          "ttsFp": "a451dac7_93",
+          "srtCueIdx": 7,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 40,
+          "srcLEnd": 40
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**约束（Constraints）**——好的设计不是靠写长篇大论的警告教用户不犯错，而是通过物理或逻辑的限制，让犯错变得**在物理上不可能**。USB-C 接口不分正反面，三相插头插不反，这就是约束的极致。",
+          "ttsFp": "dfd2a3be_104",
+          "srtCueIdx": 8,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**一致性（Consistency）**——同一个 App 里，红色代表危险的删除，结果到了设置页面，红色变成了确认保存……这种视觉语言的不一致会让用户的大脑短路。不仅要内部一致，还要与用户的外部经验一致。",
+          "ttsFp": "d311d354_103",
+          "srtCueIdx": 9,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**示能（Affordance）**——一把好椅子不需要说明书，你看到靠背的倾斜度就知道往哪坐；一个好按钮不需要\"请点击这里\"的标签，你看到它的材质光泽和凸起质感，手指就会本能地按下去。让物体自己说话。",
+          "ttsFp": "336bb46a_101",
+          "srtCueIdx": 10,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "我们为什么要极其苛刻地区分\"可用性\"和\"用户体验\"？这并非学术圈的无聊文字游戏，而是一次价值上亿美元的商业血泪教训。\n1990 年代初的个人电脑市场，工程师文化占据绝对统治地位。\"可用性\"工程其实早就存在了——当时的软件公司会请所谓的\"人因工程师（Human Factors Engineers）\"来测试软件，但他们的测试极其机械：只看用户能不能在 5 分钟内点到正确的按钮、错误率是多少。只要测试通过，软件就发售。\n结果呢？全彩屏、超多功能的软件被造出来，它们绝对\"可用\"、有效且安全，但用户在家里用的时候，依然感到枯燥、厌烦、甚至觉得这台机器在嘲笑他们的智商。\n真正的转折点发生在 1993 年。唐·诺曼（Don Norman）正式以\"User Experience Architect（用户体验架构师）\"这个人类历史上第一次出现的新头衔加入苹果公司。他带来的最核心洞察是：人不只是一台输入输出的处理机，人是有情绪的动物。当你在拆开一台 Mac 的包装盒、摸到那极具阻尼感的纸张、闻到新机器的气味、按下电源键听到的那声经典的「Dang——」开机和弦音时，那一刻的**感受（Emotion）**和用表格测出来的点击效率同样重要，甚至在购买决策上占据了绝对主导权。\n可用性保证了你的产品不会在发布第一天被用户骂着退货；而用户体验，特别是我们在右侧圈出的\"愉悦、有趣、有情感共鸣\"这些指标，才是决定用户会不会向他的三个好朋友疯狂安利你产品的核心引擎。这两把尺子，一把是产品的绝命生死线，一把是产品的无形护城河。",
+          "ttsFp": "2829eed7_654",
+          "srtCueIdx": 11,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 47,
+          "srcLEnd": 52
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "3min",
+          "desc": "快速情境代入测试",
+          "text": "[ACTIVITY: 脑内微演习 - 办公室咖啡机]\n**Type**: `Practice`\n**Duration**: `3min`\n**Desc**: 快速情境代入测试\n`操作`：讲师描述一个日常抓狂场景，要求学生瞬间匹配对应的设计原则失误。\n`引导词`：\"光背定义没用，我们来做一个 10 秒钟的体检演习。想象一下你刚入职，走向茶水间那台高级的意大利全自动咖啡机。\"\n\"场景 1：你按下了『浓缩』键，机器毫无反应，屏幕没亮音效也没响。你不知道它是坏了还是正在加热，于是你又按了四次，结果机器突然连续出了五杯浓缩流了一地。——这是什么原则断裂？\" （**反馈缺失**）\n\"场景 2：机器上有一排黑色的方形平面贴片，没有突起，没有边框。你看半天都不知道这到底是装饰性的反光板，还是可以按下去的触摸按键。——这没做到什么？\" （**示能微弱/可见性差**）\n\"场景 3：你终于摸清了套路，长按左边第一个键是出水。第二天换了一台同品牌不同型号的机器，你长按左边第一个键，结果喷出来的是滚烫的蒸汽烫了手。——这违背了什么原则？\" （**一致性破裂**）",
+          "ttsFp": "a18829fe_475",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 54,
+          "srcLEnd": 62
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看到了吗？这些原则是我们上周从\"外部视角\"得出的——作为一个旁观者，拿着检查清单逐条给一个产品的\"体态\"打分。它们告诉你**正确的设计应该长什么样**、**错误的表象如何归类**，但没有回答一个更具破坏性的根本问题——",
+          "ttsFp": "d3153b6b_109",
+          "srtCueIdx": 12,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**为什么错误的设计会让你在按下咖啡机的那一瞬间，血压飙升、感到抓狂？**",
+          "ttsFp": "bc4c80ac_37",
+          "srtCueIdx": 13,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "换句话说，上周我们开的是\"清单式\"的诊断——逐条盘点一个产品的可用性得分。今天，我们要切换到**病理学视角**：不是\"哪里扣分了\"，而是——人类的大脑到底是怎么处理信息的？它在什么条件下必然崩溃？搞清楚这个，你才能从\"头痛医头\"升级到\"治未病\"。",
+          "ttsFp": "a802608c_123",
+          "srtCueIdx": 14,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天要回答一个更狠的问题——",
+          "ttsFp": "b40d9b3b_14",
+          "srtCueIdx": 15,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**为什么那些看起来功能完备、界面精美的产品，用起来依然让人抓狂？**",
+          "ttsFp": "bec61aa4_35",
+          "srtCueIdx": 16,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 80,
+          "srcLEnd": 80
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "答案不在代码里，不在像素里。这个\"为什么\"，藏在人的脑子里。今天，我们正式进入认知科学的领地。",
+          "ttsFp": "5f002fc7_47",
+          "srtCueIdx": 17,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        }
+      ],
+      "firstSrtCueIdx": 2,
+      "budgetChars": 1800,
+      "oralCharCount": 1306,
+      "estimatedMinutes": 7.3,
+      "fillRatio": 0.73
+    },
+    {
+      "id": "mod-3",
+      "title": "导入：看似好用却令人抓狂 (15 min)",
+      "slides": [
+        {
+          "id": "w02-slide-03",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "2×2 网格展示四个\"看似精美但体验糟糕\"的界面截图：一个层级深达五层的政务 App 首页、一个满屏密密麻麻选项的智能电视遥控器、一个需要手动输入 16 位银行卡号的支付页面、一个弹出三层确认对话框才能删除一条消息的企业 IM",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-03.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-03.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-03.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-04",
+          "layout": "Full",
+          "text": "心智摩擦 Mental Friction",
+          "heading": "",
+          "scene": "全屏深色背景，中央巨大的白色文字\"心智摩擦 Mental Friction\"，下方小字\"——当人类大脑撞上机器逻辑\"",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-04.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-04.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-04.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "w02-slide-04b",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左列\"快思考 System 1\"——直觉/自动/不费力，配刷短视频和开车的图标；右列\"慢思考 System 2\"——理性/刻意/耗能，配做数学题和填税表的图标",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-04b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-04b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-04b.png"
+          ],
+          "list": [
+            "快思考：刷抖音·滑解锁·语音输入 | 慢思考：填表单·学新软件·手动排版"
+          ],
+          "paragraphStart": 10
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "来，先做一个实验。",
+          "ttsFp": "90f91b8e_9",
+          "srtCueIdx": 18,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "请打开你手机上最常用的三个 App。随便挑一个你**最近骂过**的操作——可能是找了半天找不到的设置项，可能是一个莫名其妙的报错弹窗，也可能是一个明明简单却硬要你点击五次才能完成的流程。",
+          "ttsFp": "1643869b_93",
+          "srtCueIdx": 19,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "如果你用过 12306 的早期版本订过火车票，你一定记得那种滋味。我们来做一次完整的\"认知解剖\"。首先，验证码——那不是字母，那是一道**视力测试加阅读理解的混合卷**。扭曲的字符、杂乱的背景线、模糊到你分不清 O 和 0 的辨识度——你的**注意力**不是花在\"完成目标\"上，而是花在\"猜谜\"上。然后是密码——系统要求你的密码同时包含大小写字母、数字和特殊符号，而且不能和最近五次使用的密码重复。你的**工作记忆**被强行塞满了规则碎片，以至于你根本腾不出\"认知带宽\"去思考正事——选座位、比价格。最后是倒计时——系统给你 30 分钟完成支付，黄色数字在页面顶端一秒一秒地跳动。你不是在\"使用\"系统，你是在和系统**赛跑**，焦虑感把你的理性决策能力压缩到最低。验证码折磨注意力，密码规则压垮记忆，倒计时制造焦虑——这三板斧加在一起，就把一个功能完备的系统变成了一台**认知绞肉机**。",
+          "ttsFp": "6958b88d_394",
+          "srtCueIdx": 20,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 102,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "看到了吗？**功能完备 ≠ 体验优秀**。12306 能买到票吗？能。但在买到票之前，你的大脑已经被拧干了。",
+          "ttsFp": "9aea2d85_54",
+          "srtCueIdx": 21,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 105,
+          "srcLEnd": 105
+        },
+        {
+          "type": "life_connect",
+          "tag": "LIFE CONNECT",
+          "text": "其实 12306 不算孤例。你们的日常里充满了\"看似应该简单、实际上令人崩溃\"的数字摩擦。第一个，**医院自助挂号机**——屏幕上同时显示\"门诊挂号\"、\"预约挂号\"、\"当日挂号\"、\"专科挂号\"四种入口，每个入口里还藏着二级分类。一个只想看个感冒的患者，被迫在挂号机前做了一道关于\"中国医疗行政分类体系\"的判断题。第二个，**银行 ATM 的转账流程**——你需要依次选择\"转账业务\"→\"行内转账\"或\"跨行转账\"→\"实时转账\"或\"普通转账\"→ 手动输入对方完整的银行账号。你明明只想做一件事——把钱给朋友——但 ATM 硬要你了解银行间结算体系的运作方式。第三个，你们一定遇到过的——**某些 App 的注销账号流程**：先在设置里找到\"账号安全\"，再点\"注销账号\"，然后被跳转到一个需要你手动输入\"我确认注销\"六个字的页面，接着是 15 天的冷静期等待。产品经理不是不知道这很反人类——**他们是故意的**。这种摩擦被设计行业称为\"暗黑模式\"（Dark Patterns），将来的课上我们会专门解剖。",
+          "ttsFp": "bdefd9ab_450",
+          "srtCueIdx": 22,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 109,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大多数烂体验的根源，不是按钮颜色不对、字号不够大这些表面问题。它的病根埋得更深——**在你的大脑里**。",
+          "ttsFp": "885c382d_52",
+          "srtCueIdx": 23,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 119,
+          "srcLEnd": 119
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "交互设计领域有一个精准的诊断词，叫**心智摩擦**，英文叫 Mental Friction。它指的是：当人类天生的认知方式，与机器冷冰冰的运行逻辑发生碰撞时，用户内心产生的那股无形阻力。",
+          "ttsFp": "74acbd63_93",
+          "srtCueIdx": 24,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种摩擦看不见、摸不着，但它无处不在。它是你盯着一个界面三秒钟却不知道该点哪里的那一刻；它是你完成了操作却不确定到底成没成功的那种悬空感；它是你明明想做一件简单的事，系统却硬要你按照它的逻辑绕一大圈的那种窒息。",
+          "ttsFp": "3c2a5bdf_105",
+          "srtCueIdx": 25,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 125,
+          "srcLEnd": 125
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "德国哲学家海德格尔（Martin Heidegger）在《存在与时间》里提出了两个伟大的概念——**\"上手状态\"（Ready-to-hand）**和**\"在手状态\"（Present-at-hand）**。这个诞生在将近 100 年前、看似和计算机毫无关系的哲学洞察，却精准地预言了 21 世纪的交互设计挑战。\n当你熟练地用锤子砸铁钉时，你的注意力全在铁钉上，锤子对你来说是透明的、隐形的，这就叫\"上手状态\"（Ready-to-hand）；但当锤子突然断了、或者太滑握不住时，你被迫停下来端详这把锤子，它就成了一个让你分心、客观存在的冰冷物体，这就叫\"在手状态\"（Present-at-hand）。\"心智摩擦\"，本质上就是把用户从流畅的\"上手状态\"生生拽出来，变成充满挫败感的\"在手状态\"的那个瞬间。",
+          "ttsFp": "e789b06c_349",
+          "srtCueIdx": 26,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 127,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "用海德格尔的镜头来审视你手边的数字工具：当你用微信聊天聊得兴起的时候，你根本意识不到\"手机\"或\"App\"这段物理与代码堆积物的存在——它是透明的，是\"上手\"的，你感觉自己是在直接和屏幕背后的那个人讲话。但当微信突然弹出一个\"存储空间不足，请清理缓存\"的系统级弹窗，或者当你发送图片卡在 99% 进度条死活不动时——砰，你被粗暴地拽回了现实。手机瞬间从一个透明的沟通媒介，退化成了一台需要你手动维护参数和处理故障的机器。**这个从透明媒介到冰冷机器\"跌落\"的砰然巨响，就是心智摩擦发作的瞬间。**",
+          "ttsFp": "ec97b803_247",
+          "srtCueIdx": 27,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在正式拆解摩擦之前，我们需要先理解一个大脑的底层能耗模型。认知科学家 Don Norman 区分了两种认知模式：**经验型认知（Experiential Cognition）**和**反思型认知（Reflective Cognition）**。经验型认知是直觉的、快速的、不费力的——这就好比你每天开车上下班、刷朋友圈、看短视频时的状态。反思型认知则是刻意的、缓慢的、费力的——这好比你撰写年度述职报告、做微积分演算、或者学习一套极度复杂的工业造价软件时的状态。",
+          "ttsFp": "5373386a_231",
+          "srtCueIdx": 28,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 140,
+          "srcLEnd": 140
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "后来，诺贝尔经济学奖得主 Daniel Kahneman 用更通俗且风靡全球的说法，把这两种模式称为**系统 1（快思考）**和**系统 2（慢思考）**。",
+          "ttsFp": "3c8d0c70_78",
+          "srtCueIdx": 29,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 142,
+          "srcLEnd": 142
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "Kahneman 有一个经典的课堂演示。他在讲座上先问听众：\"2+2 等于多少？\"全场观众几乎不假思索地脱口而出。然后他话锋一转问：\"21×19 等于多少？\"全场陷入死寂。区别在哪？第一题用\"快思考\"可以直接从记忆库里秒杀，毫不费力；第二题则强制切断了快思考，强行启动了引擎沉重的\"慢思考\"。\n你们当时的脸上写满了系统切换的痛苦——前者的表情是放松的、甚至带着一丝不屑，后者的表情是眉头紧锁、目光向上、甚至屏住呼吸。这就是两套认知系统的**\"切换成本\"**。你的前额叶皮层需要从\"低能耗待机模式\"切换到\"全功率运算模式\"，这个过程消耗的不仅是时间，更是极度宝贵的**意志力**——心理学上称之为\"自我损耗\"（Ego Depletion）。每一次强迫用户动用慢思考，你都在向他们征收高昂的**认知税（Cognitive Tax）**。税收得太狠，用户就会破产离开。",
+          "ttsFp": "661b5bc1_381",
+          "srtCueIdx": 30,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 144,
+          "srcLEnd": 146
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "我们把 Kahneman 的理论直接映射到你们每天的数字生活里。\n想象周五晚上 11 点，你躺在床上刷抖音或者小红书。这个时候，你的大脑完全托付给了**系统 1（快思考）**。你的大拇指在屏幕上极其丝滑地向上滑动，视网膜接受高频多巴胺刺激，整个过程你的心率是平稳的，你的大脑因为处于极度节能的\"自动驾驶（Autopilot）\"状态而感到无比舒适。在这个状态下，你可以连续刷两个小时而不觉得累，甚至根本感觉不到时钟的走动。\n但如果在周一下午 3 点，公司 HR 突然发来一个极其原始的 Excel 报销单表单系统，要求你在这个拥有 40 多个密集输入框、没有任何占位符提示、且只支持强校验格式的网页里，录入你上个月出差的每一笔打车费和发票号。当你点开这个网页的瞬间，你的瞳孔会不自觉地放大，你的深呼吸频率改变，你的大脑被粗暴地踢出了节能模式，强行挂上了**系统 2（慢思考）**的高速挡。你需要动用工作记忆去核对发票号码，用反思认知去推测那些不说人话的报错弹窗究竟是什么意思。\n短短五分钟后，你可能已经觉得筋疲力尽，甚至感到轻微的愤怒和头痛。这并不是矫情，这是真实的生理现象：剧烈耗能的脑前额叶在疯狂抽取你身体里的葡萄糖，这种强制的意志力消耗（Ego Depletion）诱发了轻微的应激反应。那个极其难用的报销系统，实际上是在对你的中枢神经系统进行一次小规模的生理虐待。\n这就是为什么\"看似好用却令人抓狂\"的核心答案——数字界面的\"抓狂\"，其本质永远是计算设备在不合时宜的场景下，强行霸占、肆意透支了人类大脑进化了几百万年才抠抠搜搜攒下来的一点点高级认知能量。",
+          "ttsFp": "b83420b1_680",
+          "srtCueIdx": 31,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 148,
+          "srcLEnd": 153
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "优秀的交互设计，就是努力将工具维持在透明的\"上手状态\"，让用户**尽可能多地停留在快思考模式**——直觉、顺滑、凭肌肉记忆推进；而糟糕的设计，会不断制造界面的突兀感和理解障碍，**强迫用户频繁切换到慢思考**——停顿、困惑、查阅文档、消耗意志力。",
+          "ttsFp": "b54b3991_123",
+          "srtCueIdx": 32,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 157,
+          "srcLEnd": 157
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这里有一个极其重要的高阶推论：**心智摩擦，有时候是设计师故意制造的良药。**",
+          "ttsFp": "ef75b2b2_40",
+          "srtCueIdx": 33,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 159,
+          "srcLEnd": 159
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果用户正在执行一个具有毁灭性后果的操作（比如清空整个公司的数据库、或者转移巨额财产），你还让他顺滑地\"快思考\"通过吗？绝不。这时候，高阶设计师会**刻意引入心智摩擦**，例如要求用户手动在一片空白的输入框里，一字不差地打出 `DELETE Database-Production` 这几个大写字母。这个粗暴打断，就是为了强行唤醒处于怠速状态的前额叶皮层，把操作从无意识的快思考状态，硬生生拽回需要高度审视的反思型慢思考状态。**好的设计消灭无谓的摩擦，高阶的设计驾驭必要的摩擦。**",
+          "ttsFp": "ac88a05c_242",
+          "srtCueIdx": 34,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 160,
+          "srcLEnd": 160
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "今天这节课的核心使命，就是教你们认清并拆解心智摩擦的四大病理性根源：**认知框架的天然局限**、**意图与反馈的链路断裂**、**心理模型与实现模型的底层错位**，以及**界面隐喻的失效与用户记忆的超载**。把这些致病机制看清楚了，你才有能力拿手术刀。",
+          "ttsFp": "2cfa1b1c_126",
+          "srtCueIdx": 35,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 162,
+          "srcLEnd": 163
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们先从根源讲起——你的大脑，究竟是怎么工作的？",
+          "ttsFp": "0ef8bbf8_24",
+          "srtCueIdx": 36,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M00_课程导览.md",
+          "srcLStart": 165,
+          "srcLEnd": 165
+        }
+      ],
+      "firstSrtCueIdx": 18,
+      "budgetChars": 2700,
+      "oralCharCount": 2840,
+      "estimatedMinutes": 15.8,
+      "fillRatio": 1.05
+    },
+    {
+      "id": "mod-4",
+      "title": "模块 1: 认知框架——你的大脑不是处理器 (25 min)",
+      "slides": [
+        {
+          "id": "w02-slide-05",
+          "layout": "Flow",
+          "text": "大脑的三道滤网",
+          "heading": "",
+          "scene": "一张简洁的三层金字塔图：底层\"注意力 Attention\"、中层\"感知 Perception\"、顶层\"记忆 Memory\"，每层配有微型图标（眼睛/拼图/硬盘），箭头从底层向上贯穿",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-05.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-05.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-05.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-05b",
+          "layout": "Split",
+          "text": "",
+          "heading": "1️⃣ 注意力——大脑的第一道滤网",
+          "scene": "左侧是极窄手电筒光束照亮一小块区域；右侧是一个布满重度视觉噪音的网页横幅，横幅外有一个大猩猩剪影",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-05b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-05b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-05b.png"
+          ],
+          "list": [
+            "1️⃣ 选择性注意 (Selective Attention) | 2️⃣ 非注意盲视 (Inattentional Blindness) | 3️⃣ 横幅盲视 (Banner Blindness)"
+          ],
+          "paragraphStart": 4
+        },
+        {
+          "id": "w02-slide-05c",
+          "layout": "Split",
+          "text": "顺应注意力的漏斗",
+          "heading": "",
+          "scene": "左侧展示手机屏幕频繁弹窗打断（红色告警）；右侧展示高空 HUD 投影路面，绿色字体清晰叠加",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-05c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-05c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-05c.png"
+          ],
+          "list": null,
+          "paragraphStart": 9
+        },
+        {
+          "id": "w02-slide-06",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "2×3 网格展示格式塔六大原则的简洁图示：邻近性（分组的点阵）、相似性（颜色分组的形状）、连续性（交叉的曲线）、闭合性（缺口圆形）、图形-背景（鲁宾花瓶）、共同命运（同向箭头群）",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-06.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-06.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-06.png"
+          ],
+          "list": [
+            "邻近 Proximity | 相似 Similarity | 连续 Continuity | 闭合 Closure | 图形与背景 Figure-Ground | 共同命运 Common Fate"
+          ],
+          "paragraphStart": 14
+        },
+        {
+          "id": "w02-slide-06b",
+          "layout": "Split",
+          "text": "",
+          "heading": "2️⃣ 感知——大脑的拼图引擎",
+          "scene": "左侧展示一个 80% 满的进度条和因为强迫症渴望闭合而伸出的虚拟手；右侧展示一个画廊（Carousel）露出的 10% 下一张图的边缘",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-06b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-06b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-06b.png"
+          ],
+          "list": [
+            "闭合的内在渴望 | 连续的无声指令"
+          ],
+          "paragraphStart": 19
+        },
+        {
+          "id": "w02-slide-07",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧为三层抽屉柜示意图——顶层小抽屉标注\"感觉记忆 ~0.5s\"、中层标注\"工作记忆 ~30s / 7±2 块\"、底层大抽屉标注\"长期记忆 ∞\"，右侧展示一个验证码输入场景和一个密码记忆场景",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-07.png"
+          ],
+          "list": [
+            "感觉记忆 ≈ 0.5s | 工作记忆 ≈ 30s · 容量 7±2 | 长期记忆 ≈ 永久"
+          ],
+          "paragraphStart": 28
+        },
+        {
+          "id": "w02-slide-07c",
+          "layout": "Comparison",
+          "text": "Chunking 视觉与逻辑的降维",
+          "heading": "",
+          "scene": "对比图。上方是一串无意义的 11 位数字（被红叉标示）；下方是 3-4-4 分段的手机号码（被绿色对勾标示）",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-07c.png"
+          ],
+          "list": null,
+          "paragraphStart": 33
+        },
+        {
+          "id": "w02-slide-07d",
+          "layout": "Comparison",
+          "text": "让用户看到线索，而不是背诵咒语",
+          "heading": "",
+          "scene": "左侧是满屏纯黑的命令行界面，一个人正抓狂地背诵命令；右侧是现代 GUI 放大镜图标和搜索框",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07d.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07d.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-07d.png"
+          ],
+          "list": null,
+          "paragraphStart": 37
+        },
+        {
+          "id": "w02-slide-07b",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "展示 NASA-TLX 任务负荷指数的六边形雷达图，各个维度用醒目的颜色标出异常峰值，图示一个\"糟糕表单\"如何在这个雷达图上爆表",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-07b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-07b.png"
+          ],
+          "list": [
+            "脑力需求 MD | 体力需求 PD | 时间压力 TD | 自我绩效 OP | 努力程度 EF | 挫败感 FR"
+          ],
+          "paragraphStart": 41
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "要理解心智摩擦，我们得先搞清楚大脑处理信息的基本管线。从纷繁复杂的物理世界到你的意识深处，一切信息都要闯过三道极其严苛的滤网。",
+          "ttsFp": "93ed632b_63",
+          "srtCueIdx": 37,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第一关，叫**注意力**。",
+          "ttsFp": "951324d7_13",
+          "srtCueIdx": 38,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "人类的注意力不是探照灯，不是均匀地照亮整个世界。它更像一根**手电筒**——光束极窄，打在哪里，哪里才有光，其余的全是黑暗。认知心理学管这叫**选择性注意**（Selective Attention）。你不能\"同时注意所有事\"，这是大脑为了节省能量进化出的生存本能。",
+          "ttsFp": "997298cf_133",
+          "srtCueIdx": 39,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "1999 年，伊利诺伊大学的 Daniel Simons 和 Christopher Chabris 做了一个著名实验（Simons & Chabris, 1999, *Perception*）：他让受试者数视频里穿白衣服的人传了几次球。结果精确数据是——**46% 的受试者**完全没有注意到视频中间有一个穿黑色大猩猩套装的人大摇大摆走过画面，停留了整整 9 秒钟，还对着镜头拍了拍胸膛。接近一半的人，对一个 9 秒钟的黑色大块头视而不见。这就是\"非注意盲视\"——Inattentional Blindness——的经典实验证据。你的大脑不是没\"看见\"，而是主动选择了\"忽略\"。",
+          "ttsFp": "dc7526e6_290",
+          "srtCueIdx": 40,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 22,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如屏幕左侧的视觉隐喻所示，这件事告诉我们一个残酷的设计事实：**你放在界面上的每一个元素，都在和其他元素争夺用户那根手电筒的光束**。当信息太多、视觉刺激太密集的时候，用户不是\"看漏了\"——是大脑的生存本能帮他**主动屏蔽**了。",
+          "ttsFp": "3bb26183_115",
+          "srtCueIdx": 41,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "这种屏蔽在网页设计中有一个专门的名字：**横幅盲视**，Banner Blindness。Nielsen Norman Group 2018 年的眼动追踪研究给出了冰冷的数据：用户在 **65% 的情况下**完全没有注视广告位区域——即使那里放的是关键功能入口或重要通知。用户通过元素的尺寸、形状和位置来判断\"这看起来像广告\"，然后大脑的选择性注意机制会自动将其屏蔽。更讽刺的是，动态闪烁的横幅比静态横幅更容易被忽略——你越拼命闪，用户越坚决地不看。这意味着，注意力的分配不是由设计师决定的，而是由用户的**生存直觉**和**习惯模型**共同决定的。",
+          "ttsFp": "d3e4bbab_275",
+          "srtCueIdx": 42,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 36,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "更棘手的是注意力的**切换成本**。美国心理学会（APA）综述了大量任务切换研究后指出：频繁在认知任务之间切换，生产力损失最高可达 **40%**。这不是比喻，是实证数据。切换过程涉及两步认知操作——\"目标转移\"（决定做另一件事）和\"角色激活\"（加载新任务的规则）——每次切换都要消耗大脑极为稀缺的执行控制资源。",
+          "ttsFp": "5bc29494_156",
+          "srtCueIdx": 43,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "教材引用了一项研究发现，一边阅读教材一边收发即时消息的学生，完成相同阅读量所花的时间比不受打扰的学生多出了约 **50%**。你以为自己在同时做两件事，但人脑根本不支持真正的并行处理（Multitasking）——只有约 **2.5%** 的人口是所谓的\"超级多任务者\"（Supertaskers）。对于剩下的 97.5% 的人类来说，\"多任务处理\"其实只是在极其快速地**切换注意力**。",
+          "ttsFp": "f9c51797_195",
+          "srtCueIdx": 44,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是为什么弹出式打断（如应用内评分弹窗）如此有害。每当你用一个弹窗打断用户的核心任务流，你不仅偷走了他们的时间，更偷走了他们重建认知状态需要消耗的血压与意志力。",
+          "ttsFp": "a5d95c64_81",
+          "srtCueIdx": 45,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就引出了我们如何解决它的问题。请看右侧幻灯片。",
+          "ttsFp": "ed8dacac_24",
+          "srtCueIdx": 46,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 54,
+          "srcLEnd": 54
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "怎么顺应而不是对抗注意力的漏斗？看看车载导航系统。驾驶是一个极高视觉负荷的任务，司机的\"注意力手电筒\"必须锁定在前方路面上。高德地图的 HUD（平视显示器）模式，将最重要的导航箭头和车速直接投影在挡风玻璃上，就是为了让司机**不转移视线就能分配注意力**。近期推出的\"绿波路段\"提示——用语音告诉你\"保持 50km/h 就能一路绿灯\"——更是直接将信息从已经过载的**视觉通道**转移到了空闲的**听觉通道**，完美避开了注意力的单通道拥挤危机。",
+          "ttsFp": "e0eb6297_223",
+          "srtCueIdx": 47,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 56,
+          "srcLEnd": 57
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "注意力筛下来的信息，进入第二道滤网。记住这个核心洞察：**感知不是在被动地接收世界，而是在主动地构建世界。**",
+          "ttsFp": "b9b3a68c_55",
+          "srtCueIdx": 48,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[ART/AESTHETICS]\n著名的美国\"光与空间运动\"先驱，当代艺术家**詹姆斯·特瑞尔（James Turrell）**甚至把这一机制变成了艺术。他有一个全球著名的天光装置系列《Skyspaces》——在一个纯白的房间顶部切出一个正方形的洞，让观众看天空。因为剔除了树木、楼房等所有的参照物边界，当你盯着那块天空看时，你的大脑会因为\"缺乏上下文关联法则\"而陷入崩溃，天空看起来不再是高高在上的苍穹，而是一块触手可及的二维蓝色实体发光板。特瑞尔利用人类\"感知的主观构建性\"证明了：只要改变外部参照，大脑就会乖乖地重构现实。",
+          "ttsFp": "7ea94faf_264",
+          "srtCueIdx": 49,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 61,
+          "srcLEnd": 62
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "明白了感知是构建出来的，我们来看人类最常用的大脑\"构建外挂\"——**格式塔（Gestalt）**原则。",
+          "ttsFp": "ca3c2edc_51",
+          "srtCueIdx": 50,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "通过了注意力的筛选之后，信息进入第二关——**感知**。",
+          "ttsFp": "e42e1c9c_28",
+          "srtCueIdx": 51,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 75,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你的大脑不是按像素读取世界的。它天生就是一个贪心的**模式识别机器**，拼命地要在混乱的视觉输入中找到秩序。100 多年前，德国心理学家们发现了这个规律，取了一个名字叫**格式塔原则**，Gestalt Principles。",
+          "ttsFp": "d4d50fd6_113",
+          "srtCueIdx": 52,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 77,
+          "srcLEnd": 77
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们来逐条拆解这六大原则，看看每一条是怎么直接指导甚至宣判你的界面生死的：",
+          "ttsFp": "f3b3ec37_37",
+          "srtCueIdx": 53,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 79,
+          "srcLEnd": 79
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **邻近性（Proximity）**：放得近的东西，大脑会自动认为它们是一伙的。你看看任何一个表单设计——标签（Label）和输入框（Input）靠得越近，用户就越清楚谁属于谁。反例是什么？把\"确认密码\"的标签放在上一行输入框的正下方、下一行输入框的正上方——等距排列——用户就会犹豫：这个标签到底属于上面还是下面？这就是邻近性失效制造的微小摩擦。",
+          "ttsFp": "16078528_176",
+          "srtCueIdx": 54,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 81,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **相似性（Similarity）**：长得像的东西，大脑会归为同类。你看 iOS 的设置页面——蓝色图标的全是苹果自带工具集，绿色图标的全是通信与网络状态类。你不需要读文字就能区分类别。所有可点击的按钮如果都采用 8px 圆角和微弱背景色，用户一看就知道\"这些都能按\"。反过来，如果你把一段极度普通的不可点击文本设成蓝色加下划线，用户会条件反射地去点它——因为它长得像自古以来的超级链接，你打破了相似性预期。",
+          "ttsFp": "9345c12d_207",
+          "srtCueIdx": 55,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 83,
+          "srcLEnd": 83
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "仔细观察大屏幕上左侧和右侧的两个典型案例：",
+          "ttsFp": "7f0cc7aa_21",
+          "srtCueIdx": 56,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 92,
+          "srcLEnd": 92
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **闭合性（Closure）**：大脑痴迷于\"补完\"不完整的图形。一个缺了角的圆，你仍然会把它看成圆。屏幕左侧的进度条之所以有效，就是利用了大脑对\"闭合\"的**强迫性渴望**——你看到一个 80% 的进度条，大脑会产生一种\"差一点就满了\"的内在瘙痒，驱动你完成最后的注册步骤。",
+          "ttsFp": "84866d04_140",
+          "srtCueIdx": 57,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **连续性（Continuity）**：人会倾向于把视觉元素看成沿着连续路径排列的。为什么横向滑动的画廊（Carousel）要故意在这张图的右侧**露出下一张图的 10% 边缘**？那不是没排好版，那是如屏幕右侧展示的利用连续性原则，给用户的视觉系统下达一个无声的指令：\"这里还没完，请向左划\"。",
+          "ttsFp": "f2f32914_150",
+          "srtCueIdx": 58,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **图形与背景（Figure-Ground）**：大脑会瞬间把视觉场景分为前景的\"图形\"（你关注的焦点）和后景的\"背景\"（被忽略的环境）。模态对话框（Modal Dialog）为什么要把背后的主页面变灰或用毛玻璃模糊掉？就是利用图形-背景原则，让弹窗成为整个认知域里唯一的\"图形\"，把原本凌乱的主界强行降维成\"背景\"，迫使用户的注意力**强制锁定在一点**。",
+          "ttsFp": "8fc5d359_181",
+          "srtCueIdx": 59,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **共同命运（Common Fate）**：一起运动的物体会被视为一个整体。当你在 iOS 主屏幕向右滑动，一整层的 App 图标以绝对相同的加速度和轨迹一起滑出屏幕——大脑瞬间认定，这一屏幕里的所有图标是一个共同体。这就是为什么动效设计中，关联信息出现的时间和节奏必须完全一致的原因。",
+          "ttsFp": "e5dabbf4_145",
+          "srtCueIdx": 60,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "格式塔——Gestalt——这个德语单词没有准确的英文对等词。它大致的意思是\"整体形态\"——暗示人类理解事物的方式永远是\"整体先于部分\"，而非把零件一个个拼起来。这恰恰解释了为什么\"拍脑袋加功能\"的堆砌式设计注定失败——用户理解的不是你的功能列表，是你的**整体印象**。",
+          "ttsFp": "d106e34d_136",
+          "srtCueIdx": 61,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 102,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "因为你的大脑不是硬盘，它是极易挥发的动态 RAM。设计的一项核心义务就是：**帮助用户外接这部分极易过载的工作记忆**。",
+          "ttsFp": "9857c522_60",
+          "srtCueIdx": 62,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 105,
+          "srcLEnd": 105
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "让我们把认知负荷的极限测试放在一个最极端的场景里：1969 年 7 月 20 日，人类首次登月。\n当阿波罗 11 号登月舱（登月舱代号\"鹰\"）距离月球表面只有不到 10000 英尺，阿姆斯特朗和奥尔德林正处于人类历史上最高压、认知负荷即将爆表的着陆阶段时。突然，导航计算机的主警报灯亮起，屏幕上闪烁着陌生的代码：`1202 Program Alarm`。\n注意力管线瞬间被劫持。几秒钟后，又闪电般暴露出新的 `1201 Alarm`。此刻，两位宇航员的视觉感知系统被满屏报警信号充斥，而他们的短时记忆里根本没有关于 1202 代表什么的知识（因为这是一次极其罕见的交会雷达误开启导致的数据溢出错误）。\n按照常规航空界面的逻辑，系统遇到不明致命错误，宇航员应该立刻中止着陆并按下逃逸按钮。如果当时这台阿波罗制导计算机（AGC）的设计师采用的是\"一旦资源耗尽就全盘崩溃\"的实现模型，人类的首次登月就在距月表几千英尺的地方以耻辱的逃逸告终了。\n但 MIT 的系统设计先驱玛格丽特·汉密尔顿（Margaret Hamilton）在设计这套软件时，极其天才地考虑到了一种\"认知与计算系统双重过载\"的兜底方案——**异步优先级调度引擎**。当雷达传来的无用数据填满内存产生 1202 警报时，这台仅有几兆赫兹可怜算力的计算机并没有死机，它只是通过简陋的界面向宇航员诚实地抱怨：\"我已经完全超载了！\"但与此同时，它在底层自动**切断了所有低优先级的非关键计算任务**，把全部算力仅仅保留给了维持登月舱姿态和控制下降引擎的 P63 着陆程序。\n地面控制中心的年轻工程师史蒂夫·贝尔斯（Steve Bales）在关键的三秒钟内做出了判断，通过无线电向登月舱大喊：\"我们在 1202 警报下可以继续！我们对该警报放行（We're Go on that alarm）！\"\n在这场惊心动魄的历史时刻中，人类和机器同时面临着由于大量意外并发信息涌入而造成的**记忆和注意力缓冲区溢出**。但正是因为伟大的工程界面设计提前在逻辑底座里预置了一种**\"降级运行但保持核心心流完全可见的宽恕度\"**的系统反馈，他们硬生生抗住了这次生死存亡的认知风暴。这就是我们在谈论\"认知防线\"时，最高级别的设计信仰：即便在系统的极端盲穿状态下，你也要通过界面的宽容性，赋予操作者最核心、最高意图的存活通道。",
+          "ttsFp": "a765c3a1_980",
+          "srtCueIdx": 63,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 107,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "以上就是人类认知的三个自然生理限制。面对这套自带缺陷的出厂配置，体验设计师无法篡改人类基因去扩充脑容量，唯一能做的是在这个先天框架下游刃有余地布置缓冲垫与指示牌。",
+          "ttsFp": "8b760382_81",
+          "srtCueIdx": 64,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "注意力筛完、感知拼完，最后通关的信息才有机会进入**记忆**。",
+          "ttsFp": "e4e5c810_31",
+          "srtCueIdx": 65,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 127,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但记忆可不是一个大硬盘。它至少分三层。",
+          "ttsFp": "94655e1d_19",
+          "srtCueIdx": 66,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**感觉记忆**只撑半秒钟——你的视网膜闪过的图像、耳朵掠过的声音，一晃就没。**长期记忆**容量近乎无限，但存取速度极慢——想想你上次回忆高中同学名字用了多久。",
+          "ttsFp": "c9f545de_81",
+          "srtCueIdx": 67,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而交互设计最关注的，是夹在中间的那层——**工作记忆（Working Memory）**。它是用来做推理和决策的暂存区，是大脑真正的 CPU 缓存。",
+          "ttsFp": "06b967a1_74",
+          "srtCueIdx": 68,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 133,
+          "srcLEnd": 133
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1956 年，认知心理学家 George Miller 发表了一篇改变历史的论文，标题就叫《神奇的数字 7±2》。他发现，人类的工作记忆同一时间只能处理大约 **7 个**（上下浮动 2 个）独立的信息块。后来的认知神经科学利用 fMRI 成像技术把这个数字修正得更保守、更残酷——在没有重度排练的情况下，纯粹的工作记忆可能只能容忍大约 **4 个**组块（chunk）同时存活。",
+          "ttsFp": "934ce70d_190",
+          "srtCueIdx": 69,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 135,
+          "srcLEnd": 135
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这也是为什么如屏幕上对比图展示的小技巧能完全拯救糟糕体验：",
+          "ttsFp": "5d321ff0_29",
+          "srtCueIdx": 70,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 144,
+          "srcLEnd": 144
+        },
+        {
+          "type": "tech_note",
+          "tag": "TECH NOTE",
+          "text": "[TECH NOTE: Chunking 组块化]\nMiller's Law 的「7±2」是被误解最深的理论之一。很多人以为它指的是\"界面上只能放七个按钮\"。错。Miller 说的容量单位是 **chunk（信息块）**——大脑能够赋予其**单一意义的组合单元**。\n\n举个致命的例子。一串随机数字 `1-3-0-2-2-5-8-1-9-8-4` 有 11 个独立数位，对大脑来说是 11 个 block，直接**爆内存**。\n但如果你把它按 3-4-4 的节奏空开：`130 2258 1984`，并且发现它是一个手机号，它就瞬间变成了 **3 个 chunk**，你的大脑就能在 10 秒钟内背下来。\n**设计的本质，很大程度上就是帮用户在这个界面上做视觉和逻辑的 chunking。**",
+          "ttsFp": "c051ca42_345",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 146,
+          "srcLEnd": 151
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "这个心理学原理是如何切切实实影响千万级用户的呢？去看看各大银行的 App 吧。那些老旧的系统，在让你输入 16 到 19 位银行卡号时，是一个没有任何空格的长文本框。你的眼睛需要在卡片和屏幕之间来回四五次，每次看个 3-4 位数，然后战战兢兢地核对。一旦输错一位，满盘皆输。\n而优秀的现代支付组件怎样做？**自动 4 位分段**。你敲到四位数，它自动帮你敲一个空格：`6222 0212 3456 7890`。四个独立数字被捆绑成了一个视觉 Chunk，大大降低了工作记忆刷新时丢失比特的概率。短信验证码同理，为什么从早期的 6 位紧密排列变成了现在常见的 4 位分开输入框？全都是在向这可怜的\"4个组块\"低头。",
+          "ttsFp": "501faec6_306",
+          "srtCueIdx": 71,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 153,
+          "srcLEnd": 155
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "换句话说，你的工作记忆就像一张只能贴 4 张便签纸的小桌子。旧的还没处理完，新的又来了，大脑就**崩溃**了。",
+          "ttsFp": "a5e3a2b7_55",
+          "srtCueIdx": 72,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 157,
+          "srcLEnd": 157
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如大屏幕上的对比所揭示的，图形界面相比命令行有降维打击的优势。",
+          "ttsFp": "a7191420_31",
+          "srtCueIdx": 73,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 166,
+          "srcLEnd": 166
+        },
+        {
+          "type": "tech_note",
+          "tag": "TECH NOTE",
+          "text": "[TECH NOTE: 识别胜于回忆 Recognition over Recall]\n为了拯救这张小小的\"便签桌\"，交互设计史上诞生了一条最伟大的金科玉律：**让用户去\"识别\"（Recognition），而不是\"回忆\"（Recall）。**\n\n什么是回想？回想是你必须从大脑深处的长期记忆库里，生生地打捞出一条毫无线索的信息。比如在命令行界面（CLI）时代，你想在文件夹里找一个包含 \"error\" 这个词的日志文件，你必须在大脑里凭空回想出一长串咒语：`grep -r \"error\" /var/log/`。少一个空格，少一个横杠，系统就拒绝执行。这极度消耗脑力。\n什么是识别？识别是你看到一个视觉线索，唤起了记忆。比如在今天的图形界面（GUI）里，你不需要背诵咒语，你只需要**看到**右上角有一个放大镜图标，**点击**它，然后在搜索框里输入 \"error\"。\n\n**GUI（图形界面）之所以在上世纪 80 年代掀起计算革命，根本原因不是因为它\"好看\"，而是因为它把计算机的交互模式从\"强制回忆\"降维成了\"轻松识别\"。**\n这是生物学决定的。人类的视觉识别皮层经过了几百万年的进化，极度发达——你可以在 0.1 秒内从人群中认出一张老同学的脸（识别），但你可能憋了 3 分钟也叫不出他的名字（回想）。如果你的系统依赖用户凭空背诵快捷键、记住复杂的文件路径、或者在没有任何提示的搜索框里猜测关键词，你就是在公然对抗人类的生物学本能。",
+          "ttsFp": "f78598a9_617",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 168,
+          "srcLEnd": 175
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "和工作记忆容量密切相关的，还有一条叫 **Hick's Law（席克定律）** 的法则——**选项越多，决策时间越长**。注意，这和 Miller's Law 说的不是一回事。Miller 说的是你能同时\"捏住\"多少个小球不掉下来，Hick 说的是你在面对一堆小球时\"挑出一个特定的球\"有多慢。",
+          "ttsFp": "132f17ab_147",
+          "srtCueIdx": 74,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 177,
+          "srcLEnd": 177
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Hick's Law 的公式是：决策时间 ≈ a + b·log₂(n + 1)，其中 n 是选项数量。也就是说，从 2 个选项增加到 4 个，决策时间的增长不到一倍；但从 4 个增加到 32 个，决策时间将呈对数级暴涨。这就是为什么**渐进式披露（Progressive Disclosure）**如此重要——这也是 Apple 设计哲学中最爱用的一招：不要一次性把 50 个高级设置项平铺给用户，而是只显示最常用的 5 个，然后给一个\"高级选项...\"的折叠入口。把复杂的选项藏在第二层，也就是用空间换取了用户宝贵的认知时间。",
+          "ttsFp": "e8aa096f_265",
+          "srtCueIdx": 75,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 178,
+          "srcLEnd": 178
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "认知心理学还有一个终极的度量方式：**认知负荷（Cognitive Load）**。简单来说，它衡量的是当前任务对你那台可怜\"工作记忆 CPU\"的占用率。",
+          "ttsFp": "58952119_77",
+          "srtCueIdx": 76,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 187,
+          "srcLEnd": 187
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "早在 20 世纪 80 年代，NASA（美国宇航局）为了评估宇航员在驾驶航天飞机时的极限状态，开发了一个标准化的主观评估工具，叫 **NASA-TLX（任务负荷指数）**。这个模型至今被交互设计界奉为圭臬。它用六个残酷的维度来量化一个人的认知负荷水平：",
+          "ttsFp": "81accec7_126",
+          "srtCueIdx": 77,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 188,
+          "srcLEnd": 188
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **脑力需求（Mental Demand）**：思考、计算、记忆、查找的量有多大？（填 100 项的问卷）",
+          "ttsFp": "7bacdd0e_56",
+          "srtCueIdx": 78,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 189,
+          "srcLEnd": 189
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **体力需求（Physical Demand）**：点击、滑动、拖拽有多费劲？（需要在屏幕两端来回长距离移动鼠标）",
+          "ttsFp": "79280832_60",
+          "srtCueIdx": 79,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 190,
+          "srcLEnd": 190
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **时间压力（Temporal Demand）**：时间给人的紧迫感？（支付界面的 30 秒倒计时）",
+          "ttsFp": "f6d9220f_53",
+          "srtCueIdx": 80,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 191,
+          "srcLEnd": 191
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. **自我绩效（Performance）**：用户觉得自己做得好不好？（没提示哪里填错了，用户感到自己很蠢）",
+          "ttsFp": "c045bbe4_56",
+          "srtCueIdx": 81,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 192,
+          "srcLEnd": 192
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "5. **努力程度（Effort）**：为了达到上述绩效，用户付出了多大努力？",
+          "ttsFp": "b26386d8_39",
+          "srtCueIdx": 82,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 193,
+          "srcLEnd": 193
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "6. **挫败感（Frustration）**：操作过程中感到的不安全、气馁、愤怒或压力有多大？",
+          "ttsFp": "1bcca5d7_48",
+          "srtCueIdx": 83,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 194,
+          "srcLEnd": 194
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "对合格的日常产品设计师来说，降低系统固有的认知负荷几乎是所有可用性优化的**元目标**。而对高等级产品的设计师（比如医疗设备、核电站控制台、飞行 HUD 控制系统）来说，确保系统界面在极端高压下**绝不能引发认知超载**，是底线中的底线。",
+          "ttsFp": "433f2493_119",
+          "srtCueIdx": 84,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 196,
+          "srcLEnd": 196
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这三道滤网——注意力的极度狭窄、感知的强行拼图癖、工作记忆的极小容量池——就是人类认知系统的天然局限，是我们作为生物出厂时就锁死的硬件参数。所有的心智摩擦，归根结底，都是因为不学无术的产品设计**胆敢违背这三条生理铁律**。",
+          "ttsFp": "082cb6e0_112",
+          "srtCueIdx": 85,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 200,
+          "srcLEnd": 200
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "明白了人脑的底层操作系统，我们就可以开始看它是怎么被糟糕的机器界面给\"卡住\"的了。第一个致命卡点，发生在人类隐秘的意图与系统冰冷的反馈这两者交汇的**链路**上。",
+          "ttsFp": "9452c684_81",
+          "srtCueIdx": 86,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M01_认知框架_你的大脑不是处理器.md",
+          "srcLStart": 202,
+          "srcLEnd": 202
+        }
+      ],
+      "firstSrtCueIdx": 37,
+      "budgetChars": 4500,
+      "oralCharCount": 4625,
+      "estimatedMinutes": 25.7,
+      "fillRatio": 1.03
+    },
+    {
+      "id": "mod-5",
+      "title": "模块 2: 意图与反馈的断裂 (25 min)",
+      "slides": [
+        {
+          "id": "w02-slide-08",
+          "layout": "Flow",
+          "text": "Norman 的行动循环与两道鸿沟",
+          "heading": "",
+          "scene": "一个环形流程图展示 Norman 的七阶段行动模型：用户目标 → 意图 → 行动序列 → 执行 →⟨执行鸿沟⟩→ 感知 → 解释 → 评估 →⟨评估鸿沟⟩→ 回到目标。两处鸿沟位置用红色警示标注",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-08.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-08.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-08.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-09",
+          "layout": "Split",
+          "text": "",
+          "heading": "1️⃣ 执行鸿沟 (Gulf of Execution)",
+          "scene": "左侧为一个满布按钮的老式录像机遥控器照片，右侧为携程 App 日期选择器界面——返程日期早于出发日期的选项已置灰",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-09.png"
+          ],
+          "list": [
+            "鸿沟本质：用户心里有目标，但不知道怎么让系统动起来 | 解法：可供性 + 约束 + 智能默认值"
+          ],
+          "paragraphStart": 5
+        },
+        {
+          "id": "w02-slide-09b",
+          "layout": "Full",
+          "text": "诺曼门：当物理界面给出错误的线索",
+          "heading": "",
+          "scene": "一扇装有巨大拉向把手、却贴着\"推\"（Push）标签的玻璃门，一个人正尴尬地拉着门把手",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-09b.png"
+          ],
+          "list": null,
+          "paragraphStart": 7
+        },
+        {
+          "id": "w02-slide-09c",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是让用户填错日期后弹出的红色报错弹窗；右侧是携程 App 中将无效返程日期提前置灰禁用的日历组件",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-09c.png"
+          ],
+          "list": [
+            "错误发生前干预 | 消灭耻辱循环"
+          ],
+          "paragraphStart": 10
+        },
+        {
+          "id": "w02-slide-09d",
+          "layout": "Grid",
+          "text": "可供性 | 信号标识 | 约束",
+          "heading": "",
+          "scene": "三列卡片。左侧\"可供性\"（3D凸起按钮）；中间\"信号标识\"（带\"请输入\"字样的输入框）；右侧\"约束\"（防呆USB插头）",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09d.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-09d.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-09d.png"
+          ],
+          "list": null,
+          "paragraphStart": 12
+        },
+        {
+          "id": "w02-slide-10",
+          "layout": "Split",
+          "text": "",
+          "heading": "2️⃣ 评估鸿沟 (Gulf of Evaluation)",
+          "scene": "左侧为一个点击\"提交订单\"后毫无反馈的空白页面，右侧为 Gmail 底部浮现的黑色 Toast 提示条\"会话已归档 · 撤销\"",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-10.png"
+          ],
+          "list": [
+            "鸿沟本质：操作完了，但不知道到底发生了什么 | 解法：即时反馈 + 可逆操作 + 状态可见性"
+          ],
+          "paragraphStart": 17
+        },
+        {
+          "id": "w02-slide-10b",
+          "layout": "Flow",
+          "text": "视觉 × 听觉 × 动觉的三重保障",
+          "heading": "",
+          "scene": "一名乘客刷卡通过地铁闸机的瞬间，画面中拆解出三条不同颜色的反馈射线：眼睛看到绿灯、耳朵听到\"嘀\"声、身体感受到闸门打开",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-10b.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        },
+        {
+          "id": "w02-slide-10c",
+          "layout": "Full",
+          "text": "当操作失去\"可解释性\"反馈",
+          "heading": "",
+          "scene": "黑色代码终端界面，一行简短的命令被执行，背景是全球大量红色断网标识的服务器群，充满\"蝴蝶效应\"的压抑感",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-10c.png"
+          ],
+          "list": null,
+          "paragraphStart": 24
+        },
+        {
+          "id": "w02-slide-10d",
+          "layout": "Split",
+          "text": "隐藏状态与敷衍反馈的极限杀伤力",
+          "heading": "",
+          "scene": "左侧是波音 737 驾驶舱中隐形坠落的飞机轮廓，右侧是 Therac-25 控制台冷漠闪烁的\"Malfunction 54\"",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10d.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-10d.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-10d.png"
+          ],
+          "list": null,
+          "paragraphStart": 25
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Donald Norman，认知科学家、《设计心理学》的作者——如果说交互设计有教父的话，这个人就是。",
+          "ttsFp": "acacf6a0_51",
+          "srtCueIdx": 87,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Norman 提出了一个极其有力的模型来描述人与任何系统的交互过程。他说，人做任何事，都在经历一个**七步循环**。我们来逐步拆解。",
+          "ttsFp": "2c759ffb_66",
+          "srtCueIdx": 88,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**上半圈——从目标到手——属于\"执行\"侧**。第一步：你在脑子里形成一个模糊的**目标**——\"我要给老妈转 500 块钱\"。第二步：把目标翻译成更具体的**意图**——\"用银行 App 转账\"。第三步：意图分解成**行动序列**——打开 App → 点转账 → 输入金额 → 确认。第四步：手指按照这个序列**执行**物理操作。",
+          "ttsFp": "3a283c83_166",
+          "srtCueIdx": 89,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**下半圈——从屏幕到脑——属于\"评估\"侧**。第五步：你的眼睛**感知**屏幕上的变化——页面跳转了、出现了动画。第六步：你的大脑**解释**这些变化的含义——\"这个绿色勾号应该表示成功了\"。第七步：你把解释与最初的目标做**评估**——\"妈妈收到了吗？我的目标达成了吗？\"",
+          "ttsFp": "65ad0095_138",
+          "srtCueIdx": 90,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个循环看着挺顺畅。但它的脆弱之处在于——**链条上有两个极容易断裂的缺口**。Norman 给它们取了一个精准的名字：**鸿沟**，英文叫 Gulf。",
+          "ttsFp": "d3c69203_76",
+          "srtCueIdx": 91,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "执行鸿沟是什么感觉？就是你盯着界面，心里在喊：**\"我到底该按哪个？\"**",
+          "ttsFp": "e41437bb_37",
+          "srtCueIdx": 92,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你有明确的意图：我要录像。但遥控器上黑压压五六十个按钮，没有哪个写着\"开始录像\"或者标着红点。你的意图和系统的操作界面之间，横着一条深不见底的沟。这就代表意图无法被轻易**翻译**为具体操作。",
+          "ttsFp": "64f72984_96",
+          "srtCueIdx": 93,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 37,
+          "srcLEnd": 37
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这也是屏幕上这幅尴尬日常画面的来源：",
+          "ttsFp": "742ebee5_18",
+          "srtCueIdx": 94,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "交互设计界有一个极度出圈的梗叫\"诺曼门\"（Norman Doors）。指的是那些明明该推、却装了一个巨大把手（暗示你拉）的门；或者没有把手只有一块平板、却要求你拉的门。当你每天在办公楼里尴尬地撞在门上、或者用力拉门却拉不动时，你不应该觉得\"我真蠢\"——你遇到了典型的诺曼门。诺曼门是物理世界里执行鸿沟的究极体：它的外观结构（物理界面）给出了完全错误的**操作线索**。如果一扇门都需要贴上\"推（Push）\"或者\"拉（Pull）\"的使用说明书，那这扇门的设计就是彻底失败的。",
+          "ttsFp": "35744bf7_236",
+          "srtCueIdx": 95,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 48,
+          "srcLEnd": 49
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在数字产品里也是一样。当一个企业级后台的导航层级深达五层，每个入口的命名都用着缩写（如 \"CRM-PL-02\"）等只有后端程序员才懂的内部系统术语，用户就会在第二层开始迷路——你明明知道你想干嘛，但你不知道鼠标该点哪。这就是执行鸿沟在吞噬用户的认知带宽与时间。",
+          "ttsFp": "1db1206a_130",
+          "srtCueIdx": 96,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 51,
+          "srcLEnd": 51
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就引出了如大屏幕右侧所示的解决方案：",
+          "ttsFp": "f50a989a_19",
+          "srtCueIdx": 97,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "优秀的设计用\"前置约束\"来抢先填平鸿沟。当你在携程预订往返机票选择日期时，系统会直接将所有早于出发日的返程日期**置灰禁用**。这种设计在错误发生之前就消灭了犯错的可能性——用户永远不需要经历\"填了个逻辑冲突的日期 → 被弹窗骂一顿 → 重新填\"的耻辱循环。这才叫为人类的认知局限买单。",
+          "ttsFp": "9e7fea0b_143",
+          "srtCueIdx": 98,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 62,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如屏幕上的三连卡片所示，让我们把填平执行鸿沟的工具箱展开。Norman 提出了三个极其关键的防御概念：",
+          "ttsFp": "93328a83_51",
+          "srtCueIdx": 99,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**可供性**（Affordance）——物体自身结构所直接暗示的可能用法。生态心理学家 J.J. Gibson 最早提出了这个词。对于一只猴子来说，一根树枝提供了\"可抓握\"和\"可攀爬\"的可供性；对于现代人来说，一个门把手的扁平形状强烈暗示你该\"推\"，而一个弯曲的把手则暗示你该\"拉\"。一个按钮的 3D 凸起质感让你知道它能按下去。在纯文字的数字二维平面界面中，一个蓝色亮色带下划线的文字在人类经验里强烈暗示\"我是通往另一个页面的链接\"，一个带扩散阴影和圆角的矩形色块强烈暗示\"我是可交互的浮动按钮\"。可供性建立的是一种不需要大脑翻译的**直觉物理映射**。",
+          "ttsFp": "9d1e1be3_279",
+          "srtCueIdx": 100,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**信号标识**（Signifier）——明确告诉你\"在哪里做\"的线索。一个输入框里浅灰色的占位文字\"请输入手机号\"，就是信号标识——它不是可供性本身，它是可供性的**路标**。注意区分：可供性是本体论的（事物本身具有的属性），信号标识是认识论的（帮你发现这个属性）。",
+          "ttsFp": "3e78350e_134",
+          "srtCueIdx": 101,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 76,
+          "srcLEnd": 76
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**约束**（Constraints）——杜绝\"做错了怎么办\"。携程的日期置灰就是约束。USB 接口只能以正确方向插入也是约束。约束的极端形态叫做**强制性功能**（Forcing Function）——比如微波炉门没关好就无法启动。",
+          "ttsFp": "b6e13070_117",
+          "srtCueIdx": 102,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "可供性和信号标识是两个最容易被混淆的概念。Norman 自己在后来的著作里都对这个混淆做了修正。简单记：**可供性是\"能做什么\"，信号标识是\"怎么发现能做什么\"**。一扇玻璃门天生\"可供\"推开（可供性存在），但如果没有\"请推\"的标签（信号标识缺失），人们会对着它困惑甚至撞上去。",
+          "ttsFp": "18fdd1b7_139",
+          "srtCueIdx": 103,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 80,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "执行鸿沟发生在操作**之前**，评估鸿沟则发生在操作**之后**。",
+          "ttsFp": "e9638b32_33",
+          "srtCueIdx": 104,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它是什么感觉？**——\"刚才到底发生了什么？\"**",
+          "ttsFp": "c404d483_25",
+          "srtCueIdx": 105,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你点了\"提交订单\"。页面纹丝不动。没有 Loading 动画，没有弹窗，没有欢呼。你的大脑陷入巨大的不确定性：\"钱扣了吗？我该不该再点一次？\"——然后你真的又点了一次，然后你被扣了两次钱。",
+          "ttsFp": "b1a25c16_94",
+          "srtCueIdx": 106,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "缺乏反馈，或者反馈延迟甚至反馈造假，会让用户的心智直接**悬空**。这是最暴力的摩擦制造机，它迫使用户自己去瞎猜系统的内在状态。",
+          "ttsFp": "d809be4b_64",
+          "srtCueIdx": 107,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "缺乏反馈，或者反馈延迟甚至反馈造假，会让用户的心智直接**悬空**。这是最暴力的摩擦制造机，它迫使用户自己去瞎猜系统的内在状态。",
+          "ttsFp": "d809be4b_64",
+          "srtCueIdx": 108,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们可以看看现实中最成功的反馈设计，请看大屏幕的闸机拆解图：",
+          "ttsFp": "e6301c9e_30",
+          "srtCueIdx": 109,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 111,
+          "srcLEnd": 111
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "你们每天刷卡或扫码进地铁的时候可能没留意，但闸机的反馈设计其实是一个顶级的教科书案例。在你刷卡判定成功的一瞬间，系统极其奢侈地同时给出了**三种感知模态（Modality）**的高频反馈：屏幕变绿并显示余额（视觉通道）、发出一声清脆的区别于错误的\"嘀\"声（听觉通道）、闸门瞬间打开（物理/动觉通道）。\n为什么要做这么冗余的反馈？因为这消灭了哪怕只有 0.1 秒的评估鸿沟——你**永远不会怀疑**自己刷成功了没有。现在想象一下，如果闸机只发出一声微弱的\"嘀\"，屏幕背光坏了，闸门延迟整整两秒才开——你是不是会原地石化，会犹豫不决地回头看一眼，不敢立刻跨步，甚至会换个码再刷一次导致重复扣费？只要两秒钟的反馈延迟，就足够切断意图链路，制造一整个评估鸿沟。\n设计界有一个关于反馈的**\"三根支柱\"理论（Three Pillars of Predictability）**：即时性（必须在 400 毫秒内响应）、清晰性（模态明确无歧义）、可解释性（告诉用户当前状态，而不是抛出一个纯粹的 16 进制错误代码）。",
+          "ttsFp": "6e75000a_452",
+          "srtCueIdx": 110,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 113,
+          "srcLEnd": 116
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "评估鸿沟缺乏\"可解释性\"和\"清晰性\"的极限破坏力，在 2017 年亚马逊 AWS S3 存储桶的全球大宕机事件中表现得淋漓尽致。当时，一名 AWS 工程师原本只是想在这个全球最大的云服务控制台里删除几台计费子系统的冗余服务器资源。他敲下了一行极其简单的命令，然后按下了回车。\n但由于这台庞大机器的控制台界面在\"可见性\"和\"状态反馈\"设计上存在巨大的盲区，系统并没有用任何人类能清晰理解的模态向工程师展示即将发生的连锁破坏：\"警告！你当前操作指令波及的并非几个计费节点，而是整个美东一区海量核心子系统的路由架构！\"\n没有任何高清晰度弹窗确认，没有任何破坏预览警告，只有一个生硬且迟钝的执行结束。就在那条沉默的命令敲下之后，评估鸿沟彻底吞噬了这名工程师的认知：他以为自己只删除了少量后台进程，实际上他通过那个糟糕的界面连击，触发了整个美东一区 S3 核心底座的连环物理雪崩。长达几个小时的时间里，包括苹果 iCloud的部分服务、Netflix、Slack 在内的全球半个互联网随之瘫痪，造成了数以亿计的美元经济损失。事发几周后，AWS 官方极其诚恳地发布了极其详尽的复盘说明报告——令人敬佩的是，他们没有把这归咎于\"操作员的愚蠢\"或直接开除那名输错参数的工程师，而是坦承：这是系统控制台工具交互设计的底层失败。因为其系统在工程师执行毁灭级操作时，未能提供任何有效地、符合人类直觉且具有清晰后果可解释性的状态评估反馈，致使高级工程师在茫茫的数据黑盒前发生了不可挽回、且毫无知觉的心智彻底脱轨。",
+          "ttsFp": "a71b56ed_644",
+          "srtCueIdx": 111,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 125,
+          "srcLEnd": 128
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在安全攸关的领域，如大屏幕上这两场人类历史上的悲剧：",
+          "ttsFp": "ef6e6c66_27",
+          "srtCueIdx": 112,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "大多数时候，评估鸿沟只会让你少点两次赞或买错一次东西。但在安全关键系统（Safety-critical Systems）里，评估鸿沟会立刻转变为杀人事故。\n我们先看著名的**波音 737 MAX 坠机惨剧**。那套臭名昭著的 MCAS（机动特性增强系统）其最致命的设计缺陷，就是它在后台悄无声息地疯狂接管并下压机头，却**没有在驾驶舱的仪表盘上向飞行员提供任何关于 MCAS 正在激活并夺权的明确视觉或触觉评估反馈**！飞行员的物理拉杆意图，与系统的隐蔽干预之间，横亘着一条巨大而沉默的评估鸿沟，最终导致数百人随飞机坠毁。\n同样血淋淋的教训还有 1985 到 1987 年间，加拿大导致多名患者惨死的 Therac-25 放射治疗机事故。机器内部的微处理器在快速输入时发生了竞态条件，导致患者暴露在致死剂量的 X 射线中。但这机器到底错在哪？错在它的**界面反馈设计**。当事故发生时，控制台纯黑色的终端屏幕上只冷漠地闪过一句：`Malfunction 54`（故障 54）。操作员根本不知道这个晦涩的报错代码代表过载辐射，加上以往机器经常毫无理由地报错，操作员产生了**习惯化麻木（Habituation）**。就像条件反射一样，她按下 `P` 键清除了警告，又按下了回车键继续发射——她以为机器因为一个小毛病没发射成功。系统明明发生了致命级别的状态改变，界面上却没有给出任何足够惊悚的、能建立解释的评估反馈。\n再往前看，1979 年美国三哩岛核事故（Three Mile Island accident），堆芯熔毁的物理起因是一个极其微小的泄压阀卡住无法关上。但是！控制室操作员之所以几个小时都无法采取正确措施，是因为控制台上几百个密密麻麻的红色指示灯**掩盖了关键信号**，而且用来指示那个泄压阀状态的灯，**逻辑竟然是反的**！灯灭了，操作员就评估为\"阀门已关闭\"，但由于机械卡死，实际上阀门还在大量泄漏冷却水。物理世界的真实状态，与系统界面渲染出来的\"表现状态\"彻底脱节——这就是人类工业史上最昂贵的一条评估鸿沟。",
+          "ttsFp": "6cb95108_862",
+          "srtCueIdx": 113,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 139,
+          "srcLEnd": 144
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "现代 UX 怎样温和地处理日常评估鸿沟？看看 Gmail 或微信传输。你点了\"归档\"或者\"删除\"，邮件瞬间从列表消失。没有中置弹出\"您确定要删除吗\"打断你的心流。但在屏幕底部，静静浮现一个黑色的 **Toast 提示条**——\"会话已归档\"，旁边紧跟着一个\"**撤销（UNDO）**\"按钮。",
+          "ttsFp": "aec0acd0_145",
+          "srtCueIdx": 114,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 146,
+          "srcLEnd": 146
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种设计堪称交互美学：它**瞬间提供确定性的视觉反馈**告诉你结果确实发生了（消灭评估鸿沟），同时用极低的系统成本给予了用户**反悔的安全感**（可逆操作）。",
+          "ttsFp": "031f01c4_79",
+          "srtCueIdx": 115,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 147,
+          "srcLEnd": 147
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种方案背后的设计原则叫做**宽恕式设计（Forgiving Design）**。它的哲学是：不要在行动之前用弹窗恐吓用户，而要在行动之后用撤销给用户兜底兜好。系统应该建设性地相信，用户在绝大多数时候清楚自己在做什么；你要保护的不是每一次无聊的点击，而是那极少数手滑的瞬间。",
+          "ttsFp": "d33c9674_137",
+          "srtCueIdx": 116,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 149,
+          "srcLEnd": 149
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "从这里我们可以提炼出一个核心的设计第一原则：**状态可见性（Visibility of System Status）**——这更是 Jakob Nielsen 轰动业界的十大可用性原则的头牌。系统的每一次状态变化、数据加载、事务处理，都必须在合理的时间内（通常需要小于 400 毫秒），用用户能听懂的方式，告知用户。永远记住这句话：**沉默的系统，就是在系统性地制造评估鸿沟。**",
+          "ttsFp": "653b6aaf_190",
+          "srtCueIdx": 117,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 151,
+          "srcLEnd": 152
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "为了深刻理解这\"两道鸿沟\"在真实商业硬件迭代里的拉扯，我们来看看鼠标这部微型科技史。\n早在施乐 PARC 发明 GUI 和鼠标原型时，鼠标是有三个甚至更多按键的。那是标准的工程师思维：很多功能就需要很多键来触发（完全没有约束）。\n当乔布斯将鼠标引入 Macintosh 时，他做出了一个在当时工程师看来简直是发神经的决定：**鼠标强制只能有一个物理按键**。苹果内部的人机界面先驱 Jef Raskin 其实是反对的，他认为有些复合操作需要更多按键。但乔布斯的逻辑极其粗暴但也极其洞悉人性本质——如果鼠标有三个键，新手用户看到鼠标就会陷入\"执行鸿沟\"的深渊：我该用哪个指头？左边的是确认还是右边的？中间那个按了会不会爆炸？\n乔布斯把执行鸿沟**彻底从硬件层面抹除了**——因为只有一个键，用户不用选，按就对了。这种极端的物理**约束（Constraint）**造就了初代 Mac 极其平缓的瞎子式上手曲线。\n但代价是什么？代价是随着后来软件系统复杂度的爆炸式增长，苹果被迫制造了另一种深深的鸿沟。因为没有右键，那些\"上下文菜单（Context Menu）\"、那些高级属性面板，用户必须通过\"按住键盘某个修改键（比如 Option 或 Ctrl）再同时点击鼠标\"才能呼出。这种组合键操作在屏幕上是**没有任何视觉可供性（Affordance）提示的**。用户如果不看说明书，永远都发现不了这个操作。这其实是另一种更隐蔽的\"执行鸿沟\"——因为目标被深埋，用户甚至不知道这个功能存在。\n微软 Windows 则走了另一条路。两键鼠标加右侧上下文菜单，牺牲了刚上手时一丁点的纯粹性（执行摩擦略微增加），但换来了无限扩展的上下文菜单系统的易发现性。\n于是，苹果在这个没有右键的执念上挣扎和妥协了长达三十年。从后来的 Mighty Mouse 这颗神奇的球，到今天 MacBook 上那块巨大且完美的玻璃触控板（Magic Trackpad），苹果用软件层面的\"双指轻点（Two-finger Tap）\"完美模拟了右键的高级呼出，这才在这场长达半个世纪的执行鸿沟填补之战中画上了句号。这里面蕴含的设计反思是：**填补一条缝隙的土，极有可能在别处挖出另一个大坑。你不可能消灭所有的系统复杂性，你只能决定把复杂性转移（或隐藏）给谁。**",
+          "ttsFp": "6be70a8e_960",
+          "srtCueIdx": 118,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 154,
+          "srcLEnd": 161
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Norman 的鸿沟理论给了我们一个强大的诊断工具：任何让用户感到挫败的交互瞬间，你都可以追问——**是意图到操作的链条断了（执行鸿沟），还是操作到理解的链条断了（评估鸿沟）？** 这两个问题切下去，病因基本就暴露了。",
+          "ttsFp": "f3b7695d_109",
+          "srtCueIdx": 119,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 165,
+          "srcLEnd": 165
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但鸿沟只是表象。更深层的问题是：**为什么这些鸿沟会存在？** 答案藏在一个更根本的矛盾里——人类理解世界的方式，和机器运行的方式，天生就不兼容。",
+          "ttsFp": "b866231a_73",
+          "srtCueIdx": 120,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M02_意图与反馈的断裂.md",
+          "srcLStart": 167,
+          "srcLEnd": 167
+        }
+      ],
+      "firstSrtCueIdx": 87,
+      "budgetChars": 4500,
+      "oralCharCount": 4427,
+      "estimatedMinutes": 24.6,
+      "fillRatio": 0.98
+    },
+    {
+      "id": "mod-6",
+      "title": "模块 3: 三种模型的战争 (25 min)",
+      "slides": [
+        {
+          "id": "w02-slide-11",
+          "layout": "Flow",
+          "text": "Cooper 的三种模型博弈",
+          "heading": "",
+          "scene": "一条水平光谱图。最左端标注\"实现模型 Implementation Model\"（配数据库/代码图标），最右端标注\"用户心理模型 Mental Model\"（配人脑/生活场景图标），中间用可滑动的指针标注\"表现模型 Represented Model\"（配 UI 界面图标）。指针越靠右即设计越优秀",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-11.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-11.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-11.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-12",
+          "layout": "Split",
+          "text": "冰冷的机器真相",
+          "heading": "模型一：实现模型 (Implementation Model)",
+          "scene": "左侧展示一段 SQL 数据库表结构代码和文件系统树状目录，右侧展示一个布满二进制流和电路板纹路的抽象背景",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-12.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-12.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-12.png"
+          ],
+          "list": null,
+          "paragraphStart": 2
+        },
+        {
+          "id": "w02-slide-12b",
+          "layout": "Comparison",
+          "text": "工程师的实现模型 vs 用户的表现模型",
+          "heading": "",
+          "scene": "对比图。上方是充满 OAuth 2.0、消息分发队列架构的技术架构图；下方是微信圆润气泡的聊天界面。",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-12b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-12b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-12b.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "w02-slide-13",
+          "layout": "Split",
+          "text": "人类的朴素直觉",
+          "heading": "模型二：用户心理模型 (Mental Model)",
+          "scene": "左侧为一位老人翻看实体相册的温馨照片，右侧为一个人凭直觉在抽屉柜里找文件的场景",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-13.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-13.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-13.png"
+          ],
+          "list": null,
+          "paragraphStart": 8
+        },
+        {
+          "id": "w02-slide-13b",
+          "layout": "Full",
+          "text": "不求真理，只求管用的微缩模型",
+          "heading": "",
+          "scene": "一个人闭着眼睛，头脑上方的思考气泡里有一个微缩的三维城市沙盘，他正在拨动沙盘里的交通信号灯",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-13b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-13b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-13b.png"
+          ],
+          "list": null,
+          "paragraphStart": 10
+        },
+        {
+          "id": "w02-slide-13c",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是一个瑟瑟发抖的人把空调恒温器狂按到 32°C；右侧是快迟到的白领对着发亮的电梯下行按键开启狂按模式",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-13c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-13c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-13c.png"
+          ],
+          "list": [
+            "阀门模型错用于开关式系统 | 人际催促模型错用于二进制回路"
+          ],
+          "paragraphStart": 16
+        },
+        {
+          "id": "w02-slide-14",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "模型三：表现模型 (Represented Model)",
+          "scene": "左列标题\"灾难\"——复杂的企业级 ERP 系统截图（满屏的必填表单项、数据库逻辑赤裸暴露），右列标题\"典范\"——iPhone 照片 App 界面（按年/月/日自动分组的照片流，无任何文件路径暴露）",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-14.png"
+          ],
+          "list": [
+            "灾难：表现模型 ≈ 实现模型 → 用户被迫学习工程逻辑 | 典范：表现模型 ≈ 心理模型 → 技术复杂性被隐藏"
+          ],
+          "paragraphStart": 19
+        },
+        {
+          "id": "w02-slide-14b",
+          "layout": "Full",
+          "text": "当表现模型堕落为实现模型",
+          "heading": "",
+          "scene": "一个被成百上千个类似\"数据库字段\"级别的输入框淹没的崩溃业务员，背景是微笑着签单的非用户老板",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-14b.png"
+          ],
+          "list": null,
+          "paragraphStart": 21
+        },
+        {
+          "id": "w02-slide-14c",
+          "layout": "Split",
+          "text": "表现模型隐瞒了真实的破坏力",
+          "heading": "",
+          "scene": "左侧用户的心理气泡是\"把消息扫进纸篓，还能找回\"；右侧服务器真实的动作是\"把数据块送进粉碎机物理抹除\"",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-14c.png"
+          ],
+          "list": null,
+          "paragraphStart": 26
+        },
+        {
+          "id": "w02-slide-14d",
+          "layout": "Comparison",
+          "text": "掩盖操作节点，直达用户的最终目标",
+          "heading": "",
+          "scene": "流程对比图。上方代表过去：用户手动填表 → 找快递 → 填单号的满屏任务节点；下方代表现在：点击退款 → 快递员默默收走 → 秒退款的极简目标",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14d.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-14d.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-14d.png"
+          ],
+          "list": null,
+          "paragraphStart": 27
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "鸿沟的深层根源是什么？Alan Cooper——《About Face》的作者，目标导向设计的奠基人——给出了一个直击灵魂的解答。",
+          "ttsFp": "0ab552bc_65",
+          "srtCueIdx": 121,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "他说：**工程师建造的世界，和用户理解的世界，本质上是两个不同的宇宙**。它们之间的冲突，才是一切心智摩擦的元凶。这里存在着\"三种模型\"的拉锯战。",
+          "ttsFp": "36596cb5_73",
+          "srtCueIdx": 122,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是机器**真实的运转方式**。在工程师眼中，这个世界是由离散的、确定性的结构组成的：数据库就是几十张互相关联的主键外键表格，你在屏幕上看到的\"朋友圈\"，在底层只是一串包含用户 ID、内容哈希值和时间戳的 JSON 字符流；一张温情的家庭合影，本质上就是一段写入在硅片晶体管或磁盘磁道上的二进制序列。实现模型天生就是碎片化的、高度抽象的、遵循严密数理逻辑的。",
+          "ttsFp": "ae88ed77_179",
+          "srtCueIdx": 123,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "工程师每天和这套逻辑打交道，由于长期浸泡其中，他们往往会患上一种叫\"知识的诅咒\"的职业病——认为把底层的存储结构和运行状态直接暴露出来是\"理所当然\"且\"最高效\"的。但对普通最终用户来说——这是一门来自外星的语言。",
+          "ttsFp": "f26fd507_106",
+          "srtCueIdx": 124,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "顺便说一下由 Norman 提出的鸿沟理论和 Cooper 提出的模型论之间的共振关系。你可能已经注意到了——**鸿沟是表象，模型错位才是病根**。",
+          "ttsFp": "79e9c69a_74",
+          "srtCueIdx": 125,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当执行鸿沟出现时，往往是因为产品的表现模型太靠近实现模型——系统强迫用底层的工程术语（比如\"输入端口\"或\"配置路径\"）和用户对话，用户听不懂也无从下手。当评估鸿沟出现时，往往是因为表现模型没有如实且人性化地反映系统的真实改变——用户的期望无法和系统冷冰冰的执行结果对齐。Norman 的鸿沟是临床上的**症状诊断工具**，告诉你\"血流在哪断了\"；而 Cooper 的三种模型则是**病理学框架**，从基因层面告诉你\"为什么会断\"。",
+          "ttsFp": "aed5531b_215",
+          "srtCueIdx": 126,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 34,
+          "srcLEnd": 34
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "再比如大屏幕上展示的这个所有人再熟悉不过的例子：",
+          "ttsFp": "f7373ab8_24",
+          "srtCueIdx": 127,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "打开微信开发者平台（WeChat Open Platform）的技术文档：你看到的是满屏幕的 OAuth 2.0 异步授权流程、Token 半衰期刷新机制、分布式消息队列架构以及高并发限流策略。这是极其硬核的实现模型宇宙。\n但再打开你手机上的微信客户端：你看到的是圆润的绿色聊天气泡、随着指尖滑动的瀑布流朋友圈、以及春节抢红包时充满张力的动画特效。\n请注意，这两个完全割裂的宇宙，描述的其实是**同一个数字系统**——它们之间唯一的区别在于，作为普通用户的你，这一辈子都不需要、也不应该知道 Token 到底是个什么东西。工程师必须面对丑陋但精确的实现模型；而你所面对的，是有一群名叫交互设计师的人，用代码为你苦心营造的一场**表现模型幻梦**。",
+          "ttsFp": "d9273b17_323",
+          "srtCueIdx": 128,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 45,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是用户**脑子里的东西**。它来自物理世界的经验，来自常识，来自直觉。",
+          "ttsFp": "d534e817_36",
+          "srtCueIdx": 129,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "老人觉得照片就应该被\"放进\"一本相册——按时间排、按人物分、翻到某一页就能看到去年春节的全家福。而不是\"点击 D 盘 → Users → Photos → 2025 → 03 → IMG_20250301_143522.jpg\"。",
+          "ttsFp": "663740ee_115",
+          "srtCueIdx": 130,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 61,
+          "srcLEnd": 61
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "心理模型（Mental Model）这个伟大的概念最早由苏格兰认知科学家 Kenneth Craik 在 1943 年提出。他惊人地指出：人类的大脑之所以进化到今天，是因为它能够在大脑皮层里构建一个外部物理世界的\"小型计算模型\"。就像你在脑子里玩沙盘推演一样，你用这个微缩模型来预测事物的走向，并在现实发生之前预判风险。",
+          "ttsFp": "f8b3322f_160",
+          "srtCueIdx": 131,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 70,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "心理模型有一个非常核心的特征：**不求真理上的精确，只求生存上的\"管用\"**。",
+          "ttsFp": "d5fc1c78_39",
+          "srtCueIdx": 132,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 73,
+          "srcLEnd": 73
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Alan Cooper 在《About Face》里举过一个极其绝妙的例子——**电影插电的心理模型**。问一个普通人：\"当你看一部电影素材时，电影是怎么动起来的？\"大多数人的心理模型是：放映机里有一卷长长的胶片，光线穿过连续滑动的胶片，在银幕上投射出连贯的影子。这个模型\"管用\"，但它是**完全错误**的。电影的实现模型根本不是连续的，而是由每秒 24 张静止的单帧画面以特定的频率闪烁切换，加上黑色遮片遮挡拉片过程，最后依靠人眼的\"视觉暂留\"（Persistence of Vision）神经生理现象，强行拼凑出了一场会动的幻觉。",
+          "ttsFp": "9bd54afc_267",
+          "srtCueIdx": 133,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但用户需要知道视网膜暂留原理才能看电影吗？不需要。那个\"连贯滑动胶片\"的错误心理模型，完美支撑了倒带、快进、暂停等一系列交互操作。",
+          "ttsFp": "d2edc9d2_65",
+          "srtCueIdx": 134,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 75,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "再比如**家用插座模型**。你把吸尘器的插头拔出来，然后小心翼翼地不想让手碰到金属插脚，你潜意识里的模型往往是：\"电\"就像水管里的自来水，储存在墙壁的插座孔里，插上去水流就进机器了。这在物理学上荒谬透顶（电流是闭合回路里自由电子的定向漂移），但作为一种日常生活的心理模型，它极其高效地保护你不被电死。",
+          "ttsFp": "ccea7602_150",
+          "srtCueIdx": 135,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 77,
+          "srcLEnd": 77
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但这种建立在日常物理经验上的模型，在遭遇纯逻辑的数字空间时，有一半的概率会遭遇**史诗级的翻车**。人类的心理模型不仅顽固，而且极度依赖路径惯性。想一想从诺基亚实体键盘时代跨越到初代 iPhone 全触屏时代，有多少人因为\"屏幕按下去没有物理反弹的咔哒声\"而感到深深的焦虑与不安全感？那个时候人们的心理模型还是\"打字必须是一个有物理行程的按压动作\"，直到苹果通过极其优秀的视觉动画和高频振动马达反馈，花了整整三代产品的时间，才帮人类强行重构了\"在玻璃平面上打字\"的全新心理模型。",
+          "ttsFp": "3f92be9b_239",
+          "srtCueIdx": 136,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 81,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如屏幕上的这两个荒诞却真实的场景所示：",
+          "ttsFp": "5c17cca2_19",
+          "srtCueIdx": 137,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 90,
+          "srcLEnd": 90
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "我们来看心理系统的顽固引发的经典错误操作。寒冷的冬夜你回到家，屋子像冰窖，你急着给冻得发抖的婴儿取暖。在这个火烧眉毛的关头，你会怎么操作墙上的空调恒温器？绝大多数人的本能做法是：**一路狂按，直接把目标温度调到最高（比如 32°C）**。\n为什么？因为这批人潜意识里调取了他们在物理世界里控制老式煤气灶或者水龙头的心理模型——**\"阀门模型（More is More）\"**。他们理所当然地认为，只要把温度指示阈值设置得越高，系统输出的热量或动能就越猛烈，房间暖得就越快。\n但现代家用恒温空调的**实现模型**究竟是什么？它是极其死板的**开关式（Bang-Bang control）**逻辑。空调压缩机并没有所谓的\"大中小排量\"，它只会以出厂设定的单一最大功率疯狂制热，直到室温传感器探测到环境达到目标温度后，瞬间彻底切断电源停止工作。所以，如果你想让房间达到舒适的 25°C，直接设置 25°C 和夸张地设置 32°C，升温到 25°C 所消耗的**物理时间是完全一模一样的**！你不仅没有加速过程，反而会因为睡着后忘记调回温度而被活活热醒。\n同样的心理模型错用，还出现在你等办公楼老式电梯的那个早上。当你快迟到时，你一定疯狂地连续狂按那颗已经亮起来的下行按钮。人们潜意识里认为\"多按几次电梯会意识到我更着急\"，将人际交往中的\"催促声量模型\"强行套用在了只会识别\"0\"和\"1\"的二进制继电器回路上。这就是心理模型带来的典型心智摩擦：**用户的本能常识，在遭遇机器逻辑时，变成了彻头彻尾的阻碍和无用功。**",
+          "ttsFp": "7cec8184_654",
+          "srtCueIdx": 138,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 92,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是你——设计师和开发团队——最终做出来的**用户界面**。它是实现模型和心理模型之间的**翻译层**。",
+          "ttsFp": "bf23e797_53",
+          "srtCueIdx": 139,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 100,
+          "srcLEnd": 100
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**最灾难的设计，就是彻底摆摆手的工程师思维：把表现模型做得等同于实现模型。**",
+          "ttsFp": "5eef5984_40",
+          "srtCueIdx": 140,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 109,
+          "srcLEnd": 109
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是上一代开发工程师最习以为常的做法——\"我知道底层的数据集是怎么存储的，节点是怎么遍历的，所以我就原封不动把这套存储和遍历结构映射到屏幕上。\"早期的 PC 文件管理器就是**实现模型的终极裸奔**：C 盘、D 盘、根目录、文件夹套文件夹、还有诡异的隐藏系统文件——这完全就是对磁盘物理分区和文件系统树（File System Tree）的逐字节忠诚转译。",
+          "ttsFp": "e1fed317_178",
+          "srtCueIdx": 141,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 111,
+          "srcLEnd": 111
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这也是为什么大屏幕上的这种悲剧每天都在企业中上演：",
+          "ttsFp": "17c45463_25",
+          "srtCueIdx": 142,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 120,
+          "srcLEnd": 120
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "这种无套路裸奔在今天的企业级 B2B 软件（如 ERP 或 CRM 系统）中依然大行其道。交互设计界有一种说法叫\"买家暴政\"（Tyranny of the Buyer）：因为拍板买软件的老板，自己并不需要每天去使用这个软件。于是，软件开发商为了中标，就会把所有他们能实现的底层功能、数据库接口、成百上千的复杂参数配置统统平铺到界面上，以此来向客户证明\"我们的系统无比庞大且无所不能\"——这导致了满屏犹如驾驶舱仪表盘般令人窒息的输入框和下拉菜单。最终，那个可怜的一线业务员，本来的心理模型只是简简单单的\"把这笔货物出库发走\"，却被迫要去面对诸如\"选择出库栈单节点\"、\"勾选仓库流转批次锁状态\"这种纯粹底层数据库建表层面的实现逻辑。这种表现模型的堕落，是导致企业员工每天被软件折磨得痛不欲生的万恶之源。",
+          "ttsFp": "0760c100_349",
+          "srtCueIdx": 143,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 122,
+          "srcLEnd": 123
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**而在这个时代，最顶尖的体验设计，其唯一使命就是将表现模型死命地推向用户心理模型的那一端。**",
+          "ttsFp": "57f1d05b_48",
+          "srtCueIdx": 144,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 127,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "早期 iPhone 的 \"照片\"（Photos）App 为什么极具划时代意义？因为它做了一个当时 PC 端不敢做的决定——**彻底埋葬文件系统**。你手里拿着 iPhone，你根本不知道任何一张照片保存在 iOS 的哪个隐藏文件夹或哈希路径里。苹果的交互设计师强行用代码构造了一个完全顺应用户心理模型的表现层：照片被提取了 EXIF 元数据，然后自动按照**年、月、日**这种人类感知时间的尺度，或者按照**人脸识别、GPS 地点**这种人类感知社会关系和空间的尺度，平铺成了一道回忆流。",
+          "ttsFp": "bb4005c2_244",
+          "srtCueIdx": 145,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这里，你不需要发动慢思考去\"寻找特定文件\"，你只需要靠直觉快思考去\"浏览过去的回忆\"。这就是对那套冰冷工程复杂性进行的最优雅的一次**数字降维打击**。",
+          "ttsFp": "21513cd6_77",
+          "srtCueIdx": 146,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "再看一个每天都发生在你身边的博弈。当你长按微信里的一条长语音消息，弹出菜单并选择\"删除\"时——你的心理模型其实非常宽容，你认为这就像收拾书桌，只是\"把它从当前的视线中移到废纸篓里，只要我想，以后还能找回来\"。\n但微信服务器端的**实现模型**执行的是冷血的永久物理删除（为了服务器成本和隐私合规）：一旦删除指令下达，数据块即刻抹除，**不可恢复**。有多少人在这个轻描淡写的操作上翻过车，甚至丢失过极其重要的法律证据或者已故亲人的语音？\n这就是一个典型的表现模型没有诚实传达实现模型破坏力后果的悲剧。界面上那个视觉份量感极弱的\"删除\"二字，完全没有匹配它背后\"永久从这个宇宙消失\"的严重程度。",
+          "ttsFp": "5fb71558_296",
+          "srtCueIdx": 147,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 139,
+          "srcLEnd": 142
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "与之相反，我们来看看真正优秀的设计是如何脱胎换骨的：",
+          "ttsFp": "9dac9851_26",
+          "srtCueIdx": 148,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 151,
+          "srcLEnd": 151
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "十年前的淘宝退货流程，简直是让用户当了一回仓储物流操作员操作手册：你自己要去茫茫汪洋里找到历史订单 → 点击一个隐蔽的\"退货退款\"申诉链 → 填写冗长的退货原因表单与纠纷凭证 → 等待商家 48 小时复核并手动发来退货地址 → 你自己找顺丰快递员上门取件、手写地址 → 最后还要像填验证码一样把 15 位快递单号敲回淘宝系统里。整个流程就是一套**臃肿的实现模型展示窗**——每一步都在强迫用户去学习和操纵阿里庞大的底层物流履约节点。\n但今天的淘宝或京东做了什么？你点\"我要退货\"，然后——**结束了**。系统自动匹配履约记录生成快递子账号取件码，菜鸟或京东快递员收到系统派单直接在你预约的时间上门扫码取件——包裹拿走那一刻，钱就自动退回你的账户了。\n这是一个伟大的表现模型跃迁：交互界面从\"**逼着用户一步步操纵底层功能节点**\"（Task-directed），彻底进化到了\"**只关注并直接满足用户的最终目标**\"（Goal-directed）。",
+          "ttsFp": "e6773c63_425",
+          "srtCueIdx": 149,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 153,
+          "srcLEnd": 156
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "Cooper 有一句极其霸道的名言：**\"设计的终局博弈，只有一个解，那就是让表现模型无限逼近且伪装成用户的心理模型，同时把实现模型的一切痕迹就地掩埋。\"** \n每当你在界面上暴露出一个只有网管才懂的技术术语、一个必须依赖开发文档才能看懂的系统状态、一个仅仅为了方便后端建表而设定的无意义必须填写项，你都是在把用户粗暴地推向实现模型的炼狱——你，就是心智摩擦的缔造者。而淘宝退货流程中展现出来的那种\"只管目标，掩埋操作\"的设计哲学，就是大名鼎鼎的**目标导向设计（Goal-Directed Design）**。它将是我们 W05 要探讨的绝对核心。\n用教材里 Norman 的话说：**设计师的模型**(Designer's Model) 是设计团队心中理想的系统运作方式；**系统映像**(System Image) 是系统通过界面、文档和帮助展现出来的样子；**用户的模型**(User's Model) 是用户通过系统映像所构建的理解。三者对齐，用户自如；三者错位，摩擦丛生。Norman 的三角框架和 Cooper 的三种模型论殊途同归——核心都是在说：**设计的本质，是翻译。**",
+          "ttsFp": "6cfa8e85_495",
+          "srtCueIdx": 150,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 158,
+          "srcLEnd": 162
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "理论总是美好的，但在前沿科技落地的真空区，三种模型的灾难经常以最狂野的形态爆发。\n今天硅谷最疯狂的战场是 XR 空间计算平台（Spatial Computing）。当我们带上类似 Apple Vision Pro 这类头显，置身于一个四周没有任何实体边界的全息投影环境里时，由于这个新世界完全没有给用户灌输过任何成熟的\"系统映像\"（因为一切都在摸索期），导致用户的**心理模型在这个新位面里是一片彻底茫然的废墟真空**。\n比如在一个没有任何墙面或桌子的空虚客厅里，浮着一个全息的虚拟浏览器窗口。如果你想把它\"关闭\"，你会怎么做？有的人的心理模型是去寻找右上角的红叉（沿用了 PC 桌面的遗迹），有的人则会像扔飞镖一样用手把它\"甩出去\"。\n这时因为空间计算技术本身的感知识别实现模型极其复杂且存在延迟与视觉误差，导致经常发生严重的错误对齐。人类在现实中**拿取一个苹果的物理模型**是三维触觉与肌肉力反馈的完美闭环（你能感受到其实体重量与外壳的粗糙阻尼）；但在目前的光场投射技术中，你去\"捏取\"一个虚拟 3D 物体，捏到的只是一团虚幻的光谱，你的指腹没有得到任何实质阻力的压感阻尼——这种严重的反馈错位，瞬间将人类几十万年进化出来的物理抓取心理模型击得粉碎，带来了长足强烈的虚无感与幻灭感。\n在新的范式完全沉淀之前，所有的第一代拓荒设计都在极力用一些非常拙劣的物理世界比喻（比如强行在虚拟空间里画一双手或渲染一根激光射线光束）去勉强维持用户的掌控感。这场关于表现模型是否能成功骗过人类古老中枢神经元的跨物种世纪欺诈战，才刚刚打响。",
+          "ttsFp": "c6d55008_664",
+          "srtCueIdx": 151,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 164,
+          "srcLEnd": 169
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但如何让冰冷的数字世界贴近人类的常识？设计师们发明了一把双刃剑——**界面隐喻**。",
+          "ttsFp": "bf205d27_42",
+          "srtCueIdx": 152,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M03_三种模型的战争.md",
+          "srcLStart": 173,
+          "srcLEnd": 173
+        }
+      ],
+      "firstSrtCueIdx": 121,
+      "budgetChars": 4500,
+      "oralCharCount": 4474,
+      "estimatedMinutes": 24.9,
+      "fillRatio": 0.99
+    },
+    {
+      "id": "mod-7",
+      "title": "模块 4: 隐喻的双刃剑 (20 min)",
+      "slides": [
+        {
+          "id": "w02-slide-15",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "2×2 网格展示四个经典界面隐喻图标：桌面（Desktop）、文件夹（Folder）、购物车（Shopping Cart）、回收站（Recycle Bin），每个图标配以其来源的物理世界原型照片",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-15.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-15.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-15.png"
+          ],
+          "list": [
+            "桌面 Desktop | 文件夹 Folder | 购物车 Shopping Cart | 回收站 Recycle Bin"
+          ],
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-16",
+          "layout": "Split",
+          "text": "",
+          "heading": "死法一：隐喻破裂",
+          "scene": "左侧为早期 Mac OS 上用户将软盘图标拖向垃圾桶的操作截图，右侧用大红叉标注\"物理世界：扔垃圾桶 = 丢弃/毁灭\"与绿色勾标注\"系统逻辑：拖入垃圾桶 = 安全弹出\"的认知冲突",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-16.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-16.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-16.png"
+          ],
+          "list": null,
+          "paragraphStart": 3
+        },
+        {
+          "id": "w02-slide-16b",
+          "layout": "Split",
+          "text": "物理语义与数字意图的脱节",
+          "heading": "",
+          "scene": "左侧是一位女性小心翼翼地把剪报夹进收藏册（暗示珍视与反复观看）；右侧是一个电商 App 里吃灰的、没有任何降价动态通知的死板收藏列表",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-16b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-16b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-16b.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "w02-slide-17",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "死法二：隐喻老化（代沟与遗迹化）",
+          "scene": "左列标题\"活化石隐喻\"——3.5 英寸软盘保存图标、老式转盘电话接听图标、带天线的 CRT 电视视频图标，右列标题\"数字原生\"——自动保存的转圈动效文字\"所有更改已云端同步\"",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-17.png"
+          ],
+          "list": [
+            "过代遗迹：软盘",
+            "老式听筒",
+            "放大镜 | 原生范式：自动同步",
+            "隔空投送",
+            "瀑布流反馈"
+          ],
+          "paragraphStart": 7
+        },
+        {
+          "id": "w02-slide-17b",
+          "layout": "Split",
+          "text": "它是一台概率缝合机器，不是一个人",
+          "heading": "死法三：隐喻限制想象力（路径依赖）",
+          "scene": "左侧是 ChatGPT 友好的第一人称气泡对话窗（被加上一个面具图标）；右侧揭示面具背后冷酷的、只有不断输出下一个概率预测词汇的数学张量矩阵",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-17b.png"
+          ],
+          "list": null,
+          "paragraphStart": 13
+        },
+        {
+          "id": "w02-slide-17c",
+          "layout": "Full",
+          "text": "物理限制如何被原封不动搬进数字世界",
+          "heading": "",
+          "scene": "1981 年施乐 Xerox Star 的古典黑白桌面界面，界面上清楚画着文件柜和废纸篓的像素图标",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-17c.png"
+          ],
+          "list": null,
+          "paragraphStart": 14
+        },
+        {
+          "id": "w02-slide-17d",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是红底黄字、带有\"拆\"字金币特效的微信红包；右侧是绿意盎然的支付宝蚂蚁森林，有人正在偷取能量球",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17d.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-17d.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-17d.png"
+          ],
+          "list": [
+            "抢红包：社交模因降维支付壁垒 | 种树：游戏化连接碳补偿"
+          ],
+          "paragraphStart": 20
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了让冰冷的数字世界贴近人类的常识，设计师们发明了界面设计史上最伟大的武器——**界面隐喻**，Interface Metaphors。",
+          "ttsFp": "a851bc1e_68",
+          "srtCueIdx": 153,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "\"桌面\"、\"文件夹\"、\"购物车\"、\"回收站\"——这些词汇本身就来自物理世界。隐喻的天才之处在于：它利用你**已有的生活经验**来启动对全新系统的理解，把学习成本降到几乎为零。你不需要读说明书就知道：把文件拖进文件夹就是\"归类\"，把商品放进购物车就是\"打算买\"。",
+          "ttsFp": "ad8f4d41_130",
+          "srtCueIdx": 154,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**然而，隐喻也是心智摩擦的重灾区。** 它有三种典型的死法。",
+          "ttsFp": "0dd4b526_31",
+          "srtCueIdx": 155,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当数字逻辑与物理常识不可避免地发生冲突时，隐喻就会**碎裂**。",
+          "ttsFp": "1c662ab3_32",
+          "srtCueIdx": 156,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最经典的案例：早期 Macintosh 系统中，\"安全弹出\"一张软盘的方式是——把它拖进**垃圾桶**。在物理世界里，\"塞进垃圾桶\"意味着摧毁或丢弃；在操作系统的逻辑里，它却意味着\"中断连接\"。这种巨大的语义错位让无数新手用户心惊胆战——\"我要扔掉我的数据吗？\"",
+          "ttsFp": "8a39dbfa_131",
+          "srtCueIdx": 157,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "另外一个至今仍大量存在的误用，请看大屏幕：",
+          "ttsFp": "ba6a3a19_21",
+          "srtCueIdx": 158,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "隐喻破裂今天仍在发生。许多电商 App 用\"爱心\"图标表示\"收藏商品\"，但用户预期\"收藏\"意味着\"我以后还想看到它\"。当 App 把\"收藏\"仅当作一个静态列表、不做价格提醒或库存预警时，用户就会困惑——\"我都收藏了，你怎么不通知我降价？\"物理世界的\"收藏\"隐含着\"珍视和关注\"的语义，数字系统却只完成了\"标记\"这一步。",
+          "ttsFp": "11a59c2a_159",
+          "srtCueIdx": 159,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 43,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "隐喻的寿命其实非常短，因为物理世界在加速淘汰。",
+          "ttsFp": "8c239ccf_23",
+          "srtCueIdx": 160,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 55,
+          "srcLEnd": 55
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天绝大多数 00 后、10 后年轻人根本没见过真实的 3.5 英寸软盘（Floppy Disk），但它的正方形倒角图标依然在无数企业级软件（比如 Office 早期版本甚至许多工业软件）里坚如磐石地担任\"保存\"按钮。",
+          "ttsFp": "47f81ce9_109",
+          "srtCueIdx": 161,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 56,
+          "srcLEnd": 56
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "对 Z 世代来说，那根本不是什么隐喻了，那只是一个\"名字叫保存的、奇怪的带底边缺口的几何图形\"。这在符号学上叫**遗迹化（Skeuomorph decay）**——当原型在物理世界灭绝后，隐喻本身就蜕变成了一个任意的、纯粹需要靠死记硬背的抽象符号，它最初\"降低认知负荷\"的使命彻底破产。同样变成遗迹的还有：用带天线的显像管电视机表示\"视频\"，用老式机械齿轮表示\"设置\"，用红色拨号盘电话机的实体听筒来表示\"挂断\"。",
+          "ttsFp": "f33de6cc_207",
+          "srtCueIdx": 162,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 57,
+          "srcLEnd": 57
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "更高级的死亡方式是——**概念本身被数字原生协议击杀**。",
+          "ttsFp": "e127f817_29",
+          "srtCueIdx": 163,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在 Google Docs、Notion、Figma 这些现代协作工具里，\"保存\"这个**动作概念**都已经死了。它们是实时云端同步、WebSocket 长连接的：你打下一个字，服务器就写入了一次。用户根本不需要主动\"保存\"。这就是隐喻老化到极致之后，被纯粹的、无摩擦的**数字原生范式（Digital Native Paradigm）**所取代的幸福结局。",
+          "ttsFp": "cbe9a1ed_179",
+          "srtCueIdx": 164,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "过度依赖隐喻还有一个极其隐蔽但致命的行业级副作用：它会形成巨大的路径依赖，**锁死整个时代的创新空间**。",
+          "ttsFp": "bdbb7fa2_53",
+          "srtCueIdx": 165,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "假如我们将视线推向今天处于风暴眼的生成式人工智能（Generative AI，特别是类似 ChatGPT 这类 LLM 模型）。我们立刻就会撞上整个文明史上最宏大、最危险的界面隐喻——**拟人化隐喻（Anthropomorphism）**。\nOpenAI 是怎么把大语言模型如此深不可测的 Transformer 高维张量计算架构打包给大众使用的？他们用了最古老、最粗暴但也是最管用的隐喻——一个类似微信聊天界面的对话窗。这个隐喻界面具有不可逆转的暗示性：当屏幕上出现一个个吐着字元的对话气泡，并且开始用\"你好，我是 ChatGPT\" 的第一人称语气来回答你问题时，它向人类的远古脑部投射了一个难以抗拒的核心隐喻：\"在这个屏幕后面，住着一个极其聪明、无所不知且善解人意的（人类或灵魂实体）。\"\n我们几乎所有跟 ChatGPT 的交互摩擦，甚至是所谓的\"提示词工程（Prompt Engineering）\"的痛苦，全部源头都来自于这个该死的拟人化隐喻诱发的**极度错误心理预期对齐**。\n你潜意识里把它当成\"一个人\"来进行自然语言交流，但它的底层实现模型根本不是具备逻辑推理和自我意识的生命体，它仅仅是一台依靠统计概率在推算下一个可能出现字串符（Next-token Prediction）的大型数学缝合机器。所以，当你抱怨\"为什么它连小学算术都算不对？为什么有些指令它听不懂反而胡言乱语产出幻觉（Hallucination）\"时，摩擦就此爆发。因为人类在现实世界里沟通的经验模型是依靠常识、同理心与常理推断的；但对于这台数学概率机，它根本不知道\"1+1=2\"这个命题的逻辑含义，它仅仅是预测在海量训练语料中，\"1+1=\"后面接一个\"2\"这个符号的概率为 99.999% 而已。\n这种以假乱真的高智商拟人化对话框隐喻，将我们带入了巨大的伦理迷雾与认知盲区。它过度拔高了大众对 AI 正确性的信任，导致了在代码生成、病例诊断这种极度要求溯源和严密逻辑排查的场景中，引发了极其惨烈的系统性信赖危机。在这个语境下，隐喻不再是仅仅让我们更好上手电脑的善意设计，隐喻成了技术狂欢与商业包装中，掩盖底层暴力随机性的一把极具危险性的温柔障眼法。\n像 Alan Cooper 或者唐·诺曼这样的先驱早就警告过：在强人工智能真正到来成为物理或虚拟世界的全新原生造物之前，如果我们仍执迷于强行用\"人\"的隐喻去框定甚至束缚那些完全依靠非人类碳基神经元逻辑运转的新纪元硅基算法机器时，我们的文明迟早会遭受这种认知摩擦断裂带来的一次全面反噬。",
+          "ttsFp": "b145f312_1057",
+          "srtCueIdx": 166,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 75,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "回望历史，我们在取得伟大开局的同时也被禁锢了。请看历史倒影：",
+          "ttsFp": "b32e026c_30",
+          "srtCueIdx": 167,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 90,
+          "srcLEnd": 90
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "1981 年，施乐帕罗奥多研究中心（Xerox PARC）推出了神作 Xerox Star，首次确立了 GUI 时代的\"桌面\"（Desktop）隐喻。它天才地把满是代码的屏幕，伪装成了一张物理办公桌。纸张（文档）、文件夹（目录）、文件柜（磁盘）、垃圾桶被一比一地搬进了屏幕，让从未接触过电脑的办公室文员瞬间理解了在这个发光盒子里该怎么工作。\n后来乔布斯参观了 PARC，把这套隐喻带回了苹果，造就了 Mac 和随后的 Windows。\n这是一个伟大的开局。但代价是什么？**四十多年过去了**，人类的计算能力翻了数千万倍，但我们依然被死死困在\"桌面-文件夹\"这套简陋的隐喻框架里出不来。\n为什么电脑启动后的第一屏必须叫\"桌面\"且上面只能平铺网格状的图标？因为真实的桌面就是一块平坦的木板。为什么一份文件原则上必须被硬塞进某一个\"文件夹\"里？因为物理世界的纸张无法同时出现在两个实体抽屉里。\n这些物理世界的低级限制，通过隐喻，被原封不动且毫无必要地搬进了原本可以超越时空的数字逻辑里——**但数字代码根本没有这些质量与空间的限制！** 数据可以被多重打标签、可以映射成图数据库、可以按时间河流式涌现。隐喻让我们在造汽车的时候，还在前面给它装了一个假马头。",
+          "ttsFp": "ed1402bc_526",
+          "srtCueIdx": 168,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 92,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果我们永远死守物理世界的规矩，就不会诞生\"无限撤销\"——因为物理世界可没有\"Ctrl+Z\"这种时光倒流的超能力；也不会诞生毫秒级的\"全局搜索\"——你能想象在一栋总面积 10 万平米的真实双一流大学图书馆里，在 0.3 秒内精确找到包含特定长句的某一本书的某一页吗？魔法只能脱离物理隐喻才能实现。",
+          "ttsFp": "05d1c20e_148",
+          "srtCueIdx": 169,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 99,
+          "srcLEnd": 99
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "正因为隐喻充满这些诅咒，Alan Cooper 在 2020 年的一篇力战前沿的博文中提出了一个看似大逆不道的观点：**我们早就该彻底抛弃物理界面隐喻了。**",
+          "ttsFp": "e7ccd633_79",
+          "srtCueIdx": 170,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 101,
+          "srcLEnd": 101
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "他的论据极具说服力：对于古典的文字处理和图表制作，办公桌隐喻或许有效；但对于很多现代复合任务——比如\"购买一张联程机票\"、\"配置一个云端 Docker 容器\"、或者\"用 AI 生成一条视频\"——你在这个地球上**根本找不到任何一个合适的物理世界操作原型**来做类比。",
+          "ttsFp": "b9713032_133",
+          "srtCueIdx": 171,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 102,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "与其勉强套用一个滑稽蹩脚的比喻（试图把订机票设计得像是在\"翻阅柜台账本\"），不如直接用**清晰的数字概念、纯粹的输入反馈和功能逻辑**来直白地解释界面。这种抛弃拟物化隐喻的运动，也直接催生了后来席卷全球的扁平化设计（Flat Design）。",
+          "ttsFp": "225b77b6_121",
+          "srtCueIdx": 172,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们再来看看隐喻是如何在不同的文化土壤里生根发芽的：",
+          "ttsFp": "2801e490_26",
+          "srtCueIdx": 173,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "在批判隐喻的同时，我们也必须承认，当隐喻与特定民族的文化母题结合时，会爆发出惊人的破冰威力。\n2014 年春节的**微信红包**就是中国互联网史上最不可思议的隐喻战役。它没有教大妈们什么是\"P2P C2C 小额高频数字转账\"，它甚至没有提\"转账\"两个字。它只是极其精准地抓住了中国社会几千年的社交模因：\"发红包\"与\"抢红包\"。红底、黄字、拆开那个金币按钮的动效——它用一个极度喜庆的文化隐喻完爆了支付宝耕耘十年的支付心智。\n同样成功的还有**支付宝蚂蚁森林**。它把极其抽象的\"低碳减排积分与个人碳账户\"，隐喻成了\"起早贪黑去偷朋友的绿色能量球，最后在内蒙古沙漠里种下真实的梭梭树\"。这两个本土案例证明，隐喻的最高境界往往不是模仿物理外观，而是**唤醒文化剧本里的社会关系**。",
+          "ttsFp": "989e8457_339",
+          "srtCueIdx": 174,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 114,
+          "srcLEnd": 117
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "还有一种进化的正面案例。教材中提到了**卡片隐喻（Card Metaphor）**——看看你手机里的应用：Twitter 的推文、Pinterest 的灵感板、美团外卖的商家列表、Apple Pay 或微信卡包里的电子凭证，全是卡片式界面。\n为什么卡片大行其道？卡片来自我们对\"名片、扑克牌、明信片\"的物理直觉：有坚固的边缘边界、大小统一、可以无限度地翻阅、堆叠、洗牌和独立排序。这个隐喻之所以大杀四方，是因为它**恰到好处的抽象**——它不像\"桌面\"那样带来太多关于房间、木板和抽屉的物理包袱，同时又提供了刚好够用的空间组织直觉来适应手势滑动。",
+          "ttsFp": "0f87af9b_273",
+          "srtCueIdx": 175,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 119,
+          "srcLEnd": 121
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "界面隐喻绝对不是终点，它只是引路的**脚手架**。它帮助新手跨过心智门槛、快速建立心理模型，但在用户熟练掌握这套电子系统之后，物理原型的限制就应该被毫不留情地打破，被**更高效、反直觉、违背物理定律的数字原生交互**所取代。优秀设计团队的技术使命，就是学会在正确的时机、用正确的方式，**杀死自己创造的隐喻**。",
+          "ttsFp": "30484d62_156",
+          "srtCueIdx": 176,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 123,
+          "srcLEnd": 124
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是隐喻的双刃剑：用得巧，它是连接常识与代码的黄金大桥；用得老套、用得刻板、用得不顾文化语境，它反而会制造令人智熄的新型摩擦。",
+          "ttsFp": "0dc5b86b_64",
+          "srtCueIdx": 177,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 126,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "认知三道滤网讲清楚了、Norman 行动鸿沟理论拆完了、Cooper 三重模型对抗理解了、隐喻的诅咒也解毒了。这堂课最后的一块拼图，我们要面对那个让无数人焦虑到抓狂的压轴病因——**认知过载下的记忆崩溃**。",
+          "ttsFp": "7941ccee_104",
+          "srtCueIdx": 178,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M04_隐喻的双刃剑.md",
+          "srcLStart": 128,
+          "srcLEnd": 128
+        }
+      ],
+      "firstSrtCueIdx": 153,
+      "budgetChars": 3600,
+      "oralCharCount": 3197,
+      "estimatedMinutes": 17.8,
+      "fillRatio": 0.89
+    },
+    {
+      "id": "mod-8",
+      "title": "模块 5: 记忆负荷与认知过载 (15 min)",
+      "slides": [
+        {
+          "id": "w02-slide-18",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "全屏展示 LingsCars.com 首页截图——满屏闪烁的 GIF 动图、刺眼的撞色、密密麻麻的文字和视频广告，代表极端认知过载",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-18.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-18b",
+          "layout": "Flow",
+          "text": "更多选择 = 更大负荷 = 更少转化",
+          "heading": "",
+          "scene": "两组柱状图对比。左边展示 24 种果酱（高驻足 60%，极低购买 3%）；右侧展示 6 种果酱（低驻足 40%，极高购买 30%）",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-18b.png"
+          ],
+          "list": null,
+          "paragraphStart": 7
+        },
+        {
+          "id": "w02-slide-18c",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧是极简的初始打印菜单（只展示打印机、色彩、份量）；右侧是点击\"显示详细信息\"后向下如折叠伞般翻出几十个专业选项的高级面板",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18c.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18c.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-18c.png"
+          ],
+          "list": [
+            "初始状态：兼顾快思考的低带宽 | 展开状态：兼顾慢思考的高精度"
+          ],
+          "paragraphStart": 8
+        },
+        {
+          "id": "w02-slide-18d",
+          "layout": "Split",
+          "text": "让用户在关键节点主动投入认知",
+          "heading": "",
+          "scene": "左侧是一个人在博物馆里机械地对着展品咔咔拍照，大脑皮层一片暗淡；右侧是他举着手机放大（Zoom In）寻找特定纹理，大脑区域被高亮激活",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18d.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-18d.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-18d.png"
+          ],
+          "list": null,
+          "paragraphStart": 11
+        },
+        {
+          "id": "w02-slide-19",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左列标题\"回忆 Recall\"——展示用户从短信弹窗死记硬背 6 位验证码的痛苦场景，右列标题\"识别 Recognition\"——展示 iOS 键盘上方自动浮出验证码胶囊按钮的便捷场景",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-19.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-19.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-19.png"
+          ],
+          "list": [
+            "回忆：凭空提取 → 高负荷 → 易出错 | 识别：看见即选择 → 低负荷 → 高效率"
+          ],
+          "paragraphStart": 13
+        },
+        {
+          "id": "w02-slide-19b",
+          "layout": "Full",
+          "text": "模糊输入，秒级识别挑选",
+          "heading": "黄金法则：识别胜于回忆 (Recognition over Recall)",
+          "scene": "一张干净的 Notion 或 VS Code 截图，中间悬浮着一个优雅的浅色 Cmd+K 搜索框，下方自动模糊匹配出十几条深埋在层级里的功能指令",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-19b.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-19b.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-19b.png"
+          ],
+          "list": null,
+          "paragraphStart": 17
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "来，大家看大屏幕。",
+          "ttsFp": "e2ac3dcb_9",
+          "srtCueIdx": 179,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 14,
+          "srcLEnd": 14
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你现在有什么感觉？眼花缭乱？大脑皮层发热？完全不知道眼睛该往哪里放？",
+          "ttsFp": "c9970aac_34",
+          "srtCueIdx": 180,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**这就是认知过载——Cognitive Overload——的极端案例。**",
+          "ttsFp": "9a02e7b0_39",
+          "srtCueIdx": 181,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "LingsCars.com 是英国一个真实存在的汽车租赁网站。它的首页被视觉设计界当作\"反面教材中的反面教材\"——满屏闪烁的动图、刺眼的色彩、密密麻麻的文字和无处不在的弹窗。讽刺的是，这个网站的老板声称它的转化率极高。但从认知科学的角度来看，它几乎触犯了每一条人类认知的天然限制。",
+          "ttsFp": "002cb720_140",
+          "srtCueIdx": 182,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 20,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "还记得刚才讲的工作记忆吗？只有大约 4 个组块的容量。当一个界面对你倾泻成百上千个视觉刺激——数据点、图表、按钮、弹窗——你的工作记忆会被**瞬间击穿**。",
+          "ttsFp": "b3fceefb_78",
+          "srtCueIdx": 183,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "过高的认知负荷会让用户逃离，那么，是不是应该将所有的交互变得\"一点就灵\"、\"零挑战\"呢？不是的。",
+          "ttsFp": "82ae7330_48",
+          "srtCueIdx": 184,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 27,
+          "srcLEnd": 27
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "心理学家 Mihaly Csikszentmihalyi 提出了著名的**\"心流\"（Flow Theory）**。他指出，真正的沉浸和愉悦并不来自于绝对的轻松，而是来自**\"挑战\"与\"技能水平\"的完美匹配**。如果界面复杂度和认知挑战过高，用户会陷入焦虑（Anxiety）；如果系统替用户做完了一切，挑战为零，用户又会陷入无聊（Boredom）。优秀的游戏、优秀的复杂生产力工具（如 Figma 或 Premiere），从来不会过度削减信息，而是利用层级递进（渐进式展示）和即时反馈机制，把认知负荷调控到刚刚好，将用户精确地锁定在心流\"通道\"中。",
+          "ttsFp": "8347bb2a_273",
+          "srtCueIdx": 185,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 29,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而，一旦你把握不好这条界线，越过了临界点，过高的认知负荷会引发**决策瘫痪**（Choice Paralysis）。选择太多，反而什么都选不了。正如屏幕上的数据对比所揭示的：哥伦比亚大学心理学家 Sheena Iyengar 和 Mark Lepper 2000 年发表在 *Journal of Personality and Social Psychology* 上的经典实验给出了精确数据：在超市里，展示 24 种果酱时，60% 的路人被吸引驻足，但最终只有 **3%** 购买；展示 6 种果酱时，驻足率降至 40%，但购买率飙升到 **30%**——整整十倍的差距。更多选择意味着更多注意力，但也意味着更大的认知折磨。",
+          "ttsFp": "40bddaf9_315",
+          "srtCueIdx": 186,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以我们如何拯救这些天生复杂的业务场景？",
+          "ttsFp": "387379f0_20",
+          "srtCueIdx": 187,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "既然不能零负荷，也不能超负荷，设计师如何处理那些天生就存在极高复杂度的专业软件呢？答案是**渐进式披露（Progressive Disclosure）**。\n它的核心哲学是：\"在任何一个时间截面上，只给用户当前任务**最需要的那一点点信息**；其余的复杂性，像折叠伞一样藏起来，只有当用户明确要求时才展开。\"\n看看 macOS 或 Windows 里的高级打印机设置：第一屏永远只有干干净净的三项（选打印机、黑白/彩色、打几份），底端藏着一个不起眼的\"显示详细信息 / 高级属性\"的按钮。普通用户在第一屏就能安全着陆，而需要调校色彩配置文件和纸张涂层微距的专业设计师，点开那个深渊级的高级面板，也能得到满足。这就叫在单一界面内**兼顾快思考的低带宽与慢思考的高精度**。",
+          "ttsFp": "12748cca_335",
+          "srtCueIdx": 188,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 50,
+          "srcLEnd": 53
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "但这里我要给你们打一针重要的\"解毒针\"。心理学史上最有名的数字——George Miller 1956 年提出的\"神奇的 7±2\"——被设计界**普遍误用**了几十年。很多平庸的设计师根据这个理论得出教条结论：\"菜单选项不应超过 7 个，标签页不应超过 7 个\"。但这完全不对。Miller 的实验测量的是**短时记忆容量**——你听到或看到一串毫无逻辑关联的数字串后，闭上眼睛能凭空记住多少个。实验的关键词是\"凭空记住\"。\n但请注意，当你在使用网页导航或下拉菜单时，选项是**一直物理地摆在你面前的**！你根本不需要把这七个选项塞进有限的大脑缓存里去死记硬背——你只需要进行**扫视和视觉识别**。在有良好信息分类架构（Information Architecture）的前提下，扫视一个包含 30 个选项的大型超级菜单（Mega Menu）来找到你要找的类目，和凭空被动记住 30 个抽象项目，是截然不同的两项认知任务。所以，如果以后你们去大厂面试交互设计师，请绝对不要在面试官面前说出\"根据 Miller's Law，这个下拉菜单最多只能放 7 个选项\"这种话——这会让你当场丢掉这份工作，因为这暴露出你对认知原理的机械式照搬。",
+          "ttsFp": "dd8594e4_517",
+          "srtCueIdx": 189,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 57,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后，请别将\"减少负荷\"和\"剥夺参与\"混为一谈：",
+          "ttsFp": "e2fac8d3_24",
+          "srtCueIdx": 190,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "Fairfield 大学心理学家 Linda Henkel 2014 年发表在 *Psychological Science* 上的研究报告了一个反直觉的发现：参观博物馆时，你对着展品拍照反而会让你记住**更少的展品**和**更少的细节**——包括展品的位置。Henkel 称之为\"拍照损害记忆效应\"，photo-taking impairment effect。机制是：你把\"记住\"的任务**卸载**给了相机，大脑的深层编码过程就被跳过了。但有一个精彩的反转——当受试者被要求**放大（zoom in）**拍摄展品的某个细节时，记忆损害**消失了**。放大操作迫使你做出选择和聚焦，重新激活了深层认知加工。这个发现对设计的启示是：**被动代劳不等于有效辅助**。真正降低认知负荷的设计，不是替用户做所有事，而是引导用户**在关键节点上主动投入注意力**。",
+          "ttsFp": "5f718ea5_378",
+          "srtCueIdx": 191,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 70,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "人的大脑提取信息有两套路径。",
+          "ttsFp": "5ffe60ea_14",
+          "srtCueIdx": 192,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**回忆**——像在终端里凭空输入 `tar -zxvf filename.tar.gz`，需要从长期记忆中不借助任何线索地提取出完整信息。这极其耗费脑力，也极容易出错。",
+          "ttsFp": "42788496_85",
+          "srtCueIdx": 193,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 84,
+          "srcLEnd": 84
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**识别**——看到选项，确认就好。现代手机的\"验证码自动填充\"就是典范：系统识别到短信后，把验证码做成胶囊按钮悬浮在键盘上方，你只需**轻点一下**。",
+          "ttsFp": "c569a07c_76",
+          "srtCueIdx": 194,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "教材举了一个扎心的例子。网上银行为了安全，要求你设一个 5-10 位的密码——比如\"interaction\"。但它不会让你整个输入，而是随机要求你输入\"第 7 个和第 5 个字母\"。你试试——\"interaction\"的第 7 个字母是什么？你是不是得从头一个一个数过去？这种安全机制把用户推入了**回忆模式的深渊**。结果呢？大量用户把密码写在一张纸上贴在电脑旁边——安全措施反过来制造了最大的安全漏洞。后来的生物识别登录（Face ID、指纹识别）正是用\"识别\"彻底取代了\"回忆\"，把认证的负担从人脑转移给了手机。",
+          "ttsFp": "43ce42e7_259",
+          "srtCueIdx": 195,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 88,
+          "srcLEnd": 89
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "现代生产力工具里无处不在的 `Cmd+K` 万能命令面板把这个原则推到了极致。在 Notion、VS Code、Linear 中，你只需敲两三个首字母，系统就基于上下文**模糊匹配**出所有可能的操作，供你肉眼挑选。你本来需要在六七层菜单里逐级翻找的功能，现在一秒搞定。这就是把\"回忆\"转化为\"识别\"的降维打击。",
+          "ttsFp": "45595ca0_156",
+          "srtCueIdx": 196,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 98,
+          "srcLEnd": 99
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "优秀交互设计的底线之一：**把所有需要痛苦\"回忆\"的任务，转化为轻松的\"识别操作\"**。不要强迫你的用户用他们天生孱弱的瞬时记忆，去和永远精准的数字深渊对抗。",
+          "ttsFp": "e510c3a2_79",
+          "srtCueIdx": 197,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 101,
+          "srcLEnd": 102
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "讲到这里，你可能会觉得人类的大脑太弱了——注意力窄、记忆小、容易过载。但人类有一个了不起的对策：我们会**借用外部工具来扩展大脑的能力**。认知科学把这叫做**外部认知**——External Cognition。",
+          "ttsFp": "f9366d73_107",
+          "srtCueIdx": 198,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 108,
+          "srcLEnd": 108
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "教材指出了外部认知的三种基本形式。第一种是**外部化**——把脑子里的信息搬到外面。你把待买清单写在纸上，你的工作记忆就腾出了空间。设计师在白板上画原型图，他的思路就从模糊变成了可见。第二种是**计算卸载**——让工具替你做计算。你不用心算 37×83，用计算器就行。导航 App 替你规划路线就是计算卸载。第三种是**注释和认知追踪**——在已有信息上做标记。你在书上划重点，在地图上标记去过的地方，本质上都是在利用外部标记来**减轻大脑的追踪负担**。",
+          "ttsFp": "d5fbfe87_228",
+          "srtCueIdx": 199,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 110,
+          "srcLEnd": 110
+        },
+        {
+          "type": "did_you_know",
+          "tag": "DID YOU KNOW",
+          "text": "教材还介绍了一个更广义的框架叫**分布式认知**，Distributed Cognition。它认为认知活动不仅仅发生在一个人的脑子里，而是**分布在**人、工具和环境之间的。一个航空管制员的工作不是一个人完成的——它分布在管制员的大脑、雷达屏幕、纸质飞行条、同事的口头通报，以及标准化操作流程之间。任何一个环节失灵，整个认知系统就会崩溃。这个视角对设计师的启示是：**你设计的不是一个孤立的界面，而是一个包含了用户、设备和环境的认知生态系统。** 界面上的每一个视觉线索、每一个快捷方式、每一个提示文案，都是这个分布式认知系统的一部分。",
+          "ttsFp": "30c902ac_269",
+          "srtCueIdx": 200,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 112,
+          "srcLEnd": 113
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "[ART/AESTHETICS]\n日本国际艺术团体 **teamLab** 2024 年在东京重新开幕的**无界美术馆（Borderless）**就是分布式认知的顶级商业实践。他们的理念是\"身体主动感知\"（Body Active Perception）——他们拒绝将观众固定在\"看\"这个单向动作上，而是让花朵因人的触摸而盛开、让水流因人的驻足而改道。观众的身体就是触发世界变化的媒介，艺术作品的形态被分布并**卸载**到了每一位经过的人群身上。这本质上也是一种高阶的分布式认知和物理反馈交互。",
+          "ttsFp": "cad3b61b_246",
+          "srtCueIdx": 201,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 115,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以，好的交互设计本质上就是**外部认知的设计**——你在帮用户的大脑\"装外挂\"，把那些容易出错、容易遗忘、容易过载的认知任务，用界面元素替代掉。待办事项列表、日历提醒、自动保存、智能推荐——这些功能的底层逻辑全都是外部认知。",
+          "ttsFp": "3aa9dab9_113",
+          "srtCueIdx": 202,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "理论讲够了。是时候拿起这些工具，去切割现实了。",
+          "ttsFp": "57672a38_23",
+          "srtCueIdx": 203,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        }
+      ],
+      "firstSrtCueIdx": 179,
+      "budgetChars": 2700,
+      "oralCharCount": 2667,
+      "estimatedMinutes": 14.8,
+      "fillRatio": 0.99
+    },
+    {
+      "id": "mod-9",
+      "title": "实践：认知摩擦大搜查 (35 min)",
+      "slides": [
+        {
+          "id": "w02-slide-20",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "实践活动引导页，标题\"认知摩擦大搜查\"，配以放大镜与裂纹界面的图形化图标",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-20.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-20.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-20.png"
+          ],
+          "list": [
+            "🔍 猎手寻踪 10min | 🔬 诊断解构 15min | 🎤 提案时刻 10min"
+          ],
+          "paragraphStart": 1
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "35min",
+          "desc": "认知摩擦大搜查——寻找并剖析身边的\"反面教材\"",
+          "text": "[ACTIVITY]\n**Type**: `Practice`\n**Duration**: `35min`\n**Desc**: 认知摩擦大搜查——寻找并剖析身边的\"反面教材\"",
+          "ttsFp": "c075804f_87",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 130,
+          "srcLEnd": 133
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "好。你们刚才吸收了大量抽象的认知理论。现在，是时候把这些理论变成**手术刀**，去剖析现实了。",
+          "ttsFp": "235f62db_47",
+          "srtCueIdx": 204,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 142,
+          "srcLEnd": 142
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**任务说明**：",
+          "ttsFp": "6447f0a5_9",
+          "srtCueIdx": 205,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 144,
+          "srcLEnd": 144
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "以小组为单位，完成以下三个步骤：",
+          "ttsFp": "587b52e7_16",
+          "srtCueIdx": 206,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 146,
+          "srcLEnd": 146
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第一阶段 · 猎手寻踪（10 min）**",
+          "ttsFp": "c012e2af_23",
+          "srtCueIdx": 207,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 148,
+          "srcLEnd": 148
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "快速在手机 App、网页，甚至教室周围的实体产品中，找出 **3 个**让你们产生强烈\"心智摩擦\"的反面案例。投影仪遥控器够不够奇葩？空调面板是不是反人类？手机里哪个 App 让你骂过最多次？",
+          "ttsFp": "be687418_96",
+          "srtCueIdx": 208,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 150,
+          "srcLEnd": 150
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第二阶段 · 诊断解构（15 min）**",
+          "ttsFp": "f1ca7780_23",
+          "srtCueIdx": 209,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 152,
+          "srcLEnd": 152
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "用今天学到的四把钥匙去开锁：",
+          "ttsFp": "a8d401d3_14",
+          "srtCueIdx": 210,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 154,
+          "srcLEnd": 154
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 它栽在了\"执行鸿沟\"还是\"评估鸿沟\"？",
+          "ttsFp": "0dce7e51_21",
+          "srtCueIdx": 211,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 155,
+          "srcLEnd": 155
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 它是否把\"实现模型\"强行暴露给了用户？",
+          "ttsFp": "3ca7273b_21",
+          "srtCueIdx": 212,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 156,
+          "srcLEnd": 156
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 界面隐喻是不是用错了、用旧了？",
+          "ttsFp": "2ec39412_17",
+          "srtCueIdx": 213,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 157,
+          "srcLEnd": 157
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 还是信息层级缺失导致了认知过载？",
+          "ttsFp": "1cc605df_18",
+          "srtCueIdx": 214,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 158,
+          "srcLEnd": 158
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第三阶段 · 提案时刻（10 min）**",
+          "ttsFp": "ca32ce03_23",
+          "srtCueIdx": 215,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 160,
+          "srcLEnd": 160
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "每组挑选最典型的一个案例，上台做 **2 分钟**的快速脱稿批判。请用一句话点透它的\"病因\"，再用一句话给出你的\"处方\"。",
+          "ttsFp": "d54d5028_61",
+          "srtCueIdx": 216,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 162,
+          "srcLEnd": 162
+        },
+        {
+          "type": "philosophy",
+          "tag": "PHILOSOPHY",
+          "text": "当我们讨论\"心智摩擦\"时，请把目光再放远一步。那些视觉障碍、认知障碍或高龄用户——对健全用户来说只是\"不太方便\"的设计缺陷，对他们可能意味着**完全无法使用**。\n这不是抽象的道德议题。截至 2024 年底，工信部推动超过 **3000 个**老年人常用的网站和 App 完成了适老化改造，超过 **1 亿台**国产智能手机和智能电视上线了\"长辈模式\"。中国 60 岁以上\"银发网民\"已达 **1.56 亿**，占网民总数 14.1%。2024 年评选出的 100 项无障碍标志性成果中，就包括 12306 的\"敬老版\"和高德地图的视障导航。《无障碍环境建设法》已于 2023 年施行，2025 年又发布了《推进互联网适老化及无障碍建设高质量发展共同行动方案（2025-2028）》，目标是到 2028 年底实现全国政务和民生领域的无障碍全覆盖。无障碍设计——Accessibility——与包容性设计——Inclusive Design——不是锦上添花的可选项，而是**法律义务**和数字公民社会的**基本底线**。",
+          "ttsFp": "fa8f00e9_459",
+          "srtCueIdx": 217,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 164,
+          "srcLEnd": 167
+        }
+      ],
+      "firstSrtCueIdx": 204,
+      "budgetChars": 1500,
+      "oralCharCount": 550,
+      "estimatedMinutes": 3.1,
+      "fillRatio": 0.37
+    },
+    {
+      "id": "mod-10",
+      "title": "小结：从破坏到建设 (10 min)",
+      "slides": [
+        {
+          "id": "w02-slide-21",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "2×2 网格卡片，每张卡片标注一个根源——左上\"注意力·感知·记忆的天然局限\"（大脑图标），右上\"执行鸿沟与评估鸿沟\"（断裂链条图标），左下\"实现模型 vs 心理模型\"（对抗箭头图标），右下\"隐喻的破裂·老化·限制\"（碎裂的图标）",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-21.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-21.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-21.png"
+          ],
+          "list": [
+            "1️⃣ 认知管线的三道滤网 | 2️⃣ Norman 的两道鸿沟 | 3️⃣ Cooper 的三种模型 | 4️⃣ 隐喻的三种死法"
+          ],
+          "paragraphStart": 0
+        },
+        {
+          "id": "w02-slide-22",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "粗犷硬核的深色任务板，带有发光的扫描准星",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-22.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-22.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-22.png"
+          ],
+          "list": [
+            "📋 锁定一个典型认知过载界面（软硬件皆可） | 🔥 P图绘制出它的认知热力图与注意力黑洞 | 📌 锚定四大理论，至少定性三处摩擦节点 | 💡 提交基于心智模型原理视角的降维重构草图（至少3条改点）"
+          ],
+          "paragraphStart": 20
+        },
+        {
+          "id": "w02-slide-23",
+          "layout": "Center",
+          "text": "W03 · 产品洞察与痛点切入",
+          "heading": "",
+          "scene": "广角镜头拍摄的拥挤城市十字路口，人头攒动，色调略微压抑，中心有一个鲜亮的指南针指针",
+          "image": "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-23.png",
+          "images": [
+            "weeks/W02_人类认知与心智摩擦/public/slides/w02-slide-23.png"
+          ],
+          "assetExpected": [
+            "public/slides/w02-slide-23.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "由于时间关系，我们的系统学习就到这里。今天这沉甸甸的两小时里，我们把\"心智摩擦（Mental Friction）\"这个常常被归咎于\"用户智商不足\"的看不见的替罪羊，用认知科学的手术刀彻彻底底地大卸了八块。",
+          "ttsFp": "067b2590_102",
+          "srtCueIdx": 218,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 182,
+          "srcLEnd": 182
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "让我们最后收网，重新盘点一下这些导致你们破防的代码幕后四大元凶——",
+          "ttsFp": "42f38b09_33",
+          "srtCueIdx": 219,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 184,
+          "srcLEnd": 184
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第一块拼图**：人类认知管线的三道先天物理滤网。",
+          "ttsFp": "14985b79_26",
+          "srtCueIdx": 220,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 186,
+          "srcLEnd": 186
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **注意力**是漏斗，它充满盲点，你永远不能指望红色的高亮横幅能自动唤起用户的关注（Banner Blindness）。",
+          "ttsFp": "edbeb80d_62",
+          "srtCueIdx": 221,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 187,
+          "srcLEnd": 187
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **感知**是滤镜，大脑是一台拼图机，它比你想象的更依赖格式塔的捷径。",
+          "ttsFp": "c1809266_37",
+          "srtCueIdx": 222,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 188,
+          "srcLEnd": 188
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **记忆**是便签本，容量极小，而且读取极易出错。设计师的最高道德，就是**不要考验用户的记忆力**。记住，识别永远胜过回忆。",
+          "ttsFp": "50e40eff_65",
+          "srtCueIdx": 223,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 189,
+          "srcLEnd": 189
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第二块拼图**：Don Norman 的两条行动鸿沟。",
+          "ttsFp": "d7903d39_29",
+          "srtCueIdx": 224,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 191,
+          "srcLEnd": 191
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **执行鸿沟**拦在操作之前：当用户心里狂喊\"我不知道怎么让它动起来\"时，请用**显性的可供性（Affordance）和前置的物理约束（Constraint）**去填平它。",
+          "ttsFp": "05728691_88",
+          "srtCueIdx": 225,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 192,
+          "srcLEnd": 192
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **评估鸿沟**拦在操作之后：当用户陷入\"我不确定刚才那一通操作到底成功了没\"的深渊时，请用**极低延迟、多模态、可撤销的宽恕式系统状态反馈**（Feedback & Visibility）去接住他。",
+          "ttsFp": "a7006ea9_102",
+          "srtCueIdx": 226,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 193,
+          "srcLEnd": 193
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第三块拼图**：Alan Cooper 的三重模型世界大战。",
+          "ttsFp": "238e53da_32",
+          "srtCueIdx": 227,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 195,
+          "srcLEnd": 195
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **实现模型**是冰冷的机器真理，**心理模型**是用户朴素但错漏百出的生活直觉。",
+          "ttsFp": "2500f703_43",
+          "srtCueIdx": 228,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 196,
+          "srcLEnd": 196
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 伟大体验设计的唯一出路，就是不择手段地利用代码，让你手上的**表现模型无限度逼近用户的心理模型**，同时把一切实现模型的底层数据库与工程术语掩埋在视线之外。",
+          "ttsFp": "75c57c91_80",
+          "srtCueIdx": 229,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 197,
+          "srcLEnd": 197
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第四块拼图**：隐喻这把被滥用的双刃剑。",
+          "ttsFp": "b35d07eb_22",
+          "srtCueIdx": 230,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 199,
+          "srcLEnd": 199
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 我们利用极度通俗的物理常识（桌面、文件夹、购物车）搭建了让几十亿计算机初学者疯狂涌入数字世界的降维脚手架，让这个庞大的数字帝国得以建立；但时代变了，在 AI 和空间计算的时代，我们绝不能继续做这些古典物理常识的奴隶。我们必须学会用**数字维度的原生逻辑**去设计未来的界面互动，打破被物理空间死死限制住的想象力天花板。",
+          "ttsFp": "c0deb8af_161",
+          "srtCueIdx": 231,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 200,
+          "srcLEnd": 200
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- 警惕隐喻的遗迹化与老化，当年轻一代不再认识软盘时，立刻抛弃它；当数字代码能实现跨时空的瞬间位移与撤销时，**毫不犹豫地杀死受困于物理法则的这批旧隐喻，向数字原生范式跃迁**。",
+          "ttsFp": "aed6b24b_89",
+          "srtCueIdx": 232,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 201,
+          "srcLEnd": 201
+        },
+        {
+          "type": "teaching_moment",
+          "tag": "TEACHING MOMENT",
+          "text": "如果今天你们只是带着一堆名词（格式塔、工作记忆、认知鸿沟）离开，那我今天的任务只完成了一半。\n今天这节课是一场纯粹的\"解构与破坏\"——我把那些你们本以为理所当然的糟糕操作，全部解剖成了冰冷的神经科学名词。我们看到了人类在极其冷酷、没有感情的系统面条代码面前，是多么的脆弱、焦虑且毫无防备。\n那么该怎么修补？怎么彻底治愈这种摩擦？\n下节 W03，我们将切换战场，开始全盘的**\"建设\"**过程。我们将离开心理学实验室的图纸，带着对\"三种模型冲突\"的深刻敬畏，直接走到真实用户的办公桌前。我们将学习如何使用定性调研的三把尖锐手术刀，把那些模糊的\"直觉和感觉不对劲\"，转化成能够指导开发的\"精准问题陈述\"（Problem Statement）。这也是你们真正向高级交互产品专家迈出的、决定性的一大步。",
+          "ttsFp": "81fab3b6_347",
+          "srtCueIdx": 233,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 203,
+          "srcLEnd": 207
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "刚才在诊断工坊里，你们看着那些奇葩的反人类产品笑出了声。但我希望你们带出这间教室的，不再是作为一名普通消费者去吐槽\"这个 UI 真恶心\"的廉价情绪，而是一种带着 X 光透视眼的**临床诊断思维**。",
+          "ttsFp": "30fe6b3e_99",
+          "srtCueIdx": 234,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 211,
+          "srcLEnd": 211
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "从今天起，当你再遇到一个让你卡壳、抓狂、迷路的数字界面时，停下来三秒钟，不要骂脏话，立刻问自己四个硬核问题：",
+          "ttsFp": "3846abb1_54",
+          "srtCueIdx": 235,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 212,
+          "srcLEnd": 212
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**摩擦究竟发生在哪一条认知管线上？是注意力被无效刺激耗尽了？是评估鸿沟因为反馈断层拉开了？是设计师傲慢地把实现模型当表现模型在裸奔？还是这个界面的旧隐喻跟不上我们的文化潜意识了？**",
+          "ttsFp": "05950c7a_92",
+          "srtCueIdx": 236,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 213,
+          "srcLEnd": 213
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "唯有能够极其冷酷而精确地穿透表象定位病灶，你们才有资格作为主刀医生，开出一张重构数字世界的代码处方。",
+          "ttsFp": "e9abe59f_50",
+          "srtCueIdx": 237,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 214,
+          "srcLEnd": 214
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**课后任务**：",
+          "ttsFp": "e51c87af_9",
+          "srtCueIdx": 238,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 223,
+          "srcLEnd": 223
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "选取一个让你身受其害的、存在严重**认知过载**的界面（甚至包括你校园里的某些教务系统或者打卡机器）。不用写代码，直接把界面截图，用红笔绘制出它的**认知热力盲区**，锚定所有引发摩擦的操作节点。并在你的报告最后，提出至少 **3 条**基于今天所学四大心智模型理论视角的防御性重构建议。",
+          "ttsFp": "5eb5caae_144",
+          "srtCueIdx": 239,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 224,
+          "srcLEnd": 224
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天的理论狂飙，本质上是在做**\"破坏\"**——我们在学习如何残忍地把病灶剥离出来给用户看。",
+          "ttsFp": "bfe24edc_46",
+          "srtCueIdx": 240,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 233,
+          "srcLEnd": 233
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但在工程世界里，破坏永远只是前奏。从下节课，也就是 W03 开始，我们要拿回工具，开始真正的**\"建设\"**。我们将离开无菌的教室，走进泥沙俱下的丛林法则里，去学习如何运用定性与定量并行的用研方法（User Research），去真实的世界里切中那些最具商业价值的隐性痛点。",
+          "ttsFp": "d7f6812a_137",
+          "srtCueIdx": 241,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 234,
+          "srcLEnd": 234
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "伟大体验设计的第一步，永远是从**学会精准地感受痛楚**开始的。",
+          "ttsFp": "022747d3_32",
+          "srtCueIdx": 242,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 236,
+          "srcLEnd": 236
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很高兴和你们一起渡过这些痛苦的深渊。下课。",
+          "ttsFp": "5cd83831_21",
+          "srtCueIdx": 243,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W02_人类认知与心智摩擦/src/M05_记忆负荷与认知过载.md",
+          "srcLStart": 238,
+          "srcLEnd": 238
+        }
+      ],
+      "firstSrtCueIdx": 218,
+      "budgetChars": 1800,
+      "oralCharCount": 1551,
+      "estimatedMinutes": 8.6,
+      "fillRatio": 0.86
+    }
+  ]
+}

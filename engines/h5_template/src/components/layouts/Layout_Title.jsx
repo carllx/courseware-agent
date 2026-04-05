@@ -1,55 +1,30 @@
 /**
  * Layout_Title — 标题/总结/引言布局
- * 居中大标题 + 可选副文本
+ * 居中大标题 + 可选副文本，极简留白风格
  */
 export default function Layout_Title({ slide }) {
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '100%',
-      padding: '24px 32px',
-      textAlign: 'center',
-      background: slide.resolvedImage ? 'none' : 'var(--theme-bgDark)',
-      color: slide.resolvedImage ? 'var(--theme-text)' : 'var(--theme-bg)',
-      position: 'relative',
-    }}>
+    <div className={`h5-layout-title ${slide.resolvedImage ? 'h5-layout-title--with-bg' : ''}`}>
       {slide.resolvedImage && (
         <img
           src={slide.resolvedImage}
           alt=""
-          style={{
-            position: 'absolute', inset: 0,
-            width: '100%', height: '100%',
-            objectFit: 'cover', opacity: 0.3,
-          }}
+          className="h5-layout-title-bg"
         />
       )}
-      <h2 style={{
-        fontFamily: 'var(--theme-fontTitleCn)',
-        fontSize: '22px',
-        fontWeight: 700,
-        lineHeight: 1.4,
-        position: 'relative',
-        zIndex: 1,
-      }}>
-        {slide.heading || slide.scene || slide.id}
+      <h2 className="h5-layout-title-heading">
+        {slide.heading || slide.text || slide.scene || slide.id}
       </h2>
-      {slide.list && slide.list.length > 0 && (
-        <div style={{
-          marginTop: '16px', position: 'relative', zIndex: 1,
-          display: 'flex', flexDirection: 'column', gap: '6px', alignItems: 'center',
-        }}>
-          {slide.list.map((item, i) => (
-            <span key={i} style={{
-              fontSize: '14px',
-              opacity: 0.8,
-            }}>
-              {item}
-            </span>
-          ))}
+      {slide.parsedList && slide.parsedList.length > 0 && (
+        <div className="h5-layout-title-subtext-container">
+          {slide.parsedList.map((item, i) => {
+            const itemText = typeof item === 'string' ? item : item.title;
+            return (
+              <span key={i} className="h5-layout-title-subtext">
+                {itemText}
+              </span>
+            )
+          })}
         </div>
       )}
     </div>

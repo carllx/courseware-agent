@@ -1,0 +1,3777 @@
+{
+  "version": "2.1",
+  "generated": "2026-04-05T18:31:55.308386",
+  "course": "交互产品开发",
+  "script": "W01_交互体系概论基础",
+  "theme": {
+    "bg": "#F5F0EB",
+    "bgSurface": "#FFFFFF",
+    "bgElevated": "#EDE7E0",
+    "bgDark": "#2D2926",
+    "primary": "#B85042",
+    "secondary": "#5B7B6F",
+    "accent": "#C9A96E",
+    "info": "#6B8FAD",
+    "textOnDark": "#F5F0EB",
+    "primaryLight": "#D4756A",
+    "primaryMuted": "#8C3A30",
+    "success": "#5B7B6F",
+    "warning": "#C9A96E",
+    "error": "#B85042",
+    "border": "#D6CFC7",
+    "text": "#2D2926",
+    "textSecondary": "#6B635C",
+    "textMuted": "#A39B93",
+    "primaryRgb": "184, 80, 66",
+    "secondaryRgb": "91, 123, 111",
+    "isDark": false,
+    "fontTitle": "Georgia",
+    "fontBody": "Inter",
+    "fontTitleCn": "Noto Serif SC",
+    "fontBodyCn": "Noto Sans SC"
+  },
+  "media": {
+    "audio": "tts/audio/W01_交互体系概论基础.mp3",
+    "srt": "tts/srt/W01_交互体系概论基础.srt"
+  },
+  "sections": [
+    {
+      "id": "mod-0",
+      "title": "W01_交互体系概论基础",
+      "slides": [],
+      "paragraphs": [
+        {
+          "type": "tech_note",
+          "tag": "!NOTE",
+          "text": "导读\n本节课作为交互产品开发的第一课，旨在彻底打破学生对硬件堆砌或纯视觉作图的固有认知。通过梳理数字产品失败的血泪史，建立基于“用户目标”而非“机器逻辑”的交互哲学。同时，深入讲解可用性指标体系与交互设计五大原则，最后落地到实验1(Exp1)的先导启动说明，从理论到思维方式再到实践方法全面铺开，预计课堂时长 4 学时（180 分钟）。",
+          "ttsFp": "25f9b781_168",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M00_课程导览.md",
+          "srcLStart": 3,
+          "srcLEnd": 4
+        }
+      ],
+      "firstSrtCueIdx": null,
+      "oralCharCount": 0,
+      "estimatedMinutes": 0.0,
+      "fillRatio": null
+    },
+    {
+      "id": "mod-2",
+      "title": "模块 1: 数字产品之殇 —— 我们为什么会抓狂？ (约 25 分钟)",
+      "slides": [
+        {
+          "id": "W01_S00",
+          "layout": "Full",
+          "text": "",
+          "heading": "1.1 开场：那些“反人类”的设计惨案",
+          "scene": "概念插画：一台设计极度奢华但操作面板如同飞机驾驶舱般复杂的意式咖啡机。一只手在密密麻麻的按键上方犹豫不决，屏幕旁用图表标注着“目标：只需要一杯热水”。画面呈现学术极简的暖灰色调，用赤陶红强调用户的认知摩擦。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S00.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S00.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S00.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "W01_S01",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "纪实风格：一位满头白发的老人在公交车前部，举着老旧的智能手机焦急地试图扫码，身后隐约可见排队等待、神情焦躁的乘客。画面带有强烈的无助感和年龄带来的技术鸿沟，无需任何文字排版。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01.png"
+          ],
+          "list": null,
+          "paragraphStart": 1
+        },
+        {
+          "id": "W01_S01a",
+          "layout": "Split",
+          "text": "Alan Cooper 与“数字产品行为” (Digital Fail)",
+          "heading": "",
+          "scene": "概念肖像插画：交互设计大师 Alan Cooper (戴框架眼镜、留胡子的长者，穿着背带裤并戴着鸭舌帽) 正若有所思地望向一台极其复杂、毫无逻辑的咖啡机与抽象混乱的数字 UI 菜单交织而成的“高墙”，代表着令人抓狂的数字产品行为 (Digital Fail)。画面采用学术极简的暖象牙白背景，并用赤陶红与苔藓绿进行点缀，致敬《About Face》的经典风格。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01a.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01a.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01a.png"
+          ],
+          "list": null,
+          "paragraphStart": 2
+        },
+        {
+          "id": "W01_S01_Book",
+          "layout": "Full",
+          "text": "《About Face 4: 交互设计精髓》",
+          "heading": "",
+          "scene": "书籍封面展示：Alan Cooper 等人合著的经典教材《About Face 4: The Essentials of Interaction Design》。封面采用标志性的白、绿、蓝渐变背景，大号的“ABO UTF ACE” 镂空排版，体现交互设计的深度与经典感。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01_Book.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01_Book.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01_Book.png"
+          ],
+          "list": null,
+          "paragraphStart": 4
+        },
+        {
+          "id": "W01_S01b",
+          "layout": "Grid",
+          "text": "",
+          "heading": "1.2 数字产品的四宗罪",
+          "scene": "数字产品四宗罪列表卡片，每宗配一个拟人化图标。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01b.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01b.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01b.png"
+          ],
+          "list": [
+            "1.粗鲁 (Rude)",
+            "2.强迫人像计算机思考",
+            "3.邋遢习惯 (Sloppy)",
+            "4.让人类承担苦力 (Heavy Lifting)"
+          ],
+          "paragraphStart": 5
+        },
+        {
+          "id": "W01_S01d",
+          "layout": "Grid",
+          "text": "",
+          "heading": "1.2.5 产品失败的四大根因",
+          "scene": "产品失败四大根因概览卡片，每项配标志性图标：优先级错位（天平倾斜）、对用户的无知（蒙眼人偶）、利益冲突（双向拉扯箭头）、缺乏设计流程（断裂的流程线）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01d.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01d.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01d.png"
+          ],
+          "list": [
+            "1.优先级错位 (Misplaced Priorities)",
+            "2.对用户的无知 (Ignorance About Users)",
+            "3.利益冲突 (Conflicts of Interest)",
+            "4.缺乏设计流程 (Lack of a Design Process)"
+          ],
+          "paragraphStart": 16
+        },
+        {
+          "id": "W01_S01e",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "左侧：SAP ERP 典型操作界面截图，密密麻麻的文本框和字段代码，标注\"仓库管理员的日常\"。右侧：CIO 评估清单——功能数量、合规报告、许可证价格，标注\"购买者的决策依据\"。底部大字：\"购买者的暴政 (Tyranny of the Buyer)\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01e.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01e.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01e.png"
+          ],
+          "list": [
+            "仓库管理员的日常：密密麻麻的代码",
+            "无穷的文本框 vs 购买者的决策：功能清单",
+            "合规报告",
+            "许可证价格"
+          ],
+          "paragraphStart": 24
+        },
+        {
+          "id": "W01_S01f",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "1.3 认知摩擦：机器逻辑对人类的入侵",
+          "scene": "左侧：物理世界可预测性三支柱示意——\"重力\"（石头下落箭头）、\"因果即时性\"（手靠近火焰→疼痛闪电符号）、\"物理一致性\"（固定的电灯开关或汽车踏板）。右侧：数字世界三支柱断裂——\"无重力\"（浮动按钮=按钮？装饰？追踪器？）、\"反馈延迟\"（点击→…→无响应）、\"一致性崩塌\"（App 更新→按钮全变位置）。中间用裂痕图案连接，标注\"认知摩擦 (Cognitive Friction)\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01f.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01f.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01f.png"
+          ],
+          "list": [
+            "物理世界可预测性：重力",
+            "因果即时性",
+            "物理一致性 vs 数字世界三支柱断裂：无重力",
+            "反馈延迟",
+            "一致性崩塌"
+          ],
+          "paragraphStart": 29
+        },
+        {
+          "id": "W01_S01g",
+          "layout": "Full",
+          "text": "认知摩擦害死人：Therac-25 放射治疗仪事故",
+          "heading": "",
+          "scene": "真实的 DEC VT100 实体终端机（当年操作员面临的物理设备硬件）与 Therac-25 放射治疗仪的机器构造档案合集。虽然没有直接展示那块“撒谎的屏幕”，但通过冰冷笨重的医疗设备实体，传递出了机器逻辑对脆弱人体的物理压迫感。**（注：此为真实历史档案图引用，严禁利用图像 AI 生成）**",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01g.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01g.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01g.png"
+          ],
+          "list": null,
+          "paragraphStart": 35
+        },
+        {
+          "id": "W01_S01c",
+          "layout": "Split",
+          "text": "",
+          "heading": "1.4 数字化的代价：物理转数字，真的全是好事吗？",
+          "scene": "数字化排斥四类人群图示，每类配场景图标。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01c.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01c.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01c.png"
+          ],
+          "list": [
+            "不使用智能手机的老年人",
+            "手机没电无数据者",
+            "隐私敏感用户",
+            "辅助技术依赖者"
+          ],
+          "paragraphStart": 41
+        },
+        {
+          "id": "W01_S01h",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "概念插画：左侧\"一刀切\"（警告的赤陶红色系）—— 一扇冰冷且完全封闭的数字闸门，将模糊的人影拦截在外；右侧\"并行\"（通行的苔藓绿色系）—— 宽阔的通道，同时包含着物理闸机和数字扫码双重入口，象征设计上的包容与退路。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01h.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01h.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01h.png"
+          ],
+          "list": [
+            "❌ 一刀切：强制消灭旧方式 vs ✅ 并行路径：物理与数字手段双通道"
+          ],
+          "paragraphStart": 47
+        },
+        {
+          "id": "W01_S01h_Cases",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "三个并列的复古静物特写组合，采用学术简约的低饱和暖色调。从左至右依次为：带零钱槽的老式公交车投币口、复古的医院电话听筒、一本经典的纸质银行存折。画面必须纯净，没有文字、字母或数据排版幻觉，仅通过物本质感传达“保留退路”的温度。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01h_Cases.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01h_Cases.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01h_Cases.png"
+          ],
+          "list": [
+            "1. 交通：新西兰保留硬币投币",
+            "2. 医疗：英国 NHS 保留电话预约",
+            "3. 金融：日本银行保留纸质存折"
+          ],
+          "paragraphStart": 49
+        },
+        {
+          "id": "W01_S01i",
+          "layout": "Full",
+          "text": "数字化转型 ≠ 一刀切淘汰",
+          "heading": "",
+          "scene": "数字鸿沟主题视觉海报。中央：一位老人被家属架起对准银行柜台摄像头的剪影。周围环绕关键数据标签：\"60 岁以上网民仅占 10.3%\"、\"日均 2 万次无健康码投诉\"、\"94 岁，被迫适配机器\"。底部以警示色标注：\"数字化转型 ≠ 一刀切淘汰\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01i.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01i.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01i.png"
+          ],
+          "list": null,
+          "paragraphStart": 52
+        },
+        {
+          "id": "W01_S01j",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "强烈的实物照片对比图：左侧是早期典型的满布几十个密密麻麻相似按键的、患有“按钮繁殖症 (Buttonitis)” 的普通电视遥控器；右侧是著名的「TiVo 花生遥控器 (Peanut Remote)」原版实物图，按键极少且形状分区明显，符合人体工学。底部标注：\"按钮繁殖症 (Buttonitis) 及其解药\"。**（注：此幻灯片适用从网络/教材引入两张真实的历史设备照片，避免由 AI 生成，以维护案例的绝对真实感）**",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S01j_left.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01j_left.png",
+            "weeks/W01_交互体系概论基础/public/slides/W01_S01j_right.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S01j_left.png",
+            "public/slides/W01_S01j_right.png"
+          ],
+          "list": [
+            "典型遥控器：满是形状相同的按键 vs TiVo「花生」遥控器：克制的核心物理按键"
+          ],
+          "paragraphStart": 56
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在正式开始之前，我想先请大家回忆一个场景。你站在茶水间，面前是一台价值过万的高级咖啡机，面板上闪烁着蒸汽、萃取、清洗的各种指示灯，而你——只想接一杯能泡茶的**热水**。你按下了那个看起来最像水滴的图标，结果它开始磨豆子了。你的手指僵在半空中，感觉自己像个面对核按钮的白痴。",
+          "ttsFp": "2bca5fa6_137",
+          "srtCueIdx": 0,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 12,
+          "srcLEnd": 12
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个场景，在座每个人大概都经历过。但现在换一个视角：如果你是一位 70 岁的老人呢？2020 年 8 月，黑龙江哈尔滨一段广为流传的视频记录了真实的一幕——一位老人因没有智能手机无法出示健康码，被公交司机当场拒载，车上乘客非但没有帮助反而指责老人，最终民警赶到将老人带离。他不是不愿意付钱，他是**无法操作手机完成支付**。疫情期间更极端：无法出示健康码的老人被拒于地铁站外、超市门前、医院挂号窗口。一整个群体，被数字系统拒之门外。",
+          "ttsFp": "7876c2be_216",
+          "srtCueIdx": 1,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这就是我们这门课要解决的核心问题。欢迎来到交互产品开发。这门课不是教你怎么画出漂亮的渐变色，或者写出花哨的代码动画——我们第一件事，是要学会怎么“不让人抓狂”，怎么不让技术成为一道高墙而不是一座桥梁。",
+          "ttsFp": "10f4e6e7_100",
+          "srtCueIdx": 2,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "无论是那台让你不知所措的咖啡机，在某个 App 的六级菜单里迷失自我的你，抑或是被数字系统拒之门外的老人，这些场景背后都指向同一个事实。",
+          "ttsFp": "68dd95a7_68",
+          "srtCueIdx": 3,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Alan Cooper 在《About Face》中尖锐地指出：数字产品常常失败，不是因为技术不够强，或者是需求没落地，而是因为它们表现出了极其恶劣的“产品行为”（Digital Fail）。",
+          "ttsFp": "dea2bfd0_96",
+          "srtCueIdx": 4,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Cooper 在《About Face》中将这些恶劣的产品行为提炼为四个精准的维度，我称之为\"四宗罪\"：",
+          "ttsFp": "0ebb451f_52",
+          "srtCueIdx": 5,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第一宗：粗鲁 (Rude)**",
+          "ttsFp": "c4e09823_17",
+          "srtCueIdx": 6,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "数字产品经常表现得像一个完全不懂看人脸色的暴君。在早期，粗鲁是弹出一个冰冷的错误对话框把责任推给你，逼你“确认”一个你根本看不懂的致命错误；而如今的粗鲁演变成了更隐秘的傲慢。比如拥有超级特权的**强制打断**：你正在重要会议上投屏演示，系统突然黑屏并强制开始更新，它完全无视你焦急的现实语境，粗暴剥夺你的控制权。再比如带有恶意的**情感绑架（Confirmshaming）**：想关掉一个满屏广告，它不给你一个直截了当的“关闭”按钮，而是逼你点击底部极小的一行灰色文字——“不，我宁愿做一个穷人”。这些居高临下、缺乏教养的行为，根本没有把用户当成一个需要尊重的人来对待。",
+          "ttsFp": "99dbd189_285",
+          "srtCueIdx": 7,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 61,
+          "srcLEnd": 61
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第二宗：要求人类像计算机一样思考**",
+          "ttsFp": "bed12d86_20",
+          "srtCueIdx": 8,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "举一个经典的例子：在 Microsoft Word 中，你想给正在编辑的文档重新命名。你能直接改名吗？不能。你得先关闭文档，或者使用\"另存为\"命令，保存新名字后再手动删除旧文件。这完全不符合人类的思维方式——在现实世界里，我们只需要在封面上划掉旧名字写上新名字就行了。但 Word 要求你按照它的文件系统逻辑来操作。",
+          "ttsFp": "70cab4b4_158",
+          "srtCueIdx": 9,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第三宗：邋遢的行为习惯 (Sloppy Habits)**",
+          "ttsFp": "6d019cac_31",
+          "srtCueIdx": 10,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "注意，Cooper 说的“邋遢 (Sloppy) ”不是指界面长得丑，而是指**软件极其缺乏自我管理和收拾残局的能力**——就像一个毛手毛脚的小孩。",
+          "ttsFp": "9f1b27ed_74",
+          "srtCueIdx": 11,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第一种邋遢是**丢三落四的“状态失忆”**：你花了十分钟填完一长串申请表，仅仅是切出去看一眼短信验证码，再切回来它竟然把页面重载了，数据一干二净。它没有窃取你的恶意，它只是粗心到忘记帮你保管上一个动作。",
+          "ttsFp": "9f8fc9ca_101",
+          "srtCueIdx": 12,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 68,
+          "srcLEnd": 68
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "第二种邋遢是**乱放危险品的“高危排版”**：社交软件极易引发误拨的“视频通话”按钮常常紧挨着“返回”键。这并非系统故意设下陷阱，而像是一个 10 岁小孩漫不经心地把带刺的图钉丢在沙发上——纯粹的漫不经心与不负责任，却给用户制造了无处不在的雷区。",
+          "ttsFp": "bb9d9633_123",
+          "srtCueIdx": 13,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第四宗：让人类承担苦力 (Heavy Lifting)**",
+          "ttsFp": "264112c3_31",
+          "srtCueIdx": 14,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "计算机被发明出来本是为了做计算和苦力的，但在糟糕的设计下，人反而成了机器的“人肉搬运工”。比如当你输入银行卡号或手机号时，系统弹红报错，仅仅是因为你在数字之间习惯性地输入了空格——它宁愿让作为人类的你倒退光标一个个去删掉空格，也不肯自己多写一行只有 10KB 算力的自动清洗代码。",
+          "ttsFp": "2d08823c_140",
+          "srtCueIdx": 15,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那么，这些\"反人类\"的行为是怎么被制造出来的？是程序员故意的吗？当然不是。Cooper 进一步剖析了数字产品失败的四大根本原因——请看屏幕上这张图，我们逐一拆解：",
+          "ttsFp": "13dc35cc_81",
+          "srtCueIdx": 16,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**根因一：优先级错位 (Misplaced Priorities)**",
+          "ttsFp": "c6c6c75a_36",
+          "srtCueIdx": 17,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "很多团队把\"按时交付\"和\"控制预算\"放在第一位，把\"用户体验\"排在了第三甚至第四。管理层问的是\"你们能不能在 deadline 前把这一版上线\"，而不是\"用户用这个东西会不会抓狂\"。结果就是——产品是发布了，但用户一打开就想卸载。在硅谷的历史上，苹果是少数几家真正把设计放在工程和市场之前的公司——他们愿意为了一个按键的触感推迟整条生产线。而 Microsoft 在早期的 Windows 和 Office 中，经常选择先堆叠功能、再打补丁修体验。这两种哲学的差异，直接塑造了两家公司在用户心中截然不同的品牌调性。",
+          "ttsFp": "fffdcb3e_257",
+          "srtCueIdx": 18,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 89,
+          "srcLEnd": 89
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**根因二：对用户的无知 (Ignorance About Users)**",
+          "ttsFp": "7e1a0ba1_38",
+          "srtCueIdx": 19,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 91,
+          "srcLEnd": 91
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最危险的无知，不是\"不知道用户想要什么\"，而是**自以为知道**。工程师天然倾向于按照底层的代码逻辑来直接映射界面——他们觉得\"代码跑得通，界面这样放就是理所应当的\"。但普通用户并不是技术专家，看到代码级的报错他们只会感到恐慌和内疚。",
+          "ttsFp": "4de1383d_117",
+          "srtCueIdx": 20,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 92,
+          "srcLEnd": 92
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那么，Cooper 凭什么敢断言开发团队对用户无知呢？事实上，Cooper 创办的咨询公司在过去几十年里的核心业务，就是被各大世界 500 强企业请去“拯救”那些耗资巨大却极其难用、濒临退货的软件工程。在审计了成百上千个失败项目后，Cooper 及其团队发出了一个震聋发聩的诊断报告：在传统企业组织架构中，最终用代码敲定成百上千个功能细节的**程序员**，常年被“需求文档”和“工单”隔离在办公室里。他们几乎从未被获准走出大楼，去和真实的使用者进行过哪怕一次面对面的交谈。“写界面的不见用户，见用户的不写界面。” 这种极其普遍的组织隔离，直接切断了代码背后的同理心。这也是为什么 Cooper 后来逼不得已，发明了名震天下的 **“人物角色 (Persona)”** ——既然程序员见不到活人，那就贴一张“虚拟用户画像”在墙上，强迫他们去共情。",
+          "ttsFp": "c82033d3_372",
+          "srtCueIdx": 21,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 93,
+          "srcLEnd": 93
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**根因三：利益冲突 (Conflicts of Interest)**",
+          "ttsFp": "526ce1a8_36",
+          "srtCueIdx": 22,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 95,
+          "srcLEnd": 95
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "产品的购买者和使用者往往不是同一批人。一个 IT 部门的主管决定采购一套企业管理系统，他关心的是价格、兼容性和安全合规——而每天被迫使用这套系统的一线员工，关心的是\"这个东西为什么这么难用\"。当购买者的需求与使用者的需求发生冲突时，设计往往服务于掏钱的人而非真正使用的人，这就产生了结构性的体验灾难。",
+          "ttsFp": "f9aa5f17_150",
+          "srtCueIdx": 23,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种利益冲突在企业级软件中最为普遍。你们可能没听过一家叫 SAP 的德国公司，但它的 ERP（企业资源规划）系统管理着全球 77% 的商业交易额。看屏幕左边——这就是 SAP 仓库管理员每天面对的界面：密密麻麻的文本框、看不懂的字段代码、动辄上百行的下拉菜单。再看右边——SAP 的客户是 CIO 和财务总监，他们评估系统时看的是功能清单的长度、数据合规性报告和每用户许可证价格。几乎没人问过仓库管理员觉得好不好用。Cooper 把这称为\"购买者的暴政\"(Tyranny of the Buyer)：**当掏钱的人和受苦的人不是同一个人，体验质量就永远排在采购清单的最后一项。**",
+          "ttsFp": "6765ccb5_290",
+          "srtCueIdx": 24,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 105,
+          "srcLEnd": 105
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**根因四：缺乏设计流程 (Lack of a Design Process)**",
+          "ttsFp": "bef4ce0a_41",
+          "srtCueIdx": 25,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 107,
+          "srcLEnd": 107
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是最根本的问题。很多团队的开发流程里有需求文档、有代码评审、有测试报告——唯独没有\"设计评审\"。没有人系统地去问：\"用户在这个节点的心理模型是什么？他们期望看到什么？我们展示的东西和他们的期望差距有多大？\"没有设计流程，就意味着界面质量完全依赖程序员的个人品味——这就好像把建筑的采光、通风和空间美学全部交给水泥工来决定。",
+          "ttsFp": "fa5eb3a3_162",
+          "srtCueIdx": 26,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 108,
+          "srcLEnd": 108
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Cooper 进一步指出，很多企业以为在开发末尾找几个用户\"测一测\"就算是做了设计——这叫\"事后粉饰\"(Post-hoc Beautification)，不叫设计流程。真正的设计流程应该**贯穿产品开发的全生命周期**，从立项第一天就介入，而不是等到代码写完了再来\"美化界面\"。",
+          "ttsFp": "01849329_139",
+          "srtCueIdx": 27,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 109,
+          "srcLEnd": 109
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这四大根因里，Cooper 特别强调了第四点。他观察到一个有趣的规律：法律和医疗——两个最常由**领域专家**直接参与界面设计的职业——恰恰拥有最难用的软件系统。这绝非巧合。领域知识专家并不等于设计专家，就像一个心脏外科医生虽然精通手术台上的每一步操作，却可能完全不擅长设计一个让护士能快速找到患者病历的电子系统。",
+          "ttsFp": "9a5dfec8_157",
+          "srtCueIdx": 28,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 113,
+          "srcLEnd": 113
+        },
+        {
+          "type": "tech_note",
+          "tag": "TECH NOTE",
+          "text": "**认知摩擦** (Cognitive Friction) -- Alan Cooper 的核心术语：用户为理解数字产品底层逻辑而被迫消耗的额外脑力。物理工具天然可预测，数字产品却常令人措手不及。",
+          "ttsFp": "54fb4564_98",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 126,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "刚才我们讲了产品\"为什么\"会做出这些蠢事。现在我们来聊聊这些蠢事在用户脑子里造成了什么——**认知摩擦**。请看屏幕上这张对比图。",
+          "ttsFp": "077c32c1_65",
+          "srtCueIdx": 29,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "物理世界有一个数字世界永远无法复制的优势：**天然的可预测性**。这种可预测性建立在三根深埋直觉的支柱上。第一根是**重力**——你捡起一块石头，你知道它很重，松手它一定掉下去。第二根是**因果的即时性**——你把手放在火焰旁边，疼痛几乎零延迟地告诉你\"滚开\"。第三根是**物理一致性**——你家墙上的电灯开关永远在熟悉的位置，汽车的刹车踏板绝不会因为“系统升级”在明天随机跑到副驾驶去。一扇门的开合方向被它的物理铰链彻底锁定，永远不会无故改变。从你出生那天起，物理世界就一直在用这三根支柱训练你的操作直觉。",
+          "ttsFp": "9844b83f_254",
+          "srtCueIdx": 30,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 132,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但在数字产品中，这三根支柱**全部断裂**。代码没有重力——屏幕上的一个方块既可以是导航按钮，也可以是纯装饰标签，甚至可能是一个侵害你隐私的追踪器。反馈可以被延迟或吞噬——你点了\"提交\"，页面纹丝不动，你无法判断系统是在处理还是已经崩溃。物理一致性荡然无存——同一个 App 更新后可能把所有按钮换了位置，昨天好用的流程今天完全不行。你无法通过\"看\"和\"摸\"来区分任何东西。",
+          "ttsFp": "b2e7d3fd_187",
+          "srtCueIdx": 31,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 134,
+          "srcLEnd": 134
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Norman 举过一个精辟的对比：一个旧式的物理温度计，你瞥一眼就知道室温——那根水银柱的长度直接映射了温度。但一个智能恒温器的数字屏幕上显示\"23度\"，你能确定这是实时室温、设定温度、还是某个传感器的历史均值吗？物理温度计的信息是\"自解释的\"(Self-Explanatory)，而数字屏幕上的信息需要额外的认知加工才能理解。",
+          "ttsFp": "ca55948f_164",
+          "srtCueIdx": 32,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 136,
+          "srcLEnd": 136
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当产品经理和程序员把那些属于机器运行的底层逻辑（比如数据库索引、接口调用顺序）直接暴露给用户时，用户就会感到挫败。记住，用户不关心你的系统有多复杂，他们只关心自己能不能顺畅地达成目标。",
+          "ttsFp": "6b2ae91d_92",
+          "srtCueIdx": 33,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 138,
+          "srcLEnd": 138
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "认知摩擦在绝大多数时候只是让你骂两句——但在某些场景下，它能杀人。1985 年到 1987 年间，加拿大一台名叫 **Therac-25** 的放射治疗仪，因为界面设计缺陷造成至少 6 起严重辐射过量事故，3 名患者死亡。其中一位患者本应接受 180 拉德的治疗剂量，实际却被注入了**数万拉德**——正常值的一百倍以上。他在 5 个月后去世。",
+          "ttsFp": "3eab5bf3_172",
+          "srtCueIdx": 34,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 149,
+          "srcLEnd": 149
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最可怕的不是Bug本身，而是**界面对操作员撒了谎**。机器屏幕全程显示“no dose”——没有剂量，一切正常。操作员看到一个叫 “Malfunction 54” 的报错代码，但没有任何说明告诉她这意味着什么。由于机器平时小毛病不断，她早已习惯了按 “P” 键（Proceed，继续）跳过报错。这一次，按下 P 键，就是按下了死亡按钮。",
+          "ttsFp": "a0dc8862_169",
+          "srtCueIdx": 35,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 151,
+          "srcLEnd": 151
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个案例我们在后面讲到三大模型的时候还会回来——Therac-25 的悲剧，本质上就是**表现模型说“一切正常”，工程实施模型已经完全失控**。界面欺骗了操作员的心智模型。",
+          "ttsFp": "5e68c412_86",
+          "srtCueIdx": 36,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 153,
+          "srcLEnd": 153
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Yvonne Rogers 在《Interaction Design》中花了大量篇幅讨论一个容易被忽视的问题：当我们把物理世界的活动搬到数字世界时，我们究竟**失去了什么**？",
+          "ttsFp": "e8c1fea9_88",
+          "srtCueIdx": 37,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 158,
+          "srcLEnd": 158
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "曾经，停车计时需要往咪表里塞硬币。现在呢？掏出手机、打开 App、输入车位号、扫码支付——看似更方便了。但这里隐含着一个假设：**用户必须拥有一部智能手机，且电量充足，还得会操作这个 App**。",
+          "ttsFp": "c9526001_98",
+          "srtCueIdx": 38,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 160,
+          "srcLEnd": 160
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种\"数字化转型\"对以下人群是**排斥性的**：",
+          "ttsFp": "185a883d_24",
+          "srtCueIdx": 39,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 162,
+          "srcLEnd": 162
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   不使用或不会使用智能手机的老年人",
+          "ttsFp": "72053b96_18",
+          "srtCueIdx": 40,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 171,
+          "srcLEnd": 171
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   手机没电或没有移动数据的人",
+          "ttsFp": "14888da9_15",
+          "srtCueIdx": 41,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 172,
+          "srcLEnd": 172
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   不愿在网上提供个人信息和信用卡的用户",
+          "ttsFp": "e78e4076_20",
+          "srtCueIdx": 42,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 173,
+          "srcLEnd": 173
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   使用辅助技术的残障人士，如果 App 的无障碍支持做得不够",
+          "ttsFp": "4c3e3e28_31",
+          "srtCueIdx": 43,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 174,
+          "srcLEnd": 174
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Rogers 特别指出，这些人群不是边缘少数——它们可能就是你的父母、你的祖父母、你一个月后手机没电时的自己。数字化创造了便利，但同时也创造了新的不平等。",
+          "ttsFp": "cd21b93c_77",
+          "srtCueIdx": 44,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 176,
+          "srcLEnd": 176
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当一个城市取消了所有公交车上的投币口，只留下扫码支付，它本质上做了一个关于\"谁有权乘坐公共交通\"的社会选择。",
+          "ttsFp": "57c9da85_54",
+          "srtCueIdx": 45,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 177,
+          "srcLEnd": 177
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Rogers 由此引出了一个关键的设计理念：**过渡性设计 (Transitional Design)**。好的数字化转型不应该是\"一刀切\"地消灭旧方式，而应该在一段时间内提供**并行的交互路径**——既保留人们熟悉的物理方式（投币、纸质表单、柜台办理），又提供新的数字选项，让不同能力水平的人群都能以自己的节奏完成过渡。请看屏幕上的对比——左边是反面教材，右边是并行路径的正面示范。这不是技术问题，这是**设计伦理**问题。",
+          "ttsFp": "57c818d2_213",
+          "srtCueIdx": 46,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 186,
+          "srcLEnd": 186
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个理念在全球各地正在被越来越多的城市采纳。",
+          "ttsFp": "bf815c03_22",
+          "srtCueIdx": 47,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 188,
+          "srcLEnd": 188
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "新西兰的公共交通系统在 2024 年推出全国统一的电子票务卡时，明确承诺在至少三年的过渡期内保留所有公交车上的现金投币功能——因为他们发现，强制数字化会不成比例地影响老年乘客、游客和低收入群体。",
+          "ttsFp": "67d465ba_97",
+          "srtCueIdx": 48,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 197,
+          "srcLEnd": 198
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "英国的 NHS（国家医疗服务体系）在推行在线预约系统时，同样保留了电话预约和柜台到访两条通道，并培训前台人员协助不会使用智能手机的患者。",
+          "ttsFp": "3a554a16_68",
+          "srtCueIdx": 49,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 200,
+          "srcLEnd": 201
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "日本的银行系统虽然提供了高度先进的手机银行，但至今仍保留着遍布全国的实体自动柜员机网络和存折打印服务——他们深知，60 岁以上人口占全国三分之一，任何\"全面数字化\"的举措都必须提供退路。",
+          "ttsFp": "3b5b4746_93",
+          "srtCueIdx": 50,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 203,
+          "srcLEnd": 204
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "2020 年 11 月，湖北广水市一名 **94 岁的老人**为了激活社保卡，被家人抱到银行柜台进行人脸识别。画面中老人双腿颤抖、无法站稳，被两名家属架着勉强对准摄像头。这张照片在社交媒体广泛传播，成为\"数字鸿沟\"最具冲击力的视觉符号。",
+          "ttsFp": "1ee4cd66_118",
+          "srtCueIdx": 51,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 214,
+          "srcLEnd": 215
+        },
+        {
+          "type": "story_time",
+          "tag": "STORY TIME",
+          "text": "同月，湖北秭归一名老人冒雨前往社区缴纳医保，被告知\"不收现金\"，只能通过手机完成。",
+          "ttsFp": "ebabff7c_41",
+          "srtCueIdx": 52,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 217,
+          "srcLEnd": 218
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "央视网当年数据显示，中国 60 岁以上网民仅占总网民的 **10.3%**，疫情期间因\"无健康码\"无法就医的老年人投诉量日均超过 **2 万次**。",
+          "ttsFp": "d275f417_74",
+          "srtCueIdx": 53,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 220,
+          "srcLEnd": 220
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当我们谈论\"数字化转型\"时，请永远记住这个画面——一个 94 岁老人被迫\"适配\"机器，而不是机器适配她。",
+          "ttsFp": "27229fa1_52",
+          "srtCueIdx": 54,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 222,
+          "srcLEnd": 222
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Rogers 在教材中还引用了一个极具启示性的正面案例。TiVo（早期的数字录像设备）的产品设计总监在设计遥控器时，做了一个不寻常的决策——让真实用户参与设计的每一个细节，从手握感到电池仓位置。他的团队甚至发明了一个内部术语来描述他们极力抵抗的趋势：**\"按钮繁殖症\" (Buttonitis)**——每当工程师想到一个新功能，就想在遥控器上加一个新按钮。最终他们把物理按钮严格限制在核心功能，其余功能通过屏幕菜单呈现。TiVo 遥控器后来获得了众多设计大奖。这个案例证明了**克制**，而非堆砌，才是好设计的本质。",
+          "ttsFp": "2d1cf0a3_258",
+          "srtCueIdx": 55,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 234,
+          "srcLEnd": 234
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "所以，当你在 实验1(Exp1) 中去发现\"痛点\"时，不要只盯着\"怎么让这个功能更顺畅\"——有时候，**数字化本身就是痛点的来源**。一个真正有同理心的交互设计师，必须考虑到那些被数字化浪潮抛在身后的人群。这也是为什么我们强调\"以人为本 (People-Centered Design)\"而非\"以技术为本\"——Rogers 用了一个更精准的术语：**People-Centered Design**，刻意用\"人\"替代\"用户\"，因为我们要设计的对象不仅仅是\"用户\"这个抽象标签，而是活生生的、有情绪、有局限、有文化背景的完整的人。",
+          "ttsFp": "0d345b95_264",
+          "srtCueIdx": 56,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M01_数字产品之殇_我们为什么会抓狂.md",
+          "srcLStart": 236,
+          "srcLEnd": 236
+        }
+      ],
+      "firstSrtCueIdx": 0,
+      "budgetChars": 4500,
+      "oralCharCount": 4866,
+      "estimatedMinutes": 27.0,
+      "fillRatio": 1.08
+    },
+    {
+      "id": "mod-3",
+      "title": "模块 2: 定义与边界：我们到底在交互什么 (约 20 分钟)",
+      "slides": [
+        {
+          "id": "W01_S02",
+          "layout": "Center",
+          "text": "",
+          "heading": "2.1 破除迷信：学科的起源与演变",
+          "scene": "早期计算机的密码破解机器（类似电影《模仿游戏》中巨大的图灵 Bombe 机器，布满无数旋转表盘和错综复杂的红色线缆，散发着冰冷的机械感，一位工程师正在艰难寻找线索）与现代 iPhone 用户的并排对比。左侧代表极其复杂的机器语言时代；右侧的用户正在悠闲地单手滑动智能手机屏幕。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02.png"
+          ],
+          "list": [
+            "机器语言时代",
+            "直觉响应时代"
+          ],
+          "paragraphStart": 0
+        },
+        {
+          "id": "W01_S02_Engelbart",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "Douglas Engelbart 在 1968 年秋季的一场发布会的历史照片片段（“The Mother of All Demos”）。画面左侧是世界上第一只带三个按钮的方形木质鼠标原型，右侧是他在大屏幕上演示多窗口编辑。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_Engelbart.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_Engelbart.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_Engelbart.png"
+          ],
+          "list": [
+            "1968: The Mother of All Demos"
+          ],
+          "paragraphStart": 3
+        },
+        {
+          "id": "W01_S02_Compass",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "上下对比。上方是 1982 年的 GRiD Compass 1101（世界上第一台翻盖式笔电），下方是设计师 Bill Moggridge 本人的档案照，搭配引用语：\"I was designing the software's behavior, not just its physical shell.\"",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_Compass.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_Compass.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_Compass.png"
+          ],
+          "list": [
+            "1982: GRiD Compass",
+            "界面行为的物理映射"
+          ],
+          "paragraphStart": 6
+        },
+        {
+          "id": "W01_S02_Norman",
+          "layout": "Center",
+          "text": "",
+          "heading": "",
+          "scene": "1993 年的苹果办公区。一名员工拆开包装卡住的 Mac 电脑纸箱，旁边附有文字标签“The box was part of the experience.” 以及 Don Norman 经典的苹果铭牌：User Experience Architect。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_Norman.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_Norman.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_Norman.png"
+          ],
+          "list": null,
+          "paragraphStart": 10
+        },
+        {
+          "id": "W01_S02d",
+          "layout": "Grid",
+          "text": "",
+          "heading": "2.2 嵌套的四维切片：设计到底分为哪几层？",
+          "scene": "2×2 网格分析工具模式，四个维度各占一格。左上角绘制大脑网络，右上角绘制设备握持点，左下角展示色彩与字体排版，右下角展示鼠标点击的时间线反馈波形。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02d.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02d.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02d.png"
+          ],
+          "list": [
+            "概念设计 (Conceptual Design)",
+            "物理设计 (Physical Design)",
+            "界面设计 (Interface Design)",
+            "交互设计 (Interaction Design)"
+          ],
+          "paragraphStart": 15
+        },
+        {
+          "id": "W01_S02_PuckMouse",
+          "layout": "Image",
+          "text": "1998年 iMac G3 冰球鼠标",
+          "heading": "",
+          "scene": "1998年发布的 iMac G3 经典鼠标（Apple USB Mouse，俗称“冰球鼠标”）俯视图。这是一只罕见的完美正圆形鼠标，强调这种极致的物理对称如何导致了方向感与示能的完全丧失。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_PuckMouse.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_PuckMouse.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_PuckMouse.png"
+          ],
+          "list": null,
+          "paragraphStart": 20
+        },
+        {
+          "id": "W01_S02_Wechat",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "微信四个维度的演变轨迹分解图。概念：社交即OS系统；物理：大拇指扫拂区重构；界面：深邃克制的留白体系；交互：自然语言拖拽操作流。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_Wechat.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_Wechat.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_Wechat.png"
+          ],
+          "list": null,
+          "paragraphStart": 25
+        },
+        {
+          "id": "W01_S03_AgileSpiral",
+          "layout": "Split",
+          "text": "",
+          "heading": "2.3 从直线到螺旋：敏捷设计的工作流",
+          "scene": "左侧展示传统的建筑“瀑布流模型”（线性阶梯状，隐喻不可逆）。右侧展示包含“发现需求-设计方案-原型化-评估”的交互产品四阶段螺旋迭代模型。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03_AgileSpiral.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03_AgileSpiral.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03_AgileSpiral.png"
+          ],
+          "list": [
+            "瀑布流模型",
+            "敏捷螺旋迭代"
+          ],
+          "paragraphStart": 30
+        },
+        {
+          "id": "W01_S02_ChinaParadigm",
+          "layout": "Split",
+          "text": "欧美范式 vs 中国范式",
+          "heading": "2.4 跨文化地貌与全球叙事重塑",
+          "scene": "欧美范式与中国范式的底层冲突。左侧：欧美以极简的分类结构图呈现，强调“用户自我决定入口”。右侧：中国以一个滚轮式的漏斗算法呈现，强调“系统接管用户疲劳，推荐直接灌注”。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_ChinaParadigm.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_ChinaParadigm.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_ChinaParadigm.png"
+          ],
+          "list": null,
+          "paragraphStart": 42
+        },
+        {
+          "id": "W01_S02_EcommerceParadigm",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "欧美古典电商与中国下沉电商的视觉范式对比。左侧：Chanel 官网界面，大面积黑白留白，营造缓慢高冷的呼吸感；右侧：SHEIN 的闪购界面，高密度的红色弹窗与倒计时，极速榨取用户的决策时间。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_EcommerceParadigm_Combined.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_EcommerceParadigm_Combined.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_EcommerceParadigm_Combined.png"
+          ],
+          "list": [
+            "欧美范式：留白与呼吸感",
+            "中国范式：无缝滑落与倒计时迫切感"
+          ],
+          "paragraphStart": 45
+        },
+        {
+          "id": "W01_S02_ActivityAfricanPay",
+          "layout": "Title",
+          "text": "",
+          "heading": "",
+          "scene": "抽象背景。概念风格黑板或任务板，罗列出几个极限条件关键词：【非洲市场 / 极低识字率 / 2G-3G 网络环境】，营造出问题探讨的悬停氛围。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_ActivityAfricanPay.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_ActivityAfricanPay.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_ActivityAfricanPay.png"
+          ],
+          "list": null,
+          "paragraphStart": 46
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "软件开发初期，并没有“交互”的概念。当时人类和机器的交流叫“批处理”。工程师写好代码，用打孔机在纸带上凿出无数个小孔，然后排队把纸带喂给一台占满整个房间的机器。如果有哪怕一个孔打错，机器就会在两天后吐出一行冰冷的错误码：Syntax Error。",
+          "ttsFp": "0b40a34b_123",
+          "srtCueIdx": 57,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "那个年代，机器极其昂贵，人类极其廉价。人类必须忍受机器的怪癖，去学习那种反直觉的汇编指令。当时的计算机不需要设计交互界面，因为能使用它的人，脑子里本身就已经长出了“机械神经”。",
+          "ttsFp": "820e7f61_88",
+          "srtCueIdx": 58,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "直到 1968 年。",
+          "ttsFp": "6f3ff957_10",
+          "srtCueIdx": 59,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "case_study",
+          "tag": "CASE STUDY",
+          "text": "在旧金山的一场秋季计算机联合大会上，斯坦福研究所的 Douglas Engelbart 博士走上台，完成了一场被后世称为“演示之母 (The Mother of All Demos)”的发布会。在这 90 分钟里，他向台下的一千名工程师展示了超文本链接、基于视频的远程协作、动态重排的文档编辑窗口，以及——台下人从未见过的一个长方形小木盒。这个底部装有两个金属轮子的木盒，可以通过手部滑动，控制屏幕上的一个光标。",
+          "ttsFp": "c8b3488f_206",
+          "srtCueIdx": 60,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 28,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是世界上第一只鼠标。这场演示宣告了 **HCI（人机交互, Human-Computer Interaction）** 这个学科的诞生。HCI 时代确立了一个核心命题：人类不再需要通过打孔卡片去迎合机器，机器必须通过视觉和肢体反馈，将自身内部的计算状态，翻译成人类能够理解的物理动作。",
+          "ttsFp": "1a50d4aa_143",
+          "srtCueIdx": 61,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "随着个人电脑的微缩化，焦点再次发生了转移。",
+          "ttsFp": "7aaea247_21",
+          "srtCueIdx": 62,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1982 年，一家硅谷初创公司发布了世界上第一台贝壳式翻盖笔记本电脑 GRiD Compass。售价 8150 美元，美国航天局买它上太空，美国总统带着它用作核按钮手提箱。这款机器的外观由工业设计师 Bill Moggridge 操刀。在设计这台机器时，Moggridge 遇到了一个棘手的麻烦。",
+          "ttsFp": "95e72ca4_148",
+          "srtCueIdx": 63,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 42,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "作为工业设计师，他的专长是塑料模具、金属外壳的曲面反馈。但他发现，无论外壳做得多么精美，当试用者打开翻盖，面对那块当时堪称奢侈的黄色发光屏幕时，体验立刻碎裂了。屏幕里的软件指令极度晦涩，用户按下一个物理按键后，屏幕里反馈的字符常常让人不知所措。",
+          "ttsFp": "115669e1_122",
+          "srtCueIdx": 64,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Moggridge 意识到，他的工业设计必须越过物理外壳的边界，向屏幕内部延伸。按下一个真实的按键，屏幕里的菜单应该如何弹出？翻阅文档时，光标应该用什么速率下潜？这已经不是在设计“图形”，而是在设计由机器和人类共同参演的“对话”。1984年，他与另一位学者 Bill Verplank 凑在一起讨论这种全新的工作范式，他们创造了一个词：**交互设计 (Interaction Design, IxD)**。",
+          "ttsFp": "572e672d_203",
+          "srtCueIdx": 65,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当这门学科传到认知科学家 Don Norman 手里时，边界发生了第三次爆破。",
+          "ttsFp": "58a9a928_39",
+          "srtCueIdx": 66,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1993年，Don Norman 入职苹果公司。他马上发现桌面软件团队和外包装团队是存在巨大壁垒的。当时的电脑外包装通常既笨重又繁杂，不仅很难塞进消费者的汽车后备箱，用户开箱的过程甚至会让人感到“恐惧”（Scary）。一台拥有顶级操作系统的 Mac，如果装在了一个由于纸板过硬导致消费者撕破手皮都拿不出来的纸箱里，它的体验在开机点亮屏幕之前就已经破产了。",
+          "ttsFp": "6d8a6567_177",
+          "srtCueIdx": 67,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 57,
+          "srcLEnd": 57
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Norman 把产品定义拓宽到了极致。他后来在访谈中回忆道：“我发明 UX 这个词，是因为我觉得 UI（人机界面）和可用性都太狭隘了。我希望囊括一个人感受系统的方方面面。”设计不能只停留在屏幕里的系统界面，必须覆盖工业设计、包装、拆解、说明书、客服等一切消费者与品牌接触的物理与数字触点。他将这个全域视角正式命名为 **UX（用户体验, User Experience）**，并在苹果公司获封“用户体验架构师（User Experience Architect）”，这也是历史上第一个将 UX 作为头衔的正式职位。",
+          "ttsFp": "2a208bb1_257",
+          "srtCueIdx": 68,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Yvonne Rogers 在标准教材中，把这 50 年的演变提炼为一句话：**“设计支持人们在日常工作和生活中进行交互的产品。”**",
+          "ttsFp": "aca14535_67",
+          "srtCueIdx": 69,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 61,
+          "srcLEnd": 61
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "交互设计，绝不是拿着 Figma 临摹竞品的圆角和阴影。这是一门把数字比特转换为心智原语的翻译工程。",
+          "ttsFp": "5b2042de_50",
+          "srtCueIdx": 70,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "要解构这门学科的实施路径，Rogers 将产品的交互层面垂直切分为了四个维度。",
+          "ttsFp": "89dcf705_39",
+          "srtCueIdx": 71,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这四个维度，构成了你们未来职业生涯的护城河。",
+          "ttsFp": "8f80a75d_22",
+          "srtCueIdx": 72,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 76,
+          "srcLEnd": 76
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第一级：概念设计 (Conceptual Design)**",
+          "ttsFp": "2b8d3d69_32",
+          "srtCueIdx": 73,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它是业务逻辑和隐喻的蓝图。你要做一款日历，它的概念设计回答了极宏观的问题：这款日历的组织方式是什么？它是一个“墙挂式”的网格视图，还是一个“连续流动”的时间流视图？它要不要引入天气模型？当年，Trello 首创“看板”隐喻——把任务作为卡片，在分为“待办-进行中-已完成”的列中来回拖动，这是它在项目管理工具中杀出重围的底层概念设计。",
+          "ttsFp": "cee98a8d_167",
+          "srtCueIdx": 74,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 79,
+          "srcLEnd": 79
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第二级：物理设计 (Physical Design)**",
+          "ttsFp": "cf253a3c_30",
+          "srtCueIdx": 75,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 81,
+          "srcLEnd": 81
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "数字世界必须依托碳基设备的物理特性。软件设计师极容易遗忘这层边界。你正在设计的界面是运行在可以多指捏合的电容触摸屏上，还是运行在需要在颠簸公路上盲操的汽车中控屏上？甚至是像 Apple Vision Pro 那样依赖眼球注视锚定的头显里？物理尺寸、视距和设备的传感器配置，在下笔画线框图前就已经锁死了交互的范式。",
+          "ttsFp": "6ad48138_156",
+          "srtCueIdx": 76,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 82,
+          "srcLEnd": 82
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1998年，苹果随 iMac G3 发布的一款鼠标“Apple USB Mouse”（俗称冰球鼠标）在历史上留下了恶名。它的界面非常整洁统一，是个完美的正圆形。结果就是：用户的手掌一旦离开鼠标去打字，再盲抓回来时，由于正圆形没有物理方向指示性（示能），鼠标的光标往往会朝着完全不可控的反方向飞出去。物理设计的败北摧毁了所有的数字体验。",
+          "ttsFp": "ec11d373_167",
+          "srtCueIdx": 77,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 91,
+          "srcLEnd": 91
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第三级：界面设计 (Interface Design)**",
+          "ttsFp": "5263c38c_31",
+          "srtCueIdx": 78,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 93,
+          "srcLEnd": 93
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正被肉眼感知的一层：字体字号、色彩调配、网格布局系统。这是传统视觉设计的射程范围。",
+          "ttsFp": "11f5c8ed_42",
+          "srtCueIdx": 79,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 94,
+          "srcLEnd": 94
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**第四级：交互设计 (Interaction Design)**",
+          "ttsFp": "12030a35_33",
+          "srtCueIdx": 80,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这里特指动态动作的编排和状态转移机制。比如你在屏幕上下拉刷新列表（Pull-to-Refresh）时，它提供的阻尼感、松手后转圈加载的处理时间、以及加载完毕后新内容是硬切出现还是带有 300 毫秒透明度渐变出现。这一层关注的只有两个词：**序列与时机**。",
+          "ttsFp": "62e9ba2d_128",
+          "srtCueIdx": 81,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 97,
+          "srcLEnd": 97
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "微信是完美执行四维切片的最高标杆。",
+          "ttsFp": "7e9b31f8_17",
+          "srtCueIdx": 82,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 107,
+          "srcLEnd": 107
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "张小龙在**概念设计**层面，拒绝了单纯的通讯录模型，将所有的支付、出行需求挂载在一个名为“聊天流”的时间线上，打造了移动互联网时代的操作系统底座。",
+          "ttsFp": "d32086b2_74",
+          "srtCueIdx": 83,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 108,
+          "srcLEnd": 108
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在**物理设计**层面，随着手机屏幕从 4 英寸膨胀到 6.8 英寸，微信强制将所有返回键、呼出菜单的高频落点配置在屏幕下半部的拇指热区，避开了难以触达的屏幕顶角。",
+          "ttsFp": "b0f8371f_82",
+          "srtCueIdx": 84,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 109,
+          "srcLEnd": 109
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在**界面设计**层面，你很难在微信主列表里看到高饱和度的粗体红字，它将信噪比维持在极其静谧的状态，为信息本身让路。",
+          "ttsFp": "e1bd7ddc_58",
+          "srtCueIdx": 85,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 110,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在**交互设计**层面，下拉显示小程序的阻尼感经历了上百次调优，确保了“拉下抽屉”的物理质感。由于四个维度的精确配合，造就了今天的国民级应用。",
+          "ttsFp": "676690a4_71",
+          "srtCueIdx": 86,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 111,
+          "srcLEnd": 111
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果你是一个传统的土木工程师，建造一栋大楼的逻辑是不可逆的单向瀑布流：拿需求、画图纸、打地基、建主体、封顶验收。一旦主体建成，如果客户抱怨客厅朝向太暗，整栋楼无法推倒重来。",
+          "ttsFp": "18da3bbc_86",
+          "srtCueIdx": 87,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而交互产品的边际成本趋向于零，它的生命线在于**四阶段的螺旋迭代**：",
+          "ttsFp": "40f2b848_36",
+          "srtCueIdx": 88,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 124,
+          "srcLEnd": 124
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **发现需求 (Establishing Requirements)**",
+          "ttsFp": "ad4d9121_39",
+          "srtCueIdx": 89,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 126,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "传统的需求靠问：“老板，你要什么？”而交互设计需要实地挖坟掘墓，挖掘暗流中未被察觉的使用场景。",
+          "ttsFp": "2fa8c1a1_47",
+          "srtCueIdx": 90,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 127,
+          "srcLEnd": 127
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **设计替代方案 (Designing Alternatives)**",
+          "ttsFp": "0800a04a_38",
+          "srtCueIdx": 91,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "面对问题，永远不能只交一张图。你必须给出截然不同的发散路径，在内部撕咬与碰撞中找到最优解。如果只带着一个原型去评审，那就是强加上帝视角去蒙蔽真实反馈。",
+          "ttsFp": "35cdfa3a_75",
+          "srtCueIdx": 92,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 130,
+          "srcLEnd": 130
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **原型化 (Prototyping)**",
+          "ttsFp": "cf2779ae_24",
+          "srtCueIdx": 93,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 132,
+          "srcLEnd": 132
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "抛弃花好几个月写代码的行为。用纸、用剪刀、甚至用 Figma 实现一个能互动的幻觉。测试者无法对着两张静态图片告诉你操作起来到底累不累。体验只能在动态的过程中被检验。",
+          "ttsFp": "8af6dee5_83",
+          "srtCueIdx": 94,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 133,
+          "srcLEnd": 133
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "4. **评估 (Evaluating)**",
+          "ttsFp": "ac6ad5c4_22",
+          "srtCueIdx": 95,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 135,
+          "srcLEnd": 135
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这是整个行业的判决时刻。把这个极其粗糙的原型扔进被测群体的实际环境里。根据测试出的漏洞指标，无情地抛弃你的心血，重新回到第一阶段。",
+          "ttsFp": "046bdf9a_65",
+          "srtCueIdx": 96,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 136,
+          "srcLEnd": 136
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "软件行业有一句金科玉律：\"Fail fast, fail often.\"（早点死，多死几次）。在代码被正式编写成庞大的二进制文件之前，我们要用原型在低成本的泥坑里进行上千次的试错。",
+          "ttsFp": "74cddc20_90",
+          "srtCueIdx": 97,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 138,
+          "srcLEnd": 138
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在最后，我们要剥离一种潜意识的自卑。现代交互设计的发源地确实在北美，无论是 Xerox PARC 的桌面环境，还是 Apple 的自然手势体系。但在进入移动互联网的全盛时期后，数字世界的人口结构、设备下沉与信息过载，迫使东方语境生长出了极其霸道的交互范式。",
+          "ttsFp": "4658b876_128",
+          "srtCueIdx": 98,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 142,
+          "srcLEnd": 142
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "早期硅谷崇尚绝对的结构清晰与自由选择路线，典型如美国 Craigslist 网站：满屏的蓝字分类链接，你需要一层一层点击检索，它的隐藏假设是“用户拥有充足的时间与充沛的认知资源进行计算”。",
+          "ttsFp": "81d9a763_94",
+          "srtCueIdx": 99,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 153,
+          "srcLEnd": 153
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而，TikTok 在全球刮起的旋风是由中国算法工程师架构的颠覆级交互：**全屏单排上下滑（Swipe-up）**。",
+          "ttsFp": "833147a0_58",
+          "srtCueIdx": 100,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 155,
+          "srcLEnd": 155
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "TikTok 砍掉了所有并排的分栏，取消了用户的自主选择权。一屏只展现唯一一段视频内容，没有任何多余的干扰元素能分散视线。用户的交互动作极度退化，仅需要一个最省力的大拇指上滑动作。在这里，体验目标从硅谷教条式的“提高查询效率”，演变为了近乎病态的“极致心流沉浸与多巴胺榨取”。算法系统彻底接管了使用流程，用户进入了一个近乎催眠的被动灌注状态。目前，这种范式已逼迫包括 YouTube Shorts、Instagram Reels 在内的所有硅谷巨头妥协甚至完全照搬。",
+          "ttsFp": "e352cddd_233",
+          "srtCueIdx": 101,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 157,
+          "srcLEnd": 157
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "另一个例子是电商霸主 SHEIN 的全球战役。如果你登录海外的老牌奢侈品网站 (如 Chanel) 或是高档百货网购站点，充斥着大面积的留白隔离，试图营造缓慢的展示呼吸感。而在 SHEIN 的体系下，“无缝滑落”占据统治地位。用户在浏览商品流的时候，不需要任何翻页阻断，算法结合极其紧凑的低价闪购弹窗以及极短的倒计时数字跳动，直接在视觉层面构建了巨大的虚幻紧迫感。通过在每一个细微的环节剥夺深思熟虑的时间，SHEIN 的转化漏斗成为了同类产品中最锋利的镰刀。",
+          "ttsFp": "3750e404_229",
+          "srtCueIdx": 102,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 166,
+          "srcLEnd": 166
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "3min",
+          "desc": "模块终点自习局",
+          "text": "大声回答一个问题：如果我们现在准备外包开发一款非洲市场的极简移动支付系统，面对识字率极低、网络带宽在 2G 到 3G 之间频繁波动的当地特殊人群，在刚才提到的【概念设计、物理设计、界面设计、交互设计】四层中，哪一层的突破会起决定性的生死作用？请分组拿出 1 个具体的切入点。",
+          "ttsFp": "e8275464_137",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 174,
+          "srcLEnd": 178
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "无论是西方的古典克制法则，还是东方的超高频次留存算法，本质上都是在回应那个终极问卷：这群身处某一具体文化位面中的目标用户，他们的感知通道和决策捷径究竟长什么样？这就正式引入了我们下一个模块将要讨论的核心尺度——**可用性与体验的刻度**。",
+          "ttsFp": "2c489c5e_119",
+          "srtCueIdx": 103,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02_定义与边界_我们到底在交互什么.md",
+          "srcLStart": 180,
+          "srcLEnd": 180
+        }
+      ],
+      "firstSrtCueIdx": 57,
+      "budgetChars": 3500,
+      "oralCharCount": 3122,
+      "estimatedMinutes": 17.3,
+      "fillRatio": 0.89
+    },
+    {
+      "id": "mod-4",
+      "title": "模块 2.5: 可用性 vs. 体验 (约 10 分钟)",
+      "slides": [
+        {
+          "id": "W01_S02a",
+          "layout": "Grid",
+          "text": "",
+          "heading": "2.5.1 理性的底线：可用性目标 (Usability Goals)",
+          "scene": "2x3 网格卡片，展示可用性六维雷达图。每个维度附带一个典型失败案例的灰度小图。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02a.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02a.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02a.png"
+          ],
+          "list": [
+            "有效性 (无法挂号)",
+            "效率 (冗长表单)",
+            "安全性 (航空键盘)",
+            "效用性 (核心功能缺失)",
+            "可学习性 (厚重说明书)",
+            "易记性 (迷宫般菜单)"
+          ],
+          "paragraphStart": 1
+        },
+        {
+          "id": "W01_S02b",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "2.5.2 感性的上限：用户体验目标 (UX Goals)",
+          "scene": "体验目标天平。左端堆满引发正面体验的筹码，散发绿光；右端堆满具有压迫感的深色重物，呈现警戒氛围。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02b.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02b.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02b.png"
+          ],
+          "list": [
+            "正面体验: 愉悦、启发、美学沉浸",
+            "负面体验: 挫败、受辱、毛骨悚然"
+          ],
+          "paragraphStart": 14
+        },
+        {
+          "id": "W01_S02_InstagramLikes",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "同样的 Instagram 贴文并列。左侧展示显式的获得 15 万点赞的具体数字；右侧则完全隐藏了数字。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S02_InstagramLikes.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S02_InstagramLikes.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S02_InstagramLikes.png"
+          ],
+          "list": [
+            "获取成就感",
+            "社交排斥与容貌焦虑"
+          ],
+          "paragraphStart": 20
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果不能衡量它，就不能设计它。我们将目标分为两类：可用性目标和体验目标。首先是作为\"理性底线\"的**七大可用性目标**——注意，传统教材列出六项，但 Yvonne Rogers 在最新版中特别强调了**满意度 (Satisfaction)** 作为第七维的重要性。这七个维度是我们评估任何产品生死准入的刚性红线：",
+          "ttsFp": "5b98066b_156",
+          "srtCueIdx": 104,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 6,
+          "srcLEnd": 6
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这七大维度中，**效率 (Efficiency)** 的极致案例莫过于 Amazon 的 One-Click 购买。这是一个教科书级的效率突破——亚马逊为这个\"一键下单\"设计全方面扫清了地址验证、信用卡二次核验等步骤。对于极高频的消费场景，用一个点击替代曾经的五个步骤，能节省下的跳出率成本超过数亿美元。效率评估的核心提问是：**完成极其常规的一项任务需要多少步骤？**",
+          "ttsFp": "e6b07a38_186",
+          "srtCueIdx": 105,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而**安全性 (Safety)** 在医疗或航空领域则是生死攸关的防线。",
+          "ttsFp": "dfc46b6b_36",
+          "srtCueIdx": 106,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 17,
+          "srcLEnd": 17
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "大家必须破除一个观念：这里的安全，不是防范外部黑客的攻击网络安全，而是指\"防止系统合法用户在疲惫时犯下致命操作错误\"。比如医院里护士每天要设置的\"智能输液泵\"。以往的界面允许随意输入数值，如果不小心把给婴儿注射的 10mg 打成了 100mg，这直接导致了医疗致死事故。",
+          "ttsFp": "936a3a23_135",
+          "srtCueIdx": 107,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "现在的输液系统内置了 DERS（剂量错误减少体系）。系统存在两级拦截：**\"软停止\"** 在输入值超限时发出警告，并弹窗提示“该剂量偏离常规，是否继续”，但考虑到临床医嘱的特殊性，允许强行覆盖；**\"硬停止\"** 则在数值达到该药物危险毒性极限时，直接锁定设备界面，强制要求重新编程，不给人类任何反悔操作的空间。这就是\"安全性\"可用性要求——它甚至要在物理界面上\"替人类阻止愚蠢\"。",
+          "ttsFp": "05e8849f_191",
+          "srtCueIdx": 108,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 19,
+          "srcLEnd": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "其他维度同样承担了产品的生死线：",
+          "ttsFp": "32d9c717_16",
+          "srtCueIdx": 109,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "* **有效性 (Effectiveness)**：这是基准。如果一款号称秒杀抢票的引擎在最后付款环节频频白屏，那么它哪怕交互极具科技感，也是彻底无效的。",
+          "ttsFp": "7eb1938e_77",
+          "srtCueIdx": 110,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 22,
+          "srcLEnd": 22
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "* **效用性 (Utility)**：评估功能集是否跨越了必要的业务边界。比如供专业报表人员使用的财务工具，强制抹除了宏逻辑编辑器，这就是低效用性。",
+          "ttsFp": "5ef4fc58_75",
+          "srtCueIdx": 111,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "* **可学习性 (Learnability)**：最直观的标准是——是否需要一本厚达五十页的说明书？优秀的工具通过\"渐进式暴露\"（Progressive Disclosure）引导新人，例如剪映首页只展示“一键成片”，只有进入高级编辑才会暴露“音频关键帧”，新用户五分钟就能掌握工作流。",
+          "ttsFp": "115b3059_144",
+          "srtCueIdx": 112,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 24,
+          "srcLEnd": 24
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "* **易记性 (Memorability)**：为什么 Photoshop 那么复杂，即便设计师长达半年没有操作，依然能快速找回模糊的工作记忆？因为 Adobe 设定了极其稳定的区域隐喻分布：左侧全为生产工具、右侧是视图管理、上层是渲染指令。空间位置取代了机械背诵。",
+          "ttsFp": "16a15f9f_134",
+          "srtCueIdx": 113,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 25,
+          "srcLEnd": 25
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但大家必须知道，这些可用性维度之间存在着剧烈的**致命冲突与权衡 (Trade-offs)**。",
+          "ttsFp": "70161086_48",
+          "srtCueIdx": 114,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "不可能有一款产品在六个维度拿满分。如果你将安全性拉到最高级别的满分体验，比如每移动一个电脑文件都要弹窗要求输入三次确认密码，防止误删文档——那么你的效率和满意度就会直线跌入低谷。",
+          "ttsFp": "b11f00db_89",
+          "srtCueIdx": 115,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 30,
+          "srcLEnd": 30
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "同样，如果专业工具（如同 CAD 建模软件）追求极端的效用性，塞得满满当当的功能就会把可学习性完全摧毁。在未来的课程测试中，你们不仅要评分，更要指出设计者为了哪个核心维度妥协了其他维度。",
+          "ttsFp": "132cdbfb_93",
+          "srtCueIdx": 116,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "如果全部踩中理性底线，你做出来的仅仅是一个合格的工具箱。对于数字媒体艺术专业的同学，产品的感性上限正是**用户体验目标 (UX Goals)** 能够起飞的地方。",
+          "ttsFp": "9728c2c5_81",
+          "srtCueIdx": 117,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 35,
+          "srcLEnd": 35
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "正面目标极容易辨认：**愉悦的 (Delightful)、启发灵感的、带来心流沉浸的 (Flow)**。",
+          "ttsFp": "e6c4893f_52",
+          "srtCueIdx": 118,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "但真正拉开高级设计师和普通从业人员差距的，是你如何识别和量化**反面负面体验**。很多时候我们甚至没有建立描述这些负面情绪的词汇库。",
+          "ttsFp": "84b63d00_66",
+          "srtCueIdx": 119,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你的设计是否让用户觉得被**愚弄和受辱**？想象一下那些在提交出错时，采用醒目的红字斥责“您连邮箱格式都填不对”的表单界面，这是最快的破坏品牌信任的方式。",
+          "ttsFp": "e438106e_77",
+          "srtCueIdx": 120,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "它是否具有**高高在上的压迫感 (Patronizing)**？比如过去那种不让人关掉的强制电脑操作指引精灵。",
+          "ttsFp": "6cc1034d_55",
+          "srtCueIdx": 121,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "是否让人感到仿佛被暗中监视般的**毛骨悚然 (Creepy)**？想想看当你和朋友在微信聊天里只是随机提了一句某个品牌的猫粮，五分钟后，你在刷另一个新闻阅读平台时，第一条广告就是这款猫粮。虽然它在机器推荐算法的逻辑中是绝佳的高效匹配，但在人性体验的尺度上，它跨过了安全感的界限。",
+          "ttsFp": "d530129a_139",
+          "srtCueIdx": 122,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 49,
+          "srcLEnd": 49
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "同一个设计决策往往会像利刃切开用户的两端体验群体。",
+          "ttsFp": "05a3158d_25",
+          "srtCueIdx": 123,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 51,
+          "srcLEnd": 51
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "让我们看一个完美表明体验目标如何波动的例子：Instagram “隐藏点赞数”测试。",
+          "ttsFp": "8c2a8d85_42",
+          "srtCueIdx": 124,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 62,
+          "srcLEnd": 62
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2019 年，Instagram 官方在全球多个地区开始隐藏动态中的具体点赞数字。初衷是为了斩断年轻人在这片网络社交场里的攀比心态，降低日益严重的“低赞羞耻”以及引发的社交容貌焦虑。",
+          "ttsFp": "d22efed5_91",
+          "srtCueIdx": 125,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 63,
+          "srcLEnd": 63
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这个改动被应用后，情况变得无比胶着：对一部分渴望减轻压力的普通年轻人而言，它极大地释放了他们在摄影创作时的自由，实现了“减轻焦虑”的正面体验。但对于一整套围绕点赞量建立商业营收的网红群体以及网络营销公司而言，这种修改带来了庞大的商业迷茫和由于失去透明数据导致的极度“挫败感”。一个极简的 UI 数字是否呈现，能够同时掀开两个截然相反的用户体验象限，这也是用户体验指标最难以捉摸的艺术。",
+          "ttsFp": "b6c40d17_192",
+          "srtCueIdx": 126,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "课后延展",
+          "desc": "校园数字摩擦自查（课后任务）",
+          "text": "课后作业：请打开你们每天必须打卡的教务系统页面。通过查阅前面讲解的 7 大可用性原则，逐一列举该平台在哪一项得分最低，导致了哪些具体后果，写出明确的负面体验词汇如（受辱感/毛骨悚然）。下周课前提交。",
+          "ttsFp": "eeb001aa_99",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M02.5_可用性_vs_体验.md",
+          "srcLStart": 66,
+          "srcLEnd": 70
+        }
+      ],
+      "firstSrtCueIdx": 104,
+      "budgetChars": 1800,
+      "oralCharCount": 1661,
+      "estimatedMinutes": 9.2,
+      "fillRatio": 0.92
+    },
+    {
+      "id": "mod-5",
+      "title": "模块 3: 破解认知失调 —— 重要的三大模型 (约 35 分钟)",
+      "slides": [
+        {
+          "id": "W01_S03",
+          "layout": "Flow",
+          "text": "",
+          "heading": "3.1 模型的分野：常人与机器的代沟",
+          "scene": "一个三环交叉的文氏图或者阶梯图：工程实施模型 (底部满布生硬齿轮) -> 表现模型 (中间的平滑界面层) -> 用户心理模型 (顶端的大脑结构)。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03.png"
+          ],
+          "list": [
+            "工程实施模型 (Implementation Model) · 用户心理模型 (Mental Model) · 表现模型 (Represented Model)"
+          ],
+          "paragraphStart": 0
+        },
+        {
+          "id": "W01_S03a",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "三层蛋糕结构解剖图。最底部的基座是裸露的齿轮、集成块与粗糙电线（后台代码）。中层的夹心是一块打磨得平滑的玻璃面板，带有一个可控制的实体滑块（表现模型）。最顶端是一团漂浮的思想气泡，勾勒着简单的抽象图案（用户心理模型）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03a.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03a.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03a.png"
+          ],
+          "list": [
+            "后台代码 (底层机制)",
+            "表现模型 (可视界面)",
+            "心理模型 (用户预期)"
+          ],
+          "paragraphStart": 1
+        },
+        {
+          "id": "W01_S03b",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "影院放映系统真相解构。左侧剖析放映机的机械转轴，详细标注\"每秒 24 帧静止胶片叠加全黑无痕切割间隔\"（后台代码）；右侧则是沉浸在无缝战斗场面里的观众，大脑认为自己看到的是\"真实连贯的时空动作\"（心智图景）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03b.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03b.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03b.png"
+          ],
+          "list": null,
+          "paragraphStart": 3
+        },
+        {
+          "id": "W01_S03c",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "电力网络输送流。左侧绘制出狂暴的交流电波形震荡图，重点标注\"在 1/60 秒内正负极狂乱更迭\"（后台代码）。右侧描绘一个插画风格的水龙头连着电线，点亮灯泡，标注\"电就如同水管里的储流水\"（错误但有用的脑内逻辑）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03c.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03c.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03c.png"
+          ],
+          "list": null,
+          "paragraphStart": 4
+        },
+        {
+          "id": "W01_S03d",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "两张充满时间磨痕的日常照片组合。左半张是电梯内那个被手指戳得几乎掉漆的\"关门\"按钮，右半张是十字路口红绿灯杆上磨损严重的金属\"行人过街\"大按钮。中央印着巨大的医疗标记\"精神安慰剂\"。底部配文：\"用物理摩擦置换时间焦虑\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03d.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03d.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03d.png"
+          ],
+          "list": null,
+          "paragraphStart": 6
+        },
+        {
+          "id": "W01_S03e",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "3.2 设计师的终极博弈：滑块的指向",
+          "scene": "物理博弈天平图解。上方：当滑块死命偏向左端（后台代码齿轮代表的真实世界）时，天平严重失衡翻倒，红色交叉标志显现。下方：滑块稳固地靠在右侧（代表云朵与错觉的心智图景端），天平达成水平平衡，绿光充盈。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03e.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03e.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03e.png"
+          ],
+          "list": null,
+          "paragraphStart": 8
+        },
+        {
+          "id": "W01_S03f",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "波音 737 MAX 事故时空全景剖析。画面被割裂为三等份：顶部是飞行员满头大汗坚守的\"旧版稳定 737\"心智预设；中部是充满谎言欺瞒的系统仪表盘（绿灯诡异常亮）；底部深海处则藏着名为 MCAS 的工程代码巨兽，正伸出扭曲的机械臂将整架客机的迎角拼命拉向地面。\"认知断层引发的连环劫难\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03f.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03f.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03f.png"
+          ],
+          "list": null,
+          "paragraphStart": 13
+        },
+        {
+          "id": "W01_S03g",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "赛博空间史诗级事故。左侧：一行极为简素却致命的指令流代码正悬停在黑色纯净终端窗口（脆弱且暴露的交互界面）。右侧：如多米诺骨牌般轰然塌陷的美洲大陆数据中心群像，大批互联网独角兽公司的标志被滚滚黑烟吞噬。\"单键敲击导致的亿级美元灰飞烟灭\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03g.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03g.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03g.png"
+          ],
+          "list": null,
+          "paragraphStart": 15
+        },
+        {
+          "id": "W01_S03h",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "漏斗式超级黑箱过滤演示。上层塞满了海杂乱无章的全球百万用户操作记录节点、隐晦诡谲的波形卷积神经网络图层架构（庞大的深层后台代码）。所有复杂信号经过高速漏斗的挤压聚合，在最底层产出一张拥有美丽圆角、伴有轻缓微光动画的矩形卡片（精巧的表现界面）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S03h.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S03h.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S03h.png"
+          ],
+          "list": null,
+          "paragraphStart": 17
+        },
+        {
+          "id": "W01_S04",
+          "layout": "Flow",
+          "text": "",
+          "heading": "3.3 纵深切除：目标与任务的决裂",
+          "scene": "金字塔式目标拆解阵列。顶层红色图块\"目标 (Goals)\"高亮闪烁，标注\"改变的生存需求内核\"；中层分出多个\"活动 (Activities)\"区块，标注\"跨越时间维度的策略\"；最底层铺开庞大复杂的暗淡碎块\"任务 (Tasks)\"，标注\"极易被自动化程序接管抹除的体力劳作\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S04.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S04.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S04.png"
+          ],
+          "list": null,
+          "paragraphStart": 21
+        },
+        {
+          "id": "W01_S04b",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "",
+          "scene": "演化树对抗假说。左侧：\"优化旧任务路径\"演化出的生物兵器，一匹装载了重型外骨骼装甲和履带四肢的恐怖半机械马匹。右侧：\"穿透抵达新目标路径\"，一台造型冰冷简素且纯粹由钢铁浇筑的第一代流水线黑皮福特四轮汽车。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S04b.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S04b.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S04b.png"
+          ],
+          "list": null,
+          "paragraphStart": 24
+        },
+        {
+          "id": "W01_S04c",
+          "layout": "Split",
+          "text": "",
+          "heading": "3.4 隐蔽鸿沟的实体粘合：隐喻借力与 OAM 矩阵重塑",
+          "scene": "除夕夜跨江抢夺狂潮的数据与情绪分野。左侧展现的，是不夹杂任何情感色彩的金融核算终端列表，死板陈列着诸如用户序列编号与带小数点的交易流水明细。右侧骤然爆发开来的是一幅充满节庆视觉冲击力的 OAM 重组拼盘图表。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S04c.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S04c.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S04c.png"
+          ],
+          "list": [
+            "冷血极光工程师视角：云数据库 Transaction 底层并发锁",
+            "金融数据插入表头更新与超额对赌拦截",
+            "无情感的 Submit 回执执行端 | 热血 OAM 视觉轴心重铸体系：纯粹的包裹信物（深红色喜庆纸质口袋）",
+            "充满人类原始占有欲与炫耀心理的操作矩阵：偷偷塞入本金制造盲盒迷雾、猛烈地掷入深不见底的群聊网络之中、屏住呼吸执行揭开封条以及极具挑衅意味的晒单窥探行为。"
+          ],
+          "paragraphStart": 38
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "数字设计灾难的核心，源头完全归结于认知模型的严重错位。当程序员觉得逻辑完美闭环的功能被抛给目标用户时，往往遭遇惨烈的系统崩溃。要剖析这种错位，必须引入 Alan Cooper 提出的三大心智模型框架。",
+          "ttsFp": "006a94fe_100",
+          "srtCueIdx": 127,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 12,
+          "srcLEnd": 12
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "位于整个系统物理最底层的构架是**工程实施模型 (Implementation Model)**。它反映了代码真实的存储状态和数据结构。对于一台网络资源共享服务器，后台代码呈现为复杂的树状遍历目录、各类协议指令与布尔权限位掩码。掌握这种模型需要极为深厚的技术背景。",
+          "ttsFp": "4beaf372_132",
+          "srtCueIdx": 128,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 21,
+          "srcLEnd": 21
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而在结构的最顶端，存在着**用户内化预期 (Mental Model)**。这是普通大众凭借早年生活经验，对某个设备如何运转所抱有的刻板预期与信仰假设。在一位习惯于纸质办公的行政人员脑中，云端存储盘的默认观念就是一个位于天上的无底洞抽屉，它不需要建立文件夹层级，只需要把照片放进去就能永远保存。脑内逻辑具备一项致命的属性：**它在学术上甚至不需要保证真理上的正确性，只要它能应付日常操作的推演即可。**",
+          "ttsFp": "1cb6cc0b_201",
+          "srtCueIdx": 129,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 23,
+          "srcLEnd": 23
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Alan Cooper 在专著中引入过数个绝妙的物理类比来揭示这种错位。观赏电影的过程即是对内化预期的完美利用。电影观众在漆黑的放映厅内，大脑接收到的默认观念是“一段连续时空中发生的真实运动”。由于人类视觉驻留效应的存在，这个模型在感官上逻辑自洽。但其背后的工程实施模型却是胶片机以极快的速度更迭静止的照片，并在每一帧之间穿插了一瞬间的纯黑快门遮挡。如果向观众强行暴露那一片片机械的死黑间隔，观影魔术便会立刻破碎。",
+          "ttsFp": "ab21a4d9_207",
+          "srtCueIdx": 130,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 33,
+          "srcLEnd": 33
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "另一个普世的案例如出一辙。绝大多数市民坚信，家用电流的作用机理等同于自来水管系统：电流从发电厂的水库出发，沿着电线水管单向奔涌，最终注入发光的灯泡。从量子物理学的工程视角审视，这个比喻简直荒谬绝伦——交流电线路中的电子实际上每秒进行数百次的极性原地往复剧烈反转，根本不存在宏观距离的位移。但这套类似“水压控制”的心智幻觉坚固，人们凭借着这个错误的心智图景，安全无虞地拨动开关，甚至推导出电费计价的数学期望。内化预期的存在意义，纯粹是为了建立在无知状态下的安全操控感。",
+          "ttsFp": "a935e0b8_233",
+          "srtCueIdx": 131,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 41,
+          "srcLEnd": 41
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "再比如移动通信网络基站的跳频算法。行人在穿越多个街区时保持高频通话，背后的工程学动作是终端与多个基站进行惨烈的波段重联握手（Handover）。而在民众的心智空间里，只有一句唯一的预设原理：“只要在城里，手机就有魔法连通世界”。如果界面为了标榜技术强悍，在通话屏幕上实时打印出：“警告：正在切断 eNB#1347 基站并发起频率跳转”，由此引发的恐慌感将摧毁体验。",
+          "ttsFp": "c6b7abc8_182",
+          "srtCueIdx": 132,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "日常生活中还蛰伏着设计者刻意纵容的默认观念骗局。美国残疾人法案（ADA）出台后，严令要求全部电梯的开门悬停时间不得低于法定的秒数警戒线。这使得市面上所有的电梯关门按钮全部被物理阉割，降级为线路反馈的装饰品；同样，主城区极多的人行过街按钮早已被计算机中控接管，与信号灯控制板断连。但民众的脑内逻辑强制推演“敲击带来改变”。当系统剥夺了回馈，焦虑感会瞬间填满心智并引发疯狂的重复砸压。设计者选择保留这些纯粹的“安慰剂按钮”，本质上是在用动作上的掌控错觉去抚慰等待时的庞大时间真空。",
+          "ttsFp": "e823cbcc_238",
+          "srtCueIdx": 133,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 53,
+          "srcLEnd": 53
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这种利用谎言抚慰心智的桥梁，就是位于模型图谱正中央的**交互界面 (Represented Model)**。它就是软件界面最初诞生的缘由。",
+          "ttsFp": "4cac7d0f_70",
+          "srtCueIdx": 134,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 55,
+          "srcLEnd": 55
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "系统崩溃的本源，全部集中于视觉投射对底层逻辑进行了剪辑的照搬。当程序员掌握 UI 主导权时，他们倾向于诚实地将后端数据库表格以及复杂的调用层深渊裸露给用户。",
+          "ttsFp": "cb2a6c06_78",
+          "srtCueIdx": 135,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 65,
+          "srcLEnd": 65
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而造就商业奇迹的交互设计手法，永远是将前台面板强硬地向着用户心理那一端推压，甚至不惜隐瞒掉残酷的系统真相。",
+          "ttsFp": "64fbdb28_53",
+          "srtCueIdx": 136,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "出行软件的设计演化展现了教科书级别的操作手腕。普通市民呼叫网约车后，心理预判是“屏幕在用卫星直播这辆车的行驶实况轨迹”。真实情况下的工程坐标漂移则是灾难性的：受制于高频建筑群与林荫遮挡，车辆传回的 GPS 坐标常常是间歇性的闪烁断点数据，如果原样照搬输出，屏幕上的小汽车图标只会在几百米的距离内随机瞬移闪现。设计团队的解题方法是在中间植入精密的前端平滑插值算法。外显表象强行把这些断裂的数据点吸附在地图矢量道路中心线上，并伪造出汽车正在匀速滑行的华丽动效。它用一层温柔美丽的谎言完全掩盖了工程架构的粗鄙，进而实现了人类最渴望的属性——“确定性”。",
+          "ttsFp": "c3f223b7_273",
+          "srtCueIdx": 137,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "早期电子表格工具之所以能够统治财年清算工作，原因在于其交互界面偏差地复刻了人类使用长达数个世纪的纸本账册结构。它刻意回避了让大众学习代码中的矩阵运算协议，只是非常平和地递上一张巨大的带有数字坐标的“网格纸”。这套设计之所以伟大，在于它完全压制了向用户普及编程知识的冲动。",
+          "ttsFp": "63e0851e_135",
+          "srtCueIdx": 138,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 73,
+          "srcLEnd": 73
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而，这种掩盖如果切断了安全报警的神经元链路，必将反噬导致血淋淋的悲剧现实。",
+          "ttsFp": "29c3d750_38",
+          "srtCueIdx": 139,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 75,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这其中最为惨痛的教训铭刻在航空史上。波音 737 MAX 客机曾两度在起飞阶段失控坠毁，共带走 346 人的呼吸。灾难的核心元凶名为 MCAS（机动特性增强系统）。由工程迭代产生的较大引擎安装位使得机体存在轻微上扬的致命性失速隐患，MCAS 被设定为在临界点自动反向压制机头进行动态修复。",
+          "ttsFp": "73a88783_144",
+          "srtCueIdx": 140,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 85,
+          "srcLEnd": 85
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为了降低高昂的飞行员换代培训费用预算，波音做出了饶恕的决策：他们在这座飞机的视觉投射（飞行管理界面与操作手册）中，生硬地切除了所有与该系统相关的提示信息。驾驶员在内化预期层面认定自己驾驭的仍旧是完全服从人力干预的上一代老款机型；而当迎角传感器发生罕见的单点硬件故障时，沉睡在代码深处的 MCAS 被错乱唤醒并进入死循环，疯狂下拉机身。驾驶舱仪表盘上的前台面板一片死寂，既不报警也没有告知故障源头。机长在绝望的几分钟内，同由于参数错误而失控的幽灵后台代码展开了胜算的肉搏战。这种外显表象为了商业利益蓄意欺骗操作者心智的行径，被定性为航空工业史上最恐怖的丑闻。",
+          "ttsFp": "6a101892_278",
+          "srtCueIdx": 141,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "极客崇拜的命令行世界也发生过同等的惨剧。2017 年春天，亚马逊 AWS 的维护人员在剔除老旧服务参数时，由于命令行终端薄弱且过分透明的视觉投射设计——它丝毫没有提供防呆拦截弹窗即执行了批处理删除——致使数个关键底座的路由群集被连根拔起。引发的大面积熔断使得硅谷乃至全球的企业级应用陷入超四小时的死寂。AWS 的工程师由于自身的基础设施被毁甚至需要登录外部社交媒体通报事故。当前台面板直接将缓冲带的工程接口暴露给碳基生物的脆弱手指时，灾难降临只是一个随机事件。",
+          "ttsFp": "002961c2_230",
+          "srtCueIdx": 142,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 96,
+          "srcLEnd": 96
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "与之形成高度强烈对比的，是对用户心智有着保护机制的代码巨兽封装。",
+          "ttsFp": "205c7800_32",
+          "srtCueIdx": 143,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 98,
+          "srcLEnd": 98
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "流媒体巨兽 Spotify 每段周期的推荐算法清单。用户的心流模型单纯线性：“这个软件的编辑部门很懂我的音乐品味”。而在硅谷冰冷机房内运转的，是消耗算力的三阶交叉引擎：首层抓取百万级用户的听歌交点绘制协同矩阵，二层下达自然语言处理探针在茫茫语料库中啃咬所有相关的曲风分类词条，最底端辅以深空探测级别的声学波形剖析。这三股生硬的数据洪流交汇后，在最终展现在用户手机上的外显表象中，被精炼缩影为一张简洁的周推榜单矩形卡片。残酷复杂的数字博弈逻辑，被温情脉脉的极简图层锁死在幕后。",
+          "ttsFp": "3e5071a2_237",
+          "srtCueIdx": 144,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 108,
+          "srcLEnd": 108
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "弄懂了模型对齐，就必须掌握如何切入战场。大多初登门道的人在获取开发需求时，惯性发问总是：“您当前分为哪几步操作任务？”随即展开对于传统步骤的粗暴上色与排版。",
+          "ttsFp": "69b4de6b_78",
+          "srtCueIdx": 145,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 114,
+          "srcLEnd": 114
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Cooper 在长达三十年的布道中严厉训诫：**执行任务（Tasks）注定会被新的材料技术碾碎，但底层渴求的核心目标（Goals）将在历史中永生。**",
+          "ttsFp": "9c86bbea_75",
+          "srtCueIdx": 146,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "从美国西部拓荒史借用一段经典剖析：早期拓荒者想要携带家属穿越蛮荒危险的中部平原，他们唯一的底层防线**目标**是舒适无损地跨越地理横沟。而在当年受制于简陋的工业水平，他们被迫分配出诸多沉沉的生存**任务**：操控驾驭野马车队、修理轮毂、在腰间挂满重型火器。一百七十年过去，重重跃升的技术推陈出新，如今乘坐飞机横越大陆的旅客依然秉持相同的舒适安全目标，但在安检机前，必须丢弃武器才能登上机舱。目标从不褪色，变异的仅仅是执行它的手部动作。",
+          "ttsFp": "63bdcdea_217",
+          "srtCueIdx": 147,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**不要优化垃圾任务，直接切除它们。**",
+          "ttsFp": "3fc4adc7_20",
+          "srtCueIdx": 148,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 126,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "陷入微观操作狂热的设计师必然掉进一种名为**局部最优解**的陷阱。福特汽车的破局史完美印证了这种分野的破坏力。在纯粹内卷化的“优化旧任务”路径下，设计团队得到的市场反馈将是单一的痛点：“要求一匹冲刺速度更快的猛马”或者是“研发减震系统更柔软的皮草鞍座”。这种通过拿着秒表蹲守在街角记录扬鞭频率的低级努力，最多研发出一种由基因突变和畸形杂交诞生的怪物坐骑。",
+          "ttsFp": "00ded91e_177",
+          "srtCueIdx": 149,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 128,
+          "srcLEnd": 128
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "福特的革命性成就在于他切断了与那些古板饲养任务的情感纠葛。一旦眼睛钉在“获得更为极速平稳的点对点空间跳跃”这个底层目标之上，解决方案的维度瞬间被拉扯升维至：**消灭活体动物动力系统，引燃燃烧室制造纯机械冲压引擎。最好的交互并不是把点击动作优化到 0.01 秒的极限，最好的交互是让冗长繁琐的审批动作完全失去存在的物理意义。**",
+          "ttsFp": "cc234a2a_163",
+          "srtCueIdx": 150,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "转移到当代最惨烈的数据战争中观察：十五年前的银行业曾发动过大规模服务效能跃进战役。沿用以执行任务为导向的老旧打法架构，各大行拼命下发极具诱惑力但治标不治本的技术补血手段：比如将汇款表单中的填写墨迹栏位横向拓宽两倍、引进吐钞效能翻倍的重装进口点钞仪床、或在接待窗口安置大屏自动发声排队仪。这依然在让那套腐朽的流程变快。",
+          "ttsFp": "1f9adb8c_158",
+          "srtCueIdx": 151,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "直到移动支付巨头的横空出世用极具暴力的底层切口斩断了全链路神经：民众想要把账户数字所有权发生实质转移的底线目标，根本就不必须受限于肉体抵达物理银行大堂这个荒谬前提。在极快的光谱通讯下，所有的填单排号任务被化为空白，仅在聊天面板内输入特定数学额度配合面部光感采集就能收讫。",
+          "ttsFp": "7bff0ab1_135",
+          "srtCueIdx": 152,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 139,
+          "srcLEnd": 139
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "洞穿现象的同时还须严密的审慎探微。那些最为真实强悍的驱动目标，往往被深埋在道德或社会伪装之下潜藏着。在商业重案里，普通基层会计人员挂在嘴边的实用级伪装目标总是声称需要“飞快地对数入账节约公司生命”，但他在执行系统转换时不为人知的核心私域目标却阴暗尖锐：“凭借这套他人甚至极难掌握的高难系统，锁死自己在这间公司的位置防备失业危机”。",
+          "ttsFp": "f5cdf1d2_165",
+          "srtCueIdx": 153,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 143,
+          "srcLEnd": 143
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在定性需求诊断会议上，优秀的主导者应当时刻自我确认为一名经验十足且杀伐果断的神经外科名医，而非街角餐馆服务生。当一位高呼腹部断裂并哀求切去阑尾的成年患者就诊时，即便他能依靠搜索引擎滔滔绝口报出无数医学词条和切除偏门处方，真正主刀的巨擘依然会无视其自主药方，重新进行系统性彩超排查乃至最终断定这不过是一场急性浅表胆汁分泌紊乱。**让用户放肆倾倒挫败和痛苦的情绪，但冷酷收缴他们开列功能清单以及强行勾画页面草图的权利。那些极具创造性的全自动化手术切口设计方案，完全归属于你们自身的职业护城河。**",
+          "ttsFp": "f0d5ce65_246",
+          "srtCueIdx": 154,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 147,
+          "srcLEnd": 147
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为确保那些完全未曾涉猎终端底层逻辑的小白人群，能够在短促的时间节点内驯服复杂系统，全球通用准则就是去现实维度暴力开采极具共识的**隐喻素材**。例如系统文件夹背后的牛皮纸袋色彩图腾、车载系统的机械表盘高光边缘。",
+          "ttsFp": "a33b977d_105",
+          "srtCueIdx": 155,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 153,
+          "srcLEnd": 153
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "外星视角的跨界实验往往被拿来彰显这套技巧的不二法门。当你处于完全割裂常识的新生降临状态，偶然迈进地球居所并目睹角落停放的一组戴森无绳设备：一根具有强悍承重比例の钛合金长杆，端部带有凶狠旋转的轮状尼龙硬刷，而握持手柄内测暗藏了一枚充满红色杀戮预警的深凹弹簧扳机。仅仅依靠着这些生猛强劲的“物理属性引导”，操作概念瞬间完成全脑构建。而反观当前主流粗糙制式的控制应用面板，在一堆扁平化的惨淡四边小框和横向线条中，物理惯性重力可以被利用做判断之锚。正是这种纯粹由数字硅胶倒模出来的缺失地带，依赖设计师将门闩、齿轮、翻页这类重工业时代的刻板印象借用过来填补黑箱鸿沟。",
+          "ttsFp": "bdb3ec38_278",
+          "srtCueIdx": 156,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 157,
+          "srcLEnd": 157
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "而最为封神的移动端动作定调，莫过于 2007 初代操作系统的“一侧单向滑动重组”开界屏障。如何有效阻止深色口袋里的织物剧烈摩擦引发屏幕乱码崩溃，同时确保零教育成本的触达？复古的弹簧门栓力学轨迹被直接临摹写入底层代码，一条流淌着金属高亮的拖块横条便由此定格。它不仅仅防范了风险，更利用廉价安全的拟态滑入成功地使得数亿计的老年弱势人群完成智能时代的跨域。",
+          "ttsFp": "4f86807f_175",
+          "srtCueIdx": 157,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 161,
+          "srcLEnd": 161
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当这股复古狂热泛滥时，过度延伸的隐喻便会沦为束缚生产力攀升的囚笼。在后续更迭中被迫全面下架的质感皮草手帐界面便是深刻教训。当工具属性急需处理远超单页纸面规模的巨量数据交叉引用之时，原本亲和的“纸质撕裂动画”和“仿真皮革缝线边距”，就变成了浪费电子屏幕像素的累赘废料。",
+          "ttsFp": "3bb711e7_133",
+          "srtCueIdx": 158,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 163,
+          "srcLEnd": 163
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "面对即将启动的小型破局实战（Exp1），所有极易被理工科逻辑框死的初次下海选手往往会在草图本上无脑复述数据工程师那些乏味的动作指令表（“新建数据查询视图”、“发起远程写入回调请求”、“渲染表格表单元素”）。",
+          "ttsFp": "ec58165d_103",
+          "srtCueIdx": 159,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 165,
+          "srcLEnd": 165
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "为强行终止这种灾难性的工程师思维辐射，工业界在此引入一套极具实战暴力重构作用的两栖模型工具：**对象-动作矩阵 (Object-Action Matrix, OAM)**。它最直接的功效就是过滤掉一切伪劣的技术残留杂音，精准提炼出那些属于原生受众的情绪原语。",
+          "ttsFp": "527f210b_129",
+          "srtCueIdx": 160,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 167,
+          "srcLEnd": 167
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**OAM 铁血重建法则：**",
+          "ttsFp": "41f4085a_15",
+          "srtCueIdx": 161,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 169,
+          "srcLEnd": 169
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **深度筛查提取原生物件 (Objects)**：冷静地剪去任何属于机房架构体系内的词汇。在一名农村务农老人的感知图谱里，根本不存在什么被归类的流媒体音频序列，只存在“这本磁带”以及“那堆曲谱”。",
+          "ttsFp": "9992a29c_101",
+          "srtCueIdx": 162,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 170,
+          "srcLEnd": 170
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **排列人类生理动作清单 (Actions)**：基于刚刚提取出来的坚固心理实体，人们在脱离数字枷锁下如何盘弄它们？绝不应该是“调用擦除函数命令”与“生成并列复制镜像”，而是充满了肉体动能的“搓开碾碎”、“叠在一起并打包”。",
+          "ttsFp": "25f1cf66_115",
+          "srtCueIdx": 163,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 171,
+          "srcLEnd": 171
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **强制降维锚定界面输出**：在画板内强迫视觉重心完全围绕刚刚产出的实体与野蛮动作铺垫。页面层级和热区必须是对物理把玩状态的最佳平替反映，而不是堆砌生硬的菜单栏和感情底色的纯净列表。",
+          "ttsFp": "49f6c4f9_94",
+          "srtCueIdx": 164,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 172,
+          "srcLEnd": 172
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "将这段 OAM 执行口诀应用在一个曾经掀翻全球转账业务版图的本土巨兽模块上——**全中国每年春节狂欢的红包大战**。",
+          "ttsFp": "fa0e95f2_58",
+          "srtCueIdx": 165,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 181,
+          "srcLEnd": 181
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这本是一场枯燥艰涩的小额账户结算迁移项目。倘若交办给金融安全组的老派工程师开荒布局原型图谱，在严格的并发结算机制压迫下，你们极可能会面对一张刻有收款对方精准账号、需要录入防盗凭证后在倒计时读秒中确认“汇款移交”这等刻板至极的转账表单。整个交互循环极尽紧绷与疲乏。",
+          "ttsFp": "c40c6fca_131",
+          "srtCueIdx": 166,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 183,
+          "srcLEnd": 183
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "然而负责破格突围的设计长官依靠了本土深厚的情绪沉积场，做出了绝杀性的模型替换阵列：",
+          "ttsFp": "3e8e11e7_41",
+          "srtCueIdx": 167,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 185,
+          "srcLEnd": 185
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **提取核心对象斩断金融底色**：剥离掉冗杂冰寒的账户账本数字幻觉，在屏幕前唯一树立起的心理神像，就只是那一封由红纸浆折叠而成的过年信物——**纸质实体红包**。",
+          "ttsFp": "64f9295c_83",
+          "srtCueIdx": 168,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 186,
+          "srcLEnd": 186
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **还原情绪裹挟下的狂热拆解动作**：丢弃汇入划出的财务口令。提取出的执行阵列充满了癫狂的多巴胺狂热行为：**隐秘包裹**（蒙蔽真实的金额底线创造刮刮乐般的饥饿赌徒感）、**随性抛洒**（将实体化为复数投掷进庞大的网络群落之中发酵）、那充满无限快感的一击致命的核心动作——**狂暴拆封**，以及随后滋生的极易引发流量指数级爆裂传播放大的阴暗嫉妒窥探（“去看看大家到底顺走了多少”）。",
+          "ttsFp": "0774d3c2_193",
+          "srtCueIdx": 169,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 187,
+          "srcLEnd": 187
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "*   **重塑前端呈现形态与动效交互体验层**：这套暴力推倒重建的神级矩阵模型最后凝结出的果实便是在一堆杂乱无章的聊天瀑布流气泡里那引诱你去刺戳把玩的金黄大圆币按钮伴随着厚重年味的深红封套界面。当你指尖点落下去的时候你并不觉得自己是一个无聊按着冰凉确认协议的打字机器，你就是在这个赛博纪元时空里用力扯开了那个极具悬念感和金钱气味的纸质小信封。",
+          "ttsFp": "6d5702b1_170",
+          "srtCueIdx": 170,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 188,
+          "srcLEnd": 188
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这场被无数后来者拆解复盘的伟大功能模块完全不是单纯依靠堆叠高可用集群和网络通讯层代码做到的，它就是因为一个绝顶天才班底残暴果断地砍掉了枯燥的后台代码外露展现，随后在默认观念土壤最肥沃的地方重重拍下了一张经过精密推演的 OAM 卡牌。这告诉了以后在座的每一位学子，不要在功能逻辑堆砌的死路上走到黑发疯，回到活生生的人性泥坑里去重新挖掘那些深埋在地下的对象与人类纯粹动作。",
+          "ttsFp": "fa73b84b_184",
+          "srtCueIdx": 171,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 190,
+          "srcLEnd": 190
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "课后延展",
+          "desc": "重绘极危边缘人群之暗号解构实录",
+          "text": "各特遣小组散会后就地选择本校周遭被严重遗弃老去的公共设施（譬如残喘艰难呼吸的城中村自助取款报备旧机台或者布满灰尘的老旧办事处叫号打印总机）。将其后台的那些残忍如锯齿般的工程控制指令树图谱一一残忍描摹出来！接着带入到那位视力衰退手抖无力的老人视角之中，重新利用 OAM 模型构建一套以\"破损眼镜\"和\"颤抖推纸\"为对象的全链路新防御阵型设计蓝图隐喻草稿，并在下一周开启课堂的初期进行强制宣发汇总！",
+          "ttsFp": "b17898c0_196",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M03_破解认知失调_重要的三大模型.md",
+          "srcLStart": 192,
+          "srcLEnd": 196
+        }
+      ],
+      "firstSrtCueIdx": 127,
+      "budgetChars": 6300,
+      "oralCharCount": 5615,
+      "estimatedMinutes": 31.2,
+      "fillRatio": 0.89
+    },
+    {
+      "id": "mod-6",
+      "title": "模块 4: 防止摩擦的五把武器：设计原则 (约 25 分钟)",
+      "slides": [
+        {
+          "id": "W01_S05a",
+          "layout": "Image",
+          "text": "",
+          "heading": "4.1 可见性 (Visibility) 与 反馈 (Feedback)",
+          "scene": "机场自动感应水龙头特写，一个困惑的旅客手持满是泡沫的双手，正试图去拧动一个完全没有接缝的平滑金属装饰头。旁边打上一个巨大的红色问号。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S05a.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S05a.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S05a.png"
+          ],
+          "list": null,
+          "paragraphStart": 1
+        },
+        {
+          "id": "W01_S05b",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "左侧：刀刃切开硬面包的特写，标注三种感官输入（视觉：面包屑掉落；听觉：刀片摩擦硬壳的咔嚓声；触觉：刀柄传递的物理阻力）。右侧：缺乏反馈的数字黑洞，用户按下一个响应波纹的纯灰按钮，头顶冒出问号。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S05b.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S05b.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S05b.png"
+          ],
+          "list": [
+            "物理界的多模态即时反馈",
+            "屏幕界面的单一黑洞"
+          ],
+          "paragraphStart": 4
+        },
+        {
+          "id": "W01_S05c",
+          "layout": "Comparison",
+          "text": "",
+          "heading": "4.2 约束 (Constraints) 与 一致性 (Consistency) 的博弈",
+          "scene": "上半区：事后验证惩罚机制（用户全神贯注填完两千字的繁杂注册表单并点击验证按钮后，系统突然触发全屏红框报错提示\"密码因未含特殊标点而失效\" = 受挫与愤怒）。下半区：前端预防式防御机制（密码输入框悬挂有强弱密码指示条及规则池，在要求尚未被完全满足前，唯一的提交按钮被铁血锁定为点击的淡灰色 = 安全可靠的控制权转移）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S05c.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S05c.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S05c.png"
+          ],
+          "list": null,
+          "paragraphStart": 13
+        },
+        {
+          "id": "W01_S05d",
+          "layout": "Grid",
+          "text": "",
+          "heading": "",
+          "scene": "三个高频暗黑套路案例罗列：(1) 退订黑洞，需要点击五层菜单并撰写申诉理由才能解除连续包月。(2) 偷偷在飞机票账单最底端暗中勾选极难被发现的取消险附加服务。(3) \"删除历史记录\"操作被设计为接近背景色的灰色小号极微弱文字。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S05d.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S05d.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S05d.png"
+          ],
+          "list": [
+            "偷装购物车 (Sneak into Basket)",
+            "退订客栈 (Roach Motel)",
+            "虚构紧迫感 (False Urgency)"
+          ],
+          "paragraphStart": 20
+        },
+        {
+          "id": "W01_S05e",
+          "layout": "Split",
+          "text": "",
+          "heading": "4.3 示能 (Affordance) 跨越屏幕的鸿沟",
+          "scene": "现实物件与代码绘图的错位对照。左侧为生活中一扇镶满拉丝推板的高级防爆门，门上的金属平面直接在物理级别排斥了任何抓握拉扯动作；右侧是一张带有渐变阴影、圆角特效，伪装着自己是实体凹凸结构的悬浮蓝色登录按钮图层。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S05e.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S05e.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S05e.png"
+          ],
+          "list": null,
+          "paragraphStart": 22
+        },
+        {
+          "id": "W01_S08",
+          "layout": "Grid",
+          "text": "",
+          "heading": "4.4 永远留有余步：无障碍与包容性设计 (Accessibility)",
+          "scene": "人群障碍状态时空衰减图解谱系。最顶层为终身性残障（依靠眼球追踪系统艰难滚动的全瘫患者）；中间层过渡到偶发临时残障（由于突发骨裂只能左手固定厚重石膏打字的学生）；底层映射到情境致残区（清晨挤在摇晃度爆表的地铁里，单手扯拉扶手，只有一根指头还能活动的普通打工人）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S08.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S08.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S08.png"
+          ],
+          "list": null,
+          "paragraphStart": 31
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "理清了心理模型，下一步需要动用战术维度的准则来打造表现模型。Yvonne Rogers 在标准教材中给出了经典的防止摩擦设计五原则。",
+          "ttsFp": "de315b8a_66",
+          "srtCueIdx": 172,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 4,
+          "srcLEnd": 4
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在讨论极简主义之前，要直面一个现实的设计灾难。Cincinnati 国际机场的卫生间曾部署了一批全金属的自动感应水龙头。从卫生防疫角度看，非接触式设计完美规避了交叉感染。但在真实环境里，大批旅客站在洗手台前，根本无法判断水龙头是自动开启的。他们用力扭动那个不具备机械结构的顶端装饰头，甚至弯下腰去水槽底翻找隐蔽开关。这场闹剧的根源在于：水龙头的外观抹除了触发动作的物理线索。设计者未能将“将手掌平放入感应区”这个操作门槛可视化。这就是可见性为零的极简设计。",
+          "ttsFp": "c51b2c94_228",
+          "srtCueIdx": 173,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 16,
+          "srcLEnd": 16
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "可见性原则定义了交互的第一道门槛：**重要的操作入口、警示状态必须显而易见**。如果一个涉及高额资金转移的确认按钮被折叠在了汉堡菜单的第三层，或者某个关键的后台任务正处于错误等待状态却不在前台展示警告灯，用户就如同面对一台断电的黑箱机柜，所有的操作都会陷入瞎猜的恐慌。与可见性直接绑定的，是 Jakob Nielsen 十大可用性启发式原则中的第一项——系统状态可见性。当用户把信用卡插入 ATM 机时，屏幕上哪怕是一个意义的旋转沙漏，都能极大地舒缓操作者对于吞卡风险的焦虑。",
+          "ttsFp": "34c19af9_238",
+          "srtCueIdx": 174,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 18,
+          "srcLEnd": 18
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "与可见性伴生的第二项要求是**反馈 (Feedback)**：系统必须对用户的每一项动作回执一张即时的感官确认单。",
+          "ttsFp": "81f20225_57",
+          "srtCueIdx": 175,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 20,
+          "srcLEnd": 20
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "回忆物理生活中用厨刀切片面包的过程：刀尖刺破面包硬壳的脆响（听觉）、刀身切入面团引发的粘滞阻力（触觉）、切割线产生碎屑崩塌的画面（视觉）。操作者的神经中枢在毫秒级时间内接收这三组并行数据，并瞬间锚定“切割已生效”的判定。",
+          "ttsFp": "65541df2_110",
+          "srtCueIdx": 176,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 31,
+          "srcLEnd": 31
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在玻璃触摸屏上，一切物理颗粒感被强行抹平了。当用户的手指按压屏幕上一处色块，如果界面没有产生任何色彩瞬变（视觉暗下或反白）、没有任何马达震动（触觉）、没有任何提示音（听觉），用户便进入了交互真空状态。这种反馈黑洞会诱发猛烈的连续点击行为，进而导致系统重复提交表单或死机崩溃。",
+          "ttsFp": "54ef895e_137",
+          "srtCueIdx": 177,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 32,
+          "srcLEnd": 32
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这里，必须纠正数字媒体艺术专业同学常犯的视觉中心主义。在界面反馈系统中，**声音（Audio）**拥有超越视觉图形的穿透力，应当被视作交互设计的指挥棒，这被称为**听觉示能 (Sonic Affordance)**。",
+          "ttsFp": "2a35c287_109",
+          "srtCueIdx": 178,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 36,
+          "srcLEnd": 36
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **物理材质的数字投影**：在 macOS 中将废弃文稿拖入垃圾桶时那声干脆的“揉废纸声”，就是在用隐喻警告用户：接下来发生的是破坏性操作，犹如粉碎纸张一般逆。如果你设计一款木纹质感的复古打字机 App，键盘敲击声必须是厚重且具备机械回弹感的咔嗒声，一旦错用高频的电子哔哔声，用户的心理防线便会瞬间出戏。",
+          "ttsFp": "51b488b1_155",
+          "srtCueIdx": 179,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 38,
+          "srcLEnd": 38
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **负面约束的声带**：当用户在界面中执行被禁止的非法越界动作时（例如在不能拖拽的边缘松手），系统往往不需要弹出刺眼的红色警告框，只需配以低频、沉闷的撞击音效。这种设计在不挤占屏幕像素资源的前提下，温柔地传达了“此路不通”的边界规则。",
+          "ttsFp": "4adb2ebb_120",
+          "srtCueIdx": 180,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 39,
+          "srcLEnd": 39
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "听觉反馈在现实场景中最的应用存在于**日本铁路系统 (JR)**。每个车站不单纯播放各异的离站旋律，而是构建了一整套无需视觉参与的**地下空间听觉导航系统 (Sonic Wayfinding)**。",
+          "ttsFp": "72c87b61_99",
+          "srtCueIdx": 181,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "东京地铁利用鸟鸣声对不同形态的月台进行坐标标定：供盲人辨识位置时，开敞型的岛式月台阶梯口循环播放“草地鹨”叫声，而有着撞墙风险的封闭型侧式月台阶梯口则播放“夜莺”或“布谷鸟”啼叫。视障乘客跨入检票口的一瞬，听觉便在脑海中绘制出了精准的地形测绘图。这套通过鸟类鸣响建立环境感知的声学基建，是最顶层的无障碍反馈设计。",
+          "ttsFp": "51b3e439_156",
+          "srtCueIdx": 182,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "5min",
+          "desc": "盲听挑战：声音隐秘的操纵逻辑",
+          "text": "讲师播放 3 段经典数字产品音效（Windows 报错音底噪、Slack 活泼的消息提示音、特斯拉低频锁车声）。\n要求学生完全闭眼倾听，并在纸上快速作答：\n1. 这个音效的频率和质感暗示了何种物理材料属性？\n2. 它在系统可用性指标中投射了哪种状态（警报、成功确认还是安全保护）？",
+          "ttsFp": "1bbb44c8_140",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 48,
+          "srcLEnd": 55
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "即便提供了充分的提示音与高可视化的按钮，人类在疲劳或信息过载状态下依然会做出致命的逆向选择。设计者被迫切换防线，使用物理与代码的双重屏障。",
+          "ttsFp": "bcfe6bcd_69",
+          "srtCueIdx": 183,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 59,
+          "srcLEnd": 59
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**约束 (Constraints)** 是将用户的非法操作冲动扼杀在触发前的手段。Rogers 将其划为截然不同的两条路线：**预防式约束**始终具备压倒性优势。系统利用代码逻辑在日期选择模块中将二月三十日变为点击的灰色，从源头上抹除了时间穿越的荒唐数据；**事后式约束**则是怠惰的开发习惯：放任用户在错误的道路上跑完全程，再以醒目的报错弹窗粗暴干预。",
+          "ttsFp": "c39c36f1_178",
+          "srtCueIdx": 184,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "约束原则起源于血腥的工业实体制造历史。在日本丰田汽车的车间里，新乡重夫 (Shigeo Shingo) 将其提炼为 **Poka-yoke（防呆设计）**。",
+          "ttsFp": "bad48177_78",
+          "srtCueIdx": 185,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 71,
+          "srcLEnd": 71
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们平时装配的电脑主板 CPU 插槽以及显卡供电线接口，都统一被塑造出不对称的倒角或梯形缺口。这个形状本身就是一道封印。这意味着不管当班工人的注意力多么分散、智力水平几何，只要装配方向发生反向倒置，元件针脚在物理空间就无法完成接触穿透。防呆装置依靠强硬的拓扑结构接管了事故概率。我们在制作前端界面时，把依赖特定前置条件的按钮统一实施隐藏或灰色置底处理，就是属于信息工业时代的顶级防呆模块。",
+          "ttsFp": "8f4caa90_194",
+          "srtCueIdx": 186,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "与物理层面的约束协同作战的，是认知层级的**一致性 (Consistency)** 原则。",
+          "ttsFp": "c4fa4b33_45",
+          "srtCueIdx": 187,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在产品的横向设计逻辑中，相同概念的操作模型应当保持机械式的复刻运转。如果 App 底部导航栏处于最左侧的返回按钮，切换到设置页面时突然跳跃到右上角的微小关闭图标位置，这就属于一致性崩塌。",
+          "ttsFp": "06542ad0_93",
+          "srtCueIdx": 188,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 75,
+          "srcLEnd": 75
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这涉及到了诺曼在第四条启发式原则中讨论的核心心理学机制——**双系统理论**。人类大脑在运转熟练的任务时依赖直觉与条件反射的“系统 1”，当交互链路维持着的外部与内部一致性时，大脑就不需要唤醒消耗极大血糖能量、负责理性审判的“系统 2”。保持跨平台（遵循 iOS 的底层返回手势与安卓的长按习惯分离）的一致性，是为了保证用户在心智盲跑状态下也能保持操作的丝滑与平稳。",
+          "ttsFp": "2e256364_183",
+          "srtCueIdx": 189,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 76,
+          "srcLEnd": 76
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当一致性逻辑被用于榨取用户剩余价值，约束原则用作设下陷阱的藩篱，一个罪恶的设计产物便诞生了——**欺诈套路 (Dark Patterns)**。这也是所有数字媒体从业者必须高度警备的行业恶习。",
+          "ttsFp": "1fdb09ed_96",
+          "srtCueIdx": 190,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 80,
+          "srcLEnd": 80
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "独立设计师 Harry Brignull 将这种借助人性认知漏洞（如从众心理、规避损失恐惧、视觉盲点）进行的蓄意操纵归置为欺诈套路。这类模式不依赖技术黑客的破解，而是利用了用户的系统1思维盲区达到目的。",
+          "ttsFp": "f30b540a_101",
+          "srtCueIdx": 191,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 89,
+          "srcLEnd": 89
+        },
+        {
+          "type": "tech_note",
+          "tag": "!WARNING",
+          "text": "绝触碰的法律红线\n随着 2024 年度欧盟《数字服务法案》(DSA) 与英国相关法规在全球范围内落地执行，“欺诈套路”正式跨越了行业道德批判的边缘地带，升级为极为严肃的商业犯罪指控。2025 年的重大判例中，由于在平台会员退订机制中预埋了虚妄的高门槛迷宫障碍，且在诱导用户付款时使用模糊虚假的验证对标标签，包括 X 原推特平台在内的数家硅谷科技巨擎接连遭到高达 1.2 亿欧元的重度罚单清算。\n在日后布置的 W12 启发式评估沙盘对抗中，任何暴露出设计诱骗或预置欺诈迷宫选项（如伪装成下载按钮的跳链广告）的同学，将面临该次成绩直接归零的处罚。设计准则是用来捍卫人类免受技术侵袭的屏障，而不是充当割取流量的镰刀。",
+          "ttsFp": "651e5e0c_305",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 91,
+          "srcLEnd": 93
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "我们频繁使用“示能 (Affordance)”一次。它在学术中特指物体由原生构造直接指派出去的操作可能性——装有平推金属板的门，天然只接纳手臂伸直向前撞击的操作；深邃凹陷的门把手则在无声引诱人类的五指去强力抓取倒退动作。",
+          "ttsFp": "46344328_110",
+          "srtCueIdx": 192,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 103,
+          "srcLEnd": 103
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "唐纳德·诺曼在此处进行了非常苛刻的概念打假。他指出：在智能手机这种表面被硅酸铝绝缘玻璃封装的发光设备上，**根本不存在一星半点的物理交互示能**。屏幕本身的物理特性仅剩下了“允许手指腹部滑动摩擦”。",
+          "ttsFp": "38df71a2_99",
+          "srtCueIdx": 193,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 105,
+          "srcLEnd": 105
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "于是，界面设计师每天依靠 Photoshop 涂抹生成的那种仿立体高光、悬浮阴影、以及点击时微微内凹的色彩突变逻辑，全部属于虚设的**“示能信号 (Signifier)”**。我们正试图用视觉谎言在二维坐标系内搭建一座伪 3D 的交互吊桥。",
+          "ttsFp": "c0d80e88_120",
+          "srtCueIdx": 194,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 107,
+          "srcLEnd": 107
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "要成功搭建这座吊桥就必须遵从被物理极限界定的**Fitts规 (Fitts's Law)**：操作行为到达特定靶区的时间（T），与当前移动起点到靶区的轴向距离（D）呈正相关，而与靶区截面积（W）呈反比负相关。结论极为通俗：设计元素越是微型化，距离操作者目光及大拇指越远，人类点击到它所耗费的不确定时间呈现指数级膨胀扩张。",
+          "ttsFp": "7e9148c6_160",
+          "srtCueIdx": 195,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 109,
+          "srcLEnd": 109
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这能解开很多人心中的谜题：为何特斯拉 Model 3 这套被硅谷膜拜的 15 英寸中控台设计，在发布之初竟然遭到致命级投诉？设计师在这块大屏中把雨刮档位、空调风向、反光镜重置等攸关生命的高频刚需功能，统一缩小为如同 iPhone 应用般的微缩像素块，并驱逐到了方向盘边缘视觉死角区域。这在静止状态下是绝佳的视觉排版。但在高速颠簸行车时，目标模块面积 W 的微小，加上距离眼直视区域 D 极大，直接打碎了Fitts规的宽容阈值。它迫使驾驶员被迫交出本应用于注视前方路标的长达 两秒以上的深度注意力，直接诱发追尾惨案。",
+          "ttsFp": "2be04ab0_257",
+          "srtCueIdx": 196,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 111,
+          "srcLEnd": 111
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "示能信号遭遇颠覆重制，是许多灾难的原爆点。",
+          "ttsFp": "1bf312fe_21",
+          "srtCueIdx": 197,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 115,
+          "srcLEnd": 115
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1979 年 3 月 28 日，美国宾夕法尼亚州三哩岛核事故中，控制室的灾难主因便源于信号指代的认知倒转。反应堆管理界面中使用了一枚**红色指示发光灯**。全球交通信号和消防系统长期建立的心智模型将红色与生命危险直接绑定绑定。但在这套核电设备里，设计者离奇地将其定义为：“阀门正在顺利送水”的正常标识状态。在堆芯压力泄漏的混沌报警期，高压下的操作工人惊恐地看到红灯长时间闪亮亮起，本能地将其判定为压力过高，随手强行掐断了冷却用供水输入，亲自按下了导致大半个核电站融毁的灾难开关。",
+          "ttsFp": "1c2b1afe_239",
+          "srtCueIdx": 198,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "课后延展",
+          "desc": "虚构表象大搜捕（诺曼门鉴定）",
+          "text": "课后进入各位手机中最为冷僻的一档应用。在深层菜单区截屏 3 处采用了\"虚假示能\"（例如伪装成文字的无法点击按钮图层）或包含\"被剥夺可见性\"（隐藏极深滑动动作）的设计事故，辅以标红重写改进策略，于下周课堂前归档提交。",
+          "ttsFp": "da509181_107",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 118,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "打通这些防御机制后，Yvonne Rogers 划下了这条宏伟战线的收尾标识——**无障碍设计 (Accessibility)**。如果将目光仅仅停滞于如何收割正常人的时间与精力，那么设计工业将走向萎缩的终局。",
+          "ttsFp": "90ddcc45_105",
+          "srtCueIdx": 199,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 126,
+          "srcLEnd": 126
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "必须立即修正一个极为局限的刻板偏见：无障碍绝非只是企业为了迎合政府法案进行的所谓社会施暴与慈善福利工程。实际上，它正在强力反哺每个健康的躯体。",
+          "ttsFp": "cb0072c2_71",
+          "srtCueIdx": 200,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 134,
+          "srcLEnd": 134
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "残障体系包含复杂的时态断层：",
+          "ttsFp": "f0e177dd_14",
+          "srtCueIdx": 201,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 136,
+          "srcLEnd": 136
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. **永久性受损**：需要轮椅的终身瘫痪者。",
+          "ttsFp": "60ce9287_24",
+          "srtCueIdx": 202,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. **阵发临时性受制**：刚刚进行了眼部手术、角膜充血无法面对任何高刺眼光度的高管阶层。",
+          "ttsFp": "88db5752_46",
+          "srtCueIdx": 203,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 138,
+          "srcLEnd": 138
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. **情境致残现象**：这是一个覆盖全部人类的情景——在正午毒辣反光的阳光照射下根本看不清淡雅极简浅灰色字体的任何人；在喧嚣无比的高铁车厢里因为忘带蓝牙耳机而错过静音语音指令的群体。",
+          "ttsFp": "751e367c_93",
+          "srtCueIdx": 204,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 139,
+          "srcLEnd": 139
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你在为一名重度弱视的老人而将 App 的排版层级改造为支持超大黑体字符和全通道盲读适配时，你本质上同样在拯救一名双手抱满杂物文件、只能用睫毛微弱余光偷瞄信息的急促外卖骑士。",
+          "ttsFp": "5be713c5_86",
+          "srtCueIdx": 205,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 141,
+          "srcLEnd": 141
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "历史车轮无数次证明过这条定律。",
+          "ttsFp": "877e6699_15",
+          "srtCueIdx": 206,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 145,
+          "srcLEnd": 145
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "今天你们司空见惯的移动通信基石——短信息系统 (SMS)——它早期的传输带宽狭窄恶劣。就是这样一个被健全人嫌弃过于麻烦输入的技术残渣，竟然被缺乏实时交互信道的聋哑人社群截获并推上神坛。在语音统治天下的千禧年初，正是这个依靠按键组合艰难打出短文的隐秘信道，将数以千万计的无声人群纳入了全球人际交往的大网，并借由此势能反杀，将文本社交的逻辑狂暴倾泻至所有的主流社交平台网络底座之上。如今全球装机量百亿的诸多应用都是这个不起眼信道的延伸。",
+          "ttsFp": "87eaeab0_216",
+          "srtCueIdx": 207,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 146,
+          "srcLEnd": 146
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "再看 2018 年被各大赛事铭记的时刻：微软 Xbox 团队推出了 **Xbox 自适应手柄**。其外部构造并非采用圆润顺滑的常规摇杆，而是将主机重构成了一块极具拼接粗粝感的白色基地。在这块面板之后排列着高达 19 组极易被忽视的 3.5mm 并联插口！这台售价仅仅控制在 99 美元的机器允许任何严重截肢的玩家，无论是使用便宜的嘴唇咬合器，还是依靠呼吸管气压侦测系统，甚至连包装外部防伪贴布都改造为可以用一只残手轻松弹开。这项极简主义的颠覆性创造向世界宣告着：包容性从来不是抛给极少数人的剩余怜悯，它是把因为造物主或战争机器导致的离散碎片，重新融回主体网络的粘合剂。",
+          "ttsFp": "1faaa556_284",
+          "srtCueIdx": 208,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 148,
+          "srcLEnd": 148
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "当我们的数字媒体应用不仅是在极尽巧思去吸取流量漏斗转化率，更能弯下腰去接稳那些正濒临坠入数字黑洞深渊的边缘颤抖双手时，所有的代码字符与交互组件，才有了足以对抗时间腐朽的真正意义。",
+          "ttsFp": "bbc08aa6_89",
+          "srtCueIdx": 209,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M04_防止摩擦的五把武器_设计原则.md",
+          "srcLStart": 150,
+          "srcLEnd": 150
+        }
+      ],
+      "firstSrtCueIdx": 172,
+      "budgetChars": 4500,
+      "oralCharCount": 3739,
+      "estimatedMinutes": 20.8,
+      "fillRatio": 0.83
+    },
+    {
+      "id": "mod-7",
+      "title": "模块 5: 第一战场 —— 实验1(Exp1): 敏捷洞察与 MVP (约 45 分钟)",
+      "slides": [
+        {
+          "id": "W01_S06a",
+          "layout": "Flow",
+          "text": "",
+          "heading": "5.1 抛弃瀑布流，拥抱 Lean UX",
+          "scene": "敏捷开发循环图（Think -> Make -> Check），高亮 \"Think\" 与 \"Make\" 的前期交界阶段，并标注 \"实验1(Exp1): 定性研究与概念流向\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S06a.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S06a.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S06a.png"
+          ],
+          "list": null,
+          "paragraphStart": 0
+        },
+        {
+          "id": "W01_S06b",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "Gothelf 的业务痛点陈述模板拆解，用填空题的形式展示三个核心部分（原有目标、世界变化、预期可衡量结果）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S06b.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S06b.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S06b.png"
+          ],
+          "list": [
+            "1. 系统设计的[原有目标]",
+            "2. 现在[世界发生了什么变化]",
+            "3. 我们的改进请求是[可衡量的结果]"
+          ],
+          "paragraphStart": 4
+        },
+        {
+          "id": "W01_S06c",
+          "layout": "Full",
+          "text": "",
+          "heading": "5.2 任务清单：痛点发掘与 MVP 构建",
+          "scene": "医生问诊图对比。左边是\"假医生\"（听病人说切阑尾就拿刀 = 需求执行者），右边是\"真医生\"（拿着听诊器问症状再做判断 = 设计诊断者）。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S06c.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S06c.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S06c.png"
+          ],
+          "list": null,
+          "paragraphStart": 5
+        },
+        {
+          "id": "W01_S06d",
+          "layout": "Flow",
+          "text": "",
+          "heading": "",
+          "scene": "一张从左到右递进的图形。左端是\"纸质原型\"（低保真、低成本），右端是\"完整代码\"（高保真、高成本）。上面压着一条向上弯曲的箭头曲线，标注\"Truth Curve: 证据越多，投入越高\"。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S06d.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S06d.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S06d.png"
+          ],
+          "list": null,
+          "paragraphStart": 14
+        },
+        {
+          "id": "W01_S06e",
+          "layout": "Full",
+          "text": "",
+          "heading": "",
+          "scene": "粗糙但逻辑清晰的白板线框图 (Wireframe) 照片，上面贴着便利贴连着箭头，强调前期注重流转逻辑而非视觉细节。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S06e.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S06e.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S06e.png"
+          ],
+          "list": null,
+          "paragraphStart": 25
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在接下来的 4 周课时里，我们将并行推进第一个大型实验项目——实验1(Exp1)。这不仅仅是一个画图作业。我们要把今天讲的心理模型和可用性目标落地。",
+          "ttsFp": "e182a631_74",
+          "srtCueIdx": 210,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 11,
+          "srcLEnd": 11
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在这门课里，我们不采用先写几百页需求文档再画图的瀑布流。我们将采用 **Lean UX (精益用户体验)** 方法。Jeff Gothelf 在 Lean UX 这本书的第一章就开宗明义地写道：\"For Lean UX to be successful, teams must be given **problems to solve, not solutions to build**.\"——给团队一个要解决的问题，而不是一个要构建的方案。",
+          "ttsFp": "15ff1c1d_221",
+          "srtCueIdx": 211,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 13,
+          "srcLEnd": 13
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这句话的意思是：当你启动 实验1(Exp1) 的时候，你的第一步不应该是打开 Figma 画界面。你的第一步应该是**用一句话精确地描述你发现了什么痛点**。Lean UX 的核心循环只有三步：**Think（假设）→ Make（最小验证物）→ Check（数据反馈）**。一切从\"假设\"开始，用最低成本验证假设。",
+          "ttsFp": "7c0c611a_157",
+          "srtCueIdx": 212,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 15,
+          "srcLEnd": 15
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Gothelf 提供了一个实用的**业务痛点陈述模板**，你们在 实验1(Exp1) 的第一周就需要用到它。模板的核心由三部分组成：第一，产品或系统的**原有目标**——它当初是为了解决什么问题而被创建的？第二，**世界发生了什么变化**——哪些目标现在没有达到了？第三，**明确的改进请求**——但注意，改进请求必须用\"可衡量的结果\"来表达，**禁止在陈述中指定具体的设计方案**。比如，你不能说\"我们需要一个更直觉的 UI\"（这太模糊了，每个团队都在追求这个），你应该说\"任务完成率从当前的 58% 提升到 90%\"。",
+          "ttsFp": "ccf9f389_261",
+          "srtCueIdx": 213,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 19,
+          "srcLEnd": 19
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**阶段 1: 业务痛点与定性研究**",
+          "ttsFp": "9546a88b_19",
+          "srtCueIdx": 214,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 29,
+          "srcLEnd": 29
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你需要寻找一个现实生活中的真问题，着手早期的定性访谈。还记得我们刚才讲的**设计师-医生类比**吗？在访谈中，你是医生，不是服务员——你要诊断症状，而不是执行用户的自我处方。",
+          "ttsFp": "b59d5668_87",
+          "srtCueIdx": 215,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 37,
+          "srcLEnd": 37
+        },
+        {
+          "type": "tech_note",
+          "tag": "!CAUTION",
+          "text": "反向约束 (Reverse Constraint) 与幸存者偏差\n严禁选择“校园外卖”、“二手交易”、“选课系统”等你们自己极为熟悉的题材。这些题目由于被做过太多次，且存在严重的幸存者偏差，往往会导致你们陷入“为了设计而设计”的圈套。\n\n我强烈鼓励大家关注**非自身熟悉的群体**（例如视障人士、生产线工人、体力劳动者、非母语使用者等）。通过强迫自己跨出舒适区，面对完全陌生的人群，你才能真正发现预设的心智盲区，理解什么是“心理模型的不一致”，进而触达真实的认知摩擦。",
+          "ttsFp": "90f78649_233",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 39,
+          "srcLEnd": 42
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**切记：绝对不要在访谈中推销你的方案！** 这是新手最常犯的错误，不要问“你觉得这个 App 好用吗？”或“你想要什么功能？”。",
+          "ttsFp": "4557b8aa_65",
+          "srtCueIdx": 216,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 43,
+          "srcLEnd": 43
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你可以使用以下**问题模板库**来引导：",
+          "ttsFp": "c536e3c1_20",
+          "srtCueIdx": 217,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 44,
+          "srcLEnd": 44
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "* \"请描述一下你上一次遇到这个问题时的具体情境？\"",
+          "ttsFp": "9cc8698a_26",
+          "srtCueIdx": 218,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 45,
+          "srcLEnd": 45
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "* \"你当时为了解决这个问题，采取了哪些具体的操作步骤？\"",
+          "ttsFp": "6a3aa8ae_29",
+          "srtCueIdx": 219,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 46,
+          "srcLEnd": 46
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "* \"在这个过程中，最让你感到崩溃或麻烦的环节是什么？\"",
+          "ttsFp": "8032a54f_28",
+          "srtCueIdx": 220,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 47,
+          "srcLEnd": 47
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "去挖掘他们遭遇的“认知摩擦”，而不是迫不及待塞给他们一个解决方案。",
+          "ttsFp": "63dddb70_33",
+          "srtCueIdx": 221,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 48,
+          "srcLEnd": 48
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**阶段 2: 确立最小可行性产品 (MVP)**",
+          "ttsFp": "a9e0cf3a_25",
+          "srtCueIdx": 222,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 50,
+          "srcLEnd": 50
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们往往会想做一个包罗万象的超级 App。停下。Eric Ries 对 MVP 的原始定义是：**用最少的工作量来测试假设的实验。** 很多团队误解了 MVP，以为它是\"阉割版的产品\"，是为了赶进度上线而砍掉一堆功能的半成品。这是极其危险的想法。",
+          "ttsFp": "849a1672_123",
+          "srtCueIdx": 223,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 58,
+          "srcLEnd": 58
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "真正的 MVP (Minimum Viable Product)，核心根本不在于\"Product (产品)\"，而在于 **\"Viable (验证可行性)\"**。MVP 不是你最终要卖给客户的东西，它是你用来**向市场提问的工具**。有时候 MVP 是一段代码，有时候它只是一张手绘草图、一个用于收集邮箱的着陆页 (Landing Page)、甚至是一段用来测试点击率的假视频。MVP 的首要关注点不是**交付价值 (Deliver Value)**，而是**获取认知 (Validated Learning)**。",
+          "ttsFp": "5c56e61f_257",
+          "srtCueIdx": 224,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 60,
+          "srcLEnd": 60
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这里有两个经典的硅谷案例，完美诠释了什么是真正的 MVP：",
+          "ttsFp": "c7c4245b_29",
+          "srtCueIdx": 225,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 64,
+          "srcLEnd": 64
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**案例一：Dropbox 的\"假视频\" MVP**",
+          "ttsFp": "8a86d4f1_26",
+          "srtCueIdx": 226,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 66,
+          "srcLEnd": 66
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在 Dropbox 编写出极其复杂的跨平台文件同步底层代码之前，创始人 Drew Houston 并没有直接招募庞大的工程师团队开工。他做了一件极其聪明的事：他自己用屏幕录像软件录制了一个 3 分钟的视频，演示了 Dropbox\"将如何工作\"——视频里的软件其实一半都是写死的硬代码，并非真实的同步系统，但他配合着极其幽默的旁白，把它发到了 Hacker News 上。结果，一夜之间他们的内测排队名单从 5000 人暴增到 75000 人。这个\"假视频\"就是一个 MVP，它用接近零的开发成本，完美地验证了\"核心假设\"：硅谷的硬核极客们确实需要一种像本地文件夹一样无缝同步的云盘。",
+          "ttsFp": "bee46d45_291",
+          "srtCueIdx": 227,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 67,
+          "srcLEnd": 67
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**案例二：Zappos 的\"跑腿\" MVP**",
+          "ttsFp": "acef30ae_24",
+          "srtCueIdx": 228,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 69,
+          "srcLEnd": 69
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "全球最大的在线鞋店 Zappos，其创始人 Nick Swinmurn 当初想验证一个假设：\"人们愿意在网上不试穿就买鞋吗？\"如果用传统的瀑布流思维，他需要先建仓储、进货几万双鞋、开发复杂的平台系统。但他没有这么做。他跑到当地的鞋店，征得店主同意后给货架上的鞋子拍了照，然后建了一个极其简陋的网页。核心来了：当客户在网上点击购买时，他会亲自跑到那家实体店以全价把鞋买下来，然后自己跑到邮局打包寄给客户！在这个 MVP 阶段，他完全是在**亏钱跑腿**。但这重要吗？根本不重要！因为每一单都在为他带回极其宝贵的认知证据：用户能接受网购鞋子，并愿意为这种便利性买单。彻底验证了这个刚需假设后，他才真正开始着手建立实质性的供应链、仓储和电商后台。",
+          "ttsFp": "fb46c08c_320",
+          "srtCueIdx": 229,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 70,
+          "srcLEnd": 70
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "这才是真正的 Lean UX 精神。过度超前于认知证据的编码和绘画，都是原生态的浪费。在这个实验中，请反复问自己：**我们接下来最重要的、最需要验证的假设是什么？验证它的最小成本手段又是什么？** 这个问题的答案，就是你需要运行的下一个最小实验。",
+          "ttsFp": "a041c749_123",
+          "srtCueIdx": 230,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 72,
+          "srcLEnd": 72
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Gothelf 提出了一个极其实用的决策框架叫 **Truth Curve**——MVP 的投入程度应该**与你已经掌握的证据量成正比**。如果你对痛点的信心还很低（刚开始访谈），你只需要一个低保真的纸质原型来验证方向；如果你已经有了大量证据（完成了多轮访谈并确认了核心假设），这时候再投入时间做一个可交互的高保真原型才是值得的。**超出必要学习量的任何额外代码/设计工作，都是原生态的浪费 (Waste)。** 这个原则在你做 实验1(Exp1) 的过程中，会反复用到。",
+          "ttsFp": "c6a4383a_236",
+          "srtCueIdx": 231,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 74,
+          "srcLEnd": 74
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "核心问题只有一个：**\"我们接下来最重要的、最需要验证的假设是什么？\"** 这个问题的答案，就是你需要运行的下一个最小实验。",
+          "ttsFp": "897e3ec1_62",
+          "srtCueIdx": 232,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 76,
+          "srcLEnd": 76
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**阶段 3: 输出状态流转白板图 (Wireframe)**",
+          "ttsFp": "1b951643_31",
+          "srtCueIdx": 233,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 78,
+          "srcLEnd": 78
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在接下来的几周，你们需要输出包含核心心智模型与页面流向的状态流转图（哪怕只是线框草图和流程白板）。",
+          "ttsFp": "0f5f44d0_49",
+          "srtCueIdx": 234,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 85,
+          "srcLEnd": 85
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在动手连线之前，问自己三个问题：",
+          "ttsFp": "7c7ff8fd_16",
+          "srtCueIdx": 235,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 86,
+          "srcLEnd": 86
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. 用户的**心理模型**能通过这个页面流顺畅流转吗？",
+          "ttsFp": "ee276b9f_28",
+          "srtCueIdx": 236,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 87,
+          "srcLEnd": 87
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. 每一个关键节点，是否满足了**可见性**与**反馈**？",
+          "ttsFp": "c5426ebe_31",
+          "srtCueIdx": 237,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 88,
+          "srcLEnd": 88
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. 这个粗糙的流程，是否确保了底线的**有效性与安全性**？",
+          "ttsFp": "b729cab8_31",
+          "srtCueIdx": 238,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 89,
+          "srcLEnd": 89
+        },
+        {
+          "type": "activity",
+          "tag": "ACTIVITY",
+          "activityType": "Practice",
+          "duration": "35min",
+          "desc": "定性访谈大纲评审",
+          "text": "团队建制确认。遵循“反向约束”原则，现场构思 3 个针对**非自身熟悉群体**的业务痛点候选（强烈避开“校园外卖”、“二手闲置”等老生常谈的话题），互评痛点是否真实且避免了“幸存者偏差”。利用\"问题模板库\"撰写针对目标用户的 5 个定性访谈核心问题清单。下课前提交大纲初版。",
+          "ttsFp": "3b33e952_137",
+          "srtCueIdx": null,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 91,
+          "srcLEnd": 95
+        }
+      ],
+      "firstSrtCueIdx": 210,
+      "budgetChars": 1800,
+      "oralCharCount": 1804,
+      "estimatedMinutes": 10.0,
+      "fillRatio": 1.0
+    },
+    {
+      "id": "mod-8",
+      "title": "课堂总结 (约 10 分钟)",
+      "slides": [
+        {
+          "id": "W01_S07a",
+          "layout": "Split",
+          "text": "",
+          "heading": "",
+          "scene": "五大核心收获总结卡片，每条配一个概念图标，呼应全课核心理念。",
+          "image": "weeks/W01_交互体系概论基础/public/slides/W01_S07a.png",
+          "images": [
+            "weeks/W01_交互体系概论基础/public/slides/W01_S07a.png"
+          ],
+          "assetExpected": [
+            "public/slides/W01_S07a.png"
+          ],
+          "list": [
+            "1. 为行为和情绪设计",
+            "2. 用户心理模型够用即可",
+            "3. 可用性与体验双线并重",
+            "4. 穿透任务直达目标",
+            "5. 用约束与可见性赋能"
+          ],
+          "paragraphStart": 0
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "好，同学们，我们来回顾今天四个小时的核心收获。今天的内容密度很大，但我希望你们离开教室的时候，至少带走以下五个关键认知：",
+          "ttsFp": "ce19848a_60",
+          "srtCueIdx": 239,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 110,
+          "srcLEnd": 110
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**收获一：数字产品失败的本质不是技术缺陷，而是行为缺陷。**",
+          "ttsFp": "086c6ced_31",
+          "srtCueIdx": 240,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 112,
+          "srcLEnd": 112
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Cooper 的\"四宗罪\"告诉我们，产品之所以让人抓狂，是因为它们粗鲁、强迫人像计算机一样思考、邋遢、让人类承担本应由机器完成的苦力。而这些问题的根源在于四大系统性失败——优先级错位、对用户的无知、利益冲突和缺乏设计流程。",
+          "ttsFp": "6ca8bdba_111",
+          "srtCueIdx": 241,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 113,
+          "srcLEnd": 113
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**收获二：衡量好设计有两把标尺——理性底线和感性上限。**",
+          "ttsFp": "22487f9b_30",
+          "srtCueIdx": 242,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 115,
+          "srcLEnd": 115
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "可用性七维度（有效性、效率、安全性、效用性、可学习性、易记性、满意度）是不可妥协的底线。体验目标（愉悦、启发、沉浸 vs 挫败、欺骗、毛骨悚然）是我们作为数字媒体艺术专业追求的上限。iPod 的成功证明了：当两者同时达到极致，产品就超越了工具范畴。记住，**维度间存在权衡**——没有完美的满分产品，只有最优的优先级排列。",
+          "ttsFp": "87be0dca_161",
+          "srtCueIdx": 243,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 116,
+          "srcLEnd": 116
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**收获三：三大模型的三角关系是交互设计的理论基石。**",
+          "ttsFp": "3aca123d_28",
+          "srtCueIdx": 244,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 118,
+          "srcLEnd": 118
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "工程实施模型、用户心理模型、表现模型——设计师的使命是让表现模型贴近心理模型，同时隐藏工程实施模型的复杂性。心理模型的核心特征是\"不需要正确，只需要够用\"——就像电影观众不需要理解每秒 24 帧的原理，就像你在电梯里按的\"关门\"按钮大概率是安慰剂。今天我们通过两个极端案例看到了三大模型的生死攸关：波音 737 MAX 因为表现模型欺骗了飞行员的心理模型，346 人付出了生命代价；而 Spotify 的每周发现歌单将三层算法的工程复杂性完美隐藏在 30 首歌的简洁表现模型之后——用户只知道\"Spotify 懂我\"。**一个设计的价值，就体现在它把表现模型的滑块推向了心理模型一端还是工程模型一端。**",
+          "ttsFp": "44459b45_302",
+          "srtCueIdx": 245,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 119,
+          "srcLEnd": 119
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**收获四：目标 ≠ 任务 ≠ 活动。**",
+          "ttsFp": "fd0716c5_21",
+          "srtCueIdx": 246,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 121,
+          "srcLEnd": 121
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "Cooper 的 1850 拓荒者 vs 2024 商人案例深刻地说明：任务会随技术消亡，但目标永远不变。Norman 的四层活动层级（操作→动作→任务→活动）帮助你找到正确的设计粒度。记住设计师-医生类比——你要做的是诊断，不是接单。",
+          "ttsFp": "9f218d4f_118",
+          "srtCueIdx": 247,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 122,
+          "srcLEnd": 122
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "**收获五：五大设计原则是你手中的战术武器。**",
+          "ttsFp": "eac7f83c_24",
+          "srtCueIdx": 248,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 124,
+          "srcLEnd": 124
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "可见性（Cincinnati 水龙头告诉你：看不见的功能等于不存在）、反馈（物理世界的多模态即时反馈是我们的参照标准）、约束（预防式约束永远优于事后报错）、一致性（简单系统追求一致，复杂系统需要平衡效率）、示能（区分真示能和示能信号，永远不要用设计来欺骗用户）。",
+          "ttsFp": "f1b68bd4_131",
+          "srtCueIdx": 249,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 125,
+          "srcLEnd": 125
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "在今天课程的最后，我想和大家分享一句我很推崇的话：\"界面是机器与系统向人类解释自己的唯二场所。\"在漫长的人类历史中，我们一直在依靠本能和物理直觉与世界产生交集。我们拉动木门把手，感受它的真实重量；我们打磨不同形状的石器，依据天然纹理辨认生存用途；我们按压钢琴琴键，通过回弹的力度极其精确地感知声音的细微变化。而短短几十年间，数字化浪潮将这个充满了质感、阻尼感和物理回馈的立体世界，残酷地抹平为了一块冰冷的、毫无生气的玻璃屏幕。我们用机械死板的\"滑动\"替代了翻阅，用虚无缥缈的\"点击\"替代了紧握，在获得了空前效率的同时，也丧失了与物理现实互动时那份天然的安全感与掌控快感。",
+          "ttsFp": "d016d58d_285",
+          "srtCueIdx": 250,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 129,
+          "srcLEnd": 129
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "你们作为数字媒体艺术专业的接班学生，未来的工作绝不仅是在这块玻璃屏幕上画出好看的渐变色、堆砌圆角矩形或者是搬运现成的组件。你们的真正使命是：**重建并在数字空间中升华那些失落的感官联系**。当物理世界中理所当然的重力法则、因果即时反馈和物质一致性被不可见的计算机代码统统瓦解破坏之后，你们要用精心设计的多模态示能信号、不带任何侵入感但绝对可靠的预防式约束机制，以及深具同理心和温度的微交互反馈，为使用者——尤其是那些被技术抛弃的非数字原住民人群——重新构建起一层坚固的\"数字安全网\"。你们在每一次原型迭代、每一次定性访谈倾听、每一次对\"反人类设计\"的批判与无情反思中所注入的克制与人文关怀，才是交互设计之所以堪称\"当代艺术\"的真正原因。请永远记住这节课的初衷：绝不盲目迷信底层代码的精妙或功能堆砌的虚假繁荣，去真诚地理解藏在每一次犹豫、每一次报错、每一次点击背后真实个体的生存焦虑、深深挫败与隐秘期盼，这才是从技法工匠走向顶级交互体验设计大师的核心路径，这也是我们这门课程试图赋予你们的唯一底线准则。",
+          "ttsFp": "8472f356_450",
+          "srtCueIdx": 251,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 131,
+          "srcLEnd": 131
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "下周我们进入**第二章：人类认知与心智摩擦**——我们会从今天的\"产品行为\"视角转入\"人脑\"视角，深入探讨注意力、感知和记忆负荷如何约束界面设计。你们会理解 Miller 法则（7±2）、格式塔原则，以及心智模型匹配的更精细操作方法。同时，实验1(Exp1) 正式启动——你们需要在下周课前完成团队组建和痛点候选讨论。",
+          "ttsFp": "17908774_159",
+          "srtCueIdx": 252,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 137,
+          "srcLEnd": 137
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "最后布置本周的课后任务。请每位同学**独立**完成以下工作：",
+          "ttsFp": "92415a51_30",
+          "srtCueIdx": 253,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 141,
+          "srcLEnd": 141
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "1. 选取一款你日常高频使用的互联网产品（App 或网站均可）。",
+          "ttsFp": "07f3827b_32",
+          "srtCueIdx": 254,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 143,
+          "srcLEnd": 143
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "2. 从今天讲的两个维度做**逆向拆解分析**：",
+          "ttsFp": "f8375756_24",
+          "srtCueIdx": 255,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 144,
+          "srcLEnd": 144
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **可用性目标**：逐一对照七大可用性指标（有效性/效率/安全性/效用性/可学习性/易记性/满意度），每项给出 1-5 分评价及具体依据。对效率维度，请特别分析该产品是否有类似 Amazon One-Click 的\"步骤消减\"设计；对安全性维度，请检查是否存在危险命令与常规命令相邻的菜单布局问题。",
+          "ttsFp": "8840f245_151",
+          "srtCueIdx": 256,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 145,
+          "srcLEnd": 145
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "- **体验目标**：从正反两面各挑 1-2 个最突出的体验维度（参照今天讲的 Desirable / Undesirable 对照表），结合具体场景说明。特别留意：该产品是否存在暗黑模式？如果有，请使用 Brignull 的分类命名（如 Sneak into Basket / Roach Motel / False Urgency）进行标注。",
+          "ttsFp": "c5bc0207_173",
+          "srtCueIdx": 257,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 146,
+          "srcLEnd": 146
+        },
+        {
+          "type": "speech",
+          "tag": null,
+          "text": "3. 提交一份约 **800 字**的分析报告，下周上课前提交到学习通。",
+          "ttsFp": "c08ab357_36",
+          "srtCueIdx": 258,
+          "srcPath": "/Users/yamlam/Downloads/2025-2026-2 课程/交互产品开发/weeks/W01_交互体系概论基础/src/M05_第一战场_实验1_敏捷洞察与_MVP.md",
+          "srcLStart": 147,
+          "srcLEnd": 147
+        }
+      ],
+      "firstSrtCueIdx": 239,
+      "budgetChars": 1800,
+      "oralCharCount": 1822,
+      "estimatedMinutes": 10.1,
+      "fillRatio": 1.01
+    }
+  ]
+}
