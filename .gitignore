@@ -25,3 +25,9 @@ __pycache__/
 
 # 包管理锁文件 (各子项目独立安装)
 **/package-lock.json
+
+# Vite 构建产物（可从源码重新生成）
+**/dist/
+
+# Netlify 本地状态（含 Site ID，不应入库）
+**/.netlify/
