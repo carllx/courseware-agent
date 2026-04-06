@@ -77,7 +77,7 @@ async function run() {
     const data = await fs.readJson(jsonPath);
     let modified = false;
 
-    const courseId = data.course || '';
+    const courseId = path.basename(path.dirname(jsonPath));
 
     for (const section of (data.sections || [])) {
 

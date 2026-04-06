@@ -11,7 +11,7 @@ description: 将已构建的 dist/ 目录推送至 Netlify 生产环境（仅投
 
 ## 📝 前置准备
 
-1. **构建产物就绪**：`engines/h5_template/dist/` 目录存在且通过验证（由 `/build` 生成）
+1. **构建产物就绪**：`build/h5_preview/dist/` 目录存在且通过验证（由 `/build` 生成）
 2. **Netlify 认证**：本地已安装 `netlify-cli` 并完成 `netlify login`
 3. **站点绑定**：`.netlify/state.json` 已绑定至 `endearing-mooncake-60c90e`
 
@@ -24,7 +24,7 @@ description: 将已构建的 dist/ 目录推送至 Netlify 生产环境（仅投
 ### 1. 产物完整性验证
 
 ```bash
-cd "engines/h5_template"
+cd "build/h5_preview"
 bash scripts/preflight.sh --mode verify
 ```
 
@@ -35,7 +35,7 @@ bash scripts/preflight.sh --mode verify
 ### 2. 发布到 Netlify (Production)
 
 ```bash
-cd "engines/h5_template"
+cd "build/h5_preview"
 npx netlify deploy --prod --dir=dist
 ```
 

@@ -5,12 +5,13 @@
 
 ---
 
-## 当前状态（最近更新：2026-04-03）
+## 当前状态（最近更新：2026-04-06）
 
 ### Agent 架构与基建 (V5 Architecture)
 - **V5 架构迁移**：完成了全域 Package 化，重构了 `src/` 与 `public/` 的解耦，修正了关联 PPT/H5 build script 下游构建引擎。
 - **架构大瘦身**：清理大量过度拟合的规则堆叠。将原字数打底相关规则整合为统一的 `rule_content_depth.md`。将 `rule_narrative_standards.md` 与 `rule_knowledge_protocol.md (已移除)` 降级剥离到技能参考 (`skills/*/references`) 中，减少 50% 以上触发负载。
 - **H5 Craft-room**：完成 Phase 0-3 实时审计系统。H5 从"只读预览器"升级为"实时创作工作台"，含 P0 渲染管线（~300ms）+ P1 验证管线（~2s 异步），DurationGauge/HealthDot/ValidationOverlay/AnnotationOverlay 4 大组件 + ValidationContext 心流保护。
+- **发布架构 (Deployment)**：重构了产物交付管线，全面解耦 `/build`（SSG构建）与 `/deploy_netlify`（CDN 投递），并提供 `/publish` 一键发版编排，实施双层安全网拦截 `dist/` 与 Site ID 的配置泄漏。
 
 ### 交互产品开发
 - **脚本**：W01-W14 全量完成。近期 W01 M03、M04 等通过 DRP 扩写与去 AI 语感（反退化 4-gram 循环）深度重写，达到 95% 充实率的优异预算对标，整体打通 Phase 3；W11、W13、W14 均已通过 DRP 扩写验证与 Standard 审计。历史骨架全部上线。
@@ -33,6 +34,7 @@
 
 | 日期 | 事件 |
 |:-----|:-----|
+| 2026-04-06 | 执行 `/publish` 一键发布编排工作流。完成 H5 引擎构建、新增图文产物转换，同时将本地代码同步至 GitHub 并成功部署 `dist/` 产物至 Netlify 生产环境。 |
 | 2026-04-06 | 执行 `/generate_assets` 扫尾。完成信息可视化 W01 M00 模块的 `Repair Plan`，彻底解决图文隐喻错位与 TTS 双语词吞音漏洞，并依据 `theme_constructivist_dada` 约束规则针对 8 张空置的大纲幻灯片进行几何矢量生成补全，验证落地闭环。 |
 | 2026-04-06 | 针对信息可视化课程 W01 `M00_课程导览.md` 开展了 Standard 级别审计；提交了全模块审查缺陷报告，成功拦截了开头 3 处可能导致课堂翻车体验的“声画严重错位”，并标记出 TTS 把“Vibe Coding（直觉编程）”的核心中文吞噬的事故倾向。 |
 | 2026-04-04 | 执行 `/generate_assets` 扫尾。针对交互产品开发 W01 空白视觉链开展抓补——双轨制填入了 4 张考证严谨的交互历史底图（Engelbart/Compass）和 3 张严格遵循学术极简系统的 AI 概念图。消除 W01 全周断链盲区。 |

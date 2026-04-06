@@ -11,7 +11,7 @@ description: 执行 H5 课件 SSG 构建管线（资产转码 + 产物验证）�
 
 ## 前置条件
 
-1. 确保在 `engines/h5_template` 目录下操作
+1. 确保已运行 `python engines/generate_course_h5.py --all` 初始化 `build/h5_preview` 实例
 2. 已执行 `npm install`（首次运行时）
 3. 已运行 `python engines/generate_course_h5.py --all` 生成课程 JSON（或由 `/h5` 工作流处理）
 
@@ -20,7 +20,7 @@ description: 执行 H5 课件 SSG 构建管线（资产转码 + 产物验证）�
 ## Step 1: 构建前预检 (Freshness Gate)
 
 ```bash
-cd "engines/h5_template"
+cd "build/h5_preview"
 bash scripts/preflight.sh --mode check
 ```
 
@@ -34,7 +34,7 @@ bash scripts/preflight.sh --mode check
 ## Step 2: 执行 SSG 构建管线
 
 ```bash
-cd "engines/h5_template"
+cd "build/h5_preview"
 npm run build
 ```
 
@@ -51,7 +51,7 @@ npm run build
 ## Step 3: 构建后验证 (Artifact Gate)
 
 ```bash
-cd "engines/h5_template"
+cd "build/h5_preview"
 bash scripts/preflight.sh --mode verify
 ```
 
@@ -66,7 +66,7 @@ bash scripts/preflight.sh --mode verify
 
 ## 完成
 
-构建产物位于 `engines/h5_template/dist/`。后续操作：
+构建产物位于 `build/h5_preview/dist/`。后续操作：
 
 - **部署到 Netlify** → 执行 `/deploy_netlify`
 - **提交源码到 GitHub** → 执行 `/git_sync`
