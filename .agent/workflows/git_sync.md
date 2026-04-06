@@ -6,6 +6,9 @@ description: 将项目同步到 GitHub 远程仓库（日常推送 / 初始化 /
 
 // turbo-all
 
+> **互操作**：本工作流仅负责源码推送到 GitHub。
+> 如需同时构建 dist/ 并部署到 Netlify，使用 `/publish` 一键编排全流程。
+
 ## 0. 前置检查
 
 ```bash

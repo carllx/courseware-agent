@@ -70,7 +70,7 @@ ORAL_TAGS = {
 # 有效 Layout 类型（与 .agent/skills/pptx/layouts.md 保持同步）
 VALID_LAYOUTS = {
     # 正式标签 (21 种)
-    "Title", "Section", "Agenda", "Split", "Icons",
+    "Title", "Center", "Section", "Agenda", "Split", "Icons",
     "Grid", "Full", "Table", "Comparison", "Dashboard",
     "Stat", "Timeline", "Poll", "Workshop", "Quote",
     "CTA", "Code", "Diagram", "Image", "Screenshot", "List",

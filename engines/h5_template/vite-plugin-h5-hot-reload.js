@@ -21,6 +21,9 @@ export default function h5HotReload(options = {}) {
   const PYTHON = process.env.H5_PYTHON || options.python || '/opt/anaconda3/envs/mybase/bin/python'
   const DEBOUNCE_MS = parseInt(process.env.H5_DEBOUNCE, 10) || options.debounce || 500
 
+  // V-08 fix: 插件初始化时一次性解析 FFmpeg 路径，避免每次请求都做磁盘 IO
+  const FFMPEG_CMD = fs.existsSync('/opt/homebrew/bin/ffmpeg') ? '/opt/homebrew/bin/ffmpeg' : 'ffmpeg'
+
   let server = null
   let workspaceRoot = null
   const pendingTimers = new Map()
@@ -91,8 +94,8 @@ export default function h5HotReload(options = {}) {
        * POST /api/tts/save — 保存 TTS 段落音频到本地文件系统
        *
        * 二进制协议：前 4 字节为 JSON header 长度（大端），后续 header JSON + audio binary
-       * 结合第一性原理，收到声音数据后经过 ffmpeg 转码为极小尺寸的 MP3 (Mono 24kHz)
-       * 写入: {workspace}/{courseId}/weeks/{weekName}/tts/{fp}.mp3
+       * 存储策略 (SSOT)：源文件保持豆包原始格式 (.aac)，格式压缩仅在 SSG 构建时执行。
+       * 写入: {workspace}/{courseId}/weeks/{weekName}/tts/{fp}.aac
        * 更新: {workspace}/{courseId}/weeks/{weekName}/tts/manifest.json
        */
       viteServer.middlewares.use('/api/tts/save', async (req, res) => {
@@ -122,34 +125,9 @@ export default function h5HotReload(options = {}) {
           const ttsDir = path.join(workspaceRoot, courseId, 'weeks', weekName, 'tts')
           fs.mkdirSync(ttsDir, { recursive: true })
 
-          const filePath = path.join(ttsDir, `${fp}.mp3`)
-          
-          // ============ FFmpeg 极限体积压缩流 ============
-          // 豆包产生的流默认采样率往往为24k，转为单声道降低一半以上体积，并选用mp3保证跨平台静态支持
-          await new Promise((resolve, reject) => {
-            const ffmpegCmd = fs.existsSync('/opt/homebrew/bin/ffmpeg') ? '/opt/homebrew/bin/ffmpeg' : 'ffmpeg'
-            const childProc = spawn(ffmpegCmd, [
-              '-y',                  // 强制覆盖
-              '-i', 'pipe:0',        // 从标准输入读入 (传入原本的 AAC blob 数据)
-              '-ac', '1',            // 单声道 Mono (语音无需立体声)
-              '-ar', '24000',        // 24kHz 采样
-              '-c:a', 'libmp3lame',  // MP3 编码
-              '-q:a', '5',           // VBR (质量中等偏上，非常适合语音)
-              filePath               // 输出到目标文件
-            ])
-
-            childProc.on('close', (code) => {
-              if (code === 0) resolve()
-              else reject(new Error(`FFmpeg exited with error code ${code}`))
-            })
-            childProc.on('error', reject)
-
-            // 发送缓冲流然后终止输入
-            childProc.stdin.write(audioBuffer)
-            childProc.stdin.end()
-          })
-
-          const audioSize = fs.statSync(filePath).size
+          // SSOT: 直接写入原始二进制，保持豆包输出的 AAC 格式
+          const filePath = path.join(ttsDir, `${fp}.aac`)
+          fs.writeFileSync(filePath, audioBuffer)
 
           // 更新 manifest.json
           const manifestPath = path.join(ttsDir, 'manifest.json')
@@ -159,16 +137,16 @@ export default function h5HotReload(options = {}) {
           }
           manifest.segments[fp] = {
             durationMs: durationMs || 0,
-            size: audioSize,
+            size: audioBuffer.length,
             cachedAt: Date.now(),
           }
           fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2))
 
-          console.log(`  \x1b[32m[tts:save]\x1b[0m 💾 ${courseId}/${weekName}/tts/${fp}.mp3 (${(audioSize / 1024).toFixed(1)}KB) [优化压缩]`)
+          console.log(`  \x1b[32m[tts:save]\x1b[0m 💾 ${courseId}/${weekName}/tts/${fp}.aac (${(audioBuffer.length / 1024).toFixed(1)}KB)`)
 
           res.statusCode = 200
           res.setHeader('Content-Type', 'application/json')
-          res.end(JSON.stringify({ ok: true, path: filePath, size: audioSize }))
+          res.end(JSON.stringify({ ok: true, path: filePath, size: audioBuffer.length }))
         } catch (err) {
           console.error(`  \x1b[31m[tts:save]\x1b[0m ❌ ${err.message}`)
           res.statusCode = 500
@@ -208,27 +186,37 @@ export default function h5HotReload(options = {}) {
       })
 
       /**
-       * 静态代理：/courses/{courseId}/weeks/{weekName}/tts/{fp}.mp3
-       * 将 HTTP 请求映射到 workspace 源目录下的 TTS 音频文件 (MP3 代理)
+       * 静态代理：/courses/{courseId}/weeks/{weekName}/tts/{fp}.{mp3|aac}
+       * V-01 fix: 支持双后缀回退，mp3 优先，aac 兜底（兼容 1857 个已有 .aac 文件）
        */
       viteServer.middlewares.use((req, res, next) => {
-        const ttsMatch = req.url?.match(/^\/courses\/([^/]+)\/weeks\/([^/]+)\/tts\/([^/]+\.mp3)$/)
+        const ttsMatch = req.url?.match(/^\/courses\/([^/]+)\/weeks\/([^/]+)\/tts\/([^/]+)\.(mp3|aac)$/)
         if (!ttsMatch) return next()
 
-        const [, courseId, weekName, fileName] = ttsMatch.map(decodeURIComponent)
-        const filePath = path.join(workspaceRoot, courseId, 'weeks', weekName, 'tts', fileName)
+        const [, courseId, weekName, baseName, requestedExt] = ttsMatch.map(decodeURIComponent)
+        const ttsDir = path.join(workspaceRoot, courseId, 'weeks', weekName, 'tts')
 
-        if (fs.existsSync(filePath)) {
-          res.setHeader('Content-Type', 'audio/mpeg')
-          res.setHeader('Cache-Control', 'public, max-age=3600')
-          fs.createReadStream(filePath).pipe(res)
-        } else {
-          res.statusCode = 404
-          res.end()
+        // 双后缀回退：优先请求的后缀，然后尝试另一个
+        const candidates = requestedExt === 'mp3'
+          ? [`${baseName}.mp3`, `${baseName}.aac`]
+          : [`${baseName}.aac`, `${baseName}.mp3`]
+
+        for (const candidate of candidates) {
+          const filePath = path.join(ttsDir, candidate)
+          if (fs.existsSync(filePath)) {
+            const mimeType = candidate.endsWith('.mp3') ? 'audio/mpeg' : 'audio/aac'
+            res.setHeader('Content-Type', mimeType)
+            res.setHeader('Cache-Control', 'public, max-age=3600')
+            fs.createReadStream(filePath).pipe(res)
+            return
+          }
         }
+
+        res.statusCode = 404
+        res.end()
       })
 
-      console.log(`  \x1b[36m[h5-hot-reload]\x1b[0m 💾 TTS 本地压缩池已启用 (POST /api/tts/save -> MP3 单声道 24kHz)`)
+      console.log(`  \x1b[36m[h5-hot-reload]\x1b[0m 💾 TTS 本地持久化已启用 (SSOT: 原始 AAC 存储, SSG 构建时转码 MP3)`)
     },
   }
 

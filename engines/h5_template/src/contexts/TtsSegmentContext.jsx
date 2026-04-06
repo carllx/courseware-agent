@@ -9,9 +9,9 @@
  *
  * V3 架构重构:
  *   - 去除 IndexedDB 依赖，改用文件系统存储 + HTTP 静态服务
- *   - 音频文件存储在 {课程}/weeks/{周次}/tts/{fp}.aac
+ *   - 音频文件存储在 {课程}/weeks/{周次}/tts/{fp}.aac (SSOT: 源文件保持原始格式)
  *   - manifest.json 做批量状态快速检测
- *   - 支持跨浏览器共享 + Netlify 静态部署
+ *   - 支持跨浏览器共享 + Netlify 静态部署 (SSG 构建时统一转码为 MP3)
  *   - 保留 V2 的段落索引主键、ref 防 stale closure 等改进
  */
 import { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react'
@@ -33,14 +33,23 @@ export function useTtsSegments() {
   return useContext(TtsSegmentContext)
 }
 
+// ============ 环境判断 ============
+const IS_DEV = import.meta.env.DEV  // Vite 注入：开发态 true，生产构建 false
+
 // ============ 文件系统持久化工具 ============
 
 /**
  * 将音频 Blob 通过 Vite 中间件保存到本地文件系统
+ * ⚠️ 仅开发态可用（生产态无 Vite 中间件）
  *
  * 二进制协议: [4B headerLen][headerJSON][audioBytes]
  */
 async function saveTtsToFilesystem(courseId, weekName, fp, blob, durationMs) {
+  if (!IS_DEV) {
+    console.warn('[TTS] saveTtsToFilesystem 仅在开发态可用')
+    return { ok: false }
+  }
+
   const header = JSON.stringify({ courseId, weekName, fp, durationMs })
   const headerBuf = new TextEncoder().encode(header)
   const audioBuf = new Uint8Array(await blob.arrayBuffer())
@@ -67,10 +76,17 @@ async function saveTtsToFilesystem(courseId, weekName, fp, blob, durationMs) {
 
 /**
  * 获取指定 week 的 TTS manifest（批量状态检测）
+ *
+ * V-05 fix: 双轨环境分离
+ *   - 开发态: GET /api/tts/manifest?course=X&week=Y（Vite 中间件）
+ *   - 生产态: GET /assets/tts/manifest.json（SSG 构建产物）
  */
 async function fetchTtsManifest(courseId, weekName) {
   try {
-    const res = await fetch(`/api/tts/manifest?course=${encodeURIComponent(courseId)}&week=${encodeURIComponent(weekName)}`)
+    const url = IS_DEV
+      ? `/api/tts/manifest?course=${encodeURIComponent(courseId)}&week=${encodeURIComponent(weekName)}`
+      : `/assets/tts/manifest.json`
+    const res = await fetch(url)
     if (!res.ok) return { segments: {} }
     return res.json()
   } catch {
@@ -80,8 +96,17 @@ async function fetchTtsManifest(courseId, weekName) {
 
 /**
  * 构建 TTS 音频文件的 HTTP URL
+ *
+ * V-06 fix: 双轨环境分离
+ *   - 开发态: /courses/{courseId}/weeks/{weekName}/tts/{fp}.aac (Vite 代理，支持双后缀回退)
+ *   - 生产态: 优先使用 staticTtsUrl (by build-ssg.js)，回退到 /assets/tts/{fp}.mp3
  */
-function getTtsAudioUrl(courseId, weekName, fp) {
+function getTtsAudioUrl(courseId, weekName, fp, staticTtsUrl) {
+  if (!IS_DEV) {
+    // 生产态：SSG 构建时已将音频转码到 /assets/tts/
+    return staticTtsUrl || `/assets/tts/${fp}.mp3`
+  }
+  // 开发态：通过 Vite 代理直接请求原始 .aac
   return `/courses/${encodeURIComponent(courseId)}/weeks/${encodeURIComponent(weekName)}/tts/${fp}.aac`
 }
 
@@ -206,7 +231,7 @@ export function TtsSegmentProvider({ children, courseId, weekName }) {
         const cached = mf.segments[fp]
         newMap[i] = {
           status: 'ready',
-          blobUrl: getTtsAudioUrl(cId, wk, fp), // HTTP URL，无需预加载
+          blobUrl: getTtsAudioUrl(cId, wk, fp, para.staticTtsUrl), // V-06: 生产态使用 staticTtsUrl
           durationMs: cached.durationMs || 0,
           text: para.text,
           ttsFp: fp,

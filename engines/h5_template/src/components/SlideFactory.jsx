@@ -35,12 +35,13 @@ const CANONICAL_MAP = {
   'image':      Layout_Image,
   'full':       Layout_Image,
   'screenshot': Layout_Image,
-  'poll':       Layout_Image,
   // Diagram 系列
   'diagram':    Layout_Diagram,
   'timeline':   Layout_Diagram,
   // Comparison
   'comparison': Layout_Comparison,
+  // Poll
+  'poll':       Layout_List,
   // Quote / CTA → Title fallback
   'quote':      Layout_Title,
   'cta':        Layout_Title,
@@ -59,6 +60,7 @@ const DEPRECATED_ALIASES = {
   'text': 'list', 'chart': 'image',
   'video': 'full', 'scene': 'image',
   'checklist': 'list', 'process': 'timeline',
+  'center': 'title',
 }
 
 /**

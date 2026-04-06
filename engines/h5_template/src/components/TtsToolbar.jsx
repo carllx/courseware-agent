@@ -48,6 +48,7 @@ export default function TtsToolbar({ paragraphs = [] }) {
       const valid = await tts.configureCredentials({
         device_id: creds.device_id,
         web_id: creds.web_id,
+        speaker: tts?.credentials?.speaker,
       })
 
       if (valid) {
@@ -70,6 +71,7 @@ export default function TtsToolbar({ paragraphs = [] }) {
     const valid = await tts.configureCredentials({
       device_id: deviceId.trim(),
       web_id: webId.trim() || deviceId.trim(),
+      speaker: tts?.credentials?.speaker,
     })
 
     if (valid) {

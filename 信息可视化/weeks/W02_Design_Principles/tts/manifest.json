@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "courseId": "信息可视化",
+  "weekName": "W02_Design_Principles",
+  "segments": {
+    "308abe46_286": {
+      "durationMs": 34939.787000000004,
+      "size": 326259,
+      "cachedAt": 1775444789669
+    },
+    "bdbbe981_79": {
+      "durationMs": 13752.511999999999,
+      "size": 127821,
+      "cachedAt": 1775444829397
+    },
+    "ece7b94e_68": {
+      "durationMs": 12276.662,
+      "size": 113243,
+      "cachedAt": 1775444834790
+    },
+    "09ff6ab5_19": {
+      "durationMs": 3423.857,
+      "size": 33098,
+      "cachedAt": 1775444838460
+    },
+    "92761fde_58": {
+      "durationMs": 9744.484,
+      "size": 89039,
+      "cachedAt": 1775444844676
+    },
+    "d944f152_98": {
+      "durationMs": 16063.783000000001,
+      "size": 158413,
+      "cachedAt": 1775444850163
+    },
+    "edac00c2_68": {
+      "durationMs": 11029.662,
+      "size": 101699,
+      "cachedAt": 1775444855560
+    },
+    "b48cc80a_107": {
+      "durationMs": 18862.551,
+      "size": 181130,
+      "cachedAt": 1775444866710
+    },
+    "35b44816_55": {
+      "durationMs": 10616.521,
+      "size": 101835,
+      "cachedAt": 1775444874160
+    },
+    "3f1e4012_12": {
+      "durationMs": 2047.7599999999998,
+      "size": 15950,
+      "cachedAt": 1775444877178
+    },
+    "28bc570b_168": {
+      "durationMs": 25681.650999999998,
+      "size": 264017,
+      "cachedAt": 1775444884700
+    },
+    "a9a89d0c_150": {
+      "durationMs": 26927.746,
+      "size": 245645,
+      "cachedAt": 1775444891750
+    },
+    "6e810d05_54": {
+      "durationMs": 10169.629,
+      "size": 95414,
+      "cachedAt": 1775445081837
+    },
+    "f8683d51_128": {
+      "durationMs": 22015.814,
+      "size": 202207,
+      "cachedAt": 1775445087446
+    },
+    "1ce390a2_102": {
+      "durationMs": 13505.376,
+      "size": 131566,
+      "cachedAt": 1775445093107
+    },
+    "06b67f1c_176": {
+      "durationMs": 24810.785,
+      "size": 257415,
+      "cachedAt": 1775445101047
+    },
+    "356dc0db_146": {
+      "durationMs": 18510.592,
+      "size": 182290,
+      "cachedAt": 1775445108660
+    },
+    "e3b69b27_137": {
+      "durationMs": 19371.414999999997,
+      "size": 184905,
+      "cachedAt": 1775445114986
+    },
+    "2f40de14_64": {
+      "durationMs": 10381.292,
+      "size": 98499,
+      "cachedAt": 1775445126341
+    },
+    "7f4c614f_444": {
+      "durationMs": 79630.32400000001,
+      "size": 720316,
+      "cachedAt": 1775445140582
+    },
+    "09bc9e3f_316": {
+      "durationMs": 40378.917,
+      "size": 415600,
+      "cachedAt": 1775445149050
+    },
+    "fd03174c_678": {
+      "durationMs": 88603.97399999999,
+      "size": 815954,
+      "cachedAt": 1775445163457
+    },
+    "7fe882bc_123": {
+      "durationMs": 22622.694,
+      "size": 212905,
+      "cachedAt": 1775445172109
+    },
+    "eee51be2_48": {
+      "durationMs": 8211.689,
+      "size": 74169,
+      "cachedAt": 1775445178525
+    },
+    "fac946f4_176": {
+      "durationMs": 32488.408,
+      "size": 325810,
+      "cachedAt": 1775445366678
+    },
+    "e4559252_180": {
+      "durationMs": 29284.995,
+      "size": 287370,
+      "cachedAt": 1775445377835
+    },
+    "f831f5bc_173": {
+      "durationMs": 26701.478000000003,
+      "size": 260790,
+      "cachedAt": 1775445378085
+    }
+  }
+}

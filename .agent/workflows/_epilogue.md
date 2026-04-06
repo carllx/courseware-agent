@@ -4,7 +4,7 @@ description: 工作流共享收尾协议（Post-Hook）。任何主要工作流�
 
 # Epilogue（共享收尾协议）
 
-> **引用方**：`/write`、`/audit`、`/generate_assets`、`/ppt`、`/export`
+> **引用方**：`/write`、`/audit`、`/generate_assets`、`/ppt`、`/export`、`/publish`、`/build`、`/deploy_netlify`
 > **定位**：放置在工作流最后一个 Step 之后。
 
 ## E1: 更新 briefing.md

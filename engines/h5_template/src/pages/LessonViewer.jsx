@@ -120,12 +120,12 @@ function LessonViewerInner({ courseId, scriptName }) {
 
   // === TTS: section 切换时计算段落缓存状态 ===
   useEffect(() => {
-    if (!manifest || !ttsCtx) return
+    if (!manifest || !ttsCtx?.computeStatus) return
     const section = manifest.sections[currentSectionIdx]
     if (section?.paragraphs) {
       ttsCtx.computeStatus(section.paragraphs)
     }
-  }, [manifest, currentSectionIdx, ttsCtx?.manifest]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [manifest, currentSectionIdx, ttsCtx?.computeStatus]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // === 同步 TTS 播放状态到当前高亮段落 ===
   useEffect(() => {
