@@ -102,12 +102,12 @@ git config --unset https.proxy
 
 | 类别 | 规则 | 原因 |
 |------|------|------|
-| 构建产物 | `**/build/`, `**/node_modules/` | 可重新生成 |
+| 构建产物 | `**/build/`, `**/dist/`, `**/node_modules/` | 可重新生成 |
+| Netlify 状态 | `**/.netlify/` | 含 Site ID，不应泄露到公开仓库 |
 | 编译脚本 | `*_compiled.md`, `*.oot.txt` | dumptext.py 生成 |
 | 演示文稿 | `*.pptx` | 单文件太大(3-10MB)，且可从脚本重新生成 |
 | 视频/音频 | `*.mov`, `*.mp4`, `*.wav`, `*.mp3` 等 | 单文件几十~几百 MB |
 | 系统文件 | `.DS_Store`, `__pycache__/` | 不相关 |
-| 锁文件 | `**/package-lock.json` | 各环境独立安装 |
 
 以下文件类型**保留推送**：
 
@@ -117,7 +117,12 @@ git config --unset https.proxy
 | 幻灯片图片 | `.png`, `.jpg` | 单张 30-80KB，总量可控 |
 | 教务文档 | `.docx`, `.pdf`, `.xlsx` | 重要但单文件不大 |
 | Agent 配置 | `.agent/` 全部 | 工作流/技能/规则定义 |
-| 引擎代码 | `engines/` | 通用生成引擎 |
+| 引擎代码 | `engines/` (源码) | 通用生成引擎 |
+| 锁文件 | `package-lock.json` | 确定性构建保障，必须入库 |
+
+> [!CAUTION]
+> **绝对不要** `git add -f engines/h5_template/dist/` 或 `git add -f .netlify/`。
+> 这两个目录已在 2026-04-06 安全审查后被永久排除。强制添加会导致 Site ID 泄露和仓库膨胀。
 
 ---
 
