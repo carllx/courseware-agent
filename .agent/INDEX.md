@@ -34,6 +34,7 @@
 |:---|:---|
 | `rule_visual_generation.md` | 调用 generate_image 时 |
 | `rule_training_plan_compliance.md` | 修改 course.yaml objectives 时 |
+| `rule_deploy_freshness.md` | 讨论发布上线或执行部署部署到 Netlify 时 |
 
 ## 条件规则 — 文件匹配 (trigger: glob)
 
@@ -72,6 +73,8 @@ graph LR
     D --> E["/ppt"]
     E --> F["/h5"]
     F --> G["/export"]
+    F -.-> H["/deploy_netlify"]
+    H -.-> I["/git_sync"]
 ```
 
 ## 项目技能包（.agent/skills/）
@@ -132,10 +135,13 @@ graph LR
 | `/ppt` | 生成 PPT |
 | `/h5` | 生成 H5 交互式课件 |
 | `/export` | 导出 TTS 纯文本 / Word 审阅文档 / 词汇表 |
+| `/deploy_netlify` | H5 系统前端 SSG 资源管线构建及在线发布（含双门闸预检） |
+| `/git_sync` | 项目源码增量同步至 GitHub (附带 `.gitignore` 管控规则) |
 | `/update_guidance` | 修改指导文档后审计下游影响（参考 `DEPENDENCY_MAP.md`） |
 | `/mailbox_in` | 扫描共享邮箱中发给当前 Agent 的待处理消息 |
 | `/mailbox_out` | 向其他 Agent 发送任务单或 RFC（跨项目 + 项目内） |
 | `/routing_rules` | 课程工作区专属：判定修改请求属于课程端还是教务端 |
+
 
 ## 自演化协议
 

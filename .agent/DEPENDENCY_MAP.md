@@ -23,6 +23,7 @@
 | `rule_cross_agent_protocol.md` | mailbox_in, mailbox_out | Agent 通信 |
 | `rule_assessment_constraints.md` | audit_courseyaml | 成绩分值映射 |
 | `rule_practice_standards.md` | design_practice, write (Phase 1), audit_deep (Part H) | 实践步骤合规 |
+| `rule_deploy_freshness.md` | deploy_netlify | 部署前资源新鲜度预检门闸（TTS/图片） |
 
 ---
 
@@ -38,9 +39,12 @@
 | `/audit_courseyaml` (Part F) | `/audit` Q1-Q7 通过 + course.yaml 在审计范围 | — |
 | `/generate_assets` | `/audit` Q3 通过（字数门控） | `/ppt` |
 | `/ppt` | `/generate_assets` | `/h5` |
-| `/h5` | `/ppt`（可选）；热重载模式仅需 `npm run dev` | `/export` |
+| `/h5` | `/ppt`（可选）；热重载模式仅需 `npm run dev` | `/export`, `/deploy_netlify` |
 | `/export` | `/write` | — |
+| `/deploy_netlify` | `/h5` 且 `npm run build` 新鲜度验证通过 | `/git_sync` |
+| `/git_sync` | 一般由 `/deploy_netlify` 后或日常开发后触发 | — |
 | `/update_guidance` | 规则/技能变更 | 受影响的工作流（参上表） |
+
 
 ---
 

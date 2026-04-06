@@ -358,3 +358,28 @@ ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_t
 
 **变更文件**：`engines/h5_template/vite-plugin-h5-hot-reload.js`、`build/h5_preview/vite-plugin-h5-hot-reload.js`（同步）、`.agent/skills/doubaotts/SKILL.md`、`.agent/DEPENDENCY_MAP.md`、`.agent/memory/ADR.md`。
 
+---
+
+## ADR 041: 部署体系第一性原理与双门闸安全预检 (Phase 10)
+
+**状态**: 已接受
+**时间**: 2026-04-06
+**上下文**:
+在将 H5 引擎进行线上发布(Netlify)时，爆发了一连串的灾难级漏洞：
+1. **源码暴露与历史污染**：`dist/` 1221 个生成的静态文件和 `.netlify/` (带 Netlify Site ID) 未被 `gitignore` 管控，直接被暴露在 public GitHub 仓库中，且单次 commit 新建 ~50MB 污染 Git Object Store。
+2. **SSG 数据流断裂**：用户通过油猴桥接完成了数百段落的 TTS 获取（更新在 `tts/` 中），但没有重新执行完整的 `npm run build` 即进行了 `netlify deploy`。因缺失预检，结果造成数百音频文件和图片未能更新至线上。
+
+**决策**:
+1. **第一性原理重申 — 隔离性保护**：严格限制 `dist/` 与 `.netlify/` 等非原生环境临时态或涉密资产进入 Git 进行追踪。所有非本机的锁和产物都严禁共享，撤销 Git Index 的错误同步。
+2. **第一性恢复 — lockfile 同步**：针对先前的反模式——将 `package-lock.json` 也直接 `gitignore` 化，要求立刻恢复并加入全局版本控制，以保障线上线下构建的严格等价和确定性 (Deterministic Builds)。
+3. **双门闸防御架构 (Dual-Gate Deploy mechanism)**：为 `deploy_netlify.md` 注入强制的双层校验屏障：
+   - **Step 0 门闸 (构建新鲜度预检)**：提取构建动作之前，遍历整个 Workspace 所有启用了生成的关联模块，核对音频 `*.aac` 与幻灯图 `*.png` 的物理修改时间戳是否在 `dist/index.html` 之前以杜绝遗漏重构。
+   - **Step 2 门闸 (产物完整性验证)**：强断言 `dist/assets/media` 和 `dist/assets/tts` 中的子目录存在，并盘点 Webp/MP3 编译结果。
+4. **Agent-Aware 防护墙**：定义 `rule_deploy_freshness.md` 被动探测部署心智。当触发 "deploy", "上线" 等意图时，智能调用双门闸检测而不是直接推向线上。
+
+**影响**:
+- 大幅收窄了构建层及仓库层的危险敞口，封锁了 `git_sync` 可能引起的 500MB+ 重灾区，重塑原子化 CI/CD 构建基础（为后续对接自动触发 Runners 铺平道路）。
+- H5 线上预览与开发体验的等价性得到 100% 同构确保。不再发生"获取了但没播"的诡异问题。
+
+**变更文件**：`.agent/workflows/deploy_netlify.md`、`.agent/workflows/git_sync.md`、`.agent/rules/rule_deploy_freshness.md`、`.gitignore`、`engines/h5_template/netlify.toml`、`engines/h5_template/src/components/SlideFactory.jsx`、`.agent/DEPENDENCY_MAP.md`、`.agent/INDEX.md`、`.agent/memory/ADR.md`。
+

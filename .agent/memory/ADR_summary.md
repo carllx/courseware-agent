@@ -43,3 +43,6 @@
 | 034 | 03-29 | 字数预算校验优先级反转：`<!-- BUDGET: X chars -->` 显式契约绝对优先 |
 | 035 | 03-30 | 审计工作流 `--week` 过滤注入：4 脚本统一支持、validate_project 智能跳过、audit.md Step 0 范围解析 |
 | 038 | 04-03 | H5 Craft-room 双管线架构：P0 渲染（~300ms）+ P1 异步验证（~2s）、validate_runner.py 统一入口 + Q3 门控 + ValidationContext 心流保护期 |
+| 039 | 04-05 | TTS 提取自动化：油猴脚本跨域提权 + Local HTTP Proxy + TTS 指纹双端一致性 |
+| 040 | 04-05 | TTS 中间件 SSOT 统一与音频静态代理：engines 中间件为唯一真相来源，支持流式后备代理 |
+| 041 | 04-06 | 部署体系双门闸安全机制：强制实施构建产物新鲜度预检与分离验证（Rule+Workflow），根绝断链与历史污染 |
