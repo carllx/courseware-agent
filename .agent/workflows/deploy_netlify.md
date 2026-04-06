@@ -18,6 +18,43 @@ description: 编译 H5 前端项目并包含最近的 SSG 管线将资产优化�
 
 ## 👟 步骤
 
+### 0. 🛡️ 构建新鲜度预检 (Freshness Gate)
+
+> 此步骤由 `rule_deploy_freshness.md` 强制要求。**禁止跳过。**
+
+在构建之前，先检测源文件是否有比上次构建更新的变更，以便向用户报告即将同步的内容：
+
+```bash
+cd "engines/h5_template"
+
+echo "=== 🔍 构建新鲜度预检 ==="
+
+# 检查 dist 是否存在
+if [ ! -f dist/index.html ]; then
+  echo "⚠️  dist/ 不存在或不完整 — 需要全量构建"
+else
+  echo "📅 上次构建: $(stat -f '%Sm' dist/index.html)"
+
+  # 检查新 TTS 音频
+  TTS_NEW=$(find ../../*/weeks/*/tts/ -name "*.aac" -newer dist/index.html 2>/dev/null | wc -l | tr -d ' ')
+  echo "🔊 新 TTS 音频: ${TTS_NEW} 个文件待转码"
+
+  # 检查新图片
+  IMG_NEW=$(find ../../*/weeks/*/public/slides/ -name "*.png" -newer dist/index.html 2>/dev/null | wc -l | tr -d ' ')
+  echo "📸 新图片资产: ${IMG_NEW} 个文件待转码"
+
+  # 检查 dist/assets/tts 完整性
+  TTS_DIST=$(find dist/assets/tts/ -name "*.mp3" 2>/dev/null | wc -l | tr -d ' ')
+  echo "📦 dist 中已有 TTS: ${TTS_DIST} 个 MP3"
+fi
+
+echo "=== 预检完成 ==="
+```
+// turbo
+
+> **决策**：根据输出判断是否需要构建。如果全部为 0 且 dist 完整，可跳到 Step 3 直接部署。
+> 否则必须执行 Step 1 构建。通常建议**总是执行构建**以确保一致性。
+
 ### 1. 触发构建管线 (SSG Pipeline)
 
 跳转到 H5 引擎目录，并执行生产环境完全构建：
@@ -30,12 +67,30 @@ npm run build
 
 > **预期结果**：Vite Build 成功后，`build-ssg.js` 脚本将自动接管，扫描引用资产、通过 sharp 压缩输出 WebP，通过 FFmpeg 转码输出 MP3，并将静态文件产物存放于 `dist/` 目录中。
 
-### 2. 人工检查防崩确认 (Optional)
+### 2. 构建产物验证 (Post-Build Gate)
 
-观察上一步的控制台日志：
-- 是否出现因找不到 `ffmpeg` 导致的回退？
-- `dist` 目录下是否正确生成了静态文件？
-- 若发现任何 `[tts:ffmpeg] ❌` 或严重报错，则必须在此刻中止发布并排查。
+构建完成后，验证关键资产是否已就位：
+
+```bash
+cd "engines/h5_template"
+
+echo "=== 📋 构建产物验证 ==="
+
+# 核心目录存在性
+[ -d dist/assets/media ] && echo "✅ assets/media" || echo "❌ assets/media 缺失"
+[ -d dist/assets/tts ]   && echo "✅ assets/tts"   || echo "❌ assets/tts 缺失"
+
+# 统计量
+echo "📸 WebP 图片: $(find dist/assets/media/ -name '*.webp' 2>/dev/null | wc -l | tr -d ' ') 张"
+echo "🔊 MP3 音频: $(find dist/assets/tts/ -name '*.mp3' 2>/dev/null | wc -l | tr -d ' ') 段"
+echo "📄 课程 JSON: $(find dist/courses/ -name '*.json' 2>/dev/null | wc -l | tr -d ' ') 个"
+echo "📦 dist 总大小: $(du -sh dist/ | cut -f1)"
+
+echo "=== 验证完成 ==="
+```
+// turbo
+
+> 如果出现 `❌` 或关键统计为 0，**中止部署并排查**。
 
 ### 3. 发布到 Netlify (Production)
 
