@@ -11,7 +11,7 @@ description: 当执行 Netlify 部署（/deploy_netlify）或讨论"发布"、"�
 
 在执行 `npx netlify deploy` 或调用 Netlify MCP 部署工具**之前**，Agent 必须：
 
-1. 运行 `bash engines/h5_template/scripts/preflight.sh --mode verify`
+1. 运行 `bash build/h5_preview/scripts/preflight.sh --mode verify`
 2. 仅当脚本以 exit code 0 退出（输出含 `✅ 验证通过`）时，才允许继续部署
 3. 如果验证失败，引导用户先执行 `/build` 工作流
 

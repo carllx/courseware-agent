@@ -388,6 +388,7 @@ def blocks_to_h5_json(
         "version": "2.1",
         "generated": datetime.now().isoformat(),
         "course": course_name,
+        "dirName": course_path.name,   # V-01 fix: 物理目录名 — SSG 用此字段做路径寻址
         "script": script_name,
         "theme": theme,
         "media": media,
@@ -698,6 +699,12 @@ def discover_courses() -> list[dict]:
 
         course_id = course_info.get("id", course_path.name)
         course_name = course_info.get("name", course_path.name)
+
+        # V-01 防护: 断言 id 与物理目录名一致，防止 SSG 路径寻址分歧
+        if course_id != course_path.name:
+            print(f"   ⚠️  警告: 课程 '{course_name}' 的 id '{course_id}' 与目录名 '{course_path.name}' 不一致！")
+            print(f"      SSG 构建管线依赖物理目录名，id 不匹配可能导致资产丢失。")
+            print(f"      建议：在 course.yaml 中将 id 设置为 '{course_path.name}'")
 
         # 发现脚本文件 — 支持两种架构
         scripts = []

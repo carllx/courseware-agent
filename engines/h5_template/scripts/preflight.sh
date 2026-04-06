@@ -113,10 +113,24 @@ run_verify() {
   echo "📄 课程 JSON: ${JSON_COUNT} 个"
   echo "📦 dist 总大小: ${DIST_SIZE}"
 
+  # V-02 fix: 定量门禁 — 防止 "0 段音频照样绿灯" 的静默失败
+  MIN_MP3=50
+  MIN_WEBP=10
+
+  if [ "$MP3_COUNT" -lt "$MIN_MP3" ]; then
+    echo "❌ MP3 音频仅 ${MP3_COUNT} 段 (最低 ${MIN_MP3})，疑似 TTS 转码管线故障"
+    FAILURES=$((FAILURES + 1))
+  fi
+
+  if [ "$WEBP_COUNT" -lt "$MIN_WEBP" ]; then
+    echo "❌ WebP 图片仅 ${WEBP_COUNT} 张 (最低 ${MIN_WEBP})，疑似图片资产未转码"
+    FAILURES=$((FAILURES + 1))
+  fi
+
   echo ""
 
   if [ "$FAILURES" -gt 0 ]; then
-    echo "=== ❌ 验证失败 — ${FAILURES} 项关键目录缺失，禁止部署 ==="
+    echo "=== ❌ 验证失败 — ${FAILURES} 项关键检查未通过，禁止部署 ==="
     exit 1
   fi
 

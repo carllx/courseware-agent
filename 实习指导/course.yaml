@@ -1,5 +1,5 @@
 course:
-  id: "internship_guidance"
+  id: "实习指导"              # 工程键值 — 必须与物理目录名一致（驱动 SSG 路径寻址）
   name: "实习指导"
   semester: "2025-2026-2"
   instructor: "指导教师"

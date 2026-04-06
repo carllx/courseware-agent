@@ -77,7 +77,8 @@ async function run() {
     const data = await fs.readJson(jsonPath);
     let modified = false;
 
-    const courseId = path.basename(path.dirname(jsonPath));
+    // V-01 fix: 优先使用 JSON 中的 dirName（物理目录名），回退到目录结构推断
+    const courseId = data.dirName || path.basename(path.dirname(jsonPath));
 
     for (const section of (data.sections || [])) {
 
@@ -149,6 +150,10 @@ async function run() {
         const srcAac = findTtsSource(courseId, para.ttsFp);
         if (!srcAac) {
           ttsSkipped++;
+          // V-03 fix: 防御性日志 — 前 5 段逐项报告，之后每 50 段报告一次
+          if (ttsSkipped <= 5 || ttsSkipped % 50 === 0) {
+            console.warn(`   ⚠️ TTS 缺失: ${courseId}/${para.ttsFp} (累计跳过 ${ttsSkipped})`);
+          }
           continue;
         }
 
@@ -181,6 +186,15 @@ async function run() {
   // 生成静态 TTS manifest（供生产态前端使用）
   const staticManifest = buildStaticManifest(assetsTtsDir);
   await fs.writeJson(path.join(assetsTtsDir, 'manifest.json'), staticManifest);
+
+  // V-03 fix: 管线结束后的阈值报警
+  const totalTts = ttsConverted + ttsSkipped;
+  const skipRatio = totalTts > 0 ? ttsSkipped / totalTts : 0;
+  if (skipRatio > 0.3 && ttsSkipped > 20) {
+    console.error(`\n🚨 严重警告: TTS 跳过率 ${(skipRatio * 100).toFixed(1)}% (${ttsSkipped}/${totalTts})`);
+    console.error(`   这通常意味着 courseId 路径映射出错。请检查 course.yaml 的 id 字段是否与物理目录名一致。`);
+    process.exit(1);  // Fail Fast
+  }
 
   // 汇总报告
   console.log(`\n${'─'.repeat(50)}`);
@@ -218,7 +232,6 @@ function findTtsSource(courseId, fp) {
     const ttsDir = path.join(weeksDir, week, 'tts');
     if (!fs.existsSync(ttsDir)) continue;
 
-    // 优先 .aac (源格式)，然后 .mp3 (可能已被手动转换过)
     for (const ext of ['.aac', '.mp3']) {
       const candidate = path.join(ttsDir, `${fp}${ext}`);
       if (fs.existsSync(candidate)) return candidate;
