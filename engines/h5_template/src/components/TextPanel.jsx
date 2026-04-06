@@ -51,40 +51,7 @@ export default function TextPanel({ paragraphs = [], activeParagraphIdx = -1, on
     return map
   }, [slides])
 
-  // ── Scroll-spy：跟踪当前可见的 Slide ──
-  const [visibleSlideIdx, setVisibleSlideIdx] = useState(0)
 
-  useEffect(() => {
-    const container = contentRef.current
-    if (!container || slides.length === 0) return
-
-    const handleScroll = () => {
-      // 找到最后一个在视口上方的 slide divider
-      const dividers = container.querySelectorAll('.slide-divider')
-      let currentIdx = 0
-      dividers.forEach((el, idx) => {
-        const rect = el.getBoundingClientRect()
-        const containerRect = container.getBoundingClientRect()
-        if (rect.top <= containerRect.top + 60) {
-          currentIdx = idx
-        }
-      })
-      setVisibleSlideIdx(currentIdx)
-    }
-
-    container.addEventListener('scroll', handleScroll, { passive: true })
-    return () => container.removeEventListener('scroll', handleScroll)
-  }, [slides])
-
-  // Scroll-spy 点击跳转
-  const handleSpyClick = useCallback((slideIdx) => {
-    const container = contentRef.current
-    if (!container) return
-    const dividers = container.querySelectorAll('.slide-divider')
-    if (dividers[slideIdx]) {
-      dividers[slideIdx].scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-  }, [])
 
   // 稳定的段落 onClick 回调
   const handleClick = useCallback((i) => {
@@ -100,13 +67,10 @@ export default function TextPanel({ paragraphs = [], activeParagraphIdx = -1, on
   // 当前面包屑信息
   const breadcrumbInfo = useMemo(() => {
     if (slides.length === 0) return null
-    const slide = slides[visibleSlideIdx]
     return {
-      slideIdx: visibleSlideIdx,
       total: slides.length,
-      heading: slide?.heading || '',
     }
-  }, [slides, visibleSlideIdx])
+  }, [slides])
 
   if (!paragraphs.length) {
     return (
@@ -130,7 +94,7 @@ export default function TextPanel({ paragraphs = [], activeParagraphIdx = -1, on
             <span className="breadcrumb-label">逐字稿</span>
             <span className="breadcrumb-sep">›</span>
             <span className="breadcrumb-slide">
-              Slide {breadcrumbInfo.slideIdx + 1}/{breadcrumbInfo.total}
+              Slide Count: {breadcrumbInfo.total}
             </span>
             {breadcrumbInfo.heading && (
               <>
@@ -145,19 +109,7 @@ export default function TextPanel({ paragraphs = [], activeParagraphIdx = -1, on
       <TtsToolbar paragraphs={paragraphs} />
 
       <div className="text-panel-body">
-        {/* 右侧 Scroll-spy 轨道 */}
-        {slides.length > 1 && (
-          <div className="scroll-spy-track">
-            {slides.map((slide, idx) => (
-              <button
-                key={slide.id || idx}
-                className={`scroll-spy-dot ${idx === visibleSlideIdx ? 'active' : ''}`}
-                onClick={() => handleSpyClick(idx)}
-                title={slide.heading || `Slide ${idx + 1}`}
-              />
-            ))}
-          </div>
-        )}
+
 
         <div className="text-panel-content" ref={contentRef}>
           {paragraphs.map((para, i) => {

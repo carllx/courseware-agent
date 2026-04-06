@@ -38,16 +38,21 @@ description: 一键发布：构建 dist + 推送源码到 GitHub + 部署到 Net
 
 ---
 
-## Step 3A: 推送源码到 GitHub
+## Step 3A: 推送源码到 GitHub（优先执行）
 
 执行 `/git_sync` 工作流（暂存 → 提交 → 推送）。
 
 > [!IMPORTANT]
 > 提交信息应基于本次构建涉及的变更自动生成，遵循 conventional commits 格式。
 
+> [!WARNING]
+> **执行顺序约束 (V-B fix)**：Step 3A **必须在** Step 3B 之前执行。
+> 如果 git push 失败，**中止整个发布流程**，不得继续执行 Netlify 部署。
+> 理由：若先部署到 CDN 再推送源码失败，会导致线上版本与仓库源码不一致——这在多人协作或回滚时是致命隐患。
+
 ---
 
-## Step 3B: 部署到 Netlify
+## Step 3B: 部署到 Netlify（在 3A 成功后执行）
 
 执行 `/deploy_netlify` 工作流（验证 dist → 推送 CDN → 线上验证）。
 

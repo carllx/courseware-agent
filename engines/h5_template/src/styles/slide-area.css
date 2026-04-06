@@ -3,7 +3,7 @@
    ============================================================ */
 
 .slide-area {
-  flex: 0 0 60%;
+  flex: 3;
   display: flex;
   flex-direction: column;
   background: var(--theme-bgElevated);

@@ -277,6 +277,75 @@ def _count_cn_chars(text: str) -> int:
     return len(_RE_CN_CHAR.findall(text))
 
 
+# ============================================================
+# ARC-01: 模块层级构建 (modules + subSections)
+# ============================================================
+
+# 模块色相调色板（黄金角旋转，确保相邻模块最大感知区分度）
+_MODULE_HUES = [210, 35, 150, 280, 330, 50, 190, 100]
+
+# 模块图标推断规则
+_MODULE_ICON_PATTERNS = [
+    (r'课前|准备|Warm.?up|Pre.?class|Introduction', '🧰'),
+    (r'课后|作业|任务|Assignment|Homework', '📋'),
+    (r'Checklist|验证|Review|复习|自检', '✅'),
+    (r'实验|Lab|Workshop|实践|实战', '🔬'),
+    (r'案例|Case|Project|项目|设计', '🎯'),
+    (r'练习|Exercise|Practice|活动', '✏️'),
+]
+
+
+def _infer_module_icon(title: str) -> str:
+    """根据模块标题关键词推断语义图标。"""
+    for pattern, icon in _MODULE_ICON_PATTERNS:
+        if re.search(pattern, title, re.IGNORECASE):
+            return icon
+    return '📖'
+
+
+def _truncate_module_title(text: str, max_len: int = 12) -> str:
+    """截断模块标题，去除 'Module N:' 前缀后保留核心语义。"""
+    cleaned = re.sub(r'^Module\s*\d+\s*[:：]\s*', '', text)
+    # 去除时长标注 (XX 分钟)
+    cleaned = re.sub(r'\s*\(\d+\s*分钟\)\s*$', '', cleaned)
+    if len(cleaned) > max_len:
+        return cleaned[:max_len] + '…'
+    return cleaned
+
+
+def _build_modules_layer(manifest: dict) -> None:
+    """后处理：从扁平 sections 构建 modules 层级元数据（原地修改）。
+
+    向后兼容：sections[] 保持不变，modules[] 为新增可选字段。
+    前端通过 manifest.modules?.length > 0 判断是否启用层级导航。
+    """
+    modules = []
+    prev_title = None
+
+    for idx, section in enumerate(manifest["sections"]):
+        section["moduleIdx"] = idx
+
+        # 推断过渡提示（语义编码线索）
+        transition = None
+        if prev_title and idx > 0:
+            prev_short = _truncate_module_title(prev_title)
+            curr_short = _truncate_module_title(section["title"])
+            transition = f"从「{prev_short}」到「{curr_short}」"
+
+        modules.append({
+            "id": f"M{idx}",
+            "title": section["title"],
+            "colorHue": _MODULE_HUES[idx % len(_MODULE_HUES)],
+            "heroIcon": _infer_module_icon(section["title"]),
+            "transitionHint": transition,
+            "sectionId": section["id"],
+            "subSectionCount": len(section.get("subSections", [])),
+        })
+        prev_title = section["title"]
+
+    manifest["modules"] = modules
+
+
 def _enrich_section_stats(section: dict) -> None:
     """为 section 注入口述字数统计（原地修改）。
 
@@ -399,12 +468,16 @@ def blocks_to_h5_json(
     current_slide = None
     last_heading = ""
     speech_counter = 0
+    current_subsections = []  # ARC-01: 追踪 H3 级别的子节
 
     for block in blocks:
         if block.block_type == BlockType.HEADER:
             level = block.metadata.get("level", 1)
             if level == 2:
                 if current_section:
+                    # ARC-01: 保存当前 section 的子节列表
+                    current_section["subSections"] = current_subsections
+                    current_subsections = []
                     _enrich_section_stats(current_section)
                     manifest["sections"].append(current_section)
                 section_id = f"mod-{len(manifest['sections']) + 1}"
@@ -437,6 +510,14 @@ def blocks_to_h5_json(
                 last_heading = ""
             elif level == 3:
                 last_heading = block.content
+                # ARC-01: 记录 H3 子节边界（用于前端细粒度导航）
+                if current_section is not None:
+                    current_subsections.append({
+                        "id": f"sub-{len(current_subsections) + 1}",
+                        "title": block.content,
+                        "startParagraph": len(current_section["paragraphs"]),
+                        "startSlide": len(current_section["slides"]),
+                    })
             continue
 
         if current_section is None:
@@ -545,8 +626,13 @@ def blocks_to_h5_json(
             continue
 
     if current_section:
+        # ARC-01: 保存最后一个 section 的子节列表
+        current_section["subSections"] = current_subsections
         _enrich_section_stats(current_section)
         manifest["sections"].append(current_section)
+
+    # ARC-01: 构建 modules 层级元数据
+    _build_modules_layer(manifest)
 
     return manifest
 

@@ -1,3 +1,4 @@
+
 ## 模块 3: Why — 意图识别与重塑魔法 (35 分钟)
 <!-- BUDGET: 4000 chars | SLIDES: ≥14 | STATUS: done -->
 > [!NOTE] 核心标签回溯

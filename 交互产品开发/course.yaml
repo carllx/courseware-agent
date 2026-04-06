@@ -155,7 +155,8 @@ textbooks:
 
 calendar:
   - week: 1
-    chapter_title: "第一章 交互体系概论基础"
+    chapter: 1
+    chapter_title: "交互体系概论基础"
     topic: 交互体系概论基础
     content: |-
       1.1 交互与UX的本质定义；可用性与体验目标
@@ -190,7 +191,8 @@ calendar:
             summary: "汇报各组拆解发现，总结可用性与体验的评估框架"
             minutes: 10
   - week: 2
-    chapter_title: "第二章 人类认知与心智摩擦"
+    chapter: 2
+    chapter_title: "人类认知与心智摩擦"
     topic: 人类认知与心智摩擦
     content: |-
       2.1 认知框架与记忆负荷；心智模型与界面隐喻
@@ -228,7 +230,8 @@ calendar:
             summary: "总结认知负荷控制的设计法则"
             minutes: 10
   - week: 3
-    chapter_title: "第三章 产品洞察与痛点切入"
+    chapter: 3
+    chapter_title: "产品洞察与痛点切入"
     topic: 产品洞察与痛点切入
     content: |-
       3.1 定性调研原则；敏捷业务痛点发掘
@@ -268,7 +271,8 @@ calendar:
             summary: "点评各组调研方案，布置课后完成 5 人次访谈"
             minutes: 10
   - week: 4
-    chapter_title: "第四章 假设驱动与MVP构建"
+    chapter: 4
+    chapter_title: "假设驱动与MVP构建"
     topic: 假设驱动与MVP构建
     content: |-
       4.1 抛弃重型 Persona，假设驱动与极简场景的界定
@@ -307,7 +311,8 @@ calendar:
             summary: "各组 MVP 清单互评，强调做减法的纪律"
             minutes: 10
   - week: 5
-    chapter_title: "第五章 目标导向路径与架构"
+    chapter: 5
+    chapter_title: "目标导向路径与架构"
     topic: 目标导向路径与架构
     content: |-
       5.1 心流机制；前端页面状态流式拆解与编排
@@ -346,7 +351,8 @@ calendar:
             summary: "点评典型架构图，预告视觉系统构建"
             minutes: 10
   - week: 6
-    chapter_title: "第六章 容器工程化基础映射"
+    chapter: 6
+    chapter_title: "容器工程化基础映射"
     topic: 容器工程化基础映射
     content: |-
       6.1 DOM视觉映射机理；Figma AutoLayout 向 CSS Flex 的底层转化基础
@@ -385,7 +391,8 @@ calendar:
             summary: "组件框架互评，强调容器思维的工程纪律"
             minutes: 10
   - week: 7
-    chapter_title: "第七章 视觉重构：层级与色彩"
+    chapter: 7
+    chapter_title: "视觉重构：层级与色彩"
     topic: 视觉重构：层级与色彩
     content: |-
       7.1 利用基础排版字重与空间感建立层级；HSL系统解析
@@ -424,7 +431,8 @@ calendar:
             summary: "互评 Token 系统的一致性与可扩展性"
             minutes: 10
   - week: 8
-    chapter_title: "第八章 视觉重构：深度与防错"
+    chapter: 8
+    chapter_title: "视觉重构：深度与防错"
     topic: 视觉重构：深度与防错
     content: |-
       8.1 光影深度营造原则；处理极限/错误边界与情境反馈
@@ -463,7 +471,8 @@ calendar:
             summary: "实验2(Exp2) 交付互评，预告 AI 原型生成"
             minutes: 10
   - week: 9
-    chapter_title: "第九章 AI 原型协作结构化"
+    chapter: 9
+    chapter_title: "AI 原型协作结构化"
     topic: AI 原型协作结构化
     content: |-
       9.1 大语言模型的人机协同系统架构法；界面生成 Prompt 工程
@@ -503,7 +512,8 @@ calendar:
             summary: "对比各组 Prompt 质量与生成效果，总结最佳实践"
             minutes: 10
   - week: 10
-    chapter_title: "第十章 前沿动效组件融入"
+    chapter: 10
+    chapter_title: "前沿动效组件融入"
     topic: 前沿动效组件融入
     content: |-
       10.1 前端交互特效融合机制；微观反馈的理论支撑
@@ -542,7 +552,8 @@ calendar:
             summary: "动效演示互评，预告排障与兜底"
             minutes: 10
   - week: 11
-    chapter_title: "第十一章 逻辑排障与兜底策略"
+    chapter: 11
+    chapter_title: "逻辑排障与兜底策略"
     topic: 逻辑排障与兜底策略
     content: |-
       11.1 本地大模型代码辅助阅读规律；混合保真度演示机制
@@ -581,7 +592,8 @@ calendar:
             summary: "排障经验分享，预告可用性评估"
             minutes: 10
   - week: 12
-    chapter_title: "第十二章 启发式评估原理与应用"
+    chapter: 12
+    chapter_title: "启发式评估原理与应用"
     topic: 启发式评估原理与应用
     content: |-
       12.1 可用性客观评估标准引入；Nielsen十大可用性真理
@@ -621,7 +633,8 @@ calendar:
             summary: "汇总各组走查发现，讨论高频可用性问题"
             minutes: 10
   - week: 13
-    chapter_title: "第十三章 对话与可操作测试法"
+    chapter: 13
+    chapter_title: "对话与可操作测试法"
     topic: 对话与可操作测试法
     content: |-
       13.1 无硬件条件下的实验室降维版：出声思考(Think-Aloud)的科学执行
@@ -660,7 +673,8 @@ calendar:
             summary: "分享测试发现，讨论主持过程中的常见失误"
             minutes: 10
   - week: 14
-    chapter_title: "第十四章 数据复盘与作品库凝练"
+    chapter: 14
+    chapter_title: "数据复盘与作品库凝练"
     topic: 数据复盘与作品库凝练
     content: |-
       14.1 体验设计作品库的闭环故事梳理核心心法
@@ -699,7 +713,8 @@ calendar:
             summary: "复盘叙事互评，部署路演准备"
             minutes: 10
   - week: 15
-    chapter_title: "第十五章 课程综合路演检查"
+    chapter: 15
+    chapter_title: "课程综合路演检查"
     topic: 课程综合路演检查
     content: 15.1 学生最终交互单页的验收：侧重痛点挖掘到走查修改的闭环过程
     hours_theory: 0        # ISSUE-004修复：W15路演周全为实践，无理论授课

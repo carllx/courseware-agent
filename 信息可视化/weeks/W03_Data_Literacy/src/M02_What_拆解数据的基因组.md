@@ -1,3 +1,4 @@
+
 ## 模块 2: What — 拆解数据的基因组 (40 分钟)
 <!-- BUDGET: 5000 chars | SLIDES: ≥16 | STATUS: done -->
 > [!NOTE] 核心标签回溯

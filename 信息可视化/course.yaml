@@ -141,7 +141,9 @@ textbooks:
   citation: "Tamara Munzner. Visualization Analysis & Design[M]. Boca Raton: CRC Press, 2014."
 calendar:
 - week: 1
-  chapter_title: "第一章 数据作为媒介：格式塔感知与 Vibe 范式初探"
+  chapter: 1
+  chapter_title: "数据作为媒介"
+  chapter_subtitle: "格式塔感知与 Vibe 范式初探"
   topic: 数据作为媒介：格式塔感知与 Vibe 范式初探
   content: 1.1 认知外显：视觉系统、格式塔重构与自然语言建模
   hours_theory: 3
@@ -180,7 +182,9 @@ calendar:
   - 素质1
   task: 自行选取一组合法公开数据集，运用 RAWGraphs 进行零代码映射探索，同时尝试撰写结构化 Prompt 驱动 AI 辅助工具生成对照图表。提交这两种范式下的图表产出及完整 Prompt 记录，配合 300 字设计决策说明分析两者优劣。
 - week: 2
-  chapter_title: "第二章 视觉叙事与符号隐喻"
+  chapter: 2
+  chapter_title: "视觉叙事"
+  chapter_subtitle: "与符号隐喻"
   topic: 视觉叙事与符号隐喻
   content: 2.1 不仅是数据，更是隐喻：构建符号的艺术表达
   exp_id: 2   # 对应实验2「静态图表设计」启动周
@@ -227,7 +231,9 @@ calendar:
   - 能力3
   task: 从真实世界（新闻/财报/报告）狩猎一张通道映射严重错误的劣质数据图，结合实验1清洗后的 Tidy 数据集，在 Figma 中按 Munzner 通道有效性与数据墨水比原则进行三阶段重建精修，提交三阶段对比图 + 300 字通道决策报告。
 - week: 3
-  chapter_title: "第三章 数据提炼与自然语言建模"
+  chapter: 3
+  chapter_title: "数据提炼"
+  chapter_subtitle: "与自然语言建模"
   topic: 数据提炼与自然语言建模 (Specification)
   content: 3.1 看不见的冰山：从数据抽象到重塑 (Data Abstraction & Tidy Data)
   exp_id: 1   # 对应实验1「数据获取与清洗」启动周
@@ -271,7 +277,9 @@ calendar:
   - 素质2
   task: 从公开数据源获取一份原始宽表数据，利用 LLM Prompt 清洗为 Tidy CSV，并撰写约500字的数据抽象分析（Item/Attribute/Derive 策略）。
 - week: 4
-  chapter_title: "第四章 声明式生成与深层定制的 Vibe 指挥术"
+  chapter: 4
+  chapter_title: "声明式生成"
+  chapter_subtitle: "与深层定制的 Vibe 指挥术"
   topic: 声明式生成 (ECharts) 与深层定制 (D3) 的 Vibe 指挥术
   content: 4.1 驾驭复杂：高低阶框架的语言驱动策略
   exp_id: 3   # 对应实验3「交互可视化开发」启动周
@@ -315,7 +323,9 @@ calendar:
   - 能力1
   task: 使用 Tidy 数据集分别完成 ECharts 商业快手与 D3.js 极客指令版的代码出图作业，务必不要提交 HTML 代码文件！仅依靠沙箱实时渲染结果导出的 2 张绝美比对阵列图 (PNG/SVG) 及简单设计声明即可。
 - week: 5
-  chapter_title: "第五章 数据情绪与生成艺术"
+  chapter: 5
+  chapter_title: "数据情绪"
+  chapter_subtitle: "与生成艺术"
   topic: 数据情绪与生成艺术
   content: 5.1 无形之境：网络拓扑、地缘隐喻与力导向生成艺术
   hours_theory: 2
@@ -360,7 +370,9 @@ calendar:
   - 素质3   # ISSUE-005修复：W5生成艺术/社会责任主题，直接支撑素质目标 3
   task: 基于自拟情感议题，使用 D3 力导向引擎构建'数据生命体'作品，截取 3 帧极致美感瞬间并撰写寓意说明。
 - week: 6
-  chapter_title: "第六章 空间流动与事件叙事"
+  chapter: 6
+  chapter_title: "空间流动"
+  chapter_subtitle: "与事件叙事"
   topic: 空间流动与事件叙事
   content: 6.1 滑动揭秘：以现代滚动叙事导演数据图景
   hours_theory: 2
@@ -403,7 +415,9 @@ calendar:
   - 素质1
   task: 基于自选社会议题数据，完成一个 GSAP ScrollTrigger + ECharts/D3 的 Scrollytelling 单页面长卷，包含至少 4 个触发步骤。
 - week: 7
-  chapter_title: "第七章 综合项目启动：文化/社会议题的数据调研"
+  chapter: 7
+  chapter_title: "综合项目启动"
+  chapter_subtitle: "文化/社会议题的数据调研"
   topic: 综合项目启动：文化/社会议题的数据调研
   content: 7.1 洞察与共鸣：从宏大议题到人文关怀的原型设计
   exp_id: 4   # 对应实验4「综合项目实战」启动周
@@ -449,7 +463,9 @@ calendar:
   - 素质2
   task: 完成综合项目的自然语言逻辑推演文档，包含议题选择、嵌套模型验证、数据源清洗策略、Prompt 工程架构，并进行小组互评。
 - week: 8
-  chapter_title: "第八章 终极冲刺：让不可见的大规模情感被视觉感知"
+  chapter: 8
+  chapter_title: "终极冲刺"
+  chapter_subtitle: "让不可见的大规模情感被视觉感知"
   topic: 终极冲刺：让不可见的大规模情感被视觉感知
   content: 8.1 大音希声：全链路生成、艺术封装与项目上线
   hours_theory: 2

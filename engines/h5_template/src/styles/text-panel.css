@@ -3,7 +3,7 @@
    ============================================================ */
 
 .text-panel {
-  flex: 0 0 40%;
+  flex: 2;
   display: flex;
   flex-direction: column;
   background: var(--theme-bgSurface);
@@ -90,44 +90,7 @@
   border-radius: 3px;
 }
 
-/* ── Scroll-spy 轨道 ── */
-.scroll-spy-track {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  width: 16px;
-  flex-shrink: 0;
-  padding: var(--sp-md) 2px;
-  border-right: 1px solid var(--theme-overlay-subtle);
-  background: var(--theme-bgSurface);
-}
 
-.scroll-spy-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  background: var(--theme-textMuted);
-  opacity: 0.2;
-  transition: all 0.25s ease;
-  flex-shrink: 0;
-}
-
-.scroll-spy-dot:hover {
-  opacity: 0.6;
-  transform: scale(1.4);
-}
-
-.scroll-spy-dot.active {
-  opacity: 1;
-  background: var(--theme-primary);
-  transform: scale(1.3);
-  box-shadow: 0 0 6px rgba(var(--theme-primaryRgb), 0.4);
-}
 
 /* ── Slide 分隔线 — 吸顶式上下文导航 ── */
 .slide-divider {

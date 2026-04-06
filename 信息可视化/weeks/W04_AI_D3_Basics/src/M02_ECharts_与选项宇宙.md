@@ -1,3 +1,4 @@
+
 ## 模块 2: ECharts 与选项宇宙 (60 分钟)
 <!-- BUDGET: 1800 chars | SLIDES: ≥3 | STATUS: ok -->
 

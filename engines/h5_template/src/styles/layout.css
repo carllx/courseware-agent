@@ -63,7 +63,7 @@
   color: rgba(245, 240, 235, 0.9);
 }
 
-/* 主区域: 左幻灯片 + 右文本 */
+/* 主区域: 左大纲 + 幻灯片 + 右文本 */
 .main-content {
   display: flex;
   flex: 1;

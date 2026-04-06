@@ -45,6 +45,10 @@ const CANONICAL_MAP = {
   // Quote / CTA → Title fallback
   'quote':      Layout_Title,
   'cta':        Layout_Title,
+  // ARC-06: 自测/回顾组件占位（当前 fallback 到现有布局，后续替换为专用组件）
+  'quiz':       Layout_List,        // → 未来: Layout_Quiz
+  'checkpoint': Layout_List,        // → 未来: Layout_Checkpoint
+  'review':     Layout_Title,       // → 未来: Layout_Review (知识回顾图)
 }
 
 /**

@@ -1,3 +1,4 @@
+
 ## 模块 4: Vibe Coding 排错工作流 (50 分钟)
 <!-- BUDGET: 900 chars | SLIDES: ≥2 | STATUS: ok -->
 

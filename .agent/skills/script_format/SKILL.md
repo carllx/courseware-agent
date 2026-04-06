@@ -99,6 +99,7 @@ description: 定义课程逐字稿的格式规范与标签体系。当 Agent 执
 | `Asset N` | 可选 | 多图时使用编号后缀（`Asset 1`, `Asset 2`, ...），格式同上，全部归入 `assets[]` 数组 |
 | `Resource` | 可选 | 辅助参考图片路径，格式同上，归入 `assets[]` 数组 |
 | `AI_Prompt` | 可选 | AI 文生图 Prompt |
+| `Source` | 可选 | 资产来源类型枚举：`Textbook`（教材原图提取）/ `AI_Gen`（AI 生成）/ `Code`（代码渲染）/ `External`（外部搜索）/ `Manual`（手工制作）。用于管线级路由。缺省时由 Agent 按 Scene 内容推断。 |
 | `Search` | 可选 | 网络搜索关键词 |
 | `Caption` | 可选 | 注释/引用文字 |
 

@@ -1,0 +1,406 @@
+/* ============================================================
+   OutlineSidebar — 结构化章节目录地图
+   ============================================================ */
+
+.outline-sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--theme-bgDark);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+
+.outline-sidebar--collapsed {
+  width: 48px;
+  align-items: center;
+  padding-top: var(--sp-md);
+}
+
+/* ── Header ── */
+.outline-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sp-sm) var(--sp-md);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  flex-shrink: 0;
+  min-height: 48px;
+}
+
+.outline-course-name {
+  font-family: var(--theme-fontTitleCn);
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.outline-sidebar-toggle {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outline-sidebar-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.toggle-icon {
+  font-size: 16px;
+}
+
+/* ── 目录树 ── */
+.outline-tree {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--sp-sm) 0;
+}
+
+.outline-tree::-webkit-scrollbar { width: 4px; }
+.outline-tree::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+}
+
+.outline-module {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── H2 模块条目 ── */
+.outline-module-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  width: 100%;
+  padding: 8px var(--sp-md);
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--theme-fontBodyCn);
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.outline-module-btn:hover {
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.outline-module-btn.active {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-weight: 600;
+}
+
+.outline-module-btn.read {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.outline-module-accent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--module-accent);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.outline-module-btn.active .outline-module-accent {
+  opacity: 1;
+}
+
+.outline-module-icon {
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.outline-module-label {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.outline-check {
+  font-size: 10px;
+  color: rgba(46, 213, 115, 0.7);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ── H3 子节列表 ── */
+.outline-subsections {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0 8px 36px; /* 缩进 */
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.outline-sub-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px var(--sp-md) 6px 0;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.outline-sub-btn:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.outline-sub-btn.active {
+  color: var(--theme-primary, #B85042);
+  font-weight: 600;
+}
+
+.outline-sub-indicator {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.outline-sub-btn.active .outline-sub-indicator {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.outline-sub-label {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+
+.mini-dot.active {
+  background: rgba(255, 255, 255, 0.8);
+  transform: scale(1.2);
+}
+
+/* ── 验证详情弹窗 (Validation Popover) ── */
+.outline-health-container {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.outline-health {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px var(--sp-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.outline-health--green .outline-health-action { background: rgba(46, 213, 115, 0.2); color: #2ed573; }
+.outline-health--yellow .outline-health-action { background: rgba(255, 165, 2, 0.4); color: #ffa502; box-shadow: 0 0 8px rgba(255,165,2,0.3); }
+.outline-health--red .outline-health-action { background: rgba(255, 107, 107, 0.4); color: #ff6b6b; box-shadow: 0 0 8px rgba(255,107,107,0.3); }
+
+.outline-health-text {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.outline-health:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.outline-health-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.outline-health-action {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.outline-health-action:hover {
+  background: rgba(46, 213, 115, 0.8);
+  color: #fff;
+}
+
+.outline-validation-popover {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 8px;
+  width: 244px; /* 适配 260px 的侧边栏，防止被溢出隐藏裁掉 */
+  background: #1e2130; /* 强制深色底以适配高亮面板设计 */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  animation: popoverFadeUp 0.2s ease;
+  overflow: hidden;
+  color: #fff;
+}
+
+@keyframes popoverFadeUp {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.validation-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--sp-sm) var(--sp-md);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.validation-close {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.validation-close:hover {
+  color: #fff;
+}
+
+.validation-section {
+  padding: var(--sp-sm) var(--sp-md);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.validation-section-title {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.validation-module-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.validation-module-name {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.validation-mini-bar {
+  width: 40px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
+.validation-mini-fill {
+  height: 100%;
+  border-radius: 2px;
+}
+
+.validation-percent {
+  font-size: 10px;
+  min-width: 24px;
+  text-align: right;
+}
+
+.validation-mini-fill.ok { background: #2ed573; }
+.validation-percent.ok { color: #2ed573; }
+
+.validation-mini-fill.warn { background: #ffa502; }
+.validation-percent.warn { color: #ffa502; }
+
+.validation-mini-fill.fail { background: #ff6b6b; }
+.validation-percent.fail { color: #ff6b6b; }
+
+.validation-hint, .validation-gate-warning {
+  font-size: 11px;
+  padding: 4px 8px;
+  background: rgba(255, 165, 2, 0.1);
+  color: #ffa502;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.validation-missing-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.validation-slide-id {
+  font-size: 11px;
+  font-family: monospace;
+  color: #ff6b6b;
+}
+
+.validation-jump {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.validation-jump:hover {
+  opacity: 1;
+}
+
+.validation-ok {
+  font-size: 12px;
+  color: #2ed573;
+}

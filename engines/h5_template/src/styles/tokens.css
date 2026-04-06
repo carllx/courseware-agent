@@ -54,6 +54,28 @@
   --theme-overlay-subtle: rgba(0,0,0,0.06);
   --theme-overlay-hover: rgba(0,0,0,0.02);
   --theme-overlay-divider: rgba(0,0,0,0.08);
+
+  /* ARC-05: 内容层级语义 Token ─────────────────── */
+  /* 层级间距（隐喻逻辑关系的远近） */
+  --sp-module-gap: 80px;     /* H2 模块之间的垂直分离 */
+  --sp-section-gap: 32px;    /* 同模块内 H3 小节间距 */
+  --sp-para-gap: 12px;       /* 段落间距 */
+
+  /* 层级排版 */
+  --fs-module-title: 18px;   /* H2 模块标题 */
+  --fs-section-title: 15px;  /* H3 小节标题 */
+  --fw-module-title: 800;
+  --fw-section-title: 600;
+
+  /* 层级记忆色（可被 JSON 主题 modules[].colorHue 运行时覆盖） */
+  --module-hue-0: 210;
+  --module-hue-1: 35;
+  --module-hue-2: 150;
+  --module-hue-3: 280;
+  --module-hue-4: 330;
+  --module-hue-5: 50;
+  --module-hue-6: 190;
+  --module-hue-7: 100;
 }
 
 * {

@@ -1,13 +1,14 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams, Link, useSearchParams } from 'react-router-dom'
 import SlideFactory from '../components/SlideFactory'
 import TextPanel from '../components/TextPanel'
-import NavigationBar from '../components/NavigationBar'
+import OutlineSidebar from '../components/OutlineSidebar'
 
-import HealthDot from '../components/HealthDot'
-import ValidationOverlay from '../components/ValidationOverlay'
+
+
 import AnnotationOverlay from '../components/AnnotationOverlay'
 import { useValidation } from '../contexts/ValidationContext'
+import { useProgress } from '../contexts/ProgressContext'
 import { TtsSegmentProvider, useTtsSegments } from '../contexts/TtsSegmentContext'
 import '../styles/craft-room.css'
 
@@ -41,6 +42,12 @@ function LessonViewerInner({ courseId, scriptName }) {
 
   // === P1 验证上下文 ===
   const { onReload, onValidation, isInFlow } = useValidation()
+
+  // === ARC-04: 学习进度 ===
+  const progressCtx = useProgress()
+
+  // === ARC-03: URL query params 深链接 ===
+  const [searchParams, setSearchParams] = useSearchParams()
 
   // === TTS 段落缓存 ===
   const ttsCtx = useTtsSegments()
@@ -164,20 +171,28 @@ function LessonViewerInner({ courseId, scriptName }) {
     setManifest(null)
     setError(null)
 
-    // UX 优化支柱 2：恢复记忆锚点 (断点续传)
-    const savedPos = sessionStorage.getItem(`h5-pos-${courseId}-${scriptName}`)
-    if (savedPos) {
-      try {
-        const { section, slide } = JSON.parse(savedPos)
-        setCurrentSectionIdx(section || 0)
-        setCurrentSlideIdx(slide || 0)
-      } catch (e) {
+    // UX 优化支柱 2：恢复位置优先级 → ARC-03 query params > sessionStorage > 默认值
+    const qm = searchParams.get('m')
+    const qs = searchParams.get('s')
+    if (qm != null) {
+      // ARC-03: URL 深链接优先
+      setCurrentSectionIdx(parseInt(qm) || 0)
+      setCurrentSlideIdx(parseInt(qs) || 0)
+    } else {
+      const savedPos = sessionStorage.getItem(`h5-pos-${courseId}-${scriptName}`)
+      if (savedPos) {
+        try {
+          const { section, slide } = JSON.parse(savedPos)
+          setCurrentSectionIdx(section || 0)
+          setCurrentSlideIdx(slide || 0)
+        } catch (e) {
+          setCurrentSectionIdx(0)
+          setCurrentSlideIdx(0)
+        }
+      } else {
         setCurrentSectionIdx(0)
         setCurrentSlideIdx(0)
       }
-    } else {
-      setCurrentSectionIdx(0)
-      setCurrentSlideIdx(0)
     }
 
     setActiveParagraphIdx(-1)
@@ -223,6 +238,8 @@ function LessonViewerInner({ courseId, scriptName }) {
         section: currentSectionIdx,
         slide: currentSlideIdx
       }))
+      // ARC-03: 同步 URL query params
+      setSearchParams({ m: String(currentSectionIdx), s: String(currentSlideIdx) }, { replace: true })
     }
   }, [currentSectionIdx, currentSlideIdx, courseId, scriptName, manifest])
 
@@ -297,6 +314,11 @@ function LessonViewerInner({ courseId, scriptName }) {
     setCurrentSectionIdx(idx)
     setCurrentSlideIdx(0)
     setActiveParagraphIdx(-1)
+    // ARC-04: 标记当前 section 为已读
+    if (manifest && progressCtx?.markRead) {
+      const sec = manifest.sections[idx]
+      if (sec) progressCtx.markRead(courseId, scriptName, sec.id)
+    }
   }
 
   if (error) {
@@ -334,12 +356,23 @@ function LessonViewerInner({ courseId, scriptName }) {
         <Link to={`/${courseId}`} className="header-back-link">← {manifest.course}</Link>
         <div className="script-title">{manifest.script}</div>
         <div className="header-right">
-          <HealthDot manifest={manifest} />
         </div>
       </header>
 
+
+
       {/* 主内容区 */}
       <main className="main-content">
+        <OutlineSidebar
+          manifest={manifest}
+          currentSectionIdx={currentSectionIdx}
+          currentSlideIdx={currentSlideIdx}
+          onSwitchSection={switchSection}
+          onSwitchSlide={(slideIdx) => switchSlide(slideIdx)}
+          courseId={courseId}
+          scriptName={scriptName}
+        />
+
         <div className="slide-area">
           <div className="slide-viewport">
             {currentSlide ? (
@@ -392,21 +425,13 @@ function LessonViewerInner({ courseId, scriptName }) {
         />
       </main>
 
-      {/* Phase 2: 验证数据可视化覆盖层 */}
-      <ValidationOverlay />
-
       {/* Phase 3: Agent 批注层（基于指纹的语义吸附） */}
       <AnnotationOverlay
         annotations={manifest.annotations || []}
         paragraphs={currentSection?.paragraphs || []}
       />
 
-      {/* 底部模块导航 */}
-      <NavigationBar
-        sections={manifest.sections}
-        currentIdx={currentSectionIdx}
-        onSwitch={switchSection}
-      />
+
 
       {/* 热重载 Toast */}
       {hotReloadToast && (
