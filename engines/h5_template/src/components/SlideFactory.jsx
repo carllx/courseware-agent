@@ -72,10 +72,15 @@ export default function SlideFactory({ slide, courseId }) {
   if (DEPRECATED_ALIASES[key]) key = DEPRECATED_ALIASES[key]
   const LayoutComponent = CANONICAL_MAP[key] || Layout_Image
 
-  // 构造带 courseId 前缀的图片 URL
-  const resolvedImage = slide.image
-    ? (courseId ? `/courses/${courseId}/${slide.image}` : `/${slide.image}`)
-    : null
+  // 数据解析：兼容 SSG 环境下的静态根路径
+  const getImageUrl = (imgPath) => {
+    if (!imgPath) return null
+    if (imgPath.startsWith('/') || imgPath.startsWith('http')) return imgPath
+    return courseId ? `/courses/${courseId}/${imgPath}` : `/${imgPath}`
+  }
+  const resolvedImage = getImageUrl(slide.image)
+  // V-04 fix: images 数组也要经过环境感知的路径解析，防止 SSG 绝对路径被二次拼接前缀
+  const resolvedImages = (slide.images || []).map(getImageUrl)
 
   // 数据代理层 (Data Proxy): 统一拆解 Markdown 字符串列为规整数据结构，使子组件保持纯净
   const parsedList = parseListString(slide.list)
@@ -84,6 +89,7 @@ export default function SlideFactory({ slide, courseId }) {
   const resolvedSlide = {
     ...slide,
     resolvedImage,
+    resolvedImages,
     parsedList,
     comparisonData,
   }

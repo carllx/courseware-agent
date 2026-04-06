@@ -1,0 +1,48 @@
+# ============================================================
+# Netlify 部署配置 — H5 课件预览引擎
+# ============================================================
+# 站点: endearing-mooncake-60c90e.netlify.app
+# Site ID 存储于 .netlify/state.json（已从 Git 排除）
+# ============================================================
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA 路由回退：React Router 的 client-side 路由需要此规则
+# 所有未匹配的路径都回退到 index.html，由前端路由接管
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# ============================================================
+# 安全头
+# ============================================================
+
+# 全局安全头
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-XSS-Protection = "1; mode=block"
+
+# 静态资产长期缓存（Vite 哈希文件名保证唯一性）
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# 课程 JSON 数据 — 短期缓存（内容可能随脚本更新而变化）
+[[headers]]
+  for = "/courses/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# TTS 音频资产 — 中期缓存（内容稳定但偶尔重新提取）
+[[headers]]
+  for = "/assets/tts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
