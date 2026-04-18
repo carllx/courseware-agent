@@ -97,6 +97,22 @@ description: 审查脚本与课程配置的质量（分级审计：快速/标准
 ```
 交叉比对脚本引用与物理文件。
 
+### Q2.5: 真实素材验真 (Real-Asset Authenticity)
+
+> **引用技能**: `.agent/skills/real_asset_scanner/SKILL.md`
+
+// turbo
+```bash
+/opt/anaconda3/envs/mybase/bin/python \
+  .agent/skills/real_asset_scanner/scripts/scan_real_assets.py \
+  <课程>/weeks/<周次>/src/
+```
+
+检查 VISUAL 块中是否存在"使用 AI 生图替代真实素材"的违规情况：
+*   `no_ai_flag = true` 且当前 Asset 仍为 AI 生成图 → 🔴 **Needs Revision**
+*   CRITICAL 级且无 `**Source**` 字段 → 🟡 建议补充来源标注
+*   扫描引擎自动跳过已有真实素材（GIF/JPG/小尺寸PNG），避免误报
+
 ### Q3: 时长估算
 
 ```bash
@@ -105,32 +121,54 @@ description: 审查脚本与课程配置的质量（分级审计：快速/标准
   --course "<课程>" {WEEK_FILTER}
 ```
 
-> **口述字数准确性说明**：时长估算器**仅统计口述内容**的中文字数。以下内容已被自动排除：
-> - YAML Frontmatter（`---` 之间的元数据）
-> - `> [VISUAL]` 块（仅计为 Slide 数 +1，标题/描述文字不计入）
-> - `> [ACTIVITY]` 块（单独计为活动时长，不计入口述字数）
-> - `> [!NOTE]` 导读块（归类为引用块，不计入口述字数）
-> - Markdown 标题行（`##`/`###`）被解析为 HEADER 类型，不计入口述字数
+> **口述字数排除项**：Frontmatter / `[VISUAL]` 块 / `[ACTIVITY]` 块 / `[!NOTE]` 导读块 / Markdown 标题行——均不计入口述字数。
 
 > [!CAUTION]
 > **Q3 短路规则（字数优先门控）**：若 Q3 时长估算中**任何模块**存在 ❌（`fill_ratio < 0.8`），
 > 则审计立即输出 `Needs Revision (字数未达标)`，**跳过** Q2 视觉完整性、Q6 视觉密度、
 > 以及 Epilogue E3 链接验证。字数达标是最高优先级的质量门，视觉完整性不得在字数未达标时消耗审计注意力。
 
-### Q4: 叙事质量抽查 (Agent 手动)
+### Q4: 语义自洽检查 (Semantic Coherence Protocol)
 
-Agent 需对以下项进行人工判断：
+> **理论基础**：Self-Enhancement Bias 研究表明，LLM 在审阅自身输出时会在 >50% 的情况下
+> 无法识别客观错误。以下协议通过**结构化探针**替代笼统审阅，强制 System 2 深层分析。
 
-**A: 过渡检查**
+Agent 需逐项执行以下检查：
+
+**A: 过渡检查**（保留原有）
 *   段落之间是否使用了禁忌过渡（"下面我们来看"/ "接下来介绍"）？
 *   是否使用了推荐过渡技巧（悬念反问/听觉桥接/递进对比/回环）？
 
-**B: 反翻译腔**
+**B: 反翻译腔**（保留原有）
 *   是否存在超过 20 字未断句的长句？
 *   是否存在禁忌词（"进行/实现/功能/相关的/在…的情况下"）？
 
-**C: 朗读测试**
+**C: 朗读测试**（保留原有）
 *   选取 3 段正文，模拟朗读节奏是否流畅。
+
+**D: 回译压缩测试 (Compression Test)** 🆕
+*   **范围**：每个 `> [TEACHING MOMENT]` 块 + 每个模块的结尾总结段
+*   **步骤**：
+    1. 将目标段压缩为恰好**一句话（≤25 字）**
+    2. 检查压缩后的句子是否**自洽**（无逻辑矛盾）且包含**具体命题**
+    3. 如果压缩后变成空话（如"可视化很重要"、"这个概念很关键"）→ 原文为填充物，标记 `[HOLLOW_BLOCK]`
+    4. 如果压缩时发现**无法调和的矛盾** → 原文存在逻辑断裂，标记 `[LOGIC_BREAK]` 🔴
+*   **示例**：原文若同时说"有损压缩"和"无损压平"修饰同一过程 → 压缩时矛盾暴露 → `[LOGIC_BREAK]`
+
+**E: 宪法批评链 (Constitutional Critique)** 🆕
+*   **范围**：每个 `> [TEACHING MOMENT]` 块 + `> [STORY TIME]` 块 + 模块首尾段
+*   **逐条检查以下 6 条宪法原则**，对每条原则要求 Agent **引用具体违规文本**：
+
+| # | 原则 | 检查方法 | 标记 |
+|:---|:---|:---|:---|
+| C1 | **反义词共现禁止**：同一句/段中不得同时出现语义矛盾的修饰 | 扫描是否存在"有损+无损"/"极其简洁+极其复杂"等自相矛盾 | `[ANTONYM_CLASH]` 🔴 |
+| C2 | **费曼画板**：每个四字以上修饰词组必须能被描述为具体物理画面 | 选取段中最长的修饰短语，尝试描述画面。无法画出 → 违反 | `[UNPAINTABLE]` 🟡 |
+| C3 | **Mayer 删除**：删掉该修饰语后信息量是否下降 | 逐个删除修饰语，检查信息损失 | `[SEDUCTIVE_DETAIL]` 🟡 |
+| C4 | **压缩命题**：每个核心断言可被压缩为 ≤20 字且无歧义 | 逐句压缩测试 | `[INCOMPRESSIBLE]` 🟡 |
+| C5 | **具象化强制**：禁止用抽象概念解释另一个抽象概念 | 检查是否存在"抽象→抽象"解释链 | `[ABSTRACT_LOOP]` 🟡 |
+| C6 | **造词检测**：如果一个 ≥4 字的词组不是通用术语，很可能是幻觉造词 | Agent 判断该词组是否为公认的中文词汇或学术术语 | `[NEOLOGISM]` 🔴 |
+
+*   **判定**：任何 🔴 标记 → **Needs Revision**。2 个以上 🟡 标记 → 建议修订。
 
 ### Q5: 大纲一致性验证 (Outline Consistency)
 
@@ -163,84 +201,50 @@ Agent 需对照 `extract_week.py --week N` 输出的 `calendar` 条目，逐项�
 
 ### Q7: 退化检测 (Degeneration Gate)
 
-> **引用规范**: `rule_narrative_standards.md` §7.4 反退化规则
+与 Q3 共享 `--module-breakdown` 输出。检查末列 `[DEGEN]` 标记（引用 `rule_narrative_standards.md` §7.4）。
+任何模块存在 🔴 退化 → **Needs Revision (文本退化)**，短路后续 Standard/Deep 检查。
 
-Q7 与 Q3 共享同一命令输出——`--module-breakdown` 模式中的 `[DEGEN]` 标记：
+### Q8: 视觉-文字对齐 (Visual-Text Sync)
 
+> **理论**: Visual-First 双轨记忆（`docs/RESEARCH_SPEECH_MEMORIZATION.md`）
+
+// turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
-  --course "<课程>" {WEEK_FILTER} --module-breakdown
+  .agent/skills/validation_suite/scripts/validate_visual_text_sync.py \
+  --course "<课程>" {WEEK_FILTER}
 ```
 
-检查输出末列是否存在 `[DEGEN]` 标记。任何模块存在 🔴 退化 → **Needs Revision (文本退化)**，短路后续 Standard/Deep 检查。
+检查：Bullet Sync（🔴）、Text 覆盖率（🟡 建议 ≥ 50%）、Heading 空洞（🟡）。
+Q8 自动化结果可直接用于 Standard Part A 的 Bullet Sync 人工复核。
+
+### Q9: 锚词密度 (Anchor Coverage for Cloak Mode)
+
+由 `/cheat_sheet --diagnose` 自动输出。`**加粗**` 文字是 H5 Cloak 模式的数据源。
+
+| 检查项 | 标准 | 严重度 |
+|:---|:---|:---|
+| 锚词覆盖率 ≥ 60% | 含加粗段落 / 总段落 | `[ANCHOR_DENSITY_LOW]` 🟡 |
+| 最大无锚词间隔 ≤ 3 段 | 连续无加粗段落数 | `[ANCHOR_GAP]` 🟡 |
+
+### Q10: 视觉记忆锚点 (Visual Memory Anchoring)
+
+由 `/cheat_sheet --diagnose` 自动输出。Scene/Layout/Text 三维绑定检查。
+
+| 检查项 | 标准 | 严重度 |
+|:---|:---|:---|
+| [V1] Scene 有效率 ≥ 90% | Scene ≥ 10 字 | `[SCENE_EMPTY]` 🟡 |
+| [V2] Text 覆盖率 ≥ 50% | 含 Text 的 VISUAL 占比 | `[TEXT_LOW]` 🟡 |
+| [V3] Layout 一致性 | Grid/Comparison 须含 List | `[LAYOUT_MISMATCH]` 🟡 |
 
 ---
 
+
 ## Standard 级别检查项 (Quick + 以下)
 
-> [!IMPORTANT]
-> **模块级聚焦**：当 `{SCOPE}` 为模块级时，以下 Agent 手动检查（Part A-E）**仅对目标模块执行**。
-> V5 架构下直接 `view_file` 读取 `weeks/W0N_xxx/src/M0X_xxx.md` 源文件，**禁止**读取整周 compiled.md。
-> 周次级审计时，逐个 `view_file` 各 `src/*.md` 文件，每次仅读取审查中的那个模块。
-
-### Part A: 叙事完整性（逻辑层）
-*   视觉-音频同步检查：`> [VISUAL]` 是否在对应正文之前
-*   **Deictic Anchoring**: 正文是否使用"这/那/如图/左侧"等词汇锚定 Visual
-*   **Visual Engagement Depth** (视觉解读深度): 对每个 `> [VISUAL]` 块，检查紧随其后的 SPEECH 是否满足：
-    1.  **覆盖率**: Scene 描述中的每个要素，语音中是否有对应提及？
-    2.  **字数比**: SPEECH 字数 ≥ Scene 描述字数 × 2（最低标准）
-    3.  **解读性**: 不能仅"指向"画面（"请看这张图"），还必须"解读"画面（"左侧是…右侧是…"）
-    4.  **数量一致性**: 语音中提及的数量是否与 Scene/Slide 内容一致？
-*   **Visual-First 例外逻辑**:
-    *   **静态 Slide** (Layout = Title/Section/Split/List/Table/Image/Quote/Grid/Full/Stat) → **Visual First**：`[VISUAL]` 必须在 SPEECH 之前出现（先看后听）
-    *   **动态 Action** (Layout = Screenshot/Code，或含 `Action` 字段) → **Audio First 允许**：SPEECH 可在 `[VISUAL]` 之前，用于语音引导操作（先提示后执行）
-    *   **原理**: 环境需预加载 (Visual First)；动作需语音引导 (Audio First)
-    *   **参考**: 格式规范详见 `.agent/skills/script_format/SKILL.md`
-*   IAA 完整性：Interactive Action 后是否有 Analysis
-*   **Bullet Sync (要点同步检查)**: 扫描全文 Speech 中的结构化要点（≥3 个并列项、编号列表、阶段划分、考核/评分/任务说明），检查其紧邻的 `> [VISUAL]` 块是否包含 `**List**` 字段将要点同步展示在 PPT 上。
-    *   ❌ 不合格：Speech 讲了 4 个阶段，但 VISUAL 块只有氛围 Scene，无 List
-    *   ✅ 合格：Speech 讲了 4 个阶段，VISUAL 块的 List 逐条对应
-*   **Visual Gap (视觉间隔检查)**: 扫描全文中相邻两个 `> [VISUAL]` 块之间的 SPEECH 中文字数（引用 `script_format/SKILL.md` §6）：
-    *   **> 360 字**（约 120 秒）→ 标记 `[VISUAL_GAP]`，必须拆分并插入视觉锚点
-    *   **250-360 字**（约 80-120 秒）→ 标记 `[VISUAL_GAP_WARN]`，建议插入
-    *   检查时排除 `> [ACTIVITY]` 块占用的区间
-*   指示代词扫描：所有"这/那/这里"是否有明确前文
-
-### Part B: Deep Listen（教学层 — 动态模拟）
-
-执行以下三步闭环：
-
-1.  **颗粒化复述**：
-    不使用原文术语，用极简白话复述整条操作链路。每步必须回答："这一步凭什么能推导出下一步？"
-2.  **断层即时标注**：
-    复述过程中，一旦出现以下卡顿，立即打标：
-    *   **逻辑断层** `[LOGIC_GAP]`：从 A 到 B 缺乏铺垫
-    *   **情绪断连** `[TONE_SHIFT]`：前文还在讲事务，后文突然煽情（或反之）
-3.  **费曼导演视角与 SCQA 心流**：
-    检查重要概念段落：这句话是让听众"如临深渊"（沉浸），还是让他们"出戏去查书"（说教）？
-    *   **金字塔结构的情感张力检查**：核心结论铺陈之前，是否有基于**痛点冲突(Complication)**的共情切入？支撑论点是否包裹了**真实的感性火花**？
-    *   若整段毫无情绪起伏、完全是平铺直叙的枯燥罗列，必须打上 `[NO_EMOTIONAL_SPARK]` 标签，判为说教体。
-    *   标记为 `[IMMERSIVE]` 或 `[DIDACTIC]`
-    *   `[DIDACTIC]` 超过总段落数 30% → Fail
-4.  **技术-心理桥接**：
-    检查所有 `> [TECH NOTE]` 标签：
-    *   禁止"裸露的物理定义"——如果只解释了"什么是什么"，而没有解释"这意味着什么"，标记为 `[BARE_DEFINITION]`
-    *   ✅ 合格："40ms 延迟——这是你的耳朵开始怀疑'声源在那边'的临界点。"
-    *   ❌ 不合格："Haas 效应是 40ms 延迟。"
-
-### Part C: 语言合规（语言层）
-*   对照 `rule_localization.md` 三层分级 + §5 例外规则
-*   Chinglish 检查
-*   标点与间距
-*   **§6 语调检查**：是否存在低幼/哄骗/恐吓式语气？（参照 `rule_narrative_standards.md` §6）
-
-### Part E: TTS 安全检查（盲区扫描）
-*   **隐形参数拦截**: 扫描全文中 `隐喻 (参数)` / `概念 (English)` 的括号结构
-    *   TTS 解析器会吞噬括号内容，导致听众只听到"调整大小"而不知道调哪个
-    *   ❌ 不合格：`调整大小 (Room Size)`
-    *   ✅ 合格：`利用 **Room Size** 来调整大小`
-*   **悬浮缩写**: 检查未展开的英文缩写 (如 "IAA"、"TTS") 是否在首次出现时有中文全称
+> **按需加载**：执行 Standard 或 Deep 级别审计时，加载以下文件获取详细检查项：
+> - `workflows/audit_standard.md` — Part A (叙事完整性) + Part B (Deep Listen) + Part C (语言合规) + Part E (TTS 安全) + Part B-5 (脉络清晰度)
+> - `workflows/audit_practice.md` — Part P (Practice 冒烟检查)：**仅当目标周次存在 `practice.yaml` 时加载**（ADR 043 R-10）
 
 ---
 

@@ -383,3 +383,54 @@ ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_t
 
 **变更文件**：`.agent/workflows/deploy_netlify.md`、`.agent/workflows/git_sync.md`、`.agent/rules/rule_deploy_freshness.md`、`.gitignore`、`engines/h5_template/netlify.toml`、`engines/h5_template/src/components/SlideFactory.jsx`、`.agent/DEPENDENCY_MAP.md`、`.agent/INDEX.md`、`.agent/memory/ADR.md`。
 
+---
+
+## ADR 042: H5 前端原生多模态视频支持与字幕挂载 (Phase 11)
+
+**状态**: 已接受
+**时间**: 2026-04-11
+**上下文**:
+在 W01 添加 Dropbox MVP 实录视频时，原本试图直接在 Markdown `[VISUAL]` 的 `Asset` 字段内硬塞合法的 `<video controls...>` HTML 代码来驱动视频播放及字幕展示。但这直接导致底层正则/AST 解析器将其认定为异常路径并渲染毁损（抛出 404 及 `<a>` 未闭合导致的 key collision `Encountered two children with the same key`）。同时，原先引擎在遇到纯 `.mp4` 资源时，均采用一刀切的 `<img>` 分发，完全剥夺了用户的控制栏、播放体验与多模态特性。
+
+**决策**:
+1. **纯净 Markdown 壳回退 (Pure Frontend Decoding)**: Markdown 层不再允许复杂的 HTML5 代码插入，必须继续忠实遵守 `![描述](../public/videos/xyz.mp4)` 的干净图片壳协议语法。
+2. **底层组件嗅探升级 (`AssetPlaceholder.jsx`)**: 在 H5 播放核心组件中增加对于 `slide.resolvedImage` 的拦截。若命中正则 `/\.(mp4|webm|ogg)$/i` 即可阻断原有图片渲染路线，主动装配标准的 `<video controls>` 原生播放器。
+3. **衍生同源映射字幕轨 (Auto Subtitle Derivation)**: 根据 `.mp4` 源路径，自动猜测同名的 `.zh-Hant.vtt` 与 `.en.vtt`，将其组装到 `<track>` 中，以此避免对已有的后部 Node / Python 处理管线开刀也能达成精确的 CC (Captions) 功能渲染。
+4. **模板级 SSOT 返现**：在确认修复 `build/` 环境下实时引擎的可行性后，将修复立即硬复制回退到唯一的真相源即 `engines/h5_template/src/components/primitives/AssetPlaceholder.jsx`，以造福今后所有的全局生成。
+
+**影响**:
+- H5 Preview 终于获得了强原生的多模态解析能力，完全避免后端 JSON Node 污染也能跑全功能视频实录。无缝解除了 HTML 污染 Markdown 的架构技术债。
+
+**变更文件**：`engines/h5_template/src/components/primitives/AssetPlaceholder.jsx`、`.agent/memory/ADR.md`、`.agent/rules/rule_asset_management.md`。
+
+## ADR 043: 实践规范 SSOT 重构与 concept_registry 独立化
+**Date**: 2026-04-13
+**Context**: 审计发现 `practice_schema.md` 要求 `weight`/`scoring_rubric` 必填，但 `rule_document_boundaries.md` 禁止在 practices 层定义计分参数（SSOT 在 course.yaml）。这导致存量 InfoViz practice.yaml 大量违规。同时 `theory_link.concept_id` 引用的 `concept_registry` 在 course.yaml 中不存在，`experiment_link` 为纯字符串无法机器验证。course.yaml 篇幅 51KB/~19.6K tokens，日常全量加载有 Token 溢出风险。
+
+**决策** (R-1 至 R-6):
+1. **R-1 计分归属**: 从 Schema 中废弃 `weight`/`scoring_rubric`（SSOT 严格在 course.yaml.assessment_methods），practice.yaml Phase/Homework 禁止出现这两个字段。
+2. **R-2 概念注册**: 建立独立文件 `<课程>/concept_registry.yaml`（非 course.yaml 内嵌），作为 `theory_link.concept_id` 的唯一定义点，避免加重 course.yaml 的 Token 负担。
+3. **R-3 Schema 版本**: 全局 `practice_schema.md` 升级为 v3.0 (SSOT)，本地 `_schema.md` 缩减为精简引用文件（~20 行），消除规范分叉。
+4. **R-4 实验外键**: `experiment_link` 从 `str` 升级为 `list[int]`，直接绑定 `course.yaml.experiments[].id`，实现机器可验证的实践溯源。
+5. **R-5 不拆分 course.yaml**: 日常工作流已通过 `extract_week.py` (ADR 021) 有效缓解 Token 溢出，拆分的迁移代价远大于收益。
+6. **R-6 访问约束**: 日常高频工作流（/write, /audit Quick/Standard, /design_practice）禁止直接 `view_file` course.yaml 全文，必须通过 `extract_week.py` 提取局部。
+7. **extract_week.py 扩展**: 新增 `--section experiments`、`--section practice-context`、`--include-concepts` 三种提取模式。
+8. **theory_link 纯字符串格式废弃**: v3.0 起 `/audit_deep` 将纯字符串标记为 `[CA_LEGACY_FORMAT]` 错误。
+
+**影响**:
+- 彻底解决 `practice_schema.md` ↔ `rule_document_boundaries.md` 的 SSOT 内战。
+- InfoViz 7 个 practice.yaml 需批量清理违规字段。
+- IPD 实践层可在新 Schema v3.0 下从零规范化建设。
+- concept_registry.yaml 可在 `/write` 工作流中增量维护。
+
+**变更文件**：`.agent/templates/practice_schema.md`、`.agent/rules/rule_document_boundaries.md`、`.agent/rules/rule_practice_standards.md`、`.agent/workflows/design_practice.md`、`信息可视化/practices/_schema.md`、`交互产品开发/practices/_schema.md`(NEW)、`交互产品开发/concept_registry.yaml`(NEW)、`信息可视化/concept_registry.yaml`(NEW)、`*/extract_week.py`。
+
+**修订 (2026-04-13 加固审计)**:
+9. **R-7 Glob 覆盖加固**: `rule_document_boundaries.md` 和 `rule_practice_standards.md` 的 globs 扩展覆盖 `**/weeks/*/practice.yaml`、`**/concept_registry.yaml` 等周级路径，确保编辑时自动加载边界约束。
+10. **R-8 course.yaml 门禁规则**: 新建 `rule_courseyaml_access.md`（`trigger: glob`, `**/course.yaml`），Agent 打开 course.yaml 时自动注入 R-6 访问约束提醒。
+11. **R-9 concept_registry 写回协议**: `/write` Phase 3 新增 Step 3.95，校验阶段自动扫描新写模块中的概念并回写到 registry。
+12. **R-10 Practice 冒烟检查**: `/audit` Standard 级别新增 Part P，在日常审计中执行 SSOT 越界 + experiment_link 类型 + theory_link 格式的轻量检查。
+13. **R-11 validate_practice.py**: 新建自动化验证脚本，覆盖 Schema v3.0 的 10 条校验规则，集成到 `validate_project.py` 统一入口。
+14. **R-12 extract_week.py SSOT 模板**: 从课程副本提升到 `.agent/templates/` 作为 SSOT，`/update_guidance` §G6 定义跨课程同步协议。
+
+**追加变更文件**：`rule_courseyaml_access.md`(NEW)、`write_phase3_verify.md`、`audit.md`、`validate_practice.py`(NEW)、`validate_project.py`、`update_guidance.md`、`DEPENDENCY_MAP.md`、`INDEX.md`、`templates/extract_week.py`(NEW)、`templates/course.yaml.template`。

@@ -99,10 +99,10 @@ description: 深度审计检查项 — Part D (知识面覆盖率) + Part G (OBE
 
 *   **H6: Practice YAML theory_link 覆盖率（CA 构建性对齐）**
     *   统计本周 practice YAML 中 `type ∈ {workshop, practice, critique}` 的 phase 数量
-    *   统计其中填写了有效 `theory_link` 的数量（结构化对象或非空字符串均计入）
+    *   统计其中填写了有效 `theory_link` 的数量（仅结构化对象计入）
     *   覆盖率 < 100% → 标记 `[CA_COVERAGE_LOW]`，列出缺失的 phase ID 和名称
-    *   若 `theory_link` 为字符串类型（非对象） → 标记 `[CA_LEGACY_FORMAT]`
-    *   若 `theory_link.concept_id` 不存在于 `course.yaml.concept_registry[]` → 标记 `[CA_REF_BROKEN]`
+    *   若 `theory_link` 为字符串类型（非对象）→ 标记 `[CA_LEGACY_FORMAT]` ❌（v3.0 已废弃纯字符串格式）
+    *   若 `theory_link.concept_id` 不存在于 `<课程>/concept_registry.yaml concepts[]` → 标记 `[CA_REF_BROKEN]`
 
 *   **H7: upstream_dependencies DAG 一致性**
     *   对所有声明了 `upstream_dependencies` 的 phase，验证 `source` 字段指向的 `W0X.PY` 是否存在于对应周次的 practice YAML 中
@@ -111,9 +111,17 @@ description: 深度审计检查项 — Part D (知识面覆盖率) + Part G (OBE
     *   若 `description/steps` 中引用了其他周次产出物但 `upstream_dependencies` 为空 → 标记 `[UPSTREAM_IMPLICIT]`
 
 *   **H8: Practice Guide 生成状态**
-    *   检查对应周次的 `practices/W0X_Practice_Guide.md` 是否存在
+    *   检查对应周次的 `practices/W0X_Practice_Guide.md` 或 `weeks/W0X/practice_guide.md` 是否存在
     *   若存在，检查文件大小是否 > 2KB（骨架阈值）
     *   缺失 → 标记 `[GUIDE_MISSING]`
     *   存在但 ≤ 2KB → 标记 `[GUIDE_SKELETON]`
+
+*   **H9: SSOT 越界检查 (ADR 043)**
+    *   检查 practice.yaml 中是否存在 `weight` 或 `scoring_rubric` 字段（Phase 或 Homework 层级）
+    *   存在 → 标记 `[SSOT_VIOLATION]` ❌，成绩权重的 SSOT 在 `course.yaml.assessment_methods`
+
+*   **H10: experiment_link 类型检查 (ADR 043)**
+    *   检查 `experiment_link` 是否为 `list[int]` 格式
+    *   若为字符串 → 标记 `[EXP_LINK_LEGACY]` ❌，须升级为 `list[int]` 绑定 `course.yaml.experiments[].id`
 
 > 当 Part H 存在 ≥2 项标记时，建议重新审查 `/write Phase 1 Step 2.1b-2.1c` 的联动扫描是否被正确执行。

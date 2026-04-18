@@ -42,13 +42,14 @@
 |:---|:---|:---|
 | `rule_localization.md` | `*/weeks/*/src/*.md` | 编辑脚本时 |
 | `rule_asset_management.md` | `*/visuals/**`, `*/scripts/**`, `*/build/**` | 编辑资产目录时 |
-| `rule_document_boundaries.md` | `*/weeks/*/src/*.md`, `*/knowledge/**` | 编辑脚本/知识库时 |
+| `rule_document_boundaries.md` | `*/weeks/*/src/*.md`, `*/weeks/*/practice.yaml`, `*/practices/*.yaml`, `*/concept_registry.yaml`, `*/knowledge/**` | 编辑脚本/实践/知识库时 |
 | `rule_assessment_constraints.md` | `*/course.yaml` | 编辑成绩配比时 |
 | `rule_content_depth.md` | `*/weeks/*/src/*.md` | 写作过程中的达标防卫(整合原最佳实践和字数门槛) |
 | `rule_narrative_standards.md` | `*/weeks/*/src/*.md` | 叙事质量基础预检 |
 | `rule_outline_alignment.md` | `*/weeks/*/src/*.md` | 大纲对齐验证 |
 | `rule_dma_course_design.md` | `*/course.yaml`, `*/scripts/00_structure_map.md` | DMA 课程设计 |
-| `rule_practice_standards.md` | `*/practices/*.yaml`, `*/practices/*.md` | 实践设计规范、CA 闭环与 AI 教学法合规 |
+| `rule_practice_standards.md` | `*/practices/*.yaml`, `*/practices/*.md`, `*/weeks/*/practice.yaml`, `*/weeks/*/practice_guide.md` | 实践设计规范、CA 闭环与 AI 教学法合规 |
+| `rule_courseyaml_access.md` | `*/course.yaml` | course.yaml 访问约束（ADR 043 R-6，禁止日常工作流直读全文） |
 
 
 ## 脚本生命周期 (Script Lifecycle)
@@ -118,7 +119,8 @@ graph LR
 |:---|:---|
 | `course.yaml.template` | `/new_course` 初始化课程时的标准 Schema 模板 |
 | `experiment_planning.md.template` | 实践规划与实验要求框架模板 |
-| `practice_schema.md` | 每周实践步骤的数据规格定义模板 |
+| `practice_schema.md` | 每周实践步骤的数据规格定义模板 (v3.0, ADR 043) |
+| `extract_week.py` | course.yaml 局部提取器模板 (SSOT, 各课程副本从此复制) |
 
 ## 通用工作流
 

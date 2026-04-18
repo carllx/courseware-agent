@@ -107,6 +107,10 @@ def main():
         (os.path.join(script_dir, "validate_package.py"),
          "V5 Package 架构校验", course_args + ["--compile"]))
 
+    validators.append(
+        (os.path.join(script_dir, "validate_practice.py"),
+         "实践活动 YAML 校验 (ADR 043)", course_args + week_args))
+
     results = []
     for script, desc, extra in validators:
         if not os.path.exists(script):

@@ -30,7 +30,7 @@ Agent 按需加载规则，**不得**在任务开始时一次性加载全部：
 |:---|:---|
 | Phase 1（知识检索） | `rule_content_depth.md`、`librarian`、`narrative_archaeologist` |
 | Phase 2（写作） | `script_format`、`rule_narrative_standards.md`、`rule_localization.md`、`rule_content_depth.md` |
-| Phase 3（校验） | `rule_outline_alignment.md` |
+| Phase 3（校验） | `rule_outline_alignment.md`、`real_asset_scanner` |
 
 > [!IMPORTANT]
 > **字数达标最佳实践**：参见 `rule_content_depth.md` §2 —— Phase A→中间检查点→Phase B 是字数达标的核心机制。

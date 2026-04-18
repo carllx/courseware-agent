@@ -14,14 +14,22 @@ description: 为指定课程的教学单元设计/编辑实践步骤规格
 
 ## 步骤
 
-### Step 1: 读取 course.yaml 上下文
+### Step 1: 读取课程上下文
 
-从 `course.yaml → calendar[week]` 提取：
+通过 `extract_week.py` 提取目标周的教学信息（禁止直接 view_file course.yaml，ADR 043）：
+
+```bash
+python <课程>/extract_week.py --week N --section practice-context
+```
+
+从提取结果中获取：
 - `hours_practice` → 计算 `total_minutes = hours_practice × 45`
 - `exp_id` → 定位关联实验
 - `lessons[].steps` → 获取教案步骤概览
 - `task` → 获取课后作业描述
 - `teaching_requirements` → 理论知识前置要求
+
+> 若 `extract_week.py` 尚未支持 `--section practice-context`，回退为 `--week N`（输出 calendar + objectives + meta）。
 
 ### Step 2: 读取实验规划
 
@@ -36,9 +44,9 @@ description: 为指定课程的教学单元设计/编辑实践步骤规格
    提取本周学生最终需要提交的交付物清单
 2. **逆推活动**：为每个交付物标注"学生需要经历什么步骤才能产出此交付物"，
    据此设计 `phases[]` 的顺序和内容
-3. **绑定理论**：为每个 phase 填写 `theory_link`，确保每个活动都有理论支撑
-   - 使用 `course.yaml.concept_registry[].id` 作为 `theory_link.concept_id`
-   - 使用 `course.yaml.supported_objectives[]` 作为 `theory_link.course_objective`
+3. **绑定理论**：为每个 phase 填写 `theory_link`（结构化对象格式），确保每个活动都有理论支撑
+   - 使用 `<课程>/concept_registry.yaml concepts[].id` 作为 `theory_link.concept_id`
+   - `course_objective` 可选，匹配 `course.yaml.supported_objectives[]`
    - `type ∈ {workshop, practice, critique}` 的 phase **必须** 填写 `theory_link`
 
 ### Step 3: 读取已有脚本（如存在）
@@ -66,24 +74,37 @@ description: 为指定课程的教学单元设计/编辑实践步骤规格
 创建对应的 `<课程>/practices/materials/W0X/` 目录脚手架。
 素材文件本身（图片/数据）的实际生成需通过 `generate_image` 或手动放置完成。
 
+### Step 4.6: 超星题库生成（条件执行）
+
+若 Step 4.5 产出的 `materials` 中包含 `type: quiz`：
+
+1. 加载 `chaoxing-quiz` Skill（`.agent/skills/chaoxing_quiz/SKILL.md`）
+2. 按 Skill §2 生成协议，从 `theory_prerequisites` + `concept_registry.yaml` 提取知识点
+3. 按题型-教学场景映射矩阵生成 8-12 道测验题
+4. 输出到 `<课程>/practices/materials/W0X/chaoxing_quiz_w0X.txt`
+5. 将路径回填到 `practice.yaml` 的 `materials[type:quiz].chaoxing_export` 字段
+
+> 跳过条件：若 `materials` 中无 `type: quiz`，直接跳到 Step 5。
+
 ### Step 5: 运行 rule_practice_design 校验
 
 - `sum(phases[].minutes)` = `total_minutes`
 - `total_minutes` = `course.yaml.hours_practice × 45`
-- `experiment_link` 与 `exp_id` 正确映射
+- `experiment_link` 为 `list[int]`，且每个 ID 匹配 `course.yaml.experiments[].id`
 - `ai_allowed` 与 AI 递进曲线一致
 - 所有必填字段存在
-- `homework.weight` 必填，`homework.deliverables` 非空
-- **theory_link 条件必填**（规则 11）
-- **theory_link 引用完整性**（规则 12）
-- **upstream_dependencies 一致性**（规则 13）
+- `homework.deliverables` 非空
+- **禁止字段检查**：Phase 和 Homework 对象中不得出现 `weight` 或 `scoring_rubric`（SSOT 在 course.yaml，ADR 043）
+- **theory_link 条件必填**（规则 7）
+- **theory_link 引用完整性**（concept_id 匹配 concept_registry.yaml，规则 8）
+- **upstream_dependencies 一致性**（规则 9）
 
 ### Step 5.5: 强制生成 Practice Guide
 
 根据 `_schema.md` 的终极闭环产出要求，生成或更新 `practices/W0X_Practice_Guide.md`：
 - 从 YAML 中提取 phases/materials/homework 结构
 - 渲染为面向学生的图文并茂的 Markdown 操作手册
-- 素材图片使用相对路径引用 `materials/W0X/`
+- 素材图片强制使用回溯相对路径引用：`../../practices/materials/W0X/xxx.png`（严禁使用已废弃的 `public/practice/` 目录）
 
 ### Step 6: 通知用户
 

@@ -43,7 +43,7 @@ description: 创建、编辑和管理 Antigravity IDE 的三大扩展机制—�
 
 ```
 需要对每个请求都生效？
-  ├─ 是 → always (慎用！持续占用上下文)
+  ├─ 是 → always (慎用！持续占用上下文。`always_on` 亦可，两者等效)
   └─ 否 → 与特定文件类型绑定？
             ├─ 是 → glob → 填写 globs 字段
             └─ 否 → 模型能从 description 判断相关性？
@@ -78,7 +78,7 @@ Antigravity 支持**三层互补**的规则定义机制（v1.20.3+ 引入 AGENTS
 
 ```yaml
 ---
-trigger: <always|model_decision|glob|manual>
+trigger: <always|always_on|model_decision|glob|manual>
 description: 当<触发条件>时，<核心行为>。
 # 仅 glob 模式需要：
 globs:
@@ -174,6 +174,7 @@ description: 将脚本导出为指定格式
 | W2 | 命名规范 | 文件名即命令名，全小写，用下划线 |
 | W3 | 步骤明确性 | 每步有明确的动作动词和预期产物 |
 | W4 | 幂等性 | 重复执行不应产生副作用 |
+| W5 | 权限相容性 | 含 `// turbo` 的步骤所调用的命令，应在文档注释中提示用户将其加入 IDE Agent Permissions 的 **Allow List**，否则 `Request Review` 策略下自动执行会被拦截 |
 
 ---
 
@@ -194,13 +195,22 @@ description: 将脚本导出为指定格式
 ---
 name: <kebab-case 名称>
 description: <说明做什么 + 何时触发，中文撰写>
+# 可选（实验性）——限制该 Skill 可调用的工具：
+allowed-tools: Read Grep Glob Bash
 ---
 ```
 
 **必需字段**：`name`（kebab-case，≤ 64 字符）+ `description`（≤ 1024 字符）。
+**可选字段**：`allowed-tools`（实验性）——空格分隔的工具白名单，限制该 Skill 激活时 Agent 可调用的工具范围，用于安全隔离。
 **禁止字段**：Skill 的 frontmatter 中禁止使用 `trigger`/`globs`（那是 Rule 的字段）。
 
-### 3.3 目录结构
+### 3.3 目录结构与安装位置
+
+Skill 可放置在两个位置（工作区级优先于全局级）：
+- **工作区级**：`<workspace>/.agents/skills/<skill-name>/`（新标准）或 `<workspace>/.agent/skills/`（传统兼容）
+- **全局级**：`~/.gemini/antigravity/skills/<skill-name>/`
+
+> **`.agent/` vs `.agents/`**：2026 年初起 `.agents/`（复数）成为跨工具标准目录名。IDE 仍向后兼容 `.agent/`（单数），本项目当前使用传统路径。
 
 ```
 skill-name/
@@ -209,6 +219,8 @@ skill-name/
 ├── references/       # 可选 — 按需加载的参考文档
 └── assets/           # 可选 — 输出资产（模板/图片/字体）
 ```
+
+> **互操作性**：Antigravity 遵循 Agent Skills 开放标准，Skill 可跨 Claude Code、Cursor、GitHub Copilot 等 IDE 使用。编写时避免依赖 Antigravity 独有 API，以保持可移植性。
 
 ### 3.4 渐进式披露与 Token 预算
 
@@ -256,7 +268,7 @@ skill-name/
 
 ---
 
-## $5 Knowledge Items 协作
+## §5 Knowledge Items 协作
 
 Antigravity 内置持久化知识系统（Knowledge Items, KI），由后台 Knowledge Subagent 从对话中自动提取。
 

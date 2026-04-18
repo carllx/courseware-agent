@@ -350,6 +350,142 @@ DEGENERATION_MARKERS = [
     '极端', '死死', '彻底', '极致',
 ]
 
+# ===== AI幻觉与大厂黑话拦截表（rule_narrative_standards.md §1.4）=====
+FATAL_JARGON_MARKERS = [
+    '降维防震', '硬核厚度', '降维打击', '全链路护城河'
+]
+WARN_JARGON_MARKERS = [
+    '赋能', '颗粒度', '抓手', '护城河',
+    '底层逻辑', '顶层设计', '闭环', '势能'
+]
+# 白名单豁免（如果命中 WARN 词汇，但以以下安全定式短语出现，则无罪放行）
+JARGON_WHITELIST = [
+    '决策闭环', '系统闭环', '事件闭环', '业务闭环', '反馈闭环',
+    '底层逻辑门', '物理势能', '重力势能', '引力势能'
+]
+
+
+# ===== 结构性装饰语言检测：「的」字链正则（§10.6 修饰堆叠检测）=====
+# 匹配「X的Y的Z的…」连续三层及以上修饰堆叠
+RE_DE_CHAIN = re.compile(r'[^，。！？；\n]{2,8}的[^，。！？；\n]{2,8}的[^，。！？；\n]{2,8}的')
+
+# ===== 四字格高频非成语过滤表（结构性检测的假阳性抑制）=====
+# 这些 4 连汉字子串在正常文本中高频出现但不是成语/装饰性表达
+TETRAGRAPH_WHITELIST = {
+    '的时候我', '的时候你', '的时候他', '的时候她', '的时候它',
+    '在这里我', '在这里你', '可以看到', '我们可以', '你们可以',
+    '也就是说', '换句话说', '不仅如此', '与此同时', '在这个时',
+    '这个时候', '那个时候', '什么时候', '为什么我', '为什么你',
+    '第一个是', '第二个是', '第三个是', '怎么样的', '什么样的',
+    '有没有什', '是不是这', '是因为我', '是因为你', '是因为它',
+}
+
+
+def _analyze_paragraphs(text: str) -> dict:
+    """
+    段落级结构性装饰语言检测（语言无关——不依赖具体词汇，只检测写作模式）。
+
+    三个结构指标：
+      1. 四字格密度（tetragraph_density）：同一窗口内 4 连汉字并列搭配的密度
+      2.「的」字链深度（de_chain_count）：X的Y的Z的 三层修饰堆叠出现次数
+      3. 窗口级极端修饰语（paragraph_marker_count）：§10.5 的自动化实现
+
+    注意：section_text 使用单换行连接 speech_lines，无法用 \\n\\n 分段。
+    因此改用「句末标点分句 → 每 5 句为一个检测窗口」的策略。
+
+    返回 dict:
+      - para_issues: [(窗口编号, 问题描述), ...]
+      - worst_tetragraph_density: 最高四字格密度
+      - total_de_chains: 全模块「的」字链总数
+      - has_structural_degen: 是否存在结构性退化
+    """
+    # 按句末标点分句，然后每 WINDOW_SIZE 句组成一个检测窗口
+    WINDOW_SIZE = 5
+    raw_sentences = re.split(r'[。！？]', text)
+    raw_sentences = [s.strip() for s in raw_sentences if len(s.strip()) > 5]
+
+    # 滑动窗口分组
+    paragraphs = []
+    for idx in range(0, len(raw_sentences), WINDOW_SIZE):
+        window = '。'.join(raw_sentences[idx:idx + WINDOW_SIZE])
+        if len(window) > 30:
+            paragraphs.append(window)
+    para_issues = []
+    worst_tetragraph_density = 0.0
+    total_de_chains = 0
+    has_structural_degen = False
+
+    for i, para in enumerate(paragraphs, 1):
+        issues = []
+        para_cn = re.sub(r'[^\u4e00-\u9fff]', '', para)
+        para_cn_len = len(para_cn)
+        if para_cn_len < 20:
+            continue
+
+        # --- 指标 1：四字格密度 ---
+        # 提取所有 4 连汉字子串，过滤白名单中的常见非成语组合
+        tetragraph_hits = 0
+        if para_cn_len >= 4:
+            seen = set()
+            for j in range(len(para_cn) - 3):
+                quad = para_cn[j:j + 4]
+                if quad not in seen and quad not in TETRAGRAPH_WHITELIST:
+                    seen.add(quad)
+            # 用顿号分隔的并列四字格是堆砌的强信号
+            # 匹配：「AAAA、BBBB」或「AAAA，BBBB，CCCC」的模式
+            tetragraph_chains = re.findall(
+                r'[\u4e00-\u9fff]{4}[、，][\u4e00-\u9fff]{4}', para
+            )
+            tetragraph_hits = len(tetragraph_chains)
+
+        tetragraph_density = tetragraph_hits / (para_cn_len / 100) if para_cn_len > 0 else 0
+        worst_tetragraph_density = max(worst_tetragraph_density, tetragraph_density)
+
+        if tetragraph_density >= 5:
+            issues.append(f'四字格{tetragraph_density:.1f}/百字')
+            has_structural_degen = True
+
+        # --- 指标 2：「的」字链深度 ---
+        de_chains = RE_DE_CHAIN.findall(para)
+        de_chain_count = len(de_chains)
+        total_de_chains += de_chain_count
+
+        if de_chain_count >= 2:
+            issues.append(f'的链×{de_chain_count}')
+            has_structural_degen = True
+
+        # --- 指标 3：段落级极端修饰语（实现 §10.5）---
+        para_marker_count = sum(para.count(w) for w in DEGENERATION_MARKERS)
+        if para_marker_count >= 3:
+            issues.append(f'极端修饰×{para_marker_count}')
+            has_structural_degen = True
+
+        if issues:
+            para_issues.append((i, ','.join(issues)))
+
+    return {
+        'para_issues': para_issues,
+        'worst_tetragraph_density': round(worst_tetragraph_density, 1),
+        'total_de_chains': total_de_chains,
+        'has_structural_degen': has_structural_degen,
+    }
+
+
+def _info_compression_ratio(text: str) -> float:
+    """
+    信息压缩比（ICR）：加粗锚词数 / (段落中文字数 / 100)。
+
+    衡量文本的信息密度——加粗锚词代表有意义的核心概念标记。
+    健康段落 ICR ≥ 1.0（每百字至少 1 个核心概念）。
+    ICR < 0.5 且段落 > 200 字 → 疑似修饰语填充。
+    """
+    # 统计加粗标记数量
+    bold_count = len(re.findall(r'\*\*[^*]+\*\*', text))
+    cn_count = len(re.findall(r'[\u4e00-\u9fff]', text))
+    if cn_count == 0:
+        return 0.0
+    return bold_count / (cn_count / 100)
+
 
 def detect_dilution(mod: dict) -> dict:
     """
@@ -367,6 +503,7 @@ def detect_dilution(mod: dict) -> dict:
       - has_cycle: 是否存在 4-gram 循环碎片
       - is_degenerated: 综合退化判定
       - degen_reasons: 退化原因列表
+      - para_issues: 段落级结构性问题列表（v2 新增）
     """
     text = mod.get('section_text', '')
     cn_count = mod.get('cn_count', 0)
@@ -421,9 +558,22 @@ def detect_dilution(mod: dict) -> dict:
 
     # ===== 5. LLM 退化检测（rule_narrative_standards.md §7.4）=====
 
-    # 5a. 极端修饰语密度（次/百字）
+    # 5a. 极端修饰语密度（次/百字）——阈值从 >6 降为 >2（v2 修复）
     marker_count = sum(text.count(w) for w in DEGENERATION_MARKERS)
     marker_density = marker_count / (cn_count / 100) if cn_count > 0 else 0
+
+    # 5a-2. 黑话/幻觉词违规扫描
+    fatal_jargons = [w for w in FATAL_JARGON_MARKERS if w in text]
+    
+    # 5a-3. 警告级黑话过滤（结合白名单上下文豁免）
+    warn_jargons = []
+    for w in WARN_JARGON_MARKERS:
+        if w in text:
+            clean_text = text
+            for wl in JARGON_WHITELIST:
+                clean_text = clean_text.replace(wl, '')
+            if w in clean_text:
+                warn_jargons.append(w)
 
     # 5b. 最长无标点句（两个句末标点之间的最大汉字数）
     max_unpunctuated = max(
@@ -439,10 +589,24 @@ def detect_dilution(mod: dict) -> dict:
     worst_4gram = ngram4_counts.most_common(1)[0] if ngram4_counts else (None, 0)
     has_cycle = worst_4gram[1] > 8
 
-    # 5d. 退化综合判定
+    # ===== 5d. 段落级结构性装饰语言检测（v2 新增）=====
+    para_result = _analyze_paragraphs(text)
+
+    # ===== 5e. 信息压缩比（v2 新增）=====
+    icr = _info_compression_ratio(text)
+    low_icr = icr < 0.5 and cn_count > 200
+
+    # 5f. 退化综合判定
     is_degenerated = False
     degen_reasons = []
-    if marker_density > 6:
+
+    # 如果有警告级黑话，将其降级并推入 Dilution (稀释) 理由，以 ⚠️ 显示
+    if warn_jargons:
+        is_diluted = True
+        reasons.append(f"涉嫌黑话({','.join(warn_jargons[:2])})")
+
+    # 模块级极端修饰语密度（阈值 v2: >6 → >2）
+    if marker_density > 2:
         is_degenerated = True
         degen_reasons.append(f'修饰语{marker_density:.1f}/百字')
     if max_unpunctuated > 400:
@@ -451,6 +615,23 @@ def detect_dilution(mod: dict) -> dict:
     if has_cycle:
         is_degenerated = True
         degen_reasons.append(f'4g循环×{worst_4gram[1]}')
+    if fatal_jargons:
+        is_degenerated = True
+        degen_reasons.append(f"幻觉死罪({','.join(fatal_jargons[:2])})")
+
+    # 段落级结构性退化（v2 新增）
+    if para_result['has_structural_degen']:
+        is_degenerated = True
+        # 格式化段落问题为紧凑的报告字符串
+        para_summary = ' '.join(
+            f'P{num}:{desc}' for num, desc in para_result['para_issues'][:4]
+        )
+        degen_reasons.append(para_summary)
+
+    # 信息压缩比过低（v2 新增）
+    if low_icr:
+        is_diluted = True
+        reasons.append(f'ICR={icr:.1f}(锚词稀疏)')
 
     return {
         'oral_tag_count': oral_tags,
@@ -466,6 +647,11 @@ def detect_dilution(mod: dict) -> dict:
         'has_cycle': has_cycle,
         'is_degenerated': is_degenerated,
         'degen_reasons': degen_reasons,
+        # v2 新增：段落级结构性指标
+        'para_issues': para_result['para_issues'],
+        'worst_tetragraph_density': para_result['worst_tetragraph_density'],
+        'total_de_chains': para_result['total_de_chains'],
+        'icr': round(icr, 1),
     }
 
 

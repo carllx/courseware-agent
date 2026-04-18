@@ -85,3 +85,12 @@ description: 维护项目健康度、文档一致性和教学质量的自动化�
     python scripts/validate_package.py --course "信息可视化" --compile
     python scripts/validate_package.py --file "信息可视化/weeks/W01_Visual_Perception/package.yaml"
     ```
+
+### 8. 资产落位验证 (`validate_asset_placement.py`)
+*   **用途**: 检测 V5 课程中资产是否被错误存放在课程级 `public/`（应在周次级 `weeks/W0X/public/`）；验证脚本 `[VISUAL]` Asset 路径能否解析到物理文件。
+*   **触发规则**: `rule_asset_placement_guard.md`（预防层）
+*   **用法**:
+    ```bash
+    python scripts/validate_asset_placement.py --course "信息可视化"
+    python scripts/validate_asset_placement.py --course "信息可视化" --fix  # 自动迁移+清理
+    ```

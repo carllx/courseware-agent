@@ -461,6 +461,92 @@ def load_course_yaml(path: str, week: int = None) -> dict:
 
 
 # ====================================================================
+# H2 标题提取（从裸 PPT 的 Module 过渡页中扫描）
+# ====================================================================
+
+def _extract_h2_from_script(pptx_path: str, info: dict) -> list:
+    """从输入 PPTX 中提取 H2 过渡页的模块标题列表。
+
+    generate_course_ppt.js 为每个 H2 跳变生成一张过渡页，
+    特征：深色背景 + 单个大字号居中文本 + 无 Speaker Notes。
+    我们也兼容直接从 compiled.md 提取。
+
+    优先级：
+    1. 从 package.yaml 同目录的 compiled.md 提取 H2 行（最可靠）
+    2. 从 PPTX 的过渡页扫描（fallback）
+    """
+    import re
+
+    # --- 策略 1：从 compiled.md 提取 ---
+    # 推导 compiled.md 路径：
+    # 输入 PPTX 路径类似 .../build/artifacts/_intermediate/课程_周次_Presentation.pptx
+    # compiled.md 在 .../weeks/<weekId>/.build/compiled.md
+    pptx_p = Path(pptx_path).resolve()
+
+    # 从文件名推导周次 ID (e.g. 信息可视化_W01_Visual_Perception_Presentation.pptx)
+    stem = pptx_p.stem
+    # 匹配 <课程>_<W0X_Name>_Presentation
+    m = re.match(r'.+?_(W\d+_.+?)_Presentation$', stem)
+    if m:
+        week_id = m.group(1)
+        # 向上找课程根目录（build/artifacts/_intermediate/ 的 3 层父级）
+        course_root = pptx_p.parent.parent.parent.parent
+        compiled_path = course_root / "weeks" / week_id / ".build" / "compiled.md"
+        if compiled_path.exists():
+            h2_titles = []
+            with open(compiled_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    # 匹配 ## 开头但不匹配 ### 或 ####
+                    if re.match(r'^##(?!#)\s+(.+)$', line):
+                        title = re.match(r'^##\s+(.+)$', line).group(1).strip()
+                        h2_titles.append(title)
+            if h2_titles:
+                return h2_titles
+
+    # --- 策略 1b：从 src/ 目录扫描 M*.md 文件的 H2 行 ---
+    if m:
+        src_dir = course_root / "weeks" / week_id / "src"
+        if src_dir.exists():
+            h2_titles = []
+            # 按文件名排序确保 M00, M01, M02... 顺序
+            md_files = sorted(src_dir.glob("M*.md"))
+            for md_file in md_files:
+                with open(md_file, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if re.match(r'^##(?!#)\s+(.+)$', line):
+                            title = re.match(r'^##\s+(.+)$', line).group(1).strip()
+                            h2_titles.append(title)
+                            break  # 每个文件只取第一个 H2
+            if h2_titles:
+                return h2_titles
+
+    # --- 策略 2：从 PPTX 过渡页扫描 ---
+    try:
+        from pptx import Presentation as PrsReader
+        prs = PrsReader(pptx_path)
+        h2_titles = []
+        for slide in prs.slides:
+            # 过渡页特征：无 notes，只有 1-2 个 shape，文本单行
+            notes = slide.notes_slide.notes_text_frame.text if slide.has_notes_slide else ""
+            if notes.strip():
+                continue  # 有 notes 的不是过渡页
+            text_shapes = [s for s in slide.shapes if s.has_text_frame]
+            if len(text_shapes) == 1:
+                txt = text_shapes[0].text_frame.text.strip()
+                # 过滤掉太短或太长的（过渡页标题通常 5~80 字符）
+                if 5 <= len(txt) <= 80 and "\n" not in txt:
+                    h2_titles.append(txt)
+        if h2_titles:
+            return h2_titles
+    except Exception:
+        pass
+
+    return None
+
+
+# ====================================================================
 # CLI 入口
 # ====================================================================
 
@@ -588,15 +674,18 @@ def main():
     # ── 头部固定环节（从后往前插入到位置 0）────
 
     if "toc" not in skip:
-        # 优先使用 --sections CLI，否则从 calendar content 提取
+        # 优先使用 --sections CLI，否则从实际脚本 H2 标题提取
         sections_list = None
         if args.sections:
             sections_list = [s.strip() for s in args.sections.split(",")]
-        elif info.get("content"):
-            # 解析 course.yaml 中的 content 多行文本
-            raw = info["content"].strip()
-            sections_list = [line.strip() for line in raw.split("\n")
-                             if line.strip()]
+        else:
+            # 尝试从编译后的脚本中提取 H2 标题（Module 级目录）
+            sections_list = _extract_h2_from_script(args.input, info)
+            if not sections_list and info.get("content"):
+                # 降级：从 course.yaml 的 calendar content 提取
+                raw = info["content"].strip()
+                sections_list = [line.strip() for line in raw.split("\n")
+                                 if line.strip()]
         gen_toc(prs, theme, layout_cfg, media_dir, info, sections=sections_list)
         _move_slide(prs, len(prs.slides) - 1, 0)
         print("✅ 目录页" + (f" ({len(sections_list)} 条)" if sections_list else ""))

@@ -22,6 +22,7 @@ globs:
 | 值 | 说明 |
 |:---|:---|
 | `always` | 每次对话都注入 |
+| `always_on` | 同 `always`（官方别名，两者等效） |
 | `model_decision` | 模型自主判断是否注入 |
 | `glob` | 文件路径匹配时注入 |
 | `manual` | `@rule_name` 显式引用时注入 |

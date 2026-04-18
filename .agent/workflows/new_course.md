@@ -42,26 +42,48 @@ description: 创建新课程的标准目录结构和配置文件
 
 3.  **初始化 Practice 基础设施**
 
-    1. 复制 practice schema 模板到新课程：
+    1. 创建精简引用 Schema（指向全局 SSOT，而非全量复制）：
     ```bash
-    cp .agent/templates/practice_schema.md "$1/practices/_schema.md"
+    cat > "$1/practices/_schema.md" << 'EOF'
+    # Practice YAML Schema (本地引用)
+
+    > **SSOT**: `.agent/templates/practice_schema.md` **v3.0** (ADR 043)
+    > 本文件仅包含本课程特有的扩展/覆盖，通用规范请查阅 SSOT。
+
+    ## 本课程扩展
+    - 无特殊扩展，完全遵循全局模板
+    EOF
     ```
 
-    2. 遍历 `course.yaml` 的 `calendar[]`，为每个 `hours_practice > 0` 的周次
-       生成骨架 practice YAML（`$1/practices/W0X_practice.yaml`）：
+    2. 创建空 `concept_registry.yaml`：
+    ```yaml
+    # concept_registry.yaml — 概念 ID 注册表
+    # SSOT: 本文件是 theory_link.concept_id 的唯一定义点
+    # Schema Version: 1.0 (ADR 043)
+    concepts: []
+    ```
+
+    3. 复制 `extract_week.py` 到新课程目录：
+    ```bash
+    cp .agent/templates/extract_week.py "$1/extract_week.py"
+    ```
+    > 若模板不存在，从已有课程（如 `交互产品开发/extract_week.py`）复制。
+
+    4. 遍历 `course.yaml` 的 `calendar[]`，为每个 `hours_practice > 0` 的周次
+       生成骨架 practice YAML（`$1/weeks/W0X_Name/practice.yaml`）：
     ```yaml
     week: X
     title: "TODO: 从 course.yaml calendar[X].topic 填充"
     total_minutes: # hours_practice × 45
     theory_prerequisites: []
-    experiment_link: ""
+    experiment_link: []  # list[int]，绑定 course.yaml.experiments[].id
     phases: []
     homework:
-      weight: ""
       deliverables: []
     ```
+    > ⚠️ **禁止在骨架中添加 `weight` 或 `scoring_rubric`**——成绩权重 SSOT 在 course.yaml（ADR 043）。
 
-    3. 通知用户：
+    5. 通知用户：
     ```
     ⚠️ 已为 N 个含实践课时的周次生成骨架 practice YAML。
     请通过 /design_practice 逐周设计实践步骤。

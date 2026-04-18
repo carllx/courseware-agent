@@ -92,3 +92,16 @@
 | `<课程>/practices/experiment_planning.md` | `/write` Phase 1 Step 2.1b, `/audit_deep` Part H, `/design_practice` Step 2 | 实验进度、数据流、AI 边界、工具链约束 |
 | `<课程>/practices/project_brief.md` | `/write` Phase 1 Step 2.1b, `/audit_deep` Part H | 综合项目节点、交付物清单 |
 | `<课程>/practices/W0X_practice.yaml` | `/write` Phase 1 Step 2.1b, `/audit_deep` Part H | 每周实践步骤规格、时间分配、AI 边界 |
+
+---
+
+## 概念注册与 Schema 版本同步 (ADR 043)
+
+| 上游文件 | 下游依赖 | 影响说明 |
+|:---|:---|:---|
+| `<课程>/concept_registry.yaml` | `practices/W0X_practice.yaml` theory_link.concept_id | 概念 ID 注册表变更须同步检查所有引用的 practice.yaml |
+| `.agent/templates/practice_schema.md` (SSOT) | `<课程>/practices/_schema.md` (精简引用) | Schema 版本号变更须同步本地引用文件 |
+| `<课程>/extract_week.py --include-concepts` | `<课程>/concept_registry.yaml` | 提取器从 concept_registry.yaml 加载概念子集 |
+| `<课程>/weeks/W0X/practice.yaml` | `<课程>/weeks/W0X/practice_guide.md` | YAML 内容变更后须重新渲染面向学生的操作手册 |
+| `<课程>/extract_week.py` (各课程副本) | `.agent/templates/extract_week.py` (SSOT) | 提取器模板变更须同步到所有课程副本 |
+

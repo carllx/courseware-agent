@@ -4,6 +4,11 @@ description: 当编辑脚本或知识库文档时，强制执行 SSOT 职责边�
 globs:
   - "**/weeks/*/src/*.md"
   - "**/weeks/*/package.yaml"
+  - "**/weeks/*/practice.yaml"
+  - "**/weeks/*/practice_guide.md"
+  - "**/practices/*.yaml"
+  - "**/practices/*.md"
+  - "**/concept_registry.yaml"
   - "**/knowledge/**"
 ---
 
@@ -24,6 +29,7 @@ globs:
 | `scripts/00_structure_map.md` | 课程结构、时间轴、教学节奏 | Slide ID | ❌ 视觉设计、Slide 定义 |
 | `scripts/Sxx_*.md` / `scripts/Wxx_*.md` | 逐字稿、演示动作、**Slide 内联定义** | Asset 路径 | ❌ 课程结构、❌ 教案索引字段 |
 | `course.yaml` calendar[] | 教案索引字段 SSOT：`supported_objectives`(list)、`task`(str)、`lessons[].steps`；大纲字段：`teaching_requirements`(str\|dict, ADR 008)、`focus`/`difficulty`/`ideology`/`teaching_method`(str) | frontmatter 结构数据 | ❌ 逐字稿内容 |
+| `<课程>/concept_registry.yaml` | 概念 ID 注册表（`theory_link.concept_id` 的唯一定义点） | 被 `practices/*.yaml` theory_link 引用 | ❌ 成绩权重、实验参数、课程结构 |
 | `practices/experiment_planning.md` | 实验任务详情层（目标/工具/交付物/周次等） | - | ❌ 定义成绩权重、实验名称（SSOT 在 course.yaml） |
 | `knowledge/` | 教材、术语、教纲 | - | ❌ 课程结构、视觉设计 |
 
@@ -54,9 +60,15 @@ Slide 使用 `> [VISUAL]` 块内联定义在 Script 中：
 > [ACTIVITY]
 > *   **Type**: `Practice`
 > *   **Duration**: `15min`
-> *   **experiment_id**: `2`   ← 强制外键关联
+> *   **experiment_id**: `2`   ← 强制外键关联（绑定 course.yaml experiments[].id）
 > *   **Desc**: 实验详情描述...
 ```
+
+### course.yaml 访问约束 (ADR 043)
+
+> **日常高频工作流**（`/write`, `/audit` Quick/Standard, `/design_practice`）**禁止直接 `view_file` course.yaml 全文**。
+> 必须通过 `<课程>/extract_week.py --week N` 提取所需局部数据（~2-5KB vs 全量 ~51KB）。
+> 仅 `/audit --deep` Part F 和教务生成器允许加载 course.yaml 全量。
 
 ## 5. 引用规范
 
@@ -78,8 +90,10 @@ Slide 使用 `> [VISUAL]` 块内联定义在 Script 中：
 2. ❌ 在同一脚本中重复定义相同 Slide ID
 3. ❌ 在脚本中硬编码绝对资产路径
 4. ❌ 维护独立的 `slide_database.md` 文件（已废弃）
-5. ❌ 在 `practices/` 中重复定义在 `course.yaml` 中已有字段的副本（如计分比例）
+5. ❌ 在 `practices/` 中重复定义在 `course.yaml` 中已有字段的副本（如计分比例、成绩权重）
 6. ❌ 在脚本 frontmatter 中存储教案索引字段（`supported_objectives`/`task`/`steps`），这些字段的 SSOT 在 `course.yaml`（ADR 007）
+7. ❌ 在 practice.yaml 的 Phase 或 Homework 对象中定义 `weight` 或 `scoring_rubric` 字段（SSOT 在 `course.yaml.assessment_methods`，ADR 043）
+8. ❌ 日常工作流（/write, /audit Quick/Standard, /design_practice）直接 `view_file` course.yaml 全文（使用 `extract_week.py` 提取局部，ADR 043）
 
 ## 7. 评分体系 SSOT 规范 (Assessment Naming Convention)
 

@@ -4,6 +4,8 @@ trigger: glob
 globs:
   - "**/practices/*.yaml"
   - "**/practices/*.md"
+  - "**/weeks/*/practice.yaml"
+  - "**/weeks/*/practice_guide.md"
 ---
 
 # 实践教学规范与设计指南 (Practice Standards & Best Practices)
@@ -18,12 +20,17 @@ globs:
 3. **课时硬门槛**：`sum(phases[].minutes)` 必须精确等于 `total_minutes`，且对齐于 `course.yaml` 规定的实验课时上限（例如 `hours_practice × 45`）。
 
 ### 1.2 构建性对齐 (Constructive Alignment)
-- **拒绝无效动作**：任何 "点鼠标照做" 的纯流水线缺乏价值。当 phase 类型为 `workshop`/`practice`/`critique` 时，**必须显式提供 `theory_link`** 且该 `concept_id` 必须命中 `course.yaml`。
+- **拒绝无效动作**：任何 "点鼠标照做" 的纯流水线缺乏价值。当 phase 类型为 `workshop`/`practice`/`critique` 时，**必须显式提供 `theory_link`**（结构化对象格式），且该 `concept_id` 必须命中 `<课程>/concept_registry.yaml`。
 - **目标必须可见**：若教学目标是 "分析 (Analyze)"，设计中必须有拆解、对比环节（如 `critique`）；若目标是 "创造"，必须是半开放式的 `workshop`。
 
 ### 1.3 跨周数据生命追踪 (Upstream Dependencies)
 当实践涉及连续数据流（例如 W01 做清洗，W02 做分析，W03 做可视化）时：
 - 消费端（如 W02）必须在 `phases[].upstream_dependencies` 显式写入其数据源（如 `source: W01.P3`，`artifact: tidy_dataset.csv`），严禁仅在纯文本中描述。
+
+### 1.4 素材存管合规与隔离墙原则 (Material Sandboxing)
+- **物理隔离**：实践手册专用素材（数据集/填字图/测验卡等）**必须**存放在 `<课程>/practices/materials/W0X/`。
+- **防止资产污染**：**严禁**把实践辅助图片塞入 `weeks/W0X/public/practice/`。`public` 目录属于 H5 前端引擎专用，不负责存储教学考评类沙盒文件。
+- **引用范式**：在 `practice_guide.md` 中插入图片时，**必须**使用回溯路径引用沙盒文件：`![...](../../practices/materials/W0X/xxx.png)`。
 
 ---
 
@@ -63,4 +70,6 @@ globs:
 ## 变更检查单
 
 - 修改 `.yaml` 后，检查原 `src/` Markdown 课件里的 `[ACTIVITY]` 引用块是否已同步。
+- 确认 `experiment_link` 为 `list[int]` 格式（绑定 `course.yaml.experiments[].id`）。
+- 确认无 `weight` 或 `scoring_rubric` 字段出现在 Phase 或 Homework 对象中（SSOT 在 course.yaml，ADR 043）。
 - **强制闭环**：课表设计完成后，必须生成/更新出供学生直接调用的 `_Practice_Guide.md` 操作指南手册，严禁让学生直接对着 `yaml` 施工。

@@ -37,6 +37,9 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
 
 输出包含本周 calendar、对应 objectives 子集和课程元信息（~2-5KB）。
 
+> [!CAUTION]
+> **禁止直接 `view_file` course.yaml 全文** (ADR 043)。日常工作流必须通过 `extract_week.py` 提取局部数据。
+
 ### Step 2: 加载上下文
 *   **结构**: `<课程>/weeks/_archive/00_structure_map.md`
 *   **知识入口**: `<课程>/knowledge/knowledge_hub.yaml`（仅加载此文件，不直接加载 `index.json`）
@@ -71,7 +74,7 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
 
 2. **微观扫描（每周 Practice YAML）**：
     - 读取 `<课程>/practices/W0X_practice.yaml` (若缺失则标记 `[WARN] 建议先执行 /design_practice`，不阻塞)。
-    - 抓取 `theory_prerequisites` 和 `theory_link` 以校验本周讲授模块是否覆盖核心前置概念。
+    - 抓取 `theory_prerequisites` 和 `theory_link`（结构化对象，`concept_id` 引用 `<课程>/concept_registry.yaml`）以校验本周讲授模块是否覆盖核心前置概念。
     - 抓取 `upstream_dependencies` 确保跨周实践数据链条完整。
 
 3. **输出联动备忘录**：

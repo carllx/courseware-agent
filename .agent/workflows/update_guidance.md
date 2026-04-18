@@ -149,16 +149,20 @@ grep_search "<变更关键词>" --path .agent/ --includes "*.md,*.py,*.js"
 | G1 | `hours_practice` 变更 | ① 对应 `W0X_practice.yaml.total_minutes` 是否同步更新 ② Practice Guide 学时显示是否一致 |
 | G2 | `teaching_requirements` 变更 | ① 对应 `W0X_practice.yaml.theory_prerequisites` 是否需要同步 |
 | G3 | `supported_objectives` 变更 | ① 对应 `phases[].theory_link.course_objective` 是否仍指向有效目标 |
-| G4 | `concept_registry` 变更（ID 重命名/删除） | ① grep 所有 `practices/*.yaml` 中的 `concept_id` 引用 ② 标记断链 |
-| G5 | `experiments[]` 变更 | ① `experiment_link` 映射是否仍有效 ② Practice Guide 中的实验引用是否需更新 |
+| G4 | `concept_registry.yaml` 变更（ID 重命名/删除） | ① grep 所有 `practices/*.yaml` 和 `weeks/*/practice.yaml` 中的 `concept_id` 引用 ② 标记断链 |
+| G5 | `experiments[]` 变更 | ① `experiment_link`（`list[int]`）绑定 ID 是否仍有效 ② Practice Guide 中的实验引用是否需更新 |
+| G6 | `extract_week.py` 模板变更 | ① `.agent/templates/extract_week.py` (SSOT) 修改后，须同步到所有课程目录的副本 ② diff 确认各副本一致 |
+| G7 | `practice_schema.md` 版本升级 | ① 各课程 `practices/_schema.md` 的版本引用须同步更新 ② 运行 `validate_practice.py --all` 确认无回归 |
 
 **执行方法**：
 ```bash
-# 跨课程 practice YAML 一致性快速检查
-for f in */practices/W*_practice.yaml; do
-  echo "=== $f ==="
-  grep -n "total_minutes\|concept_id\|course_objective\|experiment_link" "$f"
-done
+# 自动化校验（推荐，替代手动 grep）
+/opt/anaconda3/envs/mybase/bin/python \
+  .agent/skills/validation_suite/scripts/validate_practice.py --all
+
+# G6: extract_week.py 跨课程同步检查
+diff .agent/templates/extract_week.py 交互产品开发/extract_week.py
+diff .agent/templates/extract_week.py 信息可视化/extract_week.py
 ```
 
 ## Step 3: 执行更新

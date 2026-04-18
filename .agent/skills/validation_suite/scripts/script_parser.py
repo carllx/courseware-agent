@@ -144,11 +144,15 @@ def normalize_asset_path(raw: str) -> str:
 RE_SLIDE_FIELD = _field_re("Slide")
 RE_LAYOUT_FIELD = _field_re("Layout")
 RE_SCENE_FIELD = _field_re("Scene", freeform=True)
-RE_TEXT_FIELD = _field_re("Text", freeform=False)
+RE_TEXT_FIELD = _field_re("Text", freeform=True)
 RE_ASSET_FIELD = _field_re("Asset")
 RE_ACTIVITY_TYPE = _field_re("Type")
 RE_ACTIVITY_DURATION = _field_re("Duration")
 RE_ACTIVITY_DESC = _field_re("Desc", freeform=True)
+
+# VISUAL 块扩展字段：视频时长归因
+RE_VISUAL_DURATION = _field_re("Duration")
+RE_VISUAL_TIME_CAT = _field_re("TimeCategory")
 
 # 多资产匹配：支持 **Asset**, **Asset 1**, **Asset 2**, **Resource** 等
 RE_ASSET_MULTI_FIELD = re.compile(
@@ -173,6 +177,20 @@ def _parse_duration(text: str) -> int:
     if m:
         return int(float(m.group(1)) * 60)
     return 0
+
+
+def _parse_visual_duration(text: str) -> int:
+    """将 VISUAL 块的 Duration 文本解析为秒数。
+
+    支持 `XmXXs` 格式（如 '2m30s'、'0m15s'）和 ACTIVITY 格式（如 '5min'）。
+    """
+    text = text.strip().lower()
+    # XmXXs 格式（VISUAL 块标准格式）
+    m = re.match(r'(\d+)m(\d+)s', text)
+    if m:
+        return int(m.group(1)) * 60 + int(m.group(2))
+    # 回退到通用解析
+    return _parse_duration(text)
 
 
 def parse_script(file_path: str) -> list[ScriptBlock]:
@@ -293,7 +311,7 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                             meta["scene"] = _extract(scm, freeform=True)
                         txtm = RE_TEXT_FIELD.search(il)
                         if txtm:
-                            meta["text"] = _extract(txtm)
+                            meta["text"] = _extract(txtm, freeform=True)
                         # 多资产匹配（Asset / Asset 1 / Asset 2 / Resource）
                         am = RE_ASSET_MULTI_FIELD.search(il)
                         if am:
@@ -301,6 +319,15 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                             clean = normalize_asset_path(raw_path)
                             if clean:
                                 asset_list.append(clean)
+                        # VISUAL 块扩展字段：Duration 和 TimeCategory
+                        vdm = RE_VISUAL_DURATION.search(il)
+                        if vdm:
+                            raw_dur = _extract(vdm)
+                            meta["media_duration_raw"] = raw_dur
+                            meta["media_duration_sec"] = _parse_visual_duration(raw_dur)
+                        tcm = RE_VISUAL_TIME_CAT.search(il)
+                        if tcm:
+                            meta["time_category"] = _extract(tcm).lower()
 
                     # 输出兼容层:
                     # - meta["assets"]: 完整资产列表（新 API）

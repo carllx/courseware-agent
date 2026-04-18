@@ -297,19 +297,8 @@ exams:
               score: 0
 
 # ──────────────────────────────────────────────────────────
-# 知识点注册表 (Concept Registry) — 借鉴 1EdTech CASE 标准
+# 知识点注册表 (Concept Registry) — ADR 043
 # ──────────────────────────────────────────────────────────
-# 为每个核心知识点分配唯一 ID，供 practices/W0X_practice.yaml 的
-# theory_link.concept_id 引用。实现理论→实践的机器可追溯链路。
-#
-# concept_registry:
-#   - id: "example_concept"             # 唯一标识符，snake_case
-#     label: "概念中文名称"              # 人类可读标签
-#     bloom_level: "understand"          # Bloom 层级: remember/understand/apply/analyze/evaluate/create
-#     first_introduced: W01             # 首次引入周次
-#     textbook_ref: ""                  # 可选：对应 knowledge_hub 条目 ID
-#   - id: "another_concept"
-#     label: "另一个概念"
-#     bloom_level: "apply"
-#     first_introduced: W02
-#     textbook_ref: ""
+# ⚠️ concept_registry 为独立文件，不内嵌于 course.yaml（ADR 043 R-2）。
+# /new_course 工作流 Step 3.2 会自动创建 <课程>/concept_registry.yaml。
+# 详见 .agent/templates/practice_schema.md v3.0 的 theory_link 规范。
