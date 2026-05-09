@@ -364,6 +364,15 @@ JARGON_WHITELIST = [
     '底层逻辑门', '物理势能', '重力势能', '引力势能'
 ]
 
+# ===== DMA 学生不友好抽象表达拦截表（rule_prerequisite_awareness.md §3.4）=====
+# 这些词组不是“黑话”，而是 Agent 误认为通俗、但 DMA 学生无法具象化的技术隐喻
+ABSTRACTION_MARKERS = [
+    '数据节点', '算法吞吐', '数据瀑布', '信息流分发', '单向控制',
+    '双向关联', '底层链路', '数据基座', '二元映射',
+    '算法画像', '推荐引擎', '数据挖掘', '中间件', '异步并发',
+    '数据管线', '回调业务', '防抖处理', '状态轮转',
+]
+
 
 # ===== 结构性装饰语言检测：「的」字链正则（§10.6 修饰堆叠检测）=====
 # 匹配「X的Y的Z的…」连续三层及以上修饰堆叠
@@ -434,7 +443,7 @@ def _analyze_paragraphs(text: str) -> dict:
             # 用顿号分隔的并列四字格是堆砌的强信号
             # 匹配：「AAAA、BBBB」或「AAAA，BBBB，CCCC」的模式
             tetragraph_chains = re.findall(
-                r'[\u4e00-\u9fff]{4}[、，][\u4e00-\u9fff]{4}', para
+                r'(?<![\u4e00-\u9fff])[\u4e00-\u9fff]{4}[、，][\u4e00-\u9fff]{4}(?![\u4e00-\u9fff])', para
             )
             tetragraph_hits = len(tetragraph_chains)
 
@@ -596,6 +605,11 @@ def detect_dilution(mod: dict) -> dict:
     icr = _info_compression_ratio(text)
     low_icr = icr < 0.5 and cn_count > 200
 
+    # ===== 5g. DMA 学生不友好抽象表达密度（v3 新增）=====
+    abstraction_count = sum(text.count(w) for w in ABSTRACTION_MARKERS)
+    abstraction_density = abstraction_count / (cn_count / 100) if cn_count > 0 else 0
+    abstraction_hits = [w for w in ABSTRACTION_MARKERS if w in text]
+
     # 5f. 退化综合判定
     is_degenerated = False
     degen_reasons = []
@@ -633,6 +647,11 @@ def detect_dilution(mod: dict) -> dict:
         is_diluted = True
         reasons.append(f'ICR={icr:.1f}(锚词稀疏)')
 
+    # DMA 学生不友好抽象表达（v3 新增）
+    if abstraction_density > 1.0:
+        is_diluted = True
+        reasons.append(f'抽象表达{abstraction_density:.1f}/百字({abstraction_count}处)')
+
     return {
         'oral_tag_count': oral_tags,
         'tag_coverage_ok': tag_coverage_ok,
@@ -652,6 +671,10 @@ def detect_dilution(mod: dict) -> dict:
         'worst_tetragraph_density': para_result['worst_tetragraph_density'],
         'total_de_chains': para_result['total_de_chains'],
         'icr': round(icr, 1),
+        # v3 新增：抽象度密度指标
+        'abstraction_density': round(abstraction_density, 1),
+        'abstraction_count': abstraction_count,
+        'abstraction_hits': abstraction_hits,
     }
 
 
@@ -863,12 +886,16 @@ def main():
                 if is_draft:
                     count_draft += 1
 
-                # ===== 预算百分比判定（替换原硬编码 < 1000）=====
+                # ===== 预算百分比判定（含上限 150% 熔断）=====
                 if mod['fill_ratio'] is not None:
                     pct = mod['fill_ratio']
                     pct_str = f"{pct*100:.0f}%"
                     if is_draft:
                         status = "\u274c"
+                        count_fail += 1
+                    elif pct > 1.5:
+                        # 上限熔断：超出预算 150% → 严重溢出
+                        status = "\ud83d\udd34"
                         count_fail += 1
                     elif pct >= 1.0:
                         status = "\u2705"
@@ -911,12 +938,22 @@ def main():
                 else:
                     tag_str = f"{oral_tags}/-"
 
-                # ===== 稀释 + 退化检测 =====
+                # ===== 稀释 + 退化 + 溢出检测 =====
                 dilution = detect_dilution(mod)
                 dilute_parts = []
+                # 上限溢出标记
+                if mod['fill_ratio'] is not None and mod['fill_ratio'] > 1.5:
+                    dilute_parts.append(f"[BUDGET_OVERFLOW] {mod['fill_ratio']*100:.0f}%")
+                # 零预算但有实质内容的异常
+                if (mod.get('budget_chars') == 0 and not mod.get('is_exempt', False)
+                        and mod.get('cn_count', 0) > 500):
+                    dilute_parts.append(f"[IMPLICIT_OVERFLOW] 零预算{mod['cn_count']}字")
                 if dilution.get('is_degenerated'):
                     dilute_parts.append(f"[DEGEN] {','.join(dilution['degen_reasons'])}")
-                elif dilution['is_diluted']:
+                if dilution.get('abstraction_count', 0) > 0:
+                    hits = dilution.get('abstraction_hits', [])[:3]
+                    dilute_parts.append(f"[ABSTRACT] {','.join(hits)}")
+                if dilution['is_diluted'] and not dilution.get('is_degenerated'):
                     dilute_parts.append(f"[DILUTED?] {','.join(dilution['reasons'])}")
                 if is_draft:
                     dilute_parts.append("[DRAFT]")
@@ -943,6 +980,9 @@ def main():
                         'is_diluted': dilution['is_diluted'],
                         'is_degenerated': dilution.get('is_degenerated', False),
                         'degen_reasons': dilution.get('degen_reasons', []),
+                        'overflow': mod['fill_ratio'] > 1.5 if mod['fill_ratio'] else False,
+                        'abstraction_count': dilution.get('abstraction_count', 0),
+                        'abstraction_hits': dilution.get('abstraction_hits', []),
                     })
                 else:
                     print(f"{fname:<25} | {mod_name:<30} | {mod['cn_count']:^6} | {budget_str:^6} | {pct_str:^7} | {tag_str:^7} | {status:^4} | {dilute_str}")

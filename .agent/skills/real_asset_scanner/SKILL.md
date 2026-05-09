@@ -7,7 +7,7 @@ description: 逐字稿真实素材需求扫描引擎。扫描 Markdown 脚本中
 
 ## TL;DR (≤ 100 字)
 
-扫描脚本 `[VISUAL]` 块 → 六类信号检测（历史事件/具名产品/人物肖像/UI截图/著作封面/显式禁AI）→ 自动跳过已有真实素材 → 输出 `sourcing_checklist.yaml`。集成于 `/write` Phase 3 和 `/audit` Q2。
+**Phase 1**: 扫描脚本 `[VISUAL]` 块 → 八类信号检测（S1-S8）→ 自动跳过已有真实素材。**Phase 2**: 扫描叙事标签（`[CASE STUDY]`/`[ART/AESTHETICS]`/`[STORY TIME]` 等）→ S9 视频优先路由（5 判据：动态性/沉浸感/时序性/权威性/持续时间，≥3 偏向视频）→ 输出 `sourcing_checklist.yaml`。集成于 `/write` Phase 3 和 `/audit` Q2。
 
 ## 描述
 
@@ -28,7 +28,7 @@ description: 逐字稿真实素材需求扫描引擎。扫描 Markdown 脚本中
 | 层2 | **通用结构模式** | 大写多词组 / 连字符型号 / CamelCase / 缩写+标识 / 书名号 | ⚠️ 需与层3共振 | HIGH（共振时） |
 | 层3 | **上下文信号 (S1-S6)** | Scene / Text 字段关键词 | ✅ 是 | MEDIUM |
 
-### 1.1 层3: 六类上下文信号 (S1-S6)
+### 1.1 层3: 九类上下文信号 (S1-S9)
 
 | 编号 | 信号 | 触发模式 | 权重 |
 |:---|:---|:---|:---|
@@ -38,6 +38,9 @@ description: 逐字稿真实素材需求扫描引擎。扫描 Markdown 脚本中
 | S4 | 真实界面 / UI 截图 | Scene 含 `界面截图/screenshot/real UI` | 中 |
 | S5 | 脚本显式标注禁止 AI | Scene 含 `严禁 AI`/`避免 AI 生成` | 最高 |
 | S6 | 著作 / 书籍封面 | Scene 或 Text 含 `封面/书籍/著作/教材/book cover` | 中 |
+| **S7** | **动态演示 / 交互录屏** | Scene 含 `演示/动态/手势操作/闪烁/滚动/光影互动/demo/gesture/immersive` | **中** |
+| **S8** | **教材已有原图** | Scene/Text 中的理论概念关键词命中 `knowledge/textbook/` 章节标题，且该章节含 `![](images/` 引用 | **高** |
+| **S9** | **叙事标签视频优先路由** | 叙事标签（`[ART/AESTHETICS]`/`[CASE STUDY]` 等）内容满足 ≥3/5 条视频偏向判据（动态性/沉浸感/时序性/权威性/持续时间） | **中** |
 
 ### 1.2 课程级 Gazetteer 配置 (`scanner_entities.yaml`)
 
@@ -108,8 +111,10 @@ products:
 
 ```yaml
 - slide: W01_S01g
-  module: M01_数字产品之殇_我们为什么会抓狂
+  module: M01_数字产品之殡_我们为什么会抓狂
+  layout: Full
   priority: high
+  media_type: image
   signals: [explicit_no_ai, historical_archive, physical_product]
   entities: [Therac-25, DEC VT100]
   description: "认知摩擦害死人：Therac-25 放射治疗仪事故"
@@ -117,8 +122,45 @@ products:
     - "Therac-25 photo"
     - "DEC VT100 real image"
   target_path: ../public/slides/W01_S01g_real.png
+  current_asset: ../public/slides/W01_S01g.png
   no_ai_flag: true
+  # ─── 用户回填区（扫描后由用户或 Agent 填写）───
+  confirmed_urls: []         # 用户确认的下载 URL 列表
+  stitch_mode: auto          # auto / single / horizontal / vertical / grid
+  disposition: ""            # download / generate / lock / skip（空=待决）
+  lock_reason: ""            # disposition=lock 时的锁定理由
 ```
+
+**`disposition` 四值路由**：
+- `download` → 走 `download_and_stitch.py` 下载管线
+- `generate` → 走 `/generate_assets` AI 文生图管线
+- `lock` → 标记 Source 为 Locked，写入 `lock_reason`
+- `skip` → 不处理
+
+### 3.4 下游执行脚本
+
+扫描产出清单后，可调用以下脚本完成下载与注入：
+
+```bash
+# 批量下载 + 多图拼接（消费 confirmed_urls 字段）
+/opt/anaconda3/envs/mybase/bin/python \
+  .agent/skills/real_asset_scanner/scripts/download_and_stitch.py \
+  <课程>/weeks/<周次>/src/sourcing_checklist.yaml
+
+# Markdown 双轨注入（消费 disposition 字段）
+/opt/anaconda3/envs/mybase/bin/python \
+  .agent/skills/real_asset_scanner/scripts/inject_assets.py \
+  <课程>/weeks/<周次>/src/sourcing_checklist.yaml \
+  --src-dir <课程>/weeks/<周次>/src/
+
+# 预览模式（不实际修改文件）
+/opt/anaconda3/envs/mybase/bin/python \
+  .agent/skills/real_asset_scanner/scripts/inject_assets.py \
+  <课程>/weeks/<周次>/src/sourcing_checklist.yaml \
+  --src-dir <课程>/weeks/<周次>/src/ --dry-run
+```
+
+完整的端到端流程请参见 `/source_images` 工作流。
 
 ---
 
@@ -221,5 +263,9 @@ H5/PPT 渲染引擎**优先读取** `_real` 版本；不存在时自动 fallback
 | 文件 | 说明 |
 |:---|:---|
 | [scripts/scan_real_assets.py](scripts/scan_real_assets.py) | 扫描引擎核心脚本 |
+| [scripts/visual_block_io.py](scripts/visual_block_io.py) | VISUAL 块结构化读写共享模块 |
+| [scripts/download_and_stitch.py](scripts/download_and_stitch.py) | URL 批量下载 + 多图拼接引擎 |
+| [scripts/inject_assets.py](scripts/inject_assets.py) | Markdown 双轨注入引擎 |
+| `/source_images` 工作流 | 端到端的真实图片采购管线 |
 | `script_format/SKILL.md` §3 | VISUAL 块字段规范（Asset/Source 字段） |
 | `rule_visual_generation.md` | AI 文生图协议（与本技能互补） |

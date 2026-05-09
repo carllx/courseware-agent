@@ -24,6 +24,8 @@
 | `rule_assessment_constraints.md` | audit_courseyaml | 成绩分值映射 |
 | `rule_practice_standards.md` | design_practice, write (Phase 1), audit_deep (Part H) | 实践步骤合规 |
 | `rule_deploy_freshness.md` | deploy_netlify | 部署前资源新鲜度预检门闸（TTS/图片） |
+| `rule_heading_design.md` | memory_optimize (M1), audit (Part E) | 标题断言-证据协议 |
+| `rule_script_clarity.md` | memory_optimize (M2/M3), audit (Part B-5), cheat_sheet | 冷热叙事 + 过渡焊接 |
 
 ---
 
@@ -34,7 +36,8 @@
 | `/new_course` | — | `/design_practice`, `/write` |
 | `/design_practice` | `/new_course`（首次） | `/write` |
 | `/write` | `/design_practice`（条件必选：当该周 `hours_practice > 0` 时） | `/audit` |
-| `/audit` (Quick+Standard) | `/write` (fill_ratio ≥ 0.8) | `/generate_assets`, `/audit_deep` |
+| `/audit` (Quick+Standard) | `/write` (fill_ratio ≥ 0.8) | `/generate_assets`, `/audit_deep`, `/memory_optimize` |
+| `/memory_optimize` | `/audit`（记忆逻辑需优化时） | `/audit`（验证修复效果） |
 | `/audit_deep` (Part D+G+H) | `/audit` Q1-Q7 通过 | `/generate_assets` |
 | `/audit_courseyaml` (Part F) | `/audit` Q1-Q7 通过 + course.yaml 在审计范围 | — |
 | `/generate_assets` | `/audit` Q3 通过（字数门控） | `/ppt` |
@@ -54,8 +57,8 @@
 |:---|:---|:---|
 | `librarian` | `/write` Phase 1 Step 2.3 | 知识扫描 |
 | `narrative_archaeologist` | `/write` Phase 1 Step 2.5 | 深度调研 |
-| `script_format` | `/write` Phase 2 Step 3 | 写作规范 |
-| `validation_suite` | `/write`, `/audit`, `/generate_assets` | 验证器调用 |
+| `script_format` | `/write` Phase 2 Step 3, `/memory_optimize` Phase 2 (M5) | 写作规范 + 段落物理负荷 |
+| `validation_suite` | `/write`, `/audit`, `/generate_assets`, `/memory_optimize` | 验证器调用（含 cheat_sheet --diagnose） |
 | `validation_suite` (rules) | `/update_guidance` §C | `validate_rules.py` — 规则 frontmatter 合规性 |
 | `validation_suite` (V5) | `/audit`, `/new_course` | `validate_package.py` — V5 package.yaml 校验 |
 | `docx` | `/export` | Word 导出 |

@@ -15,7 +15,11 @@ tags:
 - about-face-mental-models
 - china-app-accessibility-status
 delivery_mode: lecture
-core_theories: []
+core_theories:
+- norman-action-cycle
+- cooper-three-models
+- miller-magic-number
+- heidegger-ready-to-hand
 segments:
 - id: M00
   src: src/M00_课程导览.md

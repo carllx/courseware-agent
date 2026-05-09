@@ -64,6 +64,36 @@ RE_BOOK = re.compile(
     re.IGNORECASE
 )
 
+# S7: 动态演示/交互录屏/实验过程信号
+# 当 Scene 描述暗示该画面需要动态视频而非静态截图时触发
+RE_VIDEO_DEMO = re.compile(
+    r'(演示|动态|交互过程|操作录屏|实验过程|手势操作|'
+    r'闪烁|弹窗|悬停|点击过程|拖拽|滚动|穿过画面|大摇大摆|'
+    r'GIF\s*动|满屏闪|沉浸式|光影互动|'
+    r'demo|walkthrough|scrolling|animated|gesture|immersive)',
+    re.IGNORECASE
+)
+
+# S9: 叙事标签中的视频优先信号
+# 当叙事块描述的场景具有动态性/沉浸感/时序性时，标记为视频候选
+RE_NARRATIVE_VIDEO = re.compile(
+    r'(装置|installation|沉浸|immersive|体验|experience|'
+    r'光影|灯光|照明|projection|mapping|投影|'
+    r'运动|movement|流动|变化过程|transformation|'
+    r'表演|performance|行为艺术|'
+    r'交互|interactive|触摸|触控|感应|'
+    r'动画|animation|过渡效果|过程|漫游|walkthrough|'
+    r'天光|skyspace|空间|space\b)',
+    re.IGNORECASE
+)
+
+# ─── 叙事标签识别正则 ───
+# 匹配 [CASE STUDY]、[ART/AESTHETICS]、[STORY TIME] 等非 VISUAL 标签
+RE_NARRATIVE_TAG = re.compile(
+    r'>\s*\[(CASE STUDY|ART/AESTHETICS|STORY TIME|LIFE CONNECT|'
+    r'DID YOU KNOW|PHILOSOPHY)(?::\s*(.+?))?\]'
+)
+
 # ═══════════════════════════════════════════════════════════
 # 层2: 通用结构模式 — 课程无关的具名实体特征检测
 # ═══════════════════════════════════════════════════════════
@@ -274,6 +304,7 @@ class SourcingItem:
     """一条待搜索素材的记录"""
     slide: str = ""
     module: str = ""
+    layout: str = ""           # VISUAL 块的 Layout 值（用于推断 stitch_mode）
     signals: list = field(default_factory=list)
     entities: list = field(default_factory=list)
     description: str = ""
@@ -284,6 +315,12 @@ class SourcingItem:
     current_asset: str = ""
     no_ai_flag: bool = False
     already_real: bool = False  # 当前素材已经是真实下载而非 AI 生图
+    media_type: str = "image"  # "image" 或 "video" — S7 信号触发时为 video
+    # ─── 用户回填区（由 Agent 或用户在清单产出后填写）───
+    confirmed_urls: list = field(default_factory=list)   # 用户确认的下载 URL 列表
+    stitch_mode: str = "auto"   # auto / single / horizontal / vertical / grid
+    disposition: str = ""       # download / generate / lock / skip（空=待决）
+    lock_reason: str = ""       # disposition=lock 时的锁定理由
 
 
 # ─── AI 生图 vs 真实素材 启发式判定 ───
@@ -400,6 +437,179 @@ def get_context_text(filepath: Path, block: VisualBlock, radius: int = 8) -> str
 
 
 # ═══════════════════════════════════════════════════════════
+# Phase 2: 叙事标签扫描（[CASE STUDY] / [ART/AESTHETICS] 等）
+# ═══════════════════════════════════════════════════════════
+
+@dataclass
+class NarrativeBlock:
+    """解析后的叙事标签块（非 VISUAL）"""
+    tag_type: str = ""      # CASE STUDY / ART/AESTHETICS / STORY TIME 等
+    tag_title: str = ""     # 可选的标签副标题（如 [CASE STUDY: 银翼杀手]）
+    content: str = ""       # 标签块的完整文本内容
+    source_file: str = ""
+    line_start: int = 0
+    line_end: int = 0
+
+
+def parse_narrative_blocks(filepath: Path) -> list[NarrativeBlock]:
+    """从 Markdown 文件中解析所有叙事标签块（[CASE STUDY]、[ART/AESTHETICS] 等）"""
+    text = filepath.read_text(encoding='utf-8')
+    lines = text.split('\n')
+    blocks = []
+    i = 0
+
+    while i < len(lines):
+        line = lines[i].strip()
+        m = RE_NARRATIVE_TAG.match(line)
+        if m:
+            tag_type = m.group(1)
+            tag_title = m.group(2) or ""
+            # 收集块内容（连续 > 前缀行）
+            content_lines = [line.lstrip('> ').strip()]
+            j = i + 1
+            while j < len(lines) and lines[j].strip().startswith('>'):
+                raw = lines[j].strip().lstrip('> ').strip()
+                # 遇到新的标签块则停止
+                if RE_NARRATIVE_TAG.match(lines[j].strip()) or '[VISUAL]' in lines[j]:
+                    break
+                content_lines.append(raw)
+                j += 1
+            block = NarrativeBlock(
+                tag_type=tag_type,
+                tag_title=tag_title,
+                content='\n'.join(content_lines),
+                source_file=str(filepath),
+                line_start=i + 1,
+                line_end=j,
+            )
+            blocks.append(block)
+            i = j
+        else:
+            i += 1
+
+    return blocks
+
+
+def evaluate_video_priority(text: str) -> tuple[bool, list[str]]:
+    """
+    视频优先路由判定：基于 5 条判据评估素材应以视频还是图片呈现。
+    
+    判据：
+      ① 动态性 — 场景涉及运动/变化/交互过程
+      ② 沉浸感 — 空间装置/VR/AR/投影/体验
+      ③ 时序性 — 有明确的前后变化/过程展示
+      ④ 权威性 — 官方纪录片/TED/实验录像
+      ⑤ 持续时间 — 场景内容需 >10s 才能充分展示
+    
+    返回 (偏向视频, 命中的判据列表)。≥3 条命中则偏向视频。
+    """
+    criteria_hit = []
+
+    # ① 动态性
+    if re.search(r'(运动|movement|变化|交互|互动|操作|手势|gesture|动态|流动|闪烁|旋转|滚动)', text, re.IGNORECASE):
+        criteria_hit.append('动态性')
+
+    # ② 沉浸感
+    if re.search(r'(装置|installation|沉浸|immersive|空间|space|投影|projection|VR|AR|全景|环绕|天光|skyspace)', text, re.IGNORECASE):
+        criteria_hit.append('沉浸感')
+
+    # ③ 时序性
+    if re.search(r'(过程|变化|渐变|transformation|演变|from.*to|从.*到|序列|阶段|之前.*之后|before.*after)', text, re.IGNORECASE):
+        criteria_hit.append('时序性')
+
+    # ④ 权威性
+    if re.search(r'(纪录片|documentary|TED|实验|experiment|演讲|lecture|官方|official|NASA|BBC)', text, re.IGNORECASE):
+        criteria_hit.append('权威性')
+
+    # ⑤ 持续时间（通过场景复杂度推断）
+    if re.search(r'(系列|series|全球|著名|经典|长期|漫游|walkthrough|完整|展览|exhibition|gallery)', text, re.IGNORECASE):
+        criteria_hit.append('持续时间')
+
+    return len(criteria_hit) >= 3, criteria_hit
+
+
+def analyze_narrative_block(
+    block: NarrativeBlock, gazetteer: dict
+) -> Optional[SourcingItem]:
+    """
+    分析单个叙事标签块，判断是否需要真实素材。
+    叙事标签候选的默认优先级上限为 medium（避免噪声过多）。
+    """
+    text = block.content
+
+    # ─── 层1: Gazetteer 精确匹配 ───
+    gaz_entities, gaz_signals = match_gazetteer(text, gazetteer)
+
+    # ─── 层2: 通用结构模式提取 ───
+    gen_entities, gen_signals = extract_entities_generic(text)
+
+    all_entities = list(dict.fromkeys(gaz_entities + gen_entities))
+    all_signals = list(dict.fromkeys(gaz_signals + gen_signals))
+
+    # 无实体 → 跳过（叙事标签没有 Scene 字段，必须靠实体驱动）
+    if not all_entities:
+        return None
+
+    # ─── S9: 视频优先路由评估 ───
+    prefer_video, video_criteria = evaluate_video_priority(text)
+    media_type = "video" if prefer_video else "image"
+
+    if prefer_video:
+        all_signals.append("narrative_video_priority")
+
+    # 标记叙事标签来源
+    all_signals.append(f"narrative_{block.tag_type.lower().replace('/', '_')}")
+
+    # ─── 优先级判定（叙事标签上限锁定 medium）───
+    if gaz_entities:
+        priority = "medium"  # Gazetteer 命中在叙事标签中最高 medium
+    elif gen_entities:
+        priority = "low"
+    else:
+        priority = "low"
+
+    # 生成搜索建议
+    queries = []
+    for entity in all_entities[:3]:
+        if media_type == "video":
+            queries.append(f"{entity} video")
+            queries.append(f"{entity} demo")
+        else:
+            queries.append(f"{entity} photo")
+            queries.append(f"{entity} real image")
+
+    # 生成描述
+    desc = block.tag_title or block.content[:80]
+
+    # 路径生成（叙事标签无 Slide ID，使用模块名+行号）
+    module_stem = Path(block.source_file).stem
+    pseudo_id = f"{module_stem}_narr_L{block.line_start}"
+
+    if media_type == "video":
+        target_path = f"../public/videos/{pseudo_id}.webm"
+    else:
+        target_path = f"../public/slides/{pseudo_id}_real.png"
+
+    item = SourcingItem(
+        slide=pseudo_id,
+        module=module_stem,
+        layout="",
+        signals=all_signals,
+        entities=all_entities,
+        description=desc,
+        scene=block.content[:200],
+        search_queries=queries[:6],
+        target_path=target_path,
+        priority=priority,
+        current_asset="",
+        no_ai_flag=False,
+        media_type=media_type,
+    )
+
+    return item
+
+
+# ═══════════════════════════════════════════════════════════
 # 核心分析引擎（三层优先级冲突解决）
 # ═══════════════════════════════════════════════════════════
 
@@ -416,6 +626,7 @@ def analyze_block(block: VisualBlock, context: str, gazetteer: dict) -> Optional
     item = SourcingItem(
         slide=block.slide_id,
         module=Path(block.source_file).stem,
+        layout=block.layout,
         scene=block.scene[:200] if block.scene else "",
         current_asset=block.asset_path,
     )
@@ -443,6 +654,10 @@ def analyze_block(block: VisualBlock, context: str, gazetteer: dict) -> Optional
 
     if RE_BOOK.search(block.scene) or RE_BOOK.search(block.text):
         context_signals.append("book_cover")
+
+    if RE_VIDEO_DEMO.search(block.scene) or RE_VIDEO_DEMO.search(context):
+        context_signals.append("video_demo")
+        item.media_type = "video"
 
     # 辅助信号
     if RE_YEAR_EVENT.search(combined):
@@ -498,7 +713,14 @@ def analyze_block(block: VisualBlock, context: str, gazetteer: dict) -> Optional
     # ─── 生成搜索建议 ───
     item.search_queries = generate_search_queries(block, item)
     item.description = block.text or block.scene[:80] if block.scene else ""
-    item.target_path = f"../public/slides/{block.slide_id}_real.png" if block.slide_id else ""
+
+    # 路径分流：视频候选 → public/videos/，图片候选 → public/slides/
+    if item.media_type == "video" and block.slide_id:
+        item.target_path = f"../public/videos/{block.slide_id}.webm"
+    elif block.slide_id:
+        item.target_path = f"../public/slides/{block.slide_id}_real.png"
+    else:
+        item.target_path = ""
 
     return item
 
@@ -530,7 +752,15 @@ def generate_search_queries(block: VisualBlock, item: SourcingItem) -> list[str]
         queries.append(f"{block.text} historical photo")
         queries.append(f"{block.text} archive image")
 
-    return queries[:5]  # 最多 5 条建议
+    # S7: 视频演示信号 — 追加视频专用搜索词
+    if "video_demo" in item.signals:
+        for entity in item.entities[:2]:
+            queries.append(f"{entity} demo video")
+        if not item.entities:
+            scene_kw = block.scene[:40].replace("，", " ").replace("。", " ")
+            queries.append(f"{scene_kw} demonstration")
+
+    return queries[:6]  # 最多 6 条建议
 
 
 # ═══════════════════════════════════════════════════════════
@@ -578,6 +808,18 @@ def scan_directory(src_dir: Path) -> list[SourcingItem]:
             if item:
                 results.append(item)
 
+        # ─── Phase 2: 叙事标签扫描 ───
+        narrative_blocks = parse_narrative_blocks(md_file)
+        narr_count = 0
+        if narrative_blocks:
+            for nb in narrative_blocks:
+                item = analyze_narrative_block(nb, gazetteer)
+                if item:
+                    results.append(item)
+                    narr_count += 1
+            if narr_count:
+                print(f"     📝 叙事标签发现 {narr_count} 个素材候选")
+
     if skipped_locked:
         print(f"  🔒 跳过 {skipped_locked} 个人工锁定的位置")
     if skipped_real:
@@ -588,16 +830,18 @@ def scan_directory(src_dir: Path) -> list[SourcingItem]:
 
 def output_yaml(items: list[SourcingItem], output_path: Path):
     """输出 YAML 格式的待办清单"""
-    # 按优先级排序
+    # 按优先级排序（视频候选优先于图片候选同级）
     priority_order = {"high": 0, "medium": 1, "low": 2}
-    items.sort(key=lambda x: priority_order.get(x.priority, 99))
+    items.sort(key=lambda x: (priority_order.get(x.priority, 99), 0 if x.media_type == "video" else 1))
 
     data = []
     for item in items:
         entry = {
             "slide": item.slide,
             "module": item.module,
+            "layout": item.layout,
             "priority": item.priority,
+            "media_type": item.media_type,
             "signals": item.signals,
             "entities": item.entities,
             "description": item.description,
@@ -606,6 +850,11 @@ def output_yaml(items: list[SourcingItem], output_path: Path):
             "target_path": item.target_path,
             "current_asset": item.current_asset,
             "no_ai_flag": item.no_ai_flag,
+            # ─── 用户回填区（扫描后由用户或 Agent 填写）───
+            "confirmed_urls": [],       # 待填：用户确认的下载 URL
+            "stitch_mode": "auto",      # 待填：auto / single / horizontal / vertical / grid
+            "disposition": "",          # 待填：download / generate / lock / skip
+            "lock_reason": "",          # 待填：disposition=lock 时的理由
         }
         data.append(entry)
 
@@ -628,6 +877,8 @@ def print_summary(items: list[SourcingItem]):
     low = sum(1 for i in items if i.priority == "low")
     no_ai = sum(1 for i in items if i.no_ai_flag)
     books = sum(1 for i in items if "book_cover" in i.signals)
+    videos = sum(1 for i in items if i.media_type == "video")
+    narrative = sum(1 for i in items if any(s.startswith("narrative_") for s in i.signals))
 
     print("\n" + "=" * 50)
     print("  📊 扫描结果汇总")
@@ -637,6 +888,8 @@ def print_summary(items: list[SourcingItem]):
     print(f"  🟢 低优先级 (OPTIONAL):  {low}")
     print(f"  🚫 显式禁止 AI 生成:     {no_ai}")
     print(f"  📚 著作/书籍封面:        {books}")
+    print(f"  🎬 视频候选 (S7/S9):     {videos}")
+    print(f"  📝 叙事标签候选:         {narrative}")
     print(f"  📋 总计待处理:           {len(items)}")
     print("=" * 50)
 

@@ -1,6 +1,6 @@
 # Visual System Constitution (视觉系统宪法)
 # SSOT: Single Source of Truth
-# Style: Constructivist Dada Photomontage (建构主义·达达拼贴 / 1920s 复古影像 × Kandinsky 几何张力)
+# Style: Constructivist Dada Photomontage (建构主义·达达拼贴 / 上下文自适应影像 × Kandinsky 几何张力)
 
 meta:
   version: "2.0.0"
@@ -11,27 +11,37 @@ meta:
 # 1. 全局风格定义 (用于 AI 生成 Prompt)
 style:
   # 核心风格词
-  keywords: "1920s Constructivist vintage photomontage, mixed media collage art, high-contrast black-and-white vintage photographic cutouts, Wassily Kandinsky Composition VIII geometric tension, sharp yellow triangles, overlapping translucent prussian blue circles, intersecting fine black tension lines, pale warm cream canvas, asymmetrical dynamic balance"
+  keywords: "Constructivist photomontage, mixed media collage art, high-contrast photographic cutouts matched to script context, Wassily Kandinsky Composition VIII geometric tension, sharp yellow triangles, overlapping translucent prussian blue circles, intersecting fine black tension lines, pale warm cream canvas, asymmetrical dynamic balance"
   # 环境氛围
-  atmosphere: "avant-garde editorial, dramatic visual tension, 1920s Bauhaus workshop aesthetic, warm parchment-like canvas, intentional asymmetry, philosophical depth, museum-quality mixed media"
+  atmosphere: "avant-garde editorial, dramatic visual tension, warm parchment canvas, intentional asymmetry, philosophical depth, museum-quality mixed media, context-adaptive photographic era"
   # 否定词 (避免出现的内容)
   negative_prompt: "minimalism, De Stijl, Mondrian, Dutch grid, solid pure white background, 3d render, cyberpunk, neon colors, cartoon, clip art, glossy, photo-realistic faces, digital paint, smooth gradients, watermark, blurry"
   # 按 Layout 类型的 Prompt 变体 (注意：仅描述 Asset 图像本身的视觉风格，严禁包含排版布局或文字指令)
   prompt_variants:
-    Title: "dramatic Dadaist photomontage hero, vintage black-and-white photographic cutouts colliding with bold Kandinsky geometric shapes, asymmetrical off-center composition, high visual tension"
-    Diagram: "Bauhaus Dada collage infographic, vintage cutouts of machines and hands connected by fine intricate black lines, floating colored geometric shapes as nodes, pale parchment background"
-    List: "Dadaist grid broken into asymmetrical photomontage, Kandinsky Composition VIII geometric elements interacting with early 20th-century photographic clippings, dynamic intersecting tension lines"
-    Comparison: "Dadaist dialectic comparison, mixed media collage. Left side dominated by sharp triangles and vintage cutouts of the problem, right side counterbalanced by calm overlapping concentric circles and vintage images of the solution"
-    Split: "editorial photomontage detail, vintage black-and-white photography fragment with Kandinsky geometric overlay, warm cream tones, suitable for placing alongside text"
-    Grid: "matrix of Dadaist photomontage fragments, each cell containing a vintage cutout interacting with a geometric element, cohesive pale warm canvas"
-    Image: "high-contrast vintage black-and-white photography cutout, isolated on warm cream canvas, with subtle geometric tension accents"
+    Title: "dramatic Dadaist photomontage hero, high-contrast photographic cutouts (era/culture matched to script context) colliding with bold Kandinsky geometric shapes, asymmetrical off-center composition, high visual tension"
+    Diagram: "Constructivist Dada collage infographic, context-appropriate photographic cutouts connected by fine intricate black lines, floating colored geometric shapes as nodes, pale parchment background"
+    List: "Dadaist grid broken into asymmetrical photomontage, Kandinsky Composition VIII geometric elements interacting with context-matched photographic clippings, dynamic intersecting tension lines"
+    Comparison: "Dadaist dialectic comparison, mixed media collage. Left side dominated by sharp triangles and photographic cutouts of the problem (era-matched), right side counterbalanced by calm overlapping concentric circles and images of the solution"
+    Split: "editorial photomontage detail, high-contrast photography fragment (style matched to script era) with Kandinsky geometric overlay, warm cream tones, suitable for placing alongside text"
+    Grid: "matrix of Dadaist photomontage fragments, each cell containing a context-appropriate cutout interacting with a geometric element, cohesive pale warm canvas"
+    Image: "high-contrast photography cutout matched to script context, isolated on warm cream canvas, with subtle geometric tension accents"
+    # 教学锚定变体（用于 RenderMode: pedagogical）
+    # 核心差异：保留 Dada 视觉骨架（几何张力 + 拼贴排版 + 暖奶油画布），
+    # 但照片层从「随机/抽象碎片」换为「逐字稿中的标志性具象物件」。
+    Pedagogical_Split: "editorial Dadaist photomontage, high-contrast black-and-white photographic cutouts of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords (clearly identifiable, not abstract), colliding with Kandinsky geometric shapes, sharp yellow triangles #E6B828, overlapping prussian blue circles #384E77, fine black tension lines, asymmetrical dynamic composition, pale warm cream canvas #F4F0E6, suitable for placing alongside text"
+    Pedagogical_Center: "dramatic Dadaist photomontage centered composition, 1-3 high-contrast black-and-white photographic cutouts of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords (clearly identifiable, not abstract), surrounded by Kandinsky geometric tension elements, sharp triangles and overlapping circles, fine black lines, pale warm cream canvas #F4F0E6, museum-quality mixed media"
+    Pedagogical_Grid: "matrix of Dadaist photomontage fragments, each cell containing a high-contrast black-and-white photographic cutout of a SPECIFIC RECOGNIZABLE OBJECT described in Keywords, interacting with colored geometric elements, cohesive pale warm cream canvas #F4F0E6, intersecting tension lines connecting cells"
 
   # 预编译 Prompt 模板（减少运行时 Token 拼接开销）
   prompt_templates:
-    base_en: "1920s Constructivist vintage photomontage, mixed media collage art, high-contrast black-and-white vintage photographic cutouts interacting with Wassily Kandinsky Composition VIII geometry, sharp yellow triangles #E6B828, overlapping translucent prussian blue circles #384E77, intersecting fine black tension lines, pale warm cream canvas #F4F0E6, asymmetrical dynamic balance, museum-quality"
+    base_en: "Constructivist photomontage, mixed media collage art, high-contrast photographic cutouts (era and culture matched to the scene description) interacting with Wassily Kandinsky Composition VIII geometry, sharp yellow triangles #E6B828, overlapping translucent prussian blue circles #384E77, intersecting fine black tension lines, pale warm cream canvas #F4F0E6, asymmetrical dynamic balance, museum-quality"
     suffix_negative: "minimalism, De Stijl, Mondrian, Dutch grid, solid pure white background, 3d render, cyberpunk, neon colors, cartoon, clip art, glossy, photo-realistic faces"
     pure_geometry_en: "pure mathematical geometry, strict rigid grid layout, Kandinsky Composition VIII primary forms absolutely isolated from noise, pristine clean vector style, solid color fills, zero texture, zero photography, pale warm cream canvas #F4F0E6, perfectly uniform spacing, pedagogical cognitive test mechanism"
     suffix_negative_pure: "vintage photo, collage, mixed media, noise, grain, paper texture, chaotic layout, asymmetrical, messy, 3d render, realism, drop shadow, clutter, text, letters, numbers, hand-drawn"
+    # 教学锚定模板（RenderMode: pedagogical 专用）
+    # 与 base_en 的唯一差异：照片层强制锁定为 Keywords 中的具体物件，而非上下文自适应的随机碎片
+    pedagogical_en: "Constructivist photomontage, mixed media collage art, high-contrast black-and-white photographic cutouts of SPECIFIC RECOGNIZABLE OBJECTS from Keywords (each object must be clearly identifiable, not abstract fragments), interacting with Wassily Kandinsky Composition VIII geometry, sharp yellow triangles #E6B828, overlapping translucent prussian blue circles #384E77, intersecting fine black tension lines, pale warm cream canvas #F4F0E6, asymmetrical dynamic balance, museum-quality"
+    suffix_negative_pedagogical: "flat design, clean vector, minimalism, De Stijl, Mondrian, Dutch grid, solid pure white background, 3d render, cyberpunk, neon colors, cartoon, clip art, glossy, photo-realistic faces, generic stock photo, unrecognizable abstract fragments"
     text_directive: "All visible text in the image must be in Simplified Chinese"
 
 # 2. 色彩系统 (PPT / H5 / Python 通用)
@@ -200,6 +210,11 @@ generation_guide:
     Agent 必须避免纯粹的随机堆砌，而应通过"概念整合理论 (Conceptual Blending Theory)"
     系统性地构造语义冲突，制造摧毁功能暗示 (Affordance) 却引人深思的视觉隐喻。
 
+    ⚠️ 教学适用性声明：Dada 管线仅适用于 RenderMode=themed 的氛围型 Slide。
+    当 Slide 承载具体知识点传递功能（RenderMode=pedagogical）时，
+    必须绕过 Dada 语义碰撞管线，走 pedagogical 路径。
+    判断标准见下方 pedagogical_routing 节。
+
   pipeline_steps:
     step_1_semantic_collision: |
       选择两个不兼容的概念 (Input A: 具象实体 + Input B: 对抗领域)。
@@ -213,9 +228,61 @@ generation_guide:
       画面呈绝对不对称: 一侧厚重旧影像 ↔ 另一侧高对比纯色几何体。
       以极细黑色直线 (弦) 穿插连接两者。
     step_4_render: |
-      锁定: "1920s Constructivist vintage photomontage"
+      锁定: "Constructivist photomontage + Kandinsky geometry"
+      照片层: 根据脚本上下文选择适当的影像风格（见下方 context_routing）
       背景色值: pale warm cream canvas #F4F0E6
       负面控制: --no minimalism, Dutch grid, De Stijl
+
+  # ═══════════════════════════════════════════════════════════
+  # 教学信息图路由 (Pedagogical Routing)
+  #   当 Slide 需要传递具体知识点时，绕过 Dada 语义碰撞管线，
+  #   使用扁平化教学信息图风格，保留色板以维持视觉连续性。
+  # ═══════════════════════════════════════════════════════════
+  pedagogical_routing: |
+    ## RenderMode 自动判定规则
+
+    当 [VISUAL] 块未显式指定 RenderMode 时，Agent 必须根据以下条件自动判定：
+
+    ┌─ 后续 Speech 包含 ≥3 个具体名词/术语/品牌名（如「ECharts」「Tidy Data」「小红书」）
+    │   → RenderMode = pedagogical
+    │
+    ├─ 后续 Speech 包含案例/历史事件的具体描述（人名、地名、年份、事件经过）
+    │   → RenderMode = pedagogical
+    │
+    ├─ [VISUAL] 块含 List 字段且 ≥3 条要点
+    │   → RenderMode = pedagogical
+    │
+    ├─ 后续 Speech 为纯氛围/情绪过渡（无具体名词、无结构化论点）
+    │   → RenderMode = themed（保留 Dada）
+    │
+    └─ [VISUAL] 块已显式指定 RenderMode
+        → 直接使用指定值
+
+    ## Pedagogical 管线步骤
+
+    Step P1 - 关键词提取：
+      从 [VISUAL] 块的 Keywords 字段（若有）和后续 Speech 中提取 3-5 个
+      最具辨识度的名词/实体作为视觉锚点。
+      示例：「纸质账本」→ ledger book, 「算法推荐」→ algorithm feed,
+            「小红书瀑布流」→ smartphone scrolling feed
+
+    Step P2 - 具象映射：
+      将提取的关键词翻译为英文，并映射为扁平化图标式的具象物件描述。
+      每张图片包含 1-3 个标志性可辨识物件（iconic recognizable objects），
+      作为教师回忆逐字稿的认知锚点。
+
+    Step P3 - Prompt 组装：
+      [Scene 描述（翻译为英文，嵌入具象物件描述）],
+      [prompt_variants.Pedagogical_Layout],
+      [pedagogical_en],
+      color palette: bg_base, primary, secondary, tertiary,
+      --ar 16:9
+      without: [suffix_negative_pedagogical]
+
+    Step P4 - 三词回溯测试：
+      生成后，Agent 必须查看图片并回答：
+      「看着这张图，我能否在 3 秒内说出 ≥3 个与逐字稿内容相关的关键词？」
+      若不能 → 判定不合格，调整 Prompt 中的具象物件描述后重试（最多 2 次）。
 
   # Kandinsky 形状→情绪→UI 状态映射
   state_mapping:
@@ -242,7 +309,42 @@ generation_guide:
     Step 1: A=滴水旧式水龙头, B=穿孔计算机纸带 → Conflict
     Step 2: 水龙头巨大，流出燃烧的纸带 (比例错乱 + 功能倒置)
     Step 3: Error → 砖红锐角倒三角刺穿纸带，芥末黄斜线斩断，极度不对称
-    Step 4: "1920s Constructivist vintage photomontage, mixed media collage art.
-    A giant vintage metal faucet pouring burning shredded punch cards. Sharp
+    Step 4: "Constructivist photomontage, mixed media collage art.
+    A giant metal faucet pouring burning shredded punch cards. Sharp
     brick-red triangles piercing the cards, mustard-yellow diagonal tension lines.
     Asymmetrical layout, pale warm cream canvas --no minimalism, Dutch grid --ar 16:9"
+
+  # ═══════════════════════════════════════════════════════════
+  # 9. 上下文文化路由规则 (Context Cultural Routing)
+  #    本节控制「照片/影像层」的取材风格如何跟随脚本上下文变化，
+  #    确保设计骨架（几何张力 + 语义碰撞）不变，但视觉素材不脱节。
+  # ═══════════════════════════════════════════════════════════
+  context_routing: |
+    本主题的设计骨架（Kandinsky 几何张力 + 语义碰撞 + 暖色调色盘 + 非对称平衡）
+    是全局不变的。但「照片/影像层」的取材风格必须跟随脚本上下文自适应：
+
+    路由决策表：
+    ┌─ 脚本主题本身属于 1920s 欧洲先锋艺术（包豪斯、达达、构成主义）
+    │   → 使用 "1920s vintage black-and-white photographic cutouts"
+    │
+    ├─ 脚本主题涉及当代科技产品（Xbox 控制器、高频交易、基因组工具、AI）
+    │   → 使用 "contemporary product photography / modern tech imagery"
+    │
+    ├─ 脚本主题涉及中国历史文化（天工开物、甲骨文、古代地图）
+    │   → 使用 "Chinese historical illustration / ink wash painting fragment"
+    │
+    ├─ 脚本主题涉及西方古典时期（文艺复兴、启蒙运动、19世纪）
+    │   → 使用 "classical engraving / archival illustration of that era"
+    │
+    ├─ 脚本主题涉及认知科学/心理学（弹出效应、变化盲视、格式塔）
+    │   → 使用 "clean pedagogical diagram / cognitive science illustration"
+    │
+    └─ 其他/通用
+        → 使用 "high-contrast editorial photography matched to subject matter"
+
+    ⚠️ 无论照片层如何变化，以下设计骨架必须保持：
+    (1) Kandinsky 几何元素（锐三角 #E6B828、普鲁士蓝圆 #384E77、砖红配重 #C84B31）
+    (2) 纤细黑色张力线穿插连接
+    (3) 暖奶油画布背景 #F4F0E6
+    (4) 非对称动态平衡构图
+    (5) 语义碰撞哲学（照片层与几何层之间产生「概念整合」张力）

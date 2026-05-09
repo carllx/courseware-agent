@@ -1,0 +1,129 @@
+/* ============================================================
+   ARC-02: ModuleRail — 底部模块导航条
+   ============================================================ */
+
+.module-rail-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.module-rail-wrapper::before,
+.module-rail-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.module-rail-wrapper::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--theme-bgDark, #2D2926) 0%, transparent 100%);
+}
+
+.module-rail-wrapper::after {
+  right: 0;
+  background: linear-gradient(-90deg, var(--theme-bgDark, #2D2926) 0%, transparent 100%);
+}
+
+.module-rail-wrapper.has-overflow-left::before { opacity: 1; }
+.module-rail-wrapper.has-overflow-right::after { opacity: 1; }
+
+.module-rail {
+  display: flex;
+  flex-shrink: 0;
+  background: var(--theme-bgDark);
+  overflow-x: auto;
+  min-height: 46px;
+  gap: 2px;
+}
+
+.module-rail::-webkit-scrollbar { height: 3px; }
+.module-rail::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 2px;
+}
+
+/* 模块 Tab */
+.module-tab {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: var(--sp-sm) var(--sp-md);
+  border: none;
+  background: transparent;
+  color: rgba(245, 240, 235, 0.45);
+  font-family: var(--theme-fontBodyCn);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s;
+  position: relative;
+  white-space: nowrap;
+  min-width: 60px;
+}
+
+.module-tab:hover {
+  color: rgba(245, 240, 235, 0.75);
+  background: rgba(255,255,255,0.03);
+}
+
+.module-tab.active {
+  color: var(--theme-bg, #F5F0EB);
+  font-weight: 600;
+}
+
+/* 已读态 */
+.module-tab.read {
+  color: rgba(245, 240, 235, 0.6);
+}
+
+/* 模块色相强调条（顶部 3px 色带） */
+.module-tab-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--tab-accent, hsl(210, 60%, 55%));
+  opacity: 0.3;
+  transition: opacity 0.25s;
+}
+
+.module-tab.active .module-tab-accent {
+  opacity: 1;
+}
+
+.module-tab:hover .module-tab-accent {
+  opacity: 0.6;
+}
+
+/* 内容行 */
+.module-tab-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.module-tab-icon {
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.module-tab-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 已读打勾 */
+.module-tab-check {
+  font-size: 10px;
+  color: rgba(46, 213, 115, 0.7);
+  margin-left: 4px;
+  font-weight: 700;
+}

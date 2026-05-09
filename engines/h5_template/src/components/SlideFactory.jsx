@@ -3,6 +3,7 @@ import '../styles/h5-layouts.css'
 import Layout_Split from './layouts/Layout_Split'
 import Layout_List from './layouts/Layout_List'
 import Layout_Diagram from './layouts/Layout_Diagram'
+import Layout_Flow from './layouts/Layout_Flow'
 import Layout_Grid from './layouts/Layout_Grid'
 import Layout_Image from './layouts/Layout_Image'
 import Layout_Comparison from './layouts/Layout_Comparison'
@@ -16,39 +17,41 @@ import { parseListString, parseComparisonData } from '../utils/slide_parser'
  */
 const CANONICAL_MAP = {
   // Title 系列
-  'title':      Layout_Title,
-  'section':    Layout_Title,
-  'stat':       Layout_Title,
+  'title': Layout_Title,
+  'section': Layout_Title,
+  'stat': Layout_Title,
   // Split 系列
-  'split':      Layout_Split,
-  'code':       Layout_Split,
+  'split': Layout_Split,
+  'code': Layout_Split,
   // List 系列
-  'list':       Layout_List,
-  'agenda':     Layout_List,
-  'icons':      Layout_List,
-  'table':      Layout_List,
-  'workshop':   Layout_List,
+  'list': Layout_List,
+  'agenda': Layout_List,
+  'icons': Layout_List,
+  'table': Layout_List,
+  'workshop': Layout_List,
   // Grid 系列
-  'grid':       Layout_Grid,
-  'dashboard':  Layout_Grid,
+  'grid': Layout_Grid,
+  'dashboard': Layout_Grid,
   // Image 系列
-  'image':      Layout_Image,
-  'full':       Layout_Image,
+  'image': Layout_Image,
+  'full': Layout_Image,
   'screenshot': Layout_Image,
   // Diagram 系列
-  'diagram':    Layout_Diagram,
-  'timeline':   Layout_Diagram,
+  'diagram': Layout_Diagram,
+  'timeline': Layout_Diagram,
+  // Flow 系列 — 专用步进器组件
+  'flow': Layout_Flow,
   // Comparison
   'comparison': Layout_Comparison,
   // Poll
-  'poll':       Layout_List,
+  'poll': Layout_List,
   // Quote / CTA → Title fallback
-  'quote':      Layout_Title,
-  'cta':        Layout_Title,
+  'quote': Layout_Title,
+  'cta': Layout_Title,
   // ARC-06: 自测/回顾组件占位（当前 fallback 到现有布局，后续替换为专用组件）
-  'quiz':       Layout_List,        // → 未来: Layout_Quiz
+  'quiz': Layout_List,        // → 未来: Layout_Quiz
   'checkpoint': Layout_List,        // → 未来: Layout_Checkpoint
-  'review':     Layout_Title,       // → 未来: Layout_Review (知识回顾图)
+  'review': Layout_Title,       // → 未来: Layout_Review (知识回顾图)
 }
 
 /**
@@ -58,11 +61,11 @@ const DEPRECATED_ALIASES = {
   'card': 'grid', 'cards': 'grid',
   'full screen': 'full', 'codeblock': 'code',
   'three-column': 'grid', 'triple-column': 'grid',
-  'quadrant': 'grid', 'flow': 'timeline',
+  'quadrant': 'grid',
   'canvas': 'grid', 'chat-bubble': 'split',
   'template-card': 'grid', 'spectrum': 'diagram',
   'text': 'list', 'chart': 'image',
-  'video': 'full', 'scene': 'image',
+  'video': 'full', 'Video': 'full', 'scene': 'image',
   'checklist': 'list', 'process': 'timeline',
   'center': 'title',
 }

@@ -1,0 +1,21 @@
+# stale_terms.yaml — 课程级过时术语清单
+# 用途: validate_practice.py R9a 会扫描 practice_guide.md 中是否残留这些术语
+# 维护: 当课程教材用词发生变更时，在此追加或移除条目
+#
+# 格式说明:
+#   regex  — 用于匹配文本的正则表达式
+#   term   — 报告中显示的术语名称（人类可读）
+#   reason — 为什么该术语过时的简要说明
+
+terms:
+  - regex: "ISO\\s*9241"
+    term: "ISO 9241"
+    reason: "本课程讲授的是《交互设计》教材(Yvonne Rogers)的七大可用性目标，非 ISO 9241 标准"
+
+  - regex: "可记忆性"
+    term: "可记忆性"
+    reason: "课程教材统一用词为'易记性 (Memorability)'，非'可记忆性'"
+
+  - regex: "五大可用性目标"
+    term: "五大可用性目标"
+    reason: "课程教材定义为七大可用性目标（含效用性 Utility 和满意度 Satisfaction）"

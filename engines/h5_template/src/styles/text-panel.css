@@ -61,6 +61,16 @@
   max-width: 180px;
 }
 
+.breadcrumb-subheading {
+  color: var(--theme-textSecondary);
+  font-weight: 400;
+  opacity: 0.8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 140px;
+}
+
 /* ── 主体区：Scroll-spy 轨道 + 内容区 ── */
 .text-panel-body {
   flex: 1;
@@ -92,18 +102,103 @@
 
 
 
-/* ── Slide 分隔线 — 吸顶式上下文导航 ── */
+/* ── 逐字稿 H3 章节分割线 ── */
+.transcript-section-divider {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  margin: calc(var(--sp-lg) * 1.5) 0 var(--sp-lg) 0;
+  padding: var(--sp-sm) var(--sp-xs);
+  border-bottom: 2px solid var(--theme-textMuted);
+  border-radius: var(--radius-sm);
+  color: var(--theme-text);
+  font-family: var(--theme-fontTitleCn);
+  transition: background 0.3s ease;
+}
+
+/* 方案 A: 导航点击后的闪烁高亮反馈 */
+@keyframes section-flash {
+  0%   { background: rgba(var(--theme-primaryRgb), 0.28); }
+  40%  { background: rgba(var(--theme-primaryRgb), 0.15); }
+  100% { background: transparent; }
+}
+
+.transcript-section-divider.flash {
+  animation: section-flash 1.8s ease-out;
+}
+
+.transcript-section-divider .section-divider-icon {
+  font-size: 16px;
+  color: var(--theme-primary);
+}
+
+.transcript-section-divider .section-divider-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* ── 逐字稿 H4 章节分割线 (内联/扁平化锚点) ── */
+.transcript-h4-divider {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-xs);
+  margin: var(--sp-md) 0 var(--sp-sm) 0;
+  padding-bottom: 2px;
+  color: var(--theme-textSecondary);
+  font-family: var(--theme-fontTitleCn);
+  opacity: 0.85;
+}
+
+.transcript-h4-divider .h4-divider-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--theme-textMuted);
+  opacity: 0.6;
+}
+
+.transcript-h4-divider .h4-divider-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* ── Slide 分隔线组（降维为轻量内联分隔） ── */
+.slide-divider-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: var(--sp-sm) 0;
+  padding: var(--sp-sm) 0;
+  border-bottom: 1px dashed var(--theme-overlay-divider);
+  opacity: 0.5;
+}
+
+/* 间距保护：带装饰的段落（tagged / activity）后跟 divider 时增加安全距 */
+.paragraph.tagged + div > .slide-divider-group,
+.paragraph.activity + div > .slide-divider-group,
+.paragraph.tagged + .slide-divider-group,
+.paragraph.activity + .slide-divider-group {
+  margin-top: var(--sp-lg);
+}
+
+.slide-divider-group .slide-divider {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  position: relative;
+}
+
+/* ── 单个 Slide 分隔线（向前兼容，已移除 sticky） ── */
 .slide-divider {
   display: flex;
   align-items: center;
   gap: var(--sp-sm);
-  margin: var(--sp-lg) 0 var(--sp-md) 0;
-  padding: var(--sp-sm) 0;
-  border-bottom: 1px solid var(--theme-overlay-divider);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: var(--theme-bgSurface);
+  margin: var(--sp-sm) 0;
+  padding: var(--sp-xs) 0;
+  border-bottom: 1px dashed var(--theme-overlay-divider);
 }
 
 .slide-divider-badge {
@@ -325,33 +420,123 @@
   margin-bottom: var(--sp-xs);
 }
 
+/* ── Quiz 测验卡片样式 ── */
+.paragraph.activity.quiz {
+  border: 1px solid rgba(var(--theme-primaryRgb), 0.3);
+  background: linear-gradient(135deg, rgba(var(--theme-primaryRgb), 0.06), transparent);
+}
+
+.quiz-badge {
+  background: var(--theme-primary) !important;
+}
+
+.quiz-question {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+  margin: var(--sp-sm) 0;
+  padding: var(--sp-sm) var(--sp-md);
+  background: rgba(var(--theme-primaryRgb), 0.04);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--theme-primary);
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: var(--sp-sm) 0;
+}
+
+.quiz-option {
+  padding: var(--sp-sm) var(--sp-md);
+  background: var(--theme-bgElevated);
+  border: 1px solid var(--theme-overlay-divider);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  line-height: 1.6;
+  transition: all 0.2s;
+  cursor: default;
+}
+
+.quiz-option:hover {
+  border-color: var(--theme-primary);
+  background: rgba(var(--theme-primaryRgb), 0.05);
+}
+
+.quiz-reveal {
+  margin-top: var(--sp-md);
+}
+
+.quiz-reveal-btn {
+  background: transparent;
+  border: 1px dashed var(--theme-textMuted);
+  color: var(--theme-textSecondary);
+  padding: 6px 16px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+  width: 100%;
+  text-align: center;
+}
+
+.quiz-reveal-btn:hover {
+  border-color: var(--theme-primary);
+  color: var(--theme-primary);
+  background: rgba(var(--theme-primaryRgb), 0.03);
+}
+
+.quiz-reveal-content {
+  margin-top: var(--sp-sm);
+  padding: var(--sp-md);
+  background: rgba(46, 204, 113, 0.06);
+  border-left: 3px solid rgba(46, 204, 113, 0.6);
+  border-radius: var(--radius-sm);
+  animation: quiz-reveal-in 0.3s ease;
+}
+
+@keyframes quiz-reveal-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.quiz-answer {
+  font-weight: 700;
+  color: #2ecc71;
+  margin-bottom: var(--sp-xs);
+  font-size: 14px;
+}
+
+.quiz-explain {
+  font-size: 13px;
+  color: var(--theme-textSecondary);
+  line-height: 1.7;
+}
+
 /* ============================================================
-   SCQA 角色轨迹与地标样式 (UX V2 空间感知)
+   温度极性色轨与地标样式 (UX V2 重构)
    ============================================================ */
 
 /* ── 左边缘色轨 (Minimap 效果) ── */
-/* 覆盖之前默认的 tagged 左侧边框颜色，让 SCQA 色轨成为最高优先级 */
-.paragraph[data-scqa-role="s"], .paragraph.tagged[data-scqa-role="s"] { border-left-color: rgba(46, 204, 113, 0.7); } /* 🟢 S: 情境 */
-.paragraph[data-scqa-role="c"], .paragraph.tagged[data-scqa-role="c"] { border-left-color: rgba(231, 76, 60, 0.8); }  /* 🔴 C: 冲突 */
-.paragraph[data-scqa-role="q"], .paragraph.tagged[data-scqa-role="q"] { border-left-color: rgba(241, 196, 15, 0.7); }  /* 🟡 Q: 悬念 */
-.paragraph[data-scqa-role="a"], .paragraph.tagged[data-scqa-role="a"] { border-left-color: rgba(52, 152, 219, 0.7); }  /* 🔵 A: 结论 */
+/* 基于 temp-hot/cold/neutral，替代旧的 data-scqa-role */
+.paragraph[data-temp="neutral"], .paragraph.tagged[data-temp="neutral"] { border-left-color: rgba(150, 150, 150, 0.4); } 
+.paragraph[data-temp="hot"], .paragraph.tagged[data-temp="hot"] { border-left-color: rgba(var(--theme-primaryRgb), 0.7); } 
+.paragraph[data-temp="cold"], .paragraph.tagged[data-temp="cold"] { border-left-color: rgba(107, 143, 173, 0.9); }
 
 /* 对于高亮（激活状态），加强颜色并附加光晕 */
-.paragraph[data-scqa-role="s"].active { 
-  border-left-color: #2ECC71 !important; 
-  background: linear-gradient(90deg, rgba(46, 204, 113, 0.08), transparent); 
+.paragraph[data-temp="neutral"].active { 
+  border-left-color: var(--theme-textMuted) !important; 
+  background: linear-gradient(90deg, rgba(150, 150, 150, 0.08), transparent); 
 }
-.paragraph[data-scqa-role="c"].active { 
-  border-left-color: #E74C3C !important; 
-  background: linear-gradient(90deg, rgba(231, 76, 60, 0.08), transparent); 
+.paragraph[data-temp="hot"].active { 
+  border-left-color: var(--theme-primary) !important; 
+  background: linear-gradient(90deg, rgba(var(--theme-primaryRgb), 0.12), transparent); 
 }
-.paragraph[data-scqa-role="q"].active { 
-  border-left-color: #F1C40F !important; 
-  background: linear-gradient(90deg, rgba(241, 196, 15, 0.08), transparent); 
-}
-.paragraph[data-scqa-role="a"].active { 
-  border-left-color: #3498DB !important; 
-  background: linear-gradient(90deg, rgba(52, 152, 219, 0.08), transparent); 
+.paragraph[data-temp="cold"].active { 
+  border-left-color: var(--theme-info) !important; 
+  background: linear-gradient(90deg, rgba(107, 143, 173, 0.15), transparent); 
 }
 
 /* ── 强语义地标 (Landmark Badge) ── */
@@ -362,4 +547,133 @@
   padding: 3px 6px;
   border-radius: 4px;
   font-size: 11px;
+}
+
+/* ============================================================
+   记忆检视模式 (Cloak Mode) (UX V3 前置重构)
+   ============================================================ */
+
+/* 处于检视模式时，所有 speech 段落正文默认隐藏 */
+.text-panel-content.cloaked .paragraph.speech .para-content p,
+.text-panel-content.cloaked .paragraph.tagged .para-content p {
+  color: transparent !important;
+  /* 用极浅的描边保留段落排版结构的感知 */
+  -webkit-text-stroke: 1px rgba(var(--theme-textRgb, 100,100,100), 0.08);
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+/* 取消描边的影响，确保子元素如果设置颜色能正常显示 */
+.text-panel-content.cloaked .paragraph .para-content p * {
+  color: transparent !important;
+  transition: color 0.3s ease;
+}
+
+/* 包含锚词的容器 */
+.anchor-chip-container {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* 锚词 Chip 本身 */
+.anchor-chip {
+  display: inline-block;
+  background: var(--theme-bgElevated);
+  border: 1px solid var(--theme-primary);
+  color: var(--theme-text);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+/* 隐藏时默认不显示，仅在检视模式显示 */
+.anchor-chip-container {
+  display: none;
+}
+.text-panel-content.cloaked .anchor-chip-container {
+  display: block;
+}
+
+/* 悬停或点击激活状态：恢复显示 */
+.text-panel-content.cloaked .paragraph:hover .para-content p,
+.text-panel-content.cloaked .paragraph:hover .para-content p *,
+.text-panel-content.cloaked .paragraph.revealed .para-content p,
+.text-panel-content.cloaked .paragraph.revealed .para-content p * {
+  color: inherit !important;
+  -webkit-text-stroke: 0 transparent;
+  user-select: text;
+}
+
+/* 特殊：悬停时，锚词 chip fade out */
+.text-panel-content.cloaked .paragraph:hover .anchor-chip,
+.text-panel-content.cloaked .paragraph.revealed .anchor-chip {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+
+/* ============================================================
+   教师版移动端排版优化 (P3)
+   ============================================================ */
+
+@media (max-width: 900px) {
+  /* 教师版：讲词主体字号放大，一臂外可读 */
+  .layout-mode-teacher .paragraph {
+    margin-bottom: var(--sp-xl);
+    line-height: 2.0;
+    font-size: 17px;
+  }
+
+  .layout-mode-teacher .paragraph.speech {
+    font-size: 17px;
+    line-height: 1.9;
+  }
+
+  /* 教师版：slide 分隔线降噪 */
+  .layout-mode-teacher .slide-divider-group {
+    opacity: 0.25;
+  }
+
+  /* 教师版：技术注释默认折叠，减少阅览噪声 */
+  .layout-mode-teacher .paragraph.tech-note {
+    max-height: 44px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: max-height 0.3s ease;
+  }
+
+  .layout-mode-teacher .paragraph.tech-note::after {
+    content: '▾ 点击展开技术注释';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 28px;
+    background: linear-gradient(transparent, rgba(107, 143, 173, 0.15));
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 10px;
+    color: var(--theme-info);
+    letter-spacing: 0.5px;
+    padding-bottom: 4px;
+  }
+
+  .layout-mode-teacher .paragraph.tech-note.expanded {
+    max-height: none;
+  }
+
+  .layout-mode-teacher .paragraph.tech-note.expanded::after {
+    display: none;
+  }
+
+  /* 教师版：面包屑头部更紧凑 */
+  .layout-mode-teacher .text-panel-header {
+    padding: var(--sp-xs) var(--sp-md);
+    min-height: 28px;
+  }
 }

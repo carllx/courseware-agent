@@ -1,0 +1,377 @@
+- slide: W01_S01a
+  module: M01_数字产品之殇_我们为什么会抓狂
+  priority: high
+  signals:
+  - person_portrait
+  - gazetteer_person
+  entities:
+  - Alan Cooper
+  description: 学会让人"不抓狂" — 交互产品开发第一课
+  scene_excerpt: 概念肖像：Alan Cooper 望着由复杂咖啡机与混乱菜单交织的“数字高墙”。学术极简暖白背景，致敬经典配色风格。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  target_path: ../public/slides/W01_S01a_real.png
+  current_asset: ../public/slides/W01_S01a.png
+  no_ai_flag: false
+- slide: W01_S01_Book
+  module: M01_数字产品之殇_我们为什么会抓狂
+  priority: high
+  signals:
+  - historical_archive
+  - physical_product
+  - book_cover
+  - gazetteer_person
+  - gazetteer_brand
+  - book_title
+  entities:
+  - Alan Cooper
+  - About Face
+  - About Face 4
+  description: '"Digital Products Fail" — Cooper 的核心诊断'
+  scene_excerpt: 《About Face 4》原版封面，展示经典的白绿蓝渐变与大号镂空排版。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper product shot high resolution
+  - Alan Cooper portrait
+  - About Face photo
+  target_path: ../public/slides/W01_S01_Book_real.png
+  current_asset: ../public/slides/W01_S01_Book.png
+  no_ai_flag: false
+- slide: W01_S01d
+  module: M01_数字产品之殇_我们为什么会抓狂
+  priority: high
+  signals:
+  - gazetteer_person
+  entities:
+  - Alan Cooper
+  description: 体验坍塌的四大组织根因
+  scene_excerpt: 产品失败四大根因卡片，配对应图标：天平倾斜、蒙眼人偶、拉扯箭头、断裂流程线。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  target_path: ../public/slides/W01_S01d_real.png
+  current_asset: ../public/slides/W01_S01d.png
+  no_ai_flag: false
+- slide: W01_S01e
+  module: M01_数字产品之殇_我们为什么会抓狂
+  priority: high
+  signals:
+  - ui_screenshot
+  - gazetteer_person
+  - gazetteer_brand
+  - book_title
+  entities:
+  - Alan Cooper
+  - About Face
+  description: 利益冲突：购买者的暴政
+  scene_excerpt: 左侧：SAP 典型操作界面截图，密密麻麻的字段。右侧：CIO 评估清单——功能数量与价格。底部大字："购买者的暴政 (Tyranny of the Buyer)"。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  - About Face photo
+  - About Face real image
+  target_path: ../public/slides/W01_S01e_real.png
+  current_asset: ../public/slides/W01_S01e.png
+  no_ai_flag: false
+- slide: W01_S01e2
+  module: M01_数字产品之殇_我们为什么会抓狂
+  priority: high
+  signals:
+  - gazetteer_person
+  - tech_identifier
+  - book_title
+  entities:
+  - Alan Cooper
+  - ICD-10
+  - 领域复杂性
+  - 交互直觉性
+  description: 领域专家 ≠ 设计专家
+  scene_excerpt: 概念隐喻图：左半屏极度复杂密集的网状连线与医学分类树（代表生硬复杂的底层系统逻辑/领域专家心智），右侧是表现高压紧急环境下，一只正在屏幕上焦虑且不知所措的手指。对比展示「领域复杂性」与「交互直觉性」的冲突。采用学术极简风与暖灰色调。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper product shot high resolution
+  - Alan Cooper portrait
+  - ICD-10 photo
+  target_path: ../public/slides/W01_S01e2_real.png
+  current_asset: ../public/slides/W01_S01e2.png
+  no_ai_flag: false
+- slide: W01_S01f
+  module: M01_数字产品之殇_我们为什么会抓狂
+  priority: high
+  signals:
+  - gazetteer_person
+  entities:
+  - Alan Cooper
+  description: 认知摩擦的诞生：物理可预测性的崩塌
+  scene_excerpt: 左侧物理三支柱（重力/即时因果/物理一致）。右侧数字断裂裂痕（无重力/延迟/一致性崩塌）。中央标注"认知摩擦"。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  target_path: ../public/slides/W01_S01f_real.png
+  current_asset: ../public/slides/W01_S01f.png
+  no_ai_flag: false
+- slide: W01_S02a
+  module: M02.5_可用性_vs_体验
+  priority: high
+  signals:
+  - gazetteer_person
+  entities:
+  - Yvonne Rogers
+  description: 可用性七大准入红线
+  scene_excerpt: 环形结构卡片，展示可用性七大核心属性（雷达图）。每个维度附带一个典型失败案例的灰度小图。
+  search_queries:
+  - Yvonne Rogers photo
+  - Yvonne Rogers real image
+  - Yvonne Rogers portrait
+  target_path: ../public/slides/W01_S02a_real.png
+  current_asset: ../public/slides/W01_S02a.png
+  no_ai_flag: false
+- slide: W01_S02_Norman
+  module: M02_定义与边界_我们到底在交互什么
+  priority: high
+  signals:
+  - gazetteer_brand
+  - gazetteer_person
+  entities:
+  - Interaction Design
+  - Yvonne Rogers
+  - Don Norman
+  description: 体验涵盖了所有的数字与物理触点
+  scene_excerpt: 1993 年的苹果办公区。一名员工拆开包装卡住的 Mac 电脑纸箱，旁边附有文字标签“The box was part of the experience.” 以及 1993年，Don Norman 入职苹果公司。他马上发现桌面软件团队和硬件工业团队水火不容。电脑造得再漂亮，软件如果让人崩溃，体验就是垃圾。于是，Norman
+    在苹果内部拉起了一支队伍，并创造了一个全新的专业头衔发在了自己的名片上：
+  search_queries:
+  - Interaction Design photo
+  - Interaction Design real image
+  - Interaction Design portrait
+  - Yvonne Rogers photo
+  - Yvonne Rogers real image
+  target_path: ../public/slides/W01_S02_Norman_real.png
+  current_asset: ../public/slides/W01_S02_Norman.png
+  no_ai_flag: false
+- slide: W01_S02d
+  module: M02_定义与边界_我们到底在交互什么
+  priority: high
+  signals:
+  - physical_product
+  - gazetteer_brand
+  - book_title
+  entities:
+  - Interaction Design
+  description: UI/UX/IxD 的四大维度边界
+  scene_excerpt: 2×2 网格分析工具模式，四个维度各占一格。左上角绘制大脑网络，右上角绘制设备握持点，左下角展示色彩与字体排版，右下角展示鼠标点击的时间线反馈波形。
+  search_queries:
+  - Interaction Design photo
+  - Interaction Design real image
+  - Interaction Design product shot high resolution
+  target_path: ../public/slides/W01_S02d_real.png
+  current_asset: ../public/slides/W01_S02d.png
+  no_ai_flag: false
+- slide: W01_S02_Wechat
+  module: M02_定义与边界_我们到底在交互什么
+  priority: high
+  signals:
+  - gazetteer_person
+  entities:
+  - 张小龙
+  description: 国民级应用：跨越四维的完美执行
+  scene_excerpt: 微信四个维度的演变轨迹分解图。概念：社交即OS系统；物理：大拇指扫拂区重构；界面：深邃克制的留白体系；交互：自然语言拖拽操作流。
+  search_queries:
+  - 张小龙 photo
+  - 张小龙 real image
+  - 张小龙 portrait
+  target_path: ../public/slides/W01_S02_Wechat_real.png
+  current_asset: ../public/slides/W01_S02_Wechat.png
+  no_ai_flag: false
+- slide: W01_S03
+  module: M03_破解认知失调_重要的三大模型
+  priority: high
+  signals:
+  - gazetteer_person
+  entities:
+  - Alan Cooper
+  description: 认知失调的本源
+  scene_excerpt: 一个三环交叉的文氏图或者阶梯图：工程实施模型 (底部满布生硬齿轮) -> 表现模型 (中间的平滑界面层) -> 用户心理模型 (顶端的大脑结构)。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  target_path: ../public/slides/W01_S03_real.png
+  current_asset: ../public/slides/W01_S03.png
+  no_ai_flag: false
+- slide: W01_S03h
+  module: M03_破解认知失调_重要的三大模型
+  priority: high
+  signals:
+  - gazetteer_brand
+  entities:
+  - Spotify
+  description: 温情的超级黑箱：算法的极简伪装
+  scene_excerpt: 漏斗式超级黑箱过滤演示。上层塞满了海杂乱无章的全球百万用户操作记录节点、隐晦诡谲的波形卷积神经网络（庞大的后台代码）。诸多复杂信号经过高速漏斗的挤压，在最底层产出一张拥有美丽圆角、伴有轻缓微光动画的矩形卡片（表现界面）。
+  search_queries:
+  - Spotify photo
+  - Spotify real image
+  target_path: ../public/slides/W01_S03h_real.png
+  current_asset: ../public/slides/W01_S03h.png
+  no_ai_flag: false
+- slide: W01_S05c
+  module: M04_防止摩擦的五把武器_设计原则
+  priority: high
+  signals:
+  - gazetteer_person
+  entities:
+  - Yvonne Rogers
+  - 新乡重夫
+  description: 事前预防与事后控制
+  scene_excerpt: 上半区：事后验证惩罚机制（用户全神贯注填完两千字的繁杂注册表单并点击验证按钮后，系统突然触发全屏红框报错提示"密码因未含特殊标点而失效" = 受挫与愤怒）。下半区：前端预防式防御机制（密码输入框悬挂有强弱密码指示条及规则池，在要求尚未被完全满足前，唯一的提交按钮被铁血锁定为点击的淡灰色
+    = 安全可靠的控制权转移）。
+  search_queries:
+  - Yvonne Rogers photo
+  - Yvonne Rogers real image
+  - Yvonne Rogers portrait
+  - 新乡重夫 photo
+  - 新乡重夫 real image
+  target_path: ../public/slides/W01_S05c_real.png
+  current_asset: ../public/slides/W01_S05c.png
+  no_ai_flag: false
+- slide: W01_S06a
+  module: M05_第一战场_实验1_敏捷洞察与_MVP
+  priority: high
+  signals:
+  - gazetteer_brand
+  - book_title
+  entities:
+  - Lean UX
+  description: 敏捷的呼吸节律：构建与抛弃
+  scene_excerpt: '敏捷开发循环图（Think -> Make -> Check），高亮 "Think" 与 "Make" 的前期交界阶段，并标注 "实验1(Exp1): 定性研究与概念流向"。'
+  search_queries:
+  - Lean UX photo
+  - Lean UX real image
+  target_path: ../public/slides/W01_S06a_real.png
+  current_asset: ../public/slides/W01_S06a.png
+  no_ai_flag: false
+- slide: W01_S06d
+  module: M05_第一战场_实验1_敏捷洞察与_MVP
+  priority: high
+  signals:
+  - gazetteer_brand
+  entities:
+  - Dropbox
+  description: 保真度与证据强度的博弈
+  scene_excerpt: '一张从左到右递进的图形。左端是"纸质原型"（低保真、低成本），右端是"完整代码"（高保真、高成本）。上面压着一条向上弯曲的箭头曲线，标注"Truth Curve: 证据越多，投入越高"。'
+  search_queries:
+  - Dropbox photo
+  - Dropbox real image
+  target_path: ../public/slides/W01_S06d_real.png
+  current_asset: ../public/slides/W01_S06d.png
+  no_ai_flag: false
+- slide: W01_S07a
+  module: M05_第一战场_实验1_敏捷洞察与_MVP
+  priority: high
+  signals:
+  - gazetteer_brand
+  - book_title
+  entities:
+  - About Face
+  description: 课程五大收尾法则
+  scene_excerpt: 五大核心收获总结卡片，每条配一个概念图标，呼应全课核心理念。
+  search_queries:
+  - About Face photo
+  - About Face real image
+  target_path: ../public/slides/W01_S07a_real.png
+  current_asset: ../public/slides/W01_S07a.png
+  no_ai_flag: false
+- slide: W01_S01h_Cases
+  module: M01_数字产品之殇_我们为什么会抓狂
+  priority: medium
+  signals:
+  - physical_product
+  - dated_event
+  entities: []
+  description: 用克制换包容的实体实践
+  scene_excerpt: 三个并列的复古静物特写组合，采用学术简约的低饱和暖色调。从左至右依次为：带零钱槽的老式公交车投币口、复古的医院电话听筒、一本经典的纸质银行存折。画面必须纯净，没有文字、字母或数据排版幻觉，仅通过物本质感传达“保留退路”的温度。
+  search_queries: []
+  target_path: ../public/slides/W01_S01h_Cases_real.png
+  current_asset: ../public/slides/W01_S01h_Cases.png
+  no_ai_flag: false
+- slide: W01_S03a
+  module: M03_破解认知失调_重要的三大模型
+  priority: medium
+  signals:
+  - physical_product
+  entities: []
+  description: 三大核心模型
+  scene_excerpt: 三层蛋糕结构解剖图。最底部的基座是裸露的齿轮、集成块与粗糙电线（后台代码）。中层的夹心是一块打磨得平滑的玻璃面板，带有一个可控制的实体滑块（表现模型）。最顶端是一团漂浮的思想气泡，勾勒着简单的抽象图案（用户心理模型）。
+  search_queries: []
+  target_path: ../public/slides/W01_S03a_real.png
+  current_asset: ../public/slides/W01_S03a.png
+  no_ai_flag: false
+- slide: W01_S03e
+  module: M03_破解认知失调_重要的三大模型
+  priority: medium
+  signals:
+  - historical_archive
+  entities: []
+  description: 平衡系统真相与心智幻觉
+  scene_excerpt: 物理博弈天平图解。上方：当滑块死命偏向左端（后台代码齿轮代表的真实世界）时，天平严重失衡翻倒，红色交叉标志显现。下方：滑块稳固地靠在右侧（代表云朵与错觉的心智图景端），天平达成水平平衡，绿光充盈。
+  search_queries:
+  - 平衡系统真相与心智幻觉 historical photo
+  - 平衡系统真相与心智幻觉 archive image
+  target_path: ../public/slides/W01_S03e_real.png
+  current_asset: ../public/slides/W01_S03e.png
+  no_ai_flag: false
+- slide: W01_S02
+  module: M02_定义与边界_我们到底在交互什么
+  priority: low
+  signals:
+  - camelcase_product
+  - book_title
+  entities:
+  - iPhone
+  - 模仿游戏
+  description: 交互是一场心智的翻译工程
+  scene_excerpt: 早期计算机的密码破解机器（类似电影《模仿游戏》中巨大的图灵 Bombe 机器，布满无数旋转表盘和错综复杂的红色线缆，散发着冰冷的机械感，一位工程师正在艰难寻找线索）与现代 iPhone 用户的并排对比。左侧代表极其复杂的机器语言时代；右侧的用户正在悠闲地单手滑动智能手机屏幕。
+  search_queries:
+  - iPhone photo
+  - iPhone real image
+  - 模仿游戏 photo
+  - 模仿游戏 real image
+  target_path: ../public/slides/W01_S02_real.png
+  current_asset: ../public/slides/W01_S02.png
+  no_ai_flag: false
+- slide: W01_S03c
+  module: M03_破解认知失调_重要的三大模型
+  priority: low
+  signals:
+  - camelcase_product
+  entities:
+  - eNB
+  description: 荒谬但有用的水流隐喻
+  scene_excerpt: 电力网络输送流。左侧绘制出狂暴的交流电波形震荡图，重点标注"在 1/60 秒内正负极狂乱更迭"（后台代码）。右侧描绘一个插画风格的水龙头连着电线，点亮灯泡，标注"电就如同水管里的储流水"（错误但有用的脑内逻辑）。
+  search_queries:
+  - eNB photo
+  - eNB real image
+  target_path: ../public/slides/W01_S03c_real.png
+  current_asset: ../public/slides/W01_S03c.png
+  no_ai_flag: false
+- slide: W01_S05b_Intro
+  module: M04_防止摩擦的五把武器_设计原则
+  priority: low
+  signals:
+  - camelcase_product
+  entities:
+  - iPhone
+  description: 反馈回执的必要性
+  scene_excerpt: 概念示意图：抽象展示用户动作触发后系统给出的即时感官确认过程。
+  search_queries:
+  - iPhone photo
+  - iPhone real image
+  target_path: ../public/slides/W01_S05b_Intro_real.png
+  current_asset: ../public/slides/W01_S05f.png
+  no_ai_flag: false

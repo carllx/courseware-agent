@@ -1,5 +1,5 @@
 mailbox_path: "/Users/yamlam/Downloads/2025-2026-2 课程/.agent/mailbox"
-next_msg_id: 13
+next_msg_id: 14
 next_rfc_id: 2
 agents:
   - id: course_writer

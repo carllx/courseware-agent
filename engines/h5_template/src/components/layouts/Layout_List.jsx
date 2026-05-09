@@ -7,19 +7,25 @@ import EditorialList from '../primitives/EditorialList'
  */
 export default function Layout_List({ slide }) {
   const items = slide.parsedList || []
+  const hasList = items.length > 0
+  const hasImage = !!slide.resolvedImage
   
   return (
     <>
       {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
-      <div className="h5-slide-body h5-layout-list-wrapper">
-        <div className="h5-list-container">
-          {items.length > 0 ? (
+      <div className={`h5-slide-body ${hasImage && hasList ? 'h5-layout-editorial-split' : 'h5-layout-list-wrapper'}`}>
+        {hasImage && (
+          <AssetPlaceholder 
+            slide={slide} 
+            proportion={hasList ? '45%' : '100%'} 
+          />
+        )}
+        <div className={hasImage && hasList ? 'h5-split-content' : 'h5-list-container'}>
+          {hasList ? (
             <EditorialList items={items} variant="numbered" />
           ) : (
-            /* 当没有解析出列表时，才回退显示图片或占位符 */
-            slide.resolvedImage ? (
-              <AssetPlaceholder slide={slide} proportion="100%" customStyle={{ display: 'flex' }} />
-            ) : (
+            /* 当没有解析出列表时，且没有图片时才抛出占位符 */
+            !hasImage && (
               <div className="h5-asset-box h5-asset-box--placeholder" style={{ flex: 1 }}>
                 <span className="h5-asset-label">List</span>
                 <span className="h5-asset-desc">{slide.scene || '等待列表数据'}</span>

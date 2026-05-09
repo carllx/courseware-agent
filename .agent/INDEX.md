@@ -65,6 +65,8 @@ graph LR
     B -->|"fill_ratio ≥ 1.0"| C["/audit<br/>(Quick+Standard)"]
     B -->|"fill_ratio < 0.8"| B
     C -->|"Q3 短路"| B
+    C -->|"记忆逻辑需优化"| MO["/memory_optimize<br/>(要旨+逻辑重建)"]
+    MO --> C
     C -->|"--deep"| C2["/audit_deep<br/>(Part D+G+H)"]
     C -->|"--deep + course.yaml"| C3["/audit_courseyaml<br/>(Part F)"]
     C -->|"Q3 通过"| D["/generate_assets"]
@@ -131,6 +133,7 @@ graph LR
 | `/audit` | 质量审查（`--quick` / 默认 / `--deep` 三级；支持 `--week N` 和 `--module "关键词"` 聚焦审计） |
 | `/audit_deep` | Deep 级别检查（Part D 知识覆盖 + Part G OBE 对齐 + Part H 实验联动合规） |
 | `/audit_courseyaml` | Deep 级别检查（Part F course.yaml 合规） |
+| `/memory_optimize` | 记忆逻辑专项优化（要旨可提取性 + 逻辑可重建性 + 冷热节律 + 视觉分流 + 段落呼吸）；支持 `--dry-run` 和 `--focus` |
 | `/validate_knowledge` | 知识库健康检查（已被 `/write` 和 `/audit` 自动调用） |
 | `/design_practice` | 设计/编辑每周实践步骤规格（`practices/W0X_practice.yaml`） |
 | `/generate_assets` | 批量生成视觉资产（含字数门控前置检查） |

@@ -292,6 +292,7 @@ def validate_practice_file(filepath: Path, concept_registry: dict,
                         f"phases[{i}] ({pid}) theory_link 为纯字符串（已废弃），"
                         f"须改为结构化对象 {{concept_id, description}} 或对象数组"
                     ))
+                    theory_links = []
                 elif isinstance(theory_link, dict):
                     theory_links = [theory_link]
                 elif isinstance(theory_link, list):

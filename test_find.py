@@ -1,8 +1,18 @@
+import re
 import sys
-from pathlib import Path
-sys.path.insert(0, str(Path.cwd() / "engines"))
-from generate_course_h5 import find_image
 
-course_path = Path("/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化")
-print("S02:", find_image(course_path, "![《纽约时报》新冠风险地图](../public/slides/S02_NYT_Covid_Map.jpg)"))
-print("S04b:", find_image(course_path, "![哈佛医学院彩虹色带误诊案例](../public/slides/S04b_Harvard_Rainbow_Disaster.png)"))
+def search_images(file_path, keywords):
+    with open(file_path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    
+    for i, line in enumerate(lines):
+        match = re.search(r"!\[.*?\]\((images/.*?\.jpg)\)", line)
+        if match:
+            img = match.group(1)
+            context = "".join(lines[max(0, i-3) : min(len(lines), i+4)]).lower()
+            if any(k.lower() in context for k in keywords):
+                print(f"Match for {img}:")
+                print(context.strip())
+                print("-" * 40)
+
+search_images("/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/Visualization Analysis & Design -- Tamara Munzner -- 2014_full.md", ["attribute type", "categorical", "what, why", "framework", "overplotting", "spaghetti"])

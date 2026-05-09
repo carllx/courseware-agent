@@ -1,0 +1,97 @@
+# concept_registry.yaml — 概念 ID 注册表
+# SSOT: 本文件是 theory_link.concept_id 的唯一定义点
+# 消费者: practices/*.yaml → theory_link.concept_id
+# Schema Version: 1.0 (2026-04-13, ADR 043)
+#
+# 命名约定: snake_case 英文 ID，对应中文名称
+# 增量维护: /write 撰写新周次脚本时，同步补充本文件
+# 初始数据来源: 现有 practice.yaml 的 theory_link 字符串反向提取
+
+concepts:
+  # === W01: 视觉感知 ===
+  - id: datasaurus_anscombe
+    name: "安斯库姆四重奏与统计局限"
+    first_introduced: W01
+
+  - id: preattentive_processing
+    name: "前注意处理与弹出效应"
+    first_introduced: W01
+
+  - id: gestalt_principles
+    name: "格式塔基本原则与图底分离"
+    first_introduced: W01
+
+  - id: vibe_coding
+    name: "Vibe Coding 数据降噪范式"
+    first_introduced: W01
+
+  # === W02: 设计原则 ===
+  - id: marks_channels
+    name: "Marks/Channels 有效性"
+    first_introduced: W02
+
+  - id: data_ink_ratio
+    name: "Data-Ink Ratio"
+    first_introduced: W02
+
+  # === W03: 数据素养 ===
+  - id: tidy_data
+    name: "Tidy Data 三原则"
+    first_introduced: W03
+
+  - id: data_abstraction
+    name: "What/Why 数据抽象"
+    first_introduced: W03
+
+  - id: munzner_data_taxonomy
+    name: "Munzner 数据抽象分类体系"
+    first_introduced: W03
+
+  # === W04: AI + D3 基础 ===
+  - id: spatial_arrangement
+    name: "Munzner Ch7 空间排布"
+    first_introduced: W04
+
+  - id: echarts_declarative
+    name: "ECharts 声明式 Option 架构"
+    first_introduced: W04
+
+  - id: d3_imperative
+    name: "D3.js 指令式范式与矢量提取"
+    first_introduced: W04
+
+  # === W05: AI + D3 美学 ===
+  - id: network_topology_ethics
+    name: "网络拓扑伦理与数据隐喻"
+    first_introduced: W05
+
+  - id: force_directed_model
+    name: "力导向物理模型与 Barnes-Hut 近似"
+    first_introduced: W05
+
+  - id: generative_art_metaphor
+    name: "生成艺术 + 力导向 + 数据隐喻"
+    first_introduced: W05
+
+  # === W06: 交互 ===
+  - id: scrollytelling
+    name: "Scrollytelling 叙事节奏设计"
+    first_introduced: W06
+
+  - id: gsap_scrolltrigger
+    name: "GSAP ScrollTrigger + Munzner 交互分类"
+    first_introduced: W06
+
+  # === W07: 项目设计 ===
+  - id: munzner_nested_model
+    name: "Munzner 嵌套模型验证"
+    first_introduced: W07
+
+  # === W08: 项目开发 ===
+  - id: debug_funnel
+    name: "排错漏斗的全栈扩展"
+    first_introduced: W08
+
+  - id: munzner_nested_validation
+    name: "Munzner 嵌套模型四层验证"
+    first_introduced: W08

@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useProgress } from "../contexts/ProgressContext";
 import { useValidation } from "../contexts/ValidationContext";
 import "../styles/outline-sidebar.css";
@@ -18,104 +18,30 @@ import "../styles/outline-sidebar.css";
 export default function OutlineSidebar({
   manifest,
   currentSectionIdx,
-  currentSlideIdx,
+  activeParagraphIdx,
   onSwitchSection,
-  onSwitchSlide,
+  onNavigateToParagraph,
   courseId,
   scriptName,
+  mobileDrawerOpen,
+  onCloseMobileDrawer,
 }) {
   const [collapsed, setCollapsed] = useState(false);
   const [validationOpen, setValidationOpen] = useState(false);
   const progress = useProgress();
   const { validation, gateLevel } = useValidation();
 
-  // 健康统计（从 HealthDot 吸纳）
-  const healthStats = useMemo(() => {
-    if (!manifest?.sections) return null;
-    let totalSlides = 0;
-    let brokenSlides = 0;
-    let underfilledModules = 0;
-    let emptyModules = 0;
-
-    manifest.sections.forEach((sec) => {
-      if (!sec.paragraphs || sec.paragraphs.length === 0) emptyModules++;
-      if (sec.fillRatio != null && sec.fillRatio < 0.8) underfilledModules++;
-      if (sec.slides) {
-        sec.slides.forEach((slide) => {
-          totalSlides++;
-          if (slide.assetExpected && !slide.image) brokenSlides++;
-        });
+  // 保证在移动端 (<=900px) 绝不进入桌面版的折叠 DOM 模式
+  // 否则 Drawer 就算划出来也只有 48px
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 900 && collapsed) {
+        setCollapsed(false);
       }
-    });
-
-    let color = "green";
-    if (emptyModules > 0 || underfilledModules > 0) color = "red";
-    else if (brokenSlides > 0) color = "yellow";
-  }, [manifest]);
-
-  // 从 HMR ValidationContext 获取动态验证详情
-  const validationStats = useMemo(() => {
-    if (!validation) return null;
-    const { validators } = validation;
-    const lengthData = validators?.length;
-    const visualsData = validators?.visuals;
-
-    if (!lengthData) return null;
-    const modules = lengthData.modules || [];
-    const underfilledCount = modules.filter(
-      (m) => m.fillRatio != null && m.fillRatio < 0.8,
-    ).length;
-    const draftCount = modules.filter((m) => m.isDraft).length;
-    const tagDeficitCount = modules.filter((m) => m.tagDeficit > 0).length;
-    const missingVisuals = visualsData?.summary?.missing || 0;
-
-    return {
-      underfilledCount,
-      draftCount,
-      tagDeficitCount,
-      missingVisuals,
-      modules,
-      lengthData,
-      visualsData,
     };
-  }, [validation]);
-
-  // 优先级：HMR 动态数据 > manifest 静态数据
-  const displayStats = useMemo(() => {
-    let text = `${healthStats?.totalSlides || 0} slides`;
-    let color = healthStats?.color || "green";
-    let issues = 0;
-    let issueTexts = [];
-
-    if (validationStats) {
-      issues =
-        validationStats.underfilledCount +
-        validationStats.draftCount +
-        validationStats.missingVisuals;
-      if (validationStats.missingVisuals > 0)
-        issueTexts.push(`${validationStats.missingVisuals} 断链`);
-      if (validationStats.underfilledCount > 0)
-        issueTexts.push(`${validationStats.underfilledCount} 不足`);
-      if (validationStats.tagDeficitCount > 0)
-        issueTexts.push(`${validationStats.tagDeficitCount} 缺签`);
-      if (issues > 0)
-        color = validationStats.missingVisuals > 0 ? "yellow" : "red";
-      else color = "green";
-    } else if (healthStats) {
-      if (healthStats.brokenSlides > 0)
-        issueTexts.push(`${healthStats.brokenSlides} 断链`);
-      if (healthStats.underfilledModules > 0)
-        issueTexts.push(`${healthStats.underfilledModules} 不足`);
-    }
-
-    if (issueTexts.length > 0) {
-      text += ` · ${issueTexts.join(" ")}`;
-    } else {
-      text += ` · 健康`;
-    }
-
-    return { text, color, hasValidation: !!validationStats };
-  }, [healthStats, validationStats]);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [collapsed]);
 
   if (!manifest) return null;
 
@@ -147,9 +73,17 @@ export default function OutlineSidebar({
   }
 
   return (
-    <aside className="outline-sidebar">
-      {/* 头部：课程名 + 折叠按钮 */}
-      <div className="outline-header">
+    <>
+      {/* 移动端全屏透明遮罩 (Backdrop) */}
+      <div 
+        className={`outline-sidebar-overlay ${mobileDrawerOpen ? 'active' : ''}`}
+        onClick={onCloseMobileDrawer}
+        aria-hidden="true"
+      />
+
+      <aside className={`outline-sidebar ${mobileDrawerOpen ? 'mobile-drawer-open' : ''}`}>
+        {/* 头部：课程名 + 折叠按钮 */}
+        <div className="outline-header">
         <span className="outline-course-name" title={manifest.course}>
           {manifest.script}
         </span>
@@ -161,6 +95,91 @@ export default function OutlineSidebar({
           ✕
         </button>
       </div>
+
+      {/* ARC-02/03: 全局水位分析条 - 双轨分离制 (含视频时长归因) */}
+      {manifest.stats && (() => {
+        const { 
+          budgetMinutes = 90, 
+          theoryBudgetMinutes = 90, 
+          practiceBudgetMinutes = 0,
+          lectureMinutes = 0, 
+          activityMinutes = 0,
+          mediaLectureMinutes = 0,
+          mediaActivityMinutes = 0,
+        } = manifest.stats;
+        
+        // ARC-03: 视频时长归入对应时间池
+        const effectiveLecture = lectureMinutes + mediaLectureMinutes;
+        const effectiveActivity = activityMinutes + mediaActivityMinutes;
+        const totalMedia = mediaLectureMinutes + mediaActivityMinutes;
+
+        const toHours = (m) => (m / 45).toFixed(1);
+        const lH = Number(toHours(effectiveLecture));
+        const aH = Number(toHours(effectiveActivity));
+        const tBh = Number(toHours(theoryBudgetMinutes)).toFixed(0);
+        const pBh = Number(toHours(practiceBudgetMinutes)).toFixed(0);
+
+        // 理论讲授 Track 计算
+        const lMax = Math.max(theoryBudgetMinutes, effectiveLecture, 1); 
+        const lFillP = (effectiveLecture / lMax) * 100;
+        const lThresholdP = (theoryBudgetMinutes / lMax) * 100;
+        const lOvertime = effectiveLecture > theoryBudgetMinutes;
+
+        // 实践活动 Track 计算
+        const pMax = Math.max(practiceBudgetMinutes, effectiveActivity, 1); 
+        const pFillP = (effectiveActivity / pMax) * 100;
+        const pThresholdP = (practiceBudgetMinutes / pMax) * 100;
+        const pOvertime = practiceBudgetMinutes > 0 && effectiveActivity > practiceBudgetMinutes;
+
+        let ratioText = '纯讲授';
+        if (effectiveActivity > 0) {
+          const ratio = (effectiveLecture / effectiveActivity).toFixed(1);
+          ratioText = `讲练比 ${ratio}:1`;
+        } else if (effectiveLecture === 0) {
+          ratioText = '无内容';
+        }
+
+        // ARC-03: 视频时长信息
+        const mediaLecTag = mediaLectureMinutes > 0 ? ` (含📹${toHours(mediaLectureMinutes)})` : '';
+        const mediaActTag = mediaActivityMinutes > 0 ? ` (含📹${toHours(mediaActivityMinutes)})` : '';
+
+        return (
+          <div className="outline-pacing-container">
+            <div className="pacing-global-header">
+              <span className="pacing-title">课程进度剖析</span>
+              <span className="pacing-ratio">{ratioText}{totalMedia > 0 && <span className="pacing-media-badge" title={`视频素材合计 ${toHours(totalMedia)} 学时`}>📹</span>}</span>
+            </div>
+
+            {/* Track 1: 理论讲授 */}
+            <div className="pacing-track-container" title={`理论包含讲授与互动，系统预估字数换算${mediaLecTag}\n实际：${lH.toFixed(1)} 学时 | 预设：${tBh} 学时`}>
+              <div className="pacing-track-header">
+                <span className={`pacing-track-label ${lOvertime ? 'overtime-warn' : ''}`}>讲授 ({lH.toFixed(1)}/{tBh} 学)</span>
+              </div>
+              <div className="pacing-stacked-bar">
+                {lFillP > 0 && <div className="pacing-fill lecture" style={{width: `${lFillP}%`}} />}
+                {lOvertime && (
+                  <div className="pacing-overtime-overlay" style={{ left: `${lThresholdP}%`, right: 0 }} title="讲授超时超载" />
+                )}
+              </div>
+            </div>
+
+            {/* Track 2: 实践活动 (仅当存在预设或实际时显示) */}
+            {(practiceBudgetMinutes > 0 || effectiveActivity > 0) && (
+              <div className="pacing-track-container" title={`由 [ACTIVITY] 标签 + 视频案例驱动${mediaActTag}\n实际：${aH.toFixed(1)} 学时 | 预设：${pBh} 学时`}>
+                <div className="pacing-track-header">
+                  <span className={`pacing-track-label ${pOvertime ? 'overtime-warn' : ''}`}>实践 ({aH.toFixed(1)}/{pBh} 学)</span>
+                </div>
+                <div className="pacing-stacked-bar">
+                  {pFillP > 0 && <div className="pacing-fill activity" style={{width: `${pFillP}%`}} />}
+                  {pOvertime && (
+                    <div className="pacing-overtime-overlay" style={{ left: `${Math.max(0.1, pThresholdP)}%`, right: 0 }} title="实践时数超载" />
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      })()}
 
       {/* 目录树 */}
       <nav className="outline-tree">
@@ -176,10 +195,12 @@ export default function OutlineSidebar({
           const accentColor = `hsl(${hue}, 60%, 55%)`;
 
           // 当前激活子节推断
+          // ARC-01 v2: 基于 paragraph 锚点判断激活子节
           let activeSubIdx = -1;
           if (isActive && hasSubSections) {
+            const effectiveParaIdx = activeParagraphIdx >= 0 ? activeParagraphIdx : 0;
             for (let i = 0; i < subSections.length; i++) {
-              if (subSections[i].startSlide <= currentSlideIdx) {
+              if (subSections[i].startParagraph <= effectiveParaIdx) {
                 activeSubIdx = i;
               }
             }
@@ -218,7 +239,7 @@ export default function OutlineSidebar({
                       <button
                         key={sub.id}
                         className={`outline-sub-btn ${isSubActive ? "active" : ""}`}
-                        onClick={() => onSwitchSlide(sub.startSlide)}
+                        onClick={() => onNavigateToParagraph(sub.startParagraph)}
                         title={sub.title}
                       >
                         <span className="outline-sub-indicator" />
@@ -233,126 +254,8 @@ export default function OutlineSidebar({
         })}
       </nav>
 
-      {/* 底部健康摘要 */}
-      <div className="outline-health-container">
-        <button
-          className="outline-health clickable"
-          onClick={() => setValidationOpen(!validationOpen)}
-          title="查看验证详情"
-        >
-          <div className="outline-health-info">
-            <span className="outline-health-dot" />
-            <span className="outline-health-text">{displayStats.text}</span>
-          </div>
-          <span className="outline-health-action">🔍 验证</span>
-        </button>
-
-        {/* 弹出验证详情面板 */}
-        {validationOpen && (
-          <div className="outline-validation-popover">
-            <div className="validation-panel-header">
-              <span>🔍 验证详情</span>
-              <button
-                className="validation-close"
-                onClick={() => setValidationOpen(false)}
-              >
-                ×
-              </button>
-            </div>
-
-            {!validationStats ? (
-              <div className="validation-section">
-                <div className="validation-hint">
-                  ⏳ 等待编辑器保存触发实时验证...
-                </div>
-              </div>
-            ) : (
-              <>
-                {gateLevel >= 2 && (
-                  <div className="validation-gate-warning">
-                    ⚠️ 字数严重不足，视觉检查已折弱
-                  </div>
-                )}
-
-                {validationStats.lengthData && (
-                  <div className="validation-section">
-                    <div className="validation-section-title">📝 字数验证</div>
-                    {validationStats.modules.map((mod, i) => {
-                      if (mod.fillRatio == null) return null;
-                      const percent = Math.round(mod.fillRatio * 100);
-                      const status =
-                        mod.fillRatio >= 1.0
-                          ? "ok"
-                          : mod.fillRatio >= 0.8
-                            ? "warn"
-                            : "fail";
-                      return (
-                        <div
-                          key={i}
-                          className={`validation-module-row ${status}`}
-                        >
-                          <span
-                            className="validation-module-name"
-                            title={mod.module}
-                          >
-                            {mod.module.length > 18
-                              ? mod.module.slice(0, 16) + ".."
-                              : mod.module}
-                          </span>
-                          <div className="validation-mini-bar">
-                            <div
-                              className={`validation-mini-fill ${status}`}
-                              style={{ width: `${Math.min(percent, 100)}%` }}
-                            />
-                          </div>
-                          <span className={`validation-percent ${status}`}>
-                            {percent}%
-                          </span>
-                        </div>
-                      );
-                    })}
-                    {validationStats.tagDeficitCount > 0 && (
-                      <div className="validation-hint">
-                        🏷️ {validationStats.tagDeficitCount} 个模块标签密度不足
-                      </div>
-                    )}
-                  </div>
-                )}
-
-                {validationStats.visualsData && gateLevel < 2 && (
-                  <div className="validation-section">
-                    <div className="validation-section-title">🔗 视觉素材</div>
-                    {validationStats.visualsData.missing?.length > 0 ? (
-                      validationStats.visualsData.missing.map((m, i) => (
-                        <div key={i} className="validation-missing-row">
-                          <span className="validation-slide-id">
-                            {m.slideId}
-                          </span>
-                          <button
-                            className="validation-jump"
-                            onClick={() => {
-                              if (m.file && m.line) {
-                                const ideUri = `antigravity://file${m.file}:${m.line}`;
-                                window.open(ideUri, "_self");
-                              }
-                            }}
-                            title={`${m.file}:L${m.line}`}
-                          >
-                            📍
-                          </button>
-                        </div>
-                      ))
-                    ) : (
-                      <div className="validation-ok">✅ 素材完整</div>
-                    )}
-                  </div>
-                )}
-              </>
-            )}
-          </div>
-        )}
-      </div>
     </aside>
+  </>
   );
 }
 

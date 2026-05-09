@@ -891,3 +891,8 @@ exams:
 agent:
   standards:
     visual_system: "@theme:academic_minimal"
+
+agent:
+  standards:
+    visual_system: ../.agent/styles/theme_academic_minimal.yaml
+

@@ -63,7 +63,38 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 
 **判定**：任何 🔴 标记 → 回退重写目标段。2+ 个 🟡 标记 → 建议修订后再继续。
 
+**C5c: 图式层经验域阻断**（`rule_prerequisite_awareness.md` §3.4 硬执行版）
+
+> **理论依据**：Shulman PCK 表征选择维度——当类比取材于学生经验之外的领域时，
+> 非但不能降低认知负荷，反而引入额外的"解码成本"。
+
+1. 扫描模块中所有类比/隐喻/生活化举例
+2. 检查每个类比的取材领域是否属于 DMA 学生的**高概率经验域**
+   （参照 §3.4.1 经验域表：社交媒体、设计软件、视频剪辑、网购、流媒体等）
+3. **统计**：低概率经验域类比数量 / 总类比数量 = 低概率占比
+4. **判定**：
+   - 低概率占比 > 50% → `[SCHEMA_MISMATCH_CRITICAL]` 🔴 **禁止提交**
+   - 低概率占比 30%-50% → `[SCHEMA_MISMATCH]` 🟡 建议修改
+   - 低概率占比 < 30% → ✅ 通过
+
+#### C6: 大纲可记忆性检查 (Outline Memorability Gate) 🆕
+
+> **引用维度**: `/memory_optimize` M1.7（v4 新增）
+> **理论依据**: Bartlett 重建性记忆——教师从标题链重建课堂逻辑。如果标题链只是并列罗列，教师脱稿时将无法重建论证走向。
+
+1. 提取当前模块所有 H3 标题，检查相邻标题间是否存在**因果/递进/转折**关系（而非仅并列）
+   - ≥ 3 个连续 H3 之间只有并列关系 → `[FLAT_OUTLINE]` 🟡
+2. 每个 H3 压缩为 ≤ 4 字要旨关键词，串联后检查是否构成逻辑故事
+   - 要旨串联无逻辑关联 → `[FRAGMENTED_OUTLINE]` 🟡
+3. 角色代入：只看标题列表，能否 30 秒内描述"这堂课讲什么"
+   - 标题太抽象 → `[TITLE_OPAQUE]` 🟡
+
+**判定**：
+- `[FLAT_OUTLINE]` **或** `[FRAGMENTED_OUTLINE]` 单独出现 → 🟡 建议修改但不阻断
+- `[FLAT_OUTLINE]` + `[FRAGMENTED_OUTLINE]` **同时出现** → 🔴 **禁止提交**，标题链既无因果逻辑又无可提取要旨，必须回退重构大纲（参照 `rule_heading_design.md` §4 金字塔逻辑）
+
 ### Step 3.8: 视觉与文字同步对齐 (Visual-Text Sync)
+
 
 > **强制执行**：在完成所有的文本修改后、时长自检前执行，确保 Slide 的视觉文字与修改后的演讲内容严格对齐。引用规则：`RESEARCH_SPEECH_MEMORIZATION.md`。
 
@@ -96,6 +127,29 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 
 > [!TIP]
 > 扫描引擎会自动跳过已有真实素材（GIF/JPG/小尺寸 PNG 等），避免对已完成的素材发出误报。
+
+### Step 3.92: 教材图覆盖率校验 (Textbook Visual Coverage Check)
+
+> **关联规则**: `rule_textbook_sourcing.md`  |  **关联工作流**: `/sync_textbook_visuals`
+
+1. 检查当前课程的 `knowledge/textbook/` 目录是否存在且包含至少一本教材。若不存在 → 跳过此步骤。
+2. 统计本单元脚本中：
+   - 引用 `textbook/` 路径的 `[VISUAL]` 块数量 (A)
+   - 含 `[TEXTBOOK-REF]` 标签的 `[VISUAL]` 块数量 (B)
+   - 总 `[VISUAL]` 块数量 (C)
+   - **教材图覆盖率** = max(A, B) / C
+3. 定位教材中与本单元理论概念相关的章节数量 (D)
+
+**判定规则**：
+
+| 条件 | 判定 | 处理 |
+|:---|:---|:---|
+| D > 0 且覆盖率 = 0% | ⚠️ **教材图零覆盖** | 强烈建议执行 `/sync_textbook_visuals`。不阻断提交，但在报告中高亮显示 |
+| D > 0 且覆盖率 < 15% | 🟡 **教材图覆盖不足** | 建议审查是否有遗漏的教材图匹配 |
+| D = 0 或覆盖率 ≥ 15% | ✅ 通过 | 无需处理 |
+
+> [!NOTE]
+> 此步骤为**建议性检查**（🟡），不阻断提交流程。目的是确保教材图不被系统性遗漏。
 
 ### Step 3.95: 概念注册回写 (Concept Registry Writeback)
 

@@ -14,6 +14,21 @@ description: 超星学习通题库生成引擎。当 /design_practice 产出包�
 1. `/design_practice` Step 4.5 产出了 `materials[type:quiz]` 节点
 2. 用户显式请求生成超星题库/学习通测验
 3. `/audit` 检测到 `chaoxing_export` 字段指向的文件不存在
+4. **逐字稿已包含 `Type: Quiz` 的 ACTIVITY 块**，需要导出为超星格式
+
+## §1.1 双源统一协议
+
+> [!IMPORTANT]
+> **逐字稿内联 Quiz 块是唯一真相源 (SSoT)**。
+>
+> 当逐字稿中已存在 `> [ACTIVITY] Type: Quiz` 块时，chaoxing-quiz 技能**不再独立出题**，
+> 而是从已有的内联 Quiz 块中**提取**题目数据，转换为超星导入格式。
+> 仅当逐字稿中完全没有 Quiz 块时，才按 §2 的传统流程独立生成题库。
+
+**提取优先级**：
+1. **P0** — 扫描 `src/M*.md` 中所有 `> [ACTIVITY] Type: Quiz` 块，提取 Q/Options/Answer/Explain 字段
+2. **P1** — 若内联 Quiz 块不足（< 5 题），则从 `concept_registry.yaml` + `theory_prerequisites` 中补充出题
+3. **P2** — 补充题目仍需写回逐字稿的 ACTIVITY 块中（保持 SSoT 一致性）
 
 ## §2 生成协议
 

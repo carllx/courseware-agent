@@ -64,6 +64,98 @@
   font-size: 16px;
 }
 
+/* ── 全局水位分析条 (Pacing Bar) ── */
+.outline-pacing-container {
+  padding: 12px var(--sp-md);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.pacing-global-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 4px;
+}
+
+.pacing-track-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pacing-track-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 10px;
+}
+
+.pacing-title {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+.pacing-ratio {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pacing-track-label {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.pacing-track-label.overtime-warn {
+  color: #ff4757;
+  font-weight: 600;
+}
+
+.pacing-stacked-bar {
+  display: flex;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05); /* Buffer space */
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pacing-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.pacing-fill.lecture {
+  background: rgba(255, 255, 255, 0.35); /* Neutral grey-white for stable lecture time */
+}
+
+.pacing-fill.activity {
+  background: #34d399; /* Emerald green for interactive activity */
+}
+
+/* 覆盖溢出部分的高强度警告斑马纹 */
+.pacing-overtime-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* right: 0 由内联样式动态注入，保证绝对贴合右侧切断圆角漏水 */
+  background-color: rgba(235, 77, 75, 0.9); /* 高密度警示红底色，彻底隔绝底层的绿色/灰色，防止泥泞感 */
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 4px,
+    rgba(255, 255, 255, 0.3) 4px, /* 白色斜纹，增强警示胶带感 */
+    rgba(255, 255, 255, 0.3) 8px
+  );
+  z-index: 5;
+  border-left: 2px solid #fff; /* 用锋利的纯白刀刃作为界限点 */
+}
+
 /* ── 目录树 ── */
 .outline-tree {
   flex: 1;
@@ -231,6 +323,19 @@
 .outline-health--green .outline-health-action { background: rgba(46, 213, 115, 0.2); color: #2ed573; }
 .outline-health--yellow .outline-health-action { background: rgba(255, 165, 2, 0.4); color: #ffa502; box-shadow: 0 0 8px rgba(255,165,2,0.3); }
 .outline-health--red .outline-health-action { background: rgba(255, 107, 107, 0.4); color: #ff6b6b; box-shadow: 0 0 8px rgba(255,107,107,0.3); }
+
+.outline-health-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: currentColor;
+  opacity: 0.8;
+}
+
+.outline-health--green .outline-health-dot { background: #2ed573; box-shadow: 0 0 6px rgba(46,213,115,0.4); }
+.outline-health--yellow .outline-health-dot { background: #ffa502; box-shadow: 0 0 6px rgba(255,165,2,0.4); }
+.outline-health--red .outline-health-dot { background: #ff6b6b; box-shadow: 0 0 6px rgba(255,107,107,0.4); }
 
 .outline-health-text {
   font-size: 11px;
@@ -403,4 +508,75 @@
 .validation-ok {
   font-size: 12px;
   color: #2ed573;
+}
+
+/* ============================================================
+   响应式 — 移动端抽屉化适配 (Drawer)
+   ============================================================ */
+.outline-sidebar-overlay {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  /* 脱离普通流，变为绝对定位的侧滑抽屉 - GPU硬件加速动画 */
+  .outline-sidebar {
+    position: fixed;
+    top: 44px; /* header 高度 */
+    left: 0;
+    bottom: 0;
+    width: 280px; 
+    height: calc(100vh - 44px);
+    z-index: 99; /* 确保悬浮在主内容上 */
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 4px 0 16px rgba(0,0,0,0.5);
+  }
+
+  /* 抽屉打开态 */
+  .outline-sidebar.mobile-drawer-open {
+    transform: translateX(0);
+  }
+
+  /* 切断 PC 端 collapsed 的影响 */
+  .outline-sidebar.outline-sidebar--collapsed {
+    width: 280px !important;
+    padding-top: 0;
+    align-items: stretch;
+  }
+
+  /* 遮罩背景 */
+  .outline-sidebar-overlay {
+    display: block;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(2px);
+    opacity: 0;
+    pointer-events: none; /* 收起时不阻挡点击 */
+    transition: opacity 0.3s ease;
+    z-index: 98; /* 低于侧边栏 */
+  }
+
+  .outline-sidebar-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* 防止抽屉内滚动向底层穿透 (scroll chaining) */
+  .outline-tree {
+    overscroll-behavior: contain;
+  }
+
+  /* 验证弹窗限制：防止在高度较小的手机上超出屏幕被裁切 */
+  .outline-validation-popover {
+    width: calc(100% - 16px);
+    max-height: 50vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    bottom: calc(100% + 12px);
+    box-shadow: 0 -4px 16px rgba(0,0,0,0.6);
+  }
 }

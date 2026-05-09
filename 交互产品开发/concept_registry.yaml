@@ -1,0 +1,61 @@
+# concept_registry.yaml — 概念 ID 注册表
+# SSOT: 本文件是 theory_link.concept_id 的唯一定义点
+# 消费者: practices/*.yaml → theory_link.concept_id
+# Schema Version: 1.0 (2026-04-13, ADR 043)
+#
+# 命名约定: snake_case 英文 ID，对应中文名称
+# 增量维护: /write 撰写新周次脚本时，同步补充本文件
+
+concepts:
+  # === W01: 交互基础 ===
+  - id: interaction_definition
+    name: "交互设计定义与边界"
+    first_introduced: W01
+
+  - id: mental_model
+    name: "心智模型与概念模型"
+    first_introduced: W01
+    # SSOT: W01 M03 为先导引入（灾难叙事视角，Cooper 三模型速览）
+    #       W02 M03 为系统性定义（认知心理学视角，Norman 鸿沟倒推）
+
+  - id: cognitive_friction
+    name: "认知摩擦"
+    first_introduced: W01
+
+  - id: design_principles_5
+    name: "交互设计五原则（可见性/反馈/约束/一致性/可供性）"
+    first_introduced: W01
+
+  - id: lean_ux_mvp
+    name: "Lean UX 与 MVP 方法论"
+    first_introduced: W01
+
+  - id: fitts_law
+    name: "菲茨定律"
+    first_introduced: W01
+
+  - id: hicks_law
+    name: "希克定律"
+    first_introduced: W01
+
+  - id: millers_law
+    name: "7±2 法则（米勒定律）"
+    first_introduced: W01
+
+  - id: usability_goals
+    name: "七大可用性目标"
+    first_introduced: W01
+
+  - id: experience_goals
+    name: "体验目标框架"
+    first_introduced: W01
+
+  - id: usability_vs_experience
+    name: "可用性与体验的区别"
+    first_introduced: W01
+
+  - id: defensive_design
+    name: "防御性设计"
+    first_introduced: W01
+
+  # === W02+ 待后续 /write 时增量补充 ===

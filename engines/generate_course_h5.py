@@ -204,7 +204,11 @@ def extract_visual_list(visual_block: ScriptBlock) -> list:
         if "**List**:" in line_s:
             after = line_s.split("**List**:")[-1].strip()
             if after:
-                items = [x.strip() for x in after.split("/") if x.strip()]
+                # 优先按强分隔符 "|" 拆分，避免干扰文本中固有的数学符号或点号（如 0.5s 或 ·）
+                if '|' in after:
+                    items = [x.strip() for x in re.split(r'\s*\|\s*', after) if x.strip()]
+                else:
+                    items = [x.strip() for x in re.split(r'\s*[/·]\s*', after) if x.strip()]
                 return items
             in_list = True
             continue
@@ -278,6 +282,85 @@ def _count_cn_chars(text: str) -> int:
 
 
 # ============================================================
+# 备课辅助元数据：温度分类 + 锚词提取（内联实现，不依赖外部模块）
+# ============================================================
+
+_HOT_TYPES = {"story_time", "case_study", "life_connect", "philosophy", "did_you_know"}
+_COLD_TYPES = {"tech_note", "teaching_moment", "warning"}
+_RE_BOLD = re.compile(r'\*\*([^*]+)\*\*')
+_RE_CN_ANCHOR = re.compile(r'[\u4e00-\u9fff]')
+
+
+def _classify_temperature(para_type: str, tag: str | None) -> str:
+    """根据段落类型和标签推断温度：hot / cold / neutral。
+
+    与 generate_cheat_sheet.py 的 HOT_TAGS/COLD_TAGS 保持语义一致，
+    但使用 para_type（已在 blocks_to_h5_json 中转为 snake_case）作为主键，
+    避免跨模块依赖。
+    """
+    if para_type in _HOT_TYPES:
+        return "hot"
+    if para_type in _COLD_TYPES:
+        return "cold"
+    # 兜底：检查原始 tag 名（含空格的大写形式）
+    if tag:
+        t = tag.upper().replace(" ", "_")
+        if t in {s.upper() for s in _HOT_TYPES}:
+            return "hot"
+        if t in {s.upper() for s in _COLD_TYPES}:
+            return "cold"
+    return "neutral"
+
+
+# V3-fix: 语义锚词候选正则（动词/名词短语开头，排除代词和虚词）
+_RE_ANCHOR_PHRASE = re.compile(
+    r'(?:为什么|怎么|如何|究竟|到底|'
+    r'这就是|那就是|请[大家看想记]|'
+    r'[\u4e00-\u9fff]{2,4}(?:的|了|着|过|是|在|与))'
+)
+
+
+def _extract_anchor(text: str, para_type: str, heading_ctx: str = None, is_first_under_heading: bool = False) -> str | None:
+    """从段落文本中提取 ≤6 字的灵魂锚词。
+
+    策略（按优先级递减）：
+    1. 优先提取首个 **粗体** 术语（通常是核心概念定义）
+    2. 若无粗体且是该 heading 下首个无锚词段落，从 heading 中提取精简锚词
+    3. 同一 heading 下后续无加粗段落不分配锚词（避免 BUG-3 重复）
+    4. 对 activity / tech_note 类型不提取（返回 None）
+    """
+    if para_type in ("activity", "tech_note"):
+        return None
+    if not text:
+        return None
+    # 策略 1: 提取首个粗体术语
+    bold_m = _RE_BOLD.search(text)
+    if bold_m:
+        bold_text = bold_m.group(1).strip()
+        cn = _RE_CN_ANCHOR.findall(bold_text)
+        if len(cn) > 0:
+            return ''.join(cn[:6])  # 提取最多 6 个中文字符
+        # 英文术语保留原样（截断到 12 字符）
+        return bold_text[:12] if bold_text else None
+    
+    # 策略 2: 仅该 heading 下首个无加粗段落获得标题锚词（BUG-3 fix）
+    if heading_ctx and is_first_under_heading:
+        # 去除编号前缀（如 "1.2.1 粗暴打断：无视语境的情感诱导"）
+        clean_heading = re.sub(r'^[\d\.]+\s*', '', heading_ctx).strip()
+        # 如果标题包含冒号，取冒号前的部分（通常是核心概念的精炼）
+        if '：' in clean_heading:
+            clean_heading = clean_heading.split('：')[0].strip()
+        elif ':' in clean_heading:
+            clean_heading = clean_heading.split(':')[0].strip()
+        cn = _RE_CN_ANCHOR.findall(clean_heading)
+        if len(cn) >= 2:
+            return ''.join(cn[:4])  # 从标题提取最多 4 个中文字符
+    
+    # 策略 3: 不具备粗体和标题时不提供锚词，避免错误截取
+    return None
+
+
+# ============================================================
 # ARC-01: 模块层级构建 (modules + subSections)
 # ============================================================
 
@@ -347,23 +430,35 @@ def _build_modules_layer(manifest: dict) -> None:
 
 
 def _enrich_section_stats(section: dict) -> None:
-    """为 section 注入口述字数统计（原地修改）。
-
-    仅统计 type 为 speech 或 oral_tag 类型的段落，
-    与 validate_script_length.py 的统计口径一致。
-    """
-    oral_types = {"speech"}  # speech 类型包括普通口述和 oral_tag
-    # oral_tag 在 generate 中被映射为 tag_name.lower()，如 story_time, case_study
-    # 它们都不是 tech_note / activity，所以用排除法更稳健
+    """为 section 注入口述字数统计、实践耗时和视频时长（原地修改）。"""
+    oral_types = {"speech"}
     exclude_types = {"activity", "tech_note"}
 
     oral_char_count = 0
+    activity_sec = 0
     for para in section.get("paragraphs", []):
         if para.get("type") not in exclude_types:
             oral_char_count += _count_cn_chars(para.get("text", ""))
+        elif para.get("type") == "activity":
+            activity_sec += para.get("durationSec", 0)
+
+    # ARC-03: 视频时长归因统计（从 slides 中提取）
+    media_lecture_sec = 0    # 归入理论时间的视频（≤ 30s 短片段）
+    media_activity_sec = 0   # 归入实践时间的视频（> 30s 案例/纪录片）
+    for slide in section.get("slides", []):
+        dur = slide.get("mediaDurationSec", 0)
+        if dur > 0:
+            cat = slide.get("timeCategory", "activity")
+            if cat == "lecture":
+                media_lecture_sec += dur
+            else:  # activity / explore / 默认
+                media_activity_sec += dur
 
     section["oralCharCount"] = oral_char_count
     section["estimatedMinutes"] = round(oral_char_count / 180, 1)
+    section["activityMinutes"] = round(activity_sec / 60, 1) if activity_sec > 0 else 0
+    section["mediaLectureMinutes"] = round(media_lecture_sec / 60, 1)
+    section["mediaActivityMinutes"] = round(media_activity_sec / 60, 1)
 
     budget = section.get("budgetChars")
     if budget and budget > 0:
@@ -375,10 +470,11 @@ def _enrich_section_stats(section: dict) -> None:
 def find_image(course_path: Path, asset_field: str) -> str | None:
     """查找视觉素材文件，返回相对路径或 None。
     
-    支持三种架构：
-    - 旧架构: visuals/assets/W0X_Name/S00.png
-    - 新架构 (weeks/): assets/slides/S00.png (相对于教学周目录)
-    - V5 架构 (weeks/): public/slides/S00.png (相对于教学周目录)
+    支持三种架构（按搜索优先级排列）：
+    1. V5 架构 (weeks/): weeks/W0X/public/slides/*.png, public/videos/*.webm
+    2. 新架构 (weeks/): weeks/W0X/assets/slides/S00.png
+    3. 旧架构: visuals/assets/W0X_Name/S00.png
+    4. course 级 fallback: <课程>/public/... (仅在 week 级未命中时)
     """
     if not asset_field:
         return None
@@ -388,17 +484,18 @@ def find_image(course_path: Path, asset_field: str) -> str | None:
         asset_field = md_match.group(1)
     # 规范化相对路径（去除 ../../ 等前缀）
     asset_field = re.sub(r'^(\.\./)+', '', asset_field)
-    full_path = course_path / asset_field
-    if full_path.exists():
-        mapped = asset_field.replace("visuals/assets/", "visuals/", 1)
-        return mapped
-    # V5 架构：在 weeks/*/public/ 下搜索
+    # V5 架构优先：在 weeks/*/public/ 下搜索（week 级优先于 course 级）
     if asset_field.startswith("public/"):
         for week_dir in sorted((course_path / "weeks").glob("W*")):
             candidate = week_dir / asset_field
             if candidate.exists():
                 rel = candidate.relative_to(course_path)
                 return str(rel)
+    # course 级 fallback（旧架构或共享资产）
+    full_path = course_path / asset_field
+    if full_path.exists():
+        mapped = asset_field.replace("visuals/assets/", "visuals/", 1)
+        return mapped
     # 新架构：在 weeks/*/assets/ 下搜索
     if asset_field.startswith("assets/"):
         for week_dir in sorted((course_path / "weeks").glob("W*")):
@@ -454,7 +551,7 @@ def blocks_to_h5_json(
     }
 
     manifest = {
-        "version": "2.1",
+        "version": "2.2",
         "generated": datetime.now().isoformat(),
         "course": course_name,
         "dirName": course_path.name,   # V-01 fix: 物理目录名 — SSG 用此字段做路径寻址
@@ -466,7 +563,9 @@ def blocks_to_h5_json(
 
     current_section = None
     current_slide = None
-    last_heading = ""
+    last_heading = ""           # 持续保留：供锚词提取和 sectionHeading
+    heading_for_display = ""    # BUG-2: 首次消费后清空，供 Slide heading 渲染
+    heading_anchor_used = False # BUG-3: 同一 heading 下标题锚词是否已分配
     speech_counter = 0
     current_subsections = []  # ARC-01: 追踪 H3 级别的子节
 
@@ -510,10 +609,24 @@ def blocks_to_h5_json(
                 last_heading = ""
             elif level == 3:
                 last_heading = block.content
+                heading_for_display = block.content  # BUG-2: 重置显示标题
+                heading_anchor_used = False           # BUG-3: 重置锚词标志
                 # ARC-01: 记录 H3 子节边界（用于前端细粒度导航）
                 if current_section is not None:
                     current_subsections.append({
                         "id": f"sub-{len(current_subsections) + 1}",
+                        "title": block.content,
+                        "startParagraph": len(current_section["paragraphs"]),
+                        "startSlide": len(current_section["slides"]),
+                        "children": [],
+                    })
+            elif level == 4:
+                last_heading = block.content
+                heading_for_display = block.content  # BUG-2: 重置显示标题
+                heading_anchor_used = False           # BUG-3: 重置锚词标志
+                if current_section is not None and current_subsections:
+                    current_subsections[-1]["children"].append({
+                        "id": f"sub-{len(current_subsections)}-{len(current_subsections[-1]['children']) + 1}",
                         "title": block.content,
                         "startParagraph": len(current_section["paragraphs"]),
                         "startSlide": len(current_section["slides"]),
@@ -551,16 +664,22 @@ def blocks_to_h5_json(
                 "id": slide_id,
                 "layout": layout,
                 "text": text_val,
-                "heading": last_heading or "",
+                "heading": heading_for_display,          # BUG-2: 仅首个 Slide 显示标题
+                "sectionHeading": last_heading or "",    # BUG-2: 持续保留，供面包屑/锚词使用
                 "scene": scene,
                 "image": images[0] if images else None,      # 向后兼容
                 "images": images,                              # 新字段：全部图片
                 "assetExpected": asset_list or None,
                 "list": slide_list if slide_list else None,
                 "paragraphStart": len(current_section["paragraphs"]),
+                # ARC-03: 视频时长归因元数据
+                "mediaDurationSec": meta.get("media_duration_sec", 0),
+                "mediaDurationRaw": meta.get("media_duration_raw", ""),
+                "timeCategory": meta.get("time_category", ""),
             }
             current_section["slides"].append(current_slide)
-            last_heading = ""
+            # BUG-2: heading 首次消费后清空，避免同 H3 下多 Slide 重复渲染标题
+            heading_for_display = ""
             continue
 
         if block.block_type == BlockType.SPEECH:
@@ -588,7 +707,15 @@ def blocks_to_h5_json(
                 "srcPath": str(script_file_path.resolve()),
                 "srcLStart": block.line_start,
                 "srcLEnd": block.line_end,
+                # 备课辅助元数据
+                "temperature": _classify_temperature(para_type, tag_name),
+                "cnCharCount": _count_cn_chars(text),
+                "anchorWord": _extract_anchor(text, para_type, heading_ctx=last_heading, is_first_under_heading=not heading_anchor_used),
             })
+            # BUG-3: 如果本次锚词来自 heading fallback，标记已使用
+            anchor_result = current_section["paragraphs"][-1]["anchorWord"]
+            if anchor_result and not _RE_BOLD.search(text):
+                heading_anchor_used = True
             continue
 
         if block.block_type == BlockType.ACTIVITY:
@@ -600,6 +727,7 @@ def blocks_to_h5_json(
                 "scqaRole": get_scqa_role("ACTIVITY", activity_type),
                 "activityType": activity_type,
                 "duration": meta.get("duration_raw", ""),
+                "durationSec": meta.get("duration_sec", 0),
                 "desc": meta.get("desc", ""),
                 "text": block.content,
                 "ttsFp": "00000000",
@@ -607,6 +735,17 @@ def blocks_to_h5_json(
                 "srcPath": str(script_file_path.resolve()),
                 "srcLStart": block.line_start,
                 "srcLEnd": block.line_end,
+                # 备课辅助元数据
+                "temperature": "neutral",
+                "cnCharCount": 0,
+                "anchorWord": None,
+                # Quiz 子类型结构化数据（仅当 Type: Quiz 时存在）
+                **({
+                    "quizQuestion": meta.get("quiz_question", ""),
+                    "quizOptions": meta.get("quiz_options", []),
+                    "quizAnswer": meta.get("quiz_answer", ""),
+                    "quizExplain": meta.get("quiz_explain", ""),
+                } if activity_type == "Quiz" else {}),
             })
             continue
 
@@ -622,6 +761,10 @@ def blocks_to_h5_json(
                 "srcPath": str(script_file_path.resolve()),
                 "srcLStart": block.line_start,
                 "srcLEnd": block.line_end,
+                # 备课辅助元数据
+                "temperature": _classify_temperature("tech_note", tag_name),
+                "cnCharCount": _count_cn_chars(block.content),
+                "anchorWord": None,
             })
             continue
 
@@ -633,6 +776,40 @@ def blocks_to_h5_json(
 
     # ARC-01: 构建 modules 层级元数据
     _build_modules_layer(manifest)
+
+    # 动态解析 package.yaml 计算 budgetMinutes
+    budget_minutes = 90
+    theory_budget_minutes = 90
+    practice_budget_minutes = 0
+
+    pkg_yaml = script_file_path.parent / "package.yaml"
+    if not pkg_yaml.exists() and script_file_path.parent.name == ".build":
+        pkg_yaml = script_file_path.parent.parent / "package.yaml"
+    if pkg_yaml.exists():
+        try:
+            import yaml
+            with open(pkg_yaml, 'r', encoding='utf-8') as f:
+                pkg_data = yaml.safe_load(f)
+                if pkg_data:
+                    th = pkg_data.get("theory_hours", 0)
+                    ph = pkg_data.get("practice_hours", 0)
+                    theory_budget_minutes = th * 45 if th > 0 else (90 if ph == 0 else 0)
+                    practice_budget_minutes = ph * 45
+                    if th > 0 or ph > 0:
+                        budget_minutes = theory_budget_minutes + practice_budget_minutes
+        except Exception:
+            pass
+
+    # ARC-02/03: 聚合全局配速统计指标（含视频时长归因）
+    manifest["stats"] = {
+        "budgetMinutes": budget_minutes,
+        "theoryBudgetMinutes": theory_budget_minutes,
+        "practiceBudgetMinutes": practice_budget_minutes,
+        "lectureMinutes": sum(sec.get("estimatedMinutes", 0) for sec in manifest["sections"]),
+        "activityMinutes": sum(sec.get("activityMinutes", 0) for sec in manifest["sections"]),
+        "mediaLectureMinutes": sum(sec.get("mediaLectureMinutes", 0) for sec in manifest["sections"]),
+        "mediaActivityMinutes": sum(sec.get("mediaActivityMinutes", 0) for sec in manifest["sections"]),
+    }
 
     return manifest
 
@@ -725,6 +902,16 @@ def create_symlinks(h5_dir: Path, course_path: Path, course_id: str):
         except OSError as e:
             print(f"   ⚠️  符号链接失败: {e}")
 
+    # public → V5 架构全局公开资产目录 (存放 slides/videos 等)
+    global_public_target = course_path / "public"
+    global_public_link = course_public / "public"
+    if not global_public_link.exists() and global_public_target.exists():
+        try:
+            global_public_link.symlink_to(global_public_target)
+            print(f"   🔗 链接 {course_id}/public → {global_public_target.relative_to(CWD)}")
+        except OSError as e:
+            print(f"   ⚠️  符号链接失败: {e}")
+
     # tts → TTS 音频目录（新架构 build/tts/ 优先，旧架构 tts/ fallback）
     tts_link = course_public / "tts"
     tts_target = course_path / "build" / "tts"
@@ -748,6 +935,14 @@ def create_legacy_symlinks(h5_dir: Path, course_path: Path):
     if not visuals_link.exists() and visuals_target.exists():
         try:
             visuals_link.symlink_to(visuals_target)
+        except OSError:
+            pass
+
+    global_public_link = public_dir / "public"
+    global_public_target = course_path / "public"
+    if not global_public_link.exists() and global_public_target.exists():
+        try:
+            global_public_link.symlink_to(global_public_target)
         except OSError:
             pass
 
@@ -990,11 +1185,24 @@ def run_batch_mode(course_dirs: list[str] | None = None):
     courses_data_dir = h5_dir / "public" / "courses"
     courses_data_dir.mkdir(parents=True, exist_ok=True)
 
+    manifest_path = courses_data_dir / "manifest.json"
+
     workspace_manifest = {
         "version": "2.0",
         "generated": datetime.now().isoformat(),
         "courses": [],
     }
+
+    # 如果是部分生成，尝试加载现有的 manifest 以保留其他课程的索引
+    if course_dirs and manifest_path.exists():
+        try:
+            with open(manifest_path, "r", encoding="utf-8") as f:
+                existing_manifest = json.load(f)
+                for existing_c in existing_manifest.get("courses", []):
+                    if existing_c.get("dirName") not in course_dirs:
+                        workspace_manifest["courses"].append(existing_c)
+        except Exception as e:
+            print(f"   ⚠️  加载现有 manifest 失败: {e}")
 
     for course in all_courses:
         course_path = course["path"]
@@ -1022,12 +1230,14 @@ def run_batch_mode(course_dirs: list[str] | None = None):
         theme = load_theme(course_path)
         print(f"   🎨 主题: 主色 {theme['primary']} | 底色 {theme['bg']}")
 
-        # 创建符号链接
-        create_symlinks(h5_dir, course_path, course_id)
-
         # 课程级数据目录
         course_data_dir = courses_data_dir / course_id
+        if course_data_dir.exists():
+            shutil.rmtree(course_data_dir)
         course_data_dir.mkdir(parents=True, exist_ok=True)
+
+        # 创建符号链接 (⚠️ 必须在 rmtree 之后执行，否则其软链会被删掉)
+        create_symlinks(h5_dir, course_path, course_id)
 
         course_manifest_entry = {
             "id": course_id,
@@ -1315,15 +1525,17 @@ def main():
         run_fragment_mode(course_dir, fragment_path)
         return
 
-    # 全量模式检测
-    if "--all" in args:
-        args_without_all = [a for a in args if a != "--all"]
-        if args_without_all:
-            # 指定课程的全量模式
-            run_batch_mode(args_without_all)
-        else:
-            # workspace 全量模式
-            run_batch_mode()
+    # 全量/增量模式检测
+    if "--all" in args or "--course" in args:
+        course_dirs = []
+        if "--course" in args:
+            idx = args.index("--course")
+            if idx + 1 < len(args) and not args[idx+1].startswith("--"):
+                course_dirs.append(args[idx+1])
+        elif "--all" in args:
+            course_dirs = [a for a in args if a != "--all"]
+            
+        run_batch_mode(course_dirs if course_dirs else None)
         return
 
     # 单讲模式（向后兼容）

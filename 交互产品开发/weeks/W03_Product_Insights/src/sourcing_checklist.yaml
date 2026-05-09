@@ -1,0 +1,550 @@
+- slide: w03-slide-04_budget_app
+  module: M01_复习_从认知摩擦到商业洞察
+  layout: Split
+  priority: high
+  media_type: image
+  signals:
+  - historical_archive
+  - camelcase_product
+  entities:
+  - iOS
+  description: 完美交互无法战胜人类追求低能耗的生理本能
+  scene_excerpt: '[Emotional/Psychological Tension: overwhelming, exhausting] 左侧是一个极其复杂、布满一百多个彩色标签和精美折线图的智能手机记账界面；右侧是一个极其简陋的真实生活场景：一碗吃剩的拉面和一张揉皱的
+    15 元收据。两者形成强烈的荒诞对比。'
+  search_queries:
+  - iOS photo
+  - iOS real image
+  target_path: ../public/slides/w03-slide-04_budget_app_real.png
+  current_asset: ../public/slides/w03-slide-04_budget_app.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-01
+  module: M01_复习_从认知摩擦到商业洞察
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 产品洞察与痛点切入
+  scene_excerpt: 巨大的黑底白字标题页，背景是模糊的焦躁人群与代码瀑布流交错（暗示混沌的真实需求与冰冷的机器逻辑）
+  search_queries:
+  - 产品洞察与痛点切入 historical photo
+  - 产品洞察与痛点切入 archive image
+  target_path: ../public/slides/w03-slide-01_real.png
+  current_asset: ../public/slides/w03-slide-01.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-08_surgical_knife
+  module: M02_导入_认知摩擦的终极变种与言行不一
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 刀法入门：从倾听者变成解剖者
+  scene_excerpt: 一名外科医生正用柳叶刀切开一块写着"用户意见"的漂亮皮囊，里面是血淋淋的"真实需求"骨头
+  search_queries:
+  - 刀法入门：从倾听者变成解剖者 historical photo
+  - 刀法入门：从倾听者变成解剖者 archive image
+  target_path: ../public/slides/w03-slide-08_surgical_knife_real.png
+  current_asset: ../public/slides/w03-slide-08_surgical_knife.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-08
+  module: M03_讲授一_反直觉定性调研与问题发掘
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - physical_product
+  entities: []
+  description: 定量告诉你有多少人，定性告诉你为什么
+  scene_excerpt: 左侧是成堆的枯燥数据报表、漏斗和饼图（冷冰冰的"What"）；右侧是拿着黑客帝国般放大镜观察单个用户皱眉表情的极致特写（鲜活的"Why"）
+  search_queries: []
+  target_path: ../public/slides/w03-slide-08_real.png
+  current_asset: ../public/slides/w03-slide-08.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-12_loftus_experiment
+  module: M03_讲授一_反直觉定性调研与问题发掘
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 诱导性提问不仅获取谎言，更会销毁真实的记忆
+  scene_excerpt: 1974年洛夫特斯车祸虚假记忆实验的历史照片。左侧写着"Hit"，右侧写着"Smashed"并配有破碎的玻璃
+  search_queries:
+  - 诱导性提问不仅获取谎言，更会销毁真实的记忆 historical photo
+  - 诱导性提问不仅获取谎言，更会销毁真实的记忆 archive image
+  target_path: ../public/slides/w03-slide-12_loftus_experiment_real.png
+  current_asset: ../public/slides/w03-slide-12_loftus_experiment_real.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-17
+  module: M04_讲授二_JTBD_框架与需求的维度剥离
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 从产品特征到真实情境的视角转换
+  scene_excerpt: 左侧：一张冰冷的产品属性表（内存大小、CPU处理速度、硅胶材质）；右侧：一个深夜在被窝里看视频不想因为卡顿而被破坏情绪的真实用户场景
+  search_queries:
+  - 从产品特征到真实情境的视角转换 historical photo
+  - 从产品特征到真实情境的视角转换 archive image
+  target_path: ../public/slides/w03-slide-17_real.png
+  current_asset: ../public/slides/w03-slide-17.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-26_medical_director_ego
+  module: M04_讲授二_JTBD_框架与需求的维度剥离
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - physical_product
+  entities: []
+  description: B 端潜规则：为医疗精英的权力感买单
+  scene_excerpt: 左侧是克制极简的现代 UI，右侧是复杂且充满威严感的重症监护仪器实体操作台
+  search_queries: []
+  target_path: ../public/slides/w03-slide-26_medical_director_ego_real.png
+  current_asset: ../public/slides/w03-slide-26_medical_director_ego.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-21_fix1
+  module: M04_讲授二_JTBD_框架与需求的维度剥离
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - ui_screenshot
+  entities: []
+  description: 情感维度的底线：别让用户感到无助
+  scene_excerpt: B端系统操作界面与紧张的用户
+  search_queries:
+  - B端系统操作界面与紧张的用户 screenshot
+  target_path: ../public/slides/w03-slide-21_fix1_real.png
+  current_asset: ../public/slides/w03-slide-21_fix1.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-23
+  module: M04_讲授二_JTBD_框架与需求的维度剥离
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 突破竞争的死亡边界：因为你的对手根本从来不是同行
+  scene_excerpt: 左侧是传统工业产品公司的盲目的开发逻辑链：发现自己机器的小缺陷 -> 拼命添加补丁新功能 -> 盲目测试排期发布。右侧是拥有 JTBD 上帝视角高手的逻辑链：敏锐观察真实世界阻力 -> 无情解构任务三维度 ->
+    彻底重新定义业务边界
+  search_queries:
+  - 突破竞争的死亡边界：因为你的对手根本从来不是同行 historical photo
+  - 突破竞争的死亡边界：因为你的对手根本从来不是同行 archive image
+  target_path: ../public/slides/w03-slide-23_real.png
+  current_asset: ../public/slides/w03-slide-23.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-38_data_illusion
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 数据的欺骗性：爬虫抓不到深层的恐惧
+  scene_excerpt: 精美的彩色饼图漂浮在屏幕上，下方掩盖的是真实的痛楚
+  search_queries:
+  - 数据的欺骗性：爬虫抓不到深层的恐惧 historical photo
+  - 数据的欺骗性：爬虫抓不到深层的恐惧 archive image
+  target_path: ../public/slides/w03-slide-38_data_illusion_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-38_field_reality
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 脱离肉身碰撞的洞察，比无知更可怕
+  scene_excerpt: 清晨 6 点药店门口真实排队的老人和冻红的双手
+  search_queries:
+  - 脱离肉身碰撞的洞察，比无知更可怕 historical photo
+  - 脱离肉身碰撞的洞察，比无知更可怕 archive image
+  target_path: ../public/slides/w03-slide-38_field_reality_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-31b
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: Title
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: '"不要问他们将来会不会用，看他们现在为了解决问题付出了什么代价。"'
+  scene_excerpt: 在幽暗的灯光下，一张布满使用痕迹的真实账单被高亮照亮，隐喻用实际付出的代价戳破语言的谎言
+  search_queries:
+  - '"不要问他们将来会不会用，看他们现在为了解决问题付出了什么代价。" historical photo'
+  - '"不要问他们将来会不会用，看他们现在为了解决问题付出了什么代价。" archive image'
+  target_path: ../public/slides/w03-slide-31b_real.png
+  current_asset: ../public/slides/w03-slide-31b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-11_nurse_case
+  module: M03_讲授一_反直觉定性调研与问题发掘
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 场景摧毁了假设：无菌手套与 16 像素下拉菜单的惨烈碰撞
+  scene_excerpt: 会议室里优雅喝咖啡提需求的护士长 vs 急诊室凌晨三点满手是血戴着手套疯狂点不中按钮的崩溃护士
+  search_queries:
+  - 会议室里优雅喝咖啡提需求的护士长 vs 急诊室凌晨三点满手是血戴着手套疯狂点不中 demonstration
+  target_path: ../public/videos/w03-slide-11_nurse_case.webm
+  current_asset: ../public/slides/w03-slide-11_nurse_case.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-14
+  module: M03_讲授一_反直觉定性调研与问题发掘
+  layout: Flow
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 丰田 5-Why：榨干浮浅动机的致命剥洋葱法
+  scene_excerpt: 一个由表象尖端不断向下突破硬土层、深挖到地心岩浆的倒金字塔图例。每一次看似完美的回答，都是下一次无情"Why"的起跳点，直到触及红色的沸腾底层
+  search_queries:
+  - 一个由表象尖端不断向下突破硬土层、深挖到地心岩浆的倒金字塔图例 每一次看似完美的 demonstration
+  target_path: ../public/videos/w03-slide-14.webm
+  current_asset: ../public/slides/w03-slide-14.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-14_wrapup
+  module: M03_讲授一_反直觉定性调研与问题发掘
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 记忆篡改对抗术：截断虚伪的高级反击
+  scene_excerpt: 用场景时间线死死钉住飘忽不定的访谈谎言
+  search_queries:
+  - 用场景时间线死死钉住飘忽不定的访谈谎言 demonstration
+  target_path: ../public/videos/w03-slide-14_wrapup.webm
+  current_asset: ../public/slides/w03-slide-14_wrapup.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-16_fix1
+  module: M04_讲授二_JTBD_框架与需求的维度剥离
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 经典 JTBD 隐喻：没人想买四分之一英寸的电钻
+  scene_excerpt: 用户拿着电钻，注视着墙上必须打出的圆洞，电钻仅被视为耗材
+  search_queries:
+  - 用户拿着电钻 注视着墙上必须打出的圆洞 电钻仅被视为耗材 demonstration
+  target_path: ../public/videos/w03-slide-16_fix1.webm
+  current_asset: ../public/slides/w03-slide-16_fix1.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-30_garage_story
+  module: M05_讲授三_敏捷痛点发掘与_Problem_Statement
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 用 POV 公式套用深夜车库场景
+  scene_excerpt: 屏幕上打出巨大的 POV 填空题，对应小美深夜在车库翻找钥匙的恐惧
+  search_queries:
+  - 屏幕上打出巨大的 POV 填空题 对应小美深夜在车库翻找钥匙的恐惧 demonstration
+  target_path: ../public/videos/w03-slide-30_garage_story.webm
+  current_asset: ../public/slides/w03-slide-30_garage_story.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-29
+  module: M05_讲授三_敏捷痛点发掘与_Problem_Statement
+  layout: Comparison
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 放弃宏大叙事，用微观行为预判宏观结果
+  scene_excerpt: 打车场景指标对比。上方悬挂着"年度营收曲线"（滞后）；下方显示着一个倒计时秒表"平均每次上车前在车外徘徊犹豫秒数"（先导）
+  search_queries:
+  - 打车场景指标对比 上方悬挂着"年度营收曲线"（滞后）；下方显示着一个倒计时秒表" demonstration
+  target_path: ../public/videos/w03-slide-29.webm
+  current_asset: ../public/slides/w03-slide-29.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-36_activity_rules
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: List
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 审讯舱的三大约束
+  scene_excerpt: 严格的 AI 模拟舱纪律清单与 Figma 模板链接二维码
+  search_queries:
+  - 严格的 AI 模拟舱纪律清单与 Figma 模板链接二维码 demonstration
+  target_path: ../public/videos/w03-slide-36_activity_rules.webm
+  current_asset: ../public/slides/w03-slide-36_activity_rules.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-31
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: Grid
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 全复盘：同理心从来不是请客吃饭，是一场外科手术
+  scene_excerpt: 九宫格展示：屏幕上密集闪烁着各组初学排版的 Figma 截图，其中不乏被红笔暴力圈出逻辑错误的 Problem Statement
+  search_queries:
+  - 九宫格展示：屏幕上密集闪烁着各组初学排版的 Figma 截图 其中不乏被红笔暴力 demonstration
+  target_path: ../public/videos/w03-slide-31.webm
+  current_asset: ../public/slides/w03-slide-31.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M01_复习_从认知摩擦到商业洞察_narr_L129
+  module: M01_复习_从认知摩擦到商业洞察
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  - narrative_life connect
+  entities:
+  - iOS
+  description: '[LIFE CONNECT]
+
+    看看你们手机里那些长满杂草、放在隐蔽文件夹里的 App 吧。比如那些你下载完只用过可怜的一两次的网红记账软件。它的过场动画可能比你'
+  scene_excerpt: '[LIFE CONNECT]
+
+    看看你们手机里那些长满杂草、放在隐蔽文件夹里的 App 吧。比如那些你下载完只用过可怜的一两次的网红记账软件。它的过场动画可能比你的 iOS 原生界面还要惊艳，它的支出图表颜色搭配绝美，分类标签多达一百二十种。但它真的解决你"攒不下钱"的痛点了吗？你的核心痛点根本不是"我找不到一个能分出一百种花销账目的优美软件"，你真实的痛点是"每次吃完一碗
+    15 块钱的面条，都要像'
+  search_queries:
+  - iOS photo
+  - iOS real image
+  target_path: ../public/slides/M01_复习_从认知摩擦到商业洞察_narr_L129_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-06_walmart
+  module: M02_导入_认知摩擦的终极变种与言行不一
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  entities:
+  - 辛普森一家
+  description: 倾听的代价：迎合言语体验，摧毁了利润引擎
+  scene_excerpt: 沃尔玛高管看着暴跌 15% 销售额季报流冷汗的场景
+  search_queries:
+  - 辛普森一家 photo
+  - 辛普森一家 real image
+  target_path: ../public/slides/w03-slide-06_walmart_real.png
+  current_asset: ../public/slides/w03-slide-06_walmart.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-10_ethnography
+  module: M03_讲授一_反直觉定性调研与问题发掘
+  layout: Split
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  entities:
+  - RenderMode
+  description: 田野调查的降维打击：从部落到现代工厂
+  scene_excerpt: 左侧是现代人类学家在非洲原始部落记录笔记，右侧是互联网产品经理在杂乱的车间里观察工人
+  search_queries:
+  - RenderMode photo
+  - RenderMode real image
+  - RenderMode portrait
+  target_path: ../public/slides/w03-slide-10_ethnography_real.png
+  current_asset: ../public/slides/w03-slide-10_anthropology.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-29_jtbd_universe
+  module: M04_讲授二_JTBD_框架与需求的维度剥离
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - acronym_product
+  entities:
+  - AI Feature
+  description: JTBD 宇宙全貌：在真实时空中捕获底层雇佣关系
+  scene_excerpt: 一幅深邃如星图般的架构图，从表层的产品特征层层下钻，直至人性深渊的原始需求
+  search_queries:
+  - AI Feature photo
+  - AI Feature real image
+  target_path: ../public/slides/w03-slide-29_jtbd_universe_real.png
+  current_asset: ../public/slides/w03-slide-29_jtbd_universe.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-30
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  entities:
+  - MacBook
+  description: 'Pre-Flight: 在滚出大楼前，先证明你能活过模拟舱'
+  scene_excerpt: 一群没有实战经验的新兵正站在模拟舱外，神情紧张
+  search_queries:
+  - MacBook photo
+  - MacBook real image
+  - MacBook portrait
+  target_path: ../public/slides/w03-slide-30_real.png
+  current_asset: ../public/slides/w03-slide-30.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w03-slide-28b
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - acronym_product
+  entities:
+  - AI Agent
+  description: 飞行模拟舱：对抗带有社会面具的硅基人类
+  scene_excerpt: 赛博朋克风格的 AI 审讯室，屏幕上跳动着心率与测谎波形
+  search_queries:
+  - AI Agent photo
+  - AI Agent real image
+  target_path: ../public/slides/w03-slide-28b_real.png
+  current_asset: ../public/slides/w03-slide-28b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M06_实践与小结_微调研沙局与_Exp1_启动_narr_L14
+  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  - narrative_story time
+  entities:
+  - MacBook
+  description: Steve Blank 的第一堂田野课
+  scene_excerpt: '[STORY TIME: Steve Blank 的第一堂田野课]
+
+    在 Steve Blank 的斯坦福课堂上，他做过一件让所有学生终生难忘的事：开学第一天，他没有打开任何一张 PPT。他直接把全班 60 个穿着连帽衫、抱着 MacBook 的天之骄子赶出了教室大门，扔到帕洛阿尔托的街头，要求他们在两小时内找到
+    10 个活生生的陌生人，当面问出一个让对方皱眉的真实痛点。两小时后回来的学生里，有三分'
+  search_queries:
+  - MacBook photo
+  - MacBook real image
+  target_path: ../public/slides/M06_实践与小结_微调研沙局与_Exp1_启动_narr_L14_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''

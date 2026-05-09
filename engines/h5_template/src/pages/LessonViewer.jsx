@@ -1,9 +1,10 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react'
 import { useParams, Link, useSearchParams } from 'react-router-dom'
 import SlideFactory from '../components/SlideFactory'
 import TextPanel from '../components/TextPanel'
 import OutlineSidebar from '../components/OutlineSidebar'
-
+import TeacherGuideSheet from '../components/TeacherGuideSheet'
+import ModuleRail from '../components/ModuleRail'
 
 
 import AnnotationOverlay from '../components/AnnotationOverlay'
@@ -39,6 +40,15 @@ function LessonViewerInner({ courseId, scriptName }) {
   // === 联动状态 ===
   const [activeParagraphIdx, setActiveParagraphIdx] = useState(-1)
   const [hotReloadToast, setHotReloadToast] = useState(null)
+  
+  // === Mobile Drawer UI ===
+  const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false)
+
+  // === Feature C: Teacher Guide ===
+  const [teacherSheetTarget, setTeacherSheetTarget] = useState(null)
+
+  // 🩹 Fix-2: 用户主动导航守卫 — 防止 TTS 播放同步 useEffect 覆写用户意图
+  const userNavigatingRef = useRef(false)
 
   // === P1 验证上下文 ===
   const { onReload, onValidation, isInFlow } = useValidation()
@@ -48,6 +58,40 @@ function LessonViewerInner({ courseId, scriptName }) {
 
   // === ARC-03: URL query params 深链接 ===
   const [searchParams, setSearchParams] = useSearchParams()
+
+  const isTeacherMode = searchParams.get('mode') === 'teacher'
+
+  // === P0: 教师/学生模式切换 ===
+  const toggleMode = useCallback(() => {
+    const newParams = new URLSearchParams(searchParams)
+    if (isTeacherMode) {
+      newParams.delete('mode')
+    } else {
+      newParams.set('mode', 'teacher')
+    }
+    setSearchParams(newParams, { replace: true })
+  }, [isTeacherMode, searchParams, setSearchParams])
+
+  // === P3: Touch Swipe 翻页手势 ===
+  const touchStartRef = useRef(null)
+  const handleTouchStart = useCallback((e) => {
+    touchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }
+  }, [])
+  const handleTouchEnd = useCallback((e) => {
+    if (!touchStartRef.current || !manifest) return
+    const dx = e.changedTouches[0].clientX - touchStartRef.current.x
+    const dy = e.changedTouches[0].clientY - touchStartRef.current.y
+    touchStartRef.current = null
+    // 仅在水平滑动距离 > 50px 且大于垂直距离时触发（防止与滚动冲突）
+    if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy)) return
+    const section = manifest.sections[currentSectionIdx]
+    if (!section) return
+    if (dx < 0 && currentSlideIdx < (section.slides?.length || 1) - 1) {
+      switchSlide(currentSlideIdx + 1)
+    } else if (dx > 0 && currentSlideIdx > 0) {
+      switchSlide(currentSlideIdx - 1)
+    }
+  }, [manifest, currentSectionIdx, currentSlideIdx])
 
   // === TTS 段落缓存 ===
   const ttsCtx = useTtsSegments()
@@ -137,6 +181,8 @@ function LessonViewerInner({ courseId, scriptName }) {
   // === 同步 TTS 播放状态到当前高亮段落 ===
   useEffect(() => {
     if (!ttsCtx) return
+    // 🩹 Fix-2: 用户主动导航期间，跳过 TTS 播放状态同步，防止覆写劫持
+    if (userNavigatingRef.current) return
     
     // 找到当前正在播放的段落
     let playingIdx = null
@@ -205,9 +251,10 @@ function LessonViewerInner({ courseId, scriptName }) {
       })
       .then(data => {
         setManifest(data)
-        // P0 #2: 如果没有记忆锚点，自动跳到首个有 slides 的模块，避免首屏空白
-        const savedPos = sessionStorage.getItem(`h5-pos-${courseId}-${scriptName}`)
-        if (!savedPos) {
+        // P0 #2: 如果没有记忆锚点，且没有 URL 强制参数，才自动跳到首个有 slides 的模块，避免首屏空白
+        const savedPos = window.sessionStorage.getItem(`h5-pos-${courseId}-${scriptName}`)
+        const qm = searchParams.get('m')
+        if (!savedPos && qm == null) {
           const firstWithSlides = data.sections.findIndex(s => s.slides && s.slides.length > 0)
           if (firstWithSlides > 0) {
             setCurrentSectionIdx(firstWithSlides)
@@ -238,10 +285,36 @@ function LessonViewerInner({ courseId, scriptName }) {
         section: currentSectionIdx,
         slide: currentSlideIdx
       }))
-      // ARC-03: 同步 URL query params
-      setSearchParams({ m: String(currentSectionIdx), s: String(currentSlideIdx) }, { replace: true })
+      // ARC-03: 同步 URL query params（保留 mode 参数）
+      const newParams = new URLSearchParams(searchParams)
+      newParams.set('m', String(currentSectionIdx))
+      newParams.set('s', String(currentSlideIdx))
+      setSearchParams(newParams, { replace: true })
     }
   }, [currentSectionIdx, currentSlideIdx, courseId, scriptName, manifest])
+
+  // === P5: 教师模式防息屏 (Screen Wake Lock API) ===
+  useEffect(() => {
+    if (!isTeacherMode) return
+    let wakeLock = null
+    const requestWakeLock = async () => {
+      try {
+        if ('wakeLock' in navigator) {
+          wakeLock = await navigator.wakeLock.request('screen')
+        }
+      } catch (e) { /* 静默降级：不支持或用户拒绝 */ }
+    }
+    requestWakeLock()
+    // 页面重新可见时重新请求（浏览器后台会释放 lock）
+    const onVisibility = () => {
+      if (document.visibilityState === 'visible') requestWakeLock()
+    }
+    document.addEventListener('visibilitychange', onVisibility)
+    return () => {
+      wakeLock?.release()
+      document.removeEventListener('visibilitychange', onVisibility)
+    }
+  }, [isTeacherMode])
 
   // 键盘导航
   useEffect(() => {
@@ -299,8 +372,24 @@ function LessonViewerInner({ courseId, scriptName }) {
     }
   }, [manifest, currentSectionIdx, ttsCtx])
 
+  // SSOT Scroll Spy 无声更新 (仅更新高亮和幻灯片，不触发 TTS 播放)
+  const handleParagraphView = useCallback((paraIdx) => {
+    setActiveParagraphIdx(paraIdx)
+    const section = manifest?.sections[currentSectionIdx]
+    if (section && section.slides) {
+      let targetSlideIdx = 0
+      for (let i = 0; i < section.slides.length; i++) {
+        if (section.slides[i].paragraphStart != null && section.slides[i].paragraphStart <= paraIdx) {
+          targetSlideIdx = i
+        }
+      }
+      setCurrentSlideIdx(targetSlideIdx)
+    }
+  }, [manifest, currentSectionIdx])
+
   const switchSlide = (idx) => {
     setCurrentSlideIdx(idx)
+    setMobileDrawerOpen(false)
     if (manifest) {
       const section = manifest.sections[currentSectionIdx]
       const paraStart = section?.slides[idx]?.paragraphStart
@@ -311,15 +400,82 @@ function LessonViewerInner({ courseId, scriptName }) {
   }
 
   const switchSection = (idx) => {
+    // 🩹 Fix-1a: 切换模块前必须停止 TTS 播放，防止跨模块状态污染
+    if (ttsCtx) ttsCtx.stopPlayback()
+    userNavigatingRef.current = true
+    setTimeout(() => { userNavigatingRef.current = false }, 500)
     setCurrentSectionIdx(idx)
     setCurrentSlideIdx(0)
     setActiveParagraphIdx(-1)
+    setMobileDrawerOpen(false)
     // ARC-04: 标记当前 section 为已读
     if (manifest && progressCtx?.markRead) {
       const sec = manifest.sections[idx]
       if (sec) progressCtx.markRead(courseId, scriptName, sec.id)
     }
   }
+
+  // ARC-01 v2: 段落锚点导航（OutlineSidebar H3 子节点击专用）
+  const navigateToParagraph = useCallback((paraIdx) => {
+    const section = manifest?.sections[currentSectionIdx]
+    if (!section) return
+
+    // 🩹 Fix-1b: 跳转子节前停止 TTS 连播，防止 useEffect 覆写用户导航
+    if (ttsCtx) ttsCtx.stopPlayback()
+    userNavigatingRef.current = true
+    setTimeout(() => { userNavigatingRef.current = false }, 500)
+
+    // 1. 高亮目标段落
+    setActiveParagraphIdx(paraIdx)
+
+    // 2. runtime 动态推算包含该段落的 slide
+    if (section.slides?.length > 0) {
+      let bestSlide = 0
+      for (let i = 0; i < section.slides.length; i++) {
+        if (section.slides[i].paragraphStart != null
+          && section.slides[i].paragraphStart <= paraIdx) {
+          bestSlide = i
+        }
+      }
+      setCurrentSlideIdx(bestSlide)
+    }
+
+    // 3. 关闭移动端 drawer
+    setMobileDrawerOpen(false)
+  }, [manifest, currentSectionIdx, ttsCtx])
+
+  // ── 备课辅助：计算每个 Slide 的温度与字数（必须在条件 return 之前，遵守 Hooks 规则）──
+  const currentSection = manifest?.sections[currentSectionIdx] ?? null
+  const slideStats = useMemo(() => {
+    if (!currentSection || !currentSection.slides || !currentSection.paragraphs) return []
+    const paras = currentSection.paragraphs
+    return currentSection.slides.map((s, i) => {
+      const startIdx = s.paragraphStart != null ? s.paragraphStart : 0
+      let nextSlideStartIdx = paras.length
+      if (i + 1 < currentSection.slides.length && currentSection.slides[i+1].paragraphStart != null) {
+        nextSlideStartIdx = currentSection.slides[i+1].paragraphStart
+      }
+      
+      let totalChars = 0
+      let hotChars = 0
+      let coldChars = 0
+
+      for (let j = startIdx; j < nextSlideStartIdx; j++) {
+        const p = paras[j]
+        if (!p) continue
+        const count = p.cnCharCount || 0
+        totalChars += count
+        if (p.temperature === 'hot') hotChars += count
+        else if (p.temperature === 'cold') coldChars += count
+      }
+
+      let temp = 'neutral'
+      if (hotChars > 0 && hotChars >= coldChars) temp = 'hot'
+      else if (coldChars > 0) temp = 'cold'
+
+      return { temp, totalChars }
+    })
+  }, [currentSection])
 
   if (error) {
     return (
@@ -345,17 +501,44 @@ function LessonViewerInner({ courseId, scriptName }) {
     )
   }
 
-  const currentSection = manifest.sections[currentSectionIdx]
-  const currentSlide = currentSection?.slides[currentSlideIdx]
-  const totalSlides = currentSection?.slides.length || 0
+  const currentSlide = currentSection?.slides?.[currentSlideIdx]
+  const totalSlides = currentSection?.slides?.length || 0
 
   return (
-    <div className="app-container">
+    <div className={`app-container ${isTeacherMode ? 'layout-mode-teacher' : 'layout-mode-student'}`}
+         onTouchStart={handleTouchStart}
+         onTouchEnd={handleTouchEnd}
+    >
       {/* 顶栏 */}
       <header className="app-header">
+        <button 
+          className="mobile-drawer-toggle" 
+          onClick={() => setMobileDrawerOpen(true)}
+          title="展开目录"
+          aria-label="展开章节目录"
+        >
+          ☰
+        </button>
         <Link to={`/${courseId}`} className="header-back-link">← {manifest.course}</Link>
-        <div className="script-title">{manifest.script}</div>
+        <div className="script-title" title={manifest.script}>{manifest.script}</div>
         <div className="header-right">
+          {/* P4: 教师版迷你进度指示器 */}
+          {isTeacherMode && totalSlides > 0 && (
+            <span className="teacher-progress-badge">
+              <span className="teacher-progress-bar">
+                <span className="teacher-progress-fill" style={{ width: `${((currentSlideIdx + 1) / totalSlides) * 100}%` }} />
+              </span>
+              <span className="teacher-progress-text">{currentSlideIdx + 1}/{totalSlides}</span>
+            </span>
+          )}
+          {/* P0: 教师/学生模式切换 */}
+          <button
+            className="mode-toggle-btn"
+            onClick={toggleMode}
+            title={isTeacherMode ? '切换到学生浏览模式' : '切换到教师提词器模式'}
+          >
+            {isTeacherMode ? '📖 学生版' : '🎓 教师版'}
+          </button>
         </div>
       </header>
 
@@ -366,11 +549,13 @@ function LessonViewerInner({ courseId, scriptName }) {
         <OutlineSidebar
           manifest={manifest}
           currentSectionIdx={currentSectionIdx}
-          currentSlideIdx={currentSlideIdx}
+          activeParagraphIdx={activeParagraphIdx}
           onSwitchSection={switchSection}
-          onSwitchSlide={(slideIdx) => switchSlide(slideIdx)}
+          onNavigateToParagraph={navigateToParagraph}
           courseId={courseId}
           scriptName={scriptName}
+          mobileDrawerOpen={mobileDrawerOpen}
+          onCloseMobileDrawer={() => setMobileDrawerOpen(false)}
         />
 
         <div className="slide-area">
@@ -396,14 +581,29 @@ function LessonViewerInner({ courseId, scriptName }) {
                 ◀
               </button>
               <div className="slide-dots">
-                {currentSection.slides.map((s, i) => (
-                  <button
-                    key={s.id}
-                    className={`slide-dot ${i === currentSlideIdx ? 'active' : ''}`}
-                    onClick={() => switchSlide(i)}
-                    title={s.heading || s.id}
-                  />
-                ))}
+                {currentSection.slides.map((s, i) => {
+                  const stat = slideStats[i] || { temp: 'neutral', totalChars: 0 }
+                  // 字数映射宽度：每 20 字 1px，最小 6px，最大 32px
+                  let dynamicWidth = Math.max(6, Math.min(32, Math.floor(stat.totalChars / 20)))
+                  // 对于 0 字的赋予最小 6px
+                  if (stat.totalChars === 0) dynamicWidth = 6
+                  
+                  return (
+                    <button
+                      key={s.id}
+                      className={`slide-dot temp-${stat.temp} ${i === currentSlideIdx ? 'active' : ''}`}
+                      onClick={() => {
+                        if (isTeacherMode) {
+                          setTeacherSheetTarget(i)
+                        } else {
+                          switchSlide(i)
+                        }
+                      }}
+                      title={`${s.heading || s.id}\n字数: ${stat.totalChars}`}
+                      style={{ width: `${dynamicWidth}px` }}
+                    />
+                  )
+                })}
               </div>
               <span className="slide-counter">{currentSlideIdx + 1} / {totalSlides}</span>
               <button
@@ -417,11 +617,25 @@ function LessonViewerInner({ courseId, scriptName }) {
           )}
         </div>
 
+        {/* P2: 教师版快速模块切换导航条 */}
+        {isTeacherMode && manifest.sections.length > 1 && (
+          <ModuleRail
+            sections={manifest.sections}
+            modules={manifest.modules || []}
+            currentIdx={currentSectionIdx}
+            onSwitch={switchSection}
+            courseId={courseId}
+            scriptName={scriptName}
+          />
+        )}
+
         <TextPanel
           paragraphs={currentSection?.paragraphs || []}
           activeParagraphIdx={activeParagraphIdx}
           onParagraphSelect={handleParagraphSelect}
+          onParagraphView={handleParagraphView}
           slides={currentSection?.slides || []}
+          subSections={currentSection?.subSections || []}
         />
       </main>
 
@@ -429,6 +643,18 @@ function LessonViewerInner({ courseId, scriptName }) {
       <AnnotationOverlay
         annotations={manifest.annotations || []}
         paragraphs={currentSection?.paragraphs || []}
+      />
+
+      {/* Feature C: 教师导览提词器 */}
+      <TeacherGuideSheet
+        isOpen={teacherSheetTarget !== null}
+        targetIdx={teacherSheetTarget}
+        stat={teacherSheetTarget !== null ? slideStats[teacherSheetTarget] : null}
+        onClose={() => setTeacherSheetTarget(null)}
+        onNavigate={() => {
+          switchSlide(teacherSheetTarget)
+          setTeacherSheetTarget(null)
+        }}
       />
 
 

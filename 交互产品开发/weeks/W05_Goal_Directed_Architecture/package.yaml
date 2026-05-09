@@ -16,7 +16,7 @@ core_theories: []
 segments:
 - id: M00
   src: src/M00_课程导览.md
-- id: M00
+- id: M00.5
   src: src/M00_从混沌清单到流式骨架.md
 - id: M01
   src: src/M01_心流与交互透明性.md

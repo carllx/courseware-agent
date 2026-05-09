@@ -131,6 +131,9 @@ Frontmatter 之后，必须紧跟一级标题（H1）：
 ## 知识标签
 
 > 嵌入教学内容的知识扩展块，按**两轴分类**。
+>
+> 💡 **进阶：结合记忆与脱稿**
+> 关于如何利用这些标签作为自动化备课工具中判断"冷热"情绪节奏的信号，以及基于逻辑重建范式（FTT/Bartlett/即兴演讲理论）的全套渐进式脱稿训练，详见 [RESEARCH_SPEECH_MEMORIZATION.md](./RESEARCH_SPEECH_MEMORIZATION.md)。
 
 ### 标签白名单
 

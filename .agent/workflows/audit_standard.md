@@ -27,8 +27,8 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
     *   ❌ 不合格：Speech 讲了 4 个阶段，但 VISUAL 块只有氛围 Scene，无 List
     *   ✅ 合格：Speech 讲了 4 个阶段，VISUAL 块的 List 逐条对应
 *   **Visual Gap (视觉间隔检查)**: 扫描全文中相邻两个 `> [VISUAL]` 块之间的 SPEECH 中文字数（引用 `script_format/SKILL.md` §6）：
-    *   **> 360 字**（约 120 秒）→ 标记 `[VISUAL_GAP]`，必须拆分并插入视觉锚点
-    *   **250-360 字**（约 80-120 秒）→ 标记 `[VISUAL_GAP_WARN]`，建议插入
+    *   **> 360 字**（约 120 秒）→ 标记 `[VISUAL_GAP]`（超出 Mayer 分段原则容限/注意力重置失败），必须拆分并插入视觉锚点
+    *   **250-360 字**（约 80-120 秒）→ 标记 `[VISUAL_GAP_WARN]`（逼近单通道认知负荷上限），建议插入
     *   检查时排除 `> [ACTIVITY]` 块占用的区间
 *   指示代词扫描：所有"这/那/这里"是否有明确前文
 *   **A-PROMISE (前向承诺可交付性)**（仅 M00/导览/概述模块）：扫描承诺性动词（"你们将学会/将掌握"），逐条验证 T(工具)/D(数据)/S(范围) 三要素（详见 `rule_promise_deliverability.md` §2）。不满足者标记 `[OVERPROMISE]`。🟡 中等（≥ 2 处升级为 🔴）
@@ -138,3 +138,19 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
 > **严重度**：`[MISSING_CHECKPOINT]` 为 🔴 高严重度 → **Needs Revision**（连续 10 分钟无互动的课堂将产生显著的认知衰减）。
 > `[CHECKPOINT_WARN]` 为 🟡 中严重度 → 建议插入但不阻断。
 
+### Part Q: Quiz 块完整性审计
+
+> **引用规范**: `script_format/SKILL.md` §4.1
+
+对所有 `> [ACTIVITY] Type: Quiz` 块执行以下检查：
+
+1.  **字段完整性 (Q1)**：Quiz 块必须包含 4 个字段（Q / Options / Answer / Explain）
+    *   缺少任一字段 → 标记 `[QUIZ_INCOMPLETE]` 🟡
+
+2.  **选项数量合规 (Q2)**：Options 列表的选项数量
+    *   < 3 或 > 5 → 标记 `[QUIZ_OPTIONS_COUNT]` 🟡
+
+3.  **过渡口播检查 (Q3)**：Quiz 块前是否有 ≥1 句过渡口播（非引用块正文）
+    *   Quiz 块紧跟在 `[VISUAL]` 块后（中间无任何 Speech 段落）→ 标记 `[QUIZ_NO_TRANSITION]` 🟡
+
+> **严重度**：所有 Quiz 审计项为 🟡 中严重度 → 建议修改但不阻断。

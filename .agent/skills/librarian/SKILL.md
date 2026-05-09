@@ -1,12 +1,13 @@
 ---
 name: librarian
 description: |
-  知识枢纽查询引擎。在 /write 工作流中主动检索课程知识库，支持三层查询漏斗：
+  知识枢纽查询引擎。在 /write 工作流中主动检索课程知识库，支持四层查询漏斗：
   (1) 轻量索引扫描 knowledge_hub.yaml  
   (2) 精准关键词检索 search_knowledge.py  
   (3) 精确段落提取 view_file(StartLine, EndLine)
+  (4) 教材图片索引查询（扫描教材章节中的 ![](images/) 引用）
   亦负责将网络搜索结果存档为 notes/，保持 hub 持续增长。
-  触发词：「查教材」「找定义」「有无资料」「搜一下 X」以及 /write 工作流自动触发。
+  触发词：「查教材」「找定义」「有无资料」「搜一下 X」「教材图」「找图」以及 /write 工作流自动触发。
 ---
 
 # Librarian — 知识枢纽查询引擎
@@ -89,6 +90,25 @@ view_file(
 
 > **禁止** 省略 StartLine/EndLine 读整章。每次读取 ≤ 100 行。
 
+### §2.2 教材图片索引查询（Layer 4）
+
+**何时触发**：查询目标为视觉素材（用户提到「教材图」「找图」「有没有插图」），或 `/write` Phase 1 Step 2.4 教材图覆盖率预检时。
+
+**操作流程**：
+
+1. 扫描 `knowledge/textbook/<书名>/images/` 目录，统计图片总数。
+2. 对目标教材的相关章节 `chapter_*.md` 执行 `grep '!\['` 提取所有图片引用及其上下文图注（Figure Caption）。
+3. 评估每张图与查询关键词的匹配度。
+4. 返回按相关性排序的教材图候选清单：
+
+```markdown
+| 教材 | 章节 | 图注 | 图片路径 | 匹配度 |
+|:---|:---|:---|:---|:---|
+```
+
+> **关联规则**: `rule_textbook_sourcing.md` — 逐图审阅标准
+> **关联工作流**: `/sync_textbook_visuals` — 完整迁移流程
+
 ---
 
 ## §3 网络搜索（仅限 tracking 或 hub 无命中）
@@ -162,6 +182,7 @@ python .agent/skills/librarian/scripts/archive_web.py \
 | 加载全部摘要 | `view_file(...knowledge_hub.yaml)` |
 | 关键词检索 | `search_knowledge.py --course X "关键词"` |
 | 读教材段落 | `view_file(path, StartLine=N, EndLine=M)` |
+| 教材图片检索 | `grep_search("!\[", chapter_*.md)` + `list_dir(images/)` |
 | 存档网络内容 | `archive_web.py --course X --id Y ...` |
 | 网络搜索 | `search_web(...)` + `read_url_content(...)` |
 

@@ -1,0 +1,1345 @@
+- slide: w02-slide-06b_2
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Split
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - camelcase_product
+  entities:
+  - iOS
+  description: 锁定焦点与建立整体
+  scene_excerpt: 层级与动态原则。左侧是弹出模态框将背景压暗的图示，右侧是多个图标统一步伐向右滑动的动效分解图。
+  search_queries:
+  - iOS photo
+  - iOS real image
+  - iOS demo video
+  target_path: ../public/videos/w02-slide-06b_2.webm
+  current_asset: ../public/slides/w02-slide-06b_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-06d
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Grid
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - camelcase_product
+  - book_title
+  entities:
+  - iOS
+  - 图形-背景
+  - 共同命运
+  description: 格式塔图形-背景与共同命运的界面应用
+  scene_excerpt: 3×1 横向网格展示格式塔后三条原则的界面级应用：左格「图形-背景」——模态对话框将主界面模糊压暗，弹窗成为唯一焦点；中格「图形-背景」的反例——没有遮罩的弹窗在嘈杂背景上一片混乱；右格「共同命运」——iOS
+    图标整齐一致地向左滑出，用红色箭头标注同步运动轨迹
+  search_queries:
+  - iOS photo
+  - iOS real image
+  - 图形-背景 photo
+  - 图形-背景 real image
+  - 共同命运 photo
+  - 共同命运 real image
+  target_path: ../public/videos/w02-slide-06d.webm
+  current_asset: ../public/slides/w02-slide-06d.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-08
+  module: M02_意图与反馈的断裂
+  layout: Center
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - book_title
+  entities:
+  - 设计心理学
+  description: '"执行"侧——目标到手'
+  scene_excerpt: 一个环形流程图展示 Norman 的七阶段行动模型：用户目标 → 意图 → 行动序列 → 执行 →⟨执行鸿沟⟩→ 感知 → 解释 → 评估 →⟨评估鸿沟⟩→ 回到目标。两处鸿沟位置用红色警示标注
+  search_queries:
+  - 设计心理学 photo
+  - 设计心理学 real image
+  - 设计心理学 demo video
+  target_path: ../public/videos/w02-slide-08.webm
+  current_asset: ../public/slides/w02-slide-08.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-10d
+  module: M02_意图与反馈的断裂
+  layout: Split
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - gazetteer_product
+  - tech_identifier
+  entities:
+  - Therac-25
+  description: 隐藏状态与敷衍反馈的极限杀伤力
+  scene_excerpt: 左侧是波音 737 驾驶舱中隐形坠落的飞机轮廓，右侧是 Therac-25 控制台冷漠闪烁的"Malfunction 54"
+  search_queries:
+  - Therac-25 photo
+  - Therac-25 real image
+  - Therac-25 product shot high resolution
+  - Therac-25 demo video
+  target_path: ../public/videos/w02-slide-10d.webm
+  current_asset: ../public/slides/w02-slide-10d.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-18
+  module: M05_记忆负荷与认知过载
+  layout: Full
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - named_entity
+  entities:
+  - LingsCars
+  description: 认知过载的极端样本
+  scene_excerpt: 全屏展示 LingsCars.com 首页截图——满屏闪烁的 GIF 动图、刺眼的撞色、密密麻麻的文字和视频广告，代表极端认知过载
+  search_queries:
+  - LingsCars photo
+  - LingsCars real image
+  - LingsCars portrait
+  - LingsCars demo video
+  target_path: ../public/videos/w02-slide-18.webm
+  current_asset: ../public/slides/w02-slide-18.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-19
+  module: M05_记忆负荷与认知过载
+  layout: Comparison
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - camelcase_product
+  entities:
+  - iOS
+  description: 回忆 vs 识别——记忆负荷的分水岭
+  scene_excerpt: 左列标题"回忆 Recall"——展示用户从短信弹窗死记硬背 6 位验证码的痛苦场景，右列标题"识别 Recognition"——展示 iOS 键盘上方自动浮出验证码胶囊按钮的便捷场景
+  search_queries:
+  - iOS photo
+  - iOS real image
+  - iOS demo video
+  target_path: ../public/videos/w02-slide-19.webm
+  current_asset: ../public/slides/w02-slide-19.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-28_1
+  module: M05_记忆负荷与认知过载
+  layout: Comparison
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - camelcase_product
+  entities:
+  - iOS
+  description: 把凭空提取换成看见即选择
+  scene_excerpt: 对比画面。左侧是用户在两个应用间来回切换背诵验证码的繁琐操作；右侧是系统级悬浮的“一键填充”胶囊按钮。
+  search_queries:
+  - iOS photo
+  - iOS real image
+  - iOS demo video
+  target_path: ../public/videos/w02-slide-28_1.webm
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-19c2
+  module: M05_记忆负荷与认知过载
+  layout: Image
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - camelcase_product
+  entities:
+  - teamLab
+  description: 分布式认知——身体就是交互的媒介
+  scene_excerpt: 东京 teamLab 无界美术馆的沉浸式空间摄影。观众的身体周围绽放出光影花朵，水流的投影在人们脚下自动分开。
+  search_queries:
+  - teamLab photo
+  - teamLab real image
+  - teamLab demo video
+  target_path: ../public/videos/w02-slide-19c2.webm
+  current_asset: ../public/slides/w02-slide-19c2_real.jpg
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-01d_2
+  module: M00_课程导览
+  layout: Split
+  priority: high
+  media_type: image
+  signals:
+  - gazetteer_person
+  - book_title
+  entities:
+  - Don Norman
+  - Dang——
+  description: 苹果 1993 年的用户体验转向
+  scene_excerpt: 左侧是冰冷复杂的机械数据表格，右侧是初代 Mac 开机微笑着的图标
+  search_queries:
+  - Don Norman photo
+  - Don Norman real image
+  - Don Norman portrait
+  - Dang—— photo
+  - Dang—— real image
+  - Dang—— portrait
+  target_path: ../public/slides/w02-slide-01d_2_real.png
+  current_asset: ../public/slides/w02-slide-01d_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-04b
+  module: M00_课程导览
+  layout: Comparison
+  priority: high
+  media_type: image
+  signals:
+  - gazetteer_person
+  entities:
+  - Don Norman
+  description: 快思考 vs 慢思考——大脑的两套引擎
+  scene_excerpt: 左列"快思考 System 1"——直觉/自动/不费力，配刷短视频和开车的图标；右列"慢思考 System 2"——理性/刻意/耗能，配做数学题和填税表的图标
+  search_queries:
+  - Don Norman photo
+  - Don Norman real image
+  - Don Norman portrait
+  target_path: ../public/slides/w02-slide-04b_real.png
+  current_asset: ../public/slides/w02-slide-04b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-10c
+  module: M02_意图与反馈的断裂
+  layout: Full
+  priority: high
+  media_type: image
+  signals:
+  - dated_event
+  - acronym_product
+  - book_title
+  entities:
+  - AWS S3
+  - 反馈三根支柱
+  - 即时性 ≤400ms
+  - 清晰性：模态无歧义
+  - 可解释性：人话状态
+  description: 当操作失去"可解释性"反馈
+  scene_excerpt: 黑色代码终端界面，一行简短的命令被执行，背景是全球大量红色断网标识的服务器群，充满"蝴蝶效应"的压抑感
+  search_queries:
+  - AWS S3 photo
+  - AWS S3 real image
+  - 反馈三根支柱 photo
+  - 反馈三根支柱 real image
+  - 即时性 ≤400ms photo
+  - 即时性 ≤400ms real image
+  target_path: ../public/slides/w02-slide-10c_real.png
+  current_asset: ../public/slides/w02-slide-10c.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-13d
+  module: M03_三种模型的战争
+  layout: Comparison
+  priority: high
+  media_type: image
+  signals:
+  - physical_product
+  - camelcase_product
+  - book_title
+  entities:
+  - iPhone
+  - 心理模型·顽固
+  - 这才叫打字，需要忍火
+  - 模型重构·代价
+  description: 心理模型的顽固性——重构的代价
+  scene_excerpt: 左右对比图。左列标题「心理模型·顽固」——诺基亚实体键盘手机的按键特写，旁边标注老用户心理气泡「这才叫打字，需要忍火」；右列标题「模型重构·代价」——iPhone 早期触屏键盘连续三代的演进过程，每代产品列表旁边标注造就新模型的设计投入（动画、振动、反馈密度逐代加强）
+  search_queries:
+  - iPhone photo
+  - iPhone real image
+  - iPhone product shot high resolution
+  - 心理模型·顽固 photo
+  - 心理模型·顽固 real image
+  - 心理模型·顽固 product shot high resolution
+  target_path: ../public/slides/w02-slide-13d_real.png
+  current_asset: ../public/slides/w02-slide-13d.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-17b_2
+  module: M04_隐喻的双刃剑
+  layout: Center
+  priority: high
+  media_type: image
+  signals:
+  - gazetteer_person
+  entities:
+  - Alan Cooper
+  description: AI拟人化隐喻引发的预期断裂
+  scene_excerpt: 拟人化隐喻的错位。左侧是用户脑海中"具有自我意识和逻辑推理能力的人形AI"；右侧是实际上只有"概率预测机器"的数学引擎核心
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  target_path: ../public/slides/w02-slide-17b_2_real.png
+  current_asset: ../public/slides/w02-slide-17b_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-17c1_2
+  module: M04_隐喻的双刃剑
+  layout: Center
+  priority: high
+  media_type: image
+  signals:
+  - gazetteer_person
+  entities:
+  - Alan Cooper
+  description: 抛弃拟物化隐喻的呼声
+  scene_excerpt: 扁平化反叛物理世界：锤子砸碎了具有3D拟物质感（木纹、皮革）的图标，露出了背后纯粹由矢量代码构成的极简几何色块
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  target_path: ../public/slides/w02-slide-17c1_2_real.png
+  current_asset: ../public/slides/w02-slide-17c1_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-35_1
+  module: M05_记忆负荷与认知过载
+  layout: Grid
+  priority: high
+  media_type: image
+  signals:
+  - gazetteer_person
+  entities:
+  - Don Norman
+  description: 破防心智摩擦的四大元凶
+  scene_excerpt: 四块完整的核心拼图严丝合缝地拼接在一起。四块拼图分别带有微型标志：漏斗（认知限制）、深渊（鸿沟）、三齿轮（模型冲突）、旧磁带（隐喻老化）。
+  search_queries:
+  - Don Norman photo
+  - Don Norman real image
+  - Don Norman portrait
+  target_path: ../public/slides/w02-slide-35_1_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-35_2
+  module: M05_记忆负荷与认知过载
+  layout: Center
+  priority: high
+  media_type: image
+  signals:
+  - gazetteer_person
+  entities:
+  - Alan Cooper
+  description: 模型大战：弥合认知错位
+  scene_excerpt: 三个齿轮疯狂对冲，代表三种模型间的激烈战争，火花四溅。
+  search_queries:
+  - Alan Cooper photo
+  - Alan Cooper real image
+  - Alan Cooper portrait
+  target_path: ../public/slides/w02-slide-35_2_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-03
+  module: M00_课程导览
+  layout: Grid
+  priority: medium
+  media_type: video
+  signals:
+  - ui_screenshot
+  - video_demo
+  entities: []
+  description: 功能完备 ≠ 体验优秀
+  scene_excerpt: 2×2 网格展示四个"看似精美但体验糟糕"的界面截图：一个层级深达五层的政务 App 首页、一个满屏密密麻麻选项的智能电视遥控器、一个需要手动输入 16 位银行卡号的支付页面、一个弹出三层确认对话框才能删除一条消息的企业
+    IM
+  search_queries:
+  - 2×2 网格展示四个"看似精美但体验糟糕"的界面截图：一个层级深达五层的政务 App 首页、一个满屏 screenshot
+  - 2×2 网格展示四个"看似精美但体验糟糕"的界面截图：一个层级深达五层的政务 A demonstration
+  target_path: ../public/videos/w02-slide-03.webm
+  current_asset: ../public/slides/w02-slide-03.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-03b
+  module: M00_课程导览
+  layout: Grid
+  priority: medium
+  media_type: video
+  signals:
+  - ui_screenshot
+  - video_demo
+  entities: []
+  description: 无处不在的数字摩擦
+  scene_excerpt: 三张引发焦虑的界面截图拼贴——12306 复杂变态的验证码、医院挂号机庞杂的分类网格、以及充斥大段免责条款的注销确认弹窗。
+  search_queries:
+  - 三张引发焦虑的界面截图拼贴——12306 复杂变态的验证码、医院挂号机庞杂的分类网格、以及充斥大段免 screenshot
+  - 三张引发焦虑的界面截图拼贴——12306 复杂变态的验证码、医院挂号机庞杂的分类 demonstration
+  target_path: ../public/videos/w02-slide-03b.webm
+  current_asset: ../public/slides/w02-slide-03b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-10d_2
+  module: M02_意图与反馈的断裂
+  layout: Center
+  priority: medium
+  media_type: video
+  signals:
+  - historical_archive
+  - video_demo
+  - dated_event
+  entities: []
+  description: 三哩岛的噪音灾难
+  scene_excerpt: 真实照片：密密麻麻亮着红灯和绿灯的控制面板，红绿灯互相交织干扰，导致无法看清真正的核心警告（信号淹没在噪音中）
+  search_queries:
+  - 三哩岛的噪音灾难 historical photo
+  - 三哩岛的噪音灾难 archive image
+  - 真实照片：密密麻麻亮着红灯和绿灯的控制面板 红绿灯互相交织干扰 导致无法看清真正 demonstration
+  target_path: ../public/videos/w02-slide-10d_2.webm
+  current_asset: ../public/slides/w02-slide-10d_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-13e
+  module: M03_三种模型的战争
+  layout: Split
+  priority: medium
+  media_type: video
+  signals:
+  - historical_archive
+  - physical_product
+  - video_demo
+  entities: []
+  description: 管用但错误的心理模型
+  scene_excerpt: 电影放映心理模型与实现模型对比。左侧是用户脑补的"连续滑动的胶片"；右侧是真实物理实现"每秒 24 帧静止画面闪烁"
+  search_queries:
+  - 管用但错误的心理模型 historical photo
+  - 管用但错误的心理模型 archive image
+  - 电影放映心理模型与实现模型对比 左侧是用户脑补的"连续滑动的胶片"；右侧是真实物 demonstration
+  target_path: ../public/videos/w02-slide-13e.webm
+  current_asset: ../public/slides/w02-slide-13e.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-07d_3
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - person_portrait
+  entities: []
+  description: 识别与回忆的天壤之别
+  scene_excerpt: 从痛苦回忆到轻松识别。上面是一个人在绞尽脑汁地想密码；下面是看到面容ID后露出轻松笑容瞬间解锁
+  search_queries: []
+  target_path: ../public/slides/w02-slide-07d_3_real.png
+  current_asset: ../public/slides/w02-slide-07d_3.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M02_意图与反馈的断裂_narr_L219
+  module: M02_意图与反馈的断裂
+  layout: ''
+  priority: medium
+  media_type: image
+  signals:
+  - gazetteer_product
+  - tech_identifier
+  - narrative_story time
+  entities:
+  - Therac-25
+  description: 评估鸿沟的致命病理
+  scene_excerpt: '[STORY TIME: 评估鸿沟的致命病理]
+
+    [SPIRAL-FINAL] 针对 W01 已讲过的波音 737 MAX、Therac-25 等案例，进行"评估鸿沟"视角的收口。
+
+
+    *   **波音 737 MAX（毫无反馈）**：系统自动下压机头，仪表盘却没有给出任何状态改变的提示。飞行员死于**隐藏的系统干预**。
+
+    *   **Therac-25（敷衍反馈）**：辐射过载时仅显示晦涩的 `Ma'
+  search_queries:
+  - Therac-25 photo
+  - Therac-25 real image
+  target_path: ../public/slides/M02_意图与反馈的断裂_narr_L219_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-13e_2
+  module: M03_三种模型的战争
+  layout: Comparison
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 日常生活中的微缩模型
+  scene_excerpt: 物理插座与电流模型对比。左侧是用户脑补的"插座里装着水一样的电"；右侧是真实的"闭合回路电子漂移"物理真相
+  search_queries:
+  - 日常生活中的微缩模型 historical photo
+  - 日常生活中的微缩模型 archive image
+  target_path: ../public/slides/w02-slide-13e_2_real.png
+  current_asset: ../public/slides/w02-slide-13e_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-14c
+  module: M03_三种模型的战争
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 表现模型隐瞒了真实的破坏力
+  scene_excerpt: 左侧用户的心理气泡是"把消息扫进纸篓，还能找回"；右侧服务器真实的动作是"把数据块送进粉碎机物理抹除"
+  search_queries:
+  - 表现模型隐瞒了真实的破坏力 historical photo
+  - 表现模型隐瞒了真实的破坏力 archive image
+  target_path: ../public/slides/w02-slide-14c_real.png
+  current_asset: ../public/slides/w02-slide-14c.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-14e_1b
+  module: M03_三种模型的战争
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 全息环境下的空白心理模型
+  scene_excerpt: 一个人带着 Vision Pro，在空无一物的真实客厅里，对着空气手舞足蹈地去抓一个全息浏览器窗口
+  search_queries:
+  - 全息环境下的空白心理模型 historical photo
+  - 全息环境下的空白心理模型 archive image
+  target_path: ../public/slides/w02-slide-14e_1b_real.png
+  current_asset: ../public/slides/w02-slide-14e_1b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-23_1
+  module: M04_隐喻的双刃剑
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: Skeuomorph decay：隐喻的遗迹化
+  scene_excerpt: 软盘图标的演变：从真实的物理软盘（1990s）渐渐模糊、失去细节，变成一个纯粹的抽象带缺口方块（现代UI）。
+  search_queries:
+  - Skeuomorph decay：隐喻的遗迹化 historical photo
+  - Skeuomorph decay：隐喻的遗迹化 archive image
+  target_path: ../public/slides/w02-slide-23_1_real.png
+  current_asset: ../public/slides/w02-slide-23_1.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-17c1
+  module: M04_隐喻的双刃剑
+  layout: Comparison
+  priority: medium
+  media_type: image
+  signals:
+  - physical_product
+  entities: []
+  description: 突破物理引擎的数字魔法
+  scene_excerpt: 物理限制 vs 数字魔法。左侧为受限的实体文件夹（文件只能在一个抽屉）；右侧为标签化、时间轴化的发光数据流（同一文件可以存在于多重维度）
+  search_queries: []
+  target_path: ../public/slides/w02-slide-17c1_real.png
+  current_asset: ../public/slides/w02-slide-17c1.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-04_heidegger_2
+  module: M00_课程导览
+  layout: Comparison
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 被生生拽出的在手状态
+  scene_excerpt: 左侧是沉浸聊天的微信界面（上手/透明），右侧是突兀弹出的“存储空间不足”系统报错框（在手/打断）
+  search_queries:
+  - 左侧是沉浸聊天的微信界面（上手/透明） 右侧是突兀弹出的“存储空间不足”系统报错 demonstration
+  target_path: ../public/videos/w02-slide-04_heidegger_2.webm
+  current_asset: ../public/slides/w02-slide-04_heidegger_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-04b_2
+  module: M00_课程导览
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 认知引擎的切换成本
+  scene_excerpt: 大脑引擎切换的隐喻图：从轻快节能的绿色齿轮（系统1）到沉重耗能的红色重型齿轮（系统2）
+  search_queries:
+  - 大脑引擎切换的隐喻图：从轻快节能的绿色齿轮（系统1）到沉重耗能的红色重型齿轮（系 demonstration
+  target_path: ../public/videos/w02-slide-04b_2.webm
+  current_asset: ../public/slides/w02-slide-04b_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-04c_1d
+  module: M00_课程导览
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 系统切换的生理反应
+  scene_excerpt: 两套系统的极端对比：左边是放松刷视频的自动驾驶状态，右边是填报销单时的满头大汗
+  search_queries:
+  - 两套系统的极端对比：左边是放松刷视频的自动驾驶状态 右边是填报销单时的满头大汗 demonstration
+  target_path: ../public/videos/w02-slide-04c_1d.webm
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-05d
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Comparison
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 注意力切换的生产力代价
+  scene_excerpt: 对比图。左列标题"多任务幻觉"——一个人同时看书、刷手机、听耳机，大脑中间的 CPU 进度条爆红至 100%；右列标题"单任务专注"——同一个人排除干扰、专注单屏，CPU 进度条稳定绿色 60%，旁边标注 APA
+    研究数据"切换损失高达 40%"
+  search_queries:
+  - 对比图 左列标题"多任务幻觉"——一个人同时看书、刷手机、听耳机 大脑中间的 C demonstration
+  target_path: ../public/videos/w02-slide-05d.webm
+  current_asset: ../public/slides/w02-slide-05d.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-05c
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 顺应注意力的漏斗
+  scene_excerpt: 左侧展示手机屏幕频繁弹窗打断（红色告警）；右侧展示高空 HUD 投影路面，绿色字体清晰叠加
+  search_queries:
+  - 左侧展示手机屏幕频繁弹窗打断（红色告警）；右侧展示高空 HUD 投影路面 绿色字 demonstration
+  target_path: ../public/videos/w02-slide-05c.webm
+  current_asset: ../public/slides/w02-slide-05c.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-07b_1
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 认知负荷：系统的脑力占用率
+  scene_excerpt: 认知负荷的天平。一边是界面呈现的选项复杂度，一边是大脑的实时计算负荷，指针濒临过载红区。
+  search_queries:
+  - 认知负荷的天平 一边是界面呈现的选项复杂度 一边是大脑的实时计算负荷 指针濒临过 demonstration
+  target_path: ../public/videos/w02-slide-07b_1.webm
+  current_asset: ../public/slides/w02-slide-07b_1.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M01_认知框架_你的大脑不是处理器_narr_L152
+  module: M01_认知框架_你的大脑不是处理器
+  layout: ''
+  priority: low
+  media_type: video
+  signals:
+  - book_title
+  - narrative_video_priority
+  - narrative_art_aesthetics
+  entities:
+  - Skyspaces
+  description: '[ART/AESTHETICS]
+
+    美国"光与空间运动"先驱詹姆斯·特瑞尔——James Turrell，把空气当雕塑的人——甚至把这一机制变成了艺术。他有一个全'
+  scene_excerpt: '[ART/AESTHETICS]
+
+    美国"光与空间运动"先驱詹姆斯·特瑞尔——James Turrell，把空气当雕塑的人——甚至把这一机制变成了艺术。他有一个全球著名的天光装置系列《Skyspaces》——在一个纯白的房间顶部切出一个正方形的洞，让观众看天空。因为剔除了树木、楼房等所有的参照物边界，当你盯着那块天空看时，你的大脑会因为"缺乏上下文关联法则"而陷入崩溃，天空看起来不再是高高在上的苍穹'
+  search_queries:
+  - Skyspaces video
+  - Skyspaces demo
+  target_path: ../public/videos/M01_认知框架_你的大脑不是处理器_narr_L152.webm
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-09c
+  module: M02_意图与反馈的断裂
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 前置约束消灭错误输入
+  scene_excerpt: 左侧是让用户填错日期后弹出的红色报错弹窗；右侧是携程 App 中将无效返程日期提前置灰禁用的日历组件
+  search_queries:
+  - 左侧是让用户填错日期后弹出的红色报错弹窗；右侧是携程 App 中将无效返程日期提 demonstration
+  target_path: ../public/videos/w02-slide-09c.webm
+  current_asset: ../public/slides/w02-slide-09c.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-10
+  module: M02_意图与反馈的断裂
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 评估鸿沟——刚才发生了什么？
+  scene_excerpt: 左侧为一个点击"提交订单"后毫无反馈的空白页面，右侧为 Gmail 底部浮现的黑色 Toast 提示条"会话已归档 · 撤销"
+  search_queries:
+  - 左侧为一个点击"提交订单"后毫无反馈的空白页面 右侧为 Gmail 底部浮现的黑 demonstration
+  target_path: ../public/videos/w02-slide-10.webm
+  current_asset: ../public/slides/w02-slide-10.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-10d_4
+  module: M02_意图与反馈的断裂
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 宽恕式设计：兜底而非恐吓
+  scene_excerpt: 宽恕式设计的隐喻。一张巨大的安全网稳稳接住了从高处掉落的用户，象征着系统撤销(UNDO)功能的兜底保护，而非事前恐吓。
+  search_queries:
+  - 宽恕式设计的隐喻 一张巨大的安全网稳稳接住了从高处掉落的用户 象征着系统撤销(U demonstration
+  target_path: ../public/videos/w02-slide-10d_4.webm
+  current_asset: ../public/slides/w02-slide-10d_4.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-16b
+  module: M04_隐喻的双刃剑
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 物理语义与数字意图的脱节
+  scene_excerpt: 左侧是一位女性小心翼翼地把剪报夹进收藏册（暗示珍视与反复观看）；右侧是一个电商 App 里吃灰的、没有任何降价动态通知的死板收藏列表
+  search_queries:
+  - 左侧是一位女性小心翼翼地把剪报夹进收藏册（暗示珍视与反复观看）；右侧是一个电商  demonstration
+  target_path: ../public/videos/w02-slide-16b.webm
+  current_asset: ../public/slides/w02-slide-16b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-17d
+  module: M04_隐喻的双刃剑
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 中国本土文化隐喻的破冰威力
+  scene_excerpt: 左侧是红底黄字、带有"拆"字金币特效的微信红包；右侧是绿意盎然的支付宝蚂蚁森林，有人正在偷取能量球
+  search_queries:
+  - 左侧是红底黄字、带有"拆"字金币特效的微信红包；右侧是绿意盎然的支付宝蚂蚁森林  demonstration
+  target_path: ../public/videos/w02-slide-17d.webm
+  current_asset: ../public/slides/w02-slide-17d.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-17e_2
+  module: M04_隐喻的双刃剑
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  - dated_event
+  entities: []
+  description: 卡片隐喻的非线性进化
+  scene_excerpt: 算法时间线 vs 线性时间线。左侧是按严格先后顺序排列的日历卡片；右侧是被推荐算法打破顺序、根据用户兴趣动态重组的卡片流
+  search_queries:
+  - 算法时间线 vs 线性时间线 左侧是按严格先后顺序排列的日历卡片；右侧是被推荐算 demonstration
+  target_path: ../public/videos/w02-slide-17e_2.webm
+  current_asset: ../public/slides/w02-slide-17e_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M05_记忆负荷与认知过载_narr_L245
+  module: M05_记忆负荷与认知过载
+  layout: ''
+  priority: low
+  media_type: video
+  signals:
+  - camelcase_product
+  - narrative_video_priority
+  - narrative_art_aesthetics
+  entities:
+  - teamLab
+  description: '[ART/AESTHETICS]
+
+    日本国际艺术团体 **teamLab** 2024 年在东京重新开幕的**无界美术馆（Borderless）**就是分布式认知'
+  scene_excerpt: '[ART/AESTHETICS]
+
+    日本国际艺术团体 **teamLab** 2024 年在东京重新开幕的**无界美术馆（Borderless）**就是分布式认知的顶级商业实践。他们的理念是"身体主动感知"（Body Active Perception）——他们拒绝将观众固定在"看"这个单向动作上，而是让花朵因人的触摸而盛开、让水流因人的驻足而改道。观众的身体就是触发世界变化的媒介，艺术作品的形态被'
+  search_queries:
+  - teamLab video
+  - teamLab demo
+  target_path: ../public/videos/M05_记忆负荷与认知过载_narr_L245.webm
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-04_heidegger
+  module: M00_课程导览
+  layout: Split
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  entities:
+  - 存在与时间
+  description: 哲学的隐喻：从透明到冰冷
+  scene_excerpt: 抽象风格——左侧是一把挥舞中模糊透明的锤子（上手状态），右侧是锤柄断裂、被放置在台面上审视的锤子（在手状态），背景带有碎裂纹理。
+  search_queries:
+  - 存在与时间 photo
+  - 存在与时间 real image
+  target_path: ../public/slides/w02-slide-04_heidegger_real.png
+  current_asset: ../public/slides/w02-slide-04_heidegger.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-04d
+  module: M00_课程导览
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - acronym_product
+  entities:
+  - DELETE Database
+  description: 驾驭必要的摩擦
+  scene_excerpt: 红色高危的 `DELETE Database` 终端输入框，提示"必要的心智摩擦"
+  search_queries:
+  - DELETE Database photo
+  - DELETE Database real image
+  target_path: ../public/slides/w02-slide-04d_real.png
+  current_asset: ../public/slides/w02-slide-04d.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M00_课程导览_narr_L277
+  module: M00_课程导览
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  - narrative_philosophy
+  entities:
+  - 存在与时间
+  description: 从海德格尔看人机边界
+  scene_excerpt: '[PHILOSOPHY: 从海德格尔看人机边界]
+
+    德国哲学家海德格尔——也就是 Martin Heidegger在《存在与时间》里提出了两个伟大的概念——**"上手状态"（Ready-to-hand）**和**"在手状态"（Present-at-hand）**。这个诞生在将近 100
+    年前、看似和计算机毫无关系的哲学洞察，却精准地预言了 21 世纪的交互设计挑战。
+
+    当你熟练地用锤子砸铁钉时，你的注'
+  search_queries:
+  - 存在与时间 photo
+  - 存在与时间 real image
+  target_path: ../public/slides/M00_课程导览_narr_L277_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-05b_2
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Flow
+  priority: low
+  media_type: image
+  signals:
+  - book_cover
+  entities: []
+  description: 任务切换的高昂成本
+  scene_excerpt: 具象的生活隐喻：一个学生正试图一边看厚重的教材，一边用手机回复消息。每当他的视线在书本和手机之间切换时，头顶就会出现一个沉重的红色“Loading...”进度条图标，直观展现大脑在两项任务间来回跳转时所经历的严重卡顿与“重载损耗”。
+  search_queries: []
+  target_path: ../public/slides/w02-slide-05b_2_real.png
+  current_asset: ../public/slides/w02-slide-05b_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-07c_1
+  module: M01_认知框架_你的大脑不是处理器
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  - book_title
+  entities:
+  - fMRI
+  - 神奇的数字 7±2
+  description: 脆弱的工作记忆瓶颈
+  scene_excerpt: 脑力工作记忆的隐喻。一个极其微小且不稳定的“便签桌”，上面只能放 4 张脆弱的便签。
+  search_queries:
+  - fMRI photo
+  - fMRI real image
+  - 神奇的数字 7±2 photo
+  - 神奇的数字 7±2 real image
+  target_path: ../public/slides/w02-slide-07c_1_real.png
+  current_asset: ../public/slides/w02-slide-07c_1.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M01_认知框架_你的大脑不是处理器_narr_L65
+  module: M01_认知框架_你的大脑不是处理器
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  - narrative_case study
+  entities:
+  - 看不见的大猩猩
+  description: 看不见的大猩猩
+  scene_excerpt: '[CASE STUDY: 看不见的大猩猩]
+
+    1999 年的经典「看不见的大猩猩」实验中：受试者被要求专注数视频里穿白衣服的人传了多少次球。结果令人震惊——**46% 的受试者**完全没有注意到视频中间有一个穿黑色大猩猩套装的人大摇大摆走过画面。接近一半的人，对一个停留了 9 秒的黑色大块头视而不见。这就是"非注意盲视"（Inattentional
+    Blindness）的经典实验证据。你的大脑不是没'
+  search_queries:
+  - 看不见的大猩猩 photo
+  - 看不见的大猩猩 real image
+  target_path: ../public/slides/M01_认知框架_你的大脑不是处理器_narr_L65_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-09b2
+  module: M02_意图与反馈的断裂
+  layout: Comparison
+  priority: low
+  media_type: image
+  signals:
+  - tech_identifier
+  - book_title
+  entities:
+  - PL-02
+  - 执行鸿沟 · 高风险
+  - CRM-PL-02
+  - 填平鸿沟
+  - 新建客户
+  - 查看报表
+  description: 执行鸿沟的高风险区与填平策略
+  scene_excerpt: 左右对比图。左侧标题「执行鸿沟 · 高风险」——五层深度嵌套的后台菜单截图，每级用「CRM-PL-02」式缩写命名，用红色箭头标注迷路节点；右侧标题「填平鸿沟」——同一功能经过重构后以三级扁平导航呈现，关键入口用动词+目标命名（「新建客户」「查看报表」），绿色路径一气呵成
+  search_queries:
+  - PL-02 photo
+  - PL-02 real image
+  - PL-02 product shot high resolution
+  - 执行鸿沟 · 高风险 photo
+  - 执行鸿沟 · 高风险 real image
+  - 执行鸿沟 · 高风险 product shot high resolution
+  target_path: ../public/slides/w02-slide-09b2_real.png
+  current_asset: ../public/slides/w02-slide-09b2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-10e_3
+  module: M02_意图与反馈的断裂
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  entities:
+  - MacBook
+  description: 右键菜单的妥协与扩张
+  scene_excerpt: Windows 鼠标的右键菜单像一把瑞士军刀一样展开，提供了无数的上下文操作
+  search_queries:
+  - MacBook photo
+  - MacBook real image
+  - MacBook portrait
+  target_path: ../public/slides/w02-slide-10e_3_real.png
+  current_asset: ../public/slides/w02-slide-10e_3.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M02_意图与反馈的断裂_narr_L203
+  module: M02_意图与反馈的断裂
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - acronym_product
+  - narrative_story time
+  entities:
+  - AWS S3
+  description: 亚马逊 AWS S3 的世纪大宕机
+  scene_excerpt: '[STORY TIME: 亚马逊 AWS S3 的世纪大宕机]
+
+    评估鸿沟缺乏"可解释性"的破坏力，在 2017 年亚马逊 AWS S3 的宕机事件中暴露无遗。当时，一名工程师只是想在控制台删除少量冗余服务器。
+
+
+    但这名工程师敲下命令后，系统**没有任何弹窗确认或破坏预览**，仅仅给出了一个生硬的结束提示。系统未能提供**可解释的状态反馈**，没有警告他这个操作将波及整个美东一区的路由架构。
+
+
+    这条'
+  search_queries:
+  - AWS S3 photo
+  - AWS S3 real image
+  target_path: ../public/slides/M02_意图与反馈的断裂_narr_L203_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-14f
+  module: M03_三种模型的战争
+  layout: Flow
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  - book_title
+  entities:
+  - iPhone
+  - 实现模型
+  - 心理模型
+  - 表现模型
+  description: Cooper 表现模型光谱——越靠右越优秀
+  scene_excerpt: 一条水平光谱图。最左端标注「实现模型」（配数据库表结构代码图标），最右端标注「心理模型」（配人脑/生活场景图标），中间可滑动的指针标注「表现模型」（配 UI 界面图标）。左侧圆弧区域放置 ERP 截图（极差），右侧圆弧区域放置
+    iPhone Photos 截图（极优），指针越靠右设计越优秀
+  search_queries:
+  - iPhone photo
+  - iPhone real image
+  - 实现模型 photo
+  - 实现模型 real image
+  - 心理模型 photo
+  - 心理模型 real image
+  target_path: ../public/slides/w02-slide-14f_real.png
+  current_asset: ../public/slides/w02-slide-14f.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-14b_2
+  module: M03_三种模型的战争
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  entities:
+  - iPhone
+  - iOS
+  description: 表现模型向心理模型的终极跃迁
+  scene_excerpt: 破茧重生的表现模型：从左侧代表代码、数据的生硬外壳，逐渐过渡到右侧自然、感性的人类视角界面
+  search_queries:
+  - iPhone photo
+  - iPhone real image
+  - iOS photo
+  - iOS real image
+  target_path: ../public/slides/w02-slide-14b_2_real.png
+  current_asset: ../public/slides/w02-slide-14b_2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-14g
+  module: M03_三种模型的战争
+  layout: Comparison
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  - book_title
+  entities:
+  - iPhone
+  - 任务导向 Task-Directed
+  - 目标导向 Goal-Directed
+  - 年/月/日/人物/地点
+  description: 任务导向 vs 目标导向的表现模型跃迁
+  scene_excerpt: 上下对比图。上方标题「任务导向 Task-Directed」——早期 PC 照片管理界面，用户必须点击「C盘 → Users → Pictures → 2025 → 03」逐层导航，每步都暴露文件系统节点；下方标题「目标导向
+    Goal-Directed」——iPhone Photos 自动按「年/月/日/人物/地点」分组的回忆流，用户凭直觉快思考浏览，文件路径完全消失
+  search_queries:
+  - iPhone photo
+  - iPhone real image
+  - 任务导向 Task-Directed photo
+  - 任务导向 Task-Directed real image
+  - 目标导向 Goal-Directed photo
+  - 目标导向 Goal-Directed real image
+  target_path: ../public/slides/w02-slide-14g_real.png
+  current_asset: ../public/slides/w02-slide-14g.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M03_三种模型的战争_narr_L61
+  module: M03_三种模型的战争
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  - narrative_case study
+  entities:
+  - WeChat Open Platform
+  description: 微信的两种宇宙结界
+  scene_excerpt: '[CASE STUDY: 微信的两种宇宙结界]
+
+    打开微信开发者平台（WeChat Open Platform）的技术文档：你看到的是满屏幕的 OAuth 2.0 异步授权流程、Token 半衰期刷新机制、分布式消息队列架构以及高并发限流策略。这是极其硬核的实现模型宇宙。
+
+    但再打开你手机上的微信客户端：你看到的是圆润的绿色聊天气泡、随着指尖滑动的瀑布流朋友圈、以及春节抢红包时充满张力的动画特效。
+
+    请'
+  search_queries:
+  - WeChat Open Platform photo
+  - WeChat Open Platform real image
+  target_path: ../public/slides/M03_三种模型的战争_narr_L61_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-23_2
+  module: M04_隐喻的双刃剑
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  entities:
+  - WebSocket
+  description: 无摩擦的数字原生范式
+  scene_excerpt: 一个“保存”按钮被云端自动同步的闪电图标所取代，隐喻彻底死亡并被原生协议接管。
+  search_queries:
+  - WebSocket photo
+  - WebSocket real image
+  - WebSocket portrait
+  target_path: ../public/slides/w02-slide-23_2_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: w02-slide-17c2
+  module: M04_隐喻的双刃剑
+  layout: Comparison
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  - book_title
+  entities:
+  - iOS
+  - iBooks
+  - 拟物化时代（iOS 6）
+  - 扁平化时代（iOS 7+）
+  - 隐喻锁死设计想象力
+  - 数字原生解放表达空间
+  description: 从拟物化到扁平化——杀死自己创造的隐喻
+  scene_excerpt: 左右对比图。左列标题「拟物化时代（iOS 6）」——真皮质感的通讯录、绿色绒布台球桌的 Game Center、书架木纹的 iBooks，物理材质堆砌；右列标题「扁平化时代（iOS 7+）」——同一批 App
+    重设计后的干净几何色块界面，数字概念直接表达，无任何物理材质模拟。两侧底部各标注「隐喻锁死设计想象力」vs「数字原生解放表达空间」
+  search_queries:
+  - iOS photo
+  - iOS real image
+  - iBooks photo
+  - iBooks real image
+  - 拟物化时代（iOS 6） photo
+  - 拟物化时代（iOS 6） real image
+  target_path: ../public/slides/w02-slide-17c2_real.png
+  current_asset: ../public/slides/w02-slide-17c2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M05_记忆负荷与认知过载_narr_L33
+  module: M05_记忆负荷与认知过载
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  - narrative_case study
+  entities:
+  - LingsCars
+  description: LingsCars
+  scene_excerpt: '[CASE STUDY: LingsCars]
+
+    LingsCars.com 是英国一个真实存在的汽车租赁网站。它的首页被视觉设计界当作"反面教材中的反面教材"——满屏闪烁的动图、刺眼的色彩、密密麻麻的文字和无处不在的弹窗。讽刺的是，这个网站的老板声称它的转化率极高。但从认知科学的角度来看，它几乎触犯了每一条人类认知的天然限制。'
+  search_queries:
+  - LingsCars photo
+  - LingsCars real image
+  target_path: ../public/slides/M05_记忆负荷与认知过载_narr_L33_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M05_记忆负荷与认知过载_narr_L177
+  module: M05_记忆负荷与认知过载
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - acronym_product
+  - narrative_case study
+  entities:
+  - VS Code
+  description: Cmd+K 命令面板
+  scene_excerpt: '[CASE STUDY: Cmd+K 命令面板]
+
+    现代生产力工具里无处不在的 `Cmd+K` 万能命令面板把这个原则推到了极致。在 Notion、VS Code、Linear 中，你只需敲两三个首字母，系统就基于上下文**模糊匹配**出所有可能的操作，供你肉眼挑选。你本来需要在六七层菜单里逐级翻找的功能，现在一秒搞定。这就是把"回忆"转化为"识别"——把命令行时代的"凭空背咒语"压缩成了图形界面时'
+  search_queries:
+  - VS Code photo
+  - VS Code real image
+  target_path: ../public/slides/M05_记忆负荷与认知过载_narr_L177_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''

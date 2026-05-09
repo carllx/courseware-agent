@@ -1,0 +1,158 @@
+
+==================================================
+  视觉素材完整性报告
+==================================================
+  课程: 交互产品开发
+  范围: 第 1 周
+  脚本数: 1 | VISUAL 引用: 58 | 物理文件: 83
+==================================================
+
+❌ 缺失素材 (1):
+  W01_S03n (Layout: Comparison) — 无匹配文件
+    ↳ W01_Interaction_Basics/.build/compiled.md:L742
+
+⚠️  孤立素材 (83):
+  slides/W01_S01.png — 未被任何脚本引用
+  slides/Engelbart_Mouse_Demo.gif — 未被任何脚本引用
+  slides/W01_S03h.png — 未被任何脚本引用
+  slides/W01_S01a.png — 未被任何脚本引用
+  slides/W01_S02_EcommerceParadigm_Shein.png — 未被任何脚本引用
+  slides/W01_S00.png — 未被任何脚本引用
+  slides/W01_S02.png — 未被任何脚本引用
+  slides/W01_S01c.png — 未被任何脚本引用
+  slides/W01_S01_Book.png — 未被任何脚本引用
+  slides/W01_S01b.png — 未被任何脚本引用
+  slides/W01_S03.png — 未被任何脚本引用
+  slides/W01_S07.png — 未被任何脚本引用
+  slides/Therac25_Malfunction.gif — 未被任何脚本引用
+  slides/W01_S01f.png — 未被任何脚本引用
+  slides/W01_S01g.png — 未被任何脚本引用
+  slides/W01_S02_ActivityAfricanPay.png — 未被任何脚本引用
+  slides/W01_S06.png — 未被任何脚本引用
+  slides/W01_S04.png — 未被任何脚本引用
+  slides/W01_S10.png — 未被任何脚本引用
+  slides/W01_S01e.png — 未被任何脚本引用
+  slides/W01_S02_InstagramLikes.png — 未被任何脚本引用
+  slides/W01_S01d.png — 未被任何脚本引用
+  slides/W01_S02h.png — 未被任何脚本引用
+  slides/W01_S05.png — 未被任何脚本引用
+  slides/W01_S02_Wechat.png — 未被任何脚本引用
+  slides/W01_S02_Norman.png — 未被任何脚本引用
+  slides/W01_S01h_Cases.png — 未被任何脚本引用
+  slides/W01_S02_PuckMouse.png — 未被任何脚本引用
+  slides/W01_S06d.png — 未被任何脚本引用
+  slides/W01_S03_AgileSpiral.png — 未被任何脚本引用
+  slides/W01_S01_real.jpg — 未被任何脚本引用
+  slides/W01_S06e.png — 未被任何脚本引用
+  slides/W01_S07a.png — 未被任何脚本引用
+  slides/W01_S06a.png — 未被任何脚本引用
+  slides/W01_S02a2.png — 未被任何脚本引用
+  slides/W01_S02_Engelbart.png — 未被任何脚本引用
+  slides/W01_S06b.png — 未被任何脚本引用
+  slides/W01_S06c.png — 未被任何脚本引用
+  slides/W01_S05b.png — 未被任何脚本引用
+  slides/W01_S05c.png — 未被任何脚本引用
+  slides/W01_S02_Compass.png — 未被任何脚本引用
+  slides/W01_S05a.png — 未被任何脚本引用
+  slides/W01_S02_Compass_real.jpg — 未被任何脚本引用
+  slides/W01_S05d.png — 未被任何脚本引用
+  slides/W01_S08_Xbox_real.jpg — 未被任何脚本引用
+  slides/W01_S01g_VT100_real.jpg — 未被任何脚本引用
+  slides/W01_S05e.png — 未被任何脚本引用
+  slides/W01_S01j_right_real.jpg — 未被任何脚本引用
+  slides/W01_S04c.png — 未被任何脚本引用
+  slides/W01_S05a_real.jpg — 未被任何脚本引用
+  slides/W01_S05f.png — 未被任何脚本引用
+  slides/W01_S04b.png — 未被任何脚本引用
+  slides/W01_S02_EcommerceParadigm_Chanel.png — 未被任何脚本引用
+  slides/W01_S08.png — 未被任何脚本引用
+  slides/W01_S02e.png — 未被任何脚本引用
+  slides/W01_S03a.png — 未被任何脚本引用
+  slides/W01_S01i.png — 未被任何脚本引用
+  slides/W01_S01h.png — 未被任何脚本引用
+  slides/W01_S02d.png — 未被任何脚本引用
+  slides/W01_S09.png — 未被任何脚本引用
+  slides/W01_S01j_right.png — 未被任何脚本引用
+  slides/W01_S03b.png — 未被任何脚本引用
+  slides/W01_S02f.png — 未被任何脚本引用
+  slides/W01_S02g.png — 未被任何脚本引用
+  slides/W01_S03c.png — 未被任何脚本引用
+  slides/W01_S01j_left.png — 未被任何脚本引用
+  slides/W01_S03g.png — 未被任何脚本引用
+  slides/W01_S02c.png — 未被任何脚本引用
+  slides/W01_S02b.png — 未被任何脚本引用
+  slides/W01_S03f.png — 未被任何脚本引用
+  slides/W01_S02_EcommerceParadigm_Combined.png — 未被任何脚本引用
+  slides/W01_S02_ChinaParadigm.png — 未被任何脚本引用
+  slides/W01_S03d.png — 未被任何脚本引用
+  slides/W01_S03e.png — 未被任何脚本引用
+  slides/W01_S02a.png — 未被任何脚本引用
+  videos/JR_Sonic_Wayfinding.mp4 — 未被任何脚本引用
+  videos/Dropbox_MVP_poster.png — 未被任何脚本引用
+  videos/test_dlp.json — 未被任何脚本引用
+  videos/MotherOfAllDemos_3to8_Final.mp4 — 未被任何脚本引用
+  videos/Elderly_Bus_Incident.mp4 — 未被任何脚本引用
+  videos/Dropbox_MVP.en.vtt — 未被任何脚本引用
+  videos/Dropbox_MVP.mp4 — 未被任何脚本引用
+  videos/Dropbox_MVP.zh-Hant.vtt — 未被任何脚本引用
+
+✅ 已匹配 (57):
+  W01_S00 → public/slides/W01_S00.png
+  W01_S01 → public/videos/Elderly_Bus_Incident.mp4
+  W01_S01a → public/slides/W01_S01a.png
+  W01_S01_Book → public/slides/W01_S01_Book.png
+  W01_S01b → public/slides/W01_S01b.png
+  W01_S01d → public/slides/W01_S01d.png
+  W01_S01e → public/slides/W01_S01e.png
+  W01_S01f → public/slides/W01_S01f.png
+  W01_S01g → public/slides/W01_S01g_VT100_real.jpg
+  W01_S01c → public/slides/W01_S01c.png
+  W01_S01i → public/slides/W01_S01i.png
+  W01_S01h → public/slides/W01_S01h.png
+  W01_S01h_Cases → public/slides/W01_S01h_Cases.png
+  W01_S01j → public/slides/W01_S01j_right.png
+  W01_S02 → public/slides/W01_S02.png
+  W01_S02_Engelbart → public/slides/Engelbart_Mouse_Demo.gif
+  W01_S02_Compass → public/slides/W01_S02_Compass.png
+  W01_S02_Norman → public/slides/W01_S02_Norman.png
+  W01_S02d → public/slides/W01_S02d.png
+  W01_S02_PuckMouse → public/slides/W01_S02_PuckMouse.png
+  W01_S02_Wechat → public/slides/W01_S02_Wechat.png
+  W01_S03_AgileSpiral → public/slides/W01_S03_AgileSpiral.png
+  W01_S02_ChinaParadigm → public/slides/W01_S02_ChinaParadigm.png
+  W01_S02_EcommerceParadigm → public/slides/W01_S02_EcommerceParadigm_Combined.png
+  W01_S02_ActivityAfricanPay → public/slides/W01_S02_ActivityAfricanPay.png
+  W01_S02a → public/slides/W01_S02a.png
+  W01_S02b → public/slides/W01_S02b.png
+  W01_S02_InstagramLikes → public/slides/W01_S02_InstagramLikes.png
+  W01_S03 → public/slides/W01_S03.png
+  W01_S03a → public/slides/W01_S03a.png
+  W01_S03b → public/slides/W01_S03b.png
+  W01_S03c → public/slides/W01_S03c.png
+  W01_S03d → public/slides/W01_S03d.png
+  W01_S03e → public/slides/W01_S03e.png
+  W01_S03f → public/slides/W01_S03f.png
+  W01_S03g → public/slides/W01_S03g.png
+  W01_S03h → public/slides/W01_S03h.png
+  W01_S03k → public/slides/Therac25_Malfunction.gif
+  W01_S03l → public/slides/W01_S03f.png
+  W01_S03m → public/slides/W01_S03g.png
+  W01_S04 → public/slides/W01_S04.png
+  W01_S04b → public/slides/W01_S04b.png
+  W01_S04c → public/slides/W01_S04c.png
+  W01_S05a → public/slides/W01_S05a_real.jpg
+  W01_S05b → public/slides/W01_S05b.png
+  W01_S05b_Audio → public/videos/JR_Sonic_Wayfinding.mp4
+  W01_S05c → public/slides/W01_S05c.png
+  W01_S05d → public/slides/W01_S05d.png
+  W01_S05e → public/slides/W01_S05e.png
+  W01_S08 → public/slides/W01_S08_Xbox_real.jpg
+  W01_S06a → public/slides/W01_S06a.png
+  W01_S06b → public/slides/W01_S06b.png
+  W01_S06c → public/slides/W01_S06c.png
+  W01_S06d → public/slides/W01_S06d.png
+  W01_S06d_Video → public/videos/Dropbox_MVP.mp4
+  W01_S06e → public/slides/W01_S06e.png
+  W01_S07a → public/slides/W01_S07a.png
+
+💡 建议: 为缺失素材执行采集任务，或在脚本中标注 Asset 路径。

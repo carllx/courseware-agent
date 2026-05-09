@@ -60,6 +60,7 @@
   text-decoration: none;
   color: inherit;
   transition: all 0.25s ease;
+  position: relative;
 }
 
 .week-card:hover {
@@ -168,6 +169,51 @@
 /* ============================================================
    CoursePage 响应式断点
    ============================================================ */
+
+/* week-card 内主链接（覆盖默认 Link 样式） */
+.week-card-link {
+  display: flex;
+  gap: var(--sp-md);
+  flex: 1;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 教师版快捷入口 */
+.week-card-teacher-link {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #8b8fa3;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.2s ease;
+  opacity: 0;
+  z-index: 2;
+}
+
+.week-card:hover .week-card-teacher-link {
+  opacity: 1;
+}
+
+.week-card-teacher-link:hover {
+  background: rgba(108, 99, 255, 0.15);
+  border-color: rgba(108, 99, 255, 0.3);
+  color: #a29bfe;
+}
+
+@media (max-width: 768px) {
+  /* 移动端始终显示教师版入口 */
+  .week-card-teacher-link {
+    opacity: 1;
+  }
+}
 
 @media (max-width: 768px) {
   .week-grid {

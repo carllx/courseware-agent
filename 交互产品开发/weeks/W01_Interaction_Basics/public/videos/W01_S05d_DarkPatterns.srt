@@ -1,0 +1,220 @@
+1
+00:00:00,000 --> 00:00:06,080
+Watch out! I'm about to blow your mind, bro. Businesses want you to buy stuff.
+
+2
+00:00:06,880 --> 00:00:12,640
+I know. This is shocking news. But perhaps even more shocking is that online,
+
+3
+00:00:12,640 --> 00:00:17,840
+businesses drive to get you to open your wallets can often involve quite a bit of subterfuge known
+
+4
+00:00:18,400 --> 00:00:24,720
+as dark patterns. Surprisingly, this isn't the name of a metal band. Rather, it's a tactic
+
+5
+00:00:24,720 --> 00:00:29,680
+designed to influence you somehow, usually into buying a product or service you might not really
+
+6
+00:00:29,680 --> 00:00:34,240
+want to sign up for incessant marketing emails or simply to stop you from doing something the
+
+7
+00:00:34,240 --> 00:00:39,760
+business may not want you to do. And dark patterns aren't one size fits all. Just like a Stephen
+
+8
+00:00:39,760 --> 00:00:46,880
+King monster, a dark pattern can take many forms. One classic example is how hard it often is to
+
+9
+00:00:46,880 --> 00:00:52,000
+find a phone number to talk to a real human being when you need customer service. Websites often
+
+10
+00:00:52,000 --> 00:00:56,160
+instead direct you to fill out a form or text chat with a representative. If a phone number
+
+11
+00:00:56,160 --> 00:01:01,440
+even exists, it's often buried in a subtle location that you have to click multiple links to find.
+
+12
+00:01:01,440 --> 00:01:05,360
+A related tactic is how hard some services make it to close your account.
+
+13
+00:01:05,360 --> 00:01:10,160
+You've probably seen how companies will bury the unsubscribe link on an email at the bottom in
+
+14
+00:01:10,160 --> 00:01:16,480
+tiny font. But this is small potatoes compared to trying to straight up cancel a membership.
+
+15
+00:01:16,480 --> 00:01:21,040
+Typically, bringing up a settings menu and clicking close your account isn't good enough.
+
+16
+00:01:21,040 --> 00:01:25,200
+Sites will either entice you to stay with a massive in your face offer to prevent you from
+
+17
+00:01:25,200 --> 00:01:30,880
+canceling a subscription with the actual cancel link presented in a much smaller size. Or they'll
+
+18
+00:01:30,880 --> 00:01:36,320
+make it insanely hard to find the actual delete your account button. Amazon is notorious for this,
+
+19
+00:01:36,320 --> 00:01:41,360
+and many other things. The latter is a good example of what designers call a roach motel.
+
+20
+00:01:41,360 --> 00:01:46,320
+Easy to sign up for an account and get in, but hard to leave. And while you might not end up dead,
+
+21
+00:01:46,320 --> 00:01:52,000
+like an actual roach, it makes life super annoying. And may even result in a recurring charge in
+
+22
+00:01:52,000 --> 00:01:56,560
+your card if you don't deactivate your account in time. But even if burying the link you actually
+
+23
+00:01:56,560 --> 00:02:02,240
+want to click isn't a tactic a certain company is employing, there are other gotchas to watch out for.
+
+24
+00:02:02,240 --> 00:02:07,360
+One is how these sites will use UI elements to nudge the user in a certain direction.
+
+25
+00:02:07,360 --> 00:02:12,560
+For example, making a buy tokens or keep my subscription button a bright color,
+
+26
+00:02:12,560 --> 00:02:15,680
+or at least a color the user recognizes from other parts of the service.
+
+27
+00:02:15,680 --> 00:02:19,440
+This can also be done in a less subtle way, called Confirm Shaming.
+
+28
+00:02:21,200 --> 00:02:25,200
+Wait, are we on Twitter? You see this a lot when you visit a retailer or travel site,
+
+29
+00:02:25,200 --> 00:02:29,920
+and get a pop-up to sign up for a newsletter promising discounts and other exclusive offers.
+
+30
+00:02:29,920 --> 00:02:33,920
+If you're not interested in getting emails, bam, you can't just click on an X button,
+
+31
+00:02:33,920 --> 00:02:38,320
+or a button that says close. Instead, you have to click a small link, saying something to the
+
+32
+00:02:38,320 --> 00:02:43,840
+effective, no thanks, I'd rather pay full price, or some other condescending nonsense.
+
+33
+00:02:43,840 --> 00:02:48,640
+But possibly the worst form of Dark Pattern is the one that actively requires you to click an
+
+34
+00:02:48,640 --> 00:02:54,160
+extra button to opt out of something. This can be anything from how tedious some sites make it to
+
+35
+00:02:54,160 --> 00:03:01,760
+reject unnecessary cookies. Yes, to having a box to install some unwanted antivirus program,
+
+36
+00:03:01,760 --> 00:03:05,760
+or unwanted toolbar pre-checked for you when you're trying to install something else
+
+37
+00:03:05,760 --> 00:03:10,400
+completely unrelated. By the time you've clicked through reflexively, congratulations!
+
+38
+00:03:10,480 --> 00:03:15,200
+You're now the proud owner of a trip protection package, and probably some malware.
+
+39
+00:03:15,200 --> 00:03:18,560
+Of course, these aren't the only kinds of dark patterns floating around out there,
+
+40
+00:03:18,560 --> 00:03:24,160
+so while it's a pain, be sure to take a few extra seconds to read before you click.
+
+41
+00:03:24,160 --> 00:03:27,360
+You don't want to end up in a position where you agree to have your robot vacuum
+
+42
+00:03:27,360 --> 00:03:31,520
+suck up all your loose change and hold it ransom. It happened to me.
+
+43
+00:03:31,520 --> 00:03:35,600
+Speaking of loose change, save yours by getting your books in order with our sponsor,
+
+44
+00:03:35,600 --> 00:03:39,520
+FreshBooks. They're an invoicing and accounting solution that's built for owners and their
+
+45
+00:03:39,520 --> 00:03:44,800
+clients. FreshBooks states that the average user saves 46 hours a month and gets paid 18 days
+
+46
+00:03:44,800 --> 00:03:51,040
+faster while increasing their ROI by 11 times using FreshBooks. FreshBooks is hugely beneficial for
+
+47
+00:03:51,040 --> 00:03:54,880
+freelancers and small business owners who don't have time to waste on invoicing, accounting,
+
+48
+00:03:54,880 --> 00:04:00,320
+and payment processing. Over 3,000 business owners have rated it an average of 4.5 out of five
+
+49
+00:04:00,320 --> 00:04:04,640
+stars on GitHub. It's super easy to get up and running, and with award-winning support,
+
+50
+00:04:04,640 --> 00:04:08,880
+you're never alone. Try FreshBooks free for 30 days, no credit card required.
+
+51
+00:04:08,880 --> 00:04:12,960
+Go to FreshBooks.com slash TechQuickie and enter TechQuickie in the how did you hear about
+
+52
+00:04:12,960 --> 00:04:18,080
+a section? Because you got to be honest. Hey, thanks for watching guys. Like the video,
+
+53
+00:04:18,080 --> 00:04:22,240
+dislike the video, check out our other videos, comment with video suggestions. It's all about
+
+54
+00:04:22,240 --> 00:04:27,040
+videos here on the YouTube video channel TechQuickie. Hey, why don't you subscribe and follow?
+
+55
+00:04:28,240 --> 00:04:32,240
+That's an idea.
+

@@ -1,0 +1,221 @@
+- slide: S00c_W5_GenerativeArt
+  module: M00_课程导览
+  layout: Center
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - book_title
+  entities:
+  - 权力的游戏
+  description: '"W05：数据情绪与生成艺术"'
+  scene_excerpt: 深色极简学术底座，利用格式塔原理在视觉中心呈现悬浮的几何块与克制的网格线，烘托概念的严谨与权威感。
+  search_queries:
+  - 权力的游戏 photo
+  - 权力的游戏 real image
+  - 权力的游戏 demo video
+  target_path: ../public/videos/S00c_W5_GenerativeArt.webm
+  current_asset: ../public/slides/S00c_W5_GenerativeArt.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S02c_Challenger_Disaster
+  module: M01_我们为什么需要可视化？
+  layout: Comparison
+  priority: high
+  media_type: image
+  signals:
+  - historical_archive
+  - book_title
+  entities:
+  - Visual Explanations
+  description: '"致命的验证：如果他们在发射前画了一张散点图"'
+  scene_excerpt: 左侧是一张黑白的历史决策报告复印件：几页按发射先后顺序排列的冗杂表格，密密麻麻记录着历史损坏数据。右侧是信息可视化大师 Edward Tufte 重绘的清晰散点图表（Scatterplot）：横轴是发射气温，纵轴是
+    O 型环损害指数。
+  search_queries:
+  - Visual Explanations photo
+  - Visual Explanations real image
+  target_path: ../public/slides/S02c_Challenger_Disaster_real.png
+  current_asset: ../public/slides/S02c_Challenger_Disaster.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S02e_Zillow_Heatmap
+  module: M01_我们为什么需要可视化？
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: '"空间异变：被宏观模型抹平的微观灾难"'
+  scene_excerpt: 一张颗粒度极细的真实房地产地理空间热力图（Heatmap）。地图上，虽然总体呈现代表价格平稳的浅色，但在特定的微观社区板块（如凤凰城某几个特定街区）却爆发出了代表价格暴跌与库存积压的深红色警报。
+  search_queries:
+  - '"空间异变：被宏观模型抹平的微观灾难" historical photo'
+  - '"空间异变：被宏观模型抹平的微观灾难" archive image'
+  target_path: ../public/slides/S02e_Zillow_Heatmap_real.png
+  current_asset: ../public/slides/S02e_Zillow_Heatmap.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S00b_W1_W2_Perception
+  module: M00_课程导览
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"W01 - W02：视觉感知与隐喻映射"'
+  scene_excerpt: 深色极简学术底座，利用格式塔原理在视觉中心呈现悬浮的几何块与克制的网格线，烘托概念的严谨与权威感。
+  search_queries:
+  - 深色极简学术底座 利用格式塔原理在视觉中心呈现悬浮的几何块与克制的网格线 烘托概 demonstration
+  target_path: ../public/videos/S00b_W1_W2_Perception.webm
+  current_asset: ../public/slides/S00b_W1_W2_Perception.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S09a_Visual_Pathway_V1
+  module: M03_视觉系统_你的认知外接显卡
+  layout: Full
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"200毫秒的生理特权防线：前注意处理 (Pre-attentive Processing)"'
+  scene_excerpt: 一张具有赛博解剖学风格的人类眼球到大脑神经通路解析图。一条红色的高速高亮轨迹代表光信号由视网膜（Retina）向初级视觉皮层（V1）传输的路径，而在它尚未到达处理理性认知的前额叶（Prefrontal Cortex）之前，就被一道写着
+    "200ms" 的红色闸门瞬间截断，弹出“警报（Pop-out）”标识。
+  search_queries:
+  - 一张具有赛博解剖学风格的人类眼球到大脑神经通路解析图 一条红色的高速高亮轨迹代表 demonstration
+  target_path: ../public/videos/S09a_Visual_Pathway_V1.webm
+  current_asset: ../public/slides/S09a_Visual_Pathway_V1.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S09e_Pre_attentive_Spatial
+  module: M03_视觉系统_你的认知外接显卡
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"二维越界：脱离阵列位置的异物预期"'
+  scene_excerpt: 展示一张秩序井然的大型二维阵列排布（如数百个均匀分布的圆点），唯独在界外的右下角角落，掉落并漂移着一个孤零零的残缺圆点。以此验证脱离群体坐标引发的强视觉牵引。
+  search_queries:
+  - 展示一张秩序井然的大型二维阵列排布（如数百个均匀分布的圆点） 唯独在界外的右下角 demonstration
+  target_path: ../public/videos/S09e_Pre_attentive_Spatial.webm
+  current_asset: ../public/slides/S09e_Pre_attentive_Spatial.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S09f_Pre_attentive_Motion
+  module: M03_视觉系统_你的认知外接显卡
+  layout: Full
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"动态呼叫：带有绝对防备级的最高闪烁权限"'
+  scene_excerpt: 一张充满静态波纹噪音图的底图。但在画面边缘角落布置出强烈的带有视线重影与模糊特效的光斑，象征着正在跳帧、抽搐的重度动态元素。
+  search_queries:
+  - 一张充满静态波纹噪音图的底图 但在画面边缘角落布置出强烈的带有视线重影与模糊特效 demonstration
+  target_path: ../public/videos/S09f_Pre_attentive_Motion.webm
+  current_asset: ../public/slides/S09f_Pre_attentive_Motion.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S10d_Memory_Limit_UI
+  module: M03_视觉系统_你的认知外接显卡
+  layout: Comparison
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"信息密度困境：不要挑战用户的记性"'
+  scene_excerpt: 左侧是对翻页式比对的恶感——用户需要凭记忆看前面的报表；右侧是现代 Dashboard 交互，把关键差值用悬停窗悬浮在同一页。
+  search_queries:
+  - 左侧是对翻页式比对的恶感——用户需要凭记忆看前面的报表；右侧是现代 Dashbo demonstration
+  target_path: ../public/videos/S10d_Memory_Limit_UI.webm
+  current_asset: ../public/slides/S10d_Memory_Limit_UI.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S14c_Basketball_Analogy
+  module: M04_格式塔原则_大脑的"找规律"强迫症
+  layout: Full
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"相似性原则：用颜色在混乱中切分阵营"'
+  scene_excerpt: 篮球赛场纯净版上帝俯角视角。深色木板球场上完全去除了外围干扰线、观众和裁判，仅保留由 10 名高度抽象化的人物模型。这 10 个角色由于穿着高亮度纯色球衣（5 位纯亮黄色，5 位纯翠绿色），在动态穿插中形成了非常抢眼的颜色分类阵营。
+  search_queries:
+  - 篮球赛场纯净版上帝俯角视角 深色木板球场上完全去除了外围干扰线、观众和裁判 仅保 demonstration
+  target_path: ../public/videos/S14c_Basketball_Analogy.webm
+  current_asset: ../public/slides/s14c_basketball.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S20_Vibe_Demo_Activity
+  module: M05_范式革命_Vibe_Coding_与生成的艺术
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"【大工坊实战揭幕】：用你刚学到的 Vibe Coding 揪出 AI 的视觉谎言"'
+  scene_excerpt: 实战大工坊的沉浸式视觉冲突。一...
+  search_queries:
+  - 实战大工坊的沉浸式视觉冲突 一... demonstration
+  target_path: ../public/videos/S20_Vibe_Demo_Activity.webm
+  current_asset: ../public/slides/S20_Vibe_Demo_Activity.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S07d_Gods_Eye_View
+  module: M02_信息可视化的演进脉络
+  layout: Image
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  entities:
+  - 大明混一图
+  description: '"上帝视角的绝对权力：降维成可控沙盘"'
+  scene_excerpt: 巨大的古人手部复古剪贴画，拿着圆规跨越微缩地形图，结合普鲁士蓝同心圆与黑色张力线。
+  search_queries:
+  - 大明混一图 photo
+  - 大明混一图 real image
+  target_path: ../public/slides/S07d_Gods_Eye_View_real.png
+  current_asset: ../public/slides/S07d_Gods_Eye_View.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''

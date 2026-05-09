@@ -1,0 +1,58 @@
+# W01_practice.yaml — UX 吐槽门诊：可用性逆向分析实战
+# Schema: practice_schema.md v3.0 (ADR 043)
+# 本文件为 IPD 实践层示范，展示新 Schema 的正确格式
+
+week: 1
+title: "UX 吐槽门诊：可用性逆向分析实战"
+experiment_link: []
+total_minutes: 45  # hours_practice=1 → 1×45=45
+
+theory_prerequisites:
+  - "可用性与体验的区别"
+  - "七大可用性目标"
+  - "体验目标框架"
+  - "心智模型与概念模型"
+  - "交互设计五原则（可见性/反馈/约束/一致性/可供性）"
+  - "认知摩擦"
+  - "防御性设计"
+  - "菲茨定律"
+
+phases:
+  - id: P1
+    name: "选品立案：知识激活与锁定劣质体验"
+    minutes: 5
+    type: warmup
+    description: "通过学习通基础知识快测（单选/多选/判断）进行“热身”，随后小组选取一款日常生活中充满认知摩擦的数字产品作为诊断对象。"
+    tools: ["学习通"]
+    materials:
+      - type: quiz
+        title: "W01 交互基础快测 (超星题库)"
+        questions: 15
+        time_limit_sec: 300
+        chaoxing_export: "practices/materials/W01/chaoxing_quiz_w01.txt"
+    deliverables:
+      - "知识快测满分/高分截图 (即时正向反馈)"
+      - "组内确认的目标产品名称与核心功能截图"
+
+  - id: P2
+    name: "UX 门诊诊断与专业术语转化"
+    minutes: 40
+    type: workshop
+    description: "采用结构化的 UX 诊断模式，挖掘产品的致命槽点，要求学生利用专业术语（认知摩擦、可用性目标冲突等）精确诊断深层原因。"
+    tools: ["学习通"]
+    steps:
+      - "挖掘名场面：找出该产品体验最差的 3 个核心功能瞬间"
+      - "感性感知：用日常语言描述不佳的体验痛点"
+      - "专家诊断：将该痛点映射到可用性/体验目标的失效，或识别为故意制造认知摩擦的“防御性设计”"
+    theory_link:
+      - concept_id: "usability_goals"
+        description: "强制要求学生利用七大底线网格定量发泄出的体验痛点"
+      - concept_id: "design_principles_5"
+        description: "要求向下溯源查找导致目标受损的具体交互元器件及认知原则"
+      - concept_id: "defensive_design"
+        description: "在高可用与高体验间做定性博弈与反面洗白的终极定性"
+    deliverables:
+      - "产品槽点学术化诊断报告单"
+      - "带专业标注的界面截图"
+
+  # 无 upstream_dependencies（W01 为首周，无上游依赖）

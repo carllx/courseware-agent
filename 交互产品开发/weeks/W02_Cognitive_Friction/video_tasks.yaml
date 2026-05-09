@@ -1,0 +1,7 @@
+- id: v01
+  url: "https://www.youtube.com/watch?v=bYMHAWAK7hk"
+  start: "00:00:00"
+  end: "00:00:56"
+  name: "M01_Apollo_11_1201_alarm"
+  subtitle_lang: "zh-Hans"
+  skip_subtitle: false

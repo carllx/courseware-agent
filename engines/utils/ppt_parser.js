@@ -6,11 +6,16 @@
  *
  * 修复记录:
  * - 跳过 YAML Frontmatter
- * - 过滤 [TECH NOTE] / [WARNING] / [CASE STUDY] 等知识标签
- * - 过滤 [ACTIVITY] 块
+ * - 过滤 [TECH NOTE] / [WARNING] 等参考型标签
+ * - [ACTIVITY] 块 → 生成 _activity 类型 Slide（含 Type/Duration/Desc 字段）
+ * - 口头型标签（STORY TIME / CASE STUDY 等）→ 生成 _oral_tag 类型 Slide
+ * - 支持行内单行 [ACTIVITY] Type: QA | Duration: 1min | Desc: ... 格式
  * - 过滤 [STAGE NOTE] / [!INFO] 等非演讲内容
  * - 修复 isMetaLine 误吞正文
  * - 新增 Caption / Quote 字段解析
+ * - [TEACHING MOMENT] 分流路由（阶段 1）：
+ *     无标题 → 幕后导演提示，静默丢弃（防止投屏给学生）
+ *     有标题 → 保留为 _oral_tag Slide（教学金句）
  */
 const fs = require('fs');
 
@@ -54,13 +59,21 @@ function parseScript(filePath) {
     let buffer = [];             // Speech buffer
     let lineIdx = 0;
     let lastHeading = '';        // 最近的 ### 标题行（用于 visual.heading）
+    let currentH2 = '';          // 追踪模块上下文
+    let currentH3 = '';          // 追踪断言上下文
+    let currentH4 = '';          // 追踪指令上下文
 
     // 正则定义
     const RE_VISUAL_START = /^>\s*\[VISUAL\]/i;
-    // 口头叙事型标签（ADR 022）：内容写入 Speaker Notes
-    const ORAL_TAGS = new Set(['STORY TIME', 'PHILOSOPHY', 'CASE STUDY', 'LIFE CONNECT', 'DID YOU KNOW', 'TEACHING MOMENT']);
+    // 口头叙事型标签（ADR 022）：生成 _oral_tag Slide + 内容写入 Speaker Notes
+    // 注意：TEACHING MOMENT 已从此集合移除，改为分流路由处理（见下方标签分发逻辑）
+    const ORAL_TAGS = new Set(['STORY TIME', 'PHILOSOPHY', 'CASE STUDY', 'LIFE CONNECT', 'DID YOU KNOW']);
     const RE_TAG_START = /^>\s*\[(TECH NOTE|WARNING|DID YOU KNOW|STORY TIME|PHILOSOPHY|CASE STUDY|LIFE CONNECT|TEACHING MOMENT)[:\]]/i;
+    // 匹配标签行并提取标签名和可选标题（冒号后内容）
+    const RE_TAG_WITH_TITLE = /^>\s*\[([A-Z][A-Z ]+?)(?::\s*(.+?))?\]\s*$/i;
     const RE_ACTIVITY_START = /^>\s*\[ACTIVITY\]/i;
+    // 行内单行 ACTIVITY 格式：> [ACTIVITY] Type: QA | Duration: 1min | Desc: ...
+    const RE_ACTIVITY_INLINE = /^>\s*\[ACTIVITY\]\s+(.+)$/i;
     const RE_STAGE_NOTE = /^>\s*\[STAGE NOTE/i;
     const RE_INFO_BLOCK = /^>\s*\[!INFO\]/i;
     const RE_KEY_VAL = /^>\s*(?:\*\s+)?\*\*([\w][\w ]*\w|\w+)\*\*:\s*(.+)$/; // > **Key**: / > **Asset 1**: 等含空格键名
@@ -85,11 +98,14 @@ function parseScript(filePath) {
         const line = lines[i];
         const trim = line.trim();
 
-        // === 追踪 ### 标题行（用于提取 visual.heading）===
-        const headingMatch = trim.match(/^###\s+(?:\d+\.\d+\s+)?(.+)$/);
-        if (headingMatch) {
-            lastHeading = headingMatch[1].trim();
-        }
+        const h2Match = trim.match(/^##(?!#)\s+(.+)$/);
+        if (h2Match) { currentH2 = h2Match[1].trim(); currentH3 = ''; currentH4 = ''; }
+
+        const h3Match = trim.match(/^###\s+(.+)$/);
+        if (h3Match) { currentH3 = h3Match[1].trim(); lastHeading = currentH3; currentH4 = ''; }
+
+        const h4Match = trim.match(/^####\s+(.+)$/);
+        if (h4Match) { currentH4 = h4Match[1].trim(); }
 
         // === [VISUAL] 块开始 ===
         if (trim.match(RE_VISUAL_START)) {
@@ -98,8 +114,17 @@ function parseScript(filePath) {
                 currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
                 slides.push(currentSlide);
             }
-            // 初始化新 Slide，附加最近的 ### 标题
-            currentSlide = { visual: { heading: lastHeading || '', assets: [] }, speech: "" };
+            // 初始化新 Slide，附加最近的结构地图及标题
+            currentSlide = { 
+                visual: { 
+                    heading: lastHeading || '', 
+                    h2: currentH2,
+                    h3: currentH3,
+                    h4: currentH4,
+                    assets: [] 
+                }, 
+                speech: "" 
+            };
             buffer = [];
             inVisualBlock = true;
             inTagBlock = false;
@@ -110,8 +135,57 @@ function parseScript(filePath) {
             continue;
         }
 
-        // === [ACTIVITY] 块开始 ===
+        // === [ACTIVITY] 块开始 → 生成 _activity Slide ===
+        const activityInlineMatch = trim.match(RE_ACTIVITY_INLINE);
+        if (activityInlineMatch) {
+            // 行内单行 ACTIVITY 格式：> [ACTIVITY] Type: QA | Duration: 1min | Desc: ...
+            if (currentSlide) {
+                currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
+                slides.push(currentSlide);
+            }
+            const fields = parseInlineActivity(activityInlineMatch[1]);
+            currentSlide = {
+                visual: {
+                    layout: '_activity',
+                    heading: lastHeading || '',
+                    h2: currentH2, h3: currentH3, h4: currentH4,
+                    activityType: fields.type || 'Activity',
+                    activityDuration: fields.duration || '',
+                    activityDesc: fields.desc || '',
+                    assets: []
+                },
+                speech: fields.desc || ''
+            };
+            buffer = [];
+            // 行内格式无后续引用行，直接保存并重置
+            slides.push(currentSlide);
+            currentSlide = null;
+            inActivityBlock = false;
+            inVisualBlock = false;
+            inTagBlock = false;
+            inOralTagBlock = false;
+            currentKey = null;
+            continue;
+        }
         if (trim.match(RE_ACTIVITY_START)) {
+            // 多行 ACTIVITY 块：保存当前 Slide → 创建 _activity Slide
+            if (currentSlide) {
+                currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
+                slides.push(currentSlide);
+            }
+            currentSlide = {
+                visual: {
+                    layout: '_activity',
+                    heading: lastHeading || '',
+                    h2: currentH2, h3: currentH3, h4: currentH4,
+                    activityType: '',
+                    activityDuration: '',
+                    activityDesc: '',
+                    assets: []
+                },
+                speech: ''
+            };
+            buffer = [];
             inActivityBlock = true;
             inVisualBlock = false;
             inTagBlock = false;
@@ -124,11 +198,41 @@ function parseScript(filePath) {
         const tagMatch = trim.match(RE_TAG_START);
         if (tagMatch) {
             const tagName = tagMatch[1].toUpperCase();
-            if (ORAL_TAGS.has(tagName)) {
-                // 口头型标签：内容写入 Speech Notes
+
+            // --- TEACHING MOMENT 分流路由（阶段 1）---
+            // 有标题（冒号后有内容）→ 视为口头标签，生成 _oral_tag Slide（教学金句）
+            // 无标题 → 幕后导演提示，静默丢弃（防止投屏事故）
+            let isOralTag = ORAL_TAGS.has(tagName);
+            if (tagName === 'TEACHING MOMENT') {
+                const tmTitleCheck = trim.match(RE_TAG_WITH_TITLE);
+                const tmTitle = tmTitleCheck ? (tmTitleCheck[2] || '').trim() : '';
+                isOralTag = !!tmTitle; // 仅有标题时才升格为口头标签
+            }
+
+            if (isOralTag) {
+                // 口头型标签 → 生成 _oral_tag Slide + 内容写入 Speech Notes
+                // 提取标签标题（冒号后内容）
+                const titleMatch = trim.match(RE_TAG_WITH_TITLE);
+                const tagTitle = titleMatch ? (titleMatch[2] || '').trim() : '';
+                if (currentSlide) {
+                    currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
+                    slides.push(currentSlide);
+                }
+                currentSlide = {
+                    visual: {
+                        layout: '_oral_tag',
+                        tagName: tagName,
+                        tagTitle: tagTitle,
+                        heading: lastHeading || '',
+                        h2: currentH2, h3: currentH3, h4: currentH4,
+                        assets: []
+                    },
+                    speech: ''
+                };
+                buffer = [];
                 inOralTagBlock = true;
             } else {
-                // 参考型标签（TECH NOTE / WARNING）：内容丢弃
+                // 参考型标签（TECH NOTE / WARNING）+ 无标题 TEACHING MOMENT：内容丢弃
                 inTagBlock = true;
             }
             inVisualBlock = false;
@@ -230,17 +334,21 @@ function parseScript(filePath) {
             continue;
         }
 
-        // === 在口头型标签块内（STORY TIME 等）===
+        // === 在口头型标签块内（STORY TIME 等）→ 收集内容到 _oral_tag Slide 的 Notes ===
         if (inOralTagBlock) {
             if (!trim.startsWith('>')) {
-                // 引用块结束
+                // 引用块结束 → 保存 _oral_tag Slide，重置为空 currentSlide 以收集后续正文
                 inOralTagBlock = false;
-                // 当前行可能是 Speech
-                if (currentSlide && !shouldIgnoreLine(trim)) {
-                    buffer.push(line);
+                if (currentSlide && currentSlide.visual.layout === '_oral_tag') {
+                    currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
+                    slides.push(currentSlide);
+                    currentSlide = null;
+                    buffer = [];
                 }
+                // 当前行可能是后续 Speech（会挂到下一个 VISUAL Slide）
+                // 此处不创建新 currentSlide，等待下一个 VISUAL 块
             } else {
-                // 口头型标签内的行写入 Speech Notes
+                // 口头型标签内的行写入当前 _oral_tag Slide 的 Speech Notes
                 if (currentSlide) {
                     const mQuote = line.match(RE_QUOTE_LINE);
                     if (mQuote) {
@@ -254,11 +362,51 @@ function parseScript(filePath) {
             continue;
         }
 
-        // === 在 [ACTIVITY] 或参考型标签块内 ===
-        if (inActivityBlock || inTagBlock) {
+        // === 在 [ACTIVITY] 块内 → 收集字段到 _activity Slide ===
+        if (inActivityBlock) {
+            if (!trim.startsWith('>')) {
+                // 引用块结束 → 保存 _activity Slide
+                inActivityBlock = false;
+                if (currentSlide && currentSlide.visual.layout === '_activity') {
+                    currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
+                    slides.push(currentSlide);
+                    currentSlide = null;
+                    buffer = [];
+                }
+            } else {
+                // 解析 ACTIVITY 块内的 Key-Value 字段
+                if (currentSlide && currentSlide.visual.layout === '_activity') {
+                    const mQuote = line.match(RE_QUOTE_LINE);
+                    if (mQuote) {
+                        let text = mQuote[1].trim();
+                        // 尝试提取 **Key**: Value 格式
+                        const kvMatch = text.match(/^\*\*([\w]+)\*\*:\s*(.+)$/);
+                        if (kvMatch) {
+                            const key = kvMatch[1].toLowerCase();
+                            let val = kvMatch[2].trim();
+                            if (val.startsWith('`') && val.endsWith('`')) val = val.slice(1, -1);
+                            if (key === 'type') currentSlide.visual.activityType = val;
+                            else if (key === 'duration') currentSlide.visual.activityDuration = val;
+                            else if (key === 'desc') currentSlide.visual.activityDesc = val;
+                            // Quiz 子类型专属字段
+                            else if (key === 'q') currentSlide.visual.quizQuestion = val;
+                            else if (key === 'options') currentSlide.visual.quizOptions = val;
+                            else if (key === 'answer') currentSlide.visual.quizAnswer = val;
+                            else if (key === 'explain') currentSlide.visual.quizExplain = val;
+                        } else if (!isMetaLine(text) && !text.match(/^\s*\[[A-Z _!]+\]\s*$/)) {
+                            // 非元数据行 → 写入 speech（活动步骤说明）
+                            buffer.push(text);
+                        }
+                    }
+                }
+            }
+            continue;
+        }
+
+        // === 在参考型标签块内（TECH NOTE / WARNING）===
+        if (inTagBlock) {
             if (!trim.startsWith('>')) {
                 // 引用块结束
-                inActivityBlock = false;
                 inTagBlock = false;
                 // 当前行可能是 Speech
                 if (currentSlide && !shouldIgnoreLine(trim)) {
@@ -338,6 +486,31 @@ function cleanSpeech(text) {
         // 移除多余的空行 (超过2个换行 -> 2个)
         .replace(/\n{3,}/g, '\n\n')
         .trim();
+}
+
+/**
+ * 解析行内单行 ACTIVITY 格式的字段
+ * 输入示例: "Type: QA | Duration: 1min | Desc: 提问互动：..."
+ * @param {string} inlineStr - 行内字段字符串
+ * @returns {{ type: string, duration: string, desc: string }}
+ */
+function parseInlineActivity(inlineStr) {
+    const result = { type: '', duration: '', desc: '' };
+    if (!inlineStr) return result;
+    // 按 | 分隔
+    const parts = inlineStr.split(/\s*\|\s*/);
+    for (const part of parts) {
+        const m = part.match(/^(\w+)\s*[:：]\s*(.+)$/);
+        if (m) {
+            const key = m[1].toLowerCase();
+            let val = m[2].trim();
+            if (val.startsWith('`') && val.endsWith('`')) val = val.slice(1, -1);
+            if (key === 'type') result.type = val;
+            else if (key === 'duration') result.duration = val;
+            else if (key === 'desc') result.desc = val;
+        }
+    }
+    return result;
 }
 
 module.exports = { parseScript, cleanSpeech };

@@ -150,6 +150,12 @@ RE_ACTIVITY_TYPE = _field_re("Type")
 RE_ACTIVITY_DURATION = _field_re("Duration")
 RE_ACTIVITY_DESC = _field_re("Desc", freeform=True)
 
+# Quiz 子类型专属字段（Type: Quiz 时启用）
+RE_QUIZ_Q = _field_re("Q", freeform=True)
+RE_QUIZ_OPTIONS = _field_re("Options", freeform=True)
+RE_QUIZ_ANSWER = _field_re("Answer")
+RE_QUIZ_EXPLAIN = _field_re("Explain", freeform=True)
+
 # VISUAL 块扩展字段：视频时长归因
 RE_VISUAL_DURATION = _field_re("Duration")
 RE_VISUAL_TIME_CAT = _field_re("TimeCategory")
@@ -362,6 +368,25 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                         desc_m = RE_ACTIVITY_DESC.search(il)
                         if desc_m:
                             meta["desc"] = _extract(desc_m, freeform=True)
+                            continue
+                        # Quiz 子类型专属字段提取
+                        qm = RE_QUIZ_Q.search(il)
+                        if qm:
+                            meta["quiz_question"] = _extract(qm, freeform=True)
+                            continue
+                        om = RE_QUIZ_OPTIONS.search(il)
+                        if om:
+                            raw_opts = _extract(om, freeform=True)
+                            # 按 " | " 分隔选项列表
+                            meta["quiz_options"] = [o.strip() for o in raw_opts.split('|') if o.strip()]
+                            continue
+                        am = RE_QUIZ_ANSWER.search(il)
+                        if am:
+                            meta["quiz_answer"] = _extract(am)
+                            continue
+                        em = RE_QUIZ_EXPLAIN.search(il)
+                        if em:
+                            meta["quiz_explain"] = _extract(em, freeform=True)
                             continue
                         filtered_lines.append(il)
 

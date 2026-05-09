@@ -20,9 +20,17 @@ const { renderSlide } = require('./utils/ppt_layouts');
 const courseDir = process.argv[2];
 const scriptRelPath = process.argv[3];
 
+// 解析可选 --brand 参数（如 --brand nfu）
+let brandName = null;
+const brandIdx = process.argv.indexOf('--brand');
+if (brandIdx !== -1 && process.argv[brandIdx + 1]) {
+    brandName = process.argv[brandIdx + 1].toLowerCase();
+}
+
 if (!courseDir || !scriptRelPath) {
-    console.error("❌ 用法: node engines/generate_course_ppt.js <课程目录> <脚本路径>");
+    console.error("❌ 用法: node engines/generate_course_ppt.js <课程目录> <脚本路径> [--brand nfu]");
     console.error("   示例: node engines/generate_course_ppt.js 信息可视化 weeks/W01_Visual_Perception/script.md");
+    console.error("   品牌: node engines/generate_course_ppt.js 交互产品开发 weeks/W01/package.yaml --brand nfu");
     process.exit(1);
 }
 
@@ -161,6 +169,35 @@ if (themePath) {
     theme = defaultTheme();
 }
 
+// 品牌三色覆盖：当 --brand nfu 时，用 NFU 强调色叠加主题 primary/secondary/tertiary
+if (brandName === 'nfu') {
+    const nfuThemePath = path.resolve(CWD, '.agent', 'skills', 'pptx-nfu-branded', 'resources', 'nfu_theme.yaml');
+    if (fs.existsSync(nfuThemePath)) {
+        try {
+            const nfuRaw = yaml.load(fs.readFileSync(nfuThemePath, 'utf-8'));
+            const nfuPalette = nfuRaw?.palette || {};
+            // 映射：accent1(蓝) → primary, accent4(绿) → secondary, accent2(橙) → tertiary
+            const brandOverrides = {
+                primary: nfuPalette.accent1,
+                secondary: nfuPalette.accent4,
+                tertiary: nfuPalette.accent2,
+            };
+            for (const [key, val] of Object.entries(brandOverrides)) {
+                if (val) {
+                    theme.C[key] = val.replace('#', '');
+                }
+            }
+            console.log(`🎨 [Brand] NFU 品牌三色已覆盖 → primary: #${theme.C.primary}, secondary: #${theme.C.secondary}, tertiary: #${theme.C.tertiary}`);
+        } catch (e) {
+            console.warn(`⚠️  NFU 品牌主题加载失败: ${e.message}，保持原有配色`);
+        }
+    } else {
+        console.warn(`⚠️  找不到 NFU 品牌主题: ${path.relative(CWD, nfuThemePath)}`);
+    }
+} else if (brandName) {
+    console.warn(`⚠️  未知品牌 "${brandName}"，当前仅支持 --brand nfu`);
+}
+
 // 4. 解析脚本（使用编译后的路径，对单体脚本透明兼容）
 console.log(`\n📖 解析 ${scriptName}...`);
 const slides = parseScript(actualScriptPath);
@@ -180,8 +217,66 @@ pres.layout = "LAYOUT_16x9";
 pres.author = "Course PPT Generator";
 pres.title = scriptName;
 
+let lastSeenH2 = null;
+let lastSeenH3 = null;
+
 slides.forEach((slide, i) => {
     try {
+        if (slide.visual) {
+            let h2Changed = false;
+            
+            // H2 跳变检测：插入重装模块章封面
+            if (slide.visual.h2) {
+                if (lastSeenH2 !== null && slide.visual.h2 !== lastSeenH2) {
+                    h2Changed = true;
+                    // 生成超大模块过渡页
+                    const trSlide = pres.addSlide();
+                    trSlide.background = { color: theme.C.bg_dark || theme.C.bg_base || '1A1A1A' };
+                    
+                    // 中间巨型模块标
+                    trSlide.addText(slide.visual.h2, {
+                        x: 0.5, y: 2.2, w: 9.0, h: 1.2,
+                        fontSize: 48, fontFace: theme.FONT.title, color: theme.C.text_on_dark || 'FFFFFF',
+                        align: 'center', bold: true, margin: 0,
+                    });
+                }
+                lastSeenH2 = slide.visual.h2;
+            }
+
+            // H3 跳变检测：在未处于刚插入 H2 封面的情况下，插入轻装断言过渡
+            if (slide.visual.h3) {
+                if (lastSeenH3 !== null && slide.visual.h3 !== lastSeenH3) {
+                    if (!h2Changed) {
+                        const trSlide = pres.addSlide();
+                        trSlide.background = { color: theme.C.bg_dark || theme.C.bg_base || '1A1A1A' };
+                        
+                        // 顶部辅助线
+                        trSlide.addShape(pres.shapes.RECTANGLE, {
+                            x: 0, y: 0, w: 10.0, h: 0.08,
+                            fill: { color: theme.C.primary || 'B85042' },
+                        });
+                        
+                        // 模块归属 (H2)
+                        if (slide.visual.h2) {
+                            trSlide.addText(slide.visual.h2, {
+                                x: 0.8, y: 2.0, w: 8.4, h: 0.5,
+                                fontSize: 16, fontFace: theme.FONT.body, color: theme.C.primary_light || theme.C.primary || 'EEAA88',
+                                align: 'left', italic: true
+                            });
+                        }
+                        
+                        // 核心断言 (H3)
+                        trSlide.addText(slide.visual.h3, {
+                            x: 0.8, y: 2.5, w: 8.4, h: 1.5,
+                            fontSize: 34, fontFace: theme.FONT.title, color: theme.C.text_on_dark || 'FFFFFF',
+                            align: 'left', bold: true, margin: 0,
+                        });
+                    }
+                }
+                lastSeenH3 = slide.visual.h3;
+            }
+        }
+
         renderSlide(pres, slide, theme, scriptDir);
     } catch (err) {
         console.error(`❌ 渲染 Slide ${i + 1} 失败 (${slide.visual.layout}):`, err.message);
@@ -193,14 +288,75 @@ slides.forEach((slide, i) => {
     }
 });
 
-// 6. 保存
-const outputDir = path.resolve(coursePath, 'build', 'presentations');
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-const outputPath = path.resolve(outputDir, `${scriptName}_Presentation_Gen.pptx`);
+// 6. 保存 — 统一命名规范: <课程>_<周次>_<产物类型>.pptx
+// 从 scriptDir 推导 weekId（取 package.yaml 所在目录名）
+const weekDirName = path.basename(scriptDir);
+// 判断该目录名是否匹配 weeks/WXX_xxx 模式
+const weekMatch = weekDirName.match(/^(W\d+)_(.+)$/);
+const weekId = weekMatch ? weekDirName : scriptName; // fallback 到旧命名
 
-pres.writeFile({ fileName: outputPath })
+// 统一输出目录: build/artifacts/<weekId>/
+const artifactsDir = path.resolve(coursePath, 'build', 'artifacts', weekId);
+const intermediateDir = path.resolve(coursePath, 'build', 'artifacts', '_intermediate');
+if (!fs.existsSync(artifactsDir)) fs.mkdirSync(artifactsDir, { recursive: true });
+if (!fs.existsSync(intermediateDir)) fs.mkdirSync(intermediateDir, { recursive: true });
+
+// 旧版 build/presentations/ 同时保留（向后兼容）
+const legacyDir = path.resolve(coursePath, 'build', 'presentations');
+if (!fs.existsSync(legacyDir)) fs.mkdirSync(legacyDir, { recursive: true });
+
+// 裸 PPT 按统一命名写入 _intermediate/
+const rawFileName = `${courseDir}_${weekId}_Presentation.pptx`;
+const rawOutputPath = path.resolve(intermediateDir, rawFileName);
+
+pres.writeFile({ fileName: rawOutputPath })
     .then(() => {
-        console.log(`\n🎉 保存成功: ${path.relative(CWD, outputPath)}`);
+        console.log(`\n🎉 裸 PPT 保存成功: ${path.relative(CWD, rawOutputPath)}`);
         console.log(`   Slide 数: ${slides.length}`);
+
+        // 自动调用 NFU 品牌注入管线
+        const brandedFileName = `${courseDir}_${weekId}_Branded.pptx`;
+        const brandedOutputPath = path.resolve(artifactsDir, brandedFileName);
+        const courseYamlPath = path.resolve(coursePath, 'course.yaml');
+        const injectScript = path.resolve(CWD, '.agent', 'skills', 'pptx-nfu-branded', 'scripts', 'inject_branding.py');
+        const pythonBin = '/opt/anaconda3/envs/mybase/bin/python';
+
+        // 推导周次编号（从目录名提取 W01 之类的数字部分）
+        const weekNum = weekMatch ? weekMatch[1].replace('W0', '').replace('W', '') : null;
+
+        if (fs.existsSync(injectScript) && fs.existsSync(courseYamlPath)) {
+            console.log(`\n🏫 [NFU] 自动注入品牌封装...`);
+            const brandCmd = [
+                pythonBin, `"${injectScript}"`,
+                `--input "${rawOutputPath}"`,
+                `--output "${brandedOutputPath}"`,
+                `--course-yaml "${courseYamlPath}"`,
+            ];
+            if (weekNum) brandCmd.push(`--week ${weekNum}`);
+
+            try {
+                execSync(brandCmd.join(' '), { stdio: 'inherit', cwd: CWD });
+                console.log(`\n✅ 品牌成品: ${path.relative(CWD, brandedOutputPath)}`);
+
+                // 同时在旧版目录放一份符号链接（向后兼容）
+                const legacyLink = path.resolve(legacyDir, brandedFileName);
+                try {
+                    if (fs.existsSync(legacyLink)) fs.unlinkSync(legacyLink);
+                    fs.copyFileSync(brandedOutputPath, legacyLink);
+                } catch (e) {
+                    // 符号链接失败不影响主流程
+                }
+            } catch (e) {
+                console.warn(`⚠️  品牌注入失败: ${e.message}`);
+                console.warn(`   裸 PPT 仍可使用: ${path.relative(CWD, rawOutputPath)}`);
+                // 将裸 PPT 复制到 artifacts 作为降级产物
+                fs.copyFileSync(rawOutputPath, path.resolve(artifactsDir, rawFileName));
+            }
+        } else {
+            console.log(`\nℹ️  未找到 NFU 品牌注入脚本或 course.yaml，跳过品牌封装`);
+            console.log(`   裸 PPT 已保存: ${path.relative(CWD, rawOutputPath)}`);
+            // 将裸 PPT 也复制到 artifacts 目录
+            fs.copyFileSync(rawOutputPath, path.resolve(artifactsDir, rawFileName));
+        }
     })
     .catch(err => console.error("❌ 保存失败:", err));

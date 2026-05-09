@@ -1,0 +1,43 @@
+# 交互产品开发课程 — Real-Asset Scanner 专属词典
+# 用于 Gazetteer 层精确匹配，优先级高于通用结构模式
+
+brands:
+  - Apple USB Mouse
+  - TiVo
+  - Xbox Adaptive Controller
+  - Xbox 自适应控制器
+  - GRiD Compass
+  - iMac G3
+  - iPod
+  - Tesla Model 3
+  - Tesla Model S
+  - Boeing 737 MAX
+  - SAP ERP
+  - SAP S/4HANA
+  - Spotify
+  - Instagram
+  - Dropbox
+  - Zappos
+  - About Face
+  - Interaction Design
+  - Lean UX
+  - DEC VT100
+
+persons:
+  - Don Norman
+  - Alan Cooper
+  - Douglas Engelbart
+  - Bill Moggridge
+  - Bill Verplank
+  - Yvonne Rogers
+  - Harry Brignull
+  - Drew Houston
+  - Nick Swinmurn
+  - 张小龙
+  - 新乡重夫
+
+products:
+  - Therac-25
+  - DEC VT100
+  - GRiD Compass
+  - Xbox Adaptive Controller

@@ -3,13 +3,15 @@
 extract_week.py — 从 course.yaml 运行时提取指定周的教学信息
 
 用法:
-    python extract_week.py --week N [--section calendar|objectives|all]
+    python extract_week.py --week N [--section calendar|objectives|experiments|practice-context|all]
+    python extract_week.py --week N --include-concepts
 
 输出到 stdout，供 Agent 工作流按需加载，替代全量加载 51KB course.yaml。
-ADR-021 Phase 1 实施工件。
+ADR-021 Phase 1 实施工件。ADR-043 扩展 experiments / practice-context / concepts。
 """
 
 import argparse
+import os
 import sys
 import yaml
 
@@ -75,6 +77,27 @@ def extract_course_meta(data):
     }
 
 
+def extract_experiments(data, exp_ids=None):
+    """提取实验定义子集。若 exp_ids 为 None 则返回全部实验。"""
+    experiments = data.get("experiments", [])
+    if exp_ids is None:
+        return experiments
+    return [e for e in experiments if e.get("id") in exp_ids]
+
+
+def load_concepts(course_dir, concept_ids=None):
+    """从 concept_registry.yaml 加载概念注册表（可选过滤）。"""
+    registry_path = os.path.join(course_dir, "concept_registry.yaml")
+    if not os.path.exists(registry_path):
+        return None
+    with open(registry_path, "r", encoding="utf-8") as f:
+        reg = yaml.safe_load(f)
+    concepts = reg.get("concepts", [])
+    if concept_ids is None:
+        return concepts
+    return [c for c in concepts if c.get("id") in concept_ids]
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="从 course.yaml 提取指定周的教学信息"
@@ -85,12 +108,16 @@ def main():
     )
     parser.add_argument(
         "--section", "-s", type=str, default="all",
-        choices=["calendar", "objectives", "all"],
+        choices=["calendar", "objectives", "experiments", "practice-context", "all"],
         help="提取的内容段（默认: all）"
     )
     parser.add_argument(
         "--path", "-p", type=str, default="course.yaml",
         help="course.yaml 文件路径（默认: 当前目录下的 course.yaml）"
+    )
+    parser.add_argument(
+        "--include-concepts", action="store_true",
+        help="追加 concept_registry.yaml 中的概念子集"
     )
     args = parser.parse_args()
 
@@ -104,25 +131,57 @@ def main():
         print(f"错误: YAML 解析失败 — {e}", file=sys.stderr)
         sys.exit(1)
 
-    # 提取 calendar
-    cal = extract_calendar(data, args.week)
-    if cal is None:
-        print(f"错误: 未找到第 {args.week} 周的 calendar 条目", file=sys.stderr)
-        sys.exit(1)
+    # 提取 calendar（除纯 experiments 模式外均需要）
+    cal = None
+    if args.section != "experiments":
+        cal = extract_calendar(data, args.week)
+        if cal is None:
+            print(f"错误: 未找到第 {args.week} 周的 calendar 条目", file=sys.stderr)
+            sys.exit(1)
 
     output = {}
+    course_dir = os.path.dirname(os.path.abspath(args.path))
 
-    if args.section in ("calendar", "all"):
+    if args.section == "experiments":
+        # 纯实验提取模式
+        output["experiments"] = extract_experiments(data)
+
+    elif args.section == "practice-context":
+        # 一站式实践设计上下文
         output["calendar"] = cal
-
-    if args.section in ("objectives", "all"):
         supported = cal.get("supported_objectives", [])
         obj = extract_objectives(data, supported)
         if obj:
             output["objectives"] = obj
-
-    if args.section == "all":
+        # 提取关联实验
+        exp_id = cal.get("exp_id")
+        if exp_id:
+            output["experiments"] = extract_experiments(data, [exp_id])
         output["course_meta"] = extract_course_meta(data)
+        # 自动包含 concepts
+        concepts = load_concepts(course_dir)
+        if concepts:
+            output["concepts"] = concepts
+
+    else:
+        # 原有逻辑
+        if args.section in ("calendar", "all"):
+            output["calendar"] = cal
+
+        if args.section in ("objectives", "all"):
+            supported = cal.get("supported_objectives", [])
+            obj = extract_objectives(data, supported)
+            if obj:
+                output["objectives"] = obj
+
+        if args.section == "all":
+            output["course_meta"] = extract_course_meta(data)
+
+    # 可选追加 concepts
+    if args.include_concepts and "concepts" not in output:
+        concepts = load_concepts(course_dir)
+        if concepts:
+            output["concepts"] = concepts
 
     # 输出 YAML
     yaml.dump(

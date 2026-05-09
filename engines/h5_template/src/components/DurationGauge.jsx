@@ -9,45 +9,54 @@ import '../styles/craft-room.css'
 export default function DurationGauge({ section }) {
   if (!section) return null
 
-  const minutes = section.estimatedMinutes
+  const minutes = section.estimatedMinutes || 0
+  const actMinutes = section.activityMinutes || 0
   const fillRatio = section.fillRatio
   const budget = section.budgetChars
 
-  // 无口述内容的模块（如纯活动模块）不显示
-  if (minutes == null || minutes === 0) return null
+  // 无口述且无实践内容的模块不显示
+  if (minutes === 0 && actMinutes === 0) return null
 
-  // 有 budget 时根据填充率决定展示方式
+  let overloadClass = ''
+  let statusClass = 'healthy'
+  let hint = '进度健康'
+
+  // 防倦怠预警：如果连续讲述超过 15 分钟且该模块没有插入任何实践互动
+  if (minutes > 15 && actMinutes === 0) {
+    overloadClass = ' overload-alert'
+    hint = '单口讲述过长，建议插入 ACTIVITY'
+  }
+
+  // 有 budget 时根据填充率决定基底展示方式
   if (budget && budget > 0 && fillRatio != null) {
     const percent = Math.min(Math.round(fillRatio * 100), 150)
     
-    // 基于极简原则的三态隐喻计算
+    // 基于极简原则的推断
     const isUnderBudget = fillRatio < 0.8
     const isOverBudget = fillRatio > 1.2
     
-    let statusClass = 'healthy'
-    let hint = '进度健康'
     if (isUnderBudget) {
       statusClass = 'under-budget'
-      hint = '内容单薄，请补充案例或讨论'
+      hint = hint === '进度健康' ? '内容单薄，请补充案例或讨论' : hint
     } else if (isOverBudget) {
       statusClass = 'over-budget'
-      hint = '信息过载，建议精简描述'
+      hint = hint === '进度健康' ? '信息过载，建议精简描述' : hint
     }
 
     return (
       <span
-        className={`gauge-capsule ${statusClass}`}
+        className={`gauge-capsule ${statusClass}${overloadClass}`}
         title={`口述 ${section.oralCharCount} 字 / 预算 ${budget} 字 (${percent}%)\n💡 建议: ${hint}`}
       >
-        {minutes}m
+        🗣️ {minutes}m {actMinutes > 0 ? `| 🛠️ ${actMinutes}m` : ''}
       </span>
     )
   }
 
-  // 无 budget 时仅显示时长，归类为 healthy
+  // 无 budget 时
   return (
-    <span className="gauge-capsule healthy" title={`口述 ${section.oralCharCount} 字 (无硬性预算)`}>
-      {minutes}m
+    <span className={`gauge-capsule healthy${overloadClass}`} title={`口述 ${section.oralCharCount} 字 (无硬性预算)\n💡 建议: ${hint}`}>
+      🗣️ {minutes}m {actMinutes > 0 ? `| 🛠️ ${actMinutes}m` : ''}
     </span>
   )
 }

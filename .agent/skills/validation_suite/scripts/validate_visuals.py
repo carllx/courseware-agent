@@ -187,7 +187,7 @@ def main():
                             candidate = os.path.join(wdir, stripped)
                             if os.path.exists(candidate):
                                 matched.append({**ref, "matched_file": asset_path})
-                                referenced_files.add(asset_path)
+                                referenced_files.add(stripped)
                                 found_in_weeks = True
                                 break
                     if found_in_weeks:

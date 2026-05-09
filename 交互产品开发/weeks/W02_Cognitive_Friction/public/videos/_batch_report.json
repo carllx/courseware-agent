@@ -1,0 +1,18 @@
+[
+  {
+    "id": "v01",
+    "name": "M04_Xerox_Star_Desktop",
+    "status": "success",
+    "has_subtitle": false,
+    "mp4": {
+      "path": "../public/videos/M04_Xerox_Star_Desktop.mp4",
+      "size_mb": 11.2,
+      "duration": "2m42s"
+    },
+    "webm": {
+      "path": "../public/videos/M04_Xerox_Star_Desktop.webm",
+      "size_mb": 6.0,
+      "duration": "2m42s"
+    }
+  }
+]

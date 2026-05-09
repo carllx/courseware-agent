@@ -1,0 +1,18 @@
+[
+  {
+    "id": "v01",
+    "name": "S11c_Dear_Data_Project",
+    "status": "success",
+    "has_subtitle": true,
+    "mp4": {
+      "path": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W01_Visual_Perception/public/videos/S11c_Dear_Data_Project.mp4",
+      "size_mb": 41.2,
+      "duration": "3m18s"
+    },
+    "webm": {
+      "path": "/Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W01_Visual_Perception/public/videos/S11c_Dear_Data_Project.webm",
+      "size_mb": 23.0,
+      "duration": "3m18s"
+    }
+  }
+]

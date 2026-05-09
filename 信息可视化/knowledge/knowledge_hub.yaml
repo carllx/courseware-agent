@@ -5,4 +5,502 @@ meta:
   textbook_dir: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner
     -- 2014
 entries:
- [{"id": "ch01-why-vis", "type": "textbook", "tags": ["visualization", "overview", "why-vis", "tasks", "effectiveness"], "summary": "可视化的本质：放大人类认知；何时用可视化；有效性前提", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_05_Chapter_1.md"}, {"id": "ch02-data-abstraction", "type": "textbook", "tags": ["data-types", "dataset-types", "tables", "networks", "fields", "attributes"], "summary": "数据抽象：数据类型（分类/有序/量化）、数据集类型（表/网络/字段/几何）", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_06_Chapter_2.md"}, {"id": "ch03-task-abstraction", "type": "textbook", "tags": ["task-abstraction", "analyze", "search", "query", "why-what-how"], "summary": "任务抽象：Why-What-How 框架；分析/搜索/查询三类任务级别", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_07_Chapter_3.md"}, {"id": "ch04-validation", "type": "textbook", "tags": ["validation", "four-levels", "design", "nested-model"], "summary": "嵌套模型：四层设计验证（领域/抽象/编码/算法）；威胁与对策", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_08_Chapter_4.md"}, {"id": "ch05-marks-channels", "type": "textbook", "tags": ["marks", "channels", "visual-encoding", "expressiveness", "effectiveness", "ranking"], "summary": "视觉编码核心：标记（点/线/面）与通道（位置/颜色/尺寸/形状）；通道有效性排序", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_09_Chapter_5.md"}, {"id": "ch06-rules-encoding", "type": "textbook", "tags": ["color", "motion", "size", "texture", "visual-rule"], "summary": "编码规则：颜色感知（色相/明度/饱和度）、运动、尺寸与纹理的设计规则", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_10_Chapter_6.md"}, {"id": "ch07-arrange-tables", "type": "textbook", "tags": ["arrange", "tables", "bar-chart", "scatterplot", "heatmap", "axis"], "summary": "表数据编排：条形图/散点图/热图/平行坐标等；轴设计与多属性编排", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_11_Chapter_7.md"}, {"id": "ch08-spatial-data", "type": "textbook", "tags": ["spatial", "geographic", "choropleth", "field", "vector", "isocontour"], "summary": "空间数据：地理数据/等值线/标量场/向量场的可视化策略", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_12_Chapter_8.md"}, {"id": "ch09-networks-trees", "type": "textbook", "tags": ["network", "tree", "force-directed", "treemap", "node-link", "matrix"], "summary": "网络与树：力导图/邻接矩阵/树图/GrouseFlocks；连接 vs 矩阵视图的权衡", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_13_Chapter_9.md"}, {"id": "ch10-map-color", "type": "textbook", "tags": ["color-map", "sequential", "diverging", "categorical", "perceptual"], "summary": "颜色映射：顺序/发散/分类色阶；感知均匀性与色觉无障碍设计", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_17_Chapter_13.md"}, {"id": "ch11-manipulate", "type": "textbook", "tags": ["interaction", "zoom", "filter", "brush", "overview-detail", "focus-context"], "summary": "交互操作：缩放/过滤/刷选/概览+细节/焦点+上下文的设计模式", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_14_Chapter_10.md"}, {"id": "ch12-facets", "type": "textbook", "tags": ["facet", "small-multiples", "juxtapose", "superimpose", "partition"], "summary": "多视图协调：小倍数/并置/叠加/分区的使用场景与信息组织策略", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_15_Chapter_11.md"}, {"id": "ch13-reduce", "type": "textbook", "tags": ["aggregation", "filter", "sampling", "dimension-reduction", "derived-attributes"], "summary": "数据简化：聚合/筛选/采样/降维/派生属性；处理大规模数据的策略", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_16_Chapter_12.md"}, {"id": "dma-artistic-expression", "type": "textbook", "tags": ["artistic-expression", "narrative", "emotion", "dma", "vibe-coding"], "summary": "区域地图与事件的艺术表达：推理逻辑信息、电影线索与数字媒体人文叙事", "source": "knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_06_第五章.md"}, {"id": "hao-ch1-history-theory", "type": "textbook", "tags": ["history", "info-design", "data-art", "dma", "visual-metaphor"], "summary": "信息可视化发展史：从壁画到大数据的视觉隐喻；信息设计的核心价值", "source": "knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_02_第一章.md"}, {"id": "hao-ch2-design-principles", "type": "textbook", "tags": ["design-principles", "aesthetics", "data-ink", "visual-hierarchy", "dma"], "summary": "信息设计原则：视觉美学、数据墨水比、层级构建与读者认知负荷控制", "source": "knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_03_第二章.md"}, {"id": "hao-ch3-chart-types", "type": "textbook", "tags": ["chart-types", "time-metaphor", "spatial-metaphor", "graph-selection"], "summary": "图表类型与时空隐喻：各类图表的适用场景、类型选择决策树", "source": "knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_04_第三章.md"}, {"id": "hao-ch4-masterworks", "type": "textbook", "tags": ["case-study", "masterwork", "information-design", "data-analysis"], "summary": "大师作品解析：信息可视化经典案例的设计逻辑与视觉策略拆解", "source": "knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_05_第四章.md"}, {"id": "hao-ch6-social-projects", "type": "textbook", "tags": ["social-focus", "integrated-design", "case-study", "data-journalism", "dma"], "summary": "社会焦点整合信息设计：公共议题数据叙事、多源信息融合展示策略", "source": "knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_07_第六章.md"}, {"id": "ch14-temporal-data", "type": "textbook", "tags": ["temporal", "time-series", "animation", "change", "trend"], "summary": "时序数据可视化：时间线/动画/变化追踪；趋势与变化率的编码策略", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_18_Chapter_14.md"}, {"id": "ch15-vis-in-practice", "type": "textbook", "tags": ["case-study", "practice", "guidelines", "design-process", "iteration"], "summary": "可视化实践指南：设计流程、迭代方法论、真实项目案例与常见陷阱", "source": "knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner -- 2014/chapter_19_Chapter_15.md"}, {"id": "vis-cognitive-amplifier", "type": "note", "tags": ["visual-cognition", "pre-attentive", "external-representation", "change-blindness"], "summary": "可视化=认知外接显卡；视觉弹出/前注意处理/外部表征放大；反面：变化盲视与信息密度困境", "source": "knowledge/notes/vis-cognitive-amplifier.md"}, {"id": "anscombe-quartet-show-data", "type": "note", "tags": ["anscombe", "statistical-summary", "show-data", "exploratory"], "summary": "安斯库姆四重奏：相同统计量不同结构；Datasaurus Dozen 延伸；为何必须先看图", "source": "knowledge/notes/anscombe-quartet-show-data.md"}, {"id": "gestalt-principles-vis", "type": "note", "tags": ["gestalt", "proximity", "similarity", "closure", "perception"], "summary": "格式塔七原则在可视化中的映射：靠近/相似/连续/闭合/主体背景/对称/共同命运", "source": "knowledge/notes/gestalt-principles-vis.md"}, {"id": "vibe-coding-paradigm", "type": "note", "tags": ["vibe-coding", "natural-language", "LLM", "karpathy", "software-3"], "summary": "Karpathy 2025 Vibe Coding：自然语言即接口/角色转变/先生成后精修；风险：代码质量不可控", "source": "knowledge/notes/vibe-coding-paradigm.md"}, {"id": "marks-channels-effectiveness", "type": "note", "tags": ["marks", "channels", "expressiveness", "effectiveness", "ranking"], "summary": "标记(点/线/面)与通道(位置/颜色/大小)效能排序；表达性+有效性原则；图表=时空隐喻选择", "source": "knowledge/notes/marks-channels-effectiveness.md"}, {"id": "channel-accuracy-separability", "type": "note", "tags": ["Stevens-power-law", "discriminability", "separability", "popout", "Weber-law"], "summary": "Stevens幂定律(长度n=1/面积压缩/饱和放大)；通道可分离性陷阱；弹出仅限单通道", "source": "knowledge/notes/channel-accuracy-separability.md"}, {"id": "data-ink-ratio-anti-patterns", "type": "note", "tags": ["data-ink-ratio", "Tufte", "no-3D", "occlusion", "function-first"], "summary": "Tufte数据墨水比+Munzner八大法则；3D五宗罪(遮挡/透视/深度)；DMA设计陷阱", "source": "knowledge/notes/data-ink-ratio-anti-patterns.md"}, {"id": "data-abstraction-taxonomy", "type": "note", "tags": ["data-types", "dataset-types", "attribute-types", "key-value", "semantics"], "summary": "Munzner数据抽象三层(数据类型/集类型/属性类型)；Key-Value语义；邮编≠数量反面", "source": "knowledge/notes/data-abstraction-taxonomy.md"}, {"id": "task-abstraction-framework", "type": "note", "tags": ["task-abstraction", "analyze", "search", "query", "derive", "why-what-how"], "summary": "三层行为框架(Analyze-Search-Query)；Derive战略价值；贸易平衡/Strahler数案例", "source": "knowledge/notes/task-abstraction-framework.md"}, {"id": "tidy-data-ai-workflow", "type": "note", "tags": ["tidy-data", "Wickham", "wide-long", "data-cleaning", "AI-prompt", "derive"], "summary": "Wickham三原则(变量列/观测行/单元表)；五种脏数据；AI Prompt三要素+迭代清洗", "source": "knowledge/notes/tidy-data-ai-workflow.md"}, {"id": "echarts-declarative-arch", "type": "note", "tags": ["ECharts", "declarative", "option-object", "series-type", "dataZoom", "vibe-coding"], "summary": "ECharts声明式Option对象；Series类型决定图表形态；交互组件无需编码；反面：像素级控制不可能", "source": "knowledge/notes/echarts-declarative-arch.md"}, {"id": "d3-bindscale-binddata", "type": "note", "tags": ["D3", "SVG", "scale", "domain-range", "enter-update-exit", "margin-convention"], "summary": "SVG左上原点(0,0)坐标反转；Scale的domain→range映射；Enter-Update-Exit三态；Margin惯例", "source": "knowledge/notes/d3-bindscale-binddata.md"}, {"id": "ai-code-debug-strategy", "type": "note", "tags": ["AI-debug", "console-copy", "MRE", "structured-prompt", "vibe-coding", "D3-debug"], "summary": "三层排错漏斗(Console复制→上下文定位→MRE最小复现)；D3/ECharts检查清单；迭代修正Prompt策略", "source": "knowledge/notes/ai-code-debug-strategy.md"}, {"id": "force-directed-artistic", "type": "note", "tags": ["force-directed", "generative-art", "network", "emotional-metaphor", "D3"], "summary": "力导向物理模型(向心/排斥/弹簧/碰撞)；生成艺术的情绪隐喻；防范发散与无意义聚类", "source": "knowledge/notes/force-directed-artistic.md"}, {"id": "choropleth-spatial-encoding", "type": "note", "tags": ["spatial-data", "choropleth", "isocontours", "area-bias", "cartogram"], "summary": "空间位置编码优先；等值区域图的面积偏见缺陷；等值线图；变形地图与粒子流体场艺术", "source": "knowledge/notes/choropleth-spatial-encoding.md"}, {"id": "network-matrix-tradeoff", "type": "note", "tags": ["node-link", "adjacency-matrix", "hairball", "topology", "dense-network"], "summary": "连接线vs矩阵面积；节点-链接的直观性与Hairball遮挡灾难；矩阵视图的扩张性与陌生感", "source": "knowledge/notes/network-matrix-tradeoff.md"}, {"id": "interaction-manipulate-taxonomy", "type": "note", "tags": ["interaction", "manipulate", "select", "navigate", "animated-transition", "semantic-zoom"], "summary": "Munzner Ch11三大操作族(Change/Select/Navigate)；动画过渡vs跳切；语义缩放；约束导航", "source": "knowledge/notes/interaction-manipulate-taxonomy.md"}, {"id": "scrollytelling-gsap-arch", "type": "note", "tags": ["scrollytelling", "GSAP", "ScrollTrigger", "pin", "scrub", "data-journalism"], "summary": "三层架构(叙事/触发/渲染)；四模式(Pinned/Trigger/Steps/Continuous)；ScrollTrigger核心API", "source": "knowledge/notes/scrollytelling-gsap-arch.md"}, {"id": "motion-storyboard-method", "type": "note", "tags": ["storyboard", "motion-design", "data-storytelling", "animation", "DMA", "film-analogy"], "summary": "动效分镜三维拆解(时间/画面/技术)；电影类比(剧本→运镜→剪辑)；AI Prompt分镜模板", "source": "knowledge/notes/motion-storyboard-method.md"}, {"id": "nested-model-validation", "type": "note", "tags": ["nested-model", "four-levels", "validation", "threats", "domain-situation", "design-study"], "summary": "嵌套模型四层验证(领域/抽象/编码/算法)；级联失败原则；One Pager防御检查表；跳层陷阱反面", "source": "knowledge/notes/nested-model-validation.md"}, {"id": "social-issue-data-research", "type": "note", "tags": ["social-focus", "data-research", "open-data", "AI-preprocess", "critique", "dma"], "summary": "社会议题选题三原则；公开数据平台清单；AI数据预处理三阶段；自然语言分层策略；Critique互评", "source": "knowledge/notes/social-issue-data-research.md"}, {"id": "static-deploy-workflow", "type": "note", "tags": ["deployment", "GitHub-Pages", "Vercel", "static-site", "CI-CD"], "summary": "GitHub Pages/Vercel零成本部署；静态vs动态；路径陷阱清单；部署=作品存在的前提", "source": "knowledge/notes/static-deploy-workflow.md"}, {"id": "critique-review-method", "type": "note", "tags": ["critique", "peer-review", "Liz-Lerman", "design-review", "best-prompt"], "summary": "Liz Lerman四步评审法；五维评价框架(数据故事/抽象/编码/交互/封装)；Best Prompt分享", "source": "knowledge/notes/critique-review-method.md"}, {"id": "aesthetic-wrapper-css", "type": "note", "tags": ["CSS", "glassmorphism", "typography", "micro-animation", "visual-polish"], "summary": "三层封装(排版骨架/视觉氛围/动效)；Glassmorphism；封装反模式；AI Prompt封装策略", "source": "knowledge/notes/aesthetic-wrapper-css.md"}, {"id": "film-as-data-cinematic-visualization", "type": "note", "tags": ["movie-barcode", "KALMUS", "cinemetrics", "cultural-analytics", "FFmpeg", "film-data", "spectrogram", "DMA"], "summary": "电影逐帧色彩/音频的可视化；KALMUS(JOSS 2021)/Cinemetrics/Manovich直接可视化；技术路径与Vibe适配", "source": "knowledge/notes/film-as-data-cinematic-visualization.md"}]
+- id: ch01-why-vis
+  type: textbook
+  tags:
+  - visualization
+  - overview
+  - why-vis
+  - tasks
+  - effectiveness
+  summary: 可视化的本质：放大人类认知；何时用可视化；有效性前提
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_05_Chapter_1.md
+- id: ch02-data-abstraction
+  type: textbook
+  tags:
+  - data-types
+  - dataset-types
+  - tables
+  - networks
+  - fields
+  - attributes
+  summary: 数据抽象：数据类型（分类/有序/量化）、数据集类型（表/网络/字段/几何）
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_06_Chapter_2.md
+- id: ch03-task-abstraction
+  type: textbook
+  tags:
+  - task-abstraction
+  - analyze
+  - search
+  - query
+  - why-what-how
+  summary: 任务抽象：Why-What-How 框架；分析/搜索/查询三类任务级别
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_07_Chapter_3.md
+- id: ch04-validation
+  type: textbook
+  tags:
+  - validation
+  - four-levels
+  - design
+  - nested-model
+  summary: 嵌套模型：四层设计验证（领域/抽象/编码/算法）；威胁与对策
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_08_Chapter_4.md
+- id: ch05-marks-channels
+  type: textbook
+  tags:
+  - marks
+  - channels
+  - visual-encoding
+  - expressiveness
+  - effectiveness
+  - ranking
+  summary: 视觉编码核心：标记（点/线/面）与通道（位置/颜色/尺寸/形状）；通道有效性排序
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_09_Chapter_5.md
+- id: ch06-rules-encoding
+  type: textbook
+  tags:
+  - color
+  - motion
+  - size
+  - texture
+  - visual-rule
+  summary: 编码规则：颜色感知（色相/明度/饱和度）、运动、尺寸与纹理的设计规则
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_10_Chapter_6.md
+- id: ch07-arrange-tables
+  type: textbook
+  tags:
+  - arrange
+  - tables
+  - bar-chart
+  - scatterplot
+  - heatmap
+  - axis
+  summary: 表数据编排：条形图/散点图/热图/平行坐标等；轴设计与多属性编排
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_11_Chapter_7.md
+- id: ch08-spatial-data
+  type: textbook
+  tags:
+  - spatial
+  - geographic
+  - choropleth
+  - field
+  - vector
+  - isocontour
+  summary: 空间数据：地理数据/等值线/标量场/向量场的可视化策略
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_12_Chapter_8.md
+- id: ch09-networks-trees
+  type: textbook
+  tags:
+  - network
+  - tree
+  - force-directed
+  - treemap
+  - node-link
+  - matrix
+  summary: 网络与树：力导图/邻接矩阵/树图/GrouseFlocks；连接 vs 矩阵视图的权衡
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_13_Chapter_9.md
+- id: ch10-map-color
+  type: textbook
+  tags:
+  - color-map
+  - sequential
+  - diverging
+  - categorical
+  - perceptual
+  summary: 颜色映射：顺序/发散/分类色阶；感知均匀性与色觉无障碍设计
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_17_Chapter_13.md
+- id: ch11-manipulate
+  type: textbook
+  tags:
+  - interaction
+  - zoom
+  - filter
+  - brush
+  - overview-detail
+  - focus-context
+  summary: 交互操作：缩放/过滤/刷选/概览+细节/焦点+上下文的设计模式
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_14_Chapter_10.md
+- id: ch12-facets
+  type: textbook
+  tags:
+  - facet
+  - small-multiples
+  - juxtapose
+  - superimpose
+  - partition
+  summary: 多视图协调：小倍数/并置/叠加/分区的使用场景与信息组织策略
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_15_Chapter_11.md
+- id: ch13-reduce
+  type: textbook
+  tags:
+  - aggregation
+  - filter
+  - sampling
+  - dimension-reduction
+  - derived-attributes
+  summary: 数据简化：聚合/筛选/采样/降维/派生属性；处理大规模数据的策略
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_16_Chapter_12.md
+- id: dma-artistic-expression
+  type: textbook
+  tags:
+  - artistic-expression
+  - narrative
+  - emotion
+  - dma
+  - vibe-coding
+  summary: 区域地图与事件的艺术表达：推理逻辑信息、电影线索与数字媒体人文叙事
+  source: knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_06_第五章.md
+- id: hao-ch1-history-theory
+  type: textbook
+  tags:
+  - history
+  - info-design
+  - data-art
+  - dma
+  - visual-metaphor
+  summary: 信息可视化发展史：从壁画到大数据的视觉隐喻；信息设计的核心价值
+  source: knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_02_第一章.md
+- id: hao-ch2-design-principles
+  type: textbook
+  tags:
+  - design-principles
+  - aesthetics
+  - data-ink
+  - visual-hierarchy
+  - dma
+  summary: 信息设计原则：视觉美学、数据墨水比、层级构建与读者认知负荷控制
+  source: knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_03_第二章.md
+- id: hao-ch3-chart-types
+  type: textbook
+  tags:
+  - chart-types
+  - time-metaphor
+  - spatial-metaphor
+  - graph-selection
+  summary: 图表类型与时空隐喻：各类图表的适用场景、类型选择决策树
+  source: knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_04_第三章.md
+- id: hao-ch4-masterworks
+  type: textbook
+  tags:
+  - case-study
+  - masterwork
+  - information-design
+  - data-analysis
+  summary: 大师作品解析：信息可视化经典案例的设计逻辑与视觉策略拆解
+  source: knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_05_第四章.md
+- id: hao-ch6-social-projects
+  type: textbook
+  tags:
+  - social-focus
+  - integrated-design
+  - case-study
+  - data-journalism
+  - dma
+  summary: 社会焦点整合信息设计：公共议题数据叙事、多源信息融合展示策略
+  source: knowledge/textbook/信息可视化设计 -- 郝亚维张博文编著/chapter_07_第六章.md
+- id: ch14-temporal-data
+  type: textbook
+  tags:
+  - temporal
+  - time-series
+  - animation
+  - change
+  - trend
+  summary: 时序数据可视化：时间线/动画/变化追踪；趋势与变化率的编码策略
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_18_Chapter_14.md
+- id: ch15-vis-in-practice
+  type: textbook
+  tags:
+  - case-study
+  - practice
+  - guidelines
+  - design-process
+  - iteration
+  summary: 可视化实践指南：设计流程、迭代方法论、真实项目案例与常见陷阱
+  source: knowledge/textbook/Visualization Analysis & Design -- Tamara Munzner --
+    2014/chapter_19_Chapter_15.md
+- id: vis-cognitive-amplifier
+  type: note
+  tags:
+  - visual-cognition
+  - pre-attentive
+  - external-representation
+  - change-blindness
+  summary: 可视化=认知外接显卡；视觉弹出/前注意处理/外部表征放大；反面：变化盲视与信息密度困境
+  source: knowledge/notes/vis-cognitive-amplifier.md
+- id: anscombe-quartet-show-data
+  type: note
+  tags:
+  - anscombe
+  - statistical-summary
+  - show-data
+  - exploratory
+  summary: 安斯库姆四重奏：相同统计量不同结构；Datasaurus Dozen 延伸；为何必须先看图
+  source: knowledge/notes/anscombe-quartet-show-data.md
+- id: gestalt-principles-vis
+  type: note
+  tags:
+  - gestalt
+  - proximity
+  - similarity
+  - closure
+  - perception
+  summary: 格式塔七原则在可视化中的映射：靠近/相似/连续/闭合/主体背景/对称/共同命运
+  source: knowledge/notes/gestalt-principles-vis.md
+- id: vibe-coding-paradigm
+  type: note
+  tags:
+  - vibe-coding
+  - natural-language
+  - LLM
+  - karpathy
+  - software-3
+  summary: Karpathy 2025 Vibe Coding：自然语言即接口/角色转变/先生成后精修；风险：代码质量不可控
+  source: knowledge/notes/vibe-coding-paradigm.md
+- id: marks-channels-effectiveness
+  type: note
+  tags:
+  - marks
+  - channels
+  - expressiveness
+  - effectiveness
+  - ranking
+  summary: 标记(点/线/面)与通道(位置/颜色/大小)效能排序；表达性+有效性原则；图表=时空隐喻选择
+  source: knowledge/notes/marks-channels-effectiveness.md
+- id: channel-accuracy-separability
+  type: note
+  tags:
+  - Stevens-power-law
+  - discriminability
+  - separability
+  - popout
+  - Weber-law
+  summary: Stevens幂定律(长度n=1/面积压缩/饱和放大)；通道可分离性陷阱；弹出仅限单通道
+  source: knowledge/notes/channel-accuracy-separability.md
+- id: data-ink-ratio-anti-patterns
+  type: note
+  tags:
+  - data-ink-ratio
+  - Tufte
+  - no-3D
+  - occlusion
+  - function-first
+  summary: Tufte数据墨水比+Munzner八大法则；3D五宗罪(遮挡/透视/深度)；DMA设计陷阱
+  source: knowledge/notes/data-ink-ratio-anti-patterns.md
+- id: data-abstraction-taxonomy
+  type: note
+  tags:
+  - data-types
+  - dataset-types
+  - attribute-types
+  - key-value
+  - semantics
+  summary: Munzner数据抽象三层(数据类型/集类型/属性类型)；Key-Value语义；邮编≠数量反面
+  source: knowledge/notes/data-abstraction-taxonomy.md
+- id: task-abstraction-framework
+  type: note
+  tags:
+  - task-abstraction
+  - analyze
+  - search
+  - query
+  - derive
+  - why-what-how
+  summary: 三层行为框架(Analyze-Search-Query)；Derive战略价值；贸易平衡/Strahler数案例
+  source: knowledge/notes/task-abstraction-framework.md
+- id: tidy-data-ai-workflow
+  type: note
+  tags:
+  - tidy-data
+  - Wickham
+  - wide-long
+  - data-cleaning
+  - AI-prompt
+  - derive
+  summary: Wickham三原则(变量列/观测行/单元表)；五种脏数据；AI Prompt三要素+迭代清洗
+  source: knowledge/notes/tidy-data-ai-workflow.md
+- id: echarts-declarative-arch
+  type: note
+  tags:
+  - ECharts
+  - declarative
+  - option-object
+  - series-type
+  - dataZoom
+  - vibe-coding
+  summary: ECharts声明式Option对象；Series类型决定图表形态；交互组件无需编码；反面：像素级控制不可能
+  source: knowledge/notes/echarts-declarative-arch.md
+- id: d3-bindscale-binddata
+  type: note
+  tags:
+  - D3
+  - SVG
+  - scale
+  - domain-range
+  - enter-update-exit
+  - margin-convention
+  summary: SVG左上原点(0,0)坐标反转；Scale的domain→range映射；Enter-Update-Exit三态；Margin惯例
+  source: knowledge/notes/d3-bindscale-binddata.md
+- id: ai-code-debug-strategy
+  type: note
+  tags:
+  - AI-debug
+  - console-copy
+  - MRE
+  - structured-prompt
+  - vibe-coding
+  - D3-debug
+  summary: 三层排错漏斗(Console复制→上下文定位→MRE最小复现)；D3/ECharts检查清单；迭代修正Prompt策略
+  source: knowledge/notes/ai-code-debug-strategy.md
+- id: force-directed-artistic
+  type: note
+  tags:
+  - force-directed
+  - generative-art
+  - network
+  - emotional-metaphor
+  - D3
+  summary: 力导向物理模型(向心/排斥/弹簧/碰撞)；生成艺术的情绪隐喻；防范发散与无意义聚类
+  source: knowledge/notes/force-directed-artistic.md
+- id: choropleth-spatial-encoding
+  type: note
+  tags:
+  - spatial-data
+  - choropleth
+  - isocontours
+  - area-bias
+  - cartogram
+  summary: 空间位置编码优先；等值区域图的面积偏见缺陷；等值线图；变形地图与粒子流体场艺术
+  source: knowledge/notes/choropleth-spatial-encoding.md
+- id: network-matrix-tradeoff
+  type: note
+  tags:
+  - node-link
+  - adjacency-matrix
+  - hairball
+  - topology
+  - dense-network
+  summary: 连接线vs矩阵面积；节点-链接的直观性与Hairball遮挡灾难；矩阵视图的扩张性与陌生感
+  source: knowledge/notes/network-matrix-tradeoff.md
+- id: interaction-manipulate-taxonomy
+  type: note
+  tags:
+  - interaction
+  - manipulate
+  - select
+  - navigate
+  - animated-transition
+  - semantic-zoom
+  summary: Munzner Ch11三大操作族(Change/Select/Navigate)；动画过渡vs跳切；语义缩放；约束导航
+  source: knowledge/notes/interaction-manipulate-taxonomy.md
+- id: scrollytelling-gsap-arch
+  type: note
+  tags:
+  - scrollytelling
+  - GSAP
+  - ScrollTrigger
+  - pin
+  - scrub
+  - data-journalism
+  summary: 三层架构(叙事/触发/渲染)；四模式(Pinned/Trigger/Steps/Continuous)；ScrollTrigger核心API
+  source: knowledge/notes/scrollytelling-gsap-arch.md
+- id: motion-storyboard-method
+  type: note
+  tags:
+  - storyboard
+  - motion-design
+  - data-storytelling
+  - animation
+  - DMA
+  - film-analogy
+  summary: 动效分镜三维拆解(时间/画面/技术)；电影类比(剧本→运镜→剪辑)；AI Prompt分镜模板
+  source: knowledge/notes/motion-storyboard-method.md
+- id: nested-model-validation
+  type: note
+  tags:
+  - nested-model
+  - four-levels
+  - validation
+  - threats
+  - domain-situation
+  - design-study
+  summary: 嵌套模型四层验证(领域/抽象/编码/算法)；级联失败原则；One Pager防御检查表；跳层陷阱反面
+  source: knowledge/notes/nested-model-validation.md
+- id: social-issue-data-research
+  type: note
+  tags:
+  - social-focus
+  - data-research
+  - open-data
+  - AI-preprocess
+  - critique
+  - dma
+  summary: 社会议题选题三原则；公开数据平台清单；AI数据预处理三阶段；自然语言分层策略；Critique互评
+  source: knowledge/notes/social-issue-data-research.md
+- id: static-deploy-workflow
+  type: note
+  tags:
+  - deployment
+  - GitHub-Pages
+  - Vercel
+  - static-site
+  - CI-CD
+  summary: GitHub Pages/Vercel零成本部署；静态vs动态；路径陷阱清单；部署=作品存在的前提
+  source: knowledge/notes/static-deploy-workflow.md
+- id: critique-review-method
+  type: note
+  tags:
+  - critique
+  - peer-review
+  - Liz-Lerman
+  - design-review
+  - best-prompt
+  summary: Liz Lerman四步评审法；五维评价框架(数据故事/抽象/编码/交互/封装)；Best Prompt分享
+  source: knowledge/notes/critique-review-method.md
+- id: aesthetic-wrapper-css
+  type: note
+  tags:
+  - CSS
+  - glassmorphism
+  - typography
+  - micro-animation
+  - visual-polish
+  summary: 三层封装(排版骨架/视觉氛围/动效)；Glassmorphism；封装反模式；AI Prompt封装策略
+  source: knowledge/notes/aesthetic-wrapper-css.md
+- id: film-as-data-cinematic-visualization
+  type: note
+  tags:
+  - movie-barcode
+  - KALMUS
+  - cinemetrics
+  - cultural-analytics
+  - FFmpeg
+  - film-data
+  - spectrogram
+  - DMA
+  summary: 电影逐帧色彩/音频的可视化；KALMUS(JOSS 2021)/Cinemetrics/Manovich直接可视化；技术路径与Vibe适配
+  source: knowledge/notes/film-as-data-cinematic-visualization.md
+- id: vibe-coding-progression-roadmap
+  type: note
+  tags:
+  - vibe-coding
+  - pedagogy
+  - roadmap
+  - dma
+  summary: AI Vibe Coding 技能进阶四阶段：黑盒魔法(Prompt) -> 灰盒沙箱(Artifacts) -> 白盒排雷(Debug) ->
+    系统架构(Dashboard)
+  source: knowledge/notes/vibe_coding_progression_roadmap.md

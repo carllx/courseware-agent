@@ -139,39 +139,49 @@ function WeekCard({ week, index, courseId, theme }) {
                         visualPercent > 0 ? '视觉素材较少' : '尚无视觉素材'
 
   return (
-    <Link
-      to={`/${courseId}/${week.script}`}
+    <div
       className="week-card"
       style={{ '--card-primary': primaryColor }}
     >
-      <div className="week-card-number" style={{ background: primaryColor }}>
-        {index + 1}
-      </div>
-      <div className="week-card-body">
-        <h3 className="week-card-title">{formatScriptName(week.script)}</h3>
-        <div className="week-card-stats">
-          <span className="week-stat" title={statusTooltip}>{statusIcon} 图片 {visualLabel}</span>
-          <span className="week-stat" title="幻灯片数量">📑 {week.slides} slides</span>
-          <span className="week-stat week-stat-extra" title="文本段落数">📝 {week.paragraphs} 段</span>
-          {week.sections > 0 && <span className="week-stat week-stat-extra" title="教学模块数">📦 {week.sections} 模块</span>}
+      <Link to={`/${courseId}/${week.script}`} className="week-card-link">
+        <div className="week-card-number" style={{ background: primaryColor }}>
+          {index + 1}
         </div>
-        <div className="week-card-badges">
-          {week.hasAudio && <span className="badge badge-audio" title="含音频资源">🔊 音频</span>}
-          {week.hasSrt && <span className="badge badge-srt" title="含字幕文件">📜 字幕</span>}
-        </div>
-
-        {/* 视觉覆盖率进度条 */}
-        <div className="week-progress">
-          <div className={`progress-bar${visualPercent === 0 ? ' progress-bar-empty' : ''}`}>
-            <div className="progress-fill" style={{
-              width: `${visualPercent}%`,
-              background: primaryColor,
-            }} />
+        <div className="week-card-body">
+          <h3 className="week-card-title">{formatScriptName(week.script)}</h3>
+          <div className="week-card-stats">
+            <span className="week-stat" title={statusTooltip}>{statusIcon} 图片 {visualLabel}</span>
+            <span className="week-stat" title="幻灯片数量">📑 {week.slides} slides</span>
+            <span className="week-stat week-stat-extra" title="文本段落数">📝 {week.paragraphs} 段</span>
+            {week.sections > 0 && <span className="week-stat week-stat-extra" title="教学模块数">📦 {week.sections} 模块</span>}
           </div>
-          <span className="progress-label">{visualPercent === 0 ? '尚无素材' : `${visualPercent}%`}</span>
+          <div className="week-card-badges">
+            {week.hasAudio && <span className="badge badge-audio" title="含音频资源">🔊 音频</span>}
+            {week.hasSrt && <span className="badge badge-srt" title="含字幕文件">📜 字幕</span>}
+          </div>
+
+          {/* 视觉覆盖率进度条 */}
+          <div className="week-progress">
+            <div className={`progress-bar${visualPercent === 0 ? ' progress-bar-empty' : ''}`}>
+              <div className="progress-fill" style={{
+                width: `${visualPercent}%`,
+                background: primaryColor,
+              }} />
+            </div>
+            <span className="progress-label">{visualPercent === 0 ? '尚无素材' : `${visualPercent}%`}</span>
+          </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+      {/* 教师版快捷入口 */}
+      <Link
+        to={`/${courseId}/${week.script}?mode=teacher`}
+        className="week-card-teacher-link"
+        title="以教师提词器模式打开"
+        onClick={e => e.stopPropagation()}
+      >
+        🎓 教师版
+      </Link>
+    </div>
   )
 }
 

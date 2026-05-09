@@ -1,0 +1,59 @@
+# W01_practice.yaml — 视觉感知与双轨映射工坊
+week: 1
+title: "视觉感知与双轨映射工坊"
+experiment_link: []
+total_minutes: 90  # hours_practice=2 → 2×45=90
+
+theory_prerequisites:
+  - "安斯库姆四重奏"
+  - "前注意弹出效应"
+  - "格式塔病理标本解析"
+  - "Vibe Coding"
+
+phases:
+  - id: P1
+    name: "Datasaurus 盲盒：统计欺骗的极限压力测试"
+    minutes: 15
+    type: warmup
+    description: "使用 Datasaurus Dozen 数据集在腾讯在线文档中进行全班协同盲盒实验，体验均值/方差等统计摘要如何完美隐藏恐龙级异常形态，建立'先画图再下结论'的铁律"
+    tools: ["学习通"]
+    deliverables:
+      - "腾讯在线文档中的散点图截图"
+      - "课堂口头分享：你的盲盒画出了什么形状？"
+
+  - id: P2
+    name: "前注意诊疗室与格式塔病理标本解剖"
+    minutes: 15
+    type: demo
+    description: "通过数字矩阵寻'3'挑战、颜色/大小/方向弹出效应实验和联合搜索崩塌测试，亲身验证前注意并行处理通道的暴力弹出效应与失效条件；随后对 5 组经典病理图表（意面图、爆炸饼图、反人类仪表板排版、格式塔极权覆盖、动画群魔乱舞）执行格式塔四维诊断"
+    tools: []
+    deliverables:
+      - "课堂观察与反思参与记录"
+
+  - id: P3
+    name: "双轨映射大工坊：RAWGraphs GUI 崩溃 vs AI Vibe 降噪直出"
+    minutes: 60
+    type: workshop
+    description: "使用 Spotify 2025 全球热单音频特征数据，先通过 RAWGraphs 零代码拖拽制造 DOM 渲染极限崩溃体验（Max diameter=60），再以智谱清言数据分析模式注入三层高阶 Prompt 架构，一键直出极简深海暗夜模式的算法降噪气泡图，切身感受前端渲染极限与高层心智建筑的本质差异"
+    tools: ["RAWGraphs", "AI 辅助工具"]
+    steps:
+      - "打开 RAWGraphs 2.0 粘贴 Spotify CSV 数据"
+      - "选择 Bubble Chart，映射 Valence→X, Energy→Y, Stream_Count→Size, Genre→Color"
+      - "Max diameter 强制拉至 60 像素，体验认知拥堵"
+      - "切换至智谱清言数据分析模式，上传同一份 CSV"
+      - "注入三层极简指令架构 Prompt 进行算法降噪渲染"
+      - "对比两种范式的产出差异与心智负荷"
+    deliverables:
+      - "RAWGraphs 认知拥堵全景截图"
+      - "AI Vibe 降噪渲染最终确认图 (PNG)"
+    theory_link:
+      concept_id: "vibe_coding"
+      description: "Vibe Coding 数据降噪范式——自然语言驱动的高阶心智建筑"
+
+homework:
+  title: "野外猎杀与格式塔处方"
+  description: "从日常媒体或报告中捕获一张真实病理图表，撰写约 200 字格式塔诊断书，使用 Vibe Coding Prompt 驱动 AI 实施降噪重构，并对 AI 产出执行审计判官检查清单"
+  deliverables:
+    - "病理原图截图（真实世界捕获）"
+    - "AI 修复成品 (PNG)"
+    - "格式塔诊断书（约 200 字，含病因、处方、审计自查结果）"

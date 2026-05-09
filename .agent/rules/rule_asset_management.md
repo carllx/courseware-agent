@@ -97,7 +97,7 @@ globs:
 ❌ **错误写法**：在 Asset 字段强行写 `<video>` 原始 HTML。
 ❌ **错误写法**：将视频文件放入 `public/slides/`（该目录仅存放静态图片）。
 
-**Layout 字段约定**：包含视频的 VISUAL 块应将 Layout 设置为 `Full_Video`（映射到 `full` → `Layout_Image`，但语义标记该 Slide 为视频而非静态图，供审计引擎识别）。
+**Layout 字段约定**：包含视频的 VISUAL 块应将 Layout 设置为 `Video`（映射到 `full` → `Layout_Image`，但语义标记该 Slide 为视频而非静态图，供审计引擎识别）。
 
 **格式优先级**：H5 课件必须使用 `.webm`（VP9 + Opus），PPT 嵌入使用 `.mp4`（H.264）。使用 FFmpeg 转码命令：
 ```bash

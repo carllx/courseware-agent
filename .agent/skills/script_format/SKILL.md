@@ -28,7 +28,8 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 4.  **Intent Alignment (意图对齐)**: `[VISUAL].Scene` 的描述必须与其后续 Speech 段落共享同一个**认知意图**（而非表层实体名词）。在抽象风格系统（如 Dada/Bauhaus）下，Scene 使用隐喻/情绪/张力来表达此意图；在具象风格系统下，Scene 可直接引用 Speech 中的实体对象。
     - 写作时的自检问句：「如果学生同时看到这张图、听到这段话，他们能否感受到与此概念匹配的**与此概念匹配的真实感受——一个具体的生活切片或行业痛点**？」
     - 若答案为否，必须调整 Scene 或 Speech 之一使两者对齐。重点在于捕捉讲者内心的共鸣与受众需要的精神氧气（解脱感、震撼感、焦虑感）。
-    - **不可能三角警示**：在抽象风格系统下，严禁为了对齐而违反 `rule_visual_generation.md` §6.6（具象禁令）。正确做法是提取 Speech 中案例的**心理学内核与冲突点(Complication)**（如"被信息淹没的焦虑"、"新旧断裂的冲击"），将其隐喻映射为抽象视觉张力。
+    - **信息优先原则**：当信息对齐与抽象风格系统冲突时，**信息对齐优先**。Agent 应将 Slide 的 `RenderMode` 自动判定为 `pedagogical`（见 `visual_system.yaml` 的 `pedagogical_routing` 规则），使用教学信息图路线生成包含具象认知锚点的图片。仅当 Slide 纯粹承载氛围/情绪过渡功能（无具体名词、无结构化论点）时，才保留 `themed` 模式走抽象风格路线。
+    - **遗留兼容**：在 `RenderMode=themed` 模式下，仍然遵循 `rule_visual_generation.md` §6.6 的具象禁令，使用心理学内核的隐喻映射。
 5.  **Progressive Sequence (渐进式披露/多帧连击)**: 严禁为了“少写一个块”而将含有 SCQA 完整逻辑的内容堆叠在单张排版上（如同时抛出痛点、发问与底层 3 个支撑点）。对于核心知识节点的高潮引入，必须使用**多帧视觉切花序列**替代信息堆叠：
     - ① **(悬念/冲突)**：使用 `Layout: Full` 极简放大充满张力的痛点切片 + 留白 `**(Pause: 3s)**`。
     - ② **(焦点发问)**：紧接使用 `Layout: Center` 提出直指灵魂的反问。
@@ -104,6 +105,8 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 | `TimeCategory` | **条件必填** | 视频时长的学时归因类别：`lecture`（叙事内嵌短片 ≤30s，计入理论时间）/ `activity`（需专注观看 >30s，计入实践/活动时间）/ `explore`（网站探索型，计入实践时间）。**当 `Duration` 字段存在时为强制必填**，默认 `activity`。 |
 | `Search` | 可选 | 网络搜索关键词 |
 | `Caption` | 可选 | 注释/引用文字 |
+| `Keywords` | 推荐 | 3-5 个逐字稿关键名词/实体（英文），作为 AI 文生图的认知锚点注入 Prompt。确保生成图片包含教师可回忆逐字稿内容的标志性物件。示例：`smartphone scrolling feed, vintage ledger book, algorithm node` |
+| `RenderMode` | 可选 | 视觉渲染模式：`themed`（走课程主题风格，适用于氛围/情绪过渡型 Slide）/ `pedagogical`（教学信息图风格，适用于承载具体知识点的 Slide，画面包含具象认知锚点）/ `pure`（纯几何/认知测试图）/ `real`（真实素材，不走 AI 生成）。**缺省时由 Agent 根据 `visual_system.yaml` 的 `pedagogical_routing` 规则自动判定**。 |
 
 > [!TIP]
 > **Asset 路径写法容错**：以下写法均会被解析器自动正规化为纯净相对路径：
@@ -192,6 +195,67 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 > *   **Desc**: 活动名称或简述
 > 活动操作说明…
 ```
+
+### 4.1 Quiz 子类型规范
+
+当 `Type: Quiz` 时，ACTIVITY 块必须包含以下额外字段：
+
+| 字段 | 必填 | 说明 |
+|:---|:---|:---|
+| `Q` | ✅ | 题干文本（单行，情境+问题） |
+| `Options` | ✅ | 选项列表，用 ` \| ` 分隔。格式：`A. 文本 \| B. 文本 \| C. 文本 \| D. 文本` |
+| `Answer` | ✅ | 正确答案字母（单选：`C`；多选：`A,C`） |
+| `Explain` | 推荐 | 答案解析，引导学生回溯讲授内容。应锚定逐字稿中的具体论述 |
+
+**完整示例**：
+
+```markdown
+好，我们来做一个快速测验。
+
+> [ACTIVITY]
+> *   **Type**: `Quiz`
+> *   **Duration**: `2min`
+> *   **Desc**: 案例判断：剥离伪需求
+> *   **Q**: 小明买了一台戴森吸尘器，并在朋友圈发了开箱照片。根据 JTBD，他发朋友圈属于什么需求？
+> *   **Options**: A. 功能性需求 (Functional) | B. 个人情感需求 (Personal) | C. 社会情感需求 (Social)
+> *   **Answer**: `C`
+> *   **Explain**: 发朋友圈是为了向外界展示生活品质、获得点赞与认同，属于社会情感需求（Social Job），与吸尘器本身吸灰的功能性无关。
+
+时间到！我看到后台数据……
+```
+
+**Quiz 块书写规则**：
+- Quiz 块**前面必须有 ≥1 句过渡口播**，引导学生进入答题模式（防止 VISUAL + ACTIVITY 堆叠）
+- `Duration` 不可省略（审计配速和 H5 活动时长统计依赖此字段）
+- 选项数量 ≥ 3 且 ≤ 5
+- 所有内容保持在 `> ` 引用块内，TTS 导出和 PPT 渲染自动跳过内部内容
+- **PPT 端**：自动渲染为活动指引页（暖色底 + 📝 图标 + Desc 标题），教师看到此页切换超星投屏
+- **H5 端**：渲染为交互式测验卡片（题干 + 选项列表 + 折叠答案）
+
+### 4.2 ACTIVITY 块语气规范
+
+`> [ACTIVITY]` 块内部的指导文本**必须使用祈使句 SOP 体**——动词开头、步骤分明、无修辞膨胀。
+
+✅ **正确**：
+```markdown
+> Step 1: 打开 Figma，新建 Frame (1440×900)
+> Step 2: 将参考截图拖入画板
+> Step 3: 用矩形工具标注认知摩擦点
+> Step 4: 导出标注图，上传至学习通
+```
+
+❌ **禁止**：
+```markdown
+> 现在，让我们一起打开 Figma，开启一段激动人心的设计之旅！
+> 准备好了吗？接下来的 5 分钟将彻底改变你对产品设计的理解！
+```
+
+**约束清单**：
+- 每步以**动词开头**（打开/选择/观察/记录/讨论/对比/标注）
+- 禁止使用感叹号（除非引述用户反馈原文）
+- 禁止使用"让我们"、"准备好了吗"、"激动人心"、"彻底改变"等叙事张力词
+- 每个步骤 ≤ 30 字（一行一指令，不换行）
+- 步骤总数 ≤ 6（超过则拆分为子活动或简化）
 
 ### 4.5 字数预算标注规范 (ADR 020)
 
@@ -298,7 +362,7 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 
 ## 6. 视觉密度标准 (Visual Density Standard)
 
-> **理论基础**：Mayer 多媒体学习认知理论（CTML）指出学习者通过视觉+听觉双通道处理信息，但每通道容量有限。视觉材料应以**概念切换为驱动**，而非按时间均匀分配。每个视觉都必须回答："这张图帮助学生理解了什么？"
+> **理论基础**：基于双重编码理论（Dual Coding Theory）与 Mayer 多媒体认知理论（CTML），学习者通过视觉+听觉双通道处理信息，纯语音单通道输入会快速达到认知负荷上限。根据 Mayer 分段原则（Segmenting Principle），教学材料必须分解为用户可消化的信息块。视觉材料的切换在课堂中起到了物理“分段”的信号作用，帮助大脑重置注意力（Attention Reset）。每个视觉都必须回答："这张图帮助学生理解了什么？"
 
 ### 6.1 视觉切换触发规则
 
@@ -310,7 +374,7 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 | 举例/类比 | 使用案例、比喻、类比解释时 |
 | 流程/步骤 | 涉及多步骤流程、操作链路时 |
 | 数据/对比 | 展示数据、对比分析、正反对照时 |
-| 连续叙述超限 | 连续口述 **>120 秒**（约 360 字）无视觉变化时 |
+| 连续叙述超限 | 连续口述 **>120 秒**（约 360 字）无视觉变化时（强制注意力重置，防止认知负荷过载） |
 
 ### 6.2 量化参考
 
@@ -322,6 +386,12 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 
 > **公式**：讲授净分钟数 = 模块总分钟数 - ACTIVITY 分钟数。
 > 例：25 分钟纯讲授模块 → 建议 ≥ 13 张，底线 ≥ 9 张。
+>
+> **DRP 联动修正**：当模块被标记为 `<!-- STATUS: blocked -- DRP_EXHAUSTED -->` 时，
+> 视觉密度底线的“讲授净分钟数”应基于**实际字数反推的分钟数**（实际字数 ÷ 语速常量）重新计算，
+> 而非原始教案预算分钟数。此修正防止 DRP 熔断模块产生大量无内容支撑的占位 Slide。
+> 
+> **理论注记 (120秒防线)**：根据高等教育教学研究，学生的持续注意力受刺激频率的深刻影响。单张 Slide 停留超过 1-2 分钟（约 180-360 字）后，注意力会逐渐衰减。此时必须通过视觉或互动干预进行“重置”（Micro-interventions），分流处理压力。
 
 ### 6.3 标题层级 Slide 分配协议 (Heading-Level Visual Allocation)
 
@@ -353,6 +423,7 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 *   ❌ 添加与学习目标无关的装饰性图片（Mayer 连贯性原则）
 *   ❌ 连续 > 120 秒（约 360 字）无任何 `> [VISUAL]` 切换
 *   ❌ 在同一张 Slide 上堆叠 > 10 个文字要点（认知过载）
+*   ❌ 相邻 `> [VISUAL]` 块之间叙事文本 < 80 字（视觉堆叠，破坏演讲呼吸节律。详见 `rule_visual_placement.md`）
 
 ---
 
@@ -371,9 +442,11 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 - [ ] **Rosenshine Checkpoint**: 是否存在连续 > 3000 字（约 10 分钟）纯讲授（无 `[ACTIVITY]`）的区间？（§5.1 第二层 Rosenshine 理解检查点）
 - [ ] **Visual Density**: 每个模块的 Slide 数是否 ≥ `⌈讲授净分钟数 ÷ 3⌉`？（§6.2 硬性底线）
 - [ ] **Visual Gap**: 是否存在连续 > 360 字（约 120 秒）无 `[VISUAL]` 的口述段落？（§6.4 禁止事项）
+- [ ] **Visual Stacking**: 是否存在相邻 `[VISUAL]` 块间距 < 80 字的堆叠违规？（§6.4 + `rule_visual_placement.md`）
 - [ ] **Media Duration**: 所有 Asset 指向 `.mp4`/`.webm` 的 `[VISUAL]` 块是否均包含 `Duration` 和 `TimeCategory` 字段？（§3 条件必填）
 - [ ] **Heading-Level Allocation**: 每个 H2 (`##`) 是否有 ≥1 张开篇 Slide？每个 H3 (`###`) 是否有 ≥1 张锚定 Slide（<300 字纯过渡段豁免）？（§6.3 分配协议）
 - [ ] **Narrative Boundary**: 相邻 H3 的首张 Slide 是否具备明确的视觉区分度（不同 Scene 主题/色调）？（§6.3 叙事边界性）
+- [ ] **Cognitive Anchor Recall (三词回溯测试)**: 对每张 AI 生成的 Slide 图片执行回溯测试——看着图片，能否在 3 秒内说出 ≥3 个与逐字稿内容相关的关键词？若不能，说明图片缺少认知锚点，需调整 Scene/Keywords 后重新生成。（仅适用于 `RenderMode=pedagogical` 的 Slide）
 - [ ] **Instant Clarity (§10)**: 是否存在可用更简单日常词替换而不损失信息的复杂用词？（Oppenheimer 替代测试）是否存在单段 ≥ 3 个极端修饰语？（Mayer 修饰语密度上限）H3/H4 标题是否秒懂？（Pinker 新生朗读测试）
 - [ ] **Dying Metaphor (§10.6)**: 是否存在 Dying 级隐喻/四字成语堆砌？（Orwell 自检：读到它时大脑是否自动生成画面？如果没有就是 Dying，用白话重说）
 - [ ] **结构性装饰语密度**: `validate_script_length.py` 是否报告 `[DEGEN]` 段落级结构性退化？（四字格密度 ≥5/百字、「的」字链 ≥2 处、或窗口极端修饰 ≥3）如有，须修复对应窗口
@@ -396,7 +469,7 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 |:---|:---|:---|
 | [narrative_standards_guide.md](references/narrative_standards_guide.md) | 审阅词句、深度 Audit 重构、不确定语调时 | 反翻译腔、韵律、过渡焊接、脉络透明度、§10 秒懂优先协议 |
 | [instant_clarity_research.md](references/instant_clarity_research.md) | 执行 §10 遇边界判定、优化 validate_script_length.py、需要学术引用支持决策时 | Oppenheimer/Paivio/Mayer/Pinker 四框架的原始论文、实验结论、LLM 华丽偏差研究 |
-| [speech_memorization_research.md](references/speech_memorization_research.md) | 需要理解脉络可视化和记忆优化理论基础时 | 七大记忆方法体系、冷热标签映射、骨架卡片理论 |
+| [speech_memorization_research.md](references/speech_memorization_research.md) | 需要理解脉络可视化和逻辑重建理论基础时 | 七大记忆方法体系、冷热标签映射、骨架卡片理论、v3 逻辑重建范式（FTT/Bartlett/即兴演讲/生成性学习） |
 | [teacher_cheat_sheet.md](references/teacher_cheat_sheet.md) | Lv.1 新手教师备课、`/write` 工作流首次使用时 | 三层分级填空式备课脚手架（§5.1 教师分级赋能策略配套工具） |
 | [benchmark_sample.md](benchmark_sample.md) | 冷启动、无前序脚本时 | 人文密度基线锚点 |
 

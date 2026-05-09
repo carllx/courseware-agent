@@ -13,12 +13,24 @@
 .app-header {
   display: flex;
   align-items: center;
-  gap: var(--sp-md);
+  gap: var(--sp-md);  
   padding: var(--sp-sm) var(--sp-lg);
   background: var(--theme-bgDark);
   color: var(--theme-bg);
   flex-shrink: 0;
   min-height: 44px;
+}
+
+.mobile-drawer-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
 }
 
 .course-title {
@@ -33,6 +45,9 @@
   font-weight: 600;
   font-size: 15px;
   flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .audio-badge {
@@ -76,17 +91,148 @@
    ============================================================ */
 
 @media (max-width: 900px) {
+  .app-container {
+    height: 100dvh; /* iOS Safari 地址栏自适应 */
+    height: 100vh;  /* 向后兼容 */
+  }
+
+  .app-header {
+    padding: var(--sp-sm) var(--sp-md);
+    gap: var(--sp-sm);
+  }
+  
+  .mobile-drawer-toggle {
+    display: flex;
+    width: 44px;   /* Apple HIG 最小触控域 */
+    height: 44px;
+  }
+  
+  .header-back-link {
+    display: none;
+  }
+
   .main-content {
     flex-direction: column;
   }
 
   .slide-area {
-    flex: 0 0 50%;
+    flex: 0 0 45%;
     border-right: none;
     border-bottom: 1px solid var(--theme-overlay-subtle);
   }
 
   .text-panel {
     flex: 1;
+    padding-bottom: 80px; /* UX 留白：防止文字抵住屏幕下沿 */
+  }
+
+  /* ── 教师版提词器布局 ── */
+  .layout-mode-teacher .slide-area {
+    flex: 0 0 100px;
+    border-bottom: 2px solid var(--theme-primary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+
+  .layout-mode-teacher .slide-viewport {
+    padding: 4px 8px;
+  }
+
+  .layout-mode-teacher .slide-nav {
+    display: none;
+  }
+
+  .layout-mode-teacher .text-panel {
+    flex: 1;
+    padding-bottom: 40px;
   }
 }
+
+/* ── 横屏模式 ── */
+@media (max-width: 900px) and (orientation: landscape) {
+  .main-content {
+    flex-direction: row; /* 横屏恢复左右并排 */
+  }
+
+  .slide-area {
+    flex: 0 0 40%;
+    border-right: 1px solid var(--theme-overlay-subtle);
+    border-bottom: none;
+  }
+
+  .text-panel {
+    flex: 1;
+    padding-bottom: 40px;
+  }
+
+  /* 教师版横屏：幻灯片仅占左侧 30% */
+  .layout-mode-teacher .slide-area {
+    flex: 0 0 30%;
+  }
+}
+
+/* ============================================================
+   P0: 教师/学生模式切换按钮
+   ============================================================ */
+
+.mode-toggle-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(245, 240, 235, 0.8);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.mode-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.layout-mode-teacher .mode-toggle-btn {
+  background: rgba(var(--theme-primaryRgb), 0.2);
+  border-color: rgba(var(--theme-primaryRgb), 0.4);
+  color: var(--theme-bg);
+}
+
+/* ============================================================
+   P4: 教师版顶栏进度指示器
+   ============================================================ */
+
+.teacher-progress-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
+}
+
+.teacher-progress-bar {
+  width: 40px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.teacher-progress-fill {
+  display: block;
+  height: 100%;
+  background: var(--theme-primary);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.teacher-progress-text {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(245, 240, 235, 0.6);
+  font-variant-numeric: tabular-nums;
+}
+

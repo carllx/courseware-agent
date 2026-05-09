@@ -186,6 +186,27 @@ export default function h5HotReload(options = {}) {
       })
 
       /**
+       * GET /api/validate/trigger?course=X&week=Y — 尝试并立即执行 P1 验证管线并返回成功状态
+       */
+      viteServer.middlewares.use('/api/validate/trigger', (req, res) => {
+        const url = new URL(req.url, 'http://localhost')
+        const courseId = url.searchParams.get('course')
+        const weekName = url.searchParams.get('week')
+
+        if (!courseId || !weekName) {
+          res.statusCode = 400
+          res.end(JSON.stringify({ error: '需要 course 和 week 参数' }))
+          return
+        }
+
+        // 异步运行管线，会自行通过 WebSocket 发送 h5:validation 事件
+        runValidationPipeline(courseId, weekName)
+        
+        res.setHeader('Content-Type', 'application/json')
+        res.end(JSON.stringify({ ok: true, message: '已经触发验证流水线，请等待 WebSocket 下发结果' }))
+      })
+
+      /**
        * 静态代理：/courses/{courseId}/weeks/{weekName}/tts/{fp}.{mp3|aac}
        * V-01 fix: 支持双后缀回退，mp3 优先，aac 兜底（兼容 1857 个已有 .aac 文件）
        */

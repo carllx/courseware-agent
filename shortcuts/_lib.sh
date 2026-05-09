@@ -178,3 +178,119 @@ select_course() {
         fi
     done
 }
+
+
+# ---- 管线共享函数（v2 重设计新增） ----
+
+# 废弃资产扫描（干跑模式），设置全局变量 STALE_COUNT / STALE_SIZE
+run_cleanup_scan() {
+    local course_flag=""
+    [ -n "${1:-}" ] && course_flag="--course $1"
+    
+    local output
+    output=$("$PYTHON" "$ROOT_DIR/cleanup_stale_assets.py" $course_flag 2>&1)
+    echo "$output"
+    
+    # 从输出中提取统计（匹配汇总行）
+    STALE_COUNT=$(echo "$output" | grep -o '可回收总空间' | head -1)
+    if echo "$output" | grep -q '可回收总空间: 0 B'; then
+        STALE_ASSET_FOUND=0
+    else
+        STALE_ASSET_FOUND=1
+    fi
+}
+
+# 执行废弃资产清理（移入 _trash/）
+run_cleanup_delete() {
+    local course_flag=""
+    [ -n "${1:-}" ] && course_flag="--course $1"
+    "$PYTHON" "$ROOT_DIR/cleanup_stale_assets.py" --delete $course_flag
+}
+
+# 构建新鲜度检测，设置全局变量 BUILD_FRESH (0=最新, 1=需重建)
+check_build_freshness() {
+    local preflight_script="$ROOT_DIR/build/h5_preview/scripts/preflight.sh"
+    if [ ! -f "$preflight_script" ]; then
+        BUILD_FRESH=1
+        warn "preflight.sh 不存在，需要全量构建"
+        return
+    fi
+    
+    local output
+    output=$(cd "$ROOT_DIR/build/h5_preview" && bash scripts/preflight.sh --mode check 2>&1)
+    echo "$output"
+    
+    if echo "$output" | grep -q '✅ dist 是最新的'; then
+        BUILD_FRESH=0
+    else
+        BUILD_FRESH=1
+    fi
+}
+
+# 轻量级质量门禁（断链 + 规范），用于导出前拦截。返回 0=通过, 1=失败
+quick_gate() {
+    local course="$1"
+    local failures=0
+    
+    echo -e "${BOLD}[门禁] 导出前质量快检...${NC}"
+    
+    # 断链检查
+    "$PYTHON" "$VALIDATE_DIR/validate_visuals.py" --course "$course" > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        error "视觉素材存在断链 — 请先修复后再导出"
+        failures=$((failures + 1))
+    else
+        info "视觉素材完整性 ✅"
+    fi
+    
+    # 规范合规（静默模式，只看退出码）
+    "$PYTHON" "$VALIDATE_DIR/validate_spec.py" --course "$course" > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        warn "规范合规检查存在警告（不阻止导出）"
+    else
+        info "规范合规性 ✅"
+    fi
+    
+    return $failures
+}
+
+# 交互式导出类型选择菜单
+# 设置全局变量 EXPORT_TYPE (word / tts / all)
+select_export_type() {
+    echo -e "${BOLD}请选择导出类型:${NC}"
+    echo ""
+    echo -e "  ${CYAN}[1]${NC} 📄 审阅 Word 文档"
+    echo -e "  ${CYAN}[2]${NC} 📝 TTS 盲读文本"
+    echo -e "  ${CYAN}[3]${NC} 📦 全部导出 ${DIM}(默认)${NC}"
+    echo ""
+    echo -ne "${BOLD}输入编号 (1-3, 回车=全部): ${NC}"
+    read -r choice
+    
+    case "${choice:-3}" in
+        1) EXPORT_TYPE="word" ;;
+        2) EXPORT_TYPE="tts" ;;
+        *) EXPORT_TYPE="all" ;;
+    esac
+}
+
+# 确保符号链接存在（engines/h5_template/public/courses → build 数据）
+ensure_symlink() {
+    local ssot="$ROOT_DIR/engines/h5_template/public/courses"
+    local build="$ROOT_DIR/build/h5_preview/public/courses"
+    
+    if [ ! -L "$ssot" ] && [ -d "$build" ]; then
+        rm -rf "$ssot" 2>/dev/null
+        ln -s "$build" "$ssot"
+        info "符号链接已创建"
+    fi
+}
+
+# 磁盘占用统计（用于体检仪表盘）
+disk_usage_report() {
+    local course="$1"
+    local src_size tts_size pub_size
+    src_size=$(du -sh "$ROOT_DIR/$course/weeks" 2>/dev/null | cut -f1 | tr -d ' ')
+    tts_size=$(du -sh "$ROOT_DIR/$course/weeks"/*/tts 2>/dev/null | tail -1 | cut -f1 | tr -d ' ')
+    pub_size=$(du -sh "$ROOT_DIR/$course/weeks"/*/public 2>/dev/null | tail -1 | cut -f1 | tr -d ' ')
+    echo -e "  💾 磁盘: weeks ${src_size:-N/A} | tts ${tts_size:-N/A} | public ${pub_size:-N/A}"
+}

@@ -55,7 +55,7 @@ def scan_course_level_public(course_dir: str) -> list[dict]:
     }
     # 垃圾文件（临时脚本、中间产物等）
     JUNK_EXTS = {".py", ".txt", ".part"}
-    JUNK_PATTERNS = ["full_video", "test_", "temp_", "clean_"]
+    JUNK_PATTERNS = ["Video", "test_", "temp_", "clean_"]
 
     for root, dirs, files in os.walk(public_dir):
         for f in files:

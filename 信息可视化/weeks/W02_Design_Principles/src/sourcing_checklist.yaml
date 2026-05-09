@@ -1,0 +1,204 @@
+- slide: S02b2_Frames_of_Mind_Meta_Art
+  module: M01_跳出模板__寻找数据的时空隐喻
+  layout: Comparison
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - named_entity
+  - book_title
+  entities:
+  - TreeMap
+  - Frames of Mind
+  description: '"Meta-Art：最高维的视觉隐喻"'
+  scene_excerpt: 左侧展示一张使用 ECharts 默认皮肤生成的普通方形树图 (TreeMap)，右侧并排展示 Alberto Lucas López 的《Frames of Mind》中那些被画成如立体主义碎玻璃般不规则的面积区块组合。
+  search_queries:
+  - TreeMap photo
+  - TreeMap real image
+  - TreeMap portrait
+  - Frames of Mind photo
+  - Frames of Mind real image
+  - Frames of Mind portrait
+  target_path: ../public/videos/S02b2_Frames_of_Mind_Meta_Art.webm
+  current_asset: ../public/slides/S02b2_Frames_of_Mind_Meta_Art.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S09_Homework_Assignment
+  module: M05_认知审计实验室__三阶段对比实验
+  layout: Grid
+  priority: high
+  media_type: image
+  signals:
+  - historical_archive
+  - book_title
+  entities:
+  - 信息可视化设计
+  description: '"课后任务：从真实世界的犯罪现场到你的手术台"'
+  scene_excerpt: 课后任务卡片——左侧列出三步指令（狩猎真实劣质图→Figma通道重建→墨水比精修与美学提升），右侧标注提交要求（三阶段对比图 + 300字通道决策审计书），底部显示截止时间与提交平台。
+  search_queries:
+  - 信息可视化设计 photo
+  - 信息可视化设计 real image
+  target_path: ../public/slides/S09_Homework_Assignment_real.png
+  current_asset: ../public/slides/S09_Homework_Assignment.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S08_The_Black_Museum
+  module: M05_认知审计实验室__三阶段对比实验
+  layout: Grid
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: '"The Black Museum：信息犯罪现场"'
+  scene_excerpt: 大屏幕上仿佛推开了一扇生锈的铁门，展现出一个暗黑风格的画廊，墙壁上挂着三幅令人极其不适的真实图表标本：一个是用连续色彩面积去映射类别的饼图，一个是用雷达图连接时间趋势的怪图，一个是比较任务却用了3D堆叠柱状图。每幅图下方贴着红色的"犯罪档案编号"标签。
+  search_queries:
+  - '"The Black Museum：信息犯罪现场" historical photo'
+  - '"The Black Museum：信息犯罪现场" archive image'
+  target_path: ../public/slides/S08_The_Black_Museum_real.png
+  current_asset: ../public/slides/S08_The_Black_Museum.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S02b_Metaphor_Examples
+  module: M01_跳出模板__寻找数据的时空隐喻
+  layout: Grid
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"寻找最贴切的时空隐喻：约束与流动"'
+  scene_excerpt: 在网格中呈现各种不同的生活隐喻。例如左侧是“木桶”和雷达图的叠影，右侧是“河流”与桑基图的交织。
+  search_queries:
+  - 在网格中呈现各种不同的生活隐喻 例如左侧是“木桶”和雷达图的叠影 右侧是“河流” demonstration
+  target_path: ../public/videos/S02b_Metaphor_Examples.webm
+  current_asset: ../public/slides/S02b_Metaphor_Examples.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S02b2_Metaphor_Sankey
+  module: M01_跳出模板__寻找数据的时空隐喻
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"桑基图：能量与物质的交织流动"'
+  scene_excerpt: 流柱图和桑基图，展示能量交织与流动的动态视觉。
+  search_queries:
+  - 流柱图和桑基图 展示能量交织与流动的动态视觉  demonstration
+  target_path: ../public/videos/S02b2_Metaphor_Sankey.webm
+  current_asset: ../public/slides/S02b2_Metaphor_Sankey.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S02c_Transition_Grammar
+  module: M01_跳出模板__寻找数据的时空隐喻
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"隐喻背后的原子语法是什么？"'
+  scene_excerpt: 画面中央是一个巨大的闪烁问号，背景由模糊的各种图表碎片（柱状图、散点图、桑基图的局部）组合而成，形成一种"拆解与重组"的视觉暗示。
+  search_queries:
+  - 画面中央是一个巨大的闪烁问号 背景由模糊的各种图表碎片（柱状图、散点图、桑基图的 demonstration
+  target_path: ../public/videos/S02c_Transition_Grammar.webm
+  current_asset: ../public/slides/S02c_Transition_Grammar.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S03d_Channel_Power_Summary
+  module: M02_原子语法____Marks_标记____与__Channels_通道
+  layout: Grid
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"原子的力量：一个点，五个维度"'
+  scene_excerpt: 极简总结卡片——中央用大号字体展示公式 "1 Mark + 5 Channels = 5 维降维"，下方配以刚才演示的五维散点图缩略图，四周环绕着五个通道图标（位置×2、色相、面积、形状），用连线指向中央的点标记。
+  search_queries:
+  - 极简总结卡片——中央用大号字体展示公式 "1 Mark + 5 Channels demonstration
+  target_path: ../public/videos/S03d_Channel_Power_Summary.webm
+  current_asset: ../public/slides/S03d_Channel_Power_Summary.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S04d_Magnitude_Ranking
+  module: M02_原子语法____Marks_标记____与__Channels_通道
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"量化通道排名：衡量''多少''"'
+  scene_excerpt: 量化通道排名阶梯图——从顶到底依次排列：①对齐空间位置（配以柱状图小图标，高亮闪烁）②非对齐位置与长度 ③角度（配以饼图小图标，标注"⚠️ 人类天生弱"）④面积与体积（标注"🔴 严重认知压缩"），整体呈递降阶梯式布局。
+  search_queries:
+  - 量化通道排名阶梯图——从顶到底依次排列：①对齐空间位置（配以柱状图小图标 高亮闪 demonstration
+  target_path: ../public/videos/S04d_Magnitude_Ranking.webm
+  current_asset: ../public/slides/S04d_Magnitude_Ranking.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S02e_Culture_Perspective
+  module: M01_跳出模板__寻找数据的时空隐喻
+  layout: Split
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  entities:
+  - 清明上河图
+  description: '"定焦透视 vs 流动叙事长卷"'
+  scene_excerpt: 左侧展示西方典型的单点透视坐标系，右侧展示《清明上河图》的局部，隐喻一种流动的散点透视叙事。
+  search_queries:
+  - 清明上河图 photo
+  - 清明上河图 real image
+  target_path: ../public/slides/S02e_Culture_Perspective_real.png
+  current_asset: ../public/slides/S02e_Culture_Perspective.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S04b_Expressiveness_Disaster
+  module: M02_原子语法____Marks_标记____与__Channels_通道
+  layout: Full
+  priority: low
+  media_type: image
+  signals:
+  - dated_event
+  entities: []
+  description: '"表达性原则的代价：生与死的图表"'
+  scene_excerpt: 展示哈佛医学院论文原图的 2x2 对比矩阵。左侧是彩虹色带渲染的血管（色彩突兀断裂），右侧是红灰单色渐变渲染的血管（平滑连续）。
+  search_queries: []
+  target_path: ../public/slides/S04b_Expressiveness_Disaster_real.png
+  current_asset: ../public/slides/S04b_Harvard_Rainbow_Disaster.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''

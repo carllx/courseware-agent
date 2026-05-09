@@ -22,6 +22,29 @@ from script_parser import (
     strip_markdown,
 )
 
+# ===== 新增检查项所需常量 =====
+
+# 占位符残留检测模式
+PLACEHOLDER_PATTERNS = [
+    re.compile(r'自动生成的'),
+    re.compile(r'请替换为'),
+    re.compile(r'\[待补充\]'),
+    re.compile(r'\[TODO\]', re.IGNORECASE),
+    re.compile(r'\[TBD\]', re.IGNORECASE),
+    re.compile(r'此处插入'),
+]
+
+# VISUAL 字段关键词（用于字段顺序检测）
+VISUAL_FIELD_KEYWORDS = ['Layout', 'Scene', 'Slide', 'Asset', 'Text', 'List']
+
+# 修辞黑名单——强信号修辞词组
+# 与 validate_script_length.py 的 DEGENERATION_MARKERS（程度词）互补
+RHETORIC_BLACKLIST = [
+    '当场休克', '天灵盖', '万劫不复', '长征二号',
+    '糖衣剧毒', '提线木偶', '无情的铁锤', '直冲天灵盖',
+    '核弹级别', '毁灭性打击', '灵魂暴击',
+]
+
 
 def validate_single_script(file_path: str, filename: str) -> dict:
     """
@@ -102,7 +125,70 @@ def validate_single_script(file_path: str, filename: str) -> dict:
     human_tags = sum(tag_counts.get(t, 0) for t in ["STORY TIME", "PHILOSOPHY", "CASE STUDY", "LIFE CONNECT"])
     teach_tags = tag_counts.get("TEACHING MOMENT", 0)
 
-    # ===== Visual Engagement Depth (视觉解读深度) =====
+    # ===== 占位符残留检测 =====
+    with open(file_path, 'r', encoding='utf-8') as f:
+        raw_lines = f.readlines()
+    for line_idx, raw_line in enumerate(raw_lines, 1):
+        for pattern in PLACEHOLDER_PATTERNS:
+            m = pattern.search(raw_line)
+            if m:
+                errors.append(
+                    f"L{line_idx}: \u274c \u5360\u4f4d\u7b26\u6b8b\u7559: '{m.group()}'"
+                )
+
+    # ===== Bold 标记前导/尾随空格检测 =====
+    for line_idx, raw_line in enumerate(raw_lines, 1):
+        stripped = raw_line.strip()
+        if not stripped.startswith('>'):
+            continue
+        if '**' in stripped:
+            bold_pairs = re.findall(r'\*\*(.*?)\*\*', stripped)
+            for bp in bold_pairs:
+                if bp.startswith(' ') or bp.endswith(' '):
+                    errors.append(
+                        f"L{line_idx}: \u274c Bold \u6807\u8bb0\u5185\u6709\u591a\u4f59\u7a7a\u683c: '**{bp}**'"
+                    )
+
+    # ===== VISUAL 字段顺序验证 =====
+    # 检测标签倒置：在 > [VISUAL] 之前出现了 > **Layout** 等字段
+    for line_idx, raw_line in enumerate(raw_lines, 1):
+        stripped = raw_line.strip()
+        if not stripped.startswith('>'):
+            continue
+        # 检查是否有 VISUAL 字段但不在 VISUAL 块内
+        for kw in ('Layout', 'Slide'):
+            if f'**{kw}**:' not in stripped:
+                continue
+            # 向上搜索：最近的块起始是否为 > [VISUAL]
+            found_visual_tag = False
+            for back_idx in range(line_idx - 2, max(line_idx - 12, -1), -1):
+                if back_idx < 0:
+                    break
+                back_line = raw_lines[back_idx].strip()
+                if back_line.startswith('> [VISUAL]'):
+                    found_visual_tag = True
+                    break
+                if not back_line.startswith('>'):
+                    break
+            if not found_visual_tag:
+                errors.append(
+                    f"L{line_idx}: \u274c VISUAL \u5b57\u6bb5\u987a\u5e8f\u9519\u8bef: "
+                    f"'{kw}' \u51fa\u73b0\u5728 [VISUAL] \u6807\u8bb0\u4e4b\u524d"
+                )
+
+    # ===== 修辞黑名单物理拦截 =====
+    for b in blocks:
+        if b.block_type != BlockType.SPEECH:
+            continue
+        for word in RHETORIC_BLACKLIST:
+            if word in b.content:
+                for offset, content_line in enumerate(b.content.split('\n')):
+                    if word in content_line:
+                        warnings.append(
+                            f"L{b.line_start + offset}: \u26a0\ufe0f  \u4fee\u8f9e\u9ed1\u540d\u5355\u547d\u4e2d: '{word}'"
+                        )
+
+
     # 对每个 VISUAL 块，检查其后紧邻 SPEECH 块的字数与 Scene 描述字数的比值
     for idx, b in enumerate(blocks):
         if b.block_type != BlockType.VISUAL:
