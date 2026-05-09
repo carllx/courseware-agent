@@ -6,8 +6,13 @@
 
 ## 📌 当前工作目标（每轮复盘开始前更新）
 
-> **使用前必做**：将下方的 `{COURSE_WEEK_SRC}` 替换为实际路径后再复制。
-> 例如 {COURSE_WEEK_SRC} = 课程/weeks/W XX_XXXXX/src
+> ⬇️ **只需修改下方这一行，下方所有指令块的 `{COURSE_WEEK_SRC}` 会自动引用此处的值。**
+>
+> ```
+> {COURSE_WEEK_SRC} = 交互产品开发/weeks/W04_MVP_Hypothesis/src
+> ```
+>
+> ⚠️ 复制指令块前，请先全文搜索 `{COURSE_WEEK_SRC}` 确认已替换为上方的实际路径。
 
 ---
 

@@ -27,8 +27,8 @@ divider
 echo -e "${BOLD}[1/4] 废弃资产预检${NC}"
 divider
 
-if [ -f "$ROOT_DIR/cleanup_stale_assets.py" ]; then
-    stale_output=$("$PYTHON" "$ROOT_DIR/cleanup_stale_assets.py" 2>&1)
+if [ -f "$CLEANUP_SCRIPT" ]; then
+    stale_output=$("$PYTHON" "$CLEANUP_SCRIPT" 2>&1)
     
     if echo "$stale_output" | grep -q '可回收总空间: 0 B'; then
         info "无废弃资产 ✅"

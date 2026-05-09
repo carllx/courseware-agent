@@ -22,6 +22,13 @@ ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 # Python 解释器
 PYTHON="/opt/anaconda3/envs/mybase/bin/python"
 
+# Node.js 环境（NVM 管理，.command 双击启动时不加载 .zshrc，需显式初始化）
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+# 清理工具路径（集中定义，防止分散硬编码）
+CLEANUP_SCRIPT="$ROOT_DIR/cleanup_stale_assets.py"
+
 # 验证套件脚本目录
 VALIDATE_DIR="$ROOT_DIR/.agent/skills/validation_suite/scripts"
 
@@ -188,7 +195,7 @@ run_cleanup_scan() {
     [ -n "${1:-}" ] && course_flag="--course $1"
     
     local output
-    output=$("$PYTHON" "$ROOT_DIR/cleanup_stale_assets.py" $course_flag 2>&1)
+    output=$("$PYTHON" "$CLEANUP_SCRIPT" $course_flag 2>&1)
     echo "$output"
     
     # 从输出中提取统计（匹配汇总行）
@@ -204,7 +211,7 @@ run_cleanup_scan() {
 run_cleanup_delete() {
     local course_flag=""
     [ -n "${1:-}" ] && course_flag="--course $1"
-    "$PYTHON" "$ROOT_DIR/cleanup_stale_assets.py" --delete $course_flag
+    "$PYTHON" "$CLEANUP_SCRIPT" --delete $course_flag
 }
 
 # 构建新鲜度检测，设置全局变量 BUILD_FRESH (0=最新, 1=需重建)

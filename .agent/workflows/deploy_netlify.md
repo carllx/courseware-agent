@@ -43,11 +43,20 @@ npx netlify deploy --prod --dir=dist
 > - **如果由 Agent 操作且配置了 Netlify MCP**：优先调用 `mcp_netlify_netlify-deploy-services-updater` 工具，将 `operation` 设为 `deploy-site`，`deployDirectory` 设为 `dist` 的绝对路径。
 > - Site ID 已通过 `.netlify/state.json` 自动读取，无需手动指定。
 
-### 3. 发布验证与收尾
+### 3. 部署后冒烟测试
 
-- 拿到最终的 **Live URL**（`endearing-mooncake-60c90e.netlify.app`）
-- 验证 TTS 音频和 WebP 图片是否可正常加载
-- 验证安全头是否生效：`curl -I https://endearing-mooncake-60c90e.netlify.app/ | grep -i "x-frame\|x-content-type\|referrer"`
+```bash
+cd "build/h5_preview"
+bash scripts/smoke_test.sh
+```
+
+> **验证项**：
+> - 首页 HTTP 200 可达
+> - 安全头完整（`X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`）
+> - 课程 manifest JSON 可加载
+> - Vite 打包的核心 JS/CSS 资产可达
+>
+> 如果冒烟测试失败（exit code 1），记录失败项并通知用户排查。
 
 > [!IMPORTANT]
 > **部署后不要执行 `git add .`**。`dist/` 已从 `.gitignore` 排除。

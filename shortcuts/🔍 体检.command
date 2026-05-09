@@ -79,8 +79,8 @@ echo ""
 divider
 echo -e "${BOLD}[5/6] 废弃资产扫描${NC}"
 divider
-if [ -f "$ROOT_DIR/cleanup_stale_assets.py" ]; then
-    stale_output=$("$PYTHON" "$ROOT_DIR/cleanup_stale_assets.py" --course "$COURSE" 2>&1)
+if [ -f "$CLEANUP_SCRIPT" ]; then
+    stale_output=$("$PYTHON" "$CLEANUP_SCRIPT" --course "$COURSE" 2>&1)
     stale_exit=0
     
     # 提取废弃文件数量
