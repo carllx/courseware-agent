@@ -31,3 +31,7 @@ __pycache__/
 
 # Netlify 本地状态（含 Site ID，不应入库）
 **/.netlify/
+
+# 清理工具产物
+_trash/
+cleanup_report.json
