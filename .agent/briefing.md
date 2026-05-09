@@ -11,7 +11,7 @@
 - **V5 架构迁移**：完成了全域 Package 化，重构了 `src/` 与 `public/` 的解耦，修正了关联 PPT/H5 build script 下游构建引擎。
 - **架构大瘦身**：清理大量过度拟合的规则堆叠。将原字数打底相关规则整合为统一的 `rule_content_depth.md`。将 `rule_narrative_standards.md` 与 `rule_knowledge_protocol.md (已移除)` 降级剥离到技能参考 (`skills/*/references`) 中，减少 50% 以上触发负载。
 - **H5 Craft-room**：完成 Phase 0-3 实时审计系统。H5 从"只读预览器"升级为"实时创作工作台"，含 P0 渲染管线（~300ms）+ P1 验证管线（~2s 异步），DurationGauge/HealthDot/ValidationOverlay/AnnotationOverlay 4 大组件 + ValidationContext 心流保护。
-- **发布架构 (Deployment)**：重构了产物交付管线，全面解耦 `/build`（SSG构建）与 `/deploy_netlify`（CDN 投递），并提供 `/publish` 一键发版编排，实施双层安全网拦截 `dist/` 与 Site ID 的配置泄漏。
+- **发布架构 (Deployment)**：重构了产物交付管线，全面解耦 `/build`（SSG构建）与 `/deploy_netlify`（CDN 投递），并提供 `/publish` 一键发版编排。近期进一步完成了全链路架构加固（Pipeline Hardening），包括 NVM 环境初始化、自动化线上冒烟测试（smoke_test.sh），并修复了工具链脚本路径依赖的脆弱性。
 
 ### 交互产品开发
 - **脚本**：W01-W14 全量完成。今日完成了 W04 (MVP & Hypothesis) M00-M05 的系统性 pedagogical 审计，修复了多处 Comparison 布局的 List 字段遗漏与 YAML 语法级解析错误（反引号），并为工作坊模块补全了 Visual 视图锚点，整体 IAR 极高（1.00），彻底清除了教学认知摩擦。此前已完成 W03 (Product Insights) M00-M06 的深度审计与定点扩写。W01、W02、W11、W13、W14 均已通过 DRP 验证与 Standard 审计。历史骨架全部上线。
@@ -33,6 +33,7 @@
 ## 最近活动（近 7 天）
 
 | 日期 | 事件 |
+| 2026-05-09 | 执行 `/publish` 管线架构审查与修复。修复了 `_lib.sh` 缺少 NVM 环境初始化的缺陷；创建了 `smoke_test.sh` 线上自动冒烟测试脚本，并将该环节强制整合进 `/deploy_netlify` 工作流；修复了关键清理工具 `cleanup_stale_assets.py` 误删及路径依赖硬编码的问题。 |
 | 2026-05-09 | 执行 `/audit` 级别联合修复。针对《交互产品开发》W04 (MVP & Hypothesis) M00-M05 完成深度诊断与物理清洗。成功修复 Comparison 布局报错、YAML 语法反引号隐患，并在实验工坊中填补了 Visual 记忆空洞。所有模块 IAR 推进率达 1.00 满分，结构健康。 |
 |:-----|:-----|
 | 2026-05-09 | 执行深度教学审查及定点物理修复。针对《交互产品开发》W03 (Product Insights) M00-M06 全模块开展了深度的教学法与结构审计。系统性排查并以纯硬核理论/场景扩写的方式，定点清除了 M03/M04/M05/M06 存在的所有近 20 处 Visual Stacking (相邻 PPT 间隙 < 40字) 违规红线；通过植入隐性锚词大幅提升了各模块的 Cloak 模式覆盖率，并在全过程中保持了全周高达 1.00 的完美 IAR 强断言推进率，彻底实现了叙事的物理脱水与结构化紧固。 |
