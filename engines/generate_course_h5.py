@@ -35,6 +35,12 @@ from script_parser import parse_script, BlockType, ScriptBlock  # noqa: E402
 
 H5_TEMPLATE_DIR = CWD / "engines" / "h5_template"
 
+# 默认中文口述语速（字/分钟）。
+# 该值用于将逐字稿字数换算为预估讲授时长。
+# 中文学术演讲实测范围约 150-250 字/分钟，180 为保守中位数。
+# 可在 package.yaml 中通过 speech_rate 字段按课程/周次覆盖。
+_DEFAULT_SPEECH_RATE_CPM = 180
+
 
 # ============================================================
 # 主题加载（保持不变）
@@ -429,8 +435,15 @@ def _build_modules_layer(manifest: dict) -> None:
     manifest["modules"] = modules
 
 
-def _enrich_section_stats(section: dict) -> None:
-    """为 section 注入口述字数统计、实践耗时和视频时长（原地修改）。"""
+def _enrich_section_stats(section: dict, speech_rate: int = _DEFAULT_SPEECH_RATE_CPM) -> None:
+    """为 section 注入口述字数统计、实践耗时和视频时长（原地修改）。
+
+    Args:
+        section: 待注入统计的 section 字典。
+        speech_rate: 中文口述语速（字/分钟），用于字数→时长换算。
+                     默认值为 _DEFAULT_SPEECH_RATE_CPM (180)，
+                     可通过 package.yaml 的 speech_rate 字段覆盖。
+    """
     oral_types = {"speech"}
     exclude_types = {"activity", "tech_note"}
 
@@ -455,7 +468,7 @@ def _enrich_section_stats(section: dict) -> None:
                 media_activity_sec += dur
 
     section["oralCharCount"] = oral_char_count
-    section["estimatedMinutes"] = round(oral_char_count / 180, 1)
+    section["estimatedMinutes"] = round(oral_char_count / speech_rate, 1)
     section["activityMinutes"] = round(activity_sec / 60, 1) if activity_sec > 0 else 0
     section["mediaLectureMinutes"] = round(media_lecture_sec / 60, 1)
     section["mediaActivityMinutes"] = round(media_activity_sec / 60, 1)
@@ -536,6 +549,25 @@ def blocks_to_h5_json(
     except Exception:
         _raw_lines = []
 
+    # --- 前置解析 package.yaml：提取语速配置 ---
+    # 语速需要在 section 处理循环前确定，因为 _enrich_section_stats 在循环中被调用
+    _speech_rate = _DEFAULT_SPEECH_RATE_CPM
+    pkg_yaml = script_file_path.parent / "package.yaml"
+    if not pkg_yaml.exists() and script_file_path.parent.name == ".build":
+        pkg_yaml = script_file_path.parent.parent / "package.yaml"
+    _pkg_data = None  # 缓存 package.yaml 数据供后续 budget 解析复用
+    if pkg_yaml.exists():
+        try:
+            import yaml
+            with open(pkg_yaml, 'r', encoding='utf-8') as f:
+                _pkg_data = yaml.safe_load(f)
+                if _pkg_data:
+                    sr = _pkg_data.get("speech_rate", 0)
+                    if sr and 80 <= sr <= 400:  # 合理范围护栏：80-400 字/分
+                        _speech_rate = int(sr)
+        except Exception:
+            pass
+
     # TTS 路径：新架构 build/tts/ 优先，旧架构 tts/ fallback
     tts_dir = course_path / "build" / "tts"
     if not tts_dir.exists():
@@ -577,7 +609,7 @@ def blocks_to_h5_json(
                     # ARC-01: 保存当前 section 的子节列表
                     current_section["subSections"] = current_subsections
                     current_subsections = []
-                    _enrich_section_stats(current_section)
+                    _enrich_section_stats(current_section, speech_rate=_speech_rate)
                     manifest["sections"].append(current_section)
                 section_id = f"mod-{len(manifest['sections']) + 1}"
 
@@ -771,34 +803,25 @@ def blocks_to_h5_json(
     if current_section:
         # ARC-01: 保存最后一个 section 的子节列表
         current_section["subSections"] = current_subsections
-        _enrich_section_stats(current_section)
+        _enrich_section_stats(current_section, speech_rate=_speech_rate)
         manifest["sections"].append(current_section)
 
     # ARC-01: 构建 modules 层级元数据
     _build_modules_layer(manifest)
 
     # 动态解析 package.yaml 计算 budgetMinutes
+    # 复用前置阶段已缓存的 _pkg_data，避免重复读取文件
     budget_minutes = 90
     theory_budget_minutes = 90
     practice_budget_minutes = 0
 
-    pkg_yaml = script_file_path.parent / "package.yaml"
-    if not pkg_yaml.exists() and script_file_path.parent.name == ".build":
-        pkg_yaml = script_file_path.parent.parent / "package.yaml"
-    if pkg_yaml.exists():
-        try:
-            import yaml
-            with open(pkg_yaml, 'r', encoding='utf-8') as f:
-                pkg_data = yaml.safe_load(f)
-                if pkg_data:
-                    th = pkg_data.get("theory_hours", 0)
-                    ph = pkg_data.get("practice_hours", 0)
-                    theory_budget_minutes = th * 45 if th > 0 else (90 if ph == 0 else 0)
-                    practice_budget_minutes = ph * 45
-                    if th > 0 or ph > 0:
-                        budget_minutes = theory_budget_minutes + practice_budget_minutes
-        except Exception:
-            pass
+    if _pkg_data:
+        th = _pkg_data.get("theory_hours", 0)
+        ph = _pkg_data.get("practice_hours", 0)
+        theory_budget_minutes = th * 45 if th > 0 else (90 if ph == 0 else 0)
+        practice_budget_minutes = ph * 45
+        if th > 0 or ph > 0:
+            budget_minutes = theory_budget_minutes + practice_budget_minutes
 
     # ARC-02/03: 聚合全局配速统计指标（含视频时长归因）
     manifest["stats"] = {
@@ -809,6 +832,7 @@ def blocks_to_h5_json(
         "activityMinutes": sum(sec.get("activityMinutes", 0) for sec in manifest["sections"]),
         "mediaLectureMinutes": sum(sec.get("mediaLectureMinutes", 0) for sec in manifest["sections"]),
         "mediaActivityMinutes": sum(sec.get("mediaActivityMinutes", 0) for sec in manifest["sections"]),
+        "speechRate": _speech_rate,  # 注入前端：让教师知道当前使用的语速假设
     }
 
     return manifest

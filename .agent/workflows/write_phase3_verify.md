@@ -104,7 +104,10 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
     .agent/skills/validation_suite/scripts/validate_visual_text_sync.py \
     --course "<课程名>" --week <周次>
   ```
-- **修复 Bullet Sync (🔴 必须)**: 必须修复所有 Bullet Sync 不匹配报告（Speech 中有多个并列要点，但 VISUAL 块没有 List 字段）。
+- **修复 Signaling Sync (🔴 必须)**: 按内容类型分流修复：
+  - 结构性枚举/操作步骤缺 List → 补充 ≤4 字/项的关键词 List
+  - 修辞性排比有 List → 移除 List 字段（文字化杀死冲击力）
+  - 论证性递进有 List → 建议移除（🟡 非阻断）
 - **优化 Text 字段 (🟡 建议)**: 审查 `Text 字段缺失` 的报告，为缺少 Text 的 VISUAL 块补全核心论断（而非泛化标题），提升 Slide 文字作为记忆锚点的效能。
 
 ### Step 3.9: 真实素材需求扫描 (Real-Asset Sourcing Check)
@@ -182,8 +185,8 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 |:---|:---|:---|
 | 预估总时长 ≥ 课程计划时长 x 80% | 如 5 小时课 → 预估需 ≥ 240 分钟 | **禁止提交，必须回到 Step 3 补充** |
 | ACTIVITY 总时长 > 0 | `lecture`/`workshop` 模式强制要求 | 补充 `[ACTIVITY]` 块后重新验证 |
-| **模块字数 ≥ 预算的 100%** | 逐字稿宁多勿缺，任何模块不得低于自声明预算 | **禁止提交，回到 Step 3 执行 DRP** |
-| 模块字数 < 预算的 80% | 严重不足红线 | **禁止提交，强制 DRP-L1→L2→L3** |
+| **模块字数偏低** | 📊 仅供教师参考 | Agent 仅报告现状，不触发自动修复。教师可选择标记 `<!-- SHORT_MODULE: logical_complete -->` 或要求补充 |
+| 模块字数 60%-80% | 📊 仅供教师参考 | 同上 |
 
 > **ℹ️ 分片架构提示**：验证器现在支持 `--file` 参数直传文件路径。对 `weeks/` 架构，`--course` 模式会自动编译分片脚本并使用 `_compiled.md`。
 

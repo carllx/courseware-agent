@@ -1,0 +1,19 @@
+﻿品类,品类_en,饮品,卡路里,总脂肪_g,含糖量_g,咖啡因_mg
+黑咖啡,Coffee,Brewed Coffee,5,0.1,0,330
+经典浓缩,Classic Espresso Drinks,Caffè Americano,15,0,0,225
+经典浓缩,Classic Espresso Drinks,Caffè Latte,130,0.3,18,150
+经典浓缩,Classic Espresso Drinks,Caffè Mocha,220,2.5,34,175
+经典浓缩,Classic Espresso Drinks,Cappuccino,80,0.2,10,150
+招牌特调,Signature Espresso Drinks,Caramel Macchiato,190,1,32,150
+招牌特调,Signature Espresso Drinks,White Chocolate Mocha,350,6,58,150
+招牌特调,Signature Espresso Drinks,Hot Chocolate,240,2.5,41,25
+茶饮,Tazo® Tea Drinks,Tazo® Chai Tea Latte,210,0.2,43,95
+茶饮,Tazo® Tea Drinks,Tazo® Green Tea Latte,290,0.5,56,80
+茶饮,Tazo® Tea Drinks,Tazo® Tea,0,0,0,Varies
+果昔,Smoothies,Strawberry Banana Smoothie,290,1,41,0
+果昔,Smoothies,Orange Mango Banana Smoothie,260,1,37,15
+星冰乐(咖啡),Frappuccino® Blended Coffee,Caramel,280,0.1,59,100
+星冰乐(咖啡),Frappuccino® Blended Coffee,Mocha,260,1,58,110
+星冰乐(咖啡),Frappuccino® Blended Coffee,Java Chip,310,4,62,110
+星冰乐(奶油),Frappuccino® Blended Crème,Vanilla Bean,240,0.1,55,0
+星冰乐(奶油),Frappuccino® Blended Crème,Strawberries & Crème,230,0.2,52,0

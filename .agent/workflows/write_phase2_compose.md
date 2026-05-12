@@ -83,6 +83,9 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
    - 解析返回的 JSON（`cn_count`, `budget`, `fill_ratio`, `deficit`）
 
    **Phase B：先减后加（目标 100%+）**
+
+   > [!CAUTION]
+   > **教师决策权约束**：Phase B 的内容补充仅在教师明确要求时执行。Agent 在首次写作（Phase A）中应以逻辑完整为准，不应以预算缺口为由自行发起 Phase B。
    - **Step B.1 先减**：审视 Phase A 产出中的所有段落，对照 `rule_content_depth.md` §4.1 标记"冗余段 (R)"。删减冗余段后计算净字数。
    - **Step B.2 再算**：deficit = budget - 净字数（非原始字数）
    - **Step B.3 后加**：根据**净缺口**量级有针对性地补充：
@@ -105,7 +108,7 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
        .agent/skills/validation_suite/scripts/validate_script_length.py \
        --course "<课程名>" --module-breakdown
      ```
-   - 仅当该模块 `fill_ratio >= 1.0` **且** Slide 达底线后标记 `done`
+   - 仅当该模块逻辑自检通过 **且** Slide 达底线后标记 `done`（字数预算仅作为参考，不作为硬性门禁）
     - **退化自检门 (Degeneration Gate)**：
       * 检查 `--segment-check` 返回的 `is_degenerated` 字段
       * 若 `is_degenerated == true`：禁止标记 `done`，**必须回退到 Phase A 重写退化区域**
@@ -127,7 +130,7 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
       * **验证**：
         - 如果 >30% 的加粗锚词未通过费曼画板 → 禁止标记 done
       * **理论依据**：将 Agent 的内部判断（不可观测）转化为外部表格产出（可观测），打破 Pinker 知识诅咒 + LLM Self-Enhancement Bias 的循环论证
-    - 若仍不达标，**此时才进入 DRP 流程**（但已有精确缺口数据）
+    - 若教师要求补充且字数偏低，**此时才进入素材补充流程**（但已有精确缺口数据）
    - **视觉密度即时检查**（`script_format/SKILL.md` §6 强制）：
      1. 统计当前模块的 `> [VISUAL]` 块数量
      2. 若 Slide 数 **< `⌈讲授净分钟数 ÷ 3⌉`**（底线值），禁止标记 done，须对照 §6.1 触发规则补充视觉
@@ -145,9 +148,9 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
 > [!IMPORTANT]
 > **Phase A → 中间检查点 → Phase B** 是字数达标的核心机制。禁止跳过中间检查点直接将模块标记为 done。禁止 Agent 自行估算字数——必须依赖外部验证器的精确计数。
 
-**字数不足回退协议 (Deficit Recovery Protocol — DRP)**：
+**字数不足素材补充协议 (Material Supplement Protocol)**：
 
-> **引用**: `rules/rule_content_depth.md` §3。当模块实际字数 < 预算 80% 时，按 DRP-L1 → L1.5 → L2 → L3 逐级执行，严禁跳级。详见完整定义。
+> **引用**: `rules/rule_content_depth.md` §3。当模块实际字数 < 预算 60% 时，按 DRP-L1 → L1.5 → L2 逐级补充真实素材。若补充后仍不足，标记 `<!-- SHORT_MODULE: logical_complete -->` 并继续。详见完整定义。
 
 3. **上下文管理**：已完成模块以**结构化记忆 Slot**（而非全文或 1 行摘要）保留在上下文中：
    ```

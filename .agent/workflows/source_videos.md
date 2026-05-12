@@ -130,7 +130,7 @@ description: 为指定教学周扫描脚本中的视频候选、执行网络调�
    - `**Duration**`: 通过 ffprobe 自动提取
    - `**TimeCategory**`: `activity`（>30s）或 `lecture`（≤30s）
 5. 如果原 VISUAL 块有 `**Asset (AI fallback)**`，删除该行（视频块禁止双轨）
-6. 遵循 `rule_visual_video_isolation.md` 一块一视频原则
+6. 遵循 `script_format/SKILL.md` §3 视频型 Asset 规范：一块一视频原则
 
 ---
 
@@ -152,6 +152,5 @@ description: 为指定教学周扫描脚本中的视频候选、执行网络调�
 |:---|:---|
 | `real-asset-scanner` (S7) | §2 步骤的自动化信号源 |
 | `video-downloader` (§7/§8) | §5 步骤的底层执行引擎 |
-| `script-format` (§3) | §6 步骤的 VISUAL 块规范 |
-| `rule_visual_video_isolation` | §6 步骤的一块一视频校验 |
+| `script-format` (§3) | §6 步骤的 VISUAL 块规范 + 一块一视频校验 |
 | `rule_asset_placement_guard` | §1/§5 步骤的路径合规校验 |

@@ -14,7 +14,7 @@ description: 为指定课程的教学单元撰写逐字稿
 | 阶段 | 文件 | 内容 | 门控 |
 |:---|:---|:---|:---|
 | **Phase 1: 备料** | [`write_phase1_prep.md`](write_phase1_prep.md) | Step 0-2.8：环境预检 → 预算声明 → 课程定位 → 上下文加载 → 知识扫描 → 教材审查 → 深度调研 → 素材预算表 | 素材覆盖率 ≥ 70% 方可进入 Phase 2（参见 `rule_content_depth.md` §1.2） |
-| **Phase 2: 写作** | [`write_phase2_compose.md`](write_phase2_compose.md) | Step 3：Phase A/B/C 分段写作闭环 + DRP + 上下文管理 | 每模块 `fill_ratio ≥ 1.0` 方可标记 done（参见 `rule_content_depth.md` §2-3） |
+| **Phase 2: 写作** | [`write_phase2_compose.md`](write_phase2_compose.md) | Step 3：Phase A/B/C 分段写作闭环 + 素材补充 + 上下文管理 | 逻辑自检通过方可标记 done（参见 `rule_content_depth.md` §2-3） |
 | **Phase 3: 校验** | [`write_phase3_verify.md`](write_phase3_verify.md) | Step 3.5-6：大纲对齐 → 时长自检 → 知识面覆盖 → 收尾 | 全部通过方可进入 `/audit` |
 
 ## 全局约束

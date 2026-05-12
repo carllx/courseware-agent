@@ -21,8 +21,8 @@ globs:
 | O4 | **frontmatter ↔ lessons.objectives 同步** | 脚本 frontmatter `objectives` 必须与 `calendar[].lessons[].objectives` 逐条一致。若写作中优化了动词表述，必须同步更新 `course.yaml` | 双端 SSOT | 🟡 中 |
 | O5 | **OBE 构建性对齐** | 验证 `supported_objectives` 中每个目标在脚本中有 目标→活动→评价 闭环 | OBE 框架 | 🟡 中 |
 | O6 | **Bloom 动词** | 检查 frontmatter objectives 是否使用合理的 Bloom 可测量动词（豁免范围内为建议级） | OBE 框架 | 🟢 低 |
-| O7 | **Bullet Sync 要点同步** | Speech 中每处结构化要点（≥3 并列项、阶段划分、考核规则、任务要求）必须在紧邻的 `[VISUAL]` 块中有 `**List**` 字段同步展示 | `script_format` §1.3 | 🟡 中 |
-| O9 | **模块字数预算达标** | 每个 `##` 模块的讲授字数 ≥ **预算的 100%**（预算 = 模块自声明分钟 × 语速常量 180 字/分，扣除 ACTIVITY 占用）。80%-100% 为 ⚠️ 偏薄；<80% 为 ❌ 严重不足。验证：`validate_script_length.py --module-breakdown`。**兜底规则**：即使验证器全部 ✅，Agent 仍需手动抽检 ≥1 个模块的字数/预算比值；若全脚本预估时长 ÷ 课时预算 < 60%，强制触发手动全量复核 | `course.yaml` + ADR 020 | 🔴 高 |
+| O7 | **Signaling Sync 信标同步** | Speech 中并列要点按内容类型分流：结构性枚举/操作步骤必须有 List（≤4 字/项）；论证性递进禁止有 List；修辞性排比绝对禁止 List | `script_format` §1.3 + `rule_visual_signaling.md` | 🟡 中 |
+| O9 | **模块字数预算对标（仅供参考）** | 每个 `##` 模块的讲授字数与预算的对比率。验证：`validate_script_length.py --module-breakdown`。**此指标仅为教师决策参考，不构成审计失败条件。Agent 禁止以字数不足为由自行扩写——扩写决定权归教师。** 字数偏低时验证器输出 📊 标记（不影响退出码），仅退化/溢出等质量问题触发非零退出码 | `course.yaml` + ADR 020 | 🟢 低 |
 | O10 | **人文标签密度** | 每个 `##` 讲授模块的口头型人文标签数 ≥ `⌈模块讲授字数预算 ÷ 2000⌉`（最低 1 个/模块）。口头型标签包括：`STORY TIME`/`CASE STUDY`/`LIFE CONNECT`/`PHILOSOPHY`/`DID YOU KNOW`/`TEACHING MOMENT`。验证：`validate_script_length.py --module-breakdown` 的「标签」列 | `script_format` §7 | 🔴 高 |
 
 ## 额外项（仅 /write 使用）

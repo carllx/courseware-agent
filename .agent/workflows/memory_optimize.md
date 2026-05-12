@@ -83,7 +83,7 @@ description: 对指定逐字稿模块执行记忆逻辑专项优化（要旨可�
 - `[SKELETON_DEAD_LOOP]`：标题语义重叠
 - `[FRAGMENTED_LOGIC]`：锚词串联无逻辑关联
 
-### Step 1.3: Bullet Sync + Text 覆盖率
+### Step 1.3: Signaling Sync + Text 覆盖率
 
 // turbo
 ```bash
@@ -93,7 +93,9 @@ description: 对指定逐字稿模块执行记忆逻辑专项优化（要旨可�
 ```
 
 **关注指标**：
-- Bullet Sync 不匹配（🔴）
+- Signaling 缺失（结构性枚举/操作步骤无 List）（🔴）
+- 修辞性排比有 List（🔴）
+- 冗余效应风险（论证性递进有 List）（🟡）
 - Text 覆盖率 < 50%（🟡）
 - Heading 空洞（🟡）
 

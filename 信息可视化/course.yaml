@@ -663,5 +663,5 @@ exams:
 
 agent:
   standards:
-    visual_system: "../.agent/styles/theme_constructivist_dada.yaml"
+    visual_system: "../.agent/styles/theme_data_ink_swiss.yaml"
 

@@ -803,9 +803,9 @@ function renderSplit(ctx) {
             });
             y += 0.55;
         });
-    } else if (visual.scene) {
-        // 场景描述作为正文
-        slide.addText(visual.scene, {
+    } else if (visual.text && visual.headline) {
+        // 如果同时有 headline(作了标题) 和 text(没作标题)，则把 text 当正文
+        slide.addText(visual.text.replace(/\\n/g, '\n'), {
             x: MARGIN, y: y, w: textW, h: CH - y - 0.3,
             fontSize: 16, fontFace: F.body, color: getC(theme, 'text_main'),
             valign: 'top',
@@ -827,9 +827,14 @@ function renderSplit(ctx) {
  * renderImage — 居中大图布局
  */
 function renderImage(ctx) {
-    const { slide, theme, visual, assetPath } = ctx;
+    const { slide, theme, visual, assetPath, assetPaths } = ctx;
     const C = theme.C;
     const F = theme.FONT;
+
+    // 多图防御警告：Image 布局仅展示首图，多余资产被静默丢弃
+    if (assetPaths && assetPaths.length > 1) {
+        console.warn(`⚠️  [renderImage] Layout:Image 仅支持单图，但收到 ${assetPaths.length} 张。丢弃第 2+ 张。建议改用 Layout: Grid。 (Slide: ${visual.slide || '?'})`);
+    }
 
     // 标题
     const title = extractTitle(visual);
@@ -867,9 +872,14 @@ function renderImage(ctx) {
  * v2: 反转为左文右图（与 Split 一致方向）
  */
 function renderDiagram(ctx) {
-    const { pres, slide, theme, visual, assetPath } = ctx;
+    const { pres, slide, theme, visual, assetPath, assetPaths } = ctx;
     const C = theme.C;
     const F = theme.FONT;
+
+    // 多图防御警告：Diagram 布局仅展示首图
+    if (assetPaths && assetPaths.length > 1) {
+        console.warn(`⚠️  [renderDiagram] Layout:Diagram 仅支持单图，但收到 ${assetPaths.length} 张。丢弃第 2+ 张。建议改用 Layout: Grid。 (Slide: ${visual.slide || '?'})`);
+    }
 
     // 标题
     const title = extractTitle(visual);
@@ -913,9 +923,9 @@ function renderDiagram(ctx) {
             }
             startY += itemSpacing;
         });
-    } else if (visual.scene) {
-        // Fallback: 用 scene 填充左侧
-        slide.addText(visual.scene, {
+    } else if (visual.text && visual.headline) {
+        // 如果 text 没有被用作标题，则显示为左侧正文
+        slide.addText(visual.text.replace(/\\n/g, '\n'), {
             x: MARGIN, y: 1.2, w: 4.3, h: 3.8,
             fontSize: 14, fontFace: F.body, color: getC(theme, 'text_secondary'),
             valign: 'top',
@@ -938,9 +948,14 @@ function renderDiagram(ctx) {
  * v2: 添加编号圆形标记（而非纯 bullet）
  */
 function renderList(ctx) {
-    const { pres, slide, theme, visual, assetPath } = ctx;
+    const { pres, slide, theme, visual, assetPath, assetPaths } = ctx;
     const C = theme.C;
     const F = theme.FONT;
+
+    // 多图防御警告：List 布局仅展示首图
+    if (assetPaths && assetPaths.length > 1) {
+        console.warn(`⚠️  [renderList] Layout:List 仅支持单图，但收到 ${assetPaths.length} 张。丢弃第 2+ 张。建议改用 Layout: Grid。 (Slide: ${visual.slide || '?'})`);
+    }
 
     // 标题
     const title = extractTitle(visual);
@@ -1013,7 +1028,7 @@ function renderList(ctx) {
  * v3: 消除图/卡零和博弈，支持 Editorial Split（左图右卡共生）
  */
 function renderGrid(ctx) {
-    const { pres, slide, theme, visual, assetPath } = ctx;
+    const { pres, slide, theme, visual, assetPath, assetPaths } = ctx;
     const C = theme.C;
     const F = theme.FONT;
 
@@ -1029,17 +1044,11 @@ function renderGrid(ctx) {
 
     // 解析 list
     const items = parseListString(visual.list);
+    const imgs = (assetPaths && assetPaths.length > 0) ? assetPaths : (assetPath ? [assetPath] : []);
 
-    if (items.length === 0) {
-        // 无 list 数据：如果有 asset 则展示居中大图，否则显示 scene 摘要
-        if (assetPath) {
-            const maxW = 8.0;
-            const maxH = 3.8;
-            const { w: finalW, h: finalH } = fitImage(assetPath, maxW, maxH);
-            const x = (CW - finalW) / 2;
-            const y = 1.1 + (maxH - finalH) / 2;
-            slide.addImage({ path: assetPath, x: x, y: y, w: finalW, h: finalH });
-        } else if (visual.scene) {
+    // 无图无文守卫：避免生成空白 Slide
+    if (items.length === 0 && imgs.length === 0) {
+        if (visual.scene) {
             slide.addText(visual.scene, {
                 x: MARGIN, y: 1.0, w: CW - MARGIN * 2, h: 3.5,
                 fontSize: 16, fontFace: F.body, color: getC(theme, 'text_main'),
@@ -1049,14 +1058,114 @@ function renderGrid(ctx) {
         return;
     }
 
-    // ─── Editorial Split 模式：图+卡共生（左图右卡）───
-    if (assetPath && items.length > 0) {
+    // ─── Multi-Image Grid 模式：多图文卡片网格 ───
+    if (imgs.length > 1) {
+        const count = Math.max(imgs.length, items.length);
+        const cols = count <= 3 ? count : (count === 4 ? 2 : 3);
+        const rows = Math.ceil(count / cols);
+
+        const cardW = (CW - MARGIN * 2 - 0.35 * (cols - 1)) / cols;
+        const gridY = 1.1;
+        const gridH = CH - gridY - 0.8; 
+        const cardH = (gridH - 0.35 * (rows - 1)) / rows;
+        const startX = (CW - (cardW * cols + 0.35 * (cols - 1))) / 2;
+
+        const accents = [
+            getC(theme, 'primary'),
+            getC(theme, 'tertiary', getC(theme, 'warning')),
+            getC(theme, 'secondary', getC(theme, 'success')),
+            getC(theme, 'primary_light', getC(theme, 'primary')),
+        ];
+
+        for (let i = 0; i < count; i++) {
+            const col = i % cols;
+            const row = Math.floor(i / cols);
+            const cx = startX + col * (cardW + 0.35);
+            const cy = gridY + row * (cardH + 0.35);
+
+            // 卡片背景
+            slide.addShape(pres.shapes.RECTANGLE, {
+                x: cx, y: cy, w: cardW, h: cardH,
+                fill: { color: getC(theme, 'bg_surface', 'FFFFFF') },
+                shadow: cardShadow(),
+            });
+
+            let currentY = cy;
+
+            // 1. 图片部分 (占卡片高度的 45%)
+            const ap = imgs[i];
+            const imgAreaH = cardH * 0.45;
+            if (ap && fs.existsSync(ap)) {
+                const { w: finalW, h: finalH } = fitImage(ap, cardW, imgAreaH);
+                const imgX = cx + (cardW - finalW) / 2;
+                const imgY = cy + (imgAreaH - finalH) / 2;
+                slide.addImage({ path: ap, x: imgX, y: imgY, w: finalW, h: finalH });
+                currentY += imgAreaH;
+            } else {
+                slide.addShape(pres.shapes.RECTANGLE, {
+                    x: cx, y: cy, w: cardW, h: 0.06,
+                    fill: { color: accents[i % accents.length] },
+                });
+                currentY += 0.1;
+            }
+
+            // 2. 文字部分
+            const item = items[i];
+            if (item) {
+                const itemTitle = typeof item === 'string' ? item : item.title;
+                const itemDesc = typeof item === 'string' ? '' : (item.desc || '');
+
+                slide.addText(itemTitle, {
+                    x: cx + 0.15, y: currentY + 0.1, w: cardW - 0.3, h: 0.35,
+                    fontSize: 16, fontFace: F.title, color: getC(theme, 'text_main'),
+                    bold: true, margin: 0,
+                });
+
+                if (itemDesc) {
+                    slide.addText(itemDesc, {
+                        x: cx + 0.15, y: currentY + 0.45, w: cardW - 0.3, h: cardH - (currentY - cy) - 0.5,
+                        fontSize: 13, fontFace: F.body, color: getC(theme, 'text_secondary'),
+                        valign: 'top', margin: 0,
+                    });
+                }
+            }
+        }
+
+        // 底部注释
+        if (visual.scene) {
+            const footNote = sceneSummary(visual.scene, 80);
+            if (footNote && footNote !== title) {
+                slide.addText(footNote, {
+                    x: MARGIN, y: CH - 0.6, w: CW - MARGIN * 2, h: 0.35,
+                    fontSize: 13, fontFace: F.body, italic: true, color: getC(theme, 'text_muted'),
+                    align: 'center',
+                });
+            }
+        }
+        return;
+    }
+
+    // ─── 如果只有一张图片，且 items.length 为 0，走全图 ───
+    if (items.length === 0 && imgs.length === 1) {
+        const ap = imgs[0];
+        const maxW = 8.0;
+        const maxH = 3.8;
+        const { w: finalW, h: finalH } = fitImage(ap, maxW, maxH);
+        const x = (CW - finalW) / 2;
+        const y = 1.1 + (maxH - finalH) / 2;
+        slide.addImage({ path: ap, x: x, y: y, w: finalW, h: finalH });
+        return;
+    }
+
+    // ─── Editorial Split 模式：图+卡共生（单图 + 右侧列表）───
+    if (imgs.length === 1 && items.length > 0) {
+        const ap = imgs[0];
         const imgW = 4.0;
         const imgMaxH = 4.0;
-        const { w: finalW, h: finalH } = fitImage(assetPath, imgW, imgMaxH);
+        const { w: finalW, h: finalH } = fitImage(ap, imgW, imgMaxH);
         const imgX = MARGIN;
         const imgY = 1.1 + (imgMaxH - finalH) / 2;
-        slide.addImage({ path: assetPath, x: imgX, y: imgY, w: finalW, h: finalH });
+        slide.addImage({ path: ap, x: imgX, y: imgY, w: finalW, h: finalH });
 
         // 右侧卡片区：单列纵向排列
         const cardX = MARGIN + imgW + 0.4;

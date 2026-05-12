@@ -68,5 +68,5 @@ Agent 必须在写入前完成以下 3 步自检：
 | 规则 | 关系 |
 |:---|:---|
 | `rule_asset_management.md` §3.3 | 本规则是其 `[!WARNING]` 的运行时执行层 |
-| `rule_visual_video_isolation.md` | 互补：该规则管 VISUAL 块格式，本规则管物理文件位置 |
+| `script_format/SKILL.md` §3 | 互补：该技能管 VISUAL 块格式（含一块一视频），本规则管物理文件位置 |
 | `video-downloader` §3 路径防漂移 | 互补：该技能管路径格式（绝对 vs 相对），本规则管路径层级（周次 vs 课程） |

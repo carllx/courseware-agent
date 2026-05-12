@@ -106,6 +106,7 @@ export default function OutlineSidebar({
           activityMinutes = 0,
           mediaLectureMinutes = 0,
           mediaActivityMinutes = 0,
+          speechRate = 180,
         } = manifest.stats;
         
         // ARC-03: 视频时长归入对应时间池
@@ -113,11 +114,13 @@ export default function OutlineSidebar({
         const effectiveActivity = activityMinutes + mediaActivityMinutes;
         const totalMedia = mediaLectureMinutes + mediaActivityMinutes;
 
-        const toHours = (m) => (m / 45).toFixed(1);
-        const lH = Number(toHours(effectiveLecture));
-        const aH = Number(toHours(effectiveActivity));
-        const tBh = Number(toHours(theoryBudgetMinutes)).toFixed(0);
-        const pBh = Number(toHours(practiceBudgetMinutes)).toFixed(0);
+        // P1: 修正命名——toClassHours 转换为"学时"(45分钟/学时)，而非"小时"
+        const toClassHours = (m) => (m / 45).toFixed(1);
+        const lH = Number(toClassHours(effectiveLecture));
+        const aH = Number(toClassHours(effectiveActivity));
+        // P1: 统一精度为 .toFixed(1)，消除展示值与检测阈值的认知不一致
+        const tBh = toClassHours(theoryBudgetMinutes);
+        const pBh = toClassHours(practiceBudgetMinutes);
 
         // 理论讲授 Track 计算
         const lMax = Math.max(theoryBudgetMinutes, effectiveLecture, 1); 
@@ -129,7 +132,11 @@ export default function OutlineSidebar({
         const pMax = Math.max(practiceBudgetMinutes, effectiveActivity, 1); 
         const pFillP = (effectiveActivity / pMax) * 100;
         const pThresholdP = (practiceBudgetMinutes / pMax) * 100;
-        const pOvertime = practiceBudgetMinutes > 0 && effectiveActivity > practiceBudgetMinutes;
+        // P2: 零预算场景——当计划外活动 ≥ 5 分钟时判定为超载
+        // 避免微型课堂互动（如30秒举手投票）误触发警告
+        const pOvertime = practiceBudgetMinutes > 0
+          ? effectiveActivity > practiceBudgetMinutes
+          : effectiveActivity >= 5;
 
         let ratioText = '纯讲授';
         if (effectiveActivity > 0) {
@@ -140,18 +147,21 @@ export default function OutlineSidebar({
         }
 
         // ARC-03: 视频时长信息
-        const mediaLecTag = mediaLectureMinutes > 0 ? ` (含📹${toHours(mediaLectureMinutes)})` : '';
-        const mediaActTag = mediaActivityMinutes > 0 ? ` (含📹${toHours(mediaActivityMinutes)})` : '';
+        const mediaLecTag = mediaLectureMinutes > 0 ? ` (含📹${toClassHours(mediaLectureMinutes)})` : '';
+        const mediaActTag = mediaActivityMinutes > 0 ? ` (含📹${toClassHours(mediaActivityMinutes)})` : '';
+        // 语速提示信息
+        const rateInfo = speechRate !== 180 ? ` | 语速 ${speechRate}字/分` : '';
+
 
         return (
           <div className="outline-pacing-container">
             <div className="pacing-global-header">
               <span className="pacing-title">课程进度剖析</span>
-              <span className="pacing-ratio">{ratioText}{totalMedia > 0 && <span className="pacing-media-badge" title={`视频素材合计 ${toHours(totalMedia)} 学时`}>📹</span>}</span>
+              <span className="pacing-ratio">{ratioText}{totalMedia > 0 && <span className="pacing-media-badge" title={`视频素材合计 ${toClassHours(totalMedia)} 学时`}>📹</span>}</span>
             </div>
 
             {/* Track 1: 理论讲授 */}
-            <div className="pacing-track-container" title={`理论包含讲授与互动，系统预估字数换算${mediaLecTag}\n实际：${lH.toFixed(1)} 学时 | 预设：${tBh} 学时`}>
+            <div className="pacing-track-container" title={`理论包含讲授与互动，系统预估字数换算${mediaLecTag}${rateInfo}\n实际：${lH.toFixed(1)} 学时 | 预设：${tBh} 学时`}>
               <div className="pacing-track-header">
                 <span className={`pacing-track-label ${lOvertime ? 'overtime-warn' : ''}`}>讲授 ({lH.toFixed(1)}/{tBh} 学)</span>
               </div>

@@ -504,3 +504,40 @@ entries:
   summary: AI Vibe Coding 技能进阶四阶段：黑盒魔法(Prompt) -> 灰盒沙箱(Artifacts) -> 白盒排雷(Debug) ->
     系统架构(Dashboard)
   source: knowledge/notes/vibe_coding_progression_roadmap.md
+- id: vis-metaphor-expression
+  type: textbook_extraction
+  tags:
+  - visual-metaphor
+  - chart-selection
+  - spatial-metaphor
+  - dma
+  summary: 时空隐喻与图表选择：雷达图、桑基图、旭日图隐喻解析；单点透视与散点透视的差异；Meta-Art视觉语言同构
+  source: knowledge/notes/01_时空隐喻与视觉表达.md
+- id: marks-channels-grammar
+  type: textbook_extraction
+  tags:
+  - marks
+  - channels
+  - expressiveness
+  - effectiveness
+  summary: 原子语法结构：点线面图元；身份通道与量化通道；表达性与有效性排名铁律；气泡图底层解剖
+  source: knowledge/notes/02_原子语法：标记与通道.md
+- id: visual-illusion-cognition
+  type: textbook_extraction
+  tags:
+  - perception
+  - stevens-power-law
+  - weber-law
+  - popout
+  - colormap
+  summary: 认知精度陷阱：史蒂文斯定律(面积压缩)；韦伯定律(基数盲区)；前注意处理(视觉弹出失效)；三大色阶规范与彩虹色禁忌
+  source: knowledge/notes/03_视觉偏差与认知心理学精度.md
+- id: data-ink-minimalism
+  type: textbook_extraction
+  tags:
+  - data-ink-ratio
+  - tufte
+  - no-3D
+  - minimalism
+  summary: 删减的艺术：Tufte数据墨水比与四步擦除法；伪3D的三宗罪(遮挡/透视失真/算力浪费)；黑白测试与小多图
+  source: knowledge/notes/04_极简设计与数据墨水比.md

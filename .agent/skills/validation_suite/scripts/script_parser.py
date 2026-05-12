@@ -269,6 +269,15 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                 i += 1
 
             block_end = block_start + len(block_lines) - 1
+
+            # [ADR] 防 Markdown 粘连检查: 确保 [VISUAL] / [ACTIVITY] / 知识标签 不被错误包裹在同一引用块内
+            for b_idx in range(1, len(block_lines)):
+                if RE_TAG_START.match(block_lines[b_idx]):
+                    tag_match = RE_TAG_START.match(block_lines[b_idx])
+                    tag_name = tag_match.group(1).strip()
+                    err_line = block_start + b_idx
+                    raise ValueError(f"\n❌ 严重排版错误 (Markdown 粘连): 第 {err_line} 行的 `> [{tag_name}]` 被错误地连接到了上一个引用块中。\n请在它上方使用**真正的空行**（完全空白，删除连接的 `>` 符号）来物理切断区块！\n文件: {file_path}")
+
             raw_content = '\n'.join(block_lines)
 
             # 提取引用内容（去掉 > 前缀）
@@ -334,6 +343,25 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                         tcm = RE_VISUAL_TIME_CAT.search(il)
                         if tcm:
                             meta["time_category"] = _extract(tcm).lower()
+
+                    # [ADR] VISUAL 块夹带私货拦截 (Stray Text Detection)
+                    # H5 <Visual> 组件只接受属性字段，如果作者把讲授词或活动说明错误地放在了 VISUAL 块内部，前端会直接丢弃。
+                    in_list_field = False  # **List**: 后的列表项合法区间
+                    for inner_i, il in enumerate(inner_lines):
+                        il_s = il.strip()
+                        if not il_s or il_s.startswith('[VISUAL]'): continue
+                        # 合法的属性行必然是以 ** 开头（或者 * **），并且包含冒号。使用无回溯风险的正规表达式
+                        is_field_line = bool(re.match(r'^[\*\s]*\*\*[^\*]+\*\*[:：]', il_s))
+                        if is_field_line:
+                            # 进入/退出 List 区间
+                            in_list_field = bool(re.match(r'^[\*\s]*\*\*List\*\*[:：]', il_s))
+                            continue
+                        # **List**: 后的列表项白名单 (- item 格式)
+                        if in_list_field and re.match(r'^[\-\*\+]\s+', il_s):
+                            continue
+                        # 非 List 区域的非字段行 → 夹带私货
+                        err_line = block_start + inner_i
+                        raise ValueError(f"\n❌ 严重排版错误 (VISUAL 夹带私货): 第 {err_line} 行的文本 `{il_s[:40]}...` 被错误地写在了 `[VISUAL]` 属性块内部。\n[VISUAL] 块是纯配置块，只能包含 `**Slide**:`, `**Scene` 等元数据，前端 H5 引擎会无视其中的任何普通口播文本！\n请将该行文本移出 `[VISUAL]` 区块（即删掉开头的 `>`）！\n文件: {file_path}")
 
                     # 输出兼容层:
                     # - meta["assets"]: 完整资产列表（新 API）

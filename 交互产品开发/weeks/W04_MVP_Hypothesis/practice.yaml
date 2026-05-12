@@ -1,0 +1,194 @@
+# W04_practice.yaml — Exp1 收官工作坊：从调研数据到 MVP 实验
+# Schema: practice_schema.md v3.1 (ADR 043 + 超星集成)
+# 对应脚本: M05_实验1_收官_调研汇报与可行性清单.md
+# 版本: v1.0 (2026-05-11)
+
+week: 4
+title: "Exp1 收官：从调研数据到假设与 MVP 实验"
+experiment_link:
+  - "Exp1: 荒野与猎物 (User Insight & Journey) — 收官验收"
+total_minutes: 80  # hours_practice=2 → 约 80min 工作坊
+
+theory_prerequisites:
+  # W03 基础（学生应已掌握）
+  - "言行鸿沟 (Say-Do Gap)"
+  - "5-Whys 连环追问法"
+  - "JTBD 框架（Functional / Social / Emotional 三维度）"
+  - "Problem Statement 公式"
+  # W04 新增概念
+  - "Proto-Persona 四大模块标准格式（背景、行为、JTBD、痛点陈述）"
+  - "人口统计学陷阱 (Demographic Trap)"
+  - "假设声明四段式 (We Believe / If / Attain / With)"
+  - "输出谬误 (Output Trap)：Output ≠ Outcome"
+  - "假设优先级矩阵 HPC（风险 × 价值 2x2 四象限）"
+  - "MVP 光谱（纸质原型 / 着陆页 / 假按钮 / 绿野仙踪）"
+  - "真相曲线 (Truth Curve)"
+  - "MoSCoW 四条红线法则"
+
+phases:
+  # ════════════════════════════════════════════
+  # Phase 1: 法医预检 + 痛点重算
+  # ════════════════════════════════════════════
+  - id: P1
+    name: "法医预检与痛点重算"
+    minutes: 20
+    type: workshop
+    description: >
+      验收 W03 课后的田野调研成果。各组展示原始访谈录音、
+      现场照片和 Proto-Persona Figma 草稿。基于真实素材
+      重新提炼结构化的业务问题陈述。
+    steps:
+      - "素材验收 (5 min)：各组将录音/照片/Figma 链接提交到教学系统，教师快速抽查 2-3 组"
+      - "痛点重算 (15 min)：听录音回放，运用 Problem Statement 公式重新提炼业务问题陈述"
+    theory_link:
+      - concept_id: "problem_statement"
+        description: "基于真实调研数据重写 Problem Statement"
+      - concept_id: "say_do_gap"
+        description: "对比录音中用户'说的'与观察到用户'做的'"
+    deliverables:
+      - "重新打磨的 Problem Statement（必须包含量化指标）"
+    verification:
+      note: "此环节为 W03 Exp1 课后作业的验收节点"
+      checklist:
+        - "Proto-Persona Figma 草稿（基于真实调研，非臆断）"
+        - "原始访谈录音节选（至少含 1 段 5-Why 追问链路）"
+        - "访谈现场环境照片（至少 2 张）"
+        - "知情同意书签名件"
+      incomplete_policy: >
+        素材不完整的组在本环节标注缺失项，
+        允许在下课前补交，但影响该环节的评分等级。
+
+  # ════════════════════════════════════════════
+  # Phase 2: 锁定真凶 — Proto-Persona 深化
+  # ════════════════════════════════════════════
+  - id: P2
+    name: "锁定真凶：Proto-Persona 深化与行为特征提取"
+    minutes: 20
+    type: workshop
+    description: >
+      基于真实调研数据，深化 W03 的 Proto-Persona 草稿。
+      重点强化右上区"行为核心特征"（警惕人口学陷阱），
+      并在 Figma 中实时更新画像卡。
+    tools: ["Figma（免费版）"]
+    steps:
+      - "受众投票 (3 min)：每人写 1 个受众标签便利贴，全员投票只保留 1 个主攻目标"
+      - "行为特征提取 (12 min)：在 Figma 中更新 Proto-Persona 右上区，必须列出 3 条行为预测变量（非人口学标签！）"
+      - "交叉审视 (5 min)：组间交换 Figma 链接，用 Comment 标注对方的人口学陷阱"
+    theory_link:
+      - concept_id: "proto_persona"
+        description: "深化四大模块的行为特征区"
+      - concept_id: "demographic_trap"
+        description: "交叉审视环节专门检测人口学标签误用"
+    deliverables:
+      - "深化后的 Proto-Persona Figma（右上区行为特征已更新）"
+      - "至少 2 条针对其他组的 Figma Comment 审查意见"
+
+  # ════════════════════════════════════════════
+  # Phase 3: 假设提炼与 HPC 矩阵
+  # ════════════════════════════════════════════
+  - id: P3
+    name: "假设提炼：四段式声明与 HPC 矩阵"
+    minutes: 25
+    type: workshop
+    description: >
+      教师先用某组数据示范四段式假设声明的写法（3min），
+      然后各组基于自身调研数据写出 3 条核心假设，
+      并在白板上进行 HPC 2x2 矩阵排列。
+    tools: ["白板/便利贴"]
+    materials:
+      - type: template
+        title: "四段式假设声明 A4 填充卡"
+        deploy_note: "课前打印，每组 5 张"
+        template_fields:
+          - "We Believe：[可测的商业数据结果]"
+          - "If：[经过验证的 Proto-Persona 受众]"
+          - "Attain：[消除的使用摩擦 / 行为干预后果]"
+          - "With：[具体的功能点或交互方案]"
+      - type: template
+        title: "HPC 矩阵海报（2x2 网格）"
+        deploy_note: "课前打印 A2 尺寸，每组 1 张"
+    steps:
+      - "教师示范 (3 min)：在黑板上用某组真实数据示范四段式假设写法"
+      - "假设撰写 (12 min)：各组写出 3 条核心假设声明（每条只含 1 个功能变量）"
+      - "HPC 矩阵排列 (10 min)：将 3 条假设贴入 2x2 矩阵，锁定 Q1（高价值高风险）"
+    theory_link:
+      - concept_id: "hypothesis_statement"
+        description: "四段式假设声明实战练习"
+      - concept_id: "hpc_matrix"
+        description: "HPC 矩阵四象限裁决"
+    scoring_rubric:
+      - level: "⭐⭐ 及格"
+        criteria: "写出假设但格式不完整（缺少量化指标或受众不具体）"
+      - level: "⭐⭐⭐ 良好"
+        criteria: "3 条假设格式完整，且每条只含 1 个功能变量"
+      - level: "⭐⭐⭐⭐ 优秀"
+        criteria: "假设精准 + HPC 矩阵排列合理 + 能解释 Q1 优先理由"
+    deliverables:
+      - "3 条四段式假设声明卡片"
+      - "HPC 矩阵排列照片"
+
+  # ════════════════════════════════════════════
+  # Phase 4: 构思 MVP 实验
+  # ════════════════════════════════════════════
+  - id: P4
+    name: "构思 MVP：设计最廉价的验证实验"
+    minutes: 15
+    type: workshop
+    description: >
+      锁定 Q1 象限的核心假设，设计一个最小可行性实验。
+      必须在白板上写下明确的定量验证指标和 MoSCoW 四条红线。
+    tools: ["白板/便利贴"]
+    materials:
+      - type: template
+        title: "MVP 实验明细表（MoSCoW 四条红线）"
+        deploy_note: "课前打印，每组 1 张"
+        template_fields:
+          - "🔴 必须有（实验生存线）：验证假设所必需的触点"
+          - "🟡 应该有（视觉伪装线）：让用户以为是真产品的伪装"
+          - "🟢 可以有（体验糖果线）：有空加的点缀"
+          - "⚫ 绝不碰（开发死亡线）：真实后端逻辑/数据库"
+    steps:
+      - "MVP 方式选择 (3 min)：从光谱中选择验证工具（纸质原型/着陆页/假按钮/绿野仙踪）"
+      - "实验设计 (8 min)：在白板上画出 MVP 方案 + 写下定量验证指标"
+      - "红线划定 (4 min)：用 MoSCoW 四条红线法则标注每个功能的生死边界"
+    theory_link:
+      - concept_id: "mvp_spectrum"
+        description: "从光谱中选择匹配当前证据强度的验证方式"
+      - concept_id: "truth_curve"
+        description: "原型投入必须被证据置信度严格限制"
+    deliverables:
+      - "MVP 实验方案白板照片（含验证工具选择 + 定量指标）"
+      - "MoSCoW 四条红线划定表"
+
+# === 课后作业 (W05 课前提交) ===
+homework:
+  deadline: "W05 课前"
+  deliverables:
+    - item: "深度打磨的 A4 四大模块用户画像卡 (Figma)"
+      requirements:
+        - "必须源于真实赛道数据"
+        - "右上区必须是行为特征（非人口学标签）"
+    - item: "3 条核心假设及 HPC 矩阵分布截图"
+      requirements:
+        - "每条假设只含 1 个功能变量"
+        - "标注 Q1 假设的优先理由"
+    - item: "MVP 实验明细表"
+      requirements:
+        - "基于 MoSCoW 四条红线法则"
+        - "清晰标明哪些是假装的功能"
+        - "包含定量验证指标"
+
+# === AI 陪练复用说明 ===
+ai_agent_reuse:
+  note: >
+    W04 工作坊前，鼓励各组用万能角色构建器的"自由模式"
+    对自己的 Exp1 赛道做一次 AI 预演采访。
+    方法：直接打开 AI 终端，描述自己赛道的用户场景，
+    不使用 /theme 命令，Agent 将自由生成对应角色。
+  prompt_path: "practices/materials/W03/教师版_JTBD访谈陪练终端系统提示词.md"
+
+# === 上游依赖 ===
+upstream_dependencies:
+  - week: 3
+    concepts: ["say_do_gap", "five_whys", "jtbd_framework", "problem_statement", "contextual_inquiry"]
+    deliverables: ["Proto-Persona Figma 草稿", "田野调研录音", "现场照片", "知情同意书"]

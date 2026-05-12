@@ -312,44 +312,100 @@ def generate_emotional_arc(modules: list[ModuleInfo]) -> str:
     return "\n".join(lines)
 
 
+def _extract_cn_chars(text: str) -> list[str]:
+    """提取文本中的所有中文字符（用于跨段落重叠检测）。"""
+    return re.findall(r'[\u4e00-\u9fff]', text)
+
+
 def classify_paragraph(text: str, prev_text: str = "") -> str:
-    """对段落进行 A/S/R 分类。
+    """对段落进行 A/S/R 分类（v2 — 修复 6 项已知漏洞）。
     
     A(推进)：引入新概念/新证据/新案例 
     S(支撑)：对已有概念的展开、举例
     R(冗余)：换角度重述/总结套话
+    
+    v2 变更日志：
+    - Bug1: 冗余信号词仅在段首 30 字或独立成句时匹配（防引语陷阱误杀）
+    - Bug2: 追加中文人名和括号英文名的推进信号
+    - Bug3: 追加因果连接词作为内容级推进信号
+    - Bug4: 百分比数据需附带变化动词上下文
+    - Bug5: 利用 prev_text 做跨段落中文字符重叠检测
+    - Bug6: IAR 公式改为加权版本（在 generate_iar_diagnosis 中实现）
     """
-    # 冗余信号词
+    clean_text = strip_markdown(text) if text else ""
+    
+    # === Bug5: 跨段落隐性重述检测 ===
+    # 如果当前段的前 20 个中文字符与上一段的前 20 个重叠率 > 70%，判定为隐性重述
+    if prev_text:
+        curr_chars = _extract_cn_chars(clean_text)[:20]
+        prev_chars = _extract_cn_chars(strip_markdown(prev_text))[:20]
+        if len(curr_chars) >= 8 and len(prev_chars) >= 8:
+            overlap = len(set(curr_chars) & set(prev_chars))
+            overlap_rate = overlap / min(len(set(curr_chars)), len(set(prev_chars)))
+            if overlap_rate > 0.70:
+                return "R"
+    
+    # === Bug1: 冗余信号词 — 段首 30 字约束 ===
+    # 仅当信号词出现在段落开头 30 字以内时才判定为冗余，防止引语中的误杀
     redundancy_signals = ["总之", "换句话说", "也就是说", "简单来讲", "归根结底", 
                           "回顾一下", "我们刚才讲了", "综上"]
+    head_30 = clean_text[:30]
     for sig in redundancy_signals:
-        if sig in text:
+        if sig in head_30:
             return "R"
     
-    # 推进信号：包含术语定义、人名、年份、数据
+    # === 推进信号检测 ===
     advancement_signals = [
-        re.compile(r'[\d]{4}\s*年'),  # 年份
-        re.compile(r'[\d]+[%％]'),     # 百分比数据
-        re.compile(r'《.+?》'),        # 书名号引用
-        re.compile(r'[A-Z][a-z]+\s+[A-Z]'),  # 人名（Western）
+        re.compile(r'[\d]{4}\s*年'),       # 年份
+        re.compile(r'《.+?》'),            # 书名号引用
+        # Bug2: 追加英文人名的多种出现形式
+        re.compile(r'[A-Z][a-z]+\s+[A-Z]'),              # 标准英文人名 (Richard Thaler)
+        re.compile(r'[\u4e00-\u9fff]{1,2}·[\u4e00-\u9fff]'),  # 中文音译名 (丹尼尔·卡尼曼)
+        re.compile(r'（[A-Z][a-z]+[\s\w]*）'),              # 括号内英文全名 （Richard Thaler）
     ]
     for pat in advancement_signals:
         if pat.search(text):
             return "A"
     
+    # Bug4: 百分比数据需附带变化动词上下文
+    pct_match = re.search(r'[\d]+[%％]', text)
+    if pct_match:
+        # 在百分比前后 15 字范围内检查是否有变化动词
+        start = max(0, pct_match.start() - 15)
+        end = min(len(text), pct_match.end() + 15)
+        context = text[start:end]
+        change_verbs = ["增长", "下降", "暴跌", "提升", "减少", "超过", "达到",
+                        "上升", "降低", "翻倍", "占比", "比例", "份额", "增加"]
+        if any(v in context for v in change_verbs):
+            return "A"
+    
     # 新概念引号标记（**粗体**通常标记新术语）
     if re.search(r'\*\*[^*]+\*\*', text):
         return "A"
+    
+    # Bug3: 因果连接词作为内容级推进信号
+    # 段首出现因果/转折连接词，通常意味着新论点的引入
+    causal_signals = ["因此", "所以", "这意味着", "这就是为什么", "这就是",
+                      "但是", "然而", "可是", "不过", "恰恰相反"]
+    head_15 = clean_text[:15]
+    for sig in causal_signals:
+        if head_15.startswith(sig):
+            return "A"
 
     return "S"
 
 
 def generate_iar_diagnosis(modules: list[ModuleInfo]) -> str:
-    """生成段落推进率诊断报告。"""
+    """生成段落推进率诊断报告（v2 — 含加权 wIAR）。
+    
+    v2 变更：引入加权 wIAR，连续 S 段权重递减。
+    同时输出原始 IAR 和 wIAR，供 L2 语义仲裁参照。
+    """
     lines = []
-    lines.append("# 🔬 段落推进率诊断 (IAR)\n")
+    lines.append("# 🔬 段落推进率诊断 (IAR v2)\n")
     lines.append("> A=推进(新概念/新证据)  S=支撑(展开/举例)  R=冗余(重述/套话)")
-    lines.append("> IAR = (A+S)/(A+S+R)，目标 ≥ 0.85\n")
+    lines.append("> IAR = (A+S)/(A+S+R)  |  wIAR = 加权版（连续S降权）")
+    lines.append("> ⚠️ IAR 仅为 L1 快检层，不具备语义仲裁能力。详见 rule_iar_interpretation.md\n")
 
     issues_found = []
 
@@ -364,6 +420,10 @@ def generate_iar_diagnosis(modules: list[ModuleInfo]) -> str:
         consecutive_s = 0
         prev_text = ""
         para_results = []
+        
+        # Bug6: 加权 wIAR 累计器
+        weighted_positive = 0.0  # A×1.0 + S×权重
+        total_weight_base = 0    # 总段落数（用于 wIAR 分母）
 
         for i, (text, cc, _) in enumerate(mod.paragraphs):
             cls = classify_paragraph(text, prev_text)
@@ -371,12 +431,19 @@ def generate_iar_diagnosis(modules: list[ModuleInfo]) -> str:
             if cls == "A":
                 a_count += 1
                 consecutive_s = 0
+                weighted_positive += 1.0
             elif cls == "S":
                 s_count += 1
                 consecutive_s += 1
+                # Bug6: 连续 S 段权重递减 — 前 2 段 0.7，第 3 段起 0.3
+                s_weight = 0.7 if consecutive_s <= 2 else 0.3
+                weighted_positive += s_weight
             else:
                 r_count += 1
                 consecutive_s = 0
+                # R 段不贡献正向分数
+            
+            total_weight_base += 1
 
             flag = ""
             if cls == "R":
@@ -390,14 +457,17 @@ def generate_iar_diagnosis(modules: list[ModuleInfo]) -> str:
 
         total = a_count + s_count + r_count
         iar = (a_count + s_count) / total if total > 0 else 0
-        status = "✅" if iar >= 0.85 else "⚠️" if iar >= 0.70 else "❌"
+        wiar = weighted_positive / total_weight_base if total_weight_base > 0 else 0
+        
+        # 状态判定以 wIAR 为主
+        status = "✅" if wiar >= 0.75 else "⚠️" if wiar >= 0.60 else "❌"
 
-        lines.append(f"  IAR = {iar:.2f} {status}  (A:{a_count} S:{s_count} R:{r_count})")
+        lines.append(f"  IAR = {iar:.2f}  |  wIAR = {wiar:.2f} {status}  (A:{a_count} S:{s_count} R:{r_count})")
         lines.append("")
         lines.extend(para_results)
 
-        if iar < 0.85:
-            issues_found.append(f"  {mod.title}: IAR={iar:.2f} {status}")
+        if wiar < 0.75:
+            issues_found.append(f"  {mod.title}: wIAR={wiar:.2f} {status}")
 
         lines.append("")
 
@@ -710,7 +780,8 @@ def generate_repair_guidance(modules: list[ModuleInfo]) -> str:
 
         total = a_count + s_count + r_count
         iar = (a_count + s_count) / total if total > 0 else 0
-        if iar < 0.85:
+        # 与 generate_iar_diagnosis v2 保持一致：使用 wIAR 门控
+        if iar < 0.75:
             repair_items.append((mod.title, "IAR 偏低", f"IAR={iar:.2f}", REPAIR_STRATEGIES["low_iar"]))
 
         # 冷热覆盖

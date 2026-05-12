@@ -530,6 +530,117 @@ export function TtsSegmentProvider({ children, courseId, weekName }) {
   }, [])
 
   /**
+   * 全周补齐 — 遍历所有 section 的段落，提取所有 missing 的 TTS
+   *
+   * 与 extractAll 的核心区别：
+   *   - extractAll 仅处理当前 section 的 paragraphs（通过 segmentMap 判断 missing）
+   *   - extractWeek 处理所有 sections，通过 manifest 判断 missing（不依赖 segmentMap）
+   *   - 非当前 section 的段落提取后不更新 segmentMap（避免 paraIndex 跨 section 冲突）
+   *   - 仅更新内存 manifest + 写入文件系统
+   */
+  const extractWeek = useCallback(async (allSections) => {
+    if (!isBridgeAlive() || isExtracting.current) return
+
+    const cId = courseIdRef.current
+    const wk = weekNameRef.current
+
+    // 1. 获取最新 manifest
+    const mf = await fetchTtsManifest(cId, wk)
+
+    // 2. 从所有 section 收集 missing 段落（按 fp 去重）
+    const missingEntries = []
+    const seenFps = new Set()
+    for (const section of allSections) {
+      if (!section.paragraphs) continue
+      for (const para of section.paragraphs) {
+        const fp = para.ttsFp
+        if (!fp || fp.startsWith('00000000') || seenFps.has(fp)) continue
+        seenFps.add(fp)
+        if (!mf.segments?.[fp]) {
+          missingEntries.push({ fp, text: para.text, sectionId: section.id || '?' })
+        }
+      }
+    }
+
+    if (missingEntries.length === 0) return { success: 0, failed: 0, total: 0 }
+
+    isExtracting.current = true
+    const total = missingEntries.length
+    let success = 0, failed = 0
+
+    try {
+      for (let i = 0; i < missingEntries.length; i++) {
+        const { fp, text, sectionId } = missingEntries[i]
+        setExtractProgress({
+          current: i + 1,
+          total,
+          text: `[${sectionId}] ${text.slice(0, 25)}...`,
+        })
+
+        try {
+          // 直接调用桥接提取 + 保存（不通过 extractSingle 以避免污染 segmentMap）
+          const result = await ttsSingleChunk(text, { fp, speaker: credentials?.speaker })
+          const durationMs = result.durationMs || await getAudioDuration(result.blob)
+          await saveTtsToFilesystem(cId, wk, fp, result.blob, durationMs)
+
+          // 更新内存 manifest
+          setManifest(prev => {
+            const updated = { ...prev, segments: { ...(prev?.segments || {}) } }
+            updated.segments[fp] = { durationMs, size: result.blob.size, cachedAt: Date.now() }
+            return updated
+          })
+
+          success++
+        } catch (err) {
+          console.error(`[TTS Week] 提取失败 (${fp}): ${err.message}`)
+          failed++
+        }
+
+        // 段间延迟（复用既有节流策略）
+        if (i < missingEntries.length - 1) {
+          const delay = 1000 + Math.random() * 1000
+          if ((i + 1) % 20 === 0) {
+            await new Promise(r => setTimeout(r, 5000 + Math.random() * 2000))
+          } else {
+            await new Promise(r => setTimeout(r, delay))
+          }
+        }
+      }
+    } finally {
+      isExtracting.current = false
+      setExtractProgress(null)
+    }
+
+    return { success, failed, total }
+  }, [credentials])
+
+  /**
+   * 全周统计 — 基于 manifest 计算所有 section 的 ready/missing 数量
+   * 不依赖 segmentMap，直接用 manifest 对比
+   */
+  const getWeekStats = useCallback((allSections) => {
+    const mf = manifest  // 使用内存中已缓存的 manifest
+    if (!mf?.segments || !allSections?.length) return { total: 0, ready: 0, missing: 0 }
+
+    const seen = new Set()  // fp 去重
+    let total = 0, ready = 0, missing = 0
+
+    for (const section of allSections) {
+      if (!section.paragraphs) continue
+      for (const para of section.paragraphs) {
+        const fp = para.ttsFp
+        if (!fp || fp.startsWith('00000000') || seen.has(fp)) continue
+        seen.add(fp)
+        total++
+        if (mf.segments[fp]) ready++
+        else missing++
+      }
+    }
+
+    return { total, ready, missing }
+  }, [manifest])
+
+  /**
    * V3: 从 IndexedDB 迁移到文件系统（一次性操作）
    *
    * 遍历 IndexedDB 中的所有条目，逐个 POST 到 /api/tts/save
@@ -589,6 +700,7 @@ export function TtsSegmentProvider({ children, courseId, weekName }) {
     computeStatus,
     extractSingle,
     extractAll,
+    extractWeek,
     // 播放操作
     playSegment,
     stopPlayback,
@@ -598,6 +710,7 @@ export function TtsSegmentProvider({ children, courseId, weekName }) {
     migrateFromIndexedDB,
     // 工具
     getStats,
+    getWeekStats,
     speakers: SPEAKERS,
   }
 

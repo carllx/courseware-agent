@@ -1,94 +1,321 @@
 # W02_practice.yaml — 通道审计与 Figma 外科手术
+# 数据源: Starbucks Menu Nutrition (Kaggle 公开数据集)
+# 教学设计对齐: M05 逐字稿 §5.0-§5.4
 week: 2
 title: "通道审计与 Figma 外科手术"
-experiment_link: "实验1"
-total_minutes: 90  # hours_practice=2 → 2×45=90
+total_minutes: 130   # P1(15) + P2(30) + P3(40) + P4(30) + P5(15) ≈ 2.5h 实践课时
 
+# ────────────────────────────────────────
+# 理论前置依赖（来自 M01-M04 理论讲授）
+# ────────────────────────────────────────
 theory_prerequisites:
-  - "Marks & Channels 有效性排序法则"
-  - "数据墨水比 (Data-Ink Ratio) 原则"
-  - "Munzner 通道量表"
+  - module: M01
+    concept: "时空隐喻四象限（时间之渊/引力纽带/俄罗斯套娃/聚落领地）"
+  - module: M02
+    concept: "Marks & Channels 有效性排序 + 表达性原则 (Expressiveness Principle)"
+  - module: M03
+    concept: "Stevens 幂定律（面积系数 0.7）+ 韦伯定律 + 视觉弹出与结合检索"
+  - module: M04
+    concept: "数据墨水比 (Data-Ink Ratio) + No Unjustified 3D + Chartjunk 四常客"
 
+# ────────────────────────────────────────
+# 数据集与素材清单
+# ────────────────────────────────────────
+datasets:
+  - id: starbucks_teaching
+    title: "星巴克菜单营养数据（教学精选子集）"
+    file: "assets/practice/starbucks_teaching_subset.csv"
+    source: "Kaggle · Starbucks Official Menu Nutrition"
+    source_url: "https://www.kaggle.com/datasets/starbucks/starbucks-menu"
+    format: csv
+    rows: 18
+    schema:
+      fields:
+        - name: 品类
+          type: categorical
+          description: "饮品品类（黑咖啡/经典浓缩/招牌特调/茶饮/果昔/星冰乐）"
+        - name: 饮品
+          type: nominal
+          description: "具体饮品名称"
+        - name: 卡路里
+          type: quantitative
+          description: "热量（大杯 Grande）"
+        - name: 总脂肪_g
+          type: quantitative
+          description: "总脂肪含量（克）"
+        - name: 含糖量_g
+          type: quantitative
+          description: "含糖量（克）"
+        - name: 咖啡因_mg
+          type: quantitative
+          description: "咖啡因含量（毫克）"
+    tension_point: >
+      星冰乐系列含糖量（52-62g）远超黑咖啡（0g），
+      一杯 Java Chip 星冰乐的含糖量 = 15.5 颗方糖，
+      但视觉印象是"清爽冰饮"——这就是数据与认知的张力。
+
+materials:
+  - id: svg_specimens
+    title: "Black Museum 犯罪标本（3 份 SVG）"
+    description: >
+      教师课前使用星巴克数据集在 Excel 中制作的三份「故意犯错」图表，
+      分别触发 M02-M04 的三大核心理论错误。
+    files:
+      - file: "assets/practice/Black_Museum_Case_A_PieChart3D.svg"
+        crime: "3D 饼图展示品类卡路里占比 → 面积通道 Stevens 系数 0.7 + 3D 透视遮挡"
+      - file: "assets/practice/Black_Museum_Case_B_RadarChart.svg"
+        crime: "雷达图展示单杯饮品的 5 项营养指标 → 暗示循环平衡，实际是独立指标"
+      - file: "assets/practice/Black_Museum_Case_C_StackedBar3D.svg"
+        crime: "3D 堆叠柱状图对比多款饮品 → 后排遮挡 + 渐变背景 + 冗余网格线"
+  - id: task_card
+    title: "场景任务卡"
+    description: >
+      受众：一位正在减脂的大学生室友。
+      任务：她需要在手机屏幕上 10 秒内判断「哪个品类的饮品最不会让她长胖」。
+      张力：她以为果昔和茶饮最健康，但数据显示星冰乐含糖量是黑咖啡的 62 倍。
+  - id: audit_template
+    title: "通道审计表模板"
+    file: "assets/practice/channel_audit_template.md"
+  - id: munzner_cheatsheet
+    title: "Munzner 通道有效性速查卡"
+    description: "M02 课件中的通道阶级量表截图，供学生随时参照"
+
+# ────────────────────────────────────────
+# 五阶段实践流程
+# ────────────────────────────────────────
 phases:
+  # ── P1: 任务场景锚定 ──────────────────
   - id: P1
     name: "任务场景锚定与受众画像"
     minutes: 15
     type: workshop
-    description: "下发场景任务卡 + 预制错误 SVG 标本，明确分析任务和受众"
+    maps_to_script: "M05 §5.0"
+    description: >
+      下发场景任务卡 + 星巴克数据 CSV + 三份犯罪标本 SVG。
+      学生阅读数据，识别张力点（星冰乐含糖量远超预期），
+      并写出一句话的「受众核心关切」。
     tools: ["学习通"]
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "课堂实战打卡与交互记录"
-    materials:
-      - type: dataset
-        title: "本周占位验证数据集"
-        file: "assets/practice/placeholder_data.csv"
-        format: csv
-        schema:
-          keys: ["id"]
-          values: ["value"]
-          types:
-            id: categorical
-            value: quantitative
+    steps:
+      - "教师发放场景任务卡（打印 or 学习通推送）"
+      - "学生打开 starbucks_teaching_subset.csv，快速浏览数据"
+      - "在任务卡上写出：受众是谁？她最关心什么？数据中的最大反转是什么？"
+      - "小组内 2 分钟口头分享，确认共识"
+    deliverables:
+      - "填写完成的场景任务卡（含一句话张力陈述）"
+    scoring_rubric:
+      full_marks: 100
+      weight: "5%"
+      criteria:
+        - dimension: "张力识别"
+          points: 60
+          standard: "准确识别出星冰乐系列的含糖量远超其他品类这一核心张力"
+        - dimension: "受众锚定"
+          points: 40
+          standard: "清晰描述受众画像（谁/在什么场景/需要什么决策支持）"
 
+  # ── P2: 法医解剖——通道审计 ──────────────
   - id: P2
-    name: "Black Museum 通道审计"
+    name: "法医解剖——通道审计"
     minutes: 30
     type: workshop
-    description: "SVG 解构 → 通道审计表填写 → 映射错误诊断"
+    maps_to_script: "M05 §5.1"
+    description: >
+      将三份犯罪标本 SVG 导入 Figma，打散为基础几何原子，
+      逐元素审计其通道映射，填写通道审计表，标注致命错误。
     tools: ["Figma"]
     steps:
-      - "下载 Black_Museum_Case_X.svg"
-      - "Figma Release Mask 解构为基础几何原子"
-      - "对照 Munzner 通道量表填写审计表"
-      - "标注致命映射错误"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "通道审计表"
+      - "将 Black_Museum_Case_A/B/C.svg 拖入 Figma 画布"
+      - "选中所有元素 → Flatten Selection (⌘+E) 打散复合路径"
+      - "反复 Ungroup (⌘+Shift+G) 直到无嵌套组"
+      - "逐个点击几何原子，查看右侧面板的 Fill/W/H/X/Y 属性"
+      - "对照 Munzner 通道量表，填写通道审计表"
+      - "用红色矩形(R) + 文字(T)标注致命错误位置"
+    deliverables:
+      - "通道审计表（完整填写 3 份标本的映射矩阵）"
+      - "Figma 画布截图（含红色错误标注层）"
+    scoring_rubric:
+      full_marks: 100
+      weight: "15%"
+      criteria:
+        - dimension: "错误识别完整性"
+          points: 40
+          standard: >
+            识别出至少 3 个通道映射错误：
+            ① 面积越权（Stevens 系数 0.7 导致低估差异）
+            ② 时序强行映射为分类轴（雷达图循环错觉）
+            ③ 3D 遮挡/透视失真
+        - dimension: "理论溯源准确性"
+          points: 40
+          standard: >
+            每个错误引用正确的理论名称：
+            Stevens 定律 / 表达性原则 / No Unjustified 3D / Data-Ink Ratio
+        - dimension: "审计表格式规范"
+          points: 20
+          standard: >
+            映射矩阵填写完整：「数据字段 → 原始通道 → 错误原因 → 建议修正通道」
 
+  # ── P3: 通道重建——图表外科手术 ──────────
   - id: P3
-    name: "SVG 外科手术三阶段精修"
-    minutes: 45
+    name: "通道重建——图表外科手术"
+    minutes: 40
     type: practice
-    description: "解构 → 通道重建 → 冗余决策对比实验"
+    maps_to_script: "M05 §5.2"
+    description: >
+      基于审计结果，在 Figma 中从零构建正确的图表。
+      操作路径参考 SWD 视频 CJn9NaqNNgo 的四次形态迭代。
     tools: ["Figma"]
+    swd_reference:
+      video_id: "CJn9NaqNNgo"
+      technique: "图表形态四次迭代法"
+      iteration_sequence:
+        - step: 1
+          action: "删除 3D 效果、渐变背景、冗余网格线（降噪）"
+        - step: 2
+          action: "将饼图/雷达图替换为正确的图表形态（如柱状图/折线图）"
+        - step: 3
+          action: "用 Line(L) 画坐标轴 + Text(T) 标注刻度 + Ellipse(O) 或 Rect(R) 绘制数据标记"
+        - step: 4
+          action: "Direct Label 替代图例——在每个数据系列末端直接标注名称"
     steps:
-      - "Phase A: Release Mask 暴力解构，剥离所有节点"
-      - "Phase B: 按正确 Task 选高效通道，重新拼合数据点"
-      - "Phase C: 冗余决策对比——极简版 vs 受众适配版"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "三阶段对比图（原始→骨架→精修）"
-      - "300 字通道决策与冗余权衡报告"
-    theory_link: "Marks/Channels 有效性 + Data-Ink Ratio"
+      - "在标本旁新建 Frame (F)，尺寸 1200×800"
+      - "Phase A 降噪：删除所有 Chartjunk（3D 厚度层/渐变背景/冗余边框/数据表格图层）"
+      - "Phase B 重构：用 Line(L) 画坐标轴（Shift 约束水平/垂直），Text(T) 标注刻度"
+      - "Phase B 续：用 Rect(R) 在正确的 X/Y 位置绘制柱状标记，高度精确映射数据值"
+      - "Phase B 续：每个品类使用统一灰色(#BFBFBF)，暂不上色——产出 v2_Minimal"
+      - "复制 Frame → 命名为 v2_Minimal 冻结"
+      - "Phase C 冗余决策：在原 Frame 中将星冰乐系列改为橙红色(#E8553A)，其余保持灰色"
+      - "Phase C 续：画一条水平虚线标注「WHO 每日游离糖推荐上限 25g」"
+      - "Phase C 续：用 Text(T) 在图表上方添加结论标注"
+      - "Direct Label：在每根柱子末端直接标注饮品名，替代图例"
+      - "将完成的 Frame 命名为 v3_Guided"
+    deliverables:
+      - "v2_Minimal（纯灰阶骨架版）截图"
+      - "v3_Guided（焦点高亮 + 基准线 + 结论标注版）截图"
+    scoring_rubric:
+      full_marks: 100
+      weight: "15%"
+      criteria:
+        - dimension: "v2 通道修正正确性"
+          points: 40
+          standard: >
+            图表类型选择正确（柱状图/条形图）、
+            空间位置通道优先使用、
+            直接标签替代图例
+        - dimension: "v3 冗余决策合理性"
+          points: 35
+          standard: >
+            焦点高亮颜色 ≤ 2 种、
+            存在 WHO 25g 参考基准线、
+            有结论性文字标注
+        - dimension: "数据真实性红线"
+          points: 25
+          standard: >
+            修改过程中未篡改任何数据点的空间位置
+            （铁腕红线：0 容忍，违反直接判不及格）
 
+  # ── P4: 美学与叙事增强 ──────────────────
+  - id: P4
+    name: "美学与叙事增强"
+    minutes: 30
+    type: practice
+    maps_to_script: "M05 §5.3"
+    description: >
+      在 v3_Guided 基础上进行最后的视觉精修：
+      字体替换、色板验证、黑白测试、叙事标题撰写。
+    tools: ["Figma", "ColorBrewer"]
+    swd_reference:
+      video_id: "Gb8VLfX140o"
+      technique: "observational takeaway + 直接标签替代图例"
+    steps:
+      - "将默认字体替换为 Inter 或思源黑体（Source Han Sans）"
+      - "使用 ColorBrewer 2.0 (colorbrewer2.org) 验证色板安全性：勾选 colorblind safe"
+      - "在 Figma 中安装色盲模拟器插件，执行一键灰度检查"
+      - "黑白测试：将画布转为灰度模式，确认关键数据仍可区分"
+      - "撰写叙事性标题（非描述性）：如「一杯星冰乐 = 2.5 倍 WHO 每日糖上限」"
+      - "将最终版命名为 v4_Final"
+    deliverables:
+      - "v4_Final（美学精修版）截图"
+      - "灰度/色盲模拟测试截图"
+    scoring_rubric:
+      full_marks: 100
+      weight: "10%"
+      criteria:
+        - dimension: "排版质感"
+          points: 30
+          standard: "字体非默认、层级清晰、留白合理"
+        - dimension: "无障碍合规"
+          points: 40
+          standard: "通过黑白测试 + 色盲模拟测试（红绿色弱可区分关键数据）"
+        - dimension: "叙事性标题"
+          points: 30
+          standard: "标题传达结论而非描述（非「各品类含糖量对比」而是具有张力的洞察陈述）"
+
+  # ── P5: 终期汇报 Peer Critique ──────────
+  - id: P5
+    name: "终期汇报与同行审查"
+    minutes: 15
+    type: presentation
+    maps_to_script: "M05 §5.4"
+    description: >
+      小组展示四阶段对比图（v1→v2→v3→v4），
+      接受同行基于 Munzner 理论的结构化点评。
+    steps:
+      - "每组 3 分钟展示四阶段并排对比"
+      - "评审组使用通道审计表对修正版进行反向审计"
+      - "教师总结共性问题与优秀案例"
+    deliverables:
+      - "四阶段并排对比截图（v1_Anatomy → v2_Minimal → v3_Guided → v4_Final）"
+    scoring_rubric:
+      full_marks: 100
+      weight: "5%"
+      criteria:
+        - dimension: "展示逻辑"
+          points: 50
+          standard: "四阶段变化有清晰的理论叙事线（从错误诊断到修正到增强）"
+        - dimension: "同行审查参与"
+          points: 50
+          standard: "提出至少一条基于 Munzner 理论的结构化评价"
+
+# ────────────────────────────────────────
+# 一票否决红线（适用于所有阶段）
+# ────────────────────────────────────────
+red_lines:
+  - "修正后的图表仍使用了 3D 效果"
+  - "修正后的图表使用了彩虹色阶 (Rainbow Colormap)"
+  - "为了画面美观而移动了数据点的空间位置（数据造假）"
+  - "修正后的图表在黑白灰度测试中无法区分关键数据"
+
+# ────────────────────────────────────────
+# 课后任务（独立于实验1）
+# ────────────────────────────────────────
 homework:
-  title: "通道审计独立实战"
-  description: "从真实世界狩猎劣质数据图，三阶段外科手术精修"
-  experiment_data_link: "实验1 Tidy 数据集"
+  title: "通道审计独立实战——从真实世界狩猎劣质图表"
+  description: >
+    从新闻媒体、社交平台或商业报告中自主寻找一张「犯了通道映射错误」的真实图表，
+    执行完整的四阶段外科手术（截图原图 → 通道审计 → 修正重建 → 美学增强），
+    并撰写 300 字审计报告阐述修正逻辑。
+  note: "本作业为独立任务，不绑定实验1的数据集。"
   weight: "10%"
   scoring_rubric:
     full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+    criteria:
+      - dimension: "案例选取质量"
+        points: 20
+        standard: "选取的劣质图表确实存在 Munzner 框架下的通道映射错误（非简单的排版问题）"
+      - dimension: "审计深度"
+        points: 30
+        standard: "审计表完整填写、错误理论溯源准确"
+      - dimension: "修正方案合理性"
+        points: 30
+        standard: "修正后的图表通道选型正确、符合有效性排序"
+      - dimension: "审计报告质量"
+        points: 20
+        standard: "300 字报告逻辑清晰、理论引用准确、冗余决策有理据"
   deliverables:
-    - "原始劣质图截图"
-    - "Figma 通道修正重建图"
-    - "最终美学精修图"
-    - "300 字通道决策审计书"
+    - "原始劣质图截图（标注来源出处）"
+    - "通道审计表"
+    - "Figma 修正重建图（v2_Minimal + v3_Guided + v4_Final）"
+    - "300 字通道决策审计报告"
+  swd_reference:
+    video_id: "pclAnvmdhzI"
+    description: "SWD 完整的 6 页 PPT 改造流程，供学生参考方法论"

@@ -1,0 +1,258 @@
+{
+  "M00_课程导览.md": {
+    "unready_assets": [],
+    "visual_gaps": [
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-01-JTBD-Review\n> **Layou...",
+          "W04-01c-JTBD-Deep-Dive"
+        ],
+        "distance": 1316
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-01c-JTBD-Deep-Dive\n> **L...",
+          "W04-01b-Qualitative-Discovery"
+        ],
+        "distance": 432
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-01b-Qualitative-Discover...",
+          "W04-02-Problem-Statement-Check"
+        ],
+        "distance": 460
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-02-Problem-Statement-Che...",
+          "W04-03-Feature-Bloat"
+        ],
+        "distance": 388
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-03b-Office-Telemetry\n> *...",
+          "W04-04-FOMO-Development"
+        ],
+        "distance": 569
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-04-FOMO-Development\n> **...",
+          "W04-04b-Snapchat-Disaster"
+        ],
+        "distance": 623
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-04b-Snapchat-Disaster\n> ...",
+          "W04-05-The-Solution-Bridge"
+        ],
+        "distance": 688
+      }
+    ]
+  },
+  "M01_杀死重型_Persona.md": {
+    "unready_assets": [],
+    "visual_gaps": [
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-07-Proto-Persona-Intro\n>...",
+          "W04-07b-Proto-Persona-Workflow"
+        ],
+        "distance": 422
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-09b-Ozzy-Vs-Charles\n> **...",
+          "W04-10-Bottom-Half"
+        ],
+        "distance": 610
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-10-Bottom-Half\n> **Layou...",
+          "W04-11-Three-Validations"
+        ],
+        "distance": 770
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-11-Three-Validations\n> *...",
+          "W04-10b-Behavioral-Check"
+        ],
+        "distance": 788
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-12-Angel-Investor-Failur...",
+          "W04-12b-Confirmation-Bias"
+        ],
+        "distance": 662
+      }
+    ]
+  },
+  "M02_从假设到子弹_假设驱动设计.md": {
+    "unready_assets": [],
+    "visual_gaps": [
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-14-Agile-Trap\n> **Layout...",
+          "W04-14b-Output-Vs-Outcome"
+        ],
+        "distance": 421
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-14b-Output-Vs-Outcome\n> ...",
+          "W04-15-Hypothesis-Template"
+        ],
+        "distance": 876
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-15-Hypothesis-Template\n>...",
+          "W04-16-Dissecting-Hypothesis"
+        ],
+        "distance": 374
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-16-Dissecting-Hypothesis...",
+          "W04-16a-Confounding-Variable"
+        ],
+        "distance": 389
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-16a-Confounding-Variable...",
+          "W04-16b-Classroom-Example"
+        ],
+        "distance": 479
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-16c-Spotify-Release-Rada...",
+          "W04-17-Table-Exercise"
+        ],
+        "distance": 1139
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-17-Table-Exercise\n> **La...",
+          "W04-17b-Amazon-Prime-Hypothesis"
+        ],
+        "distance": 508
+      }
+    ]
+  },
+  "M03_假设优先级_风险_×_价值矩阵.md": {
+    "unready_assets": [],
+    "visual_gaps": [
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-19-HPC-Matrix\n> **Layout...",
+          "W04-20-Quadrant-Rules"
+        ],
+        "distance": 821
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-20a-Infrastructure-Excep...",
+          "W04-20b-Matrix-Sorting"
+        ],
+        "distance": 744
+      }
+    ]
+  },
+  "M04_MVP_最小可行「学习工具」.md": {
+    "unready_assets": [
+      {
+        "slide_id": "W04-23b2-Dropbox-Video-MVP",
+        "scene": "Dropbox 的经典三分钟演示视频画面，旁边的图表显示 Hacker News 流量如何将候补名单从 5000 瞬间推高至 75000。",
+        "asset": "../public/slides/W04-23b2-Dropbox-Video-MVP.png",
+        "exists": true,
+        "size_kb": 5.0400390625
+      },
+      {
+        "slide_id": "W04-23e-Wizard-Of-Oz-Examples",
+        "scene": "上半部分是 Taproot 员工在地下室人肉收发邮件，下半部分是亚马逊员工躲在隔壁房间手动输入 Alexa 的回答指令。",
+        "asset": "../public/slides/W04-23e-Wizard-Of-Oz-Examples.png",
+        "exists": true,
+        "size_kb": 5.1396484375
+      }
+    ],
+    "visual_gaps": [
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-21-MVP-Misconception\n> *...",
+          "W04-22-Truth-Curve"
+        ],
+        "distance": 375
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-22-Truth-Curve\n> **Layou...",
+          "W04-23-MVP-Spectrum"
+        ],
+        "distance": 972
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-23b2-Dropbox-Video-MVP\n>...",
+          "W04-23c-Fake-Button-MVP"
+        ],
+        "distance": 438
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-23e-Wizard-Of-Oz-Example...",
+          "W04-23f-MVP-Design-Rules"
+        ],
+        "distance": 461
+      }
+    ]
+  },
+  "M05_实验1_收官_调研汇报与可行性清单.md": {
+    "unready_assets": [
+      {
+        "slide_id": "W04-23g-Workshop-Exp1",
+        "scene": "极简风格的四宫格看板，分别呈现“痛点重算”、“锁定真凶”、“假设提炼”和“构思 MVP”四大实战关卡指令。",
+        "asset": "../public/slides/W04-23g-Workshop-Exp1.png",
+        "exists": false,
+        "size_kb": 0.0
+      },
+      {
+        "slide_id": "W04-24b-Office-Ribbon-MVP",
+        "scene": "还原 Office Ribbon 界面大改版时的极简测试原型（无真实功能，只有外观点击热区探测），强调其规避核心风险的价值。",
+        "asset": "../public/slides/W04-24b-Office-Ribbon-MVP.png",
+        "exists": true,
+        "size_kb": 5.0146484375
+      }
+    ],
+    "visual_gaps": [
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-23g-Workshop-Exp1\n> **La...",
+          "W04-24-Summary-Pipeline"
+        ],
+        "distance": 558
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-24b-Office-Ribbon-MVP\n> ...",
+          "W04-24c-Team-Assignment"
+        ],
+        "distance": 1198
+      },
+      {
+        "between": [
+          "[VISUAL]\n> **Slide**: W04-24d-MoSCoW-Task\n> **Layo...",
+          "W04-25-Next-Steps"
+        ],
+        "distance": 968
+      }
+    ]
+  }
+}

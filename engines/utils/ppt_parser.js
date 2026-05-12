@@ -65,9 +65,8 @@ function parseScript(filePath) {
 
     // 正则定义
     const RE_VISUAL_START = /^>\s*\[VISUAL\]/i;
-    // 口头叙事型标签（ADR 022）：生成 _oral_tag Slide + 内容写入 Speaker Notes
-    // 注意：TEACHING MOMENT 已从此集合移除，改为分流路由处理（见下方标签分发逻辑）
-    const ORAL_TAGS = new Set(['STORY TIME', 'PHILOSOPHY', 'CASE STUDY', 'LIFE CONNECT', 'DID YOU KNOW']);
+    // 口头叙事型标签（ADR 022）：内容合并到当前 Slide 的 Speaker Notes（不独立成页）
+    const ORAL_TAGS = new Set(['STORY TIME', 'PHILOSOPHY', 'CASE STUDY', 'LIFE CONNECT', 'DID YOU KNOW', 'TEACHING MOMENT']);
     const RE_TAG_START = /^>\s*\[(TECH NOTE|WARNING|DID YOU KNOW|STORY TIME|PHILOSOPHY|CASE STUDY|LIFE CONNECT|TEACHING MOMENT)[:\]]/i;
     // 匹配标签行并提取标签名和可选标题（冒号后内容）
     const RE_TAG_WITH_TITLE = /^>\s*\[([A-Z][A-Z ]+?)(?::\s*(.+?))?\]\s*$/i;
@@ -102,7 +101,17 @@ function parseScript(filePath) {
         if (h2Match) { currentH2 = h2Match[1].trim(); currentH3 = ''; currentH4 = ''; }
 
         const h3Match = trim.match(/^###\s+(.+)$/);
-        if (h3Match) { currentH3 = h3Match[1].trim(); lastHeading = currentH3; currentH4 = ''; }
+        if (h3Match) {
+            // H3 标题是章节边界：将之前累积的 speech buffer flush 到当前 slide，
+            // 确保 H3 之后的正文归属到下一个 VISUAL 的 slide 中，而非"向后粘连"到前一页。
+            if (currentSlide && buffer.length > 0) {
+                currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
+                slides.push(currentSlide);
+                currentSlide = null;
+                buffer = [];
+            }
+            currentH3 = h3Match[1].trim(); lastHeading = currentH3; currentH4 = '';
+        }
 
         const h4Match = trim.match(/^####\s+(.+)$/);
         if (h4Match) { currentH4 = h4Match[1].trim(); }
@@ -113,6 +122,7 @@ function parseScript(filePath) {
             if (currentSlide) {
                 currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
                 slides.push(currentSlide);
+                buffer = []; // 仅在成功保存时 reset，否则保留（H3 flush 后的文字带入新 slide）
             }
             // 初始化新 Slide，附加最近的结构地图及标题
             currentSlide = { 
@@ -125,7 +135,6 @@ function parseScript(filePath) {
                 }, 
                 speech: "" 
             };
-            buffer = [];
             inVisualBlock = true;
             inTagBlock = false;
             inOralTagBlock = false;
@@ -195,48 +204,27 @@ function parseScript(filePath) {
         }
 
         // === 知识标签块开始 (TECH NOTE / WARNING / CASE STUDY 等) ===
+        // 设计原则：只有 [VISUAL] 和 [ACTIVITY] 才创建新 Slide。
+        // 口头标签（CASE STUDY / STORY TIME / TEACHING MOMENT 等）和参考标签（TECH NOTE / WARNING）
+        // 的内容统一合并到当前 Slide 的 Speaker Notes 中，不独立成页。
         const tagMatch = trim.match(RE_TAG_START);
         if (tagMatch) {
             const tagName = tagMatch[1].toUpperCase();
 
-            // --- TEACHING MOMENT 分流路由（阶段 1）---
-            // 有标题（冒号后有内容）→ 视为口头标签，生成 _oral_tag Slide（教学金句）
-            // 无标题 → 幕后导演提示，静默丢弃（防止投屏事故）
-            let isOralTag = ORAL_TAGS.has(tagName);
-            if (tagName === 'TEACHING MOMENT') {
-                const tmTitleCheck = trim.match(RE_TAG_WITH_TITLE);
-                const tmTitle = tmTitleCheck ? (tmTitleCheck[2] || '').trim() : '';
-                isOralTag = !!tmTitle; // 仅有标题时才升格为口头标签
-            }
+            // 提取标签标题（冒号后内容，用于 Notes 中的结构标记）
+            const titleMatch = trim.match(RE_TAG_WITH_TITLE);
+            const tagTitle = titleMatch ? (titleMatch[2] || '').trim() : '';
 
-            if (isOralTag) {
-                // 口头型标签 → 生成 _oral_tag Slide + 内容写入 Speech Notes
-                // 提取标签标题（冒号后内容）
-                const titleMatch = trim.match(RE_TAG_WITH_TITLE);
-                const tagTitle = titleMatch ? (titleMatch[2] || '').trim() : '';
-                if (currentSlide) {
-                    currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
-                    slides.push(currentSlide);
-                }
-                currentSlide = {
-                    visual: {
-                        layout: '_oral_tag',
-                        tagName: tagName,
-                        tagTitle: tagTitle,
-                        heading: lastHeading || '',
-                        h2: currentH2, h3: currentH3, h4: currentH4,
-                        assets: []
-                    },
-                    speech: ''
-                };
-                buffer = [];
-                inOralTagBlock = true;
-            } else {
-                // 参考型标签（TECH NOTE / WARNING）+ 无标题 TEACHING MOMENT：内容丢弃
-                inTagBlock = true;
-            }
+            // 在 Notes 中插入标签类型标记，便于教师识别内容来源
+            const isOral = ORAL_TAGS.has(tagName);
+            const icon = isOral ? '' : '📎 ';
+            const label = tagTitle ? `${tagName}: ${tagTitle}` : tagName;
+            buffer.push(`\n[${icon}${label}]`);
+
+            inOralTagBlock = true;
             inVisualBlock = false;
             inActivityBlock = false;
+            inTagBlock = false;
             currentKey = null;
             continue;
         }
@@ -334,28 +322,24 @@ function parseScript(filePath) {
             continue;
         }
 
-        // === 在口头型标签块内（STORY TIME 等）→ 收集内容到 _oral_tag Slide 的 Notes ===
+        // === 在标签块内（口头型 + 参考型）→ 内容追加到当前 Slide 的 Notes ===
         if (inOralTagBlock) {
             if (!trim.startsWith('>')) {
-                // 引用块结束 → 保存 _oral_tag Slide，重置为空 currentSlide 以收集后续正文
+                // 引用块结束，标签内容已在 buffer 中，继续正常 speech 收集
                 inOralTagBlock = false;
-                if (currentSlide && currentSlide.visual.layout === '_oral_tag') {
-                    currentSlide.speech = cleanSpeech(buffer.join('\n').trim());
-                    slides.push(currentSlide);
-                    currentSlide = null;
-                    buffer = [];
+                // 当前行可能是后续正文
+                if (trim !== '' && !trim.startsWith('<!--')) {
+                    if (!isMetaLine(trim) && !shouldIgnoreLine(trim)) {
+                        buffer.push(line);
+                    }
                 }
-                // 当前行可能是后续 Speech（会挂到下一个 VISUAL Slide）
-                // 此处不创建新 currentSlide，等待下一个 VISUAL 块
             } else {
-                // 口头型标签内的行写入当前 _oral_tag Slide 的 Speech Notes
-                if (currentSlide) {
-                    const mQuote = line.match(RE_QUOTE_LINE);
-                    if (mQuote) {
-                        let text = mQuote[1];
-                        if (!isMetaLine(text) && !text.match(/^\s*\[[A-Z _!]+\]\s*$/)) {
-                            buffer.push(text);
-                        }
+                // 标签内的引用行 → 提取内容追加到 buffer
+                const mQuote = line.match(RE_QUOTE_LINE);
+                if (mQuote) {
+                    let text = mQuote[1];
+                    if (!isMetaLine(text) && !text.match(/^\s*\[[A-Z _!]+\]\s*$/)) {
+                        buffer.push(text);
                     }
                 }
             }
@@ -418,7 +402,9 @@ function parseScript(filePath) {
         }
 
         // === 收集 Speech (非任何特殊块) ===
-        if (currentSlide) {
+        // 即使 currentSlide 为 null（H3 章节切换后），也继续积累 buffer，
+        // 待下一个 VISUAL 创建新 slide 时自动携带。
+        {
             if (shouldIgnoreLine(trim)) continue;
 
             // 如果是引用行 (> ...)，提取内容

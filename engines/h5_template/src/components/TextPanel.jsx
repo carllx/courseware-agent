@@ -12,7 +12,7 @@ import '../styles/text-panel.css'
  *   2. 右侧 Scroll-spy 轨道提供全局结构感
  *   3. 段落操作收纳到统一的 Action Gutter
  */
-export default function TextPanel({ paragraphs = [], activeParagraphIdx = -1, onParagraphSelect, onParagraphView, slides = [], subSections = [] }) {
+export default function TextPanel({ paragraphs = [], allSections = [], activeParagraphIdx = -1, onParagraphSelect, onParagraphView, slides = [], subSections = [] }) {
   const paraRefs = useRef([])
   const wrapperRefs = useRef([])
   const contentRef = useRef(null)
@@ -277,7 +277,7 @@ export default function TextPanel({ paragraphs = [], activeParagraphIdx = -1, on
         </button>
       </div>
 
-      <TtsToolbar paragraphs={paragraphs} />
+      <TtsToolbar paragraphs={paragraphs} allSections={allSections} />
 
       <div className="text-panel-body">
 

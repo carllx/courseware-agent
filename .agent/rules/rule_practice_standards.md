@@ -34,6 +34,24 @@ globs:
 
 ---
 
+## 三、 Merrill 首要原则校验 (First Principles of Instruction, Merrill 2002)
+
+> **理论来源**：Merrill, M. D. (2002). *First principles of instruction*. Educational Technology Research and Development, 50(3), 43-59.
+>
+> **与 UbD 的关系**：UbD 解决"设计什么"（逆向推导交付物），Merrill 解决"设计得对不对"（正向校验教学完整性）。两者互补，不冲突。
+
+在实践环节设计完成后，用以下五条首要原则进行交叉校验：
+
+| # | 原则 | 校验问题 | 不合格信号 |
+|:---:|:---|:---|:---|
+| M1 | **问题中心** (Problem-centered) | 实践活动是否围绕一个真实的、完整的问题展开（而非围绕一个工具或知识点）？ | Phase 的 `description` 中只有工具名而无业务问题 |
+| M2 | **激活旧知** (Activation) | 是否有环节让学生先调用已有经验/知识？ | Phase 列表中无任何 `warm-up` 或 `discussion` 类型 |
+| M3 | **示范新知** (Demonstration) | 是否有环节展示"做对了是什么样"（而非只告诉规则）？ | 缺少 `demo` 类型的 Phase 或缺少教师示范步骤 |
+| M4 | **应用练习** (Application) | 学生是否亲手操作（而非仅观看/填空）？ | `workshop`/`practice` 类型的 Phase 总时长 < 总时长的 40% |
+| M5 | **整合迁移** (Integration) | 是否有环节让学生将新技能与旧知识/真实场景连接？ | `homework` 仅要求提交操作产物，无反思或迁移任务 |
+
+---
+
 ## 二、 实践环节逆向设计三步法 (UbD Blueprint)
 
 永远不要按照 "今天学什么工具" 顺向设计。

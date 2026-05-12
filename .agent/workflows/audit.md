@@ -123,10 +123,8 @@ description: 审查脚本与课程配置的质量（分级审计：快速/标准
 
 > **口述字数排除项**：Frontmatter / `[VISUAL]` 块 / `[ACTIVITY]` 块 / `[!NOTE]` 导读块 / Markdown 标题行——均不计入口述字数。
 
-> [!CAUTION]
-> **Q3 短路规则（字数优先门控）**：若 Q3 时长估算中**任何模块**存在 ❌（`fill_ratio < 0.8`），
-> 则审计立即输出 `Needs Revision (字数未达标)`，**跳过** Q2 视觉完整性、Q6 视觉密度、
-> 以及 Epilogue E3 链接验证。字数达标是最高优先级的质量门，视觉完整性不得在字数未达标时消耗审计注意力。
+> [!NOTE]
+> **字数为教师决策域**：Q3 的字数/时长估算仅作为**信息展示**供教师参考。字数偏低（📊）不触发 `Needs Revision`，不构成审计短路条件。Agent **禁止**以字数不足为由自行建议扩写或判定审计失败。仅退化（`[DEGEN]`）、预算溢出（>150%）等质量问题触发非零退出码。
 
 ### Q4: 语义自洽检查 (Semantic Coherence Protocol)
 
@@ -179,8 +177,9 @@ Agent 需对照 `extract_week.py --week N` 输出的 `calendar` 条目，逐项�
 > 任何 🔴 高严重度项未通过 → 报告结论为 **Needs Revision**。
 
 > [!IMPORTANT]
-> **DRP 审计时强制**：当模块填充率 < 80% 时，审计报告必须输出**具体的 DRP 执行指令**，而非仅标记 "Needs Revision"。
-> DRP 级别判定详见 `rules/rule_content_depth.md` §3 审计时的 DRP 级别判定表。
+> **素材补充引导**：当模块填充率 < 60% 时，审计报告应建议补充真实素材（教材提取/网络调研），而非强制扩写。
+> 若模块逻辑已完整，可接受 `<!-- SHORT_MODULE: logical_complete -->` 标记。
+> 素材补充级别判定详见 `rules/rule_content_depth.md` §3。
 
 ### Q6: 视觉密度量化检查
 
@@ -215,8 +214,8 @@ Agent 需对照 `extract_week.py --week N` 输出的 `calendar` 条目，逐项�
   --course "<课程>" {WEEK_FILTER}
 ```
 
-检查：Bullet Sync（🔴）、Text 覆盖率（🟡 建议 ≥ 50%）、Heading 空洞（🟡）。
-Q8 自动化结果可直接用于 Standard Part A 的 Bullet Sync 人工复核。
+检查：Signaling Sync（🔴 结构枚举缺 List / 修辞排比有 List）、Text 覆盖率（🟡 建议 ≥ 50%）、Heading 空洞（🟡）。
+Q8 自动化结果可直接用于 Standard Part A 的 Signaling Sync 人工复核。
 
 ### Q9: 锚词密度 (Anchor Coverage for Cloak Mode)
 

@@ -74,9 +74,9 @@
 > **Slide**: M5-04
 > **Layout**: `Grid`
 > **Scene**: 极尽直观的三列渐进矩阵对比，展现震撼的阶跃式视觉数值如何演变、最终进化为 Token 语义抽象名称、并直接被无缝穿刺输出转化为前端代码组件库的三列神级对比转换流程：
-> - 状态1【视觉原始值提取】: 提取吸色板上的刺眼蓝色十八进制硬值 `#3B82F6` →进化为→ Token 神圣命名: `color-primary-500` →进化为→ AI 最终生成物: 完美映射的 `text-primary-500` 或 `bg-primary-500` (Tailwind 类名结构)
-> - 状态2【复杂属性定义】: 背景卡片纯白底层 `#FFFFFF`与深色模式绑定机制 →进化为→ Token 环境隔离: `surface-card-base` →进化为→ AI 完美适配切换生成: `bg-surface-card`
-> - 状态3【极值数值约束隔离】: 边角的绝对圆滑像素值 12px 固定常量 →进化为→ Token 尺度名: `radius-lg` →进化为→ AI 精准调用映射: `rounded-lg` 标签库调用
+- 状态1【视觉原始值提取】: 提取吸色板上的刺眼蓝色十八进制硬值 `#3B82F6` →进化为→ Token 神圣命名: `color-primary-500` →进化为→ AI 最终生成物: 完美映射的 `text-primary-500` 或 `bg-primary-500` (Tailwind 类名结构)
+- 状态2【复杂属性定义】: 背景卡片纯白底层 `#FFFFFF`与深色模式绑定机制 →进化为→ Token 环境隔离: `surface-card-base` →进化为→ AI 完美适配切换生成: `bg-surface-card`
+- 状态3【极值数值约束隔离】: 边角的绝对圆滑像素值 12px 固定常量 →进化为→ Token 尺度名: `radius-lg` →进化为→ AI 精准调用映射: `rounded-lg` 标签库调用
 > **知识节点**: `component-thinking-token-api`
 > *   **Asset**: ![预览](../public/slides/M5-04.png)
 

@@ -1,0 +1,186 @@
+# Visual System Constitution (视觉系统宪法)
+# SSOT: Single Source of Truth
+# Style: Data-Ink Swiss Minimalist (数据墨水·瑞士极简风 / 纯白画布 × 高对比度细线 × 极值红焦点)
+
+meta:
+  version: "1.0.0"
+  last_updated: "2026-05-12"
+  maintainer: "Antigravity Agent"
+  principles: "Maximize Data-Ink Ratio, Absolute Clarity, Zero Extraneous Load, Von Restorff Anchor"
+  course_target: "Information Visualization (信息可视化)"
+
+# 1. 全局风格定义 (用于 AI 生成 Prompt)
+style:
+  # 核心风格词
+  keywords: "clean pedagogical diagram, strict Swiss grid layout, absolute pure white background, vast negative space, fine precise black lines #000000, flat geometric vector, objective and scientific, single strong focal point highlighted in Swiss Red #DA291C, Edward Tufte data-ink ratio aesthetic, museum-quality information design"
+  # 环境氛围
+  atmosphere: "academic, extremely clean, rational, highly legible, modern data visualization, cognitive clarity"
+  # 否定词 (彻底禁止干扰认知的元素)
+  negative_prompt: "dada, photomontage, collage, abstract art, noise, texture, paper grain, vintage, messy, asymmetrical tension, 3d render, shadows, gradients, realistic photography, cyberpunk, neon colors, cartoons, clip art, busy background, multiple colors, decorative elements"
+  
+  # 按 Layout 类型的 Prompt 变体 (描述资产图像本身)
+  prompt_variants:
+    Title: "minimalist conceptual hero diagram, strict horizontal and vertical alignments, vast white space, singular focal concept highlighted in Swiss Red"
+    Diagram: "academic information architecture diagram, precise thin black lines, objective structural relationships, key nodes in Swiss Red"
+    List: "structured sequential diagram, ordered elements aligned to invisible grid, pure white negative space"
+    Comparison: "clear visual dichotomy diagram, symmetric balance, contrasting elements using black and Swiss Red"
+    Split: "detailed structural diagram or anatomy illustration, extremely clean vector aesthetic, suitable for placing alongside text"
+    Grid: "matrix of precise icons or data elements, uniform spacing, clean thin borders"
+    Image: "objective scientific visualization or clean structural representation, devoid of any photographic noise"
+
+    # 教学锚定变体（用于 RenderMode: pedagogical）
+    # 核心差异：强制生成具备高度识别度的具象物体，但必须采用精密线框图解的风格。
+    Pedagogical_Split: "clean pedagogical anatomy diagram, extremely precise thin black line drawing of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords (clearly identifiable), absolute pure white background, zero photographic elements, single conceptual part highlighted in Swiss Red #DA291C, strict grid alignment, Edward Tufte aesthetic, suitable for placing alongside text"
+    Pedagogical_Center: "centered pedagogical diagram, extremely precise thin black line drawing of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords, absolute pure white background, zero noise, key mechanism or focal point highlighted in Swiss Red #DA291C, academic clarity"
+    Pedagogical_Grid: "matrix of pedagogical icons, extremely precise thin black line drawings of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords, absolute pure white background, uniform spacing, subtle Swiss Red accents for emphasis"
+
+  # 预编译 Prompt 模板
+  prompt_templates:
+    base_en: "clean pedagogical diagram, strict Swiss grid layout, absolute pure white background, vast negative space, fine precise black lines #000000, flat geometric vector, objective and scientific, single strong focal point highlighted in Swiss Red #DA291C, Edward Tufte data-ink ratio aesthetic, museum-quality information design"
+    suffix_negative: "dada, photomontage, collage, abstract art, noise, texture, paper grain, vintage, messy, asymmetrical tension, 3d render, shadows, gradients, realistic photography, cyberpunk, neon colors, cartoons, clip art, busy background, multiple colors, decorative elements"
+    
+    # 教学锚定模板（RenderMode: pedagogical 专用）
+    pedagogical_en: "clean pedagogical diagram, extremely precise thin black line drawings of SPECIFIC RECOGNIZABLE OBJECTS from Keywords (each object must be clearly identifiable, objective structural representation), absolute pure white background, zero photographic noise, single key conceptual part highlighted in Swiss Red #DA291C, strict grid alignment, Edward Tufte aesthetic, museum-quality information design"
+    suffix_negative_pedagogical: "dada, photomontage, collage, abstract art, noise, texture, paper grain, vintage, messy, asymmetrical tension, 3d render, shadows, gradients, realistic photography, cyberpunk, neon colors, cartoons, clip art, busy background, multiple colors, decorative elements, unrecognizable abstract shapes"
+    text_directive: "All visible text in the image must be in Simplified Chinese, using sans-serif fonts"
+
+# 2. 色彩系统 (PPT / H5 / Python 通用)
+palette:
+  # 基础色 (Absolute White Mode)
+  bg_base: "#FFFFFF"         # 纯白画布 (Pure White) — 降低一切外在负荷
+  bg_surface: "#FFFFFF"      # 纯白卡片，无界限
+  bg_elevated: "#F5F5F5"     # 极浅灰 (Slight Gray) — 仅用于必须的区块区隔
+  bg_dark: "#0F0F0F"         # 极黑 (Absolute Black) — 反转区块
+  
+  # 品牌主色 (极高对比度)
+  primary: "#000000"         # 纯黑 (Black) — 数据墨水的主体
+  secondary: "#DA291C"       # 瑞士红 (Swiss Red) — 唯一的视觉高光，用于记忆锚点 (Von Restorff Effect)
+  tertiary: "#555555"        # 深灰 (Dark Gray) — 次要层级结构线
+  
+  # 语义色 (极简映射)
+  success: "#000000"         # 黑
+  warning: "#DA291C"         # 红
+  error: "#DA291C"           # 红
+  info: "#555555"            # 灰
+  
+  # 文本色
+  text_main: "#000000"       # 纯黑 — 极高可读性
+  text_secondary: "#555555"  # 深灰
+  text_muted: "#999999"      # 浅灰
+  text_on_dark: "#FFFFFF"    # 纯白
+  
+  # 边框与分割
+  border: "#E0E0E0"          # 极淡的结构线
+  divider: "#000000"         # 粗黑线仅作大区位分割标志
+
+# 3. 排版系统
+typography:
+  font_cn_primary: "Noto Sans SC"       # 无衬线几何体
+  font_cn_body: "Noto Sans SC"
+  font_cn_fallback: "Microsoft YaHei"
+  font_cn_mac: "PingFang SC"
+  
+  font_en_primary: "Helvetica Neue"     # 瑞士体之魂，客观极简
+  font_en_body: "Helvetica Neue"
+  font_en_display: "Helvetica Neue"
+  
+  size_hero: 64
+  size_h1: 44
+  size_h2: 32
+  size_body: 18
+  size_caption: 14
+  size_label: 12
+
+# 4. 几何与动效参数
+physics:
+  stroke_width_base: 1    # 极细数据线 (1px)，强调精密感
+  stroke_width_large: 4   # 粗线用于强结构分隔
+  corner_radius_base: 0   # 强硬直角，客观数学感
+  corner_radius_large: 0  
+  cap_join_style: "square" 
+  easing: "ease-out"       
+  motion_short: "150ms"
+  motion_medium: "300ms"
+
+# 5. PPT 版式映射
+ppt_layout_styles:
+  Title:
+    background: "bg_base"
+    title_color: "text_main"
+    accent: "secondary"
+    effect: "none"
+  List:
+    background: "bg_base"
+    title_color: "text_main"
+    bullet_icon_color: "secondary" # 红色小方块
+    effect: "none"
+  Diagram:
+    background: "bg_base"
+    node_fill: "bg_base"
+    node_border_color: "primary"
+    line_color: "text_secondary"
+    label_color: "text_main"
+    accent: "secondary"
+  Comparison:
+    background: "bg_base"
+    left_accent: "primary"
+    right_accent: "secondary"
+    divider_color: "border"
+  Split:
+    background: "bg_base"
+    left_panel: "bg_base"
+    right_panel: "bg_base"
+    divider: "border"
+  Grid:
+    background: "bg_base"
+    card_bg: "bg_base"
+    card_border: "border"
+    card_accent: "secondary"
+  Image:
+    background: "bg_base"
+    caption_color: "text_muted"
+
+# 6. 尺寸与比例标准
+dimensions:
+  ppt_slide:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "clean pedagogical data visualization diagram, pure white background"
+  infographic:
+    ratio: "16:9"
+    width: 1920
+    height: 1080
+    suffix: "objective technical diagram, absolute minimal noise"
+  diagram:
+    ratio: "1:1"
+    width: 1080
+    height: 1080
+    suffix: "precise structural line drawing, white background"
+  icon:
+    ratio: "1:1"
+    width: 512
+    height: 512
+    suffix: "flat technical icon, fine black lines"
+
+# 7. 教学记忆优化专门路由 (Memory Optimization Routing)
+# 与之前 Dada 的 "语义碰撞" 相反，本主题强制执行 "语义澄清 (Semantic Clarification)"
+pedagogical_routing: |
+  ## 核心理念：降低外在认知负荷，强化记忆锚点
+  
+  所有的视觉生成必须符合 Edward Tufte 的数据墨水比原则：
+  - 剔除所有的 3D、阴影、渐变、拟物化材质、拼贴碎片。
+  - 画面必须像一本严肃的科学教材/说明书插图。
+  - 仅允许在一个画面中最核心、教师最需要学生记住的「那个概念」上，使用 `#DA291C` (瑞士红) 进行高亮。其余全部为黑白线框或浅灰填色。
+  
+  Step 1 - 锚点确认：
+    仔细阅读 [VISUAL] 块的 Scene 和 Keywords，确定画面中**唯一的**认知重心。
+  
+  Step 2 - 结构化具象：
+    将物体转译为「精密线框图 (precise thin black line drawing)」。例如讲到“调音台”，不要真实的金属推子照片，而是要黑白线框的设备结构图。
+    
+  Step 3 - 红色施加：
+    在 prompt 中显式要求将关键结构标红。例如："a specific slider highlighted in Swiss Red"。
+    
+  Step 4 - 纯净测试：
+    生成后，检查画面背景是否为纯白，是否无任何脏污的质感或艺术噪点。如果不达标必须重绘。

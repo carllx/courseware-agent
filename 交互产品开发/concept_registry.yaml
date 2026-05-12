@@ -58,4 +58,45 @@ concepts:
     name: "防御性设计"
     first_introduced: W01
 
-  # === W02+ 待后续 /write 时增量补充 ===
+  # === W03: 产品洞察与痛点切入 ===
+  - id: say_do_gap
+    name: "言行鸿沟 (Say-Do Gap)"
+    first_introduced: W03
+
+  - id: focus_group_flaws
+    name: "焦点小组的结构性缺陷（群体极化与表演型人格）"
+    first_introduced: W03
+
+  - id: contextual_inquiry
+    name: "情境沉浸式观察 (Contextual Inquiry)"
+    first_introduced: W03
+
+  - id: five_whys
+    name: "5-Whys 连环追问法"
+    first_introduced: W03
+
+  - id: deep_interview
+    name: "深度访谈五步法（破冰→探寻→剥洋葱→还原→收拢）"
+    first_introduced: W03
+
+  - id: jtbd_framework
+    name: "JTBD 框架（Functional / Social / Emotional 三维度）"
+    first_introduced: W03
+
+  - id: jtbd_context
+    name: "情境 (Context) 对需求的逆转效应"
+    first_introduced: W03
+
+  - id: cross_industry_competition
+    name: "跨界竞争与替代方案分析"
+    first_introduced: W03
+
+  - id: problem_statement
+    name: "Problem Statement 公式"
+    first_introduced: W03
+
+  - id: leading_lagging_indicators
+    name: "先导指标 vs 滞后指标"
+    first_introduced: W03
+
+  # === W04+ 待后续 /write 时增量补充 ===

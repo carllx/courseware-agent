@@ -1,0 +1,13 @@
+- id: v01
+  url: "https://www.youtube.com/watch?v=xy9nSnalvPc"
+  name: "M04_Dropbox_Mental_Model"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:05:00"
+
+- id: v02
+  url: "https://www.youtube.com/watch?v=qxFLfY7_Gqw"
+  name: "M04_Dropbox_Execution_Model"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:05:00"

@@ -33,6 +33,7 @@
 ## 最近活动（近 7 天）
 
 | 日期 | 事件 |
+| 2026-05-12 | 重构 `ppt_parser.js` 标签处理架构。将口头标签（CASE STUDY/STORY TIME/TEACHING MOMENT/PHILOSOPHY 等）和参考标签（TECH NOTE/WARNING）从"独立成页/静默丢弃"改为"内容合并到当前 Slide 的 Speaker Notes"。根治了 TEACHING MOMENT 无标题变体内容被静默丢弃的严重 bug（影响 50+ 处脚本）、CASE STUDY 强制断页导致的 VISUAL 空备注问题，以及 TECH NOTE 内容完全丢失的不一致性。W03 PPT 从 143→129 页（-14 页口头标签独立页），课件更紧凑。 |
 | 2026-05-09 | 执行 `/publish` 管线架构审查与修复。修复了 `_lib.sh` 缺少 NVM 环境初始化的缺陷；创建了 `smoke_test.sh` 线上自动冒烟测试脚本，并将该环节强制整合进 `/deploy_netlify` 工作流；修复了关键清理工具 `cleanup_stale_assets.py` 误删及路径依赖硬编码的问题。 |
 | 2026-05-09 | 执行 `/audit` 级别联合修复。针对《交互产品开发》W04 (MVP & Hypothesis) M00-M05 完成深度诊断与物理清洗。成功修复 Comparison 布局报错、YAML 语法反引号隐患，并在实验工坊中填补了 Visual 记忆空洞。所有模块 IAR 推进率达 1.00 满分，结构健康。 |
 |:-----|:-----|

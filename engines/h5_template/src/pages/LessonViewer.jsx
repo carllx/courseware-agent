@@ -631,6 +631,7 @@ function LessonViewerInner({ courseId, scriptName }) {
 
         <TextPanel
           paragraphs={currentSection?.paragraphs || []}
+          allSections={manifest?.sections || []}
           activeParagraphIdx={activeParagraphIdx}
           onParagraphSelect={handleParagraphSelect}
           onParagraphView={handleParagraphView}

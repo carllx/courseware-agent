@@ -11,7 +11,7 @@
 |:---|:---|:---|
 | `rule_localization.md` | write (Phase 2), audit, script_format | 语言规范 |
 | `rule_asset_management.md` | generate_assets, ppt, h5 | 资产路径 |
-| `rule_content_depth.md` | write (Phase 1/2), audit Q3, narrative_archaeologist | 知识饱和度 + 素材预算 + DRP 字数修复（整合原 `rule_saturation`/`rule_drp`/`rule_best_practices`） |
+| `rule_content_depth.md` | write (Phase 1/2), audit Q3, narrative_archaeologist | 知识饱和度 + 素材预算 + 素材补充协议（DRP-L3 已废除） |
 | `rule_narrative_standards.md` | write (Phase 2), audit Q4, script_format, update_guidance | 叙事质量 |
 | `rule_outline_alignment.md` | write (Phase 3), audit Q5, audit_deep G4 | 大纲一致性 O1-O10 |
 | `rule_dma_course_design.md` | new_course, write (DMA 课) | DMA 设计范式 |
@@ -36,7 +36,7 @@
 | `/new_course` | — | `/design_practice`, `/write` |
 | `/design_practice` | `/new_course`（首次） | `/write` |
 | `/write` | `/design_practice`（条件必选：当该周 `hours_practice > 0` 时） | `/audit` |
-| `/audit` (Quick+Standard) | `/write` (fill_ratio ≥ 0.8) | `/generate_assets`, `/audit_deep`, `/memory_optimize` |
+| `/audit` (Quick+Standard) | `/write` | `/generate_assets`, `/audit_deep`, `/memory_optimize` |
 | `/memory_optimize` | `/audit`（记忆逻辑需优化时） | `/audit`（验证修复效果） |
 | `/audit_deep` (Part D+G+H) | `/audit` Q1-Q7 通过 | `/generate_assets` |
 | `/audit_courseyaml` (Part F) | `/audit` Q1-Q7 通过 + course.yaml 在审计范围 | — |

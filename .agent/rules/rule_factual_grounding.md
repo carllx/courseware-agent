@@ -1,8 +1,6 @@
 ---
-trigger: glob
-description: 当编写或审查脚本中的案例/故事/产品行为引用时，强制执行事实锚定三要素（WHO/WHEN/WHY），禁止使用模糊泛指。
-globs:
-  - "**/weeks/*/src/*.md"
+trigger: model_decision
+description: 当编写或审查脚本中的案例/故事/产品行为引用时，强制执行事实锚定三要素（WHO/WHEN/WHY），禁止使用模糊泛指。仅在审计/深度审查时按需加载。
 ---
 
 # 规则：案例事实锚定协议 (Factual Grounding Protocol)

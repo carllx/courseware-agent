@@ -34,6 +34,37 @@
 .tts-stat.extracting{ background: rgba(201, 169, 110, 0.15); color: var(--theme-warning, #C9A96E); }
 .tts-stat.error     { background: rgba(220, 60, 60, 0.1); color: #dc3c3c; }
 
+/* 全周统计分隔符 */
+.tts-stat-sep {
+  color: var(--theme-border, #D6CFC7);
+  font-size: 0.65rem;
+  user-select: none;
+  padding: 0 2px;
+}
+
+/* 全周统计标签 */
+.tts-stat.week-missing {
+  background: rgba(100, 120, 200, 0.1);
+  color: #5B6BA8;
+  font-size: 0.65rem;
+}
+.tts-stat.week-complete {
+  background: rgba(var(--theme-secondaryRgb, 76, 140, 100), 0.08);
+  color: var(--theme-success, #4C8C64);
+  font-size: 0.65rem;
+}
+
+/* 全周提取按钮 — 使用蓝调区分色 */
+.tts-action-btn.week-extract {
+  border-color: #5B6BA8;
+  color: #5B6BA8;
+}
+.tts-action-btn.week-extract:hover {
+  background: #5B6BA8;
+  color: white;
+  border-color: #5B6BA8;
+}
+
 /* 按钮 */
 .tts-actions {
   display: flex;

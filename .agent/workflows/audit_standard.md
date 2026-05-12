@@ -23,9 +23,11 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
     *   **原理**: 环境需预加载 (Visual First)；动作需语音引导 (Audio First)
     *   **参考**: 格式规范详见 `.agent/skills/script_format/SKILL.md`
 *   IAA 完整性：Interactive Action 后是否有 Analysis
-*   **Bullet Sync (要点同步检查)**: 扫描全文 Speech 中的结构化要点（≥3 个并列项、编号列表、阶段划分、考核/评分/任务说明），检查其紧邻的 `> [VISUAL]` 块是否包含 `**List**` 字段将要点同步展示在 PPT 上。
-    *   ❌ 不合格：Speech 讲了 4 个阶段，但 VISUAL 块只有氛围 Scene，无 List
-    *   ✅ 合格：Speech 讲了 4 个阶段，VISUAL 块的 List 逐条对应
+*   **Signaling Sync (信标同步检查)**: 扫描全文 Speech 中的并列要点（≥3 个），按内容类型分流检查（参见 `rule_visual_signaling.md`）：
+    *   ❌ 结构性枚举/操作步骤缺 List：Speech 讲了多个定义/维度/阶段/SOP，但 VISUAL 无 List
+    *   ❌ 修辞性排比有 List：情感渲染段被机械上屏，杀死冲击力
+    *   🟡 论证性递进有 List：逻辑展开被冗余上屏，建议移除
+    *   ✅ 合格：结构性枚举有 ≤4 字/项的 List；论证/修辞无 List
 *   **Visual Gap (视觉间隔检查)**: 扫描全文中相邻两个 `> [VISUAL]` 块之间的 SPEECH 中文字数（引用 `script_format/SKILL.md` §6）：
     *   **> 360 字**（约 120 秒）→ 标记 `[VISUAL_GAP]`（超出 Mayer 分段原则容限/注意力重置失败），必须拆分并插入视觉锚点
     *   **250-360 字**（约 80-120 秒）→ 标记 `[VISUAL_GAP_WARN]`（逼近单通道认知负荷上限），建议插入
@@ -154,3 +156,66 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
     *   Quiz 块紧跟在 `[VISUAL]` 块后（中间无任何 Speech 段落）→ 标记 `[QUIZ_NO_TRANSITION]` 🟡
 
 > **严重度**：所有 Quiz 审计项为 🟡 中严重度 → 建议修改但不阻断。
+
+### Part B-7: Shulman PCK 知识不对称诊断
+
+> **理论基础**：Shulman 教学内容知识(PCK) — 专家与学生之间的认知鸿沟。
+> **原属**: `/review` R4（已合并至此）
+
+逐段扫描，检查两个层面的知识不对称：
+
+**术语层**（复用 `rule_prerequisite_awareness.md`）：
+- 标记所有 L3 未铺垫术语 → `[PREREQUISITE_GAP]`
+- 检查 30 字内连续 ≥ 3 个 L3 术语 → `[VOCAB_OVERLOAD]`
+
+**图式层**：
+- 对每个类比/隐喻执行"受众经验匹配测试"（参照 `rule_prerequisite_awareness.md` §3.4 经验域表）
+- 使用 DMA 学生低概率经验域的类比 → `[SCHEMA_MISMATCH]`
+
+> **严重度**：`[VOCAB_OVERLOAD]` 🔴 高严重度；其余 🟡 中严重度。
+
+### Part B-8: 学生视角逻辑压力测试 (Student Empathy Stress Test)
+
+> **引用规范**: `rule_student_empathy_guard.md` §1-§3
+> **引用技能**: `cognitive-walkthrough` Skill（完整走查协议）
+> **理论基础**: 教学认知走查 (CWI) — 模拟学生按时间顺序"听课"，捕获静态扫描无法覆盖的体验层逻辑漏洞。
+
+对每个 `##` 模块执行 `rule_student_empathy_guard.md` §1 中定义的 7 条认知探针（P1-P7）：
+
+| 探针 | 检查内容 | 违规标记 |
+|:---|:---|:---|
+| P1 | Scene 视觉主角 vs Speech 论证主角是否为同一事物 | `[SCENE_INTENT_MISMATCH]` 🔴 |
+| P2 | 解法/建议是否在 DMA 学生能力范围内 | `[SOLUTION_OUT_OF_BOUNDS]` 🔴 |
+| P3 | 认知立场 180° 反转是否有 ≥2 句缓冲桥梁 | `[COGNITIVE_WHIPLASH]` 🔴 |
+| P4 | 同一标签下的多个案例是否属于同一认知类别 | `[TAXONOMY_BLUR]` 🟡 |
+| P5 | Quiz 情境与前文教学模式是否语义同构 | `[QUIZ_PATTERN_MISMATCH]` 🟡 |
+| P6 | Slide List/Text 措辞与 Speech 措辞是否一致 | `[TERM_DESYNC]` 🟡 |
+| P7 | 基于学生此刻知识累积能否理解当前段落 | `[PREREQUISITE_GAP]` 🔴 |
+
+**执行模式**：
+- **标准审计**：对每个模块执行 P1-P6 的静态检查（无需逐段走查）
+- **深度审计**：激活 `cognitive-walkthrough` Skill，执行包含 P7 动态知识背包追踪的完整逐段走查
+
+> **判定**：任何 🔴 标记 ≥ 1 → **Needs Revision**。🟡 ≥ 3 → 建议修改。
+
+### Part B-5 追加: 论证饱和度检测
+
+> **原属**: `/review` R2（已合并至此）
+
+在 Part B-5 脉络清晰度检查中，额外执行：
+- 提取本模块所有案例/论证段落的**论证骨架**（A-vs-B / BEFORE-AFTER / DEFINITION-EXAMPLE / PAIN-REVEAL）
+- 统计同一骨架类型出现的次数
+- **≥ 3 次** → 标记 `[PATTERN_SATURATION]` 🟡
+
+### Part F-lite: SME 事实快检
+
+> **原属**: `/review` R6（已合并至此）
+
+对模块中的关键事实声明执行快速核查：
+
+1. 理论归因是否准确（如"Kenneth Craik 在 1943 年提出"）
+2. 技术细节是否正确（如"Bang-Bang Control 是恒温器的实际工作原理"）
+3. 案例时效性是否过期（如"微信删除机制是否仍然不可恢复"）
+4. 不确定者标记 `[FACT_CHECK_NEEDED]` 🟡
+
+> **严重度**：`[FACT_CHECK_NEEDED]` 🟡 中严重度 → 建议核实但不阻断。

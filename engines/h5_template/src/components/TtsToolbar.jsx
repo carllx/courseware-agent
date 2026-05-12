@@ -14,7 +14,7 @@ import { useTtsSegments } from '../contexts/TtsSegmentContext'
 import { openDoubaoAndGetCredentials, isBridgeAlive, SPEAKERS, SPEAKER_GROUPS } from '../utils/doubao-tts'
 import '../styles/tts-toolbar.css'
 
-export default function TtsToolbar({ paragraphs = [] }) {
+export default function TtsToolbar({ paragraphs = [], allSections = [] }) {
   const tts = useTtsSegments()
   const [showConfig, setShowConfig] = useState(false)
   const [showManual, setShowManual] = useState(false)
@@ -103,6 +103,27 @@ export default function TtsToolbar({ paragraphs = [] }) {
     }
   }, [tts, paragraphs, isExtractingAll])
 
+  // === 一键补齐全周 ===
+  const handleExtractWeek = useCallback(async () => {
+    if (!tts || isExtractingAll) return
+
+    if (!tts.credentials) {
+      setShowConfig(true)
+      return
+    }
+
+    setIsExtractingAll(true)
+    const result = await tts.extractWeek(allSections)
+    setIsExtractingAll(false)
+
+    if (result) {
+      setFeedback(`✅ 全周完成: ${result.success} 成功, ${result.failed} 失败`)
+      // 刷新当前 section 状态
+      tts.computeStatus(paragraphs)
+      setTimeout(() => setFeedback(null), 5000)
+    }
+  }, [tts, allSections, paragraphs, isExtractingAll])
+
   // === 完整播放 ===
   const handlePlayAll = useCallback(async () => {
     if (!tts) return
@@ -116,27 +137,42 @@ export default function TtsToolbar({ paragraphs = [] }) {
   if (!tts) return null
 
   const stats = tts.getStats()
+  const weekStats = tts.getWeekStats(allSections)
   const hasCredentials = !!tts.credentials
   const bridgeActive = isBridgeAlive()
   const canExtract = hasCredentials && bridgeActive
   const allReady = stats.total > 0 && stats.ready === stats.total
   const progress = tts.extractProgress
+  // 全周统计：排除当前模块的 missing，计算其他模块的缺口
+  const weekMissingOther = Math.max(0, weekStats.missing - stats.missing)
 
   return (
     <div className="tts-toolbar">
       {/* 统计 */}
       <div className="tts-stats">
         {stats.ready > 0 && (
-          <span className="tts-stat ready" title="已缓存">🔊 {stats.ready}</span>
+          <span className="tts-stat ready" title="当前模块已缓存">🔊 {stats.ready}</span>
         )}
         {stats.missing > 0 && (
-          <span className="tts-stat missing" title="待提取">○ {stats.missing}</span>
+          <span className="tts-stat missing" title="当前模块待提取">○ {stats.missing}</span>
         )}
         {stats.extracting > 0 && (
           <span className="tts-stat extracting" title="提取中">⟳ {stats.extracting}</span>
         )}
         {stats.error > 0 && (
           <span className="tts-stat error" title="失败">✕ {stats.error}</span>
+        )}
+        {weekStats.total > 0 && weekMissingOther > 0 && (
+          <>
+            <span className="tts-stat-sep">│</span>
+            <span className="tts-stat week-missing" title={`全周其他模块还缺 ${weekMissingOther} 段 TTS`}>📦 全周 ○ {weekStats.missing}</span>
+          </>
+        )}
+        {weekStats.total > 0 && weekStats.missing === 0 && (
+          <>
+            <span className="tts-stat-sep">│</span>
+            <span className="tts-stat week-complete" title="全周 TTS 已完整">✅ 全周完整</span>
+          </>
         )}
       </div>
 
@@ -151,14 +187,25 @@ export default function TtsToolbar({ paragraphs = [] }) {
           {canExtract ? '🟢' : hasCredentials ? '🟡' : '⚙️'}
         </button>
 
-        {/* 安全提取（补齐缺口） */}
+        {/* 补齐当前模块缺口 */}
         {stats.missing > 0 && canExtract && (
           <button
             className="tts-action-btn extract"
             onClick={handleExtractAll}
             disabled={isExtractingAll}
           >
-            {isExtractingAll ? '⟳ 补齐中...' : `🎬 补齐 ${stats.missing} 处缺口`}
+            {isExtractingAll ? '⟳ 补齐中...' : `🎬 本模块 ${stats.missing} 处`}
+          </button>
+        )}
+
+        {/* 补齐全周缺口 */}
+        {weekStats.missing > 0 && canExtract && !isExtractingAll && (
+          <button
+            className="tts-action-btn extract week-extract"
+            onClick={handleExtractWeek}
+            title={`补齐全周所有模块的 ${weekStats.missing} 处 TTS 缺口`}
+          >
+            📦 全周 {weekStats.missing} 处
           </button>
         )}
 

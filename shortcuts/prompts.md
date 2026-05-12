@@ -1,15 +1,15 @@
 # 逐字稿复盘矫正 — 快捷指令集（v2）
 
 > **使用方式**：每个指令块独立使用，复制粘贴到新对话中执行。
-> **推荐顺序**：深度审查 → Quiz 补全 → 叙事拓展(可选) → 视觉全链路 → Audit 终验
-> **架构**：三阶段流水线 — Phase A 内容手术 → Phase B 视觉装配 → Phase C 验收发布
+> **推荐顺序**：认知走查(排雷) → 深度审查 → Quiz 补全 → 叙事拓展(可选) → 视觉全链路 → Audit 终验
+> **架构**：四阶段流水线 — Phase 0 认知排雷 → Phase A 内容手术 → Phase B 视觉装配 → Phase C 验收发布
 
 ## 📌 当前工作目标（每轮复盘开始前更新）
 
 > ⬇️ **只需修改下方这一行，下方所有指令块的 `{COURSE_WEEK_SRC}` 会自动引用此处的值。**
 >
 > ```
-> {COURSE_WEEK_SRC} = 交互产品开发/weeks/W04_MVP_Hypothesis/src
+> {COURSE_WEEK_SRC} = 信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md
 > ```
 >
 > ⚠️ 复制指令块前，请先全文搜索 `{COURSE_WEEK_SRC}` 确认已替换为上方的实际路径。
@@ -26,21 +26,59 @@
 
 ---
 
-## Phase A — 内容手术（Text）
+## Phase 0 — 学生认知走查（Cognitive Walkthrough）
 
-> **阶段目标**：所有涉及文字修改的工作在此阶段完成（审查 + 修复 + Quiz + 叙事），避免后续视觉步骤因文字变更而返工。
+> **目标**：模拟 DMA 大二学生逐段"听课"，捕获体验层逻辑漏洞。
+> **机制**：`rule_student_empathy_guard.md`（7 条探针定义）+ `cognitive-walkthrough` Skill（走查协议）
+> **与 Phase A 的关系**：Phase 0 是动态认知模拟（排雷）；Phase A 是静态全维度审计（手术）。先排雷后手术。
+> **执行时机**：Agent 撰写完逐字稿后、执行 Phase A 之前。Phase 0 的 🔴 问题应先修复再进入 Phase A。
 
 ---
 
-### 步骤一：全维度深度审查
+请作为一个数字媒体艺术的学生的理解力,  课堂模拟的整个逻辑顺序，请你排查 这个模块的在场课程过程学生理解过程的矛盾 ,  所存在的认知,理解上的漏洞。
+{COURSE_WEEK_SRC}  = 信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md
 
-> **合并了** /review + /memory_optimize + Quiz 诊断。只读一次脚本，一次性产出所有维度的统一诊断报告。
+
+### 步骤 0.1：学生认知走查
+
+```
+请对以下脚本模块执行**学生认知走查**：
+{COURSE_WEEK_SRC}  = 信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md
+
+激活 `cognitive-walkthrough` Skill，按其完整协议执行逐段走查。
+检查规范引用 `rule_student_empathy_guard.md` 全部 7 条探针 (P1-P7)。
+- 继承 ⚠️ 通用行动纪律中的第 1、3 条（单步阻断 + 状态追踪）。
+```
+
+---
+
+### 步骤 0.2：认知走查结果确认后，按规范修复
+
+```
+同意以上诊断报告。
+按 `rule_student_empathy_guard.md` §4 优先级修复全部标记。
+修复后重跑步骤 0.1 验证。如涉及 VISUAL 块变更，后续使用 Phase B 步骤四跟进。
+- 继承 ⚠️ 通用行动纪律全部 4 条。
+```
+
+---
+
+## Phase A — 内容手术（Text）
+
+> **阶段目标**：所有涉及文字修改的工作在此阶段完成（审查 + 修复 + Quiz + 叙事），避免后续视觉步骤因文字变更而返工。
+> **前置条件**：Phase 0 认知走查已通过（所有 🔴 标记已清除），或模块为首次撰写（Phase 0 可与 Phase A 合并执行）。
+
+---
+
+### 步骤一：全维度深度审查(review)
+
+> **合并了** /audit_standard (Part B-7, F-lite) + /memory_optimize + Quiz 诊断。只读一次脚本，一次性产出所有维度的统一诊断报告。
 
 
 ```
-/review + /memory_optimize + Quiz 诊断. 
+/audit --standard (Part B-7 PCK + F-lite 事实快检) + /memory_optimize + Quiz 诊断. 
 制定详尽的任务和计划，为 
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src` 
+[{COURSE_WEEK_SRC}] == `信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md` 
 目录下的每一个教学模块，**逐个模块**执行全维度深度审查。
 
 每个模块按以下**三阶段**执行（禁止跳步）：
@@ -49,18 +87,18 @@
 在人工阅读之前，必须先跑以下 3 个脚本获取量化基线：
 - `validate_script_length.py --module-breakdown`：字数/视觉密度/退化检测
 - `generate_cheat_sheet.py "<脚本路径>" --diagnose`：IAR 段落推进 + 骨架链 + 锚词
-- `validate_visual_text_sync.py`：Bullet Sync + Text 覆盖率
+- `validate_visual_text_sync.py`：Signaling Sync（内容类型分流检测）+ Text 覆盖率
 
 **阶段 2 — 宏观审查（先结构后细节）**
 读取模块脚本，执行以下维度（可用 `--focus structure` 聚焦此阶段）：
-1. **R1 Mayer 一致性**：扫描人文标签块的教学目标对齐
+1. **R1 Mayer 一致性 + 认知效率仲裁**：扫描人文标签块的教学目标对齐（Mayer 三问）。**追加可取困难二次校验**（`rule_cognitive_efficiency.md` §1）——被标记为 `[SEDUCTIVE_DETAIL_BLOCK]` 或 `[REMOVABLE]` 的内容块，须执行 DD-1 提取练习 / DD-2 交错对比 / DD-3 间隔重现 三项豁免校验，通过者重分类为 `[GERMANE_LOAD]` 而非删除。**同时执行冗余效应边界判定**（`rule_coherence_audit.md` §1.2 WARNING）——区分真冗余（图文各自独立可理解→删文字）与伪冗余/互补（图对新手不可独立理解→保留文字解读）。
 2. **R2 论证饱和度**：同一论证骨架 ≥3 次 → `[PATTERN_SATURATION]`
-3. **R3 + M1 骨架逻辑与标题锚点**（合并）：H3 断言句检查 + 因果链测试 + 四字要旨测试 + 角色代入测试
+3. **R3 + M1 骨架逻辑与标题锚点 + 分块密度**（合并）：H3 断言句检查 + 因果链测试 + 四字要旨测试 + 角色代入测试 + **Miller/Cowan 分块密度约束**（`rule_script_clarity.md` §1.2.1：H3 ≤5 合格 / 6-7 建议合并 / ≥8 强制重组）
 4. **Rosenshine 检查点 + Quiz 缺口诊断**（合并）：计算相邻 ACTIVITY 间距，>3000 字标记 `[MISSING_CHECKPOINT]`，同时标注建议的 Quiz 插入位置
 
 **阶段 3 — 微观审查（结构稳定后执行）**
 对通过宏观审查的模块继续（可用 `--focus detail` 聚焦此阶段）：
-5. **R4 PCK 三层诊断**：术语层/逻辑层/图式层
+5. **R4 PCK 三层诊断**：术语层（使用 `rule_prerequisite_awareness.md` §3.2 **遗忘衰减模型** ΔW 判定跨周次术语铺垫力度）/逻辑层/图式层
 6. **R5 + M5 段落精简与负荷**（合并）：Plain Language + 段落物理负荷
 7. **R5b LLM 隐性膨胀**：七子模式扫描 + 压缩比测试
 8. **M2 + Deep Listen 冷热心流**（合并）：骨架冷热标注 + 论证多样性 + 费曼导演视角 + 记忆精度分层
@@ -79,6 +117,35 @@
 
 ---
 
+### 步骤 1.5：Signaling 信标修复
+
+> **前置步骤**：步骤一的诊断报告已获批准，`validate_visual_text_sync.py` 的 Signaling Sync 报告已产出。
+> **排序理据**：修改 List 字段属于对已有 VISUAL 块的元数据修正，不改变正文逻辑，但必须在 Quiz 补全和视觉装配之前完成，否则 PPT 生成时会按错误的 List 内容排版。
+
+```
+针对当前工作区，为
+[{COURSE_WEEK_SRC}] == `信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md`
+目录下的每一个教学模块，**逐个模块**执行 Signaling 信标修复。
+
+按 `rule_visual_signaling.md` 的内容类型分流决策矩阵，处理步骤一中
+`validate_visual_text_sync.py` 产出的以下四类诊断：
+
+**🔴 必须修复（阻断）**：
+1. **Signaling 缺失**（结构性枚举/操作步骤缺 List）→ 补充 ≤4 字/项的关键词 List
+2. **修辞排比有 List**（情感渲染段被机械上屏）→ 移除 List 字段
+
+**🟡 建议修复（非阻断）**：
+3. **冗余效应风险**（论证性递进有 List）→ 建议移除 List 字段，呈报我决策
+4. **分类不确定**（SIGNALING_AMBIGUOUS）→ 呈报我人工判定内容类型后处理
+
+**修复操作规范**：
+- 每项 List 条目压缩至 ≤4 个中文字（关键词级别），超过 10 字的必须重新压缩
+- 修复后**立即重跑** `validate_visual_text_sync.py` 验证该模块通过
+- 继承 ⚠️ 通用行动纪律全部 4 条。
+```
+
+---
+
 ### 步骤二：Quiz 结构化补全
 
 > **前置步骤**：步骤一的诊断报告已获批准，`[MISSING_CHECKPOINT]` 标记位置已确认。
@@ -86,7 +153,7 @@
 ```
 
 针对当前工作区，为
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md`
 目录下的每一个教学模块，**逐个模块**执行随堂测验的结构化补全。
 
 补全仅针对步骤一诊断中标记的 `[MISSING_CHECKPOINT]` 位置，为保障题目质量，请严格遵守以下 3 条战术纪律：
@@ -105,7 +172,7 @@
 
 ```
 针对当前工作区
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md`
 目录下**我指定的教学模块**，执行叙事素材深度调研与拓展。
 
 **执行协议**：
@@ -135,7 +202,7 @@
 
 ```
 针对当前工作区，为
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md`
 目录下的每一个教学模块，执行视觉素材的全链路诊断与补全。
 
 按以下 **4 个子阶段**严格顺序执行：
@@ -170,7 +237,7 @@
 - 如 B 类数量较多，整理为候选确认清单供我审批后批量下载。
 
 补充约束：
-- **防堆叠碰撞检测**：新 `[VISUAL]` 块插入前，必须检查双向间距 ≥80 字叙事文本。详见 `rule_visual_placement.md`。
+- **防堆叠碰撞检测**：新 `[VISUAL]` 块插入前，必须检查双向间距 ≥80 字叙事文本。详见 `script_format/SKILL.md` §6.4。
 - **资产路径合规**：产物必须写入周次级 `public/` 目录。详见 `rule_asset_placement_guard.md`。
 - 继承 ⚠️ 通用行动纪律全部 4 条。
 ```
@@ -189,12 +256,15 @@
 > **前置条件**：Phase A（内容手术）和 Phase B（视觉装配）已全部完成。
 
 制定详尽的任务和计划，为
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `信息可视化/weeks/W02_Design_Principles/src/M00_不仅是数据_更是隐喻_构建符号的艺术表达.md`
 目录下的每一个教学模块，**逐个模块**严格执行 /audit --standard 工作流，作为复盘矫正的终验门。
 
 补充约束：
 - 本步骤为**只读验收**，仅输出审计报告，**禁止自动修复**任何问题。发现的问题应记录在报告中，由我决定是否需要回到前序步骤处理。
-- **回归验证重点**：步骤一中标记的 `[MISSING_CHECKPOINT]` 是否已在步骤二中全部修复？Part Q 的 Quiz 完整性是否达标？
+- **回归验证重点**：步骤一中标记的 `[MISSING_CHECKPOINT]` 是否已在步骤二中全部修复？Part Q 的 Quiz 完整性是否达标？**Signaling Sync 修复**：步骤 1.5 中标记的 🔴 信标缺失 / 🔴 修辞排比有 List 是否已全部修复？🟡 冗余风险项是否已审阅并决策？
 - **构建验证**（可选）：如需确认 H5 预览渲染正常（特别是 Quiz 组件和新增视觉资产），执行 `/build` 构建管线并在浏览器中预览。
 - 继承 ⚠️ 通用行动纪律中的第 3 条（全局状态机追踪）。
 ```
+
+
+

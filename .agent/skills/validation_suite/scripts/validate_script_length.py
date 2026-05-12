@@ -851,15 +851,15 @@ def main():
 
         if not args.segment_check:
             print(f"\n{'='*115}")
-            print(f"  模块级预算对标分析  |  语速: {cn_cpm} 字/分钟  |  合格线: 100%  警告线: 80%")
+            print(f"  模块级预算对标分析  |  语速: {cn_cpm} 字/分钟  |  合格线: 100%  警告线: 60%")
             print(f"{'='*115}")
             print(f"{'文件':<25} | {'模块':<30} | {'实际':^6} | {'预算':^6} | {'完成率':^7} | {'标签':^7} | {'状态':^4} | {'稀释检测'}")
             print("-" * 115)
 
         # 汇总计数器
         count_pass = 0    # 达标
-        count_warn = 0    # 偏薄
-        count_fail = 0    # 严重不足
+        count_low = 0     # 字数偏低（仅供教师参考，不触发失败）
+        count_fail = 0    # 质量问题（退化/溢出/draft）
         count_unknown = 0 # 无预算
         count_exempt = 0  # 活动豁免
         count_draft = 0   # draft 模块
@@ -894,18 +894,16 @@ def main():
                         status = "\u274c"
                         count_fail += 1
                     elif pct > 1.5:
-                        # 上限熔断：超出预算 150% → 严重溢出
-                        status = "\ud83d\udd34"
+                        # 上限熔断：超出预算 150% → 严重溢出（质量问题）
+                        status = "\U0001f534"
                         count_fail += 1
-                    elif pct >= 1.0:
+                    elif pct >= 0.8:
                         status = "\u2705"
                         count_pass += 1
-                    elif pct >= 0.8:
-                        status = "\u26a0\ufe0f"
-                        count_warn += 1
                     else:
-                        status = "\u274c"
-                        count_fail += 1
+                        # 字数偏低：仅供教师参考，不计入失败
+                        status = "\U0001f4ca"
+                        count_low += 1
                     budget_str = str(mod['budget_chars'])
                 else:
                     pct_str = "-"
@@ -999,13 +997,17 @@ def main():
         # --segment-check: 输出 JSON 并退出
         if args.segment_check:
             print(json.dumps(segment_results, ensure_ascii=False, indent=2))
-            has_fail = any(r.get('fill_ratio') is not None and r['fill_ratio'] < 0.8
-                          for r in segment_results)
+            # 仅退化/溢出触发非零退出码，字数偏低不触发（教师决策域）
             has_degen = any(r.get('is_degenerated') for r in segment_results)
-            sys.exit(1 if (has_fail or has_degen) else 0)
+            has_overflow = any(r.get('overflow') for r in segment_results)
+            sys.exit(1 if (has_degen or has_overflow) else 0)
 
         # 汇总行
-        summary_parts = [f"达标 {count_pass}", f"偏薄 {count_warn}", f"不足 {count_fail}"]
+        summary_parts = [f"达标 {count_pass}"]
+        if count_low > 0:
+            summary_parts.append(f"偏低 {count_low}（仅供参考）")
+        if count_fail > 0:
+            summary_parts.append(f"质量问题 {count_fail}")
         if count_draft > 0:
             summary_parts.append(f"Draft {count_draft}")
         if count_exempt > 0:
@@ -1014,10 +1016,12 @@ def main():
             summary_parts.append(f"无预算 {count_unknown}")
         print(f"\n  \U0001f4ca 汇总: {' / '.join(summary_parts)}")
 
-        # 退出码：存在 ❌ 时返回非 0
+        # 退出码：仅退化/溢出/draft 等质量问题触发非零（字数偏低不触发）
         if count_fail > 0:
-            print(f"\n  \u26d4 存在 {count_fail} 个严重不足模块，退出码 1")
+            print(f"\n  \u26d4 存在 {count_fail} 个质量问题模块（退化/溢出/draft），退出码 1")
             sys.exit(1)
+        if count_low > 0:
+            print(f"\n  \U0001f4ca {count_low} 个模块字数偏低（仅供教师参考，不影响退出码）")
 
     # 词汇表输出
     if args.dump_vocab and all_vocab_by_chapter:
