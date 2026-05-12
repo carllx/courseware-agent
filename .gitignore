@@ -22,6 +22,7 @@ __pycache__/
 *.mp3
 *.aac
 *.flac
+*.webm
 
 # 注意: package-lock.json 不应排除——它是确定性构建的保障
 # 已从 V-09 修复中恢复追踪
