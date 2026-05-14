@@ -2,12 +2,11 @@
 # 人培参考 (Training Plan Reference)
 # ──────────────────────────────────────────────────────────
 # 本课程服务年级: 23级 (2023 入学)
-# 适用人培版本:   2024 人培（数字媒体艺术四年制本科）
+# 适用人培版本:   2023版人培（数字媒体艺术四年制本科）
 # 人培中课程名:   交互产品综合创作
-# 人培学分/学时:  3学分 / 60学时 (理20+实40 [2024/2025])
-# 实际开课设置:   3学分 / 60学时 (理30+实30), 以实际排课为准
+# 人培学分/学时:  3学分 / 60学时 (理0+实60)
+# 实际开课设置:   3学分 / 60学时 (理0+实60), 以实际排课为准
 # 人培支撑矩阵:
-#   2024版: 毕业要求4(基本技能) ✓, 毕业要求6(创新设计) ✓, 毕业要求8(团队合作) ✓
 #   2025版: 2.3全流程创作能力(H), 3.2独立创意思考(M), 7.2执行能力(H)
 # ──────────────────────────────────────────────────────────
 course:
@@ -16,6 +15,7 @@ course:
   code: CNFU002572
   semester: 2025-2026-2
   nature: 专业选修课
+  training_plan_version: "2023"   # 适用的人培版本（23级入学 → 执行2023版人培）
   credits: 3.0
   department: 设计学院
   major: 数字媒体艺术
@@ -32,8 +32,8 @@ course:
       week_range: "1-15"    # ISSUE-003 修复：依据课表截图，实际上课周次为第1-15周
   hours:
     total: 60
-    theory: 30
-    practice: 30
+    theory: 0              # 23版人培规定：全部为实践学时
+    practice: 60            # 23版人培规定：60学时全部为实践
     minutes_per_period: 45   # 每节课标准分钟数（MSG-010：教务端校验基准）
   introduction:
     content: |
@@ -161,8 +161,8 @@ calendar:
     content: |-
       1.1 交互与UX的本质定义；可用性与体验目标
       1.2 产品体验的逆向拆解实验
-    hours_theory: 3
-    hours_practice: 1
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 理解交互设计与用户体验的区别与联系，掌握核心可用性原则
     focus: "交互设计的本质定义与可用性目标评估标准"
@@ -197,8 +197,8 @@ calendar:
     content: |-
       2.1 认知框架与记忆负荷；心智模型与界面隐喻
       2.2 视觉热力与认知过载节点重构
-    hours_theory: 3
-    hours_practice: 1
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 深入理解人类认知局限与短时记忆负荷，掌握心智模型与界面隐喻的映射规律
     focus: "心智模型匹配度与降低认知过载的设计法则"
@@ -237,8 +237,8 @@ calendar:
       3.1 定性调研原则；敏捷业务痛点发掘
       3.2 启动 实验1(Exp1)，拟定 JTBD 微调研方案
     exp_id: 1   # 对应实验1「概念设计与交互主线」启动周
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 掌握精益用户体验研究中的定性调研方法
       ability: 能敏锐挖掘用户痛点与业务机会
@@ -277,8 +277,8 @@ calendar:
     content: |-
       4.1 抛弃重型 Persona，假设驱动与极简场景的界定
       4.2 完成 实验1(Exp1)，输出互动应用最小可行性清单
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 应用假设驱动的敏捷设计思维
       ability: 能界定极简场景并输出最小可行性产品(MVP)需求清单
@@ -318,8 +318,8 @@ calendar:
       5.1 心流机制；前端页面状态流式拆解与编排
       5.2 启动 实验2(Exp2)，起草应用状态流转白板图
     exp_id: 2   # 对应实验2「状态机映射与视觉体系」启动周
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 理解心流状态的触发条件，掌握前端页面状态机的流式拆解手法与逻辑编排能力
     focus: "目标导向的流式架构图设计与界面状态机的完整闭环设计"
@@ -357,8 +357,8 @@ calendar:
     content: |-
       6.1 DOM视觉映射机理；Figma AutoLayout 向 CSS Flex 的底层转化基础
       6.2 在 Figma 搭建严苛响应式组件框架
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 理解设计工具与前端开发的映射机理
       ability: 掌握从 AutoLayout 容器思维到响应式组件框架的构建
@@ -397,8 +397,8 @@ calendar:
     content: |-
       7.1 利用基础排版字重与空间感建立层级；HSL系统解析
       7.2 为干瘪骨架填入视觉系统标签 (Tokens)
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 掌握无需依赖图形装饰、仅靠空间留白和字重构建信息层级的方法
       ability: 熟练建立科学的色彩 Token 系统
@@ -437,8 +437,8 @@ calendar:
     content: |-
       8.1 光影深度营造原则；处理极限/错误边界与情境反馈
       8.2 收尾 实验2(Exp2)，建立视觉 Token Prompt 集
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 掌握界面物理深度的构建手段
       ability: 重点理解并补全极端情境（空状态、报错等）的防错与宽容度设计
@@ -478,8 +478,8 @@ calendar:
       9.1 大语言模型的人机协同系统架构法；界面生成 Prompt 工程
       9.2 启动 实验3(Exp3)，通过 v0 生成应用初始视图壳层
     exp_id: 3   # 对应实验3「AI 原型与创意动效生成」启动周
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 理解 AI 生成代码的边界与约束，掌握界面级 Prompt 结构化工程
       ability: 能高效驱动 AI 工具生成高保真交互壳层
@@ -518,8 +518,8 @@ calendar:
     content: |-
       10.1 前端交互特效融合机制；微观反馈的理论支撑
       10.2 AI代码助手驱动实现跟随/粒子等基础创意动效
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 认知微动效在提供反馈与情感化设计中的重要作用
       ability: 掌握通过 AI 辅助植入创意前端动效的协作流
@@ -558,8 +558,8 @@ calendar:
     content: |-
       11.1 本地大模型代码辅助阅读规律；混合保真度演示机制
       11.2 收尾 实验3(Exp3)，通过Figma修复串联断裂的状态
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       ability: 具备基本的代码辅助阅读自检能力
       knowledge: 掌握大模型陷入死循环时的兜底降级方案与混合保真测试准备工作
@@ -599,8 +599,8 @@ calendar:
       12.1 可用性客观评估标准引入；Nielsen十大可用性真理
       12.2 启动 实验4(Exp4)，生生互评跨组走查日
     exp_id: 4   # 对应实验4「启发式评估验证闭环」启动周
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 掌握以 Nielsen 十大原则为核心的启发式评估方法
       ability: 能客观、高效地发现产品中违反可用性常理的高优先级问题
@@ -639,8 +639,8 @@ calendar:
     content: |-
       13.1 无硬件条件下的实验室降维版：出声思考(Think-Aloud)的科学执行
       13.2 执行实地用户定性实验，深挖死角
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       knowledge: 掌握无硬件眼动仪等条件限制下的低成本测试利器——出声思考法
       ability: 能够主持科学的用户操作与定性观察
@@ -679,8 +679,8 @@ calendar:
     content: |-
       14.1 体验设计作品库的闭环故事梳理核心心法
       14.2 收尾 实验4(Exp4)，总结测试痛点并定版前后旅程对比
-    hours_theory: 2
-    hours_practice: 2
+    hours_theory: 0
+    hours_practice: 4
     teaching_requirements:
       ability: 能够系统梳理并量化测试反馈
       knowledge: 掌握交互体验从发现到验证再到优化的闭环叙事结构并制作展示资产

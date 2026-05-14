@@ -105,6 +105,35 @@ def validate_single_script(file_path: str, filename: str) -> dict:
             if not duration:
                 warnings.append(f"L{b.line_start}: ⚠️  ACTIVITY 块缺少 **Duration** 字段")
 
+            # ===== Quiz 子类型专属字段校验 (§4.1) =====
+            if atype == "Quiz":
+                quiz_missing = []
+                if not b.metadata.get("quiz_question"):
+                    quiz_missing.append("Q")
+                if not b.metadata.get("quiz_options"):
+                    quiz_missing.append("Options")
+                if not b.metadata.get("quiz_answer"):
+                    quiz_missing.append("Answer")
+                if quiz_missing:
+                    errors.append(
+                        f"L{b.line_start}: ❌ Quiz 块缺少必填字段: "
+                        f"{', '.join(quiz_missing)} "
+                        f"(参照 script_format/SKILL.md §4.1，"
+                        f"Q/Options/Answer 必须写在 > 引用块内部)"
+                    )
+                else:
+                    opts = b.metadata.get("quiz_options", [])
+                    if len(opts) < 3 or len(opts) > 5:
+                        warnings.append(
+                            f"L{b.line_start}: ⚠️  Quiz 选项数量 "
+                            f"{len(opts)} 不在 [3,5] 范围内"
+                        )
+                    if not b.metadata.get("quiz_explain"):
+                        warnings.append(
+                            f"L{b.line_start}: ⚠️  Quiz 块缺少 "
+                            f"**Explain** 字段（推荐提供答案解析）"
+                        )
+
         elif b.block_type == BlockType.SLIDE_REF:
             old_slide_refs.append(b)
             errors.append(
@@ -187,6 +216,27 @@ def validate_single_script(file_path: str, filename: str) -> dict:
                         warnings.append(
                             f"L{b.line_start + offset}: \u26a0\ufe0f  \u4fee\u8f9e\u9ed1\u540d\u5355\u547d\u4e2d: '{word}'"
                         )
+
+    # ===== 孤儿题目启发式检测 (Layer 2) =====
+    # 检测疑似 Quiz 内容被错误地写在 > [ACTIVITY] 块外面的 SPEECH 段落中
+    RE_ORPHAN_QUIZ_HEADER = re.compile(r'\*\*Q\d+[\.\)）]')
+    RE_ORPHAN_QUIZ_OPTION = re.compile(r'^\s*[-\*]\s+[A-D][\.。）\)]', re.MULTILINE)
+    for b in blocks:
+        if b.block_type != BlockType.SPEECH:
+            continue
+        # 跳过已归入口头标签的 SPEECH 块（如 CASE STUDY 等）
+        if b.metadata.get("oral_tag"):
+            continue
+        has_q_header = bool(RE_ORPHAN_QUIZ_HEADER.search(b.content))
+        has_option = bool(RE_ORPHAN_QUIZ_OPTION.search(b.content))
+        if has_q_header or has_option:
+            warnings.append(
+                f"L{b.line_start}: ⚠️  疑似孤儿题目 — "
+                f"检测到类似 Quiz 的格式写在了正文中 "
+                f"(匹配: {'题干' if has_q_header else ''}{'+'  if has_q_header and has_option else ''}{'选项' if has_option else ''})，"
+                f"请确认是否应包裹在 > [ACTIVITY] Type: Quiz 块内 "
+                f"(参照 script_format/SKILL.md §4.1)"
+            )
 
 
     # 对每个 VISUAL 块，检查其后紧邻 SPEECH 块的字数与 Scene 描述字数的比值

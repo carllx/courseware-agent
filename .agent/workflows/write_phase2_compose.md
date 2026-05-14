@@ -145,6 +145,25 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
       2. **Quiz 优先策略**：当连续讲授 ≥ 3000 字（约 10 分钟）时，应优先插入 `Type: Quiz` 的 ACTIVITY 块（题目设计原则：使用刚讲过的案例变体作为情境，选项覆盖学生常见认知误区，解析回溯逐字稿论述）。
       3. 当连续讲授 < 3000 字但概念转折明显时，可插入 1 分钟量级的 `Type: QA` 心跳校验（如 `> [ACTIVITY] Type: QA | Duration: 1min | Desc: 灵魂发问`），打破单向说教导致的心流断裂。
 
+    > [!CAUTION]
+    > **Quiz 块格式红线**：Quiz 的题干、选项、答案和解析**必须全部写在 `> ` 引用块内部**，严禁将其写在块外作为普通 Markdown 正文。`validate_spec.py` 会自动拦截缺失字段和孤儿题目。
+    >
+    > **Quiz 块骨架模板**（复制后填写）：
+    > ```markdown
+    > 好，我们来做一个快速判断。
+    >
+    > > [ACTIVITY]
+    > > *   **Type**: `Quiz`
+    > > *   **Duration**: `2min`
+    > > *   **Desc**: 概念辨析小测
+    > > *   **Q**: 题干（含情境描述 + 问题）
+    > > *   **Options**: A. 选项 | B. 选项 | C. 选项 | D. 选项
+    > > *   **Answer**: `C`
+    > > *   **Explain**: 解析，回溯逐字稿论述
+    >
+    > 时间到！我看到后台数据……
+    > ```
+
 > [!IMPORTANT]
 > **Phase A → 中间检查点 → Phase B** 是字数达标的核心机制。禁止跳过中间检查点直接将模块标记为 done。禁止 Agent 自行估算字数——必须依赖外部验证器的精确计数。
 

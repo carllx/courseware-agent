@@ -16,6 +16,7 @@ course:
   code: CNFU003847
   semester: 2025-2026-2
   nature: 专业选修课
+  training_plan_version: "2024"   # 适用的人培版本（24级入学 → 执行2024版人培）
   credits: 2.0
   department: 设计学院
   major: 数字媒体艺术

@@ -22,7 +22,7 @@
 - **脚本**：W01-W08 设计模块已大量重构。W01 M00 课程导览模块完成了核心叙事升维——将"数据被动包裹生活"拉高为"数据反向操纵人类心智"的新论断维度，并通过 Standard 级别审计（Pass with Notes，7 项 🟡 建议项，最大风险为锚词覆盖率 24%）。W01 M03 通过 DRP 赤字修复协议完成重度人文扩写。W01_Practice_Guide 完成内卷化业务模拟剧本更新。W04和W07 通过视觉渲染及合规性验证。W06 通过审计完成结构扩展（Level-2/Level-3）与视觉规范对齐。历史骨架全部上线。
 - **V5 迁移**：**仅 W01/W02 已完成模块化**（`package.yaml` + `src/M0X_*.md`），W03-W08 仍为旧架构单体脚本。
 - **配置**：`W01_practice.yaml` 对齐完成。
-- **视觉资产**：W01 通过 `/generate_assets` 完成 Kandinsky+Dada 风格补缺及 M00 缺失的 8 张大纲图卡生成封装，今日进一步重置了 M00 的 4 张视觉核心幻灯片图卡，且均严格实施了 Constructivist Dada 的高度前卫属性融合。W02 全面完成了教材级视觉资产同步（M00-M05），使用 Munzner 教材核心解剖图全面替换了抽象 AI 占位图。W03 (Data Literacy) 全面完成了 M00-M05 模块视觉资产同步与审计，利用 Munzner 教材精准锚定了数据抽象、任务抽象等核心理论图解。目前部分后续周次仍遗留部分视觉断链需排期修复。
+- **视觉资产**：W01 通过 `/generate_assets` 完成 Kandinsky+Dada 风格补缺及 M00 缺失的 8 张大纲图卡生成封装，今日进一步重置了 M00 的 4 张视觉核心幻灯片图卡，且均严格实施了 Constructivist Dada 的高度前卫属性融合。W02 全面完成了教材级视觉资产同步（M00-M05），使用 Munzner 教材核心解剖图全面替换了抽象 AI 占位图。今日针对 W02 M00 进一步定制化重构了“香农信息论”与“视点翻转”两个核心视觉锚点图，成功消除了 M00 的视觉断链。W03 (Data Literacy) 全面完成了 M00-M05 模块视觉资产同步与审计，利用 Munzner 教材精准锚定了数据抽象、任务抽象等核心理论图解。目前部分后续周次仍遗留部分视觉断链需排期修复。
 - **知识库**：开始筹建，尚未饱和。
 
 ### 实习指导
@@ -33,6 +33,9 @@
 ## 最近活动（近 7 天）
 
 | 日期 | 事件 |
+| 2026-05-14 | 执行 `/ppt` 工作流。针对《信息可视化》W02 (Design Principles) 成功生成品牌化 PPTX 最终交付物（包含视频转码与嵌入），输出路径为 `build/artifacts/W02_Design_Principles/信息可视化_W02_Design_Principles_Branded.pptx`。 |
+| 2026-05-14 | 执行 `/generate_assets` 工作流。针对《信息可视化》W02 M00 模块中关于香农及“视点翻转”的视觉素材进行了定向重构。移除了泛化的隐喻，按照用户要求生成了"香农与硬币、莎士比亚"及"机械翻转箭头"的具象化教学插图，遵循 `theme_data_ink_swiss` 的极简线框风格，并已更新脚本锚点链接。 |
+| 2026-05-13 | 执行 `/publish` 一键发布编排（包含废弃资产清理）。成功运行 `cleanup_stale_assets.py` 清除冗余文件，修复了由于超大 `.webm` 视频触发的 GitHub 推送拦截（并补充排除了 `.gitignore`），并顺利完成 H5 构建、源码同步以及 Netlify 生产环境部署和线上冒烟测试闭环。 |
 | 2026-05-12 | 重构 `ppt_parser.js` 标签处理架构。将口头标签（CASE STUDY/STORY TIME/TEACHING MOMENT/PHILOSOPHY 等）和参考标签（TECH NOTE/WARNING）从"独立成页/静默丢弃"改为"内容合并到当前 Slide 的 Speaker Notes"。根治了 TEACHING MOMENT 无标题变体内容被静默丢弃的严重 bug（影响 50+ 处脚本）、CASE STUDY 强制断页导致的 VISUAL 空备注问题，以及 TECH NOTE 内容完全丢失的不一致性。W03 PPT 从 143→129 页（-14 页口头标签独立页），课件更紧凑。 |
 | 2026-05-09 | 执行 `/publish` 管线架构审查与修复。修复了 `_lib.sh` 缺少 NVM 环境初始化的缺陷；创建了 `smoke_test.sh` 线上自动冒烟测试脚本，并将该环节强制整合进 `/deploy_netlify` 工作流；修复了关键清理工具 `cleanup_stale_assets.py` 误删及路径依赖硬编码的问题。 |
 | 2026-05-09 | 执行 `/audit` 级别联合修复。针对《交互产品开发》W04 (MVP & Hypothesis) M00-M05 完成深度诊断与物理清洗。成功修复 Comparison 布局报错、YAML 语法反引号隐患，并在实验工坊中填补了 Visual 记忆空洞。所有模块 IAR 推进率达 1.00 满分，结构健康。 |
