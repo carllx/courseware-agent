@@ -33,6 +33,7 @@
 ## 最近活动（近 7 天）
 
 | 日期 | 事件 |
+| 2026-05-14 | 执行清理垃圾及部署。通过解析 `validate_visuals.py` 的孤立素材报告，清除了 169 个孤立冗余资产；随后重构了 H5 的 `dist` 并将其推送到 GitHub，最后将其同步到 Netlify 平台完成线上部署发布闭环。 |
 | 2026-05-14 | 执行 `/ppt` 工作流。针对《信息可视化》W02 (Design Principles) 成功生成品牌化 PPTX 最终交付物（包含视频转码与嵌入），输出路径为 `build/artifacts/W02_Design_Principles/信息可视化_W02_Design_Principles_Branded.pptx`。 |
 | 2026-05-14 | 执行 `/generate_assets` 工作流。针对《信息可视化》W02 M00 模块中关于香农及“视点翻转”的视觉素材进行了定向重构。移除了泛化的隐喻，按照用户要求生成了"香农与硬币、莎士比亚"及"机械翻转箭头"的具象化教学插图，遵循 `theme_data_ink_swiss` 的极简线框风格，并已更新脚本锚点链接。 |
 | 2026-05-13 | 执行 `/publish` 一键发布编排（包含废弃资产清理）。成功运行 `cleanup_stale_assets.py` 清除冗余文件，修复了由于超大 `.webm` 视频触发的 GitHub 推送拦截（并补充排除了 `.gitignore`），并顺利完成 H5 构建、源码同步以及 Netlify 生产环境部署和线上冒烟测试闭环。 |
