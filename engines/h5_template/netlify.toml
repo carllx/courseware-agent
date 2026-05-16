@@ -41,8 +41,19 @@
   [headers.values]
     Cache-Control = "public, max-age=3600"
 
-# TTS 音频资产 — 中期缓存（内容稳定但偶尔重新提取）
+# TTS 音频资产 — 中期缓存（内容带指纹，可长期缓存）
 [[headers]]
-  for = "/assets/tts/*"
+  for = "/assets/tts/*.mp3"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/assets/tts/*.aac"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# TTS Manifest 禁用长缓存，强制每次获取最新状态
+[[headers]]
+  for = "/assets/tts/manifest.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
