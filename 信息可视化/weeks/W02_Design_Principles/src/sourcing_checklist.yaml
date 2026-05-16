@@ -22,6 +22,88 @@
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
+- slide: S01b_Edward_Tufte_Intro
+  module: M04_删减的艺术__数据墨水与抵制伪_3D_的诱惑
+  layout: Center
+  priority: high
+  media_type: image
+  signals:
+  - physical_product
+  - book_cover
+  - book_title
+  entities:
+  - 定量信息的视觉展示
+  description: '"数据可视化先驱：Edward Tufte"'
+  scene_excerpt: Edward Tufte 经典著作《定量信息的视觉展示》封面及其极简哲学名言。
+  search_queries:
+  - 定量信息的视觉展示 photo
+  - 定量信息的视觉展示 real image
+  - 定量信息的视觉展示 product shot high resolution
+  target_path: ../public/slides/S01b_Edward_Tufte_Intro_real.png
+  current_asset: ../public/slides/S01b_Edward_Tufte_Intro.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S00_Review_Challenger
+  module: M00_不仅是数据_更是隐喻_构建符号的艺术表达
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: '"挑战者号：表格掩埋了 7 条人命"'
+  scene_excerpt: 塔夫特为挑战者号灾难复盘绘制的 O 型环损伤散点图——横轴气温，纵轴损伤程度。一条醒目的红色虚线垂直对准 29°F 极寒温度，所有历史事故黑点密集聚集在低温侧。
+  search_queries:
+  - '"挑战者号：表格掩埋了 7 条人命" historical photo'
+  - '"挑战者号：表格掩埋了 7 条人命" archive image'
+  target_path: ../public/slides/S00_Review_Challenger_real.png
+  current_asset: ../public/slides/w01_review/S02c_Tufte_Scatterplot.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S05c_Area_Volume_Illusion
+  module: M03_视觉偏差的陷阱__心理学精度与视觉弹出
+  layout: Full
+  priority: medium
+  media_type: image
+  signals:
+  - physical_product
+  entities: []
+  description: '"Stevens 定律实证：你的大脑在骗你"'
+  scene_excerpt: 三组红色实体圆的对比展示——上方标注实际面积比 1:2:4，下方用虚线圈出人脑感知的等效面积比约 1:1.4:2.5，两组数字之间用醒目的黄色闪电符号标注"心理压缩系数 0.7"。
+  search_queries: []
+  target_path: ../public/slides/S05c_Area_Volume_Illusion_real.png
+  current_asset: ../public/slides/S05c_Area_Volume_Illusion.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S05d_Wealth_Bubble_Lie
+  module: M03_视觉偏差的陷阱__心理学精度与视觉弹出
+  layout: Full
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: '"你以为的 3 倍差距，实际是 100 倍——面积通道的认知陷阱"'
+  scene_excerpt: 一张全球财富气泡地图案例——最大气泡（代表美国）与最小气泡（代表某发展中国家）之间，用红色标注线分别标出"视觉感知落差：×3"和"真实数值落差：×100"，形成触目惊心的反差警示。
+  search_queries:
+  - '"你以为的 3 倍差距，实际是 100 倍——面积通道的认知陷阱" historical photo'
+  - '"你以为的 3 倍差距，实际是 100 倍——面积通道的认知陷阱" archive image'
+  target_path: ../public/slides/S05d_Wealth_Bubble_Lie_real.png
+  current_asset: ../public/slides/S05d_Wealth_Bubble_Lie.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
 - slide: S08b2_Autopsy_Table
   module: M05_认知审计实验室__三阶段对比实验
   layout: Center
@@ -59,47 +141,108 @@
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: S02b2_Frames_of_Mind_Meta_Art
+- slide: S02d3_Metaphor_Hierarchies
   module: M01_跳出模板__寻找数据的时空隐喻
-  layout: Comparison
+  layout: Center
   priority: low
   media_type: image
   signals:
   - named_entity
-  - book_title
   entities:
   - TreeMap
-  - Frames of Mind
-  - The Shapes of Picasso
-  description: '"Meta-Art：最高维的视觉隐喻"'
-  scene_excerpt: 左侧展示一张使用 ECharts 默认皮肤生成的普通方形树图 (TreeMap)，右侧并排展示 Alberto Lucas López 的《Frames of Mind》中那些被画成如立体主义碎玻璃般不规则的面积区块组合。
+  description: '"时空生态 #3：俄罗斯套娃"'
+  scene_excerpt: 一个极其精密、层层包裹的机械俄罗斯套娃结构，内部空间层层向内无限嵌套，光线穿透多层半透明外壳，体现层级与包含关系。
   search_queries:
   - TreeMap photo
   - TreeMap real image
   - TreeMap portrait
-  - Frames of Mind photo
-  - Frames of Mind real image
-  - Frames of Mind portrait
-  target_path: ../public/slides/S02b2_Frames_of_Mind_Meta_Art_real.png
-  current_asset: ../public/slides/S02b2_Frames_of_Mind_Meta_Art.png
+  target_path: ../public/slides/S02d3_Metaphor_Hierarchies_real.png
+  current_asset: ../public/slides/S02d3_Metaphor_Hierarchies.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: S07b_Rainbow_Colormap_Trap
+- slide: S03c_Channel_Metaphor
+  module: M02_原子语法____Marks_标记____与__Channels_通道
+  layout: Center
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  entities:
+  - RenderMode
+  description: '"通道：操控几何原子的属性面板"'
+  scene_excerpt: 类似 Figma 或设计软件的 UI 界面。画布中央悬浮着基础的矢量几何节点（点、线、面，代表 Marks），右侧是带有数值联动效果的属性控制面板（代表 Channels）。属性面板中的 Fill 颜色拾色器、X/Y
+    坐标数值、Stroke 粗细等选项正射出光束，精准控制着画布中央几何图形的对应属性。
+  search_queries:
+  - RenderMode photo
+  - RenderMode real image
+  - RenderMode portrait
+  target_path: ../public/slides/S03c_Channel_Metaphor_real.png
+  current_asset: ../public/slides/S03c_Channel_Metaphor.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S05e_Weber_Diverging_Bar
   module: M03_视觉偏差的陷阱__心理学精度与视觉弹出
   layout: Split
   priority: low
   media_type: image
   signals:
-  - dated_event
+  - book_cover
   entities: []
-  description: '"禁忌：彩虹色阶的明度断层"'
-  scene_excerpt: 展示彩虹色阶中黄青过渡区造成的伪边界。
+  description: '"破局韦伯盲区：用发散图放大微小差异"'
+  scene_excerpt: '左半屏：两根近乎等高的巨大柱子（标注“目标: 15000 亿”和“实际: 15001 亿”），顶部差异肉眼难辨，上方用红色虚线框标注“韦伯盲区”；右半屏：切换为发散性误差偏离图，以 15000 亿的目标值为零点基线，那一亿的超额业绩被显著放大为清晰可见的偏差条。整体风格为商业数据新闻设计感，而非教材学术图。'
   search_queries: []
-  target_path: ../public/slides/S07b_Rainbow_Colormap_Trap_real.png
-  current_asset: ../public/slides/S07b_Rainbow_Colormap_Trap.png
+  target_path: ../public/slides/S05e_Weber_Diverging_Bar_real.png
+  current_asset: ../public/slides/S05e_Weber_Diverging_Bar.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S06e_Accessibility_ColorBrewer
+  module: M03_视觉偏差的陷阱__心理学精度与视觉弹出
+  layout: Split
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  entities:
+  - ColorBrewer
+  description: '"色觉缺陷不是少数人的问题——它是设计师的职业道德底线"'
+  scene_excerpt: 左半屏展示同一张热力图在红绿色盲模拟滤镜下的失效效果；右半屏展示应用 ColorBrewer 无障碍调色板后的清晰效果，分别标注"8% 男性看到的世界"和"无障碍设计后的世界"。
+  search_queries:
+  - ColorBrewer photo
+  - ColorBrewer real image
+  - ColorBrewer portrait
+  target_path: ../public/slides/S06e_Accessibility_ColorBrewer_real.png
+  current_asset: ../public/slides/S06e_Accessibility_ColorBrewer.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S06f_ColorBrewer_Simulator_Tools
+  module: M03_视觉偏差的陷阱__心理学精度与视觉弹出
+  layout: Grid
+  priority: low
+  media_type: image
+  signals:
+  - named_entity
+  entities:
+  - ColorBrewer
+  description: '"防雷神器：ColorBrewer 与色盲模拟器"'
+  scene_excerpt: 上方展示 ColorBrewer 网站界面勾选"colorblind safe"选项；下方展示色盲滤镜模拟器插件界面。
+  search_queries:
+  - ColorBrewer photo
+  - ColorBrewer real image
+  - ColorBrewer portrait
+  target_path: ../public/slides/S06f_ColorBrewer_Simulator_Tools_real.png
+  current_asset: ../public/slides/S06f_ColorBrewer_Simulator_Tools.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto

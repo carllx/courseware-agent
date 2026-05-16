@@ -1,0 +1,48 @@
+- id: M01_David_McCandless_Beauty
+  url: "ytsearch1:The beauty of data visualization David McCandless TED"
+  name: "M01_David_McCandless_Beauty"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:18:17"
+
+- id: M01_Giorgia_Lupi_Data_Humanism
+  url: "ytsearch1:How we can find ourselves in data Giorgia Lupi TED"
+  name: "M01_Giorgia_Lupi_Data_Humanism"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:11:14"
+
+- id: M01_Refik_Anadol_Data_Sculpture
+  url: "ytsearch1:Art in the age of machine intelligence Refik Anadol TED"
+  name: "M01_Refik_Anadol_Data_Sculpture"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:12:02"
+
+- id: M02_Map_Distortion_TED
+  url: "ytsearch1:Why every world map is wrong TED-Ed"
+  name: "M02_Map_Distortion_TED"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:04:58"
+
+- id: M02_Synesthesia_Kandinsky_TED
+  url: "ytsearch1:What color is Tuesday? Exploring synesthesia TED-Ed"
+  name: "M02_Synesthesia_Kandinsky_TED"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:03:56"
+
+- id: M02_Gestalt_CrashCourse
+  url: "ytsearch1:Perceiving is Believing Crash Course"
+  name: "M02_Gestalt_CrashCourse"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:10:00"
+
+- id: S11c_Dear_Data_Project
+  url: "https://www.youtube.com/watch?v=iqaVe1MCTlA"
+  name: "S11c_Dear_Data_Project"
+  subtitle_lang: "zh-Hans"
+  start: "00:00:00"
+  end: "00:03:18"

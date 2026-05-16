@@ -541,3 +541,37 @@ entries:
   - minimalism
   summary: 删减的艺术：Tufte数据墨水比与四步擦除法；伪3D的三宗罪(遮挡/透视失真/算力浪费)；黑白测试与小多图
   source: knowledge/notes/04_极简设计与数据墨水比.md
+- id: data-abstraction-what
+  type: textbook_extraction
+  tags:
+  - data-types
+  - dataset-types
+  - what-framework
+  summary: What框架：五种基本数据类型、四种数据集类型（表格/网络/场/几何）及数据集可用性（静态/流）
+  source: knowledge/notes/W03_05_数据抽象导论_What框架.md
+- id: attribute-semantics-key-value
+  type: textbook_extraction
+  tags:
+  - attribute-types
+  - key-value
+  - semantics
+  summary: 属性类型与语义：分类/序数/定量；顺序/发散/循环；多维表与连续场中的Key/Value语义
+  source: knowledge/notes/W03_06_属性类型与语义_Key_Value.md
+- id: task-abstraction-why
+  type: textbook_extraction
+  tags:
+  - task-abstraction
+  - analyze-search-query
+  - derive
+  - why-framework
+  summary: Why框架：Analyze(发现/呈现/享受/派生)-Search(四象限)-Query(识别/比较/总结)三层框架与Derive派生操作
+  source: knowledge/notes/W03_07_任务抽象_Why框架.md
+- id: tidy-data-reshape
+  type: textbook_extraction
+  tags:
+  - tidy-data
+  - reshape
+  - wide-long
+  - ai-prompt
+  summary: Tidy Data原则与重塑：宽表转长表、五种脏数据反模式、AI辅助数据清洗的Prompt三要素（对应Munzner Derive）
+  source: knowledge/notes/W03_08_Tidy_Data与数据重塑.md

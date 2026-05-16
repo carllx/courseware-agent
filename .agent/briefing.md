@@ -11,7 +11,7 @@
 - **V5 架构迁移**：完成了全域 Package 化，重构了 `src/` 与 `public/` 的解耦，修正了关联 PPT/H5 build script 下游构建引擎。
 - **架构大瘦身**：清理大量过度拟合的规则堆叠。将原字数打底相关规则整合为统一的 `rule_content_depth.md`。将 `rule_narrative_standards.md` 与 `rule_knowledge_protocol.md (已移除)` 降级剥离到技能参考 (`skills/*/references`) 中，减少 50% 以上触发负载。
 - **H5 Craft-room**：完成 Phase 0-3 实时审计系统。H5 从"只读预览器"升级为"实时创作工作台"，含 P0 渲染管线（~300ms）+ P1 验证管线（~2s 异步），DurationGauge/HealthDot/ValidationOverlay/AnnotationOverlay 4 大组件 + ValidationContext 心流保护。
-- **发布架构 (Deployment)**：重构了产物交付管线，全面解耦 `/build`（SSG构建）与 `/deploy_netlify`（CDN 投递），并提供 `/publish` 一键发版编排。近期进一步完成了全链路架构加固（Pipeline Hardening），包括 NVM 环境初始化、自动化线上冒烟测试（smoke_test.sh），并修复了工具链脚本路径依赖的脆弱性。
+- **发布架构 (Deployment)**：重构了产物交付管线，全面解耦 `/build`（SSG构建）与 `/deploy_netlify`（CDN 投递），并提供 `/publish` 一键发版编排。近期进一步完成了全链路架构加固（Pipeline Hardening），包括 NVM 环境初始化、自动化线上冒烟测试（smoke_test.sh），并修复了工具链脚本路径依赖的脆弱性。今日执行 `/build` 清除了 2.3GB 的历史冗余媒体资产，`dist/` 处于极简待发布状态。
 
 ### 交互产品开发
 - **脚本**：W01-W14 全量完成。今日完成了 W04 (MVP & Hypothesis) M00-M05 的系统性 pedagogical 审计，修复了多处 Comparison 布局的 List 字段遗漏与 YAML 语法级解析错误（反引号），并为工作坊模块补全了 Visual 视图锚点，整体 IAR 极高（1.00），彻底清除了教学认知摩擦。此前已完成 W03 (Product Insights) M00-M06 的深度审计与定点扩写。W01、W02、W11、W13、W14 均已通过 DRP 验证与 Standard 审计。历史骨架全部上线。
@@ -33,6 +33,7 @@
 ## 最近活动（近 7 天）
 
 | 日期 | 事件 |
+| 2026-05-16 | 执行 `/build` 工作流。完成 H5 课件 SSG 构建管线，自动转码生成 1011 张 WebP 与 1409 段 MP3 资产，触发后清理阶段成功移除了 4763 项（释放约 2.3GB）冗余媒体资产与原件，生成可随时部署的极简 `dist/` 目录。 |
 | 2026-05-14 | 执行清理垃圾及部署。通过解析 `validate_visuals.py` 的孤立素材报告，清除了 169 个孤立冗余资产；随后重构了 H5 的 `dist` 并将其推送到 GitHub，最后将其同步到 Netlify 平台完成线上部署发布闭环。 |
 | 2026-05-14 | 执行 `/ppt` 工作流。针对《信息可视化》W02 (Design Principles) 成功生成品牌化 PPTX 最终交付物（包含视频转码与嵌入），输出路径为 `build/artifacts/W02_Design_Principles/信息可视化_W02_Design_Principles_Branded.pptx`。 |
 | 2026-05-14 | 执行 `/generate_assets` 工作流。针对《信息可视化》W02 M00 模块中关于香农及“视点翻转”的视觉素材进行了定向重构。移除了泛化的隐喻，按照用户要求生成了"香农与硬币、莎士比亚"及"机械翻转箭头"的具象化教学插图，遵循 `theme_data_ink_swiss` 的极简线框风格，并已更新脚本锚点链接。 |
