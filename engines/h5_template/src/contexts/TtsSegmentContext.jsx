@@ -85,8 +85,8 @@ async function fetchTtsManifest(courseId, weekName) {
   try {
     const url = IS_DEV
       ? `/api/tts/manifest?course=${encodeURIComponent(courseId)}&week=${encodeURIComponent(weekName)}`
-      : `/assets/tts/manifest.json`
-    const res = await fetch(url)
+      : `/assets/tts/manifest.json?t=${Date.now()}`
+    const res = await fetch(url, { cache: 'no-cache' })
     if (!res.ok) return { segments: {} }
     return res.json()
   } catch {
