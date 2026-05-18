@@ -1,33 +1,27 @@
-- slide: W04-23b2-Dropbox-Video-MVP
-  module: M04_MVP_最小可行「学习工具」
-  layout: Split
+- slide: W04-01c-JTBD-Deep-Dive
+  module: M00_课程导览
+  layout: Diagram
   priority: high
-  media_type: video
+  media_type: image
   signals:
-  - video_demo
-  - gazetteer_person
-  - gazetteer_brand
+  - historical_archive
+  - camelcase_product
   entities:
-  - Drew Houston
-  - Dropbox
-  description: Dropbox 的经典三分钟演示视频画面，旁边的图表显示 Hacker News 流量如何将候补名单从 5000 瞬间推高至 75000。
-  scene_excerpt: Dropbox 的经典三分钟演示视频画面，旁边的图表显示 Hacker News 流量如何将候补名单从 5000 瞬间推高至 75000。
+  - iPad
+  description: 冰山之下的真实动机
+  scene_excerpt: 隐喻性图表——表层（海面/冰面上方）标有“SAY（言辞需求）”，深层（沉入深海的部分）标有“DO（真实动机与行为）”（冰山模型）。
   search_queries:
-  - Drew Houston photo
-  - Drew Houston real image
-  - Drew Houston portrait
-  - Dropbox photo
-  - Dropbox real image
-  - Dropbox portrait
-  target_path: ../public/videos/W04-23b2-Dropbox-Video-MVP.webm
-  current_asset: ../public/slides/W04-23b2-Dropbox-Video-MVP.png
+  - iPad photo
+  - iPad real image
+  target_path: ../public/slides/W04-01c-JTBD-Deep-Dive_real.png
+  current_asset: ../public/slides/W04-01c-JTBD-Deep-Dive.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: W04-07-Proto-Persona-Intro
-  module: M01_杀死重型_Persona
+- slide: W04-02b-Hypothesis-Templates
+  module: M00_课程导览
   layout: Grid
   priority: high
   media_type: image
@@ -35,56 +29,39 @@
   - gazetteer_brand
   entities:
   - Lean UX
-  description: 屏幕中央出现 "Proto-Persona (原型用户画像)"，副标题标注 "先假设再验证，快速画持续改"。右侧展示一张粗糙但信息密集的手绘卡片。
-  scene_excerpt: 屏幕中央出现 "Proto-Persona (原型用户画像)"，副标题标注 "先假设再验证，快速画持续改"。右侧展示一张粗糙但信息密集的手绘卡片。
+  description: ''
+  scene_excerpt: ''
   search_queries:
   - Lean UX photo
   - Lean UX real image
-  target_path: ../public/slides/W04-07-Proto-Persona-Intro_real.png
-  current_asset: ../public/slides/W04-07-Proto-Persona-Intro.png
+  target_path: ../public/slides/W04-02b-Hypothesis-Templates_real.png
+  current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: W04-13-Hypothesis-Bridge
-  module: M02_从假设到子弹_假设驱动设计
-  layout: Flow
-  priority: high
-  media_type: image
-  signals:
-  - gazetteer_brand
-  entities:
-  - Lean UX
-  description: 左侧是敏捷开发的齿轮（打磨代码），右侧是商业价值的皇冠（解决问题）。连接两者的是“假设声明 (Hypothesis Statement)”。
-  scene_excerpt: 左侧是敏捷开发的齿轮（打磨代码），右侧是商业价值的皇冠（解决问题）。连接两者的是“假设声明 (Hypothesis Statement)”。
-  search_queries:
-  - Lean UX photo
-  - Lean UX real image
-  target_path: ../public/slides/W04-13-Hypothesis-Bridge_real.png
-  current_asset: ../public/slides/W04-13-Hypothesis-Bridge.png
-  no_ai_flag: false
-  confirmed_urls: []
-  stitch_mode: auto
-  disposition: ''
-  lock_reason: ''
-- slide: W04-14b-Output-Vs-Outcome
-  module: M02_从假设到子弹_假设驱动设计
-  layout: Split
+- slide: W04-08b-Four-Module-Template
+  module: M01_杀死重型_Persona
+  layout: Full
   priority: high
   media_type: image
   signals:
   - historical_archive
   - gazetteer_brand
+  - book_title
   entities:
   - Lean UX
-  description: 左侧是完美的系统架构图（Output），右侧是真实的业务崩塌（Outcome）。对比揭示产出并非结果的残酷事实。
-  scene_excerpt: 左侧是完美的系统架构图（Output），右侧是真实的业务崩塌（Outcome）。对比揭示产出并非结果的残酷事实。
+  - 精益 UX
+  description: 标准化 Proto-Persona 模板 (Four-Module)
+  scene_excerpt: 《精益 UX》中真实的 Proto-Persona 手绘模板（包含左上角的速写头像、右上角的行为特征、下方的痛点与目标拆解）。
   search_queries:
   - Lean UX photo
   - Lean UX real image
-  target_path: ../public/slides/W04-14b-Output-Vs-Outcome_real.png
-  current_asset: ../public/slides/W04-14b-Output-Vs-Outcome.png
+  - 精益 UX photo
+  - 精益 UX real image
+  target_path: ../public/slides/W04-08b-Four-Module-Template_real.png
+  current_asset: ../public/textbook/Fig_7-3.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -97,19 +74,15 @@
   media_type: image
   signals:
   - gazetteer_brand
-  - camelcase_product
   - acronym_product
   entities:
   - Lean UX
-  - iOS
   - UX Canvas
-  description: 将四段式模板的每一个括号部件，通过发光的神经束线精确连结到 Lean UX Canvas 之前完成的对应 Box 核心区 (Box 2, 3, 4, 5)。
+  description: 对齐 Lean UX 画布
   scene_excerpt: 将四段式模板的每一个括号部件，通过发光的神经束线精确连结到 Lean UX Canvas 之前完成的对应 Box 核心区 (Box 2, 3, 4, 5)。
   search_queries:
   - Lean UX photo
   - Lean UX real image
-  - iOS photo
-  - iOS real image
   - UX Canvas photo
   - UX Canvas real image
   target_path: ../public/slides/W04-16-Dissecting-Hypothesis_real.png
@@ -119,85 +92,229 @@
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: W04-16c-Spotify-Release-Radar
-  module: M02_从假设到子弹_假设驱动设计
-  layout: Split
+- slide: W04-23b-Landing-Page-MVP
+  module: M04_MVP_最小可行「学习工具」
+  layout: Screenshot
   priority: high
   media_type: image
   signals:
+  - historical_archive
+  - gazetteer_brand
+  entities:
+  - Dropbox
+  description: 着陆页测试 (Landing Page)
+  scene_excerpt: 一个典型的 Kickstarter 众筹页面示例——经典的落地页测试，在产品还未开发完成前就测试真实购买意愿。
+  search_queries:
+  - Dropbox photo
+  - Dropbox real image
+  target_path: ../public/slides/W04-23b-Landing-Page-MVP_real.png
+  current_asset: ../public/textbook/Fig_12-3.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M02_从假设到子弹_假设驱动设计_narr_L164
+  module: M02_从假设到子弹_假设驱动设计
+  layout: ''
+  priority: medium
+  media_type: video
+  signals:
   - gazetteer_brand
   - book_title
+  - narrative_video_priority
+  - narrative_case study
   entities:
   - Spotify
   - Release Radar
-  description: 还原 Spotify Release Radar 的简单列表界面，对比极简交付形态与高价值商业回报之间的惊人杠杆率。
-  scene_excerpt: 还原 Spotify Release Radar 的简单列表界面，对比极简交付形态与高价值商业回报之间的惊人杠杆率。
+  - Release Radar（新歌雷达）
+  description: '[CASE STUDY]
+
+    **Spotify 的「Release Radar」假设验证**
+
+    曾经的全球音乐霸主 Spotify 发现，老用户在经过两年的听歌后，'
+  scene_excerpt: '[CASE STUDY]
+
+    **Spotify 的「Release Radar」假设验证**
+
+    曾经的全球音乐霸主 Spotify 发现，老用户在经过两年的听歌后，经常抱怨“找不到新歌听，平台推荐的永远都是那几首老歌”，导致订阅退订率在一个特定的时间节点开始上升。
+
+    团队并没有立项去花重金开发一套全新的 AI 推荐算法模型，也没有直接去推翻重做全站的 UI 主题。他们组内写下了一条冷酷的假设：
+
+    *我们相'
   search_queries:
-  - Spotify photo
-  - Spotify real image
-  - Release Radar photo
-  - Release Radar real image
-  target_path: ../public/slides/W04-16c-Spotify-Release-Radar_real.png
-  current_asset: ../public/slides/W04-16c-Spotify-Release-Radar.png
+  - Spotify video
+  - Spotify demo
+  - Release Radar video
+  - Release Radar demo
+  - Release Radar（新歌雷达） video
+  - Release Radar（新歌雷达） demo
+  target_path: ../public/videos/M02_从假设到子弹_假设驱动设计_narr_L164.webm
+  current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: W04-17-Table-Exercise
-  module: M02_从假设到子弹_假设驱动设计
-  layout: Flow
+- slide: W04-01-Philosophy-Map
+  module: M00_课程导览
+  layout: Image
   priority: medium
   media_type: image
   signals:
-  - physical_product
-  - book_cover
+  - historical_archive
   entities: []
-  description: 展示教材中经常提倡的团队作战便利贴组装实体表格。将 Box 2 到 Box 5 的不同维度独立色彩图块从白板四周汇聚挪入并粘合在一个统一强大的长条网格视图中。
-  scene_excerpt: 展示教材中经常提倡的团队作战便利贴组装实体表格。将 Box 2 到 Box 5 的不同维度独立色彩图块从白板四周汇聚挪入并粘合在一个统一强大的长条网格视图中。
-  search_queries: []
-  target_path: ../public/slides/W04-17-Table-Exercise_real.png
-  current_asset: ../public/slides/W04-17-Table-Exercise.png
+  description: 哲学视角 / 地图不等于疆域
+  scene_excerpt: 概念性社论插图，画布被一分为二。左侧是一张带有简单网格线的粗糙纸质抽象地图；右侧则是复杂、丰富的三维真实地形。用强烈的对比张力表达“地图不等于疆域”的隐喻。
+  search_queries:
+  - 哲学视角 / 地图不等于疆域 historical photo
+  - 哲学视角 / 地图不等于疆域 archive image
+  target_path: ../public/slides/W04-01-Philosophy-Map_real.png
+  current_asset: ../public/slides/W04-01-Philosophy-Map.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: W04-21-MVP-Misconception
-  module: M04_MVP_最小可行「学习工具」
+- slide: W04-05-The-Solution-Filter
+  module: M00_课程导览
+  layout: Image
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 最小成本实验的过滤
+  scene_excerpt: 一张巨大的工作台。左侧堆满了几十张被揉皱、废弃的复杂 UI 线框图草纸（象征被拒绝的臃肿功能）；右侧只有一张被图钉钉在板上的极简手绘原型草图，被一束顶光照亮，旁边放着一支红笔。画面传达出极简、克制与聚焦的设计工作坊真实氛围。
+  search_queries:
+  - 最小成本实验的过滤 historical photo
+  - 最小成本实验的过滤 archive image
+  target_path: ../public/slides/W04-05-The-Solution-Filter_real.png
+  current_asset: ../public/slides/W04-05-The-Solution-Filter.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: W04-10b-Banana-Slicer
+  module: M01_杀死重型_Persona
   layout: Split
   priority: medium
   media_type: image
   signals:
   - historical_archive
   entities: []
-  description: 左侧是大众眼中的 MVP（一个少了一半轮子、生锈、残破不堪的半毁汽车底盘），右侧是真实的 MVP 本质（一个低成本但完备的精密检测传感器，其唯一目的是探究用户是
-  scene_excerpt: 左侧是大众眼中的 MVP（一个少了一半轮子、生锈、残破不堪的半毁汽车底盘），右侧是真实的 MVP 本质（一个低成本但完备的精密检测传感器，其唯一目的是探究用户是否需要移动）。
+  description: 痛点存在 = 愿意买单？(香蕉切片机陷阱)
+  scene_excerpt: 著名的“香蕉切片机”商品图——一个荒谬但解决“真实痛点”的过度设计产物。
   search_queries:
-  - ' historical photo'
-  - ' archive image'
-  target_path: ../public/slides/W04-21-MVP-Misconception_real.png
-  current_asset: ../public/slides/W04-21-MVP-Misconception.png
+  - 痛点存在 = 愿意买单？(香蕉切片机陷阱) historical photo
+  - 痛点存在 = 愿意买单？(香蕉切片机陷阱) archive image
+  target_path: ../public/slides/W04-10b-Banana-Slicer_real.png
+  current_asset: ../public/textbook/Fig_7-4.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: W04-24b-Office-Ribbon-MVP
-  module: M05_实验1_收官_调研汇报与可行性清单
-  layout: Flow
+- slide: W04-14-Agile-Trap
+  module: M02_从假设到子弹_假设驱动设计
+  layout: Comparison
   priority: medium
   media_type: image
   signals:
   - historical_archive
   entities: []
-  description: 还原 Office Ribbon 界面大改版时的极简测试原型（无真实功能，只有外观点击热区探测），强调其规避 Q1 致命风险的卓越价值。
-  scene_excerpt: 还原 Office Ribbon 界面大改版时的极简测试原型（无真实功能，只有外观点击热区探测），强调其规避 Q1 致命风险的卓越价值。
+  description: 传统敏捷陷阱 (Output Trap)
+  scene_excerpt: 左侧展示“传统接单思维（敏捷用户故事）”，以代码上线、功能堆砌交付作为胜利节点；右侧展示“精益验证思维（假设声明）”，必须看到用户真实的业务数据改变才算胜利。
   search_queries:
-  - ' historical photo'
-  - ' archive image'
-  target_path: ../public/slides/W04-24b-Office-Ribbon-MVP_real.png
-  current_asset: ../public/slides/W04-24b-Office-Ribbon-MVP.png
+  - 传统敏捷陷阱 (Output Trap) historical photo
+  - 传统敏捷陷阱 (Output Trap) archive image
+  target_path: ../public/slides/W04-14-Agile-Trap_real.png
+  current_asset: ../public/slides/W04-14-Agile-Trap.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: W04-14b-Output-Vs-Outcome
+  module: M02_从假设到子弹_假设驱动设计
+  layout: Split
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: Output vs Outcome (产出与结果)
+  scene_excerpt: 左侧是完美的系统架构图（看似完成了产出），右侧是真实的业务崩塌（完全没有好结果）。对比揭示“做完”和“做好”的区别。
+  search_queries:
+  - Output vs Outcome (产出与结果) historical photo
+  - Output vs Outcome (产出与结果) archive image
+  target_path: ../public/slides/W04-14b-Output-Vs-Outcome_real.png
+  current_asset: ../public/slides/W04-14b-Output-Vs-Outcome.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M02_从假设到子弹_假设驱动设计_narr_L111
+  module: M02_从假设到子弹_假设驱动设计
+  layout: ''
+  priority: medium
+  media_type: image
+  signals:
+  - gazetteer_brand
+  - narrative_did you know
+  entities:
+  - Lean UX
+  description: '[DID YOU KNOW] **指标山峰**（也就是 Metrics Mountain）**与动词法则**
+
+    为了推导商业结果，Lean UX 提倡使用“指标山'
+  scene_excerpt: '[DID YOU KNOW] **指标山峰**（也就是 Metrics Mountain）**与动词法则**
+
+    为了推导商业结果，Lean UX 提倡使用“指标山峰”模型来追踪用户克服阻力的整个过程。在制定这层结果时有一条铁律：**所有的领先指标都必须以动词开头**（例如：用户“减少”呼叫中心求援、“增加”文件上传次数），因为我们追踪的是真实的动作，而不是系统的静态特征。'
+  search_queries:
+  - Lean UX photo
+  - Lean UX real image
+  target_path: ../public/slides/M02_从假设到子弹_假设驱动设计_narr_L111_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M04_MVP_最小可行「学习工具」_narr_L91
+  module: M04_MVP_最小可行「学习工具」
+  layout: ''
+  priority: medium
+  media_type: image
+  signals:
+  - gazetteer_person
+  - gazetteer_brand
+  - narrative_case study
+  entities:
+  - Drew Houston
+  - Dropbox
+  description: '[CASE STUDY]
+
+    **Dropbox 的“烟雾弹”视频测试**
+
+    硅谷的案例中，最经典的莫过于云存储巨头 Dropbox。在 2007-2008 年间，开'
+  scene_excerpt: '[CASE STUDY]
+
+    **Dropbox 的“烟雾弹”视频测试**
+
+    硅谷的案例中，最经典的莫过于云存储巨头 Dropbox。在 2007-2008 年间，开发一套能穿透各操作系统的同步引擎技术难度极高。“云同步”对普通用户来说也是个难以理解的概念。
+
+    投资人问他：“你怎么证明这东西有人要？”
+
+    创始人 Drew Houston 没有选择闭门写代码。他选择了一个极端的 MVP 方式：用两段不同风格的'
+  search_queries:
+  - Drew Houston photo
+  - Drew Houston real image
+  - Dropbox photo
+  - Dropbox real image
+  target_path: ../public/slides/M04_MVP_最小可行「学习工具」_narr_L91_real.png
+  current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -211,12 +328,12 @@
   signals:
   - historical_archive
   entities: []
-  description: 屏幕上出现一句全屏金句："在你的假设得到真实数据证实之前，你不过是一个拥有固执意见的陌生人。" (Until your hypotheses are suppo
+  description: 下周预告与结语金句
   scene_excerpt: 屏幕上出现一句全屏金句："在你的假设得到真实数据证实之前，你不过是一个拥有固执意见的陌生人。" (Until your hypotheses are supported by real data, you are
     just a stranger with an opinion.)
   search_queries:
-  - ' historical photo'
-  - ' archive image'
+  - 下周预告与结语金句 historical photo
+  - 下周预告与结语金句 archive image
   target_path: ../public/slides/W04-25-Next-Steps_real.png
   current_asset: ../public/slides/W04-25-Next-Steps.png
   no_ai_flag: false
@@ -232,8 +349,8 @@
   signals:
   - video_demo
   entities: []
-  description: 极尽拉踩对比。左侧是传统的“年龄、收入、婚姻状态”等人口学死板分类，标有红色❌；右侧是“单手操作偏好、暗箱隐藏能力、极限耐心阀值”等行为差异清单，标有绿色✅。
-  scene_excerpt: 极尽拉踩对比。左侧是传统的“年龄、收入、婚姻状态”等人口学死板分类，标有红色❌；右侧是“单手操作偏好、暗箱隐藏能力、极限耐心阀值”等行为差异清单，标有绿色✅。
+  description: 警惕人口统计学陷阱 (Demographic Trap)
+  scene_excerpt: 极尽拉踩对比。左侧是传统的“年龄、收入、婚姻状态”等人口学死板分类，标有红色❌；右侧是“单手操作偏好、系统报错时的容忍度、是否依赖快捷键”等行为差异清单，标有绿色✅。
   search_queries:
   - 极尽拉踩对比 左侧是传统的“年龄、收入、婚姻状态”等人口学死板分类 标有红色❌； demonstration
   target_path: ../public/videos/W04-09-Demographic-Trap.webm
@@ -243,7 +360,7 @@
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: W04-20a-Infrastructure-Exception
+- slide: W04-20c-Social-Friction-Risk
   module: M03_假设优先级_风险_×_价值矩阵
   layout: Split
   priority: low
@@ -251,12 +368,12 @@
   signals:
   - video_demo
   entities: []
-  description: 展示基础设施例外，左侧是华丽但无用的低优功能，右侧是深埋地下但不可或缺的底层管道（如支付网关）。
-  scene_excerpt: 展示基础设施例外，左侧是华丽但无用的低优功能，右侧是深埋地下但不可或缺的底层管道（如支付网关）。
+  description: 警惕非技术层面的信誉风险
+  scene_excerpt: 还原裂变活动的翻车场景，表面上是简单的代码逻辑（低技术风险），背后是引发口碑下降和卸载的社交隐患（高信誉风险）。
   search_queries:
-  - 展示基础设施例外 左侧是华丽但无用的低优功能 右侧是深埋地下但不可或缺的底层管道 demonstration
-  target_path: ../public/videos/W04-20a-Infrastructure-Exception.webm
-  current_asset: ../public/slides/W04-20a-Infrastructure-Exception.png
+  - 还原裂变活动的翻车场景 表面上是简单的代码逻辑（低技术风险） 背后是引发口碑下降 demonstration
+  target_path: ../public/videos/W04-20c-Social-Friction-Risk.webm
+  current_asset: ../public/slides/W04-20c-Social-Friction-Risk.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -271,53 +388,13 @@
   - book_title
   entities:
   - 交互产品开发
-  description: 左侧显示一堆杂乱的便利贴（用户的无序抱怨），右侧显示一个结构化的 JTBD 画布与三段式痛点陈述。
+  description: 观察胜于聆听 / 洞穿 Say-Do Gap
   scene_excerpt: 左侧显示一堆杂乱的便利贴（用户的无序抱怨），右侧显示一个结构化的 JTBD 画布与三段式痛点陈述。
   search_queries:
   - 交互产品开发 photo
   - 交互产品开发 real image
   target_path: ../public/slides/W04-01-JTBD-Review_real.png
   current_asset: ../public/slides/W04-01-JTBD-Review.png
-  no_ai_flag: false
-  confirmed_urls: []
-  stitch_mode: auto
-  disposition: ''
-  lock_reason: ''
-- slide: W04-03b-Office-Telemetry
-  module: M00_课程导览
-  layout: Split
-  priority: low
-  media_type: image
-  signals:
-  - named_entity
-  entities:
-  - WordPerfect
-  description: 展示 Office Ribbon 改进前的遥测热力图，揭示 80/20 法则的残酷数据。
-  scene_excerpt: 展示 Office Ribbon 改进前的遥测热力图，揭示 80/20 法则的残酷数据。
-  search_queries:
-  - WordPerfect photo
-  - WordPerfect real image
-  - WordPerfect portrait
-  target_path: ../public/slides/W04-03b-Office-Telemetry_real.png
-  current_asset: ../public/slides/W04-03b-Office-Telemetry.png
-  no_ai_flag: false
-  confirmed_urls: []
-  stitch_mode: auto
-  disposition: ''
-  lock_reason: ''
-- slide: W04-04-FOMO-Development
-  module: M00_课程导览
-  layout: Full
-  priority: low
-  media_type: image
-  signals:
-  - dated_event
-  entities: []
-  description: 画面中央用鲜红色大字展示 "**FOMO** (错失恐惧症) 驱动的开发"，背景是不断疯狂生长的触手图标，寓意功能的无序蔓延。
-  scene_excerpt: 画面中央用鲜红色大字展示 "**FOMO** (错失恐惧症) 驱动的开发"，背景是不断疯狂生长的触手图标，寓意功能的无序蔓延。
-  search_queries: []
-  target_path: ../public/slides/W04-04-FOMO-Development_real.png
-  current_asset: ../public/slides/W04-04-FOMO-Development.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -332,7 +409,7 @@
   - book_title
   entities:
   - 年度用户画像市场调研报告
-  description: 左侧是一份装订精美、厚达 50 页的《年度用户画像市场调研报告》，甚至盖着金色的印章；右侧是一张画在星巴克餐巾纸上的简陋火柴人。
+  description: 传统画像的三个致命隐患
   scene_excerpt: 左侧是一份装订精美、厚达 50 页的《年度用户画像市场调研报告》，甚至盖着金色的印章；右侧是一张画在星巴克餐巾纸上的简陋火柴人。
   search_queries:
   - 年度用户画像市场调研报告 photo
@@ -353,13 +430,34 @@
   - camelcase_product
   entities:
   - iPad
-  description: 绘制一个时间轴，标出在写下一行代码之前必须跨越的三个验证关卡（存在？痛点？买单？）。
+  description: 击碎确认偏误的三道验尸墙
   scene_excerpt: 绘制一个时间轴，标出在写下一行代码之前必须跨越的三个验证关卡（存在？痛点？买单？）。
   search_queries:
   - iPad photo
   - iPad real image
   target_path: ../public/slides/W04-11-Three-Validations_real.png
   current_asset: ../public/slides/W04-11-Three-Validations.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: W04-23d-Wizard-Of-Oz
+  module: M04_MVP_最小可行「学习工具」
+  layout: Split
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  entities:
+  - 绿野仙踪
+  description: 绿野仙踪人工前台测试 (Wizard of Oz)
+  scene_excerpt: Taproot Foundation 的前台测试网页，看起来像是一个高度自动化匹配系统。
+  search_queries:
+  - 绿野仙踪 photo
+  - 绿野仙踪 real image
+  target_path: ../public/slides/W04-23d-Wizard-Of-Oz_real.png
+  current_asset: ../public/textbook/Fig_12-7.png
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -374,7 +472,7 @@
   - acronym_product
   entities:
   - MVP Experiment
-  description: 展示从 "Pain Point (业务问题)" -> "Proto-Persona" -> "Hypothesis Matrix" -> "MVP Experi
+  description: 验证回路：从痛点到 MVP
   scene_excerpt: 展示从 "Pain Point (业务问题)" -> "Proto-Persona" -> "Hypothesis Matrix" -> "MVP Experiment" 的闭环流程图。
   search_queries:
   - MVP Experiment photo

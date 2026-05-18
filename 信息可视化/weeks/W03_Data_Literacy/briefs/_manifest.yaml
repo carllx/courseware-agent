@@ -1,0 +1,69 @@
+# W03 教材精读文章清单 (Textbook Briefs Manifest)
+# 生成时间: 2026-05-17
+# 用途: 供 /write Phase 1 Step 2.4 读取，以及 /audit 覆盖率审计
+
+week: W03
+course: 信息可视化
+status: complete  # incomplete | complete | verified
+
+# 教材章节覆盖声明
+textbook_coverage:
+  - book: "Visualization Analysis & Design, Tamara Munzner, 2014"
+    chapters_covered: ["2.1-2.7", "3.1-3.7"]
+    chapters_total_for_week: ["2.1-2.7", "3.1-3.7"]
+    coverage_ratio: 1.0
+  - book: "信息可视化设计, 郝亚维 张博文, 2023"
+    chapters_covered: ["第四章"]
+    chapters_total_for_week: ["第四章"]
+    coverage_ratio: 1.0
+  - book: "Hadley Wickham, Tidy Data, 2014"
+    chapters_covered: ["全文"]
+    chapters_total_for_week: ["全文"]
+    coverage_ratio: 1.0
+
+# Brief → Module 映射矩阵
+mapping:
+  - brief: B01_数据抽象导论_What框架
+    source_chapters: "Munzner Ch2 §2.1-2.4"
+    covers_modules: [M01, M02]
+    figure_count: 5
+    figures_migrated: 5
+    checklist_count: 4
+
+  - brief: B02_属性类型与语义_Key_Value
+    source_chapters: "Munzner Ch2 §2.5-2.7"
+    covers_modules: [M02]
+    figure_count: 3
+    figures_migrated: 3
+    checklist_count: 4
+
+  - brief: B03_任务抽象_Why框架
+    source_chapters: "Munzner Ch3 §3.1-3.7"
+    covers_modules: [M01, M03]
+    figure_count: 5
+    figures_migrated: 5
+    checklist_count: 4
+
+  - brief: B04_Tidy_Data与数据重塑
+    source_chapters: "Wickham 2014 (映射 Munzner Ch3 Derive)"
+    covers_modules: [M04]
+    figure_count: 0
+    figures_migrated: 0
+    checklist_count: 4
+
+  - brief: B05_大师作品解析与视觉隐喻
+    source_chapters: "郝亚维 第四章"
+    covers_modules: [M01, M05]
+    figure_count: 5
+    figures_migrated: 5
+    checklist_count: 3
+
+# 汇总统计
+summary:
+  total_briefs: 5
+  total_figures: 18
+  total_figures_migrated: 18
+  total_checklist_items: 19
+  checklist_verified: 0
+  modules_covered: [M01, M02, M03, M04, M05]
+  modules_uncovered: []

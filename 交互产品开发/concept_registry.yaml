@@ -100,3 +100,22 @@ concepts:
     first_introduced: W03
 
   # === W04+ 待后续 /write 时增量补充 ===
+
+  - id: proto_persona
+    name: "原型用户画像 (Proto-Persona)"
+    first_introduced: W04
+  - id: demographic_trap
+    name: "人口统计学陷阱 (Demographic Trap)"
+    first_introduced: W04
+  - id: hypothesis_statement
+    name: "假设声明 (Hypothesis Statement)"
+    first_introduced: W04
+  - id: hpc_matrix
+    name: "假设优先级矩阵 (HPC Matrix)"
+    first_introduced: W04
+  - id: mvp_spectrum
+    name: "MVP 验证光谱 (MVP Spectrum)"
+    first_introduced: W04
+  - id: truth_curve
+    name: "真相曲线 (Truth Curve)"
+    first_introduced: W04

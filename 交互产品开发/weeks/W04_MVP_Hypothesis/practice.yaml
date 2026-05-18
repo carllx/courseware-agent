@@ -6,7 +6,7 @@
 week: 4
 title: "Exp1 收官：从调研数据到假设与 MVP 实验"
 experiment_link:
-  - "Exp1: 荒野与猎物 (User Insight & Journey) — 收官验收"
+  - 1
 total_minutes: 80  # hours_practice=2 → 约 80min 工作坊
 
 theory_prerequisites:
@@ -116,13 +116,6 @@ phases:
         description: "四段式假设声明实战练习"
       - concept_id: "hpc_matrix"
         description: "HPC 矩阵四象限裁决"
-    scoring_rubric:
-      - level: "⭐⭐ 及格"
-        criteria: "写出假设但格式不完整（缺少量化指标或受众不具体）"
-      - level: "⭐⭐⭐ 良好"
-        criteria: "3 条假设格式完整，且每条只含 1 个功能变量"
-      - level: "⭐⭐⭐⭐ 优秀"
-        criteria: "假设精准 + HPC 矩阵排列合理 + 能解释 Q1 优先理由"
     deliverables:
       - "3 条四段式假设声明卡片"
       - "HPC 矩阵排列照片"
@@ -162,6 +155,7 @@ phases:
 
 # === 课后作业 (W05 课前提交) ===
 homework:
+  title: "W04 课后任务：完成四大模块画像与假设实验设计"
   deadline: "W05 课前"
   deliverables:
     - item: "深度打磨的 A4 四大模块用户画像卡 (Figma)"

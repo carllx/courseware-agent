@@ -1,0 +1,42 @@
+week: W04
+course: 交互产品开发
+status: complete
+
+textbook_coverage:
+  - book: "《精益 UX》，Jeff Gothelf, Josh Seiden，2022"
+    chapters_covered: ["5", "6", "7", "10", "11", "12"]
+    coverage_ratio: 1.0
+
+mapping:
+  - brief: B00_精益人物角色_ProtoPersona.md
+    source_chapters: "Chapter 7"
+    covers_modules: [M01]
+    figure_count: 4
+    figures_migrated: 4
+    checklist_count: 3
+  - brief: B01_假设声明与精益Persona.md
+    source_chapters: "Chapter 5, 6, 10"
+    covers_modules: [M01, M02]
+    figure_count: 7
+    figures_migrated: 7
+    checklist_count: 3
+  - brief: B02_价值与风险矩阵验证.md
+    source_chapters: "Chapter 11"
+    covers_modules: [M03]
+    figure_count: 1
+    figures_migrated: 1
+    checklist_count: 3
+  - brief: B03_MVP_最小可行学习工具.md
+    source_chapters: "Chapter 12"
+    covers_modules: [M04, M05]
+    figure_count: 9
+    figures_migrated: 9
+    checklist_count: 3
+
+summary:
+  total_briefs: 4
+  total_figures: 21
+  total_figures_migrated: 21
+  total_checklist_items: 12
+  modules_covered: [M01, M02, M03, M04, M05]
+  modules_uncovered: []

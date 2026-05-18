@@ -130,6 +130,12 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
 
 激活 `librarian` skill（遵循 `rule_content_depth.md` §1 知识饱和度门限），执行：
 
+**[Brief 快速通道]** —— **在执行 K-0 颗粒度预检前，先检测 briefs/ 目录**：
+*   检查 `<教学周>/briefs/_manifest.yaml` 是否存在
+*   **若存在**：读取 manifest 的 `mapping[]` 列表，将每个 Brief 的 `covers_modules` 与当前单元模块对照。对于已有 Brief 覆盖的模块，**直接读取对应 Brief 文件**获取知识细节，跳过 Layer 2/3 教材原文检索（Brief 已是教材的预处理产物）。仅对 Brief 未覆盖的模块执行后续的 K-0 预检和 Layer 2 深挖。
+*   **若不存在**：输出 `[WARN] 本周无 briefs/ 目录，建议先执行 /extract_textbook <课程> <周次>`。不阻塞，继续执行常规流程。
+*   Hub 中 `type: brief` 条目在匹配时**优先于** `type: textbook` 和 `type: note` 条目（Brief 是教材的精读预处理产物，信息密度更高）。
+
 **[K-0 颗粒度预检]** —— **在执行 Layer 1 匹配前，先判断本单元知识颗粒度是否充分：**
 *   读取本单元在 `00_structure_map.md` 中的 Hub 标签数量
 *   若本单元存在任何 **模块字数预算 ≥ 2500 字** 的模块 **且** 该模块的 Hub 标签数 ≤ 1，则**禁止直接写作**，必须先：
@@ -138,9 +144,9 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
     3.  确认单元 Hub 标签数 ≥ 单元核心理论节点数后，方可继续
 
 1.  **Hub 已在 Step 2 加载** — 直接读取内存中的 `knowledge_hub.yaml` 条目
-2.  **匹配本单元知识点** — 对照当前单元**每个独立认知目标**，按 `tags` 和 `summary` 找命中条目（**每个目标独立匹配，不可用一条 summary 统括多目标**）
+2.  **匹配本单元知识点** — 对照当前单元**每个独立认知目标**，按 `tags` 和 `summary` 找命中条目（**每个目标独立匹配，不可用一条 summary 统括多目标**）。`type: brief` 条目优先命中。
 3.  **按需深挖**（遵循 `rule_content_depth.md` §1.1 饱和度底线）：
-    - 模块字数预算 ≥ 1500 字：**强制执行 Layer 2**（`search_knowledge.py`），不可仅用 summary 写作
+    - 模块字数预算 ≥ 1500 字：**强制执行 Layer 2**（`search_knowledge.py`），不可仅用 summary 写作。**但若已从 Brief 文件获取了完整知识提取，可跳过 Layer 2**。
     - 模块字数预算 < 1500 字且 `summary` 已足够 → 直接用于写作，跳过 Layer 2/3
     - 需要原文/数据 / 需要具体案例 → 执行 `search_knowledge.py` 精确定位段落
 4.  **识别知识缺口** → 无命中条目标记为「调研需求」，进入 Step 2.5
@@ -154,7 +160,19 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
 
 ### Step 2.4: 教材-脚本对照审查 (Textbook Cross-Check)
 
-在知识枢纽扫描（Step 2.3）完成后、深度调研（Step 2.5）之前，对 Hub 中所有 `type: textbook` 条目执行**反向验证**：
+在知识枢纽扫描（Step 2.3）完成后、深度调研（Step 2.5）之前，对教材内容执行**反向验证**。
+
+**[Brief 存在时的快速路径]**：
+
+若 Step 2.3 已从 `briefs/_manifest.yaml` 成功加载，则：
+1. **读取 Brief 检查清单**：汇总所有 Brief 的 `CHK-B0N-NN` 条目，作为案例提取清单的等价产物
+2. **读取 Brief 图表索引**：汇总所有 Brief 的「关键图表索引」表，作为教材图覆盖率预检的等价产物
+3. **缺口分析**：对比 manifest 的 `modules_covered` 与本单元实际模块列表，仅对 `modules_uncovered` 中的模块执行下方的「常规路径」
+4. 若所有模块均已被 Brief 覆盖，**直接跳至 Step 2.5**
+
+**[常规路径]**（无 briefs/ 时执行）：
+
+对 Hub 中所有 `type: textbook` 条目执行**反向验证**：
 
 1.  **定位教材原文**：对照本单元的 Hub 标签，找到教材中所有相关章节的原文
 2.  **逐段比对**：检查教材原文中每个独立论述段落是否已被 Hub 条目覆盖或已规划写入脚本
@@ -162,7 +180,7 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
 4.  **输出缺口清单**：列出所有缺口及预估时长增量，作为 Step 3 写作和 Step 4 时长校验的输入
 5.  **产出案例提取清单**（ADR 023 强制）：以下表格形式列出教材中可用于本单元的所有**具体案例/实验/设计启示/design implications**：
 
-    | 来源章节 | 案例/概念名称 | 可用于哪个模块 | 已在 note 中覆盖？ |
+    | 来源章节 | 案例/概念名称 | 可用于哪个模块 | 已在 brief/note 中覆盖？ |
     |---|---|---|---|
 
     此清单是 Step 3 写作和 DRP-L1 的**必要输入**。**未产出此清单禁止进入 Step 3**。

@@ -10,6 +10,8 @@
 ### 2.5 属性类型 (Attribute Types)
 属性是可视化编码的核心。主要分为两类：分类（Categorical）和有序（Ordered）。有序数据进一步细分为序数（Ordinal）和定量（Quantitative）。
 
+![Figure 2.7 — 属性类型分类树及排序方向](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/d3d577a260cbf2d2a221d09bea8dc9cca114454d264c1484fe3f9b88c2d5f64c.jpg)
+
 #### 2.5.1 分类数据 (Categorical / Nominal)
 - **定义**：不具备隐式排序（Implicit ordering）的数据。
 - **作用**：只能区分两个事物是相同（如都是苹果）还是不同（苹果 vs 橘子）。
@@ -39,10 +41,14 @@
 - **值 (Value / Dependent attribute / Measure)**：被查找的属性。
 区分键和值对于表格和场非常重要。
 
+![Figure 2.8 — Tables 与 Fields 的 Key/Value 语义对比](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/b323d1c56de0f5380cbe657be68d1fd79ace875be397a4dc68a6be03918c879b.jpg)
+
 ##### 扁平表 (Flat Tables)
 - 只有一个键，每条目对应表中的一行。
 - 键可以隐式存在（行号索引），也可以显式包含为属性。作为显式键的属性必须具有唯一值（不能有重复项）。
 - 键通常是分类或序数属性。定量属性通常不适合做键，因为无法阻止多个条目拥有相同的定量值。
+
+![Figure 2.9 — 扁平表属性列按类型着色示例](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/87ab3d9f47413a2fdcab036e97a8904ec2165dd6fab519c3069c74e7c2e74838.jpg)
 
 ##### 多维表 (Multidimensional Tables)
 - 需要多个键（Multiple keys）来查找一个条目。所有键的组合对于每个条目必须是唯一的，即使单个键属性中包含重复项。

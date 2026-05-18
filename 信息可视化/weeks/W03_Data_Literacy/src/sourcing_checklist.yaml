@@ -1,1 +1,264 @@
-[]
+- slide: S05c_Pixel_Overload
+  module: M01_为什么你的_AI_画不出一张正常的图
+  layout: Image
+  priority: high
+  media_type: image
+  signals:
+  - physical_product
+  - book_title
+  entities:
+  - 中国统计年鉴
+  description: '"突破物理渲染极限：过载映射带来的反向视觉遮蔽与信息谋杀。"'
+  scene_excerpt: 屏幕像素格被无数黑线强制塞满的微观特写图，底层微小的异动红线被完全掩埋。
+  search_queries:
+  - 中国统计年鉴 photo
+  - 中国统计年鉴 real image
+  - 中国统计年鉴 product shot high resolution
+  target_path: ../public/slides/S05c_Pixel_Overload_real.png
+  current_asset: ../public/slides/S05c_Pixel_Overload.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S01a_Iceberg_Core_Illusion
+  module: M01_为什么你的_AI_画不出一张正常的图
+  layout: Concept
+  priority: medium
+  media_type: image
+  signals:
+  - physical_product
+  entities: []
+  description: '"透视底层：数据的骨骼决定了可视化的肉身。"'
+  scene_excerpt: 冰山剖面特写。水面下的原始数据表格逐渐发光，隐现出错综复杂的连接线与结构关系。
+  search_queries: []
+  target_path: ../public/slides/S01a_Iceberg_Core_Illusion_real.png
+  current_asset: ../public/slides/S01a_Iceberg_Core_Illusion.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S15c_Receipt_Hypercube
+  module: M02_What_拆解数据的基因组
+  layout: Concept
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"降维解剖：一张超市小票里的多维立体空间投射。"'
+  scene_excerpt: 一张普通的超市收据小票，被激光射线解构成时间、地点、用户、SKU 四条交织的维度轴坐标系。
+  search_queries:
+  - 一张普通的超市收据小票 被激光射线解构成时间、地点、用户、SKU 四条交织的维度 demonstration
+  target_path: ../public/videos/S15c_Receipt_Hypercube.webm
+  current_asset: ../public/slides/S15c_Receipt_Hypercube.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S20b_Key_Collision_Simulation
+  module: M02_What_拆解数据的基因组
+  layout: Comparison
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"主键防线：防止高密度数据踩踏"'
+  scene_excerpt: 左图：基于“航班号”渲染的雷达界面，数十架飞机挤成一团模糊亮点；右图：基于“经纬坐标+毫秒时间戳”复合键的雷达网格，飞机结构排布清晰，每架飞机都有专属标识框。
+  search_queries:
+  - 左图：基于“航班号”渲染的雷达界面 数十架飞机挤成一团模糊亮点；右图：基于“经纬 demonstration
+  target_path: ../public/videos/S20b_Key_Collision_Simulation.webm
+  current_asset: ../public/slides/S20b_Key_Collision_Simulation.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S26a_Present_NYT
+  module: M03_Why_意图识别与重塑魔法
+  layout: Image
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"Present 的极高独断力：剥夺交互，只留震撼。"'
+  scene_excerpt: 模拟纽约时报大选版面：极简的红蓝大色块覆盖全图，配以极具冲击力的巨大粗体数字。没有任何冗余控件。
+  search_queries:
+  - 模拟纽约时报大选版面：极简的红蓝大色块覆盖全图 配以极具冲击力的巨大粗体数字 没 demonstration
+  target_path: ../public/videos/S26a_Present_NYT.webm
+  current_asset: ../public/slides/S26a_Present_NYT.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S27c_Search_Lookup_Locate
+  module: M03_Why_意图识别与重塑魔法
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"从直达靶心到点亮夜空：前两种轻量猎寻。"'
+  scene_excerpt: 左侧：一个极简搜索框直接定位到目标点。右侧：全图变暗，只有符合条件的目标如星辰般爆闪（Hover/Filter）。
+  search_queries:
+  - 左侧：一个极简搜索框直接定位到目标点 右侧：全图变暗 只有符合条件的目标如星辰般 demonstration
+  target_path: ../public/videos/S27c_Search_Lookup_Locate.webm
+  current_asset: ../public/slides/S27c_Search_Lookup_Locate.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S28c_UI_Restraint
+  module: M03_Why_意图识别与重塑魔法
+  layout: Concept
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: '"组件匹配的暴政：不同粒度的意图必须受到严格的 UI 节制约束。"'
+  scene_excerpt: 交互阻尼曲线。Identify 是趋近于零的悬停即显，Compare 是强联动的跨维爆闪，Summarize 是彻底让渡空间的纯净视界。
+  search_queries:
+  - 交互阻尼曲线 Identify 是趋近于零的悬停即显 Compare 是强联动的 demonstration
+  target_path: ../public/videos/S28c_UI_Restraint.webm
+  current_asset: ../public/slides/S28c_UI_Restraint.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M03_Why_意图识别与重塑魔法_narr_L275
+  module: M03_Why_意图识别与重塑魔法
+  layout: ''
+  priority: low
+  media_type: video
+  signals:
+  - book_title
+  - narrative_video_priority
+  - narrative_story time
+  entities:
+  - 拿破仑大军 1812 东征俄罗斯陨落图
+  description: '[STORY TIME] 以 Derive 派生扭转生死洪荒的两次千古极意神作
+
+
+    让我们立刻翻开这真实的历史战报铁证。第一幕：如何呈现两个常年大宗贸易极富对抗摩'
+  scene_excerpt: '[STORY TIME] 以 Derive 派生扭转生死洪荒的两次千古极意神作
+
+
+    让我们立刻翻开这真实的历史战报铁证。第一幕：如何呈现两个常年大宗贸易极富对抗摩擦的超级大国，横跨数十年的枯燥贸易货值角抵。如果由二等流庸手来做，他们只会死板地把“连年总进口额曲线”与“总出口额折线”并列画在图纸上。但这种画法根本让人无法在毫秒间算出盈亏大底！而真正的派生大宗师是如何出手的？他们极为果决地在系统里直接下'
+  search_queries:
+  - 拿破仑大军 1812 东征俄罗斯陨落图 video
+  - 拿破仑大军 1812 东征俄罗斯陨落图 demo
+  target_path: ../public/videos/M03_Why_意图识别与重塑魔法_narr_L275.webm
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M01_为什么你的_AI_画不出一张正常的图_narr_L183
+  module: M01_为什么你的_AI_画不出一张正常的图
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  - narrative_case study
+  entities:
+  - 中国统计年鉴
+  description: '[CASE STUDY] 大模型面对合并单元格的崩溃实录
+
+    把一份《中国统计年鉴》的宽表——带着合并单元格、嵌套表头和中文脚注——直接扔给大模型，会发生什么？模型'
+  scene_excerpt: '[CASE STUDY] 大模型面对合并单元格的崩溃实录
+
+    把一份《中国统计年鉴》的宽表——带着合并单元格、嵌套表头和中文脚注——直接扔给大模型，会发生什么？模型的 Token 序列解析器是一维的，它无法理解二维的合并结构。原本应该关联的“2010年-东部地区-GDP总额”三层结构，被拆成了互不相识的碎片。地区名被当成数值去计算，最终输出满屏红色报错。
+
+
+    核心教训：大模型读表格就像用手指一个字一个字'
+  search_queries:
+  - 中国统计年鉴 photo
+  - 中国统计年鉴 real image
+  target_path: ../public/slides/M01_为什么你的_AI_画不出一张正常的图_narr_L183_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S35d_Group_By_Gatling
+  module: M04_驯服混沌_Tidy_Data_的真理之眼
+  layout: Concept
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  entities:
+  - longData
+  description: '"SQL 的执行偏好：唯有单维纵深的结构，才能承受住聚合运算的高速运算。"'
+  scene_excerpt: SQL 引擎的 `GROUP BY` 指令化作一挺高效工具，在整齐划一的“Year”纵向槽口中扫射，瞬间得出所有聚合总和。
+  search_queries:
+  - longData photo
+  - longData real image
+  target_path: ../public/slides/S35d_Group_By_Gatling_real.png
+  current_asset: ../public/slides/S35d_Group_By_Gatling.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S35b_Data_Binding_Loop
+  module: M04_驯服混沌_Tidy_Data_的真理之眼
+  layout: Flow
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  entities:
+  - longData
+  description: '"循环渲染的硬核刚需：机器只懂原子级指令。给它最纯粹的长纪录，它还你百万级的丝滑渲染。"'
+  scene_excerpt: D3 Data Binding 引擎工作示意图。一个名为 `.data(longData).enter().append('circle')` 的机械夹爪，每次抓起一行只含单一变量的纯净长数据行，精准无误地在画布上烙印出一个闪光数据散点，循环往复毫不卡滞。
+  search_queries:
+  - longData photo
+  - longData real image
+  target_path: ../public/slides/S35b_Data_Binding_Loop_real.png
+  current_asset: ../public/slides/S35b_Data_Binding_Loop.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M04_驯服混沌_Tidy_Data_的真理之眼_narr_L24
+  module: M04_驯服混沌_Tidy_Data_的真理之眼
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  - narrative_life connect
+  entities:
+  - 集团三季度核心战报汇总.xlsx
+  description: '[LIFE CONNECT] 困境中的财务大表：你被 ERP 报表强暴过吗？
+
+    每一个初入职场的数据分析师都经历过这非常困难的一幕：当你兴奋地打开业务部门发来的名'
+  scene_excerpt: '[LIFE CONNECT] 困境中的财务大表：你被 ERP 报表强暴过吗？
+
+    每一个初入职场的数据分析师都经历过这非常困难的一幕：当你兴奋地打开业务部门发来的名为《集团三季度核心战报汇总.xlsx》时，你的瞳孔瞬间地震。你看到的不是清澈的数据矩阵，而是一张被人精心画成了“艺术品”的财务迷宫大宽图！
+
+    第一行是硕大华丽的居中标题，第二行合并了七个格子写着“华东区”，下面再细分“浙江、江苏、总计”；左侧'
+  search_queries:
+  - 集团三季度核心战报汇总.xlsx photo
+  - 集团三季度核心战报汇总.xlsx real image
+  target_path: ../public/slides/M04_驯服混沌_Tidy_Data_的真理之眼_narr_L24_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''

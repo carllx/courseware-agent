@@ -197,4 +197,17 @@ entries: [{id: ch01-what-is-ixd, source: 'knowledge/textbook/Interaction Design_
   {id: heuristic-evaluation-false-positives, type: note, tags: [heuristic-evaluation,
       false-positives, usability-testing, methodology-limits], summary: Bailey(1992)指出启发式走查有43%的问题属假阳性警告，揭示了该方法的理论边界与实操局限。,
     source: knowledge/notes/heuristic-evaluation-false-positives.md, query_hint: view_file
-      knowledge/notes/heuristic-evaluation-false-positives.md}]
+      knowledge/notes/heuristic-evaluation-false-positives.md}, {id: w04-b00-proto-persona,
+    type: brief, parent_chapter: book-lean-ux, week: W04, tags: [brief, w04, lean-ux,
+      persona, proto-persona], summary: 传统画像的隐患与精益Proto-Persona的构建及验证逻辑, source: weeks/W04_MVP_Hypothesis/briefs/B00_精益人物角色_ProtoPersona.md,
+    figures: [Fig 7-1, Fig 7-2, Fig 7-3, Fig 7-4], checklist_count: 3}, {id: w04-b01-business-outcomes-hypotheses,
+    type: brief, parent_chapter: lean-ux-ch10-hypotheses, week: W04, tags: [brief,
+      w04, lean-ux, hypotheses, business-outcomes], summary: 商业产出与假设声明模板、撰写规范及优先级矩阵, source: weeks/W04_MVP_Hypothesis/briefs/B01_假设声明与精益Persona.md,
+    figures: [Fig 6-1, Fig 6-2, Fig 6-3, Fig 6-4, Fig 10-1, Fig 10-2, Fig 10-3, Fig 10-4],
+    checklist_count: 3}, {id: w04-b02-value-risk-matrix, type: brief, parent_chapter: book-lean-ux,
+    week: W04, tags: [brief, w04, lean-ux, risk, value], summary: 价值风险与执行风险辨析及决策机制, source: weeks/W04_MVP_Hypothesis/briefs/B02_价值与风险矩阵验证.md,
+    figures: [Fig 11-1], checklist_count: 3}, {id: w04-b03-mvp-learning-tool, type: brief,
+    parent_chapter: lean-ux-ch12-mvp, week: W04, tags: [brief, w04, lean-ux, mvp,
+      experiment], summary: MVP作为最小可行学习工具的定义、类型及真相曲线, source: weeks/W04_MVP_Hypothesis/briefs/B03_MVP_最小可行学习工具.md,
+    figures: [Fig 12-1, Fig 12-2, Fig 12-3, Fig 12-4, Fig 12-5, Fig 12-6, Fig 12-7, Fig 12-8, Fig 12-9],
+    checklist_count: 3}]

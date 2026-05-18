@@ -16,6 +16,23 @@ description: 从教材知识库中提取视觉素材并插入课程脚本的标�
 
 ## 步骤
 
+### Step 0: Brief 快速通道（可选）
+
+检查目标教学周是否存在 `briefs/` 目录：
+
+- **若存在 `briefs/_manifest.yaml`**：
+  1. 读取所有 Brief 文件的「关键图表索引」表
+  2. 汇总所有 Figure 的「迁移状态」列：
+     - `✅ 已迁移` → 跳过，直接进入 Step 5 验证
+     - `❌ 待迁移` → 提取其 `教材原文路径` 列中的 Hash 文件名，直接进入 **Step 4 资产迁移**
+  3. **跳过 Step 1-3**（Brief 已完成关键词提取、章节定位和逐图审阅）
+  4. 进入 Step 4 时，使用 Brief 图表索引中的 `Figure 编号` 和 `教材原文路径` 作为输入
+
+- **若不存在**：输出 `[INFO] 未检测到 briefs/，使用常规流程`，继续执行 Step 1-3。
+
+> [!TIP]
+> Brief 快速通道省去了“逐篇读脚本 → 提取关键词 → 定位章节 → 逐图匹配”的大量工作。如果已执行 `/extract_textbook`，强烈建议使用此通道。
+
 ### Step 1: 脚本阅读与关键词提取
 
 逐篇阅读目标教学周 `src/` 下的全部脚本文件。对每个 `[VISUAL]` 块，记录：
@@ -50,11 +67,13 @@ description: 从教材知识库中提取视觉素材并插入课程脚本的标�
 
 ### Step 4: 资产迁移
 
-对每个 `MATCHED` 项：
+对每个 `MATCHED` 项（来自 Step 3 的审阅结果，或 Step 0 中 Brief 的「❌ 待迁移」条目）：
 
 1. 创建目标目录 `<教学周>/public/textbook/`（如不存在）
 2. 将教材原图从 `knowledge/textbook/<书名>/images/<hash>.jpg` 复制到目标目录
 3. 语义重命名：`Fig<章>.<节>_<描述>.jpg`（如 `Fig6.4_3D_vs_2D_Bar_Charts.jpg`）
+
+> **Brief 回写**：如果迁移源来自 Brief 的图表索引，迁移完成后必须回写更新 Brief 文件中对应行的迁移状态为 `✅ 已迁移`，并填写已迁移路径列。同时更新 `_manifest.yaml` 中的 `figures_migrated` 计数。
 
 // turbo
 ### Step 5: 资产验证

@@ -2,6 +2,14 @@
 
 > **课前提示**：请确保已经克隆本周的数据仓库并配置好运行环境。
 
+## 理论前置准备 (Theory Prerequisites)
+在开始本工作坊之前，请务必回顾以下核心理论：
+- **Munzner What/Why 数据抽象框架** (关联概念: `data_abstraction`, `munzner_data_taxonomy`)
+- **五种基本数据类型 (Item/Attribute/Link/Position/Grid)**
+- **属性变量阶级壁垒 (Categorical/Ordinal/Quantitative)**
+- **Tidy Data 三原则 (Wickham)** (关联概念: `tidy_data`)
+- **AI 结构化 Prompt 三要素 (Context/Shape/Constraints)**
+
 ## P1: 废墟重组大作战 (75 分钟)
 **任务说明**：利用 LLM 三层结构化 Prompt 清洗真实灾难级宽表
 

@@ -542,36 +542,65 @@ entries:
   summary: 删减的艺术：Tufte数据墨水比与四步擦除法；伪3D的三宗罪(遮挡/透视失真/算力浪费)；黑白测试与小多图
   source: knowledge/notes/04_极简设计与数据墨水比.md
 - id: data-abstraction-what
-  type: textbook_extraction
+  type: brief
+  parent_chapter: ch02-data-abstraction
+  week: W03
   tags:
   - data-types
   - dataset-types
   - what-framework
   summary: What框架：五种基本数据类型、四种数据集类型（表格/网络/场/几何）及数据集可用性（静态/流）
-  source: knowledge/notes/W03_05_数据抽象导论_What框架.md
+  source: weeks/W03_Data_Literacy/briefs/B01_数据抽象导论_What框架.md
+  figures: [Fig2.2, Fig2.3, Fig2.4, Fig2.5, Fig2.6]
+  checklist_count: 4
 - id: attribute-semantics-key-value
-  type: textbook_extraction
+  type: brief
+  parent_chapter: ch02-data-abstraction
+  week: W03
   tags:
   - attribute-types
   - key-value
   - semantics
   summary: 属性类型与语义：分类/序数/定量；顺序/发散/循环；多维表与连续场中的Key/Value语义
-  source: knowledge/notes/W03_06_属性类型与语义_Key_Value.md
+  source: weeks/W03_Data_Literacy/briefs/B02_属性类型与语义_Key_Value.md
+  figures: [Fig2.7, Fig2.8, Fig2.9]
+  checklist_count: 4
 - id: task-abstraction-why
-  type: textbook_extraction
+  type: brief
+  parent_chapter: ch03-task-abstraction
+  week: W03
   tags:
   - task-abstraction
   - analyze-search-query
   - derive
   - why-framework
   summary: Why框架：Analyze(发现/呈现/享受/派生)-Search(四象限)-Query(识别/比较/总结)三层框架与Derive派生操作
-  source: knowledge/notes/W03_07_任务抽象_Why框架.md
+  source: weeks/W03_Data_Literacy/briefs/B03_任务抽象_Why框架.md
+  figures: [Fig3.1, Fig3.2, Fig3.5, Fig3.6, Fig3.10]
+  checklist_count: 4
 - id: tidy-data-reshape
-  type: textbook_extraction
+  type: brief
+  parent_chapter: ch03-task-abstraction
+  week: W03
   tags:
   - tidy-data
   - reshape
   - wide-long
   - ai-prompt
   summary: Tidy Data原则与重塑：宽表转长表、五种脏数据反模式、AI辅助数据清洗的Prompt三要素（对应Munzner Derive）
-  source: knowledge/notes/W03_08_Tidy_Data与数据重塑.md
+  source: weeks/W03_Data_Literacy/briefs/B04_Tidy_Data与数据重塑.md
+  figures: []
+  checklist_count: 4
+- id: masterworks-visual-metaphor
+  type: brief
+  parent_chapter: hao-ch4-masterworks
+  week: W03
+  tags:
+  - hao-ch4-masterworks
+  - case-study
+  - visual-metaphor
+  - dma
+  summary: 大师作品案例解析与视觉隐喻：解构藏文、Award Puzzle 与反技术霸权的社会晴雨表映射
+  source: weeks/W03_Data_Literacy/briefs/B05_大师作品解析与视觉隐喻.md
+  figures: [Fig4-1, Fig4-4, Fig4-7, Fig4-10, Fig4-18]
+  checklist_count: 3
