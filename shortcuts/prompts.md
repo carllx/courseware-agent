@@ -22,7 +22,7 @@ rule_student_empathy_guard, cognitive_walkthrough
 > ⬇️ **只需修改下方这一行，下方所有指令块的 `{COURSE_WEEK_SRC}` 会自动引用此处的值。**
 >
 > ```
-> {COURSE_WEEK_SRC} = 交互产品开发/weeks/W04_MVP_Hypothesis/src
+> {COURSE_WEEK_SRC} = 毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md
 > ```
 >
 > ⚠️ 复制指令块前，请先全文搜索 `{COURSE_WEEK_SRC}` 确认已替换为上方的实际路径。
@@ -49,14 +49,14 @@ rule_student_empathy_guard, cognitive_walkthrough
 ---
 
 请作为一个数字媒体艺术的学生的理解力,  课堂模拟的整个逻辑顺序，请你排查 这个模块的在场课程过程学生理解过程的矛盾 ,  所存在的认知,理解上的漏洞。
-{COURSE_WEEK_SRC}  = 交互产品开发/weeks/W04_MVP_Hypothesis/src
+{COURSE_WEEK_SRC}  = 毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md
 
 
 ### 步骤 0.1：学生认知走查
 
 ```
 请对以下脚本模块执行**学生认知走查**：
-{COURSE_WEEK_SRC}  = 交互产品开发/weeks/W04_MVP_Hypothesis/src
+{COURSE_WEEK_SRC}  = 毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md
 
 激活 `cognitive-walkthrough` Skill，按其完整协议执行逐段走查。
 检查规范引用 `rule_student_empathy_guard.md` 全部 7 条探针 (P1-P7)。
@@ -91,7 +91,7 @@ rule_student_empathy_guard, cognitive_walkthrough
 ```
 /audit --standard (Part B-7 PCK + F-lite 事实快检) + /memory_optimize + Quiz 诊断. 
 制定详尽的任务和计划，为 
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src` 
+[{COURSE_WEEK_SRC}] == `毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md` 
 目录下的每一个教学模块，**逐个模块**执行全维度深度审查。
 
 每个模块按以下**三阶段**执行（禁止跳步）：
@@ -137,7 +137,7 @@ rule_student_empathy_guard, cognitive_walkthrough
 
 ```
 针对当前工作区，为
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md`
 目录下的每一个教学模块，**逐个模块**执行 Signaling 信标修复。
 
 按 `rule_visual_signaling.md` 的内容类型分流决策矩阵，处理步骤一中
@@ -166,7 +166,7 @@ rule_student_empathy_guard, cognitive_walkthrough
 ```
 
 针对当前工作区，为
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md`
 目录下的每一个教学模块，**逐个模块**执行随堂测验的结构化补全。
 
 补全仅针对步骤一诊断中标记的 `[MISSING_CHECKPOINT]` 位置，为保障题目质量，请严格遵守以下 3 条战术纪律：
@@ -185,7 +185,7 @@ rule_student_empathy_guard, cognitive_walkthrough
 
 ```
 针对当前工作区
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md`
 目录下**我指定的教学模块**，执行叙事素材深度调研与拓展。
 
 **执行协议**：
@@ -215,7 +215,7 @@ rule_student_empathy_guard, cognitive_walkthrough
 
 ```
 针对当前工作区，为
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md`
 目录下的每一个教学模块，执行视觉素材的全链路诊断与补全。
 
 按以下 **4 个子阶段**严格顺序执行：
@@ -269,7 +269,7 @@ rule_student_empathy_guard, cognitive_walkthrough
 > **前置条件**：Phase A（内容手术）和 Phase B（视觉装配）已全部完成。
 
 制定详尽的任务和计划，为
-[{COURSE_WEEK_SRC}] == `交互产品开发/weeks/W04_MVP_Hypothesis/src`
+[{COURSE_WEEK_SRC}] == `毕业设计档案归档/weeks/W01_Archive/src/M01_毕业设计档案归档全流程指南.md`
 目录下的每一个教学模块，**逐个模块**严格执行 /audit --standard 工作流，作为复盘矫正的终验门。
 
 补充约束：

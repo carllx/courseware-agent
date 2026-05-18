@@ -22,6 +22,12 @@
             "name": "信息可视化",
             "path": "信息可视化",
             "status": "configured"
+        },
+        {
+            "id": "graduation_archive",
+            "name": "毕业设计档案归档",
+            "path": "毕业设计档案归档",
+            "status": "pending"
         }
     ],
     "skills": [

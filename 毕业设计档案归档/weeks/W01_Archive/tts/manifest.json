@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "courseId": "毕业设计档案归档",
+  "weekName": "W01_Archive",
+  "segments": {
+    "995fa2f2_89": {
+      "durationMs": 14676.653,
+      "size": 129083,
+      "cachedAt": 1779105837222
+    },
+    "e2c4c1e3_109": {
+      "durationMs": 16209.698,
+      "size": 142619,
+      "cachedAt": 1779105975774
+    },
+    "2dc3e2c6_108": {
+      "durationMs": 15620.5,
+      "size": 138259,
+      "cachedAt": 1779106255730
+    },
+    "f04f33e0_92": {
+      "durationMs": 13278.779999999999,
+      "size": 116674,
+      "cachedAt": 1779106261991
+    },
+    "82a3ab51_37": {
+      "durationMs": 5697.876,
+      "size": 50496,
+      "cachedAt": 1779106797502
+    },
+    "dbd59ac6_94": {
+      "durationMs": 13842.55,
+      "size": 121875,
+      "cachedAt": 1779106804553
+    },
+    "bf01f29e_57": {
+      "durationMs": 7540.202,
+      "size": 66465,
+      "cachedAt": 1779106809834
+    },
+    "e28c808e_35": {
+      "durationMs": 6315.64,
+      "size": 55535,
+      "cachedAt": 1779106813808
+    },
+    "e9267c2c_70": {
+      "durationMs": 10813.098,
+      "size": 95062,
+      "cachedAt": 1779106819162
+    },
+    "a1ed6b95_52": {
+      "durationMs": 10753.187,
+      "size": 94374,
+      "cachedAt": 1779106827536
+    },
+    "d7f4a76a_121": {
+      "durationMs": 20063.576999999997,
+      "size": 176725,
+      "cachedAt": 1779106836813
+    },
+    "bd5950c5_56": {
+      "durationMs": 9820.073,
+      "size": 86165,
+      "cachedAt": 1779106841254
+    },
+    "2ba3225c_65": {
+      "durationMs": 10640.407,
+      "size": 93601,
+      "cachedAt": 1779106847354
+    },
+    "a0246c5e_136": {
+      "durationMs": 22139.005999999998,
+      "size": 190960,
+      "cachedAt": 1779106855253
+    },
+    "fded74e7_198": {
+      "durationMs": 34126.015,
+      "size": 302156,
+      "cachedAt": 1779106868674
+    },
+    "eaa532d8_35": {
+      "durationMs": 5304.638,
+      "size": 46647,
+      "cachedAt": 1779106872940
+    },
+    "2462f8b2_50": {
+      "durationMs": 7315.125,
+      "size": 64278,
+      "cachedAt": 1779106877000
+    },
+    "0d5dec95_3": {
+      "durationMs": 810.655,
+      "size": 6627,
+      "cachedAt": 1779106879613
+    },
+    "c64b69a1_74": {
+      "durationMs": 12255.454,
+      "size": 107920,
+      "cachedAt": 1779106885744
+    },
+    "2b23e3be_163": {
+      "durationMs": 25977.134,
+      "size": 228352,
+      "cachedAt": 1779106897432
+    },
+    "e669c4a8_25": {
+      "durationMs": 3884.958,
+      "size": 34209,
+      "cachedAt": 1779106900550
+    },
+    "cc43ef79_101": {
+      "durationMs": 18311.343999999997,
+      "size": 161062,
+      "cachedAt": 1779106909022
+    },
+    "2436824e_156": {
+      "durationMs": 24043.534,
+      "size": 212079,
+      "cachedAt": 1779106917595
+    },
+    "a4dcc78c_107": {
+      "durationMs": 18692.66,
+      "size": 165159,
+      "cachedAt": 1779106928612
+    },
+    "1100cf2a_35": {
+      "durationMs": 5623.309,
+      "size": 49722,
+      "cachedAt": 1779106932489
+    },
+    "1f54a213_90": {
+      "durationMs": 11821.445000000002,
+      "size": 104076,
+      "cachedAt": 1779106938868
+    },
+    "bce64d03_65": {
+      "durationMs": 12090.189,
+      "size": 106439,
+      "cachedAt": 1779106944361
+    },
+    "ce10d3b1_96": {
+      "durationMs": 16624.849000000002,
+      "size": 146600,
+      "cachedAt": 1779106951809
+    },
+    "43643946_143": {
+      "durationMs": 23654.103,
+      "size": 208505,
+      "cachedAt": 1779106961433
+    },
+    "ed3dc465_32": {
+      "durationMs": 5228.114,
+      "size": 45961,
+      "cachedAt": 1779106964454
+    },
+    "ad82fbd4_23": {
+      "durationMs": 4090.6820000000002,
+      "size": 36088,
+      "cachedAt": 1779106967531
+    },
+    "8ec6b4a9_113": {
+      "durationMs": 17536.016,
+      "size": 154740,
+      "cachedAt": 1779106973831
+    },
+    "b985a837_33": {
+      "durationMs": 5880.157999999999,
+      "size": 52010,
+      "cachedAt": 1779106978036
+    },
+    "5d1dae35_81": {
+      "durationMs": 13142.363,
+      "size": 115891,
+      "cachedAt": 1779106983983
+    },
+    "11d763e8_64": {
+      "durationMs": 11503.215,
+      "size": 100853,
+      "cachedAt": 1779106990143
+    },
+    "c3084b8a_173": {
+      "durationMs": 31404.74,
+      "size": 278246,
+      "cachedAt": 1779107027928
+    },
+    "91233d3f_40": {
+      "durationMs": 5115.25,
+      "size": 45105,
+      "cachedAt": 1779108209107
+    },
+    "3350ad6e_69": {
+      "durationMs": 9941.969000000001,
+      "size": 87974,
+      "cachedAt": 1779108213770
+    },
+    "8fa076e8_99": {
+      "durationMs": 13929.079,
+      "size": 122555,
+      "cachedAt": 1779108238008
+    },
+    "9535be68_206": {
+      "durationMs": 33333.507,
+      "size": 287464,
+      "cachedAt": 1779111949269
+    }
+  }
+}

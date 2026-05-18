@@ -11,7 +11,7 @@
 - **V5 架构迁移**：完成了全域 Package 化，重构了 `src/` 与 `public/` 的解耦，修正了关联 PPT/H5 build script 下游构建引擎。
 - **架构大瘦身**：清理大量过度拟合的规则堆叠。将原字数打底相关规则整合为统一的 `rule_content_depth.md`。将 `rule_narrative_standards.md` 与 `rule_knowledge_protocol.md (已移除)` 降级剥离到技能参考 (`skills/*/references`) 中，减少 50% 以上触发负载。
 - **H5 Craft-room**：完成 Phase 0-3 实时审计系统。H5 从"只读预览器"升级为"实时创作工作台"，含 P0 渲染管线（~300ms）+ P1 验证管线（~2s 异步），DurationGauge/HealthDot/ValidationOverlay/AnnotationOverlay 4 大组件 + ValidationContext 心流保护。
-- **发布架构 (Deployment)**：重构了产物交付管线，全面解耦 `/build`（SSG构建）与 `/deploy_netlify`（CDN 投递），并提供 `/publish` 一键发版编排。近期进一步完成了全链路架构加固（Pipeline Hardening），包括 NVM 环境初始化、自动化线上冒烟测试（smoke_test.sh），并修复了工具链脚本路径依赖的脆弱性。今日执行 `/build` 清除了 2.3GB 的历史冗余媒体资产，`dist/` 处于极简待发布状态。
+- **发布架构 (Deployment)**：重构了产物交付管线，全面解耦 `/build`（SSG构建）与 `/deploy_netlify`（CDN 投递），并提供 `/publish` 一键发版编排。近期进一步完成了全链路架构加固（Pipeline Hardening），包括 NVM 环境初始化、自动化线上冒烟测试（smoke_test.sh），并修复了工具链脚本路径依赖的脆弱性。今日执行了完整的 `/publish` 工作流，完成了 H5 构建并将包含 W03/W04 最新成果的代码及视觉资产成功推送到 GitHub 源码仓库，同时将 `dist/` 产物平滑部署至 Netlify 生产环境并验证通过。
 
 ### 交互产品开发
 - **脚本**：W01-W14 全量完成。今日执行了 `/audit` 深度教学审查管线，圆满完成了 W04 (MVP & Hypothesis) M00-M05 的全维度系统性 pedagogical 审计与修复闭环，排除了 List 字段信标缺失、M03 结构性冗余废话以及 M04 的 Cloak 记忆锚词断层 (Anchor Gap)，全模块 IAR 逼近满分 1.00，完美消除教学认知摩擦。今日也执行了 `/extract_textbook` 工作流，完成了 W04 教材精读提取生成三篇 Brief (B01-B03) 并更新了 `knowledge_hub.yaml`。此前已完成 W03 (Product Insights) M00-M06 的深度审计与定点扩写。W01、W02、W11、W13、W14 均已通过 DRP 验证与 Standard 审计。历史骨架全部上线。
@@ -33,6 +33,7 @@
 ## 最近活动（近 7 天）
 
 | 日期 | 事件 |
+| 2026-05-18 | 执行 `/publish` 一键发布编排工作流。完成 H5 构建 (`/build`)，执行 SSG 管线并将 W03/W04 新增视觉资产及代码同步推送至 GitHub (`/git_sync` 分批策略)，随后将构建产物部署至 Netlify 生产环境 (`/deploy_netlify`)，并成功通过线上冒烟测试闭环。 |
 | 2026-05-18 | 执行 `/audit` 及联合修复。圆满完成《交互产品开发》W04 (MVP & Hypothesis) M00-M05 全模块的宏观结构与微观细节深度审计。执行 L2 语义仲裁剔除了 M03 的物理冗余负荷，修复了 M01 的结构性枚举信标缺失，并精确定点修复了 M04 Dropbox 案例的 `[ANCHOR_GAP]` 记忆断层。全模块结构极度健康。 |
 | 2026-05-17 | 执行 `/extract_textbook` 工作流。针对《交互产品开发》W04 (MVP & Hypothesis) 从《精益 UX》提取了 Chapter 10-12 的核心内容，生成了三篇 Brief (B01-B03) 文章，并同步更新了知识库清单，为后续模块的学术挂钩与审计做准备。 |
 | 2026-05-16 | 执行 `/publish` 一键发布编排。成功分批推送所有源码与新增视觉资产至 GitHub (`/git_sync`)，随后将构建就绪的 `dist/` 推送至 Netlify 生产环境 (`/deploy_netlify`) 并验证了核心静态资源的在线可达性，完整交付闭环。 |
