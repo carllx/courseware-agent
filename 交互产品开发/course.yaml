@@ -15,6 +15,7 @@ course:
   code: CNFU002572
   semester: 2025-2026-2
   nature: 专业选修课
+  grade: 2023级
   training_plan_version: "2023"   # 适用的人培版本（23级入学 → 执行2023版人培）
   credits: 3.0
   department: 设计学院
@@ -25,18 +26,18 @@ course:
     2.软件支持：Figma、Visual Studio Code、v0 / CodeGeeX 等 AI 代码辅助工具。
     3.教室与实验室条件：投影设备、多媒体教室、计算机实验室。
   classes:
-    - name: 2023级数字媒体艺术影视班
-      archive_id: 21
-      schedule_time: 周四2-5节              # 主课日：周四
-      schedule_segments:
-        - weeks: "9-18"                     # W9-W18 全程周四
-          period: "2-5节"
-          day: "周四"
-        - weeks: "13-17"                    # W13-W17 增加周日加课
-          period: "2-5节"
-          day: "周日"
-      classroom: 温泉校区 2实107
-      week_range: "9-18"
+  - name: 2023级数字媒体艺术影视班
+    archive_id: 21
+    schedule_time: 周四2-5节                # 主课日：周四
+    schedule_segments:
+    - weeks: "9-18"                         # W9-W18 全程周四
+      period: "2-5节"
+      day: "周四"
+    - weeks: "13-17"                        # W13-W17 增加周日加课
+      period: "2-5节"
+      day: "周日"
+    classroom: 温泉校区 2实107
+    week_range: "9-18"
       # 排课方案：W9-W12 仅周四(4h×4=16h)，W13-W17 周四+周日(8h×5=40h)，W18 仅周四路演(4h)
       # 总计：16+40+4 = 60h ✅
   hours:
@@ -46,9 +47,9 @@ course:
     minutes_per_period: 45   # 每节课标准分钟数（MSG-010：教务端校验基准）
   introduction:
     content: |
-      本课程是数字媒体艺术专业的核心课程，定位为"AI 辅助的交互体验与系统设计"。课程有意识地剥离了传统重度后端的 SaaS 工程逻辑，转而聚焦于交互体验装置与单页面互动应用的开发。课程体系依托《Interaction Design》的认知科学框架，向下兼容《Lean UX》的模型验证与《About Face 4》的信息流构架，并引入 Vibe Coding 理念，让学生借助前沿 AI 代码生成工具 (如 v0、CodeGeeX)，跨越前端工程门槛，独立完成从痛点洞察、高保真状态机构筑到体验式前端输出的闭环。
+      本课程是数字媒体艺术专业的核心课程，定位为"AI 辅助的交互体验与系统设计"。课程有意识地剥离了传统重度后端的 SaaS 工程逻辑，转而聚焦于交互体验装置与单页面互动应用的开发。课程体系依托《Interaction Design》的认知科学框架，向下兼容《Lean UX》的模型验证与《About Face 4》的信息流构架，并引入 Vibe Coding 理念与实操，让学生借助前沿 AI 代码生成工具 (如 v0、CodeGeeX)，跨越前端工程门槛，独立完成从痛点洞察、高保真状态机构筑到体验式前端输出的闭环。
     design: |
-      课程采用强设定的"1主线+4实验"模式，贯穿15周教学。以"交互单页面体验应用"为项目驱动核心，摒弃假大空的文档撰写，注重"假设驱动"的敏捷落地方孔。教学过程通过"周理论输入 -> 周课内实战 -> 阶段性实验验收"的节奏，最终通过极简的 AI 工具生成可交互的前沿动效静态雏形，并在教室内完成基于启发式走查与出声思考法的同侪可用性测试评估。
+      课程采用强设定的"1主线+4实验"模式，贯穿15周教学。以"交互单页面体验应用"为项目驱动核心，摒弃假大空的文档撰写，注重"假设驱动"的敏捷落地方孔。教学过程通过"周实操导引 -> 周课内实战 -> 阶段性实验验收"的节奏，最终通过极简的 AI 工具生成可交互的前沿动效静态雏形，并在教室内完成基于启发式走查与出声思考法的同侪可用性测试评估。
 
 teacher:
   name: 林昕
@@ -60,62 +61,62 @@ teacher:
 
 objectives:
   knowledge:
-    - index: 1
-      desc: 描述交互产品从用户痛点洞察、MVP 假设驱动、状态机架构到 AI 辅助原型生成与可用性验证的完整创作流程，并演示各阶段的关键产出物
-      mappings:
-        - requirement: 2 专业知识
-          point: 2.3 全流程创作能力
-          support_level: H
-    - index: 2
-      desc: 分析人类认知局限与短时记忆负荷对界面设计的约束机理，运用心智模型匹配与降低认知过载的设计法则重构具体界面案例
-      mappings:
-        - requirement: 2 专业知识
-          point: 2.1 基础知识掌握
-          support_level: M
-    - index: 3
-      desc: 执行以 Nielsen 十大可用性原则为核心的启发式评估方法，并依据 Think-Aloud 出声思考法的科学规范主持用户测试、评定缺陷严重级
-      mappings:
-        - requirement: 2 专业知识
-          point: 2.2 跨学科知识整合
-          support_level: M
+  - index: 1
+    desc: 描述交互产品从用户痛点洞察、MVP 假设驱动、状态机架构到 AI 辅助原型生成与可用性验证的完整创作流程，并演示各阶段的关键产出物
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.3 全流程创作能力
+      support_level: H
+  - index: 2
+    desc: 分析人类认知局限与短时记忆负荷对界面设计的约束机理，运用心智模型匹配与降低认知过载的设计法则重构具体界面案例
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.1 基础知识掌握
+      support_level: M
+  - index: 3
+    desc: 执行以 Nielsen 十大可用性原则为核心的启发式评估方法，并依据 Think-Aloud 出声思考法的科学规范主持用户测试、评定缺陷严重级
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.2 跨学科知识整合
+      support_level: M
   ability:
-    - index: 1
-      desc: 能够运用目标导向设计思路与 Vibe Coding 范式，独立完成具有创新性与原创性的交互体验原型设计
-      mappings:
-        - requirement: 3 创造性思维
-          point: 3.2 独立创意思考与原创设计
-          support_level: M
-    - index: 2
-      desc: 能将容器化工程思维与 Design Token 体系系统化地应用于项目实践，实现从设计稿到前端组件的高保真映射
-      mappings:
-        - requirement: 4 实际应用能力
-          point: 4.1 专业技术实现能力
-          support_level: H
-    - index: 3
-      desc: 能以评估专家身份客观执行跨组启发式走查与用户测试，基于质性数据系统梳理反馈并完成闭环迭代优化
-      mappings:
-        - requirement: 4 实际应用能力
-          point: 4.2 专业技能纵深
-          support_level: M
+  - index: 1
+    desc: 能够运用目标导向设计思路与 Vibe Coding 范式，独立完成具有创新性与原创性的交互体验原型设计
+    mappings:
+    - requirement: 3 创造性思维
+      point: 3.2 独立创意思考与原创设计
+      support_level: M
+  - index: 2
+    desc: 能将容器化工程思维与 Design Token 体系系统化地应用于项目实践，实现从设计稿到前端组件的高保真映射
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.1 专业技术实现能力
+      support_level: H
+  - index: 3
+    desc: 能以评估专家身份客观执行跨组启发式走查与用户测试，基于质性数据系统梳理反馈并完成闭环迭代优化
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.2 专业技能纵深
+      support_level: M
   quality:
-    - index: 1
-      desc: 具备运用文字、图像、原型演示等多种方式清晰阐述设计理念的表达适应能力，能在路演答辩与同侪互评中高效沟通
-      mappings:
-        - requirement: 6 沟通表达
-          point: 6.2 沟通策略和适应性
-          support_level: H
-    - index: 2
-      desc: 具备面对 AI 生成代码不确定性时的工程韧性与自主排错意识，不盲从技术输出，坚持以人为本的设计价值观
-      mappings:
-        - requirement: 5 信息能力
-          point: 5.1 信息应用
-          support_level: H
-    - index: 3
-      desc: 能在同侪互评与路演答辩中以建设性姿态接受批评，展现虚心协作与持续迭代改进的专业精神
-      mappings:
-        - requirement: 6 沟通表达
-          point: 6.1 沟通与表达技巧
-          support_level: M
+  - index: 1
+    desc: 具备运用文字、图像、原型演示等多种方式清晰阐述设计理念的表达适应能力，能在路演答辩与同侪互评中高效沟通
+    mappings:
+    - requirement: 6 沟通表达
+      point: 6.2 沟通策略和适应性
+      support_level: H
+  - index: 2
+    desc: 具备面对 AI 生成代码不确定性时的工程韧性与自主排错意识，不盲从技术输出，坚持以人为本的设计价值观
+    mappings:
+    - requirement: 5 信息能力
+      point: 5.1 信息应用
+      support_level: H
+  - index: 3
+    desc: 能在同侪互评与路演答辩中以建设性姿态接受批评，展现虚心协作与持续迭代改进的专业精神
+    mappings:
+    - requirement: 6 沟通表达
+      point: 6.1 沟通与表达技巧
+      support_level: M
 
 student_analysis: |
   本课程面向数字媒体艺术专业大三学生（23级），已完成用户体验设计等先修课程，具备基本的设计思维与交互原型能力。学生普遍擅长视觉设计工具（Figma/PS），但前端开发与代码调试经验不足。课程引入 Vibe Coding 范式与 AI 代码助手，帮助学生跨越前端工程门槛，聚焦于交互体验与可用性验证的核心能力培养。
@@ -124,1074 +125,1385 @@ semester_config:
   start_date: "2026-03-02"
 
 textbooks:
-  - title: "交互设计：超越人机交互（原书第5版）"
-    author: "Yvonne Rogers, Helen Sharp, Jennifer Preece 著；刘晓晖 等译"
-    publisher: "机械工业出版社"
-    year: "2020"
-    isbn: "978-7-111-65893-1"
-    type: textbook
-    citation: "Yvonne Rogers, Helen Sharp, Jennifer Preece. 交互设计：超越人机交互（原书第5版）[M]. 刘晓晖 等译. 北京: 机械工业出版社, 2020."
-    toc:
-      - chapter: 1
-        title: "什么是交互设计"
-        title_en: "What is Interaction Design?"
-      - chapter: 2
-        title: "交互设计过程"
-        title_en: "The Process of Interaction Design"
-      - chapter: 3
-        title: "概念化交互"
-        title_en: "Conceptualizing Interaction"
-      - chapter: 4
-        title: "认知方面"
-        title_en: "Cognitive Aspects"
-      - chapter: 5
-        title: "社会交互"
-        title_en: "Social Interaction"
-      - chapter: 6
-        title: "情感交互"
-        title_en: "Emotional Interaction"
-      - chapter: 7
-        title: "界面"
-        title_en: "Interfaces"
-      - chapter: 8
-        title: "数据收集"
-        title_en: "Data Gathering"
-      - chapter: 9
-        title: "数据分析、解释与呈现"
-        title_en: "Data Analysis, Interpretation, and Presentation"
-      - chapter: 10
-        title: "大规模数据与伦理关切"
-        title_en: "Data at Scale and Ethical Concerns"
-      - chapter: 11
-        title: "发现需求"
-        title_en: "Discovering Requirements"
-      - chapter: 12
-        title: "设计、原型与构建"
-        title_en: "Design, Prototyping, and Construction"
-      - chapter: 13
-        title: "交互设计实践"
-        title_en: "Interaction Design in Practice"
-      - chapter: 14
-        title: "评估导论"
-        title_en: "Introducing Evaluation"
-      - chapter: 15
-        title: "评估研究：从受控到自然环境"
-        title_en: "Evaluation Studies: From Controlled to Natural Settings"
-      - chapter: 16
-        title: "评估：检查、分析与模型"
-        title_en: "Evaluation: Inspections, Analytics, and Models"
-  - title: "Interaction Design: Beyond Human-Computer Interaction (6th Ed.)"
-    author: "Yvonne Rogers, Helen Sharp, Jennifer Preece"
-    publisher: "Wiley"
-    year: "2023"
-    type: reference
-    citation: "Yvonne Rogers, Helen Sharp, Jennifer Preece. Interaction Design: Beyond Human-Computer Interaction (6th Ed.)[M]. Hoboken: Wiley, 2023."
-    toc:
-      - chapter: 1
-        title: "什么是交互设计"
-        title_en: "What is Interaction Design?"
-      - chapter: 2
-        title: "交互设计过程"
-        title_en: "The Process of Interaction Design"
-      - chapter: 3
-        title: "概念化交互"
-        title_en: "Conceptualizing Interaction"
-      - chapter: 4
-        title: "认知方面"
-        title_en: "Cognitive Aspects"
-      - chapter: 5
-        title: "社会交互"
-        title_en: "Social Interaction"
-      - chapter: 6
-        title: "情感交互"
-        title_en: "Emotional Interaction"
-      - chapter: 7
-        title: "界面"
-        title_en: "Interfaces"
-      - chapter: 8
-        title: "数据收集"
-        title_en: "Data Gathering"
-      - chapter: 9
-        title: "数据分析、解释与呈现"
-        title_en: "Data Analysis, Interpretation, and Presentation"
-      - chapter: 10
-        title: "大规模数据与伦理关切"
-        title_en: "Data at Scale and Ethical Concerns"
-      - chapter: 11
-        title: "发现需求"
-        title_en: "Discovering Requirements"
-      - chapter: 12
-        title: "设计、原型与构建"
-        title_en: "Design, Prototyping, and Construction"
-      - chapter: 13
-        title: "交互设计实践"
-        title_en: "Interaction Design in Practice"
-      - chapter: 14
-        title: "评估导论"
-        title_en: "Introducing Evaluation"
-      - chapter: 15
-        title: "评估研究：从受控到自然环境"
-        title_en: "Evaluation Studies: From Controlled to Natural Settings"
-      - chapter: 16
-        title: "评估：检查、分析与模型"
-        title_en: "Evaluation: Inspections, Analytics, and Models"
-  - title: "精益 UX：设计伟大产品的敏捷反求方法 (Lean UX)"
-    author: "Jeff Gothelf, Josh Seiden"
-    publisher: "人民邮电出版社"
-    year: "2022"
-    type: reference
-    citation: "Jeff Gothelf, Josh Seiden. 精益 UX：设计伟大产品的敏捷反求方法[M]. 北京: 人民邮电出版社, 2022."
-    toc:
-      - chapter: 1
-        title: "比以往任何时候都更重要"
-        title_en: "More Important Now than Ever Before"
-      - chapter: 2
-        title: "原则"
-        title_en: "Principles"
-      - chapter: 3
-        title: "成果"
-        title_en: "Outcomes"
-      - chapter: 4
-        title: "精益UX画布"
-        title_en: "The Lean UX Canvas"
-      - chapter: 5
-        title: "方格1：业务问题"
-        title_en: "Box 1: Business Problem"
-      - chapter: 6
-        title: "方格2：业务成果"
-        title_en: "Box 2: Business Outcomes"
-      - chapter: 7
-        title: "方格3：用户"
-        title_en: "Box 3: Users"
-      - chapter: 8
-        title: "方格4：用户成果与收益"
-        title_en: "Box 4: User Outcomes and Benefits"
-      - chapter: 9
-        title: "方格5：解决方案"
-        title_en: "Box 5: Solutions"
-      - chapter: 10
-        title: "方格6：假设"
-        title_en: "Box 6: Hypotheses"
-      - chapter: 11
-        title: "方格7：我们最需要了解什么？"
-        title_en: "Box 7: What's the Most Important Thing We Need to Learn?"
-      - chapter: 12
-        title: "方格8：MVP与实验"
-        title_en: "Box 8: MVPs and Experiments"
-      - chapter: 13
-        title: "融会贯通"
-        title_en: "Bringing It All Together"
-      - chapter: 14
-        title: "协作设计"
-        title_en: "Collaborative Design"
-      - chapter: 15
-        title: "反馈与研究"
-        title_en: "Feedback and Research"
-      - chapter: 16
-        title: "精益UX与敏捷的整合"
-        title_en: "Integrating Lean UX and Agile"
-      - chapter: 17
-        title: "推动组织变革"
-        title_en: "Making Organizational Shifts"
-      - chapter: 18
-        title: "代理商中的精益UX"
-        title_en: "Lean UX in an Agency"
-      - chapter: 19
-        title: "结语"
-        title_en: "A Last Word"
-  - title: "交互设计精髓 (About Face 4)"
-    author: "Alan Cooper"
-    publisher: "电子工业出版社"
-    year: "2015"
-    type: reference
-    citation: "Alan Cooper. 交互设计精髓[M]. 北京: 电子工业出版社, 2015."
-    toc:
-      - chapter: 1
-        title: "数字产品的设计过程"
-        title_en: "A Design Process for Digital Products"
-      - chapter: 2
-        title: "理解问题：设计研究"
-        title_en: "Understanding the Problem: Design Research"
-      - chapter: 3
-        title: "用户建模：人物角色与目标"
-        title_en: "Modeling Users: Personas and Goals"
-      - chapter: 4
-        title: "设定愿景：场景与设计需求"
-        title_en: "Setting the Vision: Scenarios and Design Requirements"
-      - chapter: 5
-        title: "设计产品：框架与精炼"
-        title_en: "Designing the Product: Framework and Refinement"
-      - chapter: 6
-        title: "创意团队合作"
-        title_en: "Creative Teamwork"
-      - chapter: 7
-        title: "良好产品行为的基础"
-        title_en: "A Basis for Good Product Behavior"
-      - chapter: 8
-        title: "数字礼仪"
-        title_en: "Digital Etiquette"
-      - chapter: 9
-        title: "平台与姿态"
-        title_en: "Platform and Posture"
-      - chapter: 10
-        title: "为中间用户优化"
-        title_en: "Optimizing for Intermediates"
-      - chapter: 11
-        title: "编排与心流"
-        title_en: "Orchestration and Flow"
-      - chapter: 12
-        title: "减少工作与消除附加操作"
-        title_en: "Reducing Work and Eliminating Excise"
-      - chapter: 13
-        title: "隐喻、习惯用法与可供性"
-        title_en: "Metaphors, Idioms, and Affordances"
-      - chapter: 14
-        title: "重新思考数据输入、存储与检索"
-        title_en: "Rethinking Data Entry, Storage, and Retrieval"
-      - chapter: 15
-        title: "防止错误与辅助决策"
-        title_en: "Preventing Errors and Informing Decisions"
-      - chapter: 16
-        title: "面向不同需求的设计"
-        title_en: "Designing for Different Needs"
-      - chapter: 17
-        title: "整合视觉设计"
-        title_en: "Integrating Visual Design"
-      - chapter: 18
-        title: "桌面端设计"
-        title_en: "Designing for the Desktop"
-      - chapter: 19
-        title: "移动端与其他设备设计"
-        title_en: "Designing for Mobile and Other Devices"
-      - chapter: 20
-        title: "Web端设计"
-        title_en: "Designing for the Web"
-      - chapter: 21
-        title: "设计细节：控件与对话框"
-        title_en: "Design Details: Controls and Dialogs"
-  - title: "Refactoring UI"
-    author: "Adam Wathan, Steve Schoger"
-    publisher: "Self-Published"
-    year: "2018"
-    type: reference
-    citation: "Adam Wathan, Steve Schoger. Refactoring UI[M]. Self-Published, 2018."
-    toc:
+- title: "交互设计：超越人机交互（原书第5版）"
+  author: "Yvonne Rogers, Helen Sharp, Jennifer Preece 著；刘晓晖 等译"
+  publisher: "机械工业出版社"
+  year: "2020"
+  isbn: "978-7-111-65893-1"
+  type: textbook
+  citation: "Yvonne Rogers, Helen Sharp, Jennifer Preece. 交互设计：超越人机交互（原书第5版）[M]. 刘晓晖 等译. 北京: 机械工业出版社, 2020."
+  toc:
+  - chapter: 1
+    title: "什么是交互设计"
+    title_en: "What is Interaction Design?"
+  - chapter: 2
+    title: "交互设计过程"
+    title_en: "The Process of Interaction Design"
+  - chapter: 3
+    title: "概念化交互"
+    title_en: "Conceptualizing Interaction"
+  - chapter: 4
+    title: "认知方面"
+    title_en: "Cognitive Aspects"
+  - chapter: 5
+    title: "社会交互"
+    title_en: "Social Interaction"
+  - chapter: 6
+    title: "情感交互"
+    title_en: "Emotional Interaction"
+  - chapter: 7
+    title: "界面"
+    title_en: "Interfaces"
+  - chapter: 8
+    title: "数据收集"
+    title_en: "Data Gathering"
+  - chapter: 9
+    title: "数据分析、解释与呈现"
+    title_en: "Data Analysis, Interpretation, and Presentation"
+  - chapter: 10
+    title: "大规模数据与伦理关切"
+    title_en: "Data at Scale and Ethical Concerns"
+  - chapter: 11
+    title: "发现需求"
+    title_en: "Discovering Requirements"
+  - chapter: 12
+    title: "设计、原型与构建"
+    title_en: "Design, Prototyping, and Construction"
+  - chapter: 13
+    title: "交互设计实践"
+    title_en: "Interaction Design in Practice"
+  - chapter: 14
+    title: "评估导论"
+    title_en: "Introducing Evaluation"
+  - chapter: 15
+    title: "评估研究：从受控到自然环境"
+    title_en: "Evaluation Studies: From Controlled to Natural Settings"
+  - chapter: 16
+    title: "评估：检查、分析与模型"
+    title_en: "Evaluation: Inspections, Analytics, and Models"
+- title: "Interaction Design: Beyond Human-Computer Interaction (6th Ed.)"
+  author: "Yvonne Rogers, Helen Sharp, Jennifer Preece"
+  publisher: "Wiley"
+  year: "2023"
+  type: reference
+  citation: "Yvonne Rogers, Helen Sharp, Jennifer Preece. Interaction Design: Beyond Human-Computer Interaction (6th Ed.)[M]. Hoboken: Wiley, 2023."
+  toc:
+  - chapter: 1
+    title: "什么是交互设计"
+    title_en: "What is Interaction Design?"
+  - chapter: 2
+    title: "交互设计过程"
+    title_en: "The Process of Interaction Design"
+  - chapter: 3
+    title: "概念化交互"
+    title_en: "Conceptualizing Interaction"
+  - chapter: 4
+    title: "认知方面"
+    title_en: "Cognitive Aspects"
+  - chapter: 5
+    title: "社会交互"
+    title_en: "Social Interaction"
+  - chapter: 6
+    title: "情感交互"
+    title_en: "Emotional Interaction"
+  - chapter: 7
+    title: "界面"
+    title_en: "Interfaces"
+  - chapter: 8
+    title: "数据收集"
+    title_en: "Data Gathering"
+  - chapter: 9
+    title: "数据分析、解释与呈现"
+    title_en: "Data Analysis, Interpretation, and Presentation"
+  - chapter: 10
+    title: "大规模数据与伦理关切"
+    title_en: "Data at Scale and Ethical Concerns"
+  - chapter: 11
+    title: "发现需求"
+    title_en: "Discovering Requirements"
+  - chapter: 12
+    title: "设计、原型与构建"
+    title_en: "Design, Prototyping, and Construction"
+  - chapter: 13
+    title: "交互设计实践"
+    title_en: "Interaction Design in Practice"
+  - chapter: 14
+    title: "评估导论"
+    title_en: "Introducing Evaluation"
+  - chapter: 15
+    title: "评估研究：从受控到自然环境"
+    title_en: "Evaluation Studies: From Controlled to Natural Settings"
+  - chapter: 16
+    title: "评估：检查、分析与模型"
+    title_en: "Evaluation: Inspections, Analytics, and Models"
+- title: "精益 UX：设计伟大产品的敏捷反求方法 (Lean UX)"
+  author: "Jeff Gothelf, Josh Seiden"
+  publisher: "人民邮电出版社"
+  year: "2022"
+  type: reference
+  citation: "Jeff Gothelf, Josh Seiden. 精益 UX：设计伟大产品的敏捷反求方法[M]. 北京: 人民邮电出版社, 2022."
+  toc:
+  - chapter: 1
+    title: "比以往任何时候都更重要"
+    title_en: "More Important Now than Ever Before"
+  - chapter: 2
+    title: "原则"
+    title_en: "Principles"
+  - chapter: 3
+    title: "成果"
+    title_en: "Outcomes"
+  - chapter: 4
+    title: "精益UX画布"
+    title_en: "The Lean UX Canvas"
+  - chapter: 5
+    title: "方格1：业务问题"
+    title_en: "Box 1: Business Problem"
+  - chapter: 6
+    title: "方格2：业务成果"
+    title_en: "Box 2: Business Outcomes"
+  - chapter: 7
+    title: "方格3：用户"
+    title_en: "Box 3: Users"
+  - chapter: 8
+    title: "方格4：用户成果与收益"
+    title_en: "Box 4: User Outcomes and Benefits"
+  - chapter: 9
+    title: "方格5：解决方案"
+    title_en: "Box 5: Solutions"
+  - chapter: 10
+    title: "方格6：假设"
+    title_en: "Box 6: Hypotheses"
+  - chapter: 11
+    title: "方格7：我们最需要了解什么？"
+    title_en: "Box 7: What's the Most Important Thing We Need to Learn?"
+  - chapter: 12
+    title: "方格8：MVP与实验"
+    title_en: "Box 8: MVPs and Experiments"
+  - chapter: 13
+    title: "融会贯通"
+    title_en: "Bringing It All Together"
+  - chapter: 14
+    title: "协作设计"
+    title_en: "Collaborative Design"
+  - chapter: 15
+    title: "反馈与研究"
+    title_en: "Feedback and Research"
+  - chapter: 16
+    title: "精益UX与敏捷的整合"
+    title_en: "Integrating Lean UX and Agile"
+  - chapter: 17
+    title: "推动组织变革"
+    title_en: "Making Organizational Shifts"
+  - chapter: 18
+    title: "代理商中的精益UX"
+    title_en: "Lean UX in an Agency"
+  - chapter: 19
+    title: "结语"
+    title_en: "A Last Word"
+- title: "交互设计精髓 (About Face 4)"
+  author: "Alan Cooper"
+  publisher: "电子工业出版社"
+  year: "2015"
+  type: reference
+  citation: "Alan Cooper. 交互设计精髓[M]. 北京: 电子工业出版社, 2015."
+  toc:
+  - chapter: 1
+    title: "数字产品的设计过程"
+    title_en: "A Design Process for Digital Products"
+  - chapter: 2
+    title: "理解问题：设计研究"
+    title_en: "Understanding the Problem: Design Research"
+  - chapter: 3
+    title: "用户建模：人物角色与目标"
+    title_en: "Modeling Users: Personas and Goals"
+  - chapter: 4
+    title: "设定愿景：场景与设计需求"
+    title_en: "Setting the Vision: Scenarios and Design Requirements"
+  - chapter: 5
+    title: "设计产品：框架与精炼"
+    title_en: "Designing the Product: Framework and Refinement"
+  - chapter: 6
+    title: "创意团队合作"
+    title_en: "Creative Teamwork"
+  - chapter: 7
+    title: "良好产品行为的基础"
+    title_en: "A Basis for Good Product Behavior"
+  - chapter: 8
+    title: "数字礼仪"
+    title_en: "Digital Etiquette"
+  - chapter: 9
+    title: "平台与姿态"
+    title_en: "Platform and Posture"
+  - chapter: 10
+    title: "为中间用户优化"
+    title_en: "Optimizing for Intermediates"
+  - chapter: 11
+    title: "编排与心流"
+    title_en: "Orchestration and Flow"
+  - chapter: 12
+    title: "减少工作与消除附加操作"
+    title_en: "Reducing Work and Eliminating Excise"
+  - chapter: 13
+    title: "隐喻、习惯用法与可供性"
+    title_en: "Metaphors, Idioms, and Affordances"
+  - chapter: 14
+    title: "重新思考数据输入、存储与检索"
+    title_en: "Rethinking Data Entry, Storage, and Retrieval"
+  - chapter: 15
+    title: "防止错误与辅助决策"
+    title_en: "Preventing Errors and Informing Decisions"
+  - chapter: 16
+    title: "面向不同需求的设计"
+    title_en: "Designing for Different Needs"
+  - chapter: 17
+    title: "整合视觉设计"
+    title_en: "Integrating Visual Design"
+  - chapter: 18
+    title: "桌面端设计"
+    title_en: "Designing for the Desktop"
+  - chapter: 19
+    title: "移动端与其他设备设计"
+    title_en: "Designing for Mobile and Other Devices"
+  - chapter: 20
+    title: "Web端设计"
+    title_en: "Designing for the Web"
+  - chapter: 21
+    title: "设计细节：控件与对话框"
+    title_en: "Design Details: Controls and Dialogs"
+- title: "Refactoring UI"
+  author: "Adam Wathan, Steve Schoger"
+  publisher: "Self-Published"
+  year: "2018"
+  type: reference
+  citation: "Adam Wathan, Steve Schoger. Refactoring UI[M]. Self-Published, 2018."
+  toc:
       # Refactoring UI 采用 Section Group 结构，无传统章节编号
-      - chapter: "Starting from Scratch"
-        title: "从零开始"
-        title_en: "Starting from Scratch"
-      - chapter: "Hierarchy is Everything"
-        title: "层级至上"
-        title_en: "Hierarchy is Everything"
-      - chapter: "Layout and Spacing"
-        title: "布局与间距"
-        title_en: "Layout and Spacing"
-      - chapter: "Designing Text"
-        title: "文字设计"
-        title_en: "Designing Text"
-      - chapter: "Working with Color"
-        title: "色彩运用"
-        title_en: "Working with Color"
-      - chapter: "Creating Depth"
-        title: "创造深度"
-        title_en: "Creating Depth"
-      - chapter: "Working with Images"
-        title: "图片处理"
-        title_en: "Working with Images"
-      - chapter: "Finishing Touches"
-        title: "收尾润色"
-        title_en: "Finishing Touches"
-      - chapter: "Leveling Up"
-        title: "进阶提升"
-        title_en: "Leveling Up"
-  - title: "数字媒体交互设计（慕课版）"
-    author: "张靖瑶"
-    publisher: "人民邮电出版社"
-    year: "2022"
-    type: reference
-    citation: "张靖瑶. 数字媒体交互设计（慕课版）[M]. 北京: 人民邮电出版社, 2022."
-    toc:
-      - chapter: 1
-        title: "交互设计概述"
-      - chapter: 2
-        title: "Web端'家居'网页交互UI设计"
-      - chapter: 3
-        title: "移动端'美食小吃'App交互UI设计"
-      - chapter: 4
-        title: "Web端'电商平台'产品交互设计开发"
-      - chapter: 5
-        title: "移动端'教学助手'App产品交互设计开发"
-      - chapter: 6
-        title: "移动端'茶物语'App产品交互设计开发"
+  - chapter: "Starting from Scratch"
+    title: "从零开始"
+    title_en: "Starting from Scratch"
+  - chapter: "Hierarchy is Everything"
+    title: "层级至上"
+    title_en: "Hierarchy is Everything"
+  - chapter: "Layout and Spacing"
+    title: "布局与间距"
+    title_en: "Layout and Spacing"
+  - chapter: "Designing Text"
+    title: "文字设计"
+    title_en: "Designing Text"
+  - chapter: "Working with Color"
+    title: "色彩运用"
+    title_en: "Working with Color"
+  - chapter: "Creating Depth"
+    title: "创造深度"
+    title_en: "Creating Depth"
+  - chapter: "Working with Images"
+    title: "图片处理"
+    title_en: "Working with Images"
+  - chapter: "Finishing Touches"
+    title: "收尾润色"
+    title_en: "Finishing Touches"
+  - chapter: "Leveling Up"
+    title: "进阶提升"
+    title_en: "Leveling Up"
+- title: "数字媒体交互设计（慕课版）"
+  author: "张靖瑶"
+  publisher: "人民邮电出版社"
+  year: "2022"
+  type: reference
+  citation: "张靖瑶. 数字媒体交互设计（慕课版）[M]. 北京: 人民邮电出版社, 2022."
+  toc:
+  - chapter: 1
+    title: "交互设计概述"
+  - chapter: 2
+    title: "Web端'家居'网页交互UI设计"
+  - chapter: 3
+    title: "移动端'美食小吃'App交互UI设计"
+  - chapter: 4
+    title: "Web端'电商平台'产品交互设计开发"
+  - chapter: 5
+    title: "移动端'教学助手'App产品交互设计开发"
+  - chapter: 6
+    title: "移动端'茶物语'App产品交互设计开发"
 
 calendar:
-  - week: 1
-    chapter: 1
-    chapter_title: "交互体系概论基础"
-    readings:
-      - "《交互设计：超越人机交互》第1、2章"
-      - "《交互设计精髓》Ch1-2"
-    topic: 交互体系概论基础
-    content: |-
-      1.1 交互与UX的本质定义；可用性与体验目标
-      1.2 产品体验的逆向拆解实验
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 理解交互设计与用户体验的区别与联系，掌握核心可用性原则
-    focus: "交互设计的本质定义与可用性目标评估标准"
-    difficulty: "如何在具体产品分析中准确区分交互的易用性与整体体验感"
-    ideology: "结合本土互联网产品的出海成功案例，增强数字化创新自信"
-    teaching_method: "理论讲授、案例分析、产品逆向体验拆解小组实战"
-    supported_objectives: ["知识1"]
-    task: "选取一款常用互联网产品，从可用性目标与体验目标两个维度进行逆向拆解分析，提交分析报告（约800字）。"
-    lessons:
-      - topic: 交互体系概论基础
-        objectives:
-          - 理解交互设计与用户体验的区别与联系
-          - 掌握核心可用性原则与体验目标评估标准
-        steps:
-          - stage: 导入
-            summary: "以日常交互失败案例引入，展示可用性与体验的差距"
-            minutes: 25
-          - stage: 讲授
-            summary: "交互设计本质定义、可用性目标（ISO 9241）、体验目标框架、Norman 设计心理学基础"
-            ideology: "结合本土互联网产品出海案例，增强数字化创新自信"
-            minutes: 110
-          - stage: 实践
-            summary: "产品逆向体验拆解小组实战——分组选取产品，按可用性/体验双维度解剖"
-            minutes: 35
-          - stage: 小结
-            summary: "汇报各组拆解发现，总结可用性与体验的评估框架"
-            minutes: 10
-  - week: 2
-    chapter: 2
-    chapter_title: "人类认知与心智摩擦"
-    readings:
-      - "《交互设计：超越人机交互》第4章"
-      - "《交互设计精髓》Ch3"
-    topic: 人类认知与心智摩擦
-    content: |-
-      2.1 认知框架与记忆负荷；心智模型与界面隐喻
-      2.2 视觉热力与认知过载节点重构
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 深入理解人类认知局限与短时记忆负荷，掌握心智模型与界面隐喻的映射规律
-    focus: "心智模型匹配度与降低认知过载的设计法则"
-    difficulty: "洞察隐形心智摩擦节点并将抽象认知心理学应用于具体的交互重构"
-    ideology: "探讨无障碍设计与包容性设计，培养技术以人为本的同理心"
-    teaching_method: "理论讲授、白板推演、热力图认知分析实践"
-    supported_objectives: ["知识1", "知识2"]
-    task: "选取一个存在认知过载的界面，绘制其认知热力图，标注摩擦节点并提出至少 3 条基于心智模型理论的重构建议。"
-    lessons:
-      - topic: 人类认知与心智摩擦
-        objectives:
-          - 深入理解人类认知局限与短时记忆负荷
-          - 掌握心智模型与界面隐喻的映射规律
-        steps:
-          - stage: 复习
-            summary: "回顾 W01 可用性与体验目标框架"
-            minutes: 10
-          - stage: 导入
-            summary: "以一组'看似好用却令人抓狂'的界面案例引入，揭示隐形认知摩擦的存在"
-            minutes: 15
-          - stage: 讲授
-            summary: "认知框架（注意力/感知/记忆）、Miller 法则、心智模型匹配与隐喻设计、格式塔在界面中的应用"
-            ideology: "探讨无障碍与包容性设计，培养以人为本的同理心"
-            minutes: 110
-          - stage: 实践
-            summary: "视觉热力图认知分析——标注过载节点并推演重构方案"
-            minutes: 35
-          - stage: 小结
-            summary: "总结认知负荷控制的设计法则"
-            minutes: 10
-  - week: 3
-    chapter: 3
-    chapter_title: "产品洞察与痛点切入"
-    readings:
-      - "《精益 UX》Ch1-4"
-    topic: 产品洞察与痛点切入
-    content: |-
-      3.1 定性调研原则；敏捷业务痛点发掘
-      3.2 启动 实验1(Exp1)，拟定 JTBD 微调研方案
-    exp_id: 1   # 对应实验1「概念设计与交互主线」启动周
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 掌握精益用户体验研究中的定性调研方法
-      ability: 能敏锐挖掘用户痛点与业务机会
-    focus: "聚焦真正痛点而非表面现象的定性调研原则与 JTBD 方法"
-    difficulty: "跳出现有解决方案的框架，通过深度访谈准确捕获用户待办目标(JTBD)"
-    ideology: "强调同理心在数字时代的重要性，以解决社会真实问题为设计出发点"
-    teaching_method: "理论讲授、访谈技巧示范、微调研方案设计实录"
-    supported_objectives: ["知识1"]
-    task: "以小组为单位完成 5 人次 JTBD 微访谈，输出痛点洞察报告，包含访谈记录摘要、痛点归纳与机会点排序。"
-    lessons:
-      - topic: 产品洞察与痛点切入
-        objectives:
-          - 掌握精益 UX 定性调研方法
-          - 能敏锐挖掘用户痛点与业务机会
-        steps:
-          - stage: 复习
-            summary: "回顾 W02 认知摩擦，引出用调研发现真实痛点的必要性"
-            minutes: 10
-          - stage: 导入
-            summary: "展示一款'设计师觉得完美但用户频繁弃用'的产品，引出真实痛点挖掘的重要性"
-            minutes: 10
-          - stage: 讲授
-            summary: "Lean UX 定性调研原则、JTBD 方法论、深度访谈技巧（5 Why / 开放式提问）、痛点分级"
-            ideology: "强调同理心在数字时代的重要性，以社会真实问题为设计出发点"
-            minutes: 70
-          - stage: 实践
-            summary: "启动 实验1(Exp1)——组内拟定 JTBD 微调研方案，现场演练访谈技巧"
-            minutes: 80
-          - stage: 小结
-            summary: "点评各组调研方案，布置课后完成 5 人次访谈"
-            minutes: 10
-  - week: 4
-    chapter: 4
-    chapter_title: "假设驱动与MVP构建"
-    readings:
-      - "《精益 UX》Ch10-12"
-    topic: 假设驱动与MVP构建
-    content: |-
-      4.1 抛弃重型 Persona，假设驱动与极简场景的界定
-      4.2 完成 实验1(Exp1)，输出互动应用最小可行性清单
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 应用假设驱动的敏捷设计思维
-      ability: 能界定极简场景并输出最小可行性产品(MVP)需求清单
-    focus: "从痛点洞察到假设声明与 MVP 核心功能边界的收敛"
-    difficulty: "在发散的需求中果断做减法，精确定义仅验证核心假设的 MVP 范围"
-    ideology: "培养实事求是的科学试错精神，防范盲目大干快上的工程浪费风险"
-    teaching_method: "理论讲授、案例复盘、MVP 清单讨论与决策"
-    supported_objectives: ["知识1"]
-    task: "基于 W03 调研成果，撰写假设声明（Proto-Persona + Value Proposition），输出 MVP 功能优先级清单（MoSCoW 法）。"
-    lessons:
-      - topic: 假设驱动与MVP构建
-        objectives:
-          - 应用假设驱动的敏捷设计思维
-          - 能界定极简场景并输出 MVP 需求清单
-        steps:
-          - stage: 复习
-            summary: "各组汇报 JTBD 访谈发现，提炼共性痛点"
-            minutes: 15
-          - stage: 导入
-            summary: "对比'功能臃肿的失败产品 vs 极简 MVP 的成功案例'，引出做减法的智慧"
-            minutes: 10
-          - stage: 讲授
-            summary: "假设驱动设计、Proto-Persona vs 重型 Persona、MVP 边界收敛方法（MoSCoW）"
-            ideology: "培养实事求是的科学试错精神，防范工程浪费"
-            minutes: 65
-          - stage: 实践
-            summary: "完成 实验1(Exp1)——从痛点洞察到假设声明，输出 MVP 功能优先级清单"
-            minutes: 80
-          - stage: 小结
-            summary: "各组 MVP 清单互评，强调做减法的纪律"
-            minutes: 10
-  - week: 5
-    chapter: 5
-    chapter_title: "目标导向路径与架构"
-    readings:
-      - "《交互设计精髓》Ch4-5"
-    topic: 目标导向路径与架构
-    content: |-
-      5.1 心流机制；前端页面状态流式拆解与编排
-      5.2 启动 实验2(Exp2)，起草应用状态流转白板图
-    exp_id: 2   # 对应实验2「状态机映射与视觉体系」启动周
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 理解心流状态的触发条件，掌握前端页面状态机的流式拆解手法与逻辑编排能力
-    focus: "目标导向的流式架构图设计与界面状态机的完整闭环设计"
-    difficulty: "抛弃静态页面思维，全面梳理考虑各种临界和中间状态的动态跳转逻辑"
-    ideology: "在架构规划中坚持系统观念与全局视野，培养严谨的逻辑推理能力"
-    teaching_method: "理论讲授、系统蓝图拆解、状态机白板绘图实操"
-    supported_objectives: ["知识1", "知识2"]
-    task: "将 MVP 清单转化为完整的页面状态流转架构图（含正常流 + 至少 3 个异常分支），以白板图或 FigJam 形式提交。"
-    lessons:
-      - topic: 目标导向路径与架构
-        objectives:
-          - 理解心流状态的触发条件
-          - 掌握前端页面状态机的流式拆解与编排
-        steps:
-          - stage: 复习
-            summary: "回顾 W04 MVP 清单，引出需要逻辑架构支撑功能落地"
-            minutes: 10
-          - stage: 导入
-            summary: "演示一个看似完整但用户频繁迷路的应用流程，暴露缺乏状态机规划的混乱"
-            minutes: 10
-          - stage: 讲授
-            summary: "心流机制与沉浸设计、目标导向设计方法论、状态机拆解（正常流/异常流/空状态）"
-            ideology: "培养系统观念与全局视野，强调严谨逻辑推理"
-            minutes: 70
-          - stage: 实践
-            summary: "启动 实验2(Exp2)——白板绘制应用状态流转架构图，互查异常分支完备性"
-            minutes: 80
-          - stage: 小结
-            summary: "点评典型架构图，预告视觉系统构建"
-            minutes: 10
-  - week: 6
-    chapter: 6
-    chapter_title: "容器工程化基础映射"
-    readings:
-      - "《数字媒体交互设计》项目2"
-    topic: 容器工程化基础映射
-    content: |-
-      6.1 DOM视觉映射机理；Figma AutoLayout 向 CSS Flex 的底层转化基础
-      6.2 在 Figma 搭建严苛响应式组件框架
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 理解设计工具与前端开发的映射机理
-      ability: 掌握从 AutoLayout 容器思维到响应式组件框架的构建
-    focus: "DOM 结构思维与 Figma AutoLayout/CSS Flex 的原子映射规律"
-    difficulty: "摆脱自由画板的绘图习惯，建立严苛的盒模型容器嵌套工程化意识"
-    ideology: "认识工程标准化的降本增效价值，培养遵守规则、精进技艺的工匠精神"
-    teaching_method: "理论讲授、设计系统工程化演示、Figma 容器搭建测验"
-    supported_objectives: ["知识1", "能力2"]
-    task: "在 Figma 中使用 AutoLayout 搭建一套 3 级响应式组件框架（卡片/列表/导航），输出组件标注截图。"
-    lessons:
-      - topic: 容器工程化基础映射
-        objectives:
-          - 理解设计工具与前端开发的映射机理
-          - 掌握 AutoLayout 到 CSS Flex 的转化逻辑
-        steps:
-          - stage: 复习
-            summary: "回顾 W05 状态流转架构，引出视觉落地需要工程化容器思维"
-            minutes: 10
-          - stage: 导入
-            summary: "对比'自由画板式设计稿'在不同屏幕尺寸上崩塌的效果，引出容器工程化思维"
-            minutes: 10
-          - stage: 讲授
-            summary: "DOM 视觉映射、盒模型/Flex 原理、Figma AutoLayout 与 CSS 的对应关系"
-            ideology: "遵守规则、精进技艺的工匠精神"
-            minutes: 70
-          - stage: 实践
-            summary: "Figma 严苛响应式组件框架搭建——卡片/列表/导航三级嵌套"
-            minutes: 80
-          - stage: 小结
-            summary: "组件框架互评，强调容器思维的工程纪律"
-            minutes: 10
-  - week: 7
-    chapter: 7
-    chapter_title: "视觉重构：层级与色彩"
-    readings:
-      - "《Refactoring UI》Hierarchy is Everything"
-      - "《Refactoring UI》Working with Color"
-    topic: 视觉重构：层级与色彩
-    content: |-
-      7.1 利用基础排版字重与空间感建立层级；HSL系统解析
-      7.2 为干瘪骨架填入视觉系统标签 (Tokens)
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 掌握无需依赖图形装饰、仅靠空间留白和字重构建信息层级的方法
-      ability: 熟练建立科学的色彩 Token 系统
-    focus: "重构级视觉架构：排版/留白控制以及基于 HSL 系统的层级分配"
-    difficulty: "克制过度设计的冲动，精准配置 Design Tokens 以实现系统的视觉一致性"
-    ideology: "提倡简洁、清晰、高信息密度的设计美学，避免数字垃圾与视觉污染"
-    teaching_method: "理论讲授、重构对比赏析、视觉 Token 系统推演实践"
-    supported_objectives: ["知识1", "能力1", "能力2"]
-    task: "为项目原型建立完整的 Design Token 体系（Typography × 4 级、Color × HSL 语义色、Spacing × 4 级），以 Figma Style Guide 形式输出。"
-    lessons:
-      - topic: 视觉重构：层级与色彩
-        objectives:
-          - 掌握仅靠排版与留白构建信息层级的方法
-          - 熟练建立科学的色彩 Token 系统
-        steps:
-          - stage: 复习
-            summary: "回顾 W06 容器框架，引出骨架还需视觉血肉"
-            minutes: 10
-          - stage: 导入
-            summary: "对比一个'五彩斑斓'的杂乱界面与经过视觉层级重构后的清爽版本"
-            minutes: 10
-          - stage: 讲授
-            summary: "Refactoring UI 核心法则、排版字重层级、HSL 色彩系统、Design Token 体系构建"
-            ideology: "提倡简洁、高信息密度的设计美学"
-            minutes: 70
-          - stage: 实践
-            summary: "为干瘪骨架填入视觉 Token——Typography/Color/Spacing 三维系统搭建"
-            minutes: 80
-          - stage: 小结
-            summary: "互评 Token 系统的一致性与可扩展性"
-            minutes: 10
-  - week: 8
-    chapter: 8
-    chapter_title: "视觉重构：深度与防错"
-    readings:
-      - "《Refactoring UI》Creating Depth"
-      - "《Refactoring UI》Finishing Touches"
-    topic: 视觉重构：深度与防错
-    content: |-
-      8.1 光影深度营造原则；处理极限/错误边界与情境反馈
-      8.2 收尾 实验2(Exp2)，建立视觉 Token Prompt 集
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 掌握界面物理深度的构建手段
-      ability: 重点理解并补全极端情境（空状态、报错等）的防错与宽容度设计
-    focus: "物理深度的前端映射逻辑与边缘状态(Edge Cases)的防御性设计"
-    difficulty: "穷尽交互旅程中的异常分支流，并为其提供优雅且具安抚感的设计反馈"
-    ideology: "强调防范暗黑模式与诱导点击，坚守设计的道德底线与用户信任"
-    teaching_method: "理论讲授、边缘错误案例分析、防错页面设计实操"
-    supported_objectives: ["知识1", "能力1", "能力2"]
-    task: "补全项目中至少 5 个边缘状态页面（空状态/加载中/报错/无网络/首次使用），建立视觉 Token Prompt 集并完成 实验2(Exp2) 交付。"
-    lessons:
-      - topic: 视觉重构：深度与防错
-        objectives:
-          - 掌握界面物理深度的构建手段
-          - 理解并补全极端情境的防错设计
-        steps:
-          - stage: 复习
-            summary: "回顾 W07 Token 体系，引出视觉深度与异常状态空白"
-            minutes: 10
-          - stage: 导入
-            summary: "展示'友好型报错页面 vs 冷冰冰 404'的对比案例，引出防错设计的温度"
-            minutes: 10
-          - stage: 讲授
-            summary: "光影深度原则（elevation/shadow）、边缘状态穷举法、防错设计与宽容度原则"
-            ideology: "防范暗黑模式，坚守设计道德底线"
-            minutes: 70
-          - stage: 实践
-            summary: "收尾 实验2(Exp2)——补全边缘状态页面 + 建立视觉 Token Prompt 集"
-            minutes: 80
-          - stage: 小结
-            summary: "实验2(Exp2) 交付互评，预告 AI 原型生成"
-            minutes: 10
-  - week: 9
-    chapter: 9
-    chapter_title: "AI 原型协作结构化"
-    readings:
-      - "《数字媒体交互设计》项目4-5"
-    topic: AI 原型协作结构化
-    content: |-
-      9.1 大语言模型的人机协同系统架构法；界面生成 Prompt 工程
-      9.2 启动 实验3(Exp3)，通过 v0 生成应用初始视图壳层
-    exp_id: 3   # 对应实验3「AI 原型与创意动效生成」启动周
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 理解 AI 生成代码的边界与约束，掌握界面级 Prompt 结构化工程
-      ability: 能高效驱动 AI 工具生成高保真交互壳层
-    focus: "Vibe Coding 理念：基于确定的视觉/逻辑基座，向大模型输出结构化 Prompt"
-    difficulty: "将前期输出的流转图与 Tokens 精准转化为大模型可懂的系统级指令语料"
-    ideology: "紧跟国家人工智能发展战略，培养运用新兴工具拥抱技术变革的前沿意识"
-    teaching_method: "理论讲授、AI 生成翻车案例排雷、结构化 Prompt 演练"
-    supported_objectives: ["知识1", "能力1", "素质2"]
-    task: "将 Token 体系与状态流转图转化为结构化 Prompt，通过 v0/CodeGeeX 生成应用初始视图壳层，提交 Prompt 原文 + 生成结果截图。"
-    lessons:
-      - topic: AI 原型协作结构化
-        objectives:
-          - 理解 AI 生成代码的边界与约束
-          - 掌握界面级 Prompt 结构化工程
-        steps:
-          - stage: 复习
-            summary: "回顾 W08 Token Prompt 集，引出如何让 AI 理解我们的设计意图"
-            minutes: 10
-          - stage: 导入
-            summary: "现场演示向 AI 随意下达模糊指令后的翻车结果，引出结构化 Prompt 的必要性"
-            minutes: 10
-          - stage: 讲授
-            summary: "Vibe Coding 理念、LLM 代码生成的约束边界、System Prompt 结构化方法、常见翻车模式与排雷"
-            ideology: "紧跟国家 AI 发展战略，培养拥抱技术变革的前沿意识"
-            minutes: 70
-          - stage: 实践
-            summary: "启动 实验3(Exp3)——用结构化 Prompt 驱动 v0 生成应用初始视图壳层"
-            minutes: 80
-          - stage: 小结
-            summary: "对比各组 Prompt 质量与生成效果，总结最佳实践"
-            minutes: 10
-  - week: 10
-    chapter: 10
-    chapter_title: "前沿动效组件融入"
-    readings:
-      - "《交互设计精髓》Ch11"
-    topic: 前沿动效组件融入
-    content: |-
-      10.1 前端交互特效融合机制；微观反馈的理论支撑
-      10.2 AI代码助手驱动实现跟随/粒子等基础创意动效
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 认知微动效在提供反馈与情感化设计中的重要作用
-      ability: 掌握通过 AI 辅助植入创意前端动效的协作流
-    focus: "微交互反馈的作用机制与创意动效代码的组件级融合方法"
-    difficulty: "在保证核心主线流畅的前提下，以无缝不违和的方式接入外部复杂特效组件"
-    ideology: "在艺术表现中融入创新意识，展现中国新一代数字设计师的审美创造力"
-    teaching_method: "理论讲授、优秀动效组件赏析、AI 驱动特效接入实拍"
-    supported_objectives: ["能力1", "素质2"]
-    task: "为项目原型植入至少 2 个创意微动效（如跟手粒子/页面转场/hover 反馈），提交动效演示录屏与 AI 协作对话截图。"
-    lessons:
-      - topic: 前沿动效组件融入
-        objectives:
-          - 认知微动效在反馈与情感化设计中的作用
-          - 掌握 AI 辅助植入创意动效的协作流
-        steps:
-          - stage: 复习
-            summary: "回顾 W09 AI 壳层生成成果，引出视觉增强需求"
-            minutes: 10
-          - stage: 导入
-            summary: "播放同一应用的无动效版与精雕动效版录屏对比，感受微交互的生命力差异"
-            minutes: 10
-          - stage: 讲授
-            summary: "微交互反馈理论（Saffer 模型）、动效组件融合机制、AI 动效代码协作流"
-            ideology: "融入创新意识，展现审美创造力"
-            minutes: 70
-          - stage: 实践
-            summary: "AI 驱动植入跟随/粒子/转场等创意动效组件"
-            minutes: 80
-          - stage: 小结
-            summary: "动效演示互评，预告排障与兜底"
-            minutes: 10
-  - week: 11
-    chapter: 11
-    chapter_title: "逻辑排障与兜底策略"
-    readings:
-      - "《交互设计精髓》Ch15"
-    topic: 逻辑排障与兜底策略
-    content: |-
-      11.1 本地大模型代码辅助阅读规律；混合保真度演示机制
-      11.2 收尾 实验3(Exp3)，通过Figma修复串联断裂的状态
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      ability: 具备基本的代码辅助阅读自检能力
-      knowledge: 掌握大模型陷入死循环时的兜底降级方案与混合保真测试准备工作
-    focus: "利用大语言模型辅助排错的工程嗅觉与混合保真度的降级策略"
-    difficulty: "面对 AI 生成的错乱耦合代码，能冷静判断断点并采用手工降级方案兜底串联"
-    ideology: "树立应对技术不确定性的韧性与抗压精神，不盲从 AI 输出结果"
-    teaching_method: "理论讲授、重度 Bug 抢救实演、混合保真兜底演练"
-    supported_objectives: ["知识1", "素质2"]
-    task: "完成 实验3(Exp3) 交付——AI 生成原型的最终串联调试，对无法解决的断点采用 Figma 混合保真兜底，提交排障日志。"
-    lessons:
-      - topic: 逻辑排障与兜底策略
-        objectives:
-          - 具备基本的代码辅助阅读自检能力
-          - 掌握 AI 死循环时的兜底降级方案
-        steps:
-          - stage: 复习
-            summary: "回顾 W10 动效融入成果，检查各组项目完整度"
-            minutes: 10
-          - stage: 导入
-            summary: "展示一个 AI 生成代码陷入死循环的真实案例，引出冷静排障与兜底的必要性"
-            minutes: 10
-          - stage: 讲授
-            summary: "LLM 辅助排错工程嗅觉、常见耦合断点判断、混合保真度降级策略（代码+Figma 拼接）"
-            ideology: "树立技术韧性，不盲从 AI 输出"
-            minutes: 70
-          - stage: 实践
-            summary: "收尾 实验3(Exp3)——重度 Bug 抢救 + Figma 混合保真兜底串联"
-            minutes: 80
-          - stage: 小结
-            summary: "排障经验分享，预告可用性评估"
-            minutes: 10
-  - week: 12
-    chapter: 12
-    chapter_title: "启发式评估原理与应用"
-    readings:
-      - "《交互设计：超越人机交互》第14、15章"
-    topic: 启发式评估原理与应用
-    content: |-
-      12.1 可用性客观评估标准引入；Nielsen十大可用性真理
-      12.2 启动 实验4(Exp4)，生生互评跨组走查日
-    exp_id: 4   # 对应实验4「启发式评估验证闭环」启动周
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 掌握以 Nielsen 十大原则为核心的启发式评估方法
-      ability: 能客观、高效地发现产品中违反可用性常理的高优先级问题
-    focus: "Nielsen 十大可用性原则的内涵与跨组专家级查漏法则"
-    difficulty: "摆脱主观喜好滤镜，严格对标原则定位并量化评价可用性障碍的严重程度"
-    ideology: "倡导严谨科学的研究态度，破除唯经验论的盲目设计评价"
-    teaching_method: "理论讲授、对照打分示范、各组互换原型进行专家检验"
-    supported_objectives: ["知识1", "知识3", "能力3", "素质1"]
-    task: "以评估专家身份对另一组的交互原型执行启发式走查，输出走查报告（含 Nielsen 原则编号、缺陷描述、严重级评定）。"
-    lessons:
-      - topic: 启发式评估原理与应用
-        objectives:
-          - 掌握 Nielsen 十大原则的启发式评估方法
-          - 能客观发现违反可用性常理的高优先级问题
-        steps:
-          - stage: 复习
-            summary: "回顾全流程——从痛点到原型的链路，引出需要客观评估"
-            minutes: 10
-          - stage: 导入
-            summary: "播放一段用户使用产品时频繁出错却找不到原因的录屏，引出系统化评估方法"
-            minutes: 10
-          - stage: 讲授
-            summary: "Nielsen 十大可用性原则逐条解析、启发式走查流程、缺陷严重级评定标准"
-            ideology: "倡导严谨科学的研究态度"
-            minutes: 70
-          - stage: 实践
-            summary: "启动 实验4(Exp4)——跨组互换原型，执行启发式走查评估"
-            minutes: 80
-          - stage: 小结
-            summary: "汇总各组走查发现，讨论高频可用性问题"
-            minutes: 10
-  - week: 13
-    chapter: 13
-    chapter_title: "对话与可操作测试法"
-    readings:
-      - "《精益 UX》Ch15"
-    topic: 对话与可操作测试法
-    content: |-
-      13.1 无硬件条件下的实验室降维版：出声思考(Think-Aloud)的科学执行
-      13.2 执行实地用户定性实验，深挖死角
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      knowledge: 掌握无硬件眼动仪等条件限制下的低成本测试利器——出声思考法
-      ability: 能够主持科学的用户操作与定性观察
-    focus: "Think-Aloud (出声思考法) 的规范主持技巧底线与不干扰原则"
-    difficulty: "在测试过程中抑制引导、纠正或暗示用户的下意识冲动，仅做纯粹的诱导发声与观察"
-    ideology: "保持客观中立的研究者精神，倾听并尊重少数群体的边缘体验困惑"
-    teaching_method: "理论讲授、主持过程正反面情景重现、实地组编组下放测试"
-    supported_objectives: ["知识1", "素质1", "素质3"]
-    task: "以主持人身份完成至少 3 人次 Think-Aloud 测试，提交测试录屏/录音、观察笔记及关键发现摘要。"
-    lessons:
-      - topic: 对话与可操作测试法
-        objectives:
-          - 掌握 Think-Aloud 的规范主持技巧
-          - 能主持科学的用户定性观察
-        steps:
-          - stage: 复习
-            summary: "回顾 W12 启发式走查发现，引出需真实用户验证"
-            minutes: 10
-          - stage: 导入
-            summary: "播放'引导式 vs 纯观察式'测试主持的正反面对比片段，引出科学测试规范"
-            minutes: 10
-          - stage: 讲授
-            summary: "Think-Aloud 出声思考法原理、主持规范（不干扰/不引导/不纠正）、观察记录方法"
-            ideology: "保持客观中立，倾听并尊重边缘体验困惑"
-            minutes: 70
-          - stage: 实践
-            summary: "实地组编组 Think-Aloud 测试——互为测试者与主持人"
-            minutes: 80
-          - stage: 小结
-            summary: "分享测试发现，讨论主持过程中的常见失误"
-            minutes: 10
-  - week: 14
-    chapter: 14
-    chapter_title: "数据复盘与作品库凝练"
-    readings:
-      - "《精益 UX》Ch16-17"
-    topic: 数据复盘与作品库凝练
-    content: |-
-      14.1 体验设计作品库的闭环故事梳理核心心法
-      14.2 收尾 实验4(Exp4)，总结测试痛点并定版前后旅程对比
-    hours_theory: 0
-    hours_practice: 4
-    teaching_requirements:
-      ability: 能够系统梳理并量化测试反馈
-      knowledge: 掌握交互体验从发现到验证再到优化的闭环叙事结构并制作展示资产
-    focus: "测试数据的质性归纳方法与基于痛点验证闭环的专业复盘叙事法则"
-    difficulty: "不仅呈现好看的最终结果，更能生动讲透从缺陷反馈到逻辑推倒重来、最终数据提升跌宕起伏的专业故事"
-    ideology: "将自我批判融入复盘过程，坦诚面对设计失误并展现持续迭代的发展价值观"
-    teaching_method: "理论讲授、作品集结构剖析、数据归纳实操、展板撰写辅导"
-    supported_objectives: ["知识1", "能力1", "素质1"]
-    task: "收尾 实验4(Exp4)——系统梳理走查+Think-Aloud 测试反馈，完成缺陷修正前后对比文档，撰写作品集复盘叙事（含数据证据链）。"
-    lessons:
-      - topic: 数据复盘与作品库凝练
-        objectives:
-          - 系统梳理并量化测试反馈
-          - 掌握闭环叙事结构与展示资产制作
-        steps:
-          - stage: 复习
-            summary: "回顾 W12-W13 测试发现，引出数据驱动的复盘方法论"
-            minutes: 10
-          - stage: 导入
-            summary: "展示两份作品集——仅展示最终效果 vs 完整讲述迭代故事，引出复盘叙事的价值"
-            minutes: 10
-          - stage: 讲授
-            summary: "质性数据归纳法、闭环叙事结构（痛点→假设→验证→迭代→证据）、作品集视觉呈现心法"
-            ideology: "坦诚面对设计失误，展现持续迭代的发展价值观"
-            minutes: 70
-          - stage: 实践
-            summary: "收尾 实验4(Exp4)——缺陷修正前后对比 + 作品集复盘叙事撰写"
-            minutes: 80
-          - stage: 小结
-            summary: "复盘叙事互评，部署路演准备"
-            minutes: 10
-  - week: 15
-    chapter: 15
-    chapter_title: "课程综合路演检查"
-    readings:
-      - "《交互设计精髓》全书综合复习"
-    topic: 课程综合路演检查
-    content: 15.1 学生最终交互单页的验收：侧重痛点挖掘到走查修改的闭环过程
-    hours_theory: 0        # ISSUE-004修复：W15路演周全为实践，无理论授课
-    hours_practice: 4      # 原 hours_theory:2 已并入实践学时
-    teaching_requirements:
-      method: 综合检验学生在一学期内对痛点洞察、AI协作原型、可用性验证与复盘闭环等核心课程目标的达成度
-    focus: "全链路交互设计与验证迭代项目的终极答辩呈现与同侪互评"
-    difficulty: "在限定时间内精准表述最核心的设计创新与商业洞察逻辑，回应即席尖锐提问"
-    ideology: "通过互评交流，培养虚心接受批评的专业风范以及欣赏他人优点的团队协作精神"
-    teaching_method: "实践路演、答辩陈述、专家质询、同侪互评"
-    supported_objectives: ["知识1", "能力1", "素质1", "素质3"]
-    task: "完成最终路演答辩——展示从痛点洞察到验证闭环的全过程，参与同侪互评，提交最终作品集文档。"
-    lessons:
-      - topic: 课程综合路演检查
-        objectives:
-          - 综合检验全链路交互设计能力
-          - 锻炼专业表达与即席应答能力
-        steps:
-          - stage: 实践
-            summary: "路演规则说明与评分标准发布"
-            minutes: 10
-          - stage: 实践
-            summary: "各组依次路演（每组 8-10 分钟陈述 + 5 分钟质询），同侪评分"
-            minutes: 150
-          - stage: 小结
-            summary: "综合点评、最佳项目颁奖、课程结业总结"
-            minutes: 20
+- week: 1
+  chapter: 1
+  chapter_title: "交互体系概论基础"
+  readings:
+  - "《交互设计：超越人机交互》第1、2章"
+  - "《交互设计精髓》Ch1-2"
+  topic: 交互体系概论基础
+  content: |-
+    1.1 交互与UX的概念与实际运用；可用性与体验目标
+    1.2 产品体验的逆向拆解实验
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 理解交互设计与用户体验的区别与联系，掌握核心可用性原则
+  focus: "交互设计的本质定义与可用性目标评估标准"
+  difficulty: "如何在具体产品分析中准确区分交互的易用性与整体体验感"
+  ideology: "结合本土互联网产品的出海成功案例，增强数字化创新自信"
+  teaching_method: "项目导引、案例分析、产品逆向体验拆解小组实战"
+  supported_objectives: ["知识1"]
+  task: "选取一款常用互联网产品，从可用性目标与体验目标两个维度进行逆向拆解分析，提交分析报告（约800字）。"
+  lessons:
+  - topic: 交互体系概论基础
+    objectives:
+    - 理解交互设计与用户体验的区别与联系
+    - 掌握核心可用性原则与体验目标评估标准
+    steps:
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 以日常交互失败案例引入，展示可用性与体验的差距
+        2. 明确本节课核心聚焦点：交互设计的本质定义与可用性目标评估标准
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 25
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：交互设计概念与实际运用、可用性目标（ISO 9241）、体验目标框架、Norman 设计心理学原则实战
+        2. 实践要点拆解：1.1 交互与UX的概念与实际运用；可用性与体验目标 1.2 产品体验的逆向拆解实验
+        3. 重难点突破：针对“如何在具体产品分析中准确区分交互的易用性与整体体验感”，采用案例剖析策略。
+        4. 支撑目标：理解交互设计与用户体验的区别与联系
+      ideology: "结合本土互联网产品出海案例，增强数字化创新自信"
+      minutes: 110
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：产品逆向体验拆解小组实战——分组选取产品，按可用性/体验双维度解剖
+        2. 核心任务目标：选取一款常用互联网产品，从可用性目标与体验目标两个维度进行逆向拆解分析，提交分析报告（约800字）。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 35
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：汇报各组拆解发现，总结可用性与体验的评估框架
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 2
+  chapter: 2
+  chapter_title: "人类认知与心智摩擦"
+  readings:
+  - "《交互设计：超越人机交互》第4章"
+  - "《交互设计精髓》Ch3"
+  topic: 人类认知与心智摩擦
+  content: |-
+    2.1 认知框架与记忆负荷优化实践；心智模型与界面隐喻
+    2.2 视觉热力与认知过载节点重构
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 深入理解人类认知局限与短时记忆负荷，掌握心智模型与界面隐喻的映射规律
+  focus: "心智模型匹配度与降低认知过载的设计法则"
+  difficulty: "洞察隐形心智摩擦节点并将抽象认知心理学应用于具体的交互重构"
+  ideology: "探讨无障碍设计与包容性设计，培养技术以人为本的同理心"
+  teaching_method: "项目导引、白板推演、热力图认知分析实践"
+  supported_objectives: ["知识1", "知识2"]
+  task: "选取一个存在认知过载的界面，绘制其认知热力图，标注摩擦节点并提出至少 3 条基于心智模型理论的重构建议。"
+  lessons:
+  - topic: 人类认知与心智摩擦
+    objectives:
+    - 深入理解人类认知局限与短时记忆负荷
+    - 掌握心智模型与界面隐喻的映射规律
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W01 可用性与体验目标框架
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 以一组'看似好用却令人抓狂'的界面案例引入，揭示隐形认知摩擦的存在
+        2. 明确本节课核心聚焦点：心智模型匹配度与降低认知过载的设计法则
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 15
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：认知框架（注意力/感知/记忆）的界面映射、Miller 法则、心智模型匹配与隐喻设计、格式塔在界面中的应用
+        2. 实践要点拆解：2.1 认知框架与记忆负荷优化实践；心智模型与界面隐喻 2.2 视觉热力与认知过载节点重构
+        3. 重难点突破：针对“洞察隐形心智摩擦节点并将抽象认知心理学应用于具体的交互重构”，采用案例剖析策略。
+        4. 支撑目标：深入理解人类认知局限与短时记忆负荷
+      ideology: "探讨无障碍与包容性设计，培养以人为本的同理心"
+      minutes: 110
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：视觉热力图认知分析——标注过载节点并推演重构方案
+        2. 核心任务目标：选取一个存在认知过载的界面，绘制其认知热力图，标注摩擦节点并提出至少 3 条基于心智模型理论的重构建议。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 35
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：总结认知负荷控制的设计法则
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 3
+  chapter: 3
+  chapter_title: "产品洞察与痛点切入"
+  readings:
+  - "《精益 UX》Ch1-4"
+  topic: 产品洞察与痛点切入
+  content: |-
+    3.1 定性调研原则；敏捷业务痛点发掘
+    3.2 启动 实验A(ExpA)，JTBD 深度访谈 AI 陪练
+  exp_id: 'A'   # 对应实验A「JTBD深度访谈AI陪练」启动周
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 掌握精益用户体验研究中的定性调研方法
+    ability: 能敏锐挖掘用户痛点与业务机会
+  focus: "聚焦真正痛点而非表面现象的定性调研原则与 JTBD 方法"
+  difficulty: "跳出现有解决方案的框架，通过深度访谈准确捕获用户待办目标(JTBD)"
+  ideology: "强调同理心在数字时代的重要性，以解决社会真实问题为设计出发点"
+  teaching_method: "项目导引、访谈技巧示范、微调研方案设计实录"
+  supported_objectives: ["知识1"]
+  task: "以小组为单位完成 5 人次 JTBD 微访谈，输出痛点洞察报告，包含访谈记录摘要、痛点归纳与机会点排序。"
+  lessons:
+  - topic: 产品洞察与痛点切入
+    objectives:
+    - 掌握精益 UX 定性调研方法
+    - 能敏锐挖掘用户痛点与业务机会
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W02 认知摩擦，引出用调研发现真实痛点的必要性
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 展示一款'设计师觉得完美但用户频繁弃用'的产品，引出真实痛点挖掘的重要性
+        2. 明确本节课核心聚焦点：聚焦真正痛点而非表面现象的定性调研原则与 JTBD 方法
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：Lean UX 定性调研原则实操、JTBD 方法论、深度访谈技巧（5 Why / 开放式提问）、痛点分级
+        2. 实践要点拆解：3.1 定性调研原则；敏捷业务痛点发掘 3.2 启动 实验A(ExpA)，JTBD 深度访谈 AI 陪练
+        3. 重难点突破：针对“跳出现有解决方案的框架，通过深度访谈准确捕获用户待办目标(JTBD)”，采用案例剖析策略。
+        4. 支撑目标：掌握精益 UX 定性调研方法
+      ideology: "强调同理心在数字时代的重要性，以社会真实问题为设计出发点"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：启动 实验A(ExpA)——与 AI 陪练进行 JTBD 深度访谈
+        2. 核心任务目标：以小组为单位完成 5 人次 JTBD 微访谈，输出痛点洞察报告，包含访谈记录摘要、痛点归纳与机会点排序。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：点评各组调研方案，布置课后完成 5 人次访谈
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 4
+  chapter: 4
+  chapter_title: "假设驱动与MVP构建"
+  readings:
+  - "《精益 UX》Ch10-12"
+  topic: 假设驱动与MVP构建
+  content: |-
+    4.1 抛弃重型 Persona，假设驱动与极简场景的界定
+    4.2 启动并完成 实验B(ExpB)，制作 Proto-Persona 用户画像
+  exp_id: 'B'   # 对应实验B「Proto-Persona画像制作」启动周
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 应用假设驱动的敏捷设计思维
+    ability: 能界定极简场景并输出最小可行性产品(MVP)需求清单
+  focus: "从痛点洞察到假设声明与 MVP 核心功能边界的收敛"
+  difficulty: "在发散的需求中果断做减法，精确定义仅验证核心假设的 MVP 范围"
+  ideology: "培养实事求是的科学试错精神，防范盲目大干快上的工程浪费风险"
+  teaching_method: "项目导引、案例复盘、MVP 清单讨论与决策"
+  supported_objectives: ["知识1"]
+  task: "基于 W03 调研成果，撰写假设声明（Proto-Persona + Value Proposition），输出 MVP 功能优先级清单（MoSCoW 法）。"
+  lessons:
+  - topic: 假设驱动与MVP构建
+    objectives:
+    - 应用假设驱动的敏捷设计思维
+    - 能界定极简场景并输出 MVP 需求清单
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. JTBD 访谈方法，提炼共性痛点
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 15
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 对比'功能臃肿的失败产品 vs 极简 MVP 的成功案例'，引出做减法的智慧
+        2. 明确本节课核心聚焦点：从痛点洞察到假设声明与 MVP 核心功能边界的收敛
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：假设驱动设计实践、Proto-Persona vs 重型 Persona、MVP 边界收敛方法（MoSCoW）
+        2. 实践要点拆解：4.1 抛弃重型 Persona，假设驱动与极简场景的界定 4.2 启动并完成 实验B(ExpB)，制作 Proto-Persona 用户画像
+        3. 重难点突破：针对“在发散的需求中果断做减法，精确定义仅验证核心假设的 MVP 范围”，采用案例剖析策略。
+        4. 支撑目标：应用假设驱动的敏捷设计思维
+      ideology: "培养实事求是的科学试错精神，防范工程浪费"
+      minutes: 65
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：启动并完成 实验B(ExpB)——制作 Proto-Persona 用户画像，输出 MVP 清单
+        2. 核心任务目标：基于 W03 调研成果，撰写假设声明（Proto-Persona + Value Proposition），输出 MVP 功能优先级清单（MoSCoW 法）。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：各组 MVP 清单互评，强调做减法的纪律
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 5
+  chapter: 5
+  chapter_title: "目标导向路径与架构"
+  readings:
+  - "《交互设计精髓》Ch4-5"
+  topic: 目标导向路径与架构
+  content: |-
+    5.1 心流机制；前端页面状态流式拆解与编排
+    5.2 启动 实验2(Exp2)，起草应用状态流转白板图
+  exp_id: 2     # 对应实验2「状态机映射与视觉体系」启动周
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 理解心流状态的触发条件，掌握前端页面状态机的流式拆解手法与逻辑编排能力
+  focus: "目标导向的流式架构图设计与界面状态机的完整闭环设计"
+  difficulty: "抛弃静态页面思维，全面梳理考虑各种临界和中间状态的动态跳转逻辑"
+  ideology: "在架构规划中坚持系统观念与全局视野，培养严谨的逻辑推理能力"
+  teaching_method: "项目导引、系统蓝图拆解、状态机白板绘图实操"
+  supported_objectives: ["知识1", "知识2"]
+  task: "将 MVP 清单转化为完整的页面状态流转架构图（含正常流 + 至少 3 个异常分支），以白板图或 FigJam 形式提交。"
+  lessons:
+  - topic: 目标导向路径与架构
+    objectives:
+    - 理解心流状态的触发条件
+    - 掌握前端页面状态机的流式拆解与编排
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W04 MVP 清单，引出需要逻辑架构支撑功能落地
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 演示一个看似完整但用户频繁迷路的应用流程，暴露缺乏状态机规划的混乱
+        2. 明确本节课核心聚焦点：目标导向的流式架构图设计与界面状态机的完整闭环设计
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：心流机制与沉浸设计实战、目标导向设计方法论实操、状态机拆解（正常流/异常流/空状态）
+        2. 实践要点拆解：5.1 心流机制；前端页面状态流式拆解与编排 5.2 启动 实验2(Exp2)，起草应用状态流转白板图
+        3. 重难点突破：针对“抛弃静态页面思维，全面梳理考虑各种临界和中间状态的动态跳转逻辑”，采用案例剖析策略。
+        4. 支撑目标：理解心流状态的触发条件
+      ideology: "培养系统观念与全局视野，强调严谨逻辑推理"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：启动 实验2(Exp2)——白板绘制应用状态流转架构图，互查异常分支完备性
+        2. 核心任务目标：将 MVP 清单转化为完整的页面状态流转架构图（含正常流 + 至少 3 个异常分支），以白板图或 FigJam 形式提交。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：点评典型架构图，预告视觉系统构建
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 6
+  chapter: 6
+  chapter_title: "容器工程化基础映射"
+  readings:
+  - "《数字媒体交互设计》项目2"
+  topic: 容器工程化基础映射
+  content: |-
+    6.1 DOM视觉映射机理；Figma AutoLayout 向 CSS Flex 的底层转化基础
+    6.2 在 Figma 搭建严苛响应式组件框架
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 理解设计工具与前端开发的映射机理
+    ability: 掌握从 AutoLayout 容器思维到响应式组件框架的构建
+  focus: "DOM 结构思维与 Figma AutoLayout/CSS Flex 的原子映射规律"
+  difficulty: "摆脱自由画板的绘图习惯，建立严苛的盒模型容器嵌套工程化意识"
+  ideology: "认识工程标准化的降本增效价值，培养遵守规则、精进技艺的工匠精神"
+  teaching_method: "项目导引、设计系统工程化演示、Figma 容器搭建测验"
+  supported_objectives: ["知识1", "能力2"]
+  task: "在 Figma 中使用 AutoLayout 搭建一套 3 级响应式组件框架（卡片/列表/导航），输出组件标注截图。"
+  lessons:
+  - topic: 容器工程化基础映射
+    objectives:
+    - 理解设计工具与前端开发的映射机理
+    - 掌握 AutoLayout 到 CSS Flex 的转化逻辑
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W05 状态流转架构，引出视觉落地需要工程化容器思维
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 对比'自由画板式设计稿'在不同屏幕尺寸上崩塌的效果，引出容器工程化思维
+        2. 明确本节课核心聚焦点：DOM 结构思维与 Figma AutoLayout/CSS Flex 的原子映射规律
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：DOM 视觉映射、盒模型/Flex 原理实操、Figma AutoLayout 与 CSS 的对应关系
+        2. 实践要点拆解：6.1 DOM视觉映射机理；Figma AutoLayout 向 CSS Flex 的底层转化基础 6.2 在 Figma 搭建严苛响应式组件框架
+        3. 重难点突破：针对“摆脱自由画板的绘图习惯，建立严苛的盒模型容器嵌套工程化意识”，采用案例剖析策略。
+        4. 支撑目标：理解设计工具与前端开发的映射机理
+      ideology: "遵守规则、精进技艺的工匠精神"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：Figma 严苛响应式组件框架搭建——卡片/列表/导航三级嵌套
+        2. 核心任务目标：在 Figma 中使用 AutoLayout 搭建一套 3 级响应式组件框架（卡片/列表/导航），输出组件标注截图。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：组件框架互评，强调容器思维的工程纪律
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 7
+  chapter: 7
+  chapter_title: "视觉重构：层级与色彩"
+  readings:
+  - "《Refactoring UI》Hierarchy is Everything"
+  - "《Refactoring UI》Working with Color"
+  topic: 视觉重构：层级与色彩
+  content: |-
+    7.1 利用基础排版字重与空间感建立层级；HSL系统解析
+    7.2 为干瘪骨架填入视觉系统标签 (Tokens)
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 掌握无需依赖图形装饰、仅靠空间留白和字重构建信息层级的方法
+    ability: 熟练建立科学的色彩 Token 系统
+  focus: "重构级视觉架构：排版/留白控制以及基于 HSL 系统的层级分配"
+  difficulty: "克制过度设计的冲动，精准配置 Design Tokens 以实现系统的视觉一致性"
+  ideology: "提倡简洁、清晰、高信息密度的设计美学，避免数字垃圾与视觉污染"
+  teaching_method: "项目导引、重构对比赏析、视觉 Token 系统推演实践"
+  supported_objectives: ["知识1", "能力1", "能力2"]
+  task: "为项目原型建立完整的 Design Token 体系（Typography × 4 级、Color × HSL 语义色、Spacing × 4 级），以 Figma Style Guide 形式输出。"
+  lessons:
+  - topic: 视觉重构：层级与色彩
+    objectives:
+    - 掌握仅靠排版与留白构建信息层级的方法
+    - 熟练建立科学的色彩 Token 系统
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W06 容器框架，引出骨架还需视觉血肉
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 对比一个'五彩斑斓'的杂乱界面与经过视觉层级重构后的清爽版本
+        2. 明确本节课核心聚焦点：重构级视觉架构：排版/留白控制以及基于 HSL 系统的层级分配
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：Refactoring UI 核心法则运用、排版字重层级、HSL 色彩系统、Design Token 体系构建
+        2. 实践要点拆解：7.1 利用基础排版字重与空间感建立层级；HSL系统解析 7.2 为干瘪骨架填入视觉系统标签 (Tokens)
+        3. 重难点突破：针对“克制过度设计的冲动，精准配置 Design Tokens 以实现系统的视觉一致性”，采用案例剖析策略。
+        4. 支撑目标：掌握仅靠排版与留白构建信息层级的方法
+      ideology: "提倡简洁、高信息密度的设计美学"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：为干瘪骨架填入视觉 Token——Typography/Color/Spacing 三维系统搭建
+        2. 核心任务目标：为项目原型建立完整的 Design Token 体系（Typography × 4 级、Color × HSL 语义色、Spacing × 4 级），以 Figma Style Guide 形式输出。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：互评 Token 系统的一致性与可扩展性
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 8
+  chapter: 8
+  chapter_title: "视觉重构：深度与防错"
+  readings:
+  - "《Refactoring UI》Creating Depth"
+  - "《Refactoring UI》Finishing Touches"
+  topic: 视觉重构：深度与防错
+  content: |-
+    8.1 光影深度营造实操；处理极限/错误边界与情境反馈
+    8.2 收尾 实验2(Exp2)，建立视觉 Token Prompt 集
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 掌握界面物理深度的构建手段
+    ability: 重点理解并补全极端情境（空状态、报错等）的防错与宽容度设计
+  focus: "物理深度的前端映射逻辑与边缘状态(Edge Cases)的防御性设计"
+  difficulty: "穷尽交互旅程中的异常分支流，并为其提供优雅且具安抚感的设计反馈"
+  ideology: "强调防范暗黑模式与诱导点击，坚守设计的道德底线与用户信任"
+  teaching_method: "项目导引、边缘错误案例分析、防错页面设计实操"
+  supported_objectives: ["知识1", "能力1", "能力2"]
+  task: "补全项目中至少 5 个边缘状态页面（空状态/加载中/报错/无网络/首次使用），建立视觉 Token Prompt 集并完成 实验2(Exp2) 交付。"
+  lessons:
+  - topic: 视觉重构：深度与防错
+    objectives:
+    - 掌握界面物理深度的构建手段
+    - 理解并补全极端情境的防错设计
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W07 Token 体系，引出视觉深度与异常状态空白
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 展示'友好型报错页面 vs 冷冰冰 404'的对比案例，引出防错设计的温度
+        2. 明确本节课核心聚焦点：物理深度的前端映射逻辑与边缘状态(Edge Cases)的防御性设计
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：光影深度原则（elevation/shadow）、边缘状态穷举法、防错设计与宽容度原则
+        2. 实践要点拆解：8.1 光影深度营造实操；处理极限/错误边界与情境反馈 8.2 收尾 实验2(Exp2)，建立视觉 Token Prompt 集
+        3. 重难点突破：针对“穷尽交互旅程中的异常分支流，并为其提供优雅且具安抚感的设计反馈”，采用案例剖析策略。
+        4. 支撑目标：掌握界面物理深度的构建手段
+      ideology: "防范暗黑模式，坚守设计道德底线"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：收尾 实验2(Exp2)——补全边缘状态页面 + 建立视觉 Token Prompt 集
+        2. 核心任务目标：补全项目中至少 5 个边缘状态页面（空状态/加载中/报错/无网络/首次使用），建立视觉 Token Prompt 集并完成 实验2(Exp2) 交付。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：实验2(Exp2) 交付互评，预告 AI 原型生成
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 9
+  chapter: 9
+  chapter_title: "AI 原型协作结构化"
+  readings:
+  - "《数字媒体交互设计》项目4-5"
+  topic: AI 原型协作结构化
+  content: |-
+    9.1 大语言模型的人机协同系统架构应用；界面生成 Prompt 工程
+    9.2 启动 实验3(Exp3)，通过 v0 生成应用初始视图壳层
+  exp_id: 3     # 对应实验3「AI 原型与创意动效生成」启动周
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 理解 AI 生成代码的边界与约束，掌握界面级 Prompt 结构化工程
+    ability: 能高效驱动 AI 工具生成高保真交互壳层
+  focus: "Vibe Coding 理念与实操：基于确定的视觉/逻辑基座，向大模型输出结构化 Prompt"
+  difficulty: "将前期输出的流转图与 Tokens 精准转化为大模型可懂的系统级指令语料"
+  ideology: "紧跟国家人工智能发展战略，培养运用新兴工具拥抱技术变革的前沿意识"
+  teaching_method: "项目导引、AI 生成翻车案例排雷、结构化 Prompt 演练"
+  supported_objectives: ["知识1", "能力1", "素质2"]
+  task: "将 Token 体系与状态流转图转化为结构化 Prompt，通过 v0/CodeGeeX 生成应用初始视图壳层，提交 Prompt 原文 + 生成结果截图。"
+  lessons:
+  - topic: AI 原型协作结构化
+    objectives:
+    - 理解 AI 生成代码的边界与约束
+    - 掌握界面级 Prompt 结构化工程
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W08 Token Prompt 集，引出如何让 AI 理解我们的设计意图
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 现场演示向 AI 随意下达模糊指令后的翻车结果，引出结构化 Prompt 的必要性
+        2. 明确本节课核心聚焦点：Vibe Coding 理念与实操：基于确定的视觉/逻辑基座，向大模型输出结构化 Prompt
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：Vibe Coding 理念与实操、LLM 代码生成的约束边界、System Prompt 结构化方法、常见翻车模式与排雷
+        2. 实践要点拆解：9.1 大语言模型的人机协同系统架构应用；界面生成 Prompt 工程 9.2 启动 实验3(Exp3)，通过 v0 生成应用初始视图壳层
+        3. 重难点突破：针对“将前期输出的流转图与 Tokens 精准转化为大模型可懂的系统级指令语料”，采用案例剖析策略。
+        4. 支撑目标：理解 AI 生成代码的边界与约束
+      ideology: "紧跟国家 AI 发展战略，培养拥抱技术变革的前沿意识"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：启动 实验3(Exp3)——用结构化 Prompt 驱动 v0 生成应用初始视图壳层
+        2. 核心任务目标：将 Token 体系与状态流转图转化为结构化 Prompt，通过 v0/CodeGeeX 生成应用初始视图壳层，提交 Prompt 原文 + 生成结果截图。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：对比各组 Prompt 质量与生成效果，总结最佳实践
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 10
+  chapter: 10
+  chapter_title: "前沿动效组件融入"
+  readings:
+  - "《交互设计精髓》Ch11"
+  topic: 前沿动效组件融入
+  content: |-
+    10.1 前端交互特效融合机制与实操；微观反馈的理论支撑
+    10.2 AI代码助手驱动实现跟随/粒子等基础创意动效
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 认知微动效在提供反馈与情感化设计中的重要作用
+    ability: 掌握通过 AI 辅助植入创意前端动效的协作流
+  focus: "微交互反馈的作用机制与创意动效代码的组件级融合方法"
+  difficulty: "在保证核心主线流畅的前提下，以无缝不违和的方式接入外部复杂特效组件"
+  ideology: "在艺术表现中融入创新意识，展现中国新一代数字设计师的审美创造力"
+  teaching_method: "项目导引、优秀动效组件赏析、AI 驱动特效接入实拍"
+  supported_objectives: ["能力1", "素质2"]
+  task: "为项目原型植入至少 2 个创意微动效（如跟手粒子/页面转场/hover 反馈），提交动效演示录屏与 AI 协作对话截图。"
+  lessons:
+  - topic: 前沿动效组件融入
+    objectives:
+    - 认知微动效在反馈与情感化设计中的作用
+    - 掌握 AI 辅助植入创意动效的协作流
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W09 AI 壳层生成成果，引出视觉增强需求
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 播放同一应用的无动效版与精雕动效版录屏对比，感受微交互的生命力差异
+        2. 明确本节课核心聚焦点：微交互反馈的作用机制与创意动效代码的组件级融合方法
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：微交互反馈理论（Saffer 模型）、动效组件融合机制、AI 动效代码协作流
+        2. 实践要点拆解：10.1 前端交互特效融合机制与实操；微观反馈的理论支撑 10.2 AI代码助手驱动实现跟随/粒子等基础创意动效
+        3. 重难点突破：针对“在保证核心主线流畅的前提下，以无缝不违和的方式接入外部复杂特效组件”，采用案例剖析策略。
+        4. 支撑目标：认知微动效在反馈与情感化设计中的作用
+      ideology: "融入创新意识，展现审美创造力"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：AI 驱动植入跟随/粒子/转场等创意动效组件
+        2. 核心任务目标：为项目原型植入至少 2 个创意微动效（如跟手粒子/页面转场/hover 反馈），提交动效演示录屏与 AI 协作对话截图。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：动效演示互评，预告排障与兜底
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 11
+  chapter: 11
+  chapter_title: "逻辑排障与兜底策略"
+  readings:
+  - "《交互设计精髓》Ch15"
+  topic: 逻辑排障与兜底策略
+  content: |-
+    11.1 本地大模型代码辅助阅读规律；混合保真度演示机制
+    11.2 收尾 实验3(Exp3)，通过Figma修复串联断裂的状态
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    ability: 具备基本的代码辅助阅读自检能力
+    knowledge: 掌握大模型陷入死循环时的兜底降级方案与混合保真测试准备工作
+  focus: "利用大语言模型辅助排错的工程嗅觉与混合保真度的降级策略"
+  difficulty: "面对 AI 生成的错乱耦合代码，能冷静判断断点并采用手工降级方案兜底串联"
+  ideology: "树立应对技术不确定性的韧性与抗压精神，不盲从 AI 输出结果"
+  teaching_method: "项目导引、重度 Bug 抢救实演、混合保真兜底演练"
+  supported_objectives: ["知识1", "素质2"]
+  task: "完成 实验3(Exp3) 交付——AI 生成原型的最终串联调试，对无法解决的断点采用 Figma 混合保真兜底，提交排障日志。"
+  lessons:
+  - topic: 逻辑排障与兜底策略
+    objectives:
+    - 具备基本的代码辅助阅读自检能力
+    - 掌握 AI 死循环时的兜底降级方案
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W10 动效融入成果，检查各组项目完整度
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 展示一个 AI 生成代码陷入死循环的真实案例，引出冷静排障与兜底的必要性
+        2. 明确本节课核心聚焦点：利用大语言模型辅助排错的工程嗅觉与混合保真度的降级策略
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：LLM 辅助排错工程嗅觉训练、常见耦合断点判断、混合保真度降级策略（代码+Figma 拼接）
+        2. 实践要点拆解：11.1 本地大模型代码辅助阅读规律；混合保真度演示机制 11.2 收尾 实验3(Exp3)，通过Figma修复串联断裂的状态
+        3. 重难点突破：针对“面对 AI 生成的错乱耦合代码，能冷静判断断点并采用手工降级方案兜底串联”，采用案例剖析策略。
+        4. 支撑目标：具备基本的代码辅助阅读自检能力
+      ideology: "树立技术韧性，不盲从 AI 输出"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：收尾 实验3(Exp3)——重度 Bug 抢救 + Figma 混合保真兜底串联
+        2. 核心任务目标：完成 实验3(Exp3) 交付——AI 生成原型的最终串联调试，对无法解决的断点采用 Figma 混合保真兜底，提交排障日志。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：排障经验分享，预告可用性评估
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 12
+  chapter: 12
+  chapter_title: "启发式评估原理与应用"
+  readings:
+  - "《交互设计：超越人机交互》第14、15章"
+  topic: 启发式评估原理与应用
+  content: |-
+    12.1 可用性客观评估标准实战导入；Nielsen十大可用性真理
+    12.2 启动 实验4(Exp4)，生生互评跨组走查日
+  exp_id: 4     # 对应实验4「启发式评估验证闭环」启动周
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 掌握以 Nielsen 十大原则为核心的启发式评估方法
+    ability: 能客观、高效地发现产品中违反可用性常理的高优先级问题
+  focus: "Nielsen 十大可用性原则的内涵与跨组专家级查漏法则"
+  difficulty: "摆脱主观喜好滤镜，严格对标原则定位并量化评价可用性障碍的严重程度"
+  ideology: "倡导严谨科学的研究态度，破除唯经验论的盲目设计评价"
+  teaching_method: "项目导引、对照打分示范、各组互换原型进行专家检验"
+  supported_objectives: ["知识1", "知识3", "能力3", "素质1"]
+  task: "以评估专家身份对另一组的交互原型执行启发式走查，输出走查报告（含 Nielsen 原则编号、缺陷描述、严重级评定）。"
+  lessons:
+  - topic: 启发式评估原理与应用
+    objectives:
+    - 掌握 Nielsen 十大原则的启发式评估方法
+    - 能客观发现违反可用性常理的高优先级问题
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾全流程——从痛点到原型的链路，引出需要客观评估
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 播放一段用户使用产品时频繁出错却找不到原因的录屏，引出系统化评估方法
+        2. 明确本节课核心聚焦点：Nielsen 十大可用性原则的内涵与跨组专家级查漏法则
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：Nielsen 十大可用性原则实战对照、启发式走查流程、缺陷严重级评定标准
+        2. 实践要点拆解：12.1 可用性客观评估标准实战导入；Nielsen十大可用性真理 12.2 启动 实验4(Exp4)，生生互评跨组走查日
+        3. 重难点突破：针对“摆脱主观喜好滤镜，严格对标原则定位并量化评价可用性障碍的严重程度”，采用案例剖析策略。
+        4. 支撑目标：掌握 Nielsen 十大原则的启发式评估方法
+      ideology: "倡导严谨科学的研究态度"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：启动 实验4(Exp4)——跨组互换原型，执行启发式走查评估
+        2. 核心任务目标：以评估专家身份对另一组的交互原型执行启发式走查，输出走查报告（含 Nielsen 原则编号、缺陷描述、严重级评定）。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：汇总各组走查发现，讨论高频可用性问题
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 13
+  chapter: 13
+  chapter_title: "对话与可操作测试法"
+  readings:
+  - "《精益 UX》Ch15"
+  topic: 对话与可操作测试法
+  content: |-
+    13.1 无硬件条件下的实验室降维版：出声思考(Think-Aloud)的科学执行
+    13.2 执行实地用户定性实验，深挖死角
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    knowledge: 掌握无硬件眼动仪等条件限制下的低成本测试利器——出声思考法
+    ability: 能够主持科学的用户操作与定性观察
+  focus: "Think-Aloud (出声思考法) 的规范主持技巧底线与不干扰原则"
+  difficulty: "在测试过程中抑制引导、纠正或暗示用户的下意识冲动，仅做纯粹的诱导发声与观察"
+  ideology: "保持客观中立的研究者精神，倾听并尊重少数群体的边缘体验困惑"
+  teaching_method: "项目导引、主持过程正反面情景重现、实地组编组下放测试"
+  supported_objectives: ["知识1", "素质1", "素质3"]
+  task: "以主持人身份完成至少 3 人次 Think-Aloud 测试，提交测试录屏/录音、观察笔记及关键发现摘要。"
+  lessons:
+  - topic: 对话与可操作测试法
+    objectives:
+    - 掌握 Think-Aloud 的规范主持技巧
+    - 能主持科学的用户定性观察
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W12 启发式走查发现，引出需真实用户验证
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 播放'引导式 vs 纯观察式'测试主持的正反面对比片段，引出科学测试规范
+        2. 明确本节课核心聚焦点：Think-Aloud (出声思考法) 的规范主持技巧底线与不干扰原则
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：Think-Aloud 出声思考法实操、主持规范（不干扰/不引导/不纠正）、观察记录方法
+        2. 实践要点拆解：13.1 无硬件条件下的实验室降维版：出声思考(Think-Aloud)的科学执行 13.2 执行实地用户定性实验，深挖死角
+        3. 重难点突破：针对“在测试过程中抑制引导、纠正或暗示用户的下意识冲动，仅做纯粹的诱导发声与观察”，采用案例剖析策略。
+        4. 支撑目标：掌握 Think-Aloud 的规范主持技巧
+      ideology: "保持客观中立，倾听并尊重边缘体验困惑"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：实地组编组 Think-Aloud 测试——互为测试者与主持人
+        2. 核心任务目标：以主持人身份完成至少 3 人次 Think-Aloud 测试，提交测试录屏/录音、观察笔记及关键发现摘要。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：分享测试发现，讨论主持过程中的常见失误
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 14
+  chapter: 14
+  chapter_title: "数据复盘与作品库凝练"
+  readings:
+  - "《精益 UX》Ch16-17"
+  topic: 数据复盘与作品库凝练
+  content: |-
+    14.1 体验设计作品库的闭环故事梳理核心心法
+    14.2 收尾 实验4(Exp4)，总结测试痛点并定版前后旅程对比
+  hours_theory: 0
+  hours_practice: 4
+  teaching_requirements:
+    ability: 能够系统梳理并量化测试反馈
+    knowledge: 掌握交互体验从发现到验证再到优化的闭环叙事结构并制作展示资产
+  focus: "测试数据的质性归纳方法与基于痛点验证闭环的专业复盘叙事法则"
+  difficulty: "不仅呈现好看的最终结果，更能生动讲透从缺陷反馈到逻辑推倒重来、最终数据提升跌宕起伏的专业故事"
+  ideology: "将自我批判融入复盘过程，坦诚面对设计失误并展现持续迭代的发展价值观"
+  teaching_method: "项目导引、作品集结构剖析、数据归纳实操、展板撰写辅导"
+  supported_objectives: ["知识1", "能力1", "素质1"]
+  task: "收尾 实验4(Exp4)——系统梳理走查+Think-Aloud 测试反馈，完成缺陷修正前后对比文档，撰写作品集复盘叙事（含数据证据链）。"
+  lessons:
+  - topic: 数据复盘与作品库凝练
+    objectives:
+    - 系统梳理并量化测试反馈
+    - 掌握闭环叙事结构与展示资产制作
+    steps:
+    - stage: 复习
+      summary: |-
+        上次课知识回顾:
+        1. 回顾 W12-W13 测试发现，引出数据驱动的复盘方法论
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
+      minutes: 10
+    - stage: 导入
+      summary: |-
+        课程情境导入:
+        1. 展示两份作品集——仅展示最终效果 vs 完整讲述迭代故事，引出复盘叙事的价值
+        2. 明确本节课核心聚焦点：测试数据的质性归纳方法与基于痛点验证闭环的专业复盘叙事法则
+        3. 激发学生学习动机与探索兴趣。
+      minutes: 10
+    - stage: 讲授
+      summary: |-
+        核心方法与实操解析:
+        1. 实训主线：质性数据归纳法演练、闭环叙事结构（痛点→假设→验证→迭代→证据）、作品集视觉呈现心法
+        2. 实践要点拆解：14.1 体验设计作品库的闭环故事梳理核心心法 14.2 收尾 实验4(Exp4)，总结测试痛点并定版前后旅程对比
+        3. 重难点突破：针对“不仅呈现好看的最终结果，更能生动讲透从缺陷反馈到逻辑推倒重来、最终数据提升跌宕起伏的专业故事”，采用案例剖析策略。
+        4. 支撑目标：系统梳理并量化测试反馈
+      ideology: "坦诚面对设计失误，展现持续迭代的发展价值观"
+      minutes: 70
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：收尾 实验4(Exp4)——缺陷修正前后对比 + 作品集复盘叙事撰写
+        2. 核心任务目标：收尾 实验4(Exp4)——系统梳理走查+Think-Aloud 测试反馈，完成缺陷修正前后对比文档，撰写作品集复盘叙事（含数据证据链）。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 80
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：复盘叙事互评，部署路演准备
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 10
+- week: 15
+  chapter: 15
+  chapter_title: "课程综合路演检查"
+  readings:
+  - "《交互设计精髓》全书综合复习"
+  topic: 课程综合路演检查
+  content: 15.1 学生最终交互单页的验收：侧重痛点挖掘到走查修改的闭环过程
+  hours_theory: 0          # ISSUE-004修复：W15路演周全为实践，无理论授课
+  hours_practice: 4        # 原 hours_theory:2 已并入实践学时
+  teaching_requirements:
+    method: 综合检验学生在一学期内对痛点洞察、AI协作原型、可用性验证与复盘闭环等核心课程目标的达成度
+  focus: "全链路交互设计与验证迭代项目的终极答辩呈现与同侪互评"
+  difficulty: "在限定时间内精准表述最核心的设计创新与商业洞察逻辑，回应即席尖锐提问"
+  ideology: "通过互评交流，培养虚心接受批评的专业风范以及欣赏他人优点的团队协作精神"
+  teaching_method: "实践路演、答辩陈述、专家质询、同侪互评"
+  supported_objectives: ["知识1", "能力1", "素质1", "素质3"]
+  task: "完成最终路演答辩——展示从痛点洞察到验证闭环的全过程，参与同侪互评，提交最终作品集文档。"
+  lessons:
+  - topic: 课程综合路演检查
+    objectives:
+    - 综合检验全链路交互设计能力
+    - 锻炼专业表达与即席应答能力
+    steps:
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：路演规则说明与评分标准发布
+        2. 核心任务目标：完成最终路演答辩——展示从痛点洞察到验证闭环的全过程，参与同侪互评，提交最终作品集文档。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 10
+    - stage: 实践
+      summary: |-
+        课堂实践与操作训练:
+        1. 实践任务指导：各组依次路演（每组 8-10 分钟陈述 + 5 分钟质询），同侪评分
+        2. 核心任务目标：完成最终路演答辩——展示从痛点洞察到验证闭环的全过程，参与同侪互评，提交最终作品集文档。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
+      minutes: 150
+    - stage: 小结
+      summary: |-
+        知识凝练与教学反思:
+        1. 归纳梳理：综合点评、最佳项目颁奖、课程结业总结
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
+      minutes: 20
 
 experiments:
-  - id: 1
-    name: 概念设计与交互主线 (Concept & Flow)
-    type: 验证性
-    hours: 6
-    group_size: 1
-    requirement: 必做
-    summary: 运用敏捷用户体验研究的核心定性方法确立假设及 MVP，并通过目标导向思路建立逻辑流与线框图，完成交互应用的早期概念设计。
-    objectives: |
-      （一）运用精益 UX 定性调研方法（JTBD 深度访谈）确立痛点假设与 MVP 功能边界。
-      （二）能够运用目标导向设计思路，输出包含核心心智模型与页面流向的状态流转架构图。
-      （三）掌握 Proto-Persona 与假设声明的撰写方法，完成从痛点洞察到 MVP 的收敛设计。
-    equipment: |
-      1. 硬件：个人计算机（学校机房或自备）
-      2. 软件：Windows 10+；Figma / FigJam（线框图）、笔记软件（访谈记录）
-    requirements: |
-      （一）须以小组为单位完成 5 人次 JTBD 微访谈，输出访谈记录摘要与痛点洞察报告。
-      （二）须撰写假设声明（Proto-Persona + Value Proposition），输出 MVP 功能优先级清单（MoSCoW 法）。
-      （三）须产出包含正常流及至少 3 个异常分支的完整页面状态流转架构图。
-    methods: |
-      1. 进行早期定性研究与业务痛点发掘（5 Why 深度访谈法）。
-      2. 基于 JTBD 洞察撰写假设声明，确立交互应用的最小可行性清单（MVP）。
-      3. 将 MVP 清单转化为包含核心心智模型与页面流向的状态流转白板图/线框草图。
-    conclusions: |
-      总结 JTBD 访谈中挖掘到的核心用户痛点与价值假设，说明 MVP 功能优先级的取舍逻辑，反思从发散调研到收敛设计决策的思维过程。
-    questions: |
-      （一）JTBD（Jobs-to-be-done）方法与传统 Persona 方法相比有何核心差异？在什么场景下 JTBD 更具优势？
-      （二）MoSCoW 优先级划分法的四个维度各代表什么含义？如何避免"Must Have"过多导致 MVP 失焦？
-  - id: 2
-    name: 状态机映射与视觉体系 (States & System)
-    type: 综合性
-    hours: 6
-    group_size: 1
-    requirement: 必做
-    summary: 完成系统级页面状态流转架构及前端实现的原子级设计 Token 体系建立，并补全极端情境边界的防错设计。
-    objectives: |
-      （一）能将粗略线框图转化为具有严苛响应式组件框架的骨架，建立盒模型容器工程化意识。
-      （二）掌握基于 HSL 系统与光影深度规则的 Design Token 体系构建方法，实现视觉一致性。
-      （三）能穷举极端状态与错误边界，为各类边缘情境设计优雅的防错与宽容度反馈。
-    equipment: |
-      1. 硬件：个人计算机（学校机房或自备）
-      2. 软件：Windows 10+；Figma（AutoLayout 组件系统 + Variables）
-    requirements: |
-      （一）须产出覆盖正常流与至少 5 个边缘状态（空状态/加载中/报错/无网络/首次使用）的完整状态机。
-      （二）须建立完整的 Design Token 体系（Typography × 4 级、Color × HSL 语义色、Spacing × 4 级）。
-      （三）须建立视觉 Token Prompt 集，用于后续 AI 代码生成阶段的结构化指令构建。
-    methods: |
-      1. 将粗略线框图转化为具有严苛响应式组件框架（卡片/列表/导航三级嵌套）的骨架。
-      2. 基于 HSL 系统、光影深度规则等为骨架填入视觉系统标签（Design Tokens）。
-      3. 梳理极端状态与错误边界，补全兜底反馈（空状态/加载/报错/首次使用）。
-    conclusions: |
-      总结 Design Token 体系构建的关键决策（色彩语义分层、排版层级设定），分析状态机穷举边界过程中发现的设计盲点，说明视觉 Token Prompt 集对后续 AI 协作的指导作用。
-  - id: 3
-    name: AI 原型与创意动效生成 (AI Prototyping)
-    type: 设计性
-    hours: 10
-    group_size: 1
-    requirement: 必做
-    summary: 利用前沿 AI 生成工具与代码助手跨越工程门槛，通过结构化 Prompt 驱动生成应用静态雏形并注入创意互动特效。
-    objectives: |
-      （一）将 Token 体系与状态流转图转化为结构化 System Prompt，驱动 AI 工具生成高保真前端壳层。
-      （二）掌握通过 AI 代码助手植入跟随、粒子等创意动效的协作流，完成微交互融合。
-      （三）具备基本的代码辅助阅读自检能力，能判断 AI 生成代码的断点并采用混合保真兜底方案。
-    equipment: |
-      1. 硬件：个人计算机（学校机房或自备）
-      2. 软件：Windows 10+；v0 / CodeGeeX（AI 生成）、VS Code、Figma（兜底用）
-    requirements: |
-      （一）须将 Token 体系与状态流转图转化为结构化 Prompt，驱动 AI 生成应用初始视图壳层，提交 Prompt 原文与生成结果截图。
-      （二）须为原型植入至少 2 个创意微动效（如跟手粒子/页面转场/hover 反馈），提交动效演示录屏。
-      （三）须对所有核心状态完成串联，对无法解决的断点采用 Figma 混合保真兜底并提交排障日志。
-    methods: |
-      1. 提炼视觉系统 Prompt，驱动 AI 生成工具输出前端页面静态壳层。
-      2. 引入并使用代码助手实现跟随、粒子等基础创意动效。
-      3. 回归设计工具或代码中，排障修复串联断裂的核心交互状态。
-    conclusions: |
-      总结结构化 Prompt 构建方法与 AI 协作中的关键发现，记录主要排障节点与兜底策略，反思混合人机协同工作流的效率边界与局限性。
-  - id: 4
-    name: 启发式评估验证闭环 (Heuristic Evaluation)
-    type: 综合性
-    hours: 8
-    group_size: 1
-    requirement: 必做
-    summary: 综合运用 Nielsen 十大可用性原则执行跨组启发式走查与 Think-Aloud 用户测试，完成从缺陷发现到迭代修正的完整体验验证闭环。
-    objectives: |
-      （一）能以评估专家身份对他组原型执行严格的启发式走查，输出含严重级评定的缺陷报告。
-      （二）掌握 Think-Aloud 出声思考法的规范主持技巧，完成至少 3 人次的真实用户测试记录。
-      （三）能系统梳理质性测试反馈，完成缺陷修正闭环，并以专业叙事呈现设计迭代全过程。
-    equipment: |
-      1. 硬件：个人计算机（学校机房或自备）；可选：录屏/录音设备
-      2. 软件：Windows 10+；交互原型（AI 生成 + Figma 混合保真）、笔记软件
-    requirements: |
-      （一）须对另一组原型执行启发式走查，输出走查报告（含 Nielsen 原则编号、缺陷描述、严重级评定）。
-      （二）须以主持人身份完成至少 3 人次 Think-Aloud 测试，提交测试录屏/录音与观察笔记。
-      （三）须完成缺陷修正前后对比文档，并撰写作品集复盘叙事（含数据证据链），参与最终路演答辩。
-    methods: |
-      1. 进行基于 Nielsen 十大原则的跨组同侪启发式评估走查。
-      2. 用 Think-Aloud 出声思考法对测试者执行可用性测试记录。
-      3. 挖掘体验死角并在原型中给出改进版对比设计。
-      4. 系统梳理走查与测试反馈，完成缺陷修正前后对比文档与作品集复盘叙事。
-    conclusions: |
-      总结启发式走查与 Think-Aloud 测试中发现的最高优先级可用性问题，说明迭代修正的设计逻辑，反思跨组评估带来的他者视角价值与不足。
+- id: 'A'
+  name: JTBD 深度访谈 AI 陪练
+  type: 验证性
+  hours: 2
+  group_size: 1
+  requirement: 必做
+  summary: 运用深度访谈五步法与 AI 陪练进行对战，识别用户痛点并输出结构化的 Proto-Persona 数据卡。
+  objectives: |
+    （一）掌握 JTBD（Jobs-to-be-Done）待办任务框架的三维度分析方法。
+    （二）掌握 5-Whys 连环追问法，对表层回答进行深度追问。
+    （三）掌握 Problem Statement 问题陈述公式。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：AI 对话平台（DeepSeek / 豆包 / Kimi 等）
+  requirements: |
+    （一）须获取完整对话日志截图（不少于 5 轮有效追问）。
+    （二）须获取 AI 生成的四大标准模块 Proto-Persona 数据卡。
+    （三）须完成学生实验报告，图文交替排版。
+  methods: |
+    1. 注入系统提示词并选择盲盒角色。
+    2. 进行情境沉浸提问与 5-Whys 连环追问。
+    3. 获取结构化的 Proto-Persona 数据卡总结。
+  conclusions: |
+    反思访谈深度，总结言行鸿沟等核心概念的实践体会，以及不同提问策略的效果对比。
+- id: 'B'
+  name: Proto-Persona 用户画像制作
+  type: 设计性
+  hours: 2
+  group_size: 1
+  requirement: 必做
+  summary: 基于实验 A 的访谈数据卡，在设计工具中制作包含四大标准模块的 Proto-Persona 视觉画像。
+  objectives: |
+    （一）掌握 Proto-Persona（原型用户画像）的四大标准模块格式。
+    （二）理解人口统计学陷阱 (Demographic Trap) 的危害。
+    （三）掌握将文字调研数据视觉化表达的基本能力。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：Figma / Illustrator / 其他绘图软件
+  requirements: |
+    （一）须输出包含四大模块的 A4 尺寸 Proto-Persona 画像卡成品。
+    （二）须提供至少 3 张制作过程截图。
+    （三）须完成学生实验报告，图文交替排版。
+  methods: |
+    1. 整理实验 A 的结构化数据卡内容。
+    2. 使用设计工具建立 A4 画布并划分四大区块。
+    3. 填入背景档案、行为核心特征、JTBD 和痛点陈述，并排版导出。
+  conclusions: |
+    反思数据转化可视化的难点，总结在规避人口学陷阱上的思考，理解 Proto-Persona 作为假设的定位。
+- id: 2
+  name: 状态机映射与视觉体系 (States & System)
+  type: 综合性
+  hours: 6
+  group_size: 1
+  requirement: 必做
+  summary: 完成系统级页面状态流转架构及前端实现的原子级设计 Token 体系建立，并补全极端情境边界的防错设计。
+  objectives: |
+    （一）能将粗略线框图转化为具有严苛响应式组件框架的骨架，建立盒模型容器工程化意识。
+    （二）掌握基于 HSL 系统与光影深度规则的 Design Token 体系构建方法，实现视觉一致性。
+    （三）能穷举极端状态与错误边界，为各类边缘情境设计优雅的防错与宽容度反馈。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：Windows 10+；Figma（AutoLayout 组件系统 + Variables）
+  requirements: |
+    （一）须产出覆盖正常流与至少 5 个边缘状态（空状态/加载中/报错/无网络/首次使用）的完整状态机。
+    （二）须建立完整的 Design Token 体系（Typography × 4 级、Color × HSL 语义色、Spacing × 4 级）。
+    （三）须建立视觉 Token Prompt 集，用于后续 AI 代码生成阶段的结构化指令构建。
+  methods: |
+    1. 将粗略线框图转化为具有严苛响应式组件框架（卡片/列表/导航三级嵌套）的骨架。
+    2. 基于 HSL 系统、光影深度规则等为骨架填入视觉系统标签（Design Tokens）。
+    3. 梳理极端状态与错误边界，补全兜底反馈（空状态/加载/报错/首次使用）。
+  conclusions: |
+    总结 Design Token 体系构建的关键决策（色彩语义分层、排版层级设定），分析状态机穷举边界过程中发现的设计盲点，说明视觉 Token Prompt 集对后续 AI 协作的指导作用。
+- id: 3
+  name: AI 原型与创意动效生成 (AI Prototyping)
+  type: 设计性
+  hours: 10
+  group_size: 1
+  requirement: 必做
+  summary: 利用前沿 AI 生成工具与代码助手跨越工程门槛，通过结构化 Prompt 驱动生成应用静态雏形并注入创意互动特效。
+  objectives: |
+    （一）将 Token 体系与状态流转图转化为结构化 System Prompt，驱动 AI 工具生成高保真前端壳层。
+    （二）掌握通过 AI 代码助手植入跟随、粒子等创意动效的协作流，完成微交互融合。
+    （三）具备基本的代码辅助阅读自检能力，能判断 AI 生成代码的断点并采用混合保真兜底方案。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）
+    2. 软件：Windows 10+；v0 / CodeGeeX（AI 生成）、VS Code、Figma（兜底用）
+  requirements: |
+    （一）须将 Token 体系与状态流转图转化为结构化 Prompt，驱动 AI 生成应用初始视图壳层，提交 Prompt 原文与生成结果截图。
+    （二）须为原型植入至少 2 个创意微动效（如跟手粒子/页面转场/hover 反馈），提交动效演示录屏。
+    （三）须对所有核心状态完成串联，对无法解决的断点采用 Figma 混合保真兜底并提交排障日志。
+  methods: |
+    1. 提炼视觉系统 Prompt，驱动 AI 生成工具输出前端页面静态壳层。
+    2. 引入并使用代码助手实现跟随、粒子等基础创意动效。
+    3. 回归设计工具或代码中，排障修复串联断裂的核心交互状态。
+  conclusions: |
+    总结结构化 Prompt 构建方法与 AI 协作中的关键发现，记录主要排障节点与兜底策略，反思混合人机协同工作流的效率边界与局限性。
+- id: 4
+  name: 启发式评估验证闭环 (Heuristic Evaluation)
+  type: 综合性
+  hours: 8
+  group_size: 1
+  requirement: 必做
+  summary: 综合运用 Nielsen 十大可用性原则执行跨组启发式走查与 Think-Aloud 用户测试，完成从缺陷发现到迭代修正的完整体验验证闭环。
+  objectives: |
+    （一）能以评估专家身份对他组原型执行严格的启发式走查，输出含严重级评定的缺陷报告。
+    （二）掌握 Think-Aloud 出声思考法的规范主持技巧，完成至少 3 人次的真实用户测试记录。
+    （三）能系统梳理质性测试反馈，完成缺陷修正闭环，并以专业叙事呈现设计迭代全过程。
+  equipment: |
+    1. 硬件：个人计算机（学校机房或自备）；可选：录屏/录音设备
+    2. 软件：Windows 10+；交互原型（AI 生成 + Figma 混合保真）、笔记软件
+  requirements: |
+    （一）须对另一组原型执行启发式走查，输出走查报告（含 Nielsen 原则编号、缺陷描述、严重级评定）。
+    （二）须以主持人身份完成至少 3 人次 Think-Aloud 测试，提交测试录屏/录音与观察笔记。
+    （三）须完成缺陷修正前后对比文档，并撰写作品集复盘叙事（含数据证据链），参与最终路演答辩。
+  methods: |
+    1. 进行基于 Nielsen 十大原则的跨组同侪启发式评估走查。
+    2. 用 Think-Aloud 出声思考法对测试者执行可用性测试记录。
+    3. 挖掘体验死角并在原型中给出改进版对比设计。
+    4. 系统梳理走查与测试反馈，完成缺陷修正前后对比文档与作品集复盘叙事。
+  conclusions: |
+    总结启发式走查与 Think-Aloud 测试中发现的最高优先级可用性问题，说明迭代修正的设计逻辑，反思跨组评估带来的他者视角价值与不足。
 
 assessment_methods:
   normal_score_ratio: 50
   final_score_ratio: 50
   attendance_ratio: 10
   normal_items:
-    - name: 章节测试1
-      ratio: 10
-      desc: 对应实验1「概念设计与交互主线」。考核要求：完成交互应用的早期定性调研报告与逻辑MVP线框图，体现痛点洞察与JTBD方法论的运用。
-    - name: 章节测试2
-      ratio: 15
-      desc: 对应实验2「状态机映射与视觉体系」。考核要求：产出系统级的页面状态流转架构图及原子级设计Token体系，体现目标导向路径编排能力。
-    - name: 章节测试3
-      ratio: 15
-      desc: 对应实验3「AI原型与创意动效生成」。考核要求：运用AI代码助手生成高保真静态界面并注入基础创意动效，体现对Vibe Coding与人机协同工作流的运用能力。
+  - name: 章节测试1
+    ratio: 10
+    desc: 对应实验A「JTBD深度访谈AI陪练」与实验B「Proto-Persona画像制作」。考核要求：完成交互应用的早期定性调研报告与Proto-Persona画像，体现痛点洞察与假设驱动方法论的运用。
+  - name: 章节测试2
+    ratio: 15
+    desc: 对应实验2「状态机映射与视觉体系」。考核要求：产出系统级的页面状态流转架构图及原子级设计Token体系，体现目标导向路径编排能力。
+  - name: 章节测试3
+    ratio: 15
+    desc: 对应实验3「AI原型与创意动效生成」。考核要求：运用AI代码助手生成高保真静态界面并注入基础创意动效，体现对Vibe Coding与人机协同工作流的运用能力。
   final_item:
     name: 期末综合项目考查
     ratio: 100
     desc: 对应实验4「启发式评估验证闭环」。考核要求：启发式走查报告严格对标 Nielsen 十大原则（占 35%）；可用性测试执行规范且质性分析有深度（占 40%）；作品集叙事完整且路演表达清晰流畅（占 25%）。详见 practices/experiment_planning.md。
 exams:
   final_exam:
-    - name: 期末综合项目考查
-      total_score: 100
-      duration: 120
-      sections:
-        - section_name: 设计研究与原型质量
-          total_score: 35
-          questions:
-            - content: "对应实验4「启发式评估验证闭环」。考核要求：痛点洞察具有真实用户调研支撑，JTBD 假设逻辑自洽且 MVP 范围界定合理；高保真交互原型的页面状态流转完整、视觉 Token 体系一致，AI 协作生成的界面无明显逻辑断裂，创意动效融入自然不突兀。"
-              type: "综合性"
-              score: 35
-        - section_name: 可用性验证闭环
-          total_score: 40
-          questions:
-            - content: "对应实验4「启发式评估验证闭环」。考核要求：启发式走查报告严格对标 Nielsen 十大原则，缺陷严重级评定准确且覆盖面充分；出声思考测试执行规范（不引导、不纠正），用户反馈记录完整且质性分析有深度；缺陷修正前后对比有明确证据链，闭环逻辑清晰可验证。"
-              type: "综合性"
-              score: 40
-        - section_name: 项目复盘与路演表现
-          total_score: 25
-          questions:
-            - content: "对应实验4「启发式评估验证闭环」。考核要求：作品集叙事结构完整，能清晰呈现从痛点发现到设计迭代再到数据验证的全过程故事；路演表达在限定时间内逻辑紧凑、重点突出，能从容应对即席提问；展现出坦诚面对设计失误并持续迭代改进的专业态度。"
-              type: "综合性"
-              score: 25
+  - name: 期末综合项目考查
+    total_score: 100
+    duration: 120
+    sections:
+    - section_name: 设计研究与原型质量
+      total_score: 35
+      questions:
+      - content: "对应实验4「启发式评估验证闭环」。考核要求：痛点洞察具有真实用户调研支撑，JTBD 假设逻辑自洽且 MVP 范围界定合理；高保真交互原型的页面状态流转完整、视觉 Token 体系一致，AI 协作生成的界面无明显逻辑断裂，创意动效融入自然不突兀。"
+        type: "综合性"
+        score: 35
+    - section_name: 可用性验证闭环
+      total_score: 40
+      questions:
+      - content: "对应实验4「启发式评估验证闭环」。考核要求：启发式走查报告严格对标 Nielsen 十大原则，缺陷严重级评定准确且覆盖面充分；出声思考测试执行规范（不引导、不纠正），用户反馈记录完整且质性分析有深度；缺陷修正前后对比有明确证据链，闭环逻辑清晰可验证。"
+        type: "综合性"
+        score: 40
+    - section_name: 项目复盘与路演表现
+      total_score: 25
+      questions:
+      - content: "对应实验4「启发式评估验证闭环」。考核要求：作品集叙事结构完整，能清晰呈现从痛点发现到设计迭代再到数据验证的全过程故事；路演表达在限定时间内逻辑紧凑、重点突出，能从容应对即席提问；展现出坦诚面对设计失误并持续迭代改进的专业态度。"
+        type: "综合性"
+        score: 25
 
 agent:
   standards:

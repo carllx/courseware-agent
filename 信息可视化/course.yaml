@@ -16,6 +16,7 @@ course:
   code: CNFU003847
   semester: 2025-2026-2
   nature: 专业选修课
+  grade: 2024级
   training_plan_version: "2024"   # 适用的人培版本（24级入学 → 执行2024版人培）
   credits: 2.0
   department: 设计学院
@@ -30,14 +31,14 @@ course:
     archive_id: 45
     schedule_time: 星期日(分段排课)    # 303502：多时段叠加，详见 schedule_segments
     schedule_segments:
-      - weeks: "7,9"                  # 单周：星期日第1-5节
-        period: "1-5节"
-      - weeks: "8,11"                 # 星期日第7-11节
-        period: "7-11节"
-      - weeks: "8"                    # W8 叠加：除7-11外还有1-5节
-        period: "1-5节"
-      - weeks: "10"                   # W10 全天双时段
-        period: "1-5节, 11-15节"
+    - weeks: "7,9"                    # 单周：星期日第1-5节
+      period: "1-5节"
+    - weeks: "8,11"                   # 星期日第7-11节
+      period: "7-11节"
+    - weeks: "8"                      # W8 叠加：除7-11外还有1-5节
+      period: "1-5节"
+    - weeks: "10"                     # W10 全天双时段
+      period: "1-5节, 11-15节"
     classroom: 温泉校区 3实208
     week_range: 7-11
     official_weeks: 5                 # 教务注册周数
@@ -46,10 +47,10 @@ course:
     archive_id: 46
     schedule_time: 星期五(分段排课)    # 303503：节次随周次变化，详见 schedule_segments
     schedule_segments:
-      - weeks: "10-13"
-        period: "1-5节"
-      - weeks: "14-18"
-        period: "2-5节"
+    - weeks: "10-13"
+      period: "1-5节"
+    - weeks: "14-18"
+      period: "2-5节"
     classroom: 温泉校区 3实208
     week_range: 10-18
     excluded_weeks: [16]              # 端午节停课（2026-06-19），进度表跳过该日期，学时差额忽略
@@ -64,8 +65,7 @@ course:
     content: '本课程针对数字媒体艺术（DMA）专业学生，旨在探讨将抽象冷硬的数据转化为富有情感与叙事张力的视觉表达。课程以"信息可视化设计"和"视觉分析基础"为理论基石，引入"Vibe Coding（自然语言驱动编程）"前沿范式。通过学习，学生将掌握从视觉意象构思、自然语言抽象建模到生成式艺术与复杂交互图表呈现的全新工作流，极大拓展数据处理能力与交互艺术表达力。
 
       '
-    design: '课程结合人文理论讲授与 Vibe 驱动实践，重构传统的"数据→编程→图表"工程路线为"视觉意象设想→自然语言定义→AI引擎生成→交互修改"的艺术打磨流程。前期深耕视觉叙事、符号隐喻与数据艺术理论；中期运用自然语言熟练调度
-      D3.js 与 ECharts 等高低阶框架进行生成创作；后期通过整合社会文化议题的数据调研，完成具有人文关怀与艺术深度的综合交互叙事原型开发与部署。
+    design: '课程结合人文理论讲授与 Vibe 驱动实践，重构传统的"数据→编程→图表"工程路线为"视觉意象设想→自然语言定义→AI引擎生成→交互修改"的艺术打磨流程。前期深耕视觉叙事、符号隐喻与数据艺术理论；中期运用自然语言熟练调度 D3.js 与 ECharts 等高低阶框架进行生成创作；后期通过整合社会文化议题的数据调研，完成具有人文关怀与艺术深度的综合交互叙事原型开发与部署。
 
       '
 teacher:
@@ -145,18 +145,18 @@ textbooks:
   type: textbook
   citation: "郝亚维, 张博文. 信息可视化设计[M]. 北京: 电子工业出版社, 2023."
   toc:
-    - chapter: 1
-      title: "信息的设计与视觉传达"
-    - chapter: 2
-      title: "信息可视化设计的发展"
-    - chapter: 3
-      title: "信息图表类型与现代信息设计工具"
-    - chapter: 4
-      title: "信息可视化设计师／团队和优秀作品案例"
-    - chapter: 5
-      title: "信息可视化设计课堂作业的实现与完成"
-    - chapter: 6
-      title: "中国'十四五'期间'核心技术'信息可视化设计"
+  - chapter: 1
+    title: "信息的设计与视觉传达"
+  - chapter: 2
+    title: "信息可视化设计的发展"
+  - chapter: 3
+    title: "信息图表类型与现代信息设计工具"
+  - chapter: 4
+    title: "信息可视化设计师／团队和优秀作品案例"
+  - chapter: 5
+    title: "信息可视化设计课堂作业的实现与完成"
+  - chapter: 6
+    title: "中国'十四五'期间'核心技术'信息可视化设计"
 - title: Visualization Analysis & Design
   author: Tamara Munzner
   publisher: CRC Press
@@ -164,51 +164,51 @@ textbooks:
   type: reference
   citation: "Tamara Munzner. Visualization Analysis & Design[M]. Boca Raton: CRC Press, 2014."
   toc:
-    - chapter: 1
-      title: "什么是可视化，为什么要做？"
-      title_en: "What's Vis, and Why Do It?"
-    - chapter: 2
-      title: "What：数据抽象"
-      title_en: "What: Data Abstraction"
-    - chapter: 3
-      title: "Why：任务抽象"
-      title_en: "Why: Task Abstraction"
-    - chapter: 4
-      title: "分析：验证的四个层次"
-      title_en: "Analysis: Four Levels for Validation"
-    - chapter: 5
-      title: "标记与通道"
-      title_en: "Marks and Channels"
-    - chapter: 6
-      title: "经验法则"
-      title_en: "Rules of Thumb"
-    - chapter: 7
-      title: "表格数据排布"
-      title_en: "Arrange Tables"
-    - chapter: 8
-      title: "空间数据排布"
-      title_en: "Arrange Spatial Data"
-    - chapter: 9
-      title: "网络与树的排布"
-      title_en: "Arrange Networks and Trees"
-    - chapter: 10
-      title: "颜色映射与其他通道"
-      title_en: "Map Color and Other Channels"
-    - chapter: 11
-      title: "操控视图"
-      title_en: "Manipulate View"
-    - chapter: 12
-      title: "分面为多视图"
-      title_en: "Facet into Multiple Views"
-    - chapter: 13
-      title: "缩减项目与属性"
-      title_en: "Reduce Items and Attributes"
-    - chapter: 14
-      title: "嵌入：焦点+上下文"
-      title_en: "Embed: Focus+Context"
-    - chapter: 15
-      title: "分析案例研究"
-      title_en: "Analysis Case Studies"
+  - chapter: 1
+    title: "什么是可视化，为什么要做？"
+    title_en: "What's Vis, and Why Do It?"
+  - chapter: 2
+    title: "What：数据抽象"
+    title_en: "What: Data Abstraction"
+  - chapter: 3
+    title: "Why：任务抽象"
+    title_en: "Why: Task Abstraction"
+  - chapter: 4
+    title: "分析：验证的四个层次"
+    title_en: "Analysis: Four Levels for Validation"
+  - chapter: 5
+    title: "标记与通道"
+    title_en: "Marks and Channels"
+  - chapter: 6
+    title: "经验法则"
+    title_en: "Rules of Thumb"
+  - chapter: 7
+    title: "表格数据排布"
+    title_en: "Arrange Tables"
+  - chapter: 8
+    title: "空间数据排布"
+    title_en: "Arrange Spatial Data"
+  - chapter: 9
+    title: "网络与树的排布"
+    title_en: "Arrange Networks and Trees"
+  - chapter: 10
+    title: "颜色映射与其他通道"
+    title_en: "Map Color and Other Channels"
+  - chapter: 11
+    title: "操控视图"
+    title_en: "Manipulate View"
+  - chapter: 12
+    title: "分面为多视图"
+    title_en: "Facet into Multiple Views"
+  - chapter: 13
+    title: "缩减项目与属性"
+    title_en: "Reduce Items and Attributes"
+  - chapter: 14
+    title: "嵌入：焦点+上下文"
+    title_en: "Embed: Focus+Context"
+  - chapter: 15
+    title: "分析案例研究"
+    title_en: "Analysis Case Studies"
 calendar:
 - week: 1
   chapter: 1
@@ -235,17 +235,34 @@ calendar:
     - 创建针对真实数据图表的『格式塔靶向处方』，并执行极简降噪与视觉重构
     steps:
     - stage: 导入
-      summary: 首节课开篇介绍课程概况与评估方式，以安斯库姆四重奏案例引入可视化的认知价值
+      summary: |-
+        【课程情境导入】
+        1. 首节课开篇介绍课程概况与评估方式，以安斯库姆四重奏案例引入可视化的认知价值
+        2. 明确本节课核心聚焦点：可视化有效性的 What/Why/How 三大基石
+        3. 激发学生学习动机与探索兴趣。
       minutes: 25
     - stage: 讲授
-      summary: 视觉感知与前注意处理原理、格式塔原则的图表映射、Vibe Coding 范式介绍
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：视觉感知与前注意处理原理、格式塔原则的图表映射、Vibe Coding 范式介绍
+        2. 知识点拆解：1.1 认知外显：视觉系统、格式塔重构与自然语言建模
+        3. 重难点突破：针对“自然语言到视觉元素的映射关系理解”，采用案例剖析策略。
+        4. 支撑目标：解释《信息可视化设计》第一、二章中从壁画到大数据的视觉隐喻演变脉络
       ideology: 结合中国大数据发展战略，认识数据可视化在国家治理与社会服务中的作用
       minutes: 110
     - stage: 实践
-      summary: RAWGraphs 零代码数据映射与 AI 自然语言生成 (Vibe Coding) 初步比对实操
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：RAWGraphs 零代码数据映射与 AI 自然语言生成 (Vibe Coding) 初步比对实操
+        2. 核心任务目标：自行选取一组合法公开数据集，运用 RAWGraphs 进行零代码映射探索，同时尝试撰写结构化 Prompt 驱动 AI 辅助工具生成对照图表。提交这两种范式下的图表产出及完整 Prompt 记录，配合 300 字设计决策说明分析两者优劣。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 75
     - stage: 小结
-      summary: 回顾核心概念：可视化是认知外包而非装饰
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：回顾核心概念：可视化是认知外包而非装饰
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 知识1
@@ -277,23 +294,48 @@ calendar:
     - 掌握使用 Figma 进行矢量输出与排版精修
     steps:
     - stage: 复习
-      summary: 回顾 W01 核心概念：可视化作为认知外包，前注意处理原理
+      summary: |-
+        【上次课知识回顾】
+        1. 回顾 W01 核心概念：可视化作为认知外包，前注意处理原理
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
       minutes: 10
     - stage: 导入
-      summary: 图表类型的时空隐喻——从 Excel 下拉菜单中跳出
+      summary: |-
+        【课程情境导入】
+        1. 图表类型的时空隐喻——从 Excel 下拉菜单中跳出
+        2. 明确本节课核心聚焦点：标记 (Marks) 与通道 (Channels) 的有效性排序法则
+        3. 激发学生学习动机与探索兴趣。
       minutes: 15
     - stage: 讲授
-      summary: 标记与通道有效性法则、视觉弹出死亡边界、数据墨水比原则与反 3D 饼图
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：标记与通道有效性法则、视觉弹出死亡边界、数据墨水比原则与反 3D 饼图
+        2. 知识点拆解：2.1 不仅是数据，更是隐喻：构建符号的艺术表达
+        3. 重难点突破：针对“如何基于数据语义选择恰当的视觉隐喻而非简单堆砌装饰”，采用案例剖析策略。
+        4. 支撑目标：基于《信息可视化设计》第三章理解图表的时空隐喻与类型选择
       ideology: 对比中西视觉叙事传统中的信息表达差异，培养文化审美自觉
       minutes: 95
     - stage: 演示
-      summary: 'Mini-Lab 介绍：电影作为数据——Movie Barcode 色彩指纹演示，展示逐帧色彩提取与 Marks/Channels 映射关系（待定拓展实践，详见 knowledge/notes/film-as-data-cinematic-visualization.md）'
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：Mini-Lab 介绍：电影作为数据——Movie Barcode 色彩指纹演示，展示逐帧色彩提取与 Marks/Channels 映射关系（待定拓展实践，详见 knowledge/notes/film-as-data-cinematic-visualization.md）
+        2. 知识点拆解：2.1 不仅是数据，更是隐喻：构建符号的艺术表达
+        3. 重难点突破：针对“如何基于数据语义选择恰当的视觉隐喻而非简单堆砌装饰”，采用案例剖析策略。
+        4. 支撑目标：基于《信息可视化设计》第三章理解图表的时空隐喻与类型选择
       minutes: 15
     - stage: 实践
-      summary: 教师预制标本通道审计（Black Museum） + Figma SVG 外科手术精修三阶段对比实验
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：教师预制标本通道审计（Black Museum） + Figma SVG 外科手术精修三阶段对比实验
+        2. 核心任务目标：从真实世界（新闻/财报/报告）狩猎一张通道映射严重错误的劣质数据图，结合实验1清洗后的 Tidy 数据集，在 Figma 中按 Munzner 通道有效性与数据墨水比原则进行三阶段重建精修，提交三阶段对比图 + 300 字通道决策报告。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 75
     - stage: 小结
-      summary: 总结标记-通道-隐喻三位一体的设计语法
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：总结标记-通道-隐喻三位一体的设计语法
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 知识1
@@ -304,8 +346,8 @@ calendar:
   chapter: 3
   chapter_title: "数据提炼"
   readings:
-    - "Munzner Ch2 (What: Data Abstraction)"
-    - "Munzner Ch3 (Why: Task Abstraction)"
+  - "Munzner Ch2 (What: Data Abstraction)"
+  - "Munzner Ch3 (Why: Task Abstraction)"
   chapter_subtitle: "与自然语言建模"
   topic: 数据提炼与自然语言建模 (Specification)
   content: 3.1 看不见的冰山：从数据抽象到重塑 (Data Abstraction & Tidy Data)
@@ -329,20 +371,40 @@ calendar:
     - 熟练运用自然语言提示词（Prompt），指导 AI 完成复杂宽表到 Tidy Data 的清洗流
     steps:
     - stage: 复习
-      summary: 回顾 W02 标记与通道编码原则，引出数据质量对可视化的影响
+      summary: |-
+        【上次课知识回顾】
+        1. 回顾 W02 标记与通道编码原则，引出数据质量对可视化的影响
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
       minutes: 10
     - stage: 导入
-      summary: 展示 AI 面对未处理原始数据时的失败案例，引出数据抽象的必要性
+      summary: |-
+        【课程情境导入】
+        1. 展示 AI 面对未处理原始数据时的失败案例，引出数据抽象的必要性
+        2. 明确本节课核心聚焦点：数据类型抽象与 Tidy Data 规范化建模
+        3. 激发学生学习动机与探索兴趣。
       minutes: 15
     - stage: 讲授
-      summary: Munzner 数据抽象分类体系（What）、任务抽象漏斗（Why）、Tidy Data 三原则
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：Munzner 数据抽象分类体系（What）、任务抽象漏斗（Why）、Tidy Data 三原则
+        2. 知识点拆解：3.1 看不见的冰山：从数据抽象到重塑 (Data Abstraction & Tidy Data)
+        3. 重难点突破：针对“如何将非结构化的现实世界数据转化为面向大模型的规范化自然语言描述”，采用案例剖析策略。
+        4. 支撑目标：深入理解 Munzner 框架的 What（数据抽象）与 Why（任务抽象）核心体系
       ideology: 强调数据治理中的诚信与规范意识，培养严谨求实的数据素养
       minutes: 110
     - stage: 实践
-      summary: 自然语言结构化 Prompt 驱动 AI 清洗灾难级宽表为 Tidy Data
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：自然语言结构化 Prompt 驱动 AI 清洗灾难级宽表为 Tidy Data
+        2. 核心任务目标：从公开数据源获取一份原始宽表数据，利用 LLM Prompt 清洗为 Tidy CSV，并撰写约500字的数据抽象分析（Item/Attribute/Derive 策略）。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 75
     - stage: 小结
-      summary: 总结数据抽象到整洁化的全链路，预告 D3/ECharts 框架
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：总结数据抽象到整洁化的全链路，预告 D3/ECharts 框架
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 知识2   # ISSUE-005修复：W3主题为 Tidy Data = 知识目标 2
@@ -353,8 +415,8 @@ calendar:
   chapter: 4
   chapter_title: "声明式生成"
   readings:
-    - "《信息可视化设计》第四章"
-    - "Munzner Ch7"
+  - "《信息可视化设计》第四章"
+  - "Munzner Ch7"
   chapter_subtitle: "与深层定制的 Vibe 指挥术"
   topic: 声明式生成 (ECharts) 与深层定制 (D3) 的 Vibe 指挥术
   content: 4.1 驾驭复杂：高低阶框架的语言驱动策略
@@ -378,20 +440,40 @@ calendar:
     - 培养人脑构思架构与AI填充代码的 Vibe 工作流协作感
     steps:
     - stage: 复习
-      summary: 回顾 W03 数据类型体系与 Tidy Data 原则
+      summary: |-
+        【上次课知识回顾】
+        1. 回顾 W03 数据类型体系与 Tidy Data 原则
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
       minutes: 10
     - stage: 导入
-      summary: 从空间排布理论引入：折线图的谎言与饼图的原罪
+      summary: |-
+        【课程情境导入】
+        1. 从空间排布理论引入：折线图的谎言与饼图的原罪
+        2. 明确本节课核心聚焦点：ECharts 声明式配置与 D3.js 底层定制的差异化应用策略
+        3. 激发学生学习动机与探索兴趣。
       minutes: 15
     - stage: 讲授
-      summary: Munzner Ch7 表格排布原理、ECharts 声明式架构、D3.js 比例尺与数据绑定
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：Munzner Ch7 表格排布原理、ECharts 声明式架构、D3.js 比例尺与数据绑定
+        2. 知识点拆解：4.1 驾驭复杂：高低阶框架的语言驱动策略
+        3. 重难点突破：针对“理解 D3.js 坐标系边界约束及高效运作沙箱提取绝美矢量图纸的组合方案”，采用案例剖析策略。
+        4. 支撑目标：掌握 Munzner Ch7 表格数据空间排布的底层原理与布局选项
       ideology: 以国产开源框架 ECharts 的全球影响力为例，增强技术自信与开源贡献意识
       minutes: 65
     - stage: 实践
-      summary: AI 驱动 ECharts 急速生成 + D3 审美微操与矢量提取竞速 + 双轨范式综合打样
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：AI 驱动 ECharts 急速生成 + D3 审美微操与矢量提取竞速 + 双轨范式综合打样
+        2. 核心任务目标：使用 Tidy 数据集分别完成 ECharts 商业快手与 D3.js 极客指令版的代码出图作业，务必不要提交 HTML 代码文件！仅依靠沙箱实时渲染结果导出的 2 张绝美比对阵列图 (PNG/SVG) 及简单设计声明即可。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 120
     - stage: 小结
-      summary: 对比声明式与指令式模型适用边界，强调代码沙箱对“提取极限画质源资产”的绝大红利
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：对比声明式与指令式模型适用边界，强调代码沙箱对“提取极限画质源资产”的绝大红利
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 知识1
@@ -423,20 +505,40 @@ calendar:
     - "[能力1/能力3/素质3] 将抽象情感数据与粒子系统、动态链接相结合，完成高表现力作品"
     steps:
     - stage: 复习
-      summary: 回顾 W04 ECharts/D3 双轨框架，引出超越表格数据的复杂结构
+      summary: |-
+        【上次课知识回顾】
+        1. 回顾 W04 ECharts/D3 双轨框架，引出超越表格数据的复杂结构
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
       minutes: 10
     - stage: 导入
-      summary: 从社交网络的'看不见的关系'引入网络拓扑与空间数据的概念
+      summary: |-
+        【课程情境导入】
+        1. 从社交网络的'看不见的关系'引入网络拓扑与空间数据的概念
+        2. 明确本节课核心聚焦点：力导向图 (Force-directed) 等具有生成艺术属性的可视化形态
+        3. 激发学生学习动机与探索兴趣。
       minutes: 15
     - stage: 讲授
-      summary: 网络拓扑权衡（Node-Link vs 邻接矩阵）、力导向物理引擎、地理空间编码与面积偏见
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：网络拓扑权衡（Node-Link vs 邻接矩阵）、力导向物理引擎、地理空间编码与面积偏见
+        2. 知识点拆解：5.1 无形之境：网络拓扑、地缘隐喻与力导向生成艺术
+        3. 重难点突破：针对“如何将抽象的情感数据与粒子系统、动态链接有机结合以实现艺术表达”，采用案例剖析策略。
+        4. 支撑目标：[知识1/素质3] 探索《信息可视化设计》第五章提及的区域与事件地图的艺术表达
       ideology: 结合中国社会网络与文化传播研究案例，探讨数据艺术的社会责任
       minutes: 65
     - stage: 实践
-      summary: D3 力导向底层崩溃复现 + 原路报红抗压训练 (Bug-driven Prompting) + 生命体极致演化大作
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：D3 力导向底层崩溃复现 + 原路报红抗压训练 (Bug-driven Prompting) + 生命体极致演化大作
+        2. 核心任务目标：基于自拟情感议题，使用 D3 力导向引擎构建'数据生命体'作品，截取 3 帧极致美感瞬间并撰写寓意说明。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 120
     - stage: 小结
-      summary: 总结生成艺术与传统图表的分野，预告滚动叙事
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：总结生成艺术与传统图表的分野，预告滚动叙事
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 知识1
@@ -470,20 +572,40 @@ calendar:
     - 运用动效分镜表，通过结构化 Prompt 指导 AI 搭建高完成度的参数化滚动页面
     steps:
     - stage: 复习
-      summary: 回顾 W05 力导向与空间数据编码，引出交互在多维数据展示中的必要性
+      summary: |-
+        【上次课知识回顾】
+        1. 回顾 W05 力导向与空间数据编码，引出交互在多维数据展示中的必要性
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
       minutes: 10
     - stage: 导入
-      summary: 展示交互失败案例——被交互逼疯的瞬间，引出认知负荷理论
+      summary: |-
+        【课程情境导入】
+        1. 展示交互失败案例——被交互逼疯的瞬间，引出认知负荷理论
+        2. 明确本节课核心聚焦点：以 GSAP/ScrollTrigger 为代表的现代滚动叙事架构
+        3. 激发学生学习动机与探索兴趣。
       minutes: 15
     - stage: 讲授
-      summary: Munzner Ch11 交互操作族（Change/Select/Navigate）、Scrollytelling 三层架构、动效分镜方法论
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：Munzner Ch11 交互操作族（Change/Select/Navigate）、Scrollytelling 三层架构、动效分镜方法论
+        2. 知识点拆解：6.1 滑动揭秘：以现代滚动叙事导演数据图景
+        3. 重难点突破：针对“如何设计合理的动效分镜表使读者滚动时自然感知数据故事的节奏变化”，采用案例剖析策略。
+        4. 支撑目标：学习 Munzner Ch11 提出的关键交互操作族（Change / Select / Navigate）
       ideology: 以中国数据新闻（如澎湃新闻）为例，展示本土交互叙事创新
       minutes: 65
     - stage: 实践
-      summary: 动效分镜白板推演 + 全栈 Prompt 驱动 AI 搭建 Scrollytelling 页面
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：动效分镜白板推演 + 全栈 Prompt 驱动 AI 搭建 Scrollytelling 页面
+        2. 核心任务目标：基于自选社会议题数据，完成一个 GSAP ScrollTrigger + ECharts/D3 的 Scrollytelling 单页面长卷，包含至少 4 个触发步骤。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 120
     - stage: 小结
-      summary: 总结导演式叙事节奏控制方法，预告项目整合
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：总结导演式叙事节奏控制方法，预告项目整合
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 知识3
@@ -516,20 +638,40 @@ calendar:
     - 完成项目的自然语言逻辑推演以及交互低保真设计 Critique 互评
     steps:
     - stage: 复习
-      summary: 回顾 W01-W06 全链路技术栈，梳理项目所需的完整知识图谱
+      summary: |-
+        【上次课知识回顾】
+        1. 回顾 W01-W06 全链路技术栈，梳理项目所需的完整知识图谱
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
       minutes: 10
     - stage: 导入
-      summary: 从宏大社会议题（文化保护/生态/不平等）引入项目选题方法论
+      summary: |-
+        【课程情境导入】
+        1. 从宏大社会议题（文化保护/生态/不平等）引入项目选题方法论
+        2. 明确本节课核心聚焦点：运用嵌套模型 (Nested Model) 系统验证可视化设计决策
+        3. 激发学生学习动机与探索兴趣。
       minutes: 15
     - stage: 讲授
-      summary: 嵌套模型的级联验证、社会议题数据工程策略、Prompt 工程的架构解体法
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：嵌套模型的级联验证、社会议题数据工程策略、Prompt 工程的架构解体法
+        2. 知识点拆解：7.1 洞察与共鸣：从宏大议题到人文关怀的原型设计
+        3. 重难点突破：针对“如何从宏大的社会议题中提炼出具有数据支撑和人文关怀的可视化切入点”，采用案例剖析策略。
+        4. 支撑目标：学习《信息可视化设计》第六章中关于社会焦点案例的整合信息设计
       ideology: 以中国文化保护与生态治理数据为载体，培养社会责任感与家国情怀
       minutes: 110
     - stage: 实践
-      summary: 议题调研 + 逻辑推演文档撰写 + 低保真交互设计 Critique 互评
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：议题调研 + 逻辑推演文档撰写 + 低保真交互设计 Critique 互评
+        2. 核心任务目标：完成综合项目的自然语言逻辑推演文档，包含议题选择、嵌套模型验证、数据源清洗策略、Prompt 工程架构，并进行小组互评。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 75
     - stage: 小结
-      summary: 总结项目设计思维，部署下周冲刺计划
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：总结项目设计思维，部署下周冲刺计划
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 知识1
@@ -542,7 +684,7 @@ calendar:
   chapter: 8
   chapter_title: "终极冲刺"
   readings:
-    - "《信息可视化设计》全书综合复习"
+  - "《信息可视化设计》全书综合复习"
   chapter_subtitle: "让不可见的大规模情感被视觉感知"
   topic: 终极冲刺：让不可见的大规模情感被视觉感知
   content: 8.1 大音希声：全链路生成、艺术封装与项目上线
@@ -565,20 +707,40 @@ calendar:
     - 完成最终数据艺术项目在数字平台的独立部署，并进行公众展示评述
     steps:
     - stage: 复习
-      summary: 回顾 W07 项目架构设计，检查各组项目进度与遗留问题
+      summary: |-
+        【上次课知识回顾】
+        1. 回顾 W07 项目架构设计，检查各组项目进度与遗留问题
+        2. 检查学生对前置知识的掌握情况，建立新旧知识的逻辑桥梁。
       minutes: 10
     - stage: 导入
-      summary: 以'大音希声'理念引入——警惕科技狂欢，回归艺术本真
+      summary: |-
+        【课程情境导入】
+        1. 以'大音希声'理念引入——警惕科技狂欢，回归艺术本真
+        2. 明确本节课核心聚焦点：全链路生成创作流程的整合与交互叙事的前端封装
+        3. 激发学生学习动机与探索兴趣。
       minutes: 15
     - stage: 讲授
-      summary: 整合排错三大死亡场景（作用域/Z-index/竞态）、CSS 艺术封装三层法则、静态部署工作流
+      summary: |-
+        【核心理论与技能解析】
+        1. 授课主线：整合排错三大死亡场景（作用域/Z-index/竞态）、CSS 艺术封装三层法则、静态部署工作流
+        2. 知识点拆解：8.1 大音希声：全链路生成、艺术封装与项目上线
+        3. 重难点突破：针对“在技术实现与艺术表达之间取得平衡，完成高完成度的综合可视化作品”，采用案例剖析策略。
+        4. 支撑目标：回溯《信息可视化设计》理论：在科技狂欢中坚守艺术的直觉表达
       ideology: 在项目展示与互评中体现专业诚信与知识产权尊重意识
       minutes: 65
     - stage: 实践
-      summary: 终极报错排雷 + 艺术封装大改造 + Vercel 部署上线
+      summary: |-
+        【课堂实践与操作训练】
+        1. 实践任务指导：终极报错排雷 + 艺术封装大改造 + Vercel 部署上线
+        2. 核心任务目标：完成最终数据艺术项目的全链路部署（GitHub Pages / Vercel 上线），参加 Peer Critique 并提交 Best Final Killer Prompt 分析。
+        3. 教师巡回指导，及时发现并纠正学生实践中的认知偏差。
       minutes: 120
     - stage: 小结
-      summary: Peer Critique 与 Best Prompt 洞察大会，课程结业总结
+      summary: |-
+        【知识凝练与教学反思】
+        1. 归纳梳理：Peer Critique 与 Best Prompt 洞察大会，课程结业总结
+        2. 强化记忆：系统性总结本节课核心知识点与技能框架。
+        3. 布置课后延伸思考与预习任务。
       minutes: 15
   supported_objectives:
   - 能力1

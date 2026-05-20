@@ -142,14 +142,29 @@ Quote 应该触发巨型的引号底纹和特殊的衬线字体样式。
 
 ### 4-2 Comparison 正反对抗网格
 
+#### 写法 A：单行 `vs` 格式（简洁版）
+
 > [VISUAL]
 > *   **Slide**: S11_Comparison_Demo
 > *   **Layout**: `Comparison`
 > *   **Scene**: 原先糟糕的布局跟现在极简的布局的左右对照映射
 > *   **List**: ❌ 让用户填50多个抽象参数 / ✅ 提供 12 个贴近常识的常用场景
-> *   **Code**: \`\`\`css\n/* 假装这是对比附加代码 */\n.bad { color: red }\n\`\`\`
 
-引擎应触发强烈的左红右绿（或符合 `visual_system` 设定主调）对抗色系。
+#### 写法 B：多行 `label: items` 格式（含子项版）
+
+当左右两栏各有多个子项时，使用 `label: items` 的扁平化冒号格式，每栏一行：
+
+> [VISUAL]
+> *   **Slide**: S11b_Comparison_Detailed
+> *   **Layout**: `Comparison`
+> *   **Scene**: 传统分析方法与行为驱动方法的正反对比
+> *   **List**:
+> - ❌ 传统方法: 强制用户填写冗余表单、忽视行为差异、依赖问卷自报告
+> - ✅ 行为驱动: 观察真实操作习惯、追踪数字交互轨迹、A/B 测试验证假设
+
+引擎解析策略：`parseComparisonData()` 检测到每行含 `label: items` 格式（冒号键值对），自动提取冒号前为栏目标题、冒号后按顿号/逗号拆分为子项列表。
+
+> ⚠️ **嵌套列表禁令**：Comparison 布局中，**严禁使用缩进嵌套列表**（即二级 `>   - 子项`）。SSG 构建层（Python `extract_visual_list()`）会将所有嵌套层级拍平为一维数组，导致 H5 端 fallback 到奇偶分配逻辑，渲染结果严重错乱。必须使用上述扁平化 `label: items` 写法。
 
 ---
 
