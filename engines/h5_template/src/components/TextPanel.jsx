@@ -502,7 +502,8 @@ function LocatorButton({ para }) {
 
   const handleJump = (e) => {
     e.stopPropagation()
-    const ideUri = `antigravity://file${para.srcPath}:${para.srcLStart}`
+    // 使用 Antigravity IDE 专属的 URL Scheme 协议拉起编辑器并定位到指定行
+    const ideUri = `antigravity-ide://file${para.srcPath}:${para.srcLStart}`
     window.open(ideUri, '_self')
   }
 
@@ -520,7 +521,7 @@ function LocatorButton({ para }) {
   return (
     <button
       className={`locator-btn ${copied ? 'copied' : ''}`}
-      title={`点击跳转 Antigravity · 右键复制链接\n${para.srcPath.split('/').pop()}:L${para.srcLStart}`}
+      title={`点击跳转 Antigravity IDE · 右键复制链接\n${para.srcPath.split('/').pop()}:L${para.srcLStart}`}
       onClick={handleJump}
       onContextMenu={handleCopy}
     >

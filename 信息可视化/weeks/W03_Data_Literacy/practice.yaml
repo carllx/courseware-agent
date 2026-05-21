@@ -1,69 +1,136 @@
-# W03_practice.yaml — 真实大表重组极刑突围
+# W03_practice.yaml — 真实大表重组极刑突围与交织验证
 week: 3
-title: "真实大表重组极刑突围"
+title: "真实大表重组极刑突围与交织验证"
 experiment_link: [1, 2]
-total_minutes: 90  # hours_practice=2 → 2×45=90
+total_minutes: 90  # hours_practice=2 → 2×45=90分钟
 
 theory_prerequisites:
   - "Munzner What/Why 数据抽象框架"
   - "五种基本数据类型 (Item/Attribute/Link/Position/Grid)"
-  - "属性变量阶级壁垒 (Categorical/Ordinal/Quantitative)"
+  - "属性分类及其壁垒 (Categorical/Ordinal/Quantitative)"
   - "Tidy Data 三原则 (Wickham)"
   - "AI 结构化 Prompt 三要素 (Context/Shape/Constraints)"
 
 phases:
-  - id: P1
-    name: "废墟重组大作战"
-    minutes: 75
-    type: workshop
-    description: "利用 LLM 三层结构化 Prompt 清洗真实灾难级宽表"
-    tools: ["Claude/DeepSeek", "RAWGraphs"]
+  - id: DS1
+    name: "验证站1：灾害数据基因初探"
+    minutes: 10
+    type: lecture_demo
+    description: "教师利用 VSCode AI Agent 诊断灾害数据，揭示类型转换的隐蔽性与认知陷阱"
+    tools: ["VSCode + AI Agent", "Excel"]
     steps:
-      - "从课程仓库拉取 disaster_china_stat.xlsx"
-      - "使用三层 Prompt 模板（Context/Shape/Constraints）命令大模型清洗重组"
-      - "迭代修正：记录模型首次出错时的修正 Prompt（如括号城市名拆分问题）"
-      - "提取干净 Tidy CSV，拖入 RAWGraphs 验证可视化效果"
-    deliverables:
-      - "干净的 Tidy CSV 长表"
-      - "与 AI 的迭代对话截图（含修正轮次）"
+      - "打开 disaster_sample.csv，展示原始数据的文本形态"
+      - "演示在 VSCode 中向 AI Agent 提问：'请帮我分析该数据每一列属于什么数据类型？'"
+      - "重点揭示 AI 对【区划代码】的类型误判（误判为 Quantitative 数值，实为 Categorical 分类）"
     theory_link:
-      - concept_id: tidy_data
-        description: "应用 Tidy Data 三原则清洗表"
-      - concept_id: data_abstraction
-        description: "理解 What/Why 数据抽象建模"
+      - concept_id: attribute_types
+        description: "理解 Categorical、Ordinal 与 Quantitative 的阶级壁垒"
     materials:
       - type: dataset
-        title: "本周占位验证数据集"
-        file: "assets/practice/placeholder_data.csv"
+        title: "原始灾害宽表 CSV"
+        file: "public/practice/disaster_sample.csv"
         format: csv
         schema:
-          keys: ["id"]
-          values: ["value"]
+          keys: ["序号"]
           types:
-            id: categorical
-            value: quantitative
+            序号: ordinal
+            省份: categorical
+            区划代码: categorical  # 认知陷阱：数字形式的分类属性
+            灾害等级: ordinal      # 顺序属性
+            2021年受灾人口(万人): quantitative
+            2022年受灾人口(万人): quantitative
+            2023年受灾人口(万人): quantitative
+            2021年直接经济损失(亿元): quantitative
+            2022年直接经济损失(亿元): quantitative
+            2023年直接经济损失(亿元): quantitative
+
+  - id: DS2
+    name: "验证站2：特征分流与分类判决"
+    minutes: 20
+    type: workshop
+    description: "学生利用 AI 辅助，识别数据属性的特征分类并纠正 AI 的判断偏差"
+    tools: ["Excel", "VSCode + AI Agent"]
+    steps:
+      - "学生分组打开 disaster_sample.xlsx，在 Sheet1【宽表(原始)】中审视数据属性"
+      - "利用 AI Agent 分析数据属性，找出容易被混淆的【区划代码】与【年份】"
+      - "手操或让 AI 指引将【区划代码】强制指定为文本格式，体会其分类本质"
+      - "在 Excel 中为 5 个省份补齐【年份】与【灾害等级】的语义描述"
+    deliverables:
+      - "标注了属性类型的 Excel 截图"
+    theory_link:
+      - concept_id: attribute_taxonomy
+        description: "熟练划分五种数据类型与三种属性分类"
+
+  - id: DS3
+    name: "验证站3：混沌表重组极刑突围"
+    minutes: 25
+    type: workshop
+    description: "学生利用三层结构化 Prompt 引导 AI Agent 完成宽表到长表的 Tidy 转换，消除冗余"
+    tools: ["VSCode + AI Agent", "Excel"]
+    steps:
+      - "从 CSV 文件出发，编写包含上下文（Context）、长表形态（Shape）与约束（Constraints）的三层 Prompt"
+      - "发送给 AI Agent 自动消除【全国总计】行与首尾备注杂质"
+      - "将混合指标（2021-2023受灾人口/经济损失）拆解重组为 Tidy Data 的 6 列标准长表结构"
+      - "检查转换结果，确保数据无失真，另存为 tidy_disaster.csv"
+    deliverables:
+      - "tidy_disaster.csv 文件"
+      - "使用的三层结构化 Prompt 文本"
+    theory_link:
+      - concept_id: tidy_data_principles
+        description: "实战应用 Tidy Data 三原则，体会整洁数据对可视化的核心意义"
+    materials:
+      - type: dataset
+        title: "Tidy 长表参考答案"
+        file: "public/practice/disaster_sample.xlsx"
+        format: xlsx
+        sheet: "答案(仅教师)"
+        schema:
+          keys: ["省份", "年份"]
+          types:
+            省份: categorical
+            区划代码: categorical
+            灾害等级: ordinal
+            年份: ordinal
+            受灾人口(万人): quantitative
+            直接经济损失(亿元): quantitative
+
+  - id: DS4
+    name: "验证站4：RAWGraphs 视觉基因映射"
+    minutes: 20
+    type: workshop
+    description: "将清洗后的长表 CSV 导入 RAWGraphs 进行多维度视觉通道映射"
+    tools: ["RAWGraphs"]
+    steps:
+      - "访问 RAWGraphs 网页端，上传清洗好的 tidy_disaster.csv"
+      - "将【省份】映射为色彩（Color），【年份】映射为 X 轴，【受灾人口】映射为 Y 轴或尺寸（Size），绘制多系列折线图或冲积图"
+      - "观察：如果未做 Tidy 转换（直接上传原始宽表），在 RAWGraphs 中会遇到什么阻碍（无法直接绘制年份趋势折线图）"
+    deliverables:
+      - "RAWGraphs 可视化图表截图与映射配置图"
+    theory_link:
+      - concept_id: visual_channel_mapping
+        description: "理解数据属性到视觉通道（位置、尺寸、颜色）的映射机制"
 
   - id: P2
     name: "经典作品逆向工程抢答"
     minutes: 15
     type: discussion
-    description: "逆向分析经典可视化作品的底层数据结构"
+    description: "逆向分析经典可视化作品的底层数据结构与维度映射"
     tools: ["学习通"]
     steps:
-      - "展示向帆团队《解构藏文》或米纳德'拿破仑东征'截图"
-      - "小组 5 分钟内逆向画出底层数据表形态"
-      - "标注每列的 Munzner 属性分类"
-      - "最快最准组获胜"
+      - "教师展示米纳德《拿破仑东征》经典可视化作品"
+      - "学生在 5 分钟内逆向画出拿破仑东征所需的底层 Tidy 数据表形态"
+      - "标注出每一列（如：人数、坐标、前进/后退方向、温度）的 Munzner 属性分类"
+      - "快速拍照上传至学习通，由教师现场纠偏点评，并引入上海大学团队《解构藏文》和向帆团队《Award Puzzle》进行拓展"
     deliverables:
-      - "课堂实战打卡与交互记录"
+      - "纸质手绘或数字版底层数据表结构图（拍照打卡）"
     theory_link:
-      - concept_id: munzner_data_taxonomy
-        description: "基于 Munzner 分类体系逆向分析"
+      - concept_id: munzner_reverse_engineering
+        description: "基于经典作品逆向还原数据抽象与设计方案"
 
 homework:
   title: "野生数据集 Tidy 化清洗"
-  description: "从公开数据源获取一份原始宽表数据，利用 LLM Prompt 清洗为 Tidy CSV，并撰写约 500 字的数据抽象分析"
+  description: "从公开数据源（如国家统计局或 Kaggle）获取一份原始宽表数据，利用 AI Agent 进行 Tidy CSV 长表转换，并撰写一份 500 字的数据抽象分析"
   deliverables:
     - "原始宽表截图"
-    - "Tidy CSV 长表文件"
-    - "500 字数据抽象分析（Item/Attribute/Derive 策略）"
+    - "Tidy 转换后的 CSV 长表"
+    - "500 字数据抽象分析（包含数据类型、属性分类、Item-Attribute 建模策略）"

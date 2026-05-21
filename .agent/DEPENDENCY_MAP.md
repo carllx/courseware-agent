@@ -98,6 +98,18 @@
 
 ---
 
+## 实验文档双轨生成 → 依赖链路
+
+| 上游文件 | 下游依赖 | 影响说明 |
+|:---|:---|:---|
+| `course.yaml → experiments[]` | `generate_exp_docs.py`, `/design_experiment` | 实验元数据（目的/设备/要求/方法/结论）的 SSOT；字段变更须重新生成文档 |
+| `.agent/templates/experiment_doc_schema.md` | `<课程>/practices/experiments/exp_X.yaml`, `generate_exp_docs.py` | 增量 Schema 变更须同步数据和脚本 |
+| `<课程>/practices/experiments/exp_X.yaml` | `generate_exp_docs.py` → Output/ | 增量数据变更须重新生成指导书和报告模板 |
+| `rule_document_boundaries.md` §4 + §6.5 | `/design_experiment` Step 0-1 | 实验外键关联规范与 SSOT 越界禁令 |
+
+
+---
+
 ## 概念注册与 Schema 版本同步 (ADR 043)
 
 | 上游文件 | 下游依赖 | 影响说明 |

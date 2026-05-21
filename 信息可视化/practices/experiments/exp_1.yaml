@@ -1,0 +1,86 @@
+# exp_1.yaml — 增量数据层（元数据从 course.yaml experiments[id=1] 读取）
+# Schema: .agent/templates/experiment_doc_schema.md
+# 合规: rule_document_boundaries.md §4 + §6.5
+exp_id: 1
+
+steps:
+  - id: "S1"
+    name: "定位并引入数据源"
+    guide_text:
+      - "前往政府开放数据平台或 Kaggle (kaggle.com)，寻找一个包含脏数据的 CSV 或 JSON 格式文件。"
+      - "优先选择包含缺失值、异常值、非结构化文本等「清洗挑战」的数据集，以便练习完整的清洗流程。"
+      - "启动 Jupyter Notebook，使用 `pandas.read_csv()` 或 `read_json()` 读取数据。"
+      - "使用 `df.head()` 和 `df.info()` 宏观了解数据结构（行列数、数据类型、非空计数）。"
+    report_prompt:
+      - type: text
+        prompt: "请写明你选择的数据集名称、数据来源（URL）及其业务背景"
+      - type: image
+        prompt: "请粘贴 Kaggle 或数据平台的数据集页面截图"
+      - type: text
+        prompt: "请写出你使用的读取代码及 df.info() 的关键输出信息"
+      - type: image
+        prompt: "请粘贴成功读取数据后 head() 或 info() 的运行截图"
+
+  - id: "S2"
+    name: "缺失值与异常值侦测"
+    guide_text:
+      - "使用 `df.isnull().sum()` 扫描每一列的缺失值数量。"
+      - "使用 `df.describe()` 查看数值列的分布，定位是否有明显超出常理的极大值或极小值。"
+      - "对于分类变量，使用 `df['列名'].value_counts()` 检查是否有异常类别（如拼写错误、空白字符串）。"
+    report_prompt:
+      - type: text
+        prompt: "请描述你发现的缺失值分布情况（哪些列、缺了多少）"
+      - type: image
+        prompt: "请粘贴 isnull().sum() 的运行结果截图"
+      - type: text
+        prompt: "请描述你发现的异常值情况（哪些列存在离群值）"
+      - type: image
+        prompt: "请粘贴 describe() 或异常值筛查的截图"
+
+  - id: "S3"
+    name: "执行数据清洗决策"
+    guide_text:
+      - "根据你的业务逻辑，决定是使用 `dropna()` 删除缺失值，还是使用 `fillna()` 填充（均值/中位数/众数）。"
+      - "对于异常值，使用条件过滤（如 `df = df[df['列名'] < 阈值]`）进行截断或纠正。"
+      - "如果字段名称存在不规范的情况，使用 `df.rename()` 进行标准化。"
+      - "**重要**：每一步清洗操作都必须在报告中记录你的决策理由。"
+    report_prompt:
+      - type: text
+        prompt: "请详细说明：你对哪个字段进行了填充或删除？为什么选择这种策略？"
+      - type: image
+        prompt: "请粘贴执行清洗操作的核心代码截图"
+      - type: text
+        prompt: "请说明清洗后数据的行列数变化（清洗前 vs 清洗后）"
+      - type: image
+        prompt: "请粘贴清洗后 df.info() 的运行结果截图，证明缺失值已处理"
+
+  - id: "S4"
+    name: "输出 Tidy Data"
+    guide_text:
+      - "使用 `df.to_csv('cleaned_data.csv', index=False)` 将清洗完成的数据保存到本地。"
+      - "验证导出的 CSV 文件是否满足 Tidy Data 三原则：每行一个观测、每列一个变量、每个单元格一个值。"
+      - "在 Excel 或文本编辑器中打开导出文件进行最终确认。"
+    report_prompt:
+      - type: text
+        prompt: "请简要说明你的 Tidy Data 转换逻辑（是否进行了宽表→长表变换等）"
+      - type: image
+        prompt: "请粘贴导出的 cleaned_data.csv 在 Excel 或编辑器中的最终排版截图"
+
+analysis_prompts:
+  - "[请总结本次实验中你的数据清洗策略及其效果，包括清洗前后的行列数对比]"
+  - "[请反思在数据处理过程中遇到的主要困难和解决方案]"
+  - "[请评价你最终输出的数据是否完全符合 Tidy Data 三原则，如有不足请说明原因]"
+
+grading_rubric:
+  - dimension: "数据源选择与引入"
+    points: 20
+    standard: "数据集具有业务价值，成功导入并宏观描述了数据结构。"
+  - dimension: "清洗决策合理性"
+    points: 30
+    standard: "对缺失值和异常值的处理有充分的逻辑支撑，操作正确。"
+  - dimension: "图文穿插与规范性"
+    points: 25
+    standard: "严格遵守图文穿插要求，排版整洁，无连续粘贴无说明图片的情况。"
+  - dimension: "最终输出质量"
+    points: 25
+    standard: "导出的数据集完全符合 Tidy Data 规范，可直接用于下游的可视化开发。"
