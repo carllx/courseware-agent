@@ -1,86 +1,97 @@
-# exp_1.yaml — 增量数据层（元数据从 course.yaml experiments[id=1] 读取）
+# exp_2.yaml — 增量数据层（元数据从 course.yaml experiments[id=2] 读取）
 # Schema: .agent/templates/experiment_doc_schema.md
 # 合规: rule_document_boundaries.md §4 + §6.5
 exp_id: 1
 
 steps:
   - id: "S1"
-    name: "定位并引入数据源"
+    name: "1. Load your data"
     guide_text:
-      - "前往政府开放数据平台或 Kaggle (kaggle.com)，寻找一个包含脏数据的 CSV 或 JSON 格式文件。"
-      - "优先选择包含缺失值、异常值、非结构化文本等「清洗挑战」的数据集，以便练习完整的清洗流程。"
-      - "启动 Jupyter Notebook，使用 `pandas.read_csv()` 或 `read_json()` 读取数据。"
-      - "使用 `df.head()` 和 `df.info()` 宏观了解数据结构（行列数、数据类型、非空计数）。"
+      - "打开浏览器，访问 RawGraphs 2.0 在线平台：https://app.rawgraphs.io/"
+      - "**数据来源（三选一）**："
+      - "  1. 可以选择使用老师提供的数据（如校园采样数据集 `student_data_expanded.csv`）。"
+      - "  2. 自己准备并导入一份感兴趣的 CSV/Excel 数据集。"
+      - "  3. 使用 RawGraphs 平台里面提供的已存在的数据模板（点击 'Try our samples!'）。"
+      - "在 'DATA PARSING OPTIONS' 中检查数据类型解析：确保分类型字段解析为 `Aa String`，数值型字段解析为 `# Number`。"
     report_prompt:
       - type: text
-        prompt: "请写明你选择的数据集名称、数据来源（URL）及其业务背景"
+        prompt: "请简要描述导入的数据集（行数、列数、核心字段含义）"
       - type: image
-        prompt: "请粘贴 Kaggle 或数据平台的数据集页面截图"
-      - type: text
-        prompt: "请写出你使用的读取代码及 df.info() 的关键输出信息"
-      - type: image
-        prompt: "请粘贴成功读取数据后 head() 或 info() 的运行截图"
+        prompt: "请粘贴数据成功加载以及 DATA PARSING OPTIONS 确认无误的界面截图"
 
   - id: "S2"
-    name: "缺失值与异常值侦测"
+    name: "2. Choose a chart"
     guide_text:
-      - "使用 `df.isnull().sum()` 扫描每一列的缺失值数量。"
-      - "使用 `df.describe()` 查看数值列的分布，定位是否有明显超出常理的极大值或极小值。"
-      - "对于分类变量，使用 `df['列名'].value_counts()` 检查是否有异常类别（如拼写错误、空白字符串）。"
+      - "在界面中向下滚动到 '2. Choose a chart' 面板。"
+      - "在本次先导体验中，请从以下三种经典图表中**选择其中一个**完成实践即可："
+      - "  - **选项一：Alluvial Diagram（流向图）** —— 发现分类间的流动与分支"
+      - "  - **选项二：Violin Plot（小提琴图）** —— 看透群体的分布身材"
+      - "  - **选项三：Beeswarm Plot（蜂群图）** —— 对个体的终极尊重"
     report_prompt:
       - type: text
-        prompt: "请描述你发现的缺失值分布情况（哪些列、缺了多少）"
+        prompt: "这三种图表分别属于哪种类型的可视化（如：层级、分布、比较等）？请简要说明"
       - type: image
-        prompt: "请粘贴 isnull().sum() 的运行结果截图"
-      - type: text
-        prompt: "请描述你发现的异常值情况（哪些列存在离群值）"
-      - type: image
-        prompt: "请粘贴 describe() 或异常值筛查的截图"
+        prompt: "请粘贴你选择图表类型时的界面截图（任选其一即可）"
 
   - id: "S3"
-    name: "执行数据清洗决策"
+    name: "3. Mapping"
     guide_text:
-      - "根据你的业务逻辑，决定是使用 `dropna()` 删除缺失值，还是使用 `fillna()` 填充（均值/中位数/众数）。"
-      - "对于异常值，使用条件过滤（如 `df = df[df['列名'] < 阈值]`）进行截断或纠正。"
-      - "如果字段名称存在不规范的情况，使用 `df.rename()` 进行标准化。"
-      - "**重要**：每一步清洗操作都必须在报告中记录你的决策理由。"
+      - "进入 '3. Mapping' 面板，将左侧的 Dimensions（数据维度）拖拽到右侧的 Chart Variables（图表变量）中："
+      - "根据你选择的图表，参考以下映射思路（如果使用自带数据请灵活调整对应字段）："
+      - "**[配置 A：流向图]**"
+      - "  - Steps: 按顺序拖入 2-3 个分类字段"
+      - "  - Size: 留空（自动按比例计算）"
+      - "**[配置 B：小提琴图]**"
+      - "  - X Axis: 留空"
+      - "  - Size: 拖入数值型字段"
+      - "  - Groups / Color: 拖入分类型字段"
+      - "**[配置 C：蜂群图]**"
+      - "  - X Axis: 拖入数值型字段"
+      - "  - Color: 拖入分类型字段"
+      - "  - Label: 拖入个体标识字段"
+      - "  - Groups: 拖入分类跑道"
     report_prompt:
-      - type: text
-        prompt: "请详细说明：你对哪个字段进行了填充或删除？为什么选择这种策略？"
       - type: image
-        prompt: "请粘贴执行清洗操作的核心代码截图"
+        prompt: "请粘贴你所选图表的 Mapping 面板变量映射配置截图及最终生成的图表截图"
       - type: text
-        prompt: "请说明清洗后数据的行列数变化（清洗前 vs 清洗后）"
-      - type: image
-        prompt: "请粘贴清洗后 df.info() 的运行结果截图，证明缺失值已处理"
+        prompt: "【数据洞察】请描述你在该图表中观察到的有趣现象或群体规律"
 
   - id: "S4"
-    name: "输出 Tidy Data"
+    name: "4. Customize"
     guide_text:
-      - "使用 `df.to_csv('cleaned_data.csv', index=False)` 将清洗完成的数据保存到本地。"
-      - "验证导出的 CSV 文件是否满足 Tidy Data 三原则：每行一个观测、每列一个变量、每个单元格一个值。"
-      - "在 Excel 或文本编辑器中打开导出文件进行最终确认。"
+      - "在 '4. Customize' 面板中对图表进行视觉微调（如更改 Color Scale、调整宽高比例、开启 Show Labels）。"
+      - "观察不同 Customize 参数对图表视觉表达（信息层级、对比度）的影响。"
+      - "完成所有微调后，点击左下角的 Export，将最终图表导出为 SVG 或 PNG 格式。"
     report_prompt:
       - type: text
-        prompt: "请简要说明你的 Tidy Data 转换逻辑（是否进行了宽表→长表变换等）"
+        prompt: "请描述你在 Customize 面板中做出的最重要的一项视觉调整，及其对信息传达的帮助"
       - type: image
-        prompt: "请粘贴导出的 cleaned_data.csv 在 Excel 或编辑器中的最终排版截图"
+        prompt: "请粘贴调整完毕后，准备导出的完整界面截图"
+
+  - id: "S5"
+    name: "5. Analysis"
+    guide_text:
+      - "结合刚才生成的图表，进行深度的交叉分析。"
+      - "反思该图表类型在揭示数据隐藏规律（如分类流动、群体分布、个体差异）时的侧重点。"
+    report_prompt:
+      - type: text
+        prompt: "【综合洞察】请综合分析：该图表中不同的视觉通道（如颜色、大小、位置）在揭示数据真相时，是如何相互配合的？"
 
 analysis_prompts:
-  - "[请总结本次实验中你的数据清洗策略及其效果，包括清洗前后的行列数对比]"
-  - "[请反思在数据处理过程中遇到的主要困难和解决方案]"
-  - "[请评价你最终输出的数据是否完全符合 Tidy Data 三原则，如有不足请说明原因]"
+  - "[请回顾你在所选图表中的 Mapping 过程。该图表最核心的 1-2 个 Chart Variables 是什么？]"
+  - "[对比你使用的图表与传统的柱状图/饼图，它们在表达数据特性（如分布形状、个体标记、流动关系）上有什么本质区别？]"
+  - "[请结合本实践，谈谈为何掌握 Dimensions 到 Chart Variables 的映射关系能让你从图表模板的搬运工转变为数据世界的造物主？]"
 
 grading_rubric:
-  - dimension: "数据源选择与引入"
+  - dimension: "数据加载与类型解析"
     points: 20
-    standard: "数据集具有业务价值，成功导入并宏观描述了数据结构。"
-  - dimension: "清洗决策合理性"
+    standard: "正确加载数据并在 DATA PARSING OPTIONS 中确认各字段类型无误。"
+  - dimension: "图表选择与 Mapping 准确性"
+    points: 40
+    standard: "所选图表的 Dimensions 到 Chart Variables 的映射完全正确，截图清晰完整。"
+  - dimension: "数据洞察深度"
     points: 30
-    standard: "对缺失值和异常值的处理有充分的逻辑支撑，操作正确。"
-  - dimension: "图文穿插与规范性"
-    points: 25
-    standard: "严格遵守图文穿插要求，排版整洁，无连续粘贴无说明图片的情况。"
-  - dimension: "最终输出质量"
-    points: 25
-    standard: "导出的数据集完全符合 Tidy Data 规范，可直接用于下游的可视化开发。"
+    standard: "能深刻理解所选图表揭示的数据规律，如分布形态、分流情况或个体特征。"
+  - dimension: "Customize 与理论反思"
+    points: 10
+    standard: "进行合理的视觉 Customize，对底层通道语法的反思深刻。"
