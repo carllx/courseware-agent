@@ -1,9 +1,6 @@
 ---
-trigger: glob
+trigger: model_decision
 description: 内容深度与逻辑完整度协议（大合并版）。涵盖预算检查、饱和度门限与素材补充机制。写作与审计时自动激活。
-globs:
-  - "**/weeks/*/src/*.md"
-  - "**/weeks/*/package.yaml"
 ---
 
 # 内容深度与字数防卫协议 (Content Depth & Recovery Protocol)

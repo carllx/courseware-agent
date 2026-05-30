@@ -1,0 +1,242 @@
+
+# Chapter 1. Introduction
+##  Why Data Visualization?
+##  Why Write Code?
+##  Why Interactive?
+##  Why on the Web?
+##  What This Book Is
+##  Who You Are
+##  What This Book Is Not
+##  Using Sample Code
+##  Thank You
+# Chapter 2. Introducing D3
+##  What It Does
+##  What It Doesn’t Do
+##  Origins and Context
+##  Alternatives
+### Easy Charts
+### Graph Visualizations
+### Geomapping
+### Almost from Scratch
+### Three-Dimensional
+### Tools Built with D3
+# Chapter 3. Technology Fundamentals
+##  The Web
+##  HTML
+### Content Plus Structure
+### Adding Structure with Elements
+### Common Elements
+### Attributes
+### Classes and IDs
+### Comments
+##  DOM
+##  Developer Tools
+##  Rendering and the Box Model
+##  CSS
+### Selectors
+### Properties and Values
+### Comments
+### Referencing Styles
+### Inheritance, Cascading, and Specificity
+##  JavaScript
+### Hello, Console
+### Variables
+### Other Variable Types
+### Arrays
+### Objects
+### Objects and Arrays
+### Mathematical Operators
+### Comparison Operators
+### Logical Operators
+### Control Structures
+### Functions
+### Comments
+### Referencing Scripts
+### JavaScript Gotchas
+##  SVG
+### The SVG Element
+### Simple Shapes
+### Styling SVG Elements
+### Layering and Drawing Order
+### Transparency
+##  A Note on Compatibility
+# Chapter 4. Setup
+##  Downloading D3
+##  Referencing D3
+##  Setting Up a Web Server
+### Terminal with Python
+### MAMP, WAMP, and LAMP
+### Diving In
+# Chapter 5. Data
+##  Generating Page Elements
+### Chaining Methods
+### One Link at a Time
+### The Handoff
+### Going Chainless
+##  Binding Data
+### In a Bind
+### Data
+### Please Make Your Selection
+### Bound and Determined
+### Using Your Data
+### High-Functioning
+### Data Wants to Be Held
+### Beyond Text
+# Chapter 6. Drawing with Data
+##  Drawing divs
+### Setting Attributes
+### A Note on Classes
+### Back to the Bars
+### Setting Styles
+##  The Power of data()
+### Random Data
+##  Drawing SVGs
+### Create the SVG
+### Data-Driven Shapes
+### Pretty Colors, Oooh!
+##  Making a Bar Chart
+### The Old Chart
+### The New Chart
+### Color
+##  Exercise
+### Labels
+##  Making a Scatterplot
+### The Data
+### The Scatterplot
+### Size
+### Labels
+##  Next Steps
+# Chapter 7. Scales
+##  Apples and Pixels
+##  Domains and Ranges
+##  Normalization
+##  Creating a Scale
+##  Scaling the Scatterplot
+### d3.min() and d3.max()
+### Setting Up Dynamic Scales
+### Incorporating Scaled Values
+##  Refining the Plot
+##  Other Methods
+##  Other Scales
+### Square Root Scales
+### Time Scales
+# Chapter 8. Axes
+##  Introducing Axes
+##  Setting Up an Axis
+##  Positioning Axes
+##  Check for Ticks
+##  Y Not?
+##  Final Touches
+##  Formatting Tick Labels
+##  Time-Based Axes
+# Chapter 9. Updates, Transitions, and Motion
+##  Modernizing the Bar Chart
+### Ordinal Scales, Explained
+### Starting Your Own Band
+### Referencing the Band Scale
+### Other Updates
+##  Updating Data
+### Interaction via Event Listeners
+### Changing the Data
+### Updating the Visuals
+##  Transitions
+### duration(), or How Long Is This Going to Take?
+### ease()-y Does It
+### Please Do Not delay()
+### Randomizing the Data
+### Updating Scales
+### Updating Axes
+### on() Transition Starts and Ends
+##  Other Kinds of Data Updates
+### Adding Values (and Elements)
+### Removing Values (and Elements)
+### Data Joins with Keys
+### Add and Remove: Combo Platter
+### Recap
+# Chapter 10. Interactivity
+##  Binding Event Listeners
+##  Introducing Behaviors
+### Hover to Highlight
+##  Grouping SVG Elements
+### Click to Sort
+##  Named Transitions
+##  Tooltips
+### Default Browser Tooltips
+### SVG Element Tooltips
+### HTML div Tooltips
+##  Consideration for Touch Devices
+##  Moving Forward
+# Chapter 11. Using Paths
+##  Line Charts
+### Data Preparation
+##  CO2 expressed as a mole fraction in dry air, micromol/mol, abbreviated as ppm
+##   (-99.99 missing data;  -1 no data for #daily means in month)
+##             decimal     average   interpolated    trend    #days
+##              date                             (season corr)
+### Scale Setup
+### Line ’em Up
+### Dealing with Missing Data
+##   (-99.99 missing data;  -1 no data for #daily means in month)
+### Refining the Visuals
+##  Area Charts
+# Chapter 12. Selections
+##  A Closer Look at Selections
+##  Getting More Specific
+##  Storing Selections
+##  Enter, Merge, and Exit
+### The Enter Selection
+### Merging Selections
+### The Exit Selection
+##  Filtering Selections Based on Data
+### To each() Their Own
+# Chapter 13. Layouts
+##  Pie Layout
+##  Stack Layout
+##  Exercise
+### A New Order
+### Anchoring Those Bars
+### Stacked Areas
+##  Force Layout
+### Preparing the Network Data
+### Defining the Force Simulation
+### Creating the Visual Elements
+### Updating Visuals over Time
+### Draggable Nodes
+# Chapter 14. Geomapping
+##  JSON, Meet GeoJSON
+##  Paths
+##  Projections
+##  Choropleth
+##  Adding Points
+##  Never Trust a Geocoder
+##  Take a break!
+##  Panning
+### Transitioning the Map
+### Dragging the Map
+### Border Problems
+##  Zooming
+### Fixing the Pan Buttons
+### Zoom-y Buttons
+### Constraining Panning and Zooming
+### Preset Views
+##  Value Labels
+##  Acquiring and Preparing Raw Geodata
+### Find Shapefiles
+### Choose a Resolution
+### Simplify the Shapes
+### Convert to GeoJSON
+##  Converting Coordinates Systems with ogr2ogr
+### Choose a Projection
+# Chapter 15. Exporting
+##  Bitmaps
+##  PDF
+##  SVG
+# Chapter 16. Project Walk-Through
+##  Prepare the Data
+##  Load and Parse the Data
+##  Render the Initial View
+##  Add Interactivity
+##  Refine Styling
+##  Provide Context
+##  Multiple Charts on a Page
+##  Dancing Versus Gardening

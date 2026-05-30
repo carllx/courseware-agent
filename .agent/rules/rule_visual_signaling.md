@@ -60,6 +60,10 @@ Speech 中出现 ≥3 个并列要点时，不再一刀切地要求 VISUAL 块�
 - Agent 执行人工判定，不自动修复
 - 默认**不报错**（宁可漏检，不可误杀）
 
+### §2.3 纯文本排版豁免
+
+当 `[VISUAL]` 块的 `Layout` 为 `Code`、`Diagram` 或 `Table`（无论显式声明还是隐式推断），或者该块关联了下方紧跟的纯文本资产（如 Markdown 代码块、表格）时，由于资产本身已在屏幕上展示了高度结构化的信息，此类 Slide **天然豁免** `List` 字段缺失的检查规则。即使讲稿中出现了结构性枚举，也无需在元数据中重复添加 `List`。
+
 ---
 
 ## §3 List 条目的字数约束
@@ -92,6 +96,7 @@ Speech 中出现 ≥3 个并列要点时，不再一刀切地要求 VISUAL 块�
 | `rule_heading_design.md` | **互补**——H3 断言标题作为讲者记忆锚点的机制不变 |
 | `rule_coherence_audit.md` | **互补**——Mayer 一致性原则审查与本规则的修辞排比禁令方向一致 |
 | `validate_visual_text_sync.py` | **被本规则指导**——脚本按本规则的分类矩阵执行自动化检测 |
+| `Layout: Code/Diagram/Table` | **不适用**——纯文本视觉资产类型的 Slide（代码块/Mermaid 图表/Markdown 表格）不存在 `List` 字段，本规则的分流决策矩阵对其无效，审计时应跳过 |
 
 ---
 

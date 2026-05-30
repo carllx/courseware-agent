@@ -1,5 +1,5 @@
 ---
-trigger: always
+trigger: model_decision
 description: 当执行过程中发现新的架构决策、Bug 修复经验或风格反馈时，主动将知识固化到对应文档（Memory Commit）。
 ---
 

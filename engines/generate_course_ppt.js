@@ -275,6 +275,34 @@ slides.forEach((slide, i) => {
                 }
                 lastSeenH3 = slide.visual.h3;
             }
+            
+            // 纯文字资产降级策略：Mermaid 图表 -> 网络图片
+            if (slide.visual.assetType === 'mermaid' && slide.visual.assetContent) {
+                const b64 = Buffer.from(slide.visual.assetContent).toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+                const url = `https://mermaid.ink/img/${b64}`;
+                // 统一输出目录提前创建，或者写在临时目录
+                const mmdDir = path.resolve(coursePath, 'build', 'artifacts', '_intermediate');
+                if (!fs.existsSync(mmdDir)) fs.mkdirSync(mmdDir, { recursive: true });
+                const imgPath = path.resolve(mmdDir, `mermaid_slide_${i}.png`);
+                
+                if (!fs.existsSync(imgPath)) {
+                    console.log(`   🌊 [Mermaid] 下载远端图表...`);
+                    try {
+                        execSync(`curl -sL "${url}" -o "${imgPath}"`, { timeout: 15000 });
+                        if (fs.existsSync(imgPath) && fs.statSync(imgPath).size > 0) {
+                            slide.visual.assets = [imgPath];
+                            slide.visual.asset = imgPath;
+                        } else {
+                            console.warn(`   ⚠️  [Mermaid] 下载失败，图片为空`);
+                        }
+                    } catch(e) {
+                        console.warn(`   ⚠️  [Mermaid] 网络异常: ${e.message}`);
+                    }
+                } else {
+                    slide.visual.assets = [imgPath];
+                    slide.visual.asset = imgPath;
+                }
+            }
         }
 
         renderSlide(pres, slide, theme, scriptDir);

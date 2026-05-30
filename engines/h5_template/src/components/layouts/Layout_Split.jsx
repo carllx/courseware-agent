@@ -17,8 +17,7 @@ export default function Layout_Split({ slide }) {
   if (hasMultiImages) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
-        {slide.text && <div className="h5-split-title-bar">{slide.text}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className="h5-slide-body h5-layout-split-dual">
           {slide.resolvedImages.slice(0, 2).map((img, i) => (
             <div className="h5-split-dual-pane" key={i}>
@@ -37,11 +36,11 @@ export default function Layout_Split({ slide }) {
   // ── 单图模式（原有逻辑） ──
   return (
     <>
-      {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+      {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
       <div className="h5-slide-body h5-layout-editorial-split">
         <AssetPlaceholder 
           slide={slide} 
-          proportion={slide.scene && !slide.resolvedImage ? '100%' : '55%'} 
+          proportion={slide.scene && !slide.resolvedImage && !slide.assetContent ? '100%' : '55%'} 
         />
         
         {/* 右侧：列表或描述 */}
@@ -49,9 +48,9 @@ export default function Layout_Split({ slide }) {
           {hasList ? (
             <EditorialList items={slide.parsedList} variant="bars" />
           ) : (
-            (slide.text || slide.scene) && (
+            (slide.scene) && (
               <p className="h5-split-scene">
-                {slide.text || slide.scene}
+                {slide.scene}
               </p>
             )
           )}

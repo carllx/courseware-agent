@@ -140,6 +140,11 @@ def run_visuals_validator(course_name: str, scripts_dir: str,
     referenced_files = set()
 
     for ref in refs:
+        # 纯文本视觉资产（代码块/Mermaid/表格）无需物理文件
+        if ref.get("has_inline_asset"):
+            matched.append(ref)
+            continue
+
         asset_path = ref.get("asset", "")
         sid = ref.get("slide_id", "")
 

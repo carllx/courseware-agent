@@ -1,0 +1,58 @@
+objectives:
+  knowledge:
+  - index: 1
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: M
+  - index: 2
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: M
+  - index: 3
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: M
+  ability:
+  - index: 1
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: M
+  - index: 2
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: M
+  - index: 3
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: M
+  quality:
+  - index: 1
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: L
+  - index: 2
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: L
+  - index: 3
+    desc: ''
+    mappings:
+    - requirement: ''
+      point: ''
+      support_level: L

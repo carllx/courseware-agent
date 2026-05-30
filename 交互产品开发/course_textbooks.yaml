@@ -1,0 +1,300 @@
+textbooks:
+- title: 交互设计：超越人机交互（原书第5版）
+  author: Yvonne Rogers, Helen Sharp, Jennifer Preece 著；刘晓晖 等译
+  publisher: 机械工业出版社
+  year: '2020'
+  isbn: 978-7-111-65893-1
+  type: textbook
+  citation: 'Yvonne Rogers, Helen Sharp, Jennifer Preece. 交互设计：超越人机交互（原书第5版）[M]. 刘晓晖 等译. 北京: 机械工业出版社, 2020.'
+  toc:
+  - chapter: 1
+    title: 什么是交互设计
+    title_en: What is Interaction Design?
+  - chapter: 2
+    title: 交互设计过程
+    title_en: The Process of Interaction Design
+  - chapter: 3
+    title: 概念化交互
+    title_en: Conceptualizing Interaction
+  - chapter: 4
+    title: 认知方面
+    title_en: Cognitive Aspects
+  - chapter: 5
+    title: 社会交互
+    title_en: Social Interaction
+  - chapter: 6
+    title: 情感交互
+    title_en: Emotional Interaction
+  - chapter: 7
+    title: 界面
+    title_en: Interfaces
+  - chapter: 8
+    title: 数据收集
+    title_en: Data Gathering
+  - chapter: 9
+    title: 数据分析、解释与呈现
+    title_en: Data Analysis, Interpretation, and Presentation
+  - chapter: 10
+    title: 大规模数据与伦理关切
+    title_en: Data at Scale and Ethical Concerns
+  - chapter: 11
+    title: 发现需求
+    title_en: Discovering Requirements
+  - chapter: 12
+    title: 设计、原型与构建
+    title_en: Design, Prototyping, and Construction
+  - chapter: 13
+    title: 交互设计实践
+    title_en: Interaction Design in Practice
+  - chapter: 14
+    title: 评估导论
+    title_en: Introducing Evaluation
+  - chapter: 15
+    title: 评估研究：从受控到自然环境
+    title_en: 'Evaluation Studies: From Controlled to Natural Settings'
+  - chapter: 16
+    title: 评估：检查、分析与模型
+    title_en: 'Evaluation: Inspections, Analytics, and Models'
+- title: 'Interaction Design: Beyond Human-Computer Interaction (6th Ed.)'
+  author: Yvonne Rogers, Helen Sharp, Jennifer Preece
+  publisher: Wiley
+  year: '2023'
+  type: reference
+  citation: 'Yvonne Rogers, Helen Sharp, Jennifer Preece. Interaction Design: Beyond Human-Computer Interaction (6th Ed.)[M].
+    Hoboken: Wiley, 2023.'
+  toc:
+  - chapter: 1
+    title: 什么是交互设计
+    title_en: What is Interaction Design?
+  - chapter: 2
+    title: 交互设计过程
+    title_en: The Process of Interaction Design
+  - chapter: 3
+    title: 概念化交互
+    title_en: Conceptualizing Interaction
+  - chapter: 4
+    title: 认知方面
+    title_en: Cognitive Aspects
+  - chapter: 5
+    title: 社会交互
+    title_en: Social Interaction
+  - chapter: 6
+    title: 情感交互
+    title_en: Emotional Interaction
+  - chapter: 7
+    title: 界面
+    title_en: Interfaces
+  - chapter: 8
+    title: 数据收集
+    title_en: Data Gathering
+  - chapter: 9
+    title: 数据分析、解释与呈现
+    title_en: Data Analysis, Interpretation, and Presentation
+  - chapter: 10
+    title: 大规模数据与伦理关切
+    title_en: Data at Scale and Ethical Concerns
+  - chapter: 11
+    title: 发现需求
+    title_en: Discovering Requirements
+  - chapter: 12
+    title: 设计、原型与构建
+    title_en: Design, Prototyping, and Construction
+  - chapter: 13
+    title: 交互设计实践
+    title_en: Interaction Design in Practice
+  - chapter: 14
+    title: 评估导论
+    title_en: Introducing Evaluation
+  - chapter: 15
+    title: 评估研究：从受控到自然环境
+    title_en: 'Evaluation Studies: From Controlled to Natural Settings'
+  - chapter: 16
+    title: 评估：检查、分析与模型
+    title_en: 'Evaluation: Inspections, Analytics, and Models'
+- title: 精益 UX：设计伟大产品的敏捷反求方法 (Lean UX)
+  author: Jeff Gothelf, Josh Seiden
+  publisher: 人民邮电出版社
+  year: '2022'
+  type: reference
+  citation: 'Jeff Gothelf, Josh Seiden. 精益 UX：设计伟大产品的敏捷反求方法[M]. 北京: 人民邮电出版社, 2022.'
+  toc:
+  - chapter: 1
+    title: 比以往任何时候都更重要
+    title_en: More Important Now than Ever Before
+  - chapter: 2
+    title: 原则
+    title_en: Principles
+  - chapter: 3
+    title: 成果
+    title_en: Outcomes
+  - chapter: 4
+    title: 精益UX画布
+    title_en: The Lean UX Canvas
+  - chapter: 5
+    title: 方格1：业务问题
+    title_en: 'Box 1: Business Problem'
+  - chapter: 6
+    title: 方格2：业务成果
+    title_en: 'Box 2: Business Outcomes'
+  - chapter: 7
+    title: 方格3：用户
+    title_en: 'Box 3: Users'
+  - chapter: 8
+    title: 方格4：用户成果与收益
+    title_en: 'Box 4: User Outcomes and Benefits'
+  - chapter: 9
+    title: 方格5：解决方案
+    title_en: 'Box 5: Solutions'
+  - chapter: 10
+    title: 方格6：假设
+    title_en: 'Box 6: Hypotheses'
+  - chapter: 11
+    title: 方格7：我们最需要了解什么？
+    title_en: 'Box 7: What''s the Most Important Thing We Need to Learn?'
+  - chapter: 12
+    title: 方格8：MVP与实验
+    title_en: 'Box 8: MVPs and Experiments'
+  - chapter: 13
+    title: 融会贯通
+    title_en: Bringing It All Together
+  - chapter: 14
+    title: 协作设计
+    title_en: Collaborative Design
+  - chapter: 15
+    title: 反馈与研究
+    title_en: Feedback and Research
+  - chapter: 16
+    title: 精益UX与敏捷的整合
+    title_en: Integrating Lean UX and Agile
+  - chapter: 17
+    title: 推动组织变革
+    title_en: Making Organizational Shifts
+  - chapter: 18
+    title: 代理商中的精益UX
+    title_en: Lean UX in an Agency
+  - chapter: 19
+    title: 结语
+    title_en: A Last Word
+- title: 交互设计精髓 (About Face 4)
+  author: Alan Cooper
+  publisher: 电子工业出版社
+  year: '2015'
+  type: reference
+  citation: 'Alan Cooper. 交互设计精髓[M]. 北京: 电子工业出版社, 2015.'
+  toc:
+  - chapter: 1
+    title: 数字产品的设计过程
+    title_en: A Design Process for Digital Products
+  - chapter: 2
+    title: 理解问题：设计研究
+    title_en: 'Understanding the Problem: Design Research'
+  - chapter: 3
+    title: 用户建模：人物角色与目标
+    title_en: 'Modeling Users: Personas and Goals'
+  - chapter: 4
+    title: 设定愿景：场景与设计需求
+    title_en: 'Setting the Vision: Scenarios and Design Requirements'
+  - chapter: 5
+    title: 设计产品：框架与精炼
+    title_en: 'Designing the Product: Framework and Refinement'
+  - chapter: 6
+    title: 创意团队合作
+    title_en: Creative Teamwork
+  - chapter: 7
+    title: 良好产品行为的基础
+    title_en: A Basis for Good Product Behavior
+  - chapter: 8
+    title: 数字礼仪
+    title_en: Digital Etiquette
+  - chapter: 9
+    title: 平台与姿态
+    title_en: Platform and Posture
+  - chapter: 10
+    title: 为中间用户优化
+    title_en: Optimizing for Intermediates
+  - chapter: 11
+    title: 编排与心流
+    title_en: Orchestration and Flow
+  - chapter: 12
+    title: 减少工作与消除附加操作
+    title_en: Reducing Work and Eliminating Excise
+  - chapter: 13
+    title: 隐喻、习惯用法与可供性
+    title_en: Metaphors, Idioms, and Affordances
+  - chapter: 14
+    title: 重新思考数据输入、存储与检索
+    title_en: Rethinking Data Entry, Storage, and Retrieval
+  - chapter: 15
+    title: 防止错误与辅助决策
+    title_en: Preventing Errors and Informing Decisions
+  - chapter: 16
+    title: 面向不同需求的设计
+    title_en: Designing for Different Needs
+  - chapter: 17
+    title: 整合视觉设计
+    title_en: Integrating Visual Design
+  - chapter: 18
+    title: 桌面端设计
+    title_en: Designing for the Desktop
+  - chapter: 19
+    title: 移动端与其他设备设计
+    title_en: Designing for Mobile and Other Devices
+  - chapter: 20
+    title: Web端设计
+    title_en: Designing for the Web
+  - chapter: 21
+    title: 设计细节：控件与对话框
+    title_en: 'Design Details: Controls and Dialogs'
+- title: Refactoring UI
+  author: Adam Wathan, Steve Schoger
+  publisher: Self-Published
+  year: '2018'
+  type: reference
+  citation: Adam Wathan, Steve Schoger. Refactoring UI[M]. Self-Published, 2018.
+  toc:
+  - chapter: Starting from Scratch
+    title: 从零开始
+    title_en: Starting from Scratch
+  - chapter: Hierarchy is Everything
+    title: 层级至上
+    title_en: Hierarchy is Everything
+  - chapter: Layout and Spacing
+    title: 布局与间距
+    title_en: Layout and Spacing
+  - chapter: Designing Text
+    title: 文字设计
+    title_en: Designing Text
+  - chapter: Working with Color
+    title: 色彩运用
+    title_en: Working with Color
+  - chapter: Creating Depth
+    title: 创造深度
+    title_en: Creating Depth
+  - chapter: Working with Images
+    title: 图片处理
+    title_en: Working with Images
+  - chapter: Finishing Touches
+    title: 收尾润色
+    title_en: Finishing Touches
+  - chapter: Leveling Up
+    title: 进阶提升
+    title_en: Leveling Up
+- title: 数字媒体交互设计（慕课版）
+  author: 张靖瑶
+  publisher: 人民邮电出版社
+  year: '2022'
+  type: reference
+  citation: '张靖瑶. 数字媒体交互设计（慕课版）[M]. 北京: 人民邮电出版社, 2022.'
+  toc:
+  - chapter: 1
+    title: 交互设计概述
+  - chapter: 2
+    title: Web端'家居'网页交互UI设计
+  - chapter: 3
+    title: 移动端'美食小吃'App交互UI设计
+  - chapter: 4
+    title: Web端'电商平台'产品交互设计开发
+  - chapter: 5
+    title: 移动端'教学助手'App产品交互设计开发
+  - chapter: 6
+    title: 移动端'茶物语'App产品交互设计开发

@@ -231,6 +231,13 @@ description: 对指定逐字稿模块执行记忆逻辑专项优化（要旨可�
 
 ### Step 3.3: 执行修复
 
+> [!CAUTION]
+> **逐字稿完整性保护**（引用 `rule_security_governance.md` §6.4）：
+> 1. 执行第一个 Patch 前，**必须先运行** `cp <脚本路径> <脚本路径>.bak` 创建备份
+> 2. 单个 `TargetContent` 不得超过 800 字，超过须拆分为多个小补丁逐个确认
+> 3. 严禁使用 `write_to_file Overwrite=true` 覆写逐字稿，必须使用 `replace_file_content` 或 `multi_replace_file_content`
+> 4. 严禁创建临时 Python 脚本来批量执行修复（引用 §6.1）
+
 使用 `multi_replace_file_content` 工具将确认的修改应用到脚本文件。
 
 ### Step 3.4: 验证修复效果

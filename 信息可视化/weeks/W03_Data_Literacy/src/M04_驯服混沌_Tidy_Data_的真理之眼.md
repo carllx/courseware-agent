@@ -113,7 +113,10 @@
 > *   **Slide**: `S10_AI_Clean_Prompt`
 > *   **Layout**: `Split`
 > *   **Scene**: 剖析高稳定性清洗 Prompt 的三段式金字塔结构。
-> *   **List**: ["输入语境", "目标骨架", "约束法则"]
+> *   **List**: 
+>     - 输入语境
+>     - 目标骨架
+>     - 约束法则
 > *   **Text**: "AI 指令三要素：语境、骨架、约束"
 > *   **Asset**: ![预览](../public/slides/S10_AI_Clean_Prompt.png)
 

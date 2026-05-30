@@ -1,0 +1,67 @@
+- slide: S16b_Console_Error
+  module: M04_Vibe_Coding_排错工作流
+  layout: Center
+  priority: high
+  media_type: image
+  signals:
+  - physical_product
+  - named_entity
+  entities:
+  - TypeError
+  description: 这是写给 AI 的诊断书
+  scene_excerpt: 充满压迫感的浏览器控制台特写，满屏的红色英文报错代码，其中一行高亮显示着 "Uncaught TypeError"。
+  search_queries:
+  - TypeError photo
+  - TypeError real image
+  - TypeError product shot high resolution
+  - TypeError portrait
+  target_path: ../public/slides/S16b_Console_Error_real.png
+  current_asset: ../public/slides/s16b_console_error.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S08c_AE_Keyframe_Hell
+  module: M02_ECharts_与选项宇宙
+  layout: Full
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 传统数据动画的“关键帧地狱”
+  scene_excerpt: 一个设计师在 After Effects 里对着密密麻麻、成百上千个数据动画关键帧抓狂，旁边老板还拿着一叠新的数据表要求修改。
+  search_queries:
+  - 一个设计师在 After Effects 里对着密密麻麻、成百上千个数据动画关键 demonstration
+  target_path: ../public/videos/S08c_AE_Keyframe_Hell.webm
+  current_asset: ../public/slides/s08c_ae_keyframe_hell.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: S08_Auto_Layout
+  module: M02_ECharts_与选项宇宙
+  layout: Split
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  entities:
+  - xAxis
+  - yAxis
+  description: 自动化的画布排版
+  scene_excerpt: 一个巨大的自动化排版机器，从漏斗倒入 JSON 格式的数字，机器内部通过齿轮运转自动计算像素比例，输出整齐的柱状图。
+  search_queries:
+  - xAxis photo
+  - xAxis real image
+  - yAxis photo
+  - yAxis real image
+  target_path: ../public/slides/S08_Auto_Layout_real.png
+  current_asset: ../public/slides/s08_auto_layout.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''

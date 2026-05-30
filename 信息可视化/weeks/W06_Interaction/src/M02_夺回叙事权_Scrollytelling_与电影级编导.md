@@ -80,7 +80,7 @@
 > [VISUAL]
 > *   **Slide**: `S09_Three_Layer_Architecture`
 > *   **Layout**: `Flow`
-> *   **Scene**: 一个三明治般的架构图。最上层是白色的文本方块（Narrative Layer）；中间是透明的、布满传感器的网格（Trigger Layer）；底层是一个庞大运转的显卡或 ECharts 引擎核心（Render Layer）。
+> *   **Scene**: 一个三明治般的架构图。最上层是白色的文本方块（Narrative Layer）；中间是透明的、布满传感器的网格（Trigger Layer）；底层是一个庞大运转的显卡或 D3 渲染引擎核心（Render Layer）。
 > *   **Text**: "分解魔法：叙事、触发与渲染"
 > *   **Asset**: ![预览](../public/slides/S09_Three_Layer_Architecture.png)
 
@@ -112,7 +112,7 @@
 > [VISUAL]
 > *   **Slide**: `S10_Trigger_Mechanism`
 > *   **Layout**: `Split`
-> *   **Scene**: 左半边是一张浏览器窗口的示意图，上面有红色的虚拟横线标记着 `start`（触发位）和 `end`；右半边是简单的一段核心 JS 代码：`ScrollTrigger.create({ trigger: ".step", onEnter: () => chart.setOption(...) })`。
+> *   **Scene**: 左半边是一张浏览器窗口的示意图，上面有红色的虚拟横线标记着 `start`（触发位）和 `end`；右半边是简单的一段核心 JS 代码：`ScrollTrigger.create({ trigger: ".step", onEnter: () => updateChart(newData) })`。
 > *   **Caption**: "当文本行触碰触发线，就是魔法爆裂的时刻"
 > *   **Asset**: ![预览](../public/slides/S10_Trigger_Mechanism.png)
 
@@ -122,9 +122,9 @@
 
 这是位于最底层的、重型的舞台特效组。
 
-在这里，躺着诸如 ECharts、D3 图表内核或者是 Canvas 像素绘制系统这样庞大的渲染引擎。在没有收到信号时，图表会安静地停留在它的初始状态（比如 1990 年的数据散点分布，所有的绘制管线都处于休眠省电模式）。
+在这里，躺着诸如 D3 图表内核或者是 Canvas 像素绘制系统这样庞大的渲染引擎。在没有收到信号时，图表会安静地停留在它的初始状态（比如 1990 年的数据散点分布，所有的绘制管线都处于休眠省电模式）。
 
-当触发层那个无形的导演大喊 "Action" 时，渲染层就会立刻如同被电击一般苏醒。ECharts 的 `setOption` 方法会被瞬间调用。
+当触发层那个无形的导演大喊 "Action" 时，渲染层就会立刻如同被电击一般苏醒。D3 的 `selection.data(newData).transition()` 链式调用会被瞬间执行。
 原本静止在 1990 年的散点地图，开始疯狂运算每一颗粒子的位移轨迹，在短短的 1.5 秒内，将所有的散点犹如被磁铁吸引一般，平滑、壮观地移动到 2020 年它们该去的坐标位置。
 
 **(Pause: 2s)**
@@ -168,7 +168,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 
 然而，既然我们提到了用长图表重重大军压境，就不可以忽视另一个反面极端。
 
-大家是不是觉得，既然 Scrollytelling 这么牛，那我们就把所有的页面都做成长达 200 个屏幕高度、带着 50 种繁杂的 ECharts 爆炸翻转动画的滚动地狱？
+大家是不是觉得，既然 Scrollytelling 这么牛，那我们就把所有的页面都做成长达 200 个屏幕高度、带着 50 种繁杂的 D3 爆炸翻转动画的滚动地狱？
 
 错了。大错特错。如果读者在十分钟内，面对的每一页往下滚都在发生翻天覆地的炫目地震变化，他们的大脑多巴胺体会迅速过载耗竭。这在 UX 领域被称为：**Interaction Fatigue（交互疲劳综合征）**。
 
@@ -402,14 +402,14 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > [VISUAL]
 > *   **Slide**: `S11g_ScrollTrigger_StateMachine`
 > *   **Layout**: `Split`
-> *   **Scene**: 左侧显示 ScrollTrigger 的核心配置参数（trigger, start, end, scrub, toggleActions），右侧对应一个动态 ECharts 实例，随着左侧参数的高亮，右侧展现对应的滚动响应模式。
+> *   **Scene**: 左侧显示 ScrollTrigger 的核心配置参数（trigger, start, end, scrub, toggleActions），右侧对应一个动态 D3 图表实例，随着左侧参数的高亮，右侧展现对应的滚动响应模式。
 > *   **Text**: "工业标准：将 DOM 滚动深度映射为动画播放进度"
 > *   **Asset**: ![预览](../public/slides/S11g_ScrollTrigger_StateMachine.png)
 
 在复杂的数据变迁中，图表通常具有多个确定的中间状态（Keyframes）。通过 `ScrollTrigger`，我们可以定义一个跨越多个视口高度的通用时间轴（Timeline），并将各个状态的数据变更挂载到时间轴的特定进度点上。当用户向下滚动时，图表会平滑过渡到下一个特征点；当用户向上回滚时，图表状态亦能精准回滚。这种不可逆时间在屏幕空间上的双向映射，是构建大型数据长卷的基石。
 
 > [TEACHING MOMENT]
-> 如果我们在滚动事件中直接调用 `chart.setOption` 进行全量重新渲染，会有什么后果？
+> 如果我们在滚动事件中直接调用 `selection.data(newData).enter().append()` 进行全量重建 DOM，会有什么后果？
 
 正确答案是：这会直接抹杀所有的过渡动画。在 Scrollytelling 中，改变数据应当是一个增量更新（Incremental Update）的过程。我们需要深刻理解数据引擎对于差异（Diff）的处理机制，只传递变更的数据维度，让底层引擎自动计算路径并加上适当的缓动函数。
 

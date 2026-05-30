@@ -6,8 +6,8 @@ total_minutes: 135  # hours_practice=3 → 3×45=135
 
 theory_prerequisites:
   - "Munzner Ch7 表格空间排布四步语法 (Express/Separate/Order/Align)"
-  - "ECharts 声明式 Option 架构 (Dataset/Grid/Series/VisualMap)"
-  - "D3.js 指令式范式 (倒置坐标/Margin Convention/Scales/Data Join)"
+  - "D3.js 比例尺与空间映射 (Scales & Margin Convention)"
+  - "D3.js 数据绑定四步范式 (Data Join)"
   - "Vibe Coding 沙箱单文件渲染原理"
 
 phases:
@@ -43,16 +43,15 @@ phases:
             value: quantitative
 
   - id: P2
-    name: "ECharts AI 竞速与 JSON 微操手术"
+    name: "D3.js 基础出图与 Vibe Coding"
     minutes: 50
     type: workshop
-    description: "AI 生成 ECharts 完整页面，学生亲手微调 Option 参数"
+    description: "通过自然语言描述数据与视觉特征的映射关系，让 AI 从空白开始拉起基础 D3 图表骨架"
     tools: ["Claude/DeepSeek", "VS Code/Cursor", "浏览器"]
     steps:
-      - "取出 W03 清洗好的 Tidy 数据（≥3000 行）"
-      - "用模板 Prompt 生成含 Dataset/双Y轴/深色主题/dataZoom 的完整 HTML"
-      - "掐断 AI，亲手在代码编辑器中微调参数（如 itemStyle 条件着色/tooltip formatter 货币格式）"
-      - "同桌互评谁的微操改动最少、体验提升最大"
+      - "取出 W03 洗好的 Tidy 数据，要求 AI 挂载最新版 D3 国内 CDN 镜像"
+      - "撰写精准的 D3 视觉映射 Prompt（指定数据字段、Marks 形状、Channels 属性），在浏览器呈现初版图表"
+      - "实施 Bug-driven Prompting：识别首次生成常见的坐标截断、轴倒置问题，用大白话向 AI 汇报症状，并测试 AI 是否能够修复"
     weight: "10%"
   scoring_rubric:
     full_marks: 100
@@ -60,20 +59,20 @@ phases:
       - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
       - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
   deliverables:
-      - "ECharts 完整 HTML 页面"
-    theory_link: "ECharts 声明式 Option 架构"
+      - "初版成功渲染的 D3.js 图表页面 (HTML)"
+    theory_link: "D3.js 比例尺与空间映射"
 
   - id: P3
-    name: "D3 矢量深潜与 SVG 源提取"
+    name: "D3.js 概念精修与矢量资产提取"
     minutes: 45
     type: workshop
-    description: "运用 AI Sandbox 生成极客风 D3 代码，纯通过参数微调提取静态资产"
+    description: "运用 Scale、Viewport 等 D3 核心概念进行指令调优，并从中提取高品质矢量资源"
     tools: ["Claude/DeepSeek", "浏览器 DevTools"]
     steps:
-      - "使用 AI 快速生成非常规映射的 D3 单文件代码"
-      - "在右侧实时沙箱（Artifacts）中预览图表，拒绝底层业务抓错"
-      - "利用鼠标选中/控制台寻址，找出控制线条粗细、颜色、散点大小的十六进制/数值常量"
-      - "通过浅层“微操手术”截获最终符合美学规范的静态图，使用 SVG Crowbar 等工具提取极清矢量图保存"
+      - "抛弃模糊语意，运用 D3 概念名词（如 Domain/Range/SVG viewBox）撰写高级指令，实施二次精准出图"
+      - "在浏览器实时渲染结果中，进行针对性的配色与网格线调优"
+      - "摒弃对底层业务逻辑的抓错；当视觉效果达标后，审查 DOM 树结构"
+      - "运用 SVG Crowbar 等工具，或者直接复制 SVG 源码，将图表提取为极清矢量图保存，供后续二次艺术重构使用"
     weight: "10%"
   scoring_rubric:
     full_marks: 100
@@ -81,12 +80,12 @@ phases:
       - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
       - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
   deliverables:
-      - "D3 沙箱调参前后的极清矢量对比图 (SVG)"
+      - "概念精修出图后的极清矢量源文件 (SVG)"
     theory_link: "D3.js 指令式范式与矢量提取"
 
 homework:
-  title: "双轨引擎静态打样"
-  description: "采用 W03 清洗出的 Tidy 数据集，分别运用 ECharts 与 D3 沙箱提取符合「实验二」要求的高清源数据资产。"
+  title: "D3.js 概念驱动三阶创作"
+  description: "采用 W03 清洗出的 Tidy 数据集，利用自然语言驱动 AI 历经基础出图与概念精修，最终提取高质量 SVG 并完成二次艺术呈现。"
   weight: "10%"
   scoring_rubric:
     full_marks: 100
@@ -94,5 +93,6 @@ homework:
       - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
       - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
   deliverables:
-    - "作品 A（ECharts 沙箱导出高清图 PNG/SVG）：完美利用声明式特性实现商业极简视觉"
-    - "作品 B（D3 沙箱导出极清底稿 SVG）：非常规映射探索大图底色"
+    - "作品 A（D3.js 原始极清导出图 SVG）：验证数据映射正确且具有视觉基础"
+    - "作品 B（经过二次排版的最终作品 PNG）：在原提取资产之上叠加设计感排版、字体与注解"
+    - "设计决策说明：300字论述创作过程中应用了哪些格式塔、视觉通道与 D3 概念进行 Vibe 调优"

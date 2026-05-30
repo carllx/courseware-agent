@@ -28,7 +28,7 @@ export default function Layout_Comparison({ slide }) {
   if (imgs.length > 0 && !hasContent) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className="h5-slide-body">
           <AssetPlaceholder slide={{...slide, resolvedImage: imgs[0]}} proportion="100%" />
         </div>
@@ -40,7 +40,7 @@ export default function Layout_Comparison({ slide }) {
   if (!hasContent && imgs.length === 0) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className="h5-slide-body">
           <AssetPlaceholder customStyle={{ flex: 1 }} slide={slide} />
         </div>
@@ -64,7 +64,7 @@ export default function Layout_Comparison({ slide }) {
 
   return (
     <>
-      {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+      {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
       {imgs.length >= 2 ? (
         // --- 方案 A: 拥有 2 张以上图片（双图独立挂载轨道） ---
         <div className="h5-slide-body h5-layout-comparison">

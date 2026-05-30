@@ -10,16 +10,16 @@ export default function Layout_Diagram({ slide }) {
 
   return (
     <>
-      {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+      {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
       <div className="h5-slide-body h5-layout-editorial-split h5-layout-editorial-split--reverse">
         {/* 左侧文字/编号逻辑节点 */}
         <div className="h5-split-content">
           {hasList ? (
             <EditorialList items={slide.parsedList} variant="numbered" />
           ) : (
-            (slide.text || slide.scene) && (
+            (slide.scene) && (
               <p className="h5-split-scene">
-                {slide.text || slide.scene}
+                {slide.scene}
               </p>
             )
           )}
@@ -28,7 +28,7 @@ export default function Layout_Diagram({ slide }) {
         {/* 右侧逻辑图 */}
         <AssetPlaceholder 
           slide={slide} 
-          proportion={slide.scene && !slide.resolvedImage ? '100%' : '55%'} 
+          proportion={slide.scene && !slide.resolvedImage && !slide.assetContent ? '100%' : '55%'} 
         />
       </div>
     </>

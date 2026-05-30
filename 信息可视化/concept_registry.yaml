@@ -52,8 +52,16 @@ concepts:
     name: "Munzner Ch7 空间排布"
     first_introduced: W04
 
-  - id: echarts_declarative
-    name: "ECharts 声明式 Option 架构"
+  - id: d3_scale_mapping
+    name: "D3.js 比例尺与空间映射"
+    first_introduced: W04
+
+  - id: d3_data_join
+    name: "D3.js 数据绑定四步范式"
+    first_introduced: W04
+
+  - id: d3_svg_geometry
+    name: "D3.js SVG 几何词典与视口坐标"
     first_introduced: W04
 
   - id: d3_imperative

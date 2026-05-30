@@ -1,0 +1,30 @@
+assessment_methods:
+  normal_score_ratio: 50
+  final_score_ratio: 50
+  attendance_ratio: 10
+  normal_items:
+  - name: 章节测试1
+    ratio: 10
+    desc: 对应实验1「」。考核要求：...
+  - name: 章节测试2
+    ratio: 15
+    desc: 对应实验2「」。考核要求：...
+  - name: 章节测试3
+    ratio: 15
+    desc: 对应实验3「」。考核要求：...
+  final_item:
+    name: 期末综合项目考查
+    ratio: 100
+    desc: 对应实验4「」。考核要求：...
+exams:
+  final_exam:
+  - name: 期末综合项目考查
+    total_score: 100
+    duration: 120
+    sections:
+    - section_name: ''
+      total_score: 0
+      questions:
+      - content: 对应实验N「」。考核要求：...
+        type: 综合性
+        score: 0

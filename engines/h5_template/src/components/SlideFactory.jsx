@@ -1,6 +1,7 @@
 import '../styles/slide-area.css'
 import '../styles/h5-layouts.css'
 import Layout_Split from './layouts/Layout_Split'
+import Layout_Code from './layouts/Layout_Code'
 import Layout_List from './layouts/Layout_List'
 import Layout_Diagram from './layouts/Layout_Diagram'
 import Layout_Flow from './layouts/Layout_Flow'
@@ -22,12 +23,13 @@ const CANONICAL_MAP = {
   'stat': Layout_Title,
   // Split 系列
   'split': Layout_Split,
-  'code': Layout_Split,
+  // Code 系列
+  'code': Layout_Code,
   // List 系列
   'list': Layout_List,
   'agenda': Layout_List,
   'icons': Layout_List,
-  'table': Layout_List,
+  'table': Layout_Code,
   'workshop': Layout_List,
   // Grid 系列
   'grid': Layout_Grid,
@@ -104,7 +106,7 @@ export default function SlideFactory({ slide, courseId }) {
   }
 
   // 检测断链状态
-  const isBroken = resolvedSlide.assetExpected && !resolvedSlide.image
+  const isBroken = resolvedSlide.assetExpected && !resolvedSlide.image && !resolvedSlide.assetContent
 
   return (
     <div className={`slide-frame${isBroken ? ' slide-frame--broken' : ''}`}>

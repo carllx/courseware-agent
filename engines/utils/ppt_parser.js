@@ -243,6 +243,63 @@ function parseScript(filePath) {
                 // 引用块结束，Visual 结束
                 inVisualBlock = false;
                 currentKey = null;
+
+                // Look-Ahead 探测 Markdown 代码块或表格
+                let lookIdx = i;
+                let emptyCount = 0;
+                while (lookIdx < lines.length) {
+                    if (lines[lookIdx].trim() === '') {
+                        emptyCount++;
+                        if (emptyCount > 1) break;
+                        lookIdx++;
+                    } else {
+                        break;
+                    }
+                }
+                if (lookIdx < lines.length) {
+                    const lineLook = lines[lookIdx].trim();
+                    const codeM = lineLook.match(/^```(\w*)/);
+                    const tableM = lineLook.match(/^\|.+\|$/);
+                    
+                    let assetContent = null;
+                    let assetType = null;
+                    
+                    if (codeM) {
+                        const lang = codeM[1].trim();
+                        assetType = lang ? lang : 'code';
+                        lookIdx++;
+                        const innerCode = [];
+                        while (lookIdx < lines.length && !lines[lookIdx].trim().startsWith('```')) {
+                            innerCode.push(lines[lookIdx].replace(/\r$/, ''));
+                            lookIdx++;
+                        }
+                        assetContent = innerCode.join('\n');
+                        if (lookIdx < lines.length) lookIdx++;
+                    } else if (tableM) {
+                        assetType = 'table';
+                        const tableLines = [];
+                        while (lookIdx < lines.length && lines[lookIdx].trim().match(/^\|.+\|$/)) {
+                            tableLines.push(lines[lookIdx].replace(/\r$/, ''));
+                            lookIdx++;
+                        }
+                        assetContent = tableLines.join('\n');
+                    }
+                    
+                    if (assetContent !== null) {
+                        currentSlide.visual.assetContent = assetContent;
+                        currentSlide.visual.assetType = assetType;
+                        currentSlide.visual.assets = [];
+                        currentSlide.visual.asset = '';
+                        if (!currentSlide.visual.layout) {
+                            if (assetType === 'mermaid') currentSlide.visual.layout = 'Diagram';
+                            else if (assetType === 'table') currentSlide.visual.layout = 'Table';
+                            else currentSlide.visual.layout = 'Code';
+                        }
+                        i = lookIdx - 1;
+                        continue;
+                    }
+                }
+
                 // 当前行可能是空行或 Speech 的开始
                 if (trim !== '' && !trim.startsWith('<!--')) {
                     if (!isMetaLine(trim)) buffer.push(trim);

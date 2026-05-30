@@ -1,0 +1,76 @@
+course:
+  id: 信息可视化
+  name: 信息可视化设计
+  code: CNFU003847
+  semester: 2025-2026-2
+  nature: 专业选修课
+  grade: 2024级
+  training_plan_version: '2024'
+  credits: 2.0
+  department: 设计学院
+  major: 数字媒体艺术
+  prerequisites: 交互设计基础
+  resources_url: '1.校内在线教学平台（学习通课件发布、作业提交与互动讨论）。
+
+    2.软件支持：Adobe Figma、Figma、Visual Studio Code、Node.js、RAWGraphs、FFmpeg、AI 辅助工具及 Python 运行环境。
+
+    3.教室与实验室条件：投影设备、多媒体教室、计算机实验室。
+
+    '
+  classes:
+  - name: 24数字媒体艺术影视班
+    archive_id: 45
+    schedule_time: 星期日(分段排课)
+    schedule_segments:
+    - weeks: 7,9
+      period: 1-5节
+    - weeks: 8,11
+      period: 7-11节
+    - weeks: '8'
+      period: 1-5节
+    - weeks: '10'
+      period: 1-5节, 11-15节
+    classroom: 温泉校区 3实208
+    week_range: 7-11
+    official_weeks: 5
+  - name: 24数字媒体艺术游戏班
+    archive_id: 46
+    schedule_time: 星期五(分段排课)
+    schedule_segments:
+    - weeks: 10-13
+      period: 1-5节
+    - weeks: 14-18
+      period: 2-5节
+    classroom: 温泉校区 3实208
+    week_range: 10-18
+    excluded_weeks:
+    - 16
+    official_weeks: 9
+  hours:
+    total: 40
+    theory: 20
+    practice: 20
+    minutes_per_period: 45
+    per_class: true
+  introduction:
+    content: '本课程针对数字媒体艺术（DMA）专业学生，旨在探讨将抽象冷硬的数据转化为富有情感与叙事张力的视觉表达。课程以"信息可视化设计"和"视觉分析基础"为理论基石，引入"Vibe Coding（自然语言驱动编程）"前沿范式。通过学习，学生将掌握从视觉意象构思、自然语言抽象建模到生成式艺术与复杂交互图表呈现的全新工作流，极大拓展数据处理能力与交互艺术表达力。
+
+      '
+    design: '课程结合人文理论讲授与 Vibe 驱动实践，重构传统的"数据→编程→图表"工程路线为"视觉意象设想→自然语言定义→AI引擎生成→交互修改"的艺术打磨流程。前期深耕视觉叙事、符号隐喻与数据艺术理论；中期运用自然语言与设计概念驱动
+      D3.js 进行交互可视化的生成创作；后期通过整合社会文化议题的数据调研，完成具有人文关怀与艺术深度的综合交互叙事原型开发与部署。
+
+      '
+teacher:
+  name: 林昕
+  title: 无
+  office: A101
+  department: 数字媒体艺术
+  team: 无
+student_analysis: '本课程面向数字媒体艺术专业大二学生（24级影视班/游戏班），已完成交互设计基础等先修课程。学生普遍具有较强的视觉审美与数字工具操作能力，但编程基础薄弱，数据处理经验有限。课程通过 Vibe Coding 自然语言驱动范式降低技术门槛，使学生能聚焦于视觉叙事与数据艺术的创意表达。
+
+  '
+semester_config:
+  start_date: '2026-03-02'
+agent:
+  standards:
+    visual_system: ../.agent/styles/theme_data_ink_swiss.yaml

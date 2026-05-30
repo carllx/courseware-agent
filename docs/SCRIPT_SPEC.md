@@ -179,15 +179,7 @@ Frontmatter 之后，必须紧跟一级标题（H1）：
 + 展示三阶段时间轴。
 ```
 
-### `[PACING]` → `> [ACTIVITY]`
 
-```diff
-- > [PACING] ⏸ 5min
-+ > [ACTIVITY]
-+ > *   **Type**: `Practice`
-+ > *   **Duration**: `5min`
-+ > *   **Desc**: 学生自行完成降噪操作
-```
 
 ## 视觉资产命名规范
 

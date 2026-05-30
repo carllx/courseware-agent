@@ -1,48 +1,47 @@
 # Visual System Constitution (视觉系统宪法)
 # SSOT: Single Source of Truth
-# Style: Data-Ink Swiss Minimalist (数据墨水·瑞士极简风 / 纯白画布 × 高对比度细线 × 极值红焦点)
+# Style: Isometric Skeuomorphic Breakdown (等距视角拟物拆解风 / 2.5D等距 × 拟物化组件拆解 × 高信息密度)
 
 meta:
-  version: "1.0.0"
-  last_updated: "2026-05-12"
+  version: "2.0.0"
+  last_updated: "2026-05-28"
   maintainer: "Antigravity Agent"
-  principles: "Maximize Data-Ink Ratio, Absolute Clarity, Zero Extraneous Load, Von Restorff Anchor"
+  principles: "Isometric Spatial Depth (Anna Kua), Skeuomorphic Realism & Component Breakdown (Zhang Shenghuan), High Information Density"
   course_target: "Information Visualization (信息可视化)"
 
 # 1. 全局风格定义 (用于 AI 生成 Prompt)
 style:
   # 核心风格词
-  keywords: "clean pedagogical diagram, strict Swiss grid layout, absolute pure white background, vast negative space, fine precise black lines #000000, flat geometric vector, objective and scientific, single strong focal point highlighted in Swiss Red #DA291C, Edward Tufte data-ink ratio aesthetic, museum-quality information design"
+  keywords: "isometric 2.5D architectural-grade diagram, highly detailed skeuomorphic component breakdown, realistic but clean materials, exploded view, clear spatial hierarchy, strict grid layout with subtle black outlines, high information density, modern industrial design aesthetics, white background, engaging and pedagogical"
   # 环境氛围
-  atmosphere: "academic, extremely clean, rational, highly legible, modern data visualization, cognitive clarity"
+  atmosphere: "realistic and engaging, highly detailed, structural depth, spatial clarity, modern product design, technical but approachable"
   # 否定词 (彻底禁止干扰认知的元素)
-  negative_prompt: "dada, photomontage, collage, abstract art, noise, texture, paper grain, vintage, messy, asymmetrical tension, 3d render, shadows, gradients, realistic photography, cyberpunk, neon colors, cartoons, clip art, busy background, multiple colors, decorative elements"
+  negative_prompt: "flat 2D, purely abstract shapes, dada, photomontage, collage, messy, asymmetrical tension, dirty shadows, cyberpunk, neon colors, cartoons, clip art, busy background, chaotic, decorative noise"
   
   # 按 Layout 类型的 Prompt 变体 (描述资产图像本身)
   prompt_variants:
-    Title: "minimalist conceptual hero diagram, strict horizontal and vertical alignments, vast white space, singular focal concept highlighted in Swiss Red"
-    Diagram: "academic information architecture diagram, precise thin black lines, objective structural relationships, key nodes in Swiss Red"
-    List: "structured sequential diagram, ordered elements aligned to invisible grid, pure white negative space"
-    Comparison: "clear visual dichotomy diagram, symmetric balance, contrasting elements using black and Swiss Red"
-    Split: "detailed structural diagram or anatomy illustration, extremely clean vector aesthetic, suitable for placing alongside text"
-    Grid: "matrix of precise icons or data elements, uniform spacing, clean thin borders"
-    Image: "objective scientific visualization or clean structural representation, devoid of any photographic noise"
+    Title: "isometric conceptual hero diagram, exploded view of a core concept, realistic skeuomorphic details, vast white space"
+    Diagram: "isometric 2.5D information architecture diagram, skeuomorphic components connected by subtle lines, high information density"
+    List: "isometric sequence of disassembled parts, ordered elements aligned in 3D space, realistic textures, pure white negative space"
+    Comparison: "isometric visual dichotomy, symmetric exploded view comparing two realistic skeuomorphic structures"
+    Split: "detailed isometric structural anatomy illustration, exploded view of realistic components, extremely clean aesthetic, suitable for placing alongside text"
+    Grid: "isometric matrix of precise skeuomorphic components, uniform 3D spacing, clean subtle borders"
+    Image: "objective scientific isometric visualization, highly realistic materials, clean structural representation"
 
     # 教学锚定变体（用于 RenderMode: pedagogical）
-    # 核心差异：强制生成具备高度识别度的具象物体，但必须采用精密线框图解的风格。
-    Pedagogical_Split: "clean pedagogical anatomy diagram, extremely precise thin black line drawing of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords (clearly identifiable), absolute pure white background, zero photographic elements, single conceptual part highlighted in Swiss Red #DA291C, strict grid alignment, Edward Tufte aesthetic, suitable for placing alongside text"
-    Pedagogical_Center: "centered pedagogical diagram, extremely precise thin black line drawing of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords, absolute pure white background, zero noise, key mechanism or focal point highlighted in Swiss Red #DA291C, academic clarity"
-    Pedagogical_Grid: "matrix of pedagogical icons, extremely precise thin black line drawings of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords, absolute pure white background, uniform spacing, subtle Swiss Red accents for emphasis"
+    Pedagogical_Split: "isometric pedagogical anatomy diagram, skeuomorphic component breakdown of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords, highly realistic but clean textures, clear spatial hierarchy, exploded view, absolute pure white background, suitable for placing alongside text"
+    Pedagogical_Center: "centered isometric pedagogical diagram, detailed skeuomorphic component breakdown of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords, absolute pure white background, exploded view showing internal structure, high information density"
+    Pedagogical_Grid: "isometric matrix of pedagogical components, detailed skeuomorphic breakdown of SPECIFIC RECOGNIZABLE OBJECTS described in Keywords, absolute pure white background, uniform spatial alignment"
 
   # 预编译 Prompt 模板
   prompt_templates:
-    base_en: "clean pedagogical diagram, strict Swiss grid layout, absolute pure white background, vast negative space, fine precise black lines #000000, flat geometric vector, objective and scientific, single strong focal point highlighted in Swiss Red #DA291C, Edward Tufte data-ink ratio aesthetic, museum-quality information design"
-    suffix_negative: "dada, photomontage, collage, abstract art, noise, texture, paper grain, vintage, messy, asymmetrical tension, 3d render, shadows, gradients, realistic photography, cyberpunk, neon colors, cartoons, clip art, busy background, multiple colors, decorative elements"
+    base_en: "isometric 2.5D architectural-grade diagram, highly detailed skeuomorphic component breakdown, exploded view, realistic but clean materials, clear spatial hierarchy, strict grid layout with subtle black outlines, high information density, white background, English text labels only on focal elements"
+    suffix_negative: "flat 2D, purely abstract shapes, dada, photomontage, collage, messy, asymmetrical tension, dirty shadows, cyberpunk, neon colors, cartoons, clip art, busy background, chaotic, decorative noise, Chinese text, hex codes, color palettes, floating labels on background, annotations on non-essential equipment"
     
     # 教学锚定模板（RenderMode: pedagogical 专用）
-    pedagogical_en: "clean pedagogical diagram, extremely precise thin black line drawings of SPECIFIC RECOGNIZABLE OBJECTS from Keywords (each object must be clearly identifiable, objective structural representation), absolute pure white background, zero photographic noise, single key conceptual part highlighted in Swiss Red #DA291C, strict grid alignment, Edward Tufte aesthetic, museum-quality information design"
-    suffix_negative_pedagogical: "dada, photomontage, collage, abstract art, noise, texture, paper grain, vintage, messy, asymmetrical tension, 3d render, shadows, gradients, realistic photography, cyberpunk, neon colors, cartoons, clip art, busy background, multiple colors, decorative elements, unrecognizable abstract shapes"
-    text_directive: "All visible text in the image must be in Simplified Chinese, using sans-serif fonts"
+    pedagogical_en: "isometric pedagogical diagram, skeuomorphic component breakdown of SPECIFIC RECOGNIZABLE OBJECTS from Keywords (each object must be clearly identifiable in 3D space), highly realistic but clean textures, exploded view showing internal structure, clear spatial hierarchy, absolute pure white background, high information density, English text labels only on focal elements"
+    suffix_negative_pedagogical: "flat 2D, purely abstract shapes, dada, photomontage, collage, messy, asymmetrical tension, dirty shadows, cyberpunk, neon colors, cartoons, clip art, busy background, chaotic, decorative noise, unrecognizable abstract shapes, Chinese text, hex codes, color palettes, floating labels on background, annotations on non-essential equipment"
+    text_directive: "All visible text in the image MUST be in ENGLISH, using modern sans-serif fonts. NO CHINESE CHARACTERS. Only label the most essential focal elements."
 
 # 2. 色彩系统 (PPT / H5 / Python 通用)
 palette:
@@ -146,41 +145,46 @@ dimensions:
     ratio: "16:9"
     width: 1920
     height: 1080
-    suffix: "clean pedagogical data visualization diagram, pure white background"
+    suffix: "isometric pedagogical exploded view, pure white background"
   infographic:
     ratio: "16:9"
     width: 1920
     height: 1080
-    suffix: "objective technical diagram, absolute minimal noise"
+    suffix: "isometric skeuomorphic technical diagram, clear spatial layout"
   diagram:
     ratio: "1:1"
     width: 1080
     height: 1080
-    suffix: "precise structural line drawing, white background"
+    suffix: "isometric component breakdown, white background"
   icon:
     ratio: "1:1"
     width: 512
     height: 512
-    suffix: "flat technical icon, fine black lines"
+    suffix: "isometric 2.5D skeuomorphic icon, pure white background"
 
 # 7. 教学记忆优化专门路由 (Memory Optimization Routing)
-# 与之前 Dada 的 "语义碰撞" 相反，本主题强制执行 "语义澄清 (Semantic Clarification)"
+# 本主题强制执行 "等距视角拟物拆解 (Isometric Skeuomorphic Breakdown)" 风格
 pedagogical_routing: |
-  ## 核心理念：降低外在认知负荷，强化记忆锚点
+  ## 核心理念：写实拟物增强亲和力，组件拆解保证高信息量，等距视角构建空间层级
   
-  所有的视觉生成必须符合 Edward Tufte 的数据墨水比原则：
-  - 剔除所有的 3D、阴影、渐变、拟物化材质、拼贴碎片。
-  - 画面必须像一本严肃的科学教材/说明书插图。
-  - 仅允许在一个画面中最核心、教师最需要学生记住的「那个概念」上，使用 `#DA291C` (瑞士红) 进行高亮。其余全部为黑白线框或浅灰填色。
+  所有的视觉生成必须融合张圣焕的“拟物化组件拆解”与安娜·库阿的“等距视角”：
+  - 剔除绝对扁平和过度抽象的纯线框，引入具有真实材质质感（如塑料、金属、木材等）的拟物化设计。
+  - 画面必须采用 Isometric (2.5D 等距视角)，展现立体空间结构。
+  - 使用“爆炸图/组件拆解 (Exploded view / Component breakdown)”的方式展现物体内部构造和逻辑关系。
+  - 保持背景为纯白，保留轻微的结构描边以确保清晰度。
   
-  Step 1 - 锚点确认：
-    仔细阅读 [VISUAL] 块的 Scene 和 Keywords，确定画面中**唯一的**认知重心。
+  Step 1 - 锚点确认 (1:1 实体映射)：
+    仔细阅读 [VISUAL] 块的 Scene 和 Keywords，提取最具体的实体名词（如“牛排和盐”、“X轴插槽”）。绝对禁止将其泛化或归类（禁止将“牛排”泛化为“食物”）。
   
-  Step 2 - 结构化具象：
-    将物体转译为「精密线框图 (precise thin black line drawing)」。例如讲到“调音台”，不要真实的金属推子照片，而是要黑白线框的设备结构图。
+  Step 2 - 文本与颜色代码净化 (Prompt Sanitization)：
+    如果在 prompt 中需要指定颜色，必须将其转化为自然语言描述（如 "pure white", "swiss red accents"），绝对禁止将十六进制代码（如 #000000, #DA291C）直接写入 prompt 字符串，以防产生文本幻觉。
+  
+  Step 3 - 拟物与等距转化：
+    将具体概念具象化为真实的物理对象，并将其置于等距视角（Isometric）下。例如逐字稿提到“牛排”，必须生成有着逼真肉类纹理的 2.5D 煎锅和牛排。
     
-  Step 3 - 红色施加：
-    在 prompt 中显式要求将关键结构标红。例如："a specific slider highlighted in Swiss Red"。
+  Step 4 - 组件拆解与克制标注 (Exploded View & Focused Labeling)：
+    在 prompt 中显式要求将物品进行结构拆解。如有必要出现标注文字，必须强制全英文，并严格限制仅标注最核心元素。明确指示 AI 禁止对背景环境、非核心设备添加多余标签。
     
-  Step 4 - 纯净测试：
-    生成后，检查画面背景是否为纯白，是否无任何脏污的质感或艺术噪点。如果不达标必须重绘。
+  Step 5 - 纯净测试：
+    生成后，检查画面背景是否为纯净的白色，文字是否均为英文且无十六进制代码幻觉，是否无多余干扰标注。不达标必须重绘。
+

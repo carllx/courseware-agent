@@ -34,6 +34,20 @@ def collect_visual_refs(scripts_dir: str, script_files: list[str]) -> list[dict]
         blocks = parse_script(fpath)
         for b in blocks:
             if b.block_type == BlockType.VISUAL:
+                # 纯文本视觉资产（代码块/Mermaid/表格）不需要物理文件
+                if b.metadata.get("asset_content"):
+                    refs.append({
+                        "slide_id": b.metadata.get("slide_id", ""),
+                        "layout": b.metadata.get("layout", ""),
+                        "asset": "",
+                        "asset_type": b.metadata.get("asset_type", ""),
+                        "has_inline_asset": True,
+                        "scene": b.metadata.get("scene", ""),
+                        "file": fname,
+                        "line": b.line_start,
+                    })
+                    continue
+
                 # 优先使用多资产数组，回退到单 asset
                 asset_list = b.metadata.get("assets", [])
                 if not asset_list and b.metadata.get("asset"):
@@ -160,6 +174,11 @@ def main():
     for ref in refs:
         sid = ref["slide_id"]
         asset_path = ref.get("asset", "")
+
+        # 纯文本视觉资产（代码块/Mermaid/表格）无需物理文件
+        if ref.get("has_inline_asset"):
+            matched.append({**ref, "matched_file": f"[inline:{ref.get('asset_type', 'code')}]"})
+            continue
 
         # 优先检查显式 Asset 路径
         if asset_path:

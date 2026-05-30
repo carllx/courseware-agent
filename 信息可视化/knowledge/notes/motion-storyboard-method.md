@@ -23,8 +23,8 @@ Z 轴 → 技术指令（触发条件 + 动画参数 + 数据切换）
 | Step | 滚动触发点 | 叙事文本 | 画面状态 | 技术指令 |
 |:---|:---|:---|:---|:---|
 | 0 | 页面加载 | (标题卡) | 标题 + 背景渐入 | `gsap.from('.title', {opacity:0})` |
-| 1 | `.step-1` 进入视口中心 | "1990年，中国城市化率仅26%" | 柱状图显示 1990 年数据 | `chart.setOption(data1990)` |
-| 2 | `.step-2` 进入视口中心 | "30年后，这个数字翻了两倍" | 柱状图平滑过渡到 2020 年 | `chart.setOption(data2020, {transition:true})` |
+| 1 | `.step-1` 进入视口中心 | "1990年，中国城市化率仅26%" | 柱状图显示 1990 年数据 | `bindData(data1990)` |
+| 2 | `.step-2` 进入视口中心 | "30年后，这个数字翻了两倍" | 柱状图平滑过渡到 2020 年 | `bindData(data2020); bars.transition().duration(800)` |
 | 3 | `.step-3` 进入视口中心 | "但增长并不均匀……" | 地图高亮沿海省份 | `highlightCoastal()` |
 
 ## 电影类比（DMA 桥接）
@@ -54,7 +54,7 @@ Scrollytelling 将这套静态分镜推向动态维度：读者的滚动行为�
 - 右侧：`position: sticky` 的图表容器
 - 引入 GSAP + ScrollTrigger CDN
 - 每个 `.step` 进入视口中心时触发对应的图表状态切换
-- 图表使用 ECharts，transition 动画持续 800ms
+- 图表使用 D3，transition 动画持续 800ms
 - 请为每个步骤添加 markers:true 以便调试
 ```
 

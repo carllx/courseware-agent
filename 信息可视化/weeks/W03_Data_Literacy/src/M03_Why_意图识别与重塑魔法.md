@@ -46,7 +46,10 @@
 > *   **Scene**: 意图的三级降维漏斗：顶层 Analyze，中层 Search，底层 Query。
 > *   **Text**: "行动降维：解析、寻猎、微观操作"
 > *   **Caption**: "行动降维三步曲：从高维解析到精准微操。"
-> *   **List**: ["动作解析", "寻址模式", "微观反馈"]
+> *   **List**: 
+>     - 动作解析
+>     - 寻址模式
+>     - 微观反馈
 > *   **Asset**: ![Munzner Fig3.2](../public/textbook/Fig3.2_动作的三层拆解.png)
 > *   **Source**: Textbook
 
@@ -59,7 +62,10 @@
 > *   **Layout**: `Grid`
 > *   **Scene**: 三张面具。第一张：宣威者举着金牌大声夸耀；第二张：侦探在非常黑暗的洞窟内用放大镜搜索；第三张：游客带着耳机沉醉浅笑享受。
 > *   **Text**: "解析受众面具：汇报、探索者、享受者"
-> *   **List**: ["宣示展示", "幽暗发现", "消遣享受"]
+> *   **List**: 
+>     - 宣示展示
+>     - 幽暗发现
+>     - 消遣享受
 > *   **Caption**: "认清分析受众所佩戴的面具：汇报者、探索者、抑或旁观的享受者。"
 > *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
 > *   **Source**: Textbook
@@ -156,7 +162,11 @@
 > *   **Layout**: `Flow`
 > *   **Scene**: 目标非常明确/目标特征完全模糊 vs 位置洞悉/位置遗失 的二维象限困境矩阵。
 > *   **Text**: "探索者的四重困境：明确检索到混沌探索"
-> *   **List**: ["明确检索", "迷雾定位", "大浪淘金", "混沌乱猎"]
+> *   **List**: 
+>     - 明确检索
+>     - 迷雾定位
+>     - 大浪淘金
+>     - 混沌乱猎
 > *   **Caption**: "探索者的四重困境：从完全掌控猎物到盲眼面对完全未知的领域。"
 > *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
 > *   **Source**: Textbook
@@ -213,7 +223,10 @@
 > *   **Layout**: `Grid`
 > *   **Scene**: 一名探员不断切换眼镜视界距的操作：Identify (用放大镜聚焦烧灼一棵孤立野草)，Compare (瞳孔极限往复在两棵高树之间剧烈狂奔衡量极差)，Summarize (视距大幅后拉覆盖整片百万亩树林的星海)。
 > *   **Text**: "微操落点：识别、比较、概览"
-> *   **List**: ["指认识别", "对抗比较", "万象概览"]
+> *   **List**: 
+>     - 指认识别
+>     - 对抗比较
+>     - 万象概览
 > *   **Caption**: "微操审判的三部曲：极微观的点射、极惨烈的对决、壮阔的鸟瞰全貌。"
 > *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
 > *   **Source**: Textbook
@@ -268,7 +281,10 @@
 > *   **Scene**: 瞄准镜里套着的不是具体的数字，而是代表"趋势"、"异常点"和"拓扑结构"的几何抽象图形。
 > *   **Caption**: "动作必须有其承受者：你到底在寻找什么模式？"
 > *   **Text**: "目标层 (Targets)：动作的物理承受者"
-> *   **List**: ["宏观趋势", "异常数据", "属性关系"]
+> *   **List**: 
+>     - 宏观趋势
+>     - 异常数据
+>     - 属性关系
 > *   **Asset**: ![Munzner Fig3.6](../public/textbook/Fig3.6_Targets详细树状图.png)
 > *   **Source**: Textbook
 

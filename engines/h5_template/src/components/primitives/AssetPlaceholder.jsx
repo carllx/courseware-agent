@@ -1,6 +1,26 @@
+import React from 'react';
+import MermaidRenderer from '../MermaidRenderer';
+
 export default function AssetPlaceholder({ slide, proportion = '55%', customStyle = {} }) {
-  const isBroken = !slide.resolvedImage;
+  const isBroken = !slide.resolvedImage && !slide.assetContent;
   
+  if (slide.assetContent && slide.assetType === 'mermaid') {
+    return (
+      <div className="h5-asset-box" style={{ flex: `0 0 ${proportion}`, ...customStyle }}>
+        <MermaidRenderer chart={slide.assetContent} id={slide.id} />
+      </div>
+    );
+  }
+
+  if (slide.assetContent) {
+    // Other pure text assets (like table, if used inside diagram layout)
+    return (
+      <div className="h5-asset-box" style={{ flex: `0 0 ${proportion}`, ...customStyle, backgroundColor: 'var(--theme-bgElevated)', padding: '16px', overflow: 'auto' }}>
+        <pre style={{ margin: 0, fontSize: '12px', whiteSpace: 'pre-wrap' }}>{slide.assetContent}</pre>
+      </div>
+    );
+  }
+
   if (slide.resolvedImage) {
     const isVideo = slide.resolvedImage.match(/\.(mp4|webm|ogg)$/i);
     

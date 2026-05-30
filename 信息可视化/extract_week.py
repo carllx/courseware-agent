@@ -10,12 +10,44 @@ ADR-021 Phase 1 实施工件。
 """
 
 import argparse
+import os
 import sys
 import yaml
 
 
 def load_course(path="course.yaml"):
-    """加载 course.yaml 并返回解析后的字典"""
+    """加载课程配置（支持拆分架构 + 巨石文件回退）。
+
+    优先检测 course_meta.yaml + course_calendar.yaml 等拆分文件，
+    若存在则合并加载；否则回退到 course.yaml 巨石文件。
+    """
+    course_dir = os.path.dirname(os.path.abspath(path))
+
+    # 拆分文件清单
+    split_files = [
+        "course_meta.yaml",
+        "course_calendar.yaml",
+        "course_objectives.yaml",
+        "course_experiments.yaml",
+        "course_assessment.yaml",
+        "course_textbooks.yaml",
+    ]
+
+    meta_path = os.path.join(course_dir, "course_meta.yaml")
+    calendar_path = os.path.join(course_dir, "course_calendar.yaml")
+
+    if os.path.exists(meta_path) and os.path.exists(calendar_path):
+        merged = {}
+        for fname in split_files:
+            fpath = os.path.join(course_dir, fname)
+            if os.path.exists(fpath):
+                with open(fpath, 'r', encoding='utf-8') as f:
+                    data = yaml.safe_load(f)
+                if data:
+                    merged.update(data)
+        return merged
+
+    # 回退到巨石文件
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 

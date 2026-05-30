@@ -1,12 +1,12 @@
 week: 4
-topic: 驾驭复杂：高低阶框架的语言驱动策略
-title: 驾驭复杂：高低阶框架的语言驱动策略
+topic: 概念驱动创作：用设计语言指挥 D3.js
+title: 概念驱动创作：用设计语言指挥 D3.js
 theory_hours: 2.5
 practice_hours: 2.5
 objectives:
 - 运用 Munzner Ch7 表格数据空间排布的底层原理与布局选项
-- 利用文本向 AI 精准下达 ECharts 声明式图表的生成与配置要求
-- 挑战 D3.js 深度视觉定制：理解坐标系边界、比例尺并运用系统排错策略
+- 理解 D3.js 的核心设计哲学——数据驱动文档，即每一个数据点对应一个视觉元素
+- 掌握用设计语言（Marks/Channels/Scale）描述视觉映射规则的方法，通过自然语言驱动 AI 生成 D3 图表
 - 培养人脑构思架构与AI填充代码的 Vibe 工作流协作感
 created: 2026-02-21
 status: ready
@@ -14,9 +14,8 @@ tags:
 - ch07-arrange-tables
 - ch12-facets
 - ch13-reduce
-- ch14-temporal-data
-- echarts-declarative-arch
 - d3-bindscale-binddata
+- d3-svg-geometry
 - ai-code-debug-strategy
 delivery_mode: Lecture + Workshop
 core_theories: []
@@ -26,8 +25,6 @@ segments:
 - id: M01
   src: src/M01_空间_最昂贵的视觉通道.md
 - id: M02
-  src: src/M02_ECharts_与选项宇宙.md
+  src: src/M02_D3概念词典与视觉映射.md
 - id: M03
-  src: src/M03_像素的绝对支配_D3.js.md
-- id: M04
-  src: src/M04_Vibe_Coding_排错工作流.md
+  src: src/M03_Vibe_Coding与D3排错工作流.md

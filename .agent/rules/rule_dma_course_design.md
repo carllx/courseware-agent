@@ -1,10 +1,6 @@
 ---
-trigger: glob
+trigger: model_decision
 description: 当设计面向数字媒体艺术（DMA）专业的课程、规划 AI 代码生成项目或编写大纲时，必须遵循此处定义的项目能力边界与弱工程原则。
-globs:
-  - "**/course.yaml"
-  - "**/scripts/00_structure_map.md"
-  - "**/weeks/*/src/*.md"
 ---
 
 # 规则：DMA 专业 AI 课程设计范式 (DMA & AI Pedagogy Protocol)

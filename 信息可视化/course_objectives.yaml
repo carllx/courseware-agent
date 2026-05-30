@@ -1,0 +1,58 @@
+objectives:
+  knowledge:
+  - index: 1
+    desc: 解释数据可视化与视觉编码的基本理论，分析数据类型、视觉通道映射规律，并评价跨学科知识在信息可视化设计中的整合策略
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.2 跨学科知识整合
+      support_level: M
+  - index: 2
+    desc: 阐述数据抽象分类体系与 Tidy Data 整洁数据规范，构建面向大语言模型的结构化数据建模策略并验证其有效性
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.1 基础知识掌握
+      support_level: H
+  - index: 3
+    desc: 列举网络拓扑、空间数据与交互操作的可视化原理及其差异，比较 Scrollytelling 叙事架构的设计方法论与传统展示方式的适用场景
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.2 跨学科知识整合
+      support_level: H
+  ability:
+  - index: 1
+    desc: 能够通过自然语言概念驱动，灵活指挥 AI 引擎运用 D3.js 框架进行复杂交互叙事的生成与视觉定制
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.1 专业技术实现能力
+      support_level: M
+  - index: 2
+    desc: 能综合运用嵌套模型验证法与数据调研策略，独立完成从议题选择到交互原型设计的全流程规划
+    mappings:
+    - requirement: 3 创造性思维
+      point: 3.2 独立创意思考与原创设计
+      support_level: M
+  - index: 3
+    desc: 能运用矢量精修工具与生成艺术技法，将抽象数据转化为具有视觉冲击力与人文深度的数据艺术作品
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.1 专业技术实现能力
+      support_level: H
+  quality:
+  - index: 1
+    desc: 具备运用现代信息技术手段获取、整理与呈现数据的能力，能以数字信息化手段系统性解决可视化项目问题
+    mappings:
+    - requirement: 5 信息能力
+      point: 5.2 信息收集与筛选
+      support_level: M
+  - index: 2
+    desc: 具备数据治理中的诚信与规范意识，能在数据获取和可视化呈现中坚守学术伦理底线
+    mappings:
+    - requirement: 5 信息能力
+      point: 5.1 信息应用
+      support_level: H
+  - index: 3
+    desc: 能以数据艺术作品关照文化保护与社会公平等议题，在项目展示与互评中体现专业诚信与社会责任意识
+    mappings:
+    - requirement: 6 沟通表达
+      point: 6.2 沟通策略和适应性
+      support_level: M

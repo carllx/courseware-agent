@@ -66,9 +66,7 @@ Slide 使用 `> [VISUAL]` 块内联定义在 Script 中：
 
 ### course.yaml 访问约束 (ADR 043)
 
-> **日常高频工作流**（`/write`, `/audit` Quick/Standard, `/design_practice`）**禁止直接 `view_file` course.yaml 全文**。
-> 必须通过 `<课程>/extract_week.py --week N` 提取所需局部数据（~2-5KB vs 全量 ~51KB）。
-> 仅 `/audit --deep` Part F 和教务生成器允许加载 course.yaml 全量。
+> **→ SSOT**: `rules/rule_courseyaml_access.md`。日常工作流禁止直接加载 course.yaml 全文，详见该规则。
 
 ## 5. 引用规范
 

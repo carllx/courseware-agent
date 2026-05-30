@@ -23,7 +23,7 @@ export default function Layout_Grid({ slide }) {
   if (!hasItems && !hasImage) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className="h5-slide-body">
           <AssetPlaceholder customStyle={{ flex: 1 }} slide={slide} />
         </div>
@@ -35,7 +35,7 @@ export default function Layout_Grid({ slide }) {
   if (hasImage && !hasItems) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className={`h5-slide-body ${images.length > 1 ? 'h5-layout-grid' : ''}`} style={images.length > 1 ? { display: 'grid', gap: '1rem', gridTemplateColumns: `repeat(${Math.min(images.length, 3)}, 1fr)`, padding: '16px' } : {}}>
           {images.map((img, i) => (
              <AssetPlaceholder key={i} slide={{...slide, resolvedImage: img}} proportion="100%" />
@@ -49,7 +49,7 @@ export default function Layout_Grid({ slide }) {
   if (!hasImage && hasItems) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className="h5-slide-body h5-layout-grid">
           {items.map((item, i) => <GridCard key={i} item={item} />)}
         </div>
@@ -62,7 +62,7 @@ export default function Layout_Grid({ slide }) {
   if (images.length > 1 && images.length === items.length) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className="h5-slide-body h5-layout-grid">
           {items.map((item, i) => (
             <GridCard key={i} item={item} image={images[i]} />
@@ -75,7 +75,7 @@ export default function Layout_Grid({ slide }) {
   // 4b. 默认 Side-by-side 分形折叠布局
   return (
     <>
-      {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+      {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
       <div className="h5-slide-body h5-layout-grid-split">
         {/* 左侧：专属媒体展区 */}
         <div className="h5-grid-split-media" style={images.length > 1 ? { display: 'flex', flexDirection: 'column', gap: '1rem', overflowY: 'auto' } : {}}>

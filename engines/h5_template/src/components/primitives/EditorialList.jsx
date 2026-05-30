@@ -15,12 +15,11 @@ export default function EditorialList({
       {items.map((item, i) => {
         const itemTitle = typeof item === 'string' ? item : item.title;
         const itemDesc = typeof item === 'string' ? '' : (item.desc || '');
-        const num = String(i + 1).padStart(2, '0');
 
         return (
           <li key={i} className="h5-editorial-item">
             {variant === 'numbered' ? (
-              <div className="h5-editorial-marker h5-editorial-marker--numbered">{num}</div>
+              <div className="h5-editorial-marker h5-editorial-marker--numbered"></div>
             ) : (
               <div className={`h5-editorial-marker h5-editorial-marker--bar h5-editorial-marker--color-${i % 3}`}></div>
             )}

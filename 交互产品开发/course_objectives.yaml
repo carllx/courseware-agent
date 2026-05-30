@@ -1,0 +1,58 @@
+objectives:
+  knowledge:
+  - index: 1
+    desc: 描述交互产品从用户痛点洞察、MVP 假设驱动、状态机架构到 AI 辅助原型生成与可用性验证的完整创作流程，并演示各阶段的关键产出物
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.3 全流程创作能力
+      support_level: H
+  - index: 2
+    desc: 分析人类认知局限与短时记忆负荷对界面设计的约束机理，运用心智模型匹配与降低认知过载的设计法则重构具体界面案例
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.1 基础知识掌握
+      support_level: M
+  - index: 3
+    desc: 执行以 Nielsen 十大可用性原则为核心的启发式评估方法，并依据 Think-Aloud 出声思考法的科学规范主持用户测试、评定缺陷严重级
+    mappings:
+    - requirement: 2 专业知识
+      point: 2.2 跨学科知识整合
+      support_level: M
+  ability:
+  - index: 1
+    desc: 能够运用目标导向设计思路与 Vibe Coding 范式，独立完成具有创新性与原创性的交互体验原型设计
+    mappings:
+    - requirement: 3 创造性思维
+      point: 3.2 独立创意思考与原创设计
+      support_level: M
+  - index: 2
+    desc: 能将容器化工程思维与 Design Token 体系系统化地应用于项目实践，实现从设计稿到前端组件的高保真映射
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.1 专业技术实现能力
+      support_level: H
+  - index: 3
+    desc: 能以评估专家身份客观执行跨组启发式走查与用户测试，基于质性数据系统梳理反馈并完成闭环迭代优化
+    mappings:
+    - requirement: 4 实际应用能力
+      point: 4.2 专业技能纵深
+      support_level: M
+  quality:
+  - index: 1
+    desc: 具备运用文字、图像、原型演示等多种方式清晰阐述设计理念的表达适应能力，能在路演答辩与同侪互评中高效沟通
+    mappings:
+    - requirement: 6 沟通表达
+      point: 6.2 沟通策略和适应性
+      support_level: H
+  - index: 2
+    desc: 具备面对 AI 生成代码不确定性时的工程韧性与自主排错意识，不盲从技术输出，坚持以人为本的设计价值观
+    mappings:
+    - requirement: 5 信息能力
+      point: 5.1 信息应用
+      support_level: H
+  - index: 3
+    desc: 能在同侪互评与路演答辩中以建设性姿态接受批评，展现虚心协作与持续迭代改进的专业精神
+    mappings:
+    - requirement: 6 沟通表达
+      point: 6.1 沟通与表达技巧
+      support_level: M

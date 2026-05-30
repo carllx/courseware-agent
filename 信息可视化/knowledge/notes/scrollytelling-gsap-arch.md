@@ -20,8 +20,8 @@ Scrollytelling（滚动叙事）= Scroll + Storytelling。用户的滚动行为�
 │  监听滚动位置 → 触发动画/数据切换        │
 ├─────────────────────────────────────────┤
 │  渲染层 (Render Layer)                   │
-│  ECharts / D3 = 特效组                   │
-│  执行 setOption / transition / 力重组    │
+│  D3 = 特效组                              │
+│  执行 bindData / transition / 力重组     │
 └─────────────────────────────────────────┘
 ```
 

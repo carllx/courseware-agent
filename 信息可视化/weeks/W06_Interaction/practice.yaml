@@ -61,16 +61,16 @@ phases:
     theory_link: "Scrollytelling 叙事节奏设计"
 
   - id: P3
-    name: "GSAP + ECharts/D3 高燃落地实战"
+    name: "GSAP + D3.js 高燃落地实战"
     minutes: 80
     type: practice
-    description: "一人胜过整个前端交互重构组——Scrollytelling 长卷开发"
+    description: "运用 AI 建立边界分明的双引擎协作——Scrollytelling 长卷开发"
     tools: ["Claude/DeepSeek", "VS Code/Cursor", "浏览器"]
     steps:
-      - "使用 AI 搭建 GSAP ScrollTrigger 基础骨架"
-      - "逐步接入 ECharts/D3 图表，绑定滚动触发事件"
-      - "至少 4 个触发步骤：数据过渡动画/图表切换/标注高亮/叙事文字渐入"
-      - "调试移动端响应与性能"
+      - "使用 AI 搭建 GSAP ScrollTrigger 基础触发器骨架（不涉及任何视图绘制）"
+      - "在 ScrollTrigger 触发点回调内，调用 D3.js 渲染函数和 .transition() 动画机制"
+      - "至少实现 4 个维度的滚动响应：数据过滤渲染、位置空间重布、SVG 颜色通道过渡、标注与叙事渐入"
+      - "通过隔离控制（GSAP管时机，D3管画面），极速调试排错直至体验顺畅"
     weight: "10%"
   scoring_rubric:
     full_marks: 100
@@ -97,8 +97,8 @@ phases:
       - "课堂实战打卡与交互记录"
 
 homework:
-  title: "Scrollytelling 长卷完善"
-  description: "基于自选社会议题数据，完成 GSAP ScrollTrigger + ECharts/D3 的 Scrollytelling 单页面长卷"
+  title: "Scrollytelling 叙事长卷交付"
+  description: "基于自选社会议题数据，利用 AI 生成 GSAP ScrollTrigger 驱动 D3.js 的交互叙事单页面。"
   weight: "10%"
   scoring_rubric:
     full_marks: 100
@@ -106,5 +106,5 @@ homework:
       - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
       - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
   deliverables:
-    - "完整 Scrollytelling HTML（至少 4 个触发步骤）"
-    - "分镜设计文档"
+    - "完整 Scrollytelling HTML 源文件（严格包含至少 4 幕由数据支撑的滚动触发动画）"
+    - "基于 Shneiderman 概览缩放框架的动效分镜拆解文档"

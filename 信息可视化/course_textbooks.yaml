@@ -1,0 +1,130 @@
+textbooks:
+- title: 信息可视化设计
+  author: 郝亚维, 张博文
+  publisher: 电子工业出版社
+  year: '2023'
+  type: textbook
+  citation: '郝亚维, 张博文. 信息可视化设计[M]. 北京: 电子工业出版社, 2023.'
+  toc:
+  - chapter: 1
+    title: 信息的设计与视觉传达
+  - chapter: 2
+    title: 信息可视化设计的发展
+  - chapter: 3
+    title: 信息图表类型与现代信息设计工具
+  - chapter: 4
+    title: 信息可视化设计师／团队和优秀作品案例
+  - chapter: 5
+    title: 信息可视化设计课堂作业的实现与完成
+  - chapter: 6
+    title: 中国'十四五'期间'核心技术'信息可视化设计
+- title: Visualization Analysis & Design
+  author: Tamara Munzner
+  publisher: CRC Press
+  year: '2014'
+  type: reference
+  citation: 'Tamara Munzner. Visualization Analysis & Design[M]. Boca Raton: CRC Press,
+    2014.'
+  toc:
+  - chapter: 1
+    title: 什么是可视化，为什么要做？
+    title_en: What's Vis, and Why Do It?
+  - chapter: 2
+    title: What：数据抽象
+    title_en: 'What: Data Abstraction'
+  - chapter: 3
+    title: Why：任务抽象
+    title_en: 'Why: Task Abstraction'
+  - chapter: 4
+    title: 分析：验证的四个层次
+    title_en: 'Analysis: Four Levels for Validation'
+  - chapter: 5
+    title: 标记与通道
+    title_en: Marks and Channels
+  - chapter: 6
+    title: 经验法则
+    title_en: Rules of Thumb
+  - chapter: 7
+    title: 表格数据排布
+    title_en: Arrange Tables
+  - chapter: 8
+    title: 空间数据排布
+    title_en: Arrange Spatial Data
+  - chapter: 9
+    title: 网络与树的排布
+    title_en: Arrange Networks and Trees
+  - chapter: 10
+    title: 颜色映射与其他通道
+    title_en: Map Color and Other Channels
+  - chapter: 11
+    title: 操控视图
+    title_en: Manipulate View
+  - chapter: 12
+    title: 分面为多视图
+    title_en: Facet into Multiple Views
+  - chapter: 13
+    title: 缩减项目与属性
+    title_en: Reduce Items and Attributes
+  - chapter: 14
+    title: 嵌入：焦点+上下文
+    title_en: 'Embed: Focus+Context'
+  - chapter: 15
+    title: 分析案例研究
+    title_en: Analysis Case Studies
+- title: Interactive Data Visualization for the Web
+  author: Scott Murray
+  publisher: O'Reilly Media, Inc.
+  year: '2017'
+  type: reference
+  citation: Scott Murray. Interactive Data Visualization for the Web[M]. O'Reilly
+    Media, Inc., 2017.
+  version_note: 基于 D3 v4；本课程以概念语义为主，不涉及具体 API 语法。D3 v7 的 API 变更不影响概念层教学。
+  toc:
+  - chapter: 1
+    title: Introduction
+    title_en: Introduction
+  - chapter: 2
+    title: Introducing D3
+    title_en: Introducing D3
+  - chapter: 3
+    title: Technology Fundamentals
+    title_en: Technology Fundamentals
+  - chapter: 4
+    title: Setup
+    title_en: Setup
+  - chapter: 5
+    title: Data
+    title_en: Data
+  - chapter: 6
+    title: Drawing with Data
+    title_en: Drawing with Data
+  - chapter: 7
+    title: Scales
+    title_en: Scales
+  - chapter: 8
+    title: Axes
+    title_en: Axes
+  - chapter: 9
+    title: Updates, Transitions, and Motion
+    title_en: Updates, Transitions, and Motion
+  - chapter: 10
+    title: Interactivity
+    title_en: Interactivity
+  - chapter: 11
+    title: Using Paths
+    title_en: Using Paths
+  - chapter: 12
+    title: Selections
+    title_en: Selections
+  - chapter: 13
+    title: Layouts
+    title_en: Layouts
+  - chapter: 14
+    title: Geomapping
+    title_en: Geomapping
+  - chapter: 15
+    title: Exporting
+    title_en: Exporting
+  - chapter: 16
+    title: Project Walk-Through
+    title_en: Project Walk-Through

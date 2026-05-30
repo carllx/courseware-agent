@@ -434,3 +434,16 @@ ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_t
 14. **R-12 extract_week.py SSOT 模板**: 从课程副本提升到 `.agent/templates/` 作为 SSOT，`/update_guidance` §G6 定义跨课程同步协议。
 
 **追加变更文件**：`rule_courseyaml_access.md`(NEW)、`write_phase3_verify.md`、`audit.md`、`validate_practice.py`(NEW)、`validate_project.py`、`update_guidance.md`、`DEPENDENCY_MAP.md`、`INDEX.md`、`templates/extract_week.py`(NEW)、`templates/course.yaml.template`。
+
+## ADR 044: `[VISUAL]` 纯文本资产伪字段防范与提取逻辑刚性化
+**Date**: 2026-05-28
+**Context**: 在修改 M02 脚本新增实验环节（代码块）时，Agent 错误地创造了不存在的 `> *   **Code**:` 伪字段，并将原生 Markdown 代码块裹挟在引用块内部（即 `> ```javascript`）。其根因在于 `script_format/SKILL.md` 第 134 行存在自相矛盾的表述（错误地暗示了存在 `Code` 字段）。这一系统性幻觉导致解析器无法读取视觉素材，破坏了“纯正 Markdown 文本与引擎剥离式处理”架构理念。
+**Decision**:
+1. **彻底封杀伪属性创造**：严禁在 `[VISUAL]` 块中创造类似 `Code`、`Diagram` 的自定义字段去包裹内容。
+2. **文本资产必须脱离引用块 (De-Quote Protocol)**：任何意图作为 `[VISUAL]` 素材在 PPT/H5 上展示的结构化文本（如 Markdown 代码块、Mermaid、表格），**必须**脱离 `>` 引用符，平铺并紧接在 `[VISUAL]` 块结束后。
+3. **修复 SKILL 矛盾点**：移除 `script_format/SKILL.md` 中关于“使用 Code 字段”的错误陈述，统一切换为“下方关联原生代码块”。
+**影响**:
+- 强化了 H5 解析端获取 `assetType` 与 `assetContent` 的底层鲁棒性。
+- 防止未来 Agent 再次因规范文件的自相矛盾而脑补出不合法的配置项。
+
+**变更文件**：`.agent/memory/ADR.md`、`.agent/skills/script_format/SKILL.md`。

@@ -7,7 +7,7 @@ import AssetPlaceholder from '../primitives/AssetPlaceholder'
 export default function Layout_Image({ slide }) {
   return (
     <>
-      {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+      {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
       <div className="h5-slide-body">
         <AssetPlaceholder slide={slide} proportion="100%" />
       </div>

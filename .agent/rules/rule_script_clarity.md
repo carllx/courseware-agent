@@ -1,8 +1,6 @@
 ---
-trigger: glob
+trigger: model_decision
 description: 当编写或审查逐字稿时，强制执行脉络清晰度、反啰嗦、反水份与段落结构断字的统一防线。
-globs:
-  - "**/weeks/*/src/*.md"
 ---
 
 # 规则：脉络清晰度与反注水 (Script Clarity & Anti-Padding)
@@ -56,6 +54,16 @@ globs:
 2. 删除所有正文，只看标题——能否还原论证走向？
 3. 如果不能 → 标题需要重写（参见 `rule_heading_design.md`）
 4. 检查 H3 数量是否符合 §1.2.1 分块密度约束
+
+### 1.5 正文级主线检查 (Body-Level Mainline Check)
+
+即使 H3 标题序列本身递进合理，正文内容仍可能偏离主线。对每个 `###` 块：
+
+1. 提取该 H3 的骨架支撑点（标题所承诺要论证的内容）
+2. 扫描正文中的完整论述段落（≥3 句）
+3. 如果某段论述与该 H3 的骨架支撑点**无直接关联** → `[TANGENT_INSERTION]` 🟡
+
+> **处置**：将旁支段落移至其语义归属的 H3 下，或降级为 `[DID YOU KNOW]` 标签块。
 
 ---
 
@@ -136,7 +144,7 @@ globs:
 > **写作时速查**：金句后不追述、块首不预告、情景 ≤ 25 字、定义仅定义一次。
 ## §3 信息推进节奏 (Advancement Rhythm)
 
-> **已合并至 `rule_content_depth.md` §2.5/§4**。IAR 段落分类、推进节奏约束的完整定义请参见该规则。本节不再重复定义。
+> **→ SSOT**: `rule_content_depth.md` §2.5（写作中即时密度校验）+ §4（IAR 段落诊断）。本节已合并至该规则，不再重复定义。
 ## §4 结构断字校验 (Structural Paragraphing)
 
 > **来源**：冷热叙事引擎（研究报告 §方法1）——冷热切换点就是天然的记忆分界线（Von Restorff 效应）。

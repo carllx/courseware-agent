@@ -52,20 +52,7 @@ description: 当编写或审查逐字稿时，强制执行 Mayer 一致性原则
 
 ## §1.4 可取困难豁免通道 (Desirable Difficulty Exemption)
 
-> **理论基础**：Bjork (1994) 及 Bjork & Bjork (2011). Mayer 一致性原则的适用边界：当被标记的内容块属于**经实证验证的长期记忆强化策略**时，删除它反而会降低教学效率（参见 `rule_cognitive_efficiency.md` §2 Paas 公式）。
-
-### 豁免条件（满足任一即豁免）
-
-| # | 豁免场景 | 识别信号 | 处置 |
-|:---:|:---|:---|:---|
-| DD-1 | 提取练习 | 内容块要求学生回忆/重构前文已学概念 | 保留，重分类为 `[GERMANE_LOAD]` |
-| DD-2 | 交错对比 | 内容块刻意将不同模块概念交叉对比 | 保留，重分类为 `[GERMANE_LOAD]` |
-| DD-3 | 间隔重现 | 内容块在距上次出现 ≥ 2000 字后重新激活概念 | 保留，重分类为 `[GERMANE_LOAD]` |
-
-### 禁止滥用
-
-- ❌ 不得将趣味性轶事伪装为提取练习来规避 Mayer 三问
-- ❌ 豁免必须在审计报告中显式标注 `[DD-EXEMPT: DD-N]`，附带理由
+> **→ SSOT**: `rule_cognitive_efficiency.md` §1（DD-1/DD-2/DD-3 校验矩阵）+ §2（Paas 公式）。当 §1.2 Mayer 三问标记某块为可删除时，加载该规则执行二次校验，通过则重分类为 `[GERMANE_LOAD]`。
 
 ---
 
@@ -102,6 +89,6 @@ description: 当编写或审查逐字稿时，强制执行 Mayer 一致性原则
 |:---|:---|:---|
 | §1 模块级一致性 | `rule_content_depth.md` §4.1 IAR | IAR 在段落级检测冗余段（R）；本规则在标签块/模块级检测目标越界 |
 | §1 诱惑性细节 | `audit_standard.md` Part C §10 Mayer 修饰语删除测试 | 现有 §10 在**句级**执行修饰语删除测试；本规则在**块级**执行整段价值判定 |
-| §1.4 可取困难豁免 | `rule_cognitive_efficiency.md` §1 二次校验 | 本规则 §1.4 是 cognitive_efficiency 的内联快捷版；完整仲裁逻辑参见该规则 |
+| §1.4 可取困难豁免 | `rule_cognitive_efficiency.md` §1 二次校验 | 本规则 §1.4 为纯指针；完整 DD 校验矩阵与 Paas 公式 SSOT 在该规则 |
 | §2 SCOPE_CREEP | `rule_outline_alignment.md` O1 steps 结构覆盖 | O1 检查"大纲该有的是否有"（缺失检测）；本规则检查"大纲没说的是否多了"（溢出检测） |
 | §3 写作时自检 | `rule_script_clarity.md` §2 一段一事 | 一段一事在段落职能层面检查；本规则在教学目标对齐层面检查 |

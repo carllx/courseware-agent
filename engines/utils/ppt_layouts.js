@@ -239,7 +239,7 @@ const LAYOUT_MAP = {
     'icons': 'renderList',
     'grid': 'renderGrid',
     'full': 'renderImage',
-    'table': 'renderList',
+    'table': 'renderCode',
     'comparison': 'renderComparison',
     'dashboard': 'renderGrid',
     'stat': 'renderTitle',
@@ -248,7 +248,7 @@ const LAYOUT_MAP = {
     'workshop': 'renderList',
     'quote': 'renderQuote',
     'cta': 'renderCTA',
-    'code': 'renderSplit',
+    'code': 'renderCode',
     'diagram': 'renderDiagram',
     'image': 'renderImage',
     'screenshot': 'renderImage',
@@ -286,6 +286,7 @@ const DEPRECATED_ALIASES = {
 const RENDERERS = {
     renderTitle,
     renderSplit,
+    renderCode,
     renderImage,
     renderDiagram,
     renderList,
@@ -979,17 +980,11 @@ function renderList(ctx) {
 
             const itemTitle = typeof item === 'string' ? item : item.title;
             const itemDesc = typeof item === 'string' ? '' : (item.desc || '');
-            const num = String(i + 1).padStart(2, '0');
 
-            // 编号圆形
+            // 编号圆形 -> 改为纯净圆点
             slide.addShape(pres.shapes.OVAL, {
-                x: MARGIN, y: y + 0.05, w: 0.45, h: 0.45,
+                x: MARGIN + 0.15, y: y + 0.1, w: 0.15, h: 0.15,
                 fill: { color: getC(theme, 'primary') },
-            });
-            slide.addText(num, {
-                x: MARGIN, y: y + 0.05, w: 0.45, h: 0.45,
-                fontSize: 14, fontFace: F.title, color: getC(theme, 'text_on_dark', 'FFFFFF'),
-                align: 'center', valign: 'middle', margin: 0,
             });
 
             // 标题
@@ -1793,3 +1788,56 @@ function renderOralTag(ctx) {
 }
 
 module.exports = { renderSlide };
+
+/**
+ * renderCode — 纯文字/代码展示布局
+ */
+function renderCode(ctx) {
+    const { pres, slide, theme, visual } = ctx;
+    const C = theme.C;
+    const F = theme.FONT;
+
+    // 标题
+    const title = extractTitle(visual);
+    let y = 0.4;
+    if (title) {
+        slide.addText(title, {
+            x: MARGIN, y: y, w: CW - MARGIN * 2, h: 0.6,
+            fontSize: adaptiveTitleSize(title), fontFace: F.title, color: getC(theme, 'text_main'),
+            bold: true, margin: 0,
+        });
+        y += 0.8;
+    }
+
+    const termH = CH - y - 0.4;
+    // 终端框背景
+    slide.addShape(pres.shapes.RECTANGLE, {
+        x: MARGIN, y: y, w: CW - MARGIN * 2, h: termH,
+        fill: { color: '1E1E1E' },
+        line: { color: '333333', width: 1 },
+    });
+
+    // 终端红黄绿按钮 (文本模拟)
+    slide.addText('🔴 🟡 🟢', {
+        x: MARGIN + 0.1, y: y, w: 1, h: 0.3,
+        fontSize: 10, align: 'left', valign: 'middle', margin: 0
+    });
+
+    // 语言标签
+    if (visual.assetType) {
+        slide.addText(visual.assetType.toUpperCase(), {
+            x: CW - MARGIN - 1.1, y: y, w: 1, h: 0.3,
+            fontSize: 10, fontFace: 'Courier New', color: '666666',
+            align: 'right', valign: 'middle', margin: 0
+        });
+    }
+
+    // 代码内容
+    if (visual.assetContent) {
+        slide.addText(visual.assetContent, {
+            x: MARGIN + 0.2, y: y + 0.4, w: CW - MARGIN * 2 - 0.4, h: termH - 0.5,
+            fontSize: 12, fontFace: 'Courier New', color: 'E6E6E6',
+            align: 'left', valign: 'top', margin: 0,
+        });
+    }
+}

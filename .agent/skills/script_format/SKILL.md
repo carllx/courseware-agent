@@ -61,7 +61,7 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 
 **静默层** (不朗读):
 *   `> [VISUAL]` — 画面描述 + Slide 内联定义
-*   `> [PACING]` — 情绪走位与节奏控制标签。**不得仅记录停顿秒数，必须写明与视觉 `[Emotional Tension]` 匹配的讲师语气转移及形体能量推移**（例如：`语速放缓，带着压迫感，随后视线扫过全场深呼吸`）。
+
 
 ### 人文层标签调研指引
 
@@ -71,18 +71,7 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 
 ### 知识标签 + Slide 引用关联
 
-知识标签自身**不是** `[VISUAL]`，但可以紧跟一个 `[VISUAL]` 块：
-
-```markdown
-> [CASE STUDY: 银翼杀手的混响设计]
-> 配乐大师 Vangelis 使用 Lexicon 224 创造了"心理上的雨夜"……
-
-> [VISUAL]
-> *   **Slide**: `S04_BladeRunner_City`
-> *   **Layout**: `Image`
-> *   **Scene**: 银翼杀手 (1982) 霓虹雨夜城市全景
-> *   **Search**: `Blade Runner 1982 city rain neon cinematography`
-```
+知识标签自身**不是** `[VISUAL]`，但可以紧跟一个 `[VISUAL]` 块。详见 [visual_block_examples.md](references/visual_block_examples.md)。
 
 ---
 
@@ -93,75 +82,34 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 > [!WARNING]
 > **防 Markdown 块粘连红线 (Anti-Adhesion Rule)**
 > 当 `> [VISUAL]` 或 `> [ACTIVITY]` 紧跟在另一个引用块（如 `> [CASE STUDY]`）之后或被其包裹时，**必须在两个块之间使用真正的空行（完全空白，不能有 `>`）进行断开！**
-> 绝对禁止用只包含 `>` 的行来连接不同标签块，否则前端 MDX 引擎会将它们解析为同一个连续组件，导致 `[VISUAL]` 无法作为独立图片渲染。
 
 ### 字段规范
 
 | 字段 | 必填 | 说明 |
 |:---|:---|:---|
 | `Slide` | ✅ | Slide 标题（中文），兼作模块内唯一标识 |
-| `Layout` | ✅ | PPT 排版类型 |
+| `Layout` | ✅ / 可推断 | PPT 排版类型。当下方关联了代码块/Mermaid/表格时可省略，解析器自动推断（见下文） |
 | `Scene` | ✅ | 画面的中文描述 |
 | `Text` | 可选 | Slide 标题文字 |
-| `List` | 可选 | 列表内容。支持两种语法：**单行格式**用 `/` 分隔（如 `项目1 / 项目2 / 项目3`）；**多行格式**在 `**List**:` 后换行，每项以 `> - 项目` 格式书写（注意必须保留 `>` 引用前缀，否则会导致 VISUAL 块断裂）。**Comparison 专用写法**：每行使用 `label: items` 冒号键值对格式，子项用顿号分隔（如 `> - ❌ 传统方法: 项目A、项目B、项目C`），**严禁使用缩进嵌套子列表** |
+| `List` | 可选 | 列表内容。**单行**用 `/` 分隔；**多行**每项以 `> - 项目` 格式（必须保留 `>` 前缀）。**Comparison** 用 `label: items` 冒号键值对，**严禁缩进嵌套子列表** |
 | `Action` | 可选 | 画面中的操作动作 |
-| `Asset` | 可选 | 物理图片核心字段。**推荐直接使用 MD 图片语法**（例：`![预览](../visuals/assets/...)`），IDE 可直接显示内联预览图，底层引擎会自动剥壳静默提取纯路径（零冗余机制）。 |
-| `Asset N` | 可选 | 多图时使用编号后缀（`Asset 1`, `Asset 2`, ...），格式同上，全部归入 `assets[]` 数组 |
-| `Resource` | 可选 | 辅助参考图片路径，格式同上，归入 `assets[]` 数组 |
+| `Asset` | 可选 | 推荐 MD 图片语法 `![预览](路径)`，引擎自动剥壳提取纯路径。**注意：当 `[VISUAL]` 块下方跟随关联的纯文本资产时，引擎提取的 `assetContent` 优先级高于图片路径，原图片将被忽略。** |
+| `Asset N` | 可选 | 多图编号后缀（`Asset 1`, `Asset 2`, ...），归入 `assets[]` |
+| `Resource` | 可选 | 辅助参考图片路径，归入 `assets[]` |
 | `AI_Prompt` | 可选 | AI 文生图 Prompt |
-| `Source` | **条件必填** | 资产来源类型枚举：`Textbook`（教材原图提取）/ `AI_Gen`（AI 生成）/ `Code`（代码渲染）/ `External`（外部搜索/网络下载）/ `Video`（视频素材）/ `Manual`（手工制作）。**当 Asset 指向非 AI 生成的真实素材时（视频/照片/GIF/外部下载），此字段为强制必填**，是 `real-asset-scanner` 防重复检测的确定性标识。缺省表示 AI 生成。 |
-| `Duration` | **条件必填** | 视频/音频素材的播放时长，格式 `XmXXs`（如 `2m30s`、`0m15s`）。**当 Asset 指向 `.mp4`/`.webm` 视频文件时为强制必填**。构建管线将通过 `ffprobe` 自动探测并覆盖手动标注值；当 ffprobe 失败时回退到此手动值。 |
-| `TimeCategory` | **条件必填** | 视频时长的学时归因类别：`lecture`（叙事内嵌短片 ≤30s，计入理论时间）/ `activity`（需专注观看 >30s，计入实践/活动时间）/ `explore`（网站探索型，计入实践时间）。**当 `Duration` 字段存在时为强制必填**，默认 `activity`。 |
+| `Source` | **条件必填** | 枚举：`Textbook`/`AI_Gen`/`Code`/`External`/`Video`/`Manual`。非 AI 真实素材时强制必填 |
+| `Duration` | **条件必填** | 视频时长，格式 `XmXXs`。Asset 指向 `.mp4`/`.webm` 时强制必填 |
+| `TimeCategory` | **条件必填** | `lecture`（≤30s）/ `activity`（>30s）/ `explore`。Duration 存在时强制必填 |
 | `Search` | 可选 | 网络搜索关键词 |
 | `Caption` | 可选 | 注释/引用文字 |
-| `Keywords` | 推荐 | 3-5 个逐字稿关键名词/实体（英文），作为 AI 文生图的认知锚点注入 Prompt。确保生成图片包含教师可回忆逐字稿内容的标志性物件。示例：`smartphone scrolling feed, vintage ledger book, algorithm node` |
-| `RenderMode` | 可选 | 视觉渲染模式：`themed`（走课程主题风格，适用于氛围/情绪过渡型 Slide）/ `pedagogical`（教学信息图风格，适用于承载具体知识点的 Slide，画面包含具象认知锚点）/ `pure`（纯几何/认知测试图）/ `real`（真实素材，不走 AI 生成）。**缺省时由 Agent 根据 `visual_system.yaml` 的 `pedagogical_routing` 规则自动判定**。 |
-
-> [!TIP]
-> **Asset 路径写法容错**：以下写法均会被解析器自动正规化为纯净相对路径：
-> - 新架构: `assets/slides/S00.png`（相对于教学周目录）
-> - 新架构 MD: `![预览](assets/slides/S00.png)`
-> - 旧架构: `visuals/assets/W01/img.png`（相对于课程根目录）
-> - 旧架构 MD: `![描述](../visuals/assets/W01/img.png)`
-> - 反引号:  `` `visuals/assets/W01/img.png` ``
-> - 双引号: `"visuals/assets/W01/img.png"`
+| `Keywords` | 推荐 | 3-5 个英文关键名词，作为 AI 文生图认知锚点 |
+| `RenderMode` | 可选 | `themed`/`pedagogical`/`pure`/`real`，缺省由 `visual_system.yaml` 自动判定 |
+| `assetContent` | 引擎推断 | 纯文本视觉资产内容。当 `[VISUAL]` 块下方**紧跟**（允许 ≤1 行空行间距）Markdown 代码块或表格时，引擎会自动吞并将其作为内嵌资产。 |
+| `assetType` | 引擎推断 | 纯文本视觉资产类型（如 `mermaid`, `javascript`, `table` 等）。 |
 
 ### 视频型 Asset 规范
 
-当 Slide 承载的是视频而非静态图片时，**Asset 字段必须直接指向视频文件**（`.mp4`/`.webm`），H5/PPT 引擎通过 Asset 的文件扩展名判断 Slide 类型（图片 vs 视频）。
-
-> [!CAUTION]
-> **Asset 指向 `.png`/`.jpg` 而视频链接放在块外正文** 是错误写法——引擎会将其渲染为图片 Slide，视频无法播放。
-
-**正确格式**：
-
-```markdown
-> [VISUAL]
-> **Slide**: W01_S06d_Video
-> **Layout**: `Full`
-> *   **Asset**: ![视频描述](../public/videos/Example.mp4)
-> **Source**: `Video` — 来源说明
-> **Duration**: `2m30s`
-> **TimeCategory**: `activity`
-> **Text**: 视频标题
-> **Scene**: 播放内容的简要说明。
-```
-
-> [!IMPORTANT]
-> **Duration 归因决策指引**：
-> - ≤30s 的短片段（嵌入叙事流的动画/GIF/微演示）→ `lecture`
-> - >30s 的视频（案例纪录片/解析视频/完整演示）→ `activity`
-> - 网站 Demo 互动探索 → `explore`（需手动估算时长）
->
-> 当不确定时，默认使用 `activity`。作者可根据实际教学场景覆盖。
-
-**禁止行为**：
-- ❌ Asset 指向 `.png` 静帧封面图，而将 `.mp4` 路径放在块外 `▶️` 行中
-- ❌ 向已有视频 Asset 的 VISUAL 块插入额外的图片 Asset 或 `Asset (AI fallback)` 行
-- ❌ 删除或覆盖已有的视频 Asset 路径
-- ❌ 视频 Asset 缺少 `Duration` 和 `TimeCategory` 字段（学时统计将产生盲区）
-- ❌ **在同一 `[VISUAL]` 块中放置多个视频 Asset**（H5 引擎每块只渲染一个主 Asset，多视频必须拆分为独立 VISUAL 块并间夹叙事段落）
-- ❌ **使用 `▶️ [链接文本](路径)` 语法引用视频**（引擎无法识别，必须使用 `![描述](路径.webm)` MD 图片语法）
+视频 Asset **必须直接指向 `.mp4`/`.webm` 文件**，引擎通过扩展名判断 Slide 类型。详细格式示例与禁止行为清单见 [visual_block_examples.md](references/visual_block_examples.md)。
 
 
 ### Layout 排版类型 (语义预设版)
@@ -177,8 +125,13 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 | **`Grid`** (多格矩阵) | `Comparison` (方案/红绿对比阵列。**建构法则：**作为引入新法则的破冰工具，先呈现“坏设计 vs 更坏设计”，激发学生内心的疑问与判断，**不要过早闭合结论**) |
 | **`Full`** (沉浸满屏) | `Screenshot` (带设备外壳截图), `Poll` (互动轮询) |
 | **`Flow`** (节点流线) | - |
+| **`Code`** | 代码块展示。配合下方关联 Markdown 代码块使用 |
+| **`Diagram`** | Mermaid 图表（架构/流程/类图等）。配合关联 Mermaid 代码块使用 |
+| **`Table`** | Markdown 表格展示。配合关联 Markdown 表格使用 |
 
-> ⚠️ 警告：原有的部分伪布局（`Title`, `Timeline`, `Card`, `Table`, `List` 等）不代表排版骨架，**已全数废弃并被 Validation Suite 拦截**。当内容为表格、代码、列表时，只需按 markdown 规则使用 `Text`/`List`/`Code` 字段，配合基础空间如 `Split` 或 `Full`，引擎会**自动推算并嵌入组件**。
+> **自动推断逻辑**：如果作者在 `[VISUAL]` 块中未显式指定 `**Layout**`，但其下方紧跟了纯文字视觉资产（代码块/Mermaid/表格），解析器会根据代码块语言或表格格式自动推断并应用 `Code`、`Diagram` 或 `Table` 排版类型。
+
+> ⚠️ 警告：原有的部分伪布局（`Title`, `Timeline`, `Card`, `Table`, `List` 等）不代表排版骨架，**已全数废弃并被 Validation Suite 拦截**。如果是纯文字列表，请使用 `List` 字段；**如果内容是纯文本资产（代码块、表格、Mermaid），绝对禁止捏造 `Code` 等伪字段！**必须将原生 Markdown 代码块脱离引用（无 `>` 前缀）直接挂载到 `[VISUAL]` 块的紧下方，引擎会自动吞并并推算组件。
 
 ---
 
@@ -293,61 +246,10 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 
 ### 5.1 教学表达三层约束体系 (Evidence-Based Narrative Framework)
 
-> **核心法则**：**以真实的生活切片和行业痛点作为燃料，以 Mayer 多媒体认知理论与 Rosenshine 教学原则作为实证引擎。**
+> **TL;DR**：三层松耦合约束——① 叙事启动层（SCQA 破冰，推荐）→ ② 认知传递层（冷热交替 + 分段 + 视觉锚定 + Rosenshine 检查点，**唯一强制层**）→ ③ 实证丰化层（STAR 结构案例约束，推荐）。约束强度随教师经验递减（Lv.1 全约束 → Lv.3 底线约束）。
 >
-> **理论基础**：本约束体系不追随任何单一品牌教学框架（如 4MAT、BOPPPS 等），而是以经过数十年同行评审验证的认知科学原则为锚点，构建三个独立但可组合的约束层。各层按需启用，避免一刀切式的过度约束。
+> 完整规范见 [evidence_based_narrative.md](references/evidence_based_narrative.md)。
 
-#### 第一层：叙事启动层（推荐 · 非强制）
-
-**适用场景**：≥8 分钟的教学模块（H2/H3 级别）的开场引入。短模块（<8 分钟）或纯技术参数讲解可跳过此层。
-
-通过 **SCQA 结构**建立情感联结与痛点共鸣：
-1. **S/C（现状与冲突）**：展示行业的失效现状，揭示一个不得不解决的尖锐冲突——这不是干巴巴的背景介绍，而是必须击中痛点的“情感火花”（Emotional Spark），借此带领听众进入深度共鸣与心流。
-2. **Q/A（追问与解答）**：指出破解口在哪，引出本节课的核心知识点作为“解药”。
-
-> [!TIP]
-> SCQA 是一个**强大的叙事破冰工具**，而非适用于所有场景的万能公式。当内容本身足够直观（如工具演示、API 参数说明）时，强行插入痛点叙事只会造成"过度施加情景"（Over-application），分散学生焦点。
-
-> [!TIP]
-> **行动导向替代策略 (Carroll's Action-Oriented Alternative)**：
-> 当模块的教学目标是"分析能力"而非"概念记忆"时（如信息可视化的图表解读），可使用 Carroll 极简主义的行动导向策略替代完整 SCQA：
->
-> 1. **先抛真实制品**：模块开头直接展示一张真实的可视化图表（如纽约时报疫情地图），零背景铺垫
-> 2. **让学生先"看图说话"**：插入 1-2 分钟的 `[ACTIVITY] Type: QA`，让学生用自己的语言描述"你看到了什么"
-> 3. **再回头解释理论**：学生的朴素描述自然暴露出术语空白，此时引入理论框架，学生会感到"恍然大悟"而非"被动接收"
->
-> **注意**：此策略仅适用于有"真实制品可展示"的模块。纯理论模块（如哲学思辨）仍应使用 SCQA 情感破冰。
-> **理论来源**：Carroll, J. M. (1990). *The Nurnberg Funnel: Designing Minimalist Instruction for Practical Computer Skill*. MIT Press.
-
-#### 第二层：认知传递层（强制 · 核心层）
-
-**理论基础**：Mayer CTML（分段原则、多媒体原则、连贯性原则）+ Rosenshine 教学十原则。
-
-无论模块时长如何，**此层为唯一强制执行的约束层**，所有教学内容必须满足以下底线：
-
-1. **冷热交替（金字塔结构）**：核心知识点的呈现必须遵循“冷热交替”节奏——
-   - **顶层结论（骨骼/冷）**：金字塔尖的核心断言，客观精准。
-   - **结构支撑（冷暖交织）**：3 个维度的支撑论点，用带温度的案例或真实切片包裹。切忌为了列点而罗列生硬的词汇。
-2. **分段呈现（Segmenting）**：遵循 §5.2 物理段落约束（此原则即 Mayer 分段原则的体现）。
-3. **视觉锚定（Multimedia）**：遵循 §1 Visual-First 双轨（此原则即 Mayer 多媒体原则的体现）。
-4. **冗余剔除（Coherence）**：遵循 §6.4 装饰性图片禁令（此原则即 Mayer 连贯性原则的体现）。
-5. **Rosenshine 理解检查点**：连续纯讲授 **≥10 分钟**（约 3000 字）后，**必须**插入至少一个 `> [ACTIVITY]` 理解检查（推荐 `Type: QA`，时长 1-2 分钟），确保认知闭环。此规则与 §4 的 60-90 分钟互动规则互补——§4 管控宏观节奏，本规则管控微观心流。
-
-#### 第三层：实证丰化层（推荐 · 非强制）
-
-**适用场景**：当模块涉及 `> [CASE STUDY]` 或 `> [STORY TIME]` 人文标签时。
-
-案例/故事段落建议（非强制）使用 **STAR 结构**（Situation → Task → Action → Result）进行物理约束（≤250 字），以防止案例冗长失控。
-
-#### 教师分级赋能策略
-
-> **设计理据**：认知负荷理论中的“专家逆转效应（Expertise-Reversal Effect）”表明，对新手有帮助的高度脚手架可能对有经验的讲师造成反效果。因此，约束强度应随教师经验递减。
-
-| 教师级别 | 约束强度 | 启用的层 | 辅助工具 |
-|:---|:---|:---|:---|
-| **Lv.1 新手**（语言能力较弱） | 🔴 全约束 | 三层全部启用 | 填空式 [Cheat Sheet](references/teacher_cheat_sheet.md) + `/write` 模板自动生成 |
-| **Lv.2 成长**（有一定经验） | 🟡 核心约束 | 仅第二层强制，第一/三层推荐 | `/audit` 仅审查 Mayer 原则合规性 |
-| **Lv.3 资深**（表达流畅） | 🟢 底线约束 | 仅物理规范（段落长度、视觉密度底线） | 系统仅做基础卫生检查 |
 
 ### 5.2 段落物理结构 (Paragraph Anatomy)
 
@@ -448,6 +350,10 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 *   ❌ **VISUAL 夹带私货**：将正常的讲授词、活动说明等普通段落，错误地包裹在 `> [VISUAL]` 区块内（`[VISUAL]` 是纯配置块，任何非元数据字段的文本都会被 H5 解析器直接丢弃，绝对不可见！）
 *   ❌ **List 裸列表项**：`**List**:` 后的多行列表项缺少 `>` 引用前缀（如 `- 项目` 而非 `> - 项目`），会导致 VISUAL 块在该行断裂，后续的 `**Asset**` 图片路径丢失。多行列表的每个 `- item` 行**必须**以 `> - item` 格式书写
 *   ❌ **Comparison 嵌套列表**：在 `Layout: Comparison` 的 List 字段中使用缩进嵌套子列表（如 `>   - 二级子项`）。SSG 构建层的 `extract_visual_list()` 会将所有缩进层级拍平为一维数组，导致 H5 端丢失双栏结构信息并触发错误的奇偶分配 fallback。Comparison 必须使用 `label: items` 扁平冒号格式（见 §3 List 字段规范）
+*   ❌ **代码块/表格与 VISUAL 间夹杂讲稿**：在 `[VISUAL]` 块与其关联的代码块/表格之间插入讲稿文字。解析器的 Look-Ahead 只容忍 ≤1 行空行，任何非空非代码的文本都会中断关联，导致代码块被误读为普通正文
+*   ❌ **代码块资产与图片 Asset 同时指定**：对同一 `[VISUAL]` 块既提供 `**Asset**` 图片路径又在块后跟代码块。解析器会忽略图片路径（代码块优先），造成作者预期与实际渲染不一致
+*   ❌ **伪造属性字段裹挟资产**：在 `[VISUAL]` 块中创造不存在的自定义字段（如 `> * **Code**: ` 或 `> * **Diagram**: `）来包裹文本资源。系统根本不支持此类幻觉设定。
+*   ❌ **资产代码块嵌套引用 (Quote Entanglement)**：将下挂的 Markdown 纯文本资产（如 ```javascript ... ```）错误地加上 `>` 前缀包裹在引用块内。纯文本资产必须完全脱离大括号引用，紧随块后顶格书写！
 
 ---
 
@@ -472,6 +378,7 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 - [ ] **Narrative Boundary**: 相邻 H3 的首张 Slide 是否具备明确的视觉区分度（不同 Scene 主题/色调）？（§6.3 叙事边界性）
 - [ ] **Cognitive Anchor Recall (三词回溯测试)**: 对每张 AI 生成的 Slide 图片执行回溯测试——看着图片，能否在 3 秒内说出 ≥3 个与逐字稿内容相关的关键词？若不能，说明图片缺少认知锚点，需调整 Scene/Keywords 后重新生成。（仅适用于 `RenderMode=pedagogical` 的 Slide）
 - [ ] **Instant Clarity (§10)**: 是否存在可用更简单日常词替换而不损失信息的复杂用词？（Oppenheimer 替代测试）是否存在单段 ≥ 3 个极端修饰语？（Mayer 修饰语密度上限）H3/H4 标题是否秒懂？（Pinker 新生朗读测试）
+- [ ] **Pure Text Asset Association**: 带有代码块/Mermaid/表格的 `[VISUAL]` 块是否正确关联？`assetType` 是否与实际内容匹配？（§3 纯文字视觉资产）
 - [ ] **Dying Metaphor (§10.6)**: 是否存在 Dying 级隐喻/四字成语堆砌？（Orwell 自检：读到它时大脑是否自动生成画面？如果没有就是 Dying，用白话重说）
 - [ ] **结构性装饰语密度**: `validate_script_length.py` 是否报告 `[DEGEN]` 段落级结构性退化？（四字格密度 ≥5/百字、「的」字链 ≥2 处、或窗口极端修饰 ≥3）如有，须修复对应窗口
 
@@ -491,10 +398,18 @@ description: 定义课程逐字稿的格式规范与标签体系（含三层松�
 
 | 文件 | 加载时机 | 内容 |
 |:---|:---|:---|
+| [evidence_based_narrative.md](references/evidence_based_narrative.md) | 撰写/审计模块叙事结构时 | 三层松耦合约束体系完整规范（SCQA/认知传递/STAR）+ 教师分级赋能策略 |
+| [visual_density_standard.md](references/visual_density_standard.md) | 审计视觉密度、分配 Slide 时 | 视觉切换触发规则、量化参考、标题层级分配协议、禁止事项 |
+| [visual_block_examples.md](references/visual_block_examples.md) | 编写 VISUAL 块、处理视频 Asset 时 | 知识标签+Slide 关联示例、视频型 Asset 正确格式与禁止行为 |
+| [LAYOUT_STORYBOOK.md](references/LAYOUT_STORYBOOK.md) | 需要 Layout 排版的详细视觉参考时 | Layout 类型的 Storybook 可视化样例集 |
 | [narrative_standards_guide.md](references/narrative_standards_guide.md) | 审阅词句、深度 Audit 重构、不确定语调时 | 反翻译腔、韵律、过渡焊接、脉络透明度、§10 秒懂优先协议 |
 | [instant_clarity_research.md](references/instant_clarity_research.md) | 执行 §10 遇边界判定、优化 validate_script_length.py、需要学术引用支持决策时 | Oppenheimer/Paivio/Mayer/Pinker 四框架的原始论文、实验结论、LLM 华丽偏差研究 |
-| [speech_memorization_research.md](references/speech_memorization_research.md) | 需要理解脉络可视化和逻辑重建理论基础时 | 七大记忆方法体系、冷热标签映射、骨架卡片理论、v3 逻辑重建范式（FTT/Bartlett/即兴演讲/生成性学习） |
+| [speech_memorization_research.md](references/speech_memorization_research.md) | 需要理解脉络可视化和逻辑重建理论基础时 | 七大记忆方法体系、冷热标签映射、骨架卡片理论、v3 逻辑重建范式 |
 | [teacher_cheat_sheet.md](references/teacher_cheat_sheet.md) | Lv.1 新手教师备课、`/write` 工作流首次使用时 | 三层分级填空式备课脚手架（§5.1 教师分级赋能策略配套工具） |
+| [argument_saturation.md](references/argument_saturation.md) | 审计段落论证饱和度时 | 论证饱和判定模型与阈值 |
+| [llm_inflation_patterns.md](references/llm_inflation_patterns.md) | 检测/修复 LLM 生成文本膨胀时 | LLM 常见注水模式识别与修复策略 |
+| [rhetoric_patterns.md](references/rhetoric_patterns.md) | 审计修辞手法合规性时 | 修辞模式分类与使用边界 |
+| [schema_asymmetry.md](references/schema_asymmetry.md) | 评估学生认知图式差异时 | 图式不对称分析模型 |
 | [benchmark_sample.md](benchmark_sample.md) | 冷启动、无前序脚本时 | 人文密度基线锚点 |
 
 > **关联规则**：`rule_script_clarity.md`（脉络清晰度与反注水统一防线）在写作和审计时由 glob 自动触发。

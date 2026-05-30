@@ -14,22 +14,22 @@ import AssetPlaceholder from '../primitives/AssetPlaceholder'
  */
 export default function Layout_Flow({ slide }) {
   const hasList = slide.parsedList && slide.parsedList.length > 0
-  const hasImage = !!slide.resolvedImage
+  const hasAsset = !!slide.resolvedImage || !!slide.assetContent
 
   // 无 list 时退化为简单的图文展示
   if (!hasList) {
     return (
       <>
-        {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
+        {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
         <div className="h5-slide-body h5-layout-editorial-split h5-layout-editorial-split--reverse">
           <div className="h5-split-content">
-            {(slide.text || slide.scene) && (
-              <p className="h5-split-scene">{slide.text || slide.scene}</p>
+            {(slide.scene) && (
+              <p className="h5-split-scene">{slide.scene}</p>
             )}
           </div>
           <AssetPlaceholder
             slide={slide}
-            proportion={slide.scene && !slide.resolvedImage ? '100%' : '55%'}
+            proportion={slide.scene && !hasAsset ? '100%' : '55%'}
           />
         </div>
       </>
@@ -38,8 +38,8 @@ export default function Layout_Flow({ slide }) {
 
   return (
     <>
-      {slide.heading && <div className="h5-slide-heading">{slide.heading}</div>}
-      <div className={`h5-slide-body h5-layout-flow${hasImage ? '' : ' h5-layout-flow--full'}`}>
+      {(slide.text || slide.heading) && <div className="h5-slide-heading">{slide.text || slide.heading}</div>}
+      <div className={`h5-slide-body h5-layout-flow${hasAsset ? '' : ' h5-layout-flow--full'}`}>
         {/* 左侧：垂直步进器 */}
         <div className="h5-flow-stepper">
           {slide.parsedList.map((item, i) => {
@@ -49,9 +49,7 @@ export default function Layout_Flow({ slide }) {
 
             return (
               <div key={i} className={`h5-flow-step${isLast ? ' h5-flow-step--last' : ''}`}>
-                <div className="h5-flow-step-marker">
-                  {String(i + 1).padStart(2, '0')}
-                </div>
+                <div className="h5-flow-step-marker"></div>
                 <div className="h5-flow-step-content">
                   <div className="h5-flow-step-title">{itemTitle}</div>
                   {itemDesc && <div className="h5-flow-step-desc">{itemDesc}</div>}

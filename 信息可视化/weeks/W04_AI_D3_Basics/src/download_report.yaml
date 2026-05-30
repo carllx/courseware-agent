@@ -1,0 +1,12 @@
+- error: ''
+  output_path: /Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W04_AI_D3_Basics/public/slides/s05c_vibe_coding_real.jpg
+  slide: S05c_Vibe_Coding
+  status: success
+  stitch_mode: horizontal
+  urls_failed: []
+- error: ''
+  output_path: /Users/yamlam/Downloads/2025-2026-2 课程/信息可视化/weeks/W04_AI_D3_Basics/public/slides/s14b_figma_variant_sync_real.png
+  slide: S14b_Figma_Variant_Sync
+  status: success
+  stitch_mode: single
+  urls_failed: []

@@ -63,17 +63,11 @@
 }
 
 .h5-editorial-marker--numbered {
-  width: 24px;
-  height: 24px;
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
   border-radius: 50%;
   background: var(--theme-primary);
-  color: var(--theme-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: 700;
-  font-family: var(--theme-fontTitleCn);
 }
 
 .h5-editorial-marker--bar {
@@ -439,8 +433,8 @@
 .h5-flow-step::before {
   content: '';
   position: absolute;
-  left: 11px;   /* (marker 宽度 24px / 2) - 1 */
-  top: 28px;    /* marker 高度 + 间距 */
+  left: 3px;   /* (marker 宽度 8px / 2) - 1 */
+  top: 16px;    /* marker 高度 + 间距 */
   bottom: 0;
   width: 2px;
   background: linear-gradient(
@@ -460,17 +454,11 @@
 }
 
 .h5-flow-step-marker {
-  width: 24px;
-  height: 24px;
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
   border-radius: 50%;
   background: var(--theme-primary);
-  color: var(--theme-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 700;
-  font-family: var(--theme-fontTitleCn);
   flex-shrink: 0;
   position: relative;
   z-index: 1;
@@ -497,3 +485,78 @@
   line-height: 1.5;
 }
 
+/* Code 布局 (纯文本/代码片段) */
+.h5-layout-code {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.h5-code-terminal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--theme-bgDark, #1E1E1E);
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.h5-code-terminal-header {
+  height: 32px;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.h5-code-terminal-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.h5-code-terminal-dot--red { background: #FF5F56; }
+.h5-code-terminal-dot--yellow { background: #FFBD2E; }
+.h5-code-terminal-dot--green { background: #27C93F; }
+
+.h5-code-terminal-lang {
+  margin-left: auto;
+  font-family: monospace;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.h5-code-terminal-body {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+  margin: 0;
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #E6E6E6;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* Mermaid 图表自适应容器 */
+.h5-mermaid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+
+.h5-mermaid-container svg {
+  max-width: 100%;
+  max-height: 100%;
+}

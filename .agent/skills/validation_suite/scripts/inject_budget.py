@@ -301,13 +301,9 @@ def main():
     total_skipped = 0
     total_no_time = 0
 
-    # 加载全量 calendar 用于 steps 查询
-    full_config_path = os.path.join(workspace, args.course, 'course.yaml')
-    full_calendar = []
-    if os.path.exists(full_config_path):
-        with open(full_config_path, 'r', encoding='utf-8') as f:
-            full_config = yaml.safe_load(f)
-        full_calendar = full_config.get('calendar', [])
+    # 加载全量 calendar 用于 steps 查询（通过 load_course_config 自动支持拆分架构）
+    full_config = load_course_config(workspace, args.course)
+    full_calendar = full_config.get('calendar', [])
 
     for fname in files:
         fpath = os.path.join(scripts_dir, fname)

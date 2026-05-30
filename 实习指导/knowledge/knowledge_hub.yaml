@@ -1,0 +1,23 @@
+meta:
+  course: 实习指导
+  last_updated: '2026-05-23'
+entries:
+- id: 2026_internship_archiving_timeline
+  type: note
+  tags:
+  - internship
+  - archiving
+  - timeline
+  - grading
+  - rules
+  summary: 2026届毕业生实习归档关键日期与材料递交细节（巡察表/一生一档/留白规定/打分比例）。
+  source: knowledge/notes/2026_internship_archiving_timeline.md
+- id: 2026_internship_material_video_guide
+  type: note
+  tags:
+  - internship
+  - manual
+  - protocol
+  - signature
+  summary: 实习档案视频指南笔记。涵盖档案袋材料清单勾选、手册填写细则（日期/打分原则）、会议记录补全电话及实习协议书的签订时效红线。
+  source: knowledge/notes/2026_internship_material_video_guide.md

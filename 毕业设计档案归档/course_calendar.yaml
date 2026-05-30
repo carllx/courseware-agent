@@ -1,0 +1,36 @@
+calendar:
+- week: 1
+  chapter_title: 第1章 归档全流程指南
+  topic: 毕业设计档案归档指南
+  content: '1.1 总体要求与归档顺序
+
+    1.2 过程性材料汇编避坑'
+  hours_theory: 2
+  hours_practice: 2
+  teaching_requirements:
+    knowledge: ''
+    ability: ''
+  focus: ''
+  difficulty: ''
+  ideology: ''
+  teaching_method: ''
+  supported_objectives:
+  - 知识1
+  task: ''
+  lessons:
+  - topic: ''
+    objectives:
+    - ''
+    steps:
+    - stage: 导入
+      summary: ''
+      minutes: 15
+    - stage: 讲授
+      summary: ''
+      minutes: 60
+    - stage: 实践
+      summary: ''
+      minutes: 80
+    - stage: 小结
+      summary: ''
+      minutes: 10

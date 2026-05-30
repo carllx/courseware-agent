@@ -247,7 +247,10 @@ export default function h5HotReload(options = {}) {
   function discoverCourseDirs(root) {
     try {
       return fs.readdirSync(root, { withFileTypes: true })
-        .filter(d => d.isDirectory() && fs.existsSync(path.join(root, d.name, 'course.yaml')))
+        .filter(d => d.isDirectory() && (
+          fs.existsSync(path.join(root, d.name, 'course.yaml')) ||
+          fs.existsSync(path.join(root, d.name, 'course_meta.yaml'))
+        ))
         .map(d => path.join(root, d.name))
     } catch {
       return []

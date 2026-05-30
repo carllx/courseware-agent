@@ -34,3 +34,8 @@ Agent 仅允许访问以下类别的网络资源：
 ## 5. 自动执行协议 (Auto-Execution Protocol)
 - 在 Workflow 中，凡涉及**写入文件**、**删除文件**或**网络请求**的步骤，**不得**标记为 `SafeToAutoRun` (或 `// turbo`)。
 - 必须在执行任何破坏性命令前，通过 `notify_user` 或 `run_command` (wait_for_user=True) 寻求确认。
+
+## 6. 逐字稿完整性保护
+
+> **已拆分为独立规则** → `rule_script_integrity.md`（trigger: glob, globs: `**/weeks/*/src/*.md`）。
+

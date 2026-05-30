@@ -128,7 +128,7 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
 
 对每个 `##` 模块执行以下检查：
 
-1.  **字数间隔扫描**：计算相邻两个 `> [ACTIVITY]` 块之间（或模块开头到首个 `[ACTIVITY]` 之间）的纯讲授中文字数（排除 `> [VISUAL]` 块和 `> [PACING]` 块占用的区间）
+1.  **字数间隔扫描**：计算相邻两个 `> [ACTIVITY]` 块之间（或模块开头到首个 `[ACTIVITY]` 之间）的纯讲授中文字数（排除 `> [VISUAL]` 块占用的区间）
     *   **> 3000 字**（约 10 分钟连续讲授）→ 标记 `[MISSING_CHECKPOINT]` 🔴
     *   **2000-3000 字**（约 7-10 分钟）→ 标记 `[CHECKPOINT_WARN]` 🟡
     *   **≤ 2000 字** → ✅ 合格
@@ -197,6 +197,21 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
 - **深度审计**：激活 `cognitive-walkthrough` Skill，执行包含 P7 动态知识背包追踪的完整逐段走查
 
 > **判定**：任何 🔴 标记 ≥ 1 → **Needs Revision**。🟡 ≥ 3 → 建议修改。
+
+### Part B-9: 叙事拓扑审计 (Narrative Topology Audit) 🆕
+
+> **引用规则**: `rule_narrative_topology.md`
+
+对每个 `##` 模块执行中观结构层检查：
+
+1. **概念依赖图**：提取各 H3 的概念引入集/依赖集，构建 DAG，校验章节顺序
+   - `[DEPENDENCY_VIOLATION]` 🔴 / `[MAINLINE_BREAK]` 🟡
+2. **特殊块归属**：扫描 WARNING/QA/TEACHING MOMENT 块，校验上下文位置
+   - `[MISPLACED_BLOCK]` 🔴
+3. **母题频率**：统计同一抽象母题的完整论证次数（≥2句展开）
+   - `[THEME_SATURATION]` 🟡（3-4次）/ 🔴（≥5次）
+
+> **严重度**：`[DEPENDENCY_VIOLATION]` / `[MISPLACED_BLOCK]` 为 🔴 → **Needs Revision**。其余 🟡 → 建议修改。
 
 ### Part B-5 追加: 论证饱和度检测
 

@@ -368,7 +368,10 @@ def validate_practice_file(filepath: Path, concept_registry: dict,
                             # 从 practice.yaml 路径推算课程目录
                             course_dir = filepath.parent
                             # 向上查找 course.yaml 所在目录
-                            while course_dir != workspace and not (course_dir / "course.yaml").exists():
+                            while course_dir != workspace and not (
+                                (course_dir / "course.yaml").exists() or
+                                (course_dir / "course_meta.yaml").exists()
+                            ):
                                 course_dir = course_dir.parent
                             abs_export = course_dir / export_path
                         else:
@@ -558,12 +561,18 @@ def discover_practice_files(workspace: Path, course: str = None, week: int = Non
 
 
 def discover_courses(workspace: Path) -> list[str]:
-    """发现所有含 course.yaml 的课程目录名。"""
-    courses = []
+    """发现所有课程目录（支持拆分架构 + 巨石文件）。"""
+    courses = set()
+    # 拆分架构：检测 course_meta.yaml
+    for f in workspace.glob("*/course_meta.yaml"):
+        if any(part in EXCLUDED_DIRS for part in f.parts):
+            continue
+        courses.add(f.parent.name)
+    # 巨石架构回退：检测 course.yaml
     for f in workspace.glob("*/course.yaml"):
         if any(part in EXCLUDED_DIRS for part in f.parts):
             continue
-        courses.append(f.parent.name)
+        courses.add(f.parent.name)
     return sorted(courses)
 
 

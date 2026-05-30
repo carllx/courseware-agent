@@ -1,0 +1,580 @@
+- slide: M4-02e
+  module: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译
+  layout: Image
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - camelcase_product
+  entities:
+  - iPhone
+  - iPad
+  description: 弹性材料实战
+  scene_excerpt: 动态 UI 演示图。在横向容器中，铁块(Fixed)、紧身衣(Hug)、水(Fill)三种材质在容器受横向挤压和拉伸时的实时形变反馈。
+  search_queries:
+  - iPhone photo
+  - iPhone real image
+  - iPad photo
+  - iPad real image
+  - iPhone demo video
+  - iPad demo video
+  target_path: ../public/videos/M4-02e.webm
+  current_asset: ../public/slides/M4-02e.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M4-05
+  module: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译
+  layout: Full
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - book_title
+  entities:
+  - User Card
+  description: 实操：卡片组件嵌套封装
+  scene_excerpt: Figma 实操录屏。演示“从内到外”的积木式弹性封装：先选中按钮及内部文字加 Auto Layout，再将标题与正文打组，最后将头像、文本组和按钮全选加
+    Auto Layout。将最外层黑底卡片的约束条件从 Fixed 切换为 Hug，卡片瞬间自适应拥抱内部的嵌套结构，最后演示调整不同层级的 Padding
+    和 Gap。
+  search_queries:
+  - User Card photo
+  - User Card real image
+  - User Card demo video
+  target_path: ../public/videos/M4-05.webm
+  current_asset: ../public/slides/M4-05.mp4
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M6-01
+  module: M06_实践_严苛组件框架搭建
+  layout: Grid
+  priority: high
+  media_type: video
+  signals:
+  - video_demo
+  - book_title
+  entities:
+  - 用户卡片 (User Card) 的双重构建
+  description: 严苛骨架
+  scene_excerpt: 极具秩序感的 Figma 组件化界面搭建拆解，展现严苛的框架规则和约束。
+  search_queries:
+  - 用户卡片 (User Card) 的双重构建 photo
+  - 用户卡片 (User Card) 的双重构建 real image
+  - 用户卡片 (User Card) 的双重构建 demo video
+  target_path: ../public/videos/M6-01.webm
+  current_asset: ../public/slides/M6-01.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M4-04a-2b
+  module: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译
+  layout: Image
+  priority: high
+  media_type: image
+  signals:
+  - historical_archive
+  - camelcase_product
+  entities:
+  - iPad
+  description: 救急屏幕盲区
+  scene_excerpt: 急救场景隐喻。一张模糊的急诊室背景，前景是 iPad Mini 屏幕上一条被无情截断的处方信息，凸显出这种设计缺陷在真实场景下的严重后果。
+  search_queries:
+  - iPad photo
+  - iPad real image
+  target_path: ../public/slides/M4-04a-2b_real.png
+  current_asset: ../public/slides/M4-04a-2b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: single
+  disposition: generate
+  lock_reason: ''
+- slide: M0-01
+  module: M00_课程导览
+  layout: Center
+  priority: medium
+  media_type: video
+  signals:
+  - historical_archive
+  - video_demo
+  entities: []
+  description: 设计师的心碎瞬间
+  scene_excerpt: 呈现一个强烈的“灾难”对比：左侧是 Figma 里静态完美的“用户卡片（User Card）”设计；右侧是真实数据灌入后，变长的用户简介文字像泥石流一样向下冲垮、死死压在“More”按钮上的“车祸现场”。通过强烈的视觉反差打破安全感，直击痛点。
+  search_queries:
+  - 设计师的心碎瞬间 historical photo
+  - 设计师的心碎瞬间 archive image
+  - 呈现一个强烈的“灾难”对比：左侧是 Figma 里静态完美的“用户卡片（User demonstration
+  target_path: ../public/videos/M0-01.webm
+  current_asset: ../public/slides/M0-01.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M1-01b
+  module: M01_复习_从状态流转到物理界面
+  layout: Center
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 脆弱的现实：物理变量击碎绝对坐标
+  scene_excerpt: 右侧是真实手机上的排版灾难现场：开启“大字号模式”后，暴胀的文字将底部的“确认支付”按钮硬生生顶出了手机的物理下边界。按钮直接“掉出”了屏幕之外，彻底消失无踪，导致支付流程完全瘫痪，呈现出极具冲击力的崩溃画面。
+  search_queries:
+  - 脆弱的现实：物理变量击碎绝对坐标 historical photo
+  - 脆弱的现实：物理变量击碎绝对坐标 archive image
+  target_path: ../public/slides/M1-01b_real.png
+  current_asset: ../public/slides/M1-01b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: single
+  disposition: generate
+  lock_reason: ''
+- slide: M3-01
+  module: M03_讲授_万物皆盒_DOM_盒模型与物理法则
+  layout: Image
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  - physical_product
+  entities: []
+  description: 胖手指灾难
+  scene_excerpt: 宏观特写镜头下的手指触控分析图。画面展示一根人类食指按压在发光的玻璃屏幕上，底层显现出代表像素的数字网格。在手指与玻璃接触的位置，有一个标准的工业圆形光圈（代表
+    7 毫米真实物理接触面积），以此说明物理触碰范围远大于底层的视觉像素按钮。
+  search_queries:
+  - 胖手指灾难 historical photo
+  - 胖手指灾难 archive image
+  target_path: ../public/slides/M3-01_real.png
+  current_asset: ../public/slides/M3-01.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M4-05c
+  module: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译
+  layout: Comparison
+  priority: medium
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 碎步间距的终端适配问题
+  scene_excerpt: 左右终端界面对比实录图：左侧是超大宽屏下的电商卡片，卡片被拉得极宽产生巨大留白，但“立即购买”按钮和价格标签因为被 7px 的固定间距限制，紧凑地挤在角落；右侧是超窄安卓屏，因为各种
+    11.5px、13px 的间隙互相挤压叠加，导致最右侧的“立即购买”主行动按钮直接被挤出了屏幕可视区之外。
+  search_queries:
+  - 碎步间距的终端适配问题 historical photo
+  - 碎步间距的终端适配问题 archive image
+  target_path: ../public/slides/M4-05c_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M2-01b
+  module: M02_导入_画布思维的崩塌与响应式觉醒
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 恶果追因：铁盒与洪流的冲突
+  scene_excerpt: 一分为二的灾难隐喻图：左侧是一个试图装下各种奇形怪状几何体的固定钢铁盒子，盒子边缘因不兼容（代表碎片化的屏幕尺寸）而被生生撕裂；右侧是一个尺寸被焊死的玻璃杯，里面正被注入汹涌的数字洪流（代表超长文本与大字模式），信息流疯狂溢出并冲垮了表面。
+  search_queries:
+  - 一分为二的灾难隐喻图：左侧是一个试图装下各种奇形怪状几何体的固定钢铁盒子 盒子边 demonstration
+  target_path: ../public/videos/M2-01b.webm
+  current_asset: ../public/slides/M2-01b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M2-02
+  module: M02_导入_画布思维的崩塌与响应式觉醒
+  layout: Split
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 流动的光与电
+  scene_excerpt: 对比概念图。左侧是一张被打印机吐出的固定尺寸纸张；右侧是像水流一样自上而下自然发光排列的流动数字文本，充满动态与适应性。
+  search_queries:
+  - 对比概念图 左侧是一张被打印机吐出的固定尺寸纸张；右侧是像水流一样自上而下自然发 demonstration
+  target_path: ../public/videos/M2-02.webm
+  current_asset: ../public/slides/M2-02.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M2-02a
+  module: M02_导入_画布思维的崩塌与响应式觉醒
+  layout: Center
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 控制权的让渡
+  scene_excerpt: 隐喻图——一双紧紧握拳的手（象征绝对控制）逐渐松开，变成托举流动数字水滴的手势（象征相对适应权）。
+  search_queries:
+  - 隐喻图——一双紧紧握拳的手（象征绝对控制）逐渐松开 变成托举流动数字水滴的手势（ demonstration
+  target_path: ../public/videos/M2-02a.webm
+  current_asset: ../public/slides/M2-02a.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M02_导入_画布思维的崩塌与响应式觉醒_narr_L77
+  module: M02_导入_画布思维的崩塌与响应式觉醒
+  layout: ''
+  priority: low
+  media_type: video
+  signals:
+  - camelcase_product
+  - narrative_video_priority
+  - narrative_case study
+  entities:
+  - iPhone
+  description: '[CASE STUDY]
+
+    2017年苹果发布 iPhone X 时，全球移动端爆发了一场史无前例的排版灾难：因为屏幕顶部首次出现了物理“刘海”（Notch）和圆'
+  scene_excerpt: '[CASE STUDY]
+
+    2017年苹果发布 iPhone X 时，全球移动端爆发了一场史无前例的排版灾难：因为屏幕顶部首次出现了物理“刘海”（Notch）和圆角。大量采用“死坐标”开发、将顶部导航栏硬编码在
+    `y=0` 的 App，其核心按钮直接被物理刘海无情切断和遮挡，导致应用核心交互瞬间瘫痪。
+
+    这个历史级的教训迫使业界推出了“安全区域”（Safe Area）规范。它告诉我们，在硬件形态无穷分'
+  search_queries:
+  - iPhone video
+  - iPhone demo
+  target_path: ../public/videos/M02_导入_画布思维的崩塌与响应式觉醒_narr_L77.webm
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M3-02c
+  module: M03_讲授_万物皆盒_DOM_盒模型与物理法则
+  layout: Comparison
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 痛点解药具象化
+  scene_excerpt: 直观对比演示“加大 Padding 防误触”和“增加 Margin 拉开社交距离”的前后效果。左侧展示极易误触的狭小按钮与拥挤卡片，右侧展示通过增加透明区（Padding）撑大触控面积以及通过加大间距（Margin）实现呼吸感的完美修复方案。
+  search_queries:
+  - 直观对比演示“加大 Padding 防误触”和“增加 Margin 拉开社交距离 demonstration
+  target_path: ../public/videos/M3-02c.webm
+  current_asset: ../public/slides/M3-02c.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M3-03a
+  module: M03_讲授_万物皆盒_DOM_盒模型与物理法则
+  layout: Image
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 尺寸本能：硬质木箱
+  scene_excerpt: 尺寸本能机制隐喻。一只坚固的“硬质木箱（Fixed）”，无论里面装的是一块小石头还是一头大象，木箱的长宽被完全固定，多出的部分直接破框而出（Overflow）。
+  search_queries:
+  - 尺寸本能机制隐喻 一只坚固的“硬质木箱（Fixed）” 无论里面装的是一块小石头 demonstration
+  target_path: ../public/videos/M3-03a.webm
+  current_asset: ../public/slides/M3-03a.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M3-03b
+  module: M03_讲授_万物皆盒_DOM_盒模型与物理法则
+  layout: Image
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 尺寸本能：热缩膜
+  scene_excerpt: 尺寸本能机制隐喻。极具韧性的“热缩膜（Hug）”，随着内部物品的膨胀，热缩膜像被吸干了空气一样，紧紧贴合着内容物同步撑大。
+  search_queries:
+  - 尺寸本能机制隐喻 极具韧性的“热缩膜（Hug）” 随着内部物品的膨胀 热缩膜像被 demonstration
+  target_path: ../public/videos/M3-03b.webm
+  current_asset: ../public/slides/M3-03b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M3-04
+  module: M03_讲授_万物皆盒_DOM_盒模型与物理法则
+  layout: Image
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 阵列调度引擎
+  scene_excerpt: 画面左侧是设计师绝望地逐个测量并手动调整几十个盒子间距的繁重体力劳动；右侧是成百上千个盒子受统一中央规则指挥，像流水般自动整齐排列的高效自动化场景。
+  search_queries:
+  - 画面左侧是设计师绝望地逐个测量并手动调整几十个盒子间距的繁重体力劳动；右侧是成百 demonstration
+  target_path: ../public/videos/M3-04.webm
+  current_asset: ../public/slides/M3-04.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M4-02d
+  module: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译
+  layout: Grid
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 伸缩材质映射
+  scene_excerpt: 将“生硬的铁块（Fixed）”、“高弹力紧身衣（Hug）”与“有魔力的流动水（Fill）”并置的三宫格视觉隐喻，帮助学生在听讲时拥有具体的认知锚点。
+  search_queries:
+  - 将“生硬的铁块（Fixed）”、“高弹力紧身衣（Hug）”与“有魔力的流动水（F demonstration
+  target_path: ../public/videos/M4-02d.webm
+  current_asset: ../public/slides/M4-02d.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M5-05b
+  module: M05_讲授_秩序的终局_间距刻度与Design_Token
+  layout: Full
+  priority: low
+  media_type: video
+  signals:
+  - video_demo
+  entities: []
+  description: 暗黑模式遗漏导致的白屏眩光
+  scene_excerpt: 在全黑的卧室环境里，用户看着手机屏幕。手机屏幕四周是暗色调的 UI，但在正中央突然弹出了一个纯白底色的协议弹窗。白光照亮了用户的脸庞，引起视觉不适。
+  search_queries:
+  - 在全黑的卧室环境里 用户看着手机屏幕 手机屏幕四周是暗色调的 UI 但在正中央突 demonstration
+  target_path: ../public/videos/M5-05b.webm
+  current_asset: ../public/slides/M5-05b.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M0-02
+  module: M00_课程导览
+  layout: Agenda
+  priority: low
+  media_type: image
+  signals:
+  - acronym_product
+  entities:
+  - CSS Flexbox
+  description: 本节目标
+  scene_excerpt: 清晰列出三大核心目标，配合简单的图标（大脑代表思维，代码符号代表同频，组件模块代表物料）。
+  search_queries:
+  - CSS Flexbox photo
+  - CSS Flexbox real image
+  target_path: ../public/slides/M0-02_real.png
+  current_asset: ../public/slides/W06_M00_本节目标.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M4-04a-2
+  module: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译
+  layout: Image
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  entities:
+  - iPad
+  description: 医疗静默截断问题
+  scene_excerpt: 医疗系统处方静默截断案例。一条电子病历处方，文字被悄无声息地截断，末尾只有一个不起眼的省略号，导致重要剂量信息丢失。
+  search_queries:
+  - iPad photo
+  - iPad real image
+  target_path: ../public/slides/M4-04a-2_real.png
+  current_asset: ../public/slides/M4-04a-2.png
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译_narr_L129
+  module: M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  - narrative_case study
+  entities:
+  - iPad
+  description: '[CASE STUDY]
+
+    **真实案例：被省略号截断的关键信息**
+
+
+    在探讨“静默截断”的危害时，我们必须跳出“排版是否美观”的狭隘视角，来看看这种设计失效如何'
+  scene_excerpt: '[CASE STUDY]
+
+    **真实案例：被省略号截断的关键信息**
+
+
+    在探讨“静默截断”的危害时，我们必须跳出“排版是否美观”的狭隘视角，来看看这种设计失效如何在现实世界中引发严重后果。
+
+
+    2018年，一家医疗机构引入了全新的移动端电子病历系统（EHR），允许急诊科医生通过 iPad 进行移动查房。为了让界面看起来“极简且整洁”，外包设计团队为系统中的“处方药物与剂量”卡片容器设定了绝对死板的固定'
+  search_queries:
+  - iPad photo
+  - iPad real image
+  target_path: ../public/slides/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译_narr_L129_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L25
+  module: M05_讲授_秩序的终局_间距刻度与Design_Token
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - book_title
+  - narrative_philosophy
+  entities:
+  - Refactoring UI
+  description: '[PHILOSOPHY]
+
+    在《Refactoring UI》中，作者给出了一条铁律：**永远不要在 120px 和 125px 之间内耗，你必须建立一套"间距刻'
+  scene_excerpt: '[PHILOSOPHY]
+
+    在《Refactoring UI》中，作者给出了一条铁律：**永远不要在 120px 和 125px 之间内耗，你必须建立一套"间距刻度体系（Spacing
+    System Scale）"。**'
+  search_queries:
+  - Refactoring UI photo
+  - Refactoring UI real image
+  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L25_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L185
+  module: M05_讲授_秩序的终局_间距刻度与Design_Token
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - acronym_product
+  - narrative_case study
+  entities:
+  - IBM Carbon
+  description: '[CASE STUDY]
+
+    **工业案例：IBM Carbon 的全局色值同步**
+
+
+    IBM Carbon 拥有全球上千条独立软件产品线。过去，若要将标志性的品牌'
+  scene_excerpt: '[CASE STUDY]
+
+    **工业案例：IBM Carbon 的全局色值同步**
+
+
+    IBM Carbon 拥有全球上千条独立软件产品线。过去，若要将标志性的品牌蓝稍微调亮，将会面临极大的工程挑战。
+
+
+    品牌部需要下发新的 Hex 色值，前端工程师必须在浩如烟海的代码仓库中执行“全局查找与替换”，极易产生遗漏或误改，整个品牌色升级往往耗时数月且容易出错。'
+  search_queries:
+  - IBM Carbon photo
+  - IBM Carbon real image
+  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L185_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L249
+  module: M05_讲授_秩序的终局_间距刻度与Design_Token
+  layout: ''
+  priority: low
+  media_type: image
+  signals:
+  - camelcase_product
+  - narrative_case study
+  entities:
+  - isDarkMode
+  description: '[CASE STUDY]
+
+    **暗黑模式（Dark Mode）的硬编码陷阱**
+
+
+    早期适配暗黑模式时，若缺乏架构规划，前端通常会在业务代码里硬编码逻辑分支：
+
+    `i'
+  scene_excerpt: '[CASE STUDY]
+
+    **暗黑模式（Dark Mode）的硬编码陷阱**
+
+
+    早期适配暗黑模式时，若缺乏架构规划，前端通常会在业务代码里硬编码逻辑分支：
+
+    `if (isDarkMode) { background = "#000000"; color = "#FFFFFF"; }`
+
+
+    这种做法极易遗漏冷门页面。当用户在全黑环境下遇到未适配的页面时，会被纯白底色瞬间刺激视觉，这导致了严重的体验问题'
+  search_queries:
+  - isDarkMode photo
+  - isDarkMode real image
+  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L249_real.png
+  current_asset: ''
+  no_ai_flag: false
+  confirmed_urls: []
+  stitch_mode: auto
+  disposition: ''
+  lock_reason: ''
+- slide: M2-02b
+  module: M02_导入_画布思维的崩塌与响应式觉醒
+  layout: Image
+  priority: high
+  media_type: image
+  signals:
+  - historical_archive
+  entities: []
+  description: 刘海屏危机：被硬件击碎的绝对坐标
+  scene_excerpt: 2017 年 iPhone X 刚发布时的典型未适配 App 截图：顶部导航栏的“返回”和“菜单”按钮被物理刘海直接遮挡了一半，右上角的UI元素与系统时间重叠，呈现出死守绝对坐标导致的典型布局灾难。
+  search_queries: []
+  target_path: ../public/slides/M2-02b_real.png
+  current_asset: ../public/slides/M2-02b.png
+  no_ai_flag: false
+  confirmed_urls:
+  - https://assets.content.technologyadvice.com/636450451833773441_5a32799fe2.webp
+  stitch_mode: single
+  disposition: download
+  lock_reason: ''

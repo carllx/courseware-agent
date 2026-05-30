@@ -24,7 +24,12 @@
 > *   **Layout**: `Grid`
 > *   **Scene**: 五张依次排列的高亮讲解卡片。分别展示：方块(Item)、量杯(Attribute)、连线(Link)、坐标系(Position)、网格(Grid)。
 > *   **Text**: "从个体到整体"
-> *   **List**: /数据项 / 属性 / 链接 / 位置 / 网格 /
+> *   **List**: 
+>     - 数据项
+>     - 属性
+>     - 链接
+>     - 位置
+>     - 网格
 > *   **Caption**: "五大基本类型：数据重组的基础单元。"
 > *   **Asset**: ![Munzner Fig2.2](../public/textbook/Fig2.2_五种基本数据类型图解.png)
 > *   **Source**: Textbook
@@ -79,7 +84,11 @@
 > *   **Layout**: `Grid`
 > *   **Scene**: 四格视图：二维表（Tables）、网络与树（Networks）、连续场（Fields）、几何多边形（Geometry）。
 > *   **Text**: "四大数据集类型"
-> *   **List**: /二维表 / 网络与树 / 连续场 / 几何空间 /
+> *   **List**: 
+>     - 二维表
+>     - 网络与树
+>     - 连续场
+>     - 几何空间
 > *   **Caption**: "洞悉数据集类型，是选择可视化策略的前提。"
 > *   **Asset**: ![Munzner Fig2.3](../public/textbook/Fig2.3_四种基本数据集类型组合图.png)
 > *   **Source**: Textbook
@@ -154,7 +163,10 @@
 > *   **Layout**: `Split`
 > *   **Scene**: 展现三种分类属性：独立的分类标签、阶层式的序数阶梯、精确度量的量化刻度尺。
 > *   **Text**: "属性类别：分类型、序数型、量化型"
-> *   **List**: /分类型 / 序数型 / 量化型 /
+> *   **List**: 
+>     - 分类型
+>     - 序数型
+>     - 量化型
 > *   **Caption**: "判断法则：数据有高低顺序吗？能精确计算差值吗？"
 > *   **Asset**: ![Munzner Fig2.7](../public/textbook/Fig2.7_属性分类树.png)
 > *   **Source**: Textbook
@@ -189,7 +201,9 @@
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧：四件衣服尺码（S/M/L/XL），问题“L码比M码多几厘米？”；右侧：精准身高测量仪算式“180-160=20cm”。
 > *   **Text**: "序数型 vs 量化型"
-> *   **List**: /序数型 / 量化型 /
+> *   **List**: 
+>     - 序数型
+>     - 量化型
 > *   **Caption**: "序数仅有顺序，量化可作差值计算。"
 > *   **Asset**: ![预览](../public/slides/S18_Ordinal_Vs_Quantitative.png)
 
@@ -213,7 +227,10 @@
 > *   **Scene**: 左半边：单一线条从零点向高处单向延伸；右半边：以中心零轴为基准，数据向正负两极延伸（如红蓝分歧）。
 > *   **Caption**: "单向延伸与两极发散模式。"
 > *   **Text**: "单向延伸与两极发散模式。"
-> *   **List**: /单向顺序 / 发散型 / 周期型 /
+> *   **List**: 
+>     - 单向顺序
+>     - 发散型
+>     - 周期型
 > *   **Asset**: ![Munzner Fig2.7](../public/textbook/Fig2.7_属性分类树.png)
 > *   **Source**: Textbook
 
@@ -300,7 +317,9 @@
 > *   **Layout**: `Grid`
 > *   **Scene**: 左侧工号字段漂浮着代表定位寻址的钥匙（Key），右侧数值字段被设计为装载体量的金库（Value）。
 > *   **Text**: "唯一标识符 (Key) 与 承载内容 (Value)"
-> *   **List**: /标识符 / 承载内容 /
+> *   **List**: 
+>     - 标识符
+>     - 承载内容
 > *   **Caption**: "标识符必须精准对应并开启承载内容的保险柜。"
 > *   **Asset**: ![Munzner Fig2.8](../public/textbook/Fig2.8_表格与连续场的语义对比图.png)
 > *   **Source**: Textbook

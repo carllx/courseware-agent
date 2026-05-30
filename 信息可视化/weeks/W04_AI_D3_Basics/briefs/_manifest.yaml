@@ -1,0 +1,30 @@
+week: W04
+course: 信息可视化
+status: complete
+
+textbook_coverage:
+  - book: "Interactive Data Visualization for the Web -- Scott Murray -- 2017"
+    chapters_covered: ["3", "7"]
+    coverage_ratio: 1.0
+
+mapping:
+  - brief: B01_Technology_Fundamentals_骨架皮肤大脑.md
+    source_chapters: "Chapter 3"
+    covers_modules: [M01]
+    figure_count: 6
+    figures_migrated: 6
+    checklist_count: 4
+  - brief: B02_Scales_Apples_and_Pixels.md
+    source_chapters: "Chapter 7"
+    covers_modules: [M04]
+    figure_count: 12
+    figures_migrated: 12
+    checklist_count: 4
+
+summary:
+  total_briefs: 2
+  total_figures: 18
+  total_figures_migrated: 18
+  total_checklist_items: 8
+  modules_covered: [M01, M04]
+  modules_uncovered: []

@@ -103,8 +103,10 @@ def load_theme(course_path: Path) -> dict:
     """从 course.yaml 解析引用或从 visual_system.yaml 加载主题色。"""
     import yaml
 
-    # 1. 尝试从 course.yaml 中读取 @theme 引用
+    # 1. 尝试从 course.yaml 或 course_meta.yaml 中读取 @theme 引用
     course_yaml_path = course_path / "course.yaml"
+    if not course_yaml_path.exists():
+        course_yaml_path = course_path / "course_meta.yaml"
     if course_yaml_path.exists():
         try:
             course_config = yaml.safe_load(course_yaml_path.read_text(encoding="utf-8"))
@@ -702,6 +704,8 @@ def blocks_to_h5_json(
                 "image": images[0] if images else None,      # 向后兼容
                 "images": images,                              # 新字段：全部图片
                 "assetExpected": asset_list or None,
+                "assetContent": meta.get("asset_content", None),
+                "assetType": meta.get("asset_type", None),
                 "list": slide_list if slide_list else None,
                 "paragraphStart": len(current_section["paragraphs"]),
                 # ARC-03: 视频时长归因元数据
@@ -990,8 +994,13 @@ def discover_courses() -> list[dict]:
     import yaml
 
     courses = []
-    for cy in sorted(CWD.glob("*/course.yaml")):
+    course_files = set(CWD.glob("*/course.yaml")) | set(CWD.glob("*/course_meta.yaml"))
+    processed_dirs = set()
+    for cy in sorted(list(course_files)):
         course_path = cy.parent
+        if course_path in processed_dirs:
+            continue
+        processed_dirs.add(course_path)
         try:
             raw = yaml.safe_load(cy.read_text(encoding="utf-8"))
         except Exception as e:
@@ -1420,6 +1429,8 @@ def run_rebuild_week(course_dir: str, changed_file: str):
     # 读取课程名称
     course_name = course_dir
     course_yaml_path = course_path / "course.yaml"
+    if not course_yaml_path.exists():
+        course_yaml_path = course_path / "course_meta.yaml"
     if course_yaml_path.exists():
         try:
             config = yaml.safe_load(course_yaml_path.read_text(encoding="utf-8"))

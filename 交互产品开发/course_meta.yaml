@@ -1,0 +1,61 @@
+course:
+  id: 交互产品开发
+  name: 交互产品开发
+  code: CNFU002572
+  semester: 2025-2026-2
+  nature: 专业选修课
+  grade: 2023级
+  training_plan_version: '2023'
+  credits: 3.0
+  department: 设计学院
+  major: 数字媒体艺术
+  prerequisites: 用户体验设计
+  resources_url: '1.校内在线教学平台（学习通课件发布、作业提交与互动讨论）。
+
+    2.软件支持：Figma、Visual Studio Code、v0 / CodeGeeX 等 AI 代码辅助工具。
+
+    3.教室与实验室条件：投影设备、多媒体教室、计算机实验室。
+
+    '
+  classes:
+  - name: 2023级数字媒体艺术影视班
+    archive_id: 21
+    schedule_time: 周四2-5节
+    schedule_segments:
+    - weeks: 9-18
+      period: 2-5节
+      day: 周四
+    - weeks: 13-17
+      period: 2-5节
+      day: 周日
+    classroom: 温泉校区 2实107
+    week_range: 9-18
+  hours:
+    total: 60
+    theory: 0
+    practice: 60
+    minutes_per_period: 45
+  introduction:
+    content: '本课程是数字媒体艺术专业的核心课程，定位为"AI 辅助的交互体验与系统设计"。课程有意识地剥离了传统重度后端的 SaaS 工程逻辑，转而聚焦于交互体验装置与单页面互动应用的开发。课程体系依托《Interaction
+      Design》的认知科学框架，向下兼容《Lean UX》的模型验证与《About Face 4》的信息流构架，并引入 Vibe Coding 理念与实操，让学生借助前沿 AI 代码生成工具 (如 v0、CodeGeeX)，跨越前端工程门槛，独立完成从痛点洞察、高保真状态机构筑到体验式前端输出的闭环。
+
+      '
+    design: '课程采用强设定的"1主线+4实验"模式，贯穿15周教学。以"交互单页面体验应用"为项目驱动核心，摒弃假大空的文档撰写，注重"假设驱动"的敏捷落地方孔。教学过程通过"周实操导引 -> 周课内实战 -> 阶段性实验验收"的节奏，最终通过极简的
+      AI 工具生成可交互的前沿动效静态雏形，并在教室内完成基于启发式走查与出声思考法的同侪可用性测试评估。
+
+      '
+teacher:
+  name: 林昕
+  title: 无
+  office: A101 (神岗基地 F5-608)
+  department: 数字媒体艺术
+  team: 无
+student_analysis: '本课程面向数字媒体艺术专业大三学生（23级），已完成用户体验设计等先修课程，具备基本的设计思维与交互原型能力。学生普遍擅长视觉设计工具（Figma/PS），但前端开发与代码调试经验不足。课程引入 Vibe
+  Coding 范式与 AI 代码助手，帮助学生跨越前端工程门槛，聚焦于交互体验与可用性验证的核心能力培养。
+
+  '
+semester_config:
+  start_date: '2026-03-02'
+agent:
+  standards:
+    visual_system: '@theme:academic_minimal'

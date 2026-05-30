@@ -156,12 +156,27 @@ def validate_week(week: dict, mpp: int, strict: bool = False, is_last_week: bool
 
 def validate_course(course_dir: Path, strict: bool = False) -> dict:
     """校验单门课程，返回 {课程名: [(周, 级别, 消息)]}"""
+    # 支持拆分架构：优先读 course_meta.yaml + course_calendar.yaml
+    meta_path = course_dir / 'course_meta.yaml'
+    calendar_path = course_dir / 'course_calendar.yaml'
     yaml_path = course_dir / 'course.yaml'
-    if not yaml_path.exists():
-        return {}
 
-    with open(yaml_path, 'r', encoding='utf-8') as f:
-        data = yaml.safe_load(f)
+    if meta_path.exists() and calendar_path.exists():
+        # 拆分模式
+        data = {}
+        for fname in ['course_meta.yaml', 'course_calendar.yaml', 'course_objectives.yaml',
+                      'course_experiments.yaml', 'course_assessment.yaml', 'course_textbooks.yaml']:
+            fpath = course_dir / fname
+            if fpath.exists():
+                with open(fpath, 'r', encoding='utf-8') as f:
+                    part = yaml.safe_load(f)
+                if part:
+                    data.update(part)
+    elif yaml_path.exists():
+        with open(yaml_path, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+    else:
+        return {}
 
     course = data.get('course', {})
     if not isinstance(course, dict):
@@ -252,13 +267,16 @@ def main():
             sys.exit(1)
         all_results.update(validate_course(course_dir, args.strict))
     else:
-        # 扫描全部含 course.yaml 的子目录
+        # 扫描全部含 course_meta.yaml 或 course.yaml 的子目录
         for item in sorted(root.iterdir()):
-            if item.is_dir() and (item / 'course.yaml').exists():
+            if item.is_dir() and (
+                (item / 'course_meta.yaml').exists() or
+                (item / 'course.yaml').exists()
+            ):
                 all_results.update(validate_course(item, args.strict))
 
     if not all_results:
-        print("⚠️ 未找到任何 course.yaml 文件")
+        print("⚠️ 未找到任何课程配置文件")
         sys.exit(1)
 
     crits = print_results(all_results)

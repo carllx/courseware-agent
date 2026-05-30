@@ -13,7 +13,7 @@ export default function Layout_Title({ slide }) {
         />
       )}
       <h2 className="h5-layout-title-heading">
-        {slide.heading || slide.text || slide.scene || slide.id}
+        {slide.text || slide.heading || slide.scene || slide.id}
       </h2>
       {slide.parsedList && slide.parsedList.length > 0 && (
         <div className="h5-layout-title-subtext-container">

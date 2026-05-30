@@ -363,6 +363,62 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
                         err_line = block_start + inner_i
                         raise ValueError(f"\n❌ 严重排版错误 (VISUAL 夹带私货): 第 {err_line} 行的文本 `{il_s[:40]}...` 被错误地写在了 `[VISUAL]` 属性块内部。\n[VISUAL] 块是纯配置块，只能包含 `**Slide**:`, `**Scene` 等元数据，前端 H5 引擎会无视其中的任何普通口播文本！\n请将该行文本移出 `[VISUAL]` 区块（即删掉开头的 `>`）！\n文件: {file_path}")
 
+                    # Look-Ahead: 探测后续 Markdown 代码块或表格
+                    look_idx = i
+                    empty_count = 0
+                    while look_idx < total:
+                        if not lines[look_idx].strip():
+                            empty_count += 1
+                            if empty_count > 1:
+                                break
+                            look_idx += 1
+                        else:
+                            break
+                    
+                    if look_idx < total:
+                        line_look = lines[look_idx].rstrip('\n')
+                        code_m = re.match(r'^```(\w*)', line_look)
+                        table_m = re.match(r'^\|.+\|$', line_look)
+                        
+                        asset_content = None
+                        asset_type = None
+                        
+                        if code_m:
+                            lang = code_m.group(1).strip()
+                            asset_type = lang if lang else "code"
+                            look_idx += 1
+                            inner_code = []
+                            while look_idx < total and not lines[look_idx].rstrip('\n').startswith('```'):
+                                inner_code.append(lines[look_idx].rstrip('\n'))
+                                look_idx += 1
+                            asset_content = '\n'.join(inner_code)
+                            if look_idx < total:
+                                look_idx += 1 # 跳过闭合的 ```
+                            
+                        elif table_m:
+                            asset_type = "table"
+                            table_lines = []
+                            while look_idx < total and re.match(r'^\|.+\|$', lines[look_idx].rstrip('\n')):
+                                table_lines.append(lines[look_idx].rstrip('\n'))
+                                look_idx += 1
+                            asset_content = '\n'.join(table_lines)
+                            
+                        if asset_content is not None:
+                            meta["asset_content"] = asset_content
+                            meta["asset_type"] = asset_type
+                            # 决策1: 代码块优先，忽略图片 Asset
+                            asset_list = []
+                            if "layout" not in meta:
+                                if asset_type == "mermaid":
+                                    meta["layout"] = "Diagram"
+                                elif asset_type == "table":
+                                    meta["layout"] = "Table"
+                                else:
+                                    meta["layout"] = "Code"
+                            # 更新游标和块结尾行号
+                            i = look_idx
+                            block_end = look_idx
+
                     # 输出兼容层:
                     # - meta["assets"]: 完整资产列表（新 API）
                     # - meta["asset"]:  首个资产路径（向后兼容旧消费者）
@@ -503,18 +559,50 @@ def strip_markdown(text: str) -> str:
 
 def load_course_config(workspace_root: str, course_name: str) -> dict:
     """
-    加载课程的 course.yaml 配置。
+    加载课程配置（支持拆分架构 + 巨石文件回退）。
+
+    优先检测拆分文件（course_meta.yaml / course_calendar.yaml 等），
+    若存在则合并加载；否则回退到 course.yaml 巨石文件。
 
     参数:
         workspace_root: 工作区根目录
         course_name: 课程目录名
 
     返回:
-        配置字典
+        配置字典（与旧版 course.yaml 的结构完全兼容）
     """
-    yaml_path = os.path.join(workspace_root, course_name, "course.yaml")
+    course_dir = os.path.join(workspace_root, course_name)
+
+    # 拆分文件清单（按约定的文件名 → 合并策略）
+    split_files = [
+        "course_meta.yaml",        # course, teacher, student_analysis, semester_config, agent
+        "course_calendar.yaml",    # calendar
+        "course_objectives.yaml",  # objectives
+        "course_experiments.yaml", # experiments
+        "course_assessment.yaml",  # assessment_methods, exams
+        "course_textbooks.yaml",   # textbooks
+    ]
+
+    # 检测是否存在拆分架构（至少 course_meta + course_calendar 存在即判定为拆分模式）
+    meta_path = os.path.join(course_dir, "course_meta.yaml")
+    calendar_path = os.path.join(course_dir, "course_calendar.yaml")
+
+    if os.path.exists(meta_path) and os.path.exists(calendar_path):
+        # 拆分模式：合并所有子文件
+        merged = {}
+        for fname in split_files:
+            fpath = os.path.join(course_dir, fname)
+            if os.path.exists(fpath):
+                with open(fpath, 'r', encoding='utf-8') as f:
+                    data = yaml.safe_load(f)
+                if data:
+                    merged.update(data)
+        return merged
+
+    # 回退：巨石文件模式
+    yaml_path = os.path.join(course_dir, "course.yaml")
     if not os.path.exists(yaml_path):
-        print(f"⚠️  course.yaml 未找到: {yaml_path}")
+        print(f"⚠️  课程配置未找到: {course_dir}（既无拆分文件也无 course.yaml）")
         return {}
 
     with open(yaml_path, 'r', encoding='utf-8') as f:

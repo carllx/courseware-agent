@@ -41,41 +41,9 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 
 #### C5: 语义自洽检查 (Semantic Coherence Checkpoint) 🆕
 
-> **架构原理**：同一个 LLM 在写作阶段产生的逻辑矛盾和幻觉造词，在同一个 LLM 的笼统审阅中
-> 有 >50% 概率被忽略（Self-Enhancement Bias）。以下结构化探针强制 System 2 深层分析。
-
-对每个 `> [TEACHING MOMENT]` 块 + `> [STORY TIME]` 块 + 模块首/尾段，执行：
-
-**C5a: 回译压缩测试**
-1. 将目标段压缩为**一句话（≤25 字）**
-2. 压缩后变成空话（如"可视化很重要"）→ 标记 `[HOLLOW_BLOCK]`，回退重写
-3. 压缩时发现**无法调和的矛盾** → 标记 `[LOGIC_BREAK]` 🔴，回退重写
-
-**C5b: 宪法原则探针**（逐条检查，引用具体违规文本）
-
-| 原则 | 探针问题 | 违规标记 |
-|:---|:---|:---|
-| C1 反义词共现 | 同一句/段中是否存在自相矛盾的修饰？ | `[ANTONYM_CLASH]` 🔴 |
-| C2 费曼画板 | 最长的修饰短语能否用笔画出具体画面？ | `[UNPAINTABLE]` 🟡 |
-| C3 Mayer 删除 | 删掉该修饰语后信息量是否下降？ | `[SEDUCTIVE_DETAIL]` 🟡 |
-| C5 具象化强制 | 是否用一个抽象概念解释另一个抽象概念？ | `[ABSTRACT_LOOP]` 🟡 |
-| C6 造词检测 | ≥4 字的词组是否为公认中文词汇或学术术语？ | `[NEOLOGISM]` 🔴 |
-
-**判定**：任何 🔴 标记 → 回退重写目标段。2+ 个 🟡 标记 → 建议修订后再继续。
-
-**C5c: 图式层经验域阻断**（`rule_prerequisite_awareness.md` §3.4 硬执行版）
-
-> **理论依据**：Shulman PCK 表征选择维度——当类比取材于学生经验之外的领域时，
-> 非但不能降低认知负荷，反而引入额外的"解码成本"。
-
-1. 扫描模块中所有类比/隐喻/生活化举例
-2. 检查每个类比的取材领域是否属于 DMA 学生的**高概率经验域**
-   （参照 §3.4.1 经验域表：社交媒体、设计软件、视频剪辑、网购、流媒体等）
-3. **统计**：低概率经验域类比数量 / 总类比数量 = 低概率占比
-4. **判定**：
-   - 低概率占比 > 50% → `[SCHEMA_MISMATCH_CRITICAL]` 🔴 **禁止提交**
-   - 低概率占比 30%-50% → `[SCHEMA_MISMATCH]` 🟡 建议修改
-   - 低概率占比 < 30% → ✅ 通过
+> **按需加载**：加载共享模块 `workflows/_check_semantic_coherence.md`，执行其中的 **Part A（回译压缩）+ Part B（宪法批评链，使用 5 项：C1-C3, C5-C6）+ Part D（图式层经验域阻断）**。
+>
+> 判定规则：任何 🔴 标记 → 回退重写。2+ 个 🟡 标记 → 建议修订后再继续。
 
 #### C6: 大纲可记忆性检查 (Outline Memorability Gate) 🆕
 
@@ -92,6 +60,21 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 **判定**：
 - `[FLAT_OUTLINE]` **或** `[FRAGMENTED_OUTLINE]` 单独出现 → 🟡 建议修改但不阻断
 - `[FLAT_OUTLINE]` + `[FRAGMENTED_OUTLINE]` **同时出现** → 🔴 **禁止提交**，标题链既无因果逻辑又无可提取要旨，必须回退重构大纲（参照 `rule_heading_design.md` §4 金字塔逻辑）
+
+#### C7: 叙事拓扑校验 (Narrative Topology Check) 🆕
+
+> **引用规则**: `rule_narrative_topology.md`
+> **理论依据**: 中观结构层防线——微观段落质量和宏观标题骨架之间的章节排列、块归属和母题频率检查。
+
+1. **C7.1 概念依赖链**：提取各 H3 的引入集/依赖集，构建 DAG，校验章节顺序是否违反拓扑排序
+   - 旁支章节切断主线 → `[MAINLINE_BREAK]` 🟡
+   - 引用概念在后文才定义 → `[DEPENDENCY_VIOLATION]` 🔴
+2. **C7.2 块级归属**：扫描所有 WARNING/QA/TEACHING MOMENT 块，校验其引用概念是否在当前或相邻 H3 内定义
+   - 块出现在定义源 ≥2 个 H3 之后 → `[MISPLACED_BLOCK]` 🔴
+3. **C7.3 母题频率**：提取模块中反复出现的抽象论点，统计完整论证次数
+   - 同一母题 ≥3 次完整展开 → `[THEME_SATURATION]` 🟡；≥5 次 → 🔴
+
+**判定**：任一 🔴 → 阻断提交，回退修复。
 
 ### Step 3.8: 视觉与文字同步对齐 (Visual-Text Sync)
 
