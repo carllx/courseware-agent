@@ -1,0 +1,65 @@
+week: W04
+title: "概念驱动创作：用设计语言指挥 D3.js"
+objectives:
+  - id: obj_w04_1
+    desc: "运用格式塔原理和标记通道规则构建精确的 AI 提示指令。"
+    assessment: "生成的提示指令中必须显式包含至少 3 个规范的视觉编码术语。"
+  - id: obj_w04_2
+    desc: "掌握 D3.js 三层排错漏斗，独立进行白盒排障。"
+    assessment: "提交一次通过排错漏斗（Console/DOM/Data）定位并解决 AI 代码错误的截图记录。"
+deliverables:
+  - type: Storyboard Insight Statement
+    desc: "提交 3 张交互状态下的连贯快照截图（Storyboard），以及 400 字洞见陈述，说明数据揭示的真相及动态交互如何辅助叙事。"
+  - type: Vector Graphics
+    desc: "通过内建脚本导出的多个高品质 SVG 矢量快照源文件。"
+materials:
+  - type: Code Sandbox
+    url: "https://codesandbox.io/s/d3-v7-template"
+    desc: "D3 v7 空白模板"
+  - type: Dataset
+    url: "/assets/W03_cleaned_data.csv"
+    desc: "W03 清洗好的 Tidy 数据集"
+
+phases:
+  - phase_id: phase1_warmup
+    title: "Phase 1: 动态知识生成 (Generated Knowledge Prompting)"
+    duration: 20
+    theory_link: ["gestalt_principles", "marks_channels"]
+    instructions: |
+      在要求 AI 帮你写代码之前，先让它充当“理论复读机”。
+      **指令要求**：向 AI 发送以下 Prompt：“请列出 Munzner 关于‘标记与通道’的有效性排序原则，并解释如何用格式塔的‘靠近’原则来优化信息层级。”
+      **目的**：降速！防止你一上来就要求端到端生成，强制你和 AI 在相同的理论框架（Knowledge Scaffold）下对话。
+
+  - phase_id: phase2_workshop
+    title: "Phase 2: 静态硬注入基础出图 (Hard Prompt Injection)"
+    duration: 45
+    theory_link: ["d3_scale_mapping", "tidy_data"]
+    instructions: |
+      将 W03 清洗好的数据集喂给 AI。接下来，使用 DKEP 硬注入技术！
+      **指令要求**：你发送给 AI 的创作指令中，必须**强制**包含以下学科词汇：
+      - "请使用[矩形/圆形]作为标记(Mark)"
+      - "请将[数据字段A]映射到[位置/颜色]通道(Channel)"
+      - "请使用线性比例尺(Linear Scale)将数据映射到画布高度"
+      **严禁使用**：“帮我画个好看的图”这类含糊指令。理论是你控制机器的最高级语法。
+
+  - phase_id: phase3_practice
+    title: "Phase 3: 排错漏斗体系与白盒排障 (Debug Funnel)"
+    duration: 40
+    theory_link: ["ai_code_debug_strategy"]
+    instructions: |
+      AI 第一次生成的 D3 图表大概率会出 bug，且错误千奇百怪。
+      **要求**：**不许直接要求 AI 'Fix it'！** 你必须使用课程提供的“三层排错漏斗”夺回控制权：
+      1. **Console 层**：按 F12 打开控制台，是否有红色的 ReferenceError 或 TypeError？
+      2. **DOM 审查层**：检查 `<svg>` 标签。里面有 `<rect>` 或 `<circle>` 生成吗？还是空空如也？属性值是数字还是 `NaN`？
+      3. **数据绑定层**：元素生成了但没画面？在控制台输入 `d3.select('rect').datum()` 检查数据是否正确绑定。
+      截图记录你使用哪一层漏斗定位到了问题，并亲自修改了代码。
+
+  - phase_id: phase4_critique
+    title: "Phase 4: 交互快照与叙事洞见 (Interaction Snapshot & Storyboard)"
+    duration: 30
+    theory_link: ["marks_channels", "interaction_manipulate_taxonomy"]
+    instructions: |
+      D3 的精髓在于动态交互。我们不只要一张静态死图，我们要一个故事板！
+      **指令要求**：向 AI 下达辅助脚手架生成指令：
+      - “请在图表旁边生成一个‘冻结并截图 (Freeze & Snapshot)’的按钮。点击时，停止所有交互，并将当前的 SVG 节点序列化导出下载。”
+      **交付要求**：通过交互操作（如悬停、过滤），抓取 3 个不同状态下的精彩瞬间导出 SVG。用这 3 张快照串联，提交 400 字的《洞见陈述（Insight Statement）》，阐述交互是如何逐步揭示数据深层真相的。

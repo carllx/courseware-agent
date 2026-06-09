@@ -1,8 +1,8 @@
 # W08_practice.yaml — 综合项目全链路部署与 Critique
 week: 8
 title: "综合项目全链路部署与 Peer Critique"
-experiment_link: "实验4"
-total_minutes: 135  # hours_practice=3 → 3×45=135
+experiment_link: [4]
+total_minutes: 135
 
 theory_prerequisites:
   - "Web 全链路部署 (GitHub Pages / Vercel)"
@@ -11,9 +11,22 @@ theory_prerequisites:
   - "Prompt 工程架构复盘"
 
 phases:
+  - id: P0
+    name: "数据清洗兜底"
+    minutes: 15
+    type: workshop
+    description: "最后的 Tidy Data 数据集清洗与格式调整，降低前端处理负担"
+    tools: ["VS Code/Cursor", "Claude/DeepSeek", "Excel"]
+    steps:
+      - "根据前端需求，调整数据集结构"
+      - "补充缺失值，完成最后的数据聚合"
+      - "导出规范化的 JSON/CSV 格式文件"
+    deliverables:
+      - "清洗完成并直接应用的数据文件"
+
   - id: P1
     name: "全栈调试大作战"
-    minutes: 30
+    minutes: 25
     type: workshop
     description: "三大死亡场景围剿——CORS 跨域/路径裂变/异步竞态"
     tools: ["VS Code/Cursor", "浏览器 DevTools", "Claude/DeepSeek"]
@@ -21,30 +34,15 @@ phases:
       - "讲师演示三大常见崩溃场景"
       - "学生在自己项目中排查并修复同类问题"
       - "用 AI 排错漏斗定位并解决"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
+    deliverables:
       - "课堂实战打卡与交互记录"
-    theory_link: "W04 排错漏斗的全栈扩展"
-    materials:
-      - type: dataset
-        title: "本周占位验证数据集"
-        file: "assets/practice/placeholder_data.csv"
-        format: csv
-        schema:
-          keys: ["id"]
-          values: ["value"]
-          types:
-            id: categorical
-            value: quantitative
+    theory_link:
+      - concept_id: "debug_funnel"
+        description: "W04 排错漏斗的全栈扩展"
 
   - id: P2
     name: "艺术封装大改造"
-    minutes: 50
+    minutes: 25
     type: workshop
     description: "将功能性代码升级为具有叙事美感的数据艺术作品"
     tools: ["VS Code/Cursor", "Claude/DeepSeek", "浏览器"]
@@ -53,18 +51,12 @@ phases:
       - "优化色彩方案与排版布局"
       - "添加叙事文字层与引导交互"
       - "移动端适配与性能优化"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
+    deliverables:
       - "优化后的项目 HTML"
 
   - id: P3
     name: "Vercel 部署上线"
-    minutes: 15
+    minutes: 30
     type: workshop
     description: "从本地开发到公网部署的全链路实战"
     tools: ["GitHub", "Vercel", "浏览器"]
@@ -72,18 +64,12 @@ phases:
       - "推送代码至 GitHub 仓库"
       - "Vercel 一键部署并验证公网访问"
       - "处理部署环境差异（路径/CORS/CDN）"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
+    deliverables:
       - "可公网访问的项目 URL"
 
   - id: P4
     name: "Peer Critique 互评大会"
-    minutes: 30
+    minutes: 20
     type: critique
     description: "结构化互评——从 Munzner 嵌套模型四层维度给出反馈"
     tools: ["学习通"]
@@ -91,40 +77,28 @@ phases:
       - "每组展示已部署的数据艺术项目"
       - "评审维度：议题深度/数据处理/视觉编码/交互设计"
       - "填写结构化互评表"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
+    deliverables:
       - "互评反馈表"
-    theory_link: "Munzner 嵌套模型四层验证"
+    theory_link:
+      - concept_id: "munzner_nested_validation"
+        description: "Munzner 嵌套模型四层验证"
 
   - id: P5
     name: "Best Prompt 洞察 + 课程总结"
-    minutes: 10
+    minutes: 20
     type: discussion
     description: "分享整学期最佳 Prompt 案例，课程结业总结与答疑"
     tools: []
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
+    steps:
+      - "精选展示 Killer Prompts 的逻辑与效果"
+      - "全班讨论 AI 在数据艺术中的应用边界"
+      - "课程结业总结与评分说明"
+    deliverables:
       - "课堂实战打卡与交互记录"
 
 homework:
   title: "最终项目提交"
   description: "完成最终数据艺术项目的全链路部署，提交 Best Final Killer Prompt 分析"
-  weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
   deliverables:
     - "已部署的公网 URL"
     - "项目源代码 GitHub 仓库"

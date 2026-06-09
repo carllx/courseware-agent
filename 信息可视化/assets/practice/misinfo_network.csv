@@ -1,0 +1,11 @@
+source,target,type,weight
+node_A,node_B,retweet,5
+node_B,node_C,retweet,3
+node_A,node_D,quote,2
+node_E,node_A,reply,1
+node_F,node_G,retweet,4
+node_G,node_H,retweet,2
+node_I,node_A,retweet,10
+node_X_isolated,node_A,bot_spam,15
+node_Y_isolated,node_A,bot_spam,12
+node_Z_isolated,node_B,bot_spam,14

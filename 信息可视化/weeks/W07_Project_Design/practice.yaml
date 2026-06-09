@@ -1,77 +1,50 @@
-# W07_practice.yaml — 综合项目设计与数据清洗角力
+# W07_practice.yaml — 大师逆向工程与项目启航
 week: 7
-title: "综合项目设计与数据清洗角力"
-experiment_link: "实验4"
-total_minutes: 90  # hours_practice=2 → 2×45=90
+title: "大师逆向工程与项目启航"
+experiment_link: [4]
+total_minutes: 90
 
 theory_prerequisites:
-  - "Munzner 嵌套模型四层验证 (Domain/Abstraction/Encoding/Algorithm)"
-  - "Vibe Coding 自然语言逻辑推演文档"
-  - "课程全链路知识体系回顾"
+  - "Munzner 嵌套模型四层验证"
+  - "Hao Yawei 第4、6章案例解构框架"
 
 phases:
   - id: P1
-    name: "议题寻宝：猎杀硬核数据"
-    minutes: 50
-    type: workshop
-    description: "从真实世界猎取具有人文关怀的社会议题与对应数据集"
-    tools: ["浏览器", "Claude/DeepSeek"]
-    steps:
-      - "头脑风暴社会议题（教育不平等/环境污染/人口迁移等）"
-      - "在公开数据源（国家统计局/Kaggle/WHO）中检索对应数据"
-      - "初步评估数据质量与可视化潜力"
-      - "确定最终议题与数据源"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "议题确认书（含数据源链接）"
-    materials:
-      - type: dataset
-        title: "本周占位验证数据集"
-        file: "assets/practice/placeholder_data.csv"
-        format: csv
-        schema:
-          keys: ["id"]
-          values: ["value"]
-          types:
-            id: categorical
-            value: quantitative
-
-  - id: P2
-    name: "撰写项目生死状：四层 One Pager"
+    name: "鉴赏反刍：大师作品逆向解构"
     minutes: 45
     type: workshop
-    description: "撰写综合项目的自然语言逻辑推演文档"
-    tools: ["Claude/DeepSeek", "VS Code/Cursor"]
+    description: "从抽象/编码维度反推经典作品的架构设计"
+    tools: ["教材案例资料", "白板/协作文档"]
     steps:
-      - "Layer 1: 议题选择与人文动机"
-      - "Layer 2: Munzner 嵌套模型验证（What/Why/How 逐层推演）"
-      - "Layer 3: 数据源清洗策略与 Tidy 化方案"
-      - "Layer 4: Prompt 工程架构设计（关键生成任务的 Prompt 草案）"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "四层 One Pager 逻辑推演文档"
-    theory_link: "Munzner 嵌套模型验证"
+      - "分组领取指定的经典信息可视化作品案例"
+      - "填写《逆向工程解剖表》（识别 Data Abstraction 与 Visual Encoding）"
+      - "运用嵌套模型讨论该作品为何没有发生级联崩塌"
+      - "总结可复用于期末项目的设计模式"
+    theory_link: 
+      - concept_id: "hao_masterworks"
+        description: "M02/M03 大师作品解构"
+    deliverables:
+      - "《逆向工程解剖表》"
+
+  - id: P2
+    name: "项目立项与交叉防御 Critique"
+    minutes: 45
+    type: critique
+    description: "展示初步选题并进行基于嵌套模型的互相 Critique"
+    tools: ["白板", "协作文档"]
+    steps:
+      - "各组快速 Pitch 期末选题（聚焦人文关怀与宏大议题）"
+      - "针对选题，其他组扮演『红军』发起嵌套模型四层防御挑战"
+      - "评估数据获取难度与可视化渲染风险"
+      - "确立最终选题与下周的开发时间线"
+    theory_link: 
+      - concept_id: "munzner_nested_model"
+        description: "M04/M05 嵌套模型与互评"
+    deliverables:
+      - "期末项目立项确认书"
 
 homework:
-  title: "项目逻辑推演文档完善与互评"
-  description: "完善四层 One Pager，完成初步数据清洗，准备小组互评"
-  weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+  title: "完善期末项目数据源储备"
+  description: "根据 Critique 意见，收集清洗首批核心数据，为下周冲刺做准备"
   deliverables:
-    - "完善后的四层 One Pager"
-    - "初步 Tidy CSV 数据集"
-    - "互评反馈表"
+    - "首批清理好的 Tidy CSV 数据集"

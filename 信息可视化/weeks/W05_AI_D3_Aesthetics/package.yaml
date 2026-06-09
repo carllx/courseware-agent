@@ -16,3 +16,15 @@ core_theories: []
 segments:
 - id: M00
   src: src/M00_课程导览.md
+- id: M01
+  src: src/M01_导言.md
+- id: M02
+  src: src/M02_核心理论.md
+- id: M03
+  src: src/M03_技术解析.md
+- id: M04
+  src: src/M04_实战演练.md
+- id: M05
+  src: src/M05_理论驱动的D3实践.md
+- id: M06
+  src: src/M06_小结.md

@@ -127,10 +127,31 @@ phases:
       - concept_id: munzner_reverse_engineering
         description: "基于经典作品逆向还原数据抽象与设计方案"
 
+  - id: DS5
+    name: "最终挑战：数据游侠 (豆瓣免代码抓取与派生分析)"
+    minutes: 15
+    type: practice
+    description: "利用鼠标暴力拷贝与 AI 提取法免代码获取豆瓣数据，派生性价比属性，并审查 AI 生成的散点图"
+    tools: ["浏览器", "AI Agent"]
+    steps:
+      - "打开豆瓣 Top250 网页，直接鼠标拷贝页面文字，交由 AI 提取为 JSON 数据"
+      - "引导 AI Agent 基于原始提取数据派生 (Derive) 新属性（如构建‘性价比’等派生指标）"
+      - "向 AI 喂入数据，要求生成 D3 散点图探究原始属性与派生属性的相关性"
+      - "运用 Munzner 理论审查图表的 Marks & Channels，纠正 AI 错误的视觉映射"
+    deliverables:
+      - "免代码提取到的 JSON 数据片段截图"
+      - "包含派生性价比属性的散点图截图及 Munzner 理论审查说明"
+    theory_link:
+      - concept_id: correlation_exploration
+        description: "派生属性 (Derive) 探索与视觉通道 (Marks & Channels) 的审查纠偏"
+
 homework:
-  title: "野生数据集 Tidy 化清洗"
-  description: "从公开数据源（如国家统计局或 Kaggle）获取一份原始宽表数据，利用 AI Agent 进行 Tidy CSV 长表转换，并撰写一份 500 字的数据抽象分析"
+  title: "野生数据集 Tidy 化清洗与豆瓣游侠实战"
+  description: "从公开数据源获取原始宽表进行 Tidy 长表转换并完成数据抽象分析；同时完成数据游侠挑战，免代码提取豆瓣数据，派生性价比属性，并生成审查散点图。"
   deliverables:
     - "原始宽表截图"
     - "Tidy 转换后的 CSV 长表"
-    - "500 字数据抽象分析（包含数据类型、属性分类、Item-Attribute 建模策略）"
+    - "500 字数据抽象分析（包含数据类型、属性分类、Item-Attribute 建模与派生 Derive 策略）"
+    - "豆瓣游侠实战：鼠标提取 JSON 的 Prompt 记录及提取结果截图"
+    - "豆瓣游侠实战：计算并说明【派生性价比】属性的逻辑"
+    - "豆瓣游侠实战：AI 生成的散点图及 Munzner 标记 (Marks) 与通道 (Channels) 审查纠偏说明"

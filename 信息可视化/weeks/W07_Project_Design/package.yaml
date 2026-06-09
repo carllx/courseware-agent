@@ -1,30 +1,35 @@
 week: 7
-topic: 洞察与共鸣：从宏大议题到人文关怀的原型设计
-title: 洞察与共鸣：从宏大议题到人文关怀的原型设计
+topic: 大师逆向工程与项目启航
+title: 大师逆向工程与项目启航
 theory_hours: 3
 practice_hours: 2
 objectives:
-- 学习《信息可视化设计》第六章中关于社会焦点案例的整合信息设计
-- 学习运用 Munzner Ch4 的嵌套模型 (Nested Model) 验证设计思路
-- 基于文化保护或生态等社会议题开展宏大数据的搜索与意向搜集
+- 解构经典案例，学习数据抽象与视觉编码的对应关系
+- 学习运用 Munzner Ch4 的嵌套模型 (Nested Model) 验证设计思路，防范级联错误
+- 结合 Munzner Ch15 (Design Studies) 的方法论开展项目前期调研与意向搜集
 - 完成项目的自然语言逻辑推演以及交互低保真设计 Critique 互评
 created: 2026-02-21
 status: ready
 tags:
-- hao-ch6-social-projects
-- ch04-validation
+- hao-ch4-ch6-masterpieces
+- ch15-design-studies
 - nested-model-validation
-- social-issue-data-research
+- reverse-engineering
+- peer-critique
 delivery_mode: Lecture + Workshop
 core_theories: []
 segments:
 - id: M00
-  src: src/M00_课程导览.md
+  src: src/M00_Intro_双轨制理论与层级架构.md
 - id: M01
-  src: src/M01_为什么要做宏大议题.md
+  src: src/M01_逆向解构大师作品的底层逻辑.md
 - id: M02
-  src: src/M02_嵌套模型_防御设计的级联崩塌.md
+  src: src/M02_国际神作的避坑与反思.md
 - id: M03
-  src: src/M03_狂野的数据工程与_AI_净化室.md
+  src: src/M03_大师逆向工程_文化自信篇.md
 - id: M04
-  src: src/M04_架构解体，如何向机器描绘宏大工程.md
+  src: src/M04_大师逆向工程_大国重器篇.md
+- id: M05
+  src: src/M05_鉴赏反哺_从偷师到立项.md
+- id: M06
+  src: src/M06_交叉防御_Critique_互评.md

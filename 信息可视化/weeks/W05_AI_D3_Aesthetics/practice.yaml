@@ -1,106 +1,73 @@
-# W05_practice.yaml — 力导向生成艺术与地理隐喻
+# W05_practice.yaml — 词云美学、情感共鸣与视觉隐喻
 week: 5
-title: "力导向生成艺术与地理隐喻"
-experiment_link: "实验3"
-total_minutes: 135  # hours_practice=3 → 3×45=135
+title: "词云的理论张力：从分析批判到审美探索的 D3.js Vibe Coding"
+experiment_link: [4, 5]
+total_minutes: 135
 
 theory_prerequisites:
-  - "网络/树拓扑数据结构与节点-边关系"
-  - "D3 力导向引擎 (Force-Directed Placement) 物理模型"
-  - "Alpha Decay/阻尼参数与能量收敛控制"
-  - "空间地理数据编码与 Choropleth Map"
-  - "Vibe Coding 排错漏斗 (Console→结构定位→MRE) 与 Bug-driven Prompting"
+  - "分析型批判：Tamara Munzner 的通道有效性与面积感知失真"
+  - "审美与探索型辩护：Social Signaller (Hearst) 与 Information Flâneur (Dörk & Hinrichs)"
+  - "参与式媒介与情感共鸣 (Viégas & Wattenberg)"
+  - "D3.js 与第三方布局引擎 (d3-cloud) 的异步渲染"
 
 phases:
   - id: P1
-    name: "网络拓扑伦理辩论"
-    minutes: 20
-    type: discussion
-    description: "围绕防疫追踪网络 vs 监控网络的力导向图伦理讨论"
-    tools: ["学习通"]
-    steps:
-      - "展示防疫流调网络与少数派监视网络的力导向图对比"
-      - "小组辩论：同种物理形态的可视化因社会语境产生的对立隐喻"
-      - "回答：技术中立是否是一种伪命题？"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "课堂实战打卡与交互记录"
-    theory_link: "网络拓扑伦理与数据隐喻"
-    materials:
-      - type: dataset
-        title: "本周占位验证数据集"
-        file: "assets/practice/placeholder_data.csv"
-        format: csv
-        schema:
-          keys: ["id"]
-          values: ["value"]
-          types:
-            id: categorical
-            value: quantitative
-
-  - id: P2
-    name: "力导向引擎调参实验"
-    minutes: 45
-    type: workshop
-    description: "通过 AI 生成 D3 力导向图并直面页面崩溃，执行防线排雷战"
-    tools: ["Claude/DeepSeek", "VS Code/Cursor", "浏览器 DevTools"]
-    steps:
-      - "让 AI 生成基础 D3 力导向网络图并手动调节 Alpha Decay 等物理刚性参数"
-      - "故意触发现代前端框架的结构性崩溃（页面死白/节点飞出作用域）"
-      - "严禁肉眼查错！必须运用报错漏斗（Console红字提取→结构定位→MRE复原）执行对 AI 的原路追责"
-      - "记录你最凶狠、有效的一次 Bug-driven Prompting 修复对话"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "参数微调对比截图（至少 3 组）"
-      - "经典排障（Bug-driven Prompting）修复对话截图"
-    theory_link: "力导向物理模型与 Barnes-Hut 近似"
-
-  - id: P3
-    name: "构建'数据生命体'情绪大作"
-    minutes: 70
+    name: "实践四：词云引擎的算法与防雷"
+    minutes: 60
     type: practice
-    description: "综合实践——基于自拟情感议题创作 D3 力导向生成艺术作品"
+    description: "引入 d3-cloud 引擎，通过 Bug-driven Prompting 克服异步布局渲染的崩溃，并强制应用面积映射法则。"
     tools: ["Claude/DeepSeek", "VS Code/Cursor", "浏览器"]
     steps:
-      - "选定一个具有情感张力的社会议题（如留守儿童社交网络/城市迁徙引力模型）"
-      - "构建或获取对应的节点-边数据集"
-      - "通过 Vibe Coding 迭代生成 D3 力导向'数据生命体'作品"
-      - "截取 3 帧极致美感瞬间（初始混沌→挣扎演化→最终热寂）"
-      - "撰写寓意说明"
-    weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
-  deliverables:
-      - "D3 力导向生成艺术 HTML"
-      - "3 帧截图（混沌→演化→热寂）"
-      - "Bug-driven Prompting 极限排雷修复纪要"
-      - "作品寓意说明"
-    theory_link: "生成艺术 + 力导向 + 数据隐喻"
+      - "载入强情感色彩的数据集（例如《考研焦虑互助区的高频词汇》或《热门争议事件弹幕池》）。"
+      - "意图驱动调参：向 Agent 发送指令，要求使用 d3-cloud 布局，并通过阿基米德螺旋实现紧凑排版。"
+      - "部署视觉防雷脚手架：由于面积映射是二维增长，绝对禁止使用 d3.scaleLinear，强制要求 AI 使用 d3.scaleSqrt 来映射字号，防止最大词语形成极端的视觉霸权。"
+      - "色彩审美对焦：命令 AI 弃用随机色，改用感知均匀且安全的分类色板（如 d3.schemeCategory10），在深色背景中实现清晰易读的字词渲染。"
+    weight: "25%"
+    scoring_rubric:
+      full_marks: 100
+      criteria: |
+        - 维度一(50分)：成功拉起含有强情感色彩的词云图，未发生重叠碰撞。
+        - 维度二(50分)：提交的代码或 Prompt 必须明确体现“使用 d3.scaleSqrt 处理二维字号映射”的意图。
+    deliverables:
+      - "D3 Word Cloud HTML 源文件"
+      - "排雷过程（Bug-driven Prompting）的对话截图"
+    theory_link:
+      - concept_id: "area_mapping_distortion"
+        description: "面积映射与 d3.scaleSqrt"
+    materials:
+      - type: dataset
+      - title: "强情感语料：年度网络热门弹幕聚合"
+      - file: "assets/practice/emotion_words.csv"
+      - format: csv
+
+  - id: P2
+    name: "实践五：分析师时刻 —— 词云的理论沙盘对撞 (The Aha Moment)"
+    minutes: 75
+    type: workshop
+    description: "在完成沙盘构建后，学生通过切换『理论视角』，深刻体验词云在不同学术框架下的成败。"
+    tools: ["浏览器", "Word/Markdown"]
+    steps:
+      - "Munzner 的凝视（分析模式）：尝试从词云中准确找出身材差不多大的第 5 高频词和第 6 高频词，体验面积感知的误差与空间通道浪费的无力感。"
+      - "Flâneur 的漫游（审美模式）：退后半步，不要阅读具体文字，感受整个图形传达的 'Social Signaller' 氛围（如焦虑、狂热或欢愉）。"
+      - "反直觉语义对撞：提问自己 '这幅根本无法用于精准业务分析的图，为何能引起如此大的情感共鸣？'"
+      - "提炼 Aha Moment：撰写可视化分析报告，对比分析型与探索型框架的边界。"
+    weight: "35%"
+    scoring_rubric:
+      full_marks: 100
+      criteria: |
+        - 维度一(40分)：报告能准确复述 Tamara Munzner 对词云的通道批判（位置通道浪费、面积失真）。
+        - 维度二(60分)：能够从 Social Signaller 或情感共鸣的角度，为词云的应用场景提供坚实的理论辩护，完成 Aha Moment 跨越。
+    deliverables:
+      - "不少于 500 字的理论对撞分析报告 (Word/PDF)"
+      - "反映情感共鸣的沙盘截图"
+    theory_link:
+      - concept_id: "social_signaller_vs_analytical"
+        description: "社交信号器 vs 分析型框架"
 
 homework:
-  title: "数据生命体创作"
-  description: "基于自拟情感议题，使用 D3 力导向引擎构建'数据生命体'作品"
-  weight: "10%"
-  scoring_rubric:
-    full_marks: 100
-    criteria: |
-      - 维度一(40分)：有效提交设定工具生成的基础资产及源文件。
-      - 维度二(60分)：设计决策说明包含了精确的专业理论溯源分析。
+  title: "从数字到情绪的媒介转换"
+  description: "自拟一段属于你个人的情感语料（如年度日记、旅行游记或喜欢的歌词），重新运行词云引擎，通过刻意调整色板与旋转角度，让图形展现出截然不同的情感氛围。"
+  weight: "20%"
   deliverables:
-    - "完整 HTML 文件"
-    - "3 帧极致美感截图"
-    - "极其凶险的 Bug-driven Prompting 追责纪要截图"
-    - "寓意说明（含数据来源与参数选择理由）"
+    - "完整运行的 D3 词云 HTML 文件"
+    - "附带个人情感共鸣阐述的短文"

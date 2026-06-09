@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W05 词云理论沙盘：分析与审美的对撞</title>
+    <!-- 引入 D3 与 d3-cloud -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1/build/d3.layout.cloud.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0F172A;
+            color: #E2E8F0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            overflow: hidden;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* 侧边沙盘控制台 */
+        #sandbox-panel {
+            width: 340px;
+            background: #1E293B;
+            border-right: 1px solid #334155;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            z-index: 10;
+            box-shadow: 4px 0 20px rgba(0,0,0,0.6);
+        }
+
+        #sandbox-panel h1 {
+            font-size: 1.4rem;
+            margin: 0;
+            background: -webkit-linear-gradient(45deg, #F43F5E, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .scenario-btn {
+            background: #334155;
+            color: #F8FAFC;
+            border: 1px solid #475569;
+            padding: 16px;
+            border-radius: 8px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 600;
+        }
+        
+        .scenario-btn:hover { background: #475569; border-color: #94A3B8; }
+        .scenario-btn.active { background: #3B82F6; border-color: #60A5FA; }
+        .scenario-btn.munzner.active { background: #EAB308; border-color: #FDE047; color: #000; }
+
+        .desc {
+            font-size: 0.8rem;
+            color: #94A3B8;
+            margin-top: 6px;
+            font-weight: normal;
+            line-height: 1.4;
+        }
+        .munzner.active .desc { color: #422006; }
+
+        /* 画布区 */
+        #viz-wrapper {
+            flex: 1;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #viz-canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* 图例区域 */
+        #legend {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid #334155;
+            padding: 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(8px);
+            font-size: 0.9rem;
+            max-width: 250px;
+        }
+
+        .theory-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.2rem;
+            color: #94A3B8;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 沙盘控制台 -->
+    <div id="sandbox-panel">
+        <div>
+            <h1>词云的理论张力</h1>
+            <p style="font-size: 0.8rem; color: #64748B;">切换学术视角，体验从分析到审美的视觉断裂</p>
+        </div>
+
+        <button class="scenario-btn active" id="btn-flaneur">
+            🎭 Flâneur 模式 (审美漫游)
+            <div class="desc">
+                <b>理论映射</b>：Social Signaller / 情感共鸣<br>
+                <b>视觉表现</b>：感知均匀色板，交错旋转布局。<br>
+                打破线性阅读，传达出群体的“焦虑与内耗”氛围，引发情感镜像。
+            </div>
+        </button>
+
+        <button class="scenario-btn munzner" id="btn-munzner">
+            🔍 Munzner 模式 (分析凝视)
+            <div class="desc">
+                <b>理论映射</b>：通道浪费 / 面积失真<br>
+                <b>视觉表现</b>：剥离颜色诱惑，显示边界框。<br>
+                <b>挑战</b>：请试着不用肉眼丈量，立刻告诉我“松弛感”和“边界感”谁的词频更高？长单词的视觉霸权有多严重？
+            </div>
+        </button>
+    </div>
+
+    <!-- 画布与图例 -->
+    <div id="viz-wrapper">
+        <div id="loading" class="loading">正在进行碰撞算法计算...</div>
+        <svg id="viz-canvas"></svg>
+        <div id="legend">
+            <div id="legend-title" class="theory-badge" style="background: #3B82F6; color: white;">审美与探索视角</div>
+            <div id="legend-text" style="color: #CBD5E1; line-height: 1.5;">
+                在审美视角下，词云是一个<strong>参与式媒介</strong>。我们不关心精确的数据排名，而是被五彩斑斓的词汇包裹，感受到当代青年的精神张力。
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // 1. 注入强情感色彩数据集 (情绪词汇)
+        // ==========================================
+        const rawWords = [
+            {text: "精神内耗", size: 85}, {text: "内卷", size: 90}, 
+            {text: "躺平", size: 75}, {text: "焦虑", size: 80},
+            {text: "松弛感", size: 55}, {text: "旷野", size: 45},
+            {text: "轨道", size: 48}, {text: "边界感", size: 50},
+            {text: "情绪价值", size: 65}, {text: "脆皮大学生", size: 40},
+            {text: "发疯", size: 70}, {text: "滤镜", size: 30},
+            {text: "树洞", size: 35}, {text: "共情", size: 38},
+            {text: "搭搭", size: 25}, {text: "碎片化", size: 32},
+            {text: "信息茧房", size: 42}, {text: "数字游民", size: 30},
+            {text: "上岸", size: 68}, {text: "考公", size: 60},
+            {text: "打工人", size: 78}, {text: "摸鱼", size: 55},
+            {text: "牛马", size: 82}, {text: "大厂", size: 58},
+            {text: "去班味", size: 48}, {text: "Gap Year", size: 36},
+            {text: "断舍离", size: 28}, {text: "极简", size: 22},
+            {text: "朋克养生", size: 35}, {text: "早C晚A", size: 40}
+        ];
+
+        // ==========================================
+        // 2. 核心 CONFIG 与 尺度映射 (Scaling Rule)
+        // ==========================================
+        const width = document.getElementById('viz-wrapper').clientWidth;
+        const height = document.getElementById('viz-wrapper').clientHeight;
+        
+        // 🚨 强制防雷铁律：绝对禁止 d3.scaleLinear()
+        // 因为字体大小决定的是面积(2D)，如果使用 Linear，高频词的面积会呈平方级膨胀
+        const sizeScale = d3.scaleSqrt()
+            .domain([d3.min(rawWords, d => d.size), d3.max(rawWords, d => d.size)])
+            .range([16, 90]); // 映射到安全的字号区间
+
+        // 色彩策略：感知均匀的分类色板
+        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+        const svg = d3.select("#viz-canvas")
+            .attr("width", width)
+            .attr("height", height);
+            
+        const g = svg.append("g")
+            .attr("transform", `translate(${width/2},${height/2})`);
+
+        let currentMode = 'flaneur'; // 'flaneur' 或 'munzner'
+
+        // ==========================================
+        // 3. 词云布局引擎 (d3-cloud) 异步计算
+        // ==========================================
+        function drawWordCloud(words) {
+            // 清空旧画布
+            g.selectAll("*").remove();
+
+            const textGroup = g.selectAll("g")
+                .data(words)
+                .enter().append("g")
+                .attr("transform", d => `translate(${d.x},${d.y}) rotate(${d.rotate})`);
+
+            // Munzner 模式下渲染边界框 (Bounding Box)，展示面积扭曲
+            if (currentMode === 'munzner') {
+                textGroup.append("rect")
+                    .attr("x", d => -d.width / 2)
+                    .attr("y", d => -d.height / 2)
+                    .attr("width", d => d.width)
+                    .attr("height", d => d.height)
+                    .attr("fill", "none")
+                    .attr("stroke", "#475569")
+                    .attr("stroke-dasharray", "2,2");
+            }
+
+            textGroup.append("text")
+                .style("font-size", d => `${d.size}px`)
+                .style("font-family", "Inter")
+                .style("font-weight", 800)
+                .style("fill", (d, i) => currentMode === 'flaneur' ? colorScale(i) : "#94A3B8")
+                .attr("text-anchor", "middle")
+                .attr("dominant-baseline", "central")
+                .text(d => d.text)
+                .style("opacity", 0)
+                .transition()
+                .duration(800)
+                .style("opacity", 1);
+        }
+
+        function runLayout() {
+            document.getElementById('loading').style.display = 'block';
+            g.selectAll("*").remove(); // 清除现有图形
+            
+            const layout = d3.layout.cloud()
+                .size([width * 0.9, height * 0.9])
+                .words(rawWords.map(d => ({ text: d.text, value: d.size })))
+                .padding(currentMode === 'flaneur' ? 8 : 12)
+                .rotate(() => currentMode === 'flaneur' ? (~~(Math.random() * 2) * 90) : 0) // Munzner 模式强制水平排列
+                .font("Inter")
+                .fontSize(d => sizeScale(d.value)) // 使用 d3.scaleSqrt 计算的字号
+                .on("end", (words) => {
+                    document.getElementById('loading').style.display = 'none';
+                    drawWordCloud(words);
+                });
+
+            layout.start();
+        }
+
+        // ==========================================
+        // 4. 视角切换逻辑
+        // ==========================================
+        const btnFlaneur = document.getElementById("btn-flaneur");
+        const btnMunzner = document.getElementById("btn-munzner");
+        const legendTitle = document.getElementById("legend-title");
+        const legendText = document.getElementById("legend-text");
+
+        btnFlaneur.onclick = () => {
+            if (currentMode === 'flaneur') return;
+            currentMode = 'flaneur';
+            btnFlaneur.classList.add("active");
+            btnMunzner.classList.remove("active");
+            
+            legendTitle.style.background = "#3B82F6";
+            legendTitle.textContent = "审美与探索视角 (Flâneur)";
+            legendText.innerHTML = "在审美视角下，词云是一个<strong>参与式媒介</strong>。我们不关心精确的数据排名，而是被五彩斑斓的词汇包裹，感受到当代青年强烈的精神张力与情绪回音。";
+            
+            runLayout();
+        };
+
+        btnMunzner.onclick = () => {
+            if (currentMode === 'munzner') return;
+            currentMode = 'munzner';
+            btnMunzner.classList.add("active");
+            btnFlaneur.classList.remove("active");
+            
+            legendTitle.style.background = "#EAB308";
+            legendTitle.style.color = "#000";
+            legendTitle.textContent = "严谨分析视角 (Munzner)";
+            legendText.innerHTML = "慕兹纳的凝视：<br>1. <strong>空间浪费</strong>：词汇被随机放置，坐标 (x/y) 毫无意义。<br>2. <strong>面积欺骗</strong>：请看虚线框，'脆皮大学生' 的词频(40)远低于 '焦虑'(80)，但因为字符长，其视觉面积反而霸占了屏幕，造成严重的认知扭曲。";
+            
+            runLayout();
+        };
+
+        // 首次加载初始化
+        runLayout();
+
+        // 监听窗口大小改变以重绘
+        window.addEventListener('resize', () => {
+            const newWidth = document.getElementById('viz-wrapper').clientWidth;
+            const newHeight = document.getElementById('viz-wrapper').clientHeight;
+            svg.attr("width", newWidth).attr("height", newHeight);
+            g.attr("transform", `translate(${newWidth/2},${newHeight/2})`);
+            runLayout();
+        });
+    </script>
+</body>
+</html>

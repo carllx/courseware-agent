@@ -1,0 +1,9 @@
+id,part,damage_count,survival_rate,x_pos,y_pos
+1,wing,45,0.8,100,150
+2,engine,5,0.1,200,200
+3,cockpit,2,0.05,200,100
+4,tail,30,0.7,300,150
+5,fuselage,50,0.9,150,150
+6,wing,40,0.85,120,160
+7,tail,25,0.75,280,140
+8,engine,4,0.15,210,210

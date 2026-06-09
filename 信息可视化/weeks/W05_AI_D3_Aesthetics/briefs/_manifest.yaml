@@ -1,0 +1,26 @@
+brief_count: 3
+figure_count: 20
+migrated_figure_count: 17
+source_textbooks:
+- 信息可视化设计 -- 郝亚维张博文编著
+- Visualization Analysis & Design -- Tamara Munzner -- 2014
+- Interactive Data Visualization for the Web -- Scott Murray -- 2017
+briefs:
+  B01:
+    title: 事件地图、艺术表达与数据的情绪
+    source: B01_Aesthetics.md
+    covers_modules:
+    - M01
+    status: complete
+  B02:
+    title: 排列空间数据与网络/树结构
+    source: B02_Topology.md
+    covers_modules:
+    - M02
+    status: complete
+  B03:
+    title: 交互式数据可视化 (Layouts & Geomapping)
+    source: B03_Engine.md
+    covers_modules:
+    - M03
+    status: complete

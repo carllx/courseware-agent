@@ -31,3 +31,11 @@ segments:
   src: src/M04_魂穿代码_用自然语言指挥_AI_搭建_Scrollytelling_叙事空间.md
 - id: M05
   src: src/M05_总结与预告.md
+- id: M06
+  src: src/M06_Lab_1_百分百标准化的力量_构建水平堆叠条形图.md
+- id: M07
+  src: src/M07_Lab_2_驾驭非确定性空间_构建力导向关系网络.md
+- id: M08
+  src: src/M08_Lab_3_时间序列的矩阵折叠_构建日历网格热力图.md
+- id: M09
+  src: src/M09_Lab_4_唤醒静止的时间维度_构建条形图赛跑动画.md

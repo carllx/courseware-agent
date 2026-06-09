@@ -103,3 +103,7 @@ concepts:
   - id: munzner_nested_validation
     name: "Munzner 嵌套模型四层验证"
     first_introduced: W08
+
+  - id: hao_masterworks
+    name: "郝亚维大师作品解构"
+    first_introduced: W07

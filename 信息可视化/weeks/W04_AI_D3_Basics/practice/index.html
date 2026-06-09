@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W04 幸存者偏差：二战轰炸机损伤分布可视化</title>
+    <!-- 引入纯 D3.js v7 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* 基础与排版设置 */
+        body {
+            margin: 0;
+            padding: 0;
+
+        header {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+            background: -webkit-linear-gradient(45deg, #38BDF8, #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            color: #94A3B8;
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            line-height: 1.5;
+        }
+
+        /* 画布容器 */
+        #viz-container {
+            position: relative;
+            background: #1E293B;
+            border-radius: 16px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border: 1px solid #334155;
+        }
+
+        /* 悬浮提示框 (Tooltip) */
+        .tooltip {
+            position: absolute;
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid #38BDF8;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            color: #F8FAFC;
+            padding: 12px 16px;
+            border-radius: 8px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s ease, transform 0.1s ease;
+            font-size: 0.85rem;
+            z-index: 10;
+            backdrop-filter: blur(4px);
+        }
+
+        .tooltip .title {
+            font-weight: bold;
+            color: #38BDF8;
+            margin-bottom: 6px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 4px;
+        }
+
+        .tooltip .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 4px;
+        }
+
+        .tooltip .val {
+            font-weight: 600;
+        }
+
+        /* 冻结时间按钮 (安全感设计) */
+        #freeze-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #38BDF8;
+            color: #0F172A;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: background 0.2s, transform 0.1s;
+            z-index: 1000;
+        }
+
+        #freeze-btn:hover {
+            background: #0EA5E9;
+            transform: scale(1.05);
+        }
+
+        #freeze-btn.frozen {
+            background: #DB2777;
+            color: white;
+        }
+
+        #freeze-btn.frozen:hover {
+            background: #BE185D;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 右上角锁定动画的按钮 -->
+    <button id="freeze-btn">⏸️ 冻结时间</button>
+
+    <header>
+        <h1>轰炸机损伤空间分布映射</h1>
+        <p class="subtitle">探索数据背后的“幸存者偏差”。圆点映射轰炸机各部位，半径大小代表损伤弹孔数量，颜色区分不同部位。</p>
+    </header>
+
+    <div id="viz-container">
+        <div id="tooltip" class="tooltip"></div>
+    </div>
+
+    <script>
+        // ==========================================
+        // ⚙️ 全局配置 (CONFIG) 
+        // 💡 面向非程序员：在这里修改参数即可改变画面，全是简单的键值对！没有复杂的嵌套！
+        // ==========================================
+        const CONFIG = {
+            // 🎨 颜色系统 (Premium Hex Codes)
+            colorBackground: "#1E293B",   // 🌌 绘图区背景色 (Tailwind Slate-800)
+            colorGrid: "#334155",         // 📏 网格线颜色
+            colorWing: "#38BDF8",         // 🪽 机翼 - 天蓝
+            colorTail: "#A78BFA",         // 🦚 尾翼 - 亮紫
+            colorCockpit: "#F472B6",      // 👨‍✈️ 驾驶舱 - 桃红
+            colorFuselage: "#34D399",     // 🚀 机身 - 翡翠绿
+            colorEngine: "#FBBF24",       // 🔥 引擎 - 琥珀黄
+            colorDefaultPart: "#94A3B8",  // ⚙️ 默认部件色
+            colorTooltipBorder: "#38BDF8",// 💬 提示框边框色
+            
+            // 📏 尺寸与映射范围 (Size and Scales)
+            canvasWidth: 800,             // 🖼️ 画布总宽度 (建议 600-1200)
+            canvasHeight: 600,            // 🖼️ 画布总高度 (建议 400-1000)
+            marginTop: 40,                // 🔲 画布内部上边距
+            marginBottom: 40,             // 🔲 画布内部下边距
+            marginLeft: 40,               // 🔲 画布内部左边距
+            marginRight: 40,              // 🔲 画布内部右边距
+            radiusMin: 3,                 // ⏺️ 最小损伤圆点半径 (建议 2-5)
+            radiusMax: 18,                // 🛑 最大损伤圆点半径 (建议 10-30)
+            hoverStrokeWidth: 3,          // 🔍 鼠标悬停时的圆点高亮描边粗细
+            
+            // 🧲 视觉交互参数 (Interactions)
+            opacityNormal: 0.85,          // 👁️ 圆点默认透明度 (0-1)
+            opacityFaded: 0.15,           // 👻 背景弱化透明度 (用于悬停时突出显示)
+            opacityHover: 1.0,            // ✨ 悬停时目标圆点的透明度
+            
+            // 📁 数据配置
+            // （为防止 file:// 协议跨域报错，数据已通过内部硬编码形式提供，无需外部请求）
+        };
+
+        // ==========================================
+        // 🚀 核心 D3.js 绘图逻辑 (无需修改以下代码)
+        // ==========================================
+
+        // ⏱️ 全局冻结状态 (安全感设计)
+        let isTimeFrozen = false;
+
+        // 冻结按钮逻辑
+        document.getElementById("freeze-btn").addEventListener("click", function() {
+            isTimeFrozen = !isTimeFrozen;
+            if (isTimeFrozen) {
+                this.innerHTML = "▶️ 恢复时间";
+                this.classList.add("frozen");
+            } else {
+                this.innerHTML = "⏸️ 冻结时间";
+                this.classList.remove("frozen");
+            }
+        });
+
+        // 颜色映射逻辑
+        function getColorByPart(part) {
+            if (part === "Wing") return CONFIG.colorWing;
+            if (part === "Tail") return CONFIG.colorTail;
+            if (part === "Cockpit") return CONFIG.colorCockpit;
+            if (part === "Fuselage") return CONFIG.colorFuselage;
+            if (part === "Engine") return CONFIG.colorEngine;
+            return CONFIG.colorDefaultPart;
+        }
+
+        // 1. 初始化画布与 SVG
+        const innerWidth = CONFIG.canvasWidth - CONFIG.marginLeft - CONFIG.marginRight;
+        const innerHeight = CONFIG.canvasHeight - CONFIG.marginTop - CONFIG.marginBottom;
+
+        const svg = d3.select("#viz-container")
+            .append("svg")
+            .attr("width", CONFIG.canvasWidth)
+            .attr("height", CONFIG.canvasHeight)
+            .append("g")
+            .attr("transform", `translate(${CONFIG.marginLeft},${CONFIG.marginTop})`);
+
+        const tooltip = d3.select("#tooltip");
+
+        // 2. 注入内部硬编码数据 (避免 CORS 错误)
+        const csvDataString = `id,part,damage_count,survival_rate,x_pos,y_pos
+1,Wing,45,0.8,100,150
+2,Engine,5,0.1,200,200
+3,Cockpit,2,0.05,200,100
+4,Tail,30,0.7,300,150
+5,Fuselage,50,0.9,150,150
+6,Wing,40,0.85,120,160
+7,Tail,25,0.75,280,140
+8,Engine,4,0.15,210,210`;
+
+        const raw_data = d3.csvParse(csvDataString);
+
+        // 使用 setTimeout 模拟少许加载延迟以配合入场动画
+        setTimeout(() => {
+            const data = raw_data.map(d => ({
+                id: d.id,
+                part: d.part,
+                damage_count: +d.damage_count,
+                survival_rate: +d.survival_rate,
+                x_pos: +d.x_pos,
+                y_pos: +d.y_pos
+            }));
+
+            // 3. 构建比例尺 (Scales)
+            const xScale = d3.scaleLinear()
+                .domain(d3.extent(data, d => d.x_pos))
+                .range([0, innerWidth])
+                .nice();
+
+            const yScale = d3.scaleLinear()
+                .domain(d3.extent(data, d => d.y_pos))
+                .range([innerHeight, 0])
+                .nice();
+
+            const rScale = d3.scaleSqrt()
+                .domain([0, d3.max(data, d => d.damage_count)])
+                .range([CONFIG.radiusMin, CONFIG.radiusMax]);
+
+            // 4. 绘制网格辅助线
+            const xAxisGrid = d3.axisBottom(xScale).tickSize(-innerHeight).tickFormat('').ticks(10);
+            const yAxisGrid = d3.axisLeft(yScale).tickSize(-innerWidth).tickFormat('').ticks(10);
+            
+            svg.append('g')
+                .attr('class', 'grid')
+                .attr('transform', `translate(0,${innerHeight})`)
+                .call(xAxisGrid)
+                .selectAll("line")
+                .attr("stroke", CONFIG.colorGrid)
+                .attr("stroke-dasharray", "4 4")
+                .attr("opacity", 0.5);
+
+            svg.append('g')
+                .attr('class', 'grid')
+                .call(yAxisGrid)
+                .selectAll("line")
+                .attr("stroke", CONFIG.colorGrid)
+                .attr("stroke-dasharray", "4 4")
+                .attr("opacity", 0.5);
+            
+            svg.selectAll(".grid path").style("display", "none");
+
+            // 5. 绘制散点
+            const circles = svg.selectAll("circle")
+                .data(data)
+                .join("circle")
+                .attr("cx", d => xScale(d.x_pos))
+                .attr("cy", d => yScale(d.y_pos))
+                .attr("r", 0) 
+                .attr("fill", d => getColorByPart(d.part))
+                .attr("opacity", CONFIG.opacityNormal)
+                .attr("stroke", "#0F172A")
+                .attr("stroke-width", 1)
+                .style("cursor", "pointer");
+
+            // 进场动画
+            circles.transition()
+                .duration(1000)
+                .delay((d, i) => i * 10)
+                .ease(d3.easeElasticOut)
+                .attr("r", d => rScale(d.damage_count));
+
+            // 6. 交互响应 (Tooltip 与 高亮)
+            circles.on("mouseenter", function(event, d) {
+                if (isTimeFrozen) return; // 如果学生点击了冻结时间，取消悬停干扰
+
+                circles.transition().duration(200).attr("opacity", CONFIG.opacityFaded);
+                
+                d3.select(this)
+                    .transition().duration(200)
+                    .attr("opacity", CONFIG.opacityHover)
+                    .attr("stroke", "#FFFFFF")
+                    .attr("stroke-width", CONFIG.hoverStrokeWidth)
+                    .attr("r", rScale(d.damage_count) * 1.2);
+
+                tooltip.html(`
+                    <div class="title" style="color: ${getColorByPart(d.part)}">✈️ 部位: ${d.part}</div>
+                    <div class="row">
+                        <span>损伤数量:</span>
+                        <span class="val">${d.damage_count} 处</span>
+                    </div>
+                    <div class="row">
+                        <span>生还率:</span>
+                        <span class="val">${(d.survival_rate * 100).toFixed(1)}%</span>
+                    </div>
+                `)
+                .style("left", (event.pageX + 15) + "px")
+                .style("top", (event.pageY - 28) + "px")
+                .style("opacity", 1)
+                .style("border-color", getColorByPart(d.part));
+            })
+            .on("mousemove", function(event) {
+                if (isTimeFrozen) return;
+                tooltip
+                    .style("left", (event.pageX + 15) + "px")
+                    .style("top", (event.pageY - 28) + "px");
+            })
+            .on("mouseleave", function(event, d) {
+                if (isTimeFrozen) return;
+                
+                circles.transition().duration(300)
+                    .attr("opacity", CONFIG.opacityNormal)
+                    .attr("stroke", "#0F172A")
+                    .attr("stroke-width", 1)
+                    .attr("r", d => rScale(d.damage_count));
+
+                tooltip.style("opacity", 0);
+            });
+
+        }, 100); // 100ms 模拟延迟
+    </script>
+</body>
+</html>
