@@ -1,0 +1,193 @@
+OUTPUT_FILE: /Users/yamlam/Downloads/carllx-skills/.agent/skills/interaction-design-Rogers/references/workflows/8_2__six_key_issues.md
+
+CONTEXT:
+Node: 8.2  Six Key Issues
+Primary concept extracted from chunk
+# 8.2  Six Key Issues
+
+Six key issues require attention for any data gathering session to be successful: goal setting, identifying participants, the relationship  between  the data  collector and the data  provider, ethical considerations of collecting data, triangulation, and pilot studies.
+---
+Node: 8.2.1  Setting Goals
+Primary concept extracted from chunk
+# 8.2.1  Setting Goals
+
+The main reason for gathering data is to glean information about people, their behavior, or their reaction to technology. Examples include understanding how technology fits into family life, identifying which of two  icons  representing “upload  file” is  easier  to understand, and finding out whether the planned redesign for a smart meter is more memorable than the previous design. There are many different reasons for gathering data. Setting specific goals for the study will inform the nature of data gathering sessions, the data gathering techniques to be used, and the analysis to be performed (Robson and McCartan, 2016).
+
+These goals may be expressed more or less formally. For example, in online experiments such as A/B testing, mathematically expressed metrics usually underpin the experiment’s goal, i.e., to evaluate two (or more) design alternatives. Combining several metrics into one evaluation criterion is complex, as discussed by Ron Kohavi et al. (2020), so several metric values may form the basis of the goal. For example, the formula in Figure 8.1 is one of the organizational metrics used for monitoring the performance of Bing’s search engine.
+
+<!-- Chunk 6 End -->
+
+<!-- Chunk 7 Start -->
+
+$$
+\text {D i s t i n c t q u e r i e s p e r m o n t h} = n \frac {\text {U s e r s}}{\text {M o n t h}} \times \frac {\text {S e s s i o n s}}{\text {U s e r}} \times \frac {\text {D i s t i n c t q u e r i e s}}{\text {S e s s i o n}}
+$$
+
+Figure 8.1  An example organizational metric used in online experiments for Bing’s search engine. The second and third terms on the right side are computed over the month. A session begins with a user query and ends with 30 minutes of inactivity.
+
+Source: Kohavi, R., Tang, D., and Ya, X. (2020) Trustworthy Online Controlled Experiments: a practical guide to A/B testing, Cambridge University Press
+
+A less formal style of study goal may be sufficient for the purpose of testing initial ideas, or for other exploratory studies. For example, Abir Ghorayeb et al. (2021) designed and ran a study with the goal of understanding older people’s views of smart homes and how their experience can influence those views.
+
+Whatever the format, goals for data gathering should be sufficiently well-defined so that it is clear when the goal has been met. How to recognize when a goal has been met will vary according to the technique used.
+---
+Node: 8.2.2  Identifying Participants
+Primary concept extracted from chunk
+# 8.2.2  Identifying Participants
+
+The  goals  developed  for the  data gathering  session  will  indicate the  types of  people from whom data is to be gathered. Those people who fit this profile are called the population or study  population. In some cases, these people may be clearly identifiable—perhaps because there  is  a small  group  of stakeholders  and access  to each one  is  easy.  However, it  is  more likely that participants need to be selected from a wider set, and this is called sampling. The situation where  all members  of the population  are  accessible is called  saturation sampling, but this is quite rare. Assuming that only a portion of the population will be involved in data gathering, then there are two options: probability sampling or nonprobability sampling. In the former case, the most commonly used approaches are simple random sampling and stratified sampling; in the latter case, the most common approaches are convenience sampling and volunteer panels.
+
+Random sampling can be achieved by using a random number generator or by choosing every  nth person  in a list. Stratified  sampling relies  on being able  to divide the  population into groups (for example, classes in a secondary school) and then applying random sampling. Both convenience sampling and volunteer panels rely less on choosing the participants and more on the participants being prepared to take part. The term convenience sampling is used to describe a situation where the sample includes those who were available rather than those specifically selected. Another  form of convenience sampling is snowball sampling, in which a current participant finds another participant and that participant finds another, and so on. Much like a snowball adds more snow as it gets bigger, the population is gathered up as the study progresses.
+
+The crucial  difference between  probability  and  nonprobability methods  is  that in  the former  you can apply statistical  tests and generalize to the whole population, while in the latter such generalizations are not robust. Using statistics also requires a sufficient number of participants. Vera Toepoel (2016) provides a more detailed treatment of sampling, particularly in relation to survey data.
+
+Using crowdsourcing to identify participants allows access to a large number of potentially more diverse  participants and has been used to good effect in a range of studies (see Chapters 10 and 14, “Introducing Evaluation”). Specifying the profile of participants is still required; for example, Prolific (a platform for contacting and filtering potential participants) allows screening based on a wide range of characteristics including shopping and consumer habits,  work  situation,  handedness  (left-  or  right-handed),  hobbies,  and  beliefs  (including political and religious beliefs), as well as demographics.
+
+For more information about how to use crowdsourcing in interaction design, see digital.gov/2014/12/09/can-you-crowdsource-your-user-experience-research.
+
+For  more  information  on  the  advantages  and  limitations  of  collecting data  online,  see  researcher-help.prolific.co/hc/en-gb/articles/360009501473- What-are-the-advantages-and-limitations-of-an-online-sample-.
+---
+Node: How Many Participants Are Needed?
+Primary concept extracted from chunk
+# How Many Participants Are Needed?
+
+A  common question is, how many participants are  needed for a study? In general, having more participants is better because they provide evidence from a wider population, and interpretations of statistical  test results can  be stated with higher confidence. What this means is that any  differences  found among conditions are  more likely to be caused by a genuine effect rather than being due to chance. But a small number of participants is appropriate for in-depth qualitative studies where statistical tests may not be appropriate.
+
+There are many ways to determine how many participants are needed. Four of these are saturation, cost and feasibility analysis, guidelines, and prospective power analysis (Caine, 2016).
+
+Saturation relies on data being collected until no new relevant information emerges, so it is not possible to know the number in advance of the saturation point being reached.   
+Choosing the  number of participants based on cost and  feasibility constraints is a practical approach and is justifiable; this kind of pragmatic decision is common in industrial projects but rarely reported in academic research.   
+Guidelines may  come from experts  or from “local standards,”  for  instance,  from an accepted norm in the field.   
+Prospective power analysis is a rigorous method used in statistics that relies on existing quantitative data about the topic; in interaction design, this data is often unavailable, making this approach infeasible, such as when a new technology is being developed.
+
+Kelly Caine (2016) investigated the sample size (number of participants) for papers published at the international Computer-Human Interaction (CHI) conference in 2014. She found that several factors affected the sample size, including the method being used and whether the data was collected in person or remotely. In this set of papers, the sample size varied from 1 to 916,000, with the most common size being 12. So, it is tempting to say that this suggests that a “local standard” for interaction design is 12, as a rule of thumb. However, this obscures the fact that the nature of the data gathering, its goals, target population, and stage of product development all affect the number of participants required.
+---
+Node: 8.2.3  Relationship with Participants
+Primary concept extracted from chunk
+# 8.2.3  Relationship with Participants
+
+One significant aspect of any data gathering is the relationship between those doing the gathering and those providing the data. Having a clear and professional relationship and building rapport  with  participants increases  the  likelihood of  a successful study. In many  countries participants must be given sufficient information about the project, the data that will be collected, and how the data is to be used for them to make an  informed decision about  their participation. This informed consent may be given in written form by signing a document or orally via an audio or video recording. The key thing is that evidence of the participant being informed about the study and of them giving consent is captured. Figure 8.2 shows a typical example of a written informed consent form that might be used in the United States or United Kingdom. The details  of this form will vary, but it  usually asks the  participants to confirm that the purpose of the data gathering and how the data will be used has been explained to them and that they are willing to continue. It explains that their data will be private and kept in a secure place. It also often includes a statement that participants  may withdraw at any time  and that  in  this case  none  of  their data  will be  used  in the  study. If  subsequent  data gathering involves audio or video recording, consent may also be given orally. In some institutions, mandatory ethics training is required before approval from an ethics  board will be given to the researchers conducting the study.
+
+The principle of informed  consent protects the interests of both the data gatherer and the data provider. The gatherer wants to know that the data they collect can be used in their analysis, presented to interested parties, and published in reports. The data provider wants reassurance  that  the  information  they  give  will  not  be  used  for  other  purposes  or  in  any context that would be detrimental to them. This is especially true when people with disabilities or  children are  participants. In these cases, parents  are asked to sign the  form. How to establish informed consent may need to be tailored depending on the group of participants. For example, when engaging with professional participants in a commercial setting, a nondisclosure agreement may also be required (Sharp et al., 2022). As with most ethical issues, the important thing is to consider the situation and make a judgment based on the specific circumstances.
+
+Building rapport with participants encourages them to participate in a relaxed manner. Building  rapport  in  a remote  setting  has  particular  challenges, especially  if  the  communication  medium  is  limited, e.g.,  audio only  so  the participant  can’t  be seen. Some  of these challenges relate to missing body language and personal dynamics, and building trust takes longer if the people don’t already know each other (Dray and Siegel, 2004).
+
+How to build rapport and gain acceptance by participant communities differs across situations. For example, Peter Kaulbach et al. (2021) describe the communication conventions adopted between research teams and the Donkerbos San community in Namibia for a number of ongoing projects. This includes communications before arrival at the community and communications during the visit that include a meeting with the local headman, community meetings to greet everyone and share progress related to ongoing projects, and a departure community meeting to review the visit. In their paper, they observe that this is important to build trust and also to understand differing sociocultural norms.
+
+Incentives may be needed to encourage  sufficient numbers of participants to take  part, particularly if there is  no clear advantage  to the respondents. For  example, asking support sales executives to complete a questionnaire about a new app that will impact their activities day-to-day is  a different  proposition from asking school children to evaluate a new  game. Different motivations are at play in these two circumstances, and hence different incentives would be appropriate.
+---
+Node: Please highlight your choice by clicking inside the appropriate box:
+Primary concept extracted from chunk
+# Please highlight your choice by clicking inside the appropriate box:
+
+<table><tr><td>I have read and understood the information sheet, or it has been read for me, and I have been able to ask questions about my participation and my questions have been answered to my satisfaction.</td><td>YES□</td><td>NO□</td></tr><tr><td>I consent to be a participant in this study and understand that participation is voluntary and that I will not be paid for my participation.</td><td>YES□</td><td>NO□</td></tr><tr><td>I understand that I can refuse to answer questions I am not comfortable with and that I may withdraw and discontinue participation at any time in this study, up to 2 months after data collection, without giving a reason.</td><td>YES□</td><td>NO□</td></tr><tr><td>I understand that taking part in the study involves being observed while performing given tasks using the RECYCLE app on a smartphone provided to me, and interviewed about its use both individually and in a group.</td><td>YES□</td><td>NO□</td></tr><tr><td>I agree to photos being taken during the observation sessions.</td><td>YES□</td><td>NO□</td></tr><tr><td>I agree to the interview/focus group being audio-recorded and/or written notes being taken.</td><td>YES□</td><td>NO□</td></tr><tr><td>I agree to my activity on the RECYCLE app being recorded and stored in a log file.</td><td>YES□</td><td>NO□</td></tr><tr><td>I understand that information I provide will be used for research and dissemination purposes only.</td><td>YES□</td><td>NO□</td></tr><tr><td>I understand that personal information collected about me that can identify me, such as my name or where I live, will not be shared beyond the study team.</td><td>YES□</td><td>NO□</td></tr><tr><td>I understand that my data will be stored on encrypted devices until the end of the project when it will be destroyed.</td><td>YES□</td><td>NO□</td></tr><tr><td>I understand that my participation will be anonymous and any details that might identify me will not be included in reports or other publications produced from the study.</td><td>YES□</td><td>NO□</td></tr><tr><td>I consent for anonymized quotations from my interview to be used in reports or other publications and presentations.</td><td>YES□</td><td>NO□</td></tr></table>
+
+Name (PRINT):
+
+Date:
+
+Signature:
+
+[Names and contact information for all team members involved in data gathering]
+
+Figure 8.2  Example informed consent form for the Recycle Project, an investigation into the use of a new smartphone app for advising people how best to recycle their rubbish. Participants are also provided with a project information sheet that explains the project, the data gathering to be undertaken, and the use to which their data will be put.
+---
+Node: 8.2.4  Ethical Considerations of Data Collection and Storage
+Primary concept extracted from chunk
+# 8.2.4  Ethical Considerations of Data Collection and Storage
+
+In addition to informed consent to take part in the study, there are various issues relating to data collection and storage that have ethical implications. Lightweight, high-quality recording equipment is readily available nowadays, e.g., through a smartphone, so capturing data is  very easy. People are used to taking photographs and videos in many social settings, and video conferencing systems can automatically take audio and video recordings, or even transcriptions. Screenshots may also be captured with the click of a button, and large amounts of data are available through online activity such as tweets and messaging. However, all data needs  to  be  stored  securely,  and  anyone  who  has  data  about  them  captured  has  to  give informed consent. This last point is straightforward when there’s only a few people involved in  the  sessions, but if  data  gathering takes  place  outside with lots of  people around, what happens  then?  Data  that is  collected  from  specific individuals  can  be  anonymized  before analysis, but  checking what  is in  the data  is important  to ensure  that  the  recordings don’t include unnecessary details that may cause embarrassment or harm if made public.
+
+Where and how the data is stored also needs to be considered. Data must also be stored securely,  but many data storage systems  include facilities that may be physically anywhere in  the  world. The  regulations  covering  access to  this  data  will  depend on  the  jurisdiction where that machine is located, and different countries operate different rules regarding data security. For  example, the European  Union’s General  Data  Protection  Regulation  (GDPR) came  into force  in  May 2018. It  applies  to all  EU organizations  and  offers the individual unprecedented control over their personal data. Keeping a recording on the laptop used for data collection may be convenient, but is that laptop encrypted? What happens if it is left on the train?
+
+Projects and organizations that collect personal data that can identify someone need to demonstrate that it is protected from unauthorized access. For example, they need to demonstrate that data is anonymized, names of participants  and their data are kept separately, physical records are kept in a locked cupboard, and digital media are encrypted. Data management plans are often written to prompt data gatherers to consider these issues, as well as whether and how data will be shared with other researchers and projects.
+
+For more information about GDPR and data protection law in Europe and the United Kingdom, see ico.org.uk/for-organisations/ guide-to-the-general-data-protection-regulation-gdpr.
+---
+Node: 8.2.5  Triangulation
+Primary concept extracted from chunk
+# 8.2.5  Triangulation
+
+Triangulation is a term used to refer to the investigation of a phenomenon from (at least) two different  perspectives  (Denzin,  2006;  Jupp,  2006).  Four  types  of  triangulation  have  been defined (Jupp, 2006).
+
+• Triangulation of data means that data is drawn from different sources at different times, in different places, or from different people (possibly by using a different sampling technique).   
+Investigator triangulation means that different researchers (observers, interviewers, and so on) have been involved in collecting and interpreting the data.
+
+• Triangulation of theories means the use of different theoretical frameworks through which to view the data or findings.   
+•  Methodological triangulation means to employ different data gathering techniques.
+
+The  last of these is  the most  common form of triangulation—to validate the  results of some inquiry by pointing to similar results yielded through different perspectives. However, validation  through true  triangulation is  difficult  to achieve. Different  data  gathering  techniques result in different kinds of data, which may or may not be compatible. Using different theoretical  frameworks  may  or  may  not  result  in  complementary  findings,  but  achieving theoretical triangulation requires the theories to  have similar philosophical  underpinnings. Using more than one data gathering technique, and more than one data analysis approach, is good practice because it leads to insights from the different approaches even though it may not be achieving true triangulation.
+
+A different kind of triangulation emphasizes the verification and reliability of data. This is referred to as checking for “ground truth.” It is commonly used in studies involving large amounts  of  data  such  as  crowdsourcing  and  machine  learning  to  check  that  the  data  is authentic and reliable. But identifying ground truth is not straightforward. Self-reported (or human-labeled) data is  often regarded  as ground truth in some  domains, but the accuracy of human labeling is unclear. For example, Nan Gao et al. (2021) investigate the reliability of self-reported data for identifying a person’s mental state, as this is  often used as ground truth when building machine learning prediction models in this domain. Their findings indicate that  physiologically measured  engagement  and  perceived  engagement  are  not  always consistent.
+
+For an example of methodological triangulation, see medium.com/ design-voices/the-power-of-triangulation-in-design-research-64a0957d47d2.
+---
+Node: Crowdsourcing
+Primary concept extracted from chunk
+# Crowdsourcing
+
+Crowdsourcing involves a group of participants in collecting data, exchanging ideas, or contributing to a common cause. The Internet makes  it possible to gain access to hundreds of thousands of people who will perform tasks or provide feedback on a design or experimental task quickly and almost immediately. Amazon’s Mechanical Turk has thousands of people registered (known as Turkers), who  have volunteered to take part by performing various activities online, known  as human intelligence tasks (HITs), for  a small payment. HITs are submitted by researchers or companies that pay a few cents for simple tasks (such as tagging
+
+(Continued)
+
+pictures) to a few dollars (for taking part in an experiment). In 2022 Turkers typically earned between $\$ 1$ and $\$ 6$ per hour. Some individual requesters paid an average of $\$ 12$ per hour for more demanding tasks. Advantages of using crowdsourcing in HCI is that it is more flexible, relatively inexpensive, and often much quicker to enroll participants than with traditional lab studies. Another benefit is that many more participants can be recruited.
+
+Early  in the  history  of online crowdsourcing, Jeff Heer and  Michael  Bostock  (2010) investigated how reliable it was to ask random people over the Internet to take part in an experiment. Using Mechanical Turk, they asked the Turkers to perform a series of perception tasks using different visual display techniques. A large number agreed, enabling them to analyze their results statistically and to generalize from their findings. They found that while the results from their study using Turkers showed wider variance than in the lab study, the overall results across the studies were the same. They also found that the total cost of their experiment with Turkers was one-sixth the cost of a typical lab study involving the same number of people. While these results are important, online crowdsourcing studies have raised ethical questions  about  whether Turkers, like other  gig workers  (e.g., Uber drivers, pizza delivery workers), are being fairly rewarded and acknowledged (Williamson, 2016).
+
+Since  Jeff Heer and  Michael  Bostock’s  2010 classic  study, crowdsourcing  has  become increasingly popular and has been used in a wide range of applications including collecting design ideas  for  developing a citizen  science  app  (Maher et al., 2014); design and  evaluation (Birch et al., 2018); managing volunteers for disaster relief (Ludwig et al., 2016); delivering packages (Kim, 2015); collecting citizen science data using specially developed apps such as iNaturalist (Preece, 2017); and  volunteering for  various environmental projects (NOAA, 2021). Both the number and diversity of useful contributions and ideas generated make crowdsourcing particularly attractive for getting timely feedback from the public. For example, in a study to collect and improve the design of a street intersection, a system called CommunityCrit was used to collect opinions from members of the community and to draw on their skills and availability (Mahyar et al., 2018). Those who contributed were empowered by getting to see the planning process. In an online study David Birch and his colleagues designed and ran variants of multiple visualization designs in the cloud so that large numbers of participants could explore and evaluate subtle design trade-offs using crowdsourcing (Birch et al., 2018).
+
+Abdullah Ali, Meredith Morris, and Jake Wobbrock (2019) developed a system for crowdsourcing design ideas. Then, three years later, during the COVID-19 pandemic, which drastically restricted any kind of lab studies, they modified their system to be used for what they call “distributed evaluation,” where participants were invited to take part online (Ali et al., 2021). They discovered that an advantage of this kind of methodology was that they could reach far more people worldwide. In particular, through using their system, it was possible to overcome the lack of access and user representation that is often found in lab-based studies. Hence, this is an example of where being forced to do evaluations online proved to be highly effective to the point it turned out to be more beneficial than when conducted previously in the lab.
+
+These  examples illustrate how  crowdsourcing  can  be a  powerful tool for  improving, enhancing, and  scaling up a  wide range of tasks, including  design and  evaluation. Crowdsourcing makes it possible to recruit participants to generate a large pool of potential ideas, collect data, and make other useful inputs that would be difficult to achieve in other ways. Increasingly companies, including Google and IDEO, use crowdsourcing to try ideas and to gather evaluation feedback about designs.
+---
+Node: chapter 29 References chunk 000 References 30
+Primary concept extracted from chunk
+Lin, B., Zagalsky, A., Storey, M., and Serebrenik. A (2016) Why Developers Are Slacking Off: Understanding How Software Teams Use Slack. In Proceedings of the 19th ACM  Conference on Computer Supported  Cooperative Work and Social Computing Companion  (CSCW ’16 Companion). Association for Computing Machinery, New York, NY, USA, 333–336.   
+Liu, Y., and Räihä, K.-J. (2010) Predicting Chinese Text Entry Speeds on Mobile Phones. In Proceedings of CHI 2010: HCI in China, April 10–15, Atlanta, GA, pp. 2183–2192.   
+Loma, N. (2018) WTF is Dark Pattern Design? Downloaded from techcrunch.com/2018/07/01/ wtf-is-dark-pattern-design.   
+Loranger, H., and Laubheimer, P.  (2017) The State of UX Agile Development. Downloaded from www.nngroup.com/articles/state-ux-agile-development.   
+Lottridge, D. M., Rosakranse, C., Oh, C. S., Westwood, S. J., Baldoni, K. A., Mann, A. S., and Nass, C. I. (2015) The Effects of Chronic Multitasking on Analytical Writing. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI ’15). ACM, New York, NY, pp. 2967–2970.   
+Lotz,  N.,  Sharp,  H.,  Woodroffe, M.,  Blyth.,  Rajah,  D.,  and  Ranganai, T.  (2014)  Framing Behaviours  in  Novice  Interaction  Designers,  In  Proceedings  of  DRS  2014  Design’s Big Debates. pp. 1178–1190.   
+Lou, S. S., Kim, S., Harford, D., Warner, B. C., Payne, P. R. O., Abraham, J., and Kannampallil, T.  (2022)  Effect of clinician attention  switching on workload and wrong-patient errors. British Journal of Anasthesia, 129(1), e22-e24.   
+Lowden, T.  (2014)  User  Experience  (UX)  vs. Customer  Experience  (CX): What’s the  Dif? Downloaded  from  digital.gov/2014/07/07/user-experience-ux-vs-customer-experience-cxwhats-the-dif.   
+Ludwig, T., Kotthaus, C., and Pipek, V. (2016) Situated and Ubiquitous Crowdsourcing with Volunteers During  Disasters. In  Proceedings of the 2016 ACM  International Joint  Conference on  Pervasive and Ubiquitous Computing: Adjunct  (UbiComp ’16). ACM, New York, NY, pp. 1441–1447.   
+Lueg, C., Banks, B., Michalek, J., Dimsey, J., and Oswin, D. (2019) Close Encounters of the $5 ^ { \mathrm { t h } }$ Kind: Recognizing System-Initiated Engagement as Interaction Type. JASIST. 70(6), 634–637. Luo, Y., Lee, B., and Choe, E. K. (2020) TandemTrack: Shaping Consistent Exercise Experience by Complementing a Mobile App with a Smart Speaker. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20). Association for Computing Machinery, New York, NY, USA, pp. 1–13.   
+Lutz, O. H.-M., Kröger, J. L., Schneiderbauer, M., Kopankiewicz, J. M., Hauswirth, M., and Hermann,  T.  (2020)  That  Password  Doesn’t  Sound  Right:  Interactive  Password  Strength Sonification. In  Proceedings of  the 15th International Audio  Mostly Conference (AM’20), pp. 206–213.   
+MacDonald, C. M., Rose, E. J., and Putnam, C. (2022) An Industry in flux: where does UX go from here?, Interactions, March-April, pp. 54–58.   
+Mackay, W., and Fayard, A.-L. (1997)  HCI, Natural Science and Design: A Framework for Triangulation Across Disciplines. In Proceedings of the 2nd Conference on Designing Interactive Systems: Processes, Practices, Methods, and Techniques (DIS’97) pp. 223–234.
+---
+Node: chapter 29 References chunk 000 References 31
+Primary concept extracted from chunk
+MacKenzie, I. S. (1992) Fitts’ Law as a Research and Design Tool in Human–Computer Interaction, Human–Computer Interaction 7, 91–139.   
+MacKenzie, I. S. (1995). Movement Time Prediction in Human-Computer Interfaces. In R. M. Baecker, W. A. S. Buxton, J. Grudin, and S. Greenberg (eds.) Readings in Human-Computer Interaction. $2 ^ { \mathrm { n d } }$ edition. pp. 483–493. Los Altos, CA: Kaufmann.   
+MacKenzie, I. S. (2018) Fitts’ Law in The Wiley Handbook of Human Computer Interaction, Volume 1, First Edition. Edited by  Kent L. Norman  and Jurek Kirakowski. John Wiley  & Sons Ltd. 349–370.   
+MacKenzie, I. S., and Teather, R. (2012) FittsTilt:  the application of  Fitts’ law to  tilt-based interaction. In Proceedings of the 7th Nordic Conference on Human-Computer Interaction, pp. 568–577.   
+Madathil,  K. C., and Greenstein, J. S. (2011)  Synchronous remote  usability  testing: a new approach facilitated by virtual worlds. CHI ’11: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2225–2234.   
+Maglio, P.  P., Matlock, T., Raphaely, D., Chernicky, B., and Kirsh, D. (1999) Interactive Skill in  Scrabble.  In  Proceedings  of  Twenty-first Annual  Conference  of  the  Cognitive  Science Society. Lawrence Earlbaum Associates, Mahwah, NJ.   
+Maguire,  M. (2014)  Socio-Technical  Systems  and Interaction  Design—21st  Century Relevance. Applied Ergonomics, 45, 162–170.   
+Maher, M.L., Preece, J., Yeh, T., Boston, C., Grace, K., Pasupuleti, A., and Stangl, A. (2014) NatureNet: A Model for Crowdsourcing the Design of Citizen Science Systems. In Proceedings of the Companion Publication of the 17th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW Companion ’14) pp. 201–204. New York: ACM.   
+Mahyar,  N., James, M.  R., Ng, M. M., Wu, R. A., and Dow, S. P.  (2018)  CommunityCrit: Inviting  the Public  to Improve  and Evaluate Urban Design Ideas  through Micro-Activities. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI ’18). ACM, New York, NY, Paper 195, 14 pages.   
+Makulec, A. (2022) Starting out in Data Visualization Today. Nightingale Journal of the Data Visualization Society. nightingaledvs.com/starting-out-in-data-visualization-today.   
+Malmqvist, J., Hellberg, K., Möllås G., Rose, R., and Shevlin, M. (2019) Conducting the Pilot Study: A Neglected Part of the Research Process?  Methodological Findings  Supporting the Importance of Piloting in Qualitative Research Studies. International Journal of Qualitative Methods, 18, 1–11.   
+Mamykina, L., Smaldone, A. M., Bakken,  S. R., Elhadad,  N., Mitchell, E. G., Desai, P.  M., Levine,  M. E., Tobin, J. N.,  Cassells,  A., Davidson,  P.  G.,  Albers, D.  J., and  Hripcsak,  G. (2021)  Scaling Up HCI  Research: from Clinical Trials to Deployment in the Wild.  In CHI ’21 Extended Abstracts: CHI Conference on Human Factors in Computing Systems, Article 50, pp. 1–6.   
+Mancini, C., Lawson, S., and  Juhlin, O. (2017) Animal-Computer Interaction: the  Emergence of a Discipline. International Journal of Human Computer Studies, 98, 129–134.   
+Mancini, C., Rogers, Y., Bandara, A. K., Coe, T., Joinson, A. N., Jedrzejczyk, L. Price, B. A. Thomas, K., and Nuseibeh, B. (2010) ContraVision: Exploring Users’ Reactions to Futuristic Technology. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’10). ACM, New York, NY, pp. 153–162.
+---
+Node: chapter 29 References chunk 000 References 32
+Primary concept extracted from chunk
+Mancini, C., Thomas, K., Rogers, Y., Price, B. A., Jedrzejczyk, L., Bandara, A. K., Joinson, A. N., and Nuseibeh, B. (2009)  From Spaces to Places: Emerging Contexts in Mobile Privacy, UbiComp 2009, September 30–October 3.   
+Mankoff, J., Fait, H., and Tran, T. (2005) Is Your Web Page Accessible? a Comparative Study of Methods for Assessing Web Page Accessibility for the Blind. In Proceedings of CHI 2003. ACM, New York, NY, pp. 41–50.   
+Mankoff, J., Hofmann, M., Chen, X., Hudson, S. E., Hurst, A., and Kim, J. (2019) Consumer-Grade Fabrication and Its  Potential to Revolutionize Accessibility, Communications of  the ACM, 62(10), 64–75.   
+Mankoff, J., Kravets, R., and Blevis, E. (2008) Some Computer Science Issues in Creating a Sustainable World, Computer, 41(8), 102–105.   
+Mann, S. (1997) An Historical Account of the ‘WearComp’ and ‘WearCam’ Inventions Developed for Applications in Personal Imaging. In The First International Symposium on Wearable Computers: Digest of Papers. IEEE Computer Society, pp. 66–73.   
+Mariakakis, A., Wang, E., Patel, S., and Goel, M. (2019) Challenges in Realizing Smartphone-Based Health Sensing. IEEE Pervasive Computing, 18(2), 76–84.   
+Marquardt, N., Brudy, F.,  Liu, C., Bengler, B., and Holz. C. (2018) SurfaceConstellations: A Modular Hardware Platform for Ad-Hoc Reconfigurable Cross-Device Workspaces. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI ’18). ACM, New York, NY, Paper 354, 14 pages.   
+Marshall, P., and Hornecker, E. (2013) Theories of Embodiment in HCI. In The SAGE Handbook of Digital Technology Research. 144–158.   
+Marshall, P., Price, S., and Rogers, Y. (2003) Conceptualizing Tangibles to Support Learning. In Proceedings of Interaction Design and Children, IDC 2003. ACM, New York, p. 101–109.   
+Martin, A., Biddle, R., and Noble, J. (2009) XP Customer Practice: A Grounded Theory. In Proceedings of the 2009 Agile Conference, IEEE Computer Society, Washington DC.   
+Martins, L.E.G., and Gorschek, T.  (2020) Requirements Engineering for Safety-Critical Systems: An Interview Study with Industry Practitioners, IEEE Transactions on Software Engineering, 46(4), 346–361.   
+Mason, B. (2017) Virtual Reality has a Motion Sickness Problem. Downloaded from www .sciencenews.org/article/virtual-reality-has-motion-sickness-problem.   
+Mastrianni,  A., Kulp, L.,  and  Sarcevic, A.  (2021)  Transitioning  to  Remote  User-Centered Design Activities in the Emergency Medical Field During a Pandemic. In CHI Conference on Human  Factors in Computing  Systems Extended Abstracts  (CHI ’21  Extended Abstracts), ACM, New York, NY, USA, Article 41, pp. 1–8.   
+Maurya, A.  (2018)  IEEE  Big  Data  2017  Panel  Discussion  on  Bias  and  Transparency.  AI Matters, 4(2).   
+Mazzucato, M., and Dibb, G. (2019) Missions: A Beginner’s Guide. UCL Institute for Innovation and Public Purpose. UCL Press.   
+McCarthy, J., and Wright, P.  (2004) Technology as Experience. MIT Press, Cambridge, MA. Mekler, E. D., Tuch, A.  N., Martig, A. L., and Opwis, K. (2014)  A Diary  Study  Exploring Game Completion and Player Experience. In Proceedings of the First ACM SIGGHI Annual

@@ -1,0 +1,462 @@
+Node: W H A T  I S  I N T E R A C T I O N  D E S I G N ?
+Primary concept extracted from chunk
+# W H A T  I S  I N T E R A C T I O N  D E S I G N ?
+
+1.1  Introduction   
+1.2  Good and Poor Design  
+1.3  Switching to Digital   
+1.4  What to Design   
+1.5  What Is Interaction Design?   
+1.6  People-Centered Design   
+1.7  Understanding People   
+1.8  Accessibility and Inclusiveness   
+1.9  Usability and User Experience Goals
+---
+Node: Objectives
+Primary concept extracted from chunk
+# Objectives
+
+The main goals of this chapter are to accomplish the following:
+
+•  Describe the key concepts associated with inspection methods.   
+• Explain how to do heuristic evaluation and walk-throughs.   
+•  Explain the role of analytics in evaluation.   
+•  Describe how A/B testing is used in evaluation.   
+•  Describe how to use Fitts’ law—a predictive model.
+---
+Node: Further Reading
+Primary concept extracted from chunk
+# Further Reading
+
+CAINE,  K. (2016). Local  Standards  for  Sample  Size  at  CHI.  Chi4good,  CHI  2016,  May 7–12, 2016, San Jose, CA, USA DOI: doi.org/10.1145/2858036.2858498. In this paper, Kelly Caine points out that the CHI community is composed of researchers from a wide range of disciplines (also mentioned in Chapter 1), who use a variety of methods. Furthermore, CHI researchers often deal with constraints (for instance, access to participants for an accessibility study). Therefore, the number of participants involved in a study may be different from the number suggested in standard statistics texts. The discussion in this paper is based on an analysis of papers accepted at the CHI 2014 conference.
+
+CAIRNS,  P.  (2019). Doing  Better  Statistics  in  Human-Computer  Interaction,  Cambridge University Press. This practical book is primarily for HCI researchers when planning or completing the analysis of their data.
+
+CRABTREE,  A.,  CHAMBERLAIN,  A.,  GRINTER,  R.,  JONES,  M.,  RODDEN,  T.,  and ROGERS, Y.  (2013).  Introduction  to  the  special  issue  of “The  Turn to  The Wild.” ACM
+
+Transactions on Computer-Human  Interaction (TOCHI), 20 (3). This collection of articles provides in-depth case studies of projects that were conducted in the wild over many years, from the widespread uptake of children’s storytelling mobile apps to the adoption of online community technologies.
+
+LAZAR. J., FENG, H. J., and HOCHHEISER, H. Research Methods in Human–Computer Interaction. (2nd  ed.).  Cambridge,  MA:  Elsevier/Morgan  Kaufmann  Publishers.  Chapters 2–4 describe how to design experiments and how to perform basic statistical tests.
+
+NIELSEN, J. and BUDIU, R. Mobile Usability. New Riders Press. This classic book asks and attempts to answer the question of how we create usability and a satisfying participant experience on smartphones, tablets, and other mobile devices. There is also a wide range of recent papers available on the NN/G website: nngroup.com.
+
+ROBSON, C. Experiment, Design and Statistics in Psychology (3rd ed.). Penguin UK. This is a classic that provides a useful introduction to experimental design and basic statistics. A more recent book by COLIN ROBSON and  KIERAN McCARTAN (2016)  entitled Real World Research (4th  ed.), published by  John Wiley  &  Sons, is  a valuable  resource for those who want to do research in applied settings. In addition to describing how to collect and analyze data, there is a chapter about ethical and political considerations.
+
+![](images/6ce564e736977200bbdeea315e83f99c74fa725400155d6ff9c9277f8326c0f7.jpg)
+---
+Node: INTERVIEW with Harry Brignull
+Primary concept extracted from chunk
+# INTERVIEW with Harry Brignull
+
+Harry  Brignull is  a design  director  and  a user  experience  expert. He  has  a  PhD  in cognitive  science,  and  his  work involves helping  companies  deliver  better  experiences  for  users  by blending  research  and interaction design. In his work, Harry has consulted for companies including Spotify, Smart Pension, The Telegraph, British Airways,  Vodafone,  and  many  others.  In  his spare  time,  Harry  runs  darkpatterns.org and  is  an  expert  witness—campaigning against  deceptive  design  and  working  on class action lawsuits and other legal cases to help stamp it out.
+---
+Node: What are  the  characteristics of a good interaction designer?
+Primary concept extracted from chunk
+# What are  the  characteristics of a good interaction designer?
+
+I think  of  interaction design,  user experience  design,  service  design,  and  user  research as a combined group of disciplines that are tricky to tease apart. Every company  has  slightly  different  terminology, processes, and approaches. I’ll let you into a secret, though. They’re all making it up as they go along. When you see a company portraying  its  design  and  research  publicly, they’re  showing  you  a  fictionalized
+
+view of  it  for recruitment  and marketing purposes. The reality  of  the  work  is  usually  very  different.  Research  and  design are naturally messy. There’s a lot of waste, false  assumptions,  and  blind  alleys  you have  to  go  down  before  you  can  define and understand a problem well enough to solve it. Accepting that is a key part of being good at your job. Don’t be reluctant to change your mind or throw things away.
+
+A  good  interaction  designer  has  skills that work like expanding foam. You  need to  fill  the  gaps  and  glue  together  all  the work  from  your  team  members.  If  you don’t  have  a  writer  present,  you  need  to be able to step up and do it yourself. If you don’t have a researcher, you’ll need to step up  and do  that  too  sometimes. The same goes  for  developing  prototypes,  planning the user  journeys, and  so on. You’ll soon learn  to become  used  to working  outside of your  comfort  zone  and  relish  the  new challenges that each project brings. A lot of your work also involves helping people understand  your  perspective  regarding  user needs, problem definition, and the strategy you’re trying to use  to solve the  problem.
+
+You  can’t  expect all  of  your stakeholders to  understand  the  basics  of  interaction design—you’ll  need  to  teach them  on  the job.
+---
+Node: How has interaction design changed in the past few years?
+Primary concept extracted from chunk
+# How has interaction design changed in the past few years?
+
+If I think back to the early days of my career around 2000–2005, there was a lot of techno-optimism with the  rise of the  web, smartphones,  and  social  media.  They  all seemed  such  wonderful  enabling  things. Most of us  didn’t realize  that there would be downsides too, nor that it would become our jobs to fight against those downsides.
+
+If  we  think  specifically  about  interaction  design  practice  in  industry,  what’s changed  most  is  how  much  employers now  understand  the relationship  between design  decisions  and  profit.  If  you  make the sign-up journey easier, revenue goes up. Great—everyone’s happy! But what about hiding  pricing  information  until  the  last step? Everyone hates that—apart from the business  owners  and  shareholders,  who like the extra revenue it delivers.
+
+Don’t  believe  me?  In  2020,  some researchers  worked  with  a  large-ticket sales website to look at the effect of hidden fees  versus  upfront  fees  (“Price  Salience and Product Choice” by Blake et al., 2020). The  experiment  included  several  million users.  It’s the  largest  test  of dark patterns that’s ever been published.
+
+The users who weren’t shown the ticket fees up front spent about 21 percent more money and were 14 percent more likely to complete  a  purchase. That  is  a  huge  impact.  Imagine  if  you  ran  a  business,  and you could press  a button to get your customers  to  spend  21  percent  more.  This is  what  we’re  up  against  as  interaction designers.  In  some  companies,  it  will  be seen as your job to enable cold, hard profit
+
+seeking at any  cost. Be  careful  where you end  up  working—over  the  years  it  will change who you are.
+---
+Node: What projects are you working on now?
+Primary concept extracted from chunk
+# What projects are you working on now?
+
+I’m  currently  head  of  UX  at  a  fintech startup  called  Smart  Pension  in  London. Pensions  pose  a  really  fascinating  usercentered  design  challenge.  Consumers hate  thinking  about  pensions,  but  they desperately  need  them.  In  a  recent  research  session,  one  of  the  participants said something that really stuck with  me: “Planning  your  pension  is  like  planning for your own funeral.” Humans are pretty terrible at long-term  planning over multiple decades. Nobody likes to  think about their  own  mortality.  But  this  is  exactly what you need to do if you want to have a happy retirement.
+
+I  really like working in finance because it’s a regulated environment. This is something  that  most  people  moan  about,  but hear  me out—a  lot  of the  regulations  are about  protecting  end  users  from  unscrupulous  service  providers.  Our  regulatory compliance  officers  spend  their  time thinking  about  user  needs  and  stopping misleading or confusing design. That’s like an  interaction  designer,  but  with  added clout because if the  business doesn’t listen to  them,  they’re  at  risk  of  getting  fined! Take my  advice,  make  friends  with  your compliance team if you have one. They’re on your side.
+
+“Master  Trust” pension  schemes  also have a board of trustees. They have a number of responsibilities, but part of their job is to  make  sure  the scheme  members  (i.e., the  end  users)  get  looked  after  properly. Lots  of  the  things  that  my  team  designs have to get approved by the trustees and the compliance  officers  before  they  go  live.  It slows things down a bit, but in finance you
+
+(Continued)
+
+really don’t want to “move fast and break things.” It’s a bit like healthcare. These are people’s lives we’re  talking  about. I sometimes  wonder  if we  should  have  similar structures in tech and social media.
+
+What would you  say are the biggest challenges  facing  you  and  other  consultants doing interaction design these days?
+
+A  career  in  interaction  design  is  one  of continual education and training. The biggest challenge  is to keep  this going.  Even if you feel that you’re at the peak of your skills,  the  technology  landscape  will  be shifting under your feet, and you need  to keep an eye on what’s coming next so you don’t get left behind. In fact, things move so quickly in interaction design that by the time you read this interview, it will already be dated.
+
+If you ever find yourself in a “comfortable” role doing the same thing every day, then beware—you’re doing yourself a disservice.  Get  out  there,  stretch  yourself,
+
+and make sure you spend some time every week outside your comfort zone.
+
+If you’re asked to evaluate a prototype service or product and you discover it is really bad, how do you break the news?
+
+It depends what your goal is. If you want to just deliver the bad news and leave, then by  all  means  be  totally  brutal  and  don’t pull any punches. But if you want to build a relationship with the client, you’re going to  need  to  help  them  work  out  how  to move forward.
+
+Remember, when you deliver bad news to a  client, you’re  basically  explaining  to them  that  they’re  in  a  bad  place  and  it’s their  fault.  It  can  be  quite  embarrassing and  depressing.  It  can  drive  stakeholders apart when really you need to bring them together and give them a shared vision  to work toward. Discovering bad design is an opportunity for improvement. Always pair the bad  news  with  a  recommendation  of what to do next.
+---
+Node: NOTE
+Primary concept extracted from chunk
+# NOTE
+
+This chapter is not meant to be read from beginning to end; rather, it should be dipped into as needed to find out about a particular type of interface.
+---
+Node: T H E  P R O C E S S O F  I N T E R A C T I O N  D E S I G N
+Primary concept extracted from chunk
+# T H E  P R O C E S S O F  I N T E R A C T I O N  D E S I G N
+---
+Node: 2.1  Introduction
+Primary concept extracted from chunk
+# 2.1  Introduction
+
+2.2  What Is Involved in Interaction Design?   
+2.3  Some Practical Issues
+---
+Node: INTERVIEW with Albrecht Schmidt
+Primary concept extracted from chunk
+# INTERVIEW with Albrecht Schmidt
+
+Albrecht  Schmidt  is  professor  of  humancentered ubiquitous media in the computer science  department  of  the  Ludwig-Maximilians-Universität München in Germany. He  studied  computer  science  in  Ulm  and Manchester and received a PhD from Lancaster  University,  United  Kingdom,  in 2003. He held several prior academic positions  at  different  universities,  including Stuttgart, Cambridge, Duisburg-Essen, and
+
+Bonn.  He  also  worked  as  a  researcher  at the  Fraunhofer  Institute  for  Intelligent Analysis  and  Information  Systems  (IAIS) and at  Microsoft Research in Cambridge. In his research, he investigates the inherent complexity  of  human-computer  interaction  in  ubiquitous  computing  environments,  particularly  in  view  of  increasing computer intelligence  and system  autonomy.  Albrecht  has  actively  contributed  to
+
+(Continued)
+
+the scientific discourse in human-computer interaction  through  the  development, deployment, and  study  of functional  prototypes of interactive systems and interface technologies  in  different  real  world domains.  Most  recently, he  is  focused  on how  information  technology  can  provide cognitive  and  perceptual  support  to  amplify the human mind.
+
+How do you think future visions inspire research in interaction design? Can  you give an example from your own work?
+
+Envisioning the future is key to research in human-computer  interaction.  In  contrast to traditional fields that discover phenomena (such as physics or sociology), research in  interaction  design  is  constructive  and creates new things that potentially change our world. Research in  interaction design also analyzes the world and aims to understand  phenomena but  mainly  as  a  means to inspire  and guide innovations. A major aspect of research is then to create concrete designs,  build  concepts  and  prototypes, and evaluate them.
+
+Future  visions  are  an  excellent  way  to describe the big picture  of a future where we still have to invent and implement the details. A vision enables us to communicate the overall goal for which we are aiming as well  as its  social  and  cultural embedding. In formulating the vision, we have to contextualize our ideas, link them to practices in  our  lives,  and  describe  the  anticipated impact  on  individuals  and  society. A  prerequisite for formulating a coherent future vision is a good understanding of the problems that we want to address. If formulated well, the vision shows a clear direction, but it leaves  room for researchers in  the community to  make their  own  interpretation. A well-formulated future vision also leaves room for individuals to align their research efforts with the goal or to criticize it funda-
+
+mentally through their research.
+
+We have proposed  the vision  of amplifying  human  perception  and  cognition through digital technologies (see Schmidt, 2017a,b).  This  vision  emerged  from  our various concrete research prototypes over the last 10 years. We realized that many of the prototypes and technologies we developed  were  pointed  in  a  similar  direction: enabling  superhuman  abilities  through devices and applications. At the same time, we  demonstrate  why  amplifying  human abilities is a timely endeavor, in particular, given the current advances in  artificial intelligence, in sensing  technologies, as well as  in  personal  display  devices.  For  our group  and  for  colleagues  with  whom  we work, this  vision has become  a means for inspiring new ideas, for investigating relevant areas for potential innovation systematically, and for assessing ideas early on.
+
+Visions are also useful to discuss potentially risky  directions in research. In “The End  of  Serendipity:  Will  Artificial  Intelligence Remove Chance and  Choice in  Everyday  Life?”  I  have  formulated  aspects of  a  dystopian  vision  that  highlights  the challenges  when  humans  delegate  their decisions  to  intelligent  systems  (Schmidt, 2021). With this we want to create awareness  in  the  community  and  at  the  same time help to ground the discussion in realistic problems in the context of real people.
+---
+Node: Why do metaphors persist in HCI?
+Primary concept extracted from chunk
+# Why do metaphors persist in HCI?
+
+Good metaphors allow people to transfer their understanding and skills from another domain in the  real world to interaction with computers and data. Good metaphors are  abstract  enough  to  persist  over  time, but concrete enough to simplify the use of computers. Early metaphors included computers as an advanced typewriter and computers as intelligent  assistants. Such  metaphors help  in the design process to create
+
+understandable  interaction  concepts  and user  interfaces. A  designer  can  take  their idea  for a user  interface  or  an interaction concept  and evaluate it in the light of the metaphor.  They  can  assess  if  the  interaction  is  understandable for people  familiar with the concept or technologies on which the  metaphor  is  based.  Metaphors  often suggest  interaction  styles  and  hence  can help to create interfaces that are more consistent and interaction designs that can be used  without  explanation  using  intuition (which  in  this  case  is  the  implicit  understanding of the metaphor).
+
+Metaphors for which the underlying concept has disappeared  from everyday usage may  still  persist. In many cases, users  will not  know the  original concept  from their own experience (for example, a typewriter), but have grown up with technologies using the metaphor. For a metaphor to persist, it must remain conducive  and  helpful  over time for  new  users  as well as for  experienced ones. In the digital age, products and services change more rapidly in appearance and function. This is much faster than what we were used to from the physical world. A typewriter from 1950 and 1980 were very similar  in form and  function. Facebook in 2010 was vastly different from the current version. Moving more toward the  digital realm, we may  see  more digitally  inspired interface metaphors surface, such as an “activity stream” or a “calendar view.”
+
+What  do  you  think  of  the  rise  of  AI  and automation?  Do you  think  there  is  a role for HCI, and if so, what?
+
+Advancements  in  AI  and  in  automation are  exciting.  They  have  the  potential  to empower  humans  to  do  things,  to  think things, and to experience things we cannot
+
+even imagine right now. However, the key to  unlocking  this  potential  is  to  create efficient ways for interacting with artificial intelligence.  Meaningful  automation  and intelligent systems always have boundaries and  intersections with  human action.  For example,  an  autonomous  car  will  transport a human, a drone will deliver a parcel to a person, an automated kitchen will prepare  a  meal  for  a  family,  and  large-scale data  analytics  in  companies  will  lead  to better  services  for  their  customers.  With intelligent  systems and smart services taking  a  more  active  role  through  artificial intelligence,  the way  in  which  interaction and  interfaces are designed  becomes  even more crucial. These interfaces between humans  and  embodied  artificial  intelligence will  impact  how  we  experience  the  real world. Here, embodiment ranges from mobile  devices  to  wearables, cars,  buildings, and  entire  cities.  Creating  a  positive  user experience in  the presence  of  artificial intelligence is a challenge where new visions and metaphors are required.
+
+One  concept  that  we  suggested  is  the notion  of  intervention  user  interfaces (Schmidt  and  Herrmann,  2017). The  basic  expectation  is  that  in the  future  many intelligent  systems  in  our  environment will  work  just  fine,  without  any  human interaction.  However, to  stay  in  control and  to  tailor  the  system  to  current  and unforeseeable needs, as well as to customize  the  user  experience,  human  interventions  should  be  easily possible. Designing interaction concepts for interventions and user  interfaces  that  empower  humans  to make  the  most  of  a  system  driven  by  artificial  intelligence  is  a  huge  challenge and  includes  many  basic  research  questions.  Getting  the  interaction  with  AI
+
+(Continued)
+
+right,  basically  finding  ways  for  humans to harness  the  power of AI for what  they want to do, is  as important  as developing the underlying algorithms. One without the other  is  of  very  limited  value.  If  systems do  not  support  humans,  it  is  in  my  view unethical  to  spend  resources  on  building them. And if systems are beneficial to one group but have negative impact on another group, we should at least be aware of it.
+---
+Node: What do you  see are the challenges ahead for HCI at scale?
+Primary concept extracted from chunk
+# What do you  see are the challenges ahead for HCI at scale?
+
+There  are  many  challenges  ahead  in  the context of autonomous systems and artificial intelligence as outlined earlier. Closely related  to  this  is  human  data  interaction beyond interactive visualization. How can we  empower  humans  to  work  with  big and unstructured data? Here is a concrete example: I  had a  discussion  with medical professionals  this  morning.  For  a  specific cancer  type,  there  are  several  thousand publications  readily  available.  Many  of them may have similar results, and others may have  conflicting ones.  Reading all of the publications in their current form is an intractable problem for a human reader, as it would take too long and would overload a  person’s working  memory.  The  simple question  that  resulted  from  the  discussion is: What would a system and interface look like that uses AI to preprocess 10,000 papers, allows  interactive  presentation  of relevant  content,  and  enables  humans  to make sense of the state of the art and come up  with  its  own  hypotheses?  Preferably, the interface would support  the person  to do this in a few hours, rather than in their entire lifetime.
+
+Another challenge at the societal scale is to understand  the long-term  impact of interactive  systems  that  we  create.  How do  they  impact  the  mental  and  physical health  of  people  in  the  long  term?  How will  it  change  people’s  values?  Who  in society  will  benefit?  So  far, this  was  at best trial  and error  and often  completely outside of the design considerations. Providing  unlimited  and  easy-to-use  mass communication  to  individuals  without journalistic  training  has  changed  how we  read  news.  Personal  communication  devices  and  instant  messaging  have altered  communication  patterns  in  families and classrooms. Working in the office using a computer  in order to create texts is reducing our physical movements. The way  that  we  design  interactive  systems, the things  we  make  easy  or hard  to  use, and the modalities that we  choose in our interaction  design have  inevitably  resulted in  long-term  impacts on  people. With the  current  methods  and  tools  in  HCI, we  are  well  equipped  to  do  a  great  job in developing easy-to-use systems with an amazing  short-term  user  experience  for the  individual. A  concrete  question I  am interested in is: How would we design an interface  and  a  (digital)  workplace  that will support people’s productivity as well as their  health over  10, 20, or 30  years? Looking at  upcoming  major  innovations in  mobility  and  healthcare  technologies, the interfaces  we  design may  have  many more consequences. One major challenge at scale is to design for a longer-term user experience (months to years) on a societal scale. Here  we  still first  have  to  research and invent methods and tools.
+---
+Node: C O G N I T I V E  A S P E C T S
+Primary concept extracted from chunk
+# C O G N I T I V E  A S P E C T S
+
+4.1  Introduction   
+4.2  What Is Cognition?   
+4.3  Cognitive Frameworks
+---
+Node: S O C I A L  I N T E R A C T I O N
+Primary concept extracted from chunk
+# S O C I A L  I N T E R A C T I O N
+
+5.1  Introduction   
+5.2  Being Social   
+5.3  Face-to-Face Conversations   
+5.4  Remote Collaboration and Communication   
+5.5  Co-Presence   
+56  Social Games
+---
+Node: E M O T I O N A L  I N T E R A C T I O N
+Primary concept extracted from chunk
+# E M O T I O N A L  I N T E R A C T I O N
+
+6.1  Introduction   
+6.2  Emotions and Behavior   
+6.3  Expressive Interfaces: Aesthetic or Annoying?   
+6.4  Affective Computing and Emotional AI   
+6.5  Persuasive Technologies and Behavioral Change   
+6.6  Anthropomorphism
+---
+Node: 6.1 Introduction
+Primary concept extracted from chunk
+# 6.1 Introduction
+
+When you receive some bad news, how does it affect you? Do you feel upset, sad, angry, or annoyed—or all of these? Does it put you in a bad mood for the rest of the day? How might technology help? Imagine a wearable technology that could detect how you were feeling and provide  suggestions geared  toward helping to improve  your mood, especially  if it detected that you were having a real downer of a day. Would you find such a device helpful, or would you find it unnerving that a machine was trying to cheer you up? Designing technology to detect and recognize someone’s emotions  automatically from sensing aspects of their facial expressions,  body  movements,  gestures, and  so  forth,  is  a growing  area  of  research  often
+
+called emotional AI or affective computing. There are many potential applications for using automatic emotion sensing, other than those intended to cheer someone up, including health, retail, driving, and  education. These  can be used  to determine if someone  is happy, angry, bored, frustrated, and so on, in order to trigger an appropriate technology intervention, such as making a suggestion to them to stop and reflect or recommending a particular activity for them to do.
+
+In addition, emotional design is a growing area relating to the design of technology that can engender desired emotional states, for example, apps that enable people to reflect on their emotions, moods, and feelings. The focus is on how to design interactive products to evoke certain kinds of emotional  responses in people. It also examines why  people become  emotionally attached to certain products (for instance, virtual pets), how social robots might help reduce loneliness, and how to change human behavior through the use of emotive feedback.
+
+In this chapter, we include emotional design and affective computing using the broader term emotional interaction to cover both aspects. We begin by explaining what emotions are and how they shape behavior and everyday experiences. We then consider how and whether an interface’s appearance affects usability and the user experience. In particular, we look at how expressive and persuasive interfaces can change people’s emotions  or behaviors. How technology  can detect  human emotions  using  voice and facial  recognition is  then covered. Finally, the way anthropomorphism has been used in interaction design is discussed.
+---
+Node: 6.2 Emotions and Behavior
+Primary concept extracted from chunk
+# 6.2 Emotions and Behavior
+
+Consider the different emotions one experiences throughout a common everyday activity— shopping online for a product, such as a new laptop, a sofa, or a vacation. First, there is the realization of needing or wanting one and then the desire and anticipation of purchasing it. This is followed by the joy or frustration of finding out more about what products are available and deciding which to choose from potentially hundreds or even thousands of them by visiting numerous websites, such as comparison sites, reviews, recommendations, and social media sites. This entails matching what is available with what you like or need and whether you can afford it. The thrill of deciding on a purchase may be quickly followed by the shock of how much it costs and the disappointment that it is too expensive. The process of having to revise your decision may be accompanied by annoyance if you discover that nothing is as good as the first choice. It can become frustrating to keep looking and revisiting sites. Finally, when you make your decision, a sense of relief is often experienced. Then there is the process of clicking through the various options (such as color, size, warranty, and so forth) until the online payment form  pops up. This can be tedious, and the requirement to fill in the many details raises the possibility of making a mistake. Finally, when the order is complete, you can let out  a big sigh. However, doubts can  start to creep in—maybe  the other  one was better after all.
+
+This rollercoaster set of emotions is what many of us experience when shopping online, especially for big-ticket items where there is a myriad of options from which to choose and where you want to be sure that you make the right choice.
+---
+Node: ACTIVITY 6.1
+Primary concept extracted from chunk
+# ACTIVITY 6.1
+
+Have you seen one  of the terminals shown in Figure 6.1 at an airport after you have gone through security? Were you drawn toward it, and did you respond? If so, which smiley button did you press?
+
+Figure 6.1  A Happyornot terminal located after security at Heathrow Airport   
+![](images/25e64a045d0f10d63c883dfcf925accd7fe705ce209fe03f4ad8e9b4226a37ad.jpg)  
+Source: www.rsrresearch.com/research/why-metrics-matter. Used courtesy of Retail Systems Research
+---
+Node: I N T E R F A C E S
+Primary concept extracted from chunk
+# I N T E R F A C E S
+
+7.1  Introduction  
+7.2  Interface Types   
+7.3  Natural User Interfaces and Beyond   
+7.4  Which Interface?
+---
+Node: 7.1  Introduction
+Primary concept extracted from chunk
+# 7.1  Introduction
+
+When  considering how to solve a user  problem, the default  solution that many developers choose to design is an app that can run on a smartphone. Making this easier still are many easy-to-use app developer tools that can be freely downloaded. It is hardly surprising, therefore, to see just how many apps there are in the world. In 2022, Apple had more than 2 million apps in its store while Google had more than 3 million!
+
+Despite the immensity of the smartphone app industry, the web continues to proliferate in offering services, content, resources, and information. A central concern is how to design websites  that  deliver  services,  content, resources,  and  information  across  different  devices and browsers, which takes into  account the  varying form  factors of smart watches, smartphones, laptops, smart TVs, and computer screens. Besides the app and the web, many other kinds  of  interfaces  have  been  developed  and  researched,  including  voice  interfaces,  touch interfaces, gesture interfaces, and multimodal interfaces.
+
+The proliferation of technological developments has encouraged different ways of thinking about interaction design and UX. For example, input can be via mice, touchpads, pens, remote  controllers, joysticks, RFID readers, gestures, and even brain-computer interaction.
+
+Output is equally diverse, appearing in the form of graphical interfaces, speech, mixed realities, augmented realities, tangible interfaces, wearable computing, and more.
+
+The goal of this chapter is to give you an overview of the diversity of interfaces that can be developed for different environments, people, places, and activities. We present a catalog of 22 interface types, starting with command-based and ending with holographic ones. For each interface, we present an  overview and outline the key research and design considerations. Some are only briefly touched upon, while others, which are more established in interaction design, are described in greater depth.
+---
+Node: INTERVIEW with Leah Buechley
+Primary concept extracted from chunk
+# INTERVIEW with Leah Buechley
+
+Leah Buechley is an associate professor in the  Department  of  Computer  Science  at the University  of New Mexico. Her work explores  the  intersection  of computer  science, art, design, and education. She has a PhD  in  computer science  and  a  degree in physics. She  began  her  studies  as a dance major and has also been deeply engaged in theater, art, and design over the years. She was the founder and director of the highlow tech group at the MIT media lab from 2009  to  2014.  She  has  always  blended the sciences and  the arts in her  education and her career, as witnessed by her current work, which consists of computer science, industrial  design,  interaction  design,  art, and electrical engineering.
+---
+Node: What is the focus of your work?
+Primary concept extracted from chunk
+# What is the focus of your work?
+
+I’m most interested in changing the culture of  technology  and engineering to  make it more diverse and inclusive. To achieve that goal, I  blend computation  and electronics with a range of different materials and employ techniques drawn from art, craft, and design.  This  approach  leads  to  technologies and learning experiences that appeal to a diverse group of people.
+---
+Node: Can you give me some examples of how you mesh the digital with physical materials?
+Primary concept extracted from chunk
+# Can you give me some examples of how you mesh the digital with physical materials?
+
+My creative focus  for  the  last several  years has been computational design—a process in which objects are designed via an algorithm and then constructed with a combination of fabrication and hand building. I’m especially excited  about  computational  ceramics and have been developing a set of tools and tech-
+
+niques that enable people to integrate  programming and hand building with clay.
+
+I also worked on a project called LilyPad Arduino (or LilyPad), which is a construction kit that enables people to embed computers and electronics into fabric. It’s a set of sewable electronic pieces, including microcontrollers, sensors, and LEDs, that are stitched together with conductive thread.  People can  use  the kit to make singing pillows, glow-in-the-dark handbags, and interactive ball gowns.
+
+Another  example  is  the  work  my  former  students  and  I  have  done  in  paperbased  computing.  My  former  student  Jie Qi  developed  a  kit  called  Chibitronics circuit  stickers  that  lets  you  build  interactive  paper-based  projects. The kit  comprises  a set  of flexible  peel-and-stick electronic stickers. You  can connect ultra-thin LEDs,  microcontrollers, and  sensors  with conductive ink, tape, or thread to quickly make beautiful electronic sketches.
+
+The  LilyPad  and  Chibitronics  kits  are now  used by people around  the world  to learn  computing and electronics. It’s been fascinating and exciting to see this research have a tangible impact.
+---
+Node: Why  would  anyone want to  wear a  computer in their clothing?
+Primary concept extracted from chunk
+# Why  would  anyone want to  wear a  computer in their clothing?
+
+Computers open up new creative possibilities  for  designers.  Computers  are  simply a  new  tool,  albeit  an  especially  powerful one,  in  a  designer’s toolbox.  They  allow clothing  designers  to make  garments  that are dynamic and interactive. Clothing can, for  example, change  color  in  response  to pollution levels, sparkle when a loved one
+
+calls you on the phone, or notify you when you blood pressure increases.
+---
+Node: How  do  you  involve  people  in  your research?
+Primary concept extracted from chunk
+# How  do  you  involve  people  in  your research?
+
+I engage with people in a few different ways. First, I design hardware and software tools to help people build new and different kinds of technology. The LilyPad is a good example of this kind of work. I hone these designs by teaching workshops to different groups of people. And once a tool is stable, I work hard to disseminate  it to users in the  real world. The LilyPad has been commercially available for many years, and it has  been fascinating and  exciting to see  how  a  group  of realworld  designers—who  are  predominantly female—is using it to build things like smart sportswear,  plush  video  game controllers, soft robots, and interactive embroideries.
+
+I  also  strive  to  be  as  open  as  possible  with  my  own  design  and  engineering explorations.  I  document  and  publish  as much information as I can about the materials, tools, and processes I use. I apply an open source approach not only to the software  and hardware I  create  but, as  much
+
+as  I  can,  to  the  entire  creative  process. I  develop  and  share  tutorials,  classroom and  workshop  curricula,  materials  references, and engineering techniques.
+
+What excites you most about your work? I  am infatuated with materials. There  is nothing  more inspiring  than a  sheet  of heavy paper, a length of wool felt, a slab of clay, or a box  of old  motors. My thinking about  design and  technology is largely driven by explorations of materials  and their affordances. So, materials  are  always delightful. For example, the shape and surface pattern of the cup in Figure 7.36 were computationally  designed.  A  template of the  design was  then laser  cut  and  pressed into a flat sheet or “slab” of clay. Finally, the clay was  folded into shape  and  then fired and  glazed using  traditional  ceramic  techniques. But the real-world adoption of tools I’ve designed and the prospect this presents for changing technology culture is perhaps what’s most exciting. My most dearly held goal is to expand and diversify technology culture, and it’s tremendously rewarding to see evidence that my work is doing that.
+
+Figure 7.36 An example of a computational cup   
+![](images/fa3e18d72320957aca8e6c85c952ecce8347799cbef76f80662900ba434a7bb9.jpg)  
+Source: Used courtesy of Leah Buechley
+---
+Node: D A T A  G A T H E R I N G
+Primary concept extracted from chunk
+# D A T A  G A T H E R I N G
+
+8.1  Introduction   
+8.2  Six Key Issues   
+8.3  Capturing Data   
+8.4  Interviews   
+8.5  Questionnaires   
+8.6  Observation   
+8.7  Putting the Techniques to Work
+---
+Node: D I S C O V E R I N G  R E Q U I R E M E N T S
+Primary concept extracted from chunk
+# D I S C O V E R I N G  R E Q U I R E M E N T S
+
+11.1  Introduction   
+11.2  What, How, and Why?   
+11.3  What Are Requirements?   
+11.4  Data Gathering for Requirements   
+11.5  Bringing Requirements to Life: Personas and Scenarios   
+11.6  Capturing Interaction with Use Cases
+---
+Node: D E S I G N ,  P R O T O T Y P I N G ,  A N D C O N S T R U C T I O N
+Primary concept extracted from chunk
+# D E S I G N ,  P R O T O T Y P I N G ,  A N D C O N S T R U C T I O N
+
+12.1  Introduction   
+12.2  Prototyping   
+12.3  Conceptual Design   
+12.4  Concrete Design   
+12.5  Generating Prototypes   
+12.6  Construction
+---
+Node: Have you encountered any big surprises in your work?
+Primary concept extracted from chunk
+# Have you encountered any big surprises in your work?
+
+The life of a researcher is full of surprises— one  must  get  comfortable  with  ambiguity  and  ending  a  research  journey  at  an unpredictable  location.  My  most  significant  surprises,  however, have  come  from people:  from  my students, from  my  mentors,  and  from  my  collaborators.  My  research methods  and  ideas  have been  profoundly influenced in unexpected ways by colleagues  like  Professor  Tamara Clegg who  made  me  rethink  how  we  can  personalize STEM learning through opportunities in everyday life  (what she calls “scientizing” life) and Professor Allison Druin who  introduced  me  to  and  immersed  me in  children-oriented  participatory  design methods.  (I  could hear the  excited shouts and joyful exclamations of Kidsteam from my  office,  and  I  couldn’t  resist  finding out  more,  which  fundamentally  changed how  I  did  research  in  STEM  education.) My  students  never  cease  to  surprise  me, from  3D-printing  gears  to  fix  an  aerial drone  to  developing  an  interactive  sandbox  that  traces  human  movement  using electro-mechanically controlled marbles to designing an e-textile shirt that senses and visualizes  the  wearer’s changing  physiology via integrated anatomical models.
+
+(Continued)
+---
+Node: What are your hopes for the future?
+Primary concept extracted from chunk
+# What are your hopes for the future?
+
+As a graduate student, I recall being asked, “What  are  the  biggest  open  questions  in HCI,  and  how  does  your  research  work toward  addressing  them?”  I  found  this question  both  profoundly  interesting  and profoundly  startling because  it forced  me to  think  about  the  most  significant  open areas in my field and to (somewhat uncomfortably)  confront  the  relationship  between this answer and my research. At the risk of sounding overly ambitious, I would like  to  adapt  this  question,  which  serves as a guiding principle for my research but that I also hope will inspire others: “What
+
+are the most significant societal challenges across the world? What role can computer science, HCI,  and design  play  in  addressing  those  challenges?  And  where  does your  research/work  fit?” As  computation pervades nearly  every  aspect  of  our  lives, I  believe  it  is  our  role  as  technologists, designers,  and  practitioners  to  ask  these questions of ourselves  and to think about the  political,  economic,  environmental, and social implications of our  work. As  a professor and educator, I am hopeful. This larger  worldview framing  of  CS seems  to resonate  with  younger  generations  and, I hope, will soon become the norm.
+---
+Node: I N T E R A C T I O N  D E S I G N  I N  P R A C T I C E
+Primary concept extracted from chunk
+# I N T E R A C T I O N  D E S I G N  I N  P R A C T I C E
+
+13.1  Introduction   
+13.2  AgileUX   
+13.3  Design Patterns   
+13.4  Open Source Resources   
+13.5  Tools for Interaction Design
+---
+Node: INTERVIEW with Luciana Zaina
+Primary concept extracted from chunk
+# INTERVIEW with Luciana Zaina
+
+related disciplines in undergraduate courses  and  in  MBA  programs.  Her  expertise is  in  empirical  studies  in  both  HCI  and software  engineering  areas.  She  has  been principal investigator of research, development,  and  innovation  (R&D&I)  projects sponsored  by  Brazilian  research  agencies
+
+(Continued)
+
+(FAPESP and CNPq) and by Brazilian software companies. She has served on several committees for Brazilian research agencies (FAPESP, CNPq, and SEBRAE) to evaluate innovative industrial projects. Her  current research interests include user  experience, agile practices, software startups, and empirical  software  engineering,  working  in close  partnership  with  industry  in  Brazil. In  2020  she  received  the  CNPq  Fellow (tier DT-2)—an award received by  Brazilian researchers  who are  acknowledged  as outstanding leaders in the development of research applied to industry.
+
+What is agileUX, and why is it a challenge? AgileUX  is  an  approach  that  combines agile  practices  and  UX  work.  UX  work involves the activities that allow data about the  end  user  to be  used  for different  purposes during the product or service design, for instance the  design of new  features or product prototyping. AgileUX is not a new topic in  academia or  industry;  I believe  it has  been investigated  for about  20  years. However, there  are  still  challenges  when combining these two areas.
+
+Many proposals on how to synchronize or integrate the work of agile and UX have emerged  over the years. “UX up-front” is one  in  which  the  design  research  of  the product is conducted before the first agile cycle.  This  means  that  agile  practitioners can examine UX data in  advance. On the one hand, UX up-front can provide a good overview  of  who  is  the  user  group.  On the  other  hand,  it can  lead  to  a  waterfall approach to product development, and the UX  data may  be  out-of-date as  users’  interaction with the product, and their context, changes over time. Another challenge can  be  the  communication  between  agile and UX  areas. It  is  common today to  see companies that have UX teams  that carry
+
+out  research  with  end  users,  but  there  is difficulty in making UX information more embedded in agile practices and visible as a cross-cutting quality characteristic. Some companies are used to having  meetings to present results of the UX work to the agile team, but there is no guarantee that this information will be  visible to the agile team during development,  and  their  awareness of  it  might  diminish.  Frequently,  the  artifacts  that  the  agile  practitioners  are  used to working  with  are  different  from  those that the UX professionals handle. This can introduce  a  dilemma  of  how  to  provide artifacts  that  satisfy  both  agile  and  UX perspectives.
+
+From my empirical  work observing industry,  we  see  that  the  organizations  use UX  information  mostly  for  requirements specification  or  for  user  interface  prototyping, but the conversation about the user experience  gradually  disappears  throughout  product  development.  While  agile teams recognize  that  UX  is  important  for the development of products, they still face the challenge of how to make UX information more embedded in their daily work.
+---
+Node: What are the consequences  of these  challenges?
+Primary concept extracted from chunk
+# What are the consequences  of these  challenges?
+
+By not making UX present throughout the software  development,  the  company  may miss opportunities to build a product that actually  meets  the  users’  needs. The  perspective  of  seeing  UX  as  a  cross-cutting concern  enables  the  organization  to become more  reactive to the users’ needs. Agile  and  UX  practitioners  can  quickly make  decisions  together  by  taking  advantage  of the  UX  information  available. However, we often  see that UX  and  agile work are done in parallel, which introduces difficulties for the interchangeability of the information from  both. In companies that
+
+have UX teams, many artifacts containing user  information  are  produced,  but  they end  up  being  overlooked  because  agile practitioners  have  difficulty  using  them. On  the  other  hand, agile teams  construct fewer  artifacts,  and  in  many  cases,  these are purely functional descriptions that lack connection  with  end-user  requirements. The main consequence is that although organizations  are  using  agile  and  UX,  they do so separately, when the goal should be to integrate them effectively.
+---
+Node: How  are  companies  integrating  agile working and UX?
+Primary concept extracted from chunk
+# How  are  companies  integrating  agile working and UX?
+
+Organizations,  in  general,  are  conscious that  they  need  to  be  tuned  in  to  users’ demands.  They  know  UX  information  is valuable  to  their  business  and  can  bring competitive advantages if they have access to it. To keep UX information at the forefront  of  developers’  minds,  companies have  adopted  strategies  focused  on  making  UX  professionals  more  present  in the developers’ world. One  of the actions has been the participation of UX professionals in  ceremonies  such  as daily meetings  and planning  meetings.  They  are  not  merely people in the room; they have active voices in  discussing  decisions  about  the  product. This way, the conversation about  UX becomes part of the agile daily work.
+
+Another  strategy  I  have  seen  recently is  to  place  professionals  with  UX  expertise  in software development key  roles. In conversation  with  a  large  company  that develops for the financial area, they reported a change in their UX work strategy. The company has great maturity in conducting UX  activities such  as research  and design and has around 50 professionals working in  UX  positions. Although  they  have  this experience  in  conducting  different  UX
+
+investigations,  they  decided  they  should make  the agile  teams  more  user-centered. So, some UX experts were invited to move from  their  positions  to  work  as  product owners  (POs).  The  idea  was  to  have  a mix of backgrounds with some POs  more user-centered  and  others  more  businesscentered.  This  experience  has  made  the UX  conversation  seem  natural  to  the  agile teams, and now it is integrated in both their meetings and their artifacts.
+
+Yet  another  strategy  is  the  use  of  artifacts  to make  UX  more  visible in  the  agile  teams’  day-to-day  work.  In  this  strategy, the main idea is to leave traces of UX information  around  the  environment  so that these traces can be constantly seen by the teams. We investigated  UX  work in  a medium-sized startup six months ago. The startup  uses  Scrum  to  manage  teamwork with the support of a Kanban board (where the  status of ongoing  work is  tracked). In this organization, they add UX work tasks to their  physical Kanban  board  alongside technical user  stories. It  has a  single team with  six  agile  developers  and  one  UI  design  professional. The  startup  CEO  plays the UX researcher role making contact and collecting  data from  potential  users  without  using  any  formal UX  method. Based on  the  interaction  with  users,  the  CEO reports  the  findings  to  the  team  and  the UI designer, and they thus create UX work tasks that go on the Kanban  board. They use  visual  marks  to  identify  which  cards need  more  attention  with  regard  to  user issues, i.e., how severe they are.
+---
+Node: Do  you  think  that  attitudes  toward users and user-centered design have changed?
+Primary concept extracted from chunk
+# Do  you  think  that  attitudes  toward users and user-centered design have changed?
+
+Yes, absolutely. Agile and UX practitioners have  become  more  conscious  about  the relevance  of  user-centered  approaches  to
+
+(Continued)
+
+product  quality. Initially, agile  and  UX practitioners  believed  their  integration would not be complex since agile practices are  premised  on  user/customer  involvement. However, they  noticed  that  adjusting the “timing” of work and the demands of  the  two  areas  have  some  obstacles. While  the  UX  professionals  often  spent time conducting data collection and analysis,  the  agile  team  aimed  to get  results  at a rapid  pace,  fitting  within the  increment timebox,  for  example.  The  orchestration of user-centered design activities with agile practices became complicated, and organizations  concentrated  more  on  the  usability attributes  of the  software. As a  consequence,  user-centered  design  took  place after the product features had been defined, in the prototyping and evaluation phases, for instance. Over  the  years, the  vision  of product usability has focused more on the user experience as a whole and introduces a more comprehensive view of UX, considering factors about feelings, acceptance of the  product,  and  others.  In  other  words, UX becomes a concern from the beginning of software development.
+
+I  have  taught  UX-related  courses  in Innovation  and  IT  MBA  programs  since 2003. I  have noticed  that  interest in  usercentered  design  has  increased  in  the  last few years. Professionals have demonstrated an  interest  in  knowing  user-centered  design  techniques,  methods,  and  practices and  seeing  these  techniques  as  potential tools  to  stimulate  the  generation  of  new ideas for products. For me, the significant change is the perspective from which usercentered design  is seen  by  industry. Now-
+
+adays,  user-centered  design  is  considered not  only  an  approach  that  supports  software  development,  but  also  can  help  the organization to introduce a strategic vision for product design and evolution.
+
+What  do  you  see  as  the  future  in  this area—from a practitioner viewpoint—and how can academic researchers help?
+
+From  an  industry  perspective,  I  see  a trend  in  the  adoption  of  continuous UX  design.  Usually,  UX  design  follows a  project-based approach, which  means that practitioners  conduct  UX  activities in  a  sequential  manner  considering  the project aim. On  the other hand, continuous  UX  design  is  product-based.  The main idea is not just continuous delivery or gathering data but learning from user experience  data  constantly.  Continuous UX  design  can  allow  organizations  to be proactive and anticipate users’ needs. If  continuous  UX  design  is  adopted  by agile  teams, should  we  consider  having continuous agileUX? How is the combination of UX and agile practices affected by  this  continuous  perspective?  What impact  will  this  have  on  user-centered approaches?  Academic  researchers  can help  practitioners  to  answer  these  and other related questions. Researchers can conduct  empirical  studies  with  and  for industry  to  help  address  existing  challenges, uncover new challenges, and identify useful research topics to be explored further.  In  addition,  researchers  can conduct studies to investigate the use of lightweight methods and techniques that support continuous UX design.
+---
+Node: I N T R O D U C I N G  E V A L U A T I O N
+Primary concept extracted from chunk
+# I N T R O D U C I N G  E V A L U A T I O N
+
+14.1  Introduction   
+14.2  The Why, What, Where, and When of Evaluation   
+14.3  Types of Evaluation   
+14.4  Evaluation Case Studies   
+14.5  What Did We Learn from the Case Studies?   
+14.6  Other Issues to Consider When Doing Evaluation
+---
+Node: E V A L U A T I O N  S T U D I E S :  F R $\mathbf { o }$ M C O N T R O L L E D  T O  N A T U R A L  S E T T I N G S
+Primary concept extracted from chunk
+# E V A L U A T I O N  S T U D I E S :  F R $\mathbf { o }$ M C O N T R O L L E D  T O  N A T U R A L  S E T T I N G S
+
+15.1  Introduction   
+15.2  Usability Testing   
+15.3  Conducting Experiments   
+15.4  In-the-Wild Studies
+---
+Node: chapter 22 Chapter 15 chunk 038 INTERVIEW with danah boyd 3
+Primary concept extracted from chunk
+be objective; the methods used to produce these data are rooted in forms of expertise that are not universally valued. At the same time, there  is a  politically  salient “statistical  imaginary” that presumes  that census data can  be neutral and objective, a nearperfect count of everyone. Part of why I’m studying the making of census data is that this  statistical  imaginary  is  coming  undone, revealing  the  politics of  data  along the way.
+
+One  of  the  most  important  things  for students  of data science to understand is
+
+that  all  data  have  uncertainty,  politics, and  illusions  surrounding  them.  Rather  than  ignoring  the  limits  of  data,  it  is better  to  understand  them.  Rather  than pretending  that  data  can  be  neutral  or objective, it’s better to grapple with how society  and  politics  shape  those  data. When we build technical systems (or political  ones!)  that  depend  on  those  data, we carry those uncertainties and illusions forward.  Ensuring  responsible  data  science requires intentionally engaging with these issues.
+---
+Node: E V A L U A T I O N :  I N S P E C T I O N S , A N A L Y T I C S ,  A N D  M O D E L S
+Primary concept extracted from chunk
+# E V A L U A T I O N :  I N S P E C T I O N S , A N A L Y T I C S ,  A N D  M O D E L S
+
+16.1  Introduction   
+16.2  Inspections: Heuristic Evaluation and Walk-Throughs   
+16.3  Analytics and A/B Testing   
+16.4  Predictive Models

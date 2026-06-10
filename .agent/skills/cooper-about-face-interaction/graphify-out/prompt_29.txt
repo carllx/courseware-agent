@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=29, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_29.json
+FILES:
+/private/tmp/about_face_chunks/chunk_701_Insertion_targets.md
+/private/tmp/about_face_chunks/chunk_702_Visual_feedback_at_completion.md
+/private/tmp/about_face_chunks/chunk_703_Auto_Scrolling.md
+/private/tmp/about_face_chunks/chunk_704_Avoiding_drag_and_drop_twitchi.md
+/private/tmp/about_face_chunks/chunk_705_Fine_scrolling.md
+/private/tmp/about_face_chunks/chunk_706_Control_manipulation.md
+/private/tmp/about_face_chunks/chunk_707_Modal_tools_and_palettes.md
+/private/tmp/about_face_chunks/chunk_708_Charged_cursor_tools.md
+/private/tmp/about_face_chunks/chunk_709_2D_object_manipulation.md
+/private/tmp/about_face_chunks/chunk_710_Repositioning.md
+/private/tmp/about_face_chunks/chunk_711_Resizing_and_reshaping.md
+/private/tmp/about_face_chunks/chunk_712_Connecting.md
+/private/tmp/about_face_chunks/chunk_713_3D_object_manipulation.md
+/private/tmp/about_face_chunks/chunk_714_Display_issues_and_idioms.md
+/private/tmp/about_face_chunks/chunk_715_Multiple_viewpoints.md
+/private/tmp/about_face_chunks/chunk_716_Baseline_grids__depthcuing__sh.md
+/private/tmp/about_face_chunks/chunk_717_Guidelines_and_other_rich_visu.md
+/private/tmp/about_face_chunks/chunk_718_Wireframes_and_bounding_boxes.md
+/private/tmp/about_face_chunks/chunk_719_Input_issues_and_idioms.md
+/private/tmp/about_face_chunks/chunk_720_Drag_thresholds.md
+/private/tmp/about_face_chunks/chunk_721_The_picking_problem.md
+/private/tmp/about_face_chunks/chunk_722_Object_rotation__camera_moveme.md
+/private/tmp/about_face_chunks/chunk_723_DESIGNING_FOR_MOBILE_AND_OTHER.md
+/private/tmp/about_face_chunks/chunk_724_Anatomy_of_a_Mobile_App.md
+/private/tmp/about_face_chunks/chunk_725_Mobile_form_factors.md

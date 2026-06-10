@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=9, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_09.json
+FILES:
+/private/tmp/about_face_chunks/chunk_201_Persona_based_scenarios.md
+/private/tmp/about_face_chunks/chunk_202_Three_types_of_scenarios.md
+/private/tmp/about_face_chunks/chunk_203_Design_Requirements__The__What.md
+/private/tmp/about_face_chunks/chunk_204_Design_requirements_aren_t_fea.md
+/private/tmp/about_face_chunks/chunk_205_Design_requirements_aren_t_spe.md
+/private/tmp/about_face_chunks/chunk_206_Design_requirements_are_strate.md
+/private/tmp/about_face_chunks/chunk_207_Design_requirements_come_from_.md
+/private/tmp/about_face_chunks/chunk_208_The_Requirements_Definition_Pr.md
+/private/tmp/about_face_chunks/chunk_209_Step_1__Create_problem_and_vis.md
+/private/tmp/about_face_chunks/chunk_210_Step_2__Explore_and_brainstorm.md
+/private/tmp/about_face_chunks/chunk_211_Step_3__Identify_persona_expec.md
+/private/tmp/about_face_chunks/chunk_212_Step_4__Construct_context_scen.md
+/private/tmp/about_face_chunks/chunk_213_A_sample_context_scenario.md
+/private/tmp/about_face_chunks/chunk_214_Pretending_it_s_magic.md
+/private/tmp/about_face_chunks/chunk_215_Step_5__Identify_design_requir.md
+/private/tmp/about_face_chunks/chunk_216_Data_requirements.md
+/private/tmp/about_face_chunks/chunk_217_Functional_requirements.md
+/private/tmp/about_face_chunks/chunk_218_Contextual_requirements.md
+/private/tmp/about_face_chunks/chunk_219_Other_requirements.md
+/private/tmp/about_face_chunks/chunk_220_Notes.md
+/private/tmp/about_face_chunks/chunk_221_DESIGNING_THE_PRODUCT__FRAMEWO.md
+/private/tmp/about_face_chunks/chunk_222_Creating_the_Design_Framework.md
+/private/tmp/about_face_chunks/chunk_223_Defining_the_interaction_frame.md
+/private/tmp/about_face_chunks/chunk_224_Step_1__Define_form_factor__po.md
+/private/tmp/about_face_chunks/chunk_225_Step_2__Define_functional_and_.md

@@ -1,0 +1,532 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_151_the_three_types_of_user_goals_user_goals",
+      "label": "User Goals",
+      "file_type": "concept",
+      "source_file": "chunk_151_The_three_types_of_user_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_152_experience_goals_experience_goals",
+      "label": "Experience Goals",
+      "file_type": "concept",
+      "source_file": "chunk_152_Experience_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_153_end_goals_end_goals",
+      "label": "End Goals",
+      "file_type": "concept",
+      "source_file": "chunk_153_End_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_154_life_goals_life_goals",
+      "label": "Life Goals",
+      "file_type": "concept",
+      "source_file": "chunk_154_Life_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_151_the_three_types_of_user_goals_normans_theory",
+      "label": "Norman's Three-Level Theory",
+      "file_type": "concept",
+      "source_file": "chunk_151_The_three_types_of_user_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_156_nonuser_goals_nonuser_goals",
+      "label": "Nonuser Goals",
+      "file_type": "concept",
+      "source_file": "chunk_156_Nonuser_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_157_customer_goals_customer_goals",
+      "label": "Customer Goals",
+      "file_type": "concept",
+      "source_file": "chunk_157_Customer_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_158_business_and_organizational_go_business_goals",
+      "label": "Business and Organizational Goals",
+      "file_type": "concept",
+      "source_file": "chunk_158_Business_and_organizational_go.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_159_technical_goals_technical_goals",
+      "label": "Technical Goals",
+      "file_type": "concept",
+      "source_file": "chunk_159_Technical_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_160_successful_products_meet_user__dont_feel_stupid",
+      "label": "Don't Make the User Feel Stupid",
+      "file_type": "rationale",
+      "source_file": "chunk_160_Successful_products_meet_user_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "label": "Persona Construction Process",
+      "file_type": "concept",
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_162_step_1__group_interview_subjec_step_1",
+      "label": "Group Interview Subjects by Role",
+      "file_type": "concept",
+      "source_file": "chunk_162_Step_1__Group_interview_subjec.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_163_step_2__identify_behavioral_va_step_2",
+      "label": "Identify Behavioral Variables",
+      "file_type": "concept",
+      "source_file": "chunk_163_Step_2__Identify_behavioral_va.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_164_step_3__map_interview_subjects_step_3",
+      "label": "Map Interview Subjects to Behavioral Variables",
+      "file_type": "concept",
+      "source_file": "chunk_164_Step_3__Map_interview_subjects.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_165_step_4__identify_significant_b_step_4",
+      "label": "Identify Significant Behavior Patterns",
+      "file_type": "concept",
+      "source_file": "chunk_165_Step_4__Identify_significant_b.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_166_step_5__synthesize_characteris_step_5",
+      "label": "Synthesize Characteristics and Define Goals",
+      "file_type": "concept",
+      "source_file": "chunk_166_Step_5__Synthesize_characteris.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_167_defining_goals_defining_goals",
+      "label": "Defining Goals",
+      "file_type": "concept",
+      "source_file": "chunk_167_Defining_goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_169_step_6__check_for_completeness_step_6",
+      "label": "Check for Completeness and Redundancy",
+      "file_type": "concept",
+      "source_file": "chunk_169_Step_6__Check_for_completeness.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_170_step_7__designate_persona_type_step_7",
+      "label": "Designate Persona Types",
+      "file_type": "concept",
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_170_step_7__designate_persona_type_persona_types",
+      "label": "Persona Types",
+      "file_type": "concept",
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_171_primary_personas_primary_personas",
+      "label": "Primary Personas",
+      "file_type": "concept",
+      "source_file": "chunk_171_Primary_personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_172_design_principle_dp_single_primary_persona",
+      "label": "Focus the Design for Each Interface on a Single Primary Persona",
+      "file_type": "rationale",
+      "source_file": "chunk_172_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_173_secondary_personas_secondary_personas",
+      "label": "Secondary Personas",
+      "file_type": "concept",
+      "source_file": "chunk_173_Secondary_personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_174_supplemental_personas_supplemental_personas",
+      "label": "Supplemental Personas",
+      "file_type": "concept",
+      "source_file": "chunk_174_Supplemental_personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_175_customer_personas_customer_personas",
+      "label": "Customer Personas",
+      "file_type": "concept",
+      "source_file": "chunk_175_Customer_personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_151_the_three_types_of_user_goals_user_goals",
+      "target": "about_face_chunks_chunk_152_experience_goals_experience_goals",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_151_The_three_types_of_user_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_151_the_three_types_of_user_goals_user_goals",
+      "target": "about_face_chunks_chunk_153_end_goals_end_goals",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_151_The_three_types_of_user_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_151_the_three_types_of_user_goals_user_goals",
+      "target": "about_face_chunks_chunk_154_life_goals_life_goals",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_151_The_three_types_of_user_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_151_the_three_types_of_user_goals_user_goals",
+      "target": "about_face_chunks_chunk_151_the_three_types_of_user_goals_normans_theory",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_151_The_three_types_of_user_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_156_nonuser_goals_nonuser_goals",
+      "target": "about_face_chunks_chunk_157_customer_goals_customer_goals",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_156_Nonuser_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_156_nonuser_goals_nonuser_goals",
+      "target": "about_face_chunks_chunk_158_business_and_organizational_go_business_goals",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_156_Nonuser_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_156_nonuser_goals_nonuser_goals",
+      "target": "about_face_chunks_chunk_159_technical_goals_technical_goals",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_156_Nonuser_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_160_successful_products_meet_user__dont_feel_stupid",
+      "target": "about_face_chunks_chunk_151_the_three_types_of_user_goals_user_goals",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_160_Successful_products_meet_user_.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "target": "about_face_chunks_chunk_162_step_1__group_interview_subjec_step_1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "target": "about_face_chunks_chunk_163_step_2__identify_behavioral_va_step_2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "target": "about_face_chunks_chunk_164_step_3__map_interview_subjects_step_3",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "target": "about_face_chunks_chunk_165_step_4__identify_significant_b_step_4",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "target": "about_face_chunks_chunk_166_step_5__synthesize_characteris_step_5",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "target": "about_face_chunks_chunk_169_step_6__check_for_completeness_step_6",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_161_constructing_personas_persona_construction_process",
+      "target": "about_face_chunks_chunk_170_step_7__designate_persona_type_step_7",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_161_Constructing_Personas.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_170_step_7__designate_persona_type_step_7",
+      "target": "about_face_chunks_chunk_170_step_7__designate_persona_type_persona_types",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_170_step_7__designate_persona_type_persona_types",
+      "target": "about_face_chunks_chunk_171_primary_personas_primary_personas",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_170_step_7__designate_persona_type_persona_types",
+      "target": "about_face_chunks_chunk_173_secondary_personas_secondary_personas",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_170_step_7__designate_persona_type_persona_types",
+      "target": "about_face_chunks_chunk_174_supplemental_personas_supplemental_personas",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_170_step_7__designate_persona_type_persona_types",
+      "target": "about_face_chunks_chunk_175_customer_personas_customer_personas",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_172_design_principle_dp_single_primary_persona",
+      "target": "about_face_chunks_chunk_171_primary_personas_primary_personas",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_172_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_166_step_5__synthesize_characteris_step_5",
+      "target": "about_face_chunks_chunk_167_defining_goals_defining_goals",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_167_Defining_goals.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "types_of_user_goals",
+      "label": "Types of User Goals",
+      "nodes": [
+        "about_face_chunks_chunk_152_experience_goals_experience_goals",
+        "about_face_chunks_chunk_153_end_goals_end_goals",
+        "about_face_chunks_chunk_154_life_goals_life_goals"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_151_The_three_types_of_user_goals.md"
+    },
+    {
+      "id": "types_of_personas",
+      "label": "Types of Personas",
+      "nodes": [
+        "about_face_chunks_chunk_171_primary_personas_primary_personas",
+        "about_face_chunks_chunk_173_secondary_personas_secondary_personas",
+        "about_face_chunks_chunk_174_supplemental_personas_supplemental_personas",
+        "about_face_chunks_chunk_175_customer_personas_customer_personas"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_170_Step_7__Designate_persona_type.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

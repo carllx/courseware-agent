@@ -241,7 +241,7 @@
   current_asset: ../public/slides/W01_S05c.png
   no_ai_flag: false
 - slide: W01_S06a
-  module: M05_第一战场_实验1_敏捷洞察与_MVP
+  module: M05_第一战场_实践项目1_敏捷洞察与_MVP
   priority: high
   signals:
   - gazetteer_brand
@@ -249,7 +249,7 @@
   entities:
   - Lean UX
   description: 敏捷的呼吸节律：构建与抛弃
-  scene_excerpt: '敏捷开发循环图（Think -> Make -> Check），高亮 "Think" 与 "Make" 的前期交界阶段，并标注 "实验1(Exp1): 定性研究与概念流向"。'
+  scene_excerpt: '敏捷开发循环图（Think -> Make -> Check），高亮 "Think" 与 "Make" 的前期交界阶段，并标注 "实践项目1: 定性研究与概念流向"。'
   search_queries:
   - Lean UX photo
   - Lean UX real image
@@ -257,7 +257,7 @@
   current_asset: ../public/slides/W01_S06a.png
   no_ai_flag: false
 - slide: W01_S06d
-  module: M05_第一战场_实验1_敏捷洞察与_MVP
+  module: M05_第一战场_实践项目1_敏捷洞察与_MVP
   priority: high
   signals:
   - gazetteer_brand
@@ -272,7 +272,7 @@
   current_asset: ../public/slides/W01_S06d.png
   no_ai_flag: false
 - slide: W01_S07a
-  module: M05_第一战场_实验1_敏捷洞察与_MVP
+  module: M05_第一战场_实践项目1_敏捷洞察与_MVP
   priority: high
   signals:
   - gazetteer_brand

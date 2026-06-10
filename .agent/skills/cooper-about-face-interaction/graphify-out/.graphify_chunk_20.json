@@ -1,0 +1,418 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_476_rethinking_data_storage_computer_file_systems",
+      "label": "Computer File Systems",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_476_Rethinking_Data_Storage.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_477_the_problems_with_data_storage_implementation_model_of_data_storage",
+      "label": "Implementation Model of Data Storage",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_477_The_problems_with_data_storage.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_478_saving_changes_save_changes_dialog",
+      "label": "Save Changes Dialog",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_478_Saving_changes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_480_save_as_save_as_dialog",
+      "label": "Save As Dialog",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_480_Save_As.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "label": "Unified File Model",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_482_Fixing_data_storage__a_unified.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_483_automatic_save_automatic_save",
+      "label": "Automatic Save",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_483_Automatic_save.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_484_design_principle_save_documents_automatically",
+      "label": "Save documents and settings automatically",
+      "file_type": "rationale",
+      "source_file": "about_face_chunks/chunk_484_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_485_creating_a_copy_creating_a_copy",
+      "label": "Creating a Copy",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_485_Creating_a_copy.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_486_naming_and_renaming_naming_and_renaming",
+      "label": "Naming and Renaming",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_486_Naming_and_renaming.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_487_placing_and_positioning_in_the_placing_and_positioning",
+      "label": "Placing and Positioning",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_487_Placing_and_positioning_in_the.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_488_specifying_the_file_type_specifying_file_type",
+      "label": "Specifying the File Type",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_488_Specifying_the_file_type.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_489_reversing_changes_reversing_changes",
+      "label": "Reversing Changes (Undo)",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_489_Reversing_changes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_490_discarding_all_changes_discarding_all_changes",
+      "label": "Discarding All Changes",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_490_Discarding_all_changes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_491_creating_a_version_creating_a_version",
+      "label": "Creating a Version",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_491_Creating_a_version.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_492_a_new_file_menu_new_file_menu",
+      "label": "New File Menu",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_492_A_new_File_menu.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_496_rethinking_data_retrieval_data_retrieval",
+      "label": "Data Retrieval",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_496_Rethinking_Data_Retrieval.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_497_storage_versus_retrieval_storage_system",
+      "label": "Storage System",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_497_Storage_versus_retrieval.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_497_storage_versus_retrieval_retrieval_system",
+      "label": "Retrieval System",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_497_Storage_versus_retrieval.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_499_retrieval_by_location_retrieval_by_location",
+      "label": "Retrieval by Location",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_499_Retrieval_by_location.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_500_indexed_retrieval_indexed_retrieval",
+      "label": "Indexed Retrieval",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_500_Indexed_retrieval.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_477_the_problems_with_data_storage_implementation_model_of_data_storage",
+      "target": "about_face_chunks_chunk_478_saving_changes_save_changes_dialog",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_478_Saving_changes.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_477_the_problems_with_data_storage_implementation_model_of_data_storage",
+      "target": "about_face_chunks_chunk_480_save_as_save_as_dialog",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_480_Save_As.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_477_the_problems_with_data_storage_implementation_model_of_data_storage",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_482_Fixing_data_storage__a_unified.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_483_automatic_save_automatic_save",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_483_Automatic_save.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_484_design_principle_save_documents_automatically",
+      "target": "about_face_chunks_chunk_483_automatic_save_automatic_save",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_484_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_485_creating_a_copy_creating_a_copy",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_485_Creating_a_copy.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_486_naming_and_renaming_naming_and_renaming",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_486_Naming_and_renaming.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_487_placing_and_positioning_in_the_placing_and_positioning",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_487_Placing_and_positioning_in_the.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_488_specifying_the_file_type_specifying_file_type",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_488_Specifying_the_file_type.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_489_reversing_changes_reversing_changes",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_489_Reversing_changes.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_490_discarding_all_changes_discarding_all_changes",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_490_Discarding_all_changes.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "target": "about_face_chunks_chunk_491_creating_a_version_creating_a_version",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_491_Creating_a_version.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_492_a_new_file_menu_new_file_menu",
+      "target": "about_face_chunks_chunk_482_fixing_data_storage__a_unified_unified_file_model",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_492_A_new_File_menu.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_496_rethinking_data_retrieval_data_retrieval",
+      "target": "about_face_chunks_chunk_497_storage_versus_retrieval_storage_system",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_497_Storage_versus_retrieval.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_496_rethinking_data_retrieval_data_retrieval",
+      "target": "about_face_chunks_chunk_497_storage_versus_retrieval_retrieval_system",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_497_Storage_versus_retrieval.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_499_retrieval_by_location_retrieval_by_location",
+      "target": "about_face_chunks_chunk_497_storage_versus_retrieval_retrieval_system",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_499_Retrieval_by_location.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_500_indexed_retrieval_indexed_retrieval",
+      "target": "about_face_chunks_chunk_497_storage_versus_retrieval_retrieval_system",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_500_Indexed_retrieval.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "unified_file_model_functions",
+      "label": "Unified File Model Functions",
+      "nodes": [
+        "about_face_chunks_chunk_483_automatic_save_automatic_save",
+        "about_face_chunks_chunk_485_creating_a_copy_creating_a_copy",
+        "about_face_chunks_chunk_486_naming_and_renaming_naming_and_renaming",
+        "about_face_chunks_chunk_487_placing_and_positioning_in_the_placing_and_positioning",
+        "about_face_chunks_chunk_488_specifying_the_file_type_specifying_file_type",
+        "about_face_chunks_chunk_489_reversing_changes_reversing_changes",
+        "about_face_chunks_chunk_490_discarding_all_changes_discarding_all_changes",
+        "about_face_chunks_chunk_491_creating_a_version_creating_a_version"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_482_Fixing_data_storage__a_unified.md"
+    }
+  ],
+  "input_tokens": 5000,
+  "output_tokens": 1000
+}

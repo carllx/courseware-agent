@@ -1,43 +1,21 @@
 #!/usr/bin/env python3
 """
-cleanup_stale_assets.py — H5 课件废弃资产扫描与清理工具
-
-功能：
-  1. 扫描所有课程脚本（src/*.md）中的 [VISUAL] 块，提取被引用的图片/视频路径
-  2. 扫描所有课程脚本中的 TTS 指纹（通过 manifest.json 记录的段落文本哈希提取实际被引用的指纹）
-  3. 对比 public/slides/、public/videos/、tts/ 目录下的实际文件
-  4. 识别：
-     a) 废弃的视觉素材：存在于 public/ 中但未被任何脚本引用的图片/视频
-     b) 废弃的 TTS 音频：存在于 tts/ 中但与当前脚本内容不匹配的 .aac 文件
-     c) 重复的 TTS 文件：同一指纹同时有带后缀和不带后缀版本
-  5. 报告可回收空间，支持 --dry-run（默认）和 --delete 模式
-
-用法：
-  python cleanup_stale_assets.py                    # 干跑模式，只报告
-  python cleanup_stale_assets.py --delete            # 实际删除（移入 _trash/）
-  python cleanup_stale_assets.py --course 交互产品开发  # 只扫描指定课程
-  python cleanup_stale_assets.py --week W01          # 只扫描指定周次
-
-数据流分析：
-  脚本 src/*.md 中的 [VISUAL] 块引用 → ../public/slides/XXX.png 或 ../public/videos/XXX.mp4
-  H5 构建系统从脚本解析 → JSON → 引用 ttsFp（段落文本的 8 字符哈希 + 字符数后缀）
-  TTS manifest.json 记录所有已合成的指纹 → 对应 tts/*.aac 文件
-
-作者：课程 Agent 自动生成
+cleanup_stale_assets.py — H5 课件废弃资产扫描与清理工具（重构版）
 """
 
 import os
-import re
+import sys
 import json
 import shutil
-import hashlib
 import argparse
+import datetime
 from pathlib import Path
 from collections import defaultdict
 
-# ============ 配置 ============
-WORKSPACE = Path(__file__).parent
-COURSES = ["交互产品开发", "信息可视化"]
+WORKSPACE = Path(__file__).parent.resolve()
+sys.path.insert(0, str(WORKSPACE / '.agent' / 'skills' / 'validation_suite' / 'scripts'))
+from script_parser import parse_script, normalize_asset_path
+
 VISUAL_EXTS = {'.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.avif'}
 VIDEO_EXTS = {'.mp4', '.webm', '.mov', '.avi'}
 MEDIA_EXTS = VISUAL_EXTS | VIDEO_EXTS
@@ -45,10 +23,9 @@ TTS_EXTS = {'.aac', '.mp3'}
 
 
 def parse_args():
-    """解析命令行参数"""
     parser = argparse.ArgumentParser(description='H5 课件废弃资产扫描与清理工具')
     parser.add_argument('--delete', action='store_true',
-                        help='实际删除废弃文件（移入 _trash/ 目录）')
+                        help='实际删除废弃文件（移入各个课程的 _trash/ 目录）')
     parser.add_argument('--course', type=str, default=None,
                         help='只扫描指定课程（如：交互产品开发）')
     parser.add_argument('--week', type=str, default=None,
@@ -58,8 +35,14 @@ def parse_args():
     return parser.parse_args()
 
 
+def find_courses(workspace_dir: Path):
+    courses = []
+    for d in workspace_dir.iterdir():
+        if d.is_dir() and (d / 'weeks').exists():
+            courses.append(d)
+    return sorted(courses)
+
 def find_weeks(course_dir: Path, week_filter: str = None) -> list:
-    """查找课程下的所有周次目录"""
     weeks_dir = course_dir / "weeks"
     if not weeks_dir.exists():
         return []
@@ -71,47 +54,96 @@ def find_weeks(course_dir: Path, week_filter: str = None) -> list:
             weeks.append(d)
     return weeks
 
-
-def extract_visual_refs(script_path: Path) -> set:
-    """
-    从 Markdown 脚本中提取所有 [VISUAL] 块引用的资产路径。
-    
-    匹配模式：
-      - ![描述](../public/slides/XXX.png)
-      - ![描述](../public/videos/XXX.mp4)
-    
-    返回相对于 week 目录的标准化文件名集合（如 slides/W01_S00.png）
-    """
+def collect_refs_from_week(week_dir: Path):
     refs = set()
-    try:
-        content = script_path.read_text(encoding='utf-8')
-    except Exception:
-        return refs
+    errors = []
+    src_dir = week_dir / 'src'
+    if not src_dir.exists():
+        return refs, errors
+    for md_file in src_dir.glob('*.md'):
+        try:
+            blocks = parse_script(str(md_file))
+            for b in blocks:
+                if getattr(b.block_type, 'value', b.block_type) == 'visual':
+                    asset = b.metadata.get('asset', '')
+                    if asset:
+                        norm = normalize_asset_path(asset)
+                        if norm:
+                            # 剥离 public/ 或 assets/ 前缀，与 scan_visuals 的 key 格式对齐
+                            for prefix in ('public/', 'assets/'):
+                                if norm.startswith(prefix):
+                                    norm = norm[len(prefix):]
+                                    break
+                            refs.add(norm)
+                    assets = b.metadata.get('assets', [])
+                    for a in assets:
+                        norm = normalize_asset_path(a)
+                        if norm:
+                            for prefix in ('public/', 'assets/'):
+                                if norm.startswith(prefix):
+                                    norm = norm[len(prefix):]
+                                    break
+                            refs.add(norm)
+        except Exception as e:
+            err_msg = f"解析异常: {md_file.name} - {e}"
+            print(f"      ⚠️ {err_msg}")
+            errors.append(err_msg)
+    return refs, errors
 
-    # 匹配 Markdown 图片/视频引用：![alt](path)
-    pattern = r'!\[.*?\]\(\.\./public/((?:slides|videos)/[^)]+)\)'
-    for match in re.finditer(pattern, content):
-        ref_path = match.group(1)
-        refs.add(ref_path)
+def scan_visuals(week_dir: Path, refs: set):
+    stale = []
+    public_dir = week_dir / 'public'
+    for subdir_name in ['slides', 'videos']:
+        subdir = public_dir / subdir_name
+        if not subdir.exists():
+            continue
+        for root, dirs, files in os.walk(subdir):
+            root_path = Path(root)
+            if 'textbook' in root_path.parts:
+                continue
+            for f in files:
+                fpath = root_path / f
+                if fpath.suffix.lower() in MEDIA_EXTS:
+                    rel_path = fpath.relative_to(public_dir)
+                    rel_key = str(rel_path).replace('\\', '/')
+                    if rel_key not in refs:
+                        stale.append({
+                            'path': fpath,
+                            'rel_key': rel_key,
+                            'size': fpath.stat().st_size,
+                        })
+    return stale
 
-    return refs
-
+def scan_build(week_dir: Path, refs: set):
+    stale = []
+    build_dir = week_dir / '.build'
+    
+    posters_dir = build_dir / '_video_posters'
+    if posters_dir.exists():
+        for f in posters_dir.glob('*_poster.png'):
+            name = f.name.replace('_poster.png', '')
+            original_video = f"videos/{name}.mp4"
+            if original_video not in refs:
+                stale.append({
+                    'path': f,
+                    'size': f.stat().st_size,
+                    'reason': f'源视频 {original_video} 未被引用'
+                })
+                
+    pptx_dir = build_dir / '_video_pptx'
+    if pptx_dir.exists():
+        for f in pptx_dir.glob('*.mp4'):
+            name = f.stem
+            original_video = f"videos/{name}.mp4"
+            if original_video not in refs:
+                stale.append({
+                    'path': f,
+                    'size': f.stat().st_size,
+                    'reason': f'源视频 {original_video} 未被引用'
+                })
+    return stale
 
 def extract_tts_fingerprints_from_manifest(manifest_path: Path) -> set:
-    """
-    从 TTS manifest.json 中提取所有有效的指纹。
-    
-    manifest 格式：
-    {
-      "segments": {
-        "820e7f61_88": { "durationMs": ..., "size": ..., "cachedAt": ... },
-        ...
-      }
-    }
-    
-    注意：有些指纹有两个版本（如 077c32c1 和 077c32c1_65），
-    这通常是旧版→新版的过渡产物。我们收集所有被 manifest 记录的指纹。
-    """
     fps = set()
     if not manifest_path.exists():
         return fps
@@ -123,54 +155,18 @@ def extract_tts_fingerprints_from_manifest(manifest_path: Path) -> set:
         pass
     return fps
 
-
 def scan_tts_files(tts_dir: Path) -> dict:
-    """
-    扫描 tts/ 目录下所有 .aac 文件。
-    
-    返回 {指纹名(不含扩展名): 文件路径}
-    """
     files = {}
     if not tts_dir.exists():
         return files
     for f in tts_dir.iterdir():
         if f.suffix.lower() in TTS_EXTS and f.name != 'manifest.json':
-            stem = f.stem  # 如 "820e7f61_88" 或 "077c32c1"
-            files[stem] = f
+            files[f.stem] = f
     return files
-
-
-def scan_media_files(public_dir: Path) -> dict:
-    """
-    扫描 public/slides/ 和 public/videos/ 下的所有媒体文件。
-    
-    返回 {相对路径（如 slides/W01_S00.png）: 文件路径}
-    """
-    files = {}
-    for subdir_name in ['slides', 'videos']:
-        subdir = public_dir / subdir_name
-        if not subdir.exists():
-            continue
-        for f in subdir.iterdir():
-            if f.is_file() and f.suffix.lower() in MEDIA_EXTS:
-                rel_key = f"{subdir_name}/{f.name}"
-                files[rel_key] = f
-    return files
-
 
 def find_duplicate_tts(tts_files: dict) -> list:
-    """
-    识别重复的 TTS 文件。
-    
-    规律：同一个 8 字符哈希前缀可能有两个文件：
-      - 077c32c1.aac         (旧版，无字符数后缀)
-      - 077c32c1_65.aac      (新版，带字符数后缀)
-    如果两者大小完全一致，旧版即为冗余。
-    """
-    # 按 8 字符前缀分组
     prefix_groups = defaultdict(list)
     for stem, fpath in tts_files.items():
-        # 提取 8 字符哈希前缀
         prefix = stem.split('_')[0] if '_' in stem else stem
         if len(prefix) == 8 and all(c in '0123456789abcdef' for c in prefix):
             prefix_groups[prefix].append((stem, fpath))
@@ -180,13 +176,11 @@ def find_duplicate_tts(tts_files: dict) -> list:
         if len(entries) <= 1:
             continue
         
-        # 按是否有后缀排序：无后缀的是旧版
         has_suffix = [(s, f) for s, f in entries if '_' in s]
         no_suffix = [(s, f) for s, f in entries if '_' not in s]
         
         if has_suffix and no_suffix:
             for old_stem, old_path in no_suffix:
-                # 检查是否与某个带后缀版本大小一致
                 old_size = old_path.stat().st_size
                 for new_stem, new_path in has_suffix:
                     new_size = new_path.stat().st_size
@@ -199,12 +193,48 @@ def find_duplicate_tts(tts_files: dict) -> list:
                             'size': old_size,
                         })
                         break
-    
     return duplicates
 
+def scan_tts(week_dir: Path):
+    tts_dir = week_dir / 'tts'
+    stale_tts = []
+    dup_tts = []
+    if not tts_dir.exists():
+        return stale_tts, dup_tts
+    
+    manifest_path = tts_dir / "manifest.json"
+    manifest_fps = extract_tts_fingerprints_from_manifest(manifest_path)
+    tts_files = scan_tts_files(tts_dir)
+    
+    for stem, file_path in sorted(tts_files.items()):
+        if stem not in manifest_fps:
+            stale_tts.append({
+                'path': file_path,
+                'stem': stem,
+                'size': file_path.stat().st_size,
+            })
+            
+    dup_tts = find_duplicate_tts(tts_files)
+    return stale_tts, dup_tts
+
+def scan_course_level(course_dir: Path):
+    stale = []
+    for d_name in ['public', 'assets']:
+        d_path = course_dir / d_name
+        if not d_path.exists():
+            continue
+        for root, dirs, files in os.walk(d_path):
+            for f in files:
+                fpath = Path(root) / f
+                if fpath.suffix.lower() in MEDIA_EXTS or fpath.suffix.lower() in ['.tmp', '.bak']:
+                    stale.append({
+                        'path': fpath,
+                        'size': fpath.stat().st_size,
+                        'reason': '课程级目录不应存在此媒体/临时垃圾文件'
+                    })
+    return stale
 
 def format_size(size_bytes: int) -> str:
-    """格式化文件大小"""
     if size_bytes < 1024:
         return f"{size_bytes} B"
     elif size_bytes < 1024 * 1024:
@@ -214,247 +244,218 @@ def format_size(size_bytes: int) -> str:
     else:
         return f"{size_bytes / 1024 / 1024 / 1024:.1f} GB"
 
-
-def move_to_trash(file_path: Path, trash_dir: Path):
-    """将文件移入 _trash/ 目录（保留相对路径结构）"""
-    rel = file_path.relative_to(WORKSPACE)
+def move_to_trash(file_path: Path, course_dir: Path):
+    trash_dir = course_dir / '_trash'
+    rel = file_path.relative_to(course_dir)
     dest = trash_dir / rel
     dest.parent.mkdir(parents=True, exist_ok=True)
     shutil.move(str(file_path), str(dest))
-
 
 def main():
     args = parse_args()
     is_delete = args.delete
     
-    # 确定扫描范围
-    courses = [args.course] if args.course else COURSES
-    
     print("=" * 60)
-    print("🔍 H5 课件废弃资产扫描工具")
-    print(f"   模式: {'⚠️  删除模式（移入 _trash/）' if is_delete else '🔎 干跑模式（仅报告）'}")
-    print(f"   范围: {', '.join(courses)}")
+    print("🔍 H5 课件废弃资产扫描工具 (重构版)")
+    print(f"   模式: {'⚠️  删除模式（移入各个课程的 _trash/）' if is_delete else '🔎 干跑模式（仅报告）'}")
+    
+    all_courses = find_courses(WORKSPACE)
+    if args.course:
+        target_courses = [c for c in all_courses if c.name == args.course]
+    else:
+        target_courses = all_courses
+        
+    print(f"   范围: {', '.join([c.name for c in target_courses])}")
     if args.week:
         print(f"   周次过滤: {args.week}")
     print("=" * 60)
     
-    # 全局统计
-    total_stale_media = []
-    total_stale_tts = []
-    total_dup_tts = []
+    report = {
+        'timestamp': datetime.datetime.now().isoformat(),
+        'summary': {},
+        'errors': [],
+        'details': {
+            'course_level': {}
+        }
+    }
     
-    for course_name in courses:
-        course_dir = WORKSPACE / course_name
-        if not course_dir.exists():
-            print(f"\n⚠️  课程目录不存在: {course_name}")
-            continue
-        
+    global_parse_errors = []
+    
+    total_stale_media_count = 0
+    total_stale_media_size = 0
+    total_stale_tts_count = 0
+    total_stale_tts_size = 0
+    total_dup_tts_count = 0
+    total_dup_tts_size = 0
+    
+    global_items_to_delete = [] # list of (item_path, course_dir)
+    
+    for course_dir in target_courses:
+        course_name = course_dir.name
         print(f"\n{'─' * 50}")
         print(f"📚 课程: {course_name}")
         print(f"{'─' * 50}")
+        
+        report['details'].setdefault(course_name, {})
+        
+        # 扫描课程级违规资产
+        course_level_stale = scan_course_level(course_dir)
+        if course_level_stale:
+            print(f"   ⚠️  发现课程级违规资产: {len(course_level_stale)} 个文件")
+            report['details']['course_level'][course_name] = [
+                {'path': str(s['path']), 'size': s['size'], 'reason': s['reason']} 
+                for s in course_level_stale
+            ]
+            for s in course_level_stale:
+                global_items_to_delete.append((s['path'], course_dir))
+                total_stale_media_count += 1
+                total_stale_media_size += s['size']
+                if args.verbose:
+                    print(f"      ❌ {s['path'].relative_to(course_dir)} ({format_size(s['size'])})")
+        else:
+            report['details']['course_level'][course_name] = []
         
         weeks = find_weeks(course_dir, args.week)
         if not weeks:
             print("   (未找到周次目录)")
             continue
-        
+            
         for week_dir in weeks:
             week_name = week_dir.name
-            src_dir = week_dir / "src"
-            public_dir = week_dir / "public"
-            tts_dir = week_dir / "tts"
-            
-            # 跳过没有任何资产的周次
-            has_media = public_dir.exists() and any(
-                (public_dir / sd).exists() for sd in ['slides', 'videos']
-            )
-            has_tts = tts_dir.exists() and any(
-                f.suffix.lower() in TTS_EXTS for f in tts_dir.iterdir()
-            ) if tts_dir.exists() else False
-            
-            if not has_media and not has_tts:
-                continue
-            
             print(f"\n   📅 {week_name}")
             
-            # ──── 视觉素材扫描 ────
-            if has_media:
-                # 收集所有脚本引用
-                all_refs = set()
-                if src_dir.exists():
-                    for md_file in sorted(src_dir.glob("*.md")):
-                        refs = extract_visual_refs(md_file)
-                        all_refs.update(refs)
-                        if args.verbose and refs:
-                            print(f"      📝 {md_file.name}: {len(refs)} 个资产引用")
+            # 解析脚本收集引用
+            refs, week_errors = collect_refs_from_week(week_dir)
+            if week_errors:
+                global_parse_errors.extend(week_errors)
+            if args.verbose and refs:
+                print(f"      📝 共提取 {len(refs)} 个资产引用")
                 
-                # 扫描实际文件
-                actual_files = scan_media_files(public_dir)
-                
-                # 比较
-                stale_media = []
-                for rel_key, file_path in sorted(actual_files.items()):
-                    if rel_key not in all_refs:
-                        stale_media.append({
-                            'path': file_path,
-                            'rel_key': rel_key,
-                            'size': file_path.stat().st_size,
-                        })
-                
-                referenced_count = len(all_refs & set(actual_files.keys()))
-                total_count = len(actual_files)
-                stale_count = len(stale_media)
-                stale_size = sum(s['size'] for s in stale_media)
-                
-                if stale_media:
-                    print(f"      🖼️  视觉素材: {total_count} 个文件, "
-                          f"{referenced_count} 个被引用, "
-                          f"⚠️  {stale_count} 个废弃 ({format_size(stale_size)})")
-                    if args.verbose:
-                        for item in stale_media[:10]:
-                            print(f"         ❌ {item['rel_key']} ({format_size(item['size'])})")
-                        if len(stale_media) > 10:
-                            print(f"         ... 还有 {len(stale_media) - 10} 个")
-                    total_stale_media.extend(stale_media)
-                else:
-                    print(f"      🖼️  视觉素材: {total_count} 个文件, 全部被引用 ✅")
+            week_details = {}
             
-            # ──── TTS 音频扫描 ────
-            if has_tts:
-                manifest_path = tts_dir / "manifest.json"
-                manifest_fps = extract_tts_fingerprints_from_manifest(manifest_path)
-                tts_files = scan_tts_files(tts_dir)
-                
-                # 识别废弃 TTS（不在 manifest 中的文件）
-                stale_tts = []
-                for stem, file_path in sorted(tts_files.items()):
-                    if stem not in manifest_fps:
-                        stale_tts.append({
-                            'path': file_path,
-                            'stem': stem,
-                            'size': file_path.stat().st_size,
-                        })
-                
-                # 识别重复 TTS
-                dup_tts = find_duplicate_tts(tts_files)
-                
-                in_manifest = len([s for s in tts_files if s in manifest_fps])
-                total_tts = len(tts_files)
-                stale_count = len(stale_tts)
-                stale_size = sum(s['size'] for s in stale_tts)
-                dup_count = len(dup_tts)
-                dup_size = sum(d['size'] for d in dup_tts)
-                
-                if stale_tts:
-                    print(f"      🔊 TTS 音频: {total_tts} 个文件, "
-                          f"{in_manifest} 个在 manifest 中, "
-                          f"⚠️  {stale_count} 个废弃 ({format_size(stale_size)})")
+            # 扫描 visuals
+            stale_visuals = scan_visuals(week_dir, refs)
+            week_details['stale_visuals'] = [
+                {'path': str(s['path']), 'rel_key': s['rel_key'], 'size': s['size']} 
+                for s in stale_visuals
+            ]
+            if stale_visuals:
+                v_size = sum(s['size'] for s in stale_visuals)
+                print(f"      🖼️  废弃视觉素材: {len(stale_visuals)} 个 ({format_size(v_size)})")
+                for s in stale_visuals:
+                    global_items_to_delete.append((s['path'], course_dir))
+                    total_stale_media_count += 1
+                    total_stale_media_size += s['size']
                     if args.verbose:
-                        for item in stale_tts[:5]:
-                            print(f"         ❌ {item['stem']}.aac ({format_size(item['size'])})")
-                        if len(stale_tts) > 5:
-                            print(f"         ... 还有 {len(stale_tts) - 5} 个")
-                    total_stale_tts.extend(stale_tts)
-                elif total_tts > 0:
-                    print(f"      🔊 TTS 音频: {total_tts} 个文件, 全部有效 ✅")
-                
-                if dup_tts:
-                    print(f"      🔄 TTS 重复: {dup_count} 对重复文件 ({format_size(dup_size)})")
+                        print(f"         ❌ {s['rel_key']} ({format_size(s['size'])})")
+            
+            # 扫描 build
+            stale_build = scan_build(week_dir, refs)
+            week_details['stale_build'] = [
+                {'path': str(s['path']), 'size': s['size'], 'reason': s['reason']} 
+                for s in stale_build
+            ]
+            if stale_build:
+                b_size = sum(s['size'] for s in stale_build)
+                print(f"      🛠️  废弃构建产物: {len(stale_build)} 个 ({format_size(b_size)})")
+                for s in stale_build:
+                    global_items_to_delete.append((s['path'], course_dir))
+                    total_stale_media_count += 1
+                    total_stale_media_size += s['size']
                     if args.verbose:
-                        for d in dup_tts[:3]:
-                            print(f"         📋 {d['old_stem']}.aac ↔ {d['new_stem']}.aac "
-                                  f"(各 {format_size(d['size'])})")
-                    total_dup_tts.extend(dup_tts)
-    
-    # ============ 汇总报告 ============
+                        print(f"         ❌ {s['path'].name} ({format_size(s['size'])})")
+                        
+            # 扫描 TTS
+            stale_tts, dup_tts = scan_tts(week_dir)
+            week_details['stale_tts'] = [
+                {'path': str(s['path']), 'stem': s['stem'], 'size': s['size']} 
+                for s in stale_tts
+            ]
+            if stale_tts:
+                t_size = sum(s['size'] for s in stale_tts)
+                print(f"      🔊 废弃 TTS 音频: {len(stale_tts)} 个 ({format_size(t_size)})")
+                for s in stale_tts:
+                    global_items_to_delete.append((s['path'], course_dir))
+                    total_stale_tts_count += 1
+                    total_stale_tts_size += s['size']
+                    if args.verbose:
+                        print(f"         ❌ {s['stem']}.aac ({format_size(s['size'])})")
+                        
+            week_details['duplicate_tts'] = [
+                {'old': str(d['old']), 'new': str(d['new']), 'old_stem': d['old_stem'], 'new_stem': d['new_stem'], 'size': d['size']} 
+                for d in dup_tts
+            ]
+            if dup_tts:
+                dt_size = sum(d['size'] for d in dup_tts)
+                print(f"      🔄 重复 TTS 文件: {len(dup_tts)} 对 ({format_size(dt_size)})")
+                for d in dup_tts:
+                    global_items_to_delete.append((d['old'], course_dir))
+                    total_dup_tts_count += 1
+                    total_dup_tts_size += d['size']
+                    if args.verbose:
+                        print(f"         📋 {d['old_stem']}.aac ↔ {d['new_stem']}.aac ({format_size(d['size'])})")
+
+            report['details'][course_name][week_name] = week_details
+            
     print(f"\n{'═' * 60}")
     print("📊 汇总报告")
     print(f"{'═' * 60}")
     
-    total_stale_media_size = sum(s['size'] for s in total_stale_media)
-    total_stale_tts_size = sum(s['size'] for s in total_stale_tts)
-    total_dup_tts_size = sum(d['size'] for d in total_dup_tts)
     total_reclaimable = total_stale_media_size + total_stale_tts_size + total_dup_tts_size
     
-    print(f"   🖼️  废弃视觉素材: {len(total_stale_media)} 个文件, "
-          f"{format_size(total_stale_media_size)}")
-    print(f"   🔊 废弃 TTS 音频: {len(total_stale_tts)} 个文件, "
-          f"{format_size(total_stale_tts_size)}")
-    print(f"   🔄 重复 TTS 文件: {len(total_dup_tts)} 个文件, "
-          f"{format_size(total_dup_tts_size)}")
+    print(f"   🖼️  废弃素材与产物: {total_stale_media_count} 个文件, {format_size(total_stale_media_size)}")
+    print(f"   🔊 废弃 TTS 音频: {total_stale_tts_count} 个文件, {format_size(total_stale_tts_size)}")
+    print(f"   🔄 重复 TTS 文件: {total_dup_tts_count} 个文件, {format_size(total_dup_tts_size)}")
     print(f"   {'─' * 40}")
     print(f"   💾 可回收总空间: {format_size(total_reclaimable)}")
     
+    report['summary'] = {
+        'stale_media_count': total_stale_media_count,
+        'stale_media_bytes': total_stale_media_size,
+        'stale_tts_count': total_stale_tts_count,
+        'stale_tts_bytes': total_stale_tts_size,
+        'duplicate_tts_count': total_dup_tts_count,
+        'duplicate_tts_bytes': total_dup_tts_size,
+        'total_reclaimable_bytes': total_reclaimable,
+    }
+    report['errors'] = global_parse_errors
+    
+    if global_parse_errors:
+        print("\n" + "!" * 60)
+        print("🚨 发现脚本解析异常 (高危)！")
+        print("!" * 60)
+        print("由于部分文件解析失败，其包含的资源未被识别，这会导致严重误判！")
+        for err in global_parse_errors:
+            print(f"  - {err}")
+            
+        if is_delete:
+            print("\n⛔ 致命错误：为防止正在使用的课件被误删，--delete 模式已强制中止！请先修复这些文件。")
+            report_path = WORKSPACE / "cleanup_report.json"
+            report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+            sys.exit(2)
+        else:
+            print("\n⚠️ 警告：当前为干跑模式，但由于存在解析异常，上述回收报告可能包含误报。")
+
     if total_reclaimable == 0:
         print("\n🎉 所有资产均在使用中，无需清理！")
-        return
-    
-    # ──── 执行删除 ────
-    if is_delete:
-        trash_dir = WORKSPACE / "_trash"
-        trash_dir.mkdir(exist_ok=True)
-        
-        print(f"\n⚠️  正在将 {len(total_stale_media) + len(total_stale_tts) + len(total_dup_tts)} "
-              f"个文件移入 _trash/ ...")
-        
-        moved = 0
-        for item in total_stale_media:
-            try:
-                move_to_trash(item['path'], trash_dir)
-                moved += 1
-            except Exception as e:
-                print(f"   ❌ 移动失败: {item['path']}: {e}")
-        
-        for item in total_stale_tts:
-            try:
-                move_to_trash(item['path'], trash_dir)
-                moved += 1
-            except Exception as e:
-                print(f"   ❌ 移动失败: {item['path']}: {e}")
-        
-        for dup in total_dup_tts:
-            try:
-                move_to_trash(dup['old'], trash_dir)
-                moved += 1
-            except Exception as e:
-                print(f"   ❌ 移动失败: {dup['old']}: {e}")
-        
-        print(f"\n✅ 已移动 {moved} 个文件至 {trash_dir}")
-        print(f"   💡 确认无误后可手动删除 _trash/ 目录：rm -rf '{trash_dir}'")
     else:
-        print(f"\n💡 这是干跑模式。要实际清理，请运行:")
-        print(f"   python cleanup_stale_assets.py --delete")
-        print(f"   （文件将移入 _trash/ 目录，不会直接删除）")
+        if is_delete:
+            print(f"\n⚠️  正在将 {len(global_items_to_delete)} 个文件移入各自课程的 _trash/ ...")
+            moved = 0
+            for item_path, course_dir in global_items_to_delete:
+                try:
+                    move_to_trash(item_path, course_dir)
+                    moved += 1
+                except Exception as e:
+                    print(f"   ❌ 移动失败: {item_path}: {e}")
+            print(f"\n✅ 已移动 {moved} 个文件至 _trash/")
+        else:
+            print(f"\n💡 这是干跑模式。要实际清理，请运行:")
+            print(f"   python cleanup_stale_assets.py --delete")
     
-    # ──── 写入详细报告 ────
     report_path = WORKSPACE / "cleanup_report.json"
-    report = {
-        "summary": {
-            "stale_media_count": len(total_stale_media),
-            "stale_media_bytes": total_stale_media_size,
-            "stale_tts_count": len(total_stale_tts),
-            "stale_tts_bytes": total_stale_tts_size,
-            "duplicate_tts_count": len(total_dup_tts),
-            "duplicate_tts_bytes": total_dup_tts_size,
-            "total_reclaimable_bytes": total_reclaimable,
-        },
-        "stale_media": [
-            {"path": str(s['path']), "rel_key": s['rel_key'], "size": s['size']}
-            for s in total_stale_media
-        ],
-        "stale_tts": [
-            {"path": str(s['path']), "stem": s['stem'], "size": s['size']}
-            for s in total_stale_tts
-        ],
-        "duplicate_tts": [
-            {"old": str(d['old']), "new": str(d['new']),
-             "old_stem": d['old_stem'], "new_stem": d['new_stem'], "size": d['size']}
-            for d in total_dup_tts
-        ],
-    }
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f"\n📋 详细报告已写入: {report_path.name}")
-
 
 if __name__ == '__main__':
     main()

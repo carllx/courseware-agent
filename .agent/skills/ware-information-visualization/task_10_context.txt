@@ -1,0 +1,322 @@
+Node: 070 Judging the Relative Movements of Self W
+Primary concept extracted from chunk
+## Judging the Relative Movements of Self Within the Environment
+
+When we are navigating through a virtual environment representing an information space, there are a number of frames of reference that may be adopted; for example, an observer may feel she is moving through the environment or that she is stationary and the environment is moving past. In virtual environment systems that are either helmet mounted or monitor based, the user rarely actually physically moves any great distance, because real-world obstacles lie in the way. If self-movement is perceived, it is generally an illusion. Note that this applies only to linear motion, not to rotations; users with helmet-mounted displays can usually turn their heads quite freely.
+
+A sensation of self-movement can be strongly induced when the subject is not moving. This phenomenon, called vection, has been studied extensively. When observers are placed inside a large moving visual field—created either by a physical drum or by means of computer graphics within a virtual-reality helmet—they invariably feel that they are moving, even though they are not. A number of visual parameters, discussed below, influence the amount of vection that is perceived.
+
+Field size
+—In general, the larger the area of the visual field that is moving, the stronger the experience of self-motion (Howard & Heckman, 1989).
+
+Foreground
+/
+background
+—Much stronger vection is perceived if the moving part of the visual field is perceived as background and more distant from the observer than static foreground objects (Howard & Heckman, 1989). In fact, vection can be perceived even with a quite small moving field, if that field is perceived to be relatively distant. The classic example occurs when someone is sitting in a train stopped at a station and the movement of an adjacent train, seen through a window, causes that person to feel that he or she is moving, even though this is not the case.
+
+Frame
+—Vection effects are considerably increased if there is a static foreground frame between the observer and the moving background (Howard & Childerson, 1994).
+
+Stereo
+—Stereoscopic depth can determine whether a moving pattern is perceived as background or foreground, and thereby increase or decrease vection (Lowther & Ware, 1996).
+
+In aircraft simulators and other vehicle simulators, the goal is for the user to experience a sense of self-motion, even though the simulator’s actual physical motion is relatively small or nonexistent.
+
+One of the unfortunate side effects of this perceived motion is simulator sickness. The symptoms of simulator sickness can appear within minutes of exposure to perceived extreme motion. Kennedy, Lilienthal, Berbaum, Baltzley, and McCauley (1989) reported that between 10% and 60% of users of immersive displays experienced some symptoms of simulator sickness. This high incidence may ultimately be a major barrier to the adoption of fully immersive display systems.
+
+Simulator sickness is thought to be caused by conflicting cues from the visual system and the vestibular system of the inner ear. When most of the visual field moves, the brain usually interprets this as a result of self-motion. But, if the observer is in a simulator, no corresponding information comes from the vestibular system. According to this theory, the contradictory information results in nausea. There are ways to ensure that simulator sickness does occur and ways of reducing its effects. Turning the head repeatedly while moving in a simulated virtual vehicle is almost certain to induce nausea (DiZio & Lackner, 1992). This means that a virtual ride should never be designed in which the participant is expected to look from side to side while wearing a helmet-mounted display. Simulator sickness in immersive virtual environments can be mitigated by initially restricting the participant’s experience to short periods of exposure, lasting only a few minutes each day. This allows the user to build up a tolerance to the environment, and the periods of exposure can gradually be lengthened (McCauley & Sharkey, 1992).
+---
+Node: 071 Selecting and Positioning Objects in 3D
+Primary concept extracted from chunk
+## Selecting and Positioning Objects in 3D
+
+In some interactive 3D visualization environments, users must be able to reach in and manipulate objects, and designers of 3D display systems must make choices about which depth cues to include. In a full-blown virtual-reality system, the usual goal is to include all of the depth cues at the highest fidelity possible, but in practical systems for molecular modeling or 3D computer-aided design, various tradeoffs must be made.
+
+Two of the most important options are whether to use a stereoscopic display and whether to provide motion parallax through perspective coupled to head position. Both require an investment in technology not normally provided with computer workstations. The evidence suggests that, for accurate reaching, having a stereoscopic display is more important than the motion parallax that occurs through the motion of the user’s head (and hence eyes) with respect to the objects being selected (Arsenault & Ware, 2004; Boritz & Booth, 1998). Stereoscopic viewing has become a critical component of robotic systems used in microsurgery, where the surgeon sees a magnified view of the surgical site and where the surgeon’s hand motions are scaled down by robot manipulators to obtain greater precision.
+
+One of the purposes of tracking head (and eye) position is to get a correct perspective view to support eye-hand coordination. A number of researchers have investigated how eye-hand coordination changes when there is a mismatch between feedback from the visual sense and the proprioceptive sense of body position. A typical experiment involves subjects pointing at targets while wearing prisms that displace the visual image relative to the proprioceptive information from their muscles and joints. Subjects adapt rapidly to the prism displacement and point accurately. Work by Rossetti et al. (1993) suggests that there may be two mechanisms at work: a long-term, slow-acting mechanism that is capable of spatially remapping misaligned systems, and a short-term mechanism that is designed to realign the visual and proprioceptive systems within a fraction of a second. These results have been confirmed in studies with fish-tank virtual-reality systems, showing that a large translational offset between the hand position and the object being manipulated with the hand has only a small effect on performance (Ware & Rose, 1999).
+
+If they are large, rotational mismatches between what is seen and what is held may have a much greater negative impact on eye-hand coordination than translational mismatches. Experiments with prisms that invert the visual field have shown that it can take weeks to reach behavior approaching normal performance under this condition, and adaptation may never be complete (Harris, 1965).
+
+In visually guided hand movement, what seems to be most important is feedback about the relative positions of the graphical object representing the user’s hand (or a probe) and the object itself. The stereoscopic system is exquisitely tuned to depth differences but not to absolute depths. Indeed, one of the main reasons why humans have stereoscopic depth perception is to support visually guided reaching. Research has shown that as long as continuous visual feedback is provided, without excessive lag, people can adjust rapidly to simple changes in the eye-hand relationship (Held, Efstanthiou, and Green, 1966).
+
+Getting perfect registration between a user’s hand and a virtual object, as shown in Fig. 7.49, is very difficult. This suggests that it is better to show both the hand virtually or a virtual tool in the same space as a virtual object, rather than blend real-world and computer graphics imagery, because in this way it is easy to show the relative positions of the hand and object.
+
+[G7.21] Use stereoscopic viewing when visually guided hand movements are critically important. If possible, use a graphical proxy for the user’s hand and ensure accurate relative positioning between the hand proxy and the virtual objects to be manipulated.
+
+[G7.22] In 3D environments that support one-to-one mapping between the user’s hand and a virtual object, ensure that the relative positions of a hand proxy, such as a probe, and an object being reached for are correct. Also, minimize rotational mismatch (>30 degrees) between the virtual space and the actual space within which the user’s hand is moving.
+
+Actually providing a sense of physical contact with nearby objects is also important in calibrating the proprioceptive system, especially for grasping (Mackenzie & Iberall, 
+1994). Unfortunately, this component of natural hand-object interaction is proving very difficult to simulate, and, although force feedback devices can provide a sense of contact, they currently have limited capabilities.
+
+![image](images/f07-49-9780128128756.jpg)
+
+
+Figure 7.49 If both the hand proxy and the objects are virtual, it is easy to generate the correct relative positions of the hand and object.   
+Courtesy of Siena Robotics and Systems Lab. <http://sirslab.dii.unisi.it/>.
+---
+Node: 072 Judging the “up” Direction
+Primary concept extracted from chunk
+## Judging the “up” Direction
+
+In abstract 3D data spaces (for example, molecular models), there is often no sense of an “up” direction, and this can be confusing. In the natural environment, the “up” direction is defined by gravity and sensed by the vestibular system in the inner ear, by the presence of the ground on which we walk, and by oriented objects in our vicinity. Much of the research that has been done on perceived “up” and “down” directions has been done as part of space research, to help us understand how people can best orient themselves in a gravity-free environment. Nemire, Jacoby, and Ellis (1994) showed that linear perspective provides a strong cue in defining objects perceived at the same horizontal level. They showed that a linear grid pattern on the virtual floor and walls of a display strongly influenced what the participants perceived as horizontal; to some extent, this overrode the perception of gravity. Other studies have shown that placing recognizable objects in the scene very strongly influences a person’s sense of self-orientation. The presence of recognizable objects with a known normal orientation with respect to gravity, such as a chair or a standing person, can strongly influence which direction is perceived as up (Howard & Childerson, 1994). Both of these findings can easily be adapted to virtual environments.
+
+[G7.23] To define vertical polarity in a 3D data space, provide a clear reference ground plane and place recognizable objects on it that have a characteristic orientation with respect to gravity.
+---
+Node: 073 The Aesthetic Impression of 3D Space (Pr
+Primary concept extracted from chunk
+## The Aesthetic Impression of 3D Space (Presence)
+
+One of the most nebulous and ill-defined tasks related to 3D space perception is achieving a sense of presence. What is it that makes a virtual object or a whole environment seems vividly three dimensional? What is it that makes us feel that we are actually present in an environment? Much of presence has to do with a sense of engagement, and not necessarily with visual information. A reader of a powerfully descriptive novel may visualize (to use the word in its original cognitive sense) himself or herself in a world of the author’s imagination—for example, vividly imagining Ahab on the back of the great white whale, Moby-Dick.
+
+Presence might not seem to belong in a task-based classification of spatial information, being usually thought of as an ill-defined aesthetic quality, but in fact a number of practical applications require a sense of presence. For an architect designing a virtual building to present to a client, the feeling of spaciousness and the aesthetic quality of that space may be all-important. In virtual tourism, where the purpose is to give a potential traveler a sensation of what the Brazilian rain forest is really like, presence is also crucial.
+
+A number of studies have used virtual-reality techniques for phobia desensitization. In one study by North, North, and Coble (1996), patients who had a fear of open spaces (agoraphobia) were exposed to progressively more challenging virtual open spaces. The technique of progressive desensitization involves taking people closer and closer to the situations that cause them fear. As they overcome their fears at one level of exposure, they can be taken to a slightly more stressful situation. In this way, they can overcome their phobias, one step at a time. The reason for using virtual-reality simulations in phobia desensitization is to provide control over the degree of presence and to reduce the stress level by enabling the patient to exit the stressful environment instantaneously. After treatment in a number of virtual environments, the experimental subjects of North et al. scored lower on a standardized Subjective Units of Discomfort test.
+
+When developing a virtual-reality theme park attraction for Disneyland, Pausch et al. (1996) observed that high frame rate and high level of detail were especially important in creating a sense of presence for users “flying on a magic carpet.” Presenting a stereoscopic display did not enhance the experience. Empirical studies have also shown that high-quality structure-from-motion information contributes more to a sense of presence than does stereoscopic display (Arthur et al., 1993). The sense of presence, however, is not a single unified perceptual dimension. Hendrix and Barfield (1996) found stereoscopic viewing to be very important when subjects were asked to rate the extent to which they felt they could reach for and grasp virtual objects, but it did not contribute at all to the sense of the overall realism of the virtual condition. Hendrix and Barfield did find that having a large field of view was important to creating a sense of presence.
+
+[G7.24] To create a vivid sense of presence in a 3D data space, provide a large field of view, smooth motion, and a lot of visual detail.
+---
+Node: 074 Conclusion
+Primary concept extracted from chunk
+## Conclusion
+
+High-quality, interactive stereoscopic displays are now inexpensive, although even mediocre-quality virtual-reality systems are still expensive. Creating a 3D visualization environment is considerably more difficult than creating a 2D system with similar capabilities. We still lack design rules for 3D environments, and many interaction techniques are competing for adoption. The strongest argument for the ultimate ascendancy of 3D visualization systems, and 3D user interfaces in general, must be that we live in a 3D world and our brains have evolved to recognize and interact within 3D. The 3D design space is richer than the 2D design space, because a 2D space is a part of 3D space. It is always possible to flatten out part of a 3D display and represent it in 2D.
+
+Nevertheless, it also should be cautioned that going from 2D to 3D adds far less visual information than might be supposed. Consider the following simple argument. On a one-dimensional line of a computer display, we can perceive 1000 distinct pixels. On a 2D plane of the same display, we can display 1000 × 1000
+ 
+=
+ 
+1,000,000 pixels, but going to a 3D stereoscopic display only increases the number of pixels by a factor of 2, and this does not double the available information because the two images must be highly correlated for us to perceive stereoscopic depth. We may only be able to stereoscopically fuse images that differ by 10%, usually much less. This suggests a small increase in the amount of information through the use of stereo viewing.
+
+Of all the depth cues, motion parallax is the one most likely to enable us to see more information, but only for certain cognitive tasks. In the case of networks, a network several times larger can be perceived with stereo and motion parallax cues, although even here, if interaction with nodes is critical, interactive 2D methods are likely to be superior. The other depth cues, such as occlusion and linear perspective, certainly help us perceive a coherent 3D space, but as the study of Cockburn and McKenzie (2001) suggests, we should not automatically assume that 3D provides more readily accessible information. Most of the pattern-perception machinery of the visual system operates in 2D, not in 3D, and for this fundamental reason even when a 3D view is being used it is critical to understand what pattern information appears on the 2D image plane.
+
+Deciding whether or not to use a 3D display must involve deciding whether there are sufficient important subtasks for which 3D is clearly beneficial. The complexity and the consistency of the user interface for the whole application must be weighed in the decision. Even if 3D is better for one or two subtasks, the extra cost involved and the need for nonstandard interfaces for the 3D components may suggest that a 2D solution would be better overall. In terms of overall assessment, the cost of navigation is an essential component, and many 3D navigation methods are considerably slower than 2D alternatives. Even if we can show somewhat more information in 3D getting to the right viewpoint may be slow. In Chapter 10, we will resume the discussion of the value of 3D versus 2D displays by considering the various costs of interactively acquiring knowledge.
+---
+Node: Chapter Eight. Visual Objects and Data Objects
+Primary concept extracted from chunk
+# Chapter Eight. Visual Objects and Data Objects
+
+Chapter Eight
+
+# Visual Objects and Data Objects
+---
+Node: 076 Image-Based Object Recognition part1
+Primary concept extracted from chunk
+## Image-Based Object Recognition
+
+The image-based theory is supported by the fact that people have a truly remarkable ability to recognize pictorial images they have seen before. In an arduous experiment, Standing, Conezio, and Haber (1970) presented subjects with 2560 pictures at a rate of one every 10 seconds. This was like the family slide show from hell; it took more than 7 hours spread over a 4-day period to show them all. Amazingly, when subsequently tested, subjects were able to distinguish pictures from others not previously seen with better than 90% accuracy.
+
+It is important to make a distinction between recognition and recall. We have a great ability to recognize information that we have encountered before, as the picture memory experiment of Standing et al. shows. However, if we are asked to reconstruct visual scenes—for example, to recall what happened at a crime scene—our performance is much worse. Recognition is much better than recall. People did not really remember all of those pictures; they were only able to say, tentatively, that they might have seen them.
+
+People can also recognize objects in images that are presented very rapidly. Suppose you asked a group of people “Is there a dog in one of the following pictures?” and then showed them a set of images, rapidly, all in the same place, at a rate of 10 per second. Remarkably, they will be able to detect the presence, or absence, of a dog, somewhere in the sequence of images most of the time. This experimental technique is called rapid serial visual presentation (RSVP). Experiments have shown that the maximum rate for the ability to detect common objects in images is about 10 images per second (Potter, 1976; Potter & Levy, 1969). We should interpret this result cautiously. Although interesting, it does not mean that people processed more than a small amount of information from each image.
+
+A related phenomenon is attentional blink. If, in a series of images, a second dog were to appear in an image within 350
+ 
+ms of the first, people do not notice it (or anything else). This moment of blindness is the attentional blink (Coltheart, 1999). It is conjectured that the brain is still processing the first dog, even though the image is gone, and this prohibits the identification of other objects in the sequence.
+
+More support for image-based theories comes from studies showing that three-dimensional objects are recognized most readily if they are encountered from the same view direction as when they were initially seen. Johnson (2001) studied subjects’ abilities to recognize bent pipe structures. Subjects performed well if the same viewing direction was used in the initial viewing and in the test phase. They performed poorly if a different view direction was used in the test phase, but they were also quite good at identification from exactly the opposite view direction. Johnson attributed this unexpected finding to the importance of silhouette information. Silhouettes would have been similar, although flipped left-to-right from the initial view.
+
+### Searching an Image Database
+
+Presenting images rapidly in sequence (RSVP) may be a useful way to allow users to scan picture databases (De Bruijn, Spence, & Tong, 2000; Spence & Witkowski, 2013; Wittenburg, Ali-Ahmad, LaLiberte, & Lanning, 1998). The fact that people can search rapidly for an image in a sequence of up to 10 pictures per second suggests that presenting images using RSVP may be efficient. Contrast this with the usual method of presenting image collections in a regular grid of small thumbnail images. If it is necessary to make an eye movement to fixate each thumbnail image, it will not be possible to scan more than three to four images per second. Even though RSVP seems promising, there are a number of design problems that must be solved in building a practical interface. Once a likely candidate image is identified as being present in an RSVP sequence, the particular image must be extracted from the set. By the time a user responds with a mouse click several images will have passed, more if the user is not poised to press the stop button. Thus, either controls must be added for backing up through the sequence, or part of the sequence must be fanned out in a conventional thumbnail array to confirm that candidate’s presence and study it further (Spence, 2002; Wittenburg et al., 1998).
+
+The one place where RSVP has found actual application is in the rapid reviewing or fast forwarding of online movies. Rapid serial presentation may also provide a way of searching video content by viewing a quick sequence of selected frames (Tse, Marchionini, Ding, Slaughter, & Komlodi, 1998). Wildemuth et al. (2003) suggested that a speed up of 64× faster than the original video may be optimal in allowing viewers to get the gist of what is occurring. Video data compressed in this way might make it possible to review a day’s worth of video in a few minutes. Currently, most fast forwarding is not “smart” in that it does not select particularly representative video frames; but if it were this, it would likely be an improvement over what is available at the time of writing.
+
+### Surveillance Videos and Life Logging
+
+A form of RSVP can also have applications in the review of surveillance videos. In this case there are obvious gains to be had for intelligent preprocessing of the video material so that more interesting sequences are speeded up less (Huang, Chung, Yang, Chen, & Huang, 2014). Some gains are obvious and simple. Since much of surveillance video captures hours of empty corridors, these sections can be enormously condensed, and only sections where there is movement shown. More sophisticated methods will automatically distinguish human movement from the flickering shadows of a tree moving in the wind.
+
+It is becoming possible to have a personal memory data bank containing video and audio data collected during every waking moment through the course of a person’s lifetime. This can be achieved with an unobtrusive miniature camera, perhaps embedded in a pair of eyeglasses, and, assuming continuing progress in solid-state storage, the data can be stored in a device weighing a few ounces and costing a few hundred dollars (Gemmel et al., 2006). The implications of such life logging devices seem profound at first encounter; they appear to represent the ultimate memory aid—the user need never forget anything.
+
+A key issue, though, is the interface to the stored data. If we want to recall a meeting we know happened sometime in 2004 we clearly cannot replay the entire year’s worth of data to find the event, even very fast. But the most serious problem for the life logging concept is that seeing a video replay is not at all the same as remembering. A replay of some forgotten event, such as a meeting, will be more akin to a re-experience, one that occurs without the context of the goals of the person involved, even if it is oneself. When people review their own videos, they do not spontaneously remember what happened; instead, they must mentally reconstruct it (Sellen et al., 2007). A meaningful reconstruction of a particular meeting may require a review of videos of other activities for weeks prior to the event, together with relevant documents and e-mail communications between the participants. The result is that a reconstruction of a single meeting might take days of work if a well-designed interface to the data is available.
+
+Such arguments have led researchers to suggest that the main value of life logging is to jog the memory of the participant rather than being a substitute for memory. Accordingly, a study by Sellen et al. (2007) investigated the value of video imagery in helping people recall personal events using their SenseCam system. They found that a few days later SenseCam imagery roughly doubled the number of events that could be recalled, from two to four, for a particular half-day interval.
+
+### Memorability of Visualizations
+---
+Node: 076 Image-Based Object Recognition part2
+Primary concept extracted from chunk
+## Image-Based Object Recognition (Part 2)
+
+A pair of recent studies by Borkin et al. (2013, 2016) addressed the issue of what makes a visualization memorable after a brief exposure. The first had exposures of only 1
+ 
+second and this showed that having identifiable images in a visualization leads to an increase in recognition scores. This is not surprising, and they did not determine if 
+people actually remembered any meaningful information about the data being represented. The second experiment gave people a longer 10
+ 
+seconds exposure and followed up with questions regarding both whether people recognized that they had seen a visualization before and the extent to which they recalled meaningful content. The recall test was done with study participants viewing a blurred image so that they could not read text, data axes and other detailed information. The results showed that having images in a visualization significantly increased the likelihood of recognition and the quality of recall. The paper also stressed the importance of textual information, especially titles.
+
+Fig. 8.1 shows a comparison between the most recognizable visualization in and the least recognizable visualization in their study. The blurry overlays show where people fixated, in the encoding phase and in the recognition phase. Although this is only a single example, it is clear that people tend to fixated on the interesting images. Also, on recall they tended to place a fixation in each of the component panels, as well as directing fixations at the headings. They also stressed the importance of both data redundancy and message redundancy.
+
+### Object and Pattern Size for Optimal Identification
+
+Although most objects can easily be recognized independently of the size of the image on the retina, image size does have some effect. Fig. 8.2 illustrates this. When the picture is seen from a distance, the image of the Mona Lisa face dominates; when it is viewed up close, smaller objects become dominant and a gremlin, a bird, and a claw emerge. Experimental work by Biederman and Cooper (1992) suggests that the optimal size for recognizing a visual object is about 4–6 degrees of visual angle. This gives 
+a useful rule of thumb for the optimal size for rapid presentation of visual images so that we can best see the visual patterns contained in them.
+
+![image](images/f08-01-9780128128756.jpg)
+
+
+Figure 8.1 On the left is shown a highly memorable infographic whereas the one on the right is far less memorable. The overlaying colors show people directed their gaze during a brief inspection.   
+From Borkin et al. (2016). Reprinted with permission.
+
+![image](images/f08-02-9780128128756.jpg)
+
+
+Figure 8.2 When the image is viewed from a distance, the face dominates, but when looked at from 30
+ 
+cm the gremlin hiding in the shadows of the mouth and nose emerges. At this distance, the gremlin has a visual angle of about 4 degrees, optimal for seeing a pattern.   
+Adapted from the work of the Tel Aviv artist Victor Molev.
+
+Other work suggests that the optimal size for single objects may be even smaller. For example, Fig. 8.3 shows a set of images of aircraft used in a rapid identification study by Watson and Ahumada (2015). The results suggested that the optimal size was less than 2 degrees for efficient identification.
+
+[G8.1] For optimal identification, make important patterns and complex objects have a size of approximately 4–6 degrees of visual angle. For optimal detection, simple objects should be smaller <2 degrees. This is not a rigid requirement because there is only a gradual fall off in skill as we depart from the optimal.
+
+### Priming
+
+If you cognitively identify something, even if it is fleeting and irrelevant, you will identify it faster if you see it again in the near future (Bartram, 1974). This effect is called priming. Most studies of priming involve intervals between the two events of 
+minutes or hours, but Cave and Squire (1992) showed priming effects for picture naming that lasted for weeks.
+
+![image](images/f08-03-9780128128756.jpg)
+
+
+Figure 8.3 Images of aircraft used in a rapid identification study by Watson and Ahumada (2015).   
+
+From Watson and Andrew Watson (2015). Reprinted with permssion
+
+Priming effects can occur even if information is not consciously perceived, and because of this priming is sometimes called implicit memory. Bar and Biederman (1998) exposed pictorial images to subjects so briefly that it was impossible for them to identify the objects. They followed the brief image exposure with what is called a visual mask, a random pattern shown immediately after the target stimulus to remove the target from the visual iconic store (a short-term buffer that holds the visual image for a fraction of a second), and they rigorously tested to show that subjects performed at chance levels when reporting what they had seen. Nevertheless, 15 minutes later, this unperceived exposure substantially increased the chance of recognition. Although the information was not consciously perceived, exposure to the particular combination of image features apparently primed the visual system to make subsequent recognition easier. They found that the priming effect decreased substantially if the imagery was displaced sideways. They concluded that the mechanism of priming is highly image dependent and not based on high-level semantic information.
+
+Lawson, Humphreys, and Watson (1994) devised a series of experiments in which subjects were required to identify a specified object in a series of briefly presented pictures. Recognition was much easier if subjects had been primed by visually similar images that were not representations of semantically related objects. They argued that this should not be the case if objects are recognized on the basis of a high-level, 3D structural model of the kind that we will discuss later in this chapter; only image-based storage can account for their results. All of this adds support to the image-based theory of object recognition, because the effects are based on two-dimensional (2D) image information.
+---
+Node: 077 Structure-Based Object Recognition
+Primary concept extracted from chunk
+## Structure-Based Object Recognition
+
+Image-based theories of object recognition imply a rather superficial level of analysis of visual objects, but there is evidence that a much deeper kind of structural analysis must also occur. Fig. 8.4 shows two novel objects, probably never seen by the reader 
+before. Yet, despite the fact that the images in Fig. 8.4(a) and (c) are very different from one another, they can be rapidly recognized as representations of the same object. No image-based theory can account for this result; it can only be based on a structural analysis of the relationships of the component parts.
+
+![image](images/f08-04-9780128128756.jpg)
+
+
+Figure 8.4 The object shown in (a) seems most similar to the object shown in (c), despite the fact that the images of (a) and (b) are most similar.
+
+### Geon Theory
+
+Fig. 8.5 provides a somewhat simplified overview of a neural network model of structural object perception, developed by Hummel and Biederman (1992). This theory proposes a hierarchical set of processing stages leading to object recognition. Visual information is decomposed first into edges, then into component axes, oriented blobs, and vertices. At the next layer, 3D primitives such as cones, cylinders, and boxes, called geons, are identified. A selection of geons is illustrated in Fig. 8.6(a). Next, the structure is extracted that specifies how the geon components interconnect; for example, in a human figure, the arm cylinder is attached near the top of the torso box. Finally, object recognition is achieved.
+
+### Silhouettes
+
+Silhouettes appear to be especially important in determining how we perceive the structure of objects. The fact that simplified line drawings are often silhouettes may, in part, account for our ability to interpret them. At some level of perceptual processing, the silhouette boundaries of objects and the simplified line drawings of those objects excite the same neural contour extraction mechanisms. Halverston (1992) noted that modern children tend to draw objects on the basis of the most salient silhouettes, as did early cave artists. Many objects have particular silhouettes that are easily recognizable—think of a teapot, a shoe, a church, a person, or a violin. These canonical silhouettes are based on a particular view of an object, often from a point at right angles to a major plane of symmetry. Fig. 8.7 illustrates canonical views of a teapot and a person.
+
+David Marr suggested ways in which the brain might use silhouette information to extract the structures of objects (Marr, 1982). He argued that “buried deep in our perceptual machinery” are mechanisms that contain constraints determining how silhouette information is interpreted.
+
+![image](images/f08-05-9780128128756.jpg)
+
+
+Figure 8.5 A simplified view of Hummel and Biederman′s (1992) neural network model of form perception.
+
+Three rules are embedded in this perceptual machinery:
+
+* 1. Each line of sight making up a silhouette grazes the surface exactly once. The set of such points is the contour generator. The idea of the contour generator is illustrated in Fig. 8.8.
+* 2. Nearby points on the contour of an image arise from nearby points on the contour generator of the viewed object.
+* 3. All the points on the contour generator lie on a single plane.
+
+![image](images/f08-06-9780128128756.jpg)
+
+
+Figure 8.6 According to Biederman’s geon theory, the visual system interprets 3D objects by identifying 3D component parts called geons. (a) A sample of geons. (b) A human figure constructed from geons.
+
+![image](images/f08-07-9780128128756.jpg)
+
+
+Figure 8.7 Many objects have canonical silhouettes, defined by the viewpoints from which they are most easily recognized. In the case of the man, the overall posture is unnatural, but the component parts—hands, feet, head, etc.—are all given in canonical views.
+
+Under Marr’s default assumptions, contour information is used in segmenting an image into its component solids. Marr and Nishihara (1978) suggested that concave sections of the silhouette contour are critical in defining the ways in which different solid parts are perceptually defined. Fig. 8.9 illustrates a crudely drawn animal that we nevertheless readily segment into head, body, neck, legs, and so on. The most important features for this segmentation are concavities in the silhouette. Marr and Nishihara also proposed that the axes of the parts become cognitively connected to form a structural skeleton, so the object description consists of component parts and a description of how they are connected.
+
+![image](images/f08-08-9780128128756.jpg)
+
+
+Figure 8.8 According to Marr, the perceptual system makes assumptions that occluding contours are smoothly connected and lie in the same plane.   
+Adapted from Marr (1982).
+
+![image](images/f08-09-9780128128756.jpg)
+
+
+Figure 8.9 Concave sections of the silhouette define subparts of the object and are used in the construction of a structural skeleton.   
+Redrawn from Marr and Nishihara (1978))
+
+One of the consequences of structural theories of perception is that certain simplified views should be easier to read. There are practical advantages to this; for example, a clear diagram may sometimes be more effective than a photograph. This is exactly what Ryan and Schwartz (1956) showed when they found that a hand could be perceived more rapidly in the form of a simplified line drawing than in the form of a photograph (see Fig. 8.10), but this result should not be overgeneralized. Other studies have shown that time is required for detailed information to be perceived (Price & Humphreys, 1989; Venturino & Gagnon, 1992). Simplified line drawings may be most appropriate only when rapid responses are required.
+
+Although image-based theories and structure-based theories of object recognition are usually presented as alternatives, it may be that both kinds of processes occur. If geons are extracted based on concavities in the silhouette, certain views of a complex object will be much easier to recognize. Further, it may well be that viewpoint-dependent aspects of the visual image are stored in addition to the 3D structure of the object. Indeed, it seems likely that the brain is capable of storing many kinds of information about an object or scene if they have some usefulness. The implication is that, even though 3D objects in a diagram may be more effective in some cases, care should be taken to provide a good 2D layout. Both image-based cues and structural cues should be clearly presented.
+---
+Node: 078 The Object Display and Object-Based Diag part1
+Primary concept extracted from chunk
+## The Object Display and Object-Based Diagrams
+
+Wickens (1992) is primarily responsible for the concept of an object display as a graphical device employing a “single contoured object” to integrate a large number of separate variables. Wickens theorized that mapping many data variables onto a single object 
+will guarantee that these variables are processed together, in parallel. This approach, he claimed, has two distinct advantages. The first is that the display can reduce visual clutter by integrating the variables into a single visual object. The second is that the object display makes it easier for an operator to integrate multiple sources of information.
+
+![image](images/f08-10-9780128128756.jpg)
+
+
+Figure 8.10 A photograph and a simplified line drawing of a hand. Ryan and Schwartz (1956) showed that a cartoon drawing was recognized more rapidly than a photograph.
+
+Generally, object displays will be most effective when the components of the objects have a natural or metaphorical relationship to the data being represented. Fig. 8.11 shows an object display developed for anesthesiologists working in operating theaters. It is the responsibility of anesthesiologists to monitor the output from a large number of sensors attached to a patient and from the reading to infer the state of the patient, especially relating to the delivery of oxygen to the brain through the cardiovascular system. George Blike and his coworkers developed a display that maps these instrument readings to a set of complex glyphs as illustrated in the figure (Blike, Surgenor, & Whalen, 1999). The central glyph represents the heart and this incorporates four different measurements. The height of the glyph represents the volume pumped by a single heart-beat, and its width represents the heart rate (number of beats per minute). The glyph size is an emergent property showing overall heart throughput. The bowing or bulging of the sides of the heart object is produced from two cleverly transformed measurements, the pulmonary wedge pressure (PWP) and the central venous pressure (CVP), representing the pressure in the left- and right-hand sides of the heart, respectively. These control the degree of convexity or concavity on each side of the glyph in such a way that a concave shape is the result of too low pressure and a convex shape is the result of too high pressure. This provides an intuitive visual metaphor for these variables. The display enables an anesthesiologist to rapidly diagnose problems such as an embolism (blockage) or hemorrhage, and the laterality of the bulge or concavity indicate where they are occurring. In an evaluation study comparing this display with a more conventional display, errors were reduced by 66%.
+
+In the Blike design, the object display has a number of clear advantages. It can reduce accidental misreadings of data values. Mistakes are less likely because components act as their own descriptive icons. In addition, the structural architecture of the system and the connections between system components are always visible, and this may help in diagnosing the causes and effects of problems.
+
+![image](images/f08-11-9780128128756.jpg)
+
+
+Figure 8.11 An object display designed for use by anesthesiologists (Blike et al., 1999).   
+(© Draeger Medical Systems, Inc. All rights reserved. Not to be reproduced without written permission.)
+
+The disadvantage of object displays is that they lack generality; an object display must be custom designed for each specific application, which means that they are only appropriate when a great deal of effort can be devoted to a careful design. Object displays should be validated with a user population to ensure that the data representation is clear and properly interpreted. This requires far more effort than displaying data as a table of numbers or a simple bar chart.
+
+[G8.2] Consider using an object display where standardized sets of data must be repeatedly analyzed and where the data can be mapped to semantically meaningful objects. This method is only suitable for customized applications.
+
+The general properties of an effective object display are summarized in the following guidelines.
+
+[G8.3] Design object displays in such a way that numbers are tied to recognizable visual objects representing system components.
+
+[G8.4] Design object display layouts using connecting elements that clearly indicate the physical connections between components of a system.
+
+[G8.5] Design object display glyphs to have emergent properties revealing the effect of important interactions between variables.
+
+[G8.6] Design object display glyphs to become more salient when critical values are reached in the data.
+
+### The Geon Diagram
+
+Biederman’s geon theory, outlined earlier, can be applied directly to object display design. If cylinders and cones are indeed perceptual primitives, it makes sense to construct diagrams using these geon elements. This should make the diagrams easy to interpret if a good mapping can be found from the data to a geon structure. The geon diagram concept is illustrated in Fig. 8.12. Geons are used to represent the major components of a compound data object, whereas the architecture of the data object is represented by the structural skeleton linking the geons. The size of a geon becomes a natural metaphor for the relative importance of a data entity or its complexity or relative value. The strength of the connections between the components is given by the neck-like linking structures. Additional attributes of entities and relationships can be coded by coloring and texturing. Research suggests that such diagrams can be easier to interpret and remember (Irani, Tingley, & Ware, 2001).
+
+In Biederman’s theory, surface properties of geons, such as their colors and textures, are secondary characteristics. This makes it natural to use the surface color and texture of the geon to represent data attributes of a data object. Abstract semantics may be expressible, in a natural way, through the way geons are interconnected. In the everyday environment there is meaning to the relative positioning of objects that is understood at a deep, possibly innate level. Because of gravity, above is different from below. 
+If one object is inside another transparent object, it is perceived either as contained by that other object or as a part of it. Irani et al. (2001) suggested that the semantics inherent in the different kinds of relationships of real-world objects might be applied to diagramming abstract concepts. Based on this idea, the researchers developed a set of graphical representations of abstract concepts. Some of the more successful of these mappings are illustrated in Fig. 8.12 and listed as follows. However, only some of these are given formal status as guidelines.
+
+![image](images/f08-12-9780128128756.jpg)
+
+
+Figure 8.12 Certain spatial relationships between objects can readily represent abstract concepts. (a) That objects belong to the same class is better shown by shape than by color. (b) A part-of relationship. (c) A dependency relationship. (d) Strong and weak relationships.
+---
+Node: 078 The Object Display and Object-Based Diag part2
+Primary concept extracted from chunk
+## The Object Display and Object-Based Diagrams (Part 2)
+
+* •Sometimes we wish to show different instances of the same generic object. Geon theory predicts that having the same shape should be the best way of doing this. Geon shape is dominant over color, which is a secondary attribute. Thus, the elbow shapes in Fig. 8.12(a) are seen as two instances of the same object, whereas the two green objects are not.
+* •Having an object inside another transparent object is a natural representation of a part-of relationship. The inside objects seem part of the outside object, as seen in Fig. 8.12(b).
+* •One object above and touching another, as shown in Fig. 8.12(c), is easily understood as representing a dependency relationship.
+* •A thick bar between two objects is a natural representation of a strong relationship between two objects; a thinner, transparent bar represents a weak relationship. See Fig. 8.12(d). Although the geon diagram is a 3D representation, there are reasons to pay special attention to the way it is laid out in 2D in the x, y plane. As discussed earlier, some silhouettes are especially effective in allowing the visual system to extract object structure. A commonsense design rule is to lay out structural components principally on a single plane. A diagramming method resembling the bas-relief stone carvings common in classical Rome and Greece may be optimal. Such carvings contain careful 3D modeling of the component objects, combined with only limited depth and a mainly planar layout.
+
+[G8.7] Consider representing system components using geons—simple 3D shaded objects such as spheres, cylinders, cones, and boxes.
+
+[G8.8] Consider using the color and surface texture of geons to represent secondary attributes of represented entities.
+
+[G8.9] Consider using a geon-based diagram in instances where the diagram is relatively simple, fewer than 30 components, and where entities and relationships must be shown.
+
+[G8.10] Consider representing relationships between components by means of joints between objects. Tubes can be used to express certain types of relations. A small geon attached to a larger geon can show that it is a component part.
+
+[G8.11] Consider using geon shapes to represent the primary attribute of represented entities.
+
+[G8.12] Consider placing an object inside a second transparent object to express a part of relationship.
+
+[G8.13] When creating 3D diagrams, lay out system components as much as possible in a 2D plane orthogonal to the line of sight. Be sure that connections between diagram components are clearly visible.
+
+[G8.14] When creating diagrams showing entities and relationships, use properties such as size and thickness to represent the strength of the relationship between entities.

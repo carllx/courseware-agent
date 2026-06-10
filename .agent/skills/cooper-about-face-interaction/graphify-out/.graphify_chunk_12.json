@@ -1,0 +1,280 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_276_establishing_a_creative_cultur_creative_culture",
+      "label": "Creative Culture",
+      "file_type": "concept",
+      "source_file": "chunk_276_Establishing_a_Creative_Cultur.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_277_identifying_skill_levels_in_de_design_skill_levels",
+      "label": "Design Skill Levels",
+      "file_type": "concept",
+      "source_file": "chunk_277_Identifying_Skill_Levels_in_De.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_282_design_values_design_values",
+      "label": "Design Values",
+      "file_type": "concept",
+      "source_file": "chunk_282_Design_Values.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_283_ethical_interaction_design_ethical_design",
+      "label": "Ethical Interaction Design",
+      "file_type": "concept",
+      "source_file": "chunk_283_Ethical_interaction_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_286_purposeful_interaction_design_purposeful_design",
+      "label": "Purposeful Interaction Design",
+      "file_type": "concept",
+      "source_file": "chunk_286_Purposeful_interaction_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_287_pragmatic_interaction_design_pragmatic_design",
+      "label": "Pragmatic Interaction Design",
+      "file_type": "concept",
+      "source_file": "chunk_287_Pragmatic_interaction_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_288_elegant_interaction_design_elegant_design",
+      "label": "Elegant Interaction Design",
+      "file_type": "concept",
+      "source_file": "chunk_288_Elegant_interaction_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_284_do_no_harm_kem_laurin_kramer",
+      "label": "Kem-Laurin Kramer",
+      "file_type": "concept",
+      "source_file": "chunk_284_Do_no_harm.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_284_do_no_harm_user_experience_in_the_age_of_sustainability",
+      "label": "User Experience in the Age of Sustainability",
+      "file_type": "document",
+      "source_file": "chunk_284_Do_no_harm.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_292_interaction_design_principles_interaction_design_principles",
+      "label": "Interaction Design Principles",
+      "file_type": "concept",
+      "source_file": "chunk_292_Interaction_Design_Principles.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_295_interaction_design_patterns_interaction_design_patterns",
+      "label": "Interaction Design Patterns",
+      "file_type": "concept",
+      "source_file": "chunk_295_Interaction_Design_Patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_296_architectural_patterns_and_int_christopher_alexander",
+      "label": "Christopher Alexander",
+      "file_type": "concept",
+      "source_file": "chunk_296_Architectural_patterns_and_int.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_296_architectural_patterns_and_int_a_pattern_language",
+      "label": "A Pattern Language",
+      "file_type": "document",
+      "source_file": "chunk_296_Architectural_patterns_and_int.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_297_recording_and_using_interactio_jenifer_tidwell",
+      "label": "Jenifer Tidwell",
+      "file_type": "concept",
+      "source_file": "chunk_297_Recording_and_using_interactio.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_297_recording_and_using_interactio_designing_interfaces",
+      "label": "Designing Interfaces",
+      "file_type": "document",
+      "source_file": "chunk_297_Recording_and_using_interactio.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_300_desktop__organizer_workspace_desktop_organizer_workspace",
+      "label": "Desktop Organizer-Workspace Pattern",
+      "file_type": "concept",
+      "source_file": "chunk_300_Desktop__Organizer_Workspace.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_284_do_no_harm_kem_laurin_kramer",
+      "target": "about_face_chunks_chunk_284_do_no_harm_user_experience_in_the_age_of_sustainability",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_284_Do_no_harm.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_296_architectural_patterns_and_int_christopher_alexander",
+      "target": "about_face_chunks_chunk_296_architectural_patterns_and_int_a_pattern_language",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_296_Architectural_patterns_and_int.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_297_recording_and_using_interactio_jenifer_tidwell",
+      "target": "about_face_chunks_chunk_297_recording_and_using_interactio_designing_interfaces",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_297_Recording_and_using_interactio.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_300_desktop__organizer_workspace_desktop_organizer_workspace",
+      "target": "about_face_chunks_chunk_295_interaction_design_patterns_interaction_design_patterns",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_300_Desktop__Organizer_Workspace.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_282_design_values_design_values",
+      "target": "about_face_chunks_chunk_283_ethical_interaction_design_ethical_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_282_Design_Values.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_282_design_values_design_values",
+      "target": "about_face_chunks_chunk_286_purposeful_interaction_design_purposeful_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_282_Design_Values.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_282_design_values_design_values",
+      "target": "about_face_chunks_chunk_287_pragmatic_interaction_design_pragmatic_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_282_Design_Values.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_282_design_values_design_values",
+      "target": "about_face_chunks_chunk_288_elegant_interaction_design_elegant_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_282_Design_Values.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "about_face_chunks_hyper_design_values",
+      "label": "Design Values Core",
+      "nodes": [
+        "about_face_chunks_chunk_283_ethical_interaction_design_ethical_design",
+        "about_face_chunks_chunk_286_purposeful_interaction_design_purposeful_design",
+        "about_face_chunks_chunk_287_pragmatic_interaction_design_pragmatic_design",
+        "about_face_chunks_chunk_288_elegant_interaction_design_elegant_design"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_282_Design_Values.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

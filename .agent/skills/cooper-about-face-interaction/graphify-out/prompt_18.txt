@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=18, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_18.json
+FILES:
+/private/tmp/about_face_chunks/chunk_426_Modal_excise.md
+/private/tmp/about_face_chunks/chunk_427_Errors__notifiers__and_confirm.md
+/private/tmp/about_face_chunks/chunk_428_Making_users_ask_permission.md
+/private/tmp/about_face_chunks/chunk_429_Stylistic_excise.md
+/private/tmp/about_face_chunks/chunk_430_Excise_Is_Contextual.md
+/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md
+/private/tmp/about_face_chunks/chunk_432_Reduce_the_number_of_places_to.md
+/private/tmp/about_face_chunks/chunk_433_Provide_signposts.md
+/private/tmp/about_face_chunks/chunk_434_Menu.md
+/private/tmp/about_face_chunks/chunk_435_Toolbars.md
+/private/tmp/about_face_chunks/chunk_436_Other_interface_signposts.md
+/private/tmp/about_face_chunks/chunk_437_Provide_overviews.md
+/private/tmp/about_face_chunks/chunk_438_Properly_map_controls_to_funct.md
+/private/tmp/about_face_chunks/chunk_439_Avoid_hierarchies.md
+/private/tmp/about_face_chunks/chunk_440_Don_t_replicate_Mechanical_Age.md
+/private/tmp/about_face_chunks/chunk_441_Other_Common_Excise_Traps.md
+/private/tmp/about_face_chunks/chunk_442_METAPHORS__IDIOMS__AND_AFFORDA.md
+/private/tmp/about_face_chunks/chunk_443_Interface_Paradigms.md
+/private/tmp/about_face_chunks/chunk_444_Implementation_centric_interfa.md
+/private/tmp/about_face_chunks/chunk_445_Metaphoric_interfaces.md
+/private/tmp/about_face_chunks/chunk_446_Instinct__intuition__and_learn.md
+/private/tmp/about_face_chunks/chunk_447_The_tyranny_of_the_global_meta.md
+/private/tmp/about_face_chunks/chunk_448_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_449_Other_limitations_of_metaphors.md
+/private/tmp/about_face_chunks/chunk_450_Exceptions_to_the_rule.md

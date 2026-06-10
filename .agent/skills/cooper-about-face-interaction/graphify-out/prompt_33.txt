@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=33, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_33.json
+FILES:
+/private/tmp/about_face_chunks/chunk_801_Page_Based_Interactions.md
+/private/tmp/about_face_chunks/chunk_802_Navigation_and_wayfinding.md
+/private/tmp/about_face_chunks/chunk_803_Primary_navigation.md
+/private/tmp/about_face_chunks/chunk_804_Secondary_navigation_and_beyon.md
+/private/tmp/about_face_chunks/chunk_805_Room_Board.md
+/private/tmp/about_face_chunks/chunk_806_Office.md
+/private/tmp/about_face_chunks/chunk_807_The_corner_office.md
+/private/tmp/about_face_chunks/chunk_808_Content_navigation.md
+/private/tmp/about_face_chunks/chunk_809_Searching.md
+/private/tmp/about_face_chunks/chunk_810_Software_Solutions_L_L_C.md
+/private/tmp/about_face_chunks/chunk_811_Microsoft_Software_Sale.md
+/private/tmp/about_face_chunks/chunk_812_Download_Software_Select.md
+/private/tmp/about_face_chunks/chunk_813_Computer_Software.md
+/private/tmp/about_face_chunks/chunk_814_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_815_Scrolling.md
+/private/tmp/about_face_chunks/chunk_816_The_header_and_footer.md
+/private/tmp/about_face_chunks/chunk_817_Paging_versus_infinite_scrolli.md
+/private/tmp/about_face_chunks/chunk_818_The_Mobile_Web.md
+/private/tmp/about_face_chunks/chunk_819_The_Future.md
+/private/tmp/about_face_chunks/chunk_820_Notes.md
+/private/tmp/about_face_chunks/chunk_821_DESIGN_DETAILS__CONTROLS_AND_D.md
+/private/tmp/about_face_chunks/chunk_822_Controls.md
+/private/tmp/about_face_chunks/chunk_823_Imperative_controls.md
+/private/tmp/about_face_chunks/chunk_824_Buttons.md
+/private/tmp/about_face_chunks/chunk_825_Icon_buttons.md

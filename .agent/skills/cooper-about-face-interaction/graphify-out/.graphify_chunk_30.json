@@ -1,0 +1,507 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_726_handheld_format_apps_handheld_format_apps",
+      "label": "Handheld format apps",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_726_Handheld_format_apps.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Eschew complexities of window management for full-screen applications to make better use of limited real estate."
+    },
+    {
+      "id": "about_face_chunks_chunk_727_stacks_stacks",
+      "label": "Stacks",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_727_Stacks.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Vertically organized structures with content area, usually list or grid, with top/bottom bar. Primary pattern for non-game mobile apps."
+    },
+    {
+      "id": "about_face_chunks_chunk_728_screenrousels_screen_carousels",
+      "label": "Screen carousels",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_728_Screenrousels.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Alternative top-level pattern for dashboard-like displays. Navigate via horizontal swipe."
+    },
+    {
+      "id": "about_face_chunks_chunk_729_orientation_and_layout_orientation",
+      "label": "Orientation and layout",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_729_Orientation_and_layout.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Dynamically rearrange layout for portrait vs landscape. Portrait is usually preferred for one-handed operation."
+    },
+    {
+      "id": "about_face_chunks_chunk_730_tablet_format_apps_tablet_format_apps",
+      "label": "Tablet format apps",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_730_Tablet_format_apps.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "More screen real estate allows for complex layouts like index panes and pop-up control panels."
+    },
+    {
+      "id": "about_face_chunks_chunk_731_stacks_and_index_panes_index_panes",
+      "label": "Index panes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_731_Stacks_and_index_panes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Additional pane on tablets listing content items to eliminate a level of drill-down."
+    },
+    {
+      "id": "about_face_chunks_chunk_732_pop_up_control_panels_pop_up_control_panels",
+      "label": "Pop-up control panels",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_732_Pop_up_control_panels.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Replace full-screen navigation on tablets. Attached to a specific control with a speech balloon caret."
+    },
+    {
+      "id": "about_face_chunks_chunk_733_orientation_based_layout_orientation_based_layout",
+      "label": "Orientation-based layout",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_733_Orientation_based_layout.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_734_mobile_versus_desktop_like_lay_desktop_like_layout",
+      "label": "Desktop-like layout",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_734_Mobile_versus_desktop_like_lay.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Appropriate for complex productivity/creative apps on tablets."
+    },
+    {
+      "id": "about_face_chunks_chunk_735_hardware_like_control_layout_hardware_like_control_layout",
+      "label": "Hardware-like control layout",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_735_Hardware_like_control_layout.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_736_mini_tablet_format_apps_mini_tablet_format_apps",
+      "label": "Mini-tablet format apps",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_736_Mini_tablet_format_apps.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Middle ground between phone and tablet; requires careful use of grids, swimlanes, and pop-up dialogs."
+    },
+    {
+      "id": "about_face_chunks_chunk_737_mobile_navigation__content__an_mobile_idioms",
+      "label": "Mobile Navigation, Content, and Control Idioms",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_737_Mobile_Navigation__Content__an.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_738_browse_controls_browse_controls",
+      "label": "Browse controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_738_Browse_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Mobile apps optimized for browsing over data entry."
+    },
+    {
+      "id": "about_face_chunks_chunk_739_lists_lists",
+      "label": "Lists",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_739_Lists.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Most frequently used pattern for handhelds. Can be finite or infinite scrolling."
+    },
+    {
+      "id": "about_face_chunks_chunk_740_grids_grids",
+      "label": "Grids",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_740_Grids.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Organize content like photos or albums into regular rows and columns."
+    },
+    {
+      "id": "about_face_chunks_chunk_741_contentrousels_content_carousels",
+      "label": "Content carousels",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_741_Contentrousels.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Horizontal swipe to navigate objects within a single screen. Should wrap circularly."
+    },
+    {
+      "id": "about_face_chunks_chunk_742_swimlanes_swimlanes",
+      "label": "Swimlanes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_742_Swimlanes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Vertical stack of carousels. Combines browsability of carousels with data density of grids."
+    },
+    {
+      "id": "about_face_chunks_chunk_743_cards_cards",
+      "label": "Cards",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_743_Cards.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Self-contained interactive objects combining media, text, links, and social actions."
+    },
+    {
+      "id": "about_face_chunks_chunk_744_navigation_and_tool_bars_bars",
+      "label": "Bars",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_744_Navigation_and_tool_bars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Narrow horizontal regions for navigating or executing functions."
+    },
+    {
+      "id": "about_face_chunks_chunk_745_tab_bars_tab_bars",
+      "label": "Tab bars",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_745_Tab_bars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Switch between different list or grid views. Maintain content hierarchy state."
+    },
+    {
+      "id": "about_face_chunks_chunk_746_more____controls_more_controls",
+      "label": "More... controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_746_More____controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Overcome limited screen real estate by housing additional navigation or functions."
+    },
+    {
+      "id": "about_face_chunks_chunk_747_tabrousels_tab_carousels",
+      "label": "Tab carousels",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_747_Tabrousels.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Horizontally swipable carousel of tabs."
+    },
+    {
+      "id": "about_face_chunks_chunk_748_nav_bars_and_action_bars_nav_bars",
+      "label": "Nav bars and action bars",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_748_Nav_bars_and_action_bars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Top-of-screen bars for hierarchy navigation, often including back button and title."
+    },
+    {
+      "id": "about_face_chunks_chunk_749_tool_bars_and_palettes_tool_bars",
+      "label": "Tool bars and palettes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_749_Tool_bars_and_palettes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Execute functions on current content. Palettes access tools for documents."
+    },
+    {
+      "id": "about_face_chunks_chunk_750_vertical_tool_bars_and_palette_vertical_tool_bars",
+      "label": "Vertical tool bars",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_750_Vertical_tool_bars_and_palette.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Left or right edge tool bars for complex tablet apps."
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_726_handheld_format_apps_handheld_format_apps",
+      "target": "about_face_chunks_chunk_727_stacks_stacks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_726_Handheld_format_apps.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_726_handheld_format_apps_handheld_format_apps",
+      "target": "about_face_chunks_chunk_728_screenrousels_screen_carousels",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_728_Screenrousels.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_730_tablet_format_apps_tablet_format_apps",
+      "target": "about_face_chunks_chunk_727_stacks_stacks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_731_Stacks_and_index_panes.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_730_tablet_format_apps_tablet_format_apps",
+      "target": "about_face_chunks_chunk_731_stacks_and_index_panes_index_panes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_731_Stacks_and_index_panes.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_730_tablet_format_apps_tablet_format_apps",
+      "target": "about_face_chunks_chunk_732_pop_up_control_panels_pop_up_control_panels",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_732_Pop_up_control_panels.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_736_mini_tablet_format_apps_mini_tablet_format_apps",
+      "target": "about_face_chunks_chunk_732_pop_up_control_panels_pop_up_control_panels",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_736_Mini_tablet_format_apps.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_742_swimlanes_swimlanes",
+      "target": "about_face_chunks_chunk_741_contentrousels_content_carousels",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_742_Swimlanes.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_742_swimlanes_swimlanes",
+      "target": "about_face_chunks_chunk_740_grids_grids",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_742_Swimlanes.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_743_cards_cards",
+      "target": "about_face_chunks_chunk_740_grids_grids",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_743_Cards.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_743_cards_cards",
+      "target": "about_face_chunks_chunk_742_swimlanes_swimlanes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_743_Cards.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_744_navigation_and_tool_bars_bars",
+      "target": "about_face_chunks_chunk_745_tab_bars_tab_bars",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_744_Navigation_and_tool_bars.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_744_navigation_and_tool_bars_bars",
+      "target": "about_face_chunks_chunk_748_nav_bars_and_action_bars_nav_bars",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_744_Navigation_and_tool_bars.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_744_navigation_and_tool_bars_bars",
+      "target": "about_face_chunks_chunk_749_tool_bars_and_palettes_tool_bars",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_744_Navigation_and_tool_bars.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_747_tabrousels_tab_carousels",
+      "target": "about_face_chunks_chunk_745_tab_bars_tab_bars",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_747_Tabrousels.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_747_tabrousels_tab_carousels",
+      "target": "about_face_chunks_chunk_741_contentrousels_content_carousels",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_747_Tabrousels.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_746_more____controls_more_controls",
+      "target": "about_face_chunks_chunk_745_tab_bars_tab_bars",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_746_More____controls.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_739_lists_lists",
+      "target": "about_face_chunks_chunk_740_grids_grids",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_739_Lists.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "browse_patterns",
+      "label": "Browse Patterns",
+      "nodes": [
+        "about_face_chunks_chunk_739_lists_lists",
+        "about_face_chunks_chunk_740_grids_grids",
+        "about_face_chunks_chunk_741_contentrousels_content_carousels",
+        "about_face_chunks_chunk_742_swimlanes_swimlanes",
+        "about_face_chunks_chunk_743_cards_cards"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_738_Browse_controls.md"
+    },
+    {
+      "id": "bar_patterns",
+      "label": "Bar Patterns",
+      "nodes": [
+        "about_face_chunks_chunk_744_navigation_and_tool_bars_bars",
+        "about_face_chunks_chunk_745_tab_bars_tab_bars",
+        "about_face_chunks_chunk_748_nav_bars_and_action_bars_nav_bars",
+        "about_face_chunks_chunk_749_tool_bars_and_palettes_tool_bars",
+        "about_face_chunks_chunk_750_vertical_tool_bars_and_palette_vertical_tool_bars"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_744_Navigation_and_tool_bars.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

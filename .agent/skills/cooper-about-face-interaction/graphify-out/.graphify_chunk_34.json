@@ -1,0 +1,522 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_826_hyperlinks_hyperlinks",
+      "label": "Hyperlinks",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_826_Hyperlinks.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Use links for navigation and buttons for action."
+    },
+    {
+      "id": "about_face_chunks_chunk_827_selection_controls_selection_controls",
+      "label": "Selection Controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_827_Selection_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Allow user to choose a noun from a group or configure actions."
+    },
+    {
+      "id": "about_face_chunks_chunk_828_check_boxes_check_boxes",
+      "label": "Check Boxes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_828_Check_boxes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "For single binary choice or selecting from a short list."
+    },
+    {
+      "id": "about_face_chunks_chunk_829_toggle_buttons_toggle_buttons",
+      "label": "Toggle Buttons",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_829_Toggle_buttons.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Superseding check box as single-selection idiom, space-efficient."
+    },
+    {
+      "id": "about_face_chunks_chunk_830_state_switching_buttons__an_id_state_switching_buttons",
+      "label": "State-Switching Buttons",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_830_State_switching_buttons__an_id.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Avoid this idiom. Confusion between state indicator and state-switching control."
+    },
+    {
+      "id": "about_face_chunks_chunk_831_radio_buttons_radio_buttons",
+      "label": "Radio Buttons",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_831_Radio_buttons.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Mutually exclusive choices. Use drop-down lists instead for sovereign applications."
+    },
+    {
+      "id": "about_face_chunks_chunk_832_switches_switches",
+      "label": "Switches",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_832_Switches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Compact version of two radio buttons, used in mobile settings."
+    },
+    {
+      "id": "about_face_chunks_chunk_833_combo_icon_buttons_combo_icon_buttons",
+      "label": "Combo Icon Buttons",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_833_Combo_icon_buttons.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Variant of radio icon button replacing bank of buttons with a drop-down list of icons."
+    },
+    {
+      "id": "about_face_chunks_chunk_834_list_controls_list_controls",
+      "label": "List Controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_834_List_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "For selecting from a finite set of text strings."
+    },
+    {
+      "id": "about_face_chunks_chunk_834_list_controls_barrel_control",
+      "label": "Barrel Control",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_834_List_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Gesture-based variant of list control on iOS."
+    },
+    {
+      "id": "about_face_chunks_chunk_836_earmarking_earmarking",
+      "label": "Earmarking",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_836_Earmarking.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Use check boxes in lists to solve multiple selection scrolling issues."
+    },
+    {
+      "id": "about_face_chunks_chunk_837_dragging_and_dropping_from_lis_drag_drop",
+      "label": "Dragging and Dropping from Lists",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_837_Dragging_and_dropping_from_lis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_838_ordering_lists_ordering_lists",
+      "label": "Ordering Lists",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_838_Ordering_lists.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_839_horizontal_scrolling_in_lists_horizontal_scrolling",
+      "label": "Horizontal Scrolling in Lists",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_839_Horizontal_scrolling_in_lists.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Avoid scrolling text horizontally."
+    },
+    {
+      "id": "about_face_chunks_chunk_841_entering_data_into_a_list_entering_data",
+      "label": "Entering Data into a List",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_841_Entering_data_into_a_list.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Edit-in-place facility."
+    },
+    {
+      "id": "about_face_chunks_chunk_842_drop_down_and_pop_up_lists_dropdown_lists",
+      "label": "Drop-Down and Pop-Up Lists",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_842_Drop_down_and_pop_up_lists.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_843_combo_boxes_combo_boxes",
+      "label": "Combo Boxes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_843_Combo_boxes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Combination of a list box and an edit field."
+    },
+    {
+      "id": "about_face_chunks_chunk_844_tree_controls_tree_controls",
+      "label": "Tree Controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_844_Tree_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Often inappropriately used. Only use for naturally hierarchical data."
+    },
+    {
+      "id": "about_face_chunks_chunk_845_entry_controls_entry_controls",
+      "label": "Entry Controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_845_Entry_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_846_bounded_and_unbounded_entry_co_bounded_entry",
+      "label": "Bounded Entry Controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_846_Bounded_and_unbounded_entry_co.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Use bounded controls for bounded input."
+    },
+    {
+      "id": "about_face_chunks_chunk_846_bounded_and_unbounded_entry_co_unbounded_entry",
+      "label": "Unbounded Entry Controls",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_846_Bounded_and_unbounded_entry_co.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_847_spinners_spinners",
+      "label": "Spinners",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_847_Spinners.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_848_dials_and_sliders_dials",
+      "label": "Dials",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_848_Dials_and_sliders.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_848_dials_and_sliders_sliders",
+      "label": "Sliders",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_848_Dials_and_sliders.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_849_thumbwheels_thumbwheels",
+      "label": "Thumbwheels",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_849_Thumbwheels.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_828_check_boxes_check_boxes",
+      "target": "about_face_chunks_chunk_827_selection_controls_selection_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_831_radio_buttons_radio_buttons",
+      "target": "about_face_chunks_chunk_827_selection_controls_selection_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_834_list_controls_list_controls",
+      "target": "about_face_chunks_chunk_827_selection_controls_selection_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_842_drop_down_and_pop_up_lists_dropdown_lists",
+      "target": "about_face_chunks_chunk_827_selection_controls_selection_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_829_toggle_buttons_toggle_buttons",
+      "target": "about_face_chunks_chunk_828_check_boxes_check_boxes",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_831_radio_buttons_radio_buttons",
+      "target": "about_face_chunks_chunk_828_check_boxes_check_boxes",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_832_switches_switches",
+      "target": "about_face_chunks_chunk_831_radio_buttons_radio_buttons",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_833_combo_icon_buttons_combo_icon_buttons",
+      "target": "about_face_chunks_chunk_843_combo_boxes_combo_boxes",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_842_drop_down_and_pop_up_lists_dropdown_lists",
+      "target": "about_face_chunks_chunk_834_list_controls_list_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_834_list_controls_barrel_control",
+      "target": "about_face_chunks_chunk_834_list_controls_list_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_836_earmarking_earmarking",
+      "target": "about_face_chunks_chunk_834_list_controls_list_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_836_earmarking_earmarking",
+      "target": "about_face_chunks_chunk_828_check_boxes_check_boxes",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_844_tree_controls_tree_controls",
+      "target": "about_face_chunks_chunk_834_list_controls_list_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_843_combo_boxes_combo_boxes",
+      "target": "about_face_chunks_chunk_834_list_controls_list_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_843_combo_boxes_combo_boxes",
+      "target": "about_face_chunks_chunk_845_entry_controls_entry_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_847_spinners_spinners",
+      "target": "about_face_chunks_chunk_846_bounded_and_unbounded_entry_co_bounded_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_848_dials_and_sliders_dials",
+      "target": "about_face_chunks_chunk_846_bounded_and_unbounded_entry_co_bounded_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_848_dials_and_sliders_sliders",
+      "target": "about_face_chunks_chunk_846_bounded_and_unbounded_entry_co_bounded_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_849_thumbwheels_thumbwheels",
+      "target": "about_face_chunks_chunk_846_bounded_and_unbounded_entry_co_bounded_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "selection_controls_group",
+      "label": "Selection Controls",
+      "nodes": [
+        "about_face_chunks_chunk_828_check_boxes_check_boxes",
+        "about_face_chunks_chunk_829_toggle_buttons_toggle_buttons",
+        "about_face_chunks_chunk_831_radio_buttons_radio_buttons",
+        "about_face_chunks_chunk_832_switches_switches",
+        "about_face_chunks_chunk_834_list_controls_list_controls",
+        "about_face_chunks_chunk_842_drop_down_and_pop_up_lists_dropdown_lists",
+        "about_face_chunks_chunk_843_combo_boxes_combo_boxes"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_827_Selection_controls.md"
+    },
+    {
+      "id": "bounded_entry_controls_group",
+      "label": "Bounded Entry Controls",
+      "nodes": [
+        "about_face_chunks_chunk_847_spinners_spinners",
+        "about_face_chunks_chunk_848_dials_and_sliders_dials",
+        "about_face_chunks_chunk_848_dials_and_sliders_sliders",
+        "about_face_chunks_chunk_849_thumbwheels_thumbwheels"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_846_Bounded_and_unbounded_entry_co.md"
+    }
+  ],
+  "input_tokens": 1000,
+  "output_tokens": 500
+}

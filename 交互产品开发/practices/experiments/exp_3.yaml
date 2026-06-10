@@ -1,0 +1,104 @@
+exp_id: 3
+name: AI Agents 驱动的个人作品集网站实现
+type: 设计性
+hours: 8
+group_size: 1
+requirement: 必做
+summary: 采用文档驱动开发流程，在 IDE 环境中结合大模型驱动虚拟敏捷开发团队，快速生成包含四个页面的作品集网站。
+method_theory: |
+  Agent（智能体）是带有角色设定和专业知识的虚拟团队成员。本实验模拟包含分析师、产品经理、UX专家、架构师、前端开发者的全链路团队协作。
+  工作流分为三层：Why探索层（生成简报与PRD）、How规划层（生成前端规范与架构文档）、What实施层（输出代码）。
+  关键约束：在与所有Agent沟通时，必须严格限制技术栈为纯HTML/CSS/JS，不使用前端框架。
+objectives: |
+  （一）掌握文件夹与项目结构管理。
+  （二）掌握 Markdown 文档编写规范与应用。
+  （三）掌握与 AI Agent 进行角色化、结构化的对话技巧。
+  （四）理解软件开发从需求探索到架构规划再到代码落地的完整工作流。
+equipment: |
+  1. 硬件：个人计算机（学校机房或自备笔记本）
+  2. 必需工具：VS Code 及 AI 账号（讨论型 DeepSeek/ChatGPT、执行型 CodeGeeX/Cursor）
+  3. 准备素材：项目初始模板压缩包（含 agents/ 文件夹）、5-12张个人作品图片
+requirements: |
+  （一）须按顺序与不同 AI 角色对话并产出四个核心文档：brief.md、prd.md、front-end-spec.md、architecture.md。
+  （二）须基于实际素材组织数据，产出素材结构说明 assets/README.md。
+  （三）须在代码编辑器中通过文档引用驱动代码生成，产出纯 HTML/CSS/JS 的网站初稿。
+methods: |
+  1. 与虚拟分析师、PM、UX专家、架构师依次进行结构化对话，递进生成业务与设计文档。
+  2. 用自然语言描述素材间关系，构建结构化说明（README.md）。
+  3. 挂载所有文档作为上下文，通过极简指令驱动执行型 Agent 生成代码。
+  4. 在本地浏览器中测试页面渲染与导航功能。
+conclusions: |
+  总结与不同职能的 AI Agent 沟通的经验，反思结构化自然语言对代码生成的约束作用，理解纯粹技术栈对于初稿验证的重要性。
+steps:
+- id: S1
+  name: 任务1：与 Analyst Agent 对话 → 生成 docs/brief.md
+  guide_text:
+  - 打开 DeepSeek 等讨论型 AI，上传 `agents/analyst.txt`。
+  - 输入初始对话模板，表明自己的身份、风格要求和4个页面的具体需求。
+  - 特别提醒技术限制：严格使用纯 HTML、CSS、JavaScript，不使用 React、Vue 等框架。
+  - 回答分析师的提问，最终生成项目简报文档 brief.md。
+  report_prompt:
+  - type: text
+    prompt: 在与 Analyst 沟通中，你补充了哪些关于你个人品牌的定位或受众信息？
+  - type: image
+    prompt: 📸 [图 3-1]：（粘贴你与 Analyst Agent 的对话截图，或生成的 brief.md 核心部分截图）
+- id: S2
+  name: 任务2：与 PM Agent 对话 → 生成 docs/prd.md
+  guide_text:
+  - 上传 `agents/pm.txt` 和上一步生成的 `brief.md`。
+  - 要求 PM 基于简报制定包含4个页面详细功能和交互逻辑的产品需求文档。
+  - 当 PM 提出生成 Epic 列表时，要求直接生成完整的 prd.md。
+  report_prompt:
+  - type: text
+    prompt: PM 在生成 prd.md 时，为你规划了哪些让你觉得很有启发的交互逻辑或页面功能？
+  - type: image
+    prompt: 📸 [图 3-2]：（粘贴生成的 prd.md 的核心结构截图）
+- id: S3
+  name: 任务3：与 UX Expert Agent 对话 → 生成 docs/front-end-spec.md
+  guide_text:
+  - 上传 `agents/ux-expert.txt`，附带 `brief.md` 和 `prd.md`。
+  - 要求制定前端设计规范，强调设计仅支持桌面端浏览器，且技术限制为纯 HTML/CSS/JS。
+  report_prompt:
+  - type: image
+    prompt: 📸 [图 3-3]：（粘贴生成的 front-end-spec.md 中关于设计令牌/色彩/字体的规范截图）
+- id: S4
+  name: 任务4：准备素材 → 创建 assets/README.md
+  guide_text:
+  - 将插画作品和衍生产品图片放入 assets 对应文件夹。
+  - 在 assets/README.md 中用自然语言详细描述素材及其对应关系，作为给 AI 的“设计说明书”。
+  report_prompt:
+  - type: text
+    prompt: 请简要描述你在 README.md 中是如何向 AI 解释“插画”与“产品”之间的关联逻辑的？
+- id: S5
+  name: 任务5：与 Architect Agent 对话 → 生成 docs/architecture.md
+  guide_text:
+  - 上传 `agents/architect.txt` 及之前所有的文档和 README.md。
+  - 下达极简指令，让架构师根据文档和素材说明设计简单的数据结构。
+  report_prompt:
+  - type: image
+    prompt: 📸 [图 3-4]：（粘贴生成的 architecture.md 中数据组织方案的截图）
+- id: S6
+  name: 任务6：与 Dev Agent 协作 → 自动生成网站代码
+  guide_text:
+  - 在 AI IDE（如 Cursor 或装了 CodeGeeX 的 VS Code）中打开包含所有文档的项目文件夹。
+  - 通过引用功能（@）将所有上下文添加到对话框，附上 `agents/dev.txt`。
+  - 下达直接生成全部代码的终极指令。在本地浏览器中预览结果，如有排版错误则指示 AI 修复。
+  report_prompt:
+  - type: image
+    prompt: 📸 [图 3-5]：（粘贴在 AI IDE 中将文档作为上下文喂给 Dev Agent 的界面截图）
+  - type: image
+    prompt: 📸 [最终效果]：（粘贴本地浏览器中实际运行的网页成果截图）
+analysis_prompts:
+- '[从 Why 探索层到 What 实施层的完整工作流演练中，你认为哪一个环节（哪一份文档）对最终代码生成的质量影响最大？为什么？]'
+- '[面对执行型 Agent（Dev）时，为什么我们的对话策略要从“探讨”转变为“简单直接的指令 + 上下文投喂”？]'
+- '[在严格约束“纯 HTML/CSS/JS”不使用框架的过程中，你觉得这种返璞归真的开发方式对于初学者理解 Web 工程有什么帮助？]'
+grading_rubric:
+- dimension: 规范工作流执行力
+  points: 30
+  standard: 严格按照 Analyst → PM → UX → Architect → Dev 的顺序传递文档，上下文承接完整。
+- dimension: 素材与上下文质量
+  points: 30
+  standard: assets/README.md 描述详实具有关联性，向 Agent 提供的引导充分且符合约束（纯前端）。
+- dimension: 成果落地验证
+  points: 40
+  standard: 成功在本地通过纯 HTML/CSS/JS 渲染出结构完整、具备基础排版的四个网页初稿。

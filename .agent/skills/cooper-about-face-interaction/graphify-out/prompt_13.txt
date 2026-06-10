@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=13, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_13.json
+FILES:
+/private/tmp/about_face_chunks/chunk_301_Mobile__Double_Printer.md
+/private/tmp/about_face_chunks/chunk_302_DIGITAL_ETIQUETTE.md
+/private/tmp/about_face_chunks/chunk_303_Designing_Considerate_Products.md
+/private/tmp/about_face_chunks/chunk_304_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_305_Considerate_products_take_an_i.md
+/private/tmp/about_face_chunks/chunk_306_Considerate_products_are_defer.md
+/private/tmp/about_face_chunks/chunk_307_Considerate_products_are_forth.md
+/private/tmp/about_face_chunks/chunk_308_Considerate_products_use_commo.md
+/private/tmp/about_face_chunks/chunk_309_Considerate_products_use_discr.md
+/private/tmp/about_face_chunks/chunk_310_Considerate_products_anticipat.md
+/private/tmp/about_face_chunks/chunk_311_Considerate_products_are_consc.md
+/private/tmp/about_face_chunks/chunk_312_Considerate_products_don_t_bur.md
+/private/tmp/about_face_chunks/chunk_313_Considerate_products_keep_you_.md
+/private/tmp/about_face_chunks/chunk_314_Considerate_products_are_perce.md
+/private/tmp/about_face_chunks/chunk_315_Considerate_products_are_self_.md
+/private/tmp/about_face_chunks/chunk_316_Considerate_products_don_t_ask.md
+/private/tmp/about_face_chunks/chunk_317_Considerate_products_fail_grac.md
+/private/tmp/about_face_chunks/chunk_318_Considerate_products_know_when.md
+/private/tmp/about_face_chunks/chunk_319_Considerate_products_take_resp.md
+/private/tmp/about_face_chunks/chunk_320_Considerate_products_help_you_.md
+/private/tmp/about_face_chunks/chunk_321_Designing_Smart_Products.md
+/private/tmp/about_face_chunks/chunk_322_Smart_products_put_idle_cycles.md
+/private/tmp/about_face_chunks/chunk_323_Smart_products_have_a_memory.md
+/private/tmp/about_face_chunks/chunk_324_Smart_products_anticipate_need.md
+/private/tmp/about_face_chunks/chunk_325_Smart_products_remember_detail.md

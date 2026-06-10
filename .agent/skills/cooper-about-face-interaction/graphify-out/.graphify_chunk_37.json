@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_901_chapter_3_primary_persona",
+      "label": "Primary Persona",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_901_Chapter_3.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Focus the design for each interface on a single primary persona. Don't make the user feel stupid."
+    },
+    {
+      "id": "about_face_chunks_chunk_902_chapter_4_magic_interface",
+      "label": "Magic Interface",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_902_Chapter_4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Define what the product will do before you design how the product will do it. In the early stages of design, pretend the interface is magic."
+    },
+    {
+      "id": "about_face_chunks_chunk_903_chapter_5_unified_form_and_behavior",
+      "label": "Unified Form and Behavior",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_903_Chapter_5.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "There is only one user experience: Form and behavior must be designed in concert. Never show a design approach you're unhappy with; stakeholders just might like it."
+    },
+    {
+      "id": "about_face_chunks_chunk_904_chapter_8_considerate_software",
+      "label": "Considerate Software",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_904_Chapter_8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The computer does the work, and the person does the thinking. Software should behave like a considerate human being. If it's worth it to the user to do it, it's worth it to the application to remember it."
+    },
+    {
+      "id": "about_face_chunks_chunk_905_chapter_9_sovereign_applications",
+      "label": "Sovereign Applications",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_905_Chapter_9.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Optimize sovereign applications for full-screen use. Sovereign interfaces should feature a conservative visual style. Sovereign applications should exploit rich input. Maximize document views within sovereign applications."
+    },
+    {
+      "id": "about_face_chunks_chunk_905_chapter_9_transient_applications",
+      "label": "Transient Applications",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_905_Chapter_9.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Transient applications must be simple, clear, and to the point. Transient applications should be limited to a single window and view. A transient application should launch to its previous position and configuration."
+    },
+    {
+      "id": "about_face_chunks_chunk_906_chapter_10_optimize_for_intermediates",
+      "label": "Optimize for Intermediates",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_906_Chapter_10.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Nobody wants to remain a beginner. Optimize for intermediates. Reflect the interface for typical navigation. Imagine users as very intelligent and very busy."
+    },
+    {
+      "id": "about_face_chunks_chunk_907_chapter_11_ask_forgiveness_not_permission",
+      "label": "Ask Forgiveness, Not Permission",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_907_Chapter_11.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Ask forgiveness, not permission. Don't use dialogs to report normalcy. No matter how cool your interface is, less of it would be better."
+    },
+    {
+      "id": "about_face_chunks_chunk_908_chapter_12_eliminate_excise",
+      "label": "Eliminate Excise",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_908_Chapter_12.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Eliminate excise wherever possible. Don't stop the proceedings with idiocy. Don't make users ask for permission. Allow input wherever you have output. Significant change must be significantly better."
+    },
+    {
+      "id": "about_face_chunks_chunk_909_chapter_13_direct_manipulation_and_idioms",
+      "label": "Direct Manipulation and Idioms",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_909_Chapter_13.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "All idioms must be learned; good idioms need to be learned only once. Rich visual feedback is the key to successful direct manipulation. Visually communicate pliancy whenever possible."
+    },
+    {
+      "id": "about_face_chunks_chunk_910_chapter_14_audit_dont_edit",
+      "label": "Audit, Don't Edit",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_910_Chapter_14.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Audit, don't edit. Save documents and settings automatically. Put files where users can find them."
+    },
+    {
+      "id": "about_face_chunks_chunk_911_chapter_17_visual_interface_design",
+      "label": "Visual Interface Design",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_911_Chapter_17.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Visually distinguish elements that behave differently. Visually communicate function and behavior. Visually show what; textually tell which. Obey standards unless there is a truly superior alternative."
+    },
+    {
+      "id": "about_face_chunks_chunk_912_chapter_18_interaction_idioms",
+      "label": "Interaction Idioms",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_912_Chapter_18.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The utility of any interaction idiom is context-dependent. Provide functions in the window where they are used. Toolbars give experienced users fast access to frequently used functions. Support both mouse and keyboard use for navigation."
+    },
+    {
+      "id": "about_face_chunks_chunk_913_chapter_19_mobile_apps",
+      "label": "Mobile Apps",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_913_Chapter_19.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Most mobile apps have transient posture. Limit the number and direction of animated screen transitions. Use guided tours to orient first-time users. Use overlays to explain gestures."
+    },
+    {
+      "id": "about_face_chunks_chunk_914_chapter_20_web_navigation",
+      "label": "Web Navigation",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_914_Chapter_20.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Use persistent headers to maintain context. BREADCRUMS with lateral links help speed navigation. Auto-complete, auto-suggest, and faceted search help users find things faster. Infinite scrolling and site footers are mutually exclusive idioms."
+    },
+    {
+      "id": "about_face_chunks_chunk_915_chapter_21_dialogs_and_errors",
+      "label": "Dialogs and Errors",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_915_Chapter_21.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Dialogs are appropriate for functions that are out of the main interaction flow. Most error dialogs stop the proceedings with idiocy. Make errors impossible. Do; don't ask. Make all actions reversible. Provide modeless feedback to help users avoid mistakes."
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_905_chapter_9_sovereign_applications",
+      "target": "about_face_chunks_chunk_905_chapter_9_transient_applications",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_905_Chapter_9.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_907_chapter_11_ask_forgiveness_not_permission",
+      "target": "about_face_chunks_chunk_915_chapter_21_dialogs_and_errors",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_907_Chapter_11.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_908_chapter_12_eliminate_excise",
+      "target": "about_face_chunks_chunk_915_chapter_21_dialogs_and_errors",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_908_Chapter_12.md",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1500,
+  "output_tokens": 800
+}

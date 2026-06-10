@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=23, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_23.json
+FILES:
+/private/tmp/about_face_chunks/chunk_551_Full_text_search_versus_indexi.md
+/private/tmp/about_face_chunks/chunk_552_Overview_descriptions.md
+/private/tmp/about_face_chunks/chunk_553_In_app_user_guides.md
+/private/tmp/about_face_chunks/chunk_554_Customizability.md
+/private/tmp/about_face_chunks/chunk_555_Personalization.md
+/private/tmp/about_face_chunks/chunk_556_Configuration.md
+/private/tmp/about_face_chunks/chunk_557_Idiosyncratically_modal_behavi.md
+/private/tmp/about_face_chunks/chunk_558_Localization_and_Globalization.md
+/private/tmp/about_face_chunks/chunk_559_Accessibility.md
+/private/tmp/about_face_chunks/chunk_560_Goals_of_accessibility.md
+/private/tmp/about_face_chunks/chunk_561_Accessibility_personas.md
+/private/tmp/about_face_chunks/chunk_562_Accessibility_guidelines.md
+/private/tmp/about_face_chunks/chunk_563_Leverage_OS_accessibility_tool.md
+/private/tmp/about_face_chunks/chunk_564_Don_t_override_user_selected_s.md
+/private/tmp/about_face_chunks/chunk_565_Enable_standard_keyboard_acces.md
+/private/tmp/about_face_chunks/chunk_566_Incorporate_display_options_fo.md
+/private/tmp/about_face_chunks/chunk_567_Provide_visual_only_and_audibl.md
+/private/tmp/about_face_chunks/chunk_568_Don_t_flash__flicker__scroll__.md
+/private/tmp/about_face_chunks/chunk_569_Use_simple__clear__brief_langu.md
+/private/tmp/about_face_chunks/chunk_570_Use_response_times_that_suppor.md
+/private/tmp/about_face_chunks/chunk_571_Keep_layouts_and_task_flows_co.md
+/private/tmp/about_face_chunks/chunk_572_Provide_text_equivalents_for_v.md
+/private/tmp/about_face_chunks/chunk_573_INTEGRATING_VISUAL_DESIGN.md
+/private/tmp/about_face_chunks/chunk_574_Visual_Art_and_Visual_Design.md
+/private/tmp/about_face_chunks/chunk_575_The_Elements_of_Visual_Interfa.md

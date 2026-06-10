@@ -1,0 +1,938 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "chapter 00 Front Matter",
+      "file_type": "concept",
+      "source_file": "chapter_00_Front_Matter.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ac4a531f",
+      "community": 7,
+      "norm_label": "chapter 00 front matter"
+    },
+    {
+      "label": "chapter 01 Starting from Scratch",
+      "file_type": "concept",
+      "source_file": "chapter_01_Starting_from_Scratch.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7ad50c42",
+      "community": 7,
+      "norm_label": "chapter 01 starting from scratch"
+    },
+    {
+      "label": "chapter 02 Detail comes later",
+      "file_type": "concept",
+      "source_file": "chapter_02_Detail_comes_later.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4ad54644",
+      "community": 7,
+      "norm_label": "chapter 02 detail comes later"
+    },
+    {
+      "label": "chapter 03 Don t design too much",
+      "file_type": "concept",
+      "source_file": "chapter_03_Don_t_design_too_much.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3669ffbf",
+      "community": 7,
+      "norm_label": "chapter 03 don t design too much"
+    },
+    {
+      "label": "chapter 04 Choose a personality",
+      "file_type": "concept",
+      "source_file": "chapter_04_Choose_a_personality.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_77f74c8e",
+      "community": 7,
+      "norm_label": "chapter 04 choose a personality"
+    },
+    {
+      "label": "chapter 05 Limit your choices",
+      "file_type": "concept",
+      "source_file": "chapter_05_Limit_your_choices.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c0ee1f25",
+      "community": 3,
+      "norm_label": "chapter 05 limit your choices"
+    },
+    {
+      "label": "chapter 06 Hierarchy is Everything",
+      "file_type": "concept",
+      "source_file": "chapter_06_Hierarchy_is_Everything.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_574fdda4",
+      "community": 3,
+      "norm_label": "chapter 06 hierarchy is everything"
+    },
+    {
+      "label": "chapter 07 Size isn t everything",
+      "file_type": "concept",
+      "source_file": "chapter_07_Size_isn_t_everything.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d00452c9",
+      "community": 3,
+      "norm_label": "chapter 07 size isn t everything"
+    },
+    {
+      "label": "chapter 08 Don t use grey text on colored backgrounds",
+      "file_type": "concept",
+      "source_file": "chapter_08_Don_t_use_grey_text_on_colored_backgrounds.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e33b0c1c",
+      "community": 3,
+      "norm_label": "chapter 08 don t use grey text on colored backgrounds"
+    },
+    {
+      "label": "chapter 09 Emphasize by de emphasizing",
+      "file_type": "concept",
+      "source_file": "chapter_09_Emphasize_by_de_emphasizing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_50efa8f4",
+      "community": 3,
+      "norm_label": "chapter 09 emphasize by de emphasizing"
+    },
+    {
+      "label": "chapter 10 Labels are a last resort",
+      "file_type": "concept",
+      "source_file": "chapter_10_Labels_are_a_last_resort.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_58551155",
+      "community": 3,
+      "norm_label": "chapter 10 labels are a last resort"
+    },
+    {
+      "label": "chapter 11 Separate visual hierarchy from document hierarchy",
+      "file_type": "concept",
+      "source_file": "chapter_11_Separate_visual_hierarchy_from_document_hierarchy.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e6434be5",
+      "community": 3,
+      "norm_label": "chapter 11 separate visual hierarchy from document hierarchy"
+    },
+    {
+      "label": "chapter 12 Balance weight and contrast",
+      "file_type": "concept",
+      "source_file": "chapter_12_Balance_weight_and_contrast.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_78c7ddba",
+      "community": 5,
+      "norm_label": "chapter 12 balance weight and contrast"
+    },
+    {
+      "label": "chapter 13 Semantics are secondary",
+      "file_type": "concept",
+      "source_file": "chapter_13_Semantics_are_secondary.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_725282b8",
+      "community": 5,
+      "norm_label": "chapter 13 semantics are secondary"
+    },
+    {
+      "label": "chapter 14 Layout and Spacing",
+      "file_type": "concept",
+      "source_file": "chapter_14_Layout_and_Spacing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ee151c92",
+      "community": 5,
+      "norm_label": "chapter 14 layout and spacing"
+    },
+    {
+      "label": "chapter 15 Establish a spacing and sizing system",
+      "file_type": "concept",
+      "source_file": "chapter_15_Establish_a_spacing_and_sizing_system.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9fbbb034",
+      "community": 5,
+      "norm_label": "chapter 15 establish a spacing and sizing system"
+    },
+    {
+      "label": "chapter 16 You don t have to fill the whole screen",
+      "file_type": "concept",
+      "source_file": "chapter_16_You_don_t_have_to_fill_the_whole_screen.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5dd5bbeb",
+      "community": 5,
+      "norm_label": "chapter 16 you don t have to fill the whole screen"
+    },
+    {
+      "label": "chapter 17 Grids are overrated",
+      "file_type": "concept",
+      "source_file": "chapter_17_Grids_are_overrated.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a97d3489",
+      "community": 5,
+      "norm_label": "chapter 17 grids are overrated"
+    },
+    {
+      "label": "chapter 18 Relative sizing doesn t scale",
+      "file_type": "concept",
+      "source_file": "chapter_18_Relative_sizing_doesn_t_scale.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ea9425e2",
+      "community": 0,
+      "norm_label": "chapter 18 relative sizing doesn t scale"
+    },
+    {
+      "label": "chapter 19 Avoid ambiguous spacing",
+      "file_type": "concept",
+      "source_file": "chapter_19_Avoid_ambiguous_spacing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_bedf27ac",
+      "community": 0,
+      "norm_label": "chapter 19 avoid ambiguous spacing"
+    },
+    {
+      "label": "chapter 20 Designing Text",
+      "file_type": "concept",
+      "source_file": "chapter_20_Designing_Text.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3da62d0f",
+      "community": 0,
+      "norm_label": "chapter 20 designing text"
+    },
+    {
+      "label": "chapter 21 Use good fonts",
+      "file_type": "concept",
+      "source_file": "chapter_21_Use_good_fonts.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_436bb926",
+      "community": 0,
+      "norm_label": "chapter 21 use good fonts"
+    },
+    {
+      "label": "chapter 22 Keep your line length in check",
+      "file_type": "concept",
+      "source_file": "chapter_22_Keep_your_line_length_in_check.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7f1a5163",
+      "community": 0,
+      "norm_label": "chapter 22 keep your line length in check"
+    },
+    {
+      "label": "chapter 23 Baseline not center",
+      "file_type": "concept",
+      "source_file": "chapter_23_Baseline_not_center.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7e5ef3fe",
+      "community": 0,
+      "norm_label": "chapter 23 baseline not center"
+    },
+    {
+      "label": "chapter 24 Line height is proportional",
+      "file_type": "concept",
+      "source_file": "chapter_24_Line_height_is_proportional.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_bf837baf",
+      "community": 0,
+      "norm_label": "chapter 24 line height is proportional"
+    },
+    {
+      "label": "chapter 25 Not every link needs a color",
+      "file_type": "concept",
+      "source_file": "chapter_25_Not_every_link_needs_a_color.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_6037cd60",
+      "community": 0,
+      "norm_label": "chapter 25 not every link needs a color"
+    },
+    {
+      "label": "chapter 26 part of the main path a user takes through the app",
+      "file_type": "concept",
+      "source_file": "chapter_26_part_of_the_main_path_a_user_takes_through_the_app.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5742077a",
+      "community": 0,
+      "norm_label": "chapter 26 part of the main path a user takes through the app"
+    },
+    {
+      "label": "chapter 27 Align with readability in mind",
+      "file_type": "concept",
+      "source_file": "chapter_27_Align_with_readability_in_mind.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9da882ef",
+      "community": 0,
+      "norm_label": "chapter 27 align with readability in mind"
+    },
+    {
+      "label": "chapter 28 Use letter spacing effectively",
+      "file_type": "concept",
+      "source_file": "chapter_28_Use_letter_spacing_effectively.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3208538a",
+      "community": 2,
+      "norm_label": "chapter 28 use letter spacing effectively"
+    },
+    {
+      "label": "chapter 29 Working with Color",
+      "file_type": "concept",
+      "source_file": "chapter_29_Working_with_Color.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3543b0b7",
+      "community": 2,
+      "norm_label": "chapter 29 working with color"
+    },
+    {
+      "label": "chapter 30 You need more colors than you think",
+      "file_type": "concept",
+      "source_file": "chapter_30_You_need_more_colors_than_you_think.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c56065cf",
+      "community": 2,
+      "norm_label": "chapter 30 you need more colors than you think"
+    },
+    {
+      "label": "chapter 31 Define your shades up front",
+      "file_type": "concept",
+      "source_file": "chapter_31_Define_your_shades_up_front.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_78c3462d",
+      "community": 2,
+      "norm_label": "chapter 31 define your shades up front"
+    },
+    {
+      "label": "chapter 32 Don t let lightness kill your saturation",
+      "file_type": "concept",
+      "source_file": "chapter_32_Don_t_let_lightness_kill_your_saturation.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9503acdb",
+      "community": 2,
+      "norm_label": "chapter 32 don t let lightness kill your saturation"
+    },
+    {
+      "label": "chapter 33 Greys don t have to be grey",
+      "file_type": "concept",
+      "source_file": "chapter_33_Greys_don_t_have_to_be_grey.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f4edc1e9",
+      "community": 2,
+      "norm_label": "chapter 33 greys don t have to be grey"
+    },
+    {
+      "label": "chapter 34 Accessible doesn t have to mean ugly",
+      "file_type": "concept",
+      "source_file": "chapter_34_Accessible_doesn_t_have_to_mean_ugly.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7c0b0e5f",
+      "community": 2,
+      "norm_label": "chapter 34 accessible doesn t have to mean ugly"
+    },
+    {
+      "label": "chapter 35 Don t rely on color alone",
+      "file_type": "concept",
+      "source_file": "chapter_35_Don_t_rely_on_color_alone.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2f361a56",
+      "community": 6,
+      "norm_label": "chapter 35 don t rely on color alone"
+    },
+    {
+      "label": "chapter 36 Creating Depth",
+      "file_type": "concept",
+      "source_file": "chapter_36_Creating_Depth.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_95f8a266",
+      "community": 6,
+      "norm_label": "chapter 36 creating depth"
+    },
+    {
+      "label": "chapter 37 Use shadows to convey elevation",
+      "file_type": "concept",
+      "source_file": "chapter_37_Use_shadows_to_convey_elevation.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_14d2cefc",
+      "community": 6,
+      "norm_label": "chapter 37 use shadows to convey elevation"
+    },
+    {
+      "label": "chapter 38 Shadows can have two parts",
+      "file_type": "concept",
+      "source_file": "chapter_38_Shadows_can_have_two_parts.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e4dc49e6",
+      "community": 6,
+      "norm_label": "chapter 38 shadows can have two parts"
+    },
+    {
+      "label": "chapter 39 Even flat designs can have depth",
+      "file_type": "concept",
+      "source_file": "chapter_39_Even_flat_designs_can_have_depth.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a6e4b5b9",
+      "community": 6,
+      "norm_label": "chapter 39 even flat designs can have depth"
+    },
+    {
+      "label": "chapter 40 Overlap elements to create layers",
+      "file_type": "concept",
+      "source_file": "chapter_40_Overlap_elements_to_create_layers.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9876100a",
+      "community": 4,
+      "norm_label": "chapter 40 overlap elements to create layers"
+    },
+    {
+      "label": "chapter 41 Working with Images",
+      "file_type": "concept",
+      "source_file": "chapter_41_Working_with_Images.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_db20fc2b",
+      "community": 4,
+      "norm_label": "chapter 41 working with images"
+    },
+    {
+      "label": "chapter 42 Text needs consistent contrast",
+      "file_type": "concept",
+      "source_file": "chapter_42_Text_needs_consistent_contrast.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_90ea33ac",
+      "community": 4,
+      "norm_label": "chapter 42 text needs consistent contrast"
+    },
+    {
+      "label": "chapter 43 Everything has an intended size",
+      "file_type": "concept",
+      "source_file": "chapter_43_Everything_has_an_intended_size.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_aef87a1a",
+      "community": 4,
+      "norm_label": "chapter 43 everything has an intended size"
+    },
+    {
+      "label": "chapter 44 Beware user uploaded content",
+      "file_type": "concept",
+      "source_file": "chapter_44_Beware_user_uploaded_content.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_bfedf86c",
+      "community": 4,
+      "norm_label": "chapter 44 beware user uploaded content"
+    },
+    {
+      "label": "chapter 45 Finishing Touches",
+      "file_type": "concept",
+      "source_file": "chapter_45_Finishing_Touches.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_6676bb83",
+      "community": 4,
+      "norm_label": "chapter 45 finishing touches"
+    },
+    {
+      "label": "chapter 46 Add color with accent borders",
+      "file_type": "concept",
+      "source_file": "chapter_46_Add_color_with_accent_borders.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_91218d90",
+      "community": 4,
+      "norm_label": "chapter 46 add color with accent borders"
+    },
+    {
+      "label": "chapter 47 Decorate your backgrounds",
+      "file_type": "concept",
+      "source_file": "chapter_47_Decorate_your_backgrounds.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b28eaa95",
+      "community": 1,
+      "norm_label": "chapter 47 decorate your backgrounds"
+    },
+    {
+      "label": "chapter 48 Don t overlook empty states",
+      "file_type": "concept",
+      "source_file": "chapter_48_Don_t_overlook_empty_states.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_66e8bd96",
+      "community": 1,
+      "norm_label": "chapter 48 don t overlook empty states"
+    },
+    {
+      "label": "chapter 49 Use fewer borders",
+      "file_type": "concept",
+      "source_file": "chapter_49_Use_fewer_borders.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c75e8e35",
+      "community": 1,
+      "norm_label": "chapter 49 use fewer borders"
+    },
+    {
+      "label": "chapter 50 Think outside the box",
+      "file_type": "concept",
+      "source_file": "chapter_50_Think_outside_the_box.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_712f3250",
+      "community": 1,
+      "norm_label": "chapter 50 think outside the box"
+    },
+    {
+      "label": "chapter 51 Leveling Up",
+      "file_type": "concept",
+      "source_file": "chapter_51_Leveling_Up.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_175a6554",
+      "community": 1,
+      "norm_label": "chapter 51 leveling up"
+    },
+    {
+      "label": "Document Outline",
+      "file_type": "concept",
+      "source_file": "chapter_52_Document_Outline.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_dd1fc3a2",
+      "community": 1,
+      "norm_label": "document outline"
+    },
+    {
+      "label": "Table of Contents",
+      "file_type": "concept",
+      "source_file": "index_chunk_000_Table_of_Contents_1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_42174134",
+      "community": 1,
+      "norm_label": "table of contents"
+    },
+    {
+      "label": "index chunk 000 Table of Contents 2",
+      "file_type": "concept",
+      "source_file": "index_chunk_000_Table_of_Contents_2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_faf8b259",
+      "community": 1,
+      "norm_label": "index chunk 000 table of contents 2"
+    }
+  ],
+  "links": [
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_01_Starting_from_Scratch.md",
+      "source": "file_ac4a531f",
+      "target": "file_7ad50c42"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_02_Detail_comes_later.md",
+      "source": "file_7ad50c42",
+      "target": "file_4ad54644"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_03_Don_t_design_too_much.md",
+      "source": "file_4ad54644",
+      "target": "file_3669ffbf"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_04_Choose_a_personality.md",
+      "source": "file_3669ffbf",
+      "target": "file_77f74c8e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_05_Limit_your_choices.md",
+      "source": "file_77f74c8e",
+      "target": "file_c0ee1f25"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_06_Hierarchy_is_Everything.md",
+      "source": "file_c0ee1f25",
+      "target": "file_574fdda4"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_07_Size_isn_t_everything.md",
+      "source": "file_574fdda4",
+      "target": "file_d00452c9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_08_Don_t_use_grey_text_on_colored_backgrounds.md",
+      "source": "file_d00452c9",
+      "target": "file_e33b0c1c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_09_Emphasize_by_de_emphasizing.md",
+      "source": "file_e33b0c1c",
+      "target": "file_50efa8f4"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_10_Labels_are_a_last_resort.md",
+      "source": "file_50efa8f4",
+      "target": "file_58551155"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_11_Separate_visual_hierarchy_from_document_hierarchy.md",
+      "source": "file_58551155",
+      "target": "file_e6434be5"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_12_Balance_weight_and_contrast.md",
+      "source": "file_e6434be5",
+      "target": "file_78c7ddba"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_13_Semantics_are_secondary.md",
+      "source": "file_78c7ddba",
+      "target": "file_725282b8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_14_Layout_and_Spacing.md",
+      "source": "file_725282b8",
+      "target": "file_ee151c92"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_15_Establish_a_spacing_and_sizing_system.md",
+      "source": "file_ee151c92",
+      "target": "file_9fbbb034"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_16_You_don_t_have_to_fill_the_whole_screen.md",
+      "source": "file_9fbbb034",
+      "target": "file_5dd5bbeb"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_17_Grids_are_overrated.md",
+      "source": "file_5dd5bbeb",
+      "target": "file_a97d3489"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_18_Relative_sizing_doesn_t_scale.md",
+      "source": "file_a97d3489",
+      "target": "file_ea9425e2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_19_Avoid_ambiguous_spacing.md",
+      "source": "file_ea9425e2",
+      "target": "file_bedf27ac"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_20_Designing_Text.md",
+      "source": "file_bedf27ac",
+      "target": "file_3da62d0f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_21_Use_good_fonts.md",
+      "source": "file_3da62d0f",
+      "target": "file_436bb926"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_22_Keep_your_line_length_in_check.md",
+      "source": "file_436bb926",
+      "target": "file_7f1a5163"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_23_Baseline_not_center.md",
+      "source": "file_7f1a5163",
+      "target": "file_7e5ef3fe"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_24_Line_height_is_proportional.md",
+      "source": "file_7e5ef3fe",
+      "target": "file_bf837baf"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_25_Not_every_link_needs_a_color.md",
+      "source": "file_bf837baf",
+      "target": "file_6037cd60"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_26_part_of_the_main_path_a_user_takes_through_the_app.md",
+      "source": "file_6037cd60",
+      "target": "file_5742077a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_27_Align_with_readability_in_mind.md",
+      "source": "file_5742077a",
+      "target": "file_9da882ef"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_28_Use_letter_spacing_effectively.md",
+      "source": "file_9da882ef",
+      "target": "file_3208538a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_29_Working_with_Color.md",
+      "source": "file_3208538a",
+      "target": "file_3543b0b7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_30_You_need_more_colors_than_you_think.md",
+      "source": "file_3543b0b7",
+      "target": "file_c56065cf"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_31_Define_your_shades_up_front.md",
+      "source": "file_c56065cf",
+      "target": "file_78c3462d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_32_Don_t_let_lightness_kill_your_saturation.md",
+      "source": "file_78c3462d",
+      "target": "file_9503acdb"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_33_Greys_don_t_have_to_be_grey.md",
+      "source": "file_9503acdb",
+      "target": "file_f4edc1e9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_34_Accessible_doesn_t_have_to_mean_ugly.md",
+      "source": "file_f4edc1e9",
+      "target": "file_7c0b0e5f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_35_Don_t_rely_on_color_alone.md",
+      "source": "file_7c0b0e5f",
+      "target": "file_2f361a56"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_36_Creating_Depth.md",
+      "source": "file_2f361a56",
+      "target": "file_95f8a266"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_37_Use_shadows_to_convey_elevation.md",
+      "source": "file_95f8a266",
+      "target": "file_14d2cefc"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_38_Shadows_can_have_two_parts.md",
+      "source": "file_14d2cefc",
+      "target": "file_e4dc49e6"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_39_Even_flat_designs_can_have_depth.md",
+      "source": "file_e4dc49e6",
+      "target": "file_a6e4b5b9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_40_Overlap_elements_to_create_layers.md",
+      "source": "file_a6e4b5b9",
+      "target": "file_9876100a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_41_Working_with_Images.md",
+      "source": "file_9876100a",
+      "target": "file_db20fc2b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_42_Text_needs_consistent_contrast.md",
+      "source": "file_db20fc2b",
+      "target": "file_90ea33ac"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_43_Everything_has_an_intended_size.md",
+      "source": "file_90ea33ac",
+      "target": "file_aef87a1a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_44_Beware_user_uploaded_content.md",
+      "source": "file_aef87a1a",
+      "target": "file_bfedf86c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_45_Finishing_Touches.md",
+      "source": "file_bfedf86c",
+      "target": "file_6676bb83"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_46_Add_color_with_accent_borders.md",
+      "source": "file_6676bb83",
+      "target": "file_91218d90"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_47_Decorate_your_backgrounds.md",
+      "source": "file_91218d90",
+      "target": "file_b28eaa95"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_48_Don_t_overlook_empty_states.md",
+      "source": "file_b28eaa95",
+      "target": "file_66e8bd96"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_49_Use_fewer_borders.md",
+      "source": "file_66e8bd96",
+      "target": "file_c75e8e35"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_50_Think_outside_the_box.md",
+      "source": "file_c75e8e35",
+      "target": "file_712f3250"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_51_Leveling_Up.md",
+      "source": "file_712f3250",
+      "target": "file_175a6554"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_52_Document_Outline.md",
+      "source": "file_175a6554",
+      "target": "file_dd1fc3a2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "index_chunk_000_Table_of_Contents_1.md",
+      "source": "file_dd1fc3a2",
+      "target": "file_42174134"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "index_chunk_000_Table_of_Contents_2.md",
+      "source": "file_42174134",
+      "target": "file_faf8b259"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "05b6fd77ac107be42d362942d97f332999b04c59"
+}

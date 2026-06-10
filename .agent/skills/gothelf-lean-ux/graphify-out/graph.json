@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "label": "Front_Matter_Front_Matter",
+      "description": "Content from Front_Matter_Front_Matter.md",
+      "source_file": "Front_Matter_Front_Matter.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "1",
+      "label": "Part_III_Part_III_Collaboration",
+      "description": "Content from Part_III_Part_III_Collaboration.md",
+      "source_file": "Part_III_Part_III_Collaboration.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "2",
+      "label": "Part_II_Part_II_Process",
+      "description": "Content from Part_II_Part_II_Process.md",
+      "source_file": "Part_II_Part_II_Process.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "3",
+      "label": "Part_IV_Part_IV_Lean_UX_in_Your_Organization",
+      "description": "Content from Part_IV_Part_IV_Lean_UX_in_Your_Organization.md",
+      "source_file": "Part_IV_Part_IV_Lean_UX_in_Your_Organization.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "4",
+      "label": "Part_I_Part_I_Introduction_and_Principles",
+      "description": "Content from Part_I_Part_I_Introduction_and_Principles.md",
+      "source_file": "Part_I_Part_I_Introduction_and_Principles.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "5",
+      "label": "chapter_00_Front_Matter",
+      "description": "Content from chapter_00_Front_Matter.md",
+      "source_file": "chapter_00_Front_Matter.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "6",
+      "label": "chapter_01_Jeff_and_Josh",
+      "description": "Content from chapter_01_Jeff_and_Josh.md",
+      "source_file": "chapter_01_Jeff_and_Josh.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "7",
+      "label": "chapter_02_Part_I_Introduction_and_Principles",
+      "description": "Content from chapter_02_Part_I_Introduction_and_Principles.md",
+      "source_file": "chapter_02_Part_I_Introduction_and_Principles.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "8",
+      "label": "chapter_03_Chapter_1_More_Important_Now_than_Ever_Before",
+      "description": "Content from chapter_03_Chapter_1_More_Important_Now_than_Ever_Before.md",
+      "source_file": "chapter_03_Chapter_1_More_Important_Now_than_Ever_Before.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "9",
+      "label": "chapter_04_Chapter_2_Principles",
+      "description": "Content from chapter_04_Chapter_2_Principles.md",
+      "source_file": "chapter_04_Chapter_2_Principles.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "10",
+      "label": "chapter_05_Chapter_3_Outcomes",
+      "description": "Content from chapter_05_Chapter_3_Outcomes.md",
+      "source_file": "chapter_05_Chapter_3_Outcomes.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "11",
+      "label": "chapter_06_Part_II_Process",
+      "description": "Content from chapter_06_Part_II_Process.md",
+      "source_file": "chapter_06_Part_II_Process.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "12",
+      "label": "chapter_07_Chapter_4_The_Lean_UX_Canvas",
+      "description": "Content from chapter_07_Chapter_4_The_Lean_UX_Canvas.md",
+      "source_file": "chapter_07_Chapter_4_The_Lean_UX_Canvas.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "13",
+      "label": "chapter_08_Chapter_5_Box_1_Business_Problem",
+      "description": "Content from chapter_08_Chapter_5_Box_1_Business_Problem.md",
+      "source_file": "chapter_08_Chapter_5_Box_1_Business_Problem.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "14",
+      "label": "chapter_09_Chapter_6_Box_2_Business_Outcomes",
+      "description": "Content from chapter_09_Chapter_6_Box_2_Business_Outcomes.md",
+      "source_file": "chapter_09_Chapter_6_Box_2_Business_Outcomes.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "15",
+      "label": "chapter_10_Chapter_7_Box_3_Users",
+      "description": "Content from chapter_10_Chapter_7_Box_3_Users.md",
+      "source_file": "chapter_10_Chapter_7_Box_3_Users.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "16",
+      "label": "chapter_11_Chapter_8_Box_4_User_Outcomes_and_Benefits",
+      "description": "Content from chapter_11_Chapter_8_Box_4_User_Outcomes_and_Benefits.md",
+      "source_file": "chapter_11_Chapter_8_Box_4_User_Outcomes_and_Benefits.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "17",
+      "label": "chapter_12_Chapter_9_Box_5_Solutions",
+      "description": "Content from chapter_12_Chapter_9_Box_5_Solutions.md",
+      "source_file": "chapter_12_Chapter_9_Box_5_Solutions.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "18",
+      "label": "chapter_13_Chapter_10_Box_6_Hypotheses",
+      "description": "Content from chapter_13_Chapter_10_Box_6_Hypotheses.md",
+      "source_file": "chapter_13_Chapter_10_Box_6_Hypotheses.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "19",
+      "label": "chapter_14_Chapter_11_Box_7_What_s_the_Most_Important_Thing_W",
+      "description": "Content from chapter_14_Chapter_11_Box_7_What_s_the_Most_Important_Thing_W.md",
+      "source_file": "chapter_14_Chapter_11_Box_7_What_s_the_Most_Important_Thing_W.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "20",
+      "label": "chapter_15_Chapter_12_Box_8_MVPs_and_Experiments",
+      "description": "Content from chapter_15_Chapter_12_Box_8_MVPs_and_Experiments.md",
+      "source_file": "chapter_15_Chapter_12_Box_8_MVPs_and_Experiments.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "21",
+      "label": "chapter_16_Chapter_13_Bringing_It_All_Together",
+      "description": "Content from chapter_16_Chapter_13_Bringing_It_All_Together.md",
+      "source_file": "chapter_16_Chapter_13_Bringing_It_All_Together.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "22",
+      "label": "chapter_17_Part_III_Collaboration",
+      "description": "Content from chapter_17_Part_III_Collaboration.md",
+      "source_file": "chapter_17_Part_III_Collaboration.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "23",
+      "label": "chapter_18_Chapter_14_Collaborative_Design",
+      "description": "Content from chapter_18_Chapter_14_Collaborative_Design.md",
+      "source_file": "chapter_18_Chapter_14_Collaborative_Design.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "24",
+      "label": "chapter_19_Chapter_15_Feedback_and_Research",
+      "description": "Content from chapter_19_Chapter_15_Feedback_and_Research.md",
+      "source_file": "chapter_19_Chapter_15_Feedback_and_Research.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "25",
+      "label": "chapter_20_Chapter_16_Integrating_Lean_UX_and_Agile",
+      "description": "Content from chapter_20_Chapter_16_Integrating_Lean_UX_and_Agile.md",
+      "source_file": "chapter_20_Chapter_16_Integrating_Lean_UX_and_Agile.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "26",
+      "label": "chapter_21_Part_IV_Lean_UX_in_Your_Organization",
+      "description": "Content from chapter_21_Part_IV_Lean_UX_in_Your_Organization.md",
+      "source_file": "chapter_21_Part_IV_Lean_UX_in_Your_Organization.md",
+      "community": "1",
+      "type": "workflow"
+    },
+    {
+      "id": "27",
+      "label": "chapter_22_Chapter_17_Making_Organizational_Shifts",
+      "description": "Content from chapter_22_Chapter_17_Making_Organizational_Shifts.md",
+      "source_file": "chapter_22_Chapter_17_Making_Organizational_Shifts.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "28",
+      "label": "chapter_23_Chapter_18_Lean_UX_in_an_Agency",
+      "description": "Content from chapter_23_Chapter_18_Lean_UX_in_an_Agency.md",
+      "source_file": "chapter_23_Chapter_18_Lean_UX_in_an_Agency.md",
+      "community": "0",
+      "type": "workflow"
+    },
+    {
+      "id": "29",
+      "label": "chapter_24_Chapter_19_A_Last_Word",
+      "description": "Content from chapter_24_Chapter_19_A_Last_Word.md",
+      "source_file": "chapter_24_Chapter_19_A_Last_Word.md",
+      "community": "0",
+      "type": "workflow"
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "precede"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "precede"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "precede"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "precede"
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "relation": "precede"
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "relation": "precede"
+    },
+    {
+      "source": "6",
+      "target": "7",
+      "relation": "precede"
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "relation": "precede"
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "relation": "precede"
+    },
+    {
+      "source": "9",
+      "target": "10",
+      "relation": "precede"
+    },
+    {
+      "source": "10",
+      "target": "11",
+      "relation": "precede"
+    },
+    {
+      "source": "11",
+      "target": "12",
+      "relation": "precede"
+    },
+    {
+      "source": "12",
+      "target": "13",
+      "relation": "precede"
+    },
+    {
+      "source": "13",
+      "target": "14",
+      "relation": "precede"
+    },
+    {
+      "source": "14",
+      "target": "15",
+      "relation": "precede"
+    },
+    {
+      "source": "15",
+      "target": "16",
+      "relation": "precede"
+    },
+    {
+      "source": "16",
+      "target": "17",
+      "relation": "precede"
+    },
+    {
+      "source": "17",
+      "target": "18",
+      "relation": "precede"
+    },
+    {
+      "source": "18",
+      "target": "19",
+      "relation": "precede"
+    },
+    {
+      "source": "19",
+      "target": "20",
+      "relation": "precede"
+    },
+    {
+      "source": "20",
+      "target": "21",
+      "relation": "precede"
+    },
+    {
+      "source": "21",
+      "target": "22",
+      "relation": "precede"
+    },
+    {
+      "source": "22",
+      "target": "23",
+      "relation": "precede"
+    },
+    {
+      "source": "23",
+      "target": "24",
+      "relation": "precede"
+    },
+    {
+      "source": "24",
+      "target": "25",
+      "relation": "precede"
+    },
+    {
+      "source": "25",
+      "target": "26",
+      "relation": "precede"
+    },
+    {
+      "source": "26",
+      "target": "27",
+      "relation": "precede"
+    },
+    {
+      "source": "27",
+      "target": "28",
+      "relation": "precede"
+    },
+    {
+      "source": "28",
+      "target": "29",
+      "relation": "precede"
+    }
+  ]
+}

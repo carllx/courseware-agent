@@ -1,0 +1,352 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_502_digital_retrieval_methods_positional_retrieval",
+      "label": "Positional Retrieval",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_502_Digital_retrieval_methods.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_502_digital_retrieval_methods_identity_retrieval",
+      "label": "Identity Retrieval",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_502_Digital_retrieval_methods.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_502_digital_retrieval_methods_attribute_based_retrieval",
+      "label": "Attribute-based Retrieval",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_502_Digital_retrieval_methods.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_503_attribute_based_retrieval_syst_folksonomy",
+      "label": "Folksonomy",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_503_Attribute_based_retrieval_syst.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_507_the_attribute_based_alternativ_digital_soup",
+      "label": "Digital Soup",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_507_The_attribute_based_alternativ.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_508_constrained_natural_language_o_constrained_natural_language_output",
+      "label": "Constrained Natural-Language Output",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_508_Constrained_natural_language_o.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_511_rich_visual_modeless_feedback_rvmf",
+      "label": "Rich Visual Modeless Feedback",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_511_Rich_visual_modeless_feedback.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_512_audible_feedback_audible_feedback",
+      "label": "Audible Feedback",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_512_Audible_feedback.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_513_avoid_negative_audible_feedbac_negative_audible_feedback",
+      "label": "Negative Audible Feedback",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_513_Avoid_negative_audible_feedbac.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_514_provide_positive_audible_feedb_positive_audible_feedback",
+      "label": "Positive Audible Feedback",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_514_Provide_positive_audible_feedb.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "label": "Undo Facility",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_515_Undo__Redo__and_Reversible_His.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_518_undo_enables_exploration_exploration",
+      "label": "Exploration",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_518_Undo_enables_exploration.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_521_incremental_and_procedural_act_incremental_action",
+      "label": "Incremental Action",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_521_Incremental_and_procedural_act.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_521_incremental_and_procedural_act_procedural_action",
+      "label": "Procedural Action",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_521_Incremental_and_procedural_act.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_522_blind_and_explanatory_undo_blind_undo",
+      "label": "Blind Undo",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_522_Blind_and_explanatory_Undo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_522_blind_and_explanatory_undo_explanatory_undo",
+      "label": "Explanatory Undo",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_522_Blind_and_explanatory_Undo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_523_single_and_multiple_undo_single_undo",
+      "label": "Single Undo",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_523_Single_and_multiple_Undo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_523_single_and_multiple_undo_multiple_undo",
+      "label": "Multiple Undo",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_523_Single_and_multiple_Undo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_502_digital_retrieval_methods_attribute_based_retrieval",
+      "target": "about_face_chunks_chunk_502_digital_retrieval_methods_positional_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_502_Digital_retrieval_methods.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_502_digital_retrieval_methods_attribute_based_retrieval",
+      "target": "about_face_chunks_chunk_502_digital_retrieval_methods_identity_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_502_Digital_retrieval_methods.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_503_attribute_based_retrieval_syst_folksonomy",
+      "target": "about_face_chunks_chunk_502_digital_retrieval_methods_attribute_based_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_503_Attribute_based_retrieval_syst.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_508_constrained_natural_language_o_constrained_natural_language_output",
+      "target": "about_face_chunks_chunk_502_digital_retrieval_methods_attribute_based_retrieval",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_508_Constrained_natural_language_o.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_514_provide_positive_audible_feedb_positive_audible_feedback",
+      "target": "about_face_chunks_chunk_512_audible_feedback_audible_feedback",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_514_Provide_positive_audible_feedb.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_513_avoid_negative_audible_feedbac_negative_audible_feedback",
+      "target": "about_face_chunks_chunk_512_audible_feedback_audible_feedback",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_513_Avoid_negative_audible_feedbac.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "target": "about_face_chunks_chunk_518_undo_enables_exploration_exploration",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_518_Undo_enables_exploration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_523_single_and_multiple_undo_single_undo",
+      "target": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_523_Single_and_multiple_Undo.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_523_single_and_multiple_undo_multiple_undo",
+      "target": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_523_Single_and_multiple_Undo.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_522_blind_and_explanatory_undo_blind_undo",
+      "target": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_522_Blind_and_explanatory_Undo.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_522_blind_and_explanatory_undo_explanatory_undo",
+      "target": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_522_Blind_and_explanatory_Undo.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_521_incremental_and_procedural_act_incremental_action",
+      "target": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_521_Incremental_and_procedural_act.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_521_incremental_and_procedural_act_procedural_action",
+      "target": "about_face_chunks_chunk_515_undo__redo__and_reversible_his_undo_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_521_Incremental_and_procedural_act.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "types_of_undo",
+      "label": "Types of Undo",
+      "nodes": [
+        "about_face_chunks_chunk_523_single_and_multiple_undo_single_undo",
+        "about_face_chunks_chunk_523_single_and_multiple_undo_multiple_undo",
+        "about_face_chunks_chunk_522_blind_and_explanatory_undo_blind_undo",
+        "about_face_chunks_chunk_522_blind_and_explanatory_undo_explanatory_undo"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_520_Common_types_of_Undo.md"
+    }
+  ],
+  "input_tokens": 12000,
+  "output_tokens": 2000
+}

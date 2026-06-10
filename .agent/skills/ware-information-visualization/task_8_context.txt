@@ -1,0 +1,781 @@
+Node: 053 Perception of Transparency with Uniform
+Primary concept extracted from chunk
+## Perception of Transparency with Uniform Colors
+
+In many visualization problems, it is desirable to present data in a layered form. This is especially common in geographic information systems (GISs). So that the contents of different layers are simultaneously visible, a useful technique is to present one layer of data transparently over another; however, there are many perceptual pitfalls in doing this. The contents of the different layers will always interfere with each other to some extent, and sometimes the two layers will fuse perceptually so that it is impossible to determine to which layer a given object belongs.
+
+In simple displays, as in Fig. 6.47(a), the two main determinants of perceived transparency are good continuity (Beck & Ivry, 1988) and the ratio of colors or gray values in the different pattern elements. A reasonably robust rule for transparency to be perceived is x y < z or x > y
+
+ 
+>
+ 
+z or y
+
+ 
+<
+ 
+z < w or y > z
+
+ 
+>
+ 
+w, where x, y, z, and w refer to gray values arranged in the pattern shown in Fig. 6.47(b) (Masin, 1997). Readers who are interested in perceptual rules of transparency should consult Metelli (1974).
+
+One possible application of transparency in user interfaces is to make pop-up menus transparent so that they do not interfere with information located behind them. Harrison and Vincente (1996) investigated the interference between background patterns and foreground transparent menus. They found that it took longer to read from the menu with text or wireframe drawings in the background than with continuously shaded images in the background. This is exactly what would be expected from an interference model. Because a continuously shaded image lacks the high spatial frequency detail of a wireframe image or text, there will be less interference between the two.
+
+![image](images/f06-47-9780128128756.jpg)
+
+
+Figure 6.47 In (a) transparency depends both on the color relationships and on good continuity. (b) See text for transparency rules.
+
+![image](images/f06-48-9780128128756.jpg)
+
+
+Figure 6.48 The optimal slope for feature discrimination in a line plot is 45 degree. By adjusting the plot aspect ratio different features can be made clearer. This is illustrated here with a plot of the increase of CO2 over time (the Keeling curve). (a) The shape of the overall trend is emphasized. (b) The shape of the annual rise and fall is emphasized. This example is adapted from data in Heer and Agrawala (2006).
+
+### Perceiving Patterns in Continuous Line Charts
+
+One of the most common types of visualizations is a plot wherein a continuous line is used to represent the variation of one continuous variable with respect to another. Probable the most common example is the time-series plot with time shown progressing from left to right on the x-axis and where a wiggly line shows how a particular variable changes with respect to time. The method is used to show stock market trends, mathematical functions, and engineering performance data. The example shown in Fig. 6.48 is the Keeling curve; it shows the amount of atmospheric carbon dioxide measured at the summit of Mount Moana Loa plotted against time. This example is adapted from Heer and Agrawala (2006). Previously, Cleaveland (1993) had noted that an average line orientation of 45
+ 
+degree will maximize slope discrimination in a 
+continuous line plot. Heer and Agrawala used the Keeling data to illustrate this, pointing out that in 6.48a the shape of the overall trend is clearer, whereas in 6.48
+ 
+b the shape the annual variation is clearer. For example, the infection point, just prior to 1970 is clear in 6.48a whereas in 6.48b it is easy to see that CO2 declines faster than it rises in the annual cycle.
+
+![image](images/f06-49-9780128128756.jpg)
+
+
+Figure 6.49 The scatterplot is an essential tool when looking for pattern in discrete data having two quantitative attributes.
+---
+Node: 054 Perceiving Patterns in Multidimensional part1
+Primary concept extracted from chunk
+## Perceiving Patterns in Multidimensional Discrete Data
+
+One of the most interesting but difficult challenges for data visualization is to support the exploratory data analysis of discrete multidimensional data. Visualization can be a powerful tool in data mining, in which the goal is often a kind of general search for relationships and data trends. For example, marketing experts often collect large amounts of data about individuals in potential target populations. The variables that are collected might include age, income, educational level, employment category, tendency to purchase chocolate, and so on. Each of the measured variables can be thought of as a data dimension. If the marketer can identify clusters of values in this multidimensional data set related to the likelihood of purchasing different products, this can result in better targeted, more effective advertising. The task of finding particular market segments is one of finding distinct clusters in the multidimensional space that is formed by many variables.
+
+Sometimes a scientist or a data analyst approaches data with no particular theory to test. The goal is to explore the data for meaningful and useful information in masses of mostly meaningless numbers. Plotting techniques have long been tools of the data explorer. In essence, the process is to plot the data, look for a pattern, and interpret the findings, so the critical step in the discovery process is an act of perception.
+
+The four scatterplots in Fig. 6.49 illustrate very different kinds of data relationships. In the first, there are two distinct clusters, perhaps suggesting distinct subpopulations of biological organisms. In the second, there is a clear negative linear relationship between two measured variables. In the third, there is a curvilinear, inverted U-shaped relationship. In the fourth, there is an abrupt discontinuity. Each of these patterns will lead to a very different hypothesis about underlying causal relationships between the variables. If any of the relationships were previously unknown, the researcher would be rewarded with a discovery. It would be very difficult to see the patterns by scrutinizing 
+tables of numbers. The power of a visualization method comes from enabling people to see patterns in noisy data or, in other words, letting them see meaningful signals in noise.
+
+![image](images/f06-50-9780128128756.jpg)
+
+
+Figure 6.50 (a) Two pairs of scatterplots are compared. In the top pair the r values differ by 0.01. In the lower pair they differ by 10 times as much. Yet to a first approximation our ability to perceive these differences is roughly the same. (b) Data from a study by Rensink and Baldridge is redrawn to illustrate the point that we tend to perceive correlations in terms of 1-r. This corresponds to the amount of variation not accounted for by a straight-line fit.
+
+Of course, there is an infinite variety of different meaningful patterns that may be found in data, and what is a signal in one context may be noise in another. But there are two particular kinds of patterns that are very commonly of interest: correlations and clusters. Examples are shown in the first two boxes of Fig. 6.49.
+
+Correlations are usually expressed numerically in terms of a metric called r2. This is the amount of data (technically the variance) accounted for by a straight-line fit through the cloud of data points in a linear regression. However work by Rensink and Baldridge (2010) shows that what we perceive is much more closely related the amount of correlation not accounted for by a straight line. Fig. 6.50 is adapted from Rensink and Baldridge (2010 Fig. 5) and it shows that to first approximation, the threshold for perceiving a difference between two correlations is related to 1-r. The interested reader should see their paper for a more exact formulation.
+
+Conventional scatterplots are probably the best solution when each data point has two attributes. The problem gets more difficult when more than two numerical attributes are involved. For four attributes, it is common to add glyph size and color (Fig. 6.51). Limoges, Ware, and Knight (1989) investigated glyph size, gray value, and the phase of oscillatory motion as a way of displaying correlations and found that subjects were most sensitive to phase differences. Nevertheless, the use of color and/or point size is well established as a method for representing three or four dimensional discrete data in scatterplots.
+
+![image](images/f06-51-9780128128756.jpg)
+
+
+Figure 6.51 Three-dimensional discrete data. The third dimension is given by (a) point size, (b) gray value, and (c) phase of oscillatory point motion.
+
+What do we do about data with more than three dimensions? One solution for higher dimensional discrete data display is the scatterplot matrix (Chambers, Cleveland, Kleiner, & Tukey, 1983). A scatterplot matrix is a set of 2D scatterplots that shows all pairwise combinations of variables. An example, from Li, Martens, and van Wijk (2010), is shown in Fig. 6.52. Although a scatterplot matrix can often be useful, it suffers from a disadvantage in that it is very difficult to see higher dimensional data patterns that can be understood only when three or more data dimensions are simultaneously taken into account.
+
+A second solution is the parallel coordinates plot (Inselberg & Dimsdale, 1990). In a parallel coordinates plot, each attribute dimension is represented by a vertical line, as shown in Fig. 6.52(b) and Fig. 6.53. The data points become lines that connect the various attribute values.
+
+One of the problems with the parallel coordinates plot is that the patterns that are seen depend on the way the axes are ordered with respect to one another. For this reason, most implementations of parallel coordinates allow the axes to be reordered.
+
+In a study of subjects′ ability to see clusters in multidimensional discrete data using parallel coordinate’s plots, Holten and van Wijk (2010) found that a version with embedded scatterplots was the clear winner, both in terms of correctness and speed of response. This leads one to suspect that a scatterplot matrix would have performed best without the parallel coordinates.
+
+Even when axis reordering is supported in parallel coordinates, studies show that scatterplots are much better at showing correlations (Li et al., 2010; Dimara et al., 2017).
+
+It is important to recognize, though, that parallel coordinates plots are intended to be used with an interactive technique called brushing. With brushing, a range on one of the axes is selected, causing the polylines passing through that range to become highlighted in some way. This makes the method become part of an exploratory process, where the instantaneous view may be less important; however, brushing can also be applied to a scatterplot matrix so this is not a unique advantage. Fig. 6.54 illustrates selective brushing with both parallel coordinates and a scatterplot matrix (Fig. 2 from Dimara et al., 2017).
+
+![image](images/f06-52-9780128128756.jpg)
+
+
+Figure 6.52 (a) Four-dimensional discrete data displayed using a scatterplot matrix (b) The same data displayed using a parallel coordinates plot.   
+
+From 
+Li et al. (2010)
+. Reproduced with permission.
+
+![image](images/f06-53-9780128128756.jpg)
+
+
+Figure 6.53 Parallel coordinates plot with permuted axes.   
+
+From 
+Holten and van Wijk (2010)
+. Reproduced with permission.
+
+[G6.19] To display discrete data with many dimension, consider using a scatterplot matrix.
+
+![image](images/f06-54-9780128128756.jpg)
+
+
+Figure 6.54 Examples of a problem represented in (a) parallel coordinates and (b) a matrix of pairwise scatterplots. A subset of the data points has been highlighted by means of brushing in both cases.   
+
+From 
+Dimara et al. 2017
+. Reproduced with permission.
+---
+Node: 054 Perceiving Patterns in Multidimensional part2
+Primary concept extracted from chunk
+## Perceiving Patterns in Multidimensional Discrete Data (Part 2)
+
+Most studies have only compared parallel tasks for perception of basic patterns but the whole point of these visualization techniques is to support decision-making where many variables are involved. In a study of a decision-making task where participants had to choose between vacation packages on the basis of such variables as hotel quality, price, and historic interest, Dimara et al., (2017) found no statistically significant differences between parallel coordinates and scatterplot matrices, but there were more negative comments complaining that parallel coordinates were difficult to understand. Also, a third technique, based on interactive table views turned out to be the overall winner on the complex task, although not for simpler tasks such as perception of correlations. We will discuss table-based approaches in Chapter 10.
+
+Color mapping can be used to extend the number of displayable data dimensions to five in a single scatterplot, as shown in Fig. 6.55(a). Ware and Beatty (1988) developed a simple scheme for doing this. The technique is to create a scatterplot in which each point is a colored patch rather than a black point on a white background. Up to five data variables can be mapped and displayed as follows:
+
+* Variable 1 → x-axis position
+* Variable 2 → y-axis position
+* Variable 3 → amount of red
+* Variable 4 → amount of green
+* Variable 5 → amount of blue
+
+In an evaluation of cluster perception in this kind of display, Ware and Beatty (1988) concluded that color display dimensions could be as effective as spatial 
+dimensions in allowing the visual system to perceive clusters. For this task, at least, the technique produced an effective five-dimensional window into the data space, but there are drawbacks to this kind of color-mapped scatterplot. Although identifying clusters and other patterns can be easy, interpreting them can be difficult. A cluster may appear greenish because it is low on the red variable or high on the green variable. It can be difficult to distinguish the two. The use of color can help us to identify the presence of multidimensional clusters and trends, but once the presence of these trends has been determined, other methods are needed to analyze them.
+
+![image](images/f06-55-9780128128756.jpg)
+
+
+Figure 6.55 (a) Color-enhanced scatterplot matrix. (b) Color-enhanced parallel coordinates plot using a method designed to help bring out clusters.   
+a) From 
+Ware and Beatty (1988)
+. Reproduced with permission. (b) (From 
+Holten and van Wijk (2010)
+. Reproduced with permission.
+
+Color can also be used to enhance parallel coordinates plots as well as scatterplots. Fig. 6.55(b) shows an example from Holten and van Wijk, using a coloring method designed specifically to enhance the perception of clusters.
+
+Overall, the empirical results suggest that patterns are more readily perceived using a scatterplot matrix than using parallel coordinates.
+
+[G6.20] To display discrete data with more than four dimensions, consider using a color-enhanced scatterplot matrix in combination with brushing.
+---
+Node: 055 Pattern Perception and Deep Learning part1
+Primary concept extracted from chunk
+## Pattern Perception and Deep Learning
+
+The human object pattern processing chain is illustrated in Fig. 6.56a. At each level of processing, more complex patterns are responded to over larger areas of visual space. Also, the further up the chain we go, the more the task demands dictate what is pulled out via the mechanisms of attention.
+
+In human infants low-level brain regions, such as V1 and V2, mature before higher level regions and successively more complex stages mature in sequence. Mimicking this bottom-up process was one of the key insights that lead to the revolutionary advance in artificial intelligence known as deep learning (LeCun et al., 2015). Deep learning has been taking the AI world by storm, and because of it computers are becoming better than humans at all kinds of pattern recognition tasks. Before this insight was 
+gained, multi-layer artificial neural nets quickly became unstable, but artificial neural nets made to mimic the biological bottom-up consolidation process resulted in much more accurate and manageable networks.
+
+![image](images/f06-56-9780128128756.jpg)
+
+
+Figure 6.56 (a) Human pattern processing occurs in a series of brain regions in which increasingly complex patterns are responded to. (b) The low-level features from the environment discovered by machine learning algorithms are strikingly similar to those found in primate brains Examples of three levels of feature detector from an artificial “deep learning” neural net are shown.   
+
+Adapted from 
+Zeiler and Fergus (2014)
+.
+
+It is striking that when artificial neural nets are trained with thousands of images, the low-level features that emerge are very similar to the features that have been discovered by painstaking studies of the primate visual cortex (see Fig. 6.56b from Zeiler & Fergus, 2014). It may be strange to use machine learning patterns to illustrate the processes of human vision, but at higher levels of primate vision the patterns that are responded to are largely unknown, because of the difficulty of testing for a near infinite number of patterns. However, both theory and some results suggest that human vision pattern perception has similar progression of pattern complexity. Pattern learning is driven from the top down as well as the bottom up. Top-down processes reinforce and consolidate basic patterns that lead to useful higher level patterns, throughout life they refine and tune the mechanisms at lower levels.
+
+![image](images/f06-57-9780128128756.jpg)
+
+
+Figure 6.57 The time to read a page of inverted text is plotted against the number of pages read (Kolers, 1975). Both axes have logarithmic spacing.   
+
+Data replotted from 
+Newell and Rosenbloom (1981)
+.
+
+A function called the power law of practice provides a mathematical description of how rapidly patterns can be learned.
+
+log
+
+(
+
+
+T
+n
+)
+=
+C
+−
+α
+
+log
+
+(
+n
+)
+
+![image](images/si1.png) (6.1)
+
+This law states that the log of the time to respond on the nth trial (T
+n) is inversely proportional to the log of the number of trials. The constant C is the time taken on the first trial (or block of trials).
+
+The power law of practice is usually applied to manual skill learning, but it has also been shown to apply to the perception of complex patterns. Kolers (1975) found that the power law applied to the task of learning to read inverted text. His results are illustrated in Fig. 6.57. Initially, it took subjects about 15
+ 
+minutes to read a single inverted page, but when over 100 pages had been read, the time was reduced to 2
+ 
+minutes. Although Fig. 6.57 shows a straight-line relationship between practice and learning, this is only because of the logarithmic transformation of the data. The relationship is actually very nonlinear. Consider a hypothetical task where people improve by 30% from the first day’s practice to the second day. Doubling the amount of practice has resulted in a 30% gain. According to the power law, someone with 10
+ 
+years of experience at the same task will require a further 10 years to improve by 30%. In other words, practice yields decreasing gains over time.
+
+If pattern perception is fundamental to extraction of meaning from visualizations, then an important question arises: How we learn to see patterns better? Artists talk about seeing things that the rest of us cannot see, and ace detectives presumably spot visual clues that are invisible to the beat officer. The results of many studies generally suggest that it is difficult to learn to see simple basic patterns better. There have been some studies of pattern learning where almost no learning occurred; an often cited example is the visual search for the simple conjunction of features such as color and shape (Treisman & Gelade, 1980). Other studies, however, have found that learning does occur for certain types of patterns (Logan, 1994).
+
+A plausible way of reconciling the differences in results is that pattern learning occurs for simple, basic patterns processed early in the visual system and early in life, but not for complex, unfamiliar patterns processed late in the visual system and later in life. By age 20 we have had millions of hours of exposure to simple pattern when the brain is most flexible. When we learn new complex patterns, for example, learning to discriminate anomalous cancer cells, learning will initially be very rapid, especially if we have had no prior experience with cell classification. New connections must be established higher up in the pattern discrimination hierarchy. Also, the learning of complex patterns involves interactions between many brain areas involved in determining the meaning of those patterns, not just a tuning of a neural layer (Dosher and Lu, 2017). These changes take place early in the learning curve (defined by the power law) and so performance may improve by a factor of two or more in the first hour or training. But after years of experience, further gains will be small or nonexistent.
+
+One of the main implications of perceptual learning was already stated in a guideline that was given in Chapter 1: [G1.4]. Graphical symbol systems should be standardized within and across applications. This can be restated in terms of patterns.
+
+[G6.21] In order to minimize the amount of learning needed to understand a visualization, make every effort to standardize the mapping of data to visual patterns within and across applications.
+
+### Priming
+
+In addition to long term pattern learning skills, there are also priming effects that are much more transient. Whether these constitute learning is still the subject of debate. Priming refers to the phenomenon that, once a particular pattern has been recognized, it will be much easier to identify in the next few minutes or even hours, and sometimes days. This is usually thought of as a kind of heightened receptivity within the visual system, but some theorists consider it to be visual learning. In either case, once a neural pathway has been activated, its future activation becomes facilitated. For a modern theory of perceptual priming based on neural mechanisms, see Huber and O’Reilly (2003).
+---
+Node: 055 Pattern Perception and Deep Learning part2
+Primary concept extracted from chunk
+## Pattern Perception and Deep Learning (Part 2)
+
+What are the implications of these findings for visualization? One is that people can learn pattern-detection skills, although the ease of gaining these skills will depend on the specific nature of the patterns involved. Experts do indeed have special expertise. The radiologist interpreting an X-ray, the meteorologist interpreting radar, and the statistician interpreting a scatterplot will each bring a differently tuned visual system to bear on his or her particular problem. People who work with visualizations must learn the skill of seeing particular kinds of patterns in data that relate to analytic tasks, for example, finding a cancerous growth. In terms of making visualizations that contain easily identified patterns, one strategy is to rely on pattern-finding skills that are common to everyone. These can be based on low-level perceptual capabilities, such 
+as seeing the connections between objects linked by lines. We can also rely on skill transfer. If we know that our users are cartographers, already good at reading terrain contour maps, we can display other information, such as energy fields, in the form of contour maps. The evidence from priming studies suggests that when we want people to see particular patterns, even familiar ones, it is a good idea to show them a few examples ahead of time.
+
+![image](images/f06-58-9780128128756.jpg)
+
+
+Figure 6.58 Node-link diagrams, technically called graphs: (a) A graph. (b) A graph with two connected components. (c) A directed graph. (d) A tree structure graph. (e) A nonplanar graph; it cannot be laid out on a plane without links crossing.
+---
+Node: 056 The Visual Grammar of Node-link Diagrams part1
+Primary concept extracted from chunk
+## The Visual Grammar of Node-link Diagrams
+
+Diagrams are always hybrids of the conventional and the perceptual. Diagrams contain conventional elements, such as abstract labeling codes, that are difficult to learn but formally powerful. They also contain information that is coded according to perceptual rules, such as Gestalt principles. Arbitrary mappings may be useful, as in the case of mathematical notation, but a good diagram takes advantage of basic perceptual mechanisms that have evolved to perceive structure in the environment. By presenting examples, the following sections describe the visual grammar of two different kinds of diagrams: node-link diagrams and the layered maps used in GISs.
+
+For a mathematician, a graph is a structure consisting of nodes and edges (links between the nodes). See Fig. 6.58 for examples. There is a specialized academic field called graph drawing dedicated to making graphs that are pleasantly laid out and easy to read. In graph drawing, layout algorithms are optimized according to aesthetic rules, such as the minimization of link crossings, displaying symmetry of structure, and minimizing bends in links (Di Battista, Eades, Tamassia, & Tollis, 1998). Path bendiness and the number of link crossings have both been shown empirically to degrade performance on the task of finding the shortest path between two nodes (Ware, Purchase, Colpoys, & McGill, 2002). For the most part, however, there has been little attempt either to systematically apply our knowledge of pattern perception to problems in graph drawing or to use empirical methods to determine that graphs laid out according to aesthetic principles are, in fact, easier to understand.
+
+In the following paragraphs, we broaden the concept of a graph to consider a very large class of diagrams that we will call, generically, node-link diagrams. The essential 
+characteristic of these diagrams is that they consist of nodes, representing various kinds of entities, and links, representing relationships between the entities. Dozens of different diagrams have this basic form, including software structure diagrams, data-flow diagrams, organization charts, and software modeling diagrams. Fig. 6.59 provides four examples commonly used in software engineering. The set of abstractions common to node-link diagrams is so close to ubiquitous that it can be called a visual grammar. Entities are almost always shown using outline boxes, circles, or small symbols. The connecting lines generally represent different kinds of relationships, transitions, or communication paths between nodes.
+
+![image](images/f06-59-9780128128756.jpg)
+
+
+Figure 6.59 Four different kinds of node-link diagrams used in software engineering: (a) A code module diagram. (b) A data-flow diagram. (c) An object modeling diagram. (d) A state-transition diagram. Each of these diagrams would normally contain text labels on the nodes and the arcs.
+
+The various reasons why we may be justified in referring to these graphical codes as perceptual are distributed throughout this book, but are addressed mostly in this chapter and Chapter 5. The fundamental argument is that closed contours are basic in defining visual objects. Thus, although a circular line may be only a mark drawn on paper, at some level in the visual system it is object-like. Similarly, two objects can be connected by a line, and this visual connection has the ability to represent any of a number of relationships. The likely explanation for why nodes represent entities so well and linking lines represent relationships so well is that there are deep metaphors, based on sensory perception of the world, that provide a scaffolding for even our most abstract concepts (Lakoff & Johnson, 1980; Pinker, 2007).
+
+Although lines get their expressive power from neural mechanisms designed to interpret objects, they are fundamentally ambiguous. Kennedy (1974) elucidated several ways in which contours (lines) can represent aspects of the environment. Some of them are illustrated in Fig. 6.60. A circle can represent a ring, a flat disk, a ball, a hole, or the boundary between two objects (a disk in a hole). This nicely illustrates the mixture of perception and convention that is common to diagrams. Our visual systems are capable of interpreting a line contour in any of these ways. In real-world scenes, 
+additional information is available to clarify ambiguous contours. In a diagram, the contour may remain perceptually ambiguous, and some convention may be necessary to remove the ambiguity. In one kind of diagram, a circle may represent an abstract entity; in a second, it may represent a hole; in a third, it may represent the boundary of a geographic region. The diagram convention, the context, and the Gestalt factors tell us which interpretation is correct, but contours are not subject to an infinite number of interpretations. Their power comes from the small set of general meanings that they support through deep perceptual analogies.
+
+![image](images/f06-60-9780128128756.jpg)
+
+
+Figure 6.60 The line circle shown at the top left can represent many kinds of objects: a wire ring, a disk, a ball, a cut-out hole, or the boundary between regions of different color. More importantly, it can represent abstract concepts relating to objects.
+
+Generally, though, the Gestalt figure-ground rules tell us that small, closed regions are likely to be seen as figures, or in other words, as object-like. Looking ahead to the next chapter, we find theories suggesting that attributes such as color, shape, and size are mostly perceived as secondary attributes of objects.
+
+[G6.22] When developing glyphs, use small, closed shapes to represent data entities, and use the color, shape, and size of those shapes to represent attributes of those entities.
+
+Fig. 6.60 provides a number of examples illustrating this guideline.
+
+A general data model that uses a form of node-link diagram is the entity-relationship model. It is widely used in computer science and business modeling (Chen, 1976). In entity-relationship modeling, entities can be objects and parts of objects, or more abstract things such as parts of organizations. Relationships are the various kinds of connections that can exist between entities (notice the metaphor in the use of the word connection). For example, an entity representing a wheel will have a part-of relationship to an entity representing an automobile. A person may have a customer relationship to a store. Both entities and relationships can have attributes. Thus, a particular customer might be a preferred customer. An attribute of an organization might be the number of its employees. There are standard diagrams for use in entity-relationship modeling, but we are not concerned with these here. We are more interested in the different ways diagrams can be constructed to represent entities, relationships, and attributes in an easily perceived manner.
+
+![image](images/f06-61-9780128128756.jpg)
+
+
+Figure 6.61 The basic visual grammar of entity representations for node-link diagrams.
+
+The vast majority of node-link diagrams currently in use are very simple. For the most part, these diagrams use identical rectangular or circular nodes and constant width lines, like those shown in Fig. 6.60. Although such generic diagrams are very effective in conveying patterns of structural relationships among entities, they are often poor at showing the types of entities and the types of relationships. Attributes, when they are shown, are often provided in the form of text labels attached to the boxes and lines, although occasionally dashed lines and other variations are used to denote types. As Figs. 6.61 and 6.62 suggest, a great variety of graphical styles can be used to enrich diagrams and express attributes of both entities and relationships.
+---
+Node: 056 The Visual Grammar of Node-link Diagrams part2
+Primary concept extracted from chunk
+## The Visual Grammar of Node-link Diagrams (Part 2)
+
+The visual metaphors embedded in language, in words such as connection, linkage, attachment, or part-of suggest ways of graphically encoding relationships between entities. According to Pinker (2007), such metaphors are not embellishments to language, but reflect the basic structure of thought.
+
+[G6.23] Use connecting lines, enclosure, grouping, and attachment to represent relationships between entities. The shape, color, thickness of lines, and enclosures can represent the types of relationships.
+
+Fig. 6.62 shows examples of graphical methods for defining relationships. Most of these methods are only useful for symmetric relationships, but in fact most relationships between entities are not symmetrical. One entity controls another in some way, or is used by another, or is part of another. A graph that shows asymmetric relationships is called directed, and a standardized convention that shows the asymmetry is a line with an arrowhead at one end. In a recent study, Holten and van Wijk (2009) showed that a better alternative exists, as illustrated in Fig. 6.63. The version using the tapered lines made it significantly easier to trace relationships compared to the use of conventional arrows. A theory that explains why this may be superior is based on a concept of attention spreading along contours (Houtkamp, Spekreijse, & Roelfsema, 2003). From a given node, activation should tend to spread more readily along lines that start out thick than lines that start out thin.
+
+![image](images/f06-62-9780128128756.jpg)
+
+
+Figure 6.62 The visual grammar of relationship representations.
+
+[G6.24] As an alternative to arrows to represent directed relationships in diagrams, consider using tapered lines with the broadest end at the source node.
+---
+Node: 057 The Visual Grammar of Maps
+Primary concept extracted from chunk
+## The Visual Grammar of Maps
+
+A second visual grammar can be found in the way maps are designed and interpreted. As with node-link diagrams, we rely on strong visual metaphors, although in this case 
+they are used to reason about geographical space. The terms enclosure, path, region, overlap, and connection all have visual expressions. Only three basic kinds of graphical marks are common to most maps: areas, line features, and small symbols (Mark & Franck, 1996). Fig. 6.63 elaborates the basic grammar of maps and shows how areas, lines, or small symbols can work in isolation and in combination.
+
+![image](images/f06-63-9780128128756.jpg)
+
+
+Figure 6.63 Two methods for representing directed relationships in a diagram. Research suggests that the one on the right can be interpreted more rapidly.   
+
+From 
+Holten and van Wijk (2009)
+. Reproduced with permission.
+
+* 1, 2, 3. Geographical areas are usually denoted by closed contours, tinted areas, or textured areas. Often all three methods can be used—for example, lines to represent county boundaries, color coding to represent climate, and texture to represent vegetation.
+* 4. Geographical linear features represent either boundaries or elongated geographical regions. The difference between geographical areas and linear features is sometimes related to scale. On a small scale, a river will be represented by a thin line of constant width; on a larger scale, it can become an extended geographical area.
+* 5. Dots or other small symbols are used to represent point features, although whether or not something is a point feature depends on the scale. On a large scale, an entire city may be represented by a single dot; on a small scale, a dot might be used to show the locations of churches, schools, or tourist attractions.
+* 6. A dot on a line means that the entity denoted by the point feature is on, or attached to, the entity denoted by the linear feature; for example, a city is “on” a river.
+* 7. A dot within a closed contour means that the entity denoted by the point feature lies within the boundaries of the area feature; for example, a town is within a province.
+* 8. A line crossing a closed contour region means that a linear feature crosses an area feature; for example, a road passes through a county.
+* 9. A line that ends in a closed-contour region means that a linear feature ends or starts within an area feature; for example, a river flows out of a park.
+* 10. Overlapping contour regions defined by contour, color, or texture denote overlapping spatial regions; for example, a forested region may overlap a county boundary.
+
+[G6.25] Use closed contours, areas of texture, or areas of color to denote geographic regions. Use color, texture, or boundary style to denote the type of region.
+
+[G6.26] Use lines to represent paths and linear geographic features. Use line color and style to represent the type of linear feature.
+
+[G6.27] Use small, closed shapes to represent point entities, such as cities, that appear small on a map. Use color, shape, and size to represent attributes of these entities.
+
+Maps need not be used only for geographical information. Johnson and Shneiderman (1991) developed a visualization technique they called a treemap, for displaying information about the tree data structures commonly used in computer science. Fig. 6.64 shows an example of a tree data structure presented in treemap form and in a conventional node-link diagram.
+
+The original treemap was based on the following algorithm. First, the rectangle is divided with a vertical partition according to the number of branches from the base of the tree. Next, each subrectangle is similarly divided, but with horizontal partitions. This process is repeated to the leaves of the tree. The area of each leaf on the tree corresponds to the amount of information that is stored there.
+
+The great advantage of the treemap over conventional tree views is that the amount of information on each branch of the tree can be easily visualized. Because the method is space-filling, it can show quite large trees containing thousands of branches. The disadvantage is that the nonleaf nodes are not shown and the hierarchical structure is not as clear as it is in a more conventional tree drawing. Of course, there are many hybrid designs where, for example, a node-link representation is used and the size of the node points represents some quantity.
+
+[G6.28] Consider using a treemap to display tree structured data where it is only necessary to display the leaf nodes and where it is important to display a quantity associated with each leaf node.
+
+[G6.29] Consider using a node-link representation of a tree where the hierarchical structure is important, where internal (nonleaf) nodes are important, and where quantitative attributes of nodes are less important.
+
+![image](images/f06-64-9780128128756.jpg)
+
+
+Figure 6.64 The basic visual grammar of map elements.
+---
+Node: 058 Patterns in Motion part1
+Primary concept extracted from chunk
+## Patterns in Motion
+
+To this point, we have mainly discussed the use of static patterns to represent data, even though the data is sometimes dynamic. We can use motion as a display technique to represent data that is either static or dynamic. The perception of dynamic patterns is not understood as well as the perception of static patterns, but we are very sensitive to patterns in motion, and if we can learn to use motion effectively it may be a good way to display certain aspects of data. In this section we are only concerned with using motion as a visual coding method, not with animation used for story telling. We will get to that in later chapters.
+
+We start by considering the problem of how to represent data communications with computer animation. One way of doing this is to use a graphical object to represent 
+each packet of information and then to animate that object from the information source to its destination. In the simplest case, data is represented by a series of identical and equally spaced graphical elements, as shown in Fig. 6.65. Because the elements are identical, there is a fundamental limitation on the throughput that can be represented. In a computer animation sequence, the basic process is a loop that involves drawing the animated object, displaying it, moving it, and then redrawing it. When this cycle is repeated fast enough, a sequence of static pictures is seen as a smoothly moving image. The limitation on perceived data throughput arises from the amount that a given object can be moved before it becomes confused with another object in the next frame—this is called the correspondence problem.
+
+![image](images/f06-65-9780128128756.jpg)
+
+
+Figure 6.65 (a) A treemap representation of hierarchical data. Areas represent the amount of data stored in the tree data structure. (b) The same tree structure, represented using a conventional node-link diagram.
+
+If we define the distance between pattern elements as λ, we are limited to a maximum displacement of λ/2 on each frame of animation before the pattern is more likely to be seen as moving in the reverse direction from that intended. The problem is illustrated in Fig. 6.65(a).
+
+When all the elements are identical, the brain constructs correspondences based on object proximity in successive frames. This is sometimes called the wagon-wheel effect, because of the tendency of wagon wheels in Western movies to appear to be rotating in the wrong direction. Experiments by Fleet (1998) suggest that the maximum change per frame of animation for motion to be seen reliably in a particular direction is about λ/3 for the basic representation shown in Fig. 6.65(a). Given an animation frame rate of 60 frames per second, this establishes an upper bound of 20 messages per second that can be represented.
+
+There are many ways in which the correspondence limitation can be overcome by giving the graphical elements a different shape, orientation, or color. Two possibilities are illustrated in Fig. 6.65(b) and (c). In one, the gray values of the elements are varied from message to message; in the other, the shapes of the elements are varied. Research with element shapes suggests that correspondence of shape is more important than correspondence of color in determining perceived motion (Caelli, Manning, & Finlay, 1993). In a series of experiments that examined a variety of enhanced representations like those illustrated in Fig. 6.65(b) and (c), Fleet (1998) found that the average phase 
+shift per animation frame could be increased to 3λ before correspondence was lost. Given an animation frame rate of 60 frames per second, this translates to an upper bound of 180 messages per second that can be represented using animation.
+
+Of course, when the goal is to visualize high traffic rates, there is no point in representing individual messages in detail. Most digital communications systems transfer millions of data packets per second. What is important at high data rates is an impression of data volumes, the direction of traffic flow, and large-scale patterns of activity.
+
+### Form and Contour in Motion
+
+A number of studies have shown that people can see relative motion with great sensitivity. For example, contours and region boundaries can be perceived with precision in fields of random dots if defined by differential motion alone (Regan, 1989; Regan & Hamstra, 1991). Human sensitivity to such motion patterns rivals our sensitivity to static patterns; this suggests that motion is an underutilized method for displaying patterns in data. For purposes of data display, we can treat motion as an attribute of a visual object, much as we consider size, color, and position to be object attributes. We evaluated the use of simple sinusoidal motion in enabling people to perceive correlations between variables (Limoges et al., 1989). We enhanced a conventional scatterplot representation by allowing the points to oscillate sinusoidally, either horizontally or vertically (or both), about a center point. An experiment was conducted to discover whether the frequency, phase, or amplitude of point motion was the most easily “read.” The task was to distinguish a high correlation between variables from a low one. A comparison was made with more conventional graphical techniques, including using point size, gray value, and x,y position in a conventional scatterplot. The results showed that data mapped to phase was perceived best; in fact, it was as effective as most of the more conventional techniques, such as the use of point size or gray value. In informal studies, we also showed that motion appears to be effective in revealing clusters of distinct data points in a multidimensional data space (see Fig. 6.66). Related data shows up as clouds of points moving together in elliptical paths, and these can be easily differentiated from other clouds of points.
+
+### Moving Frames
+
+Perceived motion is highly dependent on its context. A rectangular frame provides a very strong contextual cue for motion perception, as shown in Fig. 6.67(a). It is so strong that if a bright frame is made to move around a bright static dot in an otherwise completely dark environment, it is often the static dot that appears to move (Wallach, 1959). Johansson (1975) has demonstrated a number of grouping phenomena that show that the brain has a strong tendency to group moving objects in a hierarchical fashion. One of the effects he investigated is illustrated in Fig. 6.67(b) and (c). In this example, three dots are set in motion. The two outer dots move in synchrony in a horizontal direction. The third dot, located between the other two, also moves in synchrony but in an oblique direction; however, the central dot is not perceived as moving 
+along an oblique path as shown in Fig. 6.67(b). Instead, what is perceived is illustrated in Fig. 6.67(c). An overall horizontal motion of the entire group of dots is seen; within this group, the central dot also appears to move vertically.
+
+![image](images/f06-66-9780128128756.jpg)
+
+
+Figure 6.66 (a) If motion is represented using a regular sequence of identical and equally spaced elements, there is a strict limit on the throughput that can be perceived. (b, c) This limit can be extended by varying the sizes and shapes of the graphical elements.
+
+![image](images/f06-67-9780128128756.jpg)
+
+
+Figure 6.67 An illustration of the elliptical motion paths that result when variables are mapped to the relative phase angles of oscillating dots. The result is similar elliptical motion paths for points that are similar. In this example, two distinct groups of oscillating dots are clearly perceived.
+---
+Node: 058 Patterns in Motion part2
+Primary concept extracted from chunk
+## Patterns in Motion (Part 2)
+
+Computer animation is often used in a straightforward way to display dynamic phenomena, such as a particle flow through a vector field. In these applications, the main goal from a perceptual point of view is to bring the motion into the range of human sensitivities. The issue is the same for viewing high-speed or single-frame movie photography. The motions of flowers blooming or bullets passing through objects are speeded up and slowed down, respectively, so that we can perceive the dynamics of the phenomena. Humans are most sensitive to motion ranging from 0.5 to 4
+ 
+cm per second for objects viewed at normal screen distances (Dzhafarov, Sekuler, & Allik, 1993).
+
+[G6.30] When animation is used in a visualization, aim for motion in the range of 0.5–4
+ 
+degrees/second of visual angle.
+
+The use of motion to help us distinguish patterns in abstract data is at present only a research topic, albeit a very promising one. One application of the research results is the use of frames to examine dynamic flow-field animations. Frames can be used as an 
+effective device for highlighting local relative motion. If we wish to highlight the local relative motion of a group of particles moving through a fluid, a rectangular frame that moves along with the group will create a reference area within which local motion patterns can emerge.
+
+![image](images/f06-68-9780128128756.jpg)
+
+
+Figure 6.68 (a) When a stationary dot is placed within a moving frame in a dark room, it is the dot that is perceived to move in the absence of other cues. (b) When dots are set in synchronized motion, they form a frame within which individual motion is seen. (c) The entire group of dots is seen to move horizontally, and the central dot moves vertically within the group.
+
+Another way in which motion patterns are important is in helping us perceive visual space and rigid three-dimensional shapes. This topic is covered in Chapter 8 in the context of the other mechanisms of space perception.
+
+### Expressive Motion
+
+Using moving patterns to represent motion on communication channels, or in vector fields, is a rather obvious use of motion for information display, but there are other, more subtle uses. There appears to be a vocabulary of expressive motion comparable in richness and variety to the vocabulary of static patterns explored by the Gestalt psychologists. In the following sections, some of the more provocative results are discussed, together with their implications for data visualization.
+
+### Perception of Causality
+
+When we see a billiard ball strike another and set the second ball in motion, we perceive that the motion of the first ball causes the motion of the second, according to the work of Michotte (translated 1963). Michotte’s book, The Perception of Causality, is a compendium of dozens of experiments, each showing how variations in the basic parameters of velocity and event timing can radically alter what is perceived. He conducted detailed studies of the perception of interactions between two patches of light and came to the conclusion that the perception of causality can be as direct and immediate as the perception of simple form. In a typical experiment, illustrated in Fig. 6.68, one rectangular patch of light moved from left to right until it just touched a second patch of light and then stopped. At this point, the second patch of light would start to move. This was before the advent of computer graphics, and Michotte conducted his experiments with an apparatus that used little mirrors and beams of light. Depending on the temporal relationships between the moving light events and their relative velocities, observers reported different kinds of causal relationships, variously described as “launching,” “entraining,” or “triggering.”
+
+![image](images/f06-69-9780128128756.jpg)
+
+
+Figure 6.69 Michotte (1963) studied the perception of causal relationships between two patches of light that always moved along the same line but with a variety of velocity patterns.
+
+Precise timing is required to achieve perceived causality. Michotte found that, for the effect he called launching to be perceived, the second object had to move within 70
+ 
+ms of contact; after this interval, subjects still perceived the first object as setting the second object in motion, but the phenomenon was qualitatively different. He called it delayed launching. Beyond about 160
+ 
+ms, there was no longer an impression that one event caused the other; instead, the movements of the two objects were perceived as separate. Fig. 6.69 shows some of his results. For causality to be perceived, visual events must be synchronized within at least one-sixth of a second. Given that virtual-reality animation often occurs at only about 10 frames per second, events should be frame accurate for clear causality to be perceived.
+
+If an object makes contact with another and the second object moves off at a much greater velocity, a phenomenon that Michotte called triggering is perceived. The first object does not seem to cause the second object to move by imparting its own energy; rather, it appears that contact triggers propelled motion in the second object.
+
+More recent developmental work by Leslie and Keeble (1987) has shown that infants at only 27 weeks of age can perceive causal relations such as launching. This would appear to support the contention that such percepts are in some sense basic to perception.
+
+The significance of Michotte’s work for data visualization is that it provides a way to increase the expressive range beyond what is possible with static diagrams. In a static visualization, the visual vocabulary for representing relationships is quite limited. To show that one visual object is related to another, we can draw lines between them, we can color or texture groups of objects, or we can use some kind of simple shape coding. The only way to show a causal link between two objects is by using some kind of conventional code, such as a labeled arrow; however, such codes owe their meaning more to our ability to understand conventional coded language symbols than to anything essentially perceptual. Arrows are used to show many kinds of directed relationships, not just causal ones. This point about the differences between language-based codes and perceptual codes is elaborated in Chapter 9. What Michotte’s work gives us is the ability to significantly enrich the vocabulary of things that can be immediately and directly represented in a diagram, although it would be premature to recommend this as a specific guideline.
+---
+Node: 059 Perception of Animated Motion
+Primary concept extracted from chunk
+## Perception of Animated Motion
+
+In addition to the fact that we can perceive causality using simple animation, there is evidence that we are highly sensitive to motion that has a biological origin. In a series 
+of now classic studies, Gunnar Johansson attached lights to the limb joints of actors (Johansson, 1973). He then produced moving pictures of the actors carrying out certain activities, such as walking and dancing. These pictures were made so that only the points of light were visible, and, in any given still frame, all that was perceived was a rather random-seeming collection of dots, as shown in Fig. 6.70(a). But, once the dots were animated, viewers were immediately conscious of the fact that they were watching human motion. In addition, they could identify the genders of the actors and the tasks they were performing. Some of these identifications could be made after exposures lasting only a small fraction of a second.
+
+![image](images/f06-70-9780128128756.jpg)
+
+
+Figure 6.70 When one object comes into contact with another and the second moves off, the first motion may be seen to cause the second if the right temporal relationships exist. The graph shows how different kinds of phenomena are perceived, depending on the delay between the arrival of one object and the departure of the other.   
+
+From 
+Michotte (1963)
+. Reproduced with permission.
+
+![image](images/f06-71-9780128128756.jpg)
+
+
+Figure 6.71 (a) In Johansson’s (1973) experiments, a pattern of moving dots was produced by making a movie of actors with lights attached to parts of their bodies. (b) Heider and Simmel (1944) made a movie of simple geometric shapes moving through complex paths. Viewers of both kinds of displays attribute anthropomorphic characteristics to what they see.
+
+Another experiment pointing to our ability to recognize form from motion was a study by Heider and Simmel (1944). In this study, an animated movie was produced incorporating the motion of two triangles and a circle, as shown in Fig. 6.71(b). People viewing this movie readily attributed human characteristics to the shapes; they would say, 
+for example, that a particular shape was angry or that the shapes were chasing one another. Moreover, these interpretations were consistent across observers. Because the figures were simple shapes, the implication is that patterns of motion were conveying the meaning. Other studies support this interpretation. Rimé, Boulanger, Laubin, Richants, and Stroobants (1985) did a cross-cultural evaluation of simple animations using European, American, and African subjects and found that motion could express such concepts as kindness, fear, and aggression. There was considerable similarity in these interpretations across cultures, suggesting some measure of universality.
+
+### Enriching Diagrams with Simple Animation
+
+The research findings of Michotte, Johansson, Heider, Simmel, and others suggest that the use of simple motion can powerfully express certain kinds of relationships in data. Animation of abstract shapes can significantly extend the vocabulary of things that can be conveyed naturally beyond what is possible with a static diagram. The fact that motion does not require the support of complex depictive representations (of animals or people) for movement to be perceived as animate means that simplified motion techniques may be useful in multimedia presentations. The kinds of animated critters that are starting to crawl and hop over web pages are often unnecessary and distracting. Just as elegance is a virtue in static diagrams, so is it a virtue in diagrams that use animation. A vocabulary of simple expressive animation requires development, but research results strongly suggest that this will be a productive and worthwhile endeavor. The issue is pressing, because animation tools are becoming more widely available for information display systems. More design work and more research are needed.
+---
+Node: 060 The Processes of Pattern Finding
+Primary concept extracted from chunk
+## The Processes of Pattern Finding
+
+We conclude this chapter with some remarks on the process within which the pattern-finding machinery of the brain operates. When we look at something that is well known to us, what we perceive is largely a product of information stored in our brains. For the most part we see what we know, but the discovery of novel patterns is very different, since the brain does not have the same memory resources to build meaning.
+
+Ullman (1984) proposed that low-level processes run in the brain to pull out abstract patterns, and, in this chapter, we have seen research suggesting how these may operate in terms of extended contours, and we have suggested that similar mechanisms exist for regions of common texture or color. A key point about Ullman’s theory is that only a small number of pattern operators can run simultaneously. We can only mentally trace a very small number of contours, probably fewer than five at the same time, if they are simple, and only one that is slightly more complex. The same goes for regions defined by texture or color. The theory of attentional shrouds proposes that there are mechanisms whereby regions of different texture compete for attention (Bhatt, Carpenter, & Grossberg, 2007). How attention is allocated depends both on 
+how salient the regions are and the top-down influence of visual queries derived from the cognitive task of the moment. The actual number of simple patterns that can be held in attention is tied to the limits of visual working memory, only three or four patterns. In Chapter 11, we will see how this is a key bottleneck in visual cognition.
+
+In data exploration, cognitive task demands lead to the formation of visual queries. Understanding the visual queries required for a cognitive task to be executed means discovering the task relevant patterns in data and this is the key to critical analysis and design. Understanding the problems to be solved using a visualization and the task relevant patterns that must be perceived is the key to the graphical aspects of good design. The designer’s job is to make a design such that all task relevant patterns are easily perceived, with a minimum of cognitive effort, and distractions are minimized. Understanding visual queries is also the key to the critical analysis of existing visualization solutions. They can be used to deconstruct a design to determine where it succeeds and where it falls short.
+---
+Node: Chapter Seven. Space Perception
+Primary concept extracted from chunk
+# Chapter Seven. Space Perception
+
+Chapter Seven
+
+# Space Perception
+---
+Node: 062 Depth Cue Theory part1
+Primary concept extracted from chunk
+## Depth Cue Theory
+
+The visual world provides many different sources of information about 3D space. These sources are usually called depth cues, and a large body of research is related to the way the visual system processes depth cue information to provide an accurate perception of space. Following is a list of the more important depth cues. They are divided into categories according to whether they can be reproduced in a static picture (monocular static) or a moving picture (monocular dynamic) or require two eyes (binocular).
+
+Monocular static (pictorial)
+
+* ● Linear perspective
+* ● Texture gradient from perspective
+* ● Size gradient from perspective
+* ● Occlusion
+* ● Depth of focus
+* ● Shape from shading
+* ● Vertical position
+* ● Relative size to familiar objects
+* ● Cast shadows
+
+Monocular dynamic (moving picture)
+
+* ● Structure from motion (kinetic depth, motion parallax)
+
+Monocular nonpictorial
+
+* ● Depth-from-eye accommodation
+
+Binocular
+
+* ● Eye convergence
+* ● Stereoscopic depth
+
+More attention is devoted to stereoscopic depth perception than to the other depth cues, not because it is the most important—it is not—but because it is relatively complex and because it is difficult to use effectively.
+
+### Perspective Cues
+
+Fig. 7.1 shows how perspective geometry can be described for a particular viewpoint and a picture plane. The position of each feature on the picture plane is determined by extending a ray from the viewpoint to that feature in the environment. If the resulting picture is subsequently scaled up or down, the correct viewpoint is specified by similar triangles, as shown. If the eye is placed at the specified point with respect to the picture, the result is a correct perspective view of the scene. A number of the depth cues are direct results of the geometry of perspective. These are illustrated in Figs. 7.2 and 7.3.
+
+* ● Parallel lines converge to a point.
+* ● Objects at a distance appear smaller on the picture plane than do nearby objects. Objects of known size may have a very powerful role in determining the perceived size of adjacent unknown objects. An image of a person placed in a picture of otherwise abstract objects gives a scale to the entire scene.
+* ● Uniformly textured surfaces result in texture gradients in which the texture elements become smaller with distance.
+
+In terms of the total amount of information available from an information display, there is no evidence that a perspective picture lets us see more than a nonperspective image. A study by Cockburn and McKenzie (2001) showed that perspective cues added no advantage to a version of the data mountain display of Robertson et al. (1998). The version shown in Fig. 7.4(b)was just as effective as the one in Fig. 7.4(a); however, both of 
+these versions make extensive use of other depth cues, namely occlusion and height on the picture plane, so the comparison was not really between 2D and 3D but between slightly 3D and slightly more 3D.
+
+![image](images/f07-01-9780128128756.jpg)
+
+
+Figure 7.1 The geometry of linear perspective is obtained by sending a ray from each point in the environment through a picture window to a single fixed point. To obtain a perfect perspective picture, each point on the picture window is colored according to the light that emanates from the corresponding region of the environment. The result is that objects vary in size on the picture plane in inverse proportion to their distance from the fixed point. If an image is created according to this principle, the correct viewpoint is determined by similar triangles, as shown in the upper right.
+
+![image](images/f07-02-9780128128756.jpg)
+
+
+Figure 7.2 Perspective cues arising from perspective geometry include the convergence of lines and the fact that more distant objects become smaller on the picture plane.
+
+![image](images/f07-03-9780128128756.jpg)
+
+
+Figure 7.3 A texture gradient is produced when a uniformly textured surface is projected onto the picture plane.
+
+### The Duality of Depth Perception in Pictures
+
+In the real world, we generally perceive the actual size of an object rather than the size at which it appears on a picture plane (or on the retina). This phenomenon is called size constancy. The degree to which size constancy is obtained is a useful measure of the relative effectiveness of depth cues. When we perceive pictures of objects, we enter a kind of dual perception mode. To some extent, we have a choice between accurately judging the size of a depicted object as though it exists in a 3D space and accurately judging its size on the picture plane (Hagen, 1974). The amount and effectiveness of the depth cues used will, to some extent, make it easy to see in one mode or the other. The picture plane sizes of objects in a very sketchy schematic picture are easy to perceive. At the other extreme, when viewing a highly realistic stereoscopic moving picture at a movie theater, the 3D sizes of objects will be more readily perceived, but in this case large errors will be made in estimating picture plane sizes. Fig. 7.5 shows how perspective cues can affect the perceived size of two objects that have identical sizes on the picture plane. This has implications if accurate size judgments are required in a visualization.
+
+[G7.1] If accurate size judgments are required for abstract 3D shapes viewed in a computer-generated 3D scene, provide the best possible set of depth cues.
+
+![image](images/f07-04-9780128128756.jpg)
+
+
+Figure 7.4 (a) Variation on the Robertson et al. (1998) Data Mountain display. (b) Same as (a) but without perspective.   
+
+(a)Courtesy of Andy Cockburn.
+
+![image](images/f07-05-9780128128756.jpg)
+
+
+Figure 7.5 Because of the strong perspective cues the figure above looks much bigger than the one below, even though they are the same size. This would be even more pronounced with greater realism and stereoscopic cues. In the image plane the two figures are identical.   
+From <http://www.sapdesignguild.org/contact.asp>. (With permission).
+
+### Pictures Seen from the Wrong Viewpoint
+
+Most pictures are not viewed from their correct centers of perspective. In a movie theater, only one person can occupy this optimal viewpoint (determined by viewpoint position, the focal length of the original camera, and the scale of the final picture). When a picture is viewed from somewhere other than the center of perspective, the laws of geometry suggest that significant distortions should occur; for example, the angle between objects differing in distance will be perceived incorrectly. Work by Banks, Cooper, and Piazza (2014) suggests that people prefer to look at images from the correct viewing distance. For computer graphics renderings of data, this means that the aspect ratio of the view frustum used in rendering should match the aspect ratio formed by the distance of an observer from the display screen and the width of image on the screen. This means that, ideally, an image of a 3D data visualization should not be simply shrunk if it is to be displayed small on a monitor screen or a small phone screen, rather it should be rendered with very different viewing parameters. The frustum aspect ratio (d/w) should be larger and the viewing angle correspondingly smaller. This is equivalent to the use of a long-focal-length lens in photography.
+
+[G7.2] If it is known in advance that an image of 3D data is to be viewed on a large screen or a small screen, adjust the parameters of the viewing frustum accordingly when rendering. The viewing angle of the frustum used in rendering the virtual scene should approximate the viewing angle of the displayed image.
+---
+Node: 062 Depth Cue Theory part2
+Primary concept extracted from chunk
+## Depth Cue Theory (Part 2)
+
+.Images of 3D data may also be viewed off-axis. Fig. 7.6 illustrates this. When the mesh shown in Fig. 7.6 is projected on a screen with a geometry based on viewpoint labeled 
+a
+, but actually viewed from position 
+b
+, it should be perceived to stretch along the line of sight as shown. However, although people report seeing some distortion at the start of looking at moving pictures from the wrong viewpoint, they become unaware of the distortion after a few minutes. Kubovy (1986) calls this the robustness of linear perspective. Apparently, the human visual system overrides some aspects of perspective in constructing the 3D world that we perceive.
+
+One of the mechanisms that can account for this lack of perceived distortion may be a built-in perceptual assumption that objects in the world are rigid. Suppose that the mesh in Fig. 7.7 is smoothly rotated around a vertical axis and projected assuming the correct viewpoint, but viewed from an incorrect viewpoint. It should appear as a nonrigid, elastic body, but perceptual processing is constrained by a rigidity assumption, and this causes us to see a stable, nonelastic 3D object.
+
+Under extreme conditions, some distortion is still seen with off-axis viewing of moving pictures. Hagen and Elliott (1976) showed that this residual distortion is reduced if the projective geometry is made more parallel. This can be done by simulating long-focal-length lenses, which may be a useful technique if displays are intended for off-axis viewing.
+
+[G7.3] To minimize perceived distortions from off-axis viewing of 3D data spaces, avoid extremely wide viewing angles when defining perspective views. As a rule of thumb, keep the horizontal viewing angle below 30 degrees.
+
+#### Fish-Tank Virtual Reality
+
+Various technologies exist that can track a user’s head position with respect to a computer screen and thereby estimate the position of the eye(s). With this information, a 3D scene can be computed and viewed so the perspective is “correct” at all times 
+by adjusting the viewpoint parameters in the computer graphics software (Deering, 1992). I called this setup fish-tank virtual reality to contrast it with the immersive virtual reality that is obtained with head-mounted displays (Ware, Arthur, & Booth, 1993). It is like having a small, bounded, fish-tank-sized artificial environment with which to work. There are two reasons why this might be desirable, despite the fact that incorrect perspective viewing of a picture seems generally unimportant. The first reason is that, as an observer changes position, the perspective image will change accordingly, resulting in motion parallax. Motion parallax is itself a depth cue, as discussed later in the structure-from-motion section. The second reason is that in some virtual-reality systems it is possible to place the subject’s hand in the same space as the virtual computer graphics imagery. Fig. 7.8 shows an apparatus that uses a half-silvered mirror to combine computer graphics imagery with a view of the user’s own hand. To get the registration between the hand and virtual objects correct, the eye position must be tracked and the perspective computed accordingly.
+
+![image](images/f07-06-9780128128756.jpg)
+
+
+Figure 7.6 When a computer-generated perspective image of data is shown on a small screen the aspect ratio of the viewing frustum should be adjusted.
+
+![image](images/f07-07-9780128128756.jpg)
+
+
+Figure 7.7 (a) When a perspective picture is seen from the wrong viewpoint, simple geometry predicts that large distortions should be seen. In fact, they are not seen or, when seen, are minimal. (b) A rotating object seen from the incorrect viewpoint appears undistorted. (c) Were the mental calculation based on simple geometry, it should appear to warp as shown in the top-to-bottom sequence.
+
+When virtual-reality head-mounted displays are used, it is essential that the perspective be coupled to a user’s head movement, because the whole point is to allow users to change viewpoint in a natural way. Experimental evidence supports the idea that head-coupled perspective enhances the sense of presence in virtual spaces more than stereoscopic viewing (Arthur, Booth, & Ware, 1993; Pausch, Snoddy, Taylor, Watson, & Haseltine, 1996).
+
+### Occlusion
+
+If one object overlaps or occludes another, it appears closer to the observer (see Fig. 7.9). This is probably the strongest depth cue, overriding all the others, but it provides only binary information. An object is either behind or in front of another; no information is given about the distance between them. A kind of partial occlusion occurs when 
+one object is transparent or translucent. In this case, there is a color difference between the parts of an object that lie behind the transparent plane and the parts that are in front of it.
+
+![image](images/f07-08-9780128128756.jpg)
+
+
+Figure 7.8 A user is attempting to trace 3D blood vessels in an interface that puts his hands in the same space as the virtual computer graphics imagery.   
+From Serra, Hern, Choon, and Poston (1997). Reproduced with permission.
+
+![image](images/f07-09-9780128128756.jpg)
+
+
+Figure 7.9 The figures depicted on the left can be seen as having the same size but different distances. On the right, the occlusion depth cue ensures that we see the upper figure as at the same depth or closer than the left figure. It therefore appears smaller.
+
+Occlusion can be useful in design; for example, the tabbed cards illustrated in Fig. 7.10(a) use occlusion to provide rank-order information, in addition to rapid access to individual cards. Although modern graphical user interfaces (GUIs) are usually described as being 2D, they are actually 3D in a nontrivial way. Overlapping windows rely on our understanding of occlusion to be effective; see Fig. 7.10(b).
+
+### Shape From Shading
+
+Continuous surfaces are common in 3D visualization, and the shape of their bumps, ridges, and indentations can contain important information. Examples include digital 
+elevation maps representing the topography of the land or the ocean floor; maps of physical properties of the environment, such as pressure and temperature; and maps representing mathematical functions that are only distantly related to the raw data. These kinds of data objects are variously called 2D scalar fields, univariate maps, or 2D manifolds. The two traditional methods for displaying scalar field information are the contour map, which originated in cartography, and the pseudocolor map, discussed in Chapter 4. Here we consider using the spatial cues that let us perceive curved surfaces in the world, mainly shape from shading and conformal texture.
+
+![image](images/f07-10-9780128128756.jpg)
+
+
+Figure 7.10 (a) Careful use of occlusion enables small tabs to provide access to larger objects. (b) Window interfaces use occlusion.
+
+### Shading Models
+
+The basic shading model used in computer graphics to represent the interaction of light with surfaces has already been discussed in Chapter 2. It has four basic components, as follows:
+
+* 1. Lambertian shading—Light reflected from a surface equally in all directions
+* 2. Specular shading—Highlights reflected from a glossy surface
+* 3. Ambient shading—Light coming from the surrounding environment
+* 4. Cast shadows—Shadows cast by an object, either on itself or on other objects
+
+Fig. 7.11 illustrates the shading model, complete with cast shadows, applied to a digital elevation map of San Francisco Bay. As can be seen, even this simple lighting model is capable of producing a dramatic image of surface topography. A key question in choosing a shading model for data visualization is not its degree of realism but how well it reveals the surface shape. There is some evidence that more sophisticated lighting may actually be harmful in representing surfaces.
+---
+Node: 062 Depth Cue Theory part3
+Primary concept extracted from chunk
+## Depth Cue Theory (Part 3)
+
+Experiments by Ramachandran (1988) suggest that the brain assumes a single light source from above in determining whether a particular shaded area is a bump or a hollow (see Fig. 7.12). The kinds of complex shadows that result from multiple light sources and radiosity modeling may be visually confusing rather than helpful. As discussed in Chapter 2 (Fig. 2.8), specular highlights can be extremely useful in revealing 
+fine surface details, as when a light is used to show scratches on glass. At other times, highlights will obscure patterns of surface color. Also, discussed and illustrated in Chapter 2 (Fig. 2.9), the technique of ambient occlusion reduces the amount of simulated ambient light reaching recessed parts of objects (Tarini, Cignoni, & Claudio Montani, 2006). It may be preferable to the use of cast shadows in certain circumstances. Overall, the choice of lighting cues as aids to visualization cannot be captured with simple guidelines. It is a design problem that can only be addressed by carefully considering which parts of a 3D data object should be made clear, the shapes of those parts and the surrounding spatial context.
+
+![image](images/f07-11-9780128128756.jpg)
+
+
+Figure 7.11 A shaded representation of the floor of San Francisco Bay, shown as if the water had been drained out of it.   
+Data courtesy of James Gardner, U.S. Geological Survey. Image constructed using IVS Fledermaus software.
+
+![image](images/f07-12-9780128128756.jpg)
+
+
+Figure 7.12 The brain generally assumes that lighting comes from above. The bumps in this image become hollows when the picture is turned upside down, and vice versa.
+
+A clever use of shape from shading is shown in Fig. 7.13. van Wijk and Telea (2001) developed a method that allows for the perception of surface shape using shape-from-shading information. In addition, they added ridges that also allow for contours to be perceived.
+
+Shading information can also be useful in emphasizing the affordances of display widgets such as buttons and sliders, even in displays that are very flat. Fig. 7.14 illustrates a slider enhanced with shading. This technique is widely used in today’s graphical user interfaces.
+
+### Cushion Maps
+
+The treemap visualization technique was introduced in Chapter 6 and illustrated in Fig. 6.65 (Johnson & Shneiderman, 1991). As discussed, a problem with treemaps is that they do not convey tree structure well, although they are extremely good at 
+showing the sizes and groupings of the leaf nodes. An interesting solution devised by van Wijk and van de Wetering (1999) makes use of shading. They called it a cushion map. To create it, the hierarchical shading model is applied to a treemap in such a way that areas representing large branches are given an overall shading, and regions representing smaller branches are given their own shading within the overall shading. This is repeated down to the leaf nodes, which have the smallest scale shading. An example is shown in Fig. 7.15 showing a computer file system. As can be seen, the hierarchical structure of the system is more visible than it would be in an unshaded treemap.
+
+![image](images/f07-13-9780128128756.jpg)
+
+
+Figure 7.13 In this image, the average precipitation over Europe for January has been converted to a smoothed surface using the method of van Wijk and Telea (2001). The shape of this surface is revealed through shape-from-shading information.   
+Courtesy of J van Wijk; van Wijk and Telea, 2001.
+
+![image](images/f07-14-9780128128756.jpg)
+
+
+Figure 7.14 Even with mostly 2D interfaces, subtle shading can make sliders and other widgets look like objects that can be manipulated.
+
+### Surface Texture
+
+Surfaces in nature are generally textured. Gibson (1986) took the position that surface texture is an essential property of a surface. A nontextured surface, he said, is merely a patch of light. The way in which textures wrap around surfaces can provide valuable information about surface shape.
+
+Without texture, it is usually impossible to distinguish one transparent curved surface from another transparent curved surface lying beneath it. Fig. 7.16 shows an illustration from Interrante, Fuchs, and Pizer (1997) containing experimental see-through textures designed to reveal one curved surface lying above another. The concept of laciness, discussed in Chapter 6, is relevant here, because it tells us something about how to make layers visually distinct and thereby clearly show separate surfaces, one beneath another.
+
+There are many ways to make oriented textures conform to a surface. Texture lines can be constructed to follow the fall line (down slope), to be horizontal contours, to be at right angles to maximum curvature direction, or to be orthogonal to the line of site of a viewer, to present just a few examples.
+
+Kim, Hagh-Shenas, and Interrante (2003) investigated combinations of first and second principal directions of curvature contours, as illustrated in Fig. 7.17 (the principal curvature direction is the direction of maximum curvature). All of the textured surfaces were artificially lit using standard computer graphics shading algorithms. Subjects made smaller errors in surface orientation judgments when two contour directions were used to form a mesh, as shown in Fig. 7.17(a). Nevertheless, this study and Norman, Todd, and Phillips (1995) found that errors averaged 20 degrees. This is surprisingly large and suggests that further gains are possible.
+
+![image](images/f07-15-9780128128756.jpg)
+
+
+Figure 7.15 The cushion map is a variation of a treemap that uses shape-from-shading information to reveal hierarchical structure.   
+Courtesy of Jack van Wijke.
+
+![image](images/f07-16-9780128128756.jpg)
+
+
+Figure 7.16 Textures designed to reveal surface shape so another surface can be seen beneath.   
+From Interrante et al. (1997). Reproduced with permission.
+
+A simpler way of a revealing the shape of a surface through texture is to drape a regular grid mesh over it (Bair, House, & Ware, 2009; Sweet & Ware, 2004). See Fig. 7.18. More studies are needed to do direct comparisons between the various conformal texture generation methods, but cross-paper comparisons suggest that simple draped meshes yield smaller errors than the fall line or principal curvature textures, as Bair et al. (2009) measured mean errors of less than 12 degrees using grids. In addition, if grids are constructed with a standard cell size they provide useful scale information. Another interesting result is that perspective views result in smaller errors than plan views.
+
+![image](images/f07-17-9780128128756.jpg)
+
+
+Figure 7.17 Surface-revealing texture patterns. (a) Two-directional texture pattern following first and second principal directions. (b) One-directional texture pattern following first principal curvature direction. (c) One-directional, line-integral convolutions texture following first principal curvature direction. (d) No texture.   
+From Kim et al. (2003). Reproduced with permission.
+
+![image](images/f07-18-9780128128756.jpg)
+
+
+Figure 7.18 Simple draped grids can help reveal surface shape.
+
+[G7.4] In 3D visualizations of height field data, consider using draped grids to enhance surface shape information. This is likely to be most useful where the data varies smoothly so surface shape features are substantially larger than grid squares.
+
+### Cast Shadows
+---
+Node: 062 Depth Cue Theory part4
+Primary concept extracted from chunk
+## Depth Cue Theory (Part 4)
+
+Cast shadows are a very potent cue to the height of an object above a plane, as illustrated in Fig. 7.19. They can function as a kind of indirect depth cue—the shadow locates the object with respect to some surface in the environment. In the case of Fig. 7.19, this surface is not present in the illustration but is assumed by the brain. In a multifactor experiment, Wanger, Ferwander, and Greenberg (1992) found that shadows provided the strongest depth cue when compared to texture, projection type, frames of reference, and motion. It should be noted, however, that they used an oblique checkerboard as a base plane to provide the actual distance information, so strictly speaking the checkerboard was providing the depth cue. Cast shadows function best as a cue to height above surface when there is a relatively small distance between the object and the surface. They can be especially effective in showing when an object is very close to the point of contact (Madison, Thompson, Kersen, Shirley, & Smits, 2001).
+
+Kersten, Mamassian, and Knill (1997) showed that cast shadows are especially powerful when objects are in motion. One of their demonstrations is illustrated in Fig. 7.20(b). In this case, the apparent trajectory of a ball moving in 3D space is caused to change dramatically depending on the path of the object’s shadow. The image of the ball actually travels in a straight line, but the ball appears to bounce because of the way the shadow moves. In this study, shadow motion was shown to be a stronger depth cue than change in size with perspective.
+
+It has been shown that shadows can be correctly interpreted without being realistic. Kersten, Mamassian, Knill, and Bulthoff (1996) found no effect of shadow quality in their results; however, one of the principal cues in distinguishing shadows from 
+nonshadows in the environment is the lack of sharpness in shadow edges. Fuzzy-edged shadows are likely to lead to less confusing images.
+
+![image](images/f07-19-9780128128756.jpg)
+
+
+Figure 7.19 Cast shadows can be useful in making data appear to stand above an opaque plane.
+
+![image](images/f07-20-9780128128756.jpg)
+
+
+Figure 7.20 (a) Shadows can provide a strong cue for the relative height of objects above a plane. (b) The effect is even stronger with motion. The ball actually appears to bounce when the ball and shadows are animated to follow the trajectories shown by the arrows.
+
+Cast shadows are useful in distinguishing information that is layered a small distance above a planar surface, as illustrated in Fig. 7.19. In this case, they are functioning as a depth cue. This technique can be applied to layered map displays of the type used in geographical information systems (GISs).
+
+In complex environments, however, where objects are arranged throughout 3D space, cast shadows can be confusing rather than helpful, because it may not be possible to determine perceptually which object is casting a particular shadow.
+
+[G7.5] In 3D data visualizations, consider using cast shadows to tie objects to a surface that defines depth. The surface should provide strong depth cues, such as a grid texture. Only use cast shadows to aid in depth perception where the surface is simple and where the objects casting the shadow are close to it.
+
+### Ambient Occlusion
+
+Fig. 7.21 shows an image of blood vessels rendered using a variant on ambient occlusion (Díaz, Ropinski, Navazo, Gobbetti, & Vázquez, 2017) to evaluate the value of different shading cues for depth judgments in a stereoscopic display. The researchers found that depth judgments were better with this display than when no shading was applied. However, simple Phong shading also improved performance and there was no significant difference between the rendering methods.
+
+### Distance Based on Familiar Size
+
+Many objects that we see have a known size and this can be used to help us judge distance. Fig. 7.22 illustrates this. The German shepherd dog and the chair are objects known to be of roughly comparable size; therefore, we see them as at the same distance in the composition on the left. A different interpretation is available on the right, where the size and vertical position depth cues are consistent with the result that the dog is seen as more distant than the chair.
+
+![image](images/f07-21-9780128128756.jpg)
+
+
+Figure 7.21 An image of blood vessels shaded using ambient occlusion.   
+From Díaz et al., 2017. With permission.
+
+![image](images/f07-22-9780128128756.jpg)
+
+
+Figure 7.22 On the left, we see a picture of a dog and a chair, arranged rather arbitrarily but appearing to be the same distance from the viewer. On the right, the known sizes of dog and chair are consistent with another interpretation, that of a coherent 3D scene with the dog at a greater distance.
+
+### Depth of Focus
+
+When we look around, our eyes change focus to bring the images of fixated objects into sharp focus on the fovea. As a result, the images of both nearby and more distant objects become blurred, making blur an ambiguous depth cue. In an image with some objects that are sharp and others that are blurred, all the sharp objects tend to be seen at a single distance, and the blurred objects tend to be seen at a different distance, either closer or farther away. Focus effects are important in separating foreground objects from background objects, as shown in Fig. 7.23. Perhaps because of its role as a depth cue, simulating depth of focus is an excellent way to highlight information by blurring everything except that which is critical. Of course, this only makes sense if the critical information can be reliably predicted.
+
+The effect of depth of focus can be properly computed only if the object of fixation can be predicted. In normal vision, our attention shifts and our eyes refocus dynamically depending on the distance of the object fixated. Chapter 2 describes a system designed to change focus information based on a measured point of fixation in a virtual environment. An alternative is a holographic display which structures the light field in a way that mimics the natural environment and therefore provides accurate depth-of-focus information.
+
+### Eye Accommodation
+
+The eye changes focus so that an attended object forms a sharp image on the retina. If the brain could measure the eye’s accommodation this might be a depth cue. But, because we are only capable of focusing to an accuracy of half a diopter, theoretically, accommodation can provide only limited information about the distance to objects closer than 2
+ 
+m (Hochberg, 1971). In fact, accommodation does not appear to be used to judge distance directly but may be used indirectly in computing the sizes of nearby objects (Wallach & Floor, 1971).
+
+### Structure from motion
+
+When an object is in motion or when we ourselves move through the environment, the result is a dynamically changing pattern of light on the retina. Structure-from-motion information is generally divided into two different classes: motion parallax and kinetic depth effect. An example of motion parallax occurs when we look sideways out of a car or train window. Things nearby appear to be moving very rapidly, whereas objects close to the horizon appear to move gradually. Overall, there is a velocity gradient, as illustrated in Fig. 7.24(a).
+
+![image](images/f07-23-9780128128756.jpg)
+
+
+Figure 7.23 The eye adjusts to bring objects of interest into sharp focus. As a result, objects that are closer or more distant become blurred.
+
+![image](images/f07-24-9780128128756.jpg)
+
+
+Figure 7.24 Three different kinds of structure-from-motion information. (a) The velocity gradient that results when the viewer is looking sideways out of a moving vehicle. (b) The velocity field that results when the viewer is moving forward through the environment. (c) The kinetic depth information that results when a rotating rigid object is projected onto a screen.

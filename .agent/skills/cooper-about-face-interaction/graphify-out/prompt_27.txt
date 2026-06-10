@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=27, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_27.json
+FILES:
+/private/tmp/about_face_chunks/chunk_651_Disabled_menu_items.md
+/private/tmp/about_face_chunks/chunk_652_Check_mark_menu_items.md
+/private/tmp/about_face_chunks/chunk_653_Icons_on_menus.md
+/private/tmp/about_face_chunks/chunk_654_Accelerators.md
+/private/tmp/about_face_chunks/chunk_655_Access_keys.md
+/private/tmp/about_face_chunks/chunk_656_Cascading_menus_versus_monocli.md
+/private/tmp/about_face_chunks/chunk_657_Toolbars__Palettes__and_Sideba.md
+/private/tmp/about_face_chunks/chunk_658_Toolbars_and_menus.md
+/private/tmp/about_face_chunks/chunk_659_Toolbars_versus_modeless_dialo.md
+/private/tmp/about_face_chunks/chunk_660_ToolBar_buttons.md
+/private/tmp/about_face_chunks/chunk_661_ToolTips.md
+/private/tmp/about_face_chunks/chunk_662_Disabling_toolbar_controls.md
+/private/tmp/about_face_chunks/chunk_663_Toolbar_control_proliferation.md
+/private/tmp/about_face_chunks/chunk_664_Movable_toolbars.md
+/private/tmp/about_face_chunks/chunk_665_Customizable_toolbars.md
+/private/tmp/about_face_chunks/chunk_666_Contextual__pop_up__toolbars.md
+/private/tmp/about_face_chunks/chunk_667_The_ribbon_control.md
+/private/tmp/about_face_chunks/chunk_668_Tool_palettes.md
+/private/tmp/about_face_chunks/chunk_669_Sidebars__task_panes__and_draw.md
+/private/tmp/about_face_chunks/chunk_670_Pointing__Selection__and_Direc.md
+/private/tmp/about_face_chunks/chunk_671_Mouse_ergonomics.md
+/private/tmp/about_face_chunks/chunk_672_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_673_Mouse_buttons_and_controls.md
+/private/tmp/about_face_chunks/chunk_674_Left_mouse_button.md
+/private/tmp/about_face_chunks/chunk_675_Right_mouse_button.md

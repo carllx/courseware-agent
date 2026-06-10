@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=24, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_24.json
+FILES:
+/private/tmp/about_face_chunks/chunk_576_Context__context__context.md
+/private/tmp/about_face_chunks/chunk_577_Shape.md
+/private/tmp/about_face_chunks/chunk_578_Size.md
+/private/tmp/about_face_chunks/chunk_579_Color.md
+/private/tmp/about_face_chunks/chunk_580_Value.md
+/private/tmp/about_face_chunks/chunk_581_Hue.md
+/private/tmp/about_face_chunks/chunk_582_Saturation.md
+/private/tmp/about_face_chunks/chunk_583_HSV_in_combination.md
+/private/tmp/about_face_chunks/chunk_584_Orientation.md
+/private/tmp/about_face_chunks/chunk_585_Texture.md
+/private/tmp/about_face_chunks/chunk_586_Position.md
+/private/tmp/about_face_chunks/chunk_587_Text_and_Typography.md
+/private/tmp/about_face_chunks/chunk_588_Information_hierarchy.md
+/private/tmp/about_face_chunks/chunk_589_Motion_and_change_over_time.md
+/private/tmp/about_face_chunks/chunk_590_Visual_Interface_Design_Princi.md
+/private/tmp/about_face_chunks/chunk_591_Convey_a_tone_communicate_the_.md
+/private/tmp/about_face_chunks/chunk_592_Lead_users_through_the_visual_.md
+/private/tmp/about_face_chunks/chunk_593_Establish_relationships.md
+/private/tmp/about_face_chunks/chunk_594_Occasionally__squint_at_it.md
+/private/tmp/about_face_chunks/chunk_595_Provide_visual_structure_and_f.md
+/private/tmp/about_face_chunks/chunk_596_Align_to_a_grid.md
+/private/tmp/about_face_chunks/chunk_597_Create_a_logical_path.md
+/private/tmp/about_face_chunks/chunk_598_Balance_the_interface_elements.md
+/private/tmp/about_face_chunks/chunk_599_Signal_what_users_can_do_on_a_.md
+/private/tmp/about_face_chunks/chunk_600_Use_icons.md

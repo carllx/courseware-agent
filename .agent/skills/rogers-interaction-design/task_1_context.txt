@@ -1,0 +1,484 @@
+Node: Acknowledgments
+Primary concept extracted from chunk
+# Acknowledgments
+
+Many people have helped us over the years in writing the six editions of this book. We have benefited from the advice and support of our many professional colleagues across the world and from our students, friends, and families. We would like to thank  everyone who generously contributed their ideas and time to help make all of the editions of this book successful.
+
+These  include  our  colleagues  and  students  at  the  College  of  Information  Studies— “Maryland’s  iSchool”—at  University  of  Maryland,  the  Human-Computer  Interaction Laboratory (HCIL), the Open University, and University  College  London. We would  especially like  to thank  (in  alphabetical first  name order)  all  of the  following  individuals  who have helped us over the years:
+
+Alex  Quinn,  Alice  Robbin,  Alice  Siempelkamp,  Alina  Goldman,  Allison  Druin, Ana Javornik,  Anijo  Mathew,  Ann  Blandford,  Ann  Jones,  Anne  Adams,  Ben  Bederson,  Ben Shneiderman, Blaine Price, Carol Boston, Cathy Holloway, Clara Mancini, Clarisse Sieckenius de Souza, Connie Golsteijn, Dan Green, Dana Rotman, danah boyd, Debbie Stone, Derek Hansen, Duncan Brown, Edwin Blake, Eva Hornecker, Faith Young, Fiona Nah, Gill Clough, Godwin Egbeyi, Harry  Brignull, Janet van der  Linden, Jeff Rick, Jennifer Ferreira, Jennifer Golbeck, Jeremy  Mayes,  Joh  Hunt,  Johannes  Schöning, Jon  Bird, Jonathan  Lazar, Judith Segal, Julia  Galliers, Kent Norman,  Laura  Plonka, Leeann  Brumby,  Leon  Reicherts, Mark Woodroffe, Michael Wood, Nadia  Pantidi,  Nick  Dalton,  Nicolai Marquardt,  Paul  Cairns, Paul  Marshall,  Philip  “Fei” Wu,  Rachael  Bradley, Rafael  Cronin,  Richard  Morris,  Richie Hazlewood, Rob Jacob, Rose Johnson, Stefan Kreitmayer, Stephanie Wilson, Steve Hodges, Tamara Clegg, Tamara Lopez, Tammy Toscos, Tina Fuchs, Tom Hume, Tom Ventsias, Toni Robertson, and Youn-Kyung Lim.
+
+In addition, we thank the many students, instructors, researchers, and practitioners who have contacted  us  over the  years  with  stimulating  comments,  positive  feedback, and  provocative questions.
+
+We are particularly grateful  to Vikram Mehta, Nadia Pantidi, and Mara Balestrini for filming, editing, and compiling a series of on-the-spot “sound bites” videos, where they posed probing questions to the diverse set of attendees at CHI’11, CHI’14, and CHI’18, including a variety of CHI members from  across the globe. The questions  included asking about the future of interaction design and whether HCI has gone too wild. There are about 75 of these videos, which can be viewed on our website at www.id-book.com. We hope to add more in the  coming  years.  We are  also  indebted  to  danah  boyd,  Harry  Brignull,  Leah  Beuchley, Albrecht Schmidt, Jon  Froehlich  and  Luciana Zaina  for  generously contributing  in-depth, text-based interviews in the book, and also those who were interviewed in previous editions. We would like to thank Leon Reicherts, for being our webmaster for the fifth edition, and we welcome David Harper from Curious Fish as our new web designer for the sixth edition.
+
+We thank the technical editor, Peter Stahl, for thoughtful critiques and suggestions on all the chapters in the sixth edition. Finally, we would like to thank our editor and the production team at Wiley who have been very supportive and encouraging throughout the process of developing this sixth edition: especially Vanessa Davies, Jim Minatel and Pete Gaughan, as well as all the others from Wiley who have helped with the editing and production process.
+
+
+---
+Node: Beyond Usability: Designing to Persuade
+Primary concept extracted from chunk
+# Beyond Usability: Designing to Persuade
+
+Eric Schaffer (2009) argued that we should be focusing more on the user experience and less on usability. He pointed out how many websites are designed to persuade or influence rather than enable people to perform their tasks in an efficient manner. For example, many online shopping sites are in the business of selling services and products, where a core strategy is to entice people to buy what they might not have thought they needed. Online shopping experiences are  increasingly about  persuading people to buy rather than being designed to make shopping easy. This involves designing for persuasion, emotion, and trust, which may or may not be compatible with usability goals.
+
+This entails determining what customers will do, whether it is to buy a product or renew a membership, and it involves encouraging, suggesting, or reminding them of things that they might like or need. Many online travel sites try to lure visitors to purchase additional items (such as hotels, insurance, car rental, car parking, or day trips) besides the flight they originally wanted to book, and they will add a list full of tempting graphics to the visitor’s booking form, which then has to be scrolled through  before being able to complete the transaction. These opportunities need to be designed to be eye-catching and enjoyable, in the same way that an array of products are attractively laid out in the aisles of a grocery store that one is required to walk past before reaching one’s desired product.
+
+Some online sites, however, have gone too far, for example, adding items to the customer’s shopping basket (for example, insurance, special delivery,  and care and  handling) that the shopper has to deselect if not desired or start all over again. This sneaky add-on approach can often result in a negative experience. More generally, this deceptive approach is known as dark patterns, a term first coined by Harry Brignull (see darkpatterns.org). Shoppers often become annoyed if they notice decisions that add cost to their purchase have been made on their behalf without even being  asked. For example, on clicking the  unsubscribe button on the website of a car rental company, as indicated in Figure 1.9, the user is taken to another page where they have to uncheck additional boxes and then Update. They are then taken to
+
+(Continued)
+
+yet another  page where  they are  asked for their reason. The  next screen says “Your email preferences have been updated. Do you need to hire a vehicle?” without letting the user know whether they have been unsubscribed from that mailing list.
+---
+Node: Email preferences
+Primary concept extracted from chunk
+# Email preferences
+
+We’d love to get some feedback on why you’re unsubscribing.
+
+Emails were too frequent   
+Emails were not relevant   
+I am no longer interested in this content   
+I never signed up for newsletters from NiftyCars
+
+Update
+
+Figure 1.9  Dark pattern for a car rental company
+
+Nudging people can be an acceptable mechanism to use at the interface if it is transparent and users are able to understand and feel comfortable with it. An example is encouraging people to exercise more through using emoji nudges, like badges and hands cheering. However, the use of nudging at the interface can also be insidious. Natasha Loma (2018) points out how it can take on the form of a dark pattern, encompassing “deception and dishonesty by design.” She mentions how many kinds of dark patterns are now used to deceive people. A well-known example that most of us have experienced is unsubscribing from a marketing
+
+mailing list. Many sites go to great lengths to make it difficult for you to leave; you think you have unsubscribed, but then you discover that you need to type in your email address  and click several more buttons to reaffirm that you really want to quit. Then, just when you think you are safe, they post a survey asking you to answer a few questions about why you want to leave. Similar to Harry Brignull, she argues that companies should adopt fair and ethical design where people have to opt in to any actions that benefit the company at the expense of their interests.
+
+Another technique that is often used is asking users to rate products by clicking Like or 1–5 stars and  adding comments about  the  product. These can then nudge others to buy  a particular product. How many times have you chosen a product over another one, based on it having been mainly rated with five stars versus having more one-to-three star ratings? Do you think this practice is OK?
+
+Video Watch Alita Joyce explain the difference between dark patterns and persuasive techniques: nngroup.com/videos/what-makes-a-dark-ui-pattern.
+---
+Node: 7.2.14  Shareable
+Primary concept extracted from chunk
+# 7.2.14  Shareable
+
+Shareable interfaces are designed for more than one person to use. Unlike PCs, laptops, and mobile devices, which are aimed at single users, shareable interfaces typically provide multiple inputs and sometimes allow simultaneous input by co-located groups. These include large wall displays, for example, SmartBoards (see Figure 7.25a), and interactive tabletops, where small groups can interact with information being displayed on the surface using their fingertips  (see  Figure  7.25b). An  early  example  of  an  interactive  tabletop  was  Circle  Twelve’s DiamondTouch (Dietz and Leigh, 2001). It was unique in that it could distinguish between different users touching the surface concurrently. An array of antennae was embedded in the touch surface, and each one transmitted a unique signal. Each person had their own receiver embedded in a mat on which they were standing or a chair in which they were sitting. When they touched the tabletop, very small signals were sent through their body to a receiver that identified which  antenna has  been touched and sent this to the computer. Multiple  people could interact simultaneously with the digital content using their fingertips. Sadly, the technology is no longer available, but a video of how it worked is available.
+
+Check out the video of Circle Twelve’s demonstration of the DiamondTouch tabletop: youtu.be/S9QRdXlTndU.
+
+An advantage of shareable interfaces is that they provide a large interactional space that can support flexible group working, enabling groups to create content together at the same time. Compared with a co-located group trying to work around a single-user PC or laptop, where typically  one  person takes  control, making  it  more difficult  for others to take  part, multiple users can interact with a large display. People can point to and touch the information  being  displayed,  while  simultaneously  viewing  the  interactions  and  having  the  same shared point of reference (Rogers et al., 2009). There are now a number of tabletop apps that have been developed for museums and galleries that enable visitors to learn  about various aspects of the environment (see Clegg et al., 2019).
+
+![](images/fcbc49f13fdc322044cb463476ecc24b16d599b73c1ba2cf944f1942acc7137b.jpg)  
+(a)
+
+(b)   
+Figure 7.25 (a)  A SmartBoard in use  during a  meeting and  (b)  Mitsubishi’s interactive  tabletop interface   
+![](images/28a04682205d4e7f85949cbed05e5a4cb87f2f6e0c9cdbae75bb40cb14806e26.jpg)  
+Source: (a)  Used  courtesy  of  SMART  Technologies Inc.  (www.smarttech.com/en/business)  (b)  Mitsubishi Electric Research Labs
+
+Another type of shareable interface is a software platform that enables groups of people to work together simultaneously even when geographically apart. Early examples included shared  editing  tools  developed  in  the  1980s  (for  example,  ShRedit).  Various  commercial products  now exist that enable multiple remote  people to work on  the same  document at the same time (such as Google Docs and Microsoft Excel). Some enable up to 50 people to edit the same document at the same time with more watching on. These software programs provide  various functions, such as  synchronous editing,  tracking changes, annotating, and commenting. Other collaborative tools include Miro (see Chapter 5) and the Balsamiq Wireframes  editor, which provides  a  range of shared functions, including  collaborative  editing, threaded comments with callouts, and project history.
+---
+Node: 8.1  Introduction
+Primary concept extracted from chunk
+# 8.1  Introduction
+
+Data  is everywhere. Indeed, it is common to hear people say that we are drowning in data because there is so much of it. So, what is data? Data can be numbers, words, measurements, descriptions, comments, photos, sketches, films, videos, or almost anything that is useful for understanding  a  particular design, stakeholders’ goals, and people’s behavior.  Data  can be quantitative or qualitative. For example, the time it takes someone to find information on a web page and the number of clicks to get to the information are forms of quantitative data. What someone says about the web page is a form of qualitative data. But what does it mean to collect these and other kinds of data? What techniques can be used, and how useful and reliable is the data that is collected?
+
+This  chapter  presents  some  techniques  for data  gathering  that  are commonly  used  in interaction  design  activities.  In  particular,  data  gathering  is  a  central  part  of  discovering
+
+requirements and evaluation. Within the requirements activity, data  gathering is conducted to collect enough information so that design can proceed. Within evaluation, data gathering captures participants’ reactions and their performance with a system or prototype. All of the techniques discussed in this chapter  can be used with little to no programming or technical skills. Techniques for managing huge amounts of data, such as those for scraping large volumes of data from online activities, like Twitter posts, and the implications of their use, are discussed in Chapter 10, “Data at Scale and Ethical Concerns.”
+
+Three  main  techniques  for  gathering  data  are  introduced  in  this  chapter:  interviews, questionnaires, and observation. The next  chapter  discusses  how  to analyze  and  interpret the data collected. Interviews involve an interviewer asking one or more interviewees a set of questions, which may be highly structured or unstructured. Interviews are usually synchronous and are often face-to-face, but they  can be conducted  asynchronously, e.g., via email or  chat, and  are  commonly  conducted  remotely.  Questionnaires  are  a  series  of  questions designed  to be answered  asynchronously, that is, without  the presence  of the  investigator. These questionnaires may be online or paper-based. Observation may be direct or indirect. Direct observation involves observing participants’ activities as they happen. Indirect observation involves making a record of the participant’s activity as it happens, to be studied at a later date. All three techniques may be used to collect qualitative or quantitative data.
+
+Although this is  a small set of basic techniques, they are flexible and can be combined and extended in many ways. Indeed, it is important not to focus on just one data gathering technique, if possible, but to use them in combination so as to avoid biases that are inherent in any one approach.
+---
+Node: 8.4.4  Focus Groups
+Primary concept extracted from chunk
+# 8.4.4  Focus Groups
+
+Interviews are often conducted with one interviewer and one interviewee, but it is also common to interview people in groups. One form of group interview that is sometimes used in interaction  design activities is  the focus  group. Normally, three  to ten  people  are  involved, and the discussion is led by a trained facilitator. Participants are selected to provide a representative  sample of the target population. For example, in the evaluation of an  interactive university  campus map, a  group of  administrators, faculty, students, and  potential visitors may  form  three separate focus groups  because they  use the map  for different purposes. In requirements activities, a focus group may be held in order to identify conflicts in expectations or terminology from different stakeholders.
+
+![](images/bb207de9a6df3e287144d482185d8d54091921d51df22b4a47f6fc7664cbb69b.jpg)  
+The focus group hated it.So he showed it toanout-of-focus group.   
+Source: Mike Baldwin / Cartoon Stock
+
+The benefit of a focus group is that it allows diverse viewpoints to be raised that might otherwise be missed, for example, in the requirements activity to understand multiple points within a collaborative process or to hear different user stories (Unger and Chandler, 2012). The technique is appropriate for investigating shared issues rather than individual ones, and participants are encouraged to put forward their own perspectives. A preset agenda is developed  to guide  the  discussion,  but  there  is  sufficient  flexibility  for  the  facilitator  to  follow unanticipated issues as they are raised. The facilitator guides and prompts discussion, encourages quiet people to participate, and stops verbose ones from dominating the discussion. The discussion  is usually recorded for later analysis, and participants may be invited to explain their comments more fully at a later date.
+
+The downside of focus groups is that they require careful facilitation in order to keep on track, and they can suffer from “groupthink” where people get side-tracked by  one or two participants’ opinions. It  was recognized a long time ago  that they  should not  be the only source of information about user behavior (Nielsen, 1997).
+
+The format  of focus groups  can  be adapted to the participants  and  their context. For example, in their study of older adults’ use of smart home technology, Abir Ghorayeb et al. (2021)  held  the focus  groups within  the smart home environment  to allow for  real-world
+
+examples to be used in discussions. In another study, Elizabeth Warrick et al. (2016) adapted the focus  group  structure to work  with  the Mbeere  people of Kenya. The study  aimed to find out how water was being used, any plans for future irrigation systems, and the possible role of technology in water management. The researcher met with the elders from the community, and the focus group took the form of a traditional Kenyan “talking circle,” in which the  elders  sit  in a circle  and each person  gives  their opinions  in turn. The  researcher,  who was from the Mbeere community, knew that it was impolite to interrupt or suggest that the conversation needed to move along, because traditionally each person speaks for as long as they want.
+---
+Node: 8.4.5  Planning and Conducting an Interview
+Primary concept extracted from chunk
+# 8.4.5  Planning and Conducting an Interview
+
+Planning an interview involves developing the set of questions or topics to be covered, collating any documentation to give to the interviewee (such as consent form and project description), checking that recording software and equipment works, structuring the interview, and organizing a  suitable  time and  location. If  the  interview  is  in-person, bringing  snacks  and drinks can help create a relaxed environment.
+---
+Node: Developing Interview Questions
+Primary concept extracted from chunk
+# Developing Interview Questions
+
+The  following  guidelines  help  in  developing  interview  questions  (Robson  and  McCartan, 2016):
+
+• Long  or  compound  questions  can  be  difficult  to  remember  or  confusing,  so split  them into separate questions. For  example, instead of “How do  you like this smartphone app compared with previous ones that you have used?” say, “How do you like this smartphone app?” “Have you used other smartphone apps?” If so, “How did you like them?” This is easier for the interviewee to respond to and easier for the interviewer to record.   
+Interviewees may  not understand  jargon or complex language  and might  be too  embarrassed to admit it, so explain things to them in straightforward ways.   
+• Try  to keep questions neutral, both when preparing the interview script and in conversation  during  the  interview  itself. For example,  if  you ask, “Why  do  you like this  style of interaction?” this question assumes that the person does like it and will discourage some interviewees from stating their real feelings.
+---
+Node: ACTIVITY 8.2
+Primary concept extracted from chunk
+# ACTIVITY 8.2
+
+Several devices are available for reading ebooks, watching movies, and browsing photographs (see Figure 8.3). The design differs between makes and models, but they are all aimed at providing a comfortable user experience.
+
+![](images/9fbfc1ca1312cd15c087056a0dec9b3f3cef9d6beb90d74b82ba31ddb0942200.jpg)  
+(a)
+
+![](images/de070df7ba17c0e5f08e5e0ced5669177396215d75b696903b3920f9ab401486.jpg)  
+(b)
+
+![](images/6dc169caf914f6b29468e1107792223e5e656e768989b909af92835db57eb85e.jpg)  
+(c)
+
+(d)   
+Figure 8.3  (a) Kobo’s eReader, (b) Amazon’s Kindle, (c) Apple’s iPad, and (d)  Samsung Galaxy phone   
+![](images/62ae3d5939bfde8f830c4cc5bfff07258e41d7b0904e491248a243174d9fecf1.jpg)  
+Source: (a) Hadrian/Shutterstock, (b) Helen Sharp, (c) Mark Lennihan / AP Images, and (d) Helen Sharp
+
+The developers of a new device for reading ebooks want to find out how appealing it will be to young people aged 14–16, so they have decided to conduct some interviews.
+
+(Continued)
+
+1. What is the goal of this data gathering session?   
+2. Suggest ways of capturing the interview data.   
+3. Suggest a set of questions for an unstructured interview that seeks to understand the appeal of reading ebooks to young people in the 14–16 year old age group.   
+4. The results of the initial interviews indicate that an important acceptance factor is whether the  device can be handled  easily. The developers have designed an initial  prototype and want to conduct further interviews to evaluate how easy is the device to handle. Write a set of semi-structured interview questions for this evaluation. Run a pilot interview with two people and ask them to comment on the questions. Refine your questions based on their comments.
+---
+Node: Doing Ethnography Online
+Primary concept extracted from chunk
+# Doing Ethnography Online
+
+As collaboration and social activity online have increased, ethnographers have adapted their approach to study  the  various forms  of computer-mediated activity (Rotman  et al., 2013; Bauwens and Genoud, 2014). This practice has various names: online ethnography (Rotman et al., 2012), virtual ethnography (Hine, 2008), netnography (Kozinets, 2020), mobile ethnography (Muskat, 2020) and digital ethnography (Pink et al., 2016). Whether online or offline techniques are used, or a combination of both, depends on the community or activity being studied. Since participant observation  is a hallmark of ethnography, it is not surprising that ethnography is increasingly used to understand people’s behavior in online social spaces both for its own sake and to inform the design of the technology that supports interaction online.
+
+Why  is it necessary  to distinguish  between online and  face-to-face ethnography? It is important because interaction online is different from interaction in person (Winter and Lavis, 2019). For example, communication  in person is richer (through gesture, facial expression, tone of voice, and so on) than online communication, and participants may feel that anonymity is more easily achieved when communicating online. In addition, virtual worlds have a persistence, due to regular archiving, that does not typically occur in face-to-face situations. This makes characteristics of the  communication different, including how ethnographers behave and  how  they report their  findings. Ethical  issues need to be considered for  any  research involving humans and living organisms, but when working online, it can be easy to forget that people exist behind the textual comments and avatars being analyzed. It is therefore important to “listen” carefully, reflect, and remember ethical practices (Winter and Lavis, 2019).
+
+For  observational  studies in large  social spaces, such as digital  libraries  or Facebook, there are different ethical issues to consider. For example, obtaining informed consent requires different tactics, and the presentation of results needs to be modified too. Instead of relying on individuals explicitly agreeing to take part in a study, the researcher must rely on implicit agreement by their continuing to take part. Quotes from participants in the community, even if anonymized in the  report, can easily be attributed by a simple search of the  community archive or the IP address of the sender, so care is needed to protect their privacy.
+
+Special tools may be developed to support ethnographic data collection. Mobilab is an online collaborative platform that was developed for citizens living in Switzerland to report and discuss their daily mobility during an eight-week period using their mobile phones, tablets, and computers (Bauwens and Genoud, 2014). Mobilab enabled the researchers to more easily engage in discussion with participants on a variety of topics, including trucks parking on a bikeway.
+---
+Node: 9.2 Quantitative and Qualitative
+Primary concept extracted from chunk
+# 9.2 Quantitative and Qualitative
+
+Quantitative data is in the form of numbers, or data that can easily be translated into numbers. Examples  are the number  of  years’  experience  the interviewees have,  the number  of projects a department handles at a time, or the number of minutes it takes to perform a task. Qualitative data is in the form of words and images, and it includes descriptions, quotes from interviewees,  vignettes  of activity,  and  photos.  It  is  possible  to express  qualitative  data  in numerical form, but it is not always meaningful to do so (see Box 9.2).
+
+It  is  sometimes assumed  that  certain forms  of data  gathering can  only  result in quantitative  data  and that  others can  only  result in qualitative  data. However, this  is a  fallacy. All forms of data gathering  discussed in the previous  chapter may produce qualitative and quantitative data. For example, on a questionnaire, the participant’s age or number of software apps they use in a day is quantitative data, while any comments are qualitative data. In
+
+an observation, quantitative data may include the number of people involved in a project or how many hours someone spends sorting out a problem, while notes about feelings of frustration, or the nature of interactions between team members, are qualitative data.
+
+Quantitative  analysis  uses  numerical methods  to ascertain  the magnitude, amount, or size of something;  for example,  the attributes, behavior,  or  strength of opinion of  the  participants. In describing a population, a quantitative analysis might conclude that the average person is 5 feet 11 inches tall, weighs 180 pounds, and is 45 years old. Qualitative analysis focuses on the nature of something and can be represented by themes, patterns, and stories. For example, in describing the same population, a qualitative analysis might  conclude that the average person is tall, thin, and middle-aged.
+---
+Node: Use and Misuse of Numbers
+Primary concept extracted from chunk
+# Use and Misuse of Numbers
+
+Numbers are very malleable and can make a convincing argument, but it is important to justify the manipulation of quantitative data and be clear on how those manipulations may affect the potential interpretations of the data. Before adding a set of numbers together, finding an average, calculating a percentage, or performing any other kind of numerical translation, ask whether the operation is meaningful in the specific context.
+
+Qualitative data can also be turned into a set of numbers. Translating non-numerical data into a numerical or ordered scale is appropriate at times, and this is a common approach in interaction design. However, this kind of translation also needs to be justified to ensure that it is meaningful in the given context. For example, assume you have collected a set of interviews from sales representatives about their use of a new app for reporting sales queries. One way of turning this data into a numerical form would be to count the number of words uttered by each interviewee. Conclusions might then be drawn about how strongly the sales representatives feel about the app; for example, the more they had to say about the product, the stronger they felt about it. But do you think  this is a good way to analyze the  data? Does it help to answer the study questions?
+
+Other, less obvious, areas  where misunderstandings can  arise include translating  small population sizes into percentages. For example, saying that 50 percent of users take longer than 30 minutes to pay a bill through a banking app carries a different meaning than saying that two out of four users had the same problem. It is better not to use percentages unless the number of data points is at least 10, and even then it is appropriate to use both percentages and raw numbers to make sure that the claim is not misunderstood.
+
+It is possible to perform legitimate statistical calculations on a set of data and still present misleading results by not making the context clear or by choosing the particular calculation that gives the most favorable result (Huff, 1991). In addition, choosing and applying the best statistical test requires care (Cairns, 2019), as using an inappropriate test can unintentionally misrepresent the data.
+---
+Node: 9.2.1  First Steps in Analyzing Data
+Primary concept extracted from chunk
+# 9.2.1  First Steps in Analyzing Data
+
+Having collected the data, some initial processing is normally required  before data analysis can begin in earnest. For example, audio data may be transcribed by hand or using an automated  tool;  quantitative  data,  such  as  time  taken  or  errors  made, may  be  entered  into  a spreadsheet, like Excel. Table 9.1 summarizes initial analysis steps for data typically collected through interviews, questionnaires, and observation.
+
+Table 9.1  Data Gathered and Typical  Initial Processing Steps for Interviews, Questionnaires, and Observation
+
+<table><tr><td></td><td>Raw Data</td><td>Example Qualitative Data</td><td>Example Quantitative Data</td><td>Initial Processing Steps</td></tr><tr><td>Interviews</td><td>Audio recordings. Interviewer notes. Video recordings.</td><td>Responses to open-ended questions. Video pictures. Respondent&#x27;s opinions.</td><td>Age, number of mobile devices owned, years of experience. Responses to closed-ended questions.</td><td>Transcription of recordings. Expansion of notes. Entry of answers to closed-ended questions into a spreadsheet.</td></tr><tr><td>Questionnaires</td><td>Participant responses. Online database.</td><td>Responses to open-ended questions. Responses in “further comments” fields. Respondent&#x27;s opinions.</td><td>Age, hours a week spent online, years of experience. Responses to closed-ended questions.</td><td>Clean up data. Filter into different datasets.</td></tr><tr><td>Observation</td><td>Observer&#x27;s notes. Photographs. Audio and video recordings. Data logs. Think-aloud. Diaries.</td><td>Records of behavior. Description of a task as it is undertaken. Copies of documents outlining procedures.</td><td>Demographics of participants. Time spent on a task. The number of people involved in an activity. How many different types of activity are undertaken.</td><td>Expansion of notes. Transcription of recordings. Synchronization between data recordings.</td></tr></table>
+---
+Node: So What Is a Theme? And Why Does It Matter?
+Primary concept extracted from chunk
+# So What Is a Theme? And Why Does It Matter?
+
+Thematic analysis is a widely used term, but thematic analyses are not all the same, and use of the term theme varies. Virginia Braun et al. (2019) distinguish between themes as patterns of meaning and themes as data summaries. A key difference is whether the analysis is seeking to uncover the meaning behind the words or if it is seeking to summarize the diversity of responses across participants.
+
+There isn’t a “correct” application of these ideas in analysis, but it is important that the approach used is designed deliberately. In particular, it is important to recognize the distinction between the following:
+
+•  Identifying common themes as a kind of data summary, versus developing themes that reflect hidden or implicit meaning.   
+Developing themes that arise from the data, versus using a pre-determined framework to analyze the data. In the former case, the key is to interpret the data to make meaning explicit while in the latter case the key is how to interpret the predetermined categories in the context of the study.   
+A desire to find the “correct” coding versus a desire to ensure that codes are clearly defined and are interpreted consistently. Measures of inter-rater reliability can be used as a guide in either case.
+
+After  an initial  pass through the  data, the  next step  is  to look more systematically for themes  across  the  data,  seeking  further  evidence  both  to  confirm  and  disconfirm  initial impressions and to find further themes that may not have been noticed the first time. Sometimes,  the  refined  themes  resulting  from  this  systematic  analysis  form  the  primary  set  of findings for the  analysis, and sometimes they are just the starting point. The coding scheme is developed iteratively and refined as the data is investigated further.
+
+Once a number of themes have been identified, it is usual to step back from  the set of themes to  look at  the  bigger picture.  Is an  overall  narrative  starting  to emerge, or  are  the themes quite disparate? Do some seem to fit together with others? If so, is there an overarching theme? Can a meta-narrative, that is, an overall picture of the data be formed? In doing this, some of the original  themes may not seem  as relevant and can be removed. Are there some themes that contradict each other? Why might this be the case? This can be done individually, but more often this is applied in a group using brainstorming techniques.
+
+Robert Gauthier and colleagues (2022) used thematic analysis to investigate how online communities  support addiction  recovery. They focused  on samples  from two Reddit  channels about recovering from addiction (r/stopdrinking and r/OpiatesRecovery) that consisted of 640 threads (640 submissions  and 7,828  comments). They  used inductive coding  rather than  existing  understandings  of  addiction  recovery,  which  allowed  them  to  focus  on  the content expressed in the Reddit channels. Codes were first identified in the threads, and then themes were developed from the codes and their context. The researchers then discussed the themes and supporting quotations and reviewed other threads within the Reddit channels to reach agreement with the themes identified. Table 9.5 shows example themes and subthemes. Through this they revealed that these Reddit communities use stories to engage in a range of discussions including relapse, body weight, personal finances, and legal trouble.
+
+<table><tr><td>Theme</td><td>Sub-Themes</td><td>Paraphrased Example Quote</td></tr><tr><td>Sharing Experiences</td><td>Self Reflections</td><td>“Reading This Naked Mind and thinking about my feelings and what alcohol took from me has been enlightening. I was able to establish a critical perspective that showed me how warped my thoughts had subconsciously become.”</td></tr><tr><td></td><td>Sharing Failures Sharing Successes</td><td>“I remember how much I struggled at 4 months and how I couldn’t understand why it wasn’t getting easier to resist the cravings. Now that I’m at 6 months I am finally understanding why everyone means then they say the cravings don’t go away they just change. Thankfully now, despite it being a shitty week, I am not thinking about using as my first thought. Remember it does get easier, so don’t give up.”</td></tr><tr><td></td><td>Waking Up</td><td>“Still experiencing the occasional vivid dream of taking pills. I guess its because it was so prominent in my like for so long. What sucks most is that after these dreams the craving is so strong. At least I am starting to feel disappointed in the high even in the dream.”</td></tr><tr><td>Peer Support</td><td>Check-ins</td><td>“Day 5, Monday Night. Really wanted to drink but I resisted!”</td></tr><tr><td></td><td>Encouragement</td><td>“Exercise works wonders! Try different activities like yoga and working out. Keep up the good effort!”</td></tr><tr><td></td><td>Solidarity</td><td>“It’s great how our lives don’t have to be like that anymore!”</td></tr><tr><td>Consequences</td><td>Benefits of Recovery Costs of Recovery</td><td>“I am trying to find rehab or detox facilities in the southern US that will take my government issued insurance. Does anyone have any suggestions?”</td></tr><tr><td></td><td>Harm from Substance Use</td><td>“I saw in the newspaper that someone got picked up for their 5th DUI. This made me think about my own DUI from several years ago and realize how great it is to be free of both alcohol and the legal system.”</td></tr></table>
+
+(Continued)
+
+Table 9.5  Example themes that show diverse discussions related to addiction and recovery occurring on the subreddits. Includes themes identified and paraphrased example quotations from the subreddits.
+
+<table><tr><td>Theme</td><td>Sub-Themes</td><td>Paraphrased Example Quote</td></tr><tr><td>Substance Related Concerns</td><td>Pain Management</td><td>“I’m worried that visiting my doctor about my illness will end up with me continuing my normal scripts AND/OR I might end up on something else that is also addictive”</td></tr><tr><td></td><td>Socializing</td><td>“It’s super bowl season and while we aren’t huge into sorts my significant other and I do like the cultural aspect. What do people suggest as bars are clearly now off the table?”</td></tr></table>
+
+A  common technique for identifying themes and looking  for an overall  narrative is to create an affinity diagram. Affinity diagrams are widely used in interaction design to organize large amounts of data and ideas (see Figure 9.4). Both digital and physical diagramming are popular, with differing opinions about which is preferable. For example, Christian Remy et al. (2021) investigated the challenges and opportunities of digital distributed affinity diagramming tools. Although they found that digital tools saved time, improved manipulation, and helped get an overview of the data, they also found that the digital tool reduced awareness of co-participant’s actions and provided fewer clues about ownership of the notes. On the other hand, students’ experience of the Miro collaborative canvas tool described in Chapter 5, “Social Interaction,” was very positive and referred to increased awareness!
+
+![](images/04da3e5557f5d33b7832384b666f5d3aa00cdad357dc9b4da9dfdc0bd6ab6e34.jpg)  
+Figure 9.4  Section of an affinity diagram built during the design of a web application Source: Courtesy of Madeline Smith
+
+To read more about the use of affinity diagrams in interaction design, see
+
+the following page: www.interaction-design.org/literature/article/
+
+affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts.
+
+And  here is  a speeded-up  video  of an  affinity  diagramming session:  media
+
+.nngroup.com/media/editor/2018/01/18/affinity_marriott_speedy.mp4.
+---
+Node: 9.4.2  Categorizing Data
+Primary concept extracted from chunk
+# 9.4.2  Categorizing Data
+
+Inductive analysis is appropriate when the study is exploratory or if it is important to let the themes emerge from the  data itself. Sometimes, a pre-existing set of categories is  chosen as the analysis frame. This is appropriate when an existing theory or previous analyses provide a useful lens on the study goals. In this case, analysis proceeds deductively. For example, in a study  of novice interaction designer behavior  in Botswana, Nicole  Lotz  et  al. (2014)  used Schön  (1983)’s design  and  reflection  cycle: naming, framing,  moving, and  reflecting. This allowed the researchers to identify detailed patterns in the designers’ behavior, from which they derived implications for education and support.
+
+An early example of categorization from a set of studies looking at the use of different navigation aids in an online educational setting (Armitage, 2004)  illustrates this approach. These studies involved observing students working through some online educational material about  evaluation methods, using  the think-aloud technique. The think-aloud protocol  was recorded and then transcribed before being analyzed from various perspectives, one of which was to identify usability problems that the participants were having with the online environment. Figure 9.5 shows an excerpt from the transcription.
+
+This excerpt was analyzed using a categorization scheme derived from a set of negative effects  of a system  on  a user  (van Rens, 1997)  and was iteratively extended to  accommodate the specific kinds of interaction observed in these studies. The categorization scheme is shown in Figure 9.6.
+
+This scheme developed and evolved as the transcripts were analyzed and more categories were identified  inductively. Figure 9.7 shows the excerpt from  Figure 9.5 coded using  this categorization scheme. Note that the transcript is divided up using square brackets to indicate which element is being identified as showing a particular usability problem.
+
+Having categorized the data, the results can be used to answer  the study goals. In the online  education  example, the  researchers  were  able  to  quantify  the  number  of  usability problems encountered overall by participants, the mean number of problems per participant for  each of the  test conditions, and  the number  of unique  problems  of each type  per  participant. This also  helped to identify patterns of behavior and recurring  usability problems. Having the think-aloud protocol meant that the overall view of the usability problems could take context into account.
+
+I’m thinking that it’s just a lot of information to absorb from the screen. I  just I don’t concentrate very well when I’m looking at the screen. I have a very clear idea of what I’ve read so far…but it’s because of the headings I know OK this is another kind of evaluation now and before it was about evaluation which wasn’t anyone can test and here it’s about experts so it’s like it’s nice that I’m clicking every now and then coz it just sort of organizes the thoughts. But it would still be nice to see it on a piece of paper because it’s a lot of text to read.
+
+Am I  supposed to, just one  question, am supposed to say  something about  what I’m reading and what I think about it the conditions as well or how I feel reading it from the screen, what is the best thing really?
+
+Observer: What you think about the information that you are reading on the screen… you don’t need to give me comments…if you think this bit fits together.
+
+There’s so much reference to all those previously said like I’m like I’ve already forgotten the name of the other evaluation so it said unlike the other evaluation this one like, there really is not much contrast with the other it just says what it is may be…so I think I think of…
+
+Maybe it would be nice to have other  evaluations  listed to see other evaluations  you know here, to have the names of other evaluations other evaluations just to, because now when I click previous I have to click it several times so it would be nice to have this navigation, extra links.
+
+Figure 9.5  Excerpt from a transcript of a think-aloud protocol when using an online educational environment. Note the prompt from the observer about halfway through.
+
+Source: Armitage (2004). Used courtesy of Ursula Armitage
+---
+Node: ACTIVITY 9.2
+Primary concept extracted from chunk
+# ACTIVITY 9.2
+
+The following is a think-aloud extract from the same study of users working through online educational material. Using the categorization scheme in Figure 9.6, code this extract for usability problems. It is useful to put brackets around the complete element of the extract being coded.
+
+Well, looking at the map, again there’s no obvious start point, there should be something highlighted that says ‘start here.’
+
+OK,  the next keyword that’s highlighted is  evaluating, but  I’m not sure  that’s where I  want to go straightaway, so I’m just going to go back to the introduction.
+
+Yeah, so I probably want to read about usability problems before I start looking at evaluation. So, I, yeah. I would  have thought  that the links in each one of the pages would take you to the next logical point, but my logic might be different to other people’s. Just going to go and have a look at usability problems.
+
+OK, again I’m going to flip back to the introduction. I’m just thinking if I was going to do this myself, I would still have a link back to the introduction, but I would take people through the logical sequence of each one of these bits that fans out, rather than expecting them to go back all the time.
+
+Going  back…to the  introduction. Look  at the  types.  Observation, didn’t  really want  to go  there. What’s this bit [pointing to Types of UE on map]? Going straight to types of…
+
+OK, right, yeah, I’ve already been  there before.  We’ve  already looked at usability problems,  yep, that’s OK, so we’ll have a look at these references.
+
+I clicked on the map rather than going back via introduction; to be honest, I get fed up going back to introduction all the time.
+---
+Node: 10.2  Approaches for Collecting and Analyzing Data
+Primary concept extracted from chunk
+# 10.2  Approaches for Collecting and Analyzing Data
+
+Collecting  data has  never been easier. What is  challenging is  knowing how best to analyze, collate, and act upon the data in ways that are socially acceptable, beneficial to society, and ethically sound. Are there certain rules or policies in place for what to reveal about people or when certain patterns, anomalies, or thresholds are reached in a data stream? For example, if  people-tracking technology is  used at an airport, how is that  revealed to those at the airport? Is it enough only to show data that can help manage people flows and bottlenecks? For example, in an airport terminal showing a public display in which one section of the terminal is detected to be much busier than another (Figure 10.1), do travelers ever stop and wonder how this data is being collected? What else is being collected about them? Do they care?
+
+Another technique for analyzing what people are doing on websites and social media is to examine  the trail  of activity that they  leave behind. You  can see this by  looking at your own Twitter feed or by  looking at someone else’s whom you are following, for example, a friend, a political leader, or a celebrity. You  can also examine discussions about a particular topic such as climate change, reactions to comments made by  comedians, or a topic that is trending on a particular day. If there are just a few posts, then it is easy to see what is going on,  but  often  the  most  interesting  posts  are  those  that  generate  lots  of  comments. When examining thousands or tens of thousands of posts, analysts use automated techniques to do this (e.g., Bostock et al., 2011; Hansen et al., 2019).
+
+Figure 10.1 Heathrow Airport Terminal 5 Public Display in top-right corner of image showing the relative level of activity using an infographic of North vs. South Security   
+![](images/18171d936c84f6fbd28015189bc74e4bf8ad8a241dbcf77bdf2f86d78719c312.jpg)  
+Source: Marc Zakian / Alamy Stock Photo
+---
+Node: 10.2.1  Scraping and “Second Source” Data
+Primary concept extracted from chunk
+# 10.2.1  Scraping and “Second Source” Data
+
+One way to extract data is by “scraping” it from the web (assuming that  this is allowed by the application). Once the data is scraped, it can be entered into a spreadsheet for study and analyzed using data science tools. The focus from an  interaction design perspective  is how best  to interact  with that  data  and the  way  it  is  displayed  rather  than the  actual  scraping process per se so that it can be analyzed and sense can be made of it.
+
+In addition, there are now many open  and publicly available data sources that provide rich secondary material for researchers to mine. This includes recordings of videoconferencing meetings, transcripts, social media comments, and Google search queries. Analysis of this kind of data can reveal insights about people’s concerns, desires, behaviors, and habits. For example, what people say on news forums and in social media about their health concerns and specific symptoms  provides many new  opportunities  for health researchers  to analyze and  glean  information  about  people’s health  on  a  scale  that would  have  previously  been unachievable (Ford et al., 2021). The Google Trends tool can also be used for exploring and examining the motivation behind what people ask when they type  something into Google Search. Seth  Stephens-Davidowitz (2018)  has used it extensively to reveal what  people are interested in finding out. From his analysis of Google Search data, he discovered that people type into the  search box all sorts of intimate questions, such as about their health. Moreover, his analysis of search data revealed things that people would not  freely admit  to when
+
+<!-- Chunk 8 End -->
+
+<!-- Chunk 9 Start -->
+
+asked using other research methods, such as surveys and interviews. During the early days of the COVID-19 pandemic, Stephens-Davidowitz discovered that many people typed “Loss of  Smell” into  the  Google  Search  Engine. Tracking this  turned  out  to  be  a  good  way  of predicting  how the pandemic might or might not develop as 30–60 percent of people with COVID experience that particular symptom even when other symptoms may not be obvious (Stephens-Davidowitz, 2020).
+
+In an  interview  with  one of  Google’s data  editors, Rani  Mola (2020)  mentioned  how his analysis of what people searched for during the pandemic showed that they asked both big questions about the virus (e.g., “Is there a vaccine yet?” or “What are the symptoms?”) together with more personal questions on topics, such as loneliness and depression. People also asked a range of practical questions, such as “How do I cut my own hair?” and “How do I bake bread?” and “How to ripen avocados?” The editor also stressed how data they collect from Google searches is anonymized so they never know what the age, gender, or other demographics are of the people who type in the searches.
+
+Stephens-Davidowitz (2018) makes an important assertion: obtaining new insights from Big  Data  requires asking  the  right  questions of the  data. Furthermore, it  is  not how  much data  can  be collected  or  mined  but  what  is  done  with  the new  data  that  has  been  made available. Simply mining it because there is a tool available may yield surprising results, but well-honed questions that guide and are used to interpret the data that is found will be more valuable (see Chapter 8).
+
+How do researchers know what are the  right questions to ask of this data? This is particularly pertinent for HCI researchers to understand, especially in terms of how people will relate to, trust, and confide in technologies, such as smart speakers.
+---
+Node: ACTIVITY 10.1
+Primary concept extracted from chunk
+# ACTIVITY 10.1
+
+What insights do Google Trends searches provide about ourselves?
+
+Go to Google Trends (trends.google.com) and type into the search box a statement such as “I feel sad.” See how many people have typed this into Google over the last week, month, and year. Then type in the comparison box the statement: “I feel happy.” How do the results compare? Which is asked more often? Then select the Worldwide option. Does that make a difference to the trends? Finally, type in your name and see what Google returns.
+---
+Node: 10.2.3  Crowdsourcing Data
+Primary concept extracted from chunk
+# 10.2.3  Crowdsourcing Data
+
+Increasingly, people crowdsource information or work together using online technologies to collect and share data. The idea of a crowd  working together has  been taken one step further  in Crowd Research, where many researchers from all over the world come together to work on large problems, such as climate science (Vaish et al., 2017) and community-driven strategies that seek multiple voices for addressing government and civic problems (Reynante et al., 2021). The goal of this approach is potentially to enable hundreds, thousands, and millions of people to contribute to scientific research, through collecting data, ideating, and critiquing each other’s designs and research projects—very useful for addressing large problems, such as migration or climate change.
+
+Many  citizen  science  and citizen  engagement  projects (see  Chapter  5, “Social  Interaction,” and  Chapter 14, “Introducing Evaluation”)  crowdsource  data at  scale and in  doing so amass billions of data points (photos, sensor readings, comments, and discussion), which are collected by many different people from across the world. An example of a project where masses of health data were collected rapidly was during the COVID-19 pandemic (Han et al., 2022). The aim of the research was to collect data to inform the diagnosis of COVID-19, by developing machine learning algorithms, and from  this to develop a smartphone  screening tool. Volunteers were  asked to  upload  short  recordings  of  their  coughing, breathing,  and voice samples and report symptoms they had of COVID-19 (see Figure 10.2). To obtain the data needed to train the algorithms, a large-scale, crowdsourced data collection project was conducted, with the help of a public media campaign run by  the researcher’s home university. The method proved to be very effective; in only a few months they collected data from 36,364 individual participants from all over the world. They then developed a deep learning model using some of this data and validated its predictive performance  on an independent population. Their  findings  showed  that  voice  signals  have  a  detectable  COVID-19 signature. However, it was more difficult to determine  if asymptomatic patients had COVID-19, who were often mistakenly classified as healthy participants. Their coughing  and breathing appeared  normal  even  though  they  had  tested  positive.  Overall, the  research  showed  the effectiveness of using crowdsourced human data to validate their models, and the value of developing an early-stage screening tool based on voice signals for disease diagnosis.
+
+Another example of a large citizen science project is eBird.org, where naturalists collect data about bird sighting. These are amateurs ranging from beginning birders to highly experienced expert birders and professional scientists. The site was launched in 2002 as a collaborative effort  between  Cornell  University’s  Lab  of Ornithology  and  the National Audubon Society. A vast amount of bird data has been collected over the last 20 years, including bird species data, bird songs and calls, the abundance of each species, geolocation data indicating where observations are made, profiles of the people who contribute, comments, and discussion. As of 2021, there  were more  than one billion bird  observations recorded  in a global database. eBird feeds data into aggregator sites such as the Global Biodiversity Information Facility (GBIF) that is available for scientists.
+
+Harnessing the power of the crowd enables a diversity of data to be collected, but crowd projects raise a number of issues as to who owns and manages it. This is especially pertinent when the data collected can be mined to unearth details about the people who contribute the data. For researchers and UX designers, there are important questions about how to balance making data available for education and research while protecting the privacy of those contributing the data, including the location where the data is collected. Box 10.2 discusses how one citizen science project, iNaturalist, tries to manage this balance.
+
+![](images/b23c135d0c1be2512f7521e34db1df148b0755fd03f6b51f76e6b9fac3621783.jpg)  
+(a) Symptoms
+
+![](images/9430f1751e55de0dc0a592c4c873dbf25d2765ef9a30c8d2193aa913e3f46f0c.jpg)  
+(b) Voice Recording   
+Figure 10.2 The smartphone COVID-19 Sounds app: (a) reporting symptoms using a simple survey and (b) recording voice samples (Han et al., 2022)
+
+Source: Cecilia Mascolo
+---
+Node: chapter 19 Chapter 12 chunk 021 Is It Possible to Empathize wi 2
+Primary concept extracted from chunk
+<table><tr><td colspan="2">Scene 2: breakfast at home</td></tr><tr><td>Peter starts preparing his breakfast with his new glasses on. His wife notices them and he keenly gives her a demonstration of what they are and how they work, and tells her about the microchip. She seems impressed and leaves the room to get ready for work. Peter opens the fridge to put away the butter and sees a pastry. He looks at it and gets a DietMon message telling him the calorie content of the pastry. He shows that to his wife, who is entering the kitchen and looks at him with a smile.</td><td>Peter prepares breakfast with his new glasses on. His wife notices them. While looking at his toast, he gets a text. His wife enquires what that is. He says it&#x27;s nothing and he does not feel like having toast after all. When she questions why he becomes tense and reluctantly tells her about DietMon. Skeptical, she leaves the room with a sarcastic comment. Peter opens the fridge and sees a pastry. As he gives in and takes a bite, he is caught by his wife, who is entering the kitchen and looks at him with a grin.</td></tr><tr><td colspan="2">Scene 3: birthday party at the office</td></tr><tr><td>Peter is working away at his desk when some colleagues invite him to a small birthday celebration. He tries to refuse but they insist. As he joins them, wearing his glasses, he greets the birthday-lady. His colleague Chris serves him a slice of cake. Peter looks at it and takes out his mobile. He gets a text, checks it and says the slice is too big, and asks Chris to cut it in a half. Chris is intrigued and asks for an explanation, so Peter gives his colleagues a keen demonstration of how the technology works. His audience is impressed, gathered around him.</td><td>Peter is working away at his desk when some colleagues invite him to a small birthday celebration. He tries to refuse but they insist. As he joins them, wearing his glasses, his colleague Chris gives him a slice of cake. He takes the plate and greets the birthday-lady. He gets a text and, pretending it&#x27;s an important phone call, moves away from the others with the cake. Turned away from them, he throws the cake in a bin and goes back pretending to have already finished it. Chris comments on how fast he ate. Peter excuses himself, saying he has a deadline to meet, and leaves.</td></tr></table>
+
+Figure 12.9 How two scenes from the videos differ in terms of positive and negative reactions to the system. The positive version is on the left and the negative on the right
+
+Source: Price et al. (2010)
+---
+Node: ACTIVITYÂ12.5Â
+Primary concept extracted from chunk
+# ACTIVITYÂ12.5Â
+
+ActivityÂ11.4Â inChapterÂ Â 11developedÂ ÂaÂfuturisticÂscenarioÂforÂtheÂone-stopÂcarÂshop.ÂUsingÂ thisÂscenario,ÂdevelopÂaÂstoryboardÂthatÂfocusesÂonÂtheÂenvironmentÂofÂuse.ÂAsÂyouÂdrawÂthisÂ storyboard,ÂwriteÂdownÂtheÂdesignÂissuesÂthatÂitÂprompts.Â
+---
+Node: CommentÂ
+Primary concept extracted from chunk
+# CommentÂ
+
+TheÂfollowingÂisÂbasedÂonÂtheÂscenarioÂinÂtheÂcommentÂforÂActivityÂ11.4.ÂThisÂscenarioÂbreaksÂ downÂintoÂfiveÂmainÂsteps.Â
+
+1.ÂTheÂuserÂarrivesÂatÂtheÂone-stopÂcarÂshop.Â   
+2.ÂTheÂuserÂisÂdirectedÂintoÂanÂemptyÂbooth.Â   
+3.ÂTheÂuserÂsitsÂdownÂinÂtheÂracingÂcarÂseat,ÂandÂtheÂdisplayÂcomesÂalive.Â   
+4.ÂTheÂuserÂcanÂviewÂreports.Â   
+5.ÂTheÂuserÂcanÂtakeÂaÂvirtualÂrealityÂdriveÂinÂtheirÂchosenÂcar.Â
+
+TheÂstoryboardÂisÂshownÂinÂFigureÂ 12.14.IssuesÂ ÂthatÂaroseÂwhileÂdrawingÂthisÂstoryboardÂ includedÂhowÂtoÂdisplayÂtheÂreports,ÂwhatÂkindÂofÂvirtualÂrealityÂequipmentÂisÂneeded,ÂandÂ whatÂinputÂdevicesÂareÂneededâ€”akeyboardÂ ÂorÂtouchscreen,ÂaÂsteeringÂwheel,Âaccelerator,ÂandÂ brakeÂpedals?ÂHowÂmuchÂlikeÂactualÂcarÂcontrolsÂdoÂtheÂinputÂdevicesÂneedÂtoÂbe?ÂYouÂmayÂ haveÂthoughtÂofÂotherÂissues.Â
+
+![](images/873fd7650364be0555da3bdf1d0329da98dbbb3149776c6023f329db867f41a3.jpg)
+
+![](images/c4cd376d7c50bb328d43c7d04778534f2a1d705af559daeaf9924485c8daf86c.jpg)
+
+![](images/107112f3966605ba3df19249bf4c6eca67aed06dfd8b2a49d1d7300acae859ca.jpg)
+
+![](images/3cc85422e80e8a2038e406aa7c3e10b07b18793a0ad9492e4082377693ee7034.jpg)
+
+![](images/ec066734ef47a172b16c78006cabbb03f24762de01965c3add2f37e589c79e5d.jpg)  
+Figure 12.14  The storyboard generated from the one-stop car shop scenario in Activity 11.4
+---
+Node: 12.5.3  Mapping the Overall Experience
+Primary concept extracted from chunk
+# 12.5.3  Mapping the Overall Experience
+
+Prototyping different elements of the product helps to answer specific questions, but at some point it’s important to consider the complete user experience. This is achieved by creating a visual representation  of it. These representations have various names such as a design map (Adlin and Pruitt, 2010), a customer  journey map (Angrave, 2020), or an experience map. They illustrate a path or journey through the product or service and are usually created for a particular persona and based on a particular scenario, thereby giving the journey sufficient context and detail to bring the discussions to life. They support designers in considering the overall user experience when achieving a particular goal and are used to explore  and question the designed experience and to identify issues that have not been considered so far. They may  be  used  to  analyze  existing  products  and  to  collate  design  issues  or  as  part  of  the design process.
+
+There are many different types of representation and of varying complexities. Two main ones are the wheel  and the timeline. The wheel  representation  is used when an  interaction phase is more important than an interaction point, such as for a flight (see Figure 12.17(a) for an example). The timeline is used where a service is being provided that has a recognizable beginning and end point, such as purchasing an item through a website. A range of templates and canvases for generating timelines are available online. Figure 12.17(b) illustrates one structure  and the kinds  of issues that may  be captured, such as  questions, comments, and ideas. Another  important element that is often included are pain points along the journey. These  may be uncovered through stakeholder evaluations or feedback from within the design team, and sometimes journeys are annotated  with smiley (and sad) faces to indicate pain points.
+
+To generate one of these representations, take one persona and two or three scenarios. Draw a timeline for the scenario and identify the interaction points for the persona. Then use this as a discussion tool with colleagues and stakeholders to identify any issues, questions, or pain points. Note that the journey may extend beyond the use of the product and touch on the user’s relationship with the company or brand. Sometimes the focus will be on technical issues, and at other times this can be used to identify missing functionality or areas of underdesigned interaction.
+
+This video illustrates the benefits of experience mapping using a timeline: youtu .be/eLT_Q8sRpyI.
+
+User flows  are another  way to  capture the overall  user experience, focusing  on screen content and design. These are used particularly for mobile apps or websites and are similar to timeline customer journey maps because they capture the flow that someone may go through when using  the product.  User flows  come in  various forms  but  are usually  represented in a  flowchart  showing  different  options  and  decision points  through the  customer  journey. Generating a user flow helps determine the number of screens or pages needed to keep the user engaged, maps out the different paths through the product, and supports the design of individual screens.
+
+![](images/1349cf7283b5e461118556a470b7cc0229197ce3a379d0c4896c976155b35899.jpg)  
+(a)
+
+![](images/8c85d8b6e73b93be8594c22a7b25ebb6a7bf7cc2f7f0b714cd473551a873d495.jpg)  
+(b)   
+Figure 12.17  (a) An experience map using a wheel representation and (b) an example timeline illustrating how different issues may be captured
+
+Source: (a) LEGO (b) Adlin and Pruitt (2010), p. 134. Used courtesy of Morgan Kaufmann
+
+For more about user flows, see this article: careerfoundry.com/en/blog/ ux-design/what-are-user-flows.
+
+For an overview of different mapping techniques used in UX design, see this article: www.nngroup.com/articles/ux-mapping-methods-study-guide.
+---
+Node: 13.4 Open Source Resources
+Primary concept extracted from chunk
+# 13.4 Open Source Resources
+
+Open source software refers to source code for components, frameworks, or whole systems that  is  available  for  reuse  or  modification  free  of  charge.  Design  systems  are  commonly released in open source repositories for others to see and use, for example Microsoft’s Fluent Design System. Open source development is a community-driven endeavor in which people produce, maintain, and enhance code, which is then provided to the community through an open  source repository  for  further  development  and  use. The  community  of  open  source committers (that is, those who write and maintain this software) are mostly software developers who give their time for free, but increasingly companies are also releasing open source code. The components are available for (re)use under software licenses that allow anyone to use  and  modify  the  software  for  their  own  requirements  without  the  standard  copyright restrictions.
+
+Many large pieces of software underlying our global digital infrastructure are powered by open source projects. For example, the operating system Linux, the development environment Eclipse, and the PHP development language are all open source software.
+
+Perhaps  more  interesting  for  interaction  designers  is  that  there  is  a  growing  amount of open  source software  available for designing good  user  experiences. The design pattern implementation libraries introduced in section 13.3 are but one example of how open source software is affecting user experience design. Another example is the Bootstrap framework for front-end web development, released as open source in August 2011 and actively updated on a regular basis; see Figure 13.7 for an example of its use. This framework contains reusable code snippets, a screen layout grid that supports multiple screen sizes, and pattern libraries that include predefined sets of navigational patterns, typefaces, buttons, tabs, and so on. The framework  and  documentation are  available  through  the  GitHub  open  source repository (github.com/twbs/bootstrap#community).
+
+Figure 13.7 An example website built using the Bootstrap framework   
+![](images/63d5c98dfa7c05c371db0bdf4ed7dfb2648a6ecf0a1eef1182b11059aa759c9c.jpg)  
+Source: plazaclassic.com. Identified from bootstrapbay.com/blog/built-with-bootstrap
+
+Open  source  resources  require  a  suitable  hosting  service, that  is,  somewhere  for  the source code to be stored and made accessible to others. More than this, the hosting service needs  to serve  a  huge number  of users  (GitHub  was reported  to  have 83  million  users  in
+
+2022) who will want to build, review, modify, and extend software products. Managing this level of activity also requires version control, such as a mechanism that retains and can reinstate previous versions of the software. For example, GitHub is based on the version control system called Git. Communities form around these services, and submitting code requires an account. For example, each developer on GitHub can set up a profile that will keep track of their activity for others to see and comment upon.
+
+Most hosting services support both public and private spaces. Submitting code to a public space means that anyone in the community can see and download the code, but in a private space the source will be “closed.” One of the advantages of releasing code as open source is that many eyes  can see, use, and modify your work—spotting security vulnerabilities or inefficient coding practices as well as contributing to, extending, or improving its functionality. Other popular open source repositories are BitBucket, SourceForge, and GitLab.
+
+There are many open source options available, some of which are discussed in these articles: rewind.com/blog/github-alternatives-a-review-of-bitbucket-gitlaband-more speckyboy.com/open-source-front-end-ui-kits
+
+Any open source service may look a little daunting for those who first come across it, but there is a community of developers behind it who are happy to help and support newcomers, as well as a choice of online tutorials.
+---
+Node: Comments
+Primary concept extracted from chunk
+# Comments
+
+1. There are  many potential technical and social problems that the researchers might have encountered. On the technical side these included that the research team needed to ensure they had sufficient head-mounted displays and a reliable way to send them to the experts who would participate in the tests. On the social side, some of the experts may have had limited  experience with XR even though they were experts in dealing with the  systems being tested. No one  likes to be seen struggling to use unfamiliar equipment, and some experts may have been nervous about stepping outside of their normal comfort zone to participate in remote testing using XR. You may have thought of other potential problems.   
+2. An added complexity was the need to ensure that all the equipment and the testing vicinity was sanitized after every participant and that social distancing was maintained in order to keep participants, on-site assistants, and tech support people safe.
+
+For more information about the different cases and the way Sanni Siltanen and her colleagues adjusted their test procedures due to COVID-19 restrictions, see the article “There’s always a way: Organizing VR tests with remote and hybrid setups during a pandemic - learning from five case studies” at doi.org/10.3390/ mti5100062.
+
+For  another example  of  usability  testing,  see  the  report  “Case  Study: Iterative Design and Prototype Testing of the NN/g Homepage” by Kathryn Whitenton and  Sarah  Gibbons  from  the  Nielsen  Norman  Group  (August  26,  2018), which  describes  how  user  testing  with  prototypes  may  be  integrated  into  the design  process.  You  can  view  this  report  at  www.nngroup.com/articles/ case-study-iterative-design-prototyping.
+---
+Node: Usability Studies
+Primary concept extracted from chunk
+# Usability Studies
+
+Many professional usability  consultants  used to recommend 5–12 participants for studies conducted in controlled or partially controlled settings. However, as the  study of the  iPad illustrates, six participants generated a lot of useful data. While more participants might have
+
+(Continued)
+
+been preferable, Radiu Budiu and Jakob Nielsen (2010) were constrained in that they needed to complete their study  and  release their  results quickly. Budiu and  Nielsen  (2012) subsequently commented that “If you want a single number, the answer is simple: test five users in a usability study. Testing with five people lets you find almost as many usability problems as you’d find using many more test participants.” Others say that as soon as the same kinds of problems start being revealed and there is nothing new, it is time to stop.
+---
+Node: chapter 22 Chapter 15 chunk 038 INTERVIEW with danah boyd 2
+Primary concept extracted from chunk
+From 2006–2007, I was talking with teens in  different  parts  of  the  country, and  I started  noticing  that  some  teens  were talking  about  MySpace,  and  some  teens were  talking  about  Facebook.  In  Massachusetts,  I  met  a  young  woman  who uncomfortably told me that the Black kids
+
+in her school were on MySpace, while the white kids were on Facebook. She described MySpace  as  “like  ghetto.” I  didn’t enter into this project expecting to analyze race and  class  dynamics  in  the  United  States, but,  after her  comments, I  couldn’t  avoid them.  I  started  diving  into  my  data,  realizing that race and class could explain the difference  between  which  teens  preferred which  sites.  Uncomfortable  with  this  and totally afar from my intellectual strengths, I wrote a really awkward blog post about what I was observing. For better or worse, the BBC picked this up as a “formal report from  UC  Berkeley,” and  I  received  more than 10,000 messages over the next week. Some  were  hugely  critical,  with  some making  assumptions  about  me  and  my intentions. But the teens who wrote consistently agreed. And  then two  teens  started pointing  out  to  me  that  it  wasn’t  just  an issue of choice but an  issue of movement, with  some  teens  moving  from  MySpace to  Facebook  because  MySpace  was  less desirable  and  Facebook  was “safe.” Anyhow, recognizing  the  racist  and  classist roots  of  this,  I  spent  a  lot  of  time  trying to unpack the different language that teens used  when  talking  about  these  sites  in  a paper  called “White  Flight  in  Networked Publics?  How  Race  and  Class  Shaped American Teen Engagement with MySpace and Facebook.”
+
+This  might  all  seem  antiquated  these days,  but  the  patterns  I  witnessed  in MySpace and Facebook continue to repeat themselves.  The  tensions  between  Snapchat  and Instagram  have similar patterns, as does WhatsApp versus iMessage. Moreover, the network  dynamics that underpin all adoption and usage of social media are increasingly  being  manipulated  to  reinforce social divisions within society. I never imagined  that  the  teens  that  I  watched
+
+(Continued)
+
+trying  to  hack  the  attention  economy  in 2004  would  create  a  template  that  could be used to  undermine democratic  conversations  around  the  world  only  a  decade later.
+
+I know you are doing a lot of work on Big Data  and that some of  that is  focused on social media. What  are you  learning,  and what are your concerns for the future?
+
+To be honest, what concerns me the most about  social  media  and  data  analytics  is that  these  technologies  operate  within  a particular formation  of financialized capitalism  that  prioritizes  short-term  profits and cancerous levels of growth over other social values, including democracy, climate sustainability,  and  community  cohesion. Even  when  data-analytics  projects  start from ideal places, it’s hard for those ideals to stay intact as companies grow and face different  kinds of  financial  pressure. As  a result,  the  same  technologies  that  could leverage  data  to  empower  communities are quickly used for exploitative purposes. I  genuinely  struggle  to  balance  my  love of technology with my concern that these tools  will  be  used  to  magnify  inequality, spread  disinformation,  increase  climate risks, and polarize society for political purposes.
+
+I  watched  your plenary  talk  on  “Statistical  Imaginaries:  An  Ode  to  Responsible Data  Science,”  in  which  you  talk  about your current research with the U.S. Census Bureau. Would you please give us a quick overview so  that  students  have an  introduction to the use and misuse of statistics and data privacy in this sociotechnical, political context?
+
+Like  many  governments  around  the world, the United States has a rich official statistics program. The federal government
+
+collects a  wide range of  data  that  inform economic  policy,  public  health,  research, and  the  allocation  of  resources.  Perhaps most famously, the United  States has conducted  a  census  since  1790  to  distribute political power  through a  process known as apportionment.  I’ve spent  the  last four years trying to understand how census data are made. In the process, I’ve come to realize that the public imagination of how censuses are done  is  shockingly disconnected from  the  statistical  work  that  underpins those critical data. The knocking on doors part of the census is a tiny piece of a much larger process designed  to ensure that the government can produce the best possible data  to  reflect  the  population. There  are hundreds  of procedures  involved  in  making those data.
+
+Once those data are produced, the Census  Bureau  wants  to  make  census  data publicly  available  for  use  by  data  users. At  the  same  time,  the  bureau  is  legally, morally, and  procedurally  required  to ensure  statistical  confidentiality.  For decades, the  Census  Bureau  has  engaged in  a  practice  known  as  disclosure  avoidance,  where  the  bureau  chooses  how  to protect  vulnerable  data.  Some  methods involve not publishing certain data; others involve rounding (e.g., 5386 to 5400). Still others involve adding noise to the data to make  it  hard  to  reconstruct  exact  information.  This  latter  set  of  techniques  has proven  quite  controversial,  in  no  small part because it bursts the illusion that the published data are the best possible data.
+
+Census data are never perfect. Even the best laid attempts to count everyone “once and  only  once  and  in  the right  location” tend  to  go  haywire  in  some  places.  Census data are also never neutral. Significant politics  shape  what  is  collected  and  how it’s collected.  And  census  data  can  never

@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=30, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_30.json
+FILES:
+/private/tmp/about_face_chunks/chunk_726_Handheld_format_apps.md
+/private/tmp/about_face_chunks/chunk_727_Stacks.md
+/private/tmp/about_face_chunks/chunk_728_Screenrousels.md
+/private/tmp/about_face_chunks/chunk_729_Orientation_and_layout.md
+/private/tmp/about_face_chunks/chunk_730_Tablet_format_apps.md
+/private/tmp/about_face_chunks/chunk_731_Stacks_and_index_panes.md
+/private/tmp/about_face_chunks/chunk_732_Pop_up_control_panels.md
+/private/tmp/about_face_chunks/chunk_733_Orientation_based_layout.md
+/private/tmp/about_face_chunks/chunk_734_Mobile_versus_desktop_like_lay.md
+/private/tmp/about_face_chunks/chunk_735_Hardware_like_control_layout.md
+/private/tmp/about_face_chunks/chunk_736_Mini_tablet_format_apps.md
+/private/tmp/about_face_chunks/chunk_737_Mobile_Navigation__Content__an.md
+/private/tmp/about_face_chunks/chunk_738_Browse_controls.md
+/private/tmp/about_face_chunks/chunk_739_Lists.md
+/private/tmp/about_face_chunks/chunk_740_Grids.md
+/private/tmp/about_face_chunks/chunk_741_Contentrousels.md
+/private/tmp/about_face_chunks/chunk_742_Swimlanes.md
+/private/tmp/about_face_chunks/chunk_743_Cards.md
+/private/tmp/about_face_chunks/chunk_744_Navigation_and_tool_bars.md
+/private/tmp/about_face_chunks/chunk_745_Tab_bars.md
+/private/tmp/about_face_chunks/chunk_746_More____controls.md
+/private/tmp/about_face_chunks/chunk_747_Tabrousels.md
+/private/tmp/about_face_chunks/chunk_748_Nav_bars_and_action_bars.md
+/private/tmp/about_face_chunks/chunk_749_Tool_bars_and_palettes.md
+/private/tmp/about_face_chunks/chunk_750_Vertical_tool_bars_and_palette.md

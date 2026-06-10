@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=11, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_11.json
+FILES:
+/private/tmp/about_face_chunks/chunk_251_Conducting_formative_usability.md
+/private/tmp/about_face_chunks/chunk_252_Designer_involvement_in_usabil.md
+/private/tmp/about_face_chunks/chunk_253_Notes.md
+/private/tmp/about_face_chunks/chunk_254_CREATIVE_TEAMWORK.md
+/private/tmp/about_face_chunks/chunk_255_Small__Focused_Teams.md
+/private/tmp/about_face_chunks/chunk_256_Thinking_Better__Together.md
+/private/tmp/about_face_chunks/chunk_257_Generators_and_synthesizers.md
+/private/tmp/about_face_chunks/chunk_258_Getting_started_with_thought_p.md
+/private/tmp/about_face_chunks/chunk_259_Finding_a_partner_who_generate.md
+/private/tmp/about_face_chunks/chunk_260_Finding_a_partner_who_synthesi.md
+/private/tmp/about_face_chunks/chunk_261_Switching_roles_on_the_fly.md
+/private/tmp/about_face_chunks/chunk_262_Getting_unstuck__the_15_minute.md
+/private/tmp/about_face_chunks/chunk_263_Rightsizing_core_teams.md
+/private/tmp/about_face_chunks/chunk_264_Working_Across_Design_Discipli.md
+/private/tmp/about_face_chunks/chunk_265_Interaction_design.md
+/private/tmp/about_face_chunks/chunk_266_Visual_interface_design.md
+/private/tmp/about_face_chunks/chunk_267_Graphic_design.md
+/private/tmp/about_face_chunks/chunk_268_Visual_information_design.md
+/private/tmp/about_face_chunks/chunk_269_Industrial_design.md
+/private/tmp/about_face_chunks/chunk_270_The_Extended_Team.md
+/private/tmp/about_face_chunks/chunk_271_Areas_of_responsibility_and_au.md
+/private/tmp/about_face_chunks/chunk_272_Collaborating_with_agile_devel.md
+/private/tmp/about_face_chunks/chunk_273_The_work_of_designers_on_an_ag.md
+/private/tmp/about_face_chunks/chunk_274_Defining_the_user_experience_o.md
+/private/tmp/about_face_chunks/chunk_275_Incorporating_user_feedback.md

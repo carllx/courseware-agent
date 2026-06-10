@@ -4,6 +4,13 @@ import re
 import argparse
 import yaml
 
+def strip_segment_frontmatter(content):
+    if content.startswith('---'):
+        m = re.match(r'^---[\r\n]+.*?\n---[\r\n]+', content, re.DOTALL)
+        if m:
+            return content[m.end():]
+    return content
+
 def extract_oot(content):
     """
     Extract ONLY spoken text for Out-Of-Text (Teleprompter) mode.
@@ -23,7 +30,7 @@ def extract_oot(content):
     
     # Metadata markers to ignore
     META_KEYS = ['role', 'stage', 'duration', 'type', 'desc', 'mode']
-    ORAL_TAGS = ['STORY TIME', 'PHILOSOPHY', 'CASE STUDY', 'LIFE CONNECT', 'DID YOU KNOW', 'TEACHING MOMENT']
+    ORAL_TAGS = ['STORY TIME', 'PHILOSOPHY', 'CASE STUDY', 'LIFE CONNECT', 'DID YOU KNOW', 'TEACHING MOMENT', 'TECH NOTE']
     
     re_visual = re.compile(r'^>\s*\[VISUAL\]', re.I)
     re_activity = re.compile(r'^>\s*\[ACTIVITY\]', re.I)
@@ -168,7 +175,7 @@ def dump_script(main_script_path, mode='full', segments=None, output_path=None):
             include_path = os.path.join(script_dir, rel_path)
             if os.path.exists(include_path):
                 with open(include_path, 'r', encoding='utf-8') as segment_file:
-                    seg_content = segment_file.read()
+                    seg_content = strip_segment_frontmatter(segment_file.read())
                     # Markdown segments might still optionally contain nested includes
                     def replace_nested(m):
                         np = os.path.join(script_dir, m.group(1).strip())
@@ -205,7 +212,7 @@ def dump_script(main_script_path, mode='full', segments=None, output_path=None):
                     
             if os.path.exists(include_path):
                 with open(include_path, 'r', encoding='utf-8') as segment_file:
-                    seg_content = segment_file.read()
+                    seg_content = strip_segment_frontmatter(segment_file.read())
                     seg_content = re.sub(r"<!--\s*include:\s*(.+?)\s*-->", replace_include, seg_content)
                     return f"\n<!-- ### BEGIN {rel_path} ### -->\n" + seg_content + f"\n<!-- ### END {rel_path} ### -->\n"
             else:

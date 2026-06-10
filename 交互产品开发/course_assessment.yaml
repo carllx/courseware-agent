@@ -3,40 +3,40 @@ assessment_methods:
   final_score_ratio: 50
   attendance_ratio: 10
   normal_items:
-  - name: 章节测试1
+  - name: 章节测试一
     ratio: 10
-    desc: 对应实验1「JTBD深度访谈AI陪练」与实验2「Proto-Persona画像制作」。考核要求：完成交互应用的早期定性调研报告与Proto-Persona画像，体现痛点洞察与假设驱动方法论的运用。
-  - name: 章节测试2
+    desc: 对应实验 1「Jobs to be Done 的反弹陪练」。考核要求：完成基于 AI 反弹陪练的深度访谈，挖掘核心痛点，并提炼结构化的 JTBD 报告。
+  - name: 章节测试二
     ratio: 15
-    desc: 对应实验3「状态机映射与视觉体系」。考核要求：产出系统级的页面状态流转架构图及原子级设计Token体系，体现目标导向路径编排能力。
-  - name: 章节测试3
+    desc: 对应实验 2「画出 Proto Persona（用户画像）」。考核要求：运用设计工具将早期定性调研数据视觉化，产出严谨的四大标准模块用户画像卡，体现假设驱动方法论。
+  - name: 章节测试三
     ratio: 15
-    desc: 对应实验4「AI原型与创意动效生成」。考核要求：运用AI代码助手生成高保真静态界面并注入基础创意动效，体现对Vibe Coding与人机协同工作流的运用能力。
+    desc: 对应实验 3「AI Agents 驱动的个人作品集网站实现」。考核要求：产出包含完整前期过程文档（简报、PRD、前端规范、架构）及基于纯 HTML/CSS/JS 实现的 4 个核心网页初稿，体现 AI 协作与文档驱动的工程能力。
   final_item:
     name: 期末综合项目考查
     ratio: 100
-    desc: 对应实验5「启发式评估验证闭环」。考核要求：启发式走查报告严格对标 Nielsen 十大原则（占 35%）；可用性测试执行规范且质性分析有深度（占 40%）；作品集叙事完整且路演表达清晰流畅（占 25%）。详见 practices/experiment_planning.md。
+    desc: 对应实验 4「基于精益用户体验的综合设计」。要求按照默认的 A 卷（个人作品集网站）完成独立开发。考核将侧重于前端页面完整度、代码规范及 UI 还原度。详见 practices/project_brief.md。
 exams:
   final_exam:
   - name: 期末综合项目考查
     total_score: 100
     duration: 120
     sections:
-    - section_name: 设计研究与原型质量
-      total_score: 35
+    - section_name: 原型设计与架构规划
+      total_score: 30
       questions:
-      - content: 对应实验5「启发式评估验证闭环」。考核要求：痛点洞察具有真实用户调研支撑，JTBD 假设逻辑自洽且 MVP 范围界定合理；高保真交互原型的页面状态流转完整、视觉 Token 体系一致，AI 协作生成的界面无明显逻辑断裂，创意动效融入自然不突兀。
+      - content: 对应实验 4「基于精益用户体验的综合设计」。考核要求（A卷）：个人作品集网站的页面逻辑流向清晰，包含至少 4 个核心页面（如首页、简介、作品库、联系方式），且各页面间跳转导航设计合理，无死链。
         type: 综合性
-        score: 35
-    - section_name: 可用性验证闭环
+        score: 30
+    - section_name: 前端代码规范与完备度
       total_score: 40
       questions:
-      - content: 对应实验5「启发式评估验证闭环」。考核要求：启发式走查报告严格对标 Nielsen 十大原则，缺陷严重级评定准确且覆盖面充分；出声思考测试执行规范（不引导、不纠正），用户反馈记录完整且质性分析有深度；缺陷修正前后对比有明确证据链，闭环逻辑清晰可验证。
+      - content: 对应实验 4「基于精益用户体验的综合设计」。考核要求（A卷）：全程使用 HTML、CSS 和 JavaScript 构建，文件结构组织清晰（如独立拆分 css、js 文件）；HTML 标签语义化正确；CSS 代码复用率高，体现一定的组件化和模块化思想，未滥用内联样式。
         type: 综合性
         score: 40
-    - section_name: 项目复盘与路演表现
-      total_score: 25
+    - section_name: 视觉呈现与动效体验
+      total_score: 30
       questions:
-      - content: 对应实验5「启发式评估验证闭环」。考核要求：作品集叙事结构完整，能清晰呈现从痛点发现到设计迭代再到数据验证的全过程故事；路演表达在限定时间内逻辑紧凑、重点突出，能从容应对即席提问；展现出坦诚面对设计失误并持续迭代改进的专业态度。
+      - content: 对应实验 4「基于精益用户体验的综合设计」。考核要求（A卷）：视觉 HSL 色彩体系和谐，版式布局符合现代审美规范并具备一定的响应式适配能力；合理地注入了 JavaScript 或 CSS3 互动特效（如 Hover 状态反馈、页面转场过渡），提升整体操作 Vibe。
         type: 综合性
-        score: 25
+        score: 30

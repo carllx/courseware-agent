@@ -10,7 +10,7 @@ tags:
 - ch12-prototyping
 - prototyping-fidelity-spectrum
 - llm-code-reading-debugging
-- exp3-demo-fallback-strategy
+- 实践项目-demo-fallback-strategy
 delivery_mode: Lecture + Workshop
 core_theories: []
 segments:
@@ -23,4 +23,4 @@ segments:
 - id: M03
   src: src/M03_绝地求生_三级兜底策略.md
 - id: M04
-  src: src/M04_实验3_收尾实战准备.md
+  src: src/M04_实践项目3_收尾实战准备.md

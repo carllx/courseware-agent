@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_627_designing_for_the_desktop_xerox_alto",
+      "label": "Xerox Alto",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_627_DESIGNING_FOR_THE_DESKTOP.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_627_designing_for_the_desktop_wimp",
+      "label": "WIMP",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_627_DESIGNING_FOR_THE_DESKTOP.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_629_primary_and_secondary_windows_primary_window",
+      "label": "Primary Window",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_629_Primary_and_secondary_windows.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_629_primary_and_secondary_windows_secondary_window",
+      "label": "Secondary Window",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_629_Primary_and_secondary_windows.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_633_menu_and_toolbars_menu",
+      "label": "Menu",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_633_Menu_and_toolbars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_633_menu_and_toolbars_toolbar",
+      "label": "Toolbar",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_633_Menu_and_toolbars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_634_content_panes_content_pane",
+      "label": "Content Pane",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_634_Content_panes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_645_windows_and_documents__mdi_vs__mdi",
+      "label": "MDI (Multiple Document Interface)",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_645_Windows_and_documents__MDI_vs_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_645_windows_and_documents__mdi_vs__sdi",
+      "label": "SDI (Single Document Interface)",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_645_Windows_and_documents__MDI_vs_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_650_menu_as_a_pedagogic_vector_pedagogic_vector",
+      "label": "Menu as Pedagogic Vector",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_650_Menu_as_a_pedagogic_vector.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_627_designing_for_the_desktop_wimp",
+      "target": "about_face_chunks_chunk_627_designing_for_the_desktop_xerox_alto",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_627_DESIGNING_FOR_THE_DESKTOP.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_629_primary_and_secondary_windows_secondary_window",
+      "target": "about_face_chunks_chunk_629_primary_and_secondary_windows_primary_window",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_629_Primary_and_secondary_windows.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_645_windows_and_documents__mdi_vs__mdi",
+      "target": "about_face_chunks_chunk_645_windows_and_documents__mdi_vs__sdi",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_645_Windows_and_documents__MDI_vs_.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "about_face_chunks_desktop_window_types",
+      "label": "Desktop Window Types",
+      "nodes": [
+        "about_face_chunks_chunk_629_primary_and_secondary_windows_primary_window",
+        "about_face_chunks_chunk_629_primary_and_secondary_windows_secondary_window"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_629_Primary_and_secondary_windows.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

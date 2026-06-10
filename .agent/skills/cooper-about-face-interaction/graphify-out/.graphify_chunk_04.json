@@ -1,0 +1,371 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_076_understanding_the_problem__des_design_research",
+      "label": "Design Research",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_076_UNDERSTANDING_THE_PROBLEM__DES.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_qualitative_research",
+      "label": "Qualitative Research",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_077_Qualitative_versus_Quantitativ.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_quantitative_research",
+      "label": "Quantitative Research",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_077_Qualitative_versus_Quantitativ.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_079_strengths_and_limitations_of_q_market_segmentation",
+      "label": "Market Segmentation",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_079_Strengths_and_limitations_of_q.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_081_user_research_can_inform_marke_market_sizing",
+      "label": "Market Sizing",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_081_User_research_can_inform_marke.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "label": "Goal-Directed Design Research",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_083_kickoff_meeting_kickoff_meeting",
+      "label": "Kickoff Meeting",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_083_Kickoff_meeting.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_084_literature_review_literature_review",
+      "label": "Literature Review",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_084_Literature_review.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_085_product_prototype_and_competit_product_audit",
+      "label": "Product Audit",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_085_Product_prototype_and_competit.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_085_product_prototype_and_competit_competitive_audit",
+      "label": "Competitive Audit",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_085_Product_prototype_and_competit.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_086_stakeholder_interviews_stakeholder_interviews",
+      "label": "Stakeholder Interviews",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_086_Stakeholder_interviews.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_087_subject_matter_expert__sme__in_subject_matter_expert_interviews",
+      "label": "Subject Matter Expert Interviews",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_087_Subject_matter_expert__SME__in.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_088_customer_interviews_customer_interviews",
+      "label": "Customer Interviews",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_088_Customer_interviews.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_089_user_interviews_user_interviews",
+      "label": "User Interviews",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_089_User_interviews.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_090_user_observation_user_observation",
+      "label": "User Observation",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_090_User_observation.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_091_interviewing_and_observing_use_ethnographic_interviews",
+      "label": "Ethnographic Interviews",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_091_Interviewing_and_Observing_Use.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_092_contextual_inquiry_contextual_inquiry",
+      "label": "Contextual Inquiry",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_092_Contextual_inquiry.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_096_the_persona_hypothesis_persona_hypothesis",
+      "label": "Persona Hypothesis",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_096_The_persona_hypothesis.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_097_roles_in_business_and_consumer_roles",
+      "label": "Roles",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_097_Roles_in_business_and_consumer.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_098_behavioral_and_demographic_var_behavioral_variables",
+      "label": "Behavioral Variables",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_098_Behavioral_and_demographic_var.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_098_behavioral_and_demographic_var_demographic_variables",
+      "label": "Demographic Variables",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_098_Behavioral_and_demographic_var.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_099_domain_expertise_versus_techni_domain_expertise",
+      "label": "Domain Expertise",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_099_Domain_expertise_versus_techni.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_099_domain_expertise_versus_techni_technical_expertise",
+      "label": "Technical Expertise",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_099_Domain_expertise_versus_techni.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_100_environmental_considerations_environmental_considerations",
+      "label": "Environmental Considerations",
+      "file_type": "concept",
+      "source_file": "private/tmp/about_face_chunks/chunk_100_Environmental_considerations.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_qualitative_research",
+      "target": "about_face_chunks_chunk_076_understanding_the_problem__des_design_research",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_076_UNDERSTANDING_THE_PROBLEM__DES.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_quantitative_research",
+      "target": "about_face_chunks_chunk_076_understanding_the_problem__des_design_research",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_076_UNDERSTANDING_THE_PROBLEM__DES.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_qualitative_research",
+      "target": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_quantitative_research",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "private/tmp/about_face_chunks/chunk_077_Qualitative_versus_Quantitativ.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_079_strengths_and_limitations_of_q_market_segmentation",
+      "target": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_quantitative_research",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_079_Strengths_and_limitations_of_q.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_081_user_research_can_inform_marke_market_sizing",
+      "target": "about_face_chunks_chunk_077_qualitative_versus_quantitativ_quantitative_research",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_081_User_research_can_inform_marke.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_083_kickoff_meeting_kickoff_meeting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_084_literature_review_literature_review",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_085_product_prototype_and_competit_product_audit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_085_product_prototype_and_competit_competitive_audit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_086_stakeholder_interviews_stakeholder_interviews",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_087_subject_matter_expert__sme__in_subject_matter_expert_interviews",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_088_customer_interviews_customer_interviews",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_089_user_interviews_user_interviews",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_082_goal_directed_design_research_goal_directed_design_research",
+      "target": "about_face_chunks_chunk_090_user_observation_user_observation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_091_interviewing_and_observing_use_ethnographic_interviews",
+      "target": "about_face_chunks_chunk_089_user_interviews_user_interviews",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_091_Interviewing_and_Observing_Use.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_091_interviewing_and_observing_use_ethnographic_interviews",
+      "target": "about_face_chunks_chunk_090_user_observation_user_observation",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_091_Interviewing_and_Observing_Use.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_092_contextual_inquiry_contextual_inquiry",
+      "target": "about_face_chunks_chunk_091_interviewing_and_observing_use_ethnographic_interviews",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_092_Contextual_inquiry.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_096_the_persona_hypothesis_persona_hypothesis",
+      "target": "about_face_chunks_chunk_097_roles_in_business_and_consumer_roles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_097_Roles_in_business_and_consumer.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_096_the_persona_hypothesis_persona_hypothesis",
+      "target": "about_face_chunks_chunk_098_behavioral_and_demographic_var_behavioral_variables",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_098_Behavioral_and_demographic_var.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_096_the_persona_hypothesis_persona_hypothesis",
+      "target": "about_face_chunks_chunk_098_behavioral_and_demographic_var_demographic_variables",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_098_Behavioral_and_demographic_var.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_096_the_persona_hypothesis_persona_hypothesis",
+      "target": "about_face_chunks_chunk_100_environmental_considerations_environmental_considerations",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_100_Environmental_considerations.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_099_domain_expertise_versus_techni_technical_expertise",
+      "target": "about_face_chunks_chunk_098_behavioral_and_demographic_var_behavioral_variables",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "private/tmp/about_face_chunks/chunk_099_Domain_expertise_versus_techni.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_099_domain_expertise_versus_techni_domain_expertise",
+      "target": "about_face_chunks_chunk_098_behavioral_and_demographic_var_behavioral_variables",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "private/tmp/about_face_chunks/chunk_099_Domain_expertise_versus_techni.md"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "goal_directed_research_activities",
+      "label": "Goal-Directed Research Activities",
+      "nodes": [
+        "about_face_chunks_chunk_083_kickoff_meeting_kickoff_meeting",
+        "about_face_chunks_chunk_084_literature_review_literature_review",
+        "about_face_chunks_chunk_085_product_prototype_and_competit_product_audit",
+        "about_face_chunks_chunk_085_product_prototype_and_competit_competitive_audit",
+        "about_face_chunks_chunk_086_stakeholder_interviews_stakeholder_interviews",
+        "about_face_chunks_chunk_087_subject_matter_expert__sme__in_subject_matter_expert_interviews",
+        "about_face_chunks_chunk_088_customer_interviews_customer_interviews",
+        "about_face_chunks_chunk_089_user_interviews_user_interviews",
+        "about_face_chunks_chunk_090_user_observation_user_observation"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md"
+    },
+    {
+      "id": "persona_hypothesis_variables",
+      "label": "Persona Hypothesis Variables",
+      "nodes": [
+        "about_face_chunks_chunk_097_roles_in_business_and_consumer_roles",
+        "about_face_chunks_chunk_098_behavioral_and_demographic_var_behavioral_variables",
+        "about_face_chunks_chunk_098_behavioral_and_demographic_var_demographic_variables",
+        "about_face_chunks_chunk_100_environmental_considerations_environmental_considerations"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "private/tmp/about_face_chunks/chunk_096_The_persona_hypothesis.md"
+    }
+  ],
+  "input_tokens": 10000,
+  "output_tokens": 1000
+}

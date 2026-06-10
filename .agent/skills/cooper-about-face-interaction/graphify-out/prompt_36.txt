@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=36, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_36.json
+FILES:
+/private/tmp/about_face_chunks/chunk_876_Process_dialogs.md
+/private/tmp/about_face_chunks/chunk_877_Notification_dialogs.md
+/private/tmp/about_face_chunks/chunk_878_Bulletin_dialogs.md
+/private/tmp/about_face_chunks/chunk_879_Managing_property_and_function.md
+/private/tmp/about_face_chunks/chunk_880_Tabbed_dialogs.md
+/private/tmp/about_face_chunks/chunk_881_Expanding_dialogs.md
+/private/tmp/about_face_chunks/chunk_882_Cascading_dialogs.md
+/private/tmp/about_face_chunks/chunk_883_Eliminating_Errors__Alerts__an.md
+/private/tmp/about_face_chunks/chunk_884_Error_dialogs.md
+/private/tmp/about_face_chunks/chunk_885_What_s_wrong_with_error_dialog.md
+/private/tmp/about_face_chunks/chunk_886_Whose_mistake_is_it__anyway_.md
+/private/tmp/about_face_chunks/chunk_887_Error_messages_don_t_work.md
+/private/tmp/about_face_chunks/chunk_888_How_to_eliminate_error_message.md
+/private/tmp/about_face_chunks/chunk_889_Making_errors_impossible.md
+/private/tmp/about_face_chunks/chunk_890_Positive_feedback.md
+/private/tmp/about_face_chunks/chunk_891_Aren_t_there_exceptions_.md
+/private/tmp/about_face_chunks/chunk_892_Improving_error_messages__the_.md
+/private/tmp/about_face_chunks/chunk_893_Alerts_and_confirmations.md
+/private/tmp/about_face_chunks/chunk_894_Alerts__announcing_the_obvious.md
+/private/tmp/about_face_chunks/chunk_895_How_to_eliminate_alerts.md
+/private/tmp/about_face_chunks/chunk_896_Confirmations__the_dialog_that.md
+/private/tmp/about_face_chunks/chunk_897_How_to_eliminate_confirmations.md
+/private/tmp/about_face_chunks/chunk_898_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_899_The_Devil_Is_in_the_Details.md
+/private/tmp/about_face_chunks/chunk_900_Chapter_1.md

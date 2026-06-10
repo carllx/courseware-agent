@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=3, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_03.json
+FILES:
+/private/tmp/about_face_chunks/chunk_051_Apple.md
+/private/tmp/about_face_chunks/chunk_052_Microsoft.md
+/private/tmp/about_face_chunks/chunk_053_Novell.md
+/private/tmp/about_face_chunks/chunk_054_Recognizing_User_Goals.md
+/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md
+/private/tmp/about_face_chunks/chunk_056_Designing_to_meet_goals_in_con.md
+/private/tmp/about_face_chunks/chunk_057_Implementation_Models_and_Ment.md
+/private/tmp/about_face_chunks/chunk_058_Implementation_models.md
+/private/tmp/about_face_chunks/chunk_059_Mental_models.md
+/private/tmp/about_face_chunks/chunk_060_Striving_toward_perfection__re.md
+/private/tmp/about_face_chunks/chunk_061_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md
+/private/tmp/about_face_chunks/chunk_063_Bridging_the_gap.md
+/private/tmp/about_face_chunks/chunk_064_Design_as_product_definition.md
+/private/tmp/about_face_chunks/chunk_065_Designers_as_researchers.md
+/private/tmp/about_face_chunks/chunk_066_Between_research_and_blueprint.md
+/private/tmp/about_face_chunks/chunk_067_A_process_overview.md
+/private/tmp/about_face_chunks/chunk_068_Research.md
+/private/tmp/about_face_chunks/chunk_069_Modeling.md
+/private/tmp/about_face_chunks/chunk_070_Requirements_Definition.md
+/private/tmp/about_face_chunks/chunk_071_Framework_Definition.md
+/private/tmp/about_face_chunks/chunk_072_Refinement.md
+/private/tmp/about_face_chunks/chunk_073_Development_support.md
+/private/tmp/about_face_chunks/chunk_074_Goals__not_features__are_the_k.md
+/private/tmp/about_face_chunks/chunk_075_Notes.md

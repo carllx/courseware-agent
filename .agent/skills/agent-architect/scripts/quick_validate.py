@@ -49,7 +49,7 @@ def validate_rule(rule_path):
         return False, f"YAML 解析错误：{e}"
 
     # Q2: trigger 字段
-    VALID_TRIGGERS = {'always', 'always_on', 'model_decision', 'glob', 'manual'}
+    VALID_TRIGGERS = {'always', 'model_decision', 'glob', 'manual'}
     trigger = fm.get('trigger')
     if not trigger:
         return False, "缺少 'trigger' 字段"

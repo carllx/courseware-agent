@@ -3,11 +3,10 @@
 """
 生成实验文档双轨 Markdown (实验指导书 + 实验报告空模板)
 
-合并读取两个数据源：
-  1. course.yaml → experiments[id] — 元数据层 (SSOT)
-  2. exp_X.yaml — 增量数据层 (步骤指导/占位符/评分表)
+读取数据源：
+  1. exp_X.yaml — 全量事实源 (SSOT, 包含元数据与增量步骤)
 
-遵守 rule_document_boundaries.md §4 和 §6.5。
+遵守 rule_document_boundaries.md 规范。
 """
 
 import os
@@ -19,7 +18,7 @@ from pathlib import Path
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="生成课程大实验的《实验指导书》和《实验报告》模板（合并 course.yaml + exp_X.yaml）"
+        description="生成课程大实验的《实验指导书》和《实验报告》模板（基于全量单一事实源 exp_X.yaml）"
     )
     parser.add_argument("--course_dir", required=True, help="课程根目录")
     parser.add_argument("--exp", required=True, help="实验编号，如 '1'")
@@ -39,14 +38,7 @@ def load_yaml(file_path):
             sys.exit(1)
 
 
-def extract_experiment_from_course(course_data, exp_id):
-    """从 course.yaml 的 experiments[] 中提取指定 id 的实验元数据。"""
-    experiments = course_data.get("experiments", [])
-    for exp in experiments:
-        if exp.get("id") == exp_id:
-            return exp
-    print(f"Error: course.yaml 中未找到 id={exp_id} 的实验定义")
-    sys.exit(1)
+
 
 
 def generate_guide_md(course_exp, increment):
@@ -184,21 +176,17 @@ def main():
     course_dir = Path(args.course_dir).resolve()
     exp_num = int(args.exp)
 
-    # 1. 读取 course.yaml (上游 SSOT)
-    course_yaml_path = course_dir / "course.yaml"
-    print(f"[*] 读取 course.yaml: {course_yaml_path}")
-    course_data = load_yaml(course_yaml_path)
-    course_exp = extract_experiment_from_course(course_data, exp_num)
-    print(f"    ✓ 找到实验 {exp_num}: {course_exp.get('name')}")
-
-    # 2. 读取 exp_X.yaml (增量数据)
+    # 读取全量单一事实源 exp_X.yaml
     increment_path = course_dir / "practices" / "experiments" / f"exp_{exp_num}.yaml"
-    print(f"[*] 读取增量配置: {increment_path}")
+    print(f"[*] 读取单一事实源配置: {increment_path}")
     increment = load_yaml(increment_path)
+    
+    # 统一变量引用，增量与元数据合并在同一文件中
+    course_exp = increment
 
-    # 3. 校验外键一致性
-    if increment.get("exp_id") != exp_num:
-        print(f"Warning: exp_{exp_num}.yaml 中的 exp_id={increment.get('exp_id')} 与参数 {exp_num} 不匹配")
+    # 校验外键一致性
+    if increment.get("exp_id") != exp_num and increment.get("id") != exp_num:
+        print(f"Warning: exp_{exp_num}.yaml 中的 exp_id={increment.get('exp_id', increment.get('id'))} 与参数 {exp_num} 不匹配")
 
     # 4. 生成双轨文档
     name_safe = str(course_exp.get("name", "experiment")).replace(" ", "_").replace("/", "_")
@@ -219,7 +207,7 @@ def main():
         f.write(report_content)
     print(f"[+] 成功生成实验报告模板: {report_path}")
 
-    print(f"\n✅ 双轨实验文档生成完毕（合并 course.yaml + exp_{exp_num}.yaml）。")
+    print(f"\n✅ 双轨实验文档生成完毕（基于单一事实源 exp_{exp_num}.yaml）。")
 
 
 if __name__ == "__main__":

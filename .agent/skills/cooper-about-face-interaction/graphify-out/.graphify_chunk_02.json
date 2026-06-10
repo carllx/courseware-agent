@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "id": "interaction_design",
+      "label": "Interaction Design",
+      "file_type": "concept",
+      "source_file": "chunk_030_INTRODUCTION_TO_THE_FOURTH_EDI.md"
+    },
+    {
+      "id": "goal_directed_design",
+      "label": "Goal-Directed Design",
+      "file_type": "concept",
+      "source_file": "chunk_030_INTRODUCTION_TO_THE_FOURTH_EDI.md"
+    },
+    {
+      "id": "user_experience",
+      "label": "User Experience",
+      "file_type": "concept",
+      "source_file": "chunk_032_IxD_and_User_Experience.md"
+    },
+    {
+      "id": "gestalt_theory",
+      "label": "Gestalt Theory",
+      "file_type": "concept",
+      "source_file": "chunk_030_INTRODUCTION_TO_THE_FOURTH_EDI.md"
+    },
+    {
+      "id": "bill_moggridge",
+      "label": "Bill Moggridge",
+      "file_type": "concept",
+      "source_file": "chunk_031_A_Brief_History_of_Interaction.md"
+    },
+    {
+      "id": "bill_verplank",
+      "label": "Bill Verplank",
+      "file_type": "concept",
+      "source_file": "chunk_031_A_Brief_History_of_Interaction.md"
+    },
+    {
+      "id": "ixda",
+      "label": "Interaction Design Association (IxDA)",
+      "file_type": "concept",
+      "source_file": "chunk_031_A_Brief_History_of_Interaction.md"
+    },
+    {
+      "id": "alan_cooper",
+      "label": "Alan Cooper",
+      "file_type": "concept",
+      "source_file": "chunk_029_FOREWORD.md"
+    },
+    {
+      "id": "digital_product_failures",
+      "label": "Why Digital Products Fail",
+      "file_type": "rationale",
+      "source_file": "chunk_045_Why_Digital_Products_Fail.md"
+    },
+    {
+      "id": "misplaced_priorities",
+      "label": "Misplaced Priorities",
+      "file_type": "rationale",
+      "source_file": "chunk_046_Misplaced_priorities.md"
+    },
+    {
+      "id": "ignorance_about_users",
+      "label": "Ignorance About Real Users",
+      "file_type": "rationale",
+      "source_file": "chunk_047_Ignorance_about_real_users.md"
+    },
+    {
+      "id": "conflicts_of_interest",
+      "label": "Conflicts of Interest",
+      "file_type": "rationale",
+      "source_file": "chunk_048_Conflicts_of_interest.md"
+    },
+    {
+      "id": "lack_of_design_process",
+      "label": "Lack of a Design Process",
+      "file_type": "rationale",
+      "source_file": "chunk_049_Lack_of_a_design_process.md"
+    },
+    {
+      "id": "poor_product_behavior",
+      "label": "Consequences of Poor Product Behavior",
+      "file_type": "rationale",
+      "source_file": "chunk_040_The_Consequences_of_Poor_Produ.md"
+    },
+    {
+      "id": "rude_products",
+      "label": "Digital Products are Rude",
+      "file_type": "rationale",
+      "source_file": "chunk_041_Digital_products_are_rude.md"
+    },
+    {
+      "id": "think_like_computers",
+      "label": "Require Thinking Like Computers",
+      "file_type": "rationale",
+      "source_file": "chunk_042_Digital_products_require_peopl.md"
+    },
+    {
+      "id": "sloppy_habits",
+      "label": "Sloppy Habits",
+      "file_type": "rationale",
+      "source_file": "chunk_043_Digital_products_have_sloppy_h.md"
+    },
+    {
+      "id": "heavy_lifting",
+      "label": "Require Human Heavy Lifting",
+      "file_type": "rationale",
+      "source_file": "chunk_044_Digital_products_require_human.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "bill_moggridge",
+      "target": "interaction_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_031_A_Brief_History_of_Interaction.md"
+    },
+    {
+      "source": "bill_verplank",
+      "target": "interaction_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_031_A_Brief_History_of_Interaction.md"
+    },
+    {
+      "source": "goal_directed_design",
+      "target": "interaction_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_030_INTRODUCTION_TO_THE_FOURTH_EDI.md"
+    },
+    {
+      "source": "user_experience",
+      "target": "interaction_design",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chunk_032_IxD_and_User_Experience.md"
+    },
+    {
+      "source": "gestalt_theory",
+      "target": "interaction_design",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chunk_030_INTRODUCTION_TO_THE_FOURTH_EDI.md"
+    },
+    {
+      "source": "misplaced_priorities",
+      "target": "digital_product_failures",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_046_Misplaced_priorities.md"
+    },
+    {
+      "source": "ignorance_about_users",
+      "target": "digital_product_failures",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_047_Ignorance_about_real_users.md"
+    },
+    {
+      "source": "conflicts_of_interest",
+      "target": "digital_product_failures",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_048_Conflicts_of_interest.md"
+    },
+    {
+      "source": "lack_of_design_process",
+      "target": "digital_product_failures",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_049_Lack_of_a_design_process.md"
+    },
+    {
+      "source": "rude_products",
+      "target": "poor_product_behavior",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_041_Digital_products_are_rude.md"
+    },
+    {
+      "source": "think_like_computers",
+      "target": "poor_product_behavior",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_042_Digital_products_require_peopl.md"
+    },
+    {
+      "source": "sloppy_habits",
+      "target": "poor_product_behavior",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_043_Digital_products_have_sloppy_h.md"
+    },
+    {
+      "source": "heavy_lifting",
+      "target": "poor_product_behavior",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_044_Digital_products_require_human.md"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "causes_of_failure",
+      "label": "Causes of Product Failure",
+      "nodes": [
+        "misplaced_priorities",
+        "ignorance_about_users",
+        "conflicts_of_interest",
+        "lack_of_design_process"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_045_Why_Digital_Products_Fail.md"
+    },
+    {
+      "id": "examples_of_poor_behavior",
+      "label": "Examples of Poor Behavior",
+      "nodes": [
+        "rude_products",
+        "think_like_computers",
+        "sloppy_habits",
+        "heavy_lifting"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_040_The_Consequences_of_Poor_Produ.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

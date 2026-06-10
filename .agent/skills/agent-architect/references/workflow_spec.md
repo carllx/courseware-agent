@@ -88,9 +88,6 @@ Antigravity IDE 支持配置 **Allow List / Deny List** 终端策略，控制 Ag
 - 禁止对破坏性命令使用 `// turbo`：`rm -rf`、`git push --force`、`drop table` 等
 - 即使用户要求，也应在 Workflow 中标注警告注释而非直接 turbo
 
-**文件大小限制**：
-- 单个 Workflow 文件不得超过 **12,000 字符**（与 Rule 文件一致）
-
 ---
 
 ## 与其他机制的关系

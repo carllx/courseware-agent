@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=12, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_12.json
+FILES:
+/private/tmp/about_face_chunks/chunk_276_Establishing_a_Creative_Cultur.md
+/private/tmp/about_face_chunks/chunk_277_Identifying_Skill_Levels_in_De.md
+/private/tmp/about_face_chunks/chunk_278_Collaboration_Is_the_Key.md
+/private/tmp/about_face_chunks/chunk_279_Notes.md
+/private/tmp/about_face_chunks/chunk_280_Designing_Behavior_and_Form.md
+/private/tmp/about_face_chunks/chunk_281_A_BASIS_FOR_GOOD_PRODUCT_BEHAV.md
+/private/tmp/about_face_chunks/chunk_282_Design_Values.md
+/private/tmp/about_face_chunks/chunk_283_Ethical_interaction_design.md
+/private/tmp/about_face_chunks/chunk_284_Do_no_harm.md
+/private/tmp/about_face_chunks/chunk_285_Improve_human_situations.md
+/private/tmp/about_face_chunks/chunk_286_Purposeful_interaction_design.md
+/private/tmp/about_face_chunks/chunk_287_Pragmatic_interaction_design.md
+/private/tmp/about_face_chunks/chunk_288_Elegant_interaction_design.md
+/private/tmp/about_face_chunks/chunk_289_Represent_the_simplest_complet.md
+/private/tmp/about_face_chunks/chunk_290_Possess_internal_coherence.md
+/private/tmp/about_face_chunks/chunk_291_Appropriately_accommodate_and_.md
+/private/tmp/about_face_chunks/chunk_292_Interaction_Design_Principles.md
+/private/tmp/about_face_chunks/chunk_293_Principles_operate_at_differen.md
+/private/tmp/about_face_chunks/chunk_294_Behavioral_and_interface_level.md
+/private/tmp/about_face_chunks/chunk_295_Interaction_Design_Patterns.md
+/private/tmp/about_face_chunks/chunk_296_Architectural_patterns_and_int.md
+/private/tmp/about_face_chunks/chunk_297_Recording_and_using_interactio.md
+/private/tmp/about_face_chunks/chunk_298_Types_of_interaction_design_pa.md
+/private/tmp/about_face_chunks/chunk_299_Sample_interaction_design_patt.md
+/private/tmp/about_face_chunks/chunk_300_Desktop__Organizer_Workspace.md

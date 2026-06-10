@@ -1,0 +1,510 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_426_modal_excise_modal_excise",
+      "label": "Modal Excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_426_Modal_excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_426_modal_excise_don_t_stop_the_proceedings_with_idiocy",
+      "label": "Don't stop the proceedings with idiocy",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_426_Modal_excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_427_errors__notifiers__and_confirm_error_and_confirmation_messages",
+      "label": "Error and Confirmation Messages",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_427_Errors__notifiers__and_confirm.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_428_making_users_ask_permission_making_users_ask_permission",
+      "label": "Making Users Ask Permission",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_428_Making_users_ask_permission.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_428_making_users_ask_permission_allow_input_wherever_you_have_output",
+      "label": "Allow input wherever you have output",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_428_Making_users_ask_permission.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_429_stylistic_excise_stylistic_excise",
+      "label": "Stylistic Excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_429_Stylistic_excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_430_excise_is_contextual_contextual_excise",
+      "label": "Contextual Excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_430_Excise_Is_Contextual.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_431_eliminating_excise_eliminating_excise",
+      "label": "Eliminating Excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_432_reduce_the_number_of_places_to_reduce_places_to_go",
+      "label": "Reduce Places to Go",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_432_Reduce_the_number_of_places_to.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_433_provide_signposts_signposts",
+      "label": "Signposts",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_433_Provide_signposts.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_434_menu_menus",
+      "label": "Menus",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_434_Menu.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_435_toolbars_toolbars",
+      "label": "Toolbars",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_435_Toolbars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_436_other_interface_signposts_other_signposts",
+      "label": "Other Signposts",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_436_Other_interface_signposts.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_437_provide_overviews_overviews",
+      "label": "Overviews",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_437_Provide_overviews.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_437_provide_overviews_breadcrumbs",
+      "label": "Breadcrumbs",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_437_Provide_overviews.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_437_provide_overviews_annotated_scrollbar",
+      "label": "Annotated Scrollbar",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_437_Provide_overviews.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_438_properly_map_controls_to_funct_control_mapping",
+      "label": "Control Mapping",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_438_Properly_map_controls_to_funct.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_439_avoid_hierarchies_hierarchies",
+      "label": "Hierarchies",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_439_Avoid_hierarchies.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_439_avoid_hierarchies_monocline_grouping",
+      "label": "Monocline Grouping",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_439_Avoid_hierarchies.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_440_don_t_replicate_mechanical_age_mechanical_age_models",
+      "label": "Mechanical-Age Models",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_440_Don_t_replicate_Mechanical_Age.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_441_other_common_excise_traps_excise_traps",
+      "label": "Excise Traps",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_441_Other_Common_Excise_Traps.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_442_metaphors__idioms__and_afforda_metaphors_and_idioms",
+      "label": "Metaphors and Idioms",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_442_METAPHORS__IDIOMS__AND_AFFORDA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_443_interface_paradigms_interface_paradigms",
+      "label": "Interface Paradigms",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_443_Interface_Paradigms.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_444_implementation_centric_interfa_implementation_centric_interfaces",
+      "label": "Implementation-Centric Interfaces",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_444_Implementation_centric_interfa.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_445_metaphoric_interfaces_metaphoric_interfaces",
+      "label": "Metaphoric Interfaces",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_445_Metaphoric_interfaces.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_446_instinct__intuition__and_learn_intuition_vs_instinct",
+      "label": "Intuition vs Instinct",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_446_Instinct__intuition__and_learn.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_447_the_tyranny_of_the_global_meta_global_metaphor",
+      "label": "Global Metaphor",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_447_The_tyranny_of_the_global_meta.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_448_design_principle_never_bend_interface_to_metaphor",
+      "label": "Never Bend Interface to Metaphor",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_448_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_449_other_limitations_of_metaphors_limitations_of_metaphors",
+      "label": "Limitations of Metaphors",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_449_Other_limitations_of_metaphors.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_450_exceptions_to_the_rule_exceptions_to_metaphor_rule",
+      "label": "Exceptions to Metaphor Rule",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_450_Exceptions_to_the_rule.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_443_interface_paradigms_idiomatic_interfaces",
+      "label": "Idiomatic Interfaces",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_443_Interface_Paradigms.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_426_modal_excise_modal_excise",
+      "target": "about_face_chunks_chunk_426_modal_excise_don_t_stop_the_proceedings_with_idiocy",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_426_Modal_excise.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_428_making_users_ask_permission_making_users_ask_permission",
+      "target": "about_face_chunks_chunk_428_making_users_ask_permission_allow_input_wherever_you_have_output",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_428_Making_users_ask_permission.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_431_eliminating_excise_eliminating_excise",
+      "target": "about_face_chunks_chunk_432_reduce_the_number_of_places_to_reduce_places_to_go",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_431_eliminating_excise_eliminating_excise",
+      "target": "about_face_chunks_chunk_433_provide_signposts_signposts",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_431_eliminating_excise_eliminating_excise",
+      "target": "about_face_chunks_chunk_437_provide_overviews_overviews",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_431_eliminating_excise_eliminating_excise",
+      "target": "about_face_chunks_chunk_438_properly_map_controls_to_funct_control_mapping",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_431_eliminating_excise_eliminating_excise",
+      "target": "about_face_chunks_chunk_439_avoid_hierarchies_hierarchies",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_431_eliminating_excise_eliminating_excise",
+      "target": "about_face_chunks_chunk_440_don_t_replicate_mechanical_age_mechanical_age_models",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_431_Eliminating_Excise.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_443_interface_paradigms_interface_paradigms",
+      "target": "about_face_chunks_chunk_444_implementation_centric_interfa_implementation_centric_interfaces",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_443_Interface_Paradigms.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_443_interface_paradigms_interface_paradigms",
+      "target": "about_face_chunks_chunk_445_metaphoric_interfaces_metaphoric_interfaces",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_443_Interface_Paradigms.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_443_interface_paradigms_interface_paradigms",
+      "target": "about_face_chunks_chunk_443_interface_paradigms_idiomatic_interfaces",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_443_Interface_Paradigms.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_445_metaphoric_interfaces_metaphoric_interfaces",
+      "target": "about_face_chunks_chunk_447_the_tyranny_of_the_global_meta_global_metaphor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_447_The_tyranny_of_the_global_meta.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_447_the_tyranny_of_the_global_meta_global_metaphor",
+      "target": "about_face_chunks_chunk_448_design_principle_never_bend_interface_to_metaphor",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_448_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_433_provide_signposts_signposts",
+      "target": "about_face_chunks_chunk_434_menu_menus",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_434_Menu.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_433_provide_signposts_signposts",
+      "target": "about_face_chunks_chunk_435_toolbars_toolbars",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_435_Toolbars.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_433_provide_signposts_signposts",
+      "target": "about_face_chunks_chunk_436_other_interface_signposts_other_signposts",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_436_Other_interface_signposts.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

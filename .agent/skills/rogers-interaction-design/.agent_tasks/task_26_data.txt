@@ -1,0 +1,938 @@
+OUTPUT_FILE: /Users/yamlam/Downloads/carllx-skills/.agent/skills/interaction-design-Rogers/references/workflows/7_2_4__virtual_reality.md
+
+CONTEXT:
+Node: 7.2.4  Virtual Reality
+Primary concept extracted from chunk
+# 7.2.4  Virtual Reality
+
+Virtual reality (VR) has been around since the 1970s when researchers first began developing computer-generated  graphical  simulations to create “the illusion of  participation in  a synthetic environment rather than external observation of such an environment” (Gigante, 1993, p. 3). The goal was to create user experiences that feel virtually real when interacting with an artificial  environment. Images are displayed stereoscopically to the users—most commonly through VR headsets—and  objects within the field of  vision can  be interacted with via an input device like a joystick.
+
+The 3D graphics  can  be projected  onto Cave Automatic Virtual  Environment (CAVE) floor  and wall  surfaces,  desktops, 3D  TV,  headsets,  or  large  shared  displays,  for instance, IMAX screens. One of the main attractions of VR is that it can provide opportunities for new kinds of immersive experiences, enabling people to interact with digital objects and navigate in 3D space in ways  not possible in the physical world or a 2D graphical interface. Besides looking at and navigating through a 360-degree visual landscape, auditory and haptic feedback  can  be added  to  make  the  experience  feel  even  more  immersive.  The  resulting  user experience can be highly engaging; it can feel as if one really is flying around a virtual world. People can become completely absorbed by the experience. The sense of presence can make the virtual setting seem convincing. Presence, in this case, means “a state of consciousness, the (psychological) sense of being in the virtual environment” (Slater and Wilbur, 1997, p. 605), where someone behaves in a similar way to how they would if at an equivalent real event.
+
+VR simulations of the world can be constructed to have a higher level of fidelity  with the  objects  they  represent  compared  to  other  forms  of  graphical  interfaces,  for  example, multimedia. The illusion afforded by the technology can make virtual objects appear to be
+
+life-like and behave according to the laws of physics. For example, landing and take-off terrains developed for flight simulators can appear to be quite realistic. Moreover, it is assumed that learning and training applications can be improved through having a greater fidelity to the represented world.
+
+Another distinguishing feature of VR is the different viewpoints it can offer. Players can have a first-person perspective, where their view of the game or environment is through their own eyes, or a third-person perspective, where they see the world through an avatar visually represented on  the screen. An  example  of a  first-person perspective  is  that experienced  in first-person shooter  games  such as DOOM,  where the player  moves through  the environment without seeing a representation of themselves. It requires the user to imagine what they might look like and decide how best to move around. A third-person perspective enables the player to see the virtual world above and behind their avatar. A person controls their avatar’s interactions with the environment by controlling their own movements, for example, jumping, running, or crouching. Avatars can be represented from behind or from the front. Firstperson perspectives are typically used for flying/driving simulations and games, for instance, car  racing, where it  is  important  to have direct  and  immediate control to steer  the  virtual vehicle. Third-person perspectives are more commonly used in games, learning environments, and simulations, where it is important to see a representation of self with respect to the environment and others in it. In some virtual environments, it  is possible to switch between  the two perspectives, enabling someone to experience different viewpoints on the same game or training environment.
+
+In  the beginning,  head-mounted  displays were  used  to present VR  experiences.  However,  the visuals were  often clunky, the headset  uncomfortable  to wear, and the immersive experience sometimes resulting in motion sickness and disorientation. Since then, VR  technology  has  come  of  age  and  improved  greatly  with  new  techniques being  developed  that seek to reduce motion sickness. There are now many off-the-shelf VR headsets (for example, Meta Quest 2, HTC Vive, and Sony Play Station VR)  that are affordable and comfortable. They also have more accurate head tracking that allow developers to create more compelling games, movies, and virtual environments.
+
+Another application area that has been explored is how VR can enrich the experience of reporting and witnessing current affairs and news, especially feelings of empathy and compassion to real-life experiences (Aronson-Rath et al., 2016). For example, the BBC together with Aardman Interactive and University College London researchers developed a VR experience called “We Wait,” where they put the viewer in a place that few foreign reporters have been, namely, on a boat with a group of refugees crossing the Mediterranean Sea (Steed et al., 2018). The goal  was to let news  reporters and other participants  experience how it felt to be there  on the boat with the refugees. They used a particular artistic polygon style rather than realism to create the characters sitting on the boat (see Figure 7.13). The characters had expressive eyes intended to convey human emotion in response to gaze interaction. The avatars were found  to generate  an empathic response from  participants. Other research investigating  the  benefits of immersive  storytelling has  also  found  similar empathetic  responses (Shin, 2018).
+
+Figure 7.13 Snapshot of polygon  graphics used to represent  avatars  for  the  “We  Wait”  VR experience   
+![](images/80a7db4e5d1dfc7a9e3e01062415096568c1451e3fb8bee50f71341e046cb8f4.jpg)  
+Source: Steed, Pan, Watson and Slater, www.frontiersin.org/articles/10.3389/frobt.2018.00112/full. Licensed Under CC-BY 4.0
+
+Jakob Nielsen argues that VR is much harder to interact with and control compared with GUI interfaces. He claims that this is due partly because it has more degrees of freedom and partly because VR is new to many people who have less experience using it compared with GUIs. See www.youtube.com/ watch?v=f4GVG4C2BcE. Do you agree?
+---
+Node: 8.4 Interviews
+Primary concept extracted from chunk
+# 8.4 Interviews
+
+Interviews can be thought of as a “conversation with a purpose” (Kahn and Cannell, 1957). How much like an ordinary conversation the interview will be depends on the type of interview. There are four main types of interviews: open-ended or unstructured, structured, semistructured, and  group interviews. The first three  types  are named according  to how much control  the  interviewer  imposes  on  the  conversation  by  following  a  predetermined  set  of questions. The fourth type, which is often called a focus group, involves a small group guided by a facilitator. The facilitation may be quite informal or follow a structured format.
+
+The most appropriate approach to interviewing depends on the purpose of the interview, the questions to be addressed, and the interaction design activity. For example, if the goal is to gain impressions about people’s reactions to a new design concept, then an informal, openended interview is often the best approach. But if the goal is to get feedback about a particular design feature, such as the layout of a new web browser, then a structured interview or questionnaire is often better. This is because the goals and questions are more specific in the latter case. Interviewees are sometimes asked to bring items such as documents, photographs, or key objects to the interview, which are used to explain specific points.
+---
+Node: What They Say and What They Do
+Primary concept extracted from chunk
+# What They Say and What They Do
+
+What users say isn’t always what they do. People sometimes give the answers that they think show them in the best light, they may have forgotten what happened, or they may want to please the  interviewer by answering  in the  way they think  will satisfy  them. This may  be problematic  when the  interviewer and  interviewee don’t  know each other, especially if the interview is being conducted remotely by Zoom, Cisco Webex, or another digital conferencing system.
+
+For example, Yvonne Rogers et al. (2010) conducted a study to investigate whether a set of twinkly lights embedded in the floor of an office building could persuade people to take the  stairs rather than the  lift (or  elevator). In interviews, participants told the  researchers that they did not change their behavior, but logged data showed that their behavior did, in fact, change significantly. So, can interviewers believe all of the  responses they get? Are  the respondents telling the truth, or are they simply giving the answers that they think the interviewer wants to hear?
+
+It isn’t possible to avoid this behavior, but an interviewer can be aware of it and reduce such biases by choosing questions carefully, by getting a large number of participants, or by using a combination of data gathering techniques.
+---
+Node: 8.4.1  Unstructured Interviews
+Primary concept extracted from chunk
+# 8.4.1  Unstructured Interviews
+
+Open-ended or unstructured  interviews are at one end of a spectrum of how much control the interviewer has over the interview process. They are exploratory and are similar to conversations;  they  often  go  into considerable depth. Questions  posed  by  the interviewer  are open, meaning that there is no particular expectation about the format or content of answers. For example, the first question asked of all participants might be: “What are the advantages and disadvantages of using a wearable?” Here, the interviewee is free to answer as fully or as briefly as they  want, and both the interviewer  and interviewee can steer the interview. For example, often the interviewer will say: “Can you tell me a bit more about.... ” This is referred to as probing.
+
+Despite  being unstructured  and open, the interviewer  needs a plan  of the main  topics to be covered so that they can make sure that all of the topics are discussed. Going into an interview without a plan should not be confused with being open to hearing new ideas (see section 8.4.5, “Planning and Conducting an Interview”). One of the skills needed to conduct an unstructured interview is getting the balance right between obtaining answers to relevant questions and being prepared to follow unanticipated lines of inquiry.
+
+A benefit of unstructured interviews is that they generate rich data that is often interrelated and complex, that is, data that provides a deep understanding of the topic. In addition, interviewees may  mention issues  that  the interviewer  has not  considered. A lot of unstructured  data is  generated, and the  interviews  will not  be  consistent  across participants  since each interview takes on its own format. Unstructured interviews can be time-consuming to analyze, but they can also produce rich insights. Themes can be identified across interviews using techniques from grounded theory and other analytic approaches, as discussed in Chapter 9, “Data Analysis, Interpretation, and Presentation.”
+---
+Node: 8.4.2  Structured Interviews
+Primary concept extracted from chunk
+# 8.4.2  Structured Interviews
+
+In structured interviews, the interviewer asks predetermined questions similar to those in a questionnaire (see section 8.5, “Questionnaires”), and the same questions are used with each participant  so  that  the  study  is  standardized.  The  questions  need  to  be  short  and  clearly worded, and they are typically closed questions,  which means that they require an  answer from a predetermined set of alternatives. (This may include an “other” option, but ideally this would not be chosen often.) Closed questions work well if the range of possible answers is
+
+known or if participants don’t have much time. Structured interviews are useful only when the goals are clearly understood and specific questions can be identified. Example questions for a structured interview might be the following:
+
+• “Which  of  the  following  apps  do  you  use  most  frequently:  Prime  Video,  GoogleTV, or Netflix?”   
+• “How often do you watch streamed content: every day, once a week, once a month, less often than once a month?”   
+“Do you ever purchase anything online: Yes/No? If your answer is Yes, approximately how often do you purchase things online: every day, once a week, once a month, less frequently than once a month?”
+
+Questions  in a  structured interview  are worded  the same for each  participant and  are asked in the same order.
+---
+Node: 8.4.3  Semi-Structured Interviews
+Primary concept extracted from chunk
+# 8.4.3  Semi-Structured Interviews
+
+Semi-structured interviews  combine features of structured and unstructured interviews and use both closed and open questions. The interviewer has a basic script for guidance so that the same topics  are covered with each interviewee. The interviewer  starts with preplanned questions and then probes the interviewee to say more until no new relevant information is forthcoming. Here’s an example:
+
+Interviewer: Which music websites do you visit most frequently?
+
+Interviewee: Mentions several but stresses that they prefer hottestmusic.com.
+
+Interviewer: Why?
+
+Interviewee: Says that they like the site layout.
+
+Interviewer: Tell me more about the site layout.
+
+Interviewee: Silence, followed by an answer describing the site’s layout.
+
+Interviewer: Anything else that you like about the site?
+
+Interviewee: Describes the animations.
+
+Interviewer: Thanks. Are there any other reasons for visiting this site so often that you haven’t mentioned?
+
+It is important not to pre-empt an answer by phrasing a question to suggest that a particular answer is expected. For example, “You seemed to like this use  of color…” assumes that this is the case and will probably encourage the interviewee to answer that this is true so as not to offend the interviewer. Children are particularly prone to behave in this way. The body language of the interviewer, for example  whether they  are smiling, scowling, looking disapproving, and so forth, can have a strong influence on whether the interviewee will agree with a question, and the interviewee needs to have time to speak and not be rushed.
+
+Probes are a useful device for getting more information, especially neutral probes such as “Do you want to tell me anything else?” and prompts that remind interviewees if they forget terms or names help to move the interview along. Semi-structured interviews are intended to be broadly replicable, so probing and prompting aim to move the interview along without introducing bias.
+---
+Node: Running the Interview
+Primary concept extracted from chunk
+# Running the Interview
+
+Before starting the interview, it is important  to check that the interviewee has received and read any project information sheet and has completed the informed consent form. Interviewees must be given the chance to ask any questions they have regarding any aspect of the process. This can often be done through email exchange before the day of the interview but can also be confirmed at the start of the interview. During the interview, it’s important to listen more than to talk, to respond with sympathy but without bias, and to enjoy the exchange. The following is a common sequence for an interview (Robson and McCartan, 2016):
+
+1.  An introduction in  which the interviewer  introduces themselves and  explains why they are doing the interview. Documentation for the interview is checked, and the interviewee is given a chance to ask questions and agree to being recorded. This should be exactly the same for each interviewee.   
+2.  A warm-up session where straightforward questions come first. These may include questions about demographic information, such as “What area of the country do you live in?”   
+3.  A main session in which the questions are presented in a logical sequence, with the more probing ones at the end. In a semi-structured interview, the order of questions may vary between participants, depending on the course of the conversation, how much probing is done, and what seems more natural.   
+4.  A cooling-off period consisting of a few straightforward questions such as “Is there anything else you’d like to tell us?”   
+5.  A closing session in which the interviewer thanks the interviewee and stops any recording, signaling that the interview has ended.
+
+The following video highlights five common interviewing mistakes: www.nngroup .com/videos/interview-mistakes-to-avoid.
+---
+Node: 8.4.6  Doing Interviews Remotely
+Primary concept extracted from chunk
+# 8.4.6  Doing Interviews Remotely
+
+Conducting remote interviews has become common in recent years, and high-quality videoconferencing  systems make  remote interviewing  a good  alternative to  face-to-face interactions. Advantages of remote focus groups and interviews include the following:
+
+. The participants are in their own environment and are more relaxed.   
+•  Participants don’t have to travel or be concerned about any health or safety issues.   
+. Participants don’t need to worry about what they wear.   
+• For interviews involving sensitive issues, interviewees can remain anonymous, especially if audio-only channels are utilized.
+
+In addition, participants can leave the conversation whenever they want to by just cutting the connection, which adds to their sense of security. From the interviewer’s perspective, a wider set of participants can be reached easily, but potential disadvantages include that the facilitator does not have a good  view of the interviewees’  body language, and participants may be tempted to multitask rather than focus on the session at hand.
+
+For more information and helpful guidance on remote interviewing, see www .uxbooth.com/articles/remote-user-interviewing-basics.
+---
+Node: ACTIVITY 8.3
+Primary concept extracted from chunk
+# ACTIVITY 8.3
+
+Conducting interviews remotely is different  from conducting them face-to-face, but  what are  those  differences? Take a look at the  guidance provided at www.uxbooth.com/articles/ remote-user-interviewing-basics, and  suggest how  you  would approach a  remote interview differently from a face-to-face session.
+---
+Node: 8.4.7  Enriching the Interview Experience
+Primary concept extracted from chunk
+# 8.4.7  Enriching the Interview Experience
+
+Whether  conducted  in a  face-to-face  or remote  setting,  interviews  can  benefit  from  using artifacts relevant to the goal of the study as a focus for discussion. These props can provide context for the interviewer and interviewees and help to ground the data in concrete examples. Example props are personas, prototypes, or scenarios (examples of these are covered in Chapter  11,  “Discovering  Requirements,”  and  Chapter  12,  “Design,  Prototyping,  and Construction”). Figure 8.4 illustrates the use of personas in a focus group setting.
+
+![](images/244d85f51f9ac29002a89b63af3dd425b1f3434eae6ea3a06342142731e0ca7a.jpg)  
+Figure 8.4  Enriching a focus group with personas displayed on the wall for all participants to see
+
+Almohannad Albastaki et al. (2020) investigated the feasibility of using a virtual experience  prototype  to  augment  remote  interviews. They  investigated  robotic  expressions  with design  experts using a  nonimmersive  virtual  reality simulation. In their  study, participants were  asked  to  explore  a  simulation  of  an  urban  robot  operating  in  an  alleyway  at  night
+
+while providing think-aloud. The robot had 64 individual lighting components to present the expressions. Immediately afterward the participants were interviewed briefly (7–10 minutes) about their experience. The researchers identified several lessons about using virtual prototypes for remote evaluations. For example, they found that evaluations with such prototypes can  have  ecological  validity,  i.e.,  can  produce  results  that  are  similar  to  those  conducted with real robots, for some research questions, and that using a videoconferencing environment to record the participants’ activity reduced the amount of equipment required to capture the data.
+---
+Node: 8.5 Questionnaires
+Primary concept extracted from chunk
+# 8.5 Questionnaires
+
+Questionnaires are a well-established technique for collecting demographic data and people’s opinions. Similarly to interviews, questions may be closed or open-ended. Once a questionnaire is  produced, it  can be  distributed to many  participants  without significant resources. Because of this, a larger set of data can be collected than would normally be possible in an interview study.
+
+Questionnaire  questions and structured  interview questions  are similar, so which  technique is  used  when?  Essentially, the  difference  lies  in the  motivation  of the  respondent  to answer the questions. If their motivation is high enough to complete a questionnaire without any encouragement, then a questionnaire is more efficient. On the other hand, if the respondents need some  persuasion to answer the questions, a structured interview  format may get more responses. For example, structured interviews work better than questionnaires where people are on the move, such as at a train station  or while walking to their next  meeting. Another consideration is that an interviewer can choose which interviewees to approach and make sure they match the participant criteria.
+
+However, interviews require ongoing researcher resource, but it can be harder to develop good  questionnaire  questions  compared  with  structured  interview  questions  because  the interviewer is not available to clarify any ambiguities.
+---
+Node: 8.5.1  Questionnaire Structure
+Primary concept extracted from chunk
+# 8.5.1  Questionnaire Structure
+
+Many questionnaires start by asking for demographic information such as gender, ethnicity, age, and details of relevant experience. Background information about a participant is useful for putting the questionnaire responses into context, provided it is relevant to the study goal. For  example,  a  conflict  between  two  responses  may  be  explained  by  different  levels  of experience—people using a banking app for the first time are likely to express different opinions  than others  with  many years’  experience of  such apps. However, a person’s height  is unlikely to be relevant to their responses about social media use.
+
+Specific questions relating to the study’s goal usually come next. These questions may be subdivided into related topics to make it easier and more logical to complete.
+
+The following is a checklist of general advice for designing a questionnaire:
+
+•  Think  about  the ordering  of  questions. The  impact  of  a  question  can  be  influenced  by question order.   
+Consider  whether  different  versions  of  the  questionnaire  are  needed  for  different populations.
+
+• Provide  clear instructions  on  how  to complete  the questionnaire, for  example, whether answers  can  be  saved  and  completed  later. Aim  for  both  careful  wording  and  good typography.   
+. Think about  the length  of the questionnaire, and avoid questions that don’t address  the study goals.   
+• If the questionnaire has to be long, consider allowing respondents to opt out at different stages. It is usually better to get answers to some sections than no answers at all because of dropout.   
+• Think about questionnaire layout and pacing; for instance, strike a balance between using white space, or individual web pages, and the need to keep the questionnaire as compact as possible.
+---
+Node: 8.5.2  Question and Response Format
+Primary concept extracted from chunk
+# 8.5.2  Question and Response Format
+
+There are different formats of question and response. Questionnaires are often constructed with closed-ended questions giving a range of answers, including a “no opinion” or “none of  these” option. Sometimes, it is better  to  ask for answers  within  a range. Selecting  the most appropriate question and response format makes it easier for respondents to answer clearly  and for analysis to  be focused. It’s also  important to use negatively phrased questions carefully and avoid double negatives as they can be confusing and may lead to false information.
+---
+Node: Ranges and Predefined Lists of Responses
+Primary concept extracted from chunk
+# Ranges and Predefined Lists of Responses
+
+Responses to some questions fall within a predictable range or list. Nationality, for example, has a finite number of alternatives, and asking respondents to choose from a predefined list makes  sense for  collecting this  information. A similar  approach  can  be  adopted  if  participants’ ages are needed, although respondents are often asked to specify their age as a range rather  than a specific number. For  other questions  several options  may  be chosen, such  as which news channels a participant listens to regularly. In online surveys, questions with a list of responses, where only one can be chosen conventionally, use  radio buttons  to select [see Figure $8 . 5 ( \mathrm { a } ) ]$ , while lists where several  can be chosen use  check boxes  [see Figure 8.5(b)]. Alternatively, options  may be displayed as a drop-down menu that appears when the question is clicked (Figure 8.5(c)).
+
+A common design error arises when the ranges overlap. For example, specifying two age ranges as 15–20 and 20–25 will cause confusion; which box do people who are 20 years old choose? Making the ranges 15–19 and 20–24 avoids this problem.
+
+A  frequently asked question  about  ranges is  whether the interval  must  be equal  in all cases. The answer is no—it depends on what you want to know. For example, people redesigning a mortgage advice website might be particularly interested in the opinions of adults under 26. The question could, therefore, have just three ranges: 17 and younger, 18–25, and 26 and older. In contrast, seeing how the population’s political views vary across generations might  require 10-year  cohort groups for people older than 21, in which case the following ranges would be appropriate: 20 and younger, 21–30, 31–40, and so forth.
+
+What is your age?
+
+$\textcircled{6}$ 20 and under   
+$\bigcirc$ 21-30   
+$\bigcirc$ 31-40   
+$\bigcirc$ 41-50   
+$\bigcirc$ 51 and over
+
+(a)
+
+Which news channels do you subscribe to?
+
+Sky News   
+✓ BBC News   
+$\boxed { \checkmark }$ Al Jazeera   
+$\boxed { \begin{array} { r l } \end{array} }$ Euro news   
+CNN news   
+□ Other. Please specify:
+
+(b)
+
+![](images/2c8481ba567f8a28b53e9b2d684b1054caee8305adc68605e89002988938f2e8.jpg)  
+Figure 8.5  (a) Radio buttons are used when only one option can be selected. (b) Check boxes are used when several options can be selected. (c) A drop-down menu for currency.
+
+(c)
+
+Source: Microsoft Corporation
+---
+Node: Rating Scales
+Primary concept extracted from chunk
+# Rating Scales
+
+There  are  a  number  of  different  types  of  rating  scales,  each  with  its  own  purpose  (see Oppenheim, 2000). Two commonly used scales are the Likert and semantic differential scales. Their purpose  is  to elicit a  range of  responses to  a question  that  can  be  compared  across respondents. They are good for getting people to make judgments, such as how likely they are to recommend a product.
+
+Likert  scales  rely  on  identifying  a  set  of  statements  representing  a  range  of  possible opinions, while semantic  differential  scales  rely on  choosing pairs  of words  that  represent the range of  possible opinions. Likert  scales are more  commonly used  because identifying
+
+suitable  statements that  respondents will  understand consistently  is  easier  than identifying semantic pairs that respondents interpret as intended.
+---
+Node: Likert Scales
+Primary concept extracted from chunk
+# Likert Scales
+
+Likert scales are used for measuring opinions, attitudes, and beliefs, and consequently they are widely used for evaluating user satisfaction with products. For example, users’ opinions about the use of color in an interface could be evaluated with a Likert scale using a range of numbers, as in question 1 here, or with words, as in question 2:
+
+1.  The use of color is excellent (where 5 represents strongly agree and 1 represents strongly disagree):
+
+<table><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>□</td><td>□</td><td>□</td><td>□</td><td>□</td></tr></table>
+
+2.  The use of color is excellent:
+
+<table><tr><td>Strongly disagree</td><td>Disagree</td><td>Undecided</td><td>Agree</td><td>Strongly agree</td></tr><tr><td>□</td><td>□</td><td>□</td><td>□</td><td>□</td></tr></table>
+
+In both cases, respondents would be asked to tick one of the boxes, numbers, or phrases. Designing a Likert scale involves the following steps:
+
+1.  Gather a pool of short statements about the subject to be investigated. Examples are “This control panel is clear” and “The procedure for checking credit rating is too complex.” A brainstorming session with peers is a good way to identify key aspects to be investigated.   
+2.  Decide on the scale. There are three main issues to be addressed here: How many points does  the scale need? Should  the scale be discrete  or continuous? How  can  the scale be represented? See Box 8.3 What Scale to Use? for more on this.   
+3.  Select items for the final questionnaire, and reword as necessary to make them clear.
+---
+Node: Semantic Differential Scales
+Primary concept extracted from chunk
+# Semantic Differential Scales
+
+Semantic differential scales explore a range of bipolar attitudes about a particular item, each of  which is  represented  as a pair  of  adjectives. The  participant  is  asked  to choose  a  point between the two extremes to indicate agreement with the poles, as shown in Figure 8.6. The score for the investigation is found by summing the  scores for each bipolar pair. Scores are then computed across groups of participants. Notice that in this example the poles are mixed so that good and bad features are distributed on the right and the left. In this example, there are seven positions on the scale.
+
+![](images/85ad52d93bfe6757e98dfb20864cebb9f63c53733ae1f4a0a1c96c7e588461b3.jpg)  
+Figure 8.6  An example of a semantic differential scale
+---
+Node: What Scale to Use?
+Primary concept extracted from chunk
+# What Scale to Use?
+
+Questionnaire scales come in various sizes: three, five, seven, nine, or even 100-point scales. Advocates of long scales argue that they help to show discrimination. Rating features on an interface is more difficult  for most people than, say, selecting among different flavors of ice cream, and when the task is difficult, there is evidence to show that people “hedge their bets.” Rather than selecting  the  poles of the  scales, respondents  tend to select values nearer the center. The counterargument is that people cannot be expected to discern accurately among points on a large scale, so any scale of more than five points is unnecessarily difficult to use. Using an odd number of points provides a clear central point, while an even number forces participants to decide and prevents them from sitting on the fence.
+
+James Lewis and Oğuzhan Erdinç (2017) investigated the properties of 7- and 11-point scales versus a continuous (visual analog or VAS) scale that asks respondents to place a mark on a line, and translates into a 101 point scale, i.e., 0–100. They concluded that there were no differences in reliability, concurrent validity, and sensitivity between the three scale types, so there aren’t any particular measurement advantages associated with using a 7-point, 11-point, or VAS scale.
+
+When designing a scale, one rule of thumb is to use a small number, such as 3, when the possibilities are limited, as in Yes/No/Don’t know type answers, a medium-sized range, a 5 or 7, when making judgments that involve like/dislike or agree/disagree statements, and a longer range, such as 9 or 100, when asking respondents to make subtle judgments, such as “level of appeal” of a computer game character. Whatever size scale, capturing responses is best done by check boxes for discrete choices, and a continuous scale for finer judgments.
+---
+Node: ACTIVITY 8.4
+Primary concept extracted from chunk
+# ACTIVITY 8.4
+
+Spot four poorly designed features in the excerpt from a questionnaire on the use of fitness trackers in Figure 8.7.
+
+![](images/5e8180ce36db20d9b1544bc24702940858ad4d997fbdf1e9b9c4d4d949fe3d91.jpg)  
+Figure 8.7  A questionnaire with poorly designed features
+---
+Node: 8.6 Observation
+Primary concept extracted from chunk
+# 8.6 Observation
+
+Observation is useful at any stage during product development. Early in design, observation helps designers understand people’s context, tasks, and goals. Observation conducted later in development, for example, in evaluation, may be used to investigate how well a prototype supports these tasks and goals.
+
+People may  be observed  directly by  the investigator  as they perform their activities or indirectly through records of the activity that are studied afterward (Bernard, 2017). Observation may also take place  in the wild or in a controlled  environment. In the former case, individuals are observed as they go about their day-to-day tasks in the natural setting. In the latter case, individuals are observed performing specified tasks within a controlled environment such as a usability laboratory.
+---
+Node: ACTIVITY 8.6
+Primary concept extracted from chunk
+# ACTIVITY 8.6
+
+To appreciate the different merits of observation in the wild and observation in a controlled environment, read the following scenarios and answer the questions that appear after:
+
+Scenario 1 A usability consultant joins a group of tourists who have each been given a wearable navigation device that fits onto a wrist strap to test on a visit to Stockholm. After sightseeing for the day, they use the device to find a list of restaurants within 2 kilometers of their current position. Several are listed, and they find the phone numbers of a few, call them to ask about their menus, select one, make a booking, and head off to the restaurant. The usability  consultant observes some difficulty operating the  devices, especially on the  move. Discussion with the group supports the evaluator’s impression that there are problems with the interface, but on balance the device is useful, and the group is pleased to get a table at a good restaurant nearby.
+
+Scenario 2 A usability consultant observes how participants perform a preplanned task using the wearable navigation device in a usability laboratory. The task requires the participants to find the phone number of a restaurant called Matisse. It takes them several minutes
+
+to do this, and they appear to have problems. The video recording and interaction log suggest that the interface is quirky and the audio interaction is of poor quality. This is supported by participants’ answers on a user satisfaction questionnaire.
+
+1. What are the advantages and disadvantages of these two types of observation?   
+2. When might each type of observation be useful?
+---
+Node: 8.6.1  Direct Observation in the Wild
+Primary concept extracted from chunk
+# 8.6.1  Direct Observation in the Wild
+
+It  can  be difficult  for people  to explain  what  they  do  or to  describe accurately  how  they achieve  a task. It is unlikely that an interaction  designer will get a full and true  story using interviews or questionnaires. Observation in the wild can help fill in details about how people behave and use technology and nuances that are not elicited from other forms of investigation.  Understanding  the  context  provides  important  information  about  why  activities happen  the  way  that they  do.  However, observation in  the  wild  can  be  complicated  and harder to do well than as first appreciated. Observation can also result in a lot of data, some of which may be tedious to analyze and not very relevant.
+
+All data gathering should have a clearly stated  goal, but  it is  particularly important  to have a focus for an observation session because there  is always so much going on. On the other hand, it is also important to be prepared to change the plan if circumstances change.
+
+For example, the plan may be to spend one day observing an individual performing a task, but  an  unexpected  meeting  crops up,  which  is  relevant  to  the observation  goal  and  so  it makes sense to attend the meeting instead. In observation, there is a careful balance between being guided by goals and being open to modifying, shaping, or refocusing the study as more is learned  about  the  situation. Being able  to keep this balance  is a skill  that  develops with experience.
+---
+Node: Structuring Frameworks for Observation in the Wild
+Primary concept extracted from chunk
+# Structuring Frameworks for Observation in the Wild
+
+During an observation, events can be complex and rapidly changing. There is a lot for observers to think about, so many experts have a framework to structure and focus their observation. The framework can be quite simple. For example, this is a practitioner’s framework for use in evaluation studies that focuses on just three easy-to-remember items:
+
+The person: Who is using the technology at any particular time?
+
+The place: Where are they using it?
+
+The thing: What are they doing with it?
+
+Even  a simple framework such as this one can be surprisingly effective to help  observers keep their goals in sight. Experienced observers may prefer a more detailed framework, such as the following (Robson and McCarten, 2016, p. 328), which encourages them to pay greater attention to the context of the activity:
+
+Space: What is the physical space like, and how is it laid out?
+
+Actors: What are the names and relevant details of the people involved?
+
+Activities: What are the actors doing, and why?
+
+Objects: What physical objects are present, such as furniture?
+
+Acts: What are specific individual actions?
+
+Events: Is what you observe part of a special event?
+
+Time: What is the sequence of events?
+
+Goals: What are the actors trying to accomplish?
+
+Feelings: What is the mood of the group and of individuals?
+
+This framework was devised for any type of observation, so when used in the context of interaction design, it might need to be modified slightly. For example, if the focus is going to be on how some technology is used, the framework could be modified to ask the following:
+
+Objects: What physical objects, in addition to the technology being studied, are present, and do they impact on the technology use?
+
+Both of these frameworks are relatively general and could be used in a range of settings or to develop a new framework for a specific study. They also both assume that the observer is  physically co-located  with participants. See  Box 8.4  for  more information  about  online observation.
+---
+Node: ACTIVITY 8.7
+Primary concept extracted from chunk
+# ACTIVITY 8.7
+
+1. Find a small group of people who are using any kind of technology, for example, smartphones, household appliances, or computer games, and try to answer the question, “What are  these  people doing?” Watch  for  three  to five minutes, and  write  down what you observe. When finished, note how it felt to be doing this and any reactions in the group of people observed.   
+2. If you were to observe the group again, what would you do differently?   
+3. Observe this group again for about 10 minutes using the detailed framework given earlier.
+---
+Node: Degree of Participation
+Primary concept extracted from chunk
+# Degree of Participation
+
+The degree of observer participation within the study environment varies across a spectrum, varying from insider at one end and outsider at the other. Where a particular study falls along this  spectrum  depends  on  its  goal  and  on  the  practical  and  ethical  issues  that  constrain and shape it.
+
+An observer who adopts an approach right at the outsider end of the spectrum is called a passive observer, and they will not take any part in the study environment at all. It is difficult to be a truly passive observer in the wild, simply because it’s not possible to avoid interacting with people and their activities. Passive observation is more appropriate in lab studies.
+
+An observer who adopts an approach at the insider end of this spectrum is called a participant  observer. This means that they attempt, at various levels depending on the type of study, to become  a member of the group being studied. This can be a difficult role to play
+
+since being an observer also requires a certain level of detachment, while being a participant assumes closer  engagement. As a participant  observer, it is important to keep the two  roles separate so that observation notes are objective while participation is also maintained. It may not be possible to take a full participant observer approach for a range of reasons. For example, the observer may not be skilled enough in the task  at hand, the organization or group may not be prepared for an outsider to take part in their activities, or the timescale may not provide sufficient opportunity to become familiar enough with the task to participate fully. Similarly, if observing activity in a private place such as the home, full participation may be difficult. Chandrika Cycil et al. (2013) overcame this issue in their study of in-car conversations between  parents and  children by  traveling with  the families  initially  for a  week and then asking family members to video relevant episodes of activity when they weren’t there. In this way, they had gained an understanding of the context and family dynamics and then collected more detailed data to study activity in depth.
+---
+Node: Planning and Conducting an Observation in the Wild
+Primary concept extracted from chunk
+# Planning and Conducting an Observation in the Wild
+
+The frameworks introduced in  the previous section  are useful for providing  focus and for organizing  the  data  gathering  activity.  Other  decisions  include  the  level  of  participation to adopt, how to capture the data, how to gain acceptance in the group being studied, how to handle  sensitive  issues  such  as  cultural  differences  or  access  to  private  spaces,  and  how to gain different perspectives, e.g., from different people, activities, and roles.
+
+One  way  to  achieve  different  perspectives  is  to  work  as  a  team.  This  can  have  several benefits.
+
+. Each person can agree to focus on different people or different parts of the context, thereby covering more ground.   
+Observation  and  reflection  can  be  interwoven  more  easily  when  there  is  more  than one observer.   
+•  More reliable data is likely to be generated because observations can be compared.   
+Results will reflect different perspectives and hence support triangulation.
+
+Once in the throes of an observation, there are other issues that need to be considered. For example, it will be easier to relate to some people more than others, but attention needs to be paid to everyone in the group. Observation is a fluid activity, and the study will need to be refocused as it progresses in response to what is learned. Having observed for a while, interesting phenomena that seem relevant will start to emerge. Gradually, ideas will sharpen into questions that guide further observation.
+
+Observing is also an intense and tiring activity, but checking notes and reviewing observations regularly, e.g., at the end of each day, allow the separation of personal opinion from observation, and the identification of issues for further investigation. If this is not done, then valuable information may be lost as the next day’s events override the previous day’s findings. Writing a diary or private blog is one way of achieving this. Any artifacts that are collected or copied (such as minutes of a meeting or discussion items) can be annotated, describing how
+
+they are used during the observed activity. Where an observation lasts several days or weeks, time can be taken out of each day to go through notes and other records.
+
+Checking observations and interpretations with an informant or members of the participant group for accuracy is good practice and is sometimes referred to as member checking. This  is  commonly  done  via retrospective  interviews,  that  is,  interviews  that  reflect  on  an activity in the recent past, or via summaries of observations in a team meeting.
+---
+Node: When to Stop Observing?
+Primary concept extracted from chunk
+# When to Stop Observing?
+
+Knowing when to stop doing any type of data gathering can be difficult for novices, but it is particularly tricky in observational studies because there is no obvious ending. Schedules often dictate when your study ends. Otherwise, stop when nothing new is emerging. Two indications of having done enough are when similar patterns of behavior are being seen and when all of the  main stakeholder groups have been observed and a good understanding of their perspectives has been achieved.
+---
+Node: 8.6.2  Direct Observation in Controlled Environments
+Primary concept extracted from chunk
+# 8.6.2  Direct Observation in Controlled Environments
+
+Controlled observation of participants  may occur within a purpose-built usability lab, or a portable lab. Observation in a controlled environment is more formal than observation in the wild, so it is a good idea to prepare a script to guide how the participants will be greeted, be
+
+told about the goals of the study and how long it will last, and have their rights explained. Using  a script ensures that  each participant  is treated in the  same  way, which  brings more credibility to the results.
+
+The same techniques for capturing data are used for direct observation in controlled settings and in the wild, i.e., photographs, taking notes, video, and audio, but the way in which these techniques are  used is  different. In controlled  settings, the  aim is to  collect details  of what individuals do, while in the wild  the context is  important, and capturing how people interact with each other, the technology, and their environment is key.
+
+Because detail is important in a controlled setting, the arrangement of equipment relative to the participant will be different. For example, if capturing video, one camera might record facial  expressions,  another  might  focus  on  interface  activity,  and  another  might  record  a broad view of the participant to capture body language. The stream of data from the cameras can be fed into a video editing and analysis suite where it is coordinated and time-stamped, annotated, and partially edited.
+---
+Node: The Think-Aloud Technique
+Primary concept extracted from chunk
+# The Think-Aloud Technique
+
+One of the problems with observation is that the observer doesn’t know what users are thinking and can only guess from what they see. Observation in the wild should not be intrusive, as this will disturb the context the study is trying to capture, which limits what questions can be asked of the participant. However, in a controlled environment, the observer can be a little more intrusive.
+
+Imagine observing someone in a lab setting, who has  been asked to evaluate the interface of the web search engine Lycos.com. The participant is told to look for an ebike for a 10-year-old child. They are told to type www.lycos.com and then proceed however they think best. They type the URL and get a screen similar to the one in Figure 8.9.
+
+Figure 8.9  Home page of Lycos search engine   
+![](images/9fff2370bf575aa497f4459838ded995753ca8b27e65ba12bd388f3a8cbaeded.jpg)  
+Source: Lycos
+
+Next,  they  type  child's  ebike  in  the  search  box. They  get  a  screen  similar  to  the  one shown in Figure 8.10. They are silent. What is going on? What are they thinking? One way
+
+around the problem of knowing what they are doing is to collect a think-aloud protocol, a technique developed by Anders Ericsson  and Herbert Simon (1984) for examining people’s problem-solving  strategies. The technique  requires  people to  say  out  loud  everything  that they are thinking and trying to do so that their thought processes are externalized.
+
+![](images/4f0e357c1da80675ead9f1428ac2ec185033ccecf57e6a3b149a64b1fa3ae7c6.jpg)  
+Figure 8.10 The screen that appears in response to searching for “child’s ebike”
+---
+Node: D A T A  A N A L Y S I S ,  I N T E R P R E T A T I O N , A N D  P R E S E N T A T I O N
+Primary concept extracted from chunk
+# D A T A  A N A L Y S I S ,  I N T E R P R E T A T I O N , A N D  P R E S E N T A T I O N
+
+9.1  Introduction   
+9.2  Quantitative and Qualitative   
+9.3  Basic Quantitative Analysis   
+9.4  Basic Qualitative Analysis   
+9.5  Analytical Frameworks   
+9.6  Tools to Support Data Analysis   
+9.7  Interpreting and Presenting the Findings
+---
+Node: 9.1 Introduction
+Primary concept extracted from chunk
+# 9.1 Introduction
+
+The kind of analysis that can be performed on a set of data will be influenced by the goals identified  at  the  outset  and  the  data  gathered.  Broadly  speaking,  a  qualitative  analysis approach, a quantitative analysis approach, or a combination of qualitative and quantitative approaches may be taken. The last of these is very common, as it provides a more comprehensive account of the data.
+
+Most analysis, whether it is quantitative or  qualitative, begins with the initial reactions or observations  from  the data. This  may involve identifying patterns or calculating simple
+
+numerical values such as ratios, averages, or percentages. For  all data, but especially when dealing with large  volumes of data  (that  is, Big Data), it  is useful  to look over the  data to check for any anomalies that might be erroneous, such as people who are 999 years old. This process is known as data cleansing, and there are often digital tools to help with this process. This initial analysis is followed by more detailed work using structured frameworks or theories to frame the investigation.
+
+Interpretation of the findings often proceeds in parallel with analysis, but there are different  ways  to  interpret  results, and  it  is  important  to  make  sure  that  the  data  supports any conclusions. Imagine that an initial  analysis of some customer  care questionnaires  has revealed a pattern of responses indicating that inquiries from customers routed through the Sydney office of an organization take longer to process than those routed through the Oslo office. This result can be interpreted in many different ways. For example, the customer care operatives in Sydney are less efficient, they provide more detailed responses, the technology supporting the inquiry process in Sydney needs to be updated, customers reaching the Sydney office demand a higher level of service, and so on. Which one is correct? To determine whether  any  of  these  potential  interpretations  is  accurate,  further  data  such  as  customer inquiry details and maybe staff interviews is needed. A common mistake is for the investigator’s existing beliefs or biases to influence the interpretation of results (see Box 9.1 on bias).
+---
+Node: Beware of Bias in Analysis and Interpretation
+Primary concept extracted from chunk
+# Beware of Bias in Analysis and Interpretation
+
+Bias is an influence that can affect objective judgment and decision-making. Biases are formed because of the tendency of the brain to rapidly categorize new information and data connecting them with past experiences. It is natural to look for patterns and associations in the world so as to be prepared to act and behave accordingly, and this can lead to biases. They may be present in someone’s thinking, and they may  manifest in information or data. Some biases are  conscious, e.g., preferring to work with women  rather than with men, while others are unconscious. Biases influence how people interact with each other, how decisions are made, how people react to the design of an app or product, and how data is collected, analyzed, and interpreted.
+
+Early  research by Amos Tversky  and  Daniel Kahneman (1974) describes  how  cognitive bias produces repeated, systematic errors in thinking caused by a person misinterpreting information that affects their judgment. There are many forms of cognitive bias. For example, familiarity bias is when a decision-maker sticks to what they know best, and self-attribution bias is when successes are attributed by a person to themselves and not to outside factors.
+
+Chapter 8,“Data Gathering,” discussed the importance of designing neutral questions for data collection, as bias can be introduced in the way questions are phrased. But bias can also influence  the analysis and interpretation of data. A key cognitive  bias to be aware of in the context of interaction design is confirmation bias.
+
+Confirmation bias leads people to discard  information  that contradicts  their  existing beliefs, even when there is evidence to the contrary. Jennifer Junge (2022), from the Nielsen Norman Group, points out that confirmation bias is a form of priming in which someone’s
+
+prior beliefs influence how they react to new information that can distort their interpretation. This can have significant consequences for UX design and research because it can influence designers’, researchers’, and practitioners’ perspectives causing them to overlook alternative options. This might also show up as leading questions during data gathering, as discussed in Chapter 8.
+
+Training courses can raise awareness of problems associated with bias, and design techniques, including visualizations, have also been successful at helping designers address different types of cognitive bias (Wall et al., 2019).
+
+This YouTube video by Alita Joyce from the Nielsen Norman Group NN/g provides a broad overview of Confirmation Bias in UX Work, particularly in surveys: www .youtube.com/watch?v=YMMTFmIf3kk&t=1s.
+
+Another common tendency is to make claims that go beyond what the data can support. This  is a matter  of interpretation and of presentation. Using  words such as many  or often or all  when reporting conclusions needs to be carefully considered. An investigator should remain as impartial  and objective as possible if the conclusions are to be trusted. Showing that the conclusions are supported by the results is an important skill to develop.
+
+Finally, finding the best way to present findings is equally skilled, and it depends on the goals of the study but also on the audience for whom the study was performed. For example, a formal notation may be used to report the results for the requirements activity, while a summary  of problems  found, supported  by video clips  of people experiencing those  problems, may be better for presentation to a team of designers.
+
+This  chapter  introduces  a  variety  of  methods, and  it  describes  in  more  detail  how  to approach  data  analysis  and  presentation using  some  of the  common approaches  taken  in interaction design.
+---
+Node: Interviews
+Primary concept extracted from chunk
+# Interviews
+
+Interviewer notes need to be reviewed and clarified or expanded as soon as possible after the interview and before the interviewer starts to forget details. An audio or video recording may be  used  to help in  this process, or  a transcription may  be  used for more  detailed analysis.
+
+Interviews may be  transcribed automatically, but if the  tool is  not trained to recognize  the interviewee’s accent,  this may  cause  difficulties, and manual  transcription may  be needed. However  manual transcription  takes significant effort. In this case,  it is  worth considering whether to transcribe the whole interview or just parts of it that are relevant. Deciding what is relevant, however, can be difficult. Revisiting the  goals of the study to see which sections address the research questions can guide this process.
+
+Closed-ended questions are usually treated as quantitative data and analyzed using basic quantitative analysis (see Section 9.3, “Basic Quantitative Analysis”). For example, a question that asks for the respondent’s age range can easily be analyzed to find out the percentage of respondents in each. More complicated statistical techniques are needed to identify relationships between responses that can be generalized, such as whether there is an interaction between the condition being tested and a demographic. For example, do people of different ages use social media for different lengths of time when first logging on in the morning or at night before they go  to bed? Open-ended questions typically  result in qualitative data  that might be searched for categories or patterns of response.
+---
+Node: Questionnaires
+Primary concept extracted from chunk
+# Questionnaires
+
+Increasingly, questionnaire responses are provided using online surveys, and the data is automatically stored in a database. The data can be filtered according to respondent subpopulations (for instance, everyone under 16) or according to a particular question (for example, to understand  respondents’  reactions to  one  kind  of  robot  personality  rather  than  another). This allows analyses to be conducted on subsets of the data and hence to draw specific conclusions for  more targeted  goals. Conducting  this  kind of  analysis requires  sufficient  data from a large enough sample of participants.
+---
+Node: Observation
+Primary concept extracted from chunk
+# Observation
+
+Observation can  result in  a  wide variety  of  data  including  notes,  photographs, data  logs, think-aloud recordings (often called protocols), video, and audio recordings. Taken together, these different types of data provide a rich picture of the observed activity. The difficult part is working out how to combine the different sources to create a coherent narrative; analytic frameworks,  discussed  in  Section  9.5, can  help  with  this.  Initial  data  processing  includes reviewing and expanding notes and transcribing elements of any recordings and think-aloud protocols. For observation in a controlled environment, initial processing might also include synchronizing different data recordings.
+
+Transcriptions and the observer’s notes are most likely to be analyzed using qualitative approaches,  while  photographs  provide  contextual  information.  Data  logs  and  some  elements of the observer’s notes would probably be analyzed quantitatively.
+---
+Node: 9.3  Basic Quantitative Analysis
+Primary concept extracted from chunk
+# 9.3  Basic Quantitative Analysis
+
+A  range of  statistics are  used within  interaction  design studies  (Cairns, 2019;  Dix, 2022). Here, we introduce two basic quantitative analysis techniques that can be used effectively in interaction design:  averages  and  percentages. Percentages are  useful  for  standardizing  the data, particularly to compare two or more large sets of responses.
+
+Averages are fairly well-known numerical measures of central tendency. However, there are three  different types  of average, and  using the right one can  help communicate  results more  effectively. These  three  are  mean, median, and  mode. Mean refers  to the  commonly understood interpretation of average; that is, add together all  the figures and divide by the number of figures with which you started. Median and mode averages are less well-known but are very useful. The median is the middle value of the data when the numbers are ranked. The mode is  the most  commonly occurring number. For example, in a set of data (2, 3, 4, 6, 6, 7, 7, 7, 8), the  median  is 6  and the  mode  is  7, while the  mean is $5 0 / 9 = 5 . 5 6$ . In  this case, the difference between the different averages is not that great. However, consider the set (2, 2, 2, 2, 450). Now the median is 2, the mode is 2, and the mean is $4 5 8 / 5 = 9 1 . 6 !$ Which of these to use depends on the type of data and its distribution. The mode can be used for any type of data but is most effective for nominal and ordinal data such as level of anxiety or ethnicity; the median is only useful where the data can be ordered, e.g., reaction time or test score; and the mean is most meaningful where scores on a scale are equally spaced, such as  temperature. If  the  data has  a “normal” distribution, the  averages  will all  be  the  same; however, in a skewed distribution, mode and mean will be affected by outliers, so the median is the best measure.
+
+![](images/389fed460f35a5a39b31239c37a7fa1fa29698522289d134f88ad695184eda87.jpg)  
+Source: Mike Baldwin / Cartoon Stock
+
+Before any analysis can take place, the data needs to be collated into analyzable datasets. Quantitative  data can usually be translated into rows  and columns, where one row equals one record, such as respondent or interviewee. If these are entered into a spreadsheet such as Excel, this makes simple  manipulations and dataset filtering easier. Before  entering data  in this way, it is important to decide how to represent the different possible answers. For example, “don’t know” represents a different response from no answer at all, and they need to be distinguished, perhaps with separate columns in the spreadsheet. Also, if dealing with options from  a closed-ended question, such as job role, there are two different possible approaches that affect the analysis. One approach is to have a column headed “Job role” and to enter the
+
+job role as it is given by the respondent or interviewee. The alternative approach is to have a column for each possible answer. The latter approach lends itself more easily to automatic summaries, such as those provided when using a spreadsheet. Note, however, that this option will be open only if the original question was designed appropriately (see Box 9.3).
+---
+Node: Question Design Affects Possible Analyses and Conclusions
+Primary concept extracted from chunk
+# Question Design Affects Possible Analyses and Conclusions
+
+Different  question designs affect the kinds of analyses that can be performed and the kinds of conclusions that can be drawn. To illustrate this, assume that some interviews have been conducted to evaluate a new app that lets you try on virtual clothes and see yourself in real time as a 3D holograph. This is similar to Memomi described at memorymirror.com.
+
+Assume that one  of the  questions  asked is: “How do you  feel about  this new  app?” Responses to this will be varied and may include that it is cool, impressive, realistic, clunky, technically complex, and so on. There are many possibilities, and the responses would need to be treated qualitatively. This means that analysis of the data must consider each individual response.  If there  are  only 10 or so responses, then this may not  be too  bad, but if there are many more, it becomes harder to process the information and harder to summarize the findings. This is typical of open-ended questions; that is, answers are not likely to be homogeneous, so they will need to be treated individually. In contrast, answers to a closed-ended question, which gives respondents  a fixed set of alternatives from which  to choose, can be treated  quantitatively. So, for example, instead of asking “How do you feel about  this new app?” assume that you have asked “In your experience, are virtual try-on holographs realistic, clunky, or distorted?” This clearly reduces the number of options, and the responses would be recorded as “realistic,” “clunky,” or “distorted.”
+
+When entered in a spreadsheet or a simple table, initial analysis of this data might look like the following:
+
+<table><tr><td>Respondent</td><td>Realistic</td><td>Clunky</td><td>Distorted</td></tr><tr><td>A</td><td>1</td><td></td><td></td></tr><tr><td>B</td><td></td><td>1</td><td></td></tr><tr><td>C</td><td></td><td>1</td><td></td></tr><tr><td>...</td><td></td><td></td><td></td></tr><tr><td>Z</td><td></td><td></td><td>1</td></tr><tr><td>Total</td><td>14</td><td>5</td><td>7</td></tr></table>
+
+Based on this, we can then say that 14 out of 26 (54 percent) of the respondents think virtual try-on holographs are realistic, 5 out of 26 (19 percent) think they are clunky, and 7 out of 26 (27 percent) think they are distorted. Note also that in the table, respondents’ names
+
+are  replaced by letters  so that they are identifiable but anonymous  to any  onlookers. This strategy is important for protecting participants’ privacy.
+
+Another alternative that might  be used in a questionnaire is to phrase the  question in terms of a Likert scale, such as the following one. This again alters the kind of data and hence the kind of conclusions that can be drawn.
+
+Virtual try-on holographs are realistic:
+
+Strongly agree
+
+Agree
+
+Neither
+
+Disagree
+
+Strongly disagree
+
+![](images/7c158ec23ce13c12d55010ab693f26fb974728f6087843474ad8c6a63d01e1eb.jpg)
+
+![](images/0be626dc34d780ac41e0eb234aca44c7182744ed813dbe96dbb5ac45454cd422.jpg)
+
+![](images/9033b1ac397fdff0545e3001930f5364b36b4936412acc9ad8da32ea4702a088.jpg)
+
+![](images/fefa88b8c032c8645849eb4fdceb485e337aba710a7c12637ec50a5c49a40388.jpg)
+
+![](images/a312021de5d602b992d47062f6177ffb0cbe6caf1e36cc9e458e92d24777976c.jpg)
+
+The data could then be analyzed using a simple spreadsheet or table:
+
+<table><tr><td>Respondent</td><td>Strongly agree</td><td>Agree</td><td>Neither</td><td>Disagree</td><td>Strongly disagree</td></tr><tr><td>A</td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td>B</td><td>1</td><td></td><td></td><td></td><td></td></tr><tr><td>C</td><td></td><td></td><td></td><td>1</td><td></td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Z</td><td></td><td></td><td></td><td></td><td>1</td></tr><tr><td>Total</td><td>5</td><td>7</td><td>10</td><td>1</td><td>3</td></tr></table>
+
+In this case, the kind of data being collected has changed. Based on this second set, nothing can be said about whether respondents think the virtual try-on holographs are clunky or distorted, as that question has not been asked. We can only say that, for example, 4 out of 26 (15 percent) disagreed with the statement that virtual try-on holographs are realistic, and of those, 3 (11.5 percent) strongly disagreed.
+
+For simple collation and analysis, spreadsheet software such as Excel or Google Sheets is often used as it is commonly available, is well understood, and offers a variety of numerical manipulations and graphical representations. Basic analysis might involve finding out averages and identifying outliers, in other words, values that are significantly different from the majority  and hence not common. Producing  a graphical  representation provides an overall view of the data and any patterns it contains. Other tools are available for performing specific statistical tests (see Box 9.4), such as online t-tests and A/B testing tools. Data visualization tools can create more sophisticated representations of the data such as heatmaps.
+
+For example, consider the set of data shown in Table 9.2, which was collected during an evaluation of a new photo sharing app. This data shows peoples’experience of social media and the number of errors made while trying to complete a controlled task with the new app. It  was captured automatically, recorded in a spreadsheet, and the totals and averages were calculated. The  graphs  in  Figure  9.1  were  generated using  the  spreadsheet  package. They show an overall view of the dataset. In particular, it is easy to see that there are no significant outliers in the error rate data.
+
+Table 9.2  Data Gathered During a Study of a Photo Sharing App
+---
+Node: chapter 14 Chapter 9 chunk 011 Question Design Affects Possib 2
+Primary concept extracted from chunk
+<table><tr><td colspan="7">Social Media Use</td></tr><tr><td>User</td><td>More Than Once a Day</td><td>Once a Day</td><td>Once a Week</td><td>Two or Three Times a Week</td><td>Once a Month</td><td>Number of Errors Made</td></tr><tr><td>1</td><td></td><td>1</td><td></td><td></td><td></td><td>4</td></tr><tr><td>2</td><td>1</td><td></td><td></td><td></td><td></td><td>2</td></tr><tr><td>3</td><td></td><td></td><td>1</td><td></td><td></td><td>1</td></tr><tr><td>4</td><td>1</td><td></td><td></td><td></td><td></td><td>0</td></tr><tr><td>5</td><td></td><td></td><td></td><td>1</td><td></td><td>2</td></tr><tr><td>6</td><td></td><td>1</td><td></td><td></td><td></td><td>3</td></tr><tr><td>7</td><td>1</td><td></td><td></td><td></td><td></td><td>2</td></tr><tr><td>8</td><td></td><td>1</td><td></td><td></td><td></td><td>0</td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td>1</td><td>3</td></tr><tr><td>10</td><td>1</td><td></td><td></td><td></td><td></td><td>2</td></tr><tr><td>11</td><td></td><td></td><td></td><td>1</td><td></td><td>1</td></tr><tr><td>12</td><td></td><td></td><td>1</td><td></td><td></td><td>2</td></tr><tr><td>13</td><td></td><td>1</td><td></td><td></td><td></td><td>4</td></tr><tr><td>14</td><td></td><td>1</td><td></td><td></td><td></td><td>2</td></tr><tr><td>15</td><td></td><td></td><td></td><td></td><td>1</td><td>1</td></tr><tr><td>16</td><td></td><td></td><td></td><td>1</td><td></td><td>1</td></tr><tr><td>17</td><td></td><td>1</td><td></td><td></td><td></td><td>0</td></tr><tr><td>18</td><td></td><td>1</td><td></td><td></td><td></td><td>0</td></tr><tr><td>Totals</td><td>4</td><td>7</td><td>2</td><td>3</td><td>2</td><td>30</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Mean</td><td>1.67</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td colspan="2">(to 2 decimal places)</td></tr></table>
+
+Adding one more user to Table 9.2 with an error rate of 9 and plotting the new data as a scatter graph (see Figure 9.2) illustrates how graphs can help to identify outliers. Outliers are usually removed from  the main dataset because they distort the general patterns. However, outliers may also be interesting cases to investigate further in case there are special circumstances surrounding those participants and their session.
+
+![](images/a2adc8190a461dd9b087ff472716429dd8010b34c9a78214d08ddbef394914c5.jpg)  
+(a)
+
+![](images/2ba08c2d9089f225d4a1a17b6eccf917fee0f56cf387d1a9697711dea119cae0.jpg)  
+(b)   
+Figure 9.1  Graphical representations of the data in Table 9.2 (a) The distribution of errors made (take note of the scale used in these graphs, as seemingly large differences may be much smaller in reality). (b) The spread of social media experience within the participant group.
+
+These initial investigations also help to identify other areas for further investigation. For example, is there something special about people with error rate 0 or something distinctive about the performance of those who use social media only once a month?
+
+![](images/39f9d9c1252205c65be14d09023971979fc78f59ead69c96947d71e34766f7f8.jpg)  
+Figure 9.2  Using a scatter diagram helps to identify outliers quite quickly.
+---
+Node: ACTIVITY 9.1
+Primary concept extracted from chunk
+# ACTIVITY 9.1
+
+The data in the following table represents the time taken for study participants to select and invest in a fund using a new share trading app.
+
+Using a spreadsheet application, generate a bar graph and a scatter diagram to provide an overall view of the data. From this representation, make two initial observations about the data that might form the basis of further investigation.
+
+<table><tr><td>User</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>R</td><td>S</td></tr><tr><td>Time to complete (mins)</td><td>15</td><td>10</td><td>12</td><td>10</td><td>14</td><td>13</td><td>11</td><td>18</td><td>14</td><td>17</td><td>20</td><td>15</td><td>18</td><td>24</td><td>12</td><td>16</td><td>18</td><td>20</td><td>26</td></tr></table>
+---
+Node: 9.4.3  Critical Incident Analysis
+Primary concept extracted from chunk
+# 9.4.3  Critical Incident Analysis
+
+Data  gathering  sessions can  often  result in a  lot of  data. Analyzing  all  of this  data in  any detail  is  very  time-consuming  and  often  not  necessary. Critical  incident  analysis  is  one approach to identify significant subsets of the data for more detailed analysis. This technique emerged from work carried out in the United States Army Air Forces where the goal was to identify the critical requirements of good and bad performance by pilots (Flanagan, 1954). It has two basic principles: “(a) reporting facts regarding behavior is preferable to the collection of interpretations, ratings, and opinions based on general impressions;  (b) reporting should be limited to those behaviors which, according to competent observers, make a significant contribution to the activity” (Flanagan, 1954, p. 355). In the interaction design context, the use  of  well-planned  observation  sessions  satisfies  the  first  principle.  The  second  principle refers to critical incidents, that is, incidents that are significant or pivotal to the activity being observed, in either a desirable or an undesirable way.
+---
+Node: D A T A  A T  S C A L E  A N D E T H I C A L  C O N C E R N S
+Primary concept extracted from chunk
+# D A T A  A T  S C A L E  A N D E T H I C A L  C O N C E R N S
+
+10.1  Introduction   
+10.2  Approaches for Collecting and Analyzing Data   
+10.3  Visualizing and Exploring Data   
+10.4  Ethical Design Concerns
+---
+Node: 11.4  Data Gathering for Requirements
+Primary concept extracted from chunk
+# 11.4  Data Gathering for Requirements
+
+Data gathering for requirements covers a wide spectrum of issues, including who might use the product, the activities in which they are currently engaged and their associated goals, the context in which the activities are performed, and the rationale for the way things are. The three  data  gathering  techniques  introduced  in  Chapter  8, “Data  Gathering”  (interviews, observation, and questionnaires), are commonly used throughout the interaction design lifecycle.  In  addition  to  these  techniques,  several  other  approaches  are  used  to  discover requirements.
+
+For  example, documentation, such  as manuals, standards, or activity logs, are a  good source of  data about  prescribed  steps involved  in  an  activity,  any regulations  governing a task, or where records of activity are already kept for audit or safety-related purposes. Studying  documentation can  also  be good  for  gaining  background  information,  and  it  doesn’t involve stakeholder time. For example, Caitlin Woods and colleagues (2019) used documentation of maintenance procedures to extract requirements for an adaptive user interface for industrial equipment maintenance. Some high-level requirements identified this way were to provide warnings and encourage situational awareness and for it to be deployable on multiple devices. Researching other products can also help identify requirements. For example, Jens  Bornschein  and  Gerhard  Weber  (2017)  analyzed existing  nonvisual drawing  support packages to identify requirements for a digital drawing tool for blind users, while Xiangping Chen et  al. (2018)  proposed  a  recommender system  for  exploring existing  app stores  and extracting common user interface features to identify requirements for new systems.
+
+It  is  usual for  more than  one data gathering  technique to  be used  in order  to provide different  perspectives. Examples are  observation to understand  the context  of the activity, interviews to target specific stakeholder groups, questionnaires to reach a wider population, and focus groups to build a consensus view. Many different combinations are used in practice, and Box 11.2 includes some examples.
+---
+Node: Combining Data Gathering Techniques in Requirements Activities
+Primary concept extracted from chunk
+# Combining Data Gathering Techniques in Requirements Activities
+
+The following examples illustrate the wide range of possibilities for combining different data gathering techniques to progress requirements activities, but there are many more!
+
+Direct Observation in the Wild, Indirect Observation Through Log Files, Interviews, Diaries, and Surveys
+
+Victoria Hollis et al. (2017) performed a study to inform the design of reflective systems that promote emotional well-being. Specifically, they wanted to explore the basis for future recommendations to improve a person’s well-being and the effects of reflecting on negative versus positive past events. They performed  two  direct observation  studies  in the  wild with 165 participants. In both studies, surveys were administered before and after the field study period to assess emotional well-being, behaviors, and self-awareness. The first study also performed interviews. In the first study of 60 participants over 3 weeks, they investigated the relationship between past mood data, emotional profiles, and  different  types of recommendations to improve future well-being. In the  second study  of 105  participants over 28 days,  using a  smartphone diary  application, they investigated the  effects  of reflection and  analysis of past negative and positive events on well-being. Together, these studies provided insights into requirements for systems to support the promotion  of emotional well-being. Figure 11.3(a) shows the visualization displayed to emotion-forecasting participants in week 3 of the first study. The leftmost two points in the line graph indicate average mood ratings on previous days, and  the  center point  is the  average rating for the immediate  day. The two  rightmost points indicate predicted mood for upcoming days.
+
+In Figure 11.3(b), the left panel shows the home screen. Participants record a new experience by clicking the large plus sign $\left( + \right)$ in the upper left. The center panel shows a completed event record, which consists of a header, textual entry, emotion rating, and image. The right panel  shows participant  reflection by rating their  current  emotional  reaction to the  initial record and providing a new textual reappraisal.
+---
+Node: Questionnaire, Focus Group, Design Probe, and User Study
+Primary concept extracted from chunk
+# Questionnaire, Focus Group, Design Probe, and User Study
+
+Smart meters are designed to capture information about power consumption in the home and send it to third parties. There is a tension between the benefits of smart metering and potential risks of privacy violation. Timo Jakobi et al. (2019) investigated peoples’ perceptions of the impact of smart metering on privacy and trust aimed at informing the design of a usable privacy manager for smart meters. Their approach was ethnographically oriented in that they aimed to relate in-depth knowledge  of current  practice with assessing the  viability  of a  technological intervention. An open-ended questionnaire was distributed to 200 households in Siegen, Germany. These were analyzed thematically to identify salient aspects of privacy decision-making, which were then explored in four focus groups involving 17 participants in total. The focus groups explored the  perceived positive and negative consequences of disclosing smart  meter data. Using thematic analysis on the focus group data, a set of possible value-added services for smart metering were derived, together with their associated privacy risks. The researchers then developed  a design probe that instantiated these  services and risks. Specifically, the  app presented an interface through which the user could manage their privacy settings for the hypothetical services identified from the research so far. The probe was designed to raise awareness of privacy issues by making privacy risks visible.A user evaluation of the design probe was then conducted with 205 participants. The results suggest that connecting data disclosure with related privacy risks is a potential requirement for making privacy management systems more usable.
+---
+Node: 11.4.1  Using Probes to Engage with Stakeholders
+Primary concept extracted from chunk
+# 11.4.1  Using Probes to Engage with Stakeholders
+
+Probes  come in  many forms  and are an  imaginative approach to data  gathering. They  are designed  to  prompt  participants  into  action,  specifically  by  interacting  with  the  probe  in some way, so that researchers and designers can learn more about them and their contexts. Probes  rely on some form  of logging to gather the data—either automatically  or manually depending on the kind of probe being used.
+
+The idea of a probe was first developed during the Presence Project (Gaver et al., 1999), which was investigating novel interaction techniques to increase the presence of elderly people in their local community. Bill Gaver et al. wanted to avoid more traditional approaches, such as questionnaires, interviews, or ethnographic studies, and developed a technique called cultural probes. These probes consisted of a wallet containing eight  to ten postcards, about seven maps, a disposable camera, a photo album, and a media diary. Recipients were asked to answer questions associated with certain items in the wallet and then return them directly to the researchers. For example, on a map of the world, they were asked to mark places where they had been. Participants were also asked to use the camera to take photos of their home, what they were wearing today, the first person they saw that day, something desirable, and something boring.
+
+Inspired by this original cultural probe idea, different forms of probes have been adapted and  adopted for  a range of purposes (Boehner et al., 2007). For  example, design probes are objects whose form relates specifically to a particular question and context. They are intended to gently encourage people to engage with and answer the question in their own context. Figure 11.4 illustrates another kind—a diary probe—used to explore how technology can support adolescents to document their experience of chronic conditions, such as cancer and lupus, so that they can be shared. By using this probe with 12 adolescent-parent pairs, Matthew Hong and colleagues (2020) suggested three areas for support: scaffolding to help patients learn about and represent their experiences; data sharing models to identify appropriate timing, types, and level of detail for sharing health-related information between family members; and artifacts that can bridge between traditional quantitative measures of tracking and more personal narratives.
+
+![](images/e5b1da12dd352bb77a97743086af840c7beb35f7c97e39f3b6d7d27689f76c74.jpg)  
+Figure 11.4 Two  diary  probe kits were provided for each patient-parent pair, consisting of diary booklets, experience sticker sheets, markers and pencils, self-addressed stamped envelope, and an optional camera.
+
+Source: Matthew Hong et al. (2020). Reproduced with permission of ACM Publications
+
+Other types of probes include technology probes (Hutchinson et al., 2003) and provocative probes (Sethu-Jones et al., 2017). Examples of technology probes include mobile phone apps such as Pocketsong, a mobile music listening app (Kirk et al., 2016), and NkhukuProbe, a device that uses sensors to monitor temperature, humidity, and lighting to support poultry farming in sub-Saharan Africa (Chidziwisano et al., 2021). The last of these, NkhukuProbe, used  an Arduino microcontroller,  various  sensors, and a  solar battery  to transmit data  via a  mobile network. It was deployed in  15 rural households  in Malawi for  one month. The aim was to test the probe in the wild, explore how sensors could be used to control poultry environments, and inspire local poultry farmers to think of new ways to use sensors in their work. Several participants suggested ideas after their experiences, including using sensors to detect abnormal sounds that might indicate disease.
+
+Provocative  probes  are designed to challenge  existing  norms and attitudes  to provoke discussion. For example, Anders Bruun et al. (2020) developed a design provocation called Pup-Lock to challenge families’ use of mobile technologies in the home and to explore how to  increase interaction between family members by  reducing  the use  of mobile  devices. To achieve  this, Pup-Lock allows  any family  member to lock  all  mobile  devices in  the home, preventing  them  from  being  used.  Three  families  took  part  in  the  study. Data  collection started with a three-week self-reporting diary study in which each family member was asked to capture  their mobile  device use and any family tensions around that use. Pup-Lock was deployed with the three families for up to two weeks each. During this time usage data was logged about when and how often mobile devices were locked or unlocked. Semi-structured interviews  were conducted before and after the diary study and before and after the probe study. Data  was analyzed  thematically. Their  findings showed  that all  families  were more attentive to family members during the time when Pup-Lock was in use, that participants felt relief at not being interrupted by their smartphones, and that it prompted parents to reflect more than usual on their mobile device use.
+---
+Node: 11.4.2  Contextual Inquiry
+Primary concept extracted from chunk
+# 11.4.2  Contextual Inquiry
+
+Contextual inquiry was originally developed in the 1990s (Holtzblatt and Jones, 1993) and has  been adapted  over time  to suit  different  technologies and the different  ways  in which technology  fits  into  daily  life.  Contextual  inquiry  is  the  core  field  research  process  for Contextual  Design (Holtzblatt and Beyer, 2017), which is a user-centered design approach that  explicitly  defines  how  to  gather,  interpret, and  model  data  about  how  people  live  in order to drive  design ideation. However, contextual inquiry is  also  used on its  own to discover requirements. For example, Hyunyoung Kim et al. (2018) used contextual inquiry to learn about unresolved usability problems related to devices for continuous parameter controls, such  as the  knobs  and sliders  used by  sound engineers  or  aircraft  pilots. From  their study, they  identified  six  needs:  fast  interaction, precise  interaction,  eyes-free  interaction, mobile  interaction,  and  retro-compatibility  (the  need  to  use  their  existing  expertise  with interfaces).
+
+One-on-one field interviews (called contextual interviews) are undertaken by every member  of the  design  team, each  lasting about  one-and-a-half  to  two hours. These  interviews focus on matters of daily life (work and home) that are relevant for the project scope. Contextual inquiry uses a model of master/apprentice to structure data gathering, based on the idea  that the  interviewer (apprentice) is  immersed in the world  of the  participant (master), creating an attitude of sharing and learning on either side. Participants talk as they “do,” and
+
+the apprentice learns by being part of the activity while also observing it, which has the same advantages  as observation and  ethnography. While  observing  and learning, the apprentice focuses on why, not just what.
+
+The contextual interview has four parts: obtaining an overview, the transition, the main interview, and the wrap-up. The first part can be performed like a traditional interview, introducing each other and setting the context of the project. The second part is where the interaction changes as both parties get to know each other and the nature of the contextual interview engagement is set up. The third part is the core data gathering session when the participant continues  with  their  activities  and  the  interviewer  observes  them  and  learns.  Finally, the wrap-up involves sharing some of the patterns and observations the interviewer has made.
+
+Four principles guide the contextual interview: context, partnership, interpretation, and focus.
+
+The  context  principle emphasizes  the importance  of visiting  the participant, wherever they  are,  and  seeing  what  they  do  as  they  do  it. The  partnership  principle  creates  a  collaborative context in which the participant and interviewer can explore the participant’s life together. In a traditional interview situation, the  interviewer is in control, but in contextual inquiry, the spirit of partnership means that understanding is developed together.
+
+Interpretation turns the observations into a form that can be the basis of a design hypothesis or idea. These interpretations are developed  collaboratively by the participant and the design team  member to  make sure  that they  are sound. For  example, imagine  that during a contextual interview  for an  exercise monitor, the participant  repeatedly checks  the data, specifically looking at the heart rate display. One interpretation of this is that the participant is very worried about their heart rate. Another  interpretation is that the  participant is concerned that the device is not measuring the heart rate effectively. Yet another interpretation might be that the device has failed to upload data recently, and the participant wants to make sure that the data is being saved. The only way to make sure to choose the correct interpretation is to ask the participant. It may be that, in fact, they don’t realize that they are doing this and that it has simply become a distracting habit.
+
+The fourth principle, focus, is established to guide the interview setup and tells the interviewer what they need to pay attention to among all of the detail that will be unearthed. If all members of the team conduct interviews around the project focus, this will allow different aspects of the activity to surface and will lead to a richer set of data.
+
+Together with these principles, the contextual interview is also guided by a set of seven “cool  concepts,” divided  into two  groups. The  joy  of  life  concepts  capture  how  products make our lives richer  and more fulfilling. These concepts  are accomplish (empower  users), connection (enhance real relationships), identity (support users’ sense of self), and sensation (pleasurable  moments). The  joy  of  use  concepts  describe the  impact  of  using  the product itself; they  are  direct  in action (provide  fulfillment of intent), the  hassle factor  (remove  all glitches  and  inconveniences),  and  the  learning  delta  (reduce  the  time  to  learn).  During  a contextual interview, cool  concepts are  identified as the participant  performs their activity, although often they emerge only retrospectively when reflecting on the session.
+
+During the interview, data is collected in the form of notes, initial sketches, and perhaps audio and video recordings. Following  each contextual interview, the team  holds an  interpretation session  where the whole  team talks about their findings and establishes a shared understanding based on the data. Contextual Design suggests 10 different models that may be used to consolidate the understanding generated by this discussion. For more detail about contextual design models and how to generate them, see Holtzblatt and Beyer (2017).
+
+<!-- Chunk 9 End -->
+
+<!-- Chunk 10 Start -->
+---
+Node: 12.3 Conceptual Design
+Primary concept extracted from chunk
+# 12.3 Conceptual Design
+
+Conceptual  design  is  concerned  with  developing  a  conceptual  model;  conceptual  models were introduced in Chapter 3, “Conceptualizing Interaction.” The idea of a conceptual model can be difficult  to grasp because these  models take  many different  forms and  there isn’t a definitive detailed characterization of one. Instead, conceptual design is best understood by exploring and experiencing  different approaches to it, and this section provides  some concrete suggestions about how to do this.
+
+A  conceptual  model  is  an  outline  of  what  people  can  do  with  a  product  and  which concepts are needed for them to understand how to interact with it. The former will emerge from an understanding of the problem space and the current functional requirements. Which concepts are needed to understand how to interact with the product depends on a variety of issues such as who will use it, what interaction type it will have, and what interface type will be used. These  will inform which terminology will be used, appropriate metaphors, and so on. The first step in developing a conceptual model is to become immersed in the data that has been collected. This will include information about people who might  use the product, their context, and their goals. Interaction design often suggests that designers empathize with the people they are designing for, but sometimes trying to empathize with others is not the right approach, as discussed in the following “Dilemma” box.
+---
+Node: Is It Possible to Empathize with Others?
+Primary concept extracted from chunk
+# Is It Possible to Empathize with Others?
+
+Interaction design often refers to “empathizing” with users, but to what extent is that really possible? Empathizing with people who live in a different context is not easy, no matter how much data is collected. Interaction designers have tried several ways to achieve empathy with those  in situations that are  outside their  own experience. For example, Marion Buchenau and Jane Fulton Suri (2000) introduced experience prototyping. Experience prototyping  is a technique to help members of a design team appreciate what it might be like to use their product. In their example, they wanted to give a team designing a chest-implanted automatic defibrillator some insight into what it would be like to experience a defibrillator shock. To simulate the  random occurrence of a defibrillating shock, each team member was sent text messages at random times  over one  weekend. Each message simulated  the occurrence of a defibrillating shock, and team members were asked to record where they were, who they were with, what they were doing, and what they thought and felt knowing that this represented a shock. Example insights ranged from anxiety around everyday happenings, such as holding a child and operating power tools, to being in social situations and at a loss how to communicate to onlookers what was happening. This firsthand experience brought new insights to the design effort.
+
+Using such techniques allows interaction designers to gain insights into situations that are outside of their experience, but they can have limitations. For example, Michelle Nario-Redmond et al. (2017) conducted experiments to investigate the impact of disability simulations. They found that they can have unexpected negative consequences, such as feelings of fear, apprehension, and pity toward those with disabilities, rather than any sense of empathy. In addition, experiencing the disability for only a short time does not take into account the various coping strategies and innovative techniques that individuals develop.
+
+Karen  Holtzblatt and  Hugh Beyer’s  (2017) contextual design process, introduced in Chapter  11, takes a different  approach to evoking empathy  within the  design team. Their team-based approach aims to immerse the team members in the participants’ world through contextual interviews, interpretation sessions, and close engagement with the data.
+
+But whatever techniques are used, the experience will never be the same as that of someone living in that situation day by day. Trying to empathize can only go so far and cannot replace the need to include a diverse set of people in the design process including those with relevant lived experience.
+
+To read an overview of the disability simulation experiment results, see this article: blog.prototypr.io/why-i-wont-try-on-disability-to-build-empathy-in-thedesign-process-and-you-should-think-twice-7086ed6202aa.
+
+Different creativity and brainstorming techniques can be used to explore ideas within the design team, together with scenarios and personas. Prototyping can also be used to test ideas. The availability of ready-made components increases the ease with which ideas can be prototyped, which also helps to explore different conceptual models and design ideas. Gradually, an image of the desired user experience will emerge and become more concrete through the conceptual model and concrete design.
+
+Developing  scenarios  was  described  in  Chapter  11.  To help  explore  different  design ideas, Suzanne Bødker (2000) proposed plus and minus scenarios. These attempt to capture the most positive and the most negative consequences of a particular proposed design solution, thereby helping designers to gain a more comprehensive view of the proposal. This idea was extended by Clara Mancini et al. (2010) who used positive and negative video scenarios to explore futuristic technology. Their approach used video to represent  positive and negative consequences of a new product to help with diet and well-being, which was designed to explore privacy concerns and attitudes. The two videos (each with six scenes) focus on Peter, a businessman  with serious weight  problems who  has been advised  by  his doctor to  use a new product DietMon to help him lose weight. The product consists of glasses with a hidden camera, a microchip  in the  wrist, a central datastore, and a text  messaging  system to send messages to Peter’s mobile phone telling him the  calorific value of the food he is looking at and warning him when he is close to his daily limit (Price et al., 2010). Figure 12.9 shows the content of two scenes from the videos and the positive and negative reactions; Figure 12.10 is a snapshot from the negative video.
+
+Tommy  Nilsson  et  al.  (2020)  draw  on  this  method  of  Contravision  in  their  exploration of domestic ubiquitous computing solutions (for a snapshot of the video scenarios, see Chapter 11) to provoke participants to explore their own values around future technologies. The scenarios they created communicate two contrasting sets of values: one that prioritizes an active lifestyle, and one that prioritizes convenience over everything else. These scenarios were presented to focus groups, and their reflections were analyzed thematically. They found that  embedding  the  contrasting  sets  of  values  in  Contravision  scenarios  enabled  them  to expose the values people draw on when considering technologies in their domestic life.
+
+Read about how to create a mood board and the tools to help generate a mood board on the following web page: www.invisionapp.com/inside-design/ mood-board-examples.
+
+Mood  boards  (traditionally used  in  fashion  and  interior  design)  may  also  be  used  to capture the desired feel of a new  product (see Figure 12.11). This is  informed by  any data gathering or evaluation activities and considered in the context of technological feasibility.
+---
+Node: 13.2.2  Aligning Work Practices
+Primary concept extracted from chunk
+# 13.2.2  Aligning Work Practices
+
+One of the interaction design principles introduced in Chapter 1 is consistency, but a related goal for UX design is coherence. While consistency can generally be achieved by following a style guide, coherence is a more holistic quality that requires a macro view of the whole product. When delivering in short iterations, it is easy for this macro view to be lost and for the coherence of a product  to be compromised. There  is  therefore a tendency for designers  to develop  complete  UX  designs  at  the  beginning  of  a  project  to  ensure  a  coherent  design throughout. In agile terms, this is  referred to as big  design up front (BDUF), and this is  an anathema  to  agile  working.  Agile  development  emphasizes  regular  delivery  of  working
+
+software  through evolutionary development and the elaboration of requirements as implementation proceeds. In this context, BDUF leads to practical problems since reprioritization means that interaction elements (features, workflows, and options) may no longer be needed or may require redesigning. To avoid unnecessary work on detailed design, UX design activities  need to  be  conducted  alongside  and  around agile  iterations. The  challenge  is  how  to organize this so that a good user experience is achieved while maintaining the product vision (Kollman et al., 2009).
+
+In  response  to  this  challenge,  Miller  (2006)  and  Sy  (2007)  proposed  the  classic  dual tracks approach. In the original version of this approach, UX design work is done one iteration ahead of development work (see Figure 13.2). The principle of dual tracks development is quite simple: that design activity  and data collection for Cycle $n { + 1 }$ are performed during Cycle $_ { n }$ . This enables the design work to be completed just ahead of development work, yet to be tightly coupled to it as the product evolves. Completing  it much sooner than this can result in wasted effort, as the product and understanding about its use evolves.
+
+Figure 13.2 Cycle 0 and its relationship to later cycles   
+![](images/793c5ab6fb5680bfe6c953b403166a0c7150b4c8897a705f090db72dc7bdb75a.jpg)  
+Source: Sy (2017) / Association for Computing Machinery
+
+Cycle 0 and cycle  1  are different from  subsequent  cycles  because, before evolutionary development can begin, the product vision needs to be created. This is handled in different ways  in different agile methods, but all agree that there  needs to be some kind of work up front  to understand the product, its scope, and its overall  design (both technical and UX). Some general data about customers and their behavior may have been collected before cycle 0, but the vision and overall design is completed for the current project by the end of cycle 0. The work required will depend on the nature of the product: whether it is a new version of an existing product, a new product, or a completely new experience. Cycle 0 can also be longer
+
+than other cycles to accommodate differing needs, but producing pixel-perfect designs of the product before evolutionary  development starts is  not the aim for cycle  0. Cycle 1 usually involves technical setup activities in the developer track, which allows the UX designers to get started on the design and user activities for cycle 2. For subsequent cycles, the team gets into a rhythm of design and user activities in cycle n–1 and corresponding technical activity in cycle n.
+
+When  this  way  of  working  was  introduced, interaction  designers  felt  that  there  were three big advantages to this process. First, no design time was wasted on features that would not be implemented. Second, usability testing (for one set of features) and contextual inquiry (for the next set) could be done on the same customer visit, thus saving time. Third, the interaction designers received timely feedback from  all sides—both  users and developers. More importantly, they had time to react to that feedback because of the agile way of working. For example, the schedule  could be changed if something was going to take  longer to develop than first thought, or a feature could be dropped if it became apparent from the users  that something else had higher priority.
+
+These  advantages have been realized by others too, and this dual tracks  way of working has  become a popular way to implement agileUX. Sometimes, UX designers work two iterations ahead, depending on the work to be done, the length of the iteration, and external factors such as time required to obtain appropriate stakeholder input. Working in this way does not diminish the need for UX designers and other team members to collaborate closely together, and although the tracks are parallel, they should not be seen as separate processes.
+
+In fact, these two tracks align to the double diamond process introduced in Chapter 2, where the design track focuses on “discovery” and the developer track focuses on “delivery.” Discovery helps to understand pain points, and designs move to delivery once they have been solved. Example activities in “discovery” are stakeholder interviews; user research to understand user issues; creating personas; and story mapping to prioritize features.
+
+Since its introduction in early 2000s, this approach has been adopted in many situations and  evolved  so that  the two  tracks  are not  as  tightly coupled  as  Figure  13.2 implies  (see Figure 13.3). Rather than the discovery work being done directly before the next iteration, there may be a looser connection, and iterations in the design track may be of variable length. In addition, not all of the ideas considered in discovery make it to delivery at all, and some may  stay in  the design  track for  longer while  they  are refined. This  way  of  working  may be  better suited  to longer-term  projects with  more resources  than smaller teams  and short projects because there is a danger that roles will become overburdened trying to take on too many activities.
+---
+Node: ACTIVITY 13.2
+Primary concept extracted from chunk
+# ACTIVITY 13.2
+
+Compare Lean UX, agileUX, and evolutionary prototyping (introduced in Chapter 12, “Design, Prototyping, and Construction”). In what ways are they similar, and how do they differ?
+---
+Node: 14.3.2  In-the-Wild Studies
+Primary concept extracted from chunk
+# 14.3.2  In-the-Wild Studies
+
+In-the-wild studies are a way of observing technology usage in natural settings with little or no evaluator  involvement or presence. In the early days  of usability evaluation, evaluators realized that they needed to understand how prototypes and other design products were used in natural settings outside of the lab by observing and talking with users. During the last 20 years, there has been a trend toward conducting in-the-wild studies in which evaluators had less  and less  control over  and  direct  involvement with  the  study  participants (Rogers  and Marshall, 2017). Since this approach is adopted in research as well as in evaluation, it is also called research in the wild (Chamberlain et al, 2012), as mentioned in Chapter 2.
+
+The  goal of in-the-wild studies is to evaluate products with people in their natural settings, primarily to:
+
+Help identify settings for new technologies   
+•  Inform the requirements for a new technology design based on in situ observations   
+Introduce new  technology  interventions or inform deployment  of existing  technology in new contexts   
+. Enable extended engagement with the technology
+
+Doing in-the-wild studies to evaluate a product can provide more ecological validity as they assess the fitness of a product for the intended audience in an everyday context while enabling unforeseen issues related to the environment of use to be revealed. In-the-wild studies  also  enable  usability  measures  (e.g.,  time  spent, features  explored) to  be  recorded  in a real-world setting, such as how social media is used by target audiences on their smartphones over a period of time.
+
+Methods that are typically used for in-the-wild studies are observation, interviews, and interaction logging (see Chapters 8 and 9). The data takes the form of events and conversations that are  typically recorded  through  audio or video  recording, or by  the participants as diaries and notes. The goal of the evaluators is to be unobtrusive and not to affect what people do during the evaluation. However, it is inevitable that some methods will influence how people behave. For example, the use of cameras can make people feel self-conscious and change how they behave or choose to interact with the technology intervention.
+
+In-the-wild studies involve looking at how new technologies or prototypes are deployed and used by people in various natural settings, such as outdoors, in public places, and in their homes. Sometimes, a prototype that is deployed is called a disruptive technology, because the aim is to discover how it displaces an existing technology or practice.
+
+In moving into the wild, evaluators inevitably give up control over what is being evaluated in order to observe how people approach and use—or don’t use—technologies in their everyday lives. For example, an evaluator might be interested in observing how a new mobile navigation device will be used in urban environments. To conduct an in-the-wild study where a specific device is being introduced (e.g., a smart speaker), researchers need to recruit people who are willing to use the device for a few weeks or months in their natural surroundings. They might then tell the participants what they can do with the device. Other than that, it is up to the participants to decide how to use it and when, as they move among work or school, home, and other places.
+
+The  downside of handing  over control is  that it makes it  difficult to anticipate what is going to happen and to be present when something interesting does happen. This approach
+
+contrasts markedly with usability testing where there is always an investigator or camera at hand to record events. Instead, the evaluator has to rely on the participants allowing them to use an installed technology intervention.
+
+In-the-wild  studies  can  also  be  run  virtually, where  observations  take  place  in  multiuser  games such  as  World  of Warcraft, Fortnite,  and Minecraft;  online  communities;  chat rooms; and so on. A main goal of this kind of in-the-wild study is to examine  the kinds of social processes that occur in them, such as collaboration, confrontation, and cooperation. The researcher typically becomes a participant and does not control the interactions. Virtual studies have also become popular in the geological and biological sciences because they can supplement studies in the field. Increasingly, online is partnered with a real-world experience so that researchers and students get the best of both situations (Cliffe, 2017; Elgersma, 2021).
+---
+Node: 14.3.3  Settings Not Involving Participants
+Primary concept extracted from chunk
+# 14.3.3  Settings Not Involving Participants
+
+Evaluations that take place without involving  participants are conducted in settings where the researcher has to imagine or model how an interface is likely to be used. Inspection methods  are  commonly  employed  to  predict  user  behavior  and  to  identify  usability  problems based on  knowledge of usability, users’ behavior, the contexts  in which the system  will be used, and the kinds of activities that people undertake. Examples include heuristic evaluation that applies  knowledge of  typical  users guided  by  rules of  thumb  and walk-throughs  that involve stepping through a scenario or answering a set of questions for a detailed prototype. Other techniques include analytics and models.
+
+The original heuristic evaluation method  was developed in the early 1990s  for screenbased  applications  (Nielsen  and  Mack,  1994)  and  later  refined  and  adapted  for  other applications over the years (Nielsen and Tahir, 2002). There are now tailored heuristics for evaluating  most  product  types,  including  web-based  products, mobile  apps,  collaborative technologies, conversational  agents  (Langevin, 2021), computerized  toys, games (Tondello et al., 2016), information visualizations (Forsell and Johansson, 2010), and more. One of the problems with using heuristics is that designers can sometimes be led astray by finding that heuristic  evaluation is  not as accurate  as it  appeared  to be at  first. This  problem can  arise from  different sources, such as a lack  of experience and the biases  of UX researchers  who conduct the heuristic evaluations.
+
+Cognitive walk-throughs involve simulating a user’s problem-solving process at each step in the human-computer dialogue and checking to see how users progress from step to step in these interactions (Wharton et al., 1994). During the last 20 years, cognitive walk-throughs have been used to evaluate smartphones (Jadhav et al., 2013), large displays, and other applications, such as public displays (Parker et al., 2017) and interface learnability (Salazar, 2022). A  key feature  of cognitive walk-throughs is  that they  focus on  evaluating designs for ease of learning.
+
+Analytics  is  a  technique  for  logging  and analyzing  data  either  at  a  customer’s site  or remotely.  Web  analytics  is the  measurement, collection, analysis, and  reporting of  Internet data  to understand  and optimize  web  usage. Examples of  web  analytics include the  number of visitors to a website home page over a particular time period, the average time users spend on the home page, which other pages they visit, or whether they leave after visiting the home page. For example, Google provides a commonly used approach for collecting analytics data that is particularly useful for evaluating design features of a website (see Chapter 16,
+
+“Evaluation: Inspections, Analytics and Models”). As part of the massive open online courses (MOOCs) and open educational resources (OERs) movement, learning analytics has evolved and gained prominence for assessing the learning that takes place in these environments. The Open University  in the  United  Kingdom, along with  others,  has  published  widely on  this topic, describing  how learning  analytics are useful for  guiding course  and program design and for evaluating the impact of pedagogical decision-making (Toetenel and Rienties, 2016). Christothea Herodotou and her colleagues (2020) have examined the use of learning analytics over five years, and from this they discuss how to implement predictive learning analytics in distance education at scale.
+
+This web page provides information about learning analytics and learning design: iet.open.ac.uk/themes/learning-analytics-and-learning-design.
+
+Models have been used primarily  for comparing the efficacy  of different interfaces for the same application, for example, the optimal arrangement and location of features. A wellknown approach, described in Scott MacKenzie’s seminal paper, uses Fitts’ law to predict the time it takes to reach a target using a pointing device (MacKenzie, 1995). Other uses of Fitts’ law include evaluating  the position and size of keys on a mobile device or game controller (Ramcharitar and Teather, 2017). Fitts’ law has also been adapted recently for assessing hand reactions to stimuli in virtual reality (Gunasekaran et al, 2021).
+---
+Node: 14.3.4  Selecting and Combining Methods
+Primary concept extracted from chunk
+# 14.3.4  Selecting and Combining Methods
+
+The three broad  categories identified  previously provide a general framework  to guide the selection of evaluation methods. Often, combinations of methods are used across the categories to obtain a richer understanding. For example, sometimes usability testing conducted in labs is combined with observations in natural settings to identify the range of usability problems and find out how users typically use a product.
+
+There  are both pros and cons for controlled and uncontrolled settings. The benefits of controlled settings include being able to test hypotheses about specific features of the interface where the results can be generalized to the wider population. A benefit of uncontrolled settings  is that unexpected data  can be obtained that provides  quite different  insights  into people’s perceptions and their experiences of using, interacting, or communicating through the new technologies in the context of their everyday and working lives.
+---
+Node: 14.3.5  Opportunistic Evaluations
+Primary concept extracted from chunk
+# 14.3.5  Opportunistic Evaluations
+
+Evaluations may  be detailed, planned studies, or opportunistic. The latter explorations are generally done early in the design process to provide designers with feedback quickly about a design idea.  Getting this  kind of feedback is  important because  it  confirms whether  it  is worth proceeding to develop an idea into a prototype. Typically, these early evaluations are informal and do not require many resources. For example, the designers may recruit a few local people and ask their opinions. Getting feedback this early in design provides feedback when it is easier to make changes to an evolving design. Opportunistic evaluations with users
+
+can also be conducted to hone the target audience so that subsequent evaluation studies can be more focused. Opportunistic evaluations can also be conducted in addition to more formal evaluations.
+---
+Node: 14.4  Evaluation Case Studies
+Primary concept extracted from chunk
+# 14.4  Evaluation Case Studies
+
+Two  contrasting case studies are  described in this section to illustrate how evaluations can take  place in different settings  with different amounts of control over users’  activities. The first case study (section 14.4.1) describes a mixed methods approach to evaluating a system called DeepTake that is used to predict when drivers of automated cars will need to take over control of the car from the automated system (Pakdamanian et al., 2021).
+
+The second  case  study (section 14.4.2)  describes an  ethnographic in-the-wild  study  in which a bot, known as Ethnobot, was developed to prompt participants to answer questions about their experiences while walking around a large outdoor show (Tallyn et al., 2018).
+---
+Node: 14.4.1  Case Study 1: DeepTake and Automated Vehicles
+Primary concept extracted from chunk
+# 14.4.1  Case Study 1: DeepTake and Automated Vehicles
+
+Automated  vehicles promise future drivers  the opportunity to focus  some of their time on tasks that are not related to driving, such as reading a book, texting, talking to friends, and playing games with children, which are known as non-driving-related tasks. But this vision requires carefully designed automated systems that can smoothly transfer control of the car to a human driver to manage dangerous situations.
+
+DeepTake is designed to predict when a driver, who is engaged in a non-driving-related task, needs to take control of a car (Pakdamanian et al., 2021). At such times the driver gets a takeover request from DeepTake to get ready to take control of the car and to stop whatever other activity they are engaged in until it is safe for the car to return to driving automatically.
+
+The prototype DeepTake system was created by Erfan Pakdamanian and his colleagues. They collected vast amounts of data about people’s driving behavior that was classified using machine learning and used to develop the deep neural network that powered DeepTake. The primary aim for these researchers was  to test how well their system predicted the  need for takeovers compared with other similar systems. Part of their research also involved performing a  user study  of DeepTake to test  the feasibility of predicting  takeover behavior, which the researchers defined as a driver’s intention to take over control of the vehicle, the time to complete the takeover, and how well the takeover was performed. The user study consisted of the following:
+
+Study scenario: The participant drivers in the study had to take control of the vehicle to avoid an obstacle in the road.
+
+Participants: Twenty subjects (11  females and  9 males) aged 18–30 years  (mean age  23.5) took part in the study. All participants were required to have normal or corrected normal vision and to have at least one year of driving experience and not  to be susceptible to simulator sickness (a well-known problem that some people experience).
+
+Apparatus  and setup: A low-fidelity driving simulator was used that consisted of a steering wheel, accelerator, brake pedal, and gear shift, as shown in Figure 14.3. The simulator recorded driver control actions and the state of the vehicle (e.g., speed and position) 20 times  per  second. The  driving scenario  was displayed  to  the participant  on  a 30-inch
+
+monitor, and  a pair of stereo  speakers generated  the noise associated  with the driving environment, including auditory requests to signal a takeover. An Apple iPad was positioned to the right  side of the driver to mimic the display that  the driver would use for non-driving-related tasks.
+
+Drivers engage in non-driving tasks when the vehicle is in automated driving mode, so Tobii  Pro-Glasses  were used  to  sample  the  driver’s eye  movements  approximately  60 times per second. This data indicates the driver’s visual attention and readiness to take over  control  of the car. Biometric  data  was collected  via wearable devices. Heart  rate variability and skin signals were monitored at a rate of 267 times per second. This monitoring was done using devices that are not invasive and therefore don’t distract or make the driver uncomfortable. Collectively the data provides an indicator of the driver’s alertness, stress, and drowsiness. Galvanic skin response data also indicates emotional reactions. Sweaty hands may indicate stress!
+
+Task scenarios: Four types of non-driving-related tasks were designed to vary task difficulty and therefore the amount of time and cognitive effort needed to perform the tasks.
+
+• Conversation  with  passenger:  Interacting  with  the  experimenter  who  sat  close  to  the participant   
+. Using a cellphone: Interacting with a smartphone for texting or browsing   
+•  Reading articles: Reading three types of articles—easy, medium, and hard—on the iPad   
+•  Solving problems: Answering three levels of arithmetic questions—easy, medium, and hard.
+
+Study design: All the driver participants did the same set of tasks. This enabled a controlled evaluation of the takeover requests. To avoid the influence of the order of the non-driverrelated  tasks, the  order  was randomized. The  difficulty of the  tasks  and therefore the cognitive demand was varied.
+
+Procedure:  Prior  to  starting  the  study  the  participants  were  told  about  what  they  would be asked to do, what data would be collected about them, and how their data would be used. Upon arriving in the lab, the participants signed an informed consent form (see section 14.6.1). They were reminded of their right to stop involvement in the study at any time, and they were each given $\$ 20$ US to compensate for their time spent on the study. They also completed a demographic and driving history questionnaire. They were briefed about the study and taught to use the simulator. Participants were told that if DeepTake detected a situation that it could not navigate, there would be an auditory request telling them to take over control of the vehicle. Participants were then invited to try out the simulator to get familiar with it and with the study procedure, the tasks, and the delivery of  takeover  requests. The eye-tracking  and other  devices for  collecting biometric  data were calibrated to ensure they worked correctly. When the participant felt familiar with the simulator and understood the procedure, the evaluation study was started.
+---
+Node: chapter 21 Chapter 14 chunk 026 14 4 1  Case Study 1  DeepTake 2
+Primary concept extracted from chunk
+The study consisted of three trials using the simulated driving setup, each containing 15 takeover requests. After each trial the participant was given two questionnaires consisting of tried and tested questions that were designed to assess the participants’ perceived reactions and psychological stress respectively. These tests used rating scales. A follow-up study  was  planned  to further  tap  into  the  participants’  thoughts,  feelings, and  overall experience. The total amount of time that each participant spent on the user study was approximately one hour.
+
+Data  collection: The  pre-driving  survey completed  by  each  participant  before  starting  the study collected demographic information about the participants including their age, gender, and  driving  experience.  Data  was  collected  about  changes  in  the  simulated  car’s actions (e.g., change in lane position, steering angle, throttle and break) caused by each participant in response to a takeover request, and about the simulated vehicle’s behavior, such as speed and distance to  hazards on  the road. Data  was also collected about  the participant  driver’s non-driving  behavior (e.g.,  reading  from  a  tablet, responding  to  a prompt to take control of the car, etc.) and the participant’s eye movements, heart rate, and skin  moisture. This data  showed changes  in the driver’s neurological responses  to different driving situations. Figure 14.3 provides an overview of the study setup.
+
+Data analysis and results: The results of the study showed that DeepTake reliably predicted the need for a driver to take over control of the simulated car 96 percent of the time. The data from the simulator study with users (i.e., the user study) indicated that participants completed the takeovers within an acceptable time 93 percent of the time and that 83 percent of the takeovers were of acceptable quality, which was a measure of how safely and accurately the participants  completed the takeovers. Because the primary focus of research on  DeepTake was testing  the feasibility  of predicting  takeovers by  collecting and analyzing quantitative measurements, the researchers did not collect data about how participants felt about their study experience. To cope with this limitation, the researchers planned a follow-up study to  collect qualitative  user experience data, which  is not reported  here, but Activity  14.5 encourages  you  to  think about  the kind  of data  that might be useful to collect. Interestingly, while the researchers’ work so far does not focus on the user interface of the system, it does provide an alternative way of putting users at the center of development.
+
+Figure 14.3 User study setup. This custom driving simulator consists of a 30-inch monitor, a Logitech G29 steering wheel, and 10.5-inch Apple iPad Air on which the non-driving tasks are displayed. For switching between the automated and manual control of the vehicle, the participant needs to press the two blue buttons on the steering wheel simultaneously. The participant wore a pair of eye-tracking glasses and a wearable device with sensors for collecting skin.   
+![](images/dd756afcf9232135d083244ffc85dc22695911ddb8bd69dc38e36ef730c1d283.jpg)  
+Source: Pakdamanian et al., 2021. CHI’2021 https://dl.acm.org/doi/pdf/10.1145/3411764.3445563
+---
+Node: Validity
+Primary concept extracted from chunk
+# Validity
+
+Validity is  concerned with  whether the evaluation method  measures  what it is intended  to measure. This  encompasses  both  the  method  itself  and  the  way  it  is  implemented.  If,  for example, the goal of an evaluation study is to find out how people use a new product in their homes, then it is not appropriate to plan a lab experiment. An ethnographic study in participants’ homes would be more appropriate. If the goal is to find average performance times for completing  a task, then  a method  that recorded only  the number  of user  errors  would be invalid. These examples are deliberately extreme, but subtler mistakes can be made, and it’s good to consider these questions for each study.
+---
+Node: Long-Term Studies
+Primary concept extracted from chunk
+# Long-Term Studies
+
+Some studies require researchers to leave their designs with participants for extended periods of time so that the participants have time to learn how to use the product. Ben Shneiderman and Catherine Plaisant adopted this approach when evaluating a visualization tool designed for use by experts (Shneiderman and Plaisant, 2006). To evaluate the efficacy of such tools, participants are  best studied  in realistic  settings in their  own  workplaces so they can  use their  own  data and  set their  own agendas  for  extracting insights relevant to their  professional projects.
+
+Shneiderman’s and Plaisant’s long-term evaluation studies typically started with an initial interview in which the  researchers checked that the participant has a problem to work on, available data, and a schedule for completion. Then the participant undertook an introductory training session with the tool, followed by 2–4 weeks of novice usage, followed by 2–4 weeks of mature usage, leading to a semi-structured exit interview. More data, such as daily diaries, automated logs of usage, structured questionnaires, and interviews can also be collected to provide a multidimensional understanding of the weaknesses and strengths of the tool.
+
+Because of the complexity of some visualization tools, it can be difficult to find suitably skilled people to participate in these evaluations, so the number of participants is often small, sometimes fewer than five. Other evaluators have reported that evaluating complex visualization tools designed to run on mobile devices and smartphones can be difficult for participants because of the small screen size, so participants may need extra time to familiarize themselves with the  product before the evaluation study begins, which extends  the  overall study  time (Bentley et al., 2021).
+---
+Node: How Many Participants Are Needed When Carrying Out an Evaluation Study?
+Primary concept extracted from chunk
+# How Many Participants Are Needed When Carrying Out an Evaluation Study?
+
+The  answer to this question depends  on the  goal of the  study, the  type of study  (such  as usability, experiment,  in-the-wild  or another  type), and  the  constraints  encountered  (for instance, schedules, budgets, recruiting representative participants, and the facilities available). Chapter 8, discussed this question more broadly. The focus here is on the main types of evaluation studies discussed in this chapter: usability studies, experiments, and in-the-wild studies.
+---
+Node: Q
+Primary concept extracted from chunk
+# Q
+
+qualitative analysis, 328
+
+categorization, 340, 345–347
+
+coding, 340
+
+critical incident analysis, 341, 347–350
+
+thematic analysis, 340, 342–344
+
+think-aloud technique, 346
+
+qualitative data, 327
+
+quantitative analysis, 328, 330
+
+averages, 331
+
+data logs, 339
+
+graphs, 334–336
+
+mean, 331
+
+median, 331
+
+mode, 331
+
+outliers, 333
+
+R, 339
+
+quantitative data, 327
+
+question design, 332
+
+questionnaires
+
+data analysis, 329, 330
+
+data gathering
+
+administering, 299–302
+
+Likert scales, 297
+
+ranges, 295
+
+rating scales, 296–297
+
+response list, 295
+
+semantic differential scales, 297–299
+
+structure of, 294–295

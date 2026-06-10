@@ -106,15 +106,18 @@ def check_orphan_notes(hub_path: str, course_dir: str) -> tuple[bool, list[str]]
     with open(hub_path, encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
-    # 收集 hub 中所有 note 条目的 id
-    hub_ids = {e["id"] for e in data.get("entries", []) if e.get("type") == "note"}
+    # 收集 hub 中所有条目声明的 notes 文件名
+    hub_notes = set()
+    for e in data.get("entries", []):
+        src = e.get("source", "")
+        if src.startswith("knowledge/notes/"):
+            hub_notes.add(os.path.basename(src))
 
     orphans = []
     for fname in os.listdir(notes_dir):
         if not fname.endswith(".md"):
             continue
-        note_id = fname[:-3]  # 去掉 .md 后缀
-        if note_id not in hub_ids:
+        if fname not in hub_notes:
             orphans.append(f"  notes/{fname}（在 hub 中无对应条目）")
 
     if orphans:

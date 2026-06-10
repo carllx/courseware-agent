@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=25, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_25.json
+FILES:
+/private/tmp/about_face_chunks/chunk_601_Convey_a_sense_of_the_function.md
+/private/tmp/about_face_chunks/chunk_602_Associate_visual_symbols_with_.md
+/private/tmp/about_face_chunks/chunk_603_Render_icons_and_visual_symbol.md
+/private/tmp/about_face_chunks/chunk_604_Pre_visualize_results_when_pos.md
+/private/tmp/about_face_chunks/chunk_605_Respond_to_commands.md
+/private/tmp/about_face_chunks/chunk_606_Draw_attention_to_important_ev.md
+/private/tmp/about_face_chunks/chunk_607_Minimize_the_amount_of_visual_.md
+/private/tmp/about_face_chunks/chunk_608_Keep_it_simple.md
+/private/tmp/about_face_chunks/chunk_609_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_610_Visual_Information_Design_Prin.md
+/private/tmp/about_face_chunks/chunk_611_Enforce_visual_comparisons.md
+/private/tmp/about_face_chunks/chunk_612_Show_causality.md
+/private/tmp/about_face_chunks/chunk_613_Show_multiple_variables.md
+/private/tmp/about_face_chunks/chunk_614_Integrate_text__graphics__and_.md
+/private/tmp/about_face_chunks/chunk_615_Ensure_the_content_s_quality__.md
+/private/tmp/about_face_chunks/chunk_616_Show_things_adjacent_in_space_.md
+/private/tmp/about_face_chunks/chunk_617_Don_t_dequantify_quantifiable_.md
+/private/tmp/about_face_chunks/chunk_618_Consistency_and_Standards.md
+/private/tmp/about_face_chunks/chunk_619_Benefits_of_interface_standard.md
+/private/tmp/about_face_chunks/chunk_620_Risks_of_interface_standards.md
+/private/tmp/about_face_chunks/chunk_621_Standards__guidelines__and_rul.md
+/private/tmp/about_face_chunks/chunk_622_When_to_violate_guidelines.md
+/private/tmp/about_face_chunks/chunk_623_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_624_Consistency_and_standards_acro.md
+/private/tmp/about_face_chunks/chunk_625_The_design_language.md

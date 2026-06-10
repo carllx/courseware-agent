@@ -1,0 +1,326 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "label": "Persona",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_126_The_Power_of_Personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Multipurpose design tool used to determine product behavior, build consensus, and communicate with stakeholders. It avoids issues like the elastic user, self-referential design, and edge cases."
+    },
+    {
+      "id": "about_face_chunks_chunk_129_the_elastic_user_elastic_user",
+      "label": "Elastic User",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_129_The_elastic_user.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A loosely defined user concept that changes to fit the convenience of the development team."
+    },
+    {
+      "id": "about_face_chunks_chunk_130_self_referential_design_self_referential_design",
+      "label": "Self-referential Design",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_130_Self_referential_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "When designers or developers project their own goals, motivations, skills, and mental models onto a product."
+    },
+    {
+      "id": "about_face_chunks_chunk_131_edge_cases_edge_cases",
+      "label": "Edge Cases",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_131_Edge_cases.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Situations that might happen but usually won't for most people. Not the primary design target."
+    },
+    {
+      "id": "about_face_chunks_chunk_144_understanding_goals_goal",
+      "label": "User Goal",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_144_Understanding_Goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Motivations driving behaviors; the 'why' behind tasks."
+    },
+    {
+      "id": "about_face_chunks_chunk_141_user_roles_user_roles",
+      "label": "User Roles",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_141_User_roles.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_142_personas_versus_user_profiles_user_profiles",
+      "label": "User Profiles",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_142_Personas_versus_user_profiles.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_143_personas_versus_market_segment_market_segments",
+      "label": "Market Segments",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_143_Personas_versus_market_segment.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_emotional_design",
+      "label": "Emotional Design",
+      "file_type": "document",
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Don Norman",
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_visceral_processing",
+      "label": "Visceral Processing",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Immediate processing level reacting to visual and sensory aspects. Used for designing visual appearance, motion, and affect."
+    },
+    {
+      "id": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_behavioral_processing",
+      "label": "Behavioral Processing",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Middle processing level for managing simple everyday behaviors. Primary focus of interaction design."
+    },
+    {
+      "id": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_reflective_processing",
+      "label": "Reflective Processing",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Least immediate level of processing involving conscious consideration, memories, and associations. Builds long-term product relationships."
+    },
+    {
+      "id": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_blink",
+      "label": "Blink",
+      "file_type": "document",
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Malcolm Gladwell",
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_sources_of_power",
+      "label": "Sources of Power",
+      "file_type": "document",
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Gary Klein",
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_hare_brain_tortoise_mind",
+      "label": "Hare Brain, Tortoise Mind",
+      "file_type": "document",
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Guy Claxton",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "target": "about_face_chunks_chunk_129_the_elastic_user_elastic_user",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_129_The_elastic_user.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "target": "about_face_chunks_chunk_130_self_referential_design_self_referential_design",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_130_Self_referential_design.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "target": "about_face_chunks_chunk_131_edge_cases_edge_cases",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_131_Edge_cases.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "target": "about_face_chunks_chunk_141_user_roles_user_roles",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_141_User_roles.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "target": "about_face_chunks_chunk_142_personas_versus_user_profiles_user_profiles",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_142_Personas_versus_user_profiles.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "target": "about_face_chunks_chunk_143_personas_versus_market_segment_market_segments",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_143_Personas_versus_market_segment.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_126_the_power_of_personas_persona",
+      "target": "about_face_chunks_chunk_144_understanding_goals_goal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_144_Understanding_Goals.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_emotional_design",
+      "target": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_visceral_processing",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_emotional_design",
+      "target": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_behavioral_processing",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_emotional_design",
+      "target": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_reflective_processing",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_visceral_processing",
+      "target": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_blink",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_visceral_processing",
+      "target": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_sources_of_power",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_visceral_processing",
+      "target": "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_hare_brain_tortoise_mind",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "normans_levels_of_cognitive_processing",
+      "label": "Norman's Levels of Cognitive Processing",
+      "nodes": [
+        "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_visceral_processing",
+        "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_behavioral_processing",
+        "about_face_chunks_chunk_147_user_goals_and_cognitive_proce_reflective_processing"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

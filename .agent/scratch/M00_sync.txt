@@ -1,0 +1,101 @@
+
+============================================================
+  视觉信标对齐检查报告 (Signaling Sync)
+============================================================
+  课程: 交互产品开发
+  范围: 第 5 周
+============================================================
+
+📊 总览:
+   VISUAL 块总数: 29
+   含 Text 字段: 0 (0%)
+   含 List 字段: 3
+   Heading 空洞: 20
+   🔴 信标缺失 (结构性枚举/操作步骤): 0
+   🔴 修辞排比有 List: 0
+   🟡 冗余风险 (论证递进有 List): 0
+   🟡 分类不确定: 0
+
+⚠️  Text 字段缺失 — compiled.md:
+   M0-01-W04-Review (Split) L23
+   Scene: "左侧展示 W04 结束时的输出物（MVP 假设清单和低保真纸片人），右侧是一个问号，引向“如何变成真..."
+   M0-01b-Gap-Illusion (Full) L37
+   Scene: "悬崖两端。一端是几张画着火柴人的MVP纸片，另一端是高楼林立、灯火辉煌的现代巨型软件都市。中间横亘着..."
+   M0-02-The-Missing-Blueprint (Comparison) L52
+   Scene: "左侧展示一堆精美的按钮、输入框、卡片组件（如同散落的乐高积木），右侧展示一座结构严密、宏伟复杂的乐高..."
+   M0-02b-Cognitive-Overload-Disaster (Full) L62
+   Scene: "屏幕上出现一个充斥着几十个毫无关联的弹窗、报警灯和重叠菜单的恐怖 ERP 界面（如著名的 Lings..."
+   M0-03-Maze-App-Flow (Flow) L89
+   Scene: "展示一个错综复杂、像意大利面条一样缠绕的应用跳转流程图。红色的错误标记（代表死循环、断头路、无返回节..."
+   M0-03b-Safety-Net (Split) L112
+   Scene: "左侧是杂技演员走钢丝，一旦失足直接坠入深渊（单线程脆弱架构）；右侧是高空作业者身下编织了一层极其精密..."
+   M0-04-The-Journey (Split) L121
+   Scene: "画面中心只有一条从 A 点极其干练且蜿蜒地直达 B 点的发光几何轨迹，极其从容地穿越着屏幕四周极其混..."
+   M1-01-Painting-Flow (Full) L149
+   Scene: "一位画家全神贯注地在画布上作画，周围的画室环境、散乱颜料罐全被极度模糊虚化，笔触流畅自然仿佛有脱离地..."
+   M1-01b-No-UI (Full) L171
+   Scene: "屏幕上闪烁着一行巨大的发光文字：“最好的 UI 是没有 UI”。背景隐约可见错综复杂的代码流，但前景..."
+   M1-02-Flow-Diagram (Flow) L183
+   Scene: "Csikszentmihalyi 心流模型的三维空间示意图。由底部的"无聊 (Boredom)"区，..."
+   M1-03-Transparency-Metaphor (Comparison) L217
+   Scene: "右半边极度讽刺，左半边极致优雅。左区：展示一把斑驳但极简的铁锤正在半道精准且势大力沉地将钉子砸入实木..."
+   M1-04-Friction-Points (Split) L236
+   Scene: "现场用极其短促快速的切镜效果，动态还原展示一个极度崩溃的用户，试图在雨天完成一个极简单一业务目标（通..."
+   M1-05-Seamless-Flow (Full) L250
+   Scene: "展示一个极其流畅的丝带在狂风中不受任何阻碍地飘舞，隐喻毫无摩擦的心流。下方压上一行引用的名人名言，字..."
+   M2-01-Symphony-Conductor (Full) L266
+   Scene: "维也纳金色大厅。一位交响乐指挥站在庞大乐团的最前方，背对观众，双手极度舒展且充满张力。各声部乐器（弦..."
+   M2-02-Six-Strategies (Split) L297
+   Scene: "极度克制、甚至有些冷酷的策略卡片式布局大图。一页纸上只展示极其精炼的 6 条核心编排策略。每条策略用..."
+   M2-03-Direct-Command (Comparison) L338
+   Scene: "两张极其具有讽刺意味和破坏力的极度极端对比图。左侧：展示一个极具工业设计质感、表面带有磨砂皮纹理的高..."
+   M2-03b-Non-modal (Comparison) L368
+   Scene: "模态与无模态反馈的直观对比。左侧（模态）：用户正在看文章，一个丑陋的弹窗霸占屏幕正中央，“温馨提示：..."
+   M2-04-Probability-Design (Split) L385
+   Scene: "极端的概率对比图表。左侧是一个巨大的饼图，其中 99.9% 的面积标注"用户是真的想保存并退出"，只..."
+   M3-01-Excise-Tax (Flow) L408
+   Scene: "一条从"起点"到"人生终极目标（抵达海滩度假）"的美好风景路径。但在这条路径上，被强行设置了数十个红..."
+   M3-02-Four-Excises (Split) L428
+   Scene: "四类用户隐性消耗工作的示意图。每类配一个高亮图标和简短说明：1) 认知工作 (理解复杂的架构) — ..."
+   M3-03-Navigation-Pyramid (Flow) L448
+   Scene: "一张倒置的、血红色的“危险层级”金字塔图，展示四层导航附加税的破坏力。从最宽的顶部到底层（破坏力递减..."
+   M3-04-Skeuomorphism-Tax (Comparison) L492
+   Scene: "左右极端对比。左侧：iOS 6 的拟物化通讯录界面（极其逼真的皮革质感纹路、高亮立体反光、硬质纸张翻..."
+   M4-01-App-State-Machine (Flow) L516
+   Scene: "一个极具工程感的高清状态机抽象图。展示一个外卖点餐 App 的底层核心状态流：浏览菜品 (State..."
+   M4-02-State-Analysis-Matrix (Split) L536
+   Scene: "大屏幕上投射出一个极度理性的分析矩阵表格，列头为：状态空间 (State Space) / 用户微目..."
+   M4-02b-Empty-State-Matrix (Full) L552
+   Scene: "聚焦矩阵表格中一个经常被遗忘的边缘死角单元格——“空状态 (Empty State)”。展示当购物车..."
+   M4-03-Before-After-Optimization (Flow) L563
+   Scene: "两张极具冲击力的架构蓝图对比。上方是“古典未优化版”：代表老旧的线性瀑布流，用户每操作一步都必须完全..."
+   M5-01-Whiteboard-Architecture (Full) L602
+   Scene: "一张极其震撼且硬核的真实大厂墙面白板照片。白板上密密麻麻但在极其严密的逻辑约束下，贴满了各种颜色的便..."
+   M6-01-Summary (Split) L645
+   Scene: "课程核心脉络图，高亮今天的突破点。..."
+   M6-02-Next-Teaser (Full) L670
+   Scene: "一张充满 CSS 属性和弹性盒子布局的网页结构透视渲染图。..."
+
+💡 Heading 空洞 — compiled.md:
+   M0-01-W04-Review (Split) L23 — 无结构标题
+   M0-02-The-Missing-Blueprint (Comparison) L52 — 无结构标题
+   M0-03-Maze-App-Flow (Flow) L89 — 无结构标题
+   M0-03b-Safety-Net (Split) L112 — 无结构标题
+   M0-04-The-Journey (Split) L121 — 无结构标题
+   M1-02-Flow-Diagram (Flow) L183 — 无结构标题
+   M1-03-Transparency-Metaphor (Comparison) L217 — 无结构标题
+   M1-04-Friction-Points (Split) L236 — 无结构标题
+   M2-02-Six-Strategies (Split) L297 — 无结构标题
+   M2-03-Direct-Command (Comparison) L338 — 无结构标题
+   M2-03b-Non-modal (Comparison) L368 — 无结构标题
+   M2-04-Probability-Design (Split) L385 — 无结构标题
+   M3-01-Excise-Tax (Flow) L408 — 无结构标题
+   M3-02-Four-Excises (Split) L428 — 无结构标题
+   M3-03-Navigation-Pyramid (Flow) L448 — 无结构标题
+   M3-04-Skeuomorphism-Tax (Comparison) L492 — 无结构标题
+   M4-01-App-State-Machine (Flow) L516 — 无结构标题
+   M4-02-State-Analysis-Matrix (Split) L536 — 无结构标题
+   M4-03-Before-After-Optimization (Flow) L563 — 无结构标题
+   M6-01-Summary (Split) L645 — 无结构标题
+
+============================================================

@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=28, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_28.json
+FILES:
+/private/tmp/about_face_chunks/chunk_676_Scroll_wheels_and_scroll_balls.md
+/private/tmp/about_face_chunks/chunk_677_Modifier_keys.md
+/private/tmp/about_face_chunks/chunk_678_Pointing.md
+/private/tmp/about_face_chunks/chunk_679_Clicking.md
+/private/tmp/about_face_chunks/chunk_680_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_681_Point_and_click_combinations.md
+/private/tmp/about_face_chunks/chunk_682_Clicking_and_dragging.md
+/private/tmp/about_face_chunks/chunk_683_Double_clicking.md
+/private/tmp/about_face_chunks/chunk_684_Chord_clicking.md
+/private/tmp/about_face_chunks/chunk_685_Double_clicking_and_dragging.md
+/private/tmp/about_face_chunks/chunk_686_Mouse_up_and_mouse_down_events.md
+/private/tmp/about_face_chunks/chunk_687_Trackpads__trackballs__and_ges.md
+/private/tmp/about_face_chunks/chunk_688_Cursors.md
+/private/tmp/about_face_chunks/chunk_689_Selection.md
+/private/tmp/about_face_chunks/chunk_690_Command_ordering_and_selection.md
+/private/tmp/about_face_chunks/chunk_691_Discrete_and_contiguous_select.md
+/private/tmp/about_face_chunks/chunk_692_Mutual_exclusion.md
+/private/tmp/about_face_chunks/chunk_693_Additive_selection.md
+/private/tmp/about_face_chunks/chunk_694_Group_selection.md
+/private/tmp/about_face_chunks/chunk_695_Visual_indication_of_selection.md
+/private/tmp/about_face_chunks/chunk_696_Insertion_and_replacement.md
+/private/tmp/about_face_chunks/chunk_697_Drag_and_drop.md
+/private/tmp/about_face_chunks/chunk_698_Visual_feedback_for_drag_and_d.md
+/private/tmp/about_face_chunks/chunk_699_Indicating_drag_pliancy.md
+/private/tmp/about_face_chunks/chunk_700_Indicating_drop_candidacy.md

@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_331_making_smart_products_work_task_coherence",
+      "label": "Task Coherence",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_331_Making_smart_products_work.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_332_decision_set_reduction_decision_set_reduction",
+      "label": "Decision-set reduction",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_332_Decision_set_reduction.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_333_preference_thresholds_preference_thresholds",
+      "label": "Preference thresholds",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_333_Preference_thresholds.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_336_social_products_know_the_diffe_social_norms",
+      "label": "Social norms",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_336_Social_products_know_the_diffe.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_336_social_products_know_the_diffe_market_norms",
+      "label": "Market norms",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_336_Social_products_know_the_diffe.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_342_social_products_help_networks__dunbars_number",
+      "label": "Dunbar's number",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_342_Social_products_help_networks_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_345_social_products_deal_appropria_griefers",
+      "label": "Griefers",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_345_Social_products_deal_appropria.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_346_platform_and_posture_platform",
+      "label": "Platform",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_346_PLATFORM_AND_POSTURE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_346_platform_and_posture_posture",
+      "label": "Posture",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_346_PLATFORM_AND_POSTURE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_350_sovereign_posture_sovereign_posture",
+      "label": "Sovereign posture",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_350_Sovereign_posture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_332_decision_set_reduction_decision_set_reduction",
+      "target": "about_face_chunks_chunk_331_making_smart_products_work_task_coherence",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_332_Decision_set_reduction.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_333_preference_thresholds_preference_thresholds",
+      "target": "about_face_chunks_chunk_331_making_smart_products_work_task_coherence",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_333_Preference_thresholds.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_336_social_products_know_the_diffe_social_norms",
+      "target": "about_face_chunks_chunk_336_social_products_know_the_diffe_market_norms",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_336_Social_products_know_the_diffe.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_346_platform_and_posture_posture",
+      "target": "about_face_chunks_chunk_346_platform_and_posture_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_346_PLATFORM_AND_POSTURE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_350_sovereign_posture_sovereign_posture",
+      "target": "about_face_chunks_chunk_346_platform_and_posture_posture",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_350_Sovereign_posture.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

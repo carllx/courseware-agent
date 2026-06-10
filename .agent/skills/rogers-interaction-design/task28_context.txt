@@ -1,0 +1,104 @@
+Node: Usable Security
+Primary concept extracted from chunk
+# Usable Security
+
+Security is one  requirement that most users and  designers will agree  is important, to some degree or another, for all products. The wide range of security breaches, in particular of individuals’ private data, that have occurred in recent years has heightened everyone’s awareness of the need to be secure. But what does this mean for interaction design, and how can security measures be suitably robust, while not detracting from the user experience? As long ago as 1999, Anne Adams and Angela Sasse (1999) discussed the need to investigate the usability of security mechanisms and to take a user-centered approach to security. This included informing users about  how to choose a secure password, but it also highlighted that ignoring a usercentered perspective regarding security will result in users circumventing security mechanisms.
+
+Since then, usable security and  the  role of users  in maintaining  secure practices  have become wide-ranging topics of concern (Lennartsson et al., 2020). While work on passwords continues to be relevant, other areas researched include whether and how to embed security mechanisms without affecting usability, how to encourage users to pay attention to security warnings and advice, and the effect of good design on security behavior.
+
+For  example, Riccardo Focardi  et al.  (2019) investigated whether  embedding  cryptographic information in QR codes, in order to increase security, would affect the codes’ usability. Defining usability  as effectiveness, efficiency, and satisfaction, they found that it was possible for certain algorithms to be incorporated into QR codes and for them to remain usable. Distler et al. (2019) focused on a wider view of user experience than just usability. They used two versions of an e-voting application to compare the impact of showing security information versus keeping the information hidden and suggested recommendations for designing
+
+technologies with security requirements. One of their  surprising results was that hiding the security mechanisms, and  hence making the  process of e-voting simpler and quicker, made some participants feel that the voting activity had become too “banal.” Encouraging users to pay attention to security advice and warnings was the focus of work by Otto Hans-Martin Lutz and colleagues (2020) and  Dezhi Wu et al. (2020). In the  former study, the researchers found that adding sounds to password feedback (sonification) could improve password strength and security awareness. Dezhi Wu and colleagues found that mobile security notifications that irritate users can negatively influence their perceptions of an app’s security.
+
+Similarly, good design can also have an undesirable effect on security. For example, Milica Stojmenović and colleagues (2022) found that users rely on visual appeal when making security judgments about websites.  In their study, security and usability ratings  of websites were strongly influenced by visual appeal even where the web certificate status indicated that the site was not secure.
+
+For a description of usable security and the relationship between usability and security, see www.ncsc.gov.uk/blog-post/security-and-usability-- you-can-have-it-all-.
+---
+Node: ACTIVITY 11.1
+Primary concept extracted from chunk
+# ACTIVITY 11.1
+
+Suggest some key requirements in each category (functional, data, environmental, user characteristics, usability goals, and user experience goals) for each of the following situations:
+
+1. An interactive product for navigating around a shopping center, to run on a smartphone   
+2. A wearable interactive product to measure glucose levels for an individual with diabetes
+---
+Node: chapter 29 References chunk 000 References 12
+Primary concept extracted from chunk
+Dalrymple,  B. (2018)  Cognitive  Walkthroughs. medium.com/user-research/cognitive-walkthroughs-b84c4f0a14d4.   
+Dalton, N.S., Collins, E., and Marshall, P.  (2015) Display Blindness?: Looking Again at the Visibility of Situated Displays Using Eye-Tracking. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI ’15). ACM, New York, NY, pp. 3889–3898.   
+de Souza, C.S., Cerqueira, R., Afonso, L., Brandão, R., and Ferreira, J. (2016) Software Developers as Users: Semiotic Investigations in Human-Centered Software Development. Springer.   
+Deng, A., and Shi, X. (2016) Data-Driven Metric Development for Online Controlled Experiments: Seven Lessons Learned. In Proceedings of 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD ’16), pp. 77–86.   
+Deng, A., Dmitriev, P., Gupta, S., Raff, R. K. P., and Vermeer, L. (2017) A/B Testing at Scale: Accelerating Software Innovation. In Proceedings of Special Interest Group on Information Retrieval ’17, pp. 1397–1397.   
+Deng, L., and Huang, X. (2004) Challenges in Adopting Speech  Recognition, Communications of the ACM, 47(1), 69–75.   
+Denzin, N. (2006) Sociological Methods: A Sourcebook. Aldine Transaction (5th edn), ISBN 9780–202308401.   
+Denzin,  N.  K., and  Lincoln, Y.  S.  (2011)  The  SAGE Handbook  of  Qualitative  Research. SAGE Publications.   
+Deshpande, A., and  Sharp, H. (2022)  Responsible AI  Systems: Who  are the Stakeholders? In Proceedings of the 2022 AAAI/ACM  Conference on AI, Ethics, and Society (AIES ’22). ACM, NY, 227–236.   
+Deshpande, A., Sharp, H., Barroca, L., and Gregory, A. J. (2016) Remote Working and Collaboration in Agile Teams. In Proceedings of International Conference on Information Systems, pp. 4543–4559.   
+Díaz, G. A. M. (2020) Discourse Analysis, Crossroads, 27(1), 38–41.   
+Dietz, P.  H.,  and  Leigh, D.  L. (2001)  DiamondTouch: A  Multi-User  Touch Technology. In Symposium  on  User  Interface  Software  and  Technology (UIST).  ACM, New  York,  NY, pp. 219–226.   
+Diez, T.,  and  Posada, A. (2013)  The  Fab  and  the  Smart  City: The  Use  of  Machines  and Technology for the City Production by Its Citizens. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction, ACM Press, pp. 447–454.   
+Di Geronimo, L., Braz, L., Fregnan, E., Palomba, F., and Bacchelli, A. (2020) UI Dark Patterns and Where to Find Them: A Study on Mobile Applications and User Perception. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20). Association for Computing Machinery, New York, NY, USA, pp. 1–14.   
+DiSalvo, C., Sengers, P., and Brynjarsdottir, H. (2010) Mapping the Landscape of Sustainable HCI. In Proceedings of CHI 2010. ACM, New York, NY, pp. 1975–1984.   
+Distler, V., Zollinger, M.-L., Lallemand, C., Roenne, P.B., Ryan, P. Y. A., and Koenig, V.  (2019) Security - Visible, Yet  Unseen? How Displaying Security Mechanisms Impacts User Experience and Perceived Security. In Proceedings of CHI 2019, Paper 605, pp. 1–13.   
+Dix, A. (2022) Statistics for HCI: making sense of quantitative data. Springer.
+---
+Node: chapter 29 References chunk 000 References 13
+Primary concept extracted from chunk
+Douglas,  H.E.,  Raban,  M.  Z., Walter,  S.  R.,  and  Westbrook.  J. I.  (2017)  Improving  Our Understanding of Multi-Tasking in Healthcare: Drawing Together the Cognitive Psychology and Healthcare Literature. Applied Ergonomics, Volume 59, Part A, 45–55.   
+Dourish,  P.  (2001)  Where  the Action  Is: The  Foundations  of Embodied  Interaction. MIT Press, Cambridge, MA.   
+Dourish, P., and Bly, S. (1992) Portholes: Supporting Awareness in a Distributed Work Group. In Proceedings of CHI ’92. ACM, New York, NY, pp. 541–547.   
+Drascic, D., and Milgram, P.  (1996) Perceptual Issues in Augmented Reality. In M. T.  Bolas, S. S. Fisher,  and J. O.  Merritt (eds.)  SPIE Volume 2653: Stereoscopic  Displays  and Virtual Reality Systems III. SPIE, San Jose, CA, pp. 123–134.   
+Dray,  S.,  and  Siegel,  D.  (2004)  Remote  Possibilities?  International  usability  testing  at  a distance. Interactions, 11, 10–17.   
+DScout (2022) Mobile Touches. Accessed 6th  July 2022. Available from  pages.dscout.com/ mobile-touches-download-form.   
+DSDM (2014) The DSDM Agile Project Framework Handbook, DSDM Consortium, Kent, UK, ISBN 978–0-9544832–9-6.   
+Dubber, M., Pasquale, F., and Dunit, S. (2020) The Oxford Handbook of Ethics of AI. Oxford University Press, UK.   
+Dumas, B., Lalanne, D., and Oviatt, S. (2009) Multimodal Interfaces: A Survey of Principles, Models and Frameworks. Human Machine Interaction Lecture Notes in Computer Science, 5440, 3–26.   
+Dumas, J. S., and Redish, J. C. (1999) A Practical Guide to Usability Testing (rev. edn). Intellect, Exeter.   
+Eason,  K. (1987)  Information Technology and  Organizational  Change. Taylor and  Francis, London.   
+Eason, K. (2014) Afterword: The Past, Present, and Future of Sociotechnical Systems Theory. Applied Ergonomics, 45, 213–220.   
+Eckert, C., and Stacey M. (2000) Sources of Inspiration: a language of design, Design Studies, 21(5), 523–538.   
+Educause (2016) The 2016 Horizon Report. Downloaded from library.educause.edu/topics/ teaching-and-learning/learning-analytics.   
+Effendy, V., Novantirani, A., and Sabariah, M. K. (2018) Sentiment analysis on Twitter about the  use  of  city  public  transportation  using  support  vector  machine  method,  Intl.  J. ICT, 2(1), 57–66.   
+Eggers, D. (2013) The Circle. Knopf.   
+Ehsan, U., Liao, Q.V., Muller, M., Riedl, M. O., and Weisz. J. D. (2021) Expanding Explainability:  Towards  Social  Transparency  in  AI  systems.  In  Proc.  CHI  ’21.  ACM, NY,  Article 82, 1–19.   
+Eleftherios, T., and Shivin, L. (2021) The Challenges in Modeling Human Performance in 3D Space with Fitts’ Law. In Proceedings of CHI EA ’21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, pp. 1–9.   
+Elgersma, C. (2021) Virtual Field Trips Full of Learning Potential, www.commonsense.org/ education/articles/virtual-field-trips-full-of-learning-potential.
+---
+Node: chapter 29 References chunk 000 References 14
+Primary concept extracted from chunk
+Eliot, C., and Woolf, B. (1994) Reasoning about the User Within a Simulation-Based Real-Time Training System. In  Proceedings of  4th International  Conference on  User Modeling, Mitre Corp., Bedford, MA.   
+Elrod, S., Bruce, R., Gold, R., Goldberg, D., Halasz, F., Janssen, W., Lee, D., McCall, K., Pedersen, E., Pier, K., Tang, J., and Welch, B. (1992) Liveboard: A Large Interactive Display Supporting Group Meetings, Presentations and Remote Collaboration. In Proceedings of CHI ’92. ACM, New York, NY, pp. 599–607.   
+Empson, R. (2012)  Google  Biz  Chief:  Over  10M Websites  Now  Using  Google Analytics. Retrieved from techcrunch.com/2012/04/12/google-analytics-officially-at-10m.   
+Erickson,  T.,  and  Kellogg, W.  A.  (2000)  Social  Translucence:  An  Approach  to  Designing Systems  that  Support  Social  Processes,  Transactions of  Computer-Human  Interaction,  7 (1), 59–83.   
+Erickson, T.  D.  (1990)  Working  with  Interface  Metaphors.  In  B. Laurel  (ed.)  The  Art  of Human–Computer Interface Design. Addison-Wesley, Boston.   
+Erickson, T. D., Smith, D. N., Kellogg, W. A., Laff, M., Richards, J. T., and Bradner, E. (1999) Socially Translucent Systems: Social Proxies, Persistent Conversation and the Design of ‘Babble’. In Proceedings of CHI ’99, pp. 72–79.   
+Ericsson,  K.A.,  &  Simon,  H.  A.  (1984)  Protocol  analysis:  Verbal reports  as  data.  The MIT Press.   
+Ettinger, K., and Cohen, A. (2020) Patterns of multitasking behaviours of adolescents in digital environments. Educ Inf Technol 25, 623–645.   
+Eysenck, M., and Brysbaert, M. (2018) Fundamentals of Cognition. $3 ^ { \mathrm { r d } }$ edition. Routledge.   
+Fairbanks,  G.  (2020)  The  Pragmatic  Designer:  Ur-Technical Debt,  IEEE  Software,  July– August, 37(4).   
+Falk,  J.,  and Young, F.  (2022)  Supporting  Fast  Design:  The  Potential  of  Hackathons  for Co-Creative Systems. In Creativity and Cognition (C&C ’22), ACM, New York, NY,  USA, pp. 515–519.   
+Fang,  X.,  Semertzidis,  N.,  Scary, M., Wang,  X.,  Andres,  J.,  Zambetta,  F.,  and  Mueller, F. (2021)  Telepathic Play: Towards  Playful  Experiences  Based  on  Brain-to-brain  Interfacing. In Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play (CHI PLAY ’21). ACM, New York, NY, USA, pp. 268–273.   
+Fernaeus, Y., and Tholander, J. (2006) Finding Design Qualities in a Tangible Programming Space. In Proceedings of CHI 2006. ACM, New York, NY, pp. 447–456.   
+Fernández-Luque, F., Zapata, J., Ruiz, R., and Iborra, E. (2009) A Wireless Sensor Network for Assisted Living  at Home of Elderly  People, Lecture  Notes in  Computer Science, 5602. Springer-Verlag, Berlin, Heidelberg, pp. 65–74.   
+Ferreira, J.,  Sharp, H.,  and  Robinson, H.  (2012)  Agile  Development and  User  Experience Design Integration  as an On-going Achievement in Practice. In Proceedings of Agile 2012, Dallas, Texas.   
+Ferreira, J., Sharp, H., and Robinson, H. M. (2011) User Experience Design and Agile Development: Managing Cooperation Through Articulation Work. In Software Practice and Experience, 41(9), 963–974.
+---
+Node: chapter 29 References chunk 000 References 15
+Primary concept extracted from chunk
+Fetterman, D.  M.  (2020)  Ethnography:  Step  by Step. 4 th  edition.  Applied  Social  Research Methods Series, Vol. 17. SAGE.   
+Fialho, P., and Coheur, L. (2015) ChatWoz: Chatting through a Wizard of Oz. In Proceedings of  the  17th  International  ACM  SIGACCESS  Conference  on  Computers  and  Accessibility (ASSETS ’15). ACM, New York, NY, pp. 423–424.   
+Fido  Alliance  (2022)  Apple,  Google  and  Microsoft  Commit  to  Expanded  Support  for FIDO  Standard  to  Accelerate  Availability  of  Passwordless Sign-Ins.  Downloaded  from fidoalliance.org/apple-google-and-microsoft-commit-to-expanded-support-for-fidostandard-to-accelerate-availability-of-passwordless-sign-ins.   
+Fischer, B., Peine, A., and Östlund, B. (2020) The Importance of User Involvement: A Systematic Review of Involving Older Users in Technology Design. Gerontologist, 60(7), e513–e523.   
+Fish, R. S., Kraut, R. E., and Chalfonte, B. L. (1990) The VideoWindow system in informal communication. In Proceedings of CSCW ’90. ACM, New York, 1–11.   
+Fishkin, K. P. (2004) A Taxonomy for and Analysis of Tangible Interfaces, Personal and Ubiquitous Computing, 8, 347–358.   
+Fiske, J. (1994) Audiencing: Cultural Practice and Cultural Studies. In N. K. Denzin and Y.  S. Lincoln (eds.) Handbook of Qualitative Research. SAGE, Thousand Oaks, CA, pp. 189–198.   
+Fitts,  P.  M. (1954) The Information  Capacity of the  Human  Motor  System  in Controlling Amplitude of Movement, Journal of Experimental Psychology, 47, 381–391.   
+Flanagan, J. C. (1954) The Critical Incident Technique, Psychological Bulletin, 51, 327–358.   
+Focardi, R., Luccio, F. L., and Wahsheh, H. A. M. (2019) Usable security for QR code, Journal of Information Security and Applications, 48, 102369.   
+Fogg, B. J. (2009) A Behavior Model for Persuasive Design. In Proceedings of the 4th International Conference on Persuasive Technology (Persuasive ’09). ACM, New York, NY, Article 40, 7 pages.   
+Follmer, S.,  Leithinger,  D.,  Olwal, A., Hogge, A., and  Ishii, H.  (2013)  inFORM:  Dynamic Physical  Affordances  and  Constraints  through  Shape  and  Object  Actuation.  In  Proceedings of the 26th annual ACM symposium on User interface software and technology. ACM, New York, NY, USA, pp. 417–426.   
+Folmer,  E., Yuan,  B.,  Carr,  D.,  and  Sapre, M.  (2009)  TextSL:  A  Command-Based  Virtual World Interface for the Visually Impaired. In Proceedings 11th international ACM SIGAC-CESS Conference on Computers and Accessibility, pp. 59–66.   
+Fontana, A., and Frey, J. H. (2005). The Interview: From Neutral Stance to Political Involvement. In N. K. Denzin and Y. S. Lincoln (eds.) The SAGE Handbook of Qualitative Research. 3rd edition, pp. 695–727. Thousand Oaks, CA: SAGE.   
+Foong, E., Gergle, D., and Gerber, E. M. (2017) Novice and Expert Sensemaking of Crowdsourced  Feedback.  In  Proceedings  of  the  ACM  on  Human-Computer  Interaction,  1,  2, Article 45.   
+Ford, E., Shepherd, S., Jones, K., and Hassan, L. (2021) Toward an Ethical Framework for the Text Mining of  Social  Media for Health  Research: A  Systematic Review.  Front. Digit. Health, 2, 592237.

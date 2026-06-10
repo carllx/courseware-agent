@@ -1,0 +1,79 @@
+OUTPUT_FILE: /Users/yamlam/Downloads/carllx-skills/.agent/skills/interaction-design-Rogers/references/workflows/11_4_3__brainstorming_for_inno.md
+
+CONTEXT:
+Node: 11.4.3  Brainstorming for Innovation
+Primary concept extracted from chunk
+# 11.4.3  Brainstorming for Innovation
+
+Requirements will be underpinned by the data gathered, but the requirements activity is also likely  to  involve  some  innovation. Brainstorming  is  a  generic  technique  used  to  generate, refine, and develop ideas. It is widely used in interaction design to explore the problem space and generate alternative designs or for suggesting new and better ideas to support people in their everyday and working lives.
+
+The origins of brainstorming can be traced back to Alex Osborn in the late 1930s (Snyder, 2021), who introduced  it into his US  advertising  agency to  help his  employees generate creative ideas. Osborn suggested four rules for brainstorming, each of which reinforces the others.
+
+Quantity over quality: This encourages divergent thinking. The more ideas that are generated, the more there are to consider merging, developing, and refining.   
+. Criticisms should  be withheld: This encourages people to focus on  generating ideas  and not worry about coming up with anything “dumb.”   
+Encourage out-of-the-box thinking: This encourages unorthodox ideas. Even if the ideas are  obviously  impractical  from  the  start,  they  may  trigger  other  thoughts  and  generate ideas that would not have been considered without that prompt.   
+• Combine, refine, and improve ideas: This encourages convergent thinking. Ideas are considered, combined, modified, and fused to produce novel insights and even more ideas.
+
+The fourth rule, to combine refine and improve ideas, is sometimes overlooked but this convergent step is important to discover concrete requirements.
+
+Despite  its  seemingly free-form  character, brainstorming  sessions  need  careful facilitation,  planning, and  preparation. This  includes  setting  out  a  well-honed  focus  or  problem
+
+definition, using  a range of catalysts or  prompts to help people  think from a different perspective  (this  can  be  a  physical  object(s)  or  a  random  word,  for  example), and  choosing between 5 and 12 participants who know who they are designing for and have a range of experience.
+---
+Node: 11.5 Bringing Requirements to Life: Personas and Scenarios
+Primary concept extracted from chunk
+# 11.5 Bringing Requirements to Life: Personas and Scenarios
+
+Using a format such as the Volere shell (see Figure 11.1) or user stories captures the essence of a requirement, but neither of them is sufficient on their own to express and communicate the product’s purpose and vision. Both can be augmented with other representations such as prototypes, working systems, screenshots, conversations, acceptance criteria, diagrams, documentation, and so on. Which of these is required, and how many of each, will be determined by the kind of system under  development. In some cases, capturing different aspects of the intended product in more formal or structured representations is appropriate. For example, when developing safety-critical  devices, the functionality, user  interface, and interaction of the system need to be specified unambiguously and precisely. Sapna Jaidka et al. (2017) suggest using the Z formal notation (a mathematically based specification language) and petri nets  (a  notation  for modeling  distributed  systems  based  on  directed graphs)  to  model  the interaction behavior of medical infusion pumps. Harold Thimbleby (2015) pointed out that using a formal expression of requirements for number entry user interfaces such as calculators, spreadsheets, and medical devices could avoid bugs and inconsistencies.
+
+Two techniques that are commonly used together to augment basic requirements information and to bring requirements to life are personas and scenarios. A persona characterizes someone who might use the product while a scenario describes one use of a product or one example of achieving a goal. Some designers prefer to develop the personas first, and some prefer to write the scenarios first, but often they are developed in parallel. Developing distinctive personas and scenarios can be difficult at first, and it is common for initial narratives to conflate details of the person with details of the scenario. Thinking about the persona’s goal for the scenario helps to scope the scenario to one use of the product.
+
+When  used in  combination, personas  and scenarios  complement each other  and bring realistic  detail that  allows  the  design  team  to explore  current  activities, future use  of  new products,  and  futuristic  visions  of  new  technologies.  Figure  11.5  depicts  the  relationship between them graphically.
+
+This article by Jared Spool explains why personas on their own are not enough and why scenarios also need to be developed: medium.com/user-interface-22/when-it-comes-to-personas-thereal-value-is-in-the-scenarios-4405722dd55c.
+
+Figure 11.5 The relationship between a scenario and its associated persona   
+![](images/27fb0c9a1cd0b9a3eead561540c3db64a8fad24a3857cd121861aaec84f0df2a.jpg)
+
+Source: www.smashingmagazine.com/2014/08/06/a-closer-look-at-personas-part-1. Reproduced with permission of Smashing Magazine
+---
+Node: 11.5.1  Personas
+Primary concept extracted from chunk
+# 11.5.1  Personas
+
+Personas (Cooper, 1999) describe typical users of the product under development on which the designers can focus and for which they can design products. Personas are a widely used and effective way to communicate user characteristics and goals to designers and developers and to remind them that users of their products may be unlike themselves. They don’t describe specific people but  represent a synthesis of a number of people who have been involved  in data gathering. Each persona is characterized by a unique set of goals relating to the product under  development  and  is not  a  job  description or  a simple demographic. This is  because goals often differ among people within the same job role or the same demographic.
+
+In addition to their goals, a persona will include a description of relevant behavior, attitudes, activities, and environment. These items are all specified in some detail. For instance, instead of describing someone simply  as a competent sailor, the persona includes that they have completed a Day Skipper qualification, have more than 100 hours of sailing experience in and around European waters, and get irritated by other sailors who don’t follow the navigation rules. It is the addition of precise, credible, and relevant details that helps designers to see the personas as real people for whom they can design.
+
+Madeline Hallewell et al. (2022) wanted to identify key requirements for a future autonomous taxi service. In particular, they wanted to explore how people will be supported to use such a service, when there is no driver to help. For example, previous research has found that automatic door opening is not as convenient for some people as having the driver open the door and help the passenger enter the vehicle (Kim et al. 2019).
+
+The researchers  contacted people who use  taxis at least twice a year,  including  people from  a  range  of  ages, those  with  diverse  accessibility  requirements  including  hearing  and physical disability, and those who regularly travel with a dependent. Thirty-five interviews were conducted. Participants  completed a short  demographic questionnaire  and then took part in an hour-long interview. The interview was based around both positive and negative critical incidents of taxi  use and asked participants to talk through the process  of using the taxi. Participants were given key words to help identify stages of the process, e.g., booking and pickup, and they were prompted to think of tasks associated with the stages. Researchers made notes and audio-recorded the interviews. From these interviews and supported by relevant literature, a set of eight personas and 13 scenarios (see Section 11.5.2) were drafted together. This was achieved through a combination of task analysis and thematic analysis of the interview  data, enriched by  research papers. These  initial  personas and  scenarios were presented to the project partners, and comments were used to refine them. Figure 11.6 shows two of the personas derived from this work.
+
+These personas and scenarios were then used as the basis for a workshop that extracted key requirements, captured in Volere shells (see Figure 11.1).
+
+The style of personas varies, but commonly they include a name and photograph, plus key goals, user quotes, behaviors, and some background information. A product will usually require a set of personas rather than just one, but it may be helpful to choose a few, or maybe only one, primary persona.
+
+The details included in a persona can be influential in the design process. For example, Joni Salminen et al (2022) investigated the effect of using happy or unhappy photographs in a persona. They  found that unhappy images increased participant’s  perceptions of the persona’s realism and severity of pain points, while personas with happy images were perceived as being more extroverted, agreeable, open, conscientious, and emotionally stable. In general, a good persona does the following:
+
+•  Helps the designer make design decisions by understanding whether it will help or hinder someone using the product.   
+? Supports the kind of reasoning that says, “What would Bill (persona 1) do in this situation with the product?” and “How would Clara (persona 2) respond  if the product  behaved this way?”   
+• Contains only  information that is  pertinent to the product  being developed. It does  not attempt to capture the whole person but is only a lens to highlight relevant attitudes and specific  context  associated  with  the  focus  (Nielsen, 2019).  For  example, personas  for a shared travel organizer would focus on  travel-related behavior and attitudes rather than the newspapers the personas read or where they buy their clothes. On the other hand, personas for a shopping center navigation system might consider these aspects.
+
+![](images/02fab47cd002adcfe80865e9a57b45069b5698a3c1974364432c397feb621895.jpg)  
+Figure5.Examplepersona "Lena." Photo by RODNAEProductions from Pexels.
+
+![](images/034c05725ded424751204352f7dc34709fe74f04fe94f4f8c94914c982ac6bdb.jpg)  
+Figure6.ExamplepersonaJulien.Photoby ELEVATE from Pexels.   
+Figure 11.6 Two of the eight personas derived for the autonomous taxi service Source: Hallewell, et al. (2022) Deriving Personas to Inform HMI Design for Future Autonomous Taxis: A Case Study on User Requirement Elicitation, Journal of Usability Studies, 17(2), 41–64
+
+Based  on their experiences  of  developing  three shopping  coupon  personas, Shazeeye Kirmani et al. (2019) propose a number of tips for developing personas within a business context. These  include  the  importance  of  using different  communication  documents  for different  audiences,  such  as  videos  for  senior  managers,  and  demographics,  needs,  and goals for marketing; and  using different data gathering methods to get  a holistic view of the personas.
+
+This video discusses the scope of personas: www.youtube.com/watch?v=XVaiNayTi8U
+---
+Node: ACTIVITY 11.3
+Primary concept extracted from chunk
+# ACTIVITY 11.3
+
+Develop  two  personas for  a group  travel organizer  app  that supports a  group  of people, perhaps a family, who are exploring vacation possibilities together. Use the common persona structure of a photo and name, plus key goals, user quotes, behaviors, and some background information. Personas are based on real people, so choose friends or relatives that you know well to construct them.
+
+These can be drawn by hand, or they can be developed in PowerPoint, for example. There are also several tailorable persona templates available online that can be used instead.

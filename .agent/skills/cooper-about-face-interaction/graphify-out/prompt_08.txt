@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=8, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_08.json
+FILES:
+/private/tmp/about_face_chunks/chunk_176_Served_personas.md
+/private/tmp/about_face_chunks/chunk_177_Negative_personas.md
+/private/tmp/about_face_chunks/chunk_178_Step_8__Expand_the_description.md
+/private/tmp/about_face_chunks/chunk_179_The_persona_narrative.md
+/private/tmp/about_face_chunks/chunk_180_In_summary_.md
+/private/tmp/about_face_chunks/chunk_181_The_persona_photo.md
+/private/tmp/about_face_chunks/chunk_182_Personas_in_Practice.md
+/private/tmp/about_face_chunks/chunk_183_Misconceptions_about_personas.md
+/private/tmp/about_face_chunks/chunk_184_Designers__make_up__personas.md
+/private/tmp/about_face_chunks/chunk_185_Persons_aren_t_as_useful_as_in.md
+/private/tmp/about_face_chunks/chunk_186_People_don_t_do_tasks.md
+/private/tmp/about_face_chunks/chunk_187_Personas_are_traceable.md
+/private/tmp/about_face_chunks/chunk_188_Quantifying_personas.md
+/private/tmp/about_face_chunks/chunk_189_Organizational__persons_.md
+/private/tmp/about_face_chunks/chunk_190_When_resources_are_limited__pr.md
+/private/tmp/about_face_chunks/chunk_191_Other_Design_Models.md
+/private/tmp/about_face_chunks/chunk_192_Work_flow_models.md
+/private/tmp/about_face_chunks/chunk_193_Artifact_models.md
+/private/tmp/about_face_chunks/chunk_194_Physical_models.md
+/private/tmp/about_face_chunks/chunk_195_Notes.md
+/private/tmp/about_face_chunks/chunk_196_SETTING_THE_VISION__SCENARIOS_.md
+/private/tmp/about_face_chunks/chunk_197_Bridging_the_Research_Design_G.md
+/private/tmp/about_face_chunks/chunk_198_Scenarios__Narrative_as_a_Desi.md
+/private/tmp/about_face_chunks/chunk_199_Scenarios_versus_use_cases_and.md
+/private/tmp/about_face_chunks/chunk_200_Scenario_based_design.md

@@ -1,0 +1,137 @@
+exp_id: 1
+name: Jobs to be Done 的反弹陪练
+type: 设计性
+hours: 2
+group_size: 1
+requirement: 必做
+summary: 运用深度访谈五步法与 AI 陪练进行对战，挖掘真实痛点，提炼 JTBD。
+method_theory: |
+  1. 规范化制作：规范网页自动布局，通过Figma代码插件将内容以代码形式转入VS Code进行交互开发。
+  2. AI工具辅助：利用AI工具（如CodeGeex、DeepSeek、ChatGPT）辅助进行沉浸式访谈与痛点挖掘。
+objectives: |
+  （一）掌握 JTBD（Jobs-to-be-Done）待办任务框架的三维度分析方法——功能任务、社会任务、情感任务，能在访谈中准确识别用户的多层需求。
+  （二）掌握 5-Whys 连环追问法，能对用户的表层回答进行至少三层深度追问，逐步剥离表象，逼近问题根因。
+  （三）理解 言行鸿沟 (Say-Do Gap) 现象，能在模拟访谈中识别用户给出的「社会期望答案」与其真实行为之间的偏差。
+  （四）掌握 Problem Statement 问题陈述公式——「【具象用户】非常需要【动词+任务】，因为【深层动机】」，能将零散痛点锻压为结构化陈述。
+  （五）熟悉 深度访谈五步法（破冰→探寻→剥洋葱→还原→收拢）的完整流程，建立结构化的用户研究方法论。
+equipment: |
+  1. 硬件：个人计算机（学校机房或自备笔记本）
+  2. 软件平台：AI 对话平台（如DeepSeek、Kimi等）
+  3. 实验材料：教师版系统提示词、学生版实操对战指南
+requirements: |
+  （一）须获取完整对话日志截图（不少于 5 轮有效追问）。
+  （二）须获取 AI 提炼的 JTBD 陈述与核心痛点。
+  （三）须完成实践报告，图文交替排版。
+methods: |
+  1. 注入系统提示词并选择盲盒角色进行反弹对抗。
+  2. 进行情境沉浸提问与 5-Whys 连环追问。
+  3. 提炼并明确用户的核心待办任务 (JTBD)。
+conclusions: |
+  反思访谈深度，总结言行鸿沟等核心概念的实践体会，以及不同提问策略的效果对比。
+steps:
+- id: S1
+  name: 获取系统提示词并注入 AI 平台
+  guide_text:
+  - 请描述你将系统提示词注入 AI 平台的操作过程，并确认 System Prompt 已成功加载。
+  report_prompt:
+  - type: text
+    prompt: |-
+      我使用的 AI 平台是：
+      操作过程：
+  - type: image
+    prompt: 📸 [图 4-1]：（此处粘贴你的操作截图——展示 System Prompt 已成功注入 AI 平台的界面）
+- id: S2
+  name: 选择启动模式与角色
+  guide_text:
+  - 选择启动指令与角色选项，记录 AI 返回的盲盒角色档案。
+  report_prompt:
+  - type: text
+    prompt: |-
+      我输入的启动指令：
+      我选择的角色：
+      AI 返回的基础档案摘要：
+  - type: image
+    prompt: 📸 [图 4-2]：（此处粘贴截图——AI 返回的角色选项列表和/或盲盒角色档案）
+- id: S3
+  name: 破冰与情境沉浸提问
+  guide_text:
+  - 记录你的破冰提问及 AI 的回应，分析你的提问策略是否有效。
+  report_prompt:
+  - type: text
+    prompt: |-
+      我的第一个提问：
+      AI 的回应要点：
+      分析：这个提问是否触发了 AI 的情境沉浸回应？是否避免了封闭式提问？
+  - type: image
+    prompt: 📸 [图 4-3]：（此处粘贴截图——展示你的破冰对话片段，标注关键提问句）
+- id: S4
+  name: 5-Whys 连环追问——剥洋葱
+  guide_text:
+  - 记录你的 5-Whys 追问链路，标注每一层 Why 的追问逻辑和 AI 的反应变化。
+  report_prompt:
+  - type: text
+    prompt: |-
+      追问链路记录：
+      Why-1：
+      Why-2：
+      Why-3：
+      Why-4：
+      Why-5：
+      在第 ____ 层追问时，AI 角色的语气发生了明显变化（从 Layer 2 进入 Layer 3）。
+  - type: image
+    prompt: 📸 [图 4-4]：（此处粘贴截图——展示你的 5-Whys 连环追问的完整对话片段）
+  - type: text
+    prompt: 分析：在追问过程中，你是否识别出了 Say-Do Gap？AI 角色的「表象方案」是什么？被击穿后暴露的「情感核心」是什么？
+- id: S5
+  name: 使用 /coach 请求教练帮助（如有使用）
+  guide_text:
+  - 如果在访谈过程中使用了 /coach，记录教练给出的诊断和建议。
+  report_prompt:
+  - type: text
+    prompt: |-
+      教练诊断我处于 Layer ____
+      教练的建议要点：
+      我根据建议调整了提问策略：
+  - type: image
+    prompt: 📸 [图 4-5]：（此处粘贴截图——教练反馈界面。如未使用 /coach，可写“本次访谈未使用 /coach”）
+- id: S6
+  name: 输入 /总结——获取结构化数据卡
+  guide_text:
+  - 粘贴你获得的完整 Proto-Persona 数据卡截图，并记录关键结果。
+  report_prompt:
+  - type: text
+    prompt: |-
+      AI 评级：⭐ × ____
+      达到层级：Layer ____
+      四大模块摘要：
+      模块一（背景档案）：
+      模块二（行为核心特征）：
+      模块三（JTBD 三维任务拆解）：
+      模块四（痛点陈述 Problem Statement）：
+  - type: image
+    prompt: 📸 [图 4-6]：（此处粘贴截图——完整的四大标准模块数据卡输出）
+- id: S7
+  name: 保存实验成果
+  guide_text:
+  - 确认已保存所有实验材料，并说明文件组织方式。
+  report_prompt:
+  - type: text
+    prompt: |-
+      已保存的材料清单：
+      [ ] 对话日志截图（____ 张）
+      [ ] /总结 数据卡文本/截图
+      [ ] /coach 教练反馈截图（如有）
+analysis_prompts:
+- '[访谈深度反思：你最终达到了 AI 陪练的哪个层级？获得了几星评级？影响你访谈深度的关键因素是什么？]'
+- '[核心概念实践体会：在本次访谈中，你对以下哪个知识点有了更深的理解？（言行鸿沟 Say-Do Gap / 5-Whys 连环追问法 / JTBD 三维度任务拆解）请结合具体的对话片段说明。]'
+- '[提问策略总结：哪些提问最有效地推动了访谈深入？哪些提问导致了 AI 角色的敷衍回应？]'
+grading_rubric:
+- dimension: 角色设定与情境带入
+  points: 20
+  standard: 场景设定真实合理，成功引导AI进入用户角色状态。
+- dimension: 追问深度与技巧
+  points: 40
+  standard: 至少进行了5轮有逻辑的深度追问，准确识别Say-Do Gap，未停留在表层。
+- dimension: JTBD提炼准确性
+  points: 40
+  standard: 三维度分析全面，核心JTBD陈述完全符合公式规范，达到较高AI评级层级。

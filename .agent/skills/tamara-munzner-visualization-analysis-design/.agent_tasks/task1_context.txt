@@ -1,0 +1,2292 @@
+Node: Contents
+Primary concept extracted from chunk
+# Contents
+
+
+---
+Node: Preface xv
+Primary concept extracted from chunk
+# Preface xv
+
+Why a New Book? xv
+
+Existing Books . xvi
+
+Audience xvii
+
+Who’s Who xviii
+
+Structure: What’s in This Book xviii
+
+What’s Not in This Book xx
+
+Acknowledgments . xx
+
+# 1 What’s Vis, and Why Do It? 1
+
+1.1 The Big Picture . 1   
+1.2 Why Have a Human in the Loop? 2   
+1.3 Why Have a Computer in the Loop? . 4   
+1.4 Why Use an External Representation? 6   
+1.5 Why Depend on Vision? . 6   
+1.6 Why Show the Data in Detail? 7   
+1.7 Why Use Interactivity? . . 9   
+1.8 Why Is the Vis Idiom Design Space Huge? 10   
+1.9 Why Focus on Tasks? 11   
+1.10 Why Focus on Effectiveness? . 11   
+1.11 Why Are Most Designs Ineffective? . 12   
+1.12 Why Is Validation Difficult? . 14   
+1.13 Why Are There Resource Limitations? . 14   
+1.14 Why Analyze? . 16   
+1.15 Further Reading 18
+
+# 2 What: Data Abstraction 20
+
+2.1 The Big Picture . . 21   
+2.2 Why Do Data Semantics and Types Matter? 21   
+2.3 Data Types 23   
+2.4 Dataset Types . . . 24
+
+2.4.1 Tables 25   
+2.4.2 Networks and Trees . . 26   
+2.4.2.1 Trees . . 27
+
+2.4.3 Fields 27
+
+2.4.3.1 Spatial Fields 28   
+2.4.3.2 Grid Types 29
+
+2.4.4 Geometry 29   
+2.4.5 Other Combinations . . 30   
+2.4.6 Dataset Availability 31
+
+2.5 Attribute Types . . 31
+
+2.5.1 Categorical 32   
+2.5.2 Ordered: Ordinal and Quantitative . . 32
+
+2.5.2.1 Sequential versus Diverging . . 33   
+2.5.2.2 Cyclic 33
+
+2.5.3 Hierarchical Attributes 33
+
+2.6 Semantics . 34
+
+2.6.1 Key versus Value Semantics 34
+
+2.6.1.1 Flat Tables 34   
+2.6.1.2 Multidimensional Tables 36   
+2.6.1.3 Fields 37   
+2.6.1.4 Scalar Fields 37   
+2.6.1.5 Vector Fields 37   
+2.6.1.6 Tensor Fields 38   
+2.6.1.7 Field Semantics 38
+
+2.6.2 Temporal Semantics . 38
+
+2.6.2.1 Time-Varying Data . . 39
+
+2.7 Further Reading 40
+
+3 Why: Task Abstraction 42
+
+3.1 The Big Picture . 43   
+3.2 Why Analyze Tasks Abstractly? 43   
+3.3 Who: Designer or User 44   
+3.4 Actions . . 45
+
+3.4.1 Analyze . 45
+
+3.4.1.1 Discover . 47   
+3.4.1.2 Present 47   
+3.4.1.3 Enjoy 48
+
+3.4.2 Produce 49
+
+3.4.2.1 Annotate 49   
+3.4.2.2 Record . 49  
+3.4.2.3 Derive 50
+
+3.4.3 Search . 53
+
+3.4.3.1 Lookup 53  
+3.4.3.2 Locate 53   
+3.4.3.3 Browse . 53   
+3.4.3.4 Explore 54
+
+3.4.4 Query 54
+
+3.4.4.1 Identify 54   
+3.4.4.2 Compare . . 55   
+3.4.4.3 Summarize 55
+
+3.5 Targets . . 55   
+3.6 How: A Preview 57
+
+3.7 Analyzing and Deriving: Examples . . 59
+
+3.7.1 Comparing Two Idioms . . 59   
+3.7.2 Deriving One Attribute 60   
+3.7.3 Deriving Many New Attributes . . 62
+
+3.8 Further Reading 64
+
+4 Analysis: Four Levels for Validation 66
+
+4.1 The Big Picture . 67   
+4.2 Why Validate? . 67
+
+4.3 Four Levels of Design 67
+
+4.3.1 Domain Situation 69   
+4.3.2 Task and Data Abstraction . 70   
+4.3.3 Visual Encoding and Interaction Idiom . 71   
+4.3.4 Algorithm 72
+
+4.4 Angles of Attack 73
+
+4.5 Threats to Validity 74   
+4.6 Validation Approaches . 75
+
+4.6.1 Domain Validation . 77   
+4.6.2 Abstraction Validation 78   
+4.6.3 Idiom Validation 78   
+4.6.4 Algorithm Validation . 80   
+4.6.5 Mismatches . 81
+
+4.7 Validation Examples . . 81
+
+4.7.1 Genealogical Graphs 81   
+4.7.2 MatrixExplorer . . 83   
+4.7.3 Flow Maps 85   
+4.7.4 LiveRAC 87   
+4.7.5 LinLog . . 89   
+4.7.6 Sizing the Horizon 90
+
+4.8 Further Reading 91
+
+5 Marks and Channels 94
+
+5.1 The Big Picture . . 95   
+5.2 Why Marks and Channels? 95   
+5.3 Defining Marks and Channels 95
+
+5.3.1 Channel Types . . 99   
+5.3.2 Mark Types . . 99
+
+5.4 Using Marks and Channels . 99
+
+5.4.1 Expressiveness and Effectiveness 100   
+5.4.2 Channel Rankings . . 101
+
+5.5 Channel Effectiveness . 103
+
+5.5.1 Accuracy 103   
+5.5.2 Discriminability 106   
+5.5.3 Separability . . 106   
+5.5.4 Popout . . . 109   
+5.5.5 Grouping 111
+
+5.6 Relative versus Absolute Judgements . 112   
+5.7 Further Reading 114
+
+6 Rules of Thumb 116
+
+6.1 The Big Picture . . 117   
+6.2 Why and When to Follow Rules of Thumb? . 117   
+6.3 No Unjustified 3D 117
+
+6.3.1 The Power of the Plane 118   
+6.3.2 The Disparity of Depth 118   
+6.3.3 Occlusion Hides Information . . 120   
+6.3.4 Perspective Distortion Dangers 121   
+6.3.5 Other Depth Cues . 123   
+6.3.6 Tilted Text Isn’t Legibile . . 124   
+6.3.7 Benefits of 3D: Shape Perception 124   
+6.3.8 Justification and Alternatives 125
+
+Example: Cluster–Calendar Time-Series Vis 125
+
+Example: Layer-Oriented Time-Series Vis 128
+
+6.3.9 Empirical Evidence 129
+
+6.4 No Unjustified 2D 131   
+6.5 Eyes Beat Memory . . 131
+
+6.5.1 Memory and Attention 132   
+6.5.2 Animation versus Side-by-Side Views . . 132   
+6.5.3 Change Blindness 133
+
+6.6 Resolution over Immersion 134   
+6.7 Overview First, Zoom and Filter, Details on Demand 135   
+6.8 Responsiveness Is Required 137
+
+6.8.1 Visual Feedback 138   
+6.8.2 Latency and Interaction Design . 138   
+6.8.3 Interactivity Costs 140
+
+6.9 Get It Right in Black and White 140   
+6.10 Function First, Form Next 140   
+6.11 Further Reading 141
+
+# 7 Arrange Tables 144
+
+7.1 The Big Picture . . 145   
+7.2 Why Arrange? . . 145   
+7.3 Arrange by Keys and Values 145   
+7.4 Express: Quantitative Values . . 146
+
+Example: Scatterplots 146
+
+7.5 Separate, Order, and Align: Categorical Regions . . . 149
+
+7.5.1 List Alignment: One Key . 149
+
+Example: Bar Charts 150   
+Example: Stacked Bar Charts 151   
+Example: Streamgraphs 153   
+Example: Dot and Line Charts 155
+
+7.5.2 Matrix Alignment: Two Keys . . 157
+
+Example: Cluster Heatmaps 158   
+Example: Scatterplot Matrix . 160
+
+7.5.3 Volumetric Grid: Three Keys . . 161   
+7.5.4 Recursive Subdivision: Multiple Keys . . . 161
+
+7.6 Spatial Axis Orientation . 162
+
+7.6.1 Rectilinear Layouts 162   
+7.6.2 Parallel Layouts 162
+
+Example: Parallel Coordinates 162
+
+7.6.3 Radial Layouts . 166
+
+Example: Radial Bar Charts 167   
+Example: Pie Charts 168
+
+7.7 Spatial Layout Density . . 171
+
+7.7.1 Dense 172   
+Example: Dense Software Overviews 172
+
+7.7.2 Space-Filling . . 174   
+7.8 Further Reading . . . 175
+
+# 8 Arrange Spatial Data 178
+
+8.1 The Big Picture . 179   
+8.2 Why Use Given? 179   
+8.3 Geometry 180
+
+8.3.1 Geographic Data . 180   
+Example: Choropleth Maps 181
+
+8.3.2 Other Derived Geometry 182
+
+8.4 Scalar Fields: One Value 182
+
+8.4.1 Isocontours . 183
+
+Example: Topographic Terrain Maps 183   
+Example: Flexible Isosurfaces 185
+
+8.4.2 Direct Volume Rendering . . 186
+
+Example: Multidimensional Transfer Functions 187
+
+8.5 Vector Fields: Multiple Values 189
+
+8.5.1 Flow Glyphs 191   
+8.5.2 Geometric Flow 191   
+Example: Similarity-Clustered Streamlines 192   
+8.5.3 Texture Flow 193   
+8.5.4 Feature Flow 193
+
+8.6 Tensor Fields: Many Values . . 194
+
+Example: Ellipsoid Tensor Glyphs 194
+
+8.7 Further Reading . . . 197
+
+9 Arrange Networks and Trees 200
+
+9.1 The Big Picture . . 201   
+9.2 Connection: Link Marks . 201
+
+Example: Force-Directed Placement 204   
+Example: sfdp 207
+
+9.3 Matrix Views 208
+
+Example: Adjacency Matrix View 208
+
+9.4 Costs and Benefits: Connection versus Matrix . 209   
+9.5 Containment: Hierarchy Marks 213
+
+Example: Treemaps 213   
+Example: GrouseFlocks 215
+
+9.6 Further Reading 216
+
+10 Map Color and Other Channels 218
+
+10.1 The Big Picture . 219   
+10.2 Color Theory 219
+
+10.2.1 Color Vision 219   
+10.2.2 Color Spaces 220   
+10.2.3 Luminance, Saturation, and Hue . 223   
+10.2.4 Transparency . . 225
+
+10.3 Colormaps . . 225
+
+10.3.1 Categorical Colormaps 226   
+10.3.2 Ordered Colormaps . 229   
+10.3.3 Bivariate Colormaps . . 234   
+10.3.4 Colorblind-Safe Colormap Design . . 235
+
+10.4 Other Channels . 236
+
+10.4.1 Size Channels 236   
+10.4.2 Angle Channel 237   
+10.4.3 Curvature Channel 238   
+10.4.4 Shape Channel . 238   
+10.4.5 Motion Channels . . 238   
+10.4.6 Texture and Stippling . . 239
+
+10.5 Further Reading 240
+
+# 11 Manipulate View 242
+
+11.1 The Big Picture . 243   
+11.2 Why Change? . 244   
+11.3 Change View over Time 244
+
+Example: LineUp 246
+
+Example: Animated Transitions 248
+
+11.4 Select Elements . 249
+
+11.4.1 Selection Design Choices . 250   
+11.4.2 Highlighting 251
+
+Example: Context-Preserving Visual Links 253
+
+11.4.3 Selection Outcomes 254
+
+11.5 Navigate: Changing Viewpoint . . 254
+
+11.5.1 Geometric Zooming . 255   
+11.5.2 Semantic Zooming . . 255   
+11.5.3 Constrained Navigation . 256
+
+11.6 Navigate: Reducing Attributes . 258
+
+11.6.1 Slice 258   
+Example: HyperSlice 259   
+11.6.2 Cut . 260   
+11.6.3 Project . . 261
+
+11.7 Further Reading 261
+
+# 12 Facet into Multiple Views 264
+
+12.1 The Big Picture . 265   
+12.2 Why Facet? 265
+
+12.3 Juxtapose and Coordinate Views 267
+
+12.3.1 Share Encoding: Same/Different 267   
+Example: Exploratory Data Visualizer (EDV) 268
+
+Share Data: All, Subset, None . . 269   
+Example: Bird’s-Eye Maps 270   
+Example: Multiform Overview–Detail Microarrays 271   
+Example: Cerebral 274
+
+12.3.3 Share Navigation: Synchronize 276   
+12.3.4 Combinations 276
+
+Example: Improvise 277   
+12.3.5 Juxtapose Views . 278
+
+12.4 Partition into Views 279
+
+12.4.1 Regions, Glyphs, and Views 279   
+12.4.2 List Alignments 281
+
+12.4.3 Matrix Alignments . 282   
+Example: Trellis 282   
+12.4.4 Recursive Subdivision . 285
+
+12.5 Superimpose Layers . . 288
+
+12.5.1 Visually Distinguishable Layers . . 289   
+12.5.2 Static Layers . . 289
+
+Example: Cartographic Layering 289   
+Example: Superimposed Line Charts . 290   
+Example: Hierarchical Edge Bundles . 292
+
+12.5.3 Dynamic Layers . 294
+
+12.6 Further Reading . . 295
+
+13 Reduce Items and Attributes 298
+
+13.1 The Big Picture . . 299   
+13.2 Why Reduce? 299   
+13.3 Filter 300
+
+13.3.1 Item Filtering . 301   
+Example: FilmFinder 301   
+13.3.2 Attribute Filtering 303   
+Example: DOSFA 304
+
+13.4 Aggregate 305
+
+13.4.1 Item Aggregation . 305
+
+Example: Histograms 306   
+Example: Continuous Scatterplots 307   
+Example: Boxplot Charts . 308   
+Example: SolarPlot 310   
+Example: Hierarchical Parallel Coordinates 311
+
+13.4.2 Spatial Aggregation 313
+
+Example: Geographically Weighted Boxplots 313
+
+13.4.3 Attribute Aggregation: Dimensionality Reduction . 315
+
+13.4.3.1 Why and When to Use DR? . 316   
+Example: Dimensionality Reduction for Document Collections . 316   
+13.4.3.2 How to Show DR Data? . 319
+
+13.5 Further Reading 320
+
+14 Embed: Focus+Context 322
+
+14.1 The Big Picture . 323   
+14.2 Why Embed? 323   
+14.3 Elide 324   
+Example: DOITrees Revisited 325   
+14.4 Superimpose 326   
+Example: Toolglass and Magic Lenses 326   
+14.5 Distort 327   
+Example: 3D Perspective . . 327   
+Example: Fisheye Lens 328   
+Example: Hyperbolic Geometry 329
+
+Example: Stretch and Squish Navigation 331
+
+Example: Nonlinear Magnification Fields 333
+
+14.6 Costs and Benefits: Distortion 334   
+14.7 Further Reading 337
+
+15 Analysis Case Studies 340
+
+15.1 The Big Picture . 341   
+15.2 Why Analyze Case Studies? . 341   
+15.3 Graph-Theoretic Scagnostics . . 342   
+15.4 VisDB 347   
+15.5 Hierarchical Clustering Explorer . . 351   
+15.6 PivotGraph 355   
+15.7 InterRing 358   
+15.8 Constellation 360   
+15.9 Further Reading 366
+
+Figure Credits 369
+
+Bibliography 375
+
+Idiom and System Examples Index 397
+
+Concept Index 399
+
+![](images/1c296ab0b2e9fd74f89da5e3a59c7b115bc0038eae981dd648799142390a01b9.jpg)
+
+#
+
+
+---
+Node: Preface
+Primary concept extracted from chunk
+# Preface
+
+# Why a New Book?
+
+I wrote this book to scratch my own itch: the book I wanted to teach out of for my graduate visualization (vis) course did not exist. The itch grew through the years of teaching my own course at the University of British Columbia eight times, co-teaching a course at Stanford in 2001, and helping with the design of an early vis course at Stanford in 1996 as a teaching assistant.
+
+I was dissatisfied with teaching primarily from original research papers. While it is very useful for graduate students to learn to read papers, what was missing was a synthesis view and a framework to guide thinking. The principles and design choices that I intended a particular paper to illustrate were often only indirectly alluded to in the paper itself. Even after assigning many papers or book chapters as preparatory reading before each lecture, I was frustrated by the many major gaps in the ideas discussed. Moreover, the reading load was so heavy that it was impossible to fit in any design exercises along the way, so the students only gained direct experience as designers in a single monolithic final project.
+
+I was also dissatisfied with the lecture structure of my own course because of a problem shared by nearly every other course in the field: an incoherent approach to crosscutting the subject matter. Courses that lurch from one set of crosscuts to another are intellectually unsatisfying in that they make vis seem like a grabbag of assorted topics rather than a field with a unifying theoretical framework. There are several major ways to crosscut vis material. One is by the field from which we draw techniques: cognitive science for perception and color, human–computer interaction for user studies and user-centered design, computer graphics for rendering, and so on. Another is by the problem domain addressed: for example, biology, software engineering, computer networking, medicine, casual use, and so on. Yet another is by the families of techniques: focus+context, overview/detail, volume rendering,
+
+and statistical graphics. Finally, evaluation is an important and central topic that should be interwoven throughout, but it did not fit into the standard pipelines and models. It was typically relegated to a single lecture, usually near the end, so that it felt like an afterthought.
+
+# Existing Books
+
+Vis is a young field, and there are not many books that provide a synthesis view of the field. I saw a need for a next step on this front.
+
+Tufte is a curator of glorious examples [Tufte 83, Tufte 91, Tufte 97], but he focuses on what can be done on the static printed page for purposes of exposition. The hallmarks of the last 20 years of computer-based vis are interactivity rather than simply static presentation and the use of vis for exploration of the unknown in addition to exposition of the known. Tufte’s books do not address these topics, so while I use them as supplementary material, I find they cannot serve as the backbone for my own vis course. However, any or all of them would work well as supplementary reading for a course structured around this book; my own favorite for this role is Envisioning Information [Tufte 91].
+
+Some instructors use Readings in Information Visualization [Card et al. 99]. The first chapter provides a useful synthesis view of the field, but it is only one chapter. The rest of the book is a collection of seminal papers, and thus it shares the same problem as directly reading original papers. Here I provide a book-length synthesis, and one that is informed by the wealth of progress in our field in the past 15 years.
+
+Ware’s book Information Visualization: Perception for Design [Ware 13] is a thorough book on vis design as seen through the lens of perception, and I have used it as the backbone for my own course for many years. While it discusses many issues on how one could design a vis, it does not cover what has been done in this field for the past 14 years from a synthesis point of view. I wanted a book that allows a beginning student to learn from this collective experience rather than starting from scratch. This book does not attempt to teach the very useful topic of perception per se; it covers only the aspects directly needed to get started with vis and leaves the rest as further reading. Ware’s shorter book, Visual Thinking for Design [Ware 08], would be excellent supplemental reading for a course structured around this book.
+
+This book offers a considerably more extensive model and framework than Spence’s Information Visualization [Spence 07]. Wilkinson’s The Grammar of Graphics [Wilkinson 05] is a deep and thoughtful work, but it is dense enough that it is more suitable for vis insiders than for beginners. Conversely, Few’s Show Me The Numbers [Few 12] is extremely approachable and has been used at the undergraduate level, but the scope is much more limited than the coverage of this book.
+
+The recent book Interactive Data Visualization [Ward et al. 10] works from the bottom up with algorithms as the base, whereas I work from the top down and stop one level above algorithmic considerations; our approaches are complementary. Like this book, it covers both nonspatial and spatial data. Similarly, the Data Visualization [Telea 07] book focuses on the algorithm level. The book on The Visualization Toolkit [Schroeder et al. 06] has a scope far beyond the vtk software, with considerable synthesis coverage of the concerns of visualizing spatial data. It has been used in many scientific visualization courses, but it does not cover nonspatial data. The voluminous Visualization Handbook [Hansen and Johnson 05] is an edited collection that contains a mix of synthesis material and research specifics; I refer to some specific chapters as good resources in my Further Reading sections at the end of each chapter in this book.
+
+# Audience
+
+The primary audience of this book is students in a first vis course, particularly at the graduate level but also at the advanced undergraduate level. While admittedly written from a computer scientist’s point of view, the book aims to be accessible to a broad audience including students in geography, library science, and design. It does not assume any experience with programming, mathematics, human–computer interaction, cartography, or graphic design; for those who do have such a background, some of the terms that I define in this book are connected with the specialized vocabulary from these areas through notes in the margins. Other audiences are people from other fields with an interest in vis, who would like to understand the principles and design choices of this field, and practitioners in the field who might use it as a reference for a more formal analysis and improvements of production vis applications.
+
+I wrote this book for people with an interest in the design and analysis of vis idioms and systems. That is, this book is aimed
+
+at vis designers, both nascent and experienced. This book is not directly aimed at vis end users, although they may well find some of this material informative.
+
+The book is aimed at both those who take a problem-driven approach and those who take a technique-driven approach. Its focus is on broad synthesis of the general underpinnings of vis in terms of principles and design choices to provide a framework for the design and analysis of techniques, rather than the algorithms to instantiate those techniques.
+
+The book features a unified approach encompassing information visualization techniques for abstract data, scientific visualization techniques for spatial data, and visual analytics techniques for interleaving data transformation and analysis with interactive visual exploration.
+
+# Who’s Who
+
+I use pronouns in a deliberate way in this book, to indicate roles. I am the author of this book. I cover many ideas that have a long and rich history in the field, but I also advocate opinions that are not necessarily shared by all visualization researchers and practitioners. The pronoun you means the reader of this book; I address you as if you’re designing or analyzing a visualization system. The pronoun they refers to the intended users, the target audience for whom a visualization system is designed. The pronoun we refers to all humans, especially in terms of our shared perceptual and cognitive responses.
+
+I’ll also use the abbreviation vis throughout this book, since visualization is quite a mouthful!
+
+# Structure: What’s in This Book
+
+The book begins with a definition of vis and walks through its many implications in Chapter 1, which ends with a high-level introduction to an analysis framework of breaking down vis design according what–why–how questions that have data–task–idiom answers. Chapter 2 addresses the what question with answers about data abstractions, and Chapter 3 addresses the why question with task abstractions, including an extensive discussion of deriving new data, a preview of the framework of design choices for how idioms can be designed, and several examples of analysis through this framework.
+
+Chapter 4 extends the analysis framework to two additional levels: the domain situation level on top and the algorithm level on the bottom, with the what/why level of data and task abstraction and the how level of visual encoding and interaction idiom design in between the two. This chapter encourages using methods to validate your design in a way that matches up with these four levels.
+
+Chapter 5 covers the principles of marks and channels for encoding information. Chapter 6 presents eight rules of thumb for design.
+
+The core of the book is the framework for analyzing how vis idioms can be constructed out of design choices. Three chapters cover choices of how to visually encode data by arranging space: Chapter 7 for tables, Chapter 8 for spatial data, and Chapter 9 for networks. Chapter 10 continues with the choices for mapping color and other channels in visual encoding. Chapter 11 discusses ways to manipulate and change a view. Chapter 12 covers ways to facet data between multiple views. Choices for how to reduce the amount of data shown in each view are covered in Chapter 13, and Chapter 14 covers embedding information about a focus set within the context of overview data. Chapter 15 wraps up the book with six case studies that are analyzed in detail with the full framework.
+
+Each design choice is illustrated with concrete examples of specific idioms that use it. Each example is analyzed by decomposing its design with respect to the design choices that have been presented so far, so these analyses become more extensive as the chapters progress; each ends with a table summarizing the analysis. The book’s intent is to get you familiar with analyzing existing idioms as a springboard for designing new ones.
+
+I chose the particular set of concrete examples in this book as evocative illustrations of the space of vis idioms and my way to approach vis analysis. Although this set of examples does cover many of the more popular idioms, it is certainly not intended to be a complete enumeration of all useful idioms; there are many more that have been proposed that aren’t in here. These examples also aren’t intended to be a historical record of who first proposed which ideas: I often pick more recent examples rather than the very first use of a particular idiom.
+
+All of the chapters start with a short section called The Big Picture that summarizes their contents, to help you quickly determine whether a chapter covers material that you care about. They all end with a Further Reading section that points you to more information about their topics. Throughout the book are boxes in the margins: vocabulary notes in purple starting with a star, and
+
+cross-reference notes in blue starting with a triangle. Terms are highlighted in purple where they are defined for the first time.
+
+The book has an accompanying web page at http://www.cs.ubc. ca/~tmm/vadbook with errata, pointers to courses that use the book in different ways, example lecture slides covering the material, and downloadable versions of the diagram figures.
+
+# What’s Not in This Book
+
+This book focuses on the abstraction and idiom levels of design and doesn’t cover the domain situation level or the algorithm levels.
+
+I have left out algorithms for reasons of space and time, not of interest. The book would need to be much longer if it covered algorithms at any reasonable depth; the middle two levels provide more than enough material for a single volume of readable size. Also, many good resources already exist to learn about algorithms, including original papers and some of the previous books discussed above. Some points of entry for this level are covered in Further Reading sections at the end of each chapter. Moreover, this book is intended to be accessible to people without a computer science background, a decision that precludes algorithmic detail. A final consideration is that the state of the art in algorithms changes quickly; this book aims to provide a framework for thinking about design that will age more gracefully. The book includes many concrete examples of previous vis tools to illustrate points in the design space of possible idioms, not as the final answer for the very latest and greatest way to solve a particular design problem.
+
+The domain situation level is not as well studied in the vis literature as the algorithm level, but there are many relevant resources from other literatures including human–computer interaction. Some points of entry for this level are also covered in Further Reading.
+
+
+---
+Node: Acknowledgments
+Primary concept extracted from chunk
+# Acknowledgments
+
+My thoughts on visualization in general have been influenced by many people, but especially Pat Hanrahan and the students in the vis group while I was at Stanford: Robert Bosch, Chris Stolte, Diane Tang, and especially Franc¸ois Guimbretier´ e.
+
+This book has benefited from the comments and thoughts of many readers at different stages.
+
+I thank the recent members of my research group for their incisive comments on chapter drafts and their patience with my sometimes-obsessive focus on this book over the past six years: Matt Brehmer, Jessica Dawson, Joel Ferstay, Stephen Ingram, Miriah Meyer, and especially Michael Sedlmair. I also thank the previous members of my group for their collaboration and discussions that have helped shape my thinking: Daniel Archambault, Aaron Barsky, Adam Bodnar, Kristian Hildebrand, Qiang Kong, Heidi Lam, Peter McLachlan, Dmitry Nekrasovski, James Slack, Melanie Tory, and Matt Williams.
+
+I thank several people who gave me useful feedback on my Visualization book chapter [Munzner 09b] in the Fundamentals of Computer Graphics textbook [Shirley and Marschner 09]: TJ Jankun-Kelly, Robert Kincaid, Hanspeter Pfister, Chris North, Stephen North, John Stasko, Frank van Ham, Jarke van Wijk, and Martin Wattenberg. I used that chapter as a test run of my initial structure for this book, so their feedback has carried forward into this book as well.
+
+I also thank early readers Jan Hardenburgh, Jon Steinhart, and Maureen Stone. Later reader Michael McGuffin contributed many thoughtful comments in addition to several great illustrations.
+
+Many thanks to the instructors who have test-taught out of draft versions of this book, including Enrico Bertini, Remco Chang, Heike Janicke ¨ Leitte, Raghu Machiragu, and Melanie Tory. I especially thank Michael Laszlo, Chris North, Hanspeter Pfister, Miriah Meyer, and Torsten Moller ¨ for detailed and thoughtful feedback.
+
+I also thank all of the students who have used draft versions of this book in a course. Some of these courses were structured to provide me with a great deal of commentary from the students on the drafts, and I particularly thank these students for their contributions.
+
+From my own 2011 course: Anna Flagg, Niels Hanson, Jingxian Li, Louise Oram, Shama Rashid, Junhao (Ellsworth) Shi, Jillian Slind, Mashid ZeinalyBaraghoush, Anton Zoubarev, and Chuan Zhu.
+
+From North’s 2011 course: Ankit Ahuja, S.M. (Arif) Arifuzzaman, Sharon Lynn Chu, Andre Esakia, Anurodh Joshi, Chiranjeeb Kataki, Jacob Moore, Ann Paul, Xiaohui Shu, Ankit Singh, Hamilton Turner, Ji Wang, Sharon Chu Yew Yee, Jessica Zeitz, and especially Lauren Bradel.
+
+From Pfister’s 2012 course: Pankaj Ahire, Rabeea Ahmed, Salen Almansoori, Ayindri Banerjee, Varun Bansal, Antony Bett, Made-
+
+laine Boyd, Katryna Cadle, Caitline Carey, Cecelia Wenting Cao, Zamyla Chan, Gillian Chang, Tommy Chen, Michael Cherkassky, Kevin Chin, Patrick Coats, Christopher Coey, John Connolly, Daniel Crookston Charles Deck, Luis Duarte, Michael Edenfield, Jeffrey Ericson, Eileen Evans, Daniel Feusse, Gabriela Fitz, Dave Fobert, James Garfield, Shana Golden, Anna Gommerstadt, Bo Han, William Herbert, Robert Hero, Louise Hindal, Kenneth Ho, Ran Hou, Sowmyan Jegatheesan, Todd Kawakita, Rick Lee, Natalya Levitan, Angela Li, Eric Liao, Oscar Liu, Milady Jiminez Lopez, Valeria Espinosa Mateos, Alex Mazure, Ben Metcalf, Sarah Ngo, Pat Njolstad, Dimitris Papnikolaou, Roshni Patel, Sachin Patel, Yogesh Rana, Anuv Ratan, Pamela Reid, Phoebe Robinson, Joseph Rose, Kishleen Saini, Ed Santora, Konlin Shen, Austin Silva, Samuel Q. Singer, Syed Sobhan, Jonathan Sogg, Paul Stravropoulos, Lila Bjorg Strominger, Young Sul, Will Sun, Michael Daniel Tam, Man Yee Tang, Mark Theilmann, Gabriel Trevino, Blake Thomas Walsh, Patrick Walsh, Nancy Wei, Karisma Williams, Chelsea Yah, Amy Yin, and Chi Zeng.
+
+From Moller’s¨ 2014 course: Tamas´ Birkner, Nikola Dichev, Eike Jens Gnadt, Michael Gruber, Martina Kapf, Manfred Klaffenbock,¨ Sumeyye ¨ Kocaman, Lea Maria Joseffa Koinig, Jasmin Kuric, Mladen Magic, Dana Markovic, Christine Mayer, Anita Moser, Magdalena Pohl, ¨ Michael Prater, Johannes Preisinger, Stefan Rammer, Philipp Sturmlechner, Himzo Tahic, Michael Togel, ¨ and Kyriakoula Tsafou.
+
+I thank all of the people connected with A K Peters who contributed to this book. Alice Peters and Klaus Peters steadfastedly kept asking me if I was ready to write a book yet for well over a decade and helped me get it off the ground. Sarah Chow, Charlotte Byrnes, Randi Cohen, and Sunil Nair helped me get it out the door with patience and care.
+
+I am delighted with and thankful for the graphic design talents of Eamonn Maguire of Antarctic Design, an accomplished vis researcher in his own right, who tirelessly worked with me to turn my hand-drawn Sharpie drafts into polished and expressive diagrams.
+
+I am grateful for the friends who saw me through the days, through the nights, and through the years: Jen Archer, Kirsten Cameron, Jenny Gregg, Bridget Hardy, Jane Henderson, Yuri Hoffman, Eric Hughes, Kevin Leyton-Brown, Max Read, Shevek, Anila Srivastava, Aimee´ Sturley, Jude Walker, Dave Whalen, and Betsy Zeller.
+
+I thank my family for their decades of love and support: Naomi Munzner, Sheila Oehrlein, Joan Munzner, and Ari Munzner. I also
+
+thank Ari for the painting featured on the cover and for the way that his artwork has shaped me over my lifetime; see http://www. aribertmunzner.com.
+
+![](images/a6e42b35159ca06a7cec434be85a623fc6211f1f530d39bfc3d8cf396acee32f.jpg)
+
+#
+
+
+---
+Node: 1.1 The Big Picture
+Primary concept extracted from chunk
+# 1.1 The Big Picture
+
+This book is built around the following definition of visualization— vis, for short:
+
+Computer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.
+
+Visualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision-making methods. The design space of possible vis idioms is huge, and includes the considerations of both how to create and how to interact with visual representations. Vis design is full of trade-offs, and most possibilities in the design space are ineffective for a particular task, so validating the effectiveness of a design is both necessary and difficult. Vis designers must take into account three very different kinds of resource limitations: those of computers, of humans, and of displays. Vis usage can be analyzed in terms of why the user needs it, what data is shown, and how the idiom is designed.
+
+I’ll discuss the rationale behind many aspects of this definition as a way of getting you to think about the scope of this book, and about visualization itself:
+
+. Why have a human in the decision-making loop?   
+. Why have a computer in the loop?   
+. Why use an external representation?   
+. Why depend on vision?
+
+* The field of machine learning is a branch of artificial intelligence where computers can handle a wide variety of new situations in response to datadriven training, rather than by being programmed with explicit instructions in advance.
+
+. Why show the data in detail?   
+. Why use interactivity?   
+. Why is the vis idiom design space huge?   
+. Why focus on tasks?   
+. Why are most designs ineffective?   
+. Why care about effectiveness?   
+. Why is validation difficult?   
+. Why are there resource limitations?   
+. Why analyze vis?
+---
+Node: 1.2 Why Have a Human in the Loop?
+Primary concept extracted from chunk
+# 1.2 Why Have a Human in the Loop?
+
+Vis allows people to analyze data when they don’t know exactly what questions they need to ask in advance.
+
+The modern era is characterized by the promise of better decision making through access to more data than ever before. When people have well-defined questions to ask about data, they can use purely computational techniques from fields such as statistics and machine learning.* Some jobs that were once done by humans can now be completely automated with a computer-based solution. If a fully automatic solution has been deemed to be acceptable, then there is no need for human judgement, and thus no need for you to design a vis tool. For example, consider the domain of stock market trading. Currently, there are many deployed systems for highfrequency trading that make decisions about buying and selling stocks when certain market conditions hold, when a specific price is reached, for example, with no need at all for a time-consuming check from a human in the loop. You would not want to design a vis tool to help a person make that check faster, because even an augmented human will not be able to reason about millions of stocks every second.
+
+However, many analysis problems are ill specified: people don’t know how to approach the problem. There are many possible questions to ask—anywhere from dozens to thousands or more—and people don’t know which of these many questions are the right ones in advance. In such cases, the best path forward is an analysis process with a human in the loop, where you can exploit the
+
+powerful pattern detection properties of the human visual system in your design. Vis systems are appropriate for use when your goal is to augment human capabilities, rather than completely replace the human in the loop.
+
+You can design vis tools for many kinds of uses. You can make a tool intended for transitional use where the goal is to “work itself out of a job”, by helping the designers of future solutions that are purely computational. You can also make a tool intended for longterm use, in a situation where there is no intention of replacing the human any time soon.
+
+For example, you can create a vis tool that’s a stepping stone to gaining a clearer understanding of analysis requirements before developing formal mathematical or computational models. This kind of tool would be used very early in the transition process in a highly exploratory way, before even starting to develop any kind of automatic solution. The outcome of designing vis tools targeted at specific real-world domain problems is often a much crisper understanding of the user’s task, in addition to the tool itself.
+
+In the middle stages of a transition, you can build a vis tool aimed at the designers of a purely computational solution, to help them refine, debug, or extend that system’s algorithms or understand how the algorithms are affected by changes of parameters. In this case, your tool is aimed at a very different audience than the end users of that eventual system; if the end users need visualization at all, it might be with a very different interface. Returning to the stock market example, a higher-level system that determines which of multiple trading algorithms to use in varying circumstances might require careful tuning. A vis tool to help the algorithm developers analyze its performance might be useful to these developers, but not to people who eventually buy the software.
+
+You can also design a vis tool for end users in conjunction with other computational decision making to illuminate whether the automatic system is doing the right thing according to human judgement. The tool might be intended for interim use when making deployment decisions in the late stages of a transition, for example, to see if the result of a machine learning system seems to be trustworthy before entrusting it to spend millions of dollars trading stocks. In some cases vis tools are abandoned after that decision is made; in other cases vis tools continue to be in play with long-term use to monitor a system, so that people can take action if they spot unreasonable behavior.
+
+![](images/8f1b393435929ba89de2e82403c01faf1be42b22b3ab7bde7cc5f1ce1efcfa64.jpg)  
+Figure 1.1. The Variant View vis tool supports biologists in assessing the impact of genetic variants by speeding up the exploratory analysis process. From [Ferstay et al. 13, Figure 1].
+
+In contrast to these transitional uses, you can also design vis tools for long-term use, where a person will stay in the loop indefinitely. A common case is exploratory analysis for scientific discovery, where the goal is to speed up and improve a user’s ability to generate and check hypotheses. Figure 1.1 shows a vis tool designed to help biologists studying the genetic basis of disease through analyzing DNA sequence variation. Although these scientists make heavy use of computation as part of their larger workflow, there’s no hope of completely automating the process of cancer research any time soon.
+
+You can also design vis tools for presentation. In this case, you’re supporting people who want to explain something that they already know to others, rather than to explore and analyze the unknown. For example, The New York Times has deployed sophisticated interactive visualizations in conjunction with news stories.
+---
+Node: 1.14 Why Analyze?
+Primary concept extracted from chunk
+# 1.14 Why Analyze?
+
+This book is built around the premise that analyzing existing systems is a good stepping stone to designing new ones. When you’re confronted with a vis problem as a designer, it can be hard to decide what to do. Many computer-based vis idioms and tools have
+
+![](images/b45917b9fd715e686911222aeb90114d69b3fe3ece037df4336d2b70718e87fe.jpg)  
+Figure 1.7. Three-part analysis framework for a vis instance: why is the task being performed, what data is shown in the views, and how is the vis idiom constructed in terms of design choices.
+
+been created in the past several decades, and considering them one by one leaves you faced with a big collection of different possibilities. There are so many possible combinations of data, tasks, and idioms that it’s unlikely that you’ll find exactly what you need to know just by reading papers about previous vis tools. Moreover, even if you find a likely candidate, you might need to dig even deeper into the literature to understand whether there’s any evidence that the tool was a success.
+
+This book features an analysis framework that imposes a structure on this enormous design space, intended as a scaffold to help you think about design choices systematically. It’s offered as a guide to get you started, not as a straitjacket: there are certainly many other possible ways to think about these problems!
+
+Figure 1.7 shows the high-level framework for analyzing vis use according to three questions: what data the user sees, why the user intends to use a vis tool, and how the visual encoding and interaction idioms are constructed in terms of design choices. Each three-fold what–why–how question has a corresponding data–task– idiom answer trio. One of these analysis trios is called an instance.
+
+Simple vis tools can be fully described as an isolated analysis instance, but complex vis tool usage often requires analysis in terms of a sequence of instances that are chained together. In these cases, the chained sequences are a way to express dependencies. All analysis instances have the input of what data is shown; in some cases, output data is produced as a result of using the vis tool. Figure 1.8 shows an abstract example of a chained sequence, where the output of a prior instance serves as the input to a subsequent one.
+
+The combination of distinguishing why from how and chained sequences allows you to distinguish between means and ends in
+
+‣ Chapter 2 discusses data and the question of what. Chapter 3 covers tasks and the question of why. Chapters 7 through 14 answer the question of how idioms can be designed in detail.
+
+![](images/423079adb81cdf33eefe4a73cf5223433e9cfde34bec97a3a1e38a8d14f8095b.jpg)  
+Figure 1.8. Analyzing vis usage as chained sequences of instances, where the output of one instance is the input to another.
+
+your analysis. For example, a user could sort the items shown within the vis. That operation could be an end in itself, if the user’s goal is to produce a list of items ranked according to a particular criterion as a result of an analysis session. Or, the sorting could be the means to another end, for example, finding outliers that do not match the main trend of the data; in this case, it is simply done along the way as one of many different operations.
+---
+Node: 1.15 Further Reading
+Primary concept extracted from chunk
+# 1.15 Further Reading
+
+Each Further Reading section provides suggestions for further reading about some of the ideas presented in the chapter and acknowledges key sources that influenced the discussion.
+
+Why Use an External Representation? The role and use of external representations are analyzed in papers on the nature of ex-
+
+ternal representations in problem solving [Zhang 97] and a representational analysis of number systems [Zhang and Norman 95]. The influential paper Why A Diagram Is (Sometimes) Worth Ten Thousand Words is the basis for my discussion of diagrams in this chapter [Larkin and Simon 87].
+
+Why Show the Data in Detail? Anscombe proposed his quartet of illustrative examples in a lovely, concise paper [Anscombe 73]. An early paper on the many faces of the scatterplot includes a cogent discussion of why to show as much of the data as possible [Cleveland and McGill 84b].
+
+What Is the Vis Design Space? My discussion of the vis design space is based on our paper on the methodology of design studies that covers the question of progressing from a loose to a crisp understanding of the user’s requirements [Sedlmair et al. 12].
+
+What Resource Limitations Matter? Ware’s textbook provides a very thorough discussion of human limitations in terms of perception, memory, and cognition [Ware 13]. A survey paper provides a good overview of the change blindness literature [Simons 00]. The idea of information density dates back to Bertin’s discussion of graphic density [Bertin 67], and Tufte has discussed the data–ink ratio at length [Tufte 83].
+---
+Node: Dataset Availability
+Primary concept extracted from chunk
+# Dataset Availability
+
+Static
+
+![](images/e9ff84720f2b9e376107e7177fc61d1006722045a47e51f07fa5949bd228292b.jpg)
+
+Dynamic
+
+![](images/27c75eece0fe13591a3f7b9afbae3f8f9ebd797cc2fd931ada7846f0db884415.jpg)  
+Figure 2.6. Dataset availability can be either static or dynamic, for any dataset type.
+
+data; that is, the data abstraction. In simple cases, it may be possible to describe your data abstraction using only that set of terms. In complex cases, you may need additional description as well. If so, your goal should be to translate domain-specific terms into words that are as generic as possible.
+---
+Node: Attribute Types
+Primary concept extracted from chunk
+# Attribute Types
+
+![](images/a316b9dce44e21cb8852c4e8dbe9c51a219c011ff93155071cd0e1b20d55462b.jpg)
+
+Categorical
+
+![](images/1f92e2b25c8c8576edab66d249c101c6851bc75f05033b18fa70f14d142c86c3.jpg)
+
+![](images/5496c9cdc27a1f06a2fd684c72e352190c288d8a969c7478e4516d07d9197044.jpg)
+
+Ordered
+
+Ordinal
+
+![](images/07818af464cdd9bbfb0061d0e0abf57618784181795cef07a3f336e6e815522a.jpg)
+
+Quantitative
+
+![](images/df190ff4a72c4dc712d72454d0a723d43b95397a2e905a3bcb7f62fdcbcd4f6b.jpg)
+
+![](images/d72a8f1133056fa3c8be9ba3a431210bac281ffce7f66dd9bf001c0b11e101c3.jpg)
+---
+Node: 2.7 Further Reading
+Primary concept extracted from chunk
+# 2.7 Further Reading
+
+The Big Picture The framework presented here was inspired in part by the many taxonomies of data that have been previously proposed, including the synthesis chapter at the beginning of an early collection of infovis readings [Card et al. 99], a taxonomy that emphasizes the division between continuous and discrete data [Tory and Moller ¨ 04a], and one that emphasizes both data and tasks [Shneiderman 96].
+
+Field Datasets Several books discuss the spatial field dataset type in far more detail, including two textbooks [Telea 07, Ward et al. 10], a voluminous handbook [Hansen and Johnson 05], and the vtk book [Schroeder et al. 06].
+
+Attribute Types The attribute types of categorical, ordered, and quantitative were proposed in the seminal work on scales of measurement from the psychophysics literature [Stevens 46]. Scales of measurement are also discussed extensively in the book The Grammar of Graphics [Wilkinson 05] and are used as the foundational axes of an influential vis design space taxonomy [Card and Mackinlay 97].
+
+Key and Value Semantics The Polaris vis system, which has been commercialized as Tableau, is built around the distinction between key attributes (independent dimensions) and value attributes (dependent measures) [Stolte et al. 02].
+
+Temporal Semantics A good resource for time-oriented data vis is a recent book, Visualization of Time-Oriented Data [Aigner et al. 11].
+
+![](images/09771069f26c7f7a3c67a6b06d349512125f79a13bc20021f5d75bf5927f8c2d.jpg)
+
+#
+---
+Node: $\textcircled{7}$ Analyze
+Primary concept extracted from chunk
+# $\textcircled{7}$ Analyze
+
+Consume
+
+Discover
+
+![](images/3399c6a93ddedf97faf87f64ddac2f11d22121d960c146b8e7f787bbb6ed28f2.jpg)
+
+Present
+
+![](images/401f00d8e382cfbd9f35be696bca492a1d4e3f1496aecf9d232bc86deff769a6.jpg)
+
+Enjoy
+
+![](images/6effa18294bf4732e950325ac0b9523f614ec43314909c3f5bbbe6a1a7a1cb40.jpg)
+
+Produce
+
+Annotate
+
+![](images/305738805e1eb5c50da94bbaf7a0f1eed2cb8d24a6c64f07f82a56bc77a0b22f.jpg)
+
+Record
+
+![](images/76f1c5eb58244f86eccf3726089602f16cfb2952034fee1c829c1bfc22f713b1.jpg)
+
+Derive
+
+![](images/febb68854a6502135b7d18c3f84377cb60661422782241c3829fb078c571b1b2.jpg)
+---
+Node: Analyze
+Primary concept extracted from chunk
+# Analyze
+
+Consume
+
+Discover
+
+![](images/d680f1706d6609d35087b4c1480b4bc0355006035b88d12a3a76f3c3972bf772.jpg)
+
+Present
+
+![](images/94da9d8a351e16dad3f37e287659bae57930646ad5d86eeb1fb9351fb864e21e.jpg)
+
+Enjoy
+
+![](images/5f0ac56b0e99c6f7e97e4c673281e3162123b566f73ac654d0282ea784696587.jpg)
+
+Produce
+
+Annotate
+
+![](images/c5d2d08ddf1d6d11f71596abcbe7e944dec1c9811c9376c7226d1166e44ec4c5.jpg)
+
+Record
+
+![](images/89a5b997e6dd8843a7bea73bbc3204f206e08d4c023ecd8371a6b939ce236f2e.jpg)
+
+Derive
+
+![](images/0c5ee56ebd553e0a4ad53395ca4c7375755ee6ce032b7287e532c94ae5e157d2.jpg)
+
+![](images/41d48af1995ad06455121d0011e7e874514cd766a0251807cbb6b32d4edd4d92.jpg)
+
+![](images/c318a072392340b1fc1113369702278f0a8141fce362bcfbd9d0b6378474bc8e.jpg)
+---
+Node: Further Reading
+Primary concept extracted from chunk
+# Further Reading
+
+The Big Picture An earlier version of the what–why–how framework was first presented as a paper [Brehmer and Munzner 13], which includes a very detailed discussion of its relationship to the extensive previous work in classifications of tasks and interaction idioms. That discussion covers 30 previous classifications and 20 relevant references, ranging from a characterization of the scientific data analysis process [Springmeyer et al. 92], to an influential low-level task classification [Amar et al. 05], to a taxonomy of tasks for network datasets [Lee et al. 06], to a recent taxonomy of interaction dynamics [Heer and Shneiderman 12].
+
+Who: Designers versus Users Some of the challenges inherent in bridging the gaps between vis designers and users are discussed in an influential paper [van Wijk 06].
+
+Derive Many vis pipeline models discuss the idea of data transformation as a critical early step [Card et al. 99, Chi and Riedl 98], and others also point out the need to transform between different attribute types [Velleman and Wilkinson 93]. A later taxonomy of vis explicitly discusses the idea that data types can change as the result of the transformation [Tory and Moller ¨ 04b].
+
+Examples The analysis examples are SpaceTree [Plaisant et al. 02], TreeJuxtaposer [Munzner et al. 03], Strahler numbers for tree simplification [Auber 02], and linked derived spaces for feature detection [Henze 98].
+
+![](images/e641038b50cac96bba834993cb899ee3d1cf08cc48b82819d3b76af46526fd0d.jpg)
+---
+Node: Angles of Attack
+Primary concept extracted from chunk
+# Angles of Attack
+
+There are two common angles of attack for vis design: top down or bottom up. With problem-driven work, you start at the top domain situation level and work your way down through abstraction, idiom, and algorithm decisions. In technique-driven work, you work at one of the bottom two levels, idiom or algorithm design, where your goal is to invent new idioms that better support existing abstractions, or new algorithms that better support existing idioms.
+
+In problem-driven vis, you begin by grappling with the problems of some real-world user and attempt to design a solution that helps them work more effectively. In this vis literature, this kind of work is often called a design study. Often the problem can be solved using existing visual encoding and interaction idioms rather than designing new ones, and much of the challenge lies at the abstraction level. However, sometimes the problem motivates the design of new idioms, if you decide that no existing ones will adequately solve the abstracted design problem.
+
+Considering the four levels of nested model explicitly can help you avoid the pitfall of skipping important steps in problem-driven work. Some designers skip over the domain situation level completely, short-circuit the abstraction level by assuming that the
+
+first abstraction that comes to mind is the correct one, and jump immediately into the third level of visual encoding and interaction idiom design. I argue against this approach; the abstraction stage is often the hardest to get right. A designer struggling to find the right abstraction may end up realizing that the domain situation has not yet been adequately characterized and jump back up to work at that level before returning to this one. As mentioned above, the design process for problem-driven work is almost never strictly linear; it involves iterative refinement at all of the levels.
+
+In technique-driven work, your starting point is an idea for a new visual encoding or interaction idiom, or a new algorithm. In this style of work, you start directly at one of the two lower levels and immediately focus design at that level. Considering the nested model can help you articulate your assumptions at the level just above your primary focus: either to articulate the abstraction requirements for your new idiom, or to articulate the idiom requirements for your algorithm.
+
+The analysis framework of this book is focused on the what– why abstraction and how idiom levels and is intended to help you work in either direction. For problem-driven work, it allows you to work downward when searching for existing idioms by analyzing what design choices are appropriate for task abstraction that you have identified and data abstraction that you have chosen. For technique-driven work, it allows you to work upward by classifying your proposed idiom within the framework of design choices, giving you a clear framework in which to discuss its relationship with previously proposed idioms. Similarly, it is helpful to explicitly analyze a new algorithm with respect to the idioms that it supports. Although in some cases this analysis is very straightforward, it can sometimes be tricky to untangle connections between algorithms and idioms. Can your new algorithm simply be switched for a previous one, providing a faster way to compute the same visual encoding? Or does your new algorithm result in a visual encoding different enough to constitutes a new idiom that requires justification to show it’s a good match for human capabilities and the intended task?
+---
+Node: 6.11 Further Reading
+Primary concept extracted from chunk
+# 6.11 Further Reading
+
+No Unjustified 3D The differences between planar and depth spatial perception and the characteristics of 3D depth cues are discussed at length in both of Ware’s books [Ware 08, Ware 13]. An in-depth discussion of the issues of 2D versus 3D [St. John et al. 01] includes references to many previous studies in the human factors and air traffic control literature including the extensive work of Wickens. Several careful experiments overturned previous claims of 3D benefits over 2D [Cockburn and McKenzie 00,Cockburn and McKenzie 01,Cockburn and McKenzie 04].
+
+Memory Ware’s textbook is an excellent resource for memory and attention as they relate to vis [Ware 13], with much more detail than I provide here. A recent monograph contains an interesting and thorough discussion of supporting and exploiting spatial memory in user interfaces [Scarr et al. 13].
+
+Animation An influential paper on incorporating the principles of hand-drawn animation into computer graphics discusses the importance of choreography to guide the viewer’s eyes during narrative storytelling [Lasseter 87]. A meta-review of animation argues that many seemingly promising study results are confounded by attempts to compare incommensurate situations; the authors find that small multiples are better than animation if equivalent information is shown [Tversky et al. 02] and the segmentation is carefully chosen [Zacks and Tversky 03]. An empirical study found that while trend anima-
+
+tion was fast and enjoyable when used for presentation it did lead to errors, and it was significantly slower than both small multiples and trace lines for exploratory analysis [Robertson et al. 08].
+
+Change Blindness A survey paper is a good starting point for the change blindness literature [Simons 00].
+
+Overview, Zoom and Filter, Details on Demand This early and influential mantra about overviews is presented in a very readable paper [Shneiderman 96]. More recently, a synthesis review analyzes the many ways that overviews are used in infovis [Hornbæk and Hertzum 11].
+
+Responsiveness Is Required Card pioneered the discussion of latency classes for vis and human–computer interaction [Card et al. 91]; an excellent book chapter covering these ideas appears in a very accessible book on interface design [Johnson 10, Chapter 12]. The costs of interaction are discussed in a synthesis review [Lam 08] and a proposed framework for interaction [Yi et al. 07].
+
+Get It Right in Black and White A blog post on Get It Right in Black and White is a clear and concise starting point for the topic [Stone 10].
+
+Function First, Form Next A very accessible place to start for basic graphic design guidelines is The Non-Designer’s Design Book [Williams 08].
+
+![](images/0f2a37ca74ea14a2053ee2c9e122f38781ee00889d5880870c14ed2f9ed86f34.jpg)
+
+#
+---
+Node: 7.8 Further Reading
+Primary concept extracted from chunk
+# 7.8 Further Reading
+
+The Big Picture Many previous authors have proposed ways to categorize vis idioms. My framework was influenced by many of them, including an early taxonomy of the infovis design space [Card and Mackinlay 99] and tutorial on visual idioms [Keim 97], a book on the grammar of graphics [Wilkinson 05], a taxonomy of multidimensional multivariate vis [McGuffin 14], papers on generalized pair plots [Emerson et al. 12] and product plots [Wickham and Hofmann 11], and a recent taxonomy [Heer and Shneiderman 12]. Bertin’s very early book Semiology of Graphics has been a mother lode of inspiration for the entire field and remains thought provoking to this day [Bertin 67].
+
+History The rich history of visual representations of data, with particular attention to statistical graphics such as time-series line chart, the bar chart, the pie chart, and the circle chart, is documented at the extensive web site http://www.datavis. ca/milestones [Friendly 08].
+
+Statistical Graphics A book by statistician Bill Cleveland has an excellent and extensive discussion of the use of many traditional statistical charts, including bar charts, line charts, dot charts, and scatterplots [Cleveland 93b].
+
+Stacked Charts The complex stacked charts idiom of streamgraphs was popularized with the ThemeRiver system [Havre et al. 00]; later work analyzes their geometry and asthetics in detail [Byron and Wattenberg 08].
+
+Bar Charts versus Line Charts A paper from the cognitive psychology literature provides guidelines for when to use bar charts versus line charts [Zacks and Tversky 99].
+
+<!-- Chunk 4 End -->
+
+<!-- Chunk 5 Start -->
+
+Banking to 45 Degrees Early work proposed aspect ratio control by banking to $4 5 ^ { \circ }$ [Cleveland et al. 88,Cleveland 93b]; later work extended this idea to an automatic multiscale framework [Heer and Agrawala 06].
+
+Heatmaps and Matrix Reordering One historical review covers the rich history of heatmaps, cluster heatmaps, and matrix reordering [Wilkinson and Friendly 09]; another covers matrix reordering and seriation [Liiv 10].
+
+Parallel Coordinates Parallel coordinates were independently proposed at the same time by a geometer [Inselberg and Dimsdale 90,Inselberg 09] and a statistician [Wegman 90].
+
+Radial Layouts Radial layouts were characterized through empirical user studies [Diehl et al. 10] and have also been surveyed [Draper et al. 09].
+
+Dense Layouts Dense layouts have been explored extensively for many datatypes [Keim 00]. The SeeSoft system was an early dense layout for text and source code [Eick et al. 92]; Tarantula is a later system using that design choice [Jones et al. 02].
+
+![](images/a1799096d720a07cf9320c5b8f0ce17daa5bc4e9349f64988c3f938dbe2b6553.jpg)
+
+#
+---
+Node: 8.7 Further Reading
+Primary concept extracted from chunk
+# 8.7 Further Reading
+
+History Thematic cartography, where statistical data is overlaid on geographic maps, blossomed in the 19th century. Choropleth maps, where shading is used to show a variable of interest, were introduced, as were dot maps and proportional symbol maps. The history of thematic cartography, including choropleth maps, is documented at the extensive web site http://www.datavis.ca/milestones [Friendly 08].
+
+Cartography A more scholarly but still accessible historical review of thematic cartography is structured around the ideas of marks and channels [MacEachren 79]; MacEachren’s fulllength book contains a deep analysis of cartographic representation, visualization, and design with respect to both cognition and semiotics [MacEachren 95]. Slocum’s textbook on cartography is a good general reference for the vis audience [Slocum et al. 08].
+
+Spatial Fields One overview chapter covers a broad set of spatial field visual encoding and interaction idioms [Schroeder and Martin 05]; another covers isosurfaces and direct volume rendering in particular [Kaufman and Mueller 05].
+
+Isosurfaces Edmond Halley presented isolines in 1686 and contour plots in 1701. The standard algorithm for creating isosurfaces is Marching Cubes, proposed in 1987 [Lorensen and Cline 87]; a survey covers some of the immense amount of followup work that has occurred since then [Newman and Yi 06]. Flexible isosurfaces are discussed in a paper [Carr et al. 04].
+
+Direct Volume Rendering The Real-Time Volume Graphics book is an excellent springboard for further investigation of direct volume rendering [Engel et al. 06]. The foundational algorithm papers both appeared in 1988 from two independent sources: Pixar [Drebin et al. 88], and UNC Chapel Hill [Levoy 88]. The Simian system supports multidimensional transfer function construction [Kniss 02,Kniss et al. 05].
+
+Vector Fields An overview chapter provides a good introduction to flow vis [Weiskopf and Erlebacher 05]. A series of state-ofthe-art reports provide more detailed discussion of three flow vis idioms families: geometric [McLouglin et al. 10], texture based [Laramee et al. 04], and feature based [Post et al. 03]. The foundational algorithm for texture-based flow vis is Line Integral Convolution (LIC) [Cabral and Leedom 93].
+
+Tensor Fields The edited collection Visualization and Processing of Tensor Fields contains 25 chapters on different aspects of tensor field vis, providing a thorough overview [Weickert and Hagen 06]. One of these chapters is a good introduction to diffusion tensor imaging in particular [Vilanova et al. 06], including a comparison between ellipsoid tensor glyphs and superquadric tensor glyphs [Kindlmann 04].
+
+![](images/ecb923eb3bf6d00f6d9018daf226dff72711890b4cde9f69106e6871c643f40e.jpg)
+
+#
+---
+Node: Arrange Networks and Trees
+Primary concept extracted from chunk
+# Arrange Networks and Trees
+
+$\textcircled{3}$ Node –Link Diagrams Connec tion Marks
+
+![](images/b6f7f04b1a5e74e0aae2b00b6f6359f41b7956e8a0e3e8eaaf04fc9ecb121fb5.jpg)
+
+NE T WORKS
+
+![](images/c67edbadab73de1370849a2612ec40a0252ee0054d3c2b8caa035be966422e53.jpg)
+
+![](images/7fa3c3d40ff67eaef8d5e0969d11670d905b8a91b1381380f744649540bd8703.jpg)
+
+$\circled{ \div}$ Adjacenc y Matrix Derived Table
+
+![](images/9604ebe1cac78dcab8c65ecbe876bcde6efe84dcc399f5a169ab62685f644a09.jpg)
+
+NE T WORKS
+
+![](images/fddcadd884e9e1d53f1051ef2cf5acde0b93fa5c622787245cfcde4f4772cd8e.jpg)
+
+TREES
+
+![](images/9328358859de84d18695a40f233a900e70faa0d1476b46ba2ed1c9233489b950.jpg)
+
+$\circled{ \div}$ Enclosure
+
+Containment Marks
+
+![](images/c4311510efa39dddf6325ffbbc420859c3fb08d40dde6e8183580dd7c7b85b0d.jpg)
+
+NE T WORKS
+
+![](images/03cf27ba9b4d54954364af78f56c5eae2950298d89ef605ea5252cf54d22c3d9.jpg)
+
+TREES
+
+![](images/b11ecbd440d3588bf86d489df0b897aeaaa4c14ce90f082906ebb6c4a70e0eb3.jpg)  
+Figure 9.1. Design choices for arranging networks.
+---
+Node: 9.6 Further Reading
+Primary concept extracted from chunk
+# 9.6 Further Reading
+
+Network Layout An early survey of network vis [Herman et al. 00] was followed by one covering more recent developments [von Landesberger et al. 11]. A good starting point for network layout algorithms is a tutorial that covers node–link, matrix, and hybrid approaches, including techniques for ordering the nodes [McGuffin 12]. An analysis of edge densities in node– link graph layouts identifies the limit of readability as edge counts beyond roughly four times the node count [Melanc¸on 06].
+
+Force-Directed Placement Force-directed placement has been heavily studied; a good algorithmically oriented overview appears in a book chapter [Brandes 01]. The Graph Embedder (GEM) algorithm is a good example of a sophisticated placement algorithm with built-in termination condition [Frick et al. 95].
+
+Multilevel Network Layout Many multilevel layouts have been proposed, including sfdp $[ \mathrm { H u } ~ 0 5 ]$ , $\mathrm { F M ^ { 3 } }$ [Hachul and Junger ¨ 04], and TopoLayout [Archambault et al. 07b].
+
+Matrix versus Node–Link Views The design space of matrix layouts, node–link layouts, and hybrid combinations were considered for the domain of social network analysis [Henry and Fekete 06, Henry et al. 07]. The results of an empirical study were used to characterize the uses of matrix versus node–link views for a broad set of abstract tasks [Ghoniem et al. 05].
+
+Design Space of Tree Drawings A hand-curated visual bibliography of hundreds of different approaches to tree drawing is available at http://treevis.net [Schulz 11]. Design guidelines for a wide
+
+variety of 2D graphical representations of trees are the result of analyzing their space efficiency [McGuffin and Robert 10]. Another analysis covers the design space of approaches to tree drawing beyond node–link layouts [Schulz et al. 11].
+
+Treemaps Treemaps were first proposed at the University of Maryland [Johnson and Shneiderman 91]. An empirical study led to perceptual guidelines for creating treemaps by identifying the data densities at which length-encoded bar charts become less effective than area-encoded treemaps [Kong et al. 10].
+---
+Node: Toolglass and Magic Lenses
+Primary concept extracted from chunk
+# Toolglass and Magic Lenses
+
+Spatial, quantitative curvature attribute across surface.
+
+How: Encode
+
+Use given, color by curvature.
+
+How: Reduce
+
+Embed: superimpose.
+---
+Node: 15.9 Further Reading
+Primary concept extracted from chunk
+# 15.9 Further Reading
+
+Graph-Theoretic Scagnostics Scagnostics builds on ideas originally proposed by statisticians John and Paul Tukey [Wilkinson et al. 05, Wilkinson and Wills 08].
+
+VisDB The VisDB system was an early proposal of dense displays for multidimensional tables [Keim and Kriegel 94].
+
+Hierarchical Clustering Explorer Different aspects of the Hierarchical Clustering Explorer system are described in a series of papers [Seo and Shneiderman 02,Seo and Shneiderman 05].
+
+PivotGraph The PivotGraph system visually encodes a different derived data abstraction than most network vis idioms [Wattenberg 06].
+
+InterRing The InterRing system supports hierarchy exploration through focus+context interaction with geometric distortion and multiple foci. [Yang et al. 02].
+
+Constellation The Constellation system supports browsing a complex multilevel network with a specialized layout and dynamic layering [Munzner et al. 99,Munzner 00].
+
+![](images/56154ad24ca6ab41ef30fa0ea56c4497d317566ca930f19919cc18c461703452.jpg)
+
+#
+---
+Node: Figure Credits
+Primary concept extracted from chunk
+# Figure Credits
+
+Any figures not listed here are released under the Creative Commons Attribution 4.0 International license (CC BY 4.0), to be credited as Tamara Munzner, with illustrations by Eamonn Maguire, Visualization Analysis and Design, A K Peters Visualization Series, CRC Press, Boca Raton, FL, 2014.
+
+Figure 1.1 Copyright $\circledcirc$ 2013 by IEEE.
+
+Figure 1.2 Reproduced under Creative Commons Attribution Non-Commercial license (CC BY-NC 2.0).
+
+Figure 1.4 Copyright $\circledcirc$ 2007 by IEEE.
+
+Figure 1.5 Courtesy of Miriah Meyer.
+
+Figure 1.6 Michael J. McGuffin and Jean-Marc Robert, Information Visualization (9:2) pp. 115-140, copyright $\circledcirc$ 2010 by SAGE Publications. Reprinted by Permission of SAGE.
+
+Figure 2.5 Courtesy of Miriah Meyer.
+
+Figure 2.9 Courtesy of Miriah Meyer.
+
+Figure 3.4 Copyright $\circledcirc$ 2008 by IEEE.
+
+Figure 3.8(a) Courtesy of Catherine Plaisant.
+
+Figure 3.8(b) [Munzner et al. 03] $\circledcirc$ 2003 Association for Computing Machinery, Inc. Reprinted by permission.
+
+Figure 3.10 Courtesy of David Auber.
+
+Figure 3.12 Copyright $\circledcirc$ 1998 by IEEE.
+
+Figure 4.3 Copyright $\circledcirc$ 2008 by IEEE.
+
+Figure 4.6 Copyright $\circledcirc$ 2005 by IEEE.
+
+Figure 4.8 Copyright $\circledcirc$ 2006 by IEEE.
+
+Figure 4.10 Copyright $\circledcirc$ 2005 by IEEE.
+
+Figure 4.12 [McLachlan et al. 08] $\circledcirc$ 2008 Association for Computing Machinery, Inc. Reprinted by permission.
+
+Figure 4.14 Springer, Graph Drawing, Lecture Notes in Computer Science, 2912, 2004, pages 425- 436, “An Energy Model for Visual Graph Clustering,” Andreas Noack, Figure 1, copyright $\circledcirc$ 2004 Springer. With kind permission from Springer Science and Business Media.
+
+Original caption: Pseudo-random graph with intra-cluster edge probability 0.16 and intercluster edge probability 0.02; left: LinLog model.
+
+Figure 4.16 [Heer et al. 09] $\circledcirc$ 2010 Association for Computing Machinery, Inc. Reprinted by permission.   
+Figure 5.8 [Heer and Bostock 10] $\circledcirc$ 2010 Association for Computing Machinery, Inc. Reprinted by permission.   
+Figure 5.9 Courtesy of TeleGeography, www.telegeography.com.   
+Figure 5.14 Courtesy of Edward H. Adelson. $\circledcirc$ 1995 Edward H. Adelson.   
+Figure 5.15 Courtesy of Dale Purves, http://www.purveslab.net/seeforyourself.   
+Figure 6.3 Copyright $\circledcirc$ 1996 by IEEE.   
+Figure 6.4 Courtesy of Stephen Few. An example of poor design, from http://perceptualedge.com/ files/GraphDesignIQ.html.   
+Figure 6.5 Copyright $\circledcirc$ 1996 by IEEE.   
+Figure 6.6 Copyright $\circledcirc$ 2007 by IEEE.   
+Figure 6.7 Copyright $\circledcirc$ 1999 by IEEE.   
+Figure 6.8 Copyright $\circledcirc$ 2010 by IEEE.   
+Figure 6.9 Copyright $\circledcirc$ 2007 by IEEE.   
+Figure 7.2 Copyright $\circledcirc$ 2008 by IEEE.   
+Figure 7.3 “A layered grammar of graphics,” Hadley Wickham, Journal of Computational and Graphical Statistics 19:1 (2010), 3-28. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
+Figure 7.5 Courtesy of Robert P. Bosch, Jr.   
+Figure 7.6 Copyright $\circledcirc$ 2008 by IEEE.   
+Figure 7.7 Copyright $\circledcirc$ 2008 by IEEE.   
+Figure 7.10 Copyright $\circledcirc$ 2006 by IEEE.   
+Figure 7.11 From http://en.wikipedia.org/wiki/File:Heatmap.png. Created by Miguel Andrade using the program Cluster from Michael Eisen, which is available from http://rana.lbl.gov/ EisenSoftware.htm, with data extracted from the StemBase database of gene expression data.   
+Figure 7.13 “Hyperdimensional Data Analysis Using Parallel Coordinates,” Edward J. Wegman, Journal American Statistical Association 85:411 (1990), 664–675. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
+Figure 7.14 Copyright $\circledcirc$ 1999 by IEEE.   
+Figure 7.15(a,b) “A layered grammar of graphics,” Hadley Wickham, Journal of Computational and Graphical Statistics 19:1 (2010), 3-28. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
+Figure 7.17 “A layered grammar of graphics,” Hadley Wickham, Journal of Computational and Graphical Statistics 19:1 (2010), 3-28. Reprinted by permission of the American Statistical Association (http://www.amstat.org).
+---
+Node: chapter 19 Chapter 15 chunk 009 Figure Credits 2
+Primary concept extracted from chunk
+Figure 7.18 Courtesy of Michael Bostock, made with D3 [Bostock et al. 11]. From http://bl.ocks. org/mbostock/3887235, http://bl.ocks.org/mbostock/3886208, and http://bl.ocks.org/ mbostock/3886394.   
+Figure 7.19 Copyright $\circledcirc$ 2012 John Wiley & Sons, Ltd.   
+Figure 7.20 Courtesy of John Stasko.   
+Figure 8.2 Courtesy of Michael Bostock, made with D3 [Bostock et al. 11]. From http://bl.ocks.org/ mbostock/4060606.   
+Figure 8.3 Courtesy of Joe Kniss.   
+Figure 8.4 Courtesy of Land Information New Zealand Data Service (CC BY 3.0 NZ). From https:// data.linz.govt.nz/layer/768-nz-mainland-contours-topo-150k.   
+Figure 8.5 Copyright $\circledcirc$ 2004 by IEEE.   
+Figure 8.6 Copyright $\circledcirc$ 2004 by IEEE.   
+Figure 8.7 Copyright $\circledcirc$ 2005 by IEEE.   
+Figure 8.8 Reprinted from Computers and Graphics, Vol. 26, No. 2, Xavier Tricoche, Thomas Wischgoll, Gerik Scheuermann, and Hans Hagen, “Topology tracking for the visualization of time-dependent two-dimensional flows,” Pages 249–257, Copyright 2002, with permission from Elsevier.   
+Figure 8.9 Copyright $\circledcirc$ 2013 by IEEE.   
+Figure 8.10 Copyright $\circledcirc$ 2005 by IEEE.   
+Figure 8.11 Courtesy of Gordon Kindlmann. From http://www.cs.utah.edu/~gk/papers/vis99/ppt/ slide03.html.   
+Figure 8.12 Copyright $\circledcirc$ 2004 by IEEE.   
+Figure 8.13 Copyright $\circledcirc$ 2004 by IEEE.   
+Figure 9.2(a) Springer, Graph Drawing, Lecture Notes in Computer Graphics 2528, 2002, pages 344– 353, “Improving Walkers Algorithm to Run in Linear Time,” Christoph Buchheim, Michael Junger, and Sebastien Leipert, Figure 2d, copyright $\circledcirc$ 2002 Springer. With kind permission from Springer Science and Business Media.   
+Original caption: Extending the Reingold-Tilford algorithm to trees of unbounded degree.   
+Figure 9.2(b) Courtesy of Michael Bostock, made with D3 [Bostock et al. 11]. From http://mbostock. github.com/d3/ex/tree.html.   
+Figure 9.3 Courtesy of David Auber, made with Tulip [Auber et al. 12].   
+Figure 9.4 Courtesy of Michael Bostock, made with D3 [Bostock et al. 11]. From http://bl.ocks.org/ mbostock/4062045 and http://bl.ocks.org/1062288.   
+Figure 9.5 From “A Gallery of Large Graphs,” JDG Homologycis-n4c6, b14 and b4. Courtesy of Yifan Hu; see http://yifanhu.net/GALLERY/GRAPHS/citation.html.   
+Figure 9.6 Reprinted by permission from Macmillan Publishers Ltd: Nature Methods [Gehlenborg and Wong 12], copyright 2012.
+
+Figure 9.7 Courtesy of Michael McGuffin, from http://www.michaelmcguffin.com/courses/vis/ patternsInAdjacencyMatrix.png.   
+Figure 9.8 Courtesy of David Auber, made with Tulip [Auber et al. 12].   
+Figure 9.9 Michael J. McGuffin and Jean-Marc Robert, Information Visualization (9:2) pp. 115–140, copyright $\circledcirc$ 2010 by SAGE Publications. Reprinted by Permission of SAGE.   
+Figure 9.10 Copyright $\circledcirc$ 2008 by IEEE.   
+Figure 10.8 Reproduced under Creative Commons Attribution license (CC BY 2.0).   
+Figure 10.9 Copyright $\circledcirc$ 2012 by IEEE.   
+Figure 10.10 Copyright $\circledcirc$ 2012 by IEEE.   
+Figure 10.11 Copyright $\circledcirc$ 1998 by IEEE.   
+Figure 10.12 Copyright $\circledcirc$ 1995 by IEEE.   
+Figure 10.13 Courtesy of Gordon Kindlmann, from http://www.cs.utah.edu/~gk/lumFace.   
+Figure 11.2 Courtesy of Michael McGuffin, made using Tableau, http://tableausoftware.com.   
+Figure 11.3 Copyright $\circledcirc$ 2013 by IEEE.   
+Figure 11.4 Copyright $\circledcirc$ 2013 by IEEE.   
+Figure 11.5 Copyright $\circledcirc$ 2003 by IEEE.   
+Figure 11.6 Copyright $\circledcirc$ 2011 by IEEE.   
+Figure 11.7 [McLachlan et al. 08] $\circledcirc$ 2008 Association for Computing Machinery, Inc. Reprinted by permission.   
+Figure 11.8 $\circledcirc$ 2008 Christian Rieder, Felix Ritter, Matthias Raspe, and Heinz-Otto Peitgen. Computer Graphics Forum $\circledcirc$ 2008 The Eurographics Association and Blackwell Publishing Ltd.   
+Figure 11.9 Copyright $\circledcirc$ 1993 by IEEE.   
+Figure 12.2 Reproduced with permission from Graham Wills.   
+Figure 12.4 Copyright $\circledcirc$ 2003 by IEEE.   
+Figure 12.5 Copyright $\circledcirc$ 2008 by IEEE.   
+Figure 12.7 Reproduced under Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0); created by Chris Weaver of The University of Oklahoma, from http://www.cs. ou.edu/~weaver/improvise/examples/census.   
+Figure 12.8 Courtesy of Michael Bostock, made with D3 [Bostock et al. 11]. From http://bl.ocks.org/ mbostock/3887051, after http://bl.ocks.org/mbostock/4679202.   
+Figure 12.9 “The Visual Design and Control of Trellis Display,” Ronald A. Becker, William S. Cleveland, and Ming-Jen Shyu, Journal of Computational and Statistical Graphics 5:2 (1996), 123– 155. Reprinted by permission of the American Statistical Association (http://www.amstat. org).
+---
+Node: chapter 19 Chapter 15 chunk 009 Figure Credits 3
+Primary concept extracted from chunk
+Figure 12.10 “The Visual Design and Control of Trellis Display,” Ronald A. Becker, William S. Cleveland, and Ming-Jen Shyu, Journal of Computational and Statistical Graphics 5:2 (1996), 123– 155. Reprinted by permission of the American Statistical Association (http://www.amstat. org).   
+Figure 12.11 Copyright $\circledcirc$ 2009 by IEEE.   
+Figure 12.12 Copyright $\circledcirc$ 2009 by IEEE.   
+Figure 12.13 From [Stone 10], courtesy of Maureen Stone; original color image by National Park Service, http://www.nps.gov/pore/planyourvisit/upload/map pore areamap.pdf.   
+Figure 12.15 Copyright $\circledcirc$ 2010 by IEEE.   
+Figure 12.16 Copyright $\circledcirc$ 2006 by IEEE.   
+Figure 12.17 Reproduced under Creative Commons Attribution Non-Commercial license (CC BY-NC 2.0).   
+Figure 13.2 [Ahlberg and Shneiderman 94] $\circledcirc$ 1994 Association for Computing Machinery, Inc. Reprinted by permission. Courtesy of Human-Computer Interaction Lab, University of Maryland.   
+Figure 13.3 Copyright $\circledcirc$ 2007 by IEEE.   
+Figure 13.4 Copyright $\circledcirc$ 2003 by IEEE.   
+Figure 13.6 Copyright $\circledcirc$ 2008 by IEEE.   
+Figure 13.7 “40 years of boxplots,” Hadley Wickham and Lisa Stryjewski, The American Statistician. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
+Figure 13.8 Copyright $\circledcirc$ 1998 by IEEE.   
+Figure 13.9 Copyright $\circledcirc$ 1999 by IEEE.   
+Figure 13.10 Courtesy of Adrienne Gruver, Penn State Geography.   
+Figure 13.11 Copyright $\circledcirc$ 2007 by IEEE.   
+Figure 13.12 Copyright $\circledcirc$ 2009 by IEEE.   
+Figure 14.2 Copyright $\circledcirc$ 2004 by IEEE.   
+Figure 14.3 [Bier et al. 93] $\circledcirc$ 1993 Association for Computing Machinery, Inc. Reprinted by permission.   
+Figure 14.4 Copyright $\circledcirc$ 1997 by IEEE.   
+Figure 14.5 Courtesy of David Auber, made with Tulip [Auber et al. 12].   
+Figure 14.6 Copyright $\circledcirc$ 1998 by IEEE.   
+Figure 14.7 [Munzner et al. 03] $\circledcirc$ 2003 Association for Computing Machinery, Inc. Reprinted by permission.   
+Figure 14.8 Copyright $\circledcirc$ 2006 by IEEE.   
+Figure 14.9 Copyright $\circledcirc$ 1998 by IEEE.   
+Figure 14.10 Copyright $\circledcirc$ 2010 by IEEE.
+
+Figure 15.2 Copyright $\circledcirc$ 2005 by IEEE.   
+Figure 15.3 “Scagnostics Distributions,” Leland Wilkinson and Graham Wills, Journal of Computational and Graphical Statistics (JCGS) 17:2 (2008), 473–491. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
+Figures 15.4 and 15.1(a) Copyright $\circledcirc$ 2005 by IEEE.   
+Figure 15.5 Copyright $\circledcirc$ 1994 by IEEE.   
+Figures 15.6 and 15.1(b) Copyright $\circledcirc$ 1994 by IEEE.   
+Figure 15.7 Copyright $\circledcirc$ 1994 by IEEE.   
+Figure 15.8 Copyright $\circledcirc$ 2002 by IEEE. Courtesy of Human-Computer Interaction Lab, University of Maryland.   
+Figures 15.9 and 15.1(c) Copyright $\circledcirc$ 2005 by IEEE. Courtesy of Human-Computer Interaction Lab, University of Maryland.   
+Figure 15.10 Copyright $\circledcirc$ 2005 by IEEE. Courtesy of Human-Computer Interaction Lab, University of Maryland.   
+Figure 15.11 [Wattenberg 06] $\circledcirc$ 2006 Association for Computing Machinery, Inc. Reprinted by permission.   
+Figures 15.12 and 15.1(d) [Wattenberg 06] $\circledcirc$ 2006 Association for Computing Machinery, Inc. Reprinted by permission.   
+Figures 15.13 and 15.1(e) Copyright $\circledcirc$ 2002 by IEEE.   
+Figure 15.14–15.20 and 15.1(f) From the PhD thesis of Tamara Munzner [Munzner 00].
+---
+Node: Bibliography
+Primary concept extracted from chunk
+# Bibliography
+
+[Ahlberg and Shneiderman 94] Chris Ahlberg and Ben Shneiderman. “Visual Information Seeking: Tight Coupling of Dynamic Query Filters with Starfield Displays.” In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), pp. 313–317. ACM, 1994. DOI 10.1145/259963.260390. (pages 301, 302, 320, 373)   
+[Aigner et al. 11] Wolfgang Aigner, Silvia Miksch, Heidrun Schumann, and Christian Tominski. Visualization of Time-Oriented Data. Springer, 2011. (page 40)   
+[Amar et al. 05] Robert Amar, James Eagan, and John Stasko. “Low-Level Components of Analytic Activity in Information Visualization.” In Proceedings of the IEEE Symposium on Information Visualization (InfoVis), pp. 111–117. IEEE Computer Society, 2005. (page 64)   
+[Andre and Wickens 95] Anthony D. Andre and Christopher D. Wickens. “When Users Want What’s Not Best for Them.” Ergonomics in Design: The Quarterly of Human Factors Applications 3:4 (1995), 10–14. (page 129)   
+[Andrews 08] Keith Andrews. “Evaluation Comes in Many Guises.” AVI Workshop on BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV) Position Paper, 2008. http://www.dis.uniroma1.it/beliv08/pospap/andrews.pdf. (page 79)   
+[Ankerst et al. 98] Michael Ankerst, Stefan Berchtold, and Daniel A. Keim. “Similarity Clustering of Dimensions for an Enhanced Visualization of Multidimensional Data.” In Proceedings of the IEEE Symposium on Information Visualization (InfoVis), pp. 52–60. IEEE Computer Society, 1998. (pages 305, 321)   
+[Anscombe 73] F.J. Anscombe. “Graphs in Statistical Analysis.” American Statistician 27 (1973), 17–21. (pages 7, 8, 19)   
+[Archambault et al. 07a] Daniel Archambault, Tamara Munzner, and David Auber. “Grouse: Feature-Based, Steerable Graph Hierarchy Exploration.” In Proceedings of the Eurographics/IEEE VGTC Symposium on Visualization (EuroVis), pp. 67–74. Eurographics, 2007. (page 10)   
+[Archambault et al. 07b] Daniel Archambault, Tamara Munzner, and David Auber. “TopoLayout: Multilevel Graph Layout by Topological Features.” IEEE Transactions on Visualization and Computer Graphics 13:2 (2007), 305–317. (page 216)   
+[Archambault et al. 08] Daniel Archambault, Tamara Munzner, and David Auber. “GrouseFlocks: Steerable Exploration of Graph Hierarchy Space.” IEEE Transactions on Visualization and Computer Graphics 14:4 (2008), 900–913. (page 215)
+
+<!-- Chunk 8 End -->
+
+<!-- Chunk 9 Start -->
+
+[Auber et al. 12] David Auber, Daniel Archambault, Romain Bourqui, Antoine Lambert, Morgan Mathiaut, Patrick Mary, Maylis Delest, Jonathan Dubois, and Guy Melanc¸on. “The Tulip 3 Framework: A Scalable Software Library for Information Visualization Applications Based on Relational Data.” Technical report, INRIA Research Report 7860, 2012. (pages 371, 372, 373)   
+[Auber 02] David Auber. “Using Strahler Numbers for Real Time Visual Exploration of Huge Graphs.” Journal of WSCG (International Conference on Computer Vision and Graphics) 10:1–3 (2002), 56–69. (pages 61, 61, 65)   
+[Bachthaler and Weiskopf 08] Sven Bachthaler and Daniel Weiskopf. “Continuous Scatterplots.” IEEE Transactions on Visualization and Computer Graphics (Proc. Vis 08) 14:6 (2008), 1428–1435. (pages 307, 308)   
+[Baldonado et al. 00] Michelle Q. Wang Baldonado, Allison Woodruff, and Allan Kuchinsky. “Guidelines for Using Multiple Views in Information Visualizations.” In Proceedings of the International Working Conference on Advanced Visual Interfaces (AVI), pp. 110–119. ACM, 2000. (page 296)   
+[Barsky et al. 07] Aaron Barsky, Jennifer L. Gardy, Robert E. Hancock, and Tamara Munzner. “Cerebral: A Cytoscape Plugin for Layout of and Interaction with Biological Networks Using Subcellular Localization Annotation.” Bioinformatics 23:8 (2007), 1040–1042. (pages 5, 6, 295)   
+[Barsky et al. 08] Aaron Barsky, Tamara Munzner, Jennifer Gardy, and Robert Kincaid. “Cerebral: Visualizing Multiple Experimental Conditions on a Graph with Biological Context.” IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis 08) 14:6 (2008), 1253–1260. (pages 274, 275)   
+[Becker and Cleveland 87] Richard A. Becker and William S. Cleveland. “Brushing Scatterplots.” Technometrics 29 (1987), 127–142. (page 296)   
+[Becker et al. 96] Ronald A. Becker, William S. Cleveland, and Ming-Jen Shyu. “The Visual Design and Control of Trellis Display.” Journal of Computational and Statistical Graphics 5:2 (1996), 123–155. (pages 155, 282, 283, 284)   
+[Bederson and Hollan 94] Ben Bederson and James D Hollan. “Pad++: A Zooming Graphical Interface for Exploring Alternate Interface Physics.” In Proceedings of the Symposium on User Interface Software and Technology (UIST), pp. 17–26. ACM, 1994. (page 262)   
+[Bergman et al. 95] Lawrence D. Bergman, Bernice E. Rogowitz, and Lloyd A. Treinish. “A Rule-Based Tool for Assisting Colormap Selection.” In Proceedings of the IEEE Conference on Visualization (Vis), pp. 118–125. IEEE Computer Society, 1995. (pages 232, 240)   
+[Bertin 67] Jacques Bertin. Semiologie ´ Graphique: Les diagrammes—Les reseaux—Les ´ cartes. Gauthier-Villard, 1967. Reissued by Editions de l’Ecole des Hautes Etudes en Sciences in 1999. (pages 19, 114, 175)   
+[Bier et al. 93] Eric A. Bier, Maureen C. Stone, Ken Pier, William Buxton, and Tony D. DeRose. “Toolglass and Magic Lenses: The See-Through Interface.” In Proceedings of the Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH), pp. 73–80. ACM, 1993. DOI 10.1145/166117.166126. (pages 326, 373)   
+[Booshehrian et al. 11] Maryam Booshehrian, Torsten Moller ¨ , Randall M. Peterman, and Tamara Munzner. “Vismon: Facilitating Risk Assessment and Decision Making in Fisheries Management.” Technical report, School of Computing Science, Simon Fraser University, Technical Report TR 2011-04, 2011. (page 167)
+---
+Node: Idiom and System Examples Index
+Primary concept extracted from chunk
+# Idiom and System Examples Index
+
+3D Perspective, 327–328
+
+Adjacency Matrix View, 208–209
+
+Animated Transitions, 248–249
+
+Bar Charts, 150–151
+
+Bird’s-Eye Maps, 270–271
+
+Boxplot Charts, 308–310
+
+Cartographic Layering, 289–290
+
+Cerebral, 274–275
+
+Choropleth Maps, 181
+
+Cluster Heatmaps, 158–160
+
+Cluster–Calendar Time-Series Vis, 125–127
+
+Constellation, 360–366, 367
+
+Context-Preserving Visual Links, 253
+
+Continuous Scatterplots, 307–308
+
+Dense Software Overviews, 172–174
+
+Dimensionality Reduction for Document Collections, 316–319
+
+DOITrees Revisited, 325
+
+DOSFA, 304
+
+Dot and Line Charts, 155–156
+
+Ellipsoid Tensor Glyphs, 194–196
+
+Exploratory Data Visualizer (EDV), 268–269
+
+FilmFinder, 301–302
+
+Fisheye Lens, 328–329
+
+Flexible Isosurfaces, 185–186
+
+Flow Maps, 85–87
+
+Force-Directed Placement, 204–206
+
+Genealogical Graphs, 81–83
+
+Geographically Weighted Boxplots, 313–315
+
+Graph-Theoretic Scagnostics, 342–346, 366
+
+GrouseFlocks, 215–216
+
+Hierarchical Clustering Explorer (HCE), 351–355, 367
+
+Hierarchical Edge Bundles, 292–294
+
+Hierarchical Parallel Coordinates, 311–312
+
+Histograms, 306
+
+Hyperbolic Geometry, 329–331
+
+HyperSlice, 259–260
+
+Improvise, 277–278
+
+InterRing, 358–359, 367
+
+Layer-Oriented Time-Series Vis, 128
+
+LineUp, 246–248
+
+Linked Derived Feature Spaces, 62–64, 65
+
+LinLog, 89–90
+
+LiveRAC, 87–89
+
+MatrixExplorer, 83–84
+
+Multidimensional Transfer Functions, 187–188
+
+Multiform Overview–Detail Microarrays, 271–273
+
+Multiscale Banking to $4 5 ^ { \circ }$ , 156–157
+
+Nonlinear Magnification Fields, 333–334
+
+Parallel Coordinates, 162–166
+
+Pie Charts, 168–170
+
+PivotGraph, 355–358, 367
+
+Radial Bar Charts, 167–168
+
+Scatterplot Matrix, 160–161
+
+Scatterplots, 146–148
+
+sfdp, 207–208
+
+Similarity-Clustered Streamlines, 192–193
+
+Sizing the Horizon, 90–91
+
+SolarPlot, 310–311
+
+SpaceTree, 59–60, 65
+
+Stacked Bar Charts, 151–153
+
+Strahler Numbers for Trees, 60–61, 65
+
+Streamgraphs, 153–154
+
+Stretch and Squish Navigation, 331–333
+
+Superimposed Line Charts, 290–291
+
+Tableau, 244–245
+
+Toolglass and Magic Lenses, 326
+
+Topographic Terrain Maps, 183–184
+
+TreeJuxtaposer, 59–60, 65
+
+Treemaps, 213–214
+
+Trellis, 282–284
+
+VisDB, 347–350, 367
+---
+Node: Concept Index
+Primary concept extracted from chunk
+# Concept Index
+
+abstract data, see nonspatial data
+
+abstraction, 70–71, 78, 92
+
+accuracy, 103
+
+actions, 45
+
+adjacency matrix, 83, 208, 210–213, 216
+
+advection, 190
+
+affine invariant, 320
+
+aggregate, 305–316
+
+aggregation, 305, 320, 324, 351, 355
+
+algorithm, 72–73, 80–81, 92
+
+alpha sliders, 301
+
+analyze, 45
+
+animated transitions, 248, 257, 261
+
+animation, 132–133, 141, 248
+
+anisotropic, 195
+
+annotate, 49
+
+anomalies, see outliers
+
+arrange, 145–217
+
+array, see list
+
+aspect ratio, 156
+
+attribute, 23, 25, 40
+
+categorical, 32
+
+cyclic, 33
+
+dependent, 40
+
+dimension, 40
+
+diverging, 33
+
+independent, 40
+
+interval, 33
+
+key, 40, 145–161
+
+measure, 40
+
+ordered, 32
+
+ordinal, 32
+
+quantitative, 33
+
+ratio, 33
+
+sequential, 33
+
+temporal, 38, 40
+
+value, 40, 145–149
+
+attribute aggregation, see dimensionality reduction (DR)
+
+attribute filtering, 303–305
+
+attribute ordering, 305
+
+attribute reduction, 321
+
+attribute synthesis, see dimensionality reduction (DR)
+
+bag of words, 316
+
+banking to $4 5 ^ { \circ }$ , 157, 175
+
+bar charts, 149–153, 167–170, 175
+
+benchmarks, 80
+
+biclustering, see matrix reordering
+
+bifocal displays, see also focus+context, 337
+
+binary, 234
+
+binned colormap, see colormap, segmented
+
+bins, 106
+
+bivariate, see colormap, bivariate
+
+block, 68
+
+box-and-whisker diagrams, see boxplots
+
+boxplots, 308–310, 313–315, 320
+
+brightness, 223
+
+Bring and Go, 337
+
+browse, 54
+
+brushing, see linked highlighting
+
+bubble plots, 148
+
+bump charts, see slope graphs
+
+cartogram, 98
+
+cartographic generalization, 180
+
+cell, 25, 27
+
+centrality metrics, 60
+
+change, 244–249, 261
+
+change blindness, 15, 19, 133–134, 142
+
+channel, 95–99
+
+aligned spatial position, 101
+
+angle, 101, 236–237
+
+area, 101
+
+curvature, 101, 237–238
+
+depth, 101
+
+hue, see also hue, 101
+
+identity, 99
+
+channel (continued)
+
+length, 101
+
+luminance, see also
+
+luminance, 101
+
+magnitude, 99
+
+motion, 101, 238–239
+
+region, 101
+
+saturation, see also
+
+saturation, 101
+
+shape, 238
+
+size, 236
+
+tilt, 237
+
+unaligned spatial
+
+position, 101
+
+volume, 101
+
+chart, 26
+
+choropleth, 181
+
+chromaticity, 220
+
+clipping plane, see cutting plane
+
+clique, 211
+
+cluster heatmap, 160, 351
+
+cluster hierarchy, 160
+
+clusters, 30, 89
+
+co-clustering, see matrix reordering
+
+coarsening, 206
+
+cognitive load, 132
+
+color, 223
+
+color blindness, 220, 235
+
+color constancy, 114
+
+color deficiency, see color blindness
+
+color ramp, see colormap
+
+color space, 220
+
+HSL, 220
+
+$L ^ { * } a ^ { * } b ^ { * }$ , 222
+
+RGB, 220
+
+colormap, 225
+
+bivariate, 234
+
+categorical, 225, 226
+
+continuous, 225
+
+diverging, 225, 231
+
+monotonically increasing
+
+luminance, 232
+
+ordered, 225, 229–234
+
+segmented, 225
+
+sequential, 225, 229
+
+compare, 54, 55
+
+compound network, 30, 215, 292
+
+conditioning, see partitioning
+
+cones, 219
+
+connection, 99, 201–210, 212–213
+
+constrained navigation, 257, 262, 327
+
+consume, 45
+
+containment, 99, 213–216
+
+context, 323
+
+continuous, 27
+
+contour lines, see isolines
+
+contour plot, 129, 183
+
+contour tree, 185
+
+coordinate, 267–278, 296
+
+coordinated multiple views, see linked views
+
+coordinated views, see linked views
+
+correlation, 57
+
+coupled views, see linked views
+
+coxcomb plot, see polar area chart
+
+critical points, 189
+
+cross-filtering, see linked highlighting
+
+cross-hatching, see stippling
+
+curvature, 238
+
+cut, 260
+
+cutting plane, 260
+
+data, see also dataset, 24
+
+data abstraction, 21–40, 70–71
+
+data dimension, see attribute
+
+data types, 23
+
+data–ink ratio, see information density
+
+dataset, 24
+
+dataset types, 24
+
+degree of interest (DOI), 324
+
+degree-of-interest models, see focus+context
+
+dendrogram, 160
+
+dense, 171–174, 176, 347
+
+dependency, 57
+
+dependent attribute, see attribute, value
+
+depth cues, 118
+
+derive, 50–53, 60–65
+
+derived attributes, 51
+
+design study, 73, 91
+
+detail in context, see focus+context
+
+detail-on-demand, 271
+
+deterministic, 205
+
+deuteranopia, 220
+
+deviants, see outliers
+
+dimension, see also attribute; attribute, key, 304
+
+0D, 95
+
+1D, 95
+
+2D, 95
+
+3D, 95
+
+dimensional filtering, 261
+
+dimensional ordering, see attribute ordering
+
+dimensional stacking, see partitioning
+
+dimensionality reduction (DR), 315–321
+
+direct volume rendering, 183, 185–187, 197
+
+direction, 238
+
+discover, 47
+
+discrete, 28
+
+discrete colormap, see colormap, segmented
+
+discretized colormap, see colormap, segmented
+
+discriminability, 106
+
+display, see view
+
+distortion viewing, see focus+context
+
+distortion-oriented presentations, see focus+context
+
+dollying, 254
+
+domain, 69
+
+domain situation, 69–70, 77–78
+
+dot chart, 155
+
+dot plot, 155
+
+downstream, 76
+
+dual slider, 301
+
+dynamic, 40
+
+dynamic layers, 294, 362
+
+dynamic queries, 300
+
+dynamic streams, 31
+
+edge, see link
+
+effectiveness principle, 101
+
+elastic presentation spaces, see also focus+context, 338
+
+element, 299
+
+elision, 324
+
+embed, 323–338
+
+enclosure, see containment
+
+energy minimization, see force-directed placement enjoy, 48
+
+evaluation, see validation explain, see present
+
+explore, see also discover, 54
+
+expressiveness principle, 100
+
+external representations, 6, 18
+
+facet, 265–297
+
+feature flow, 193
+
+feature tensor flow, 197
+
+feature vector, 316
+
+features, 55, 317
+
+field, 27–29, 40
+
+field study, 77, 79, 92
+
+filter, 300–305
+
+filtering, 300, 320, 324, 348, 351
+
+find, see search
+
+fisheye lens, see also focus+context
+
+fisheye lens, 328, 335, 337
+
+flat table, 25, 34
+
+flow glyph, 191
+
+flow maps, 85
+
+focus, see also sinks, 323
+
+focus+context, 323–338, 358
+
+force-directed placement, 89, 204–208, 216
+
+foreshortening, see perspective distortion
+
+frame, 254
+
+frequency, 238
+
+generalized fisheye views, see also focus+context
+
+generalized fisheye views, 337
+
+generate, 47
+
+geographic, 180
+
+geometric flow, 191
+
+geometric tensor flow, 196
+
+geometric zooming, 255
+
+geometry, 29–30, 180–182
+
+geowigs, 313
+
+gerrymandering, 313
+
+glyph, 146, 280–281, 296, 347
+
+graphic density, see information density
+
+graphs, see networks
+
+grid, 24, 29
+
+grid geometry, 29
+
+grid topology, 29
+
+grouped bar chart, 281
+
+grouping, see also partitioning, 279
+
+guaranteed visibility, 331
+
+gw-boxplot, 315
+
+gw-mean, 315
+
+hairball, 206
+
+hatching, see stippling
+
+heatmaps, 158, 176
+
+height field, see information landscape
+
+hierarchical aggregation, 311
+
+hierarchical edge bundles, 292
+
+hierarchical parallel coordinates, 311
+
+hierarchical partitioning, see partitioning
+
+highlighting, 239, 251
+
+histograms, 306, 351
+
+hops, 203
+
+horizon graphs, 90
+
+hover, 250
+
+how, 17, 57–58
+
+how much, see channel, magnitude
+
+HSL, see color space, HSL
+
+hue, 220, 223–224
+
+human-centered design, see user-centered design
+---
+Node: Table of Contents
+Primary concept extracted from chunk
+# Table of Contents
+
+> Generated from source TOC
+---
+Node: index chunk 000 Table of Contents 2
+Primary concept extracted from chunk
+- [Preface](chapter_03_Preface.md#preface)
+- [Why a New Book?](chapter_03_Preface.md#why-a-new-book)
+- [Existing Books .](chapter_03_Preface.md#existing-books)
+- [Audience](chapter_03_Preface.md#audience)
+- [Who’s Who](chapter_03_Preface.md#whos-who)
+- [Structure: What’s in This Book](chapter_03_Preface.md#structure-whats-in-this-book)
+- [What’s Not in This Book](chapter_03_Preface.md#whats-not-in-this-book)
+- [Acknowledgments .](chapter_04_Acknowledgments.md#acknowledgments)
+- [1 What’s Vis, and Why Do It?](chapter_05_Chapter_1.md#whats-vis-and-why-do-it)
+    - [1.1 The Big Picture .](chapter_05_Chapter_1.md#11-the-big-picture)
+  - [1.2 Why Have a Human in the Loop?](chapter_05_Chapter_1.md#12-why-have-a-human-in-the-loop)
+    - [1.3 Why Have a Computer in the Loop? .](chapter_05_Chapter_1.md#13-why-have-a-computer-in-the-loop)
+  - [1.4 Why Use an External Representation?](chapter_05_Chapter_1.md#14-why-use-an-external-representation)
+    - [1.5 Why Depend on Vision? .](chapter_05_Chapter_1.md#15-why-depend-on-vision)
+  - [1.6 Why Show the Data in Detail?](chapter_05_Chapter_1.md#16-why-show-the-data-in-detail)
+    - [1.7 Why Use Interactivity? . .](chapter_05_Chapter_1.md#17-why-use-interactivity)
+  - [1.8 Why Is the Vis Idiom Design Space Huge?](chapter_05_Chapter_1.md#18-why-is-the-vis-idiom-design-space-huge)
+  - [1.9 Why Focus on Tasks?](chapter_05_Chapter_1.md#19-why-focus-on-tasks)
+    - [1.10 Why Focus on Effectiveness? .](chapter_05_Chapter_1.md#110-why-focus-on-effectiveness)
+    - [1.11 Why Are Most Designs Ineffective? .](chapter_05_Chapter_1.md#111-why-are-most-designs-ineffective)
+    - [1.12 Why Is Validation Difficult? .](chapter_05_Chapter_1.md#112-why-is-validation-difficult)
+    - [1.13 Why Are There Resource Limitations? .](chapter_05_Chapter_1.md#113-why-are-there-resource-limitations)
+    - [1.14 Why Analyze? .](chapter_05_Chapter_1.md#114-why-analyze)
+  - [1.15 Further Reading](chapter_05_Chapter_1.md#115-further-reading)
+- [2 What: Data Abstraction](chapter_06_Chapter_2.md#what-data-abstraction)
+    - [2.1 The Big Picture . .](chapter_06_Chapter_2.md#21-the-big-picture)
+  - [2.2 Why Do Data Semantics and Types Matter?](chapter_06_Chapter_2.md#22-why-do-data-semantics-and-types-matter)
+  - [2.3 Data Types](chapter_06_Chapter_2.md#23-data-types)
+    - [2.4 Dataset Types . . .](chapter_06_Chapter_2.md#24-dataset-types)
+    - [2.4.1 Tables](chapter_06_Chapter_2.md#241-tables)
+    - [2.4.2 Networks and Trees . .](chapter_06_Chapter_2.md#242-networks-and-trees)
+    - [2.4.2.1 Trees . .](chapter_06_Chapter_2.md#2421-trees)
+    - [2.4.3 Fields](chapter_06_Chapter_2.md#243-fields)
+    - [2.4.3.1 Spatial Fields](chapter_06_Chapter_2.md#2431-spatial-fields)
+    - [2.4.3.2 Grid Types](chapter_06_Chapter_2.md#2432-grid-types)
+    - [2.4.4 Geometry](chapter_06_Chapter_2.md#244-geometry)
+    - [2.4.5 Other Combinations . .](chapter_06_Chapter_2.md#245-other-combinations)
+    - [2.4.6 Dataset Availability](chapter_06_Chapter_2.md#246-dataset-availability)
+    - [2.5 Attribute Types . .](chapter_06_Chapter_2.md#25-attribute-types)
+    - [2.5.1 Categorical](chapter_06_Chapter_2.md#251-categorical)
+    - [2.5.2 Ordered: Ordinal and Quantitative . .](chapter_06_Chapter_2.md#252-ordered-ordinal-and-quantitative)
+    - [2.5.2.1 Sequential versus Diverging . .](chapter_06_Chapter_2.md#2521-sequential-versus-diverging)
+    - [2.5.2.2 Cyclic](chapter_06_Chapter_2.md#2522-cyclic)
+    - [2.5.3 Hierarchical Attributes](chapter_06_Chapter_2.md#253-hierarchical-attributes)
+    - [2.6 Semantics .](chapter_06_Chapter_2.md#26-semantics)
+    - [2.6.1 Key versus Value Semantics](chapter_06_Chapter_2.md#261-key-versus-value-semantics)
+    - [2.6.1.1 Flat Tables](chapter_06_Chapter_2.md#2611-flat-tables)
+    - [2.6.1.2 Multidimensional Tables](chapter_06_Chapter_2.md#2612-multidimensional-tables)
+    - [2.6.1.3 Fields](chapter_06_Chapter_2.md#2613-fields)
+    - [2.6.1.4 Scalar Fields](chapter_06_Chapter_2.md#2614-scalar-fields)
+    - [2.6.1.5 Vector Fields](chapter_06_Chapter_2.md#2615-vector-fields)
+    - [2.6.1.6 Tensor Fields](chapter_06_Chapter_2.md#2616-tensor-fields)
+    - [2.6.1.7 Field Semantics](chapter_06_Chapter_2.md#2617-field-semantics)
+    - [2.6.2 Temporal Semantics .](chapter_06_Chapter_2.md#262-temporal-semantics)
+    - [2.6.2.1 Time-Varying Data . .](chapter_06_Chapter_2.md#2621-time-varying-data)
+  - [2.7 Further Reading](chapter_06_Chapter_2.md#27-further-reading)
+- [3 Why: Task Abstraction](chapter_07_Chapter_3.md#why-task-abstraction)
+    - [3.1 The Big Picture .](chapter_07_Chapter_3.md#31-the-big-picture)
+  - [3.2 Why Analyze Tasks Abstractly?](chapter_07_Chapter_3.md#32-why-analyze-tasks-abstractly)
+  - [3.3 Who: Designer or User](chapter_07_Chapter_3.md#33-who-designer-or-user)
+    - [3.4 Actions . .](chapter_07_Chapter_3.md#34-actions)
+    - [3.4.1 Analyze .](chapter_07_Chapter_3.md#341-analyze)
+    - [3.4.1.1 Discover .](chapter_07_Chapter_3.md#3411-discover)
+    - [3.4.1.2 Present](chapter_07_Chapter_3.md#3412-present)
+    - [3.4.1.3 Enjoy](chapter_07_Chapter_3.md#3413-enjoy)
+    - [3.4.2 Produce](chapter_07_Chapter_3.md#342-produce)
+    - [3.4.2.1 Annotate](chapter_07_Chapter_3.md#3421-annotate)
+    - [3.4.2.2 Record .](chapter_07_Chapter_3.md#3422-record)
+    - [3.4.2.3 Derive](chapter_07_Chapter_3.md#3423-derive)
+    - [3.4.3 Search .](chapter_07_Chapter_3.md#343-search)
+    - [3.4.3.1 Lookup](chapter_07_Chapter_3.md#3431-lookup)
+    - [3.4.3.2 Locate](chapter_07_Chapter_3.md#3432-locate)
+    - [3.4.3.3 Browse .](chapter_07_Chapter_3.md#3433-browse)
+    - [3.4.3.4 Explore](chapter_07_Chapter_3.md#3434-explore)
+    - [3.4.4 Query](chapter_07_Chapter_3.md#344-query)
+    - [3.4.4.1 Identify](chapter_07_Chapter_3.md#3441-identify)
+    - [3.4.4.2 Compare . .](chapter_07_Chapter_3.md#3442-compare)
+    - [3.4.4.3 Summarize](chapter_07_Chapter_3.md#3443-summarize)
+    - [3.5 Targets . .](chapter_07_Chapter_3.md#35-targets)
+  - [3.6 How: A Preview](chapter_07_Chapter_3.md#36-how-a-preview)
+    - [3.7 Analyzing and Deriving: Examples . .](chapter_07_Chapter_3.md#37-analyzing-and-deriving-examples)
+    - [3.7.1 Comparing Two Idioms . .](chapter_07_Chapter_3.md#371-comparing-two-idioms)
+    - [3.7.2 Deriving One Attribute](chapter_07_Chapter_3.md#372-deriving-one-attribute)
+    - [3.7.3 Deriving Many New Attributes . .](chapter_07_Chapter_3.md#373-deriving-many-new-attributes)
+  - [3.8 Further Reading](chapter_07_Chapter_3.md#further-reading)
+- [4 Analysis: Four Levels for Validation](chapter_08_Chapter_4.md#analysis-four-levels-for-validation)
+    - [4.1 The Big Picture .](chapter_08_Chapter_4.md#41-the-big-picture)
+    - [4.2 Why Validate? .](chapter_08_Chapter_4.md#42-why-validate)
+  - [4.3 Four Levels of Design](chapter_08_Chapter_4.md#43-four-levels-of-design)
+    - [4.3.1 Domain Situation](chapter_08_Chapter_4.md#431-domain-situation)
+    - [4.3.2 Task and Data Abstraction .](chapter_08_Chapter_4.md#432-task-and-data-abstraction)
+    - [4.3.3 Visual Encoding and Interaction Idiom .](chapter_08_Chapter_4.md#433-visual-encoding-and-interaction-idiom)
+    - [4.3.4 Algorithm](chapter_08_Chapter_4.md#434-algorithm)
+  - [4.4 Angles of Attack](chapter_08_Chapter_4.md#angles-of-attack)
+  - [4.5 Threats to Validity](chapter_08_Chapter_4.md#45-threats-to-validity)
+    - [4.6 Validation Approaches .](chapter_08_Chapter_4.md#46-validation-approaches)
+    - [4.6.1 Domain Validation .](chapter_08_Chapter_4.md#461-domain-validation)
+    - [4.6.2 Abstraction Validation](chapter_08_Chapter_4.md#462-abstraction-validation)
+    - [4.6.3 Idiom Validation](chapter_08_Chapter_4.md#463-idiom-validation)
+    - [4.6.4 Algorithm Validation .](chapter_08_Chapter_4.md#464-algorithm-validation)
+    - [4.6.5 Mismatches .](chapter_08_Chapter_4.md#465-mismatches)
+    - [4.7 Validation Examples . .](chapter_08_Chapter_4.md#47-validation-examples)
+    - [4.7.1 Genealogical Graphs](chapter_08_Chapter_4.md#471-genealogical-graphs)
+    - [4.7.2 MatrixExplorer . .](chapter_08_Chapter_4.md#472-matrixexplorer)
+    - [4.7.3 Flow Maps](chapter_08_Chapter_4.md#473-flow-maps)
+    - [4.7.4 LiveRAC](chapter_08_Chapter_4.md#474-liverac)
+    - [4.7.5 LinLog . .](chapter_08_Chapter_4.md#475-linlog)
+    - [4.7.6 Sizing the Horizon](chapter_08_Chapter_4.md#476-sizing-the-horizon)
+  - [4.8 Further Reading](chapter_08_Chapter_4.md#48-further-reading)
+- [5 Marks and Channels](chapter_09_Chapter_5.md#marks-and-channels)
+    - [5.1 The Big Picture . .](chapter_09_Chapter_5.md#51-the-big-picture)
+  - [5.2 Why Marks and Channels?](chapter_09_Chapter_5.md#52-why-marks-and-channels)
+  - [5.3 Defining Marks and Channels](chapter_09_Chapter_5.md#53-defining-marks-and-channels)
+    - [5.3.1 Channel Types . .](chapter_09_Chapter_5.md#531-channel-types)
+    - [5.3.2 Mark Types . .](chapter_09_Chapter_5.md#532-mark-types)
+    - [5.4 Using Marks and Channels .](chapter_09_Chapter_5.md#54-using-marks-and-channels)
+    - [5.4.1 Expressiveness and Effectiveness](chapter_09_Chapter_5.md#541-expressiveness-and-effectiveness)
+    - [5.4.2 Channel Rankings . .](chapter_09_Chapter_5.md#542-channel-rankings)
+    - [5.5 Channel Effectiveness .](chapter_09_Chapter_5.md#55-channel-effectiveness)
+    - [5.5.1 Accuracy](chapter_09_Chapter_5.md#551-accuracy)
+    - [5.5.2 Discriminability](chapter_09_Chapter_5.md#552-discriminability)
+    - [5.5.3 Separability . .](chapter_09_Chapter_5.md#553-separability)
+    - [5.5.4 Popout . . .](chapter_09_Chapter_5.md#554-popout)
+    - [5.5.5 Grouping](chapter_09_Chapter_5.md#555-grouping)
+    - [5.6 Relative versus Absolute Judgements .](chapter_09_Chapter_5.md#56-relative-versus-absolute-judgements)
+  - [5.7 Further Reading](chapter_09_Chapter_5.md#57-further-reading)
+- [6 Rules of Thumb](chapter_10_Chapter_6.md#rules-of-thumb)
+    - [6.1 The Big Picture . .](chapter_10_Chapter_6.md#61-the-big-picture)
+    - [6.2 Why and When to Follow Rules of Thumb? .](chapter_10_Chapter_6.md#62-why-and-when-to-follow-rules-of-thumb)
+  - [6.3 No Unjustified 3D](chapter_10_Chapter_6.md#63-no-unjustified-3d)
+    - [6.3.1 The Power of the Plane](chapter_10_Chapter_6.md#631-the-power-of-the-plane)
+    - [6.3.2 The Disparity of Depth](chapter_10_Chapter_6.md#632-the-disparity-of-depth)
+    - [6.3.3 Occlusion Hides Information . .](chapter_10_Chapter_6.md#633-occlusion-hides-information)
+    - [6.3.4 Perspective Distortion Dangers](chapter_10_Chapter_6.md#634-perspective-distortion-dangers)
+    - [6.3.5 Other Depth Cues .](chapter_10_Chapter_6.md#635-other-depth-cues)
+    - [6.3.6 Tilted Text Isn’t Legibile . .](chapter_10_Chapter_6.md#636-tilted-text-isnt-legibile)
+    - [6.3.7 Benefits of 3D: Shape Perception](chapter_10_Chapter_6.md#637-benefits-of-3d-shape-perception)
+    - [6.3.8 Justification and Alternatives](chapter_10_Chapter_6.md#638-justification-and-alternatives)
+- [Example: Cluster–Calendar Time-Series Vis](chapter_10_Chapter_6.md#example-clustercalendar-time-series-vis)
+- [Example: Layer-Oriented Time-Series Vis](chapter_10_Chapter_6.md#example-layer-oriented-time-series-vis)
+    - [6.3.9 Empirical Evidence](chapter_10_Chapter_6.md#639-empirical-evidence)
+  - [6.4 No Unjustified 2D](chapter_10_Chapter_6.md#64-no-unjustified-2d)
+    - [6.5 Eyes Beat Memory . .](chapter_10_Chapter_6.md#65-eyes-beat-memory)
+    - [6.5.1 Memory and Attention](chapter_10_Chapter_6.md#651-memory-and-attention)
+    - [6.5.2 Animation versus Side-by-Side Views . .](chapter_10_Chapter_6.md#652-animation-versus-side-by-side-views)
+    - [6.5.3 Change Blindness](chapter_10_Chapter_6.md#653-change-blindness)
+  - [6.6 Resolution over Immersion](chapter_10_Chapter_6.md#66-resolution-over-immersion)
+  - [6.7 Overview First, Zoom and Filter, Details on Demand](chapter_10_Chapter_6.md#67-overview-first-zoom-and-filter-details-on-demand)
+  - [6.8 Responsiveness Is Required](chapter_10_Chapter_6.md#68-responsiveness-is-required)
+    - [6.8.1 Visual Feedback](chapter_10_Chapter_6.md#681-visual-feedback)
+    - [6.8.2 Latency and Interaction Design .](chapter_10_Chapter_6.md#682-latency-and-interaction-design)
+    - [6.8.3 Interactivity Costs](chapter_10_Chapter_6.md#683-interactivity-costs)
+  - [6.9 Get It Right in Black and White](chapter_10_Chapter_6.md#69-get-it-right-in-black-and-white)
+  - [6.10 Function First, Form Next](chapter_10_Chapter_6.md#610-function-first-form-next)
+  - [6.11 Further Reading](chapter_10_Chapter_6.md#611-further-reading)
+- [7 Arrange Tables](chapter_11_Chapter_7.md#arrange-tables)
+    - [7.1 The Big Picture . .](chapter_11_Chapter_7.md#71-the-big-picture)
+    - [7.2 Why Arrange? . .](chapter_11_Chapter_7.md#72-why-arrange)
+  - [7.3 Arrange by Keys and Values](chapter_11_Chapter_7.md#73-arrange-by-keys-and-values)
+    - [7.4 Express: Quantitative Values . .](chapter_11_Chapter_7.md#74-express-quantitative-values)
+- [Example: Scatterplots](chapter_11_Chapter_7.md#example-scatterplots)
+    - [7.5 Separate, Order, and Align: Categorical Regions . . .](chapter_11_Chapter_7.md#75-separate-order-and-align-categorical-regions)
+    - [7.5.1 List Alignment: One Key .](chapter_11_Chapter_7.md#751-list-alignment-one-key)
+- [Example: Bar Charts](chapter_11_Chapter_7.md#example-bar-charts)
+- [Example: Stacked Bar Charts](chapter_11_Chapter_7.md#example-stacked-bar-charts)
+- [Example: Streamgraphs](chapter_11_Chapter_7.md#example-streamgraphs)
+- [Example: Dot and Line Charts](chapter_11_Chapter_7.md#example-dot-and-line-charts)
+    - [7.5.2 Matrix Alignment: Two Keys . .](chapter_11_Chapter_7.md#752-matrix-alignment-two-keys)
+- [Example: Cluster Heatmaps](chapter_11_Chapter_7.md#example-cluster-heatmaps)
+- [Example: Scatterplot Matrix .](chapter_11_Chapter_7.md#example-scatterplot-matrix)
+    - [7.5.3 Volumetric Grid: Three Keys . .](chapter_11_Chapter_7.md#753-volumetric-grid-three-keys)
+    - [7.5.4 Recursive Subdivision: Multiple Keys . . .](chapter_11_Chapter_7.md#754-recursive-subdivision-multiple-keys)
+    - [7.6 Spatial Axis Orientation .](chapter_11_Chapter_7.md#76-spatial-axis-orientation)
+    - [7.6.1 Rectilinear Layouts](chapter_11_Chapter_7.md#761-rectilinear-layouts)
+    - [7.6.2 Parallel Layouts](chapter_11_Chapter_7.md#762-parallel-layouts)
+- [Example: Parallel Coordinates](chapter_11_Chapter_7.md#example-parallel-coordinates)
+    - [7.6.3 Radial Layouts .](chapter_11_Chapter_7.md#763-radial-layouts)
+- [Example: Radial Bar Charts](chapter_11_Chapter_7.md#example-radial-bar-charts)
+- [Example: Pie Charts](chapter_11_Chapter_7.md#example-pie-charts)
+    - [7.7 Spatial Layout Density . .](chapter_11_Chapter_7.md#77-spatial-layout-density)
+    - [7.7.1 Dense](chapter_11_Chapter_7.md#771-dense)
+- [Example: Dense Software Overviews](chapter_11_Chapter_7.md#example-dense-software-overviews)
+    - [7.7.2 Space-Filling . .](chapter_11_Chapter_7.md#772-space-filling)
+    - [7.8 Further Reading . . .](chapter_11_Chapter_7.md#78-further-reading)
+- [8 Arrange Spatial Data](chapter_12_Chapter_8.md#arrange-spatial-data)
+    - [8.1 The Big Picture .](chapter_12_Chapter_8.md#81-the-big-picture)
+  - [8.2 Why Use Given?](chapter_12_Chapter_8.md#82-why-use-given)
+  - [8.3 Geometry](chapter_12_Chapter_8.md#83-geometry)
+    - [8.3.1 Geographic Data .](chapter_12_Chapter_8.md#831-geographic-data)
+- [Example: Choropleth Maps](chapter_12_Chapter_8.md#example-choropleth-maps)
+    - [8.3.2 Other Derived Geometry](chapter_12_Chapter_8.md#832-other-derived-geometry)
+  - [8.4 Scalar Fields: One Value](chapter_12_Chapter_8.md#84-scalar-fields-one-value)
+    - [8.4.1 Isocontours .](chapter_12_Chapter_8.md#841-isocontours)
+- [Example: Topographic Terrain Maps](chapter_12_Chapter_8.md#example-topographic-terrain-maps)
+- [Example: Flexible Isosurfaces](chapter_12_Chapter_8.md#example-flexible-isosurfaces)
+    - [8.4.2 Direct Volume Rendering . .](chapter_12_Chapter_8.md#842-direct-volume-rendering)
+- [Example: Multidimensional Transfer Functions](chapter_12_Chapter_8.md#example-multidimensional-transfer-functions)
+  - [8.5 Vector Fields: Multiple Values](chapter_12_Chapter_8.md#85-vector-fields-multiple-values)
+    - [8.5.1 Flow Glyphs](chapter_12_Chapter_8.md#851-flow-glyphs)
+    - [8.5.2 Geometric Flow](chapter_12_Chapter_8.md#852-geometric-flow)
+- [Example: Similarity-Clustered Streamlines](chapter_12_Chapter_8.md#example-similarity-clustered-streamlines)
+    - [8.5.3 Texture Flow](chapter_12_Chapter_8.md#853-texture-flow)
+    - [8.5.4 Feature Flow](chapter_12_Chapter_8.md#854-feature-flow)
+    - [8.6 Tensor Fields: Many Values . .](chapter_12_Chapter_8.md#86-tensor-fields-many-values)
+- [Example: Ellipsoid Tensor Glyphs](chapter_12_Chapter_8.md#example-ellipsoid-tensor-glyphs)
+    - [8.7 Further Reading . . .](chapter_12_Chapter_8.md#87-further-reading)
+- [9 Arrange Networks and Trees](chapter_13_Chapter_9.md#arrange-networks-and-trees)
+    - [9.1 The Big Picture . .](chapter_13_Chapter_9.md#91-the-big-picture)
+    - [9.2 Connection: Link Marks .](chapter_13_Chapter_9.md#92-connection-link-marks)
+- [Example: Force-Directed Placement](chapter_13_Chapter_9.md#example-force-directed-placement)
+- [Example: sfdp](chapter_13_Chapter_9.md#example-sfdp)
+  - [9.3 Matrix Views](chapter_13_Chapter_9.md#93-matrix-views)
+- [Example: Adjacency Matrix View](chapter_13_Chapter_9.md#example-adjacency-matrix-view)
+    - [9.4 Costs and Benefits: Connection versus Matrix .](chapter_13_Chapter_9.md#94-costs-and-benefits-connection-versus-matrix)
+  - [9.5 Containment: Hierarchy Marks](chapter_13_Chapter_9.md#95-containment-hierarchy-marks)
+- [Example: Treemaps](chapter_13_Chapter_9.md#example-treemaps)
+- [Example: GrouseFlocks](chapter_13_Chapter_9.md#example-grouseflocks)
+  - [9.6 Further Reading](chapter_13_Chapter_9.md#96-further-reading)
+- [10 Map Color and Other Channels](chapter_14_Chapter_10.md#map-color-and-other-channels)
+    - [10.1 The Big Picture .](chapter_14_Chapter_10.md#101-the-big-picture)
+  - [10.2 Color Theory](chapter_14_Chapter_10.md#102-color-theory)
+    - [10.2.1 Color Vision](chapter_14_Chapter_10.md#1021-color-vision)
+    - [10.2.2 Color Spaces](chapter_14_Chapter_10.md#1022-color-spaces)
+    - [10.2.3 Luminance, Saturation, and Hue .](chapter_14_Chapter_10.md#1023-luminance-saturation-and-hue)
+    - [10.2.4 Transparency . .](chapter_14_Chapter_10.md#1024-transparency)
+    - [10.3 Colormaps . .](chapter_14_Chapter_10.md#103-colormaps)
+    - [10.3.1 Categorical Colormaps](chapter_14_Chapter_10.md#1031-categorical-colormaps)
+    - [10.3.2 Ordered Colormaps .](chapter_14_Chapter_10.md#1032-ordered-colormaps)
+    - [10.3.3 Bivariate Colormaps . .](chapter_14_Chapter_10.md#1033-bivariate-colormaps)
+    - [10.3.4 Colorblind-Safe Colormap Design . .](chapter_14_Chapter_10.md#1034-colorblind-safe-colormap-design)
+    - [10.4 Other Channels .](chapter_14_Chapter_10.md#104-other-channels)
+    - [10.4.1 Size Channels](chapter_14_Chapter_10.md#1041-size-channels)
+    - [10.4.2 Angle Channel](chapter_14_Chapter_10.md#1042-angle-channel)
+    - [10.4.3 Curvature Channel](chapter_14_Chapter_10.md#1043-curvature-channel)
+    - [10.4.4 Shape Channel .](chapter_14_Chapter_10.md#1044-shape-channel)
+    - [10.4.5 Motion Channels . .](chapter_14_Chapter_10.md#1045-motion-channels)
+    - [10.4.6 Texture and Stippling . .](chapter_14_Chapter_10.md#1046-texture-and-stippling)
+  - [10.5 Further Reading](chapter_14_Chapter_10.md#105-further-reading)
+- [11 Manipulate View](chapter_15_Chapter_11.md#manipulate-view)
+    - [11.1 The Big Picture .](chapter_15_Chapter_11.md#111-the-big-picture)
+    - [11.2 Why Change? .](chapter_15_Chapter_11.md#112-why-change)
+  - [11.3 Change View over Time](chapter_15_Chapter_11.md#113-change-view-over-time)
+- [Example: LineUp](chapter_15_Chapter_11.md#example-lineup)
+- [Example: Animated Transitions](chapter_15_Chapter_11.md#example-animated-transitions)
+    - [11.4 Select Elements .](chapter_15_Chapter_11.md#114-select-elements)
+    - [11.4.1 Selection Design Choices .](chapter_15_Chapter_11.md#1141-selection-design-choices)
+    - [11.4.2 Highlighting](chapter_15_Chapter_11.md#1142-highlighting)
+- [Example: Context-Preserving Visual Links](chapter_15_Chapter_11.md#example-context-preserving-visual-links)
+    - [11.4.3 Selection Outcomes](chapter_15_Chapter_11.md#1143-selection-outcomes)
+    - [11.5 Navigate: Changing Viewpoint . .](chapter_15_Chapter_11.md#115-navigate-changing-viewpoint)
+    - [11.5.1 Geometric Zooming .](chapter_15_Chapter_11.md#1151-geometric-zooming)
+    - [11.5.2 Semantic Zooming . .](chapter_15_Chapter_11.md#1152-semantic-zooming)
+    - [11.5.3 Constrained Navigation .](chapter_15_Chapter_11.md#1153-constrained-navigation)
+    - [11.6 Navigate: Reducing Attributes .](chapter_15_Chapter_11.md#116-navigate-reducing-attributes)
+    - [11.6.1 Slice](chapter_15_Chapter_11.md#1161-slice)
+- [Example: HyperSlice](chapter_15_Chapter_11.md#example-hyperslice)
+    - [11.6.2 Cut .](chapter_15_Chapter_11.md#1162-cut)
+    - [11.6.3 Project . .](chapter_15_Chapter_11.md#1163-project)
+  - [11.7 Further Reading](chapter_15_Chapter_11.md#117-further-reading)
+- [12 Facet into Multiple Views](chapter_16_Chapter_12.md#facet-into-multiple-views)
+    - [12.1 The Big Picture .](chapter_16_Chapter_12.md#121-the-big-picture)
+  - [12.2 Why Facet?](chapter_16_Chapter_12.md#122-why-facet)
+  - [12.3 Juxtapose and Coordinate Views](chapter_16_Chapter_12.md#123-juxtapose-and-coordinate-views)
+    - [12.3.1 Share Encoding: Same/Different](chapter_16_Chapter_12.md#1231-share-encoding-samedifferent)
+- [Example: Exploratory Data Visualizer (EDV)](chapter_16_Chapter_12.md#example-exploratory-data-visualizer-edv)
+- Share Data: All, Subset, None . .
+- [Example: Bird’s-Eye Maps](chapter_16_Chapter_12.md#example-birds-eye-maps)
+- [Example: Multiform Overview–Detail Microarrays](chapter_16_Chapter_12.md#example-multiform-overviewdetail-microarrays)
+- [Example: Cerebral](chapter_16_Chapter_12.md#example-cerebral)
+    - [12.3.3 Share Navigation: Synchronize](chapter_16_Chapter_12.md#1233-share-navigation-synchronize)
+    - [12.3.4 Combinations](chapter_16_Chapter_12.md#1234-combinations)
+- [Example: Improvise](chapter_16_Chapter_12.md#example-improvise)
+    - [12.3.5 Juxtapose Views .](chapter_16_Chapter_12.md#1235-juxtapose-views)
+  - [12.4 Partition into Views](chapter_16_Chapter_12.md#124-partition-into-views)
+    - [12.4.1 Regions, Glyphs, and Views](chapter_16_Chapter_12.md#1241-regions-glyphs-and-views)
+    - [12.4.2 List Alignments](chapter_16_Chapter_12.md#1242-list-alignments)
+    - [12.4.3 Matrix Alignments .](chapter_16_Chapter_12.md#1243-matrix-alignments)
+- [Example: Trellis](chapter_16_Chapter_12.md#example-trellis)
+    - [12.4.4 Recursive Subdivision .](chapter_16_Chapter_12.md#1244-recursive-subdivision)
+    - [12.5 Superimpose Layers . .](chapter_16_Chapter_12.md#125-superimpose-layers)
+    - [12.5.1 Visually Distinguishable Layers . .](chapter_16_Chapter_12.md#1251-visually-distinguishable-layers)
+    - [12.5.2 Static Layers . .](chapter_16_Chapter_12.md#1252-static-layers)
+- [Example: Cartographic Layering](chapter_16_Chapter_12.md#example-cartographic-layering)
+- [Example: Superimposed Line Charts .](chapter_16_Chapter_12.md#example-superimposed-line-charts)
+- [Example: Hierarchical Edge Bundles .](chapter_16_Chapter_12.md#example-hierarchical-edge-bundles)
+    - [12.5.3 Dynamic Layers .](chapter_16_Chapter_12.md#1253-dynamic-layers)
+    - [12.6 Further Reading . .](chapter_16_Chapter_12.md#126-further-reading)
+- [13 Reduce Items and Attributes](chapter_17_Chapter_13.md#reduce-items-and-attributes)
+    - [13.1 The Big Picture . .](chapter_17_Chapter_13.md#131-the-big-picture)
+  - [13.2 Why Reduce?](chapter_17_Chapter_13.md#132-why-reduce)
+  - [13.3 Filter](chapter_17_Chapter_13.md#133-filter)
+    - [13.3.1 Item Filtering .](chapter_17_Chapter_13.md#1331-item-filtering)
+- [Example: FilmFinder](chapter_17_Chapter_13.md#example-filmfinder)
+    - [13.3.2 Attribute Filtering](chapter_17_Chapter_13.md#1332-attribute-filtering)
+- [Example: DOSFA](chapter_17_Chapter_13.md#example-dosfa)
+  - [13.4 Aggregate](chapter_17_Chapter_13.md#134-aggregate)
+    - [13.4.1 Item Aggregation .](chapter_17_Chapter_13.md#1341-item-aggregation)
+- [Example: Histograms](chapter_17_Chapter_13.md#example-histograms)
+- [Example: Continuous Scatterplots](chapter_17_Chapter_13.md#example-continuous-scatterplots)
+- [Example: Boxplot Charts .](chapter_17_Chapter_13.md#example-boxplot-charts)
+- [Example: SolarPlot](chapter_17_Chapter_13.md#example-solarplot)
+- [Example: Hierarchical Parallel Coordinates](chapter_17_Chapter_13.md#example-hierarchical-parallel-coordinates)
+    - [13.4.2 Spatial Aggregation](chapter_17_Chapter_13.md#1342-spatial-aggregation)
+- [Example: Geographically Weighted Boxplots](chapter_17_Chapter_13.md#example-geographically-weighted-boxplots)
+    - [13.4.3 Attribute Aggregation: Dimensionality Reduction .](chapter_17_Chapter_13.md#1343-attribute-aggregation-dimensionality-reduction)
+    - [13.4.3.1 Why and When to Use DR? .](chapter_17_Chapter_13.md#13431-why-and-when-to-use-dr)
+- [Example: Dimensionality Reduction for Document Collections .](chapter_17_Chapter_13.md#example-dimensionality-reduction-for-document-collections)
+    - [13.4.3.2 How to Show DR Data? .](chapter_17_Chapter_13.md#13432-how-to-show-dr-data)
+  - [13.5 Further Reading](chapter_17_Chapter_13.md#135-further-reading)
+- [14 Embed: Focus+Context](chapter_18_Chapter_14.md#embed-focuscontext)
+    - [14.1 The Big Picture .](chapter_18_Chapter_14.md#141-the-big-picture)
+  - [14.2 Why Embed?](chapter_18_Chapter_14.md#142-why-embed)
+  - [14.3 Elide](chapter_18_Chapter_14.md#143-elide)
+- [Example: DOITrees Revisited](chapter_18_Chapter_14.md#example-doitrees-revisited)
+  - [14.4 Superimpose](chapter_18_Chapter_14.md#144-superimpose)
+- [Example: Toolglass and Magic Lenses](chapter_18_Chapter_14.md#example-toolglass-and-magic-lenses)
+  - [14.5 Distort](chapter_18_Chapter_14.md#145-distort)
+- [Example: 3D Perspective . .](chapter_18_Chapter_14.md#example-3d-perspective)
+- [Example: Fisheye Lens](chapter_18_Chapter_14.md#example-fisheye-lens)
+- [Example: Hyperbolic Geometry](chapter_18_Chapter_14.md#example-hyperbolic-geometry)
+- [Example: Stretch and Squish Navigation](chapter_18_Chapter_14.md#example-stretch-and-squish-navigation)
+- [Example: Nonlinear Magnification Fields](chapter_18_Chapter_14.md#example-nonlinear-magnification-fields)
+  - [14.6 Costs and Benefits: Distortion](chapter_18_Chapter_14.md#146-costs-and-benefits-distortion)
+  - [14.7 Further Reading](chapter_18_Chapter_14.md#147-further-reading)
+- [15 Analysis Case Studies](chapter_19_Chapter_15.md#analysis-case-studies)
+    - [15.1 The Big Picture .](chapter_19_Chapter_15.md#151-the-big-picture)
+    - [15.2 Why Analyze Case Studies? .](chapter_19_Chapter_15.md#152-why-analyze-case-studies)
+    - [15.3 Graph-Theoretic Scagnostics . .](chapter_19_Chapter_15.md#153-graph-theoretic-scagnostics)
+  - [15.4 VisDB](chapter_19_Chapter_15.md#154-visdb)
+    - [15.5 Hierarchical Clustering Explorer . .](chapter_19_Chapter_15.md#155-hierarchical-clustering-explorer)
+  - [15.6 PivotGraph](chapter_19_Chapter_15.md#156-pivotgraph)
+  - [15.7 InterRing](chapter_19_Chapter_15.md#157-interring)
+  - [15.8 Constellation](chapter_19_Chapter_15.md#158-constellation)
+  - [15.9 Further Reading](chapter_19_Chapter_15.md#159-further-reading)
+- [Figure Credits](chapter_19_Chapter_15.md#figure-credits)
+- [Bibliography](chapter_20_Bibliography.md#bibliography)
+- [Idiom and System Examples Index](chapter_20_Bibliography.md#idiom-and-system-examples-index)
+- [Concept Index](chapter_20_Bibliography.md#concept-index)

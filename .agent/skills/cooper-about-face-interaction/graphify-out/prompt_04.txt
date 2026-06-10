@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=4, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_04.json
+FILES:
+/private/tmp/about_face_chunks/chunk_076_UNDERSTANDING_THE_PROBLEM__DES.md
+/private/tmp/about_face_chunks/chunk_077_Qualitative_versus_Quantitativ.md
+/private/tmp/about_face_chunks/chunk_078_Benefits_of_qualitative_method.md
+/private/tmp/about_face_chunks/chunk_079_Strengths_and_limitations_of_q.md
+/private/tmp/about_face_chunks/chunk_080_Quantitative_research_can_help.md
+/private/tmp/about_face_chunks/chunk_081_User_research_can_inform_marke.md
+/private/tmp/about_face_chunks/chunk_082_Goal_Directed_Design_Research.md
+/private/tmp/about_face_chunks/chunk_083_Kickoff_meeting.md
+/private/tmp/about_face_chunks/chunk_084_Literature_review.md
+/private/tmp/about_face_chunks/chunk_085_Product_prototype_and_competit.md
+/private/tmp/about_face_chunks/chunk_086_Stakeholder_interviews.md
+/private/tmp/about_face_chunks/chunk_087_Subject_matter_expert__SME__in.md
+/private/tmp/about_face_chunks/chunk_088_Customer_interviews.md
+/private/tmp/about_face_chunks/chunk_089_User_interviews.md
+/private/tmp/about_face_chunks/chunk_090_User_observation.md
+/private/tmp/about_face_chunks/chunk_091_Interviewing_and_Observing_Use.md
+/private/tmp/about_face_chunks/chunk_092_Contextual_inquiry.md
+/private/tmp/about_face_chunks/chunk_093_Improving_on_contextual_inquir.md
+/private/tmp/about_face_chunks/chunk_094_Preparing_for_ethnographic_int.md
+/private/tmp/about_face_chunks/chunk_095_Identifying_candidates.md
+/private/tmp/about_face_chunks/chunk_096_The_persona_hypothesis.md
+/private/tmp/about_face_chunks/chunk_097_Roles_in_business_and_consumer.md
+/private/tmp/about_face_chunks/chunk_098_Behavioral_and_demographic_var.md
+/private/tmp/about_face_chunks/chunk_099_Domain_expertise_versus_techni.md
+/private/tmp/about_face_chunks/chunk_100_Environmental_considerations.md

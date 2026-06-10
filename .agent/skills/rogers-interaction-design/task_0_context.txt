@@ -1,0 +1,885 @@
+Node: INTERACTION DESIGN
+Primary concept extracted from chunk
+# INTERACTION DESIGN
+
+![](images/19127ff0126ba984fb3323a2f53f6a1bc71468b59106d3b871a717836ba40444.jpg)
+
+beyond human-computer interaction
+
+6th Edition
+---
+Node: Praise for Interaction Design
+Primary concept extracted from chunk
+# Praise for Interaction Design
+
+Having used the previous editions of Interaction Design for research and teaching, given the breadth and depth of its coverage of the related topics, my expectation for this new edition was very high. And it has been fully met! The content is timely, up-to-date, and enlightening with lucid explanations of complex theories and methods of IxD, which are vividly illustrated with contemporary and relevant examples. The writing style is conversational, eloquent, and highly accessible. This entices particularly newcomers of the field, who are enabled to grasp fundamental IxD frameworks with ease, efficiency, and pleasure. Apart from the core descriptions, the extras given, including activities, in-depth activities, and links to external videos, can be very useful for readers to dive deeper into the topics with hands-on practices. Particularly thought-provoking are the materials delineated in “Dilemma.” Amplifying the accolades for its predecessors, this sixth edition will continue enjoying the high prestige it well deserves.
+
+Effie Lai-Chong Law, PhD, Professor, Department of Computer Science,
+
+Durham University, UK
+
+Interaction Design by Preece, Sharp, and Rogers has been the standard textbook for interaction design and HCI for many years. This sixth edition once again brilliantly balances theory with practice, essential tools with complexity, and academic rigor with readability. For students, practitioners, and academics, this book is the best starting point for a reflective, critical, and complete introduction to interaction design. Due to the online resources, many real-world examples, and references to academic literature and innovations in industry, this textbook continues to be the reference for the discipline of interaction design.
+
+Steven Houben, Assistant Professor in HCI, Eindhoven
+
+University of Technology (TU/e), The Netherlands
+
+This is the perfect textbook for a wide range of user interface/user experience design courses. For an undergraduate, it provides a variety of compelling examples that illustrate best practice in interaction design. For a graduate student, it provides a foundational overview of advanced topics. This book is also essential for the professional who wants to know the state of the art in interaction design. I use this textbook and recommend it widely.
+
+Rosa I. Arriaga, PhD, School of Interactive Computing,
+
+Georgia Institute of Technology, USA
+
+Interaction Design is an excellent textbook for general HCI courses that covers topics from the essential theoretical and methodological knowledge to the state-of-the-art practical knowledge in HCI and interaction design. This book provides a comprehensive understanding of interaction design, which goes beyond the traditional perspective of HCI through in-depth recognition of people and society. The sixth edition again maintains this book’s position as a must-have book for all HCI and interaction design students with much more updated topics and examples.
+
+Youn-kyung Lim, Department of Industrial Design, Korea Advanced
+
+Institute of Science and Technology, South Korea
+
+Human-computer interaction (HCI) is a new field that has emerged and become increasingly common in Chinese universities in the last 20 years. Interaction Design: Beyond Human-Computer Interaction has been well-known and translated into Chinese for many years. It has been used as a major textbook or reference book for HCIrelated courses for undergraduate and postgraduate students in computer science, design, communication, and industrial engineering in Chinese universities. I especially appreciate its focus on HCI design, instead of just focusing on the technological aspects of HCI. The students have benefited a lot from the body of knowledge and skill set of a user-centered design approach for developing products/services with good user experience in an industry context. The timely six revisions of the book in the past years have kept it always well updated to the newest developments in technology and application scenarios.
+
+Zhengjie Liu, Professor, School of Information Science & Technology, Dalian
+
+Maritime University, China
+
+Interaction design is a practice that spans many domains. The authors acknowledge this by providing a tremendous amount of information across a wide spectrum of disciplines. This book has evolved from a simple textbook for HCI students to an encyclopedia of design practices, examples, discussions of related topics, suggestions for further reading, exercises, interviews with practitioners, and even a bit of interesting history here and there. I see it as one of the few sources effectively bridging the gulf between theory and practice. A copy has persistently occupied my desk since the first edition, and I regularly find myself revisiting various sections for inspiration on how to communicate the reasoning behind my own decisions to colleagues and peers.
+
+William R. Hazlewood, Principal Design Technologist,
+
+Workday, Inc, USA
+
+Interaction Design has been one of the textbooks of reference at the University of Castilla – La Mancha (Spain) for several years. It covers the main topics in human-computer interaction offering a comprehensive equilibrium between theoretical and practical approaches to the discipline. The new chapter called “Interaction Design in Practice” and the remarkable updates in some chapters, with new case studies and examples, allow the user to explore the book from different perspectives and facilitate its use as a textbook in different subjects.
+
+Manuel Ortega, Professor, Computer Human Interaction
+
+and Collaboration (CHICO) Group, University of Castilla –
+
+La Mancha, Spain
+---
+Node: chapter 00 Front Matter chunk 001 Praise for Interaction Design 2
+Primary concept extracted from chunk
+My students like this book a lot! It provides comprehensive coverage of the essential aspects of HCI/UX, which is key to the success of any software application. I also like many aspects of the book, particularly the examples and videos (some of which are provided as hyperlinks), because they not only help to illustrate the HCI/UX concepts and principles but also relate very well to readers. I highly recommend this book to anyone who wants to learn more about HCI/UX.
+
+Fiona Fui-Hoon Nah, Professor, Missouri University of Science
+
+and Technology, USA
+
+While Interaction Design is my first recommendation for newcomers to the field of HCI, it is also my primary reference source for content preparation or study planning. The book addresses the topic from different perspectives, making reading a pleasure. This book brings current examples, which makes the knowledge more tangible, as well as links to videos and interviews with practitioners, thus taking the reader to practice in the real world. Very well grounded theoretically and with its hands-on approach to teaching practical techniques, Interaction Design is, for sure, the primary reference and textbook for practitioners and academics—students, researchers, or professors— whether new or experienced in the area. Always an up-to-date source, this is definitely my favorite textbook in the field!
+
+Tiago Silva da Silva, Professor Dr, Institute of Science
+
+and Technology (ICT), Federal University of São Paulo
+
+(UNIFESP), São José dos Campos – SP, Brazil
+
+Interaction Design continues to be the standard textbook in the field, and the newest edition is only more thorough. Seasoned practitioners will find it useful when they need a reference to best practices or to explain a concept to a colleague. Students can turn to Interaction Design for an easy-to-understand description of the basics or in-depth how-tos. From personas and disabilities to the design of UX organizations and working in Agile, if you’re going to pick one book to bring into the office, it should be this one.
+
+JoFish Kaye, Senior Director, Interaction Design & User Experience,
+
+Elevance Health, USA
+
+Interaction Design continues to be my favorite textbook on HCI. I once even named an undergraduate and postgraduate program after it. In its sixth edition, it continues to capture the cumulative body of knowledge on human-centered computing and be the most updated and accessible work available. As always, it serves as a clear pointer to emerging trends in human-computer interaction and interactive technology design and use.
+
+Jesper Kjeldskov, Professor and Head of Department of Human-Centred Computing,
+
+Monash University, Australia
+
+The latest edition of Interaction Design continues to be a valuable resource for both undergraduate and graduate educators looking for a comprehensive and designerly introduction to the field. I especially value the authors’ introduction to data at scale, which is clear and thorough, including a timely discussion of ethical considerations. A great resource for shaping future practitioners who can go on to iterate practical and humane technology for our daily lives.
+
+Katherine Isbister, Professor, Department of Computational Media at the University of California, Santa Cruz, USA
+
+With the sixth edition of their Interaction Design book, Preece, Sharp, and Rogers have managed to capture a field that is changing fast—covering not only traditional desktop interfaces but also recent topics such as brain, smart, robotic, wearable, shareable, augmented reality, and somatic and multimodal interfaces. It is a tremendous achievement to cover the richness of the field while simultaneously delivering a pleasurable and informative reading experience with rich examples, design insights, and methods.
+
+Kia Höök, Professor in Interaction Design, The Royal Institute of Technology, KTH, Sweden
+
+I have been using Interaction Design as a textbook since its first edition for both my undergraduate and graduate introductory UX and HCI courses. This is a must-read, seminal book that provides a thorough coverage of the discipline of HCI and the practice of user-centered design. The sixth edition builds on the success and updates of the fifth edition and includes up-to-date content in a field that is rapidly changing and has gained importance in many industries and academic disciplines. This book will teach readers how thoughtful interaction design is the differentiating factor to building optimal designs and experiences. I always recommend Interaction Design to students and practitioners who want to gain a comprehensive overview of the fields of HCI and UX.
+
+Olivier St-Cyr, Associate Professor, University of Toronto, Canada
+
+The Interaction Design book helps me not only for teaching activities at my Interaction System class but also for HCI-related theses supervision. I really appreciate the authors regarding their efforts in maintaining the relevance and up-to-dateness of the book. For example, they put data at scale and ethical concerns in the new edition. A well-crafted “Activity” section in each chapter in the book is also available to support active and student-centered learning. Really love the book!
+
+Harry Santoso, PhD, Faculty of Computer Science, University of Indonesia, Indonesia
+---
+Node: chapter 00 Front Matter chunk 001 Praise for Interaction Design 3
+Primary concept extracted from chunk
+Computers are ubiquitous and embedded in virtually every new device and system, ranging from the omnipresent cellphone to the complex web of sociotechnical systems that envelop most every sphere of personal and professional life. They connect our activities to ever-expanding information resources with previously unimaginable computational power. To ensure interface design respects human needs and augments our abilities is an intellectual challenge of singular importance. It not only involves complex theoretical and methodological issues of how to design effective representations and mechanisms of interaction but also confronts complex social, cultural, and political issues such as those of privacy, control of attention, and ownership of information. The sixth edition of Interaction Design continues to be the introductory book I recommend to my students and to anyone interested in this crucially important area.
+
+Jim Hollan, Distinguished Professor of Cognitive Science, University of California, San Diego, USA
+
+Get ready for an engaging and enlightening journey through the world of interaction design with Interaction Design by Preece, Sharp, and Rogers! This updated sixth edition is jam-packed with all the essential information you need to succeed in the field of interaction design, human-computer interaction, information design, web design, or ubiquitous computing. It’s the ultimate guide for navigating the digital age, and it’s always kept up-to-date with the latest developments in the field. Plus, the accompanying online resources are a lifesaver for both instructors and students. But don’t just take my word for it—grab a copy of Interaction Design and see for yourself! And remember, good design is like a good joke: if you have to explain it, it’s not that good. (But don’t worry, this book does a great job of explaining it all!)
+
+Johannes Schöning, Professor for Human-Computer Interaction at the University of St. Gallen, Switzerland
+
+This sixth edition commands space on one’s bookshelf as one of the must-have classics on interaction design. It offers an expansive view of the fields of interaction design and HCI, on topics ranging from design research to Agile development. This is an essential book for those new to and experienced in interaction design.
+
+Jodi Forlizzi, Herbert A. Simon Professor in Computer
+
+Science and HCII, Human-Computer Interaction Institute, The School of Computer Science, CMU, USA
+
+This book illuminates the interaction design field like no other. Interaction design is such a vast, multidisciplinary field that you might think it would be impossible to synthesize the most relevant knowledge in one book. This book does not only that but goes even further: it eloquently brings contemporary examples and diverse voices to make the knowledge concrete and actionable, so it is useful for students, researchers, and practitioners alike. This new edition includes invaluable discussions about the current challenges we now face with data at scale, embracing the ethical design concerns our society needs so much in this era.
+
+Simone D.J. Barbosa, Professor of Computer Science, PUC-Rio, Brazil
+
+Digital technology, mobile devices, and the Internet of Things continue to reach every crevice of human existence from space exploration of faraway planets to health applications such as wearable trackers and medical injectables. The ubiquity of this technology has advanced interaction design to a premier field of study bringing together contributions from computer science, behavioral psychology, science and technology studies, engineering, communication studies, and urban informatics. Guided by the wisdom and experience of these three longstanding thought leaders, this sixth edition offers students, researchers, developers, and design practitioners alike an accessible and comprehensive entry portal into interaction design scholarship and praxis with a thorough coverage of theoretical concepts, applied methods, and empirical cases.
+
+Marcus Foth, PhD, Professor of Urban Informatics, School of Design, Queensland University of Technology Brisbane, Australia
+
+Throughout my teaching of user experience and interaction design, the book by Rogers, Preece, and Sharp has been a cornerstone textbook for students. The authors bring together a wealth of knowledge of academic HCI with a deep understanding of industry practice to provide what must be the most comprehensive introduction to the key areas of interaction design and user experience work, now an established field of practice. As a UX teacher, I always put this book in the “essential reading” section for students. As an interaction design practitioner, I use many of the methods it describes.
+
+Simon Attfield, Principal Human Factors Scientist, Trimetis and Visiting Associate Professor, Middlesex University, UK
+
+Because of the many examples and explanations, this is of course the ideal book for all practitioners, but do not be deceived, because fundamental theory is also presented so that I quote the book very often in my scientific articles. So it is hardly surprising that I have been recommending this book to my students for many years, because it offers a sound theoretical basis as well as countless practical examples, making it an ideal textbook and reference work. It is unbelievable that the authors have managed to keep updating this comprehensive book for 20 years. For me personally, it is the only textbook on my UX top-five books list that I would take to a desert island.
+
+Jörg Thomaschewski, Professor Dr, Faculty of Technology, University of Applied Sciences Emden/Leer, Germany
+---
+Node: chapter 00 Front Matter chunk 001 Praise for Interaction Design 4
+Primary concept extracted from chunk
+I got to learn about the field of HCI and interaction design when I came across the first edition of this book at the library in my junior year of college. As an HCI researcher and educator, I have been having the pleasure of introducing the subject to undergraduates and professional master’s students using the previous editions. I thank the authors for their studious efforts to update and add new contents that are relevant for students, academics, and professionals to help them learn this ever-evolving field of HCI and interaction design in a delightful manner.
+
+Eun Young Choi, Professor of Human-Computer Interaction, College of Information Studies, University of Maryland, USA
+
+The Interaction Design book and its interactive website remain our number-one reference in capacitating generations of HCI students in Namibia. The release of the new edition once more demonstrates its versatile use, accounting for diverse readers. The conscientiously curated content of global and local case studies, accounting for newest trends, technologies, and critical perspectives, continues to encourage our students in the creation of meaningful and sustainable designs, while becoming reflective interaction designers upholding fundamental values of fairness, justice, and care.
+
+Heike Winschiers-Theophilus, Professor, Faculty of Computing and Informatics, Polytechnic of Namibia, Africa
+
+In its sixth edition, Interaction Design presents the cutting edge of human-computer interaction research and UX design, showcasing some of the rich history of the field that has produced the “modern classics” of interface design. Importantly, it does not shy away from current challenges such as the safeguarding of personal data in research, or the dilemmas of controversial topics such as activity tracking. The book’s pedagogical style invites critical thinking and considering the consequences of design choices, an important skill to develop for designers and researchers alike.
+
+Joel E. Fischer, Professor of Human-Computer Interaction,
+
+Nottingham University, UK
+
+Nearly 20 years have passed since the release of the first edition of Interaction Design, with massive changes to technology and thus the science and practice of interaction design. The new edition combines the brilliance of the first book with the wisdom of the lessons learned in the meantime, and the excitement of new technological frontiers. Complex concepts are elegantly and beautifully explained, and the reader is left with little doubt as to how to put them into practice. The book is an excellent resource for those new to interaction design or as a guidebook or reference to practitioners.
+
+Dana McKay, RMIT, Australia
+
+This newest edition is, without competition and with its new additions, the most comprehensive and authoritative source in the field when it comes to modern interaction design. It is highly accessible, and it is a pleasure to read. The authors of this book have once again delivered what the field needs!
+
+Erik Stolterman, Professor of Human Computer Interaction,
+
+Senior Executive Associate Dean, Indiana University, USA
+
+A sixth edition! It’s a huge achievement to keep a textbook like this current, and I commend the authors for the work they put in to updating it regularly. Interaction Design has been my textbook of choice for generalist and introductory HCI courses ever since the first edition. It is well written, with great use of examples and supplementary resources. It is authoritative and has excellent coverage. Importantly, it is also an engaging read.
+
+Ann Blandford, Professor of Human-Computer Interaction, UCLIC,
+
+University College London, UK
+
+This is the book that both a seasoned expert and an interaction design student want on their bookshelves. The substantially updated and streamlined sixth edition, with its interactive website, makes it a compelling textbook. The conversational writing style with anecdotes, cartoons, and examples make it very engaging. Given the pitfalls of AI, Chapter 10, which is focused on privacy and other ethical design concerns with AI, is a welcome addition to the Responsible AI literature.
+
+Shalini R. Urs, Professor, Founder and Chairperson,
+
+MYRA School of Business, India
+
+The beauty of this books is that it helps both educator and student learn about what is new in interaction design, as well as provide easy access to the methods and knowledge that support good design practice. Bringing together design, technology, and people, it is perfect for guiding design students—who come with an aesthetic sensitivity and an understanding of visual communication—on practical techniques for crafting usable user-centered digital products and experiences. As the world opens up again, I eagerly anticipate this latest edition, to see where we have been and to think about where we might go.
+
+Jeni Paay, Professor of Interaction Design, Director
+
+of Centre for Design Innovation, School of Design $^ +$
+
+Architecture, Swinburne University of Technology, Australia
+
+This book is always my primary recommendation for newcomers to human-computer interaction. It addresses the subject from several perspectives: understanding of human behavior in context, the practices of interaction design and evaluation, and the implications of new technology. The new edition again shows dedication to keeping the content up-to-date, in particular with a newly revised chapter on opportunities and challenges of data at large scale.
+
+Robert Biddle, Professor of Human-Computer Interaction,
+
+Carleton University, Ottawa, Canada
+---
+Node: chapter 00 Front Matter chunk 001 Praise for Interaction Design 5
+Primary concept extracted from chunk
+The Interaction Design book has been helping different generations of graduate and undergraduate students discover the complexity and the beauty of designing digital technologies. Over two decades, the authors have been updating the content brilliantly, facing the challenge of including new concepts, approaches, and theories. Valuable pedagogic support, in the book and its website, as well as insightful interviews with experts, covering an immense interdisciplinary territory, deserve special praise, and so do the chapters dedicated to discussing ethics, privacy, and data collection.
+
+Clarisse Sieckenius de Souza, Professora Emérita, Departamento de Informática, PUC-Rio, Brazil
+
+I have been a fan of the Interaction Design book since taking my first Human-Computer Interaction module during my undergraduate degree, and I now use it as a preferred resource for supporting teaching. The book expertly weaves together a thorough overview of the interaction design process and its foundational concepts, with compelling case studies of state-of-the art research and practice. In this way, the authors have created a resource that is clear and comprehensive, as well as a truly engaging and inspiring read.
+
+Susan Lechelt, Lecturer in Design Informatics, University of Edinburgh, UK
+
+When I started my career and decided that I wanted to work with the human side of technology, this textbook enlightened me to understand deeply what I had chosen, from the concepts to the ways of working, which brought me here to the tech world. Nowadays, in a developed market with great companies and challenges, we need even more people willing to develop a career with the same goal: improve human life through innovative technology. Therefore, I think this book’s new edition is more than necessary, and I highly recommend it, in a professional or academic way, as the most complete textbook for designing human interaction, with contemporary cases and solid ground, theoretical and technical content, and important topics to reflect on, such as ethics and inclusion, but also as an inspiration to follow this path as I did.
+
+Karla Cruz, International UX Research Sr Manager, DiDi, Brazil
+
+This is at the top of my recommended reading list for undergraduate and master’s students as well as professionals looking to change career paths. Core issues to interaction design are brought to life through compelling vignettes and contemporary case examples from leading experts. What has long been a comprehensive resource for interaction design now incorporates timely topics in computing, such as data at scale, artificial intelligence, and ethics, making it essential reading for anyone entering the field of interaction design.
+
+Anne Marie Piper, Professor, University California, Dept. of Informatics, Irvine, USA
+
+Designing quality human-computer interactions is crucial for all modern technological systems. As digital devices become smaller, faster, and smarter, the interaction challenges become ever more complex. Vast quantities of data are often accessed on handheld screens, or no screens at all through voice commands; and AI systems have interfaces that “bite back” with sophisticated dialogue structures. What are the best interaction metaphors for these technologies? What are the best tools for creating interfaces that are enjoyable and universally accessible? How do we ensure emerging technologies remain relevant and respectful of human values? In this book, you’ll find detailed analysis of these questions and much more. It is a valuable resource for both the mature student and the reflective professional.
+
+Frank Vetere, Professor of Interaction Design, University of Melbourne, Australia
+
+Interaction design is the craft of pleasing users by making technology do what they want in ways that make sense to them. The explosion of digital tech has been—not surprisingly—accompanied by an explosion in the need for trained professionals who can perform this craft. This book satisfies that need. It’s a comprehensive study of the practice of interaction design, covering everything from understanding users to providing solutions that delight them. If this is your chosen field, you will refer to this book many times over during your career, and it will help you be a well-tempered practitioner.
+
+Alan Cooper, Author of About Face, “Father of Visual Basic,” inventor of design personas
+
+The milieu of digital life surrounds us. However, how we choose to design and create our experiences and interactions with these emerging technologies remains a significant challenge. This book provides both a roadmap of essential skills and methodologies to tackle these designs confidently as well as the critical deeper history, literature, and poetry of interaction design. You will return to this book throughout your career to operationalize, ground and inspire your creative practice of interaction design.
+
+Eric Paulos, Professor, University of Berkeley, California, USA
+---
+Node: beyond human-computer interaction
+Primary concept extracted from chunk
+# beyond human-computer interaction
+
+Sixth Edition
+
+![](images/41caf18be39383c4a7a5e36feb91becd63b95a4b5ed8d0910949dbbb27c5c050.jpg)
+
+WILEY
+
+Copyright © 2023 by John Wiley & Sons, Inc. All rights reserved.
+
+Published by John Wiley & Sons, Inc., Hoboken, New Jersey. Published simultaneously in Canada and the United Kingdom.
+
+ISBN: 978-1-119-90109-9
+
+ISBN: 978-1-119-90110-5 (ebk)
+
+ISBN: 978-1-119-90111-2 (ebk)
+
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, scanning, or otherwise, except as permitted under Section 107 or 108 of the 1976 United States Copyright Act, without either the prior written permission of the Publisher, or authorization through payment of the appropriate per-copy fee to the Copyright Clearance Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 750-4470, or on the web at www.copyright.com. Requests to the Publisher for permission should be addressed to the Permissions Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at www.wiley.com/ go/permission.
+
+Trademarks: WILEY and the Wiley logo are trademarks or registered trademarks of John Wiley & Sons, Inc. and/or its affiliates, in the United States and other countries, and may not be used without written permission. All other trademarks are the property of their respective owners. John Wiley & Sons, Inc. is not associated with any product or vendor mentioned in this book.
+
+Limit of Liability/Disclaimer of Warranty: While the publisher and authors have used their best efforts in preparing this book, they make no representations or warranties with respect to the accuracy or completeness of the contents of this book and specifically disclaim any implied warranties of merchantability or fitness for a particular purpose. No warranty may be created or extended by sales representatives or written sales materials. The advice and strategies contained herein may not be suitable for your situation. You should consult with a professional where appropriate. Further, readers should be aware that websites listed in this work may have changed or disappeared between when this work was written and when it is read. Neither the publisher nor authors shall be liable for any loss of profit or any other commercial damages, including but not limited to special, incidental, consequential, or other damages.
+
+For general information on our other products and services or for technical support, please contact our Customer Care Department within the United States at (800) 762-2974, outside the United States at (317) 572-3993 or fax (317) 572-4002.
+
+If you believe you’ve found a mistake in this book, please bring it to our attention by emailing our Reader Support team at wileysupport@wiley.com with the subject line “Possible Book Errata Submission.”
+
+Wiley also publishes its books in a variety of electronic formats. Some content that appears in print may not be available in electronic formats. For more information about Wiley products, visit our web site at www.wiley.com.
+
+Library of Congress Control Number: 2023932629
+
+Cover image: Michael John March
+
+Cover design: Wiley
+---
+Node: About the Authors
+Primary concept extracted from chunk
+# About the Authors
+
+The authors are senior academics with a background in teaching, researching, and consulting in the United Kingdom, United States, Canada, India, Australia, South Africa, and Europe. Having worked together on five previous editions of this book, as well as an earlier textbook on human-computer interaction, they bring considerable experience in curriculum development using a variety of media for online learning as well as face-to-face teaching. They have expertise  in creating  learning texts  and  websites  that  motivate  and support  learning for  a range  of students  and collaborating  with professionals. All three  authors are  specialists  in interaction design and human-computer interaction (HCI). In addition, they bring skills from other disciplines; for instance, Yvonne Rogers started off as a cognitive scientist, Helen Sharp is a software engineer, and Jenny Preece works in information systems. Their complementary knowledge and skills enable them to cover the breadth of concepts in interaction design and HCI to produce an interdisciplinary text and website that will motivate readers.
+
+Yvonne Rogers  is  the Director  of  the Interaction  Centre  at  University  College  London,  a Professor of Interaction Design, and a Deputy Head of the Department for Computer Science. She is internationally renowned for her work in HCI and ubiquitous computing and, in particular, for her pioneering approach to innovation and ubiquitous learning. Yvonne is widely published, and she is the author of two books: Research in the Wild (2017, co-authored with Paul  Marshall, Morgan  &  Claypool)  and  The  Secrets  of  Creative  People (2014, Belmont Press). She is also a regular keynote speaker at computing and HCI conferences worldwide. Former positions include the Open University (2006–2011), the School of Informatics and Computing at Indiana University (2003–2006), and Sussex University (1992–2003). She has also  been  a  visiting  professor  at  UCSC,  University  of  Cape  Town,  Melbourne  University, Stanford, Apple, Queensland University, and UCSD. She has been elected as a Fellow of the Royal  Society, the ACM, the British Computer Society, and the ACM’s  CHI Academy. She was  awarded  the Royal  Society  Robin  Milner  Medal  in 2022  for “outstanding  European computer scientist,” and an MRC  Suffrage and Science Award in 2020 for being one of the leading women in “mathematics and computing.” In 2022 she was awarded the ACM SIGCHI Lifetime Achievement Research Award, “presented to individuals  for outstanding contributions to the study of human-computer interaction.”
+
+Helen  Sharp is  a Professor  of  Software Engineering  in the Faculty  of Science, Technology, Engineering, and Mathematics at the Open University. Originally trained as a software engineer, it was watching the frustration of users and the clever “work-arounds” they developed that  inspired her  to investigate HCI, user-centered design, and the  other related disciplines that now underpin the field of interaction design. She has been developing distance courses in interaction design, software engineering, and business agility since the 1980s. Her research focuses  on the study  of professional  software practice  and the effect  of human  and social aspects on software, the software development process, and software teams. In recent years,
+
+Helen has led research projects in the areas of sociocultural factors in design, agile transformation, motivation and security, and socio-technical resilience, working closely with practitioners to support practical impact. She is  active in both the software engineering and CHI communities, and she has had a long association with practitioner-related conferences. Helen is on the editorial board of several software engineering journals, and she is a regular invited speaker at academic and practitioner venues.
+
+Jennifer  Preece  is  Professor  and  Dean  Emerita  in  the  College  of  Information  Studies— “Maryland’s iSchool”—at the University of Maryland. Jenny’s research focuses on the intersection  of  information,  community, and  technology.  She  is  interested  in  community participation  online and  offline. She has  researched  ways  to support  empathy, patterns of online participation, reasons for not participating, and interaction in technology-supported communities.  She  was  author  of  one  of  the  first  books  on  online  communities— Online Communities: Designing Usability, Supporting Sociability (2000) published by John Wiley & Sons Ltd. Currently, Jenny focuses on how technology can be used in citizen science projects. Jenny’s particular interest is in technology design for data collection about the world’s flora and fauna at a time when many species are in rapid decline due to habitat loss, pollution, and climate change. Jenny is a member of the ACM’s CHI Academy, and she is Editor-in-Chief of the online, open-access journal Citizen Science: Theory and Practice. She is also on the Board of Directors of Vancouver’s Stanley Park Ecology Society.
+---
+Node: 1.1 Introduction
+Primary concept extracted from chunk
+# 1.1 Introduction
+
+How many interactive products are there in everyday use? Think for a minute about what you use in a typical day: a smartphone, tablet, smartwatch, laptop, remote control, coffee machine, printer, smoothie maker, e-reader, smart TV, alarm clock, electric toothbrush, radio, bathroom
+
+scales, fitness tracker, game console. Then think of which apps and social media you use…the list is endless. Now think for a minute about how usable they are. How many are actually easy, effortless, and enjoyable to use? Some, like a tablet, are a joy to use, where tapping an app and flicking through photos is simple, smooth, and enjoyable. Others, like buying a train ticket from a ticket machine that does not recognize your credit card after completing a number of steps and then makes you start again from scratch, can be very frustrating. Why is there a difference?
+
+Many products that require users to interact with them, such as smartphones and fitness trackers, have been designed primarily with users’ needs in mind. They are generally easy and enjoyable to use. Others have not necessarily been designed with the person in mind; rather, they have been engineered primarily as software systems to perform set functions. An example is setting the time of day on a stove, such as when setting it up or after a power failure, that requires a combination of button presses that are not obvious as to which ones to press together or separately. While they may work effectively, it can be at the expense of how easily they will be learned and remembered and therefore used in a real-world context.
+
+Alan Cooper (2018), a well-known user experience guru, bemoans the fact that much of today’s software suffers from the same interaction errors that were around 25 years ago. Why is this still the case, given that interaction design has been in existence for more than 30 years and given that there are far more designers now in industry than ever before? He points out how many interfaces of new products do not adhere to the interaction design principles validated in the 1990s. For example, he notes that many apps do not follow even the most basic of user experience design principles, such as offering an “undo” option. He exclaims that it is “inexplicable and unforgivable that these violations continue to resurface in new products today.”
+
+How can we rectify this situation so that the norm is that all new products are designed to provide good user experiences? To achieve this, we need to be able to understand how to reduce the negative aspects (such as frustration and annoyance) while enhancing the positive ones (for example, enjoyment and efficacy). This entails developing interactive products that are easy to learn, effective, and pleasurable to use from a user’s perspective.
+
+In this chapter, we begin by examining the basics of interaction design. We look at the difference between good and poor design, highlighting how products can differ radically in how usable and enjoyable they are. We consider what is gained and lost from transforming activities to be digital when previously they were done  through using physical artifacts. We then describe what and who is involved in the process of interaction design. The user experience, which is a central concern of interaction design, is then introduced. Finally, we outline how to characterize this in terms of usability goals, user experience  goals, and design principles. An in-depth activity is presented at the end of the chapter in which you have the opportunity to put into practice what you have read by evaluating the design of an interactive product.
+---
+Node: BOX 1.1
+Primary concept extracted from chunk
+# BOX 1.1
+
+What’s in a name? User, people, human, or customer?
+
+Several terms have been used to emphasize different aspects of what is being designed, including user interface design (UI), software design, user-centered design, human-centered design, people-centered  design, product design, web design, user experience (UX) design, customer
+
+experience (CX) design,  and  interactive  system design.  Interaction  design (IxD)  is generally used as the  overarching term to describe the  field, including its methods, theories, and approaches. Since about 2010, UX design has been the most widely used term in industry to refer to the profession. However, the terms have been used interchangeably. Also, it depends on each company’s ethos and brand.
+
+As the field has matured, Don Norman (2018) has argued for using the more encompassing term people-centered design and referring to people instead of users where it seems more appropriate. Sometimes, continuing to use the term user makes sense, however, if it is specifically about how a technology is to be used for or by someone. Likewise, continuing to refer to user’s needs and the user experience can be preferable when considering how to design a specific product. More generally, however, much of what interaction design is about is understanding and augmenting people. In this context, using the term people is better, because it is broader, being able to refer to a single person, a group of people, or even whole societies, which is appropriate when describing large social media systems. Here, in the new edition of our textbook, we have changed primarily to using people-centered design but have continued to use the term user-centered when referring specifically to using an interface.
+
+Customer experience (CX), on the other hand, refers to all of the interactions someone has with a company’s offering, including the overall experience, the probability they will continue to use it, and the likelihood they will recommend it to others. In this sense, the UX is part of the wider CX, but the CX covers other aspects that the UX has traditionally not covered (Lowden, 2014).
+
+Video Don Norman explains why adopting a people-centered approach is the way forward: interaction-design.org/literature/topics/people-centered-design.
+---
+Node: 1.2  Good and Poor Design
+Primary concept extracted from chunk
+# 1.2  Good and Poor Design
+
+A central concern of interaction design is to develop interactive products that are usable. By this we mean products that are generally easy to learn, effective to use, and provide an enjoyable experience for the intended people. A good place to start thinking about how to design usable  interactive  products  is  to  compare  examples  of  well-designed  and  poorly  designed ones. Through identifying the specific weaknesses and strengths of different interactive products, we can begin to understand what it means for something to be usable or not. Here, we describe  an  example  of  a  poorly  designed  product  that has  persisted  over  the  years—the ubiquitous  remote  control—and  contrast  this  with  a  well-designed  example  of  the  same product that performs the same function.
+
+Every  home  entertainment  system,  be  it  the  smart  TV,  streaming  video  player,  home theater  system,  and so  forth, comes  with  its  own  remote control.  Each  one  is  different  in
+
+terms of how it looks and works. Many have been designed with a dizzying array of small, multicolored, and double-labeled buttons (one on the button and one above or below it) that often seem arbitrarily positioned in relation to one another. Many viewers, especially when sitting in their living rooms, find it difficult to locate the right buttons, even for the simplest of tasks, such as pausing or finding the main menu. It can be especially frustrating for those who need to put on their reading glasses each time to read the buttons. The remote control appears to have been put together very much as an afterthought.
+
+In contrast, much effort and thought went into the design of the classic TiVo remote control with the viewer in mind (see Figure 1.1). TiVo is a digital video recorder that was originally developed to enable the viewer to record TV shows. The remote control was designed with  large buttons  that  were clearly labeled  and  logically  arranged,  making  them  easy  to locate and  use in  conjunction with  the menu interface that appeared  on the TV  screen. In terms of its physical form, the remote device was designed to fit into the palm of a hand, having a peanut shape. It also has a playful look and feel about it: Colorful buttons and cartoon icons are used that are distinctive, making it easy to identify them.
+
+Figure 1.1  The TiVo remote control   
+![](images/13cbc9b41ee0474836801106e3536613c42d21f10b1a656edb5d4b89debac0db.jpg)  
+Source: business.tivo.com
+
+How was it possible to create such a usable and appealing remote device where so many others have failed? The answer is simple: TiVo invested the time and effort to follow a peoplecentered design process. Specifically, TiVo’s director of product design at the time involved
+
+potential users  in the design process, getting  their feedback on everything  from the feel  of the device in the hand to where best to place the batteries, making them easy to replace but not  prone  to  falling out.  He  and  his  design team  also  resisted  the  trap  of “buttonitis” to which so many other remote controls have fallen victim; that is one where buttons breed like rabbits—a button for every new function. They did this by restricting the number of control buttons embedded in the device to the essential ones. Other functions were then represented as part of the menu options and dialog boxes displayed on the TV screen, which could then be selected via the core set of physical control buttons. The result was a highly usable and pleasing device that has received much praise and numerous design awards.
+---
+Node: DILEMMA
+Primary concept extracted from chunk
+# DILEMMA
+
+When  Is  a  Person  Considered  Vulnerable,  and  How  Might  This Affect Them?
+
+Who is vulnerable? The answer is all  of us at various  times and stages in our  lives. At any particular time, however, some people are more vulnerable than others (for example, children and people with emotional and certain physical disabilities). Furthermore, definitions of people who are vulnerable vary from country to country, state to state, and policy to policy, so the following scenarios are broad categories to get you thinking about this important issue. At what age can children read and sign their own consent forms? Is it when they are considered to be old enough to understand what they are being asked to do? This could be 12 years of age, or at other times and places 16 or even 18 or 21. It also depends on the kind of study. In some parts of the world, a 17-year-old can get married but may need their parents to sign a form saying that they can take part in an evaluation study to rate the realism of a social robot’s expressions. What is the balance here between seeking reasonable consent and respecting individuals’ rights to privacy for themselves and their families?
+---
+Node: Summary
+Primary concept extracted from chunk
+# Summary
+
+This chapter described evaluation studies in different settings. It focused on experiments conducted as controlled laboratory studies  and in-the-wild  studies situated in natural settings. A study of the iPad when it first came out was presented as an example of usability testing. A second case study focused on the strategies needed to remotely evaluate products with experts using VR. These studies occurred across different locations and were very complex. Because of the COVID-19 pandemic, there was the added problem of how to keep evaluators and participants safe, which involved using Teams—a  group chat software for communication—so participants and evaluators could be distanced from each other.
+
+Experimental design was then discussed that involves testing a hypothesis in a controlled research lab. The chapter ended with a discussion of in-the-wild studies in which participants use prototypes and new technologies in natural settings. The Painpad example involved evaluating how  patients in two hospitals, who  were recovering from surgery, used the  mobile Painpad device designed to enable them to self-monitor their pain levels throughout the day.
+
+Key differences between usability testing and in-the-wild studies include the location of the  study—usability lab  or makeshift  usability lab, living lab or online distributed remote, research lab, or natural, in-the-wild situation—and how much control is imposed by evaluators and researchers. At one end of the spectrum are experiments and laboratory testing, and at the other are in-the-wild studies. Most studies use a combination of different methods, and designers often have to adapt their methods to cope with unusual new circumstances created when evaluating a new design concept, device, or app.
+---
+Node: Four Approaches to Interaction Design
+Primary concept extracted from chunk
+# Four Approaches to Interaction Design
+
+Dan Saffer (2010) suggests four main approaches to interaction design, each of which is based on a distinct underlying philosophy: user-centered  design, activity-centered design, systems design, and genius design.
+
+Saffer acknowledges that the purest form of any  of these approaches is unlikely to be realized, and he takes an extreme view of each in order to distinguish among them. In usercentered design, the user knows best and is the guide to the designer; the designer’s role is to translate the users’ needs and goals into a design solution.
+
+Activity-centered design focuses on the behavior surrounding particular tasks. Users still play a significant role, but it is their behavior rather than their goals and needs that is important. Systems design is a structured, rigorous, and holistic design approach that focuses on context  and  is particularly appropriate  for  complex  problems. In systems  design,  it is the system (that is, the people, computers, objects, devices, and so on) at the center of attention, while the users’ role is to set the goals of the system.
+
+Finally, genius design is different from the other three approaches because it relies largely on the experience and creative flair  of a designer. Jim Leftwich, an experienced interaction designer interviewed by Dan Saffer (2010, pp. 44–45), prefers the term rapid expert design. In this approach, the users’ role is to validate ideas generated by the designer, and users are not involved during the design process itself.
+
+Different design problems lend themselves more easily to different approaches, and different designers will tend to gravitate toward using the approach that suits them best. Although an individual designer may prefer a particular approach, it is important that the approach for any one design problem is chosen with that design problem in mind.
+---
+Node: 2.2.1  Who to Involve in the Design Process
+Primary concept extracted from chunk
+# 2.2.1  Who to Involve in the Design Process
+
+There is a surprisingly wide collection of people who have a stake in the development of a successful product. These people are called stakeholders. They  are the individuals or groups who can influence or be influenced by the success or failure of an endeavor such as a project, organization, or product. Stakeholder analysis has been studied for many years (Freeman, 1984). The involvement of stakeholders in interaction design has received increasing attention more recently. For example, Maarten Houben et al. (2020) ran workshops for stakeholders to explore requirements for an interactive sound cushion to be used in a dementia care home. Although some of their stakeholders were also potential users of the cushion, others were not. Their stakeholders included a care manager, professional caregiver, policymaker, and activity supervisor.
+
+The group of stakeholders for a particular product will be larger than the group of users. It will include customers who pay for it; users who interact directly with it; developers who design, build, and maintain it; executives responsible for any income derived from it; legislators who impose rules on the development and operation of it; and people whose lives may be affected by its introduction. The net can be very wide (Sharp et al., 1999). Asking who is interested in the project, who has influence or control over it, and who will be affected by its introduction is a good way to start identifying stakeholders.
+---
+Node: ACTIVITY 2.2
+Primary concept extracted from chunk
+# ACTIVITY 2.2
+
+Self-driving delivery trucks are  increasingly being  deployed across the  globe. These  trucks still  require  human  drivers  to monitor their  behavior, and  some include  the  capability for software upgrades “over the air” as well as optimizing fuel use. Who are the stakeholders for these vehicles?
+---
+Node: 2.2.2  The Importance of Involving Users
+Primary concept extracted from chunk
+# 2.2.2  The Importance of Involving Users
+
+Chapter 1, “What Is Interaction Design?” stressed the importance of understanding people and their activities when designing interactive products. This involves considering users or potential users in  the design process, not just to understand  them and their  activities but also  to  test  and  evaluate  candidate  designs  in  their  context.  Both  aspects  are  necessary because  it is the  best  way to  ensure that  the end  product  is usable  and  provides a good experience so that it will be used.
+
+In commercial projects, a role called the product owner is common. The product owner’s job is to filter user and customer input to the development cycle and to prioritize requirements or features. This person is usually someone with business and technical knowledge and is often called upon to assess designs. Although they have close engagement with the product and customer needs, they are only able to represent a limited view of the product’s use and cannot predict how customers will respond to a given design at any useful level of detail. The best way to ensure that the product is usable is to involve potential users across all stages of development.
+
+Two other aspects are equally important if the product is to be usable and used: expectation management and ownership.
+
+Expectation  management  is  the  process  of  making  sure  that expectations  of  the  new product are realistic. Its purpose is to ensure that there are no surprises when the product is released. If  people feel the product has  been misrepresented, then this will cause resistance and even rejection, although avoiding disappointment in design may be particularly difficult to achieve with a large and complex system (Nevo and Wade, 2007).
+
+Involving  potential users  and  those impacted  by the  new product  at  different stages during development helps with expectation management because they can see the product’s capabilities from an early stage. They will also understand better how it will support their activities, how it will affect their jobs and lives, and why the features are designed that way. Adequate and timely training is another technique for managing expectations. Having the chance to see a prerelease video, or work with a hands-on prototype or early version, will create a better understanding of what to expect when the final product is available.
+
+A  feeling of ownership is  another reason for involving  potential users. Those who  are involved and feel that they have contributed to a product’s development are more likely to feel a sense of ownership toward it and support its use (Bano et al., 2017). When developing tools to support Wikipedia contributors, Angelika Muhlbauer and Kai Nissen (2013) found that early involvement of members of the Wikipedia community led to higher acceptance of their innovations.
+
+How to involve potential users, in what roles, and for how long, needs planning, as discussed in the next “Dilemma” box.
+
+Video To see a practical example of changing the ATM experience by focusing on people who use it, go to www.youtube.com/watch?v=x-DLQp9xb20.
+---
+Node: 4.1 Introduction
+Primary concept extracted from chunk
+# 4.1 Introduction
+
+Imagine that it is getting late in the evening and you are sitting in front of your laptop. You have a report to complete by tomorrow morning, but you are not getting very far with it. You begin to panic and start biting your nails. You see several notifications flash up on your smartphone. You instantly abandon your report and cradle your smartphone to read them. One is  a message from your mother, and the other is a text from your friend asking if you want to  go out for a  drink. You  reply immediately  to both of  them. Before you  know it, you’re back on Instagram to see whether any of your friends have posted anything interesting lately. Your phone rings, and you see that it’s your dad calling. You answer it, and he asks if you have been watching the football game. You say that you are too busy working toward a deadline, and he tells you that your team has just scored. You  chat with him for a while and then  say you have to get back to work. You  realize  30 minutes have passed, and  you return your attention to your report. But before you realize it, you click your favorite sports site to check the latest score of the football game and discover that your team has just scored again. Your phone starts buzzing. More new WhatsApp messages are waiting for you. And
+
+on it goes. You  glance at the time on  your laptop. It is midnight. You  really are in a panic now and finally close everything down except your word processor.
+
+With the advent of smartphones and the Internet, it has become increasingly common for people to be switching their attention constantly among multiple tasks. The study of human cognition can help us understand the impact of multitasking on human behavior. It can also provide insights into other types of digital behaviors, such as decision-making, searching, and designing when using computer technologies by examining human abilities and limitations.
+
+This chapter covers the cognitive aspects of interaction design. It considers what humans are good  and bad at, and it shows how this knowledge can inform the design of technologies  that both  extend  human  capabilities  and compensate  for human  weaknesses.  Finally, relevant cognitive  theories, which  have been  applied in  HCI to  inform  technology  design, are described. (Other ways of conceptualizing human behavior that focus on the social and emotional aspects of interaction are presented in the following two chapters.)
+---
+Node: 4.2 What Is Cognition?
+Primary concept extracted from chunk
+# 4.2 What Is Cognition?
+
+There are many different kinds of cognition, such as thinking, remembering, learning, daydreaming,  decision-making,  seeing,  reading,  writing, and  talking.  A  classic  way  of  distinguishing  between  different  modes  of cognition  is  in  terms  of whether  it  is  experiential  or reflective (Norman, 1993). Experiential cognition is a state of mind where people perceive, act, and react to events around them intuitively and effortlessly. It requires reaching a certain level of expertise and engagement. Examples include driving a car, reading a book, having a conversation, and watching a video. In contrast, reflective cognition involves mental effort, attention,  judgment,  and  decision-making,  which  can  lead  to  new  ideas  and  creativity. Examples include designing, learning, and writing a report. Both modes are essential for everyday life. Another popular way of describing cognition is in terms of fast and slow thinking (Kahneman, 2011). Fast thinking is similar to Don Norman’s experiential mode insofar as it is instinctive, reflexive, and effortless, and it has no sense of voluntary control. Slow thinking, as the name suggests, takes more time and is considered to be more logical and demanding, and it requires greater concentration. The difference between the two modes is easy to see when asking someone to give answers to the following two arithmetic equations:
+
+$$
+\begin{array}{l} 2 + 2 = \\ 2 1 \times 1 9 = \\ \end{array}
+$$
+
+The former can be done by most adults in a split second without thinking, while the latter requires much mental effort; many people need to externalize the task to be able to complete it by writing it down on paper and using the long multiplication method. Nowadays, many people simply resort to fast thinking by typing the numbers to be added or multiplied into a calculator app on a smartphone or computer.
+
+Other ways in which cognition has been couched in interaction design are in terms of the context in which it takes place, the tools that are employed, the artifacts and interfaces that are used, and the people involved (Rogers, 2012). Depending on  when, where, and how  it
+
+happens, cognition can be distributed, situated, extended, and embodied. Cognition has also been described in terms of specific kinds of processes (Eysenck and Brysbaert, 2018). These include the following:
+
+• Attention   
+. Perception   
+. Memory   
+. Learning   
+. Reading, speaking, and listening   
+. Problem-solving, planning, reasoning, and decision-making
+
+It is important to note that many of these cognitive processes are interdependent: Several may be involved for a given activity. It is rare for one to occur in isolation. For example, when reading a book, one has to attend to the text, perceive and recognize the letters and words, and try to make sense of the sentences that have been written.
+
+In  the  following  sections  we  describe  the  main  kinds  of  cognitive  processes  in  more detail, followed  by  a summary  box highlighting  the core  design implications  of each. The most  relevant  for  interaction design  are  attention and  memory,  which  we  describe  in  the greatest detail.
+---
+Node: 4.2.1  Attention
+Primary concept extracted from chunk
+# 4.2.1  Attention
+
+Attention is central to everyday life. It enables us to cross the road without being hit by a car or bicycle, notice when someone is calling our name, and be able to text while at the same time  watching TV. It  involves selecting  things on  which to concentrate, at a point  in time, from the range of possibilities available, allowing us to focus on information that is relevant to what  we are  doing. The  extent to which  this process  is  easy or  difficult depends  on  (1) whether someone has clear goals and (2) whether the information they need is salient in the environment.
+---
+Node: Clear Goals
+Primary concept extracted from chunk
+# Clear Goals
+
+If someone knows exactly what they want to find out, they try to match this with the information that is  available. For example, when someone has  just landed  at an  airport after a long flight, which did not have Wi-Fi onboard, and they want to find out who won the World Cup, they might scan the headlines on their smartphone or look at breaking news on a public TV  display inside the airport. When someone is not sure exactly what they are looking for, they may browse through information, allowing it to guide their attention  to interesting or salient items. For example, when going to a restaurant, someone may have the general goal of eating a meal but only a vague idea of what they want to eat. They peruse the menu to find things  that whet  their appetite, letting their attention be  drawn  to the  imaginative  descriptions of various dishes. After scanning through the possibilities and imagining what each dish might be like, as well as considering other factors, such as cost, who they are with, what are the  specials, what  the  waiter recommends, and whether  they want  a  two- or  three-course meal, and so on, they then decide.
+---
+Node: Multitasking and Attention
+Primary concept extracted from chunk
+# Multitasking and Attention
+
+As  mentioned  in  the introduction  to  this chapter, many people  now  multitask, frequently switching their attention among different tasks. There has been considerable research investigating  the pros and cons of multitasking and its occurrence among different  populations. Not surprisingly, it is most prevalent among young people. Karen Ettinger and Anat Cohen (2020), for example, found that teens engage in multitasking by switching between various combinations, such as listening to music, texting, and social networking.
+
+A question that is often raised is whether it is possible to perform multiple tasks without one or more of them being detrimentally affected. The focus has been on the effects of multitasking on memory and attention (Burgess, 2015). A general finding is that it depends on the nature of the tasks and how much attention each demands. For example, listening to gentle music  while  working  can  help  people tune out  background  noise,  such as  traffic or  other people talking, and help them concentrate on what they are doing. However, if the music is loud, it can be distracting.
+
+Individual  differences  have  also  been  found  between  light  and  heavy  multitaskers. A heavy multitasker is someone who switches frequently between different tasks using multiple media channels (e.g., the person described in the introduction of this chapter), whereas a light media multitasker is someone who focuses on their main task (e.g., writing an essay) and may switch tasks only infrequently, for example, to check their phone occasionally. Findings from a series of studies comparing heavy with light multitaskers have shown that heavy media multitaskers are more prone to being distracted by the multiple streams of media they
+
+are viewing than those who infrequently multitask (Ophir et al., 2009). Light media multitaskers, on the other hand, were found to be better at allocating their attention when faced with competing distractions. This suggests that people who are heavy multitaskers are likely to be those who are easily distracted and find it difficult to filter out irrelevant information. It is not clear, however, whether people who are easily distracted are predisposed to becoming heavy multitaskers.
+
+Hence, the main  reason why  multitasking is  thought to be detrimental for human performance is  that  it  overloads people’s capacity  to focus. Additional effort  is  required after switching attention  from  what someone  is  working  on to  another piece  of information  in order to get back into the other task and to remember where they were in the ongoing activity. Thus, the time to complete a task can be significantly increased. For example, a study of completion rates of coursework found that students who were involved in instant messaging took up to 50 percent longer to read a passage from a textbook compared with those who did not instant message while reading (Bowman et al., 2010). Multitasking can also result in people losing their train of thought, making errors, and needing to start over again.
+
+Since this early research, the findings from more recent studies have been less clear-cut. A meta-review of the literature pointed out that while many studies continue to show heavy media multitaskers exhibiting poorer performance compared with light media multitaskers, several other  studies have not  found a relationship  between  multitaskers and performance (Uncapher  and Wagner, 2018). Instead, Danielle Lottridge  et  al. (2015)  proposed  that  the relationship may  be more complex. Interestingly, they  found that while heavy multitaskers are  easily  distracted, they  can  also  put  this  to  good  use  if  the  distracting  sources  are  relevant to the task in hand. They conducted a study that involved writing an essay under two conditions—with either relevant or irrelevant information. Their findings showed that if the information sources were relevant, they did not affect the essay writing of heavy multitaskers. In contrast, the condition where irrelevant information was provided was found to negatively impact task performance. In summary, they found that multitasking can be both good and bad—it depends on what you are distracted by and how relevant it is to the task at hand.
+---
+Node: A Novel Kind of Notification That Helps People from Getting Distracted
+Primary concept extracted from chunk
+# A Novel Kind of Notification That Helps People from Getting Distracted
+
+To help people get back on track or prevent them being distracted in the first place, a diversity of apps and  tools have been developed. Many are  designed to block or limit the  distracting sources, such as notifications, newsfeeds, and  social media. For example, FocusMe (focusme.com) is an app that claims to “wall off online temptation” and, in so doing, help people improve their willpower so they can develop better digital habits. Other tools provide a weekly summary of the time someone has spent each week on different tasks, such as email or meetings. The aim of this kind of aggregate weekly visualization is to help people reflect on their stats and see whether they could improve upon how they spend their time.
+
+Judith Borghouts, Duncan Brumby, and Anna Cox (2020) developed a design intervention called TimeToFocus, which is intended to provide people with awareness and feedback in real time about  their  distraction behavior. Essentially, it is a  browser extension  that asks a person to select a main task window to focus on (see Figure 4.2). If they get distracted by other online activities, such as email or browsing the web, it notifies them as to how much time they have switched away from their main task window. In a series of user studies investigating the effectiveness  of increasing awareness  of time spent  away from an allocated  task window, Borghouts  et al. found that their TimeToFocus  intervention enabled  participants to reflect more on their interruption behavior. In turn, this helped them change their working habits by reducing the number of irrelevant activities they partook in during their time away from the main task. Having a pop-up notification that reminds you of how long you have been away from your main task may just do the trick!
+
+![](images/10cab9c42035c7e9429ffa485c8a889596f7ceed12da32dea0849f72ba22c6fd.jpg)  
+Figure 4.2  The  TimeToFocus  browser  extension (in upper-right  corner)  that pops up to warn a person about how much time they have spent away from their main task window Source: Borghouts et al. (2020)
+
+Many people are expected to multitask in the workplace nowadays, such as in hospitals, as  a  result  of  the  introduction  of  ever  more  technology  (for  example,  multiple  screens  in an  operating room). The technology  is  often introduced to provide new  kinds of real-time and changing information. Research into how  well clinicians  manage to switch and divide their attention  among different tasks in tech-rich environments  also suggests it is  complex, depending on a number of individual and contextual factors as to how effective they are at achieving this (Douglas et al., 2017). For example, a study of attention switching in a clinical setting showed that when there was a lot of attention switching—as indicated by logged
+
+data from the electronic health records that were accessed—more wrong-patient errors were made (Lou  et al., 2022). By this is meant when a patient is identified incorrectly, regardless of whether the error translates into patient harm.
+
+Managing the ever-increasing information load requires professionals, like clinicians, to develop new attention and scanning strategies, looking out for anomalies in data visualizations and listening for audio alarms alerting them to potential dangers. Interaction designers have tried to help by  including  the use of ambient displays that come on  when something needs attention—flashing  arrows to direct attention  to a particular type of data or  history logs of recent actions that can be quickly examined to refresh one’s memory of what has just happened on a given screen. In the future, other technologies, such as speech-based interfaces and augmented reality, may prove to be effective at alerting people to what needs attending to at a given time.
+
+![](images/5110bd181e1969c91a16ce87443b239fd7c3cb41f42840714852bf7b210e7e4c.jpg)  
+This project calls for real concentration. Are you still able tomonotask?
+
+Source: Chris Wildt / Cartoon Stock
+---
+Node: Attention
+Primary concept extracted from chunk
+# Attention
+
+Consider context. Make information salient  when it requires attention  at a  given  stage of a task.   
+Use techniques to achieve this when designing visual interfaces, such as animated graphics, color, underlining, ordering of items, sequencing of different  information, and  spacing of items.   
+•  Avoid cluttering visual interfaces with too much information. This applies especially to the use of color and graphics: It is tempting to use lots of these attributes, which results in a mishmash of media that is distracting and annoying rather than helping the user attend to relevant information.   
+Consider designing  different  ways of supporting effective switching  and  returning to a particular interface. This could be done subtly, such as the use of pulsing lights gradually getting brighter, or abruptly, such as the use of alerting sounds or voice. How much com peting visual information or ambient sound is present also needs to be considered.
+---
+Node: 4.2.5  Reading, Speaking, and Listening
+Primary concept extracted from chunk
+# 4.2.5  Reading, Speaking, and Listening
+
+Reading, speaking, and listening are three forms of language processing that have some similar and some different properties. One similarity is that the meaning of sentences or phrases is the same regardless of the mode in which it is conveyed. For example, the following sentence essentially has the same meaning whether one reads it, speaks it, or hears it: Computers are a wonderful invention. However, the ease with which  people can  read, listen, or speak differs depending on the person, task, and context. For example, many people find listening easier than reading. Specific differences between the three modes include the following:
+
+? Written language is permanent while listening is transient. It is possible to re-read information if not understood the first time around. This is not possible with spoken information that is being broadcast unless it is recorded, although digital video recorders like TiVo enable rehearing of spoken information from broadcasts, allowing for dialogue to be replayed.   
+• Reading can be quicker than speaking or listening, as written text can be rapidly scanned in ways not possible when listening to serially presented spoken words.   
+• Listening requires less cognitive  effort than reading or speaking. Children often prefer to listen rather  than to  read  the equivalent text  online. The  popularity of  audiobooks and podcasts suggests adults also enjoy listening to novels, and so forth.   
+. Written language tends  to be grammatical, while spoken language  is often  ungrammatical. For example, people often start talking and stop in midsentence, letting someone else start speaking.   
+Dyslexics have difficulties understanding and recognizing written words, making it hard for them to write grammatical sentences and spell correctly.
+
+Many applications have been developed either to capitalize on people’s reading, writing, and  listening  skills, or  to  support or  replace them  where they  lack  or  have  difficulty  with them. These include the following:
+
+Interactive books and apps that help people to read or learn foreign languages.   
+? Speech-recognition  systems  that  allow  people  to  interact  with  them  by  using  spoken commands using smartphones, tablets, and smart speakers (for example, Dragon Home, Google Voice Search, and home devices, such as Amazon Alexa, Google Home, and Home Aware that respond to vocalized requests).
+
+• Speech-output  apps  that  use  artificially  generated  speech  (for  instance,  written  text-tospeech systems for the blind).   
+Natural-language  interfaces  that  enable  people  to  type  in  questions  and  get  written responses (for example, chatbots).   
+• Interactive apps  that  are  designed  to help  people  who  find  it  difficult to  read, write, or speak by reading text aloud and proofing written work (e.g., GhotitReal Writer).   
+. Haptics that help people who are visually impaired to play video games (e.g., Microsoft’s haptic controllers).
+---
+Node: DESIGN IMPLICATIONS
+Primary concept extracted from chunk
+# DESIGN IMPLICATIONS
+
+Problem-Solving, Planning, Reasoning, and Decision-Making
+
+Provide information pages that are easy to access for people who want to understand more about how to carry out an activity more effectively (for example, web searching).   
+•  Use simple and memorable functions to support rapid decision-making and planning.   
+•  Enable users to set or save their own criteria or preferences.
+---
+Node: 4.2.6  Problem-Solving, Planning, Reasoning, and Decision-Making
+Primary concept extracted from chunk
+# 4.2.6  Problem-Solving, Planning, Reasoning, and Decision-Making
+
+Problem-solving, planning, reasoning, and decision-making are processes involving reflective cognition. They include thinking about what to do, what the available options are, and what the consequences might be of carrying out a given action. They often involve conscious processes (being aware of what one is thinking about), discussion with others (or oneself), and the use of various kinds of artifacts (for example, maps, books, pens, and paper). Reasoning involves working through different scenarios and deciding which is the best option or solution to a given problem. For example, when deciding on where to go on a vacation, people may weigh the pros and cons of different locations, including cost, weather at the location, availability and type of accommodation, time of flights, proximity to a beach, the size of the local town, whether  there is nightlife, and so forth. When weighing all  of the  options, they reason through the advantages and disadvantages of each before deciding on the best one.
+
+There  has been much interest in how people make decisions when confronted  with an abundance of choice, such as when shopping on the web or at a store (Todd et al., 2011). Do people stick to what they know, buying the same products, or are they tempted to try new ones, especially  if they  are on offer?  In  a summary  of research  on consumer  choice, Peter Todd (2017) pointed out how people tend to select the products they know and prefer when shopping. One possible explanation  for this behavior is that human minds have evolved to act quickly, making just good enough decisions by using fast and frugal heuristics (Gigerenzer et al., 1999). We typically ignore most of the available information and rely on only a few important cues, such as recognizing the name of a brand.
+
+Another  explanation  derived  from  evolutionary  theory  suggests  that  searching  the shelves in a supermarket is akin to foraging for food in the wild (Todd, 2017). Animals like bears decide to remain in one berry patch, waiting until they have eaten most of the ripe berries before leaving and seeking a new, unexploited patch. Similarly, it is thought that shoppers stay with a familiar brand patch before exploring any others. The reason is that there can be costs to moving away from a familiar brand, such as the time needed to find an appropriate alternative or to get used to its newness.
+
+This resistance to change poses a challenge to health and sustainability advocates who want  to  encourage  shoppers  to  switch to  healthier  options—as  they  may  not  take  notice of  new products. Given  this  proclivity to “not see,” how  might technology  be designed  to encourage  or  tempt  people  to  try  something  different?  One  possibility  is  to  design  novel forms of mobile augmented reality that draw someone’s attention to salient qualities in a new product. For example, it could highlight how healthy and tasty a new kind of vegan cheese is or how the packaging used is now 100 percent recycled. The intervention could use tantalizing  imagery, which  is minimalist so  as not to overload the  shopper. However, this requires developing AR apps that shoppers (or their family members) would be tempted to download and try out in the first place.
+---
+Node: Can You Make Up Your Mind Without an App?
+Primary concept extracted from chunk
+# Can You Make Up Your Mind Without an App?
+
+When smartphone apps became mainstream, Howard Gardner and Katie Davis (2014) wrote a book about the so-called “app generation” who were brought up on a diet of apps. They suggested how young people at the time found it difficult to make their own decisions because they were becoming more and more risk averse. The reason for this was that they were relying on using an increasing number of mobile apps to help them in their decision-making, removing the risk of having to decide for themselves. Often, they would first read what others had said on social media sites, blogs, and recommender apps before choosing where to eat or go, what to do or listen to, and so on. However, relying on a multitude of apps meant that they were becoming increasingly unable to make decisions by themselves.
+
+Is this still the same for today’s young generation? Many still face the same first big decision as previous generations: having to choose whether to go to college or university and, if so, which one. This can be an agonizing and prolonged experience where much uncertainty is involved. Many will read countless reviews, go on numerous visits to colleges and universities with their parents over several months, study university rankings that apply different measures, read up on what others say on social networking sites, and so on. In the end, however, they may finally  choose the  institution where their friends  attend or the  one they liked  the look of in the  first place. Do you  think today’s generation and beyond will experience the same, less, or more uncertainty when making big life-changing decisions?
+---
+Node: 4.3 Cognitive Frameworks
+Primary concept extracted from chunk
+# 4.3 Cognitive Frameworks
+
+A number of conceptual frameworks have been developed to explain and predict user behavior based on theories of cognition. In this section, we outline three that  focus primarily on mental processes and three others that explain how humans interact and use technologies in the context in which they occur. These are mental models, gulfs of execution and evaluation, information processing, distributed cognition, external cognition, and embodied interaction.
+---
+Node: 4.3.1  Mental Models
+Primary concept extracted from chunk
+# 4.3.1  Mental Models
+
+Mental models are used by people when needing to reason about a technology, in particular, to try to fathom what to do when something unexpected happens with it or when encountering unfamiliar products for the first time. The more someone learns about a product and how it functions, the more their mental model develops. For example, broadband engineers have a deep mental model of how Wi-Fi networks work that allows them to set them up and fix them. In contrast, an average citizen is likely to have a reasonably good mental model of how to use the Wi-Fi network in their home but a shallow mental model of how it works.
+
+Within cognitive psychology, mental models have been postulated as internal constructions of some aspect of the external world  that are manipulated, enabling  predictions and inferences to be made (Craik, 1943). This process is thought to involve the fleshing out and the running of a mental  model (Johnson-Laird, 1983). This can involve both unconscious and conscious mental processes, where images and analogies are activated.
+---
+Node: ACTIVITY 4.4
+Primary concept extracted from chunk
+# ACTIVITY 4.4
+
+To illustrate how we use mental models in our everyday reasoning, imagine the following two scenarios:
+
+•  You arrive home from a vacation on a cold winter’s night to a cold house. You have a small baby, and you need to get the house warm as quickly as possible. Your house is centrally heated, but it does not have a smart thermostat that can be controlled remotely. Do you set the thermostat as high as possible or turn it to the desired temperature (for instance, $7 0 ^ { \circ } \mathrm { F }$ )?   
+•  You arrive home after being out all night and you’re starving. You look in the freezer and
+
+<!-- Chunk 3 End -->
+
+<!-- Chunk 4 Start -->
+
+find all that is left is a frozen pizza. The instructions on the package say heat the oven to $3 7 5 ^ { \circ } \mathrm { F }$ and then place the pizza in the oven for 20 minutes. Your oven is electric. How do you heat it up? Do you turn it to the specified temperature or higher?
+---
+Node: chapter 07 Chapter 5 chunk 010 Comment 2
+Primary concept extracted from chunk
+cue from a speaker to answer a question or take over the conversation but instead continue to say  nothing even  though  the speaker  may  be making  it  glaringly obvious  that it is  the listener’s turn to say something. Oftentimes, a teacher will try to hand over the conversation to a student in a seminar by staring at them and asking a specific question, only to see the student look at the floor and say nothing. The outcome is an embarrassing silence, followed by either the teacher or another student picking up the conversation again.
+
+Other kinds of breakdowns in conversation arise when someone says something that is ambiguous, and the interlocutor misinterprets it to mean something else. In such situations, the participants will collaborate to overcome the misunderstanding by using repair mechanisms. Consider the following snippet of conversation between two people:
+
+A: Can you tell me the way to get to the Multiplex Ranger cinema?   
+B: Yes, you go down here for two blocks and then take a right (pointing to the right); proceed until you get to the light, and then it’s on the left.   
+A: Oh, so I go along here for a couple of blocks and then take a right, and the cinema is at the light (pointing ahead of him)?   
+B: No, you go down this street for a couple of blocks (gesturing more vigorously than before to the street to the right of him while emphasizing the word this).   
+A: Ahhhh! I thought you meant that one: so it’s this one (pointing in the same direction as the other person).   
+B: Uh-hum, yes, that’s right: this one.
+
+Detecting  breakdowns in conversation  requires that the speaker  and listener both pay attention to what  the other says  (or does  not say). Once they  have understood the nature of the failure, they can then go about repairing it. As shown in the previous example, when the  listener  misunderstands  what  has  been communicated,  the  speaker  repeats  what  they said earlier, using a  stronger voice  intonation  and more  exaggerated  gestures. This allows the  speaker  to repair  the  mistake and  be  more explicit  with  the  listener, allowing  them to understand and follow better what they are saying. Listeners may also signal when they don’t understand something or want further clarification by using various tokens, like “Huh?” or “What?” (Schegloff, 1981), together with giving a puzzled  look (usually frowning). This is especially the case when the speaker says something that is vague. For example, they might say  I  want it  to  their partner, without saying  what it  is  they  want. The  partner  may  reply using a token or, alternatively, explicitly ask, “What do  you mean by it?” Nonverbal communication also plays an important role in augmenting face-to-face conversation, involving the use  of facial expressions, back channeling, voice intonation, gesturing, and other kinds of body language.
+
+Taking turns also provides opportunities for the listener to initiate repair or request clarification or  for the  speaker to detect that there is  a problem  and initiate repair. The listener will usually wait for the next turn in the conversation before interrupting the speaker in order to give the speaker the chance to clarify what is being said by completing the utterance.
+
+Conversational  user  interfaces, such  as  chatbots,  are  becoming  more  sophisticated  in how they emulate the kind of turn-taking that takes place face to face. They do so by analyzing large numbers of conversational patterns using machine  learning models. For example, Replika,  which  is  an AI-based  companion  chatbot, was designed  to  simulate  human  conversation  through  encouraging turn-taking  with  the user.  Figure  5.3  shows  a snippet  of a conversation I had with Replika, where our conversation takes place through turn-taking.
+
+![](images/b4dbc87e60d83b0d60b80b3e7b8c2f0033afd3e8857ff2ff92f9aaa7d033b768.jpg)  
+Figure 5.3  A snippet of my conversation with Replika, a conversational companion, showing turn-taking
+
+Source: Yvonne Rogers
+
+Many chatbots are designed to answer customer queries, such as answering a question about  how to  obtain  a refund  on an  online  purchase. They  are  trained for  a  particular set of questions that they can answer well, but if the customer asks an unexpected question, they are unable to answer other than provide a stock phrase, such as “I am not sure about that.”
+
+There is also ongoing research investigating more diverse uses than Q&A. For example, conversational  agents are being developed  to mediate work meetings  that are voice-based. A goal is to facilitate collaboration among groups carrying out tasks during their meetings. A key design decision is how proactive they should be and what kind of facilitation is useful. For example, if a group appears to be stuck during a decision-making activity, it might suggest a different course of action. Providing occasional context-specific prompts and probes has  been found to be effective  at steering a conversation in group settings (Reicherts  et al., 2022). If the conversational agent intervenes too much or appears too chatty, however, they can get annoying. Compared with companion chatbots, these kinds of virtual agents are not meant to be human-like conversationalists but are intended to prompt and steer the conversations between people who are in a meeting.
+---
+Node: ACTIVITY 5.3
+Primary concept extracted from chunk
+# ACTIVITY 5.3
+
+How  do people repair breakdowns when conversing via  email? Do they do the  same when texting?
+---
+Node: 5.5  Co-Presence
+Primary concept extracted from chunk
+# 5.5  Co-Presence
+
+Another  concept  developed  in  human-computer  interaction  is  co-presence.  This  means designing social technologies to support people and augment their activities when interacting in the same physical space. The motivation is to enable co-located groups to collaborate more effectively when working, learning, and socializing. Various technologies have been built to support this kind of parallel interaction, including the use of multitouch, mid-air gesture and object recognition. To understand how effective they are, it is important to consider the coordination and awareness mechanisms already in use by people in face-to-face interactions and then to see how these have been adapted or replaced by the technology.
+---
+Node: 5.5.1  Physical Coordination
+Primary concept extracted from chunk
+# 5.5.1  Physical Coordination
+
+When  people are working  closely together, they  talk to each other, issuing  commands  and letting others know how they are progressing. For  example, when two or more people are collaborating, as when moving a piano, they shout instructions to each other, like “Down a bit,” “Left a touch,” “Now go forward,” to coordinate their actions. A lot of nonverbal communication is also used, including nods, shakes, winks, glances, and hand-raising in combination with such coordination talk in order to emphasize and sometimes replace it.
+
+For  time-critical  and  routinized  collaborative  activities, especially  where  it  is  difficult to hear others because  of the physical conditions, people frequently use  gestures (although radio-controlled  communication systems  may  also be used). Various  types of hand  signals
+
+have evolved, with their own set of standardized syntax and semantics. For example, the arm and baton movements of a conductor coordinate the different players in an orchestra, while the arm and orange baton movements of ground personnel at an airport signal to a pilot how to bring the plane into its assigned gate. Universal gestures, such as beckoning, waving, and halting hand movement, are also used by people in their everyday settings—although there are cultural differences as to what certain gestures mean.
+
+The use of physical objects, such as wands and batons, can also facilitate coordination. Group members can use them as external thinking props to explain a principle, an idea, or a plan to the others (Brereton and McGarry, 2000). In particular, the act of waving or holding  up  a physical  object in  front  of others  is  very  effective  at  commanding attention. The persistence and ability to manipulate physical artifacts may also result in more options being explored  in a  group  setting  (Fernaeus and Tholander, 2006). They  can  help  collaborators gain a better overview of the group activity and increase awareness of others’ activities.
+---
+Node: 5.5.2  Awareness
+Primary concept extracted from chunk
+# 5.5.2  Awareness
+
+Awareness was coined as a term to refer to knowing who is around, what is happening, and who is talking with whom (Dourish and Bly, 1992). For example, when attending  a party, people move around the physical space, observing what  is  going on and who is  talking to whom, and eavesdropping on others’ conversations. A specific kind of awareness is peripheral awareness. This refers to a person’s ability to maintain and constantly update a sense of what is  going on in the physical and social context, by  keeping an eye  and ear on what  is happening in the periphery of their vision. This might include noticing whether people are in a good or bad mood by the way they are talking, how fast the drink and food is being consumed, who has entered or left the room, how long someone has been absent, and whether the lonely person in the corner is finally talking to someone—all while we are having a conversation with someone else. The combination of direct observations and peripheral monitoring keeps people informed and updated on what is happening in the world.
+
+Another  form of awareness that has been studied is situational awareness. This refers to being aware of what is happening around you in order to understand how information, events, and your own actions will affect ongoing and future events. Having good situational awareness is critical in technology-rich work domains, such as air traffic control or an operating theater, where it is necessary to keep abreast of complex and continuously changing information.
+
+People who work closely together also develop various strategies for coordinating their work, based on an up-to-date awareness of what the others are doing. This is especially so for interdependent tasks, where the outcome of one person’s activity is needed for others to be able to carry out their tasks. For example, when putting on a show, the performers will constantly monitor what each other is doing in order to coordinate their performance efficiently. The metaphorical expression close-knit teams exemplifies this way of collaborating. People become highly skilled in reading and tracking what others are doing and the information to which they are paying attention.
+
+A classic study of this phenomenon is of two controllers working together in a control room in  the London  Underground subway system (Heath  and Luff, 1992). An overriding observation was that the actions of one controller were tied closely to what  the other was doing. One of the controllers (controller A) was responsible for the movement of trains on the line, while the other (controller B) was responsible for providing information to passengers about  the current service. In many instances, it was found that controller B  overheard
+
+what controller A was saying and doing and acted accordingly, even though controller A had not  said anything explicitly to him. For example, on  overhearing controller A discussing  a problem with a train  driver over the in-cab intercom system, controller B inferred from the conversation that there was going to be a disruption in the service and so started to announce this to the passengers on the platform before controller A had even finished talking with the train  driver.  At other  times, the  two  controllers kept  a lookout  for each other, monitoring the environment for actions and events that they might not have noticed but that could have been important for them to know about so that they could act appropriately.
+---
+Node: ACTIVITY 5.5
+Primary concept extracted from chunk
+# ACTIVITY 5.5
+
+What do you think happens when one person in a close-knit team does not see or hear something, or misunderstands what has been said, while the others in the group assume that person has seen, heard, or understood what has been said?
+---
+Node: chapter 08 Chapter 6 chunk 005 Comment 2
+Primary concept extracted from chunk
+There is  an ongoing debate about  whether and how emotion causes certain behaviors. For  example, does being angry make us concentrate better? Or does being happy make us take  more  risks, such  as  spending  too  much  money, or  vice versa  or neither?  It  could  be that we  can just feel  happy, sad, or angry, and that this does  not affect our  behavior. Roy Baumeister et al. (2007) discuss how the role of emotion is more complicated than a simple cause-and-effect model, noting how it often depends on the context as to how and whether one  triggers  the other. Mayer Tamir  and Yochanan Bigman  (2017)  also suggest how emotions shape behavior depends partially on people’s expectations and the emotional state they are in. For example, in a series of experiments investigating the relationship between performance  and emotion they  found  that “excited” participants  were more  creative  when they were told that excitement could promote performance. Conversely, “calm” participants were more creative when they were told that calmness would promote performance.
+
+Other theorists argue that emotions cause behavior, for example that fear brings about flight and that anger initiates the fight reaction. A widely accepted explanation, derived from evolutionary  psychology, is that when something makes someone frightened or angry, their emotional response is to focus on the problem at hand and try to overcome or resolve the perceived danger. The physiological responses that accompany this state usually include a rush of adrenalin through the body  and the tensing of muscles. While the physiological changes prepare people to fight or flee, they also give rise to unpleasant experiences, such as sweating, butterflies in the stomach, quick breathing, heart pounding, and even feelings of nausea.
+
+Nervousness is  a state of being that is often  accompanied by several emotions, including apprehension  and  fear. For example, many people get worried, and  some feel  terrified before speaking at a public event or a live performance. There  is even a name for this kind
+
+of nervousness— stage fright. Andreas Komninos (2017) suggests that it is the autonomous system “telling” people to avoid these kinds of potentially humiliating or embarrassing experiences.  But  performers  or  professors  can’t  simply  run  away.  They  have  to  cope  with the negative emotions  associated  with having  to  be in front  of  an audience.  Some are able  to turn their nervous state to their advantage, using the increase in adrenalin to help them focus on their performance. Others are only too glad when the performance is over and they can relax again.
+
+As  mentioned  earlier, emotions  can  be  simple  and  short-lived  or  complex  and  longlasting. To distinguish between the two types of emotion, researchers have described them in terms of being either automatic  or conscious. Automatic emotions (also knowns as affect) happen  rapidly, typically  within  a fraction of a second  and, likewise, may  dissipate just as quickly. Conscious emotions, on the other hand, tend to be slow to develop and equally slow to dissipate, and they are often the result of a conscious cognitive behavior, such as weighing the odds, reflection, or contemplation.
+---
+Node: How Does Emotion Affect Driving Behavior?
+Primary concept extracted from chunk
+# How Does Emotion Affect Driving Behavior?
+
+There  has been much research investigating the influence  of emotions on driving behavior (e.g., Pêcher et al., 2011; Zhang and Chan, 2022). One major finding is that when drivers are angry, their driving becomes more aggressive, they take more risks such as dangerous overtaking, and they are prone to making more errors. Driving performance has also been found to be negatively affected when drivers are anxious. People who are depressed are also more prone to accidents.
+
+What are  the  effects  of listening to music  while driving? An early  study  by Christelle Pêcher et al. (2009) found that people slowed down while driving in a car simulator when they listened to either happy or sad music, as compared to neutral music. This effect is thought to be due to the drivers focusing their attention on the emotions and lyrics of the music. Listening to happy music was also found not only to slow drivers down, but to distract them more by reducing their ability  to stay in their lane. This did  not happen with the  sad music. More recently, research has shown how fast, loud, and rhythmic music can lead to riskier driving behavior (such  as driving  faster or overtaking)  when in demanding  urban  settings (Karageorghis et al., 2022). It seems it is preferable to listen to slow music when driving conditions are stressful!
+
+![](images/d6cbdc7ba0d7b67123f028311e7387fa52243a17722415abaf50feca99dccf33.jpg)  
+“It's a very user-friendly model."   
+Source: Jonny Hawkins / Cartoon Stock
+
+Understanding how emotions work provides a way of considering how to design for user experiences that can trigger affect or reflection. For example, Don Norman (2005) suggests that being in a positive state of mind can enable people to be more creative as they are less focused. When someone is in a good mood, it is thought to help them make decisions more quickly. He suggests that when people are happy, they are more likely to overlook and cope with minor problems that they are experiencing with a device or interface. In contrast, when someone is anxious or angry, they are more likely to be less tolerant. When this is the case, the interface needs to be clearly visible with unambiguous feedback. The bottom line is “things intended to be used under stressful situations require a lot more care, with much more attention to detail” (Norman, 2005, p. 26).
+
+Anthony Ortony, Don Norman, and William Revelle (2005) developed a classic model of emotion and behavior couched in terms of different “levels” of the brain. At the lowest level are parts of the brain that are prewired to respond automatically to events happening in the physical world. This is called the visceral level. At the next level are the brain processes that control everyday behavior. This is  called the behavioral level. At  the highest level are brain processes  involved in contemplating. This is  called  the reflective level (see Figure 6.3). The visceral level responds rapidly, making judgments about what is good or bad, safe or dangerous, pleasurable or abhorrent. It also triggers the emotional responses to stimuli (for instance fear, joy, anger, and sadness) that are expressed through a combination of physiological and behavioral responses. For example, many people will experience fear on seeing a very large hairy spider running across the floor of the bathroom, causing them to scream and run away. The  behavioral level  is  where most  human  activities  occur. Examples include  well-learned routine  operations such as  talking, typing, and swimming. The reflective level entails conscious thought where people generalize across events or step back from their daily routines. An example is switching between  thinking about the narrative structure and special effects used in a horror movie and becoming scared at the visceral level when watching the movie.
+
+Figure 6.3  Anthony Ortony et al.’s (2005) model of emotional design showing three levels: visceral, behavioral, and reflective   
+![](images/1b5afb9dad3521a9ecd92ae450e54e21d46510c9a5fcb747d5f5d1536c83595e.jpg)  
+Source: Adapted from Norman (2005), Figure 1.1
+
+One  way of using the model is  to think about how  to design products in terms of the three levels. Visceral design refers to making products look, feel, and sound good. Behavioral design is about use and equates to the traditional values of usability. Reflective design is about considering the meaning and personal value of a product in a particular culture. For example, the design of a Swatch watch (see Figure 6.4) can be viewed in terms of the three levels. The  use  of cultural  images  and  graphical  elements  is  designed  to  appeal  to  certain people at the reflective  level; its affordances of use at the behavioral level, and the brilliant colors, wild designs, and art attract  their attention at the visceral  level. They are combined to create  the  distinctive  Swatch  trademark that  expresses  style  and personality. Designing to induce different levels of emotional responses, however, also requires understanding who the target audience is and what the context of use will be. Swatch customers are likely to be young and fashion conscious.
+
+Another  model  that has  been used to  inform interaction design  is Plutchik’s Wheel of Emotions, originally developed in 1980  (Interaction Design  Foundation, 2021). Figure 6.5 shows how the wheel categorizes human emotions  into seven well-known emotions: anger, disgust, fear, sadness, anticipation, joy, and surprise. It  also includes trust as another one— which is not usually considered as an emotion. Alongside these typical responses are labels (optimism, love, submission, awe, disproval, remorse, contempt, aggressiveness). Other emotions are considered to be a combination of, or derived from, these. The colors used in the wheel reflect the intensity of an emotion: the darker the shade, the more intense the emotion is. Thus, the emotions in the middle of the wheel are seen as more intense; for example, rage is shown in the  middle of the circle as blood red, whereas anger is shown on the outside of the circle in light red. The wheel can be used as a “color palette” akin to a UX mood board. By selecting and blending  different emotions  from the wheel a designer can begin to think about  how to elicit different  kinds and levels of emotional  response. In essence, the wheel provides an initial way of exploring the possible effects of triggering different combinations of adjacent (e.g., serenity and pensiveness) and nonadjacent emotions for different stages of a user experience. It does not, however, instruct the designer on how to design for a selection of emotions.
+
+![](images/e533d3c4b0a1bad33235de8783c17dccac39f78c291c949b5e29f8bcc3429d0e.jpg)  
+Figure 6.4  A Swatch watch called Dip in Color Source: SWATCH AG
+---
+Node: ACTIVITY 6.2
+Primary concept extracted from chunk
+# ACTIVITY 6.2
+
+How do Ortony et al.’s (2005) model of emotional design and Plutchik’s wheel of emotion differ? How helpful are they are when designing a new video game?
+---
+Node: 11.3.1  Different Kinds of Requirements
+Primary concept extracted from chunk
+# 11.3.1  Different Kinds of Requirements
+
+Requirements come from several sources: from the user community, from the business community, or as a result of the  technology to be applied. Two different  kinds of requirements have traditionally been identified: functional requirements, which describe what the product will do, and nonfunctional requirements, which describe the characteristics (sometimes called constraints)  of  the product.  For  example, a functional  requirement  for  a new  video  game might be that it  will be challenging for a range of abilities. This requirement might then be decomposed into more specific requirements detailing the structure of challenges in the game, for instance, levels of mastery, hidden tips and tricks, magical objects, and so on. A nonfunctional requirement for this same game might be that it can run on a variety of platforms, such as the Microsoft Xbox, Sony  PlayStation, and Nintendo Switch  game systems. Interaction design involves understanding both functional and nonfunctional requirements.
+
+In this section, six of the most common types of requirements are discussed: functional, data, environment, user, usability, and user experience.
+
+Functional  requirements capture  what  the product  will do.  For  example, a  functional requirement for an automated industrial assembly plant might be that an operator can program the assembly line to identify, manipulate, and weld together the correct pieces of metal accurately. Understanding the functional requirements is fundamental for all products.
+
+Data  requirements capture  the type, volatility,  size/amount, persistence, accuracy, and value of the required data. All interactive products have to handle some data. For example, if an application for buying and selling stocks and shares is being developed, then the data must be up-to-date and accurate, and it is likely to change many times a day. In the personal banking domain, data must be accurate and persist over many months and probably years, and there will be plenty of it.
+
+Environmental requirements, or context of use, refer to the circumstances in which the interactive product will operate. Four aspects of the environment  lead to different types of requirements. First is the physical environment, such as how much lighting, noise, movement, and dust is expected in the operational environment. Will workers need to wear  protective clothing, such as large gloves or headgear that might affect the choice of interface type? How crowded is the environment? For example, a ticket machine operates in a very public physical environment; thus using a speech interface is likely to be problematic.
+
+The second aspect of the environment is the social environment. For example, will data need to be shared?  If so, does the sharing have to be synchronous  such as for  two people
+
+viewing data at the same time, or asynchronous, such as when two people are authoring a report taking turns to edit it? Other factors include the number of people needing to interact at once, e.g., in a video game, and the locations of friends or colleagues. Additional relevant issues  regarding  the  social aspects  of  interaction  design  were  raised  in  Chapter  5, “Social Interaction.”
+
+The third aspect is the support environment. For example, what kind of assistance will be needed to use the product and how easily can it be obtained, how much training or help will be readily available, and what level of help can be provided automatically? These issues need to be explored during the requirements activity, and there are user experience implications in choosing one solution or another, as discussed in the “Dilemma” box.
+---
+Node: Automated Help or Customer Service Support?
+Primary concept extracted from chunk
+# Automated Help or Customer Service Support?
+
+Several service providers such as energy companies and government offices have striven to improve their online presence to make it as comprehensive, clear, and streamlined as possible. Customers who encounter difficulties are encouraged to seek help through the various FAQs, online chatbots, and  support forums rather than to contact the  provider directly. Customers whose goal is to do something that is regarded as “standard” are well-supported, but as soon as their query steps outside of these dimensions, it can be hard for the system to find an answer. How good a user experience does this create? On the one hand, for those who are able to complete their goal quickly and easily, the system provides a good user experience, but for those with an issue that sits just outside the norm, this setup can be a poor experience. The dilemma comes in deciding how much to rely on online support and automated systems and how much to include human interaction.
+
+Finally, the technical environment will need to be established. For example, what technologies  will  the  product  run  on  or  need  to  be  compatible  with,  and  what  technological limitations might be relevant?
+
+User characteristics capture key attributes of potential users, such as their abilities and skills, and perhaps their educational background, preferences, personal circumstances, physical or mental disabilities, and so on. In addition, someone may be a novice, an expert, a casual user, or a frequent user. This affects the ways in which interaction is designed. For example, a novice user may prefer step-by-step guidance. An expert, on the other hand, may prefer a flexible interaction with more wide-ranging powers of control. The term user profile is used to refer to a  collection of user characteristics. Any  one product may  have several different user  profiles; for example  a client user profile and an agent user  profile may  be developed for a financial management portal, while profiles for a young parent with two children and a mature businessperson may be developed for a mobile library catalog interface.
+
+Usability goals and user experience goals (see Chapter 1, “What Is Interaction Design?”) are  another  kind  of  requirement,  and  they  should  be captured  together  with  appropriate
+
+measures. Chapter 2 briefly introduced usability engineering, an approach in which specific measures for the usability goals of the product are agreed upon early in the development process and are used to track progress as development proceeds. This both ensures that usability is given  due priority and facilitates progress  tracking. The same  is true  for user experience goals, although it is harder to identify quantifiable measures that track them.
+
+Considering  each of  these  kinds of requirements  is  a starting  point  to discovering  the requirements for a particular product, but it  is a high-level perspective that  will need to be refined. For example, a telecare system designed to monitor someone’s movements and alert relevant care staff will have a range of environmental requirements including that the devices need to be light, small, fashionable, preferably hidden, and worn easily as people go  about their normal activities. The requirements activity will investigate what that means in detail. A desirable characteristic of both an online shopping site and a robotic companion is that they are  trustworthy, but  this would be interpreted  differently in each case. In the  former, security of information would be a priority, while in the latter behavioral norms would indicate trustworthiness.
+
+A key requirement in many systems nowadays is that they be secure, but one of the challenges is to provide security that does not detract from the user experience, nor is undermined by the user experience. For examples of this, see Box 11.1, which introduces usable security.
+---
+Node: 13.2.3  Documentation
+Primary concept extracted from chunk
+# 13.2.3  Documentation
+
+The most common way for UX designers to capture and communicate their design has been through documentation, for instance, user  research results and  resulting personas, detailed interface sketches, and wireframes. Agile development encourages only minimal documentation so that more time can be spent on design, thus producing value to the stakeholders via a working product. Documentation is useful for many purposes including for legal reasons and maintenance  tasks  and  where abstractions  or tricky  design  decisions need to  be captured. Some documentation is  hence desirable in  most projects and minimal  documentation does not  mean “no documentation.” A  key principle  in agileUX, though, is  that documentation should not replace communication and collaboration.
+
+A number of guidelines have been suggested to help people in agile projects to identify an appropriate level of documentation. For example, the following set of questions is commonly asked:
+
+• How much time do you spend on documentation? If possible, decrease the amount of time spent on documentation and increase design time.   
+. Who uses the documentation?   
+What  is  the minimum  that readers  need  from  the documentation?  Try  to aim  for “just barely good enough” documentation. That doesn’t mean documentation of poor quality, but just enough to fulfill its purpose.   
+How efficient is your sign-off process? How much time is spent waiting for documentation to be approved? What impact does this have on the project?   
+• What evidence is there of document duplication? Are different parts of the business documenting the same things?   
+• If documentation is only for the purpose of communication or development, how polished does it need to be? Perhaps finding better ways to communicate would be more effective.
+
+The Disciplined Agile approach (PMI, 2022) suggests a formula for gauging the effectiveness of a document: CRUFT.
+
+$\mathrm { C } =$ The percentage of content that is correct
+
+$\mathrm { R } =$ The chance the document will be read
+
+$\mathrm { U } =$ The chance that the content will be understood
+
+$\mathrm { F } =$ The chance that the advice will be followed
+
+$\mathrm { T } =$ The chance that the advice will be trusted
+
+They point out that four of the five elements rely on the customer of the document and suggest that increased interaction with those for whom the document is produced will help determine its value and length.
+
+Documentation in agile UX work is discussed in this article: www.nngroup.com/ articles/lean-agile-documentation.
+---
+Node: 13.3  Design Patterns
+Primary concept extracted from chunk
+# 13.3  Design Patterns
+
+Design patterns capture design experience, but they have a different structure and a different philosophy from other forms of guidance or specific methods. One of the intentions of the patterns  community is  to create  a vocabulary  based on  the  names of  the  patterns, which designers  can  use  to communicate  with one  another  and with  stakeholders. Another  is  to produce literature in the field that documents experience in a compelling form.
+
+The  idea  of  patterns  was  first proposed  by  the architect  Christopher  Alexander, who described patterns in architecture (Alexander,  1979). His hope  was to capture  the “quality without a name” that is recognizable in something when you know it is good.
+
+But what is a design pattern? One simple definition is that it is a solution to a problem in a context; that is, a pattern describes a problem, a solution, and where this solution has been found to work. Users of the pattern can therefore not only see the problem and solution but can also understand the circumstances under which the idea has worked before and access a rationale for why it worked. A key characteristic of design patterns is that they are generative; that is, they can be instantiated or implemented in many different ways. The application of patterns to interaction design has grown steadily since the late 1990s (for instance, Borchers, 2001;  Crumlish  and  Malone, 2009)  and have  continued to be actively  developed  (for example, Tidwell et al., 2020; Zaina et al., 2022).
+
+Pattern collections, libraries, and galleries relevant to interaction design are commonly used in practice, and they usually focus on user interface elements, e.g., icons, common functions, and menus. Patterns are attractive to designers because they are tried-and-tested design solutions  to  common  situations.  They  are  often  accompanied  by  code  snippets  available through open  source repositories such as GitHub (github.com), and where this is  the case, they can often be used with little modification. As they are common solutions, many people are already familiar with them, which is a great advantage for the user experience of a new app or product on the market. Box 13.3 discusses two example patterns regarding content delivery. Both of these have evolved over several years and are commonly used.
+---
+Node: Pagination and Continuous Scrolling: Two Patterns for Accessing Content
+Primary concept extracted from chunk
+# Pagination and Continuous Scrolling: Two Patterns for Accessing Content
+
+Both of these patterns are used for displaying content that is too large to load or show all at once. Continuous scrolling (also called infinite scrolling) is commonly used to display content as one long stream of information, e.g., some email apps, web pages, and newspapers will do this. The pagination pattern is used to display information in “chunks.” For example, ecommerce sites will often provide items one page at a time.
+
+The continuous scrolling pattern is used for content that cannot easily be separated into chunks for pages and to maintain the user’s attention on the content. As the user scrolls to the bottom of the page, more content is loaded so that it appears to be one long list. Figure 13.4 shows two examples. On the left is an example for buying clothes online; on the right is an email browser. In both cases, more items appear as the interface is scrolled.
+
+The pagination pattern is used for content that can be ordered (often the user is able to choose between different criteria on which to order, e.g., date, size, price, etc.) and split into discrete chunks. It provides control to the user,  e.g., through  page numbers, and can communicate the  extent of the content  by displaying the  number of pages. Having the  content divided into pages provides the user with a natural break where they can decide whether to continue looking at the content. Unlike the continuous scrolling pattern, pagination takes the user’s attention away from the content to think about moving to the next page. This pattern can be instantiated in many different ways; see Figure 13.5. Note that in three of the examples the current page is indicated  by a change in color or by a box. Some have “previous” and “next” buttons.
+
+(Continued)
+
+![](images/11a2349ed84e70b8d83a267915faba46550ac1cdbc9561c29dee2d97c9587249.jpg)
+
+![](images/88e711e680182c08c2256b4bbf14a9b7545f98560ffc3be61670be9a7c0fcaad.jpg)  
+自
+
+![](images/2f041643c36722a3914d37ce85e39847df8d47f29c9825063722272479156242.jpg)
+
+![](images/bb916c9d74e65a7cdf7ef367c4fa8b2fdc98b4d4b2e4249ed8eeec3747f1360f.jpg)  
+自
+
+![](images/c9925df89c84b384e65d22254f11c7eb8c361ef75a22625dba4cbb0417e41099.jpg)  
+(a)
+
+![](images/0b0bf1902e6e6718369a918e118621ff4e0499ca2be6d79a163fd0157583b583.jpg)  
+(b)   
+Figure 13.4 Two  examples of the  continuous scrolling  pattern  (a)  buying clothes  online, (b) in an email browser
+
+Source: (a) next.co.uk, (b) yahoo.co.uk
+
+![](images/45c65a9725a32a134d97cbb1353fbc63035703f96622f037912d30d9efba6e36.jpg)  
+Figure 13.5 Different instantiations of the pagination pattern
+
+These patterns may not seem the most exciting design choices, but they are significant in terms of user interaction, and a designer will need to decide how the pattern is instantiated. In addition, implementing content  delivery is fairly straightforward  once the  design is chosen because  these options  have already been considered,  tried, and  tested,  and  there is implementable code to put them into practice.
+
+This video introduces a number of sites where you can learn more about design patterns: www.youtube.com/watch?v=H1gB_Lx0M0c.
+
+Patterns on their own are interesting, but they are not as powerful as a pattern language. A pattern language is a network of patterns that reference one another and work together to create a complete structure. While the phrase pattern language is not common in interaction design, design systems or design languages are commonly developed  and used, particularly by large corporations such as Airbnb, Salesforce, and Uber. A design system is a collection of core elements, reusable components, and guidelines for the visual and interactive design of a product or family of products. In essence, it is a structured collection of patterns and associated  components,  together with  guidelines for  use  that  provide  a coherent  and  consistent user experience. Design systems may include other sets of guidance such as brand guidelines and accessibility guidelines. Apart from supporting consistency across products, other advantages of design systems are that they reduce effort, support learning between designers, and increase cross-functional collaboration (Churchill, 2019).
+
+Design languages or systems allow the reuse of larger chunks of design than simply user interface elements and may be supported by an associated collection of software components called a framework. Other reusable design elements that are commonly produced and shared include user flows. For example, overflow.io supports the production of playable user flow diagrams, while uxarchive.com contains a large number of reusable user flows.
+
+To read about the differences between design systems and design languages and patterns, see this article: medium.com/swlh/whats-a-design-systemdesign-language-and-design-language-system-and-what-s-the-differencee157852d6ec0.
+---
+Node: ACTIVITY 13.3
+Primary concept extracted from chunk
+# ACTIVITY 13.3
+
+One design pattern for mobile devices that has prompted discussion is the hamburger menu pattern. The hamburger is often displayed as three little lines, but there are other styles (see Figure 13.6). Commonly found in the top-right corner of a smartphone app, this menu signals that there are  several other actions  available. When clicked, the hamburger  displays a side menu with a list of options. Compared to a static menu, the hamburger saves screen space.
+
+Figure 13.6 Different styles for the classic hamburger menu icon   
+![](images/b4fb8b97c85d89d45965057af949fef0b37b7fcb717323c1f5ebcec8f3238b94.jpg)  
+Source: alvarotrigo.com/blog/hamburger-menu-css
+
+This design pattern has provoked different reactions  by different designers. Search for information on it using  your favorite browser  and read at least  two articles or blog posts about it. It may be that many of your own apps use one of these, but having read more about it, is this something you’d use when building your own app?
+---
+Node: Interpreting and Presenting the Data
+Primary concept extracted from chunk
+# Interpreting and Presenting the Data
+
+Based on the findings of their study, Budiu and Nielsen made a number of recommendations, including  supporting  standard  navigation. The  results  of  the  study  were  written  up  as  a report that was made publicly available to app developers and the general public. It provided a summary of key findings for the  general public as well as specific details of the problems the participants had with the iPad so that developers could decide whether to make specific websites and apps for the iPad.
+
+While revealing how usable websites and apps are on the iPad, this user testing did not address how the iPad would be used in people’s everyday lives. This required a study where observations were made of how people use iPads in their own homes, at school, in the gym, and when traveling, but this did not happen because of lack of time.
+---
+Node: Doing Heuristic Evaluations
+Primary concept extracted from chunk
+# Doing Heuristic Evaluations
+
+The process of doing heuristic evaluation can be broken down into three main stages (Nielsen and Mack, 1994; Muniz, 2016).
+
+A briefing  session, in which  the researcher  is briefed about  the goal  of the  evaluation. If there is more than one researcher, a prepared script may be used to ensure that each person receives the same briefing.   
+The evaluation period, in which the researchers typically spend one to two hours independently inspecting the product, using the heuristics for guidance.
+
+Typically, each  researcher will  take at  least two passes  through the  app, website, or product. The first pass gives a feel for the flow of the interaction and the product’s scope. The second pass allows them to focus on specific interface elements in the context of the whole product and to identify potential usability problems.
+
+If the evaluation is for a functioning product, the researchers will typically have some specific tasks in mind so that their exploration is focused. Suggesting tasks may be helpful, but many UX researchers suggest their own tasks. However, this approach is more difficult if the evaluation is done early in design when there are only screen mock-ups or a specification. Therefore, the approach needs to be adapted for the evaluation circumstances. While working through the product, specification, or mock-ups, different researchers may focus on  different things:  One may  record the problems  while the other researcher  may think aloud, which can be video recorded.
+
+The  debriefing  session,  in  which the  researchers  come together  to discuss  their findings with designers and to prioritize the problems they found and give suggestions for solutions.
+
+The  heuristics  focus the  researchers’  attention  on  particular issues, so  selecting  appropriate  heuristics  is  critically  important.  Even  so, sometimes  there  is  disagreement  among researchers, as discussed in the following “Dilemma.”
+---
+Node: chapter 29 References chunk 000 References 10
+Primary concept extracted from chunk
+Churchill, E. F.  (2019) Scaling UX with Design Systems, Interactions, Sept–Oct, pp. 22–23.   
+Claisse, C., Kasadha, B., Stumpf, S., and Durrant, A. C. (2022) Investigating Daily Practices of Self-care to Inform the Design of Supportive Health Technologies for Living and Ageing Well with  HIV. In CHI  Conference  on  Human  Factors  in  Computing Systems  (CHI  ’22), Article 524, 19 pages.   
+Clark, A., and Chambers, D. (1998) The Extended Mind. Analysis, 58(1), 7–19. Oxford University Press, UK.   
+Clegg, T., Preece, J., Warrick, E., Pauw, D., Boston, C., and Cameron, J. (2019). Community-Driven  Informal Adult Environmental Learning:  Using Theory as  a Lens  to Identify  Steps Toward Concientización, Journal of Environmental Education, 51, 55–71.   
+Clemmensen, T.,  Hertzum, M., Hornbaek, K., Shi, Q., and Yammiyavar, P.  (2008)  Cultural Cognition in the Thinking-Aloud  Method for Usability Evaluation. In Proceedings of $2 9 t b$ International Conference on Information Systems. Paris, 2008, Paper 189.   
+Cliffe, A.  D.  (2017)  A  Review  of  the  Benefits  and  Drawbacks  to Virtual  Field  Guides  in Today’s  Geoscience  Higher  Education  Environment.  International  Journal  of  Educational Technology in Higher Education. 14, 28.   
+Cline, D. H. (2012) Six Degrees of Alexander: Social Network Analysis as a Tool for Ancient History. AHB, 26, 59–70.   
+Cobb, S., Beardon,  L., Eastgate, R., Glover, T., Kerr, S., Neale,  H., Parsons, S., Benford, S., Hopkins, E., Mitchell, P., Reynard, G., and Wilson, J. (2002) Applied Virtual Environments to Support Learning of Social Interaction Skills in Users with Asperger’s Syndrome, Digital Creativity, 13 (1), N-22.   
+Cockton, G., and Woolrych, A. (2001) Understanding Inspection Methods: Lessons from an Assessment of Heuristic Evaluation. In A. Blandford and J. Vanderdonckt (eds.), People and Computers XV. Springer-Verlag, Berlin, pp. 171–191.   
+Coeckelbergh, M. (2020) AI Ethics. MIT Press.   
+Cohen, J. (1960) A Coefficient of Agreement  for Nominal Scales. Educational and Psychological Measurement, 20(1), 37–46.   
+Cohen, M.,  Giangola,  J. P.,  and  Balogh,  J. (2004)  Voice  User  Interface  Design.  Addison-Wesley, Harlow, Essex.   
+Cole, T.,  and Gillies, M. (2022) More than a bit of coding: (un-)Grounded (non-)Theory in HCI. In CHI EA ’22: Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems, Article 11, pp. 1–11.   
+Constantine, L. L., and Lockwood, L. A. D. (1999) Software for Use. Addison-Wesley, Harlow, Essex.   
+Cooper, A. (1999) The Inmates are Running the Asylum. SAMS, Indianapolis.   
+Cooper,  A.  (2018)  When  Companies  Question  the  Value  of  Design.  Downloaded  from medium.com/s/story/whats-the-roi-of-ux-c47defb033d2.   
+Cooper,  A.  (2020)  The  Myth  of  Metaphor:  The  band  aid  of  UX.  Downloaded  from mralancooper.medium.com/the-myth-of-metaphor-de16bfa1cbbe.   
+Cooper, A., Reimann, R., and Cronin, D.  (2014)  About Face: the Essentials of  Interaction Design. Wiley.
+---
+Node: chapter 29 References chunk 000 References 11
+Primary concept extracted from chunk
+Cooper, C.B., Hawn, C.L., Larson, L.R., Parrish, J.K., Bowser, G., Cavalier, D., Dunn, R.R., Haklay, M., Ka, K.K., Na’Taki G., Jelks, O., Johnson, V.A., Katti, M., Leggett, Z., Wilson, O. R., and Wilson, S. (2021) Inclusion in citizen science: The conundrum of rebranding, Science 372 (6549), 1386–1388.   
+Corbin, J. M., and Strauss, A. (2014) Basics of Qualitative Research: Techniques and Procedures for Developing Grounded Theory. SAGE Publications.   
+Costa, N.A., Holder, E., and MacKinnon, S. N. (2017) Implementing Human Centred Design in the Context of a Graphical User Interface Redesign for Ship Manoeuvring. International Journal of Human-Computer Studies, 100, 55–65.   
+Coyle, A. (1995)  Discourse Analysis. In G. M. Breakwell, S. Hammond  and C. Fife-Schaw (eds.) Research Methods in Psychology. SAGE, London.   
+Crabtree, A. (2003)  Designing  Collaborative  Systems:  A  Practical  Guide  to  Ethnography. Springer-Verlag, Berlin.   
+Crabtree, A., Haddadi, H., and Mortier, R. (eds.) (2021) Privacy by Design for the Internet of Things: Building accountability and security. The IET.   
+Craik, K. J. W. (1943) The Nature of Explanation. Cambridge University Press, Cambridge.   
+Cramer,  H.,  Evers,  V.,  Ramlal,  S.,  Someren,  M.,  Rutledge,  L.,  Stash,  N.,  Aroyo,  L.,  and Wielinga, B. (2008) The Effects of Transparency on Trust in and Acceptance of a Content-Based Art Recommender. User Model User-Adap Inter, 18, 455.   
+Cranor, L. F.  (2021) Lessons From the Loo. Communications of the ACM, 64(7), 27–29.   
+Crowcroft, J., Haddadi, H., and Henderson, T.  (2018) Responsible Research on Social Networks:  Dilemmas  and Solutions. In  B. Foucault Welles and  S.  González-Bailón (eds.)  The Oxford Handbook of Networked Communication. Oxford Handbooks online.   
+Crumlish,  C., and  Malone, E. (2009)  Designing  Social  Interfaces: Principles, Patterns and Practices for Improving the User Experience, O’Reilly.   
+Csikszentmihalyi,  M. (1996)  Go  with  the  flow.  Wired  Interview.  Retrieved  May 6,  2005. www.wired.com/wired/archive/4.09/czik.html.   
+Csikszentmihalyi, M. (1997) Finding Flow: The Psychology of Engagement with Everyday Life. Basic Books, New York.   
+Cutting, J., Gundry, D., and Cairns, P.  (2019) Busy Doing Nothing? What Do Players Do in Idle Games? International Journal of Human-Computer Studies, 122, 133–144.   
+Cycil, C., Perry, M., Laurier, E., and Taylor, A. (2013) ‘Eyes Free’ In-Car Assistance: Parent and  Child Passenger Collaboration During Phone Calls. In Proceedings of MobileHCI’13, ACM Press, pp. 332–341.   
+Da Costa, R. P., Canedo, E. D., De Souza, R. T., Albuquerque, R. D. O., and Villalba, L. J. G. (2019) Set of Usability Heuristics for Quality Assessment of Mobile Applications on Smartphones, IEEE Access, 7, 116145–116161.   
+Da Silva, T., Silveira, M. S., Maurer, F., and Silveria, F. F. (2018) The Evolution of Agile UXD. Information and Software Technology, 102, 1–5.   
+Dabrowski, J., Letier,  E., Perini, A., and Susi, A. (2022) Analysing app reviews for software engineering: a systematic literature review, Empirical Software Engineering, 27, Article 43.

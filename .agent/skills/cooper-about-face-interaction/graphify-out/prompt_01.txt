@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=1, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_01.json
+FILES:
+/private/tmp/about_face_chunks/chunk_001_A_C_E.md
+/private/tmp/about_face_chunks/chunk_002_The_Essentials_of_Interaction_.md
+/private/tmp/about_face_chunks/chunk_003_About_Face__The_Essentials_of_.md
+/private/tmp/about_face_chunks/chunk_004_Library_of_Congress_Control_Nu.md
+/private/tmp/about_face_chunks/chunk_005_ABOUT_THE_AUTHORS.md
+/private/tmp/about_face_chunks/chunk_006_Art_Director.md
+/private/tmp/about_face_chunks/chunk_007_ACKNOWLEDGMENTS.md
+/private/tmp/about_face_chunks/chunk_008_CH_1__A_Design_Process_for_Dig.md
+/private/tmp/about_face_chunks/chunk_009_CH_2__Understanding_the_Proble.md
+/private/tmp/about_face_chunks/chunk_010_CH_3__Modeling_Users__Personas.md
+/private/tmp/about_face_chunks/chunk_011_CH_4__Setting_the_Vision__Scen.md
+/private/tmp/about_face_chunks/chunk_012_CH_5__Designing_the_Product__F.md
+/private/tmp/about_face_chunks/chunk_013_CH_6__Creative_Teamwork_145.md
+/private/tmp/about_face_chunks/chunk_014_CH_7__A_Basis_for_Good_Product.md
+/private/tmp/about_face_chunks/chunk_015_CH_8__Digital_Etiquette__179.md
+/private/tmp/about_face_chunks/chunk_016_CH_9__Platform_and_Posture_205.md
+/private/tmp/about_face_chunks/chunk_017_CH_10__Optimizing_for_Intermed.md
+/private/tmp/about_face_chunks/chunk_018_CH_11_Orchestration_and_Flow_2.md
+/private/tmp/about_face_chunks/chunk_019_CH_12__Reducing_Work_and_Elimi.md
+/private/tmp/about_face_chunks/chunk_020_CH_13__Metaphors__Idioms__and_.md
+/private/tmp/about_face_chunks/chunk_021_CH_14__Rethinking_Data_Entry__.md
+/private/tmp/about_face_chunks/chunk_022_CH_15__Preventing_Errors_and_I.md
+/private/tmp/about_face_chunks/chunk_023_CH_16__Designing_for_Different.md
+/private/tmp/about_face_chunks/chunk_024_CH_17__Integrating_Visual_Desi.md
+/private/tmp/about_face_chunks/chunk_025_CH_18__Designing_for_the_Deskt.md

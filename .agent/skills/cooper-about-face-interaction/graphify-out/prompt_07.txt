@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=7, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_07.json
+FILES:
+/private/tmp/about_face_chunks/chunk_151_The_three_types_of_user_goals.md
+/private/tmp/about_face_chunks/chunk_152_Experience_goals.md
+/private/tmp/about_face_chunks/chunk_153_End_goals.md
+/private/tmp/about_face_chunks/chunk_154_Life_goals.md
+/private/tmp/about_face_chunks/chunk_155_User_goals_are_user_motivation.md
+/private/tmp/about_face_chunks/chunk_156_Nonuser_goals.md
+/private/tmp/about_face_chunks/chunk_157_Customer_goals.md
+/private/tmp/about_face_chunks/chunk_158_Business_and_organizational_go.md
+/private/tmp/about_face_chunks/chunk_159_Technical_goals.md
+/private/tmp/about_face_chunks/chunk_160_Successful_products_meet_user_.md
+/private/tmp/about_face_chunks/chunk_161_Constructing_Personas.md
+/private/tmp/about_face_chunks/chunk_162_Step_1__Group_interview_subjec.md
+/private/tmp/about_face_chunks/chunk_163_Step_2__Identify_behavioral_va.md
+/private/tmp/about_face_chunks/chunk_164_Step_3__Map_interview_subjects.md
+/private/tmp/about_face_chunks/chunk_165_Step_4__Identify_significant_b.md
+/private/tmp/about_face_chunks/chunk_166_Step_5__Synthesize_characteris.md
+/private/tmp/about_face_chunks/chunk_167_Defining_goals.md
+/private/tmp/about_face_chunks/chunk_168_Personas_and_social_relationsh.md
+/private/tmp/about_face_chunks/chunk_169_Step_6__Check_for_completeness.md
+/private/tmp/about_face_chunks/chunk_170_Step_7__Designate_persona_type.md
+/private/tmp/about_face_chunks/chunk_171_Primary_personas.md
+/private/tmp/about_face_chunks/chunk_172_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_173_Secondary_personas.md
+/private/tmp/about_face_chunks/chunk_174_Supplemental_personas.md
+/private/tmp/about_face_chunks/chunk_175_Customer_personas.md

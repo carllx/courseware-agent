@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_601_convey_a_sense_of_the_function_icons",
+      "label": "Icons",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_601_Convey_a_sense_of_the_function.md",
+      "rationale": "Icons representing abstract concepts should rely on idioms rather than forced concrete representations. For concrete functions, represent both action and object acted on."
+    },
+    {
+      "id": "about_face_chunks_chunk_602_associate_visual_symbols_with__visual_symbols",
+      "label": "Visual Symbols",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_602_Associate_visual_symbols_with_.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_602_associate_visual_symbols_with__visually_distinguish",
+      "label": "Visually distinguish elements that behave differently",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_602_Associate_visual_symbols_with_.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_603_render_icons_and_visual_symbol_render_simply",
+      "label": "Render icons and visual symbols simply",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_603_Render_icons_and_visual_symbol.md",
+      "rationale": "Icons should remain simple and schematic, minimizing colors and shades, to avoid drawing undue attention and rendering poorly at small sizes."
+    },
+    {
+      "id": "about_face_chunks_chunk_604_pre_visualize_results_when_pos_pre_visualize",
+      "label": "Pre-visualize results",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_604_Pre_visualize_results_when_pos.md",
+      "rationale": "Use visual elements in addition to text to convey to users what the results of an interface function will be."
+    },
+    {
+      "id": "about_face_chunks_chunk_605_respond_to_commands_feedback",
+      "label": "Respond to commands",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_605_Respond_to_commands.md",
+      "rationale": "Provide visual cues indicating a command was received, depending on the delay length (instant, <1s, 1-10s, >10s)."
+    },
+    {
+      "id": "about_face_chunks_chunk_606_draw_attention_to_important_ev_attention",
+      "label": "Draw attention to important events",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_606_Draw_attention_to_important_ev.md",
+      "rationale": "Use contrast (size, color, motion) to draw attention proactively, but avoid misapplying it as it can interrupt the user's current task."
+    },
+    {
+      "id": "about_face_chunks_chunk_607_minimize_the_amount_of_visual__visual_noise",
+      "label": "Visual Noise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_607_Minimize_the_amount_of_visual_.md",
+      "rationale": "Superfluous visual elements (ornate embellishment, 3D rendering without info, heavy rules, crowding) increase cognitive load and should be minimized."
+    },
+    {
+      "id": "about_face_chunks_chunk_608_keep_it_simple_simplicity",
+      "label": "Keep it simple",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_608_Keep_it_simple.md",
+      "rationale": "Visual interfaces should be minimal. Unnecessary variation is the enemy of coherent design."
+    },
+    {
+      "id": "about_face_chunks_chunk_609_design_principle_take_things_away",
+      "label": "Take things away until the design breaks",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_609_DESIGN_PRINCIPLE.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_610_visual_information_design_prin_visual_info_design",
+      "label": "Visual Information Design",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_610_Visual_Information_Design_Prin.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_610_visual_information_design_prin_edward_tufte",
+      "label": "Edward Tufte",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_610_Visual_Information_Design_Prin.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_610_visual_information_design_prin_grand_principles",
+      "label": "Seven Grand Principles of Information Design",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_610_Visual_Information_Design_Prin.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_611_enforce_visual_comparisons_enforce_comparisons",
+      "label": "Enforce visual comparisons",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_611_Enforce_visual_comparisons.md",
+      "rationale": "Provide a means for users to compare related variables and trends or to compare before-and-after scenarios."
+    },
+    {
+      "id": "about_face_chunks_chunk_612_show_causality_show_causality",
+      "label": "Show causality",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_612_Show_causality.md",
+      "rationale": "Clarify cause and effect within information graphics."
+    },
+    {
+      "id": "about_face_chunks_chunk_613_show_multiple_variables_show_multiple_variables",
+      "label": "Show multiple variables",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_613_Show_multiple_variables.md",
+      "rationale": "Data displays should show multiple related variables simultaneously without sacrificing clarity."
+    },
+    {
+      "id": "about_face_chunks_chunk_614_integrate_text__graphics__and__integrate_text_graphics",
+      "label": "Integrate text, graphics, and data in one display",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_614_Integrate_text__graphics__and_.md",
+      "rationale": "Avoid separate keys or legends as they require additional cognitive processing."
+    },
+    {
+      "id": "about_face_chunks_chunk_615_ensure_the_content_s_quality___ensure_quality",
+      "label": "Ensure the content's quality, relevance, and integrity",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_615_Ensure_the_content_s_quality__.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_616_show_things_adjacent_in_space__show_adjacent_in_space",
+      "label": "Show things adjacent in space, not stacked in time",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_616_Show_things_adjacent_in_space_.md",
+      "rationale": "Changes over time are easier to understand when shown side-by-side rather than superimposed."
+    },
+    {
+      "id": "about_face_chunks_chunk_617_don_t_dequantify_quantifiable__dont_dequantify",
+      "label": "Don't dequantify quantifiable data",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_617_Don_t_dequantify_quantifiable_.md",
+      "rationale": "Do not abandon the display of the numbers themselves even when using graphs and charts."
+    },
+    {
+      "id": "about_face_chunks_chunk_618_consistency_and_standards_consistency",
+      "label": "Interface Consistency and Standards",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_618_Consistency_and_Standards.md",
+      "rationale": "Standards improve users' ability to learn and predict behaviors, but rigid adherence without considering context can force inappropriate interaction models."
+    },
+    {
+      "id": "about_face_chunks_chunk_622_when_to_violate_guidelines_obey_standards",
+      "label": "Obey standards unless there is a truly superior alternative",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_623_DESIGN_PRINCIPLE.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_624_consistency_and_standards_acro_consistency_not_rigidity",
+      "label": "Consistency doesn't imply rigidity",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_624_Consistency_and_standards_acro.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_625_the_design_language_design_language",
+      "label": "Design Language",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_625_The_design_language.md",
+      "rationale": "A vocabulary of design elements (shape, color, typography) composed to create emotional tone and brand associations."
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_610_visual_information_design_prin_visual_info_design",
+      "target": "about_face_chunks_chunk_610_visual_information_design_prin_edward_tufte",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_610_Visual_Information_Design_Prin.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_610_visual_information_design_prin_grand_principles",
+      "target": "about_face_chunks_chunk_610_visual_information_design_prin_edward_tufte",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_610_Visual_Information_Design_Prin.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_618_consistency_and_standards_consistency",
+      "target": "about_face_chunks_chunk_622_when_to_violate_guidelines_obey_standards",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/private/tmp/about_face_chunks/chunk_623_DESIGN_PRINCIPLE.md"
+    },
+    {
+      "source": "about_face_chunks_chunk_607_minimize_the_amount_of_visual__visual_noise",
+      "target": "about_face_chunks_chunk_608_keep_it_simple_simplicity",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_608_Keep_it_simple.md"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "tufte_seven_principles",
+      "label": "Tufte's Seven Principles of Visual Information Design",
+      "nodes": [
+        "about_face_chunks_chunk_611_enforce_visual_comparisons_enforce_comparisons",
+        "about_face_chunks_chunk_612_show_causality_show_causality",
+        "about_face_chunks_chunk_613_show_multiple_variables_show_multiple_variables",
+        "about_face_chunks_chunk_614_integrate_text__graphics__and__integrate_text_graphics",
+        "about_face_chunks_chunk_615_ensure_the_content_s_quality___ensure_quality",
+        "about_face_chunks_chunk_616_show_things_adjacent_in_space__show_adjacent_in_space",
+        "about_face_chunks_chunk_617_don_t_dequantify_quantifiable__dont_dequantify"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_610_Visual_Information_Design_Prin.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

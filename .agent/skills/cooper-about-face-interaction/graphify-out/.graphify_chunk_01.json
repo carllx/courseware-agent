@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_008_ch_1__a_design_process_for_dig_goal_directed_design",
+      "label": "Goal-Directed Design",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_008_CH_1__A_Design_Process_for_Dig.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_010_ch_3__modeling_users__personas_personas",
+      "label": "Personas",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_010_CH_3__Modeling_Users__Personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_011_ch_4__setting_the_vision__scen_scenarios",
+      "label": "Scenarios",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_011_CH_4__Setting_the_Vision__Scen.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_012_ch_5__designing_the_product__f_design_framework",
+      "label": "Design Framework",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_012_CH_5__Designing_the_Product__F.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_015_ch_8__digital_etiquette__179_digital_etiquette",
+      "label": "Digital Etiquette",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_015_CH_8__Digital_Etiquette__179.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_017_ch_10__optimizing_for_intermed_perpetual_intermediates",
+      "label": "Perpetual Intermediates",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_017_CH_10__Optimizing_for_Intermed.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_019_ch_12__reducing_work_and_elimi_excise",
+      "label": "Excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_019_CH_12__Reducing_Work_and_Elimi.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_020_ch_13__metaphors__idioms__and__idioms",
+      "label": "Idioms",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_020_CH_13__Metaphors__Idioms__and_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_008_ch_1__a_design_process_for_dig_goal_directed_design",
+      "target": "about_face_chunks_chunk_010_ch_3__modeling_users__personas_personas",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_008_CH_1__A_Design_Process_for_Dig.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "about_face_chunks_chunk_010_ch_3__modeling_users__personas_personas",
+      "target": "about_face_chunks_chunk_011_ch_4__setting_the_vision__scen_scenarios",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_010_CH_3__Modeling_Users__Personas.md",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 2000,
+  "output_tokens": 1500
+}

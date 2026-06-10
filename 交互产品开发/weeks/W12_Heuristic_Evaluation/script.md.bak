@@ -8,7 +8,7 @@ tags: [ch14-16-evaluation, evaluation-framework-overview, nielsen-10-heuristics,
 # W12 启发式评估原理与应用: 找出界面中的"隐形地雷"
 
 > **本节目标**
-> 理解可用性评估在产品生命周期中的核心地位；熟练掌握 Nielsen 十大可用性启发式原则（Heuristics）的内涵及判定标准；掌握启发式评估的标准化三阶段执行流程；启动 实验4(Exp4)，通过跨组走查从"开发者视角"切换为"独立审计视角"。
+> 理解可用性评估在产品生命周期中的核心地位；熟练掌握 Nielsen 十大可用性启发式原则（Heuristics）的内涵及判定标准；掌握启发式评估的标准化三阶段执行流程；启动 实践项目4，通过跨组走查从"开发者视角"切换为"独立审计视角"。
 
 ---
 
@@ -695,13 +695,13 @@ Nielsen 发现了一条黄金法则：**当你把评估人数增加到 3 到 5 �
 
 ---
 
-## Module 5: 实验4(Exp4) 启动 — 生生互评跨组走查日
+## Module 5: 实践项目4 启动 — 生生互评跨组走查日
 <!-- BUDGET: 0 chars | TYPE: activity | STATUS: exempt -->
 
 > [ACTIVITY]
 > **Type**: `Practice`
 > **Duration**: `80min`
-> **Desc**: 实验4(Exp4) 启动：互核审计 
+> **Desc**: 实践项目4 启动：互核审计 
 >
 > **目标**: 运用 Nielsen 十大原则，互换高保真原型，展开背靠背的启发式审计。
 > 

@@ -13,12 +13,6 @@ Example:
 import sys
 import zipfile
 from pathlib import Path
-
-# 确保同目录下的 quick_validate 可被导入（即使 CWD 不在 scripts/ 下）
-_scripts_dir = str(Path(__file__).resolve().parent)
-if _scripts_dir not in sys.path:
-    sys.path.insert(0, _scripts_dir)
-
 from quick_validate import validate_skill
 
 

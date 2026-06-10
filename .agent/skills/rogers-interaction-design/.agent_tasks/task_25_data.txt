@@ -1,0 +1,311 @@
+OUTPUT_FILE: /Users/yamlam/Downloads/carllx-skills/.agent/skills/interaction-design-Rogers/references/workflows/google.md
+
+CONTEXT:
+Node: Google
+Primary concept extracted from chunk
+# Google
+
+![](images/3d112c13aa59336e5b8831f0941aa57879153acd3d0e6a7ac5ed9f807af7176c.jpg)
+
+![](images/dd4e7f28f7c5b9dfd5918fdea38b5e3e055d8b51e0d7d9ff2e7d83afe5f8cecc.jpg)
+
+Home
+
+![](images/869ecc2c98ba7eb98f78de46fe5759042060f89dfe21733d9e51aa15a1d844ee.jpg)
+
+（6）Feed
+
+![](images/b9d0005ba453a1e8cfcf54b2fe7ce88f9c90ecedbf6114722928e22e04f4639e.jpg)
+
+All Documents
+
+![](images/0dd96604e460930c6595e2ff686cb8f8707247994e36a9174593f6f3605c7f2b.jpg)
+
+Royal Autom..
+
+![](images/5f9b012b04665f2d330879e2c8a4479ee86272314ee51a4454ce7efe74ee9442.jpg)
+
+LogInIntera..
+
+![](images/0f45eb75c256d22c9ae9782baabbde053744fdc46fdcd32eca5d7c151beb2a17.jpg)
+
+Interactive In..
+
+![](images/64947707a28e7182ac134b734a4be73bec181bb861d2d2ad50b32af909d067aa.jpg)
+
+Online Banking
+
+![](images/ba04331834406437db3751664385ea19556aa3f6befdbec6f0c6464aa632c5ef.jpg)
+
+Interaction D..
+
+![](images/4e4e3237df43e2cc562dc7e3a53ca5455941abf6bf90748504760b25cd44f0cf.jpg)
+
+HUMAN INTE...
+
+![](images/834b945cba159dfee6505bfe3b46e0f1294186572566a786ef118a2a89e13c00.jpg)  
+Figure 7.4  Part of the home page for my current Google browser showing favicons of top sites visited below the search bar
+
+Add shortcut
+
+Source: Yvonne Rogers
+
+A  particular kind of window that is  commonly used  is the dialog box. Confirmations, error messages, checklists, and forms are presented through dialog boxes. Information in the dialog boxes is often designed to guide user interaction, with the user following the sequence of options provided. Examples include a sequenced series of forms (such as wizards) presenting the necessary and optional choices that need to be filled in when choosing a PowerPoint presentation or an Excel spreadsheet. A common problem with this style of interaction is that there is a tendency to cram too much information or data entry fields into one box, making the interface confusing, crowded, and difficult to read (Mullet and Sano, 1995).
+---
+Node: 7.2.8  Voice
+Primary concept extracted from chunk
+# 7.2.8  Voice
+
+A  voice  interface involves  a person  talking  with  a spoken  language app,  such as  a search engine, a train  timetable, a travel  planner, or  a  chatbot. It  is commonly used  for inquiring about specific information (for instance, flight times or the weather) or issuing a command to a machine (such as asking a smart TV to select an action movie or asking a smart speaker to play some upbeat music). Voice interfaces use an interaction type of command or conversation  (see  Chapter  3),  where  a  person  speaks  and  listens  rather  than  clicks,  touches,  or points. Sometimes, the interaction style can involve the person responding where the system is proactive and initiates the conversation, for example, asking them if they would like to stop watching  a movie  or  listen  to the  latest breaking  news. Most  times the  system is  reactive, responding to the person’s queries.
+
+The first generation of speech  systems earned a reputation for mishearing all too often what a person said (see cartoon). However, they are now much more sophisticated and have higher levels of recognition accuracy. Machine learning algorithms have been developed that continue to improve their ability to recognize what someone is saying. Synthetic speech has also advanced significantly to be more friendlier, convincing, and pleasant than the artificially sounding synthesized speech that was typically used in the early systems.
+
+![](images/b5ac0cc0651f1ae82c9d3cb5ea76371147fa972e2e71ec5f95ffed02d116a316.jpg)  
+Source: Reproduced with permission of King Features Syndicate
+
+Watch Sonatics (2022) video entitled What’s Her Secret? at youtu.be/gS1m TIxEW0. How convincing do you think the artificial voice is? Is it distinguishable from a human voice?
+
+Voice has become popular for a range of apps. Speech-to-text systems, such as Otter.io and Dragon, enable people to dictate rather than have to type, whether it is entering data into a spreadsheet, using a search engine, or writing a document. The words spoken appear on the screen. For some people, this mode of interaction is more efficient, especially when they are on  the move. Dragon claims on its  website that  it is  three times faster than typing and it is 99 percent accurate. Speech technology is also used by people with visual impairments,
+
+including  speech  recognition  word  processors,  page  scanners,  web  readers, and  voice  for operating home control systems, including lights, TV, stereo, and other home appliances.
+
+An increasingly widespread application of speech technology is call routing, where companies use an automated speech system to enable callers to reach one of their services during a phone call. They voice their needs in their own words, for example, “I’m having problems with my Wi-Fi router,” and in response are automatically forwarded to the appropriate service. This is useful for companies, as it can reduce operating costs. It can also increase revenue by reducing the number of lost calls. The callers may be happier, as their call can be routed to an available agent (real or virtual) rather than being lost or sent to voicemail. The  key is knowing when to hand over to a human operator when the virtual agent cannot answer their request or does not understand it.
+
+In human conversations, people often interrupt each other, especially if they know what they want, rather than waiting for someone to go through a series of options. For example, they  may stop  the waitress at a  restaurant in midflow  when describing the  specials  if they know what they want, rather than let her go through the entire list. Similarly, speech technology has been designed with a feature called barge-in that allows callers to interrupt a system message and provide their request or response before the message has finished playing. This can be useful if the system has numerous options from which the caller may choose and the chooser knows already what they want.
+
+There are several ways that a conversational dialogue can be structured. The most common is a directed dialogue where the system is in control of the conversation, asking specific questions and requiring specific responses, similar to filling in a form (Cohen et al., 2004):
+
+System: Which city do you want to fly to?
+
+Caller: London
+
+System: Which airport: Gatwick, Heathrow, Luton, Stansted, or City?
+
+Caller: Gatwick
+
+System: What day do you want to depart?
+
+Caller: Monday next week.
+
+System: Is that Monday, May 5?
+
+Caller: Yes
+
+Other systems  are more  flexible, allowing  someone to take more initiative and specify more information in one sentence (for example, “I’d like to go to Paris next Monday for two weeks”). The  problem  with this  approach  is  that  there is  more  chance  for error, since  the caller might assume  that the system can follow all of their needs in one pass as a real travel agent would (for example, “I’d like to go to Paris next Monday for two weeks and would like the cheapest possible flight, preferably leaving from Gatwick airport and definitely with no stop-overs...”). The list is simply too long and would overwhelm the system’s parser. In addition, prompted responses enable the speech recognizer to look for a limited set of words, such as cities (in the first case) or London airports (second), which significantly improves accuracy. Guided prompts can be used to get callers back on track and help them speak appropriately (for instance, “Sorry, I did not get all that. Did you say you wanted to fly next Monday?”).
+
+A number of speech-based phone apps exist that enable people to use them while mobile, making  them more convenient to use  than text-based entry. For example, people can voice queries into their phone using Google Voice or Apple Siri rather than entering text manually. Mobile translators allow people to communicate  in real time with others who speak a different language by letting a software app on their phone do the talking (for example, Google
+
+Translate). People speak in their own language using their phone while the software translates what each person is saying into the language of the other one. Potentially, this means people from all over the world (there are more than 6,000 languages) can talk to one another without having to learn another language.
+
+Voice assistants, like Amazon’s Alexa and Google Home, can be instructed by their owners to entertain in the home by telling jokes, playing music, keeping track of time, and enabling users to  play games. Alexa  also  offers a  range  of  skills, which are  voice-driven  capabilities intended to provide a more personalized experience. For example, “Open the Magic Door” is an interactive story skill that allows users to choose their path in a story by selecting different options through the narrative. Another one, “Kids Court,” allows families to settle arguments in an Alexa-run court while  learning about the law. Many of the skills are designed to support multiple people taking part at the same time, offering the potential for families  to play together. Social interaction is encouraged by  the smart speaker that houses Alexa or Home. Smart speakers sit in a common space  for all to  use (similar  to a toaster  or refrigerator). In contrast, handheld devices, such as a smartphone or tablet, support single use and ownership.
+
+Despite big advances in speech recognition, conversational interaction is limited mainly to answering questions and responding to requests. Furthermore, it is still difficult for speechbased systems to recognize children’s speech, as it is not as articulate or developed as adults. As a result, many conversational agents frequently misunderstand children (Monarca et al., 2020). Also, voice assistants don’t always recognize who is talking in a group, such as a family, and always need to be called by their name each time someone wants to interact with it.
+---
+Node: Ethnography
+Primary concept extracted from chunk
+# Ethnography
+
+Ethnography has traditionally been used in the social sciences to uncover the organization of societies  and their  activities.  Since  the  early  1990s,  it  has  gained  credibility  in  interaction design, and particularly in the design of collaborative systems (Crabtree, 2003). A large part of most ethnographic studies is direct observation, but interviews, questionnaires, and studying artifacts used in the activities also feature in many ethnographic studies. Digital ethnography has become more popular within technology studies and can involve technology tours, where  a participant  gives the researcher  a  guided tour  of  the technology  in use  (Strengers et al., 2019). A distinguishing feature of ethnographic studies compared with other data gathering  is that  a situation is observed without imposing  any a priori  structure or framework upon it, and everything is viewed as “strange.” In this way, the aim is to capture and articulate the participants’ perspective of the situation under study.
+
+Ethnography allows interaction designers to obtain a detailed and nuanced understanding of people’s behavior and their use  of technology that cannot be obtained by other data gathering techniques (Lazar et al., 2017). While there has been much discussion of how Big Data can address many design issues, Big Data is likely to be most powerful when combined with ethnography to explain how and why people do what they do (Churchill, 2018).
+
+The observer  in  an  ethnographic  study adopts  a  participant  observer  (insider) role  as much as possible (Fetterman, 2020). Ethnographic data is based on what is available, what
+
+is “ordinary,” what  it is  that people do, say, and how they work. The data  collected therefore has  many forms: documents, notes  taken by  the observer(s), photos, and room layout sketches. Notes may include snippets of conversations and descriptions of rooms, meetings, what someone did, or how people reacted to a situation. Data gathering is opportunistic, and observers make the most of opportunities as they present themselves. Interesting phenomena often  do  not  reveal  themselves  immediately  but  only  later, so  it  is  important  to  gather as much as possible within the framework of observation. Initially, spend time getting to know people in the participant group and bonding with them. Participants need to understand why the observers are there, what  they hope  to achieve, and  how long they  plan to be around. Going to lunch with them, buying coffee, and offering small gifts, for example, cookies, can greatly  help this  socialization process. Moreover, key  information  may be revealed  during one of these informal interactions.
+
+It is important to show interest in the stories, gripes, and explanations that are provided and to  be  prepared  to step  back  if a  participant’s  phone  rings  or someone  else  enters the workspace. A good tactic is to explain to one of the participants during a quiet moment what you think is happening and then let  them correct any misunderstandings. However, asking too many questions, taking photos of everything, showing off your knowledge, and getting in their way can be very  off-putting. Recording conversations and taking photos of people doing things during the first session may not be a good idea as participants may feel nervous or self-conscious. Listening and watching while sitting on the sidelines and occasionally asking questions is a better approach.
+
+The following is an illustrative list of materials that might be recorded and collected during an ethnographic study (adapted from Crabtree, 2003, p. 53):
+
+. Activity or job descriptions   
+Rules and procedures (and so on) that govern particular activities   
+. Descriptions of activities observed   
+• Recordings of the talk taking place between parties involved in observed activities   
+•  Informal interviews with participants explaining the detail of observed activities   
+Diagrams of the physical layout, including the position of artifacts   
+Photographs of artifacts (documents, diagrams, forms, computers, and so on) used in the course of observed activities   
+Videos of artifacts as used in the course of observed activities   
+. Descriptions of artifacts used in the course of observed activities   
+. Workflow diagrams showing the sequential order of tasks involved in observed activities   
+• Process maps showing connections between activities
+
+The previous  description  focuses on a  situation where  the activity being  studied takes place  in  a  physical  setting,  in  which  case  the  ethnographic  researcher  will  be  physically present. Where  the activity  takes  place  virtually, the  ethnographic  researcher  can  observe the activity online (see Box 8.4). Where activity takes place across both physical and online worlds, this requires a combined approach (Przybylski, 2020).
+---
+Node: 10.1 Introduction
+Primary concept extracted from chunk
+# 10.1 Introduction
+
+What digital technologies do you use when you travel into the city for a day out with friends? Do  you plan  ahead  using  a  variety  of  resources?  Make  a reservation  for  a  restaurant  for lunch? Think about buying tickets in advance? Do you create a WhatsApp group to do the planning, for example, to decide where to meet up with your friends and at what time? Do you check when the new museum you all want to go to is open, and read reviews about the exhibition that is currently on there and how much it costs? Having done the initial planning, do you then purchase a train ticket on your mobile phone train app and then check to see if the train you are planning to catch is running on time? Do you think about what to wear and whether you need to take an umbrella? Do you maybe ask your personal assistant, like Alexa, “What is the weather today?”
+
+Having made their plans, most people will then walk, cycle, or take a ride-share requested via an app to their train station, present their phone with the QR code on their digital train ticket  to the reader at the turnstile, and take a seat on the train. Most trains provide Wi-Fi, so people will often check their social media and newsfeeds or play a game on their phone.
+
+They may also keep in touch with the friends they are meeting to see where they are, maybe tracking their locations using Google Maps. On reaching their destination, they exit the station by tapping their phone at the turnstile. They may need to use a smartphone map app to navigate to the museum and may also take selfies on the journey.
+
+These are just a few of the things that many people do when visiting a city with friends. Several  of the  activities will  involve  creating, searching,  and  storing data  in  some  way  or another. People may know that this is happening, may suspect that it is happening, or may be totally unaware of the data that they are generating and how it is being used, as well as the data with which they are interacting.
+
+There  is  also  increasing  concern  about  exactly  what  data  is  collected  about  people through  interacting  with  their  personal  assistants,  such  as  Amazon  Echo,  Google  Home, Cortana, and Siri, and from their social media conversations. Cities, such as New York and London, have an  extensive  network  of surveillance  cameras (CCTV) spread around, especially in busy  places such as subway  stations and shopping malls. The video footage  from these  sources is typically  kept  for two weeks or more.  Similarly, when people are checked in at a station ticket  barrier, their movements are  tracked. Their activities are also recorded through many of the apps on  our smartphones, such  as fitness trackers, payment systems, and social media.
+
+What  happens  to  all  the  data  collected  about  them?  How  does  it  improve  the  services provided by society? Does it make traveling more efficient? Does it make the streets safer? Moreover, how much of the data collected from smartcards, smartphone Wi-Fi signals, social media, and CCTV footage can be tracked back to them and pieced together to reveal a  bigger picture of who  they are and  where they go? What  might that  data reveal about society?
+
+Data at scale, or as it is often called Big Data, describes all kinds of data including databases of numbers, images of people, things  and places, footage of conversations recorded, videos, texts, and environmentally sensed data (such as air quality). It is also being collected at  a  tremendous  rate;  for  example,  500  hours  of  video  are  uploaded  to YouTube  every minute,  while  millions  of  messages  circulate  through  social  media.  Furthermore,  sensors placed in cities, homes, public transport, and parks collect enormous amounts of environmental data.
+
+Data  at scale has huge potential for grounding  and elucidating problems, and it can be collected, used, and communicated in a wide variety of ways. For example, it is increasingly being used for improving a whole range of applications in healthcare, science, education, city planning, finance, world economics, and other areas. It can also provide new insights  into human  behavior, with  the  use  of  machine learning,  by analyzing  data  collected from people, such as  their facial expressions, movements, gait, and tone  of voice. This includes inferring people’s emotions, their intent, and well-being, which can then be used to inform technology interventions aimed at changing or improving people’s health and well-being. However, beyond  societal  benefits, data  can  also be used  in  potentially harmful  ways, such as  the  misuse of  data  collected that  has  detected  someone’s gender, race, approximate age,  where  and  how long  they  have been  looking  at  something, and in what emotional  state they are in  (Hill, 2020). This type of wide-reaching information
+
+could be used mistakenly to identify someone as a criminal or to post inappropriate ads on  their  phone  or  computer. Another  nefarious  use  of  data  collected  from  individuals’ use  of social media, online  services, and apps is to then target people with fake news  to encourage them to vote in a particular way or scam them to divulge personal information about their finances.
+
+As mentioned in Chapter 8, “Data Gathering,” and Chapter 9, “Data Analysis, Interpretation, and Presentation,” data can be either qualitative or quantitative. Some of the methods and  tools used  to collect, analyze, and communicate  data  can  be carried  out  manually  or using quite simple tools. What makes this chapter on data at scale different is that it considers how huge volumes of data can be analyzed, visualized, and used to inform new interventions. While having access to large volumes of data enables analysts, designers, and researchers to address large, important issues such as climate change and world economic issues, assuming that  there are  tools to do this, they  also raise a number of societal  concerns. These include whether  someone’s  privacy  is  being  violated  by  the  data  being  collected  about  them  and whether the data corpora being used to make decisions about people, such as the provision of insurance and loans, are fair and transparent.
+
+Furthermore, the combination of vast amounts of data from many sources and the availability  of  increasingly  powerful  data  analytic  tools  to analyze  that  data  is  now  making  it possible to discover new information that is not available from any single data source. This is  enabling new  kinds of research to be conducted for understanding  human behavior and environmental problems.
+---
+Node: 13.2.1  User Research
+Primary concept extracted from chunk
+# 13.2.1  User Research
+
+The term user research (sometimes called discovery research) refers to the program of data gathering and analysis activities conducted to characterize potential users, their tasks, and the context of use. User research is typically done before product development begins, but it is equally valuable  throughout  it. In an  agile  project, data  gathering  methods  that rely on  a significant elapsed  period of time such as ethnography do not  fit within  agile’s  short iterations, so technical development needs to be independent of any studies using that approach. More targeted activities that are focused on evaluating elements of the design, or clarifying requirements or task context, can be done alongside technical development, as illustrated by the dual tracks approach discussed next. Bob Thomas (2021) suggests using lean user research approaches, which hinge on involving technical and design members of the team taking part in usability tests and collecting their observations on sticky notes, which can be discussed and summarized in a matter of hours and days rather than weeks.
+
+One approach is for user research to be conducted before the project begins. This initial period  is often  called iteration  zero, and it  is  used to achieve  a range of up-front activities including software architecture design as well as user research. If cycle 0 is the same length as other cycles, the time can still be too constrained depending on the research work to be done. Don Norman (2006) suggests that user research be done before the project is announced. He argues that it is better to be on the team that decides which project will be done at all, hence avoiding the constraints caused by limited timeboxes.
+
+An alternative approach to conducting user research for each project is to have an ongoing program of user research that revises and refines a company’s knowledge of their users over a longer time span. In this case, the specific data gathering and analysis needed for one project would be conducted during iteration zero, but done in the context of a wider understanding of users and their goals. For example, both Microsoft and Google recruit people to take part in a range of user research activities, the results of which are used to inform product development.
+---
+Node: ACTIVITY 13.1
+Primary concept extracted from chunk
+# ACTIVITY 13.1
+
+Consider the “one-stop car  shop” introduced in Activity 11.4. What kind of user research would be helpful to conduct before iterative development begins? Of these areas, which would be useful to conduct in an ongoing program?
+---
+Node: chapter 29 References chunk 000 References 33
+Primary concept extracted from chunk
+Symposium  on Computer-Human Interaction In  Play (CHI PLAY ’14). ACM, New York, NY, pp. 433–434.   
+Melton M., and Fenwick, J. (2019) Alexa skill voice interface for the moodle learning management system, J. Comput. Sci. Coll. 35(4), 26–35.   
+Meurer, J., Pakusch, C., Stevens, G., Randall, D., and Wulf, V.  (2020) A Wizard of Oz Study on  Passengers’ Experiences of a Robo-Taxi Service in Real-Life  Settings. In Proceedings of DIS 2020, pp. 1365–1377.   
+Meyer, R.  (2015)  Even  Early  Focus  Groups  Hated  Clippy.  Downloaded  from  www .theatlantic.com/technology/archive/2015/06/clippy-the-microsoft-office-assistant-is-thepatriarchys-fault/396653.   
+Mezouar, M. El, Zhang, F., and Zou, Y.  (2018) Are tweets useful in the bug fixing process? An empirical study on Firefox and Chrome, Empirical Software Engineering, 23, 1704–1742.   
+Mhaidli, A., and Schaub, F.  (2021) Identifying Manipulative Advertising Techniques in XR Through  Scenario  Construction. In Proceedings of  CHI Conference  on Human  Factors  in Computing Systems (CHI ’21), Article 296, pp. 1–18.   
+Microsoft (2019) Guidelines for Human-AI Interaction. Downloaded from www.microsoft .com/en-us/research/project/guidelines-for-human-ai-interaction.   
+Microsoft (2021) What Is Microsoft’s Metaverse? YouTube Video, 2:10.   
+Microsoft (2022) Vision of the Future of Hybrid Work. Downloaded from www.microsoft .com/en-us/worklab/designing-the-new-hybrid-meeting-experience.   
+Mifsud, J. (2011) 12 Effective Guidelines for Breadcrumb Usability and SEO. Downloaded from usabilitygeek.com/12-effective-guidelines-for-breadcrumb-usability-and-seo.   
+Miller,  G. (1956)  The  Magical  Number  Seven, Plus  or  Minus Two: Some  Limits  on  Our Capacity for Processing Information, Psychological Review 63, 81–97.   
+Miller, L. (2006) Interaction Designers and Agile Development: A Partnership. In Proceedings of UPA 2006. Denver/Broomfield: Usability Professionals’ Association.   
+Miller, L. H., and Johnson, J. (1996) The Xerox Star: An Influential User Interface Design. In M. Rudisill, C. Lewis, P.  G. Polson and T.  D. McKay (eds.) Human–Computer Interface Design. Morgan Kaufmann, San Francisco.   
+Miyake,  N.  (1986)  Constructive  Interaction  and  the  Iterative  Process  of  Understanding, Cognitive Science, 10(2) pp. 151–177.   
+Mo, G.B., Dudley, J. J., and Kristensson, P. O. (2021) Gesture Knitter: A Hand Gesture Design Tool for Head-Mounted Mixed Reality Applications. In CHI Conference on Human Factors in Computing Systems (CHI ’21), ACM, New York, NY, USA, 13 pages.   
+Mohaddesi,  O.,  and  Harteveld,  C.  (2020)  The  Importance  of  Pilot  Studies  for  Gamified Research:  Pre-Testing  Gametes  to  Study  Supply  Chain  Decisions.  In  Proceedings  of  CHI PLAY ’20 Extended Abstracts, pp. 316–320.   
+Mola, R. (2020) What Google searches  tell us about our coronavirus thoughts and fears. www.vox.com/recode/2020/5/5/21243854/google-trends-search-coronavirus-simon-rogers. Molich, R., Laurel, B., Snyder, C., Quesenbery, W., and Wilson, C. E. (2001)  Ethics in HCI, In CHI ’01 Extended Abstracts on Human Factors in Computing Systems. ACM, New York, NY, pp. 217–218.
+---
+Node: chapter 29 References chunk 000 References 34
+Primary concept extracted from chunk
+Monarca, I., Cibrian, F.L., Mendoza, A., Hayes, G., and Tentori, M. (2020) Why doesn’t the conversational agent understand me? a language analysis of children speech. In Adjunct Proceedings of  the  2020 ACM  International Joint  Conference  on  Pervasive  and  Ubiquitous Computing and Proceedings of the 2020 ACM International Symposium on Wearable Computers (UbiComp-ISWC ’20). ACM, New York, NY, USA, pp. 90–93.   
+Moran,  K.  (2019)  Usability  101.  NN/g.  Updated  February  2022,  and  accessed  February 2022. Available from www.nngroup.com/articles/usability-testing-101.   
+Moran,  K. (2021)  Remote  Usability testing:  Study  Guide. NN/g Nielsen  Norman  Group. Available from www.nngroup.com/articles/remote-usability-testing-study-guide.   
+Morrison, C., Cutrell, E., Grayson, M., Roumen, G., Faia Marques, R., Thieme, A., Taylor, A., and Sellen, A. (2021) PeopleLens. Interactions, 28(3), 10–13.   
+Morrison,  C.,  Jones,  K.,  Grayson,  M.,  and  Cutrell,  E.,  and  Roumen,  G.,  (2022) PeopleLens:  Using  AI  to  support  social  interaction  between  children  who  are blind  and  their  peers.  Downloaded  from  www.microsoft.com/en-us/research/blog/ peoplelens-using-ai-to-support-social-interaction-between-children-who-are-blind-andtheir-peers.   
+Morrison, C., Villar, N., Thieme, A., Ashktorab, Z., Taysom, E., Salandin, O., Cletheroe, D., Saul, G., Blackwell, A. F.,  Edge, D., Grayson, M., and Zhang. H. (2018) Torino: A Tangible Programming  Language  Inclusive  of  Children  with  Visual Disabilities.  Human-Computer Interaction, 1–49.   
+Morville, P. (2005) Ambient Findability. O’Reilly Media Inc.   
+Mühlbauer, A., and  Nissen, K. (2013)  Involve  the users  to  increase  their acceptance  - An experience report. In Proceedings of the ${ 9 } ^ { t b }$ International Symposium on Open Collaboration (WikiSym ’13), Article 42, pp. 1–7.   
+Müller, J., Oulasvirta, A., and Murray-Smith, R. (2017) Control Theoretic Models of Pointing. ACM Transactions on Computer-Human Interaction, 24(4), Article 27, 36 pages. Müller-Tomfelde, C. (ed.) (2010) Tabletops: Horizontal Interactive Displays. Springer.   
+Mullet, K., and Sano, D. (1995) Designing Visual Interfaces. Prentice Hall, Mountain View, CA. Muniz, F.  (2016) An Introduction to Heuristic Evaluation. Downloaded from usabilitygeek .com/heuristic-evaluation-introduction.   
+Munzner, T. (2014) Visual Analysis and Design, CRC Press. Taylor & Francis Group.   
+Muskat, B. (2020) Online Ethnography and Social Phenomena on the Move. In R. V. Kozinets and R. Gambetti (eds.), Netnography Unlimited. Routledge.   
+Myin-Germeys, I., and Kuppens, P.  (eds.) (2022) The Open Handbook of Experience Sampling  Methodology:  A  step-by-step  guide  to  designing,  conducting,  and  analyzing  ESM studies. $2 ^ { \mathrm { n d } }$ edition. Google Books.   
+Nagele,  A.  N.,  Hough,  J.,  and  Dinnen,  Z.  (2022)  The  Subjectivities  of  Wearable Sleep-Trackers -  A  Discourse Analysis.  In  Proceedings  of  CHI  ’22  Extended  Abstracts,  Article 385, pp. 1–8.   
+Nario-Redmond, M. R., Gospodinov, D., and  Cobb, A. (2017) Crip for  a Day: The Unintended  Negative  Consequences  of  Disability  Simulations.  Rehabilitation  Psychology, 62(3), 324–333.
+---
+Node: chapter 29 References chunk 000 References 35
+Primary concept extracted from chunk
+Nassauer, A., and Legewie, N. M. (2022) Video Data Analysis: how to use $2 1 ^ { s t }$ century video in the social sciences. Sage.   
+Ncube,  C., Oberndorf,  P.,  and  Kark,  A. W.  (2008)  Opportunistic  Software  Development: Making Systems from What’s Available, IEEE Software, 25(6), 38–41.   
+Nemes, L., and Kiss, A. (2021) Social Media Sentiment Analysis based on Covid-19. Journal of Information and Telecommunications, 5(1).   
+Nevo, D., and Wade, M. R. (2007) How to avoid Disappointment by Design, Communications of the ACM, 50(4), 43–48.   
+Nichols, P., and Heitlinger, S. (2022) Farm Lab: Ten Years of Participatory Design Research with Spitalfields City Farm, Interactions January-February, 16–19.   
+Nielsen, J. (1993) Usability Engineering. Morgan Kaufmann, San Francisco.   
+Nielsen, J. (1994a) Heuristic Evaluation. In J. Nielsen and R. L. Mack (eds.) Usability Inspection Methods. John Wiley & Sons Inc., New York.   
+Nielsen, J. (1994b) Enhancing the Explanatory Power of Usability Heuristics. In Proceedings of CHI ’94. ACM, New York, NY, pp. 152–158.   
+Nielsen, J. (1999) Designing Web Usability: The Practice of Simplicity. New Riders Publishing Thousand Oaks, CA.   
+Nielsen, J. (2000) Designing Web Usability. New Riders Press, Indianapolis, IN.   
+Nielsen,  J. (2020)  10  Usability  Heuristics  for  User  Interface  Design.  www.nngroup.com/ articles/ten-usability-heuristics.   
+Nielsen, J., and Li, A. (2017) Mega Menus Work Well for Site Navigation. Downloaded from www.nngroup.com/articles/mega-menus-work-well.   
+Nielsen, J., and Loranger, H. (2006) Prioritizing Web Usability. New Riders Press.   
+Nielsen, J., and Mack, R. L. (eds.) (1994) Usability Inspection Methods. John Wiley & Sons Inc., New York.   
+Nielsen, J., and Mohlich, R. (1990) Heuristic  Evaluation of User Interfaces. In Proceedings of CHI ’90. ACM, New York.   
+Nielsen, J., and Norman, D. (2014) The Definition of User Experience. Accessed July 2, 2014. www.nngroup.com/articles/definition-user-experience.   
+Nielsen,  J.,  and Tahir, M. (2002)  Homepage  Usability:  50  Websites Deconstructed.  New Riders Press.   
+Nielsen, L. (2019) Personas – User-Focused Design. $2 ^ { \mathrm { n d } }$ edition. Springer.   
+Nilsson,  T.,  Fischer, J. E.,  Crabtree, A., Goulden,  M., Spence,  J.,  and  Costanza,  E. (2020) Visions, Values, and Videos: Revisiting Envisionings  in Service of UbiComp Design for the Home. In DIS ‘20: Proceedings of the 2020 ACM Designing Interactive Systems Conference, pp. 827–839.   
+NOAA (2021) Citizen Science and Crowdsourcing. Accessed February 2022. www.noaa.gov/ office-education/citizen-science-crowdsourcing.   
+Noortman, R., Schulte, B., Marshall, P., Bakker, S., and Cox, A. (2019) HawkEye - Deploying a Design Fiction Probe. In 2019 CHI Conference on Human Factors in Computing Systems Proceedings (CHI 2019), Paper 422, pp. 1–14.
+
+Norman, D. (1983) Some Observations on Mental Models. In D. Gentner and A. L. Stevens (eds.) Mental Models. Lawrence Earlbaum Associates, Hillsdale, NJ.   
+Norman, D. (1986) Cognitive Engineering. In D. Norman and S. W.  Draper (eds.) User Centered System Design. Lawrence Earlbaum Associates, Hillsdale, NJ, pp. 31–62.   
+Norman, D. (1988) The Design of Everyday Things. Basic Books, New York.   
+Norman, D. (1993) Things That Make Us Smart. Addison-Wesley, Reading, MA.   
+Norman,  D.  (1999)  Affordances,  Conventions  and  Design,  ACM  Interactions  Magazine, May/June, 38–42.   
+Norman, D. (2004) Beauty, Goodness, and Usability/Change Blindness. Human–Computer Interaction, 19(4), 311–318.   
+Norman,  D.  (2005)  Emotional  Design:  Why  We Love  (or  Hate)  Everyday Things.  Basic Books, New York.   
+Norman, D. (2006) Why Doing User Observations First is Wrong, Interactions, July/Aug, 50.   
+Norman, D. (2010) Natural Interfaces are Not Natural, Interactions, May/June, 6–10.   
+Norman,  D.  (2013)  The  Design  of  Everyday  Things.  The  MIT  Press,  Cambridge,  Massachusetts.   
+Norman, D. (2018) People-centered (not tech-driven) design. In T.  Pappas (ed.) Encyclopaedia Britannica, Anniversary Edition. Chicago: Encyclopaedia Britannica, pp. 640–641.   
+Nudelman, G. (2019) #ItsNotAboutYou, Interactions, May-June, pp. 24–26.   
+O’Connaill,  B.,  Whittaker, S.,  and  Wilbur,  S.  (1993)  Conversations  Over  Video  Conferences: An Evaluation of the Spoken Aspects of Video-Mediated Communication, Human– Computer Interaction 8, 389–428.   
+O’Hara,  K.,  Gonzalez,  G.,  Sellen,  A.,  Penney,  G.,  Varnavas,  A.  Mentis,  H.,  Criminisi,  A., Corish, R., Rouncefield, M., Dastur, N., and Carrell, T.  (2013) Touchless Interaction in Surgery, Communications of the ACM, 57(1), 70–77.   
+O’Kaine, A.A.,  Rogers, Y.,  and  Blandford, A.  E.  (2015)  Concealing  or  Revealing  Mobile Medical Devices?  Designing for Onstage  and  Offstage Presentation. In Proceedings  of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI ‘15). ACM, New York, NY, pp. 1689–1698.   
+Oliveira, N., Jun,  E., and Reinecke, K. (2017) Citizen  Science Opportunities  in Volunteer-Based Online Experiments. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI ‘17). ACM, New York, NY, pp. 6800–6812.   
+Oliver, J. L., Brereton, M., Watson, D. M., and Roe, P. (2018) Visualisations Elicit Knowledge to Refine Citizen Science Technology Design: Spectrograms Resonate  with Birders. In Proceedings of the 30th Australian Conference on Computer-Human Interaction (OzCHI ‘18). ACM, New York, NY, pp. 133–144.   
+Ophir, E., Nass, C. I., and Wagner, A. D.  (2009)  Cognitive Control in Media  Multitaskers, Proceedings of the National Academy of Sciences USA 106:15583–15587.   
+Oppenheim, A. N. (2000)  Questionnaire  Design, Interviewing  and Attitude Measurement. $2 ^ { \mathrm { n d } }$ edition. Pinter Publishers.
+---
+Node: chapter 29 References chunk 000 References 36
+Primary concept extracted from chunk
+Orlowski,  S., Ben  Matthews, Lawn, S., Jones, G., Bidargaddi, N., and Venning, A. (2019) Designing for practice: understanding technology use in rural community-based youth mental health contexts, Codesign, 15(2) 163–184.   
+Ortony, A., Norman, D. A., and Revelle, W.  (2005) Affect and proto-affect in effective functioning. In J. M. Fellous and M. A. Arbib (eds.) Who Needs Emotions? The Brain Meets the Machine. New York: Oxford University Press, UK, pp. 173–202.   
+Osann, I., Mayer, L., and Wiele, I. (2020) The Design Thinking Quick Start Guide, Wiley. Othman, M.K., Ong,  L. W.,  and Aman,  S. (2022)  Expert  vs novice  collaborative heuristic evaluation (CHE) of a smartphone app for cultural heritage sites, Multimed Tools Appl 81, 6923–6942.   
+Overdijkink,  S.  B.,  Velu,  A.  V.,  Rosman,  A.  N.,  van  Beukering,  M.  Dm.,  Kok,  M.,  and Steegers-Theunissen,  R.  Pm.  (2018)  The  Usability  and  Effectiveness  of  Mobile  Health technology-Based  Lifestyle and  Medical Intervention Apps Supporting Health  Care During Pregnancy: Systematic Review, JMIR Mhealth Uhealth, 6(4), Article e109.   
+Oviatt, S., Cohen, A., and Weibel, N. (2013) Multimodal Learning Analytics: Description of Math Data  Corpus of ICMI Grand Challenge Workshop. ICMI ’13: In Proceedings of the 15th ACM International Conference on Multimodal Interaction.   
+Oviatt, S., Schuller, B., Cohen, P. R., Sonntag, D., Potamianos, G., and Krüger, A. (eds.) (2017) The  Handbook  of  Multimodal-Multisensor  Interfaces:  Foundations,  User  Modeling,  and Common  Modality Combinations—Volume  1. Association for Computing  Machinery and Morgan & Claypool, New York, NY.   
+Paci, P., Mancini, C., and Price, B. (2017) The Role of Ethological Observation for Measuring Animal Reactions  to Biotelemetry  Devices. In  Proceedings of  International Conference on Animal-Computer Interaction, ACI2017, ACM, Article 5, pp. 1–12.   
+Pakdamanian, E., Shili, S., Sonia, B., Seongkook,H., Sarit, K., and Lu, F. (2021). DeepTake: Prediction  of  Driver Takeover  Behavior  using  Multimodal  Data. In  CHI  Conference  on Human Factors in Computing Systems (CHI ’21), ACM, Article 103, pp. 1–14.   
+Pandarinath, C., Nuyujukian, P., Blabe, C.H., Sorice, B.L., Saab, J., Willett, F.R., Hochberg, L.R., Krishna, V., Shenoy, K. V., and Henderson, J. M. (2017) High performance communication by people with paralysis using an intracortical brain–computer interface. eLife 6, e18554. Park, S. Y., and Chen, Y. (2015) Individual and Social Recognition: Challenges and Opportunities in Migraine Management. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW ’15). ACM, New York, NY, pp. 1540–1551.   
+Park,  Sm., Won, D.D.,  Lee,  B. J. et  al.  (2020)  A  mountable  toilet  system  for  personalized health monitoring via the analysis of excreta. Nat Biomed Eng, 4, 624–635.   
+Parker, C., Fredericks, J., Tomitsch, M., and Yoo, S. (2017) Towards Adaptive Height-Aware Public  Interactive Displays. In Adjunct  Publication of  the 25th Conference  on  User Modeling, Adaptation and Personalization (UMAP ’17), ACM, New York, NY, pp. 257–260.   
+Paterson,  B.,  Winschiers-Theophilus,  H.,  Dunne,  T.  T.,  Schinzel,  B.,  and  Underhill,  L.  G. (2011)  Interpretation  of a Cross-Cultural Usability  Evaluation—A Case Study Based  on  a Hypermedia System for Rare Species Management in Namibia. Interacting with Computers, 23(3), 239–246.
+---
+Node: chapter 29 References chunk 000 References 37
+Primary concept extracted from chunk
+Paul, S., and Das, S. (2020) Accessibility and usability analysis of Indian e-government websites. Univ Access Inf Soc 19, 949–957.   
+Pearl, C. (2016) Designing Voice User Interfaces. O’Reilly.   
+Peatt,  K.  (2014)  Off  the  Beaten  Canvas:  Exploring  the  Potential  of  the  Off-Canvas Pattern.  Sept  2014.  Downloaded  from  www.smashingmagazine.com/2014/02/24/ off-the-beaten-canvas-exploring-the-potential-of-the-off-canvas-pattern.   
+Pêcher,  C., Lemercier, C.,  and  Cellier, J.-M.  (2009)  Emotions  Drive Attention:  Effects  on Driver’s Behavior. Safety Science, 47, 1254–1259.   
+Pêcher, C., Lemercier, C., and  Cellier, J.-M.  (2011)  The  Influence  of  Emotions  on  Driving Behavior. In Traffic  Psychology: An International Perspective. Chapter IX. Publisher: Nova Science Publishers, Editors: Dwight Hennessy.   
+Perez, M. E., Jones, S. T., Lee, S. P., and Worsley, M. (2020)  Intergenerational Making with Young Children. In Proceedings of Fablearn conference (Fablearn 2020). Fablearn, New York, NY, USA, 6 pages.   
+Perterer,  N.,  Sundström,  P.,  Meschtscherjakov,  A., Wilfinger, D.,  and  Tscheligi, M.  (2013) Come  Drive with Me: An Ethnographic  Study of  Driver-Passenger  Pairs to Inform  Future In-Car  Assistance.  In  Proceedings  of  the  Conference  on  Computer  supported  cooperative work (CSCW ’13). ACM, New York, NY, pp. 1539–1548.   
+Petrie, H., Hamilton, F.,  King, N., and Pavan, P.  (2006) Remote Usability Evaluations with Disabled People. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’06), ACM, New York, NY, pp. 1133–1141.   
+Picard, R. W. (1998) Affective Computing. MIT Press, Cambridge, MA.   
+Pinelle, D., Wong, N., and Stach, T.  (2008) Heuristic Evaluation for Games: Usability Principles for Video Games. In Proceedings of SIGCHI 2008, Florence, Italy, pp. 1453–1462.   
+Pinelle, D., Wong,  N., Stach, T., and Gutwin, C. (2009) Usability Heuristics  for Networked Multiplayer Games. In ACM Proceedings of GROUP’09.   
+Pink, S., Horst, H., Postill, J., Hjorth, L., Lewis, T., and Tacchi, J. (2016) Digital Ethnography: principles and practice. SAGE.   
+Pires, A. C.,  Bakala, E.,  González-Perilli, F.,  Sansone,  G.,  Fleischer, B.  Marichal,  S., and Guerreiro,  T.  (2022)  Learning  maths  with  a  tangible  user  interface:  Lessons  learned through participatory  design with children  with visual impairments and  their educators, International Journal of Child-Computer Interaction, 32, article 100382.   
+PMI  (2022)  Agile  Documentation  Strategies.  Accessed  Sept  2022.  www.pmi.org/ disciplined-agile/agile/documentation.   
+Polinsky, N., Andrus, B., Horn, M., and Uttal, D. (2021) Symbolic Relations in Collaborative Coding: How Children and Parents Map Across Symbol Systems While  Coding Robots. In Proceedings of Interaction Design and Children (IDC ’21), pp. 294–304.   
+Porcheron, M., Fischer J. E., Reeves, S., and Sharples, S. (2018) Voice Interfaces in Everyday Life. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI ’18). ACM, New York, NY, Paper 640, 12 pages.   
+Porter, C., Letier, E., and  Sasse, M. A. (2014)  Building a  National E-Service  Using  Sentire: Experience Report on the Use of Sentire: A Volere-Based  Requirements Framework Driven by Calibrated Personas and Simulated User Feedback. In Proceedings of RE ’2014, 374–383.
+---
+Node: chapter 29 References chunk 000 References 38
+Primary concept extracted from chunk
+Poulter, N. (2013) 6 Google Analytics Custom Dashboards to Save You Time NOW! Retrieved from www.stateofdigital.com/google-analytics-dashboards.   
+Pratap, A., Neto, E.C., Snyder, P., Stepnowsky, C., Elhadad, N., Grant, D., Mohebbi, M.H., Mooney, S., Suver, C., Wilbanks, J., Mangravite, L., Heagerty, PJ., Areán, P., and Omberg, L. (2020) Indicators  of retention in remote digital health studies: a cross-study  evaluation of 100,000 participants. NPJ digital medicine, 3(1), 1–10.   
+Preece, J. (2016) Citizen Science: New Research Challenges in HCI. International Journal of Human-Computer Interaction, 32, 8, 585–612.   
+Preece,  J. (2017)  How Two  Billion  Smartphone Users  Can  Save  Species, Interactions. Vol. XXIV.2, 27–33.   
+Preece,  J.,  and  Shneiderman,  B.  (2009)  The  Reader  to  Leader  Framework:  Motivating Technology-Mediated Social Participation, AIS Transactions on Human–Computer Interaction, 1 (1), 13–32.   
+Preece, J., Pauw, D., and Clegg, T. (2018) Interaction Design of Community-Driven Environmental  Projects (CDEPs): A Case Study from  the Anacostia Watershed. Proceedings of the National Academy of Sciences, USA.   
+Preece, J., Pauw, D., and Clegg, T.  (2019) Interaction  design of community-driven environmental projects (CDEPs): A case study from the Anacostia Watershed. In Proceedings of the National Academy of Sciences, 116(6), 18886–1893.   
+Preece,  J.,  Rogers, Y.,  and  Sharp, H.  (2002)  Interaction  Design:  beyond  human-computer interaction. Wiley.   
+Preece,  J.,  Rogers,  Y.,  Sharp,  H.,  Benyon,  D.,  Holland,  S.,  and  Carey, T.  (1994)  Human-Computer Interaction. Addison-Wesley, Woking UK.   
+Pressman, R. S., and Maxim, B. R. (2019) Software Engineering: A Practitioner’s Approach (9th Ed). McGraw-Hill Education.   
+Price, B., Kelly, R., Mehta, V., McCormick, C., Ahmed, H., and Pearce, O. (2018)  Feel My Pain;  Design  and  Evaluation of  Painpad, a Tangible Device  for Supporting  Inpatient  Self-Logging of  Pain. In Proceedings of the CHI  Conference on Human  Factors in  Computing Systems (CHI ’18). ACM, New York, NY, Paper 169, 13 pages.   
+Price, B.,  Mancini,  C., Rogers, Y.,  Bandara, A.  K., Coe, T.,  Joinson,  A. N.,  Lay, J. A., and Nuseibeh,  B. (2010)  ContraVision: presenting  contrasting  visions  of future  technology.  In Proceedings  of the CHI  Conference on  Human  Factors in  Computing Systems  (CHI ’10). ACM, New York, NY, pp. 4759–4764.   
+Primak, R. (2014) Walden Warming: Climate Change Comes to Thoreau’s Woods. University of Chicago Press.   
+Prohaska, T.R., Anderson, L.A., and Binstock, R. H. (2012) Public Health for an Aging Society. JHU Press. 249–252.   
+Przybylski, L. (2020) Hybrid ethnography: online offline and in between. Sage.   
+Putnam, C., Puthenmadom M., Cuerdo, M. A., Wang, W., and Paul, N. (2020) Adaptation of the System Usability Scale for User Testing with Children. In Proceedings of CHI EA ’20: Extended Abstracts of the 2020 CHI Conference, pp. 1–7.   
+Putnam, R. D. (2000) Bowling Alone: The Collapse and Revival of American Community. New York: Simon & Schuster.

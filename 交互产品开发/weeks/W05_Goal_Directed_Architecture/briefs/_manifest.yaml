@@ -1,0 +1,12 @@
+modules_covered: [M01, M02, M03, M04]
+modules_uncovered: [M05]
+mapping:
+  - id: B01
+    file: B01_M01_M02_心流与编排_Brief.md
+    covers_modules: [M01, M02]
+  - id: B02
+    file: B02_M03_目标导向与附加税_Brief.md
+    covers_modules: [M03]
+  - id: B03
+    file: B03_M04_状态机拆解_Brief.md
+    covers_modules: [M04]

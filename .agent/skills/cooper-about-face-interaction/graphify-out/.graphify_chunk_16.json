@@ -1,0 +1,449 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_376_postures_for_other_platforms_postures_for_other_platforms",
+      "label": "Postures for Other Platforms",
+      "file_type": "concept",
+      "source_file": "chunk_376_Postures_for_Other_Platforms.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_377_kiosk_posture_kiosk_posture",
+      "label": "Kiosk posture",
+      "file_type": "concept",
+      "source_file": "chunk_377_Kiosk_posture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_377_kiosk_posture_first_time_use",
+      "label": "First-time use",
+      "file_type": "rationale",
+      "source_file": "chunk_377_Kiosk_posture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_378_ten_foot_interface_posture_ten_foot_interface",
+      "label": "Ten-foot interface posture",
+      "file_type": "concept",
+      "source_file": "chunk_378__Ten_foot__interface_posture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_379_automotive_interface_posture_automotive_interface",
+      "label": "Automotive interface posture",
+      "file_type": "concept",
+      "source_file": "chunk_379_Automotive_interface_posture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_380_smart_appliance_posture_smart_appliance",
+      "label": "Smart appliance posture",
+      "file_type": "concept",
+      "source_file": "chunk_380_Smart_appliance_posture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_381_give_your_apps_good_posture_good_posture",
+      "label": "Good Posture",
+      "file_type": "concept",
+      "source_file": "chunk_381_Give_Your_Apps_Good_Posture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_382_optimizing_for_intermediates_optimizing_for_intermediates",
+      "label": "Optimizing for Intermediates",
+      "file_type": "concept",
+      "source_file": "chunk_382_OPTIMIZING_FOR_INTERMEDIATES.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_383_perpetual_intermediates_perpetual_intermediates",
+      "label": "Perpetual Intermediates",
+      "file_type": "concept",
+      "source_file": "chunk_383_Perpetual_Intermediates.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_384_inflecting_the_interface_inflecting_interface",
+      "label": "Inflecting the Interface",
+      "file_type": "concept",
+      "source_file": "chunk_384_Inflecting_the_Interface.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_385_design_principle_design_principle",
+      "label": "Design Principle",
+      "file_type": "concept",
+      "source_file": "chunk_385_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_386_commensurate_effort_commensurate_effort",
+      "label": "Commensurate effort",
+      "file_type": "concept",
+      "source_file": "chunk_386_Commensurate_effort.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_387_progressive_disclosure_progressive_disclosure",
+      "label": "Progressive disclosure",
+      "file_type": "concept",
+      "source_file": "chunk_387_Progressive_disclosure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_388_organizing_for_inflection_organizing_for_inflection",
+      "label": "Organizing for inflection",
+      "file_type": "concept",
+      "source_file": "chunk_388_Organizing_for_inflection.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_389_designing_for_three_levels_of_three_levels",
+      "label": "Designing for Three Levels of Experience",
+      "file_type": "concept",
+      "source_file": "chunk_389_Designing_for_Three_Levels_of_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_390_what_beginners_need_beginners_need",
+      "label": "What beginners need",
+      "file_type": "concept",
+      "source_file": "chunk_390_What_beginners_need.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_391_getting_beginners_on_board_getting_beginners_on_board",
+      "label": "Getting beginners on board",
+      "file_type": "concept",
+      "source_file": "chunk_391_Getting_beginners_on_board.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_392_beginners_across_platforms_beginners_across_platforms",
+      "label": "Beginners across platforms",
+      "file_type": "concept",
+      "source_file": "chunk_392_Beginners_across_platforms.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_393_what_experts_need_experts_need",
+      "label": "What experts need",
+      "file_type": "concept",
+      "source_file": "chunk_393_What_experts_need.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_394_what_perpetual_intermediates_n_perpetual_intermediates_need",
+      "label": "What perpetual intermediates need",
+      "file_type": "concept",
+      "source_file": "chunk_394_What_perpetual_intermediates_n.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_395_orchestration_and_flow_orchestration_and_flow",
+      "label": "Orchestration and Flow",
+      "file_type": "concept",
+      "source_file": "chunk_395_ORCHESTRATION_AND_FLOW.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_396_flow_and_transparency_flow_and_transparency",
+      "label": "Flow and Transparency",
+      "file_type": "concept",
+      "source_file": "chunk_396_Flow_and_Transparency.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_397_orchestration_orchestration",
+      "label": "Orchestration",
+      "file_type": "concept",
+      "source_file": "chunk_397_Orchestration.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_398_harmonious_interactions_harmonious_interactions",
+      "label": "Harmonious Interactions",
+      "file_type": "concept",
+      "source_file": "chunk_398_Harmonious_Interactions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_399_follow_users_mental_models_mental_models",
+      "label": "Follow users' mental models",
+      "file_type": "concept",
+      "source_file": "chunk_399_Follow_users__mental_models.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_400_less_is_more_less_is_more",
+      "label": "Less is more",
+      "file_type": "concept",
+      "source_file": "chunk_400_Less_is_more.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_377_kiosk_posture_kiosk_posture",
+      "target": "about_face_chunks_chunk_377_kiosk_posture_first_time_use",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_377_Kiosk_posture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_382_optimizing_for_intermediates_optimizing_for_intermediates",
+      "target": "about_face_chunks_chunk_383_perpetual_intermediates_perpetual_intermediates",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chunk_383_Perpetual_Intermediates.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_383_perpetual_intermediates_perpetual_intermediates",
+      "target": "about_face_chunks_chunk_394_what_perpetual_intermediates_n_perpetual_intermediates_need",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chunk_394_What_perpetual_intermediates_n.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_384_inflecting_the_interface_inflecting_interface",
+      "target": "about_face_chunks_chunk_386_commensurate_effort_commensurate_effort",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_386_Commensurate_effort.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_387_progressive_disclosure_progressive_disclosure",
+      "target": "about_face_chunks_chunk_386_commensurate_effort_commensurate_effort",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_387_Progressive_disclosure.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_384_inflecting_the_interface_inflecting_interface",
+      "target": "about_face_chunks_chunk_388_organizing_for_inflection_organizing_for_inflection",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chunk_388_Organizing_for_inflection.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_395_orchestration_and_flow_orchestration_and_flow",
+      "target": "about_face_chunks_chunk_396_flow_and_transparency_flow_and_transparency",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chunk_396_Flow_and_Transparency.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_395_orchestration_and_flow_orchestration_and_flow",
+      "target": "about_face_chunks_chunk_397_orchestration_orchestration",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chunk_397_Orchestration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_398_harmonious_interactions_harmonious_interactions",
+      "target": "about_face_chunks_chunk_399_follow_users_mental_models_mental_models",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_399_Follow_users__mental_models.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_398_harmonious_interactions_harmonious_interactions",
+      "target": "about_face_chunks_chunk_400_less_is_more_less_is_more",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_400_Less_is_more.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_390_what_beginners_need_beginners_need",
+      "target": "about_face_chunks_chunk_391_getting_beginners_on_board_getting_beginners_on_board",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chunk_391_Getting_beginners_on_board.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_389_designing_for_three_levels_of_three_levels",
+      "target": "about_face_chunks_chunk_390_what_beginners_need_beginners_need",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_389_Designing_for_Three_Levels_of_.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_389_designing_for_three_levels_of_three_levels",
+      "target": "about_face_chunks_chunk_393_what_experts_need_experts_need",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_389_Designing_for_Three_Levels_of_.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_389_designing_for_three_levels_of_three_levels",
+      "target": "about_face_chunks_chunk_383_perpetual_intermediates_perpetual_intermediates",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_389_Designing_for_Three_Levels_of_.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "three_experience_levels",
+      "label": "Three Levels of Experience",
+      "nodes": [
+        "about_face_chunks_chunk_390_what_beginners_need_beginners_need",
+        "about_face_chunks_chunk_383_perpetual_intermediates_perpetual_intermediates",
+        "about_face_chunks_chunk_393_what_experts_need_experts_need"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_389_Designing_for_Three_Levels_of_.md"
+    }
+  ],
+  "input_tokens": 1500,
+  "output_tokens": 800
+}

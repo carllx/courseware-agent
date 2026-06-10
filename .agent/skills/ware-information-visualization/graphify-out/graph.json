@@ -1,0 +1,3649 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Cover image",
+      "file_type": "concept",
+      "source_file": "001_Cover_image.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1436aa81",
+      "community": 7,
+      "norm_label": "cover image"
+    },
+    {
+      "label": "Information Visualization",
+      "file_type": "concept",
+      "source_file": "index.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_0a16ed4f",
+      "community": 7,
+      "norm_label": "information visualization"
+    },
+    {
+      "label": "Table of Contents",
+      "file_type": "concept",
+      "source_file": "003_Table_of_Contents.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_42174134",
+      "community": 7,
+      "norm_label": "table of contents"
+    },
+    {
+      "label": "Copyright",
+      "file_type": "concept",
+      "source_file": "004_Copyright.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f1374401",
+      "community": 7,
+      "norm_label": "copyright"
+    },
+    {
+      "label": "Preface",
+      "file_type": "concept",
+      "source_file": "005_Preface_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2355d0dd",
+      "community": 7,
+      "norm_label": "preface"
+    },
+    {
+      "label": "005 Preface part2",
+      "file_type": "concept",
+      "source_file": "005_Preface_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_103a91cf",
+      "community": 7,
+      "norm_label": "005 preface part2"
+    },
+    {
+      "label": "005 Preface part3",
+      "file_type": "concept",
+      "source_file": "005_Preface_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_42765b62",
+      "community": 7,
+      "norm_label": "005 preface part3"
+    },
+    {
+      "label": "About the Author",
+      "file_type": "concept",
+      "source_file": "006_About_the_Author.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7ac2026b",
+      "community": 7,
+      "norm_label": "about the author"
+    },
+    {
+      "label": "Chapter One. Foundations for an Applied Science of Data Visualization",
+      "file_type": "concept",
+      "source_file": "007_Chapter_One._Foundations_for_an_Applied.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_57734462",
+      "community": 15,
+      "norm_label": "chapter one. foundations for an applied science of data visualization"
+    },
+    {
+      "label": "008 Visualization Stages",
+      "file_type": "concept",
+      "source_file": "008_Visualization_Stages.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2ca0f14c",
+      "community": 15,
+      "norm_label": "008 visualization stages"
+    },
+    {
+      "label": "009 Experimental Semiotics Based on Percepti",
+      "file_type": "concept",
+      "source_file": "009_Experimental_Semiotics_Based_on_Percepti.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4b77e5f8",
+      "community": 15,
+      "norm_label": "009 experimental semiotics based on percepti"
+    },
+    {
+      "label": "010 Semiotics of Graphics part1",
+      "file_type": "concept",
+      "source_file": "010_Semiotics_of_Graphics_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5f33a80c",
+      "community": 15,
+      "norm_label": "010 semiotics of graphics part1"
+    },
+    {
+      "label": "010 Semiotics of Graphics part2",
+      "file_type": "concept",
+      "source_file": "010_Semiotics_of_Graphics_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3fea7134",
+      "community": 15,
+      "norm_label": "010 semiotics of graphics part2"
+    },
+    {
+      "label": "011 Sensory versus Arbitrary Symbols part1",
+      "file_type": "concept",
+      "source_file": "011_Sensory_versus_Arbitrary_Symbols_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4a018756",
+      "community": 15,
+      "norm_label": "011 sensory versus arbitrary symbols part1"
+    },
+    {
+      "label": "011 Sensory versus Arbitrary Symbols part2",
+      "file_type": "concept",
+      "source_file": "011_Sensory_versus_Arbitrary_Symbols_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a74dcee0",
+      "community": 15,
+      "norm_label": "011 sensory versus arbitrary symbols part2"
+    },
+    {
+      "label": "011 Sensory versus Arbitrary Symbols part3",
+      "file_type": "concept",
+      "source_file": "011_Sensory_versus_Arbitrary_Symbols_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e95632a9",
+      "community": 15,
+      "norm_label": "011 sensory versus arbitrary symbols part3"
+    },
+    {
+      "label": "012 Gibson\u2019s Affordance Theory",
+      "file_type": "concept",
+      "source_file": "012_Gibson\u2019s_Affordance_Theory.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_40f82fd6",
+      "community": 15,
+      "norm_label": "012 gibson\u2019s affordance theory"
+    },
+    {
+      "label": "013 A Model of Perceptual Processing",
+      "file_type": "concept",
+      "source_file": "013_A_Model_of_Perceptual_Processing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e1ce25a0",
+      "community": 15,
+      "norm_label": "013 a model of perceptual processing"
+    },
+    {
+      "label": "014 Costs and Benefits of Visualization",
+      "file_type": "concept",
+      "source_file": "014_Costs_and_Benefits_of_Visualization.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9bc7c177",
+      "community": 11,
+      "norm_label": "014 costs and benefits of visualization"
+    },
+    {
+      "label": "015 Types of Data part1",
+      "file_type": "concept",
+      "source_file": "015_Types_of_Data_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_30a21d63",
+      "community": 11,
+      "norm_label": "015 types of data part1"
+    },
+    {
+      "label": "015 Types of Data part2",
+      "file_type": "concept",
+      "source_file": "015_Types_of_Data_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_0acc6333",
+      "community": 11,
+      "norm_label": "015 types of data part2"
+    },
+    {
+      "label": "016 Metadata",
+      "file_type": "concept",
+      "source_file": "016_Metadata.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3848078b",
+      "community": 11,
+      "norm_label": "016 metadata"
+    },
+    {
+      "label": "017 Conclusion",
+      "file_type": "concept",
+      "source_file": "017_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_aa694ea0",
+      "community": 11,
+      "norm_label": "017 conclusion"
+    },
+    {
+      "label": "Chapter Two. The Environment, Optics, Resolution, and the Display",
+      "file_type": "concept",
+      "source_file": "018_Chapter_Two._The_Environment,_Optics,_Re.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e7392200",
+      "community": 11,
+      "norm_label": "chapter two. the environment, optics, resolution, and the display"
+    },
+    {
+      "label": "019 The Environment part1",
+      "file_type": "concept",
+      "source_file": "019_The_Environment_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_00577ad9",
+      "community": 11,
+      "norm_label": "019 the environment part1"
+    },
+    {
+      "label": "019 The Environment part2",
+      "file_type": "concept",
+      "source_file": "019_The_Environment_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_efc70c90",
+      "community": 11,
+      "norm_label": "019 the environment part2"
+    },
+    {
+      "label": "019 The Environment part3",
+      "file_type": "concept",
+      "source_file": "019_The_Environment_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_75d6e8a0",
+      "community": 11,
+      "norm_label": "019 the environment part3"
+    },
+    {
+      "label": "020 The Eye part1",
+      "file_type": "concept",
+      "source_file": "020_The_Eye_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_07d83198",
+      "community": 11,
+      "norm_label": "020 the eye part1"
+    },
+    {
+      "label": "020 The Eye part2",
+      "file_type": "concept",
+      "source_file": "020_The_Eye_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_54f86674",
+      "community": 11,
+      "norm_label": "020 the eye part2"
+    },
+    {
+      "label": "020 The Eye part3",
+      "file_type": "concept",
+      "source_file": "020_The_Eye_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e503577c",
+      "community": 5,
+      "norm_label": "020 the eye part3"
+    },
+    {
+      "label": "020 The Eye part4",
+      "file_type": "concept",
+      "source_file": "020_The_Eye_part4.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b9b147d7",
+      "community": 5,
+      "norm_label": "020 the eye part4"
+    },
+    {
+      "label": "020 The Eye part5",
+      "file_type": "concept",
+      "source_file": "020_The_Eye_part5.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ba0e09d3",
+      "community": 5,
+      "norm_label": "020 the eye part5"
+    },
+    {
+      "label": "020 The Eye part6",
+      "file_type": "concept",
+      "source_file": "020_The_Eye_part6.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f1a2418e",
+      "community": 5,
+      "norm_label": "020 the eye part6"
+    },
+    {
+      "label": "021 The Optimal Display part1",
+      "file_type": "concept",
+      "source_file": "021_The_Optimal_Display_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c6d9eb9e",
+      "community": 5,
+      "norm_label": "021 the optimal display part1"
+    },
+    {
+      "label": "021 The Optimal Display part2",
+      "file_type": "concept",
+      "source_file": "021_The_Optimal_Display_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f5e77b4e",
+      "community": 5,
+      "norm_label": "021 the optimal display part2"
+    },
+    {
+      "label": "022 Conclusion",
+      "file_type": "concept",
+      "source_file": "022_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1591b997",
+      "community": 5,
+      "norm_label": "022 conclusion"
+    },
+    {
+      "label": "Chapter Three. Lightness, Brightness, Contrast, and Constancy",
+      "file_type": "concept",
+      "source_file": "023_Chapter_Three._Lightness,_Brightness,_Co.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e072850f",
+      "community": 5,
+      "norm_label": "chapter three. lightness, brightness, contrast, and constancy"
+    },
+    {
+      "label": "024 Neurons, Receptive Fields, and Brightnes part1",
+      "file_type": "concept",
+      "source_file": "024_Neurons,_Receptive_Fields,_and_Brightnes_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_33659350",
+      "community": 5,
+      "norm_label": "024 neurons, receptive fields, and brightnes part1"
+    },
+    {
+      "label": "024 Neurons, Receptive Fields, and Brightnes part2",
+      "file_type": "concept",
+      "source_file": "024_Neurons,_Receptive_Fields,_and_Brightnes_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_71272cc1",
+      "community": 5,
+      "norm_label": "024 neurons, receptive fields, and brightnes part2"
+    },
+    {
+      "label": "025 Luminance, Brightness, Lightness, and Ga part1",
+      "file_type": "concept",
+      "source_file": "025_Luminance,_Brightness,_Lightness,_and_Ga_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_8eeb9b7b",
+      "community": 5,
+      "norm_label": "025 luminance, brightness, lightness, and ga part1"
+    },
+    {
+      "label": "025 Luminance, Brightness, Lightness, and Ga part2",
+      "file_type": "concept",
+      "source_file": "025_Luminance,_Brightness,_Lightness,_and_Ga_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fb3cc937",
+      "community": 5,
+      "norm_label": "025 luminance, brightness, lightness, and ga part2"
+    },
+    {
+      "label": "025 Luminance, Brightness, Lightness, and Ga part3",
+      "file_type": "concept",
+      "source_file": "025_Luminance,_Brightness,_Lightness,_and_Ga_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_62e3cc9a",
+      "community": 5,
+      "norm_label": "025 luminance, brightness, lightness, and ga part3"
+    },
+    {
+      "label": "026 Perception of Surface Lightness",
+      "file_type": "concept",
+      "source_file": "026_Perception_of_Surface_Lightness.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_278573f1",
+      "community": 5,
+      "norm_label": "026 perception of surface lightness"
+    },
+    {
+      "label": "027 Monitor Illumination and Monitor Surroun",
+      "file_type": "concept",
+      "source_file": "027_Monitor_Illumination_and_Monitor_Surroun.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_09f68b68",
+      "community": 14,
+      "norm_label": "027 monitor illumination and monitor surroun"
+    },
+    {
+      "label": "028 Conclusion",
+      "file_type": "concept",
+      "source_file": "028_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4af31cff",
+      "community": 14,
+      "norm_label": "028 conclusion"
+    },
+    {
+      "label": "Chapter Four. Color",
+      "file_type": "concept",
+      "source_file": "029_Chapter_Four._Color.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_56473593",
+      "community": 14,
+      "norm_label": "chapter four. color"
+    },
+    {
+      "label": "030 Trichromacy Theory",
+      "file_type": "concept",
+      "source_file": "030_Trichromacy_Theory.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_8f846df5",
+      "community": 14,
+      "norm_label": "030 trichromacy theory"
+    },
+    {
+      "label": "031 Color Measurement part1",
+      "file_type": "concept",
+      "source_file": "031_Color_Measurement_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_34de2d90",
+      "community": 14,
+      "norm_label": "031 color measurement part1"
+    },
+    {
+      "label": "031 Color Measurement part2",
+      "file_type": "concept",
+      "source_file": "031_Color_Measurement_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_cd435239",
+      "community": 14,
+      "norm_label": "031 color measurement part2"
+    },
+    {
+      "label": "031 Color Measurement part3",
+      "file_type": "concept",
+      "source_file": "031_Color_Measurement_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_318ebef5",
+      "community": 14,
+      "norm_label": "031 color measurement part3"
+    },
+    {
+      "label": "032 Opponent Process Theory",
+      "file_type": "concept",
+      "source_file": "032_Opponent_Process_Theory.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c2cb6fcd",
+      "community": 14,
+      "norm_label": "032 opponent process theory"
+    },
+    {
+      "label": "033 Properties of Color Channels",
+      "file_type": "concept",
+      "source_file": "033_Properties_of_Color_Channels.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_be05dfaa",
+      "community": 14,
+      "norm_label": "033 properties of color channels"
+    },
+    {
+      "label": "034 Color Appearance part1",
+      "file_type": "concept",
+      "source_file": "034_Color_Appearance_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_83eec0ca",
+      "community": 14,
+      "norm_label": "034 color appearance part1"
+    },
+    {
+      "label": "034 Color Appearance part2",
+      "file_type": "concept",
+      "source_file": "034_Color_Appearance_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_824f3712",
+      "community": 13,
+      "norm_label": "034 color appearance part2"
+    },
+    {
+      "label": "035 Applications of Color in Visualization",
+      "file_type": "concept",
+      "source_file": "035_Applications_of_Color_in_Visualization.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7a1fe559",
+      "community": 13,
+      "norm_label": "035 applications of color in visualization"
+    },
+    {
+      "label": "036 Application 1 Color Specification Interf part1",
+      "file_type": "concept",
+      "source_file": "036_Application_1_Color_Specification_Interf_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_36c6ac7b",
+      "community": 13,
+      "norm_label": "036 application 1 color specification interf part1"
+    },
+    {
+      "label": "036 Application 1 Color Specification Interf part2",
+      "file_type": "concept",
+      "source_file": "036_Application_1_Color_Specification_Interf_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2e6ed547",
+      "community": 13,
+      "norm_label": "036 application 1 color specification interf part2"
+    },
+    {
+      "label": "037 Application 2 Color for Labeling (Nomina part1",
+      "file_type": "concept",
+      "source_file": "037_Application_2_Color_for_Labeling_(Nomina_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_145d6d81",
+      "community": 13,
+      "norm_label": "037 application 2 color for labeling (nomina part1"
+    },
+    {
+      "label": "037 Application 2 Color for Labeling (Nomina part2",
+      "file_type": "concept",
+      "source_file": "037_Application_2_Color_for_Labeling_(Nomina_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_20b9e454",
+      "community": 13,
+      "norm_label": "037 application 2 color for labeling (nomina part2"
+    },
+    {
+      "label": "038 Application 3 Pseudocolor Sequences for part1",
+      "file_type": "concept",
+      "source_file": "038_Application_3_Pseudocolor_Sequences_for_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a7960817",
+      "community": 13,
+      "norm_label": "038 application 3 pseudocolor sequences for part1"
+    },
+    {
+      "label": "038 Application 3 Pseudocolor Sequences for part2",
+      "file_type": "concept",
+      "source_file": "038_Application_3_Pseudocolor_Sequences_for_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4234f970",
+      "community": 13,
+      "norm_label": "038 application 3 pseudocolor sequences for part2"
+    },
+    {
+      "label": "038 Application 3 Pseudocolor Sequences for part3",
+      "file_type": "concept",
+      "source_file": "038_Application_3_Pseudocolor_Sequences_for_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2b493ffc",
+      "community": 13,
+      "norm_label": "038 application 3 pseudocolor sequences for part3"
+    },
+    {
+      "label": "039 Application 4 Color Reproduction",
+      "file_type": "concept",
+      "source_file": "039_Application_4_Color_Reproduction.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3dd9aad5",
+      "community": 13,
+      "norm_label": "039 application 4 color reproduction"
+    },
+    {
+      "label": "040 Conclusion",
+      "file_type": "concept",
+      "source_file": "040_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_733e660b",
+      "community": 13,
+      "norm_label": "040 conclusion"
+    },
+    {
+      "label": "Chapter Five. Visual Salience: Finding and Reading Data Glyphs",
+      "file_type": "concept",
+      "source_file": "041_Chapter_Five._Visual_Salience_Finding_an.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_8248599b",
+      "community": 3,
+      "norm_label": "chapter five. visual salience: finding and reading data glyphs"
+    },
+    {
+      "label": "042 Eye Movements",
+      "file_type": "concept",
+      "source_file": "042_Eye_Movements.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_20d183c0",
+      "community": 3,
+      "norm_label": "042 eye movements"
+    },
+    {
+      "label": "043 V1, Channels, and Tuned Receptors part1",
+      "file_type": "concept",
+      "source_file": "043_V1,_Channels,_and_Tuned_Receptors_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_043824ad",
+      "community": 3,
+      "norm_label": "043 v1, channels, and tuned receptors part1"
+    },
+    {
+      "label": "043 V1, Channels, and Tuned Receptors part2",
+      "file_type": "concept",
+      "source_file": "043_V1,_Channels,_and_Tuned_Receptors_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f8942e65",
+      "community": 3,
+      "norm_label": "043 v1, channels, and tuned receptors part2"
+    },
+    {
+      "label": "043 V1, Channels, and Tuned Receptors part3",
+      "file_type": "concept",
+      "source_file": "043_V1,_Channels,_and_Tuned_Receptors_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_16e938a1",
+      "community": 3,
+      "norm_label": "043 v1, channels, and tuned receptors part3"
+    },
+    {
+      "label": "044 Preattentive Processing and Ease of Sear part1",
+      "file_type": "concept",
+      "source_file": "044_Preattentive_Processing_and_Ease_of_Sear_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e3369927",
+      "community": 3,
+      "norm_label": "044 preattentive processing and ease of sear part1"
+    },
+    {
+      "label": "044 Preattentive Processing and Ease of Sear part2",
+      "file_type": "concept",
+      "source_file": "044_Preattentive_Processing_and_Ease_of_Sear_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4385e550",
+      "community": 3,
+      "norm_label": "044 preattentive processing and ease of sear part2"
+    },
+    {
+      "label": "044 Preattentive Processing and Ease of Sear part3",
+      "file_type": "concept",
+      "source_file": "044_Preattentive_Processing_and_Ease_of_Sear_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_25efb216",
+      "community": 3,
+      "norm_label": "044 preattentive processing and ease of sear part3"
+    },
+    {
+      "label": "045 Integral and Separable Dimensions Glyph part1",
+      "file_type": "concept",
+      "source_file": "045_Integral_and_Separable_Dimensions_Glyph_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7fb5e9af",
+      "community": 3,
+      "norm_label": "045 integral and separable dimensions glyph part1"
+    },
+    {
+      "label": "045 Integral and Separable Dimensions Glyph part2",
+      "file_type": "concept",
+      "source_file": "045_Integral_and_Separable_Dimensions_Glyph_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_19f4cbe7",
+      "community": 3,
+      "norm_label": "045 integral and separable dimensions glyph part2"
+    },
+    {
+      "label": "046 Representing Quantity part1",
+      "file_type": "concept",
+      "source_file": "046_Representing_Quantity_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_103a3922",
+      "community": 3,
+      "norm_label": "046 representing quantity part1"
+    },
+    {
+      "label": "046 Representing Quantity part2",
+      "file_type": "concept",
+      "source_file": "046_Representing_Quantity_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_6e76679f",
+      "community": 3,
+      "norm_label": "046 representing quantity part2"
+    },
+    {
+      "label": "046 Representing Quantity part3",
+      "file_type": "concept",
+      "source_file": "046_Representing_Quantity_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_0529e1b9",
+      "community": 3,
+      "norm_label": "046 representing quantity part3"
+    },
+    {
+      "label": "047 The Searchlight Metaphor and Cortical Ma part1",
+      "file_type": "concept",
+      "source_file": "047_The_Searchlight_Metaphor_and_Cortical_Ma_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_dfc42f32",
+      "community": 3,
+      "norm_label": "047 the searchlight metaphor and cortical ma part1"
+    },
+    {
+      "label": "047 The Searchlight Metaphor and Cortical Ma part2",
+      "file_type": "concept",
+      "source_file": "047_The_Searchlight_Metaphor_and_Cortical_Ma_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5654704e",
+      "community": 8,
+      "norm_label": "047 the searchlight metaphor and cortical ma part2"
+    },
+    {
+      "label": "048 Conclusion",
+      "file_type": "concept",
+      "source_file": "048_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e125c575",
+      "community": 8,
+      "norm_label": "048 conclusion"
+    },
+    {
+      "label": "Chapter Six. Static and Moving Patterns",
+      "file_type": "concept",
+      "source_file": "049_Chapter_Six._Static_and_Moving_Patterns.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_0f261cb8",
+      "community": 8,
+      "norm_label": "chapter six. static and moving patterns"
+    },
+    {
+      "label": "050 Gestalt Laws part1",
+      "file_type": "concept",
+      "source_file": "050_Gestalt_Laws_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9d24cb6a",
+      "community": 8,
+      "norm_label": "050 gestalt laws part1"
+    },
+    {
+      "label": "050 Gestalt Laws part2",
+      "file_type": "concept",
+      "source_file": "050_Gestalt_Laws_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2dfe69de",
+      "community": 8,
+      "norm_label": "050 gestalt laws part2"
+    },
+    {
+      "label": "050 Gestalt Laws part3",
+      "file_type": "concept",
+      "source_file": "050_Gestalt_Laws_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3165c091",
+      "community": 8,
+      "norm_label": "050 gestalt laws part3"
+    },
+    {
+      "label": "050 Gestalt Laws part4",
+      "file_type": "concept",
+      "source_file": "050_Gestalt_Laws_part4.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d33398d8",
+      "community": 8,
+      "norm_label": "050 gestalt laws part4"
+    },
+    {
+      "label": "050 Gestalt Laws part5",
+      "file_type": "concept",
+      "source_file": "050_Gestalt_Laws_part5.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_dc59136c",
+      "community": 8,
+      "norm_label": "050 gestalt laws part5"
+    },
+    {
+      "label": "051 Showing Speed",
+      "file_type": "concept",
+      "source_file": "051_Showing_Speed.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_317a7b26",
+      "community": 8,
+      "norm_label": "051 showing speed"
+    },
+    {
+      "label": "052 Texture Theory and Data Mapping part1",
+      "file_type": "concept",
+      "source_file": "052_Texture_Theory_and_Data_Mapping_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_97b16ba2",
+      "community": 8,
+      "norm_label": "052 texture theory and data mapping part1"
+    },
+    {
+      "label": "052 Texture Theory and Data Mapping part2",
+      "file_type": "concept",
+      "source_file": "052_Texture_Theory_and_Data_Mapping_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a3df8138",
+      "community": 8,
+      "norm_label": "052 texture theory and data mapping part2"
+    },
+    {
+      "label": "052 Texture Theory and Data Mapping part3",
+      "file_type": "concept",
+      "source_file": "052_Texture_Theory_and_Data_Mapping_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_cf8e7583",
+      "community": 8,
+      "norm_label": "052 texture theory and data mapping part3"
+    },
+    {
+      "label": "053 Perception of Transparency with Uniform",
+      "file_type": "concept",
+      "source_file": "053_Perception_of_Transparency_with_Uniform.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_650f2cdb",
+      "community": 2,
+      "norm_label": "053 perception of transparency with uniform"
+    },
+    {
+      "label": "054 Perceiving Patterns in Multidimensional part1",
+      "file_type": "concept",
+      "source_file": "054_Perceiving_Patterns_in_Multidimensional_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9cbc3668",
+      "community": 2,
+      "norm_label": "054 perceiving patterns in multidimensional part1"
+    },
+    {
+      "label": "054 Perceiving Patterns in Multidimensional part2",
+      "file_type": "concept",
+      "source_file": "054_Perceiving_Patterns_in_Multidimensional_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_48008f23",
+      "community": 2,
+      "norm_label": "054 perceiving patterns in multidimensional part2"
+    },
+    {
+      "label": "055 Pattern Perception and Deep Learning part1",
+      "file_type": "concept",
+      "source_file": "055_Pattern_Perception_and_Deep_Learning_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_487c6db6",
+      "community": 2,
+      "norm_label": "055 pattern perception and deep learning part1"
+    },
+    {
+      "label": "055 Pattern Perception and Deep Learning part2",
+      "file_type": "concept",
+      "source_file": "055_Pattern_Perception_and_Deep_Learning_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1147ccca",
+      "community": 2,
+      "norm_label": "055 pattern perception and deep learning part2"
+    },
+    {
+      "label": "056 The Visual Grammar of Node-link Diagrams part1",
+      "file_type": "concept",
+      "source_file": "056_The_Visual_Grammar_of_Node-link_Diagrams_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a3c616d7",
+      "community": 2,
+      "norm_label": "056 the visual grammar of node-link diagrams part1"
+    },
+    {
+      "label": "056 The Visual Grammar of Node-link Diagrams part2",
+      "file_type": "concept",
+      "source_file": "056_The_Visual_Grammar_of_Node-link_Diagrams_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1a1828b7",
+      "community": 2,
+      "norm_label": "056 the visual grammar of node-link diagrams part2"
+    },
+    {
+      "label": "057 The Visual Grammar of Maps",
+      "file_type": "concept",
+      "source_file": "057_The_Visual_Grammar_of_Maps.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b199eaf5",
+      "community": 2,
+      "norm_label": "057 the visual grammar of maps"
+    },
+    {
+      "label": "058 Patterns in Motion part1",
+      "file_type": "concept",
+      "source_file": "058_Patterns_in_Motion_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_981a25e2",
+      "community": 2,
+      "norm_label": "058 patterns in motion part1"
+    },
+    {
+      "label": "058 Patterns in Motion part2",
+      "file_type": "concept",
+      "source_file": "058_Patterns_in_Motion_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d33d2cdd",
+      "community": 2,
+      "norm_label": "058 patterns in motion part2"
+    },
+    {
+      "label": "059 Perception of Animated Motion",
+      "file_type": "concept",
+      "source_file": "059_Perception_of_Animated_Motion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4fce94a6",
+      "community": 2,
+      "norm_label": "059 perception of animated motion"
+    },
+    {
+      "label": "060 The Processes of Pattern Finding",
+      "file_type": "concept",
+      "source_file": "060_The_Processes_of_Pattern_Finding.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_69983539",
+      "community": 2,
+      "norm_label": "060 the processes of pattern finding"
+    },
+    {
+      "label": "Chapter Seven. Space Perception",
+      "file_type": "concept",
+      "source_file": "061_Chapter_Seven._Space_Perception.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_694f95de",
+      "community": 2,
+      "norm_label": "chapter seven. space perception"
+    },
+    {
+      "label": "062 Depth Cue Theory part1",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e05d3a6d",
+      "community": 2,
+      "norm_label": "062 depth cue theory part1"
+    },
+    {
+      "label": "062 Depth Cue Theory part2",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ca39d9d3",
+      "community": 2,
+      "norm_label": "062 depth cue theory part2"
+    },
+    {
+      "label": "062 Depth Cue Theory part3",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_74980069",
+      "community": 2,
+      "norm_label": "062 depth cue theory part3"
+    },
+    {
+      "label": "062 Depth Cue Theory part4",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part4.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f1f33ac0",
+      "community": 2,
+      "norm_label": "062 depth cue theory part4"
+    },
+    {
+      "label": "062 Depth Cue Theory part5",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part5.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d1d0134b",
+      "community": 9,
+      "norm_label": "062 depth cue theory part5"
+    },
+    {
+      "label": "062 Depth Cue Theory part6",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part6.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_eb7566f2",
+      "community": 9,
+      "norm_label": "062 depth cue theory part6"
+    },
+    {
+      "label": "062 Depth Cue Theory part7",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part7.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_25207bc0",
+      "community": 9,
+      "norm_label": "062 depth cue theory part7"
+    },
+    {
+      "label": "062 Depth Cue Theory part8",
+      "file_type": "concept",
+      "source_file": "062_Depth_Cue_Theory_part8.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_8ffaf1e1",
+      "community": 9,
+      "norm_label": "062 depth cue theory part8"
+    },
+    {
+      "label": "063 Depth Cues in Combination",
+      "file_type": "concept",
+      "source_file": "063_Depth_Cues_in_Combination.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_94146cfc",
+      "community": 9,
+      "norm_label": "063 depth cues in combination"
+    },
+    {
+      "label": "064 Task-Based Space Perception",
+      "file_type": "concept",
+      "source_file": "064_Task-Based_Space_Perception.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_750ef1da",
+      "community": 9,
+      "norm_label": "064 task-based space perception"
+    },
+    {
+      "label": "065 Tracing Data Paths in 3D Graphs",
+      "file_type": "concept",
+      "source_file": "065_Tracing_Data_Paths_in_3D_Graphs.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_96598547",
+      "community": 9,
+      "norm_label": "065 tracing data paths in 3d graphs"
+    },
+    {
+      "label": "066 Judging the Morphology of Surfaces part1",
+      "file_type": "concept",
+      "source_file": "066_Judging_the_Morphology_of_Surfaces_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ed53cb9d",
+      "community": 9,
+      "norm_label": "066 judging the morphology of surfaces part1"
+    },
+    {
+      "label": "066 Judging the Morphology of Surfaces part2",
+      "file_type": "concept",
+      "source_file": "066_Judging_the_Morphology_of_Surfaces_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_84fdccb3",
+      "community": 9,
+      "norm_label": "066 judging the morphology of surfaces part2"
+    },
+    {
+      "label": "067 Patterns of Points in 3D Space",
+      "file_type": "concept",
+      "source_file": "067_Patterns_of_Points_in_3D_Space.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_764b7c46",
+      "community": 9,
+      "norm_label": "067 patterns of points in 3d space"
+    },
+    {
+      "label": "068 Perceiving Patterns in 3D Trajectories",
+      "file_type": "concept",
+      "source_file": "068_Perceiving_Patterns_in_3D_Trajectories.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_162844e9",
+      "community": 9,
+      "norm_label": "068 perceiving patterns in 3d trajectories"
+    },
+    {
+      "label": "069 Judging Relative Positions of Objects in",
+      "file_type": "concept",
+      "source_file": "069_Judging_Relative_Positions_of_Objects_in.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_196dceb6",
+      "community": 9,
+      "norm_label": "069 judging relative positions of objects in"
+    },
+    {
+      "label": "070 Judging the Relative Movements of Self W",
+      "file_type": "concept",
+      "source_file": "070_Judging_the_Relative_Movements_of_Self_W.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ea935461",
+      "community": 12,
+      "norm_label": "070 judging the relative movements of self w"
+    },
+    {
+      "label": "071 Selecting and Positioning Objects in 3D",
+      "file_type": "concept",
+      "source_file": "071_Selecting_and_Positioning_Objects_in_3D.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fe4b175a",
+      "community": 12,
+      "norm_label": "071 selecting and positioning objects in 3d"
+    },
+    {
+      "label": "072 Judging the \u201cup\u201d Direction",
+      "file_type": "concept",
+      "source_file": "072_Judging_the_\u201cup\u201d_Direction.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a1afab6d",
+      "community": 12,
+      "norm_label": "072 judging the \u201cup\u201d direction"
+    },
+    {
+      "label": "073 The Aesthetic Impression of 3D Space (Pr",
+      "file_type": "concept",
+      "source_file": "073_The_Aesthetic_Impression_of_3D_Space_(Pr.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b47733e1",
+      "community": 12,
+      "norm_label": "073 the aesthetic impression of 3d space (pr"
+    },
+    {
+      "label": "074 Conclusion",
+      "file_type": "concept",
+      "source_file": "074_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2d2de21e",
+      "community": 12,
+      "norm_label": "074 conclusion"
+    },
+    {
+      "label": "Chapter Eight. Visual Objects and Data Objects",
+      "file_type": "concept",
+      "source_file": "075_Chapter_Eight._Visual_Objects_and_Data_O.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_05fb3b28",
+      "community": 12,
+      "norm_label": "chapter eight. visual objects and data objects"
+    },
+    {
+      "label": "076 Image-Based Object Recognition part1",
+      "file_type": "concept",
+      "source_file": "076_Image-Based_Object_Recognition_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a786ebc0",
+      "community": 12,
+      "norm_label": "076 image-based object recognition part1"
+    },
+    {
+      "label": "076 Image-Based Object Recognition part2",
+      "file_type": "concept",
+      "source_file": "076_Image-Based_Object_Recognition_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9d96aadf",
+      "community": 12,
+      "norm_label": "076 image-based object recognition part2"
+    },
+    {
+      "label": "077 Structure-Based Object Recognition",
+      "file_type": "concept",
+      "source_file": "077_Structure-Based_Object_Recognition.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_6e197c25",
+      "community": 12,
+      "norm_label": "077 structure-based object recognition"
+    },
+    {
+      "label": "078 The Object Display and Object-Based Diag part1",
+      "file_type": "concept",
+      "source_file": "078_The_Object_Display_and_Object-Based_Diag_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_57c226ac",
+      "community": 12,
+      "norm_label": "078 the object display and object-based diag part1"
+    },
+    {
+      "label": "078 The Object Display and Object-Based Diag part2",
+      "file_type": "concept",
+      "source_file": "078_The_Object_Display_and_Object-Based_Diag_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_6be25bd3",
+      "community": 12,
+      "norm_label": "078 the object display and object-based diag part2"
+    },
+    {
+      "label": "079 3D Glyphs",
+      "file_type": "concept",
+      "source_file": "079_3D_Glyphs.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f1310d24",
+      "community": 10,
+      "norm_label": "079 3d glyphs"
+    },
+    {
+      "label": "080 Faces",
+      "file_type": "concept",
+      "source_file": "080_Faces.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_215acaa3",
+      "community": 10,
+      "norm_label": "080 faces"
+    },
+    {
+      "label": "081 Coding Words and Images",
+      "file_type": "concept",
+      "source_file": "081_Coding_Words_and_Images.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d3fdf4a5",
+      "community": 10,
+      "norm_label": "081 coding words and images"
+    },
+    {
+      "label": "082 Labels and Concepts part1",
+      "file_type": "concept",
+      "source_file": "082_Labels_and_Concepts_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_41c6bd0b",
+      "community": 10,
+      "norm_label": "082 labels and concepts part1"
+    },
+    {
+      "label": "082 Labels and Concepts part2",
+      "file_type": "concept",
+      "source_file": "082_Labels_and_Concepts_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_580fa146",
+      "community": 10,
+      "norm_label": "082 labels and concepts part2"
+    },
+    {
+      "label": "083 Concept Mapping",
+      "file_type": "concept",
+      "source_file": "083_Concept_Mapping.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d79e53eb",
+      "community": 10,
+      "norm_label": "083 concept mapping"
+    },
+    {
+      "label": "084 Iconic Images versus Words versus Abstra",
+      "file_type": "concept",
+      "source_file": "084_Iconic_Images_versus_Words_versus_Abstra.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3f3ffbf9",
+      "community": 10,
+      "norm_label": "084 iconic images versus words versus abstra"
+    },
+    {
+      "label": "085 Scenes and Scene Gist",
+      "file_type": "concept",
+      "source_file": "085_Scenes_and_Scene_Gist.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7cda21fa",
+      "community": 10,
+      "norm_label": "085 scenes and scene gist"
+    },
+    {
+      "label": "086 Conclusion",
+      "file_type": "concept",
+      "source_file": "086_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f6bfd163",
+      "community": 10,
+      "norm_label": "086 conclusion"
+    },
+    {
+      "label": "Chapter Nine. Images, Narrative, and Gestures for Explanation",
+      "file_type": "concept",
+      "source_file": "087_Chapter_Nine._Images,_Narrative,_and_Ges.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_65c1d20a",
+      "community": 10,
+      "norm_label": "chapter nine. images, narrative, and gestures for explanation"
+    },
+    {
+      "label": "088 The Nature of Language part1",
+      "file_type": "concept",
+      "source_file": "088_The_Nature_of_Language_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_48bf0d2f",
+      "community": 10,
+      "norm_label": "088 the nature of language part1"
+    },
+    {
+      "label": "088 The Nature of Language part2",
+      "file_type": "concept",
+      "source_file": "088_The_Nature_of_Language_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c9a7523f",
+      "community": 10,
+      "norm_label": "088 the nature of language part2"
+    },
+    {
+      "label": "088 The Nature of Language part3",
+      "file_type": "concept",
+      "source_file": "088_The_Nature_of_Language_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9b809528",
+      "community": 1,
+      "norm_label": "088 the nature of language part3"
+    },
+    {
+      "label": "089 Integrating Visual and Verbal and the Na part1",
+      "file_type": "concept",
+      "source_file": "089_Integrating_Visual_and_Verbal_and_the_Na_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_8a7fdee8",
+      "community": 1,
+      "norm_label": "089 integrating visual and verbal and the na part1"
+    },
+    {
+      "label": "089 Integrating Visual and Verbal and the Na part2",
+      "file_type": "concept",
+      "source_file": "089_Integrating_Visual_and_Verbal_and_the_Na_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_608647fd",
+      "community": 1,
+      "norm_label": "089 integrating visual and verbal and the na part2"
+    },
+    {
+      "label": "090 Animated versus Static Presentations",
+      "file_type": "concept",
+      "source_file": "090_Animated_versus_Static_Presentations.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7835de0b",
+      "community": 1,
+      "norm_label": "090 animated versus static presentations"
+    },
+    {
+      "label": "091 Visual Narrative for Explanation",
+      "file_type": "concept",
+      "source_file": "091_Visual_Narrative_for_Explanation.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_8ffd82ed",
+      "community": 1,
+      "norm_label": "091 visual narrative for explanation"
+    },
+    {
+      "label": "092 Introduction and Initial Framing part1",
+      "file_type": "concept",
+      "source_file": "092_Introduction_and_Initial_Framing_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_85b9d9b8",
+      "community": 1,
+      "norm_label": "092 introduction and initial framing part1"
+    },
+    {
+      "label": "092 Introduction and Initial Framing part2",
+      "file_type": "concept",
+      "source_file": "092_Introduction_and_Initial_Framing_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_97e539a2",
+      "community": 1,
+      "norm_label": "092 introduction and initial framing part2"
+    },
+    {
+      "label": "092 Introduction and Initial Framing part3",
+      "file_type": "concept",
+      "source_file": "092_Introduction_and_Initial_Framing_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_088fa19e",
+      "community": 1,
+      "norm_label": "092 introduction and initial framing part3"
+    },
+    {
+      "label": "093 Conclusion",
+      "file_type": "concept",
+      "source_file": "093_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f4368461",
+      "community": 1,
+      "norm_label": "093 conclusion"
+    },
+    {
+      "label": "Chapter Ten. Interacting with Visualizations",
+      "file_type": "concept",
+      "source_file": "094_Chapter_Ten._Interacting_with_Visualizat.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1ecc8c9b",
+      "community": 1,
+      "norm_label": "chapter ten. interacting with visualizations"
+    },
+    {
+      "label": "095 Data Selection and Manipulation Loop part1",
+      "file_type": "concept",
+      "source_file": "095_Data_Selection_and_Manipulation_Loop_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_77918cf0",
+      "community": 1,
+      "norm_label": "095 data selection and manipulation loop part1"
+    },
+    {
+      "label": "095 Data Selection and Manipulation Loop part2",
+      "file_type": "concept",
+      "source_file": "095_Data_Selection_and_Manipulation_Loop_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a67dcf0a",
+      "community": 1,
+      "norm_label": "095 data selection and manipulation loop part2"
+    },
+    {
+      "label": "095 Data Selection and Manipulation Loop part3",
+      "file_type": "concept",
+      "source_file": "095_Data_Selection_and_Manipulation_Loop_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_710ea69d",
+      "community": 1,
+      "norm_label": "095 data selection and manipulation loop part3"
+    },
+    {
+      "label": "096 Exploration and Navigation Loop part1",
+      "file_type": "concept",
+      "source_file": "096_Exploration_and_Navigation_Loop_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d0026cbb",
+      "community": 1,
+      "norm_label": "096 exploration and navigation loop part1"
+    },
+    {
+      "label": "096 Exploration and Navigation Loop part2",
+      "file_type": "concept",
+      "source_file": "096_Exploration_and_Navigation_Loop_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fcbd3f35",
+      "community": 1,
+      "norm_label": "096 exploration and navigation loop part2"
+    },
+    {
+      "label": "096 Exploration and Navigation Loop part3",
+      "file_type": "concept",
+      "source_file": "096_Exploration_and_Navigation_Loop_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4d0a587f",
+      "community": 1,
+      "norm_label": "096 exploration and navigation loop part3"
+    },
+    {
+      "label": "096 Exploration and Navigation Loop part4",
+      "file_type": "concept",
+      "source_file": "096_Exploration_and_Navigation_Loop_part4.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f0c54a53",
+      "community": 1,
+      "norm_label": "096 exploration and navigation loop part4"
+    },
+    {
+      "label": "097 Interfaces with less Literal Metaphors part1",
+      "file_type": "concept",
+      "source_file": "097_Interfaces_with_less_Literal_Metaphors_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_871ffe7d",
+      "community": 7,
+      "norm_label": "097 interfaces with less literal metaphors part1"
+    },
+    {
+      "label": "097 Interfaces with less Literal Metaphors part2",
+      "file_type": "concept",
+      "source_file": "097_Interfaces_with_less_Literal_Metaphors_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_6a70385d",
+      "community": 7,
+      "norm_label": "097 interfaces with less literal metaphors part2"
+    },
+    {
+      "label": "098 Nonmetaphoric Interactions with Nonspati",
+      "file_type": "concept",
+      "source_file": "098_Nonmetaphoric_Interactions_with_Nonspati.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_724b2d7f",
+      "community": 7,
+      "norm_label": "098 nonmetaphoric interactions with nonspati"
+    },
+    {
+      "label": "099 Network Zooming",
+      "file_type": "concept",
+      "source_file": "099_Network_Zooming.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a123f8ac",
+      "community": 7,
+      "norm_label": "099 network zooming"
+    },
+    {
+      "label": "100 Conclusion",
+      "file_type": "concept",
+      "source_file": "100_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4a876149",
+      "community": 0,
+      "norm_label": "100 conclusion"
+    },
+    {
+      "label": "Chapter Eleven. Thinking With Visualizations",
+      "file_type": "concept",
+      "source_file": "101_Chapter_Eleven._Thinking_With_Visualizat.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_26de42ac",
+      "community": 0,
+      "norm_label": "chapter eleven. thinking with visualizations"
+    },
+    {
+      "label": "102 The Cognitive System",
+      "file_type": "concept",
+      "source_file": "102_The_Cognitive_System.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_960dba97",
+      "community": 0,
+      "norm_label": "102 the cognitive system"
+    },
+    {
+      "label": "103 The Predicting Brain",
+      "file_type": "concept",
+      "source_file": "103_The_Predicting_Brain.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d562485b",
+      "community": 0,
+      "norm_label": "103 the predicting brain"
+    },
+    {
+      "label": "104 Memory and Attention part1",
+      "file_type": "concept",
+      "source_file": "104_Memory_and_Attention_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_01ed841a",
+      "community": 0,
+      "norm_label": "104 memory and attention part1"
+    },
+    {
+      "label": "104 Memory and Attention part2",
+      "file_type": "concept",
+      "source_file": "104_Memory_and_Attention_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_8f1c927d",
+      "community": 0,
+      "norm_label": "104 memory and attention part2"
+    },
+    {
+      "label": "104 Memory and Attention part3",
+      "file_type": "concept",
+      "source_file": "104_Memory_and_Attention_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5c790d68",
+      "community": 0,
+      "norm_label": "104 memory and attention part3"
+    },
+    {
+      "label": "104 Memory and Attention part4",
+      "file_type": "concept",
+      "source_file": "104_Memory_and_Attention_part4.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b2813db2",
+      "community": 0,
+      "norm_label": "104 memory and attention part4"
+    },
+    {
+      "label": "104 Memory and Attention part5",
+      "file_type": "concept",
+      "source_file": "104_Memory_and_Attention_part5.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_aa9f5093",
+      "community": 0,
+      "norm_label": "104 memory and attention part5"
+    },
+    {
+      "label": "105 Visualizations and Mental Images",
+      "file_type": "concept",
+      "source_file": "105_Visualizations_and_Mental_Images.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4760844c",
+      "community": 0,
+      "norm_label": "105 visualizations and mental images"
+    },
+    {
+      "label": "106 Long-Term Episodic Memory and World Mode",
+      "file_type": "concept",
+      "source_file": "106_Long-Term_Episodic_Memory_and_World_Mode.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e4944b2d",
+      "community": 0,
+      "norm_label": "106 long-term episodic memory and world mode"
+    },
+    {
+      "label": "107 Knowledge Formation part1",
+      "file_type": "concept",
+      "source_file": "107_Knowledge_Formation_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d4d2dfd1",
+      "community": 0,
+      "norm_label": "107 knowledge formation part1"
+    },
+    {
+      "label": "107 Knowledge Formation part2",
+      "file_type": "concept",
+      "source_file": "107_Knowledge_Formation_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1d63e90d",
+      "community": 0,
+      "norm_label": "107 knowledge formation part2"
+    },
+    {
+      "label": "108 Cognitive Biases and Automatic Processin part1",
+      "file_type": "concept",
+      "source_file": "108_Cognitive_Biases_and_Automatic_Processin_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_29a724f7",
+      "community": 0,
+      "norm_label": "108 cognitive biases and automatic processin part1"
+    },
+    {
+      "label": "108 Cognitive Biases and Automatic Processin part2",
+      "file_type": "concept",
+      "source_file": "108_Cognitive_Biases_and_Automatic_Processin_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_880f9d46",
+      "community": 0,
+      "norm_label": "108 cognitive biases and automatic processin part2"
+    },
+    {
+      "label": "109 Review of Visual Cognitive System Compon",
+      "file_type": "concept",
+      "source_file": "109_Review_of_Visual_Cognitive_System_Compon.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_406d3ec2",
+      "community": 0,
+      "norm_label": "109 review of visual cognitive system compon"
+    },
+    {
+      "label": "Chapter Twelve. Designing Cognitively Efficient Visualizations",
+      "file_type": "concept",
+      "source_file": "110_Chapter_Twelve._Designing_Cognitively_Ef.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c144be3c",
+      "community": 0,
+      "norm_label": "chapter twelve. designing cognitively efficient visualizations"
+    },
+    {
+      "label": "111 The Process",
+      "file_type": "concept",
+      "source_file": "111_The_Process.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_093b6612",
+      "community": 6,
+      "norm_label": "111 the process"
+    },
+    {
+      "label": "112 Step 1 High-Level Cognitive Task Descrip",
+      "file_type": "concept",
+      "source_file": "112_Step_1_High-Level_Cognitive_Task_Descrip.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7b96fde9",
+      "community": 6,
+      "norm_label": "112 step 1 high-level cognitive task descrip"
+    },
+    {
+      "label": "113 Step 2 Data Inventory",
+      "file_type": "concept",
+      "source_file": "113_Step_2_Data_Inventory.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_21632b93",
+      "community": 6,
+      "norm_label": "113 step 2 data inventory"
+    },
+    {
+      "label": "114 Step 3 Cognitive Task Refinement",
+      "file_type": "concept",
+      "source_file": "114_Step_3_Cognitive_Task_Refinement.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_199e6b1f",
+      "community": 6,
+      "norm_label": "114 step 3 cognitive task refinement"
+    },
+    {
+      "label": "115 Step 4 Identification of Appropriate Vis part1",
+      "file_type": "concept",
+      "source_file": "115_Step_4_Identification_of_Appropriate_Vis_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e62b1f0c",
+      "community": 6,
+      "norm_label": "115 step 4 identification of appropriate vis part1"
+    },
+    {
+      "label": "115 Step 4 Identification of Appropriate Vis part2",
+      "file_type": "concept",
+      "source_file": "115_Step_4_Identification_of_Appropriate_Vis_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_906f99cd",
+      "community": 6,
+      "norm_label": "115 step 4 identification of appropriate vis part2"
+    },
+    {
+      "label": "116 Step 5. Applying Visual Thinking Design",
+      "file_type": "concept",
+      "source_file": "116_Step_5._Applying_Visual_Thinking_Design.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b0e3eba9",
+      "community": 6,
+      "norm_label": "116 step 5. applying visual thinking design"
+    },
+    {
+      "label": "117 Visual Monitoring",
+      "file_type": "concept",
+      "source_file": "117_Visual_Monitoring.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_877e9a97",
+      "community": 6,
+      "norm_label": "117 visual monitoring"
+    },
+    {
+      "label": "118 Drill Down",
+      "file_type": "concept",
+      "source_file": "118_Drill_Down.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_55f1405a",
+      "community": 6,
+      "norm_label": "118 drill down"
+    },
+    {
+      "label": "119 Find Local Patterns in Small to Medium-S",
+      "file_type": "concept",
+      "source_file": "119_Find_Local_Patterns_in_Small_to_Medium-S.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_479c41ae",
+      "community": 6,
+      "norm_label": "119 find local patterns in small to medium-s"
+    },
+    {
+      "label": "120 Seed-then-Grow",
+      "file_type": "concept",
+      "source_file": "120_Seed-then-Grow.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7826bd4d",
+      "community": 6,
+      "norm_label": "120 seed-then-grow"
+    },
+    {
+      "label": "121 Pattern Comparisons in a Large Informati",
+      "file_type": "concept",
+      "source_file": "121_Pattern_Comparisons_in_a_Large_Informati.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_23d802b3",
+      "community": 6,
+      "norm_label": "121 pattern comparisons in a large informati"
+    },
+    {
+      "label": "122 Cross-View Brushing",
+      "file_type": "concept",
+      "source_file": "122_Cross-View_Brushing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_693610db",
+      "community": 6,
+      "norm_label": "122 cross-view brushing"
+    },
+    {
+      "label": "123 Dynamic Queries",
+      "file_type": "concept",
+      "source_file": "123_Dynamic_Queries.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2a373f90",
+      "community": 4,
+      "norm_label": "123 dynamic queries"
+    },
+    {
+      "label": "124 Model-Based Interactive Planning",
+      "file_type": "concept",
+      "source_file": "124_Model-Based_Interactive_Planning.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_26bf664f",
+      "community": 4,
+      "norm_label": "124 model-based interactive planning"
+    },
+    {
+      "label": "125 Step 6 Prototype Development",
+      "file_type": "concept",
+      "source_file": "125_Step_6_Prototype_Development.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_216337bd",
+      "community": 4,
+      "norm_label": "125 step 6 prototype development"
+    },
+    {
+      "label": "126 Step 7 Evaluation and Design Refinement",
+      "file_type": "concept",
+      "source_file": "126_Step_7_Evaluation_and_Design_Refinement.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_0bfef754",
+      "community": 4,
+      "norm_label": "126 step 7 evaluation and design refinement"
+    },
+    {
+      "label": "127 Conclusion",
+      "file_type": "concept",
+      "source_file": "127_Conclusion.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3a4e6ddc",
+      "community": 4,
+      "norm_label": "127 conclusion"
+    },
+    {
+      "label": "128 Useful Textbook References",
+      "file_type": "concept",
+      "source_file": "128_Useful_Textbook_References.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b51268f9",
+      "community": 4,
+      "norm_label": "128 useful textbook references"
+    },
+    {
+      "label": "Appendix A. Changing Primaries",
+      "file_type": "concept",
+      "source_file": "129_Appendix_A._Changing_Primaries.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fe9c765b",
+      "community": 4,
+      "norm_label": "appendix a. changing primaries"
+    },
+    {
+      "label": "Appendix B. CIE Color Measurement System",
+      "file_type": "concept",
+      "source_file": "130_Appendix_B._CIE_Color_Measurement_System.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_86f19fff",
+      "community": 4,
+      "norm_label": "appendix b. cie color measurement system"
+    },
+    {
+      "label": "Appendix C. Guidelines",
+      "file_type": "concept",
+      "source_file": "131_Appendix_C._Guidelines_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a6d6ffa9",
+      "community": 4,
+      "norm_label": "appendix c. guidelines"
+    },
+    {
+      "label": "131 Appendix C. Guidelines part2",
+      "file_type": "concept",
+      "source_file": "131_Appendix_C._Guidelines_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_35df14b2",
+      "community": 4,
+      "norm_label": "131 appendix c. guidelines part2"
+    },
+    {
+      "label": "131 Appendix C. Guidelines part3",
+      "file_type": "concept",
+      "source_file": "131_Appendix_C._Guidelines_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1f7ae9e7",
+      "community": 4,
+      "norm_label": "131 appendix c. guidelines part3"
+    },
+    {
+      "label": "131 Appendix C. Guidelines part4",
+      "file_type": "concept",
+      "source_file": "131_Appendix_C._Guidelines_part4.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_aa201c0a",
+      "community": 4,
+      "norm_label": "131 appendix c. guidelines part4"
+    },
+    {
+      "label": "131 Appendix C. Guidelines part5",
+      "file_type": "concept",
+      "source_file": "131_Appendix_C._Guidelines_part5.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b027ebf9",
+      "community": 4,
+      "norm_label": "131 appendix c. guidelines part5"
+    },
+    {
+      "label": "131 Appendix C. Guidelines part6",
+      "file_type": "concept",
+      "source_file": "131_Appendix_C._Guidelines_part6.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ee1a380a",
+      "community": 4,
+      "norm_label": "131 appendix c. guidelines part6"
+    }
+  ],
+  "links": [
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "002_Title_page.md",
+      "source": "file_1436aa81",
+      "target": "file_0a16ed4f"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_0a16ed4f",
+      "target": "file_1436aa81"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_0a16ed4f",
+      "target": "file_2355d0dd"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_0a16ed4f",
+      "target": "file_42174134"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_0a16ed4f",
+      "target": "file_7ac2026b"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_0a16ed4f",
+      "target": "file_f1374401"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "003_Table_of_Contents.md",
+      "source": "file_42174134",
+      "target": "file_1436aa81"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "003_Table_of_Contents.md",
+      "source": "file_42174134",
+      "target": "file_2355d0dd"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "003_Table_of_Contents.md",
+      "source": "file_42174134",
+      "target": "file_7ac2026b"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "003_Table_of_Contents.md",
+      "source": "file_42174134",
+      "target": "file_f1374401"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "005_Preface_part1.md",
+      "source": "file_f1374401",
+      "target": "file_2355d0dd"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "005_Preface_part1.md",
+      "source": "file_2355d0dd",
+      "target": "file_0a16ed4f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "005_Preface_part2.md",
+      "source": "file_2355d0dd",
+      "target": "file_103a91cf"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "005_Preface_part2.md",
+      "source": "file_103a91cf",
+      "target": "file_2355d0dd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "005_Preface_part3.md",
+      "source": "file_103a91cf",
+      "target": "file_42765b62"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "005_Preface_part3.md",
+      "source": "file_42765b62",
+      "target": "file_2355d0dd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "006_About_the_Author.md",
+      "source": "file_42765b62",
+      "target": "file_7ac2026b"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "006_About_the_Author.md",
+      "source": "file_7ac2026b",
+      "target": "file_0a16ed4f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "007_Chapter_One._Foundations_for_an_Applied.md",
+      "source": "file_7ac2026b",
+      "target": "file_57734462"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "008_Visualization_Stages.md",
+      "source": "file_57734462",
+      "target": "file_2ca0f14c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "009_Experimental_Semiotics_Based_on_Percepti.md",
+      "source": "file_2ca0f14c",
+      "target": "file_4b77e5f8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "010_Semiotics_of_Graphics_part1.md",
+      "source": "file_4b77e5f8",
+      "target": "file_5f33a80c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "010_Semiotics_of_Graphics_part2.md",
+      "source": "file_5f33a80c",
+      "target": "file_3fea7134"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "011_Sensory_versus_Arbitrary_Symbols_part1.md",
+      "source": "file_3fea7134",
+      "target": "file_4a018756"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "011_Sensory_versus_Arbitrary_Symbols_part2.md",
+      "source": "file_4a018756",
+      "target": "file_a74dcee0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "011_Sensory_versus_Arbitrary_Symbols_part3.md",
+      "source": "file_a74dcee0",
+      "target": "file_e95632a9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "012_Gibson\u2019s_Affordance_Theory.md",
+      "source": "file_e95632a9",
+      "target": "file_40f82fd6"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "013_A_Model_of_Perceptual_Processing.md",
+      "source": "file_40f82fd6",
+      "target": "file_e1ce25a0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "014_Costs_and_Benefits_of_Visualization.md",
+      "source": "file_e1ce25a0",
+      "target": "file_9bc7c177"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "015_Types_of_Data_part1.md",
+      "source": "file_9bc7c177",
+      "target": "file_30a21d63"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "015_Types_of_Data_part2.md",
+      "source": "file_30a21d63",
+      "target": "file_0acc6333"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "016_Metadata.md",
+      "source": "file_0acc6333",
+      "target": "file_3848078b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "017_Conclusion.md",
+      "source": "file_3848078b",
+      "target": "file_aa694ea0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "018_Chapter_Two._The_Environment,_Optics,_Re.md",
+      "source": "file_aa694ea0",
+      "target": "file_e7392200"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "019_The_Environment_part1.md",
+      "source": "file_e7392200",
+      "target": "file_00577ad9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "019_The_Environment_part2.md",
+      "source": "file_00577ad9",
+      "target": "file_efc70c90"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "019_The_Environment_part3.md",
+      "source": "file_efc70c90",
+      "target": "file_75d6e8a0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "020_The_Eye_part1.md",
+      "source": "file_75d6e8a0",
+      "target": "file_07d83198"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "020_The_Eye_part2.md",
+      "source": "file_07d83198",
+      "target": "file_54f86674"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "020_The_Eye_part3.md",
+      "source": "file_54f86674",
+      "target": "file_e503577c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "020_The_Eye_part4.md",
+      "source": "file_e503577c",
+      "target": "file_b9b147d7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "020_The_Eye_part5.md",
+      "source": "file_b9b147d7",
+      "target": "file_ba0e09d3"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "020_The_Eye_part6.md",
+      "source": "file_ba0e09d3",
+      "target": "file_f1a2418e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "021_The_Optimal_Display_part1.md",
+      "source": "file_f1a2418e",
+      "target": "file_c6d9eb9e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "021_The_Optimal_Display_part2.md",
+      "source": "file_c6d9eb9e",
+      "target": "file_f5e77b4e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "022_Conclusion.md",
+      "source": "file_f5e77b4e",
+      "target": "file_1591b997"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "023_Chapter_Three._Lightness,_Brightness,_Co.md",
+      "source": "file_1591b997",
+      "target": "file_e072850f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "024_Neurons,_Receptive_Fields,_and_Brightnes_part1.md",
+      "source": "file_e072850f",
+      "target": "file_33659350"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "024_Neurons,_Receptive_Fields,_and_Brightnes_part2.md",
+      "source": "file_33659350",
+      "target": "file_71272cc1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "025_Luminance,_Brightness,_Lightness,_and_Ga_part1.md",
+      "source": "file_71272cc1",
+      "target": "file_8eeb9b7b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "025_Luminance,_Brightness,_Lightness,_and_Ga_part2.md",
+      "source": "file_8eeb9b7b",
+      "target": "file_fb3cc937"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "025_Luminance,_Brightness,_Lightness,_and_Ga_part3.md",
+      "source": "file_fb3cc937",
+      "target": "file_62e3cc9a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "026_Perception_of_Surface_Lightness.md",
+      "source": "file_62e3cc9a",
+      "target": "file_278573f1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "027_Monitor_Illumination_and_Monitor_Surroun.md",
+      "source": "file_278573f1",
+      "target": "file_09f68b68"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "028_Conclusion.md",
+      "source": "file_09f68b68",
+      "target": "file_4af31cff"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "029_Chapter_Four._Color.md",
+      "source": "file_4af31cff",
+      "target": "file_56473593"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "030_Trichromacy_Theory.md",
+      "source": "file_56473593",
+      "target": "file_8f846df5"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "031_Color_Measurement_part1.md",
+      "source": "file_8f846df5",
+      "target": "file_34de2d90"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "031_Color_Measurement_part2.md",
+      "source": "file_34de2d90",
+      "target": "file_cd435239"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "031_Color_Measurement_part3.md",
+      "source": "file_cd435239",
+      "target": "file_318ebef5"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "032_Opponent_Process_Theory.md",
+      "source": "file_318ebef5",
+      "target": "file_c2cb6fcd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "033_Properties_of_Color_Channels.md",
+      "source": "file_c2cb6fcd",
+      "target": "file_be05dfaa"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "034_Color_Appearance_part1.md",
+      "source": "file_be05dfaa",
+      "target": "file_83eec0ca"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "034_Color_Appearance_part2.md",
+      "source": "file_83eec0ca",
+      "target": "file_824f3712"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "035_Applications_of_Color_in_Visualization.md",
+      "source": "file_824f3712",
+      "target": "file_7a1fe559"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "036_Application_1_Color_Specification_Interf_part1.md",
+      "source": "file_7a1fe559",
+      "target": "file_36c6ac7b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "036_Application_1_Color_Specification_Interf_part2.md",
+      "source": "file_36c6ac7b",
+      "target": "file_2e6ed547"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "037_Application_2_Color_for_Labeling_(Nomina_part1.md",
+      "source": "file_2e6ed547",
+      "target": "file_145d6d81"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "037_Application_2_Color_for_Labeling_(Nomina_part2.md",
+      "source": "file_145d6d81",
+      "target": "file_20b9e454"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "038_Application_3_Pseudocolor_Sequences_for_part1.md",
+      "source": "file_20b9e454",
+      "target": "file_a7960817"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "038_Application_3_Pseudocolor_Sequences_for_part2.md",
+      "source": "file_a7960817",
+      "target": "file_4234f970"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "038_Application_3_Pseudocolor_Sequences_for_part3.md",
+      "source": "file_4234f970",
+      "target": "file_2b493ffc"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "039_Application_4_Color_Reproduction.md",
+      "source": "file_2b493ffc",
+      "target": "file_3dd9aad5"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "040_Conclusion.md",
+      "source": "file_3dd9aad5",
+      "target": "file_733e660b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "041_Chapter_Five._Visual_Salience_Finding_an.md",
+      "source": "file_733e660b",
+      "target": "file_8248599b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "042_Eye_Movements.md",
+      "source": "file_8248599b",
+      "target": "file_20d183c0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "043_V1,_Channels,_and_Tuned_Receptors_part1.md",
+      "source": "file_20d183c0",
+      "target": "file_043824ad"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "043_V1,_Channels,_and_Tuned_Receptors_part2.md",
+      "source": "file_043824ad",
+      "target": "file_f8942e65"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "043_V1,_Channels,_and_Tuned_Receptors_part3.md",
+      "source": "file_f8942e65",
+      "target": "file_16e938a1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "044_Preattentive_Processing_and_Ease_of_Sear_part1.md",
+      "source": "file_16e938a1",
+      "target": "file_e3369927"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "044_Preattentive_Processing_and_Ease_of_Sear_part2.md",
+      "source": "file_e3369927",
+      "target": "file_4385e550"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "044_Preattentive_Processing_and_Ease_of_Sear_part3.md",
+      "source": "file_4385e550",
+      "target": "file_25efb216"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "045_Integral_and_Separable_Dimensions_Glyph_part1.md",
+      "source": "file_25efb216",
+      "target": "file_7fb5e9af"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "045_Integral_and_Separable_Dimensions_Glyph_part2.md",
+      "source": "file_7fb5e9af",
+      "target": "file_19f4cbe7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "046_Representing_Quantity_part1.md",
+      "source": "file_19f4cbe7",
+      "target": "file_103a3922"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "046_Representing_Quantity_part2.md",
+      "source": "file_103a3922",
+      "target": "file_6e76679f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "046_Representing_Quantity_part3.md",
+      "source": "file_6e76679f",
+      "target": "file_0529e1b9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "047_The_Searchlight_Metaphor_and_Cortical_Ma_part1.md",
+      "source": "file_0529e1b9",
+      "target": "file_dfc42f32"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "047_The_Searchlight_Metaphor_and_Cortical_Ma_part2.md",
+      "source": "file_dfc42f32",
+      "target": "file_5654704e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "048_Conclusion.md",
+      "source": "file_5654704e",
+      "target": "file_e125c575"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "049_Chapter_Six._Static_and_Moving_Patterns.md",
+      "source": "file_e125c575",
+      "target": "file_0f261cb8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "050_Gestalt_Laws_part1.md",
+      "source": "file_0f261cb8",
+      "target": "file_9d24cb6a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "050_Gestalt_Laws_part2.md",
+      "source": "file_9d24cb6a",
+      "target": "file_2dfe69de"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "050_Gestalt_Laws_part3.md",
+      "source": "file_2dfe69de",
+      "target": "file_3165c091"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "050_Gestalt_Laws_part4.md",
+      "source": "file_3165c091",
+      "target": "file_d33398d8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "050_Gestalt_Laws_part5.md",
+      "source": "file_d33398d8",
+      "target": "file_dc59136c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "051_Showing_Speed.md",
+      "source": "file_dc59136c",
+      "target": "file_317a7b26"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "052_Texture_Theory_and_Data_Mapping_part1.md",
+      "source": "file_317a7b26",
+      "target": "file_97b16ba2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "052_Texture_Theory_and_Data_Mapping_part2.md",
+      "source": "file_97b16ba2",
+      "target": "file_a3df8138"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "052_Texture_Theory_and_Data_Mapping_part3.md",
+      "source": "file_a3df8138",
+      "target": "file_cf8e7583"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "053_Perception_of_Transparency_with_Uniform.md",
+      "source": "file_cf8e7583",
+      "target": "file_650f2cdb"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "054_Perceiving_Patterns_in_Multidimensional_part1.md",
+      "source": "file_650f2cdb",
+      "target": "file_9cbc3668"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "054_Perceiving_Patterns_in_Multidimensional_part2.md",
+      "source": "file_9cbc3668",
+      "target": "file_48008f23"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "055_Pattern_Perception_and_Deep_Learning_part1.md",
+      "source": "file_48008f23",
+      "target": "file_487c6db6"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "055_Pattern_Perception_and_Deep_Learning_part2.md",
+      "source": "file_487c6db6",
+      "target": "file_1147ccca"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "056_The_Visual_Grammar_of_Node-link_Diagrams_part1.md",
+      "source": "file_1147ccca",
+      "target": "file_a3c616d7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "056_The_Visual_Grammar_of_Node-link_Diagrams_part2.md",
+      "source": "file_a3c616d7",
+      "target": "file_1a1828b7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "057_The_Visual_Grammar_of_Maps.md",
+      "source": "file_1a1828b7",
+      "target": "file_b199eaf5"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "058_Patterns_in_Motion_part1.md",
+      "source": "file_b199eaf5",
+      "target": "file_981a25e2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "058_Patterns_in_Motion_part2.md",
+      "source": "file_981a25e2",
+      "target": "file_d33d2cdd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "059_Perception_of_Animated_Motion.md",
+      "source": "file_d33d2cdd",
+      "target": "file_4fce94a6"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "060_The_Processes_of_Pattern_Finding.md",
+      "source": "file_4fce94a6",
+      "target": "file_69983539"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "061_Chapter_Seven._Space_Perception.md",
+      "source": "file_69983539",
+      "target": "file_694f95de"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part1.md",
+      "source": "file_694f95de",
+      "target": "file_e05d3a6d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part2.md",
+      "source": "file_e05d3a6d",
+      "target": "file_ca39d9d3"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part3.md",
+      "source": "file_ca39d9d3",
+      "target": "file_74980069"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part4.md",
+      "source": "file_74980069",
+      "target": "file_f1f33ac0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part5.md",
+      "source": "file_f1f33ac0",
+      "target": "file_d1d0134b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part6.md",
+      "source": "file_d1d0134b",
+      "target": "file_eb7566f2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part7.md",
+      "source": "file_eb7566f2",
+      "target": "file_25207bc0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "062_Depth_Cue_Theory_part8.md",
+      "source": "file_25207bc0",
+      "target": "file_8ffaf1e1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "063_Depth_Cues_in_Combination.md",
+      "source": "file_8ffaf1e1",
+      "target": "file_94146cfc"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "064_Task-Based_Space_Perception.md",
+      "source": "file_94146cfc",
+      "target": "file_750ef1da"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "065_Tracing_Data_Paths_in_3D_Graphs.md",
+      "source": "file_750ef1da",
+      "target": "file_96598547"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "066_Judging_the_Morphology_of_Surfaces_part1.md",
+      "source": "file_96598547",
+      "target": "file_ed53cb9d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "066_Judging_the_Morphology_of_Surfaces_part2.md",
+      "source": "file_ed53cb9d",
+      "target": "file_84fdccb3"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "067_Patterns_of_Points_in_3D_Space.md",
+      "source": "file_84fdccb3",
+      "target": "file_764b7c46"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "068_Perceiving_Patterns_in_3D_Trajectories.md",
+      "source": "file_764b7c46",
+      "target": "file_162844e9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "069_Judging_Relative_Positions_of_Objects_in.md",
+      "source": "file_162844e9",
+      "target": "file_196dceb6"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "070_Judging_the_Relative_Movements_of_Self_W.md",
+      "source": "file_196dceb6",
+      "target": "file_ea935461"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "071_Selecting_and_Positioning_Objects_in_3D.md",
+      "source": "file_ea935461",
+      "target": "file_fe4b175a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "072_Judging_the_\u201cup\u201d_Direction.md",
+      "source": "file_fe4b175a",
+      "target": "file_a1afab6d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "073_The_Aesthetic_Impression_of_3D_Space_(Pr.md",
+      "source": "file_a1afab6d",
+      "target": "file_b47733e1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "074_Conclusion.md",
+      "source": "file_b47733e1",
+      "target": "file_2d2de21e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "075_Chapter_Eight._Visual_Objects_and_Data_O.md",
+      "source": "file_2d2de21e",
+      "target": "file_05fb3b28"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "076_Image-Based_Object_Recognition_part1.md",
+      "source": "file_05fb3b28",
+      "target": "file_a786ebc0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "076_Image-Based_Object_Recognition_part2.md",
+      "source": "file_a786ebc0",
+      "target": "file_9d96aadf"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "077_Structure-Based_Object_Recognition.md",
+      "source": "file_9d96aadf",
+      "target": "file_6e197c25"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "078_The_Object_Display_and_Object-Based_Diag_part1.md",
+      "source": "file_6e197c25",
+      "target": "file_57c226ac"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "078_The_Object_Display_and_Object-Based_Diag_part2.md",
+      "source": "file_57c226ac",
+      "target": "file_6be25bd3"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "079_3D_Glyphs.md",
+      "source": "file_6be25bd3",
+      "target": "file_f1310d24"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "080_Faces.md",
+      "source": "file_f1310d24",
+      "target": "file_215acaa3"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "081_Coding_Words_and_Images.md",
+      "source": "file_215acaa3",
+      "target": "file_d3fdf4a5"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "082_Labels_and_Concepts_part1.md",
+      "source": "file_d3fdf4a5",
+      "target": "file_41c6bd0b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "082_Labels_and_Concepts_part2.md",
+      "source": "file_41c6bd0b",
+      "target": "file_580fa146"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "083_Concept_Mapping.md",
+      "source": "file_580fa146",
+      "target": "file_d79e53eb"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "083_Concept_Mapping.md",
+      "source": "file_d79e53eb",
+      "target": "file_0a16ed4f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "084_Iconic_Images_versus_Words_versus_Abstra.md",
+      "source": "file_d79e53eb",
+      "target": "file_3f3ffbf9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "085_Scenes_and_Scene_Gist.md",
+      "source": "file_3f3ffbf9",
+      "target": "file_7cda21fa"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "086_Conclusion.md",
+      "source": "file_7cda21fa",
+      "target": "file_f6bfd163"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "087_Chapter_Nine._Images,_Narrative,_and_Ges.md",
+      "source": "file_f6bfd163",
+      "target": "file_65c1d20a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "088_The_Nature_of_Language_part1.md",
+      "source": "file_65c1d20a",
+      "target": "file_48bf0d2f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "088_The_Nature_of_Language_part2.md",
+      "source": "file_48bf0d2f",
+      "target": "file_c9a7523f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "088_The_Nature_of_Language_part3.md",
+      "source": "file_c9a7523f",
+      "target": "file_9b809528"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "089_Integrating_Visual_and_Verbal_and_the_Na_part1.md",
+      "source": "file_9b809528",
+      "target": "file_8a7fdee8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "089_Integrating_Visual_and_Verbal_and_the_Na_part2.md",
+      "source": "file_8a7fdee8",
+      "target": "file_608647fd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "090_Animated_versus_Static_Presentations.md",
+      "source": "file_608647fd",
+      "target": "file_7835de0b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "091_Visual_Narrative_for_Explanation.md",
+      "source": "file_7835de0b",
+      "target": "file_8ffd82ed"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "092_Introduction_and_Initial_Framing_part1.md",
+      "source": "file_8ffd82ed",
+      "target": "file_85b9d9b8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "092_Introduction_and_Initial_Framing_part2.md",
+      "source": "file_85b9d9b8",
+      "target": "file_97e539a2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "092_Introduction_and_Initial_Framing_part3.md",
+      "source": "file_97e539a2",
+      "target": "file_088fa19e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "093_Conclusion.md",
+      "source": "file_088fa19e",
+      "target": "file_f4368461"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "094_Chapter_Ten._Interacting_with_Visualizat.md",
+      "source": "file_f4368461",
+      "target": "file_1ecc8c9b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "095_Data_Selection_and_Manipulation_Loop_part1.md",
+      "source": "file_1ecc8c9b",
+      "target": "file_77918cf0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "095_Data_Selection_and_Manipulation_Loop_part2.md",
+      "source": "file_77918cf0",
+      "target": "file_a67dcf0a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "095_Data_Selection_and_Manipulation_Loop_part3.md",
+      "source": "file_a67dcf0a",
+      "target": "file_710ea69d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "096_Exploration_and_Navigation_Loop_part1.md",
+      "source": "file_710ea69d",
+      "target": "file_d0026cbb"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "096_Exploration_and_Navigation_Loop_part2.md",
+      "source": "file_d0026cbb",
+      "target": "file_fcbd3f35"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "096_Exploration_and_Navigation_Loop_part3.md",
+      "source": "file_fcbd3f35",
+      "target": "file_4d0a587f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "096_Exploration_and_Navigation_Loop_part4.md",
+      "source": "file_4d0a587f",
+      "target": "file_f0c54a53"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "097_Interfaces_with_less_Literal_Metaphors_part1.md",
+      "source": "file_f0c54a53",
+      "target": "file_871ffe7d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "097_Interfaces_with_less_Literal_Metaphors_part2.md",
+      "source": "file_871ffe7d",
+      "target": "file_6a70385d"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "097_Interfaces_with_less_Literal_Metaphors_part2.md",
+      "source": "file_6a70385d",
+      "target": "file_0a16ed4f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "098_Nonmetaphoric_Interactions_with_Nonspati.md",
+      "source": "file_6a70385d",
+      "target": "file_724b2d7f"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "098_Nonmetaphoric_Interactions_with_Nonspati.md",
+      "source": "file_724b2d7f",
+      "target": "file_0a16ed4f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "099_Network_Zooming.md",
+      "source": "file_724b2d7f",
+      "target": "file_a123f8ac"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "100_Conclusion.md",
+      "source": "file_a123f8ac",
+      "target": "file_4a876149"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "101_Chapter_Eleven._Thinking_With_Visualizat.md",
+      "source": "file_4a876149",
+      "target": "file_26de42ac"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "102_The_Cognitive_System.md",
+      "source": "file_26de42ac",
+      "target": "file_960dba97"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "103_The_Predicting_Brain.md",
+      "source": "file_960dba97",
+      "target": "file_d562485b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "104_Memory_and_Attention_part1.md",
+      "source": "file_d562485b",
+      "target": "file_01ed841a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "104_Memory_and_Attention_part2.md",
+      "source": "file_01ed841a",
+      "target": "file_8f1c927d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "104_Memory_and_Attention_part3.md",
+      "source": "file_8f1c927d",
+      "target": "file_5c790d68"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "104_Memory_and_Attention_part4.md",
+      "source": "file_5c790d68",
+      "target": "file_b2813db2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "104_Memory_and_Attention_part5.md",
+      "source": "file_b2813db2",
+      "target": "file_aa9f5093"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "105_Visualizations_and_Mental_Images.md",
+      "source": "file_aa9f5093",
+      "target": "file_4760844c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "106_Long-Term_Episodic_Memory_and_World_Mode.md",
+      "source": "file_4760844c",
+      "target": "file_e4944b2d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "107_Knowledge_Formation_part1.md",
+      "source": "file_e4944b2d",
+      "target": "file_d4d2dfd1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "107_Knowledge_Formation_part2.md",
+      "source": "file_d4d2dfd1",
+      "target": "file_1d63e90d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "108_Cognitive_Biases_and_Automatic_Processin_part1.md",
+      "source": "file_1d63e90d",
+      "target": "file_29a724f7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "108_Cognitive_Biases_and_Automatic_Processin_part2.md",
+      "source": "file_29a724f7",
+      "target": "file_880f9d46"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "109_Review_of_Visual_Cognitive_System_Compon.md",
+      "source": "file_880f9d46",
+      "target": "file_406d3ec2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "110_Chapter_Twelve._Designing_Cognitively_Ef.md",
+      "source": "file_406d3ec2",
+      "target": "file_c144be3c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "111_The_Process.md",
+      "source": "file_c144be3c",
+      "target": "file_093b6612"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "112_Step_1_High-Level_Cognitive_Task_Descrip.md",
+      "source": "file_093b6612",
+      "target": "file_7b96fde9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "113_Step_2_Data_Inventory.md",
+      "source": "file_7b96fde9",
+      "target": "file_21632b93"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "114_Step_3_Cognitive_Task_Refinement.md",
+      "source": "file_21632b93",
+      "target": "file_199e6b1f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "115_Step_4_Identification_of_Appropriate_Vis_part1.md",
+      "source": "file_199e6b1f",
+      "target": "file_e62b1f0c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "115_Step_4_Identification_of_Appropriate_Vis_part2.md",
+      "source": "file_e62b1f0c",
+      "target": "file_906f99cd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "116_Step_5._Applying_Visual_Thinking_Design.md",
+      "source": "file_906f99cd",
+      "target": "file_b0e3eba9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "117_Visual_Monitoring.md",
+      "source": "file_b0e3eba9",
+      "target": "file_877e9a97"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "118_Drill_Down.md",
+      "source": "file_877e9a97",
+      "target": "file_55f1405a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "119_Find_Local_Patterns_in_Small_to_Medium-S.md",
+      "source": "file_55f1405a",
+      "target": "file_479c41ae"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "120_Seed-then-Grow.md",
+      "source": "file_479c41ae",
+      "target": "file_7826bd4d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "121_Pattern_Comparisons_in_a_Large_Informati.md",
+      "source": "file_7826bd4d",
+      "target": "file_23d802b3"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "122_Cross-View_Brushing.md",
+      "source": "file_23d802b3",
+      "target": "file_693610db"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "123_Dynamic_Queries.md",
+      "source": "file_693610db",
+      "target": "file_2a373f90"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "124_Model-Based_Interactive_Planning.md",
+      "source": "file_2a373f90",
+      "target": "file_26bf664f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "125_Step_6_Prototype_Development.md",
+      "source": "file_26bf664f",
+      "target": "file_216337bd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "126_Step_7_Evaluation_and_Design_Refinement.md",
+      "source": "file_216337bd",
+      "target": "file_0bfef754"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "127_Conclusion.md",
+      "source": "file_0bfef754",
+      "target": "file_3a4e6ddc"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "128_Useful_Textbook_References.md",
+      "source": "file_3a4e6ddc",
+      "target": "file_b51268f9"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "128_Useful_Textbook_References.md",
+      "source": "file_b51268f9",
+      "target": "file_0a16ed4f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "129_Appendix_A._Changing_Primaries.md",
+      "source": "file_b51268f9",
+      "target": "file_fe9c765b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "130_Appendix_B._CIE_Color_Measurement_System.md",
+      "source": "file_fe9c765b",
+      "target": "file_86f19fff"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "131_Appendix_C._Guidelines_part1.md",
+      "source": "file_86f19fff",
+      "target": "file_a6d6ffa9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "131_Appendix_C._Guidelines_part2.md",
+      "source": "file_a6d6ffa9",
+      "target": "file_35df14b2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "131_Appendix_C._Guidelines_part3.md",
+      "source": "file_35df14b2",
+      "target": "file_1f7ae9e7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "131_Appendix_C._Guidelines_part4.md",
+      "source": "file_1f7ae9e7",
+      "target": "file_aa201c0a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "131_Appendix_C._Guidelines_part5.md",
+      "source": "file_aa201c0a",
+      "target": "file_b027ebf9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "131_Appendix_C._Guidelines_part6.md",
+      "source": "file_b027ebf9",
+      "target": "file_ee1a380a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "index.md",
+      "source": "file_ee1a380a",
+      "target": "file_0a16ed4f"
+    }
+  ],
+  "hyperedges": []
+}

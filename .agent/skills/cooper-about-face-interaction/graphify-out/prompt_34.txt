@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=34, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_34.json
+FILES:
+/private/tmp/about_face_chunks/chunk_826_Hyperlinks.md
+/private/tmp/about_face_chunks/chunk_827_Selection_controls.md
+/private/tmp/about_face_chunks/chunk_828_Check_boxes.md
+/private/tmp/about_face_chunks/chunk_829_Toggle_buttons.md
+/private/tmp/about_face_chunks/chunk_830_State_switching_buttons__an_id.md
+/private/tmp/about_face_chunks/chunk_831_Radio_buttons.md
+/private/tmp/about_face_chunks/chunk_832_Switches.md
+/private/tmp/about_face_chunks/chunk_833_Combo_icon_buttons.md
+/private/tmp/about_face_chunks/chunk_834_List_controls.md
+/private/tmp/about_face_chunks/chunk_835_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_836_Earmarking.md
+/private/tmp/about_face_chunks/chunk_837_Dragging_and_dropping_from_lis.md
+/private/tmp/about_face_chunks/chunk_838_Ordering_lists.md
+/private/tmp/about_face_chunks/chunk_839_Horizontal_scrolling_in_lists.md
+/private/tmp/about_face_chunks/chunk_840_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_841_Entering_data_into_a_list.md
+/private/tmp/about_face_chunks/chunk_842_Drop_down_and_pop_up_lists.md
+/private/tmp/about_face_chunks/chunk_843_Combo_boxes.md
+/private/tmp/about_face_chunks/chunk_844_Tree_controls.md
+/private/tmp/about_face_chunks/chunk_845_Entry_controls.md
+/private/tmp/about_face_chunks/chunk_846_Bounded_and_unbounded_entry_co.md
+/private/tmp/about_face_chunks/chunk_847_Spinners.md
+/private/tmp/about_face_chunks/chunk_848_Dials_and_sliders.md
+/private/tmp/about_face_chunks/chunk_849_Thumbwheels.md
+/private/tmp/about_face_chunks/chunk_850_Other_bounded_entry_controls.md

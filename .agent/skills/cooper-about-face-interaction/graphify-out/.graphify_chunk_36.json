@@ -1,0 +1,408 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_876_process_dialogs_process_dialogs",
+      "label": "Process Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_876_Process_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Process Dialogs extracted from chunk_876_Process_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_877_notification_dialogs_notification_dialogs",
+      "label": "Notification Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_877_Notification_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Notification Dialogs extracted from chunk_877_Notification_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_878_bulletin_dialogs_bulletin_dialogs",
+      "label": "Bulletin Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_878_Bulletin_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Bulletin Dialogs extracted from chunk_878_Bulletin_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_879_managing_property_and_function_managing_property_and_function",
+      "label": "Managing Property and Function",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_879_Managing_property_and_function.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Managing Property and Function extracted from chunk_879_Managing_property_and_function.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_880_tabbed_dialogs_tabbed_dialogs",
+      "label": "Tabbed Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_880_Tabbed_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Tabbed Dialogs extracted from chunk_880_Tabbed_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_881_expanding_dialogs_expanding_dialogs",
+      "label": "Expanding Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_881_Expanding_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Expanding Dialogs extracted from chunk_881_Expanding_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_882_cascading_dialogs_cascading_dialogs",
+      "label": "Cascading Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_882_Cascading_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Cascading Dialogs extracted from chunk_882_Cascading_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_883_eliminating_errors__alerts__an_eliminating_errors_and_alerts",
+      "label": "Eliminating Errors and Alerts",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_883_Eliminating_Errors__Alerts__an.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Eliminating Errors and Alerts extracted from chunk_883_Eliminating_Errors__Alerts__an.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_884_error_dialogs_error_dialogs",
+      "label": "Error Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_884_Error_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Error Dialogs extracted from chunk_884_Error_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_885_what_s_wrong_with_error_dialog_problems_with_error_dialogs",
+      "label": "Problems with Error Dialogs",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_885_What_s_wrong_with_error_dialog.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Problems with Error Dialogs extracted from chunk_885_What_s_wrong_with_error_dialog.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_886_whose_mistake_is_it__anyway__whose_mistake_is_it_anyway",
+      "label": "Whose mistake is it anyway",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_886_Whose_mistake_is_it__anyway_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Whose mistake is it anyway extracted from chunk_886_Whose_mistake_is_it__anyway_.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_887_error_messages_don_t_work_error_messages_do_not_work",
+      "label": "Error messages do not work",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_887_Error_messages_don_t_work.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Error messages do not work extracted from chunk_887_Error_messages_don_t_work.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_888_how_to_eliminate_error_message_how_to_eliminate_error_messages",
+      "label": "How to eliminate error messages",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_888_How_to_eliminate_error_message.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding How to eliminate error messages extracted from chunk_888_How_to_eliminate_error_message.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_889_making_errors_impossible_making_errors_impossible",
+      "label": "Making errors impossible",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_889_Making_errors_impossible.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Making errors impossible extracted from chunk_889_Making_errors_impossible.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_890_positive_feedback_positive_feedback",
+      "label": "Positive feedback",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_890_Positive_feedback.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Positive feedback extracted from chunk_890_Positive_feedback.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_891_aren_t_there_exceptions__exceptions_to_rules",
+      "label": "Exceptions to rules",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_891_Aren_t_there_exceptions_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Exceptions to rules extracted from chunk_891_Aren_t_there_exceptions_.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_892_improving_error_messages__the__improving_error_messages",
+      "label": "Improving error messages",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_892_Improving_error_messages__the_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Improving error messages extracted from chunk_892_Improving_error_messages__the_.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_893_alerts_and_confirmations_alerts_and_confirmations",
+      "label": "Alerts and confirmations",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_893_Alerts_and_confirmations.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Alerts and confirmations extracted from chunk_893_Alerts_and_confirmations.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_894_alerts__announcing_the_obvious_alerts_announcing_the_obvious",
+      "label": "Alerts announcing the obvious",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_894_Alerts__announcing_the_obvious.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Alerts announcing the obvious extracted from chunk_894_Alerts__announcing_the_obvious.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_895_how_to_eliminate_alerts_how_to_eliminate_alerts",
+      "label": "How to eliminate alerts",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_895_How_to_eliminate_alerts.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding How to eliminate alerts extracted from chunk_895_How_to_eliminate_alerts.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_896_confirmations__the_dialog_that_confirmations",
+      "label": "Confirmations",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_896_Confirmations__the_dialog_that.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Confirmations extracted from chunk_896_Confirmations__the_dialog_that.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_897_how_to_eliminate_confirmations_how_to_eliminate_confirmations",
+      "label": "How to eliminate confirmations",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_897_How_to_eliminate_confirmations.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding How to eliminate confirmations extracted from chunk_897_How_to_eliminate_confirmations.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_898_design_principle_design_principles",
+      "label": "Design Principles",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_898_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Design Principles extracted from chunk_898_DESIGN_PRINCIPLE.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_899_the_devil_is_in_the_details_the_devil_is_in_the_details",
+      "label": "The Devil Is in the Details",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_899_The_Devil_Is_in_the_Details.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding The Devil Is in the Details extracted from chunk_899_The_Devil_Is_in_the_Details.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_900_chapter_1_chapter_1_summary",
+      "label": "Chapter 1 Summary",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_900_Chapter_1.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Concept regarding Chapter 1 Summary extracted from chunk_900_Chapter_1.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_876_process_dialogs_process_dialogs",
+      "target": "about_face_chunks_chunk_877_notification_dialogs_notification_dialogs",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_877_Notification_dialogs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_877_notification_dialogs_notification_dialogs",
+      "target": "about_face_chunks_chunk_878_bulletin_dialogs_bulletin_dialogs",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_878_Bulletin_dialogs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_880_tabbed_dialogs_tabbed_dialogs",
+      "target": "about_face_chunks_chunk_881_expanding_dialogs_expanding_dialogs",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_881_Expanding_dialogs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_884_error_dialogs_error_dialogs",
+      "target": "about_face_chunks_chunk_885_what_s_wrong_with_error_dialog_problems_with_error_dialogs",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_885_What_s_wrong_with_error_dialog.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_888_how_to_eliminate_error_message_how_to_eliminate_error_messages",
+      "target": "about_face_chunks_chunk_889_making_errors_impossible_making_errors_impossible",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_889_Making_errors_impossible.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_895_how_to_eliminate_alerts_how_to_eliminate_alerts",
+      "target": "about_face_chunks_chunk_897_how_to_eliminate_confirmations_how_to_eliminate_confirmations",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_897_How_to_eliminate_confirmations.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_893_alerts_and_confirmations_alerts_and_confirmations",
+      "target": "about_face_chunks_chunk_896_confirmations__the_dialog_that_confirmations",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_896_Confirmations__the_dialog_that.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "about_face_chunks_dialog_types",
+      "label": "Dialog Types",
+      "nodes": [
+        "about_face_chunks_chunk_876_process_dialogs_process_dialogs",
+        "about_face_chunks_chunk_877_notification_dialogs_notification_dialogs",
+        "about_face_chunks_chunk_878_bulletin_dialogs_bulletin_dialogs",
+        "about_face_chunks_chunk_884_error_dialogs_error_dialogs"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_876_Process_dialogs.md"
+    },
+    {
+      "id": "about_face_chunks_eliminating_annoyances",
+      "label": "Eliminating Annoying Dialogs",
+      "nodes": [
+        "about_face_chunks_chunk_883_eliminating_errors__alerts__an_eliminating_errors_and_alerts",
+        "about_face_chunks_chunk_888_how_to_eliminate_error_message_how_to_eliminate_error_messages",
+        "about_face_chunks_chunk_895_how_to_eliminate_alerts_how_to_eliminate_alerts",
+        "about_face_chunks_chunk_897_how_to_eliminate_confirmations_how_to_eliminate_confirmations"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "about_face_chunks/chunk_883_Eliminating_Errors__Alerts__an.md"
+    }
+  ],
+  "input_tokens": 12000,
+  "output_tokens": 1500
+}

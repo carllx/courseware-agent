@@ -27,6 +27,6 @@ segments:
 - id: M04
   src: src/M04_从心流到页面流_状态机拆解.md
 - id: M05
-  src: src/M05_实验2_启动_从混沌到秩序的流转架构构建.md
+  src: src/M05_实践项目2_启动_从混沌到秩序的流转架构构建.md
 - id: M06
   src: src/M06_课程总结与下次预告.md

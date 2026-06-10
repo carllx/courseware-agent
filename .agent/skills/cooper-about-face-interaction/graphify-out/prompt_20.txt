@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=20, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_20.json
+FILES:
+/private/tmp/about_face_chunks/chunk_476_Rethinking_Data_Storage.md
+/private/tmp/about_face_chunks/chunk_477_The_problems_with_data_storage.md
+/private/tmp/about_face_chunks/chunk_478_Saving_changes.md
+/private/tmp/about_face_chunks/chunk_479_Closing_documents_without_savi.md
+/private/tmp/about_face_chunks/chunk_480_Save_As.md
+/private/tmp/about_face_chunks/chunk_481_Archiving.md
+/private/tmp/about_face_chunks/chunk_482_Fixing_data_storage__a_unified.md
+/private/tmp/about_face_chunks/chunk_483_Automatic_save.md
+/private/tmp/about_face_chunks/chunk_484_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_485_Creating_a_copy.md
+/private/tmp/about_face_chunks/chunk_486_Naming_and_renaming.md
+/private/tmp/about_face_chunks/chunk_487_Placing_and_positioning_in_the.md
+/private/tmp/about_face_chunks/chunk_488_Specifying_the_file_type.md
+/private/tmp/about_face_chunks/chunk_489_Reversing_changes.md
+/private/tmp/about_face_chunks/chunk_490_Discarding_all_changes.md
+/private/tmp/about_face_chunks/chunk_491_Creating_a_version.md
+/private/tmp/about_face_chunks/chunk_492_A_new_File_menu.md
+/private/tmp/about_face_chunks/chunk_493_A_new_name_for_the_File_menu.md
+/private/tmp/about_face_chunks/chunk_494_Communicating_status.md
+/private/tmp/about_face_chunks/chunk_495_Time_for_a_change.md
+/private/tmp/about_face_chunks/chunk_496_Rethinking_Data_Retrieval.md
+/private/tmp/about_face_chunks/chunk_497_Storage_versus_retrieval.md
+/private/tmp/about_face_chunks/chunk_498_Retrieval_in_the_physical_worl.md
+/private/tmp/about_face_chunks/chunk_499_Retrieval_by_location.md
+/private/tmp/about_face_chunks/chunk_500_Indexed_retrieval.md

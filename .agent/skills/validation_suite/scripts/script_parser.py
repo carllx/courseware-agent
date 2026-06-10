@@ -64,7 +64,7 @@ KNOWN_TAGS = {
 # 参考型标签（TECH NOTE / WARNING）：补充性技术细节，教师可酌情跳过。
 ORAL_TAGS = {
     "STORY TIME", "CASE STUDY", "LIFE CONNECT",
-    "PHILOSOPHY", "DID YOU KNOW", "TEACHING MOMENT",
+    "PHILOSOPHY", "DID YOU KNOW", "TEACHING MOMENT", "TECH NOTE",
 }
 
 # 有效 Layout 类型（与 .agent/skills/pptx/layouts.md 保持同步）
@@ -233,8 +233,40 @@ def parse_script(file_path: str) -> list[ScriptBlock]:
             i += 1
             continue
 
-        # ----- 分隔线 -----
+        # ----- HTML 注释跳过 (如 SKELETON / BUDGET) -----
+        if line.strip().startswith('<!--') and not re.match(r'^<!-- ### BEGIN .+ ### -->$', line.strip()) and not re.match(r'^<!-- ### END .+ ### -->$', line.strip()):
+            if '-->' in line:
+                i += 1
+                continue
+            else:
+                # 多行注释
+                look_idx = i + 1
+                found_end = False
+                while look_idx < total:
+                    if '-->' in lines[look_idx]:
+                        found_end = True
+                        break
+                    look_idx += 1
+                if found_end:
+                    i = look_idx + 1
+                    continue
+
+        # ----- 分隔线 or 内部 Frontmatter -----
         if RE_SEPARATOR.match(line):
+            # Check if previous non-empty line was a BEGIN marker
+            prev_idx = i - 1
+            while prev_idx >= 0 and not lines[prev_idx].strip():
+                prev_idx -= 1
+                
+            if prev_idx >= 0 and re.match(r'^<!-- ### BEGIN .+ ### -->$', lines[prev_idx].strip()):
+                # Skip until the next ---
+                look_idx = i + 1
+                while look_idx < total and lines[look_idx].strip() != '---':
+                    look_idx += 1
+                if look_idx < total:
+                    i = look_idx + 1
+                    continue
+
             blocks.append(ScriptBlock(
                 block_type=BlockType.SEPARATOR,
                 content=line,

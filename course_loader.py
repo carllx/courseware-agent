@@ -23,6 +23,40 @@ from pathlib import Path
 from typing import Union
 
 
+import re
+
+def _load_experiments_dynamic(course_dir: Path) -> list:
+    """动态从 practices/experiments/ 目录下加载单个实验 YAML 并合并"""
+    exp_dir = course_dir / "practices" / "experiments"
+    if not exp_dir.exists():
+        return []
+    
+    experiments = []
+    for exp_file in exp_dir.glob("exp_*.yaml"):
+        with open(exp_file, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+            if not data or not isinstance(data, dict):
+                continue
+
+            exp_id = data.get("exp_id") or data.get("id")
+            if exp_id is None:
+                raise ValueError(f"缺少实验 ID: 文件 {exp_file.name} 缺失 'exp_id' 或 'id' 字段")
+                
+            match = re.search(r'\d+', str(exp_id))
+            if not match:
+                raise ValueError(f"无效的实验 ID: 文件 {exp_file.name} 的标识符 '{exp_id}' 不包含任何数字，无法用于排序")
+            
+            # 向后兼容：旧汇总表用 id 字段，增量表用 exp_id 字段
+            if "id" not in data:
+                data["id"] = exp_id
+            
+            data["_sort_key"] = int(match.group())
+            experiments.append(data)
+    
+    experiments.sort(key=lambda x: x.pop("_sort_key"))
+    return experiments
+
+
 # 域到子文件的映射（用于 load_course_section 的按需加载）
 SECTION_FILE_MAP = {
     "meta": "course_meta.yaml",
@@ -126,6 +160,11 @@ def load_course(course_dir: Union[str, Path]) -> dict:
 
         result.update(sub_data)
 
+    # 新格式：动态组装实验数据 (Decentralized SSOT)
+    dynamic_exps = _load_experiments_dynamic(course_dir)
+    if dynamic_exps:
+        result["experiments"] = dynamic_exps
+
     return result
 
 
@@ -172,6 +211,12 @@ def load_course_section(
         keys_for_section = SECTION_KEYS_MAP.get(section, [])
         return {k: v for k, v in index_data.items() if k in keys_for_section}
 
+    # 优先执行动态组装实验数据
+    if section == "experiments":
+        dynamic_exps = _load_experiments_dynamic(course_dir)
+        if dynamic_exps:
+            return {"experiments": dynamic_exps}
+
     # 新格式：直接加载对应的子文件
     filename = SECTION_FILE_MAP[section]
     sub_path = course_dir / filename
@@ -217,9 +262,20 @@ def list_course_files(course_dir: Union[str, Path]) -> list[str]:
         data = yaml.safe_load(f)
 
     if not isinstance(data, dict) or "includes" not in data:
-        return ["course.yaml"]
+        files = ["course.yaml"]
+    else:
+        files = ["course.yaml"] + list(data["includes"])
 
-    return ["course.yaml"] + list(data["includes"])
+    # 追加动态实验文件
+    exp_dir = course_dir / "practices" / "experiments"
+    if exp_dir.exists():
+        for exp_file in exp_dir.glob("exp_*.yaml"):
+            try:
+                files.append(str(exp_file.relative_to(course_dir)))
+            except ValueError:
+                pass
+
+    return files
 
 
 # ===== CLI 测试 =====

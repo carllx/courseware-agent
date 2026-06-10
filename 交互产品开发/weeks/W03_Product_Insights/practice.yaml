@@ -1,226 +1,198 @@
-# W03_practice.yaml — JTBD 深度访谈陪练 + Figma 协同注入 + Exp1 田野启动
-# Schema: practice_schema.md v3.1 (ADR 043 + 超星集成)
-# 对应脚本: M06_实践与小结_微调研沙局与_Exp1_启动.md
-# 修订: v2.0 (2026-05-11) — 万能角色构建器 + Figma 协同 + 赛道可行性修正
-
 week: 3
-title: "JTBD 深度访谈陪练与 Figma 协同画像注入"
+title: JTBD 深度访谈陪练与 Figma 协同画像注入
 experiment_link:
-  - "Exp1: 荒野与猎物 (User Insight & Journey)"
-total_minutes: 70  # hours_practice=2 → 约 70min 可用实践时间（含复盘）
-
+- 1
+total_minutes: 70
 theory_prerequisites:
-  - "言行鸿沟 (Say-Do Gap)"
-  - "焦点小组的结构性缺陷（群体极化与表演型人格）"
-  - "参与式观察与情境沉浸 (Contextual Inquiry)"
-  - "深访五步法（破冰→探寻→剥洋葱→还原→收拢）"
-  - "5-Whys 连环追问法"
-  - "JTBD 框架（Functional / Social / Emotional 三维度）"
-  - "情境 (Context) 对需求的逆转效应"
-  - "跨界竞争与替代方案分析"
-  - "Problem Statement 公式"
-  - "先导指标 vs 滞后指标"
-
+- 言行鸿沟 (Say-Do Gap)
+- 焦点小组的结构性缺陷（群体极化与表演型人格）
+- 参与式观察与情境沉浸 (Contextual Inquiry)
+- 深访五步法（破冰→探寻→剥洋葱→还原→收拢）
+- 5-Whys 连环追问法
+- JTBD 框架（Functional / Social / Emotional 三维度）
+- 情境 (Context) 对需求的逆转效应
+- 跨界竞争与替代方案分析
+- Problem Statement 公式
+- 先导指标 vs 滞后指标
 phases:
-  # ════════════════════════════════════════════
-  # Phase 1: AI 陪练采访（万能角色构建器）
-  # ════════════════════════════════════════════
-  - id: P1
-    name: "JTBD 深度访谈陪练：万能角色构建器"
-    minutes: 40
-    type: workshop
-    description: >
-      使用万能角色构建器 AI 陪练终端进行模拟访谈练习。
-      本次课堂统一主题为"短视频创作者的内容运营焦虑"，教师使用
-      /theme 命令锁定主题后，学生在主题范围内选择不同类型的创作者
-      角色（美妆博主/游戏主播/知识科普/Vlog 记录者/带货达人等）。
-      Agent 动态生成带三层防御的虚拟受访者，内置 12 个教材核心概念，
-      在学生卡住时自动切换教练模式给出提问指导。
-      采访结束后输入 /总结 获取结构化 Proto-Persona 数据卡。
-      复盘亮点：全班同一主题、不同角色 → 对比"同领域不同人的 JTBD 差异"。
-    tools: ["AI 对话平台（支持自定义 System Prompt）"]
-    classroom_theme: "短视频创作者的内容运营焦虑"
-    theme_command: "/theme 短视频创作者"
-    design_brief: >
-      共享设计使命：你是一家创作者工具公司的产品调研团队成员。
-      公司正在评估是否值得投入资源开发一款针对"短视频创作者心理健康与效率管理"的辅助工具。
-      你的任务是：通过深度访谈，判断这个方向是否存在真实的、未被满足的痛点
-      ——还是只是一个"听起来很好但没人真正愿意付费"的伪需求。
-      你需要回答的核心问题：这个人的痛苦是否足以驱动他使用（并付费）一个新产品？
-    materials:
-      - type: agent_persona
-        title: "JTBD 深度访谈万能陪练终端 — System Prompt"
-        path: "practices/materials/W03/教师版_JTBD访谈陪练终端系统提示词.md"
-        deploy_note: >
-          课前需将 System Prompt 注入 AI 对话平台并验证生效。
-          支持平台：ChatGPT / 通义千问 / 文心一言 / Kimi / DeepSeek。
-          课堂使用时，教师先发送 "/theme 短视频创作者" 锁定主题。
-      - type: instruction
-        title: "JTBD 深度访谈 AI 陪练：学生实操对战指南"
-        path: "practices/materials/W03/学生版_AI访谈陪练实操指南.md"
-        deploy_note: "课前发放给学生，要求其在访谈卡壳时参考其中的起手式和破局策略。"
-    steps:
-      - "教师高压对抗示范 (4 min)：大屏投屏，演示触发 Layer 1 敷衍与 Contextual Inquiry 破局追问"
-      - "角色选择 (1 min)：每位同学从 5 种创作者类型中选择，Agent 动态生成盲盒角色"
-      - "独立深度访谈 (30 min)：运用 5-Whys + JTBD 视角采访，Agent 智能监测并在卡住时自动教练介入"
-      - "结构化产出 (5 min)：输入 /总结，获取四大标准模块数据卡文本"
-    theory_link:
-      - concept_id: "five_whys"
-        description: "突破 AI 的表层防御需连续追问至少 3 层 Why"
-      - concept_id: "jtbd_framework"
-        description: "Agent 动态生成的角色覆盖 Functional/Social/Emotional 三维度"
-      - concept_id: "say_do_gap"
-        description: "Layer 2 动态生成的伪需求陷阱体现经典 Say-Do Gap"
-      - concept_id: "problem_statement"
-        description: "结构化输出中包含 Problem Statement 公式填充"
-      - concept_id: "contextual_inquiry"
-        description: "教练模式引导学生追问具体时空场景"
-      - concept_id: "deep_interview"
-        description: "教练模式诊断学生当前处于深访五步法的哪一步"
-    scoring_rubric:
-      - level: "⭐ 基础"
-        criteria: "仅获取 Layer 1 敷衍回答，结构化输出大面积标注'未挖掘'"
-      - level: "⭐⭐ 及格"
-        criteria: "突破至 Layer 2，记录了表象方案但停在了 Say-Do Gap 陷阱"
-      - level: "⭐⭐⭐ 良好"
-        criteria: "识破 Layer 2 陷阱，追问至 Layer 3 情感核心"
-      - level: "⭐⭐⭐⭐ 优秀"
-        criteria: "完整提取 Emotional Job + 物理行为怪癖"
-      - level: "⭐⭐⭐⭐⭐ 卓越"
-        criteria: "结构化输出中 Problem Statement 精准且识别 JTBD 三维度"
-    deliverables:
-      - "AI 对话日志截图（至少包含 5 轮有效追问）"
-      - "Agent 生成的结构化 Proto-Persona 数据卡文本（/总结 输出）"
-    timer:
-      display: "大屏幕倒计时"
-      total_seconds: 2400
-      warning_at: 300
-      end_action: "提示音，提醒输入 /总结 获取数据卡"
+- id: P1
+  name: JTBD 深度访谈陪练：万能角色构建器
+  minutes: 40
+  type: workshop
+  description: '使用万能角色构建器 AI 陪练终端进行模拟访谈练习。 本次课堂统一主题为"短视频创作者的内容运营焦虑"，教师使用 /theme 命令锁定主题后，学生在主题范围内选择不同类型的创作者
+    角色（美妆博主/游戏主播/知识科普/Vlog 记录者/带货达人等）。 Agent 动态生成带三层防御的虚拟受访者，内置 12 个教材核心概念， 在学生卡住时自动切换教练模式给出提问指导。
+    采访结束后输入 /总结 获取结构化 Proto-Persona 数据卡。 复盘亮点：全班同一主题、不同角色 → 对比"同领域不同人的 JTBD 差异"。
 
+    '
+  tools:
+  - AI 对话平台（支持自定义 System Prompt）
+  classroom_theme: 短视频创作者的内容运营焦虑
+  theme_command: /theme 短视频创作者
+  design_brief: '共享设计使命：你是一家创作者工具公司的产品调研团队成员。 公司正在评估是否值得投入资源开发一款针对"短视频创作者心理健康与效率管理"的辅助工具。
+    你的任务是：通过深度访谈，判断这个方向是否存在真实的、未被满足的痛点 ——还是只是一个"听起来很好但没人真正愿意付费"的伪需求。 你需要回答的核心问题：这个人的痛苦是否足以驱动他使用（并付费）一个新产品？
 
-  # ════════════════════════════════════════════
-  # Phase 3: Exp1 田野调研项目启动
-  # ════════════════════════════════════════════
-  - id: P3
-    name: "Exp1 荒野与猎物：田野调研项目启动与敏捷组队"
-    minutes: 30
-    type: workshop
-    description: >
-      确立 Exp1 项目作业下发，组建 Hustler/Hipster/Hacker 铁三角敏捷小队，
-      现场锁定研究赛道领域。讲解反面教材"死于大楼里的完美报告"，
-      强调实地田野调查的不可替代性。
-    tools: ["教学系统（赛道选择）"]
-    materials:
-      - type: instruction
-        title: "Exp1 项目指令书"
-        deploy_note: "课前准备项目指令书 PDF，含赛道列表与交付物标准"
-      - type: template
-        title: "访谈脚本模板（含破冰话术+5-Why 示例）"
-        deploy_note: "课前准备 PDF，降低学生首次陌生人访谈的门槛"
-      - type: document
-        title: "知情同意书模板"
-        deploy_note: "课前准备 PDF 模板，统一发放给学生"
-    steps:
-      - "教师讲解 Exp1 项目规则与反面教材 (10 min)"
-      - "敏捷组队：强制 Hustler + Hipster + Hacker 角色组合 (5 min)"
-      - "赛道选择：各组从赛道池中选择感兴趣的场景（允许自选，优先选择制） (5 min)"
-      - "组内破冰讨论：初步分工与第一次田野出动计划 (10 min)"
-    team_constraints:
-      min_size: 3
-      max_size: 5
-      required_roles:
-        - role: "Hustler (商业/沟通主导者)"
-          min_count: 1
-          description: "擅长沟通，负责深度定性访谈和可用性测试"
-        - role: "Hipster (体验/控制者)"
-          min_count: 1
-          description: "对排版、视觉层级有极高要求，负责最终原型的用户体验"
-        - role: "Hacker (逻辑/工程师)"
-          min_count: 1
-          description: "负责工程逻辑架构和数据流转图，确保技术可行性"
-    track_pool:
-      note: >
-        赛道经过数媒学生可触达性校准，确保每个赛道的受访者
-        均可在校园或日常生活圈内找到。学生可自选赛道（优先选择制），
-        也可提出自定义赛道经教师审核后使用。
-      selection_mode: "自由选择（优先选择制，非抽签）"
-      tracks:
-        - id: T01
-          name: "校园外卖/快递最后一公里的交互摩擦"
-          hint_emotional: "恶劣天气时骑手对超时罚款和差评的双重恐惧"
-          accessibility: "✅ 校园周边大量骑手和快递驿站可触达"
-        - id: T02
-          name: "独居青年的饮食健康管理"
-          hint_emotional: "深夜点外卖时对'正在慢性自杀'的自我厌恶与无力感"
-          accessibility: "✅ 同龄人中极常见"
-        - id: T03
-          name: "社交恐惧群体的线上消费决策"
-          hint_emotional: "害怕退换货时需要打电话与客服沟通的社交压力"
-          accessibility: "✅ 同龄人中极常见"
-        - id: T04
-          name: "学生社团/班级的财务与活动管理"
-          hint_emotional: "被质疑账目不清时的委屈感和怕麻烦导致的拖延"
-          accessibility: "✅ 校内社团可直接访谈"
-        - id: T05
-          name: "考研/考公备考的自习空间争夺"
-          hint_emotional: "图书馆抢座失败时对'时间被偷走'的焦虑和愤怒"
-          accessibility: "✅ 校园内大量备考学生"
-        - id: T06
-          name: "短视频/自媒体创作者的内容运营焦虑"
-          hint_emotional: "精心制作的视频播放量惨淡时的自我怀疑和算法无力感"
-          accessibility: "✅ 数媒专业同龄人中大量存在"
-        - id: T07
-          name: "二手交易平台的信任危机"
-          hint_emotional: "被骗/收到与描述不符的商品后的愤怒和维权无力感"
-          accessibility: "✅ 学生群体高频使用闲鱼等平台"
-        - id: T08
-          name: "在线学习/网课平台的学习体验断裂"
-          hint_emotional: "网课走神后追赶进度时的焦虑和'反正也学不会'的习得性无助"
-          accessibility: "✅ 所有学生的亲身体验"
-        # 教师可根据班级人数增减赛道，也允许学生自定义赛道
-    deliverables:
-      - "组队名单（含各成员角色分工与制衡机制说明）"
-      - "选定的赛道领域"
-      - "初步田野出动计划（时间、地点、目标受访者画像）"
+    '
+  materials:
+  - type: agent_persona
+    title: JTBD 深度访谈万能陪练终端 — System Prompt
+    path: practices/materials/W03/教师版_JTBD访谈陪练终端系统提示词.md
+    deploy_note: '课前需将 System Prompt 注入 AI 对话平台并验证生效。 支持平台：ChatGPT / 通义千问 / 文心一言 /
+      Kimi / DeepSeek。 课堂使用时，教师先发送 "/theme 短视频创作者" 锁定主题。
 
-# === Exp1 课后交付物要求 (下周验收) ===
-exp1_homework:
-  deadline: "W04 课前"
+      '
+  - type: instruction
+    title: JTBD 深度访谈 AI 陪练：学生实操对战指南
+    path: practices/materials/W03/学生版_AI访谈陪练实操指南.md
+    deploy_note: 课前发放给学生，要求其在访谈卡壳时参考其中的起手式和破局策略。
+  steps:
+  - 教师高压对抗示范 (4 min)：大屏投屏，演示触发 Layer 1 敷衍与 Contextual Inquiry 破局追问
+  - 角色选择 (1 min)：每位同学从 5 种创作者类型中选择，Agent 动态生成盲盒角色
+  - 独立深度访谈 (30 min)：运用 5-Whys + JTBD 视角采访，Agent 智能监测并在卡住时自动教练介入
+  - 结构化产出 (5 min)：输入 /总结，获取四大标准模块数据卡文本
+  theory_link:
+  - concept_id: five_whys
+    description: 突破 AI 的表层防御需连续追问至少 3 层 Why
+  - concept_id: jtbd_framework
+    description: Agent 动态生成的角色覆盖 Functional/Social/Emotional 三维度
+  - concept_id: say_do_gap
+    description: Layer 2 动态生成的伪需求陷阱体现经典 Say-Do Gap
+  - concept_id: problem_statement
+    description: 结构化输出中包含 Problem Statement 公式填充
+  - concept_id: contextual_inquiry
+    description: 教练模式引导学生追问具体时空场景
+  - concept_id: deep_interview
+    description: 教练模式诊断学生当前处于深访五步法的哪一步
   deliverables:
-    - item: "Proto-Persona 草稿 (Figma)"
-      requirements:
-        - "基于真实田野调研数据填写，非主观臆断"
-        - "必须包含排他性特征（不可放之四海皆准）"
-        - "三窗格：角色轮廓 / 行为核心特征 / 目标与障碍"
-    - item: "原始访谈录音节选"
-      requirements:
-        - "带精确时间戳的未修饰逐字稿 (Verbatim)"
-        - "包含受访者肢体动作观察记录"
-        - "至少 1 段完整的 5-Why 追问链路"
-    - item: "访谈现场环境照片"
-      requirements:
-        - "至少 2 张现场环境照"
-        - "用于验证实地调研的真实性"
-    - item: "知情同意书"
-      requirements:
-        - "受访者签名的知情同意书（模板由教师统一发放）"
-        - "培养学生 UX Research Ethics 的专业素养"
-  scaffolding:
-    note: "降低首次田野调研门槛的支撑材料"
-    materials:
-      - "访谈脚本模板（含破冰话术 + 5-Why 追问示例 + 结束语）"
-      - "知情同意书 PDF 模板"
-      - "田野录音指南（手机录音设置、注意事项）"
-      - "赛道卡片（每个赛道的情境描述 + 受访者触达建议）"
-  mid_week_checkpoint:
-    day: "W03 周三"
-    method: "微信群/学习通"
-    requirement: "各组提交一张田野现场照片 + 一句话进度更新"
-    purpose: "过程性检查，防止最后一天突击造假"
+  - AI 对话日志截图（至少包含 5 轮有效追问）
+  - Agent 生成的结构化 Proto-Persona 数据卡文本（/总结 输出）
+  timer:
+    display: 大屏幕倒计时
+    total_seconds: 2400
+    warning_at: 300
+    end_action: 提示音，提醒输入 /总结 获取数据卡
+- id: P3
+  name: 实践项目 荒野与猎物：田野调研项目启动与敏捷组队
+  minutes: 30
+  type: workshop
+  description: '确立 实践项目 项目作业下发，组建 Hustler/Hipster/Hacker 铁三角敏捷小队， 现场锁定研究赛道领域。讲解反面教材"死于大楼里的完美报告"，
+    强调实地田野调查的不可替代性。
 
-# === 上游依赖 ===
+    '
+  tools:
+  - 教学系统（赛道选择）
+  materials:
+  - type: instruction
+    title: 实践项目 项目指令书
+    deploy_note: 课前准备项目指令书 PDF，含赛道列表与交付物标准
+  - type: template
+    title: 访谈脚本模板（含破冰话术+5-Why 示例）
+    deploy_note: 课前准备 PDF，降低学生首次陌生人访谈的门槛
+  - type: document
+    title: 知情同意书模板
+    deploy_note: 课前准备 PDF 模板，统一发放给学生
+  steps:
+  - 教师讲解 实践项目 项目规则与反面教材 (10 min)
+  - 敏捷组队：强制 Hustler + Hipster + Hacker 角色组合 (5 min)
+  - 赛道选择：各组从赛道池中选择感兴趣的场景（允许自选，优先选择制） (5 min)
+  - 组内破冰讨论：初步分工与第一次田野出动计划 (10 min)
+  team_constraints:
+    min_size: 3
+    max_size: 5
+    required_roles:
+    - role: Hustler (商业/沟通主导者)
+      min_count: 1
+      description: 擅长沟通，负责深度定性访谈和可用性测试
+    - role: Hipster (体验/控制者)
+      min_count: 1
+      description: 对排版、视觉层级有极高要求，负责最终原型的用户体验
+    - role: Hacker (逻辑/工程师)
+      min_count: 1
+      description: 负责工程逻辑架构和数据流转图，确保技术可行性
+  track_pool:
+    note: '赛道经过数媒学生可触达性校准，确保每个赛道的受访者 均可在校园或日常生活圈内找到。学生可自选赛道（优先选择制）， 也可提出自定义赛道经教师审核后使用。
+
+      '
+    selection_mode: 自由选择（优先选择制，非抽签）
+    tracks:
+    - id: T01
+      name: 校园外卖/快递最后一公里的交互摩擦
+      hint_emotional: 恶劣天气时骑手对超时罚款和差评的双重恐惧
+      accessibility: ✅ 校园周边大量骑手和快递驿站可触达
+    - id: T02
+      name: 独居青年的饮食健康管理
+      hint_emotional: 深夜点外卖时对'正在慢性自杀'的自我厌恶与无力感
+      accessibility: ✅ 同龄人中极常见
+    - id: T03
+      name: 社交恐惧群体的线上消费决策
+      hint_emotional: 害怕退换货时需要打电话与客服沟通的社交压力
+      accessibility: ✅ 同龄人中极常见
+    - id: T04
+      name: 学生社团/班级的财务与活动管理
+      hint_emotional: 被质疑账目不清时的委屈感和怕麻烦导致的拖延
+      accessibility: ✅ 校内社团可直接访谈
+    - id: T05
+      name: 考研/考公备考的自习空间争夺
+      hint_emotional: 图书馆抢座失败时对'时间被偷走'的焦虑和愤怒
+      accessibility: ✅ 校园内大量备考学生
+    - id: T06
+      name: 短视频/自媒体创作者的内容运营焦虑
+      hint_emotional: 精心制作的视频播放量惨淡时的自我怀疑和算法无力感
+      accessibility: ✅ 数媒专业同龄人中大量存在
+    - id: T07
+      name: 二手交易平台的信任危机
+      hint_emotional: 被骗/收到与描述不符的商品后的愤怒和维权无力感
+      accessibility: ✅ 学生群体高频使用闲鱼等平台
+    - id: T08
+      name: 在线学习/网课平台的学习体验断裂
+      hint_emotional: 网课走神后追赶进度时的焦虑和'反正也学不会'的习得性无助
+      accessibility: ✅ 所有学生的亲身体验
+  deliverables:
+  - 组队名单（含各成员角色分工与制衡机制说明）
+  - 选定的赛道领域
+  - 初步田野出动计划（时间、地点、目标受访者画像）
+  theory_link:
+  - concept_id: cognitive_friction
+    description: 田野调查的基本方法与规范
+实践环节_homework:
+  deadline: W04 课前
+  deliverables:
+  - item: Proto-Persona 草稿 (Figma)
+    requirements:
+    - 基于真实田野调研数据填写，非主观臆断
+    - 必须包含排他性特征（不可放之四海皆准）
+    - 三窗格：角色轮廓 / 行为核心特征 / 目标与障碍
+  - item: 原始访谈录音节选
+    requirements:
+    - 带精确时间戳的未修饰逐字稿 (Verbatim)
+    - 包含受访者肢体动作观察记录
+    - 至少 1 段完整的 5-Why 追问链路
+  - item: 访谈现场环境照片
+    requirements:
+    - 至少 2 张现场环境照
+    - 用于验证实地调研的真实性
+  - item: 知情同意书
+    requirements:
+    - 受访者签名的知情同意书（模板由教师统一发放）
+    - 培养学生 UX Research Ethics 的专业素养
+  scaffolding:
+    note: 降低首次田野调研门槛的支撑材料
+    materials:
+    - 访谈脚本模板（含破冰话术 + 5-Why 追问示例 + 结束语）
+    - 知情同意书 PDF 模板
+    - 田野录音指南（手机录音设置、注意事项）
+    - 赛道卡片（每个赛道的情境描述 + 受访者触达建议）
+  mid_week_checkpoint:
+    day: W03 周三
+    method: 微信群/学习通
+    requirement: 各组提交一张田野现场照片 + 一句话进度更新
+    purpose: 过程性检查，防止最后一天突击造假
 upstream_dependencies:
-  - week: 1
-    concepts: ["interaction_definition", "usability_goals", "cognitive_friction"]
-  - week: 2
-    concepts: ["mental_model", "design_principles_5"]
+- week: 1
+  concepts:
+  - interaction_definition
+  - usability_goals
+  - cognitive_friction
+- week: 2
+  concepts:
+  - mental_model
+  - design_principles_5

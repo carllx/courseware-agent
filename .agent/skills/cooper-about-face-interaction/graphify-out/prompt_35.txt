@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=35, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_35.json
+FILES:
+/private/tmp/about_face_chunks/chunk_851_Unbounded_entry__text_edit_con.md
+/private/tmp/about_face_chunks/chunk_852_Validated_entry_controls.md
+/private/tmp/about_face_chunks/chunk_853_Active_and_passive_validation.md
+/private/tmp/about_face_chunks/chunk_854_Hints.md
+/private/tmp/about_face_chunks/chunk_855_Handling_out_of_bounds_data.md
+/private/tmp/about_face_chunks/chunk_856_Units_and_measurements.md
+/private/tmp/about_face_chunks/chunk_857_Avoid_text_edit_controls_for_o.md
+/private/tmp/about_face_chunks/chunk_858_Display_controls.md
+/private/tmp/about_face_chunks/chunk_859_Text_controls.md
+/private/tmp/about_face_chunks/chunk_860_Scrollbars.md
+/private/tmp/about_face_chunks/chunk_861_Splitters.md
+/private/tmp/about_face_chunks/chunk_862_Drawers_and_levers.md
+/private/tmp/about_face_chunks/chunk_863_Dialogs.md
+/private/tmp/about_face_chunks/chunk_864_Appropriate_use_of_dialogs.md
+/private/tmp/about_face_chunks/chunk_865_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_866_Basic_dialog_interactions.md
+/private/tmp/about_face_chunks/chunk_867_Modal_and_modeless_dialogs.md
+/private/tmp/about_face_chunks/chunk_868_Differentiating_modal_and_mode.md
+/private/tmp/about_face_chunks/chunk_869_Issues_with_modal_dialogs.md
+/private/tmp/about_face_chunks/chunk_870_Issues_with_modeless_dialogs.md
+/private/tmp/about_face_chunks/chunk_871_Modeless_dialogs_and_Undo.md
+/private/tmp/about_face_chunks/chunk_872_Modeless_dialogs_and_sidebars.md
+/private/tmp/about_face_chunks/chunk_873_Five_purposes_of_dialogs.md
+/private/tmp/about_face_chunks/chunk_874_Property_dialogs.md
+/private/tmp/about_face_chunks/chunk_875_Function_dialogs.md

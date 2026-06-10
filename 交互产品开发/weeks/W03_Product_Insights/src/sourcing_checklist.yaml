@@ -178,7 +178,7 @@
   disposition: ''
   lock_reason: ''
 - slide: w03-slide-38_data_illusion
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: Center
   priority: medium
   media_type: image
@@ -198,7 +198,7 @@
   disposition: ''
   lock_reason: ''
 - slide: w03-slide-38_field_reality
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: Center
   priority: medium
   media_type: image
@@ -218,7 +218,7 @@
   disposition: ''
   lock_reason: ''
 - slide: w03-slide-31b
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: Title
   priority: medium
   media_type: image
@@ -352,7 +352,7 @@
   disposition: ''
   lock_reason: ''
 - slide: w03-slide-36_activity_rules
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: List
   priority: low
   media_type: video
@@ -371,7 +371,7 @@
   disposition: ''
   lock_reason: ''
 - slide: w03-slide-31
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: Grid
   priority: low
   media_type: video
@@ -481,7 +481,7 @@
   disposition: ''
   lock_reason: ''
 - slide: w03-slide-30
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: Center
   priority: low
   media_type: image
@@ -503,7 +503,7 @@
   disposition: ''
   lock_reason: ''
 - slide: w03-slide-28b
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: Center
   priority: low
   media_type: image
@@ -523,8 +523,8 @@
   stitch_mode: auto
   disposition: ''
   lock_reason: ''
-- slide: M06_实践与小结_微调研沙局与_Exp1_启动_narr_L14
-  module: M06_实践与小结_微调研沙局与_Exp1_启动
+- slide: M06_实践与小结_微调研沙局与_实践环节_启动_narr_L14
+  module: M06_实践与小结_微调研沙局与_实践环节_启动
   layout: ''
   priority: low
   media_type: image
@@ -541,7 +541,7 @@
   search_queries:
   - MacBook photo
   - MacBook real image
-  target_path: ../public/slides/M06_实践与小结_微调研沙局与_Exp1_启动_narr_L14_real.png
+  target_path: ../public/slides/M06_实践与小结_微调研沙局与_实践环节_启动_narr_L14_real.png
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []

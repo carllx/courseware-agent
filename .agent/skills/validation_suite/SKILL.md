@@ -94,3 +94,10 @@ description: 维护项目健康度、文档一致性和教学质量的自动化�
     python scripts/validate_asset_placement.py --course "信息可视化"
     python scripts/validate_asset_placement.py --course "信息可视化" --fix  # 自动迁移+清理
     ```
+
+### 9. 独立实验学时验证 (`check_experiment_hours.py`)
+*   **用途**: 针对新版架构，读取动态实验文件（`exp_*.yaml`）的学时并与 `course_meta.yaml` 的 `practice` 学时对账。独立运行，不污染 Loader 本身。
+*   **用法**:
+    ```bash
+    python validation-suite/check_experiment_hours.py --course "信息可视化"
+    ```

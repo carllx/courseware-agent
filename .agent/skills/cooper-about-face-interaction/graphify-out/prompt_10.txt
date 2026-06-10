@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=10, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_10.json
+FILES:
+/private/tmp/about_face_chunks/chunk_226_Pretend_the_product_is_human.md
+/private/tmp/about_face_chunks/chunk_227_Apply_principles_and_patterns.md
+/private/tmp/about_face_chunks/chunk_228_Step_3__Determine_functional_g.md
+/private/tmp/about_face_chunks/chunk_229_Step_4__Sketch_the_interaction.md
+/private/tmp/about_face_chunks/chunk_230_Step_5__Construct_key_path_sce.md
+/private/tmp/about_face_chunks/chunk_231_Storyboarding.md
+/private/tmp/about_face_chunks/chunk_232_Process_variations_and_iterati.md
+/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md
+/private/tmp/about_face_chunks/chunk_234_Defining_the_visual_design_fra.md
+/private/tmp/about_face_chunks/chunk_235_Step_1__Develop_experience_att.md
+/private/tmp/about_face_chunks/chunk_236_Step_2__Develop_visual_languag.md
+/private/tmp/about_face_chunks/chunk_237_Step_3__Apply_the_chosen_visua.md
+/private/tmp/about_face_chunks/chunk_238_Defining_the_industrial_design.md
+/private/tmp/about_face_chunks/chunk_239_Step_1__Collaborate_with_inter.md
+/private/tmp/about_face_chunks/chunk_240_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_241_Step_2__Develop_rough_prototyp.md
+/private/tmp/about_face_chunks/chunk_242_Step_3__Develop_form_language_.md
+/private/tmp/about_face_chunks/chunk_243_Defining_the_service_design_fr.md
+/private/tmp/about_face_chunks/chunk_244_Step_1__Describe_customer_jour.md
+/private/tmp/about_face_chunks/chunk_245_Step_2__Create_a_service_bluep.md
+/private/tmp/about_face_chunks/chunk_246_Step_3__Create_experience_prot.md
+/private/tmp/about_face_chunks/chunk_247_Refining_the_Form_and_Behavior.md
+/private/tmp/about_face_chunks/chunk_248_Validating_and_Testing_the_Des.md
+/private/tmp/about_face_chunks/chunk_249_What_to_test.md
+/private/tmp/about_face_chunks/chunk_250_When_to_test__Summative_and_fo.md

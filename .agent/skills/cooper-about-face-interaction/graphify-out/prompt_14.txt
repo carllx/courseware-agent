@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=14, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_14.json
+FILES:
+/private/tmp/about_face_chunks/chunk_326_Remembering_file_locations.md
+/private/tmp/about_face_chunks/chunk_327_Deducing_information.md
+/private/tmp/about_face_chunks/chunk_328_Multi_session_Undo.md
+/private/tmp/about_face_chunks/chunk_329_Past_data_entries.md
+/private/tmp/about_face_chunks/chunk_330_Foreign_application_activities.md
+/private/tmp/about_face_chunks/chunk_331_Making_smart_products_work.md
+/private/tmp/about_face_chunks/chunk_332_Decision_set_reduction.md
+/private/tmp/about_face_chunks/chunk_333_Preference_thresholds.md
+/private/tmp/about_face_chunks/chunk_334_Mostly_right__most_of_the_time.md
+/private/tmp/about_face_chunks/chunk_335_Designing_Social_Products.md
+/private/tmp/about_face_chunks/chunk_336_Social_products_know_the_diffe.md
+/private/tmp/about_face_chunks/chunk_337_Social_software_lets_users_pre.md
+/private/tmp/about_face_chunks/chunk_338_User_identity.md
+/private/tmp/about_face_chunks/chunk_339_Dynamic_vs_static_user_profile.md
+/private/tmp/about_face_chunks/chunk_340_Social_software_permits_easy_c.md
+/private/tmp/about_face_chunks/chunk_341_Social_products_know_when_to_s.md
+/private/tmp/about_face_chunks/chunk_342_Social_products_help_networks_.md
+/private/tmp/about_face_chunks/chunk_343_Social_products_respect_the_co.md
+/private/tmp/about_face_chunks/chunk_344_Social_products_respect_other_.md
+/private/tmp/about_face_chunks/chunk_345_Social_products_deal_appropria.md
+/private/tmp/about_face_chunks/chunk_346_PLATFORM_AND_POSTURE.md
+/private/tmp/about_face_chunks/chunk_347_Product_Platforms.md
+/private/tmp/about_face_chunks/chunk_348_Product_Postures.md
+/private/tmp/about_face_chunks/chunk_349_Postures_for_the_Desktop.md
+/private/tmp/about_face_chunks/chunk_350_Sovereign_posture.md

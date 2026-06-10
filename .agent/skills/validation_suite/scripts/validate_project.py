@@ -102,6 +102,9 @@ def main():
         validators.append(
             (os.path.join(script_dir, "validate_knowledge.py"),
              "知识枢纽健康检查", course_args))
+        validators.append(
+            (os.path.join(workspace, "validation-suite", "check_experiment_hours.py"),
+             "实验学时独立对账 (ADR-045)", course_args))
 
     validators.append(
         (os.path.join(script_dir, "validate_package.py"),

@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=15, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_15.json
+FILES:
+/private/tmp/about_face_chunks/chunk_351_Target_intermediate_users.md
+/private/tmp/about_face_chunks/chunk_352_Be_generous_with_screen_real_e.md
+/private/tmp/about_face_chunks/chunk_353_Use_a_minimal_visual_style.md
+/private/tmp/about_face_chunks/chunk_354_Provide_rich_visual_feedback.md
+/private/tmp/about_face_chunks/chunk_355_Support_rich_input.md
+/private/tmp/about_face_chunks/chunk_356_Design_for_documents.md
+/private/tmp/about_face_chunks/chunk_357_Transient_posture.md
+/private/tmp/about_face_chunks/chunk_358_Make_it_bright_and_clear.md
+/private/tmp/about_face_chunks/chunk_359_Keep_it_simple.md
+/private/tmp/about_face_chunks/chunk_360_Remember_user_choices.md
+/private/tmp/about_face_chunks/chunk_361_Daemonic_posture.md
+/private/tmp/about_face_chunks/chunk_362_Postures_for_the_Web.md
+/private/tmp/about_face_chunks/chunk_363_Informational_website_posture.md
+/private/tmp/about_face_chunks/chunk_364_Balancing_sovereign_and_transi.md
+/private/tmp/about_face_chunks/chunk_365_Sovereign_attributes.md
+/private/tmp/about_face_chunks/chunk_366_Transient_attributes.md
+/private/tmp/about_face_chunks/chunk_367_Transactional_website_posture.md
+/private/tmp/about_face_chunks/chunk_368_Web_application_posture.md
+/private/tmp/about_face_chunks/chunk_369_Sovereign_web_applications.md
+/private/tmp/about_face_chunks/chunk_370_Transient_web_applications.md
+/private/tmp/about_face_chunks/chunk_371_Postures_for_Mobile_Devices.md
+/private/tmp/about_face_chunks/chunk_372_Smartphone_and_handheld_postur.md
+/private/tmp/about_face_chunks/chunk_373_Satellite_posture.md
+/private/tmp/about_face_chunks/chunk_374_Standalone_posture.md
+/private/tmp/about_face_chunks/chunk_375_Tablet_device_posture.md

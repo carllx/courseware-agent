@@ -11,7 +11,7 @@ status: ready
 tags:
 - ch08-data-gathering
 - lean-ux-ch05-06-business
-- exp1-lean-ux-overview
+- 实践项目-lean-ux-overview
 - JTBD
 - user-research
 delivery_mode: lecture
@@ -30,4 +30,4 @@ segments:
 - id: M05
   src: src/M05_讲授三_敏捷痛点发掘与_Problem_Statement.md
 - id: M06
-  src: src/M06_实践与小结_微调研沙局与_Exp1_启动.md
+  src: src/M06_实践与小结_微调研沙局与_实践环节_启动.md

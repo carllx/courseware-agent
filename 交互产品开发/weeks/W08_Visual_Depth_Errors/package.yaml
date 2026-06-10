@@ -28,6 +28,6 @@ segments:
 - id: M04
   src: src/M04_防错设计与安全网体系.md
 - id: M05
-  src: src/M05_实践_收尾_实验2.md
+  src: src/M05_实践_收尾_实践项目2.md
 - id: M06
   src: src/M06_小结_防错纪律与隐形盔甲.md

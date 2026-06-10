@@ -14,7 +14,7 @@ tags:
 - ixd-design-principles
 - about-face-mental-models
 - about-face-ch01-digital-fail
-- Exp1
+- 实践项目
 delivery_mode: Lecture + Workshop
 core_theories: []
 segments:
@@ -31,4 +31,4 @@ segments:
 - id: M04
   src: src/M04_防止摩擦的五把武器_设计原则.md
 - id: M05
-  src: src/M05_第一战场_实验1_敏捷洞察与_MVP.md
+  src: src/M05_第一战场_实践项目1_敏捷洞察与_MVP.md

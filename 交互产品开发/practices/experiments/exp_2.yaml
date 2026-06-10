@@ -1,0 +1,76 @@
+exp_id: 2
+name: 画出 Proto Persona（用户画像）
+type: 设计性
+hours: 4
+group_size: 1
+requirement: 必做
+summary: 基于实验 1 的痛点挖掘，在设计工具中制作包含四大标准模块的 Proto Persona 视觉画像。
+method_theory: |
+  Proto-Persona 画像卡的标准四窗格布局规范包含四个区块：
+  模块一：背景档案 (Demographics & Context)；
+  模块二：行为核心特征 (Behavioral Quirks，⚠️ 非人口学标签)；
+  模块三：JTBD三维任务拆解 (Functional/Social/Emotional)；
+  模块四：痛点陈述 (Problem Statement「谁+需要+因为」)。
+  本课程将教材下半区的「目标 + 需求 + 障碍」拆解为模块三与模块四，聚焦分析与表达工具。
+objectives: |
+  （一）掌握 Proto-Persona（原型用户画像）的四大标准模块格式，能将访谈数据转化为结构化的视觉画像。
+  （二）理解 人口统计学陷阱 (Demographic Trap) 的危害，能在画像制作中自觉规避用人口学标签替代行为差异特征的错误做法。
+  （三）掌握将文字调研数据视觉化表达的基本能力，能使用任意工具在 A4 版面上完成清晰、有层次的画像卡设计。
+  （四）理解 Proto-Persona 作为 Lean UX 假设验证起点的定位——它是一份「待验证的假设」，而非已确认的结论。
+equipment: |
+  1. 硬件：个人计算机（学校机房或自备）
+  2. 输入材料：实验 1 的 /总结 数据卡
+  3. 参考素材：教材参考图或网上搜索
+  4. 制作工具（任选其一）：Figma / Adobe Illustrator / 手绘 / Procreate / 其他绘图软件
+requirements: |
+  （一）须输出包含四大模块的 A4 尺寸 Proto-Persona 画像卡成品。
+  （二）须提供至少 3 张制作过程截图。
+  （三）须完成实践报告，图文交替排版。
+methods: |
+  1. 整理实验 1 的结构化 JTBD 数据。
+  2. 使用设计工具建立 A4 画布并划分四大区块。
+  3. 填入背景档案、行为核心特征、JTBD 和痛点陈述，并排版导出。
+conclusions: |
+  反思数据转化可视化的难点，总结在规避人口学陷阱上的思考，理解 Proto-Persona 作为假设的定位。
+steps:
+- id: S1
+  name: 准备阶段与工具选择
+  guide_text:
+  - 准备好实验1的 /总结 数据卡文本或截图作为输入材料。
+  - 选择你熟练的制作工具（Figma / Adobe Illustrator / 手绘 / Procreate 等），创建一个A4版面。
+  report_prompt:
+  - type: text
+    prompt: 你最终选择的排版与制作工具是：
+- id: S2
+  name: 四大标准模块设计与排版
+  guide_text:
+  - 严格遵循标准四窗格布局规范，将画布划分为四个区块。
+  - 模块一：背景档案 (Demographics & Context)；
+  - 模块二：行为核心特征 (Behavioral Quirks，注意：非人口学标签)；
+  - 模块三：JTBD三维任务拆解 (Functional/Social/Emotional)；
+  - 模块四：痛点陈述 (Problem Statement「谁+需要+因为」)。
+  report_prompt:
+  - type: image
+    prompt: 📸 [图 2-1]：（粘贴你制作中或排版完成的 Proto-Persona 画像卡草稿截图）
+- id: S3
+  name: 最终成果输出
+  guide_text:
+  - 将枯燥的文字调研数据视觉化表达，确保内容清晰、有层次。
+  - 自查是否规避了“人口统计学陷阱”，重点是否放在了行为差异特征上。
+  report_prompt:
+  - type: image
+    prompt: 📸 [最终成果]：（此处粘贴最终导出的高清晰度 Proto-Persona 用户画像成品图）
+analysis_prompts:
+- '[访谈深度反思：你最终达到了 AI 陪练的哪个层级？获得了几星评级？影响你访谈深度的关键因素是什么？]'
+- '[核心概念实践体会：在本次访谈中，你对以下哪个知识点有了更深的理解？（言行鸿沟 Say-Do Gap / 5-Whys 连环追问法 / JTBD 三维度任务拆解）请结合具体的对话片段说明。]'
+- '[提问策略总结：哪些提问最有效地推动了访谈深入？哪些提问导致了 AI 角色的敷衍回应？]'
+grading_rubric:
+- dimension: 数据内容有效性
+  points: 30
+  standard: 四大模块内容完整，有效规避人口学陷阱，内容聚焦于行为特征与JTBD。
+- dimension: 排版与结构完整性
+  points: 30
+  standard: 严格遵循四大标准模块的四窗格布局规范，A4尺寸画布布局合理、层级清晰。
+- dimension: 视觉化表达能力
+  points: 40
+  standard: 无论使用数字工具还是手绘，均展现了出色的文字数据视觉化能力，整体专业且有层次感。

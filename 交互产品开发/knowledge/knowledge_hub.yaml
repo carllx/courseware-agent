@@ -61,6 +61,8 @@ entries: [{id: ch01-what-is-ixd, source: 'knowledge/textbook/Interaction Design_
     summary: 数字产品失败原因与恶劣产品行为代价, tags: [about-face, digital-products, failure], type: textbook},
   {id: about-face-ch11-flow, source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_23_ORCHESTRATION_AND_FLOW.md,
     summary: 页面流与和谐交互的状态机梳理, tags: [about-face, orchestration, flow, Exp2], type: textbook},
+  {id: about-face-ch14-framework, source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_14_DESIGNING_THE_PRODUCT_FRAMEWORK_AND_REFINEMENT.md,
+    summary: 产品交互框架定义流程与状态流转, tags: [about-face, framework, flow, Exp2], type: textbook},
   {id: about-face-ch15-prevent-errors, source: knowledge/textbook/Cooper_A_About_Face_The_Essentials_of_Interaction_/chapter_34_PREVENTING_ERRORS_AND_INFORMING_DECISIONS.md,
     summary: 预防错误与情境反馈的兜底设计, tags: [about-face, error-prevention, affordance, Exp2],
     type: textbook}, {id: refactoring-ui-hierarchy, source: knowledge/textbook/Wathan_A_Refactoring_UI_2018/chapter_06_Hierarchy_is_Everything.md,

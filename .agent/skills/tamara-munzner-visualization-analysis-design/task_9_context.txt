@@ -1,0 +1,202 @@
+Node: 7.6 Spatial Axis Orientation
+Primary concept extracted from chunk
+# 7.6 Spatial Axis Orientation
+
+An additional design choice with the use of space is how to orient the spatial axes: whether to use rectilinear, parallel, or radial layout.
+---
+Node: 7.6.1 Rectilinear Layouts
+Primary concept extracted from chunk
+# 7.6.1 Rectilinear Layouts
+
+In a rectilinear layout, regions or items are distributed along two perpendicular axes, horizontal and vertical spatial position, that range from minimum value on one side of the axis to a maximum value on the other side. Rectilinear layouts are heavily used in vis design and occur in many common statistical charts. All of the examples above use rectilinear layouts.
+---
+Node: 7.6.2 Parallel Layouts
+Primary concept extracted from chunk
+# 7.6.2 Parallel Layouts
+
+The rectilinear approach of a scatterplot, where items are plotted as dots with respect to perpendicular axes, is only usable for two data attributes when high-precision planar spatial position is used. Even if the low-precision visual channel of a third spatial dimension is used, then only three data attributes can be shown using spatial position channels. Although additional nonspatial channels can be used for visual encoding, the problem of channel inseparability limits the number of channels that can be combined effectively in a single view. Of course, many tables contain far more than three quantitative attributes.
+---
+Node: Example: Parallel Coordinates
+Primary concept extracted from chunk
+# Example: Parallel Coordinates
+
+The idiom of parallel coordinates is an approach for visualizing many quantitative attributes at once using spatial position. As the name suggests, the axes are placed parallel to each other, rather than perpendicularly at right angles. While an item is shown with a dot in a scatterplot, with parallel coordinates a single item is represented by a jagged line that zigzags through the parallel axes, crossing each axis exactly once at the location of the item’s value for the associated attribute.* Figure 7.12 shows an example of the same small data table shown both as a SPLOM and with parallel coordinates.
+
+One original motivation by the designers of parallel coordinates was that they can be used for the abstract task of checking for correlation between attributes. In scatterplots, the visual pattern showing correlation is the tightness of the diagonal pattern formed by the item dots, tilting
+
+‣ The potential drawbacks of using three spatial dimensions for abstract data are discussed in Section 6.3.   
+The issue of separable versus integral channels is covered in Section 5.5.3.
+
+* In graphics terminology, the jagged line is a polyline: a connected set of straight line segments.
+
+<table><tr><td colspan="4">Table</td></tr><tr><td>Math</td><td>Physics</td><td>Dance</td><td>Drama</td></tr><tr><td>85</td><td>95</td><td>70</td><td>65</td></tr><tr><td>90</td><td>80</td><td>60</td><td>50</td></tr><tr><td>65</td><td>50</td><td>90</td><td>90</td></tr><tr><td>50</td><td>40</td><td>95</td><td>80</td></tr><tr><td>40</td><td>60</td><td>80</td><td>90</td></tr></table>
+
+![](images/d5fa3602662d72146964ad0732e3faa25a1bf81669ea5ebe1a70531e23901b9a.jpg)
+
+![](images/376437371ea3a89ac093016d0bc16f06b8f443189ee51471eedabc2d5f35a055.jpg)  
+Figure 7.12. Comparison of scatterplot matrix and parallel coordinate idioms for a small data table. After [McGuffin 14].
+
+upward for positive correlation and downward for negative correlation. If the attributes are not correlated, the points fall throughout the twodimensional region rather than tightly along the diagonal. With parallel coordinates, correlation is also visible, but through different kinds of visual patterns, as illustrated in Figure 7.13. If two neighboring axes have high positive correlation, the line segments are mostly parallel. If two axes have high negative correlation, the line segments mostly cross over each other at a single spot between the axes. The pattern in between uncorrelated axes is a mix of crossing angles.
+
+However, in practice, SPLOMs are typically easier to use for the task of finding correlation. Parallel coordinates are more often used for other tasks, including overview over all attributes, finding the range of individual attributes, selecting a range of items, and outlier detection. For example, in Figure 7.14(a), the third axis, labeled manu wrkrs, has a broad range nearly to the normalized limits of 628.50 and 441.50, whereas the range of values on the sixth axis, labeled cleared, is more narrow; the top item on the fourth axis, labeled handgun lc, appears to be an outlier with respect to that attribute.
+
+Parallel coordinates visually encode data using two dimensions of spatial position. Of course, any individual axis requires only one spatial dimension, but the second dimension is used to lay out multiple axes. The scalability is high in terms of the number of quantitative attribute values that can be discriminated, since the high-precision channel of planar spatial position is used. The exact number is roughly proportional to the screen space extent of the axes, in pixels. The scalability is moderate in
+
+![](images/69b32066e5bba24b99159f2f3150d39ad4ad875551f5c53abd1ab566da2edd11.jpg)  
+Figure 7.13. Parallel coordinates were designed to show correlation between neighboring axes. At the top, parallel lines show perfect positive correlation. At the bottom, all of the lines cross over each other at a single spot in between the two axes, showing perfect negative correlation. In the middle, the mix of crossings shows uncorrelated data. From [Wegman 90, Figure 3].
+
+terms of number of attributes that can be displayed: dozens is common. As the number of attributes shown increases, so does the width required to display them, so a parallel coordinates display showing many attributes is typically a wide and flat rectangle. Assuming that the axes are vertical, then the amount of vertical screen space required to distinguish position along them does not change, but the amount of horizontal screen space increases as more axes are added. One limit is that there must be enough room between the axes to discern the patterns of intersection or parallelism of the line segments that pass between them.
+
+The basic parallel coordinates idiom scales to showing hundreds of items, but not thousands. If too many lines are overplotted, the resulting occlusion yields very little information. Figure 7.14 contrasts the idiom used successfully with 13 items and 7 attributes, as in Figure 7.14(a), versus ineffectively with over 16,000 items and 5 attributes, as in Figure 7.14(b). In the latter case, only the minimum and maximum values along each axis can be read; it is nearly impossible to see trends, anomalies, or correlations.
+
+The patterns made easily visible by parallel coordinates have to do with the pairwise relationships between neighboring axes. Thus, the cru-
+
+Section 13.4.1 covers scaling to larger datasets with hierarchical parallel coordinates.
+
+![](images/ac44ddf03246d63c3198a5e196c1cfabfa74ed8848d19cac313d08e2f15ed497.jpg)
+
+![](images/cba937af3f6d9d87e5ed5fc564d5232fe105b4858126eeed69f502adcd90f2c8.jpg)
+
+Figure 7.14. Parallel coordinates scale to dozens of attributes and hundreds of items, but not to thousands of items. (a) Effective use with 13 items and 7 attributes. (b) Ineffective use with over 16,000 items and 5 attributes. From [Fua et al. 99, Figures 1 and 2].
+
+cial limitation of parallel coordinates is how to determine the order of the axes. Most implementations allow the user to interactively reorder the axes. However, exploring all possible configurations of axes through systematic manual interaction would be prohibitively time consuming as the number of axes grows, because of the exploding number of possible combinations.
+
+Another limitation of parallel coordinates is training time; first-time users do not have intuitions about the meaning of the patterns they see, which must thus be taught explicitly. Parallel coordinates are often used in one of several multiple views showing different visual encodings of the same dataset, rather than as the only encoding. The combination of more familiar views such as scatterplots with a parallel coordinates view accelerates learning, particularly since linked highlighting reinforces the mapping between the dots in the scatterplots and the jagged lines in the parallel coordinates view.
+
+Multiple view design choices are discussed in Sections 12.3 and 12.4.
+
+<table><tr><td>Idiom</td><td>Parallel Coordinates</td></tr><tr><td>What: Data</td><td>Table: many value attributes.</td></tr><tr><td>How: Encode</td><td>Parallel layout: horizontal spatial position used to separate axes, vertical spatial position used to express value along each aligned axis with connection line marks as segments between them.</td></tr><tr><td>Why: Tasks</td><td>Find trends, outliers, extremes, correlation.</td></tr><tr><td>Scale</td><td>Attributes: dozens along secondary axis.
+Items: hundreds.</td></tr></table>
+---
+Node: 7.6.3 Radial Layouts
+Primary concept extracted from chunk
+# 7.6.3 Radial Layouts
+
+In a radial spatial layout, items are distributed around a circle using the angle channel in addition to one or more linear spatial channels, in contrast to the rectilinear layouts that use only two spatial channels.
+
+The natural coordinate system in radial layouts is polar coordinates, where one dimension is measured as an angle from a starting line and the other is measured as a distance from a center point. Figure 7.15 compares polar coordinates, as shown in Figure 7.15(a), with standard rectilinear coordinates, as shown in Figure 7.15(b). From a strictly mathematical point of view, rectilinear and radial layouts are equivalent under a particular kind of transformation: a box bounded by two sets of parallel lines is transformed into a disc where one line is collapsed to a point at the center and the other line wraps around to meet up with itself, as in Figure 7.15(c).
+
+However, from a perceptual point of view, rectilinear and radial layouts are not equivalent at all. The change of visual channel has two major consequences from visual encoding principles alone. First, the angle channel is less accurately perceived than a rectilinear spatial position channel. Second, the angle channel is inherently cyclic, because the start and end point are the same, as opposed to the inherently linear nature of a position channel.* The expressiveness and effectiveness principles suggest some guidelines on the use of radial layouts. Radial layouts may be more effective than rectilinear ones in showing the periodicity of patterns, but encoding nonperiodic data with the periodic channel of angle
+
+* In mathematical language, the angle channel is nonmonotonic.
+
+![](images/c41cfd15cfcaafbfc037f3ff7517d3dbb432b9dc559ba35e8668cf113e5a5fed.jpg)  
+(a)
+
+![](images/1afc5997d816d40fa37e1454438ca60faeb2e51eaf0baec911bc3c431cacded4.jpg)  
+(b)
+
+![](images/a08b075fbd52439546cbd889c78ba6ebced8f632aa9b005c0c13a87c8f2e9ff6.jpg)  
+(c)   
+Figure 7.15. Layout coordinate systems. (a) Radial layouts use polar coordinates, with one spatial position and one angle channel. (b) Rectlinear layouts use two perpendicular spatial position channels. After [Wickham 10, Figure 8]. (c) Transforming rectilinear to radial layouts maps two parallel bounding lines to a point at the center and a circle at the perimeter.
+
+may be misleading. Radial layouts imply an asymmetry of importance between the two attributes and would be inappropriate when the two attributes have equal importance.
+---
+Node: Example: Radial Bar Charts
+Primary concept extracted from chunk
+# Example: Radial Bar Charts
+
+The same five-attribute dataset is encoded with a rectilinear bar chart in Figure 7.16(a) and with a radial alternative in Figure 7.16(b). In both cases, line marks are used to encode a quantitative attribute with the length channel, and the only difference is the radial versus the rectilinear orientation of the axes.
+
+![](images/3e00cf249c52c1217625c0626f41ba223674d6bafa15fdea58c64f887296a531.jpg)
+
+![](images/3fd1c23a365217a7cf5badd1e7f77c4505f04ec4b930862ed8ba9dc07fd7226d.jpg)
+
+Figure 7.16. Radial versus rectilinear layouts. (a) Rectilinear bar chart. (b) Radial bar chart. After [Booshehrian et al. 11, Figure 4].
+
+<table><tr><td>Idiom</td><td>Radial Bar Charts</td></tr><tr><td>What: Data</td><td>Table: one quantitative attribute, one categorical attribute.</td></tr><tr><td>How: Encode</td><td>Length coding of line marks; radial layout.</td></tr></table>
+---
+Node: Example: Pie Charts
+Primary concept extracted from chunk
+# Example: Pie Charts
+
+The most commonly used radial statistical graphic is the pie chart, shown in Figure 7.17(a). Pie charts encode a single attribute with area marks and the angle channel. Despite their popularity, pie charts are clearly problematic when considered according to the visual channel properties discussed in Section 5.5. Angle judgements on area marks are less accurate than length judgements on line marks. The wedges vary in width along the radial axis, from narrow near the center to wide near the outside, making the area judgement particularly difficult. Figure 7.17(b) shows a bar chart with the same data, where the perceptual judgement required to read the data is the high-accuracy position along a common scale channel. Figure 7.17(c) shows a third radial chart that is a more direct equivalent of a bar chart transformed into polar coordinates. The polar area chart also encodes a single quantitative attribute but varies the length of the wedge just as a bar chart varies the length of the bar, rather than varying the angle as in a pie chart.* The data in Figure 7.17 shows the clarity distribution of diamonds, where I1 is worst and $I F$ is best. These instances redundantly encode each mark with color for easier legibility, but these idioms could be used without color coding.
+
+![](images/4a9b7cc1c7ae1b6fe78d5ddea019cbe1750b940408fe2417ef80694f5816d98c.jpg)  
+* Synonyms for polar area chart are rose plot and coxcomb plot; these were first popularized by Florence Nightingale in the 19th century in her analysis of Crimean war medical data.
+
+![](images/768c063235c3ba3497645982a2f3e09e7d21e1cba380a66a29c7ba15ff37840c.jpg)
+
+![](images/66654b314458cda32aa2080b7120bf3605a39b1f7fc0483d5977f76caea61eca.jpg)  
+Figure 7.17. Pie chart versus bar chart accuracy. (a) Pie charts require angle and area judgements. (b) Bar charts require only high-accuracy length judgements for individual items. (c) Polar area charts are a more direct equivalent of bar charts, where the length of each wedge varies like the length of each bar. From [Wickham 10, Figures 15 and 16].
+
+![](images/b0db9051cddd8e14fe9cf1302bbb6dee419132a93a924902f1bdf1cc8abbf81d.jpg)
+
+![](images/db8ef50380ef938ba17e116b126ad428c6f05c94717e638cc095e3211fe587f9.jpg)
+
+![](images/e1063310a2fafec78e1437005973fc580616c36bab3b4eab3e09b3bc4a95bb98.jpg)  
+Figure 7.18. Relative contributions of parts to a whole. (a) A single pie chart shows the relative contributions of parts to a whole, such as percentages, using area judgements. (b) Each bar in a normalized stacked bar chart also shows the relative contributions of parts to a whole, with a higher-accuracy length encoding. (c) A stacked bar chart shows the absolute counts in each bar, in contrast to the percentages when each bar is normalized to the same vertical length. From http://bl.ocks.org/mbostock/3887235, http://bl.ocks.org/mbostock/3886208, http://bl.ocks. org/mbostock/3886394.
+
+The most useful property of pie charts is that they show the relative contribution of parts to a whole. The sum of the wedge angles must add up to the $3 6 0 ^ { \circ }$ of a full circle, matching normalized data such as percentages where the parts must add up to $1 0 0 \%$ . However, this property is not unique to pie charts; a single bar in a normalized stacked bar chart can also be used to show this property with the more accurate channel of length judgements. A stacked bar chart uses a composite glyph made of stacking multiple sub-bars of different colors on top of each other; a normalized stacked bar chart stretches each of these bars to the maximum possible length, showing percentages rather than absolute counts. Only the lowest sub-bar in a stacked bar chart is aligned with the others in its category, allowing the very highest accuracy channel of position with respect to a common frame to be used. The other sub-bars use unaligned position, a channel that is less accurate than aligned position, but still more accurate than angle comparisons.
+
+Figure 7.18 compares a single pie chart showing aggregate population data for the entire United States to a normalized stacked bar chart and a stacked bar chart for all 50 states. An entire pie chart corresponds to a single bar in these charts; an equivalent display would be a list or matrix of pies.
+
+Pie charts require somewhat more screen area than normalized stacked bar charts because the angle channel is lower precision than the length channel. The aspect ratio also differs, where a pie chart requires a square, whereas a bar chart requires a long and narrow rectangle. Both pie charts and normalized stacked bar charts are limited to showing a small number of categories, with a maximum of around a dozen categories.
+
+Stacked glyphs are discussed further in Section 7.5.1.
+
+<table><tr><td>Idiom</td><td>Pie Charts</td></tr><tr><td>What: Data</td><td>Table: one quantitative attribute, one categorical attribute.</td></tr><tr><td>Why: Task</td><td>Part-whole relationship.</td></tr><tr><td>How: Encode</td><td>Area marks (wedges) with angle channel; radial lay-out.</td></tr><tr><td>Scale</td><td>One dozen categories.</td></tr><tr><td>Idiom</td><td>Polar Area Charts</td></tr><tr><td>What: Data</td><td>Table: one quantitative attribute, one categorical attribute.</td></tr><tr><td>Why: Task</td><td>Part-whole relationship.</td></tr><tr><td>How: Encode</td><td>Area marks (wedges) with length channel; radial lay-out.</td></tr><tr><td>Scale</td><td>One dozen categories.</td></tr><tr><td>Idiom</td><td>Normalized Stacked Bar Charts</td></tr><tr><td>What: Data</td><td>Multidimensional table: one quantitative value attribute, two categorical key attributes.</td></tr><tr><td>What: Derived</td><td>One quantitative value attribute (normalized version of original attribute).</td></tr><tr><td>Why: Task</td><td>Part-whole relationship.</td></tr><tr><td>How: Encode</td><td>Line marks with length channel; rectilinear layout.</td></tr><tr><td>Scale</td><td>One dozen categories for stacked attribute. Several dozen categories for axis attribute.</td></tr></table>
+
+Figure 7.19 compares rectilinear and radial layouts for 12 iconic time-series datasets: linear increasing, decreasing, shifted, single peak, single dip, combined linear and nonlinear, seasonal trends with different scales, and a combined linear and seasonal trend [Wickham et al. 12]. The rectilinear layouts in Figure 7.19(a) are more effective at showing the differences between the linear and nonlinear trends, whereas the radial plots Figure 7.19(b) are more effective at showing cyclic patterns.
+
+A first empirical study on radial versus rectilinear grid layouts by Diehl et al. focused on the abstract task of memorizing positions of objects for a few seconds [Diehl et al. 10]. They compared performance in terms of accuracy and speed for rectilinear grids of rows and columns versus radial grids of sectors and rows. (The study did not investigate the effect of periodicity.) In general, rectilinear
+
+![](images/31905a549e7f36254dc13272f815d7e8ee3c28cda4132bd4b657f065e85ecce0.jpg)  
+(a)
+
+![](images/e128a5c40c4bfdae53582fcd36b94d4e5e4aa888e981a6c1dac269092af65644.jpg)  
+(b)   
+Figure 7.19. Glyphmaps. (a) Rectilinear layouts are more effective at showing the differences between linear and nonlinear trends. (b) Radial layouts are more effective at showing cyclic patterns. From [Wickham et al. 12, Figure 3].
+
+layouts outperformed radial layouts: perception speed was faster, and accuracy tended to be better. However, their results also suggest the use of radial layouts can be justified when one attribute is more important than the other. In this case, the more important attribute should be encoded in the sectors and the less important attribute in the rings.
+---
+Node: 7.7 Spatial Layout Density
+Primary concept extracted from chunk
+# 7.7 Spatial Layout Density
+
+Another design choice with spatial visual encoding idioms is whether a layout is dense or sparse. A related, but not identical, choice is whether a layout is space-filling.
+
+* A synonym for dense is pixel-oriented.
+---
+Node: 7.7.1 Dense
+Primary concept extracted from chunk
+# 7.7.1 Dense
+
+A dense layout uses small and densely packed marks to provide an overview of as many items as possible with very high information density.* A maximally dense layout has point marks that are only a single pixel in size and line marks that are only a single pixel in width. The small size of the marks implies that only the planar position and color channels can be used in visual encoding; size and shape are not available, nor are others like tilt, curvature, or shape that require more room than is available.
+
+Section 15.4 presents a detailed case study of VisDB, a dense display for multidimensional tables using point marks.
+---
+Node: Example: Dense Software Overviews
+Primary concept extracted from chunk
+# Example: Dense Software Overviews
+
+Figure 7.20 shows the Tarantula system, a software engineering tool for visualizing test coverage [Jones et al. 02]. Dense displays using line marks have become popular for showing overviews of software source code. In these displays, the arrangement of the marks is dictated by the order and length of the lines of code, and the coloring of the lines encodes an attribute of interest.
+
+Most of the screen is devoted to a large and dense overview of source code using one-pixel tall lines, color coded to show whether it passed, failed, or had mixed results when executing a suite of test cases. Although of course the code is illegible in the low-resolution overview, this view does convey some information about the code structure. Indentation and line length are preserved, creating visible landmarks that help orient the reader. The layout wraps around to create multiple horizontal columns out of a single long linear list. The small source code view in the lower left corner is a detail view showing a few lines of source code at a legible size; that is, a high-resolution view with the same color coding and same spatial position. The dense display scales to around ten thousand lines of code, handling around one thousand vertical pixels and ten columns.
+
+The dataset used by Tarantula is an interesting complex combination of the software source code, the test results, and derived data. The original dataset is the software source code itself. Software code is highly structured text that is divided into numbered lines and has multiscale hierarchical structure with divisions into units such as packages, files, and methods. Most complex tasks in the software engineering domain require reading snippets of code line by line in the order that they were written by the programmer as a subtask, so changing or ignoring the order of lines within a method would not be an appropriate transformation. However, it’s common with software engineering tasks that only a small number of the many units in a software project need to be read at any given time.
+
+![](images/833ed4675dbfd8e6f228212bec9708f3e4d0e42d8118674250703558ab73e0b6.jpg)  
+Figure 7.20. Tarantula shows a dense overview of source code with lines color coded by execution status of a software test suite. From [Jones et al. 02, Figure 4].
+
+The design choice of a dense overview to provide orientation and a detail view where a small amount of text is shown legibly is thus reasonable.
+
+The original dataset also includes the tests, where each test has the categorical attribute of test or fail and is associated with a set of specific lines of the source code. Tarantula computes two derived quantitative attributes that are encoded with hue and brightness. The brightness encodes the percentage of coverage by the test cases, where dark lines represent low coverage and bright ones are high coverage. The hue encodes the relative percentage of passed versus failed tests.
+
+This example shows a full system that uses multiple idioms, rather than just a single idiom. For completeness, the what–why–how analysis instance includes material covered in later chapters, about the design choices of how to facet into multiple windows and how to reduce the amount of data shown.
+
+The overview and detail choice for multiple views is covered in Section 12.3.
+
+<table><tr><td>Idiom</td><td>Dense Software Overviews</td></tr><tr><td>What: Data</td><td>Text with numbered lines (source code, test results log).</td></tr><tr><td>What: Derived</td><td>Two quantitative attributes (test execution results).</td></tr><tr><td>How: Encode</td><td>Dense layout. Spatial position and line length from text ordering. Color channels of hue and brightness.</td></tr><tr><td>Why: Task</td><td>Locate faults, summarize results and coverage.</td></tr><tr><td>Scale</td><td>Lines of text: ten thousand.</td></tr><tr><td>(How: Facet)</td><td>Same encoding, same dataset, global overview with detail showing subset of data, different resolutions, linking with color.</td></tr><tr><td>(How: Reduce)</td><td>Detail: filter to local neighborhood of selection</td></tr></table>
+---
+Node: 7.7.2 Space-Filling
+Primary concept extracted from chunk
+# 7.7.2 Space-Filling
+
+A space-filling layout has the property that it fills all available space in the view, as the name implies. Any of the three geometric possibilties discussed above can be space-filling. Space-filling layouts typically use area marks for items or containment marks for relationships, rather than line or connection marks, or point marks. Examples of space-filling layouts using containment marks are the treemaps in Figures 9.8 and 9.9(f) and the nested circle tree in Figure 9.9(e). Examples of space-filling layouts using area marks and the spatial position channels are the concentric circle tree in Figure 9.9(d) and the icicle tree of Figure 9.9(b).
+
+One advantage of space-filling approaches is that they maximize the amount of room available for color coding, increasing the chance that the colored region will be large enough to be perceptually salient to the viewer. A related advantage is that the available space representing an item is often large enough to show a label embedded within it, rather than needing more room off to the side.
+
+In contrast, one disadvantage of space-filling views is that the designer cannot make use of white space in the layout; that is, empty space where there are no explicit visual elements. Many graphic design guidelines pertain to the careful use of white space for many reasons, including readability, emphasis, relative importance, and visual balance.
+
+Space-filling layouts typically strive to achieve high information density. However, the property that a layout fills space is by no means a guarantee that is using space efficiently. More technically, the definition of space-filling is that the total area used by the layout is equal to the total area available in the view. There are many other possible metrics for analyzing the space efficiency of a layout. For instance, for trees, proposed metrics include the size of the smallest nodes and the area of labels on the nodes [McGuffin and Robert 10].

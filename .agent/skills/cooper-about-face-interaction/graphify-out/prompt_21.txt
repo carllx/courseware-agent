@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=21, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_21.json
+FILES:
+/private/tmp/about_face_chunks/chunk_501_Retrieval_in_the_digital_world.md
+/private/tmp/about_face_chunks/chunk_502_Digital_retrieval_methods.md
+/private/tmp/about_face_chunks/chunk_503_Attribute_based_retrieval_syst.md
+/private/tmp/about_face_chunks/chunk_504_Relational_databases_versus_di.md
+/private/tmp/about_face_chunks/chunk_505_Organizing_the_unorganizable.md
+/private/tmp/about_face_chunks/chunk_506_Problems_with_databases.md
+/private/tmp/about_face_chunks/chunk_507_The_attribute_based_alternativ.md
+/private/tmp/about_face_chunks/chunk_508_Constrained_natural_language_o.md
+/private/tmp/about_face_chunks/chunk_509_PREVENTING_ERRORS_AND_INFORMIN.md
+/private/tmp/about_face_chunks/chunk_510_Using_Rich_Modeless_Feedback.md
+/private/tmp/about_face_chunks/chunk_511_Rich_visual_modeless_feedback.md
+/private/tmp/about_face_chunks/chunk_512_Audible_feedback.md
+/private/tmp/about_face_chunks/chunk_513_Avoid_negative_audible_feedbac.md
+/private/tmp/about_face_chunks/chunk_514_Provide_positive_audible_feedb.md
+/private/tmp/about_face_chunks/chunk_515_Undo__Redo__and_Reversible_His.md
+/private/tmp/about_face_chunks/chunk_516_Undo_should_follow_mental_mode.md
+/private/tmp/about_face_chunks/chunk_517_User_mental_models_of_mistakes.md
+/private/tmp/about_face_chunks/chunk_518_Undo_enables_exploration.md
+/private/tmp/about_face_chunks/chunk_519_Designing_an_Undo_facility.md
+/private/tmp/about_face_chunks/chunk_520_Common_types_of_Undo.md
+/private/tmp/about_face_chunks/chunk_521_Incremental_and_procedural_act.md
+/private/tmp/about_face_chunks/chunk_522_Blind_and_explanatory_Undo.md
+/private/tmp/about_face_chunks/chunk_523_Single_and_multiple_Undo.md
+/private/tmp/about_face_chunks/chunk_524_Limitations_of_single_Undo.md
+/private/tmp/about_face_chunks/chunk_525_Limitations_of_multiple_Undo.md

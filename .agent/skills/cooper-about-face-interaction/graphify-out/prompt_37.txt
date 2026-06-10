@@ -1,0 +1,19 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=37, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_37.json
+FILES:
+/private/tmp/about_face_chunks/chunk_901_Chapter_3.md
+/private/tmp/about_face_chunks/chunk_902_Chapter_4.md
+/private/tmp/about_face_chunks/chunk_903_Chapter_5.md
+/private/tmp/about_face_chunks/chunk_904_Chapter_8.md
+/private/tmp/about_face_chunks/chunk_905_Chapter_9.md
+/private/tmp/about_face_chunks/chunk_906_Chapter_10.md
+/private/tmp/about_face_chunks/chunk_907_Chapter_11.md
+/private/tmp/about_face_chunks/chunk_908_Chapter_12.md
+/private/tmp/about_face_chunks/chunk_909_Chapter_13.md
+/private/tmp/about_face_chunks/chunk_910_Chapter_14.md
+/private/tmp/about_face_chunks/chunk_911_Chapter_17.md
+/private/tmp/about_face_chunks/chunk_912_Chapter_18.md
+/private/tmp/about_face_chunks/chunk_913_Chapter_19.md
+/private/tmp/about_face_chunks/chunk_914_Chapter_20.md
+/private/tmp/about_face_chunks/chunk_915_Chapter_21.md

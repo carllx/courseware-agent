@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=26, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_26.json
+FILES:
+/private/tmp/about_face_chunks/chunk_626_INTERACTION_DETAILS.md
+/private/tmp/about_face_chunks/chunk_627_DESIGNING_FOR_THE_DESKTOP.md
+/private/tmp/about_face_chunks/chunk_628_Anatomy_of_a_Desktop_App.md
+/private/tmp/about_face_chunks/chunk_629_Primary_and_secondary_windows.md
+/private/tmp/about_face_chunks/chunk_630_Primary_window.md
+/private/tmp/about_face_chunks/chunk_631_Secondary_windows.md
+/private/tmp/about_face_chunks/chunk_632_Primary_window_structure.md
+/private/tmp/about_face_chunks/chunk_633_Menu_and_toolbars.md
+/private/tmp/about_face_chunks/chunk_634_Content_panes.md
+/private/tmp/about_face_chunks/chunk_635_Index_panes.md
+/private/tmp/about_face_chunks/chunk_636_Tool_palettes.md
+/private/tmp/about_face_chunks/chunk_637_Sidebars.md
+/private/tmp/about_face_chunks/chunk_638_Windows_on_the_Desktop.md
+/private/tmp/about_face_chunks/chunk_639_Overlapping_windows.md
+/private/tmp/about_face_chunks/chunk_640_Tiled_windows.md
+/private/tmp/about_face_chunks/chunk_641_Virtual_desktop_spaces.md
+/private/tmp/about_face_chunks/chunk_642_Full_screen_applications.md
+/private/tmp/about_face_chunks/chunk_643_Multipaned_applications.md
+/private/tmp/about_face_chunks/chunk_644_Window_states.md
+/private/tmp/about_face_chunks/chunk_645_Windows_and_documents__MDI_vs_.md
+/private/tmp/about_face_chunks/chunk_646_Making_use_of_windows.md
+/private/tmp/about_face_chunks/chunk_647_Unnecessary_rooms.md
+/private/tmp/about_face_chunks/chunk_648_Necessary_rooms.md
+/private/tmp/about_face_chunks/chunk_649_Menu.md
+/private/tmp/about_face_chunks/chunk_650_Menu_as_a_pedagogic_vector.md

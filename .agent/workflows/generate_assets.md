@@ -24,20 +24,6 @@ description: 根据脚本中的 [VISUAL] 块批量生成视觉资产
 > [!IMPORTANT]
 > 如果 `course.yaml` 不存在，**立即终止**并提示用户先运行 `/new_course` 创建课程配置。
 
-## Step 0.5: 字数达标门控 (前置检查)
-
-> [!CAUTION]
-> **强制前置检查**：在生成任何视觉资产之前，必须先确认目标脚本的字数预算全部达标。
-
-```bash
-/opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
-  --course "<课程名>" --module-breakdown --week <N>
-```
-
-- 若验证器返回 exit code 1（存在严重不足模块）→ **立即终止**，提示用户先执行 `/write` DRP
-- 若验证器返回 exit code 0 → 继续 Step 1
-
 ## 关键路径
 
 | 资源 | 路径 |

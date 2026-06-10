@@ -1,0 +1,529 @@
+=== TASK 40 ===
+File: think_outside_the_box.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 工作流：打破常规组件框架 (Think Outside the Box)
+
+## Prerequisites & Context (前提与背景)
+- **WHY (为什么需要打破常规)**: 在长期的系统设计中，我们对某些标准 UI 组件（如：下拉菜单、数据表格、单选按钮）形成了根深蒂固的刻板印象（preconceived notions）。我们习惯性地认为“标准答案就只有这一种”。然而，虽然遵循既定的交互约束是保证可用性的前提，但盲目受限于基础系统样式往往会导致界面僵化、缺乏现代感与吸引力。打破这些思维定式，将日常组件升级为功能丰富且视觉惊艳的复合体，是让设计从“可用”跃升至“卓越 (next level)”的关键。
+- **WHEN (何时使用此工作流)**: 当你发现某个关键流程（如选择计划、高频筛选、数据概览）使用的原生组件显得过于无趣，或者当你在努力解决信息密度过高、选项难以区分的问题时；当你试图赋予产品更强的“定制感”或更专业的SaaS级体验时。
+
+## Comprehensive Guide & Best Practices (综合指南与最佳实践)
+重新审视那些被认为“理所当然”的基础组件，通过结构重组和视觉强化来赋予它们新的生命力。
+
+### 1. 重新定义下拉菜单 (Redefining Dropdown Menus)
+不要将下拉菜单仅仅视为“一个带有阴影的白盒子，里面堆积着纵向排列的纯文本链接”。
+- **将其视为悬浮容器**：在技术层面上，下拉框（Popover/Menu）本质上只是屏幕上的一个绝对定位容器，你可以在里面放入任何东西。
+- **引入网格与多列布局**：当选项较多时，打破单列布局，将其分为清晰的两个或多个列，或在不同选项之间插入水平/垂直分割线。
+- **增加富信息与辅助说明**：不仅仅显示选项名称，为每个选项添加一句简短的辅助说明文字、或者一个彩色的图标。这能将一个枯燥的导航菜单转变为具有“巨型菜单（Mega Menu）”质感的导航枢纽。
+
+### 2. 突破数据表格的纵列限制 (Breaking Free from Traditional Tables)
+当你想到表格时，脑海中可能浮现的是严格的栅格：每一列对应一种特定的数据类型。
+- **组合非排序字段 (Combine Related Columns)**：如果某些列不需要支持点击表头排序，绝对没有必要将它们拆分为独立的纵列。将相关的字段（例如“员工姓名”、“职位”与“邮箱”）组合在同一个单元格中，并引入内部的字体层级结构（如：姓名加粗为标题，职位用较小的灰色副标题）。
+- **拒绝纯文本 (Beyond Plain Text)**：数据表格不应仅仅是文字的罗列。在表格中大胆引入用户头像、产品缩略图、表示状态的彩色徽章（Badges）或微型进度条，用以丰富既有数据并加快用户的扫视（Scannability）速度。
+
+### 3. 将单选按钮转化为可交互卡片 (Radio Buttons into Selectable Cards)
+如果一组单选按钮代表的是业务中的核心决策（例如：选择订阅套餐、支付方式或核心属性），使用一堆带小圆圈的标签是最无聊的呈现方式。
+- **可点击的面版卡片 (Selectable Cards)**：将传统的单选按钮隐藏或作为辅助视觉，把整个选项包装成一张具有边框、内边距与独立阴影的卡片。
+- **提供充足的信息空间**：使用卡片模式后，你不仅能容纳选项标题，还能从容地排版价格、补充描述、甚至特性列表（Bullet points）。通过高亮被选中卡片的边框或背景色，提供极其清晰且极具现代感的状态反馈。
+
+## If/Then Troubleshooting Logic (故障排查与边缘情况逻辑)
+- **IF** 复杂的巨型下拉菜单或自定义弹窗超出了屏幕的边界或被其他高层级的元素（如固定导航栏）遮挡：
+  - **THEN** 引入动态定位引擎（如 Popper.js 或 Floating UI）来处理边缘碰撞。如果屏幕空间确实有限（特别是移动端），需要将复杂的下拉逻辑降级（Fallback）为全屏模态框（Modal）或底部抽屉（Bottom Sheet），以保证可操作性。
+- **IF** 将表格多列合并后，用户抱怨无法对合并字段中的次要信息（如按职位）进行排序：
+  - **THEN** 重新评估业务需求。如果某个维度确实是高频的筛选或排序条件，则必须保持其作为独立列的结构。打破常规的前提是必须基于对用户核心意图（Jobs-to-be-done）的准确理解。如果不可避免地需要组合但又必须支持多维过滤，应在表格顶部引入独立的过滤器（Filters）。
+- **IF** 可选择卡片（Selectable Cards）在选项数量过多（如超过5个）或屏幕极窄时显得过于臃肿、占据大量空间：
+  - **THEN** 限制卡片样式的滥用。可选择卡片仅适用于选项数量少（2-4个）且选项非常重要的情况。对于长列表选择，仍应退回至更节省空间的紧凑型列表，或将卡片从网格排列（Grid）调整为紧凑的水平堆叠列表。
+
+## Verification Checklists (验证与审查清单)
+- [ ] **组件重估审查**：当前应用中的高频或核心操作区域，是否过度依赖了浏览器原生的下拉菜单或单选框样式？
+- [ ] **下拉面板检查**：包含超过5个选项且较为重要的下拉菜单，是否可以通过分组、添加图标或辅文来提升导航效率？
+- [ ] **表格信噪比验证**：现有的数据表格中，是否存在多列冗余或极窄的栏位？是否可以考虑合并相关字段以减少横向滚动？
+- [ ] **视觉丰富度确认**：列表或表格中表示状态、分类的数据，是否成功转化为视觉直观的徽章、缩略图或色彩提示？
+- [ ] **响应式可访问性验证**：在替换了基础组件的视觉呈现（如单选卡片）后，是否确保底层的 HTML 依然具有良好的键盘导航与语义化（如使用隐藏的 `input[type="radio"]` 并由 `<label>` 包裹卡片）？
+
+
+
+=== TASK 41 ===
+File: type_scale.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 工作流：建立排版字体刻度 (Type Scale)
+
+## Prerequisites & Context (前提与背景)
+- **WHY (为什么需要此工作流)**：界面排版如果缺乏一致的字体大小阶梯，会显得极不专业和杂乱。同时，纯粹依靠数学公式（如黄金比例的 Modular Scales）生成的刻度往往在实际 UI 中不实用，必须手工干预以适应界面的实际需求。
+- **WHEN (何时使用)**：在设计系统初始化阶段，定义全局字体规范，或者在规范不统一的项目中重构文字系统。
+
+## Comprehensive Guide & Best Practices (全面指南与最佳实践)
+1. **摒弃死板的模块化刻度 (Beyond Modular Scales)**
+   - 许多工具推荐使用基于数学比例（如 1.618）的模块化刻度。这在传统文章排版中可能有效，但在 UI 设计中，这种刻度在小字号区间跳跃太小，在大字号区间跳跃太大。
+2. **手工打造实用的字体刻度 (Hand Crafted Scales)**
+   - 根据实际需求设定字号：
+     - **微型辅助文字**：12px (0.75rem)
+     - **次要文字/小正文**：14px (0.875rem)
+     - **标准正文**：16px (1rem)
+     - **大正文/小标题**：18px (1.125rem), 20px (1.25rem)
+     - **层级标题**：24px, 30px, 36px, 48px, 60px...
+   - 确保在小字号（12-20px）区间有足够的选择以适应 UI 的高密度需求，而在大标题区域允许有显著的跳跃。
+3. **避免在字号上使用 `em` (Avoid Em Units For Font Size)**
+   - 使用 `em` 设置字号会导致级联继承的噩梦（例如，嵌套在父元素中的子元素字号会被复合放大或缩小）。
+   - 始终使用 `rem`（或像素 `px`，基于统一换算）来声明字号，确保字号始终相对于根元素，保持绝对的可预测性。
+
+## If/Then Troubleshooting Logic (故障排除逻辑)
+- **IF** 你发现在处理仪表盘或数据表格时，标准模块化刻度缺乏合适的小字号：
+  - **THEN** 抛弃数学比例。手动添加 12px, 13px, 14px 等密集的小字号刻度，以满足数据密集型设计的需求。
+- **IF** 嵌套组件中的字体大小意外变得极其巨大或微小：
+  - **THEN** 检查 CSS 中是否将 `font-size` 设为了 `em`。立刻将其重构为 `rem` 彻底切断级联继承。
+
+## Verification Checklists (验证清单)
+- [ ] 项目中是否有一套明确且受限的字号常量池？
+- [ ] 字体刻度是否通过手工调整（包含足够多的小字号以应对 UI 组件），而不是盲目依赖数学比例公式？
+- [ ] 所有的组件 `font-size` 是否使用 `rem` 替代了 `em`？
+
+
+
+=== TASK 42 ===
+File: text_needs_consistent_contrast.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 文本需要一致的对比度 (Text Needs Consistent Contrast)
+
+## 前提条件与上下文 (Prerequisites & Context)
+- **目标 (WHY)**：当在作为背景的大型特征图 (Hero Image) 上叠加文字时，常常会遇到无论文字使用什么颜色都难以阅读的问题。这是因为问题出在背景图像本身而不是文字。
+- **背景图片的动态性问题 (WHEN)**：照片通常具有高度动态性，包含大量极亮和极暗的区域。白色文字在暗区显示良好，但在亮区会隐没；深色文字在亮区显示良好，但在暗区会无法辨认。
+- **核心理论**：要解决文字可读性问题，核心在于**降低图像的动态范围 (Reduce the dynamics in the image)**，从而使文本与背景之间的对比度更加一致。
+
+## 综合指南与最佳实践 (Comprehensive Guide & Best Practices)
+
+为确保在图片上叠加文字时保持足够的对比度和可读性，请采取以下四种主要策略之一：
+
+### 1. 添加半透明遮罩 (Add an Overlay)
+通过在背景图像上叠加半透明遮罩，可以提高整体的文本对比度。
+- **黑色遮罩**：能够压暗图像中的亮区，帮助浅色文字突显。
+- **白色遮罩**：能够提亮图像中的暗区，帮助深色文字突显。
+- **适用场景**：需要快速统一背景明暗度，且能接受图像整体变亮或变暗的场景。
+
+### 2. 降低图像对比度 (Lower the Image Contrast)
+使用遮罩的妥协之处在于它提亮或压暗了**整个**图像，而不仅仅是问题区域。如果你需要更多控制权，另一解决方案是直接降低图像本身的对比度。
+- **操作建议**：降低对比度会改变图像整体的明暗感受，因此**必须同时调整亮度 (adjust the brightness)**来进行补偿。
+- **适用场景**：需要保留部分图像色彩，但要求控制局部过曝或欠曝区域，追求更好控制力的场景。
+
+### 3. 为图像着色 (Colorize the Image)
+使用单色对图像进行着色是另一种让文字在图像上突显的好方法。这也可以让背景图更好地与现有的品牌颜色搭配。
+- **实现步骤** (如果你的图片编辑软件不包含此原生功能，请按这三步实现)：
+  1. **降低图像对比度** (Lower the image contrast)：使图像明暗度更加平衡。
+  2. **降低饱和度/去色** (Desaturate the image)：去除图像现有的颜色信息。
+  3. **添加纯色填充** (Add a solid fill)：使用“正片叠底 (Multiply)”混合模式叠加目标品牌色。
+
+### 4. 添加文字阴影 (Add a Text Shadow)
+如果你希望在背景图像中保留更多动态细节，可以使用文字阴影在最需要的地方局部增加对比度。
+- **效果要求**：你想要它看起来更像是一种**微妙的光晕 (subtle glow)**，而不是实际的投影。
+- **参数设置**：使用较大的模糊半径 (large blur radius)，并且**不要**添加任何偏移 (no offset)。
+- **组合策略**：即便使用文字阴影，降低整体图像对比度依然是个好主意。不过将二者结合意味着你可以减少一些对比度的下调幅度。
+
+## If/Then 故障排除逻辑 (If/Then Troubleshooting Logic)
+
+- **如果 (If)** 添加了遮罩后，图像显得过于死板或丢失了太多细节：
+  - **那么 (Then)** 尝试改用直接**降低图像对比度并补偿亮度**的方法，而不是简单粗暴地叠加全局遮罩，以获得更精细的控制。
+- **如果 (If)** 背景图像与品牌主色调冲突严重：
+  - **那么 (Then)** 执行**为图像着色 (Colorize the Image)**工作流，先去色再通过“正片叠底”混入品牌色，以实现视觉统一并提升对比度。
+- **如果 (If)** 使用了文字阴影，但看起来像是复古或廉价的 3D 效果：
+  - **那么 (Then)** 检查阴影的偏移量 (offset) 是否为 0，并增大模糊半径 (blur radius)，确保它表现为发光晕染而非实体的投影。
+- **如果 (If)** 即使添加了光晕效果，部分文字仍难以看清：
+  - **那么 (Then)** 这是因为背景对比度仍然过强。请在应用文字阴影的同时，适度降低背景图片的整体对比度进行辅助。
+
+## 验证检查表 (Verification Checklists)
+
+- [ ] 是否确认文字难以辨认是由于背景图片的动态明暗范围，而非文本颜色选择的问题？
+- [ ] 若采用遮罩方案，是否已验证深色文本配合亮色遮罩、浅色文本配合暗色遮罩的合理性？
+- [ ] 若降低了图像对比度，是否已进行相应的亮度补偿，以维持图像的整体观感？
+- [ ] 若采用图像着色方案，是否已按序执行（降低对比度 -> 去饱和度 -> 正片叠底纯色）？
+- [ ] 着色后的背景图是否与当前项目的品牌色协调？
+- [ ] 文本阴影是否没有位移（Offset = 0），且模糊半径足够大，呈现出完美的光晕效果？
+- [ ] 最终成品的文本对比度在整张图的最亮和最暗区域是否均保持一致且完全可读？
+
+
+
+=== TASK 43 ===
+File: emulate_a_light_source.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 模拟光源 (Emulate a Light Source)
+
+## 1. 前置条件与上下文 (Prerequisites & Context)
+- **为什么 (WHY)**：
+  为了在用户界面 (UI) 中创造深度感 (Depth)，使用户能够直观感知到哪些元素是凸起的 (Raised)，哪些是凹陷的 (Inset)。模拟真实世界中光线与物体的相互作用能够极大地增强 UI 的直观性和物理可信度。通过光影和颜色的变化，大脑能够快速解码界面的层级关系。
+- **何时使用 (WHEN)**：
+  当你需要设计按钮 (Buttons)、卡片 (Cards)、输入框 (Text Inputs)、复选框 (Checkboxes)、或容器 (Wells) 等需要与背景区分层级的元素时。这也适用于扁平化设计 (Flat Design) 中，通过特定规则传达元素的层级距离。
+
+## 2. 综合指南与最佳实践 (Comprehensive Guide & Best Practices)
+
+### 核心定律：光总是从上方射来 (Light comes from above)
+在现实世界中，光源（如太阳、室内顶灯）绝大多数来自上方。人们的大脑已经习惯于这种光影模式。
+- **凸起元素 (Raised Elements)**：如果一个平面的上边缘比主体颜色亮，下边缘比主体颜色暗，大脑会认为该元素是凸起并朝向光源的。
+- **凹陷元素 (Inset Elements)**：如果一个区域的上方有阴影（因为被上方的边缘遮挡），而下边缘更亮（因为朝上接受光线），大脑会认为该元素是凹陷的。
+
+### 模拟三维形状的投射与高光
+在模拟 UI 中元素的受光情况时，首先确定你期望该元素具备的“剖面” (Profile)，然后模仿光与该形状的交互。人类看屏幕的视角通常是微俯视的。
+
+#### 设计凸起元素（如按钮、卡片）
+如果你想让一个按钮看起来悬浮或凸出，并拥有平坦的顶部和底部边缘：
+1. **处理上边缘 (Top Edge)**：
+   - 增加微弱的高光以模拟面向上方的受光面。使用顶部边框 (Top Border) 或微小的正向垂直偏移的内阴影 (Inset Box Shadow)。
+   - **颜色选择最佳实践**：**手动选择更亮的同色系颜色**，而不是简单叠加半透明的白色（如 `rgba(255,255,255, 0.2)`）。因为直接叠加白色会吸走底层颜色的饱和度，导致颜色发灰、不生动。
+2. **处理下边缘 (Bottom Edge) 投影**：
+   - 凸起的元素会阻挡光线到达它下方的区域，因此需要添加一个带有轻微垂直向下偏移的深色外阴影 (Box Shadow)。
+   - **阴影参数最佳实践**：**不要滥用模糊半径 (Blur Radius)**。几个像素的模糊就足够了。这类阴影的边缘应当相对锐利（参考现实中插座或窗框底部的阴影）。
+
+#### 设计凹陷元素（如输入框、复选框、深色底槽 "Well"）
+当你需要让元素看起来深陷进页面时：
+1. **处理下边缘 (Bottom Lip)**：
+   - 因为微俯视的角度，凹陷区域主要露出底部边缘，并且该边缘面朝向天空。
+   - 使用底部边框 (Bottom Border) 或带有负向垂直偏移的内阴影 (Inset Box Shadow, negative vertical offset) 来赋予该边缘略亮的颜色。
+2. **处理上边缘 (Top Edge) 遮挡**：
+   - 凹槽上方的区域会阻挡光线照射到凹槽的最顶部。
+   - 添加一个带有轻微正向垂直偏移的小巧的深色内阴影 (Inset Box Shadow, positive vertical offset)，确保上方有适当的暗部，并且不要让它在底部穿透出来。
+
+### 扁平化设计中的深度表达 (Depth in Flat Designs)
+扁平化设计虽然摒弃了写实的光影和渐变，但**有效的扁平化设计依然能传达深度**。
+1. **用颜色创造深度 (Creating Depth with Color)**：
+   - **明暗定律**：在同色系中，较亮的物体感觉离我们更近（凸起），较暗的物体感觉离我们更远（凹陷）。
+   - **凸起表达**：将元素背景色设置得比底层页面背景色更亮。
+   - **凹陷表达**：将元素背景色设置得比底层页面背景色更暗。
+   - **注意**：这一规则同样适用于非扁平化设计，颜色是传达距离感的绝佳工具。
+2. **使用实体阴影 (Using Solid Shadows)**：
+   - 使用完全没有模糊半径 (`blur-radius: 0`) 且具有较短垂直偏移的纯色阴影。
+   - 这种方法能在不牺牲扁平化美学的前提下，让卡片或按钮“浮”出页面。
+
+### 克制：不要走火入魔 (Don't get carried away)
+虽然掌握了模拟光的技巧，但切忌花费数小时去无休止地微调以追求极致的“照片级写实” (Photo-realistic)。
+- **适度原则**：从现实世界借用视觉线索是为了增加一点深度以帮助用户理解界面。过度模拟会导致界面拥挤、繁杂、失去焦点（Busy and Unclear）。
+
+## 3. IF/THEN 故障排除与异常处理逻辑 (If/Then Troubleshooting Logic)
+
+- **IF** 按钮的顶部高光看起来发灰或死板（Washed out/Dull）：
+  **THEN** 检查是否使用了半透明的白色（如 `rgba(255, 255, 255, 0.1)`）作为高光层。**必须**改用手动挑选的、亮度更高但保留饱和度的同色调色彩来替代半透明白色。
+- **IF** 卡片或按钮的投影看起来像污渍，界面显得脏乱：
+  **THEN** 阴影的模糊半径 (Blur Radius) 设置过大或颜色过深。大幅减少模糊半径（1-3个像素即可），并降低阴影的不透明度，保持阴影边缘相对锐利，以模拟近距离物体的投影。
+- **IF** 凹陷元素（如输入框）看起来像是浮在背景上而不是陷进去的：
+  **THEN** 检查顶部边缘是否缺少遮挡产生的深色内阴影 (Inset box-shadow)，以及底部是否缺少受光产生的亮色高光。确保光影逻辑与“光从上方来”一致。
+- **IF** 在“纯扁平化”设计中，用户无法区分卡片和背景的层级关系：
+  **THEN** 应用颜色深度法则，将离用户更近的卡片背景色提亮（同色系中选择更亮的色阶），或者添加无模糊半径的实体下沉投影（Solid Shadow）。
+- **IF** 界面显得过于复杂和拟物化，失去了现代感：
+  **THEN** 减少光影层级，退回到只使用基础的垂直偏移阴影和简单的颜色明暗关系。舍弃多余的内发光或过度精细的渐变。
+
+## 4. 验证清单 (Verification Checklists)
+
+### 凸起元素 (Raised Elements) 检查
+- [ ] 顶部边缘是否比元素主体颜色更亮，以模拟受光？
+- [ ] 顶部的高光颜色是否是手动挑选的高饱和度亮色，而不是半透明白色？
+- [ ] 底部是否带有垂直向下偏移的外阴影？
+- [ ] 底部阴影的模糊半径是否克制（通常不超过几个像素），保持了一定的锐度？
+
+### 凹陷元素 (Inset Elements) 检查
+- [ ] 元素的上部/顶部内侧是否包含深色内阴影，以模拟光线被遮挡？
+- [ ] 元素的底部内侧或下边框是否比主体更亮，以模拟底部受光？
+- [ ] 阴影偏移量是否正确控制，没有在不该出现的地方（如底部边缘外侧）穿透？
+
+### 扁平化深度 (Flat Design Depth) 检查
+- [ ] 同色系的元素，是否遵循了“更亮=更近，更暗=更远”的原则？
+- [ ] 如使用了实体阴影，其模糊半径是否严格设置为 `0`？
+- [ ] 颜色的对比度是否足以区分不同的层级，而无需依赖额外的光影效果？
+
+### 整体观感检查
+- [ ] 所有的光源方向是否在全局保持统一（默认光从正上方射下）？
+- [ ] 光影效果是否起到了辅助视觉层级的作用，而不是喧宾夺主？
+
+
+
+=== TASK 44 ===
+File: overlap_elements_to_create_lay.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 元素重叠以创建层级关系 (Overlap Elements to Create Layers)
+
+## 前置条件与上下文 (Prerequisites & Context)
+- **核心目标 (WHY)**：在二维的屏幕界面中打破扁平感，创造出具有深度的视觉体验。通过将不同元素相互重叠，可以使设计产生具有多重“层级 (layers)”的错觉，从而让界面显得更加生动、有立体感。
+- **适用场景 (WHEN)**：
+  - 当需要在不同背景区块之间进行过渡时（例如卡片跨越两个背景颜色的交界）。
+  - 当页面显得过于死板，需要为主视觉元素或交互组件（如轮播图控件）增加视觉层级和深度时。
+  - 当展示成组的图片或头像（如重叠的头像堆叠），并希望在不占据过多空间的情况下表达元素的紧密联系或层次感时。
+
+## 综合指南与最佳实践 (Comprehensive Guide & Best Practices)
+1. **跨越背景交界线 (Crossing Background Transitions)**：
+   - 不要总是将一个卡片或区块完全限制在其父元素的边界内。尝试将其进行垂直或水平偏移 (offset)，使其跨越两种不同背景的交界处。这种打破常规盒子布局的处理方式，能够立刻为界面增加深度。
+2. **超出父元素边界 (Breaking Parent Boundaries)**：
+   - 可以让子元素的高度或宽度大于其父容器，使其在上下两侧（或左右两侧）都产生溢出重叠。这种突破容器限制的设计手法，能够有效地引导用户的视线，并强调重叠元素的独立层级。
+3. **在小型组件中应用重叠 (Overlapping Small Components)**：
+   - 重叠不仅适用于大型页面布局，对于小巧的交互组件同样有效。例如，在轮播图 (Carousel) 或图像滑块 (Slider) 中，将控制按钮（如左右箭头）半悬浮或部分重叠在内容图片之上，能够显著提升组件的立体感和空间利用率。
+4. **处理图片重叠的防冲突技巧 (Invisible Borders for Overlapping Images)**：
+   - 当多张图片发生重叠时（例如多个用户头像堆叠在一起），图片内容非常容易发生视觉冲突 (Clash)，导致边界难以分辨，产生丑陋的视觉效果。
+   - **解决方案**：为叠加在上面的图片添加一个“隐形边框 (Invisible Border)”。这个边框的颜色必须与底层背景的颜色完全一致。
+   - **效果**：这会在相互重叠的图片之间强行创造出一道负空间缝隙 (Gap)。它既保留了多层叠加的空间纵深感，又彻底消除了图片边缘相互混杂造成的混乱。
+
+## 条件与故障排除逻辑 (If/Then Troubleshooting Logic)
+- **IF** 重叠的元素颜色与底层背景颜色过于相似或相互融合，**THEN** 应用轻微的投影 (Drop Shadow) 或调整上下层级间元素的明暗对比度，确保重叠带来的层级关系能够被清晰地识别。
+- **IF** 多个图片（如头像列）重叠时显得杂乱无章、边界不清，**THEN** 检查是否使用了“隐形边框”技巧。确保为每个重叠的图片设置了与父级背景色相同的 `border`，或使用 `box-shadow` 模拟边框（例如 `box-shadow: 0 0 0 2px #FFFFFF;`），以强行割裂相邻的图片。
+- **IF** 跨越背景交界处的卡片在小屏幕（如移动端）上导致布局被破坏或内容溢出，**THEN** 重新评估响应式断点。考虑在移动端取消偏移效果，让卡片恢复到普通的堆叠流式布局，或者大幅缩小重叠的比例。
+- **IF** 悬浮重叠的控件（如轮播图箭头）遮挡了重要的底层内容或与下层触发区域冲突，**THEN** 考虑移动控件的位置，降低控件在默认状态下的不透明度，或者将其设置为仅在用户 `hover` 触发时才显示。
+
+## 验证清单 (Verification Checklists)
+- [ ] 页面中是否存在过于死板的边界，是否可以通过“重叠”或“偏移”跨越背景线来打破扁平感？
+- [ ] 重叠的元素是否具有清晰的对比度或适当的投影以突显视觉层级？
+- [ ] 紧密排布且发生重叠的图片/头像是否应用了与背景色一致的“隐形边框”，避免了边缘视觉冲突？
+- [ ] 小型组件（如控制按钮、标签）的重叠排版是否显得合理且不干扰核心内容的阅读？
+- [ ] 确保重叠效果不会导致响应式布局在移动设备上出现视口溢出或意料之外的截断。
+
+
+
+=== TASK 45 ===
+File: accent_borders.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 工作流：色彩强调边框 (Accent Borders)
+
+## Prerequisites & Context (前提与背景)
+- **WHY (为什么使用强调边框)**: 如果你不是一名专业的平面设计师，也没有高质量的摄影图片或精美的插画可供使用，你的 UI 很容易显得平淡无奇（bland）、像是一个尚未完成的线框图。引入“色彩强调边框”是一种无需复杂图形设计技巧即可为界面注入视觉活力（visual flair）和色彩张力的极简技巧。一条有颜色的矩形边框足以让整个组件或页面感觉是被“精心设计”过的。
+- **WHEN (何时使用此工作流)**: 当你发现某个卡片、页面区块、提示信息或导航栏显得过于单调枯燥，急需视觉锚点或品牌色注入时；当你想吸引用户的注意力到某个活动状态或关键信息，但不希望使用大面积的背景色导致视觉疲劳时。
+
+## Comprehensive Guide & Best Practices (综合指南与最佳实践)
+强调边框不需要包裹整个元素，只需在某一条边或者某一个局部添加颜色块，即可产生画龙点睛的效果。以下是常见的应用场景与具体手法：
+
+### 1. 卡片顶部强调 (Top of a Card)
+- **实现方式**：为信息卡片、定价卡片或用户面板的顶部添加一条 2px - 4px 粗细的彩色边框。
+- **效果**：不仅能立即打破大面积白色的沉闷，还能有效区分不同的卡片类型或传达不同的状态（如：基础版用灰色，专业版用品牌主色）。
+
+### 2. 激活状态导航栏 (Active Navigation Items)
+- **实现方式**：在水平或垂直导航菜单中，摒弃沉重的全背景色高亮，转而在被激活（Active）项的底部、顶部或侧边添加一条亮色的强调边框。
+- **效果**：传达清晰的状态指示，同时保持导航栏的轻盈感与呼吸感。
+
+### 3. 提示语与警告框侧边 (Side of an Alert Message)
+- **实现方式**：对于 Alert 或 Callout 组件，在其左侧边缘添加一条粗大且醒目的边框（通常为 4px - 8px），边框颜色对应提示类型（如绿色代表成功，红色代表错误，黄色代表警告）。
+- **效果**：能够在用户浏览页面时提供强烈的视觉打断，快速传递信息的严重程度，而无需用高饱和度颜色填满整个提示框背景。
+
+### 4. 标题下方短边框 (Short Accent Underneath a Headline)
+- **实现方式**：在页面主标题（H1/H2）的正下方，添加一条短小精悍的彩色横线。这条线不需要和文本一样宽，通常只需占据标题宽度的 10% 到 20%，或者是一个固定像素值（如 40px）。
+- **效果**：它充当了视觉的分隔符，将标题与下方的正文隔开，并在排版上提供了极具现代感和杂志风格的设计细节。
+
+### 5. 整个布局的顶部通栏 (Top of the Entire Layout)
+- **实现方式**：在整个网页视口（Viewport）的最顶端，添加一条贯穿屏幕宽度的极细彩色边框（通常 3px - 5px）。
+- **效果**：这种被称为“Brand bar”的技术，能在用户尚未阅读任何内容之前，就通过一抹品牌色彩瞬间确立品牌基调，使整个页面的设计感产生质的飞跃。
+
+## If/Then Troubleshooting Logic (故障排查与边缘情况逻辑)
+- **IF** 添加强调边框后，组件在视觉上显得不平衡或内部空间被挤压：
+  - **THEN** 检查 CSS 实现。建议优先使用 `box-shadow`（例如 `box-shadow: inset 0 4px 0 var(--brand-color)`）或伪元素 `::before` 代替实体的 `border`，这样可以在不影响元素实际物理尺寸（Box Model 计算）和内边距（Padding）的情况下添加强调色。
+- **IF** 在同一页面中过多地使用了强调边框，导致视觉混乱、缺乏重点：
+  - **THEN** 收敛你的色彩策略。强调边框的魅力在于它的“克制”。确保同一个视觉区块内只有一个主要元素使用强调边框。如果到处都是彩色线条，它们就会失去引导注意力的作用。
+- **IF** 标题下方的短强调边框看起来像是一个可以点击的超链接下划线，导致用户误触：
+  - **THEN** 增加该线条的粗细（如 3px - 4px），并拉开它与上方文字的垂直间距（margin-top）。不要让它紧贴文字底部，确保它看起来像是一个独立的排版装饰符而非文字下划线。
+
+## Verification Checklists (验证与审查清单)
+- [ ] **视觉单调性审计**：找出当前设计中仅由黑白灰构成的“干瘪”区域，评估是否可以通过添加顶部或侧边的彩色强调线来注入活力。
+- [ ] **状态指示审查**：导航菜单和多标签页（Tabs）的当前激活状态是否使用了醒目的强调边框，而不是仅仅依赖字体的加粗？
+- [ ] **信息层级验证**：系统提示框（Alerts）是否利用了左侧的粗强调边框来帮助色盲或色弱用户识别消息的重要级别？
+- [ ] **品牌色露出**：页面的品牌色是否被有效地应用于局部的强调边框中，而不仅仅是堆砌在Logo或按钮上？
+- [ ] **实现方式检查**：确保边框的 CSS 实现（`border` 或 `box-shadow`）没有破坏原有的响应式布局与内边距结构。
+
+
+
+=== TASK 46 ===
+File: color_accessibility.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 交互设计工作流：色彩无障碍与状态指示设计 (Color Accessibility & Indicators)
+
+## 1. 前提条件与背景 (Prerequisites & Context)
+
+- **为什么 (Why)**: 仅依赖颜色来传达信息会给色盲或视力障碍用户带来巨大障碍。色彩无障碍设计不仅仅是满足可访问性指南 (如 WCAG) 的基本要求，更是确保界面对于所有用户均具备极高可用性和信息传达准确性的核心原则。
+- **何时使用 (When)**: 在设计系统状态反馈（如表单校验、成功/警告/错误消息通知）、数据可视化（图表）、按钮交互状态、链接区分以及任何试图通过颜色表达特定含义的交互组件时，必须强制应用此工作流。
+- **核心理念**: 摒弃对单一视觉维度（颜色）的依赖。关键信息的传达必须是多维度的（例如：颜色 + 形状 + 对比度 + 纹理）。
+
+## 2. 综合指南与最佳实践 (Comprehensive Guide & Best Practices)
+
+### 2.1 为状态指示添加图标 (Add Icons For Indicators)
+- **引入多维度信号**: 当界面需要向用户传达至关重要的状态（例如操作失败的 Error、需警惕的 Warning 或操作完成的 Success）时，切勿将设计停留在“把文本或边框变色”的层面。必须引入语义清晰的图标作为主要的辅助视觉标识。
+- **建立视觉锚点**: 图标为用户提供了一个独立于视色觉的、基于形状认知的快速识别锚点。例如，在错误提示框内部左侧或旁边固定添加一个包含感叹号的圆形/三角形图标，或者在成功消息旁使用显著的勾选图标。
+- **形状认知的一致性**: 确保选用的图标在形状上具有高度的辨识度和普遍性，符合用户的心理模型（如“X”代表错误，“！”代表警告）。
+
+### 2.2 使用对比度而非仅用颜色区分 (Use Contrast Instead Of Color Distinctions)
+- **灰度测试启发式 (Grayscale Heuristic)**: 这是检验无障碍设计的终极方法。如果将你的界面完全剥离色彩转为灰度模式，用户还能顺利区分不同的元素层级、数据类别和系统状态吗？如果不能，说明你的设计过度且危险地依赖了颜色。
+- **利用明度与饱和度建立层次感**: 在同一个色相体系下，设计师应通过调整明度（Lightness）和饱和度（Saturation）的差异来建立界面的视觉权重和层级关系。例如，核心操作（Primary Action）使用深且饱和的颜色，而次要操作（Secondary Action）使用相同色相但明度极高（浅色背景）的样式。
+- **明暗交替与斑马线效应**: 在需要区分的密集数据图表、列表项、表格行或信息区块中，使用明暗对比明显的交替底色（而非色相完全不同的颜色）来引导视线并区分相邻元素。
+
+### 2.3 色彩无障碍设计的深化应用与系统约束 (Deep Dive into Color Accessibility)
+- **文本对比度刚性标准**: 严格遵循 WCAG 规范，确保普通文本与其背景色之间的对比度达到至少 **4.5:1**；对于大号文本（通常为 18pt 以上或 14pt 加粗），对比度至少需达到 **3:1**。
+- **交互状态的多维区分**: 针对交互元素的 Hover、Active 或 Focus 状态，严禁仅仅改变背景或文字的颜色。应当结合下划线显隐、边框粗细变化、外部轮廓线（Outline）增加或内/外阴影的变化，确保状态的跃迁在任何视觉条件下都绝对明显。
+- **数据可视化中的形态区分**: 在设计折线图、面积图或饼图时，除了赋予不同的颜色系列，强烈建议使用不同的形态语言。例如为不同的折线使用不同的线条样式（实线、虚线、点画线），或在图例和数据图块上叠加具有差异性的纹理填充。
+
+## 3. 条件排障逻辑 (If/Then Troubleshooting Logic)
+
+- **IF** 用户或 QA 反馈在弱光环境下或特定人群无法看清表单报错信息...
+  - **THEN** 检查并确认是否仅仅将输入框的边框和文字变红。
+  - **ACTION**: 立即在输入框内部（通常为右侧）或紧贴下方增加显眼的错误提示图标，并确保错误文本的色值与背景的对比度达标，同时加粗显示。
+- **IF** 界面在灰度模式下完全失去了行动点（CTA）的视觉焦点，所有按钮看起来优先级相同...
+  - **THEN** 说明当前按钮组的明度对比失效。
+  - **ACTION**: 重新校准对比度分布。将主按钮的背景色明度降低（使其更深更重），将次级按钮转为幽灵按钮（透明背景+边框）或浅灰色背景，确保它们在灰度下呈现出“黑白分明”的主从关系。
+- **IF** 仪表盘（Dashboard）中表示系统健康度的红黄绿状态灯让人难以一眼分辨...
+  - **THEN** 必须打破单纯的色彩圆点设计，引入形状变量。
+  - **ACTION**: 将红色（严重错误）状态的指示灯改为正方形或八边形，警告状态设计为明显的三角形，安全/成功状态保持圆形；或更直接地，在不同颜色的状态灯内部镂空雕刻对应状态的符号（如 X，!，✓）。
+- **IF** 正文中的内联链接文字无法与周围的普通文本形成足够区分...
+  - **THEN** 不要指望微弱的蓝色色差能解决问题。
+  - **ACTION**: 恢复并强制保留链接的底部下划线样式，或者确保链接的色值与正文文字之间的对比度达到 3:1 的差异，同时与背景色保持 4.5:1 的合规对比度。
+
+## 4. 验证清单 (Verification Checklists)
+
+- [ ] **灰度视觉审计 (Grayscale Audit)**: 界面在纯黑白的显示模式下，核心操作按钮层级、所有系统状态指示以及数据图表是否依然清晰可辨且信息无损？
+- [ ] **图标强制辅佐 (Iconography Reinforcement)**: 所有的表单错误、系统警告、操作成功提示以及任何关键状态标识，是否都配备了独立于颜色的语义图标？
+- [ ] **对比度仪器级合规 (Contrast Ratio Compliance)**: 所有的文本内容及核心 UI 控件与其背景色之间的对比度，是否通过了标准的 WCAG 对比度检查工具测试（AA/AAA 标准）？
+- [ ] **多维交互反馈 (Multi-dimensional Feedback)**: 按钮和链接在不同的交互生命周期（Hover, Focus, Active）中，是否除了色彩变化外，还包含了结构或形变（阴影、边框、下划线）的反馈？
+- [ ] **去除单一颜色依赖 (Zero Color-only Reliance)**: 在表单验证、数据图表解读和系统通知传达的链路中，是否存在*仅*靠颜色差异来让用户理解的关键信息？如果有，立即重构。
+
+
+
+=== TASK 47 ===
+File: use_good_photos.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 图像处理与优质照片应用工作流 (Working with Images & Using Good Photos)
+
+## 先决条件与上下文 (Prerequisites & Context)
+- **为什么重要 (The WHY):** 劣质的照片会毁掉整个设计，即使界面的其他部分（如排版、色彩、布局）看起来非常出色。优秀的界面设计必须与高质量的视觉素材相辅相成。
+- **何时适用 (The WHEN):** 当你的设计项目需要集成摄影图片，而你或你的团队并非专业摄影师时。
+- **核心理论与限制:** 绝不要在设计阶段使用随意的占位图，并妄想以后随便用智能手机拍几张照片替换进去——这种做法永远行不通。好的照片不仅仅依赖昂贵的相机设备，更关乎光线控制、画面构图和色彩美学，这些专业技能都需要长年累月的训练才能掌握。
+
+## 综合指南与最佳实践 (Comprehensive Guide & Best Practices)
+
+根据项目的具体需求，必须遵循以下两大核心策略来获取并应用高质量图片：
+
+1. **聘请专业摄影师 (Hire a Professional Photographer)**
+   - **适用场景:** 如果项目需要高度定制化或非常具体的场景照片（例如特定的商业产品、企业团队成员、线下门店实景等）。
+   - **执行准则:** 将拍摄工作完全委托给专业人士。
+   - **深度见解:** 设计师需要认识到，摄影不仅仅是按快门。专业摄影师能够通过精确的光线布置和构图设计，捕捉到符合品牌气质的画面。在设计中，宁可投入预算获取少量但精准的专业照片，也不要用大量平庸的自拍照片填充版面。
+
+2. **使用高质量图库摄影 (Use High Quality Stock Photography)**
+   - **适用场景:** 如果图片需求较为通用（例如体现某种生活方式、自然风景、标准办公场景等）。
+   - **执行准则:** 利用互联网上丰富的优质图库资源购买或获取专业照片。
+   - **免费资源推荐:** 如果预算受限，优先使用像 Unsplash 这样的提供高分辨率、无版权限制（免版税）精美摄影作品的平台。这些平台上的照片通常已经过了极高的审美筛选，能够立竿见影地提升设计的整体高级感。
+
+## If/Then 故障排除逻辑 (If/Then Troubleshooting Logic)
+
+- **If (如果)** 团队既没有专业摄影师，又缺乏购买商业图库的预算：
+  - **Then (那么)** 严格禁止团队成员用手机临时凑合拍摄。立即转向高质量的免费图库（如 Unsplash、Pexels 等），寻找在光线和构图上符合整体设计基调的通用替代照片。
+
+- **If (如果)** 必须在设计初期阶段展示整体排版和布局，但最终定稿的图片尚未准备好：
+  - **Then (那么)** 绝对不要使用灰色方块或低质量图片作为占位符。必须寻找风格和色调相近的高质量图库图片作为暂代（Mockup），以确保能够准确评估最终界面的色彩对比度和版式平衡。
+
+- **If (如果)** 引入高质量照片后，发现照片的焦点或光影与界面上的文本或 UI 元素产生冲突：
+  - **Then (那么)** 不要舍弃高质量照片，而是应用设计干预策略：例如在照片上叠加带有透明度的暗色或亮色遮罩（Overlay），或者将照片置于卡片容器中，确保文本的对比度和可读性不受影响。
+
+## 验证清单 (Verification Checklists)
+
+- [ ] **整体质量审查:** 确认当前设计中使用的每一张照片是否都具备专业级的光线、构图和色彩表现？
+- [ ] **来源合规与专业性:** 照片是否由受聘的专业摄影师拍摄，或是来自于经过验证的高质量图库平台？
+- [ ] **占位符零容忍排查:** 是否已彻底清除所有企图用作临时占位、日后由非专业人员用手机补拍的低劣图片？
+- [ ] **视觉协同评估:** 照片的引入是否真实提升了整体设计的美感，而不是因为低劣的画质拖累了其他精心设计的 UI 元素？
+- [ ] **主题匹配度验证:** 从图库中选取的通用照片，其传达的情感和氛围是否与项目的核心主题及受众定位完美契合？
+
+
+
+=== TASK 48 ===
+File: link_color_treatment.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 启发式工作流：链接颜色处理原则 (Link Color Treatment)
+
+## 1. 前置条件与上下文 (Prerequisites & Context)
+- **应用场景 (WHEN)**: 处理网页中所有可点击元素（超链接）、导航栏、页脚列表及正文内的引用的交互样式时。
+- **理论依据 (WHY)**: 并非所有的链接生来平等。如果在整个应用中一刀切地使用“亮蓝色+下划线”来处理所有链接，会导致页面充满视觉噪音（Visual Noise）。过多高饱和度的链接会抢夺用户的注意力，破坏主内容的阅读体验。设计应该根据链接的重要性（层级）来分配视觉声量。
+
+## 2. 综合指南与最佳实践 (Comprehensive Guide & Best Practices)
+- **链接层级分流法则**
+  - **主要 CTA (Call to Action)**：使用醒目的品牌色、高对比度甚至按钮形态，明确传达“点我”的信号。
+  - **次要链接弱化 (Subtle Link Emphasis)**：对于正文中的参考链接、作者署名等，不需要喧宾夺主。使用较暗的颜色、加粗字重，或者与正文同色但仅增加下划线。这样能在不打断阅读节奏的情况下提供可点击性。
+  - **悬停显现链接 (Hover Only Links)**：对于列表页、侧边导航、页脚中的大量密集链接，由于其上下文（位置或排列方式）已经强烈暗示了它们的可点击性，默认状态下应保持与普通文本相似的暗淡外观（甚至无下划线），仅在鼠标悬停（`hover`）时改变颜色或显现下划线，从而大幅降低视觉混乱。
+- **一致性与约定**
+  - 即便对不同层级的链接采用了不同的样式，同一层级内的交互模式必须保持一致（例如：所有的侧栏链接悬停行为必须相同）。
+  - 不要依赖仅仅改变微小颜色差作为唯一提示，下划线或背景高亮在悬停时是确认可点击性的极佳反馈。
+
+## 3. 如果/那么 故障排除逻辑 (If/Then Troubleshooting Logic)
+- **IF** 你的界面看起来像早期的维基百科，满屏都是刺眼的蓝色文字，**THEN** 立即启动降噪操作：评估哪些链接是非核心的，将它们的颜色改为深灰或与正文同色，并通过下划线或加粗来保留其链接语义。
+- **IF** 用户反馈找不到哪里可以点击，或者错过了重要功能，**THEN** 说明弱化过度。检查这些隐蔽链接是否缺乏足够的上下文暗示，必要时恢复颜色高亮，或者改变排版结构（如将其提取为独立按钮）。
+- **IF** 使用下划线导致文本显得拥挤，特别是穿过字母底部（下降部）时，**THEN** 使用 CSS 的 `text-decoration-skip-ink: auto;` 或利用细边框（border-bottom）拉开一点距离，以获得更精致的光学表现。
+
+## 4. 验证检查单 (Verification Checklists)
+- [ ] 页面上的所有链接是否根据重要性划分为了主 CTA、次要强调和悬停显现三个层级？
+- [ ] 密集的导航或页脚列表是否移除了默认的高亮和下划线，转而使用 `hover` 触发反馈？
+- [ ] 次要链接是否巧妙地融入了正文，没有严重打断视觉阅读流畅度？
+- [ ] 去除颜色后，链接是否依然能通过排版约定（如位置分布、下划线）被识别为可交互元素（无障碍性检查）？
+
+
+
+=== TASK 49 ===
+File: color_temperature.md
+Prompt: Role: Strict QA Agent checking "Progressive Disclosure".
+Task: Evaluate the provided workflow document. It MUST be an actionable guide with heuristics and steps. 
+It MUST NOT be a dump of heavy, dry, academic theory. Background theory should be delegated to graphify searches.
+If it contains excessive theory or lacks actionability, return exactly 'FAIL: <critique explaining what is too theoretical and needs to be hidden>'.
+If it's actionable and good, return exactly 'PASS'.
+Context: # 色温与情感设定工作流 (Color Temperature)
+
+## Prerequisites & Context (前提与背景)
+- **WHY (为什么关注色温)**: 颜色的色温（暖色 vs 冷色）从根本上决定了界面的情感基调和用户的心理感受。哪怕只是极为微弱的底色偏向，也能在潜意识中影响用户对产品的评价——是“冰冷、机械的”，还是“热情、人性化的”。
+- **WHEN (什么时候使用)**: 在项目的概念阶段设定视觉语言，或当用户反馈产品看起来过于“缺乏人情味”或过于“不够专业”时。
+
+## Comprehensive Guide & Best Practices (综合指南与最佳实践)
+1. **冷色调的传递 (Cool Colors)**:
+   - **组成**: 主要由蓝色、青色和少许紫色组成。
+   - **传达情感**: 宁静、专业、科技感、严谨、隔离感。
+   - **适用场景**: 企业级 SaaS 平台、数据控制台、医疗软件、以及希望建立强烈信任感和高效感的工具。在这些系统中，不仅主色可以冷，中性灰也应当设定为“冷灰（Cool Greys）”。
+2. **暖色调的传递 (Warm Colors)**:
+   - **组成**: 红色、橙色、黄色及土色系。
+   - **传达情感**: 活力、热情、人性化、复古、诱惑力、亲和力。
+   - **适用场景**: 社交应用、电商平台（尤其是食品或生活方式）、内容创作工具、或任何主打“温情”陪伴的产品。对应的，中性系统应该向“暖灰（Warm Greys）”靠拢。
+3. **冲突与互补 (Conflict & Complements)**:
+   - 单纯的冷或暖可能让视觉产生疲劳。高级的设计通常采用一种色温作为绝对统治者，然后少量使用其对立的色温来制造“震荡（Tension）”。
+   - 例如：在一个绝对冷酷的蓝色管理后台中，使用温暖的橙色作为少数关键的强调色按钮，效果会极其惊艳。
+
+## If/Then Troubleshooting Logic (故障排除逻辑)
+- **IF** 一个面向生活方式的 APP 看起来像个银行的客户端：
+  - **THEN** 检查并替换掉中性色中的纯灰或冷灰。把你的背景、边框颜色全部倾向带有一点黄色或棕色的暖灰。同时考虑将主色从冷色系替换为偏暖的色系。
+- **IF** 界面的色温让用户感到过于跳跃和不专业：
+  - **THEN** 收敛过度的暖色调。把大面积使用的高纯度红色或橙色替换为更稳重的深蓝色，将界面的情感重心拉回到“客观与理智”的冷色温域。
+- **IF** 界面色调平淡，缺乏视觉抓手：
+  - **THEN** 引入“色温冲突”。在大量冷色调的环境下，挑选一处需要引导用户视线的地方使用暖色调，利用冷暖的天然对抗来建立无形的引导线。
+
+## Verification Checklists (验证清单)
+- [ ] 整个系统的核心色温是否与产品的定位（科技感 vs 人情味）完全一致？
+- [ ] 主色与中性灰的色调是否属于同一体系，或者具有经过深思熟虑的互补关系？
+- [ ] 是否利用了冷暖色调的反差来引导用户对强调按钮的注意力？
+- [ ] 界面是否避免了在没有明确意图的情况下随机混合各种不同色温的色彩？
+
+
+

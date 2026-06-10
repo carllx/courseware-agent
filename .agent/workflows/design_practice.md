@@ -31,6 +31,13 @@ python <课程>/extract_week.py --week N --section practice-context
 
 > 若 `extract_week.py` 尚未支持 `--section practice-context`，回退为 `--week N`（输出 calendar + objectives + meta）。
 
+### Step 1.5: 强制理论检索钩子 (Theory as Syntax 保障)
+
+为了确保实践活动有效验证理论，必须获取真实的理论实体内容：
+1. 提取出 `teaching_requirements` 后，**强制触发 `librarian` 技能**（调用 `search_knowledge.py` 或查阅 `briefs/` 目录）。
+2. 将前置要求中的理论名词，展开为具体的理论实质内容（知识点段落）。
+3. **拦截约束**：若提取不到该周或过往周次的实质理论内容，必须向用户报错并暂停流程，禁止无实质理论驱动的活动设计。
+
 ### Step 2: 读取实验规划
 
 从 `practices/experiment_planning.md` 定位对应实验的内容与工具链约束。
@@ -44,10 +51,10 @@ python <课程>/extract_week.py --week N --section practice-context
    提取本周学生最终需要提交的交付物清单
 2. **逆推活动**：为每个交付物标注"学生需要经历什么步骤才能产出此交付物"，
    据此设计 `phases[]` 的顺序和内容
-3. **绑定理论**：为每个 phase 填写 `theory_link`（结构化对象格式），确保每个活动都有理论支撑
+3. **绑定理论并驱动 (Theory as Syntax)**：为每个 phase 填写 `theory_link`（结构化对象格式），确保每个活动都有理论支撑
    - 使用 `<课程>/concept_registry.yaml concepts[].id` 作为 `theory_link.concept_id`
-   - `course_objective` 可选，匹配 `course.yaml.supported_objectives[]`
    - `type ∈ {workshop, practice, critique}` 的 phase **必须** 填写 `theory_link`
+   - **关键要求**：实践活动（特别是 AI 交互环节）的 Prompt 语法，必须被 Step 1.5 中提取到的**实质理论内容**所约束。
 
 ### Step 3: 读取已有脚本（如存在）
 
@@ -86,12 +93,18 @@ python <课程>/extract_week.py --week N --section practice-context
 
 > 跳过条件：若 `materials` 中无 `type: quiz`，直接跳到 Step 5。
 
-### Step 5: 运行 rule_practice_design 校验
+### Step 5: 运行 rule_practice_standards.md 校验
 
+> **强制拦截检查（基于 AI 时代后编程教学法四大核心法则）：**
+> 1. **Theory as Syntax**：是否用 Step 1.5 提取的真实理论词汇驱动了活动的 Prompt 和任务？
+> 2. **Control over Magic**：所有涉及 AI 自动生成的 Phase，是否均配套了底层结构审查或手动“降级干预”的微操步骤？
+> 3. **Insight over Spectacle**：`homework.deliverables` 中是否明确要求提交“洞见陈述（Insight Statement）”而非仅看工程产物？
+> 4. **Cognitive Scaffolding**：是否合理切碎了阶段，控制了单阶段变量，杜绝了“一键端到端生成”？
+
+**YAML 结构校验**：
 - `sum(phases[].minutes)` = `total_minutes`
 - `total_minutes` = `course.yaml.hours_practice × 45`
 - `experiment_link` 为 `list[int]`，且每个 ID 匹配 `course.yaml.experiments[].id`
-- `ai_allowed` 与 AI 递进曲线一致
 - 所有必填字段存在
 - `homework.deliverables` 非空
 - **禁止字段检查**：Phase 和 Homework 对象中不得出现 `weight` 或 `scoring_rubric`（SSOT 在 course.yaml，ADR 043）

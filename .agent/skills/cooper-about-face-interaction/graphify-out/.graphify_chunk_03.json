@@ -1,0 +1,403 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_051_apple_apple",
+      "label": "Apple",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_051_Apple.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Apple has emphasized desirability but has made many business blunders. Sustained by loyalty created by attention to user experience."
+    },
+    {
+      "id": "about_face_chunks_chunk_052_microsoft_microsoft",
+      "label": "Microsoft",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_052_Microsoft.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Best run businesses ever, but not able to create highly desirable products."
+    },
+    {
+      "id": "about_face_chunks_chunk_053_novell_novell",
+      "label": "Novell",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_053_Novell.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Emphasized technology and gave little attention to desirability."
+    },
+    {
+      "id": "about_face_chunks_chunk_054_recognizing_user_goals_user_goals",
+      "label": "User Goals",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_054_Recognizing_User_Goals.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Expectation of an end condition, driven by human motivations, change slowly over time."
+    },
+    {
+      "id": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_tasks",
+      "label": "Tasks",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Intermediate steps that help someone to reach a goal."
+    },
+    {
+      "id": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_activities",
+      "label": "Activities",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Intermediate steps composed of tasks, changing transiently based on available technology."
+    },
+    {
+      "id": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_activity_centered_design",
+      "label": "Activity-Centered Design (ACD)",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Focuses on understanding activities, proposed by Donald Norman."
+    },
+    {
+      "id": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_donald_norman",
+      "label": "Donald Norman",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_058_implementation_models_implementation_model",
+      "label": "Implementation Model",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_058_Implementation_models.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Represents how a machine or application actually works in code."
+    },
+    {
+      "id": "about_face_chunks_chunk_059_mental_models_mental_model",
+      "label": "Mental Model",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_059_Mental_models.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Cognitive shorthand users create for explaining how a mechanism works."
+    },
+    {
+      "id": "about_face_chunks_chunk_060_striving_toward_perfection__re_represented_model",
+      "label": "Represented Model",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_060_Striving_toward_perfection__re.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "How the designer chooses to represent an application's functioning to the user."
+    },
+    {
+      "id": "about_face_chunks_chunk_062_an_overview_of_goal_directed_d_goal_directed_design",
+      "label": "Goal-Directed Design",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Process that meets users' needs and goals while addressing business and technical constraints."
+    },
+    {
+      "id": "about_face_chunks_chunk_067_a_process_overview_research",
+      "label": "Research Phase",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_067_A_process_overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Employs ethnographic field study techniques to provide qualitative data."
+    },
+    {
+      "id": "about_face_chunks_chunk_067_a_process_overview_modeling",
+      "label": "Modeling Phase",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_067_A_process_overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Behavior and workflow patterns are synthesized into domain and user models."
+    },
+    {
+      "id": "about_face_chunks_chunk_067_a_process_overview_requirements_definition",
+      "label": "Requirements Definition Phase",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_067_A_process_overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Employs scenario-based design methods focused on meeting goals and needs of specific user personas."
+    },
+    {
+      "id": "about_face_chunks_chunk_067_a_process_overview_framework_definition",
+      "label": "Framework Definition Phase",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_067_A_process_overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Designers create the overall product concept and synthesize an interaction framework."
+    },
+    {
+      "id": "about_face_chunks_chunk_067_a_process_overview_refinement",
+      "label": "Refinement Phase",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_067_A_process_overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Focus on task coherence and detail using walkthrough scenarios."
+    },
+    {
+      "id": "about_face_chunks_chunk_067_a_process_overview_development_support",
+      "label": "Development Support Phase",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_067_A_process_overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Answering developers' questions during construction process."
+    },
+    {
+      "id": "about_face_chunks_chunk_069_modeling_personas",
+      "label": "Personas",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_069_Modeling.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Detailed, composite user archetypes that represent distinct groupings of behaviors and goals."
+    },
+    {
+      "id": "about_face_chunks_chunk_071_framework_definition_interaction_design_patterns",
+      "label": "Interaction Design Patterns",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_071_Framework_Definition.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Encode general solutions to classes of previously analyzed problems."
+    },
+    {
+      "id": "about_face_chunks_chunk_070_requirements_definition_context_scenario",
+      "label": "Context Scenario",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_070_Requirements_Definition.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A day in the life of the persona using the product."
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_activity_centered_design",
+      "target": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_donald_norman",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_activity_centered_design",
+      "target": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_activities",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_activities",
+      "target": "about_face_chunks_chunk_055_goals_versus_tasks_and_activit_tasks",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_055_Goals_versus_tasks_and_activit.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_060_striving_toward_perfection__re_represented_model",
+      "target": "about_face_chunks_chunk_059_mental_models_mental_model",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_060_Striving_toward_perfection__re.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_060_striving_toward_perfection__re_represented_model",
+      "target": "about_face_chunks_chunk_058_implementation_models_implementation_model",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_060_Striving_toward_perfection__re.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_062_an_overview_of_goal_directed_d_goal_directed_design",
+      "target": "about_face_chunks_chunk_067_a_process_overview_research",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_062_an_overview_of_goal_directed_d_goal_directed_design",
+      "target": "about_face_chunks_chunk_067_a_process_overview_modeling",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_062_an_overview_of_goal_directed_d_goal_directed_design",
+      "target": "about_face_chunks_chunk_067_a_process_overview_requirements_definition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_062_an_overview_of_goal_directed_d_goal_directed_design",
+      "target": "about_face_chunks_chunk_067_a_process_overview_framework_definition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_062_an_overview_of_goal_directed_d_goal_directed_design",
+      "target": "about_face_chunks_chunk_067_a_process_overview_refinement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_062_an_overview_of_goal_directed_d_goal_directed_design",
+      "target": "about_face_chunks_chunk_067_a_process_overview_development_support",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_062_An_Overview_of_Goal_Directed_D.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_069_modeling_personas",
+      "target": "about_face_chunks_chunk_067_a_process_overview_modeling",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_069_Modeling.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_071_framework_definition_interaction_design_patterns",
+      "target": "about_face_chunks_chunk_067_a_process_overview_framework_definition",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_071_Framework_Definition.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_070_requirements_definition_context_scenario",
+      "target": "about_face_chunks_chunk_067_a_process_overview_requirements_definition",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_070_Requirements_Definition.md",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "goal_directed_design_phases",
+      "label": "Goal-Directed Design Phases",
+      "nodes": [
+        "about_face_chunks_chunk_067_a_process_overview_research",
+        "about_face_chunks_chunk_067_a_process_overview_modeling",
+        "about_face_chunks_chunk_067_a_process_overview_requirements_definition",
+        "about_face_chunks_chunk_067_a_process_overview_framework_definition",
+        "about_face_chunks_chunk_067_a_process_overview_refinement",
+        "about_face_chunks_chunk_067_a_process_overview_development_support"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_067_A_process_overview.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

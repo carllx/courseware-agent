@@ -1,0 +1,362 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_201_persona_based_scenarios_persona_based_scenario",
+      "label": "Persona-based scenario",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_201_Persona_based_scenarios.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_202_three_types_of_scenarios_context_scenario",
+      "label": "Context scenario",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_202_Three_types_of_scenarios.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_202_three_types_of_scenarios_key_path_scenario",
+      "label": "Key path scenario",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_202_Three_types_of_scenarios.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_202_three_types_of_scenarios_validation_scenario",
+      "label": "Validation scenario",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_202_Three_types_of_scenarios.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_203_design_requirements__the__what_design_requirements",
+      "label": "Design Requirements",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_203_Design_Requirements__The__What.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_208_the_requirements_definition_pr_requirements_definition_process",
+      "label": "Requirements Definition Process",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_208_The_Requirements_Definition_Pr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_209_step_1__create_problem_and_vis_problem_statement",
+      "label": "Problem statement",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_209_Step_1__Create_problem_and_vis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_209_step_1__create_problem_and_vis_vision_statement",
+      "label": "Vision statement",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_209_Step_1__Create_problem_and_vis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_216_data_requirements_data_requirements",
+      "label": "Data requirements",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_216_Data_requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_217_functional_requirements_functional_requirements",
+      "label": "Functional requirements",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_217_Functional_requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_218_contextual_requirements_contextual_requirements",
+      "label": "Contextual requirements",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_218_Contextual_requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_222_creating_the_design_framework_design_framework",
+      "label": "Design Framework",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_222_Creating_the_Design_Framework.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_223_defining_the_interaction_frame_interaction_framework",
+      "label": "Interaction framework",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_223_Defining_the_interaction_frame.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_224_step_1__define_form_factor__po_form_factor",
+      "label": "Form factor",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_224_Step_1__Define_form_factor__po.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_224_step_1__define_form_factor__po_posture",
+      "label": "Posture",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_224_Step_1__Define_form_factor__po.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_224_step_1__define_form_factor__po_input_method",
+      "label": "Input method",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_224_Step_1__Define_form_factor__po.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_225_step_2__define_functional_and__data_elements",
+      "label": "Data elements",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_225_Step_2__Define_functional_and_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_225_step_2__define_functional_and__functional_elements",
+      "label": "Functional elements",
+      "file_type": "concept",
+      "source_file": "about_face_chunks/chunk_225_Step_2__Define_functional_and_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_214_pretending_it_s_magic_pretending_its_magic",
+      "label": "Pretending it's magic",
+      "file_type": "rationale",
+      "source_file": "about_face_chunks/chunk_214_Pretending_it_s_magic.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_202_three_types_of_scenarios_context_scenario",
+      "target": "about_face_chunks_chunk_201_persona_based_scenarios_persona_based_scenario",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_202_Three_types_of_scenarios.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_202_three_types_of_scenarios_key_path_scenario",
+      "target": "about_face_chunks_chunk_202_three_types_of_scenarios_context_scenario",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_202_Three_types_of_scenarios.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_202_three_types_of_scenarios_validation_scenario",
+      "target": "about_face_chunks_chunk_202_three_types_of_scenarios_key_path_scenario",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_202_Three_types_of_scenarios.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_208_the_requirements_definition_pr_requirements_definition_process",
+      "target": "about_face_chunks_chunk_202_three_types_of_scenarios_context_scenario",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_208_The_Requirements_Definition_Pr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_208_the_requirements_definition_pr_requirements_definition_process",
+      "target": "about_face_chunks_chunk_203_design_requirements__the__what_design_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_208_The_Requirements_Definition_Pr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_208_the_requirements_definition_pr_requirements_definition_process",
+      "target": "about_face_chunks_chunk_209_step_1__create_problem_and_vis_problem_statement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_208_The_Requirements_Definition_Pr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_208_the_requirements_definition_pr_requirements_definition_process",
+      "target": "about_face_chunks_chunk_209_step_1__create_problem_and_vis_vision_statement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_208_The_Requirements_Definition_Pr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_222_creating_the_design_framework_design_framework",
+      "target": "about_face_chunks_chunk_223_defining_the_interaction_frame_interaction_framework",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_222_Creating_the_Design_Framework.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_223_defining_the_interaction_frame_interaction_framework",
+      "target": "about_face_chunks_chunk_224_step_1__define_form_factor__po_form_factor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_223_Defining_the_interaction_frame.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_223_defining_the_interaction_frame_interaction_framework",
+      "target": "about_face_chunks_chunk_224_step_1__define_form_factor__po_posture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_223_Defining_the_interaction_frame.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_223_defining_the_interaction_frame_interaction_framework",
+      "target": "about_face_chunks_chunk_224_step_1__define_form_factor__po_input_method",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_223_Defining_the_interaction_frame.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_223_defining_the_interaction_frame_interaction_framework",
+      "target": "about_face_chunks_chunk_225_step_2__define_functional_and__data_elements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_223_Defining_the_interaction_frame.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_223_defining_the_interaction_frame_interaction_framework",
+      "target": "about_face_chunks_chunk_225_step_2__define_functional_and__functional_elements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_223_Defining_the_interaction_frame.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "three_types_of_scenarios",
+      "label": "Three types of scenarios",
+      "nodes": [
+        "about_face_chunks_chunk_202_three_types_of_scenarios_context_scenario",
+        "about_face_chunks_chunk_202_three_types_of_scenarios_key_path_scenario",
+        "about_face_chunks_chunk_202_three_types_of_scenarios_validation_scenario"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "about_face_chunks/chunk_202_Three_types_of_scenarios.md"
+    }
+  ],
+  "input_tokens": 15000,
+  "output_tokens": 1500
+}

@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=31, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_31.json
+FILES:
+/private/tmp/about_face_chunks/chunk_751_Tool_carousels.md
+/private/tmp/about_face_chunks/chunk_752_Menu_bars__an_idiom_to_avoid_i.md
+/private/tmp/about_face_chunks/chunk_753_Drawers.md
+/private/tmp/about_face_chunks/chunk_754_Secondary_action_drawers.md
+/private/tmp/about_face_chunks/chunk_755_Double_drawers.md
+/private/tmp/about_face_chunks/chunk_756_Item_level_drawers.md
+/private/tmp/about_face_chunks/chunk_757_Drawer_behaviors_to_avoid.md
+/private/tmp/about_face_chunks/chunk_758_The_drawer_controversy.md
+/private/tmp/about_face_chunks/chunk_759_Tap_to_reveal_and_direct_manip.md
+/private/tmp/about_face_chunks/chunk_760_Tap_to_reveal_controls.md
+/private/tmp/about_face_chunks/chunk_761_Direct_manipulation_controls.md
+/private/tmp/about_face_chunks/chunk_762_Searching__sorting__and_filter.md
+/private/tmp/about_face_chunks/chunk_763_Implicit_sorting_versus_explic.md
+/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md
+/private/tmp/about_face_chunks/chunk_765_Sorting_and_filtering.md
+/private/tmp/about_face_chunks/chunk_766_Welcome_and_help_screens.md
+/private/tmp/about_face_chunks/chunk_767_Guided_tours.md
+/private/tmp/about_face_chunks/chunk_768_Overlays.md
+/private/tmp/about_face_chunks/chunk_769_ToolTip_overlays.md
+/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md
+/private/tmp/about_face_chunks/chunk_771_Tap_to_select__activate__or_to.md
+/private/tmp/about_face_chunks/chunk_772_Tap_and_hold.md
+/private/tmp/about_face_chunks/chunk_773_Drag_to_scroll.md
+/private/tmp/about_face_chunks/chunk_774_Drag_to_move.md
+/private/tmp/about_face_chunks/chunk_775_Drag_to_control.md

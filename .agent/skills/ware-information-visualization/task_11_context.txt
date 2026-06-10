@@ -1,0 +1,388 @@
+Node: 079 3D Glyphs
+Primary concept extracted from chunk
+## 3D Glyphs
+
+In scientific visualization, it is common that computed fields can have attributes beyond simple scalars and vectors. These may encode attributes such as twist and shear. We will not go into this technical subject here, except to observe that 3D glyphs have been developed to visualize these quantities. An example from Jankun‐Kelly, Lanka, and Swan (2010) is illustrated in Fig. 8.13. These objects, called superellipsoid 
+glyphs, encode orientation as well as other properties important in the analysis of liquid crystals. An evaluation study was carried out showing that this particular coding scheme was superior to three others. Any interested reader should delve into this and related work (see also, Schultz & Kindlmann, 2010). It is also worth bearing in mind that the most effective pattern analysis capabilities of the visual system work in the 2D image plane, so the interpretation of 3D glyphs will be viewpoint dependent which may result in errors of interpretation.
+
+![image](images/f08-13-9780128128756.jpg)
+
+
+Figure 8.13 3D glyphs (on the right) developed by Jankun-Kelly et al. (2010) and evaluated against the alternatives shown to the left.   
+
+From T.J. Jankun-Kelly (2010). Reproduced with permission.
+---
+Node: 080 Faces
+Primary concept extracted from chunk
+## Faces
+
+Faces are special objects in human perception. Infants learn about faces faster than they learn about other objects. We are born with visual systems primed to learn to recognize important humans, especially our own mothers (Bruce & Young, 1998; Bushnell, Sai, & Mullin, 1989; Morton & Johnson, 1991). A specific area of our brains, the right middle fusiform gyrus, is critically important in face perception (Kanwisher, McDermott, & Chun, 1997; Kanwisher, Stanley, & Harris, 1999; Puce, Allison, Gore, & McCarthy, 1995). This area is also useful for recognizing other complex objects, such as automobiles. Faces have an obvious importance in communication; we use facial expressions to communicate our emotion and degree of interest. Cross-cultural studies by Paul Ekman and coworkers strongly suggest that certain human expressions are universal communication signals, correctly interpreted across cultures and social groups (Ekman, 2003; Ekman & Friesen, 1975). Ekman identified six universal expressions: anger, disgust, fear, happiness, sadness, and surprise. These are illustrated in Fig. 8.14, along with determination and elation (a variation on happiness).
+
+The motion of facial features is also important in conveying emotion. Animated images are necessary to convey a full range of nuanced emotion; it is especially important to show motion of the eyebrows (Basilli, 1978; Sadr, Jarudi, & Sinha, 2003). Both static and dynamic facial expressions are produced by the contractions of facial muscles, and the 
+
+facial action coding system (FACS) is a widely applied method of measuring and defining groups of facial muscles and their effect on facial expression (Ekman, Friesen, & O’Sullivan, 1988).
+
+![image](images/f08-14-9780128128756.jpg)
+
+
+Figure 8.14 Happiness, elation, anger, sadness, disgust, determination, fear, and surprise.
+
+The eyebrows and mouth are particularly significant in signaling emotions, but the shape of the eyes is also important. There is evidence that false smiles can be distinguished from true smiles from the particular expression around the eyes that occurs with the contraction of a muscle that orbits the eye (Ekman, 2003; Ekman et al., 1988). This muscle contracts with true smiles but not with false ones. According to Ekman (2003) it is difficult, if not impossible, to control this voluntarily and thus fake a “true” smile.
+
+The main application of FACS theory in computer displays has been in the creation of computer avatars that convey human emotion (Kalra, Gobbetti, Magnenat-Thalmann, & Thalmann, 1993; Ruttkay, Noot, & Hagen, 2003). Appropriate emotional expression may help make a virtual salesperson more convincing. In computer-aided instruction, the expression on a human face could reward or discourage. The little symbols called emoticons, such as Θ and Λ, commonly used in text messaging take advantage of the ease with which we recognize emotions even when expressed using the most rudimentary graphics.
+
+[G8.15] For perceptually efficient and compact expressions of human emotion, consider using small glyphs representing simplified faces. These are likely to be especially effective in conveying the basic emotions of anger, disgust, fear, happiness, sadness, and surprise.
+
+Among the earlier examples of object displays are Chernoff faces, named after their inventor, Herman Chernoff (1973). In his technique, a simplified image of a human face is used as a display. Examples are shown in Fig. 8.15. To turn a face into a display, data variables are mapped to different facial features, such as the length of the nose, the curvature of the mouth, the size of the eye, the shape of the head, etc. Jacob, Egeth, and Bevon (1976) carried out a classification task using a series of displays that were progressively more object-like. The displays included Chernoff faces, tables, star plots, and the whisker plots described in Chapter 5. They found that more object-like displays, including Chernoff face plots, enabled faster, more accurate classification.
+
+Despite their initial promise, Chernoff faces have not generally been adopted in practical visualization applications. The likely reason for this is the idiosyncratic nature of the method. When data is mapped to faces, many kinds of perceptual interactions can occur. Sometimes the combination of variables will result in a particular stereotypical face, perhaps a happy face or a sad face, and this will be identified more readily. In addition, there are undoubtedly great differences in our sensitivity to the different features. We may be more sensitive to the curvature of the mouth than to the height of the eyebrows, for example. This means that the perceptual space of Chernoff faces is likely to be extremely nonlinear. In addition, there are almost certainly many uncharted 
+interactions between facial features, and these are likely to vary from one viewer to another, leading to large distortions in the way the data is perceived.
+
+![image](images/f08-15-9780128128756.jpg)
+
+
+Figure 8.15 Chernoff faces. Different data variables are mapped to the sizes and shapes of different facial features—a bad idea because of unpredictable effects from emergent expressions.   
+Courtesy Davide Heise, [dheise@andrews.edu](mailto:dheise@andrews.edu).
+---
+Node: 081 Coding Words and Images
+Primary concept extracted from chunk
+## Coding Words and Images
+
+Bertin, in his seminal work, Semiology of Graphics (1983), distinguished two distinct sign systems. One cluster of sign systems is associated with auditory information processing and includes mathematical symbols, natural language, and music. The second cluster is based on visual information processing and includes graphics, together with abstract and figurative imagery. More recently, the dual coding of Paivio (1987) proposed that there are fundamentally two different types of information stored in distinct working memory and long-term memory systems; he called them imagens and logogens. Roughly speaking, imagens denote the mental representation of visual information, whereas logogens denote the mental representation of language information. This duality of systems is called dual coding theory.
+
+Visual imagens consist of objects, natural groupings of objects, and whole parts of objects (for example, an arm), together with spatial information about the way they are laid out in a particular environment, such as a room. Logogens store basic information pertaining to language, although not the sounds of the words. Logogens are processed 
+by a set of functional subsystems that provide support for reading and writing, understanding and producing speech, and logical thought. Logogens need not necessarily be tied to speech, but they are associated with nonvisual language. In the profoundly deaf the same language subsystems exist and are used in the reading and production of Braille and sign language.
+
+The architecture of dual coding theory is sketched in Fig. 8.16. Visual-spatial information enters through the visual system and is fed into association structures in the nonverbal imagen system. Visual text is processed visually at first, but the information is rapidly transferred into the nonvisual association structures of logogens. Acoustic verbal stimuli are processed primarily through the auditory system and then fed into the logogen system. Logogens and imagens, although based on separate subsystems, can be strongly interlinked; for example, the word cat and language-based concepts related to cats will be linked to visual information related to the appearance of cats and their environment.
+
+### Mental Images
+
+Much of dual coding theory is uncontroversial. It has been known for decades that there are different neural processing centers for verbal information and visual information. Examples of purely verbal processing brain regions are Broca’s area, which is part of the frontal cortex that when damaged results in an inability to speak intelligibly, and Wernicke’s area, which results in an inability to comprehend speech when damaged.
+
+It is the idea that we can “think” visually that is relatively recent. One line of evidence comes from mental imaging. When people are asked to compare the size of a light-bulb with the size of a tennis ball, or the green of a pea with the green of a pine tree, most claim that they use mental images of these objects to carry out the task (Kosslyn, 1994).
+ Other studies by Kosslyn and his coworkers show that people treat objects in mental images as if they have real sizes and locations in space. Recently, positron emission tomography (PET) has been used to reveal which parts of the brain are active during specific tasks. This shows that when people are asked to perform tasks involving mental imaging the visual processing centers in the brain are activated. When they mentally change the size and position of an imagined object, different visual areas of the brain are activated (Kosslyn et al., 1993). In addition, if visual processing centers in the brain are damaged, mental imaging ability is disrupted (Farah, Soso, & Dashieff, 1992). It would seem that when we see a cow and when we mentally visualize a cow, the same neural pathways are excited, at least in part. Indeed, modern visual memory theory takes the position that visual object processing and visual object recognition are part of the same process. To some extent, the visual memory traces of objects and scenes are stored as part of the processing mechanism; thus, it is not necessary for an object to be fully processed for recognition to take place (Beardsley, 1997). This can account for the great superiority of recognition over recall. We can easily recognize that we have seen something before, but reproducing it in a drawing or with a verbal description is much more difficult.
+
+![image](images/f08-16-9780128128756.jpg)
+
+
+Figure 8.16 Dual coding theory.
+
+This implies that the simple dual coding theory illustrated in Fig. 8.16 is misleading in one important respect. The diagram implies that memories for visual inputs are stored after processing through the visual system; however, image memory is not a separate storage bin but an integral part of the perceptual system. Visual images are analyzed on their way through the system and visual memories are activated by the incoming information as they simultaneously shape it. There is no separate store; memory is distributed through the brain at every level of processing.
+---
+Node: 082 Labels and Concepts part1
+Primary concept extracted from chunk
+## Labels and Concepts
+
+Much of what we perceive when we “see” an object is not out there in the world, but stored in our memories. We perceive objects as tables, chairs, trees, flowers, cups, books, or as one of the thousands of other things we know about. As part of perception, objects are automatically labeled, and our knowledge of the characteristics, uses, and relationships to other objects is brought to a state of readiness in mind. Even an unknown amorphous blob is seen as like other objects of a similar size and smoothness—its material properties are automatically inferred from its texture and color, and its potential for manipulation is automatically assessed.
+
+It takes learning and prior experience to develop high-level object concepts, and their characteristics are necessarily somewhat idiosyncratic. A musician will see a violin in a very different way than a nonmusician who hates classical music. In each case, the violin will be seen to have a very different set of affordances and what is perceived will be colored by this. Despite these differences, human communication depends on socially agreed-upon labels for objects, classes of objects, and concepts within a community, and the perception of the more basic characteristics of common objects will be similar for most individuals.
+
+### Object Categorization
+
+Categorization is the abstraction of things and ideas into groups and most if not all categories have verbal labels. The words cheese, tree, plant, company, and bacteria are all category labels. Virtually all of the things we see and think of as objects are classified automatically in the brain within 100
+ 
+ms of our seeing them. When we see a spoon, not just its shape is registered, but the verbal label also becomes activated. A large array of concepts relating to culinary activity and eating may become primed and brought to a state of readiness.
+
+Objects that we know well combine clusters of attributes that are visual with clusters of attributes that are verbally related concepts. They may also have properties that awaken activities in our movement control systems, in the case of things that we may pick up and manipulate or use as tools. Kahneman, Treisman, and Gibbs (1992) named this collection of visual and nonvisual properties an object file (see Fig. 8.17).
+
+Even objects that are unfamiliar can be categorized by their utility. A fist-sized chunk of any material may be used as a projectile, as potential building material, or, if it is hard, as a tool.
+
+Our modern understanding of how the human brain categorizes ects began with the pioneering research of Eleanor Roschobj (1973, 1975). Prior to this, from the time of 
+Aristotle, object classification had been treated as if the brain did a formal logical analysis of sensory data. This approach leads to a world in which things belong to categories with sharp boundaries. Either something is a fruit, or it is not. Rosch’s work showed that the way we actually perceive objects is much more flexible. People perceive apples and oranges to definitively be fruits, but they are much less certain about cucumbers and tomatoes.
+
+![image](images/f08-17-9780128128756.jpg)
+
+
+Figure 8.17 The object file is a proposed cognitive mechanism that links multiple attributes of an object. These attributes can be both visual and nonvisual.
+
+Rosch discovered that there are certain categories she called basic level, with other categories above and below. The concept of dog is a basic-level category, with animals as a superordinate category and particular breeds as subordinate categories. Basic-level categories are the most commonly used broad categories and are learned first by infants. People are more likely to categorize a particular animal, such as pet canine, as a dog than as members of the higher level category of animal. Rosch defined basic-level categories in terms of three criteria: They have similar shape; this is obviously true of dogs, which are much more mutually similar than, say, the category of animals. They have similar motor interactions; that is, we tend to do the same things with members of a particular class. They have similar nonvisual attributes, which refers to all the nonvisual properties we learn to be associated with objects, including the materials they are made from and their likely associations with other objects. Because of the visual similarity of basic-level categories, Rosch observed that usually a single drawing can be used to represent the entire class. Such drawings are also classified with the shortest reaction times.
+
+Later work by Jolicoeur et al. (1984) added refinements to Rosch’s work. He and his coworkers found that certain category members are identified faster than others even though they are at the same level of the hierarchy. For example, a medium-sized canine with neither especially long nor short legs will be categorized as a dog faster than a dachshund.
+
+### The Enactive View
+
+The object file metaphor discussed above encapsulates a somewhat static view of perception and memory, wherein object properties and their linked attributes are recovered from memory through the act of perception.
+
+In the last decade or so more action-oriented theoretical approaches have arisen, which emphasize the links between perception and both past and future actions. One theory is called enactive perception (Hutto & Myin, 2012). Another, the sensory-motor account (O’Regan & Noë, 2001). Although there are differences between these, there are many similarities in that they both emphasize that perception is fundamentally an activity designed to support actions within the environment. Perception is based on the previous neural activations from exploratory activities that lead to observations of similar objects in similar environment. The perception of a particular kind of object naturally and inextricably involves activations of potentials for action relating to the perceived object. Perceiving a cup, a chair, or a stone, is based on prior sensory and exploratory activities involving cups, chairs, or stones and this prepares us for interacting with this 
+particular cup, chair, or stone. Another common theme of the enactive theory is that the brain evolved to predict the consequences of potential actions (Barselou, 2008) and it is constantly making predictions regarding the environment and the consequences of actions within the environment.
+
+Fig. 8.18 illustrates a cluster of activations that might arise in the brain as a result of object perception. It differs from the object file account (Fig. 8.17) in that the neural pathways activated are not merely a cluster of attributes recovered from storage; instead, they relate to potential activities, such as making use of an object, making an utterance relating to that object, or predicting how the object will change relative to its environment, both in the absence of action or as a result of some action. This action oriented view of perception and cognition will be a central theme of the final two chapters of this book. The main implication for data visualization is that visual objects representing data should, wherever possible, support activities to seek further information or take action related to the currently perceived information.
+
+### Canonical Views and Object Recognition
+---
+Node: 082 Labels and Concepts part2
+Primary concept extracted from chunk
+## Labels and Concepts (Part 2)
+
+Palmer, Rosch, and Chase (1981) showed that not all views of an object are equally easy to recognize. They found that many different objects have something like a canonical view from which they are most easily identified. From this and other evidence, a theory of object recognition has been developed, proposing that we recognize objects by matching the visual information with internally stored viewpoint-specific exemplars, or prototypes; the brain stores a number of key views of each object (Edelman, 1995; Edelman & Buelthoff, 1992). This is the image-based object memory theory introduced at the start of this chapter. The views are not simple snapshots; however, they allow recognition despite simple geometric distortions of the image that occur in perspective transformation. This explains why object perception survives the kinds of geometric distortions that occur when a picture is viewed and tilted with respect to the observer.
+
+![image](images/f08-18-9780128128756.jpg)
+
+
+Figure 8.18 An illustration of the dynamic neural activations that may occur as a result of object perception according to the enactive view.
+
+There are strict limits on the extent to which we can change an image before recognition problems occur. Palmer et al. (1981) had observers rate how well pictures taken from different perspectives resembled the object depicted. The results showed strongly that certain views were judged more typical than others (see Fig. 8.19). Moreover, this had a large effect on the amount of time it took subjects to name the object shown. Other studies have revealed that objects are named faster when they are upright (Jolicoer, 1985), but changing the size of the represented object has a relatively small effect. Also, numerous studies show impaired face recognition if the faces are shown upside down (Rhodes, 1995).
+
+[G8.16] To make a visual image that represents a class of things, use a canonical example in its normal orientation displayed from a typical viewpoint, but only if a suitable exemplar exists.
+
+There are many cases where simple images cannot be used to represent categories of objects. One reason is that most things belong to many overlapping sets of categories, and many categories do not have canonical object representations. Consider the category of pet. A pet can be a goldfish, an insect, or a snake, as well as the more typical dogs and cats. No simple sketch can represent all of these, as they do not share a canonical set of visual features. Some abstract categories are even more difficult. The philosopher Wittgenstein (1953) used the example of games to argue that categories should be thought of as loosely associated bundles of properties, rather than concepts that can be defined by a few formal rules. Board games, sports such as soccer, and 
+games such as charades all belong to the game category. Such categories are very difficult to formally pin down, and, like pets, have no canonical representation.
+
+![image](images/f08-19-9780128128756.jpg)
+
+
+Figure 8.19 Noncanonical and canonical views of a horse and a car.
+---
+Node: 083 Concept Mapping
+Primary concept extracted from chunk
+## Concept Mapping
+
+Researchers in the field of information visualization have put considerable effort into creating visual representations of ideas and abstract concepts. These can be considered as potential visual thinking tools.
+
+### Concept Maps and Mind Maps
+
+Mind mapping is technique that is promoted as a learning aid for students (Jonassen, Beissner, & Yacci, 1993). It consists of sketching out links between related ideas, concepts, and things, as illustrated in Fig. 8.20. Usually, such maps are constructed informally by sketching them on paper, but computer-based tools also exist. Essentially, a mind map is a type of node-link diagram in which the nodes represent concepts and the links represent relationships between concepts. The central idea to be explored is placed in the middle of the page and it is expanded out from there. Usually mind maps are drawn as tree structures with no cross links between branches, but this can be restrictive. In Fig. 8.20 almost all of the ideas have links to almost all of the other ideas. An individual can use a mind map as a tool for organizing his or her own personal concept structure, and it may reveal patterns of relationships between ideas that had not been evident when the concepts were stored internally. A mind map can also be constructed as a group exercise, in which case it becomes a tool for building a common understanding.
+
+In a mind map any idea or object can be put down. Related visualizations are the concept map and the argument map (Davies, 2011). Both of these have more formal rules for 
+their construction. There is also the entity-relationship (ER) diagram, which is a formal construct used in software and business modeling. Although an ER diagram has much in common with concept maps and mind maps, it is typically not used as a learning tool.
+
+![image](images/f08-20-9780128128756.jpg)
+
+
+Figure 8.20 A mind map surrounding the concept “information visualization.” Only a few of the possible links are shown.
+
+Most educational theory suggests that in order to learn concepts it is important that students actively work to integrate new ideas into the framework provided by their existing knowledge (Hay, Kinchin, & Lygo-Baker, 2008; Willis, 1995). This is the central theme of constructivist education theory that has its roots in the work of the Russian psychologist Lev Vygotsky (1978). Constructivism also emphasizes the social roots of knowledge and that much of our concept formation is shaped by social pressures (Karagiorgi & Symeou, 2005).
+
+The educational use of mind maps and concept maps would seem to fit well with constructivist theory. To construct such a map, students must actively draw out links between various concepts as they understand them. The problem is that the cognitive engagement tends to be somewhat superficial for mind maps, since it does not require that students think deeply about the nature of the links. For example, simply knowing that there is a link between disease and urban living is of marginal value, but if we know something about how diseases are propagated then we can design better sanitation systems. Because concept maps and argument maps require more analytic skills they are likely to be more effective. There is some empirical evidence that concept maps can be aids to learning (e.g., Hay et al., 2008), but because the key activity is typically the deconstruction of some body of text to extract concepts or arguments, it may be that the visualization is not a critical component; simple lists of concepts or arguments might be as effective.
+
+The best note-taking techniques appear to be hybrids combining concept organization techniques (using connecting lines and boxes) with more detailed textual information (Novak, 1981). Other structured note-taking methods can be effective, such as arranging ideas in a matrix (Kiewra, Kauffman, Robinson, DuBois, & Staley, 1999).
+
+There are other reasons for mapping concepts into a visual space. Recently, sophisticated computer algorithms have been developed to parse large text databases in order to understand how ideas, as expressed in society at large, are related to one another and how they develop over time. For example, the SPIRE system creates a classification of documents with respect to a keyword query and can be applied to databases consisting of hundreds of thousands of documents (Wise et al., 1995). The result of the SPIRE algorithm is a set of vectors in an n-dimensional space. To help people understand the resulting clusters of documents, Wise et al. created a visualization called a ThemeScape, which shows the two most important dimensions as a kind of data landscape. This is illustrated in Fig. 8.21. Flags on top of hills label and identify the largest clusters of documents in this space. Essentially, a ThemeScape uses the two most significant dimensions of the abstract data space to create a smoothed 2D histogram. Spatial proximity and salience show the major concentrations of information and, to 
+some extent, their relationships. This kind of display will be useful when two dimensions really do capture most of the variability in the data.
+
+![image](images/f08-21-9780128128756.jpg)
+
+
+Figure 8.21 An entire week of CNN news stories is summarized in a ThemeScape.   
+From Wise et al. (1995). Reproduced with permission.
+
+Other visualizations have been designed to map out the temporal evolution of larger themes in text databases. ThemeRiver is an application developed by Havre, Hetzler, and Nowell (2000) designed to show how ideas become more prevalent over time, and then fade away. It has been used to show the temporal trajectory of major news stories.
+
+Visualizations such as ThemeScape and ThemeRiver can perhaps be used to understand the zeitgeist of the time. Politicians want to know which issues are receiving the most press attention and these displays may help. But, like concept maps, both displays provide only the most superficial information about the relationships of ideas. In addition, because very high-dimensional data has been mapped into a low-dimensional space, proximities between concepts are only sometimes meaningful.
+
+Other systems have been developed to map human knowledge into a node-link diagram. Bollen et al. (2009) used a very large university database derived from Internet searches carried out by university students and faculty. Their goal was to understand which areas of scholarly endeavor are most closely related. Their algorithm judged there to be a connection between disciplines when there were information selections (via mouse clicks) in different disciplines by the same person, close together in time. This is called clickstream data. The resulting map of knowledge is shown in Fig. 8.22. It shows the physical sciences to the right and social sciences and clinical areas to the left, with the arts in the center. This particular layout is arbitrary; an artifact of the 
+algorithm, but the connections between areas is meaningful. Highly interconnected areas mean that scholars were researching in both disciplines. Such a map might be used by university administrators thinking about the logical structure of faculties, or it might be used to organize government funding agencies according to the most closely linked scholarly areas.
+
+![image](images/f08-22-9780128128756.jpg)
+
+
+Figure 8.22 A diagram showing the links between academic disciplines using clickstream data.   
+From Bollen et al. (2009). Reproduced with permission.
+---
+Node: 084 Iconic Images versus Words versus Abstra
+Primary concept extracted from chunk
+## Iconic Images versus Words versus Abstract Symbols
+
+We have choices when creating a visualization that requires symbols. We can use abstract visual symbols such as triangles, squares, or circles; we can use pictorial icons, such as an image of broccoli to represent “vegetables”; or we can use words or phrases. The best solution depends on a number of factors—the purpose of the visualization, the number of data points and how dense they are, and the availability of canonical 
+images. For example, if the quantity represented is something like the price/earnings ratio of a stock, then pictorial icons are not available.
+
+In general, pictorial icons are best used when the purpose of a visualization is pedagogical, and they are not intended for the data analyst who usually insists on far more detailed information. The reason for using the pictorial icon in an infographic is cognitive efficiency, especially for the occasional user. Using an image to represent a data object means that it is not necessary to consult a key to get its category, ensuring one less step in the process of understanding. Infographics are often designed for rapid understanding by people who may have only a marginal interest in the content—for example, the readers of magazine or newspaper articles. A general audience may lack familiarity with more specialized (and abstract) charting conventions, so reducing a step can easily make the difference between something that is ignored and something that provides information. Also, in infographics the information content is usually quite low, so there is more space available for images.
+
+[G8.17] Consider using pictorial icons for pedagogical purposes in infographics. Use them only where a canonical or culturally defined image is available.
+
+When using representative visual symbols as glyphs to display quantity we must be aware of the potential distortion inherent in varying size to display relative quantity; linear coding using multiples is generally preferable. Using the stacked hamburgers in the manner of Otto Neurath’s Isotypes (1936), as shown in Fig. 8.23, is likely better than 
+using a single big hamburger and a single big broccoli, each sized to represent some quantity. As discussed in Chapter 5 (guideline G5.17), it is particularly disastrous to use the volume of an object to represent a numerical quantity. In many diagrams and charts it is common to use pictorial symbols to represent various kinds of categorical information. This is especially true of so-called infographics. Stacks of little house-shaped symbols and stacks of little car-shaped symbols may be used to represent the rates of home and car ownership in different countries. A hamburger is sometimes used to represent junk food in a chart. Broccoli has achieved similar status as a symbol for healthy food.
+
+![image](images/f08-23-9780128128756.jpg)
+
+
+Figure 8.23 In infographics, repeated pictorial icons are often used to represent quantity.
+
+The choice of abstract symbols versus labeled points and regions should also be made on the basis of cognitive efficiency. Abstract symbols are effective when there are many data points belonging to a few different categories. Abstract symbols can be more compact than pictorial icons. Also, if visual clustering is important, the effective use of low-level visual features discussed in Chapters 5 and 6 becomes critical.
+
+[G8.18] When a large number of data points must be represented in a visualization, use symbols instead of words or pictorial icons.
+
+Written and spoken language has orders of magnitude more category labels than there are standardized pictorial icons. This means that words must be chosen over pictorial icons in most cases, but diagrams densely populated with printed words can become unintelligible. Directly labeling objects in visualizations using words is most suitable when there is a single member for each category, or only a few, and where the category density is low.
+
+[G8.19] Use words directly on the chart where the number of symbolic objects in each category is relatively few and where space is available.
+
+### Static Links
+
+When text is integrated into a static diagram, the Gestalt principles discussed in Chapter 6 apply, as Fig. 8.24 shows. Simple proximity is commonly used in labeling maps. A line drawn around the object and text creates a common region. A line or common region can also be used to associate groups of objects with a particular label. Arrows and speech balloons linking text and graphics also apply the principle of connectedness.
+
+[G8.20] Use Gestalt principles of proximity, connectedness, and common region to associate written labels with graphical elements.
+---
+Node: 085 Scenes and Scene Gist
+Primary concept extracted from chunk
+## Scenes and Scene Gist
+
+Rapid categorization occurs with scenes as well as visual objects. If you flip channels on a TV, within 100
+ 
+ms of the new image appearing your brain will have classified it as being a beach scene, a street scene, an interior, a store, a bar, an office, or any one 
+of many different types of scenes. Moreover, your brain will be primed for activities within that particular scene; in particular, the sequences of eye movements needed to find a certain detail in a specific scene will be facilitated (Oliva, 2005; Oliva, Torralba, Castelhano, & Henderson, 2003).
+
+![image](images/f08-24-9780128128756.jpg)
+
+
+Figure 8.24 Gestalt principles used to guide the linking of text and graphics: (a) Proximity. (b) Continuity/connectedness. (c) Common region. (d) Common region combined with connectedness.
+
+In the perception of gist, the broad spatial layout of a scene is identified in addition to the identification of its basic-level category (Potter, 1976). Also, a cognitive framework may be activated that includes priming the actions that may be useful for dealing with the new information.
+
+Scene gist is important in data visualization because what we see depends enormously on the context. The gist of familiar visual displays will be processed just as fast as the gist of natural scenes, and it will have a similar effect on our response biases. The expectations and priming of the brain will have a huge effect, especially in cases where a rapid response is required. This provides another argument for consistency of representation for common types of visualization.
+
+### Priming, Categorization, and Trace Theory
+
+We now return to the topic of priming and discuss how it affects categorization. Priming can have both positive and negative consequences with regard to categorization. In some ways, priming can be regarded as a biasing of perception. Ratcliff and McKoon (1996) made sketches of pairs of objects that were visually very similar but belonged to very different categories (Fig. 8.25). They found normal priming when an image was shown for a second time, a week later, in a rapid naming task; however, when the similar image (within a different category) was shown a week later, naming was actually slowed.
+
+They argued that the result adds support to a trace theory of cognitive skill learning. According to this theory, whenever we successfully complete a cognitive activity, such as identifying an object, all the various neural pathways that were activated at the time become strengthened, so that the next time the same object is presented, processing is facilitated. But, strengthening a set of pathways inevitably means that alternative pathways are less likely to be activated in similar circumstances, introducing a 
+form of bias. One of the implications is that priming, and indeed all categorization, is a two-edged sword. Priming and categorization can lead to errors. Once we learn a particular interpretation of a pattern, we get faster at classifying it in a certain way, automatically classifying it at a glance, but this means that we are less likely to come up with alternative interpretations.
+
+![image](images/f08-25-9780128128756.jpg)
+
+
+Figure 8.25 Pairs of sketches developed by Ratcliff and McKoon (1996). Each pair has visual similarity, but the objects represented have very different uses.
+
+![image](images/f08-26-9780128128756.jpg)
+
+
+Figure 8.26 The percept of an object consists mostly of information stored in memory that has been activated by the visual information; this remains linked to a relatively small amount of information coming from the external world.
+
+We shall return to the issue of priming, and sensory learning in general, in the following chapters as we begin to consider the process of visual thinking.
+---
+Node: 086 Conclusion
+Primary concept extracted from chunk
+## Conclusion
+
+In this chapter, we have moved well beyond thinking of perception only as the extraction of information from what is imaged on the retina. Once an object is identified as something, as opposed to an abstract collection of features and colors, a range of associations is automatically activated in the brain, and these associations are what make up most of what we subjectively perceive. Some of these cognitive responses are in the visual system; others are in the language centers and in the regions that control actions. To illustrate this point, Fig. 8.26 shows the range of cognitive activities that might occur when someone looks at a diagram of the human blood circulation system. They are fixating on, and trying to understand, a part of the diagram that schematically depicts the heart. A small amount of information is held in visual working memory, consisting of visual patterns relating to the left and right chambers of the heart. The overall topology (chambers are part of heart) and shape have also been processed and held in working memory. As part of the mental act of identification, the verbal label “heart” becomes activated, as well as a network of related concepts. Concepts further from the current focus of cognitive attention are brought to a state of readiness. Simultaneously, eye-movement programming systems are brought to a state of readiness to do such things as trace the pathways, as represented in the diagram. All of this visual and nonvisual activity is exquisitely focused on the cognitive task of the moment. Little or no irrelevant information is processed. It is this ability to flexibly combine diverse types of information that makes human visual thinking so powerful.
+---
+Node: Chapter Nine. Images, Narrative, and Gestures for Explanation
+Primary concept extracted from chunk
+# Chapter Nine. Images, Narrative, and Gestures for Explanation
+
+Chapter Nine
+
+# Images, Narrative, and Gestures for Explanation
+---
+Node: 088 The Nature of Language part1
+Primary concept extracted from chunk
+## The Nature of Language
+
+Before going on to consider whether or not we can or should have such a thing as a visual language, we need to think about the nature of language. Noam Chomsky revolutionized the study of natural language because he showed that there are aspects of the syntactic structure of language that generalize across cultures (Chomsky, 1965). A central theme of his work is the concept that there are “deep structures” of language, representing innate cognitive abilities based on inherited neural structures. In many ways, this work forms the basis of modern linguistics. The fact that Chomsky’s analysis of language is also a cornerstone of the theory of computer languages lends support to the idea that natural languages and computer languages have the same cognitive basis.
+
+Other evidence supports the innateness theory. There is a critical period for normal language development that extends to about age 10; however, language is most easily acquired in the interval from birth to age 3 or 4. If we do not obtain fluency in some language in our early years, we will never become fluent in any language. Also, there are areas in the brain specialized for spoken language production (Broca’s area) and language comprehension (Wernicke’s area). These are distinct from the areas associated with visual processing, suggesting that language processing, whatever it is, is distinct from visual processing.
+
+### Sign Language
+
+Despite the evidence for special brain areas, being verbal is not a defining characteristic of natural language capacity. Sign languages are interesting because they are examples of true visual languages. But, as with spoken language, if we do not acquire sign languages early in life, we will never become very adept at using them. Sign languages are not translations of spoken languages, but are independent, having their own grammars. Groups of deaf children spontaneously develop sign languages that have the same deep structures and grammatical patterns as spoken language. These languages are as syntactically rich and expressive as spoken language (Goldin-Meadow & Mylander, 1998).
+
+Sign languages grew out of the communities of deaf children and adults that were established in the 19th century, arising spontaneously from the interactions of deaf children with one another. Sign languages are so robust that they thrived despite efforts of well-meaning teachers to suppress them in favor of lip reading—a far more limiting channel of communication. There are many sign languages; British sign language is a radically different language from American sign language, and the sign language of France is similarly different from the sign language of francophone Quebec (Armstrong, Stokoe, & Wilcox, 1994).
+
+Although in spoken languages words do not resemble the things they reference (with a few rare exceptions), signs are partially based on similarity; for example, see the signs for a tree illustrated in Fig. 9.1. Sign languages have evolved rapidly. The pattern appears to be that a sign is originally created on the basis of a form of similarity in the shape and motion of the gesture, but over time, the sign becomes more abstract and similarity becomes less and less important (Deuchar, 1990). It is also the case that even signs apparently based on similarity are only recognized correctly about 10% of the time without instruction, and many signs are fully abstract.
+
+Even though sign language is understood visually and produced through hand gestures, the same brain areas are involved in comprehension and production as are 
+involved in speech comprehension and production (Emmorey & McCullough, 2009). This tells us that the brain has distinct language subsystems that have the same function, no matter what the sensory input or means of production.
+
+![image](images/f09-01-9780128128756.jpg)
+
+
+Figure 9.1 Three different sign language representations of a tree. Note that they are all very different and all incorporate motion.   
+
+From 
+Bellugi and Klima (1976)
+, Reproduced with permission.
+
+To summarize, language processing uses specialized areas of the brain, even when the information is presented visually by written words or hand gestures. These processing areas are distinct from those involved in visual pattern and object recognition.
+
+### Language is Dynamic and Distributed Over Time
+
+We take in spoken, written, and sign language serially; it can take a few seconds to hear or see a short sentence. Armstrong et al. (1994) argued that, in important ways, spoken language is essentially dynamic. Verbal expression does not consist of a set of fixed, discrete sounds; it is more accurately described as a set of vocal gestures producing dynamically changing sound patterns. The hand gestures of sign language are also dynamic, even when denoting static objects, as Fig. 9.1 illustrates. There is a dynamic and inherently temporal phrasing at the syntactic level in the sequential structure of nouns and verbs. Also, written language, although it comes in initially through the visual channel, is transformed into a sequence of mentally recreated dynamic utterances when it is read. In contrast with the dynamic, temporally ordered nature of language, relatively large sections of static pictures and diagrams can be understood in parallel. We can comprehend the gist of a complex visual structure in a fraction of a second, based on a single glance.
+
+### Is Visual Programming a Good Idea?
+
+The difficulty of writing and understanding computer programs has led to the development of a number of so-called visual languages in the hope that these can make the task easier; however, we must be very careful in discussing these as languages. Visual programming languages are mostly static diagramming systems, so different from spoken languages that using the term language for both can be more misleading than helpful. There is a case to be made that computer programming languages have more in common with natural language processing than with visual processing, and that for this reason, programming is better done using methods that relate more closely to natural language.
+
+Consider the following instructions that might be given to a mailroom clerk:
+
+* Take a letter from the top of the In tray.
+* Put a stamp on it.
+* Put the letter in the Out tray.
+* Continue until all the letters have stamps on them.
+
+This is very like the following short program, which beginning programmers are often asked to write:
+
+* Repeat
+* + get a line of text from the input file
+  + change all the lowercase letters to uppercase
+  + write the line to the output file
+* Until (there is no more input)
+
+This example program can also be expressed in the form of a diagram called a flowchart (see Fig. 9.2).
+
+Flowcharts provide a salutary lesson to those who design visual programming languages. Flowcharts were once part of every introductory programming text and it was often a contractual requirement that large bodies of software be documented with flowcharts describing the code structure. Once almost universally applied, flowcharts are now almost defunct. Why did flowcharts fail? It seems reasonable to attribute this to a lack of commonality with natural language.
+
+Written and spoken languages, as well as sign languages, are packed with words such as if, else, not, while, but, maybe, perhaps, probably, and unlikely. These provide external manifestations of the logical structure of human thought (Pinker, 2007). We learn the skills of communication and refine our thinking skills early in life when we learn to talk. Using natural language-like pseudocode transfers these skills we already have gained in expressing logic through natural language.
+---
+Node: 088 The Nature of Language part2
+Primary concept extracted from chunk
+## The Nature of Language (Part 2)
+
+A graphical flowchart representing the same program must be translated before it can be interpreted in the natural language processing centers. If, as infants, we learned to communicate by drawing diagrams on paper and if society had developed a structured language for this purpose, then visual programming would make sense, but this is not the case.
+
+![image](images/f09-02-9780128128756.jpg)
+
+
+Figure 9.2 A flowchart is often a poor way to represent information that can be readily expressed in natural language-like pseudocode.
+
+Nevertheless, some types of information are much better described in the form of diagrams. A second example illustrates this. Suppose that we wish to express a set of propositions about the management hierarchy of a small company.
+
+* Jane is Jim’s boss.
+* Jim is Joe’s boss.
+* Anne works for Jane.
+* Mark works for Jim.
+* Anne is Mary’s boss.
+* Anne is Mike’s boss.
+
+This pattern of relationships is far more clearly expressed in a diagram, as shown in Fig. 9.3. These two examples suggest that visual language, in the form of static diagrams, has certain expressive capabilities that are very different from, and perhaps complementary to, natural language. Diagrams should be used to express structural relationships among program elements, whereas words should be used to express detailed procedural logic.
+
+Throughout this book, it has been argued that the strength of visualization is that the perceptual representation of certain types of information can be easily understood. Logical constructs do not appear to constitute one of the types of information for which a natural visual representation exists. Also, although the existence of sign languages suggests that there can be visual analogs to natural language, the principle of arbitrariness still applies, so there is no advantage to this form or representation. On balance, the evidence suggests that the detailed logic of programming is best done using methods that rely on words more than graphical codes. Accordingly, we propose the following two broad principles:
+
+[G9.1] Use methods based on natural language (as opposed to visual pattern perception) to express detailed program logic.
+
+[G9.2] Graphical elements, rather than words, should be used to show structural relationships, such as links between entities and groups of entities.
+
+![image](images/f09-03-9780128128756.jpg)
+
+
+Figure 9.3 A simple organization chart showing the management structure.
+
+None of the above should be taken as an attack on visual programming environments, such as Microsoft Visual Basic or Borland’s Delphi, but it is worth noting that these are hybrids, as they are far from purely visual. They have many words in their user interfaces, and the way in which programming is done is mixed; some operations are done by connecting boxes, but others require text entry.
+
+### Visual Programming for Children
+
+KidSim was a visual programming language based on animated characters (Cypher & Smyth, 1995). Rader, Brand, and Lewis (1997) carried out an extensive independent evaluation of KidSim in two classrooms over the course of a year. The system was deliberately introduced without explicit teaching of the underlying programming concepts. They found that children rapidly learned the interactions needed to draw animated pictures but failed to gain a deep understanding of the programs.
+
+A more recent visual programming language for children, called Scratch (Maloney, Resnick, Rusk, Silverman, & Eastmond, 2010), has found widespread use in classrooms. It uses snap together blocks representing commands to control animated on-screen characters (Fig. 9.4). The program has special wraparound blocks to represent loops and conditional (if) statements. Both are illustrated in Fig. 9.4. It is notable that the language, although it has many visual components, uses words “if” and “forever” to represent more abstract programming concepts. The program is motivating for children because they can control animated characters in a small world environment. While this and similar languages may not be suitable for large complex programs, they may provide a good introduction to basic concepts of programming. A study by Franklin et al. (2016) suggests that concepts learned in Scratch can indeed be transferred to text-based programming languages. Another classroom evaluation claimed “significant improvement regarding learning programming concepts, logic, and computational practices” (Sáez-López, Román-González, & Vázquez-Cano, 2016).
+
+### Images versus Sentences and Paragraphs
+
+The greatest advantage of words over images and diagrams, either static or dynamic is that spoken and written natural language is ubiquitous. It is by far the most elaborate, complete, and widely shared system of symbols that we have available. For this reason alone, it is only when there is a clear advantage that visual techniques are preferred. That said, images have clear advantages for certain kinds of information, and a combination of images and words will often be best. A visualization designer has the task of deciding whether to represent information visually, using words, or both. Other related choices involve the selection of static or moving images and spoken or written text. If both words and images are used, methods for linking them must be selected. Useful reviews of cognitive studies that bear on these issues have been summarized and applied to multimedia design by a number of authors, including Strothotte and Strothotte (1997), Najjar (1998), and Faraday (1998). What follows is a summary of 
+some of the key findings, beginning with the issue of when to use images or words separately and in combination.
+
+![image](images/f09-04-9780128128756.jpg)
+
+
+Figure 9.4 An example screen illustrating the Scratch user interface.
+
+We have been discussing the special case of programming languages, but the same principles apply in general to the question of whether to display information graphically or with text. Text is better than graphics for conveying abstract concepts (Najjar, 1998), and procedural information is best provided using text or spoken language, or sometimes text integrated with images (Chandler & Sweller, 1991).
+
+We can begin by proposing a more general version of guideline G9.1.
+
+[G9.3] Use methods based on natural language (as opposed to visual pattern perception) to represent abstract concepts.
+
+Of course, it is important that the information be well presented, no matter what the medium. Visual information must be meaningful and capable of incorporation into a cognitive framework for a visual advantage to be realized (Bower, Karlin, & Dueck, 1975).
+
+There are also design considerations relating to the viewing time for images. It takes time to scan a complex diagram for its details. Only a little information is extracted in the first glance. A number of studies support the idea that we first comprehend the shape and overall structure of an object, and then we comprehend the details (Price & Humphreys, 1989; Venturino & Gagnon, 1992). Because of this, simple line drawings may be most effective for quick exposures.
+
+### Links Between Images and Words
+
+The central claim of multimedia theory is that providing information in more than one medium of communication will lead to better understanding (Mousavi, Low, & Sweller, 1995). Mayer, Moreno, Boire, and Vagge (1999) and others have translated this into a theory based on dual coding. They suggest that if active processing of related material takes place in both visual and verbal cognitive subsystems, learning will be better. It is claimed that duplicate coding of information in more than one modality will be more effective than single-modality coding. The theory also holds that it is not sufficient for material to be simply presented and passively absorbed; it is critical that both visual and verbal representation be actively constructed, together with the connections between them.

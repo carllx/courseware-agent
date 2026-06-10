@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=22, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_22.json
+FILES:
+/private/tmp/about_face_chunks/chunk_526_Undo_and_Redo.md
+/private/tmp/about_face_chunks/chunk_527_Group_multiple_Undo.md
+/private/tmp/about_face_chunks/chunk_528_Other_types_of_Undo.md
+/private/tmp/about_face_chunks/chunk_529_Discontiguous_multiple_Undo.md
+/private/tmp/about_face_chunks/chunk_530_Category_specific_Undo.md
+/private/tmp/about_face_chunks/chunk_531_Deleted_data_buffers.md
+/private/tmp/about_face_chunks/chunk_532_Versioning_and_reversion.md
+/private/tmp/about_face_chunks/chunk_533_Freezing.md
+/private/tmp/about_face_chunks/chunk_534_Undoing_the_undoable.md
+/private/tmp/about_face_chunks/chunk_535_What_If__Compare_and_Preview.md
+/private/tmp/about_face_chunks/chunk_536_DESIGNING_FOR_DIFFERENT_NEEDS.md
+/private/tmp/about_face_chunks/chunk_537_Learnability_and_Help.md
+/private/tmp/about_face_chunks/chunk_538_Command_modalities.md
+/private/tmp/about_face_chunks/chunk_539_Pedagogic__immediate__and_invi.md
+/private/tmp/about_face_chunks/chunk_540_Information_in_the_world_versu.md
+/private/tmp/about_face_chunks/chunk_541_Memorization_vectors.md
+/private/tmp/about_face_chunks/chunk_542_Working_sets.md
+/private/tmp/about_face_chunks/chunk_543_Contextual_help_and_assistive_.md
+/private/tmp/about_face_chunks/chunk_544_Guided_tours_and_overlays.md
+/private/tmp/about_face_chunks/chunk_545_Galleries_and_templates.md
+/private/tmp/about_face_chunks/chunk_546_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_547_Input_and_content_area_hints.md
+/private/tmp/about_face_chunks/chunk_548_Pros_and_cons_of_wizards.md
+/private/tmp/about_face_chunks/chunk_549_ToolTips_and_ToolTip_overlays.md
+/private/tmp/about_face_chunks/chunk_550_Traditional_online_help.md

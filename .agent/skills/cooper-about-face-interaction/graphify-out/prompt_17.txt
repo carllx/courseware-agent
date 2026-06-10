@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=17, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_17.json
+FILES:
+/private/tmp/about_face_chunks/chunk_401_Let_users_direct_rather_than_d.md
+/private/tmp/about_face_chunks/chunk_402_Provide_choices_rather_than_as.md
+/private/tmp/about_face_chunks/chunk_403_Keep_necessary_tools_close_at_.md
+/private/tmp/about_face_chunks/chunk_404_Provide_modeless_feedback.md
+/private/tmp/about_face_chunks/chunk_405_Design_for_the_probable_but_an.md
+/private/tmp/about_face_chunks/chunk_406_Contextualize_information.md
+/private/tmp/about_face_chunks/chunk_407_Reflect_object_and_application.md
+/private/tmp/about_face_chunks/chunk_408_Avoid_unnecessary_reporting.md
+/private/tmp/about_face_chunks/chunk_409_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_410_Avoid_blank_slates.md
+/private/tmp/about_face_chunks/chunk_411_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_412_Differentiate_between_command_.md
+/private/tmp/about_face_chunks/chunk_413_Hide_the_ejector_seat_levers.md
+/private/tmp/about_face_chunks/chunk_414_Optimize_for_responsiveness_bu.md
+/private/tmp/about_face_chunks/chunk_415_Motion__Timing__and_Transition.md
+/private/tmp/about_face_chunks/chunk_416_The_Ideal_of_Effortlessness.md
+/private/tmp/about_face_chunks/chunk_417_REDUCING_WORK_AND_ELIMINATING_.md
+/private/tmp/about_face_chunks/chunk_418_Goal_Directed_Tasks_versus_Exc.md
+/private/tmp/about_face_chunks/chunk_419_Types_of_Excise.md
+/private/tmp/about_face_chunks/chunk_420_Navigational_excise.md
+/private/tmp/about_face_chunks/chunk_421_Navigation_across_multiple_scr.md
+/private/tmp/about_face_chunks/chunk_422_Navigation_between_panes.md
+/private/tmp/about_face_chunks/chunk_423_Navigation_between_tools_and_m.md
+/private/tmp/about_face_chunks/chunk_424_Navigation_of_information.md
+/private/tmp/about_face_chunks/chunk_425_Skeuomorphic_excise.md

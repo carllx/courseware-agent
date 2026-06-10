@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_751_tool_carousels_tool_carousel",
+      "label": "Tool Carousel",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_751_Tool_carousels.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Combined with tool bars to allow more functions than can fit across the screen. Tames complexity by categorizing tools and letting users swipe horizontally to select."
+    },
+    {
+      "id": "about_face_chunks_chunk_752_menu_bars_an_idiom_to_avoid_i_menu_bar",
+      "label": "Menu Bar",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_752_Menu_bars__an_idiom_to_avoid_i.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "An idiom to avoid in mobile. Tab bars are preferred. Menu bars hide functionality and lack visual clarity."
+    },
+    {
+      "id": "about_face_chunks_chunk_753_drawers_drawer",
+      "label": "Drawer",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_753_Drawers.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Provides access to a vertical list of navigation elements similar to tabs, using minimal screen real estate by hiding in a panel under the main content area."
+    },
+    {
+      "id": "about_face_chunks_chunk_754_secondary_action_drawers_secondary_action_drawer",
+      "label": "Secondary-action Drawer",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_754_Secondary_action_drawers.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Used to interact with a secondary set of objects, often deployed from the right side of the screen."
+    },
+    {
+      "id": "about_face_chunks_chunk_755_double_drawers_double_drawers",
+      "label": "Double Drawers",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_755_Double_drawers.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Using both a left-hand drawer for primary navigation and a right-hand drawer for secondary actions like messaging."
+    },
+    {
+      "id": "about_face_chunks_chunk_756_item_level_drawers_item_level_drawer",
+      "label": "Item-level Drawer",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_756_Item_level_drawers.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Sliding an individual list or grid item reveals a tool bar for that item. Low discoverability and conflicts with other horizontal gestures."
+    },
+    {
+      "id": "about_face_chunks_chunk_757_drawer_behaviors_to_avoid_limit_animated_transitions",
+      "label": "Limit Animated Screen Transitions",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_757_Drawer_behaviors_to_avoid.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Overloading of popping and sliding panes in different directions can be disconcerting and confusing for users."
+    },
+    {
+      "id": "about_face_chunks_chunk_759_tap_to_reveal_and_direct_manip_tap_to_reveal",
+      "label": "Tap-to-reveal",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_759_Tap_to_reveal_and_direct_manip.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Allows temporary access to controls (like transport/volume) by tapping the screen, eliminating clutter."
+    },
+    {
+      "id": "about_face_chunks_chunk_761_direct_manipulation_controls_direct_manipulation",
+      "label": "Direct Manipulation",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_761_Direct_manipulation_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Replaces indirect-manipulation idioms (sliders) with gestures on the object being edited. Immersive but requires discovery/learning."
+    },
+    {
+      "id": "about_face_chunks_chunk_763_implicit_sorting_versus_explic_implicit_sorting",
+      "label": "Implicit Sorting",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_763_Implicit_sorting_versus_explic.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Pre-empts user's need to search by utilizing browsing behavior to suggest items."
+    },
+    {
+      "id": "about_face_chunks_chunk_764_building_search_queries_voice_search",
+      "label": "Voice Search",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Ease entry for simple searches, though full reliability for general searches is still developing."
+    },
+    {
+      "id": "about_face_chunks_chunk_764_building_search_queries_auto_complete",
+      "label": "Auto-complete",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Displays a list of popular options matching entered letters to decrease keyboard time."
+    },
+    {
+      "id": "about_face_chunks_chunk_764_building_search_queries_tap_ahead",
+      "label": "Tap-ahead",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Allows taking an auto-suggested term and loading it to refine further."
+    },
+    {
+      "id": "about_face_chunks_chunk_764_building_search_queries_auto_suggest",
+      "label": "Auto-suggest",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Uses fuzzy matching techniques to provide spell-corrected, controlled-vocabulary, and synonym options."
+    },
+    {
+      "id": "about_face_chunks_chunk_764_building_search_queries_categorized_suggestions",
+      "label": "Categorized Suggestions",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Provides instantaneous suggested options in each category when searching across several types of data."
+    },
+    {
+      "id": "about_face_chunks_chunk_765_sorting_and_filtering_sorting_and_filtering",
+      "label": "Sorting and Filtering",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_765_Sorting_and_filtering.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Merge them into a single set of controls on mobile due to limited space and time."
+    },
+    {
+      "id": "about_face_chunks_chunk_766_welcome_and_help_screens_welcome_and_help_screens",
+      "label": "Welcome and Help Screens",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_766_Welcome_and_help_screens.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Simplest and most effective way to help users learn a mobile interface given the lack of hover states and invisible affordances of gestures."
+    },
+    {
+      "id": "about_face_chunks_chunk_767_guided_tours_guided_tours",
+      "label": "Guided Tours",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_767_Guided_tours.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Carousel of cards explaining functions. Used to orient first-time users."
+    },
+    {
+      "id": "about_face_chunks_chunk_768_overlays_overlays",
+      "label": "Overlays",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_768_Overlays.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Use overlays to explicate gestures. Semitransparent layer on which instructions are displayed."
+    },
+    {
+      "id": "about_face_chunks_chunk_769_tooltip_overlays_tooltip_overlays",
+      "label": "ToolTip Overlays",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_769_ToolTip_overlays.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Attempts to provide a ToolTip-like display of all primary functions on a single overlay screen."
+    },
+    {
+      "id": "about_face_chunks_chunk_770_multi_touch_gestures_multi_touch_gestures",
+      "label": "Multi-Touch Gestures",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Core of mobile experience, utilizing a small vocabulary of gestures for simple discoverability."
+    },
+    {
+      "id": "about_face_chunks_chunk_771_tap_to_select_activate_or_to_tap",
+      "label": "Tap",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_771_Tap_to_select__activate__or_to.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Used to select objects and toggle activation state."
+    },
+    {
+      "id": "about_face_chunks_chunk_772_tap_and_hold_tap_and_hold",
+      "label": "Tap-and-hold",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_772_Tap_and_hold.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Falling out of favor due to low discoverability. Used to open contextual pop-up menus."
+    },
+    {
+      "id": "about_face_chunks_chunk_773_drag_to_scroll_drag_to_scroll",
+      "label": "Drag to Scroll",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_773_Drag_to_scroll.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Works horizontally or vertically, a fundamental direct manipulation gesture."
+    },
+    {
+      "id": "about_face_chunks_chunk_774_drag_to_move_drag_to_move",
+      "label": "Drag to Move",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_774_Drag_to_move.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Used to move or copy an object or to move an object arbitrarily within a canvas or grid."
+    },
+    {
+      "id": "about_face_chunks_chunk_775_drag_to_control_drag_to_control",
+      "label": "Drag to Control",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_775_Drag_to_control.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Used to control knobs, switches, sliders, pads, or palette tools."
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_751_tool_carousels_tool_carousel",
+      "target": "about_face_chunks_chunk_752_menu_bars_an_idiom_to_avoid_i_menu_bar",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/private/tmp/about_face_chunks/chunk_751_Tool_carousels.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_753_drawers_drawer",
+      "target": "about_face_chunks_chunk_754_secondary_action_drawers_secondary_action_drawer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_753_Drawers.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_753_drawers_drawer",
+      "target": "about_face_chunks_chunk_755_double_drawers_double_drawers",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_753_Drawers.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_753_drawers_drawer",
+      "target": "about_face_chunks_chunk_756_item_level_drawers_item_level_drawer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_753_Drawers.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_753_drawers_drawer",
+      "target": "about_face_chunks_chunk_757_drawer_behaviors_to_avoid_limit_animated_transitions",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_753_Drawers.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_759_tap_to_reveal_and_direct_manip_tap_to_reveal",
+      "target": "about_face_chunks_chunk_761_direct_manipulation_controls_direct_manipulation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_759_Tap_to_reveal_and_direct_manip.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_763_implicit_sorting_versus_explic_implicit_sorting",
+      "target": "about_face_chunks_chunk_765_sorting_and_filtering_sorting_and_filtering",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/private/tmp/about_face_chunks/chunk_763_Implicit_sorting_versus_explic.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_764_building_search_queries_voice_search",
+      "target": "about_face_chunks_chunk_764_building_search_queries_auto_complete",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_764_building_search_queries_auto_complete",
+      "target": "about_face_chunks_chunk_764_building_search_queries_auto_suggest",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_764_building_search_queries_auto_complete",
+      "target": "about_face_chunks_chunk_764_building_search_queries_tap_ahead",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_764_building_search_queries_auto_suggest",
+      "target": "about_face_chunks_chunk_764_building_search_queries_categorized_suggestions",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_766_welcome_and_help_screens_welcome_and_help_screens",
+      "target": "about_face_chunks_chunk_767_guided_tours_guided_tours",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_766_Welcome_and_help_screens.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_766_welcome_and_help_screens_welcome_and_help_screens",
+      "target": "about_face_chunks_chunk_768_overlays_overlays",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_766_Welcome_and_help_screens.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_766_welcome_and_help_screens_welcome_and_help_screens",
+      "target": "about_face_chunks_chunk_769_tooltip_overlays_tooltip_overlays",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_766_Welcome_and_help_screens.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_770_multi_touch_gestures_multi_touch_gestures",
+      "target": "about_face_chunks_chunk_771_tap_to_select_activate_or_to_tap",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_770_multi_touch_gestures_multi_touch_gestures",
+      "target": "about_face_chunks_chunk_772_tap_and_hold_tap_and_hold",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_770_multi_touch_gestures_multi_touch_gestures",
+      "target": "about_face_chunks_chunk_773_drag_to_scroll_drag_to_scroll",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_770_multi_touch_gestures_multi_touch_gestures",
+      "target": "about_face_chunks_chunk_774_drag_to_move_drag_to_move",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_770_multi_touch_gestures_multi_touch_gestures",
+      "target": "about_face_chunks_chunk_775_drag_to_control_drag_to_control",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "about_face_chunks_chunk_764_search_queries",
+      "label": "Search Query Methods",
+      "nodes": [
+        "about_face_chunks_chunk_764_building_search_queries_voice_search",
+        "about_face_chunks_chunk_764_building_search_queries_auto_complete",
+        "about_face_chunks_chunk_764_building_search_queries_tap_ahead",
+        "about_face_chunks_chunk_764_building_search_queries_auto_suggest",
+        "about_face_chunks_chunk_764_building_search_queries_categorized_suggestions"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_764_Building_search_queries.md"
+    },
+    {
+      "id": "about_face_chunks_chunk_770_gestures",
+      "label": "Multi-Touch Gestures Suite",
+      "nodes": [
+        "about_face_chunks_chunk_771_tap_to_select_activate_or_to_tap",
+        "about_face_chunks_chunk_772_tap_and_hold_tap_and_hold",
+        "about_face_chunks_chunk_773_drag_to_scroll_drag_to_scroll",
+        "about_face_chunks_chunk_774_drag_to_move_drag_to_move",
+        "about_face_chunks_chunk_775_drag_to_control_drag_to_control"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_770_Multi_Touch_Gestures.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

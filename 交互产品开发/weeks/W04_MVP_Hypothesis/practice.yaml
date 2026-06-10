@@ -1,10 +1,10 @@
-# W04_practice.yaml — Exp1 收官工作坊：从调研数据到 MVP 实验
+# W04_practice.yaml — 实践项目 收官工作坊：从调研数据到 MVP 实验
 # Schema: practice_schema.md v3.1 (ADR 043 + 超星集成)
-# 对应脚本: M05_实验1_收官_调研汇报与可行性清单.md
+# 对应脚本: M05_实践项目1_收官_调研汇报与可行性清单.md
 # 版本: v1.0 (2026-05-11)
 
 week: 4
-title: "Exp1 收官：从调研数据到假设与 MVP 实验"
+title: "实践项目 收官：从调研数据到假设与 MVP 实验"
 experiment_link:
   - 1
 total_minutes: 80  # hours_practice=2 → 约 80min 工作坊
@@ -48,7 +48,7 @@ phases:
     deliverables:
       - "重新打磨的 Problem Statement（必须包含量化指标）"
     verification:
-      note: "此环节为 W03 Exp1 课后作业的验收节点"
+      note: "此环节为 W03 实践项目 课后作业的验收节点"
       checklist:
         - "Proto-Persona Figma 草稿（基于真实调研，非臆断）"
         - "原始访谈录音节选（至少含 1 段 5-Why 追问链路）"
@@ -176,7 +176,7 @@ homework:
 ai_agent_reuse:
   note: >
     W04 工作坊前，鼓励各组用万能角色构建器的"自由模式"
-    对自己的 Exp1 赛道做一次 AI 预演采访。
+    对自己的 实践项目 赛道做一次 AI 预演采访。
     方法：直接打开 AI 终端，描述自己赛道的用户场景，
     不使用 /theme 命令，Agent 将自由生成对应角色。
   prompt_path: "practices/materials/W03/教师版_JTBD访谈陪练终端系统提示词.md"

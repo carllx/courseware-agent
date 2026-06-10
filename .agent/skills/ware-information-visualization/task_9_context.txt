@@ -1,0 +1,577 @@
+Node: 062 Depth Cue Theory part5
+Primary concept extracted from chunk
+## Depth Cue Theory (Part 5)
+
+When we move forward through a cluttered environment, the result is a very different expanding pattern of motion, like that shown in Fig. 7.24(b). Wann et al. (1995) showed that subjects were able to control their headings with an accuracy of 1–2 degrees when they were given feedback from a wide-screen field of dots through which they had to steer. There is also evidence for specialized neural mechanisms sensitive to the time to contact with a visual surface that is being approached. This is inversely proportional to the rate of optical expansion of the pattern of surface features (Lee & Young, 1985), a variable called tau.
+
+The kinetic depth effect can be demonstrated with a wire bent into a complex 3D shape and projected onto a screen, as shown in Fig. 7.24(c). Casting the shadow of the wire will suffice for the projection. The result is a two-dimensional line, but if the wire is rotated, the three-dimensional shape of the wire immediately becomes apparent (Wallach & O’Connell, 1953). The kinetic depth effect dramatically illustrates a key concept in understanding space perception. The brain generally assumes that objects are rigid in 3D space, and the mechanisms of object perception incorporate this constraint. The moving shadow of the rotating bent wire is perceived as a rigid 3D object, not as a wiggling 2D line. It is easy to simulate this in a computer graphics system by creating an irregular line, rotating it about a vertical axis, and displaying it using standard graphics techniques. Visualizations where many small discrete objects are 
+arranged in space as well as 3D node-link structures can become much clearer with kinetic depth. Structure from motion is one reason for the effectiveness of fly-through animated movies that take an observer through a data space.
+
+An obvious problem when using kinetic depth in data visualization is that people often wish to contemplate a structure from a particular viewpoint; rotating it causes the viewpoint to be continuously changed. This can be mitigated by having the scene rotate about a vertical axis. If the rotation is oscillatory, then the viewpoint can be approximately preserved.
+
+[G7.6] To help users understand depth relationships in 3D data visualizations, consider using structure from motion by rotating the scene around the center of interest. This is especially useful when objects are unattached to other parts of the scene.
+
+### Eye Convergence
+
+When we fixate an object with both eyes, the eyes converge to a degree dictated by the distance of the object. This vergence angle is illustrated in Fig. 7.25. Given the two line-of-sight vectors, it is a matter of simple trigonometry to determine the distance to the fixated object; however, the evidence suggests that the human brain is not good at this geometric computation except for objects within arm’s length (Viguier, Clement, & Trotter, 2001). The vergence sensing system appears capable of quite rapid recalibration in the presence of other spatial information (Fisher & Cuiffreda, 1990).
+
+### Stereoscopic Depth
+
+Stereoscopic depth is information about distance provided by the slight differences in images on the retinas of animals with two forward-looking eyes. Stereoscopic displays simulate these differences by presenting different images to the left and right eyes of viewers. There is an often expressed opinion that stereoscopic displays allow “truly” 3D images. In advertising literature, potential buyers are urged to buy stereoscopic display equipment and “see it in 3D.” As should be plain from this chapter, stereoscopic disparity is only one of many depth cues that the brain uses to analyze 3D space, and it is by no means the most useful one. If fact, as much as 20% of the population may be stereo blind, yet they function perfectly well and are often unaware that they have 
+a disability. Nevertheless, stereoscopic displays can provide a particularly compelling sense of a 3D virtual space, and for a few tasks they can be extremely useful.
+
+![image](images/f07-25-9780128128756.jpg)
+
+
+Figure 7.25 The vergence angle θ varies as the eyes fixate on near and far objects.
+
+The basis of stereoscopic depth perception is forward-facing eyes with overlapping visual fields. On average, human eyes are separated by about 6.4
+ 
+cm; this means that the brain receives slightly different images, which can be used to compute relative distances of pairs of objects. Stereoscopic depth is a technical subject, and we therefore begin by defining some of the terms.
+
+Fig. 7.26 illustrates a simple stereo display. Both eyes are fixated on the vertical line (a for the right eye, c for the left eye). A second line, d, in the left eye’s image is fused with b in the right eye’s image. The brain resolves the discrepancy in line spacing by perceiving the lines as being at different depths, as shown.
+
+Angular disparity is the difference between the angular separation of a pair of points imaged by the two eyes (disparity
+ 
+=
+ 
+α-β). Screen disparity is the distance between parts of an image on the screen (disparity
+ 
+=
+ 
+[c-d]-[a-b]).
+
+If the disparity between the two images becomes too great, double vision (called diplopia) occurs. Diplopia is the appearance of the doubling of part of a stereo image when the visual system fails to fuse the images. The 3D area within which objects can be fused and seen without double images is called Panum′s fusional area. In the worst case, Panum’s fusional area has remarkably little depth. At the fovea, the maximum disparity before fusion breaks down is only 1/10 degree, whereas at 6 degrees of eccentricity 
+(of the retinal image from the fovea), the limit is 1/3 degree (Patterson & Martin, 1992). The reason why only small disparities can be handled is that disparity-detecting neurons in V1 are only capable of responding to small localized differences between the images from the two eyes (Qian & Zhu, 1997).
+
+![image](images/f07-26-9780128128756.jpg)
+
+
+Figure 7.26 A simple stereo display. Different images for the two eyes are shown on the left. On the right, a top-down view shows how the brain interprets this display. The vertical lines a and b in the right-eye image are perceptually fused with c and d, respectively, in the left-eye image.
+
+Stereopsis is a superacuity. We can resolve disparities of only 10 seconds of arc at better than chance. This means that under optimal viewing conditions we should be able to see a depth difference between an object at 1
+ 
+km and an object at infinity.
+
+It is worthwhile to consider what these numbers imply for monitor-based stereo displays. A screen with 30 pixels per centimeter, viewed at 57
+ 
+cm, will have 30 pixels per degree of visual angle. The 1/10 degree limit on the visual angle before diplopia occurs translates into about 3 pixels of screen disparity. This means that we can only display 3 pixel-depth steps before diplopia occurs, either in front of or behind the screen, in the worst case. It also means it will only be possible to view a virtual image that extends in depth a fraction of a centimeter from the screen (assuming an object on the screen is fixated). However, some screens are now available that are much better, having 100 pixels per cm. These will allow more than three times the depth discrimination.
+---
+Node: 062 Depth Cue Theory part6
+Primary concept extracted from chunk
+## Depth Cue Theory (Part 6)
+
+Also, it is important to emphasize that the diplopia thresholds given above represent a worst-case scenario. It is likely that antialiased images will allow better than pixel resolution, for exactly the same reason that vernier acuities can be achieved to better than pixel resolution (discussed in Chapter 2). In addition, the size of Panum’s fusional area is highly dependent on a number of visual display parameters, such as the exposure duration of the images and the size of the targets. Moving targets, simulated depth of focus, and greater lateral separation of the image components all increase the size of the fusional area (Patterson & Martin, 1992). Depth judgments based on disparity can also be made outside the fusional area, although these are less accurate.
+
+### Problems with Stereoscopic Displays
+
+It is common for users of 3D visualization systems with stereoscopic display capabilities to disable stereo viewing once the novelty has worn off. There are a number of reasons why stereoscopic displays are disliked. Double-imaging problems tend to be much worse in stereoscopic computer displays than in normal viewing of the 3D environment. One of the principal reasons for this is that in the real world objects farther away than the one fixated are out of focus on the retina. Because we can fuse blurred images more easily than sharply focused images diplopia problems in the real world are reduced. In addition, disparity and focus are complementary cues to depth (Held, Cooper, & Banks, 2012). Moreover, focus is linked to attention and foveal fixation, and in the real world double images of nonattended peripheral objects generally will not be noticed. Unfortunately, in present day computer graphics systems, particularly those that allow for real time interaction, depth of focus is rarely simulated. All parts of the computer graphics image are therefore equally in focus, even though some parts of the image may have large disparities. Thus, the double images that occur in stereoscopic computer graphics displays are very obtrusive unless depth of focus is 
+simulated. These and many other factors are reviewed in Lambooij et al. (2009). Some are discussed in more detail below.
+
+### Frame Cancellation
+
+Valyus (1966) coined the phrase frame cancellation to describe a common problem with stereoscopic displays. If the stereoscopic depth cues are such that a virtual image should appear in front of the screen, the edge of the screen appears to occlude the virtual object, as shown in Fig. 7.27. Occlusion overrides the stereo depth information, and the depth effect collapses. This is typically accompanied by a double image of the object that should appear in front.
+
+[G7.7] When creating stereoscopic images, avoid placing graphical objects so that they appear in front of the screen and are clipped by the edges of the screen. The simplest way of doing this is to ensure that no objects are in front of the screen in terms of their stereoscopic depth.
+
+### The Vergence-Focus Problem
+
+When we change our fixation between objects placed at different distances, two things happen: The convergence of the eyes changes (vergence), and the focal lengths of the lenses in the eyes accommodate to bring the new object into focus (Hoffman, Girshick, Akeley, & Banks, 2008). The vergence and the focus mechanisms are coupled in the human visual system. If one eye is covered, the vergence and the focus of the covered eye change as the uncovered eye accommodates objects at different distances; this illustrates vergence being driven by focus. The converse also occurs—a change in vergence can drive a change in focus.
+
+![image](images/f07-27-9780128128756.jpg)
+
+
+Figure 7.27 Frame cancellation occurs when stereoscopic disparity cues indicate that an object is in front of the monitor screen. Because the edge of the screen clips the object, this acts as an occlusion depth cue and the object appears to be behind the window, canceling the stereo depth effect. Because of this, the useable working volume of a stereoscopic display is restricted as shown.
+
+In a stereoscopic display, all objects lie in the same focal plane, regardless of their apparent depth; however, accurate disparity and vergence information may fool the brain into perceiving them at different depths. Screen-based stereo displays provide disparity and vergence information, but no focus information. The failure to present focus information correctly, coupled with vergence, may cause a form of eyestrain (Wann et al., 1995; Mon-Williams & Wann, 1998; Lambooij et al. 2009).
+
+This problem is present in both stereoscopic head-mounted systems and monitor-based stereo displays. Wann et al. (1995) concluded that vergence and focus cross-coupling “prevents large depth intervals of three-dimensional visual space being rendered with integrity through dual two-dimensional displays.” This may account for the common reports of eyestrain occurring with dynamic stereoscopic displays. It is also worth noting that, because people lose the ability to refocus their eyes as they get older, this particular problem should decline with age.
+
+[G7.8] When rendering stereoscopic displays for 3D visualizations, add depth-of-focus information, if possible without blurring critical parts of the scene.
+
+### Distant Objects
+
+The problems with stereoscopic viewing are not always related to disparities that are too large. Sometimes disparities may be too small. The stereoscopic depth cue is most useful at 30
+ 
+m or less from the viewer. Beyond this, disparities tend to be too small to be resolved, except under optimal viewing conditions. For practical purposes, most useful stereoscopic depth is obtained within distances of less than 10
+ 
+m from the viewer and may be optimal for objects held roughly at arm’s length.
+
+### Making Effective Stereoscopic Displays
+
+Because stereoscopic depth perception is a superacuity, the ideal stereoscopic display should have very high resolution, much higher than the typical desktop monitor. On current monitors, the fine detail is produced by pixels, and in a stereoscopic display the pixilation of features such as fine lines will generate false binocular correspondences. High-resolution displays enable the presentation of fine texture gradients and hence disparity gradients that are the basis for stereoscopic surface shape perception.
+
+[G7.9] When creating stereoscopic displays for 3D visualizations, use the highest possible screen resolution, especially in a horizontal direction, and aim to achieve excellent spatial and temporal antialiasing.
+
+There are also ways of mitigating the diplopia, frame cancellation, and vergence-focus problems described previously, although they will not be fully solved until displays that can truly simulate depth become commercially viable. All the solutions involve reducing screen disparities by artificially bringing the computer graphics imagery into 
+the fusional area. Valyus (1966) found that the diplopia problems were acceptable if no more than 1.6 degrees of disparity existed in the display. Based on this, he proposed that the screen disparity should be less than 0.03 times the distance to the screen; however, this provides only about ±1.5
+ 
+cm of useful depth at normal viewing distances. Using a more relaxed criterion, Williams and Parrish (1990) concluded that a practical viewing volume falls between −25% and +60% of the viewer-to-screen distance. This provides a more usable working space.
+---
+Node: 062 Depth Cue Theory part7
+Primary concept extracted from chunk
+## Depth Cue Theory (Part 7)
+
+One obvious solution to the problems involved in creating useful stereoscopic displays is simply to create small virtual scenes that do not extend much in front of or behind the screen. In many situations, though, this is not practical—for example, when we wish to make a stereoscopic view of extensive terrain. A more general solution is to compress the range of stereoscopic disparities so that they lie within a judiciously enlarged fusional area, such as that proposed by Williams and Parrish. A method for doing this is described in the next two sections.
+
+Before going on, we must consider another potential problem. We should be aware that tampering with stereoscopic depth may cause us to misjudge distance. There is conflicting evidence as to whether this is likely. Some studies have shown stereoscopic disparity to be relatively unimportant in making absolute depth judgments. Using a special apparatus, Wallach and Karsh (1963) found that when they rotated a wire frame cube viewed in stereo, only half of the subjects were even aware of a doubling in their eye separation. Because increasing eye separation increases stereo disparities, this should have resulted in a grossly distorted cube. The fact that distortion was not perceived indicates that kinetic depth-effect information and rigidity assumptions are much stronger than stereo information. Ogle (1962) argued that stereopsis gives us information about the relative depths of objects that have small disparities especially when they are close together. When it comes to judging the overall layout of objects in space, other depth cues dominate. Also, many experiments show large individual differences in how we use the different kinds of depth information, so we will never have a simple one-size-fits-all account.
+
+Overall, we can conclude that the brain is very flexible in weighing evidence from different depth cues and that disparity information can be scaled by the brain depending on other available information. Especially when the world is in motion relative to the observer, providing kinetic depth information, the brain prefers to see the world as solid and rigid and not warped (Glennerster, Tcheang, Gilson, Fitzgibbon, & Parker, 2006). Therefore, it should be possible to artificially manipulate the overall pattern of stereo disparities and enhance local 3D space perception without greatly distorting the overall sense of space, if other strong cues to depth, such as structure from motion and linear perspective, are provided. We (Ware, Gobrecht, & Paton, 1998) investigated dynamically changed disparities by smoothly varying the stereoscopic eye-separation parameter. We found that a participant’s disparity range could be changed by about 30% over a two-second interval, without him or her even noticing, as long as the change was smooth.
+
+[G7.10] When creating stereoscopic displays for 3D visualizations, adjust the virtual eye separation to optimize perceived stereoscopic depth while minimizing diplopia.
+
+### Cyclopean Scale
+
+One simple method that we developed to deal with diplopia problems is called a cyclopean scale (Glennerster et al., 2006; Ware et al., 1998). As illustrated in Fig. 7.28, this manipulation involves scaling the virtual environment about the midpoint between the observer’s estimated eye positions (where the Cyclops of mythology had his one eye). The scaling variable is chosen so that the nearest part of the scene comes to a point just behind the monitor screen. To understand the effects of this operation, consider first that scaling a virtual world about a single viewpoint does not result in any change in computer graphics imagery (assuming depth of focus is not taken into account). Thus, the cyclopean scale does not change the overall sizes of objects as they are represented on a computer screen. It does change disparities, though. The cyclopean scale has a number of benefits for stereo viewing: More distant objects, which would normally not benefit from stereo viewing because they are beyond the range where significant disparities exist, are brought into a position where usable disparities are present. The vergence-focus discrepancy is reduced. At least for the part of the virtual object that lies close to the screen, there is no vergence-focus conflict. Virtual objects that are closer to the observer than to the screen are also scaled so they lie behind the screen. This removes the possibility of frame cancellation.
+
+### Virtual Eye Separation
+
+The cyclopean scale, although useful, does not remove the possibility of disparities that result in diplopia. In order to do so, it is necessary to compress or expand the disparity range. To understand how this can be accomplished, it is useful to consider a device called a telestereoscope (Fig. 7.29). A telestereoscope is generally used to increase disparities when distant objects are viewed, but the same principle can also be used to decrease the range of disparities by optically moving the eyes closer together. Fig. 7.30 illustrates the concept of virtual eye separation and demonstrates how the apparent 
+depth of an object decreases if the virtual viewpoints have a wider eye separation than the actual viewpoint. We consider only a single point in the virtual space. If E
+v is the virtual eye separation and E
+a is the actual eye separation of an observer, the relationship between depth in the virtual image (Z
+v) and in the viewed stereo image (Z
+s) is a ratio:
+
+![image](images/f07-28-9780128128756.jpg)
+
+
+Figure 7.28 Cyclopean scale: A virtual environment is resized around a center point, midway between the left and right viewpoints.
+
+![image](images/f07-29-9780128128756.jpg)
+
+
+Figure 7.29 A telestereoscope is a device that uses mirrors or prisms to increase the effective eye separation, thereby increasing stereoscopic depth information (disparities).
+
+![image](images/f07-30-9780128128756.jpg)
+
+
+Figure 7.30 The geometry of virtual eye separation. In this example, the stereoscopic depth is decreased by computing an image with a virtual eye separation that is smaller than the actual eye separation.
+
+E
+v
+
+E
+a
+=
+
+
+
+Z
+s
+
+(
+
+
+Z
+y
++
+
+Z
+e
+)
+
+
+Z
+v
+
+(
+
+
+Z
+s
++
+
+Z
+e
+)
+
+![image](images/si1.png) (7.1)
+
+where Z
+e represents the distance to the screen. By rearranging terms, we can get the stereo depth expressed as a function of the virtual depth and the virtual eye separation:
+
+Z
+s
+=
+
+
+
+Z
+e
+
+Z
+v
+
+E
+v
+
+
+E
+a
+
+z
+v
++
+
+E
+a
+
+Z
+e
+−
+
+E
+v
+
+Z
+v
+
+![image](images/si2.png) (7.2)
+
+Stereoscopic depth can just as easily be increased. If the virtual eye separation is smaller than the actual eye separation, stereo depth is decreased. If the virtual eye separation is larger than the actual eye separation, stereo depth is increased. E
+v
+
+ 
+=
+ 
+E
+a for “correct” stereoscopic viewing of a virtual scene, although for the reasons stated this may not be useful in practice. When E
+v
+---
+Node: 062 Depth Cue Theory part8
+Primary concept extracted from chunk
+## Depth Cue Theory (Part 8)
+
+=
+ 
+0.0, both eyes get the same image, as in single viewpoint graphics. Note that stereo depth and perceived depth are not always equal. The brain is an imperfect processor of stereo information, and other depth cues may be much more important in determining the perceived depth. Experimental evidence shows that subjects given control of their eye-separation parameters have no idea what the “correct” setting should be (Ware et al., 1998). When asked to adjust the virtual eye-separation parameter, subjects tended to decrease the eye separation for scenes in which there was a lot of depth, but actually increased eye separation beyond the normal (enhancing the sensation of stereoscopic depth) when the scene was flat. This behavior can be mimicked by an algorithm designed to test automatically the depth range in a virtual environment and adjust the eye-separation parameters appropriately (after cyclopean scale). We have found the following function to work well for a large variety of digital terrain models. It uses the ratio of the nearest point to the farthest point in the scene to calculate the virtual eye separation in centimeters.
+
+E
+y
+e
+ 
+S
+e
+p
+a
+r
+a
+t
+i
+o
+n
+=
+2.5
++
+
+5.0
+∗
+
+
+(
+
+
+N
+e
+a
+r
+ 
+P
+oint
+/
+
+F
+a
+r
+ 
+P
+oint
+)
+2
+
+![image](images/si3.png) (7.3)
+
+This function increases the eye separation to 7.5
+ 
+cm for shallow scenes (as compared to a normal value of 6.4
+ 
+cm) and reduces it to 2.5
+ 
+cm for very deep scenes.
+
+### Artificial Spatial Cues
+
+There are effective ways to provide information about space that are not based directly on the way information is provided in the normal environment, although the best methods are probably effective because they make use of existing perceptual mechanisms. One common technique used to enhance simple 3D scatterplots is illustrated in Fig. 7.31. A line is dropped from each data point to the ground plane. Without these lines, only a 2D judgment of spatial layout is possible. With the lines, it is possible to 
+estimate 3D position. Kim, Tendick, and Stark (1991) showed that this artificial spatial cue can be at least as effective as stereopsis in providing 3D position information. It should be understood that, although the vertical line segments in Fig. 7.31 can be considered artificial additions to the plot, there is nothing artificial about the way they operate as depth cues. Gibson (1986) pointed out that one of the most effective ways to estimate the sizes of objects is with reference to the ground plane. Adding the vertical lines creates a link to the ground plane and the rich texture size and linear perspective cues embedded in it. In this respect, drop lines function in the same way as cast shadows, but they are generally easier to interpret and should result in more accurate judgments, given that cast shadows can be confusing with certain lighting directions.
+
+![image](images/f07-31-9780128128756.jpg)
+
+
+Figure 7.31 Dropping lines to a ground plane is an effective artificial spatial cue.
+
+[G7.11] In 3D data visualizations where a strong, preferably gridded, ground plane is available, consider using drop lines to add depth information for small numbers of discrete isolated objects.
+
+Sometimes in computer graphics, foreground objects and objects behind them have the same color, causing them to visually fuse, which nullifies the occlusion cue. A technique has been developed that artificially enhances occlusion by putting a halo along the occluding edges of the foreground objects (see Fig. 7.32). Perception of occlusion relies on edge contrast and the continuity of an overlaying contour, and this depends on neural mechanisms for edge detection, but artificial enhancement can amplify these factors to a degree that rarely if ever occurs in nature.
+
+![image](images/f07-32-9780128128756.jpg)
+
+
+Figure 7.32 This figure shows a set of streamlines for airflow around a room. The principal depth cue is occlusion. The occlusion cue has been artificially enhanced by “halos” in the form of white borders on the black streamlines.   
+From Everts, Bekker, Roerdink, and Isenberg (2009). Reproduced with permission.
+
+[G7.12] In 3D data visualizations, consider using halos to enhance occlusion where this is an important depth cue and where overlapping objects have the same color or minimal luminance difference.
+
+Computer graphics systems sometimes provide a function to implement what researchers call proximity luminance covariance (Dosher, Sperling, & Wurst, 1986). This function is confusingly called depth cueing in some computer graphics texts. Depth cueing in computer graphics is the ability to vary the color of an object depending on its distance from the viewpoint, as illustrated in Fig. 7.33. Normally, more distant objects are faded toward the background color, becoming darker if the background is dark and lighter if the background is light.
+
+This cue is better named proximity luminance contrast covariance, because it is contrast, not luminance that produces the depth impression. Proximity contrast covariance simulates an environmental depth cue sometimes called atmospheric depth. This refers to the reduction in contrast of distant objects in the environment, especially under hazy viewing conditions. The depth cueing used in computer graphics is generally much more extreme than any atmospheric effects that occur in nature, and for this reason it can be considered an “artificial” cue. Dosher et al. (1986) showed that contrast covariance could function as an effective depth cue but was weaker than stereo for static displays. Evidence that this cue can be useful in visualizing blood vessels is provided by Kersten-Oertel, Chen, and Collins (2014).
+---
+Node: 063 Depth Cues in Combination
+Primary concept extracted from chunk
+## Depth Cues in Combination
+
+In designing a visualization, the designer has considerable freedom to choose which depth cues to include and which to leave out. One might think it best to simply include all the cues, just to be sure, but in fact this is not the best solution in most cases. There can be considerable costs associated with creating a stereoscopic display, for example, 
+or with using real-time animation to take advantage of structure-from-motion cues. The hardware is more expensive, and a more complex user interface must be provided. Some cues, such as depth-of-focus information, are difficult or impossible to compute in the general case, because without knowing what object the observer is looking at, it is impossible to determine what should be shown in focus and what should be shown out of focus. A general theory of space perception should make it possible to determine which depth cues are likely to be most valuable. Such a theory would provide information about the relative values of different depth cues when they are used in combination.
+
+![image](images/f07-33-9780128128756.jpg)
+
+
+Figure 7.33 Proximity luminance contrast covariance as a depth cue. The contrast with the background is reduced with distance. This simulates extreme atmospheric effects.
+
+Most of the early work on spatial information implicitly contains the notion that all spatial information is combined into a single cognitive model of the 3D environment and that this model is used as a resource in performing all spatial tasks (e.g., Bruno & Cutting, 1988). This theoretical position is illustrated in Fig. 7.34. Evidence is accumulating, however, that this unified model of cognitive space is fundamentally flawed.
+
+The modern theory that is emerging is that depth cues are combined expeditiously, depending on task requirements (Jacobs & Fine 1999; Bradshaw, Parton, & Glennister, 2000); for example, Wanger et al. (1992) showed that cast shadows and motion parallax cues both helped in the task of orienting one virtual object to match another. Correct linear perspective (as opposed to parallel orthographic perspective) actually increased errors; it acted as a kind of negative depth cue for this particular task. With a different task, that of translating an object, linear perspective was found to be the most useful of the cues and motion parallax did not help at all. Further, Bradshaw et al. (2000) showed that stereopsis is critical in setting objects at the same distance from the observer, but motion parallax is more important for a layout task involving the creation of a triangle laid out in depth.
+
+This alternative task-based model of depth perception is illustrated in Fig. 7.35. It does not assume an internal cognitive 3D model of the environment. Instead, depth cues are 
+combined in a Bayesian fashion; they are weighted according to both how much task information they provide and prior knowledge of the way the visual world is structured (Saunders & Chen, 2015). Cues are combined with different weightings depending on the task. Whatever the task, for example, threading a needle or running through a forest, certain depth cues are informative and other cues can be irrelevant. An application designer’s choice is not whether to design a 3D or 2D interface, but rather which depth cues to use to best support a particular set of tasks. Depth cues can be applied somewhat independently. In a static picture, for example, we use all of the monocular pictorial depth cues, but not motion parallax or stereoscopic disparity. If we add structure-from-motion information, we get what we see at the movie theater. If we add stereo to a static picture, the result is the kind of stereoscopic viewer popular in Victorian times. We can also use far fewer depth cues. Modern desktop GUIs only use occlusion for windows, some minor shading information to make the menus and buttons stand out, and a cast shadow for the cursor.
+
+![image](images/f07-34-9780128128756.jpg)
+
+
+Figure 7.34 Most models of 3D space perception assume that depth cues (C1, …, CN) feed into a cognitive 3D model of the environment. This, in turn, is used as a resource in task planning and execution.
+
+![image](images/f07-35-9780128128756.jpg)
+
+
+Figure 7.35 Experimental evidence suggests that depth cues (C1, …, CN) are weighted very differently for different tasks, suggesting that there is no unified cognitive spatial model.
+
+There are some restrictions on our freedom to arbitrarily choose combinations of depth cues because some cues depend on the correct implementation of other cues. Fig. 7.36 shows a dependency graph for depth cues. An arrow means that a particular cue depends on another cue to appear correctly. This graph does not show absolute rules that cannot be broken, but it does imply that breaking the rules will have undesirable consequences; for example, the graph shows that kinetic depth depends on correct perspective. It is possible to break this rule and show kinetic depth with a parallel (orthographic) perspective but this has the undesirable consequence that a rotating object will appear to distort as it rotates. This graph is transitive; all of the depth cues depend on occlusion being shown properly because they all depend on something that in turn depends on occlusion. Occlusion is, in a sense, the most basic depth cue; it is difficult to break the occlusion dependency rule and have a perceptually coherent scene.
+
+![image](images/f07-36-9780128128756.jpg)
+
+
+Figure 7.36 A dependency graph for depth cues. Arrows indicate how depth cues depend on each other for undistorted appearance.
+
+[G7.13] In 3D data visualizations, understand and use the depth cues that are most important for the critical tasks in an application. Implement other cues on which these critical cues depend.
+---
+Node: 064 Task-Based Space Perception
+Primary concept extracted from chunk
+## Task-Based Space Perception
+
+The obvious advantage of a task-based theory of space perception is that it can be directly applied to the design of interactive 3D information displays. The difficulty is that the number of tasks is potentially large, and many tasks that appear at first sight to be simple and unified are found, upon more detailed examination, to be multifaceted. Nevertheless, taking the task into account is essential; perception and action are intertwined. If we are to understand space perception, we must understand the purpose of perceiving.
+
+The best hope for progress lies in identifying a small number of elementary tasks requiring depth perception that are as generic as possible. If the particular set of spatial cues associated with each task can be characterized, then the results can be used to construct design guidelines. The remainder of this chapter is devoted to analyzing the following tasks:
+
+* ● Tracing paths in 3D graphs
+* ● Judging the morphology of surfaces
+* ● Finding patterns of points in 3D space
+* ● Finding shapes of 3D trajectories
+* ● Judging the relative positions of objects in space
+* ● Judging the relative movements of self within the environment
+* ● Reaching for objects
+* ● Judging the “up” direction
+* ● Feeling a sense of presence
+
+This list of nine tasks is at best only a beginning; each has many variations, and none turns out to be particularly simple in perceptual terms.
+---
+Node: 065 Tracing Data Paths in 3D Graphs
+Primary concept extracted from chunk
+## Tracing Data Paths in 3D Graphs
+
+Many kinds of information structures can be represented as networks of nodes and arcs, technically called graphs. Fig. 7.37 shows an example of object-oriented computer software represented using a 3D graph. Nodes in the graph stand for various kinds of entities, such as modules, classes, variables, and methods. The 3D spars that connect the entities represent various kinds of relationships characteristic of object-oriented software, such as inheritance, function calls, and variable usage. Information structures are becoming so complex that there has been considerable interest in the question of whether a 3D visualization will reveal more information than a 2D visualization. Is it a good idea?
+
+One special kind of graph is a tree. Trees are a standard technique for representing hierarchical information, such as organizational charts or the structure of information in a computer directory. The cone tree is a graphical technique for representing tree-graph information in 3D (Robertson, Mackinlay, & Card, 1993). It shows the tree branches arranged around a series of circles, as illustrated in Fig. 7.38. The inventors of the cone tree claim that as many as 1000 nodes may be displayed without visual clutter using cone trees, clearly more than that could be contained in a 2D layout; however, with a cone tree, we do not see all 1000 nodes at a time, as some are hidden and parts of the tree must be rotated to reveal them. In addition, 3D cone trees require more complex and time-consuming user interactions to access nodes than are necessary for 2D layouts, so the task of tracing out a path will take longer to perform. Other 2D methods such as the hyperbolic tree (Lamping, Rao, & Pirolli, 1995) have proven to be more efficient.
+
+Empirical evidence shows that the number of errors in detecting paths in 3D tree structures is substantially reduced if stereoscopic and motion depth cues are used. Sollenberger and Milgram (1993) investigated a task involving two 3D trees with intermeshed branches. The task was to discover to which of two tree roots a highlighted leaf was attached. Subjects carried out th task both with and without stereo depth, and with and without rotation to provide kinetic depth. Their results showed that both stereo and kinetic depth viewing reduced errors, but that kinetic depth was the more potent cue. However, an abstract tree structure is not necessarily a good candidate for 3D visualization, for the reason that a tree data structure can always be laid out on a 2D plane in such a way that none of the paths cross (path crossings are the main reason for errors in path-tracing tasks), so creating a 2D visualization is easy for trees.
+
+Unlike trees, more general node–link structures, such as directed acyclic graphs, usually cannot be laid on a plane without some links crossing and these are a better test of whether 3D viewing allows more information to be seen. To study the effects of stereo and kinetic depth cues on 3D visualization of complex node-link structures, we 
+systematically varied the size of a graph laid out in 3D and measured path-tracing ability with both stereoscopic and motion depth cues (Ware & Franck, 1996). Our results, illustrated in Fig. 7.39, showed a factor of l.6 increase in the complexity that could be viewed when stereo was added to a static display, but a factor of 2.2 improvement 
+when kinetic depth cues were added. A factor of 3.0 improvement occurred with both stereo and kinetic depth cues. These results held for a wide range of graph sizes. A subsequent experiment showed that the advantage of kinetic depth cues applied whether the motion was coupled to movements of the head or movements of the hand or consisted of automatic oscillatory rotation of the graph.
+
+![image](images/f07-37-9780128128756.jpg)
+
+
+Figure 7.37 The structure of object-oriented software code is represented as a graph in 3D.
+
+![image](images/f07-38-9780128128756.jpg)
+
+
+Figure 7.38 The cone tree invented by Robertson et al. (1993).   
+Image courtesy of G. Robertson
+
+![image](images/f07-39-9780128128756.jpg)
+
+
+Figure 7.39 The plot shows that errors increased when the number of nodes increased, with and without stereo and/or motion parallax. The task involved tracing paths in a 3D graph (Ware & Franck, 1996).
+
+Having a higher resolution screen can increase the benefit of stereo and motion cues. We found an order of magnitude benefit to 3D viewing using an ultrahigh-resolution stereoscopic display and found that subjects were rapidly and accurately able to resolve paths in graphs with more than 300 nodes (Ware & Mitchell, 2008).
+
+Although stereo viewing appears to be the most important cue for accuracy when tracing paths in 3D graphs, some studies have shown that stereo viewing speeds response times (Sollenberger & Milgram, 1993; Naepflin and Menozzi, 2001), so if time is critical, adding this cue confers an important benefit.
+
+Occlusion is one additional depth cue that should make it easier to differentiate links in 3D graphs, but if all the links are uniformly colored the depth ordering will not 
+be visible. Coloring the links differently or using halos like those shown in Fig. 7.32 should help (Telea & Ersoy, 2010).
+
+It seems unlikely that other depth cues will contribute much to a path-tracing task. There is no obvious reason to expect perspective viewing to aid the comprehension of connections between nodes in a 3D graph, and this was confirmed empirically by our study (Ware & Franck, 1996). There is also no reason to suppose that shading and cast shadows would provide any significant advantage in a task involving connectivity, although shading might help in revealing the orientation of the arcs.
+
+[G7.14] When it is critical to perceive large 3D node-link structures, consider using motion parallax, stereoscopic viewing and halos. But only use 3D viewing if the benefits outweigh the interaction costs.
+
+Still, interacting with nodes is a common requirement for graph-based visualization; often nodes must be selected to get related information. This is usually more difficult and costly with a 3D interface, making 2D network visualization methods a better choice. An alternative to 3D viewing is to use 2D interaction techniques to gain access to larger graphs. We consider these alternatives in Chapter 10.
+---
+Node: 066 Judging the Morphology of Surfaces part1
+Primary concept extracted from chunk
+## Judging the Morphology of Surfaces
+
+From a Gibsonian point of view, the obvious way to represent a univariate map is to make it into a physical surface in the environment. Some researchers occasionally do just this; they construct plaster or foam models of data surfaces. But, the next best thing may be to use computer graphics techniques to shade the data surface with a simulated light source and give it a simulated color and texture to make it look like a real physical surface. Such a simulated surface can be viewed using a stereoscopic viewing apparatus, by creating different perspective images, one for each eye. These techniques have become so successful that the auto industry is using them to design car bodies in place of the full-size clay models that were once constructed by hand to show the curves of a design. The results have been huge cost savings and a considerably accelerated design process.
+
+Four principal sets of visual cues for surface shape perception have been studied: shading models, surface texture, stereoscopic depth, and motion parallax. To determine which of these are the most effective, Norman et al. (1995) used computer graphics to render smoothly shaded rounded objects under various viewing conditions both with and without texture. They manipulated the entire list of variables given above—specular shading, Lambertian shading, texture, stereo, and motion parallax—in a multifactor experiment. Stereo and motion were studied only in combination with the other cues, because without shading or texture neither stereo nor motion cues can be effective.
+
+Norman et al. (1995) found all of the cues they studied to be useful in perceiving surface orientation, but the relative importance of the cues differed from one subject to 
+another. For some subjects, motion appeared to be the stronger cue; for others, stereo was stronger. A summary of their results with motion and stereo data combined is given in Fig. 7.40. Motion and stereo both reduced errors dramatically when used in combination with any of the surface representations. Overall, the combination of shading (either specular or Lambertian) with either stereo or motion was the best or nearly the best combination for all the subjects.
+
+Random textures provide a weak clue to depth (Saunders & Chen, 2015) and when they are used judgments of slant are biased toward the plane orthogonal to the line of sight. More accurate judgments may be made with specific textures conforming to a surface in a particular way (Interrante et al., 1997). For these reasons, it is not meaningful to make general statements such as, “Lambertian shading is more useful than texture.” The values of the different cues will also depend on the nature of the surface features that are important and the particular texture used.
+
+### Conformal Textures
+
+The boundary contours of objects can interact with surface shading to change dramatically the perception of surface shape. Fig. 7.41 is adapted from Ramachandran (1988). It shows two shapes that have exactly the same shading but different silhouette contours. The combination of silhouette contour information with shading information is convincing in both cases, but the surface shapes that are perceived are very different. This tells us that shape-from-shading information is inherently ambiguous; it can be interpreted in different ways, depending on the contours.
+
+Contours that are drawn on a shaded surface can also drastically alter the perceived shape of that surface. Fig. 7.42 has added shaded bands that provide internal contour information. As in Fig. 7.41, the actual pattern of shading within each of the two 
+images is the same. It is the contour information that makes one surface shape appear so different from the other. This technique can be used directly in displaying shaded surfaces to make a shape easier to perceive.
+
+![image](images/f07-40-9780128128756.jpg)
+
+
+Figure 7.40 Results of the study of shape perception by Norman et al. (1995). The average errors in adjusted orientation are shown for five different surface representations. The different representations are labeled as follows: (L) Lambertian shading, (S) specular highlight shading, (T) texture with no shading, (L
+ 
++
+ 
+T) Lambertian shading with texture, and (L
+ 
++
+ 
+S) Lambertian shading with specular highlights. The four sets of histograms represent results from four different subjects.
+
+![image](images/f07-41-9780128128756.jpg)
+
+
+Figure 7.41 When scanned from left to right, the sequences of gray values in these two patterns are identical. The external contour interacts with the shading information to produce the perception of two very differently shaped surfaces.   
+Redrawn from Ramachandran (1988).
+
+![image](images/f07-42-9780128128756.jpg)
+
+
+Figure 7.42 The left-to-right gray sequences in these patterns are identical. The internal contours interact with the shading information to produce the perception of two very differently shaped surfaces.
+
+One of the most common ways to represent surfaces is to use a contour map. A contour map is a plan view representation of a surface with isoheight contours, usually spaced at regular intervals. Conceptually, each contour can be thought of as the line of intersection of a horizontal plane with a particular value in a scalar height field, as illustrated in Fig. 7.43. Although reading contour maps is a skill that requires practice and experience, contour maps should not necessarily be regarded as entirely arbitrary graphical conventions. Contours are visually ambiguous with respect to such things as direction of slope; this information is given only in the printed labels that are attached to them. However, it is likely that the contours in contour maps get at least some of their expressive power because they provide perceptual shape and depth cues. As we have seen, both occluding (silhouette) contours and surface contours are effective in providing shape information. Contours provide a form of conformal texture, giving both shape and slope information. Contour maps are a good example of a hybrid code; they make use of a perceptual mechanism, and they are partly conventional. The combination of contours with shading can be especially effective (Fig. 7.44).
+
+![image](images/f07-43-9780128128756.jpg)
+
+
+Figure 7.43 A contour is created by the intersection of a plane with a scalar field.
+
+![image](images/f07-44-9780128128756.jpg)
+
+
+Figure 7.44 Shading provides the overall shape of the topography, but the contours provide both precise height information, supplementary shape, and gradient information.   
+From Google, with permission.
+
+Texturing surfaces is important when they are viewed stereoscopically. This becomes obvious if we consider that a uniform nontextured polygon contains no internal stereoscopic information about the surface it represents. Under uniform lighting conditions, such a surface also contains no orientation information. When a polygon is textured, every texture element provides stereoscopic depth information relative to neighboring points. Fig. 7.45 shows a stereoscopic pair of images representing a textured surface. Stereoscopic viewing also considerably enhances our ability to see one surface through another, semitransparent, one (Bair et al., 2009; Interrante et al., 1997).
+
+### Guidelines for Displaying Surfaces
+---
+Node: 066 Judging the Morphology of Surfaces part2
+Primary concept extracted from chunk
+## Judging the Morphology of Surfaces (Part 2)
+
+Taken together, the evidence suggests that to represent a surface clearly it may be possible to do better than simply creating a photorealistic rendering of a scene using the most 
+sophisticated techniques of computer graphics. A simplified lighting model—for example, a single light source located at infinity—may be more effective than complex rendering using multiple light sources. The importance of contours and the easy recognizability of cartoon representation suggest that an image may be enhanced for display purposes by using techniques that are nonrealistic. Taking all these caveats into consideration, some guidelines may be useful for the typical case (the first four are restatements of G2.1, G2.2, G2.3, and G2.4 given in Chapter 2): A simple lighting model, based on a single light source applied to a Lambertian surface, is a good default. The light source should be from above and to one side and infinitely distant. [G2.2] Specular reflection is especially useful in revealing fine surface detail. Because specular reflection depends on both the viewpoint and the position of the light source, the user should be given interactive control of both the lighting direction and the amount of specular reflection to specify where the highlights will appear. [G2.3] Cast shadows should be used, but only if the shadows do not interfere with other displayed information. The shadows should be computed to have blurred edges to make a clear distinction between shadow and surface pigment changes. [G2.4] Both Lambertian and moderate specular surface reflection should be modeled. More sophisticated lighting modeling, such as using the radiosity method, may help in the perception of occlusion and be useful in cases where other cues provide weak information.
+
+![image](images/f07-45-9780128128756.jpg)
+
+
+Figure 7.45 Texture is important in stereo viewing because it provides high-resolution disparity gradients, which in turn provide essential information to the disparity-sensing mechanisms of the visual cortex.
+
+[G7.15] Consider using textures to help reveal surface shapes especially if they are to be viewed in stereo. This is only appropriate for relatively smooth surfaces and where texture is not needed for some other attribute. Ideally, texturing should be low contrast so as not to interfere with shading information. Textures that have linear components are more likely to reveal surface shape than textures with randomly stippled patterns. When one 3D surface is viewed over another, the top surface should have lacy, see-through textures.
+
+[G7.16] Consider using both structure from motion (by rotating the surface) and stereoscopic viewing to enhance the user’s understanding of 3D shape in a 3D visualization. These cues will be especially useful when one textured transparent surface overlays another.
+
+There are also temporal factors to be considered if viewing times are brief. When we are viewing stereoscopic displays, it can take several seconds for the impression of depth to build up. However, stereoscopic depth and structure-from-motion information interact strongly. With moving stereoscopic displays, the time to fusion can be considerably shortened (Patterson & Martin, 1992). In determining the shape of surfaces made from random dot patterns, using both stereoscopic and motion depth cues, Uomori and Nishida (1994) found that kinetic depth information dominated the initial perception of surface shape, but after an interval of 4–6 seconds, stereoscopic depth came to dominate.
+
+### Bivariate Maps—Lighting and Surface Color
+
+In many cases, it is desirable to represent more than one continuous variable over a plane. This representation is called a bivariate or multivariate map. From the ecological optics perspective discussed in Chapter 1, the obvious bivariate map solution is to represent one of the variables as a shaded surface and the other as color coding on that surface. A third variable might use variations in the surface texture. These are the patterns we have evolved to perceive. An example is given in Fig. 7.46, where one variable is a height map of the ocean floor and the surface color represents sonar backscatter strength. In this case, the thing being visualized is actually a physical 3D surface; however, the technique also works when both variables are abstract. A radiation field, for example, can be expressed as a shaded height map, and a temperature field can be represented by the surface color.
+
+If this colored and shaded surface technique is used, some obvious tradeoffs must be observed. Because luminance is used to represent shape from shading by artificially illuminating the surface, we should minimally use luminance variation in coloring the surface. The surface coloring should be done mainly using the chromatic opponent channels discussed in Chapter 4. But, because of the inability of color to carry high spatial frequency information, only relatively gradual changes in color can be perceived; therefore, in designing a multivariate surface display, rapidly changing information 
+should always be mapped to luminance. For a more detailed discussion of these spatial tradeoffs, see Robertson and O’Callaghan (1988), Rogowitz and Treinish (1996), and Chapter 4 of this book.
+
+![image](images/f07-46-9780128128756.jpg)
+
+
+Figure 7.46 A bivariate map showing part of the Stellwagen Bank National Marine Sanctuary. One variable shows angular response of sonar backscatter, color coded and draped on the depth information given through shape from shading.   
+From Mayer, Dijkstra, Hughes Clarke, Paton, and Ware (1997). Courtesy of Larry Mayer.
+
+A similar set of constraints applies to the use of visual texture. Normally, it is advisable to use luminance contrast in displaying texture, but this will also tend to interfere with shape from shading information. If we use texture to convey information, we have less available visual bandwidth to express surface shape and surface color. We can gain a relatively clear and easily interpreted trivariate map, but only so long as we do not need to express a great deal of detail. Using color, texture and shape from shading to display different continuous variables does not increase the total amount of information that can be displayed per unit area, but it does allow multiple map variables to be independently perceived.
+
+[G7.17] Consider the use of a shaded surface height field for one variable and color coding for the other as a method for displaying bivariate scalar field maps. This will work best if the shaded variable is relatively smooth. The colors should vary little in luminance, and should possibly be stepped.
+---
+Node: 067 Patterns of Points in 3D Space
+Primary concept extracted from chunk
+## Patterns of Points in 3D Space
+
+The scatterplot is probably the most effective method for finding unknown patterns in 2D discrete data. When three attributes are given for each data point, one solution is to show it in 3D using depth cues. The attributes are mapped to positions on the x, y, and z axes, respectively. The resulting 3D scatterplot is usually rotated around a vertical axis, exploiting structure from motion to reveal its structure (Donoho, Donoho, & Gasko, 1988). This technique can be an alternative to the color and shape enhanced scatterplots discussed in Chapters 4 and 5. If needed, color and size can be added to the glyphs of a 3D scatterplot to show even more data attributes.
+
+The problem of viewing 3D point clouds is similar to that of perceiving 3D networks. Perspective cues will not help to perceive depth in a 3D scatterplot, because a cloud of small, discrete points has no perspective information. If the points all have a constant and relatively large size, weak depth information will be produced by the size gradient. Similarly, with small points, occlusion will not provide useful depth information, but if the points are larger, some ordinal depth information will be perceivable. If there are a large number of points, cast shadows will not provide information, because it will be impossible to determine the association between a given point and its shadow. Shape-from-shading information will also be missing, because a point has no orientation information. Each point will reflect light equally, no matter where it is placed and no matter where the light source is placed.
+
+It is likely then that the only depth cues in a 3D scatterplot are stereoscopic depth and structure from motion. Comparing these, a study by Aygar et al. (2017) showed kinetic 
+depth to be a more powerful cue for identifying clusters of points in a 3D space than stereoscopic viewing, where the criterion was accuracy. Though having both cues was best. An additional benefit to stereoscopic viewing was that it resulted in more rapid responses, while using kinetic depth resulted in longer response times.
+
+[G7.18] To see structures in a 3D scatterplot, consider generating structure-from-motion cues by rotating or oscillating the point cloud around a vertical axis. Also use stereoscopic viewing, if possible, especially if response speed is important.
+
+One of the problems with visualizing clouds of data points is that the overall shape of the cloud cannot easily be seen, even when stereo and motion cues are provided. One way to add extra shape information to a cloud of discrete points is to add shape-from-shading information artificially. It is possible to treat a cloud of data points as though each point were actually a small, flat, oriented object. These flat particles can be artificially oriented, if they lie near the boundary of the cloud, to reveal the shape of the cloud when shading is applied. In this way, perception of the cloud’s shape can be considerably enhanced, and shape information can be perceived without additional stereo and motion cues. At the same time, the positions of individual points can be perceived. Fig. 7.47 illustrates this.
+
+[G7.19] If it is important to judge the morphology of the outer boundary of a 3D cloud of points, consider employing a statistical approximation method to estimate the local orientation of the cloud surface and use this to shade the individual points.
+---
+Node: 068 Perceiving Patterns in 3D Trajectories
+Primary concept extracted from chunk
+## Perceiving Patterns in 3D Trajectories
+
+A common problem in geospatial visualization is to understand the path of a particle, animal, or vehicle through space. A simple line rendering only provides 2D information and this is therefore unsuitable. Using motion parallax or stereoscopic viewing will help. Also, periodic drop lines to a ground plane can be used. In addition, 
+rendering the trajectory as a tube or box adds perspective and shape-from-shading cues, especially if rings are drawn around the tube at periodic intervals. An additional advantage of a box trajectory is that it can also convey roll information. Fig. 7.48 shows the trajectory of a humpback whale carrying out a bubble-net feeding maneuver (Ware, Arsenault, Plumlee, & Wiley, 2006).
+
+![image](images/f07-47-9780128128756.jpg)
+
+
+Figure 7.47 A cloud of discrete points is represented by oriented particles. An inverse square law of attraction has been used to determine the point normals. When the cloud is artificially shaded, its shape is revealed (Li, 1997).
+
+[G7.20] To represent 3D trajectories, consider using shaded tubes or box extrusions, with periodic bands to provide orientation cues. Apply motion parallax and stereoscopic viewing, if possible.
+
+Computer simulations used in science and engineering can often produce 3D tensor fields. In a 3D vector field, each point in space is endowed with the attributes of direction and speed. In a tensor field each point can have many more attributes, representing phenomena such as shear or twist. The visualization of these fields is a specialized topic and we will not delve into it here. However, visualizing tensor fields can be done by adding attributes such as shape and color to extruded trajectories. A good starting place for work in this area is Delmarcelle and Hesselink (1993).
+---
+Node: 069 Judging Relative Positions of Objects in
+Primary concept extracted from chunk
+## Judging Relative Positions of Objects in Space
+
+Judging the relative positions of objects is a complex task, performed very differently depending on the overall scale and the context. When very fine depth judgments are made in the near vicinity of the viewer, such as are needed to thread a needle, stereopsis is the strongest single cue. Stereoscopic depth perception is a superacuity and is optimally useful for objects held at about arm’s length. For these fine tasks, motion parallax is not very important, as evidenced by the fact that people hold their heads still when threading needles.
+
+In larger environments, stereoscopic depth perception has a minimal role for objects at distances beyond 30
+ 
+m. Instead, when we are judging the overall layout of objects in a larger 
+environment, known object size, motion parallax, linear perspective, cast shadows, and texture gradients all contribute to our understanding, depending on the exact spatial arrangement.
+
+![image](images/f07-48-9780128128756.jpg)
+
+
+Figure 7.48 The trajectory of a humpback whale bubble-net feeding is shown using an extruded box.
+
+Gibson (1986) noted that much of size constancy can be explained by a referencing operation with respect to a textured ground plane. The sizes of objects that rest on a uniformly textured ground plane can be obtained by reference to the texture element size. Objects slightly above the ground plane can be related to the ground plane through the shadows they cast. In artificial environments, a very strong artificial reference can be provided by dropping a vertical line to the ground plane.
+
+Because 3D environments can be so diverse and used for so many different purposes, no specific additional guidelines are given here relating to judgments of object position in 3D. The optimal mix is a complex design problem, not something for simple guidelines. All of the depth cues we have been discussing can be applied and should be considered in a design solution.

@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=5, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_05.json
+FILES:
+/private/tmp/about_face_chunks/chunk_101_Putting_together_a_plan.md
+/private/tmp/about_face_chunks/chunk_102_Conducting_ethnographic_interv.md
+/private/tmp/about_face_chunks/chunk_103_Interview_teams_and_timing.md
+/private/tmp/about_face_chunks/chunk_104_Phases_of_ethnographic_intervi.md
+/private/tmp/about_face_chunks/chunk_105_Basic_methods.md
+/private/tmp/about_face_chunks/chunk_106_Interview_where_the_interactio.md
+/private/tmp/about_face_chunks/chunk_107_Avoid_a_fixed_set_of_questions.md
+/private/tmp/about_face_chunks/chunk_108_Assume_the_role_of_an_apprenti.md
+/private/tmp/about_face_chunks/chunk_109_Use_open_ended_and_closed_ende.md
+/private/tmp/about_face_chunks/chunk_110_Focus_on_goals_first_and_tasks.md
+/private/tmp/about_face_chunks/chunk_111_Avoid_making_the_user_a_design.md
+/private/tmp/about_face_chunks/chunk_112_Avoid_discussing_technology.md
+/private/tmp/about_face_chunks/chunk_113_Encourage_storytelling.md
+/private/tmp/about_face_chunks/chunk_114_Ask_for_a_show_and_tell.md
+/private/tmp/about_face_chunks/chunk_115_Avoid_leading_questions.md
+/private/tmp/about_face_chunks/chunk_116_After_the_interviews.md
+/private/tmp/about_face_chunks/chunk_117_Other_Types_of_Qualitative_Res.md
+/private/tmp/about_face_chunks/chunk_118_Focus_groups.md
+/private/tmp/about_face_chunks/chunk_119_Usability_testing.md
+/private/tmp/about_face_chunks/chunk_120_Card_sorting.md
+/private/tmp/about_face_chunks/chunk_121_Task_analysis.md
+/private/tmp/about_face_chunks/chunk_122_Research_Is_Critical_to_Good_D.md
+/private/tmp/about_face_chunks/chunk_123_Notes.md
+/private/tmp/about_face_chunks/chunk_124_MODELING_USERS__PERSONAS_AND_G.md
+/private/tmp/about_face_chunks/chunk_125_Why_Model_.md

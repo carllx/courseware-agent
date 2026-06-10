@@ -1,0 +1,440 @@
+FILE: /Users/yamlam/Downloads/carllx-skills/.agent/skills/interaction-design-Rogers/references/workflows/7_2_interface_types.md
+CONTEXT:
+Node: 7.2 Interface Types
+Primary concept extracted from chunk
+# 7.2 Interface Types
+
+Numerous adjectives have been used to describe the different types of interfaces  that have been developed, including graphical, command, speech, multimodal, invisible, ambient, affective, mobile, intelligent, adaptive, smart, tangible, touchless, and natural. Some of the interface  types  are  primarily  concerned  with  a  function  (for  example,  to  be  intelligent, to  be adaptive, to be ambient, or to be smart), while others focus on the interaction style used (such as  command,  graphical,  or  multimedia),  the  input/output  device  used  (for  instance,  penbased,  speech-based,  or  gesture-based),  or  the  platform  being  designed  for  (for  example, tablet,  mobile,  PC,  or  wearable).  Some  apps  and  systems  use  increasingly  sophisticated machine learning algorithms that are intended to recognize faces, objects, and the like. Rather than cover every possible type that has been developed or described, we have chosen to select the main types of interfaces that have emerged over the past 45 years. The interface types are loosely ordered in terms of when they were developed. (See the following list for the complete set.) It should be noted, however, that this classification is for convenience of reference. The interface entries are not mutually exclusive since some products can appear in two or more categories. For example, a smartphone can be considered to be mobile, touch, or wearable.
+
+The types of interfaces covered in this chapter include the following:
+
+? Command   
+Graphical   
+Multimedia   
+Virtual reality   
+Web   
+Mobile   
+. Appliance   
+• Voice   
+Pen   
+? Touch
+
+• Touchless   
+. Haptic   
+. Multimodal   
+• Shareable   
+• Tangible   
+. Augmented reality   
+• Wearables   
+. Robots and drones   
+• Brain-computer   
+. Smart   
+. Shape-changing   
+. Holographic
+
+Here is a selection of classic HCI videos that demonstrate research into pioneering and future interfaces:
+
+The  Sketchpad: Ivan Sutherland (1963) describes  the  first  interactive  graphical  interface: youtu.be/6orsmFndx_o
+
+The  Dynabook: Alan Kaye (1968) describes  a  thin, light “children’s  computer” with a flatscreen display, drawing  stylus,  keyboard,  and  wireless connectivity:  www.youtube.com/ watch?v=r36NNGzNvjo
+
+The  Mother of All  Demos: Douglas  Engelbart  (1968) describes  the  first  WIMP: youtu.be/yJDv-zdhzMY
+
+Put  that there  (1979):  MIT  demonstrates the  first  speech and  gesture  interface: youtu.be/RyBEUyEtxQo
+
+Unveiling  the  genius of multitouch interface  design:  Jeff Han  gives  a  TED  talk (2007): youtu.be/ac0E6deG4AU
+
+Intel’s Future Technology Vision (2012): Futuristic video presenting a number of scenarios of technology use intended to improve people’s lives: youtu.be/g_cauM3kccI
+
+CMU’s  Future Interfaces Group: The  Next Phase  of Computer-Human Interaction (2018): Introduces future interface prototypes that can make our lives more efficient and informed: www.youtube.com/watch?v=J_oPtEjiVuA
+---
+Node: 7.2.1  Command-Line Interfaces
+Primary concept extracted from chunk
+# 7.2.1  Command-Line Interfaces
+
+Early interactive interfaces required the user to type in commands that were typically abbreviations (for example, ls) at the prompt symbol appearing on the computer display, to which the system responded (see Figure 7.1). Another way of issuing commands is by pressing certain  combinations  of keys  (such  as $\mathrm { C t r l } { + } \mathrm { V } _ { \cdot }$ ). Some  commands  are  also  a fixed  part  of the keyboard, such as delete, enter, and escape, while other function keys can be programmed by the user as specific commands (for instance, F11 commanding print action).
+
+![](images/ca90b849e93e9b7765efa086ca71af2cf06de1ad70dc46c0542bea225f80ebb2.jpg)  
+Figure 7.1  A Unix terminal display showing directories listed alphabetically for the command ls -a Source: Yvonne Rogers
+
+Command-line  interfaces  have  been  largely  superseded  by  graphical  interfaces  that incorporated commands such as menus, icons, keyboard shortcuts, and pop-up/predictable text commands  as part of an application. Where command-line interfaces continue to have an advantage is when people find them easier and faster to use than equivalent menu-based systems (Raskin, 2000). People also prefer command-line  interfaces for performing certain operations as part of a complex software package, such as for CAD environments (such as Rhino3D and AutoCAD), to allow expert designers to interact rapidly and precisely with the software. They also provide scripting for batch operations, and they are being increasingly used on the web, where the search bar acts as a general-purpose command-line facility, for example, www.yubnub.org.
+
+System  administrators, programmers,  and power users often  find that  it  is much  more efficient and quicker to use command languages such as Microsoft’s PowerShell. For example, it is  much  easier to  delete  10,000  files in  one go  by  using  one  command rather  than scrolling through that number of files and highlighting those that need to be deleted.
+---
+Node: Research and Design Considerations
+Primary concept extracted from chunk
+# Research and Design Considerations
+
+There is currently much research being conducted in the tech industry exploring what is the best way to represent people in virtual spaces so that they feel comfortable, are engaging to interact with, feel natural, and do not appear creepy (see also discussion in Chapter 5).
+
+Design considerations include what size the holographs should be and how people viewing them can interact and communicate with them being projected into their space.
+---
+Node: 7.2.3  Multimedia
+Primary concept extracted from chunk
+# 7.2.3  Multimedia
+
+Multimedia, as the name implies, combines different media within a single interface, namely, graphics, text, video, sound, and animation, and links them  together with various forms of interactivity. Clicking  a link in an image or text triggers another media element such as an animation or a video. The assumption is that a combination of media and interactivity can provide better ways of presenting information than can a single media, for example, just text or video alone. Another distinctive feature of multimedia is its ability to facilitate rapid access to  multiple  representations  of  information.  Many  multimedia  encyclopedias  and  digital libraries have been designed based on this multiplicity principle, providing an assortment of audio and visual materials on a given topic. For example, when looking to find information about the heart, a typical multimedia-based encyclopedia will provide the following:
+
+? One or two video clips of a real live heart pumping and possibly a heart transplant operation   
+. Audio recordings of the heart beating and perhaps an eminent physician talking about the cause of heart disease   
+Static diagrams and animations of the circulatory system, sometimes with narration   
+Text with links in it describing the structure and function of the heart
+
+Hands-on  interactive  simulations  have  also  been  incorporated  as  part  of  multimedia learning environments. An early example was the Cardiac Tutor, developed to teach students about cardiac resuscitation. It required students to save patients by selecting the correct set of procedures  in the correct  order from  various options displayed  on the computer  screen (Eliot  and Woolf, 1994). Other  kinds  of multimedia  narratives and  games have  also been developed  to support  discovery learning by  encouraging children to explore different parts of the display by  noticing a hotspot or other kind of link. For example, KidsDiscover.com/ apps  has  many tablet  apps  that use  a  combination  of  animations,  photos,  interactive  3D models, and audio to teach kids about  science and social studies topics. Using swiping and touching, kids can reveal, scroll through, select audio narration, and watch video tours. Figure 7.12, for example, has a “slide” mechanism as part of a tablet interface that enables the child to do a side-by-side comparison  of what Roman ruins looks like now and in ancient Roman times.
+
+Figure 7.12 An example of a multimedia learning app designed for tablets   
+![](images/51588cf165d8b51740bec0f0b2b1f5daf755792ca90196843aeba9e69e0cff75.jpg)  
+Source: KidsDiscover app “Roman Empire for iPad”
+
+Multimedia has largely been developed for training, educational, and entertainment purposes.  But  to  what  extent  is  the  assumption  that  learning  (such  as  reading  and  scientific inquiry skills)  and playing can be enhanced  through interacting with engaging multimedia interfaces true? What actually happens when people are given unlimited, easy access to multiple media and simulations? Do they systematically switch between the various media and
+
+“read” all of the  multiple representations on a particular subject, or are they more selective in what they look at and listen to? Early research showed how multimedia can make learning online  more  engaging and  enjoyable  (Scaife  and Rogers,  1996). However, it  was  also found that there is a tendency to click videos and animations rather than read the text (see the “Research and Design Considerations” box below). Despite this, a recent review reported how multimedia is still an integral  part of teaching practice; a variety of multimedia tools, both stand-alone and web-based, are still commonly used (Abdulrahaman et al., 2020).
+---
+Node: ACTIVITY 7.4
+Primary concept extracted from chunk
+# ACTIVITY 7.4
+
+Watch  this early video  of Don Norman appearing  in his first  multimedia CD-ROM book (1994), where he pops up every now and again in boxes or at the side of the page to illustrate the points being discussed on that page: vimeo.com/18687931.
+
+How  do you  think  students used this kind of interactive  e-textbook?  Would  you do the same?
+---
+Node: 7.2.5  Website Design
+Primary concept extracted from chunk
+# 7.2.5  Website Design
+
+Early websites  were largely text-based, providing hyperlinks to different  places or pages of text. Much of the design effort was concerned with the information architecture, that is, how best  to structure information at the interface level to enable users to navigate and access it easily and quickly. For example, Jakob Nielsen (2000) adapted his and Rolf Molich’s usability guidelines (Nielsen and Molich, 1990) to make them applicable to website design, focusing  on  simplicity,  feedback, speed, legibility, and ease  of  use. He also  stressed  how critical download time was to the success of a website. Simply, people who have to wait too long for a page to appear are likely to move on somewhere else.
+
+Since then, the goal of web design has been to develop sites that are not only usable but also aesthetically pleasing. Getting the graphical design right, therefore, is critical. The use of graphical elements (such as background images, color, bold text, and icons) can make a website look distinctive, striking, and pleasurable for the user when they first view it and also to make it readily recognizable on their return. However, there is the danger that designers can get carried away with the appearance at the expense of making it difficult to find something and navigate through it.
+
+Steve Krug (2014) discusses this usability versus attractiveness dilemma in terms  of the difference between  how designers create  websites and how visitors actually view them. He argues that many web designers create sites as if the visitor was going to pore over each page, reading the finely crafted text word for word; looking at the use of images, color, icons, and so forth; examining how the various items have been organized on the site; and then  contemplating their options before they finally select a link. People, however, often behave quite differently. They will glance at a new page, scan part of it, and click the first link that catches their interest or looks like it might lead them to what they want.
+
+Much  of  the  content  on  a  web  page  is  not  read.  In  Krug’s words,  web  designers  are “thinking great literature” (or at least “product brochure”), while the viewer’s reality is much closer  to a “billboard going by at 60 miles  an hour” (Krug, 2014, p. 21). While somewhat of  a caricature, his  depiction  highlights the discrepancy  between the meticulous ways  that designers  create their websites and the rapid and less than systematic approach that people take to view them. To help navigate their way through the many choices that web developers have to make, Jason Beaird and James George (2014) have come up  with a number of
+
+guidelines intended to help web developers achieve a balance between using color, layout and composition, texture, typography, and imagery. Other website  guidelines are mentioned in Chapter 16, “Evaluation: Inspections, Analytics, and Models.”
+
+Web  designers  now have  a number  of languages  available to  design websites, such as Python.  HTML  and  web  development  tools,  such  as  JavaScript  and  CSS,  are  also  used. Libraries, such as React, and open  source toolkits, such as Bootstrap, enable developers to get started quickly when prototyping their ideas for a website. Such tools provide drag-anddrop editors and form builders, making it easy for someone to customize and build a website. Website builders such as Wix and WordPress, for example, which are very  popular nowadays, provide  hundreds  of templates to  get started  with when creating  a website. In addition, built-in optimization and mobile-ready themes are available. Customized web pages are available for smartphone browsers that  provide scrolling lists of articles, games, tunes, and so on, rather than hyperlinked pages.
+
+Another  interface element  that is  an  integral  part  of any  website  is  breadcrumb  navigation. Breadcrumbs are category  labels that appear  on a web  page that enable visitors to peruse other pages without losing track of where they have come from (see Figure 7.14). The term comes from the way-finding technique that Hansel used in the Brothers Grimm fairy tale Hansel and Gretel. The metaphor conjures up the idea of leaving a path to follow back. Breadcrumbs are also used by search engine optimization tools that match up a user’s search terms with relevant web  pages using the breadcrumbs. Breadcrumbs also extol usability in a number of ways, including helping people know where they are relative to the rest of the website, enabling  one-click  access to higher site  levels, attracting first-time  visitors to continue to browse a website  after having  viewed the landing page (Mifsud, 2011). Therefore, using them is good practice for other web applications besides websites.
+
+![](images/efe0d2ddea554ccde19dfa4f1ecb747ce88771c067dcb76ee5650bf02449b0bd.jpg)  
+Figure 7.14 A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights
+
+Source: www.bestbuy.ca
+
+Many people browse the web from their smartphone or tablet. The touchscreen on these kinds of devices affords very different interactions compared with interacting with desktop or laptop displays using  a keyboard or mouse. The fonts, buttons, and menu tabs  that are standard on the latter are too small and awkward to select when using a finger on a touchscreen. Instead of double-clicking interface elements, as people do with a mouse or trackpad, tablet and smartphone screens involve tapping, swiping, and pinching methods.
+
+Web  designers  have had to think about  how to design web  browsers and websites for smaller-sized displays. A commonly used approach is responsive website design—where the browser automatically resizes the layout and changes the graphic design, fonts, and appearance depending on the screen size (smartphone, tablet, or PC) on which it is being displayed. This includes presenting the content over more pages and menus. The effect of downsizing
+
+<!-- Chunk 5 End -->
+
+<!-- Chunk 6 Start -->
+
+the content in this way, however, is that it can make it more time-consuming as more pages need to be loaded. It can also make it more fiddly navigating multiple pages and menus.
+
+Another method that is commonly used is infinite scrolling where websites are designed to enable browsing through their content that is presented as essentially one long page. This avoids a visitor needing to wait for pages to load when clicking them. Navigation is largely done  by  swiping  across or  down the page until the end  is  reached. However, a  side effect of this method of viewing content is the tendency for people to glance more while scrolling without  focusing  on  individual  items. This  may  be  fine when using  social media  sites  like Instagram and TikTok, where there is endless content to skim through, but maybe not what advertisers would like when paying for their ads to appear on these sites.
+
+Tips on designing websites for tablets versus mobile phones can be found here: css-tricks.com/a-couple-of-best-practices-for-tablet-friendly-design.
+---
+Node: In-Your-Face Web Ads
+Primary concept extracted from chunk
+# In-Your-Face Web Ads
+
+Web advertising has become pervasive and invasive. Advertisers realized how effective flashing  and animated ads were for promoting their products, taking inspiration  from the  animated neon light advertisements used in city centers, such as London’s Piccadilly Circus. But since banner ads emerged in the 1990s, advertisers have become even more cunning in their tactics. In addition to designing even flashier banner ads, more intrusive kinds of web ads have begun  to appear on our  screens. Short  movies and  garish cartoon  animations, often with audio, now pop up in floating windows that zoom into view or are tagged on at the front end of an online newspaper or video clip. Moreover, this new breed of in-your-face, often personalized web ads frequently requires someone either to wait until they end or to find a check box to close the window down.
+---
+Node: ACTIVITY 7.5
+Primary concept extracted from chunk
+# ACTIVITY 7.5
+
+Look at a fashion brand’s website, such as Nike, and describe the kind of interface used. How does it contravene the design principles outlined by Jeffrey Veen? Does it matter? For what type of user experience is it providing? What was your experience in engaging with it?
+---
+Node: 7.2.7  Appliances
+Primary concept extracted from chunk
+# 7.2.7  Appliances
+
+Appliances include machines for everyday use in the home (for example, washing machines, microwave  ovens, refrigerators, toasters, bread makers, and  smoothie  makers). What  they have in common is that most people using them will be trying to get something specific done in a short period of time, such as starting  a wash, watching  a program, buying a ticket, or making a drink. They are unlikely to be interested in spending time exploring the interface or looking through a manual to see how to use the appliance. Many  of them now have LED displays that provide multiple functions and feedback about a process (such as temperature, minutes remaining, and so on). Some have begun to be connected to the Internet with companion devices, enabling them to be controlled by remote apps. An example is a coffee maker that can be controlled to come on at a certain time from an app running on a smartphone or controlled by voice.
+---
+Node: ACTIVITY 7.7
+Primary concept extracted from chunk
+# ACTIVITY 7.7
+
+Look at the controls on your toaster (or the one in Figure 7.18 if you don’t have one nearby) and describe what each does. Consider how these might  be replaced with an LCD  screen. What would be gained and lost from changing the interface in this way?
+
+Figure 7.18 A typical toaster with basic physical controls   
+![](images/0896bd91dc551276f4a36c88b73606a17c74fb180ada2a18a74c41c613bdf2b4.jpg)  
+Source: uk.russellhobbs.com/product/brushed-stainless-steel-toaster-2-slice
+---
+Node: 7.2.9  Pen-Based
+Primary concept extracted from chunk
+# 7.2.9  Pen-Based
+
+Pen-based  interfaces enable  people to write, draw,  select, and move objects on an  interface using light pens or styluses that capitalize on the well-honed drawing and writing skills. They have  been  used to interact with tablets and large displays, instead of mouse, touch, or keyboard  input,  for  selecting  items  and  supporting  freehand  sketching.  Smartpens,  like  the LiveScribe Echo 2 (see Figure 7.19), use a combination of an ink pen with a digital camera that digitally records everything written with the pen on special paper. The pen works by recognizing a special nonrepeating dot pattern that is printed on the paper. The nonrepeating nature of the pattern means that the pen is able to determine which page is being written on and where on the page the pen is pointing. When writing on digital paper with a smartpen, infrared light from the  pen illuminates  the dot pattern, which is then picked up by a tiny  sensor. The  pen decodes the dot pattern as the pen moves across the paper and stores the data temporarily in the pen. The digital pen can transfer data that has been stored in the pen via Bluetooth to a computer/tablet. Handwritten notes can also be converted and saved as standard typeface text that can then be edited and organized subsequently. This can be  useful for applications that require people to fill in paper-based forms and also for taking notes during meetings.
+
+Figure 7.19 Livescribe Echo 2 Smartpen   
+![](images/a8dfff983033b0c815fdc4a020e3c3ba0a19f01c0b79e0df0e5bc86e3b76d333.jpg)  
+Source: uk.livescribe.com/collections/smartpens/products/echo-2
+
+Another advantage of pen-based interfaces is that they allow people to annotate existing documents, such as spreadsheets, presentations, and diagrams, quickly and easily in a similar way to how they would do this when using paper-based versions. This is particularly useful for a team who is working together and communicating with each other from different locations. They are also very  versatile; for example, the Apple  pencil  when used with the iPad enables people to write, sketch, annotate, draw, and paint directly onto it.
+---
+Node: Electronic Ink
+Primary concept extracted from chunk
+# Electronic Ink
+
+Digital ink is not to be confused with the  term electronic ink (or  e-ink). Electronic ink is a display  technology designed to mimic  the  appearance of ordinary ink  on paper  used in e-readers, such as the Kindle. The display used reflects light like ordinary paper.
+---
+Node: 7.2.10  Touchscreens
+Primary concept extracted from chunk
+# 7.2.10  Touchscreens
+
+Single  touchscreens,  used  in  walk-up  kiosks  such  as  ticket  machines  or  museum  guides, ATMs,  and  cash  registers  (for instance,  restaurants),  have  been around  for  a  while. They work by detecting the presence and location of a person’s touch on the display; options are selected by tapping on the screen. Multitouch surfaces, on the other hand, support a much wider range of more dynamic fingertip actions, such as swiping, flicking, pinching, pushing, and  tapping.  They  do  this  by  registering  touches  at  multiple  locations  using  a  grid  (see Figure 7.20). This multitouch method enables devices, such as smartphones and tabletops, to recognize  and  respond  to  more  than  one  touch  at  the  same  time  supporting  a  variety  of actions, such as zooming in and out of maps, moving photos, selecting letters from a virtual keyboard when writing, and scrolling through lists. Two hands can also be used together to stretch and move objects on a tabletop surface, similar to how both hands are used to stretch an elastic band or scoop together a set of objects.
+
+The flexibility of interacting with digital content afforded by finger gestures has resulted in many  ways  of experiencing  it. This  includes reading, scanning, zooming,  and searching interactive content on tablets, as well as creating new digital content.
+---
+Node: 7.2.11  Touchless
+Primary concept extracted from chunk
+# 7.2.11  Touchless
+
+Gestures involve moving arms and hands to communicate (for instance, waving to say goodbye or raising an arm to speak in class) or to provide information to someone (for example, holding two hands apart to show the size of something). There has been much interest in how technology  can be used  to capture and recognize  a person’s gestures for input by  tracking them using cameras and then analyzing them using machine learning algorithms.
+
+David  Rose (2018)  created a video that depicts many sources of inspiration for where gesture is used in a variety of contexts, including those made by cricket umpires, live concert signers for the deaf, rappers, Charlie  Chaplin, mime artists, and Italians. His team at IDEO developed a gesture system to recognize a small set of gestures and used these to control a Philips HUE light set and a Spotify station. They found that gestures need to be sequential to be understood in the way a sentence  is composed  of a noun, then verb, and object plus operation. For example, for “speaker, on,” they used a gesture on one hand to designate the noun, and another on  the other hand to designate  the verb. So, to change the volume, the person needs to point to a speaker with their left hand while raising their right hand to signal turn the volume up.
+
+Watch David Rose’s inspirations for gesture video at vimeo.com/224522900.
+
+One  area  where gesture interaction has  been developed  is  in the operating  room. Surgeons need to keep their hands sterile during operations but also need to be able to look at X-rays and scans during an operation. However, after being scrubbed and gloved, they need to avoid  touching  any  keyboards, phones,  and other  nonsterile  surfaces. A  far from  ideal workaround is to pull their surgical gown over their hands and manipulate a mouse through the gown. As an alternative, Kenton O’Hara et al. (2013) developed a touchless gesture-based system, using Microsoft’s Kinect technology, which recognized a range of gestures that surgeons could use to interact with and manipulate MRI or CT images, including single-handed gestures  for  moving  forward  or  backward  through  images,  and  two-handed  gestures  for zooming and panning (see Figure 7.21).
+
+Several car dashboards have a form of gesture control; for example, BMW’s iDrive enables drivers to control certain functions, such as turning up or down the audio volume, with the use of hand gestures that are captured by a 3D camera. For audio control, these comprise rotating the  index finger  clockwise (up) or  anti-clockwise  (down). Gesture control sensors that are positioned in the roof lining of the car, adjacent to the rearview mirror, are also used. To be recognized, the driver needs to make their gestures in front of the center console.
+
+To ensure they are safe, the gestures were developed and tested in the iDrive system, by taking into account how focused the driver is when behind the wheel. More recently, Touchless Computing has emerged as a new  form of in-air gesture-based  interaction that anyone can  use  with  just  a  webcam  (see  www.intel.com/content/www/us/en/company-overview/ wonderful/motion-input-technology.html). The technique developed  is  called MotionInput, which provides a way of interacting with a PC without the need to touch a keyboard or the screen. Instead, a person interacts with the MotionInput software on their PC by making gestures with their hands, head, face, or full body. The software then analyzes their interactions and converts  them  into mouse, keyboard, and joypad  signals. The “multitouch in  the air” software was developed by computer  science undergraduate students at University  College London in  conjunction  with Intel, IBM, and  Microsoft. Compared  with the earlier Kinect gesture-based  systems, it doesn’t require any  specific equipment other than a webcam  and microphone, which most laptops already have.
+
+Figure 7.21 Touchless gesturing in the operating theater   
+![](images/580675d9868b580fa2fc23a9f9884a5dbed207cb9abd3adc45691867b6f76f60.jpg)  
+Source: Used courtesy of Kenton O’Hara
+---
+Node: 7.2.12  Haptic Interfaces
+Primary concept extracted from chunk
+# 7.2.12  Haptic Interfaces
+
+Haptic  interfaces provide  tactile  feedback, by  applying  vibration and forces  to  the person using actuators that are embedded in their clothing or a device that they are carrying, such as a smartphone or smartwatch. Gaming consoles have also employed vibration to enrich the experience. For example, car steering wheels that are used with driving simulators can vibrate in various ways to provide the feel of the road. As the driver makes a turn, the steering wheel can be programmed to feel like it is resisting—in the way that a real steering wheel does. The steering wheel  in some cars like the  Tesla also  vibrate as a warning to the  driver if  the  car detects that it is drifting out of its lane.
+
+Vibrotactile  feedback can also be used to  simulate the sense  of touch between  remote people who want to communicate. Actuators embedded  in clothing can be designed to recreate  the sensation  of  a hug  or a  squeeze  by  being  buzzed on  various  parts  of the body. Another  use  of  haptics  is  to  provide  real-time  feedback  to  guide  people when  learning  a musical instrument, such as a violin or drums. For example, the MusicJacket (van der Linden et al., 2011) was developed to help novice violin players learn how to hold their instrument correctly and develop good bowing action. Vibrotactile feedback was provided via the jacket to give nudges at key places on the arm and torso to inform the student when they were either holding their violin incorrectly or their bowing trajectory had deviated from a desired path (see Figure 7.22). A user study with novice players showed that they were able to react to the vibrotactile feedback and adjust their bowing or their posture in response.
+
+![](images/87cb4824cbf5205a7528772f2d6da76a4c562eb4c229edbfae80f145fee1fb79.jpg)  
+Figure 7.22 The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position
+
+Source: Yvonne Rogers
+
+Another  form  of feedback is called  ultrahaptics, which creates  the illusion of touch in midair. It does this by using ultrasound to make three-dimensional shapes and textures that can  be felt  but  not  seen  by  the user  (www.ultrahaptics.com). This  technique  can  be  used to  create  the  illusion  of  having  buttons  and  sliders  that  appear  in  midair.  One  potential use  is  in the automotive industry to replace existing  physical buttons  and knobs or touchscreens. The ultra-haptic  buttons and  knobs  can  be designed  to appear  next  to the driver when  needed,  for example, when  detecting  the driver  wants  to turn  down  the volume  or change the radio station.
+
+Haptics are also being embedded into clothing, sometimes called exoskeletons. Inspired by the “Techno Trousers” in the Wallace and Gromit movie The Wrong Trousers, Jonathan Rossiter and his team (2018) developed a new kind of exoskeleton that can help people stand up  and move  around using artificial  muscles  that  consist  of air bubbles  that  act as  haptic feedback that are activated using tiny electric motors (see Figure 7.23). They are stiffened or relaxed using grapheme parts to make the trousers move. One application area is to help people who have walking difficulties and those who need to exercise but find it difficult to do so.
+
+Figure 7.23 Trousers with artificial muscles that use a new kind of bubble haptic feedback   
+![](images/737f23ad234e2407e5418c4f6e7d9b1440f77cce234a94b66dd1c51e4fc6585e.jpg)  
+Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for Independent Living
+---
+Node: 7.2.13  Multimodal
+Primary concept extracted from chunk
+# 7.2.13  Multimodal
+
+Multimodal interfaces are intended to enrich user experiences by multiplying the way information is experienced and controlled at the interface through using different modalities, such as touch, sight, sound, and speech (Bouchet and Nigay, 2004). Interface techniques that have been combined for this purpose include speech and gesture, eye-gaze and gesture, haptic and audio output, and pen input and speech (Dumas et al., 2009). The assumption is that multimodal  interfaces  can  support  more  flexible,  efficient,  and  expressive  means  of  human– computer interaction that are more akin to the multimodal experiences that humans encounter in  the  physical world  (Oviatt, 2017). Different  input/outputs  may  be  used at  the  same time, for example, using  voice commands  and  gestures simultaneously to  move through a
+
+virtual environment, or alternately using speech commands followed by gesturing. The most common  combination  of technologies used  for multimodal interfaces  is  speech  and vision processing (Deng and Huang, 2004). Multimodal interfaces can also be combined with multisensor  input to  enable other aspects of the human  body  to be tracked. For  example, eye gaze, facial expressions, and lip movements (as mentioned in section 7.2.11 on MotionInput software)  can  also  be detected  and tracked  to provide  data  about  someone’s attention  or intent. This kind of sensing can provide input for customizing user interfaces and experiences to the perceived need, desire, or level of interest.
+
+A person’s body movement can also be tracked so that it can be represented back to them on a screen in the form of an avatar that appears to move just like them. For example, the Kinect was developed as a gesture and body movement gaming input system for the Xbox. Although  now  defunct  in the gaming industry,  it proved effective at  detecting multimodal input in real time. It consisted of an RGB camera for facial and gesture recognition, a depth sensor  (an  infrared projector  paired  with a  monochrome camera) for  movement tracking, and downward-facing  mics for voice recognition  (see Figure 7.24). On  finding a body, the Kinect locked onto  it and measured the three-dimensional  positioning  of the key joints  in their body. This information was converted into a graphical avatar of the user that could be programmed to move just like them. Many people readily saw themselves as the avatar and learned how to play games in this manner.
+
+![](images/a58c88885ee1e636bd6e02884aaf26ec17f77cb9daf6a10b607df3e4d958899c.jpg)  
+Figure 7.24 Microsoft’s Xbox Kinect Source: Stephen Brashear / Invision for Microsoft / AP Images
+---
+Node: 7.2.15  Tangible
+Primary concept extracted from chunk
+# 7.2.15  Tangible
+
+Tangible interfaces use sensor-based interaction, where physical objects, such as bricks, balls, and cubes, are coupled with digital representations (Ishii and Ullmer, 1997). When a person manipulates the physical object(s), it is detected by a computer system via the sensing mechanism embedded in the physical object, causing a digital effect to occur, such as a sound, animation, or vibration (Fishkin, 2004). The digital effects can take place in a number of media and  places,  or  they  can  be  embedded  in  the  physical  object  itself.  For  example,  Oren Zuckerman and  Mitchel  Resnick’s  (2005)  early Flow  Blocks  prototype depicted  changing numbers  and  lights  that  were  embedded  in  the  blocks,  depending  on  how  they  were
+
+connected. The flow blocks were designed to simulate  real-life dynamic behavior and react when arranged in certain sequences.
+
+Another  type  of tangible  interface  is  where  a  physical model,  for  example, a  puck, a piece of clay, or a model, is superimposed on a digital desktop. Moving one of the physical pieces  around  the tabletop causes digital  events to take  place  on  the tabletop. One  of the earliest  tangible  interfaces, Urp, was  built  to  facilitate urban  planning;  miniature  physical models of buildings could be moved around on the tabletop and used in combination with tokens for wind and shadow-generating tools, causing digital shadows surrounding them to change over time and visualizations of airflow to vary. Tangible interfaces differ from other approaches, such as mobile, insofar as the representations are artifacts in their own right that they can be directly acted upon, lifted up, rearranged, sorted, and manipulated.
+
+The technologies that have been used to create tangibles include RFID tags and sensors embedded in physical objects and digital tabletops that sense the movements of objects and subsequently provide visualizations surrounding the physical objects. Many tangible systems have been built with the goal of encouraging learning, design activities, playfulness, and collaboration. These include planning tools for landscape and urban planning (see Hornecker, 2005; Underkoffler and Ishii, 1998). Another example is Tinkersheets, which combine tangible models of shelving with paper forms for exploring and solving warehouse logistics problems (Zufferey, et al., 2009). The underlying simulation allows students to set parameters by placing small magnets on the form.
+
+Tangible computing has been described as having no single locus of control or interaction (Dourish, 2001). Instead of just one input device, such as a mouse, there is a coordinated interplay of different devices and objects. There is also no enforced sequencing of actions and no modal interaction. Moreover, the design of the interface objects exploits their affordances to guide the user in how to interact with them. A benefit of tangibility is that physical objects and digital representations can be positioned, combined, and explored in creative ways, enabling dynamic information to be presented in different ways. Physical objects can also be held in both hands  and combined and manipulated in  ways not  possible using other interfaces. This allows for more than one person to explore the interface together and for objects to be placed on top of each other, beside each other, and inside each other; the different configurations encourage different ways of representing and exploring a problem space. In so doing, people are able to see and understand situations differently, which can lead to greater insight, learning, and problem-solving than with other kinds of interfaces (Marshall et al., 2003).
+
+A number of toolkits have been developed to encourage children to learn coding, electronics, and STEM subjects using physical computing toolkits. These include the following:
+
+SAM Labs STEAM kit (youtu.be/DEiIqWXiffw)
+
+MicroBit (microbit.org)
+
+MagicCubes (uclmagiccube.weebly.com)
+
+The toolkits provide children with opportunities to connect physical electronic components and sensors to make digital events happen. For example, the MagicCubes can be programmed to change color depending on the speed at which they are shaken; slow is blue, and very  fast is  multicolor. Research has  shown that the tangible toolkits provide many opportunities  for  discovery  learning,  exploration,  and  collaboration  (Lechelt  et  al.,  2020). The MagicCubes have also been found to encourage a diversity of children, between the ages of 6 and 16, and those with cognitive disabilities, to learn through collaborating, and frequently
+
+showing and telling  each other and their instructors about their discoveries  (Lechelt et al., 2018). These moments are facilitated by the cube’s form factor, making it easy to show off to others, for example, by waving a cube in the air (see Figure 7.26).
+
+![](images/c488deadfb2c25a34dd9d751f289c8268c12364c4d545be9cbe963d5d72e5c13.jpg)  
+Figure 7.26 Learning to code with the MagicCubes; sharing, showing, and telling Source: Elpida Makriyannis
+
+Tangible toolkits have also been developed for the visually impaired. For example, Code Jumper was developed as a programming  language for teaching programming concepts to children aged 7–11, regardless of level of vision (Morrison et al., 2018). It consists of a set of pods that can be connected and manipulated to create physical strings of code that play stories or music.
+---
+Node: VoxBox—A Tangible Questionnaire Machine
+Primary concept extracted from chunk
+# VoxBox—A Tangible Questionnaire Machine
+
+Traditional methods for gathering public opinions, such as surveys, involve approaching people in situ, but it can disrupt the positive experience they are having. VoxBox (see Figure 7.27) is a  tangible system designed to gather opinions on a range  of topics in situ at an event through playful and engaging interaction (Golsteijn et al., 2015). It was intended to encourage wider participation by grouping similar questions, encouraging completion, gathering answers to open and closed questions, and connecting answers and results. It was designed as a large physical system that provides a range of tangible input  mechanisms through  which people give their  opinions, instead of using, for example, text messages or social media input. The various input mechanisms include sliders, buttons, knobs, and spinners about which people are all familiar. In addition, the system has a transparent tube at the side that drops a ball stepby-step as sets of questions are completed to act as an incentive for completion and as a progress indicator. The results of the selections were aggregated and presented as simple digital visualizations on the other side (for example, 95 percent are engaged; 5 percent are bored). VoxBox was  used at a  number of events drawing in the  crowds, who  become completely absorbed in answering questions in this tangible format.
+
+![](images/8d74833f294cd91388fe7cbfb7d2ee24e2f6607691aabcdc1fbcc092b19ba344.jpg)  
+Figure 7.27 VoxBox—front and back of the tangible machine questionnaire Source: Yvonne Rogers
+---
+Node: 7.2.16  Augmented Reality
+Primary concept extracted from chunk
+# 7.2.16  Augmented Reality
+
+Augmented reality  (AR)  became  an  overnight  success with  the  arrival of  Pokémon  Go in 2016. The smartphone  app became an  instant hit worldwide. Using a player’s smartphone camera and  GPS  signal, the AR  game makes  it seem  as if  virtual Pokémon  characters are appearing in the real world—popping up all over the place, such as on buildings, on streets, and in parks. As players walk around a given place, they may be greeted with rustling bits of grass  that signal  a Pokémon  nearby. If  they  walk  closer, a Pokémon  may  pop up  on their smartphone screen, as if by magic, and look as if they are actually in front of them. For example, one might be spotted sitting on a branch of a tree or a garden fence.
+
+AR works by superimposing digital elements, like Pokémons, onto physical devices and objects. Closely related to AR is the concept of mixed reality, where views of the real world are combined with views of a virtual environment (Drascic and Milgram, 1996). To begin, augmented reality was mostly  a subject of experimentation within medicine, where  virtual objects, for example X-rays and scans, were overlaid on part of a patient’s body to aid the physician’s understanding of what was being examined or operated on.
+
+AR was then used to aid controllers and operators in rapid decision-making. One example is air traffic control, where controllers are provided with dynamic information about the aircraft in their section that is overlaid on a video screen showing real planes landing, taking off, and taxiing. The additional information enables the controllers to identify planes easily, which were difficult to make out—something  especially useful in poor weather conditions. Similarly, head-up  displays  (HUDs) are used in military and civil planes to aid pilots when landing during poor weather conditions. A HUD provides electronic directional markers on a fold-down display that appears directly in the field of view of the pilot. A number of cars provide AR windshield technology, where navigation directions can literally look like they are painted on the road ahead of the driver (see Chapter 2, “The Process of Interaction Design”).
+
+As well as HUDs, augmented reality can be viewed through headsets, smartphones, and glasses (e.g., SnapChat’s AR spectacles). The most convenient device to use when viewing AR is a smartphone. Headsets can provide a more immersive experience, but the downside is they are cumbersome to wear and fiddly to calibrate. In the future, it is likely that more convenient and easy-to-wear AR glasses will become more popular, enabling people both to create and to share their digital AR content with others. To see how this can work, watch the Snap video Introducing the Next Generation of Spectacles at youtu.be/AuIw5Oe7z1I.
+
+AR-based instructions for building or repairing complex equipment, such as photocopiers and car engines, have also been designed to replace paper-based manuals, where drawings are superimposed upon the machinery itself, telling the mechanic what to do and where to do it. There are also many AR apps available for a range of contexts, from education to car navigation, where digital content is overlaid on geographic  locations and objects. To reveal the digital information, users open  the AR app on  a smartphone or tablet and the content appears superimposed on what is viewed through the screen.
+
+Other AR apps have been developed to aid people walking in a city or town. Directions (in  the form  of a pointing  hand  or arrow)  and local  information (for instance, the  nearest bakery)  are  overlaid  on  the  image  of  the  street  ahead  that  appears  on  someone’s  smartphone screen. These change as the person walks up the street. Virtual objects and information are also being combined  to make more complex  augmented  realities. Figure 7.28 shows  a weather alert with animated virtual lightning effects alongside information about  a nearby café and the price of properties for sale or rent on a street. Virtual people, cartoon characters, and other objects are also being introduced into AR environments that can appear to move and/or talk. For example, virtual tour guides are beginning to appear in museums, cities, and theme parks, which can appear to by moving, talking, or gesturing to visitors who are using an AR app.
+
+The availability of mapping platforms, such as those provided by Niantics and Google, together with Apple’s ARKit, SparkAR Studio, and Google’s ARCore, has made it easier for developers  and  students  alike to  develop  new  kinds  of AR  games  and  AR  apps. Another popular AR game that has emerged since Pokémon Go is Jurassic World Alive, where players walk around in the real world to find as many virtual dinosaurs as they can. It is similar to Pokémon Go but with different gaming mechanisms. For example, players have to study the dinosaurs they  come across by collecting  their DNA and then re-creating it. Microsoft has also enabled new mixed reality user experiences to be created, enabling people wearing a Hololens headset to interact with virtual elements in their surroundings.
+
+![](images/f087f58b08c047fb800aea46ac55e8e73eee854d7911ef02fea7cf18ffeff2f5.jpg)  
+Figure 7.28 Augmented reality overlay used on a car windshield
+---
+Node: Source: wayray.com
+Primary concept extracted from chunk
+# Source: wayray.com
+
+Most AR apps use the backward-facing camera on a smartphone or tablet to overlay the virtual content  onto the real world. Another  approach is to use the forward-facing camera (used for selfies) to superimpose digital content onto the user’s face or body. SnapChat and Zoom provide numerous filters with which people can experiment with plus the opportunity to create their own filters. Adding accessories  such as ears, hair,  moving lips, and headgear enables people to transform their physical appearance in all sorts of fun ways.
+
+These kinds of virtual try-ons work by analyzing a person’s facial features and building a 2D or 3D model in real time. So, when they move their head, the make-up or accessories appear to move with them as if they are really on their face. Several AR mirrors now exist in retail that allow shoppers to try on sunglasses, jewelry, and make-up. The goal is to let them try on as many different products as they like to see how they look with them on. Clearly, there are advantages to virtual try-ons: it can be more convenient, engaging, and easier compared to trying on the real thing. There are disadvantages too, however, in that they only give an  impression of  what you  look like. For example, the person cannot  feel the weight  of a virtual accessory on their head or the texture of virtual make-up on their face.
+
+The same technology can be used to enable people to step into historical, famous, film, or stage characters (for instance, David Bowie or Queen Victoria). For example, a virtual try-on app that was developed as part of a cultural experience was the MagicFace (Javornik, et al., 2017). The goal was to enable audiences to experience firsthand what it was like to try on the make-up of a character from an opera. The opera chosen was Philip Glass’s Akhnaten, set in ancient Egypt (see Figure 7.29a). The virtual make-up developed were for a Pharaoh and his wife. The app was developed by University College London researchers alongside the English National Opera and AR company, Holition. To provide a real-world context, the app was designed to run on a tablet display that was disguised as a real mirror and placed in an
+
+actor’s dressing room (see Figure 7.29b). On encountering the mirror in situ, visiting school children were fascinated by the way the virtual make-up made them look like Akhnaten and his wife, Nefertiti. The singers and make-up artists who were in the production also tried it out and saw great potential for using the app to enhance their existing repertoire of rehearsal and make-up tools.
+
+![](images/cbb7702ed46608f3bb9a27fb0b2c38b70d0aaed543ba7fe58d472f8b2f8aaf5b.jpg)  
+(a)
+
+(b)   
+Figure 7.29 (a) A principal singer trying on the virtual look of Akhnaten and (b) a framed AR mirror in the ENO dressing room   
+![](images/40eeddc8e92d4d01705f584976ac5f47a74baf56970896de69e148f0d10dbcd5.jpg)  
+Source: Used courtesy of Ana Javornik
+---
+Node: 7.2.17  Wearables
+Primary concept extracted from chunk
+# 7.2.17  Wearables
+
+Wearables are a broad category of devices that are worn on the body. These include smartwatches, fitness trackers, fashion tech, and smart glasses. Since the early experimental days of wearable computing, where Steve Mann (1997) donned head and eye cameras to enable him to record what he saw while also accessing digital information on the move, there have been many innovations and inventions.
+
+New  flexible  display  technologies,  e-textiles,  and  physical  computing  (for  example, Arduino) provide opportunities to design wearables that people will actually want to wear. Jewelry, caps, glasses, shoes, and jackets have all been the subject of experimentation designed to provide the wearer with a means of interacting with digital information while on the move in the physical world. Early wearables focused on convenience, enabling people to carry out a  task  (for  example, selecting  music)  without  having  to  take  out  and  control  a  handheld device. Examples  included a  ski jacket  with  integrated  music  player  controls that enabled the wearer to simply touch a button on their arm with their glove to change a music track. More recent applications have focused on  how to combine textiles, electronics, and haptic technologies to promote new forms of communication. For example, CuteCircuit developed the KineticDress, which  was embedded with sensors that followed the body  of the wearer to capture their movements and interaction with others. These were then displayed through electroluminescent embroidery that covered the external skirt section of the dress. Depending on the amount and speed of the wearer’s movement, it changed patterns, displaying the wearer’s mood to the audience and creating a magic halo around her.
+
+Exoskeleton clothing (see section 7.2.12) is also an area where fashion meets technology in order to augment  and assist people who have problems  with walking by  literally  walking  or  exercising  the  person  wearing  them.  In  this  way, it  combines  haptics  with  a wearable. Within the construction industry, exoskeleton suits have also been developed to provide additional power to workers—a bit like Superman—where metal frameworks are fitted with motorized muscles to multiply the  wearer’s strength. It can make lifting objects feel lighter and in doing so protect the worker from physical injuries.
+---
+Node: Google Glass: Seeing Too Much?
+Primary concept extracted from chunk
+# Google Glass: Seeing Too Much?
+
+Google Glass was a  wearable that went on sale in 2014 in various fashion styles (see Figure 7.30). It was designed to look like a pair of glasses, but with one lens of the glass being an interactive display with an embedded camera that could be controlled with speech input. It allowed the wearer to take photos and videos on the move and look at digital content, such as email, texts, and maps. The wearer could also search the web using voice commands, and the results would appear on the screen. A number of applications were developed beyond those for everyday use, including WatchMeTalk, which provided live captions to help the hearingimpaired in their day-to-day conversations and Preview for Glass that enabled the wearer to watch a movie trailer the moment they looked at a movie poster.
+
+Figure 7.30 Google Glass   
+![](images/3ba223582107540652c7298e6e58d27e8858de93476eb2d72e4df36e473c36c0.jpg)  
+Source: Google Inc.
+
+However, being in the company of someone wearing a Google Glass was felt by many to be unnerving, as the wearer looked up and to the right to view what was on the glass screen rather than looking at you and  into your eyes. One of the criticisms of wearers of Google Glass was that it made them appear to be staring into the distance. Others were worried that those wearing Google Glass were recording everything that was happening in front of them. As a reaction, a few bars and restaurants in the United States implemented a “no Glass” policy to prevent customers from recording other patrons.
+
+(Continued)
+
+The original Google Glass was retired after a couple of years. Since then, other types of smart glasses have come onto the market that sync a user’s smartphone with the display and camera on the glasses via Bluetooth. These include Vuzic Blade, which has a camera onboard and voice control that is connected to Amazon Echo devices, along with the provision of turnby-turn navigation and location-based alerts; and Snap’s Spectacles (see previous section).
+
+Another interesting design concept was the Talking Shoe, which talked to people in a humorous way when wearing them as they went about their everyday activities. See youtu.be/VcaSwxbRkcE.
+---
+Node: 7.2.18  Robots and Drones
+Primary concept extracted from chunk
+# 7.2.18  Robots and Drones
+
+Robots have been around for some time, most notably as characters in science-fiction movies, but they also play an important role as part of manufacturing assembly lines, as remote investigators  of hazardous  locations (for  example, nuclear power stations  and  bomb  disposal),
+
+and as search and rescue helpers in disasters (for instance, in forest fires) or faraway  places (like Mars). Console interfaces have been developed to enable humans to control and navigate  robots  in  remote  terrains,  using  a  combination  of  joysticks  and  keyboard  controls together with cameras and sensor-based interactions (Baker et al., 2004). The focus has been on designing interfaces that enable people to steer and move a remote robot effectively with the aid of live video and dynamic maps.
+
+Domestic robots that help with the cleaning and gardening have become popular. Robots are  also  being  developed  to  help  the  elderly  and  disabled  with  certain  activities, such  as picking up objects and cooking meals. Pet robots, in the guise of human companions, have been  commercialized.  Several  research teams  have  taken the “cute  and  cuddly” approach to  designing  robots,  signaling  to  humans  that  the  robots  are  more  pet-like  than  humanlike. For example, Mitsubishi developed Mel the penguin (Sidner and Lee, 2005) whose role was  to  host  events,  while the  Japanese  inventor  Takanori Shibata  first developed  Paro  in 2004, a baby  harp seal that looks like a cute  furry cartoon animal, and whose role was as a companion (see Figure 7.31). Sensors were embedded in the pet robots, enabling them to detect certain human behaviors and respond accordingly. For example, they can open, close, and move their eyes, giggle, and raise their flippers. The robots encourage being cuddled or spoken to, as if they were real pets or animals. The appeal of pet robots is thought to be partially due to their therapeutic qualities, being able to reduce stress and loneliness among the elderly and infirm (see Chapter 6 for more on cuddly robot pets). Paro has since been used to help patients with dementia  to make them feel more at ease and comforted both in care homes (Griffiths, 2014) and family homes (Inoue et al., 2021). It has been found to encourage social behavior among patients who often anthropomorphize it. For example, they might say as a joke “it’s farted on me!” which makes them and others around them laugh, leading to further laughter and joking. This form of encouraging of social interaction is thought to be therapeutic.
+
+![](images/2b743a8851867b10a564d246b9cf207997418648a8060eb79a25f15211e9f40d.jpg)
+
+Figure 7.31 (a) Mel, the penguin robot, designed to host activities; (b) Japan’s Paro, an interactive seal, designed as a companion, primarily for the elderly and sick children   
+![](images/1c9b541f9f70bde1b2a1efe01ff89da98c7088e290ff7e17c8540d55d6758eb9.jpg)  
+Source: (a) Mitsubishi Electric Research Labs (b) Parorobots.com
+
+Watch the video of Robot Pets of the Future at youtu.be/wBFws1lhuv0.
+
+Drones  are  a form  of unmanned  aircraft that  are  controlled  remotely. They  were  first used by hobbyists and then by the military. Since then, they have become more affordable, accessible, and easier to fly. As a result, they have begun to be used in a wider range of contexts. These include entertainment, such as carrying drinks and food to people at festivals and parties. More recently, they have been used to drop medical supplies and all manner of groceries, from coffee to melons. People can order something on their phone and within minutes a parcel is released and lowered on a dangling piece of string in front of their house. Drones have also been used in the entertainment industry, for example, Firefly Drone Shows that are increasingly replacing conventional firework displays. They work by being preprogrammed, choreographed, and automated by a computer, and can even be recharged during shows.
+
+Drones have also been used in the agricultural and construction industries, such as flying them over buildings or vineyards to collect data in the form of video footage  and photographs (see Figure 7.32). They have also been used to track poachers in wildlife  parks in Africa (Preece, 2016). Compared with other forms of data collection, they can fly low and stream photos to a ground station where the images can be stitched together into maps and then used to determine the health of a crop or when is the best time to harvest the crop.
+
+![](images/dc407eaa23f094b377a66e75eb15573478c3a283e0014292133740c7db732bf6.jpg)  
+Figure 7.32 A drone being used to survey the state of a vineyard Source: Drone inspecting vineyard / Shutterstock
+
+Watch the video of a Firefly drone firework display at www.youtube.com/ watch?v=tcoIUd9Y3-w.
+---
+Node: 7.2.19  Brain–Computer Interfaces
+Primary concept extracted from chunk
+# 7.2.19  Brain–Computer Interfaces
+
+Brain–computer  interfaces  (BCI)  provide  a  communication  pathway  between  a  person’s brain  waves  and an  external  device, such  as a  cursor on  a  screen or  a tangible  puck  that moves via airflow. The person is trained to concentrate on the task (for example, moving the cursor or the puck). Several research projects have investigated  how this  technique can be used to assist and augment human cognitive or sensory-motor functions. The way BCIs work is by detecting changes in the neural functioning of the brain. Our brains are filled with neurons that comprise individual nerve cells connected to one another by dendrites and axons. Every time we think, move, feel, or remember something, these neurons become active. Small electric signals rapidly move from neuron to neuron, which to a certain extent can be detected by electrodes that are placed on a person’s scalp. The electrodes are embedded in specialized headsets, hairnets, or caps.
+
+BrainGate is a kind of BCI that has been developed to enable people who are paralyzed to control robots and be able  to move a cursor on a computer screen displaying  the letters of the alphabet (see Figure 7.33). A study found that after training participants were able to “point and click” on letters—similar to using a computer mouse—to type specific sentences (Pandarinath et al., 2017). On average, they could type nearly 8 words per minute.
+
+![](images/b78fc46bc694c689221abd4368150677b8161e525322642f7e4ae86c90431c9a.jpg)  
+Figure 7.33 A brain-computer interface being used by a woman who is paralyzed to select letters on a screen (Pandarinath et al., 2017)
+
+Source: Brown University
+
+Watch a video of a woman who is paralyzed moving a robot with her mind at youtu.be/ogBX18maUiM.
+
+Brain–computer interfaces have also been developed for entertainment purposes, in particular, to control various games. For example, Brainball was developed as a game to be controlled by players’ brain waves in which they compete to control a ball’s movement across a table by becoming more relaxed and focused. Other possibilities include controlling a robot and being able to fly a virtual plane. Another development in the fields of neuroscience and bioengineering is to transfer neural signals from one person’s brain to another. This is called a brain-to-brain interface (BBI). Xiao Fang and colleagues (2021) have been exploring how this  way  of transferring  information  from  one  brain  to  another  could  be  used  in  playful experiences. To this end, they have developed a wearable headset that collects EEG data from one person’s brain that they then label and categorize into various states, before delivering it to another person’s brain, via a form of brain stimulation. The brain states are categorized
+
+as “concentrating,” “focused,” “motor activity,” “stressed,” “excited,” “relaxed,” or “bored.” The goal is to see if they can literally transfer one person’s state of mind to someone else. If the  system detects, for example, that one person has a high level of concentration, it stimulates a specific part of another person’s cortex to try to increase their level of focused attention. Do you think this is possible and ethical?
+
+To test this, Fang et al. ran a user study, where groups of three  participants were asked to play a card game together, wearing the BBI  system headsets that were all connected. They found that the participants would try to guess the cards each other had on receiving electrical stimulation  via the BBI. It was not clear whether they could change the  state of each other’s brains, but the study findings suggested that this kind of playful mind guessing can add a whole new dimension to playing games. Other researchers are also trying to develop technology that can read people’s minds. Neuralink, for example, is in the business of developing implantable brain–computer interfaces, with the goal of being able to determine what people are thinking.
+
+![](images/29846dd645946932c5a4bbf15111574a17784032cc619b5e597c1f7fcfe25f50.jpg)
+
+Source: Tim Cordell / Cartoon Stock
+---
+Node: 7.2.20  Smart Interfaces
+Primary concept extracted from chunk
+# 7.2.20  Smart Interfaces
+
+The  motivation  for many  new  technologies  is  to make them  smart, whether  it  is  a smartphone,  smartwatch,  smart  building,  smart  home,  or  smart  appliance  (for  example  smart lighting, smart speakers, or virtual assistants). The adjective is often used to suggest that the device has some intelligence and it is connected to the Internet. More generally, smart devices are designed to interact with other devices connected to a network, many of which are automated (Silverio-Fernández et al., 2018). The goal is to make them context-aware, that is, to understand what is happening around them and execute appropriate actions. To achieve this, some have been programmed with AI so that they can learn the context and a person’s behavior. Using  this intelligence, they  then  change  settings  or  switch  things  on  according to the person’s assumed preferences. An example is the smart Nest thermostat that was designed to learn from a householder’s behavior.
+
+Smart buildings have been designed to be more energy efficient and cost effective. Architects are motivated to use state-of-the-art sensor technology to control building systems, such as ventilation, lighting, security, and heating. Often, the inhabitants of such buildings are considered to be the ones at fault for wasting energy, as they may leave the lights and heating on overnight when not needed, or they forget to lock a door or window. One benefit of having automated systems take control of building services is to reduce these  kinds of human errors—a phrase often used by engineers is to take the human “out of the loop.”While some smart buildings and homes have improved how they are managed and cut costs, they can also be frustrating to the inhabitants, who sometimes would like to be able to open a window to let fresh air in or raise a blind to let in natural lighting. Taking the human out of the loop means that these operations are no longer available. Windows are locked or sealed, and heating is controlled centrally.
+
+Instead  of simply  introducing  ever  more  automation that takes  the human  out  of the loop further, an alternative perspective is to consider the needs of the inhabitants in conjunction with introducing smart technology.
+---
+Node: 7.2.21  Shape Changing Interfaces
+Primary concept extracted from chunk
+# 7.2.21  Shape Changing Interfaces
+
+Shape-changing interfaces employ physical shape  change as input  and  output to systems. A well-known example is a physical 3D bar chart that is positioned in a grid where a matrix of 3D rods move up and down to convey changes in a digital dataset. This type of dynamic physical representation has been found to help people with visualization tasks, including annotation, filtering, organization, and navigation (Alexander et al., 2018). Shape-changing interfaces have also been developed as a form of dynamic  material to explore novel interaction possibilities. Figure 7.34, for example, has been programmed using inFORM to show the shape of a car that can be felt by placing a hand over it. These kinds of shape-changing interfaces provide a different way of interacting with content compared with reading and touching digital displays.
+
+Figure 7.34 inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group   
+![](images/5625ae9f74843599a4549f1f4cfeff4fef38a3f768380c0ad010ca9dfcb3ecff.jpg)  
+Source: trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676
+
+Other examples of shape-changing interfaces include data sculptures, tactile cartographic maps,  and “physicalizations.” The  last  of  these  are  physical artifacts  that  are  designed  to encode data in specific materials. An example is Physikit (Houben et al., 2016), which is a physical-digital system comprising a set of physical cubes that convey digital properties and are programmed  to visualize  real-time environmental  data  in the  home, such as  moisture, $\mathrm { C O } _ { 2 }$ , or light levels. An example PhysiCube called PhysiMove has a rotating disk on the top of it that moves clockwise or counterclockwise, depending on the kind of data it receives as input. The  main  benefits of using  these kinds of physical instantiations  of data is  to make the data  more accessible and to enable people  to more readily connect with the context in which the data is being collected or is changing over time (Sauvé et al, 2022). For example, the PhysiCubes are intended to be located in a home setting, such as the living room, which helps with the  interpretation of  the data. Imagine a group  of people  is sitting in  the living room one evening watching the cup final on TV and halfway through the game a house plant based on the PhysiCube disk starts moving clockwise much more rapidly. This indicates high levels of carbon dioxide have been detected. The people in the room can then work out from the context that it is not that the game is boring, causing them to yawn, but that the spike in the $\mathrm { C O } _ { 2 }$ level data is caused by them cheering a lot and, in so doing, exhaling more.
+---
+Node: 7.2.22  Holographic Interfaces
+Primary concept extracted from chunk
+# 7.2.22  Holographic Interfaces
+
+Holographic interfaces try to create the illusion of a 3D person being present through taking advantage of the human perceptual system. Advances in projection and display technology have enabled these kinds of digital representations to appear quite convincing. For example, David Nussbaum’s Proto system (see Box 5.4 in Chapter 5) is an innovative form of this kind of “holographic” illusion. The Proto system lets people beam themselves to a remote location and interact with the people there.
+
+Another  form  of  perceptual illusion that makes  virtual avatars appear as  if they  were real  was created  for the  UK  show  Abba Voyage, first  launched in  2022. The  virtual concerts feature avatars (dubbed “ABBAtars”), depicting  the group  as they appeared  in 1977.
+
+The technology used includes three 65-million-pixel screens (massive flat displays that make the  images  projected  look  as  if  they  were  real)  and  motion-capture  technology  (see  Figure 7.35). Many people who have gone to the show are completely blown over by how lifelike they appear.
+
+![](images/a437b6b36b3cbcabaf9597769e0ec8e1f172b4d6f5224cf1554e657856276116.jpg)  
+Figure 7.35 An infographic showing how avatars of the band ABBA were created Source: www.graphicnews.com/en/pages/38425/entertainment-abbas-mysterious-abbatars-revealed-1

@@ -1,0 +1,219 @@
+Node: 1.3  Switching to Digital
+Primary concept extracted from chunk
+# 1.3  Switching to Digital
+
+Many activities that used to be done via a physical artifact have gone digital. Instead of walking up to a machine and buying a ticket or an ATM to withdraw cash, many of us now do such transactions digitally using an app on our smartphone or tablet. Mostly, this has made the tasks easier, quicker, and more convenient. An example is being able to pay for parking via a mobile phone app. Twentieth-century parking meters required drivers to insert coins to rent a parking
+
+space, which meant drivers who didn’t have the correct coins couldn’t legally park. Now, instead of fumbling around trying to find the right change for the time wanted and slotting this into a physical meter, we can fill in an online form in advance with our details and then pay each time we want to park using a credit card or digital pay app. Our details can then be stored ready for the next time we need to pay for parking, meaning even fewer steps to complete subsequently (see Figure 1.3). It just needs us to type in the parking location number where we plan to park, and the rest is filled in for us by the app. Some apps will even notify us on our phone when the time we have paid for is nearly up, asking if we would like to add time. All we need to do is press a button from our phone. Not only does this form of digital prompting prevent us from risking a fine if we exceed the time limit, but it also provides more revenue for the parking company!
+
+![](images/1883612f22688dc96105f79380806a40e3599256978fb8a169c5ebbe45f26c90.jpg)  
+Figure 1.3  The  form used for a parking app in the United Kingdom. It takes five seconds to complete and can be done while sitting in the car.
+
+Many  previous  physical  transactions  have  been  digitalized  like  this.  Other  examples include buying tickets from an entertainment site (e.g., a movie, a concert, a play) or booking a ticket to go somewhere (e.g., a train, a bus, an airline). An added benefit is not having to wait in line before being able to buy a physical ticket. The customer can also check various
+
+preferences for which kind of ticket they want, which can all be stored and accessed again at a later date. Furthermore, a QR or barcode is usually part of the digital ticket, making it easy to gain entrance through the ticket barrier by swiping their smartphone or watch across it. Another  advantage of booking tickets online is  having the option of choosing where to sit  and, in some situations, ordering  food or  drinks in advance. Digital tickets  can  also  be stored in digital wallets, which keep a record of all the digital tickets someone has bought.
+
+There are, however, disadvantages of switching over to digital. First, it requires a person to possess a smartphone that is capable of downloading and storing the digital tickets. Second, some people still prefer to use older phones, which the apps won’t work on, while others prefer to have paper-based tickets. Third, it can also be stressful and cumbersome to some people— especially if they do not have much battery power left on their phone or they need to fumble around trying to find their glasses to see the apps on their phone. There is of course the option of printing out a digital ticket onto paper, but that assumes someone has access to a printer. A further problem is if the person is entitled to a discount (e.g., student, senior, disabled), it may require them to show a card in person to the ticket collector, which can mean having to switch between apps, which can be cumbersome. People who are disabled using certain assistive technologies might be unable to use a digital ticket, which could lead to legal and ethical issues as well as emotional distress. Another disadvantage is that some people don’t like to divulge their personal details online and would prefer to buy a ticket anonymously and pay by cash.
+---
+Node: 1.4 What to Design
+Primary concept extracted from chunk
+# 1.4 What to Design
+
+Designing interactive products requires considering who is going to be using them, how they are going to be used, and when and where they are going to be used. Another key concern is to understand the kind of activities people are doing when interacting with these products. The appropriateness of different kinds of interfaces and arrangements of input and output devices depends on what kinds of activities are to be supported. For example, if the activity is to enable people to bank online, then an interface that is secure, trustworthy, and easy to navigate is essential. In addition, an interface that allows a customer to find out information about new services offered by their bank without it being intrusive would be useful.
+
+There are many types of interfaces and interactive devices available now, including multitouch displays, speech-based systems, mobile devices, and wearables. There are also many ways  of designing  how  people can  interact with  them, for instance, via the use  of  menus, commands, forms, icons,  gestures, and so  on. Ever  more innovative  everyday artifacts are being created using novel materials, such as e-textiles. Wearable glasses that look like fashionable shades have also started to appear, such as Snap Spectacles, that let the wearer experience augmented reality (see Figure 1.4).
+
+The interfaces for everyday consumer items, such as cameras, microwave ovens, toasters, and washing machines, have become  predominantly digitally-based.  Self-checkouts at  grocery stores and libraries have become the norm, where customers check out their own goods or books  themselves, and at airports,  where passengers check  in their own  luggage. More recently, smart supermarkets have appeared that do not require the shopper to even have to check out the goods they want to purchase. A sophisticated network of AI-enabled cameras in the  ceiling, together with  shelves  embedded with  weight  sensors, can determine what  a customer picks up and puts in their bag/pocket, billing them as soon as they leave the store.
+
+The smarts are in how the computer vision, sensor fusion, and deep learning are combined to track customers and what they took from or replaced on a shelf. Amazon Go pioneered this type of store, with other supermarkets now testing their own versions.
+
+![](images/f811ce31909b7440197f7bfb522802db4090d7e6276557e3267de4b4ea009bdd.jpg)
+
+Figure 1.4  The digital world overlaying the physical experienced when wearing Snap AR Spectacles   
+![](images/e7ec5f6e828619428b190a3085feff758ed0e19e902bbb6c10b2d12939876712.jpg)  
+Source: www.techeblog.com/new-snapchat-spectacles-augmented-reality
+
+The advent of the Internet of Things (IoT), where data is collected from sensors and travels via the Internet to other devices, has been embedded into several of our household products. For example, a popular household IoT-enabled product is home security, where people can keep an eye on their home from the data relayed to their smartphone via a combination of sensors placed in their home. These include motion detectors, glass breaking detectors, and smart object detectors. A video camera can be attached to someone’s doorbell  and relayed to a smartphone app so the owner can check up on who has rung it—even though they may be  on vacation.  Some  home-based security  cameras  also use  machine  learning that  recognizes whether an intruder is trying to break into the house through using facial recognition. Machine learning is also being used in a range of other home-based products, such as automated thermostats  like the Nest, which optimizes the temperature settings for a household where the algorithms analyze its energy consumption over time.
+
+A key question for interaction design is this: “How do you optimize a person’s interactions with a system, environment, or product so that they support their activities in effective, useful, usable, and pleasurable ways?” Another question that is of growing concern to interaction design is how safe and private is the data being collected? Many decisions need to be made based on an understanding of people including the following:
+
+Considering what people are good and bad at   
+. Considering what might help people with the way they currently do things   
+. Thinking through what might provide quality experiences
+
+• Considering a person’s privacy concerns if data is being collected about them   
+Listening to what people want and getting them involved in the design   
+Using people-centered techniques during the design process
+
+The  aim  of this  book  is  to  cover  these  aspects  with the  goal  of showing  you how  to carry out interaction design. In particular, it focuses on how to identify a user’s needs and the context of their activities. From this understanding, we move on to consider how to design usable, useful, safe, and pleasurable interactive products.
+---
+Node: 1.5 What Is Interaction Design?
+Primary concept extracted from chunk
+# 1.5 What Is Interaction Design?
+
+By interaction design, we mean the following: designing interactive products to support the way people communicate and interact in their everyday and working lives. Put another way, it is about creating experiences that enhance and augment the way people work, communicate, and interact. More generally, Terry Winograd originally described it as “designing spaces for human communication and interaction” (1997, p. 160).
+---
+Node: BOX 1.2
+Primary concept extracted from chunk
+# BOX 1.2
+
+Is Interaction Design Beyond HCI?
+
+We see the main difference between interaction design (ID) and human-computer interaction as one of scope. Historically, HCI had a narrow focus on the design and usability of computing systems, while  ID was  seen as being broader, concerned  with the theory, research, and practice of designing user experiences for all manner of technologies, systems, and products. That is one of the reasons why we chose to call our book Interaction Design: Beyond Human-Computer Interaction, to reflect this wider range.
+---
+Node: 1.5.1  The Components of Interaction Design
+Primary concept extracted from chunk
+# 1.5.1  The Components of Interaction Design
+
+We view interaction design as fundamental to many disciplines, fields, and approaches that are concerned with researching and designing computer-based systems for people. Figure 1.5 presents  the  core  ones  along  with  interdisciplinary  fields  that  comprise  one  or  more  of these, such as cognitive ergonomics. It can be confusing to try to work out the differences between them as  many overlap. The main differences between interaction design and the other approaches  referred to in the figure come largely down to which methods, philosophies, and lenses they use to study, analyze, and design products. Another way they vary is in terms of the scope and problems they address. For example, information systems is concerned with the application of computing technology in domains such as business, health, and education, whereas ubiquitous computing is concerned with the design, development, and  deployment  of  pervasive  computing  technologies  (for  example,  IoT)  and  how they facilitate social interactions and human experiences.
+
+![](images/e228b60bacfbe343af2d53200a4b83228ae0eede7af861d27dd423c86c086c13.jpg)  
+Figure 1.5  Relationship among contributing academic disciplines, design practices, and interdisciplinary fields concerned with interaction design (double-headed arrows mean overlapping)
+---
+Node: 12.6  Construction
+Primary concept extracted from chunk
+# 12.6  Construction
+
+As prototyping and building alternatives progresses, development will focus on higher-fidelity prototypes and  developing the final product. This  is  facilitated by  putting together readymade components, such as a set of alarms, sensors, and lights to make a physical product, or code libraries to generate a piece of software, or both. Whatever the final form, it is unlikely that anything will need to be developed from scratch, as there are many useful (in some cases essential) resources to support development. Here we introduce two kinds of resources: physical computing kits and software development kits (SDKs).
+---
+Node: 12.6.1  Physical Computing
+Primary concept extracted from chunk
+# 12.6.1  Physical Computing
+
+Physical computing is concerned with how to build and code prototypes and devices using electronics. Specifically, it is the activity of “creating physical artifacts and giving them behaviors through a combination of building with physical materials, computer programming, and circuit  building” (Gubbels and Froehlich, 2014). Typically, it involves designing things using a printed circuit board (PCB), sensors  (for instance push buttons, accelerometers,  infrared,  or temperature  sensors) to detect states, and output devices (such as displays, motors, or buzzers) that cause some effect.
+
+A number of physical computing toolkits have been developed for educational and prototyping purposes. One of the earliest was Arduino (see Banzi, 2009). The goal was to enable artists and designers to learn how to make and code physical prototypes using electronics in a couple of days, having attended a workshop. The toolkit is  composed of two main parts: the Arduino board  (see Figure 12.19), which is the piece of hardware that is used to build objects,  and  the Arduino  integrated  development  environment  (IDE), which  is  a  piece  of software that makes it easy to program and upload a sketch (Arduino’s name for a unit of code) to the board. A starter kit for Arduino typically includes various lights and sensors too.
+
+The Arduino board is a small circuit that contains a tiny chip (the microcontroller). It has two rows of small electrical “sockets” that allow sensors and actuators  to be connected to its input and output pins. Sketches are written in the IDE using a simple processing language and then  translated into the $\mathrm { C } + +$ programming  language and  uploaded to the board. The Arduino board has been used in a multitude of projects around the world, and at the end of 2021, ten million of them  had been sold. Example products  made with Arduino include a plant watering system, a basement flood alert, light switches for remote or contactless operation, and even a robot bartender (see instructables.com).
+
+Other toolkits have been developed from the basic Arduino kit. The most well-known is the LilyPad, which was co-developed by Leah Beuchley (see Figure 12.20 and her interview at the end of Chapter 7). LilyPad is a set of sewable electronic components for building fashionable clothing and other textiles. Other kits have been developed from these including for a smart home, various domestic and fun robots, and a range of educational projects. Starter packs are readily available for all of these Arduino-based toolkits.
+
+Magic Cubes is a novel toolkit that is assembled from six sides that are slotted together to become an interactive cube that lights up in different colors, depending on how vigorously it is shaken. Intended to encourage children to learn, share, and fire their imagination to come up with new games and other uses, see it in action at uclmagiccube.weebly.com/video.html.
+
+Figure 12.19  The Arduino board   
+![](images/6bdaed3dc5091f4406b2ebd0f14c5893e5308d386d532f840739ae4090e8c895.jpg)  
+Source: Courtesy of Dr Nicolai Marquardt
+
+Figure 12.20  The Lilypad Arduino kit   
+![](images/262a716bbe68c2aca4357c1b64fafde76b310aae38d65b15985feb83eca98edd.jpg)  
+Source: Courtesy of Leah Beuchley
+
+Other kinds of easy-to-use and quick-to-get-started physical toolkits, intended to provide new  opportunities  for  people to be inventive and  creative, include electronics  kits (sphero .com), Raspberry Pi (www.raspberrypi.org), and Makey Makey (makeymakey.com).
+
+Another  popular  physical  computing  system  is  the  BBC  micro:bit  (microbit.org;  see Figure 12.21). Like Arduino, the micro:bit  toolkit consists  of a physical  computing device that is used in conjunction with an IDE. However, unlike Arduino, the micro:bit board contains  a number of built-in sensors and a small display so that  it is possible to create simple physical computing systems without attaching any components or wires. If desired, external components can still be added, but rather than the small electrical sockets of the Arduino, the micro:bit has an “edge connector” for this purpose. This is formed from a row of connection points that run along one edge of the device and allow it to be “plugged into” a range of accessories including larger displays, Xbox-style game controllers, and small robots. The micro:bit IDE, which runs in a web browser with no installation or setup process, supports a graphical programming  experience based on visual “blocks” of code alongside text-based editing
+
+using a variant of JavaScript. This means that the micro:bit provides a great experience for young students and other beginner programmers, while also supporting more sophisticated programming. As a result, micro:bit has been widely adopted in schools around the world.
+
+Figure 12.21  The BBC micro:bit   
+![](images/b7d9f545b0dffd4c18a4646d1af959deff94e726606162b84b9b1b4f81c172a8.jpg)  
+Source: Used Courtesy of Micro:bit Foundation
+
+Physical  toolkits  are  readily  available  and  have  a  wide use  and  appeal. For  example, Wenn-Chieh Tsai et al. (2020) have developed a kit for use by IoT practitioners to investigate alternatives for emerging technologies, and Lee Jones et al. (2020) have developed a toolkit for  prototyping  e-textile  wearables. Toolkits are  often  used  by  children,  or  students  in  a formal educational setting, or by designers to enable them to start creating small electronic gadgets  and  digital tools. They  also  have a key  role  in widening  access  for  people to create useful and interesting projects and by engaging in the maker movement (see Box 12.6). Melissa Escamilla Perez et al. (2020) emphasize the benefits and opportunities for engaging families in play and collaboration through intergenerational making. They worked with five adults and seven children between 2 and 10 years old to identify the kind of interactions that take place while creating a personalized game.
+---
+Node: The Maker Movement
+Primary concept extracted from chunk
+# The Maker Movement
+
+The maker movement emerged in the mid-2000s. Following in the footsteps of the personal computer revolution and  the  Internet,  some viewed it as the  next big  transformation that would modernize manufacturing and production (Hatch, 2014). Whereas the explosion of the web was all about what could be done virtually, with a proliferation of apps, social media, and services, the maker movement has transformed how people make, buy, consume, and recycle
+
+physical things, from houses to clothes and food to bicycles. At its core is a desire to collaboratively craft physical things using a diversity of machines, tools, and methods.
+
+There  have always been hobbyists  making radios,  clocks, and  other  devices, but  the Maker Movement is very much about opening up the world of “making” to many more people. The availability of affordable, powerful, and easy-to-use tools, coupled with a renewed focus  on locally  sourced products and  community-based  activities, has  fueled this interest and made the movement feasible. The growing network of Fablabs (fabrication laboratories) and makerspaces has enabled the maker movement to become widespread and popularized worldwide.
+
+For example, in 2022, there were more than 2,000 Fablabs in more than 120 countries (www.fablabs.io), an annual Fablab conference, and many resources online to learn and share. A Fablab offers access to electronics and manufacturing  equipment, including 3D printers, CNC milling machines, and laser cutters, and supports the sharing of knowledge and designs across borders and communities. Smaller makerspaces have also been established across the world, from Shanghai to rural India, again sharing  production facilities for  all  to use  and make. While some are small, for example sharing the use of a 3D printer, others are much larger and  well resourced, offering an array  of manufacturing  machines, tools, and  workspaces to make in.
+
+The availability of e-textile kits has broadened the maker movement to include activities to build and program e-textiles using sewing machines and electronic thread. E-textiles comprise fabrics that are embedded with electronics, such as sensors, LEDs, and motors that are stitched together using conductive thread and conductive fabrics (Buechley and Qiu, 2014). Other e-textiles include interactive soft toys, wallpaper that sings when touched, and fashion clothing that reacts to the environment or events.
+
+A central part of the maker movement involves tinkering (as discussed in section 12.2.4) and the sharing of knowledge, skills, know-how, and what you have made. The Instructables .com website  is for  anyone to explore, document, and  share  their  creations. Browse the Instructables website to see just how many different projects there are. How many of them are a combination of electronics, physical materials, and pure invention? Are they fun, useful, or “gadgety”? How are they presented? Do they inspire you to make?
+
+Another site, etsy.com, is an online marketplace for people who make things to sell their crafts and other handmade items. It is designed to be easy for makers to use and to sell their goods across the world. Unlike corporate online sites, such as Amazon or eBay, Etsy is a place for craft makers to reach out to others and to show off their wares in ways that they feel best fit what they have made.
+
+In essence, the Maker Movement aims to open up DIY making to the public and, in doing so, massively increase who can take part and how it is shared (Anderson, 2013). In his interview at the end of this chapter, Jon Froehlich explains more about the maker movement.
+---
+Node: 12.6.2  SDKs: Software Development Kits
+Primary concept extracted from chunk
+# 12.6.2  SDKs: Software Development Kits
+
+A  software development kit is  a package of programming  tools and components  that supports the development of applications for a specific platform, for example, for iOS on iPhone and iPad and for Android on mobile phone and tablet apps. Typically, an SDK includes an
+
+integrated  development  environment,  documentation,  drivers,  and  sample  programming code to illustrate how to use the SDK components. Some also include icons and buttons that can easily be incorporated into the design. While it is possible to develop applications without using an SDK, it is much easier using such a powerful resource, and so much more can be achieved.
+
+For example, the availability of Amazon’s Alexa Skills SDK has facilitated the exploration and  development  of  a  range of  applications  for voice  interfaces, including  education (Melton and Fenwick, 2019), mental health (Quiroz et al., 2020), and fitness tracking (Luo et al., 2020).
+
+An  SDK  will  include  a  set  of  application  programming  interfaces  (APIs)  that  allows control of  the components  without  the developer needing  to  know the intricacies  of how they work. In some cases, access to the API alone is sufficient to allow significant work to be undertaken, for instance, Eiji Hayashi et al. (2014) only needed access to the APIs. The difference between APIs and SDKs is explained in Box 12.7.
+
+See the following websites to learn more about SDKs and their use:
+
+Building voice-based services with Amazon’s Alexa Skills Kit:
+
+developer.amazon.com/alexa-skills-kit.
+
+Constructing augmented reality experiences with Apple’s ARKit:
+
+developer.apple.com/arkit.
+---
+Node: APIs and SDKs
+Primary concept extracted from chunk
+# APIs and SDKs
+
+SDKs consist of a set of programming tools and components, while an API is the set of inputs and outputs, that is, the technical interface to those components. To explain this further, an API allows different-shaped building blocks of a child’s puzzle to be joined together, while an SDK provides a workshop where all of the development tools are available to create whatever size and shape blocks you desire, rather than using preshaped building blocks. An API therefore allows the use of pre-existing building blocks, while an SDK removes this restriction and allows new blocks to be created or even to build something without blocks at all. An SDK for any platform will include all of the relevant APIs, but it adds programming tools, documentation, and other development support as well.
+---
+Node: chapter 29 References chunk 000 References 19
+Primary concept extracted from chunk
+Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, Article 245, pp. 1–7.   
+Gunther, V. A., Burns, D. J., and Payne, D. J. (1986) Text Editing Performance as a Function of Training with Command Terms of Differing Lengths and Frequencies, SIGCHI Bulletin, 18, 57–59.   
+Hallewell,  M.  J.,  Hughes,  N.,  Large,  D.  R.,  Harvey,  C., Springthorpe,  J.,  and  Burnett,  G. (2022)  Deriving  Personas  to  Inform  HMI  Design  for  Future Autonomous  Taxis: A  Case Study on User Requirement Elicitation, Journal of Usability Studies, 17(2), 41–64.   
+Hampton, K., and Wellman, B. (2003) Neighboring in Netville: How the Internet Supports Community and Social Capital in a Wired Suburb. City and Community, 2(4), 277–311.   
+Han, J., Xia, T.,  Spathis, D., Bondareva, E., Brown, C., Chauhan, J., Dang, T., Grammenos, A., Hasthanasombat, A., Floto, A., Cicuta, P., and Mascolo, C. (2022) Sounds of COVID-19: exploring realistic performance of audio-based digital testing, npj Digit. Med., 5, Article 16. Handel, D., Hochman, J., and Santo, D. (2015) Visualizing Teacher Tweets: Finding  Professional Learning Networks in Topical Networks. ASIST, 2015, 1–3.   
+Hansen, D., Shneiderman, B., Smith, M. A., and Himelboim, I. (2019) Analyzing Social Media Networks with NodeXL: Insights from a Connected World. 2 nd  edition. Elsevier Publishers.   
+Hansen, D.  L., and Smith, M. A. (2014) Social Network Analysis in HCI. In J. Olson and W. Kellogg (eds.) Ways of Knowing in HCI. Springer, New York, NY. pp. 421–447.   
+Harari, G. M., Gosling, S. D., Wang, R., Chen, F., Chen, Z., and Campbell, A. T. (2017) Patterns of Behavior Change in Students Over an Academic Term: A Preliminary Study of Activity  and  Sociability  Behaviors  Using  Smartphone  Sensing  Methods,  Computers  in  Human Behavior, 67, 129–138.   
+Harjuniemi E., and Häkkilä, J. (2018) Smart Handbag for Remembering Keys. In Proceedings of the 22nd International Academic Mindtrek Conference (MindTrek 2018). New York, NY: ACM Press, pp. 244–247.   
+Harley, A. (2018a) Visibility of System Status. Downloaded from www.nngroup.com/articles/ visibility-system-status.   
+Harley,  A.  (2018b)  UX  Guidelines  for  Ecommerce  Homepages,  Category  Pages, and  Product  Listing  Pages.  Downloaded  from  www.nngroup.com/articles/ ecommerce-homepages-listing-pages.   
+Harley,  A.  (2018c)  UX  Expert  Reviews:  Downloaded  from  www.nngroup.com/articles/ ux-expert-reviews.   
+Harman, M., Jia, Y., and  Zhang, Y.  (2012) App  Store Mining and Analysis: MSR  for App Stores. In Proceedings of the 9th IEEE Working Conference on Mining Software Repositories (MSR 12),108–111.   
+Harper, R., Rodden, T., Rogers, Y., and Sellen, A. (2008) Being Human: HCI in the Year 2020. Microsoft (free copies from research.microsoft.com/en-us/um/cambridge/projects/hci2020).   
+Harrington, C., Erete, S., and Piper, A. M. (2019) Deconstructing Community-Based Collaborative Design: Towards More Equitable Participatory Design Engagements. In Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 216, 25 pages.   
+Hart,  S. G., and  Staveland,  L. E. (1988)  Development  of  NASA-TLX  (Task  Load  Index): results of empirical and theoretical research. Adv. Psychol. 52, 139–183.
+---
+Node: chapter 29 References chunk 000 References 2
+Primary concept extracted from chunk
+Albastaki, A., Robinson, F.  A., Hoggenmueller, M., and Hespanhol, L. (2020) Augmenting Remote  Interviews  through Virtual  Experience  Prototypes.  In Proceedings  of  OzCHI  ’20, Sydney, NSW, Australia, pp. 78–86.   
+Alexander, C. (1979) A Pattern Language: Towns, Buildings, Construction. Oxford University Press, UK.   
+Alexander, J., Roudaut, A., Steimle, J., Hornbæk, K., Alonso, M. B., Follmer, S., and Merritt, T. (2018) Grand Challenges in Shape-Changing Interface Research. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI ’18). ACM, New York, NY, USA, Paper 299, 1–14.   
+Alharthi, S. A., Alsaedi, O., Toups, Z. O., Tanenbaum, T. J., and Hammer, J. (2018) Playing to Wait: A Taxonomy of Idle Games. In Proceedings of CHI 2018, Paper 621, pp. 1–15.   
+Al-Humairi, A., Al-Kindi,  O.,  and  Jabeur,  N.  (2018)  Automated  Musical  Instruments.  In Proceedings  of  ICMRE  2018  Proceedings  of  the  2018  4th  International  Conference  on Mechatronics and Robotics Engineering, pp. 163–169.   
+Ali,  A.,  Morris,  M.,  and  Wobbrock,  J. (2021)  Distributed  interaction  design:  Designing human-centered interactions in a time of social distancing. Interactions, XXVIII.2 April 2021.   
+Ali, A. X., Morris, M. R., and Wobbrock, J. O.  (2019) Crowdlicit: A system for conducting distributed end-user elicitation and identification studies. In Proc. of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, New York, Paper 255, pp. 1–12.   
+Ali,  R.,  Arden-Close,  E.,  and  McAlaney,  J. (2018)  Digital  Addiction:  How  Technology  Keeps  Us  Hooked.  The  Conversation.  Downloaded  from  theconversation.com/ digital-addiction-how-technology-keeps-us-hooked-97499.   
+Allanwood, G., and Beare, P.  (2014) User Experience Design. Fairchild Books.   
+Allison, D., Wills, B., Bowman, D., Wineman, J., and Hodges, L. (1997) The Virtual Reality Gorilla Exhibit, IEEE Computer Graphics and Applications, 30–38.   
+Alqaraawi, A., Schuessler, M., Weiß, P., Costanza, E., and Berthouze, N. (2020) Evaluating saliency map explanations for convolutional neural networks: a user study. In Proceedings of the 25th International Conference on Intelligent User Interfaces (IUI ’20). ACM, NY. 275–285.   
+Amabile, T., Hadley, C. N., and Kramer, S. J. (2002) Creativity under the gun, Harvard Business Review, 80, 52–63.   
+Amershi, A., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B., Collisson, P.,  Suh, J., Iqbal, S., Bennett, P.N., Inkpen, K., Teevan, J., Kikin-Gil, R., and Horvitz. E. (2019) Guidelines for Human-AI Interaction. In Proc. CHI ’19. ACM, NY Paper 3, 1–13.   
+Anderson, C. (2013) Makers. Random House Business Books.   
+Anderson, D. J. (2010) Kanban: Successful Evolutionary Change for Your Technology Business. Blue Hole Press.   
+Angrave, J. (2020) The Journey Mapping Playbook. DeGruyter.   
+Antle, A. N., Corness, G., and Droumeva, M. (2009) Human–Computer-Intuition? Exploring the Cognitive Basis for Intuition in Embodied Interaction. International Journal of Arts and Technology, 2, 3, 235–254.   
+Ardito,  C.,  Buono,  P.,  Costabile,  D.  C.  M.  F.,  and  Lanzilotti,  R.  (2014)  Investigating  and Promoting UX Practice in Industry: An Experimental Study. International Journal of Human-Computer Studies, 72, 542–551.
+---
+Node: chapter 29 References chunk 000 References 20
+Primary concept extracted from chunk
+Hartson, H.R., Castillo, J.C., Kelso, J., and Neale, W. C. (1996) Remote evaluation: the network as an extension of the usability laboratory. In Proceedings of CHI ’96 Conference on Human Factors in Computing Systems, pp. 228–235.   
+Hartson, H. R., and Hix, D. (1989) Toward Empirically Derived Methodologies and Tools for Human–Computer Interface Development, International Journal of Man–Machine Studies, 31, 477–494.   
+Hatch, M. (2014) The Maker Movement Manifesto. McGraw Hill.   
+Hassenzahl, M., Burmester, M., and Koller, F.  (2021) User Experience Is All There Is: Twenty Years of Designing Positive Experiences and Meaningful Technology, i-com, 20 (3), 197–213. Hayashi, E., Maas, M., and Hong, J. I. (2014) Wave to Me: User Identification  Using Body Lengths and Natural Gestures, In Proceedings of CHI 14, pp. 3453–3462.   
+Hayes, G. R. (2011) The Relationship of Action Research to Human-Computer Interaction. ACM Transactions on Human-Computer Interaction, 18(3), Article 15, 20 pages.   
+Hazas, M., Bernheim Brush, A. J., and Scott, J. (2012) Sustainability Does not Begin with the Individual, Interactions, 19(5), 14–17.   
+Hazlewood, W., Dalton, N. S., Rogers, Y., Marshall, P., and Hertrich, S. (2010) Bricolage and Consultation: A Case Study to Inform the Development of Large-Scale Prototypes for HCI Research. In Proceedings of Designing Interactive Systems, DIS 2010. ACM, New York, NY, pp. 380–388.   
+Heath, C., and  Luff, P.  (1992) Collaboration and  Control: Crisis Management and Multimedia Technology in  London Underground Line  Control Rooms. In Computer  Supported Cooperative Work, 1(1&2), 69–94.   
+Heath, C., Hindmarsh, J., and Luff, P. (2010) Video in Qualitative Research. SAGE.   
+Heer, J., and  Bostock, M. (2010)  Crowdsourcing Graphical  Perception: Using  Mechanical Turk to Assess Visualization  Design. In  Proceedings  of CHI  2010. ACM, New  York, NY, pp. 203–212.   
+Hektner, J. M., Schmidt, J. A., and Csikszentmihalyi, M. (2006) Experience Sampling Method: Measuring the Quality of Everyday Life. SAGE.   
+Hendriks-Jansen,  H.  (1996)  Catching  Ourselves  in  the  Act:  Situated  Activity,  Interactive Emergence, Evolution, and Human Thought. MIT Press, Cambridge, MA.   
+Henkel, L. A. (2014) Point-and-Shoot Memories The Influence of Taking Photos on Memory for a Museum Tour. Psychological science, 25(2), 396–402.   
+Herodotou, C., Rienties, B., Hlosta, M., Boroowa, A., Mangafa, C., and Zdrahal, S. (2020) The scalable implementation of predictive learning analytics at a distance learning university: Insights from a longitudinal case study, Internet and Higher Education, 45, Article 100725.   
+Hicks, J. (2012) The Icon Handbook. Five Simple Steps Publishing Ltd.   
+Hill,  K.  (2020)  The  Secretive  Company  That  Might  End  Privacy  as  We Know  It. The  New  York Times  (Jan.  2020).  www.nytimes.com/2020/01/18/technology/ clearview-privacy-facial-recognition.html.   
+Himmelsbach, J., Schwarz, S., Gerdenitsch, C., Wais-Zechmann, B., Bobeth, J., and Tscheligi, T.  (2019) Do We Care About Diversity in Human Computer Interaction: A Comprehensive Content Analysis on Diversity Dimensions in Research. In Proceedings of CHI 2019, Article 490, pp. 1–16.

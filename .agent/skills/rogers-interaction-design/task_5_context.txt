@@ -1,0 +1,132 @@
+Node: ACTIVITY 1.1
+Primary concept extracted from chunk
+# ACTIVITY 1.1
+
+Since we first  created Figure 1.5, many other  computer-related fields have emerged where the user is considered central. These  include cybersecurity, digital  humanities, data science, and digital healthcare. For some fields, there has also been a shift toward being more peopleoriented, for example, human-centered AI. Would it make sense to add these, and, if so, how?
+---
+Node: ACTIVITY 11.2
+Primary concept extracted from chunk
+# ACTIVITY 11.2
+
+How  does contextual inquiry  compare  with the  data gathering  techniques introduced in Chapter 8, specifically ethnography and interviews?
+---
+Node: Young traveler
+Primary concept extracted from chunk
+# Young traveler
+
+![](images/2a0d4f84b32adcda02cc54ede444723c6b5ee0a3fb3a3fb177e9706003dc71de.jpg)
+
+![](images/f51602c4a132121fb026e589ee9386afb796c027c9f19cbccf31f3d3d542b30d.jpg)
+
+Energetic
+
+Ingulsitive
+
+Lkes noading
+
+#
+
+#
+
+#
+
+#
+
+![](images/f21a03df22e6a17eb962bfcdf9e42f7521be5ccadf3fd5a189bc63c2d5eb9dde.jpg)
+
+#
+
+![](images/4b96537e92ea26ec3308a4aaadccd23a1593799f961a5804a86775b5d8ba6214.jpg)
+
+![](images/62e8e5287be959221a4ffc1107cadd5dde46aebd332ebea61b80f0aa1f9d0639.jpg)  
+Figure 11.7 Two personas for the group travel organizer
+---
+Node: 11.5.2  Scenarios
+Primary concept extracted from chunk
+# 11.5.2  Scenarios
+
+A scenario is an “informal narrative description” (Carroll, 2000). It describes human activities or tasks in a story that allows exploration and discussion of contexts, needs, and requirements.  It  does  not  necessarily describe the  use  of software  or  other  technological  support used to achieve a goal. Using stakeholder vocabulary and phrasing means that scenarios can be understood by them, and they are able to participate fully in development. Telling stories is  a  natural  way  for  people  to  explain  what  they  are  doing, and  stakeholders  can  easily relate to them.
+
+Scenarios  can  have a  relatively  simple  format, i.e., a  textual  description;  they  may  be short or long, and they may be more or less elaborate. The goal of the scenario, the narrative around reaching that goal (e.g., completing a task), and who the user is (e.g., which persona does it  relate  to) form the  core  of the  scenario. This core can  be fleshed out  with detail as needed for the design task at hand. An example of a simple textual scenario is shown next. Abraham Mhaidli and Florian Schaub (2021) proposed this scenario to explore the potential of manipulative extended reality (XR) advertisements and their harm.
+
+A furniture company releases a new AR app that allows customers to place 3D renderings of furniture into their home, to see how the furniture would look like in their home. Unbeknownst to the consumer, the preview is altered in ways that make the photorealistic rendering of the furniture seem brighter and more colorful than real life, whilst still
+
+seeming realistic. An unsuspecting customer uses the app to “try out” a new sofa in their living room; satisfied with how it looks, they buy the sofa, only to find that the actual sofa is much duller, uglier, and of vastly lower quality than the preview had suggested.
+
+A  more  elaborate  scenario format  was used  by  Madeline Hallewell  et  al. (2022)  who also devised the personas Lena and Julien introduced in the previous section. These scenarios contain quite a lot of information including quotes from interviews, the stages of the journey, and the context for the journey. An example is  shown in Figure 11.8. Note that these scenarios capture existing behavior, before the autonomous service is introduced.
+
+![](images/175741b93bc8b7d7abb0ae60a9c69aee591cb6719cbc81452d4ae4b4575f1380.jpg)  
+Figure8. Example scenario "Mary:Going to Church." Photo by Andrea Piacquadiq from Pexels   
+Figure 11.8 Scenario developed for persona Mary traveling to church. This scenario format includes a wide range of information to complement the central scenario story.
+
+Source: Hallewell, et al. (2022) Deriving Personas to Inform HMI Design for Future Autonomous Taxis: A Case Study on User Requirement Elicitation, Journal of Usability Studies, 17(2), 41–64.
+
+As illustrated, scenarios may describe existing behavior or future behavior. Starting with current  behavior allows  the  designer  to  identify  stakeholders  and  artifacts  involved  in  an activity. Understanding current behavior also allows the designer to explore the constraints, contexts, irritations, and so on, under which  people operate, as illustrated by  the  previous autonomous  taxi  example.  Building  scenarios  around  a  potential  new  technology allows designers to explore design options  creatively, using their imagination, as illustrated by  the XR example about selling furniture.
+
+During the requirements activity, scenarios emphasize the context, the usability and user experience goals, and the activities in which people are engaged. Scenarios are often generated during workshop, interview, or brainstorming  sessions to help explain or discuss some aspect of the participant’s goals. They capture only one perspective, perhaps a single use of the product from one persona’s point of view, or one example of how a goal might be achieved.
+---
+Node: More or Less Detail: How Long Should a Scenario Be?
+Primary concept extracted from chunk
+# More or Less Detail: How Long Should a Scenario Be?
+
+There are  advantages and disadvantages of developing scenarios that are long versus short and detailed versus abstract. Which is more appropriate depends on several issues including the stage of development and the type of design project. Early on in design, or when envisioning future activities, a short  text-based format may  be sufficient to explore possibilities. As design progresses, it may be more beneficial to add more detail. Similarly, detailed scenarios may be appropriate in a design project to update an existing app, while more abstract scenarios may be appropriate when designing a new technology. As with many design activities, there is a trade-off between how much time is spent developing and honing the presentation of the scenario versus progressing the design through other interaction design activities such as designing and building prototypes, for example.
+
+A different reason for having more elaborate scenarios may be related to stakeholder communication, some of whom may engage more readily with a refined and elaborate scenario.
+
+The following scenario for the group travel organizer introduced in Activity 11.3 describes how one function of the system might work—to identify potential vacation options. This scenario incorporates information about the two personas shown in Figure 11.7. The following is the kind of story that you might glean from a requirements interview:
+
+The Thomson family enjoys outdoor activities and wants to try their hand at sailing this year. There are four family members: Sky (8 years old), Eamonn (15), Claire (32), and Will (35).
+
+One evening after dinner, they decide to start exploring the possibilities. They want to discuss the options together, but Claire has to visit her elderly mother, so she will be joining the conversation from her mother’s house down the road. As a starting point, Will raises an idea they had been discussing over dinner—a sailing trip for four novices in the Mediterranean.
+
+The travel organizer supports a group of people logging in from different locations using different devices so that all members of the family can interact easily and comfortably with it wherever they are. Its  initial suggestion is a flotilla, where several  crews  (with various levels of experience) sail together on separate boats.
+
+Sky and Eamonn aren’t very happy at the idea of going on vacation with a group of other people, even though the  Thomsons would  have their own  boat. The travel organizer shows them descriptions of flotilla experiences from other children their ages, and they are all very positive, so eventually everyone agrees to explore flotilla opportunities.
+
+Will confirms this recommendation and asks for detailed options. As it’s getting late, he asks for the details to be saved so that everyone can consider them tomorrow. The travel organizer messages them a summary of the different options available.
+
+Developing a scenario that focuses on how a new product may be used helps to uncover implicit  assumptions, expectations, and  situations in  which  people  might  find  themselves, such as the need to plan travel when participants  are situated in different locations. These
+
+in turn translate into requirements, in this case an environment requirement, which may be expressed as follows:
+
+As a <group traveler>, I want <to be able to share vacation discussions when I am not co-located> so that <the whole group can discuss their choices together under  a wide range of circumstances>.
+
+Futuristic  scenarios describe an  envisioned situation in the  future, perhaps  with a new technology and new  world view. Different kinds of future visions  were discussed  in Chapter 3, “Conceptualizing Interaction,” and one approach that is an extension of the scenario idea and that can be used to discover requirements is design fiction (see Box 11.3).
+---
+Node: Design Fiction
+Primary concept extracted from chunk
+# Design Fiction
+
+Design fiction is a way to communicate a vision about the world in which a future technology is situated. The term was originally proposed in the early 2000s, and since then its use has become widespread (Baumer et al., 2020). In interaction design it is used to explore envisioned technologies and their uses without having to grapple with pragmatic challenges. In a fictional world, ethics, emotions, and context can be explored in detail and in depth without worrying about concrete constraints or implementations.
+
+For example, Richmond Wong et al. (2017) adopted a design fiction approach to engage in issues of privacy and surveillance around futuristic sensing technologies. Their design fictions were inspired by a near-future science-fiction novel, The Circle by David Eggers (2013). Their design fictions are visual, and they take the form of a workbook containing conceptual designs. They draw on three technologies in the novel, such as SeeChange, a small camera about the size of a lollipop that wirelessly records and broadcasts live video. They also include a new prototyped technology designed to detect a user’s breathing pattern and heart rate (Adib et al., 2015).
+
+The design fictions went through three design iterations. The first adapted the technologies from the novel, for  example, by adding concrete interfaces. As there  were no photos in The Circle, the  authors designed interfaces for these  technologies based  only on the  textual descriptions. The second iteration considered privacy concerns and placed the technologies in an extended world from the novel.The third iteration considered privacy concerns in situations that went beyond the novel and the designs they had created up to that point in time. Richmond Wong and colleagues (2017) suggest that their design fictions could help broaden the design space for people designing sensing technologies or be used as interview probes in further research. They also reflect that an existing fictional world is a good starting point from which to develop design fictions, and this helps to explore futures that might otherwise go unnoticed.
+
+Other examples of design fiction include Eric Baumer et al.’s (2018) consideration of how design fiction can support the exploration of ethics and Renee Noortman et al.’s (2019) use of a design fiction probe to explore future dementia care.
+
+What’s the difference between scenarios and design fiction? Mark Blythe (2017) uses the “basic plots” of literature to suggest that scenarios employ the plot of “overcoming the monster,” where the monster is some problem to be solved, while design fiction more frequently takes the form of a “voyage and return” or a “quest.”
+---
+Node: ACTIVITY 11.4
+Primary concept extracted from chunk
+# ACTIVITY 11.4
+
+This activity illustrates how a scenario of an existing activity can help identify requirements for a future application to support the same goal.
+
+Come up with a scenario of how you would go about choosing a new electric car. This should be a new car, not a secondhand car. Having written it down, think about the important aspects of the task, your priorities, and your preferences. Then imagine a new interactive product that supports this goal and takes account of these issues. Write a futuristic scenario showing how this product would support you.
+---
+Node: chapter 29 References chunk 000 References 52
+Primary concept extracted from chunk
+Williamson, V.  (2016) Can Crowdsourcing  Be Ethical? Downloaded  from www.brookings .edu/blog/techtank/2016/02/03/can-crowdsourcing-be-ethical-2.   
+Wilson, C., Hargreaves, T., and Hauxwell-Baldwin, R. (2015) Smart Homes and their Users: A Systematic Analysis and Key Challenges, Personal and Ubiquitous Computing, 19, 463–476. Winograd, T.  (1997) From Computing Machinery to Interaction Design. In P.  Denning and R. Metcalfe (eds.) Beyond Calculation: The Next Fifty Years of Computing. Springer-Verlag, Amsterdam, pp. 149–162.   
+Winschiers-Theophilus,  H.,  Bidwell,  N.  J.,  and  Blake,  E.  (2012)  Community  Consensus: Design Beyond Participation, Design Issues, 28(3) Summer 2012, 89–100.   
+Winter,  R., and  Lavis, A. (2019)  Looking, but  not  Listening?  Theorizing the  Practice  and Ethics  of Online  Ethnography. Journal  of  Empirical Research  on Human  Research  Ethics, 15(1–2), 55–62.   
+Wise, A. F., Knight, S., and Buckingham Shum, S. (2021). Collaborative Learning Analytics. In U. Cress, C. Rosé, A. F. Wise, and J. Oshima (eds.) International Handbook of Computer-Supported Collaborative Learning. Computer-Supported Collaborative Learning Series, Vol. 19. Springer, Cham.   
+Wise, J. (2018) Skin cancer: smartphone diagnostic apps may offer false reassurance, warn dermatologists. The British Medical Journal, 362, k2999.   
+Wixon, D., and Wilson, C. (1997) The Usability Engineering Framework for Product Design and  Evaluation. In  M. G.  Helander, T.  K. Landauer,  and P.  V.  Prabju  (eds.) Handbook  of Human–Computer Interaction. Elsevier, Amsterdam, pp. 653–688.   
+Wong, R.Y., Van Wyk, E., and Pierce, J. (2017) Real-Fictional Entanglements: Using Science Fiction and Design Fiction to Interrogate Sensing Technologies. In Proceedings of DIS 2017. ACM, New York, NY, pp. 567–579.   
+Woods, C., Hodkiewicz, M., and French, T. (2019) Requirements for Adaptive User Interfaces for Industrial Maintenance Procedures: A discussion of context, requirements and research opportunities. In $3 1 ^ { s t }$ Australian Conference on Human-Computer-Interaction (OZCHI ’19), pp. 322–326.   
+Wood, R., Dixon, E., Elsayed-Ali, S., Shokeen, E., Lazar, A., and Lazar, J. (2021) Investigating Best Practices for Remote Summative Usability Testing with People with Mild to Moderate Dementia. ACM Transactions on Accessible Computing, 14(3), Article 11.   
+Woolrych, A., and Cockton, G. (2001) Why and When Five Test Users Aren’t Enough. In Proceedings of IHM-HCI 2001 Conference, Vol. 2. Cépadèus Éditions, Toulouse, pp. 105–108. WordPress (2022) Tutorial: Why Use White Space In Web Design & All The Best Practices, available from essential-addons.com/elementor/white-space-in-web-design.   
+Wu, D., Moody, G.D., Zhang, J., and Lowry, P. B. (2020) Effects of the design of mobile security notifications and mobile app usability on users’ security perceptions and continued use intention, Information & Management, 57, 103235.   
+Xie, Y., Chen, M., Kao, D., Gao, G., and Chen, X. (2020) CheXplain: Enabling Physicians to Explore and Understand Data-Driven, AI-Enabled Medical Imaging Analysis. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20), ACM, pp. 1–13.

@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=2, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_02.json
+FILES:
+/private/tmp/about_face_chunks/chunk_026_CH_19__Designing_for_Mobile_an.md
+/private/tmp/about_face_chunks/chunk_027_CH_20__Designing_for_the_Web_5.md
+/private/tmp/about_face_chunks/chunk_028_CH_21__Design_Details__Control.md
+/private/tmp/about_face_chunks/chunk_029_FOREWORD.md
+/private/tmp/about_face_chunks/chunk_030_INTRODUCTION_TO_THE_FOURTH_EDI.md
+/private/tmp/about_face_chunks/chunk_031_A_Brief_History_of_Interaction.md
+/private/tmp/about_face_chunks/chunk_032_IxD_and_User_Experience.md
+/private/tmp/about_face_chunks/chunk_033_What_This_Book_Is_and_What_It_.md
+/private/tmp/about_face_chunks/chunk_034_How_This_Book_Is_Structured.md
+/private/tmp/about_face_chunks/chunk_035_Changes_Since_the_Third_Editio.md
+/private/tmp/about_face_chunks/chunk_036_Examples_Used_in_This_Book.md
+/private/tmp/about_face_chunks/chunk_037_Who_Should_Read_This_Book.md
+/private/tmp/about_face_chunks/chunk_038_Goal_Directed_Design.md
+/private/tmp/about_face_chunks/chunk_039_A_DESIGN_PROCESS_FOR_DIGITAL_P.md
+/private/tmp/about_face_chunks/chunk_040_The_Consequences_of_Poor_Produ.md
+/private/tmp/about_face_chunks/chunk_041_Digital_products_are_rude.md
+/private/tmp/about_face_chunks/chunk_042_Digital_products_require_peopl.md
+/private/tmp/about_face_chunks/chunk_043_Digital_products_have_sloppy_h.md
+/private/tmp/about_face_chunks/chunk_044_Digital_products_require_human.md
+/private/tmp/about_face_chunks/chunk_045_Why_Digital_Products_Fail.md
+/private/tmp/about_face_chunks/chunk_046_Misplaced_priorities.md
+/private/tmp/about_face_chunks/chunk_047_Ignorance_about_real_users.md
+/private/tmp/about_face_chunks/chunk_048_Conflicts_of_interest.md
+/private/tmp/about_face_chunks/chunk_049_Lack_of_a_design_process.md
+/private/tmp/about_face_chunks/chunk_050_Planning_and_Designing_Product.md

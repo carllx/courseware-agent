@@ -1,0 +1,511 @@
+Node: chapter 47 Decorate your backgrounds
+Primary concept extracted from chunk
+**Decorate your backgrounds**
+
+Even if you do a great job with hierarchy, spacing, and typography,
+sometimes a design will still feel a little bit plain.
+
+A great way to break up some of the monotony without drastically
+altering the design is to add some excitement to a few of your
+backgrounds.
+
+**Change the background color**
+
+One way to add some excitement to a background is to simply change the
+color.
+
+![](images/index-229_1.png)
+
+![](images/index-229_2.png)
+
+229
+
+Decorate your backgrounds
+
+This works great for emphasizing an individual panel, as well as for
+adding some distinction between entire page sections.
+
+For a more energetic look, you could even use a slight gradient: For
+best results, use two hues that are no more than about 30° apart.
+
+![](images/index-230_1.png)
+
+![](images/index-230_2.png)
+
+Decorate your backgrounds
+
+230
+
+**Use a repeating pattern**
+
+Another approach is to add a subtle repeatable pattern, like this one
+from
+
+[Hero Patterns:](http://www.heropatterns.com/)
+
+You don’t have to necessarily repeat it across the entire background,
+either
+
+— a pattern designed to repeat along a single edge can look great, too.
+
+Keep the contrast between the background and the pattern pretty low to
+ensure readability.
+
+![](images/index-231_1.png)
+
+![](images/index-231_2.png)
+
+231
+
+Decorate your backgrounds
+
+**Add a simple shape or illustration**
+
+Instead of decorating an entire background, you can also try including
+an individual graphic or two in specific positions.
+
+Simple geometric shapes work well for this:
+
+…as do small chunks of a repeatable pattern:
+
+![](images/index-232_1.png)
+
+Decorate your backgrounds
+
+232
+
+You can even do something more complex, like a simplified world map:
+Just like with a full background pattern, it’s best to keep the contrast
+low so nothing interferes with the content.
+
+233
+
+Decorate your backgrounds
+
+![](images/index-234_1.png)
+
+
+---
+Node: chapter 48 Don t overlook empty states
+Primary concept extracted from chunk
+**Don’t overlook empty states**
+
+Imagine you’re designing a new feature for an app you’re working on.
+
+You’ve spent a ton of time crafting the perfect realistic sample data,
+picking out usernames and avatars, and putting together a beautiful and
+electrifying screen.
+
+![](images/index-235_1.png)
+
+![](images/index-235_2.png)
+
+235
+
+Don’t overlook empty states
+
+You code it all up and deploy it to production. But when an excited user
+clicks the new item in the nav, they see this:
+
+If you’re designing something that depends on user-generated content,
+the empty state should be a priority, not an afterthought.
+
+Try incorporating an image or illustration to grab the user’s attention,
+and emphasizing the call-to-action to encourage them to take the next
+step:
+
+![](images/index-236_1.png)
+
+Don’t overlook empty states
+
+236
+
+If you’re working on something that has a bunch of supporting UI like
+tabs or filters, consider hiding that stuff entirely. There’s no point
+in presenting a bunch of actions that don’t do anything until the user
+has created some content.
+
+Empty states are a user’s first interaction with a new product or
+feature. Use them as an opportunity to be interesting and exciting —
+don’t settle for plain and boring.
+
+237
+
+Don’t overlook empty states
+
+![](images/index-238_1.png)
+
+
+---
+Node: chapter 49 Use fewer borders
+Primary concept extracted from chunk
+**Use fewer borders**
+
+When you need to create separation between two elements, try to resist
+immediately reaching for a border.
+
+While borders are a great way to distinguish two elements from one
+another, they aren’t the only way, and using too many of them can make
+your design feel busy and cluttered.
+
+![](images/index-239_1.png)
+
+239
+
+Use fewer borders
+
+**Use a box shadow**
+
+Box shadows do a great job of outlining an element like a border would,
+but can be more subtle and accomplish the same goal without being as
+distracting.
+
+This approach works best when the element you are applying the box
+shadow to is not the same color as the background.
+
+![](images/index-240_1.png)
+
+Use fewer borders
+
+240
+
+**Use two different background colors**
+
+Giving adjacent elements slightly different background colors is usually
+all you need to create distinction between them.
+
+If you’re already using different background colors in addition to a
+border, try removing the border; you might not need it.
+
+![](images/index-241_1.png)
+
+241
+
+Use fewer borders
+
+**Add extra spacing**
+
+What better way to create separation between elements than to simply
+increase the separation?
+
+Spacing things further apart is a great way to create distinction
+between groups of elements without introducing any new UI at all.
+
+![](images/index-242_1.png)
+
+
+---
+Node: chapter 50 Think outside the box
+Primary concept extracted from chunk
+**Think outside the box**
+
+Most people have a lot of preconceived notions about how certain
+components are supposed to look. But just because we’ve been conditioned
+to believe that there’s only one way to design a particular component,
+doesn’t mean it’s true.
+
+For example, picture a dropdown menu. You’re probably picturing a white
+box with a bit of a drop shadow and a list of links stacked inside of
+it:
+
+![](images/index-243_1.png)
+
+243
+
+Think outside the box
+
+But who says a dropdown needs to be a boring list of links? It’s just a
+floating box on the screen, you can do anything you want with it.
+
+Break it into sections, use multiple columns, add supporting text or
+colorful icons — do something fun with it!
+
+And don’t just stop at dropdowns; what about something like a table?
+
+![](images/index-244_1.png)
+
+![](images/index-244_2.png)
+
+Think outside the box
+
+244
+
+When you imagine a table, you probably think of columns that each
+contain one specific piece of data:
+
+Tables don’t *have* to work this way, though — if a column doesn’t need
+to be sortable, there’s no reason you can’t combine it with a related
+column and introduce some interesting hierarchy:
+
+![](images/index-245_1.png)
+
+![](images/index-245_2.png)
+
+245
+
+Think outside the box
+
+Table content doesn’t have to be plain text, either. Add images if it
+makes sense, or introduce some color to enrich the existing data: How
+about radio buttons? There’s nothing more boring than a stack of labels
+with little circles next to them.
+
+![](images/index-246_1.png)
+
+Think outside the box
+
+246
+
+If a set of radio buttons are an important part of the UI you’re
+designing, try something like selectable cards instead:
+
+Don’t let your existing beliefs hold back your designs — constraints are
+powerful but sometimes a bit of freedom is just what you need to take an
+interface to the next level.
+
+
+---
+Node: chapter 51 Leveling Up
+Primary concept extracted from chunk
+**Leveling Up**
+
+![](images/index-250_1.png)
+
+**Leveling up**
+
+Hopefully after reading this book you feel much more confident in your
+ability to make something look awesome, without relying on a designer.
+But even though we’ve tried our best to cram in every good idea we could
+possibly think of, there will always be more out there to learn.
+
+Here are two of the best ways you can continue to hone your skills, and
+add new tools to your toolbelt.
+
+**Look for decisions you wouldn’t have made**
+
+Whenever you stumble across a design you really like, ask yourself:
+
+*“Did the designer do anything here that I never would have thought to
+do?”*
+
+Maybe it’s the way they inverted the background color on a datepicker:
+
+![](images/index-251_1.png)
+
+![](images/index-251_2.png)
+
+251
+
+Leveling up
+
+…or the way they positioned a button within a text input instead of on
+the outside:
+
+…or something as simple as using two different font colors for a
+headline: Paying attention to these sorts of unintuitive decisions is a
+great way to discover new ideas that you can apply to your own designs.
+
+**Rebuild your favorite interfaces**
+
+The absolute best way to notice the little details that make a design
+look
+
+![](images/index-252_1.png)
+
+Leveling up
+
+252
+
+really polished is to recreate that design from scratch, *without
+peeking at the* *developer tools*.
+
+When you’re trying to figure out why your version looks different than
+the original, you’ll discover tricks like “reduce your line height for
+headings”,
+
+“add letter-spacing to uppercase text”, or “combine multiple shadows”
+all on your own.
+
+By continually studying the work that inspires you with a careful eye,
+you’ll be picking up design tricks for years to come.
+
+— Adam Wathan & Steve Schoger
+
+
+---
+Node: Document Outline
+Primary concept extracted from chunk
+# Document Outline
+
+- [Starting from Scratch](#index_split_000.html_p7)
+  - [Start with a feature, not a layout](#index_split_000.html_p8)
+  - [Detail comes later](#index_split_000.html_p12)
+    - [Hold the color](#index_split_000.html_p12)
+    - [Don’t over-invest](#index_split_000.html_p14)
+  - [Don’t design too much](#index_split_000.html_p16)
+    - [Work in cycles](#index_split_000.html_p17)
+    - [Be a pessimist](#index_split_000.html_p18)
+  - [Choose a personality](#index_split_000.html_p20)
+    - [Font choice](#index_split_000.html_p21)
+    - [Color](#index_split_000.html_p22)
+    - [Border radius](#index_split_000.html_p24)
+    - [Language](#index_split_000.html_p25)
+    - [Deciding what you actually want](#index_split_000.html_p26)
+  - [Limit your choices](#index_split_000.html_p28)
+    - [Define systems in advance](#index_split_000.html_p29)
+    - [Designing by process of elimination](#index_split_000.html_p30)
+    - [Systematize everything](#index_split_000.html_p31)
+- [Hierarchy is Everything](#index_split_000.html_p35)
+  - [Not all elements are equal](#index_split_000.html_p36)
+  - [Size isn’t everything](#index_split_000.html_p38)
+  - [Don’t use grey text on colored
+    backgrounds](#index_split_000.html_p42)
+  - [Emphasize by de-emphasizing](#index_split_000.html_p46)
+  - [Labels are a last resort](#index_split_000.html_p48)
+    - [You might not need a label at all](#index_split_000.html_p48)
+    - [Combine labels and values](#index_split_000.html_p49)
+    - [Labels are secondary](#index_split_000.html_p50)
+    - [When to emphasize a label](#index_split_000.html_p51)
+  - [Separate visual hierarchy from document
+    hierarchy](#index_split_000.html_p54)
+  - [Balance weight and contrast](#index_split_000.html_p56)
+    - [Using contrast to compensate for
+      weight](#index_split_000.html_p56)
+    - [Using weight to compensate for
+      contrast](#index_split_000.html_p58)
+  - [Semantics are secondary](#index_split_000.html_p60)
+    - [Destructive actions](#index_split_000.html_p62)
+- [Layout and Spacing](#index_split_000.html_p65)
+  - [Start with too much white space](#index_split_000.html_p66)
+    - [White space should be removed, not
+      added](#index_split_000.html_p67)
+    - [Dense UIs have their place](#index_split_000.html_p69)
+  - [Establish a spacing and sizing system](#index_split_000.html_p70)
+    - [A linear scale won’t work](#index_split_000.html_p71)
+    - [Defining the system](#index_split_000.html_p72)
+    - [Using the system](#index_split_000.html_p73)
+  - [You don’t have to fill the whole screen](#index_split_000.html_p76)
+    - [Shrink the canvas](#index_split_000.html_p78)
+    - [Thinking in columns](#index_split_000.html_p79)
+    - [Don’t force it](#index_split_000.html_p82)
+  - [Grids are overrated](#index_split_000.html_p84)
+    - [Not all elements should be fluid](#index_split_000.html_p84)
+    - [Don’t shrink an element until you need
+      to](#index_split_000.html_p88)
+  - [Relative sizing doesn’t scale](#index_split_000.html_p92)
+    - [Relationships within elements](#index_split_000.html_p94)
+  - [Avoid ambiguous spacing](#index_split_000.html_p96)
+- [Designing Text](#index_split_000.html_p101)
+  - [Establish a type scale](#index_split_000.html_p102)
+    - [Choosing a scale](#index_split_000.html_p103)
+      - [Modular scales](#index_split_000.html_p103)
+      - [You end up with fractional values.](#index_split_000.html_p104)
+      - [You usually need more sizes.](#index_split_000.html_p104)
+      - [Hand-crafted scales](#index_split_000.html_p104)
+    - [Avoid em units](#index_split_000.html_p106)
+  - [Use good fonts](#index_split_000.html_p108)
+    - [Play it safe](#index_split_000.html_p108)
+    - [Ignore typefaces with less than five
+      weights](#index_split_000.html_p109)
+    - [Optimize for legibility](#index_split_000.html_p110)
+    - [Trust the wisdom of the crowd](#index_split_000.html_p110)
+    - [Steal from people who care](#index_split_000.html_p111)
+    - [Developing your intuition](#index_split_000.html_p112)
+  - [Keep your line length in check](#index_split_000.html_p114)
+    - [Dealing with wider content](#index_split_000.html_p115)
+  - [Baseline, not center](#index_split_000.html_p118)
+  - [Line-height is proportional](#index_split_000.html_p122)
+    - [Accounting for line length](#index_split_000.html_p122)
+    - [Accounting for font size](#index_split_000.html_p124)
+  - [Not every link needs a color](#index_split_000.html_p126)
+  - [Align with readability in mind](#index_split_000.html_p128)
+    - [Don’t center long form text](#index_split_000.html_p128)
+    - [Right-align numbers](#index_split_000.html_p130)
+    - [Hyphenate justified text](#index_split_000.html_p130)
+  - [Use letter-spacing effectively](#index_split_000.html_p132)
+    - [Tightening headlines](#index_split_000.html_p133)
+    - [Improving all-caps legibility](#index_split_000.html_p134)
+- [Working with Color](#index_split_000.html_p137)
+  - [Ditch hex for HSL](#index_split_000.html_p138)
+    - [HSL vs. HSB](#index_split_000.html_p140)
+  - [You need more colors than you think](#index_split_000.html_p142)
+    - [What you actually need](#index_split_000.html_p143)
+      - [Greys](#index_split_000.html_p143)
+      - [Primary color(s)](#index_split_000.html_p145)
+      - [Accent colors](#index_split_000.html_p145)
+  - [Define your shades up front](#index_split_000.html_p148)
+    - [Choose the base color first](#index_split_000.html_p148)
+    - [Finding the edges](#index_split_000.html_p149)
+    - [Filling in the gaps](#index_split_000.html_p150)
+    - [What about greys?](#index_split_000.html_p151)
+    - [It’s not a science](#index_split_000.html_p151)
+  - [Don’t let lightness kill your
+    saturation](#index_split_000.html_p152)
+    - [Use perceived brightness to your
+      advantage](#index_split_000.html_p153)
+    - [Changing brightness by rotating hue](#index_split_000.html_p154)
+  - [Greys don’t have to be grey](#index_split_000.html_p158)
+    - [Color temperature](#index_split_000.html_p159)
+  - [Accessible doesn’t have to mean ugly](#index_split_000.html_p162)
+    - [Flipping the contrast](#index_split_000.html_p163)
+    - [Rotating the hue](#index_split_000.html_p164)
+  - [Don’t rely on color alone](#index_split_000.html_p166)
+- [Creating Depth](#index_split_000.html_p171)
+  - [Emulate a light source](#index_split_000.html_p172)
+    - [Light comes from above](#index_split_000.html_p173)
+    - [Simulating light in a user interface](#index_split_000.html_p175)
+      - [Raised elements](#index_split_000.html_p175)
+      - [Inset elements](#index_split_000.html_p177)
+    - [Don’t get carried away](#index_split_000.html_p179)
+  - [Use shadows to convey elevation](#index_split_000.html_p180)
+    - [Establishing an elevation system](#index_split_000.html_p182)
+    - [Combining shadows with interaction](#index_split_000.html_p183)
+  - [Shadows can have two parts](#index_split_000.html_p186)
+    - [Accounting for elevation](#index_split_000.html_p188)
+  - [Even flat designs can have depth](#index_split_000.html_p190)
+    - [Creating depth with color](#index_split_000.html_p191)
+    - [Using solid shadows](#index_split_000.html_p192)
+  - [Overlap elements to create layers](#index_split_000.html_p194)
+    - [Overlapping images](#index_split_000.html_p195)
+- [Working with Images](#index_split_000.html_p199)
+  - [Use good photos](#index_split_000.html_p200)
+  - [Text needs consistent contrast](#index_split_000.html_p202)
+    - [The problem with background images](#index_split_000.html_p202)
+    - [Add an overlay](#index_split_000.html_p203)
+    - [Lower the image contrast](#index_split_000.html_p204)
+    - [Colorize the image](#index_split_000.html_p205)
+    - [Add a text shadow](#index_split_000.html_p206)
+  - [Everything has an intended size](#index_split_000.html_p208)
+    - [Don’t scale up icons](#index_split_000.html_p208)
+    - [Don’t scale down screenshots](#index_split_000.html_p210)
+    - [Don’t scale down icons, either](#index_split_000.html_p212)
+  - [Beware user-uploaded content](#index_split_000.html_p214)
+    - [Control the shape and size](#index_split_000.html_p214)
+    - [Prevent background bleed](#index_split_000.html_p216)
+- [Finishing Touches](#index_split_000.html_p219)
+  - [Supercharge the defaults](#index_split_000.html_p220)
+  - [Add color with accent borders](#index_split_000.html_p224)
+  - [Decorate your backgrounds](#index_split_000.html_p228)
+    - [Change the background color](#index_split_000.html_p228)
+    - [Use a repeating pattern](#index_split_000.html_p230)
+    - [Add a simple shape or illustration](#index_split_000.html_p231)
+  - [Don’t overlook empty states](#index_split_000.html_p234)
+  - [Use fewer borders](#index_split_000.html_p238)
+    - [Use a box shadow](#index_split_000.html_p239)
+    - [Use two different background colors](#index_split_000.html_p240)
+    - [Add extra spacing](#index_split_000.html_p241)
+  - [Think outside the box](#index_split_000.html_p242)
+- [Leveling Up](#index_split_000.html_p249)
+  - [Leveling up](#index_split_000.html_p250)
+    - [Look for decisions you wouldn’t have
+      made](#index_split_000.html_p250)
+    - [Rebuild your favorite interfaces](#index_split_000.html_p251)
+
+</p>
+
+---
+Node: Table of Contents
+Primary concept extracted from chunk
+# Table of Contents
+
+> Generated from source TOC

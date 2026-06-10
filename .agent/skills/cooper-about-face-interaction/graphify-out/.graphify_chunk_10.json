@@ -1,0 +1,451 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_226_pretend_the_product_is_human_pretend_the_product_is_human",
+      "label": "Pretend the product is human",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_226_Pretend_the_product_is_human.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_227_apply_principles_and_patterns_principles_and_patterns",
+      "label": "Principles and Patterns",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_227_Apply_principles_and_patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_228_step_3__determine_functional_g_functional_groups",
+      "label": "Functional Groups and Hierarchy",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_228_Step_3__Determine_functional_g.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_228_step_3__determine_functional_g_views",
+      "label": "Views",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_228_Step_3__Determine_functional_g.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_229_step_4__sketch_the_interaction_interaction_framework_sketch",
+      "label": "Interaction Framework Sketch",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_229_Step_4__Sketch_the_interaction.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_230_step_5__construct_key_path_sce_key_path_scenarios",
+      "label": "Key Path Scenarios",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_230_Step_5__Construct_key_path_sce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_231_storyboarding_storyboarding",
+      "label": "Storyboarding",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_231_Storyboarding.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_233_step_6__check_designs_with_val_validation_scenarios",
+      "label": "Validation Scenarios",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_233_step_6__check_designs_with_val_alternative_scenarios",
+      "label": "Alternative Scenarios",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_233_step_6__check_designs_with_val_necessary_use_scenarios",
+      "label": "Necessary-use Scenarios",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_233_step_6__check_designs_with_val_edge_case_use_scenarios",
+      "label": "Edge-case Use Scenarios",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_234_defining_the_visual_design_fra_visual_design_framework",
+      "label": "Visual Design Framework",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_234_Defining_the_visual_design_fra.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_235_step_1__develop_experience_att_experience_attributes",
+      "label": "Experience Attributes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_235_Step_1__Develop_experience_att.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_236_step_2__develop_visual_languag_visual_language_studies",
+      "label": "Visual Language Studies",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_236_Step_2__Develop_visual_languag.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_238_defining_the_industrial_design_industrial_design_framework",
+      "label": "Industrial Design Framework",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_238_Defining_the_industrial_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_242_step_3__develop_form_language__form_language_studies",
+      "label": "Form Language Studies",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_242_Step_3__Develop_form_language_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_243_defining_the_service_design_fr_service_design_framework",
+      "label": "Service Design Framework",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_243_Defining_the_service_design_fr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_244_step_1__describe_customer_jour_customer_journeys",
+      "label": "Customer Journeys",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_244_Step_1__Describe_customer_jour.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_245_step_2__create_a_service_bluep_service_blueprint",
+      "label": "Service Blueprint",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_245_Step_2__Create_a_service_bluep.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_246_step_3__create_experience_prot_experience_prototypes",
+      "label": "Experience Prototypes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_246_Step_3__Create_experience_prot.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_247_refining_the_form_and_behavior_refinement_phase",
+      "label": "Refinement Phase",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_247_Refining_the_Form_and_Behavior.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_247_refining_the_form_and_behavior_form_and_behavior_specification",
+      "label": "Form and Behavior Specification",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_247_Refining_the_Form_and_Behavior.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_248_validating_and_testing_the_des_usability_testing",
+      "label": "Usability Testing",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_248_Validating_and_Testing_the_Des.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_250_when_to_test__summative_and_fo_summative_evaluations",
+      "label": "Summative Evaluations",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_250_When_to_test__Summative_and_fo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_250_when_to_test__summative_and_fo_formative_evaluations",
+      "label": "Formative Evaluations",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_250_When_to_test__Summative_and_fo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_231_storyboarding_storyboarding",
+      "target": "about_face_chunks_chunk_229_step_4__sketch_the_interaction_interaction_framework_sketch",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_231_Storyboarding.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_231_storyboarding_storyboarding",
+      "target": "about_face_chunks_chunk_230_step_5__construct_key_path_sce_key_path_scenarios",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_231_Storyboarding.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_233_step_6__check_designs_with_val_validation_scenarios",
+      "target": "about_face_chunks_chunk_233_step_6__check_designs_with_val_alternative_scenarios",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_233_step_6__check_designs_with_val_validation_scenarios",
+      "target": "about_face_chunks_chunk_233_step_6__check_designs_with_val_necessary_use_scenarios",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_233_step_6__check_designs_with_val_validation_scenarios",
+      "target": "about_face_chunks_chunk_233_step_6__check_designs_with_val_edge_case_use_scenarios",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_234_defining_the_visual_design_fra_visual_design_framework",
+      "target": "about_face_chunks_chunk_235_step_1__develop_experience_att_experience_attributes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_234_Defining_the_visual_design_fra.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_234_defining_the_visual_design_fra_visual_design_framework",
+      "target": "about_face_chunks_chunk_236_step_2__develop_visual_languag_visual_language_studies",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_234_Defining_the_visual_design_fra.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_238_defining_the_industrial_design_industrial_design_framework",
+      "target": "about_face_chunks_chunk_242_step_3__develop_form_language__form_language_studies",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_238_Defining_the_industrial_design.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_243_defining_the_service_design_fr_service_design_framework",
+      "target": "about_face_chunks_chunk_244_step_1__describe_customer_jour_customer_journeys",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_243_Defining_the_service_design_fr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_243_defining_the_service_design_fr_service_design_framework",
+      "target": "about_face_chunks_chunk_245_step_2__create_a_service_bluep_service_blueprint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_243_Defining_the_service_design_fr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_243_defining_the_service_design_fr_service_design_framework",
+      "target": "about_face_chunks_chunk_246_step_3__create_experience_prot_experience_prototypes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_243_Defining_the_service_design_fr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_247_refining_the_form_and_behavior_refinement_phase",
+      "target": "about_face_chunks_chunk_247_refining_the_form_and_behavior_form_and_behavior_specification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_247_Refining_the_Form_and_Behavior.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_250_when_to_test__summative_and_fo_summative_evaluations",
+      "target": "about_face_chunks_chunk_248_validating_and_testing_the_des_usability_testing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_250_When_to_test__Summative_and_fo.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_250_when_to_test__summative_and_fo_formative_evaluations",
+      "target": "about_face_chunks_chunk_248_validating_and_testing_the_des_usability_testing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_250_When_to_test__Summative_and_fo.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "validation_scenarios_types",
+      "label": "Types of Validation Scenarios",
+      "nodes": [
+        "about_face_chunks_chunk_233_step_6__check_designs_with_val_alternative_scenarios",
+        "about_face_chunks_chunk_233_step_6__check_designs_with_val_necessary_use_scenarios",
+        "about_face_chunks_chunk_233_step_6__check_designs_with_val_edge_case_use_scenarios"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_233_Step_6__Check_designs_with_val.md"
+    },
+    {
+      "id": "service_design_framework_components",
+      "label": "Service Design Framework Components",
+      "nodes": [
+        "about_face_chunks_chunk_244_step_1__describe_customer_jour_customer_journeys",
+        "about_face_chunks_chunk_245_step_2__create_a_service_bluep_service_blueprint",
+        "about_face_chunks_chunk_246_step_3__create_experience_prot_experience_prototypes"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_243_Defining_the_service_design_fr.md"
+    }
+  ],
+  "input_tokens": 12000,
+  "output_tokens": 1500
+}

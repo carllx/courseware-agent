@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_451_idiomatic_interfaces_idiomatic_interfaces",
+      "label": "Idiomatic Interfaces",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_451_Idiomatic_interfaces.md",
+      "rationale": "Focuses on the learning of simple, non-metaphorical visual and behavioral idioms to accomplish tasks, rather than relying on technical knowledge or metaphors."
+    },
+    {
+      "id": "about_face_chunks_chunk_456_building_idioms_interaction_vocabulary",
+      "label": "Interaction Vocabulary",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_456_Building_Idioms.md",
+      "rationale": "A structured set of interaction elements following an inverted pyramid: primitives (bottom), compounds (middle), and idioms (top)."
+    },
+    {
+      "id": "about_face_chunks_chunk_457_manual_affordances_manual_affordances",
+      "label": "Manual Affordances",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_457_Manual_Affordances.md",
+      "rationale": "Instinctive understanding of how objects are manipulated with our hands, based on their shape. Altered from Norman's definition to be purely cognitive."
+    },
+    {
+      "id": "about_face_chunks_chunk_460_direct_manipulation_and_plianc_direct_manipulation",
+      "label": "Direct Manipulation",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_460_Direct_Manipulation_and_Plianc.md",
+      "rationale": "Visual representation and gestural mechanisms for acting on data objects with immediately visible results (coined by Ben Shneiderman)."
+    },
+    {
+      "id": "about_face_chunks_chunk_463_pliancy_and_hinting_pliancy",
+      "label": "Pliancy",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_463_Pliancy_and_hinting.md",
+      "rationale": "The property of objects or screen areas that react to input and that the user can manipulate directly."
+    },
+    {
+      "id": "about_face_chunks_chunk_464_design_principle_pliancy_hinting",
+      "label": "Pliancy Hinting Principle",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_464_DESIGN_PRINCIPLE.md",
+      "rationale": "Visually communicate pliancy whenever possible to let users know an object can be manipulated."
+    },
+    {
+      "id": "about_face_chunks_chunk_465_static_hinting_static_hinting",
+      "label": "Static Hinting",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_465_Static_hinting.md",
+      "rationale": "Communicating pliancy through the static rendering of the object itself, such as 3D sculpting of a button."
+    },
+    {
+      "id": "about_face_chunks_chunk_466_dynamic_hinting_dynamic_hinting",
+      "label": "Dynamic Hinting",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_466_Dynamic_hinting.md",
+      "rationale": "Object temporarily changes appearance when the cursor passes over it (rollover) before any click occurs."
+    },
+    {
+      "id": "about_face_chunks_chunk_467_pliant_response_hinting_pliant_response_hinting",
+      "label": "Pliant Response Hinting",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_467_Pliant_response_hinting.md",
+      "rationale": "Visual feedback showing an object is poised to undergo a state change (e.g., button becoming indented when pressed but not yet released)."
+    },
+    {
+      "id": "about_face_chunks_chunk_468_cursor_hinting_cursor_hinting",
+      "label": "Cursor Hinting",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_468_Cursor_hinting.md",
+      "rationale": "Communicating pliancy by changing the cursor's appearance as it passes over an object or screen area."
+    },
+    {
+      "id": "about_face_chunks_chunk_472_data_integrity_versus_data_imm_data_integrity",
+      "label": "Data Integrity (Implementation Model)",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_472_Data_integrity_versus_data_imm.md",
+      "rationale": "The imperative of validating all data at point of entry to ensure it is pristine, which places database needs before user needs."
+    },
+    {
+      "id": "about_face_chunks_chunk_472_data_integrity_versus_data_imm_data_immunity",
+      "label": "Data Immunity",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_472_Data_integrity_versus_data_imm.md",
+      "rationale": "Building applications to handle permutations of data smoothly without rigid validation lockouts, prioritizing human workflow."
+    },
+    {
+      "id": "about_face_chunks_chunk_474_data_entry_and_fudgeability_fudgeability",
+      "label": "Fudgeability",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_474_Data_entry_and_fudgeability.md",
+      "rationale": "The ability of an application to accept exceptions or slightly irregular data to prevent stopping real-world business workflows."
+    },
+    {
+      "id": "about_face_chunks_chunk_475_auditing_versus_editing_auditing_vs_editing",
+      "label": "Auditing vs Editing",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_475_Auditing_versus_editing.md",
+      "rationale": "Separating the act of entering data (editing) from the validation of data (auditing) to avoid interrupting the user's flow."
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_460_direct_manipulation_and_plianc_direct_manipulation",
+      "target": "about_face_chunks_chunk_463_pliancy_and_hinting_pliancy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_463_Pliancy_and_hinting.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_463_pliancy_and_hinting_pliancy",
+      "target": "about_face_chunks_chunk_464_design_principle_pliancy_hinting",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_464_DESIGN_PRINCIPLE.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_465_static_hinting_static_hinting",
+      "target": "about_face_chunks_chunk_463_pliancy_and_hinting_pliancy",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_465_Static_hinting.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_466_dynamic_hinting_dynamic_hinting",
+      "target": "about_face_chunks_chunk_463_pliancy_and_hinting_pliancy",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_466_Dynamic_hinting.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_467_pliant_response_hinting_pliant_response_hinting",
+      "target": "about_face_chunks_chunk_463_pliancy_and_hinting_pliancy",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_467_Pliant_response_hinting.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_468_cursor_hinting_cursor_hinting",
+      "target": "about_face_chunks_chunk_463_pliancy_and_hinting_pliancy",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_468_Cursor_hinting.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_472_data_integrity_versus_data_imm_data_immunity",
+      "target": "about_face_chunks_chunk_472_data_integrity_versus_data_imm_data_integrity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_472_Data_integrity_versus_data_imm.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_474_data_entry_and_fudgeability_fudgeability",
+      "target": "about_face_chunks_chunk_472_data_integrity_versus_data_imm_data_immunity",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_474_Data_entry_and_fudgeability.md",
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_475_auditing_versus_editing_auditing_vs_editing",
+      "target": "about_face_chunks_chunk_472_data_integrity_versus_data_imm_data_immunity",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_475_Auditing_versus_editing.md",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "about_face_pliancy_hinting_types",
+      "label": "Types of Pliancy Hinting",
+      "nodes": [
+        "about_face_chunks_chunk_465_static_hinting_static_hinting",
+        "about_face_chunks_chunk_466_dynamic_hinting_dynamic_hinting",
+        "about_face_chunks_chunk_467_pliant_response_hinting_pliant_response_hinting",
+        "about_face_chunks_chunk_468_cursor_hinting_cursor_hinting"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/private/tmp/about_face_chunks/chunk_464_DESIGN_PRINCIPLE.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

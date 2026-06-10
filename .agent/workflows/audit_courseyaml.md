@@ -31,11 +31,9 @@ description: 深度审计 — Part F (course.yaml 合规性检查 F1-F16)。仅�
     *   **无悬空引用**：`calendar[].supported_objectives` 中的引用（如 `知识2`）必须在 `objectives` 中有对应编号
     *   **无孤儿目标**：`objectives` 中每条目标至少被一个 CalendarWeek 的 `supported_objectives` 引用；若有孤儿目标，标记警告但不 Fail（允许存在但不教学的预留目标）
     *   检查时同步生成引用覆盖率报告：`知识N/能力N/素质N` 各被引用的周次列表
-*   **F6: `experiments[].type` 枚举合法性（ADR 011）**
-    *   合法值仅限 `验证性`/`综合性`/`设计性`/`演示性`（含「性」后缀）
-    *   检查方法：遍历 `experiments[].type`，比对枚举白名单
-*   **F7: 跨实验类型多样性（ADR 011）**
-    *   `experiments[]` 中不同 `type` 种类 ≥ 3
+*   **F6: `experiments[].type` 枚举合法性（ADR 011 / 实验新规）**
+    *   合法值仅限 `设计性` 和 `综合性`。不再允许验证性、演示性等其他类型。
+    *   检查方法：遍历 `experiments[].type`，比对白名单 `["设计性", "综合性"]`。
 *   **F8: `group_size` 和 `requirement` 字段存在性（ADR 011）**
     *   `experiments[]` 每项的 `group_size` 和 `requirement` 必须存在且非空
 *   **F9: `final_item` 必填性（ADR 011）**
@@ -81,3 +79,9 @@ description: 深度审计 — Part F (course.yaml 合规性检查 F1-F16)。仅�
     *   未被任何脚本引用 → 标记 `[HUB_ORPHAN]` ⚠️，附带条目 ID、类型与摘要
     *   **与 F5 的区别**：F5 检查 `supported_objectives` 引用完整性（目标 → 周次），F16 检查知识库条目引用完整性（条目 → 脚本）
     *   **原理**：入库但未入链的条目意味着知识库索引与教学实践脱节——要么是遗漏引用，要么应从 hub 移除
+
+*   **F17: 实验数量与排布硬性约束（实验新规）**
+    *   本检查依赖 `hours.practice` (实践学时) 和 `experiments` 数组。
+    *   **40实践学时课程**：`experiments` 长度必须恰好为 3。排布必须为：Exp1(设计性), Exp2(设计性), Exp3(综合性)。
+    *   **60实践学时课程**：`experiments` 长度必须恰好为 4。排布必须为：Exp1(设计性), Exp2(设计性), Exp3(设计性), Exp4(综合性)。
+    *   **类型兜底检查**：不论实践学时，`综合性` 实验必须有且只有一个，且必须是数组的最后一个元素。

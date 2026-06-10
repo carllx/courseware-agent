@@ -1,0 +1,672 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_401_let_users_direct_rather_than_d_let_users_direct_rather_than_discuss",
+      "label": "Let users direct rather than discuss",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_401_Let_users_direct_rather_than_d.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_401_let_users_direct_rather_than_d_direct_manipulation",
+      "label": "Direct Manipulation",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_401_Let_users_direct_rather_than_d.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_402_provide_choices_rather_than_as_provide_choices_rather_than_ask_questions",
+      "label": "Provide choices rather than ask questions",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_402_Provide_choices_rather_than_as.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_403_keep_necessary_tools_close_at__keep_necessary_tools_close_at_hand",
+      "label": "Keep necessary tools close at hand",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_403_Keep_necessary_tools_close_at_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_404_provide_modeless_feedback_provide_modeless_feedback",
+      "label": "Provide modeless feedback",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_404_Provide_modeless_feedback.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_405_design_for_the_probable_but_an_design_for_the_probable_but_anticipate_the_possible",
+      "label": "Design for the probable but anticipate the possible",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_405_Design_for_the_probable_but_an.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_406_contextualize_information_contextualize_information",
+      "label": "Contextualize information",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_406_Contextualize_information.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_406_contextualize_information_edward_tufte",
+      "label": "Edward Tufte",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_406_Contextualize_information.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_407_reflect_object_and_application_reflect_object_and_application_status",
+      "label": "Reflect object and application status",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_407_Reflect_object_and_application.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_407_reflect_object_and_application_baxter_robot",
+      "label": "Baxter Robot",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_407_Reflect_object_and_application.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_408_avoid_unnecessary_reporting_avoid_unnecessary_reporting",
+      "label": "Avoid unnecessary reporting",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_408_Avoid_unnecessary_reporting.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_409_design_principle_dont_use_dialogs_to_report_normalcy",
+      "label": "DESIGN PRINCIPLE: Don't use dialogs to report normalcy",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_409_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_410_avoid_blank_slates_avoid_blank_slates",
+      "label": "Avoid blank slates",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_410_Avoid_blank_slates.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_411_design_principle_ask_for_forgiveness_not_permission",
+      "label": "DESIGN PRINCIPLE: Ask for forgiveness, not permission",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_411_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_412_differentiate_between_command__differentiate_between_command_and_configuration",
+      "label": "Differentiate between command and configuration",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_412_Differentiate_between_command_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_413_hide_the_ejector_seat_levers_hide_the_ejector_seat_levers",
+      "label": "Hide the ejector seat levers",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_413_Hide_the_ejector_seat_levers.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_414_optimize_for_responsiveness_bu_optimize_for_responsiveness_but_accommodate_latency",
+      "label": "Optimize for responsiveness but accommodate latency",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_414_Optimize_for_responsiveness_bu.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_415_motion__timing__and_transition_motion_timing_and_transitions",
+      "label": "Motion, Timing, and Transitions",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_415_Motion__Timing__and_Transition.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_415_motion__timing__and_transition_microinteractions_book",
+      "label": "Microinteractions (O'Reilly, 2013)",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_415_Motion__Timing__and_Transition.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_415_motion__timing__and_transition_dan_saffer",
+      "label": "Dan Saffer",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_415_Motion__Timing__and_Transition.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_416_the_ideal_of_effortlessness_the_ideal_of_effortlessness",
+      "label": "The Ideal of Effortlessness",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_416_The_Ideal_of_Effortlessness.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_417_reducing_work_and_eliminating__reducing_work_and_eliminating_excise",
+      "label": "REDUCING WORK AND ELIMINATING EXCISE",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_417_REDUCING_WORK_AND_ELIMINATING_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_417_reducing_work_and_eliminating__cognitive_work",
+      "label": "Cognitive work",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_417_REDUCING_WORK_AND_ELIMINATING_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_417_reducing_work_and_eliminating__memory_work",
+      "label": "Memory work",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_417_REDUCING_WORK_AND_ELIMINATING_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_417_reducing_work_and_eliminating__visual_work",
+      "label": "Visual work",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_417_REDUCING_WORK_AND_ELIMINATING_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_417_reducing_work_and_eliminating__physical_work",
+      "label": "Physical work",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_417_REDUCING_WORK_AND_ELIMINATING_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_418_goal_directed_tasks_versus_exc_goal_directed_tasks",
+      "label": "Goal-Directed Tasks",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_418_Goal_Directed_Tasks_versus_Exc.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_418_goal_directed_tasks_versus_exc_excise_tasks",
+      "label": "Excise Tasks",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_418_Goal_Directed_Tasks_versus_Exc.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_419_types_of_excise_types_of_excise",
+      "label": "Types of Excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_419_Types_of_Excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_419_types_of_excise_eliminate_excise_wherever_possible",
+      "label": "DESIGN PRINCIPLE: Eliminate excise wherever possible",
+      "file_type": "rationale",
+      "source_file": "/private/tmp/about_face_chunks/chunk_419_Types_of_Excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_420_navigational_excise_navigational_excise",
+      "label": "Navigational excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_420_Navigational_excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_421_navigation_across_multiple_scr_navigation_across_multiple_screens_views_or_pages",
+      "label": "Navigation across multiple screens, views, or pages",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_421_Navigation_across_multiple_scr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_422_navigation_between_panes_navigation_between_panes",
+      "label": "Navigation between panes",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_422_Navigation_between_panes.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_423_navigation_between_tools_and_m_navigation_between_tools_and_menus",
+      "label": "Navigation between tools and menus",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_423_Navigation_between_tools_and_m.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_424_navigation_of_information_navigation_of_information",
+      "label": "Navigation of information",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_424_Navigation_of_information.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "about_face_chunks_chunk_425_skeuomorphic_excise_skeuomorphic_excise",
+      "label": "Skeuomorphic excise",
+      "file_type": "concept",
+      "source_file": "/private/tmp/about_face_chunks/chunk_425_Skeuomorphic_excise.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_401_let_users_direct_rather_than_d_let_users_direct_rather_than_discuss",
+      "target": "about_face_chunks_chunk_401_let_users_direct_rather_than_d_direct_manipulation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_402_provide_choices_rather_than_as_provide_choices_rather_than_ask_questions",
+      "target": "about_face_chunks_chunk_401_let_users_direct_rather_than_d_let_users_direct_rather_than_discuss",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_406_contextualize_information_contextualize_information",
+      "target": "about_face_chunks_chunk_406_contextualize_information_edward_tufte",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_407_reflect_object_and_application_reflect_object_and_application_status",
+      "target": "about_face_chunks_chunk_407_reflect_object_and_application_baxter_robot",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_407_reflect_object_and_application_reflect_object_and_application_status",
+      "target": "about_face_chunks_chunk_404_provide_modeless_feedback_provide_modeless_feedback",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_408_avoid_unnecessary_reporting_avoid_unnecessary_reporting",
+      "target": "about_face_chunks_chunk_409_design_principle_dont_use_dialogs_to_report_normalcy",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_410_avoid_blank_slates_avoid_blank_slates",
+      "target": "about_face_chunks_chunk_411_design_principle_ask_for_forgiveness_not_permission",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_413_hide_the_ejector_seat_levers_hide_the_ejector_seat_levers",
+      "target": "about_face_chunks_chunk_412_differentiate_between_command__differentiate_between_command_and_configuration",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_415_motion__timing__and_transition_motion_timing_and_transitions",
+      "target": "about_face_chunks_chunk_415_motion__timing__and_transition_microinteractions_book",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_415_motion__timing__and_transition_microinteractions_book",
+      "target": "about_face_chunks_chunk_415_motion__timing__and_transition_dan_saffer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_416_the_ideal_of_effortlessness_the_ideal_of_effortlessness",
+      "target": "about_face_chunks_chunk_415_motion__timing__and_transition_motion_timing_and_transitions",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_417_reducing_work_and_eliminating__reducing_work_and_eliminating_excise",
+      "target": "about_face_chunks_chunk_417_reducing_work_and_eliminating__cognitive_work",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_417_reducing_work_and_eliminating__reducing_work_and_eliminating_excise",
+      "target": "about_face_chunks_chunk_417_reducing_work_and_eliminating__memory_work",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_417_reducing_work_and_eliminating__reducing_work_and_eliminating_excise",
+      "target": "about_face_chunks_chunk_417_reducing_work_and_eliminating__visual_work",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_417_reducing_work_and_eliminating__reducing_work_and_eliminating_excise",
+      "target": "about_face_chunks_chunk_417_reducing_work_and_eliminating__physical_work",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_417_reducing_work_and_eliminating__reducing_work_and_eliminating_excise",
+      "target": "about_face_chunks_chunk_418_goal_directed_tasks_versus_exc_excise_tasks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_417_reducing_work_and_eliminating__reducing_work_and_eliminating_excise",
+      "target": "about_face_chunks_chunk_418_goal_directed_tasks_versus_exc_goal_directed_tasks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_419_types_of_excise_types_of_excise",
+      "target": "about_face_chunks_chunk_419_types_of_excise_eliminate_excise_wherever_possible",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_419_types_of_excise_types_of_excise",
+      "target": "about_face_chunks_chunk_418_goal_directed_tasks_versus_exc_excise_tasks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_419_types_of_excise_types_of_excise",
+      "target": "about_face_chunks_chunk_420_navigational_excise_navigational_excise",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_420_navigational_excise_navigational_excise",
+      "target": "about_face_chunks_chunk_421_navigation_across_multiple_scr_navigation_across_multiple_screens_views_or_pages",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_420_navigational_excise_navigational_excise",
+      "target": "about_face_chunks_chunk_422_navigation_between_panes_navigation_between_panes",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_420_navigational_excise_navigational_excise",
+      "target": "about_face_chunks_chunk_423_navigation_between_tools_and_m_navigation_between_tools_and_menus",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_420_navigational_excise_navigational_excise",
+      "target": "about_face_chunks_chunk_424_navigation_of_information_navigation_of_information",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_419_types_of_excise_types_of_excise",
+      "target": "about_face_chunks_chunk_425_skeuomorphic_excise_skeuomorphic_excise",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": null,
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "types_of_excise_collection",
+      "label": "Types of Excise",
+      "nodes": [
+        "about_face_chunks_chunk_420_navigational_excise_navigational_excise",
+        "about_face_chunks_chunk_421_navigation_across_multiple_scr_navigation_across_multiple_screens_views_or_pages",
+        "about_face_chunks_chunk_422_navigation_between_panes_navigation_between_panes",
+        "about_face_chunks_chunk_423_navigation_between_tools_and_m_navigation_between_tools_and_menus",
+        "about_face_chunks_chunk_424_navigation_of_information_navigation_of_information",
+        "about_face_chunks_chunk_425_skeuomorphic_excise_skeuomorphic_excise"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/private/tmp/about_face_chunks/chunk_419_Types_of_Excise.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

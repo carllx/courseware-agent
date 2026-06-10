@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_176_served_personas_served_personas",
+      "label": "Served Personas",
+      "file_type": "concept",
+      "source_file": "chunk_176_Served_personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Used to track second-order social and physical ramifications of products."
+    },
+    {
+      "id": "about_face_chunks_chunk_177_negative_personas_negative_personas",
+      "label": "Negative Personas",
+      "file_type": "concept",
+      "source_file": "chunk_177_Negative_personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Used rhetorically to communicate to the team that a persona should not be the product's design target."
+    },
+    {
+      "id": "about_face_chunks_chunk_179_the_persona_narrative_persona_narrative",
+      "label": "Persona Narrative",
+      "file_type": "concept",
+      "source_file": "chunk_179_The_persona_narrative.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A synthesis of the most important details observed during research, conveyed as a third-person narrative."
+    },
+    {
+      "id": "about_face_chunks_chunk_181_the_persona_photo_persona_photo",
+      "label": "Persona Photo",
+      "file_type": "concept",
+      "source_file": "chunk_181_The_persona_photo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Photographs make personas feel more real and engage the team."
+    },
+    {
+      "id": "about_face_chunks_chunk_185_persons_aren_t_as_useful_as_in_participatory_design",
+      "label": "Participatory Design",
+      "file_type": "concept",
+      "source_file": "chunk_185_Persons_aren_t_as_useful_as_in.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Involving real users in the design process, which can sometimes miss common behaviors across broader sets of users."
+    },
+    {
+      "id": "about_face_chunks_chunk_188_quantifying_personas_market_segmentation",
+      "label": "Market Segmentation",
+      "file_type": "concept",
+      "source_file": "chunk_188_Quantifying_personas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Divides customers based on demographics, unlike personas which are based on behaviors."
+    },
+    {
+      "id": "about_face_chunks_chunk_189_organizational__persons__organizational_personas",
+      "label": "Organizational Personas",
+      "file_type": "concept",
+      "source_file": "chunk_189_Organizational__persons_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Fictional personas describing the behaviors of organizations."
+    },
+    {
+      "id": "about_face_chunks_chunk_190_when_resources_are_limited__pr_provisional_personas",
+      "label": "Provisional Personas",
+      "file_type": "concept",
+      "source_file": "chunk_190_When_resources_are_limited__pr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Ad hoc personas used when there's not enough data, based on best guesses."
+    },
+    {
+      "id": "about_face_chunks_chunk_192_work_flow_models_work_flow_models",
+      "label": "Work Flow Models",
+      "file_type": "concept",
+      "source_file": "chunk_192_Work_flow_models.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Used for capturing information flow and decision-making processes inside organizations."
+    },
+    {
+      "id": "about_face_chunks_chunk_193_artifact_models_artifact_models",
+      "label": "Artifact Models",
+      "file_type": "concept",
+      "source_file": "chunk_193_Artifact_models.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Represent different artifacts users employ in tasks, like forms."
+    },
+    {
+      "id": "about_face_chunks_chunk_194_physical_models_physical_models",
+      "label": "Physical Models",
+      "file_type": "concept",
+      "source_file": "chunk_194_Physical_models.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Capture the layout of physical objects comprising the user's workspace."
+    },
+    {
+      "id": "about_face_chunks_chunk_196_setting_the_vision__scenarios__scenarios",
+      "label": "Scenarios",
+      "file_type": "concept",
+      "source_file": "chunk_196_SETTING_THE_VISION__SCENARIOS_.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Narrative as a design tool to define product behavior from specific users' standpoints."
+    },
+    {
+      "id": "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_use_cases",
+      "label": "Use Cases",
+      "file_type": "concept",
+      "source_file": "chunk_199_Scenarios_versus_use_cases_and.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Exhaustive descriptions of system functional requirements, differing from scenario interactions."
+    },
+    {
+      "id": "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_user_stories",
+      "label": "User Stories",
+      "file_type": "concept",
+      "source_file": "chunk_199_Scenarios_versus_use_cases_and.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Short sentences phrased for agile programming, lacking the holistic view of scenarios."
+    },
+    {
+      "id": "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_epics",
+      "label": "Epics",
+      "file_type": "concept",
+      "source_file": "chunk_199_Scenarios_versus_use_cases_and.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Agile method akin to scenarios, describing broader clusters of interactions."
+    },
+    {
+      "id": "about_face_chunks_chunk_200_scenario_based_design_scenario_based_design",
+      "label": "Scenario-Based Design",
+      "file_type": "concept",
+      "source_file": "chunk_200_Scenario_based_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A method of design problem solving by concretization using stories."
+    },
+    {
+      "id": "about_face_chunks_chunk_200_scenario_based_design_john_m_carroll",
+      "label": "John M. Carroll",
+      "file_type": "concept",
+      "source_file": "chunk_200_Scenario_based_design.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_use_cases",
+      "target": "about_face_chunks_chunk_196_setting_the_vision__scenarios__scenarios",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_199_Scenarios_versus_use_cases_and.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_user_stories",
+      "target": "about_face_chunks_chunk_196_setting_the_vision__scenarios__scenarios",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_199_Scenarios_versus_use_cases_and.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_epics",
+      "target": "about_face_chunks_chunk_196_setting_the_vision__scenarios__scenarios",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_199_Scenarios_versus_use_cases_and.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_200_scenario_based_design_scenario_based_design",
+      "target": "about_face_chunks_chunk_200_scenario_based_design_john_m_carroll",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_200_Scenario_based_design.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_190_when_resources_are_limited__pr_provisional_personas",
+      "target": "about_face_chunks_chunk_185_persons_aren_t_as_useful_as_in_participatory_design",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "chunk_190_When_resources_are_limited__pr.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "about_face_chunks_chunk_199_agile_methods",
+      "label": "Agile Methods",
+      "nodes": [
+        "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_user_stories",
+        "about_face_chunks_chunk_199_scenarios_versus_use_cases_and_epics"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_199_Scenarios_versus_use_cases_and.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

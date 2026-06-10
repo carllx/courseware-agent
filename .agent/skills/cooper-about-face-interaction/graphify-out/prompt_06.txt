@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=6, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_06.json
+FILES:
+/private/tmp/about_face_chunks/chunk_126_The_Power_of_Personas.md
+/private/tmp/about_face_chunks/chunk_127_Strengths_of_personas_as_a_des.md
+/private/tmp/about_face_chunks/chunk_128_Design_pitfalls_that_personas_.md
+/private/tmp/about_face_chunks/chunk_129_The_elastic_user.md
+/private/tmp/about_face_chunks/chunk_130_Self_referential_design.md
+/private/tmp/about_face_chunks/chunk_131_Edge_cases.md
+/private/tmp/about_face_chunks/chunk_132_Why_Personas_Are_Effective.md
+/private/tmp/about_face_chunks/chunk_133_Personas_are_based_on_research.md
+/private/tmp/about_face_chunks/chunk_134_Personas_represent_types_of_us.md
+/private/tmp/about_face_chunks/chunk_135_Personas_used_across_multiple_.md
+/private/tmp/about_face_chunks/chunk_136_Archetypes_versus_stereotypes.md
+/private/tmp/about_face_chunks/chunk_137_Personas_explore_ranges_of_beh.md
+/private/tmp/about_face_chunks/chunk_138_Personas_have_motivations.md
+/private/tmp/about_face_chunks/chunk_139_Personas_can_represent_relevan.md
+/private/tmp/about_face_chunks/chunk_140_Personas_are_more_appropriate_.md
+/private/tmp/about_face_chunks/chunk_141_User_roles.md
+/private/tmp/about_face_chunks/chunk_142_Personas_versus_user_profiles.md
+/private/tmp/about_face_chunks/chunk_143_Personas_versus_market_segment.md
+/private/tmp/about_face_chunks/chunk_144_Understanding_Goals.md
+/private/tmp/about_face_chunks/chunk_145_Goals_motivate_usage_patterns.md
+/private/tmp/about_face_chunks/chunk_146_Goals_should_be_inferred_from_.md
+/private/tmp/about_face_chunks/chunk_147_User_goals_and_cognitive_proce.md
+/private/tmp/about_face_chunks/chunk_148_Designing_for_visceral_respons.md
+/private/tmp/about_face_chunks/chunk_149_Designing_for_behavior.md
+/private/tmp/about_face_chunks/chunk_150_Designing_for_reflection.md

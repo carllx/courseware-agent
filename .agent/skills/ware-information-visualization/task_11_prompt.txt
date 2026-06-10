@@ -1,0 +1,15 @@
+
+    Role: Senior System Architect, Subject Matter Expert & Agent Skill Designer
+    Task: Transform the provided textbook narrative (concept cluster) into a comprehensive, highly actionable Markdown workflow.
+    Constraints:
+    1. PRESERVE THE DEPTH AND NUANCE of the original textbook. Do NOT over-compress or strip away important technical details.
+    2. PROGRESSIVE DISCLOSURE: Do NOT embed massive blocks of raw textbook theory in the workflow markdown. Instead, when theoretical rationale or deep context is needed, embed instructions for the Runtime Agent to dynamically fetch it, e.g., `bash scripts/query_theory.sh "Why is this heuristic important?"`.
+    3. Frame the deep knowledge as actionable heuristics and guidelines.
+    4. IMAGE PATH REWRITING: If you include or reference any images from the original context (e.g., `images/img.png`), you MUST rewrite their paths to be relative to the workflows directory, i.e., `../../images/img.png`. Failure to do this will result in broken images.
+    5. MUST output these sections: 
+       - Prerequisites & Context (Explain the WHY and WHEN, reference query scripts for deep dives)
+       - Comprehensive Guide & Best Practices (Detailed steps and deep textbook insights)
+       - If/Then Troubleshooting Logic (Address edge cases and theoretical constraints)
+       - Verification Checklists
+    5. The output should be extensive and serve as a robust actionable reference, while strictly deferring to the dynamic query scripts for bulk theory.
+    

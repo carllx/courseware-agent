@@ -1,0 +1,323 @@
+{
+  "nodes": [
+    {
+      "id": "about_face_chunks_chunk_851_unbounded_entry__text_edit_con_text_edit_control",
+      "label": "Text Edit Control",
+      "file_type": "concept",
+      "source_file": "chunk_851_Unbounded_entry__text_edit_con.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Simple control allowing users to key in any alphanumeric text value. Should not be used for finite or strictly numeric values without validation."
+    },
+    {
+      "id": "about_face_chunks_chunk_852_validated_entry_controls_validated_entry_control",
+      "label": "Validated Entry Control",
+      "file_type": "concept",
+      "source_file": "chunk_852_Validated_entry_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Type of unbounded text-entry control with built-in validation and feedback. Crucial to give users generous, near real-time feedback."
+    },
+    {
+      "id": "about_face_chunks_chunk_853_active_and_passive_validation_active_validation",
+      "label": "Active Validation",
+      "file_type": "concept",
+      "source_file": "chunk_853_Active_and_passive_validation.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Rejects user keystrokes during the entry process if invalid."
+    },
+    {
+      "id": "about_face_chunks_chunk_853_active_and_passive_validation_passive_validation",
+      "label": "Passive Validation",
+      "file_type": "concept",
+      "source_file": "chunk_853_Active_and_passive_validation.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Validation takes place only when data reaches a threshold or focus is lost."
+    },
+    {
+      "id": "about_face_chunks_chunk_854_hints_hint",
+      "label": "Hint",
+      "file_type": "concept",
+      "source_file": "chunk_854_Hints.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Pop-up text explaining acceptable data, appears as soon as control detects invalid character or cursor hovers."
+    },
+    {
+      "id": "about_face_chunks_chunk_858_display_controls_display_control",
+      "label": "Display Control",
+      "file_type": "concept",
+      "source_file": "chunk_858_Display_controls.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Manage visual presentation of information onscreen or display read-only info."
+    },
+    {
+      "id": "about_face_chunks_chunk_860_scrollbars_scrollbar",
+      "label": "Scrollbar",
+      "file_type": "concept",
+      "source_file": "chunk_860_Scrollbars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Enables small windows to contain large amounts of info. Provides context about location and scale. Overused and demands high mouse precision."
+    },
+    {
+      "id": "about_face_chunks_chunk_860_scrollbars_document_navigator",
+      "label": "Document Navigator",
+      "file_type": "concept",
+      "source_file": "chunk_860_Scrollbars.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Alternative to scrollbar; uses thumbnail of entire document space to provide direct navigation."
+    },
+    {
+      "id": "about_face_chunks_chunk_861_splitters_splitter",
+      "label": "Splitter",
+      "file_type": "concept",
+      "source_file": "chunk_861_Splitters.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Divides sovereign application into multiple related panes."
+    },
+    {
+      "id": "about_face_chunks_chunk_862_drawers_and_levers_drawer",
+      "label": "Drawer",
+      "file_type": "concept",
+      "source_file": "chunk_862_Drawers_and_levers.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Pane in sovereign application that opens/closes with a single action, holding less frequently used controls."
+    },
+    {
+      "id": "about_face_chunks_chunk_862_drawers_and_levers_lever",
+      "label": "Lever",
+      "file_type": "concept",
+      "source_file": "chunk_862_Drawers_and_levers.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Control that swivels to open or close a drawer."
+    },
+    {
+      "id": "about_face_chunks_chunk_863_dialogs_dialog",
+      "label": "Dialog",
+      "file_type": "concept",
+      "source_file": "chunk_863_Dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Pop-up window superimposed over application to offer info and request input. Should play secondary role to main window."
+    },
+    {
+      "id": "about_face_chunks_chunk_867_modal_and_modeless_dialogs_modal_dialog",
+      "label": "Modal Dialog",
+      "file_type": "concept",
+      "source_file": "chunk_867_Modal_and_modeless_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Stops all proceedings in owning application until closed. Rigidly defined behavior."
+    },
+    {
+      "id": "about_face_chunks_chunk_867_modal_and_modeless_dialogs_modeless_dialog",
+      "label": "Modeless Dialog",
+      "file_type": "concept",
+      "source_file": "chunk_867_Modal_and_modeless_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Allows parent application to continue. More difficult to use because scope of operation is unclear."
+    },
+    {
+      "id": "about_face_chunks_chunk_874_property_dialogs_property_dialog",
+      "label": "Property Dialog",
+      "file_type": "concept",
+      "source_file": "chunk_874_Property_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Allows users to view and change settings or attributes. Typically modeless."
+    },
+    {
+      "id": "about_face_chunks_chunk_875_function_dialogs_function_dialog",
+      "label": "Function Dialog",
+      "file_type": "concept",
+      "source_file": "chunk_875_Function_dialogs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Usually launched from a menu to control a single function. Most frequently modal. Configures details of action and invokes it."
+    },
+    {
+      "id": "about_face_chunks_chunk_865_design_principle_design_principle__dialog_usage",
+      "label": "Design Principle: Dialog Usage",
+      "file_type": "concept",
+      "source_file": "chunk_865_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Dialogs are appropriate for organizing controls and info about a single domain object or application function. Primary interactions belong in primary window."
+    }
+  ],
+  "edges": [
+    {
+      "source": "about_face_chunks_chunk_852_validated_entry_controls_validated_entry_control",
+      "target": "about_face_chunks_chunk_851_unbounded_entry__text_edit_con_text_edit_control",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_852_Validated_entry_controls.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_853_active_and_passive_validation_active_validation",
+      "target": "about_face_chunks_chunk_852_validated_entry_controls_validated_entry_control",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_853_Active_and_passive_validation.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_853_active_and_passive_validation_passive_validation",
+      "target": "about_face_chunks_chunk_852_validated_entry_controls_validated_entry_control",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_853_Active_and_passive_validation.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_854_hints_hint",
+      "target": "about_face_chunks_chunk_852_validated_entry_controls_validated_entry_control",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_854_Hints.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_860_scrollbars_scrollbar",
+      "target": "about_face_chunks_chunk_858_display_controls_display_control",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_860_Scrollbars.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_862_drawers_and_levers_lever",
+      "target": "about_face_chunks_chunk_862_drawers_and_levers_drawer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_862_Drawers_and_levers.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_867_modal_and_modeless_dialogs_modal_dialog",
+      "target": "about_face_chunks_chunk_863_dialogs_dialog",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_867_Modal_and_modeless_dialogs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_867_modal_and_modeless_dialogs_modeless_dialog",
+      "target": "about_face_chunks_chunk_863_dialogs_dialog",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_867_Modal_and_modeless_dialogs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_874_property_dialogs_property_dialog",
+      "target": "about_face_chunks_chunk_863_dialogs_dialog",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_874_Property_dialogs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_875_function_dialogs_function_dialog",
+      "target": "about_face_chunks_chunk_863_dialogs_dialog",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_875_Function_dialogs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "about_face_chunks_chunk_865_design_principle_design_principle__dialog_usage",
+      "target": "about_face_chunks_chunk_863_dialogs_dialog",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chunk_865_DESIGN_PRINCIPLE.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

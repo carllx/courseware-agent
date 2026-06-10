@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=32, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_32.json
+FILES:
+/private/tmp/about_face_chunks/chunk_776_Swipe_up_down.md
+/private/tmp/about_face_chunks/chunk_777_Swipe_left.md
+/private/tmp/about_face_chunks/chunk_778_Swipe_right.md
+/private/tmp/about_face_chunks/chunk_779_Pinch_in_out.md
+/private/tmp/about_face_chunks/chunk_780_Rotate.md
+/private/tmp/about_face_chunks/chunk_781_Multifinger_swipes.md
+/private/tmp/about_face_chunks/chunk_782_Inter_App_Integration.md
+/private/tmp/about_face_chunks/chunk_783_Other_Devices.md
+/private/tmp/about_face_chunks/chunk_784_General_design_principles.md
+/private/tmp/about_face_chunks/chunk_785_Don_t_think_of_your_product_as.md
+/private/tmp/about_face_chunks/chunk_786_Integrate_your_hardware_and_so.md
+/private/tmp/about_face_chunks/chunk_787_Let_context_drive_the_design.md
+/private/tmp/about_face_chunks/chunk_788_Use_modes_judiciously__if_at_a.md
+/private/tmp/about_face_chunks/chunk_789_Limit_the_scope.md
+/private/tmp/about_face_chunks/chunk_790_Balance_navigation_with_displa.md
+/private/tmp/about_face_chunks/chunk_791_Minimize_input_complexity.md
+/private/tmp/about_face_chunks/chunk_792_Designing_for_single_purpose_h.md
+/private/tmp/about_face_chunks/chunk_793_Designing_for_kiosks.md
+/private/tmp/about_face_chunks/chunk_794_Transaction_versus_exploration.md
+/private/tmp/about_face_chunks/chunk_795_Interaction_in_a_public_enviro.md
+/private/tmp/about_face_chunks/chunk_796_Managing_input.md
+/private/tmp/about_face_chunks/chunk_797_Designing_for_10_foot_interfac.md
+/private/tmp/about_face_chunks/chunk_798_Designing_for_automotive_inter.md
+/private/tmp/about_face_chunks/chunk_799_Designing_for_audible_interfac.md
+/private/tmp/about_face_chunks/chunk_800_DESIGNING_FOR_THE_WEB.md

@@ -1,0 +1,29 @@
+Read extraction spec from /Users/yamlam/Downloads/carllx-skills/.agent/skills/graphify/references/extraction-spec.md
+CHUNK_NUM=16, TOTAL_CHUNKS=37, DEEP_MODE=false
+CHUNK_PATH=/tmp/about_face_chunks/graphify-out/.graphify_chunk_16.json
+FILES:
+/private/tmp/about_face_chunks/chunk_376_Postures_for_Other_Platforms.md
+/private/tmp/about_face_chunks/chunk_377_Kiosk_posture.md
+/private/tmp/about_face_chunks/chunk_378__Ten_foot__interface_posture.md
+/private/tmp/about_face_chunks/chunk_379_Automotive_interface_posture.md
+/private/tmp/about_face_chunks/chunk_380_Smart_appliance_posture.md
+/private/tmp/about_face_chunks/chunk_381_Give_Your_Apps_Good_Posture.md
+/private/tmp/about_face_chunks/chunk_382_OPTIMIZING_FOR_INTERMEDIATES.md
+/private/tmp/about_face_chunks/chunk_383_Perpetual_Intermediates.md
+/private/tmp/about_face_chunks/chunk_384_Inflecting_the_Interface.md
+/private/tmp/about_face_chunks/chunk_385_DESIGN_PRINCIPLE.md
+/private/tmp/about_face_chunks/chunk_386_Commensurate_effort.md
+/private/tmp/about_face_chunks/chunk_387_Progressive_disclosure.md
+/private/tmp/about_face_chunks/chunk_388_Organizing_for_inflection.md
+/private/tmp/about_face_chunks/chunk_389_Designing_for_Three_Levels_of_.md
+/private/tmp/about_face_chunks/chunk_390_What_beginners_need.md
+/private/tmp/about_face_chunks/chunk_391_Getting_beginners_on_board.md
+/private/tmp/about_face_chunks/chunk_392_Beginners_across_platforms.md
+/private/tmp/about_face_chunks/chunk_393_What_experts_need.md
+/private/tmp/about_face_chunks/chunk_394_What_perpetual_intermediates_n.md
+/private/tmp/about_face_chunks/chunk_395_ORCHESTRATION_AND_FLOW.md
+/private/tmp/about_face_chunks/chunk_396_Flow_and_Transparency.md
+/private/tmp/about_face_chunks/chunk_397_Orchestration.md
+/private/tmp/about_face_chunks/chunk_398_Harmonious_Interactions.md
+/private/tmp/about_face_chunks/chunk_399_Follow_users__mental_models.md
+/private/tmp/about_face_chunks/chunk_400_Less_is_more.md

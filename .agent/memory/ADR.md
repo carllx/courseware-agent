@@ -447,3 +447,16 @@ ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_t
 - 防止未来 Agent 再次因规范文件的自相矛盾而脑补出不合法的配置项。
 
 **变更文件**：`.agent/memory/ADR.md`、`.agent/skills/script_format/SKILL.md`。
+
+## ADR 045: 课程加载器 Fail-Fast 与实验学时独立对账 (SSOT Phase 2)
+**Date**: 2026-06-10
+**Context**: 在“实验文档 SSOT 架构重构”的四方博弈审计中，发现 `course_loader.py` 在排序遇到非数字 ID 时存在静默失败（try-except pass），导致输出乱序。此外，为保障单源数据向下兼容，`load_course_section` 内部混合了旧版读取和动态实验兜底逻辑，增加了架构不确定性。教务端接收到未阻断的残缺/乱序数据后往往直接崩溃。
+**Decision**:
+1. **统一兼容边界**: 清理 `course_loader.py`，移除 `load_course_section` 中的旧版动态读取兜底逻辑，保证全量加载和局部加载行为严格一致。
+2. **底层加载 Fail-Fast**: 使用正则表达式严格提取 `exp_id`。如果提取失败或完全缺失，强制抛出带有文件名的 `ValueError`，在数据管道最初端立即阻断构建进程，绝不隐式放行。
+3. **独立学时验证**: 将全局学时对账业务剥离出通用 Loader。在根目录新建 `validation-suite/check_experiment_hours.py`，负责累加所有 `exp_*.yaml` 中的 `hours`，与 `course_meta.yaml` 进行严格对账。同时将其挂载到统一检查入口 `validate_project.py`。
+**影响**:
+- 数据不合规的课程在编译起点就会立即抛错并挂起，防止烂数据流向渲染层。
+- Loader 职责回归纯粹读取（不再越权清洗或计算学时），学时对账业务转移至外部专业检查链。
+
+**变更文件**：`course_loader.py`、`validation-suite/check_experiment_hours.py`、`.agent/skills/validation_suite/scripts/validate_project.py`、`.agent/skills/validation_suite/SKILL.md`、`.agent/memory/ADR.md`。

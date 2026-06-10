@@ -11,12 +11,12 @@ description: 当执行 /write 撰写或 /audit 审查逐字稿时，强制从"�
 
 ## TL;DR
 
-7 条认知探针，覆盖 /audit 静态扫描的 7 类盲区。每条探针定义一种"学生体验层 Bug"，附带违规标记和严重度。完整走查协议见 `cognitive-walkthrough` Skill。
+8 条认知探针，覆盖 /audit 静态扫描的 8 类盲区。每条探针定义一种"学生体验层 Bug"，附带违规标记和严重度。完整走查协议见 `cognitive-walkthrough` Skill。
 **写作风格要求**：强制执行“物理动词映射”与“机械动作的价值锚定”，用感官同理心降低理解门槛（详见 §7）。
 
 ---
 
-## §1 七条认知探针 (7 Empathy Probes)
+## §1 八条认知探针 (8 Empathy Probes)
 
 | # | 探针名 | 检查内容 | 互补现有规范 | 违规标记 | 严重度 |
 |:---|:---|:---|:---|:---|:---:|
@@ -27,6 +27,7 @@ description: 当执行 /write 撰写或 /audit 审查逐字稿时，强制从"�
 | P5 | **Quiz 情境同构** | Quiz 题干的失败模式/概念结构，是否与前文 ≤1000 字内最后讲解的核心模式语义同构 | `rule_quiz_design.md` §3 要求情境化微剧本；本探针扩展到**模式同构性** | `[QUIZ_PATTERN_MISMATCH]` | 🟡 |
 | P6 | **术语/措辞同步** | Slide List/Text 字段的措辞，是否与 Speech 中的引用措辞一致（≥80% 语义一致性） | `validate_visual_text_sync.py` Q8 检查结构同步；本探针扩展到**措辞级**同步 | `[TERM_DESYNC]` | 🟡 |
 | P7 | **时序知识前提** | 基于学生**此刻**的知识累积（仅含前文已教内容），能否理解当前段落 | `rule_prerequisite_awareness.md` §1-§2 检查术语层时序；本探针在**完整走查**中动态执行（需状态追踪） | `[PREREQUISITE_GAP]` / `[VOCAB_OVERLOAD]` | 🔴 |
+| P8 | **语法降维护栏 (Syntax vs Intent)** | 当前段落（连续超过 150 字）是否在解释原生代码语法，而不是在解释"如何用自然语言生成这部分代码的意图" | `rule_vibe_coding.md` §1-§3 约束；本探针负责拦截**传统手敲代码教学风格的回归** | `[SYNTAX_OVERLOAD]` | 🔴 |
 
 ---
 
@@ -38,7 +39,7 @@ description: 当执行 /write 撰写或 /audit 审查逐字稿时，强制从"�
 
 ### 2.2 审计时触发（/audit Part B-8）
 
-在 `/audit` Standard 级别的 Part B（Deep Listen）中，作为 **Part B-8: 学生视角逻辑压力测试** 执行全部 7 条探针。
+在 `/audit` Standard 级别的 Part B（Deep Listen）中，作为 **Part B-8: 学生视角逻辑压力测试** 执行全部 8 条探针。
 
 ### 2.3 独立走查触发
 
@@ -62,6 +63,7 @@ description: 当执行 /write 撰写或 /audit 审查逐字稿时，强制从"�
 
 1. 🔴 `[SCENE_INTENT_MISMATCH]`：修正 VISUAL 块 Scene/Asset，使视觉主角与论证主角一致
 2. 🔴 `[SOLUTION_OUT_OF_BOUNDS]`：将解法收窄至 DMA 学生能力范围（`rule_dma_course_design.md` §1）
+3. 🔴 `[SYNTAX_OVERLOAD]`：将纯语法解释段落重写为"向 AI 提供提示词的策略与架构解析"（`rule_vibe_coding.md`）
 3. 🔴 `[COGNITIVE_WHIPLASH]`：在立场反转前插入"先肯定后升级"缓冲桥梁（≥2 句）
 4. 🔴 `[PREREQUISITE_GAP]`：按 `rule_prerequisite_awareness.md` §1.2 四选一处置
 5. 🟡 其他标记：按诊断报告建议逐项修复

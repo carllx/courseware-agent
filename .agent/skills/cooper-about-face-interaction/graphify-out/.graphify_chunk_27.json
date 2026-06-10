@@ -1,0 +1,472 @@
+{
+"nodes": [
+{
+"id": "about_face_chunks_chunk_651_disabled_menu_items_disabled_menu_items",
+"label": "Disabled menu items",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_651_Disabled_menu_items.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_652_check_mark_menu_items_check_mark_menu_items",
+"label": "Check mark menu items",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_652_Check_mark_menu_items.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_653_icons_on_menus_icons_on_menus",
+"label": "Icons on menus",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_653_Icons_on_menus.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_654_accelerators_accelerators",
+"label": "Accelerators",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_654_Accelerators.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_655_access_keys_access_keys",
+"label": "Access keys",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_655_Access_keys.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_656_cascading_menus_versus_monocli_cascading_menus",
+"label": "Cascading menus",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_656_Cascading_menus_versus_monocli.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_656_cascading_menus_versus_monocli_monocline_groupings",
+"label": "Monocline groupings",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_656_Cascading_menus_versus_monocli.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_toolbars",
+"label": "Toolbars",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_657_Toolbars__Palettes__and_Sideba.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_tool_palettes",
+"label": "Tool palettes",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_657_Toolbars__Palettes__and_Sideba.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_sidebars",
+"label": "Sidebars",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_657_Toolbars__Palettes__and_Sideba.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_659_toolbars_versus_modeless_dialo_modeless_dialogs",
+"label": "Modeless dialogs",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_659_Toolbars_versus_modeless_dialo.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_660_toolbar_buttons_toolbar_buttons",
+"label": "Toolbar buttons",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_660_ToolBar_buttons.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_661_tooltips_tooltips",
+"label": "ToolTips",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_661_ToolTips.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_662_disabling_toolbar_controls_disabling_toolbar_controls",
+"label": "Disabling toolbar controls",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_662_Disabling_toolbar_controls.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_664_movable_toolbars_movable_toolbars",
+"label": "Movable toolbars",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_664_Movable_toolbars.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_665_customizable_toolbars_customizable_toolbars",
+"label": "Customizable toolbars",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_665_Customizable_toolbars.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_666_contextual__pop_up__toolbars_contextual_toolbars",
+"label": "Contextual toolbars",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_666_Contextual__pop_up__toolbars.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_667_the_ribbon_control_ribbon_control",
+"label": "Ribbon control",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_667_The_ribbon_control.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_669_sidebars__task_panes__and_draw_task_panes",
+"label": "Task panes",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_669_Sidebars__task_panes__and_draw.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_669_sidebars__task_panes__and_draw_drawers",
+"label": "Drawers",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_669_Sidebars__task_panes__and_draw.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_670_pointing__selection__and_direc_pointing",
+"label": "Pointing",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_670_Pointing__Selection__and_Direc.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_670_pointing__selection__and_direc_direct_manipulation",
+"label": "Direct manipulation",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_670_Pointing__Selection__and_Direc.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_671_mouse_ergonomics_mouse_ergonomics",
+"label": "Mouse ergonomics",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_671_Mouse_ergonomics.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_671_mouse_ergonomics_fine_motor_skills",
+"label": "Fine motor skills",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_671_Mouse_ergonomics.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_671_mouse_ergonomics_gross_motor_skills",
+"label": "Gross motor skills",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_671_Mouse_ergonomics.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_672_design_principle_support_both_mouse_and_keyboard",
+"label": "Support both mouse and keyboard",
+"file_type": "rationale",
+"source_file": "/private/tmp/about_face_chunks/chunk_672_DESIGN_PRINCIPLE.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_673_mouse_buttons_and_controls_mouse_buttons",
+"label": "Mouse buttons",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_673_Mouse_buttons_and_controls.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_674_left_mouse_button_left_mouse_button",
+"label": "Left mouse button",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_674_Left_mouse_button.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+},
+{
+"id": "about_face_chunks_chunk_675_right_mouse_button_right_mouse_button",
+"label": "Right mouse button",
+"file_type": "concept",
+"source_file": "/private/tmp/about_face_chunks/chunk_675_Right_mouse_button.md",
+"source_location": null,
+"source_url": null,
+"captured_at": null,
+"author": null,
+"contributor": null
+}
+],
+"edges": [
+{
+"source": "about_face_chunks_chunk_654_accelerators_accelerators",
+"target": "about_face_chunks_chunk_655_access_keys_access_keys",
+"relation": "semantically_similar_to",
+"confidence": "INFERRED",
+"confidence_score": 0.75,
+"source_file": "/private/tmp/about_face_chunks/chunk_654_Accelerators.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_toolbars",
+"target": "about_face_chunks_chunk_659_toolbars_versus_modeless_dialo_modeless_dialogs",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_659_Toolbars_versus_modeless_dialo.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_660_toolbar_buttons_toolbar_buttons",
+"target": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_toolbars",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_660_ToolBar_buttons.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_661_tooltips_tooltips",
+"target": "about_face_chunks_chunk_660_toolbar_buttons_toolbar_buttons",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_661_ToolTips.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_662_disabling_toolbar_controls_disabling_toolbar_controls",
+"target": "about_face_chunks_chunk_651_disabled_menu_items_disabled_menu_items",
+"relation": "semantically_similar_to",
+"confidence": "INFERRED",
+"confidence_score": 0.85,
+"source_file": "/private/tmp/about_face_chunks/chunk_662_Disabling_toolbar_controls.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_tool_palettes",
+"target": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_sidebars",
+"relation": "semantically_similar_to",
+"confidence": "INFERRED",
+"confidence_score": 0.65,
+"source_file": "/private/tmp/about_face_chunks/chunk_669_Sidebars__task_panes__and_draw.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_669_sidebars__task_panes__and_draw_task_panes",
+"target": "about_face_chunks_chunk_657_toolbars__palettes__and_sideba_sidebars",
+"relation": "semantically_similar_to",
+"confidence": "INFERRED",
+"confidence_score": 0.95,
+"source_file": "/private/tmp/about_face_chunks/chunk_669_Sidebars__task_panes__and_draw.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_669_sidebars__task_panes__and_draw_drawers",
+"target": "about_face_chunks_chunk_669_sidebars__task_panes__and_draw_task_panes",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_669_Sidebars__task_panes__and_draw.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_671_mouse_ergonomics_mouse_ergonomics",
+"target": "about_face_chunks_chunk_671_mouse_ergonomics_fine_motor_skills",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_671_Mouse_ergonomics.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_671_mouse_ergonomics_mouse_ergonomics",
+"target": "about_face_chunks_chunk_671_mouse_ergonomics_gross_motor_skills",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_671_Mouse_ergonomics.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_674_left_mouse_button_left_mouse_button",
+"target": "about_face_chunks_chunk_673_mouse_buttons_and_controls_mouse_buttons",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_674_Left_mouse_button.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_675_right_mouse_button_right_mouse_button",
+"target": "about_face_chunks_chunk_673_mouse_buttons_and_controls_mouse_buttons",
+"relation": "conceptually_related_to",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_675_Right_mouse_button.md",
+"source_location": null,
+"weight": 1.0
+},
+{
+"source": "about_face_chunks_chunk_672_design_principle_support_both_mouse_and_keyboard",
+"target": "about_face_chunks_chunk_671_mouse_ergonomics_mouse_ergonomics",
+"relation": "rationale_for",
+"confidence": "INFERRED",
+"confidence_score": 0.85,
+"source_file": "/private/tmp/about_face_chunks/chunk_672_DESIGN_PRINCIPLE.md",
+"source_location": null,
+"weight": 1.0
+}
+],
+"hyperedges": [
+{
+"id": "modeless_control_surfaces",
+"label": "Modeless Control Surfaces",
+"nodes": [
+"about_face_chunks_chunk_657_toolbars__palettes__and_sideba_toolbars",
+"about_face_chunks_chunk_657_toolbars__palettes__and_sideba_tool_palettes",
+"about_face_chunks_chunk_657_toolbars__palettes__and_sideba_sidebars"
+],
+"relation": "participate_in",
+"confidence": "EXTRACTED",
+"confidence_score": 1.0,
+"source_file": "/private/tmp/about_face_chunks/chunk_657_Toolbars__Palettes__and_Sideba.md"
+}
+],
+"input_tokens": 0,
+"output_tokens": 0
+}

@@ -19,7 +19,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 
 > [!NOTE]
 > 课程：信息可视化 (Information Visualization)
-> 学时：5 课时 (理论 2 + 实践 3)
+> 学时详见大纲 课时 (理论 2 + 实践 3)
 > 授课模式：Lecture + Workshop
 > 核心理论库：`interaction-manipulate-taxonomy`, `scrollytelling-gsap-arch`, `motion-storyboard-method`, `dma-artistic`, `ch12-facets`
 

@@ -1,0 +1,1982 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "foreword",
+      "file_type": "concept",
+      "source_file": "chapter_01_Foreword.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_cd093538",
+      "community": 0,
+      "norm_label": "foreword"
+    },
+    {
+      "label": "chapter 02 Note",
+      "file_type": "concept",
+      "source_file": "chapter_02_Note.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a96e7f05",
+      "community": 0,
+      "norm_label": "chapter 02 note"
+    },
+    {
+      "label": "Acknowledgments",
+      "file_type": "concept",
+      "source_file": "chapter_03_Acknowledgments.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c66ef9cd",
+      "community": 0,
+      "norm_label": "acknowledgments"
+    },
+    {
+      "label": "About the Author",
+      "file_type": "concept",
+      "source_file": "chapter_04_About the Author.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7ac2026b",
+      "community": 0,
+      "norm_label": "about the author"
+    },
+    {
+      "label": "introduction",
+      "file_type": "concept",
+      "source_file": "chapter_05_Introduction.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b6176e38",
+      "community": 0,
+      "norm_label": "introduction"
+    },
+    {
+      "label": "chapter 06 Bad graphs are everywhere",
+      "file_type": "concept",
+      "source_file": "chapter_06_Bad graphs are everywhere.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_450af583",
+      "community": 7,
+      "norm_label": "chapter 06 bad graphs are everywhere"
+    },
+    {
+      "label": "chapter 07 We aren\u2019t naturally good at storytelling with data",
+      "file_type": "concept",
+      "source_file": "chapter_07_We aren\u2019t naturally good at storytelling with data.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b91a3272",
+      "community": 7,
+      "norm_label": "chapter 07 we aren\u2019t naturally good at storytelling with data"
+    },
+    {
+      "label": "chapter 08 Who this book is written for",
+      "file_type": "concept",
+      "source_file": "chapter_08_Who this book is written for.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7eb2e091",
+      "community": 7,
+      "norm_label": "chapter 08 who this book is written for"
+    },
+    {
+      "label": "chapter 09 How I learned to tell stories with data",
+      "file_type": "concept",
+      "source_file": "chapter_09_How I learned to tell stories with data.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a8892571",
+      "community": 7,
+      "norm_label": "chapter 09 how i learned to tell stories with data"
+    },
+    {
+      "label": "chapter 10 How you\u2019ll learn to tell stories with data 6 lessons",
+      "file_type": "concept",
+      "source_file": "chapter_10_How you\u2019ll learn to tell stories with data 6 lessons.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2cfecd0e",
+      "community": 7,
+      "norm_label": "chapter 10 how you\u2019ll learn to tell stories with data 6 lessons"
+    },
+    {
+      "label": "chapter 11 Illustrative examples span many industries",
+      "file_type": "concept",
+      "source_file": "chapter_11_Illustrative examples span many industries.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_69a100c6",
+      "community": 7,
+      "norm_label": "chapter 11 illustrative examples span many industries"
+    },
+    {
+      "label": "chapter 12 Lessons are not tool specific",
+      "file_type": "concept",
+      "source_file": "chapter_12_Lessons are not tool specific.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_67e8e27a",
+      "community": 7,
+      "norm_label": "chapter 12 lessons are not tool specific"
+    },
+    {
+      "label": "chapter 13 How this book is organized",
+      "file_type": "concept",
+      "source_file": "chapter_13_How this book is organized.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4d8859f1",
+      "community": 7,
+      "norm_label": "chapter 13 how this book is organized"
+    },
+    {
+      "label": "chapter 1 the importance of context",
+      "file_type": "concept",
+      "source_file": "chapter_14_Chapter 1 the importance of context.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_bbdb2160",
+      "community": 7,
+      "norm_label": "chapter 1 the importance of context"
+    },
+    {
+      "label": "chapter 15 Exploratory vs. explanatory analysis",
+      "file_type": "concept",
+      "source_file": "chapter_15_Exploratory vs. explanatory analysis.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_243c8364",
+      "community": 7,
+      "norm_label": "chapter 15 exploratory vs. explanatory analysis"
+    },
+    {
+      "label": "chapter 16 Who, what, and how",
+      "file_type": "concept",
+      "source_file": "chapter_16_Who, what, and how.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_cafbc50c",
+      "community": 3,
+      "norm_label": "chapter 16 who, what, and how"
+    },
+    {
+      "label": "chapter 17 Who",
+      "file_type": "concept",
+      "source_file": "chapter_17_Who.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1f80d885",
+      "community": 3,
+      "norm_label": "chapter 17 who"
+    },
+    {
+      "label": "chapter 18 What",
+      "file_type": "concept",
+      "source_file": "chapter_18_What.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2f8d0047",
+      "community": 3,
+      "norm_label": "chapter 18 what"
+    },
+    {
+      "label": "chapter 19 How",
+      "file_type": "concept",
+      "source_file": "chapter_19_How.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fc5fe252",
+      "community": 3,
+      "norm_label": "chapter 19 how"
+    },
+    {
+      "label": "chapter 20 Who, what, and how illustrated by example",
+      "file_type": "concept",
+      "source_file": "chapter_20_Who, what, and how illustrated by example.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a9b00acc",
+      "community": 3,
+      "norm_label": "chapter 20 who, what, and how illustrated by example"
+    },
+    {
+      "label": "chapter 21 Consulting for context questions to ask",
+      "file_type": "concept",
+      "source_file": "chapter_21_Consulting for context questions to ask.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2adbbc97",
+      "community": 3,
+      "norm_label": "chapter 21 consulting for context questions to ask"
+    },
+    {
+      "label": "chapter 22 The 3-minute story & Big Idea",
+      "file_type": "concept",
+      "source_file": "chapter_22_The 3-minute story & Big Idea.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_de770c5d",
+      "community": 3,
+      "norm_label": "chapter 22 the 3-minute story & big idea"
+    },
+    {
+      "label": "chapter 23 Storyboarding",
+      "file_type": "concept",
+      "source_file": "chapter_23_Storyboarding.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7345c622",
+      "community": 3,
+      "norm_label": "chapter 23 storyboarding"
+    },
+    {
+      "label": "chapter 24 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_24_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fa8daa4d",
+      "community": 3,
+      "norm_label": "chapter 24 in closing"
+    },
+    {
+      "label": "chapter 2 choosing an effective visual",
+      "file_type": "concept",
+      "source_file": "chapter_25_Chapter 2 choosing an effective visual.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_58db1051",
+      "community": 3,
+      "norm_label": "chapter 2 choosing an effective visual"
+    },
+    {
+      "label": "chapter 26 Simple text",
+      "file_type": "concept",
+      "source_file": "chapter_26_Simple text.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5296de6b",
+      "community": 3,
+      "norm_label": "chapter 26 simple text"
+    },
+    {
+      "label": "chapter 27 Tables",
+      "file_type": "concept",
+      "source_file": "chapter_27_Tables.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3495646a",
+      "community": 3,
+      "norm_label": "chapter 27 tables"
+    },
+    {
+      "label": "chapter 28 Graphs",
+      "file_type": "concept",
+      "source_file": "chapter_28_Graphs.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_39763a79",
+      "community": 5,
+      "norm_label": "chapter 28 graphs"
+    },
+    {
+      "label": "chapter 29 Points",
+      "file_type": "concept",
+      "source_file": "chapter_29_Points.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7b48def0",
+      "community": 5,
+      "norm_label": "chapter 29 points"
+    },
+    {
+      "label": "chapter 30 Lines",
+      "file_type": "concept",
+      "source_file": "chapter_30_Lines.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_63276be9",
+      "community": 5,
+      "norm_label": "chapter 30 lines"
+    },
+    {
+      "label": "chapter 31 Bars part1",
+      "file_type": "concept",
+      "source_file": "chapter_31_Bars_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_de3e88d9",
+      "community": 5,
+      "norm_label": "chapter 31 bars part1"
+    },
+    {
+      "label": "chapter 31 Bars part2",
+      "file_type": "concept",
+      "source_file": "chapter_31_Bars_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_0c341197",
+      "community": 5,
+      "norm_label": "chapter 31 bars part2"
+    },
+    {
+      "label": "chapter 32 Area",
+      "file_type": "concept",
+      "source_file": "chapter_32_Area.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_41b3c971",
+      "community": 5,
+      "norm_label": "chapter 32 area"
+    },
+    {
+      "label": "chapter 33 Other types of graphs",
+      "file_type": "concept",
+      "source_file": "chapter_33_Other types of graphs.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_33d3ebbd",
+      "community": 5,
+      "norm_label": "chapter 33 other types of graphs"
+    },
+    {
+      "label": "chapter 34 To be avoided part1",
+      "file_type": "concept",
+      "source_file": "chapter_34_To be avoided_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2413704b",
+      "community": 5,
+      "norm_label": "chapter 34 to be avoided part1"
+    },
+    {
+      "label": "chapter 34 To be avoided part2",
+      "file_type": "concept",
+      "source_file": "chapter_34_To be avoided_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1175e625",
+      "community": 5,
+      "norm_label": "chapter 34 to be avoided part2"
+    },
+    {
+      "label": "chapter 35 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_35_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_86e82204",
+      "community": 5,
+      "norm_label": "chapter 35 in closing"
+    },
+    {
+      "label": "chapter 3 clutter is your enemy!",
+      "file_type": "concept",
+      "source_file": "chapter_36_Chapter 3 clutter is your enemy!.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b83323e8",
+      "community": 1,
+      "norm_label": "chapter 3 clutter is your enemy!"
+    },
+    {
+      "label": "chapter 37 Cognitive load",
+      "file_type": "concept",
+      "source_file": "chapter_37_Cognitive load.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_347fc994",
+      "community": 1,
+      "norm_label": "chapter 37 cognitive load"
+    },
+    {
+      "label": "chapter 38 Clutter",
+      "file_type": "concept",
+      "source_file": "chapter_38_Clutter.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_aa233ed2",
+      "community": 1,
+      "norm_label": "chapter 38 clutter"
+    },
+    {
+      "label": "chapter 39 Gestalt principles of visual perception",
+      "file_type": "concept",
+      "source_file": "chapter_39_Gestalt principles of visual perception.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ae9528d4",
+      "community": 1,
+      "norm_label": "chapter 39 gestalt principles of visual perception"
+    },
+    {
+      "label": "chapter 40 Lack of visual order",
+      "file_type": "concept",
+      "source_file": "chapter_40_Lack of visual order.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b15eb806",
+      "community": 1,
+      "norm_label": "chapter 40 lack of visual order"
+    },
+    {
+      "label": "chapter 41 Non-strategic use of contrast",
+      "file_type": "concept",
+      "source_file": "chapter_41_Non-strategic use of contrast.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fd2d013a",
+      "community": 1,
+      "norm_label": "chapter 41 non-strategic use of contrast"
+    },
+    {
+      "label": "chapter 42 Decluttering step-by-step",
+      "file_type": "concept",
+      "source_file": "chapter_42_Decluttering step-by-step.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_81838427",
+      "community": 1,
+      "norm_label": "chapter 42 decluttering step-by-step"
+    },
+    {
+      "label": "chapter 43 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_43_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7e1bf37a",
+      "community": 1,
+      "norm_label": "chapter 43 in closing"
+    },
+    {
+      "label": "chapter 4 focus your audience\u2019s attention",
+      "file_type": "concept",
+      "source_file": "chapter_44_Chapter 4 focus your audience\u2019s attention.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a2d6658f",
+      "community": 1,
+      "norm_label": "chapter 4 focus your audience\u2019s attention"
+    },
+    {
+      "label": "chapter 45 ",
+      "file_type": "concept",
+      "source_file": "chapter_45_.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5e3d31ad",
+      "community": 1,
+      "norm_label": "chapter 45 "
+    },
+    {
+      "label": "chapter 46 You see with your brain",
+      "file_type": "concept",
+      "source_file": "chapter_46_You see with your brain.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f65cfa11",
+      "community": 1,
+      "norm_label": "chapter 46 you see with your brain"
+    },
+    {
+      "label": "chapter 47 A brief lesson on memory",
+      "file_type": "concept",
+      "source_file": "chapter_47_A brief lesson on memory.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_45d9a653",
+      "community": 1,
+      "norm_label": "chapter 47 a brief lesson on memory"
+    },
+    {
+      "label": "chapter 48 Preattentive attributes signal where to look part1",
+      "file_type": "concept",
+      "source_file": "chapter_48_Preattentive attributes signal where to look_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5b387215",
+      "community": 1,
+      "norm_label": "chapter 48 preattentive attributes signal where to look part1"
+    },
+    {
+      "label": "chapter 48 Preattentive attributes signal where to look part2",
+      "file_type": "concept",
+      "source_file": "chapter_48_Preattentive attributes signal where to look_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d91f1108",
+      "community": 1,
+      "norm_label": "chapter 48 preattentive attributes signal where to look part2"
+    },
+    {
+      "label": "chapter 49 Size",
+      "file_type": "concept",
+      "source_file": "chapter_49_Size.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9ada5425",
+      "community": 4,
+      "norm_label": "chapter 49 size"
+    },
+    {
+      "label": "chapter 50 Color part1",
+      "file_type": "concept",
+      "source_file": "chapter_50_Color_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_cd3815f0",
+      "community": 4,
+      "norm_label": "chapter 50 color part1"
+    },
+    {
+      "label": "chapter 50 Color part2",
+      "file_type": "concept",
+      "source_file": "chapter_50_Color_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_079e1f59",
+      "community": 4,
+      "norm_label": "chapter 50 color part2"
+    },
+    {
+      "label": "chapter 51 Position on page",
+      "file_type": "concept",
+      "source_file": "chapter_51_Position on page.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c012c1bf",
+      "community": 4,
+      "norm_label": "chapter 51 position on page"
+    },
+    {
+      "label": "chapter 52 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_52_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_5fd06ca8",
+      "community": 4,
+      "norm_label": "chapter 52 in closing"
+    },
+    {
+      "label": "chapter 5 think like a designer",
+      "file_type": "concept",
+      "source_file": "chapter_53_Chapter 5 think like a designer.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c40ed69f",
+      "community": 4,
+      "norm_label": "chapter 5 think like a designer"
+    },
+    {
+      "label": "chapter 54 Affordances part1",
+      "file_type": "concept",
+      "source_file": "chapter_54_Affordances_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_77e6324a",
+      "community": 4,
+      "norm_label": "chapter 54 affordances part1"
+    },
+    {
+      "label": "chapter 54 Affordances part2",
+      "file_type": "concept",
+      "source_file": "chapter_54_Affordances_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d8a0dd7a",
+      "community": 4,
+      "norm_label": "chapter 54 affordances part2"
+    },
+    {
+      "label": "chapter 54 Affordances part3",
+      "file_type": "concept",
+      "source_file": "chapter_54_Affordances_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9d1407ea",
+      "community": 4,
+      "norm_label": "chapter 54 affordances part3"
+    },
+    {
+      "label": "chapter 55 Accessibility part1",
+      "file_type": "concept",
+      "source_file": "chapter_55_Accessibility_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_738a667e",
+      "community": 4,
+      "norm_label": "chapter 55 accessibility part1"
+    },
+    {
+      "label": "chapter 55 Accessibility part2",
+      "file_type": "concept",
+      "source_file": "chapter_55_Accessibility_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3e37ff16",
+      "community": 9,
+      "norm_label": "chapter 55 accessibility part2"
+    },
+    {
+      "label": "chapter 56 Aesthetics",
+      "file_type": "concept",
+      "source_file": "chapter_56_Aesthetics.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_26d3aff0",
+      "community": 9,
+      "norm_label": "chapter 56 aesthetics"
+    },
+    {
+      "label": "chapter 57 Acceptance",
+      "file_type": "concept",
+      "source_file": "chapter_57_Acceptance.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_a5cdb060",
+      "community": 9,
+      "norm_label": "chapter 57 acceptance"
+    },
+    {
+      "label": "chapter 58 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_58_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_06d16420",
+      "community": 9,
+      "norm_label": "chapter 58 in closing"
+    },
+    {
+      "label": "chapter 6 dissecting model visuals",
+      "file_type": "concept",
+      "source_file": "chapter_59_Chapter 6 dissecting model visuals.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ce740372",
+      "community": 9,
+      "norm_label": "chapter 6 dissecting model visuals"
+    },
+    {
+      "label": "chapter 60 Model visual #1 line graph",
+      "file_type": "concept",
+      "source_file": "chapter_60_Model visual #1 line graph.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_112de742",
+      "community": 9,
+      "norm_label": "chapter 60 model visual #1 line graph"
+    },
+    {
+      "label": "chapter 61 Model visual #2 annotated line graph with forecast",
+      "file_type": "concept",
+      "source_file": "chapter_61_Model visual #2 annotated line graph with forecast.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_be7cf711",
+      "community": 9,
+      "norm_label": "chapter 61 model visual #2 annotated line graph with forecast"
+    },
+    {
+      "label": "chapter 62 Model visual #3 100% stacked bars",
+      "file_type": "concept",
+      "source_file": "chapter_62_Model visual #3 100% stacked bars.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_2f1c16ee",
+      "community": 6,
+      "norm_label": "chapter 62 model visual #3 100% stacked bars"
+    },
+    {
+      "label": "chapter 63 Model visual #4 leveraging positive and negative stacked bars",
+      "file_type": "concept",
+      "source_file": "chapter_63_Model visual #4 leveraging positive and negative stacked bars.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_23f7af84",
+      "community": 6,
+      "norm_label": "chapter 63 model visual #4 leveraging positive and negative stacked bars"
+    },
+    {
+      "label": "chapter 64 Model visual #5 horizontal stacked bars",
+      "file_type": "concept",
+      "source_file": "chapter_64_Model visual #5 horizontal stacked bars.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_68c39fa2",
+      "community": 6,
+      "norm_label": "chapter 64 model visual #5 horizontal stacked bars"
+    },
+    {
+      "label": "chapter 65 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_65_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_4b6b52a1",
+      "community": 6,
+      "norm_label": "chapter 65 in closing"
+    },
+    {
+      "label": "chapter 7 lessons in storytelling",
+      "file_type": "concept",
+      "source_file": "chapter_66_Chapter 7 lessons in storytelling.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e50678dc",
+      "community": 6,
+      "norm_label": "chapter 7 lessons in storytelling"
+    },
+    {
+      "label": "chapter 67 The magic of story part1",
+      "file_type": "concept",
+      "source_file": "chapter_67_The magic of story_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f6b30012",
+      "community": 6,
+      "norm_label": "chapter 67 the magic of story part1"
+    },
+    {
+      "label": "chapter 67 The magic of story part2",
+      "file_type": "concept",
+      "source_file": "chapter_67_The magic of story_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_ac0b27af",
+      "community": 6,
+      "norm_label": "chapter 67 the magic of story part2"
+    },
+    {
+      "label": "chapter 68 Constructing the story",
+      "file_type": "concept",
+      "source_file": "chapter_68_Constructing the story.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_d506fb77",
+      "community": 6,
+      "norm_label": "chapter 68 constructing the story"
+    },
+    {
+      "label": "chapter 69 The narrative structure part1",
+      "file_type": "concept",
+      "source_file": "chapter_69_The narrative structure_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_75a0b747",
+      "community": 6,
+      "norm_label": "chapter 69 the narrative structure part1"
+    },
+    {
+      "label": "chapter 69 The narrative structure part2",
+      "file_type": "concept",
+      "source_file": "chapter_69_The narrative structure_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_9fb3cb03",
+      "community": 6,
+      "norm_label": "chapter 69 the narrative structure part2"
+    },
+    {
+      "label": "chapter 70 The power of repetition",
+      "file_type": "concept",
+      "source_file": "chapter_70_The power of repetition.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_05fc2d3f",
+      "community": 0,
+      "norm_label": "chapter 70 the power of repetition"
+    },
+    {
+      "label": "chapter 71 Tactics to help ensure that your story is clear",
+      "file_type": "concept",
+      "source_file": "chapter_71_Tactics to help ensure that your story is clear.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e592f9e8",
+      "community": 0,
+      "norm_label": "chapter 71 tactics to help ensure that your story is clear"
+    },
+    {
+      "label": "chapter 72 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_72_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_fc7ea1f6",
+      "community": 0,
+      "norm_label": "chapter 72 in closing"
+    },
+    {
+      "label": "chapter 8 pulling it all together",
+      "file_type": "concept",
+      "source_file": "chapter_73_Chapter 8 pulling it all together.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_61dd6df7",
+      "community": 0,
+      "norm_label": "chapter 8 pulling it all together"
+    },
+    {
+      "label": "chapter 74 Lesson 1 understand the context",
+      "file_type": "concept",
+      "source_file": "chapter_74_Lesson 1 understand the context.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_24ac1d6f",
+      "community": 0,
+      "norm_label": "chapter 74 lesson 1 understand the context"
+    },
+    {
+      "label": "chapter 75 Lesson 2 choose an appropriate display",
+      "file_type": "concept",
+      "source_file": "chapter_75_Lesson 2 choose an appropriate display.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_906a089d",
+      "community": 2,
+      "norm_label": "chapter 75 lesson 2 choose an appropriate display"
+    },
+    {
+      "label": "chapter 76 Lesson 3 eliminate clutter",
+      "file_type": "concept",
+      "source_file": "chapter_76_Lesson 3 eliminate clutter.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_489cb2b7",
+      "community": 2,
+      "norm_label": "chapter 76 lesson 3 eliminate clutter"
+    },
+    {
+      "label": "chapter 77 Lesson 4 draw attention where you want your audience to focus",
+      "file_type": "concept",
+      "source_file": "chapter_77_Lesson 4 draw attention where you want your audience to focus.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c9715f62",
+      "community": 2,
+      "norm_label": "chapter 77 lesson 4 draw attention where you want your audience to focus"
+    },
+    {
+      "label": "chapter 78 Lesson 5 think like a designer",
+      "file_type": "concept",
+      "source_file": "chapter_78_Lesson 5 think like a designer.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_e38edb90",
+      "community": 2,
+      "norm_label": "chapter 78 lesson 5 think like a designer"
+    },
+    {
+      "label": "chapter 79 Lesson 6 tell a story",
+      "file_type": "concept",
+      "source_file": "chapter_79_Lesson 6 tell a story.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_da65b4bd",
+      "community": 2,
+      "norm_label": "chapter 79 lesson 6 tell a story"
+    },
+    {
+      "label": "chapter 80 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_80_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b607920d",
+      "community": 2,
+      "norm_label": "chapter 80 in closing"
+    },
+    {
+      "label": "chapter 9 case studies",
+      "file_type": "concept",
+      "source_file": "chapter_81_Chapter 9 case studies.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c24a8140",
+      "community": 2,
+      "norm_label": "chapter 9 case studies"
+    },
+    {
+      "label": "chapter 82 CASE STUDY 1 Color considerations with a dark background",
+      "file_type": "concept",
+      "source_file": "chapter_82_CASE STUDY 1 Color considerations with a dark background.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_c0ee7f68",
+      "community": 2,
+      "norm_label": "chapter 82 case study 1 color considerations with a dark background"
+    },
+    {
+      "label": "chapter 83 CASE STUDY 2 Leveraging animation in the visuals you present",
+      "file_type": "concept",
+      "source_file": "chapter_83_CASE STUDY 2 Leveraging animation in the visuals you present.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f161e76f",
+      "community": 2,
+      "norm_label": "chapter 83 case study 2 leveraging animation in the visuals you present"
+    },
+    {
+      "label": "chapter 84 CASE STUDY 3 Logic in order part1",
+      "file_type": "concept",
+      "source_file": "chapter_84_CASE STUDY 3 Logic in order_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_be219ad9",
+      "community": 2,
+      "norm_label": "chapter 84 case study 3 logic in order part1"
+    },
+    {
+      "label": "chapter 84 CASE STUDY 3 Logic in order part2",
+      "file_type": "concept",
+      "source_file": "chapter_84_CASE STUDY 3 Logic in order_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_15ec0dc3",
+      "community": 2,
+      "norm_label": "chapter 84 case study 3 logic in order part2"
+    },
+    {
+      "label": "chapter 85 CASE STUDY 4 Strategies for avoiding the spaghetti graph",
+      "file_type": "concept",
+      "source_file": "chapter_85_CASE STUDY 4 Strategies for avoiding the spaghetti graph.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_f8c3efb2",
+      "community": 2,
+      "norm_label": "chapter 85 case study 4 strategies for avoiding the spaghetti graph"
+    },
+    {
+      "label": "chapter 86 CASE STUDY 5 Alternatives to pies",
+      "file_type": "concept",
+      "source_file": "chapter_86_CASE STUDY 5 Alternatives to pies.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_7bf03d40",
+      "community": 8,
+      "norm_label": "chapter 86 case study 5 alternatives to pies"
+    },
+    {
+      "label": "chapter 87 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_87_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_556dc37f",
+      "community": 8,
+      "norm_label": "chapter 87 in closing"
+    },
+    {
+      "label": "chapter 10 final thoughts",
+      "file_type": "concept",
+      "source_file": "chapter_88_Chapter 10 final thoughts.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_726e78b7",
+      "community": 8,
+      "norm_label": "chapter 10 final thoughts"
+    },
+    {
+      "label": "chapter 89 Where to go from here part1",
+      "file_type": "concept",
+      "source_file": "chapter_89_Where to go from here_part1.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_1764a193",
+      "community": 8,
+      "norm_label": "chapter 89 where to go from here part1"
+    },
+    {
+      "label": "chapter 89 Where to go from here part2",
+      "file_type": "concept",
+      "source_file": "chapter_89_Where to go from here_part2.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_aebd581d",
+      "community": 8,
+      "norm_label": "chapter 89 where to go from here part2"
+    },
+    {
+      "label": "chapter 89 Where to go from here part3",
+      "file_type": "concept",
+      "source_file": "chapter_89_Where to go from here_part3.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_65b95100",
+      "community": 8,
+      "norm_label": "chapter 89 where to go from here part3"
+    },
+    {
+      "label": "chapter 90 Building storytelling with data competency in your team or organization",
+      "file_type": "concept",
+      "source_file": "chapter_90_Building storytelling with data competency in your team or organization.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_b783d16c",
+      "community": 8,
+      "norm_label": "chapter 90 building storytelling with data competency in your team or organization"
+    },
+    {
+      "label": "chapter 91 Recap a quick look at all we\u2019ve learned",
+      "file_type": "concept",
+      "source_file": "chapter_91_Recap a quick look at all we\u2019ve learned.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_3836d992",
+      "community": 8,
+      "norm_label": "chapter 91 recap a quick look at all we\u2019ve learned"
+    },
+    {
+      "label": "chapter 92 In closing",
+      "file_type": "concept",
+      "source_file": "chapter_92_In closing.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_97de3e76",
+      "community": 8,
+      "norm_label": "chapter 92 in closing"
+    },
+    {
+      "label": "**Bibliography**",
+      "file_type": "concept",
+      "source_file": "chapter_93_Bibliography.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_6a6b68c2",
+      "community": 0,
+      "norm_label": "**bibliography**"
+    },
+    {
+      "label": "Index",
+      "file_type": "concept",
+      "source_file": "chapter_94_Index.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_0ed78bdf",
+      "community": 0,
+      "norm_label": "index"
+    },
+    {
+      "label": "**WILEY END USER LICENSE AGREEMENT**",
+      "file_type": "concept",
+      "source_file": "chapter_95_EULA.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_14ca1c2a",
+      "community": 0,
+      "norm_label": "**wiley end user license agreement**"
+    },
+    {
+      "label": "Storytelling with Data: A Data Visualization Guide for Business Professionals",
+      "file_type": "concept",
+      "source_file": "index.md",
+      "description": "Primary concept extracted from chunk",
+      "id": "file_af6b0b0b",
+      "community": 0,
+      "norm_label": "storytelling with data: a data visualization guide for business professionals"
+    }
+  ],
+  "links": [
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_02_Note.md",
+      "source": "file_cd093538",
+      "target": "file_a96e7f05"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_03_Acknowledgments.md",
+      "source": "file_a96e7f05",
+      "target": "file_c66ef9cd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_04_About the Author.md",
+      "source": "file_c66ef9cd",
+      "target": "file_7ac2026b"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "chapter_04_About the Author.md",
+      "source": "file_7ac2026b",
+      "target": "file_b6176e38"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_06_Bad graphs are everywhere.md",
+      "source": "file_b6176e38",
+      "target": "file_450af583"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_07_We aren\u2019t naturally good at storytelling with data.md",
+      "source": "file_450af583",
+      "target": "file_b91a3272"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_08_Who this book is written for.md",
+      "source": "file_b91a3272",
+      "target": "file_7eb2e091"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_09_How I learned to tell stories with data.md",
+      "source": "file_7eb2e091",
+      "target": "file_a8892571"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_10_How you\u2019ll learn to tell stories with data 6 lessons.md",
+      "source": "file_a8892571",
+      "target": "file_2cfecd0e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_11_Illustrative examples span many industries.md",
+      "source": "file_2cfecd0e",
+      "target": "file_69a100c6"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_12_Lessons are not tool specific.md",
+      "source": "file_69a100c6",
+      "target": "file_67e8e27a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_13_How this book is organized.md",
+      "source": "file_67e8e27a",
+      "target": "file_4d8859f1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_14_Chapter 1 the importance of context.md",
+      "source": "file_4d8859f1",
+      "target": "file_bbdb2160"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_15_Exploratory vs. explanatory analysis.md",
+      "source": "file_bbdb2160",
+      "target": "file_243c8364"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_16_Who, what, and how.md",
+      "source": "file_243c8364",
+      "target": "file_cafbc50c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_17_Who.md",
+      "source": "file_cafbc50c",
+      "target": "file_1f80d885"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_18_What.md",
+      "source": "file_1f80d885",
+      "target": "file_2f8d0047"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_19_How.md",
+      "source": "file_2f8d0047",
+      "target": "file_fc5fe252"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_20_Who, what, and how illustrated by example.md",
+      "source": "file_fc5fe252",
+      "target": "file_a9b00acc"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_21_Consulting for context questions to ask.md",
+      "source": "file_a9b00acc",
+      "target": "file_2adbbc97"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_22_The 3-minute story & Big Idea.md",
+      "source": "file_2adbbc97",
+      "target": "file_de770c5d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_23_Storyboarding.md",
+      "source": "file_de770c5d",
+      "target": "file_7345c622"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_24_In closing.md",
+      "source": "file_7345c622",
+      "target": "file_fa8daa4d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_25_Chapter 2 choosing an effective visual.md",
+      "source": "file_fa8daa4d",
+      "target": "file_58db1051"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_26_Simple text.md",
+      "source": "file_58db1051",
+      "target": "file_5296de6b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_27_Tables.md",
+      "source": "file_5296de6b",
+      "target": "file_3495646a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_28_Graphs.md",
+      "source": "file_3495646a",
+      "target": "file_39763a79"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_29_Points.md",
+      "source": "file_39763a79",
+      "target": "file_7b48def0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_30_Lines.md",
+      "source": "file_7b48def0",
+      "target": "file_63276be9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_31_Bars_part1.md",
+      "source": "file_63276be9",
+      "target": "file_de3e88d9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_31_Bars_part2.md",
+      "source": "file_de3e88d9",
+      "target": "file_0c341197"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_32_Area.md",
+      "source": "file_0c341197",
+      "target": "file_41b3c971"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_33_Other types of graphs.md",
+      "source": "file_41b3c971",
+      "target": "file_33d3ebbd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_34_To be avoided_part1.md",
+      "source": "file_33d3ebbd",
+      "target": "file_2413704b"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_34_To be avoided_part2.md",
+      "source": "file_2413704b",
+      "target": "file_1175e625"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_35_In closing.md",
+      "source": "file_1175e625",
+      "target": "file_86e82204"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_36_Chapter 3 clutter is your enemy!.md",
+      "source": "file_86e82204",
+      "target": "file_b83323e8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_37_Cognitive load.md",
+      "source": "file_b83323e8",
+      "target": "file_347fc994"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_38_Clutter.md",
+      "source": "file_347fc994",
+      "target": "file_aa233ed2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_39_Gestalt principles of visual perception.md",
+      "source": "file_aa233ed2",
+      "target": "file_ae9528d4"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_40_Lack of visual order.md",
+      "source": "file_ae9528d4",
+      "target": "file_b15eb806"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_41_Non-strategic use of contrast.md",
+      "source": "file_b15eb806",
+      "target": "file_fd2d013a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_42_Decluttering step-by-step.md",
+      "source": "file_fd2d013a",
+      "target": "file_81838427"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_43_In closing.md",
+      "source": "file_81838427",
+      "target": "file_7e1bf37a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_44_Chapter 4 focus your audience\u2019s attention.md",
+      "source": "file_7e1bf37a",
+      "target": "file_a2d6658f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_45_.md",
+      "source": "file_a2d6658f",
+      "target": "file_5e3d31ad"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_46_You see with your brain.md",
+      "source": "file_5e3d31ad",
+      "target": "file_f65cfa11"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_47_A brief lesson on memory.md",
+      "source": "file_f65cfa11",
+      "target": "file_45d9a653"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_48_Preattentive attributes signal where to look_part1.md",
+      "source": "file_45d9a653",
+      "target": "file_5b387215"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_48_Preattentive attributes signal where to look_part2.md",
+      "source": "file_5b387215",
+      "target": "file_d91f1108"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_49_Size.md",
+      "source": "file_d91f1108",
+      "target": "file_9ada5425"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_50_Color_part1.md",
+      "source": "file_9ada5425",
+      "target": "file_cd3815f0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_50_Color_part2.md",
+      "source": "file_cd3815f0",
+      "target": "file_079e1f59"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_51_Position on page.md",
+      "source": "file_079e1f59",
+      "target": "file_c012c1bf"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_52_In closing.md",
+      "source": "file_c012c1bf",
+      "target": "file_5fd06ca8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_53_Chapter 5 think like a designer.md",
+      "source": "file_5fd06ca8",
+      "target": "file_c40ed69f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_54_Affordances_part1.md",
+      "source": "file_c40ed69f",
+      "target": "file_77e6324a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_54_Affordances_part2.md",
+      "source": "file_77e6324a",
+      "target": "file_d8a0dd7a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_54_Affordances_part3.md",
+      "source": "file_d8a0dd7a",
+      "target": "file_9d1407ea"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_55_Accessibility_part1.md",
+      "source": "file_9d1407ea",
+      "target": "file_738a667e"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_55_Accessibility_part2.md",
+      "source": "file_738a667e",
+      "target": "file_3e37ff16"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_56_Aesthetics.md",
+      "source": "file_3e37ff16",
+      "target": "file_26d3aff0"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_57_Acceptance.md",
+      "source": "file_26d3aff0",
+      "target": "file_a5cdb060"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_58_In closing.md",
+      "source": "file_a5cdb060",
+      "target": "file_06d16420"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_59_Chapter 6 dissecting model visuals.md",
+      "source": "file_06d16420",
+      "target": "file_ce740372"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_60_Model visual #1 line graph.md",
+      "source": "file_ce740372",
+      "target": "file_112de742"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_61_Model visual #2 annotated line graph with forecast.md",
+      "source": "file_112de742",
+      "target": "file_be7cf711"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_62_Model visual #3 100% stacked bars.md",
+      "source": "file_be7cf711",
+      "target": "file_2f1c16ee"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_63_Model visual #4 leveraging positive and negative stacked bars.md",
+      "source": "file_2f1c16ee",
+      "target": "file_23f7af84"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_64_Model visual #5 horizontal stacked bars.md",
+      "source": "file_23f7af84",
+      "target": "file_68c39fa2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_65_In closing.md",
+      "source": "file_68c39fa2",
+      "target": "file_4b6b52a1"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_66_Chapter 7 lessons in storytelling.md",
+      "source": "file_4b6b52a1",
+      "target": "file_e50678dc"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_67_The magic of story_part1.md",
+      "source": "file_e50678dc",
+      "target": "file_f6b30012"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_67_The magic of story_part2.md",
+      "source": "file_f6b30012",
+      "target": "file_ac0b27af"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_68_Constructing the story.md",
+      "source": "file_ac0b27af",
+      "target": "file_d506fb77"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_69_The narrative structure_part1.md",
+      "source": "file_d506fb77",
+      "target": "file_75a0b747"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_69_The narrative structure_part2.md",
+      "source": "file_75a0b747",
+      "target": "file_9fb3cb03"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_70_The power of repetition.md",
+      "source": "file_9fb3cb03",
+      "target": "file_05fc2d3f"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "chapter_70_The power of repetition.md",
+      "source": "file_05fc2d3f",
+      "target": "file_b6176e38"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_71_Tactics to help ensure that your story is clear.md",
+      "source": "file_05fc2d3f",
+      "target": "file_e592f9e8"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_72_In closing.md",
+      "source": "file_e592f9e8",
+      "target": "file_fc7ea1f6"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_73_Chapter 8 pulling it all together.md",
+      "source": "file_fc7ea1f6",
+      "target": "file_61dd6df7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_74_Lesson 1 understand the context.md",
+      "source": "file_61dd6df7",
+      "target": "file_24ac1d6f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_75_Lesson 2 choose an appropriate display.md",
+      "source": "file_24ac1d6f",
+      "target": "file_906a089d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_76_Lesson 3 eliminate clutter.md",
+      "source": "file_906a089d",
+      "target": "file_489cb2b7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_77_Lesson 4 draw attention where you want your audience to focus.md",
+      "source": "file_489cb2b7",
+      "target": "file_c9715f62"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "chapter_77_Lesson 4 draw attention where you want your audience to focus.md",
+      "source": "file_c9715f62",
+      "target": "file_b6176e38"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_78_Lesson 5 think like a designer.md",
+      "source": "file_c9715f62",
+      "target": "file_e38edb90"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_79_Lesson 6 tell a story.md",
+      "source": "file_e38edb90",
+      "target": "file_da65b4bd"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_80_In closing.md",
+      "source": "file_da65b4bd",
+      "target": "file_b607920d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_81_Chapter 9 case studies.md",
+      "source": "file_b607920d",
+      "target": "file_c24a8140"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_82_CASE STUDY 1 Color considerations with a dark background.md",
+      "source": "file_c24a8140",
+      "target": "file_c0ee7f68"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_83_CASE STUDY 2 Leveraging animation in the visuals you present.md",
+      "source": "file_c0ee7f68",
+      "target": "file_f161e76f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_84_CASE STUDY 3 Logic in order_part1.md",
+      "source": "file_f161e76f",
+      "target": "file_be219ad9"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_84_CASE STUDY 3 Logic in order_part2.md",
+      "source": "file_be219ad9",
+      "target": "file_15ec0dc3"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_85_CASE STUDY 4 Strategies for avoiding the spaghetti graph.md",
+      "source": "file_15ec0dc3",
+      "target": "file_f8c3efb2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_86_CASE STUDY 5 Alternatives to pies.md",
+      "source": "file_f8c3efb2",
+      "target": "file_7bf03d40"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_87_In closing.md",
+      "source": "file_7bf03d40",
+      "target": "file_556dc37f"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_88_Chapter 10 final thoughts.md",
+      "source": "file_556dc37f",
+      "target": "file_726e78b7"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_89_Where to go from here_part1.md",
+      "source": "file_726e78b7",
+      "target": "file_1764a193"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_89_Where to go from here_part2.md",
+      "source": "file_1764a193",
+      "target": "file_aebd581d"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_89_Where to go from here_part3.md",
+      "source": "file_aebd581d",
+      "target": "file_65b95100"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "chapter_89_Where to go from here_part2.md",
+      "source": "file_aebd581d",
+      "target": "file_b6176e38"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_90_Building storytelling with data competency in your team or organization.md",
+      "source": "file_65b95100",
+      "target": "file_b783d16c"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_91_Recap a quick look at all we\u2019ve learned.md",
+      "source": "file_b783d16c",
+      "target": "file_3836d992"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_92_In closing.md",
+      "source": "file_3836d992",
+      "target": "file_97de3e76"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_93_Bibliography.md",
+      "source": "file_97de3e76",
+      "target": "file_6a6b68c2"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_94_Index.md",
+      "source": "file_6a6b68c2",
+      "target": "file_0ed78bdf"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "chapter_93_Bibliography.md",
+      "source": "file_6a6b68c2",
+      "target": "file_b6176e38"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "chapter_95_EULA.md",
+      "source": "file_0ed78bdf",
+      "target": "file_14ca1c2a"
+    },
+    {
+      "relation": "follows",
+      "confidence": "AST",
+      "confidence_score": 1.0,
+      "source_file": "index.md",
+      "source": "file_14ca1c2a",
+      "target": "file_af6b0b0b"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_58db1051"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_61dd6df7"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_6a6b68c2"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_726e78b7"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_7ac2026b"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_b6176e38"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_b83323e8"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_bbdb2160"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_c24a8140"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_c40ed69f"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_c66ef9cd"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_cd093538"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_ce740372"
+    },
+    {
+      "relation": "references",
+      "confidence": "AST",
+      "confidence_score": 0.8,
+      "source_file": "index.md",
+      "source": "file_af6b0b0b",
+      "target": "file_e50678dc"
+    }
+  ],
+  "hyperedges": []
+}

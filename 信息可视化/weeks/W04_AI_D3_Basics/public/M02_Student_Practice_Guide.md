@@ -31,15 +31,15 @@ Web 编程需要三个基础角色：**HTML(骨架图层)**、**CSS(化妆师)**
 
 ### 💻 魔法代码
 ```javascript
-// 实验一：呼唤系统内置的巨型收纳盒 (document.body 代表整个页面)
+// 实践任务：呼唤系统内置的巨型收纳盒 (document.body 代表整个页面)
 document.body.style.background = "black";
 
-// 实验二：制造你自己的收纳盒 (box) 与翻倍机器 (machine)
+// 实践任务：制造你自己的收纳盒 (box) 与翻倍机器 (machine)
 let box = 10;
 let machine = d => d * 2; 
 console.log("单次加工结果: ", machine(box));
 
-// 实验三：让机器批量加工数据列表
+// 实践任务：让机器批量加工数据列表
 let dataset = [5, 10, 15];
 console.log("批量加工结果: ", dataset.map(machine));
 ```
