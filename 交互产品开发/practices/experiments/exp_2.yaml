@@ -1,7 +1,7 @@
 exp_id: 2
 name: 画出 Proto Persona（用户画像）
 type: 设计性
-hours: 4
+hours: 12
 group_size: 1
 requirement: 必做
 summary: 基于实验 1 的痛点挖掘，在设计工具中制作包含四大标准模块的 Proto Persona 视觉画像。
@@ -21,11 +21,11 @@ equipment: |
   1. 硬件：个人计算机（学校机房或自备）
   2. 输入材料：实验 1 的 /总结 数据卡
   3. 参考素材：教材参考图或网上搜索
-  4. 制作工具（任选其一）：Figma / Adobe Illustrator / 手绘 / Procreate / 其他绘图软件
+  4. 制作工具（任选其一）：Figma / Adobe Illustrator / 手绘（强烈鼓励，以降低工具门槛） / Procreate / 其他绘图软件
 requirements: |
-  （一）须输出包含四大模块的 A4 尺寸 Proto-Persona 画像卡成品。
-  （二）须提供至少 3 张制作过程截图。
-  （三）须完成实践报告，图文交替排版。
+  （一）须输出包含四大模块的 A4 尺寸 Proto-Persona 画像卡成品。无论使用数字工具还是手绘，必须严格划分四大窗格，结构不可变。
+  （二）须提供至少 3 张制作过程截图（若为纸笔手绘，请拍摄创作过程的照片）。
+  （三）须完成实践报告，图文交替排版。注意警惕“画技掩盖逻辑”，精美的视觉表现不能替代行为特征的深度分析。
 methods: |
   1. 整理实验 1 的结构化 JTBD 数据。
   2. 使用设计工具建立 A4 画布并划分四大区块。
@@ -67,10 +67,15 @@ analysis_prompts:
 grading_rubric:
 - dimension: 数据内容有效性
   points: 30
-  standard: 四大模块内容完整，有效规避人口学陷阱，内容聚焦于行为特征与JTBD。
+  standard: 四大模块内容完整，有效规避人口学陷阱，内容聚焦于行为特征与JTBD。高分关键在于逻辑深度，而非绘画技巧。
 - dimension: 排版与结构完整性
   points: 30
-  standard: 严格遵循四大标准模块的四窗格布局规范，A4尺寸画布布局合理、层级清晰。
+  standard: 严格遵循四大标准模块的四窗格布局规范，A4尺寸画布布局合理、层级清晰。粗糙的载体也必须有严谨的逻辑框架。
 - dimension: 视觉化表达能力
   points: 40
-  standard: 无论使用数字工具还是手绘，均展现了出色的文字数据视觉化能力，整体专业且有层次感。
+  standard: 无论使用数字工具还是手绘，均能将枯燥数据进行清晰的视觉转化。不以“精美度”论高低，重点评估信息传达的准确度与同理心的投射。
+materials:
+- type: guide
+  path: practices/materials/W03/实验B_Proto-Persona画像制作_学生版指南.md
+- type: template
+  path: practices/materials/W03/实验B_Proto-Persona画像制作_学生报告.md

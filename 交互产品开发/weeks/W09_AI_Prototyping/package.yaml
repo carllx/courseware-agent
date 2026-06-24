@@ -1,6 +1,6 @@
 week: 9
-topic: AI原型协作结构化
-title: AI原型协作结构化
+topic: AI Agents 驱动数字产品开发
+title: AI Agents 驱动数字产品开发
 theory_hours: 3
 practice_hours: 2
 objectives:
@@ -25,6 +25,6 @@ segments:
 - id: M03
   src: src/M03_讲授_失控的副驾驶_AI_的六大约束边界.md
 - id: M04
-  src: src/M04_实践_实践项目3_驱动壳层生成.md
+  src: src/M04_实践_实验三_多角色Agent协同编码.md
 - id: M05
   src: src/M05_小结_对比与总结最佳实践.md

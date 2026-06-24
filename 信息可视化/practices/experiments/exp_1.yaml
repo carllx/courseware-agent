@@ -111,6 +111,3 @@ grading_rubric:
 - dimension: Customize 与理论反思
   points: 10
   standard: 进行合理的视觉 Customize，对底层通道语法的反思深刻。
-questions: |
-  （一）在 RAWGraphs 中如何系统地将分类型和数值型变量映射到合适的图表变量？
-  （二）你认为 RAWGraphs 导出的图表在"数据墨水比"上是否存在不足？

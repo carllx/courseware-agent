@@ -460,3 +460,29 @@ ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_t
 - Loader 职责回归纯粹读取（不再越权清洗或计算学时），学时对账业务转移至外部专业检查链。
 
 **变更文件**：`course_loader.py`、`validation-suite/check_experiment_hours.py`、`.agent/skills/validation_suite/scripts/validate_project.py`、`.agent/skills/validation_suite/SKILL.md`、`.agent/memory/ADR.md`。
+
+## ADR 046: 放宽全实践课程实验学时对账条件
+**Date**: 2026-06-15
+**Context**: 针对全实践类型（即没有理论学时，`theory: 0`）的课程，过往的学时验证器（如 ADR 045 确立的 `check_experiment_hours.py` 和教务端适配器）要求正式大实验的总学时必须严格等于课程声明的实践总学时。但实际上，对于此类实践导向的课程，剩余的实践学时可以通过一些日常或随堂的“平时练习(Practice)”进行替补填充，不要求大实验把学时完全占满。
+**Decision**:
+1. **解除强行对等要求**：当检测到 `course.hours.theory == 0` 时，允许 `exp_total_hours < practice_hours`，将其从阻断性错误降级为静默放行或一般性 Warning（提示通过平时练习补足剩余学时）。
+2. **防超限机制**：依然严格禁止 `exp_total_hours > practice_hours`。实验总学时不可超出实践学时的物理容量上限。
+3. **隔离更新**：首先在课程工作区的 `check_experiment_hours.py` 执行新规则，并委托教务端项目修改其适配器（`experiment_adapter.py`）及校验器（`course_schema.py`）以保证下游兼容。
+**影响**:
+- 全实践课程获得更大的活动排布灵活性。
+- “正式实验(Experiment)”与“平时练习(Practice)”在时间填充上形成了互补关系，贴合现代实践课程的真实教学场景。
+
+**变更文件**：`validation-suite/check_experiment_hours.py`、`.agent/rules/rule_experiment_compliance.md`、`.agent/memory/ADR.md`。
+
+## ADR 047: 期末考核分类的官方枚举修正 (Assessment Type Enum)
+**Date**: 2026-06-15
+**Context**: 教务生成端与课程源数据之间对于期末考核的大类定义（`assessment_type`）存在理解不一的问题。历史上曾出现“实操类”、“报告”、“演示类”、“实物类”等未经标准化的非标表述，这破坏了教务自查表与评分标准的系统同源性 (SSOT)，引发教务端的硬编码或解析异常。
+**Decision**:
+1. **统一官方枚举**：强制将期末考核类型 (`final_item.assessment_type`) 限定为以下四个枚举值：`大作业`、`论文`、`口试`、`实际操作`。
+2. **废弃非标表述**：历史数据中的“实操类”等非标表述必须统一映射并替换为“实际操作”。
+3. **约束固化**：将此合法值域约束记录至 `.agent/rules/rule_assessment_constraints.md`。
+**影响**:
+- 确保了考核分类术语与上级教务规约的严谨对齐。
+- 所有源数据中的分类描述将实现跨项目一致性。
+
+**变更文件**：`.agent/rules/rule_assessment_constraints.md`、各课程的 `course_assessment.yaml`、`.agent/memory/ADR.md`。

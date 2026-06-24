@@ -52,13 +52,23 @@ def main():
             exp_count += 1
 
     # 允许浮点数对比
-    if float(actual_hours) != float(expected_practice_hours):
-        print(f"❌ [错误] 实验学时对账失败！", file=sys.stderr)
-        print(f"   预期 (course.hours.practice): {expected_practice_hours} 学时", file=sys.stderr)
-        print(f"   实际 ({exp_count} 个动态实验求和): {actual_hours} 学时", file=sys.stderr)
-        sys.exit(1)
+    expected_theory_hours = meta_data.get("course", {}).get("hours", {}).get("theory", 0)
+    if expected_theory_hours == 0:
+        if float(actual_hours) > float(expected_practice_hours):
+            print(f"❌ [错误] 实验学时对账失败！全实践课程的实验总学时不可超过总实践学时。", file=sys.stderr)
+            print(f"   预期 (course.hours.practice): 最大 {expected_practice_hours} 学时", file=sys.stderr)
+            print(f"   实际 ({exp_count} 个动态实验求和): {actual_hours} 学时", file=sys.stderr)
+            sys.exit(1)
+        elif float(actual_hours) < float(expected_practice_hours):
+            print(f"⚠️ [警告] 全实践课程实验学时未占满实践学时，剩余实践时间请以平时练习补足。预期 {expected_practice_hours}，实际 {actual_hours} 学时", file=sys.stderr)
+    else:
+        if float(actual_hours) != float(expected_practice_hours):
+            print(f"❌ [错误] 实验学时对账失败！", file=sys.stderr)
+            print(f"   预期 (course.hours.practice): {expected_practice_hours} 学时", file=sys.stderr)
+            print(f"   实际 ({exp_count} 个动态实验求和): {actual_hours} 学时", file=sys.stderr)
+            sys.exit(1)
 
-    print(f"✅ [成功] 实验学时对账一致。总计 {exp_count} 个实验，共 {actual_hours} 学时。")
+    print(f"✅ [成功] 实验学时检查完成。总计 {exp_count} 个实验，共 {actual_hours} 学时。")
     sys.exit(0)
 
 if __name__ == "__main__":

@@ -1,0 +1,395 @@
+global:
+  college: 设计学院
+  major: 数字媒体艺术
+  school_teacher: 林昕
+  teacher_advice: 实习期间表现优异，态度端正，能够很好地将理论知识与实际工作相结合。
+  teacher_signature: ''
+students:
+  - sequence_number: '1'
+    student_name: 叶桂豪
+    student_phone: '15766843775'
+    student_email: 2230150173@qq.com
+    class_name: 22数字媒体艺术
+    base_name: 郑州名匠网络科技有限公司广州分公司
+    position: 游戏特效
+    intern_content: 深入参与数字娱乐产品的视觉资源制作与特效合成，紧密配合美术团队把控最终视觉品质，熟练运用行业专业软件完成高标准的特效视觉呈现。
+    enterprise_teacher: 吴雯濑
+    enterprise_phone: '15813242749'
+    decentralized_apply_student_date: 2025年12月8日
+    decentralized_apply_school_date: 2025年12月9日
+    inspect_year: '2025'
+    inspect_month: '12'
+    inspect_day: '02'
+    inspect_date: 2025年12月2日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广东省广州市天河区广东省广州市天河区天河软件园科韵园区建工路 11 号
+    intern_start_end: 2025年12月1日 至 2026年6月1日
+  - sequence_number: '2'
+    student_name: 原泳乐
+    student_phone: '15362107260'
+    student_email: 2038557152@qq.com
+    class_name: 22数艺专升本2班
+    base_name: 中山环球教育咨询有限公司
+    position: 新媒体运营
+    intern_content: 负责视频素材的整理、拍摄、剪辑、后期特效及调色包装，严格把控多媒体影音内容的输出质量，配合团队完成视听内容的制作与发布。
+    enterprise_teacher: 汤颖
+    enterprise_phone: 0760-88729899
+    decentralized_apply_student_date: 2026年2月9日
+    decentralized_apply_school_date: 2026年2月10日
+    inspect_year: '2026'
+    inspect_month: '02'
+    inspect_day: '02'
+    inspect_date: 2026年2月2日
+    score_safety: '9'
+    score_attendance: '14'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '88'
+    note: ''
+    base_address: 中山市东区银通街19号之十五301卡
+    intern_start_end: 2026年2月1日 至 2026年4月30日
+  - sequence_number: '3'
+    student_name: 周予欣
+    student_phone: '14745279198'
+    student_email: 2696318657@qq.com
+    class_name: 22数字媒体艺术
+    base_name: 广州金瑞来宜居房屋租赁有限公司
+    position: 短视频编导
+    intern_content: 在公司担任短视频编导一职，主要负责公司短视频内容策划，脚本、拍摄统筹及后期剪辑等工作。工作期间认真完成各项任务，积极配合团队完成宣传需求，不断提升专业能力与业务水平。为今后职业发展打下良好基础
+    enterprise_teacher: 钟金烨
+    enterprise_phone: '130702296097'
+    decentralized_apply_student_date: 2026年2月2日
+    decentralized_apply_school_date: 2026年2月3日
+    inspect_year: '2026'
+    inspect_month: '01'
+    inspect_day: '27'
+    inspect_date: 2026年1月27日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广东省广州市花都区狮岭镇金狮大道西130号
+    intern_start_end: 2026年1月26日 至 2026年3月28日
+  - sequence_number: '4'
+    student_name: 胡燕曼
+    student_phone: '18300110268'
+    student_email: hhhh0828@qq.com
+    class_name: 22数字媒体艺术
+    base_name: 广州市飞扬未来之翼教育培训中心有限公司
+    position: 美术实习生
+    intern_content: 学校430创意美术板块总统筹，课后430授课
+    enterprise_teacher: 王冰
+    enterprise_phone: '15626712170'
+    decentralized_apply_student_date: 2026年1月26日
+    decentralized_apply_school_date: 2026年1月27日
+    inspect_year: '2026'
+    inspect_month: '01'
+    inspect_day: '20'
+    inspect_date: 2026年1月20日
+    score_safety: '9'
+    score_attendance: '14'
+    score_learning: '14'
+    score_teamwork: '14'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '90'
+    note: ''
+    base_address: 广州市白云区悦云路218号201室
+    intern_start_end: 2026年1月19日 至 2026年6月30日
+  - sequence_number: '5'
+    student_name: 林晓清
+    student_phone: '13392506263'
+    student_email: 2278826680@qq.com
+    class_name: 22数艺专升本3班
+    base_name: 江门市新会区融媒体中心
+    position: 编导
+    intern_content: 协助编导写脚本、跑拍摄、剪素材、整理资料，配合完成短视频采编发布。
+    enterprise_teacher: 赵安
+    enterprise_phone: 0750-6622157
+    decentralized_apply_student_date: 2025年12月29日
+    decentralized_apply_school_date: 2025年12月30日
+    inspect_year: '2025'
+    inspect_month: '12'
+    inspect_day: '23'
+    inspect_date: 2025年12月23日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广东省江门市新会区冈州大道中48号
+    intern_start_end: 2025年12月22日 至 2026年1月30日
+  - sequence_number: '6'
+    student_name: 李思雨
+    student_phone: '18908406070'
+    student_email: 2859332356@qq.com
+    class_name: 22数艺专升本2班
+    base_name: 湖南华瑞暖通节能有限公司
+    position: 平面设计
+    intern_content: 负责公司数字视觉内容的设计、排版与优化，提升整体视觉表现力，结合数字媒体专业知识高效产出符合商业标准的平面设计素材。
+    enterprise_teacher: 李祥
+    enterprise_phone: '13037309390'
+    decentralized_apply_student_date: 2026年3月6日
+    decentralized_apply_school_date: 2026年3月9日
+    inspect_year: '2026'
+    inspect_month: '03'
+    inspect_day: '02'
+    inspect_date: 2026年3月2日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 岳阳市云梦路1号
+    intern_start_end: 2026年2月27日 至 2026年5月27日
+  - sequence_number: '7'
+    student_name: 刘乐添
+    student_phone: '18027003723'
+    student_email: 2052074163@qq.com
+    class_name: 22数字媒体艺术
+    base_name: 东莞市灵烯贸易有限公司
+    position: 美工
+    intern_content: '1负责甲方电商平台商品主图、详情页、活动海报、店铺首页等商业视觉设计与版式优化，贴合平台运营及品牌视觉规范;
+
+      2配合运营团队完成促销活动、节日大促、品牌宣传等主题的设计需求，按时交付设
+
+      计初稿及定稿;
+
+      3.参与产品拍摄的基础布景、图片精修及短视频素材的简单辑(仅限基础拼接、调色、字幕添加等初级操作，不涉及专业影视制作);
+
+      4.协助整理、分类、更新甲方设计素材库，参与设计流程与规范的优化建议讨论;5.其他与美工设计相关的辅助性工作(以甲方书面或企业内部办公系统通知为准，不涉及核心商业运营决策、财务操作等非岗位相关工作)。'
+    enterprise_teacher: 刘校添
+    enterprise_phone: '18027007173'
+    decentralized_apply_student_date: 2026年1月12日
+    decentralized_apply_school_date: 2026年1月13日
+    inspect_year: '2026'
+    inspect_month: '01'
+    inspect_day: '06'
+    inspect_date: 2026年1月6日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广东省东莞市企石镇通心岭二街12号
+    intern_start_end: 2026年1月5日 至 2026年4月5日
+  - sequence_number: '8'
+    student_name: 方一萌
+    student_phone: '13528819487'
+    student_email: 2863804463@qq.com
+    class_name: 22数艺专升本3班
+    base_name: 扬州市恒悦汇再生资源有限公司
+    position: 销售部内勤
+    intern_content: 负责了解客户的具体诉求并精准转化为数字媒体项目的执行标准，协助进度的跟进与跨部门的高效沟通，保障多媒体项目的顺利交付。
+    enterprise_teacher: 房大俊
+    enterprise_phone: '13952594451'
+    decentralized_apply_student_date: 2025年12月29日
+    decentralized_apply_school_date: 2025年12月30日
+    inspect_year: '2025'
+    inspect_month: '12'
+    inspect_day: '23'
+    inspect_date: 2025年12月23日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 江苏省扬州市邗江区高力汽车汽配城A2栋203室
+    intern_start_end: 2025年12月22日 至 2026年2月28日
+  - sequence_number: '9'
+    student_name: 蔡贤林
+    student_phone: '17722974310'
+    student_email: 2974318700@qq.com
+    class_name: 22数艺专升本2班
+    base_name: 广州欧库子服装有限公司
+    position: 电商运营
+    intern_content: 协助开展线上多媒体内容的策划、排版、发布与日常店铺运营，分析平台数据并进行内容迭代优化，有效提升用户互动与品牌整体曝光度。
+    enterprise_teacher: 陈桂茂
+    enterprise_phone: '13543967654'
+    decentralized_apply_student_date: 2026年2月24日
+    decentralized_apply_school_date: 2026年2月25日
+    inspect_year: '2026'
+    inspect_month: '02'
+    inspect_day: 09
+    inspect_date: 2026年2月9日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广东省揭阳市揭东区锡场镇东围大路
+    intern_start_end: 2026年2月7日 至 2026年3月7日
+  - sequence_number: '10'
+    student_name: 唐颖婷
+    student_phone: '14778385536'
+    student_email: 2802757380@qq.com
+    class_name: 22数艺专升本4班
+    base_name: 广州途祥海事技术服务有限公司
+    position: 文员
+    intern_content: 负责日常行政文书整理、文件归档、来访接待；完成会议通知、会议记录撰写；协助整理各类报表、数据录入；收发登记文件快递，维护办公物资；配合完成部门日常后勤与辅助办公工作。
+    enterprise_teacher: 唐高专
+    enterprise_phone: '18928286122'
+    decentralized_apply_student_date: 2026年1月22日
+    decentralized_apply_school_date: 2026年1月23日
+    inspect_year: '2026'
+    inspect_month: '01'
+    inspect_day: '16'
+    inspect_date: 2026年1月16日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广州市增城区新塘镇新洲路4号103室
+    intern_start_end: 2026年1月15日 至 2026年3月15日
+  - sequence_number: '11'
+    student_name: 卢思彤
+    student_phone: '15626047286'
+    student_email: 2774759972@qq.com
+    class_name: 22数字媒体艺术
+    base_name: 惠州市美景深山酒店有限公司
+    position: 美工实习生
+    intern_content: '实习期间担任美工实习生，负责酒店海报、宣传物料、标识排版及图片精修优化，维护线上平台视觉展示，整理设计素材，配合完成各类宣传布置与稿件修改工作。
+
+      严格遵守学校实习管理制度，自觉审核实习教学质量，坚守专业对口实习原则，杜绝各类违规劳动，规范完成实习任务，顺利完成实习教学考核。'
+    enterprise_teacher: 徐月华
+    enterprise_phone: '15018619337'
+    decentralized_apply_student_date: 2025年12月8日
+    decentralized_apply_school_date: 2025年12月9日
+    inspect_year: '2025'
+    inspect_month: '12'
+    inspect_day: '02'
+    inspect_date: 2025年12月2日
+    score_safety: '9'
+    score_attendance: '14'
+    score_learning: '14'
+    score_teamwork: '14'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '90'
+    note: ''
+    base_address: 博罗县横河镇长河大道 8 号
+    intern_start_end: 2025年12月1日 至 2026年1月1日
+  - sequence_number: '12'
+    student_name: 李嘉龙
+    student_phone: '18823255032'
+    student_email: 3358166470@qq.com
+    class_name: 22数艺专升本1班
+    base_name: 深圳万德新媒体有限公司
+    position: 平面设计
+    intern_content: 实习期间，在实习导师的指导下主要协助完成微信公众号推文配图、小红书及抖音封面模板、品牌海报及信息长图排版等设计工作，配合团队完成素材筛选、配色排版、尺寸适配及修改反馈等任务，熟练使用PS、AI等设计工具。
+    enterprise_teacher: 薛静
+    enterprise_phone: '15590734316'
+    decentralized_apply_student_date: 2026年3月9日
+    decentralized_apply_school_date: 2026年3月10日
+    inspect_year: '2026'
+    inspect_month: '03'
+    inspect_day: '03'
+    inspect_date: 2026年3月3日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 深圳市南山区桃源街道长源社区学苑大道1001号南山智园C2栋1719
+    intern_start_end: 2026年3月2日 至 2026年4月2日
+  - sequence_number: '13'
+    student_name: 陈东涵
+    student_phone: '13434652976'
+    student_email: 3424644009@qq.com
+    class_name: 22数字媒体艺术
+    base_name: 广州南方学院设计学院
+    position: 就业助理
+    intern_content: 协助老师开展就业辅导与数字媒体资源整理相关工作，通过整合招聘信息及制作相关宣传物料，提升就业服务的数字化水平，耐心指导推进各项任务。
+    enterprise_teacher: 廖湘
+    enterprise_phone: '17388653365'
+    decentralized_apply_student_date: 2025年12月12日
+    decentralized_apply_school_date: 2025年12月15日
+    inspect_year: '2025'
+    inspect_month: '12'
+    inspect_day: 08
+    inspect_date: 2025年12月8日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广州南方学院4号教学楼105
+    intern_start_end: 2025年12月5日 至 2026年1月5日
+  - sequence_number: '14'
+    student_name: 杨韵芮
+    student_phone: '13726312749'
+    student_email: 252118025@qq.com
+    class_name: 22数字媒体艺术
+    base_name: 佛山市顺德区星彩艺电子科技实业有限公司
+    position: 电商运营助理
+    intern_content: 协助开展直播间线上多媒体内容的策划、发布与日常运营，协助现场布景、推流控制及数据监控，有效提升直播互动体验与品牌整体曝光度。
+    enterprise_teacher: 何彩媚
+    enterprise_phone: '13928288177'
+    decentralized_apply_student_date: 2026年1月22日
+    decentralized_apply_school_date: 2026年1月23日
+    inspect_year: '2026'
+    inspect_month: '01'
+    inspect_day: '16'
+    inspect_date: 2026年1月16日
+    score_safety: '8'
+    score_attendance: '13'
+    score_learning: '13'
+    score_teamwork: '13'
+    score_attitude: '13'
+    score_task: '13'
+    score_suitability: '13'
+    score_total: '86'
+    note: ''
+    base_address: 广东省佛山市顺德区珠江大道9号星彩艺电子科技实业有限公司
+    intern_start_end: 2026年1月15日 至 2026年4月15日

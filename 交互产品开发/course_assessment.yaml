@@ -5,38 +5,126 @@ assessment_methods:
   normal_items:
   - name: 章节测试一
     ratio: 10
-    desc: 对应实验 1「Jobs to be Done 的反弹陪练」。考核要求：完成基于 AI 反弹陪练的深度访谈，挖掘核心痛点，并提炼结构化的 JTBD 报告。
+    desc: 对应实验 1「Jobs to be Done 的反弹陪练」。考核要求：完成基于 AI 反弹陪练的深度访谈，挖掘核心痛点，并提炼结构化的 JTBD
+      报告。
   - name: 章节测试二
     ratio: 15
     desc: 对应实验 2「画出 Proto Persona（用户画像）」。考核要求：运用设计工具将早期定性调研数据视觉化，产出严谨的四大标准模块用户画像卡，体现假设驱动方法论。
   - name: 章节测试三
     ratio: 15
-    desc: 对应实验 3「AI Agents 驱动的个人作品集网站实现」。考核要求：产出包含完整前期过程文档（简报、PRD、前端规范、架构）及基于纯 HTML/CSS/JS 实现的 4 个核心网页初稿，体现 AI 协作与文档驱动的工程能力。
+    desc: 对应实验 3「AI Agents 驱动的数字体验原型实现」。考核要求：产出包含完整前期过程文档（简报、PRD、视觉规范、架构）及由 Agent
+      辅助生成的 4 个核心网页初稿，体现 AI 协作与文档驱动的能力。
   final_item:
+    assessment_type: 实际操作
     name: 期末综合项目考查
     ratio: 100
-    desc: 对应实验 4「基于精益用户体验的综合设计」。要求按照默认的 A 卷（个人作品集网站）完成独立开发。考核将侧重于前端页面完整度、代码规范及 UI 还原度。详见 practices/project_brief.md。
+    desc: 对应实验 4「基于精益用户体验的综合设计」。要求按照给定的双轨命题（A卷/B卷）完成独立设计。考核侧重于数字价值呈现、跨端自适应还原度以及人机协作对话（Prompt）能力。详见
+      practices/project_brief.md。
 exams:
   final_exam:
   - name: 期末综合项目考查
+    type: practice_ab
     total_score: 100
     duration: 120
+    practice_paper:
+      core_tech_points:
+      - 熟练运用自然语言驱动开发(Vibecoding)完成系统构建
+      - 掌握精益 UX 思维，实现多端响应式适配与无障碍体验
+      submission_format: 包含一份有步骤和截图的实验报告，以及一段 20 秒内的产品走查演示视频（严格要求：1080P 分辨率，采用 H.264
+        编码的 MP4 格式），无需递交工程源码压缩包。
+      ab_versions:
+        A:
+          practice_theme: '结合数字媒体艺术专业特色，以“基于数字身份的专业履历交互网站”为设计目标。应用场景侧重于个人数字资产的自我表达与交互呈现。你需要以个人作品集为素材基座，设计并开发专属数字产品。要求系统拓扑流向清晰，至少包含
+            4 个相互独立且逻辑关联的页面，充分展现独特的视觉风格与人机互动细节。
+
+            '
+          practice_requirements: '（1）具备运用自然语言驱动开发（Vibecoding）完成前端系统构建的能力，并在设计中融入精益
+            UX 思维以实现多端响应式适配与无障碍体验；
+
+            （2）单人的形式制作；
+
+            （3）制作过程原创，不得抄袭或者使用网上现成模板/模型；
+
+            （4）提交作者自己设计的界面草图、灵感参考图或数据集来源说明。
+
+            '
+          practice_deliverables: '文件以“学号+姓名+交互产品开发”的方式命名，仅需递交以下两项（无需递交工程源码压缩包）：
+
+            1. 实验报告：里面必须包含完整的步骤说明与截图。
+
+            2. 产品走查演示视频：一段 20 秒内的演示视频（视频格式严格要求：1080P 分辨率，采用 H.264 编码进行压缩的 MP4 格式）。
+
+            '
+          practice_deadline: 2026年6月21日
+          example_images:
+          - assets/exams/interact_a_portfolio_1781359046801.png
+          - assets/exams/interact_a_resume_1781359058863.png
+          - assets/exams/interact_a_creative_1781359072295.png
+        B:
+          practice_theme: '选取具体的非遗或在地文化元素，进行数字化体验重构与多页面的互动设计。应用场景为“面向在地文化或非遗主题的互动重塑系统”。需要你充分发挥创造力对在地文化进行现代转译。要求设计系统至少包含
+            4 个相互独立且逻辑关联的页面，交互链路完整且能在数据逻辑与代码层面跑通。
+
+            '
+          practice_requirements: '（1）具备运用自然语言驱动开发（Vibecoding）完成前端系统构建的能力，并在设计中融入精益
+            UX 思维以实现多端响应式适配与无障碍体验；
+
+            （2）单人的形式制作；
+
+            （3）制作过程原创，不得抄袭或者使用网上现成模板/模型；
+
+            （4）提交作者自己设计的界面草图、灵感参考图或数据集来源说明。
+
+            '
+          practice_deliverables: '文件以“学号+姓名+交互产品开发”的方式命名，仅需递交以下两项（无需递交工程源码压缩包）：
+
+            1. 实验报告：里面必须包含完整的步骤说明与截图。
+
+            2. 产品走查演示视频：一段 20 秒内的演示视频（视频格式严格要求：1080P 分辨率，采用 H.264 编码进行压缩的 MP4 格式）。
+
+            '
+          practice_deadline: 2026年6月21日
+          example_images:
+          - assets/exams/interact_b_pottery_1781359707799.png
+          - assets/exams/interact_b_weaving_1781359720674.png
+          - assets/exams/interact_b_architecture_1781359731491.png
     sections:
-    - section_name: 原型设计与架构规划
-      total_score: 30
+    - section_name: 交互逻辑与信息架构
+      total_score: 25
       questions:
-      - content: 对应实验 4「基于精益用户体验的综合设计」。考核要求（A卷）：个人作品集网站的页面逻辑流向清晰，包含至少 4 个核心页面（如首页、简介、作品库、联系方式），且各页面间跳转导航设计合理，无死链。
-        type: 综合性
-        score: 30
-    - section_name: 前端代码规范与完备度
-      total_score: 40
+      - type: 综合性
+        score: 25
+        content: '1. 站点层级清晰，包含至少4个功能独立的核心页面。
+
+          2. 导航与防错机制流畅，提供全局导航与状态提示。
+
+          3. 【A卷示例】数字身份展馆链路闭环；【B卷示例】文化认知到互动体验链路闭环。'
+    - section_name: 视觉表现与跨端适配
+      total_score: 25
       questions:
-      - content: 对应实验 4「基于精益用户体验的综合设计」。考核要求（A卷）：全程使用 HTML、CSS 和 JavaScript 构建，文件结构组织清晰（如独立拆分 css、js 文件）；HTML 标签语义化正确；CSS 代码复用率高，体现一定的组件化和模块化思想，未滥用内联样式。
-        type: 综合性
-        score: 40
-    - section_name: 视觉呈现与动效体验
-      total_score: 30
+      - type: 综合性
+        score: 25
+        content: '1. 色彩、排版与字体体系统一，符合现代UI规范。
+
+          2. 桌面与移动端均能保持严谨响应式比例和可用性。
+
+          3. 【A卷示例】风格传递个人职业基调；【B卷示例】现代美学转译在地文化属性。'
+    - section_name: AI协同与工程落地
+      total_score: 25
       questions:
-      - content: 对应实验 4「基于精益用户体验的综合设计」。考核要求（A卷）：视觉 HSL 色彩体系和谐，版式布局符合现代审美规范并具备一定的响应式适配能力；合理地注入了 JavaScript 或 CSS3 互动特效（如 Hover 状态反馈、页面转场过渡），提升整体操作 Vibe。
-        type: 综合性
-        score: 30
+      - type: 综合性
+        score: 25
+        content: '1. 经由Agent协作生成系统架构和前端组件，现代浏览器中无碍运行。
+
+          2. 具备解决报错与样式偏移的Prompt控制纠偏能力。
+
+          3. 代码语义化标签合理，满足基础A11y标准。'
+    - section_name: 叙事体验与交付规范
+      total_score: 25
+      questions:
+      - type: 综合性
+        score: 25
+        content: '1. 页面模块按认知规律递进，包含合理微动效与反馈机制。
+
+          2. 情绪共鸣渲染到位，实验报告能客观反思人机协作边界。
+
+          3. 按要求完成产品走查视频及规范交付归档。'

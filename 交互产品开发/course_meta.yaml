@@ -19,17 +19,33 @@ course:
     '
   classes:
   - name: 2023级数字媒体艺术影视班
+    teaching_class_name:
+      full_name: 影视班-2023级数字媒体艺术【交互产品开发】-303478
+      class_group: 影视班
+      grade_and_major: 2023级数字媒体艺术
+      course_name: 交互产品开发
+      class_id: 303478
+    student_count: 52
     archive_id: 21
-    schedule_time: 周四2-5节
+    schedule_time: 星期三第2-5节{9-15周};星期日第1-4节{11周,14-15周};星期日第2-5节{8周};星期日第6-9节{10周};星期日第8-11节{7周}
     schedule_segments:
-    - weeks: 9-18
+    - weeks: 9-15
       period: 2-5节
-      day: 周四
-    - weeks: 13-17
+      day: 星期三
+    - weeks: 11,14-15
+      period: 1-4节
+      day: 星期日
+    - weeks: '8'
       period: 2-5节
-      day: 周日
-    classroom: 温泉校区 2实107
-    week_range: 9-18
+      day: 星期日
+    - weeks: '10'
+      period: 6-9节
+      day: 星期日
+    - weeks: '7'
+      period: 8-11节
+      day: 星期日
+    classroom: 温泉校区 2实107;3实312
+    week_range: 7-15
   hours:
     total: 60
     theory: 0

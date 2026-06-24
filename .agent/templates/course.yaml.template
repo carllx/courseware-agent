@@ -29,6 +29,13 @@ course:
   resources_url: "无"                   # 课程网站 URL（无则填"无"）
   classes:
     - name: ""                          # 班级名称
+      teaching_class_name:              # 新增：教务系统中的结构化班级信息
+        full_name: ""                   # 如: "影视班-2023级数字媒体艺术【交互产品开发】-303478"
+        class_group: ""                 # 如: "影视班"
+        grade_and_major: ""             # 如: "2023级数字媒体艺术"
+        course_name: ""                 # 如: "交互产品开发"
+        class_id: null                  # 教务班级ID，如: 303478
+      student_count: 0                  # 班级人数
       # archive_id: 0                    # 可选：班级归档序号，每学期由系部汇总表分配。不同课程、不同班级序号各不相同。
       schedule_time: ""                 # 如: 周三2-5节
       classroom: ""

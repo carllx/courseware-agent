@@ -19,28 +19,45 @@ course:
     '
   classes:
   - name: 24数字媒体艺术影视班
+    teaching_class_name:
+      full_name: 影视班-2024级数字媒体艺术【信息可视化】-303502
+      class_group: 影视班
+      grade_and_major: 2024级数字媒体艺术
+      course_name: 信息可视化
+      class_id: 303502
+    student_count: 26
     archive_id: 45
-    schedule_time: 星期日(分段排课)
+    schedule_time: 星期日第1-5节{7-9周(单)};星期日第7-11节{8周,11周};星期日第1-5,11-15节{10周}
     schedule_segments:
     - weeks: 7,9
       period: 1-5节
+      day: 星期日
     - weeks: 8,11
       period: 7-11节
-    - weeks: '8'
-      period: 1-5节
+      day: 星期日
     - weeks: '10'
       period: 1-5节, 11-15节
+      day: 星期日
     classroom: 温泉校区 3实208
     week_range: 7-11
     official_weeks: 5
   - name: 24数字媒体艺术游戏班
+    teaching_class_name:
+      full_name: 游戏班-2024级数字媒体艺术【信息可视化】-303503
+      class_group: 游戏班
+      grade_and_major: 2024级数字媒体艺术
+      course_name: 信息可视化
+      class_id: 303503
+    student_count: 35
     archive_id: 46
-    schedule_time: 星期五(分段排课)
+    schedule_time: 星期五第2-5节{14-18周};星期五第1-5节{10-13周}
     schedule_segments:
-    - weeks: 10-13
-      period: 1-5节
     - weeks: 14-18
       period: 2-5节
+      day: 星期五
+    - weeks: 10-13
+      period: 1-5节
+      day: 星期五
     classroom: 温泉校区 3实208
     week_range: 10-18
     excluded_weeks:
