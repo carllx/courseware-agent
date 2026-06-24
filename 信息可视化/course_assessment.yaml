@@ -58,9 +58,9 @@ exams:
             （3）重考、缓考使用的是期末正考未启用过的试题，重缓考学生不得提交过往提交过的作品（含个人或他人/队员作品），否则将作抄袭、作弊处理，成绩为0。
           practice_deadline: 2026年6月30日
           example_images:
-          - assets/exams/infoviz_a_coffee_1781358563176.png
-          - assets/exams/infoviz_a_health_1781358572503.png
-          - assets/exams/infoviz_a_commute_1781358585547.png
+          - assets/A卷/01_疫情生活切片_物理拼贴.png
+          - assets/A卷/02_寿命增长_手绘数据骨架.png
+          - assets/A卷/03_寿命增长_数字有机形态.png
         B:
           practice_theme: |
             基于“数字剥削与系统透视”的消费平台数据艺术系统。
@@ -93,9 +93,9 @@ exams:
             （3）重考、缓考使用的是期末正考未启用过的试题，重缓考学生不得提交过往提交过的作品（含个人或他人/队员作品），否则将作抄袭、作弊处理，成绩为0。
           practice_deadline: 2026年6月30日
           example_images:
-          - assets/exams/infoviz_b_logistics_1781358711389.png
-          - assets/exams/infoviz_b_algorithm_1781358725036.png
-          - assets/exams/infoviz_b_finance_1781358739399.png
+          - assets/B卷/01_员工工时监控_微观规训.png
+          - assets/B卷/04_国际游客统计_系统流动.png
+          - assets/B卷/06_英超预测矩阵_冷酷算法.png
     sections:
     - section_name: 数据抽象与编码映射
       total_score: 25
