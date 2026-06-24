@@ -229,43 +229,8 @@ calendar:
 # --- 实验列表 (ADR 001 + ADR 011) ---
 # ⚠️ type 枚举必须含「性」啀缀：验证性 / 综合性 / 设计性 / 演示性
 # ⚠️ 实验4（期末大作）惯例应为综合性，禁用 创新/研究 等枚举外属分
-# ⚠️ 同一课程实验类型必须涵盖 ≥ 3 种，满足教务「不低于 3 种」要求
-# ⚠️ group_size 和 requirement 为必填字段，缺失导致生成器输出残缺
 # 推荐分配策略：实验1→验证性 / 实验2/3→设计性+综合性各一 / 实验4→综合性
-experiments:
-  - id: 1
-    name: ""
-    type: "验证性"                    # 验证性 / 设计性 / 综合性 / 演示性
-    hours: 0
-    group_size: 1                         # 必填：每组人数
-    requirement: "必做"                   # 必填：必做 / 选做
-    # objectives: |                       # 可选：实验目的（多行，【一】【二】分项）
-    # equipment: |                        # 可选：设备与软件环境
-    # requirements: |                    # 可选：实验要求
-    # methods: |                         # 可选：实验步骤与要点
-    # conclusions: |                     # 可选：实验结论
-    # questions: |                       # 可选：思考题（仅实验1-2）
-  - id: 2
-    name: ""
-    type: "设计性"
-    hours: 0
-    group_size: 1
-    requirement: "必做"
-    summary: ""                           # 仅综合性/设计性实验需要：认定表「实验内容简介」（1-3句）
-  - id: 3
-    name: ""
-    type: "综合性"
-    hours: 0
-    group_size: 1
-    requirement: "必做"
-    summary: ""
-  - id: 4
-    name: ""                              # 期末综合项目
-    type: "综合性"                    # 实验4惯例应为综合性
-    hours: 0
-    group_size: 1
-    requirement: "必做"
-    summary: ""
+experiments: []
 
 # --- 考核方式 (ADR 005 + ADR 011) ---
 # normal_items.name: "章节测试N" 或 "命题测试N"（无括号）
