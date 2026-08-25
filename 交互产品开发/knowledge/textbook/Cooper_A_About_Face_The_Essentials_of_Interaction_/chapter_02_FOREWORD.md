@@ -36,5 +36,5 @@ What is indisputable is the awesome power of interaction design: giving technolo
 
 —Alan Cooper
 
-![](images/24284a20b140e3c0f004e5b4a380c9db099ea21d817c221b9170f981e7d5bcf4.jpg)
+![](images/24284a20b140e3c0f004e5b4a380c9db099ea21d817c221b9170f981e7d5bcf4.webp)
 

@@ -25,7 +25,7 @@
 流向图（桑基图的变种）极其适合表现群体的分流与汇聚。它能帮你揭示多维度分类数据（如跨越年级和专业）的“空间壁垒”。
 
 ### 1. 图表介绍
-![流向图介绍](./images/01%20Alluvial%20Diagram/01-intro.png)
+![流向图介绍](./images/01%20Alluvial%20Diagram/01-intro.webp)
 
 ### 2. 变量映射配置 (Mapping)
 请在 RawGraphs 中参考以下参数进行通道映射（如果你使用自己的数据，请替换为类似的分类字段）：
@@ -35,10 +35,10 @@
 | **Steps** *(节点/X轴位置)* | **【Aa 学院】**<br>**【Aa 课后首选去向】**<br>**【Aa 年级】** | 按顺序拖入。决定河流从左到右流经的三个节点分类。 |
 | **Size** *(厚度/面积)* | **（留空自动计算）** | 自动按各分支的人数比例计算河流的厚度（面积通道）。 |
 
-![流向图映射](./images/01%20Alluvial%20Diagram/02-var.png)
+![流向图映射](./images/01%20Alluvial%20Diagram/02-var.webp)
 
 ### 3. 数据洞察与分析 (Analysis)
-![流向图结果](./images/01%20Alluvial%20Diagram/03-res.png.png)
+![流向图结果](./images/01%20Alluvial%20Diagram/03-res.webp.webp)
 
 **🔍 你的分析任务**：
 生成图表后，请在实验报告中撰写你的数据洞察。你可以参考以下观察视角：
@@ -52,7 +52,7 @@
 小提琴图的伟大之处在于它不盲目相信“平均数”，而是通过身材的宽窄（核密度估计），扒光人群真实的分布规律。
 
 ### 1. 图表介绍
-![小提琴图介绍](./images/02%20Violin%20plot%20/01-intro.png)
+![小提琴图介绍](./images/02%20Violin%20plot%20/01-intro.webp)
 
 ### 2. 变量映射配置 (Mapping)
 *注意：在第一步 Load Data 时，必须确认数值型字段（如【周均图书馆时长】）为 `# Number` 类型，否则会报错。*
@@ -64,10 +64,10 @@
 | **Groups** *(分类分组)* | **【Aa 学院】** | 将数据拆分为代表不同组别的小提琴。 |
 | **Color** *(身份识别)* | **【Aa 学院】** | 赋予各组专属颜色，加强视觉辨识。 |
 
-![小提琴图映射](./images/02%20Violin%20plot%20/02-var.png)
+![小提琴图映射](./images/02%20Violin%20plot%20/02-var.webp)
 
 ### 3. 数据洞察与分析 (Analysis)
-![小提琴图结果](./images/02%20Violin%20plot%20/03-res.png)
+![小提琴图结果](./images/02%20Violin%20plot%20/03-res.webp)
 
 **🔍 你的分析任务**：
 生成图表后，请在实验报告中撰写你的数据洞察。你可以参考以下观察视角：
@@ -81,7 +81,7 @@
 在流向图里看汇聚，在蜂群图里看个体。蜂群图是体验“0D 点标记（Point Mark）”与通道叠加威力的终极武器。
 
 ### 1. 图表介绍
-![蜂群图介绍](./images/03-Beeswarm%20plot/01-intro.png)
+![蜂群图介绍](./images/03-Beeswarm%20plot/01-intro.webp)
 
 ### 2. 变量映射配置 (Mapping)
 
@@ -93,10 +93,10 @@
 | **Label** *(文本锚点)* | **【Aa 学生ID】** | 鼠标悬停显示个体身份。 |
 | **Groups** *(Y轴分类)* | **【Aa 课后首选去向】** | 在 Y 轴拉出平行的物理空间跑道。 |
 
-![蜂群图映射](./images/03-Beeswarm%20plot/02-var.png)
+![蜂群图映射](./images/03-Beeswarm%20plot/02-var.webp)
 
 ### 3. 数据洞察与分析 (Analysis)
-![蜂群图结果](./images/03-Beeswarm%20plot/03-res.png.png)
+![蜂群图结果](./images/03-Beeswarm%20plot/03-res.webp.webp)
 
 **🔍 你的分析任务**：
 生成图表后，请在实验报告中撰写你的数据洞察。你可以参考以下观察视角：

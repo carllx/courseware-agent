@@ -48,5 +48,5 @@ The remainder of this book is dedicated to answering these questions. We share t
 3. Alexander, 1979   
 4. Gamma, et al, 1994
 
-![](images/4cd3adab281724cd1606d9b31fa423ac3416891a8b1b7fa14ee3bce2851067ed.jpg)
+![](images/4cd3adab281724cd1606d9b31fa423ac3416891a8b1b7fa14ee3bce2851067ed.webp)
 

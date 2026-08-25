@@ -32,10 +32,10 @@ Vertical and horizontal position are combined into the shared category of planar
 
 The psychophysical power law exponents for accuracy shown in Figure 5.7 are different for depth position judgements in 3D than for planar position judgements in 2D. Our highly accurate length perception capability, with the linear $n$ value of 1.0, only holds for planar spatial position. For depth judgements of visual distance, $n$ was measured as 0.67 [Stevens 57]; that exponent is even worse than the value of 0.7 for area judgements. This phenomenon is
 
-![](images/c236bb67a8d0e3db0f3f8c4baf8e0589e1ae27e90e467d311b96fbb5e3976473.jpg)  
+![](images/c236bb67a8d0e3db0f3f8c4baf8e0589e1ae27e90e467d311b96fbb5e3976473.webp)  
 (a)
 
-![](images/20038f9cabc052bb3ee58be2571a87b5b303a589ead8786fc049d834a99bbe97.jpg)  
+![](images/20038f9cabc052bb3ee58be2571a87b5b303a589ead8786fc049d834a99bbe97.webp)  
 (b)   
 Figure 6.2. Seeing planar position versus depth. (a) The sideways and up–down axes are fundamentally different from the toward–away depth axis. (b) Along the depth axis we can see only one point for each ray, as opposed to millions of rays for the other two axes. After [Ware 08, page 44].
 
@@ -57,7 +57,7 @@ The overarching problem with occlusion in the context of visual encoding is that
 
 Moreover, if the objects have unpredictable and unfamiliar shapes, understanding the three-dimensional structure of the scene can be very challenging. In this case there can be appreciable cognitive load because people must use internal memory to remember the shape from previous viewpoints, and internally synthesize an understanding of the structure. This case is common when using the spatial position channels for visual encoding. Figure 6.3 illustrates the challenges of understanding the topological structure of a node–link graph laid out in 3D, as an example of the unfamiliar structure that arises from visually encoding an abstract dataset. Synthesizing an understanding of the structure of the linkages hidden from the starting viewpoint shown here is likely to take a considerable amount of time. While sophisticated interaction idioms have been proposed to help users do this synthesis more quickly
 
-![](images/304a8b60bd9206737af38e84801c7864e5710f4feab627202af4d44c9bbe0260.jpg)  
+![](images/304a8b60bd9206737af38e84801c7864e5710f4feab627202af4d44c9bbe0260.webp)  
 Figure 6.3. Resolving the 3D structure of the occluded parts of the scene is possible with interactive navigation, but that takes time and imposes cognitive load, even when sophisticated interaction idioms are used, as in this example of a node–link graph laid out in 3D space. From [Carpendale et al. 96, Figure 21].
 
 than with simple realistic navigation, thus lowering the time cost, vis designers should always consider whether the benefits of 3D are worth the costs.
@@ -71,14 +71,14 @@ One of the major breakthroughs of Western art was the Renaissance understanding 
 ‣ The disparity in our perception of depth from our perception of planar spatial position is discussed in Section 6.3.2.   
 * The phenomenon of perspective distortion is also known as foreshortening.
 
-![](images/c412c50c7eae8695963e382eec60c66ab9f00069586803fe99a7a443c0779c88.jpg)  
+![](images/c412c50c7eae8695963e382eec60c66ab9f00069586803fe99a7a443c0779c88.webp)  
 Figure 6.4. 3D bar charts are more difficult than 2D bar charts because of both perspective distortion and occlusion. From [Few 07, Question 7].
 
 thing. However, in the context of visually encoding abstract data, perspective is a very bad thing! Perspective distortion is one of the main dangers of depth because the power of the plane is lost; it completely interferes with visual encodings that use the planar spatial position channels and the size channel. For example, it is more difficult to judge bar heights in a 3D bar chart than in multiple horizontally aligned 2D bar charts, as shown in Figure 6.4. Foreshortening makes direct comparison of bar heights difficult.
 
 Figure 6.5 shows another example where size coding in multiple dimensions is used for bars that recede into the distance in 3D on a ground plane. The result of the perspective distortion is that the bar sizes cannot be directly compared as a simple perceptual operation.
 
-![](images/4cb83f3755d0e67c3e29c697ee4f9100d220808bffafeac3d32db1b95dc0c3f2.jpg)  
+![](images/4cb83f3755d0e67c3e29c697ee4f9100d220808bffafeac3d32db1b95dc0c3f2.webp)  
 Figure 6.5. With perspective distortion, the power of the planar spatial position channel is lost, as is the size channel. From [Mukherjea et al. 96, Figure 1].
 
 # 6.3.5 Other Depth Cues
@@ -103,7 +103,7 @@ The great benefit of using 3D comes when the viewer’s task fundamentally requi
 
 For example, although people can be trained to comprehend blueprints with a top view and two side views, synthesizing the information contained within these views to understand what a complex object looks like from some arbitrary 3D viewpoint is a difficult problem that incurs significant cognitive and memory load. The 2D blueprint views are better for the task of accurately discriminating the sizes of building elements, which is why they are still heavily used in construction. However, there is considerable experimental evidence that 3D outperforms 2D for shape understanding tasks [St. John et al. 01].
 
-![](images/28bd25c2a4d67a2bf9575fd21a1315de06f16d35d2c2cd613aa1d9c9f7727083.jpg)  
+![](images/28bd25c2a4d67a2bf9575fd21a1315de06f16d35d2c2cd613aa1d9c9f7727083.webp)  
 Figure 6.6. The use of 3D is well justified when the central task is shape understanding, as in this example of 3D streamline showing the patterns of fluid flow through a volume. From [Li and Shen 07, Figure 9].
 
 Most tasks that have inherently 3D spatial data after the abstraction stage fall into this category. Some classical examples are fluid flow over an airplane wing, a medical imaging tomography dataset of the human body, or molecular interaction within a living cell. Figure 6.6 shows an example of streamlines in 3D fluid flow [Li and Shen 07], where geometric navigation based on 3D rotation is a good strategy to help users understand the complex shapes quickly.
@@ -124,9 +124,9 @@ Streamlines are discussed further in Section 8.5, and geometric navigation in Se
 
 <!-- Chunk 4 Start -->
 
-![](images/20d5c2644f422351503a74cb35f0419b3e817286d862b14a9b5b611bcf3c4e6f.jpg)
+![](images/20d5c2644f422351503a74cb35f0419b3e817286d862b14a9b5b611bcf3c4e6f.webp)
 
-![](images/603978f6b02ee841743c309006613b98592ed86fae6469d27184efd9b8259613.jpg)  
+![](images/603978f6b02ee841743c309006613b98592ed86fae6469d27184efd9b8259613.webp)  
 (a)   
 (b)   
 Figure 6.7. 3D versus 2D. (a) A 3D representation of this time-series dataset introduces the problems of occlusion and perspective distortion. (b) The linked 2D views of derived aggregate curves and the calendar allow direct comparison and show more fine-grained patterns. From [van Wijk and van Selow 99, Figures 1 and 4].
@@ -147,14 +147,14 @@ Linked views are discussed in Chapter 12.
 
 Figure 6.8 shows an example that is similar on the surface to the previous one, but in this case 3D is used with care and the design is well justified [Lopez-Hernandez et al. 10]. In this system for visualizing oscilloscope time-series data, the user starts by viewing the data using the traditional eye diagram where the signal is wrapped around in time and shown as many overlapping traces. Users can spread the traces apart using the metaphor of opening a drawer, as shown in Figure 6.8(a). This drawer interface does use 3D, but with many constraints. Layers are orthographically projected and always face the viewer. Navigation complexity is controlled by automatically zooming and framing as the user adjusts the drawer’s orientation, as shown in Figure 6.8(b).
 
-![](images/b07283cb8386e1b7a89416548ff6d1fd27e0777c8a005c6cb60a2fb54bc6c738.jpg)
+![](images/b07283cb8386e1b7a89416548ff6d1fd27e0777c8a005c6cb60a2fb54bc6c738.webp)
 
-![](images/733fdf7867eff35abf98bb4d82efeac3decbe8ce324c2d684f82600675ce3249.jpg)  
+![](images/733fdf7867eff35abf98bb4d82efeac3decbe8ce324c2d684f82600675ce3249.webp)  
 (a)
 
-![](images/9be2ac325856faf44cde2cf96b3408b5725f109b45179f95bc821cdae95c183c.jpg)
+![](images/9be2ac325856faf44cde2cf96b3408b5725f109b45179f95bc821cdae95c183c.webp)
 
-![](images/a3b9779f1109d268418f7c2e83180b4e7561ff7744ed3820dfdc8cf4338e4859.jpg)  
+![](images/a3b9779f1109d268418f7c2e83180b4e7561ff7744ed3820dfdc8cf4338e4859.webp)  
 (b)   
 Figure 6.8. Careful use of 3D. (a) The user can evolve the view from the traditional overlapping eye diagram with the metaphor of opening a drawer. (b) The interaction is carefully designed to avoid the difficulties of unconstrained 3D navigation. From [Lopez-Hernandez et al. 10, Figures 3 and 7].
 
@@ -170,25 +170,25 @@ Another empirical study found no benefits for 3D landscapes created to reflect t
 
 Contour plots are discussed in Section 8.4.1.
 
-![](images/9c2f7e8340f4a27ab7dd1dec16fa79048828b77cb4ca229236d16371c6054d30.jpg)  
+![](images/9c2f7e8340f4a27ab7dd1dec16fa79048828b77cb4ca229236d16371c6054d30.webp)  
 (a)
 
-![](images/7ce183a047ea8986151e4cd0085bab1715f1208efae56c37e1b5faddec4f4d5b.jpg)  
+![](images/7ce183a047ea8986151e4cd0085bab1715f1208efae56c37e1b5faddec4f4d5b.webp)  
 (b)
 
-![](images/36fb4354b4da5ce6e605aa1389cca57ed61b8c78eb922cc8b48a477f17f58714.jpg)  
+![](images/36fb4354b4da5ce6e605aa1389cca57ed61b8c78eb922cc8b48a477f17f58714.webp)  
 (c)
 
-![](images/289258db5fd1394fc028e36132ded34daad5af3cde7933119f43abb570be619e.jpg)  
+![](images/289258db5fd1394fc028e36132ded34daad5af3cde7933119f43abb570be619e.webp)  
 (d)
 
-![](images/dcd822d68676cb5aeab83f1f1c0f8c92be908bcfd168a72461fdb7575abff6e7.jpg)  
+![](images/dcd822d68676cb5aeab83f1f1c0f8c92be908bcfd168a72461fdb7575abff6e7.webp)  
 (e)
 
-![](images/88da67ce2c7fea93ca18817075bb67eda99d1c05bdaa4a6f041bf546b84901f6.jpg)  
+![](images/88da67ce2c7fea93ca18817075bb67eda99d1c05bdaa4a6f041bf546b84901f6.webp)  
 (f)
 
-![](images/739db0405d3c90aff5b7d3a9848fb3977b5c901d04758d5d74255bdc1f0bd046.jpg)  
+![](images/739db0405d3c90aff5b7d3a9848fb3977b5c901d04758d5d74255bdc1f0bd046.webp)  
 (g)   
 Figure 6.9. Point-based displays were found to outperform information landscapes in an empirical study of visual encodings for dimensionally reduced data. (a) Colored points. (b) Grayscale points. (c) Colored 2D landscape. (d) Grayscale 2D landscape. (e) Colored 3D landscape. (f) Grayscale 3D landscape. (g) Height only. From [Tory et al. 07, Figure 1].
 
@@ -373,7 +373,7 @@ Get It Right in Black and White A blog post on Get It Right in Black and White i
 
 Function First, Form Next A very accessible place to start for basic graphic design guidelines is The Non-Designer’s Design Book [Williams 08].
 
-![](images/0f2a37ca74ea14a2053ee2c9e122f38781ee00889d5880870c14ed2f9ed86f34.jpg)
+![](images/0f2a37ca74ea14a2053ee2c9e122f38781ee00889d5880870c14ed2f9ed86f34.webp)
 
 #
 
@@ -381,45 +381,45 @@ Function First, Form Next A very accessible place to start for basic graphic des
 
 # $\textcircled{ \div}$ Express Values
 
-![](images/fd2f01085622b0f8b3d2aa2d1e6dfe84cd4bd8e08e85017d477f16c83141c82a.jpg)
+![](images/fd2f01085622b0f8b3d2aa2d1e6dfe84cd4bd8e08e85017d477f16c83141c82a.webp)
 
 # $\textcircled{ \div}$ Separate, Order, Align Regions
 
-![](images/8dc432da71e506dbadbeed8476d5f2772f5e81bb409ae8b40eaf3ba80ff65314.jpg)
+![](images/8dc432da71e506dbadbeed8476d5f2772f5e81bb409ae8b40eaf3ba80ff65314.webp)
 
-![](images/5f64d2c244a0a6844b455187eb09e2341639565abd17670bb6abb1eb373bcabe.jpg)
+![](images/5f64d2c244a0a6844b455187eb09e2341639565abd17670bb6abb1eb373bcabe.webp)
 
-![](images/915f70d1a27fdcf3fcf38c29a9e9ab94ec1178746419c8b71693b086ef0c5007.jpg)  
+![](images/915f70d1a27fdcf3fcf38c29a9e9ab94ec1178746419c8b71693b086ef0c5007.webp)  
 2 Keys Matrix   
 3 Keys Volume   
 Many Keys Recursive Subdivision
 
-![](images/28bf486c82c25f1b24da66dbd727e0305cbca1366f7f3b62d3e46f9e5a9efbeb.jpg)  
+![](images/28bf486c82c25f1b24da66dbd727e0305cbca1366f7f3b62d3e46f9e5a9efbeb.webp)  
 1 Key List
 
-![](images/649d39b7436c1565ac8e5c45e04e168d5534c776774fb6fba5248c4c1864c64e.jpg)
+![](images/649d39b7436c1565ac8e5c45e04e168d5534c776774fb6fba5248c4c1864c64e.webp)
 
-![](images/3f8a7ff251b16a157ebf2f83aad080a3846c21657d275c1e304043eae78f180c.jpg)
+![](images/3f8a7ff251b16a157ebf2f83aad080a3846c21657d275c1e304043eae78f180c.webp)
 
-![](images/42041f057efcefea783790cbed70cdab1717d2f433d6284276145022f5606cdf.jpg)
+![](images/42041f057efcefea783790cbed70cdab1717d2f433d6284276145022f5606cdf.webp)
 
 # $\textcircled{2}$ Axis Orientation
 
-![](images/e8ea9972596f36d0a7408710c7a403521914ca7a4b8a1bf9b84288f663b870dc.jpg)  
+![](images/e8ea9972596f36d0a7408710c7a403521914ca7a4b8a1bf9b84288f663b870dc.webp)  
 Rectilinear
 
-![](images/acdf74b911fb0a070d6df70539835c5f08209dcdfc06cd8dc2987d3037139618.jpg)  
+![](images/acdf74b911fb0a070d6df70539835c5f08209dcdfc06cd8dc2987d3037139618.webp)  
 Parallel
 
-![](images/32841050868494441a115ee6ce639bea8d6794a6c7e78965fefff450f64df978.jpg)  
+![](images/32841050868494441a115ee6ce639bea8d6794a6c7e78965fefff450f64df978.webp)  
 Radial
 
 # $\textcircled{3}$ Layout Density
 
-![](images/7798002cc6772722d0b85664b390b44139fce101d5bb80edd7f445ca95bb5031.jpg)  
+![](images/7798002cc6772722d0b85664b390b44139fce101d5bb80edd7f445ca95bb5031.webp)  
 Dense
 
-![](images/0813c204b9f218b903cfcc91b0075a591f6e1f75753b6b5f0a4deb63c8bf05d9.jpg)  
+![](images/0813c204b9f218b903cfcc91b0075a591f6e1f75753b6b5f0a4deb63c8bf05d9.webp)  
 Space-Filling   
 Figure 7.1. Design choices for arranging tables.
 

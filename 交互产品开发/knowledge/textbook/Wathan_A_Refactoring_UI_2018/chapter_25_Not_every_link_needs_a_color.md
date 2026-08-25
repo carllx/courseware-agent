@@ -7,9 +7,9 @@ But when you’re designing an interface where almost everything is a
 link, using a treatment designed to make links “pop” in paragraph text
 can be really overbearing.
 
-![](images/index-127_1.png)
+![](images/index-127_1.webp)
 
-![](images/index-127_2.png)
+![](images/index-127_2.webp)
 
 127
 

@@ -10,7 +10,7 @@ Adobe XD是一款集视觉设计、交互设计、原型制作、共享功能�
 
 微课视频
 
-![](images/EPUB/images/image_624.jpg)
+![](images/EPUB/images/image_624.webp)
 
 Adobe XD的基础操作和基本工具
 
@@ -26,19 +26,19 @@ Adobe XD的基础操作和基本工具
 
 单击三角形图标，弹出“重命名您的文档”对话框，如图6-5所示，在此对话框中可重新为文件命名。
 
-![](images/EPUB/images/image_625.jpg)
+![](images/EPUB/images/image_625.webp)
 
 ▲图6-1 新建文件
 
-![](images/EPUB/images/image_626.jpg)
+![](images/EPUB/images/image_626.webp)
 
 ▲图6-2 保存文件
 
-![](images/EPUB/images/image_627.jpg)
+![](images/EPUB/images/image_627.webp)
 
 ▲图6-3 打开文件
 
-![](images/EPUB/images/image_628.jpg)
+![](images/EPUB/images/image_628.webp)
 
 图6-4 文件名称
 
@@ -50,21 +50,21 @@ Adobe XD的基础操作和基本工具
 
 首次创建项目或文件时，可以在“主页”屏幕中选择一项预设来决定画板的大小。如果想要指定画板的大小，可以选择“自定义大小”选项，设置完成后进入工作界面，如图6-7所示。
 
-![](images/EPUB/images/image_629.jpg)
+![](images/EPUB/images/image_629.webp)
 
 ▲图6-5 重命名文件
 
-![](images/EPUB/images/image_630.jpg)
+![](images/EPUB/images/image_630.webp)
 
 ▲图6-6 一个文件中的多个画板
 
-![](images/EPUB/images/image_631.jpg)
+![](images/EPUB/images/image_631.webp)
 
 图6-7 设置画板尺寸
 
 还可以选择“画板”工具，然后单击右侧属性面板上的任一画板，如图6-8所示。选择的画板将出现在工作界面中，这样可以添加更多的画板到现有文档中。
 
-![](images/EPUB/images/image_632.jpg)
+![](images/EPUB/images/image_632.webp)
 
 图6-8 画板预设
 
@@ -78,11 +78,11 @@ Adobe XD的基础操作和基本工具
 
 单击画板，使用出现在边缘上的圆形手柄可以调整画板的大小。
 
-![](images/EPUB/images/image_633.jpg)
+![](images/EPUB/images/image_633.webp)
 
 ▲图6-9 复制画板1
 
-![](images/EPUB/images/image_634.jpg)
+![](images/EPUB/images/image_634.webp)
 
 图6-10 复制画板2
 
@@ -92,11 +92,11 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 也可以在图层面板中重命名画板，双击或右击画板标题并选择“重命名”命令，输入新名称，如图6-12所示。
 
-![](images/EPUB/images/image_635.jpg)
+![](images/EPUB/images/image_635.webp)
 
 ▲图6-11 重命名画板1
 
-![](images/EPUB/images/image_636.jpg)
+![](images/EPUB/images/image_636.webp)
 
 图6-12 重命名画板2
 
@@ -110,7 +110,7 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 可以直接在Adobe XD中打开Photoshop文件，并将其转换为Adobe XD文件。打开Photoshop文件后，可以在Adobe XD中进行编辑，通过连线构建交互，并以原型或设计规范的形式进行共享。在菜单中选择“打开”命令，找到所需的文件夹并选择“.psd”文件，然后单击“打开”按钮，如图6-13所示。
 
-![](images/EPUB/images/image_637.jpg)
+![](images/EPUB/images/image_637.webp)
 
 图6-13 在Adobe XD中打开Photoshop文件
 
@@ -118,7 +118,7 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 在菜单中选择“导入”命令，可以将Photoshop文件导入Adobe XD。如果导入的Photoshop文件有画板，这些画板将被放在Adobe XD画板之下。如果Adobe XD画板下方没有空间，则导入的画板将被放在可用空间中。如果导入的Photoshop文件没有画板，其资源将被放在画布的中心，如图6-14所示。
 
-![](images/EPUB/images/image_638.jpg)
+![](images/EPUB/images/image_638.webp)
 
 图6-14 将Photoshop文件导入Adobe XD
 
@@ -134,11 +134,11 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 选择“选择”工具，单击对象或对象组将其选择，如图6-15所示。使用“选择”工具在对象周围绘制选框，或按住Shift键再连续单击对象可选择多个对象，如图6-16所示。
 
-![](images/EPUB/images/image_639.jpg)
+![](images/EPUB/images/image_639.webp)
 
 ▲图6-15 单击选择对象
 
-![](images/EPUB/images/image_640.jpg)
+![](images/EPUB/images/image_640.webp)
 
 图6-16 框选多个对象
 
@@ -148,11 +148,11 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 在属性面板中单击锁定图标，可以在调整对象大小时锁定对象的宽高比，如图6-18所示。
 
-![](images/EPUB/images/image_641.jpg)
+![](images/EPUB/images/image_641.webp)
 
 ▲图6-17 调整对象的大小
 
-![](images/EPUB/images/image_642.jpg)
+![](images/EPUB/images/image_642.webp)
 
 图6-18 锁定宽高比
 
@@ -162,11 +162,11 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 也可以在属性面板中对对象进行旋转设置，不过在属性面板中设置的是具体旋转值，如图6-20所示。
 
-![](images/EPUB/images/image_643.jpg)
+![](images/EPUB/images/image_643.webp)
 
 ▲图6-19 旋转对象
 
-![](images/EPUB/images/image_644.jpg)
+![](images/EPUB/images/image_644.webp)
 
 图6-20 设置旋转值
 
@@ -180,11 +180,11 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 还可以复制对象样式，并将该样式粘贴到项目中的其他对象或文本元素上。复制对象后，选择需要粘贴样式的对象并单击鼠标右键，在弹出的快捷菜单中选择“粘贴外观”命令，这时只会粘贴对象的样式，如图6-22所示。
 
-![](images/EPUB/images/image_645.jpg)
+![](images/EPUB/images/image_645.webp)
 
 ▲图6-21 复制对象
 
-![](images/EPUB/images/image_646.jpg)
+![](images/EPUB/images/image_646.webp)
 
 图6-22 粘贴对象的样式
 
@@ -194,7 +194,7 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 将徽标设计中的所有对象选中，单击鼠标右键后，在弹出的快捷菜单中选择“组”命令，将其编成一组作为一个单元进行移动和缩放，如图6-23所示。可以取消编组，重新获取对单个组成部分的编辑控制权。
 
-![](images/EPUB/images/image_647.jpg)
+![](images/EPUB/images/image_647.webp)
 
 图6-23 编组对象
 
@@ -208,11 +208,11 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 如果锁定了一个对象，当选择它时会出现锁定图标，如图6-24所示。要解锁对象，可以选择它们并单击锁定图标，或者单击鼠标右键，在弹出的快捷菜单中选择“解锁”命令，如图6-25所示。
 
-![](images/EPUB/images/image_648.jpg)
+![](images/EPUB/images/image_648.webp)
 
 ▲图6-24 锁定图标
 
-![](images/EPUB/images/image_649.jpg)
+![](images/EPUB/images/image_649.webp)
 
 图6-25 解锁对象
 
@@ -220,7 +220,7 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 使用翻转功能可以翻转对象，以便在设计画布上实现更快速、更精确的设计。我们可以在属性面板中，为对象快速进行垂直翻转和水平翻转的设置，如图6-26所示。
 
-![](images/EPUB/images/image_650.jpg)
+![](images/EPUB/images/image_650.webp)
 
 图6-26 水平翻转和垂直翻转
 
@@ -230,11 +230,11 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 按Shift键可以约束一个或多个对象的移动，使其沿着当前x轴或y轴的方向移动，如图6-28所示。
 
-![](images/EPUB/images/image_651.jpg)
+![](images/EPUB/images/image_651.webp)
 
 ▲图6-27 移动对象
 
-![](images/EPUB/images/image_652.jpg)
+![](images/EPUB/images/image_652.webp)
 
 图6-28 按Shift键约束对象移动
 
@@ -246,7 +246,7 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 对齐选项包括顶对齐、居中（垂直）对齐、底对齐、左对齐、居中（水平）对齐、右对齐、水平分布和垂直分布，图6-29所示为对齐选项的操作展示。
 
-![](images/EPUB/images/image_653.jpg)
+![](images/EPUB/images/image_653.webp)
 
 图6-29 对齐选项的操作展示
 
@@ -254,7 +254,7 @@ Adobe XD默认情况下会根据选择的预设对画板命名，并按顺序�
 
 Adobe XD从绘制的第一个对象开始会依次堆积所绘制的对象。可以使用图层面板在不同图层中选择、排列和移动对象。还可以在工作界面选择一个对象，单击鼠标右键，然后在弹出的快捷菜单中选择“排列→置为顶层”命令，如图6-30所示。
 
-![](images/EPUB/images/image_654.jpg)
+![](images/EPUB/images/image_654.webp)
 
 图6-30 排列对象
 
@@ -270,11 +270,11 @@ Adobe XD工具栏中具有如下工具。
 
 激活“选择”工具后，在画布上单击任意元素即可选择该元素，如图6-32所示，可对选择的元素进行移动、缩放和旋转等操作。按住键盘上的Shift键，可以同时选择多个图层。
 
-![](images/EPUB/images/image_655.jpg)
+![](images/EPUB/images/image_655.webp)
 
 ▲图6-31 激活“选择”工具
 
-![](images/EPUB/images/image_656.jpg)
+![](images/EPUB/images/image_656.webp)
 
 图6-32 选择元素
 
@@ -288,25 +288,25 @@ Adobe XD工具栏中具有如下工具。
 
 按住Option键（macOS）或者Alt键（Windows）并拖动与该角对应的圆点符号可以只改变该角的圆角半径，如图6-36所示。
 
-![](images/EPUB/images/image_657.jpg)
+![](images/EPUB/images/image_657.webp)
 
 ▲图6-33 激活“矩形”工具
 
-![](images/EPUB/images/image_658.jpg)
+![](images/EPUB/images/image_658.webp)
 
 图6-34 绘制正方形
 
 绘制好矩形后，可以通过属性面板设置其属性，如图6-37所示。属性面板用来设置元素的对齐、变换以及样式等。
 
-![](images/EPUB/images/image_659.jpg)
+![](images/EPUB/images/image_659.webp)
 
 ▲图6-35 设置矩形的圆角半径
 
-![](images/EPUB/images/image_660.jpg)
+![](images/EPUB/images/image_660.webp)
 
 ▲图6-36 调整一个角的圆角半径
 
-![](images/EPUB/images/image_661.jpg)
+![](images/EPUB/images/image_661.webp)
 
 图6-37 属性面板
 
@@ -314,13 +314,13 @@ Adobe XD工具栏中具有如下工具。
 
 “椭圆”工具是Adobe XD工具栏中的第3个工具，可以通过直接单击工具栏中的椭圆图标，或者直接按键盘上的E键激活“椭圆”工具，如图6-38所示。
 
-![](images/EPUB/images/image_662.jpg)
+![](images/EPUB/images/image_662.webp)
 
 图6-38 激活“椭圆”工具
 
 激活“椭圆”工具后，在画布上按住鼠标左键并拖动鼠标可绘制椭圆，按住键盘上的Shift键则可以绘制圆，如图6-39所示。
 
-![](images/EPUB/images/image_663.jpg)
+![](images/EPUB/images/image_663.webp)
 
 图6-39 绘制圆形
 
@@ -332,15 +332,15 @@ Adobe XD工具栏中具有如下工具。
 
 在元素的属性面板中，“外观”属性可以设置“多边形”的“角个数”“圆角半径”“星形比”，如图6-42所示。
 
-![](images/EPUB/images/image_664.jpg)
+![](images/EPUB/images/image_664.webp)
 
 ▲图6-40 激活“多边形”工具
 
-![](images/EPUB/images/image_665.jpg)
+![](images/EPUB/images/image_665.webp)
 
 ▲图6-41 绘制等边多边形
 
-![](images/EPUB/images/image_666.jpg)
+![](images/EPUB/images/image_666.webp)
 
 图6-42 设置多边形属性
 
@@ -348,13 +348,13 @@ Adobe XD工具栏中具有如下工具。
 
 “直线”工具是Adobe XD工具栏中的第5个工具，可以单击工具栏上的直线段图标，或者直接按键盘上的L键激活“直线”工具，如图6-43所示。
 
-![](images/EPUB/images/image_667.jpg)
+![](images/EPUB/images/image_667.webp)
 
 图6-43 激活“直线”工具
 
 使用“直线”工具绘制直线段时，首先在画布上单击以确定直线段的起点，然后按住鼠标左键并拖动鼠标，在终点处释放鼠标左键，即可绘制出一条直线段。如果在绘制直线段的同时按住Shift键，可以以固定的角度绘制直线段；如果鼠标从左往右拖动，则在水平方向绘制；如果是上下拖动，则绘制出一条垂直线；如果是往左上、右上、左下、右下等方向拖动，则会在45°的方向绘制直线段，如图6-44所示。
 
-![](images/EPUB/images/image_668.jpg)
+![](images/EPUB/images/image_668.webp)
 
 图6-44 绘制直线段
 
@@ -362,13 +362,13 @@ Adobe XD工具栏中具有如下工具。
 
 “钢笔”工具是Adobe XD工具栏中的第6个工具，可以用该工具绘制各种路径。可以单击工具栏上的钢笔图标，或者直接按键盘上的P键激活“钢笔”工具，如图6-45所示。
 
-![](images/EPUB/images/image_669.jpg)
+![](images/EPUB/images/image_669.webp)
 
 图6-45 激活“钢笔”工具
 
 激活“钢笔”工具，在画板上单击，创建一个锚点，然后将鼠标指针移动到另一个位置并单击，创建另一个锚点，这时两个锚点之间会自动出现一条直线段路径，此时可以再移动鼠标指针添加第3个锚点，则第3个锚点和第2个锚点之间也会出现一条直线段路径，如图6-46所示。在起点处单击，然后将鼠标指针移动至需要的位置，再按住鼠标左键并拖动，即可在两个锚点之间绘制曲线。
 
-![](images/EPUB/images/image_670.jpg)
+![](images/EPUB/images/image_670.webp)
 
 图6-46 使用“钢笔”工具
 
@@ -384,15 +384,15 @@ Adobe XD工具栏中具有如下工具。
 
 可使用属性面板中的“段落间距”选项更改段落间距，根据需要填写间距值。图6-49所示为属性面板中关于文本的参数设置。
 
-![](images/EPUB/images/image_671.jpg)
+![](images/EPUB/images/image_671.webp)
 
 ▲图6-47 激活“文本”工具
 
-![](images/EPUB/images/image_672.jpg)
+![](images/EPUB/images/image_672.webp)
 
 ▲图6-48 文本框
 
-![](images/EPUB/images/image_673.jpg)
+![](images/EPUB/images/image_673.webp)
 
 图6-49 文本的参数设置
 
@@ -404,7 +404,7 @@ Adobe XD工具栏中具有如下工具。
 
 默认情况下，项目中的每个对象均位于自己的图层上。例如，绘制一个矩形时，Adobe XD将会为此矩形创建一个新图层，图层名称默认为“矩形1”。在绘制另一个矩形时，将创建一个名称默认为“矩形2”的单独的图层，如图6-50所示。
 
-![](images/EPUB/images/image_674.jpg)
+![](images/EPUB/images/image_674.webp)
 
 图6-50 图层面板
 
@@ -418,15 +418,15 @@ Adobe XD工具栏中具有如下工具。
 
 添加的组件可以作为资源存在画板中，当调整主要组件的样式时，使用该组件样式的任意位置也会进行相应修改，如图6-53所示。
 
-![](images/EPUB/images/image_675.jpg)
+![](images/EPUB/images/image_675.webp)
 
 ▲图6-51 资源面板
 
-![](images/EPUB/images/image_676.jpg)
+![](images/EPUB/images/image_676.webp)
 
 ▲图6-52 添加资源
 
-![](images/EPUB/images/image_677.jpg)
+![](images/EPUB/images/image_677.webp)
 
 图6-53 编辑主要组件
 
@@ -434,7 +434,7 @@ Adobe XD工具栏中具有如下工具。
 
 Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠工具。使用布尔运算工具，可以将简单的形状组合产生新的形状。它仅适用于多个形状，单独选择某个形状时无法使用，当选择多个形状后布尔运算就可以使用了。布尔运算使用效果如图6-54所示。
 
-![](images/EPUB/images/image_678.jpg)
+![](images/EPUB/images/image_678.webp)
 
 图6-54 布尔运算使用效果
 
@@ -448,19 +448,19 @@ Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠�
 
 将图片从文件夹拖到XD文件对应的形状中，形状高亮显示后，松开鼠标左键，图片就会被置于该形状中，如图6-55所示。
 
-![](images/EPUB/images/image_679.jpg)
+![](images/EPUB/images/image_679.webp)
 
 图6-55 将图片拖到形状中
 
 选择形状，拖动边框上的点可以调整形状及其中图片的大小，如图6-56所示。
 
-![](images/EPUB/images/image_680.jpg)
+![](images/EPUB/images/image_680.webp)
 
 图6-56 调整形状及其中图片的大小
 
 提示：要替换形状中的图片，可直接将其他图片从文件夹拖动到该形状中，新的图片会自动适配形状的大小。要编辑形状中的内容，双击形状以选择其中的内容，然后即可对内容进行各种调整，如图6-57所示。
 
-![](images/EPUB/images/image_681.jpg)
+![](images/EPUB/images/image_681.webp)
 
 图6-57 编辑形状中的内容
 
@@ -468,11 +468,11 @@ Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠�
 
 把用作蒙版的形状拖动或放置在要保留的内容上，形状以外的内容会被遮盖或隐藏。同时选中图片和形状（蒙版），如图6-58所示，选择“对象→形状蒙版”（macOS），或者用鼠标右键单击所选内容，然后选择“带有形状的蒙版”命令（Windows）命令，如图6-59所示。
 
-![](images/EPUB/images/image_682.jpg)
+![](images/EPUB/images/image_682.webp)
 
 ▲图6-58 形状蒙版遮盖图片
 
-![](images/EPUB/images/image_683.jpg)
+![](images/EPUB/images/image_683.webp)
 
 图6-59 “带有形状的蒙版”命令
 
@@ -492,11 +492,11 @@ Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠�
 
 选择想要转换为重复网格的图像缩略图和文本组合，单击属性面板上的“重复网格”按钮，如图6-60所示，即可将其转换为重复网格。元素边界上将显示重复手柄，如图6-61所示。
 
-![](images/EPUB/images/image_684.jpg)
+![](images/EPUB/images/image_684.webp)
 
 ▲图6-60 “重复网格”按钮
 
-![](images/EPUB/images/image_685.jpg)
+![](images/EPUB/images/image_685.webp)
 
 图6-61 重复手柄
 
@@ -506,17 +506,17 @@ Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠�
 
 可以更新重复网格中的各个文本对象，也可以将预先编辑好的文档拖至重复网格中，并让文本文件的内容自动填充为重复网格中的文本对象。
 
-![](images/EPUB/images/image_686.jpg)
+![](images/EPUB/images/image_686.webp)
 
 ▲图6-62 拖动元素底部的手柄
 
-![](images/EPUB/images/image_687.jpg)
+![](images/EPUB/images/image_687.webp)
 
 图6-63 拖动元素右侧的手柄
 
 如果想要调整网格中两个元素之间的空白区域，可以将鼠标指针悬停在元素的间隙上。当鼠标指针变为双箭头时，可向任意方向拖动来增大或减小空白区域，如图6-64所示。
 
-![](images/EPUB/images/image_688.jpg)
+![](images/EPUB/images/image_688.webp)
 
 图6-64 调整重复网格元素的间距
 
@@ -526,7 +526,7 @@ Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠�
 
 选择需要填充的对象，在属性面板中单击“填充”选项的矩形色卡，此时工作界面会出现“拾色器”对话框，如图6-65所示。在“拾色器”对话框中选择一个颜色作为对象的填充颜色，可以在“拾色器”对话框中将使用的颜色保存为色板，供以后重复使用。单击“拾色器”对话框底部的“+”按钮即可把颜色保存为色板。
 
-![](images/EPUB/images/image_689.jpg)
+![](images/EPUB/images/image_689.webp)
 
 图6-65 “拾色器”对话框
 
@@ -540,15 +540,15 @@ Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠�
 
 默认描边宽度为1px，选择对象后，在属性面板的“边界”选项中可指定描边的宽度值，单击“边界”选项的矩形色卡，此时会出现“拾色器”对话框，在其中可设置描边颜色，如图6-68所示。
 
-![](images/EPUB/images/image_690.jpg)
+![](images/EPUB/images/image_690.webp)
 
 ▲图6-66 线性渐变样式
 
-![](images/EPUB/images/image_691.jpg)
+![](images/EPUB/images/image_691.webp)
 
 ▲图6-67 径向渐变样式
 
-![](images/EPUB/images/image_692.jpg)
+![](images/EPUB/images/image_692.webp)
 
 图6-68 设置描边颜色
 
@@ -558,7 +558,7 @@ Adobe XD的布尔运算工具组包含添加、减去、交叉、排除重叠�
 
 勾选“阴影”复选框后，选项下方将出现“X偏移”“Y偏移”“B模糊”3个选项。“X偏移”和“Y偏移”是指希望投影从对象处偏离的距离。“B模糊”是指希望投影到要进行模糊处理的阴影边缘距离，如图6-69所示。
 
-![](images/EPUB/images/image_693.jpg)
+![](images/EPUB/images/image_693.webp)
 
 图6-69 创建阴影
 
@@ -574,7 +574,7 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 微课视频
 
-![](images/EPUB/images/image_694.jpg)
+![](images/EPUB/images/image_694.webp)
 
 ### Adobe XD完成原型
 
@@ -590,11 +590,11 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 切换到原型模式，单击要链接的对象或画板。对象或画板上将会出现带箭头的连接手柄。将鼠标指针悬停在手柄上，鼠标指针会变为线条连接器，将鼠标指针移动到需要被链接的画板或对象上，如图6-71所示。
 
-![](images/EPUB/images/image_695.jpg)
+![](images/EPUB/images/image_695.webp)
 
 ▲图6-70 设置“主页”
 
-![](images/EPUB/images/image_696.jpg)
+![](images/EPUB/images/image_696.webp)
 
 图6-71 链接对象或画板
 
@@ -606,7 +606,7 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 使用预设的尺寸创建画板，如果内容超出画板的指定长度，可拖动画板底部到所需要的长度并继续设计。画板上的虚线表示可滚动内容的起始位置，如图6-72所示。虚线上方为页面首屏尺寸。
 
-![](images/EPUB/images/image_697.jpg)
+![](images/EPUB/images/image_697.webp)
 
 图6-72 首屏大小
 
@@ -616,7 +616,7 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 在设计模式下，选中一个或一组对象，将其摆放在需要显示的固定位置上，然后在属性面板中勾选“滚动时固定位置”复选框，如图6-73所示。勾选完成后，在页面预览时，此对象就会固定在某个位置。
 
-![](images/EPUB/images/image_698.jpg)
+![](images/EPUB/images/image_698.webp)
 
 图6-73 固定元素
 
@@ -624,11 +624,11 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 在原型模式下为对象添加交互链接时，在右侧的交互设计面板中，触发默认是“点击”，还有“拖移”“时间”“按键和游戏手柄”“语音”等触发的事件类型，如图6-74所示。而元素触发的事件类型没有“时间”，如图6-75所示。
 
-![](images/EPUB/images/image_699.jpg)
+![](images/EPUB/images/image_699.webp)
 
 ▲图6-74 画板触发的事件类型
 
-![](images/EPUB/images/image_700.jpg)
+![](images/EPUB/images/image_700.webp)
 
 图6-75 元素触发的事件类型
 
@@ -646,11 +646,11 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 在Adobe XD预览原型界面中，根据设置的触发操作不同，执行的反应效果也不同。在画板的交互设置面板中，操作的类型有“过渡”“自动制作动画”“叠加”“上一个画板”“音频播放”“语音播放”，如图6-76所示。而画板中的元素中多了一个“滚动至”操作，如图6-77所示。
 
-![](images/EPUB/images/image_701.jpg)
+![](images/EPUB/images/image_701.webp)
 
 ▲图6-76 画板操作事件
 
-![](images/EPUB/images/image_702.jpg)
+![](images/EPUB/images/image_702.webp)
 
 图6-77 元素操作事件
 
@@ -670,17 +670,17 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 交互设置面板中动画包含“无”“溶解”“左滑”“右滑”“上滑”“下滑”“向左推出”“向右推出”“向上推出”“向下推出”，如图6-79所示。
 
-![](images/EPUB/images/image_703.jpg)
+![](images/EPUB/images/image_703.webp)
 
 图6-78 叠加操作
 
 溶解效果就是当前画板在设置时间内匀速消失，跳转画板匀速显示，如图6-80所示。滑动效果就是根据设置的方向进行滑动显示直到新画板完全显示。推出效果就是把当前的画板和跳转的画板同时按照设置进行推动，直至新的画板显示出来。
 
-![](images/EPUB/images/image_704.jpg)
+![](images/EPUB/images/image_704.webp)
 
 ▲图6-79 交互动画
 
-![](images/EPUB/images/image_705.jpg)
+![](images/EPUB/images/image_705.webp)
 
 图6-80 动画设置
 
@@ -690,11 +690,11 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 选择“导出”命令，弹出“导出”选项，如图6-81所示。选择任意一个选项后，弹出“导出资源”对话框，如图6-82所示。在对话框中设置所需要的参数，单击“导出”按钮即可导出资源。
 
-![](images/EPUB/images/image_706.jpg)
+![](images/EPUB/images/image_706.webp)
 
 ▲图6-81 “导出”选项
 
-![](images/EPUB/images/image_707.jpg)
+![](images/EPUB/images/image_707.webp)
 
 图6-82 导出参数设置
 
@@ -706,11 +706,11 @@ Adobe XD可以创建交互原型，直观地展示如何在屏幕或线框之�
 
 ③ 选择目标平台和文件格式，目标平台包含Web、iOS或Android，文件格式则包括PNG、SVG、PDF和JPG。指定目录即可保存输出文件，如图6-84所示。
 
-![](images/EPUB/images/image_708.jpg)
+![](images/EPUB/images/image_708.webp)
 
 ▲图6-83 添加导出标记
 
-![](images/EPUB/images/image_709.jpg)
+![](images/EPUB/images/image_709.webp)
 
 图6-84 导出资源格式设置
 

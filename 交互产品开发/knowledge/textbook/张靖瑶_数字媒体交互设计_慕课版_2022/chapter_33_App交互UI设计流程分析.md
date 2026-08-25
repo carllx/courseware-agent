@@ -10,7 +10,7 @@
 
 微课视频
 
-![](images/EPUB/images/image_165.jpg)
+![](images/EPUB/images/image_165.webp)
 
 #### 版式设计
 
@@ -38,27 +38,27 @@
 
 对称是设计中非常常见的一种形式，能给人平衡感和稳定感，同时能展现完整性、专业性和一致性，如图3-57所示。
 
-![](images/EPUB/images/image_166.jpg)
+![](images/EPUB/images/image_166.webp)
 
 ▲图3-52 列表式布局
 
-![](images/EPUB/images/image_167.jpg)
+![](images/EPUB/images/image_167.webp)
 
 ▲图3-53 卡片式布局
 
-![](images/EPUB/images/image_168.jpg)
+![](images/EPUB/images/image_168.webp)
 
 ▲图3-54 比例2︰1
 
-![](images/EPUB/images/image_169.jpg)
+![](images/EPUB/images/image_169.webp)
 
 ▲图3-55 比例16︰9
 
-![](images/EPUB/images/image_170.jpg)
+![](images/EPUB/images/image_170.webp)
 
 ▲图3-56 对齐
 
-![](images/EPUB/images/image_171.jpg)
+![](images/EPUB/images/image_171.webp)
 
 图3-57 对称
 
@@ -66,11 +66,11 @@
 
 分组是将同类别的信息组合在一起，直观地呈现给用户，这样的设计能够减小用户的认知负担。在移动端界面的设计中最常见的分组方式就是卡片，如图3-58和图3-59所示。
 
-![](images/EPUB/images/image_172.jpg)
+![](images/EPUB/images/image_172.webp)
 
 ▲图3-58 分组1
 
-![](images/EPUB/images/image_173.jpg)
+![](images/EPUB/images/image_173.webp)
 
 图3-59 分组2
 
@@ -112,15 +112,15 @@
 
 ⑥ 段落文字：字体大小、字体颜色、行距。
 
-![](images/EPUB/images/image_174.jpg)
+![](images/EPUB/images/image_174.webp)
 
 ▲图3-60 标注注意事项
 
-![](images/EPUB/images/image_175.jpg)
+![](images/EPUB/images/image_175.webp)
 
 ▲图3-61 标注示例1
 
-![](images/EPUB/images/image_176.jpg)
+![](images/EPUB/images/image_176.webp)
 
 图3-62 标注示例2
 
@@ -138,7 +138,7 @@
 
 通常只是让用户知道程序正在运行是不够的，用户还要能够看到载入速度和加载时长，进度条的作用得以突显，如图3-63所示。
 
-![](images/EPUB/images/image_177.jpg)
+![](images/EPUB/images/image_177.webp)
 
 图3-63 告知用户当前的载入进度
 
@@ -162,11 +162,11 @@
 
 尽量兼顾到用户群体的需求，文字内容尽量放在动态图之外单独显示，并且避免频繁的闪烁效果，如图3-65所示。避免动态图自动播放，这样可以让用户感到可控，并且可以节省流量。
 
-![](images/EPUB/images/image_178.jpg)
+![](images/EPUB/images/image_178.webp)
 
 ▲图3-64 尽量少的颜色
 
-![](images/EPUB/images/image_179.jpg)
+![](images/EPUB/images/image_179.webp)
 
 图3-65 避免频繁的闪烁效果
 

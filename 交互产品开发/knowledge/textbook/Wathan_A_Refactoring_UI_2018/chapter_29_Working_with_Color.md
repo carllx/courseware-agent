@@ -1,8 +1,8 @@
 **Working with Color**
 
-![](images/index-138_1.png)
+![](images/index-138_1.webp)
 
-![](images/index-138_2.png)
+![](images/index-138_2.webp)
 
 **Ditch hex for HSL**
 
@@ -19,11 +19,11 @@ intuitively perceives: *hue*, *saturation*, and *lightness*.
 a color that lets us identify two colors as “blue” even if they aren’t
 identical.
 
-![](images/index-139_1.png)
+![](images/index-139_1.webp)
 
-![](images/index-139_2.png)
+![](images/index-139_2.webp)
 
-![](images/index-139_3.png)
+![](images/index-139_3.webp)
 
 139
 
@@ -38,9 +38,9 @@ grey (no color), and 100% saturation is vibrant and intense.
 Without saturation, hue is irrelevant — rotating the hue when saturation
 is 0% doesn’t actually change the color at all.
 
-![](images/index-140_1.png)
+![](images/index-140_1.webp)
 
-![](images/index-140_2.png)
+![](images/index-140_2.webp)
 
 Ditch hex for HSL
 
@@ -70,7 +70,7 @@ HSB is more common than HSL in design software, but browsers only
 understand HSL, so if you’re designing for the web, HSL should be your
 weapon of choice.
 
-![](images/index-142_1.png)
+![](images/index-142_1.webp)
 
-![](images/index-142_2.png)
+![](images/index-142_2.webp)
 

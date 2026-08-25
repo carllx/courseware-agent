@@ -26,12 +26,12 @@ description: 审查课程 knowledge/ 目录的完整性、性能约束及 hub �
 # 从 Workspace 根目录运行：
 # 标准模式（行数超出建议值只告警）
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_knowledge.py \
+  .agent/scripts/validation/validate_knowledge.py \
   --course "<课程名>"
 
 # 严格模式（行数超出 200 行即视为失败）
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_knowledge.py \
+  .agent/scripts/validation/validate_knowledge.py \
   --course "<课程名>" --strict
 ```
 
@@ -60,7 +60,7 @@ description: 审查课程 knowledge/ 目录的完整性、性能约束及 hub �
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_project.py \
+  .agent/scripts/validation/validate_project.py \
   --course "<课程名>"
 ```
 

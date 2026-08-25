@@ -4,12 +4,12 @@ Auto-complete, auto-suggest, and faceted search help users find things faster.
 
 Allowing users to narrow their search in a structured way helps them form a query that specifies precisely what they're looking for. An effective faceted search mechanism should provide users some visibility into the characteristics of the set of items they're searching, as well as give them ideas about how to make the result set small enough to efficiently find the desired item. Chapter 14 discusses some related approaches for attribute based sorting and filtering.
 
-![](images/1a656a387548d416d1f8c558b8ad1f6aa8e41915c8abe782c03c8fff86fdec93.jpg)  
+![](images/1a656a387548d416d1f8c558b8ad1f6aa8e41915c8abe782c03c8fff86fdec93.webp)  
 Figure 20-9: Yelp provides effective faceted search mechanisms, allowing users to quickly fine-tune a search
 
 Categorized suggestions is yet another method of speeding the user to relevant results when a search term is applicable across many different categories or domains. This is achieved by the system offering a list of suggestions, each of which scopes the search to a particular category. Amazon, with its dozens of retail departments, makes good use of categorized suggestions (see Figure 20-10).
 
-![](images/d2518a452eecf3e497ffca07a14794e4e804cb6ea373a6ec140857c9ee286466.jpg)  
+![](images/d2518a452eecf3e497ffca07a14794e4e804cb6ea373a6ec140857c9ee286466.webp)  
 Figure 20-10: Amazon makes good use of categorized suggestions in its main search box, which allows both explicit scoping via a dropdown to the left of the search field, and categorized suggestions once you start typing.
 
 # Scrolling
@@ -32,11 +32,11 @@ One method is to create an effective visual rhythm through the use of white spac
 
 Even though it makes sense to let a single "unit" of content scroll on a single long page, some sites still divide it across several pages. The reasons for this most often seem not to be about minimizing either vertical scrolling or page load size, but rather maximizing ad revenue from the multiple loads. If the content is finite, paging it like this makes finding, saving, and using the content a more convoluted task even with print functions. Paging makes sense only for very long lists of similar elements, such as search results or news articles.
 
-![](images/aba4ee81e421d01a19ab6e95d46ffc89ecfe2020567a4aefe3d9f3db1a70a4d6.jpg)
+![](images/aba4ee81e421d01a19ab6e95d46ffc89ecfe2020567a4aefe3d9f3db1a70a4d6.webp)
 
-![](images/1b49787fd119848922d03641b258b6d335cb93ff1d506878344008612a6c5867.jpg)
+![](images/1b49787fd119848922d03641b258b6d335cb93ff1d506878344008612a6c5867.webp)
 
-![](images/d9a4040e604d2c5a4de4e044d89f31c0e33ba026c14bebdd375cdecc84fba462.jpg)  
+![](images/d9a4040e604d2c5a4de4e044d89f31c0e33ba026c14bebdd375cdecc84fba462.webp)  
 Figures 20-11: The Nest website consists of a number of long scrolling pages.
 
 # The header and footer
@@ -45,7 +45,7 @@ An obvious and hugely important characteristic of the scrolling page is that the
 
 The bottom of the page, or footer, is where, if you're lucky and wise, the user ends up, because he's viewed all the content that came before it on the page. This makes it a great place to suggest where the user should go next—often to related content. You can see this pattern used to good effect on many media websites. Another effective use of the footer is for persistent access to more rarely visited areas of your site or application, like legal notices, or for a complete fat navigation that includes all top-level and second-level pages (see Figure 20-12). These can certainly be effective approaches. But it's important to consider the circumstances under which your users might need access to these links and whether you imagine they'll be web-savvy enough to scroll to the bottom of the page to look for them.
 
-![](images/9b15e34e7f1d421098ea80c96686060231c153f346123e1126aa755628a2f60a.jpg)  
+![](images/9b15e34e7f1d421098ea80c96686060231c153f346123e1126aa755628a2f60a.webp)  
 Figures 20-12: The fat footer on Zappos.com contains a condensed sitemap as well as other social and promotional content and links.
 
 # Paging versus infinite scrolling
@@ -85,11 +85,11 @@ The basic idea with responsive design is not to have multiple versions of a webs
 
 An alternative (and, sometimes, more effective) approach is to create a separate mobile version of the site or application. One of the biggest reasons for this is that screen size is only one consideration on the mobile web. It's also critical to think about how your designs accommodate touch interaction and other sensors, as well as how they perform in sunlight and other challenging lighting conditions. Because of these usage considerations, it is sometimes a better choice to create a separate version of your web application or site for mobile users.
 
-![](images/c9a15b41725d58edaa4a12d390bee0211ea5c0bd998faf89a28e1a2ad631b024.jpg)
+![](images/c9a15b41725d58edaa4a12d390bee0211ea5c0bd998faf89a28e1a2ad631b024.webp)
 
-![](images/751af1d2eb19da97a1c659bba86087896762f274af04b7e59be39cf3f2ca1015.jpg)
+![](images/751af1d2eb19da97a1c659bba86087896762f274af04b7e59be39cf3f2ca1015.webp)
 
-![](images/060140ea500fc1d67b761a3edddc74758c961db9dabcedada884d0b80eb3fe4e.jpg)  
+![](images/060140ea500fc1d67b761a3edddc74758c961db9dabcedada884d0b80eb3fe4e.webp)  
 Figure 20-13: The Boston Globe's website has several different breakpoint screen widths that change how the content is flowed and accessed on a desktop, tablet, or phone.
 
 # The Future
@@ -109,5 +109,5 @@ __________
 
 $\therefore m - 1 \neq  0$ ; $\therefore$ 当 $m < \frac{3}{2}$ 且 $m \neq  1$ 时方程有两个不等实数根
 
-![](images/2faff7684b8d0e2b0b3d24db207134a03321753995c43a5aa18bc75efa497ea2.jpg)
+![](images/2faff7684b8d0e2b0b3d24db207134a03321753995c43a5aa18bc75efa497ea2.webp)
 

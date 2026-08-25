@@ -12,9 +12,9 @@ them effectively.
 Center-alignment can look great for headlines or short, independent
 blocks of text.
 
-![](images/index-129_1.png)
+![](images/index-129_1.webp)
 
-![](images/index-129_2.png)
+![](images/index-129_2.webp)
 
 129
 
@@ -28,9 +28,9 @@ a bit too long, the easiest fix is to rewrite the content and make it
 shorter: Not only will it fix the alignment issue, it will make your
 design feel more consistent, too.
 
-![](images/index-130_1.png)
+![](images/index-130_1.webp)
 
-![](images/index-130_2.png)
+![](images/index-130_2.webp)
 
 Align with readability in mind
 
@@ -49,7 +49,7 @@ Justified text looks great in print and can work well on the web when
 you’re going for a more formal look, but without special care, it can
 create a lot of awkward gaps between words:
 
-![](images/index-131_1.png)
+![](images/index-131_1.webp)
 
 131
 
@@ -61,5 +61,5 @@ to mimic a print look, perhaps for an online magazine or newspaper. Even
 then, left aligned text works great too, so it’s really just a matter of
 preference.
 
-![](images/index-132_1.png)
+![](images/index-132_1.webp)
 

@@ -22,6 +22,7 @@
 | 交互产品开发 | `交互产品开发/` | weekly | 配置完毕 |
 | 信息可视化 | `信息可视化/` | weekly | 配置完毕 |
 | 毕业设计档案归档 | `毕业设计档案归档/` | weekly | 待配置 |
+| 造物与创格 | `造物与创格/` | weekly | 待配置 |
 
 ## 始终激活规则 (trigger: always)
 
@@ -86,7 +87,6 @@ graph LR
 - `agent-architect/` — Agent 扩展机制创建与管理（Rule/Workflow/Skill）
 - `script_format/` — 脚本格式规范
 - `narrative_archaeologist/` — 叙事考古
-- `validation_suite/` — 验证套件（链接/时长/语法）
 - `librarian/` — 知识枢纽查询引擎（三层漏斗：hub扫描 → search_knowledge → view_file段落）
 - `pptx-nfu-branded/` — NFU 南方学院品牌 PPTX 注入
 - `doubaotts/` — 豆包 TTS 桥接引擎（段落级动态合成 + IndexedDB 缓存）

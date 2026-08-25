@@ -74,13 +74,13 @@ When the user does something that the application thinks is wrong, the best way 
 
 be wrong and end up subverting the user's intent. Furthermore, this approach fails to give the user the benefit of learning from the situation, ultimately compromising his ability to avoid the situation in the future. Our applications should, however, remember each of the user's actions and ensure that each action can be cleanly reversed, that no collateral information is lost, and that the user can figure out where the application thinks the problems might be. Essentially, we maintain a clear audit trail of his actions. Thus the principle "Audit, don't edit."
 
-![](images/e3cac629023153a22e080ec4748a7e9724eac89ed9d3c22a5bef574889ae8356.jpg)
+![](images/e3cac629023153a22e080ec4748a7e9724eac89ed9d3c22a5bef574889ae8356.webp)
 
 Audit, don't edit.
 
 Microsoft Word has an excellent example of auditing, as well as a nasty counterexample. This excellent example is how it handles real-time spell checking. As you type, red wavy underlines identify words that the application doesn't recognize, as shown in Figure 14-1. Right-clicking these words pops up a menu of alternatives you can choose from. But you don't have to change anything, and you are not interrupted by dialogs or other forms of modal idiocy.
 
-![](images/29e0bbdccb55d5cdd64eb9768ddc24e15ff8b93ae5bdc249e1ce7d85d324ad29.jpg)  
+![](images/29e0bbdccb55d5cdd64eb9768ddc24e15ff8b93ae5bdc249e1ce7d85d324ad29.webp)  
 Figure 14-1: Microsoft Word's automatic spell checker audits misspelled words with a wavy red underline, giving users modeless feedback. Right-clicking an underlined word pops up a menu of possible alternatives to choose from. This design idiom has been widely copied by both desktop and mobile apps.
 
 Word's AutoCorrect feature, on the other hand, can be a bit disturbing at first. As you type, it silently changes words it thinks are misspelled. It turns out that this feature is incredibly useful for fixing minor typos as you go. However, the corrections leave no obvious audit trail, so the user often doesn't realize that what he typed has been changed. It would be better if Word could provide some kind of mark that indicates it has made a correction on the off chance that it has miscorrected something. (This possibility becomes much more likely if, for instance, you are writing a technical paper heavy in specialized terminology and acronyms.)
@@ -105,7 +105,7 @@ The roots of the interaction problems with data storage lie, as you'd expect, in
 
 When a Save Changes dialog like the one shown in Figure 14-2 opens, users suppress a twinge of fear and confusion and click the Save button out of habit. A dialog that is always answered the same way is redundant and should be eliminated.
 
-![](images/c82be8860b1b71f41a5b0b8a947dc0593a79683250a9661330c39e52cb4d5476.jpg)  
+![](images/c82be8860b1b71f41a5b0b8a947dc0593a79683250a9661330c39e52cb4d5476.webp)  
 Figure 14-2: This is the question Word asks when you close a file after you have edited it. This dialog is a result of the developer's inflicting the implementation model of the disk file system on the hapless user. This dialog is so unexpected by new users that they often choose Don't Save inadvertently.
 
 The application launches the Save Changes dialog when the user requests Close or Quit because that is when it has to reconcile the differences between the copy of the
@@ -126,7 +126,7 @@ Experienced users also learn to use the Save Changes dialog for similar purposes
 
 When you save a document for the first time or choose the Save As command from the File menu, many applications display the Save As dialog, shown in Figure 14-3.
 
-![](images/49f697a1e85e1a22cc3d89ffc3c93768e78fcbfa081a15361a86e9ca810f62ef.jpg)  
+![](images/49f697a1e85e1a22cc3d89ffc3c93768e78fcbfa081a15361a86e9ca810f62ef.webp)  
 Figure 14-3: The Save As dialog provides two functions: It lets you name your file, and it lets you place it in a directory you choose. Users, however, don't have a clear concept of saving, so the title of the dialog does not match their mental models of the function. Furthermore, if a dialog allows you to name and place a document, you might expect it would allow you to rename and replace it as well. Unfortunately, our expectations are confounded by poor design.
 
 Functionally, this dialog offers two things: It lets users name a file, and it lets them choose which directory to place it in. Both of these functions demand that users have intimate knowledge of the file system and a fair amount of foresight into how they'll need to retrieve the file later. Users must know how to formulate an acceptable and memorable filename and understand the hierarchical file directory. Many users who master the name portion give up on trying to understand the directory tree. They put their documents on their Desktop or in the directory that the application chooses as the default. Occasionally, some action causes the application to forget its default directory, and these users must call in an expert to find their files.
@@ -135,7 +135,7 @@ The Save As dialog needs to decide what its purpose truly is. If it is to name a
 
 Forcing the user to go to Explorer to rename the document is a minor hardship, but therein lies a hidden trap. The bait is that Windows easily supports several applications running simultaneously. Attracted by this feature, the user tries to rename the file in the Explorer without first closing the document in the application. This very reasonable action triggers the trap, and the steel jaws clamp down hard on his leg. He is rebuffed with the rude error message box shown in Figure 14-4. Trying to rename an open file is a sharing violation, and the operating system rejects it with a patronizing error message.
 
-![](images/cbf6df2b41efde51ff5c4e7b86fe89e58d813fc5866569934d8a9cf52ac4994b.jpg)  
+![](images/cbf6df2b41efde51ff5c4e7b86fe89e58d813fc5866569934d8a9cf52ac4994b.webp)  
 Figure 14-4: If the user attempts to rename a file using Explorer while Word is still editing it, Explorer is too stupid to get around the problem. It is also too rude to be nice about it and puts up this patronizing error message. Rebuffed by both the editing application and the OS, a new user might conclude that a document cannot be renamed.
 
 The innocent user is merely trying to rename his document, and he finds himself lost in operating system arcana. Ironically, the one entity that has both the authority and the responsibility to change the document's name while it is still open—the application itself—refuses to even try.

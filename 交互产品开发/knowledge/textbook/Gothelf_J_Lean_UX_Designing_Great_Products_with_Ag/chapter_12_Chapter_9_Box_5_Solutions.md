@@ -1,6 +1,6 @@
 # Chapter 9. Box 5: Solutions
 
-![](images/assets/lux3_0901.png)
+![](images/assets/lux3_0901.webp)
 
 ###### Figure 9-1. Box 5 of the Lean UX Canvas: Solutions
 
@@ -174,7 +174,7 @@ preprinted template to hand to participants. (If you’re using an online
 tool, don’t force people to draw in that tool—that tends to be hard and
 slow. Instead, ask people to work on paper then share a photo or scan.)
 
-![](images/assets/lux3_0902.png)
+![](images/assets/lux3_0902.webp)
 
 ###### Figure 9-2. A blank “six-up” template
 
@@ -199,7 +199,7 @@ you can draw every interface. We’re confident everyone on your team can
 draw those shapes, and this seemingly silly idea can help level the
 playing field.
 
-![](images/assets/lux3_0903.png)
+![](images/assets/lux3_0903.webp)
 
 ###### Figure 9-3. A wall full of completed six-up drawings
 
@@ -229,7 +229,7 @@ like these are very helpful. Comments such as “I don’t like that
 concept” provide little value and don’t give the presenter concrete
 ideas to use for iterating.
 
-![](images/assets/lux3_0904.png)
+![](images/assets/lux3_0904.webp)
 
 ###### Figure 9-4. A team presenting and critiquing drawings during a Design Studio
 
@@ -255,7 +255,7 @@ team 10 minutes for this step.
 When the time is up, bring everyone together and go through the
 present-and-critique process again.
 
-![](images/assets/lux3_0905.png)
+![](images/assets/lux3_0905.webp)
 
 ###### Figure 9-5. A team working together in a Design Studio exercise
 

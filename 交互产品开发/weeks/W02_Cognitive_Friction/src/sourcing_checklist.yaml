@@ -15,7 +15,7 @@
   - iOS real image
   - iOS demo video
   target_path: ../public/videos/w02-slide-06b_2.webm
-  current_asset: ../public/slides/w02-slide-06b_2.png
+  current_asset: ../public/slides/w02-slide-06b_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -45,7 +45,7 @@
   - 共同命运 photo
   - 共同命运 real image
   target_path: ../public/videos/w02-slide-06d.webm
-  current_asset: ../public/slides/w02-slide-06d.png
+  current_asset: ../public/slides/w02-slide-06d.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -68,7 +68,7 @@
   - 设计心理学 real image
   - 设计心理学 demo video
   target_path: ../public/videos/w02-slide-08.webm
-  current_asset: ../public/slides/w02-slide-08.png
+  current_asset: ../public/slides/w02-slide-08.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -93,7 +93,7 @@
   - Therac-25 product shot high resolution
   - Therac-25 demo video
   target_path: ../public/videos/w02-slide-10d.webm
-  current_asset: ../public/slides/w02-slide-10d.png
+  current_asset: ../public/slides/w02-slide-10d.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -117,7 +117,7 @@
   - LingsCars portrait
   - LingsCars demo video
   target_path: ../public/videos/w02-slide-18.webm
-  current_asset: ../public/slides/w02-slide-18.png
+  current_asset: ../public/slides/w02-slide-18.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -140,7 +140,7 @@
   - iOS real image
   - iOS demo video
   target_path: ../public/videos/w02-slide-19.webm
-  current_asset: ../public/slides/w02-slide-19.png
+  current_asset: ../public/slides/w02-slide-19.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -186,7 +186,7 @@
   - teamLab real image
   - teamLab demo video
   target_path: ../public/videos/w02-slide-19c2.webm
-  current_asset: ../public/slides/w02-slide-19c2_real.jpg
+  current_asset: ../public/slides/w02-slide-19c2_real.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -212,8 +212,8 @@
   - Dang—— photo
   - Dang—— real image
   - Dang—— portrait
-  target_path: ../public/slides/w02-slide-01d_2_real.png
-  current_asset: ../public/slides/w02-slide-01d_2.png
+  target_path: ../public/slides/w02-slide-01d_2_real.webp
+  current_asset: ../public/slides/w02-slide-01d_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -234,8 +234,8 @@
   - Don Norman photo
   - Don Norman real image
   - Don Norman portrait
-  target_path: ../public/slides/w02-slide-04b_real.png
-  current_asset: ../public/slides/w02-slide-04b.png
+  target_path: ../public/slides/w02-slide-04b_real.webp
+  current_asset: ../public/slides/w02-slide-04b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -265,8 +265,8 @@
   - 反馈三根支柱 real image
   - 即时性 ≤400ms photo
   - 即时性 ≤400ms real image
-  target_path: ../public/slides/w02-slide-10c_real.png
-  current_asset: ../public/slides/w02-slide-10c.png
+  target_path: ../public/slides/w02-slide-10c_real.webp
+  current_asset: ../public/slides/w02-slide-10c.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -295,8 +295,8 @@
   - 心理模型·顽固 photo
   - 心理模型·顽固 real image
   - 心理模型·顽固 product shot high resolution
-  target_path: ../public/slides/w02-slide-13d_real.png
-  current_asset: ../public/slides/w02-slide-13d.png
+  target_path: ../public/slides/w02-slide-13d_real.webp
+  current_asset: ../public/slides/w02-slide-13d.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -317,8 +317,8 @@
   - Alan Cooper photo
   - Alan Cooper real image
   - Alan Cooper portrait
-  target_path: ../public/slides/w02-slide-17b_2_real.png
-  current_asset: ../public/slides/w02-slide-17b_2.png
+  target_path: ../public/slides/w02-slide-17b_2_real.webp
+  current_asset: ../public/slides/w02-slide-17b_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -339,8 +339,8 @@
   - Alan Cooper photo
   - Alan Cooper real image
   - Alan Cooper portrait
-  target_path: ../public/slides/w02-slide-17c1_2_real.png
-  current_asset: ../public/slides/w02-slide-17c1_2.png
+  target_path: ../public/slides/w02-slide-17c1_2_real.webp
+  current_asset: ../public/slides/w02-slide-17c1_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -361,7 +361,7 @@
   - Don Norman photo
   - Don Norman real image
   - Don Norman portrait
-  target_path: ../public/slides/w02-slide-35_1_real.png
+  target_path: ../public/slides/w02-slide-35_1_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -383,7 +383,7 @@
   - Alan Cooper photo
   - Alan Cooper real image
   - Alan Cooper portrait
-  target_path: ../public/slides/w02-slide-35_2_real.png
+  target_path: ../public/slides/w02-slide-35_2_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -406,7 +406,7 @@
   - 2×2 网格展示四个"看似精美但体验糟糕"的界面截图：一个层级深达五层的政务 App 首页、一个满屏 screenshot
   - 2×2 网格展示四个"看似精美但体验糟糕"的界面截图：一个层级深达五层的政务 A demonstration
   target_path: ../public/videos/w02-slide-03.webm
-  current_asset: ../public/slides/w02-slide-03.png
+  current_asset: ../public/slides/w02-slide-03.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -427,7 +427,7 @@
   - 三张引发焦虑的界面截图拼贴——12306 复杂变态的验证码、医院挂号机庞杂的分类网格、以及充斥大段免 screenshot
   - 三张引发焦虑的界面截图拼贴——12306 复杂变态的验证码、医院挂号机庞杂的分类 demonstration
   target_path: ../public/videos/w02-slide-03b.webm
-  current_asset: ../public/slides/w02-slide-03b.png
+  current_asset: ../public/slides/w02-slide-03b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -450,7 +450,7 @@
   - 三哩岛的噪音灾难 archive image
   - 真实照片：密密麻麻亮着红灯和绿灯的控制面板 红绿灯互相交织干扰 导致无法看清真正 demonstration
   target_path: ../public/videos/w02-slide-10d_2.webm
-  current_asset: ../public/slides/w02-slide-10d_2.png
+  current_asset: ../public/slides/w02-slide-10d_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -473,7 +473,7 @@
   - 管用但错误的心理模型 archive image
   - 电影放映心理模型与实现模型对比 左侧是用户脑补的"连续滑动的胶片"；右侧是真实物 demonstration
   target_path: ../public/videos/w02-slide-13e.webm
-  current_asset: ../public/slides/w02-slide-13e.png
+  current_asset: ../public/slides/w02-slide-13e.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -490,8 +490,8 @@
   description: 识别与回忆的天壤之别
   scene_excerpt: 从痛苦回忆到轻松识别。上面是一个人在绞尽脑汁地想密码；下面是看到面容ID后露出轻松笑容瞬间解锁
   search_queries: []
-  target_path: ../public/slides/w02-slide-07d_3_real.png
-  current_asset: ../public/slides/w02-slide-07d_3.png
+  target_path: ../public/slides/w02-slide-07d_3_real.webp
+  current_asset: ../public/slides/w02-slide-07d_3.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -520,7 +520,7 @@
   search_queries:
   - Therac-25 photo
   - Therac-25 real image
-  target_path: ../public/slides/M02_意图与反馈的断裂_narr_L219_real.png
+  target_path: ../public/slides/M02_意图与反馈的断裂_narr_L219_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -540,8 +540,8 @@
   search_queries:
   - 日常生活中的微缩模型 historical photo
   - 日常生活中的微缩模型 archive image
-  target_path: ../public/slides/w02-slide-13e_2_real.png
-  current_asset: ../public/slides/w02-slide-13e_2.png
+  target_path: ../public/slides/w02-slide-13e_2_real.webp
+  current_asset: ../public/slides/w02-slide-13e_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -560,8 +560,8 @@
   search_queries:
   - 表现模型隐瞒了真实的破坏力 historical photo
   - 表现模型隐瞒了真实的破坏力 archive image
-  target_path: ../public/slides/w02-slide-14c_real.png
-  current_asset: ../public/slides/w02-slide-14c.png
+  target_path: ../public/slides/w02-slide-14c_real.webp
+  current_asset: ../public/slides/w02-slide-14c.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -580,8 +580,8 @@
   search_queries:
   - 全息环境下的空白心理模型 historical photo
   - 全息环境下的空白心理模型 archive image
-  target_path: ../public/slides/w02-slide-14e_1b_real.png
-  current_asset: ../public/slides/w02-slide-14e_1b.png
+  target_path: ../public/slides/w02-slide-14e_1b_real.webp
+  current_asset: ../public/slides/w02-slide-14e_1b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -600,8 +600,8 @@
   search_queries:
   - Skeuomorph decay：隐喻的遗迹化 historical photo
   - Skeuomorph decay：隐喻的遗迹化 archive image
-  target_path: ../public/slides/w02-slide-23_1_real.png
-  current_asset: ../public/slides/w02-slide-23_1.png
+  target_path: ../public/slides/w02-slide-23_1_real.webp
+  current_asset: ../public/slides/w02-slide-23_1.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -618,8 +618,8 @@
   description: 突破物理引擎的数字魔法
   scene_excerpt: 物理限制 vs 数字魔法。左侧为受限的实体文件夹（文件只能在一个抽屉）；右侧为标签化、时间轴化的发光数据流（同一文件可以存在于多重维度）
   search_queries: []
-  target_path: ../public/slides/w02-slide-17c1_real.png
-  current_asset: ../public/slides/w02-slide-17c1.png
+  target_path: ../public/slides/w02-slide-17c1_real.webp
+  current_asset: ../public/slides/w02-slide-17c1.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -638,7 +638,7 @@
   search_queries:
   - 左侧是沉浸聊天的微信界面（上手/透明） 右侧是突兀弹出的“存储空间不足”系统报错 demonstration
   target_path: ../public/videos/w02-slide-04_heidegger_2.webm
-  current_asset: ../public/slides/w02-slide-04_heidegger_2.png
+  current_asset: ../public/slides/w02-slide-04_heidegger_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -657,7 +657,7 @@
   search_queries:
   - 大脑引擎切换的隐喻图：从轻快节能的绿色齿轮（系统1）到沉重耗能的红色重型齿轮（系 demonstration
   target_path: ../public/videos/w02-slide-04b_2.webm
-  current_asset: ../public/slides/w02-slide-04b_2.png
+  current_asset: ../public/slides/w02-slide-04b_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -696,7 +696,7 @@
   search_queries:
   - 对比图 左列标题"多任务幻觉"——一个人同时看书、刷手机、听耳机 大脑中间的 C demonstration
   target_path: ../public/videos/w02-slide-05d.webm
-  current_asset: ../public/slides/w02-slide-05d.png
+  current_asset: ../public/slides/w02-slide-05d.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -715,7 +715,7 @@
   search_queries:
   - 左侧展示手机屏幕频繁弹窗打断（红色告警）；右侧展示高空 HUD 投影路面 绿色字 demonstration
   target_path: ../public/videos/w02-slide-05c.webm
-  current_asset: ../public/slides/w02-slide-05c.png
+  current_asset: ../public/slides/w02-slide-05c.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -734,7 +734,7 @@
   search_queries:
   - 认知负荷的天平 一边是界面呈现的选项复杂度 一边是大脑的实时计算负荷 指针濒临过 demonstration
   target_path: ../public/videos/w02-slide-07b_1.webm
-  current_asset: ../public/slides/w02-slide-07b_1.png
+  current_asset: ../public/slides/w02-slide-07b_1.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -780,7 +780,7 @@
   search_queries:
   - 左侧是让用户填错日期后弹出的红色报错弹窗；右侧是携程 App 中将无效返程日期提 demonstration
   target_path: ../public/videos/w02-slide-09c.webm
-  current_asset: ../public/slides/w02-slide-09c.png
+  current_asset: ../public/slides/w02-slide-09c.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -799,7 +799,7 @@
   search_queries:
   - 左侧为一个点击"提交订单"后毫无反馈的空白页面 右侧为 Gmail 底部浮现的黑 demonstration
   target_path: ../public/videos/w02-slide-10.webm
-  current_asset: ../public/slides/w02-slide-10.png
+  current_asset: ../public/slides/w02-slide-10.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -818,7 +818,7 @@
   search_queries:
   - 宽恕式设计的隐喻 一张巨大的安全网稳稳接住了从高处掉落的用户 象征着系统撤销(U demonstration
   target_path: ../public/videos/w02-slide-10d_4.webm
-  current_asset: ../public/slides/w02-slide-10d_4.png
+  current_asset: ../public/slides/w02-slide-10d_4.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -837,7 +837,7 @@
   search_queries:
   - 左侧是一位女性小心翼翼地把剪报夹进收藏册（暗示珍视与反复观看）；右侧是一个电商  demonstration
   target_path: ../public/videos/w02-slide-16b.webm
-  current_asset: ../public/slides/w02-slide-16b.png
+  current_asset: ../public/slides/w02-slide-16b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -856,7 +856,7 @@
   search_queries:
   - 左侧是红底黄字、带有"拆"字金币特效的微信红包；右侧是绿意盎然的支付宝蚂蚁森林  demonstration
   target_path: ../public/videos/w02-slide-17d.webm
-  current_asset: ../public/slides/w02-slide-17d.png
+  current_asset: ../public/slides/w02-slide-17d.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -876,7 +876,7 @@
   search_queries:
   - 算法时间线 vs 线性时间线 左侧是按严格先后顺序排列的日历卡片；右侧是被推荐算 demonstration
   target_path: ../public/videos/w02-slide-17e_2.webm
-  current_asset: ../public/slides/w02-slide-17e_2.png
+  current_asset: ../public/slides/w02-slide-17e_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -923,8 +923,8 @@
   search_queries:
   - 存在与时间 photo
   - 存在与时间 real image
-  target_path: ../public/slides/w02-slide-04_heidegger_real.png
-  current_asset: ../public/slides/w02-slide-04_heidegger.png
+  target_path: ../public/slides/w02-slide-04_heidegger_real.webp
+  current_asset: ../public/slides/w02-slide-04_heidegger.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -944,8 +944,8 @@
   search_queries:
   - DELETE Database photo
   - DELETE Database real image
-  target_path: ../public/slides/w02-slide-04d_real.png
-  current_asset: ../public/slides/w02-slide-04d.png
+  target_path: ../public/slides/w02-slide-04d_real.webp
+  current_asset: ../public/slides/w02-slide-04d.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -971,7 +971,7 @@
   search_queries:
   - 存在与时间 photo
   - 存在与时间 real image
-  target_path: ../public/slides/M00_课程导览_narr_L277_real.png
+  target_path: ../public/slides/M00_课程导览_narr_L277_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -989,8 +989,8 @@
   description: 任务切换的高昂成本
   scene_excerpt: 具象的生活隐喻：一个学生正试图一边看厚重的教材，一边用手机回复消息。每当他的视线在书本和手机之间切换时，头顶就会出现一个沉重的红色“Loading...”进度条图标，直观展现大脑在两项任务间来回跳转时所经历的严重卡顿与“重载损耗”。
   search_queries: []
-  target_path: ../public/slides/w02-slide-05b_2_real.png
-  current_asset: ../public/slides/w02-slide-05b_2.png
+  target_path: ../public/slides/w02-slide-05b_2_real.webp
+  current_asset: ../public/slides/w02-slide-05b_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1014,8 +1014,8 @@
   - fMRI real image
   - 神奇的数字 7±2 photo
   - 神奇的数字 7±2 real image
-  target_path: ../public/slides/w02-slide-07c_1_real.png
-  current_asset: ../public/slides/w02-slide-07c_1.png
+  target_path: ../public/slides/w02-slide-07c_1_real.webp
+  current_asset: ../public/slides/w02-slide-07c_1.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1039,7 +1039,7 @@
   search_queries:
   - 看不见的大猩猩 photo
   - 看不见的大猩猩 real image
-  target_path: ../public/slides/M01_认知框架_你的大脑不是处理器_narr_L65_real.png
+  target_path: ../public/slides/M01_认知框架_你的大脑不是处理器_narr_L65_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -1070,8 +1070,8 @@
   - 执行鸿沟 · 高风险 photo
   - 执行鸿沟 · 高风险 real image
   - 执行鸿沟 · 高风险 product shot high resolution
-  target_path: ../public/slides/w02-slide-09b2_real.png
-  current_asset: ../public/slides/w02-slide-09b2.png
+  target_path: ../public/slides/w02-slide-09b2_real.webp
+  current_asset: ../public/slides/w02-slide-09b2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1092,8 +1092,8 @@
   - MacBook photo
   - MacBook real image
   - MacBook portrait
-  target_path: ../public/slides/w02-slide-10e_3_real.png
-  current_asset: ../public/slides/w02-slide-10e_3.png
+  target_path: ../public/slides/w02-slide-10e_3_real.webp
+  current_asset: ../public/slides/w02-slide-10e_3.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1122,7 +1122,7 @@
   search_queries:
   - AWS S3 photo
   - AWS S3 real image
-  target_path: ../public/slides/M02_意图与反馈的断裂_narr_L203_real.png
+  target_path: ../public/slides/M02_意图与反馈的断裂_narr_L203_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -1152,8 +1152,8 @@
   - 实现模型 real image
   - 心理模型 photo
   - 心理模型 real image
-  target_path: ../public/slides/w02-slide-14f_real.png
-  current_asset: ../public/slides/w02-slide-14f.png
+  target_path: ../public/slides/w02-slide-14f_real.webp
+  current_asset: ../public/slides/w02-slide-14f.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1176,8 +1176,8 @@
   - iPhone real image
   - iOS photo
   - iOS real image
-  target_path: ../public/slides/w02-slide-14b_2_real.png
-  current_asset: ../public/slides/w02-slide-14b_2.png
+  target_path: ../public/slides/w02-slide-14b_2_real.webp
+  current_asset: ../public/slides/w02-slide-14b_2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1206,8 +1206,8 @@
   - 任务导向 Task-Directed real image
   - 目标导向 Goal-Directed photo
   - 目标导向 Goal-Directed real image
-  target_path: ../public/slides/w02-slide-14g_real.png
-  current_asset: ../public/slides/w02-slide-14g.png
+  target_path: ../public/slides/w02-slide-14g_real.webp
+  current_asset: ../public/slides/w02-slide-14g.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1234,7 +1234,7 @@
   search_queries:
   - WeChat Open Platform photo
   - WeChat Open Platform real image
-  target_path: ../public/slides/M03_三种模型的战争_narr_L61_real.png
+  target_path: ../public/slides/M03_三种模型的战争_narr_L61_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -1256,7 +1256,7 @@
   - WebSocket photo
   - WebSocket real image
   - WebSocket portrait
-  target_path: ../public/slides/w02-slide-23_2_real.png
+  target_path: ../public/slides/w02-slide-23_2_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -1288,8 +1288,8 @@
   - iBooks real image
   - 拟物化时代（iOS 6） photo
   - 拟物化时代（iOS 6） real image
-  target_path: ../public/slides/w02-slide-17c2_real.png
-  current_asset: ../public/slides/w02-slide-17c2.png
+  target_path: ../public/slides/w02-slide-17c2_real.webp
+  current_asset: ../public/slides/w02-slide-17c2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -1312,7 +1312,7 @@
   search_queries:
   - LingsCars photo
   - LingsCars real image
-  target_path: ../public/slides/M05_记忆负荷与认知过载_narr_L33_real.png
+  target_path: ../public/slides/M05_记忆负荷与认知过载_narr_L33_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -1336,7 +1336,7 @@
   search_queries:
   - VS Code photo
   - VS Code real image
-  target_path: ../public/slides/M05_记忆负荷与认知过载_narr_L177_real.png
+  target_path: ../public/slides/M05_记忆负荷与认知过载_narr_L177_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []

@@ -12,12 +12,12 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
 ```bash
 # 从 Workspace 根目录运行：
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_knowledge.py \
+  .agent/scripts/validation/validate_knowledge.py \
   --course "<课程名>"
 
 # Draft 模块追踪（如已存在脚本）：
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/check_draft_status.py \
+  .agent/scripts/validation/check_draft_status.py \
   --course "<课程名>"
 ```
 
@@ -120,7 +120,7 @@ description: "/write Phase 1 — 备料（Pre-flight + 知识准备）"
 
 > [!CAUTION]
 > **上下文隔离策略（条件强制）**：当满足以下**任一条件**时，Step 2.3-2.5 的知识检索
-> **必须**委托给 `browser_subagent` 或独立 Agent 调用：
+> **必须**委托给 `research` 子代理 (Subagent) 或独立 Agent 调用：
 > 1. 本单元模块数 ≥ 4
 > 2. 本单元总字数预算 ≥ 12,000 字
 > 3. 主 Agent 上下文已超过会话总量的 30%（由 Agent 自行估算）

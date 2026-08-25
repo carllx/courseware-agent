@@ -6,9 +6,9 @@ These additional index panes can themselves have navigation and functions associ
 
 In portrait mode, index panes typically are launched from a button and overlap the main content area. Unless the content of your app's index pane is particularly narrow, you will probably want to opt for this approach (see Figure 19-4). Non-overlapping panes provide a superior interaction, even in portrait, if they are narrow enough to fit.
 
-![](images/29f17f72b966e9ab69fa77958313a8fdbff5ae4c364092a38a5081fb150fce3f.jpg)
+![](images/29f17f72b966e9ab69fa77958313a8fdbff5ae4c364092a38a5081fb150fce3f.webp)
 
-![](images/14fc378c5047c8b06deb60e72a69ef9b948b39b429246c41a792eb47e7a2063c.jpg)  
+![](images/14fc378c5047c8b06deb60e72a69ef9b948b39b429246c41a792eb47e7a2063c.webp)  
 Figure 19-4: iOS's iPad Mail app presents a navigable index pane containing mail folders and their contents. In portrait mode, the pane is launched from a button on the left of the app's nav bar and overlaps the rest of the screen until it is dismissed. In landscape mode, the pane is permanently placed adjacent to the detailed content pane.
 
 When rotated to landscape, the standard pattern calls for the overlapping pane to become a permanent adjacent pane.
@@ -19,7 +19,7 @@ Tablet screens are large enough to support pop-up panels that don't overlay the 
 
 Pop-up panels are different from dialogs, in that they are attached to a particular control or content object and are used to make changes to parameters associated with that object. This association typically is shown via a speech balloon caret that extends from the pop-up canvas to the control it is associated with, as shown in Figure 19-5.
 
-![](images/d0ae94387607ee4a325186b763c1f8d3d5da3dd85c7d6aed1b33e01133673b9e.jpg)  
+![](images/d0ae94387607ee4a325186b763c1f8d3d5da3dd85c7d6aed1b33e01133673b9e.webp)  
 Figure 19-5: The Procreate digital painting app on iOS makes extensive use of pop-up control panels as a means of configuring the drawing tools in the app's tool bar. These pop-up panels show their connection to the tool via a speech-balloon-like caret that emerges from the otherwise rectangular panel.
 
 # Orientation-based layout
@@ -32,9 +32,9 @@ The high-resolution displays on modern touchscreen tablets rival those of many l
 
 However, due to the complexity of productivity and creative authoring apps that seek to replace similar desktop apps, there is more of a case for adopting more desktop-like tool bars and panes. Audio and video production apps in particular seem well-suited to a more desktop-like approach, as shown in Figure 19-6. Here relatively dense control layouts, multiple panes, complex tool bars and control panels, large pop-up panels or drawers, and drag-and-drop idioms make sense.
 
-![](images/188269b9cce7ca4e5707400d705d2413795f6c551dfc2cc8ed95caad5d3a14a2.jpg)
+![](images/188269b9cce7ca4e5707400d705d2413795f6c551dfc2cc8ed95caad5d3a14a2.webp)
 
-![](images/9e15900c4c68c2f60a2fb70ad8ba3fbbc4bac9de57ca3dc7e22e3fb6f3c8fa13.jpg)  
+![](images/9e15900c4c68c2f60a2fb70ad8ba3fbbc4bac9de57ca3dc7e22e3fb6f3c8fa13.webp)  
 Figure 19-6: Steinberg's Cubasis and Corel's Pinnacle Studio are examples of media production apps that are well suited to a more complex layout that more closely resembles desktop apps.
 
 If your app is in this category, keep the following principles in mind:
@@ -53,7 +53,7 @@ For certain apps, especially those in the domain of music production, interfaces
 
 Mini-tablets such as Google's Nexus 7 and the Kindle Fire are popular, inexpensive mobile devices that handily fit into a large purse or pocket, making them popular with consumers. From a user experience perspective, however, their combination of a narrow 16:9 aspect ratio, support for both screen orientations, and a small size represent challenges for a designer of touch-based experience. There simply isn't as much room for finger-sized controls as on a full-sized tablet. But at the same time, there's a bit too much room for apps designed for phones to look aesthetically well proportioned, especially using standard OS widgetry.
 
-![](images/f4c59a8b8fd9e3d50b753fbec5c4c95b4fb2da827081bfd725282afcae1fa5fb.jpg)  
+![](images/f4c59a8b8fd9e3d50b753fbec5c4c95b4fb2da827081bfd725282afcae1fa5fb.webp)  
 Figure 19-7: Positive Grid's Final Touch app provides pro-quality audio mastering on the iPad. While making extensive use of hardware control metaphors, its smart layout and workflow, along with judicious use of direct-manipulation idioms in combination with the hardware-like controls, make it both extremely powerful and easy to use.
 
 Navigation and layout strategies employed by handheld and tablet format apps will work for mini-tablets, with some caveats:
@@ -84,7 +84,7 @@ Tapping a content item in a list typically drills down a level in the hierarchy,
 
 As we'll discuss in a minute, list views often work in conjunction with tab bars to provide access to multiple screens of content, each in its separately maintained list. Apple's Music app is a good example of this, with lists of albums, artists, and songs available on different tabs, each with its own (slightly different, but related) drill-down hierarchies (see Figure 19-8).
 
-![](images/173ce9ccb67a040a202c5e8b38550acbabfd4f6a7084bc3441c49d7d6a37356a.jpg)  
+![](images/173ce9ccb67a040a202c5e8b38550acbabfd4f6a7084bc3441c49d7d6a37356a.webp)  
 Figure 19-8: The iOS Music app has tabbed lists of albums, artists, and songs, among others. Navigating between lists is accomplished via a bottom tab bar.
 
 Lists can either be finite in length or allow infinite scrolling. This kind of scrolling presents an initial subset of items from a very large set (such as web search results) and then presents an additional block of results each time the user reaches the bottom of the list. While infinite scrolling is a necessary compromise due to limited computing resources, it is a reasonably elegant solution, as long as the incremental load time can be kept under a second or so.
@@ -93,11 +93,11 @@ Lists can either be finite in length or allow infinite scrolling. This kind of s
 
 Grids are used to organize content such as apps, thumbnails, and function icons into regular rows and columns. The most obvious example of this is the home screen of the iPhone, with its editable grid of app icons. Android supports a similar interface. Microsoft has taken the idea of the app icon grid and transformed it into the more innovative Start screen grid. It mixes apps and notifications in an aesthetically pleasing and useful way, as shown in Figure 19-9.
 
-![](images/fdcb4f3e1a9486ff47ad2196c769da8ffbc5b723b0f28e0b0464ce15dbb97b3b.jpg)
+![](images/fdcb4f3e1a9486ff47ad2196c769da8ffbc5b723b0f28e0b0464ce15dbb97b3b.webp)
 
-![](images/91cc5be9de84dc399ed3220d9ca6fa4069ac637d4004e6945ea6d8ffebf5d9a8.jpg)
+![](images/91cc5be9de84dc399ed3220d9ca6fa4069ac637d4004e6945ea6d8ffebf5d9a8.webp)
 
-![](images/5bbd8654f94cb63d85656f5660971f395fbb49ddece56a0356225c957f9097dc.jpg)  
+![](images/5bbd8654f94cb63d85656f5660971f395fbb49ddece56a0356225c957f9097dc.webp)  
 Figure 19-9: iOS and Android home screens use a similar app grid, both of which are derived from the original Palm Pilot. Microsoft, on the other hand, evolved its Zune interface into the Metro UI, with its unique Start screen grid that seamlessly—and beautifully—combines apps and notifications.
 
 Within an app, grid views (also called gallery views) often are used to present media objects. These include photos, videos, and music albums (with cover art), or small, encapsulated cards (more on this later) containing image, text, and sometimes button or link elements. One challenge with presenting grids of content objects is making sure users understand how to navigate them. The iPhone's home screen uses horizontal swipes to navigate between grid "pages." Most apps that use grids as a primary navigation and selection mechanism, such as Rdio (see Figure 19-10), use pageless, and sometimes infinite, vertical scrolling to expose more grid objects (albums in this case). The direction of scrolling is nicely disambiguated by sizing the album art so that the bottom-most visible row is partly cut off. This provides the necessary visual hint that a vertical swipe up will reveal more choices.
@@ -108,14 +108,14 @@ Within an app, grid views (also called gallery views) often are used to present 
 
 <!-- Chunk 12 Start -->
 
-![](images/900a6e5870f2303d5c403e00dc8a1224ba4bce30384b181b2564d876500b10a7.jpg)  
+![](images/900a6e5870f2303d5c403e00dc8a1224ba4bce30384b181b2564d876500b10a7.webp)  
 Figure 19-10: The Rdio streaming music app using a two-column scrolling grid to display album choices. The bottom-most visible row is cut off, which hints that scrolling is vertical.
 
 Apple's Photos app, shown in Figure 19-11, uses a much tighter four-column grid for the Camera Roll, which also scrolls vertically.
 
 Grids also can scroll horizontally, as in Apple's Music app when the iPhone is rotated to landscape orientation, as shown in Figure 19-12.
 
-![](images/d1e6fc7e50e3ccc2436bf315c6e8f2be9946d0241b4340f2c922f2e6c5915766.jpg)  
+![](images/d1e6fc7e50e3ccc2436bf315c6e8f2be9946d0241b4340f2c922f2e6c5915766.webp)  
 Figure 19-11: The Camera Roll in Apple's Photos app uses a tighter grid with four vertically scrolling columns on the iPhone.
 
 It might be tempting to allow zooming in and out on the grid via a pinch gesture, but generally this is not a good idea, especially in the narrow portrait orientation of the handheld form factor. Issues quickly arise concerning the legibility and hit area of the icons or thumbnails, as well as column width of text labels and metadata.
@@ -124,7 +124,7 @@ As with lists, tapping a content item in a grid typically drills down into a hie
 
 Like lists, grids can be either finite or infinitely scrolling, where rows or columns of additional items are added incrementally when the end of the grid is reached.
 
-![](images/1ab1d930067abbf86d273aa3f69fb538be86245a7749f98d5ae36327e9060352.jpg)  
+![](images/1ab1d930067abbf86d273aa3f69fb538be86245a7749f98d5ae36327e9060352.webp)  
 Figure 19-12: When rotated to landscape view on an iPhone, Apple's Music app displays a horizontally scrolling grid of album art. Tapping the art drills down to a view of the album that includes the album art, vertically scrolling track list, and transport controls.
 
 # Contentrousels
@@ -139,11 +139,11 @@ Typically, content carousel are used to present a relatively small set of object
 
 example of this is the Crackle app on iPhone, shown in Figure 19-13. The app has a large carousel at the top of its Featured tab. It wraps and includes a page marker widget so that users know when they've returned to the beginning. (This trick works only with carousel containing a short list of items.) It also auto-advances the carousel every few seconds—a common variation of the idiom. This helps users understand the behavior, as well as helping the app feel more dynamic and ensuring that users are exposed to the featured items. Care must be taken not to auto-advance a carousel so fast that users have trouble reading or focusing on the content. This animation should also pause while the user is interacting with other elements on the screen to avoid disorienting transitions.
 
-![](images/51919e36ec0e447ba7a1de7a88255c325688b1b5e63c60901930b9d1b40f8115.jpg)
+![](images/51919e36ec0e447ba7a1de7a88255c325688b1b5e63c60901930b9d1b40f8115.webp)
 
-![](images/2b213130cc86d44b2656ff68df5386a47fd54ede0f62bf61db6ed15cd9d5b7e7.jpg)
+![](images/2b213130cc86d44b2656ff68df5386a47fd54ede0f62bf61db6ed15cd9d5b7e7.webp)
 
-![](images/d070ffc3ce1d850ad611adae7a1eb007713d23009ce38c1569f7e132868dfefc.jpg)  
+![](images/d070ffc3ce1d850ad611adae7a1eb007713d23009ce38c1569f7e132868dfefc.webp)  
 Figure 19-13: The Crackle app on the iPhone (left) offers a good example of a content carousel on its Featured tab. It works well. But the arrow that indicates a drilldown to the details of each carousel item is sized and positioned such that it looks more like a way to navigate to the next carousel item. Safari on the iPhone (right) offers an example of a vertical carousel in place of browser tabs. The iPad App Store app (center) makes use of a 3D layered effect.
 
 Much less common is a vertically oriented carousel. Apple employs one in Safari for the iPhone in iOS 7 in place of browser tabs. The user swipes up and down to browse, taps to select, and swipes left to delete a tab (see Figure 19-13).
@@ -156,7 +156,7 @@ Simply put, swimlanes are a vertical stack of carousels, each of which can be sc
 
 The Netflix app makes great use of swimlanes for category-based content. Users scroll vertically through the categories and horizontally to browse a category. It works well even though the screen's portrait orientation makes for a narrow viewpoint on the content, as shown in Figure 19-14. The Apple App Store uses both a carousel and a set of swimlanes on its Featured tab. This combination works well, because the navigational gestures are identical for all elements on the screen.
 
-![](images/55d05de9dbcbfb6bb403bed73b40795bd4736aacb36c07f9172b20420c4cedc5.jpg)  
+![](images/55d05de9dbcbfb6bb403bed73b40795bd4736aacb36c07f9172b20420c4cedc5.webp)  
 Figure 19-14: The Netflix app uses swimlanes as its primary browse paradigm. Apple's App Store combines the use of a carousel and a set of swimlanes for items highlighted on its Featured tab.
 
 The authors have seldom seen swimlanes that auto-wrap back to the beginning of the list. But they probably should, with a marker of some kind between the end and beginning object so that users receive visual feedback that indicates when they have returned to the starting point in the list. While swimlanes typically are used for finite lists of featured items, you can imagine them being used with infinitely scrolling lists as well. (Imagine categorized search results, for example.) However, swimlanes—unlike carousel—should never auto-advance.
@@ -167,16 +167,16 @@ Cards are a relatively new idiom for mobile that can perhaps in some ways trace 
 
 Fast-forward to modern mobile applications, and the same need arises: How do you present meaningful chunks of rich-media content for easy consumption on a constrained display? Add to this the social and contextual nature of most mobile interactions, and you have what exemplifies the modern card-based UI—a self-contained interactive object combining media, text, web links, and social actions such as commenting, sharing, tagging, and adding media. Facebook and LinkedIn both use cards as a central idiom in their handheld apps, as shown in Figure 19-15.
 
-![](images/32820fc2685c1d41d38a63bcc0ca3b52afdde2d86f21fd0cfded261dce07e420.jpg)
+![](images/32820fc2685c1d41d38a63bcc0ca3b52afdde2d86f21fd0cfded261dce07e420.webp)
 
-![](images/13ec0027bc4098a8140a51b06d36f5be6deba6beb782c43708689fa9b8b4823c.jpg)  
+![](images/13ec0027bc4098a8140a51b06d36f5be6deba6beb782c43708689fa9b8b4823c.webp)  
 Figure 19-15: Facebook and LinkedIn's apps both use cards as a central idiom.
 
 The Google Search app's Google Now feature has a different approach to cards. It is more focused on contextual information (time, location, and information pulled from
 
 the usage of other Google apps) than it is on social interaction. Google's cards are small encapsulations of data pulled from other Google services, such as weather, maps, stocks, restaurant reviews, and notifications pulled from calendar and e-mail data. Tapping their content takes the user to the full app or web interface from which they originated, providing an avenue for deeper interaction if desired (see Figure 19-16). Google's cards also have individual settings that can be accessed by tapping an icon in the upper-right corner. Doing so flips over the card, revealing access to a configuration interface.
 
-![](images/51c7b7da94a4e75b478f4edaa7691a65cefbb96868489fb93d636a0ca6d596fa.jpg)
+![](images/51c7b7da94a4e75b478f4edaa7691a65cefbb96868489fb93d636a0ca6d596fa.webp)
 
 Stocks today 5/2014, 4:30 PM EDT
 
@@ -198,7 +198,7 @@ Bonhamas Auctioners PressReleases - 20 hours , 36 min .
 
 Update to website you recently visited
 
-![](images/38a7029ee2249e9fbbc2ae82f0fc0b1f3891f0447588051acbc879267cbfb081.jpg)
+![](images/38a7029ee2249e9fbbc2ae82f0fc0b1f3891f0447588051acbc879267cbfb081.webp)
 
 Male Celebs Become Terrifying When Given
 
@@ -206,7 +206,7 @@ Zooey Deschanel's Baby Blues
 
 People Magazine - 22 hours, 39 minutes ago.
 
-![](images/ae6e959e7db93ad314fa1244047ecb16a1a71c28c6029463dc6dd14ac364a9bf.jpg)
+![](images/ae6e959e7db93ad314fa1244047ecb16a1a71c28c6029463dc6dd14ac364a9bf.webp)
 
 Mad Men Season 7
 
@@ -218,11 +218,11 @@ Shipped - Tuesday, May 27, 4:11 PM
 
 Estimated arrival:
 
-![](images/76f2e3bb79476a7619ebdf016d282275572d0a32d09f44e180a04313e9da1e30.jpg)
+![](images/76f2e3bb79476a7619ebdf016d282275572d0a32d09f44e180a04313e9da1e30.webp)
 
 Track all packages
 
-![](images/6c1b715b8d65bb1047a514e35b0fa318b0dc41cdcb08015ff0c4602eb3a9b978.jpg)
+![](images/6c1b715b8d65bb1047a514e35b0fa318b0dc41cdcb08015ff0c4602eb3a9b978.webp)
 
 View email
 
@@ -230,11 +230,11 @@ Logitech Ultrathin for iPad Air (2014)
 
 Table PC Review - 17 hours. 51 minutes ago.
 
-![](images/aa4e228d8b31bd35aac54adf00fa25734574e5913fe055fde43005f040bc493b.jpg)
+![](images/aa4e228d8b31bd35aac54adf00fa25734574e5913fe055fde43005f040bc493b.webp)
 
 IPad
 
-![](images/610fa27f809e2ad595aa2041db8fac829380c2e7e7e6808548842b600339d6bf.jpg)
+![](images/610fa27f809e2ad595aa2041db8fac829380c2e7e7e6808548842b600339d6bf.webp)
 
 43 minutes to work
 
@@ -244,12 +244,12 @@ Heavy traffic on 1-90 E and Memorial Dr
 
 Walnut St
 
-![](images/7bce985806ab5123fbceb9da0d102943727cf5e3fcff7002b101fc20e101e99a.jpg)  
+![](images/7bce985806ab5123fbceb9da0d102943727cf5e3fcff7002b101fc20e101e99a.webp)  
 Figure 19-16: The Google Search app uses cards that return encapsulated snippets of useful information based on the user's current context, including location, time, and relevant related information pulled from other Google services.
 
 Cards are most often displayed in a scrolling vertical list, but they also lend themselves to grid, carousel, and swimlane layouts. Facebook's Paper app provides a good example of the use of cards in a nonstandard layout: The top half of the screen is a category card that cycles through individual posts. If it is tapped, the post is expanded on a full-screen card, as shown in Figure 19-17. Under the category card is an infinitely scrolling swimlane of posts fitting the category. Swiping up on these expands the swimlane to full-screen height, making more detailed content visible. (Swiping down returns them to the bottom of the screen.) Tapping any shared content inside the expanded card takes the user to the content's original source.
 
-![](images/a897ae57852e258b2c268f7ac506cf73e20d42a24f5396dc348b6b44eded17b7.jpg)  
+![](images/a897ae57852e258b2c268f7ac506cf73e20d42a24f5396dc348b6b44eded17b7.webp)  
 Figure 19-17: Facebook's Paper app is a good example of cards used in a nonlist layout. Content navigation in the app is achieved via a card carousel of content categories (each of which automatically cycles through recent content) and an infinite card swimlane that the user can browse through.
 
 # Navigation and tool bars
@@ -260,27 +260,27 @@ Bars are the primary mechanism for navigating to the different functional and co
 
 Tab bars contain a set of text and/or icon buttons. (iOS tab buttons frequently sport an icon with a text label beneath it.) Tapping a tab button switches to a different list or grid view in the main content area, as you'd expect a tab to do. Each tab in a tab bar maintains its own content hierarchy of associated lists and grids and typically preserves the state of that hierarchy while the app is running. Tab bars are frequently found at the bottom of iOS screens and, more frequently, at or near the top of Android and Windows Phone screens, as shown in Figure 19-18.
 
-![](images/abfe82b0d5e66698ca66611e9660aba9eee2a656bcb460b9faf6fc7bedebae4e.jpg)
+![](images/abfe82b0d5e66698ca66611e9660aba9eee2a656bcb460b9faf6fc7bedebae4e.webp)
 
-![](images/df462fae2823183a2bc5e507290f550732d12571223030883f9b13b2b0cb101c.jpg)  
+![](images/df462fae2823183a2bc5e507290f550732d12571223030883f9b13b2b0cb101c.webp)  
 Figure 19-18: Use of tab bars in iOS, Android, and Windows Phone. iOS tab bars typically are at the bottom of the screen, and Android tab bars generally form a secondary navigation beneath a nav bar (or action bar, in Android terms). Windows Phone uses a tab bar that is purely textual, without rendering a bar rectangle.
 
 Some tablet apps use vertical tab bars aligned to the left edge of the screen. Spotify and Twitter currently use this tab bar variant in their iOS tablet apps, as shown in Figure 19-19.
 
-![](images/d9258d84293ff2a9b0bb90ab8172983e92eff49fa0357f34b05c266982838011.jpg)
+![](images/d9258d84293ff2a9b0bb90ab8172983e92eff49fa0357f34b05c266982838011.webp)
 
-![](images/1e72f3a84ff59579fa8ac1956421eac94c7342498a9f46706f39af063374038a.jpg)  
+![](images/1e72f3a84ff59579fa8ac1956421eac94c7342498a9f46706f39af063374038a.webp)  
 Figure 19-19: Twitter and Spotify use vertical tab bars in their tablet apps. They use buttons containing both icons and text for clarity, which works well given the large amount of vertical space available.
 
 # More... controls
 
 The narrow aspect ratio of most handheld screens, as well as the need to provide fingertip-sized hit areas, limits the practical number of controls that can live in a bar to no more than about five. Both iOS and Android deal with this limitation using two strategies.
 
-![](images/aeb30d52e456dd3599d3c029ea8cb7e1b884682d354538b490ced165551207b3.jpg)
+![](images/aeb30d52e456dd3599d3c029ea8cb7e1b884682d354538b490ced165551207b3.webp)
 
-![](images/8834dc88f01b86380f50553c5e555ef4ba51cf0d3058a6c829747d935f84d418.jpg)
+![](images/8834dc88f01b86380f50553c5e555ef4ba51cf0d3058a6c829747d935f84d418.webp)
 
-![](images/9f6999f224d00d72b702a394a2eb15832fcae24b1f5a5e2dc331eb47aefaeb01.jpg)  
+![](images/9f6999f224d00d72b702a394a2eb15832fcae24b1f5a5e2dc331eb47aefaeb01.webp)  
 Figure 19-20: More... controls in iOS's Music app (left), and Rdio (right). Rdio's More... control launches a modal pop-up that allows genre selection of radio stations.
 
 The More... control, shown in Figure 19-20, is a tab bar or action bar control that gets around the limited screen real estate of mobile apps. In iOS this is usually a tab that shows a screen of additional navigation options. It often has an edit mode that allows the user to drag an option from that screen onto the bar, which swaps the dragged option with the one occupying the slot in the bar that the new option was dropped on. In Android, a More... control lives on the right side of the action menu (see the section on nav and action bars later in this chapter) and opens a pop-up menu of additional navigation options or (more typically) functions. Some iOS apps, such as the Rdio streaming music app for iPhone, use a similar idiom in the upper right of the screen as a way to select additional options via a full-screen modal pop-up.
@@ -289,7 +289,7 @@ The More... control, shown in Figure 19-20, is a tab bar or action bar control t
 
 A different approach to the same problem that the More... control addresses is the tab carousel, which elegantly marries the concept of tabs with that of horizontally swipable carousel. Tabs are shown in the tab bar as usual but extend off the edges of the screen. The selected tab is centered or otherwise highlighted in the tab bar. Tapping another tab selects it. Swiping the tab bar (and, in some cases, the view it controls) selects the adjacent tab on the left or right and slides the contents into view, as shown in Figure 19-21.
 
-![](images/d6345335a78c892b8702ed996b8ae262654023332e48b1dc91f9730ad4d1dcbb.jpg)  
+![](images/d6345335a78c892b8702ed996b8ae262654023332e48b1dc91f9730ad4d1dcbb.webp)  
 Figure 19-21: Spotify's iPhone app uses a tab carousel in its Your Music section, which is accessed via its main navigation drawer.
 
 As with other carousel views, it is important that at least one tab label is initially shown extending off the edge of the screen, to provide the hint of scrollability in the tab bar. Windows Phone uses a variant of the tab carousel as a primary navigation mechanism in its apps. The tab bar is not rendered, but purely textual tabs are employed (see Figure 19-18).
@@ -298,11 +298,11 @@ As with other carousel views, it is important that at least one tab label is ini
 
 Nav bars, located at the top of the screen, provide a way to navigate a list or grid hierarchy, as shown in Figure 19-22. Typically they contain at the very least a back button on the left and the title of the current list, grid, or other type of content screen in the center. Android calls this set of controls an action bar. Frequently, function menus or buttons are included on the right.
 
-![](images/1920e7d097a22ede02e19152e2a0280c39cc014e3dc49a29ee26925779ab97e6.jpg)
+![](images/1920e7d097a22ede02e19152e2a0280c39cc014e3dc49a29ee26925779ab97e6.webp)
 
-![](images/c42978e6a50676d0b26c4dc5d548a47f57a7ba00583ceb88e83bd71b53fbe7d7.jpg)
+![](images/c42978e6a50676d0b26c4dc5d548a47f57a7ba00583ceb88e83bd71b53fbe7d7.webp)
 
-![](images/990f0e191fe5a37366482630271079b9bbbd1f0dae05614012c0325d28a8ce56.jpg)  
+![](images/990f0e191fe5a37366482630271079b9bbbd1f0dae05614012c0325d28a8ce56.webp)  
 Figure 19-22: Use of nav bars in iOS (left), Android (center), and Windows phone (right). Android encourages an action bar at the top of the screen, which incorporates navigation and access to functions. Android and Windows Phone also makes use of a system-level nav bar at the bottom of the screen. Windows Phone's Metro design language discourages use of top nav bars.
 
 Most versions of Android (and Windows Phone, as of 8.1) have a system-level navigation bar at the bottom. It contains a back control (which takes the user to the previously viewed screen, regardless of app or hierarchy), a home control, and a "recents" control (Windows Phone also includes search). The presence of a ubiquitous bar at the bottom means that Android apps typically place most of their app navigation at the top of the screen.
@@ -327,12 +327,12 @@ On tablets, more-complex tool bars supporting pop-up control panels and palettes
 
 Just as carousel have crossbred with tab bars, they have also combined with tool bars, allowing more functions than can comfortably fit across the screen to be accessible with a horizontal swipe. Tool carousel seem particularly popular with image processing apps such as Google's Snapseed, shown in Figure 19-24. Each item in the tool carousel is a labeled thumbnail that both describes and shows a small example of the filter or effect applied to an image. (In an ideal world, the image would be the one you were actually editing at the time, but scale can become an issue.)
 
-![](images/3c30df7f5285950c63e075e7742dca8333f3be9e4ed49400e63298ba48d7c522.jpg)  
+![](images/3c30df7f5285950c63e075e7742dca8333f3be9e4ed49400e63298ba48d7c522.webp)  
 Figure 19-23: The Art Studio app uses vertical tool bars as well as a desktop-like menu bar and sliders embedded in its bottom tool bar. Authoring tools like this begin to rival the complexity of desktop applications. The tablet screen becomes quite cluttered with this many controls, so Art Studio lets you hide them while working, similar to desktop design tools such as Adobe Photoshop.
 
-![](images/15b30bd50d5e946d875f413310d833f14ed3146bfa2b029a233ff6795fda0e17.jpg)
+![](images/15b30bd50d5e946d875f413310d833f14ed3146bfa2b029a233ff6795fda0e17.webp)
 
-![](images/8e27ced0bfdf7f335c8b6e7cb55ccc5f852d9adaeff980ea8b057a606858fda6.jpg)  
+![](images/8e27ced0bfdf7f335c8b6e7cb55ccc5f852d9adaeff980ea8b057a606858fda6.webp)  
 Figure 19-24: Google's Snapseed app uses a carousel to let you select the tool. After it is selected, the appropriate controls for the tool are shown, in some cases including a secondary tool carousel for choosing a specific setting.
 
 By stacking two bars, you can build a rather complex set of features in a way that tames the complexity. A tool bar lets you select the category of tool (effects, filters, adjustments), and a tool carousel contains items for each specific tool or variant in a category.
@@ -347,21 +347,21 @@ This isn't a good idea for a couple reasons. First, a row of text labels in a ba
 
 Drawers are a clever idiom that provides access to a vertical list of navigational elements similar to tabs. They use minimal screen real estate by hiding in a panel that lives in a layer under the main content area. The drawer icon is also called the hamburger menu icon due to its shape: three short, stacked lines. Tapping this icon—or, sometimes, swiping across the main content area—slides the content area horizontally to reveal the drawer under it. As with tabs, the current selection is highlighted. Tapping a drawer item simultaneously swaps what is displayed in the content area and snaps the drawer back shut. Items in the drawer are usually textual, but may have icons and other adornments. Additional controls may also live in the drawer. Google's Gmail app on the iPhone, shown in Figure 19-25, illustrates a typical use of the drawer idiom.
 
-![](images/347c5d95a8cb738de2fcaa0a135019707e533a978daf33cdbf9546d0f611d87d.jpg)  
+![](images/347c5d95a8cb738de2fcaa0a135019707e533a978daf33cdbf9546d0f611d87d.webp)  
 Figure 19-25: The Gmail app on the iPhone uses a drawer with additional navigation elements inside it. It's a little disconcerting that the account management UI slides down from the top while the settings UI slides up from the bottom (and takes up the full screen), even though both controls are next to each other in the drawer.
 
 # Secondary-action drawers
 
 Drawers can be used to replace a navigational tab bar or can be used to interact with a secondary set of objects in the app. Drawers usually slide open from the left, but not always. Some secondary actions are put in a drawer that deploys from the right. The current version of the Facebook app for the iPhone uses a set of fairly standard bottom tabs (including a More... tab) for its main navigation. It also offers a right-hand drawer that gives you access to a list of online friends for chatting, as shown in Figure 19-26.
 
-![](images/864d4c7a2b6de1e5ce01e887399848791a3d1cfd2ca45a511f3093b092493d9e.jpg)  
+![](images/864d4c7a2b6de1e5ce01e887399848791a3d1cfd2ca45a511f3093b092493d9e.webp)  
 Figure 19-26: The Facebook app on the iPhone uses a right-hand drawer to let you access online friends for chatting.
 
 # Double drawers
 
 Path, an intriguing timeline-based social networking app on iOS, has successfully opted to minimize its use of tab and tool bars in favor of idioms that take up less main screen real estate. The Path design, as shown in Figure 19-27, uses two drawers—a standard left-hand drawer for primary navigation between views, and a Facebook-like right-hand drawer for messaging friends. Path also uses a nonstandard but interesting tool menu control that fans open from the lower-left corner of the main content area when activated. Although it adds a tap to access these functions, the interaction is both clear and pleasing in its execution, and it allows the content area to shine.
 
-![](images/cb46ed199816ebbe6e9bc8ce65f80c0e255da312477de4a308a7239d0e9a5f2a.jpg)  
+![](images/cb46ed199816ebbe6e9bc8ce65f80c0e255da312477de4a308a7239d0e9a5f2a.webp)  
 Figure 19-27: The Path app on the iPhone uses both a standard left-hand drawer for primary navigation and a right-hand drawer for messaging friends. In addition, Path uses a nonstandard pop-up action menu that fans out from the lower-left corner of the main content area when tapped.
 
 # Item-level drawers
@@ -376,9 +376,9 @@ The Slacker streaming music app on iPhone, shown in Figure 19-28, provides a wor
 
 containing an info button. Tapping it takes the user to a detailed metadata screen. While this idea reduces UI clutter, its discoverability is low, because swiping individual grid items is a nonstandard interaction. Therefore, this type of interaction requires some explanation in a welcome or help UI, and even then it's questionable whether most users will find it.
 
-![](images/897f99c4a7e173f2cc34a4e0e4349c2e12ae12bd770266e0a9b968bc566a625b.jpg)
+![](images/897f99c4a7e173f2cc34a4e0e4349c2e12ae12bd770266e0a9b968bc566a625b.webp)
 
-![](images/f7c5811556a73176182a35d5e65e02a59303571bb9bad688b2f50ea3ef0ec422.jpg)  
+![](images/f7c5811556a73176182a35d5e65e02a59303571bb9bad688b2f50ea3ef0ec422.webp)  
 Figure 19-28: Slacker's streaming music app uses item-level drawers in both grid and list views to give access to an info button that takes users to a detailed metadata screen for the selected item. Although it is elegant in terms of avoiding clutter, its discoverability is low.
 
 # Drawer behaviors to avoid
@@ -399,7 +399,7 @@ Limit the number of animated screen transitions.
 
 Unlike Google's Gmail app, the Google+ app for iOS, shown in Figure 19-29, breaks drawer convention. It slides the drawer open on top of the main content area, rather than having the content area slide over to reveal the drawer underneath. This type of behavior usually is seen on tablets when an index pane of content is opened in portrait mode. It's puzzling why Google didn't stick with the more appropriate drawer idiom it was already using for its Gmail app.
 
-![](images/bfdb286d9e708bda11c261bec19c6fb453964d85ecb0e67c7f73da4b7d60c700.jpg)  
+![](images/bfdb286d9e708bda11c261bec19c6fb453964d85ecb0e67c7f73da4b7d60c700.webp)  
 Figure 19-29: The Google+ app breaks the drawer pattern by sliding it over the content area—more like a content index pane—instead of sliding away the content area to reveal the drawer's contents.
 
 # The drawer controversy
@@ -422,17 +422,17 @@ The iDraw app, shown in Figure 19-30, provides a good example tap-to-reveal: Tap
 
 Similarly, streaming video apps use the tap-to-reveal idiom for controls that normally are hidden during playback. Tapping anywhere on the video playback area of the YouTube app (see Figure 19-31) launches transport, volume, and other controls.
 
-![](images/2150359a3d4206bdff3f56e35247792abd0a61e524cad508706796667b1661f4.jpg)  
+![](images/2150359a3d4206bdff3f56e35247792abd0a61e524cad508706796667b1661f4.webp)  
 Figure 19-30: The iDraw app uses traditional desktop-style drag handles that appear when an object is tapped. An additive selection mode allows successive taps to select additional objects as a group.
 
-![](images/731935cc0b464ecba23f3c9a58ac8503bfbeb24a0a80b40d2316ff71cd630c31.jpg)  
+![](images/731935cc0b464ecba23f3c9a58ac8503bfbeb24a0a80b40d2316ff71cd630c31.webp)  
 Figure 19-31: YouTube makes its transport, volume, and other controls temporarily available as icons superimposed on the video display area when it is tapped. This design method helps eliminate clutter, but it must be discovered. Luckily, most mobile video apps use this idiom, and tapping the playback area isn't that much of a stretch discovery-wise.
 
 # Direct manipulation controls
 
 Some apps go to the next step of direct manipulation that touch-based screens permit—replacing cumbersome indirect-manipulation idioms such as sliders with gestures on the object being edited. The best of these, such as Google's Snapseed image editor, provide dynamic feedback hints that show roughly how the gestures will affect the object being edited. For instance, when you use the tilt-shift effect, tapping the image displays a center adjustment point, as well as sets of double lines indicating the effect's angle and transition interval (see Figure 19-32). The user can move the effect's center point, swipe horizontally to widen or narrow the transition area (also tracked by a thermometer-like display below), and twist his or her thumb and forefinger on the screen to change the angle of the effect. Although some discovery and learning are involved, it quickly becomes second nature and provides a tremendously immersive way of editing and correcting photos.
 
-![](images/3adef2cbe9056f39cc8cf30f5452d22facb5f73ff221f3ce0f6d15d9ec1f5992.jpg)  
+![](images/3adef2cbe9056f39cc8cf30f5452d22facb5f73ff221f3ce0f6d15d9ec1f5992.webp)  
 Figure 19-32: Snapseed provides innovative and highly immersive direct-manipulation tools for editing images, eliminating the need for the traditional banks of knobs and sliders that such interfaces usually entail. The price of this approach is a steeper discovery curve, but this disadvantage can be offset as Snapseed does—with one-time welcome/help screens for each tool.
 
 # Searching, sorting, and filtering
@@ -453,16 +453,16 @@ Of course, even with the best possible browse options, the user's need to search
 - Auto-complete—As the user types, displaying a list of popular options matching the entered letters can dramatically decrease keyboard time and user frustration.   
 - Tap-ahead—This is a refinement on top of auto-complete. Tap-ahead allows users to take any auto-completed term option the app provides as the result of auto-suggest, load it into the search box, and run a new auto-complete query. This might be overkill for some searches, but it is certainly useful for web searches and in more technical domains where precision of search terms might be important. The Google Search app uses tap-ahead, as shown in Figure 19-33.
 
-![](images/dd43c0d098f49441bed7877ce3555c053b92acbe3733c61710d7d7e0a07e46a9.jpg)
+![](images/dd43c0d098f49441bed7877ce3555c053b92acbe3733c61710d7d7e0a07e46a9.webp)
 
-![](images/7d7d9f45eb9806459a1fbe184973de55c397b1fe5665362601e67988473d6991.jpg)  
+![](images/7d7d9f45eb9806459a1fbe184973de55c397b1fe5665362601e67988473d6991.webp)  
 Figure 19-33: Google's Search app uses voice search and recent/frequent search suggestions (left), auto-complete (right), and tap-ahead (both).
 
 - Recent/frequent searches—Humans are creatures of habit who typically search for the same things repeatedly. Any search functionality should remember past searches and present them as soon as the user taps the search box. Ideally these results should be organized in order of most frequent and most recent. They also should support tap-ahead so that they can be used to start a related search if desired, as the Google Search app does.   
 - Auto-suggest—A more sophisticated improvement on strict auto-complete, autosuggest uses fuzzy matching techniques to provide spell-corrected, controlled-vocabulary, and synonym options in its option list. Typically, auto-suggest options include a small set of strict auto-complete options at the top, with a larger set of suggested results beneath.   
 - Categorized suggestions—Building on auto-suggest, an app that needs to search across several types of data can provide suggested options in each category. iOS's Spotlight search, shown in Figure 19-34, does this well. It provides instantaneous categorized suggestions (with thumbnail images where appropriate) pulled from apps, contacts, music, videos, mail, messages, calendar, notes, reminders, and more.
 
-![](images/6078acac8058ee8970d7b02f98637d699b6daaa1887f4fe318098b37ffd84261.jpg)  
+![](images/6078acac8058ee8970d7b02f98637d699b6daaa1887f4fe318098b37ffd84261.webp)  
 Figure 19-34: iOS's Spotlight search uses voice search, auto-suggest, and categorized suggestions.
 
 # Sorting and filtering
@@ -473,9 +473,9 @@ Amazon's iPhone app, shown in Figure 19-35, has a straightforward search that re
 
 this is good so far. But the refine UI infuriatingly forces you to choose a department before you can even see a sort by option (or any other filter options) and takes you back to the results page before you can choose it! The consequence is that users may not even realize that additional sort and filter options are available.
 
-![](images/c829b5e3ec78e749f04dec6cef76a3e2c1f50c252d051dd731ab5e669f384180.jpg)
+![](images/c829b5e3ec78e749f04dec6cef76a3e2c1f50c252d051dd731ab5e669f384180.webp)
 
-![](images/fc2e0885d6b0aff9c2099e0767f34380f9f609a72efe4d79310bf32d433fd5e2.jpg)  
+![](images/fc2e0885d6b0aff9c2099e0767f34380f9f609a72efe4d79310bf32d433fd5e2.webp)  
 Figure 19-35: Amazon's iPhone app fails users by allowing them to choose only one refinement option at a time and by hiding most refinement options until a department filter is selected. Undoubtedly this is due to a database integration issue on Amazon's back end, but it is Amazon's customers who suffer.
 
 The OpenTable app, shown in Figure 19-36, takes a better approach for users. The search portion of the interface has appropriate filters for a restaurant reservation app built in: time and location, as well as the expected keyword search for restaurants. Both time and location are also sensibly prepopulated. Search refinement options are clear and simple, with the most important at the top, and more fussy criteria collapsed at the bottom. The only faux pas OpenTable makes is placing its filter control behind a somewhat obscure icon in the lower right of the screen, where people are almost sure to miss it.
@@ -484,16 +484,16 @@ Yelp takes a no-nonsense approach to refinement in its app, with a prominent Ref
 
 Yelp and Amazon both get another detail right: Filtered results are indicated by a narrow filter bar anchored to the top of the results view. This bar contains a terse textual summary of all current filters on the results. A nice addition to this interface would be the ability to swipe horizontally to see a full list of active filters (the list is truncated in the Yelp interface). Another advantage would be the ability to tap to toggle the filters on and off without needing to return to the refine screen.
 
-![](images/3a766289cb2b218b4809917573e956fbfa0b5237f7baa39bbbabf203c6d410c0.jpg)
+![](images/3a766289cb2b218b4809917573e956fbfa0b5237f7baa39bbbabf203c6d410c0.webp)
 
-![](images/f889230ef2aa61d2198c1e303046b797e571c018011870614d0f7d2249a937f5.jpg)
+![](images/f889230ef2aa61d2198c1e303046b797e571c018011870614d0f7d2249a937f5.webp)
 
-![](images/7aa90e80819149ecaf3533658f828f1d39612053ae7ad6af65c8fbfb7a0f6035.jpg)  
+![](images/7aa90e80819149ecaf3533658f828f1d39612053ae7ad6af65c8fbfb7a0f6035.webp)  
 Figure 19-36: OpenTable's app does a great job searching (left) and filtering (right), except for the filter control placement (center). It's almost invisible in the lower right of the screen, especially since it disappears entirely when you scroll down (though it does come back when you scroll up).
 
-![](images/6c15533f90f4180514316c5f1e4073476a6a564dc0d2f744eb67b9a33131bce6.jpg)
+![](images/6c15533f90f4180514316c5f1e4073476a6a564dc0d2f744eb67b9a33131bce6.webp)
 
-![](images/cfd88a2c3f23096eeb6cdbaafc5ca50ccfa7b1cbbbbe5bda8a9446749c721380.jpg)  
+![](images/cfd88a2c3f23096eeb6cdbaafc5ca50ccfa7b1cbbbbe5bda8a9446749c721380.webp)  
 Figure 19-37: The Yelp app gets searching and filtering right. A clearly labeled Filter button is at the top left of the results screen (left), and a full-screen modal pop-up appropriately mixes filter and sort criteria (right). The results screen also shows a narrow filter bar identifying which filters have been set (left).
 
 # Welcome and help screens
@@ -618,11 +618,11 @@ Similarly, when an incoming call arrives, the phone could check your location (s
 
 It's unfortunate that phone manufacturers haven't yet applied this kind of integration to the core suite of phone apps. However, some clever apps like IFTTT (If This Then That) do allow apps that participate in their service to be wired together with customizable rules that allow for some level of app integration (see Figure 19-38).
 
-![](images/f9f2094a6fdcf37faf26612626a9f828f8b938bf072b0417a017b26db012fd6e.jpg)  
+![](images/f9f2094a6fdcf37faf26612626a9f828f8b938bf072b0417a017b26db012fd6e.webp)  
 Figure 19-38: The IFTTT app lets users wire together apps by allowing them to specify output and input triggers, effectively allowing simple app integration.
 
 For music production, Audiobus (see Figure 19-39) is an integration-oriented iOS app that allows other compatible iOS audio applications to route multiple input audio streams to multiple audio outputs. This effectively allows an entire virtual recording studio to exist within an iPhone or iPad.
 
-![](images/4af9db521bd60ed443569cc73b5bc2343c8ce7111c0f929ccecafaba1f5db04d.jpg)  
+![](images/4af9db521bd60ed443569cc73b5bc2343c8ce7111c0f929ccecafaba1f5db04d.webp)  
 Figure 19-39: The Audiobus app allows users to chain together the audio streams from compatible running apps. Doing so supports input, output, and effects, allowing an entire virtual recording studio to exist within an iPad.
 

@@ -7,9 +7,9 @@ For example, instead of containing a card entirely within another
 element, offset it so it crosses the transition between two different
 backgrounds:
 
-![](images/index-195_1.png)
+![](images/index-195_1.webp)
 
-![](images/index-195_2.png)
+![](images/index-195_2.webp)
 
 195
 
@@ -25,9 +25,9 @@ example the controls on this carousel:
 
 This technique can work great with images as well, but without special
 
-![](images/index-196_1.png)
+![](images/index-196_1.webp)
 
-![](images/index-196_2.png)
+![](images/index-196_2.webp)
 
 Overlap elements to create layers
 

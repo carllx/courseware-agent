@@ -31,16 +31,16 @@ status: done
 - **少即是多 (Less is more)**
   减少界面元素的同时不应降低产品能力。应避免功能孤岛，使相关任务可以一站式完成（优雅设计）。
   - *教材经典锚点*：经典的 Google 搜索界面（Figure 11-1）和苹果 iPod Shuffle。
-  ![](../public/textbook/Fig_B01_11-1.jpg)
+  ![](../public/textbook/Fig_B01_11-1.webp)
 
 - **让用户指挥而非讨论 (Let users direct rather than discuss)**
   用户希望像使用工具（驾驶汽车或挥舞锤子）一样使用软件，而不是与软件进行“双向对话”。采用直接操纵，而非弹出对话框对用户进行指责。
-  ![](../public/textbook/Fig_B01_11-2.jpg)
+  ![](../public/textbook/Fig_B01_11-2.webp)
 
 - **提供选择而非提出问题 (Provide choices rather than ask questions)**
   对话框是提出问题、要求回答且阻断流程的；而工具栏和面板则是安静地提供选择。
   - *教材经典锚点*：想象如果必须通过点击对话框里的按钮来驾驶汽车，就会体会到普通用户对软件弹窗的真实感受。
-  ![](../public/textbook/Fig_B01_11-3.jpg)
+  ![](../public/textbook/Fig_B01_11-3.webp)
 
 - **保持常用工具触手可及 (Keep necessary tools close at hand)**
   将工具以可见的方式置于面板或工具栏上，方便用户一键调用，无需分散注意力去寻找，以免打断心流。
@@ -48,23 +48,23 @@ status: done
 - **提供无模式化反馈 (Provide modeless feedback)**
   应用程序必须清晰展示操作进度与状态，但不能阻断正常流程。
   - *教材经典锚点*：Word 2010 底部的状态栏（Figure 11-4），以及战斗机的平视显示器（HUD）。
-  ![](../public/textbook/Fig_B01_11-4a.jpg)
-  ![](../public/textbook/Fig_B01_11-4b.jpg)
+  ![](../public/textbook/Fig_B01_11-4a.webp)
+  ![](../public/textbook/Fig_B01_11-4b.webp)
 
 - **为可能发生的情况设计，但要预料到潜在的可能性 (Design for the probable but anticipate the possible)**
   不要像对待高频的“概率(probable)”事件那样对待百万分之一的“可能性(possible)”。不要为了极小概率的例外去频繁中断心流。
   - *教材经典锚点*：丢弃6小时工作成果的概率极低，因此频繁弹出“确认保存”对话框是极其多余的。
-  ![](../public/textbook/Fig_B01_11-5.jpg)
+  ![](../public/textbook/Fig_B01_11-5.webp)
 
 - **信息的情境化 (Contextualize information)**
   对于定量信息，应展示相对比例而非单纯的干瘪数字。回应“和什么相比？(Compared to what?)”。
   - *教材经典锚点*：用饼图展示磁盘空间占用，比精确到字节数的原始报告更具直观意义。
-  ![](../public/textbook/Fig_B01_11-6.jpg)
+  ![](../public/textbook/Fig_B01_11-6.webp)
 
 - **反映对象与应用的状态 (Reflect object and application status)**
   软件应当传达其当前的空闲、忙碌等状态。
   - *教材经典锚点*：工业机器人 Baxter 能够通过其屏幕脸部的表情来传达状态。
-  ![](../public/textbook/Fig_B01_11-7.jpg)
+  ![](../public/textbook/Fig_B01_11-7.webp)
 
 - **避免不必要的报告 (Avoid unnecessary reporting)**
   对于软件底层的正常运转，无需向用户详细报告。将打扰留给“例外事件”，常态下应保持安静或只给出无模式化的状态指示。
@@ -73,13 +73,13 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 11-1 | 经典的 Google 搜索界面（极简主义典范） | `../public/textbook/Fig_B01_11-1.jpg` | ✅ 已迁移 |
-| Fig 11-2 | 对话框指责用户（负面案例：避免让机器教训人） | `../public/textbook/Fig_B01_11-2.jpg` | ✅ 已迁移 |
-| Fig 11-3 | 通过对话框驾驶汽车（负面隐喻） | `../public/textbook/Fig_B01_11-3.jpg` | ✅ 已迁移 |
-| Fig 11-4 | Word 2010 状态栏（无模式化反馈示例） | `../public/textbook/Fig_B01_11-4a.jpg` | ✅ 已迁移 |
-| Fig 11-5 | 不必要的保存确认对话框 | `../public/textbook/Fig_B01_11-5.jpg` | ✅ 已迁移 |
-| Fig 11-6 | Windows 3.0 文件管理器精确字节数（缺乏情境） | `../public/textbook/Fig_B01_11-6.jpg` | ✅ 已迁移 |
-| Fig 11-7 | Baxter 工业机器人（通过表情传递状态） | `../public/textbook/Fig_B01_11-7.jpg` | ✅ 已迁移 |
+| Fig 11-1 | 经典的 Google 搜索界面（极简主义典范） | `../public/textbook/Fig_B01_11-1.webp` | ✅ 已迁移 |
+| Fig 11-2 | 对话框指责用户（负面案例：避免让机器教训人） | `../public/textbook/Fig_B01_11-2.webp` | ✅ 已迁移 |
+| Fig 11-3 | 通过对话框驾驶汽车（负面隐喻） | `../public/textbook/Fig_B01_11-3.webp` | ✅ 已迁移 |
+| Fig 11-4 | Word 2010 状态栏（无模式化反馈示例） | `../public/textbook/Fig_B01_11-4a.webp` | ✅ 已迁移 |
+| Fig 11-5 | 不必要的保存确认对话框 | `../public/textbook/Fig_B01_11-5.webp` | ✅ 已迁移 |
+| Fig 11-6 | Windows 3.0 文件管理器精确字节数（缺乏情境） | `../public/textbook/Fig_B01_11-6.webp` | ✅ 已迁移 |
+| Fig 11-7 | Baxter 工业机器人（通过表情传递状态） | `../public/textbook/Fig_B01_11-7.webp` | ✅ 已迁移 |
 
 ## 易混淆概念辨析
 

@@ -381,14 +381,14 @@ sometimes see such tags written in *self-closing* fashion, with a
 trailing slash before the closing angle bracket:
 
 ``` calibre39
-<img src="photo.jpg" />
+<img src="photo.webp" />
 ```
 
 As of HTML5, the self-closing slash is optional, so the following code
 is equivalent to the preceding code:
 
 ``` calibre39
-<img src="photo.jpg">
+<img src="photo.webp">
 ```
 
 </div>
@@ -495,7 +495,7 @@ data-type="xref">Figure 3-1</a>.
 <div id="ch03.xhtml_Typical_default_rendering_of_simple_HTML"
 class="figure">
 <img
-src="images/ff2a5a09c1588fa018543bfa89e46d397f5697f10aafdd86ff674904672a93e4.png"
+src="images/ff2a5a09c1588fa018543bfa89e46d397f5697f10aafdd86ff674904672a93e4.webp"
 class="calibre44" alt="dvw2 0301" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-1.
 </span>Typical default rendering of simple HTML</h6>
@@ -788,7 +788,7 @@ whatever browser you choose.
 <figure class="calibre35">
 <div id="ch03.xhtml_plain_source_view_window" class="figure">
 <img
-src="images/61f5d7dc21036558032968e2764dcc3695340d9a631280d3addd8b5b237f775e.png"
+src="images/61f5d7dc21036558032968e2764dcc3695340d9a631280d3addd8b5b237f775e.webp"
 class="calibre45" alt="dvw2 0302" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-2.
 </span>Looking at the source code in a new window in Chrome</h6>
@@ -826,7 +826,7 @@ inspector, you can watch elements as they change.
 <figure class="calibre35">
 <div id="ch03.xhtml_Safari_web_inspector" class="figure">
 <img
-src="images/ab2978a0998d16ee5e3ae671061e22e101e263cd278a4c455101b77678a57664.png"
+src="images/ab2978a0998d16ee5e3ae671061e22e101e263cd278a4c455101b77678a57664.webp"
 class="calibre46" alt="dvw2 0303" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-3.
 </span>Chrome’s web inspector</h6>
@@ -896,7 +896,7 @@ data-type="xref">Figure 3-4</a>.
 <div id="ch03.xhtml_Inspector_with_element_box_highlighted"
 class="figure">
 <img
-src="images/0912b2c6f3a71325c114b36ea76dceff6ba4ad0856142aba3de2f821ad03cf58.png"
+src="images/0912b2c6f3a71325c114b36ea76dceff6ba4ad0856142aba3de2f821ad03cf58.webp"
 class="calibre47" alt="dvw2 0304" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-4.
 </span>Inspector with element box highlighted</h6>
@@ -1249,7 +1249,7 @@ data-type="xref">Figure 3-5</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_Rendering_of_an_embedded_CSS_rule" class="figure">
 <img
-src="images/a86412ea03532caa18a9ba60ba4ef27adc9278ae744ef612015f12430fcbe226.png"
+src="images/a86412ea03532caa18a9ba60ba4ef27adc9278ae744ef612015f12430fcbe226.webp"
 class="calibre48" alt="dvw2 0305" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-5.
 </span>Rendering of an embedded CSS rule</h6>
@@ -1321,7 +1321,7 @@ are kind of a hassle</p>
 <figure class="calibre35">
 <div id="ch03.xhtml_Rendering_of_an_inline_CSS_rule" class="figure">
 <img
-src="images/0ac3d59b1f77e3fd02d020b67b2a1054e50f54ae3b010d325640e8e282b215e4.png"
+src="images/0ac3d59b1f77e3fd02d020b67b2a1054e50f54ae3b010d325640e8e282b215e4.webp"
 class="calibre49" alt="dvw2 0306" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-6.
 </span>Rendering of an inline CSS rule</h6>
@@ -1396,7 +1396,7 @@ though we never specified `p { color: white; }`.
 <figure class="calibre35">
 <div id="ch03.xhtml_Inherited_style" class="figure">
 <img
-src="images/e3e541c12406543dcac400c70cb57b6684f9e943fb23e5a1b345b675728542ca.png"
+src="images/e3e541c12406543dcac400c70cb57b6684f9e943fb23e5a1b345b675728542ca.webp"
 class="calibre50" alt="dvw2 0307" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-7.
 </span>Inherited style</h6>
@@ -1441,7 +1441,7 @@ p.highlight {
 <div id="ch03.xhtml_CSS_cascading_and_inheritance_at_work"
 class="figure">
 <img
-src="images/0ff69d13878853386fddfbebae48a51380365114f518513a29738017509427f2.png"
+src="images/0ff69d13878853386fddfbebae48a51380365114f518513a29738017509427f2.webp"
 class="calibre51" alt="dvw2 0308" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-8. </span>CSS
 cascading and inheritance at work</h6>
@@ -1513,7 +1513,7 @@ data-type="xref">Figure 3-9</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_A_fresh_JavaScript_console" class="figure">
 <img
-src="images/df6c4edf586061cdc2a0ede5132d31b97a18587c04a5d6dbc993f82552180a1e.png"
+src="images/df6c4edf586061cdc2a0ede5132d31b97a18587c04a5d6dbc993f82552180a1e.webp"
 class="calibre52" alt="dvw2 0309" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-9. </span>A
 fresh JavaScript console…delicious!</h6>
@@ -2736,7 +2736,7 @@ data-type="xref">Figure 3-10</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_The_global_namespace" class="figure">
 <img
-src="images/1d5d2411859a4883177ec99abedf0474948c5b528796e7d127fc0126718f1bd4.png"
+src="images/1d5d2411859a4883177ec99abedf0474948c5b528796e7d127fc0126718f1bd4.webp"
 class="calibre46" alt="dvw2 0310" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-10.
 </span>The global namespace</h6>
@@ -2765,7 +2765,7 @@ data-type="xref">Figure 3-11</a>.
 <div id="ch03.xhtml_The_global_namespace_now_with_zebras"
 class="figure">
 <img
-src="images/73fd2fa52ca1b52d357a0fdeeb7e2fef3bc85c5996bbce9bd182a59ac29b3eac.png"
+src="images/73fd2fa52ca1b52d357a0fdeeb7e2fef3bc85c5996bbce9bd182a59ac29b3eac.webp"
 class="calibre46" alt="dvw2 0311" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-11.
 </span>The global namespace, now with zebras</h6>
@@ -2863,7 +2863,7 @@ follows.
 <figure class="calibre35">
 <div id="ch03.xhtml_A_small_SVG_circle" class="figure">
 <img
-src="images/5509e8283b61836fa33511637f13041f0309a2affe76fcfc859344621fba59a1.png"
+src="images/5509e8283b61836fa33511637f13041f0309a2affe76fcfc859344621fba59a1.webp"
 class="calibre64" alt="dvw2 0312" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-12. </span>A
 small SVG circle with a stroke applied</h6>
@@ -2963,7 +2963,7 @@ data-type="xref">Figure 3-13</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_The_SVG_coordinates_system" class="figure">
 <img
-src="images/8f7c92db6cc30d243d7926d5937d6654dcd7a3cf6dbb4875a40d851e95931fd9.png"
+src="images/8f7c92db6cc30d243d7926d5937d6654dcd7a3cf6dbb4875a40d851e95931fd9.webp"
 class="calibre65" alt="dvw2 0313" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-13.
 </span>The SVG coordinates system</h6>
@@ -2984,7 +2984,7 @@ data-type="xref">Figure 3-14</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_rect" class="figure">
 <img
-src="images/9d7b1b90799b96b07949910ab600e11558c0150ab973e45501a013aa85298069.png"
+src="images/9d7b1b90799b96b07949910ab600e11558c0150ab973e45501a013aa85298069.webp"
 class="calibre66" alt="dvw2 0314" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-14. </span>An
 SVG rect</h6>
@@ -3005,7 +3005,7 @@ data-type="xref">Figure 3-15</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_circle" class="figure">
 <img
-src="images/61d24383e3257d8834c872f5dff8db024501c9740484b693f67250efe3f42685.png"
+src="images/61d24383e3257d8834c872f5dff8db024501c9740484b693f67250efe3f42685.webp"
 class="calibre64" alt="dvw2 0315" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-15. </span>An
 SVG circle</h6>
@@ -3025,7 +3025,7 @@ data-type="xref">Figure 3-16</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_ellipse" class="figure">
 <img
-src="images/986c174bda14d8c4664c4488561b2690d75fb7f79377e6ad3c22e839d3c61e16.png"
+src="images/986c174bda14d8c4664c4488561b2690d75fb7f79377e6ad3c22e839d3c61e16.webp"
 class="calibre67" alt="dvw2 0316" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-16. </span>An
 SVG ellipse</h6>
@@ -3046,7 +3046,7 @@ line to be visible:
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_line" class="figure">
 <img
-src="images/9abaaec5b6122c1edf32b8786da44388ccfe9d24edc23ad78bec09162706549c.png"
+src="images/9abaaec5b6122c1edf32b8786da44388ccfe9d24edc23ad78bec09162706549c.webp"
 class="calibre66" alt="dvw2 0317" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-17. </span>An
 SVG line</h6>
@@ -3069,7 +3069,7 @@ data-type="xref">Figure 3-18</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_SVG_text" class="figure">
 <img
-src="images/3a2f7eb44042925dd3ce53654eb1d6ffc1925e19200da5d18c741acdc22c5efd.png"
+src="images/3a2f7eb44042925dd3ce53654eb1d6ffc1925e19200da5d18c741acdc22c5efd.webp"
 class="calibre66" alt="dvw2 0318" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-18.
 </span>SVG text</h6>
@@ -3091,7 +3091,7 @@ data-type="xref">Figure 3-19</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_More_SVG_text" class="figure">
 <img
-src="images/2a898bf58313d3a52aa28663c37035488296022eaedd113a79ac76ea5ce0d742.png"
+src="images/2a898bf58313d3a52aa28663c37035488296022eaedd113a79ac76ea5ce0d742.webp"
 class="calibre66" alt="dvw2 0319" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-19.
 </span>More SVG text</h6>
@@ -3114,7 +3114,7 @@ the same as the height of our SVG:
 <figure class="calibre35">
 <div id="ch03.xhtml_Even_More_SVG_text" class="figure">
 <img
-src="images/98097464940c53bebf166601809642f1858ade8c6e3be8a15845cedb6a0e5ceb.png"
+src="images/98097464940c53bebf166601809642f1858ade8c6e3be8a15845cedb6a0e5ceb.webp"
 class="calibre66" alt="dvw2 0320" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-20.
 </span>Clipped SVG text</h6>
@@ -3185,7 +3185,7 @@ data-type="xref">Figure 3-21</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_circle2" class="figure">
 <img
-src="images/83ecbd9bc6e5d5cdb7207b63a07edeb1c941293d992cb743e3ca6b458dad6b42.png"
+src="images/83ecbd9bc6e5d5cdb7207b63a07edeb1c941293d992cb743e3ca6b458dad6b42.webp"
 class="calibre68" alt="dvw2 0321" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-21. </span>An
 SVG circle with style properties applied</h6>
@@ -3284,7 +3284,7 @@ top” of the purple one, then the green square on top of that, and so on.
 <figure class="calibre35">
 <div id="ch03.xhtml_Overlapping_SVG_elements" class="figure">
 <img
-src="images/4942fd37c5f46d22fa528629e84aa9fdf4fc90184b1909409cc98b72119111e7.png"
+src="images/4942fd37c5f46d22fa528629e84aa9fdf4fc90184b1909409cc98b72119111e7.webp"
 class="calibre69" alt="dvw2 0322" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-22.
 </span>Overlapping SVG elements</h6>
@@ -3342,7 +3342,7 @@ green, and blue, plus an alpha (transparency) value between 0.0 and 1.0:
 <figure class="calibre35">
 <div id="ch03.xhtml_RGBA_SVG_shapes" class="figure">
 <img
-src="images/ac5c35770e93ea1cd1e37f6bb1cbe3ef71293455326fc499e3fd7b68851d0d04.png"
+src="images/ac5c35770e93ea1cd1e37f6bb1cbe3ef71293455326fc499e3fd7b68851d0d04.webp"
 class="calibre70" alt="dvw2 0323" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-23.
 </span>RGBA SVG shapes</h6>
@@ -3374,7 +3374,7 @@ like two separate `5px` strokes.
 <figure class="calibre35">
 <div id="ch03.xhtml_More_RGBA_SVG_shapes" class="figure">
 <img
-src="images/8012f300dff60bc48bad7e6d85c97a47420981f4921e374aa815415eb11ea02e.png"
+src="images/8012f300dff60bc48bad7e6d85c97a47420981f4921e374aa815415eb11ea02e.webp"
 class="calibre71" alt="dvw2 0324" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-24.
 </span>More RGBA SVG shapes</h6>
@@ -3390,7 +3390,7 @@ circles.
 <figure class="calibre35">
 <div id="ch03.xhtml_Opaque_circles" class="figure">
 <img
-src="images/bdcc753dcfa76635c55e02a86091b8b1c9d531cee411c9d7469b5962b0211a02.png"
+src="images/bdcc753dcfa76635c55e02a86091b8b1c9d531cee411c9d7469b5962b0211a02.webp"
 class="calibre72" alt="dvw2 0325" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-25.
 </span>Opaque circles</h6>
@@ -3414,7 +3414,7 @@ values:
 <figure class="calibre35">
 <div id="ch03.xhtml_Semiopaque_circles" class="figure">
 <img
-src="images/740187c34fab8498bcb72b3ee6f3ed1580815b0188cb6f39fcd873460cc1db09.png"
+src="images/740187c34fab8498bcb72b3ee6f3ed1580815b0188cb6f39fcd873460cc1db09.webp"
 class="calibre73" alt="dvw2 0326" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-26.
 </span>Semiopaque circles</h6>
@@ -3441,7 +3441,7 @@ two do:
 <figure class="calibre35">
 <div id="ch03.xhtml_More_opaque_circles" class="figure">
 <img
-src="images/1b71e8e1152c9117cd1503cf1617787e927abc31ea0887e40619510cf5970a44.png"
+src="images/1b71e8e1152c9117cd1503cf1617787e927abc31ea0887e40619510cf5970a44.webp"
 class="calibre74" alt="dvw2 0327" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-27.
 </span>More opaque circles</h6>

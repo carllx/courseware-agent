@@ -13,8 +13,8 @@
   search_queries:
   - iPad photo
   - iPad real image
-  target_path: ../public/slides/W04-01c-JTBD-Deep-Dive_real.png
-  current_asset: ../public/slides/W04-01c-JTBD-Deep-Dive.png
+  target_path: ../public/slides/W04-01c-JTBD-Deep-Dive_real.webp
+  current_asset: ../public/slides/W04-01c-JTBD-Deep-Dive.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -34,7 +34,7 @@
   search_queries:
   - Lean UX photo
   - Lean UX real image
-  target_path: ../public/slides/W04-02b-Hypothesis-Templates_real.png
+  target_path: ../public/slides/W04-02b-Hypothesis-Templates_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -60,8 +60,8 @@
   - Lean UX real image
   - 精益 UX photo
   - 精益 UX real image
-  target_path: ../public/slides/W04-08b-Four-Module-Template_real.png
-  current_asset: ../public/textbook/Fig_7-3.png
+  target_path: ../public/slides/W04-08b-Four-Module-Template_real.webp
+  current_asset: ../public/textbook/Fig_7-3.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -85,8 +85,8 @@
   - Lean UX real image
   - UX Canvas photo
   - UX Canvas real image
-  target_path: ../public/slides/W04-16-Dissecting-Hypothesis_real.png
-  current_asset: ../public/slides/W04-16-Dissecting-Hypothesis.png
+  target_path: ../public/slides/W04-16-Dissecting-Hypothesis_real.webp
+  current_asset: ../public/slides/W04-16-Dissecting-Hypothesis.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -107,8 +107,8 @@
   search_queries:
   - Dropbox photo
   - Dropbox real image
-  target_path: ../public/slides/W04-23b-Landing-Page-MVP_real.png
-  current_asset: ../public/textbook/Fig_12-3.png
+  target_path: ../public/slides/W04-23b-Landing-Page-MVP_real.webp
+  current_asset: ../public/textbook/Fig_12-3.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -169,8 +169,8 @@
   search_queries:
   - 哲学视角 / 地图不等于疆域 historical photo
   - 哲学视角 / 地图不等于疆域 archive image
-  target_path: ../public/slides/W04-01-Philosophy-Map_real.png
-  current_asset: ../public/slides/W04-01-Philosophy-Map.png
+  target_path: ../public/slides/W04-01-Philosophy-Map_real.webp
+  current_asset: ../public/slides/W04-01-Philosophy-Map.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -189,8 +189,8 @@
   search_queries:
   - 最小成本实验的过滤 historical photo
   - 最小成本实验的过滤 archive image
-  target_path: ../public/slides/W04-05-The-Solution-Filter_real.png
-  current_asset: ../public/slides/W04-05-The-Solution-Filter.png
+  target_path: ../public/slides/W04-05-The-Solution-Filter_real.webp
+  current_asset: ../public/slides/W04-05-The-Solution-Filter.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -209,8 +209,8 @@
   search_queries:
   - 痛点存在 = 愿意买单？(香蕉切片机陷阱) historical photo
   - 痛点存在 = 愿意买单？(香蕉切片机陷阱) archive image
-  target_path: ../public/slides/W04-10b-Banana-Slicer_real.png
-  current_asset: ../public/textbook/Fig_7-4.png
+  target_path: ../public/slides/W04-10b-Banana-Slicer_real.webp
+  current_asset: ../public/textbook/Fig_7-4.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -229,8 +229,8 @@
   search_queries:
   - 传统敏捷陷阱 (Output Trap) historical photo
   - 传统敏捷陷阱 (Output Trap) archive image
-  target_path: ../public/slides/W04-14-Agile-Trap_real.png
-  current_asset: ../public/slides/W04-14-Agile-Trap.png
+  target_path: ../public/slides/W04-14-Agile-Trap_real.webp
+  current_asset: ../public/slides/W04-14-Agile-Trap.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -249,8 +249,8 @@
   search_queries:
   - Output vs Outcome (产出与结果) historical photo
   - Output vs Outcome (产出与结果) archive image
-  target_path: ../public/slides/W04-14b-Output-Vs-Outcome_real.png
-  current_asset: ../public/slides/W04-14b-Output-Vs-Outcome.png
+  target_path: ../public/slides/W04-14b-Output-Vs-Outcome_real.webp
+  current_asset: ../public/slides/W04-14b-Output-Vs-Outcome.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -275,7 +275,7 @@
   search_queries:
   - Lean UX photo
   - Lean UX real image
-  target_path: ../public/slides/M02_从假设到子弹_假设驱动设计_narr_L111_real.png
+  target_path: ../public/slides/M02_从假设到子弹_假设驱动设计_narr_L111_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -313,7 +313,7 @@
   - Drew Houston real image
   - Dropbox photo
   - Dropbox real image
-  target_path: ../public/slides/M04_MVP_最小可行「学习工具」_narr_L91_real.png
+  target_path: ../public/slides/M04_MVP_最小可行「学习工具」_narr_L91_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -334,8 +334,8 @@
   search_queries:
   - 下周预告与结语金句 historical photo
   - 下周预告与结语金句 archive image
-  target_path: ../public/slides/W04-25-Next-Steps_real.png
-  current_asset: ../public/slides/W04-25-Next-Steps.png
+  target_path: ../public/slides/W04-25-Next-Steps_real.webp
+  current_asset: ../public/slides/W04-25-Next-Steps.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -354,7 +354,7 @@
   search_queries:
   - 极尽拉踩对比 左侧是传统的“年龄、收入、婚姻状态”等人口学死板分类 标有红色❌； demonstration
   target_path: ../public/videos/W04-09-Demographic-Trap.webm
-  current_asset: ../public/slides/W04-09-Demographic-Trap.png
+  current_asset: ../public/slides/W04-09-Demographic-Trap.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -373,7 +373,7 @@
   search_queries:
   - 还原裂变活动的翻车场景 表面上是简单的代码逻辑（低技术风险） 背后是引发口碑下降 demonstration
   target_path: ../public/videos/W04-20c-Social-Friction-Risk.webm
-  current_asset: ../public/slides/W04-20c-Social-Friction-Risk.png
+  current_asset: ../public/slides/W04-20c-Social-Friction-Risk.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -393,8 +393,8 @@
   search_queries:
   - 交互产品开发 photo
   - 交互产品开发 real image
-  target_path: ../public/slides/W04-01-JTBD-Review_real.png
-  current_asset: ../public/slides/W04-01-JTBD-Review.png
+  target_path: ../public/slides/W04-01-JTBD-Review_real.webp
+  current_asset: ../public/slides/W04-01-JTBD-Review.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -414,8 +414,8 @@
   search_queries:
   - 年度用户画像市场调研报告 photo
   - 年度用户画像市场调研报告 real image
-  target_path: ../public/slides/W04-06-Persona-Death_real.png
-  current_asset: ../public/slides/W04-06-Persona-Death.png
+  target_path: ../public/slides/W04-06-Persona-Death_real.webp
+  current_asset: ../public/slides/W04-06-Persona-Death.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -435,8 +435,8 @@
   search_queries:
   - iPad photo
   - iPad real image
-  target_path: ../public/slides/W04-11-Three-Validations_real.png
-  current_asset: ../public/slides/W04-11-Three-Validations.png
+  target_path: ../public/slides/W04-11-Three-Validations_real.webp
+  current_asset: ../public/slides/W04-11-Three-Validations.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -456,8 +456,8 @@
   search_queries:
   - 绿野仙踪 photo
   - 绿野仙踪 real image
-  target_path: ../public/slides/W04-23d-Wizard-Of-Oz_real.png
-  current_asset: ../public/textbook/Fig_12-7.png
+  target_path: ../public/slides/W04-23d-Wizard-Of-Oz_real.webp
+  current_asset: ../public/textbook/Fig_12-7.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -477,8 +477,8 @@
   search_queries:
   - MVP Experiment photo
   - MVP Experiment real image
-  target_path: ../public/slides/W04-24-Summary-Pipeline_real.png
-  current_asset: ../public/slides/W04-24-Summary-Pipeline.png
+  target_path: ../public/slides/W04-24-Summary-Pipeline_real.webp
+  current_asset: ../public/slides/W04-24-Summary-Pipeline.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto

@@ -1,6 +1,6 @@
 **Leveling Up**
 
-![](images/index-250_1.png)
+![](images/index-250_1.webp)
 
 **Leveling up**
 
@@ -21,9 +21,9 @@ do?”*
 
 Maybe it’s the way they inverted the background color on a datepicker:
 
-![](images/index-251_1.png)
+![](images/index-251_1.webp)
 
-![](images/index-251_2.png)
+![](images/index-251_2.webp)
 
 251
 
@@ -41,7 +41,7 @@ great way to discover new ideas that you can apply to your own designs.
 The absolute best way to notice the little details that make a design
 look
 
-![](images/index-252_1.png)
+![](images/index-252_1.webp)
 
 Leveling up
 

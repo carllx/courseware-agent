@@ -1,6 +1,6 @@
 # Chapter 6. Box 2: Business Outcomes
 
-![](images/assets/lux3_0601.png)
+![](images/assets/lux3_0601.webp)
 
 ###### Figure 6-1. Box 2 of the Lean UX Canvas: Business Outcomes
 
@@ -117,7 +117,7 @@ metaphor.
 Instead of a funnel, we present Metrics Mountain
 ([Figure 6-2](#ch06.html_metrics_mountaindot_concept_by_jeff_pat)).
 
-![](images/assets/lux3_0602.png)
+![](images/assets/lux3_0602.webp)
 
 ###### Figure 6-2. Metrics Mountain. Concept by Jeff Patton and Jeff Gothelf.
 
@@ -227,7 +227,7 @@ Here’s how it works:
 At this point, your whiteboard should start to look like the map shown
 in [Figure 6-3](#ch06.html_outcome_to_impact_mapping):
 
-![](images/assets/lux3_0603.png)
+![](images/assets/lux3_0603.webp)
 
 ###### Figure 6-3. Outcome-to-impact mapping
 
@@ -281,7 +281,7 @@ Teams will often find that one outcome drives multiple impact metrics
 chart. Build the chart that works for your business and your team. Just
 don’t compromise the content of the exercise.
 
-![](images/assets/lux3_0604.png)
+![](images/assets/lux3_0604.webp)
 
 ###### Figure 6-4. Real world example of an outcome to impact map, courtesy of Delphine Sassi and the team at King
 

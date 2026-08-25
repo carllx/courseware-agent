@@ -17,11 +17,11 @@ they fit your needs.
 They’re vector images after all, so the quality isn’t going to suffer if
 you increase the size, right?
 
-![](images/index-209_1.png)
+![](images/index-209_1.webp)
 
-![](images/index-209_2.png)
+![](images/index-209_2.webp)
 
-![](images/index-209_3.png)
+![](images/index-209_3.webp)
 
 209
 
@@ -38,7 +38,7 @@ shape and giving the shape a background color:
 This lets you keep the actual icon closer to its intended size, while
 still filling the larger space.
 
-![](images/index-210_1.png)
+![](images/index-210_1.webp)
 
 Everything has an intended size
 
@@ -61,9 +61,9 @@ If you want to include a detailed screenshot in your design, take the
 screenshot at a smaller screen size *(like maybe your tablet layout)*
 and save a
 
-![](images/index-211_1.png)
+![](images/index-211_1.webp)
 
-![](images/index-211_2.png)
+![](images/index-211_2.webp)
 
 211
 
@@ -73,7 +73,7 @@ lot of space for it so you don’t have to shrink it as much: Or consider
 taking just a partial screenshot, so you can display it in less space
 without needing to scale it down:
 
-![](images/index-212_1.png)
+![](images/index-212_1.webp)
 
 Everything has an intended size
 
@@ -98,9 +98,9 @@ see next to the page title in a browser tab.
 If you try to shrink a logo drawn at 128px down to favicon size, it all
 turns to
 
-![](images/index-213_1.png)
+![](images/index-213_1.webp)
 
-![](images/index-213_2.png)
+![](images/index-213_2.webp)
 
 213
 
@@ -113,5 +113,5 @@ A better approach is to redraw a super simplified version of the logo at
 the target size, so you control the compromises instead of leaving it up
 to the browser:
 
-![](images/index-214_1.png)
+![](images/index-214_1.webp)
 

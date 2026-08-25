@@ -4,5 +4,5 @@ Axure RP 9在元件库中有很多可以选择使用的元件，下面介绍�
 
 微课视频
 
-![](images/EPUB/images/image_277.jpg)
+![](images/EPUB/images/image_277.webp)
 

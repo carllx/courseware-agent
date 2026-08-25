@@ -64,7 +64,7 @@ terms of how it looks and works. Many have been designed with a diz
 In contrast, much effort and thought went into the design of the classic TiVo remote control with the viewer in mind (see Figure 1.1). TiVo is a digital video recorder that was originally developed to enable the viewer to record TV shows. The remote control was designed with  large buttons  that  were clearly labeled  and  logically  arranged,  making  them  easy  to locate and  use in  conjunction with  the menu interface that appeared  on the TV  screen. In terms of its physical form, the remote device was designed to fit into the palm of a hand, having a peanut shape. It also has a playful look and feel about it: Colorful buttons and cartoon icons are used that are distinctive, making it easy to identify them.
 
 Figure 1.1  The TiVo remote control   
-![](images/13cbc9b41ee0474836801106e3536613c42d21f10b1a656edb5d4b89debac0db.jpg)  
+![](images/13cbc9b41ee0474836801106e3536613c42d21f10b1a656edb5d4b89debac0db.webp)  
 Source: business.tivo.com
 
 How was it possible to create such a usable and appealing remote device where so many others have failed? The answer is simple: TiVo invested the time and effort to follow a peoplecentered design process. Specifically, TiVo’s director of product design at the time involved
@@ -83,11 +83,11 @@ More recent remote controls, such as those provided by Apple TV, incorporate
 
 (Continued)
 
-![](images/995f25651bd23333737d0544a47aaa5b5b8061f16b0fa68e3cddc0e69ee5f507.jpg)
+![](images/995f25651bd23333737d0544a47aaa5b5b8061f16b0fa68e3cddc0e69ee5f507.webp)
 
 (b)   
 Figure 1.2  Typing on a TV screen (a) by selecting  letters  and  numbers  from a square matrix and (b) by swiping along a single line of letters and numbers   
-![](images/d3957c814549d728798e9305b1134e7a8d76f5542aaffa8dedb5361105d044ea.jpg)  
+![](images/d3957c814549d728798e9305b1134e7a8d76f5542aaffa8dedb5361105d044ea.webp)  
 Source: (b) support.apple.com/en-us/HT200107
 
 Might there be a better way to interact with a smart TV while sitting on the sofa? Firestick TV has pared down the number of buttons on its remote controllers  to a core set of basic navigation ones (e.g., up, down) needed to interact with its streaming media players. An alternative is to use voice control. Most remote controls have a speech button that when pressed allows viewers to ask for movies by name or more generally by category, for instance, “What are the best sci-fi movies on Netflix?” Smart speakers, such as Amazon Echo, can also be connected to a smart TV via an HDMI port, and, similarly, a person can ask for something general or more specific, for example, “Alexa, play Big Bang Theory, Season 6, Episode 5, on the TV.” On recognizing the  command, the Echo will switch on the TV,  switch to the right HDMI channel, open Netflix, and begin streaming the specific episode. A recent survey found voice input is becoming ever more popular; one in five TV users now use voice input to find movies, shows, or videos; change the channels; change the volume; or turn the TV on or off (Roettgers, 2019). Some TV content, however, requires the viewer to say that they are older than a certain age by checking a box on the TV display. If the TV could ask the viewer and check that they are 18 or older, then that would be really smart! Also, if the TV needs the viewer to provide a password to access on-demand content, they won’t want to say it aloud, character by character, especially in front of others who might also be in the room with them. The use of biometrics, then, may be the answer.
@@ -98,7 +98,7 @@ Many activities that used to be done via a physical artifact have gone digita
 
 space, which meant drivers who didn’t have the correct coins couldn’t legally park. Now, instead of fumbling around trying to find the right change for the time wanted and slotting this into a physical meter, we can fill in an online form in advance with our details and then pay each time we want to park using a credit card or digital pay app. Our details can then be stored ready for the next time we need to pay for parking, meaning even fewer steps to complete subsequently (see Figure 1.3). It just needs us to type in the parking location number where we plan to park, and the rest is filled in for us by the app. Some apps will even notify us on our phone when the time we have paid for is nearly up, asking if we would like to add time. All we need to do is press a button from our phone. Not only does this form of digital prompting prevent us from risking a fine if we exceed the time limit, but it also provides more revenue for the parking company!
 
-![](images/1883612f22688dc96105f79380806a40e3599256978fb8a169c5ebbe45f26c90.jpg)  
+![](images/1883612f22688dc96105f79380806a40e3599256978fb8a169c5ebbe45f26c90.webp)  
 Figure 1.3  The  form used for a parking app in the United Kingdom. It takes five seconds to complete and can be done while sitting in the car.
 
 Many  previous  physical  transactions  have  been  digitalized  like  this.  Other  examples include buying tickets from an entertainment site (e.g., a movie, a concert, a play) or booking a ticket to go somewhere (e.g., a train, a bus, an airline). An added benefit is not having to wait in line before being able to buy a physical ticket. The customer can also check various
@@ -117,10 +117,10 @@ The interfaces for everyday consumer items, such as cameras, microwave�
 
 The smarts are in how the computer vision, sensor fusion, and deep learning are combined to track customers and what they took from or replaced on a shelf. Amazon Go pioneered this type of store, with other supermarkets now testing their own versions.
 
-![](images/f811ce31909b7440197f7bfb522802db4090d7e6276557e3267de4b4ea009bdd.jpg)
+![](images/f811ce31909b7440197f7bfb522802db4090d7e6276557e3267de4b4ea009bdd.webp)
 
 Figure 1.4  The digital world overlaying the physical experienced when wearing Snap AR Spectacles   
-![](images/e7ec5f6e828619428b190a3085feff758ed0e19e902bbb6c10b2d12939876712.jpg)  
+![](images/e7ec5f6e828619428b190a3085feff758ed0e19e902bbb6c10b2d12939876712.webp)  
 Source: www.techeblog.com/new-snapchat-spectacles-augmented-reality
 
 The advent of the Internet of Things (IoT), where data is collected from sensors and travels via the Internet to other devices, has been embedded into several of our household products. For example, a popular household IoT-enabled product is home security, where people can keep an eye on their home from the data relayed to their smartphone via a combination of sensors placed in their home. These include motion detectors, glass breaking detectors, and smart object detectors. A video camera can be attached to someone’s doorbell  and relayed to a smartphone app so the owner can check up on who has rung it—even though they may be  on vacation.  Some  home-based security  cameras  also use  machine  learning that  recognizes whether an intruder is trying to break into the house through using facial recognition. Machine learning is also being used in a range of other home-based products, such as automated thermostats  like the Nest, which optimizes the temperature settings for a household where the algorithms analyze its energy consumption over time.
@@ -151,7 +151,7 @@ We see the main difference between interaction design (ID) and human-comput
 
 We view interaction design as fundamental to many disciplines, fields, and approaches that are concerned with researching and designing computer-based systems for people. Figure 1.5 presents  the  core  ones  along  with  interdisciplinary  fields  that  comprise  one  or  more  of these, such as cognitive ergonomics. It can be confusing to try to work out the differences between them as  many overlap. The main differences between interaction design and the other approaches  referred to in the figure come largely down to which methods, philosophies, and lenses they use to study, analyze, and design products. Another way they vary is in terms of the scope and problems they address. For example, information systems is concerned with the application of computing technology in domains such as business, health, and education, whereas ubiquitous computing is concerned with the design, development, and  deployment  of  pervasive  computing  technologies  (for  example,  IoT)  and  how they facilitate social interactions and human experiences.
 
-![](images/e228b60bacfbe343af2d53200a4b83228ae0eede7af861d27dd423c86c086c13.jpg)  
+![](images/e228b60bacfbe343af2d53200a4b83228ae0eede7af861d27dd423c86c086c13.webp)  
 Figure 1.5  Relationship among contributing academic disciplines, design practices, and interdisciplinary fields concerned with interaction design (double-headed arrows mean overlapping)
 
 # ACTIVITY 1.1
@@ -219,7 +219,7 @@ Apple realized early on that successful interaction design involves creating 
 to learn  and use, and the  catchy naming of its product and content  (iTunes, iPod), among many other design features, led to it becoming one of the  greatest products of its kind and a must-have  fashion item for teenagers, students, and adults alike. While there were many competing players on the market at the time—some with more powerful functionality, others that were cheaper and easier to use, or still others with bigger screens, more memory, and so forth—the quality of the overall experience paled in comparison to that provided by the iPod. In addition, Apple provided a whole ecosystem to accompany the iPod, including the iTunes store app where millions of licensed music tracks could be bought for less than a dollar each.
 
 Figure 1.6  The iPod Nano   
-![](images/3808542e473c1d45be8e707e0fcae617e3550bb7d7d3c7bd793725ca68dbc33c.jpg)  
+![](images/3808542e473c1d45be8e707e0fcae617e3550bb7d7d3c7bd793725ca68dbc33c.webp)  
 Source: Paul Sakuma / AP Photo
 
 Apple has continued to design products that are both beautiful and usable, most notable are the iPad and the range of iPhones. It even designed what was at the time a completely new customer experience for buying technology in the form of the Apple Store, from how it draws people in and what they do when browsing, discovering, and purchasing goods in the store. There  are  no checkouts to pay  for goods—just roaming Apple  employees  holding  mobile devices that they interact with to make an order for a customer, take payment, and email them a receipt. Apple now has a new kind of retail space, akin to being more like a town square, where everyone is welcome, and various community activities take place weekly, like learning to code.
@@ -273,7 +273,7 @@ People  with  permanent  disabilities  often  use  assistive  technology�
 Aimee Mullens is an athlete, actor, and fashion model who has shown how prosthetics can be designed to move beyond being purely functional (and often ugly) to being desirable and highly fashionable. She became a bilateral amputee when her legs were amputated below the knee as a one-year-old. She has  done much to blur the boundary between disabled and nondisabled people, and she uses fashion as a tool to achieve this. Several prosthetic companies now incorporate fashion design into their products, including striking leg covers that are affordable by all (see Figure 1.7).
 
 Figure 1.7  Fashionable leg cover designed by Alleles Design Studio   
-![](images/dc72dbae65d306b780bdff7fb4e496f6d7ca8f8e2b819d8049db8aeaa94fb59f.jpg)  
+![](images/dc72dbae65d306b780bdff7fb4e496f6d7ca8f8e2b819d8049db8aeaa94fb59f.webp)  
 Source: alleles.ca. Used courtesy of Alison Andersen
 
 # 1.9 Usability and User Experience Goals
@@ -316,12 +316,12 @@ Question: Does the product provide an appropriate set of functions tha
 
 can help by providing contextualized step-by-step material with hands-on exercises. A key concern is determining how much time someone is prepared to spend learning a product. Question: Is it possible for someone to work out basic use of the  product by exploring the interface and trying certain actions? How hard will it be to master the product in this way? Are additional learning tools needed?
 
-![](images/a12250983b7447dd871a3c65e405baede86d2459d2a9de588e4d8fa72b0bd139.jpg)
+![](images/a12250983b7447dd871a3c65e405baede86d2459d2a9de588e4d8fa72b0bd139.webp)
 
-![](images/2d2769e164ade98fc6ca47f9a10304bb116e2542c4e7b4c5b43f84338ce9bf4b.jpg)  
+![](images/2d2769e164ade98fc6ca47f9a10304bb116e2542c4e7b4c5b43f84338ce9bf4b.webp)  
 (a)
 
-![](images/2724601aa25f03e55edac77477516b94f48f776a4dd739fe6d82b807058bf123.jpg)  
+![](images/2724601aa25f03e55edac77477516b94f48f776a4dd739fe6d82b807058bf123.webp)  
 (b)   
 Figure 1.8  (a)  A  safe and  unsafe menu.  Which  is which  and  why? (b)  A  warning  dialog box on macOS
 
@@ -433,7 +433,7 @@ Visibility refers to how an interface is designed to show what someone needs�
 In  contrast, when  functions are  out  of sight, it  makes them  more  difficult to find  and to know how to use. For example, devices and environments that have become automated through the use of sensor technology (usually for hygiene and energy-saving reasons)—like faucets, elevators, and lights—can sometimes be more difficult for people to know how to control, especially how to activate or deactivate them. This can result in people getting caught short and  frustrated. Figure 1.10  shows a sign that explains how to use  the automatically controlled  faucet for what  is normally  an  everyday and well-learned  activity. It  also states that the faucets cannot be operated if wearing black clothing. It does not explain, however, what to do if you are wearing black clothing! Increasingly, highly visible controlling devices, such as knobs, buttons, and switches, which are intuitive to use, have been replaced by invisible and ambiguous activating zones where people have to guess where to move their hands, bodies, or feet—on, into, or in front of—to make them work.
 
 Figure 1.10 A sign in the restrooms at the Cincinnati airport   
-![](images/e39329515578469e286ddb8f548004648a0a48cef6ead2c08f8d455bb6a4a40c.jpg)  
+![](images/e39329515578469e286ddb8f548004648a0a48cef6ead2c08f8d455bb6a4a40c.webp)  
 Source: Yvonne Rogers
 
 # Feedback
@@ -446,7 +446,7 @@ Feedback involves sending back information about what action has been 
 
 The design concept of constraining refers to determining ways of restricting the kinds of user interaction that can take place at a given moment. There  are various ways that this can be achieved. A common design practice in graphical user interfaces is to deactivate certain menu options by shading them gray, thereby restricting which actions are permissible at that stage of the activity (see Figure 1.11). One of the advantages of this form of constraining is that it prevents incorrect options being selected and thereby reduces the chance of making a mistake.
 
-![](images/e6103e646982924edddf3cfdc2392575bc489c4ddfdd644b3bc8b09e4967010e.jpg)  
+![](images/e6103e646982924edddf3cfdc2392575bc489c4ddfdd644b3bc8b09e4967010e.webp)  
 Figure 1.11 A menu showing restricted availability of options as an example of logical constraining. Gray text indicates deactivated options.
 
 # Source: Yvonne Rogers
@@ -522,7 +522,7 @@ SAFFER, D. (2014)  Microinteractions: Designing with Details. O’Reilly.�
 
 STEIN, M.A., and LAZAR, J. (2022) Accessible Technology and the Developing World. Oxford University Press. This book is concerned with accessible technology in the developing  world. It sits at  the  intersection of  human-computer interaction,  policy, law, and development, and is concerned primarily with the accessibility innovations taking place in the Global South and the need to ensure that technology  and legal  infrastructures in the  Global South  that  are currently  being  built  do  not  present barriers to  people  with disabilities.
 
-![](images/5ed53848a27547066c609014c27490362ee643d0857d56e666ed0d68e8c5a1a1.jpg)  
+![](images/5ed53848a27547066c609014c27490362ee643d0857d56e666ed0d68e8c5a1a1.webp)  
 Source: Harry Brignull
 
 # INTERVIEW with Harry Brignull

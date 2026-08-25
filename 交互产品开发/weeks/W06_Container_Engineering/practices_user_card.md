@@ -16,7 +16,7 @@ stages:
 在此阶段，**绝对禁止**使用 `Shift + A` 开启 Auto Layout。请完全凭借视觉直觉绘制卡片。
 
 **最终目标参考图**：
-![视觉参考：手工拼装的用户卡片](../../practices/materials/W06/user_card_visual.png) 
+![视觉参考：手工拼装的用户卡片](../../practices/materials/W06/user_card_visual.webp) 
 
 1. **创建主载体 (userCard)**：
    - 使用快捷键 `F` 新建一个 Frame，命名为 `userCard`。
@@ -34,7 +34,7 @@ stages:
 
 **图层结构校验**：
 完成拼装后，请检查左侧的 Layers 面板，确保图层呈如下嵌套关系，且没有任何表示 Auto Layout 的水平/垂直小横杠图标。
-![图层结构：严格的嵌套与绝对定位](../../practices/materials/W06/user_card_layers.png)
+![图层结构：严格的嵌套与绝对定位](../../practices/materials/W06/user_card_layers.webp)
 *(注：请将您提供的图层结构截图保存在此路径)*
 
 ### 任务 2：VSCode 绝对定位复现与破坏测试
@@ -44,7 +44,7 @@ stages:
    ```html
    <div class="userCard">
        <div class="avatar">
-           <img src="avatar.jpg" alt="头像">
+           <img src="avatar.webp" alt="头像">
        </div>
        <h2 class="title">Mary Analysis</h2>
        <p class="body">A powerful virtual intelligent platform...</p>
@@ -61,7 +61,7 @@ stages:
    > - 内部的 `# avatar` 和 `# btn` 容器，对应内部的 `<div class="avatar">` 和 `<div class="btn">` (子盒子)。
    > - 最末端的文本图层 `T More` 等，则对应着 HTML 里的文本标签如 `<span>` 或 `<h2>` (叶子节点)。
    >
-   > ![VSCode 结构代码映射](../../practices/materials/W06/user_card_vscode_html.png)
+   > ![VSCode 结构代码映射](../../practices/materials/W06/user_card_vscode_html.webp)
 
    > [!TIP]
    > **文字标签小科普**：
@@ -74,7 +74,7 @@ stages:
    - 粘贴到 VSCode 后你会发现，生成的 CSS 代码中充斥着类似 `position: absolute; left: 45px; top: 120px; width: 300px;` 的绝对坐标。
    - 将这些包含绝对坐标和固定宽高的 CSS 原封不动地复制到你的 HTML `<style>` 标签中，完成 1:1 视觉还原。
    
-   ![Figma 右键提取 CSS 代码](../../practices/materials/W06/figma_copy_css_menu.png)
+   ![Figma 右键提取 CSS 代码](../../practices/materials/W06/figma_copy_css_menu.webp)
 
    > **参考：手工时代的 CSS 输出示例**
    > 如果你在课堂上没来得及画完，可以直接复制下方这段代码到你的 `<style>` 中。请注意观察，这里面充斥着满屏的 `position: absolute` 和被彻底写死的绝对坐标（`left` / `top`）。
@@ -100,7 +100,7 @@ stages:
    > height: 224px;
    > left: -29px;
    > top: -29px;
-   > background: url(image.png);
+   > background: url(image.webp);
    > 
    > /* Title */
    > position: absolute;
@@ -156,7 +156,7 @@ stages:
    - **观察灾难**：在浏览器中预览，你会看到超长的文本直接冲出了卡片底部，或者与底部的 `btn` 按钮发生了极其严重的文字重叠。按钮不会被推开，卡片也不会自动变高。这就是**画布思维的破产**。
    
    > **[待补充截图]**：需要在此处插入一张截图——展示浏览器中文字严重溢出、与按钮死死重叠的“车祸现场”。
-   > **推荐命名**: `../../practices/materials/W06/browser_overlap_disaster.png`
+   > **推荐命名**: `../../practices/materials/W06/browser_overlap_disaster.webp`
 
 ---
 
@@ -191,7 +191,7 @@ stages:
    - **卡片外框 (Hug)**：确保 `userCard` 的高度为 **Hug**，这样它就能随着内部文字的增多而自动变长。
    
    > **[待补充截图]**：需要在此处插入一张截图——展示右侧属性面板，特写 Auto Layout 的方向设置，以及 Resizing 区域的 Hug/Fill/Fixed 状态。
-   > **推荐命名**: `../../practices/materials/W06/figma_autolayout_panel.png`
+   > **推荐命名**: `../../practices/materials/W06/figma_autolayout_panel.webp`
 
 ### 任务 4：VSCode Flexbox 完美翻译
 在代码中，抛弃所有的 `position: absolute`，使用 Flexbox 翻译 Figma 的弹性规则。
@@ -228,4 +228,4 @@ stages:
    再次在 HTML 中增加大量测试文本，并调整浏览器窗口的宽度。你会看到文本优雅地折行，按钮被安全地推向下方，外侧的深灰色卡片也随之拉长。
    
    > **[待补充截图]**：需要在此处插入一张截图——展示重构后、完美响应多段文本拉伸的优雅 UI 界面，与 Stage 1 的灾难形成强烈对比。
-   > **推荐命名**: `../../practices/materials/W06/browser_responsive_success.png`
+   > **推荐命名**: `../../practices/materials/W06/browser_responsive_success.webp`

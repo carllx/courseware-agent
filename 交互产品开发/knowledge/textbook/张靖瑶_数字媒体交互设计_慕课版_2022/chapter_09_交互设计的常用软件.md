@@ -46,7 +46,7 @@ Teambition以项目管理见长，在此基础上又衍生出通信、存储等�
 
 表1-1 墨刀特点介绍
 
-![](images/EPUB/images/image_026.jpg)
+![](images/EPUB/images/image_026.webp)
 
 ### **1.5.4**
 

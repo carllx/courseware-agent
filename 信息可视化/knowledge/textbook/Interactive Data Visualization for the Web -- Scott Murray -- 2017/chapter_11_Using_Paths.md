@@ -29,7 +29,7 @@ data-type="xref">Figure 11-1</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_path_and_d" class="figure">
 <img
-src="images/2292aab9e1b42e34fa8fe8646f22babedaf96b53fc8eec68fddca71c3c0d5483.png"
+src="images/2292aab9e1b42e34fa8fe8646f22babedaf96b53fc8eec68fddca71c3c0d5483.webp"
 class="calibre46" alt="dvw2 1101" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-1. </span>A
 path and its d attribute</h6>
@@ -226,7 +226,7 @@ original dataset.
 <figure class="calibre35">
 <div id="ch11.xhtml_using_consoletable" class="figure">
 <img
-src="images/7a21503e939b5d3b30f19df61675e8bcd64002f1510772e7169bd1e504ce9b8c.png"
+src="images/7a21503e939b5d3b30f19df61675e8bcd64002f1510772e7169bd1e504ce9b8c.webp"
 class="calibre173" alt="dvw2 1102" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-2.
 </span>Using console.table() to verify data</h6>
@@ -370,7 +370,7 @@ data-type="xref">Figure 11-3</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_verifying_data_array_bound_path" class="figure">
 <img
-src="images/5242f49686e6754ac07dc35e6132f553282cac3491ebe31fe1d6a3dca9b16ac4.png"
+src="images/5242f49686e6754ac07dc35e6132f553282cac3491ebe31fe1d6a3dca9b16ac4.webp"
 class="calibre46" alt="dvw2 1103" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-3.
 </span>Verifying the data array bound to a single path element</h6>
@@ -407,7 +407,7 @@ data-type="xref">Figure 11-4</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_adding_padding_axes" class="figure">
 <img
-src="images/8dbcfbe60b32fc6235fccb09491f0eb9c7978990f1a5dcaabdc55c9c0e20ff3a.png"
+src="images/8dbcfbe60b32fc6235fccb09491f0eb9c7978990f1a5dcaabdc55c9c0e20ff3a.webp"
 class="calibre174" alt="dvw2 1104" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-4.
 </span>Added padding and axes</h6>
@@ -472,7 +472,7 @@ data-type="xref">Figure 11-5</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_invalid_excluded" class="figure">
 <img
-src="images/a8fec0651bd68280301c623bfd03d3b661ed5cdcb7fb45f159bec4f767e5550b.png"
+src="images/a8fec0651bd68280301c623bfd03d3b661ed5cdcb7fb45f159bec4f767e5550b.webp"
 class="calibre175" alt="dvw2 1105" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-5.
 </span>Line chart, invalid CO<sub>2</sub> values excluded</h6>
@@ -494,7 +494,7 @@ gaps are clearly visible.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_invalid_excluded_big" class="figure">
 <img
-src="images/0c91f295035305425bdc3a47c339e1df0109f9952fe354737a74064aebec7d40.png"
+src="images/0c91f295035305425bdc3a47c339e1df0109f9952fe354737a74064aebec7d40.webp"
 class="calibre176" alt="dvw2 1106" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-6.
 </span>Zoomed in to reveal the gaps</h6>
@@ -528,7 +528,7 @@ data-type="xref">Figure 11-7</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_adjusted" class="figure">
 <img
-src="images/740aa1268f32a684b830e73b3d6ca6f3d7a1e8fea28df76e37b4a1e7906d8c05.png"
+src="images/740aa1268f32a684b830e73b3d6ca6f3d7a1e8fea28df76e37b4a1e7906d8c05.webp"
 class="calibre177" alt="dvw2 1107" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-7.
 </span>Adjusted yScale and new red line</h6>
@@ -578,7 +578,7 @@ data-type="xref">Figure 11-8</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_labeled" class="figure">
 <img
-src="images/99420b66d947854c22a6787681cf723ef7b7161ac59c197099c6b10d45c83506.png"
+src="images/99420b66d947854c22a6787681cf723ef7b7161ac59c197099c6b10d45c83506.webp"
 class="calibre177" alt="dvw2 1108" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-8.
 </span>Labeled line chart with two lines, teal and red</h6>
@@ -635,7 +635,7 @@ working toward.
 <figure class="calibre35">
 <div id="ch11.xhtml_area_chart" class="figure">
 <img
-src="images/01d1da095ee989397eb733a3fecbc1310ec567c521ec42685f73d864dcb8d155.png"
+src="images/01d1da095ee989397eb733a3fecbc1310ec567c521ec42685f73d864dcb8d155.webp"
 class="calibre178" alt="dvw2 1109" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-9.
 </span>Area chart</h6>
@@ -719,7 +719,7 @@ data-type="xref">Figure 11-10</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_area_chart_red" class="figure">
 <img
-src="images/4636dd0ee040d363aeb97cdc3e753ca328f834a042d7721e61d4d9998766b0a8.png"
+src="images/4636dd0ee040d363aeb97cdc3e753ca328f834a042d7721e61d4d9998766b0a8.webp"
 class="calibre179" alt="dvw2 1110" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-10.
 </span>Area chart, with both areas</h6>

@@ -44,11 +44,11 @@
 
 #### 🎨 参考范例 1：Lean UX 敏捷工作坊风格（手绘白板风）
 非常适合团队早期头脑风暴，强调快速记录假设，无需精湛画技。
-![手绘白板风 Proto-Persona](images/proto_persona_whiteboard.png)
+![手绘白板风 Proto-Persona](images/proto_persona_whiteboard.webp)
 
 #### 🎨 参考范例 2：高保真数字交付物风格（Figma/UI 洁净风）
 如果你使用数字设计工具排版，可以参考这种干净、模块化的布局，适合作为最终报告的正式交付物。
-![Figma 数字风 Proto-Persona](images/proto_persona_digital.png)
+![Figma 数字风 Proto-Persona](images/proto_persona_digital.webp)
 
 #### 🔍 四大模块拆解指南（必须严格对应）：
 

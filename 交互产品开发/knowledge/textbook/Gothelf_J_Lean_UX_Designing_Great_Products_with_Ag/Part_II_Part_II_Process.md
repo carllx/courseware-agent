@@ -510,7 +510,7 @@ include a diverse set of viewpoints, and that, when you’re done, the
 extended team has built shared understanding and the path forward is
 clear.
 
-![](images/assets/lux3_0401.png)
+![](images/assets/lux3_0401.webp)
 
 ###### Figure 4-1. The [Lean UX Canvas](https://www.jeffgothelf.com/blog/leanuxcanvas-v2)
 
@@ -522,7 +522,7 @@ book *The Toyota Kata*^([2](#ch04.html_ch01fn9))—to its desired future
 state or *target condition* (“LATER” in
 [Figure 4-2](#ch04.html_the_key_areas_of_the_lean_ux_canvas)).
 
-![](images/assets/lux3_0402.png)
+![](images/assets/lux3_0402.webp)
 
 ###### Figure 4-2. The key areas of the Lean UX Canvas
 
@@ -748,7 +748,7 @@ Liberating Structures, accessed June 16, 2021,
 
 ## Chapter 5. Box 1: Business Problem
 
-![](images/assets/lux3_0501.png)
+![](images/assets/lux3_0501.webp)
 
 ###### Figure 5-1. Box 1 of the Lean UX Canvas: Business Problem
 
@@ -1012,7 +1012,7 @@ ecommerce platform.”
 
 ## Chapter 6. Box 2: Business Outcomes
 
-![](images/assets/lux3_0601.png)
+![](images/assets/lux3_0601.webp)
 
 ###### Figure 6-1. Box 2 of the Lean UX Canvas: Business Outcomes
 
@@ -1141,7 +1141,7 @@ metaphor.
 Instead of a funnel, we present Metrics Mountain
 ([Figure 6-2](#ch06.html_metrics_mountaindot_concept_by_jeff_pat)).
 
-![](images/assets/lux3_0602.png)
+![](images/assets/lux3_0602.webp)
 
 ###### Figure 6-2. Metrics Mountain. Concept by Jeff Patton and Jeff Gothelf.
 
@@ -1263,7 +1263,7 @@ Here’s how it works:
 At this point, your whiteboard should start to look like the map shown
 in [Figure 6-3](#ch06.html_outcome_to_impact_mapping):
 
-![](images/assets/lux3_0603.png)
+![](images/assets/lux3_0603.webp)
 
 ###### Figure 6-3. Outcome-to-impact mapping
 
@@ -1321,7 +1321,7 @@ Teams will often find that one outcome drives multiple impact metrics
 chart. Build the chart that works for your business and your team. Just
 don’t compromise the content of the exercise.
 
-![](images/assets/lux3_0604.png)
+![](images/assets/lux3_0604.webp)
 
 ###### Figure 6-4. Real world example of an outcome to impact map, courtesy of Delphine Sassi and the team at King
 
@@ -1331,7 +1331,7 @@ don’t compromise the content of the exercise.
 
 ## Chapter 7. Box 3: Users
 
-![](images/assets/lux3_0701.png)
+![](images/assets/lux3_0701.webp)
 
 ###### Figure 7-1. Box 3 of the Lean UX Canvas: Users
 
@@ -1376,7 +1376,7 @@ your colleagues’ minds
 ([Figure 7-2](#ch07.html_dogsdot_we_are_indebted_to_our_learned))? How
 do you know?
 
-![](images/assets/lux3_0702.png)
+![](images/assets/lux3_0702.webp)
 ###### Figure 7-2. Dogs. We are indebted to our learned colleague Adrian Howard for this concept.
 
 The same thing happens when someone says, “the user.” The proto-persona
@@ -1439,7 +1439,7 @@ device, like an iPhone, will completely change the way they interact
 with your product. We only want to write down the “differences that make
 a difference.”
 
-![](images/assets/lux3_0703.png)
+![](images/assets/lux3_0703.webp)
 
 ###### Figure 7-3. A completed proto-persona template
 
@@ -1528,7 +1528,7 @@ you’re trying to displace long-held tools like email or spreadsheets,
 you might be in for a tough fight. It’s good to get that information
 sooner rather than later.
 
-![](images/assets/lux3_0704.png)
+![](images/assets/lux3_0704.webp)
 
 ###### Figure 7-4. The banana slicer. Who buys these?
 
@@ -1586,7 +1586,7 @@ be more targeted and more successful.
 
 ## Chapter 8. Box 4: User Outcomes and Benefits
 
-![](images/assets/lux3_0801.png)
+![](images/assets/lux3_0801.webp)
 
 ###### Figure 8-1. Box 4 of the Lean UX Canvas: User Outcomes and Benefits
 
@@ -1716,7 +1716,7 @@ grandma the baby from across the country.”
 
 ## Chapter 9. Box 5: Solutions
 
-![](images/assets/lux3_0901.png)
+![](images/assets/lux3_0901.webp)
 
 ###### Figure 9-1. Box 5 of the Lean UX Canvas: Solutions
 

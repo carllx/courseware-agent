@@ -12,8 +12,8 @@
   - Alan Cooper photo
   - Alan Cooper real image
   - Alan Cooper portrait
-  target_path: ../public/slides/W01_S01a_real.png
-  current_asset: ../public/slides/W01_S01a.png
+  target_path: ../public/slides/W01_S01a_real.webp
+  current_asset: ../public/slides/W01_S01a.webp
   no_ai_flag: false
 - slide: W01_S01_Book
   module: M01_数字产品之殇_我们为什么会抓狂
@@ -37,8 +37,8 @@
   - Alan Cooper product shot high resolution
   - Alan Cooper portrait
   - About Face photo
-  target_path: ../public/slides/W01_S01_Book_real.png
-  current_asset: ../public/slides/W01_S01_Book.png
+  target_path: ../public/slides/W01_S01_Book_real.webp
+  current_asset: ../public/slides/W01_S01_Book.webp
   no_ai_flag: false
 - slide: W01_S01d
   module: M01_数字产品之殇_我们为什么会抓狂
@@ -53,8 +53,8 @@
   - Alan Cooper photo
   - Alan Cooper real image
   - Alan Cooper portrait
-  target_path: ../public/slides/W01_S01d_real.png
-  current_asset: ../public/slides/W01_S01d.png
+  target_path: ../public/slides/W01_S01d_real.webp
+  current_asset: ../public/slides/W01_S01d.webp
   no_ai_flag: false
 - slide: W01_S01e
   module: M01_数字产品之殇_我们为什么会抓狂
@@ -75,8 +75,8 @@
   - Alan Cooper portrait
   - About Face photo
   - About Face real image
-  target_path: ../public/slides/W01_S01e_real.png
-  current_asset: ../public/slides/W01_S01e.png
+  target_path: ../public/slides/W01_S01e_real.webp
+  current_asset: ../public/slides/W01_S01e.webp
   no_ai_flag: false
 - slide: W01_S01e2
   module: M01_数字产品之殇_我们为什么会抓狂
@@ -98,8 +98,8 @@
   - Alan Cooper product shot high resolution
   - Alan Cooper portrait
   - ICD-10 photo
-  target_path: ../public/slides/W01_S01e2_real.png
-  current_asset: ../public/slides/W01_S01e2.png
+  target_path: ../public/slides/W01_S01e2_real.webp
+  current_asset: ../public/slides/W01_S01e2.webp
   no_ai_flag: false
 - slide: W01_S01f
   module: M01_数字产品之殇_我们为什么会抓狂
@@ -114,8 +114,8 @@
   - Alan Cooper photo
   - Alan Cooper real image
   - Alan Cooper portrait
-  target_path: ../public/slides/W01_S01f_real.png
-  current_asset: ../public/slides/W01_S01f.png
+  target_path: ../public/slides/W01_S01f_real.webp
+  current_asset: ../public/slides/W01_S01f.webp
   no_ai_flag: false
 - slide: W01_S02a
   module: M02.5_可用性_vs_体验
@@ -130,8 +130,8 @@
   - Yvonne Rogers photo
   - Yvonne Rogers real image
   - Yvonne Rogers portrait
-  target_path: ../public/slides/W01_S02a_real.png
-  current_asset: ../public/slides/W01_S02a.png
+  target_path: ../public/slides/W01_S02a_real.webp
+  current_asset: ../public/slides/W01_S02a.webp
   no_ai_flag: false
 - slide: W01_S02_Norman
   module: M02_定义与边界_我们到底在交互什么
@@ -152,8 +152,8 @@
   - Interaction Design portrait
   - Yvonne Rogers photo
   - Yvonne Rogers real image
-  target_path: ../public/slides/W01_S02_Norman_real.png
-  current_asset: ../public/slides/W01_S02_Norman.png
+  target_path: ../public/slides/W01_S02_Norman_real.webp
+  current_asset: ../public/slides/W01_S02_Norman.webp
   no_ai_flag: false
 - slide: W01_S02d
   module: M02_定义与边界_我们到底在交互什么
@@ -170,8 +170,8 @@
   - Interaction Design photo
   - Interaction Design real image
   - Interaction Design product shot high resolution
-  target_path: ../public/slides/W01_S02d_real.png
-  current_asset: ../public/slides/W01_S02d.png
+  target_path: ../public/slides/W01_S02d_real.webp
+  current_asset: ../public/slides/W01_S02d.webp
   no_ai_flag: false
 - slide: W01_S02_Wechat
   module: M02_定义与边界_我们到底在交互什么
@@ -186,8 +186,8 @@
   - 张小龙 photo
   - 张小龙 real image
   - 张小龙 portrait
-  target_path: ../public/slides/W01_S02_Wechat_real.png
-  current_asset: ../public/slides/W01_S02_Wechat.png
+  target_path: ../public/slides/W01_S02_Wechat_real.webp
+  current_asset: ../public/slides/W01_S02_Wechat.webp
   no_ai_flag: false
 - slide: W01_S03
   module: M03_破解认知失调_重要的三大模型
@@ -202,8 +202,8 @@
   - Alan Cooper photo
   - Alan Cooper real image
   - Alan Cooper portrait
-  target_path: ../public/slides/W01_S03_real.png
-  current_asset: ../public/slides/W01_S03.png
+  target_path: ../public/slides/W01_S03_real.webp
+  current_asset: ../public/slides/W01_S03.webp
   no_ai_flag: false
 - slide: W01_S03h
   module: M03_破解认知失调_重要的三大模型
@@ -217,8 +217,8 @@
   search_queries:
   - Spotify photo
   - Spotify real image
-  target_path: ../public/slides/W01_S03h_real.png
-  current_asset: ../public/slides/W01_S03h.png
+  target_path: ../public/slides/W01_S03h_real.webp
+  current_asset: ../public/slides/W01_S03h.webp
   no_ai_flag: false
 - slide: W01_S05c
   module: M04_防止摩擦的五把武器_设计原则
@@ -237,8 +237,8 @@
   - Yvonne Rogers portrait
   - 新乡重夫 photo
   - 新乡重夫 real image
-  target_path: ../public/slides/W01_S05c_real.png
-  current_asset: ../public/slides/W01_S05c.png
+  target_path: ../public/slides/W01_S05c_real.webp
+  current_asset: ../public/slides/W01_S05c.webp
   no_ai_flag: false
 - slide: W01_S06a
   module: M05_第一战场_实践项目1_敏捷洞察与_MVP
@@ -253,8 +253,8 @@
   search_queries:
   - Lean UX photo
   - Lean UX real image
-  target_path: ../public/slides/W01_S06a_real.png
-  current_asset: ../public/slides/W01_S06a.png
+  target_path: ../public/slides/W01_S06a_real.webp
+  current_asset: ../public/slides/W01_S06a.webp
   no_ai_flag: false
 - slide: W01_S06d
   module: M05_第一战场_实践项目1_敏捷洞察与_MVP
@@ -268,8 +268,8 @@
   search_queries:
   - Dropbox photo
   - Dropbox real image
-  target_path: ../public/slides/W01_S06d_real.png
-  current_asset: ../public/slides/W01_S06d.png
+  target_path: ../public/slides/W01_S06d_real.webp
+  current_asset: ../public/slides/W01_S06d.webp
   no_ai_flag: false
 - slide: W01_S07a
   module: M05_第一战场_实践项目1_敏捷洞察与_MVP
@@ -284,8 +284,8 @@
   search_queries:
   - About Face photo
   - About Face real image
-  target_path: ../public/slides/W01_S07a_real.png
-  current_asset: ../public/slides/W01_S07a.png
+  target_path: ../public/slides/W01_S07a_real.webp
+  current_asset: ../public/slides/W01_S07a.webp
   no_ai_flag: false
 - slide: W01_S01h_Cases
   module: M01_数字产品之殇_我们为什么会抓狂
@@ -297,8 +297,8 @@
   description: 用克制换包容的实体实践
   scene_excerpt: 三个并列的复古静物特写组合，采用学术简约的低饱和暖色调。从左至右依次为：带零钱槽的老式公交车投币口、复古的医院电话听筒、一本经典的纸质银行存折。画面必须纯净，没有文字、字母或数据排版幻觉，仅通过物本质感传达“保留退路”的温度。
   search_queries: []
-  target_path: ../public/slides/W01_S01h_Cases_real.png
-  current_asset: ../public/slides/W01_S01h_Cases.png
+  target_path: ../public/slides/W01_S01h_Cases_real.webp
+  current_asset: ../public/slides/W01_S01h_Cases.webp
   no_ai_flag: false
 - slide: W01_S03a
   module: M03_破解认知失调_重要的三大模型
@@ -309,8 +309,8 @@
   description: 三大核心模型
   scene_excerpt: 三层蛋糕结构解剖图。最底部的基座是裸露的齿轮、集成块与粗糙电线（后台代码）。中层的夹心是一块打磨得平滑的玻璃面板，带有一个可控制的实体滑块（表现模型）。最顶端是一团漂浮的思想气泡，勾勒着简单的抽象图案（用户心理模型）。
   search_queries: []
-  target_path: ../public/slides/W01_S03a_real.png
-  current_asset: ../public/slides/W01_S03a.png
+  target_path: ../public/slides/W01_S03a_real.webp
+  current_asset: ../public/slides/W01_S03a.webp
   no_ai_flag: false
 - slide: W01_S03e
   module: M03_破解认知失调_重要的三大模型
@@ -323,8 +323,8 @@
   search_queries:
   - 平衡系统真相与心智幻觉 historical photo
   - 平衡系统真相与心智幻觉 archive image
-  target_path: ../public/slides/W01_S03e_real.png
-  current_asset: ../public/slides/W01_S03e.png
+  target_path: ../public/slides/W01_S03e_real.webp
+  current_asset: ../public/slides/W01_S03e.webp
   no_ai_flag: false
 - slide: W01_S02
   module: M02_定义与边界_我们到底在交互什么
@@ -342,8 +342,8 @@
   - iPhone real image
   - 模仿游戏 photo
   - 模仿游戏 real image
-  target_path: ../public/slides/W01_S02_real.png
-  current_asset: ../public/slides/W01_S02.png
+  target_path: ../public/slides/W01_S02_real.webp
+  current_asset: ../public/slides/W01_S02.webp
   no_ai_flag: false
 - slide: W01_S03c
   module: M03_破解认知失调_重要的三大模型
@@ -357,8 +357,8 @@
   search_queries:
   - eNB photo
   - eNB real image
-  target_path: ../public/slides/W01_S03c_real.png
-  current_asset: ../public/slides/W01_S03c.png
+  target_path: ../public/slides/W01_S03c_real.webp
+  current_asset: ../public/slides/W01_S03c.webp
   no_ai_flag: false
 - slide: W01_S05b_Intro
   module: M04_防止摩擦的五把武器_设计原则
@@ -372,6 +372,6 @@
   search_queries:
   - iPhone photo
   - iPhone real image
-  target_path: ../public/slides/W01_S05b_Intro_real.png
-  current_asset: ../public/slides/W01_S05f.png
+  target_path: ../public/slides/W01_S05b_Intro_real.webp
+  current_asset: ../public/slides/W01_S05f.webp
   no_ai_flag: false

@@ -60,10 +60,10 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 5-1 | The Framework Definition process (框架定义流程) | `../public/textbook/Fig_B03_Framework_Definition_process.jpg` (L38) | ✅ 已迁移 |
-| Fig 5-2 | An early framework sketch (早期框架草图——矩形阶段) | `../public/textbook/Fig_B03_early_framework_sketch.jpg` (L121) | ✅ 已迁移 |
-| Fig 5-3 | A more evolved Framework rendering (故事板与关键路径演进) | `../public/textbook/Fig_B03_evolved_Framework_rendering.jpg` (L152) | ✅ 已迁移 |
-| Fig 5-4 | Visual language studies (视觉语言研究) | `../public/textbook/Fig_B03_Visual_language_studies.jpg` (L218) | ✅ 已迁移 |
+| Fig 5-1 | The Framework Definition process (框架定义流程) | `../public/textbook/Fig_B03_Framework_Definition_process.webp` (L38) | ✅ 已迁移 |
+| Fig 5-2 | An early framework sketch (早期框架草图——矩形阶段) | `../public/textbook/Fig_B03_early_framework_sketch.webp` (L121) | ✅ 已迁移 |
+| Fig 5-3 | A more evolved Framework rendering (故事板与关键路径演进) | `../public/textbook/Fig_B03_evolved_Framework_rendering.webp` (L152) | ✅ 已迁移 |
+| Fig 5-4 | Visual language studies (视觉语言研究) | `../public/textbook/Fig_B03_Visual_language_studies.webp` (L218) | ✅ 已迁移 |
 
 ## 易混淆概念辨析
 

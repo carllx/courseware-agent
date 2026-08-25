@@ -1,6 +1,6 @@
 **Layout and Spacing**
 
-![](images/index-66_1.png)
+![](images/index-66_1.webp)
 
 **Start with too much white space**
 
@@ -9,7 +9,7 @@ element a little more room to breathe.
 
 Sounds simple enough, right? So how come we don’t usually do it?
 
-![](images/index-67_1.png)
+![](images/index-67_1.webp)
 
 67
 
@@ -28,7 +28,7 @@ minimum amount of breathing room necessary to not look *actively bad*.
 To make something actually look *great*, you usually need more white
 space.
 
-![](images/index-68_1.png)
+![](images/index-68_1.webp)
 
 Start with too much white space
 
@@ -37,7 +37,7 @@ Start with too much white space
 A better approach is to start by giving something *way too much* space,
 then remove it until it you’re happy with the result.
 
-![](images/index-69_1.png)
+![](images/index-69_1.webp)
 
 69
 
@@ -63,5 +63,5 @@ The important thing is to make this a deliberate decision instead of
 just being the default. It’s a lot more obvious when you need to remove
 white space than it is when you need to add it.
 
-![](images/index-70_1.png)
+![](images/index-70_1.webp)
 

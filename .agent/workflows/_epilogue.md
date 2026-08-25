@@ -30,7 +30,7 @@ description: 工作流共享收尾协议（Post-Hook）。任何主要工作流�
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_visuals.py \
+  .agent/scripts/validation/validate_visuals.py \
   --course "<课程名>"
 ```
 

@@ -53,25 +53,25 @@ One  of the goals of interaction design is to produce usable products
 
 User-centered  design  with  repeated  iteration  and  evaluation  along  with  stakeholder involvement can help mitigate against misunderstandings. The process of discovering requirements also promotes communication between all parties and hence a common understanding. Miscommunication and misunderstanding can easily occur if requirements are assumed or are left implicit. This classic cartoon captures the problems that can occur very nicely!
 
-![](images/4295247a17b1f2e33c8f81716cfe444d29b085a008221f0debc969538cc19809.jpg)
+![](images/4295247a17b1f2e33c8f81716cfe444d29b085a008221f0debc969538cc19809.webp)
 
-![](images/7dafb92ad99016a864d63775d436748937aea3a9266ffda16ad7f57cc46767bc.jpg)
+![](images/7dafb92ad99016a864d63775d436748937aea3a9266ffda16ad7f57cc46767bc.webp)
 
-![](images/6374098ec2420eae2088afb3fe30a20989d87a94833d552b271a51e427f38cef.jpg)
+![](images/6374098ec2420eae2088afb3fe30a20989d87a94833d552b271a51e427f38cef.webp)
 
-![](images/c46053af0c7ad044a4fa2e0670248b1c1dd7d48c54119a679082704bbf0e5052.jpg)
+![](images/c46053af0c7ad044a4fa2e0670248b1c1dd7d48c54119a679082704bbf0e5052.webp)
 
-![](images/eeda106c110c957e0d9d14eb04d2551bb53c833f2e6a3ec41994831b71a89507.jpg)
+![](images/eeda106c110c957e0d9d14eb04d2551bb53c833f2e6a3ec41994831b71a89507.webp)
 
-![](images/91634b45bee2fe1e2548699fb395f797a2465f5a796a693444cd192fd007c0e7.jpg)
+![](images/91634b45bee2fe1e2548699fb395f797a2465f5a796a693444cd192fd007c0e7.webp)
 
-![](images/ce09e9c719177d9ff1edb1ddb927e1d1e89a5e70b9a74093ec2fbe94f38d7468.jpg)
+![](images/ce09e9c719177d9ff1edb1ddb927e1d1e89a5e70b9a74093ec2fbe94f38d7468.webp)
 
-![](images/29de01cb521f930e035532f94db6533a4ecbf7710540519b50cd768fb193685c.jpg)
+![](images/29de01cb521f930e035532f94db6533a4ecbf7710540519b50cd768fb193685c.webp)
 
-![](images/e26f040aabd800e31ab4905d679dda1b3864a93833648a2c80b75716570dcfb2.jpg)
+![](images/e26f040aabd800e31ab4905d679dda1b3864a93833648a2c80b75716570dcfb2.webp)
 
-![](images/4d1efb47436c3e79e57dbd4877239bede93aaabb5a9156cb68f87a7e52773e7c.jpg)
+![](images/4d1efb47436c3e79e57dbd4877239bede93aaabb5a9156cb68f87a7e52773e7c.webp)
 
 # 11.3 What Are Requirements?
 
@@ -99,10 +99,10 @@ During the early stages of development, requirements may emerge in the
 •  As a <group traveler>, I want <to choose from a range of potential vacations that suit the group’s preferences> so that <the whole group can have a good time>.   
 As a <group traveler>, I want <to know the visa restrictions for everyone in the group> so that <visas can be arranged for everyone in the group in plenty of time>.
 
-![](images/422ac76f5c558a7c70ca678982faac301195deb923de67435e6ddfac005b9128.jpg)  
+![](images/422ac76f5c558a7c70ca678982faac301195deb923de67435e6ddfac005b9128.webp)  
 (a)
 
-![](images/8209a34b6dd051e731e8326af66e4e0a7acebf4c17bc6a165551cdec5de7e9dd.jpg)  
+![](images/8209a34b6dd051e731e8326af66e4e0a7acebf4c17bc6a165551cdec5de7e9dd.webp)  
 (b)   
 Figure 11.1 (a) An example requirement expressed using an atomic requirements shell from Volere (b) the structure of an atomic requirements shell
 
@@ -254,13 +254,13 @@ Tero Jokela et al. (2015) studied how people currently combine multiple inf
 
 (Continued)
 
-![](images/977a52950df15d0bbe5691d1a76bad1bc3313a44cf47a259c5fa612bc387c69d.jpg)
+![](images/977a52950df15d0bbe5691d1a76bad1bc3313a44cf47a259c5fa612bc387c69d.webp)
 
-![](images/7a9c353a698b40904b98d71a1160dbc070c3e7e88938ed8866fd6cb47c46389a.jpg)
+![](images/7a9c353a698b40904b98d71a1160dbc070c3e7e88938ed8866fd6cb47c46389a.webp)
 
-![](images/1ac0984126bd2eb1c305bc20641be49724b2af0e95e2eafb1cf02ee019af4b04.jpg)
+![](images/1ac0984126bd2eb1c305bc20641be49724b2af0e95e2eafb1cf02ee019af4b04.webp)
 
-![](images/35d7007c3c5f480870b15fdb6d8168025372e41380583d191758cd4760c056c1.jpg)  
+![](images/35d7007c3c5f480870b15fdb6d8168025372e41380583d191758cd4760c056c1.webp)  
 (b)   
 Figure 11.3 (a) The image shown to participants in the first study (b) the smartphone diary app for the second study
 
@@ -284,7 +284,7 @@ The idea of a probe was first developed during the Presence Project 
 
 Inspired by this original cultural probe idea, different forms of probes have been adapted and  adopted for  a range of purposes (Boehner et al., 2007). For  example, design probes are objects whose form relates specifically to a particular question and context. They are intended to gently encourage people to engage with and answer the question in their own context. Figure 11.4 illustrates another kind—a diary probe—used to explore how technology can support adolescents to document their experience of chronic conditions, such as cancer and lupus, so that they can be shared. By using this probe with 12 adolescent-parent pairs, Matthew Hong and colleagues (2020) suggested three areas for support: scaffolding to help patients learn about and represent their experiences; data sharing models to identify appropriate timing, types, and level of detail for sharing health-related information between family members; and artifacts that can bridge between traditional quantitative measures of tracking and more personal narratives.
 
-![](images/e5b1da12dd352bb77a97743086af840c7beb35f7c97e39f3b6d7d27689f76c74.jpg)  
+![](images/e5b1da12dd352bb77a97743086af840c7beb35f7c97e39f3b6d7d27689f76c74.webp)  
 Figure 11.4 Two  diary  probe kits were provided for each patient-parent pair, consisting of diary booklets, experience sticker sheets, markers and pencils, self-addressed stamped envelope, and an optional camera.
 
 Source: Matthew Hong et al. (2020). Reproduced with permission of ACM Publications
@@ -359,7 +359,7 @@ When  used in  combination, personas  and scenarios  complement each ot
 This article by Jared Spool explains why personas on their own are not enough and why scenarios also need to be developed: medium.com/user-interface-22/when-it-comes-to-personas-thereal-value-is-in-the-scenarios-4405722dd55c.
 
 Figure 11.5 The relationship between a scenario and its associated persona   
-![](images/27fb0c9a1cd0b9a3eead561540c3db64a8fad24a3857cd121861aaec84f0df2a.jpg)
+![](images/27fb0c9a1cd0b9a3eead561540c3db64a8fad24a3857cd121861aaec84f0df2a.webp)
 
 Source: www.smashingmagazine.com/2014/08/06/a-closer-look-at-personas-part-1. Reproduced with permission of Smashing Magazine
 
@@ -383,10 +383,10 @@ The details included in a persona can be influential in the design p
 ? Supports the kind of reasoning that says, “What would Bill (persona 1) do in this situation with the product?” and “How would Clara (persona 2) respond  if the product  behaved this way?”   
 • Contains only  information that is  pertinent to the product  being developed. It does  not attempt to capture the whole person but is only a lens to highlight relevant attitudes and specific  context  associated  with  the  focus  (Nielsen, 2019).  For  example, personas  for a shared travel organizer would focus on  travel-related behavior and attitudes rather than the newspapers the personas read or where they buy their clothes. On the other hand, personas for a shopping center navigation system might consider these aspects.
 
-![](images/02fab47cd002adcfe80865e9a57b45069b5698a3c1974364432c397feb621895.jpg)  
+![](images/02fab47cd002adcfe80865e9a57b45069b5698a3c1974364432c397feb621895.webp)  
 Figure5.Examplepersona "Lena." Photo by RODNAEProductions from Pexels.
 
-![](images/034c05725ded424751204352f7dc34709fe74f04fe94f4f8c94914c982ac6bdb.jpg)  
+![](images/034c05725ded424751204352f7dc34709fe74f04fe94f4f8c94914c982ac6bdb.webp)  
 Figure6.ExamplepersonaJulien.Photoby ELEVATE from Pexels.   
 Figure 11.6 Two of the eight personas derived for the autonomous taxi service Source: Hallewell, et al. (2022) Deriving Personas to Inform HMI Design for Future Autonomous Taxis: A Case Study on User Requirement Elicitation, Journal of Usability Studies, 17(2), 41–64
 
@@ -404,13 +404,13 @@ These can be drawn by hand, or they can be developed in PowerPoint, for 
 
 The personas shown in Figure 11.7 were developed for a father and his daughter using templates from xtensio.com/templates.
 
-![](images/1b6f68379970adbf064d80dac461d38d59d32d70b276416f011badf1a8e0ac60.jpg)
+![](images/1b6f68379970adbf064d80dac461d38d59d32d70b276416f011badf1a8e0ac60.webp)
 
 # Young traveler
 
-![](images/2a0d4f84b32adcda02cc54ede444723c6b5ee0a3fb3a3fb177e9706003dc71de.jpg)
+![](images/2a0d4f84b32adcda02cc54ede444723c6b5ee0a3fb3a3fb177e9706003dc71de.webp)
 
-![](images/f51602c4a132121fb026e589ee9386afb796c027c9f19cbccf31f3d3d542b30d.jpg)
+![](images/f51602c4a132121fb026e589ee9386afb796c027c9f19cbccf31f3d3d542b30d.webp)
 
 Energetic
 
@@ -426,13 +426,13 @@ Lkes noading
 
 #
 
-![](images/f21a03df22e6a17eb962bfcdf9e42f7521be5ccadf3fd5a189bc63c2d5eb9dde.jpg)
+![](images/f21a03df22e6a17eb962bfcdf9e42f7521be5ccadf3fd5a189bc63c2d5eb9dde.webp)
 
 #
 
-![](images/4b96537e92ea26ec3308a4aaadccd23a1593799f961a5804a86775b5d8ba6214.jpg)
+![](images/4b96537e92ea26ec3308a4aaadccd23a1593799f961a5804a86775b5d8ba6214.webp)
 
-![](images/62e8e5287be959221a4ffc1107cadd5dde46aebd332ebea61b80f0aa1f9d0639.jpg)  
+![](images/62e8e5287be959221a4ffc1107cadd5dde46aebd332ebea61b80f0aa1f9d0639.webp)  
 Figure 11.7 Two personas for the group travel organizer
 
 # 11.5.2  Scenarios
@@ -447,7 +447,7 @@ seeming realistic. An unsuspecting customer uses the app to “try out” a 
 
 A  more  elaborate  scenario format  was used  by  Madeline Hallewell  et  al. (2022)  who also devised the personas Lena and Julien introduced in the previous section. These scenarios contain quite a lot of information including quotes from interviews, the stages of the journey, and the context for the journey. An example is  shown in Figure 11.8. Note that these scenarios capture existing behavior, before the autonomous service is introduced.
 
-![](images/175741b93bc8b7d7abb0ae60a9c69aee591cb6719cbc81452d4ae4b4575f1380.jpg)  
+![](images/175741b93bc8b7d7abb0ae60a9c69aee591cb6719cbc81452d4ae4b4575f1380.webp)  
 Figure8. Example scenario "Mary:Going to Church." Photo by Andrea Piacquadiq from Pexels   
 Figure 11.8 Scenario developed for persona Mary traveling to church. This scenario format includes a wide range of information to complement the central scenario story.
 
@@ -546,7 +546,7 @@ They may be used in design to think about the new interaction being�
 (a)
 
 Figure 11.9 (a) Two example scenarios and (b) screen captures of the animated scenarios used to explore the design of technologies around food practices at home   
-![](images/f7b554c47e97a619ee822b650979d1006d906d8096331daccab7e856a0be5ef7.jpg)  
+![](images/f7b554c47e97a619ee822b650979d1006d906d8096331daccab7e856a0be5ef7.webp)  
 Source: Tommy Nilsson, et al.  (2020). Visions, Values, and Videos: Revisiting Envisionings in Service of UbiComp Design for the Home, DIS ‘20: Proceedings of the 2020 ACM Designing Interactive Systems Conference, Pages 827– 839 doi-org.libezproxy.open.ac.uk/10.1145/3357236.3395476. Reproduced with permission of ACM Publication
 
 The  first  style focuses  on  the  division  of tasks  between  the  product  and the  user.  For example, Figure 11.10 illustrates an example of this kind of use  case, focusing  on the visa requirements functionality of the group travel organizer. Note that nothing is said about how

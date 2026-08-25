@@ -22,7 +22,7 @@ Software applications are increasingly delivered online, without printed manuals
 
 In-app guides should not be the first line of help; that task should be handled by guided tours or overlays. Instead, in-app guides should be a reference for detailed information on using complex functions. If your app is a complex pro tool, your users will appreciate the inclusion of the guide in-app so that they don't have to go looking for it on your website, and even more so if the guide's table of contents is hyperlinked, and the guide itself is full-text searchable, well-indexed, and printable.
 
-![](images/4d702614ad51cf9d9aedb6434388255394aaafce0bf5f8dea367db56337b245d.jpg)  
+![](images/4d702614ad51cf9d9aedb6434388255394aaafce0bf5f8dea367db56337b245d.webp)  
 Figure 16-9: Steinberg's Cubasis app has a sophisticated help system that includes a searchable in-app user guide, as well as links to user forums and video tutorials.
 
 # Customizability

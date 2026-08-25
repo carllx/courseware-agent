@@ -40,7 +40,7 @@ This rollercoaster set of emotions is what many of us experience when
 Have you seen one  of the terminals shown in Figure 6.1 at an airport after you have gone through security? Were you drawn toward it, and did you respond? If so, which smiley button did you press?
 
 Figure 6.1  A Happyornot terminal located after security at Heathrow Airport   
-![](images/25e64a045d0f10d63c883dfcf925accd7fe705ce209fe03f4ad8e9b4226a37ad.jpg)  
+![](images/25e64a045d0f10d63c883dfcf925accd7fe705ce209fe03f4ad8e9b4226a37ad.webp)  
 Source: www.rsrresearch.com/research/why-metrics-matter. Used courtesy of Retail Systems Research
 
 # Comment
@@ -55,7 +55,7 @@ Should an interface be designed to try to keep a person happy when 
 
 Advertising agencies have developed a number of techniques to influence people’s emotions. Examples include showing a picture of a cute animal or a child with hungry, big eyes on a website that “pulls at the heartstrings.” The goal is to make people feel sad or upset at what they  observe and make them want to do something to help, such as making a donation. Figure 6.2, for example, shows a web page that has been designed to trigger a strong emotional response in the viewer.
 
-![](images/d14f5ca227d5f13b259d70755471caf55ddd982442ebf4ab99b136c6078e3730.jpg)  
+![](images/d14f5ca227d5f13b259d70755471caf55ddd982442ebf4ab99b136c6078e3730.webp)  
 Figure 6.2  A web page from Crisis (a UK homelessness charity)
 
 Source: Crisis UK
@@ -94,7 +94,7 @@ There  has been much research investigating the influence  of emotions on d
 
 What are  the  effects  of listening to music  while driving? An early  study  by Christelle Pêcher et al. (2009) found that people slowed down while driving in a car simulator when they listened to either happy or sad music, as compared to neutral music. This effect is thought to be due to the drivers focusing their attention on the emotions and lyrics of the music. Listening to happy music was also found not only to slow drivers down, but to distract them more by reducing their ability  to stay in their lane. This did  not happen with the  sad music. More recently, research has shown how fast, loud, and rhythmic music can lead to riskier driving behavior (such  as driving  faster or overtaking)  when in demanding  urban  settings (Karageorghis et al., 2022). It seems it is preferable to listen to slow music when driving conditions are stressful!
 
-![](images/d6cbdc7ba0d7b67123f028311e7387fa52243a17722415abaf50feca99dccf33.jpg)  
+![](images/d6cbdc7ba0d7b67123f028311e7387fa52243a17722415abaf50feca99dccf33.webp)  
 “It's a very user-friendly model."   
 Source: Jonny Hawkins / Cartoon Stock
 
@@ -103,14 +103,14 @@ Understanding how emotions work provides a way of considering how to 
 Anthony Ortony, Don Norman, and William Revelle (2005) developed a classic model of emotion and behavior couched in terms of different “levels” of the brain. At the lowest level are parts of the brain that are prewired to respond automatically to events happening in the physical world. This is called the visceral level. At the next level are the brain processes that control everyday behavior. This is  called the behavioral level. At  the highest level are brain processes  involved in contemplating. This is  called  the reflective level (see Figure 6.3). The visceral level responds rapidly, making judgments about what is good or bad, safe or dangerous, pleasurable or abhorrent. It also triggers the emotional responses to stimuli (for instance fear, joy, anger, and sadness) that are expressed through a combination of physiological and behavioral responses. For example, many people will experience fear on seeing a very large hairy spider running across the floor of the bathroom, causing them to scream and run away. The  behavioral level  is  where most  human  activities  occur. Examples include  well-learned routine  operations such as  talking, typing, and swimming. The reflective level entails conscious thought where people generalize across events or step back from their daily routines. An example is switching between  thinking about the narrative structure and special effects used in a horror movie and becoming scared at the visceral level when watching the movie.
 
 Figure 6.3  Anthony Ortony et al.’s (2005) model of emotional design showing three levels: visceral, behavioral, and reflective   
-![](images/1b5afb9dad3521a9ecd92ae450e54e21d46510c9a5fcb747d5f5d1536c83595e.jpg)  
+![](images/1b5afb9dad3521a9ecd92ae450e54e21d46510c9a5fcb747d5f5d1536c83595e.webp)  
 Source: Adapted from Norman (2005), Figure 1.1
 
 One  way of using the model is  to think about how  to design products in terms of the three levels. Visceral design refers to making products look, feel, and sound good. Behavioral design is about use and equates to the traditional values of usability. Reflective design is about considering the meaning and personal value of a product in a particular culture. For example, the design of a Swatch watch (see Figure 6.4) can be viewed in terms of the three levels. The  use  of cultural  images  and  graphical  elements  is  designed  to  appeal  to  certain people at the reflective  level; its affordances of use at the behavioral level, and the brilliant colors, wild designs, and art attract  their attention at the visceral  level. They are combined to create  the  distinctive  Swatch  trademark that  expresses  style  and personality. Designing to induce different levels of emotional responses, however, also requires understanding who the target audience is and what the context of use will be. Swatch customers are likely to be young and fashion conscious.
 
 Another  model  that has  been used to  inform interaction design  is Plutchik’s Wheel of Emotions, originally developed in 1980  (Interaction Design  Foundation, 2021). Figure 6.5 shows how the wheel categorizes human emotions  into seven well-known emotions: anger, disgust, fear, sadness, anticipation, joy, and surprise. It  also includes trust as another one— which is not usually considered as an emotion. Alongside these typical responses are labels (optimism, love, submission, awe, disproval, remorse, contempt, aggressiveness). Other emotions are considered to be a combination of, or derived from, these. The colors used in the wheel reflect the intensity of an emotion: the darker the shade, the more intense the emotion is. Thus, the emotions in the middle of the wheel are seen as more intense; for example, rage is shown in the  middle of the circle as blood red, whereas anger is shown on the outside of the circle in light red. The wheel can be used as a “color palette” akin to a UX mood board. By selecting and blending  different emotions  from the wheel a designer can begin to think about  how to elicit different  kinds and levels of emotional  response. In essence, the wheel provides an initial way of exploring the possible effects of triggering different combinations of adjacent (e.g., serenity and pensiveness) and nonadjacent emotions for different stages of a user experience. It does not, however, instruct the designer on how to design for a selection of emotions.
 
-![](images/e533d3c4b0a1bad33235de8783c17dccac39f78c291c949b5e29f8bcc3429d0e.jpg)  
+![](images/e533d3c4b0a1bad33235de8783c17dccac39f78c291c949b5e29f8bcc3429d0e.webp)  
 Figure 6.4  A Swatch watch called Dip in Color Source: SWATCH AG
 
 # ACTIVITY 6.2
@@ -122,7 +122,7 @@ How do Ortony et al.’s (2005) model of emotional design and Plutchik’s 
 Ortony et al.’s  model describes  emotions in terms of how  humans have different  levels of emotional responses depending on how they perceive and interact with a product, whereas Plutchik’s wheel depicts the range of human emotions and how they vary in level of intensity. Both are useful as conceptual tools for thinking about what kinds of behavior and emotions to design for. However, a games designer still has to make the leap in determining which specific game features to use to match to the desired emotional states, such as how much excitement and fear to incorporate into a new game. The palette metaphor used by the wheel can help designers consider different  aspects of a game: for example, highlighting the need to design specific mechanisms that can elicit anticipation and surprise at the beginning while avoiding boredom and distraction later.
 
 Figure 6.5  Plutchik’s wheel of emotions   
-![](images/bb5db99c82a370c6afabeda2b35e0e5a2512bc0443ce1808cd0485330f085cb9.jpg)  
+![](images/bb5db99c82a370c6afabeda2b35e0e5a2512bc0443ce1808cd0485330f085cb9.webp)  
 Source: Machine Elf 1735 / Wikimedia / CC BY
 
 # 6.3  Expressive Interfaces: Aesthetic or Annoying?
@@ -134,7 +134,7 @@ Many websites, online shopping sites, and apps have been designed usin
 emotions  of anticipation,  joy, and excitement  as well  as capturing  the  current zeitgeist  of fashion, design, hipness, and youth.
 
 Figure 6.6  An image used on the landing page of Levis.com (at the time of writing this chapter) conveying coolness, sustainable materials, a grungy background, and aesthetic fonts   
-![](images/1bab7068f5c606e04944074f228317131760a6931d16d55a7a30510afb3a121e.jpg)  
+![](images/1bab7068f5c606e04944074f228317131760a6931d16d55a7a30510afb3a121e.webp)  
 Source: LEVI STRAUSS & CO.
 
 Sometimes expressive  features, however, can  turn  out  to  be more  annoying  than  aesthetic. Perhaps most well-known was Clippy, Microsoft’s paperclip that was designed to have human-like qualities to convey friendliness. It typically appeared at the bottom of a person’s screen whenever the system thought they needed help carrying out a particular task (see Figure 6.7a). Its expressiveness was depicted through googly eyes and eyebrows. At first, it was found  to be amusing  and perceived to be helpful. However, after popping up a  few times, many people started to find it annoying and intrusive, distracting them from their work. Its most common intervention was to appear and say, “It looks like you’re writing a letter” and offer to help the user. This might be OK if it happened to be the very first time someone was writing a letter, but not if it were all the other times. Some even found Clippy offensive. There has been much written in the media about the reasons for its failure, including being ahead of its time and its interface poorly designed. For example, The New Yorker (2015) reported that during a focus group that was held to probe why people hated Clippy so much, some of the women present commented on how they thought the character appeared to be too male.
@@ -146,7 +146,7 @@ How can virtual agents be designed to be friendly and helpful without
 to  have  a  pleasant  demeaner  without  trying  to  be  too  human-like  or  overly  personable. Another question often asked is which gender should they have? Many have been portrayed as female. However, this can be seen as gender stereotyping. Instead, a cartoon character of an animal or robot that is gender-free may be preferable.
 
 Figure 6.7  (a) Microsoft’s Clippy and (b) IKEA’s Anna   
-![](images/cae25d806c348e165cd2545fabdd0b99e06846c0f1d9ce013d3d2fb1c3d65705.jpg)  
+![](images/cae25d806c348e165cd2545fabdd0b99e06846c0f1d9ce013d3d2fb1c3d65705.webp)  
 Source: Microsoft Corporation
 
 The  benefits  of  having  aesthetically  pleasing  interfaces  in  relation  to  their  impact  on usability  has  also been  researched.  Noam Tractinsky  (2013), for  example, has  repeatedly shown how the aesthetics of an interface can have a positive effect on people’s perception of the system’s usability. When the look and feel of an interface is pleasing and pleasurable—for example through beautiful graphics or a nice feel or the way that the elements have been put together—people are likely to be more tolerant and prepared to wait a few more seconds for a website to download. Furthermore, good-looking interfaces are generally more satisfying and pleasurable to use.
@@ -162,7 +162,7 @@ The number 404 comes from the HTML language. The first 4 indicates a c
 Seminal research by Byron Reeves and Clifford Nass (1996) suggested that computers should be courteous to users in the same way that people are to one another. They found that people are more forgiving and understanding when a computer says that it’s sorry after making a mistake. A number of companies now provide alternative and more humorous “error” landing pages that are intended to make light of the embarrassing situation and to take the blame away from the user. For example, Figure 6.8 shows a Lego man’s horrified expression that takes the sting away from a person stumbling on a page that does exist.
 
 Figure 6.8  An alternative 404 error message   
-![](images/b3e89e27fd240b6f63d803ab5329cde33631e403a79522b49e3c0ccc40e5c799.jpg)  
+![](images/b3e89e27fd240b6f63d803ab5329cde33631e403a79522b49e3c0ccc40e5c799.webp)  
 Source: Future Publishing Limited Quay House
 
 # DILEMMA
@@ -205,7 +205,7 @@ Affectiva  also  analyzes  drivers’  facial  expressions  when on  the
 
 rate. Again, upon detecting when a threshold has been reached for these facial expressions, the software might trigger an action, such as getting a virtual agent to suggest to the driver that they pull over where it is safe to do so.
 
-![](images/f46df4be1daf419375607e0ee68aad1559a3efe19fcccec3185e61b6f37d34ba.jpg)  
+![](images/f46df4be1daf419375607e0ee68aad1559a3efe19fcccec3185e61b6f37d34ba.webp)  
 Figure 6.9  Facial coding using Affectiva software Source: Affectiva, Inc.
 
 Other  indirect methods that are used to reveal the emotional state of someone include eye-tracking, finger pulse, speech, and the words/phrases they use when tweeting or chatting online. The level of affect expressed by users, the language they use, and the frequency with which they  express themselves when using social media can  all indicate their mental  state, well-being, and aspects of their personality (for instance, whether  they are  an  extrovert or introvert, neurotic or calm, and  so on). Some companies may  try to use  a  combination of these  measures, such  as  facial expressions  and  the language  that people use  when online, while others may focus on just one aspect, such as the tone of their voice when answering questions  over the  phone. This  type  of  indirect  emotion  detection  is  used  to help  infer or predict someone’s behavior, for example, determining their suitability for a job or how they will vote in an election.
@@ -215,7 +215,7 @@ Biometric  data is  also used  in streaming video  games where  specta
 streamer’s heart rate, skin conductance, and emotions. This additional layer of data has been found to enhance the spectator experience and improve the connection between the streamer and spectators. Figure 6.10 shows the  emotional state of a streamer using the All the Feels interface.
 
 Figure 6.10 All the Feels app showing the biometric data of a streamer playing a video game   
-![](images/a299452345b4e3899fbde909a4fef64079521049e8a68faa5f9db76fb9f37272.jpg)  
+![](images/a299452345b4e3899fbde909a4fef64079521049e8a68faa5f9db76fb9f37272.webp)  
 Source: Courtesy of Katherine Isbister
 
 # 6.4.2  Tracking and Reflecting on Moods
@@ -234,7 +234,7 @@ Autonomous sensory meridian response (ASMR) is a tingling body sensation tha
 
 Virtual  reality  has  also been  developed  to  enable people  to  explore  their  moods. For example, Nadine Wagener  and colleagues  (2022) developed Mood Worlds—a VR application that enables people to visualize their moods by creating their own virtual space using 3D digital tools (see Figure 6.11). The use of this kind of 3D digital painting to explore participants’ feelings was found to lead to increased happiness and positivity.
 
-![](images/c6f5a867f7d9ca1f5d05fe7ba589e95b9819b791a61c066b34d0e9d37de681c6.jpg)  
+![](images/c6f5a867f7d9ca1f5d05fe7ba589e95b9819b791a61c066b34d0e9d37de681c6.webp)  
 Figure 6.11 A participant using the VR app Mood Worlds to visualize and explore their emotions Source: Wagener et al., 2022
 
 # BOX 6.3
@@ -252,7 +252,7 @@ A diversity of techniques has been used at the interface to draw peo
 Technology interventions have also been developed to change people’s behaviors in other domains  besides commerce, including  safety, preventative healthcare, fitness, personal  relationships, sustainability,  and learning. Here  the  emphasis  is  on  changing someone’s habits or  doing something that  will improve  an  individual’s  well-being  through monitoring  their behavior. One of the earliest commercial examples was Nintendo’s Pokémon Pikachu device (see Figure 6.12) that was designed to motivate children into being more physically active on a consistent basis. The owner of the digital pet that lives in the device was required to walk, run, or jump each day to keep it alive. The wearer received credits for each step taken—the currency being watts that could be used to buy Pikachu presents. Twenty steps on the pedometer rewarded the player with 1 watt. If the owner did not exercise for a week, the virtual pet became angry and refused to play anymore. This use of positive rewarding and sulking can be a powerful means of persuasion, given that children often become emotionally attached to their virtual pets, especially when they start to care for them.
 
 Figure 6.12 Nintendo’s Pokémon Pikachu device   
-![](images/1103c6305bf1e6228a90a4f0ea24bea939f405fd872d902c079a67528b66b630.jpg)  
+![](images/1103c6305bf1e6228a90a4f0ea24bea939f405fd872d902c079a67528b66b630.webp)  
 Source: Nintendo
 
 # ACTIVITY 6.4
@@ -282,7 +282,7 @@ Another  influencing  factor  is  social  norms.  In  a classic  study�
 In contrast to the Schultz study, where each household’s energy consumption was kept private,  the  Tidy Street  project  (Bird  and  Rogers,  2010)  that  was  run  in  Brighton  in  the United Kingdom created a large-scale visualization of the street’s electricity usage by spraying a stenciled display on the road surface using chalk (see Figure 6.13). The public display was updated each day to represent how the average electricity usage of the street compared to the city of Brighton’s average. The goal was to provide real-time feedback that all of the homeowners and the general public could see change each day over a period of three weeks. The street graph also proved to be very effective in getting people who lived on Tidy Street to talk to each other about their electricity consumption and habits. It also encouraged them to talk with the many passersby who walked up and down the street. The outcome was to reduce electricity consumption in the street by 15 percent, which was considerably more than other projects in this area have been able to achieve.
 
 Figure 6.13 Aerial view of the Tidy Street public electricity graph   
-![](images/b039f40339429cf9a25da74d73ebec5e208d9baeb63f16db23dada2ef063baf7.jpg)  
+![](images/b039f40339429cf9a25da74d73ebec5e208d9baeb63f16db23dada2ef063baf7.webp)  
 Source: Yvonne Rogers
 
 # BOX 6.4
@@ -309,12 +309,12 @@ Early robot pets, such as Sony’s AIBO, were made of hard materials that m
 
 (Continued)
 
-![](images/cb6cbcfd5b1c3d3766ffaecb9cbb56b5046fdf7863d6075857993900f90d731b.jpg)  
+![](images/cb6cbcfd5b1c3d3766ffaecb9cbb56b5046fdf7863d6075857993900f90d731b.webp)  
 (a)
 
 (b)   
 Figure 6.14 Robot pets: (a) Aibo and (b) The Haptic Creature   
-![](images/a4950fef1f936ccef38bcb7d26b2b64c540548ad66f9c291a190d2ccffdfb7a9.jpg)  
+![](images/a4950fef1f936ccef38bcb7d26b2b64c540548ad66f9c291a190d2ccffdfb7a9.webp)  
 Source: (a) Jennifer Preece (Author), (b) Courtesy of Steve Yohanan. Photo by Martin Dee
 
 # Comment
@@ -326,7 +326,7 @@ A  number  of  commercial physical  robots have  been developed  specif
 robots like Stevie playing an entertaining and motivating role alongside human caregivers, it should always be remembered that they can never match the human touch and warmth that patients need.
 
 Figure 6.15 Stevie the robot entertaining residents while at a retirement home   
-![](images/56737c86c0d7014c01ae87982ed4183cbf541e242899e916b6d6412fe70cc9b4.jpg)  
+![](images/56737c86c0d7014c01ae87982ed4183cbf541e242899e916b6d6412fe70cc9b4.webp)  
 Source: www.nature.com/articles/d41586-022-00072-z
 
 # In-Depth Activity

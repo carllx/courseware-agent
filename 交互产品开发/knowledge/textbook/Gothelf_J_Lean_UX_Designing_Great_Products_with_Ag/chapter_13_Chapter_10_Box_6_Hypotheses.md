@@ -1,6 +1,6 @@
 # Chapter 10. Box 6: Hypotheses
 
-![](images/assets/lux3_1001.png)
+![](images/assets/lux3_1001.webp)
 
 ###### Figure 10-1. Box 6 of the Lean UX Canvas: Hypotheses
 
@@ -63,7 +63,7 @@ physically move our Post-it notes into the appropriate boxes to make
 rows of related ideas. Each column is directly related to a specific box
 of the canvas, from Box 2 on the left to Box 5 on the right.
 
-![](images/assets/lux3_1002.png)
+![](images/assets/lux3_1002.webp)
 
 ###### Figure 10-2. A hypothesis table
 
@@ -83,7 +83,7 @@ becomes even easier. Copy and paste your notes from other parts of the
 canvas into Box 6 and move them around as necessary to complete the
 chart.
 
-![](images/assets/lux3_1003.png)
+![](images/assets/lux3_1003.webp)
 
 ###### Figure 10-3. Working on the hypothesis chart
 
@@ -187,7 +187,7 @@ will challenge our design capabilities. In this case, we don’t normalize
 for a specific type of risk so we can consider all aspects of risk for
 each hypothesis.
 
-![](images/assets/lux3_1004.png)
+![](images/assets/lux3_1004.webp)
 
 ###### Figure 10-4. The Hypothesis Prioritization Canvas
 

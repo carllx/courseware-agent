@@ -195,18 +195,18 @@ One of the most commonly used high-level structural patterns in the desktop appl
 
 This pattern is optimal for full-screen applications that require user access to many different kinds of objects, manipulation of those objects in groups, and display of detailed content or attributes of individual objects or documents. The pattern permits all this to be done smoothly in a single screen without the need for additional windows. Many e-mail clients use this pattern, and variations of it appear in many authoring and information management tools where rapid access to and manipulation of various types of objects is common.
 
-![](images/acb997cc326057fdad50943e1826178887925363890d5a38e0608e15a8291c15.jpg)  
+![](images/acb997cc326057fdad50943e1826178887925363890d5a38e0608e15a8291c15.webp)  
 Figure 7-1: The primary structural pattern used by Microsoft Outlook is widely used throughout the industry, across many diverse product domains. The left-vertical pane provides navigation and drives the content of the overview pane in the upper right. A selection in this pane populates the lower-right pane with detail or document content.
 
 # Mobile: Double Printer
 
 Pioneered by Facebook and Path mobile apps, drawers that are exposed by swiping the main content view to the right (to expose the left drawer) or left (to expose the right drawer) are now common in many mobile apps on iOS and Android (see Figure 7-2). The left drawer typically contains primary navigation for the mobile app. The right drawer, when it exists, typically is used for access to an ancillary list of objects (such as friends in the case of Facebook).
 
-![](images/0b0190161692b617a89c95831192d272015ce31bb762dcebbb127f25aa39e490.jpg)
+![](images/0b0190161692b617a89c95831192d272015ce31bb762dcebbb127f25aa39e490.webp)
 
-![](images/0ca0e6e14bad2176475435b0389900ef4b7086b8687c25872308cedede05f7c5.jpg)
+![](images/0ca0e6e14bad2176475435b0389900ef4b7086b8687c25872308cedede05f7c5.webp)
 
-![](images/5224ac71df6ef21c637770054523cf70cdb2026b0e2ef1fb62f4987a2bc25099.jpg)  
+![](images/5224ac71df6ef21c637770054523cf70cdb2026b0e2ef1fb62f4987a2bc25099.webp)  
 Figure 7-2: Facebook's Double Printer is another structural pattern that has become nearly as ubiquitous for mobile apps as the Organizer-Workspace pattern has for desktop apps. The printer on the left provides navigation and drives the app's content view. The pane on the right is used for rapid global access to a list of ancillary objects—in this case, your Facebook friends.
 
 Like the Organizer-Workspace pattern, the Double Printer is almost perfectly optimized for its context—in this case, mobile rather than desktop. Swiping across the main content pane to reveal lists of navigation or communications options is a simple gross motor action, ideal for one-handed use. Selecting from the open drawers is similarly easy to do with the thumb, and the animated opening and shutting of the drawers is aesthetically satisfying as well. It's no wonder this pattern has been so quickly and widely adopted.

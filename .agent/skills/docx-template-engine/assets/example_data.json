@@ -1,0 +1,10 @@
+{
+  "name": "Antigravity",
+  "null_text": "",
+  "zero_val": 0,
+  "false_val": false,
+  "table_items": [
+    "apple",
+    "banana"
+  ]
+}

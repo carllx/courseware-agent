@@ -222,11 +222,11 @@ flowchart TD
    ## 作品系列 #1：阅读之光
    
    ### 插画作品
-   - 文件名：`01-reading-light-illustration.jpg`
+   - 文件名：`01-reading-light-illustration.webp`
    - 创作概念：书页间流淌的光，温柔地照亮每一个深夜的梦想
    
    ### 衍生产品
-   - 文件名：`01-cat-lamp-product.jpg`
+   - 文件名：`01-cat-lamp-product.webp`
    - 产品名称：阅读之光猫咪台灯
    - 产品参数：陶瓷底座，LED光源，定价¥268
    - 灵感关联：将插画中的"光与书"元素实体化，台灯设计成猫咪形态守护阅读时光

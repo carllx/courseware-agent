@@ -9,9 +9,9 @@ actually saturated quite heavily:
 This saturation is what makes some greys feel cool and other greys feel
 warm.
 
-![](images/index-159_1.png)
+![](images/index-159_1.webp)
 
-![](images/index-159_2.png)
+![](images/index-159_2.webp)
 
 159
 
@@ -49,5 +49,5 @@ other.
 
 Greys don’t have to be grey
 
-![](images/index-162_1.png)
+![](images/index-162_1.webp)
 

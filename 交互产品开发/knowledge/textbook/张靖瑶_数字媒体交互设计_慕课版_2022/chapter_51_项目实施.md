@@ -12,13 +12,13 @@
 
 微课视频
 
-![](images/EPUB/images/image_577.jpg)
+![](images/EPUB/images/image_577.webp)
 
 ▲墨刀高保真交互效果制作
 
 ▼微课视频
 
-![](images/EPUB/images/image_578.jpg)
+![](images/EPUB/images/image_578.webp)
 
 墨刀高保真状态功能讲解
 
@@ -30,21 +30,21 @@
 
 ① 使用元件库中的元件进行底部导航栏的制作，如图5-79所示。根据需要选择导航栏图片，如图5-80所示。
 
-![](images/EPUB/images/image_579.jpg)
+![](images/EPUB/images/image_579.webp)
 
 ▲图5-78 底部导航栏切换效果
 
-![](images/EPUB/images/image_580.jpg)
+![](images/EPUB/images/image_580.webp)
 
 ▲图5-79 底部导航栏
 
-![](images/EPUB/images/image_581.jpg)
+![](images/EPUB/images/image_581.webp)
 
 图5-80 替换图片
 
 ② 选中底部导航栏组件，在右侧的“外观”面板中单击“添加组件状态”按钮，如图5-81所示。
 
-![](images/EPUB/images/image_582.jpg)
+![](images/EPUB/images/image_582.webp)
 
 图5-81 为底部导航栏组件添加组件状态
 
@@ -54,23 +54,23 @@
 
 ⑤ 修改学习状态中的首页和学习的图标样式，如图5-85和图5-86所示。
 
-![](images/EPUB/images/image_583.jpg)
+![](images/EPUB/images/image_583.webp)
 
 ▲图5-82 “复制状态”按钮
 
-![](images/EPUB/images/image_584.jpg)
+![](images/EPUB/images/image_584.webp)
 
 ▲图5-83 复制状态
 
-![](images/EPUB/images/image_585.jpg)
+![](images/EPUB/images/image_585.webp)
 
 ▲图5-84 修改状态的名称
 
-![](images/EPUB/images/image_586.jpg)
+![](images/EPUB/images/image_586.webp)
 
 ▲图5-85 修改首页的图标样式
 
-![](images/EPUB/images/image_587.jpg)
+![](images/EPUB/images/image_587.webp)
 
 图5-86 修改学习的图标样式
 
@@ -80,15 +80,15 @@
 
 ⑧ 按照相同的方法，修改其他3个状态的导航栏样式，最终状态如图5-89所示。
 
-![](images/EPUB/images/image_588.jpg)
+![](images/EPUB/images/image_588.webp)
 
 ▲图5-87 学习状态下的导航栏样式
 
-![](images/EPUB/images/image_589.jpg)
+![](images/EPUB/images/image_589.webp)
 
 ▲图5-88 快速替换其他状态中元件的样式
 
-![](images/EPUB/images/image_590.jpg)
+![](images/EPUB/images/image_590.webp)
 
 图5-89 其他3个状态的导航栏样式
 
@@ -96,21 +96,21 @@
 
 ① 给每个状态的导航栏按钮覆盖一个“链接区域”元件，如图5-90所示，效果如图5-91所示。
 
-![](images/EPUB/images/image_591.jpg)
+![](images/EPUB/images/image_591.webp)
 
 ▲图5-90 添加“链接区域”元件
 
-![](images/EPUB/images/image_592.jpg)
+![](images/EPUB/images/image_592.webp)
 
 图5-91 覆盖“链接区域”元件后的样式
 
 ② 单击导航栏组件状态，单击鼠标右键，在快捷菜单中选择“转换为母版”命令，如图5-92所示，命名为“底部导航栏Copy”，如图5-93所示。转换为母版后，组件状态的样式和交互链接有继承性，稍后设置链接时就不需要重复设置了。
 
-![](images/EPUB/images/image_593.jpg)
+![](images/EPUB/images/image_593.webp)
 
 ▲图5-92 将底部导航栏转换为母版
 
-![](images/EPUB/images/image_594.jpg)
+![](images/EPUB/images/image_594.webp)
 
 图5-93 母版命名
 
@@ -118,21 +118,21 @@
 
 ④ 把设置好的导航栏母版，放在每个页面的下方，并且设置运行时固定在页面底部，如图5-96所示。
 
-![](images/EPUB/images/image_595.jpg)
+![](images/EPUB/images/image_595.webp)
 
 ▲图5-94 为“链接区域”元件添加交互链接
 
-![](images/EPUB/images/image_596.jpg)
+![](images/EPUB/images/image_596.webp)
 
 ▲图5-95 状态1链接完成的效果
 
-![](images/EPUB/images/image_597.jpg)
+![](images/EPUB/images/image_597.webp)
 
 图5-96 调整母版位置
 
 每个页面设置完成后，单击右上角的“运行”按钮，预览设置的交互效果：单击下方的导航栏菜单时，会进行导航栏上的高亮选择并显示不同的页面，如图5-97所示。
 
-![](images/EPUB/images/image_598.jpg)
+![](images/EPUB/images/image_598.webp)
 
 图5-97 预览效果
 
@@ -142,7 +142,7 @@
 
 本小节设计和制作TAB标签切换效果。在讲解具体操作前，先看一下TAB标签切换的运行效果：运行时可以看到，TAB标签会变色，TAB标签下的指示条也会跟着移动，下边内容也跟着切换，如图5-98所示。该效果就是利用墨刀的状态切换功能，设置神奇移动效果来实现的。
 
-![](images/EPUB/images/image_599.jpg)
+![](images/EPUB/images/image_599.webp)
 
 图5-98 TAB标签切换效果
 
@@ -152,23 +152,23 @@
 
 ① 在工作区中，对“新闻资讯”页面进行搭建，如图5-99所示。选中“新闻资讯”页面后，单击右侧元件栏中的“状态”按钮，如图5-100所示。
 
-![](images/EPUB/images/image_600.jpg)
+![](images/EPUB/images/image_600.webp)
 
 ▲图5-99 “新闻资讯”页面
 
-![](images/EPUB/images/image_601.jpg)
+![](images/EPUB/images/image_601.webp)
 
 图5-100 添加页面状态
 
 ② 打开“页面状态”面板后，单击“新闻资讯”页面后边的“复制”按钮，复制一个新的页面状态，并改名为“智慧教学”，如图5-101所示。
 
-![](images/EPUB/images/image_602.jpg)
+![](images/EPUB/images/image_602.webp)
 
 图5-101 复制“新闻资讯”页面
 
 ③ 添加“智慧教学”页面后，因为这个页面是复制的“新闻资讯”，所以需要把“智慧教学”页面的内容修改一下。修改后的“智慧教学”页面如图5-102所示。
 
-![](images/EPUB/images/image_603.jpg)
+![](images/EPUB/images/image_603.webp)
 
 图5-102 “智慧教学”页面
 
@@ -184,25 +184,25 @@
 
 ② 在右侧的“事件”面板中，可以看到交互事件的详细设置，如图5-106所示。
 
-![](images/EPUB/images/image_604.jpg)
+![](images/EPUB/images/image_604.webp)
 
 ▲图5-103 调整TAB标签样式
 
-![](images/EPUB/images/image_605.jpg)
+![](images/EPUB/images/image_605.webp)
 
 ▲图5-104 “智慧教学”链接交互
 
-![](images/EPUB/images/image_606.jpg)
+![](images/EPUB/images/image_606.webp)
 
 ▲图5-105 “新闻资讯”链接交互
 
-![](images/EPUB/images/image_607.jpg)
+![](images/EPUB/images/image_607.webp)
 
 图5-106 交互事件设置面板
 
 设置完成后，单击墨刀右上角的“运行”按钮进行预览，查看设置的交互效果，切换TAB标签时可以看到指示条的移动和标签的切换效果，如图5-107所示。
 
-![](images/EPUB/images/image_608.jpg)
+![](images/EPUB/images/image_608.webp)
 
 图5-107 预览效果
 
@@ -212,7 +212,7 @@
 
 本小节设计和制作点赞效果。在讲解具体操作前，先看一下点赞效果，如图5-108所示，在点赞时爱心会变成红色，并跳动一下，再次点击就会取消点赞。该效果是利用墨刀工具的状态切换功能，设置元件的动效来实现的。
 
-![](images/EPUB/images/image_609.jpg)
+![](images/EPUB/images/image_609.webp)
 
 图5-108 点赞效果
 
@@ -226,23 +226,23 @@
 
 ③ 为点赞图片设置动效，在状态2中选中心形图片，在右侧的“外观”面板上，打开“动效”下拉列表，选择“橡皮筋”效果，如图5-113所示。
 
-![](images/EPUB/images/image_610.jpg)
+![](images/EPUB/images/image_610.webp)
 
 ▲图5-109 点赞图片和文本说明
 
-![](images/EPUB/images/image_611.jpg)
+![](images/EPUB/images/image_611.webp)
 
 ▲图5-110 “添加组件状态”按钮
 
-![](images/EPUB/images/image_612.jpg)
+![](images/EPUB/images/image_612.webp)
 
 ▲图5-111 组件状态编辑界面
 
-![](images/EPUB/images/image_613.jpg)
+![](images/EPUB/images/image_613.webp)
 
 ▲图5-112 编辑状态2中的点赞样式
 
-![](images/EPUB/images/image_614.jpg)
+![](images/EPUB/images/image_614.webp)
 
 图5-113 点赞动效设置
 
@@ -250,17 +250,17 @@
 
 样式设置完成后，就可以添加交互效果了。在组件状态编辑界面中，设置点赞图片交互链接到状态2，如图5-114所示。在状态2中，设置点赞图片交互链接到状态1，如图5-115所示。这样点赞和取消点赞效果就制作完成了。
 
-![](images/EPUB/images/image_615.jpg)
+![](images/EPUB/images/image_615.webp)
 
 ▲图5-114 点赞交互链接设置
 
-![](images/EPUB/images/image_616.jpg)
+![](images/EPUB/images/image_616.webp)
 
 图5-115 取消点赞交互链接设置
 
 设置完成后，单击右上角的“运行”按钮进行点赞和取消点赞效果的预览，如图5-116所示。
 
-![](images/EPUB/images/image_617.jpg)
+![](images/EPUB/images/image_617.webp)
 
 图5-116 点赞和取消点赞效果
 
@@ -270,7 +270,7 @@
 
 本小节设计和制作图片左右滚动效果。当一行的内容无法一次性全部显示时，可以通过左右滑动鼠标来显示未显示的内容，如图5-117所示。该效果是利用墨刀工具的组件状态来实现的。
 
-![](images/EPUB/images/image_618.jpg)
+![](images/EPUB/images/image_618.webp)
 
 图5-117 图片左右滚动效果
 
@@ -282,23 +282,23 @@
 
 设置完成后单击右上角的“运行”按钮，预览图片左右滚动显示的效果，如图5-122所示。
 
-![](images/EPUB/images/image_619.jpg)
+![](images/EPUB/images/image_619.webp)
 
 ▲图5-118 设置元件
 
-![](images/EPUB/images/image_620.jpg)
+![](images/EPUB/images/image_620.webp)
 
 ▲图5-119 “添加组件状态”按钮
 
-![](images/EPUB/images/image_621.jpg)
+![](images/EPUB/images/image_621.webp)
 
 ▲图5-120 组件状态
 
-![](images/EPUB/images/image_622.jpg)
+![](images/EPUB/images/image_622.webp)
 
 ▲图5-121 调整组件的宽度
 
-![](images/EPUB/images/image_623.jpg)
+![](images/EPUB/images/image_623.webp)
 
 图5-122 预览效果
 

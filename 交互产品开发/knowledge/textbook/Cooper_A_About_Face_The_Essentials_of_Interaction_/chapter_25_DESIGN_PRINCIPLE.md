@@ -29,7 +29,7 @@ For example, when you ask many applications to print a document, they respond by
 
 More reasonable designs have one command to print and another command for print setup. The print command issues a dialog but just goes ahead and prints, using either previous settings or standard settings. The print setup function offers all those choices about paper and copies and fonts. Some applications allow the user to go directly from the configure dialog to printing, or vice-versa.
 
-![](images/c4a97e76e15a632cb87f8a72499e24d7f3b4024c596ba404e58f631c8f27745c.jpg)  
+![](images/c4a97e76e15a632cb87f8a72499e24d7f3b4024c596ba404e58f631c8f27745c.webp)  
 Figure 11-8: The Quick Print control in Microsoft Word offers immediate printing without a dialog box.
 
 The Quick Print control in Microsoft Word offers immediate printing without a dialog box (although unfortunately it is very small and hidden by default—see Figure 11-8). This is perfect for many people, but for those with multiple printers or printers on a network, it may offer too little information. The user may want to see which printer is selected before he either clicks the control or summons the dialog to change it first. This is a good candidate for some simple modeless output placed on a toolbar or status bar. (It is currently provided in the control's ToolTip in the Windows version, which is good, but the feedback could be better still.) Word's print setup user interface (which also includes a Print button) is called Print and is available as a menu item on the File tab of Word's ribbon control (more about that in Chapter 18).
@@ -44,7 +44,7 @@ Thus, most desktop applications have a reasonable rule of thumb: Put immediate a
 
 In the cockpit of every fighter jet is a brightly colored lever that, when pulled, fires a small rocket engine under the pilot's seat (see Figure 11-9). This blows the pilot, still in his seat, out of the aircraft so that he can then parachute safely to Earth. Ejector seat levers can be used only once, and their consequences are significant and irreversible.
 
-![](images/9f71a04e53673d68abc5bf6237300f4d9512d165bb3e0c4eee959100fcf3cafd.jpg)  
+![](images/9f71a04e53673d68abc5bf6237300f4d9512d165bb3e0c4eee959100fcf3cafd.webp)  
 Figure 11-9: Ejector seat levers have catastrophic results. One minute, the pilot is safely ensconced in his jet, and the next he is tumbling end over end in the wild blue yonder, while his jet goes on without him. The ejector seat is necessary for the pilot's safety, but a lot of design work has gone into ensuring that it never gets fired inadvertently. Allowing an unsuspecting user to configure an application by changing permanent objects is comparable to firing the ejector seat by accident. Hide those ejector seat levers!
 
 Just as a jet fighter needs an ejector seat lever, complex desktop applications need configuration facilities. Applications must have ejector seat levers so that users can occasionally move persistent objects (see Chapter 12) in the interface, or dramatically (sometimes irreversibly) alter the application's function, behavior, or content. The one thing that must never happen is accidental deployment of the ejector seat (see Figure 11-9). The interface design must ensure that the user can never inadvertently fire the ejector seat when all he wants to do is make a minor adjustment to the application.
@@ -96,7 +96,7 @@ Furthermore, designers should strive for these qualities when creating interacti
 - Simple, meaningful, and appropriate—In iOS7, Apple changed how you “kill” a running app. Previously, you tapped and held the app icon in the multitasking tray, waited for an X icon to appear on it, tapped it, and then pressed the home button to exit a mode. (This was almost the same action you took to delete the app from the product.) Now, you flick a representation of the app's last screen away from you, causing it to scoot off the top of the screen. This is much simpler and more satisfying, and it is appropriate to the function it triggers. (Sadly, it is equally undiscoverable, as shown in Figure 11-10.)   
 - Natural and smooth—Animated transitions, especially those providing feedback to gestural interfaces, should feel almost like real physical interactions, mimicking (if not modeling) motion attributes such as inertia, elasticity, and gravity.
 
-![](images/1c5654b4f232533074dfe9ed07ab8da6f48595a300b02ddb6219f5eec457404a.jpg)  
+![](images/1c5654b4f232533074dfe9ed07ab8da6f48595a300b02ddb6219f5eec457404a.webp)  
 Figure 11-10: In iOS7, to kill an app, you flick a representation of the app's last screen away from you. This is much simpler and more satisfying than the old method—tapping and holding the app icon to put it into a "delete mode."
 
 Motion is most successful when it has a rhythmic quality, in which the timing helps the user anticipate what will be shown next. Changes in timing can be used to cue users about changes in context, state, or mode. This visual feedback can also be reinforced by the use of sounds. Sounds can help direct user interaction (the "tap" of a button in iOS), express the effect of user interaction (the clicking as the selection changes in the PlayStation 3's main horizontal menu), or reinforce a transition (a whoosh that accompanies a swipe gesture).
@@ -125,5 +125,5 @@ $\therefore m - 1 \neq  0$ ; $\therefore$ 当 $m < \frac{3}{2}$ 且 $m \neq  1$ 
 
 <!-- Chunk 7 Start -->
 
-![](images/d00b6e3a281339651b859cfa580068d0da036dca5bc65d8d41f3bcefc14e4e70.jpg)
+![](images/d00b6e3a281339651b859cfa580068d0da036dca5bc65d8d41f3bcefc14e4e70.webp)
 

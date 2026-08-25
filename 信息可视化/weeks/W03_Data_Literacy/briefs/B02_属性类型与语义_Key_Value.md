@@ -84,9 +84,9 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 (相对于 knowledge/textbook/Visualization Analysis & Design.../) | 已迁移路径 | 迁移状态 |
 |:---|:---|:---|:---|:---|
-| Fig 2.7 | 属性分类树 (Categorical / Ordered → Ordinal / Quantitative) 及排序方向 (Sequential / Diverging / Cyclic) | `images/d3d577a2...` (L232) + `images/a316b9dc...` (L236) + 子图 L240-L268 | ![](../public/textbook/Fig2.7_属性分类树.png) | ✅ 已迁移 |
-| Fig 2.8 | 表格与连续场的 Key/Value 语义对比图 | `images/b323d1c5...` (L317) + `images/b3e08941...` (L320) + `images/bfc59549...` (L323) | ![](../public/textbook/Fig2.8_表格与连续场的语义对比图.png) | ✅ 已迁移 |
-| Fig 2.9 | 扁平表中隐式键（行号）的图解 | `images/87ab3d9f...` (L330) | ![](../public/textbook/Fig2.9_隐式键.jpg) | ✅ 已迁移 |
+| Fig 2.7 | 属性分类树 (Categorical / Ordered → Ordinal / Quantitative) 及排序方向 (Sequential / Diverging / Cyclic) | `images/d3d577a2...` (L232) + `images/a316b9dc...` (L236) + 子图 L240-L268 | ![](../public/textbook/Fig2.7_属性分类树.webp) | ✅ 已迁移 |
+| Fig 2.8 | 表格与连续场的 Key/Value 语义对比图 | `images/b323d1c5...` (L317) + `images/b3e08941...` (L320) + `images/bfc59549...` (L323) | ![](../public/textbook/Fig2.8_表格与连续场的语义对比图.webp) | ✅ 已迁移 |
+| Fig 2.9 | 扁平表中隐式键（行号）的图解 | `images/87ab3d9f...` (L330) | ![](../public/textbook/Fig2.9_隐式键.webp) | ✅ 已迁移 |
 
 ## 易混淆概念辨析
 - **Type (类型) vs Semantics (语义)**：类型决定了数据能做何种数学运算（分类/有序/量化）；语义决定了在业务逻辑中它扮演什么角色（Key 还是 Value）。

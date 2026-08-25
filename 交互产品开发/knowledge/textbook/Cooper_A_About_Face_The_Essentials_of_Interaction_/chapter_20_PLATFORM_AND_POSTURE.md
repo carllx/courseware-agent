@@ -61,7 +61,7 @@ Applications that monopolize users' attention for long, continuous periods of ti
 
 Users working with sovereign applications often find themselves in a state of flow. Sovereign applications are usually used maximized (we'll talk more about window states in Chapter 18). For example, it is hard to imagine using Microsoft Outlook in a 3-by-4-inch window. That size is inconvenient for Outlook's main job: allowing you to create and view e-mail and appointments (see Figure 9-1). A sovereign product dominates the user's workflow as his primary tool.
 
-![](images/8556fb282222b4dfa1eeac6c4bcebd6501686a25a68559cc783f8f4410c20ecf.jpg)  
+![](images/8556fb282222b4dfa1eeac6c4bcebd6501686a25a68559cc783f8f4410c20ecf.webp)  
 Figure 9-1: Microsoft Outlook is a classic example of a sovereign-posture application. It stays onscreen, interacting with the user for long, uninterrupted periods, and with its multiple adjacent panes for navigation and supporting information, it begs to take up the full screen.
 
 # Target intermediate users
@@ -108,14 +108,14 @@ Sovereign applications should exploit rich input.
 
 Go ahead and use the corners and edges of the application's window for controls. In a jet cockpit, the most frequently used controls are situated directly in front of the pilot. Those needed only occasionally or in an emergency are found on the armrests, overhead, and side panels. In Word for Mac, Microsoft has put the most frequently used functions at the top of the window, as shown in Figure 9-2. Microsoft also put visually dislocating functions on small controls near the bottom of the screen. These controls change the appearance of the entire visual display—Draft View, Outline View, Publishing layout View, Print Layout View, Notebook Layout View, and Focus View. Neophytes do not often use them and, if accidentally triggered, they can be confusing. Placing them near the bottom of the screen makes them almost invisible to new users. Their segregated positioning subtly and silently indicates that they should be used with caution. More experienced users, with more confidence in their understanding of and control over the application, will begin to notice these controls and wonder about their purpose. They can experimentally select them when they feel fully prepared for the consequences. This is an accurate and useful mapping of control placement to usage.
 
-![](images/1a7552bc3491156b819ec826462dfdc5b3b9706cf14ed5d2b9df104865be6b3f.jpg)  
+![](images/1a7552bc3491156b819ec826462dfdc5b3b9706cf14ed5d2b9df104865be6b3f.webp)  
 Figure 9-2: Microsoft Word has placed controls at both the top and bottom of the application. The controls at the bottom are used to change views and are appropriately segregated because they can cause significant visual dislocation.
 
 # Design for documents
 
 The dictum that sovereign applications should fill the screen is also true of document windows within the application itself. Child windows containing documents should always be maximized inside the application unless the user explicitly instructs otherwise, or the user needs to simultaneously work in several documents to accomplish a specific task.
 
-![](images/9ac3968b49193c23a463adec5199792e9b667ee5d58d455bc55e9250471b2b69.jpg)
+![](images/9ac3968b49193c23a463adec5199792e9b667ee5d58d455bc55e9250471b2b69.webp)
 
 Maximize document views within sovereign applications.
 
@@ -137,7 +137,7 @@ Although a transient application can certainly operate alone on your desktop, it
 
 In cases when the entire computer system is fulfilling a transient role in the real world, it is not necessarily appropriate to minimize the use of pixels and visual attention. Examples of this include process monitors in a fabrication environment, or digital imaging systems in an operating room. Here, the entire computer screen is referred to in a transient manner, while the user is engaged in a sovereign mechanical activity. In these cases, it is still critical for information to be obvious and easily understood from across the room. This clearly requires a bolder use of color and a more generous allotment of real estate, as shown in Figure 9-3.
 
-![](images/6a5dd62cc84bd21bd301b2f30e117bbab41878b3e348306979a64305a6cc633b.jpg)  
+![](images/6a5dd62cc84bd21bd301b2f30e117bbab41878b3e348306979a64305a6cc633b.webp)  
 Figure 9-3: OS X Dashboard widgets and the iTunes Miniplayer are good examples of transient applications. They are referred to or interacted with briefly before the user's attention turns to an activity in a sovereign application. The use of rich dimensional rendering gives them an appropriate amount of visual gravity.
 
 # Make it bright and clear
@@ -160,7 +160,7 @@ Of course, rare exceptions to the monothematic nature of transient applications 
 
 Keep in mind that a transient application will likely be called on to help manage some aspect of a sovereign application (as shown in Figure 9-4). This means that the transient application, as it is positioned on top of the sovereign, may obscure the very information that it is chartered to work on. This implies that the transient application must be movable, which means it must have a title bar or other obvious affordance for dragging.
 
-![](images/e0600edbd7ed4ef7a113c32f2fedb6fae963fac43f3e80f389a2cdac1bf2fa47.jpg)  
+![](images/e0600edbd7ed4ef7a113c32f2fedb6fae963fac43f3e80f389a2cdac1bf2fa47.webp)  
 Figure 9-4: Art Directors Toolkit by Code Line Communications is a transient application. It provides a number of discrete functions such as calculating dimensions of a layout grid. These functions are designed to support the use of a sovereign layout application such as Adobe InDesign. The many functions are organized into tabs and are directly accessible at all times.
 
 It is vital to keep the amount of management overhead as low as possible with transient applications. All the user wants to do is perform a specific function or get a certain piece of information, and then move on. It is unreasonable to force the user to add nonproductive window-management tasks to this interaction.
@@ -183,7 +183,7 @@ A question that is often taken for granted with applications of other postures b
 
 when they are almost never needed leads to useless visual clutter. Daemonic icons should be employed persistently only if they provide continuous and useful status information. Microsoft solved this problem by hiding daemonic icons that are not actively being used to report status or access functionality in a pop-up menu, as shown in Figure 9-5.
 
-![](images/e97f8239e8d5c005d68208014726c6ea618f716da297958f68368d5a3de873a6.jpg)  
+![](images/e97f8239e8d5c005d68208014726c6ea618f716da297958f68368d5a3de873a6.webp)  
 Figure 9-5: The status area of the taskbar in Windows 8. The speaker icon provides modeless visual status information, because the icon changes if the speaker's volume is low or muted. Hovering over the icon provides more information and clicking or right-clicking it provides access to the volume and other audio controls. To the right of the speaker icon, the Dropbox icon modelessly indicates that Dropbox is automaticallyyncing its desktop folder.
 
 Both Mac OS and Windows also employ control panels as an effective approach to configure daemonic applications. These user-activated transient applications give users a consistent place to go to configure daemons. It is also important to provide direct, inline access to daemonic applications anytime an issue with them prevents someone from accomplishing what he aims to. (Of course, the standard disclaimer apply: Don't interrupt users unnecessarily.) For example, if a taskbar icon indicates a problem with a printer, clicking that icon should provide a mechanism to troubleshoot and rectify the problem.
@@ -234,7 +234,7 @@ Mobile web access may also point toward a transient posture. Mobile users are li
 
 More and more websites go beyond simple clicking and searching to offer transactional functionality that allows users to accomplish something beyond acquiring information. Classic examples of transactional websites are online storefronts and financial services sites, as shown in Figure 9-6.
 
-![](images/fcf02c2c50501afc6fc9ea42d68c40e7c45b67dbb2f4adb98aaf99d73ce2eb26.jpg)  
+![](images/fcf02c2c50501afc6fc9ea42d68c40e7c45b67dbb2f4adb98aaf99d73ce2eb26.webp)  
 Figure 9-6: Amazon is the classic example of a transactional e-commerce website. It was one of the first, and most successful, of its kind.
 
 These typically are structured in a hierarchical page-based manner, similar to an informational website, but in addition to informational content, the pages contain functional elements with complex behaviors. In the case of the online store, these functional elements include the shopping cart, the checkout features, and the ability to save a user profile. Some shopping sites have more sophisticated and interactive tools as well, such as "configurators," which allow users to customize or choose options related to their purchases.
@@ -271,7 +271,7 @@ Sovereign web applications strive to deliver information and functionality in a 
 
 Unlike page-oriented informational and transactional websites, the design of sovereign web applications is best approached in the same manner as desktop applications. Designers also need a clear understanding of the medium's technical limitations and what the development organization can reasonably accomplish on time and within budget. Like sovereign desktop applications, most sovereign web applications should be full-screen applications, densely populated with controls and data objects. They also should make use of specialized panes or other screen regions to group related functions and objects. Users should have the feeling that they are in an environment, not that they are navigating from page to page or place to place. Redrawing and re-rendering information should be minimized (as opposed to the behavior on websites, where almost any action requires a full redraw).
 
-![](images/7b5588e11ac8ec2256b3840c30334b5b3953d1f9f3fdb48647c83f9b07e8ca56.jpg)  
+![](images/7b5588e11ac8ec2256b3840c30334b5b3953d1f9f3fdb48647c83f9b07e8ca56.webp)  
 Figure 9-7: Proto.io's web-based interactive prototyping environment is as rich and refined as many desktop authoring environments, featuring drag-and-drop assembly and direct manipulation of all interactive objects.
 
 Treating sovereign web applications as desktop applications rather than as collections of web pages has a benefit. It allows designers to break out of the constraints of page-oriented models of browser interaction to address the complex behaviors that these client-server applications require. Websites are effective places to get information you need, just as elevators are effective places to get to a particular floor in a building. But you don't try to do actual work in elevators. Similarly, users are not served by being forced to attempt to do real, interaction-rich transactional work using page-based websites accessed through a browser.
@@ -304,12 +304,12 @@ Satellite posture, then, emphasizes retrieving and viewing data. It uses as much
 
 Satellite posture is less common these days than convergence handheld devices. Since the advent of the iPhone and its competitors, these have become tiny, full-fledged computers in their own right. However, satellite posture is still the model for dedicated content-oriented devices such as digital cameras, highly portable dedicated e-readers like the e-ink Kindles (see Figure 9-8), and what remains of the dedicated digital audio and video player market, such as the iPod Nano. Applications on convergence devices that are focused on content navigation and/or playback may adopt what is essentially a satellite posture.
 
-![](images/733d8f0fb8e2903ea753263b070060f2fc5cb417037b7f602b2ecf82a0656687.jpg)  
+![](images/733d8f0fb8e2903ea753263b070060f2fc5cb417037b7f602b2ecf82a0656687.webp)  
 Figure 9-8: Amazon's Kindle is a good example of a satellite posture device. It is used almost exclusively to view content (e-books) that has been purchased andynced from the cloud. Previous-generation satellite posture devices relied onyncing to a desktop computer to retrieve their data. The Kindle was one of the first to provide directyncing with a cloud service.
 
 One new development for satellite devices is the advent of wearable computing. Wristwatch and eyeglass format devices typically pair with a standalone convergence device via Bluetooth or other wireless connections, and provide notifications and other contextual information via small touchscreens or heads-up displays and voice commands. These devices take a highly transient posture, providing just enough information and possible actions to be relevant in the moment. The Samsung Gear smart watch and Google Glass are excellent examples of this new and rapidly evolving breed of satellite posture devices (see Figure 9-9).
 
-![](images/b1488ebbef4207f2bebe4e81c522398a81d8c0ab1200541fcd88a143745b894e.jpg)  
+![](images/b1488ebbef4207f2bebe4e81c522398a81d8c0ab1200541fcd88a143745b894e.webp)  
 Figure 9-9: The new frontier of wearable computing is represented by a new generation of satellite devices, such as the Samsung Gear smart watch and Google Glass. These devices provide succinct information and the minimum set of options necessary to support activity in a completely on-the-go context.
 
 # Standalone posture
@@ -332,15 +332,15 @@ Seven-inch tablets, especially those with a 16-by-9 aspect ratio, such as the Go
 
 Specific platform issues aside, tablets for the most part enforce the sovereign quality of their apps; the popular tablet operating systems permit only full-screen applications. These sovereign apps often have scrollable or zoomable main content views, with top, bottom, or side toolbars or palettes. They are similar to their desktop brethren in concept but are more sparse and simplified in execution, as shown in Figure 9-11.
 
-![](images/967d47c11bcb602e64983e7cd998769243886f52c7250bd51403134ca121eb70.jpg)  
+![](images/967d47c11bcb602e64983e7cd998769243886f52c7250bd51403134ca121eb70.webp)  
 Figure 9-10: Keynote for iPad is a sovereign-posture, iOS version of Apple's presentation software for the Mac. It has functions equivalent to its desktop cousin.
 
-![](images/46c24ad4d64f5ec0a3089a3951946e104b0715d8b1e09d25af8f5280cf57bdd8.jpg)  
+![](images/46c24ad4d64f5ec0a3089a3951946e104b0715d8b1e09d25af8f5280cf57bdd8.webp)  
 Figure 9-11: Adobe Sketchbook Pro is a drawing and painting app on the iPad. It supports a zoomable main drawing area, along with a top toolbar, and hideable tool palettes on the left and right.
 
 Android tablets support the concept of widgets—transient-posture micro-apps that access the functionality of an installed sovereign app without bringing it into the foreground. Users may position these widgets on a special home screen for easy access to things like weather, stock reports, or music playback controls. Windows Surface, shown in Figure 9-12, has a similar concept called tiles. They can contain active content from an installed sovereign app, but not controls, providing similar transient-posture access to content only.
 
-![](images/36904066582ad4f899b7336d0b41e565209b6510394b683bbe553eebe7c5f5b2.jpg)  
+![](images/36904066582ad4f899b7336d0b41e565209b6510394b683bbe553eebe7c5f5b2.webp)  
 Figure 9-12: Windows Surface supports tiles containing dynamic content.
 
 # Postures for Other Platforms
@@ -369,7 +369,7 @@ In one respect this is a big difference: It introduces the need for a current-fo
 
 The PlayStation 4 is a good example of how 10-foot UIs can use a layout similar to tablet UIs. Large buttons and simple left-right or up-down navigation, with at most 2 columns is the norm (see Figure 9-13). Seeing this screen out of context, you might believe it was from a multi-touch app.
 
-![](images/71340171308113775e513600811c574737fa53a91c42782ed53869b7c7eaabc9.jpg)  
+![](images/71340171308113775e513600811c574737fa53a91c42782ed53869b7c7eaabc9.webp)  
 Figure 9-13: The PlayStation 4 UI bears more than a passing resemblance to a touchscreen tablet app, and for good reason. Despite the differences in input mechanism, navigation is rather similar between 10-foot UIs and many content-browsing multi-touch tablet apps.
 
 # Automotive interface posture
@@ -382,14 +382,14 @@ Automotive navigation interfaces focus on rich, dynamic content. Map and current
 
 An impressive and beautiful—but perhaps a bit worrisome—exception to the typical automotive interface is the Tesla Model S infotainment interface, shown in Figure 9-14. It sports a single 17-inch multi-touch screen with adjustable panes for simultaneous navigation, entertainment, and HVAC controls. The interface resembles a tablet's interactive posture much more than it does a kiosk's. Perhaps this is the wave of the future. If so, we hope new cars will also include active accident avoidance systems to counteract any driver distraction that might occur as a result of such large and information-rich interactive displays on the dashboard.
 
-![](images/d1932cf88bd73dddc546057b6ecbc88ce473e1655aacf1bf2b41edd827527f50.jpg)  
+![](images/d1932cf88bd73dddc546057b6ecbc88ce473e1655aacf1bf2b41edd827527f50.webp)  
 Figure 9-14: The Tesla Model S infotainment interface is impressive in both its size and level of interactivity. Its 17-inch multi-touch screen allows navigation, entertainment, and HVAC functions to be displayed simultaneously. This system bears more of a postural resemblance to a tablet than to a kiosk, as is more typical for automotive info systems.
 
 # Smart appliance posture
 
 Most appliances have simple displays and rely heavily on hardware buttons and dials to manipulate the appliance's state. In some cases, however, "smart" appliances (notably, washers and dryers) most often sport color LCD touchscreens allowing rich output and direct input, as shown in Figure 9-15.
 
-![](images/f61097d59ac38dfb256d60ac9d6ea640e52b5abf0f2d2c629aac47179dd94d8c.jpg)  
+![](images/f61097d59ac38dfb256d60ac9d6ea640e52b5abf0f2d2c629aac47179dd94d8c.webp)  
 Figure 9-15: This Samsung washing machine has a well-designed color touchscreen display, with a clear and simple navigational structure.
 
 Appliance interfaces usually are transient-posture interfaces. Users of these interfaces seldom are technology-savvy and therefore should be presented with the most simple and straightforward interface possible. These users are also accustomed to hardware controls. Unless an unprecedented ease of use can be achieved with a touchscreen, dials and buttons (with appropriate tactile, audible, and visual feedback via a view-only display or even hardware lamps) may be a better choice. Many appliance makers make the mistake of putting dozens of new—and unwanted—features into their new, digital models. Instead of making things easier, that "simple" LCD touchscreen becomes a confusing array of unworkable controls.

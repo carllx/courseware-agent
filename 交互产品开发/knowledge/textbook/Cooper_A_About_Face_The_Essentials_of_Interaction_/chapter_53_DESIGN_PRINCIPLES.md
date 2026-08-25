@@ -152,5 +152,5 @@ Do; don't ask.
 - Make all actions reversible.   
 - Provide modeless feedback to help users avoid mistakes.
 
-![](images/915bea9f8b0ec7d12ed33c4df652a4dd6e0a8c266ad8f4e0a40f563d43469e96.jpg)
+![](images/915bea9f8b0ec7d12ed33c4df652a4dd6e0a8c266ad8f4e0a40f563d43469e96.webp)
 

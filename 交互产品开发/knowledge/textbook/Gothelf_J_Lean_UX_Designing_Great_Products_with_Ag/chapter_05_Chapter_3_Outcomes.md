@@ -164,7 +164,7 @@ developed to help program evaluators answer this question. The model is
 usually visualized as shown in
 [Figure 3-1](#ch03.html_the_logic_model-id00045).
 
-![](images/assets/lux3_0301.png)
+![](images/assets/lux3_0301.webp)
 
 ###### Figure 3-1. The logic model
 
@@ -226,7 +226,7 @@ outcomes—you need to understand the ways that different users get value
 and then deliver that value to them in a way that *also* creates value
 for your organization.
 
-![](images/assets/lux3_0302.png)
+![](images/assets/lux3_0302.webp)
 
 ###### Figure 3-2. Aligned value
 

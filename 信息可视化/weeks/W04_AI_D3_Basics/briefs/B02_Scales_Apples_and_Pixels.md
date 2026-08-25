@@ -78,18 +78,18 @@ status: draft
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 7.1 | An input domain and an output range, visualized as parallel axes | `images/9269569...` (L132) | ✅ 已迁移至 `public/textbook/Fig7.1_Scales.png` |
-| Fig 7.2 | Scatterplot using x and y scales | `images/4b0c59b...` (L536) | ✅ 已迁移至 `public/textbook/Fig7.2_Scales.png` |
-| Fig 7.3 | Scatterplot with y scale inverted | `images/d9a6d2f...` (L585) | ✅ 已迁移至 `public/textbook/Fig7.3_Scales.png` |
-| Fig 7.4 | Scatterplot with padding | `images/bd54808...` (L630) | ✅ 已迁移至 `public/textbook/Fig7.4_Scales.png` |
-| Fig 7.5 | Scatterplot with more padding | `images/7ad430c...` (L651) | ✅ 已迁移至 `public/textbook/Fig7.5_Scales.png` |
-| Fig 7.6 | Scatterplot with scaled radii | `images/b4d5c19...` (L709) | ✅ 已迁移至 `public/textbook/Fig7.6_Scales.png` |
-| Fig 7.7 | Scatterplot with big numbers added | `images/fadac06...` (L729) | ✅ 已迁移至 `public/textbook/Fig7.7_Scales.png` |
-| Fig 7.8 | Large, scaled scatterplot | `images/3a5fb0c...` (L746) | ✅ 已迁移至 `public/textbook/Fig7.8_Scales.png` |
-| Fig 7.9 | Using a square root scale for circle areas | `images/40702f1...` (L977) | ✅ 已迁移至 `public/textbook/Fig7.9_Scales.png` |
-| Fig 7.10 | Look mom, no strings! | `images/d157d91...` (L1153) | ✅ 已迁移至 `public/textbook/Fig7.10_Scales.png` |
-| Fig 7.11 | Verifying the xScale domain runs from January 1 through January 31, 2017 | `images/61e22e9...` (L1193) | ✅ 已迁移至 `public/textbook/Fig7.11_Scales.png` |
-| Fig 7.12 | Time-scaled circles | `images/ece70de...` (L1219) | ✅ 已迁移至 `public/textbook/Fig7.12_Scales.png` |
+| Fig 7.1 | An input domain and an output range, visualized as parallel axes | `images/9269569...` (L132) | ✅ 已迁移至 `public/textbook/Fig7.1_Scales.webp` |
+| Fig 7.2 | Scatterplot using x and y scales | `images/4b0c59b...` (L536) | ✅ 已迁移至 `public/textbook/Fig7.2_Scales.webp` |
+| Fig 7.3 | Scatterplot with y scale inverted | `images/d9a6d2f...` (L585) | ✅ 已迁移至 `public/textbook/Fig7.3_Scales.webp` |
+| Fig 7.4 | Scatterplot with padding | `images/bd54808...` (L630) | ✅ 已迁移至 `public/textbook/Fig7.4_Scales.webp` |
+| Fig 7.5 | Scatterplot with more padding | `images/7ad430c...` (L651) | ✅ 已迁移至 `public/textbook/Fig7.5_Scales.webp` |
+| Fig 7.6 | Scatterplot with scaled radii | `images/b4d5c19...` (L709) | ✅ 已迁移至 `public/textbook/Fig7.6_Scales.webp` |
+| Fig 7.7 | Scatterplot with big numbers added | `images/fadac06...` (L729) | ✅ 已迁移至 `public/textbook/Fig7.7_Scales.webp` |
+| Fig 7.8 | Large, scaled scatterplot | `images/3a5fb0c...` (L746) | ✅ 已迁移至 `public/textbook/Fig7.8_Scales.webp` |
+| Fig 7.9 | Using a square root scale for circle areas | `images/40702f1...` (L977) | ✅ 已迁移至 `public/textbook/Fig7.9_Scales.webp` |
+| Fig 7.10 | Look mom, no strings! | `images/d157d91...` (L1153) | ✅ 已迁移至 `public/textbook/Fig7.10_Scales.webp` |
+| Fig 7.11 | Verifying the xScale domain runs from January 1 through January 31, 2017 | `images/61e22e9...` (L1193) | ✅ 已迁移至 `public/textbook/Fig7.11_Scales.webp` |
+| Fig 7.12 | Time-scaled circles | `images/ece70de...` (L1219) | ✅ 已迁移至 `public/textbook/Fig7.12_Scales.webp` |
 
 ## 易混淆概念辨析
 

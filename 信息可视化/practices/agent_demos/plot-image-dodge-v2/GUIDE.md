@@ -9,7 +9,7 @@
 
 **发给 Agent 的指令：**
 ```markdown
-请帮我写一个单文件的 HTML，用 D3.js 和 Observable Plot 库，根据当前目录下 `data/us-president-favorability.csv` 这个数据文件，做一个“总统头像蜜蜂图”。
+请帮我写一个单文件的 HTML，用 D3.js ，根据当前目录下 `data/us-president-favorability.csv` 这个数据文件，做一个“总统头像蜜蜂图”。
 
 视觉与交互要求：
 1. 以总统上任日期 (First Inauguration Date) 作为横轴线索。
@@ -23,7 +23,7 @@
 
 **发给 Agent 的指令：**
 ```markdown
-请帮我写一个单文件的 HTML，用 D3.js 和 Observable Plot 库，根据当前目录下 `data/us-president-favorability.csv` 这个数据文件，做一个“总统头像蜜蜂图”。
+请帮我写一个单文件的 HTML，用 D3.js，根据当前目录下 `data/us-president-favorability.csv` 这个数据文件，做一个“总统头像蜜蜂图”。
 
 视觉与交互要求：
 1. 以总统上任日期 (First Inauguration Date) 作为横轴线索。

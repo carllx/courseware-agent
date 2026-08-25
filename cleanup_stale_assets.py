@@ -13,7 +13,7 @@ from pathlib import Path
 from collections import defaultdict
 
 WORKSPACE = Path(__file__).parent.resolve()
-sys.path.insert(0, str(WORKSPACE / '.agent' / 'skills' / 'validation_suite' / 'scripts'))
+sys.path.insert(0, str(WORKSPACE / '.agent' / 'scripts' / 'core'))
 from script_parser import parse_script, normalize_asset_path
 
 VISUAL_EXTS = {'.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.avif'}

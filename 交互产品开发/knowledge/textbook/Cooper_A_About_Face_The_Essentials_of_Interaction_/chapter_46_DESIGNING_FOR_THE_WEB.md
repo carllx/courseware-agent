@@ -52,28 +52,28 @@ Since the early days of the commercial web, the term primary navigation has sign
 
 Top navigation is a superior approach in most cases (see Figure 20-1). Side navigation makes the page crowded and occupies the page's visual entry point, forcing the user to scan past it to read content. The biggest limitation of top navigation—that it can accommodate only a few items of limited length—may actually be one of its greatest benefits. Forcing designers to reduce the number of major areas of a website or application—and to keep the titles short and punchy—usually has a better chance of resulting in something that is comprehensible and useful to users.
 
-![](images/d4a97edec50abde3a9626ecdc0d2b4982166189e682d3ff198f0d73f42695834.jpg)  
+![](images/d4a97edec50abde3a9626ecdc0d2b4982166189e682d3ff198f0d73f42695834.webp)  
 Figure 20-1: Basecamp illustrates the common practice of placing primary navigation on the top of the page. The topmost black bar allows the user to switch between different applications, the navigation adjacent to the Basecamp logo provides access to the major areas of Basecamp itself.
 
 As with most rules of thumb, there are exceptions. If you have a large heterogeneous content space, reducing to items that can fit on a horizontal bar can result in navigation terms that are meaninglessly abstract to your users. The biggest advantages of left-side navigation are that items can be longer, there can be more of them, and they are easier
 
 for users to scan because they are left-aligned. Amazon, which is well known for using analytics to optimize its page designs, and which sells almost everything known to man, currently uses left-hand navigation for product categorization on some pages. But on every page except the home page, this navigation is hidden until the user mouses over Show by Department to reveal it (see Figure 20-2).
 
-![](images/fd4cdf30d933a592c20564ffa79c123e710fab66a3450d179544bb2776b80398.jpg)
+![](images/fd4cdf30d933a592c20564ffa79c123e710fab66a3450d179544bb2776b80398.webp)
 
-![](images/92aeb40f3c5c14ad22e14824425c008f30251c28be5051495ac54c8385fcac13.jpg)  
+![](images/92aeb40f3c5c14ad22e14824425c008f30251c28be5051495ac54c8385fcac13.webp)  
 Figures 20-2: Amazon uses an approach to side-navigation where it is displayed to the user on the home page, but requires a mouseover to access on all other pages.
 
 This brings us to another important topic in web design: dynamically hiding and showing navigation controls that depend on the user's location in the system, and even where he or she is on a page. An increasingly popular and successful pattern is to keep this top navigation bar locked to the top of the browser window when the user scrolls. Branding and other elements are minimized so that the bar takes up less screen real estate and visual attention as the user engages with content lower down the page (see Figure 20-3).
 
 When considering the best approach for primary navigation, it's important to consider people using mobile web browsers. If this is a vital platform for you (and, in this day and age, in most cases, it should be), make sure you think through how well your navigation works on smaller screens. One common and utilitarian approach is not to show the navigation persistently and to reveal it only when the user clicks a menu or "hamburger icon" control (three stacked horizontal lines).
 
-![](images/92c9926623e884949727d874f1b1d2b455b5ee2304c67a8dbc458e31c52cefd3.jpg)
+![](images/92c9926623e884949727d874f1b1d2b455b5ee2304c67a8dbc458e31c52cefd3.webp)
 
-![](images/76cb582fa789b140af3fb5736244d93e08a6e6748244e18fbb111e32311ef226.jpg)  
+![](images/76cb582fa789b140af3fb5736244d93e08a6e6748244e18fbb111e32311ef226.webp)  
 Figure 20-3: The header of Google+ is persistent, but makes itself smaller when the user scrolls down the page
 
-![](images/d952ddc6e330a08b554e0f41873c258fba41b3f3466a59415618d2eba11c4f88.jpg)
+![](images/d952ddc6e330a08b554e0f41873c258fba41b3f3466a59415618d2eba11c4f88.webp)
 
 A healthy debate is currently under way about whether most users understand the hamburger icon. At least one statistically significant study has shown that, for at least some users, the word "menu" performs better than the hamburger icon. Figure 20-13, in the later section on the mobile web, shows how the Boston Globe employs a responsive approach to a top navigation, reducing the number of navigation items for smaller browser windows, ultimately shrinking to a single "sections" menu for smartphone-sized screens.
 
@@ -147,14 +147,14 @@ Handcrafted, American-made furniture combines beauty and functionality to tackle
 
 SHARE THIS ROOM:
 
-![](images/748acfcf5cf520581374868396e6dcd0a7f053a75b3bbdf86460d794f197274a.jpg)
+![](images/748acfcf5cf520581374868396e6dcd0a7f053a75b3bbdf86460d794f197274a.webp)
 
 previous | next
 
-![](images/11d28367943a4558289e25c85a2b15e93f8b1347e98fe4e45dfce5c9211dcf01.jpg)  
+![](images/11d28367943a4558289e25c85a2b15e93f8b1347e98fe4e45dfce5c9211dcf01.webp)  
 Figure 20-5: Hovering over Room & Board's primary navigation provides easily accessible links to sub-pages, without requiring the user to navigate to the office section page first.
 
-![](images/0b88a360a20a9a48b813475d03b4cb6bec3df16c0909c14a2bfc71e25cf324d5.jpg)  
+![](images/0b88a360a20a9a48b813475d03b4cb6bec3df16c0909c14a2bfc71e25cf324d5.webp)  
 Figure 20-6: When you're looking at the page for a desk on the Room & Board website, you can see where you are in the site and navigate back up using the breadcrumbs.
 
 On some sites, clicking each breadcrumb "step" opens a pop-up menu of lateral links, enabling users to navigate more easily to different parts of the site hierarchy without as many clicks—a feature borrowed from recent Windows OS file browser interfaces.
@@ -183,12 +183,12 @@ looking for. There are a number of good strategies for doing this. Sometimes usi
 
 One of the most successful innovations in searching has been auto-complete, also known as type ahead. When the user types in his or her search terms, a number of choices for complete search terms are presented. These can be based on previous searches (as Google does) or actual results (the Spotlight search function in Apple OS X). Auto-complete greatly increases the chances that the user will enter a search term that is likely to have a meaningful result set (see Figure 20-7).
 
-![](images/cc12fad88940c18761d80abab6a5a89b4b4538876a64ffe668a38784d07081a3.jpg)  
+![](images/cc12fad88940c18761d80abab6a5a89b4b4538876a64ffe668a38784d07081a3.webp)  
 Figure 20-7: Google Search's auto-complete provides a list of expanded search terms based on what the user has already typed into the search field.
 
 Disambiguation, or auto-suggest is another tool Google has normalized as part of searching. As you can see in Figure 20-8, if the searcher types a word that is spelled similarly to a more commonly searched word (or, more often, mistypes or misspell the word they really meant to search for), Google displays a list of suggestions along with the results. It also provides a link to the top suggestion as part of the results.
 
-![](images/9f053cfb0c8a2c63e8c5d61a09896d1cae9695357d8b12e3746d07920d8fe9fb.jpg)  
+![](images/9f053cfb0c8a2c63e8c5d61a09896d1cae9695357d8b12e3746d07920d8fe9fb.webp)  
 Figure 20-8: Google Search also supports auto-suggest, which provides a list of search terms based on fuzzy matching based on what the user has typed, in essence allowing the search box to auto-correct spelling errors.
 
 Did you mean: software

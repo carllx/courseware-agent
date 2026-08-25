@@ -196,7 +196,7 @@ rect:hover {
 <figure class="calibre35">
 <div id="ch10.xhtml_simple_css_only_mouse_hover" class="figure">
 <img
-src="images/72fd58fed69d5db45f6592197c937f39175906ca85f468a4527560bd198c522e.png"
+src="images/72fd58fed69d5db45f6592197c937f39175906ca85f468a4527560bd198c522e.webp"
 class="calibre164" alt="dvw2 1001" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-1. </span>A
 simple CSS-only mouse hover effect</h6>
@@ -297,7 +297,7 @@ data-type="xref">Figure 10-2</a>).
 <figure class="calibre35">
 <div id="ch10.xhtml_using_d3" class="figure">
 <img
-src="images/6de919475259e85e9d9e89a38ecec1189b0b7d262d0f0747c5db215323263e54.png"
+src="images/6de919475259e85e9d9e89a38ecec1189b0b7d262d0f0747c5db215323263e54.webp"
 class="calibre165" alt="dvw2 1002" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-2.
 </span>Using D3 to set an orange fill on mouseover</h6>
@@ -329,7 +329,7 @@ data-type="xref">Figure 10-3</a>.
 <figure class="calibre35">
 <div id="ch10.xhtml_results_d3" class="figure">
 <img
-src="images/1015768b99e8d07317e964b780d5772189628ef042673a2878d8a5859bc678a5.png"
+src="images/1015768b99e8d07317e964b780d5772189628ef042673a2878d8a5859bc678a5.webp"
 class="calibre166" alt="dvw2 1003" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-3.
 </span>Moving the mouse left to right, with fills set on mouseover and
@@ -363,7 +363,7 @@ Try that out in *06_smoother.html*.
 <figure class="calibre35">
 <div id="ch10.xhtml_smooth" class="figure">
 <img
-src="images/30b6e2a517f110ed1faf4ce64cfe9d5f072db4df0b735c86011f27efcf8d6ca2.png"
+src="images/30b6e2a517f110ed1faf4ce64cfe9d5f072db4df0b735c86011f27efcf8d6ca2.webp"
 class="calibre167" alt="dvw2 1004" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-4.
 </span>Moving the mouse left to right (Smooth Operator Edition)</h6>
@@ -608,7 +608,7 @@ watch them reorganize.
 <figure class="calibre35">
 <div id="ch10.xhtml_click-to-sort" class="figure">
 <img
-src="images/d32254ee67529b61bde325e25c8cfded6ba1f0487e63fe2a81e627c28ffb746c.png"
+src="images/d32254ee67529b61bde325e25c8cfded6ba1f0487e63fe2a81e627c28ffb746c.webp"
 class="calibre145" alt="dvw2 1005" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-5.
 </span>The view after click-to-sort</h6>
@@ -668,7 +668,7 @@ data-type="xref">Figure 10-6</a>).
 <figure class="calibre35">
 <div id="ch10.xhtml_interrupted" class="figure">
 <img
-src="images/b0b916e911106d6e778c8ec09abf72e19e15b7c074263386c496b0ade43c2363.png"
+src="images/b0b916e911106d6e778c8ec09abf72e19e15b7c074263386c496b0ade43c2363.webp"
 class="calibre168" alt="dvw2 1006" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-6.
 </span>Transitions, interrupted</h6>
@@ -791,7 +791,7 @@ data-type="xref">Figure 10-7</a>.
 <figure class="calibre35">
 <div id="ch10.xhtml_second-sort" class="figure">
 <img
-src="images/24b9f5babf7b1168cec2e803c6335f6199ab7b8672af1da490edb54886280058.png"
+src="images/24b9f5babf7b1168cec2e803c6335f6199ab7b8672af1da490edb54886280058.webp"
 class="calibre146" alt="dvw2 1007" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-7.
 </span>The second sort, now in descending order</h6>
@@ -875,7 +875,7 @@ JavaScript, so you have no control over it.
 <figure class="calibre35">
 <div id="ch10.xhtml_chrome-tooltip" class="figure">
 <img
-src="images/082d8c7e70482919190d3bd6689d800a5524223303b18eb08f9631c15f2a5b3d.png"
+src="images/082d8c7e70482919190d3bd6689d800a5524223303b18eb08f9631c15f2a5b3d.webp"
 class="calibre165" alt="dvw2 1008" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-8. </span>A
 ridiculously simple default browser tooltip, as seen in Chrome</h6>
@@ -922,7 +922,7 @@ data-type="xref">Figure 10-9</a>):
 <figure class="calibre35">
 <div id="ch10.xhtml_default-tooltip" class="figure">
 <img
-src="images/e6fb2f888aa8ea6a316486609da872774b790b31b271006ca20ae0343ca84ae3.png"
+src="images/e6fb2f888aa8ea6a316486609da872774b790b31b271006ca20ae0343ca84ae3.webp"
 class="calibre169" alt="dvw2 1009" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-9. </span>A
 default browser tooltip, with a prefix added</h6>
@@ -1029,7 +1029,7 @@ this simple example.
 <figure class="calibre35">
 <div id="ch10.xhtml_element-tooltip" class="figure">
 <img
-src="images/790bd611ab47e5976fdeb822113aa2d3a8ed4b9829799809c9bae9a7f871f61e.png"
+src="images/790bd611ab47e5976fdeb822113aa2d3a8ed4b9829799809c9bae9a7f871f61e.webp"
 class="calibre140" alt="dvw2 1010" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-10.
 </span>An SVG element tooltip</h6>
@@ -1080,7 +1080,7 @@ data-xrefstyle="select:labelnumber">10-12</a> for examples.
 <figure class="calibre35">
 <div id="ch10.xhtml_div-tooltip" class="figure">
 <img
-src="images/ac409c17b2f932fd08a417e2850df31130e1a3dcefa95b636718bd00e3e78b49.png"
+src="images/ac409c17b2f932fd08a417e2850df31130e1a3dcefa95b636718bd00e3e78b49.webp"
 class="calibre170" alt="dvw2 1011" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-11.
 </span>An HTML div tooltip</h6>
@@ -1090,7 +1090,7 @@ class="calibre170" alt="dvw2 1011" />
 <figure class="calibre35">
 <div id="ch10.xhtml_overlapping-tooltip" class="figure">
 <img
-src="images/7021e754f0c708aea2b61caa14caabe12c01fbedbee20521c96847f7d1070208.png"
+src="images/7021e754f0c708aea2b61caa14caabe12c01fbedbee20521c96847f7d1070208.webp"
 class="calibre171" alt="dvw2 1012" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-12.
 </span>An HTML div tooltip, overlapping the bounds of the SVG image

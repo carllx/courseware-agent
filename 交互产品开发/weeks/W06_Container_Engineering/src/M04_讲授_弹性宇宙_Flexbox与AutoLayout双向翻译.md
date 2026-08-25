@@ -8,7 +8,7 @@
 > **Scene**: 一个透明的集装箱（代表父容器），里面整齐排列着我们在上一节课看到的“标准木箱”。集装箱外侧有一个中央控制台，只要拨动上面的拨盘，里面所有的木箱瞬间自动改变横向排队或纵向列阵的方式，间距也完全同步调整。
 > **Search**: `smart logistics shipping container automated sorting system flexbox`
 > **知识节点**: `flex-autolayout-mapping`
-> **Asset**: ![预览](../public/slides/M4-01.png)
+> **Asset**: ![预览](../public/slides/M4-01.webp)
 > **Source**: `AI_Gen`
 
 ### 4.1 阵列统筹：交出控制权
@@ -30,7 +30,7 @@
 > **Scene**: 微信/IM 聊天消息卡片拆解界面。真实截图覆盖了一层高亮的线框：最外层是代表大容器的蓝框，行内左侧头像代表 Fixed 的红色方块，右侧时间戳也是代表 Fixed 的红框，夹在中间的消息文本区是代表 Fill 的蓝色弹性框。
 > **Search**: `chat message interface box model wireframe flexbox autolayout`
 > **List**: Fixed / Hug / Fill
-> **Asset**: ![预览](../public/slides/M4-02c.png)
+> **Asset**: ![预览](../public/slides/M4-02c.webp)
 > **Source**: `External`
 
 > [ACTIVITY]
@@ -53,7 +53,7 @@
 > **List**: 铁块 / 紧身衣 / 水
 > **Scene**: 将“生硬的铁块（Fixed）”、“高弹力紧身衣（Hug）”与“有魔力的流动水（Fill）”并置的三宫格视觉隐喻，帮助学生在听讲时拥有具体的认知锚点。
 > **Search**: `fixed hug fill auto layout physical metaphor`
-> **Asset**: ![预览](../public/slides/M4-02d.png)
+> **Asset**: ![预览](../public/slides/M4-02d.webp)
 > **Source**: `AI_Gen`
 
 1. 就像刚刚聊天界面的左侧头像，以及大家在 User Card 实践中搭建的圆头像，采用了 **Fixed (固定尺寸)**：我们在上节课叫它“硬质木箱”，但在受挤压的父容器里它表现得更像一块**铁块**。无论外框怎么拉伸，它都会固定保持设定的绝对像素（比如 150x150），绝不让步，从而防止核心视觉错位。
@@ -68,7 +68,7 @@
 > **Text**: 弹性材料实战
 > **Scene**: 动态 UI 演示图。在横向容器中，铁块(Fixed)、紧身衣(Hug)、水(Fill)三种材质在容器受横向挤压和拉伸时的实时形变反馈。
 > **Search**: `flexbox auto layout physical material demonstration dynamic resizing`
-> **Asset**: ![预览](../public/slides/M4-02e.png)
+> **Asset**: ![预览](../public/slides/M4-02e.webp)
 > **Source**: `AI_Gen`
 
 > [ACTIVITY]
@@ -87,7 +87,7 @@
 > **Scene**: Wrap 换行机制图解。左边是没有开启 Wrap 保护的情况：屏幕被挤压，一排标签被截断或溢出屏幕边缘；右边开启 Wrap 机制后：多出来的标签平滑折行到第二排。
 > **List**: Wrap 开启前 / Wrap 开启后
 > **知识节点**: `flex-autolayout-mapping`
-> **Asset**: ![预览](../public/slides/M4-03.png)
+> **Asset**: ![预览](../public/slides/M4-03.webp)
 > **Source**: `Manual`
 
 当这堆不断膨胀和收缩的元素在同一个容器内相互挤压、横向空间被耗尽时，我们还有最后一道柔性防线——**Wrap (换行折叠机制)**（当单行排满后自动像瀑布一样跌落到下一行的安全保护网）。有了它，多余的元素遇到悬崖绝不会挤出屏幕，而是聪明地跌落到第二行重新列阵。
@@ -99,7 +99,7 @@
 > **Scene**: 卡片响应式排版问题示例。一次性展示 4 种典型排版错误截图：1. 文字溢出（长文字溢出卡片）。2. 元素粘连（按钮和价格无间隙贴合）。3. 图片截断（配图焦点被纵向裁切）。4. 固定锁死（固定宽度区块溢出屏幕）。
 > **Search**: `broken css layout responsive problems bug flexbox disaster overflow troubleshooting wireframe`
 > **List**: 文字溢出 / 元素粘连 / 图片截断 / 固定锁死
-> **Asset**: ![预览](../public/slides/M4-04.png)
+> **Asset**: ![预览](../public/slides/M4-04.webp)
 > **Source**: `Manual`
 
 ### 4.3 诊断实战：四种典型排版问题解析
@@ -111,7 +111,7 @@
 > **Text**: 一号问题：文字溢出
 > **Scene**: 响应式问题之“文字溢出”。一个商品卡片设计，标题文本因为高度被固定限制，多行文字超出了卡片的底部边界，溢出到背景上，形成视觉断层。
 > **List**: 症状 / 病因 / 处方
-> **Asset**: ![预览](../public/slides/M4-04a.png)
+> **Asset**: ![预览](../public/slides/M4-04a.webp)
 > **Source**: `Manual`
 
 **一号问题：文字溢出与静默截断。** 
@@ -124,7 +124,7 @@
 > **Text**: 救急屏幕盲区
 > **Scene**: 急救场景隐喻。一张模糊的急诊室背景，前景是 iPad Mini 屏幕上一条被无情截断的处方信息，凸显出这种设计缺陷在真实场景下的严重后果。
 > **Search**: `emergency room ipad mini clipped text UX disaster medical`
-> *   **Asset**: ![预览](../public/slides/M4-04a-2b_real.png)
+> *   **Asset**: ![预览](../public/slides/M4-04a-2b_real.webp)
 > **Source**: AI Generated
 
 > [CASE STUDY]
@@ -154,7 +154,7 @@
 > **Layout**: `Split`
 > **Text**: 傲慢的画布思维
 > **Scene**: 概念隐喻图：左侧代表“画布思维”（一把剪刀直接将溢出边框的文字裁切），右侧代表“弹性容器思维”（一个具有生命力的软框随着液态文字的注入，自动向下延展包容，不丢失任何信息）。
-> **Asset**: ![预览](../public/slides/M4-04a-3.png)
+> **Asset**: ![预览](../public/slides/M4-04a-3.webp)
 > **Source**: `AI_Gen`
 
 > [CASE STUDY] (接上文)
@@ -170,7 +170,7 @@
 > **Text**: 二号问题：元素粘连
 > **Scene**: 响应式问题之“元素粘连”。一个卡片底部，价格数字和“购买”按钮无间隙贴合，中间没有任何呼吸空间（间隙 Gap 为零），导致视觉拥挤感。
 > **List**: 症状 / 病因 / 处方
-> **Asset**: ![预览](../public/slides/M4-04b.png)
+> **Asset**: ![预览](../public/slides/M4-04b.webp)
 > **Source**: `Manual`
 
 > [PACING]
@@ -186,7 +186,7 @@
 > **Text**: 三号问题：图片截断
 > **Scene**: 响应式问题之“图片截断”。一个响应式卡片在宽屏被拉伸时，因为配图容器高度固定而宽度自适应拉宽，导致模特的人脸焦点在垂直方向被裁切，丢失核心视觉信息。
 > **List**: 症状 / 病因 / 处方
-> **Asset**: ![预览](../public/slides/M4-04c.png)
+> **Asset**: ![预览](../public/slides/M4-04c.webp)
 > **Source**: `Manual`
 
 **三号问题：图片截断。** 
@@ -200,7 +200,7 @@
 > **Text**: 四号问题：固定锁死
 > **Scene**: 响应式问题之“固定锁死”。一个响应式的父容器正在被横向挤压，但里面的子元素却像一块不可压缩的石头，保持固定宽度（Fixed），直接溢出父容器的边缘。
 > **List**: 症状 / 病因 / 处方
-> **Asset**: ![预览](../public/slides/M4-04d.png)
+> **Asset**: ![预览](../public/slides/M4-04d.webp)
 > **Source**: `Manual`
 
 **四号问题：固定锁死。** 
@@ -254,7 +254,7 @@
 > **Text**: 间隙失控与工业秩序
 > **Scene**: 展示杂乱间距（5px、7px、13px 随意堆叠引发报错）与严谨间距（统一 16px 的工业秩序）的对比图，为接下来的“间距刻度体系”做铺垫。
 > **Search**: `design system spacing chaos vs order UI gap`
-> **Asset**: ![预览](../public/slides/M4-05b.png)
+> **Asset**: ![预览](../public/slides/M4-05b.webp)
 > **Source**: `Manual`
 
 在进入下一个主题之前，我们先来做一个破案小测验，验证一下大家对“双向翻译”的理解。
@@ -274,7 +274,7 @@
 > **Text**: 碎步间隙乱象
 > **Scene**: 代码堆叠与间距测量乱象图。Figma 画布上密密麻麻标满了 7px, 11.5px, 13px 的红色测距线，旁边是对应的杂乱 CSS 代码，呈现出一种无序的工程灾难感。
 > **Search**: `chaotic spacing figma redlines bad UI design handoff`
-> **Asset**: ![预览](../public/slides/M4-05b-2.png)
+> **Asset**: ![预览](../public/slides/M4-05b-2.webp)
 > **Source**: `AI_Gen`
 
 > [PHILOSOPHY]
@@ -320,5 +320,5 @@
 > **Scene**: 可视化排版矩阵图。展示一套标准的 8 点网格间距系统 (8px, 16px, 24px, 32px)，每个间距对应一个清晰的 Token 命名 (gap-sm, gap-md, gap-lg)，像一套精密的乐高积木一样整齐排列。
 > **List**: Token / 8点网格 / 工业秩序
 > **Search**: `8pt grid system spacing tokens design system scale`
-> **Asset**: ![预览](../public/slides/M4-05d.png)
+> **Asset**: ![预览](../public/slides/M4-05d.webp)
 > **Source**: `AI_Gen`

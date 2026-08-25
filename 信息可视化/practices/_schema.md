@@ -66,12 +66,12 @@ materials:
     rounds:
       - round: 1
         stimulus:
-          image: "practices/materials/W01/anscombe_group1_numbers.png"
+          image: "practices/materials/W01/anscombe_group1_numbers.webp"
           caption: "数据组 I：X/Y 数值表"
         options: ["线性上升", "曲线", "离散分布", "无明显趋势"]
         answer: "线性上升"
         reveal:
-          image: "practices/materials/W01/anscombe_group1_scatter.png"
+          image: "practices/materials/W01/anscombe_group1_scatter.webp"
           explanation: "组 I 呈现经典线性关系"
 ```
 
@@ -84,7 +84,7 @@ materials:
     time_limit_sec: 8
     questions:
       - id: Q1
-        image: "practices/materials/W01/preattentive_color_pop.png"
+        image: "practices/materials/W01/preattentive_color_pop.webp"
         prompt: "图中红色圆点共有几个？"
         question_type: judgment   # judgment | choice | short_answer
         answer: true
@@ -97,7 +97,7 @@ materials:
 materials:
   - type: critique_card
     title: "找茬第 1 题"
-    image: "practices/materials/W01/bad_3d_pie_chart.png"
+    image: "practices/materials/W01/bad_3d_pie_chart.webp"
     context: "某公司年度财报中的市场份额图表"
     known_issues:
       - category: "前注意属性误用"
@@ -120,10 +120,10 @@ materials:
     steps:
       - step: 1
         instruction: "打开 RAWGraphs，点击 'Paste your data'"
-        screenshot: "practices/materials/W01/rawgraphs_step1.png"
+        screenshot: "practices/materials/W01/rawgraphs_step1.webp"
       - step: 2
         instruction: "粘贴示范 CSV 数据"
-        screenshot: "practices/materials/W01/rawgraphs_step2.png"
+        screenshot: "practices/materials/W01/rawgraphs_step2.webp"
         data_file: "practices/materials/shared/sample_data.csv"
 ```
 
@@ -170,8 +170,8 @@ materials:
   - type: case_study
     title: "防疫追踪 vs 监控网络"
     images:
-      - "practices/materials/W05/contact_tracing_network.png"
-      - "practices/materials/W05/surveillance_network.png"
+      - "practices/materials/W05/contact_tracing_network.webp"
+      - "practices/materials/W05/surveillance_network.webp"
     context: "同种力导向图因社会语境产生对立隐喻"
     discussion_prompts:
       - "技术中立是否是一种伪命题？"
@@ -186,10 +186,10 @@ materials:
     title: "前注意 vs 非前注意视觉搜索"
     items:
       - label: "有前注意属性（颜色弹出）"
-        image: "practices/materials/W01/preattentive_with.png"
+        image: "practices/materials/W01/preattentive_with.webp"
         description: "红色目标立即弹出，搜索时间 < 200ms"
       - label: "无前注意属性（需逐一扫描）"
-        image: "practices/materials/W01/preattentive_without.png"
+        image: "practices/materials/W01/preattentive_without.webp"
         description: "需顺序扫描每个元素，搜索时间随数量线性增长"
 ```
 
@@ -219,7 +219,7 @@ materials:
 │       ├── practice.yaml                ← 实践规格 (本文档定义的结构)
 │       ├── practice_guide.md            ← 面向学生的操作手册
 │       └── assets/                      ← 统一素材目录
-│           ├── slides/                  ← 理论幻灯片素材 (S*.png)
+│           ├── slides/                  ← 理论幻灯片素材 (S*.webp)
 │           ├── textbook/                ← 教材引用图
 │           ├── practice/                ← 实践用图/截图
 │           └── data/                    ← 数据文件 (csv/xlsx)
@@ -230,9 +230,9 @@ materials:
     └── project_brief.md
 ```
 
-- 素材路径在 YAML 和 Markdown 中使用 **相对于教学周目录** 的路径（如 `assets/practice/xxx.png`）
+- 素材路径在 YAML 和 Markdown 中使用 **相对于教学周目录** 的路径（如 `assets/practice/xxx.webp`）
 - `script.md` 和 `practice_guide.md` 共享同一 `assets/` 前缀，零路径翻译
-- 命名使用小写英文 + 下划线，如 `anscombe_group1_scatter.png`
+- 命名使用小写英文 + 下划线，如 `anscombe_group1_scatter.webp`
 - 旧的 `scripts/W0X_Name.md` 符号链接仍可用（指向 `weeks/*/script.md`）
 
 ## 校验规则

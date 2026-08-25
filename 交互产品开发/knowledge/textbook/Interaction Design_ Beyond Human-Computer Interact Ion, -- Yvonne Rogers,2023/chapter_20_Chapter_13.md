@@ -79,7 +79,7 @@ Conducting  UX  activities within an  agile  framework  requires a  fle
 How to align UX design and agile working practices   
 . What documentation to produce, how much, and when
 
-![](images/1a0082073e6cce67567b06015431ac2a83b698bfb5d7dc88cca5cdcbd11365ce.jpg)  
+![](images/1a0082073e6cce67567b06015431ac2a83b698bfb5d7dc88cca5cdcbd11365ce.webp)  
 Source: Leo Cullum / Cartoon Stock
 
 # 13.2.1  User Research
@@ -187,7 +187,7 @@ Brainstorm the typesof experimentsyou can run to learn whether your riskiest ass
 
 8
 
-![](images/871a15b66d17b8ae6df290088203cc63fe01ae2b39a0415118e5aa01acc17a82.jpg)
+![](images/871a15b66d17b8ae6df290088203cc63fe01ae2b39a0415118e5aa01acc17a82.webp)
 
 Download this canvas at: www.jeffgothelf.com/blog/leanuxcanvas
 
@@ -220,7 +220,7 @@ software  through evolutionary development and the elaboration of requir
 In  response  to  this  challenge,  Miller  (2006)  and  Sy  (2007)  proposed  the  classic  dual tracks approach. In the original version of this approach, UX design work is done one iteration ahead of development work (see Figure 13.2). The principle of dual tracks development is quite simple: that design activity  and data collection for Cycle $n { + 1 }$ are performed during Cycle $_ { n }$ . This enables the design work to be completed just ahead of development work, yet to be tightly coupled to it as the product evolves. Completing  it much sooner than this can result in wasted effort, as the product and understanding about its use evolves.
 
 Figure 13.2 Cycle 0 and its relationship to later cycles   
-![](images/793c5ab6fb5680bfe6c953b403166a0c7150b4c8897a705f090db72dc7bdb75a.jpg)  
+![](images/793c5ab6fb5680bfe6c953b403166a0c7150b4c8897a705f090db72dc7bdb75a.webp)  
 Source: Sy (2017) / Association for Computing Machinery
 
 Cycle 0 and cycle  1  are different from  subsequent  cycles  because, before evolutionary development can begin, the product vision needs to be created. This is handled in different ways  in different agile methods, but all agree that there  needs to be some kind of work up front  to understand the product, its scope, and its overall  design (both technical and UX). Some general data about customers and their behavior may have been collected before cycle 0, but the vision and overall design is completed for the current project by the end of cycle 0. The work required will depend on the nature of the product: whether it is a new version of an existing product, a new product, or a completely new experience. Cycle 0 can also be longer
@@ -247,7 +247,7 @@ subsequent products based on the  results of this experimentation. In this se
 
 AgileUX is an umbrella term for all efforts that focus on integrating UX design with agile development. Agile software development is an evolutionary approach to development, and hence agileUX is also evolutionary. Additionally, agileUX projects can employ prototyping to answer questions and test ideas, as described in Chapter 12.
 
-![](images/53a28dd86924df9a5e7a04d5871d48b6799384b1b4cc6ca3ce107bc45cb5fad9.jpg)  
+![](images/53a28dd86924df9a5e7a04d5871d48b6799384b1b4cc6ca3ce107bc45cb5fad9.webp)  
 Figure 13.3 Overview of the dual tracks development integrating discovery and development Source: www.jpattonassociates.com/dual-track-development
 
 # 13.2.3  Documentation
@@ -301,26 +301,26 @@ The pagination pattern is used for content that can be ordered (often the�
 
 (Continued)
 
-![](images/11a2349ed84e70b8d83a267915faba46550ac1cdbc9561c29dee2d97c9587249.jpg)
+![](images/11a2349ed84e70b8d83a267915faba46550ac1cdbc9561c29dee2d97c9587249.webp)
 
-![](images/88e711e680182c08c2256b4bbf14a9b7545f98560ffc3be61670be9a7c0fcaad.jpg)  
+![](images/88e711e680182c08c2256b4bbf14a9b7545f98560ffc3be61670be9a7c0fcaad.webp)  
 自
 
-![](images/2f041643c36722a3914d37ce85e39847df8d47f29c9825063722272479156242.jpg)
+![](images/2f041643c36722a3914d37ce85e39847df8d47f29c9825063722272479156242.webp)
 
-![](images/bb916c9d74e65a7cdf7ef367c4fa8b2fdc98b4d4b2e4249ed8eeec3747f1360f.jpg)  
+![](images/bb916c9d74e65a7cdf7ef367c4fa8b2fdc98b4d4b2e4249ed8eeec3747f1360f.webp)  
 自
 
-![](images/c9925df89c84b384e65d22254f11c7eb8c361ef75a22625dba4cbb0417e41099.jpg)  
+![](images/c9925df89c84b384e65d22254f11c7eb8c361ef75a22625dba4cbb0417e41099.webp)  
 (a)
 
-![](images/0b0bf1902e6e6718369a918e118621ff4e0499ca2be6d79a163fd0157583b583.jpg)  
+![](images/0b0bf1902e6e6718369a918e118621ff4e0499ca2be6d79a163fd0157583b583.webp)  
 (b)   
 Figure 13.4 Two  examples of the  continuous scrolling  pattern  (a)  buying clothes  online, (b) in an email browser
 
 Source: (a) next.co.uk, (b) yahoo.co.uk
 
-![](images/45c65a9725a32a134d97cbb1353fbc63035703f96622f037912d30d9efba6e36.jpg)  
+![](images/45c65a9725a32a134d97cbb1353fbc63035703f96622f037912d30d9efba6e36.webp)  
 Figure 13.5 Different instantiations of the pagination pattern
 
 These patterns may not seem the most exciting design choices, but they are significant in terms of user interaction, and a designer will need to decide how the pattern is instantiated. In addition, implementing content  delivery is fairly straightforward  once the  design is chosen because  these options  have already been considered,  tried, and  tested,  and  there is implementable code to put them into practice.
@@ -338,7 +338,7 @@ To read about the differences between design systems and design languag
 One design pattern for mobile devices that has prompted discussion is the hamburger menu pattern. The hamburger is often displayed as three little lines, but there are other styles (see Figure 13.6). Commonly found in the top-right corner of a smartphone app, this menu signals that there are  several other actions  available. When clicked, the hamburger  displays a side menu with a list of options. Compared to a static menu, the hamburger saves screen space.
 
 Figure 13.6 Different styles for the classic hamburger menu icon   
-![](images/b4fb8b97c85d89d45965057af949fef0b37b7fcb717323c1f5ebcec8f3238b94.jpg)  
+![](images/b4fb8b97c85d89d45965057af949fef0b37b7fcb717323c1f5ebcec8f3238b94.webp)  
 Source: alvarotrigo.com/blog/hamburger-menu-css
 
 This design pattern has provoked different reactions  by different designers. Search for information on it using  your favorite browser  and read at least  two articles or blog posts about it. It may be that many of your own apps use one of these, but having read more about it, is this something you’d use when building your own app?
@@ -378,7 +378,7 @@ Many large pieces of software underlying our global digital infrastruct
 Perhaps  more  interesting  for  interaction  designers  is  that  there  is  a  growing  amount of open  source software  available for designing good  user  experiences. The design pattern implementation libraries introduced in section 13.3 are but one example of how open source software is affecting user experience design. Another example is the Bootstrap framework for front-end web development, released as open source in August 2011 and actively updated on a regular basis; see Figure 13.7 for an example of its use. This framework contains reusable code snippets, a screen layout grid that supports multiple screen sizes, and pattern libraries that include predefined sets of navigational patterns, typefaces, buttons, tabs, and so on. The framework  and  documentation are  available  through  the  GitHub  open  source repository (github.com/twbs/bootstrap#community).
 
 Figure 13.7 An example website built using the Bootstrap framework   
-![](images/63d5c98dfa7c05c371db0bdf4ed7dfb2648a6ecf0a1eef1182b11059aa759c9c.jpg)  
+![](images/63d5c98dfa7c05c371db0bdf4ed7dfb2648a6ecf0a1eef1182b11059aa759c9c.webp)  
 Source: plazaclassic.com. Identified from bootstrapbay.com/blog/built-with-bootstrap
 
 Open  source  resources  require  a  suitable  hosting  service, that  is,  somewhere  for  the source code to be stored and made accessible to others. More than this, the hosting service needs  to serve  a  huge number  of users  (GitHub  was reported  to  have 83  million  users  in
@@ -449,7 +449,7 @@ MACDONALD, D. (2019) Practical UI Patterns for Design Systems. Apress, B
 
 RAYMOND, E. S. (2001) The Cathedral and the Bazaar. O’Reilly. This seminal book is a set of essays introducing the open source movement.
 
-![](images/7b759c05faa51948b236ab4e93272880f66a3919a6ded2875d747494042bad80.jpg)
+![](images/7b759c05faa51948b236ab4e93272880f66a3919a6ded2875d747494042bad80.webp)
 
 Luciana Zaina is an associate professor at the Department of Computing of the Federal  University  of  São  Carlos, Brazil.  She has  a  PhD  in  computer  engineering from the  University  of  São  Paulo  (USP,  Brazil) and a degree in computer science. She has experience  in  teaching  user  experience–
 

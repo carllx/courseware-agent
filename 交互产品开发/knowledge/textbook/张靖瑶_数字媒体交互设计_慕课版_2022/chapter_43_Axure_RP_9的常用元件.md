@@ -12,19 +12,19 @@
 
 微课视频
 
-![](images/EPUB/images/image_278.jpg)
+![](images/EPUB/images/image_278.webp)
 
 动态面板的使用
 
 ① 创建动态面板的第一种方法：在元件库中找到“动态面板”元件，将其拖入画布中，松开鼠标左键即可创建动态面板，如图4-38所示。
 
-![](images/EPUB/images/image_279.jpg)
+![](images/EPUB/images/image_279.webp)
 
 图4-38 创建动态面板
 
 注意：默认情况下，此动态面板的尺寸是固定的，因此如果希望自动调整大小以适合其包含的内容（其他元件），请勾选“自适应内容”复选框，如图4-39所示。
 
-![](images/EPUB/images/image_280.jpg)
+![](images/EPUB/images/image_280.webp)
 
 图4-39 “自适应内容”复选框
 
@@ -38,11 +38,11 @@
 
 默认情况下，动态面板覆盖有蓝色遮罩，以便更容易在画布上被识别。可以在Axure RP 9菜单栏中的“视图→遮罩”中切换遮罩开关，如图4-41所示。
 
-![](images/EPUB/images/image_281.jpg)
+![](images/EPUB/images/image_281.webp)
 
 ▲图4-40 第二种创建动态面板的方法
 
-![](images/EPUB/images/image_282.jpg)
+![](images/EPUB/images/image_282.webp)
 
 图4-41 动态面板的遮罩
 
@@ -54,11 +54,11 @@
 
 在此模式下，可以在动态面板的每一个状态中添加、删除和编辑包含在单个状态里面的元件，如图4-42所示；还可以通过单击画布右上角的“隔离”按钮来切换外部元件的可见性，如图4-43所示。
 
-![](images/EPUB/images/image_283.jpg)
+![](images/EPUB/images/image_283.webp)
 
 ▲图4-42 动态面板单个状态设置
 
-![](images/EPUB/images/image_284.jpg)
+![](images/EPUB/images/image_284.webp)
 
 图4-43 “隔离”按钮
 
@@ -68,11 +68,11 @@
 
 在此区域亦可进行状态的复制、删除、新增操作，按住并拖动状态可进行排序，如图4-45所示。
 
-![](images/EPUB/images/image_285.jpg)
+![](images/EPUB/images/image_285.webp)
 
 ▲图4-44 “概要”面板
 
-![](images/EPUB/images/image_286.jpg)
+![](images/EPUB/images/image_286.webp)
 
 图4-45 动态面板设置
 
@@ -80,7 +80,7 @@
 
 该功能可以使第一个状态从动态面板中脱离，并将该状态所包含的元件全部释放到画布上。使用鼠标右键单击动态面板，在快捷菜单中选择“从首个状态脱离”命令，如图4-46所示。
 
-![](images/EPUB/images/image_287.jpg)
+![](images/EPUB/images/image_287.webp)
 
 图4-46 “从首个状态脱离”命令
 
@@ -92,17 +92,17 @@
 
 中继器由数据集（可以理解为轻量级的数据库）驱动，因此它可以用来显示动态排序和过滤。中继器元件在Axure左侧的“元件”面板，将其直接拖至画布（中间的区域）中，如图4-47所示。
 
-![](images/EPUB/images/image_288.jpg)
+![](images/EPUB/images/image_288.webp)
 
 图4-47 中继器元件
 
 选中后双击中继器元件，就会进入中继器编辑界面，如图4-48所示，在这里可以对中继器进行编辑和设置。在“样式”面板中可以对中继器的行数、列数、行中内容进行设置，如图4-49所示。
 
-![](images/EPUB/images/image_289.jpg)
+![](images/EPUB/images/image_289.webp)
 
 ▲图4-48 中继器编辑界面
 
-![](images/EPUB/images/image_290.jpg)
+![](images/EPUB/images/image_290.webp)
 
 图4-49 “样式”面板
 
@@ -124,11 +124,11 @@
 
 如果取消勾选此复选框，则每个中继器的item将保持固定大小，而不管其包含的小组件的大小、位置或可见性是否发生任何更改。如果小部件超出其自身item的固定边界，则动态移动或显示的小部件可能会与其他中继器的item重叠。
 
-![](images/EPUB/images/image_291.jpg)
+![](images/EPUB/images/image_291.webp)
 
 ▲图4-50 “间距”“布局”“分页”
 
-![](images/EPUB/images/image_292.jpg)
+![](images/EPUB/images/image_292.webp)
 
 图4-51 “适应HTML内容”复选框
 
@@ -136,7 +136,7 @@
 
 默认情况下，中继器覆盖有绿色遮罩，以使其包含的小部件更容易与画布上的其他小部件区分开来。可以在Axure RP 9菜单栏中的“视图→遮罩”中切换中继器遮罩的开关，如图4-52所示。
 
-![](images/EPUB/images/image_293.jpg)
+![](images/EPUB/images/image_293.webp)
 
 图4-52 中继器的遮罩
 
@@ -144,11 +144,11 @@
 
 注意：如果进入中继器编辑界面后其他组件对中继器的item有影响，可以通过单击画布右上角的“隔离”按钮来隐藏界面上的其他部件。
 
-![](images/EPUB/images/image_294.jpg)
+![](images/EPUB/images/image_294.webp)
 
 ▲图4-53 中继器
 
-![](images/EPUB/images/image_295.jpg)
+![](images/EPUB/images/image_295.webp)
 
 图4-54 中继器编辑界面
 
@@ -160,11 +160,11 @@
 
 往中继器数据集里导入图片，需要在每行的图片列里单击鼠标右键，选择“导入图片”命令，找到需要的图片，如图4-56所示。
 
-![](images/EPUB/images/image_296.jpg)
+![](images/EPUB/images/image_296.webp)
 
 ▲图4-55 往中继器数据集中添加数据
 
-![](images/EPUB/images/image_297.jpg)
+![](images/EPUB/images/image_297.webp)
 
 图4-56 往数据集中导入图片
 
@@ -176,17 +176,17 @@
 
 文本的输入：选中右侧数据集中的单元格，输入文本，如图4-57所示。
 
-![](images/EPUB/images/image_298.jpg)
+![](images/EPUB/images/image_298.webp)
 
 图4-57 往数据集中添加文本数据
 
 文本值在item里面的展示：依次单击“每项加载”→“目标”→“矩形”，然后单击“设置为”→“文本”，单击“fx”按钮，如图4-58所示，在“插入变量或函数”框中选择一个中继器的列名，如图4-59所示，单击“确定”按钮。
 
-![](images/EPUB/images/image_299.jpg)
+![](images/EPUB/images/image_299.webp)
 
 ▲图4-58 设置文本
 
-![](images/EPUB/images/image_300.jpg)
+![](images/EPUB/images/image_300.webp)
 
 图4-59 选择中继器的列名
 
@@ -198,17 +198,17 @@
 
 在元件库中找到内联框架，将其拖入工作区后松开鼠标左键即可开始使用，如图4-60所示。双击内联框架元件，弹出“链接属性”对话框，如图4-61所示，此处可以选择链接至Axure文件中的其他页面或者外部URL。
 
-![](images/EPUB/images/image_301.jpg)
+![](images/EPUB/images/image_301.webp)
 
 图4-60 内联框架元件
 
 默认情况下，内联框架有边框，可以通过勾选或取消勾选“样式”面板中的“隐藏边框”复选框来显示或隐藏边框，如图4-62所示。当内联框架内的内容超过其本身大小时，可以设置内联框架进行滚动。
 
-![](images/EPUB/images/image_302.jpg)
+![](images/EPUB/images/image_302.webp)
 
 ▲图4-61 “链接属性”对话框
 
-![](images/EPUB/images/image_303.jpg)
+![](images/EPUB/images/image_303.webp)
 
 图4-62 “样式”面板
 
@@ -236,11 +236,11 @@
 
 ② 内联框架和框架内的内容页面之间变量的传递在大多数浏览器中不适用。
 
-![](images/EPUB/images/image_304.jpg)
+![](images/EPUB/images/image_304.webp)
 
 ▲图4-63 框架中打开链接
 
-![](images/EPUB/images/image_305.jpg)
+![](images/EPUB/images/image_305.webp)
 
 图4-64 添加链接
 

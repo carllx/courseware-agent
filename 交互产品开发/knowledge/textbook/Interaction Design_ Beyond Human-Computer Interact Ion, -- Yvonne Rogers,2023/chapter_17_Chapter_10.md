@@ -48,7 +48,7 @@ Collecting  data has  never been easier. What is  challenging is  know
 Another technique for analyzing what people are doing on websites and social media is to examine  the trail  of activity that they  leave behind. You  can see this by  looking at your own Twitter feed or by  looking at someone else’s whom you are following, for example, a friend, a political leader, or a celebrity. You  can also examine discussions about a particular topic such as climate change, reactions to comments made by  comedians, or a topic that is trending on a particular day. If there are just a few posts, then it is easy to see what is going on,  but  often  the  most  interesting  posts  are  those  that  generate  lots  of  comments. When examining thousands or tens of thousands of posts, analysts use automated techniques to do this (e.g., Bostock et al., 2011; Hansen et al., 2019).
 
 Figure 10.1 Heathrow Airport Terminal 5 Public Display in top-right corner of image showing the relative level of activity using an infographic of North vs. South Security   
-![](images/18171d936c84f6fbd28015189bc74e4bf8ad8a241dbcf77bdf2f86d78719c312.jpg)  
+![](images/18171d936c84f6fbd28015189bc74e4bf8ad8a241dbcf77bdf2f86d78719c312.webp)  
 Source: Marc Zakian / Alamy Stock Photo
 
 # 10.2.1  Scraping and “Second Source” Data
@@ -113,10 +113,10 @@ Another example of a large citizen science project is eBird.org, where
 
 Harnessing the power of the crowd enables a diversity of data to be collected, but crowd projects raise a number of issues as to who owns and manages it. This is especially pertinent when the data collected can be mined to unearth details about the people who contribute the data. For researchers and UX designers, there are important questions about how to balance making data available for education and research while protecting the privacy of those contributing the data, including the location where the data is collected. Box 10.2 discusses how one citizen science project, iNaturalist, tries to manage this balance.
 
-![](images/b23c135d0c1be2512f7521e34db1df148b0755fd03f6b51f76e6b9fac3621783.jpg)  
+![](images/b23c135d0c1be2512f7521e34db1df148b0755fd03f6b51f76e6b9fac3621783.webp)  
 (a) Symptoms
 
-![](images/9430f1751e55de0dc0a592c4c873dbf25d2765ef9a30c8d2193aa913e3f46f0c.jpg)  
+![](images/9430f1751e55de0dc0a592c4c873dbf25d2765ef9a30c8d2193aa913e3f46f0c.webp)  
 (b) Voice Recording   
 Figure 10.2 The smartphone COVID-19 Sounds app: (a) reporting symptoms using a simple survey and (b) recording voice samples (Han et al., 2022)
 
@@ -135,7 +135,7 @@ It is, therefore, important to ask, how important is privacy in citizen sc
 Various digital tools and platforms have been developed, intended to manage the diverse community of participants by providing shared protocols for how to participate, while facilitating the exchange of data and different views (Preece, 2016). Other strategies involve making  images and locations fuzzy  so that they are not exact. This is also a good strategy for keeping the location of rare species’ observations confidential—especially important to prevent people from finding where  rare plants are  and taking them. For example, iNaturalist (www.inaturalist.org) has a geoprivacy setting that can be set to “open,” “obscure,” or “private.” Obscured observations are used to hide the  exact location of endangered species, as shown in Figure 10.3.
 
 Figure 10.3 iNaturalist geoprivacy obscures the location of an observation.   
-![](images/0f14dbbecc7a33ece63f6578b9aa00a1257d74a57893990d7cc39cae4c6c47c5.jpg)  
+![](images/0f14dbbecc7a33ece63f6578b9aa00a1257d74a57893990d7cc39cae4c6c47c5.webp)  
 In this example: 1. EN indicates  that the organism is endangered, so its location needs to be obscured. 2. This indicates that obscuring is done by randomly placing the marker for the location within the broader area. 3. This line allows the contributor to verify that this observation has been observed within iNaturalist. Source: www.inaturalist.org
 
 # 10.2.4  Sentiment Analysis
@@ -163,7 +163,7 @@ An integral part of social network analysis is the creation of maps,�
 There are other interesting relationships that can be teased out by experts in social network analysis, who also know more about the context of the discussion, perhaps by reading some of the tweets. Without that extra knowledge it can be hard to make a deeper interpretation of the network. For example, what might be going on at the bottom left of the network diagram, where  there are many edges (the gray  lines) joining a few orange  nodes, some of which are right at the bottom of the diagram  and some  of which are closer in  toward the central network?
 
 Figure 10.4 A social network map showing people (represented by nodes) who have tweeted the word global warming and how they are connected to one another based on Follow, Reply, or Mention relationships (edges)   
-![](images/1861ea12e68affa691844ece5742a29f65a91043a4be86b6c7b393caa022104b.jpg)  
+![](images/1861ea12e68affa691844ece5742a29f65a91043a4be86b6c7b393caa022104b.webp)  
 Source: Hansen, D. L., and Smith, M. A. (2014) Social Network Analysis in HCI. In J. Olson and W. Kellogg (eds) Ways of Knowing in HCI. Springer, New York, NY. pp. 421–447
 
 Some other topics that have been studied using social network analysis include communication during the 2016 flood in Louisiana, where Jooho Kim and Makarand Hastak (2018) examined  the role of  social media in  flood victims’  communication, both  with each  other and with emergency services. They found that Facebook was used effectively to disseminate information. Another study by Dinah Handel and her colleagues examined teachers’ tweets on Twitter (Handel et al., 2015). More recently, SNA has been used to examine people’s feelings about the COVID-19 pandemic on social media (Nemes and Kiss, 2021).
@@ -182,16 +182,16 @@ There is often a gulf between the benefits provided to society through tr
 
 One  approach is to use  a  provocative  probe  (discussed in Chapter  11, “Discovering Requirements”). For example, a project called the Quantified Toilets (2014) did this by setting up a fake service in a public place to disrupt the accepted norms. The team was interested in how a community would react to having their urine analyzed in a public toilet with the goal of improving public health. They pretended to be a commercial company called the Quantified Toilets, which had created a new urine analysis technology infrastructure and installed it in the public toilets at a convention center. Signage was placed throughout the toilets explaining the rationale for the initiative (see Figure 10.5). In addition, the team created a website that presented fake real-time data feeds from each of the toilets in the convention center showing the results of the urine analysis, including details such as blood alcohol levels, drugs detected, pregnancy, and odor (see Figure 10.6). All sampled data were anonymized but also fake so not belonging to anyone. In addition, a link to a survey was added, and the general public was invited to give their feedback.
 
-![](images/cd612ba4bdabe7cd40bdeba7e1265eb163b3761fa74e5e30fc8bf6145f7e5e17.jpg)
+![](images/cd612ba4bdabe7cd40bdeba7e1265eb163b3761fa74e5e30fc8bf6145f7e5e17.webp)
 
 Quantified Toilets
 
 Figure 10.5 Signage posted in the convention center   
-![](images/9dc9def95cb4de00ab037acf0f5ac70d3b2f56eefff79c367befce8872a4ee23.jpg)  
+![](images/9dc9def95cb4de00ab037acf0f5ac70d3b2f56eefff79c367befce8872a4ee23.webp)  
 Source: Courtesy of Quantified Toilets
 
 Figure 10.6 The real-time data was provided on a fake website.   
-![](images/f6ebd4aab7be473c3a90f1290075dc1dd2d5d0e18b969a5eb49e116bb23a06fc.jpg)  
+![](images/f6ebd4aab7be473c3a90f1290075dc1dd2d5d0e18b969a5eb49e116bb23a06fc.webp)  
 Source: Courtesy of Quantified Toilets
 
 The goal was to observe people’s reactions when coming across this new service. Would they mind or become upset, surprised, or outraged? Would they question the  reality of the situation and tell others?
@@ -229,17 +229,17 @@ The researchers  were able to mine the data that they had collected 
 Figure 10.7 shows a graph indicating the relationship between activity, assignment deadlines, attendance, and sleep. It shows that students are very active at the beginning of the term and get very little sleep. This suggests that  they are out partying  a lot. They  also have high attendance rates at the beginning of term. As the term progresses, however, their behavior changes. Toward the end of term, sleep, attendance, and activity all drop off dramatically!
 
 Figure 10.7 Student’s activity, sleep, and attendance levels against deadlines during a term   
-![](images/e29876ab8a88392b12994b53d7e17a647ab7f4036fcea8fd759817a923e23752.jpg)  
+![](images/e29876ab8a88392b12994b53d7e17a647ab7f4036fcea8fd759817a923e23752.webp)  
 Source: StudentLife Study
 
 # ACTIVITY 10.2
 
 From the two graphs shown in Figure 10.8, what can you say about the students’ activity, their stress levels, and their level of socializing in relation to deadlines over the course of the term?
 
-![](images/c210fe277e0c0a8d3300767f76ba2ac41d9b36854912eb6f3875e3169038d47f.jpg)
+![](images/c210fe277e0c0a8d3300767f76ba2ac41d9b36854912eb6f3875e3169038d47f.webp)
 
 Figure 10.8 Student behavioral measures over the course of a term   
-![](images/7abaaff2effded0bbe04917da30d683c041dc23b8cd3bf65f101395a3444e2a7.jpg)  
+![](images/7abaaff2effded0bbe04917da30d683c041dc23b8cd3bf65f101395a3444e2a7.webp)  
 Source: StudentLife Study
 
 # Comment
@@ -261,7 +261,7 @@ There are a number of off-the-shelf sensor toolkits available now that can
 Masses of environmental data have been collected over the years that have been used to inform the development of smart cities by enabling local communities to fabricate their own sensing tools, make sense of their environments, and  address pressing environmental problems, such as air pollution (Balestrini et al., 2015).
 
 Figure 10.9 Smart Citizen dashboard and visualization   
-![](images/62b4c57082d1d000499f594f0eb27d56c5c5696966e0463d3c2dec6b91e36864.jpg)  
+![](images/62b4c57082d1d000499f594f0eb27d56c5c5696966e0463d3c2dec6b91e36864.webp)  
 Source: CitizenMe, www.citizenme.com
 
 Even graphical representations of small amounts of data (for example 20–100 items) can be hard to interpret if the people trying to make sense of them don’t understand the way that the data is being displayed. Furthermore, sometimes representations, such as bar graphs, line graphs, and scatter plots (described in Chapter 9), are displayed in misleading ways. Danielle Szafir (2018), for example, asks, “How can we craft visualizations that effectively  communicate the right information  from our  data?” She  describes how  data displays can  mislead people when graphs have axes with truncated scales, or they show data in 3D bars making it hard to read exact values from the bar because it isn’t obvious which side of the 3D column is  the  place  to read. Interactive  visualizations  typically include  various  canonical forms  of representations (for instance, bar charts  or pie charts)  along with tree maps and advanced visualization techniques that enable people to interact with the data online by panning and zooming in and out of the displays. Interactive techniques like panning and zooming in and out help people to navigate and explore complex data visualizations. Different methods may be used for representing data visually on mobile devices, often referred to as mobile visualizations (Lee et al., 2022). For  example, the “complication” display described in Chapter 7, “Interfaces,” shows the kinds of miniature visualizations that have been developed specifically for using on a watch face, intended for the wearer to see at a glance.
@@ -272,12 +272,12 @@ A number of visualization tools have been developed for interacting wi
 
 Other kinds of visualizations have also been developed for different kinds of data, such as using  spectrograms to  represent  audio. For  example, Figure  10.11  shows spectrograms that were used to visualize recorded sounds from birds and insects, collected by Jessie Oliver and her colleagues (2018). They show visually the signal strength, or “loudness,” of a sound over time at various frequencies present in a waveform, enabling scientists to get an overview and be able to see the  patterns in bird songs and animal noises. Oliver et al. wanted  to see how people investigated and annotated these kinds of visualizations and how they could be used to find and identify birds and other animals in the wild.
 
-![](images/239d09a14c21779e41c6aa8483623af7b22681c4e92284918e5c064af8329c89.jpg)  
+![](images/239d09a14c21779e41c6aa8483623af7b22681c4e92284918e5c064af8329c89.webp)  
 Figure 10.10  A market map of the S&P 500, which is a financial index for stocks. Green indicates stocks that increased in value, and red indicates stocks that decreased in value that day.
 
 Source: Courtesy of FINVIZ
 
-![](images/c84ad7b4add031ca0dc38163bcbf9552e49acfaf84248c6f6a4b51d7a92f748e.jpg)  
+![](images/c84ad7b4add031ca0dc38163bcbf9552e49acfaf84248c6f6a4b51d7a92f748e.webp)  
 Figure 10.11  Visualization  of different  sounds,  including  birds  and  insects, from three  areas of Australia that are displayed so they can be interpreted and compared
 
 Source: Oliver et al. (2018) / Reproduced with permission of ACM Publications
@@ -306,7 +306,7 @@ This  enables  managers  to  see  the  data  displayed  in  different 
 A  challenge  is  how  to  make these  ever  more  powerful  tools available  to  people who want to explore, such topics as personal finance and health data, but who are not trained as analysts and who do not want to employ or work with an analyst. Increasingly, AI techniques are incorporated in the tools that automate many data analytic tasks—making it easier for other people to use. Natural language interfaces have also been developed to make it easier for people to ask specific questions of the data. For example, Tableau’s Ask Data lets someone type a question in everyday language such as “show the total sales for the first quarter.” Tableau then automatically displays the relevant data visualizations.
 
 Figure 10.12  A dashboard that was created to show changes in sales information   
-![](images/4cc117152c452ad6cc537f9aa0a82f2891ee8e37d95e77fefac5b9399d988994.jpg)  
+![](images/4cc117152c452ad6cc537f9aa0a82f2891ee8e37d95e77fefac5b9399d988994.webp)  
 Source: Zoho Corporation Pvt. Ltd, www.zoho.com/analytics/tour.html
 
 The design of dashboards can vary a lot, and there is a tendency to cram lots of graphs and  other  visualizations  into  them. Alper  Sarikaya  and  colleagues  (2018)  argued  that  a deeper  understanding  is  needed about  how  the context  of use  can  impact  the usability  of dashboards. They challenge UX designers to develop dashboards for different types of uses and for a wide range of people. This work involved analyzing a range of dashboards, first by reviewing published papers written by other researchers. Then they carried out a qualitative study in which they classified the features of different dashboards and how they are used.
@@ -315,7 +315,7 @@ They  characterized  the  dashboards  according  to  their  design  goal
 
 decision-making, communication,  and dashboards  evolved, which  was a  catchall  category that included features that did not fit into other categories.
 
-![](images/694a2c2cb35afd5307aef2d6bdd93e011a6e8b11aba81b37d07d887a42329956.jpg)  
+![](images/694a2c2cb35afd5307aef2d6bdd93e011a6e8b11aba81b37d07d887a42329956.webp)  
 Figure 10.13  Exemplar dashboards (Sarikaya et al., 2018). Dashboard 1 and Dashboard 5 specifically target decision-making, while Dashboard 3 and Dashboard 4 target consumer awareness. Dashboard 2 represents the quantified self (such as a smart home), while Dashboard 6 represents those dashboards targeting communication. Dashboard 7 captures some novel extensions of traditional dashboards.
 
 Source: Sarikaya et al. (2018) / Reproduced with permission of IEEE
@@ -328,10 +328,10 @@ Study Figure 10.14(a), which comes from the weather site www.wunderground.
 
 It shows weather data for a day in December at Washington D.C. in the United States. Particularly take note of the temperature, precipitation, and wind data. What information do they provide? Now compare this visualization with that depicted in the “wundermap” (see Figure 10.14b). How do the two displays differ, and which do you prefer?
 
-![](images/57507af117dfa74765bc750feaf1259251c4ba2fbf74b1437677feb9cab2717d.jpg)
+![](images/57507af117dfa74765bc750feaf1259251c4ba2fbf74b1437677feb9cab2717d.webp)
 
 Figure 10.14  (a) Actual weather data and (b) a wundermap of the same area and time   
-![](images/558ad2b11d977118c9be9c40dc5b4c0d74743cece00be63d534cd951b97c1690.jpg)  
+![](images/558ad2b11d977118c9be9c40dc5b4c0d74743cece00be63d534cd951b97c1690.webp)  
 Source: TWC Product and Technology LLC, www.wunderground.com
 
 # Comment
@@ -352,12 +352,12 @@ Queen  Elizabeth Park in London was  transformed into a “smart park.” A
 
 The data collected was primarily provided to the scientists in the form of spectrograms (see Figure 10.15b), but it was also presented in a more accessible form to the public via an interactive display (see Figure 10.15a). As part of a public kiosk, a schematic map was provided  that showed where in the park the bat  call data had  been collected (Kaninsky  et al., 2018). A slider was provided to enable visitors to interact with the data: moving it to the left showed bat call data from the night before, while moving it to the right showed bat call data from the previous 10 nights. The LEDs on the map changed in color and intensity, representing the varying levels of bat calls. The total number was also shown in the digital display. The kiosk was deployed in the park, and many passersby stopped for a considerable length of time to learn about bats and interact with the data. The physical act of using the slider provided an engaging way  of exploring  the  data rather than just looking  at a  static visualization  or dashboard.
 
-![](images/6c7741565cba338e9d8746d8b4e1790056533ef3bcbac010239a21dc28736c7f.jpg)  
+![](images/6c7741565cba338e9d8746d8b4e1790056533ef3bcbac010239a21dc28736c7f.webp)  
 (a)
 
 (b)   
 Figure 10.15  The same bat call data was made accessible (a) to the general public via an interactive visualization and (b) as a spectrogram intended for environmental scientists.   
-![](images/5334e5ab917d2994f1c0612aa5ad85e3a09dde709c6bc01c8aec45c049fedf84.jpg)  
+![](images/5334e5ab917d2994f1c0612aa5ad85e3a09dde709c6bc01c8aec45c049fedf84.webp)  
 Source: (a) Courtesy of Matej Kaninsky and (b) Courtesy of Sara Gallacher
 
 Designing data visualizations when beginning a career can be daunting. Amanda Makulec (2022) describes her insightful journey of starting out in this area in her article Starting out in Data Visualization Today, in particular from being a newcomer to becoming an expert. In so doing, she offers helpful advice and pointers to other researchers along the way.
@@ -368,7 +368,7 @@ nightingaledvs.com/starting-out-in-data-visualization-today
 
 In the introduction to this chapter, we mentioned how a diversity  of data is now regularly being  collected  from  people for  a  variety  of  reasons, including  improving  public  services, reducing congestion, and enhancing security measures. It is usually anonymized and sometimes aggregated to make it publicly available, for example showing the energy consumption data  for a  given  space  such  as a  floor  of a  building. Figure  10.16  shows  a  floor-by-floor comparison for a University of Melbourne building, where the red bar shows that the basement is the worst performer in terms of energy usage, and the green bar shows level 1 is the best performer. The idea  is  to provide  feedback on  energy consumption  in the building to increase awareness among the inhabitants and encourage them  to reduce  their energy consumption. However, what if localized occupancy rates or energy consumption for each room were shown? It would not take much to figure out who was in that space. Would that be a step too far and an invasion of their privacy? Would people mind?
 
-![](images/8f298925ed63e23f6b1f4086fc3dfbf8c3a9fe8d7a2cbe0e9bb8f75e49ef8c1d.jpg)  
+![](images/8f298925ed63e23f6b1f4086fc3dfbf8c3a9fe8d7a2cbe0e9bb8f75e49ef8c1d.webp)  
 Figure 10.16  Average daily energy consumption depicted on a public display for a building at the University of Melbourne. Green  is best performer, yellow is in the middle,  and  red  is the  worst performer.
 
 # Source: Yvonne Rogers
@@ -396,7 +396,7 @@ Shoplifting is on the rise; in 2019 it cost retail companies in the US $\$ 
 Various stores throughout the world have started using this kind of technology to help combat shoplifting. However, there is much public concern about adopting this practice. Matt Burgess (2020), for example, notes that while on the positive side this technology has acted as a deterrent and improved the safety of store staff, on the negative side, it is seen as being extremely intrusive, because shoppers’ faces are scanned without them knowing of the consequences, nor having had the choice to give or not give their consent. Do you think this practice is socially acceptable? What might be other privacy concerns?
 
 Figure 10.17  DeepCam’s face-tracking software used in a store   
-![](images/2ff49152bf68fdf03c297fdd2d38bf7b80d2f8870358f190b04cf0ad5b55f43b.jpg)  
+![](images/2ff49152bf68fdf03c297fdd2d38bf7b80d2f8870358f190b04cf0ad5b55f43b.webp)  
 Source: DeepCAM, deepcamai.com
 
 # Comment
@@ -417,10 +417,10 @@ Explainability refers to designing systems, which collect data and make
 
 Within the context of HCI, Ashraf Abdul et al. (2018) have proposed an agenda for how HCI researchers can help to develop more accountable intelligent systems that are usable and useful to people. Following on from this, Upol Ehsan and colleagues (2021) have proposed an alternative approach to explainability, which is based on the concept of social transparency. Rather than try to visualize how an AI model works using a saliency map, they suggest instead that it is better to show users how other people’s interactions with the system impacts upon their trust and understanding of it. This kind of contextual knowledge is broken down into four core components: (1) who interacted with the AI system, (2) what they did, (3) when, and (4) why they did what they did. It is argued that this kind of socio-technical approach will more likely help explain to users better how AI systems make their decisions.
 
-![](images/86541440a0a6c133e65a55381c317003db6db8c67b21c2a5c7c365adf5cf0978.jpg)
+![](images/86541440a0a6c133e65a55381c317003db6db8c67b21c2a5c7c365adf5cf0978.webp)
 
 Figure 10.18  A saliency map on the right created as an explanation of how the image on the left was classified by a deep learning algorithm as a dog. The highlighted pixels in light blue are the ones that made the most contribution to the final score.   
-![](images/653e00c1afe8431baf5e22410a5c8f1d027a63852bf8a8b3e870356fa8613f70.jpg)  
+![](images/653e00c1afe8431baf5e22410a5c8f1d027a63852bf8a8b3e870356fa8613f70.webp)  
 Source: CNN, https://usmanr149.github.io/urmlblog/cnn/2020/05/01/Salincy-Maps.html
 
 The consequences  of a system making  a decision for a human can  vary. This can help determine  whether an  explanation  is  needed  to support  a decision  made by  a  system  and what it should include. For example, if a decision is made to pop up an ad for slippers in a person’s browser, based on an analysis of their tracked online app usage (a common practice used in targeted  advertising), it  might  be mildly annoying, but  it is  unlikely to upset  them. However, if a decision is made to deny a loan or a visa based on the outcome of an automated algorithm, it may have more dire consequences for someone’s life, and they would want to know why  the particular decision was made. In the future, it will become  increasingly the case that humans and algorithms will need to work together.

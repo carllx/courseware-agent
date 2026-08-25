@@ -1,6 +1,6 @@
 **Hierarchy is Everything**
 
-![](images/index-36_1.png)
+![](images/index-36_1.webp)
 
 **Not all elements are equal**
 
@@ -19,7 +19,7 @@ When everything in an interface is competing for attention, it feels
 noisy and chaotic, like one big wall of content where it’s not clear
 what actually matters:
 
-![](images/index-37_1.png)
+![](images/index-37_1.webp)
 
 37
 
@@ -34,5 +34,5 @@ So how do you actually make this happen? In the following chapters,
 we’ll cover a number of specific strategies you can use to introduce
 hierarchy into your designs.
 
-![](images/index-38_1.png)
+![](images/index-38_1.webp)
 

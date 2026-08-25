@@ -1,6 +1,6 @@
 # Chapter 12. Box 8: MVPs and Experiments
 
-![](images/assets/lux3_1201.png)
+![](images/assets/lux3_1201.webp)
 
 ###### Figure 12-1. Box 8 of the Lean UX Canvas: MVPs and Experiments
 
@@ -216,7 +216,7 @@ want to put into your MVP. Remember the second key question: *What’s the
 smallest thing that you can do to learn the next most important thing?*
 Anything more than that is waste.
 
-![](images/assets/lux3_1202.png)
+![](images/assets/lux3_1202.webp)
 
 ###### Figure 12-2. Our adapted version of the Truth Curve is a useful reminder that learning is continuous, and increased investment is only warranted when the facts dictate it
 
@@ -248,7 +248,7 @@ proposed ideas. Landing page tests don’t have to be pages. They can be
 advertisements or other online messages that have the components listed
 above.
 
-![](images/assets/lux3_1203.png)
+![](images/assets/lux3_1203.webp)
 
 ###### Figure 12-3. An example of a Kickstarter page
 
@@ -272,7 +272,7 @@ a feature fake that Flickr used. In this case, they offered a button
 labeled “Use as screensaver” that was ostensibly meant for the user to
 specify a photo album as the screensaver for their device.
 
-![](images/assets/lux3_1204.png)
+![](images/assets/lux3_1204.webp)
 
 ###### Figure 12-4. An example of a feature fake found in Flickr’s Apple TV app
 
@@ -283,7 +283,7 @@ used this to gather evidence that a customer would like this feature. By
 measuring click rates, they could assess demand for this feature before
 they built it.
 
-![](images/assets/lux3_1205.png)
+![](images/assets/lux3_1205.webp)
 
 ###### Figure 12-5. The screen that appears after clicking the feature-fake button
 
@@ -293,7 +293,7 @@ opportunity to take and upload photos while jogging using two modal
 overlays. No feature existed until they got an indication that a) people
 wanted this feature and b) how much they’d be willing to pay for it.
 
-![](images/assets/lux3_1206.png)
+![](images/assets/lux3_1206.webp)
 
 ###### Figure 12-6. Another example of a feature fake, this one on the MapMyRun website
 
@@ -360,11 +360,11 @@ of our interactions in a simple Trello board
 ([Figure 12-8](#ch12.html_our_quotation_markdatabasequotation_mar)),
 which served as our “database.”
 
-![](images/assets/lux3_1207.png)
+![](images/assets/lux3_1207.webp)
 
 ###### Figure 12-7. The Wizard of Oz site for Taproot Foundation
 
-![](images/assets/lux3_1208.png)
+![](images/assets/lux3_1208.webp)
 
 ###### Figure 12-8. Our “database” was simply a Trello board
 
@@ -377,7 +377,7 @@ applying some mature graphic design polish
 ([Figure 12-9](#ch12.html_the_taproot_plus_site_with_more_polishe))—after
 we had learned enough to understand how to communicate our brand.
 
-![](images/assets/lux3_1209.png)
+![](images/assets/lux3_1209.webp)
 
 ###### Figure 12-9. The Taproot Plus site with more polished graphic design
 

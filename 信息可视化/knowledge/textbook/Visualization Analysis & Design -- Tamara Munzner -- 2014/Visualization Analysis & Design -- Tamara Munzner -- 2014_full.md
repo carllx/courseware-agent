@@ -588,7 +588,7 @@ Idiom and System Examples Index 397
 
 Concept Index 399
 
-![](images/1c296ab0b2e9fd74f89da5e3a59c7b115bc0038eae981dd648799142390a01b9.jpg)
+![](images/1c296ab0b2e9fd74f89da5e3a59c7b115bc0038eae981dd648799142390a01b9.webp)
 
 #
 
@@ -700,7 +700,7 @@ I thank my family for their decades of love and support: Naomi Munzner, Sheila O
 
 thank Ari for the painting featured on the cover and for the way that his artwork has shaped me over my lifetime; see http://www. aribertmunzner.com.
 
-![](images/a6e42b35159ca06a7cec434be85a623fc6211f1f530d39bfc3d8cf396acee32f.jpg)
+![](images/a6e42b35159ca06a7cec434be85a623fc6211f1f530d39bfc3d8cf396acee32f.webp)
 
 #
 
@@ -753,7 +753,7 @@ In the middle stages of a transition, you can build a vis tool aimed at the desi
 
 You can also design a vis tool for end users in conjunction with other computational decision making to illuminate whether the automatic system is doing the right thing according to human judgement. The tool might be intended for interim use when making deployment decisions in the late stages of a transition, for example, to see if the result of a machine learning system seems to be trustworthy before entrusting it to spend millions of dollars trading stocks. In some cases vis tools are abandoned after that decision is made; in other cases vis tools continue to be in play with long-term use to monitor a system, so that people can take action if they spot unreasonable behavior.
 
-![](images/8f1b393435929ba89de2e82403c01faf1be42b22b3ab7bde7cc5f1ce1efcfa64.jpg)  
+![](images/8f1b393435929ba89de2e82403c01faf1be42b22b3ab7bde7cc5f1ce1efcfa64.webp)  
 Figure 1.1. The Variant View vis tool supports biologists in assessing the impact of genetic variants by speeding up the exploratory analysis process. From [Ferstay et al. 13, Figure 1].
 
 In contrast to these transitional uses, you can also design vis tools for long-term use, where a person will stay in the loop indefinitely. A common case is exploratory analysis for scientific discovery, where the goal is to speed up and improve a user’s ability to generate and check hypotheses. Figure 1.1 shows a vis tool designed to help biologists studying the genetic basis of disease through analyzing DNA sequence variation. Although these scientists make heavy use of computation as part of their larger workflow, there’s no hope of completely automating the process of cancer research any time soon.
@@ -764,10 +764,10 @@ You can also design vis tools for presentation. In this case, you’re supportin
 
 By enlisting computation, you can build tools that allow people to explore or present large datasets that would be completely infeasible to draw by hand, thus opening up the possibility of seeing how datasets change over time.
 
-![](images/c5035c20032cf4ee963b9956471a54e817a126292d34a2b81ae404d255a945cd.jpg)  
+![](images/c5035c20032cf4ee963b9956471a54e817a126292d34a2b81ae404d255a945cd.webp)  
 (a)
 
-![](images/6888b68b6226f6f51a121038b37a71041f6fb1b41575a782d008491e744f5a64.jpg)  
+![](images/6888b68b6226f6f51a121038b37a71041f6fb1b41575a782d008491e744f5a64.webp)  
 (b)   
 Figure 1.2. The Cerebral vis tool captures the style of hand-drawn diagrams in biology textbooks with vertical layers that correspond to places within a cell where interactions between genes occur. (a) A small network of 57 nodes and 74 edges might be possible to lay out by hand with enough patience. (b) Automatic layout handles this large network of 760 nodes and 1269 edges and provides a substrate for interactive exploration: the user has moved the mouse over the MSK1 gene, so all of its immmediate neighbors in the network are highlighted in red. From [Barsky et al. 07, Figures 1 and 2].
 
@@ -809,13 +809,13 @@ Anscombe’s Quar tet: R aw Data
 
 <table><tr><td rowspan="2"></td><td colspan="2">1</td><td colspan="2">2</td><td colspan="2">3</td><td colspan="2">4</td></tr><tr><td>X</td><td>Y</td><td>X</td><td>Y</td><td>X</td><td>Y</td><td>X</td><td>Y</td></tr><tr><td rowspan="11"></td><td>10.0</td><td>8.04</td><td>10.0</td><td>9.14</td><td>10.0</td><td>7.46</td><td>8.0</td><td>6.58</td></tr><tr><td>8.0</td><td>6.95</td><td>8.0</td><td>8.14</td><td>8.0</td><td>6.77</td><td>8.0</td><td>5.76</td></tr><tr><td>13.0</td><td>7.58</td><td>13.0</td><td>8.74</td><td>13.0</td><td>12.74</td><td>8.0</td><td>7.71</td></tr><tr><td>9.0</td><td>8.81</td><td>9.0</td><td>8.77</td><td>9.0</td><td>7.11</td><td>8.0</td><td>8.84</td></tr><tr><td>11.0</td><td>8.33</td><td>11.0</td><td>9.26</td><td>11.0</td><td>7.81</td><td>8.0</td><td>8.47</td></tr><tr><td>14.0</td><td>9.96</td><td>14.0</td><td>8.10</td><td>14.0</td><td>8.84</td><td>8.0</td><td>7.04</td></tr><tr><td>6.0</td><td>7.24</td><td>6.0</td><td>6.13</td><td>6.0</td><td>6.08</td><td>8.0</td><td>5.25</td></tr><tr><td>4.0</td><td>4.26</td><td>4.0</td><td>3.10</td><td>4.0</td><td>5.39</td><td>19.0</td><td>12.50</td></tr><tr><td>12.0</td><td>10.84</td><td>12.0</td><td>9.13</td><td>12.0</td><td>8.15</td><td>8.0</td><td>5.56</td></tr><tr><td>7.0</td><td>4.82</td><td>7.0</td><td>7.26</td><td>7.0</td><td>6.42</td><td>8.0</td><td>7.91</td></tr><tr><td>5.0</td><td>5.68</td><td>5.0</td><td>4.74</td><td>5.0</td><td>5.73</td><td>8.0</td><td>6.89</td></tr><tr><td>Mean</td><td>9.0</td><td>7.5</td><td>9.0</td><td>7.5</td><td>9.0</td><td>7.5</td><td>9.0</td><td>7.5</td></tr><tr><td>Variance</td><td>10.0</td><td>3.75</td><td>10.0</td><td>3.75</td><td>10.0</td><td>3.75</td><td>10.0</td><td>3.75</td></tr><tr><td>Correlation</td><td colspan="2">0.816</td><td colspan="2">0.816</td><td colspan="2">0.816</td><td colspan="2">0.816</td></tr></table>
 
-![](images/080ce98b38c21eabef9edce974bb299932f6c982322612c6600d38e36735e114.jpg)
+![](images/080ce98b38c21eabef9edce974bb299932f6c982322612c6600d38e36735e114.webp)
 
-![](images/7d1148076583f33edd368c99c6a2f5b3e8da1b526eff47c89ee7716607722786.jpg)
+![](images/7d1148076583f33edd368c99c6a2f5b3e8da1b526eff47c89ee7716607722786.webp)
 
-![](images/ab75198c307ffff11a9f6be4350ff897c9a67b1dc169de4b4dad1424a5496b0c.jpg)
+![](images/ab75198c307ffff11a9f6be4350ff897c9a67b1dc169de4b4dad1424a5496b0c.webp)
 
-![](images/43e7d1216dfe03ca06ae02421893e0f9871f398e111ebad32cbbe62c2730f494.jpg)  
+![](images/43e7d1216dfe03ca06ae02421893e0f9871f398e111ebad32cbbe62c2730f494.webp)  
 Figure 1.3. Anscombe’s Quartet is four datasets with identical simple statistical properties: mean, variance, correlation, and linear regression line. However, visual inspection immediately shows how their structures are quite different. After [Anscombe 73, Figures 1–4].
 
 are familiar with these statistical measures, then the scatterplot of the first dataset probably isn’t surprising, and matches your intuition. The second scatterplot shows a clear nonlinear pattern in the data, showing that summarizing with linear regression doesn’t adequately capture what’s really happening. The third dataset shows how a single outlier can lead to a regression line that’s misleading in a different way because its slope doesn’t quite match the line that our eyes pick up clearly from the rest of the data. Finally, the fourth dataset shows a truly pernicious case where these measures dramatically mislead, with a regression line that’s almost perpendicular to the true pattern we immediately see in the data.
@@ -836,7 +836,7 @@ A vis idiom is a distinct approach to creating and manipulating visual represent
 
 Many vis idioms have been proposed. Simple static idioms include many chart types that have deep historical roots, such as scatterplots, bar charts, and line charts. A more complicated idiom can link together multiple simple charts through interaction. For example, selecting one bar in a bar chart could also result in highlighting associated items in a scatterplot that shows a different view of the same data. Figure 1.4 shows an even more complex idiom that supports incremental layout of a multilevel network through interactive navigation. Data from Internet Movie Database showing all movies connected to Sharon Stone is shown, where actors are represented as grey square nodes and links between them
 
-![](images/f85e608e2a28439c31e07ef5cedb8d0f8ada056bf58fe01334fbbb90d93eaaa2.jpg)  
+![](images/f85e608e2a28439c31e07ef5cedb8d0f8ada056bf58fe01334fbbb90d93eaaa2.webp)  
 Figure 1.4. The Grouse vis tool features a complex idiom that combines visual encoding and interaction, supporting incremental layout of a network through interactive navigation. From [Archambault et al. 07a, Figure 5].
 
 mean appearance in the same movie. The user has navigated by opening up several metanodes, shown as discs, to see structure at many levels of the hierarchy simultaneously; metanode color encodes the topological structure of the network features it contains, and hexagons indicate metanodes that are still closed. The inset shows the details of the opened-up clique of actors who all appear in the movie Anything but Here, with name labels turned on.
@@ -869,7 +869,7 @@ The most fundamental reason that vis design is a difficult enterprise is that th
 
 Figure 1.5 contrasts two ways to think about design in terms of traversing a search space. In addressing design problems, it’s not a very useful goal to optimize; that is, to find the very best choice. A more appropriate goal when you design is to satisfy; that is, to find one of the many possible good solutions rather than one of the even larger number of bad ones. The diagram shows five spaces, each of which is progressively smaller than the previous. First, there is the space of all possible solutions, including potential solutions that nobody has ever thought of before. Next, there is the set of possibilities that are known to you, the vis designer. Of course, this set might be small if you are a novice designer who is not aware of the full array of methods that have been proposed in the past. If you’re in that situation, one of the goals of this book is to enlarge the set of methods that you know about. The next set is the
 
-![](images/fd8157337340e59b16c68d87c614e9e36e96588e27b23810687944c29c3a7548.jpg)  
+![](images/fd8157337340e59b16c68d87c614e9e36e96588e27b23810687944c29c3a7548.webp)  
 Figure 1.5. A search space metaphor for vis design.
 
 consideration space, which contains the solutions that you actively consider. This set is necessarily smaller than the known space, because you can’t consider what you don’t know. An even smaller set is the proposal space of possibilities that you investigate in detail. Finally, one of these becomes the selected solution.
@@ -908,11 +908,11 @@ Display capacity is a third kind of limitation to consider. Vis designers often 
 
 * Synonyms for information density include graphic density and data–ink ratio.
 
-![](images/8fc25394812ff2de21e1dcb9a7c5fbc5e5382da775ce660e830d067e573571ac.jpg)
+![](images/8fc25394812ff2de21e1dcb9a7c5fbc5e5382da775ce660e830d067e573571ac.webp)
 
-![](images/6a72ae6e604eebd10a16e7e1eeae4e9c6983523516e48ffc107e86f71f02e923.jpg)
+![](images/6a72ae6e604eebd10a16e7e1eeae4e9c6983523516e48ffc107e86f71f02e923.webp)
 
-![](images/7d4cd0316a549533bd9e85f44bf2b0e87309fc1f30943d1ef5a5e9b6054a4f06.jpg)  
+![](images/7d4cd0316a549533bd9e85f44bf2b0e87309fc1f30943d1ef5a5e9b6054a4f06.webp)  
 Figure 1.6. Low and high information density visual encodings of the same small tree dataset; nodes are the same size in each. (a) Low information density. (b) Higher information density, but depth in tree cannot be read from spatial position. (c) High information density, while maintaining property that depth is encoded with position. From [McGuffin and Robert 10, Figure 3].
 
 ent ways. The layout in Figure 1.6(a) encodes the depth from root to leaves in the tree with vertical spatial position. However, the information density is low. In contrast, the layout in Figure 1.6(b) uses nodes of the same size but is drawn more compactly, so it has higher information density; that is, the ratio between the size of each node and the area required to display the entire tree is larger. However, the depth cannot be easily read off from spatial position. Figure 1.6(c) shows a very good alternative that combines the benefits of both previous approaches, with both high information density from a compact view and position coding for depth.
@@ -923,7 +923,7 @@ There is a trade-off between the benefits of showing as much as possible at once
 
 This book is built around the premise that analyzing existing systems is a good stepping stone to designing new ones. When you’re confronted with a vis problem as a designer, it can be hard to decide what to do. Many computer-based vis idioms and tools have
 
-![](images/b45917b9fd715e686911222aeb90114d69b3fe3ece037df4336d2b70718e87fe.jpg)  
+![](images/b45917b9fd715e686911222aeb90114d69b3fe3ece037df4336d2b70718e87fe.webp)  
 Figure 1.7. Three-part analysis framework for a vis instance: why is the task being performed, what data is shown in the views, and how is the vis idiom constructed in terms of design choices.
 
 been created in the past several decades, and considering them one by one leaves you faced with a big collection of different possibilities. There are so many possible combinations of data, tasks, and idioms that it’s unlikely that you’ll find exactly what you need to know just by reading papers about previous vis tools. Moreover, even if you find a likely candidate, you might need to dig even deeper into the literature to understand whether there’s any evidence that the tool was a success.
@@ -938,7 +938,7 @@ The combination of distinguishing why from how and chained sequences allows you 
 
 ‣ Chapter 2 discusses data and the question of what. Chapter 3 covers tasks and the question of why. Chapters 7 through 14 answer the question of how idioms can be designed in detail.
 
-![](images/423079adb81cdf33eefe4a73cf5223433e9cfde34bec97a3a1e38a8d14f8095b.jpg)  
+![](images/423079adb81cdf33eefe4a73cf5223433e9cfde34bec97a3a1e38a8d14f8095b.webp)  
 Figure 1.8. Analyzing vis usage as chained sequences of instances, where the output of one instance is the input to another.
 
 your analysis. For example, a user could sort the items shown within the vis. That operation could be an end in itself, if the user’s goal is to produce a list of items ranked according to a particular criterion as a result of an analysis session. Or, the sorting could be the means to another end, for example, finding outliers that do not match the main trend of the data; in this case, it is simply done along the way as one of many different operations.
@@ -961,7 +961,7 @@ What Resource Limitations Matter? Ware’s textbook provides a very thorough dis
 
 # Datasets
 
-![](images/55cda3c914a06f75a8a09a823815faf52571b1725d2e963c744b09da72dfdb8e.jpg)
+![](images/55cda3c914a06f75a8a09a823815faf52571b1725d2e963c744b09da72dfdb8e.webp)
 
 # Data Types
 
@@ -975,7 +975,7 @@ Positions
 
 Grids
 
-![](images/44a33f3071037fc1c9e714c7c07d691af28bb553c56e5c137561761106f2a72a.jpg)
+![](images/44a33f3071037fc1c9e714c7c07d691af28bb553c56e5c137561761106f2a72a.webp)
 
 # Data and Dataset Types
 
@@ -1011,81 +1011,81 @@ Clusters, Sets, Lists
 
 I tems
 
-![](images/ceae0b06865fee7611eaf4dfa1da22cc7cb3e258fd365416756063bcc974d679.jpg)
+![](images/ceae0b06865fee7611eaf4dfa1da22cc7cb3e258fd365416756063bcc974d679.webp)
 
 # Dataset Types
 
 Tables
 
-![](images/9a61b4d4f6755a1a0049cd6388e551ee38c3a96a35f084f98cc81ba56fd61f70.jpg)
+![](images/9a61b4d4f6755a1a0049cd6388e551ee38c3a96a35f084f98cc81ba56fd61f70.webp)
 
 Networks
 
-![](images/4cf962aec8fa2226f07db43d5daeb5be3ed77b79a182b89a935bdc098e9e2a8e.jpg)
+![](images/4cf962aec8fa2226f07db43d5daeb5be3ed77b79a182b89a935bdc098e9e2a8e.webp)
 
 Fields (Continuous)
 
-![](images/9e50474b1322eef44d422ea6849a35828f2d78d364182ea2b43a06e3040369a1.jpg)
+![](images/9e50474b1322eef44d422ea6849a35828f2d78d364182ea2b43a06e3040369a1.webp)
 
 Multidimensional Table
 
-![](images/7f6a87372b52785e734dc8e597c7f5fdb8ed4063b821ed895fbfb6de6a351c06.jpg)
+![](images/7f6a87372b52785e734dc8e597c7f5fdb8ed4063b821ed895fbfb6de6a351c06.webp)
 
 Trees
 
-![](images/9243e5dbbd84801a3c9d1c3caa932ad62f97ffde2d41e03e8934c41eb48b99e1.jpg)
+![](images/9243e5dbbd84801a3c9d1c3caa932ad62f97ffde2d41e03e8934c41eb48b99e1.webp)
 
 Geometr y (Spatial)
 
-![](images/e9df5e29c03a9a85b76112cd50472926e983ac22e031dab78917669badc0f133.jpg)
+![](images/e9df5e29c03a9a85b76112cd50472926e983ac22e031dab78917669badc0f133.webp)
 
-![](images/bfce3979c810f47d31c094477ce566a135835a17dff9b644cc81684c9247d30f.jpg)
+![](images/bfce3979c810f47d31c094477ce566a135835a17dff9b644cc81684c9247d30f.webp)
 
 # Dataset Availability
 
 Static
 
-![](images/4e62d3ddced052cbdd681c67ea63e13d2678256b4051e59362ecf783b0bf031e.jpg)
+![](images/4e62d3ddced052cbdd681c67ea63e13d2678256b4051e59362ecf783b0bf031e.webp)
 
 D ynamic
 
-![](images/1a754faa37c7b06bdd5217a758aa401e5878f032aee1773d3eaac3bd979c764f.jpg)
+![](images/1a754faa37c7b06bdd5217a758aa401e5878f032aee1773d3eaac3bd979c764f.webp)
 
 # Attributes
 
-![](images/0cdeefa59e753ebdae2b7d6f3d964ffed81bc347caff10803428cc91e2c47e68.jpg)
+![](images/0cdeefa59e753ebdae2b7d6f3d964ffed81bc347caff10803428cc91e2c47e68.webp)
 
 # Attribute Types
 
 Categorical
 
-![](images/4e421ab95d900f3fcf3e6701bf853e867911f7e46a4900bfe8e6dcb6a37fa8b6.jpg)
+![](images/4e421ab95d900f3fcf3e6701bf853e867911f7e46a4900bfe8e6dcb6a37fa8b6.webp)
 
 Ordered
 
 Ordinal
 
-![](images/29661a6a1af7a1ca5fe6be23bf4d88993d4adffd32f7757851c5684194a2a43e.jpg)
+![](images/29661a6a1af7a1ca5fe6be23bf4d88993d4adffd32f7757851c5684194a2a43e.webp)
 
 Quantitative
 
-![](images/1c750c8cac3d9c44be539070d3c7a4be52f3e942e2b81ae00309a6897e2c6cf9.jpg)
+![](images/1c750c8cac3d9c44be539070d3c7a4be52f3e942e2b81ae00309a6897e2c6cf9.webp)
 
-![](images/ce4876c85097e0225195449c377504c79f5d4e18748f0311877d523322263d05.jpg)
+![](images/ce4876c85097e0225195449c377504c79f5d4e18748f0311877d523322263d05.webp)
 
 # Ordering Direc tion
 
 Sequential
 
-![](images/092a9f478c386fb62a13eb3b0f0c556391cd2caf956fa341c359abb0a686ed96.jpg)
+![](images/092a9f478c386fb62a13eb3b0f0c556391cd2caf956fa341c359abb0a686ed96.webp)
 
 Diverging
 
-![](images/b6fb7afb077cc16ca2733cc1a1a0a4322e0e391b1045c3df0eb360aa24e01a15.jpg)
+![](images/b6fb7afb077cc16ca2733cc1a1a0a4322e0e391b1045c3df0eb360aa24e01a15.webp)
 
 Cyclic
 
-![](images/1abde98693cf0261bc4587133cbbf6079968b87293a2278d5e51736d9c587940.jpg)  
+![](images/1abde98693cf0261bc4587133cbbf6079968b87293a2278d5e51736d9c587940.webp)  
 Figure 2.1. What can be visualized: data, datasets, and attributes.
 
 What?
@@ -1142,7 +1142,7 @@ Deriving data is discussed in Section 3.4.2.3.
 
 Figure 2.2 shows the five basic data types discussed in this book: items, attributes, links, positions, and grids. An attribute is some specific property that can be measured, observed, or logged.* For example, attributes could be salary, price, number of sales, protein expression levels, or temperature. An item is an individual entity that is discrete, such as a row in a simple table or a node
 
-![](images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.jpg)  
+![](images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.webp)  
 Figure 2.2. The five basic data types: items, attributes, links, positions, and grids.
 
 # Data Types
@@ -1173,29 +1173,29 @@ Figure 2.4 shows the internal structure of the four basic dataset types in detai
 
 # $\textcircled{7}$ Data and Dataset Types
 
-![](images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.jpg)  
+![](images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.webp)  
 Figure 2.3. The four basic dataset types are tables, networks, fields, and geometry; other possible collections of items are clusters, sets, and lists. These datasets are made up of five core data types: items, attributes, links, positions, and grids.
 
-![](images/57ab6618a5ebecf7cfdc5b2ba1a9b8845fb8d21699411be139bd73f2679256c7.jpg)
+![](images/57ab6618a5ebecf7cfdc5b2ba1a9b8845fb8d21699411be139bd73f2679256c7.webp)
 
 # Dataset Types
 
-![](images/9ac995dea3d8dfced8be0f5e5b264b0ffbbe3370801a3043b3669c5383d40589.jpg)  
+![](images/9ac995dea3d8dfced8be0f5e5b264b0ffbbe3370801a3043b3669c5383d40589.webp)  
 Tables
 
-![](images/911c7a3b1644585d4f407ca5b13f861312a6bd0cf10bdcec4eb302a5e56fe513.jpg)  
+![](images/911c7a3b1644585d4f407ca5b13f861312a6bd0cf10bdcec4eb302a5e56fe513.webp)  
 Net works
 
-![](images/706cea01d11eb9490ef18d2d682ad47fb6cde34b1e4992e88d5b807244bc77c8.jpg)  
+![](images/706cea01d11eb9490ef18d2d682ad47fb6cde34b1e4992e88d5b807244bc77c8.webp)  
 Fields (Continuous)
 
-![](images/ab55219725b195262880b49049e5a23219e852b82b6578633a4ccd492b4a4a2e.jpg)  
+![](images/ab55219725b195262880b49049e5a23219e852b82b6578633a4ccd492b4a4a2e.webp)  
 Geometr y (Spatial)
 
-![](images/f6465d6c40ec588b7f1da29fb59a62550efb740b55ebcde9120609217968444b.jpg)  
+![](images/f6465d6c40ec588b7f1da29fb59a62550efb740b55ebcde9120609217968444b.webp)  
 Multidimensional Table
 
-![](images/b6cedccd478d9866ddede7d69aa0f9569face981469b3f47919ba098c9ad21b3.jpg)  
+![](images/b6cedccd478d9866ddede7d69aa0f9569face981469b3f47919ba098c9ad21b3.webp)  
 Trees   
 Figure 2.4. The detailed structure of the four basic dataset types.
 
@@ -1217,7 +1217,7 @@ Keys and values are discussed further in Section 2.6.1.
 
 <!-- Chunk 2 Start -->
 
-![](images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.jpg)  
+![](images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.webp)  
 Figure 2.5. In a simple table of orders, a row represents an item, a column represents an attribute, and their intersection is the cell containing the value for that pairwise combination.
 
 * A synonym for networks is graphs. The word graph is also deeply overloaded in vis. Sometimes it is used to mean network as we discuss here, for instance in the vis subfield called graph drawing or the mathematical subfield called graph theory. Sometimes it is used in the field of statistical graphics to mean chart, as in bar graphs and line graphs.
@@ -1294,17 +1294,17 @@ Many other kinds of data either fit into one of the previous categories or do so
 
 The set of basic types presented above is a starting point for describing the what part of an analysis instance that pertains to
 
-![](images/294bcebd305e1801ab508d03e1dc6e2aef6b42be347085f3c91022126140e08f.jpg)
+![](images/294bcebd305e1801ab508d03e1dc6e2aef6b42be347085f3c91022126140e08f.webp)
 
 # Dataset Availability
 
 Static
 
-![](images/e9ff84720f2b9e376107e7177fc61d1006722045a47e51f07fa5949bd228292b.jpg)
+![](images/e9ff84720f2b9e376107e7177fc61d1006722045a47e51f07fa5949bd228292b.webp)
 
 Dynamic
 
-![](images/27c75eece0fe13591a3f7b9afbae3f8f9ebd797cc2fd931ada7846f0db884415.jpg)  
+![](images/27c75eece0fe13591a3f7b9afbae3f8f9ebd797cc2fd931ada7846f0db884415.webp)  
 Figure 2.6. Dataset availability can be either static or dynamic, for any dataset type.
 
 data; that is, the data abstraction. In simple cases, it may be possible to describe your data abstraction using only that set of terms. In complex cases, you may need additional description as well. If so, your goal should be to translate domain-specific terms into words that are as generic as possible.
@@ -1325,43 +1325,43 @@ Figure 2.7 shows the attribute types. The major disinction is between categorica
 
 # Attributes
 
-![](images/d3d577a260cbf2d2a221d09bea8dc9cca114454d264c1484fe3f9b88c2d5f64c.jpg)
+![](images/d3d577a260cbf2d2a221d09bea8dc9cca114454d264c1484fe3f9b88c2d5f64c.webp)
 
 # Attribute Types
 
-![](images/a316b9dce44e21cb8852c4e8dbe9c51a219c011ff93155071cd0e1b20d55462b.jpg)
+![](images/a316b9dce44e21cb8852c4e8dbe9c51a219c011ff93155071cd0e1b20d55462b.webp)
 
 Categorical
 
-![](images/1f92e2b25c8c8576edab66d249c101c6851bc75f05033b18fa70f14d142c86c3.jpg)
+![](images/1f92e2b25c8c8576edab66d249c101c6851bc75f05033b18fa70f14d142c86c3.webp)
 
-![](images/5496c9cdc27a1f06a2fd684c72e352190c288d8a969c7478e4516d07d9197044.jpg)
+![](images/5496c9cdc27a1f06a2fd684c72e352190c288d8a969c7478e4516d07d9197044.webp)
 
 Ordered
 
 Ordinal
 
-![](images/07818af464cdd9bbfb0061d0e0abf57618784181795cef07a3f336e6e815522a.jpg)
+![](images/07818af464cdd9bbfb0061d0e0abf57618784181795cef07a3f336e6e815522a.webp)
 
 Quantitative
 
-![](images/df190ff4a72c4dc712d72454d0a723d43b95397a2e905a3bcb7f62fdcbcd4f6b.jpg)
+![](images/df190ff4a72c4dc712d72454d0a723d43b95397a2e905a3bcb7f62fdcbcd4f6b.webp)
 
-![](images/d72a8f1133056fa3c8be9ba3a431210bac281ffce7f66dd9bf001c0b11e101c3.jpg)
+![](images/d72a8f1133056fa3c8be9ba3a431210bac281ffce7f66dd9bf001c0b11e101c3.webp)
 
 # Ordering Direc tion
 
 Sequential
 
-![](images/fd5d0eafaecca0c0d2e35ff263ae4205f501ce7c14242b345fb25071598fc93a.jpg)
+![](images/fd5d0eafaecca0c0d2e35ff263ae4205f501ce7c14242b345fb25071598fc93a.webp)
 
 Diverging
 
-![](images/62bba646f43448d207bc2f73f9459f669fe9e858314c065f7c46122504dcc2bf.jpg)
+![](images/62bba646f43448d207bc2f73f9459f669fe9e858314c065f7c46122504dcc2bf.webp)
 
 Cyclic
 
-![](images/53d553fd1ecb7a894a3d63e5b9b2c0bd228f1d2dbb2a36a607e086ee97468934.jpg)  
+![](images/53d553fd1ecb7a894a3d63e5b9b2c0bd228f1d2dbb2a36a607e086ee97468934.webp)  
 Figure 2.7. Attribute types are categorical, ordinal, or quantitative. The direction of attribute ordering can be sequential, diverging, or cyclic.
 
 # 2.5.1 Categorical
@@ -1410,20 +1410,20 @@ A key attribute acts as an index that is used to look up value attributes.* The 
 
 A simple flat table has only one key, where each item corresponds to a row in the table, and any number of value attributes. In this case, the key might be completely implicit, where it’s simply the index of the row. It might be explicit, where it is contained within the table as an attribute. In this case, there must not be any duplicate values within that attribute. In tables, keys may be categorical or ordinal attributes, but quantititive attributes are typically unsuitable as keys because there is nothing to prevent them from having the same values for multiple items.
 
-![](images/b323d1c56de0f5380cbe657be68d1fd79ace875be397a4dc68a6be03918c879b.jpg)  
+![](images/b323d1c56de0f5380cbe657be68d1fd79ace875be397a4dc68a6be03918c879b.webp)  
 Tables
 
-![](images/b3e08941d393d2ef75fba0fdc56398fb9fdb79b09787e73ef38a7ad6ed16a485.jpg)  
+![](images/b3e08941d393d2ef75fba0fdc56398fb9fdb79b09787e73ef38a7ad6ed16a485.webp)  
 Fields (Continuous)
 
-![](images/bfc5954975772a732915940c0836d8f302ca7c20981f1dd2519a3f3ead721414.jpg)  
+![](images/bfc5954975772a732915940c0836d8f302ca7c20981f1dd2519a3f3ead721414.webp)  
 Key and value semantics for tables and fields.
 
 For example, in Table 2.1, Name is a categorical attribute that might appear to be a reasonable key at first, but the last line shows that two people have the same name, so it is not a good choice. Favorite Fruit is clearly not a key, despite being categorical, because Pear appears in two different rows. The quantitative attribute of Age has many duplicate values, as does the ordinal attribute of Shirt Size. The first attribute in this flat table has an explicit unique identifier that acts as the key.4 This key attribute could either be ordinal, for example if the order that the rows were entered into the table captures interesting temporal information, or categorical, if it’s simply treated as a unique code.
 
 Figure 2.9 shows the order table from Figure 2.5 where each attribute is colored according to its type. There is no explicit key: even the Order ID attribute has duplicates, because orders consist of multiple items with different container sizes, so it does not act as a unique identifier. This table is an example of using an implicit key that is the row number within the table.
 
-![](images/87ab3d9f47413a2fdcab036e97a8904ec2165dd6fab519c3069c74e7c2e74838.jpg)  
+![](images/87ab3d9f47413a2fdcab036e97a8904ec2165dd6fab519c3069c74e7c2e74838.webp)  
 Figure 2.9. The order table with the attribute columns colored by their type; none of them is a key.
 
 # 2.6.1.2 Multidimensional Tables
@@ -1493,7 +1493,7 @@ Key and Value Semantics The Polaris vis system, which has been commercialized as
 
 Temporal Semantics A good resource for time-oriented data vis is a recent book, Visualization of Time-Oriented Data [Aigner et al. 11].
 
-![](images/09771069f26c7f7a3c67a6b06d349512125f79a13bc20021f5d75bf5927f8c2d.jpg)
+![](images/09771069f26c7f7a3c67a6b06d349512125f79a13bc20021f5d75bf5927f8c2d.webp)
 
 #
 
@@ -1509,29 +1509,29 @@ Consume
 
 Discover
 
-![](images/3399c6a93ddedf97faf87f64ddac2f11d22121d960c146b8e7f787bbb6ed28f2.jpg)
+![](images/3399c6a93ddedf97faf87f64ddac2f11d22121d960c146b8e7f787bbb6ed28f2.webp)
 
 Present
 
-![](images/401f00d8e382cfbd9f35be696bca492a1d4e3f1496aecf9d232bc86deff769a6.jpg)
+![](images/401f00d8e382cfbd9f35be696bca492a1d4e3f1496aecf9d232bc86deff769a6.webp)
 
 Enjoy
 
-![](images/6effa18294bf4732e950325ac0b9523f614ec43314909c3f5bbbe6a1a7a1cb40.jpg)
+![](images/6effa18294bf4732e950325ac0b9523f614ec43314909c3f5bbbe6a1a7a1cb40.webp)
 
 Produce
 
 Annotate
 
-![](images/305738805e1eb5c50da94bbaf7a0f1eed2cb8d24a6c64f07f82a56bc77a0b22f.jpg)
+![](images/305738805e1eb5c50da94bbaf7a0f1eed2cb8d24a6c64f07f82a56bc77a0b22f.webp)
 
 Record
 
-![](images/76f1c5eb58244f86eccf3726089602f16cfb2952034fee1c829c1bfc22f713b1.jpg)
+![](images/76f1c5eb58244f86eccf3726089602f16cfb2952034fee1c829c1bfc22f713b1.webp)
 
 Derive
 
-![](images/febb68854a6502135b7d18c3f84377cb60661422782241c3829fb078c571b1b2.jpg)
+![](images/febb68854a6502135b7d18c3f84377cb60661422782241c3829fb078c571b1b2.webp)
 
 # $\textcircled{7}$ Search
 
@@ -1541,29 +1541,29 @@ Derive
 
 Identify
 
-![](images/8885e474aec78869dc3fdfe70da71693032de288ef3e0a1c268a6ab076f043f9.jpg)
+![](images/8885e474aec78869dc3fdfe70da71693032de288ef3e0a1c268a6ab076f043f9.webp)
 
 Compare
 
-![](images/0ee301384150c8b16a79eb0f8af22f7838946f65836615eafef72e23c621a75a.jpg)
+![](images/0ee301384150c8b16a79eb0f8af22f7838946f65836615eafef72e23c621a75a.webp)
 
 Summarize
 
-![](images/e2e1e9cfb126505daead8388d88caff12fe64ecefd713be9ff6fb95660a1607f.jpg)
+![](images/e2e1e9cfb126505daead8388d88caff12fe64ecefd713be9ff6fb95660a1607f.webp)
 
 # All Data
 
 Trends
 
-![](images/d15f5255486882228220aa9c7960e291040c8bf3661f49200bd88e414db456c0.jpg)
+![](images/d15f5255486882228220aa9c7960e291040c8bf3661f49200bd88e414db456c0.webp)
 
 Outliers
 
-![](images/5f010cf7ecb1946f53247663579594bead241b664f71870b124e5021ce8bd1ce.jpg)
+![](images/5f010cf7ecb1946f53247663579594bead241b664f71870b124e5021ce8bd1ce.webp)
 
 Features
 
-![](images/46a0414324f5b683e32cc6bd63bde875249d712368fdc0701941c8c4531f105d.jpg)
+![](images/46a0414324f5b683e32cc6bd63bde875249d712368fdc0701941c8c4531f105d.webp)
 
 # Attributes
 
@@ -1571,7 +1571,7 @@ One
 
 Distribution
 
-![](images/b9da6ad87b8ed5b866c9ec1a8e96dac6f05def2fd720899dfcf525dce628fedf.jpg)
+![](images/b9da6ad87b8ed5b866c9ec1a8e96dac6f05def2fd720899dfcf525dce628fedf.webp)
 
 Extremes
 
@@ -1579,35 +1579,35 @@ Many
 
 Dependency
 
-![](images/0683c03637bbfe0d26c5485d9ba31fe04fa69f02bbde25e379f992b38a2de6b5.jpg)
+![](images/0683c03637bbfe0d26c5485d9ba31fe04fa69f02bbde25e379f992b38a2de6b5.webp)
 
 Correlation
 
-![](images/5a61efa5699d1d3577daa31c2b7fa3b9ebbcbfdd08f9f4cc2cd4534488b6b12e.jpg)
+![](images/5a61efa5699d1d3577daa31c2b7fa3b9ebbcbfdd08f9f4cc2cd4534488b6b12e.webp)
 
 Similarity
 
-![](images/2ecd01868861865fcbf8fdb5901d4d0b4e74818f54a808369837c5f0552d87f2.jpg)
+![](images/2ecd01868861865fcbf8fdb5901d4d0b4e74818f54a808369837c5f0552d87f2.webp)
 
 # Network Data
 
 Topology
 
-![](images/c8b9f59f0ea96cdf7303941ff29b0011d775e019d3e9ca935bb6425342ff802b.jpg)
+![](images/c8b9f59f0ea96cdf7303941ff29b0011d775e019d3e9ca935bb6425342ff802b.webp)
 
-![](images/0cd44456df73147f52c529eb0fed3d246940dd875890f14a309752ea8f2d5d80.jpg)
+![](images/0cd44456df73147f52c529eb0fed3d246940dd875890f14a309752ea8f2d5d80.webp)
 
 Paths
 
-![](images/2ced12035c61e582051c206fe80e3f5f9e7d85df477f1d228dedfa5ee896432e.jpg)
+![](images/2ced12035c61e582051c206fe80e3f5f9e7d85df477f1d228dedfa5ee896432e.webp)
 
 # Spatial Data
 
 Shape
 
-![](images/ddae0e0d16f7660d91d6b3508124b1a258b00212a2b3023015aa68af1cd14fe0.jpg)
+![](images/ddae0e0d16f7660d91d6b3508124b1a258b00212a2b3023015aa68af1cd14fe0.webp)
 
-![](images/5134287128150f451ff8c57c10da3ebf74c2fa7510b5ebcb11b840d4bb769346.jpg)  
+![](images/5134287128150f451ff8c57c10da3ebf74c2fa7510b5ebcb11b840d4bb769346.webp)  
 Figure 3.1. Why people are using vis in terms of actions and targets.
 
 # Chapter 3
@@ -1654,11 +1654,11 @@ At the highest level, the framework distinguishes between two possible goals of 
 
 The most common use case for vis is for the user to consume information that has already been generated as data stored in a
 
-![](images/8338b3ad2ca06daea679c7d9deb0bee57a3b7eb45d2e7cd3b49bad11d916f37d.jpg)
+![](images/8338b3ad2ca06daea679c7d9deb0bee57a3b7eb45d2e7cd3b49bad11d916f37d.webp)
 
 # Actions
 
-![](images/c345f2bda4aa9d59f924450791d2b5a8731262d69204a399fe67b5ca41ea5831.jpg)
+![](images/c345f2bda4aa9d59f924450791d2b5a8731262d69204a399fe67b5ca41ea5831.webp)
 
 # Analyze
 
@@ -1666,53 +1666,53 @@ Consume
 
 Discover
 
-![](images/d680f1706d6609d35087b4c1480b4bc0355006035b88d12a3a76f3c3972bf772.jpg)
+![](images/d680f1706d6609d35087b4c1480b4bc0355006035b88d12a3a76f3c3972bf772.webp)
 
 Present
 
-![](images/94da9d8a351e16dad3f37e287659bae57930646ad5d86eeb1fb9351fb864e21e.jpg)
+![](images/94da9d8a351e16dad3f37e287659bae57930646ad5d86eeb1fb9351fb864e21e.webp)
 
 Enjoy
 
-![](images/5f0ac56b0e99c6f7e97e4c673281e3162123b566f73ac654d0282ea784696587.jpg)
+![](images/5f0ac56b0e99c6f7e97e4c673281e3162123b566f73ac654d0282ea784696587.webp)
 
 Produce
 
 Annotate
 
-![](images/c5d2d08ddf1d6d11f71596abcbe7e944dec1c9811c9376c7226d1166e44ec4c5.jpg)
+![](images/c5d2d08ddf1d6d11f71596abcbe7e944dec1c9811c9376c7226d1166e44ec4c5.webp)
 
 Record
 
-![](images/89a5b997e6dd8843a7bea73bbc3204f206e08d4c023ecd8371a6b939ce236f2e.jpg)
+![](images/89a5b997e6dd8843a7bea73bbc3204f206e08d4c023ecd8371a6b939ce236f2e.webp)
 
 Derive
 
-![](images/0c5ee56ebd553e0a4ad53395ca4c7375755ee6ce032b7287e532c94ae5e157d2.jpg)
+![](images/0c5ee56ebd553e0a4ad53395ca4c7375755ee6ce032b7287e532c94ae5e157d2.webp)
 
-![](images/41d48af1995ad06455121d0011e7e874514cd766a0251807cbb6b32d4edd4d92.jpg)
+![](images/41d48af1995ad06455121d0011e7e874514cd766a0251807cbb6b32d4edd4d92.webp)
 
-![](images/c318a072392340b1fc1113369702278f0a8141fce362bcfbd9d0b6378474bc8e.jpg)
+![](images/c318a072392340b1fc1113369702278f0a8141fce362bcfbd9d0b6378474bc8e.webp)
 
 # Search
 
 <table><tr><td></td><td>Target known</td><td>Target unknown</td></tr><tr><td>Location known</td><td>••••Lookup</td><td>••••Browse</td></tr><tr><td>Location unknown</td><td>&lt;••••Locate</td><td>&lt;••••Explore</td></tr></table>
 
-![](images/aa55201b8c36beacd945f7b435f5c6cbc179a67e62f541273dd8bba67a481e88.jpg)
+![](images/aa55201b8c36beacd945f7b435f5c6cbc179a67e62f541273dd8bba67a481e88.webp)
 
 # Query
 
 Identify
 
-![](images/3f61e6ff15436f33f73faf5d1131e1208ece69aa9b03d8ccd26cf6e18871a261.jpg)
+![](images/3f61e6ff15436f33f73faf5d1131e1208ece69aa9b03d8ccd26cf6e18871a261.webp)
 
 Compare
 
-![](images/f918b8641bbcdcd2b86e2e45fbc81e14103acbc6b30974bf2985a297bf569ac4.jpg)
+![](images/f918b8641bbcdcd2b86e2e45fbc81e14103acbc6b30974bf2985a297bf569ac4.webp)
 
 Summarize
 
-![](images/2df91f7765755916794ea6bae0bf3e78a175b867adf61816dd785d6d326afe7b.jpg)  
+![](images/2df91f7765755916794ea6bae0bf3e78a175b867adf61816dd785d6d326afe7b.webp)  
 Figure 3.2. Three levels of actions: analyze, search, and query.
 
 format amenable to computation. The framework has three further distinctions within that case: whether the goal is to present something that the user already understands to a third party, or for the user to discover something new or analyze information that
@@ -1745,9 +1745,9 @@ One aspect of this classification that’s tricky is that the goals of the event
 
 Figure 3.3 shows the Name Voyager, which was created for expectant parents deciding what to name their new baby. When the user types characters of a name, the vis shows data for the popularity of names in the United States since 1900 that start with that sequence of characters. The tool uses the visual encoding idiom where each name has a stripe whose height corresponds to popularity at a given time. Currently popular names are brighter, and gender is encoded by color. The Name Voyager appealed to many people with no interest in having children, who analyzed many different historical trends and posted extensively about their findings in their personal blogs, motivated by their own enjoyment rather than a pressing need [Wattenberg 05].
 
-![](images/089a76ca416e55d45cad1ce152888bdf1760eed76c3aae4f6baeb8cd25c7e7a2.jpg)
+![](images/089a76ca416e55d45cad1ce152888bdf1760eed76c3aae4f6baeb8cd25c7e7a2.webp)
 
-![](images/7d18d1b3301d6d548f9aeac0f16dc7303b2592c8bd38d2a8eca0e043b5f3e688.jpg)  
+![](images/7d18d1b3301d6d548f9aeac0f16dc7303b2592c8bd38d2a8eca0e043b5f3e688.webp)  
 Figure 3.3. Name Voyager, a vis tool originally intended for parents focused deciding on what to name their expected baby, ended up being used by many nonparents to analyze historical trends for their own enjoyment. Left: Names starting with ‘O’ had a notable dip in popularity in the middle of the century. Right: Names starting with ‘LAT’ show a trend of the 1970s. After [Wattenberg 05, Figures 2 and 3], using http://www.babynamewizard.com.
 
 # 3.4.2 Produce
@@ -1764,7 +1764,7 @@ The annotate goal refers to the addition of graphical or textual annotations ass
 
 The record goal saves or captures visualization elements as persistent artifacts. These artifacts include screen shots, lists of book-
 
-![](images/d508147e0e769bfe300b4a6f986c60a0acebe88fe015da998349c3e780820dbb.jpg)  
+![](images/d508147e0e769bfe300b4a6f986c60a0acebe88fe015da998349c3e780820dbb.webp)  
 Figure 3.4. Graphical history recorded during an analysis session with Tableau. From [Heer et al. 08, Figure 1].
 
 marked elements or locations, parameter settings, interaction logs, or annotations. The record choice saves a persistent artifact, in contrast to the annotate, which attaches information temporarily to existing elements; an annotation made by a user can subsequently be recorded. One interesting example of a record goal is to assemble a graphical history, in which the output of each task includes a static snapshot of the view showing its current state, and these snapshots accumulate in a branching meta-visualization showing what occurred during the user’s entire session of using the vis tool. Figure 3.4 shows an example from the Tableau vis tool [Heer et al. 08]. Recording and retaining artifacts such as these are often desirable for maintaining a sense of analytical provenance, allowing users to revisit earlier states or parameter settings.
@@ -1791,10 +1791,10 @@ A new derived attribute may be created using arithmetic, logical, or statistical
 
 * A synonym for derive is transform.
 
-![](images/673fa0bbb460f9b80c5ef88036f441827675459148f5c21c1e5a1d79b7f59da2.jpg)  
+![](images/673fa0bbb460f9b80c5ef88036f441827675459148f5c21c1e5a1d79b7f59da2.webp)  
 (a)
 
-![](images/ffa74fefdcd34b6b905d1213f1058c1015e60ba8264887eabcdd204055f907d9.jpg)  
+![](images/ffa74fefdcd34b6b905d1213f1058c1015e60ba8264887eabcdd204055f907d9.webp)  
 (b)   
 Figure 3.5. Derived attributes can be directly visually encoded. (a) Two original data attributes are plotted, imports and exports. (b) The quantitative derived attribute of trade balance, the difference between the two originals, can be plotted directly.
 
@@ -1864,27 +1864,27 @@ Section 6.7 discusses the question of how and when to provide overviews.
 * There are many other synonyms for outliers, including anomalies, novelties, deviants, and surprises.   
 Attributes are discussed in detail in Chapter 2.
 
-![](images/c06e5416889462171602e0bb05ee392465a2be63288edf6eb3de281bf961409a.jpg)
+![](images/c06e5416889462171602e0bb05ee392465a2be63288edf6eb3de281bf961409a.webp)
 
 # Targets
 
-![](images/fb97f665e8a82fb3894c620ecab3dee68107a8351c85b3beb10dd4d1b6706292.jpg)
+![](images/fb97f665e8a82fb3894c620ecab3dee68107a8351c85b3beb10dd4d1b6706292.webp)
 
 # All Data
 
 Trends
 
-![](images/429a9a98a93f0bcee5f61d26fc5f6b644464a552c9e72bd0564e2307789e4a17.jpg)
+![](images/429a9a98a93f0bcee5f61d26fc5f6b644464a552c9e72bd0564e2307789e4a17.webp)
 
 Outliers
 
-![](images/83f7307b2a79d858eb37d5e84e4da519f5a86491f90996e3ba2ae3b407897a18.jpg)
+![](images/83f7307b2a79d858eb37d5e84e4da519f5a86491f90996e3ba2ae3b407897a18.webp)
 
 Features
 
-![](images/10400392187c8865276cc1ca71ac96c7b71ad4a4da98693f00a4fb3c4be57d59.jpg)
+![](images/10400392187c8865276cc1ca71ac96c7b71ad4a4da98693f00a4fb3c4be57d59.webp)
 
-![](images/de37c41109c21a37bcdbef23014ba9c0685a06277bc073bba02543f9f738dd8f.jpg)
+![](images/de37c41109c21a37bcdbef23014ba9c0685a06277bc073bba02543f9f738dd8f.webp)
 
 # Attributes
 
@@ -1892,45 +1892,45 @@ One
 
 Distribution
 
-![](images/d9622d20f5f75486fdffd01d85fb8a807f3af7a3a5d4c5fc07be213078ad9ae4.jpg)
+![](images/d9622d20f5f75486fdffd01d85fb8a807f3af7a3a5d4c5fc07be213078ad9ae4.webp)
 
 Many
 
 Dependency
 
-![](images/6fa2c12cb59ff2cb3a9e7f382f241d869976641669699103f01a6b7659fd5e1d.jpg)
+![](images/6fa2c12cb59ff2cb3a9e7f382f241d869976641669699103f01a6b7659fd5e1d.webp)
 
 Correlation
 
-![](images/38db14212a12a7d4d5a36796f8ee5d5967f855a4bf92e8d2e8fbd9ddfe825e24.jpg)
+![](images/38db14212a12a7d4d5a36796f8ee5d5967f855a4bf92e8d2e8fbd9ddfe825e24.webp)
 
 Similarity
 
-![](images/ade5f745a88296b3b03767722af457a5d74baa1075926f1b3aa98f0370db4b24.jpg)
+![](images/ade5f745a88296b3b03767722af457a5d74baa1075926f1b3aa98f0370db4b24.webp)
 
-![](images/a410ed24516ca6515b205281afad7f7463d31e55a81b717a4601415f83917adf.jpg)
+![](images/a410ed24516ca6515b205281afad7f7463d31e55a81b717a4601415f83917adf.webp)
 
 # Network Data
 
 Topology
 
-![](images/5145e6229321fea0bd3763786a6a8fb2931381575c563c03ac11a0936a2d0ee8.jpg)
+![](images/5145e6229321fea0bd3763786a6a8fb2931381575c563c03ac11a0936a2d0ee8.webp)
 
-![](images/dc4eae9936b7aca73ebab1b409cf67e4d8b0802959b18bf56e93fe9b7eb216ae.jpg)
+![](images/dc4eae9936b7aca73ebab1b409cf67e4d8b0802959b18bf56e93fe9b7eb216ae.webp)
 
-![](images/36da0bddaf81fca5fdf8a587fc53b34da9ec15140d5b278165f0f8d08ab17a4f.jpg)
+![](images/36da0bddaf81fca5fdf8a587fc53b34da9ec15140d5b278165f0f8d08ab17a4f.webp)
 
 Paths
 
-![](images/d2e44d8c1a90dc44071f3a0f7756f664e945a49d40dfa2d9320570944f7c3228.jpg)
+![](images/d2e44d8c1a90dc44071f3a0f7756f664e945a49d40dfa2d9320570944f7c3228.webp)
 
-![](images/1572404460598ff26768a28706ccc1100c888214b6727d3ce5a580bc91fb65ee.jpg)
+![](images/1572404460598ff26768a28706ccc1100c888214b6727d3ce5a580bc91fb65ee.webp)
 
 # Spatial Data
 
 Shape
 
-![](images/d3f2aea4cde8265930daa25d2847c4402ef5547f84e73f5c48a62098ae686c79.jpg)  
+![](images/d3f2aea4cde8265930daa25d2847c4402ef5547f84e73f5c48a62098ae686c79.webp)  
 Figure 3.6. The goals of the user might be to find or understand specific aspects of the data: trends and outliers for all kinds of data; individual values, the minimum or maximum extremes of the range, or the entire distribution of a single attribute; or the dependencies, correlations, or similarities between multiple attributes; topology or paths for network data, and shape for spatial data.
 
 target that has high-level scope is the distribution of all values for an attribute.
@@ -1951,7 +1951,7 @@ The network datatype is covered in Section 2.4.2, and choices for how arrange ne
 
 Section 2.4.3.1 covers the dataset type of spatial fields, and Section 2.4.4 covers geometry. Choices for arranging spatial data are covered in Chapter 8.
 
-![](images/9e5e4fa3240e85195cabebda5421c9f5eed2bb15ca7a6d9db42c0d39601aeca0.jpg)  
+![](images/9e5e4fa3240e85195cabebda5421c9f5eed2bb15ca7a6d9db42c0d39601aeca0.webp)  
 Figure 3.7. How to design vis idioms: encode, manipulate, facet, and reduce.
 
 reduce the data shown has the options of filter data away, aggregate many data elements together, and embed focus and context information together within a single view.
@@ -1968,10 +1968,10 @@ The what–why–how analysis framework is useful for comparative analysis, for 
 
 SpaceTree [Plaisant et al. 02], shown in Figure 3.8(a), and Tree-Juxtaposer [Munzner et al. 03], shown in Figure 3.8(b), are tree vis
 
-![](images/96c857db4516a4f05d74b218e5023a20fcc9451532eda261e1fb9db7fcaacc46.jpg)  
+![](images/96c857db4516a4f05d74b218e5023a20fcc9451532eda261e1fb9db7fcaacc46.webp)  
 (a)
 
-![](images/532f3951d1f74c5414fdf9b1fd8dfc0ebb37374303cb56157b01b259e265c776.jpg)  
+![](images/532f3951d1f74c5414fdf9b1fd8dfc0ebb37374303cb56157b01b259e265c776.webp)  
 (b)   
 Figure 3.8. Comparing two idioms. (a) SpaceTree [Plaisant et al. 02]. (b) TreeJuxtaposer. From http://www.cs.umd. edu/hcil/spacetree and [Munzner et al. 03, Figure 1].
 
@@ -1979,7 +1979,7 @@ What?
 
 $\textcircled{ \div}$ Tree
 
-![](images/12ea4cebea11af9d34acc1e874adc09fe97cafa21f701e7c75adec5ce155feef.jpg)
+![](images/12ea4cebea11af9d34acc1e874adc09fe97cafa21f701e7c75adec5ce155feef.webp)
 
 Why?
 
@@ -1991,11 +1991,11 @@ Locate
 
 Identify
 
-![](images/b944bb2d5e53a98bc5d7ae6f852768e029b8c885e7fc104546bc1f7b7e8ac640.jpg)
+![](images/b944bb2d5e53a98bc5d7ae6f852768e029b8c885e7fc104546bc1f7b7e8ac640.webp)
 
-![](images/b8b1c61c94883c6dfbe1fc5ab02a29281a618f4196e4d2a9277e43b676045dab.jpg)
+![](images/b8b1c61c94883c6dfbe1fc5ab02a29281a618f4196e4d2a9277e43b676045dab.webp)
 
-![](images/5ba8d216d69dff604f601c282917846c3038cc9adfe36220be20f6b8eb3cbe31.jpg)
+![](images/5ba8d216d69dff604f601c282917846c3038cc9adfe36220be20f6b8eb3cbe31.webp)
 
 How?
 
@@ -2005,25 +2005,25 @@ Encode
 
 Navigate
 
-![](images/99cdc52a1b4283376c8cd12d83ed39aa4e75f624119ad481b074121c8d4f1bbc.jpg)
+![](images/99cdc52a1b4283376c8cd12d83ed39aa4e75f624119ad481b074121c8d4f1bbc.webp)
 
 Selec t
 
-![](images/c5a12c2cb0a975636082ed0837398d031d3788db40cc6d06310ace99796dd890.jpg)
+![](images/c5a12c2cb0a975636082ed0837398d031d3788db40cc6d06310ace99796dd890.webp)
 
 Filter
 
-![](images/ec0de4bb026529fb1f71f569711aed9d2c18e3c853a4d91faefd6b70ea157b88.jpg)
+![](images/ec0de4bb026529fb1f71f569711aed9d2c18e3c853a4d91faefd6b70ea157b88.webp)
 
 Aggregate
 
-![](images/46f1332029c7d05391152989df5fb503a774aa362e816c50d7879e1df68addf6.jpg)
+![](images/46f1332029c7d05391152989df5fb503a774aa362e816c50d7879e1df68addf6.webp)
 
 $\circled{ \div}$ Targets
 
 Path bet ween t wo nodes
 
-![](images/0f7d197510f0fc8808481d126df046064561397726e2c88fbe0e892a1fec7225.jpg)
+![](images/0f7d197510f0fc8808481d126df046064561397726e2c88fbe0e892a1fec7225.webp)
 
 $\circled{ \div}$ TreeJux taposer
 
@@ -2035,13 +2035,13 @@ Selec t
 
 Arrange
 
-![](images/3558cb4c8ce6b6c645cf6ca5d03484cc33dbb17580a8967d085186b0f8bf716f.jpg)
+![](images/3558cb4c8ce6b6c645cf6ca5d03484cc33dbb17580a8967d085186b0f8bf716f.webp)
 
-![](images/7cae1151640d575c60d4fb85c9dcd4e108319fd7f399ea741324d55cf12a5670.jpg)
+![](images/7cae1151640d575c60d4fb85c9dcd4e108319fd7f399ea741324d55cf12a5670.webp)
 
-![](images/5438da97d074666fb2a93eff70854e670a0c828e688058c48681d1466a7f1d4e.jpg)
+![](images/5438da97d074666fb2a93eff70854e670a0c828e688058c48681d1466a7f1d4e.webp)
 
-![](images/3a8642c83402d19ec68ad94abaf7658071dc423908d0fe897c95b2470e83128d.jpg)  
+![](images/3a8642c83402d19ec68ad94abaf7658071dc423908d0fe897c95b2470e83128d.webp)  
 Figure 3.9. Analyzing what–why–how comparatively for the SpaceTree and TreeJuxtaposer idioms.
 
 tools that use somewhat different idioms. What these tools take as input data is the same: a large tree composed of nodes and links. Why these tools are being used is for the same goal in this scenario: to present a path traced between two nodes of interest to a colleague. In more detail, both tools can be used to locate paths between nodes and identify them.
@@ -2052,10 +2052,10 @@ Some aspects of idioms are the same: both systems allow the user to navigate and
 
 In a vis showing a complex network or tree, it is useful to be able to filter out most of the complexity by drawing a simpler picture that communicates the key aspects of its topological structure. One way to support this kind of summarization is to calculate a new derived attribute that measures the importance of each node in the graph and filter based on that attribute. Many different approaches to calculating importance have been proposed; centrality metrics do so in a way that takes into account network topology. The Strahler number is a measure of node importance originally
 
-![](images/5d354f57cd9d29339071b1edc9aa3a0f03de01a6f49b887106130bef700976eb.jpg)  
+![](images/5d354f57cd9d29339071b1edc9aa3a0f03de01a6f49b887106130bef700976eb.webp)  
 (a)
 
-![](images/0672e9f9fb817e0230116786b78a9c436eb9531ca0fe4f8bb865e92f4b6309a3.jpg)  
+![](images/0672e9f9fb817e0230116786b78a9c436eb9531ca0fe4f8bb865e92f4b6309a3.webp)  
 (b)   
 Figure 3.10. The derived quantitative attribute of Strahler numbers is used to filter the tree in order to create a recognizable summary. (a) The important skeleton of a large tree is visible when only 5000 of the highest-ranked nodes are drawn. (b) The full tree has over a half million nodes. From [Auber 02, Figures 10 and 13].
 
@@ -2065,7 +2065,7 @@ Figure 3.10 shows an example of filtering according to the Strahler derived attr
 
 To summarize this example concisely in terms of a what–why– how analysis, as shown in Figure 3.11, a new quantitative attribute is derived and used to filter away the peripheral parts of a tree, in support of the task of summarizing the tree’s overall topology. As in the previous example, the tree is encoded as a node–link diagram, the most common choice for tree and network arrangment.
 
-![](images/0f931ad214b2dd7a6a110e0b0a8edf1c24fc02e8dc57da59d9a4cf625a637202.jpg)  
+![](images/0f931ad214b2dd7a6a110e0b0a8edf1c24fc02e8dc57da59d9a4cf625a637202.webp)  
 Figure 3.11. Analyzing a chained sequence of two instances where an attribute is derived in order to summarize a tree by filtering away the unimportant parts.
 
 # 3.7.3 Deriving Many New Attributes
@@ -2076,31 +2076,31 @@ The original dataset is a time-varying spatial field with measurements along a c
 
 Multiple views are discussed further in Chapter 12.
 
-![](images/89217d59f7c7d088fb838a0c22a0a8790c9cd172cde09f9c3776948c5068f688.jpg)
+![](images/89217d59f7c7d088fb838a0c22a0a8790c9cd172cde09f9c3776948c5068f688.webp)
 
-![](images/154516125ef2537f03217097e8b7afe8a3f55359c3b90f10580ce679918f44eb.jpg)
+![](images/154516125ef2537f03217097e8b7afe8a3f55359c3b90f10580ce679918f44eb.webp)
 
-![](images/2ca169c22e28bb43a5337af42531ccc969c8ad5849b956b4e020a7efe48d7b5a.jpg)
+![](images/2ca169c22e28bb43a5337af42531ccc969c8ad5849b956b4e020a7efe48d7b5a.webp)
 
-![](images/bc87c31dd59d99ecaca748b1e021947c78357dfcc606b4efbf576c8e51ddf985.jpg)
+![](images/bc87c31dd59d99ecaca748b1e021947c78357dfcc606b4efbf576c8e51ddf985.webp)
 
-![](images/2a6816fbb98c9343547690afa4a7a20297f23c5d0f405f698427debc7e1540c9.jpg)
+![](images/2a6816fbb98c9343547690afa4a7a20297f23c5d0f405f698427debc7e1540c9.webp)
 
-![](images/ce375f12b8d5f3a18390cfa03cb39f58a09d24bf9c7715df349a92c49430ebd1.jpg)  
+![](images/ce375f12b8d5f3a18390cfa03cb39f58a09d24bf9c7715df349a92c49430ebd1.webp)  
 Figure 3.12. Computational fluid dynamics vis showing the list of many derived attributes (top left), one view of the original spatial field (top right), and four other views showing pairs of selected derived attributes. The multiple juxtaposed views are coordinated with shared colored highlights. From [Henze 98, Figure 5].
 
 recirculation zone can easily be selected in this view. The pressure vs temperature pane in the bottom middle of Figure 3.12 shows another derived space made by plotting the pressure versus the temperature. In this view, the red recirculation zone and the yellow wake appear where both the pressure and temperature variables are high, in the upper right. Without getting into the exact technical meaning of the derived variables as used in fluid dynamics (vorticity, entropy, enthalpy, and so on), the point of this example is that many structures of interest in fluid dynamics can be seen more easily from layouts in the derived spaces.
 
-![](images/c71de7b98f515daae1034e11ea6d70e19dd3eb71520fc85a2be8d39e013c498c.jpg)  
+![](images/c71de7b98f515daae1034e11ea6d70e19dd3eb71520fc85a2be8d39e013c498c.webp)  
 Task 1   
   
 Spatial field
 
-![](images/bfff1accb52ca5c7ce12b3b56a7fd8865a05725ee6e8d58f3dac9b5602fde5e2.jpg)  
+![](images/bfff1accb52ca5c7ce12b3b56a7fd8865a05725ee6e8d58f3dac9b5602fde5e2.webp)  
   
 Many quantitative attributes
 
-![](images/207aac39c4b0a21cb09ab9d23d039ce8a2862f5df069e2955bbfe00d19e67fbc.jpg)
+![](images/207aac39c4b0a21cb09ab9d23d039ce8a2862f5df069e2955bbfe00d19e67fbc.webp)
 
 # What?
 
@@ -2109,23 +2109,23 @@ $\circled{ \div}$ Out Many quantitative attributes
 
 # Why?
 
-![](images/1eae5748e5ac19b975e747224759f51e734ff480e8eb31aa5054ad0df57bc015.jpg)  
+![](images/1eae5748e5ac19b975e747224759f51e734ff480e8eb31aa5054ad0df57bc015.webp)  
 Derive
 
-![](images/5d7ea3b53379fe92881738fe6fd0713250116082472c1aa3c3c5a8fcc9e635ab.jpg)  
+![](images/5d7ea3b53379fe92881738fe6fd0713250116082472c1aa3c3c5a8fcc9e635ab.webp)  
 Task 2   
 I n   
 Spatial field
 
-![](images/88315431532501860acb5bfa8ab5c172473a148c8e766c7f38b71dc0755508ea.jpg)  
+![](images/88315431532501860acb5bfa8ab5c172473a148c8e766c7f38b71dc0755508ea.webp)  
 I n   
 $^ +$ M any quantitative attributes
 
-![](images/c5b40fbd082a74ff1173bf91f8bde721bdab3a98c47357ee015605d22728bce6.jpg)
+![](images/c5b40fbd082a74ff1173bf91f8bde721bdab3a98c47357ee015605d22728bce6.webp)
 
-![](images/d5e7e6e8524ad0294b668242be04799c394f5702e5da6bb3388e9850b21a983e.jpg)
+![](images/d5e7e6e8524ad0294b668242be04799c394f5702e5da6bb3388e9850b21a983e.webp)
 
-![](images/c50d5b36b4ccef6bfbe12e4ab7ba4d76194e56558bf5666344520c0b34c0d198.jpg)  
+![](images/c50d5b36b4ccef6bfbe12e4ab7ba4d76194e56558bf5666344520c0b34c0d198.webp)  
 Figure 3.13. Analyzing a chained sequence, where many attributes are derived and visually encoded.
 
 taposed attribute plots with ed coloring
@@ -2178,23 +2178,23 @@ Derive Many vis pipeline models discuss the idea of data transformation as a cri
 
 Examples The analysis examples are SpaceTree [Plaisant et al. 02], TreeJuxtaposer [Munzner et al. 03], Strahler numbers for tree simplification [Auber 02], and linked derived spaces for feature detection [Henze 98].
 
-![](images/e641038b50cac96bba834993cb899ee3d1cf08cc48b82819d3b76af46526fd0d.jpg)
+![](images/e641038b50cac96bba834993cb899ee3d1cf08cc48b82819d3b76af46526fd0d.webp)
 
 # Domain situation
 
 Obser ve target users using existing tools
 
-![](images/3e61542445b078a6687e5c2457d01c13a231d8d1cff932d589bb30219eab2909.jpg)
+![](images/3e61542445b078a6687e5c2457d01c13a231d8d1cff932d589bb30219eab2909.webp)
 
 # D a ta / task a bst r a c tio n
 
-![](images/3eada9a9635254c7ba3bbdb4bbf614be74273143d5a8924f07325b7ce7faee84.jpg)
+![](images/3eada9a9635254c7ba3bbdb4bbf614be74273143d5a8924f07325b7ce7faee84.webp)
 
 # Visu al e n c o d ing / i n t e r a c ti o n idi o m
 
 Justify design with respec t to alternatives
 
-![](images/484f5f53a626b1a4d5950c39ff453d622408ebd56e16a8c074ff9fecf4284878.jpg)  
+![](images/484f5f53a626b1a4d5950c39ff453d622408ebd56e16a8c074ff9fecf4284878.webp)  
 Figure 4.1. The four nested levels of vis design have different threats to validity at each level, and validation approaches should be chosen accordingly.
 
 # A lg o rit h m
@@ -2229,7 +2229,7 @@ This chapter introduces two more levels of design to consider, one above the why
 
 Splitting the complex problem of vis design into four cascading levels provides an analysis framework that lets you address different concerns separately. Figure 4.2 shows these four levels.
 
-![](images/0fc39424f1826862f476b57448f53c5157b1cd058dcee887a6792a26cc7f4995.jpg)  
+![](images/0fc39424f1826862f476b57448f53c5157b1cd058dcee887a6792a26cc7f4995.webp)  
 Figure 4.2. The four nested levels of vis design.
 
 At the top is the situation level, where you consider the details of a particular application domain for vis. Next is the what–why abstraction level, where you map those domain-specific problems and data into forms that are independent of the domain. The following how level is the design of idioms that specify the approach to visual encoding and interaction. Finally, the last level is the design of algorithms to instantiate those idioms computationally.
@@ -2282,7 +2282,7 @@ Chapter 2 covers abstract data types, and Section 3.4.2.3 discusses transforming
 
 Chapters 7 through 14 feature a thorough look at the design space of vis idioms.
 
-![](images/1d826fbc93cfba1e576318f35b7c3f704661b88dd4e8aac5dfb7ffd45b75a7de.jpg)  
+![](images/1d826fbc93cfba1e576318f35b7c3f704661b88dd4e8aac5dfb7ffd45b75a7de.webp)  
 Figure 4.3. Word Tree combines the visual encoding idiom of a hierarchical tree of keywords laid out horizontally and the interaction idiom of navigation based on keyword selection. From [Wattenberg and Viegas 08, Figure 3].
 
 Chapters 5 and 6 cover principles of human perception and memory that are relevant for making idiom design choices.
@@ -2303,7 +2303,7 @@ The nested model emphasizes separating algorithm design, where your primary conc
 
 Of course, there is an interplay between these levels. For example, a design that requires something to change dynamically when the user moves the mouse may not be feasible if computing that would take minutes or hours instead of a fraction of a second. However, clever algorithm design could save the day if you come up with a way to precompute data that supports a fast enough response.
 
-![](images/fce9b0f720447759f0aa96c30011f5fac25814e3a411f350d3819b8d98db67ba.jpg)
+![](images/fce9b0f720447759f0aa96c30011f5fac25814e3a411f350d3819b8d98db67ba.webp)
 
 # Angles of Attack
 
@@ -2325,7 +2325,7 @@ Section 1.12 presented many questions to consider when validating a vis design.
 
 Validating the effectiveness of a vis design is difficult because there are so many possible questions on the table. Considering the validity of your decisions at each level of the nested model separately
 
-![](images/012079474f18ae9f0a3cbf9e4dc7b536558fbe8125104dd98d247c3b180dfef9.jpg)  
+![](images/012079474f18ae9f0a3cbf9e4dc7b536558fbe8125104dd98d247c3b180dfef9.webp)  
 Figure 4.4. The four nested levels of vis design have different threats to validity at each level.
 
 can help you find your way through this thicket of questions about validating your decisions, in the same way that the levels also constrain the decision-making process itself.
@@ -2349,7 +2349,7 @@ Different threats require very different approaches to validation. Figure 4.5 sh
 
 <!-- Chunk 3 Start -->
 
-![](images/bc7f32c9d1d45c184d66563f47a9fcb82a8b5d6c559de2992f25f90a1098f730.jpg)  
+![](images/bc7f32c9d1d45c184d66563f47a9fcb82a8b5d6c559de2992f25f90a1098f730.webp)  
 Figure 4.5. Threats and validation at each of the four levels. Many threats at the outer levels require downstream validation, which cannot be carried out until the inner levels within them are addressed, as shown by the red lines. Any single project would only address a subset of these levels, not all of them at once.
 
 these ideas in more detail. I give only a brief outline of each validation method here; the Further Reading section at the end of this chapter has pointers to more thorough discussions of their use.
@@ -2422,23 +2422,23 @@ This section presents examples of several vis research papers, analyzed accordin
 
 McGuffin and Balakrishnan present a system for the visualization of genealogical graphs [McGuffin and Balakrishnan 05]. They pro-
 
-![](images/5d37080be29afc4d88adf560298a7a3f5ac8c92618ee1cf11643406a5158bf95.jpg)
+![](images/5d37080be29afc4d88adf560298a7a3f5ac8c92618ee1cf11643406a5158bf95.webp)
 
-![](images/1d3ce2a6760849c3af4dbcade3f96d72ebe541f607d5a2c48d7d781f842d1682.jpg)  
+![](images/1d3ce2a6760849c3af4dbcade3f96d72ebe541f607d5a2c48d7d781f842d1682.webp)  
 (a)
 
-![](images/b7b5f83efc7cec66af15a7c34b38fc64f243cf025c928e1762c6d3bca728a184.jpg)
+![](images/b7b5f83efc7cec66af15a7c34b38fc64f243cf025c928e1762c6d3bca728a184.webp)
 
-![](images/294e8ed9920d2b10540971ab1ca2979123d0063fb0c55cf2f9cc6493a41d47e6.jpg)
+![](images/294e8ed9920d2b10540971ab1ca2979123d0063fb0c55cf2f9cc6493a41d47e6.webp)
 
-![](images/8b350da571e381092d769fbea13ec9ef5e7d4f8cd3296e8f016b7bdebd04df71.jpg)  
+![](images/8b350da571e381092d769fbea13ec9ef5e7d4f8cd3296e8f016b7bdebd04df71.webp)  
 Figure 4.6. Genealogical graphs. (a) Three layouts for the dual-tree: classical node–link top-to-bottom at the top, classical left-to-right on the left, and the new indented outline algorithm on the right. (b) Widget for subtree collapsing and expanding with ballistic drags. From [McGuffin and Balakrishnan 05, Figures 13 and 14].
 
 pose multiple new visual encoding idioms, including one based on the dual-tree, a subgraph formed by the union of two trees, as shown in Figure 4.6(a). Their prototype features sophisticated interaction idioms, including automatic camera framing, animated transitions, and a new widget for ballistically dragging out subtrees to arbitrary depths as shown in Figure 4.6(b).
 
 This exemplary paper explicitly covers all four levels. The first domain situation level is handled concisely but clearly: their domain is genealogy, and they briefly discuss the needs of and current tools available for genealogical hobbyists. The paper particularly shines in the analysis at the second abstraction level. They point out that the very term family tree is highly misleading, be-
 
-![](images/9b3905e49fdc0b8a59dc8f6edc08106f2dea375afc846162aacc17c11f1da506.jpg)  
+![](images/9b3905e49fdc0b8a59dc8f6edc08106f2dea375afc846162aacc17c11f1da506.webp)  
 Figure 4.7. Genealogical graphs [McGuffin and Balakrishnan 05] validation levels.
 
 cause the data type in fact is a more general graph with specialized constraints on its structure. They discuss conditions for which the data type is a true tree, a multitree, or a directed acyclic graph. They map the domain problem of recognizing nuclear family structure into an abstract task of determining subgraph structure. At the third level of the model, they discuss the strengths and weaknesses of several visual encoding idiom design choices, including using connection, containment, adjacency and alignment, and indentation. They present in passing two more specialized encoding idioms, fractal node–link and containment for free trees, before presenting in detail their main proposal for visual encoding. They also carefully address interaction idiom design, which also falls into the third level of the model. At the fourth level of algorithm design, they concisely cover the algorithmic details of dual-tree layout.
@@ -2451,7 +2451,7 @@ Henry and Fekete present the MatrixExplorer system for social network analysis [
 
 Design choices for visual encoding idioms for network data are discussed in Chapter 9.
 
-![](images/a78af210b231e5c7d0bc38f66d759e7444f173a3c5325030041f8a6203fe4930.jpg)  
+![](images/a78af210b231e5c7d0bc38f66d759e7444f173a3c5325030041f8a6203fe4930.webp)  
 Figure 4.8. MatrixExplorer features both node–link and matrix representations in an interface designed for sociologists and historians to explore social networks. From [Henry and Fekete 06, Figure 1].
 
 The strengths and weaknesses of matrix and node– link representations of networks are discussed in Section 9.4.
@@ -2460,7 +2460,7 @@ ipatory design sessions with social science researchers. They use both matrix re
 
 All four levels of the model are addressed, with validation at three of the levels, shown in Figure 4.9. At the domain situation level, there is explicit characterization of the social network analysis domain, which is validated with the qualitative techniques of interviews and an exploratory study using participatory design methods with social scientists and other researchers who use social network data. At the abstraction level, the paper includes a detailed list of requirements of the target user needs discussed in terms of abstract tasks and data. There is a thorough discussion of the primary encoding idiom design decision to use both node–link and matrix views to show the data, and also of many secondary encoding issues. There is also a discussion of both basic interaction idioms and more complex interaction via interactive reordering and clustering. In both cases the authors use the immediate validation method of justifying these design decisions. There is also an extensive downstream validation of this level using qualitative discussion of result images. At the algorithm level, the focus is on the reordering algorithm. Downstream benchmark timings are mentioned very briefly.
 
-![](images/c5b0c2ac4f6cc89614ca08891a98e3e743a941f504d6e466c9a846c89ec73808.jpg)  
+![](images/c5b0c2ac4f6cc89614ca08891a98e3e743a941f504d6e466c9a846c89ec73808.webp)  
 Figure 4.9. MatrixExplorer [Henry and Fekete 06] validation methods.
 
 # 4.7.3 Flow Maps
@@ -2471,22 +2471,22 @@ In their paper, Phan et al. focus on the innermost algorithm design level, but t
 
 The visual encoding of geographic data is discussed in Section 8.3.1.
 
-![](images/e4bfe1ee1f9d172b6fbea4362a39c614dba2da63e6ee55efff37d72976f29171.jpg)  
+![](images/e4bfe1ee1f9d172b6fbea4362a39c614dba2da63e6ee55efff37d72976f29171.webp)  
 (a)
 
-![](images/726a61be46952b59ce75e08e8275aac62b46ca1eb83530d9d9488e8515e982da.jpg)  
+![](images/726a61be46952b59ce75e08e8275aac62b46ca1eb83530d9d9488e8515e982da.webp)  
 (b)   
 Figure 4.10. Flow maps showing migration patterns from 1995 to 2000 US Census data. (a) Migration from California. (b) The top ten states that sent migrants to California shown in green, and to New York in blue. From [Phan et al. 05, Figures 1c and 10].
 
 Four validation methods were used in this paper, shown in Figure 4.11. At the algorithm level, there is an immediate complexity analysis. There is also a brief downstream report of system timing, saying that all images were computed in a few seconds. There is also a more involved downstream validation through the qualita-
 
-![](images/3966c14fade484c73c3fdac47a07b0fbef74bf604c1d9c3bc7f0efe0ef8cc4b4.jpg)  
+![](images/3966c14fade484c73c3fdac47a07b0fbef74bf604c1d9c3bc7f0efe0ef8cc4b4.webp)  
 Figure 4.11. Flow map [Phan et al. 05] validation methods.
 
-![](images/1d5841b8e11a2bc045c47890773078a0d381b6928c50844a013fabb009d09d71.jpg)  
+![](images/1d5841b8e11a2bc045c47890773078a0d381b6928c50844a013fabb009d09d71.webp)  
 (a)
 
-![](images/78a1ca0004382b507a6ff8b2af9f1a50b611dc302bccffaeac0f679d153825a9.jpg)  
+![](images/78a1ca0004382b507a6ff8b2af9f1a50b611dc302bccffaeac0f679d153825a9.webp)  
 (b)   
 Figure 4.12. LiveRAC supports exploration of system management time-series data with a reorderable matrix and semantic zooming. (a) The first several dozen rows have been stretched out to show sparklines for the devices. (b) The top three rows have been enlarged more, so the charts appear in full detail. From [McLachlan et al. 08, Figure 3].
 
@@ -2498,7 +2498,7 @@ McLachlan et al. present the LiveRAC system for exploring system management time
 
 Reorderable matrix alignments are covered in Section 7.5.2, semantic zooming is covered in Section 11.5.2, and stretch and squish navigation is covered in Section 14.5.
 
-![](images/2e903d8f5d8dd7538379613c5ac6570159f848f423178e5c22a6f1325fdeaf02.jpg)  
+![](images/2e903d8f5d8dd7538379613c5ac6570159f848f423178e5c22a6f1325fdeaf02.webp)  
 Figure 4.13. LiveRAC [McLachlan et al. 08] validation methods.
 
 web hosting service. Four validation methods were used in this paper, shown in Figure 4.13.
@@ -2519,15 +2519,15 @@ Although a quick glance might lead to an assumption that this graph drawing pape
 
 Noack clearly distinguishes between the two aspects of energybased methods for force-directed graph layout: the energy model itself versus the algorithm that searches for a state with minimum total energy. In the vocabulary of my model, his LinLog energy model is a visual encoding idiom. Requiring that the edges between clusters are longer than those within clusters is a visual encoding
 
-![](images/684bf1f3a71021abebdedb97556c6f3cb73fbd49c313c710126ff0e411bc5cf2.jpg)
+![](images/684bf1f3a71021abebdedb97556c6f3cb73fbd49c313c710126ff0e411bc5cf2.webp)
 
-![](images/d8184dbb411bf8d8c441d148b97bad3cf6ae47704ea7374c941655bfe9b3d775.jpg)  
+![](images/d8184dbb411bf8d8c441d148b97bad3cf6ae47704ea7374c941655bfe9b3d775.webp)  
 (b)   
 Figure 4.14. The LinLog energy model reveals clusters in node–link graphs. (a) LinLog clearly shows clusters with spatial separation. (b) The popular Fructerman-Reingold model for force-directed placement does not separate the clusters. From [Noack 03, Figure 1].
 
 ‣ Force-directed placement is discussed in Section 9.2.
 
-![](images/835cb5a986be6e8878c3ab8e7c4a7600354479374dcc0ba17f8c10f97270fe88.jpg)  
+![](images/835cb5a986be6e8878c3ab8e7c4a7600354479374dcc0ba17f8c10f97270fe88.webp)  
 Figure 4.15. LinLog [Noack 03] validation methods.
 
 # Q ualita tive/quan tita tive r esult image analysis
@@ -2542,10 +2542,10 @@ This paper does not in fact address the innermost algorithm level. Noack explici
 
 Heer et al. compare line charts to the more space-efficient horizon graphs [Heer et al. 09], as Figure 4.16 shows. They identify transition points at which reducing the chart height results in significantly differing drops in estimation accuracy across the compared chart types, and they find optimal positions in the speed–accuracy trade-off curve at which viewers performed quickly without attendant drops in accuracy. This paper features lab studies that are designed to validate (or invalidate) specific design choices at the
 
-![](images/b042707e425208dbffa412301f336c6129983bb72fdd174e4f8d1abce1bc1d73.jpg)  
+![](images/b042707e425208dbffa412301f336c6129983bb72fdd174e4f8d1abce1bc1d73.webp)  
 Figure 4.16. Experiment 2 of Sizing the Horizon compared filled line charts, one-band horizon graphs, and twoband horizon graphs of different sizes to find transition points where reducing chart height results in major drops in estimation accuracy across chart types. From [Heer et al. 09, Figure 7].
 
-![](images/bd5367065a8b21b52180c92d08656770a3190c01b1457ac2f2a6b6aa7b8f734a.jpg)  
+![](images/bd5367065a8b21b52180c92d08656770a3190c01b1457ac2f2a6b6aa7b8f734a.webp)  
 Figure 4.17. Lab studies as a validation method.
 
 Lab study, measur e human time/err ors for task
@@ -2572,10 +2572,10 @@ Experiment Design For lab studies, my current favorite references for experiment
 
 Channels: Expressiveness Types and Effec tiveness R anks
 
-![](images/ba68902f44c8e7e18ddcbe9a8ef1cc59c2e5f0989cc8a207876eb87e3da630da.jpg)  
+![](images/ba68902f44c8e7e18ddcbe9a8ef1cc59c2e5f0989cc8a207876eb87e3da630da.webp)  
 $\textcircled{3}$ Magnitude Channels: Ordered Attributes
 
-![](images/ad11dc1d074326491524d6514855f882b4037bca83327b949cdf384f29025a6f.jpg)  
+![](images/ad11dc1d074326491524d6514855f882b4037bca83327b949cdf384f29025a6f.webp)  
 $\textcircled{3}$ Identity Channels: Categorical Attributes   
 Figure 5.1. The effectiveness of channels that modify the appearance of marks depends on matching the expressiveness of channels with the attributes being encoded.
 
@@ -2595,26 +2595,26 @@ Learning to reason about marks and channels gives you the building blocks for an
 
 A mark is a basic graphical element in an image. Marks are geometric primitive objects classified according to the number of spatial dimensions they require. Figure 5.2 shows examples: a zerodimensional (0D) mark is a point, a one-dimensional (1D) mark is a line, and a two-dimensional (2D) mark is an area. A threedimensional (3D) volume mark is possible, but they are not frequently used.
 
-![](images/2c40271ff1f1c92ebd6568da369fbcbd922bbb30ada3054703006029a94217a9.jpg)  
+![](images/2c40271ff1f1c92ebd6568da369fbcbd922bbb30ada3054703006029a94217a9.webp)  
 Figure 5.2. Marks are geometric primitives.
 
 The term channel is popular in the vis literature and is not meant to imply any particular theory about the underlying mechanisms of human visual perception. There are many, many synonyms for visual channel: nearly any combination of visual, graphical, perceptual, retinal for the first word, and channel, attribute, dimension, variable, feature, and carrier for the second word.
 
 A visual channel is a way to control the appearance of marks, independent of the dimensionality of the geometric primitive.* Figure 5.3 shows a few of the many visual channels that can encode information as properties of a mark. Some pertain to spatial position, including aligned planar position, unaligned planar position, depth (3D position), and spatial region. Others pertain to color, which has three distinct aspects: hue, saturation, and luminance. There are three size channels, one for each added dimension: length is 1D size, area is 2D size, and volume is 3D size. The motion-oriented channels include the motion pattern, for instance, oscillating circles versus straight jumps, the direction of motion, and the velocity. Angle is also a channel, sometimes called tilt. Curvature is also a visual channel. Shape is a complex phenomenon, but it is treated as a channel in this framework.
 
-![](images/568e79888e730882f63bf26ccc18c1e052f55091222396393ebf8f431d683832.jpg)  
+![](images/568e79888e730882f63bf26ccc18c1e052f55091222396393ebf8f431d683832.webp)  
 Figure 5.3. Visual channels control the appearance of marks.
 
-![](images/aba3ee7af994a2cbbcde0924d7178df37f884bffaf48042a0376238ffc329590.jpg)  
+![](images/aba3ee7af994a2cbbcde0924d7178df37f884bffaf48042a0376238ffc329590.webp)  
 (a)
 
-![](images/3207c641e960a185bc75c15010c65379ee6179cbe33f8c13a8cb40f1968480e0.jpg)  
+![](images/3207c641e960a185bc75c15010c65379ee6179cbe33f8c13a8cb40f1968480e0.webp)  
 (b)
 
-![](images/59c8a506f2f036770dd5119e758322753527bbc7dd6940b64ad84c27c0ea95d6.jpg)  
+![](images/59c8a506f2f036770dd5119e758322753527bbc7dd6940b64ad84c27c0ea95d6.webp)  
 (c)
 
-![](images/66313be5c94f811d69eefae78e9614302429953104143e91daef1c1db2b57af6.jpg)  
+![](images/66313be5c94f811d69eefae78e9614302429953104143e91daef1c1db2b57af6.webp)  
 (d)   
 Figure 5.4. Using marks and channels. (a) Bar charts encode two attributes using a line mark with the vertical spatial position channel for the quantitative attribute, and the horizontal spatial position channel for the categorical attribute. (b) Scatterplots encode two quantitative attributes using point marks and both vertical and horizontal spatial position. (c) A third categorical attribute is encoded by adding color to the scatterplot. (d) Adding the visual channel of size encodes a fourth quantitative attribute as well.
 
@@ -2652,23 +2652,23 @@ All channels are not equal: the same data attribute encoded with two different v
 
 # Marks as I tems/Nodes
 
-![](images/babd6e741e41a1ce4685aeaf1d3f33f1d06fec897a9cc5f189a0cf6f340fbf61.jpg)  
+![](images/babd6e741e41a1ce4685aeaf1d3f33f1d06fec897a9cc5f189a0cf6f340fbf61.webp)  
 $\textcircled{ \div}$ Points
 
-![](images/f857c3342b35cd500e9341c0a2e27b651618967f906bd65dd7618f610039f87f.jpg)  
+![](images/f857c3342b35cd500e9341c0a2e27b651618967f906bd65dd7618f610039f87f.webp)  
 Lines
 
-![](images/7f30e9b3fd5a2d2adac9ea087c3f4d65da94205312d593727d5cd87fd73ecd88.jpg)  
+![](images/7f30e9b3fd5a2d2adac9ea087c3f4d65da94205312d593727d5cd87fd73ecd88.webp)  
 Areas
 
-![](images/d63fe2643bdc1e5dcadfbc33a40add3a9d42a38b0ebdc7804266bf60ca548706.jpg)
+![](images/d63fe2643bdc1e5dcadfbc33a40add3a9d42a38b0ebdc7804266bf60ca548706.webp)
 
 # Marks as Links
 
-![](images/5b223557ed77bc119805da4af06c50648eebdecafc03f5aa597fb3f8582fe79b.jpg)  
+![](images/5b223557ed77bc119805da4af06c50648eebdecafc03f5aa597fb3f8582fe79b.webp)  
 $\textcircled{ \div}$ Containment
 
-![](images/264407726afd96d74ba4affc9b27faa062a2161d1cbc415c50ce1aad306bc266.jpg)  
+![](images/264407726afd96d74ba4affc9b27faa062a2161d1cbc415c50ce1aad306bc266.webp)  
 $\textcircled{ \div}$ Connec tion   
 Figure 5.5. Marks can represent individual items, or links between them.
 
@@ -2710,7 +2710,7 @@ Channels: Expressiveness Types and Effec tiveness R anks
 
 $\textcircled{ \div}$ Magnitude Channels: Ordered Attributes
 
-![](images/4d63d0f515d6bc48f32064ad73d83707e77268cab095484d614394310021acef.jpg)  
+![](images/4d63d0f515d6bc48f32064ad73d83707e77268cab095484d614394310021acef.webp)  
 Figure 5.6. Channels ranked by effectiveness according to data and channel type. Ordered data should be shown with the magnitude channels, and categorical data with the identity channels.
 
 $\circled{  }$ Identity Channels: Categorical Attributes
@@ -2741,7 +2741,7 @@ $$
 
 where $S$ is the perceived sensation and $I$ is the physical intensity. The power law exponent $n$ ranges from the sublinear 0.5 for brightness to the superlinear 3.5 for electric current. That is, the sublinear phenomena are compressed, so doubling the physical
 
-![](images/b3119f251df7f330a73f93086d2a3b9987404fbb68e789e1999a3d26e4e12e7f.jpg)  
+![](images/b3119f251df7f330a73f93086d2a3b9987404fbb68e789e1999a3d26e4e12e7f.webp)  
 Steven's Psychophysical Power Law: S= IN   
 Figure 5.7. Stevens showed that the apparent magnitude of all sensory channels follows a power law $S = I ^ { n }$ , where some sensations are perceptually magnified compared with their objective intensity (when $n > 1$ ) and some compressed (when $n < 1 _ { . }$ ). Length perception is completely accurate, whereas area is compressed and saturation is magnified. Data from Stevens [Stevens 75, p. 15].
 
@@ -2749,7 +2749,7 @@ brightness results in a perception that is considerably less than twice as brigh
 
 Another set of answers to the question of accuracy comes from controlled experiments that directly map human response to visually encoded abstract information, giving us explicit rankings of perceptual accuracy for each channel type. For example, Cleveland and McGill’s experiments on the magnitude channels [Cleveland and McGill 84a] showed that aligned position against a common scale is most accurately perceived, followed by unaligned position against an identical scale, followed by length, followed by angle. Area judgements are notably less accurate than all of these. They also propose rankings for channels that they did not directly test: after area is an equivalence class of volume, curvature, and lumi-
 
-![](images/57bd524df99ed0d693646b5daa39794faaff6f2cb63a58699b70a40f24fb0f92.jpg)  
+![](images/57bd524df99ed0d693646b5daa39794faaff6f2cb63a58699b70a40f24fb0f92.webp)  
 Figure 5.8. Error rates across visual channels, with recent crowdsourced results replicating and extending seminal work from Cleveland and McGill [Cleveland and McGill 84a]. After [Heer and Bostock 10, Figure 4].
 
 nance; that class is followed by hue in last place. (This last place ranking is for hue as a magnitude channel, a very different matter than its second-place rank as a identity channel.) These accuracy results for visual encodings dovetail nicely with the psychophysical channel measurements in Figure 5.7. Heer and Bostock confirmed and extended this work using crowdsourcing, summarized in Figure 5.8 [Heer and Bostock 10]. The only discrepancy is that the later work found length and angle judgements roughly equivalent.
@@ -2768,7 +2768,7 @@ You cannot treat all visual channels as completely independent from each other, 
 
 Clearly, you cannot separately encode two attributes of information using vertical and horizontal spatial position and then expect to encode a third attribute using planar proximity. In this case it
 
-![](images/1638bcd12b65e49ae0a1386fea202f5369c7a8c2740cdf28b878277c78bcfa62.jpg)  
+![](images/1638bcd12b65e49ae0a1386fea202f5369c7a8c2740cdf28b878277c78bcfa62.webp)  
 Figure 5.9. Linewidth has a limited number of discriminable bins.
 
 is obvious that the third channel precludes the use of the first two. However, some of the interchannel interference is less obvious.
@@ -2777,7 +2777,7 @@ Figure 5.10 shows pairs of visual channels at four points along this continuum. 
 
 Next is an example of interference between channels, showing that size is not fully separable from color hue. We can easily distinguish the large half from the small half, but within the small half discriminating between the two colors is much more difficult. Size interacts with many visual channels, including shape.
 
-![](images/9db2d16e02f22a05bd251e27ed5d07637330e0b032c76811a656eee828fbb369.jpg)  
+![](images/9db2d16e02f22a05bd251e27ed5d07637330e0b032c76811a656eee828fbb369.webp)  
 Figure 5.10. Pairs of visual channels fall along a continuum from fully separable to intrinsically integral. Color and location are separable channels well suited to encode different data attributes for two different groupings that can be selectively attended to. However, size interacts with hue, which is harder to perceive for small objects. The horizontal size and and vertical size channels are automatically fused into an integrated perception of area, yielding three groups. Attempts to code separate information along the red and green axes of the RGB color space fail, because we simply perceive four different hues. After [Ware 13, Figure 5.23].
 
 The third example shows an integral pair. Encoding one variable with horizontal size and another with vertical size is ineffective because what we directly perceive is the planar size of the circles, namely, their area. We cannot easily distinguish groupings of wide from narrow, and short from tall. Rather, the most obvious perceptual grouping is into three sets: small, medium, and large. The medium category includes the horizontally flattened as well as the vertically flattened.
@@ -2800,40 +2800,40 @@ Popout is not an all-or-nothing phenomenon. It depends on both the channel itsel
 
 * Visual popout is often called preattentive processing or tunable detection.
 
-![](images/8907137bc803689791357c5f88b7c421f36f65bfb77d81081a8aecd0f0833107.jpg)  
+![](images/8907137bc803689791357c5f88b7c421f36f65bfb77d81081a8aecd0f0833107.webp)  
 (a)
 
-![](images/aa089bd51b56121c3e01292360f633b4e3fc690305d0f01d0c3ab0ff88c9d98d.jpg)  
+![](images/aa089bd51b56121c3e01292360f633b4e3fc690305d0f01d0c3ab0ff88c9d98d.webp)  
 (b)
 
-![](images/e85d5fd3909ebddee46e591384178133e57ea3deecc25a1b6a31f70eb6c729d9.jpg)  
+![](images/e85d5fd3909ebddee46e591384178133e57ea3deecc25a1b6a31f70eb6c729d9.webp)  
 (c)
 
-![](images/755aee6cbb4655414c2812bae7db6bcdb3e41ad7bb47586e10d247cb2a340619.jpg)  
+![](images/755aee6cbb4655414c2812bae7db6bcdb3e41ad7bb47586e10d247cb2a340619.webp)  
 (d)
 
-![](images/37fca9242bbec853684dc7dc65c6e955d0755502c3de539ffb97dbb8f377ad6d.jpg)  
+![](images/37fca9242bbec853684dc7dc65c6e955d0755502c3de539ffb97dbb8f377ad6d.webp)  
 (e)
 
-![](images/404e062e1b81b67c30e699c21eff023d8c0143c45244e66b543cb6c4f00e32c1.jpg)  
+![](images/404e062e1b81b67c30e699c21eff023d8c0143c45244e66b543cb6c4f00e32c1.webp)  
 (f)   
 Figure 5.11. Visual popout. (a) The red circle pops out from a small set of blue circles. (b) The red circle pops out from a large set of blue circles just as quickly. (c) The red circle also pops out from a small set of square shapes, although a bit slower than with color. (d) The red circle also pops out of a large set of red squares. (e) The red circle does not take long to find from a small set of mixed shapes and colors. (f) The red circle does not pop out from a large set of red squares and blue circles, and it can only be found by searching one by one through all the objects. After http://www.csc.ncsu.edu/faculty/healey/PP by Christopher G. Healey.
 
-![](images/be41c98ab22c653f36feaa346f144d98cc06ca6dce5385a4fe0f5990c979ad93.jpg)  
+![](images/be41c98ab22c653f36feaa346f144d98cc06ca6dce5385a4fe0f5990c979ad93.webp)  
 (a)
 
-![](images/7122811b101b8111e6237cf3667abc98c663b5f5c5231615d58acdbf5e71f6a0.jpg)  
+![](images/7122811b101b8111e6237cf3667abc98c663b5f5c5231615d58acdbf5e71f6a0.webp)  
 (b)
 
-![](images/88a8e2cbe01bb79b1cfa6d4a1f3c7a888d84bfb15f1f4ffc9c294f52274e0977.jpg)
+![](images/88a8e2cbe01bb79b1cfa6d4a1f3c7a888d84bfb15f1f4ffc9c294f52274e0977.webp)
 
-![](images/cb5a040d5ca29c648746a1df03a45a4d8313096381d63f35b0247113dcf985cd.jpg)  
+![](images/cb5a040d5ca29c648746a1df03a45a4d8313096381d63f35b0247113dcf985cd.webp)  
 (d)
 
-![](images/aaf194f001b94dab7eec49840cd05a4ca5821a8325294c0772ac1b8c5a354ba0.jpg)  
+![](images/aaf194f001b94dab7eec49840cd05a4ca5821a8325294c0772ac1b8c5a354ba0.webp)  
 (e)
 
-![](images/c90741fb775cd0b1a8e92f3cd41f3e8644fd39dbab16cead0def4c33c02e549e.jpg)  
+![](images/c90741fb775cd0b1a8e92f3cd41f3e8644fd39dbab16cead0def4c33c02e549e.webp)  
   
 Figure 5.12. Many channels support visual popout, including (a) tilt, (b) size, (c) shape, (d) proximity, and (e) shadow direction. (f) However, parallel line pairs do not pop out from a sea of slightly tilted distractor object pairs and can only be detected through serial search. After http://www.csc.ncsu.edu/faculty/healey/PP by Christopher G. Healey.
 
@@ -2869,34 +2869,34 @@ This principle holds true for all sensory modalities. The fact that our senses w
 
 An example based on Weber’s Law illuminates why position along a scale can be more accurately perceived than a pure length judgement of position without a scale. The length judgement in Figure 5.13(a) is difficult to make with unaligned and unframed bars. It is easier with framing, as in Figure 5.13(b), or alignment, as in Figure 5.13(c), so that the bars can be judged against a common scale. When making a judgement without a common scale, the only information is the length of the bars themselves. Placing a common frame around the bars provides another way to estimate magnitude: we can check the length of the unfilled bar. Bar B is only about $1 5 \%$ longer than Bar A, approaching the range where length differences are difficult to judge. But the unfilled part of the frame for Bar B is about $5 0 \%$ smaller than the one for Bar A, an easily discriminable difference. Aligning the bars achieves the same effect without the use of a frame.
 
-![](images/ed98a00b69726917e02a7f04068918f0a6ef232a4db74b60de3f4459011f67fe.jpg)  
+![](images/ed98a00b69726917e02a7f04068918f0a6ef232a4db74b60de3f4459011f67fe.webp)  
 A   
 Unframed Unaligned   
 (a)
 
-![](images/8763e47180d8beee12c9e2770981a40584bee0d86cbf218c4649313c3cc1c73b.jpg)  
+![](images/8763e47180d8beee12c9e2770981a40584bee0d86cbf218c4649313c3cc1c73b.webp)  
 A   
 Framed Unaligned   
 (b)
 
-![](images/3fea15c478553ac7e4b346812f81bacdd93ed2a99a0d4f2ebe28cf07d2cb0189.jpg)  
+![](images/3fea15c478553ac7e4b346812f81bacdd93ed2a99a0d4f2ebe28cf07d2cb0189.webp)  
 Unframed Aligned   
   
 Figure 5.13. Weber’s Law states that we judge based on relative, not absolute differences. (a) The lengths of unframed, unaligned rectangles of slightly different sizes are hard to compare. (b) Adding a frame allows us to compare the very different sizes of the unfilled rectangles between the bar and frame tops. (c) Aligning the bars also makes the judgement easy. Redrawn and extended after [Cleveland and McGill 84a, Figure 12].
 
 Another example shows that our perception of color and luminance is completely contextual, based on the contrast with surrounding colors. In Figure 5.14(a), the two labeled squares in a checkerboard appear to be quite different shades of gray. In Figure 5.14(b), superimposing a solid gray mask that touches both squares shows that they are identical. Conversely, Figure 5.15
 
-![](images/f53bdd6e778b4f3d7325482e984d957f39c76926af9668d0d75db3a2ffe6b994.jpg)  
+![](images/f53bdd6e778b4f3d7325482e984d957f39c76926af9668d0d75db3a2ffe6b994.webp)  
 (a)
 
-![](images/f79e934778462b9ab7e6cbfa417abf1e6979ad14e62f37c456ebc0e73f141699.jpg)  
+![](images/f79e934778462b9ab7e6cbfa417abf1e6979ad14e62f37c456ebc0e73f141699.webp)  
 (b)   
 Figure 5.14. Luminance perception is based on relative, not absolute, judgements. (a) The two squares A and B appear quite different. (b) Superimposing a gray mask on the image shows that they are in fact identical.
 
-![](images/eb1d429eca8b7cb533e5116ec9227340625b424b182e032b506ed8ca0ca40df6.jpg)  
+![](images/eb1d429eca8b7cb533e5116ec9227340625b424b182e032b506ed8ca0ca40df6.webp)  
 (a)
 
-![](images/383242a1d940967786df199ccc3893807d39f9ced3881110704b1cb1a74b50ec.jpg)  
+![](images/383242a1d940967786df199ccc3893807d39f9ced3881110704b1cb1a74b50ec.webp)  
 (b)   
 Figure 5.15. Color perception is also relative to surrounding colors and depends on context. (a) Both cubes have tiles that appear to be red. (b) Masking the intervening context shows that the colors are very different: with yellow apparent lighting, they are orange; with blue apparent lighting, they are purple.
 
@@ -2967,10 +2967,10 @@ Vertical and horizontal position are combined into the shared category of planar
 
 The psychophysical power law exponents for accuracy shown in Figure 5.7 are different for depth position judgements in 3D than for planar position judgements in 2D. Our highly accurate length perception capability, with the linear $n$ value of 1.0, only holds for planar spatial position. For depth judgements of visual distance, $n$ was measured as 0.67 [Stevens 57]; that exponent is even worse than the value of 0.7 for area judgements. This phenomenon is
 
-![](images/c236bb67a8d0e3db0f3f8c4baf8e0589e1ae27e90e467d311b96fbb5e3976473.jpg)  
+![](images/c236bb67a8d0e3db0f3f8c4baf8e0589e1ae27e90e467d311b96fbb5e3976473.webp)  
 (a)
 
-![](images/20038f9cabc052bb3ee58be2571a87b5b303a589ead8786fc049d834a99bbe97.jpg)  
+![](images/20038f9cabc052bb3ee58be2571a87b5b303a589ead8786fc049d834a99bbe97.webp)  
 (b)   
 Figure 6.2. Seeing planar position versus depth. (a) The sideways and up–down axes are fundamentally different from the toward–away depth axis. (b) Along the depth axis we can see only one point for each ray, as opposed to millions of rays for the other two axes. After [Ware 08, page 44].
 
@@ -2992,7 +2992,7 @@ The overarching problem with occlusion in the context of visual encoding is that
 
 Moreover, if the objects have unpredictable and unfamiliar shapes, understanding the three-dimensional structure of the scene can be very challenging. In this case there can be appreciable cognitive load because people must use internal memory to remember the shape from previous viewpoints, and internally synthesize an understanding of the structure. This case is common when using the spatial position channels for visual encoding. Figure 6.3 illustrates the challenges of understanding the topological structure of a node–link graph laid out in 3D, as an example of the unfamiliar structure that arises from visually encoding an abstract dataset. Synthesizing an understanding of the structure of the linkages hidden from the starting viewpoint shown here is likely to take a considerable amount of time. While sophisticated interaction idioms have been proposed to help users do this synthesis more quickly
 
-![](images/304a8b60bd9206737af38e84801c7864e5710f4feab627202af4d44c9bbe0260.jpg)  
+![](images/304a8b60bd9206737af38e84801c7864e5710f4feab627202af4d44c9bbe0260.webp)  
 Figure 6.3. Resolving the 3D structure of the occluded parts of the scene is possible with interactive navigation, but that takes time and imposes cognitive load, even when sophisticated interaction idioms are used, as in this example of a node–link graph laid out in 3D space. From [Carpendale et al. 96, Figure 21].
 
 than with simple realistic navigation, thus lowering the time cost, vis designers should always consider whether the benefits of 3D are worth the costs.
@@ -3006,14 +3006,14 @@ One of the major breakthroughs of Western art was the Renaissance understanding 
 ‣ The disparity in our perception of depth from our perception of planar spatial position is discussed in Section 6.3.2.   
 * The phenomenon of perspective distortion is also known as foreshortening.
 
-![](images/c412c50c7eae8695963e382eec60c66ab9f00069586803fe99a7a443c0779c88.jpg)  
+![](images/c412c50c7eae8695963e382eec60c66ab9f00069586803fe99a7a443c0779c88.webp)  
 Figure 6.4. 3D bar charts are more difficult than 2D bar charts because of both perspective distortion and occlusion. From [Few 07, Question 7].
 
 thing. However, in the context of visually encoding abstract data, perspective is a very bad thing! Perspective distortion is one of the main dangers of depth because the power of the plane is lost; it completely interferes with visual encodings that use the planar spatial position channels and the size channel. For example, it is more difficult to judge bar heights in a 3D bar chart than in multiple horizontally aligned 2D bar charts, as shown in Figure 6.4. Foreshortening makes direct comparison of bar heights difficult.
 
 Figure 6.5 shows another example where size coding in multiple dimensions is used for bars that recede into the distance in 3D on a ground plane. The result of the perspective distortion is that the bar sizes cannot be directly compared as a simple perceptual operation.
 
-![](images/4cb83f3755d0e67c3e29c697ee4f9100d220808bffafeac3d32db1b95dc0c3f2.jpg)  
+![](images/4cb83f3755d0e67c3e29c697ee4f9100d220808bffafeac3d32db1b95dc0c3f2.webp)  
 Figure 6.5. With perspective distortion, the power of the planar spatial position channel is lost, as is the size channel. From [Mukherjea et al. 96, Figure 1].
 
 # 6.3.5 Other Depth Cues
@@ -3038,7 +3038,7 @@ The great benefit of using 3D comes when the viewer’s task fundamentally requi
 
 For example, although people can be trained to comprehend blueprints with a top view and two side views, synthesizing the information contained within these views to understand what a complex object looks like from some arbitrary 3D viewpoint is a difficult problem that incurs significant cognitive and memory load. The 2D blueprint views are better for the task of accurately discriminating the sizes of building elements, which is why they are still heavily used in construction. However, there is considerable experimental evidence that 3D outperforms 2D for shape understanding tasks [St. John et al. 01].
 
-![](images/28bd25c2a4d67a2bf9575fd21a1315de06f16d35d2c2cd613aa1d9c9f7727083.jpg)  
+![](images/28bd25c2a4d67a2bf9575fd21a1315de06f16d35d2c2cd613aa1d9c9f7727083.webp)  
 Figure 6.6. The use of 3D is well justified when the central task is shape understanding, as in this example of 3D streamline showing the patterns of fluid flow through a volume. From [Li and Shen 07, Figure 9].
 
 Most tasks that have inherently 3D spatial data after the abstraction stage fall into this category. Some classical examples are fluid flow over an airplane wing, a medical imaging tomography dataset of the human body, or molecular interaction within a living cell. Figure 6.6 shows an example of streamlines in 3D fluid flow [Li and Shen 07], where geometric navigation based on 3D rotation is a good strategy to help users understand the complex shapes quickly.
@@ -3059,9 +3059,9 @@ Streamlines are discussed further in Section 8.5, and geometric navigation in Se
 
 <!-- Chunk 4 Start -->
 
-![](images/20d5c2644f422351503a74cb35f0419b3e817286d862b14a9b5b611bcf3c4e6f.jpg)
+![](images/20d5c2644f422351503a74cb35f0419b3e817286d862b14a9b5b611bcf3c4e6f.webp)
 
-![](images/603978f6b02ee841743c309006613b98592ed86fae6469d27184efd9b8259613.jpg)  
+![](images/603978f6b02ee841743c309006613b98592ed86fae6469d27184efd9b8259613.webp)  
 (a)   
 (b)   
 Figure 6.7. 3D versus 2D. (a) A 3D representation of this time-series dataset introduces the problems of occlusion and perspective distortion. (b) The linked 2D views of derived aggregate curves and the calendar allow direct comparison and show more fine-grained patterns. From [van Wijk and van Selow 99, Figures 1 and 4].
@@ -3082,14 +3082,14 @@ Linked views are discussed in Chapter 12.
 
 Figure 6.8 shows an example that is similar on the surface to the previous one, but in this case 3D is used with care and the design is well justified [Lopez-Hernandez et al. 10]. In this system for visualizing oscilloscope time-series data, the user starts by viewing the data using the traditional eye diagram where the signal is wrapped around in time and shown as many overlapping traces. Users can spread the traces apart using the metaphor of opening a drawer, as shown in Figure 6.8(a). This drawer interface does use 3D, but with many constraints. Layers are orthographically projected and always face the viewer. Navigation complexity is controlled by automatically zooming and framing as the user adjusts the drawer’s orientation, as shown in Figure 6.8(b).
 
-![](images/b07283cb8386e1b7a89416548ff6d1fd27e0777c8a005c6cb60a2fb54bc6c738.jpg)
+![](images/b07283cb8386e1b7a89416548ff6d1fd27e0777c8a005c6cb60a2fb54bc6c738.webp)
 
-![](images/733fdf7867eff35abf98bb4d82efeac3decbe8ce324c2d684f82600675ce3249.jpg)  
+![](images/733fdf7867eff35abf98bb4d82efeac3decbe8ce324c2d684f82600675ce3249.webp)  
 (a)
 
-![](images/9be2ac325856faf44cde2cf96b3408b5725f109b45179f95bc821cdae95c183c.jpg)
+![](images/9be2ac325856faf44cde2cf96b3408b5725f109b45179f95bc821cdae95c183c.webp)
 
-![](images/a3b9779f1109d268418f7c2e83180b4e7561ff7744ed3820dfdc8cf4338e4859.jpg)  
+![](images/a3b9779f1109d268418f7c2e83180b4e7561ff7744ed3820dfdc8cf4338e4859.webp)  
 (b)   
 Figure 6.8. Careful use of 3D. (a) The user can evolve the view from the traditional overlapping eye diagram with the metaphor of opening a drawer. (b) The interaction is carefully designed to avoid the difficulties of unconstrained 3D navigation. From [Lopez-Hernandez et al. 10, Figures 3 and 7].
 
@@ -3105,25 +3105,25 @@ Another empirical study found no benefits for 3D landscapes created to reflect t
 
 Contour plots are discussed in Section 8.4.1.
 
-![](images/9c2f7e8340f4a27ab7dd1dec16fa79048828b77cb4ca229236d16371c6054d30.jpg)  
+![](images/9c2f7e8340f4a27ab7dd1dec16fa79048828b77cb4ca229236d16371c6054d30.webp)  
 (a)
 
-![](images/7ce183a047ea8986151e4cd0085bab1715f1208efae56c37e1b5faddec4f4d5b.jpg)  
+![](images/7ce183a047ea8986151e4cd0085bab1715f1208efae56c37e1b5faddec4f4d5b.webp)  
 (b)
 
-![](images/36fb4354b4da5ce6e605aa1389cca57ed61b8c78eb922cc8b48a477f17f58714.jpg)  
+![](images/36fb4354b4da5ce6e605aa1389cca57ed61b8c78eb922cc8b48a477f17f58714.webp)  
 (c)
 
-![](images/289258db5fd1394fc028e36132ded34daad5af3cde7933119f43abb570be619e.jpg)  
+![](images/289258db5fd1394fc028e36132ded34daad5af3cde7933119f43abb570be619e.webp)  
 (d)
 
-![](images/dcd822d68676cb5aeab83f1f1c0f8c92be908bcfd168a72461fdb7575abff6e7.jpg)  
+![](images/dcd822d68676cb5aeab83f1f1c0f8c92be908bcfd168a72461fdb7575abff6e7.webp)  
 (e)
 
-![](images/88da67ce2c7fea93ca18817075bb67eda99d1c05bdaa4a6f041bf546b84901f6.jpg)  
+![](images/88da67ce2c7fea93ca18817075bb67eda99d1c05bdaa4a6f041bf546b84901f6.webp)  
 (f)
 
-![](images/739db0405d3c90aff5b7d3a9848fb3977b5c901d04758d5d74255bdc1f0bd046.jpg)  
+![](images/739db0405d3c90aff5b7d3a9848fb3977b5c901d04758d5d74255bdc1f0bd046.webp)  
 (g)   
 Figure 6.9. Point-based displays were found to outperform information landscapes in an empirical study of visual encodings for dimensionally reduced data. (a) Colored points. (b) Grayscale points. (c) Colored 2D landscape. (d) Grayscale 2D landscape. (e) Colored 3D landscape. (f) Grayscale 3D landscape. (g) Height only. From [Tory et al. 07, Figure 1].
 
@@ -3308,7 +3308,7 @@ Get It Right in Black and White A blog post on Get It Right in Black and White i
 
 Function First, Form Next A very accessible place to start for basic graphic design guidelines is The Non-Designer’s Design Book [Williams 08].
 
-![](images/0f2a37ca74ea14a2053ee2c9e122f38781ee00889d5880870c14ed2f9ed86f34.jpg)
+![](images/0f2a37ca74ea14a2053ee2c9e122f38781ee00889d5880870c14ed2f9ed86f34.webp)
 
 #
 
@@ -3316,45 +3316,45 @@ Function First, Form Next A very accessible place to start for basic graphic des
 
 # $\textcircled{ \div}$ Express Values
 
-![](images/fd2f01085622b0f8b3d2aa2d1e6dfe84cd4bd8e08e85017d477f16c83141c82a.jpg)
+![](images/fd2f01085622b0f8b3d2aa2d1e6dfe84cd4bd8e08e85017d477f16c83141c82a.webp)
 
 # $\textcircled{ \div}$ Separate, Order, Align Regions
 
-![](images/8dc432da71e506dbadbeed8476d5f2772f5e81bb409ae8b40eaf3ba80ff65314.jpg)
+![](images/8dc432da71e506dbadbeed8476d5f2772f5e81bb409ae8b40eaf3ba80ff65314.webp)
 
-![](images/5f64d2c244a0a6844b455187eb09e2341639565abd17670bb6abb1eb373bcabe.jpg)
+![](images/5f64d2c244a0a6844b455187eb09e2341639565abd17670bb6abb1eb373bcabe.webp)
 
-![](images/915f70d1a27fdcf3fcf38c29a9e9ab94ec1178746419c8b71693b086ef0c5007.jpg)  
+![](images/915f70d1a27fdcf3fcf38c29a9e9ab94ec1178746419c8b71693b086ef0c5007.webp)  
 2 Keys Matrix   
 3 Keys Volume   
 Many Keys Recursive Subdivision
 
-![](images/28bf486c82c25f1b24da66dbd727e0305cbca1366f7f3b62d3e46f9e5a9efbeb.jpg)  
+![](images/28bf486c82c25f1b24da66dbd727e0305cbca1366f7f3b62d3e46f9e5a9efbeb.webp)  
 1 Key List
 
-![](images/649d39b7436c1565ac8e5c45e04e168d5534c776774fb6fba5248c4c1864c64e.jpg)
+![](images/649d39b7436c1565ac8e5c45e04e168d5534c776774fb6fba5248c4c1864c64e.webp)
 
-![](images/3f8a7ff251b16a157ebf2f83aad080a3846c21657d275c1e304043eae78f180c.jpg)
+![](images/3f8a7ff251b16a157ebf2f83aad080a3846c21657d275c1e304043eae78f180c.webp)
 
-![](images/42041f057efcefea783790cbed70cdab1717d2f433d6284276145022f5606cdf.jpg)
+![](images/42041f057efcefea783790cbed70cdab1717d2f433d6284276145022f5606cdf.webp)
 
 # $\textcircled{2}$ Axis Orientation
 
-![](images/e8ea9972596f36d0a7408710c7a403521914ca7a4b8a1bf9b84288f663b870dc.jpg)  
+![](images/e8ea9972596f36d0a7408710c7a403521914ca7a4b8a1bf9b84288f663b870dc.webp)  
 Rectilinear
 
-![](images/acdf74b911fb0a070d6df70539835c5f08209dcdfc06cd8dc2987d3037139618.jpg)  
+![](images/acdf74b911fb0a070d6df70539835c5f08209dcdfc06cd8dc2987d3037139618.webp)  
 Parallel
 
-![](images/32841050868494441a115ee6ce639bea8d6794a6c7e78965fefff450f64df978.jpg)  
+![](images/32841050868494441a115ee6ce639bea8d6794a6c7e78965fefff450f64df978.webp)  
 Radial
 
 # $\textcircled{3}$ Layout Density
 
-![](images/7798002cc6772722d0b85664b390b44139fce101d5bb80edd7f445ca95bb5031.jpg)  
+![](images/7798002cc6772722d0b85664b390b44139fce101d5bb80edd7f445ca95bb5031.webp)  
 Dense
 
-![](images/0813c204b9f218b903cfcc91b0075a591f6e1f75753b6b5f0a4deb63c8bf05d9.jpg)  
+![](images/0813c204b9f218b903cfcc91b0075a591f6e1f75753b6b5f0a4deb63c8bf05d9.webp)  
 Space-Filling   
 Figure 7.1. Design choices for arranging tables.
 
@@ -3400,17 +3400,17 @@ Scatterplots are effective for the abstract tasks of providing overviews and cha
 
 Glyphs and views are discussed further in Section 12.4.
 
-![](images/08d4171ca2449cce16ad856196246bf5bf62fb2a903b75330c64e3ec27f6d6de.jpg)  
+![](images/08d4171ca2449cce16ad856196246bf5bf62fb2a903b75330c64e3ec27f6d6de.webp)  
 Figure 7.2. Scatterplot. Each point mark represents a country, with horizontal and vertical spatial position encoding the primary quantitative attributes of life expectancy and infant mortality. The color channel is used for the categorical country attribute and the size channel for quantitative population attribute. From [Robertson et al. 08, Figure 1c].
 
 whether the points form a line along the diagonal. The stronger the correlation, the closer the points fall along a perfect diagonal line; positive correlation is an upward slope, and negative is downward. Figure 7.2 shows a highly negatively correlated dataset.
 
 Additional transformations can also be used to shed more light on the data. Figure 7.3(a) shows the relationship between diamond price and weight. Figure 7.3(b) shows a scatterplot of derived attributes created by logarithmically scaling the originals; the transformed attributes are strongly positively correlated.
 
-![](images/7a4d97e3793773deb11225557769f71f491e5590826f3a5ea229c6395c538aac.jpg)  
+![](images/7a4d97e3793773deb11225557769f71f491e5590826f3a5ea229c6395c538aac.webp)  
 (a)
 
-![](images/1a7e3e95f41d440be8380dcd79a281a08280dcc25146568241793b0a5986659a.jpg)  
+![](images/1a7e3e95f41d440be8380dcd79a281a08280dcc25146568241793b0a5986659a.webp)  
 (b)   
 Figure 7.3. Scatterplots. (a) Original diamond price/carat data. (b) Derived log-scale attributes are highly positively correlated. From [Wickham 10, Figure 10].
 
@@ -3442,10 +3442,10 @@ The well-known bar chart idiom is a simple initial example. Figure 7.4 shows a b
 
 The scalability issues with bar charts are that there must be enough room on the screen to have white space interleaved between the bar line marks so that they are distinguishable. A bar corresponds to a level of the categorical key attribute, and it’s common to show between several and dozens of bars. In the limit, a full-screen chart with 1000 pixels could handle up to hundreds of bars, but not thousands.
 
-![](images/3dffd33aed6d6bb48bf70521de7f0b69db59aa1d355cf2e00ac1912d63d4df65.jpg)  
+![](images/3dffd33aed6d6bb48bf70521de7f0b69db59aa1d355cf2e00ac1912d63d4df65.webp)  
 (a)
 
-![](images/40debfdeceeb6ec0a42b77aa69e7609f01dd32772f6a7f6ddf7718f6bf487c22.jpg)  
+![](images/40debfdeceeb6ec0a42b77aa69e7609f01dd32772f6a7f6ddf7718f6bf487c22.webp)  
 (b)   
 15 15Figure 7.4. Bar chart. The key attribute, species, separates the marks along 10 10the horizontal spatial axis. The value attribute, weight, expresses the value with 5 5aligned vertical spatial position and line marks. (a) Marks ordered alphabetically according to species name. (b) Marks ordered by the weight attribute used for bar heights.
 
@@ -3461,7 +3461,7 @@ Figure 7.5 shows an example of a stacked bar chart used to inspect information f
 
 Each component of the bar is separately stacked, so that the full bar height shows the value for the combination of all items in the stack. The heights of the lowest bar component and the full combined bar are both easy to compare against other bars because they can be read off against the flat baseline; that is, the judgement is position against a common scale. The other components in the stack are more difficult to compare
 
-![](images/29893994d9aa1e7374d39b1b4a3d24a14b26d3d410de6153881be06449fd329a.jpg)  
+![](images/29893994d9aa1e7374d39b1b4a3d24a14b26d3d410de6153881be06449fd329a.webp)  
 Figure 7.5. Stacked bar chart. The Thor memory profiler shows cache misses stacked and colored by miss type. From [Bosch 01, Figure 4.1].
 
 Stacked bars are typically used for absolute data; relative proportions of parts to a whole can be shown with a normalized stacked bar chart, where each bar shows the same information as in an entire pie chart, as discussed in Section 7.6.3.
@@ -3476,13 +3476,13 @@ The scalability of stacked bar charts is similar to standard bar charts in terms
 
 Figure 7.6 shows a more complex generalized stacked graph display idiom with a dataset of music listening history, with one time series per artist counting the number of times their music was listened to each week [Byron and Wattenberg 08]. The streamgraph idiom shows derived geometry that emphasizes the continuity of the horizontal layers that represent the artists, rather than showing individual vertical glyphs that would emphasize listening behavior at a specific point in time.1 The derived geometry is the result of a global computation, whereas individual glyphs can be constructed using only calculations about their own local region. The streamgraph idiom emphasizes the legibility of the individual streams with a deliberately organic silhouette, rather than using the horizontal axis as
 
-![](images/60927791453e2f0fd8606a5b62047d7c8c73927dc7bc534046fe919309f7627c.jpg)  
+![](images/60927791453e2f0fd8606a5b62047d7c8c73927dc7bc534046fe919309f7627c.webp)  
 Figure 7.6. Streamgraph of music listening history. From [Byron and Wattenberg 08, Figure 0].
 
-![](images/f338c8c269b54554c3975af9ac1c75171ff9b26b8922d67de2fca022a6b81f87.jpg)  
+![](images/f338c8c269b54554c3975af9ac1c75171ff9b26b8922d67de2fca022a6b81f87.webp)  
 (a)
 
-![](images/84f2112f4beb242e7dfc2aff1a45e922fab039e7816830ac4593d4618e569d24.jpg)  
+![](images/84f2112f4beb242e7dfc2aff1a45e922fab039e7816830ac4593d4618e569d24.webp)  
 (b)   
 Figure 7.7. Streamgraphs with layers ordered by different derived attributes. (a) Volatility of artist’s popularity. (b) Onset time when artist’s music of first gained attention. From [Byron and Wattenberg 08, Figure 15].
 
@@ -3504,10 +3504,10 @@ The idiom of line charts augments dot charts with line connection marks running 
 
 <table><tr><td>Idiom</td><td>Dot Charts</td></tr><tr><td>What: Data</td><td>Table: one quantitative value attribute, one ordered key attribute.</td></tr><tr><td>How: Encode</td><td>Express value attribute with aligned vertical position and point marks. Separate/order into horizontal regions by key attribute.</td></tr></table>
 
-![](images/dbcfa39d978dab7e8c3a94235aa70cda5a7166c84ca3ace989712a52c661e2bc.jpg)  
+![](images/dbcfa39d978dab7e8c3a94235aa70cda5a7166c84ca3ace989712a52c661e2bc.webp)  
 (a)
 
-![](images/709519fce29715e5ffd6eecaefa618ad5b1ab8ce1c5358405c149e2adbdd3600.jpg)  
+![](images/709519fce29715e5ffd6eecaefa618ad5b1ab8ce1c5358405c149e2adbdd3600.webp)  
 (b)   
 Figure 7.8. Line charts versus dot charts. (a) Dot charts use a point mark to show the value for each item. (b) Line charts use point marks connected by lines between them.
 
@@ -3519,13 +3519,13 @@ Line charts should be used for ordered keys but not categorical keys. A line cha
 
 When designing a line chart, an important question to consider is its aspect ratio: the ratio of width to height of the entire plot. While many standard charting packages simply use a square or some other fixed size, in many cases this default choice hides dataset structure. The relevant perceptual principle is that our ability to judge angles is more accurate at exact diagonals than at arbitrary directions. We can easily tell that an angle like $4 3 ^ { \circ }$ is off from the exact $4 5 ^ { \circ }$ diagonal, whereas we cannot tell $2 0 ^ { \circ }$ from $2 2 ^ { \circ }$ . The
 
-![](images/f58039224a6842f0ade0445a32b18c832ccfe2a6dc0180d258429529afe078d9.jpg)
+![](images/f58039224a6842f0ade0445a32b18c832ccfe2a6dc0180d258429529afe078d9.webp)
 
-![](images/be253f1727129f6ddbdd69d45db08e2ab5d3505a0441768f6696c0de38ceccb2.jpg)
+![](images/be253f1727129f6ddbdd69d45db08e2ab5d3505a0441768f6696c0de38ceccb2.webp)
 
-![](images/149c1ef90c533d7f798115068978483912f20dda443167f31e1e08879cd3a487.jpg)
+![](images/149c1ef90c533d7f798115068978483912f20dda443167f31e1e08879cd3a487.webp)
 
-![](images/fd64d77b68689db18dafdef650bdd9a2b6ae76b18ab1e4e7a7287b722ef7fcb2.jpg)  
+![](images/fd64d77b68689db18dafdef650bdd9a2b6ae76b18ab1e4e7a7287b722ef7fcb2.webp)  
 Figure 7.9. Bar charts and line charts both encode a single attribute. Bar charts encourage discrete comparisons, while line graphs encourage trend assessments. Line charts should not be used for categorical data, as in the upper right, because their implications are misleading. After [Zacks and Tversky 99, Figure 2].
 
 idiom of banking to $4 5 ^ { \circ }$ computes the best aspect ratio for a chart in order to maximize the number of line segments that fall close to the diagonal. Multiscale banking to $4 5 ^ { \circ }$ automatically finds a set of informative aspect ratios using techniques from signal processing to analyze the line graph in the frequency domain, with the derived variable of the power spectrum. Figure 7.10 shows the classic sunspot example dataset. The aspect ratio close to 4 in Figure 7.10(a) shows the classic low-frequency oscillations in the maximum values of each sunspot cycle. The aspect ratio close to 22 in Figure 7.10(b) shows that many cycles have a steep onset followed by a more gradual decay. The blue line graphs the data itself, while the red line is the derived locally weighted regression line showing the trend.
@@ -3534,10 +3534,10 @@ idiom of banking to $4 5 ^ { \circ }$ computes the best aspect ratio for a chart
 
 Datasets with two keys are often arranged in a two-dimensional matrix alignment where one key is distributed along the rows and
 
-![](images/8b3ede83258035c6a37a39da6ef08616019b162d0517cd6ad40db35b985db183.jpg)  
+![](images/8b3ede83258035c6a37a39da6ef08616019b162d0517cd6ad40db35b985db183.webp)  
 (a)
 
-![](images/647afda8cdc8b5264c43479a074033b50dc8dd7349ac3e22fd2fbe4b68f40710.jpg)  
+![](images/647afda8cdc8b5264c43479a074033b50dc8dd7349ac3e22fd2fbe4b68f40710.webp)  
 (b)   
 Figure 7.10. Sunspot cycles. The multiscale banking to $4 5 ^ { \circ }$ idiom exploits our orientation resolution accuracy at the diagonal. (a) An aspect ratio close to 4 emphasizes low-frequency structure. (b) An aspect ratio close to 22 shows higherfrequency structure: cycle onset is mostly steeper than the decay. From [Heer and Agrawala 06, Figure 5].
 
@@ -3551,7 +3551,7 @@ The benefit of heatmaps is that visually encoding quantitative data with color u
 
 See Section 10.3 for more on colormap design and Section 10.3.4 for the particular problem of colorblind-safe design.
 
-![](images/bd59e24cd8b628cc84a35cb813f9f2740876fd30ee208432d4e1f63433788df7.jpg)  
+![](images/bd59e24cd8b628cc84a35cb813f9f2740876fd30ee208432d4e1f63433788df7.webp)  
 Figure 7.11. Cluster heatmap. A heatmap provides a compact summary of a quantitative value attribute with 2D matrix alignment by two key attributes and small area marks colored with a diverging colormap. The cluster heatmap includes trees drawn on the periphery showing how the matrix is ordered according to the derived data of hierarchical clusterings on its rows and columns.
 
 providing overviews with high information density. The area marks in a heatmap are often several pixels on a side for easy distinguishability, so a matrix of $2 0 0 ~ \times ~ 2 0 0$ with 40,000 items is easily handled. The limit is area marks of a single pixel, for a dense heatmap showing one million items. Thus, the scalability limits are hundreds of levels for each of the two categorical key attributes. In contrast, only a small number of different levels of the quantitative attribute can be distinguishable, because of the limits on color perception in small noncontiguous regions: between 3 and 11 bins.2
@@ -3623,9 +3623,9 @@ The issue of separable versus integral channels is covered in Section 5.5.3.
 
 <table><tr><td colspan="4">Table</td></tr><tr><td>Math</td><td>Physics</td><td>Dance</td><td>Drama</td></tr><tr><td>85</td><td>95</td><td>70</td><td>65</td></tr><tr><td>90</td><td>80</td><td>60</td><td>50</td></tr><tr><td>65</td><td>50</td><td>90</td><td>90</td></tr><tr><td>50</td><td>40</td><td>95</td><td>80</td></tr><tr><td>40</td><td>60</td><td>80</td><td>90</td></tr></table>
 
-![](images/d5fa3602662d72146964ad0732e3faa25a1bf81669ea5ebe1a70531e23901b9a.jpg)
+![](images/d5fa3602662d72146964ad0732e3faa25a1bf81669ea5ebe1a70531e23901b9a.webp)
 
-![](images/376437371ea3a89ac093016d0bc16f06b8f443189ee51471eedabc2d5f35a055.jpg)  
+![](images/376437371ea3a89ac093016d0bc16f06b8f443189ee51471eedabc2d5f35a055.webp)  
 Figure 7.12. Comparison of scatterplot matrix and parallel coordinate idioms for a small data table. After [McGuffin 14].
 
 upward for positive correlation and downward for negative correlation. If the attributes are not correlated, the points fall throughout the twodimensional region rather than tightly along the diagonal. With parallel coordinates, correlation is also visible, but through different kinds of visual patterns, as illustrated in Figure 7.13. If two neighboring axes have high positive correlation, the line segments are mostly parallel. If two axes have high negative correlation, the line segments mostly cross over each other at a single spot between the axes. The pattern in between uncorrelated axes is a mix of crossing angles.
@@ -3634,7 +3634,7 @@ However, in practice, SPLOMs are typically easier to use for the task of finding
 
 Parallel coordinates visually encode data using two dimensions of spatial position. Of course, any individual axis requires only one spatial dimension, but the second dimension is used to lay out multiple axes. The scalability is high in terms of the number of quantitative attribute values that can be discriminated, since the high-precision channel of planar spatial position is used. The exact number is roughly proportional to the screen space extent of the axes, in pixels. The scalability is moderate in
 
-![](images/69b32066e5bba24b99159f2f3150d39ad4ad875551f5c53abd1ab566da2edd11.jpg)  
+![](images/69b32066e5bba24b99159f2f3150d39ad4ad875551f5c53abd1ab566da2edd11.webp)  
 Figure 7.13. Parallel coordinates were designed to show correlation between neighboring axes. At the top, parallel lines show perfect positive correlation. At the bottom, all of the lines cross over each other at a single spot in between the two axes, showing perfect negative correlation. In the middle, the mix of crossings shows uncorrelated data. From [Wegman 90, Figure 3].
 
 terms of number of attributes that can be displayed: dozens is common. As the number of attributes shown increases, so does the width required to display them, so a parallel coordinates display showing many attributes is typically a wide and flat rectangle. Assuming that the axes are vertical, then the amount of vertical screen space required to distinguish position along them does not change, but the amount of horizontal screen space increases as more axes are added. One limit is that there must be enough room between the axes to discern the patterns of intersection or parallelism of the line segments that pass between them.
@@ -3645,9 +3645,9 @@ The patterns made easily visible by parallel coordinates have to do with the pai
 
 Section 13.4.1 covers scaling to larger datasets with hierarchical parallel coordinates.
 
-![](images/ac44ddf03246d63c3198a5e196c1cfabfa74ed8848d19cac313d08e2f15ed497.jpg)
+![](images/ac44ddf03246d63c3198a5e196c1cfabfa74ed8848d19cac313d08e2f15ed497.webp)
 
-![](images/cba937af3f6d9d87e5ed5fc564d5232fe105b4858126eeed69f502adcd90f2c8.jpg)  
+![](images/cba937af3f6d9d87e5ed5fc564d5232fe105b4858126eeed69f502adcd90f2c8.webp)  
   
 Figure 7.14. Parallel coordinates scale to dozens of attributes and hundreds of items, but not to thousands of items. (a) Effective use with 13 items and 7 attributes. (b) Ineffective use with over 16,000 items and 5 attributes. From [Fua et al. 99, Figures 1 and 2].
 
@@ -3670,13 +3670,13 @@ However, from a perceptual point of view, rectilinear and radial layouts are not
 
 * In mathematical language, the angle channel is nonmonotonic.
 
-![](images/c41cfd15cfcaafbfc037f3ff7517d3dbb432b9dc559ba35e8668cf113e5a5fed.jpg)  
+![](images/c41cfd15cfcaafbfc037f3ff7517d3dbb432b9dc559ba35e8668cf113e5a5fed.webp)  
 (a)
 
-![](images/1afc5997d816d40fa37e1454438ca60faeb2e51eaf0baec911bc3c431cacded4.jpg)  
+![](images/1afc5997d816d40fa37e1454438ca60faeb2e51eaf0baec911bc3c431cacded4.webp)  
 (b)
 
-![](images/a08b075fbd52439546cbd889c78ba6ebced8f632aa9b005c0c13a87c8f2e9ff6.jpg)  
+![](images/a08b075fbd52439546cbd889c78ba6ebced8f632aa9b005c0c13a87c8f2e9ff6.webp)  
 (c)   
 Figure 7.15. Layout coordinate systems. (a) Radial layouts use polar coordinates, with one spatial position and one angle channel. (b) Rectlinear layouts use two perpendicular spatial position channels. After [Wickham 10, Figure 8]. (c) Transforming rectilinear to radial layouts maps two parallel bounding lines to a point at the center and a circle at the perimeter.
 
@@ -3686,9 +3686,9 @@ may be misleading. Radial layouts imply an asymmetry of importance between the t
 
 The same five-attribute dataset is encoded with a rectilinear bar chart in Figure 7.16(a) and with a radial alternative in Figure 7.16(b). In both cases, line marks are used to encode a quantitative attribute with the length channel, and the only difference is the radial versus the rectilinear orientation of the axes.
 
-![](images/3e00cf249c52c1217625c0626f41ba223674d6bafa15fdea58c64f887296a531.jpg)
+![](images/3e00cf249c52c1217625c0626f41ba223674d6bafa15fdea58c64f887296a531.webp)
 
-![](images/3fd1c23a365217a7cf5badd1e7f77c4505f04ec4b930862ed8ba9dc07fd7226d.jpg)  
+![](images/3fd1c23a365217a7cf5badd1e7f77c4505f04ec4b930862ed8ba9dc07fd7226d.webp)  
   
 Figure 7.16. Radial versus rectilinear layouts. (a) Rectilinear bar chart. (b) Radial bar chart. After [Booshehrian et al. 11, Figure 4].
 
@@ -3698,19 +3698,19 @@ Figure 7.16. Radial versus rectilinear layouts. (a) Rectilinear bar chart. (b) R
 
 The most commonly used radial statistical graphic is the pie chart, shown in Figure 7.17(a). Pie charts encode a single attribute with area marks and the angle channel. Despite their popularity, pie charts are clearly problematic when considered according to the visual channel properties discussed in Section 5.5. Angle judgements on area marks are less accurate than length judgements on line marks. The wedges vary in width along the radial axis, from narrow near the center to wide near the outside, making the area judgement particularly difficult. Figure 7.17(b) shows a bar chart with the same data, where the perceptual judgement required to read the data is the high-accuracy position along a common scale channel. Figure 7.17(c) shows a third radial chart that is a more direct equivalent of a bar chart transformed into polar coordinates. The polar area chart also encodes a single quantitative attribute but varies the length of the wedge just as a bar chart varies the length of the bar, rather than varying the angle as in a pie chart.* The data in Figure 7.17 shows the clarity distribution of diamonds, where I1 is worst and $I F$ is best. These instances redundantly encode each mark with color for easier legibility, but these idioms could be used without color coding.
 
-![](images/4a9b7cc1c7ae1b6fe78d5ddea019cbe1750b940408fe2417ef80694f5816d98c.jpg)  
+![](images/4a9b7cc1c7ae1b6fe78d5ddea019cbe1750b940408fe2417ef80694f5816d98c.webp)  
 * Synonyms for polar area chart are rose plot and coxcomb plot; these were first popularized by Florence Nightingale in the 19th century in her analysis of Crimean war medical data.
 
-![](images/768c063235c3ba3497645982a2f3e09e7d21e1cba380a66a29c7ba15ff37840c.jpg)
+![](images/768c063235c3ba3497645982a2f3e09e7d21e1cba380a66a29c7ba15ff37840c.webp)
 
-![](images/66654b314458cda32aa2080b7120bf3605a39b1f7fc0483d5977f76caea61eca.jpg)  
+![](images/66654b314458cda32aa2080b7120bf3605a39b1f7fc0483d5977f76caea61eca.webp)  
 Figure 7.17. Pie chart versus bar chart accuracy. (a) Pie charts require angle and area judgements. (b) Bar charts require only high-accuracy length judgements for individual items. (c) Polar area charts are a more direct equivalent of bar charts, where the length of each wedge varies like the length of each bar. From [Wickham 10, Figures 15 and 16].
 
-![](images/b0db9051cddd8e14fe9cf1302bbb6dee419132a93a924902f1bdf1cc8abbf81d.jpg)
+![](images/b0db9051cddd8e14fe9cf1302bbb6dee419132a93a924902f1bdf1cc8abbf81d.webp)
 
-![](images/db8ef50380ef938ba17e116b126ad428c6f05c94717e638cc095e3211fe587f9.jpg)
+![](images/db8ef50380ef938ba17e116b126ad428c6f05c94717e638cc095e3211fe587f9.webp)
 
-![](images/e1063310a2fafec78e1437005973fc580616c36bab3b4eab3e09b3bc4a95bb98.jpg)  
+![](images/e1063310a2fafec78e1437005973fc580616c36bab3b4eab3e09b3bc4a95bb98.webp)  
 Figure 7.18. Relative contributions of parts to a whole. (a) A single pie chart shows the relative contributions of parts to a whole, such as percentages, using area judgements. (b) Each bar in a normalized stacked bar chart also shows the relative contributions of parts to a whole, with a higher-accuracy length encoding. (c) A stacked bar chart shows the absolute counts in each bar, in contrast to the percentages when each bar is normalized to the same vertical length. From http://bl.ocks.org/mbostock/3887235, http://bl.ocks.org/mbostock/3886208, http://bl.ocks. org/mbostock/3886394.
 
 The most useful property of pie charts is that they show the relative contribution of parts to a whole. The sum of the wedge angles must add up to the $3 6 0 ^ { \circ }$ of a full circle, matching normalized data such as percentages where the parts must add up to $1 0 0 \%$ . However, this property is not unique to pie charts; a single bar in a normalized stacked bar chart can also be used to show this property with the more accurate channel of length judgements. A stacked bar chart uses a composite glyph made of stacking multiple sub-bars of different colors on top of each other; a normalized stacked bar chart stretches each of these bars to the maximum possible length, showing percentages rather than absolute counts. Only the lowest sub-bar in a stacked bar chart is aligned with the others in its category, allowing the very highest accuracy channel of position with respect to a common frame to be used. The other sub-bars use unaligned position, a channel that is less accurate than aligned position, but still more accurate than angle comparisons.
@@ -3727,10 +3727,10 @@ Figure 7.19 compares rectilinear and radial layouts for 12 iconic time-series da
 
 A first empirical study on radial versus rectilinear grid layouts by Diehl et al. focused on the abstract task of memorizing positions of objects for a few seconds [Diehl et al. 10]. They compared performance in terms of accuracy and speed for rectilinear grids of rows and columns versus radial grids of sectors and rows. (The study did not investigate the effect of periodicity.) In general, rectilinear
 
-![](images/31905a549e7f36254dc13272f815d7e8ee3c28cda4132bd4b657f065e85ecce0.jpg)  
+![](images/31905a549e7f36254dc13272f815d7e8ee3c28cda4132bd4b657f065e85ecce0.webp)  
 (a)
 
-![](images/e128a5c40c4bfdae53582fcd36b94d4e5e4aa888e981a6c1dac269092af65644.jpg)  
+![](images/e128a5c40c4bfdae53582fcd36b94d4e5e4aa888e981a6c1dac269092af65644.webp)  
 (b)   
 Figure 7.19. Glyphmaps. (a) Rectilinear layouts are more effective at showing the differences between linear and nonlinear trends. (b) Radial layouts are more effective at showing cyclic patterns. From [Wickham et al. 12, Figure 3].
 
@@ -3756,7 +3756,7 @@ Most of the screen is devoted to a large and dense overview of source code using
 
 The dataset used by Tarantula is an interesting complex combination of the software source code, the test results, and derived data. The original dataset is the software source code itself. Software code is highly structured text that is divided into numbered lines and has multiscale hierarchical structure with divisions into units such as packages, files, and methods. Most complex tasks in the software engineering domain require reading snippets of code line by line in the order that they were written by the programmer as a subtask, so changing or ignoring the order of lines within a method would not be an appropriate transformation. However, it’s common with software engineering tasks that only a small number of the many units in a software project need to be read at any given time.
 
-![](images/833ed4675dbfd8e6f228212bec9708f3e4d0e42d8118674250703558ab73e0b6.jpg)  
+![](images/833ed4675dbfd8e6f228212bec9708f3e4d0e42d8118674250703558ab73e0b6.webp)  
 Figure 7.20. Tarantula shows a dense overview of source code with lines color coded by execution status of a software test suite. From [Jones et al. 02, Figure 4].
 
 The design choice of a dense overview to provide orientation and a detail view where a small amount of text is shown legibly is thus reasonable.
@@ -3807,7 +3807,7 @@ Radial Layouts Radial layouts were characterized through empirical user studies 
 
 Dense Layouts Dense layouts have been explored extensively for many datatypes [Keim 00]. The SeeSoft system was an early dense layout for text and source code [Eick et al. 92]; Tarantula is a later system using that design choice [Jones et al. 02].
 
-![](images/a1799096d720a07cf9320c5b8f0ce17daa5bc4e9349f64988c3f938dbe2b6553.jpg)
+![](images/a1799096d720a07cf9320c5b8f0ce17daa5bc4e9349f64988c3f938dbe2b6553.webp)
 
 #
 
@@ -3834,9 +3834,9 @@ Geometric (sparse seeds)
 Tex tures (dense seeds)   
 Features (globally derived)
 
-![](images/b40eb504efe1f1e11ae7bf19dce5d2e90bea8df77ad35daf33a600fa2ad83fa0.jpg)
+![](images/b40eb504efe1f1e11ae7bf19dce5d2e90bea8df77ad35daf33a600fa2ad83fa0.webp)
 
-![](images/cc19596cc438d0966049bcddf050c1f2bb9fba3ba02a6b070cea57c7fa208397.jpg)  
+![](images/cc19596cc438d0966049bcddf050c1f2bb9fba3ba02a6b070cea57c7fa208397.webp)  
 Figure 8.1. Design choices for using given spatial data: geometry or spatial fields.
 
 r↑↑↑ス  
@@ -3883,7 +3883,7 @@ Figure 8.2 shows an example of US unemployment rates from 2008 with a segmented 
 
 The problem of spatial aggregation and its relationship to region boundaries is covered in Section 13.4.2.
 
-![](images/4ac5f11c3fe0ac72695d21a390df6093e1611f592406d7f4f9d1aa52ec589b72.jpg)  
+![](images/4ac5f11c3fe0ac72695d21a390df6093e1611f592406d7f4f9d1aa52ec589b72.webp)  
 Figure 8.2. Choropleth map showing regions as area marks using given geometry, where a quantitative attribute is encoded with color. From http://bl.ocks.org/ mbostock/4060606.
 
 <table><tr><td>Idiom</td><td>Choropleth Map</td></tr><tr><td>What: Data</td><td>Geographic geometry data. Table with one quantitative attribute per region.</td></tr><tr><td>How: Encode</td><td>Space: use given geometry for area mark boundaries. Color: sequential segmented colormap.</td></tr></table>
@@ -3898,13 +3898,13 @@ A scalar spatial field has a single value associated with each spatially defined
 
 There are three major families of idioms for visually encoding scalar fields: slicing, as shown in Figure 8.3(a); isocontours, as in shown Figure 8.3(b); and direct volume rendering, as shown in Figure 8.3(c). With the isocontours idiom, the derived data of lower-dimensional surface geometry is computed and then is shown using standard computer graphics techniques: typically 2D isosurfaces for a 3D field, or 1D isolines for a 2D field. With the di-
 
-![](images/b983fe60e4b2191e6b081fcf9e09e3b4d05621ed1237b2eaddab389325281fd1.jpg)  
+![](images/b983fe60e4b2191e6b081fcf9e09e3b4d05621ed1237b2eaddab389325281fd1.webp)  
 (a)
 
-![](images/df4295cb085a03f842ae1badd45b4ec6c0cc04735603f0947aa833944de58fe9.jpg)  
+![](images/df4295cb085a03f842ae1badd45b4ec6c0cc04735603f0947aa833944de58fe9.webp)  
 (b)
 
-![](images/5942641190cbd9b380d245623240057df0159a24cb81462ff2062b68c149f688.jpg)  
+![](images/5942641190cbd9b380d245623240057df0159a24cb81462ff2062b68c149f688.webp)  
 (c)   
 Figure 8.3. Spatial scalar fields shown with three different idioms. (a) A single 2D slice of a turbine blade dataset. (b) Multiple semitransparent isosurfaces of a 3D tooth dataset. (c) Direct volume rendering of the entire 3D turbine dataset. From [Kniss 02, Figures 1.2 and 2.1b].
 
@@ -3925,7 +3925,7 @@ Topographic terrain maps are a familiar example of isolines in widespread use by
 
 <table><tr><td>Idiom</td><td>Topographic Terrain Map</td></tr><tr><td>What: Data</td><td>2D spatial field; geographic data.</td></tr><tr><td>What: Derived</td><td>Geometry: set of isolines computed from field.</td></tr><tr><td>How: Encode</td><td>Use given geographic data geometry of points, lines, and region marks. Use derived geometry as line marks (blue).</td></tr><tr><td>Why: Tasks</td><td>Query shape.</td></tr><tr><td>Scale</td><td>Dozens of contour levels.</td></tr></table>
 
-![](images/246c9d1919e94106997d61eee7755c95a1e2cdd49c9f9c6e5442ccb2a80ca1f8.jpg)  
+![](images/246c9d1919e94106997d61eee7755c95a1e2cdd49c9f9c6e5442ccb2a80ca1f8.webp)  
 Figure 8.4. Topographic terrain map, with isolines in blue. From https://data.linz.govt.nz/layer/768-nz-mainland -contours-topo-150k.
 
 Spatial navigation is discussed further in Section 11.5.
@@ -3942,10 +3942,10 @@ The flexible isosurfaces idiom uses one more level of derived data, the simplifi
 
 Filtering is discussed in Section 13.3.2 and coordinating multiple views is discussed in Section 12.3.
 
-![](images/850d5b03e6819e00c1647d88fc8f2b7b5c6dd9734ca9e463083faf86edfa06b7.jpg)  
+![](images/850d5b03e6819e00c1647d88fc8f2b7b5c6dd9734ca9e463083faf86edfa06b7.webp)  
 Figure 8.5. A full contour tree with over 1.5 million edges does not help the user explore isosurfaces. From [Carr et al. 04, Figure 1].
 
-![](images/584d9d8dd93473b7dd0735b7772059239694daa554b7ad560752f06129e5e7e4.jpg)  
+![](images/584d9d8dd93473b7dd0735b7772059239694daa554b7ad560752f06129e5e7e4.webp)  
 Figure 8.6. The flexible isosurfaces idiom uses the simplified contour tree of under 100 edges to help users identify meaningful structure. From [Carr et al. 04, Figure 1].
 
 <table><tr><td>Idiom</td><td>Flexible Isosurfaces</td></tr><tr><td>What: Data</td><td>Spatial field.</td></tr><tr><td>What: Derived</td><td>Geometry: surfaces. Tree: simplified contour tree.</td></tr><tr><td>How: Encode</td><td>Surfaces: use given. Tree: line marks, vertical spa-tial position encodes isovalue.</td></tr><tr><td>Why: Tasks</td><td>Query shape.</td></tr><tr><td>Scale</td><td>One dozen contour levels.</td></tr></table>
@@ -3966,17 +3966,17 @@ Cutting planes are covered in Section 11.6.2.
 
 <table><tr><td>Idiom</td><td>Multidimensional Transfer Functions</td></tr><tr><td>What: Data</td><td>3D spatial field.</td></tr><tr><td>What: Derived</td><td>3D spatial field: gradient of original field.</td></tr><tr><td>What: Derived</td><td>Table: two key attributes, values binned from min to max for both data and derived data. One derived quantitative value attribute (item count per bin).</td></tr><tr><td>How: Encode</td><td>3D view: use given spatial field data, color and opacity from multidimensional transfer function. Joint histogram view: area marks in 2D matrix alignment, grayscale sequential colormap.</td></tr></table>
 
-![](images/911fa6d657381ca69f52c03da3d557cc012996d869457ab105016b16796459df.jpg)  
+![](images/911fa6d657381ca69f52c03da3d557cc012996d869457ab105016b16796459df.webp)  
 (a)
 
-![](images/3716d163c9fc73fe4a7f5b6d3f362379b1d6f80ac6fd40410155d79d29eae77c.jpg)  
+![](images/3716d163c9fc73fe4a7f5b6d3f362379b1d6f80ac6fd40410155d79d29eae77c.webp)  
 (b)
 
-![](images/7d13d0cd37f3c94f17f5fe622c1aad373c06531d77f132a4c1fce746e6eafec0.jpg)  
+![](images/7d13d0cd37f3c94f17f5fe622c1aad373c06531d77f132a4c1fce746e6eafec0.webp)  
 (c)   
 Figure 8.6. Simian allows users to construct multidimensional transfer functions for direct volume rendering using a derived space. (a) The standard 1D histogram can show the three basic materials: (A) air, (B) soft tissue, and (C) bone. (b) The full 2D derived space allows material boundaries to be distinguished as well. (c) Volume rendering of head dataset using the resulting 2D transfer function, showing material boundaries of (D) air–tissue, (E) tissue– bone, and (F) air–bone. From [Kniss et al. 05, Figure 9.1].
 
-![](images/f5e4ddda684bfad6016bccb13424c8c5c765fab251975702178444a9a51d5c25.jpg)  
+![](images/f5e4ddda684bfad6016bccb13424c8c5c765fab251975702178444a9a51d5c25.webp)  
 Figure 8.7. The main types of critical points in a flow field: saddle, circulating sinks, circulating sources, noncirculating sinks, and noncirculating sources. From [Tricoche et al. 02, Figure 1].
 
 # 8.5 Vector Fields: Multiple Values
@@ -3989,20 +3989,20 @@ There are four major families of vector field spatial visual encoding idioms. Th
 
 * In flow vis, a source or sink with no circulation around it is called a node, and one with circulation is called a focus. I avoid these overloaded terms; in this book, I reserve node and link for network data and focus+context for the family of idioms that embed such information together in a single view.
 
-![](images/bb33a6e18361125cd65dbb471a33606fbfd6bce28b79c40db73145e67bd38fcb.jpg)  
+![](images/bb33a6e18361125cd65dbb471a33606fbfd6bce28b79c40db73145e67bd38fcb.webp)  
 (a)
 
-![](images/74ebcba27f0af62e10e692fe4bd00a22525779dfee057f74c64c0896d42bceca.jpg)  
+![](images/74ebcba27f0af62e10e692fe4bd00a22525779dfee057f74c64c0896d42bceca.webp)  
 (b)
 
-![](images/3dbe7101106dd562a278f8a2aea507ca4b88b17415f6ffdb6ccd3ae2d7282ce8.jpg)  
+![](images/3dbe7101106dd562a278f8a2aea507ca4b88b17415f6ffdb6ccd3ae2d7282ce8.webp)  
 (c)
 
-![](images/7d56e899975f5b17587174eabc1329cb3bbc96118a4a5ffd9d90ac6e4f7238ce.jpg)
+![](images/7d56e899975f5b17587174eabc1329cb3bbc96118a4a5ffd9d90ac6e4f7238ce.webp)
 
-![](images/5205c13ec05e141687ef1a4d6d1146ff15c817a509461116c6cedc552ab5056b.jpg)
+![](images/5205c13ec05e141687ef1a4d6d1146ff15c817a509461116c6cedc552ab5056b.webp)
 
-![](images/fc6bd61d22c164a8cede9eef78b9414fa3e8df7303bd7f6db78339b895c1b575.jpg)  
+![](images/fc6bd61d22c164a8cede9eef78b9414fa3e8df7303bd7f6db78339b895c1b575.webp)  
 (f)   
 Figure 8.8. An empirical study compared human response to six different 2D flow vis idioms. (a) arrow glyphs on a regular grid. (b) arrow glyphs on a jittered grid. (c) triangular wedge glyphs inspired by oil painting strokes. (d) dense texturebased Line Integral Convolution (LIC). (e) curved arrow glyphs with image-guided streamline seeding. (f) curved arrow glyphs with regular grid streamline seeding. From [Laidlaw et al. 05, Figure 1].
 
@@ -4028,10 +4028,10 @@ The geometric flow idioms are based on intuitions from physical experiments that
 
 Figure 8.9 shows a seeding strategy for streamlines and pathlines based on a derived similarity measure, proposed by McLoughlin et al. [McLoughlin et al. 13]. First, the derived geometry data of streamlines or pathlines is computed from the original 3D vector field. A set of derived attributes is computed for each streamline or pathline: curvature, namely, the curve’s deviation from a straight line; torsion, namely, how much the curve bends
 
-![](images/508f3d61fd5e113f033bb33f758c32c5c2b2d3c3dc469ea8255be6129cafe430.jpg)  
+![](images/508f3d61fd5e113f033bb33f758c32c5c2b2d3c3dc469ea8255be6129cafe430.webp)  
 (a)
 
-![](images/48a581e3721adbaf1cab555020b4e2d28938ef165b95ab9c6ad208aba59c09e6.jpg)  
+![](images/48a581e3721adbaf1cab555020b4e2d28938ef165b95ab9c6ad208aba59c09e6.webp)  
 (b)   
 Figure 8.9. Geometric flow vis idioms showing a sparse set of particle trajectories, with seeding and coloring according to similarity. (a) Streamlines: all clusters equally opaque; purple cluster emphasized; red cluster emphasized. (b) Pathlines, colored by three clusters. From [McLoughlin et al. 13, Figures 7 and 11c].
 
@@ -4068,10 +4068,10 @@ One major family of idioms for visually encoding tensor fields is tensor glyphs,
 
 Tensor quantities can be naturally decomposed into orientation and shape information; these quantities can be visually encoded with a 3D glyph.4 A
 
-![](images/3863efe7c9d09974572738a8780780bcfdfaa80a1c4f7689c981cba0beb2f89f.jpg)  
+![](images/3863efe7c9d09974572738a8780780bcfdfaa80a1c4f7689c981cba0beb2f89f.webp)  
 (a)
 
-![](images/a656cb2eec9b0b72afee039efdbdd33c1e43c1b6c762ae5bab0dd4e84c97c3ce.jpg)  
+![](images/a656cb2eec9b0b72afee039efdbdd33c1e43c1b6c762ae5bab0dd4e84c97c3ce.webp)  
 (b)   
 2D diffusion illustrated with ink and paper. (a) Isotropic Kleenex. Figure 8.10.(b) Anisotropic newspaper.
 
@@ -4079,20 +4079,20 @@ shape may be , where each direction is the same, or , isotropic anisotropicwhere
 
 Figure 8.11 shows the three basic shapes that are possible in 3D. The fully isotropic case is a perfect sphere, as in Figure 8.11(a); the partially anisotropic planar case is a sphere flattened in only one direction, as in
 
-![](images/246a024398e085fe447133a1d0114f10520989da431c3011a9db7f1bd54be482.jpg)  
+![](images/246a024398e085fe447133a1d0114f10520989da431c3011a9db7f1bd54be482.webp)  
 (a)
 
-![](images/157b132b3c5044c9d64e6b37a41649994e67990076e3c9960abd839a760568e4.jpg)  
+![](images/157b132b3c5044c9d64e6b37a41649994e67990076e3c9960abd839a760568e4.webp)  
 (b)
 
-![](images/81dba164eb8e358da2956fa2835672b3aefdcb28442598ae6dc832cc84a8ad7e.jpg)  
+![](images/81dba164eb8e358da2956fa2835672b3aefdcb28442598ae6dc832cc84a8ad7e.webp)  
 (c)   
 Ellipsoid glyphs can show three basic shapes. (a) Isotropic: sphere. Figure 8.11.(b) Partially anisotropic: planar. (c) Fully anisotropic: linear. From [Kindlmann 04, Figure 1].
 
-![](images/a0bf13838f65b6a72423d9d9a87b027af16f03a85a3b3130f1984be5f5b11b73.jpg)  
+![](images/a0bf13838f65b6a72423d9d9a87b027af16f03a85a3b3130f1984be5f5b11b73.webp)  
 (a)
 
-![](images/0e0e8563eddd65ad2bea5a11378661a207020fbf5088d6154eb9d34e7fb892e9.jpg)  
+![](images/0e0e8563eddd65ad2bea5a11378661a207020fbf5088d6154eb9d34e7fb892e9.webp)  
 (b)   
 Figure 8.12. Ellipsoid glyphs show shape and orientation of tensors at each cell in a field. (a) 2D slice. (b) 3D field, with isotropic glyphs filtered out. From [Kindlmann 04, Figures 10a and 11a].
 
@@ -4122,7 +4122,7 @@ Vector Fields An overview chapter provides a good introduction to flow vis [Weis
 
 Tensor Fields The edited collection Visualization and Processing of Tensor Fields contains 25 chapters on different aspects of tensor field vis, providing a thorough overview [Weickert and Hagen 06]. One of these chapters is a good introduction to diffusion tensor imaging in particular [Vilanova et al. 06], including a comparison between ellipsoid tensor glyphs and superquadric tensor glyphs [Kindlmann 04].
 
-![](images/ecb923eb3bf6d00f6d9018daf226dff72711890b4cde9f69106e6871c643f40e.jpg)
+![](images/ecb923eb3bf6d00f6d9018daf226dff72711890b4cde9f69106e6871c643f40e.webp)
 
 #
 
@@ -4130,39 +4130,39 @@ Tensor Fields The edited collection Visualization and Processing of Tensor Field
 
 $\textcircled{3}$ Node –Link Diagrams Connec tion Marks
 
-![](images/b6f7f04b1a5e74e0aae2b00b6f6359f41b7956e8a0e3e8eaaf04fc9ecb121fb5.jpg)
+![](images/b6f7f04b1a5e74e0aae2b00b6f6359f41b7956e8a0e3e8eaaf04fc9ecb121fb5.webp)
 
 NE T WORKS
 
-![](images/c67edbadab73de1370849a2612ec40a0252ee0054d3c2b8caa035be966422e53.jpg)
+![](images/c67edbadab73de1370849a2612ec40a0252ee0054d3c2b8caa035be966422e53.webp)
 
-![](images/7fa3c3d40ff67eaef8d5e0969d11670d905b8a91b1381380f744649540bd8703.jpg)
+![](images/7fa3c3d40ff67eaef8d5e0969d11670d905b8a91b1381380f744649540bd8703.webp)
 
 $\circled{ \div}$ Adjacenc y Matrix Derived Table
 
-![](images/9604ebe1cac78dcab8c65ecbe876bcde6efe84dcc399f5a169ab62685f644a09.jpg)
+![](images/9604ebe1cac78dcab8c65ecbe876bcde6efe84dcc399f5a169ab62685f644a09.webp)
 
 NE T WORKS
 
-![](images/fddcadd884e9e1d53f1051ef2cf5acde0b93fa5c622787245cfcde4f4772cd8e.jpg)
+![](images/fddcadd884e9e1d53f1051ef2cf5acde0b93fa5c622787245cfcde4f4772cd8e.webp)
 
 TREES
 
-![](images/9328358859de84d18695a40f233a900e70faa0d1476b46ba2ed1c9233489b950.jpg)
+![](images/9328358859de84d18695a40f233a900e70faa0d1476b46ba2ed1c9233489b950.webp)
 
 $\circled{ \div}$ Enclosure
 
 Containment Marks
 
-![](images/c4311510efa39dddf6325ffbbc420859c3fb08d40dde6e8183580dd7c7b85b0d.jpg)
+![](images/c4311510efa39dddf6325ffbbc420859c3fb08d40dde6e8183580dd7c7b85b0d.webp)
 
 NE T WORKS
 
-![](images/03cf27ba9b4d54954364af78f56c5eae2950298d89ef605ea5252cf54d22c3d9.jpg)
+![](images/03cf27ba9b4d54954364af78f56c5eae2950298d89ef605ea5252cf54d22c3d9.webp)
 
 TREES
 
-![](images/b11ecbd440d3588bf86d489df0b897aeaaa4c14ce90f082906ebb6c4a70e0eb3.jpg)  
+![](images/b11ecbd440d3588bf86d489df0b897aeaaa4c14ce90f082906ebb6c4a70e0eb3.webp)  
 Figure 9.1. Design choices for arranging networks.
 
 # Chapter 9
@@ -4179,10 +4179,10 @@ The most common visual encoding idiom for tree and network data is with node–l
 
 Figure 9.2(b) shows a small tree of a few hundred nodes laid out with a spline radial layout. This layout uses essentially the same algorithm for density without overlap, but the visual encoding is radial rather than rectilinear: the depth of the tree is encoded as distance away from the center of the circle. Also, the links of
 
-![](images/40138097e6d8b4b27f3aaee2cd7ed5aafb1fbb5fa08401062b672c42316f62c3.jpg)  
+![](images/40138097e6d8b4b27f3aaee2cd7ed5aafb1fbb5fa08401062b672c42316f62c3.webp)  
 (a)
 
-![](images/962029e55e8541718a7be3938fb57acd0ab80ca2cb8dd9aca5826b31b48cf5b4.jpg)  
+![](images/962029e55e8541718a7be3938fb57acd0ab80ca2cb8dd9aca5826b31b48cf5b4.webp)  
 (b)   
 Figure 9.2. Node–link layouts of small trees. (a) Triangular vertical for tiny tree. From [Buchheim et al. 02, Figure 2d]. (b) Spline radial layout for small tree. From http://mbostock.github.com/d3/ex/tree.html.
 
@@ -4190,10 +4190,10 @@ the graph are drawn as smoothly curving splines rather than as straight lines.
 
 Figure 9.3(a) shows a larger tree of 5161 nodes laid out as a rectangular horizontal node–link diagram, with the root on the left and the leaves stretching out to the right. The edges are colored with a purple to orange continuous colormap according to the Strahler centrality metric discussed in Section 3.7.2. The spatial layout is fundamentally the same as the triangular one, but from this zoomed-out position the edges within a subtree form a single perceptual block where the spacing in between them cannot be seen. Figure 9.3(b) shows the same tree laid out with the BubbleTree algorithm [Grivet et al. 06]. BubbleTree is a radial rather than rectilinear approach where subtrees are laid out in full circles rather than partial circular arcs. Spatial position does encode information about tree depth, but as relative distances to the center of the parent rather than as absolute distances in screen space.
 
-![](images/488e4ae12b2d2ed02f6a23643b63be87d032fcd43db2f6ed52ae3940ee8f70d8.jpg)  
+![](images/488e4ae12b2d2ed02f6a23643b63be87d032fcd43db2f6ed52ae3940ee8f70d8.webp)  
 (a)
 
-![](images/a0fdf7038a814d15b182b585dfa480379fb868bf31473bd67e8c059d1bc87562.jpg)  
+![](images/a0fdf7038a814d15b182b585dfa480379fb868bf31473bd67e8c059d1bc87562.webp)  
 (b)   
 Figure 9.3. Two layouts of a 5161-node tree. (a) Rectangular horizontal node–link layout. (b) BubbleTree node–link layout.
 
@@ -4215,10 +4215,10 @@ Force-directed network layout idioms typically do not directly use spatial posit
 
 Analyzing the visual encoding created by force-directed placement is somewhat subtle. Spatial position does not directly encode any attributes of either nodes or links; the placement algorithm uses it indirectly. A tightly interconnected group of nodes with many links between them will often tend to form a visual clump, so spatial proximity does indicate grouping through a strong perceptual cue. However, some visual clumps may simply be artifacts: nodes that have been pushed near each other because they were repelled from elsewhere, not because they are closely connected in the network. Thus, proximity is sometimes meaningful but sometimes arbitrary; this ambiguity can mislead the user. This situation is a specific instance of the general problem that occurs in all idioms where spatial position is implicitly chosen rather than deliberately used to encode information.
 
-![](images/67b56107f23eb11c54a6eb1496732d43c77fa7ed063a93b396039ab8173dd33e.jpg)  
+![](images/67b56107f23eb11c54a6eb1496732d43c77fa7ed063a93b396039ab8173dd33e.webp)  
 (a)
 
-![](images/7c8d9dd4e1f993e65f6bb779565ebc9b565c14da1f20844a97cbe258d885a8e6.jpg)  
+![](images/7c8d9dd4e1f993e65f6bb779565ebc9b565c14da1f20844a97cbe258d885a8e6.webp)  
 (b)   
 Figure 9.4. Node–link layouts of small networks. (a) Force-directed placement of small network of 75 nodes, with size coding for link attributes. (b) Larger network, with size coding for node attributes. From http://bl.ocks.org/ mbostock/4062045 and http://bl.ocks.org/1062288.
 
@@ -4243,10 +4243,10 @@ layout with the more and more complex versions, both the speed and quality of th
 
 Figure 9.5(a) shows a network of 7220 nodes and 13,800 edges using the multilevel scalable force-directed placement (sfdp) algorithm $[ \mathrm { H u } ~ 0 5 ]$ , where the edges are colored by length. Significant cluster structure is indeed visible in the layout, where the dense clusters with short orange and yellow edges can be distinguished from the long blue and green edges between them. However, even these sophisticated idioms hit their limits with sufficiently large networks and fall prey to the hairball problem. Figure 9.5(b) shows a network of 26,028 nodes and 100,290 edges, where the sfdp layout does not show much visible structure. The enormous number of overlapping lines leads to overwhelming visual clutter caused by occlusion.
 
-![](images/201f411f5ad8f4f07c20fede300241e0257e49f1079fb49da7aa1c298e4f6c8c.jpg)  
+![](images/201f411f5ad8f4f07c20fede300241e0257e49f1079fb49da7aa1c298e4f6c8c.webp)  
 (a)
 
-![](images/62e78393203182b4d2369bd894da2b1e115d0c1fe09ec04e4ba9a037a7f60ca6.jpg)  
+![](images/62e78393203182b4d2369bd894da2b1e115d0c1fe09ec04e4ba9a037a7f60ca6.webp)  
   
 Figure 9.5. Multilevel graph drawing with sfdp [Hu 05]. (a) Cluster structure is visible for a large network of 7220 nodes and 13,800 edges. (b) A huge graph of 26,028 nodes and 100,290 edges is a “hairball” without much visible structure. From [Hu 14].
 
@@ -4266,13 +4266,13 @@ For undirected networks where links are symmetric, only half of the matrix needs
 
 Adjacency matrix views use 2D alignment, just like the tabular matrix views covered in Section7.5.2.
 
-![](images/ab918f43b2a8a3a98c995f65ac269275fa11aefc79de9683e51e99012a43c72e.jpg)  
+![](images/ab918f43b2a8a3a98c995f65ac269275fa11aefc79de9683e51e99012a43c72e.webp)  
 (a)
 
-![](images/ec80f2e2bcf3b1fd4209df928c8d74b2172544f4bb1e6dab047425fa3ca45571.jpg)  
+![](images/ec80f2e2bcf3b1fd4209df928c8d74b2172544f4bb1e6dab047425fa3ca45571.webp)  
 (b)
 
-![](images/f9959abcfd4b3f9375e04b099ce2df1ccff25e74d65a97ffef0310ce45899be7.jpg)  
+![](images/f9959abcfd4b3f9375e04b099ce2df1ccff25e74d65a97ffef0310ce45899be7.webp)  
 (c)   
 Figure 9.6. Comparing node–link matrix and matrix views of a network. (a) Node–link and matrix views of small network. (b) Matrix view of larger network. (c) Node–link view of larger network. From [Gehlenborg and Wong 12, Figures 1 and 2].
 
@@ -4304,7 +4304,7 @@ One major weakness of matrix views is unfamiliarity: most users are able to easi
 
 Reordering is discussed further in Section 7.5.
 
-![](images/cd08fc961b72b5c4be222b94b0f33261fcfc066a85fd325db63a6826b017ed00.jpg)  
+![](images/cd08fc961b72b5c4be222b94b0f33261fcfc066a85fd325db63a6826b017ed00.webp)  
 Figure 9.7. Characteristic patterns in matrix views and node–link views: both can show cliques and clusters clearly. From [McGuffin 12, Figure 6].
 
 structure of node subsets where edges connect each node in one subset with one in another is salient, but different, in both views. The degree of a node, namely, the number of edges that connect to it, can be found by counting the number of filled-in cells in a row or column.
@@ -4323,7 +4323,7 @@ Containment marks are very effective at showing complete information about hiera
 
 The idiom of treemaps is an alternative to node–link tree drawings, where the hierarchical relationships are shown with containment rather than connection. All of the children of a tree node are enclosed within the area allocated that node, creating a nested layout. The size of the nodes is mapped to some attribute of the node. Figure 9.8 is a treemap view of the
 
-![](images/276175e811b4fba43da756768954eb6a289ce2fb23498ed806e4eeaefcd3a91b.jpg)  
+![](images/276175e811b4fba43da756768954eb6a289ce2fb23498ed806e4eeaefcd3a91b.webp)  
 Figure 9.8. Treemap layout showing hierarchical structure with containment rather than connection, in contrast to the node–link diagrams of the same 5161-node tree in Figure 9.3.
 
 same dataset as Figure 9.3, a 5161-node computer file system. Here, node size encodes file size. Containment marks are not as effective as the pairwise connection marks for tasks focused on topological structure, such as tracing paths through the tree, but they shine for tasks that pertain to understanding attribute values at the leaves of the tree. They are often used when hierarchies are shallow rather than deep. Treemaps are very effective for spotting the outliers of very large attribute values, in this case large files.
@@ -4334,23 +4334,23 @@ Figure 9.9 shows seven different visual encoding idioms for tree data. Two of th
 
 Although connection and containment marks that depict the link structure of the network explicitly are very common ways to encode networks, they are not the only way. In most of the trees in Figure 9.9, the spatial position channel is explicitly used to show
 
-![](images/bf47d383fdeee22ad77fe9c4943bf833e35f51a95e75e16b560d1f5f34548d69.jpg)  
+![](images/bf47d383fdeee22ad77fe9c4943bf833e35f51a95e75e16b560d1f5f34548d69.webp)  
 (a)
 
-![](images/589d9e59ab5573e672490c0df0cb15aee9daa50d570b96cd3b500b828c09f575.jpg)  
+![](images/589d9e59ab5573e672490c0df0cb15aee9daa50d570b96cd3b500b828c09f575.webp)  
 (b)
 
-![](images/d780f4359bdc84aa6ed0bc290055da574a46382b2da4995a776493bb7df3b0e5.jpg)  
+![](images/d780f4359bdc84aa6ed0bc290055da574a46382b2da4995a776493bb7df3b0e5.webp)  
 (c)
 
-![](images/956a708f9474b5a48ad9f3043bf1db040e2436440cda2a985356b21e870c756a.jpg)  
+![](images/956a708f9474b5a48ad9f3043bf1db040e2436440cda2a985356b21e870c756a.webp)  
 (d)
 
-![](images/cda5dc6b7ac46de06d4132f688937ac97bf473d122e7f69f9ff94504f1ba18a3.jpg)
+![](images/cda5dc6b7ac46de06d4132f688937ac97bf473d122e7f69f9ff94504f1ba18a3.webp)
 
-![](images/bd0d812fd2507ec5c6a73bbc94e3a86034e2243512268a0893cb1dd159761f03.jpg)
+![](images/bd0d812fd2507ec5c6a73bbc94e3a86034e2243512268a0893cb1dd159761f03.webp)
 
-![](images/52c73367f6e779b050ddf924f941e45365e395f941403c237f986365289d4ccb.jpg)  
+![](images/52c73367f6e779b050ddf924f941e45365e395f941403c237f986365289d4ccb.webp)  
 (g)   
 Figure 9.9. Seven visual encoding idioms showing the same tree dataset, using different combinations of visual channels. (a) Rectilinear vertical node–link, using connection to show link relationships, with vertical spatial position showing tree depth and horizontal spatial position showing sibling order. (b) Icicle, with vertical spatial position and size showing tree depth, and horizontal spatial position showing link relationships and sibling order. (c) Radial node– link, using connection to show link relationships, with radial depth spatial position showing tree depth and radial angular position showing sibling order. (d) Concentric circles, with radial depth spatial position and size showing tree depth and radial angular spatial position showing link relationships and sibling order. (e) Nested circles, using radial containment, with nesting level and size showing tree depth. (f) Treemap, using rectilinear containment, with nesting level and size showing tree depth. (g) Indented outline, with horizontal spatial position showing tree depth and link relationships and vertical spatial position showing sibling order. From [McGuffin and Robert 10, Figure 1].
 
@@ -4365,13 +4365,13 @@ Containment is often used for exploring such compound networks. In the sfdp exam
 * The term multilevel network is sometimes used as a synonym for compound network.   
 Cluster hierarchies are discussed further in Section 7.5.2.
 
-![](images/2266cd92c9829d2f0f651cf31289557c9104a1a1bd55b7490e65faa8eea3eb3e.jpg)  
+![](images/2266cd92c9829d2f0f651cf31289557c9104a1a1bd55b7490e65faa8eea3eb3e.webp)  
 (a)
 
-![](images/53cdeeadefb4f44630796869769adb6a0ba3412368f6f5b52eafaad94bc0434c.jpg)  
+![](images/53cdeeadefb4f44630796869769adb6a0ba3412368f6f5b52eafaad94bc0434c.webp)  
 (b)
 
-![](images/f0f2f1ab1ee372914f59b58136b7f27939828dc8cffbd7902768cf9eb2cdf975.jpg)  
+![](images/f0f2f1ab1ee372914f59b58136b7f27939828dc8cffbd7902768cf9eb2cdf975.webp)  
   
 Figure 9.10. GrouseFlocks uses containment to show graph hierarchy structure. (a) Original graph. (b) Cluster hierarchy built atop the graph, shown with a node– link layout. (c) Network encoded using connection, with hierarchy encoded using containment. From [Archambault et al. 08, Figure 3].
 
@@ -4397,29 +4397,29 @@ Treemaps Treemaps were first proposed at the University of Maryland [Johnson and
 
 # Encode Map
 
-![](images/19e7001ca8c7ddc57580baa2497bca3e60a829dd10b24464cf21322625a39bb2.jpg)
+![](images/19e7001ca8c7ddc57580baa2497bca3e60a829dd10b24464cf21322625a39bb2.webp)
 
 # Color
 
 Color Encoding
 
-![](images/39eb33f6596656888ed7e6751f0d7f408bf9d735e7e358bba3bd8bfe8dc164ae.jpg)
+![](images/39eb33f6596656888ed7e6751f0d7f408bf9d735e7e358bba3bd8bfe8dc164ae.webp)
 
 Saturation
 
-![](images/b23276abfc45abf9d8a0916ef58a7843510bf5ef6425a959c81175f93c4112d3.jpg)
+![](images/b23276abfc45abf9d8a0916ef58a7843510bf5ef6425a959c81175f93c4112d3.webp)
 
-![](images/de9648fc7e75e6d7f9a9b280990a3e0148bdd29201d37c0e2d5dc623fd1da6ba.jpg)
+![](images/de9648fc7e75e6d7f9a9b280990a3e0148bdd29201d37c0e2d5dc623fd1da6ba.webp)
 
-![](images/416f52359f01f435e19e4f54003aef552836400b9b6d4bf3f1ff4479749b79e8.jpg)
+![](images/416f52359f01f435e19e4f54003aef552836400b9b6d4bf3f1ff4479749b79e8.webp)
 
-![](images/11ac60a97748b73f07c2a094348c6ea1363654e8833fa792f97c4c9d97dcec92.jpg)
+![](images/11ac60a97748b73f07c2a094348c6ea1363654e8833fa792f97c4c9d97dcec92.webp)
 
 Color Map
 
 Categorical
 
-![](images/4bbba39f14f6afbd785b15718e76953d02f8fd0f9e1ed6e48cfbc3cc4007a17f.jpg)
+![](images/4bbba39f14f6afbd785b15718e76953d02f8fd0f9e1ed6e48cfbc3cc4007a17f.webp)
 
 Ordered
 
@@ -4427,41 +4427,41 @@ S equential
 
 Diverging
 
-![](images/d747bf26f3489755b4416aad5fcb55f0a8cbc23fb70412c4ab5525b7adfcba4c.jpg)
+![](images/d747bf26f3489755b4416aad5fcb55f0a8cbc23fb70412c4ab5525b7adfcba4c.webp)
 
-![](images/f7069de8f2ef1763c4ff8ae13c2ce9a5166ff608485eca97f97f6551fa1fb039.jpg)
+![](images/f7069de8f2ef1763c4ff8ae13c2ce9a5166ff608485eca97f97f6551fa1fb039.webp)
 
 Bivariate
 
-![](images/c5ce3aa23c0a6b2e4c6caa66a58cdf6f89e82d01515e2a8b2b76b51da540bfc2.jpg)
+![](images/c5ce3aa23c0a6b2e4c6caa66a58cdf6f89e82d01515e2a8b2b76b51da540bfc2.webp)
 
 $\textcircled{7}$ Size, Angle, Cur vature, ...
 
 Length
 
-![](images/c9f4cccb4f28236e2f4a3e46499b57b5eb74a6b5b719e4c31b648b0ba073e5e5.jpg)
+![](images/c9f4cccb4f28236e2f4a3e46499b57b5eb74a6b5b719e4c31b648b0ba073e5e5.webp)
 
 Angle
 
-![](images/e004471bcfd5886540bad3a7b7763db1b4cd741df7122f8339f7c708596fdd72.jpg)
+![](images/e004471bcfd5886540bad3a7b7763db1b4cd741df7122f8339f7c708596fdd72.webp)
 
 Area
 
-![](images/b9773dd0649a43245027b6267a0378617e1b538a3416f7340f2e934d9fe6093c.jpg)
+![](images/b9773dd0649a43245027b6267a0378617e1b538a3416f7340f2e934d9fe6093c.webp)
 
 Cur vature
 
-![](images/d657fc4690da4400b35f2a644d0e8df8c679b6e8bf20ef4c96c968cb209777d6.jpg)
+![](images/d657fc4690da4400b35f2a644d0e8df8c679b6e8bf20ef4c96c968cb209777d6.webp)
 
 Volume
 
-![](images/b079c303de710ffc933063902595fcb86394ea5b623099dc8970f1262d41f89f.jpg)
+![](images/b079c303de710ffc933063902595fcb86394ea5b623099dc8970f1262d41f89f.webp)
 
 Shape
 
-![](images/d7fa2175c4db2f5900ba07c130cfe02885e1695634f4c2cee373b2e9341dd75e.jpg)
+![](images/d7fa2175c4db2f5900ba07c130cfe02885e1695634f4c2cee373b2e9341dd75e.webp)
 
-![](images/a82c030b01a4e2a21d53abce34e99807d378a712d90e45efe191cd5811c1c754.jpg)
+![](images/a82c030b01a4e2a21d53abce34e99807d378a712d90e45efe191cd5811c1c754.webp)
 
 Motion
 
@@ -4469,7 +4469,7 @@ Motion
 
 Direction, Rate, Frequenc y, ...
 
-![](images/cc036d3d76add7fe42a47f82451201c8325ef3abd814470e73a836a9641823c3.jpg)  
+![](images/cc036d3d76add7fe42a47f82451201c8325ef3abd814470e73a836a9641823c3.webp)  
 Figure 10.1. Design choices for mapping color and other visual encoding channels.
 
 # Chapter 10
@@ -4504,17 +4504,17 @@ The most common color space in computer graphics is the system where colors are 
 
 Another color space, the hue–saturation–lightness or HSL system, is more intuitive and is heavily used by artists and designers. The hue axis captures what we normally think of as pure colors that are not mixed with white or black: red, blue, green, yellow, purple, and so on. The saturation axis is the amount of white mixed with that pure color. For instance, pink is a partially desaturated red. The lightness axis is the amount of black mixed with a color. A common design for color pickers is a disk with white at the center and the hue axis wrapped around the outside, with separate linear control for the amount of darkness versus lightness, as shown in Figure 10.2. The HSV space is very similar, where V stands for grayscale value and is linearly related to L.
 
-![](images/4ff4a1704638bfd26639baf9aea4709d1d26a2c6268013f5ac6b254ac11c8bda.jpg)  
+![](images/4ff4a1704638bfd26639baf9aea4709d1d26a2c6268013f5ac6b254ac11c8bda.webp)  
 Figure 10.2. A common HSL/HSV colorpicker design, as in this example from Mac OS X, is to show a color wheel with fully saturated color around the outside and white at the center of the circle, and a separate control for the darkness.
 
 Despite the popularity of the HSL space, it is only pseudoperceptual: it does not truly reflect how we perceive color. In particular, the lightness $L$ is wildly different from how we perceive luminance. Figure 10.3 shows six different hues, arranged in order of their luminance. The corresponding computed $L$ values are all identical. The true luminance is a somewhat better match with our perceptual experience: there is some variation between the boxes. However, our perception of luminance does not match what
 
-![](images/49dbf250b38f901815366b885aabaa53a30193ce15ff46bf938d20d628d5d8b7.jpg)  
+![](images/49dbf250b38f901815366b885aabaa53a30193ce15ff46bf938d20d628d5d8b7.webp)  
 Figure 10.3. Comparing HSL lightness, true luminance, and perceptually linear luminance $L ^ { * }$ for six colors. The computed HSL lightness $L$ is the same for all of these colors, showing the limitations of that color system. The true luminance values of these same six colors, as could be measured with an instrument. The computed perceptually linear luminance $L ^ { * }$ of these colors is the best match with what we see. After [Stone 06].
 
-![](images/3ba41be8bf798e6793e45f16887422b90d9a4dbc40b1a5360271af94c5259774.jpg)
+![](images/3ba41be8bf798e6793e45f16887422b90d9a4dbc40b1a5360271af94c5259774.webp)
 
-![](images/a3efc3a5c612933383b966e645fdc0cf77fe441265e876b0ffc61d3ed5bb4c31.jpg)  
+![](images/a3efc3a5c612933383b966e645fdc0cf77fe441265e876b0ffc61d3ed5bb4c31.webp)  
 Figure 10.4. The spectral sensitivity of our eyes to luminance depends on the wavelength of the incoming light. After [Kaiser 96], http://www.yorku.ca/eye/ photopik.htm.
 
 an instrument would measure: the amount of luminance that humans perceive depends on the wavelength. Figure 10.4 shows the roughly bell-shaped spectral sensitivity curve for daylight vision. We are much more sensitive to middle wavelengths of green and yellow than to the outer wavelengths of red and blue.
@@ -4541,7 +4541,7 @@ Moreover, saturation interacts strongly with the size channel: it is more diffic
 
 $^ { \star }$ This hybrid usage of luminance, saturation, and hue does not correspond exactly to any of the standard color spaces used in computer graphics.
 
-![](images/eeb83db37483413cdf67fda3a24326fc59cbe13a531bb2c4cca0c28e0c24af82.jpg)  
+![](images/eeb83db37483413cdf67fda3a24326fc59cbe13a531bb2c4cca0c28e0c24af82.webp)  
 Figure 10.5. The luminance and saturation channels are automatically interpreted as ordered by our perceptual system, but the hue channel is not.
 
 saturation and hue are not separable channels within small regions for the purpose of categorical color coding.
@@ -4579,7 +4579,7 @@ Continuous versus discrete data semantics is discussed in Section 2.4.3.
 
 <!-- Chunk 6 Start -->
 
-![](images/a8335449ac65b5785aac43f3b6370866e2a3594d2281df1047c61743239af373.jpg)  
+![](images/a8335449ac65b5785aac43f3b6370866e2a3594d2281df1047c61743239af373.webp)  
 Figure 10.6. The colormap categorization partially mirrors the data types: categorical versus ordered, and sequential and diverging within ordered. Bivariate encodings of two separate attributes at once is safe if one has only two levels, but they can be difficult to interpret when both attributes have multiple levels. After [Brewer 99].
 
 # 10.3.1 Categorical Colormaps
@@ -4592,9 +4592,9 @@ Categorical colormaps are typically designed by using color as an integral ident
 
 The number of discriminable colors for coding small separated regions is limited to between six and twelve bins. You should remember to include background color and any default object colors in your total count: some or all of the most basic choices of black, white, and gray are often devoted to those uses. Easily nameable colors are desirable, both for memorability and ability to discuss them using words. A good set of initial choices are the fully saturated and easily nameable colors, which are also the opponent
 
-![](images/57f794b57f044dad2f511a01c87c8ffb49864ff9355513da6c50e71044f81727.jpg)
+![](images/57f794b57f044dad2f511a01c87c8ffb49864ff9355513da6c50e71044f81727.webp)
 
-![](images/2b4b1ed076d9411ed2ec3813af051e2ef9aad4afe3322f9d6d9127b6c1aeaaa7.jpg)  
+![](images/2b4b1ed076d9411ed2ec3813af051e2ef9aad4afe3322f9d6d9127b6c1aeaaa7.webp)  
 (b)   
 Figure 10.7. Saturation and area. (a) The ten-element low-saturation map works well with large areas. (b) The eight-element high-saturation map would be better suited for small regions and works poorly for these large areas. Made with ColorBrewer, http://www.colorbrewer2.org.
 
@@ -4602,10 +4602,10 @@ color axes: red, blue, green, and yellow. Other possibilities when more colors a
 
 A good resource for creating colormaps is ColorBrewer at http: //www.colorbrewer2.org, a system that incorporates many perceptual guidelines into its design in order to provide safe suggestions. It was used to create both the ten-element low-saturation map in Figure 10.7(a) and the eight-element high-saturation map in Figure 10.7(b). The low-saturation pastel map is well suited for large regions, leaving fully saturated colors for small road marks. In contrast, the eight-element map that uses highly saturated colors is much too bright for the large areas shown here, but would be a good fit for small line or point marks.
 
-![](images/5c85c46b168648e73fd34dda083cbfa8eacee07fc589e718e87bb12a00fc6a9b.jpg)  
+![](images/5c85c46b168648e73fd34dda083cbfa8eacee07fc589e718e87bb12a00fc6a9b.webp)  
 (a)
 
-![](images/08e72126e58bfa3dae207cdd1d29b9ac52b903a2f9c2d18519d7cc32a409cb0a.jpg)  
+![](images/08e72126e58bfa3dae207cdd1d29b9ac52b903a2f9c2d18519d7cc32a409cb0a.webp)  
   
 Figure 10.8. Ineffective categorical colormap use. (a) The 21 colors used as an index for each mouse chromosome can indeed be distinguished in large regions next to each other. (b) In noncontiguous small regions only about 12 bins of color can be distinguished from each other, so a lot of information about how regions in the mouse genome map to the human genome is lost. From [Sinha and Meller 07, Figure 2].
 
@@ -4625,10 +4625,10 @@ An ordered colormap is appropriate for encoding ordinal or quantitative attribut
 
 Aggregation and filtering idioms are covered in Chapter 13.
 
-![](images/c267b92ad03e970285e6429d6afddb0c4e2e125f0953d7f92661536acdb5a6ee.jpg)  
+![](images/c267b92ad03e970285e6429d6afddb0c4e2e125f0953d7f92661536acdb5a6ee.webp)  
 Effective categorical colormap use: A large space of visual en-Figure 10.9.coding possibilities for 27 categories was considered systematically in addition to the color channel, including size and shape channels and more complex glyphs. From [Maguire et al. 12, Figure 5].
 
-![](images/3ccab865d5de3e36381d14ba516ac4eef89507324da083a51bcc3ee135a43200.jpg)  
+![](images/3ccab865d5de3e36381d14ba516ac4eef89507324da083a51bcc3ee135a43200.webp)  
 Effective categorical colormap use: The final design uses the color Figure 10.10.channel for only four of the categories. From [Maguire et al. 12, Figure 6].
 
 or white; when luminance is the varying quantity, the other end is dark or black. A  colormap has two hues at the endpoints divergingand a neutral color as a midpoint, such as white, gray, or black, or a high-luminance color such as yellow.
@@ -4637,10 +4637,10 @@ The question of how many unique hues to use in continuous colormaps depends on w
 
 One advantage of the rainbow colormap shown in Figure 10.11(a) is that people can easily discuss specific subranges because the
 
-![](images/4efe67d8d233c5060ba9f445a6564b0d01616359b83038faef91b37185695fe9.jpg)  
+![](images/4efe67d8d233c5060ba9f445a6564b0d01616359b83038faef91b37185695fe9.webp)  
 (a)
 
-![](images/f7d1776065c4c533e1d912a97634af9c9f3a4690fcbbb981a075d1ff8c783edf.jpg)  
+![](images/f7d1776065c4c533e1d912a97634af9c9f3a4690fcbbb981a075d1ff8c783edf.webp)  
 (b)   
 Figure 10.11. Rainbow versus two-hue continuous colormap. (a) Using many hues, as in this rainbow colormap, emphasizes mid-scale structure. (b) Using only two hues, the blue–yellow colormap emphasizes large-scale structure. From [Bergman et al. 95, Figures 1 and 2].
 
@@ -4650,10 +4650,10 @@ However, rainbow colormaps suffer from three serious problems at the perceptual 
 
 One way to address all three problems is to design monotonically increasing luminance colormaps: that is, where the multiple hues are ordered according to their luminance from lowest to high-
 
-![](images/760a54b9ff2adb17a0e28b25beb2458c8a1a16db3c0e2470d9fc2eba7bce978f.jpg)  
+![](images/760a54b9ff2adb17a0e28b25beb2458c8a1a16db3c0e2470d9fc2eba7bce978f.webp)  
 (a)
 
-![](images/bb18422afac1c7b84809c9d05637f42900bcb45d9c2c3c51019648dab418ca3a.jpg)  
+![](images/bb18422afac1c7b84809c9d05637f42900bcb45d9c2c3c51019648dab418ca3a.webp)  
 (b)   
 Figure 10.12. Rainbow versus multiple-hue continuous colormap with monotonically increasing luminance. (a) Three major problems with the common continuous rainbow colormap are perceptual nonlinearity, the expressivity mismatch of using hue for ordering, and the accuracy mismatch of using hue for fine-grained detail. (b) A colormap that combines monotonically increasing luminance with multiple hues for semantic categories, with a clear segmentation at the zero point, succeeds in showing high-level, mid-level, and low-level structure. From [Rogowitz and Treinish 98, Figure 1].
 
@@ -4661,13 +4661,13 @@ est. The varying hues allow easy segmentation into categorical regions, for both
 
 It is possible to create a perceptually linear rainbow colormap, but at the cost of losing part of the dynamic range because the fully saturated colors are not available for use. Figure 10.13 shows an example created with a system for calibrating perceptually based colormaps [Kindlmann 02]. The perceptually nonlinear rainbow
 
-![](images/7270b4fe49fa662ec62bdda7b13cbef166f1ed4fde1d2840d67cdb78b0f8d677.jpg)  
+![](images/7270b4fe49fa662ec62bdda7b13cbef166f1ed4fde1d2840d67cdb78b0f8d677.webp)  
 (a)
 
-![](images/5f4e5022647a6830cc18cdb88af6ce09ca9ffac4092b7f258bd1574fe3058766.jpg)  
+![](images/5f4e5022647a6830cc18cdb88af6ce09ca9ffac4092b7f258bd1574fe3058766.webp)  
 (b)
 
-![](images/ea54713b3427e46724c5a77b19111a108c2d623a3abb711ddfd21a9265ea58fa.jpg)  
+![](images/ea54713b3427e46724c5a77b19111a108c2d623a3abb711ddfd21a9265ea58fa.webp)  
 (c)   
 Figure 10.13. Appropriate use of rainbows. (a) The standard rainbow colormap is perceptually nonlinear. (b) Perceptually linear rainbows are possible [Kindlmann 02], but they are less bright with a decreased dynamic range. (c) Segmented rainbows work well for categorical data when the number of categories is small.
 
@@ -4713,15 +4713,15 @@ The volume channel is quite inaccurate. The volume channel is at the bottom of t
 
 A larger-dimensional size coding clearly subsumes a smallerdimensional one: length and area cannot be simultaneously used to encode different dimensions. Similarly, the combination of smaller-dimensional sizes is usually integral rather than separable, as illustrated in Figure 5.10 where the combination of small width, large width, small height, and large height yielded three groups rather than four: small areas, large areas, and flattened areas. It is possible that people asked to make area judgements might take the shortcut of simply making length judgements.
 
-![](images/8eb2f4c74f5e8ca142b108052b705794243c5cb935fe9dda7008450b6f6212e8.jpg)
+![](images/8eb2f4c74f5e8ca142b108052b705794243c5cb935fe9dda7008450b6f6212e8.webp)
 
 Sequential orderedSequential ordered line mark or arrow glyphline mark or arrow glyph
 
-![](images/cd235b06acf699424c0c69619b3e6fa7b20138c72913e3698f3f071b5ec19a52.jpg)
+![](images/cd235b06acf699424c0c69619b3e6fa7b20138c72913e3698f3f071b5ec19a52.webp)
 
 Diverging ordered arrow glyph
 
-![](images/ae1b964ce4a97af05cf86415fd49c3255dfbeed87b36325ad8e80d20d64e3aaf.jpg)  
+![](images/ae1b964ce4a97af05cf86415fd49c3255dfbeed87b36325ad8e80d20d64e3aaf.webp)  
 Figure 10.14. Tiltmaps using the angle channel to show three different types of ordered data. (a) A sequential attribute can be shown with either a line mark or an arrow glyph in one quadrant. (b) A diverging attribute can be shown with two quadrants and an arrow glyph. (c) A cyclic attribute can be shown with all four quadrants and arrow glyphs.
 
 Cyclic ordered arrow glyph
@@ -4796,37 +4796,37 @@ Texture Ware proposes breaking down texture into orientation, scale, and constra
 
 $\circled{ \div}$ Change o ver Time
 
-![](images/412e217c0e9339473d05571d760f97690c9bf77ecd4de4ba2310f6e3accb3863.jpg)
+![](images/412e217c0e9339473d05571d760f97690c9bf77ecd4de4ba2310f6e3accb3863.webp)
 
 $\textcircled{7}$ Selec t
 
-![](images/e83d65b383dd9678c4125e36b9aa7a2dd45d5c74afd6c8c27f74d3940bfc82af.jpg)
+![](images/e83d65b383dd9678c4125e36b9aa7a2dd45d5c74afd6c8c27f74d3940bfc82af.webp)
 
 $\textcircled{ \div}$ Navigate
 
 I tem Reduc tion
 
-![](images/39eb40797da5277534ec051b2e992275a3a005dda5429acc34c2a0710d773182.jpg)
+![](images/39eb40797da5277534ec051b2e992275a3a005dda5429acc34c2a0710d773182.webp)
 
 Pan/Translate
 
-![](images/6e8b757e809b7d98d238aa72a52299d28479a119f9fc013e1edc6d2b1831f902.jpg)
+![](images/6e8b757e809b7d98d238aa72a52299d28479a119f9fc013e1edc6d2b1831f902.webp)
 
 Constrained
 
-![](images/0a1aac3fd88e2850409b06e9a24307d447830af1de5f51d5188abdc6e019d182.jpg)
+![](images/0a1aac3fd88e2850409b06e9a24307d447830af1de5f51d5188abdc6e019d182.webp)
 
 Attribute Reduc tion
 
-![](images/b91093df611a7a8bdd2a49a1afb2b9320112b1d1fa4a11f6ca8815dd3e54d519.jpg)
+![](images/b91093df611a7a8bdd2a49a1afb2b9320112b1d1fa4a11f6ca8815dd3e54d519.webp)
 
 Cut
 
-![](images/68b9abfc8daacef0c22c8598f65c38006d361eaccf3b77383015dce90ae9092e.jpg)
+![](images/68b9abfc8daacef0c22c8598f65c38006d361eaccf3b77383015dce90ae9092e.webp)
 
 Project
 
-![](images/a0485933918abf234c0f8202b71efeada16693e20cc03fa775e3bc98c9c5fd3e.jpg)  
+![](images/a0485933918abf234c0f8202b71efeada16693e20cc03fa775e3bc98c9c5fd3e.webp)  
 Figure 11.1. Design choices for idioms that change a view.
 
 # Chapter 11
@@ -4859,15 +4859,15 @@ The possibilities for how the view changes can be based on any of the other desi
 
 For example, the visual encoding could be changed to a completely different idiom. Some vis tools allow the user to manually change between several different idioms, such as switching from a node–link layout to a matrix layout of a network. Giving the user control of the encoding is particularly common in general-purpose systems designed to flexibly accommodate a large range of possible datasets, rather than special-purpose systems fine tuned for a very particular task. Figure 11.2 shows a sequence of different visual encodings of the same product sales dataset created with the Tableau system, which supports fluidly moving between encodings via drag and drop interactions to specify which attributes to encode with which channels. Figure 11.2(a) shows the data encoded with simple bars, changed to stacked bars in Figure 11.2(b). Figure 11.2(c) shows a recommendation of alternate encodings that are good choices taking into account the types and semantics of
 
-![](images/e221d0770647b78cfa87030e1f32d6f155cb5e3e74d8363ccc5cfbf3862fe8ad.jpg)  
+![](images/e221d0770647b78cfa87030e1f32d6f155cb5e3e74d8363ccc5cfbf3862fe8ad.webp)  
 (a)
 
-![](images/15160738b2c90204086616d88bbf5f98ffe0936f77c9e794ed34f46a08ade7a2.jpg)  
+![](images/15160738b2c90204086616d88bbf5f98ffe0936f77c9e794ed34f46a08ade7a2.webp)  
 (b)
 
-![](images/745d6113202322f93e5baf22f1409fbb8f60224de3e229885063def659ce5cba.jpg)
+![](images/745d6113202322f93e5baf22f1409fbb8f60224de3e229885063def659ce5cba.webp)
 
-![](images/f7d16a304bee52fcfff94e36edffa55102cfd36cdbaca92e1668003c4b7bd05f.jpg)  
+![](images/f7d16a304bee52fcfff94e36edffa55102cfd36cdbaca92e1668003c4b7bd05f.webp)  
   
 Figure 11.2. Tableau supports fluid changes between visual encoding idioms with drag and drop interaction. (a) Data encoded with bars. (b) Data encoded with stacked bars. (c) The user selects a completely different visual encoding. (d) Data encoded using geographic positions.
 
@@ -4888,19 +4888,19 @@ The LineUp system is designed to support exploration of tables with many attribu
 
 Figure 11.3 compares several different rankings of top universities. On the left is a customized combination of attributes and weights for the 2012 data, and in the middle is the official ranking for 2012, with colored
 
-![](images/a729ece02ff4b1ce6aeedaa9a98fc85eb32efc708c768757a960ab3ca1e510bb.jpg)  
+![](images/a729ece02ff4b1ce6aeedaa9a98fc85eb32efc708c768757a960ab3ca1e510bb.webp)  
 Figure 11.3. The LineUp system for comparing multiattribute rankings with reordering and realignment. From [Gratzl et al. 13, Figure 1].
 
-![](images/1ae17a5fa107a80f6045ff0ba309e845083f88d41bb164a341fa903cf1d67b0d.jpg)  
+![](images/1ae17a5fa107a80f6045ff0ba309e845083f88d41bb164a341fa903cf1d67b0d.webp)  
 (a)
 
-![](images/cee9ba353eedf547c0176ada8bc706cc3b83cd4094598469574bcf4332d7c700.jpg)  
+![](images/cee9ba353eedf547c0176ada8bc706cc3b83cd4094598469574bcf4332d7c700.webp)  
 (b)
 
-![](images/e8e25eaecb3ce3f8e690cd09ff38773a1d42d6ee4e424e044b3b193fb811007b.jpg)  
+![](images/e8e25eaecb3ce3f8e690cd09ff38773a1d42d6ee4e424e044b3b193fb811007b.webp)  
 (c)
 
-![](images/4afb45966048c9dcc80bd0d911d48522afcee1045f0a6ccd23d90da16eef6658.jpg)  
+![](images/4afb45966048c9dcc80bd0d911d48522afcee1045f0a6ccd23d90da16eef6658.webp)  
   
 Figure 11.4. Changing the alignment in Lineup. (a) Classical stacked bars. (b) Diverging stacked bars. (c) Ordered stacked bars. (d) Separately aligned bars: small multiple bar charts. From [Gratzl et al. 13, Figure 4].
 
@@ -4935,15 +4935,15 @@ One of the best-justified uses of animation is the idiom of animated transition,
 
 The benefit of animated transitions is that they help users maintain a sense of context between the two states by explicitly showing how an item in the first state moves to its new position in the second state, rather than forcing users to do item tracking on their own using internal cognitive and memory resources. These transitions are most useful when the amount of change is limited, because people cannot track everything that occurs
 
-![](images/389b64855e96ccd1c6c1e0ee99ec9735725cd15dcde5084b812540d9dd22f0bc.jpg)
+![](images/389b64855e96ccd1c6c1e0ee99ec9735725cd15dcde5084b812540d9dd22f0bc.webp)
 
-![](images/19af32fdb3c4fd72e1e1877c5caff55417a4aa25797f1728942b06a70773506c.jpg)
+![](images/19af32fdb3c4fd72e1e1877c5caff55417a4aa25797f1728942b06a70773506c.webp)
 
-![](images/8c9518eeb62178ca9f715071e838470cdfa3ccb71e913ece75708dbe6045d2f5.jpg)
+![](images/8c9518eeb62178ca9f715071e838470cdfa3ccb71e913ece75708dbe6045d2f5.webp)
 
-![](images/6308896a2cc3ea94b008f021a81c93581673b6ae83f9ea0d3a430e68b809f6f1.jpg)
+![](images/6308896a2cc3ea94b008f021a81c93581673b6ae83f9ea0d3a430e68b809f6f1.webp)
 
-![](images/e837c5ed57929beeb8aa4893f04ea43532db7edfe1e68b4bee404be9a873d529.jpg)  
+![](images/e837c5ed57929beeb8aa4893f04ea43532db7edfe1e68b4bee404be9a873d529.webp)  
 Figure 11.5. Frames from an animated transition showing zoom between levels in a compound network arranged as an adjacency matrix. From [van Ham 03, Figure 4].
 
 if many items change in different ways all over the frame. They work well when either a small number of objects change while the rest stay the same, or when groups of objects move together in similar ways. Transitions can also be broken down into a small number of stages. An empirical study showed that carefully designed animated transitions do indeed support better graphical perception of change [Heer and Robertson 07].
@@ -5008,7 +5008,7 @@ Figure 11.6 shows the idiom of context-preserving visual links, where links are 
 
 Edge bundling is discussed further in Section 12.5.2.
 
-![](images/7a90dba59c311b3a48b16c003fae12c315bd5e2e0c142a766ea6f09ac355a3d7.jpg)  
+![](images/7a90dba59c311b3a48b16c003fae12c315bd5e2e0c142a766ea6f09ac355a3d7.webp)  
 Figure 11.6. The context-preserving visual links idiom is an example of the design choice to coordinate betweeen views by explicitly drawing links as connection marks between items and regions of interest. From [Steinberger et al. 11, Figure 1].
 
 <table><tr><td>Idiom</td><td>Context-Preserving Visual Links</td></tr><tr><td>What: Data</td><td>Any data.</td></tr><tr><td>How: Encode</td><td>Any encoding. Highlight with link marks connecting items across views.</td></tr><tr><td>How: Manipulate</td><td>Select any element.</td></tr><tr><td>(How: Coordinate)</td><td>Juxtaposed multiple views.</td></tr></table>
@@ -5051,7 +5051,7 @@ Figure 11.7 shows an example from the LiveRAC system for analyzing large collect
 
 ‣ Filtering and aggregation are covered in Chapter 13.
 
-![](images/5374c1ce039bf55ad91288965ed404dc83d2b1976927736259ba2e13bc8698a4.jpg)  
+![](images/5374c1ce039bf55ad91288965ed404dc83d2b1976927736259ba2e13bc8698a4.webp)  
 Figure 11.7. LiveRAC uses semantic zooming within a stretchable grid of timeseries line charts. From [McLachlan et al. 08, Figure 2b].
 
 Focus+context approaches are discussed further in Chapter 14.
@@ -5086,10 +5086,10 @@ It is also possible to slice along a plane at an arbitrary orientation that does
 
 * Using the vocabulary of signal processing, care must taken to minimize sampling and interpolation artifacts. These questions are also discussed in Section 8.4.
 
-![](images/98003240049353cb2269cf3b71e946b9eb257f9fa160664c5f6503df92f1f690.jpg)  
+![](images/98003240049353cb2269cf3b71e946b9eb257f9fa160664c5f6503df92f1f690.webp)  
 (a)
 
-![](images/643b37d77edb7ba316fdbdcd32df8b61b7da45c2e64570bc5462bf4b3409b131.jpg)  
+![](images/643b37d77edb7ba316fdbdcd32df8b61b7da45c2e64570bc5462bf4b3409b131.webp)  
 (b)   
 Figure 11.8. The slice choice eliminates a dimension/attribute by extracting only the items with a chosen value in that dimension. The cut choice eliminates all data on one side of a spatial cutting plane. (a) Axis-aligned slice. (b) Axis-aligned cut. From [Rieder et al. 08, Figures 7c and 0].
 
@@ -5099,10 +5099,10 @@ Slicing is not restricted to a change from 3D to 2D. The same idea holds in the 
 
 The HyperSlice system uses the design choice of slicing for attribute reduction to display abstract data with many attributes: scalar functions with many variables [van Wijk and van Liere 93]. The visual encoding is a set of views showing all possible orthogonal two-dimensional slices aligned in a matrix. Figure 11.9(a) shows the intuition behind the system for a simple 3D example of three planes that intersect at right angles to each other. The views are coordinated with linked navigation of the high-dimensional space, where each view is both a display and a control: dragging with a view changes the slice value based on its pair of dimen-
 
-![](images/8bff59bc09da9461ae8267d36e3b1236e61af593b3c4e07301bd9003a268cd7e.jpg)  
+![](images/8bff59bc09da9461ae8267d36e3b1236e61af593b3c4e07301bd9003a268cd7e.webp)  
 (a)
 
-![](images/8ee9a1f1d0c3206f49297bfdd117d2499d6887a27825dfbaeda6984882ab0ba3.jpg)  
+![](images/8ee9a1f1d0c3206f49297bfdd117d2499d6887a27825dfbaeda6984882ab0ba3.webp)  
 (b)   
 Figure 11.9. The HyperSlice system uses extracting only the items with a chosen value in that dimension. (a) Three 3D planes that intersect at right angles. (b) Four-dimensional dataset where function value is encoded with luminance. From [van Wijk and van Liere 93, Figures 1 and 4].
 
@@ -5138,7 +5138,7 @@ Semantic Zooming The $\mathrm { P a d } { + + }$ system was an early exploration
 
 Constrained Navigation Early work evangelized the idea of constrained navigation in 3D [Mackinlay et al. 90]; later work provides a framework for calculating smooth and efficient 2D panning and zooming trajectories [van Wijk and Nuij 03].
 
-![](images/02ac39474a1451ce30a56bc250d835989794e8542544560541d033e537a0d20e.jpg)
+![](images/02ac39474a1451ce30a56bc250d835989794e8542544560541d033e537a0d20e.webp)
 
 #
 
@@ -5147,39 +5147,39 @@ $\circledast$ Jux tapose and Coordinate Multiple Side-by-Side Views
 →Share Encoding: Same/Different   
 Linked Highlighting
 
-![](images/e2a1dd7f1719f665f343af0c621d2c00f3adc72213a6a401bd4298cabf82edf7.jpg)
+![](images/e2a1dd7f1719f665f343af0c621d2c00f3adc72213a6a401bd4298cabf82edf7.webp)
 
-![](images/ffad0214d6c3d6b55e9e26e97cc0b36b71232b1525dc1d68886c8d59daae3f9c.jpg)
+![](images/ffad0214d6c3d6b55e9e26e97cc0b36b71232b1525dc1d68886c8d59daae3f9c.webp)
 
 Share Data: All/Subset/None
 
-![](images/983ac9fe26d433e528a07822127c1f63d28db971c9e83a38e8d44fa10a653227.jpg)
+![](images/983ac9fe26d433e528a07822127c1f63d28db971c9e83a38e8d44fa10a653227.webp)
 
-![](images/37d27495e1539ee1cebf3c770a248836b322b03e2e6bfa91a9286dab50d34cfb.jpg)
+![](images/37d27495e1539ee1cebf3c770a248836b322b03e2e6bfa91a9286dab50d34cfb.webp)
 
-![](images/867b28e276de33f230feadc4707462852f424e641f1c166d244d858b83d52576.jpg)
+![](images/867b28e276de33f230feadc4707462852f424e641f1c166d244d858b83d52576.webp)
 
 Share Navigation
 
-![](images/33e483f7deb7acd323f2e80c3babe8ad46cc03aec662311d7bd95a1645655ae5.jpg)
+![](images/33e483f7deb7acd323f2e80c3babe8ad46cc03aec662311d7bd95a1645655ae5.webp)
 
-![](images/cb55446989a9b27d26bb0a04a09a22b4076236b6cdd03dd2e8f3b5f6358fa88c.jpg)
+![](images/cb55446989a9b27d26bb0a04a09a22b4076236b6cdd03dd2e8f3b5f6358fa88c.webp)
 
-![](images/9903d10fa3717f96e96eef8f5d89329acb6313697c3f5c6e53020a4c45fbea73.jpg)
+![](images/9903d10fa3717f96e96eef8f5d89329acb6313697c3f5c6e53020a4c45fbea73.webp)
 
 $\circled{  }$ Par tition into Side-by-Side Views
 
-![](images/c64d157c342c6f395f3efb8c6d223ea639d5d7da16f475cf9bffc02b6cb4e778.jpg)
+![](images/c64d157c342c6f395f3efb8c6d223ea639d5d7da16f475cf9bffc02b6cb4e778.webp)
 
-![](images/d905b82462030698f27ff91eb1a6bc5450ef3f436f7d4c1e4c287a80aacf1b0b.jpg)
+![](images/d905b82462030698f27ff91eb1a6bc5450ef3f436f7d4c1e4c287a80aacf1b0b.webp)
 
 $\circledcirc$ Superimpose Layers
 
-![](images/d5702f18594f3bfdf8db9c463021d75b985c5b9a5af0af114faa8b96c9abf9f5.jpg)
+![](images/d5702f18594f3bfdf8db9c463021d75b985c5b9a5af0af114faa8b96c9abf9f5.webp)
 
-![](images/f037bedf423b5684a57eca13596bad0cc0b41f4f50509462c667b3bc59f0abfe.jpg)
+![](images/f037bedf423b5684a57eca13596bad0cc0b41f4f50509462c667b3bc59f0abfe.webp)
 
-![](images/ceed01b4da01a0e7a71d5c14dc2b76678c6b483f90ce8376a10d3c2bf55b817b.jpg)  
+![](images/ceed01b4da01a0e7a71d5c14dc2b76678c6b483f90ce8376a10d3c2bf55b817b.webp)  
 Figure 12.1. Design choices of how to facet information between multiple views.
 
 # Chapter 12
@@ -5236,10 +5236,10 @@ fully supported by a single view of a specific dataset, more complex ones often 
 
 The EDV system features the idiom of linked highlighting between views [Wills 95]. Figure 12.2 shows a baseball statistics dataset with linked bar charts, scatterplots, and a histogram [Wills 95]. In Figure 12.2(a), the viewer has selected players with high salaries in the smoothed histogram view on the upper right. The distribution of these players is very different in the other plots. In the Years played view bar chart on the upper left, there are no rookie players. The Assists-PutOuts scatterplot does not show much correlation with salary. Comparing the CHits/Years plot showing batting ability in terms of career home runs with average career hits shows that the hits per year is more correlated with salary than the home runs
 
-![](images/946fd125b453cebbe254f8323811ef27730ed0ff66428b6396489028fefbdd82.jpg)  
+![](images/946fd125b453cebbe254f8323811ef27730ed0ff66428b6396489028fefbdd82.webp)  
 (a)
 
-![](images/f3d5ca882a32f71e428bd999f3c80371f9be1cbe042f59d94cb86a29686fa4c4.jpg)  
+![](images/f3d5ca882a32f71e428bd999f3c80371f9be1cbe042f59d94cb86a29686fa4c4.webp)  
 (b)   
 Figure 12.2. Linked highlighting between views shows how regions that are contiguous in one view are distributed within another. (a) Selecting the high salaries in the upper right window shows different distributions in the other views. (b) Selecting the bottom group in the Assists-PutOuts window shows that the clump corresponds to specific positions played. From [Wills 95, Figures 4 and 5].
 
@@ -5267,7 +5267,7 @@ There are several standard approaches in choosing how many views to use in total
 
 Interactive online geographic maps are a widely used idiom that combines the shared encoding and overview–detail choices for geographic data, with a large map exploration view augmented by a small “bird’s-eye” view providing an orienting overview, as shown in Figure 12.3. A small rectangle
 
-![](images/7de45697e7959738daa65b41654391fd0a61964cd94b955a3ad13db52adc01ab.jpg)  
+![](images/7de45697e7959738daa65b41654391fd0a61964cd94b955a3ad13db52adc01ab.webp)  
 Figure 12.3. Overview–detail example with geographic maps, where the views have the same encoding and dataset; they differ in viewpoint and size. Made with Google Maps, http://maps.google.com.
 
 within the overview shows the region viewable within the detail view. The minimum navigational linkage is unidirectional, where position and size of the rectangle in the overview updates as the user pans and zooms within the large detail view. With bidirectionally linked views, the rectangle can also be moved within the small view to update the region shown in the large one.
@@ -5284,7 +5284,7 @@ Microarrays measure gene expression, which is the activity level of a gene. They
 
 The designers identified the five tasks of finding genes that were on or off across the whole time period, finding genes whose values rose or fell over a specified time window, finding genes with similar time-series patterns, relating all these sets to known functional groups of genes, and exporting the results for use within other tools.
 
-![](images/dc0bc7dd4462d76fc29372eb8e1887ff957ad4b7f41b6400ef18e65491127d1c.jpg)  
+![](images/dc0bc7dd4462d76fc29372eb8e1887ff957ad4b7f41b6400ef18e65491127d1c.webp)  
 Figure 12.4. Multiform overview–detail vis tool for microarray exploration features a central scatterplot linked with the graph view in the upper left. From [Craig and Kennedy 03, Figure 3].
 
 For more on superimposed line charts, see Section 12.5.2.
@@ -5324,7 +5324,7 @@ Cerebral is also multiform; the view at the bottom uses parallel coordinates for
 
 The convention of red– green colormaps in bioinformatics is discussed in Section 7.5.2.
 
-![](images/61670325cf69e869df201a082daf12ce0b285f4ce17f415493697427361fca3e.jpg)  
+![](images/61670325cf69e869df201a082daf12ce0b285f4ce17f415493697427361fca3e.webp)  
 Figure 12.5. Cerebral uses small-multiple views to show the same base graph of gene interactions colored according to microarray measurements made at different times. The coloring in the main view uses the derived attribute of the difference in values between the two chosen views. From [Barsky et al. 08, Figure 2].
 
 <table><tr><td>System</td><td>Cerebral</td></tr><tr><td>What: Data</td><td>Multidimensional table: one categorical key attribute (gene), one categorical key attribute (condition), one quantitative value attribute (gene activity at condition). Network: nodes (genes), links (known interaction between genes), one ordered attribute on nodes: location within cell of interaction.</td></tr><tr><td>What: Derived</td><td>One quantitative value attribute (difference between measurements for two partitions).</td></tr><tr><td>How: Encode</td><td>Node-link network using connection marks, vertical spatial position expressing interaction location, containment marks for coregulated gene groups, diverging colormap. Small-multiple network views aligned in matrix. Parallel coordinates.</td></tr><tr><td>How: Facet</td><td>Partition: small multiple views partitioned on condition, and multiform views. Coordinate: linked high-lighting and navigation.</td></tr></table>
@@ -5335,7 +5335,7 @@ Figure 12.5. Cerebral uses small-multiple views to show the same base graph of g
 
 <!-- Chunk 7 Start -->
 
-![](images/d449eb118bca70ff2feda7397c4acebf79342b7ca7d4d8e1d7d0028a5e3e0f92.jpg)  
+![](images/d449eb118bca70ff2feda7397c4acebf79342b7ca7d4d8e1d7d0028a5e3e0f92.webp)  
 Figure 12.6. Design choices for how to coordinate between views relating to sharing encoding and data.
 
 # 12.3.3 Share Navigation: Synchronize
@@ -5356,7 +5356,7 @@ Figure 12.7 shows a vis of census data that uses many views. In addition to geog
 
 Bivariate colormaps are covered in Section 10.3.3.
 
-![](images/6321452c0101802169644b6bc9d04e8e597852a773dd775201d79e6aa77d96f3.jpg)  
+![](images/6321452c0101802169644b6bc9d04e8e597852a773dd775201d79e6aa77d96f3.webp)  
 Figure 12.7. The Improvise toolkit [Weaver 04] was used to create this census vis that has many forms of coordination between views. It has many multiform views, some of which use small multiples, and some of which provide additional detail information. From http://www.cs.ou.edu/~weaver/improvise/examples/census.
 
 attribute. The list views allow direct sorting by and selection within an attribute of interest. The map in the upper left view is a small overview, with linked navigation to the large geographic detail view in the top middle.
@@ -5405,10 +5405,10 @@ The term glyph has been used for structures at a range of sizes. Glyphs like the
 
 In the middle of the size spectrum are simpler structures such as a single multipart bar in a stacked bar chart. At the extreme end
 
-![](images/6fe6ae97e34df921f64c32f500752b7bd8d0e448bf71065972cd2f4881e1bbc4.jpg)  
+![](images/6fe6ae97e34df921f64c32f500752b7bd8d0e448bf71065972cd2f4881e1bbc4.webp)  
 (a)
 
-![](images/2dcf58be307d86fe731a15fb8ebc42bf918ce2f0eb369b5f47bd536c5e3700ca.jpg)  
+![](images/2dcf58be307d86fe731a15fb8ebc42bf918ce2f0eb369b5f47bd536c5e3700ca.webp)  
 (b)   
 Figure 12.8. Partitioning and bar charts. (a) Single bar chart with grouped bars: separated by state key into regions, using seven-mark glyphs within each region. (b) Four aligned small-multiple bar chart views: separated by group key into vertically aligned list of regions, with a full bar chart in each region. From http://bl.ocks.org/mbostock/3887051, after http://bl.ocks.org/mbostock/4679202.
 
@@ -5436,10 +5436,10 @@ In this figure, the partitioning is by year for the matrix columns and by site f
 
 The value of main-effects ordering is that outliers countervailing to the general trends are visible. The Morris plots in the third row do not match up with the others, suggesting that perhaps the years had been switched. Figure 12.9(b) shows a trellis where the vertical ordering between and within the plots is alphabetical. This display does not provide any useful
 
-![](images/31c64de5ea931d8ee7c68134ad95e4342e3b8816983f943f8602d858843c654c.jpg)  
+![](images/31c64de5ea931d8ee7c68134ad95e4342e3b8816983f943f8602d858843c654c.webp)  
 (a)
 
-![](images/d880f2ba68d48deeaee0bd1b52479981f964ff3830cfd34bf1e8060367b99128.jpg)  
+![](images/d880f2ba68d48deeaee0bd1b52479981f964ff3830cfd34bf1e8060367b99128.webp)  
 (b)   
 Figure 12.9. Trellis facets the data into a matrix of dot chart views, allowing the user control of partitioning and orderering. (a) With main-effects ordering, the plots are ordered by median values within the plots for the sites, and the shared vertical axis within each plot is ordered by median values within the varieties. The Morris site in the third row is a visible outlier that does not fit the general trends. (b) With a simple alphabetical ordering of plots and axes, no trends are visible, so no outliers can be detected. From [Becker et al. 96, Figures 1 and 3].
 
@@ -5447,7 +5447,7 @@ hints of outliers versus the trends, since no particular general trend is visibl
 
 Figure 12.10 shows another plot with a different structure to further investigate the anomaly. The plots are still partitioned vertically by site, but no further. Both years are thus included within the same view and distinguished from each other by color. The switch in color patterns in the third row shows convincing evidence for the theory that the Morris data is incorrect.
 
-![](images/8498410bd2e409a4956a48158c89df9765f9693dc0764e21d55f06dcc29c4c2e.jpg)  
+![](images/8498410bd2e409a4956a48158c89df9765f9693dc0764e21d55f06dcc29c4c2e.webp)  
 Figure 12.10. A second Trellis plot combines the years into a single plot with year encoded by color, showing strong evidence of an anomaly in the data. From [Becker et al. 96, Figure 2].
 
 <table><tr><td>System</td><td>Trellis</td></tr><tr><td>What: Data</td><td>Multidimensional table: three categorical key attributes, one quantitative value attribute.</td></tr><tr><td>What: Derived</td><td>Medians for each partition.</td></tr><tr><td>How: Encode</td><td>Dot charts aligned in 2D matrix.</td></tr><tr><td>How: Facet</td><td>Partitioned by any combination of keys into regions.</td></tr></table>
@@ -5464,17 +5464,17 @@ One way to consider this arrangement is as a recursive subdivision using matrix 
 
 Figure 12.11(b) shows another configuration of the same dataset with the same basic spatial arrangement but a different order of partitioning. It is partitioned first by neighborhood and then by residence type, with the bottom levels by year and month as in the previous example. The color coding is by a slightly different derived attribute, the average price within the group. In this encoding it is easy to spot expensive neighborhoods, which are the views near the center. It is also easy to see that detached houses, in the lower right corner of each view, are more expensive than the other types.
 
-![](images/95f1d7bfad1cc952725fe0c8103188cabe8150f50a264d0b34650d99135d5305.jpg)  
+![](images/95f1d7bfad1cc952725fe0c8103188cabe8150f50a264d0b34650d99135d5305.webp)  
 (a)
 
-![](images/0235e724a117e52e0290ca5445f00c06278991edcdd494e93532bf92c06a9ff4.jpg)  
+![](images/0235e724a117e52e0290ca5445f00c06278991edcdd494e93532bf92c06a9ff4.webp)  
   
 Figure 12.11. The HiVE system supports exploration through different partitioning choices. (a) Recursive matrix alignment where the first split is by the house type attribute, and the second by neighborhood. The lowest levels show time with years as rows and months as columns. (b) Switching the order of the first and second splits shows radically different patterns. From [Slingsby et al. 09, Figures 7b and 2c].
 
-![](images/2f57ec4fd1e06ae88a57f98ba7ab0de172801c23f500c2aa51dafda1eb3c8220.jpg)  
+![](images/2f57ec4fd1e06ae88a57f98ba7ab0de172801c23f500c2aa51dafda1eb3c8220.webp)  
 (a)
 
-![](images/e26d6ef5d3285e4aa6676950b367fa146c87bd59dbfc87100e51dfce2ab640a8.jpg)  
+![](images/e26d6ef5d3285e4aa6676950b367fa146c87bd59dbfc87100e51dfce2ab640a8.webp)  
 (b)   
 Figure 12.12. HiVE with different arrangements. (a) Sizing regions according to sale counts yields a treemap. (b) Arranging the second-level regions as choropleth maps. From [Slingsby et al. 09, Figures 7a and 7c].
 
@@ -5515,9 +5515,9 @@ Figure 12.13 shows an example that lets the viewer easily shift attention betwee
 
 Checking luminance contrast explicitly is an example of the slogan Get It Right in Black and White discussed in Section 6.9.
 
-![](images/37f82dc0fe25e3a76e6e11d1834455d6a25efb675ef5dcb5640fc0c7683b3290.jpg)
+![](images/37f82dc0fe25e3a76e6e11d1834455d6a25efb675ef5dcb5640fc0c7683b3290.webp)
 
-![](images/0a83e7fb3449c5d1ed42cfe220a8b033d3123bf2f75f4bf6c320af861092a16a.jpg)  
+![](images/0a83e7fb3449c5d1ed42cfe220a8b033d3123bf2f75f4bf6c320af861092a16a.webp)  
 (b)   
 Figure 12.13. Static visual layering in maps. (a) The map layers are created by differences in the hue, saturation, luminance, and size channels on both area and line marks. (b) The grayscale view shows that each layer uses a different range in the luminance channel, providing luminance contrast. From [Stone 10].
 
@@ -5527,20 +5527,20 @@ Figure 12.13. Static visual layering in maps. (a) The map layers are created by 
 
 Figure 12.14 shows a common use of the superimpose design choice, where several lines representing different data items are superimposed to create combined charts. The alignment of the simple constituent drawings is straightforward: they are all superimposed directly on top of each other so that they share the same frame. This simple superimposition works well because the only mark is a thin line that is mostly disjoint with the other marks. Figure 12.14(a) shows that the amount of occlusion is very small with only three lines. This idiom is still usable with even nearly one dozen items superimposed, as shown in Figure 12.14(b). However, Figure 12.14(c) shows that this approach does not scale to many dozens or hundreds of items.
 
-![](images/bb6b9fa7eeca040090e2dd57605d2ef7af5fad57687cf9a1a3b6ee320811e6ef.jpg)
+![](images/bb6b9fa7eeca040090e2dd57605d2ef7af5fad57687cf9a1a3b6ee320811e6ef.webp)
 
-![](images/dd3628abd414f1585be13520fcd99f8c00ae8a48b76716442275d492917660c1.jpg)
+![](images/dd3628abd414f1585be13520fcd99f8c00ae8a48b76716442275d492917660c1.webp)
 
-![](images/6a260059584f5d551ab81721064740bcd7d7d7245875741e2ee7cf0c46250ae1.jpg)  
+![](images/6a260059584f5d551ab81721064740bcd7d7d7245875741e2ee7cf0c46250ae1.webp)  
 (c)   
 Multiple line charts can be superimposed within the same global frame. (a) A small number of items Figure 12.14.is easily readable. (b) Up to a few dozen lines can still be understood. (c) This technique does not scale to hundreds of items.
 
 <table><tr><td>Idiom</td><td>Superimposed Line Charts</td></tr><tr><td>What: Data</td><td>Multidimensional table: one ordered key attribute (time), one categorical key attribute (machine), one quantitative value attribute (CPU utilization).</td></tr><tr><td>How: Encode</td><td>Line charts, colored by machine attribute.</td></tr><tr><td>How: Facet</td><td>Superimpose: static layers, distinguished with color.</td></tr><tr><td>Scale</td><td>Ordered key attribute: hundreds. Categorical key attribute: one dozen.</td></tr></table>
 
-![](images/466856d0b6c87ed4623193394cc5900837adc6047b229acc8e535e15757d5b33.jpg)  
+![](images/466856d0b6c87ed4623193394cc5900837adc6047b229acc8e535e15757d5b33.webp)  
 (a)
 
-![](images/6c88b2cbbc9133e83a07a1b2bf3d4f66e02036a74c86c2b00c4c073174a7deef.jpg)  
+![](images/6c88b2cbbc9133e83a07a1b2bf3d4f66e02036a74c86c2b00c4c073174a7deef.webp)  
 (b)   
 Figure 12.15. Empirical study comparing superimposed line charts to juxtaposed filled-area line charts. (a) Superimposed line charts performed best for tasks carried out within a local visual span. (b) Juxtaposed filled area charts were best for global tasks, especially as the number of time series increased. From [Javed et al. 10, Figures 1 and 2].
 
@@ -5552,7 +5552,7 @@ Compound networks are defined and discussed in Section 9.5.
 
 A more complex example of static superimposition is the hierarchical edge bundles idiom [Holten 06]. It operates on a compound network, a combination of a base network and a cluster hierarchy that groups its nodes.
 
-![](images/f011263d46e1d10b274c2eb16e3d1567eb26c0a02f2988d7a988a6fba68edf11.jpg)  
+![](images/f011263d46e1d10b274c2eb16e3d1567eb26c0a02f2988d7a988a6fba68edf11.webp)  
 Figure 12.16. The hierarchical edge bundles idiom shows a compound network in three layers: the tree structure in back with containment circle marks, the red– green graph edges with connection marks in a middle layer, and the graph nodes in a front layer. From [Holten 06, Figure 13].
 
 The software engineering example in Figure 12.16 shows the call graph network, namely, which functions call what other functions in a software system, in conjunction with the hierarchical structure of the source code in which these function calls are defined.
@@ -5571,7 +5571,7 @@ With dynamic layers, a layer with different salience than the rest of the view i
 
 The Cerebral system, shown also in Figure 12.5, uses the design choice of dynamic layering. Figure 12.17 shows the dynamic creation of a foreground layer that updates constantly as the user moves the cursor. When the cursor is directly over a node, the foreground layer shows its one-hop neighborhood: all of the nodes in the network that are a single topological hop away from it, plus the links to them from the target node. The one-hop neighborhood is visually emphasized with a distinctive fully saturated red to create a foreground layer that is visually distinct from the background layer, which has only low-saturation colors. The marks in the foreground layer also have larger linewidth.
 
-![](images/135d3f96dd1594bddd3c7c98874d712b71814dead23a46823cdb37e51f3ab80d.jpg)  
+![](images/135d3f96dd1594bddd3c7c98874d712b71814dead23a46823cdb37e51f3ab80d.webp)  
 Figure 12.17. Cerebral dynamically creates a foreground visual layer of all nodes one topological hop away in the network from the node underneath the cursor. From [Barsky et al. 07, Figure 1].
 
 # 12.6 Further Reading
@@ -5596,27 +5596,27 @@ other very readable article discusses the benefits of superimposed dot charts co
 
 # Reduce
 
-![](images/824722dcd36d8db0758cf18505cff730779d4f3b42cae661bcaf325c8e200661.jpg)  
+![](images/824722dcd36d8db0758cf18505cff730779d4f3b42cae661bcaf325c8e200661.webp)  
 $\circled{ \div}$ Filter   
 Items
 
-![](images/442221661d5d3ce58e40ed62ceab02d6b4b6660d2891bac26bb3cb4c7d4c63f7.jpg)  
+![](images/442221661d5d3ce58e40ed62ceab02d6b4b6660d2891bac26bb3cb4c7d4c63f7.webp)  
 Attributes   
 $\textcircled{ \div}$ Aggregate
 
-![](images/bc799be4d03a581b36f23b8a9d133d50fc75b6d30205601e02116bde98a86b0d.jpg)  
+![](images/bc799be4d03a581b36f23b8a9d133d50fc75b6d30205601e02116bde98a86b0d.webp)  
 Items
 
-![](images/d48861764b8dd77abd3a193488170c2d7fd922e0d2e405cfd36baa310ed05531.jpg)  
+![](images/d48861764b8dd77abd3a193488170c2d7fd922e0d2e405cfd36baa310ed05531.webp)  
 Attributes
 
-![](images/94fec6ab79cc13c728169ce7a780dbcab21b57fed8b40226e33f013645ad27d2.jpg)  
+![](images/94fec6ab79cc13c728169ce7a780dbcab21b57fed8b40226e33f013645ad27d2.webp)  
 $\circled{ \div}$ Filter
 
-![](images/8d702b7c661d7760d7f418d8991752e2a53fbafb25f2e9b1be0b8578e2837bc0.jpg)  
+![](images/8d702b7c661d7760d7f418d8991752e2a53fbafb25f2e9b1be0b8578e2837bc0.webp)  
 Aggregate
 
-![](images/8131fb9986657f2a2bf7c5b9b6f133f061e788a22039659e2ebac77eb7df56e2.jpg)  
+![](images/8131fb9986657f2a2bf7c5b9b6f133f061e788a22039659e2ebac77eb7df56e2.webp)  
 Embed   
 Figure 13.1. Design choices for reducing (or increasing) the amount of data items and attributes to show.
 
@@ -5664,16 +5664,16 @@ Figure 13.2 shows the use of two augmented slider types, a dual slider for movie
 
 <table><tr><td>System</td><td>FilmFinder</td></tr><tr><td>What: Data</td><td>Table: nine value attributes.</td></tr><tr><td>How: Encode</td><td>Scatterplot; detail view with text/images.</td></tr><tr><td>How: Facet</td><td>Multiform, overview-detail.</td></tr><tr><td>How: Reduce</td><td>Item filtering.</td></tr></table>
 
-![](images/5fa254e3912609971c57123c4c68d7c8fa1c453d0b70eda2c5c1cf8d45250d91.jpg)  
+![](images/5fa254e3912609971c57123c4c68d7c8fa1c453d0b70eda2c5c1cf8d45250d91.webp)  
 (a)
 
-![](images/47138cb3afb935bf8049830d252d21c42276b662e11dfa16f1511d13c20f12b6.jpg)
+![](images/47138cb3afb935bf8049830d252d21c42276b662e11dfa16f1511d13c20f12b6.webp)
 
-![](images/18a89f54c1abeea86b11015a46312f75fb7f3cd41a236f97910916e56ae0ccc0.jpg)  
+![](images/18a89f54c1abeea86b11015a46312f75fb7f3cd41a236f97910916e56ae0ccc0.webp)  
 (c)   
 Figure 13.2. FilmFinder features tightly coupled interactive filtering, where the result of moving sliders and pressing buttons is immediately reflected in the visual encoding. (a) Exploration begins with an overview of all movies in the dataset. (b) Moving the actor slider to select Sean Connery filters out most of the other movies, leaving enough room to draw labels. (c) Clicking on the mark representing a movie brings up a detail view. From [Ahlberg and Shneiderman 94, Color Plates 1, 2, and 3].
 
-![](images/b917e3fbca269de9b87b2a95d24f3fbe35bead06af6745e3704f2f698594bd01.jpg)  
+![](images/b917e3fbca269de9b87b2a95d24f3fbe35bead06af6745e3704f2f698594bd01.webp)  
 Figure 13.3. The scented widget idiom adds visual encoding information directly to standard graphical widgets to make filtering possible with high information density displays. From [Willett et al. 07, Figure 2].
 
 Standard widgets for filtering controls can be augmented by concisely visually encoding information about the dataset, but in the part of the screen normally thought of as the control panel rather than a separate display area. The idea is to do so while using no or minimal additional screen real estate, in order to create displays that have high information density. These augmented widgets are called scented widgets [Willett et al. 07], alluding to the idea of information scent: cues that help a searcher decide whether there is value in drilling down further into a particular information source, versus looking elsewhere [Pirolli 07]. Figure 13.3 shows several examples. One way to add information is by inserting a concise statistical graphic, such as a bar or line chart. Another choice is by inserting icons or text labels. A third choice is to treat some part of the existing widget as a mark and encode more information into that region using visual channels such as hue, saturation, and opacity.
@@ -5693,9 +5693,9 @@ Item filtering and attribute filtering can be combined, with the result of showi
 
 Figure 13.4 shows an example of the Dimensional Ordering, Spacing, and Filtering Approach (DOSFA) idiom [Yang et al. 03a]. As the name suggests, the idiom features attribute filtering.* Figure 13.4 shows DOSFA on a dataset of 215 attributes representing word counts and 298 points representing documents in a collection of medical abstracts. DOSFA can be used with many visual encoding approaches; this figure shows it in use with star plots. In Figure 13.4(a) the plot axes are so densely packed that little structure can be seen. Figure 13.4(b) shows the plots after the dimensions are ordered by similarity and filtered by both similarity and importance thresholds. The filtered display does show clear visual patterns.
 
-![](images/0eddcf947445161366f24e866a77ace30f6eb871862af72ab569ed868ede5da3.jpg)
+![](images/0eddcf947445161366f24e866a77ace30f6eb871862af72ab569ed868ede5da3.webp)
 
-![](images/77cddc4b4138c8cebd7af751974f0b6bdf70738047a6334eb4087ab8f0eecb4b.jpg)  
+![](images/77cddc4b4138c8cebd7af751974f0b6bdf70738047a6334eb4087ab8f0eecb4b.webp)  
 Figure 13.4. The DOSFA idiom shown on star glyphs with a medical records dataset of 215 dimensions and 298 points. (a) The full dataset is so dense that patterns cannot be seen. (b) After ordering on similarity and filtering on both similarity and importance, the star glyphs show structure. From [Yang et al. 03a, Figures 3a and 3d].
 
 <table><tr><td>System</td><td>DOSFA</td></tr><tr><td>What: Data</td><td>Table: many value attributes.</td></tr><tr><td>How: Encode</td><td>Star plots.</td></tr><tr><td>How: Facet</td><td>Small multiples with matrix alignment.</td></tr><tr><td>How: Reduce</td><td>Attribute filtering.</td></tr></table>
@@ -5722,7 +5722,7 @@ The most straightforward use of item aggregation is within static visual encodin
 
 The idiom of histograms shows the distribution of items within an original attribute. Figure 13.5 shows a histogram of the distribution of weights for all of the cats in a neighborhood, binned into 5-pound blocks. The range of the original attribute is partitioned into bins, and the number of items that fall into each bin is computed and saved as a derived ordered attribute. The visual encoding of a histogram is very similar to bar charts, with a line mark that uses spatial position in one direction and the bins distributed along an axis in the other direction. One difference is that histograms are sometimes shown without space between the bars to visually imply continuity, whereas bar charts conversely have spaces between the bars to imply discretization. Despite their visual similarity, histograms are very different than bar charts. They do not show the original table directly; rather, they are an example of an aggregation idiom that shows a derived table that is more concise than the original dataset. The number of bins in the histogram can be chosen independently of the number of items in the dataset. The choice of bin size is crucial and tricky: a histogram can look quite different depending on the discretization chosen. One possible solution to the problem is to compute the number of bins based on dataset characteristics; another is to provide the user with controls to easily change the number of bins interactively, to see how the histogram changes.
 
-![](images/14bf435244e73c6da836599b474365aecd4d07584984b181d9c866a955db2cf7.jpg)  
+![](images/14bf435244e73c6da836599b474365aecd4d07584984b181d9c866a955db2cf7.webp)  
 Weight Class (lbs)   
 Figure 13.5. The histogram idiom aggregates an arbitrary number of items into a concise representation of their distribution.
 
@@ -5736,7 +5736,7 @@ Figure 13.6 shows a continuous scatterplot of a tornado air-flow dataset, with t
 
 Scatterplots began as a idiom for discrete, categorical data. They have been generalized to a mathematical framework of density functions for continuous data, giving rise to continuous scatterplots in the 2D case
 
-![](images/f510ad30bac5a13fb2299739420a98a3cd9bfe61aedf5e474e6976ad669cae2b.jpg)  
+![](images/f510ad30bac5a13fb2299739420a98a3cd9bfe61aedf5e474e6976ad669cae2b.webp)  
 Figure 13.6. The continuous scatterplot idiom uses color to show the density at each location, solving the problem of occlusion from overplotting and allowing scalability to large datasets. From [Bachthaler and Weiskopf 08, Figure 9].
 
 and continuous histograms in the 1D case [Bachthaler and Weiskopf 08]. Continuous scatterplots use a dense, space-filling 2D matrix alignment, where each pixel is given a different color. Although the idiom of continuous scatterplots has a similar name to the idiom of scatterplots, analysis via the framework of design choices shows that the approach is in fact very different.
@@ -5753,10 +5753,10 @@ The boxplot can be considered an item reduction idiom that provides an aggregate
 
 * Boxplots are also known as box-and-whisker diagrams.
 
-![](images/f7090132572025b0c0dcd7c0a5c7a5c1e7db50e33ed2900e6e3b6e187b9489af.jpg)  
+![](images/f7090132572025b0c0dcd7c0a5c7a5c1e7db50e33ed2900e6e3b6e187b9489af.webp)  
 (a)
 
-![](images/088ac795e727d9ea1b4dc36cebd2a59fbf846156e14a0d9a6d5acd0ca1534d0a.jpg)  
+![](images/088ac795e727d9ea1b4dc36cebd2a59fbf846156e14a0d9a6d5acd0ca1534d0a.webp)  
 (b)   
 Figure 13.7. The boxplot is an idiom presenting summary statistics for the distribution of a quantitative attribute, using five derived values. These plots illustrate four kinds of distributions: normal (n), skewed (s), peaked (k), and multimodal (mm). (a) Standard box plots. (b) Vase plots, which use horizontal spatial position to show density directly. From [Wickham and Stryjewski 12, Figure 5].
 
@@ -5774,10 +5774,10 @@ Figure 13.8 shows the example of SolarPlot, a radial histogram with an interacti
 
 <table><tr><td>Idiom</td><td>SolarPlot</td></tr><tr><td>What: Data</td><td>Table: one quantitative attribute.</td></tr><tr><td>What: Derived</td><td>Derived table: one derived ordered key attribute (bin), one derived quantitative value attribute (item</td></tr></table>
 
-![](images/00381a64b2f36f469cf6baa282539002c81d516cf778938737fb1c63ebe9a4cc.jpg)  
+![](images/00381a64b2f36f469cf6baa282539002c81d516cf778938737fb1c63ebe9a4cc.webp)  
 (a)
 
-![](images/c5303ecd0bcc1114024ac4b10609b2ab75b2e4b1e4cdc5cb57fc1848237c4f71.jpg)  
+![](images/c5303ecd0bcc1114024ac4b10609b2ab75b2e4b1e4cdc5cb57fc1848237c4f71.webp)  
   
 Figure 13.8. The SolarPlot circular histogram idiom provides indirect control of aggregation level by changing the circle size. (a) The small circle shows the increase in ticket sales over time. (b) Enlarging the circle shows seasonal patterns in addition to the gradual increase. From [Chuah 98, Figures 1 and 2].
 
@@ -5789,12 +5789,12 @@ The general design choice of hierarchical aggregation is to construct the derive
 
 The idiom of hierarchical parallel coordinates [Fua et al. 99] uses interactively controlled aggregation as a design choice to increase the scalability of the basic parallel coordinates visual encoding to hundreds of thousands of items. The dataset is transformed by computing derived data: a hierarchical clustering of the items. Several statistics about each cluster are computed, including the number of points it contains; the mean, minimum, and maximum values; and the depth in the hierarchy. A cluster is represented by a band of varying width and opacity, where the mean is in the middle and width at each axis depends on the minimum and
 
-![](images/903bc90b871bb937bff5ad77e180e27827d29f228523a8c3e817bdab17fe9390.jpg)
+![](images/903bc90b871bb937bff5ad77e180e27827d29f228523a8c3e817bdab17fe9390.webp)
 
-![](images/7481be47c37115561b2a72b8ea959a8c90401f4a0fe2e508a7d5cf1612d0c0e5.jpg)  
+![](images/7481be47c37115561b2a72b8ea959a8c90401f4a0fe2e508a7d5cf1612d0c0e5.webp)  
 (b)
 
-![](images/8743c1c4340e029e9c82bca4afe8a578c8d0cb6bc6366e89ee34afcbc71bb3d0.jpg)  
+![](images/8743c1c4340e029e9c82bca4afe8a578c8d0cb6bc6366e89ee34afcbc71bb3d0.webp)  
 (c)   
 Figure 13.9. Hierarchical parallel coordinates provide multiple levels of detail. (a) The single top cluster has large extent. (b) When several clusters are shown, each has a smaller extent. (c) When many clusters are shown, the proximity-based coloring helps them remain distinguishable from each other. From [Fua et al. 99, Figure 4].
 
@@ -5804,13 +5804,13 @@ The level of detail displayed at a global level for the entire dataset can be in
 
 <table><tr><td>Idiom</td><td>Hierarchical Parallel Coordinates</td></tr><tr><td>What: Data</td><td>Table.</td></tr><tr><td>What: Derived</td><td>Cluster hierarchy atop original table of items. Five per-cluster attributes: count, mean, min, max, depth.</td></tr><tr><td>How: Encode</td><td>Parallel coordinates. Color clusters by proximity in hierarchy.</td></tr><tr><td>How: Reduce</td><td>Interactive item aggregation to change level of detail.</td></tr><tr><td>Scale</td><td>Items: 10,000–100,000. Clusters: one dozen.</td></tr></table>
 
-![](images/46bd0a000453cf3f3df0c184b9cd2b0d58453406435f4ed16de0533dce33bb04.jpg)  
+![](images/46bd0a000453cf3f3df0c184b9cd2b0d58453406435f4ed16de0533dce33bb04.webp)  
 (a)
 
-![](images/1e5df29d1fa77d03128aab2dc1edd46f4f70fe31d5cc4e2e4ba6bc819e1af2c8.jpg)  
+![](images/1e5df29d1fa77d03128aab2dc1edd46f4f70fe31d5cc4e2e4ba6bc819e1af2c8.webp)  
 (b)
 
-![](images/0a9323edab3f997ec41993d6d4d8618f06c69d00cb4dade28f166077b920f26a.jpg)  
+![](images/0a9323edab3f997ec41993d6d4d8618f06c69d00cb4dade28f166077b920f26a.webp)  
 (c)   
 Figure 13.10. Modifiable Areal Unit Problem (MAUP) example, showing how different boundaries for aggregation regions lead to very different visual patterns on choropleth maps. (a) Central region is high density. (b) Central region is medium density. (c) Central region is low density. From http://www.e-education.psu.edu/geog486/l4 p7.html, Figure 4.cg.6.
 
@@ -5822,20 +5822,20 @@ The challenge of spatial aggregation is to take the spatial nature of data into 
 
 The geowigs family of idioms, namely, geographically weighted interactive graphics, provides sophisticated support for spatial aggregation using geographically weighted regression and geographically weighted summary statistics [Dykes and Brunsdon 07]. Figure 13.11 shows a multivariate geographic dataset used to explore social issues in 19th century France. The six quantitative attributes are population per crime against persons $( x l )$ , population per crime against property $( x 2 )$ , percentage who can read
 
-![](images/c9af486dcb0a3b30b5276d6d5e4d1ce5e01d8dea0bbde1f6a2e019ad1f6a059e.jpg)  
+![](images/c9af486dcb0a3b30b5276d6d5e4d1ce5e01d8dea0bbde1f6a2e019ad1f6a059e.webp)  
 (a)
 
-![](images/caee5784af551bb4b7d558654e9af01c55854a2c4e62a154f33d58ec0fc49ecd.jpg)
+![](images/caee5784af551bb4b7d558654e9af01c55854a2c4e62a154f33d58ec0fc49ecd.webp)
 
-![](images/3616bed1f9e3342c141f73db16ca1cb9ab727365a874bf95430ec249764b3a1d.jpg)  
+![](images/3616bed1f9e3342c141f73db16ca1cb9ab727365a874bf95430ec249764b3a1d.webp)  
 (b)
 
-![](images/7555f7ebb5949f043eb7d86e393fa0e76bc4c9fa3fa28ee7e0776f55433f0824.jpg)
+![](images/7555f7ebb5949f043eb7d86e393fa0e76bc4c9fa3fa28ee7e0776f55433f0824.webp)
 
-![](images/517ac69ee306f9613e10f0baa46c290bc8c4b299ed555bc9a7d6e5ff9491b2b7.jpg)  
+![](images/517ac69ee306f9613e10f0baa46c290bc8c4b299ed555bc9a7d6e5ff9491b2b7.webp)  
 (c)
 
-![](images/74cc9476f016d7eb3eb9f09ce2e3732cbb233578833527ababc8f6918ae7b019.jpg)  
+![](images/74cc9476f016d7eb3eb9f09ce2e3732cbb233578833527ababc8f6918ae7b019.webp)  
 (d)   
 Figure 13.11. Geowigs are geographically weighted interactive graphics. (a) A choropleth map showing attribute x1. (b) The set of gw-boxplots for all six attributes at two scales. (c) Weighting maps showing the scales: local and larger. (d) A gw-mean map at the larger scale. From [Dykes and Brunsdon 07, Figures 7a and 2].
 
@@ -5882,14 +5882,14 @@ Images, videos, and other multimedia documents are usually transformed to create
 
 A typical analysis scenario is complex enough that it is useful to break it down into a chained sequence, rather than just analyzing it as a single instance. In the first step, a low-dimensional table is derived from the high-dimensional table using multidimensional scaling. In the second step, the low-dimensional data is encoded as a color-coded scatterplot, according to a conjectured clustering. The user’s goal is a discovery task, to verify whether there are visible clusters and identify those that have semantic meaning given the documents that comprise them. Figure 13.12 shows a scatterplot view of a real-world document collection dataset, dimensionally reduced with the Glimmer multidimensional scaling (MDS) algorithm [Ingram et al. 09]. In this scenario, the user can interactively navigate within the scatterplot, and selecting a point shows document keywords in a popup display and the full text of the document in another view. In the third step, the user’s goal is to produce annotations by adding text labels to the verified clusters. Figure 13.13 summarizes this what–why– how analyis.
 
-![](images/ffd20df932bc839079bf29d372a6c00d71801b0146998e9f9e61f2a88d4219a4.jpg)
+![](images/ffd20df932bc839079bf29d372a6c00d71801b0146998e9f9e61f2a88d4219a4.webp)
 
-![](images/240fded854ef17201b702ed74e0a4f10ea87ca4055bcfdcbd82ee6d0ebdbc914.jpg)  
+![](images/240fded854ef17201b702ed74e0a4f10ea87ca4055bcfdcbd82ee6d0ebdbc914.webp)  
 Figure 13.12. Dimensionality reduction of a large document collection using Glimmer for multidimensional scaling. The results are laid out in a single 2D scatterplot, allowing the user to verify that the conjectured clustering shown with color coding is partially supported by the spatial layout. From [Ingram et al. 09, Figure 8].
 
-![](images/e9874d03c2963623ac5d45612741e0c65c2c7ca459dec219ee8a513ffeeab55b.jpg)
+![](images/e9874d03c2963623ac5d45612741e0c65c2c7ca459dec219ee8a513ffeeab55b.webp)
 
-![](images/e468fe71c4bc99f85340c63d09b76287b38abf9d4c72fbb26dcebf302b6a95bb.jpg)  
+![](images/e468fe71c4bc99f85340c63d09b76287b38abf9d4c72fbb26dcebf302b6a95bb.webp)  
 Figure 13.13. A chained sequence of what–why–how analysis instances for the scenario of dimensionality reduction of document collection data.
 
 <table><tr><td>Idiom</td><td>Dimensionality Reduction for Document Collections</td></tr><tr><td>What: Data</td><td>Text document collection.</td></tr><tr><td>What: Derived</td><td>Table with 10,000 attributes.</td></tr><tr><td>What: Derived</td><td>Table with two attributes.</td></tr><tr><td>How: Encode</td><td>Scatterplot, colored by conjectured clustering.</td></tr><tr><td>How: Reduce</td><td>Attribute aggregation (dimensionality reduction) with MDS.</td></tr><tr><td>Scale</td><td>Original attributes: 10,000. Derived attributes: two. Items: 100,000.</td></tr></table>
@@ -5932,29 +5932,29 @@ Dimensionality Reduction The foundational ideas behind multidimensional scaling 
 
 Elide Data
 
-![](images/7ba617344d6d180f1bd152a759ccaf625ef880b8d7208fae1d4090780dcf587a.jpg)
+![](images/7ba617344d6d180f1bd152a759ccaf625ef880b8d7208fae1d4090780dcf587a.webp)
 
 Superimpose Layer
 
-![](images/6cf98a1e42ff4571ab68e889ec7058cf10b4d8e2e108f443e2b3ad8d76312ba7.jpg)
+![](images/6cf98a1e42ff4571ab68e889ec7058cf10b4d8e2e108f443e2b3ad8d76312ba7.webp)
 
 Distor t Geometr y
 
-![](images/be7cc56dff48887d45b07b1e3f6e27d94e8579f92ebb9745713412ad695c3ea1.jpg)
+![](images/be7cc56dff48887d45b07b1e3f6e27d94e8579f92ebb9745713412ad695c3ea1.webp)
 
 # Reduce
 
 $\circled{ \div}$ Filter
 
-![](images/45509cef3706172b8dd6046b15f07ff0985008f852b213e963d72694fa5f53d3.jpg)
+![](images/45509cef3706172b8dd6046b15f07ff0985008f852b213e963d72694fa5f53d3.webp)
 
 $\circled{ \div}$ Aggregate
 
-![](images/0dd2cc7e0c7985062745c18fc3518e3f165fd3b30b5aae74d922b252e99c222f.jpg)
+![](images/0dd2cc7e0c7985062745c18fc3518e3f165fd3b30b5aae74d922b252e99c222f.webp)
 
 $\circled{  }$ Embed
 
-![](images/533a7c591d15141f600145074dc91398c3393cf955db3fe63e684af62183d74b.jpg)  
+![](images/533a7c591d15141f600145074dc91398c3393cf955db3fe63e684af62183d74b.webp)  
 Figure 14.1. Design choices for embedding focus information within context.
 
 # Chapter 14
@@ -5993,7 +5993,7 @@ pletely elided items to filter out. Those interpretations are made by algorithms
 
 The DOITrees Revisited system shown in Figure 14.2 uses multiple foci to show an elided version of a 600,000 node tree. The shaded triangles provide an aggregate representation showing the size of the elided subtrees. The context in which to show them is computed using tree traversal from the many focus nodes up toward their common ancestors and the tree root. In this case, distance is computed topologically based on hops through the tree, rather than geometrically through Euclidean space. The focus nodes can be chosen explicitly by clicking, or indirectly through searching.
 
-![](images/792bbb12fcad28c208b80bbd2d360e0038851be5cd1021c51bcf3fa0eb50a010.jpg)  
+![](images/792bbb12fcad28c208b80bbd2d360e0038851be5cd1021c51bcf3fa0eb50a010.webp)  
 Figure 14.2. DOITrees Revisited uses elision to show multiple focus nodes within context in a 600,000 node tree. From [Heer and Card 04, Figure 1].
 
 <table><tr><td>System</td><td>DOITrees Revisited</td></tr><tr><td>What: Data</td><td>Tree.</td></tr><tr><td>How: Encode</td><td>Node-link layout.</td></tr><tr><td>How: Reduce</td><td>Embed: elide, multiple foci.</td></tr><tr><td>Scale</td><td>Nodes: hundreds of thousands.</td></tr></table>
@@ -6014,7 +6014,7 @@ Another choice for integrating focus and context is the use of superimposed laye
 
 The Toolglass and Magic Lenses system shown in Figure 14.3 uses a seethrough lens to show color-coded Gaussian curvature in a foreground layer, atop the background layer consisting of the rest of the 3D scene. Within the lens, details are shown, and the unchanged remainder of the other view provides context. The lens layer occludes the region beneath it. The system handled many different kinds of data with different visual encodings of it; this example shows 3D spatial data. The curvature lens shows that the object in the scene that appears to be a perfect sphere when rendered with standard computer graphics techniques is in fact a faceted object made from multiple patches.
 
-![](images/90ee5dd640c4837d5ca4c23d32bbc7b39c9bece1d60158e9ca42b8708a2e1a34.jpg)  
+![](images/90ee5dd640c4837d5ca4c23d32bbc7b39c9bece1d60158e9ca42b8708a2e1a34.webp)  
 Figure 14.3. The Toolglass and Magic Lenses idiom provides focus and context through a superimposed local layer: the see-through lens color codes the patchwork sphere with Gaussian curvature information and provides a numeric value for the point at the center. From [Bier et al. 93, Figure 12].
 
 # System
@@ -6045,7 +6045,7 @@ These choices are now illustrated through five examples of distortion idioms: 3D
 
 Several early idioms used 3D perspective to provide a global distortion region with a single focus point. The interaction metaphor was constrained geometric navigation. The perspective distortion arising from
 
-![](images/2a57e3a8a199f1ab41bf697de3f01c59bb72e947e1d7b0a44dc393a218fbb55c.jpg)  
+![](images/2a57e3a8a199f1ab41bf697de3f01c59bb72e947e1d7b0a44dc393a218fbb55c.webp)  
 Figure 14.4. The Cone Tree system used 3D perspective for focus+context, providing a global distortion region with a single focus point, and using standard geometric navigation for interaction. From [Card and Mackinlay 99, Figure 10].
 
 The costs and benefits of 3D are discussed in Section 6.3.
@@ -6062,10 +6062,10 @@ The fisheye lens distortion idiom uses a single focus with local extent and radi
 
 Figure 14.5 shows two examples of a fisheye lens used with an online poker player dataset. The scatterplot in Figure 14.5(a) shows the percentage of time that a player goes to showdown (playing until people have to show all of their cards) versus the flop (playing until the point where three cards are placed face-up on the board). In the dense matrix view of Figure 14.5(b), blocks representing players are color coded according to their winning rate, and a space-filling curve is used to lay out these blocks in order of a specific derived attribute; in this case, a particular betting strategy. In the parts of the scene under the fisheye lens, the labels are large enough to read; that focus region remains embedded within
 
-![](images/7e9831c2dd8f4f09ba7017ccc152495e708d83bcd1f726177166867f065d3847.jpg)  
+![](images/7e9831c2dd8f4f09ba7017ccc152495e708d83bcd1f726177166867f065d3847.webp)  
 (a)
 
-![](images/0ee59058afe4bb28019745f0f58d4020864bbde7982e7e650591a06b958b15df.jpg)  
+![](images/0ee59058afe4bb28019745f0f58d4020864bbde7982e7e650591a06b958b15df.webp)  
 (b)   
 Figure 14.5. Focus+context with interactive fisheye lens, with poker player dataset. (a) Scatterplot showing correlation between two strategies. (b) Dense matrix view showing correlation between a specific complex strategy and the player’s winning rate, encoded by color.
 
@@ -6077,7 +6077,7 @@ the surrounding context, showing the global pattern within the rest of the datas
 
 The distortion idiom of hyperbolic geometry uses a single radial global focus with the interaction metaphor of hyperbolic translation. This approach exploits the mathematics of non-Euclidean geometry to elegantly accommodate structures such as trees that grow by an exponential factor, in contrast to standard Euclidean geometry where there is only a polynomial amount of space available for placing items. An infinite non-Euclidean plane can be mapped to a finite Euclidean circle, and similarly an infinite non-Euclidean volume can be mapped to a finite sphere in Euclidean space. The interaction metaphor is hyperbolic translation, which corresponds to changing the focus point of the projection; the visual effect
 
-![](images/d627eef6761bf80318c24d6b3c51535cbe31f03d27b421ddb1d9c0627299d761.jpg)  
+![](images/d627eef6761bf80318c24d6b3c51535cbe31f03d27b421ddb1d9c0627299d761.webp)  
 Figure 14.6. Animated transition showing navigation through 3D hyperbolic geometry for a file system tree laid out with the H3 idiom, where the first three frames show hyperbolic translation changing the focus point and the last three show standard 3D rotation spinning the structure around. From [Munzner 98, Figure 3].
 
 is changing which items are magnified at the center, versus minimized at the periphery, for a global effect with similarities to using a fisheye lens that extends across the entire scene.
@@ -6094,12 +6094,12 @@ The stretch and squish navigation idiom uses multiple rectangular foci of global
 
 These figures also illustrate the visual encoding idiom of guaranteed visibility that ensures that important objects are always visible within the scene, even if they are very small. Guaranteed visibility is an example of aggregation that operates at the subpixel level and takes the importance attribute of each item into account. Standard graphics systems use assumptions that work well when drawing realistic scenes but are not necessarily true for abstract data. In reality, distant objects are not visually
 
-![](images/31a2ac8bd5f8f17388e22caaf002a3e56d55ec69b3bbd3c9bc2fe21027092d51.jpg)
+![](images/31a2ac8bd5f8f17388e22caaf002a3e56d55ec69b3bbd3c9bc2fe21027092d51.webp)
 
-![](images/96b48bacb1c2bfac1c45af204271c4265547c028b3e309cdd093ce8946c91ebe.jpg)  
+![](images/96b48bacb1c2bfac1c45af204271c4265547c028b3e309cdd093ce8946c91ebe.webp)  
 (b)
 
-![](images/39600d73d48abae91e5d1a52169003a353e5b679071052a2e1bcba10bec72b6c.jpg)  
+![](images/39600d73d48abae91e5d1a52169003a353e5b679071052a2e1bcba10bec72b6c.webp)  
 Figure 14.7. TreeJuxtaposer uses stretch and squish navigation with multiple rectangular foci for exploring phylogenetic trees. (a) Stretching a single region when comparing two small trees. (b) Stretching multiple regions within a large tree. From [Munzner et al. 03, Figures 5 and 1].   
 Figure 14.8. PRISequenceJuxtaposer supports comparing gene sequences using the stretch and squish navigation idiom with the guaranteed visibility of marks representing items with a high importance value, via a rendering algorithm with custom subpixel aggregation. From [Slack et al. 06, Figure 3].
 
@@ -6113,18 +6113,18 @@ used for the box color coding also indicates importance, so the boxes representi
 
 The nonlinear magnification fields idiom relies on a general computational framework featuring multiple foci of arbitrary magnification levels and shapes, whose scope can be constrained to affect only local regions. The underlying mathematical framework supports calculations of the implicit
 
-![](images/723d1b503c82b528ede7a7670ab06fd9646202f73d3484c16e86e6a516d12a2b.jpg)
+![](images/723d1b503c82b528ede7a7670ab06fd9646202f73d3484c16e86e6a516d12a2b.webp)
 
-![](images/0b54a07512a0eea1b403a6df31746826455bf5b33db30b5253d9d4bbad00877f.jpg)
+![](images/0b54a07512a0eea1b403a6df31746826455bf5b33db30b5253d9d4bbad00877f.webp)
 
-![](images/15e2676a9de6f3a85a8ba22370ef9d1929950b95c166e70e4b1a039793b96fdb.jpg)  
+![](images/15e2676a9de6f3a85a8ba22370ef9d1929950b95c166e70e4b1a039793b96fdb.webp)  
 (a)
 
-![](images/dbf6142e2868bd92b263405cafd5e29804c6d3866a6c743720c426fe9377e3aa.jpg)
+![](images/dbf6142e2868bd92b263405cafd5e29804c6d3866a6c743720c426fe9377e3aa.webp)
 
-![](images/d8a200d0d233267e3707c4070ceb1af7b7e25013a585b4e1f5e7023e4629b685.jpg)
+![](images/d8a200d0d233267e3707c4070ceb1af7b7e25013a585b4e1f5e7023e4629b685.webp)
 
-![](images/cbb4424d7b932d54a2ee8e44d44bf97bb9fcfab0fe17a2ba228613c5257b077d.jpg)  
+![](images/cbb4424d7b932d54a2ee8e44d44bf97bb9fcfab0fe17a2ba228613c5257b077d.webp)  
 (b)   
 Figure 14.9. General frameworks calculate the magnification and minimization fields needed to achieve desired transformations in the image. (a) Desired transformations. (b) Calculated magnification fields. From [Keahey 98, Figure 3].
 
@@ -6150,15 +6150,15 @@ Figure 14.10 illustrates four different approaches on the same node–link graph
 
 The local fisheye distortion has a small circle region of very high magnification at the center of the lens surrounded by a larger intermediate region that continuously varies from medium magnification to very high compression, returning to low compression in the outer periphery. Although fisheye lenses were developed with the goal of reducing the viewer’s disorientation, unfortunately they can be quite disorienting. The continuous magnification change introduces some amount of cognitive load to untangle the underlying shape from the imposed distortion. Distortion is less problematic with familiar shapes, like geographic maps of known places, be-
 
-![](images/0b09acffd0f3538672d73ddee1e0abfc5506a84e074812e87fc1af64b85eeb24.jpg)  
+![](images/0b09acffd0f3538672d73ddee1e0abfc5506a84e074812e87fc1af64b85eeb24.webp)  
 (a)
 
-![](images/ac67ec549f0a7189a2d588104be54da42807e9fc67b7acdd5e8f637e6d5119bb.jpg)  
+![](images/ac67ec549f0a7189a2d588104be54da42807e9fc67b7acdd5e8f637e6d5119bb.webp)  
 (b)
 
-![](images/1d3a4fb55adf591c803c319b157c9c10436e1cffeecb7dfb3597d1b2b0fe1795.jpg)
+![](images/1d3a4fb55adf591c803c319b157c9c10436e1cffeecb7dfb3597d1b2b0fe1795.webp)
 
-![](images/2ae34c7ef9e09ba95de06c19cf3eccdb19bd301498de4ecbfb8a4e781c32b33f.jpg)  
+![](images/2ae34c7ef9e09ba95de06c19cf3eccdb19bd301498de4ecbfb8a4e781c32b33f.webp)  
   
 Figure 14.10. Four approaches to graph exploration. (a) Fisheye lens. (b) Magnifying lens. (c) Neighborhood highlighting with layering. (d) Neighborhood highlighting with both layering and Bring and Go interaction. From [Lambert et al. 10, Figures 2a, 2b, 3b, and 4b].
 
@@ -6188,24 +6188,24 @@ Hyperbolic Geometry Hyperbolic 2D trees were proposed at Xerox PARC [Lamping et 
 
 Stretch and Squish Navigation The TreeJuxtaposer system proposed the guaranteed visibility idiom and presented algorithms for stretch and squish navigation of large trees [Munzner et al. 03], followed by the PRISAD framework that provided further scalability and handled several data types [Slack et al. 06].
 
-![](images/259cc7fb0e7de191b4c2356442f663285d5afd85f85f7a169bbe271f485ee41f.jpg)
+![](images/259cc7fb0e7de191b4c2356442f663285d5afd85f85f7a169bbe271f485ee41f.webp)
 
 #
 
-![](images/0e9dcad1ccf1b84beb39454ed6b99c8bbd097133e08f2884b2cafe494f685c7d.jpg)  
+![](images/0e9dcad1ccf1b84beb39454ed6b99c8bbd097133e08f2884b2cafe494f685c7d.webp)  
 (a)
 
-![](images/e9ef0992848a70616df96d45f3b2ec3445a03e5c730f9728d07a19f0a0dd699e.jpg)  
+![](images/e9ef0992848a70616df96d45f3b2ec3445a03e5c730f9728d07a19f0a0dd699e.webp)  
 (b)
 
-![](images/176d1b0716a9964864737a3501b7daee85ba9b7b740331ced70bfc6b56e113f4.jpg)
+![](images/176d1b0716a9964864737a3501b7daee85ba9b7b740331ced70bfc6b56e113f4.webp)
 
-![](images/7153819f75ff6be1a9818ab74cb336376726a9d279f5841cb47ccecca853b597.jpg)  
+![](images/7153819f75ff6be1a9818ab74cb336376726a9d279f5841cb47ccecca853b597.webp)  
 (d)
 
-![](images/b5f31e3ffeea80f7e89f6b8c3bd4862e5bad223adcf63a93cb402a800561e36c.jpg)
+![](images/b5f31e3ffeea80f7e89f6b8c3bd4862e5bad223adcf63a93cb402a800561e36c.webp)
 
-![](images/58c31d4791bd047cda6a36a9a7db5d33206d09e94fb34a30098a4eab7242a18c.jpg)  
+![](images/58c31d4791bd047cda6a36a9a7db5d33206d09e94fb34a30098a4eab7242a18c.webp)  
 (f)   
 Figure 15.1. Six case studies of full vis systems. (a) Scagnostics, from [Wilkinson et al. 05, Figure 5]. (b) VisDB, from [Keim and Kriegel 94, Figure 6]. (c) Hierarchical Clustering Explorer, from [Seo and Shneiderman 05, Figure 1]. (d) PivotGraph, from [Wattenberg 06, Figure 5]. (e) InterRing, from [Yang et al. 02, Figure 4]. (f) Constellation, from [Munzner 00, Figure 5.5].
 
@@ -6236,7 +6236,7 @@ SPLOMs are an example of the design choice of matrix alignments, discussed in Se
 
 Graph-theoretic scagnostics is a scalable idiom for the exploration of scatterplot matrices, or SPLOMs [Wilkinson et al. 05, Wilkinson et al. 06]. A scagnostics SPLOM is a next step beyond a standard SPLOM, just as a SPLOM is a step beyond a single scatterplot. A single scatterplot supports direct comparison between two attributes by plotting their values along two spatial axes. A scatterplot matrix is the systematic way to compare all possible pairs of attributes, with the attributes ordered along both the rows and the columns and one scatterplot at each cell of the matrix. Figure 15.2 shows a SPLOM for a dataset of abalone measurements that has nine attributes.
 
-![](images/a730662944a6fab1171808f40f28f445564d8bc344b884c8ba9e29149dad098f.jpg)  
+![](images/a730662944a6fab1171808f40f28f445564d8bc344b884c8ba9e29149dad098f.webp)  
 Figure 15.2. Scatterplot matrices (SPLOM) showing abalone data. From [Wilkinson et al. 05, Figure 1].
 
 The scalability challenge of a SPLOM is that the size of the matrix grows quadratically. Each individual plot requires enough screen space to distinguish the points within it, so this idiom does not scale well past a few dozen attributes.
@@ -6249,10 +6249,10 @@ The idea is that the distribution of points in the scagnostics SPLOM should prov
 
 <table><tr><td>System</td><td>Scagnostics</td></tr><tr><td>What: Data</td><td>Table.</td></tr><tr><td>What: Derived</td><td>Nine quantitative attributes per scatterplot (pairwise combination of original attributes).</td></tr><tr><td>Why: Tasks</td><td>Identify, compare, and summarize; distributions and correlation.</td></tr><tr><td>How: Encode</td><td>Scatterplot, scatterplot matrix.</td></tr><tr><td>How: Manipulate</td><td>Select.</td></tr><tr><td>How: Facet</td><td>Juxtaposed small-multiple views coordinated with linked highlighting, popup detail view.</td></tr><tr><td>Scale</td><td>Original attributes: dozens.</td></tr></table>
 
-![](images/119aac9590620bc9d939034d29ca16d61b55cd69ae7db5a16dee50f2281f2984.jpg)  
+![](images/119aac9590620bc9d939034d29ca16d61b55cd69ae7db5a16dee50f2281f2984.webp)  
 Figure 15.3. The nine scagnostics measures that describe scatterplot shape, with examples of real-world datasets rated low, medium, and high for each of the nine measures. From [Wilkinson and Wills 08, Figure 6].
 
-![](images/81b35ed29247ff3bce98392a52b0a74ca0aceb3d2b6a5c4246e6eca9dd10185c.jpg)  
+![](images/81b35ed29247ff3bce98392a52b0a74ca0aceb3d2b6a5c4246e6eca9dd10185c.webp)  
 Figure 15.4. Scagnostics SPLOM for the abalone dataset, where each point represents an entire scatterplot in the original matrix. The selected point is highlighed in red in each view, and the scatterplot corresponding to it is shown in a popup detail view. From [Wilkinson et al. 05, Figure 5].
 
 # 15.4 VisDB
@@ -6265,19 +6265,19 @@ The spatial ordering of regions within VisDB views is not a standard aligned rec
 
 One of the two layouts partitions the dataset by attribute into small multiple views shown side by side, with one view for each attribute. Figure 15.5(a) illustrates the idiom schematically, and Figure 15.6(a) shows an example with a dataset of 1000 items. The items are placed in the same order across all views but colored according to relevance score for that view’s attribute. They are ordered by the derived overall relevance attribute, which is also the coloring attribute in the upper left view; spatial position and color provide redundant information in this view. In the other views with coloring by each other attribute, there are different visual patterns of color. The user can inspect the patterns within the individual views to carry out the abstract task of characterizing distributions and finding groups of similar values within individual attributes and per-attribute outlier detection. Comparing between the patterns in different views corresponds to the abstract task of looking for correlations between attributes.
 
-![](images/710b761fafc3e860263c295693745650edb56a6324153e5cb54fa175f8147d67.jpg)  
+![](images/710b761fafc3e860263c295693745650edb56a6324153e5cb54fa175f8147d67.webp)  
 (a)
 
-![](images/8d946a8b18bbbde28b08ab418e724eca7f48ab79784f76580d5f17d48dbe268d.jpg)  
+![](images/8d946a8b18bbbde28b08ab418e724eca7f48ab79784f76580d5f17d48dbe268d.webp)  
 (b)   
 Figure 15.5. VisDB layouts schematically, for a dataset with five attributes. (a) Each attribute is shown in a separate small-multiple view. (b) In an alternate VisDB layout, each item is shown with a glyph with per-attribute sections in a single combined view. From [Keim and Kriegel 94, Figures 2 and 4].
 
 The second layout uses a single view where the space has been partitioned into one region for each item, containing a glyph that shows all of the attributes for that item. Figure 15.5(b) shows the schematic diagram, and Figure 15.6(b) shows a screenshot. This item-based partition supports the abstract task of comparison across items and finding groups of similar items, rather than comparison across attributes.
 
-![](images/40364c791a9fbd08b4487f9620c9d216ecde04a4d24fda35f0c4e2551c24b0a9.jpg)  
+![](images/40364c791a9fbd08b4487f9620c9d216ecde04a4d24fda35f0c4e2551c24b0a9.webp)  
 (a)
 
-![](images/cd9157009a3901ed9782f3c9be5ea2040d7788d0c10e46513de2e2d5c35a1292.jpg)  
+![](images/cd9157009a3901ed9782f3c9be5ea2040d7788d0c10e46513de2e2d5c35a1292.webp)  
 (b)   
 Figure 15.6. VisDB screenshots with a dataset of eight attributes and 1000 items. (a) Attribute-based grouping with one small-multiple view for each attribute. (b) Item-based grouping has a single combined view with multiattribute glyph. From [Keim and Kriegel 94, Figure 6].
 
@@ -6287,10 +6287,10 @@ The small-multiples layout is effective for up to 10–12 attributes, where each
 
 VisDB is an early example of a very information-dense design that tests the upper limits of useful information density. It is also a very clear example of how different strategies for partitioning space can be used to support different tasks.
 
-![](images/b4a44d7b2a33cc1226f6d63aa3ba43193cd7188ddc8e5594b53954ca54b6bfe2.jpg)  
+![](images/b4a44d7b2a33cc1226f6d63aa3ba43193cd7188ddc8e5594b53954ca54b6bfe2.webp)  
 (a)
 
-![](images/6b73e3c666b5d74743a006c12678c609d5aa3c25b71e3277e8f6c5c67c7459e1.jpg)  
+![](images/6b73e3c666b5d74743a006c12678c609d5aa3c25b71e3277e8f6c5c67c7459e1.webp)  
 (b)   
 Figure 15.7. VisDB layout orientation and colors. (a) Layouts are are ordered internally in a spiral emanating from the center. (b) The VisDB sequential colormap uses multiple hues with monotonically increasing luminance. From [Keim and Kriegel 94, Figures 2 and 3].
 
@@ -6308,14 +6308,14 @@ The overview cluster heatmap at the top uses an aggregated representation where 
 
 ‣ For more on cluster heatmaps, see Section 7.5.2.
 
-![](images/b953455ae84072b3baa49f8da512bebd8338b5d1a1e0d6ab9eb1016b64c700e6.jpg)  
+![](images/b953455ae84072b3baa49f8da512bebd8338b5d1a1e0d6ab9eb1016b64c700e6.webp)  
 Figure 15.8. Hierachical Clustering Explorer uses interactive aggregation and filtering for the scalable display of a multidimensional table showing gene activity in different conditions using multiple overview+detail cluster heatmap views. From [Seo and Shneiderman 02, Figure 2].
 
 drogram above the bar and partitions the heatmap into pieces that correspond to the number of clusters just below the bar.
 
 The detail view at the bottom shows a heatmap of the cluster selected in the top overview. It also shows the second dendrogram for hierarchical clustering of the rows on the side; this dendrogram is not shown above in order to to maximize the number of columns that can fit within the overview. The background of the
 
-![](images/1ba76d05cb3da0507897e1c94bd3ce1b3a42af69e5739dce0d6a44ffc18f7f32.jpg)  
+![](images/1ba76d05cb3da0507897e1c94bd3ce1b3a42af69e5739dce0d6a44ffc18f7f32.webp)  
 Figure 15.9. HCE on a demographics dataset showing the rank-by-feature idiom for systematic exploration of pairwise combinations of attributes using a matrix overview and scatterplot. From [Seo and Shneiderman 05, Figure 1].
 
 selected cluster is highlighted in yellow in the overview, and the correspondence between the views is emphasized by coloring the column labels along the top of the detail view yellow as well, for linked highlighting.
@@ -6324,7 +6324,7 @@ HCE has also been used for exploring datasets from other domains, including cens
 
 * Mapping the name of this idiom into the vocabulary used in this book, rank is used as a synonym for order, and feature means either attribute or attribute pair.
 
-![](images/15825dc313799a98f0a5f19928d3395fb055fa00561beb622c42dc097fc58285.jpg)  
+![](images/15825dc313799a98f0a5f19928d3395fb055fa00561beb622c42dc097fc58285.webp)  
 Figure 15.10. Detail of HCE rank-by-feature views for ranking individual attributes using a list overview and histogram/boxplot. From [Seo and Shneiderman 05, Figure 2].
 
 The results appear in three views, as shown at the bottom of Figure 15.9 and in the detail screenshot in Figure 15.10. The lower left of Figure 15.9 shows an aggregate compact view with the same matrix alignment as a SPLOM, where each cell of the matrix has only a single area mark colored by the chosen criterion with a diverging blue–white–brown colormap. On the left of Figure 15.10 is a compact aggregate overview display with list alignment that matches the ordering used in the cluster heatmap, with the same area mark coloring. In the middle of Figure 15.10 is an intermediate level of detail view for all attributes that shows them in a list alignment that is both ordered and colored by the criterion. This list is less compact, showing a middle level of detail for each attribute, and thus it supports navigation through scrolling. On the right is a detail view to show the full details for the selected attribute with a histogram as shown in Figure 15.10, or the selected attribute pair with a scatterplot as shown in Figure 15.9. The user can select by clicking on a cell in the list or matrix views or by flipping through alternatives quickly using the single or double sliders in the respective detail views.*
@@ -6337,10 +6337,10 @@ The results appear in three views, as shown at the bottom of Figure 15.9 and in 
 
 Connection, containment, and matrix views of networks are different visual encodings of the same data abstraction; they both depict the link structure of a network. In contrast, the PivotGraph idiom [Wattenberg 06] visually encodes a different data abstraction: a new network derived from the original one by aggregating groups of nodes and links into a roll-up according to categorical attribute values on the nodes. The user can also select attributes of interest that filter the derived network. Roll-ups can be made for up to two attributes at once; for two dimensions nodes are laid out on a grid, and for one dimension they are laid out on a line. Node positions in the grid are computed to minimize link-crossing clutter, and the links between them are drawn as curves. The user interactively explores the graph through roll-up and selection to see visual encodings that directly summarize the high-level relationships between the attribute-based groups and can drill down to see more details for any node or link on demand. When the user chooses a different roll-up, an animated transition smoothly interpolates between the two layouts.
 
-![](images/760d852eebc0ca69791546a4a6df90c662d9467beddae03e476191b7408081cb.jpg)  
+![](images/760d852eebc0ca69791546a4a6df90c662d9467beddae03e476191b7408081cb.webp)  
 (a)
 
-![](images/2e685761e6aa20b13331a6e2946df64afed1fbd7acd609d045d7bf15fb31c75a.jpg)  
+![](images/2e685761e6aa20b13331a6e2946df64afed1fbd7acd609d045d7bf15fb31c75a.webp)  
 (b)   
 Figure 15.11. The PivotGraph idiom. (a) Node–link view of small network with two attributes on nodes: gender (M/F) is encoded by node shape, and company division (1/2) is encoded by grayscale value. (b) The schematic PivotGraph roll-up of the same simple network where size of nodes and links of the derived graph shows the number of items in these aggregated groups. From [Wattenberg 06, Figure 4].
 
@@ -6348,7 +6348,7 @@ Figure 15.11 shows an example of a simple node–link drawing in Figure 15.11(a)
 
 Figure 15.12 shows a more complex example rolled up by gender and office locations; the dataset is an anonymized version of a real corporate social network. Most of the cross-gender communication occurs in location B, and there are no women at location A. An additional quantitative attribute is encoded with a diverging
 
-![](images/e1d0862bc9841b0059ca0faa925b6a6f57a624c09fd32c31346c9ad601b9af2c.jpg)  
+![](images/e1d0862bc9841b0059ca0faa925b6a6f57a624c09fd32c31346c9ad601b9af2c.webp)  
 Figure 15.12. PivotGraph on graph rolled up by gender and location, showing most cross-gender communication occurs in location B. From [Wattenberg 06, Figure 5].
 
 red–green colormap, the number of inward links versus outward links at each node.
@@ -6371,13 +6371,13 @@ The proposed structure-based coloring redundantly emphasizes the hierarchical in
 
 The scalability of InterRing is moderate; it handles hundreds of nodes easily, where the leaf labels are large enough to read. The space-filling geometric configuration yields about three times
 
-![](images/e352dc5ca5a8e55bd5cad26a251cf6487fd9959eb5970be50f6316a77a9ac61a.jpg)  
+![](images/e352dc5ca5a8e55bd5cad26a251cf6487fd9959eb5970be50f6316a77a9ac61a.webp)  
 (a)
 
-![](images/7926d50693d9aa59f6def6f578bf4de6f97cf8bce2dd2a436934ededf23ddf82.jpg)  
+![](images/7926d50693d9aa59f6def6f578bf4de6f97cf8bce2dd2a436934ededf23ddf82.webp)  
 (b)
 
-![](images/961752ea98ee3635ba0c0d0930c7f4968f807d4e68cc2a23cc9815f95067a7c8.jpg)  
+![](images/961752ea98ee3635ba0c0d0930c7f4968f807d4e68cc2a23cc9815f95067a7c8.webp)  
 (c)   
 Figure 15.13. The InterRing hierarchy vis idiom uses a space-filling radial visual encoding and distortion-based focus+context interaction. (a) The hierarchy before distortion. (b) The blue selected subtree is enlarged. (c) A second tan region is enlarged. From [Yang et al. 02, Figure 4].
 
@@ -6399,7 +6399,7 @@ There is a categorical attribute for the relationship encoded by each link, such
 
 The linguistics researchers did not need to inspect the full network; rather, they wanted to see the results of their query algorithms that traversed the network, returning an ordered set of the
 
-![](images/5c51d8bb1193aca6325d861ada5374b89b7063bd357dd6a7397ce24133f4be25.jpg)  
+![](images/5c51d8bb1193aca6325d861ada5374b89b7063bd357dd6a7397ce24133f4be25.webp)  
 Figure 15.14. The Constellation high-level layout bases horizontal spatial position on the plausibility attribute, where more room is allocated to definitions on highly plausible and usually short paths on the left, and less room to those on less plausible and typically longer paths on the right. From [Munzner 00, Figure 5.4].
 
 top 10 or 50 highest-ranking paths between two words, a source and a sink. The paths are ranked with the quantitative attribute of plausibility, as computed by their traversal algorithms. Each path consists of an ordered list of words, and attached to each of these words is the set of all the definitions that were used during the computation to place it within the path.
@@ -6414,37 +6414,37 @@ The mid-level spatial layout handles a path segment: one word in the path along 
 
 The low-level spatial layout of a definition is illustrated in Figure 15.19(a). A ladder-like rectilinear structure encodes with both spatial position and line marks. Each leafword is enclosed in its own blue label box. Vertical lines show the hierarchical microstructure inside the definition and are colored white, and horizontal edges are color coded to show the link type.
 
-![](images/0e36bef33c9650463735fc648c351cb110182854b77a46b8130787be2ff1d7fc.jpg)  
+![](images/0e36bef33c9650463735fc648c351cb110182854b77a46b8130787be2ff1d7fc.webp)  
 (a)
 
-![](images/8323d0719e495991bcabd48b1784a330ae87dd9472ea232b541f460eba0328de.jpg)  
+![](images/8323d0719e495991bcabd48b1784a330ae87dd9472ea232b541f460eba0328de.webp)  
 (b)
 
-![](images/fd939de8a401d8e8f89c899f65e7f10a3af216a9eb4e90b3a81b5da59eb5ce07.jpg)  
+![](images/fd939de8a401d8e8f89c899f65e7f10a3af216a9eb4e90b3a81b5da59eb5ce07.webp)  
 (c)   
 Figure 15.15. Resizing grid cells to increase information density. (a) Base curvilinear grid. (b) After eliminating the empty columns. (c) After eliminating empty cell rows in each column. From [Munzner 00, Figure 5.13].
 
-![](images/c24166f00d09f8d1c8206a5897f122ab07eb20bedfc13942a7bc08d980b7feff.jpg)  
+![](images/c24166f00d09f8d1c8206a5897f122ab07eb20bedfc13942a7bc08d980b7feff.webp)  
 (a)
 
-![](images/457c45c1647d184a2eb458ef7623558663acc4ff3856ac4d008406092317d290.jpg)  
+![](images/457c45c1647d184a2eb458ef7623558663acc4ff3856ac4d008406092317d290.webp)  
 (b)
 
-![](images/203a53de36baf6225a2e5438f12670f58c7a34fddbdc44226cf3734f46198b6d.jpg)  
+![](images/203a53de36baf6225a2e5438f12670f58c7a34fddbdc44226cf3734f46198b6d.webp)  
 Figure 15.16. Constellation uses the design choice of dynamic superimposed layers. (a) Edges in the background layer are not obtrusive. (b) The newly selected foreground layer is distinguished from the background with changes of the size, luminance, and saturation channels. From [Munzner 00, Figure 5.5].   
 Figure 15.17. The constellation showing all relations of type Part is highlighted. From [Munzner 00, Figure 5.16a].
 
-![](images/821d03c8bf76e5cf140716b62c65e05393d112b730f0d81c39424e94a1a6b299.jpg)  
+![](images/821d03c8bf76e5cf140716b62c65e05393d112b730f0d81c39424e94a1a6b299.webp)  
 (a)
 
-![](images/1938ad2b97c96655ed8b30038751bd5ba012051b6caed0d7569b5ebfe208310f.jpg)  
+![](images/1938ad2b97c96655ed8b30038751bd5ba012051b6caed0d7569b5ebfe208310f.webp)  
 (b)   
 Figure 15.18. Mid-level Constellation path segment layout, using containment to show hierarchical relationship between path word in tan and its associated definitions in green. (a) One of the definitions is for the path word itself. (b) Path word that is not itself defined, but only appears within other definitions. From [Munzner 00, Figure 5.9].
 
-![](images/4bb176ba8611037a73d01cc706f7dfaa009738d0371b078e0c2dafff4911a40d.jpg)  
+![](images/4bb176ba8611037a73d01cc706f7dfaa009738d0371b078e0c2dafff4911a40d.webp)  
 (a)
 
-![](images/df6f3d708ac7d7e90e21da880804b32579368cdfa008a07419b56402b4604975.jpg)  
+![](images/df6f3d708ac7d7e90e21da880804b32579368cdfa008a07419b56402b4604975.webp)  
 (b)   
 Figure 15.19. Low-level Constellation definition layout, using rectilinear links and spatial position. (a) The base layout, with horizontal lines color-coded for link type. (b) Long-distance links are drawn between the master version of the word and all of its duplicated proxies. From [Munzner 00, Figure 5.10].
 
@@ -6452,11 +6452,11 @@ Each definition is drawn with all of its associated words in order to make it ea
 
 Constellation is optimized for three different viewing levels: a global view for interpath relationships, a local view for reading individual definitions, and an intermediate view for associations within path segments. It uses a subtle form of semantic zooming to achieve this effect, where the amount of space devoted to different classes of words changes dynamically depending on the zoom level. Figure 15.20 shows three steps of a zoom animated transition sequence. In the first frame, the words at the top are given much more space than the rest; in the last frame, the allocation of space is nearly equal for all words.
 
-![](images/f2802466dfb3d8d9c560458a1c6461d72556a26abd7ecbef7d14eabf2a07f02d.jpg)
+![](images/f2802466dfb3d8d9c560458a1c6461d72556a26abd7ecbef7d14eabf2a07f02d.webp)
 
-![](images/f1551d3efbc5a3f67d7a7745317f12fc873ceb5cdac892adea342b4324b02c9a.jpg)
+![](images/f1551d3efbc5a3f67d7a7745317f12fc873ceb5cdac892adea342b4324b02c9a.webp)
 
-![](images/7ea8df7475bb2d33475d9b41fd672e2ddc153d533eccbb44c9458e90db6cce4f.jpg)  
+![](images/7ea8df7475bb2d33475d9b41fd672e2ddc153d533eccbb44c9458e90db6cce4f.webp)  
 Figure 15.20. Constellation uses a subtle version of the semantic zooming design choice, where the space allocated for the first word versus the rest of the definition changes according to the zoom level. From [Munzner 00, Figure 5.19].
 
 <table><tr><td>System</td><td>Constellation</td></tr><tr><td>What: Data</td><td>Three-level network of paths, subgraphs (defi-nitions), and nodes (word senses).</td></tr><tr><td>Why: Tasks</td><td>Discover/verify: browse and locate types of paths, identify and compare.</td></tr><tr><td>How: Encode</td><td>Containment and connection link marks, hori-zontal spatial position for plausibility attribute, vertical spatial position for order within path, color links by type.</td></tr><tr><td>How: Manipulate</td><td>Navigate: semantic zooming. Change: Ani-mated transitions.</td></tr><tr><td>How: Reduce</td><td>Superimpose dynamic layers.</td></tr><tr><td>Scale</td><td>Paths: 10–50. Subgraphs: 1–30 per path. Nodes: several thousand.</td></tr></table>
@@ -6475,7 +6475,7 @@ InterRing The InterRing system supports hierarchy exploration through focus+cont
 
 Constellation The Constellation system supports browsing a complex multilevel network with a specialized layout and dynamic layering [Munzner et al. 99,Munzner 00].
 
-![](images/56154ad24ca6ab41ef30fa0ea56c4497d317566ca930f19919cc18c461703452.jpg)
+![](images/56154ad24ca6ab41ef30fa0ea56c4497d317566ca930f19919cc18c461703452.webp)
 
 #
 
@@ -6539,7 +6539,7 @@ Figure 7.5 Courtesy of Robert P. Bosch, Jr.
 Figure 7.6 Copyright $\circledcirc$ 2008 by IEEE.   
 Figure 7.7 Copyright $\circledcirc$ 2008 by IEEE.   
 Figure 7.10 Copyright $\circledcirc$ 2006 by IEEE.   
-Figure 7.11 From http://en.wikipedia.org/wiki/File:Heatmap.png. Created by Miguel Andrade using the program Cluster from Michael Eisen, which is available from http://rana.lbl.gov/ EisenSoftware.htm, with data extracted from the StemBase database of gene expression data.   
+Figure 7.11 From http://en.wikipedia.org/wiki/File:Heatmap.webp. Created by Miguel Andrade using the program Cluster from Michael Eisen, which is available from http://rana.lbl.gov/ EisenSoftware.htm, with data extracted from the StemBase database of gene expression data.   
 Figure 7.13 “Hyperdimensional Data Analysis Using Parallel Coordinates,” Edward J. Wegman, Journal American Statistical Association 85:411 (1990), 664–675. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
 Figure 7.14 Copyright $\circledcirc$ 1999 by IEEE.   
 Figure 7.15(a,b) “A layered grammar of graphics,” Hadley Wickham, Journal of Computational and Graphical Statistics 19:1 (2010), 3-28. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
@@ -6568,7 +6568,7 @@ Figure 9.4 Courtesy of Michael Bostock, made with D3 [Bostock et al. 11]. From h
 Figure 9.5 From “A Gallery of Large Graphs,” JDG Homologycis-n4c6, b14 and b4. Courtesy of Yifan Hu; see http://yifanhu.net/GALLERY/GRAPHS/citation.html.   
 Figure 9.6 Reprinted by permission from Macmillan Publishers Ltd: Nature Methods [Gehlenborg and Wong 12], copyright 2012.
 
-Figure 9.7 Courtesy of Michael McGuffin, from http://www.michaelmcguffin.com/courses/vis/ patternsInAdjacencyMatrix.png.   
+Figure 9.7 Courtesy of Michael McGuffin, from http://www.michaelmcguffin.com/courses/vis/ patternsInAdjacencyMatrix.webp.   
 Figure 9.8 Courtesy of David Auber, made with Tulip [Auber et al. 12].   
 Figure 9.9 Michael J. McGuffin and Jean-Marc Robert, Information Visualization (9:2) pp. 115–140, copyright $\circledcirc$ 2010 by SAGE Publications. Reprinted by Permission of SAGE.   
 Figure 9.10 Copyright $\circledcirc$ 2008 by IEEE.   
@@ -6955,7 +6955,7 @@ Figure 15.14–15.20 and 15.1(f) From the PhD thesis of Tamara Munzner [Munzner 
 [Zhang 97] Jiajie Zhang. “The Nature of External Representations in Problem Solving.” Cognitive Science 21:2 (1997), 179–217. (page 19)   
 [Zuk et al. 08] Torre Zuk, Lothar Schlesier, Petra Neumann, Mark S. Hancock, and Sheelagh Carpendale. “Heuristics for Information Visualization Evaluation.” In Proceedings of the AVI Workshop on BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV), Article no. 9. ACM, 2008. (page 78)
 
-![](images/c1773c36673f1415085df84dd8c4527cf825a987ddde9cb53ad5ae7b07d8541c.jpg)
+![](images/c1773c36673f1415085df84dd8c4527cf825a987ddde9cb53ad5ae7b07d8541c.webp)
 
 #
 

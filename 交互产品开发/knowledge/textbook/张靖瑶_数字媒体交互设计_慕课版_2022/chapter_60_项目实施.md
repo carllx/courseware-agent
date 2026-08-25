@@ -6,7 +6,7 @@
 
 微课视频
 
-![](images/EPUB/images/image_710.jpg)
+![](images/EPUB/images/image_710.webp)
 
 Adobe XD设计效果演示
 
@@ -22,7 +22,7 @@ Adobe XD设计效果演示
 
 使用“椭圆”工具在画布中创建一个圆形，在属性面板中设置圆形的边界。使用周长公式计算出周长1/4的长度2πr/4，间隙设置为130，之后在画板上看到有4个点的样式。具体设置如图6-85所示。
 
-![](images/EPUB/images/image_711.jpg)
+![](images/EPUB/images/image_711.webp)
 
 图6-85 圆形属性设置
 
@@ -30,11 +30,11 @@ Adobe XD设计效果演示
 
 再次复制画板1，然后修改画板3中圆形的旋转角度为180°，这样在运行时显示效果会更好，具体设置如图6-87所示。
 
-![](images/EPUB/images/image_712.jpg)
+![](images/EPUB/images/image_712.webp)
 
 ▲图6-86 设置画板2中圆形边界的样式
 
-![](images/EPUB/images/image_713.jpg)
+![](images/EPUB/images/image_713.webp)
 
 图6-87 旋转画板3中的圆形
 
@@ -42,13 +42,13 @@ Adobe XD设计效果演示
 
 元素样式设置完成后，进入原型模式，为3个画板添加交互效果，添加的交互顺序为画板1跳转到画板2，画板2跳转到画板3，之后画板3跳转到画板1，从而实现加载动画效果循环演示，设置“触发”为“时间”，操作“类型”为“自动制作动画”，动画效果为“渐入渐出”，持续时间为“0.6秒”，其他两个画板也如此设置，如图6-88所示。
 
-![](images/EPUB/images/image_714.jpg)
+![](images/EPUB/images/image_714.webp)
 
 图6-88 添加跳转交互
 
 设置完成后单击右上角的“运行”按钮查看运行效果，如图6-89所示。
 
-![](images/EPUB/images/image_715.jpg)
+![](images/EPUB/images/image_715.webp)
 
 图6-89 查看运行效果
 
@@ -58,7 +58,7 @@ Adobe XD设计效果演示
 
 本小节设计和制作一个左右滑动元素的效果，如图6-90所示。
 
-![](images/EPUB/images/image_716.jpg)
+![](images/EPUB/images/image_716.webp)
 
 图6-90 左右滑动元素的效果
 
@@ -72,21 +72,21 @@ Adobe XD设计效果演示
 
 要想实现左右滑动的效果，需要全部选中需要滑动的元素，如图6-91所示，然后在右侧属性面板中对“变换”选项进行设置。水平滑动、垂直滑动、水平和垂直同时滑动的按钮，如图6-92所示。再设置在滑动过程中展示的区域大小即可实现滑动效果。以水平效果为例设置图形在水平方向左右滑动展示的效果，如图6-93所示。
 
-![](images/EPUB/images/image_717.jpg)
+![](images/EPUB/images/image_717.webp)
 
 ▲图6-91 全部选中需要滑动的元素
 
-![](images/EPUB/images/image_718.jpg)
+![](images/EPUB/images/image_718.webp)
 
 ▲图6-92 设置滑动方向
 
-![](images/EPUB/images/image_719.jpg)
+![](images/EPUB/images/image_719.webp)
 
 图6-93 设置滑动显示区域大小
 
 制作完成后单击右上角的“运行”按钮，预览效果如图6-94所示。
 
-![](images/EPUB/images/image_720.jpg)
+![](images/EPUB/images/image_720.webp)
 
 图6-94 预览效果
 
@@ -96,7 +96,7 @@ Adobe XD设计效果演示
 
 本小节设计和制作轮播图效果，图片随着鼠标的拖动不停地循环切换，如图6-95所示。
 
-![](images/EPUB/images/image_721.jpg)
+![](images/EPUB/images/image_721.webp)
 
 图6-95 轮播图效果
 
@@ -108,11 +108,11 @@ Adobe XD设计效果演示
 
 因为在Adobe XD中，位于上层的元素会遮挡住下层的元素，为防止出现在拖动时造成元素有遮挡而使轮播图无法正常显示的情况，需要对3个画板中的图片进行位置调整，如第一个画板中图片的堆放顺序是123，第二个画板中图片的堆放顺序就是231，同理，第三个画板中图片的堆放顺序就是312，这样设置完成后就可以添加交互事件了，如图6-97所示。
 
-![](images/EPUB/images/image_722.jpg)
+![](images/EPUB/images/image_722.webp)
 
 ▲图6-96 添加轮播图片
 
-![](images/EPUB/images/image_723.jpg)
+![](images/EPUB/images/image_723.webp)
 
 图6-97 3个画板中的轮播图的堆放顺序
 
@@ -120,13 +120,13 @@ Adobe XD设计效果演示
 
 将3个画板分别设置成循环拖移切换的效果，详细设置如图6-98所示。
 
-![](images/EPUB/images/image_724.jpg)
+![](images/EPUB/images/image_724.webp)
 
 图6-98 设置交互效果
 
 设置完成后单击右上角的“运行”按钮，即可预览轮播图效果，如图6-99所示。
 
-![](images/EPUB/images/image_725.jpg)
+![](images/EPUB/images/image_725.webp)
 
 图6-99 轮播图效果预览
 
@@ -216,7 +216,7 @@ D.交互
 
 2.使用“文本”工具，默认情况下是单行文本，不会换行。如果想强制换行需要按\_\_\_\_\_\_键。
 
-![](images/EPUB/images/image_726.jpg)
+![](images/EPUB/images/image_726.webp)
 
 ▲扫此二维码查看
 

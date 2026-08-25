@@ -22,7 +22,7 @@ It just so happens that we already have another well-established idiom to indica
 
 List controls can be treated as palettes of goodies to use in a direct-manipulation idiom. If the list were part of a report-writing application, for example, you could click an entry and drag it to the surface of the report to add a column representing that field. It's not selection in the usual sense, because it is a completely captive operation. Without a doubt, many applications would benefit if they used list controls that supported dragging and dropping.
 
-![](images/501717f9bf409a4b2bf23c793e13c1599b09c2893aed261c0863958557bcb2e4.jpg)  
+![](images/501717f9bf409a4b2bf23c793e13c1599b09c2893aed261c0863958557bcb2e4.webp)  
 Figure 21-16: Selection normally is a mutually exclusive operation. When the need arises to discard mutual exclusivity to provide multiple selection, things can become confusing if some of the items can be scrolled out of sight. Earmarking is a solution. Put check boxes next to each text item, and use them instead of selection to indicate the user's choices. Check boxes are a clearly non-mutually exclusive idiom and a familiar GUI idiom. Users grasp the workings of this idiom right away.
 
 Such draggable items can help users gather items into a set. Providing two adjacent list controls, one showing available items and the other showing chosen items, is a common GUI idiom. One or sometimes a bidirectional pair of arrow buttons placed between them allows items to be selected and transferred from one box to the other (see Figure 21-17). It is so much more pleasant when the idiom is buttressed with the ability to just click and drag the desired item from one box to another, without having to go through the intermediate steps of selection and function invocation.
@@ -37,7 +37,7 @@ Why not let users move what's important to them to a region at the top, and sort
 
 user wants to do after long hours of familiarization with an application. It takes a lot of effort to fine-tune a directory like this, and the application must remember the exact settings from session to session. Otherwise, the ability to reorder things is worthless.
 
-![](images/09f51b20d69ab6867ab2d85f3300dd3117a313cf4c5a60e3fdf1774db069f302.jpg)  
+![](images/09f51b20d69ab6867ab2d85f3300dd3117a313cf4c5a60e3fdf1774db069f302.webp)  
 Figure 21-17: This dialog from Microsoft Outlook Express would benefit from the ability to drag a contact from the list on the left into the To, Cc, and Bcc lists. The arrow button functionality is a bit less clear since the lists that the contacts are copied to are below the list being copied from, rather than adjacent to it. Note also the unfortunate use of a horizontal scrollbar—but luckily, the dialog can be expanded by dragging the lower left corner.
 
 Being able to drag items from one place to another in a list control is powerful, but it demands that autoscrolling be implemented (see Chapter 18). If you pick up an item in the list but the place you need to drop it is currently scrolled out of view, you must be able to scroll the ListView without putting down the dragged object.
@@ -75,7 +75,7 @@ Drop-down lists (also called pop-up lists) take the place of a stack of radio bu
 
 The combo box is—as its name suggests—a combination of a list box and an edit field (see Figure 21-18). It provides an unambiguous method of data entry into a list control. As with normal list boxes, a drop-down variant has a reduced impact on screen real estate.
 
-![](images/639426c75e3800e48ae667583deb9542ecb2387950d05c31a99ca99c7809c56b.jpg)  
+![](images/639426c75e3800e48ae667583deb9542ecb2387950d05c31a99ca99c7809c56b.webp)  
 Figure 21-18: The Word font selection drop-down combo box allows users to select a font from the drop-down list or simply type the name of the desired font into the text field.
 
 Combo boxes clearly differentiate between the text-entry part and the list-selection part, minimizing user confusion. For single selection, the combo box is a superb control. You can use the edit field to enter new items, and it also shows the current selection in the list. When the current selection is showing in the edit field, the user can edit it there—sort of a poor man's edit-in-place.
@@ -120,14 +120,14 @@ Most quantitative values needed by software are bounded, yet many applications s
 
 Figure 21-19 shows a vertical trackbar used by Microsoft in the Windows Display Settings dialog. It works like a slider or scrollbar, but has several discrete positions that represent distinct resolution settings. Microsoft could easily have used a simple drop-down list in its place. In many cases, a slider is a nice choice because it displays the range of valid entries. A drop-down menu isn't much smaller, but it keeps its options hidden until clicked—a less friendly stance. It's unclear why Microsoft chose to put a slider inside a drop-down menu.
 
-![](images/28da38c1237dbe1879fcf81118baee1e9bf9bd628b74426c1a7feedfb82b8bf0.jpg)  
+![](images/28da38c1237dbe1879fcf81118baee1e9bf9bd628b74426c1a7feedfb82b8bf0.webp)  
 Figure 21-19: A bounded control lets users enter only valid values. It does not let them enter invalid values, only to reject them when they try to move on. This figure shows a bounded slider control from the Display Settings dialog in Windows. The slider (which, oddly, is deployed inside a drop-down menu) has several discrete positions. As you drag the slider, the legend beside it reflects different allowable screen resolutions, with recommended resolutions shown even when the trackbar thumb is not on the detent.
 
 # Spinners
 
 Spinner controls are a common form of numeric entry control that permit data entry using the mouse, keyboard, or finger. Spinners on the desktop contain a small edit field with two half-height buttons attached, as shown in Figure 21-20. On iOS they're called steppers and have plus or minus buttons side-by-side, making them much easier to actuate with fingers.
 
-![](images/54f2bfc67f226f0f8e684e307c2f9658ff312b3a287efede1932ae3a412c3bd8.jpg)  
+![](images/54f2bfc67f226f0f8e684e307c2f9658ff312b3a287efede1932ae3a412c3bd8.webp)  
 Figure 21-20: The Page Setup dialog from Microsoft Word makes heavy use of the spinner control. By clicking either of the small, arrowed buttons, the user may increase or decrease the specific numeric value in small, discrete steps. If the user wants to make a large change in one action or enter a precise setting, he can use the edit field portion for direct text entry. The arrow button portion of the control embodies bounding, whereas the edit field portion does not.
 
 Spinners blur the difference between bounded and unbounded controls. Using either of the two small arrow buttons enables the user to change the value in the edit field in small, discrete steps. These steps are bounded, meaning that the value doesn't go above the upper limit set by the application or below the lower limit. If the user wants to make a large change in one action or enter a specific number, he can do so by clicking in the edit field portion and typing in it, just like entering text into any other edit field. Unfortunately, the edit field portion of this control is unbounded, leaving users free to enter
@@ -140,7 +140,7 @@ Overall, the spinner is an excellent idiom and can be used in place of plain edi
 
 Dials and sliders are idioms borrowed directly from Mechanical-Age metaphors of rotating knobs and sliding levers. Dials are very space-efficient. Both can do a nice job of providing visual feedback about settings, as shown in Figure 21-21.
 
-![](images/7c837de849e8042f4bdde75add04e32c40eb76ddcd04472a6dec1693216ccfca.jpg)  
+![](images/7c837de849e8042f4bdde75add04e32c40eb76ddcd04472a6dec1693216ccfca.webp)  
 Figure 21-21: Korg's iPolysix app, a software synthesizer, makes heavy use of dials and sliders. These are effective interface elements because musicians and producers are familiar with them from hardware. More importantly, they provide users with more visual and easy-to-comprehend feedback about parameter settings than a long list of numbers, which aren't that exciting to look at while making music. iPolysix dials make users move their finger in an arc, rather than up-down or left-right swipes, which would be easier to control.
 
 Improperly implemented, dials can be extremely difficult to manipulate. Sliders are often a better option where space isn't at a premium, because they visually suggest the fact that movement is along just one axis.
@@ -161,7 +161,7 @@ Breaking free from the heritage of traditional GUI controls and the baggage of m
 
 function. Such control surfaces often provide a mechanism for visual feedback. These controls are also most appropriate for situations where users attempt to express themselves in regards to a number of variables and are willing to spend some effort developing proficiency with a challenging idiom.
 
-![](images/c795834923d83425002564e38eb7021343f4da7ba9a862183e65a5baa28dfdae.jpg)  
+![](images/c795834923d83425002564e38eb7021343f4da7ba9a862183e65a5baa28dfdae.webp)  
 Figure 21-22: Camel Audio's Alchemy Pro app employs a variety of two-dimensional bounded input controls. These provide good visual feedback, allow users to adjust multiple parameters from a single control, and support more expressive gestural user interactions. Their bounded nature also provides users with context about how the current settings fit within the allowable ranges and eliminates the chance that the user will make an invalid entry. No musician wants to be stopped by an error dialog!
 
 # Unbounded entry: text edit controls
@@ -202,7 +202,7 @@ To provide rich visual feedback, the entry field could change colors or reveal a
 
 Another good solution to the validation control problem is the hint. This little pop-up text looks and behaves much like a ToolTip: It explains the range of acceptable data for a validation control. Whereas a ToolTip appears when the cursor sits for a moment on a control, a hint appears as soon as the control detects an invalid character. (It also can appear, just like a ToolTip, if the cursor sits unmoving on the field for a second or so.) For example, if the user enters a nonnumeric character in a numeric-only field, the application would show the hint near the point of the offending entry, yet without obscuring it. It would say, for example, ZIP codes can only contain numeric characters, 0-9. Yes, the user is rejected, but he is not ignored. The hint also works for passive validation, as shown in Figure 21-23.
 
-![](images/302bbc22f962adf1b8cfdbfc4cc37a83c3ea80a5e95a4a4b5816db66cf19245b.jpg)  
+![](images/302bbc22f962adf1b8cfdbfc4cc37a83c3ea80a5e95a4a4b5816db66cf19245b.webp)  
 Figure 21-23: The ToolTip idiom is so effective that it could easily be extended to other uses. Instead of yellow ToolTips offering flyover labels for icon buttons, we could have pink ones offering flyover hints for unbounded edit fields. These hints can help eliminate traditional error messages. In this example, if the user enters a value lower than is allowed, the application would replace the entered value with the lowest allowable value and modelessly display a hint that explains the reason for the substitution. The user can enter a new value or accept the minimum without being stopped by an error dialog.
 
 # Handling out-of-bounds data
@@ -215,7 +215,7 @@ It's nice when a text edit control is smart enough to recognize appropriate unit
 
 Say that the field is requesting a column width. The user can enter either a number or a number and an indicator of the measurement system, as just described. Users also could be allowed to enter the word default, and the application would set the column width to its default value. The user could alternatively enter best fit, and the application would measure all the entries in the column and choose the most appropriate width for the circumstances. This scenario has a problem, however, because the words "default" and "best fit" must be in the user's head rather than in the application somewhere. This is easy to solve, though. All we need to do is provide the same functionality through a combo box. The user can drop down the box and find a few standard widths and the words "default" and "best fit." Microsoft uses this idea in Word, as shown in Figure 21-24.
 
-![](images/2f0c7a481ebe3189d6c596cd05fb3ac58ec4b335fd4e6f2975450b93df5f88b5.jpg)  
+![](images/2f0c7a481ebe3189d6c596cd05fb3ac58ec4b335fd4e6f2975450b93df5f88b5.webp)  
 Figure 21-24: The drop-down combo box makes an excellent tool for bounded entry fields because it can accommodate entry values other than numbers. The user doesn't have to remember or type words like "page width" or "whole page," because they are there to be chosen from the drop-down list. The application interprets the words as the appropriate number, and everyone is satisfied.
 
 The user can pull down the combo box, see items like Page Width and Whole Page, and choose the appropriate one. With this idiom, the information has migrated from the user's head into the application, where it is visible and choosable.
@@ -278,7 +278,7 @@ Shortcomings in contextual information aside, one of the biggest problems with s
 
 The ubiquity of scrollbars has resulted in some unfortunate misuse. Most significant here is their shortcomings in navigating time. Without getting too philosophical or theological, we can all hopefully agree that time has no meaningful beginning or end (at least within the perception of the human mind). What, then, is the meaning of dragging the thumb to one end of a calendar scrollbar? (See Figure 21-25.)
 
-![](images/f5f19fefd44f585dff632ff047f72e294e3e5b59b50f62c375486d827d1e857b.jpg)  
+![](images/f5f19fefd44f585dff632ff047f72e294e3e5b59b50f62c375486d827d1e857b.webp)  
 Figure 21-25: This image shows a limitation of using a scrollbar for navigating the endless stream of time. Dragging the thumb all the way to the end of the scrollbar takes the user one year into the future. This seems a bit arbitrary and limiting.
 
 On mobile platforms, and now even in some desktop apps, scrollbars appear only when scrolling takes place. This makes more sense on mobile, where scrolling is performed via gesture—although it also means that a user has to scroll when they don't really want to, in order to discover where in a document they are.
@@ -295,7 +295,7 @@ There are some viable alternatives to scrollbars. One of the best is the documen
 
 Splitters are useful tools for dividing a sovereign application into multiple related panes in which information can be viewed, manipulated, or transferred. Movable splitters should always advertise their pliancy with cursor hinting. Although it is easy and tempting to make all splitters movable, you should exercise care in choosing which ones to make movable. In general, a splitter should be unable to be moved in such a way that makes a pane's contents unusable. In cases where panes need to collapse, a drawer may be a better idiom.
 
-![](images/e54f32a9a0c1b831d59f59b20e2ebe2e4e5651b12b48bf0b19b4a511ce95d9b5.jpg)  
+![](images/e54f32a9a0c1b831d59f59b20e2ebe2e4e5651b12b48bf0b19b4a511ce95d9b5.webp)  
 Figure 21-26: Ableton Live features a document navigator on the top of the arrangement screen that provides an overview of the entire song. The black rectangle denotes which part of the song the work area below is zoomed in on. The navigator provides context in a potentially confusing situation and simultaneously provides a direct navigation idiom where the user may move the rectangle to focus on a different part of the song.
 
 # Drawers and levers

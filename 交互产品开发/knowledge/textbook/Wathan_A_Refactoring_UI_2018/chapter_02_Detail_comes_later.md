@@ -19,9 +19,9 @@ can be a great way to quickly explore a bunch of different layout ideas.
 Even when you’re ready to refine an idea in higher fidelity, resist the
 temptation to introduce color right away.
 
-![](images/index-13_1.png)
+![](images/index-13_1.webp)
 
-![](images/index-13_2.png)
+![](images/index-13_2.webp)
 
 13
 
@@ -51,5 +51,5 @@ when you’ve made a decision.
 
 Detail comes later
 
-![](images/index-16_1.png)
+![](images/index-16_1.webp)
 

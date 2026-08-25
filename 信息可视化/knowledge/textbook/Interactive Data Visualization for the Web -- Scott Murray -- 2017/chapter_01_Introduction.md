@@ -44,7 +44,7 @@ larger values are *mapped* as taller bars.
 <div id="ch01_split_000.xhtml_data_values_mapped_to_visuals"
 class="figure">
 <img
-src="images/b92f44558515760757920b90634ac53b4297ba6a6c831655637df086b8f7ef28.png"
+src="images/b92f44558515760757920b90634ac53b4297ba6a6c831655637df086b8f7ef28.webp"
 class="calibre36" alt="dvw2 0101" />
 <h6 class="calibre37"><span class="keep-together">Figure 1-1.
 </span>Data values mapped to visuals</h6>

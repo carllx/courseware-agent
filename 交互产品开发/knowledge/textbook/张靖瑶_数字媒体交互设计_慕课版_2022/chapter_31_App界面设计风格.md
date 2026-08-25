@@ -8,11 +8,11 @@
 
 ● 完美兼容PC网站、Android、iOS等不同系统的平台和不同屏幕分辨率的设备，适应性强，如图3-29和图3-30所示。
 
-![](images/EPUB/images/image_142.jpg)
+![](images/EPUB/images/image_142.webp)
 
 ▲图3-29 扁平化设计风格1
 
-![](images/EPUB/images/image_143.jpg)
+![](images/EPUB/images/image_143.webp)
 
 图3-30 扁平化设计风格2
 
@@ -20,13 +20,13 @@
 
 要做好设计风格，首先要做好界面的颜色搭配和分布，如图3-31所示。
 
-![](images/EPUB/images/image_144.jpg)
+![](images/EPUB/images/image_144.webp)
 
 图3-31 男性/女性的喜好色彩/讨厌色彩
 
 设计风格的配色除了要注意男性/女性的喜好差别之外，还应该重视通过冷暖色彩加明暗度的搭配方式传递给用户的印象和心理感受，如图3-32所示。
 
-![](images/EPUB/images/image_145.jpg)
+![](images/EPUB/images/image_145.webp)
 
 图3-32 冷暖色彩加明暗度的搭配方式
 

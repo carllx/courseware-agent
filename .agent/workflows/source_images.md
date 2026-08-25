@@ -186,7 +186,7 @@ Agent 对清单进行增强处理：
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_real_assets.py \
+  .agent/scripts/validation/validate_real_assets.py \
   --course "<课程名>" --week <周次>
 ```
 
@@ -217,4 +217,4 @@ Agent 对清单进行增强处理：
 | `/generate_assets` (Workflow) | §5.5 步骤的 AI 文生图执行引擎 |
 | `rule_asset_placement_guard` (Rule) | §5 步骤的路径合规校验 |
 | `rule_visual_generation` (Rule) | §5.5 步骤的生图协议约束 |
-| `validation_suite` (Skill) | §7 步骤的资产验证 |
+| `scripts/validation` (Scripts) | §7 步骤的资产验证 |

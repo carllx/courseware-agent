@@ -14,7 +14,7 @@
 > *   **Scene**: 一具由绿色代码构成的冰冷数字骷髅，没有灵魂，无法传递任何情感与意图。
 > *   **Caption**: "缺乏意图的图表：仅仅是数字骷髅，无法刺穿人类心智。"
 > *   **Text**: "缺乏意图的图表：仅仅是数字骷髅，无法刺穿人类心智。"
-> *   **Asset**: ![预览](../public/slides/S22a_Data_Skeleton.png)
+> *   **Asset**: ![预览](../public/slides/S22a_Data_Skeleton.webp)
 
 > [PHILOSOPHY] 人文锚点：信息设计师的真身是跨界翻译官
 > 这个世界上最遥远的距离，不是大模型与底层代码的报错，而是"人类那充斥隐喻的业务语言"与"计算机极度理性的计算矩阵"之间的鸿沟。大模型听不懂"我要看清今年的动静"，绘图引擎也不在乎"异常波动预警"。在这个时代，信息可视化架构师的核心价值，就是扮演"跨界翻译官"！你必须冷酷地抽干甲方话语里的情绪水分，把复杂的领域概念，降维拆解为机器能够精准执行的通用操作指令。
@@ -25,7 +25,7 @@
 > *   **Scene**: 一个被成千上万份完美标注了"**分类**、**量化**"属性的整洁数据表格包围的数据分析师，手握着顶级的可视化开发工具，却双眼空洞地望着屏幕，不知从何画起。
 > *   **Caption**: "最悲哀的迷失：你拥有了整个世界的原材料，却不知道客户要用它造什么船。"
 > *   **Text**: "最悲哀的迷失：你拥有了整个世界的原材料，却不知道客户要用它造什么船。"
-> *   **Asset**: ![预览](../public/slides/S22b_The_Lost_Analyst.png)
+> *   **Asset**: ![预览](../public/slides/S22b_The_Lost_Analyst.webp)
 
 举个例子：你手里有一份两千万条全国电商交易流水的数据。你该把它做成一张气势恢宏的"全国热力图"给投资人看？还是做成一块密密麻麻、全是下拉菜单和筛选器的"退货预警面板"给运营团队用？这两种做法技术上都没问题，但方向完全相反。问题出在哪？——你还没搞清楚**用户到底想怎么看数据**。
 
@@ -39,7 +39,7 @@
 >     - 搜索模式
 >     - 交互方式
 > *   **Caption**: "将凡人的狂妄愿望，压缩降维成底层机器界面触发的执行指令网。"
-> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
+> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 这就是 Munzner 框架的第二层：**Why**。它的作用是把模糊的业务需求，拆解为计算机可以执行的三类操作——**第一步：想清楚大方向（Analyze）**、**搜索模式：四种不同的找法（Search）**和**鼠标交互的三种方式（Query）**。不管客户的需求多么天马行空，只要通过这个漏斗，最终都会变成具体的点击、缩放、对比和筛选。掌握了它，你就能把感性的需求翻译成理性的机器指令。
@@ -54,7 +54,7 @@
 >     - 动作解析
 >     - 寻址模式
 >     - 微观反馈
-> *   **Asset**: ![Munzner Fig3.2](../public/textbook/Fig3.2_动作的三层拆解.png)
+> *   **Asset**: ![Munzner Fig3.2](../public/textbook/Fig3.2_动作的三层拆解.webp)
 > *   **Source**: Textbook
 
 ### 3.1 第一步：想清楚大方向——消费型与创生型心态决定设计基调
@@ -73,7 +73,7 @@
 >     - 幽暗发现
 >     - 消遣享受
 > *   **Caption**: "认清分析受众所佩戴的面具：汇报者、探索者、抑或旁观的享受者。"
-> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
+> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 *   **Present（展示汇报）**：结论已经有了，现在就是要向全世界宣告。这种场景下，图表要像一记重锤——砍掉一切多余的交互按钮，数字要大、颜色要猛、信息要一眼看完。
@@ -86,7 +86,7 @@
     > *   **Scene**: 模拟纽约时报大选版面：极简的红蓝大色块覆盖全图，配以极具冲击力的巨大粗体数字。没有任何冗余控件。
     > *   **Caption**: "Present 的极高独断力：剥夺交互，只留震撼。"
     > *   **Text**: "Present 的极高独断力：剥夺交互，只留震撼。"
-    > *   **Asset**: ![预览](../public/slides/S26a_Present_NYT.png)
+    > *   **Asset**: ![预览](../public/slides/S26a_Present_NYT.webp)
 
 *   **Discover（探索发现）**：你手里是一堆刚拿到的、还没看过的数据，你要从中挖出隐藏的规律或异常。这时候图表不能追求"好看"，而是要追求"密度"——必须布满预警图层和各种筛选控件，不能漏掉任何一个异常信号。
     
@@ -96,7 +96,7 @@
     > *   **Scene**: 一个被黑暗数据笼罩的雷达屏幕，一根红色的波形线突然刺破暗黑网格，爆闪出异常警告。
     > *   **Text**: "幽暗发现：在噪音中捕捉异动"
     > *   **Caption**: "分析不是为了证实，而是为了在未知中寻找刺伤眼球的异常。"
-    > *   **Asset**: ![预览](../public/slides/S24_Analyze_Discovery_Path.png)
+    > *   **Asset**: ![预览](../public/slides/S24_Analyze_Discovery_Path.webp)
 
     > [VISUAL]
     > *   **Slide**: `S24a_Deep_Dive_Filters`
@@ -104,7 +104,7 @@
     > *   **Scene**: 概念图：潜水员在黑暗深海中摸索，屏幕上布满极高密度的红色预警光点与层层叠加的筛选过滤面板框（代表深网探查）。
     > *   **Caption**: "深潜过滤网：无惧视觉过载，用致密的交互层层剥开数据深海的恶意伪装。"
     > *   **Text**: "深潜过滤网：无惧视觉过载，用致密的交互层层剥开数据深海的恶意伪装。"
-    > *   **Asset**: ![预览](../public/slides/S24a_Deep_Dive_Filters.png)
+    > *   **Asset**: ![预览](../public/slides/S24a_Deep_Dive_Filters.webp)
 
     *   > [CASE STUDY] 彭博金融数据终端（Bloomberg Terminal）的密集视场
         > 为什么金融交易员的屏幕总是密密麻麻、像黑客帝国一样挤满了 K 线和雷达网段，甚至有点"丑"？因为他们的心态就是 Discover！在探索模式下，"极简美学"反而是毒药。交易员需要在一块大屏上同时看到所有微弱的波动信号——一根在多张图表中同时出现共振的极细红线，可能就预示着下周的资本风暴。
@@ -115,7 +115,7 @@
     > *   **Scene**: 彭博终端机界面的极高密度数据呈现。无数 K 线和散点并置，没有一丝留白。
     > *   **Caption**: "发现者的视场：摒弃美学留白，在极致密度的图层中压榨波动信号。"
     > *   **Text**: "发现者的视场：摒弃美学留白，在极致密度的图层中压榨波动信号。"
-    > *   **Asset**: ![预览](../public/slides/S24b_Bloomberg_Terminal.png)
+    > *   **Asset**: ![预览](../public/slides/S24b_Bloomberg_Terminal.webp)
 
 *   **Enjoy（消遣享受）**：用户不需要分析什么，也不需要做决策，他只是来放松的。这时候的设计要柔和、有趣、有情感共鸣——可以大量使用圆润的动画、丝滑的曲线和低对比度的马卡龙渐变色。
     
@@ -125,7 +125,7 @@
     > *   **Scene**: 柔和的星空渐变背景下，代表用户一年听歌记录的音符散点如流星雨般缓缓落下，轻柔且无压力。
     > *   **Text**: "消遣享受：抚慰情绪的数据浪漫"
     > *   **Caption**: "当数据褪去效率的外衣，它就是用来引发情感共鸣的时光切片。"
-    > *   **Asset**: ![预览](../public/slides/S25_Enjoy_Spotify.png)
+    > *   **Asset**: ![预览](../public/slides/S25_Enjoy_Spotify.webp)
 
     *   > [CASE STUDY] Spotify Wrapped 的年度沉浸时光长卷
         > 每年年底刷爆朋友圈的 Spotify 或网易云年度听歌总结，就是 Enjoy 的代表。它把你全年几十万行播放日志，变成了一卷带着宇宙星轨、伴随粒子动效的时光漫游长图。你不需要去找什么异常，不需要跟谁攀比，只是戴着耳机划动屏幕，在柔美的视觉中感受岁月的流逝。
@@ -136,7 +136,7 @@
     > *   **Scene**: 星轨、粒子、柔和马卡龙渐变构成的时光长卷。枯燥日志化为了美丽的光谱。
     > *   **Caption**: "柔化的数据隐喻：零压力的情感共鸣与时光漫游。"
     > *   **Text**: "柔化的数据隐喻：零压力的情感共鸣与时光漫游。"
-    > *   **Asset**: ![预览](../public/slides/S25b_Enjoy_Aesthetics.png)
+    > *   **Asset**: ![预览](../public/slides/S25b_Enjoy_Aesthetics.webp)
 
 > [VISUAL]
 > *   **Slide**: `S26b_Produce_Layer`
@@ -144,7 +144,7 @@
 > *   **Scene**: 左半边是一双眼睛仅仅停留在观看屏幕上的消费数据（Consume）；右半边则是一只机械臂猛然伸出，在屏幕图海上重重盖下大红印章，并将其抽屉式归档（Produce）。
 > *   **Caption**: "从被动的视界观察者，完全质变进化为掌握留痕主权与定义新**维度**的造物主引擎。"
 > *   **Text**: "从被动的视界观察者，完全质变进化为掌握留痕主权与定义新**维度**的造物主引擎。"
-> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
+> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 除了上面三种"看数据"的心态（统称为消费型 Consume），Analyze 这一层还有一种"主动出击"的模式——**创生型（Produce）**：
@@ -156,7 +156,7 @@
 > *   **Scene**: 在一张庞大的网络图上，用户用鲜红的画笔圈出了一个微小异常群落（Annotate），随即将该画面如拍立得般快照定格封装入库（Record）。
 > *   **Caption**: "创生型重击：标注以宣示主权，刻录以传承军火。"
 > *   **Text**: "创生型重击：标注以宣示主权，刻录以传承军火。"
-> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
+> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 ### 3.2 怎么找数据：四种搜索模式决定交互密度
@@ -174,7 +174,7 @@
 >     - 大浪淘金
 >     - 混沌乱猎
 > *   **Caption**: "探索者的四重困境：从完全掌控猎物到盲眼面对完全未知的领域。"
-> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
+> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 四种模式，对应四种完全不同的交互设计：
@@ -188,7 +188,7 @@
 > *   **Scene**: 左侧：一个极简搜索框直接定位到目标点。右侧：全图变暗，只有符合条件的目标如星辰般爆闪（Hover/Filter）。
 > *   **Caption**: "从直达靶心到点亮夜空：前两种轻量猎寻。"
 > *   **Text**: "从直达靶心到点亮夜空：前两种轻量猎寻。"
-> *   **Asset**: ![预览](../public/slides/S27c_Search_Lookup_Locate.png)
+> *   **Asset**: ![预览](../public/slides/S27c_Search_Lookup_Locate.webp)
 
 3.  **Browse（漫游扫描）**：用户没有明确目标，但凭经验直觉，他会去看图上最高的柱子、颜色最深的区域。这时候你需要提供**平滑缩放（Semantic Zooming）**和**拖拽平移**的画布，让他像老鹰巡视领地一样自由探索。
 4.  **Explore（混沌探索）**：用户既不知道要找什么，也不知道从哪里下手。只有在这种最复杂的场景下，才需要搬出重武器——**用鼠标画圈圈选（Lasso Selection）**和**多图联动（Cross-Filtering）**，也就是点击一张图上的某个区间，其他所有图表同步高亮对应数据。你不需要自己写代码实现这些控件，但作为设计师，你必须知道在 Explore 场景下应该向工程师提出这类交互需求。
@@ -199,7 +199,7 @@
 > *   **Scene**: 寻猎武器对比：左半边是巡航鹰眼的平滑缩放视域（Browse），右半边是在极度混沌中用套索和交叉过滤圈定猎物（Explore）。
 > *   **Caption**: "从鹰眼巡航到混沌套索：面对完全未知的深渊，只有重武器能够自救。"
 > *   **Text**: "从鹰眼巡航到混沌套索：面对完全未知的深渊，只有重武器能够自救。"
-> *   **Asset**: ![预览](../public/slides/S27d_Browse_Explore.png)
+> *   **Asset**: ![预览](../public/slides/S27d_Browse_Explore.webp)
 
 > [VISUAL]
 > *   **Slide**: `S27b_Search_Interactions`
@@ -207,7 +207,7 @@
 > *   **Scene**: 左侧：展现明确检索，即 Lookup 下的极简搜索框响应。右侧：展现混沌探索，即 Explore 下密密麻麻的框选、缩放、多重条件联动高亮组合技响应。
 > *   **Caption**: "四种寻猎状态强制驱动出迥异的交互军火库。"
 > *   **Text**: "四种寻猎状态强制驱动出迥异的交互军火库。"
-> *   **Asset**: ![预览](../public/slides/S27b_Search_Interactions.png)
+> *   **Asset**: ![预览](../public/slides/S27b_Search_Interactions.webp)
 
 > [ACTIVITY]
 > *   **Type**: `Quiz`
@@ -234,7 +234,7 @@
 >     - 对抗比较
 >     - 万象概览
 > *   **Caption**: "微操审判的三部曲：极微观的点射、极惨烈的对决、壮阔的鸟瞰全貌。"
-> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.png)
+> *   **Asset**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 *   **Identify（看一个点）**：鼠标悬停在某个散点上，查看它的具体数值。比如"这个点对应的气温是多少度？"
@@ -247,7 +247,7 @@
 > *   **Scene**: 展示“交互阻尼（Interaction Friction）”过大导致用户心智崩溃的夸张示意图，重负拖拽着鼠标。
 > *   **Caption**: "交互阻尼的诅咒：多余的点击与复杂的动画，如同绑在用户注意力上的铅块。"
 > *   **Text**: "交互阻尼的诅咒：多余的点击与复杂的动画，如同绑在用户注意力上的铅块。"
-> *   **Asset**: ![预览](../public/slides/S28a1_Interaction_Friction.png)
+> *   **Asset**: ![预览](../public/slides/S28a1_Interaction_Friction.webp)
 
 > [TEACHING MOMENT] Munzner 眼中的交互防坑指南：组件匹配的暴政
 > 在这里，很多初学者会犯下非常致命的错误：把所有酷炫的交互组件不分青红皂白地全部堆砌上去。但根据 Tamara Munzner 的《Visualization Analysis and Design》核心指导原则，不同粒度的 Query 必须受到非常严格的 UI 节制：
@@ -262,7 +262,7 @@
 > *   **Scene**: 荒谬的反人类 UI 报错场景：试图用复杂的渐隐动画和套索去执行简单的单点读数（Identify），导致阻尼拉满，旁边打上巨大红叉。
 > *   **Caption**: "交互阻尼反噬：强迫用户用核武器去切黄油，就是对注意力资源的犯罪。"
 > *   **Text**: "交互阻尼反噬：强迫用户用核武器去切黄油，就是对注意力资源的犯罪。"
-> *   **Asset**: ![预览](../public/slides/S28a_Component_Error.png)
+> *   **Asset**: ![预览](../public/slides/S28a_Component_Error.webp)
 
 所以，请把你武器库里的交互组件严格分级。让趋近于零阻尼的 Hover 应对单点 Identify，让跨维高亮爆闪去解决 Compare 的对抗，用最纯净的全局缩略图来承载 Summarize。这就是组件匹配的铁律。
 
@@ -272,7 +272,7 @@
 > *   **Scene**: 交互阻尼曲线。Identify 是趋近于零的悬停即显，Compare 是强联动的跨维爆闪，Summarize 是彻底让渡空间的纯净视界。
 > *   **Caption**: "组件匹配的暴政：不同粒度的意图必须受到严格的 UI 节制约束。"
 > *   **Text**: "组件匹配的暴政：不同粒度的意图必须受到严格的 UI 节制约束。"
-> *   **Asset**: ![预览](../public/slides/S28c_UI_Restraint.png)
+> *   **Asset**: ![预览](../public/slides/S28c_UI_Restraint.webp)
 
 > [PHILOSOPHY] 人文锚点：技术霸权（Anti-Tech Hegemony）凝视下的无底交互深渊
 > 当你在精心构筑这套从 Lookup 到 Explore 的交互漏斗时，请务必保持清醒。当今硅谷的科技巨头们，总是在终端界面上大量铺设极度丝滑的"混沌探索深渊（Explore）"与"消遣沉浸流（Enjoy）"动效。
@@ -294,7 +294,7 @@
 >     - 宏观趋势
 >     - 异常数据
 >     - 属性关系
-> *   **Asset**: ![Munzner Fig3.6](../public/textbook/Fig3.6_Targets详细树状图.png)
+> *   **Asset**: ![Munzner Fig3.6](../public/textbook/Fig3.6_Targets详细树状图.webp)
 > *   **Source**: Textbook
 
 Analyze、Search、Query 都是"动词"——描述用户要做什么。但光有动词不行，还得有"名词"，也就是**目标层（Targets）**：你到底在找什么？
@@ -305,7 +305,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: 抽象几何分布图，展示目标分布（Distribution）和极值（Extremes）抽象特征。
 > *   **Caption**: "锁定猎物特征：用科学的眼光剥离噪点，洞察数据群体分布的引力与极值刺客。"
 > *   **Text**: "锁定猎物特征：洞察数据群体分布的引力与极值刺客。"
-> *   **Asset**: ![预览](../public/slides/S28e1_Distribution_Extremes.png)
+> *   **Asset**: ![预览](../public/slides/S28e1_Distribution_Extremes.webp)
 
 你跟 AI 说"帮我比较一下"，AI 会反问：比较什么？只有补全了目标——"比较两个市场的**异常值（Outliers）**"，或者"找出过去十年的**趋势（Trends）**"，这套指令才算完整。
 
@@ -321,7 +321,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: Targets 图鉴：用精密几何框线将"趋势(波浪线)"、"异常(孤立红点)"、"拓扑(网络结构)"像标本一样分类装载展示。
 > *   **Caption**: "猎物图鉴：你必须清晰知道，你要从数据深林里捕获的到底是什么标本。"
 > *   **Text**: "猎物图鉴：你必须清晰知道，你要从数据深林里捕获的到底是什么标本。"
-> *   **Asset**: ![预览](../public/slides/S28e_Targets_Taxonomy.png)
+> *   **Asset**: ![预览](../public/slides/S28e_Targets_Taxonomy.webp)
 
 搞清楚了"动词+名词"的完整组合之后，我们就能进入数据重塑的终极手段了。
 
@@ -335,7 +335,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: 左侧：一张包含"进口"和"出口"字段的基础数据表。右侧：一道强光闪过，两列数据碰撞后产生出一列全新的耀眼荧光绿数据柱——"贸易顺逆差"。
 > *   **Caption**: "当原始数据无法讲述真相时，用数学逻辑创造出属于你的第一手全新度量！"
 > *   **Text**: "当原始数据无法讲述真相时，用数学逻辑创造出属于你的第一手全新度量！"
-> *   **Asset**: ![Munzner Fig3.5](../public/textbook/Fig3.5_Derive差值图.png)
+> *   **Asset**: ![Munzner Fig3.5](../public/textbook/Fig3.5_Derive差值图.webp)
 > *   **Source**: Textbook
 
 派生的核心思路很狂：**永远不要只画你拿到的原始数据！** 如果原始数据画不出关键信息，你就应该动用数学逻辑，从中算出一个原本不存在的新指标，然后画这个新指标。
@@ -346,7 +346,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: 1869 年 Charles Minard 绘制的《拿破仑大军 1812 东征俄罗斯陨落图》。
 > *   **Caption**: "视觉维度重塑的神作：用一根线条的粗细，控诉四十万人的生死与温度的深渊。"
 > *   **Text**: "视觉维度重塑的神作：用一根线条的粗细，控诉四十万人的生死与温度的深渊。"
-> *   **Asset**: ![预览](../public/slides/S28e2_Minard_Map.png)
+> *   **Asset**: ![预览](../public/slides/S28e2_Minard_Map.webp)
 
 > [STORY TIME] 以 Derive 派生扭转生死洪荒的两次千古极意神作
 >
@@ -364,7 +364,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: Derive 派生魔法演示：把平行的进出口两根灰线投入粉碎机，直接输出一条强烈的红色"顺逆差净额"折线。
 > *   **Caption**: "创世主权：粉碎原始表格的平庸，提取直击命脉的全新度量。"
 > *   **Text**: "创世主权：粉碎原始表格的平庸，提取直击命脉的全新度量。"
-> *   **Asset**: ![预览](../public/slides/S28g_Trade_Deficit_Derive.png)
+> *   **Asset**: ![预览](../public/slides/S28g_Trade_Deficit_Derive.webp)
 
 派生还能用来驯服超大网络图。面对五十万个节点的巨型网络，直接画出来就是一团恶心的"毛线球（Hairball）"。高手的做法是：先给每个节点打一个"重要性分数"——看它连接了多少个其他节点（这叫**度数 Degree**，你可以理解为"这个人有多少朋友"），然后根据分数砍掉四十九万五千个边缘节点，只留下五千个核心主干。一瞬间，黑色泥沼变成了一棵清晰的树状结构。
 
@@ -374,7 +374,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: 左图：一团密不透风、令人窒息的黑色节点毛线球；右图：通过分级数派生计算后，剔除了十万边缘节点，只留下一棵闪耀着光芒的清晰主干骨架树。
 > *   **Text**: "网络派生：屠宰噪音，重塑主干"
 > *   **Caption**: "派生过滤的残酷权威：它不是画全景，而是敢于解决九成的无意义关联。"
-> *   **Asset**: ![Munzner Fig3.11](../public/textbook/Fig3.11_Derive_Tree.png)
+> *   **Asset**: ![Munzner Fig3.11](../public/textbook/Fig3.11_Derive_Tree.webp)
 > *   **Source**: Textbook
 
 在更高级的场景中，Derive 还能用于分析复杂的连续场数据——比如从风速数据中派生出气旋结构。这些我们会在后续课程中接触。
@@ -402,7 +402,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: 三层巨大的铁制过滤重碾同轴相嵌、严密咬合运作，将高层的模糊愿望硬生生压片成了不能辩驳的计算机机械底层行动语言执行阵。
 > *   **Caption**: "意图解码的连贯权威：通过三重审级，你终将获得主宰系统的终极机器语言发条。"
 > *   **Text**: "意图解码的连贯权威：通过三重审级，你终将获得主宰系统的终极机器语言发条。"
-> *   **Asset**: ![预览](../public/slides/S29_Funnel_Combined.png)
+> *   **Asset**: ![预览](../public/slides/S29_Funnel_Combined.webp)
 
 三个层级——Analyze（大方向）、Search（怎么找）、Query（怎么交互）——环环相扣，共同把模糊的需求转化为精确的机器指令。这不仅是一个设计框架，更是一种思维训练：在你打开任何代码编辑器之前，先在这张三级漏斗里走一圈。当你能清晰地说出"这是一个 Present 意图下的 Locate 场景，用户的 Query 是 Compare"，你就已经完成了设计中最有价值的工作。剩下的色彩、布局、交互，不过是这个决策的自然延伸。缺少意图定位，再华丽的图表也只是黑暗中射出的随机之箭；有了它，每一根像素的落地都有据可依。
 
@@ -412,7 +412,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: 翻译官（信息架构师）站在代码和人类需求之间架起桥梁的隐喻概念图。
 > *   **Caption**: "跨界翻译官的使命：在冰冷的代码指令与火热的人性需求之间，筑起认知桥梁。"
 > *   **Text**: "跨界翻译官的使命：在冰冷的代码指令与火热的人性需求之间，筑起认知桥梁。"
-> *   **Asset**: ![预览](../public/slides/S29a_Info_Architect_Bridge.png)
+> *   **Asset**: ![预览](../public/slides/S29a_Info_Architect_Bridge.webp)
 
 > [TEACHING MOMENT] Why 框架的设计师价值
 > Munzner 的 Why 框架最深刻之处，在于它逼迫你问出一个最朴素也最难回答的问题：**「用户来这里是为了做什么？」**。从 Analyze 到 Query 的三级漏斗，本质上是把每一个主观的人类愿望，都翻译成了客观的、可执行的信号术语。这是连接数据与人类智慧的最后一公里。学会了这套语言，你就拥有了与任何甲方、工程师以及 AI，平等对话的共同词汇表——无论行业、无论领域。
@@ -425,7 +425,7 @@ Analyze、Search、Query 都是"动词"——描述用户要做什么。但光�
 > *   **Scene**: Analyze、Search、Query 三重齿轮严丝合缝地咬合在一起，爆发出耀眼的"机器可执行指令"蓝光。
 > *   **Text**: "三重合一：将人类愿望翻译为无懈可击的代码指令。"
 > *   **Caption**: "三重合一：将人类愿望翻译为无懈可击的代码指令。"
-> *   **Asset**: ![预览](../public/slides/S29b_The_Trinity_Completed.png)
+> *   **Asset**: ![预览](../public/slides/S29b_The_Trinity_Completed.webp)
 
 通过这个漏斗，你把散漫、矛盾的甲方需求，转译为精确的底层机器指令与交互结构。但这依然不够。光搞清楚数据长什么样（What）、用户想怎么看（Why），依旧救不活一个充满垃圾数据的项目。我们要解决最后一道也是最硬核的难关：荡平表格乱象的**行动纲领**。
 

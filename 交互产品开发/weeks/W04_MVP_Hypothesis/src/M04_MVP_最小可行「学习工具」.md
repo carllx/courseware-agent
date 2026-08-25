@@ -9,7 +9,7 @@
 > **Layout**: Split
 > **Scene**: 原著《精益 UX》的 Lean UX 画布“MVP与实验”模块 (Box 8)。
 > **Text**: 实验设计 (Box 8: MVPs & Experiments)
-> **Asset**: ![教材原图](../public/textbook/Fig_12-1.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_12-1.webp)
 
 说到 MVP，也就是 **最小可行产品**（Minimum Viable Product），这可能是数字产品开发中被误解最深的一个词。
 
@@ -24,7 +24,7 @@
 > **Layout**: Split
 > **Scene**: 学习工具隐喻：MVP 不是一个未完工的残缺商品，而是被描绘成一把发光的显微镜或探照灯，正在照亮一片充满未知的黑暗区域，隐喻发现与学习。
 > **Text**: 核心使命：学习与发现
-> **Asset**: ![预览](../public/slides/W04-21b-MVP-Microscope.png)
+> **Asset**: ![预览](../public/slides/W04-21b-MVP-Microscope.webp)
 
 请在心里默念：“这个想法里，哪个部分一旦猜错了，整个设计就会彻底垮掉？” 然后，用最简单、最便宜的材料把它包装起来，让用户与之发生真实互动。那个简易的包装物，就是你的 MVP。
 
@@ -41,7 +41,7 @@
 > **Layout**: Full
 > **Scene**: 教材中展示的真相曲线 (Truth Curve)。横轴是原型的保真度和投入水平，纵轴是已有证据的可靠性/充分程度。这是一条向上延伸的阶梯状模型图。
 > **Text**: 真相曲线 (The Truth Curve)
-> **Asset**: ![教材原图](../public/textbook/Fig_12-2.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_12-2.webp)
 
 
 在部署这层伪装前，各位必须信奉一条硅谷铁律：**真相曲线法则**，也就是 **The Truth Curve**。
@@ -55,7 +55,7 @@
 > **Layout**: Split
 > **Scene**: 失衡的证据天平：天平一端是极其微小的一片羽毛（代表微弱的证据），另一端是沉甸甸的巨大金币袋（代表巨大的开发投入），天平正危险地倾斜，隐喻盲目投入。
 > **Text**: 证据与投入的平衡
-> **Asset**: ![预览](../public/slides/W04-22b-Evidence-Scale.png)
+> **Asset**: ![预览](../public/slides/W04-22b-Evidence-Scale.webp)
 
 > [ACTIVITY]
 > **Type**: `Quiz`
@@ -79,7 +79,7 @@
 > - 假按钮 (Feature Fake)
 > - 绿野仙踪 (Wizard of Oz MVP)
 > **Text**: 极简验证的光谱工具
-> **Asset**: ![预览](../public/slides/W04-23-MVP-Spectrum.png)
+> **Asset**: ![预览](../public/slides/W04-23-MVP-Spectrum.webp)
 
 这意味着，MVP 并非某种固化的代码半成品，而是可以根据风险等级灵活选择的**验证光谱**。
 
@@ -91,7 +91,7 @@
 > **Layout**: Split
 > **Scene**: 保真度干扰隐喻：左侧人们在为了彩色涂料和花哨 UI 激烈争吵（色彩干扰），右侧则是极致纯粹的黑白草图带来的清晰逻辑聚焦。
 > **Text**: 剥离视觉干扰
-> **Asset**: ![预览](../public/slides/W04-23a2-Fidelity-Distraction.png)
+> **Asset**: ![预览](../public/slides/W04-23a2-Fidelity-Distraction.webp)
 
 
 从极简的涂鸦草图，到着陆页与假按钮，再到人工后台的绿野仙踪测试，你可以在光谱上自由滑动。其核心在于用最少成本验证核心风险。接下来，逐一拆解光谱中最常用的四种极简验证方式：
@@ -106,7 +106,7 @@
 > **Layout**: Screenshot
 > **Scene**: 一个典型的 Kickstarter 众筹页面示例——经典的落地页测试，在产品还未开发完成前就测试真实购买意愿。
 > **Text**: 着陆页测试 (Landing Page)
-> **Asset**: ![教材原图](../public/textbook/Fig_12-3.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_12-3.webp)
 
 2. **着陆页测试**——英文称作 Landing Page：
 这是验证“用户到底愿不愿意买单”最直接的手段。完全不需要写任何复杂的后台代码，你只需搭建一个**极简的宣传网页**，写明你的产品价值并附带一个**抢先体验/预订**的按钮。如果网页上线后毫无点击，那么这几十块钱的域名费就帮你成功避开了几个月的**无效设计和开发灾难**。
@@ -165,14 +165,14 @@
 > **Layout**: Split
 > **Scene**: 早期 Flickr 的 Apple TV App 界面，展示了一个测试新功能的按钮入口。
 > **Text**: 假功能测试：Flickr (Feature Fake)
-> **Asset**: ![教材原图](../public/textbook/Fig_12-4.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_12-4.webp)
 
 > [VISUAL]
 > **Slide**: W04-23c2-Fake-Button-Click
 > **Layout**: Split
 > **Scene**: 用户点击按钮后出现的提示反馈界面，借此统计了真实的点击需求数据。
 > **Text**: 点击后的意愿捕捉
-> **Asset**: ![教材原图](../public/textbook/Fig_12-5.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_12-5.webp)
 
 3. **假功能按钮**（即 **Feature Fake Button**）：
 想在已上线的系统里加新功能又怕没人用？只需在界面放置一个**虚假的入口按钮**。当用户点击时仅提示“即将推出”，团队便能直接收集到**真实的点击数据**。据业界流传的经典案例，2004-2005 年间早期 Flickr 就曾靠一个毫无反应的“用做屏保”假按钮，精准测算出了用户需求，从而决定是否要真正花时间去开发这个复杂的功能。
@@ -182,7 +182,7 @@
 > **Layout**: Split
 > **Scene**: Taproot Foundation 的前台测试网页，看起来像是一个高度自动化匹配系统。
 > **Text**: 绿野仙踪人工前台测试 (Wizard of Oz)
-> **Asset**: ![教材原图](../public/textbook/Fig_12-7.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_12-7.webp)
 
 4. **人工模拟测试**（即 **Wizard of Oz MVP / 绿野仙踪法**）：
 如果你们想设计一个“智能推荐”或“AI助手”功能，但团队里没人会写复杂的算法代码，怎么办？
@@ -194,7 +194,7 @@
 > **Layout**: Split
 > **Scene**: 绿野仙踪测试法隐喻：前台是一个极具科技感的 AI 机器人界面，而帷幕后面，是一个人正满头大汗地疯狂拉动拉杆和敲打打字机来伪装人工智能。
 > **Text**: 幕后的魔术师
-> **Asset**: ![预览](../public/slides/W04-23d1-Wizard-Metaphor.png)
+> **Asset**: ![预览](../public/slides/W04-23d1-Wizard-Metaphor.webp)
 
 但在进入具体的绿野仙踪案例之前，我们要明确人工模拟的核心精髓：**千万别让用户发现背后是真人在操作**。
 
@@ -203,7 +203,7 @@
 > **Layout**: Split
 > **Scene**: Taproot 背后由人工驱动的 Trello 看板，展示所谓的“AI智能匹配”实际上是由人工在后端拖拽卡片完成。
 > **Text**: 隐藏的人工测试后台 (Trello)
-> **Asset**: ![教材原图](../public/textbook/Fig_12-8.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_12-8.webp)
 
 > [CASE STUDY]
 > **AI 助手的“人工”智能与语音助手的幕后测试**
@@ -226,7 +226,7 @@
 > - 去除冗余
 > - 锁定行为
 > **Text**: MVP 的两大铁律
-> **Asset**: ![预览](../public/slides/W04-23f-MVP-Design-Rules.png)
+> **Asset**: ![预览](../public/slides/W04-23f-MVP-Design-Rules.webp)
 
 > [ACTIVITY]
 > **Type**: `Quiz`

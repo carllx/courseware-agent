@@ -6,7 +6,7 @@
 
 # INTERACTION DESIGN
 
-![](images/19127ff0126ba984fb3323a2f53f6a1bc71468b59106d3b871a717836ba40444.jpg)
+![](images/19127ff0126ba984fb3323a2f53f6a1bc71468b59106d3b871a717836ba40444.webp)
 
 beyond human-computer interaction
 
@@ -216,7 +216,7 @@ Eric Paulos, Professor, University of Berkeley, California, USA
 
 Sixth Edition
 
-![](images/41caf18be39383c4a7a5e36feb91becd63b95a4b5ed8d0910949dbbb27c5c050.jpg)
+![](images/41caf18be39383c4a7a5e36feb91becd63b95a4b5ed8d0910949dbbb27c5c050.webp)
 
 WILEY
 
@@ -512,17 +512,17 @@ to think about seminal issues. The goal is for readers to understand�
 
 This book is accompanied by a website (www.id-book.com), which provides a variety of resources,  including  slides  for  each  chapter, comments  on  chapter  activities,  and  other resources written by researchers and designers. There are video interviews with a wide range of experts from the field, including professional interaction designers and university professors. We selected people to interview who cover different topics, and we deliberately selected a range of people, from gurus in the field to newly established researchers and professionals. Pointers to respected blogs, online tutorials, YouTube videos, and other useful materials are also provided.
 
-![](images/fa55d323c213f9683b9ab3e3d90e25fe2fd3c589fd207ebb25e097414d6fb896.jpg)
+![](images/fa55d323c213f9683b9ab3e3d90e25fe2fd3c589fd207ebb25e097414d6fb896.webp)
 
-![](images/b292a79b6744de5af0e773328a32fa8a306c174eab75243cbf9ee2a737c3e4a0.jpg)
+![](images/b292a79b6744de5af0e773328a32fa8a306c174eab75243cbf9ee2a737c3e4a0.webp)
 
-![](images/45dcf400e6c96b3cf16e5f4a9e39bd9e32693ac14710e18a7d03474361806485.jpg)
+![](images/45dcf400e6c96b3cf16e5f4a9e39bd9e32693ac14710e18a7d03474361806485.webp)
 
-![](images/15e78f0a3f26b7881adaac1e95f249251e339b8956b81e424d79a9a0512c9a11.jpg)
+![](images/15e78f0a3f26b7881adaac1e95f249251e339b8956b81e424d79a9a0512c9a11.webp)
 
-![](images/fa8d1d02aba4bee042077a1a291d3f9cc0e8d8a0f950e6683590f64e43e64678.jpg)
+![](images/fa8d1d02aba4bee042077a1a291d3f9cc0e8d8a0f950e6683590f64e43e64678.webp)
 
-![](images/4560a726efe95cac0a2f4cdde40db36d5d9a1a46ff67aea10ee78d1c3bf4c6d7.jpg)
+![](images/4560a726efe95cac0a2f4cdde40db36d5d9a1a46ff67aea10ee78d1c3bf4c6d7.webp)
 
 # INTERACTION DESIGN
 
@@ -592,7 +592,7 @@ terms of how it looks and works. Many have been designed with a diz
 In contrast, much effort and thought went into the design of the classic TiVo remote control with the viewer in mind (see Figure 1.1). TiVo is a digital video recorder that was originally developed to enable the viewer to record TV shows. The remote control was designed with  large buttons  that  were clearly labeled  and  logically  arranged,  making  them  easy  to locate and  use in  conjunction with  the menu interface that appeared  on the TV  screen. In terms of its physical form, the remote device was designed to fit into the palm of a hand, having a peanut shape. It also has a playful look and feel about it: Colorful buttons and cartoon icons are used that are distinctive, making it easy to identify them.
 
 Figure 1.1  The TiVo remote control   
-![](images/13cbc9b41ee0474836801106e3536613c42d21f10b1a656edb5d4b89debac0db.jpg)  
+![](images/13cbc9b41ee0474836801106e3536613c42d21f10b1a656edb5d4b89debac0db.webp)  
 Source: business.tivo.com
 
 How was it possible to create such a usable and appealing remote device where so many others have failed? The answer is simple: TiVo invested the time and effort to follow a peoplecentered design process. Specifically, TiVo’s director of product design at the time involved
@@ -611,11 +611,11 @@ More recent remote controls, such as those provided by Apple TV, incorporate
 
 (Continued)
 
-![](images/995f25651bd23333737d0544a47aaa5b5b8061f16b0fa68e3cddc0e69ee5f507.jpg)
+![](images/995f25651bd23333737d0544a47aaa5b5b8061f16b0fa68e3cddc0e69ee5f507.webp)
 
 (b)   
 Figure 1.2  Typing on a TV screen (a) by selecting  letters  and  numbers  from a square matrix and (b) by swiping along a single line of letters and numbers   
-![](images/d3957c814549d728798e9305b1134e7a8d76f5542aaffa8dedb5361105d044ea.jpg)  
+![](images/d3957c814549d728798e9305b1134e7a8d76f5542aaffa8dedb5361105d044ea.webp)  
 Source: (b) support.apple.com/en-us/HT200107
 
 Might there be a better way to interact with a smart TV while sitting on the sofa? Firestick TV has pared down the number of buttons on its remote controllers  to a core set of basic navigation ones (e.g., up, down) needed to interact with its streaming media players. An alternative is to use voice control. Most remote controls have a speech button that when pressed allows viewers to ask for movies by name or more generally by category, for instance, “What are the best sci-fi movies on Netflix?” Smart speakers, such as Amazon Echo, can also be connected to a smart TV via an HDMI port, and, similarly, a person can ask for something general or more specific, for example, “Alexa, play Big Bang Theory, Season 6, Episode 5, on the TV.” On recognizing the  command, the Echo will switch on the TV,  switch to the right HDMI channel, open Netflix, and begin streaming the specific episode. A recent survey found voice input is becoming ever more popular; one in five TV users now use voice input to find movies, shows, or videos; change the channels; change the volume; or turn the TV on or off (Roettgers, 2019). Some TV content, however, requires the viewer to say that they are older than a certain age by checking a box on the TV display. If the TV could ask the viewer and check that they are 18 or older, then that would be really smart! Also, if the TV needs the viewer to provide a password to access on-demand content, they won’t want to say it aloud, character by character, especially in front of others who might also be in the room with them. The use of biometrics, then, may be the answer.
@@ -626,7 +626,7 @@ Many activities that used to be done via a physical artifact have gone digita
 
 space, which meant drivers who didn’t have the correct coins couldn’t legally park. Now, instead of fumbling around trying to find the right change for the time wanted and slotting this into a physical meter, we can fill in an online form in advance with our details and then pay each time we want to park using a credit card or digital pay app. Our details can then be stored ready for the next time we need to pay for parking, meaning even fewer steps to complete subsequently (see Figure 1.3). It just needs us to type in the parking location number where we plan to park, and the rest is filled in for us by the app. Some apps will even notify us on our phone when the time we have paid for is nearly up, asking if we would like to add time. All we need to do is press a button from our phone. Not only does this form of digital prompting prevent us from risking a fine if we exceed the time limit, but it also provides more revenue for the parking company!
 
-![](images/1883612f22688dc96105f79380806a40e3599256978fb8a169c5ebbe45f26c90.jpg)  
+![](images/1883612f22688dc96105f79380806a40e3599256978fb8a169c5ebbe45f26c90.webp)  
 Figure 1.3  The  form used for a parking app in the United Kingdom. It takes five seconds to complete and can be done while sitting in the car.
 
 Many  previous  physical  transactions  have  been  digitalized  like  this.  Other  examples include buying tickets from an entertainment site (e.g., a movie, a concert, a play) or booking a ticket to go somewhere (e.g., a train, a bus, an airline). An added benefit is not having to wait in line before being able to buy a physical ticket. The customer can also check various
@@ -645,10 +645,10 @@ The interfaces for everyday consumer items, such as cameras, microwave�
 
 The smarts are in how the computer vision, sensor fusion, and deep learning are combined to track customers and what they took from or replaced on a shelf. Amazon Go pioneered this type of store, with other supermarkets now testing their own versions.
 
-![](images/f811ce31909b7440197f7bfb522802db4090d7e6276557e3267de4b4ea009bdd.jpg)
+![](images/f811ce31909b7440197f7bfb522802db4090d7e6276557e3267de4b4ea009bdd.webp)
 
 Figure 1.4  The digital world overlaying the physical experienced when wearing Snap AR Spectacles   
-![](images/e7ec5f6e828619428b190a3085feff758ed0e19e902bbb6c10b2d12939876712.jpg)  
+![](images/e7ec5f6e828619428b190a3085feff758ed0e19e902bbb6c10b2d12939876712.webp)  
 Source: www.techeblog.com/new-snapchat-spectacles-augmented-reality
 
 The advent of the Internet of Things (IoT), where data is collected from sensors and travels via the Internet to other devices, has been embedded into several of our household products. For example, a popular household IoT-enabled product is home security, where people can keep an eye on their home from the data relayed to their smartphone via a combination of sensors placed in their home. These include motion detectors, glass breaking detectors, and smart object detectors. A video camera can be attached to someone’s doorbell  and relayed to a smartphone app so the owner can check up on who has rung it—even though they may be  on vacation.  Some  home-based security  cameras  also use  machine  learning that  recognizes whether an intruder is trying to break into the house through using facial recognition. Machine learning is also being used in a range of other home-based products, such as automated thermostats  like the Nest, which optimizes the temperature settings for a household where the algorithms analyze its energy consumption over time.
@@ -679,7 +679,7 @@ We see the main difference between interaction design (ID) and human-comput
 
 We view interaction design as fundamental to many disciplines, fields, and approaches that are concerned with researching and designing computer-based systems for people. Figure 1.5 presents  the  core  ones  along  with  interdisciplinary  fields  that  comprise  one  or  more  of these, such as cognitive ergonomics. It can be confusing to try to work out the differences between them as  many overlap. The main differences between interaction design and the other approaches  referred to in the figure come largely down to which methods, philosophies, and lenses they use to study, analyze, and design products. Another way they vary is in terms of the scope and problems they address. For example, information systems is concerned with the application of computing technology in domains such as business, health, and education, whereas ubiquitous computing is concerned with the design, development, and  deployment  of  pervasive  computing  technologies  (for  example,  IoT)  and  how they facilitate social interactions and human experiences.
 
-![](images/e228b60bacfbe343af2d53200a4b83228ae0eede7af861d27dd423c86c086c13.jpg)  
+![](images/e228b60bacfbe343af2d53200a4b83228ae0eede7af861d27dd423c86c086c13.webp)  
 Figure 1.5  Relationship among contributing academic disciplines, design practices, and interdisciplinary fields concerned with interaction design (double-headed arrows mean overlapping)
 
 # ACTIVITY 1.1
@@ -747,7 +747,7 @@ Apple realized early on that successful interaction design involves creating 
 to learn  and use, and the  catchy naming of its product and content  (iTunes, iPod), among many other design features, led to it becoming one of the  greatest products of its kind and a must-have  fashion item for teenagers, students, and adults alike. While there were many competing players on the market at the time—some with more powerful functionality, others that were cheaper and easier to use, or still others with bigger screens, more memory, and so forth—the quality of the overall experience paled in comparison to that provided by the iPod. In addition, Apple provided a whole ecosystem to accompany the iPod, including the iTunes store app where millions of licensed music tracks could be bought for less than a dollar each.
 
 Figure 1.6  The iPod Nano   
-![](images/3808542e473c1d45be8e707e0fcae617e3550bb7d7d3c7bd793725ca68dbc33c.jpg)  
+![](images/3808542e473c1d45be8e707e0fcae617e3550bb7d7d3c7bd793725ca68dbc33c.webp)  
 Source: Paul Sakuma / AP Photo
 
 Apple has continued to design products that are both beautiful and usable, most notable are the iPad and the range of iPhones. It even designed what was at the time a completely new customer experience for buying technology in the form of the Apple Store, from how it draws people in and what they do when browsing, discovering, and purchasing goods in the store. There  are  no checkouts to pay  for goods—just roaming Apple  employees  holding  mobile devices that they interact with to make an order for a customer, take payment, and email them a receipt. Apple now has a new kind of retail space, akin to being more like a town square, where everyone is welcome, and various community activities take place weekly, like learning to code.
@@ -801,7 +801,7 @@ People  with  permanent  disabilities  often  use  assistive  technology�
 Aimee Mullens is an athlete, actor, and fashion model who has shown how prosthetics can be designed to move beyond being purely functional (and often ugly) to being desirable and highly fashionable. She became a bilateral amputee when her legs were amputated below the knee as a one-year-old. She has  done much to blur the boundary between disabled and nondisabled people, and she uses fashion as a tool to achieve this. Several prosthetic companies now incorporate fashion design into their products, including striking leg covers that are affordable by all (see Figure 1.7).
 
 Figure 1.7  Fashionable leg cover designed by Alleles Design Studio   
-![](images/dc72dbae65d306b780bdff7fb4e496f6d7ca8f8e2b819d8049db8aeaa94fb59f.jpg)  
+![](images/dc72dbae65d306b780bdff7fb4e496f6d7ca8f8e2b819d8049db8aeaa94fb59f.webp)  
 Source: alleles.ca. Used courtesy of Alison Andersen
 
 # 1.9 Usability and User Experience Goals
@@ -844,12 +844,12 @@ Question: Does the product provide an appropriate set of functions tha
 
 can help by providing contextualized step-by-step material with hands-on exercises. A key concern is determining how much time someone is prepared to spend learning a product. Question: Is it possible for someone to work out basic use of the  product by exploring the interface and trying certain actions? How hard will it be to master the product in this way? Are additional learning tools needed?
 
-![](images/a12250983b7447dd871a3c65e405baede86d2459d2a9de588e4d8fa72b0bd139.jpg)
+![](images/a12250983b7447dd871a3c65e405baede86d2459d2a9de588e4d8fa72b0bd139.webp)
 
-![](images/2d2769e164ade98fc6ca47f9a10304bb116e2542c4e7b4c5b43f84338ce9bf4b.jpg)  
+![](images/2d2769e164ade98fc6ca47f9a10304bb116e2542c4e7b4c5b43f84338ce9bf4b.webp)  
 (a)
 
-![](images/2724601aa25f03e55edac77477516b94f48f776a4dd739fe6d82b807058bf123.jpg)  
+![](images/2724601aa25f03e55edac77477516b94f48f776a4dd739fe6d82b807058bf123.webp)  
 (b)   
 Figure 1.8  (a)  A  safe and  unsafe menu.  Which  is which  and  why? (b)  A  warning  dialog box on macOS
 
@@ -961,7 +961,7 @@ Visibility refers to how an interface is designed to show what someone needs�
 In  contrast, when  functions are  out  of sight, it  makes them  more  difficult to find  and to know how to use. For example, devices and environments that have become automated through the use of sensor technology (usually for hygiene and energy-saving reasons)—like faucets, elevators, and lights—can sometimes be more difficult for people to know how to control, especially how to activate or deactivate them. This can result in people getting caught short and  frustrated. Figure 1.10  shows a sign that explains how to use  the automatically controlled  faucet for what  is normally  an  everyday and well-learned  activity. It  also states that the faucets cannot be operated if wearing black clothing. It does not explain, however, what to do if you are wearing black clothing! Increasingly, highly visible controlling devices, such as knobs, buttons, and switches, which are intuitive to use, have been replaced by invisible and ambiguous activating zones where people have to guess where to move their hands, bodies, or feet—on, into, or in front of—to make them work.
 
 Figure 1.10 A sign in the restrooms at the Cincinnati airport   
-![](images/e39329515578469e286ddb8f548004648a0a48cef6ead2c08f8d455bb6a4a40c.jpg)  
+![](images/e39329515578469e286ddb8f548004648a0a48cef6ead2c08f8d455bb6a4a40c.webp)  
 Source: Yvonne Rogers
 
 # Feedback
@@ -974,7 +974,7 @@ Feedback involves sending back information about what action has been 
 
 The design concept of constraining refers to determining ways of restricting the kinds of user interaction that can take place at a given moment. There  are various ways that this can be achieved. A common design practice in graphical user interfaces is to deactivate certain menu options by shading them gray, thereby restricting which actions are permissible at that stage of the activity (see Figure 1.11). One of the advantages of this form of constraining is that it prevents incorrect options being selected and thereby reduces the chance of making a mistake.
 
-![](images/e6103e646982924edddf3cfdc2392575bc489c4ddfdd644b3bc8b09e4967010e.jpg)  
+![](images/e6103e646982924edddf3cfdc2392575bc489c4ddfdd644b3bc8b09e4967010e.webp)  
 Figure 1.11 A menu showing restricted availability of options as an example of logical constraining. Gray text indicates deactivated options.
 
 # Source: Yvonne Rogers
@@ -1050,7 +1050,7 @@ SAFFER, D. (2014)  Microinteractions: Designing with Details. O’Reilly.�
 
 STEIN, M.A., and LAZAR, J. (2022) Accessible Technology and the Developing World. Oxford University Press. This book is concerned with accessible technology in the developing  world. It sits at  the  intersection of  human-computer interaction,  policy, law, and development, and is concerned primarily with the accessibility innovations taking place in the Global South and the need to ensure that technology  and legal  infrastructures in the  Global South  that  are currently  being  built  do  not  present barriers to  people  with disabilities.
 
-![](images/5ed53848a27547066c609014c27490362ee643d0857d56e666ed0d68e8c5a1a1.jpg)  
+![](images/5ed53848a27547066c609014c27490362ee643d0857d56e666ed0d68e8c5a1a1.webp)  
 Source: Harry Brignull
 
 # INTERVIEW with Harry Brignull
@@ -1152,7 +1152,7 @@ Deliver:  Different  solutions  are  tested  at small  scale  and eithe
 
 As indicated  by the arrows in Figure 2.1, the process is  not linear, and the phases may be iterated several times to progress from the Challenge to the Outcome, but as pointed out by  the Design  Council, “in  an  ever-changing and  digital world, no idea  is  ever ‘finished.’” In the framework  for innovation, the core double diamond process is supported  by design principles, a  method  bank, and two  characteristics  of organizational  culture  (engagement and leadership). The four design principles that support the double diamond focus on people,
 
-![](images/59f1bc8460ea9cc1057cf63253050cf1e3f63124a0c7f1219d97bb8e8b1305c5.jpg)  
+![](images/59f1bc8460ea9cc1057cf63253050cf1e3f63124a0c7f1219d97bb8e8b1305c5.webp)  
 Figure 2.1  The  Design Council’s  framework  for  innovation with the  double diamond  of design at its heart
 
 Source: 2019,  Design Council  www.designcouncil.org.uk/news-opinion/what-framework-innovation-designcouncils-evolved-double-diamond last accessed by 20 May 2022
@@ -1186,10 +1186,10 @@ intuitive, but it is a very valuable step. The second phase guided me towar
 
 Developing solutions (the third phase) led me to consider how to interact with the product—seeing detail on a large screen would be useful, and a summary to carry with me on a  mobile device would support my travel. The  type of support  also depends  on where the meeting is being held. Planning a trip abroad requires both a high-level view to check visas, vaccinations, and travel advice, as well as a detailed view about the proximity of accommodation to the meeting venue and specific flight times. Planning a local trip is much less complicated. In terms of testing the design, I  found myself thinking about  the design as I went along, modifying it in response to my assessment. If the product was to be used for others, then I would not rely solely on my own assessment but would involve others too.
 
-![](images/b5ccd8ea7df75cca56fdc363f7b1196c6462744bd5256f489b0496b9fc59d43c.jpg)  
+![](images/b5ccd8ea7df75cca56fdc363f7b1196c6462744bd5256f489b0496b9fc59d43c.webp)  
 (a)
 
-![](images/6cbf00d01ea36122abd9ec442f029eee587e4f19d598f34279f7d8582fbfffda.jpg)  
+![](images/6cbf00d01ea36122abd9ec442f029eee587e4f19d598f34279f7d8582fbfffda.webp)  
 (b)   
 Figure 2.2  Initial sketches of the trip organizer showing (a) a large screen covering the entire journey from home to Beerwah in Australia and (b) the smartphone screen available for the leg of the journey at Paris (Charles de Gaulle) airport
 
@@ -1289,7 +1289,7 @@ Once a product has been released, a different kind of user involvement is
 
 Error reporting systems (ERSs, also called online crashing analysis) automatically collect information from users that is used to improve applications in the longer term. This is done with users’ permission, but with a minimal reporting burden. Figure 2.3 shows two dialog boxes for the Windows error reporting system that is built into Microsoft operating systems. This kind of reporting can have a significant effect on the quality of applications. For example, 29 percent of the errors fixed by the Windows XP (Service Pack 1) team were based on information collected through their ERS (Kinshumann et al., 2011). While Windows XP is no longer being  supported, this statistic illustrates the impact ERSs can have. The system uses a sophisticated approach to error reporting based on five strategies: automatic aggregation of error reports; progressive data collection so that the data collected (such as abbreviated or full stack and memory dumps) varies depending on the level of data needed to diagnose the error; minimal user interaction; preserving user privacy; and providing solutions directly to users where possible. By using these strategies, plus statistical analysis, effort can be focused on the bugs that have the highest impact on the most users.
 
-![](images/05791469b740487c1408a00fbec40d404da6aaba274e507f578142b3a72a8021.jpg)  
+![](images/05791469b740487c1408a00fbec40d404da6aaba274e507f578142b3a72a8021.webp)  
 Figure 2.3  Two typical dialog boxes from the Windows error reporting system
 
 # 2.2.4  What Is a People-Centered Approach?
@@ -1369,12 +1369,12 @@ The activities to discover requirements, design alternatives, build prot
 
 Understanding what activities are involved in interaction design is the first step to being able to do it, but it is also important to consider how the activities are related to one another. The term lifecycle  model (or process model)  is used to represent  a model that captures  a set of activities and how they are related. Existing models have varying levels of sophistication and complexity  and  are  often  not  prescriptive.  For  projects  involving  only  a  few  experienced developers, a simple process is adequate. However, for larger systems involving tens or hundreds of developers, a simple process just isn’t enough to provide the management structure and discipline necessary to engineer a usable product.
 
-![](images/f9ae41409eadcb7d407bc6128e4e1d878badf6cc39eba837b53cb65b6df4e2a0.jpg)  
+![](images/f9ae41409eadcb7d407bc6128e4e1d878badf6cc39eba837b53cb65b6df4e2a0.webp)  
 Source: Fran / Cartoon Stock
 
 Many  lifecycle models  have  been proposed  in  fields  related to  interaction design. For example, software engineering  lifecycle models include the waterfall, spiral, and V  models (for more information about these models, see Pressman and Maxim [2019]). HCI has been less  associated  with  lifecycle models, but  two  well-known  ones  are  the  Star  (Hartson  and Hix, 1989) and an international standard model ISO 9241-210. Rather than explaining the details  of these  models, we  focus  on the  simple  lifecycle model  shown  in  Figure  2.4. This model shows how the four activities of interaction design are related, and it incorporates the principles of people-centered design discussed earlier.
 
-![](images/66be0180bcbe65f47f1ea9eac3119ae0760f3f5d8bf46cd0d7612030f08e400b.jpg)  
+![](images/66be0180bcbe65f47f1ea9eac3119ae0760f3f5d8bf46cd0d7612030f08e400b.webp)  
 Figure 2.4  A simple interaction design lifecycle model
 
 Many projects start by discovering requirements from which alternative designs are generated. Prototype versions of the designs are developed and then evaluated. During prototyping or based on feedback from evaluations, the team may need to refine the requirements or to redesign. One or more  alternative designs  may follow this  iterative cycle in parallel. Implicit in this cycle is that the final product will emerge  in an evolutionary fashion from an initial idea through to the finished product or from limited functionality to sophisticated functionality. Exactly how this evolution happens varies from project to project. However many times the product goes through the cycle, development ends with an evaluation activity  that ensures  that  the final  product meets  the prescribed  user experience and  usability criteria. This evolutionary production relates to the right side of the double diamond, but note that in this interaction design process, discovering requirements may also be revisited.
@@ -1408,7 +1408,7 @@ A key aspect of design sprints is that they are timeboxed: enough time to te
 This design sprint approach has been picked up by many organizations and tailored to their own particular circumstances. One of the earliest design sprints was developed by Google Ventures and optimized for startups (Knapp et al., 2016). Its sprint is divided into planning, followed by five phases, and each phase  is completed in a day. In this sprint, the  first two phases (Understand and Define) are combined into one called Unpack. Teams are encouraged to iterate  on the  last two  phases (Prototype and  Validate)  and  to develop  and  re-test prototypes.
 
 Figure 2.5  The six phases of the design sprint   
-![](images/ee460a23f0068493f101732026cef7a529c722d50cbd783b4d11b15931e83d78.jpg)  
+![](images/ee460a23f0068493f101732026cef7a529c722d50cbd783b4d11b15931e83d78.webp)  
 Source: https://designsprintkit.withgoogle.com/methodology/overview last accessed by 20 May 2022
 
 To see a more detailed description of the design sprint approach and a set of resources to plan and run a design sprint, go to designsprintkit.withgoogle .com/methodology/overview.
@@ -1426,7 +1426,7 @@ Research in the  wild (RITW) develops technology solutions in everyday living 
 Figure 2.6 shows the framework for RITW studies. In terms of the four activities introduced  in section  2.2.5, this framework  focuses  on designing, prototyping, and  evaluating technology and ideas and is one way in which requirements may be discovered. It also considers relevant theory since often the purpose of an RITW study is to investigate a theory, idea, concept, or observation. Any one RITW study may emphasize the elements of the framework to a different degree.
 
 Figure 2.6  A  framework  for research in the wild (RITW) studies illustrating that all of the study elements connect to each other   
-![](images/c911ec54b903b27480c807f66ef459a558b43196b88d9cd05d22bf3f2700fc3e.jpg)  
+![](images/c911ec54b903b27480c807f66ef459a558b43196b88d9cd05d22bf3f2700fc3e.webp)  
 Source: Rogers and Marshall (2017), p. 6. Used courtesy of Morgan & Claypool
 
 Technology: Concerned with appropriating existing infrastructures/devices (e.g., Internet of Things toolkit, mobile app) in situ or developing new ones for a given setting (e.g., a novel public display)
@@ -1471,10 +1471,10 @@ The process of articulating the problem space is typically done as a�
 
 one another. Although time-consuming and sometimes resulting in disagreements among the design team, the benefits of this process can far outweigh the associated costs: There will be much less  chance  of incorrect assumptions and unsupported  claims creeping  into a design solution  that later  turns out  to be unusable or unwanted. Spending  time enumerating  and reflecting upon ideas during the early stages of the design process enables more options and possibilities to be considered. Furthermore, designers are increasingly expected to justify their choice of problems and to be able to present clearly and convincingly their rationale in business as well as design language. Being able to think and analyze, present, and argue is valued as much as the ability to create a product (Kolko, 2011).
 
-![](images/0b7337d13540e54cb5f7c89fef5be7c222979a511a9865f5196713c4966f0fb4.jpg)  
+![](images/0b7337d13540e54cb5f7c89fef5be7c222979a511a9865f5196713c4966f0fb4.webp)  
 (a)
 
-![](images/6d1d41ab036c6db153a423847c819b65d51f813557ebdd48d0564bf16e0c1215.jpg)  
+![](images/6d1d41ab036c6db153a423847c819b65d51f813557ebdd48d0564bf16e0c1215.webp)  
 (b)   
 Figure 2.7  (a) An example immersive holographic display that shows information about the vehicle, navigation, infotainment, and surroundings at different distances, and (b) an augmented reality navigation system available in some cars today
 
@@ -1504,11 +1504,11 @@ Extend your solution with a feature that makesit fun or captivating
 
 ...ad an unusual
 
-![](images/23db41bb6808b709e3caa789678b55775090260d525f8bdcdbb96f406a9ef701.jpg)
+![](images/23db41bb6808b709e3caa789678b55775090260d525f8bdcdbb96f406a9ef701.webp)
 
 engaging to use
 
-![](images/5329b207be06b3c0ace73646cdb53f6108e49e7c2ca1c46a84897e2b3b7ff892.jpg)
+![](images/5329b207be06b3c0ace73646cdb53f6108e49e7c2ca1c46a84897e2b3b7ff892.webp)
 
 # Durable
 
@@ -1516,12 +1516,12 @@ solutiondurable,long-lasting
 
 permanent, endless solution
 
-![](images/52e11f3f2aa00b6110d1e2f98e76ce91fe652905ac5f2213e74f48881dd00e8e.jpg)
+![](images/52e11f3f2aa00b6110d1e2f98e76ce91fe652905ac5f2213e74f48881dd00e8e.webp)
 
 add itrobust,sollid
 
 Figure 2.8  Two creativity triggers   
-![](images/b5fc7d794e8cc5b3214d0f21b63570ad9734a29a6a9d582935986d52eea469ea.jpg)  
+![](images/b5fc7d794e8cc5b3214d0f21b63570ad9734a29a6a9d582935986d52eea469ea.webp)  
 Source: Burnay et al. (2016)
 
 <table><tr><td>Name</td><td>Description</td><td>Guideline 1</td><td>Guideline 2</td><td>Example</td></tr><tr><td>Entertaining</td><td>Extend your solution with a feature that makes it fun or captivating</td><td>...add an unusual feature that no competitor&#x27;s solution has</td><td>... find a feature for your solution that makes it witty and engaging to use</td><td>Google regularly provides diverting content on a regular basis to its users, under the form of interactive Doodles focusing on a specific theme.</td></tr><tr><td>Durable</td><td>Find a feature that makes your solution durable, long-lasting</td><td>... think about your solution as a permanent, end-less, solution</td><td>... add a component to your solution that makes it robust, solid</td><td>A rechargeable battery can be used and recharged more than a hundred times with the same power quality, making it a durable product.</td></tr></table>
@@ -1680,7 +1680,7 @@ When coming up with new ideas as part of a design project, it is i
 
 For  example, consider  the idea  that a designer has  of creating  a voice-assisted  mobile robot  that  can  help  waiters  in  a  restaurant  take  orders  and  deliver  meals  to  customers (see Figure 3.1). The first  question to ask is: Why? What  problem would this address? The designer might say that the robot could help take orders and entertain customers by having a conversation with them at the table. They could also make recommendations  that can be customized to different customers, such as restless children or fussy eaters. However, none of these addresses an actual problem. Rather, they are couched in terms of the putative benefits of the  new solution. In contrast, an actual problem identified might be the following: “It is difficult to recruit good waiters who provide the level of customer service to which we have become accustomed.”
 
-![](images/83016af47b9a246fd03212cdf8bfde59933213e9a8cdbef44634cd57e659a542.jpg)  
+![](images/83016af47b9a246fd03212cdf8bfde59933213e9a8cdbef44634cd57e659a542.webp)  
 Figure 3.1  A nonspeaking robot waiter in Shanghai. Imagine what would be gained if it could also have a conversation with customers.
 
 Source: ZUMA Press / Alamy Stock Photo
@@ -1694,7 +1694,7 @@ These  kinds of robot servers first appeared  after the  pandemic when
 in the kitchen; the cooks load up the trays on its shelves and then send it to a preset area of the dining room to deliver the food. The customers or the human waiter removes the food and drinks from the robot server. After the customers finish their meal, the waiters then load the dirty dishes back onto the tray. In this sense, the robot server is like a tool, there to save waiters’ time rather than replacing them.
 
 Figure 3.2  A robot server with a set of trays that orders are placed onto   
-![](images/9949df766c964278b4ab944ce1eda8efc6fc263b1f925aa77b583f010a7f5234.jpg)  
+![](images/9949df766c964278b4ab944ce1eda8efc6fc263b1f925aa77b583f010a7f5234.webp)  
 Source: www.richtechrobotics.com
 
 Video To see one in action, visit www.richtechrobotics.com/matradee.
@@ -1751,7 +1751,7 @@ There was much hype and fanfare about  the enhanced user experience 3D and
 received worldwide when viewing 3D films at a cinema. Similarly, an assumption made about curved TV was that it would provide  more flexibility for viewers  to optimize the viewing angles in someone’s living room.
 
 Figure 3.3  A family watching 3D TV   
-![](images/2ff0f7b50b27063e09a27a293cb36a8a415071cfad34eb9c5354b051aa6d33e7.jpg)  
+![](images/2ff0f7b50b27063e09a27a293cb36a8a415071cfad34eb9c5354b051aa6d33e7.webp)  
 Source: Andrey Popov/Shutterstock
 
 The unanswered question for both concepts was this: Could the enhanced cinema viewing experience that both claimed become an actual desired living room experience? There was no existing problem to overcome—what was being proposed was a new way of experiencing TV. The problem they might have assumed existed was that the experience of viewing TV at home was inferior to that of the  cinema. The claim could have been that people would be prepared to pay more for a better-quality viewing experience more akin to that of the cinema.
@@ -1795,7 +1795,7 @@ Once formulated and agreed upon, a conceptual model can then become a
 
 Another term that is sometimes used is a design concept. Essentially, it is a set of ideas for a design. Typically, it is composed of scenarios, images, storyboards, mood boards, or text-based documents. For example, Figure 3.4 shows the first page of a design concept developed for an ambient display that was aimed at changing people’s behavior in a building, that is, to take the stairs instead of the elevator. Part of the design concept was envisioned as an animated pattern of twinkly lights that would be embedded in the carpet near the entrance of the building with the intention of luring people toward the stairs (Hazlewood et al., 2010 / ACM, Inc.).
 
-![](images/3c6e62ef3a2a3f7292e7de0fb6f9723b688177ad8ad90ce4dae89b83e74ecc96.jpg)  
+![](images/3c6e62ef3a2a3f7292e7de0fb6f9723b688177ad8ad90ce4dae89b83e74ecc96.webp)  
 Figure 3.4  The first page of a design concept for an ambient display
 
 Many products are actually based on well-established conceptual models. For example, a conceptual model based on the core aspects of the customer experience when at a store underlies most online shopping websites. These include placing items that a customer wants to purchase into a shopping cart or basket and proceeding to checkout when they’re ready to make the purchase. Collections of patterns are now readily available to help design the interface for these core transactional processes, together with many other aspects of a user experience, meaning interaction designers do not have to start from scratch every time they design or redesign an application. Examples include patterns for online forms and navigation on mobile phones.
@@ -1809,7 +1809,7 @@ A Classic Conceptual Model: The Xerox Star
 The Star interface, developed by Xerox in 1981 (see Figure 3.5), revolutionized the way that interfaces were designed for personal computing  (Smith et al., 1982;  Miller and  Johnson, 1996) and is viewed as the forerunner of today’s Mac and Windows desktop interfaces. Originally, it was designed as an office system, targeted at workers not interested in computing per se, and it was based on a conceptual model that included the familiar knowledge of an office. Paper, folders, filing cabinets, and mailboxes were represented as icons on the screen and were designed to possess some of the properties of their physical counterparts. Dragging a document icon across the  desktop screen was seen as equivalent to picking up a piece of paper in the physical world and moving it (but this, of course, is a very different action). Similarly, dragging a digital  document into a digital folder was seen as being analogous to placing a physical document into a physical cabinet. In addition, new concepts that were incorporated as part of the desktop metaphor were operations that could not be performed in the physical world. For example, digital files could be placed onto an icon of a printer on the desktop, resulting in the computer printing them out.
 
 Figure 3.5  The Xerox Star   
-![](images/93bcfc47d482278fa807383e92e9b974cd142e3f0661afac6b524bcc2e06eab4.jpg)  
+![](images/93bcfc47d482278fa807383e92e9b974cd142e3f0661afac6b524bcc2e06eab4.webp)  
 Source: Used courtesy of Xerox
 
 Video The history of the Xerox Star is at youtu.be/Cn4vC80Pv6Q.
@@ -1830,7 +1830,7 @@ Interface metaphors are intended to provide familiar entities that enab
 
 An interface metaphor that has become a staple  in UX is the card. Many of the social media  apps,  such  as Twitter  and  Pinterest,  present their  content  on  digital  cards  that  are based on the idea behind most physical cards. They have a familiar form, having been around for a long time. Just think of how many kinds there are: playing cards, business cards, birthday cards, credit cards, and postcards to name a few. They have strong associations, providing an  intuitive way  of organizing  limited content  that is “card sized.” They  can easily  be flicked through, sorted, and themed. They structure content into meaningful chunks, similar to how paragraphs are used to chunk a set of related sentences into distinct sections (Babich, 2016). They have also become the standard interface model used in many self-ordering kiosks (see Figure 3.6).
 
-![](images/16df1dd90e106436d58627aad6d1726cf4f7975d07c0b743169b31e1bcdd93b7.jpg)  
+![](images/16df1dd90e106436d58627aad6d1726cf4f7975d07c0b743169b31e1bcdd93b7.webp)  
 Figure 3.6  A self-ordering kiosk found in many fast-food restaurants that uses a card metaphor as part of the interface. Each food or drink item is displayed on its own card with associated description and price. This enables the customer to easily select items they want to purchase from the category types in the card matrix while also going back and forth between the other high-level categories (e.g., burgers, vegan, cold drinks), shown down the left side of the display.
 
 In  many  cases, metaphors become  integrated  into common  parlance,  as  witnessed  by the way  people talk about  them. For  example, parents  talk about  how  much screen  time children are allowed each day in the same way they talk more generally about spending time. It  can also  become  an everyday  term in its  own right, e.g., Googling.  Moreover, it  is hard not to use metaphorical terms when talking about technology  use, as they  have become so ingrained in the language that we use to express ourselves. Just ask yourself or someone else to describe Twitter or Instagram and how people use them. Then try doing it without using a single metaphor.
@@ -1875,11 +1875,11 @@ One of the main benefits of designing an interaction based on issuing
 
 There  are  many different  kinds of vending  machines in the  world. Each offers a range  of goods, requiring users to part with some of their money. Figure 3.7 shows photos of three different types of vending machines: one that provides soft drinks and the other two that deliver a range of snacks. Each machine uses an instructional mode of interaction. However, the way they do so is quite different.
 
-![](images/01ad0f4503f33d6618876d06c189723819fcac6880ad328765e15583f1f59bfe.jpg)
+![](images/01ad0f4503f33d6618876d06c189723819fcac6880ad328765e15583f1f59bfe.webp)
 
-![](images/132743dca10fc2a738057125d1a4eda23afcbea77472b47fac355c58d0fba20e.jpg)
+![](images/132743dca10fc2a738057125d1a4eda23afcbea77472b47fac355c58d0fba20e.webp)
 
-![](images/25c2ac9b4f6207c3510aae30bfe4c031f7268d4be0c636c8377e56314a8d4ebd.jpg)  
+![](images/25c2ac9b4f6207c3510aae30bfe4c031f7268d4be0c636c8377e56314a8d4ebd.webp)  
 Figure 3.7  Three different types of vending machine
 
 What instructions must be issued to obtain a soda from the first machine, a bar of chocolate from the second, and a packet of chips from the third one? Why has it been necessary to design a more complex mode of interaction for the second vending machine? What problems can arise with this mode of interaction?
@@ -1904,7 +1904,7 @@ A  main  benefit  of  developing  a  conceptual model  that  uses  a 
 
 message. You can also ask it  indirect questions that  it knows how to answer, such as “Do I need an umbrella today?” It will look up the weather for where you are and then answer with something like, “It doesn’t look like it’s going to rain today” while also providing a weather forecast (see Figure 3.8).
 
-![](images/9d6b827797eb9250ea73c5de98f6c1a44bf119d17c860c782b258d9bf3c91c16.jpg)  
+![](images/9d6b827797eb9250ea73c5de98f6c1a44bf119d17c860c782b258d9bf3c91c16.webp)  
 Figure 3.8  Siri’s response to the question “Do I need an umbrella today?”
 
 A problem that can arise from using a conversational-based interaction type is that certain kinds of tasks are transformed into cumbersome and one-sided interactions. This is especially true for automated phone-based systems that use auditory menus to advance the interaction. Users  have  to listen to a voice providing several options, then make a selection, and finally repeat through further layers of menus before accomplishing their goal, for example, reaching a real human or paying a bill. Here is the beginning of a dialogue between someone who wants to find out about car insurance and an insurance company’s phone reception system:
@@ -1921,7 +1921,7 @@ A problem that can arise from using a conversational-based interaction�
 
 “You have reached the  car insurance division. If you require  information about  fully comprehensive insurance, say 1; third-party insurance, say 2. . . .”
 
-![](images/a1957fcae14cd2d9e19aa70c997eada8154279ecf3ebe3ac5053a04d2dc360b4.jpg)
+![](images/a1957fcae14cd2d9e19aa70c997eada8154279ecf3ebe3ac5053a04d2dc360b4.webp)
 
 “If you’d like to press 1, press 3.
 
@@ -1960,10 +1960,10 @@ This mode of interaction involves people moving through virtual or phy
 
 Many  3D virtual environments  have  been built  that comprise digital  worlds designed for people to move between various spaces to socialize in (e.g., Metaverse), to learn in (e.g., virtual conferences), or to play video games in (such as Fortnite). Many virtual landscapes depicting cities, parks, buildings, rooms, and datasets have also been built, both realistic and abstract, that enable users to fly over them and zoom in and out of different parts. Other augmented environments that have been developed are intended to be used in one’s living room, where hologram people or virtual animals can magically be made to appear (see Figure 3.9a). There are also virtual worlds that are larger than life, enabling people to move around them and experience things that are normally impossible or invisible to the eye. Architects create highly realistic VR representations of planned buildings and spaces that enable their clients and customers  to imagine how  they will use and move through them. 3D visualizations  of complex datasets have also been generated that enable scientists and researchers to immerse themselves in and manipulate the data points, using hand gestures (see Figure 3.9b).
 
-![](images/a15117791cd9aacaa20c66c7e2e725460c48c9d638eeaa9eaa6e98de662b0895.jpg)  
+![](images/a15117791cd9aacaa20c66c7e2e725460c48c9d638eeaa9eaa6e98de662b0895.webp)  
 (a)
 
-![](images/6531ca4ef0ecdea93c14fc5c300d64a2747574193ada1bf0e8172f26566057c2.jpg)  
+![](images/6531ca4ef0ecdea93c14fc5c300d64a2747574193ada1bf0e8172f26566057c2.webp)  
 (b)   
 Figure 3.9  (a) A drop-in virtual lion appearing in someone’s living room created with Google 3D object; and (b) architects working together designing a 3D virtual model.
 
@@ -1973,7 +1973,7 @@ Source: (a) www.cnet.com/tech/services-and-software/google-3d-animals-how-to-us
 
 This mode of interaction involves the system taking the initiative to alert, describe, or show a person something that it “thinks” is of interest or relevance to the context they are presently in. It can do this through detecting the location and/or presence of someone in a vicinity (for instance, a nearby coffee bar where friends are meeting) and notifying them about it on their phone or watch. Smartphones and wearable devices are becoming increasingly proactive in initiating  user  interaction  in  this  way, rather  than  waiting  for  the  user  to  ask,  command, explore, or manipulate. An example is a fitness tracker that notifies the wearer of a milestone they have reached for a given activity, for example, having walked 10,000 steps in a day. The fitness tracker does this automatically without any requests made by the wearer; the wearer can respond by looking at the notification on their screen or listening to an audio announcement that is made. Another example is when the system automatically provides some funny or useful information for the user, based on what it has learned from their repeated behaviors when carrying out particular actions in a given context. For example, after taking a photo of a friend’s cute dog in the park, Google Lens will automatically pop up information that identifies the breed of the dog (see Figure 3.10).
 
-![](images/87b834b9d05e2e3c659971aca97ebda507b3ba022eac728371b7ec866673f353.jpg)  
+![](images/87b834b9d05e2e3c659971aca97ebda507b3ba022eac728371b7ec866673f353.webp)  
 Figure 3.10 Google Lens in action, providing pop-up information about Pembroke Welsh Corgi having recognized the image as one
 
 Source: https://lens.google.com
@@ -2130,7 +2130,7 @@ JOHNSON, J. and HENDERSON, A.  (2012) Conceptual Models:  Core to  Good
 
 LONG, J. (2021) Approaches and Frameworks for HCI Research. CUP. This book is intended for junior researchers starting  out. It surveys  research models and methods in use today. It also provides a general framework intended to bring together the disparate concepts that can be used to inform their own research frameworks and methods.
 
-![](images/dd933a31b5229ca4aa5c63b7e5bc505d27a9801ec7fb2ed70bdbb91af8ae02a3.jpg)
+![](images/dd933a31b5229ca4aa5c63b7e5bc505d27a9801ec7fb2ed70bdbb91af8ae02a3.webp)
 
 # INTERVIEW with Albrecht Schmidt
 
@@ -2246,10 +2246,10 @@ If someone knows exactly what they want to find out, they try to ma
 
 The way information is displayed can also greatly influence how easy or difficult it is to comprehend appropriate pieces of information. Look at Figure 4.1, and try the activity (based on Tullis, 1997). Here, the information-searching tasks are precise, requiring specific answers.
 
-![](images/46856fa974ff653d4948e3c8a65b0eda71b9faf5a08ce28c84151e059fc56169.jpg)  
+![](images/46856fa974ff653d4948e3c8a65b0eda71b9faf5a08ce28c84151e059fc56169.webp)  
 (a)
 
-![](images/1ec4fd6f0419522b3a5967ee308fbb8b229a29d76aaa0cef6daf24c921511b6e.jpg)  
+![](images/1ec4fd6f0419522b3a5967ee308fbb8b229a29d76aaa0cef6daf24c921511b6e.webp)  
 (b)   
 Figure 4.1  Two different ways of structuring the same information at the interface level. One makes it much easier to find information than the other.
 
@@ -2287,7 +2287,7 @@ To help people get back on track or prevent them being distracted in the fi
 
 Judith Borghouts, Duncan Brumby, and Anna Cox (2020) developed a design intervention called TimeToFocus, which is intended to provide people with awareness and feedback in real time about  their  distraction behavior. Essentially, it is a  browser extension  that asks a person to select a main task window to focus on (see Figure 4.2). If they get distracted by other online activities, such as email or browsing the web, it notifies them as to how much time they have switched away from their main task window. In a series of user studies investigating the effectiveness  of increasing awareness  of time spent  away from an allocated  task window, Borghouts  et al. found that their TimeToFocus  intervention enabled  participants to reflect more on their interruption behavior. In turn, this helped them change their working habits by reducing the number of irrelevant activities they partook in during their time away from the main task. Having a pop-up notification that reminds you of how long you have been away from your main task may just do the trick!
 
-![](images/10cab9c42035c7e9429ffa485c8a889596f7ceed12da32dea0849f72ba22c6fd.jpg)  
+![](images/10cab9c42035c7e9429ffa485c8a889596f7ceed12da32dea0849f72ba22c6fd.webp)  
 Figure 4.2  The  TimeToFocus  browser  extension (in upper-right  corner)  that pops up to warn a person about how much time they have spent away from their main task window Source: Borghouts et al. (2020)
 
 Many people are expected to multitask in the workplace nowadays, such as in hospitals, as  a  result  of  the  introduction  of  ever  more  technology  (for  example,  multiple  screens  in an  operating room). The technology  is  often introduced to provide new  kinds of real-time and changing information. Research into how  well clinicians  manage to switch and divide their attention  among different tasks in tech-rich environments  also suggests it is  complex, depending on a number of individual and contextual factors as to how effective they are at achieving this (Douglas et al., 2017). For example, a study of attention switching in a clinical setting showed that when there was a lot of attention switching—as indicated by logged
@@ -2296,7 +2296,7 @@ data from the electronic health records that were accessed—more wrong
 
 Managing the ever-increasing information load requires professionals, like clinicians, to develop new attention and scanning strategies, looking out for anomalies in data visualizations and listening for audio alarms alerting them to potential dangers. Interaction designers have tried to help by  including  the use of ambient displays that come on  when something needs attention—flashing  arrows to direct attention  to a particular type of data or  history logs of recent actions that can be quickly examined to refresh one’s memory of what has just happened on a given screen. In the future, other technologies, such as speech-based interfaces and augmented reality, may prove to be effective at alerting people to what needs attending to at a given time.
 
-![](images/5110bd181e1969c91a16ce87443b239fd7c3cb41f42840714852bf7b210e7e4c.jpg)  
+![](images/5110bd181e1969c91a16ce87443b239fd7c3cb41f42840714852bf7b210e7e4c.webp)  
 This project calls for real concentration. Are you still able tomonotask?
 
 Source: Chris Wildt / Cartoon Stock
@@ -2308,7 +2308,7 @@ Is It OK to Use a Phone While Driving?
 There has been considerable debate about whether drivers should be able to talk or text on their phones at the  same time as driving (see Figure 4.3). People talk on their phones while walking, so why not be able to do the same thing when driving? The main reasons are that driving is more demanding, drivers are more prone to being distracted, and there is a greater chance of causing accidents  (however, it is also the case that some pedestrians, when using their  phones, walk out  into a  road without  looking to see  whether any  cars are  coming). A meta-review of research that has investigated mobile phone use in cars has found that drivers’ reaction times to external events are longer when engaged in phone conversations (Caird et al., 2018).
 
 Figure 4.3  How distracting is it to be texting on the phone while driving?   
-![](images/b02816bef8381c45230513070808d4e9049b31c5b90646c5807ce9f567e0133b.jpg)  
+![](images/b02816bef8381c45230513070808d4e9049b31c5b90646c5807ce9f567e0133b.webp)  
 Source: Tetra Images / Alamy Stock Photo
 
 What might be the reasons for this deterioration in driving performance? Early research showed that drivers who use phones were much poorer at staying in their lane and maintaining the  correct speed (Stavrinos et al., 2013). It appears that drivers on a phone rely more on their expectations about  what is likely to happen next and, as a result, respond  much more slowly to unexpected events, such as the car  in front of them stopping (Briggs et al., 2018). Moreover,  phone  conversations  cause  the  driver visually to imagine  what is being talked about. The driver may also imagine the facial expression of the person to whom they are speaking. The visual imagery involved competes for the processing resources also needed to enable the driver to notice and react to what is in front of them on the road. The idea that using a hands-free device is safer than actually holding the phone to carry out a conversation is not true, as the same type of cognitive processing takes place both ways. And yet using a hands-free phone is legal in many countries. Research has shown how drivers rationalize to themselves why they can’t see a connection between talking on the phone when they are driving and the  risk of crashing (Wells et al, 2021). In particular, a common justification  is the perceived need to be always available should anyone need to contact them.
@@ -2388,7 +2388,7 @@ The  number of documents  written, images  created, music  files record
 
 To help people find what they  are looking for, a number of search and find tools have been developed, such as Apple’s Spotlight. Spotlight enables someone to type a partial name or even the first letter of a file that it then searches for throughout the entire system, including the content inside documents, apps, games, emails, contacts, images, calendars, and applications. Figure 4.4 shows a partial list of files  that Spotlight  matched to the  word cognition, categorized in terms of documents, mail and text messages, PDF documents, and so on.
 
-![](images/759feab34c158fa021ae24ba8465efda489cf2a0193cc2c1328e06eb041579ae.jpg)  
+![](images/759feab34c158fa021ae24ba8465efda489cf2a0193cc2c1328e06eb041579ae.webp)  
 Figure 4.4  Apple’s Spotlight search tool
 
 Google  search  tools  have  also  developed  many  advanced  features,  which  are  geared toward making it easier for someone to find the information or image they are looking for, by analyzing their query or keywords and ranking potential relevant results. AI has also been added to the mix to help narrow down possible images that someone might be looking for. For example, the search tool QuikFynd uses ML algorithms to identify common objects such as cats, dogs, mountains, etc.
@@ -2470,10 +2470,10 @@ Much research has been conducted into how to design technology to hel
 
 Since this seminal research, a number of digital memory apps have been developed for people with dementia. For example, RemArc has been designed to trigger long-term memories  in  people with  dementia  using  BBC Archive  material such  as old  photos,  videos, and sound clips. The idea is based on the principle of reminiscence therapy, which aims to help people who have dementia interact and converse more by stimulating their long-term memory with material from the past (remarc.bbcrewind.co.uk).
 
-![](images/8fa0177dd1b311237c88d616aca1702757d662fd156701bb470c8fcc488a9a70.jpg)
+![](images/8fa0177dd1b311237c88d616aca1702757d662fd156701bb470c8fcc488a9a70.webp)
 
 Figure 4.5  The SenseCam device and a digital image taken with it   
-![](images/a6e52bb617586abc66478d56ea799d0525257eaa824dcca3d6de035a2376dd57.jpg)  
+![](images/a6e52bb617586abc66478d56ea799d0525257eaa824dcca3d6de035a2376dd57.webp)  
 Source: Used courtesy of Microsoft Research Cambridge
 
 Other technologies, such as intelligent  agents and  smart pill  boxes, have  been  developed as cognitive aids intended to remind people with dementia when to take their medication and whether they have taken it already. A novel approach is “earables,” which when connected with smart objects  can act  as memory  aids (Franklin et al., 2021). The idea is based on a cognitive model of memory disorder that focuses on the various errors people with  dementia  make  in  everyday  activities. A  common  problem  is  mixing  up  everyday routines, for example, picking up the salt shaker instead of the sugar shaker when wanting to add  sugar to a cup  of coffee. Franklin et al. suggest developing a technology guidance system that could detect these before they have been executed, letting the person know just in time, via the earable, for example, to tell them to pick up the sugar shaker instead. However, such a smart system is currently just a design concept. Research is needed to determine whether it  is possible to  design such  a guidance system  that is both  accurate and  useful. Questions like how often such auditory interventions are heeded will need to be addressed. In  particular, how will  people  with dementia take to being told by a  voice system of  the potential errors they might make?
@@ -2608,7 +2608,7 @@ especially if it involves reading manuals or other documentation. An a
 An early  conceptual framework, which  was  influential  in HCI,  was known  as  the gulf of execution and the gulf of evaluation. It described the gaps that were assumed to exist between the user and the interface (Norman, 1986; Hutchins et al., 1986). The gulfs were intended to show how to design the latter to enable the user to cope with them. The first one, the gulf of execution, described the distance from the user to the physical system, while the second one, the gulf of evaluation, is the distance from the physical system to the user (see Figure 4.6). A challenge  for designers  is  to  find  ways  of bridging  the  gulfs  to reduce  the  cognitive  effort required to perform a task. In many ways the notions of gulfs provided a discourse by which to explore potential mappings and mismatches between how a system was designed to work and how a person understands how to do a task using it.
 
 Figure 4.6  Bridging the gulfs of execution and evaluation   
-![](images/f497bf54e296afd84f7ce372267da0e37bcec0245a64244819e0c79c44cb46c7.jpg)  
+![](images/f497bf54e296afd84f7ce372267da0e37bcec0245a64244819e0c79c44cb46c7.webp)  
 Source: www.nngroup.com/articles/two-ux-gulfs-evaluation-execution. Used  courtesy  of the Nielsen Norman Group
 
 # 4.3.3  Information Processing
@@ -2616,7 +2616,7 @@ Source: www.nngroup.com/articles/two-ux-gulfs-evaluation-execution. Used  cour
 Another approach to conceptualizing how the mind works has  been to use metaphors and analogies to describe cognitive processes. Numerous comparisons have been made, including conceptualizing the mind as a reservoir, a telephone network, a digital computer, and a deep learning network. A metaphor that was popular in the 1980s was the idea that the mind was an  information  processor. Information was  thought  to enter  and  exit the  mind  through a series of  ordered  processing stages  (see  Figure  4.7). Within  these  stages, various  processes were assumed to act upon mental representations. Processes include comparing and response selection. Mental representations  were assumed  to comprise  images, mental  models, rules, and other forms of knowledge.
 
 Figure 4.7  Human information processing model   
-![](images/fe3894775f367a4244ebc243a3e118f31710691ff5411a06db0a694c03b0b32a.jpg)  
+![](images/fe3894775f367a4244ebc243a3e118f31710691ff5411a06db0a694c03b0b32a.webp)  
 Source: P.  Barber (1998). Applied Cognitive Psychology. London: Methuen. Used courtesy of Taylor & Francis
 
 The  information  processing  model  provided  a  basis from  which  to  make  predictions about human performance. Hypotheses were made about how long someone would take to perceive and respond to a stimulus (also known as reaction time) and what bottlenecks might occur if a person was overloaded with too much information. One of the first HCI models to be derived from the information processing theory was the human processor model, which modeled  the cognitive processes of a user  interacting with a computer (Card  et al., 1983). Cognition  was conceptualized as a series of processing stages, where  perceptual, cognitive, and motor processors are organized in relation to one another. The model predicted which cognitive processes are involved when a user interacts with a computer, enabling calculations to be made of how long a user will take to carry out various tasks. In the 1980s, it was found to be a useful tool for comparing different word processors for a range of editing tasks. Nowadays, however, it is rarely used as other models of how the mind works have superseded it.
@@ -2649,7 +2649,7 @@ People  interact  with  or  create  information  by  using  a  variety�
 
 of external representations and physical tools has  greatly extended and supported people’s ability to carry out cognitive activities. Indeed, they are such an integral part of our cognitive activities  that  it is  difficult to  imagine how we  would go about  much  of our  everyday life without them.
 
-![](images/2c5d72c61ce3da98a25faced45b4872000417eef19155b6162d799534319dde1.jpg)  
+![](images/2c5d72c61ce3da98a25faced45b4872000417eef19155b6162d799534319dde1.webp)  
 Figure 4.8  A cognitive system in which information is propagated through different media
 
 There have been various ways in which the relationship between humans and technology has been theorized. Most well-known are external cognition (Scaife and Rogers, 1996) and the extended mind (Clark and Chalmers, 1998). The extended mind was a philosophical account  of how new  digital technologies were becoming an  extension of our  minds, while the theory of external cognition was concerned with how we could design new kinds of technologies and interfaces that would empower our cognitive abilities while reducing cognitive effort. These include the following (each of which are explained later):
@@ -2806,7 +2806,7 @@ During the pandemic a social phenomenon that emerged to compensate for not 
 
 (Continued)
 
-![](images/58958b3ad1711ecdf8654f27831edf42ab92977131accfae4fb8b560c8215f08.jpg)  
+![](images/58958b3ad1711ecdf8654f27831edf42ab92977131accfae4fb8b560c8215f08.webp)  
 Figure 5.1  A Zoom birthday party in full swing
 
 # Source: Yvonne Rogers
@@ -2817,7 +2817,7 @@ A  growing concern that is being raised  within society is  how much�
 
 South Korea (Wakefield, 2022). Even when sitting together, we often end up being in our own digital bubbles  (see Figure 5.2). Sherry Turkle in her  book called Reclaiming Conversation (2015)  bemoaned the negative impact  that this  trend is  having on  everyday life, especially how it is  affecting conversation. She pointed out that many people will admit to preferring texting to talking to others, as it  is easier, requires less effort, and is more convenient. Furthermore, her research has shown that when children hear adults talking less, they likewise talk less. This in turn reduces opportunities to learn how to empathize. She argues that while online communication has its place in society, it is time to reclaim conversation, where people put down their phones more often and (re)learn the art and joy of spontaneously talking to each other. Do you agree with her view?
 
-![](images/b7c2b9399e480cc6f440068c1572f85663e98d8e681ad84396be60a6edf68efb.jpg)  
+![](images/b7c2b9399e480cc6f440068c1572f85663e98d8e681ad84396be60a6edf68efb.webp)  
 Figure 5.2  A family sits together, but they are all in their own digital bubbles—including the dog! Source: Yvonne Rogers
 
 On  the other hand, it should  be stressed that several  technologies have been  designed to encourage social interaction to good effect. For example, voice assistants that come with smart speakers,  such as Amazon’s Echo  devices, provide  a large number  of skills intended to support multiple users taking part at the same time, offering the  potential for families to play together. An example skill is Open the Magic Door, which enables families with young children to choose their path in a story e.g., saving monkeys on a tropical island, by selecting different options through the narrative. Social interaction may be further encouraged by the affordance of a smart speaker when placed on a surface in the home, such as a kitchen counter  or  mantelpiece.  In  particular, its  physical  presence  in  this  shared  location  affords
@@ -2918,7 +2918,7 @@ Taking turns also provides opportunities for the listener to initiate r
 
 Conversational  user  interfaces, such  as  chatbots,  are  becoming  more  sophisticated  in how they emulate the kind of turn-taking that takes place face to face. They do so by analyzing large numbers of conversational patterns using machine  learning models. For example, Replika,  which  is  an AI-based  companion  chatbot, was designed  to  simulate  human  conversation  through  encouraging turn-taking  with  the user.  Figure  5.3  shows  a snippet  of a conversation I had with Replika, where our conversation takes place through turn-taking.
 
-![](images/b4dbc87e60d83b0d60b80b3e7b8c2f0033afd3e8857ff2ff92f9aaa7d033b768.jpg)  
+![](images/b4dbc87e60d83b0d60b80b3e7b8c2f0033afd3e8857ff2ff92f9aaa7d033b768.webp)  
 Figure 5.3  A snippet of my conversation with Replika, a conversational companion, showing turn-taking
 
 Source: Yvonne Rogers
@@ -2955,7 +2955,7 @@ AÂvarietyÂofÂsocialÂtechnologiesÂhaveÂbeenÂdevelopedÂtoÂsupportÂremote
 
 VideoconferencingÂisÂanÂonlineÂtechnologyÂthatÂenablesÂpeopleÂinÂdifferentÂlocationsÂtoÂcon-Â nectÂandÂmeetÂwithÂeachÂotherÂviaÂtheÂInternet.ÂMuchÂresearchÂwasÂconductedÂinÂtheÂ1980sÂ andÂ1990sÂwhereÂnovelÂsystemsÂwereÂdevelopedÂtoÂenableÂpeopleÂtoÂtalkÂremotelyÂasÂifÂtheyÂ wereÂinÂtheÂsameÂphysicalÂroom.ÂAnÂearlyÂexampleÂwasÂtheÂVideoWindowÂ(FishÂetÂal.,Â1990)Â thatÂwasÂdesignedÂtoÂconnectÂtwoÂloungeÂareas,ÂwhichÂwereÂ50Â milesapart,Â ÂviaÂaÂ3-footÂbyÂ 5-footÂpictureÂwindowÂontoÂwhichÂvideoÂimagesÂofÂeachÂlocationÂwereÂprojectedÂ(seeÂ FigureÂ 5.4).TheÂ ÂlargeÂsizeÂenabledÂviewersÂtoÂseeÂaÂroomÂofÂpeopleÂroughlyÂtheÂsameÂsizeÂasÂ themselves.ÂAÂstudyÂofÂitsÂuseÂshowedÂthatÂmanyÂofÂtheÂconversationsÂthatÂtookÂplaceÂbetweenÂ theÂremoteÂconversantsÂwereÂindeedÂindistinguishableÂfromÂsimilarÂface-to-faceÂinteractions,Â withÂtheÂdifferenceÂbeingÂthatÂtheyÂspokeÂaÂbitÂlouderÂandÂconstantlyÂtalkedÂaboutÂtheÂvideoÂ systemÂ(KrautÂetÂ al.,1990). Â ÂOtherÂearlyÂresearchÂonÂhowÂpeopleÂinteractedÂwhenÂusingÂvide-Â oconferencingÂshowedÂhowÂtheyÂtendedÂtoÂprojectÂthemselvesÂmore,ÂtakeÂlongerÂconversa-Â tionalÂturns,ÂandÂinterruptÂeachÂotherÂlessÂ(Oâ€™ConnailletÂÂ al.,1993).Â Â
 
-![](images/bdd308aa70d928180a9a585fb2b4591948e4a4e28e711304d4d741fbeac361e9.jpg)  
+![](images/bdd308aa70d928180a9a585fb2b4591948e4a4e28e711304d4d741fbeac361e9.webp)  
 FigureÂ 5.4DiagramÂ ÂofÂVideoWindowÂsystemÂinÂuseÂ
 
 Since  then,  videoconferencing  has  advanced  significantly  and  become  adopted  worldwide  as  a  mainstream  communication  tool.  Software  was  developed  so  that  it could  run on  PCs,  smartphones,  or  tablets.  Most  people’s first  experience  of  videoconferencing  was using the free software, Skype. Then other free video apps came along such as FaceTime and WhatsApp. During the pandemic, Zoom and Teams became more widely  used. From being largely a means to chat with others online, these tools rapidly evolved to be more like virtual meeting rooms, providing a range of other functions that could support online activities. These included letting users choose from a variety of background screens, having a parallel window to chat in, assigning people to breakout rooms for smaller group discussions, and providing a range of emojis intended to be used in the moment as a form of expression. Other functions that became popular included the ability for people to share their screens, exchange files, and communicate via digital whiteboards. To indicate who has the floor, screen effects were also made available such as enlarging the person who was talking to take up most of the display window or highlighting their window portal in a different color when they were talking.
@@ -2973,7 +2973,7 @@ It also proved very difficult to socialize with other classmates during lesso
 The virtual spaces could also be customized in a variety of ways, for example, as a school, a playground, or other fantasy social world. Another kind of virtual space that was used to support  teams  working  together is Sococo (see Figure 5.5).  It has  a  similar  rationale—to enable people to connect throughout the day as if they were in the same office building.
 
 Figure 5.5  A Sococo virtual  space where different meeting and social spaces were developed by a research team at University College London. Each room was given a friendly name to give it character.   
-![](images/293502667cb1978495907030612282e40907a7970cce74b68e6eef441bdff2d4.jpg)  
+![](images/293502667cb1978495907030612282e40907a7970cce74b68e6eef441bdff2d4.webp)  
 Source: Kate Jones (kate.e.jones@ucl.ac.uk)
 
 How best to represent the activity of online social interaction in virtual spaces has been the  subject  of much  research. A design principle  that has  been influential  is social  translucence (Erickson and Kellogg, 2000). This refers to the importance of designing communication systems to enable participants and their activities to be visible to one another. This idea was very  much behind the early communication tool, Babble, developed at  IBM by David Smith  (Erickson et  al., 1999), which  provided a  dynamic  visualization  of  the participants in  an  ongoing  chat  room. A  large  2D circle  was  depicted  using  colored  marbles  on  each user’s monitor. Marbles  inside  the  circle  conveyed  those  individuals  active  in  the  current
@@ -2983,7 +2983,7 @@ conversation. Marbles outside the circle showed users involved in other
 360 cameras have also started to be used with videoconferencing that capture  a panoramic view of a meeting room. Instead of having a webcam positioned to face only one direction, the 360 camera is typically placed in the middle of the group meeting on a table. This enables remote team members to see all those present during the meeting. Some systems, such as Meeting Owl, can even automatically  focus on  the person  who is  currently speaking in the room by detecting when they are talking and then zooming in on them. Figure 5.6 shows what they see—which is a split screen view of all the members present in the meeting and the person talking blown up beneath that.
 
 Figure 5.6  The Meeting Owl setup being used in a hybrid meeting   
-![](images/b0fa1f8440fe1287a32a7cc8327854e1095ebd3f5f36735682537988aa4a7310.jpg)  
+![](images/b0fa1f8440fe1287a32a7cc8327854e1095ebd3f5f36735682537988aa4a7310.webp)  
 Source: https://meetingstore.co.uk/product/owl-labs-meeting-owl-pro
 
 The benefits of working at home were found to be many, including a flexible schedule, the ability to wear  casual clothes, fewer distractions from colleagues, and zero commuting. People also  saved money  by  not  having  to  travel each  day. It  is  not  surprising, therefore, that after the pandemic many people wanted to continue working  from home and be able to come into work for one or two days a week. To accommodate this, hybrid working came into being. The idea was to get the best of both worlds, enabling people to still work at home for part of the week but also encouraging them to come into work on certain days in order to re-establish and create a sense of community. While some found it improved their work-life
@@ -2995,7 +2995,7 @@ However, hybrid working is still in its infancy. The experience for rem
 To address this inequality, Microsoft has been conducting research into how to support more  equitable  hybrid meetings  with  a  focus  on  how  to  make  them  more  inclusive. This has involved them rethinking not just the physical meeting spaces but also the whole digital experience  of online  communication  and collaboration. To begin,  they  experimented  with where to place the video feeds of remote members on a shared screen. Instead of having them appear at the top, they placed them at the bottom (see Figure 5.7). The effect was to promote better eye gaze, which is at the same level as the participants in the room. In the rest of the display, documents are presented that can be annotated and changed in real time, in relation to what the team is working on.
 
 Figure 5.7  A prototype of a technology-enhanced hybrid meeting (Microsoft)   
-![](images/3ae1ccf2cc5665b3c57270e1a7ca0d4e83cdef52fc28d6120c237fc03b90eb8f.jpg)  
+![](images/3ae1ccf2cc5665b3c57270e1a7ca0d4e83cdef52fc28d6120c237fc03b90eb8f.webp)  
 Source: www.microsoft.com/en-us/worklab/designing-the-new-hybrid-meeting-experience
 
 # 5.4.2  Telepresence
@@ -3016,7 +3016,7 @@ A recent experience I had of socializing in a 3D virtual world, via a de
 
 and actions all helped to provide a sense of connecting with others. They also helped with the virtual socializing, especially ice-breaking, but I wouldn’t say they provided real social presence. Other attempts to improve the sense of being there are being experimented with in the Metaverse, as described next.
 
-![](images/3eb2d0b6d4c491f88f4d68c43e19f82ea26d374f828151baa7c898885cd53aec.jpg)  
+![](images/3eb2d0b6d4c491f88f4d68c43e19f82ea26d374f828151baa7c898885cd53aec.webp)  
 Figure 5.8  Yvonne trying to dance after giving a keynote at a virtual conference Source: Yvonne Rogers
 
 # BOX 5.3
@@ -3030,7 +3030,7 @@ The idea of the Metaverse has been around for 20–30 years. Essentially, 
 More recently,  Second Life has  become more commercial.  For  example, the  firstever Fashion Week took place in Second Life in early  2022 (www.youtube.com/watch?v= pa2HVUk5s5c&t=14s). Much of it resembled the events that take place in a physical fashion show, with a catwalk, audience, and models showing off new clothing ranges. However, if you watch the video, it looks like the human digital models are floating along the virtual catwalk rather than walking. To address this strangeness, some designers used cartoon cats instead of digital  human models to show off their  clothing (see Figure 5.9). One of the reasons for switching to cartoon characters is it avoids all the problems of trying to make a human model appear lifelike. After the virtual fashion show, the skins of the outfits that were modeled could be purchased by those attending. Once purchased, they could then dress up their own avatars in the skins and walk around parading them.
 
 Figure 5.9  Dolce & Gabbana cat  model showing off a snazzy skin that people can purchase to wear on their own avatar in Second Life   
-![](images/3aa6ceed3c5b1f0b9be7b859c02ac931a02b3e613be733bb791d43b476cc3620.jpg)  
+![](images/3aa6ceed3c5b1f0b9be7b859c02ac931a02b3e613be733bb791d43b476cc3620.webp)  
 Source: coin3.net/the-first-ever-metaverse-fashion-week-digital-fashion-is-here-to-stay
 
 Video A well-researched and personal account of the history of Second Life is presented by Bolly Coco (1999–2021): www.youtube.com/watch?v=8tEORJpmsCE.
@@ -3039,7 +3039,7 @@ In the early 2020s, Mark Zuckerberg (Meta) began talking up the Metaverse 
 
 Figure 5.10 shows  a  version  of Zuckerberg’s vision of the  Metaverse. Three  avatars are enjoying the outdoors, moving their arms and hands with the VR controllers, as if they are together, even though they are apart in the physical world. However, there is something slightly odd about the avatars. They don’t have any legs! The reason for this is largely down to technical limitations. In contrast to the VR hand controllers that can map onto arm movements relatively well in real time, the sensors and controllers that were available at the time that could be placed on someone’s legs were not able to represent leg and foot movements in VR very well. It is often the case that obstacles can get in the way (such as someone’s stomach), resulting in movements of the legs being obscured and not able to be detected accurately. Because of this, VR headsets, like Oculus, initially were not configured to capture the whole body of a person. Current research, however, is exploring how to overcome these kinds  of occlusion problems. In the future, we may see people putting on a whole body suit (like a Spiderman outfit), rather than just a VR headset when entering the Metaverse.
 
-![](images/727e8247080adc18cd40ee91006d78e76bf78a27e18929b00ce6d5422986b9e7.jpg)  
+![](images/727e8247080adc18cd40ee91006d78e76bf78a27e18929b00ce6d5422986b9e7.webp)  
 Figure 5.10 Meta’s vision of three  friends  socializing  in a  3D world  represented  as torso avatars
 
 Source: Facebook www.cnet.com/tech/computing/ facebook-goes-meta-what-is-the-metaverse-and-why-is-big-tech-obsessed
@@ -3060,10 +3060,10 @@ During a live session, class members move around the Miro canvas and�
 
 in the course all commented afterward about how it created a greater awareness of others’ activities and a feeling of being at a place together.
 
-![](images/29308e1e50944385b7c9ed45ef42c29821902c48cc8a027ee921a2d76c5bc16f.jpg)  
+![](images/29308e1e50944385b7c9ed45ef42c29821902c48cc8a027ee921a2d76c5bc16f.webp)  
 (a)
 
-![](images/64b0bba40ac0b486fbd7bb659c445f51cc785023ea6349bbecde90abff4c1305.jpg)  
+![](images/64b0bba40ac0b486fbd7bb659c445f51cc785023ea6349bbecde90abff4c1305.webp)  
 (b)   
 Figure 5.11 (a) A Miro board used in an online class on interaction design where students upload their posters and add comments using yellow post-it notes. The professor and teaching assistants also added theirs using orange ones. (b) A zoomed-in screen of two of the student posters.
 
@@ -3075,7 +3075,7 @@ Source: Nic Marquardt
 
 Instead of talking to a remote family member via videoconferencing, in the future it may be possible to talk to a  miniature-size (or  life-size) 3D image of them. Proto (formerly Portl), a startup company  set up by David Nussbaum in 2020, has been exploring this possibility through creating boxes where a 3D digital person appears in them. They look so lifelike they could almost be there (see Figure 5.12). The box works by being brightly lit with embedded LEDs above, below, and from the sides (see Figure 5.13). It also captures the person’s shadows as they move around the box to give them the appearance of volumetric depth. The recipient can interact with them almost in real time.
 
-![](images/036fa179a930135ac618f1e2d3a4e5005443bfb95467e854a3e9609042acfcad.jpg)  
+![](images/036fa179a930135ac618f1e2d3a4e5005443bfb95467e854a3e9609042acfcad.webp)  
 Figure 5.12 David Nussbaum demonstrating  how  they capture and present  the Proto person in a box
 
 Source: Proto Inc.
@@ -3083,7 +3083,7 @@ Source: Proto Inc.
 Proto is also developing smaller, more affordable boxes for the domestic market, where the  person in the box can be recorded with more affordable technology, by simply using  a smartphone on a tripod. Do you think this way of communicating with others will be more engaging and immersive than current videoconferencing or the Metaverse? Will the size of the projected person matter? In particular, what will be the difference between having a life-size 3D person or a small 3D person appear in the box?
 
 Figure 5.13 Talking with a 3D video of granny in a box (Proto M). The embedded camera at the top of the box faces the mother and child so that Granny can see and hear them in real time. They can also see and hear Granny.   
-![](images/568f9f66136c20b2d3aa6640d4486d0e18f3c9e4fa65be836c9cfcbaa82c815e.jpg)  
+![](images/568f9f66136c20b2d3aa6640d4486d0e18f3c9e4fa65be836c9cfcbaa82c815e.webp)  
 Source: www.portlhologram.com
 
 # 5.5  Co-Presence
@@ -3130,7 +3130,7 @@ Various technologies have been designed to capitalize on existing forms
 
 Augmented reality (AR) sandboxes have been developed for museum visitors to interact with a landscape, consisting of mountains, valleys, and rivers. The sand is real, while the landscape is virtual. Visitors can sculpt the sand into different-shaped contours that change their appearance to look like a river or land, depending on the height of the sand piles. Figure 5.14 shows an AR sandbox that was installed at the V&A museum in London. On observing two young children playing at the sandbox, this author overheard one say to the other while flattening a pile of sand, “Let’s turn this land into sea.” The other replied, “OK, but let’s make an island on that.” They continued to talk about how and why they should change their landscape. It was a pleasure to watch this dovetailing of explaining and doing.
 
-![](images/f01a5b05e05ff2f8e671e0b4febb5c1ea5c98f57b6a54d578e08ac9d32057fa6.jpg)  
+![](images/f01a5b05e05ff2f8e671e0b4febb5c1ea5c98f57b6a54d578e08ac9d32057fa6.webp)  
 Figure 5.14 Visitors creating together using an augmented reality sandbox at the V&A Museum in London
 
 Source: Yvonne Rogers
@@ -3142,14 +3142,14 @@ Often in meetings, some people  dominate while others say very  little
 Real-time feedback presented via ambient displays has also been shown to provide a form of awareness for co-located groups. LEDs glowing in tabletops and abstract visualizations on handheld and wall displays have been designed to represent how different group members are performing, such as turn-taking. An early prototype was the Reflect Table  that was designed to monitor and analyze ongoing conversations using embedded microphones in front of each person and represents this in the form of increasing numbers of colored LEDs, as shown in Figure 5.15 (Bachour et al., 2008). A study investigated whether students became more aware of how  much they  were speaking  during a group  meeting when their  relative levels  of talk were displayed in this manner and, if so, whether they regulated their levels of participation more effectively. In other words, would the girl in the bottom right reduce her contributions (as she clearly has been talking the most) while the boy in the bottom left increase his (as he has been  talking the least)? The findings were  mixed: Some participants  changed their level to match the levels of others, while others became frustrated and chose simply to ignore the LEDs. Specifically, those who spoke the most changed their behavior the most (that is, reduced their level), while those who spoke the least changed theirs the least (in other words, did not increase their level). Another finding was that participants who believed that it was beneficial to contribute equally to the conversation  took more notice of the  LEDs and regulated their conversation level accordingly. For example, one participant said that she refrained from talking to avoid having a lot more lights than the others (Bachour et al., 2010). Conversely, participants who thought it was not important took less notice. How do you think you would react?
 
 Figure 5.15 The Reflect Table   
-![](images/9a6c7600f8cb98f17adf0e25cd2058de250bcc79307d79c43c02c9c4ba7cc3a0.jpg)  
+![](images/9a6c7600f8cb98f17adf0e25cd2058de250bcc79307d79c43c02c9c4ba7cc3a0.webp)  
 Source: Used courtesy of Pierre Dillenbourg
 
 An  implication from  the various user  studies  on  co-located collaboration  around  tabletops is that designing shareable interfaces to encourage more equitable participation isn’t straightforward. Providing  explicit real-time  feedback  on  how  much someone  is  speaking in a group may be a good way of showing everyone who is talking too much, but it may be intimidating for those who are  talking too little. Allowing  discreet and accessible ways for adding and manipulating content to an ongoing collaborative task at a shareable surface may be more effective at encouraging greater participation from people who normally find it difficult or who are simply unable to contribute verbally to group settings (for example, those on the autistic spectrum, those who stutter, or those who are shy or are non-native speakers).
 
 Most of the research on awareness has focused on developing technologies for augmenting visual awareness. But what about people who are blind or have low vision? How can we enhance their sense of the environment? Social interaction can be particularly challenging for them, especially trying to remember who is in a co-located social setting. To help address this situation, Cecily Morrison and colleagues (2021) developed PeopleLens (see Figure 5.16), a new wearable technology to help blind people make sense of and engage  with their immediate social surroundings. It comprises a head-mounted  augmented reality device that uses computer vision algorithms to locate, identify, track, and capture the gaze directions of people in the  vicinity. It  then presents this information to the wearer, when requested, through using spatialized audio so that it appears to come from the direction of the person.
 
-![](images/2f50aa5987615eb546751d9910d9aa64c20036b1669c789670e5cbba431c51c3.jpg)  
+![](images/2f50aa5987615eb546751d9910d9aa64c20036b1669c789670e5cbba431c51c3.webp)  
 Figure 5.16 PeopleLens:  a head-mounted device that enhances a blind child’s spatial awareness of those around them
 
 Source: Cecily Morrison
@@ -3287,7 +3287,7 @@ This rollercoaster set of emotions is what many of us experience when
 Have you seen one  of the terminals shown in Figure 6.1 at an airport after you have gone through security? Were you drawn toward it, and did you respond? If so, which smiley button did you press?
 
 Figure 6.1  A Happyornot terminal located after security at Heathrow Airport   
-![](images/25e64a045d0f10d63c883dfcf925accd7fe705ce209fe03f4ad8e9b4226a37ad.jpg)  
+![](images/25e64a045d0f10d63c883dfcf925accd7fe705ce209fe03f4ad8e9b4226a37ad.webp)  
 Source: www.rsrresearch.com/research/why-metrics-matter. Used courtesy of Retail Systems Research
 
 # Comment
@@ -3302,7 +3302,7 @@ Should an interface be designed to try to keep a person happy when 
 
 Advertising agencies have developed a number of techniques to influence people’s emotions. Examples include showing a picture of a cute animal or a child with hungry, big eyes on a website that “pulls at the heartstrings.” The goal is to make people feel sad or upset at what they  observe and make them want to do something to help, such as making a donation. Figure 6.2, for example, shows a web page that has been designed to trigger a strong emotional response in the viewer.
 
-![](images/d14f5ca227d5f13b259d70755471caf55ddd982442ebf4ab99b136c6078e3730.jpg)  
+![](images/d14f5ca227d5f13b259d70755471caf55ddd982442ebf4ab99b136c6078e3730.webp)  
 Figure 6.2  A web page from Crisis (a UK homelessness charity)
 
 Source: Crisis UK
@@ -3341,7 +3341,7 @@ There  has been much research investigating the influence  of emotions on d
 
 What are  the  effects  of listening to music  while driving? An early  study  by Christelle Pêcher et al. (2009) found that people slowed down while driving in a car simulator when they listened to either happy or sad music, as compared to neutral music. This effect is thought to be due to the drivers focusing their attention on the emotions and lyrics of the music. Listening to happy music was also found not only to slow drivers down, but to distract them more by reducing their ability  to stay in their lane. This did  not happen with the  sad music. More recently, research has shown how fast, loud, and rhythmic music can lead to riskier driving behavior (such  as driving  faster or overtaking)  when in demanding  urban  settings (Karageorghis et al., 2022). It seems it is preferable to listen to slow music when driving conditions are stressful!
 
-![](images/d6cbdc7ba0d7b67123f028311e7387fa52243a17722415abaf50feca99dccf33.jpg)  
+![](images/d6cbdc7ba0d7b67123f028311e7387fa52243a17722415abaf50feca99dccf33.webp)  
 “It's a very user-friendly model."   
 Source: Jonny Hawkins / Cartoon Stock
 
@@ -3350,14 +3350,14 @@ Understanding how emotions work provides a way of considering how to 
 Anthony Ortony, Don Norman, and William Revelle (2005) developed a classic model of emotion and behavior couched in terms of different “levels” of the brain. At the lowest level are parts of the brain that are prewired to respond automatically to events happening in the physical world. This is called the visceral level. At the next level are the brain processes that control everyday behavior. This is  called the behavioral level. At  the highest level are brain processes  involved in contemplating. This is  called  the reflective level (see Figure 6.3). The visceral level responds rapidly, making judgments about what is good or bad, safe or dangerous, pleasurable or abhorrent. It also triggers the emotional responses to stimuli (for instance fear, joy, anger, and sadness) that are expressed through a combination of physiological and behavioral responses. For example, many people will experience fear on seeing a very large hairy spider running across the floor of the bathroom, causing them to scream and run away. The  behavioral level  is  where most  human  activities  occur. Examples include  well-learned routine  operations such as  talking, typing, and swimming. The reflective level entails conscious thought where people generalize across events or step back from their daily routines. An example is switching between  thinking about the narrative structure and special effects used in a horror movie and becoming scared at the visceral level when watching the movie.
 
 Figure 6.3  Anthony Ortony et al.’s (2005) model of emotional design showing three levels: visceral, behavioral, and reflective   
-![](images/1b5afb9dad3521a9ecd92ae450e54e21d46510c9a5fcb747d5f5d1536c83595e.jpg)  
+![](images/1b5afb9dad3521a9ecd92ae450e54e21d46510c9a5fcb747d5f5d1536c83595e.webp)  
 Source: Adapted from Norman (2005), Figure 1.1
 
 One  way of using the model is  to think about how  to design products in terms of the three levels. Visceral design refers to making products look, feel, and sound good. Behavioral design is about use and equates to the traditional values of usability. Reflective design is about considering the meaning and personal value of a product in a particular culture. For example, the design of a Swatch watch (see Figure 6.4) can be viewed in terms of the three levels. The  use  of cultural  images  and  graphical  elements  is  designed  to  appeal  to  certain people at the reflective  level; its affordances of use at the behavioral level, and the brilliant colors, wild designs, and art attract  their attention at the visceral  level. They are combined to create  the  distinctive  Swatch  trademark that  expresses  style  and personality. Designing to induce different levels of emotional responses, however, also requires understanding who the target audience is and what the context of use will be. Swatch customers are likely to be young and fashion conscious.
 
 Another  model  that has  been used to  inform interaction design  is Plutchik’s Wheel of Emotions, originally developed in 1980  (Interaction Design  Foundation, 2021). Figure 6.5 shows how the wheel categorizes human emotions  into seven well-known emotions: anger, disgust, fear, sadness, anticipation, joy, and surprise. It  also includes trust as another one— which is not usually considered as an emotion. Alongside these typical responses are labels (optimism, love, submission, awe, disproval, remorse, contempt, aggressiveness). Other emotions are considered to be a combination of, or derived from, these. The colors used in the wheel reflect the intensity of an emotion: the darker the shade, the more intense the emotion is. Thus, the emotions in the middle of the wheel are seen as more intense; for example, rage is shown in the  middle of the circle as blood red, whereas anger is shown on the outside of the circle in light red. The wheel can be used as a “color palette” akin to a UX mood board. By selecting and blending  different emotions  from the wheel a designer can begin to think about  how to elicit different  kinds and levels of emotional  response. In essence, the wheel provides an initial way of exploring the possible effects of triggering different combinations of adjacent (e.g., serenity and pensiveness) and nonadjacent emotions for different stages of a user experience. It does not, however, instruct the designer on how to design for a selection of emotions.
 
-![](images/e533d3c4b0a1bad33235de8783c17dccac39f78c291c949b5e29f8bcc3429d0e.jpg)  
+![](images/e533d3c4b0a1bad33235de8783c17dccac39f78c291c949b5e29f8bcc3429d0e.webp)  
 Figure 6.4  A Swatch watch called Dip in Color Source: SWATCH AG
 
 # ACTIVITY 6.2
@@ -3369,7 +3369,7 @@ How do Ortony et al.’s (2005) model of emotional design and Plutchik’s 
 Ortony et al.’s  model describes  emotions in terms of how  humans have different  levels of emotional responses depending on how they perceive and interact with a product, whereas Plutchik’s wheel depicts the range of human emotions and how they vary in level of intensity. Both are useful as conceptual tools for thinking about what kinds of behavior and emotions to design for. However, a games designer still has to make the leap in determining which specific game features to use to match to the desired emotional states, such as how much excitement and fear to incorporate into a new game. The palette metaphor used by the wheel can help designers consider different  aspects of a game: for example, highlighting the need to design specific mechanisms that can elicit anticipation and surprise at the beginning while avoiding boredom and distraction later.
 
 Figure 6.5  Plutchik’s wheel of emotions   
-![](images/bb5db99c82a370c6afabeda2b35e0e5a2512bc0443ce1808cd0485330f085cb9.jpg)  
+![](images/bb5db99c82a370c6afabeda2b35e0e5a2512bc0443ce1808cd0485330f085cb9.webp)  
 Source: Machine Elf 1735 / Wikimedia / CC BY
 
 # 6.3  Expressive Interfaces: Aesthetic or Annoying?
@@ -3381,7 +3381,7 @@ Many websites, online shopping sites, and apps have been designed usin
 emotions  of anticipation,  joy, and excitement  as well  as capturing  the  current zeitgeist  of fashion, design, hipness, and youth.
 
 Figure 6.6  An image used on the landing page of Levis.com (at the time of writing this chapter) conveying coolness, sustainable materials, a grungy background, and aesthetic fonts   
-![](images/1bab7068f5c606e04944074f228317131760a6931d16d55a7a30510afb3a121e.jpg)  
+![](images/1bab7068f5c606e04944074f228317131760a6931d16d55a7a30510afb3a121e.webp)  
 Source: LEVI STRAUSS & CO.
 
 Sometimes expressive  features, however, can  turn  out  to  be more  annoying  than  aesthetic. Perhaps most well-known was Clippy, Microsoft’s paperclip that was designed to have human-like qualities to convey friendliness. It typically appeared at the bottom of a person’s screen whenever the system thought they needed help carrying out a particular task (see Figure 6.7a). Its expressiveness was depicted through googly eyes and eyebrows. At first, it was found  to be amusing  and perceived to be helpful. However, after popping up a  few times, many people started to find it annoying and intrusive, distracting them from their work. Its most common intervention was to appear and say, “It looks like you’re writing a letter” and offer to help the user. This might be OK if it happened to be the very first time someone was writing a letter, but not if it were all the other times. Some even found Clippy offensive. There has been much written in the media about the reasons for its failure, including being ahead of its time and its interface poorly designed. For example, The New Yorker (2015) reported that during a focus group that was held to probe why people hated Clippy so much, some of the women present commented on how they thought the character appeared to be too male.
@@ -3393,7 +3393,7 @@ How can virtual agents be designed to be friendly and helpful without
 to  have  a  pleasant  demeaner  without  trying  to  be  too  human-like  or  overly  personable. Another question often asked is which gender should they have? Many have been portrayed as female. However, this can be seen as gender stereotyping. Instead, a cartoon character of an animal or robot that is gender-free may be preferable.
 
 Figure 6.7  (a) Microsoft’s Clippy and (b) IKEA’s Anna   
-![](images/cae25d806c348e165cd2545fabdd0b99e06846c0f1d9ce013d3d2fb1c3d65705.jpg)  
+![](images/cae25d806c348e165cd2545fabdd0b99e06846c0f1d9ce013d3d2fb1c3d65705.webp)  
 Source: Microsoft Corporation
 
 The  benefits  of  having  aesthetically  pleasing  interfaces  in  relation  to  their  impact  on usability  has  also been  researched.  Noam Tractinsky  (2013), for  example, has  repeatedly shown how the aesthetics of an interface can have a positive effect on people’s perception of the system’s usability. When the look and feel of an interface is pleasing and pleasurable—for example through beautiful graphics or a nice feel or the way that the elements have been put together—people are likely to be more tolerant and prepared to wait a few more seconds for a website to download. Furthermore, good-looking interfaces are generally more satisfying and pleasurable to use.
@@ -3409,7 +3409,7 @@ The number 404 comes from the HTML language. The first 4 indicates a c
 Seminal research by Byron Reeves and Clifford Nass (1996) suggested that computers should be courteous to users in the same way that people are to one another. They found that people are more forgiving and understanding when a computer says that it’s sorry after making a mistake. A number of companies now provide alternative and more humorous “error” landing pages that are intended to make light of the embarrassing situation and to take the blame away from the user. For example, Figure 6.8 shows a Lego man’s horrified expression that takes the sting away from a person stumbling on a page that does exist.
 
 Figure 6.8  An alternative 404 error message   
-![](images/b3e89e27fd240b6f63d803ab5329cde33631e403a79522b49e3c0ccc40e5c799.jpg)  
+![](images/b3e89e27fd240b6f63d803ab5329cde33631e403a79522b49e3c0ccc40e5c799.webp)  
 Source: Future Publishing Limited Quay House
 
 # DILEMMA
@@ -3452,7 +3452,7 @@ Affectiva  also  analyzes  drivers’  facial  expressions  when on  the
 
 rate. Again, upon detecting when a threshold has been reached for these facial expressions, the software might trigger an action, such as getting a virtual agent to suggest to the driver that they pull over where it is safe to do so.
 
-![](images/f46df4be1daf419375607e0ee68aad1559a3efe19fcccec3185e61b6f37d34ba.jpg)  
+![](images/f46df4be1daf419375607e0ee68aad1559a3efe19fcccec3185e61b6f37d34ba.webp)  
 Figure 6.9  Facial coding using Affectiva software Source: Affectiva, Inc.
 
 Other  indirect methods that are used to reveal the emotional state of someone include eye-tracking, finger pulse, speech, and the words/phrases they use when tweeting or chatting online. The level of affect expressed by users, the language they use, and the frequency with which they  express themselves when using social media can  all indicate their mental  state, well-being, and aspects of their personality (for instance, whether  they are  an  extrovert or introvert, neurotic or calm, and  so on). Some companies may  try to use  a  combination of these  measures, such  as  facial expressions  and  the language  that people use  when online, while others may focus on just one aspect, such as the tone of their voice when answering questions  over the  phone. This  type  of  indirect  emotion  detection  is  used  to help  infer or predict someone’s behavior, for example, determining their suitability for a job or how they will vote in an election.
@@ -3462,7 +3462,7 @@ Biometric  data is  also used  in streaming video  games where  specta
 streamer’s heart rate, skin conductance, and emotions. This additional layer of data has been found to enhance the spectator experience and improve the connection between the streamer and spectators. Figure 6.10 shows the  emotional state of a streamer using the All the Feels interface.
 
 Figure 6.10 All the Feels app showing the biometric data of a streamer playing a video game   
-![](images/a299452345b4e3899fbde909a4fef64079521049e8a68faa5f9db76fb9f37272.jpg)  
+![](images/a299452345b4e3899fbde909a4fef64079521049e8a68faa5f9db76fb9f37272.webp)  
 Source: Courtesy of Katherine Isbister
 
 # 6.4.2  Tracking and Reflecting on Moods
@@ -3481,7 +3481,7 @@ Autonomous sensory meridian response (ASMR) is a tingling body sensation tha
 
 Virtual  reality  has  also been  developed  to  enable people  to  explore  their  moods. For example, Nadine Wagener  and colleagues  (2022) developed Mood Worlds—a VR application that enables people to visualize their moods by creating their own virtual space using 3D digital tools (see Figure 6.11). The use of this kind of 3D digital painting to explore participants’ feelings was found to lead to increased happiness and positivity.
 
-![](images/c6f5a867f7d9ca1f5d05fe7ba589e95b9819b791a61c066b34d0e9d37de681c6.jpg)  
+![](images/c6f5a867f7d9ca1f5d05fe7ba589e95b9819b791a61c066b34d0e9d37de681c6.webp)  
 Figure 6.11 A participant using the VR app Mood Worlds to visualize and explore their emotions Source: Wagener et al., 2022
 
 # BOX 6.3
@@ -3499,7 +3499,7 @@ A diversity of techniques has been used at the interface to draw peo
 Technology interventions have also been developed to change people’s behaviors in other domains  besides commerce, including  safety, preventative healthcare, fitness, personal  relationships, sustainability,  and learning. Here  the  emphasis  is  on  changing someone’s habits or  doing something that  will improve  an  individual’s  well-being  through monitoring  their behavior. One of the earliest commercial examples was Nintendo’s Pokémon Pikachu device (see Figure 6.12) that was designed to motivate children into being more physically active on a consistent basis. The owner of the digital pet that lives in the device was required to walk, run, or jump each day to keep it alive. The wearer received credits for each step taken—the currency being watts that could be used to buy Pikachu presents. Twenty steps on the pedometer rewarded the player with 1 watt. If the owner did not exercise for a week, the virtual pet became angry and refused to play anymore. This use of positive rewarding and sulking can be a powerful means of persuasion, given that children often become emotionally attached to their virtual pets, especially when they start to care for them.
 
 Figure 6.12 Nintendo’s Pokémon Pikachu device   
-![](images/1103c6305bf1e6228a90a4f0ea24bea939f405fd872d902c079a67528b66b630.jpg)  
+![](images/1103c6305bf1e6228a90a4f0ea24bea939f405fd872d902c079a67528b66b630.webp)  
 Source: Nintendo
 
 # ACTIVITY 6.4
@@ -3529,7 +3529,7 @@ Another  influencing  factor  is  social  norms.  In  a classic  study�
 In contrast to the Schultz study, where each household’s energy consumption was kept private,  the  Tidy Street  project  (Bird  and  Rogers,  2010)  that  was  run  in  Brighton  in  the United Kingdom created a large-scale visualization of the street’s electricity usage by spraying a stenciled display on the road surface using chalk (see Figure 6.13). The public display was updated each day to represent how the average electricity usage of the street compared to the city of Brighton’s average. The goal was to provide real-time feedback that all of the homeowners and the general public could see change each day over a period of three weeks. The street graph also proved to be very effective in getting people who lived on Tidy Street to talk to each other about their electricity consumption and habits. It also encouraged them to talk with the many passersby who walked up and down the street. The outcome was to reduce electricity consumption in the street by 15 percent, which was considerably more than other projects in this area have been able to achieve.
 
 Figure 6.13 Aerial view of the Tidy Street public electricity graph   
-![](images/b039f40339429cf9a25da74d73ebec5e208d9baeb63f16db23dada2ef063baf7.jpg)  
+![](images/b039f40339429cf9a25da74d73ebec5e208d9baeb63f16db23dada2ef063baf7.webp)  
 Source: Yvonne Rogers
 
 # BOX 6.4
@@ -3556,12 +3556,12 @@ Early robot pets, such as Sony’s AIBO, were made of hard materials that m
 
 (Continued)
 
-![](images/cb6cbcfd5b1c3d3766ffaecb9cbb56b5046fdf7863d6075857993900f90d731b.jpg)  
+![](images/cb6cbcfd5b1c3d3766ffaecb9cbb56b5046fdf7863d6075857993900f90d731b.webp)  
 (a)
 
 (b)   
 Figure 6.14 Robot pets: (a) Aibo and (b) The Haptic Creature   
-![](images/a4950fef1f936ccef38bcb7d26b2b64c540548ad66f9c291a190d2ccffdfb7a9.jpg)  
+![](images/a4950fef1f936ccef38bcb7d26b2b64c540548ad66f9c291a190d2ccffdfb7a9.webp)  
 Source: (a) Jennifer Preece (Author), (b) Courtesy of Steve Yohanan. Photo by Martin Dee
 
 # Comment
@@ -3573,7 +3573,7 @@ A  number  of  commercial physical  robots have  been developed  specif
 robots like Stevie playing an entertaining and motivating role alongside human caregivers, it should always be remembered that they can never match the human touch and warmth that patients need.
 
 Figure 6.15 Stevie the robot entertaining residents while at a retirement home   
-![](images/56737c86c0d7014c01ae87982ed4183cbf541e242899e916b6d6412fe70cc9b4.jpg)  
+![](images/56737c86c0d7014c01ae87982ed4183cbf541e242899e916b6d6412fe70cc9b4.webp)  
 Source: www.nature.com/articles/d41586-022-00072-z
 
 # In-Depth Activity
@@ -3703,7 +3703,7 @@ CMU’s  Future Interfaces Group: The  Next Phase  of Computer-Human Interact
 
 Early interactive interfaces required the user to type in commands that were typically abbreviations (for example, ls) at the prompt symbol appearing on the computer display, to which the system responded (see Figure 7.1). Another way of issuing commands is by pressing certain  combinations  of keys  (such  as $\mathrm { C t r l } { + } \mathrm { V } _ { \cdot }$ ). Some  commands  are  also  a fixed  part  of the keyboard, such as delete, enter, and escape, while other function keys can be programmed by the user as specific commands (for instance, F11 commanding print action).
 
-![](images/ca90b849e93e9b7765efa086ca71af2cf06de1ad70dc46c0542bea225f80ebb2.jpg)  
+![](images/ca90b849e93e9b7765efa086ca71af2cf06de1ad70dc46c0542bea225f80ebb2.webp)  
 Figure 7.1  A Unix terminal display showing directories listed alphabetically for the command ls -a Source: Yvonne Rogers
 
 Command-line  interfaces  have  been  largely  superseded  by  graphical  interfaces  that incorporated commands such as menus, icons, keyboard shortcuts, and pop-up/predictable text commands  as part of an application. Where command-line interfaces continue to have an advantage is when people find them easier and faster to use than equivalent menu-based systems (Raskin, 2000). People also prefer command-line  interfaces for performing certain operations as part of a complex software package, such as for CAD environments (such as Rhino3D and AutoCAD), to allow expert designers to interact rapidly and precisely with the software. They also provide scripting for batch operations, and they are being increasingly used on the web, where the search bar acts as a general-purpose command-line facility, for example, www.yubnub.org.
@@ -3729,7 +3729,7 @@ The first generation of WIMP interfaces were primarily boxy in design;
 
 prominent.  (A  widget  is  a  standardized  display  representation  of a  control,  like  a  button or scrollbar, that can be manipulated by  the user.) Nowadays, GUIs have been adapted for mobile and touchscreens. Instead of using a mouse and keyboard as input, the default action for most users is to swipe and touch using a single finger when browsing and interacting with digital content. (For more on this subject, see sections 7.2.6 and 7.2.10.)
 
-![](images/62a648085cb02c5d06295fd04c2a080f6f13dc1e9107a1bfd6d1e6a1e237ae1d.jpg)  
+![](images/62a648085cb02c5d06295fd04c2a080f6f13dc1e9107a1bfd6d1e6a1e237ae1d.webp)  
 Figure 7.2  The boxy look of the first generation of GUIs
 
 The basic building blocks of the WIMP are still part of the modern GUI used as part of a display, but they have evolved into a number of different forms and types. For example, there are now many different types of icons and menus, including audio icons and audio menus, 3D animated icons, and even tiny icon-based menus that can fit onto a smartwatch screen. Apple has also introduced the “complication” display, which shows miniature symbols and snippets of information on the watch face, intended for the wearer to be able to view each time they raise their wrist (see Figure 7.3). The GUI elements include “circulars” and “inlines” that are used to show small snippets of information, date, time, current schedule, notifications, etc.
@@ -3737,7 +3737,7 @@ The basic building blocks of the WIMP are still part of the modern 
 The basic building block on the desktop and laptop is the window in which apps, browsers, dialog boxes, interactive forms, feedback/error messages, etc., are presented. Other kinds of graphical elements that have been incorporated into the GUI include toolbars and docks (a  row or column  of available  applications  and icons  of  other  objects  such  as open  files) and rollovers (where text labels appear next to an icon or part of the screen as the cursor is rolled over it). Next, we give an overview of the design considerations for windows, menus, and icons.
 
 Figure 7.3  An Apple watchOS complication display that includes the features “circulars” (three kinds shown in the bottom line) and “inlines” (shown in the middle and the upper right hand corner of the display)   
-![](images/d696de0c368c143a09a56b7e53211d952937dbf74249029ac90f9bfcebd0fc7e.jpg)  
+![](images/d696de0c368c143a09a56b7e53211d952937dbf74249029ac90f9bfcebd0fc7e.webp)  
 Source: developer.apple.com/design/human-interface-guidelines/components/system-experiences/ complications
 
 # Window Design
@@ -3750,45 +3750,45 @@ One of the problems of having multiple windows open is that it can 
 
 # Google
 
-![](images/3d112c13aa59336e5b8831f0941aa57879153acd3d0e6a7ac5ed9f807af7176c.jpg)
+![](images/3d112c13aa59336e5b8831f0941aa57879153acd3d0e6a7ac5ed9f807af7176c.webp)
 
-![](images/dd4e7f28f7c5b9dfd5918fdea38b5e3e055d8b51e0d7d9ff2e7d83afe5f8cecc.jpg)
+![](images/dd4e7f28f7c5b9dfd5918fdea38b5e3e055d8b51e0d7d9ff2e7d83afe5f8cecc.webp)
 
 Home
 
-![](images/869ecc2c98ba7eb98f78de46fe5759042060f89dfe21733d9e51aa15a1d844ee.jpg)
+![](images/869ecc2c98ba7eb98f78de46fe5759042060f89dfe21733d9e51aa15a1d844ee.webp)
 
 （6）Feed
 
-![](images/b9d0005ba453a1e8cfcf54b2fe7ce88f9c90ecedbf6114722928e22e04f4639e.jpg)
+![](images/b9d0005ba453a1e8cfcf54b2fe7ce88f9c90ecedbf6114722928e22e04f4639e.webp)
 
 All Documents
 
-![](images/0dd96604e460930c6595e2ff686cb8f8707247994e36a9174593f6f3605c7f2b.jpg)
+![](images/0dd96604e460930c6595e2ff686cb8f8707247994e36a9174593f6f3605c7f2b.webp)
 
 Royal Autom..
 
-![](images/5f9b012b04665f2d330879e2c8a4479ee86272314ee51a4454ce7efe74ee9442.jpg)
+![](images/5f9b012b04665f2d330879e2c8a4479ee86272314ee51a4454ce7efe74ee9442.webp)
 
 LogInIntera..
 
-![](images/0f45eb75c256d22c9ae9782baabbde053744fdc46fdcd32eca5d7c151beb2a17.jpg)
+![](images/0f45eb75c256d22c9ae9782baabbde053744fdc46fdcd32eca5d7c151beb2a17.webp)
 
 Interactive In..
 
-![](images/64947707a28e7182ac134b734a4be73bec181bb861d2d2ad50b32af909d067aa.jpg)
+![](images/64947707a28e7182ac134b734a4be73bec181bb861d2d2ad50b32af909d067aa.webp)
 
 Online Banking
 
-![](images/ba04331834406437db3751664385ea19556aa3f6befdbec6f0c6464aa632c5ef.jpg)
+![](images/ba04331834406437db3751664385ea19556aa3f6befdbec6f0c6464aa632c5ef.webp)
 
 Interaction D..
 
-![](images/4e4e3237df43e2cc562dc7e3a53ca5455941abf6bf90748504760b25cd44f0cf.jpg)
+![](images/4e4e3237df43e2cc562dc7e3a53ca5455941abf6bf90748504760b25cd44f0cf.webp)
 
 HUMAN INTE...
 
-![](images/834b945cba159dfee6505bfe3b46e0f1294186572566a786ef118a2a89e13c00.jpg)  
+![](images/834b945cba159dfee6505bfe3b46e0f1294186572566a786ef118a2a89e13c00.webp)  
 Figure 7.4  Part of the home page for my current Google browser showing favicons of top sites visited below the search bar
 
 Add shortcut
@@ -3812,7 +3812,7 @@ To add to the frustration, many online forms often accept only fixed data f
 Another gripe about online registration forms is the country of residence box that opens up as a  never-ending menu, listing  all  of the  countries  in the  world  in alphabetical order. Instead of typing in the country in which they reside, people are required to select the  one they are from, which is fine if you happen to live in Australia or Austria but not if you live in Venezuela or Zambia (see Figure 7.5).
 
 Figure 7.5  A scrolling menu of country names   
-![](images/7b120db45bbfbdb3db4be9de95cc59dba09327d5dea7748d293d726be61dd38e.jpg)  
+![](images/7b120db45bbfbdb3db4be9de95cc59dba09327d5dea7748d293d726be61dd38e.webp)  
 Source: www.jollyflorist.com
 
 (Continued)
@@ -3827,7 +3827,7 @@ Go to the interflora.co.uk website, and hover over the international menu o
 
 Earlier versions of the full list of countries to which flowers could be sent by interflora.co.uk listed eight countries at the top, starting with the United Kingdom and then the United States, France, Germany, Italy, Switzerland, Austria, and Spain. This was followed by the remaining set of countries listed in alphabetical order. The reason for having this particular ordering is likely to have been because the top eight are the countries that have the most customers, with the UK residents using the service the most. At the time of writing, the UK’s current version showed the “most popular international destinations” with a national flag for each country beside them in a table format, followed by a listing of all countries in alphabetical order using a row of letters and shaded blocks across the page (see Figure 7.6). Do you think this is an improvement over the use of a single scrolling list of country names shown in the Jollyflorist website in Figure 7.5? Does it make searching for a country quicker?
 
-![](images/856bd8aafd0a20f84c6a01ded33edb49f2cf520045b3a8f27d25095f17ddec80.jpg)  
+![](images/856bd8aafd0a20f84c6a01ded33edb49f2cf520045b3a8f27d25095f17ddec80.webp)  
 Figure 7.6  An excerpt of the listing of countries in shaded blocks in alphabetical order below a row of letters of the alphabet
 
 Source: www.interflora.co.uk
@@ -3851,13 +3851,13 @@ Interface menus are typically ordered across the top row or down the�
 There are numerous menu interface styles, including flat lists, drop-down, pop-up, contextual, collapsible, mega, flyout, and expanding ones, such as cascading menus. Flat menus are good at displaying a small number of options at the same time or where the size of the display is small, for example on smartphones, cameras, and smartwatches. Expanding menus enable more options to be shown on a single screen than is possible with a single flat menu list. This makes navigation more flexible, allowing for the selection of options to be done in the same window. An example is  the cascading menu, which provides secondary  and even tertiary menus  to appear  alongside  the  primary  active  drop-down  menu, enabling  further related options to be selected, such as when selecting track changes from the tools menu leads to a secondary menu of three options by which to track changes in a Word document. The downside of using expanding menus, however, is that they require precise control. People can often end up making errors, namely, overshooting or selecting the wrong options. In particular, cascading menus require them to move their cursor over the menu item, while holding the mouse or touchpad down, and then to move their cursor over to the next menu list when the cascading menu appears and select the next desired option. This can result in someone underor overshooting a menu option, or sometimes accidentally closing the entire menu. Another example of an expandable menu is a mega menu, in which  many options can  be displayed using  a  2D drop-down  layout  (see  Figure  7.7). This  type  of menu  is  popular  with  online shopping sites, where lots of items can be viewed at a glance on the same screen without the need to scroll. Hovering, tapping, or clicking is used to reveal more details for a selected item.
 
 Figure 7.7  A megamenu   
-![](images/2b3b50f69c244dfa90e5a110f1ec090e63d63318bed366e3ccbdf4280ce13d97.jpg)  
+![](images/2b3b50f69c244dfa90e5a110f1ec090e63d63318bed366e3ccbdf4280ce13d97.webp)  
 Source: www.johnlewis.com
 
 Collapsible  menus  provide  an  alternative  approach  to  expanding  menus  in  that they allow further options to be made visible by selecting a header. The headings appear adjacent to each other, providing the user with an overview of the content available (see Figure 7.8). This reduces the amount of scrolling needed. Contextual menus provide access to often-used commands associated with a particular item, for example, an icon. They provide appropriate commands that make sense in the context of a current task. They appear when the user rightclicks in Windows or presses the Control key while clicking an interface element in macOS. For example, right-clicking or clicking a photo on a website together with holding down the Ctrl key results in a small set of relevant menu options appearing in an overlapping window, such as open it in a new window, save it, or copy it. The advantage of contextual menus is that they provide a limited number of options associated with an interface element, overcoming some of the navigation problems associated with cascading and expanding menus.
 
 Figure 7.8  A template for a collapsible menu   
-![](images/54a5a083e4fa023c3530ee557c4589344616a75e81a5730dc7d8a2d07bf62261.jpg)  
+![](images/54a5a083e4fa023c3530ee557c4589344616a75e81a5730dc7d8a2d07bf62261.webp)  
 Source: inclusive-components.design/collapsible-sections. Reproduced with permission of Smashing Magazine
 
 # ACTIVITY 7.2
@@ -3890,31 +3890,31 @@ Icons can be designed to represent objects and operations in the inte
 
 is being  represented  and how  it is represented. Many operations in an interface, however, are of actions to be performed on objects, making it more difficult  to represent  them using  direct mapping. Instead, a well-known technique is to use a combination of objects and symbols that capture the salient part of an action by using analogy, association, or convention (Rogers, 1989). For example, using a picture of a pair of scissors to represent cut in a word-processing application provides a sufficient clue as long as the person understands the convention of cut for deleting text.
 
-![](images/d99ac173b36cd102eb6389e7deb0447f5fad9e5cd8f46a69b352f0fd04a7cf62.jpg)
+![](images/d99ac173b36cd102eb6389e7deb0447f5fad9e5cd8f46a69b352f0fd04a7cf62.webp)
 
-![](images/18ff57c025d96ea5460d9de6be5a8ec955d37df44525484cdec6aa294dd61aa5.jpg)
+![](images/18ff57c025d96ea5460d9de6be5a8ec955d37df44525484cdec6aa294dd61aa5.webp)
 
-![](images/33f52aa7c02d844f0c6c5384fda8c719a039319dce3273cb02f5e06d2914703d.jpg)
+![](images/33f52aa7c02d844f0c6c5384fda8c719a039319dce3273cb02f5e06d2914703d.webp)
 
-![](images/c646073c3770c99e935682e9d92c96400a1644b24d5d696cb6adba07aefd61d8.jpg)
+![](images/c646073c3770c99e935682e9d92c96400a1644b24d5d696cb6adba07aefd61d8.webp)
 
-![](images/4d26e5f67480565c921cef22e7f747b4b460aebccde1fd2097b0a12d04dd7e82.jpg)
+![](images/4d26e5f67480565c921cef22e7f747b4b460aebccde1fd2097b0a12d04dd7e82.webp)
 
-![](images/cc9eefe19c98798c7a16cad7699a88a276e2cee7e122bb78896f690a179714e1.jpg)
+![](images/cc9eefe19c98798c7a16cad7699a88a276e2cee7e122bb78896f690a179714e1.webp)
 
-![](images/0bfc8dc0e3a7efc8d24054d01df72a96ac4f7891f1ec8c596b533526a070fcad.jpg)
+![](images/0bfc8dc0e3a7efc8d24054d01df72a96ac4f7891f1ec8c596b533526a070fcad.webp)
 
-![](images/4c7e2abb8f67baefde8568012582f92027fe9057648880233b67b046642123e6.jpg)  
+![](images/4c7e2abb8f67baefde8568012582f92027fe9057648880233b67b046642123e6.webp)  
 Figure 7.9  Two styles of Apple icons used to represent different kinds of functions
 
 Another approach that many smartphone designers use is flat 2D icons. These are simple and use strong colors and pictograms or symbols. The effect is to make them easily recognizable and distinctive. Examples shown in Figure 7.10a include the white ghost on a  yellow background (Snapchat), a white line  bubble with  a solid white phone handset  in a  speech bubble on a lime-green background (WhatsApp), and the sun next to a cloud (weather).
 
-![](images/2d42673e0e597c62ede722452d390d9fd2ce1d7b4f125108caa385e38c015b3c.jpg)  
+![](images/2d42673e0e597c62ede722452d390d9fd2ce1d7b4f125108caa385e38c015b3c.webp)  
 (a)
 
 (b)   
 Figure 7.10 2D icons designed for (a) a smartphone and (b) a smartwatch   
-![](images/2b98f067ec553ff1a8efb3a5b363fd8955416e08fe6602fdc9e77792d03ada53.jpg)  
+![](images/2b98f067ec553ff1a8efb3a5b363fd8955416e08fe6602fdc9e77792d03ada53.webp)  
 Source: (a) Yvonne Rogers (b) support.apple.com/en-ca/HT205550
 
 Icons that appear on toolbars or palettes as part of an application or presented on small device displays (such as digital cameras or smartwatches) have much less screen real estate available. Because of this, they have been designed to be simple, emphasizing the outline form of an object or symbol and using only grayscale or one or two colors (see Figure 7.10b). They
@@ -3935,7 +3935,7 @@ Show them to someone  else,  tell them that they are  icons  for  a  new 
 
 Figure 7.11 shows the basic Edit Photo icons on an iPhone that appear at the bottom of the screen when the edit function is selected. The box with extended lines and two arrows is the icon for cropping an image; the  three overlapping  translucent circles  represents “different lenses” that can be used; the wand above it means “auto-enhance”; the circle with plus and minus signs refers to exposure levels while the circle to the right of it with the simplified ying and yang symbol refers to brilliance levels.
 
-![](images/7787213a29dd03776cac4639dc48684cf69407606b51ce2e383e285cbc50dbe5.jpg)  
+![](images/7787213a29dd03776cac4639dc48684cf69407606b51ce2e383e285cbc50dbe5.webp)  
 Figure 7.11 The  two rows of basic Edit Photo icons  that appear at the bottom of an iPhone display
 
 Source: Yvonne Rogers
@@ -3958,7 +3958,7 @@ Text with links in it describing the structure and function of the he
 Hands-on  interactive  simulations  have  also  been  incorporated  as  part  of  multimedia learning environments. An early example was the Cardiac Tutor, developed to teach students about cardiac resuscitation. It required students to save patients by selecting the correct set of procedures  in the correct  order from  various options displayed  on the computer  screen (Eliot  and Woolf, 1994). Other  kinds  of multimedia  narratives and  games have  also been developed  to support  discovery learning by  encouraging children to explore different parts of the display by  noticing a hotspot or other kind of link. For example, KidsDiscover.com/ apps  has  many tablet  apps  that use  a  combination  of  animations,  photos,  interactive  3D models, and audio to teach kids about  science and social studies topics. Using swiping and touching, kids can reveal, scroll through, select audio narration, and watch video tours. Figure 7.12, for example, has a “slide” mechanism as part of a tablet interface that enables the child to do a side-by-side comparison  of what Roman ruins looks like now and in ancient Roman times.
 
 Figure 7.12 An example of a multimedia learning app designed for tablets   
-![](images/51588cf165d8b51740bec0f0b2b1f5daf755792ca90196843aeba9e69e0cff75.jpg)  
+![](images/51588cf165d8b51740bec0f0b2b1f5daf755792ca90196843aeba9e69e0cff75.webp)  
 Source: KidsDiscover app “Roman Empire for iPad”
 
 Multimedia has largely been developed for training, educational, and entertainment purposes.  But  to  what  extent  is  the  assumption  that  learning  (such  as  reading  and  scientific inquiry skills)  and playing can be enhanced  through interacting with engaging multimedia interfaces true? What actually happens when people are given unlimited, easy access to multiple media and simulations? Do they systematically switch between the various media and
@@ -4006,7 +4006,7 @@ In  the beginning,  head-mounted  displays were  used  to present VR  
 Another application area that has been explored is how VR can enrich the experience of reporting and witnessing current affairs and news, especially feelings of empathy and compassion to real-life experiences (Aronson-Rath et al., 2016). For example, the BBC together with Aardman Interactive and University College London researchers developed a VR experience called “We Wait,” where they put the viewer in a place that few foreign reporters have been, namely, on a boat with a group of refugees crossing the Mediterranean Sea (Steed et al., 2018). The goal  was to let news  reporters and other participants  experience how it felt to be there  on the boat with the refugees. They used a particular artistic polygon style rather than realism to create the characters sitting on the boat (see Figure 7.13). The characters had expressive eyes intended to convey human emotion in response to gaze interaction. The avatars were found  to generate  an empathic response from  participants. Other research investigating  the  benefits of immersive  storytelling has  also  found  similar empathetic  responses (Shin, 2018).
 
 Figure 7.13 Snapshot of polygon  graphics used to represent  avatars  for  the  “We  Wait”  VR experience   
-![](images/80a7db4e5d1dfc7a9e3e01062415096568c1451e3fb8bee50f71341e046cb8f4.jpg)  
+![](images/80a7db4e5d1dfc7a9e3e01062415096568c1451e3fb8bee50f71341e046cb8f4.webp)  
 Source: Steed, Pan, Watson and Slater, www.frontiersin.org/articles/10.3389/frobt.2018.00112/full. Licensed Under CC-BY 4.0
 
 Jakob Nielsen argues that VR is much harder to interact with and control compared with GUI interfaces. He claims that this is due partly because it has more degrees of freedom and partly because VR is new to many people who have less experience using it compared with GUIs. See www.youtube.com/ watch?v=f4GVG4C2BcE. Do you agree?
@@ -4045,7 +4045,7 @@ Web  designers  now have  a number  of languages  available to  design
 
 Another  interface element  that is  an  integral  part  of any  website  is  breadcrumb  navigation. Breadcrumbs are category  labels that appear  on a web  page that enable visitors to peruse other pages without losing track of where they have come from (see Figure 7.14). The term comes from the way-finding technique that Hansel used in the Brothers Grimm fairy tale Hansel and Gretel. The metaphor conjures up the idea of leaving a path to follow back. Breadcrumbs are also used by search engine optimization tools that match up a user’s search terms with relevant web  pages using the breadcrumbs. Breadcrumbs also extol usability in a number of ways, including helping people know where they are relative to the rest of the website, enabling  one-click  access to higher site  levels, attracting first-time  visitors to continue to browse a website  after having  viewed the landing page (Mifsud, 2011). Therefore, using them is good practice for other web applications besides websites.
 
-![](images/efe0d2ddea554ccde19dfa4f1ecb747ce88771c067dcb76ee5650bf02449b0bd.jpg)  
+![](images/efe0d2ddea554ccde19dfa4f1ecb747ce88771c067dcb76ee5650bf02449b0bd.webp)  
 Figure 7.14 A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights
 
 Source: www.bestbuy.ca
@@ -4092,7 +4092,7 @@ Larger-sized tablets are also used in mobile settings. For example, ma
 
 Smartphones and smartwatches have an assortment of sensors embedded in them, such as an  accelerometer to detect  movement, a thermometer to measure  temperature, and galvanic  skin  response  to  measure  changes  in  sweat level  on  one’s  skin. Other  apps may  be designed for fun. An example of an early app developed by magician Steve Sheraton simply for a moment  of pleasure  is  iBeer (see  Figure 7.15). Part  of its  success was  because of the ingenious use of the accelerometer inside the phone. It detects the tilting of the iPhone and uses  this  information  to mimic  a  glass of  beer  being consumed. The graphics  and  sounds are also very enticing;  the color of the beer  together with frothy bubbles  and accompanying sound effects gives the illusion of virtual beer being swished around a virtual glass. The beer  can be drained  if  the phone is  tilted  enough, followed by  a  belch sound  when  it has been finished. Since it first appeared in 2008, the iBeer app has been downloaded more than 90 million times!
 
-![](images/7ad20c886ed66bc81541da9583379e51b821be810c488b698594fe10aca258c6.jpg)  
+![](images/7ad20c886ed66bc81541da9583379e51b821be810c488b698594fe10aca258c6.webp)  
 hottrixdounload.co   
 Figure 7.15 The iBeer smartphone app
 
@@ -4102,14 +4102,14 @@ Smartphones can also be used to download contextual information by sca
 
 This method  became  popular  during the COVID-19 pandemic  in cafes, bars, and  restaurants where  customers  selected their  menu choices by  first scanning the QR  code on  a card attached to their table (see Figure 7.16) and then scrolling through the available menu options on their phone. One of the main benefits of this approach was that it reduced human contact during service. Not only could customers view a digital menu, they could also use it to order and pay for their meal.
 
-![](images/4dc8f78ae0897196409053a038c4d03dd6015d4bc3456d990f36ffa7f15ec082.jpg)  
+![](images/4dc8f78ae0897196409053a038c4d03dd6015d4bc3456d990f36ffa7f15ec082.webp)  
 Figure 7.16 Connecting to an online menu by scanning a QR code adhered to a  table in a restaurant
 
 Source: pos.toasttab.com/blog/restaurant-qr-code
 
 Another  kind of mobile  app that has  appeared  is one that uses  customers’ online  purchasing data—that they have to give permission for it to be accessed—to make recommendations and provide feedback to them. An example is a carbon footprint calculator, such as the Goodside app, that is intended to show people the environmental impact of their purchases (see  www.joingoodside.com). After  buying  a sweater  from  a major  sportswear  brand, the Goodside app accesses information about the purchaser’s transaction to determine the spending category that the sweater falls under. It then accesses the clothing company’s sustainability information to calculate the  carbon emissions associated with that  product. This is then shown as part  of an  aggregate carbon footprint visualization on the customer’s phone (see Figure 7.17). They can see how well they are doing overall and what action they might want to take based on this.
 
-![](images/1f632599a141155f5943505d581fc1ea49d5278843145cdbe59d193ff10ac735.jpg)  
+![](images/1f632599a141155f5943505d581fc1ea49d5278843145cdbe59d193ff10ac735.webp)  
 Figure 7.17 The  Goodside app, designed to show people automatically  the  environmental impact of their purchases made through accessing their transactions using their online bank app
 
 Source: www.joingoodside.com
@@ -4147,7 +4147,7 @@ Alan Cooper et al. (2014) in their classic  book suggest that appliance int
 Look at the controls on your toaster (or the one in Figure 7.18 if you don’t have one nearby) and describe what each does. Consider how these might  be replaced with an LCD  screen. What would be gained and lost from changing the interface in this way?
 
 Figure 7.18 A typical toaster with basic physical controls   
-![](images/0896bd91dc551276f4a36c88b73606a17c74fb180ada2a18a74c41c613bdf2b4.jpg)  
+![](images/0896bd91dc551276f4a36c88b73606a17c74fb180ada2a18a74c41c613bdf2b4.webp)  
 Source: uk.russellhobbs.com/product/brushed-stainless-steel-toaster-2-slice
 
 # Comment
@@ -4162,7 +4162,7 @@ A  voice  interface involves  a person  talking  with  a spoken  langu
 
 The first generation of speech  systems earned a reputation for mishearing all too often what a person said (see cartoon). However, they are now much more sophisticated and have higher levels of recognition accuracy. Machine learning algorithms have been developed that continue to improve their ability to recognize what someone is saying. Synthetic speech has also advanced significantly to be more friendlier, convincing, and pleasant than the artificially sounding synthesized speech that was typically used in the early systems.
 
-![](images/b5ac0cc0651f1ae82c9d3cb5ea76371147fa972e2e71ec5f95ffed02d116a316.jpg)  
+![](images/b5ac0cc0651f1ae82c9d3cb5ea76371147fa972e2e71ec5f95ffed02d116a316.webp)  
 Source: Reproduced with permission of King Features Syndicate
 
 Watch Sonatics (2022) video entitled What’s Her Secret? at youtu.be/gS1m TIxEW0. How convincing do you think the artificial voice is? Is it distinguishable from a human voice?
@@ -4216,7 +4216,7 @@ interfaces. A number of commercial guidelines are available for voice inte
 Pen-based  interfaces enable  people to write, draw,  select, and move objects on an  interface using light pens or styluses that capitalize on the well-honed drawing and writing skills. They have  been  used to interact with tablets and large displays, instead of mouse, touch, or keyboard  input,  for  selecting  items  and  supporting  freehand  sketching.  Smartpens,  like  the LiveScribe Echo 2 (see Figure 7.19), use a combination of an ink pen with a digital camera that digitally records everything written with the pen on special paper. The pen works by recognizing a special nonrepeating dot pattern that is printed on the paper. The nonrepeating nature of the pattern means that the pen is able to determine which page is being written on and where on the page the pen is pointing. When writing on digital paper with a smartpen, infrared light from the  pen illuminates  the dot pattern, which is then picked up by a tiny  sensor. The  pen decodes the dot pattern as the pen moves across the paper and stores the data temporarily in the pen. The digital pen can transfer data that has been stored in the pen via Bluetooth to a computer/tablet. Handwritten notes can also be converted and saved as standard typeface text that can then be edited and organized subsequently. This can be  useful for applications that require people to fill in paper-based forms and also for taking notes during meetings.
 
 Figure 7.19 Livescribe Echo 2 Smartpen   
-![](images/a8dfff983033b0c815fdc4a020e3c3ba0a19f01c0b79e0df0e5bc86e3b76d333.jpg)  
+![](images/a8dfff983033b0c815fdc4a020e3c3ba0a19f01c0b79e0df0e5bc86e3b76d333.webp)  
 Source: uk.livescribe.com/collections/smartpens/products/echo-2
 
 Another advantage of pen-based interfaces is that they allow people to annotate existing documents, such as spreadsheets, presentations, and diagrams, quickly and easily in a similar way to how they would do this when using paper-based versions. This is particularly useful for a team who is working together and communicating with each other from different locations. They are also very  versatile; for example, the Apple  pencil  when used with the iPad enables people to write, sketch, annotate, draw, and paint directly onto it.
@@ -4242,7 +4242,7 @@ of these methods enables someone to swipe and move through digital conte
 Both hands may be used on multitouch tabletops to enable people to make digital objects larger and smaller or to rotate them. Dwelling touches (pressing and holding a finger down) can also be used to enable someone  to perform  dragging actions  and to bring  up pop-up menus. One or more fingers can also be used together with a dwell action to provide a wider range of gestures. However, these can be quite  arbitrary, requiring  someone to learn them rather than being  intuitive. Another limitation of touchscreens is that they do not  provide tactile feedback in the same way that keys or mice do when pressed. To compensate, visual, audio, and haptic feedback can be used. (See also the section on shareable interfaces (7.2.14) for more background on multitouch design considerations.)
 
 Figure 7.20 A schematic of a multitouch interface   
-![](images/1614a4505d294a1f0596ccdc4926dfa551fdc2aabb0ce62e99ea652ea2a93f04.jpg)  
+![](images/1614a4505d294a1f0596ccdc4926dfa551fdc2aabb0ce62e99ea652ea2a93f04.webp)  
 Source: Willtron / CC BY 1.0
 
 # 7.2.11  Touchless
@@ -4260,7 +4260,7 @@ Several car dashboards have a form of gesture control; for example, B
 To ensure they are safe, the gestures were developed and tested in the iDrive system, by taking into account how focused the driver is when behind the wheel. More recently, Touchless Computing has emerged as a new  form of in-air gesture-based  interaction that anyone can  use  with  just  a  webcam  (see  www.intel.com/content/www/us/en/company-overview/ wonderful/motion-input-technology.html). The technique developed  is  called MotionInput, which provides a way of interacting with a PC without the need to touch a keyboard or the screen. Instead, a person interacts with the MotionInput software on their PC by making gestures with their hands, head, face, or full body. The software then analyzes their interactions and converts  them  into mouse, keyboard, and joypad  signals. The “multitouch in  the air” software was developed by computer  science undergraduate students at University  College London in  conjunction  with Intel, IBM, and  Microsoft. Compared  with the earlier Kinect gesture-based  systems, it doesn’t require any  specific equipment other than a webcam  and microphone, which most laptops already have.
 
 Figure 7.21 Touchless gesturing in the operating theater   
-![](images/580675d9868b580fa2fc23a9f9884a5dbed207cb9abd3adc45691867b6f76f60.jpg)  
+![](images/580675d9868b580fa2fc23a9f9884a5dbed207cb9abd3adc45691867b6f76f60.webp)  
 Source: Used courtesy of Kenton O’Hara
 
 # Research and Design Considerations
@@ -4275,7 +4275,7 @@ Haptic  interfaces provide  tactile  feedback, by  applying  vibration a
 
 Vibrotactile  feedback can also be used to  simulate the sense  of touch between  remote people who want to communicate. Actuators embedded  in clothing can be designed to recreate  the sensation  of  a hug  or a  squeeze  by  being  buzzed on  various  parts  of the body. Another  use  of  haptics  is  to  provide  real-time  feedback  to  guide  people when  learning  a musical instrument, such as a violin or drums. For example, the MusicJacket (van der Linden et al., 2011) was developed to help novice violin players learn how to hold their instrument correctly and develop good bowing action. Vibrotactile feedback was provided via the jacket to give nudges at key places on the arm and torso to inform the student when they were either holding their violin incorrectly or their bowing trajectory had deviated from a desired path (see Figure 7.22). A user study with novice players showed that they were able to react to the vibrotactile feedback and adjust their bowing or their posture in response.
 
-![](images/87cb4824cbf5205a7528772f2d6da76a4c562eb4c229edbfae80f145fee1fb79.jpg)  
+![](images/87cb4824cbf5205a7528772f2d6da76a4c562eb4c229edbfae80f145fee1fb79.webp)  
 Figure 7.22 The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position
 
 Source: Yvonne Rogers
@@ -4285,7 +4285,7 @@ Another  form  of feedback is called  ultrahaptics, which creates  the�
 Haptics are also being embedded into clothing, sometimes called exoskeletons. Inspired by the “Techno Trousers” in the Wallace and Gromit movie The Wrong Trousers, Jonathan Rossiter and his team (2018) developed a new kind of exoskeleton that can help people stand up  and move  around using artificial  muscles  that  consist  of air bubbles  that  act as  haptic feedback that are activated using tiny electric motors (see Figure 7.23). They are stiffened or relaxed using grapheme parts to make the trousers move. One application area is to help people who have walking difficulties and those who need to exercise but find it difficult to do so.
 
 Figure 7.23 Trousers with artificial muscles that use a new kind of bubble haptic feedback   
-![](images/737f23ad234e2407e5418c4f6e7d9b1440f77cce234a94b66dd1c51e4fc6585e.jpg)  
+![](images/737f23ad234e2407e5418c4f6e7d9b1440f77cce234a94b66dd1c51e4fc6585e.webp)  
 Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for Independent Living
 
 # Research and Design Considerations
@@ -4304,7 +4304,7 @@ virtual environment, or alternately using speech commands followed by g
 
 A person’s body movement can also be tracked so that it can be represented back to them on a screen in the form of an avatar that appears to move just like them. For example, the Kinect was developed as a gesture and body movement gaming input system for the Xbox. Although  now  defunct  in the gaming industry,  it proved effective at  detecting multimodal input in real time. It consisted of an RGB camera for facial and gesture recognition, a depth sensor  (an  infrared projector  paired  with a  monochrome camera) for  movement tracking, and downward-facing  mics for voice recognition  (see Figure 7.24). On  finding a body, the Kinect locked onto  it and measured the three-dimensional  positioning  of the key joints  in their body. This information was converted into a graphical avatar of the user that could be programmed to move just like them. Many people readily saw themselves as the avatar and learned how to play games in this manner.
 
-![](images/a58c88885ee1e636bd6e02884aaf26ec17f77cb9daf6a10b607df3e4d958899c.jpg)  
+![](images/a58c88885ee1e636bd6e02884aaf26ec17f77cb9daf6a10b607df3e4d958899c.webp)  
 Figure 7.24 Microsoft’s Xbox Kinect Source: Stephen Brashear / Invision for Microsoft / AP Images
 
 # Research and Design Considerations
@@ -4319,12 +4319,12 @@ Check out the video of Circle Twelve’s demonstration of the DiamondTo
 
 An advantage of shareable interfaces is that they provide a large interactional space that can support flexible group working, enabling groups to create content together at the same time. Compared with a co-located group trying to work around a single-user PC or laptop, where typically  one  person takes  control, making  it  more difficult  for others to take  part, multiple users can interact with a large display. People can point to and touch the information  being  displayed,  while  simultaneously  viewing  the  interactions  and  having  the  same shared point of reference (Rogers et al., 2009). There are now a number of tabletop apps that have been developed for museums and galleries that enable visitors to learn  about various aspects of the environment (see Clegg et al., 2019).
 
-![](images/fcbc49f13fdc322044cb463476ecc24b16d599b73c1ba2cf944f1942acc7137b.jpg)  
+![](images/fcbc49f13fdc322044cb463476ecc24b16d599b73c1ba2cf944f1942acc7137b.webp)  
 (a)
 
 (b)   
 Figure 7.25 (a)  A SmartBoard in use  during a  meeting and  (b)  Mitsubishi’s interactive  tabletop interface   
-![](images/28a04682205d4e7f85949cbed05e5a4cb87f2f6e0c9cdbae75bb40cb14806e26.jpg)  
+![](images/28a04682205d4e7f85949cbed05e5a4cb87f2f6e0c9cdbae75bb40cb14806e26.webp)  
 Source: (a)  Used  courtesy  of  SMART  Technologies Inc.  (www.smarttech.com/en/business)  (b)  Mitsubishi Electric Research Labs
 
 Another type of shareable interface is a software platform that enables groups of people to work together simultaneously even when geographically apart. Early examples included shared  editing  tools  developed  in  the  1980s  (for  example,  ShRedit).  Various  commercial products  now exist that enable multiple remote  people to work on  the same  document at the same time (such as Google Docs and Microsoft Excel). Some enable up to 50 people to edit the same document at the same time with more watching on. These software programs provide  various functions, such as  synchronous editing,  tracking changes, annotating, and commenting. Other collaborative tools include Miro (see Chapter 5) and the Balsamiq Wireframes  editor, which provides  a  range of shared functions, including  collaborative  editing, threaded comments with callouts, and project history.
@@ -4361,7 +4361,7 @@ The toolkits provide children with opportunities to connect physical el
 
 showing and telling  each other and their instructors about their discoveries  (Lechelt et al., 2018). These moments are facilitated by the cube’s form factor, making it easy to show off to others, for example, by waving a cube in the air (see Figure 7.26).
 
-![](images/c488deadfb2c25a34dd9d751f289c8268c12364c4d545be9cbe963d5d72e5c13.jpg)  
+![](images/c488deadfb2c25a34dd9d751f289c8268c12364c4d545be9cbe963d5d72e5c13.webp)  
 Figure 7.26 Learning to code with the MagicCubes; sharing, showing, and telling Source: Elpida Makriyannis
 
 Tangible toolkits have also been developed for the visually impaired. For example, Code Jumper was developed as a programming  language for teaching programming concepts to children aged 7–11, regardless of level of vision (Morrison et al., 2018). It consists of a set of pods that can be connected and manipulated to create physical strings of code that play stories or music.
@@ -4372,7 +4372,7 @@ Tangible toolkits have also been developed for the visually impaired. F
 
 Traditional methods for gathering public opinions, such as surveys, involve approaching people in situ, but it can disrupt the positive experience they are having. VoxBox (see Figure 7.27) is a  tangible system designed to gather opinions on a range  of topics in situ at an event through playful and engaging interaction (Golsteijn et al., 2015). It was intended to encourage wider participation by grouping similar questions, encouraging completion, gathering answers to open and closed questions, and connecting answers and results. It was designed as a large physical system that provides a range of tangible input  mechanisms through  which people give their  opinions, instead of using, for example, text messages or social media input. The various input mechanisms include sliders, buttons, knobs, and spinners about which people are all familiar. In addition, the system has a transparent tube at the side that drops a ball stepby-step as sets of questions are completed to act as an incentive for completion and as a progress indicator. The results of the selections were aggregated and presented as simple digital visualizations on the other side (for example, 95 percent are engaged; 5 percent are bored). VoxBox was  used at a  number of events drawing in the  crowds, who  become completely absorbed in answering questions in this tangible format.
 
-![](images/8d74833f294cd91388fe7cbfb7d2ee24e2f6607691aabcdc1fbcc092b19ba344.jpg)  
+![](images/8d74833f294cd91388fe7cbfb7d2ee24e2f6607691aabcdc1fbcc092b19ba344.webp)  
 Figure 7.27 VoxBox—front and back of the tangible machine questionnaire Source: Yvonne Rogers
 
 # Research and Design Considerations
@@ -4397,7 +4397,7 @@ Other AR apps have been developed to aid people walking in a city o
 
 The availability of mapping platforms, such as those provided by Niantics and Google, together with Apple’s ARKit, SparkAR Studio, and Google’s ARCore, has made it easier for developers  and  students  alike to  develop  new  kinds  of AR  games  and  AR  apps. Another popular AR game that has emerged since Pokémon Go is Jurassic World Alive, where players walk around in the real world to find as many virtual dinosaurs as they can. It is similar to Pokémon Go but with different gaming mechanisms. For example, players have to study the dinosaurs they  come across by collecting  their DNA and then re-creating it. Microsoft has also enabled new mixed reality user experiences to be created, enabling people wearing a Hololens headset to interact with virtual elements in their surroundings.
 
-![](images/f087f58b08c047fb800aea46ac55e8e73eee854d7911ef02fea7cf18ffeff2f5.jpg)  
+![](images/f087f58b08c047fb800aea46ac55e8e73eee854d7911ef02fea7cf18ffeff2f5.webp)  
 Figure 7.28 Augmented reality overlay used on a car windshield
 
 # Source: wayray.com
@@ -4410,12 +4410,12 @@ The same technology can be used to enable people to step into histor
 
 actor’s dressing room (see Figure 7.29b). On encountering the mirror in situ, visiting school children were fascinated by the way the virtual make-up made them look like Akhnaten and his wife, Nefertiti. The singers and make-up artists who were in the production also tried it out and saw great potential for using the app to enhance their existing repertoire of rehearsal and make-up tools.
 
-![](images/cbb7702ed46608f3bb9a27fb0b2c38b70d0aaed543ba7fe58d472f8b2f8aaf5b.jpg)  
+![](images/cbb7702ed46608f3bb9a27fb0b2c38b70d0aaed543ba7fe58d472f8b2f8aaf5b.webp)  
 (a)
 
 (b)   
 Figure 7.29 (a) A principal singer trying on the virtual look of Akhnaten and (b) a framed AR mirror in the ENO dressing room   
-![](images/40eeddc8e92d4d01705f584976ac5f47a74baf56970896de69e148f0d10dbcd5.jpg)  
+![](images/40eeddc8e92d4d01705f584976ac5f47a74baf56970896de69e148f0d10dbcd5.webp)  
 Source: Used courtesy of Ana Javornik
 
 # Research and Design Considerations
@@ -4441,7 +4441,7 @@ Exoskeleton clothing (see section 7.2.12) is also an area where fashio
 Google Glass was a  wearable that went on sale in 2014 in various fashion styles (see Figure 7.30). It was designed to look like a pair of glasses, but with one lens of the glass being an interactive display with an embedded camera that could be controlled with speech input. It allowed the wearer to take photos and videos on the move and look at digital content, such as email, texts, and maps. The wearer could also search the web using voice commands, and the results would appear on the screen. A number of applications were developed beyond those for everyday use, including WatchMeTalk, which provided live captions to help the hearingimpaired in their day-to-day conversations and Preview for Glass that enabled the wearer to watch a movie trailer the moment they looked at a movie poster.
 
 Figure 7.30 Google Glass   
-![](images/3ba223582107540652c7298e6e58d27e8858de93476eb2d72e4df36e473c36c0.jpg)  
+![](images/3ba223582107540652c7298e6e58d27e8858de93476eb2d72e4df36e473c36c0.webp)  
 Source: Google Inc.
 
 However, being in the company of someone wearing a Google Glass was felt by many to be unnerving, as the wearer looked up and to the right to view what was on the glass screen rather than looking at you and  into your eyes. One of the criticisms of wearers of Google Glass was that it made them appear to be staring into the distance. Others were worried that those wearing Google Glass were recording everything that was happening in front of them. As a reaction, a few bars and restaurants in the United States implemented a “no Glass” policy to prevent customers from recording other patrons.
@@ -4468,10 +4468,10 @@ and as search and rescue helpers in disasters (for instance, in fores
 
 Domestic robots that help with the cleaning and gardening have become popular. Robots are  also  being  developed  to  help  the  elderly  and  disabled  with  certain  activities, such  as picking up objects and cooking meals. Pet robots, in the guise of human companions, have been  commercialized.  Several  research teams  have  taken the “cute  and  cuddly” approach to  designing  robots,  signaling  to  humans  that  the  robots  are  more  pet-like  than  humanlike. For example, Mitsubishi developed Mel the penguin (Sidner and Lee, 2005) whose role was  to  host  events,  while the  Japanese  inventor  Takanori Shibata  first developed  Paro  in 2004, a baby  harp seal that looks like a cute  furry cartoon animal, and whose role was as a companion (see Figure 7.31). Sensors were embedded in the pet robots, enabling them to detect certain human behaviors and respond accordingly. For example, they can open, close, and move their eyes, giggle, and raise their flippers. The robots encourage being cuddled or spoken to, as if they were real pets or animals. The appeal of pet robots is thought to be partially due to their therapeutic qualities, being able to reduce stress and loneliness among the elderly and infirm (see Chapter 6 for more on cuddly robot pets). Paro has since been used to help patients with dementia  to make them feel more at ease and comforted both in care homes (Griffiths, 2014) and family homes (Inoue et al., 2021). It has been found to encourage social behavior among patients who often anthropomorphize it. For example, they might say as a joke “it’s farted on me!” which makes them and others around them laugh, leading to further laughter and joking. This form of encouraging of social interaction is thought to be therapeutic.
 
-![](images/2b743a8851867b10a564d246b9cf207997418648a8060eb79a25f15211e9f40d.jpg)
+![](images/2b743a8851867b10a564d246b9cf207997418648a8060eb79a25f15211e9f40d.webp)
 
 Figure 7.31 (a) Mel, the penguin robot, designed to host activities; (b) Japan’s Paro, an interactive seal, designed as a companion, primarily for the elderly and sick children   
-![](images/1c9b541f9f70bde1b2a1efe01ff89da98c7088e290ff7e17c8540d55d6758eb9.jpg)  
+![](images/1c9b541f9f70bde1b2a1efe01ff89da98c7088e290ff7e17c8540d55d6758eb9.webp)  
 Source: (a) Mitsubishi Electric Research Labs (b) Parorobots.com
 
 Watch the video of Robot Pets of the Future at youtu.be/wBFws1lhuv0.
@@ -4480,7 +4480,7 @@ Drones  are  a form  of unmanned  aircraft that  are  controlled  remo
 
 Drones have also been used in the agricultural and construction industries, such as flying them over buildings or vineyards to collect data in the form of video footage  and photographs (see Figure 7.32). They have also been used to track poachers in wildlife  parks in Africa (Preece, 2016). Compared with other forms of data collection, they can fly low and stream photos to a ground station where the images can be stitched together into maps and then used to determine the health of a crop or when is the best time to harvest the crop.
 
-![](images/dc407eaa23f094b377a66e75eb15573478c3a283e0014292133740c7db732bf6.jpg)  
+![](images/dc407eaa23f094b377a66e75eb15573478c3a283e0014292133740c7db732bf6.webp)  
 Figure 7.32 A drone being used to survey the state of a vineyard Source: Drone inspecting vineyard / Shutterstock
 
 Watch the video of a Firefly drone firework display at www.youtube.com/ watch?v=tcoIUd9Y3-w.
@@ -4501,7 +4501,7 @@ Brain–computer  interfaces  (BCI)  provide  a  communication  pathway  
 
 BrainGate is a kind of BCI that has been developed to enable people who are paralyzed to control robots and be able  to move a cursor on a computer screen displaying  the letters of the alphabet (see Figure 7.33). A study found that after training participants were able to “point and click” on letters—similar to using a computer mouse—to type specific sentences (Pandarinath et al., 2017). On average, they could type nearly 8 words per minute.
 
-![](images/b78fc46bc694c689221abd4368150677b8161e525322642f7e4ae86c90431c9a.jpg)  
+![](images/b78fc46bc694c689221abd4368150677b8161e525322642f7e4ae86c90431c9a.webp)  
 Figure 7.33 A brain-computer interface being used by a woman who is paralyzed to select letters on a screen (Pandarinath et al., 2017)
 
 Source: Brown University
@@ -4514,7 +4514,7 @@ as “concentrating,” “focused,” “motor activity,” “stressed,”�
 
 To test this, Fang et al. ran a user study, where groups of three  participants were asked to play a card game together, wearing the BBI  system headsets that were all connected. They found that the participants would try to guess the cards each other had on receiving electrical stimulation  via the BBI. It was not clear whether they could change the  state of each other’s brains, but the study findings suggested that this kind of playful mind guessing can add a whole new dimension to playing games. Other researchers are also trying to develop technology that can read people’s minds. Neuralink, for example, is in the business of developing implantable brain–computer interfaces, with the goal of being able to determine what people are thinking.
 
-![](images/29846dd645946932c5a4bbf15111574a17784032cc619b5e597c1f7fcfe25f50.jpg)
+![](images/29846dd645946932c5a4bbf15111574a17784032cc619b5e597c1f7fcfe25f50.webp)
 
 Source: Tim Cordell / Cartoon Stock
 
@@ -4549,7 +4549,7 @@ geared towards  accomplishing tasks autonomously. In terms of research cons
 Shape-changing interfaces employ physical shape  change as input  and  output to systems. A well-known example is a physical 3D bar chart that is positioned in a grid where a matrix of 3D rods move up and down to convey changes in a digital dataset. This type of dynamic physical representation has been found to help people with visualization tasks, including annotation, filtering, organization, and navigation (Alexander et al., 2018). Shape-changing interfaces have also been developed as a form of dynamic  material to explore novel interaction possibilities. Figure 7.34, for example, has been programmed using inFORM to show the shape of a car that can be felt by placing a hand over it. These kinds of shape-changing interfaces provide a different way of interacting with content compared with reading and touching digital displays.
 
 Figure 7.34 inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group   
-![](images/5625ae9f74843599a4549f1f4cfeff4fef38a3f768380c0ad010ca9dfcb3ecff.jpg)  
+![](images/5625ae9f74843599a4549f1f4cfeff4fef38a3f768380c0ad010ca9dfcb3ecff.webp)  
 Source: trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676
 
 Other examples of shape-changing interfaces include data sculptures, tactile cartographic maps,  and “physicalizations.” The  last  of  these  are  physical artifacts  that  are  designed  to encode data in specific materials. An example is Physikit (Houben et al., 2016), which is a physical-digital system comprising a set of physical cubes that convey digital properties and are programmed  to visualize  real-time environmental  data  in the  home, such as  moisture, $\mathrm { C O } _ { 2 }$ , or light levels. An example PhysiCube called PhysiMove has a rotating disk on the top of it that moves clockwise or counterclockwise, depending on the kind of data it receives as input. The  main  benefits of using  these kinds of physical instantiations  of data is  to make the data  more accessible and to enable people  to more readily connect with the context in which the data is being collected or is changing over time (Sauvé et al, 2022). For example, the PhysiCubes are intended to be located in a home setting, such as the living room, which helps with the  interpretation of  the data. Imagine a group  of people  is sitting in  the living room one evening watching the cup final on TV and halfway through the game a house plant based on the PhysiCube disk starts moving clockwise much more rapidly. This indicates high levels of carbon dioxide have been detected. The people in the room can then work out from the context that it is not that the game is boring, causing them to yawn, but that the spike in the $\mathrm { C O } _ { 2 }$ level data is caused by them cheering a lot and, in so doing, exhaling more.
@@ -4568,7 +4568,7 @@ Another  form  of  perceptual illusion that makes  virtual avatars appe
 
 The technology used includes three 65-million-pixel screens (massive flat displays that make the  images  projected  look  as  if  they  were  real)  and  motion-capture  technology  (see  Figure 7.35). Many people who have gone to the show are completely blown over by how lifelike they appear.
 
-![](images/a437b6b36b3cbcabaf9597769e0ec8e1f172b4d6f5224cf1554e657856276116.jpg)  
+![](images/a437b6b36b3cbcabaf9597769e0ec8e1f172b4d6f5224cf1554e657856276116.webp)  
 Figure 7.35 An infographic showing how avatars of the band ABBA were created Source: www.graphicnews.com/en/pages/38425/entertainment-abbas-mysterious-abbatars-revealed-1
 
 # Research and Design Considerations
@@ -4644,7 +4644,7 @@ ROWLAND, C., GOODMAN, E., CHARLIER, M., LIGHT,A., and LUI, A. (2015) D
 
 STAIANO, F.  (2022) Designing and Prototyping Interfaces with Figma: Learn essential UX/ UI design principles by creating interactive prototypes for mobile, tablet, and desktop. Birmingham Packt Publishing. This is a hands-on book for someone wanting to learn Figma and use it  to design responsive mobile applications for mobile, tablet and desktop interfaces. It covers the process of creating a complete design using the various Figma tools such as Components, Variants, Auto Layout.
 
-![](images/a64ebb1e369ac602508c780e684485ea0de1049411dbb861c6cc477849fa9ce5.jpg)
+![](images/a64ebb1e369ac602508c780e684485ea0de1049411dbb861c6cc477849fa9ce5.webp)
 
 # INTERVIEW with Leah Buechley
 
@@ -4683,7 +4683,7 @@ as  I  can,  to  the  entire  creative  process. I  develop  and  shar
 What excites you most about your work? I  am infatuated with materials. There  is nothing  more inspiring  than a  sheet  of heavy paper, a length of wool felt, a slab of clay, or a box  of old  motors. My thinking about  design and  technology is largely driven by explorations of materials  and their affordances. So, materials  are  always delightful. For example, the shape and surface pattern of the cup in Figure 7.36 were computationally  designed.  A  template of the  design was  then laser  cut  and  pressed into a flat sheet or “slab” of clay. Finally, the clay was  folded into shape  and  then fired and  glazed using  traditional  ceramic  techniques. But the real-world adoption of tools I’ve designed and the prospect this presents for changing technology culture is perhaps what’s most exciting. My most dearly held goal is to expand and diversify technology culture, and it’s tremendously rewarding to see evidence that my work is doing that.
 
 Figure 7.36 An example of a computational cup   
-![](images/fa3e18d72320957aca8e6c85c952ecce8347799cbef76f80662900ba434a7bb9.jpg)  
+![](images/fa3e18d72320957aca8e6c85c952ecce8347799cbef76f80662900ba434a7bb9.webp)  
 Source: Used courtesy of Leah Buechley
 
 # Chapter 8
@@ -4953,7 +4953,7 @@ Probes are a useful device for getting more information, especially ne
 
 Interviews are often conducted with one interviewer and one interviewee, but it is also common to interview people in groups. One form of group interview that is sometimes used in interaction  design activities is  the focus  group. Normally, three  to ten  people  are  involved, and the discussion is led by a trained facilitator. Participants are selected to provide a representative  sample of the target population. For example, in the evaluation of an  interactive university  campus map, a  group of  administrators, faculty, students, and  potential visitors may  form  three separate focus groups  because they  use the map  for different purposes. In requirements activities, a focus group may be held in order to identify conflicts in expectations or terminology from different stakeholders.
 
-![](images/bb207de9a6df3e287144d482185d8d54091921d51df22b4a47f6fc7664cbb69b.jpg)  
+![](images/bb207de9a6df3e287144d482185d8d54091921d51df22b4a47f6fc7664cbb69b.webp)  
 The focus group hated it.So he showed it toanout-of-focus group.   
 Source: Mike Baldwin / Cartoon Stock
 
@@ -4981,18 +4981,18 @@ Interviewees may  not understand  jargon or complex language  and might
 
 Several devices are available for reading ebooks, watching movies, and browsing photographs (see Figure 8.3). The design differs between makes and models, but they are all aimed at providing a comfortable user experience.
 
-![](images/9fbfc1ca1312cd15c087056a0dec9b3f3cef9d6beb90d74b82ba31ddb0942200.jpg)  
+![](images/9fbfc1ca1312cd15c087056a0dec9b3f3cef9d6beb90d74b82ba31ddb0942200.webp)  
 (a)
 
-![](images/de070df7ba17c0e5f08e5e0ced5669177396215d75b696903b3920f9ab401486.jpg)  
+![](images/de070df7ba17c0e5f08e5e0ced5669177396215d75b696903b3920f9ab401486.webp)  
 (b)
 
-![](images/6dc169caf914f6b29468e1107792223e5e656e768989b909af92835db57eb85e.jpg)  
+![](images/6dc169caf914f6b29468e1107792223e5e656e768989b909af92835db57eb85e.webp)  
 (c)
 
 (d)   
 Figure 8.3  (a) Kobo’s eReader, (b) Amazon’s Kindle, (c) Apple’s iPad, and (d)  Samsung Galaxy phone   
-![](images/62ae3d5939bfde8f830c4cc5bfff07258e41d7b0904e491248a243174d9fecf1.jpg)  
+![](images/62ae3d5939bfde8f830c4cc5bfff07258e41d7b0904e491248a243174d9fecf1.webp)  
 Source: (a) Hadrian/Shutterstock, (b) Helen Sharp, (c) Mark Lennihan / AP Images, and (d) Helen Sharp
 
 The developers of a new device for reading ebooks want to find out how appealing it will be to young people aged 14–16, so they have decided to conduct some interviews.
@@ -5101,7 +5101,7 @@ Conducting  focus  groups  remotely  presents  further  challenges  becau
 
 Whether  conducted  in a  face-to-face  or remote  setting,  interviews  can  benefit  from  using artifacts relevant to the goal of the study as a focus for discussion. These props can provide context for the interviewer and interviewees and help to ground the data in concrete examples. Example props are personas, prototypes, or scenarios (examples of these are covered in Chapter  11,  “Discovering  Requirements,”  and  Chapter  12,  “Design,  Prototyping,  and Construction”). Figure 8.4 illustrates the use of personas in a focus group setting.
 
-![](images/244d85f51f9ac29002a89b63af3dd425b1f3434eae6ea3a06342142731e0ca7a.jpg)  
+![](images/244d85f51f9ac29002a89b63af3dd425b1f3434eae6ea3a06342142731e0ca7a.webp)  
 Figure 8.4  Enriching a focus group with personas displayed on the wall for all participants to see
 
 Almohannad Albastaki et al. (2020) investigated the feasibility of using a virtual experience  prototype  to  augment  remote  interviews. They  investigated  robotic  expressions  with design  experts using a  nonimmersive  virtual  reality simulation. In their  study, participants were  asked  to  explore  a  simulation  of  an  urban  robot  operating  in  an  alleyway  at  night
@@ -5165,7 +5165,7 @@ CNN news
 
 (b)
 
-![](images/2c8481ba567f8a28b53e9b2d684b1054caee8305adc68605e89002988938f2e8.jpg)  
+![](images/2c8481ba567f8a28b53e9b2d684b1054caee8305adc68605e89002988938f2e8.webp)  
 Figure 8.5  (a) Radio buttons are used when only one option can be selected. (b) Check boxes are used when several options can be selected. (c) A drop-down menu for currency.
 
 (c)
@@ -5202,7 +5202,7 @@ In both cases, respondents would be asked to tick one of the boxes,�
 
 Semantic differential scales explore a range of bipolar attitudes about a particular item, each of  which is  represented  as a pair  of  adjectives. The  participant  is  asked  to choose  a  point between the two extremes to indicate agreement with the poles, as shown in Figure 8.6. The score for the investigation is found by summing the  scores for each bipolar pair. Scores are then computed across groups of participants. Notice that in this example the poles are mixed so that good and bad features are distributed on the right and the left. In this example, there are seven positions on the scale.
 
-![](images/85ad52d93bfe6757e98dfb20864cebb9f63c53733ae1f4a0a1c96c7e588461b3.jpg)  
+![](images/85ad52d93bfe6757e98dfb20864cebb9f63c53733ae1f4a0a1c96c7e588461b3.webp)  
 Figure 8.6  An example of a semantic differential scale
 
 # BOX 8.3
@@ -5219,7 +5219,7 @@ When designing a scale, one rule of thumb is to use a small number, such 
 
 Spot four poorly designed features in the excerpt from a questionnaire on the use of fitness trackers in Figure 8.7.
 
-![](images/5e8180ce36db20d9b1544bc24702940858ad4d997fbdf1e9b9c4d4d949fe3d91.jpg)  
+![](images/5e8180ce36db20d9b1544bc24702940858ad4d997fbdf1e9b9c4d4d949fe3d91.webp)  
 Figure 8.7  A questionnaire with poorly designed features
 
 # Comment
@@ -5244,7 +5244,7 @@ While  questionnaires are most commonly online, paper questionnaires are
 
 Online questionnaires are interactive and can include check boxes, radio buttons, pulldown and pop-up menus, help screens, graphics, or videos (see Figure 8.8). They can also provide immediate data validation; for example, the entry must be a number between 1 and 20 and automatically skip questions that are irrelevant to some respondents, such as questions aimed only at teenagers. Other advantages of online questionnaires include faster response rates and automatic transfer of responses into a database for analysis (Toepoel, 2016).
 
-![](images/ee3c697fa299571293e0dfaf8422a79ce3cc66c081df6562ba4db4b713e6754d.jpg)  
+![](images/ee3c697fa299571293e0dfaf8422a79ce3cc66c081df6562ba4db4b713e6754d.webp)  
 Figure 8.8  An excerpt from a web-based questionnaire showing check boxes, radio buttons, and pull-down menus
 
 Source: Microsoft Corporation
@@ -5449,14 +5449,14 @@ One of the problems with observation is that the observer doesn’t k
 Imagine observing someone in a lab setting, who has  been asked to evaluate the interface of the web search engine Lycos.com. The participant is told to look for an ebike for a 10-year-old child. They are told to type www.lycos.com and then proceed however they think best. They type the URL and get a screen similar to the one in Figure 8.9.
 
 Figure 8.9  Home page of Lycos search engine   
-![](images/9fff2370bf575aa497f4459838ded995753ca8b27e65ba12bd388f3a8cbaeded.jpg)  
+![](images/9fff2370bf575aa497f4459838ded995753ca8b27e65ba12bd388f3a8cbaeded.webp)  
 Source: Lycos
 
 Next,  they  type  child's  ebike  in  the  search  box. They  get  a  screen  similar  to  the  one shown in Figure 8.10. They are silent. What is going on? What are they thinking? One way
 
 around the problem of knowing what they are doing is to collect a think-aloud protocol, a technique developed by Anders Ericsson  and Herbert Simon (1984) for examining people’s problem-solving  strategies. The technique  requires  people to  say  out  loud  everything  that they are thinking and trying to do so that their thought processes are externalized.
 
-![](images/4f0e357c1da80675ead9f1428ac2ec185033ccecf57e6a3b149a64b1fa3ae7c6.jpg)  
+![](images/4f0e357c1da80675ead9f1428ac2ec185033ccecf57e6a3b149a64b1fa3ae7c6.webp)  
 Figure 8.10 The screen that appears in response to searching for “child’s ebike”
 
 # LYCOS
@@ -5601,19 +5601,19 @@ Laurianne Sitbon and Shanjana Farhin (2017) report a study with people
 The caregiver made their questions more concrete for the participant by relating the concept of the phone app to familiar people and circumstances and bringing in a personal example (for instance, “So you don’t have to ring your mom to say ‘Mom, I am lost’”).
 
 Figure 8.11 Visual representation of a Likert scale   
-![](images/a9e759bf6b15710bcf93b083a7c4cf9ddfeafc5f4660abbcc927e0d1148b4b50.jpg)  
+![](images/a9e759bf6b15710bcf93b083a7c4cf9ddfeafc5f4660abbcc927e0d1148b4b50.webp)  
 Source: Cynthia Putnam, Melisa Puthenmadom, Marjorie Ann Cuerdo, Wanshu Wang, and Nathaniel Paul (2020) Adaptation of the System Usability Scale for User Testing with Children CHI’20 Extended Abstracts, April 25–30, 2020, doi.org/10.1145/3334480.3382840
 
 A  different  group  of  technology  users  are  studied  by  the  field  of  Animal-Computer Interaction (Mancini et al, 2017). Data gathering with animals poses different challenges, a key one being that human researchers can’t easily interpret animal behavior, and techniques refined  for  human  participants  need  to  be adjusted.  For  example,  Luisa  Ruge  and  Clara Mancini  (2019)  developed  a method  to evaluate animal  usability and  re-interpreted existing interaction design principles and goals for animal users. They demonstrated this method through a usability evaluation of access controls with mobility assistance dogs.
 
 Another challenge for data gathering is whether and how wearable devices may interfere with the wearers’  daily activities and even cause injuries. Wearable biotelemetry  is increasingly used  by scientists to remotely monitor the movement and behavior of animals in  the wild or in captivity, but these devices need to be carefully designed to avoid impacting negatively on their welfare and reducing the reliability of collected data. Patrizia Paci et al. (2017) presents a methodological approach to assessing the wearability of biotelemetry devices for cats. They performed observations with 13 cats to quantify and characterize the interference of two different GPS trackers (see Figure 8.12).
 
-![](images/fc4d06660ce49cb840882a2cbe23194a32a9306a05dec18512de3e375bf7fb48.jpg)
+![](images/fc4d06660ce49cb840882a2cbe23194a32a9306a05dec18512de3e375bf7fb48.webp)
 
-![](images/79d0aef1ab297ac89ec481eff59ef36c9141d7f54f6f36215778ca56dcafd25d.jpg)
+![](images/79d0aef1ab297ac89ec481eff59ef36c9141d7f54f6f36215778ca56dcafd25d.webp)
 
 Figure 8.12 GPS tracker worn by a cat   
-![](images/1d2e98b0ba4b1ccc0d57554f7aadfbc85164d647474d4563f81cb484a645e0a2.jpg)  
+![](images/1d2e98b0ba4b1ccc0d57554f7aadfbc85164d647474d4563f81cb484a645e0a2.webp)  
 Source: Patrizia Paci, et.al., 2020 / ACM, Inc / CC BY 4.0
 
 # 8.7.3  Gathering Data Remotely
@@ -5818,7 +5818,7 @@ A  range of  statistics are  used within  interaction  design studies 
 
 Averages are fairly well-known numerical measures of central tendency. However, there are three  different types  of average, and  using the right one can  help communicate  results more  effectively. These  three  are  mean, median, and  mode. Mean refers  to the  commonly understood interpretation of average; that is, add together all  the figures and divide by the number of figures with which you started. Median and mode averages are less well-known but are very useful. The median is the middle value of the data when the numbers are ranked. The mode is  the most  commonly occurring number. For example, in a set of data (2, 3, 4, 6, 6, 7, 7, 7, 8), the  median  is 6  and the  mode  is  7, while the  mean is $5 0 / 9 = 5 . 5 6$ . In  this case, the difference between the different averages is not that great. However, consider the set (2, 2, 2, 2, 450). Now the median is 2, the mode is 2, and the mean is $4 5 8 / 5 = 9 1 . 6 !$ Which of these to use depends on the type of data and its distribution. The mode can be used for any type of data but is most effective for nominal and ordinal data such as level of anxiety or ethnicity; the median is only useful where the data can be ordered, e.g., reaction time or test score; and the mean is most meaningful where scores on a scale are equally spaced, such as  temperature. If  the  data has  a “normal” distribution, the  averages  will all  be  the  same; however, in a skewed distribution, mode and mean will be affected by outliers, so the median is the best measure.
 
-![](images/389fed460f35a5a39b31239c37a7fa1fa29698522289d134f88ad695184eda87.jpg)  
+![](images/389fed460f35a5a39b31239c37a7fa1fa29698522289d134f88ad695184eda87.webp)  
 Source: Mike Baldwin / Cartoon Stock
 
 Before any analysis can take place, the data needs to be collated into analyzable datasets. Quantitative  data can usually be translated into rows  and columns, where one row equals one record, such as respondent or interviewee. If these are entered into a spreadsheet such as Excel, this makes simple  manipulations and dataset filtering easier. Before  entering data  in this way, it is important to decide how to represent the different possible answers. For example, “don’t know” represents a different response from no answer at all, and they need to be distinguished, perhaps with separate columns in the spreadsheet. Also, if dealing with options from  a closed-ended question, such as job role, there are two different possible approaches that affect the analysis. One approach is to have a column headed “Job role” and to enter the
@@ -5855,15 +5855,15 @@ Disagree
 
 Strongly disagree
 
-![](images/7c158ec23ce13c12d55010ab693f26fb974728f6087843474ad8c6a63d01e1eb.jpg)
+![](images/7c158ec23ce13c12d55010ab693f26fb974728f6087843474ad8c6a63d01e1eb.webp)
 
-![](images/0be626dc34d780ac41e0eb234aca44c7182744ed813dbe96dbb5ac45454cd422.jpg)
+![](images/0be626dc34d780ac41e0eb234aca44c7182744ed813dbe96dbb5ac45454cd422.webp)
 
-![](images/9033b1ac397fdff0545e3001930f5364b36b4936412acc9ad8da32ea4702a088.jpg)
+![](images/9033b1ac397fdff0545e3001930f5364b36b4936412acc9ad8da32ea4702a088.webp)
 
-![](images/fefa88b8c032c8645849eb4fdceb485e337aba710a7c12637ec50a5c49a40388.jpg)
+![](images/fefa88b8c032c8645849eb4fdceb485e337aba710a7c12637ec50a5c49a40388.webp)
 
-![](images/a312021de5d602b992d47062f6177ffb0cbe6caf1e36cc9e458e92d24777976c.jpg)
+![](images/a312021de5d602b992d47062f6177ffb0cbe6caf1e36cc9e458e92d24777976c.webp)
 
 The data could then be analyzed using a simple spreadsheet or table:
 
@@ -5881,16 +5881,16 @@ Table 9.2  Data Gathered During a Study of a Photo Sharing App
 
 Adding one more user to Table 9.2 with an error rate of 9 and plotting the new data as a scatter graph (see Figure 9.2) illustrates how graphs can help to identify outliers. Outliers are usually removed from  the main dataset because they distort the general patterns. However, outliers may also be interesting cases to investigate further in case there are special circumstances surrounding those participants and their session.
 
-![](images/a2adc8190a461dd9b087ff472716429dd8010b34c9a78214d08ddbef394914c5.jpg)  
+![](images/a2adc8190a461dd9b087ff472716429dd8010b34c9a78214d08ddbef394914c5.webp)  
 (a)
 
-![](images/2ba08c2d9089f225d4a1a17b6eccf917fee0f56cf387d1a9697711dea119cae0.jpg)  
+![](images/2ba08c2d9089f225d4a1a17b6eccf917fee0f56cf387d1a9697711dea119cae0.webp)  
 (b)   
 Figure 9.1  Graphical representations of the data in Table 9.2 (a) The distribution of errors made (take note of the scale used in these graphs, as seemingly large differences may be much smaller in reality). (b) The spread of social media experience within the participant group.
 
 These initial investigations also help to identify other areas for further investigation. For example, is there something special about people with error rate 0 or something distinctive about the performance of those who use social media only once a month?
 
-![](images/39f9d9c1252205c65be14d09023971979fc78f59ead69c96947d71e34766f7f8.jpg)  
+![](images/39f9d9c1252205c65be14d09023971979fc78f59ead69c96947d71e34766f7f8.webp)  
 Figure 9.2  Using a scatter diagram helps to identify outliers quite quickly.
 
 # ACTIVITY 9.1
@@ -5905,9 +5905,9 @@ Using a spreadsheet application, generate a bar graph and a scatter dia
 
 The bar graph and scatter diagram are shown here.
 
-![](images/ddb3033eebefeb279f503649f788646bfb8b0413ef181d9c8b6002a4d8c8ad63.jpg)
+![](images/ddb3033eebefeb279f503649f788646bfb8b0413ef181d9c8b6002a4d8c8ad63.webp)
 
-![](images/6fb7d52f5f81c6bac25cd56414a18cc5e57e77e142739d6d7968bf78695608af.jpg)
+![](images/6fb7d52f5f81c6bac25cd56414a18cc5e57e77e142739d6d7968bf78695608af.webp)
 
 From these two diagrams, there are two areas for  further investigation. First, the values for user N (24) and user S (26) are higher than the others and could be looked at in more detail. In addition, there appears to be a trend that participants at the beginning of the testing time (particularly B, C, D, E, F,  and G) performed faster than those toward the end of the testing time. This is not a clear-cut situation, as O also performed well, and I, L, and P were almost as fast, but there may be something about this later testing time that has affected the results, and it is worth investigating further.
 
@@ -5915,7 +5915,7 @@ It is fairly straightforward to compare two sets of results  using th
 
 For each pair of adjectives, place a  cross at the  point  between  them that reflects the extent to which you believe the adjectives describe the smartphone design. Please place only one cross between the marks on each line.
 
-![](images/8f33b76c3d809120d29d8303b7aab98c34048deac00853fc19a9e31047aac37c.jpg)
+![](images/8f33b76c3d809120d29d8303b7aab98c34048deac00853fc19a9e31047aac37c.webp)
 
 Table 9.3 and Table 9.4 show the tabulated results from 100 respondents. Note that the responses have been translated into five categories, numbered from  1 to 5, based on where the respondent marked the line between each pair of adjectives. It is possible that respondents may have intentionally put a cross closer to one side of the box than the other, but it is acceptable to lose this nuance in the data, provided that the original data is not lost, and any further analysis could refer to it.
 
@@ -5929,7 +5929,7 @@ Table 9.3  Phone 1
 
 The graph in Figure 9.3 shows how the two smartphone designs varied according to the respondents’ perceptions of how modern the design is. This graphical notation shows clearly how the two designs compare.
 
-![](images/5ef4292d82be2c68c7b2df0c943cecadf9b8dea66aba8f0670db2989ea20726f.jpg)  
+![](images/5ef4292d82be2c68c7b2df0c943cecadf9b8dea66aba8f0670db2989ea20726f.webp)  
 Figure 9.3  A graphical comparison of two smartphone designs according to whether they are perceived as modern or dated
 
 Data logs that  capture users’ interactions automatically, such as with a website or app, can also be analyzed and represented graphically, thus helping to identify patterns in behavior. Also, more sophisticated  manipulations  and graphical images  can be used  to highlight patterns in collected data.
@@ -5998,7 +5998,7 @@ Table 9.5  Example themes that show diverse discussions related to addicti
 
 A  common technique for identifying themes and looking  for an overall  narrative is to create an affinity diagram. Affinity diagrams are widely used in interaction design to organize large amounts of data and ideas (see Figure 9.4). Both digital and physical diagramming are popular, with differing opinions about which is preferable. For example, Christian Remy et al. (2021) investigated the challenges and opportunities of digital distributed affinity diagramming tools. Although they found that digital tools saved time, improved manipulation, and helped get an overview of the data, they also found that the digital tool reduced awareness of co-participant’s actions and provided fewer clues about ownership of the notes. On the other hand, students’ experience of the Miro collaborative canvas tool described in Chapter 5, “Social Interaction,” was very positive and referred to increased awareness!
 
-![](images/04da3e5557f5d33b7832384b666f5d3aa00cdad357dc9b4da9dfdc0bd6ab6e34.jpg)  
+![](images/04da3e5557f5d33b7832384b666f5d3aa00cdad357dc9b4da9dfdc0bd6ab6e34.webp)  
 Figure 9.4  Section of an affinity diagram built during the design of a web application Source: Courtesy of Madeline Smith
 
 To read more about the use of affinity diagrams in interaction design, see
@@ -6243,7 +6243,7 @@ Sultan Alharthi et al. (2018) used grounded theory to examine 66 idle
 
 The three stages of coding, open, axial, and selective are illustrated in Figure 9.9. Note that, in this case, the research started by the researchers playing each of the games under study.
 
-![](images/3c48f8c14baa6d627d77daca354f26e7580364746a646254be90628bbb5dcfe9.jpg)  
+![](images/3c48f8c14baa6d627d77daca354f26e7580364746a646254be90628bbb5dcfe9.webp)  
 Figure 9.9  The process used by Alharthi et al., showing Phase 2 and Phase 3 using the three stages of grounded theory coding
 
 Each game was played by two researchers who recorded their observations in a spreadsheet. These observations focused on gameplay, game mechanics, rewards, interactivity, progress rate,  and game  interface.  Then  they  rated  the  games using  an  11-point  interactivity scale (0–10) where 0 meant that play progressed without any interaction of the player, while 10 meant that the game progressed only slowly without player interaction. Progress through the levels of the game were also rated on the same scale.
@@ -6257,7 +6257,7 @@ Axial  and  selective coding  progressed  iteratively. The  researchers  
 Figure 9.10 An illustration of preliminary open coding. Words in small capitals are identified by the researcher as potential codes.
 
 Figure 9.11 The grounded theory process showing the development of open coding, through concepts to categories   
-![](images/0f552e5bb7b9d5d5a96fc130907f7cf4fbeab7966145417f32b3d432d719f589.jpg)  
+![](images/0f552e5bb7b9d5d5a96fc130907f7cf4fbeab7966145417f32b3d432d719f589.webp)  
 The analysis process that developed the incremental games super-category (each category above is part of incremental games). The process started with open coding of observations on idle games: multiple codes are created. Concepts are discovered through analyzing the open codes and identifying common features. This is an iterative process, where new codes are added, combined, or deleted. Each code is connected to one or more games and can be combined to form new concepts. Concepts are analyzed to find common relationships, and, thus, categories emerge. In the diagram, coloration is only to aid in reading. The left grouping is to show that all contained codes are part of click-to-manage and click-to-progress.
 
 Using grounded theory helped to develop a better understanding of idle games. In contrast to other gaming taxonomies that feature interactivity and interaction strategies, the idle games taxonomy is based on game rules and their basic underlying structure. But what makes idle games interesting? Idle games value and reward waiting, so game rules force players into an  idle state, during which  resources  accumulate and players  can think  about  their future choices. In fact, the longer they stay away from the game, the more options will be available when they  return,  although idling  for too  long  can  also  mean  that  opportunities  are  lost. Advantages of idle games are that they  can be interwoven between  other activities, during small windows of boredom; and since idling is playing, players don’t have to put time aside specifically to play!
@@ -6297,7 +6297,7 @@ While  the  form  of  the  models is  not  prescribed,  the  underlyin
 
 DiCoT has been used to understand collaborative work in remote and co-located software development teams (Deshpande et al., 2016; Sharp et al. 2009), including the interactions between UX designers and software developers (Zaina et al., 2021; see Figure 9.12). It has also been found to be especially useful for studying how medical teams work and manage  with ever-changing technologies that are introduced into their work environment. For example, Atish Rajkomar and Ann  Blandford (2012)  examined the use of infusion pumps by nurses in an intensive care unit (ICU). Based on the results of this study, they were able to suggest changes that would improve the safety and efficiency of the nurses’ interactions with the infusion technology. Zhan  Zhang  et  al. (2021) focused  on  emergency medical  services teams. Using  three of the  DiCoT models (physical layout, information flow,  and artifacts), they identified opportunities  for technology to support rapid information acquisition, integration, and sharing in this time-critical, high-risk setting.
 
-![](images/481a017fec318730ca3832e07408b3a8961bcf772d4efdbf63cdb73a74b244c2.jpg)  
+![](images/481a017fec318730ca3832e07408b3a8961bcf772d4efdbf63cdb73a74b244c2.webp)  
 Figure 9.12 An information flow diagram from a DiCoT analysis of a UX teams’ interaction with software developers, based on ethnographic data (Zaina et al., 2021)
 
 # 9.5.7  Which Analytical Framework to Use?
@@ -6346,10 +6346,10 @@ We used a report from dscout published in 2016 investigating smartphone use, 
 
 (Continued)
 
-![](images/5f10ee57cba51cc58ea93b5cf27cdd2387eb016b106fefea0ef3b054fa920477.jpg)  
+![](images/5f10ee57cba51cc58ea93b5cf27cdd2387eb016b106fefea0ef3b054fa920477.webp)  
 (a)
 
-![](images/4ad74b9639750f1f7d10d267e2f93e1499f7d2e612c445a1d270484540cc749b.jpg)  
+![](images/4ad74b9639750f1f7d10d267e2f93e1499f7d2e612c445a1d270484540cc749b.webp)  
 (b)   
 Figure 9.13 Results  representation styles used in Dscout’s report about  smartphone use: (a) a bubble diagram in which the size of the circle represents the number of uses and (b) a timeline across the day of touches from an average user and a heavy user
 
@@ -6506,7 +6506,7 @@ Collecting  data has  never been easier. What is  challenging is  know
 Another technique for analyzing what people are doing on websites and social media is to examine  the trail  of activity that they  leave behind. You  can see this by  looking at your own Twitter feed or by  looking at someone else’s whom you are following, for example, a friend, a political leader, or a celebrity. You  can also examine discussions about a particular topic such as climate change, reactions to comments made by  comedians, or a topic that is trending on a particular day. If there are just a few posts, then it is easy to see what is going on,  but  often  the  most  interesting  posts  are  those  that  generate  lots  of  comments. When examining thousands or tens of thousands of posts, analysts use automated techniques to do this (e.g., Bostock et al., 2011; Hansen et al., 2019).
 
 Figure 10.1 Heathrow Airport Terminal 5 Public Display in top-right corner of image showing the relative level of activity using an infographic of North vs. South Security   
-![](images/18171d936c84f6fbd28015189bc74e4bf8ad8a241dbcf77bdf2f86d78719c312.jpg)  
+![](images/18171d936c84f6fbd28015189bc74e4bf8ad8a241dbcf77bdf2f86d78719c312.webp)  
 Source: Marc Zakian / Alamy Stock Photo
 
 # 10.2.1  Scraping and “Second Source” Data
@@ -6571,10 +6571,10 @@ Another example of a large citizen science project is eBird.org, where
 
 Harnessing the power of the crowd enables a diversity of data to be collected, but crowd projects raise a number of issues as to who owns and manages it. This is especially pertinent when the data collected can be mined to unearth details about the people who contribute the data. For researchers and UX designers, there are important questions about how to balance making data available for education and research while protecting the privacy of those contributing the data, including the location where the data is collected. Box 10.2 discusses how one citizen science project, iNaturalist, tries to manage this balance.
 
-![](images/b23c135d0c1be2512f7521e34db1df148b0755fd03f6b51f76e6b9fac3621783.jpg)  
+![](images/b23c135d0c1be2512f7521e34db1df148b0755fd03f6b51f76e6b9fac3621783.webp)  
 (a) Symptoms
 
-![](images/9430f1751e55de0dc0a592c4c873dbf25d2765ef9a30c8d2193aa913e3f46f0c.jpg)  
+![](images/9430f1751e55de0dc0a592c4c873dbf25d2765ef9a30c8d2193aa913e3f46f0c.webp)  
 (b) Voice Recording   
 Figure 10.2 The smartphone COVID-19 Sounds app: (a) reporting symptoms using a simple survey and (b) recording voice samples (Han et al., 2022)
 
@@ -6593,7 +6593,7 @@ It is, therefore, important to ask, how important is privacy in citizen sc
 Various digital tools and platforms have been developed, intended to manage the diverse community of participants by providing shared protocols for how to participate, while facilitating the exchange of data and different views (Preece, 2016). Other strategies involve making  images and locations fuzzy  so that they are not exact. This is also a good strategy for keeping the location of rare species’ observations confidential—especially important to prevent people from finding where  rare plants are  and taking them. For example, iNaturalist (www.inaturalist.org) has a geoprivacy setting that can be set to “open,” “obscure,” or “private.” Obscured observations are used to hide the  exact location of endangered species, as shown in Figure 10.3.
 
 Figure 10.3 iNaturalist geoprivacy obscures the location of an observation.   
-![](images/0f14dbbecc7a33ece63f6578b9aa00a1257d74a57893990d7cc39cae4c6c47c5.jpg)  
+![](images/0f14dbbecc7a33ece63f6578b9aa00a1257d74a57893990d7cc39cae4c6c47c5.webp)  
 In this example: 1. EN indicates  that the organism is endangered, so its location needs to be obscured. 2. This indicates that obscuring is done by randomly placing the marker for the location within the broader area. 3. This line allows the contributor to verify that this observation has been observed within iNaturalist. Source: www.inaturalist.org
 
 # 10.2.4  Sentiment Analysis
@@ -6621,7 +6621,7 @@ An integral part of social network analysis is the creation of maps,�
 There are other interesting relationships that can be teased out by experts in social network analysis, who also know more about the context of the discussion, perhaps by reading some of the tweets. Without that extra knowledge it can be hard to make a deeper interpretation of the network. For example, what might be going on at the bottom left of the network diagram, where  there are many edges (the gray  lines) joining a few orange  nodes, some of which are right at the bottom of the diagram  and some  of which are closer in  toward the central network?
 
 Figure 10.4 A social network map showing people (represented by nodes) who have tweeted the word global warming and how they are connected to one another based on Follow, Reply, or Mention relationships (edges)   
-![](images/1861ea12e68affa691844ece5742a29f65a91043a4be86b6c7b393caa022104b.jpg)  
+![](images/1861ea12e68affa691844ece5742a29f65a91043a4be86b6c7b393caa022104b.webp)  
 Source: Hansen, D. L., and Smith, M. A. (2014) Social Network Analysis in HCI. In J. Olson and W. Kellogg (eds) Ways of Knowing in HCI. Springer, New York, NY. pp. 421–447
 
 Some other topics that have been studied using social network analysis include communication during the 2016 flood in Louisiana, where Jooho Kim and Makarand Hastak (2018) examined  the role of  social media in  flood victims’  communication, both  with each  other and with emergency services. They found that Facebook was used effectively to disseminate information. Another study by Dinah Handel and her colleagues examined teachers’ tweets on Twitter (Handel et al., 2015). More recently, SNA has been used to examine people’s feelings about the COVID-19 pandemic on social media (Nemes and Kiss, 2021).
@@ -6640,16 +6640,16 @@ There is often a gulf between the benefits provided to society through tr
 
 One  approach is to use  a  provocative  probe  (discussed in Chapter  11, “Discovering Requirements”). For example, a project called the Quantified Toilets (2014) did this by setting up a fake service in a public place to disrupt the accepted norms. The team was interested in how a community would react to having their urine analyzed in a public toilet with the goal of improving public health. They pretended to be a commercial company called the Quantified Toilets, which had created a new urine analysis technology infrastructure and installed it in the public toilets at a convention center. Signage was placed throughout the toilets explaining the rationale for the initiative (see Figure 10.5). In addition, the team created a website that presented fake real-time data feeds from each of the toilets in the convention center showing the results of the urine analysis, including details such as blood alcohol levels, drugs detected, pregnancy, and odor (see Figure 10.6). All sampled data were anonymized but also fake so not belonging to anyone. In addition, a link to a survey was added, and the general public was invited to give their feedback.
 
-![](images/cd612ba4bdabe7cd40bdeba7e1265eb163b3761fa74e5e30fc8bf6145f7e5e17.jpg)
+![](images/cd612ba4bdabe7cd40bdeba7e1265eb163b3761fa74e5e30fc8bf6145f7e5e17.webp)
 
 Quantified Toilets
 
 Figure 10.5 Signage posted in the convention center   
-![](images/9dc9def95cb4de00ab037acf0f5ac70d3b2f56eefff79c367befce8872a4ee23.jpg)  
+![](images/9dc9def95cb4de00ab037acf0f5ac70d3b2f56eefff79c367befce8872a4ee23.webp)  
 Source: Courtesy of Quantified Toilets
 
 Figure 10.6 The real-time data was provided on a fake website.   
-![](images/f6ebd4aab7be473c3a90f1290075dc1dd2d5d0e18b969a5eb49e116bb23a06fc.jpg)  
+![](images/f6ebd4aab7be473c3a90f1290075dc1dd2d5d0e18b969a5eb49e116bb23a06fc.webp)  
 Source: Courtesy of Quantified Toilets
 
 The goal was to observe people’s reactions when coming across this new service. Would they mind or become upset, surprised, or outraged? Would they question the  reality of the situation and tell others?
@@ -6687,17 +6687,17 @@ The researchers  were able to mine the data that they had collected 
 Figure 10.7 shows a graph indicating the relationship between activity, assignment deadlines, attendance, and sleep. It shows that students are very active at the beginning of the term and get very little sleep. This suggests that  they are out partying  a lot. They  also have high attendance rates at the beginning of term. As the term progresses, however, their behavior changes. Toward the end of term, sleep, attendance, and activity all drop off dramatically!
 
 Figure 10.7 Student’s activity, sleep, and attendance levels against deadlines during a term   
-![](images/e29876ab8a88392b12994b53d7e17a647ab7f4036fcea8fd759817a923e23752.jpg)  
+![](images/e29876ab8a88392b12994b53d7e17a647ab7f4036fcea8fd759817a923e23752.webp)  
 Source: StudentLife Study
 
 # ACTIVITY 10.2
 
 From the two graphs shown in Figure 10.8, what can you say about the students’ activity, their stress levels, and their level of socializing in relation to deadlines over the course of the term?
 
-![](images/c210fe277e0c0a8d3300767f76ba2ac41d9b36854912eb6f3875e3169038d47f.jpg)
+![](images/c210fe277e0c0a8d3300767f76ba2ac41d9b36854912eb6f3875e3169038d47f.webp)
 
 Figure 10.8 Student behavioral measures over the course of a term   
-![](images/7abaaff2effded0bbe04917da30d683c041dc23b8cd3bf65f101395a3444e2a7.jpg)  
+![](images/7abaaff2effded0bbe04917da30d683c041dc23b8cd3bf65f101395a3444e2a7.webp)  
 Source: StudentLife Study
 
 # Comment
@@ -6719,7 +6719,7 @@ There are a number of off-the-shelf sensor toolkits available now that can
 Masses of environmental data have been collected over the years that have been used to inform the development of smart cities by enabling local communities to fabricate their own sensing tools, make sense of their environments, and  address pressing environmental problems, such as air pollution (Balestrini et al., 2015).
 
 Figure 10.9 Smart Citizen dashboard and visualization   
-![](images/62b4c57082d1d000499f594f0eb27d56c5c5696966e0463d3c2dec6b91e36864.jpg)  
+![](images/62b4c57082d1d000499f594f0eb27d56c5c5696966e0463d3c2dec6b91e36864.webp)  
 Source: CitizenMe, www.citizenme.com
 
 Even graphical representations of small amounts of data (for example 20–100 items) can be hard to interpret if the people trying to make sense of them don’t understand the way that the data is being displayed. Furthermore, sometimes representations, such as bar graphs, line graphs, and scatter plots (described in Chapter 9), are displayed in misleading ways. Danielle Szafir (2018), for example, asks, “How can we craft visualizations that effectively  communicate the right information  from our  data?” She  describes how  data displays can  mislead people when graphs have axes with truncated scales, or they show data in 3D bars making it hard to read exact values from the bar because it isn’t obvious which side of the 3D column is  the  place  to read. Interactive  visualizations  typically include  various  canonical forms  of representations (for instance, bar charts  or pie charts)  along with tree maps and advanced visualization techniques that enable people to interact with the data online by panning and zooming in and out of the displays. Interactive techniques like panning and zooming in and out help people to navigate and explore complex data visualizations. Different methods may be used for representing data visually on mobile devices, often referred to as mobile visualizations (Lee et al., 2022). For  example, the “complication” display described in Chapter 7, “Interfaces,” shows the kinds of miniature visualizations that have been developed specifically for using on a watch face, intended for the wearer to see at a glance.
@@ -6730,12 +6730,12 @@ A number of visualization tools have been developed for interacting wi
 
 Other kinds of visualizations have also been developed for different kinds of data, such as using  spectrograms to  represent  audio. For  example, Figure  10.11  shows spectrograms that were used to visualize recorded sounds from birds and insects, collected by Jessie Oliver and her colleagues (2018). They show visually the signal strength, or “loudness,” of a sound over time at various frequencies present in a waveform, enabling scientists to get an overview and be able to see the  patterns in bird songs and animal noises. Oliver et al. wanted  to see how people investigated and annotated these kinds of visualizations and how they could be used to find and identify birds and other animals in the wild.
 
-![](images/239d09a14c21779e41c6aa8483623af7b22681c4e92284918e5c064af8329c89.jpg)  
+![](images/239d09a14c21779e41c6aa8483623af7b22681c4e92284918e5c064af8329c89.webp)  
 Figure 10.10  A market map of the S&P 500, which is a financial index for stocks. Green indicates stocks that increased in value, and red indicates stocks that decreased in value that day.
 
 Source: Courtesy of FINVIZ
 
-![](images/c84ad7b4add031ca0dc38163bcbf9552e49acfaf84248c6f6a4b51d7a92f748e.jpg)  
+![](images/c84ad7b4add031ca0dc38163bcbf9552e49acfaf84248c6f6a4b51d7a92f748e.webp)  
 Figure 10.11  Visualization  of different  sounds,  including  birds  and  insects, from three  areas of Australia that are displayed so they can be interpreted and compared
 
 Source: Oliver et al. (2018) / Reproduced with permission of ACM Publications
@@ -6764,7 +6764,7 @@ This  enables  managers  to  see  the  data  displayed  in  different 
 A  challenge  is  how  to  make these  ever  more  powerful  tools available  to  people who want to explore, such topics as personal finance and health data, but who are not trained as analysts and who do not want to employ or work with an analyst. Increasingly, AI techniques are incorporated in the tools that automate many data analytic tasks—making it easier for other people to use. Natural language interfaces have also been developed to make it easier for people to ask specific questions of the data. For example, Tableau’s Ask Data lets someone type a question in everyday language such as “show the total sales for the first quarter.” Tableau then automatically displays the relevant data visualizations.
 
 Figure 10.12  A dashboard that was created to show changes in sales information   
-![](images/4cc117152c452ad6cc537f9aa0a82f2891ee8e37d95e77fefac5b9399d988994.jpg)  
+![](images/4cc117152c452ad6cc537f9aa0a82f2891ee8e37d95e77fefac5b9399d988994.webp)  
 Source: Zoho Corporation Pvt. Ltd, www.zoho.com/analytics/tour.html
 
 The design of dashboards can vary a lot, and there is a tendency to cram lots of graphs and  other  visualizations  into  them. Alper  Sarikaya  and  colleagues  (2018)  argued  that  a deeper  understanding  is  needed about  how  the context  of use  can  impact  the usability  of dashboards. They challenge UX designers to develop dashboards for different types of uses and for a wide range of people. This work involved analyzing a range of dashboards, first by reviewing published papers written by other researchers. Then they carried out a qualitative study in which they classified the features of different dashboards and how they are used.
@@ -6773,7 +6773,7 @@ They  characterized  the  dashboards  according  to  their  design  goal
 
 decision-making, communication,  and dashboards  evolved, which  was a  catchall  category that included features that did not fit into other categories.
 
-![](images/694a2c2cb35afd5307aef2d6bdd93e011a6e8b11aba81b37d07d887a42329956.jpg)  
+![](images/694a2c2cb35afd5307aef2d6bdd93e011a6e8b11aba81b37d07d887a42329956.webp)  
 Figure 10.13  Exemplar dashboards (Sarikaya et al., 2018). Dashboard 1 and Dashboard 5 specifically target decision-making, while Dashboard 3 and Dashboard 4 target consumer awareness. Dashboard 2 represents the quantified self (such as a smart home), while Dashboard 6 represents those dashboards targeting communication. Dashboard 7 captures some novel extensions of traditional dashboards.
 
 Source: Sarikaya et al. (2018) / Reproduced with permission of IEEE
@@ -6786,10 +6786,10 @@ Study Figure 10.14(a), which comes from the weather site www.wunderground.
 
 It shows weather data for a day in December at Washington D.C. in the United States. Particularly take note of the temperature, precipitation, and wind data. What information do they provide? Now compare this visualization with that depicted in the “wundermap” (see Figure 10.14b). How do the two displays differ, and which do you prefer?
 
-![](images/57507af117dfa74765bc750feaf1259251c4ba2fbf74b1437677feb9cab2717d.jpg)
+![](images/57507af117dfa74765bc750feaf1259251c4ba2fbf74b1437677feb9cab2717d.webp)
 
 Figure 10.14  (a) Actual weather data and (b) a wundermap of the same area and time   
-![](images/558ad2b11d977118c9be9c40dc5b4c0d74743cece00be63d534cd951b97c1690.jpg)  
+![](images/558ad2b11d977118c9be9c40dc5b4c0d74743cece00be63d534cd951b97c1690.webp)  
 Source: TWC Product and Technology LLC, www.wunderground.com
 
 # Comment
@@ -6810,12 +6810,12 @@ Queen  Elizabeth Park in London was  transformed into a “smart park.” A
 
 The data collected was primarily provided to the scientists in the form of spectrograms (see Figure 10.15b), but it was also presented in a more accessible form to the public via an interactive display (see Figure 10.15a). As part of a public kiosk, a schematic map was provided  that showed where in the park the bat  call data had  been collected (Kaninsky  et al., 2018). A slider was provided to enable visitors to interact with the data: moving it to the left showed bat call data from the night before, while moving it to the right showed bat call data from the previous 10 nights. The LEDs on the map changed in color and intensity, representing the varying levels of bat calls. The total number was also shown in the digital display. The kiosk was deployed in the park, and many passersby stopped for a considerable length of time to learn about bats and interact with the data. The physical act of using the slider provided an engaging way  of exploring  the  data rather than just looking  at a  static visualization  or dashboard.
 
-![](images/6c7741565cba338e9d8746d8b4e1790056533ef3bcbac010239a21dc28736c7f.jpg)  
+![](images/6c7741565cba338e9d8746d8b4e1790056533ef3bcbac010239a21dc28736c7f.webp)  
 (a)
 
 (b)   
 Figure 10.15  The same bat call data was made accessible (a) to the general public via an interactive visualization and (b) as a spectrogram intended for environmental scientists.   
-![](images/5334e5ab917d2994f1c0612aa5ad85e3a09dde709c6bc01c8aec45c049fedf84.jpg)  
+![](images/5334e5ab917d2994f1c0612aa5ad85e3a09dde709c6bc01c8aec45c049fedf84.webp)  
 Source: (a) Courtesy of Matej Kaninsky and (b) Courtesy of Sara Gallacher
 
 Designing data visualizations when beginning a career can be daunting. Amanda Makulec (2022) describes her insightful journey of starting out in this area in her article Starting out in Data Visualization Today, in particular from being a newcomer to becoming an expert. In so doing, she offers helpful advice and pointers to other researchers along the way.
@@ -6826,7 +6826,7 @@ nightingaledvs.com/starting-out-in-data-visualization-today
 
 In the introduction to this chapter, we mentioned how a diversity  of data is now regularly being  collected  from  people for  a  variety  of  reasons, including  improving  public  services, reducing congestion, and enhancing security measures. It is usually anonymized and sometimes aggregated to make it publicly available, for example showing the energy consumption data  for a  given  space  such  as a  floor  of a  building. Figure  10.16  shows  a  floor-by-floor comparison for a University of Melbourne building, where the red bar shows that the basement is the worst performer in terms of energy usage, and the green bar shows level 1 is the best performer. The idea  is  to provide  feedback on  energy consumption  in the building to increase awareness among the inhabitants and encourage them  to reduce  their energy consumption. However, what if localized occupancy rates or energy consumption for each room were shown? It would not take much to figure out who was in that space. Would that be a step too far and an invasion of their privacy? Would people mind?
 
-![](images/8f298925ed63e23f6b1f4086fc3dfbf8c3a9fe8d7a2cbe0e9bb8f75e49ef8c1d.jpg)  
+![](images/8f298925ed63e23f6b1f4086fc3dfbf8c3a9fe8d7a2cbe0e9bb8f75e49ef8c1d.webp)  
 Figure 10.16  Average daily energy consumption depicted on a public display for a building at the University of Melbourne. Green  is best performer, yellow is in the middle,  and  red  is the  worst performer.
 
 # Source: Yvonne Rogers
@@ -6854,7 +6854,7 @@ Shoplifting is on the rise; in 2019 it cost retail companies in the US $\$ 
 Various stores throughout the world have started using this kind of technology to help combat shoplifting. However, there is much public concern about adopting this practice. Matt Burgess (2020), for example, notes that while on the positive side this technology has acted as a deterrent and improved the safety of store staff, on the negative side, it is seen as being extremely intrusive, because shoppers’ faces are scanned without them knowing of the consequences, nor having had the choice to give or not give their consent. Do you think this practice is socially acceptable? What might be other privacy concerns?
 
 Figure 10.17  DeepCam’s face-tracking software used in a store   
-![](images/2ff49152bf68fdf03c297fdd2d38bf7b80d2f8870358f190b04cf0ad5b55f43b.jpg)  
+![](images/2ff49152bf68fdf03c297fdd2d38bf7b80d2f8870358f190b04cf0ad5b55f43b.webp)  
 Source: DeepCAM, deepcamai.com
 
 # Comment
@@ -6875,10 +6875,10 @@ Explainability refers to designing systems, which collect data and make
 
 Within the context of HCI, Ashraf Abdul et al. (2018) have proposed an agenda for how HCI researchers can help to develop more accountable intelligent systems that are usable and useful to people. Following on from this, Upol Ehsan and colleagues (2021) have proposed an alternative approach to explainability, which is based on the concept of social transparency. Rather than try to visualize how an AI model works using a saliency map, they suggest instead that it is better to show users how other people’s interactions with the system impacts upon their trust and understanding of it. This kind of contextual knowledge is broken down into four core components: (1) who interacted with the AI system, (2) what they did, (3) when, and (4) why they did what they did. It is argued that this kind of socio-technical approach will more likely help explain to users better how AI systems make their decisions.
 
-![](images/86541440a0a6c133e65a55381c317003db6db8c67b21c2a5c7c365adf5cf0978.jpg)
+![](images/86541440a0a6c133e65a55381c317003db6db8c67b21c2a5c7c365adf5cf0978.webp)
 
 Figure 10.18  A saliency map on the right created as an explanation of how the image on the left was classified by a deep learning algorithm as a dog. The highlighted pixels in light blue are the ones that made the most contribution to the final score.   
-![](images/653e00c1afe8431baf5e22410a5c8f1d027a63852bf8a8b3e870356fa8613f70.jpg)  
+![](images/653e00c1afe8431baf5e22410a5c8f1d027a63852bf8a8b3e870356fa8613f70.webp)  
 Source: CNN, https://usmanr149.github.io/urmlblog/cnn/2020/05/01/Salincy-Maps.html
 
 The consequences  of a system making  a decision for a human can  vary. This can help determine  whether an  explanation  is  needed  to support  a decision  made by  a  system  and what it should include. For example, if a decision is made to pop up an ad for slippers in a person’s browser, based on an analysis of their tracked online app usage (a common practice used in targeted  advertising), it  might  be mildly annoying, but  it is  unlikely to upset  them. However, if a decision is made to deny a loan or a visa based on the outcome of an automated algorithm, it may have more dire consequences for someone’s life, and they would want to know why  the particular decision was made. In the future, it will become  increasingly the case that humans and algorithms will need to work together.
@@ -6994,25 +6994,25 @@ One  of the goals of interaction design is to produce usable products
 
 User-centered  design  with  repeated  iteration  and  evaluation  along  with  stakeholder involvement can help mitigate against misunderstandings. The process of discovering requirements also promotes communication between all parties and hence a common understanding. Miscommunication and misunderstanding can easily occur if requirements are assumed or are left implicit. This classic cartoon captures the problems that can occur very nicely!
 
-![](images/4295247a17b1f2e33c8f81716cfe444d29b085a008221f0debc969538cc19809.jpg)
+![](images/4295247a17b1f2e33c8f81716cfe444d29b085a008221f0debc969538cc19809.webp)
 
-![](images/7dafb92ad99016a864d63775d436748937aea3a9266ffda16ad7f57cc46767bc.jpg)
+![](images/7dafb92ad99016a864d63775d436748937aea3a9266ffda16ad7f57cc46767bc.webp)
 
-![](images/6374098ec2420eae2088afb3fe30a20989d87a94833d552b271a51e427f38cef.jpg)
+![](images/6374098ec2420eae2088afb3fe30a20989d87a94833d552b271a51e427f38cef.webp)
 
-![](images/c46053af0c7ad044a4fa2e0670248b1c1dd7d48c54119a679082704bbf0e5052.jpg)
+![](images/c46053af0c7ad044a4fa2e0670248b1c1dd7d48c54119a679082704bbf0e5052.webp)
 
-![](images/eeda106c110c957e0d9d14eb04d2551bb53c833f2e6a3ec41994831b71a89507.jpg)
+![](images/eeda106c110c957e0d9d14eb04d2551bb53c833f2e6a3ec41994831b71a89507.webp)
 
-![](images/91634b45bee2fe1e2548699fb395f797a2465f5a796a693444cd192fd007c0e7.jpg)
+![](images/91634b45bee2fe1e2548699fb395f797a2465f5a796a693444cd192fd007c0e7.webp)
 
-![](images/ce09e9c719177d9ff1edb1ddb927e1d1e89a5e70b9a74093ec2fbe94f38d7468.jpg)
+![](images/ce09e9c719177d9ff1edb1ddb927e1d1e89a5e70b9a74093ec2fbe94f38d7468.webp)
 
-![](images/29de01cb521f930e035532f94db6533a4ecbf7710540519b50cd768fb193685c.jpg)
+![](images/29de01cb521f930e035532f94db6533a4ecbf7710540519b50cd768fb193685c.webp)
 
-![](images/e26f040aabd800e31ab4905d679dda1b3864a93833648a2c80b75716570dcfb2.jpg)
+![](images/e26f040aabd800e31ab4905d679dda1b3864a93833648a2c80b75716570dcfb2.webp)
 
-![](images/4d1efb47436c3e79e57dbd4877239bede93aaabb5a9156cb68f87a7e52773e7c.jpg)
+![](images/4d1efb47436c3e79e57dbd4877239bede93aaabb5a9156cb68f87a7e52773e7c.webp)
 
 # 11.3 What Are Requirements?
 
@@ -7040,10 +7040,10 @@ During the early stages of development, requirements may emerge in the
 •  As a <group traveler>, I want <to choose from a range of potential vacations that suit the group’s preferences> so that <the whole group can have a good time>.   
 As a <group traveler>, I want <to know the visa restrictions for everyone in the group> so that <visas can be arranged for everyone in the group in plenty of time>.
 
-![](images/422ac76f5c558a7c70ca678982faac301195deb923de67435e6ddfac005b9128.jpg)  
+![](images/422ac76f5c558a7c70ca678982faac301195deb923de67435e6ddfac005b9128.webp)  
 (a)
 
-![](images/8209a34b6dd051e731e8326af66e4e0a7acebf4c17bc6a165551cdec5de7e9dd.jpg)  
+![](images/8209a34b6dd051e731e8326af66e4e0a7acebf4c17bc6a165551cdec5de7e9dd.webp)  
 (b)   
 Figure 11.1 (a) An example requirement expressed using an atomic requirements shell from Volere (b) the structure of an atomic requirements shell
 
@@ -7195,13 +7195,13 @@ Tero Jokela et al. (2015) studied how people currently combine multiple inf
 
 (Continued)
 
-![](images/977a52950df15d0bbe5691d1a76bad1bc3313a44cf47a259c5fa612bc387c69d.jpg)
+![](images/977a52950df15d0bbe5691d1a76bad1bc3313a44cf47a259c5fa612bc387c69d.webp)
 
-![](images/7a9c353a698b40904b98d71a1160dbc070c3e7e88938ed8866fd6cb47c46389a.jpg)
+![](images/7a9c353a698b40904b98d71a1160dbc070c3e7e88938ed8866fd6cb47c46389a.webp)
 
-![](images/1ac0984126bd2eb1c305bc20641be49724b2af0e95e2eafb1cf02ee019af4b04.jpg)
+![](images/1ac0984126bd2eb1c305bc20641be49724b2af0e95e2eafb1cf02ee019af4b04.webp)
 
-![](images/35d7007c3c5f480870b15fdb6d8168025372e41380583d191758cd4760c056c1.jpg)  
+![](images/35d7007c3c5f480870b15fdb6d8168025372e41380583d191758cd4760c056c1.webp)  
 (b)   
 Figure 11.3 (a) The image shown to participants in the first study (b) the smartphone diary app for the second study
 
@@ -7225,7 +7225,7 @@ The idea of a probe was first developed during the Presence Project 
 
 Inspired by this original cultural probe idea, different forms of probes have been adapted and  adopted for  a range of purposes (Boehner et al., 2007). For  example, design probes are objects whose form relates specifically to a particular question and context. They are intended to gently encourage people to engage with and answer the question in their own context. Figure 11.4 illustrates another kind—a diary probe—used to explore how technology can support adolescents to document their experience of chronic conditions, such as cancer and lupus, so that they can be shared. By using this probe with 12 adolescent-parent pairs, Matthew Hong and colleagues (2020) suggested three areas for support: scaffolding to help patients learn about and represent their experiences; data sharing models to identify appropriate timing, types, and level of detail for sharing health-related information between family members; and artifacts that can bridge between traditional quantitative measures of tracking and more personal narratives.
 
-![](images/e5b1da12dd352bb77a97743086af840c7beb35f7c97e39f3b6d7d27689f76c74.jpg)  
+![](images/e5b1da12dd352bb77a97743086af840c7beb35f7c97e39f3b6d7d27689f76c74.webp)  
 Figure 11.4 Two  diary  probe kits were provided for each patient-parent pair, consisting of diary booklets, experience sticker sheets, markers and pencils, self-addressed stamped envelope, and an optional camera.
 
 Source: Matthew Hong et al. (2020). Reproduced with permission of ACM Publications
@@ -7300,7 +7300,7 @@ When  used in  combination, personas  and scenarios  complement each ot
 This article by Jared Spool explains why personas on their own are not enough and why scenarios also need to be developed: medium.com/user-interface-22/when-it-comes-to-personas-thereal-value-is-in-the-scenarios-4405722dd55c.
 
 Figure 11.5 The relationship between a scenario and its associated persona   
-![](images/27fb0c9a1cd0b9a3eead561540c3db64a8fad24a3857cd121861aaec84f0df2a.jpg)
+![](images/27fb0c9a1cd0b9a3eead561540c3db64a8fad24a3857cd121861aaec84f0df2a.webp)
 
 Source: www.smashingmagazine.com/2014/08/06/a-closer-look-at-personas-part-1. Reproduced with permission of Smashing Magazine
 
@@ -7324,10 +7324,10 @@ The details included in a persona can be influential in the design p
 ? Supports the kind of reasoning that says, “What would Bill (persona 1) do in this situation with the product?” and “How would Clara (persona 2) respond  if the product  behaved this way?”   
 • Contains only  information that is  pertinent to the product  being developed. It does  not attempt to capture the whole person but is only a lens to highlight relevant attitudes and specific  context  associated  with  the  focus  (Nielsen, 2019).  For  example, personas  for a shared travel organizer would focus on  travel-related behavior and attitudes rather than the newspapers the personas read or where they buy their clothes. On the other hand, personas for a shopping center navigation system might consider these aspects.
 
-![](images/02fab47cd002adcfe80865e9a57b45069b5698a3c1974364432c397feb621895.jpg)  
+![](images/02fab47cd002adcfe80865e9a57b45069b5698a3c1974364432c397feb621895.webp)  
 Figure5.Examplepersona "Lena." Photo by RODNAEProductions from Pexels.
 
-![](images/034c05725ded424751204352f7dc34709fe74f04fe94f4f8c94914c982ac6bdb.jpg)  
+![](images/034c05725ded424751204352f7dc34709fe74f04fe94f4f8c94914c982ac6bdb.webp)  
 Figure6.ExamplepersonaJulien.Photoby ELEVATE from Pexels.   
 Figure 11.6 Two of the eight personas derived for the autonomous taxi service Source: Hallewell, et al. (2022) Deriving Personas to Inform HMI Design for Future Autonomous Taxis: A Case Study on User Requirement Elicitation, Journal of Usability Studies, 17(2), 41–64
 
@@ -7345,13 +7345,13 @@ These can be drawn by hand, or they can be developed in PowerPoint, for 
 
 The personas shown in Figure 11.7 were developed for a father and his daughter using templates from xtensio.com/templates.
 
-![](images/1b6f68379970adbf064d80dac461d38d59d32d70b276416f011badf1a8e0ac60.jpg)
+![](images/1b6f68379970adbf064d80dac461d38d59d32d70b276416f011badf1a8e0ac60.webp)
 
 # Young traveler
 
-![](images/2a0d4f84b32adcda02cc54ede444723c6b5ee0a3fb3a3fb177e9706003dc71de.jpg)
+![](images/2a0d4f84b32adcda02cc54ede444723c6b5ee0a3fb3a3fb177e9706003dc71de.webp)
 
-![](images/f51602c4a132121fb026e589ee9386afb796c027c9f19cbccf31f3d3d542b30d.jpg)
+![](images/f51602c4a132121fb026e589ee9386afb796c027c9f19cbccf31f3d3d542b30d.webp)
 
 Energetic
 
@@ -7367,13 +7367,13 @@ Lkes noading
 
 #
 
-![](images/f21a03df22e6a17eb962bfcdf9e42f7521be5ccadf3fd5a189bc63c2d5eb9dde.jpg)
+![](images/f21a03df22e6a17eb962bfcdf9e42f7521be5ccadf3fd5a189bc63c2d5eb9dde.webp)
 
 #
 
-![](images/4b96537e92ea26ec3308a4aaadccd23a1593799f961a5804a86775b5d8ba6214.jpg)
+![](images/4b96537e92ea26ec3308a4aaadccd23a1593799f961a5804a86775b5d8ba6214.webp)
 
-![](images/62e8e5287be959221a4ffc1107cadd5dde46aebd332ebea61b80f0aa1f9d0639.jpg)  
+![](images/62e8e5287be959221a4ffc1107cadd5dde46aebd332ebea61b80f0aa1f9d0639.webp)  
 Figure 11.7 Two personas for the group travel organizer
 
 # 11.5.2  Scenarios
@@ -7388,7 +7388,7 @@ seeming realistic. An unsuspecting customer uses the app to “try out” a 
 
 A  more  elaborate  scenario format  was used  by  Madeline Hallewell  et  al. (2022)  who also devised the personas Lena and Julien introduced in the previous section. These scenarios contain quite a lot of information including quotes from interviews, the stages of the journey, and the context for the journey. An example is  shown in Figure 11.8. Note that these scenarios capture existing behavior, before the autonomous service is introduced.
 
-![](images/175741b93bc8b7d7abb0ae60a9c69aee591cb6719cbc81452d4ae4b4575f1380.jpg)  
+![](images/175741b93bc8b7d7abb0ae60a9c69aee591cb6719cbc81452d4ae4b4575f1380.webp)  
 Figure8. Example scenario "Mary:Going to Church." Photo by Andrea Piacquadiq from Pexels   
 Figure 11.8 Scenario developed for persona Mary traveling to church. This scenario format includes a wide range of information to complement the central scenario story.
 
@@ -7487,7 +7487,7 @@ They may be used in design to think about the new interaction being�
 (a)
 
 Figure 11.9 (a) Two example scenarios and (b) screen captures of the animated scenarios used to explore the design of technologies around food practices at home   
-![](images/f7b554c47e97a619ee822b650979d1006d906d8096331daccab7e856a0be5ef7.jpg)  
+![](images/f7b554c47e97a619ee822b650979d1006d906d8096331daccab7e856a0be5ef7.webp)  
 Source: Tommy Nilsson, et al.  (2020). Visions, Values, and Videos: Revisiting Envisionings in Service of UbiComp Design for the Home, DIS ‘20: Proceedings of the 2020 ACM Designing Interactive Systems Conference, Pages 827– 839 doi-org.libezproxy.open.ac.uk/10.1145/3357236.3395476. Reproduced with permission of ACM Publication
 
 The  first  style focuses  on  the  division  of tasks  between  the  product  and the  user.  For example, Figure 11.10 illustrates an example of this kind of use  case, focusing  on the visa requirements functionality of the group travel organizer. Note that nothing is said about how
@@ -7647,20 +7647,20 @@ A prototype is one manifestation of a design that allows stakeholders�
 In fact, a prototype can be anything from a paper-based storyboard to a complex piece of software and from a cardboard mockup to a molded or pressed piece of metal. For example, when the idea for the PalmPilot (a precursor to mobile and smartphones, introduced in 1992) was  being developed, Jeff  Hawkins  (founder of  the company)  carved  up  a piece  of  wood about the size and shape of the device he had imagined (see Figure 12.1).
 
 Figure 12.1 The PalmPilot wooden prototype   
-![](images/87291641d62873a627b6eedb3ed652c8eb23c92899e95ed6402d35c70ec546fd.jpg)  
+![](images/87291641d62873a627b6eedb3ed652c8eb23c92899e95ed6402d35c70ec546fd.webp)  
 Source: Mark Richards / Computer History Museum
 
 Jeff  Hawkins used  to carry  this piece  of wood around  with him and  pretend to  enter information  into  it, just  to see  what it  would be  like to  own such  a device  (Bergman and Haitani, 2000). This is an example of a simple (some might even say bizarre) prototype, but it  served  its  purpose  of  simulating  scenarios  of  use. Advances  in  3D  printer  technologies, coupled with reduced prices, have increased their use in design. It is now common practice to take a 3D model from a software package and print a prototype, or indeed a final product. Soft toys, prosthetics, chocolate, dresses, shoes, and whole houses may be “printed” in this way (see Figure 12.2). Advances in sustainable printing techniques have also been made. For example, the Soft Materials  Lab at  Linz  Institute of Technology have produced  a  gelatinbased “ink” that can be used in 3D printing and then dissolved and reused.
 
-![](images/4eb6e97833fed20e8c5a77183e2d766c211a8fd2f67bf0638a61d375ebe15010.jpg)  
+![](images/4eb6e97833fed20e8c5a77183e2d766c211a8fd2f67bf0638a61d375ebe15010.webp)  
 (a)
 
-![](images/ee0ea0190d5757dedbdfb6eb7e003125582fa80acc2b6211ab8c89753a213844.jpg)  
+![](images/ee0ea0190d5757dedbdfb6eb7e003125582fa80acc2b6211ab8c89753a213844.webp)  
 (b)
 
 (c)   
 Figure 12.2 Examples of 3D printing: (a) model jet engine, (b) Synapse Dress by Anouk Wipprecht: embedded with sensors, the wearer can control the dress’s lighting pattern, and (c) custom-made climbing shoes based on a scan of the wearer’s feet   
-![](images/f0649de09ce9e4412e51dfbb5f368264267b9d1bfb27a400d564c89e3f595a18.jpg)  
+![](images/f0649de09ce9e4412e51dfbb5f368264267b9d1bfb27a400d564c89e3f595a18.webp)  
 Source: (a) Catiav5ftw / MakerBot Industries, LLC / CC BY-NC 4.0, www.thingiverse.com/thing:392115. Licensed under CC-BY-3.0, (b) ANOUK WIPPRECHTSYNAPSE DRESS created for Intel in 2014, www.niccolocasas.com/ SYNAPSE-DRESS, and (c) Photo Credits: ATHOS
 
 To see a wide range of useful objects that can be printed by 3D technology, visit this site: all3dp.com/1/useful-cool-things-3d-print-ideas-3d-printerprojects-stuff.
@@ -7676,7 +7676,7 @@ Prototypes  answer  questions  and  support  designers  in  choosing  be
 To read about IDEO’s reflections of prototyping, and some examples of the prototypes they have created, see www.ideou.com/blogs/inspiration/ all-prototypes-are-not-created-equal.
 
 Figure 12.3 A paper-based prototype of a handheld device to support an autistic child   
-![](images/4c3da4a98e78fb8a2d469658ffc38bbcfcef69a54e7b6d8b0bffa814407185b6.jpg)  
+![](images/4c3da4a98e78fb8a2d469658ffc38bbcfcef69a54e7b6d8b0bffa814407185b6.webp)  
 Source: Used courtesy of Sigil Khwaja
 
 # 12.2.3  Low-Fidelity Prototyping
@@ -7693,19 +7693,19 @@ Low-fidelityÂprototypingÂcomesÂinÂmanyÂforms.ÂWeÂexploreÂfourÂcommonÂt
 
 StoryboardingÂisÂoftenÂusedÂinÂconjunctionÂwithÂscenarios,ÂasÂdescribedÂinÂChapterÂ11.Â AÂstoryboardÂconsistsÂofÂaÂseriesÂofÂsketchesÂshowingÂhowÂsomeoneÂmightÂprogressÂthroughÂaÂ taskÂusingÂtheÂproductÂunderÂdevelopment.ÂItÂcanÂbeÂaÂseriesÂofÂscreensÂorÂaÂseriesÂofÂscenesÂshow-Â ingÂhowÂsomeoneÂcanÂperformÂaÂtaskÂusingÂanÂinteractiveÂdevice.ÂWhenÂusedÂinÂconjunctionÂwithÂ aÂscenario,ÂtheÂstoryboardÂprovidesÂmoreÂdetailÂandÂoffersÂstakeholdersÂaÂchanceÂtoÂrole-playÂ withÂaÂprototype,ÂinteractingÂwithÂitÂbyÂsteppingÂthroughÂtheÂscenario.ÂTheÂexampleÂstoryboardÂ shownÂinÂ FigureÂ 12.4depictsÂ ÂsomeoneÂcalledÂChristinaÂusingÂaÂnewÂmobileÂdeviceÂforÂexploringÂ historicalÂsites.ÂThisÂstoryboardÂcapturesÂtheÂcontextÂofÂuseÂandÂhowÂChristinaÂmightÂbeÂsup-Â portedÂinÂherÂsearchÂforÂinformationÂaboutÂtheÂpotteryÂtradeÂatÂtheÂAcropolisÂinÂancientÂGreece.Â
 
-![](images/1e06b2972d680e6c6d31930483c9a80d7d5e95b952cca9c4c4436cb4acdcd603.jpg)  
+![](images/1e06b2972d680e6c6d31930483c9a80d7d5e95b952cca9c4c4436cb4acdcd603.webp)  
 Christina walks up hill; the product gives her information about the site
 
-![](images/66e456b1b411d0d95e5fe4dfb8840c427757d67f73daff41242a36524dc55cf2.jpg)  
+![](images/66e456b1b411d0d95e5fe4dfb8840c427757d67f73daff41242a36524dc55cf2.webp)  
 Christina adjusts the preferences to find information about the pottery trade in ancient Greece
 
-![](images/e2d55bd47e89e5e11af32d8ea034880b79cc7fa77c32882ef6c4a989eebd828c.jpg)  
+![](images/e2d55bd47e89e5e11af32d8ea034880b79cc7fa77c32882ef6c4a989eebd828c.webp)  
 Christina scrambles to the highest point
 
-![](images/e334dea90d0d2a9190cff612bd8383d57905fa3a1464504244dfa199c06050be.jpg)  
+![](images/e334dea90d0d2a9190cff612bd8383d57905fa3a1464504244dfa199c06050be.webp)  
 Christina stores information about the pottery trader's way of life in ancient Greece
 
-![](images/3cdfc0da956b531c6525f173d709e8a97b63199f2bfb1e3a95d42571028e99da.jpg)  
+![](images/3cdfc0da956b531c6525f173d709e8a97b63199f2bfb1e3a95d42571028e99da.webp)  
 Christina takes a photogr aph of the location of the pottery market   
 FigureÂ 12.4AnÂ ÂexampleÂstoryboardÂforÂaÂmobileÂdeviceÂtoÂexploreÂancientÂsitesÂsuchÂasÂtheÂAcropolisÂ
 
@@ -7715,7 +7715,7 @@ There are many templates and free software  available to support the 
 
 As  Saul  Greenberg  et  al. (2012)  comment, however, “Sketching  is  not  about  drawing. Rather,  it  is  about  design” (p.  7).  They further  point  out  how someone  can get  over their drawing inhibitions by devising their own symbols and icons and practicing them—referred to as a sketching vocabulary (p. 85). They stress how the drawings don’t have to be anything more than simple boxes, stick figures, and stars. Elements that might be required in a storyboard  sketch, for  example, include digital devices, people, emotions, tables, books, and so forth, and actions such as give, find, transfer, and write. When sketching an interface design, various icons, dialog boxes, and so on need to be drawn. Some simple examples for achieving this are shown in Figure 12.5. Mark Baskinger and William Bardel (2013)  provide further tips for those new to sketching. Activity 12.1 provides an opportunity to practice sketching some symbols, intended to be drawn simply.
 
-![](images/a52ed999d474fb2165a67a9ef936ceee0427b22438d9011e8343bdf7c96ff688.jpg)  
+![](images/a52ed999d474fb2165a67a9ef936ceee0427b22438d9011e8343bdf7c96ff688.webp)  
 Figure 12.5 Some simple sketches for low-fidelity prototyping
 
 # ACTIVITY 12.1
@@ -7726,24 +7726,24 @@ Produce a storyboard that depicts something you do regularly such as filli
 
 Figure 12.6 shows our attempt at a storyboard for hiring a bike share.
 
-![](images/bc9cf9515d94936cfb42be25555af6608a6a7ffb25da9b7fa349e9518f72c4fb.jpg)
+![](images/bc9cf9515d94936cfb42be25555af6608a6a7ffb25da9b7fa349e9518f72c4fb.webp)
 
-![](images/97a42f9bfa6097c3c5a16fb54f2a1739ad17d250d65a44378cd777686c4a2ffc.jpg)
+![](images/97a42f9bfa6097c3c5a16fb54f2a1739ad17d250d65a44378cd777686c4a2ffc.webp)
 
-![](images/fdfd27989f02100590255d88795c2a979e5cb5d4f565f0cd4062834dca72b577.jpg)
+![](images/fdfd27989f02100590255d88795c2a979e5cb5d4f565f0cd4062834dca72b577.webp)
 
-![](images/6b5ce746ae94dc7d7678f6184c674afa68cc51093bdff77d52b6515b9a27d812.jpg)
+![](images/6b5ce746ae94dc7d7678f6184c674afa68cc51093bdff77d52b6515b9a27d812.webp)
 
-![](images/ead3e184a0bf8370c4f417a4739db86483c3120e19da7946f04aef189c4c97ed.jpg)
+![](images/ead3e184a0bf8370c4f417a4739db86483c3120e19da7946f04aef189c4c97ed.webp)
 
-![](images/e60789d44e715997b92acf48e287376ea33a81b0385788bb5a2a79cf1de77b33.jpg)  
+![](images/e60789d44e715997b92acf48e287376ea33a81b0385788bb5a2a79cf1de77b33.webp)  
 Figure 12.6 A storyboard showing how to hire a bike share
 
 # Prototyping with Index Cards
 
 Using index cards (small pieces of cardboard about $3 { \times } 5$ inches) or sticky notes is a successful and simple way to prototype an interaction, and it is used for developing a range of interactive products including websites and smartphone apps (see Figure 12.7). Each card represents one element of the interaction, perhaps a screen or just an icon, menu, or dialog exchange. In evaluation studies, the participant can step through the cards, pretending to perform the task while interacting with the cards. This is also referred to as paper prototyping. Section 12.5.2 provides a more detailed example of this kind of prototyping.
 
-![](images/d55cdfd9a3272a3f867094d906b5d7d99a7318e7a2837fac52e4524758de4c6b.jpg)  
+![](images/d55cdfd9a3272a3f867094d906b5d7d99a7318e7a2837fac52e4524758de4c6b.webp)  
 Figure 12.7 Card-based prototype developed for a phone interface
 
 # Wizard of $O z$
@@ -7754,7 +7754,7 @@ Using this  technique enables  researchers to  have control and  more 
 
 To read more about five common low-fidelity prototypes (sketches, paper, Lego, digital, and Wizard of Oz) and how to use them, see this website: www .interaction-design.org/literature/article/prototyping-learn-eight-commonmethods-and-best-practices.
 
-![](images/c824ff689c190764b3e486c10f1c77161f7f3f3839420b4518bc065167631292.jpg)  
+![](images/c824ff689c190764b3e486c10f1c77161f7f3f3839420b4518bc065167631292.webp)  
 Figure 12.8 An early schematic for a Wizard of Oz study for a listening typewriter Source: Gould et al., 1983
 
 # 12.2.4  High-Fidelity Prototyping
@@ -7804,7 +7804,7 @@ IDEO  (www.ideou.com/blogs/inspiration/why-everyone-should-prototype-not-justde
 
 This article discusses the benefits of high- and low-fidelity prototyping and includes a checklist to help decide which to use: www.nngroup.com/articles/ ux-prototype-hi-lo-fidelity/?lm=aesthetic-usability-effect&pt=article.
 
-![](images/4387ec5fc3f9f9bb0dfe3e54e7d85866d9c41a473053f11dc4af17ab0dcf4c90.jpg)  
+![](images/4387ec5fc3f9f9bb0dfe3e54e7d85866d9c41a473053f11dc4af17ab0dcf4c90.webp)  
 "THEN IN HERE WE DOACLAYMOCK-UP OFTHE COMPUTERMODEL"
 
 # Source: Reproduced with permission of Penwil Cartoons
@@ -7865,9 +7865,9 @@ Source: Price et al. (2010)
 
 The core components of the conceptual model are metaphors and analogies, the concepts to which users are exposed, the relationship between those concepts, and the mappings between the concepts and user experience being supported (Chapter 3). Some of these will derive from the product’s requirements, such as the concepts involved in an  activity and their relationships, which may be captured through scenarios and use cases. Others such as suitable metaphors  and  analogies  will  be  informed  by  immersion  in  the  data  and  understanding  the application domain.
 
-![](images/a1115f15edc26bde308a88fd3020b47be0c73202e168bcc9701efef628130af9.jpg)
+![](images/a1115f15edc26bde308a88fd3020b47be0c73202e168bcc9701efef628130af9.webp)
 
-![](images/451b10618829a295fff744958e1a13f1805fa4dd2838f4c84fc34e444d953791.jpg)  
+![](images/451b10618829a295fff744958e1a13f1805fa4dd2838f4c84fc34e444d953791.webp)  
 Figure 12.10  Peter being caught eating the pastry out of the fridge at breakfast (scene 2, negative reaction)
 
 Source: Price et al. (2010) / Association for Computing Machinery
@@ -7880,7 +7880,7 @@ Which interaction type(s) would best support the users’ activities?
 
 All of these approaches provide  different ways of thinking  about the product and help generate potential conceptual models.
 
-![](images/1faad8392f8dc464ecc57f6845628a56e1aa39b47fe6bb7ccaba901c77d10290.jpg)  
+![](images/1faad8392f8dc464ecc57f6845628a56e1aa39b47fe6bb7ccaba901c77d10290.webp)  
 Figure 12.11  An example mood board developed for a personal safety product called Guard Llama Source: johnnyhuang.design/guardllama.html
 
 # Interface Metaphors
@@ -8012,7 +8012,7 @@ There are many aspects to the concrete design of interactive products:
 
 As an example of concrete design decisions, Figure 12.12 shows the initial prototype of a new interface design for radio astronomy visualization software (Rampersad et al., 2017). This prototype illustrates aspects of concrete design including screen layout and icon design. In this study, the concrete design went through three iterations using prototypes of increasing levels of fidelity.
 
-![](images/f7c5ba25c65720c86d886b0192bfe94a2c3c3bfe312172f9ef484126ddf0530c.jpg)  
+![](images/f7c5ba25c65720c86d886b0192bfe94a2c3c3bfe312172f9ef484126ddf0530c.webp)  
 Figure 12.12  A paper prototype for the home view of an astronomy visualization package, illustrating some aspects of concrete design. On the left side is a large area for displaying the data, and on the right side there is an expanding side menu containing icons for additional functionality. In the middle is a list of data variables. The screen layout, relative sizes and locations of interface elements, and design of specific icons are all aspects of concrete design.
 
 Two  aspects  that have drawn  particular attention for concrete  design  are accessibility and  inclusiveness. Accessibility  and inclusiveness  were introduced  in  Chapter  1, “What  is Interaction Design?” Accessibility refers to the extent to which a product is accessible to as many people as possible, while inclusiveness means being fair, open, and equal to everyone. The aim of inclusive design is to empower people in their everyday and working lives (Rogers and Marsden, 2013).
@@ -8083,17 +8083,17 @@ For example, the scenario says nothing about the kinds of input and 
 
 The storyboard in Figure 12.13 includes elements of the environment and some of the screens. While drawing this, various questions came to mind such as how can the interaction be designed for all of the family? Will they sit or stand? How to handle remote participants? What kind of help needs to be available? What physical components does the travel organizer need?  How to enable all  of the  family to interact with the  system (notice that  the first scene uses voice input while other scenes have a keyboard option as well)? And so on. In this exercise, the questions it prompts are just as important as the end product.
 
-![](images/721b58f7e525916aa6b85dab7ef30e07cea16223a33b8af5bc1fae15fbacc488.jpg)
+![](images/721b58f7e525916aa6b85dab7ef30e07cea16223a33b8af5bc1fae15fbacc488.webp)
 
-![](images/1f7c975fdffaccefb381345b121f14fe01e946dedb4945f8bbb51d64a81741ea.jpg)
+![](images/1f7c975fdffaccefb381345b121f14fe01e946dedb4945f8bbb51d64a81741ea.webp)
 
-![](images/56d4bf876bccbfb6ae4f504c012f1f4d257a33ceaf82317ad13060ddce1410bd.jpg)
+![](images/56d4bf876bccbfb6ae4f504c012f1f4d257a33ceaf82317ad13060ddce1410bd.webp)
 
-![](images/c7e37b3bfd55643a3d91ea06a6f6a1087fda67df7d85171e8c5289aefeb74cac.jpg)
+![](images/c7e37b3bfd55643a3d91ea06a6f6a1087fda67df7d85171e8c5289aefeb74cac.webp)
 
-![](images/ca873e6443758430ede93709994f9eedf0e98da1d494ac64bedb4f2feded83de.jpg)
+![](images/ca873e6443758430ede93709994f9eedf0e98da1d494ac64bedb4f2feded83de.webp)
 
-![](images/d3984e9ddbaf745959d05e16502fc23cd72ae6901ac28e82bfd7b0174df9f553.jpg)  
+![](images/d3984e9ddbaf745959d05e16502fc23cd72ae6901ac28e82bfd7b0174df9f553.webp)  
 FigureÂ 12.13The Â ÂstoryboardÂforÂtheÂtravelÂorganizerÂ
 
 # ACTIVITYÂ12.5Â
@@ -8112,15 +8112,15 @@ TheÂfollowingÂisÂbasedÂonÂtheÂscenarioÂinÂtheÂcommentÂforÂActivityÂ1
 
 TheÂstoryboardÂisÂshownÂinÂFigureÂ 12.14.IssuesÂ ÂthatÂaroseÂwhileÂdrawingÂthisÂstoryboardÂ includedÂhowÂtoÂdisplayÂtheÂreports,ÂwhatÂkindÂofÂvirtualÂrealityÂequipmentÂisÂneeded,ÂandÂ whatÂinputÂdevicesÂareÂneededâ€”akeyboardÂ ÂorÂtouchscreen,ÂaÂsteeringÂwheel,Âaccelerator,ÂandÂ brakeÂpedals?ÂHowÂmuchÂlikeÂactualÂcarÂcontrolsÂdoÂtheÂinputÂdevicesÂneedÂtoÂbe?ÂYouÂmayÂ haveÂthoughtÂofÂotherÂissues.Â
 
-![](images/873fd7650364be0555da3bdf1d0329da98dbbb3149776c6023f329db867f41a3.jpg)
+![](images/873fd7650364be0555da3bdf1d0329da98dbbb3149776c6023f329db867f41a3.webp)
 
-![](images/c4cd376d7c50bb328d43c7d04778534f2a1d705af559daeaf9924485c8daf86c.jpg)
+![](images/c4cd376d7c50bb328d43c7d04778534f2a1d705af559daeaf9924485c8daf86c.webp)
 
-![](images/107112f3966605ba3df19249bf4c6eca67aed06dfd8b2a49d1d7300acae859ca.jpg)
+![](images/107112f3966605ba3df19249bf4c6eca67aed06dfd8b2a49d1d7300acae859ca.webp)
 
-![](images/3cc85422e80e8a2038e406aa7c3e10b07b18793a0ad9492e4082377693ee7034.jpg)
+![](images/3cc85422e80e8a2038e406aa7c3e10b07b18793a0ad9492e4082377693ee7034.webp)
 
-![](images/ec066734ef47a172b16c78006cabbb03f24762de01965c3add2f37e589c79e5d.jpg)  
+![](images/ec066734ef47a172b16c78006cabbb03f24762de01965c3add2f37e589c79e5d.webp)  
 Figure 12.14  The storyboard generated from the one-stop car shop scenario in Activity 11.4
 
 # 12.5.2  Generating Card-Based Prototypes
@@ -8131,7 +8131,7 @@ For example, consider the use cases for the visa requirements aspect 
 
 This second  use  case  can  be translated into cards as  follows. For  each  step in the use case,  the  travel  organizer  will  need to  have  an  interaction  component  to  deal  with  it, for example,  input  via  a  button,  menu  option, or  voice,  and  output  via  a  display  or  sound. By stepping  through the use case, a card-based prototype can be developed that covers the required behavior, and different designs can be considered. For example, Figure 12.15 shows six dialogue elements on six separate cards. The set on the left has been written in friendlier language, while the set on the right is more official. These cover steps 1, 2, 3, 4, and 5.
 
-![](images/ac58776b63776c23f3c0da00ce6c25f440e632638bbff9b114cc8beef8cf6198.jpg)  
+![](images/ac58776b63776c23f3c0da00ce6c25f440e632638bbff9b114cc8beef8cf6198.webp)  
 Figure 12.15  Cards 1–3 of a card-based prototype for the travel organizer
 
 The alternative courses, for example those dealing with error messages, would also each have a card, and the tone and information contained in the error message could be evaluated with stakeholders. For example, step 7.1 might translate into a simple “No visa information is available,” or a more helpful, “I am not able to find visa information for you to visit your chosen destination. Please contact the <destination country>’s embassy.”
@@ -8152,7 +8152,7 @@ Look at the storyboard in Figure 12.4. This storyboard shows Christina explo
 
 Figure 12.16 shows the  two cards we drew. The first is simply an Ancient Greek pot, while the second attempts to capture the idea of a pottery seller in the market. When we stepped through the storyboard with a colleague and showed them these alternatives, both were found to require improvement. The pot on its own did not capture the pottery trade, and it wasn’t clear what the market seller represented, but there was  a preference for  the  latter, and  the feedback was useful.
 
-![](images/440ffc531bd95d69fc1820038754d652cf84d9c1e30d931b7ffb398c815a8f11.jpg)  
+![](images/440ffc531bd95d69fc1820038754d652cf84d9c1e30d931b7ffb398c815a8f11.webp)  
 Figure 12.16  Two icons to represent “pottery trade” for the new mobile device for exploring historic sites depicted in the storyboard of Figure 12.4
 
 # 12.5.3  Mapping the Overall Experience
@@ -8167,10 +8167,10 @@ This video illustrates the benefits of experience mapping using a time
 
 User flows  are another  way to  capture the overall  user experience, focusing  on screen content and design. These are used particularly for mobile apps or websites and are similar to timeline customer journey maps because they capture the flow that someone may go through when using  the product.  User flows  come in  various forms  but  are usually  represented in a  flowchart  showing  different  options  and  decision points  through the  customer  journey. Generating a user flow helps determine the number of screens or pages needed to keep the user engaged, maps out the different paths through the product, and supports the design of individual screens.
 
-![](images/1349cf7283b5e461118556a470b7cc0229197ce3a379d0c4896c976155b35899.jpg)  
+![](images/1349cf7283b5e461118556a470b7cc0229197ce3a379d0c4896c976155b35899.webp)  
 (a)
 
-![](images/8c85d8b6e73b93be8594c22a7b25ebb6a7bf7cc2f7f0b714cd473551a873d495.jpg)  
+![](images/8c85d8b6e73b93be8594c22a7b25ebb6a7bf7cc2f7f0b714cd473551a873d495.webp)  
 (b)   
 Figure 12.17  (a) An experience map using a wheel representation and (b) an example timeline illustrating how different issues may be captured
 
@@ -8186,7 +8186,7 @@ For an overview of different mapping techniques used in UX design, se
 
 Design thinking refers to an approach to complex problem-solving  and innovative design. It is a human-centered approach that focuses on understanding what people want and what technology can do for them. Design thinking is often described in terms of a number of phases that together evolve a solution, but there are many variations. For example, Isabell Osann et al. (2020) suggest six phases in two clusters: the orientation cluster involves the three phases understand, observe, and synthesize, while the solution cluster involves ideate, prototype, and test. IDEO (www.ideou.com/pages/design-thinking) observes that although it teaches design thinking as a series of linear steps (see Figure 12.18), it is an iterative  process  that can  be adapted  to specific needs. IDEO emphasizes human  needs, empathy, and  collaboration by looking at a design challenge through three lenses: desirability, feasibility, and viability. On the other hand, Bon Ku and Ellen Lupton (2022) highlight two core principles of design thinking as embracing a human-centered perspective and applying a creative mindset. They identify three main phases: observe, imagine, and make.
 
-![](images/77e84dbd2f979588ae913aa0e5c7b7354fae999e3cd22af4a26dc4b2fae594e1.jpg)  
+![](images/77e84dbd2f979588ae913aa0e5c7b7354fae999e3cd22af4a26dc4b2fae594e1.webp)  
 Figure 12.18  IDEO’s design thinking steps
 
 Source: Phases for the design thinking process. Intended to be iterative, not sequential
@@ -8236,11 +8236,11 @@ Other toolkits have been developed from the basic Arduino kit. The mo
 Magic Cubes is a novel toolkit that is assembled from six sides that are slotted together to become an interactive cube that lights up in different colors, depending on how vigorously it is shaken. Intended to encourage children to learn, share, and fire their imagination to come up with new games and other uses, see it in action at uclmagiccube.weebly.com/video.html.
 
 Figure 12.19  The Arduino board   
-![](images/6bdaed3dc5091f4406b2ebd0f14c5893e5308d386d532f840739ae4090e8c895.jpg)  
+![](images/6bdaed3dc5091f4406b2ebd0f14c5893e5308d386d532f840739ae4090e8c895.webp)  
 Source: Courtesy of Dr Nicolai Marquardt
 
 Figure 12.20  The Lilypad Arduino kit   
-![](images/262a716bbe68c2aca4357c1b64fafde76b310aae38d65b15985feb83eca98edd.jpg)  
+![](images/262a716bbe68c2aca4357c1b64fafde76b310aae38d65b15985feb83eca98edd.webp)  
 Source: Courtesy of Leah Beuchley
 
 Other kinds of easy-to-use and quick-to-get-started physical toolkits, intended to provide new  opportunities  for  people to be inventive and  creative, include electronics  kits (sphero .com), Raspberry Pi (www.raspberrypi.org), and Makey Makey (makeymakey.com).
@@ -8250,7 +8250,7 @@ Another  popular  physical  computing  system  is  the  BBC  micro:bit 
 using a variant of JavaScript. This means that the micro:bit provides a great experience for young students and other beginner programmers, while also supporting more sophisticated programming. As a result, micro:bit has been widely adopted in schools around the world.
 
 Figure 12.21  The BBC micro:bit   
-![](images/b7d9f545b0dffd4c18a4646d1af959deff94e726606162b84b9b1b4f81c172a8.jpg)  
+![](images/b7d9f545b0dffd4c18a4646d1af959deff94e726606162b84b9b1b4f81c172a8.webp)  
 Source: Used Courtesy of Micro:bit Foundation
 
 Physical  toolkits  are  readily  available  and  have  a  wide use  and  appeal. For  example, Wenn-Chieh Tsai et al. (2020) have developed a kit for use by IoT practitioners to investigate alternatives for emerging technologies, and Lee Jones et al. (2020) have developed a toolkit for  prototyping  e-textile  wearables. Toolkits are  often  used  by  children,  or  students  in  a formal educational setting, or by designers to enable them to start creating small electronic gadgets  and  digital tools. They  also  have a key  role  in widening  access  for  people to create useful and interesting projects and by engaging in the maker movement (see Box 12.6). Melissa Escamilla Perez et al. (2020) emphasize the benefits and opportunities for engaging families in play and collaboration through intergenerational making. They worked with five adults and seven children between 2 and 10 years old to identify the kind of interactions that take place while creating a personalized game.
@@ -8345,7 +8345,7 @@ KU,  B., and  LUPTON,  E.  (2020)  Health  Design  Thinking $2 ^ { \math
 
 INTERACTIONS MAGAZINE  (2018)  Designing AI. ACM. This issue of  the Interactions magazine is all about design and different aspects of it including sketching, human-centered design  for  children, collaborative  art, design  capabilities,  and  the  special  topic  of  designing for AI.
 
-![](images/c51e8f7fa0e4a47db758150e42a973a134913b0949d20d39a514ab09fdace73c.jpg)
+![](images/c51e8f7fa0e4a47db758150e42a973a134913b0949d20d39a514ab09fdace73c.webp)
 
 # INTERVIEW
 
@@ -8478,7 +8478,7 @@ Conducting  UX  activities within an  agile  framework  requires a  fle
 How to align UX design and agile working practices   
 . What documentation to produce, how much, and when
 
-![](images/1a0082073e6cce67567b06015431ac2a83b698bfb5d7dc88cca5cdcbd11365ce.jpg)  
+![](images/1a0082073e6cce67567b06015431ac2a83b698bfb5d7dc88cca5cdcbd11365ce.webp)  
 Source: Leo Cullum / Cartoon Stock
 
 # 13.2.1  User Research
@@ -8586,7 +8586,7 @@ Brainstorm the typesof experimentsyou can run to learn whether your riskiest ass
 
 8
 
-![](images/871a15b66d17b8ae6df290088203cc63fe01ae2b39a0415118e5aa01acc17a82.jpg)
+![](images/871a15b66d17b8ae6df290088203cc63fe01ae2b39a0415118e5aa01acc17a82.webp)
 
 Download this canvas at: www.jeffgothelf.com/blog/leanuxcanvas
 
@@ -8619,7 +8619,7 @@ software  through evolutionary development and the elaboration of requir
 In  response  to  this  challenge,  Miller  (2006)  and  Sy  (2007)  proposed  the  classic  dual tracks approach. In the original version of this approach, UX design work is done one iteration ahead of development work (see Figure 13.2). The principle of dual tracks development is quite simple: that design activity  and data collection for Cycle $n { + 1 }$ are performed during Cycle $_ { n }$ . This enables the design work to be completed just ahead of development work, yet to be tightly coupled to it as the product evolves. Completing  it much sooner than this can result in wasted effort, as the product and understanding about its use evolves.
 
 Figure 13.2 Cycle 0 and its relationship to later cycles   
-![](images/793c5ab6fb5680bfe6c953b403166a0c7150b4c8897a705f090db72dc7bdb75a.jpg)  
+![](images/793c5ab6fb5680bfe6c953b403166a0c7150b4c8897a705f090db72dc7bdb75a.webp)  
 Source: Sy (2017) / Association for Computing Machinery
 
 Cycle 0 and cycle  1  are different from  subsequent  cycles  because, before evolutionary development can begin, the product vision needs to be created. This is handled in different ways  in different agile methods, but all agree that there  needs to be some kind of work up front  to understand the product, its scope, and its overall  design (both technical and UX). Some general data about customers and their behavior may have been collected before cycle 0, but the vision and overall design is completed for the current project by the end of cycle 0. The work required will depend on the nature of the product: whether it is a new version of an existing product, a new product, or a completely new experience. Cycle 0 can also be longer
@@ -8646,7 +8646,7 @@ subsequent products based on the  results of this experimentation. In this se
 
 AgileUX is an umbrella term for all efforts that focus on integrating UX design with agile development. Agile software development is an evolutionary approach to development, and hence agileUX is also evolutionary. Additionally, agileUX projects can employ prototyping to answer questions and test ideas, as described in Chapter 12.
 
-![](images/53a28dd86924df9a5e7a04d5871d48b6799384b1b4cc6ca3ce107bc45cb5fad9.jpg)  
+![](images/53a28dd86924df9a5e7a04d5871d48b6799384b1b4cc6ca3ce107bc45cb5fad9.webp)  
 Figure 13.3 Overview of the dual tracks development integrating discovery and development Source: www.jpattonassociates.com/dual-track-development
 
 # 13.2.3  Documentation
@@ -8700,26 +8700,26 @@ The pagination pattern is used for content that can be ordered (often the�
 
 (Continued)
 
-![](images/11a2349ed84e70b8d83a267915faba46550ac1cdbc9561c29dee2d97c9587249.jpg)
+![](images/11a2349ed84e70b8d83a267915faba46550ac1cdbc9561c29dee2d97c9587249.webp)
 
-![](images/88e711e680182c08c2256b4bbf14a9b7545f98560ffc3be61670be9a7c0fcaad.jpg)  
+![](images/88e711e680182c08c2256b4bbf14a9b7545f98560ffc3be61670be9a7c0fcaad.webp)  
 自
 
-![](images/2f041643c36722a3914d37ce85e39847df8d47f29c9825063722272479156242.jpg)
+![](images/2f041643c36722a3914d37ce85e39847df8d47f29c9825063722272479156242.webp)
 
-![](images/bb916c9d74e65a7cdf7ef367c4fa8b2fdc98b4d4b2e4249ed8eeec3747f1360f.jpg)  
+![](images/bb916c9d74e65a7cdf7ef367c4fa8b2fdc98b4d4b2e4249ed8eeec3747f1360f.webp)  
 自
 
-![](images/c9925df89c84b384e65d22254f11c7eb8c361ef75a22625dba4cbb0417e41099.jpg)  
+![](images/c9925df89c84b384e65d22254f11c7eb8c361ef75a22625dba4cbb0417e41099.webp)  
 (a)
 
-![](images/0b0bf1902e6e6718369a918e118621ff4e0499ca2be6d79a163fd0157583b583.jpg)  
+![](images/0b0bf1902e6e6718369a918e118621ff4e0499ca2be6d79a163fd0157583b583.webp)  
 (b)   
 Figure 13.4 Two  examples of the  continuous scrolling  pattern  (a)  buying clothes  online, (b) in an email browser
 
 Source: (a) next.co.uk, (b) yahoo.co.uk
 
-![](images/45c65a9725a32a134d97cbb1353fbc63035703f96622f037912d30d9efba6e36.jpg)  
+![](images/45c65a9725a32a134d97cbb1353fbc63035703f96622f037912d30d9efba6e36.webp)  
 Figure 13.5 Different instantiations of the pagination pattern
 
 These patterns may not seem the most exciting design choices, but they are significant in terms of user interaction, and a designer will need to decide how the pattern is instantiated. In addition, implementing content  delivery is fairly straightforward  once the  design is chosen because  these options  have already been considered,  tried, and  tested,  and  there is implementable code to put them into practice.
@@ -8737,7 +8737,7 @@ To read about the differences between design systems and design languag
 One design pattern for mobile devices that has prompted discussion is the hamburger menu pattern. The hamburger is often displayed as three little lines, but there are other styles (see Figure 13.6). Commonly found in the top-right corner of a smartphone app, this menu signals that there are  several other actions  available. When clicked, the hamburger  displays a side menu with a list of options. Compared to a static menu, the hamburger saves screen space.
 
 Figure 13.6 Different styles for the classic hamburger menu icon   
-![](images/b4fb8b97c85d89d45965057af949fef0b37b7fcb717323c1f5ebcec8f3238b94.jpg)  
+![](images/b4fb8b97c85d89d45965057af949fef0b37b7fcb717323c1f5ebcec8f3238b94.webp)  
 Source: alvarotrigo.com/blog/hamburger-menu-css
 
 This design pattern has provoked different reactions  by different designers. Search for information on it using  your favorite browser  and read at least  two articles or blog posts about it. It may be that many of your own apps use one of these, but having read more about it, is this something you’d use when building your own app?
@@ -8777,7 +8777,7 @@ Many large pieces of software underlying our global digital infrastruct
 Perhaps  more  interesting  for  interaction  designers  is  that  there  is  a  growing  amount of open  source software  available for designing good  user  experiences. The design pattern implementation libraries introduced in section 13.3 are but one example of how open source software is affecting user experience design. Another example is the Bootstrap framework for front-end web development, released as open source in August 2011 and actively updated on a regular basis; see Figure 13.7 for an example of its use. This framework contains reusable code snippets, a screen layout grid that supports multiple screen sizes, and pattern libraries that include predefined sets of navigational patterns, typefaces, buttons, tabs, and so on. The framework  and  documentation are  available  through  the  GitHub  open  source repository (github.com/twbs/bootstrap#community).
 
 Figure 13.7 An example website built using the Bootstrap framework   
-![](images/63d5c98dfa7c05c371db0bdf4ed7dfb2648a6ecf0a1eef1182b11059aa759c9c.jpg)  
+![](images/63d5c98dfa7c05c371db0bdf4ed7dfb2648a6ecf0a1eef1182b11059aa759c9c.webp)  
 Source: plazaclassic.com. Identified from bootstrapbay.com/blog/built-with-bootstrap
 
 Open  source  resources  require  a  suitable  hosting  service, that  is,  somewhere  for  the source code to be stored and made accessible to others. More than this, the hosting service needs  to serve  a  huge number  of users  (GitHub  was reported  to  have 83  million  users  in
@@ -8848,7 +8848,7 @@ MACDONALD, D. (2019) Practical UI Patterns for Design Systems. Apress, B
 
 RAYMOND, E. S. (2001) The Cathedral and the Bazaar. O’Reilly. This seminal book is a set of essays introducing the open source movement.
 
-![](images/7b759c05faa51948b236ab4e93272880f66a3919a6ded2875d747494042bad80.jpg)
+![](images/7b759c05faa51948b236ab4e93272880f66a3919a6ded2875d747494042bad80.webp)
 
 Luciana Zaina is an associate professor at the Department of Computing of the Federal  University  of  São  Carlos, Brazil.  She has  a  PhD  in  computer  engineering from the  University  of  São  Paulo  (USP,  Brazil) and a degree in computer science. She has experience  in  teaching  user  experience–
 
@@ -8949,7 +8949,7 @@ From a business and marketing perspective, well-designed products sell.�
 
 popular the product is in the marketplace. Evaluation data enables designers to focus on real problems and the needs of different groups of people and make informed decisions about the design, rather than on debating what each other likes or dislikes. It also enables problems to be fixed before the product goes on sale or to be improved during its use.
 
-![](images/477f596450a8e40f1adc4eb13cfe4c5f26b1881e05a305d278422e1ee00b00a4.jpg)  
+![](images/477f596450a8e40f1adc4eb13cfe4c5f26b1881e05a305d278422e1ee00b00a4.webp)  
 "It's thelatest innovation in office safety. When your computer crashes,anair bag isactivated so you won't bang your head in frustration."
 
 Source: © Glasbergen. Reproduced with permission of Glasbergen Cartoon Service
@@ -9059,12 +9059,12 @@ Usability Testing 101 by Kate Moran (2019) describes how usability testin
 
 Look at Figure 14.1, which shows two devices for recording activity and measuring heart rate: (a) Fitbit 2 Smartwatch and (b) Fitbit Lux. Assume that you are considering buying one  of these devices. What usability issues would you want to know about, and what aesthetic design issues would be important to you when deciding which one to purchase? What else might you want to consider when making a decision?
 
-![](images/b05e15333abfc1d234ae928b4770ce074754316e52f4a60d6a548afc20940cbd.jpg)  
+![](images/b05e15333abfc1d234ae928b4770ce074754316e52f4a60d6a548afc20940cbd.webp)  
 (a)
 
 (b)   
 Figure 14.1 Devices for monitoring activity and heart rate (a) Fitbit 2 Smartwatch and (b) Fitbit Lux   
-![](images/05ba6631aef65869f7e6f02a98946b8ae31dd0a23083ef75ef2af66c42e73463.jpg)  
+![](images/05ba6631aef65869f7e6f02a98946b8ae31dd0a23083ef75ef2af66c42e73463.webp)  
 Source: Figure 14.1 (a) Fitbit 2 Smartwatch (b) Fitbit Lux
 
 # Comment
@@ -9089,9 +9089,9 @@ activities and reactions  such as eye trackers, motion detection systems, a
 
 Living labs can  be large  and  may  house  hundreds and  even thousands  of people,  a large array of technology, and other items. The Person-Environment-Activity Research Laboratory (PEARL)  is a  massive  space  of around 4000 square meters and  10 meters high (www.ucl.ac.uk/person-environment-activity-research-laboratory). It is used to study  user experiences in large installations of equipment for railways, high streets, town squares, theaters, etc., before they are deployed into the community. In this environment, researchers, developers, engineers, and other specialists work together to examine what people do, how they do it, and their emotional reactions. For example, they are able to test detailed differences in the environment such as the effects of space, color, lighting, and sound under controlled conditions. Projects have focused  on transport, cities and  communities, creative arts,  education, government, health, and more. Figure 14.2 shows (a) a railway installation and (b) a pop-up theater in which researchers were investigating the public’s reactions.
 
-![](images/100715bdcca3b2fd8613d1ad0169667c88cc865ef9a16c516e5e0cebeee4de96.jpg)
+![](images/100715bdcca3b2fd8613d1ad0169667c88cc865ef9a16c516e5e0cebeee4de96.webp)
 
-![](images/aca702fc6ba57feb4b131f9636acbf3a1de5a418ccf41f6fe020f2e09e3442ee.jpg)  
+![](images/aca702fc6ba57feb4b131f9636acbf3a1de5a418ccf41f6fe020f2e09e3442ee.webp)  
   
 Figure 14.2 PEARL testing scenes: (a) a railway station and (b) a pop-up theater in which researchers investigate the publics’ interactions with the items being tested [a train and train station in (a), and the theater design in (b)] and their emotional responses.
 
@@ -9198,7 +9198,7 @@ Data  collection: The  pre-driving  survey completed  by  each  particip
 Data analysis and results: The results of the study showed that DeepTake reliably predicted the need for a driver to take over control of the simulated car 96 percent of the time. The data from the simulator study with users (i.e., the user study) indicated that participants completed the takeovers within an acceptable time 93 percent of the time and that 83 percent of the takeovers were of acceptable quality, which was a measure of how safely and accurately the participants  completed the takeovers. Because the primary focus of research on  DeepTake was testing  the feasibility  of predicting  takeovers by  collecting and analyzing quantitative measurements, the researchers did not collect data about how participants felt about their study experience. To cope with this limitation, the researchers planned a follow-up study to  collect qualitative  user experience data, which  is not reported  here, but Activity  14.5 encourages  you  to  think about  the kind  of data  that might be useful to collect. Interestingly, while the researchers’ work so far does not focus on the user interface of the system, it does provide an alternative way of putting users at the center of development.
 
 Figure 14.3 User study setup. This custom driving simulator consists of a 30-inch monitor, a Logitech G29 steering wheel, and 10.5-inch Apple iPad Air on which the non-driving tasks are displayed. For switching between the automated and manual control of the vehicle, the participant needs to press the two blue buttons on the steering wheel simultaneously. The participant wore a pair of eye-tracking glasses and a wearable device with sensors for collecting skin.   
-![](images/dd756afcf9232135d083244ffc85dc22695911ddb8bd69dc38e36ef730c1d283.jpg)  
+![](images/dd756afcf9232135d083244ffc85dc22695911ddb8bd69dc38e36ef730c1d283.webp)  
 Source: Pakdamanian et al., 2021. CHI’2021 https://dl.acm.org/doi/pdf/10.1145/3411764.3445563
 
 # ACTIVITY 14.5
@@ -9223,7 +9223,7 @@ The overall purpose of the study was to find out about participants�
 
 The study consisted of four data  collection sessions  using the Ethnobot  over two days and involved 13 participants, who ranged in age and came from diverse backgrounds. One session  occurred in the early afternoon and the other in the late afternoon on each  day of the study. Each session lasted several hours. To participate in the study, each participant was given a smartphone and shown how to use the Ethnobot app (Figure 14.4), which they could experience on their own or in groups as they wished.
 
-![](images/dd9703f2fab181b2d4698137ca115609bbec605b178c6653128efcefd491f6aa.jpg)  
+![](images/dd9703f2fab181b2d4698137ca115609bbec605b178c6653128efcefd491f6aa.webp)  
 Figure 14.4 The Ethnobot used at the Royal Highland Show in Scotland. Notice that the Ethnobot directed participant Billy to a particular place (that is, Aberdeenshire Village). Next, Ethnobot asks “. . . What’s going on?” and the screen shows five of the experience buttons from which Billy needs to select a response.
 
 Source: Tallyn et al. (2018). Reproduced with permission of ACM Publications
@@ -9241,7 +9241,7 @@ A lot of data was collected that had to be analyzed. The pre-establi
 Overall, the analyses revealed  that participants  spent an  average  of 120  minutes  with the Ethnobot on each session and recorded an average of 71 responses, while submitting an average of 12 photos. In general, participants responded well to prompting by the Ethnobot and were eager to add more information. For example, one participant said, “I really enjoyed going around and taking pictures and [to the question] ‘have you got something to add’ [said] yeah! I have, I always say ‘yes’. . . .” A total of 435 pre-established responses were collected, including 70 that were about what the participants did or experienced (see Figure 14.5). The most frequent  response was “I learned something” followed by “I tried something” and “I enjoyed something.” Some participants also supplied photos to illustrate their experiences.
 
 Figure 14.5 The number of prewritten experience responses submitted by participants to the pre-established questions that Ethnobot asked them about their experiences   
-![](images/d79e587a374c880735ef0fa6aba2c4119bfaae2d147f3c84a2cdbd06d45084f6.jpg)  
+![](images/d79e587a374c880735ef0fa6aba2c4119bfaae2d147f3c84a2cdbd06d45084f6.webp)  
 Source: Tallyn et al., 2018 / ACM, Inc. / CC BY-4.0
 
 When the researchers asked the participants about their reactions to selecting prewritten comments, eight participants remarked that they were rather restrictive and that they would like more flexibility to answer the questions. For example, one participant said, “Maybe there should have been more options, in terms of your reactions to the different parts of the show.” However, in general, participants enjoyed their experience of the RHS and of using Ethnobot.
@@ -9496,7 +9496,7 @@ Within this range of user testing approaches we focus on the followin
 •  Experiments, which usually take place in research labs but can sometimes be done remotely   
 In-the-wild studies, which take place in natural settings, such as people’s homes, schools, work, and leisure environments
 
-![](images/f199c969c7f6756096a8b8a7f8e7f478cf383c46e3e7a709fea8efb295cc6f64.jpg)  
+![](images/f199c969c7f6756096a8b8a7f8e7f478cf383c46e3e7a709fea8efb295cc6f64.webp)  
 Source: geek-and-poke.com. Licensed under CC-BY 3.0
 
 # 15.2 Usability Testing
@@ -9532,7 +9532,7 @@ Typically, large  company  labs contain  two  to  three  wall-mounted  v
 Figure  15.1  shows  a  typical  arrangement  in  which  designers  in  an  observation room  are watching a usability test through a one-way mirror.
 
 Figure 15.1 Diagram of the usability lab used by the U.S. Health and Human Services government department   
-![](images/692c13d3a8dbe73f9bcf0dd890c827e613d3d944df48067e40ea7a7c469573c9.jpg)  
+![](images/692c13d3a8dbe73f9bcf0dd890c827e613d3d944df48067e40ea7a7c469573c9.webp)  
 Source: HHS Usability Lab / U.S. General Services Administration / Public domain
 
 This link to the U.S. Health and Human Services (HHS) government department website describes the HHS usability processes lab: www.usability.gov/ how-to-and-tools/guidance/hhs-usability-lab.html.
@@ -9547,12 +9547,12 @@ As  the participants  moved  around the  mall, their  gaze  was  recor
 
 The  findings  from  these analyses  revealed that  participants  looked at  displays, particularly large plasma screens, more than had been previously reported in earlier studies by other researchers. Since  Nick Dalton and  his  colleagues reported this study  in 2015, equipment for  doing usability testing has become smaller and less cumbersome as discussed briefly in Box 15.1.
 
-![](images/120588328b4790562ed6a0520910f3613585930029620b1bbdcc9cfd048b2d5d.jpg)  
+![](images/120588328b4790562ed6a0520910f3613585930029620b1bbdcc9cfd048b2d5d.webp)  
 (a)
 
 (b)   
 Figure 15.2 (a) The Tobii Glasses Mobile Eye-Tracking System (b) Tobii Mobile Eye-Tracking glasses on sale in 2022   
-![](images/306be71a26d36c38aa5abdf044e529011136c89440875964d7f0f5b247156b6b.jpg)  
+![](images/306be71a26d36c38aa5abdf044e529011136c89440875964d7f0f5b247156b6b.webp)  
 Source: (a) Dalton et al.  (2015), p. 3891.  Reproduced with permission of  ACM Publications. (b)  www.tobiipro .com/news-events/on-demand-webinars/Wearable-eye-tracking-for-research
 
 # BOX 15.1
@@ -9629,7 +9629,7 @@ Source: www.nngroup.com/reports/ipad-app-and-website-usability. Used courtesy�
 The  testing  was  done  using  a  setup  (see  Figure  15.3)  similar  to  the  mobile  usability  kit described earlier. A camera recorded the participant’s interactions  and gestures when using the iPad and streamed the recording to a laptop computer. A webcam was also used to record the expressions on the participants’ faces and their think-aloud commentary. The laptop ran software called  Morae, which  synchronized these  two data streams. Up to three  observers (including the moderator sitting next to the participant) watched the video streams on their laptops situated  on  the table so that they  did  not  invade the participants’  personal space, rather than observing the participants directly.
 
 Figure 15.3 The setup used in the Chicago usability testing sessions   
-![](images/45a8229dcfb21ab14e1018225219251b3c5865f869be4724eec20709e5cc19a1.jpg)  
+![](images/45a8229dcfb21ab14e1018225219251b3c5865f869be4724eec20709e5cc19a1.webp)  
 Source: www.nngroup.com/reports/ ipad-app-and-website-usability.  Used courtesy  of  the  Nielsen Norman Group
 
 # Usability Problems
@@ -9669,21 +9669,21 @@ Despite the known benefits of remote testing (e.g., Hartson et al, 19
 Siltanen et al. conducted 22 remote usability tests in this way with experts spanning eight countries—Finland, India, China,  Germany, Indonesia, Malaysia, the  USA, and  the United Arab Emirates. This required ingenuity and special procedures to ensure that the tests were safe during the Covid  pandemic. Some tests  were conducted on  the participants’ premises where special disinfecting routines had to be implemented, others were conducted remotely using VR technology, and some were a hybrid. In this case study we discuss only the first of five different testing examples discussed in Siltanen’s and her colleagues’ paper, in which the researchers investigated  the  benefits  of a multiuser virtual  reality setup  for a collaborative review of a product. Figure 15.4 shows a participant wearing a VR headset, holding two paddles to initiate and control movement in the VR environment during testing.
 
 Figure 15.4 A participant in a test session   
-![](images/8be3d4aae991867e2118f9267ae75f62b1b16d418312afdceb2ce3a1fb0c172e.jpg)  
+![](images/8be3d4aae991867e2118f9267ae75f62b1b16d418312afdceb2ce3a1fb0c172e.webp)  
 Source: Siltanen et al. (2021) MDPI / CC BY 4.0
 
 The difficult part was working out how to test remote collaboration where the participants and observers were all in different locations. The way they  did this was to link them up  in the different locations using the VR software  environment DesignSpace. Figure 15.5 shows screen shots from one of the setups using this software. As shown, the participants and observers are represented virtually in different spaces; the participant on the left is operating machinery, and a team of observers is in the space on the right.
 
 Figure 15.6 shows a schematic of the complete setup used in the first testing case study, which took place across four different locations. A remote facilitator wearing a head-mounted display (HMD) was in the first location, and an observer with an HMD and tech support person were in the second location. One participant with an HMD was in a third location, and two participants were in a fourth location, one of whom was wearing an HMD, and the other was using a desktop computer. There was also an on-site assistant in the fourth location.
 
-![](images/94708c36c78436fc40753d8cf46a67724e10ad4dd3ff38247194a4c51c8fee0f.jpg)
+![](images/94708c36c78436fc40753d8cf46a67724e10ad4dd3ff38247194a4c51c8fee0f.webp)
 
 Figure 15.5 Screenshots from the DesignSpace VR environments   
-![](images/7e3bd9eff3c86207bda89f7e4ca3feab674451074926c63f81dfbd9000288580.jpg)  
+![](images/7e3bd9eff3c86207bda89f7e4ca3feab674451074926c63f81dfbd9000288580.webp)  
 Source: Siltanen et al. (2021) MDPI / CC BY 4.0
 
 Figure 15.6 The testing setup used with the DesignSpace environment   
-![](images/c483271a147161d93cad214b3d82e4a9fd6cfb6642721a27451582094676ef3c.jpg)  
+![](images/c483271a147161d93cad214b3d82e4a9fd6cfb6642721a27451582094676ef3c.webp)  
 Source: Siltanen, S. 2021 / MDPI / CC BY 4.0
 
 Because of social distancing and the need to disinfect equipment, facilitators could not help participants put on equipment, and the instructions telling the participants what to do had to be presented  on  large screens rather  than face-to-face. Traveling  between  sites was not  allowed either  or was limited. Furthermore, as conditions  changed due  to COVID, so did the test setup. Collecting data became trickier. For example, facial masks resulted in participants’ comments  being muffled, and facial expressions, which are important  data, were hard to gauge.
@@ -9799,7 +9799,7 @@ Before  launching  this  study, Blaine  Price  and  his  colleagues  (Pr
 
 The goal of their in-the-wild study was to evaluate the use of Painpad by patients recovering from ambulatory surgery (total hip or knee replacement) in the natural environments of two UK hospitals. Painpad (see Figure 15.7) enables patients to monitor their own pain levels by pressing the keys on the pad to record their pain rating. The researchers were interested in many  aspects related  to how  patients  interacted with Painpad, particularly  how robust and easy  it was to use  in the hospital environments. They  also wanted to see whether the patients rated their pain every two hours as they were asked to do and how the patients’ ratings using Painpad compared with the ratings that the nurses collected. They wanted to look for insights about the preferences and needs of the older patients who used Painpad and for design insights around visibility, customizability, ease  of operation, and the contextual factors that affected its usability in hospital environments.
 
-![](images/7eeb3b63773bfe2cf6c64871e28854a3564a7dd9e4fa3bc58b6530f3ab6468e9.jpg)  
+![](images/7eeb3b63773bfe2cf6c64871e28854a3564a7dd9e4fa3bc58b6530f3ab6468e9.webp)  
 Figure 15.7 Painpad, a tangible device for inpatient self-logging of pain Source: Price et al. (2018). Reproduced with permission of ACM Publications / CC BY 4.0
 
 # Data Collection and Participants
@@ -9919,7 +9919,7 @@ NIELSEN, J. and BUDIU, R. Mobile Usability. New Riders Press. This cla
 
 ROBSON, C. Experiment, Design and Statistics in Psychology (3rd ed.). Penguin UK. This is a classic that provides a useful introduction to experimental design and basic statistics. A more recent book by COLIN ROBSON and  KIERAN McCARTAN (2016)  entitled Real World Research (4th  ed.), published by  John Wiley  &  Sons, is  a valuable  resource for those who want to do research in applied settings. In addition to describing how to collect and analyze data, there is a chapter about ethical and political considerations.
 
-![](images/6ce564e736977200bbdeea315e83f99c74fa725400155d6ff9c9277f8326c0f7.jpg)
+![](images/6ce564e736977200bbdeea315e83f99c74fa725400155d6ff9c9277f8326c0f7.webp)
 
 # INTERVIEW with danah boyd
 
@@ -10071,7 +10071,7 @@ Exactly which heuristics are appropriate and how many are needed for 
 Another concern is the number of researchers needed to carry out a heuristic evaluation that identifies the majority of usability problems. Empirical tests were conducted suggesting that  three  to  five  researchers  can typically  identify  up  to 75  percent  of  the  total  usability problems, as shown in Figure 16.1 (Nielsen, 1994a). However, employing several researchers can be resource  intensive. Therefore, the overall  conclusion is  that while more  researchers might  be better, fewer can  be used—especially  if they  are experienced  and knowledgeable about the product and the people for whom it is designed.
 
 Figure 16.1 Curve  showing  the  proportion of usability  problems in an interface  found  by heuristic evaluation using various numbers of evaluators   
-![](images/d0021895b843ed725b4a02eb30669928800e57b79883ca40fcd949077ce4126a.jpg)  
+![](images/d0021895b843ed725b4a02eb30669928800e57b79883ca40fcd949077ce4126a.webp)  
 Source: Nielsen and Mack (1994). Used courtesy of John Wiley & Sons, Inc.
 
 # Heuristic Evaluation for Websites
@@ -10126,7 +10126,7 @@ A  similar approach  to Budd’s is also taken by Leigh Howells in he
 objective are proposed. This can be done either to show the occurrence of different heuristics from an evaluation or to compare the results of different researchers’ evaluations, as shown in  Figure  16.2. First, a calculation  is  done  to find  the  mean number  of usability problems identified by each researcher, which is then displayed around the diagram (in this case there were seven researchers). Then a single value representing the mean of all of the researchers’ individual means is calculated and displayed in the center of the diagram. In addition to being able to compare the relative performance of different experts and the overall usability of the design, a version of this procedure can be used to compare the usability of different prototypes or for comparisons with competitors’ products.
 
 Figure 16.2 Radar diagram showing the mean number of problems identified by each of the seven researchers and the overall mean of all the researchers, which is shown in the center of the diagram   
-![](images/313fce209111db3194dccc8d084f1b5a40a52b6ece01f68980692fb15ccdf3f6.jpg)  
+![](images/313fce209111db3194dccc8d084f1b5a40a52b6ece01f68980692fb15ccdf3f6.webp)  
 Source: Granollers (2018). Used courtesy of Springer Nature
 
 # ACTIVITY 16.1
@@ -10310,7 +10310,7 @@ Check out this link for the Dalrymple cognitive walk-through to create
 In  another  example,  Kim  Salazar  (2022)  describes  evaluating  a  tablet  interface  for patients visiting a health clinic who needed  to check  in for their first visit  and for patients who need to update their personal information. When a new patient arrives at the clinic, the receptionist asks them to check in using the application on a tablet, as shown in Figure 16.3.
 
 Figure 16.3 The first screen that the evaluators see   
-![](images/30875f600822a414b40422dcc03eee2fe0a60fbe13d1995f955f96ff8324513b.jpg)  
+![](images/30875f600822a414b40422dcc03eee2fe0a60fbe13d1995f955f96ff8324513b.webp)  
 Source: From Nielsen Norman Group,Kim Salazar (2022) Evaluate Interface Learnability withCognitive Walkthroughs www.nngroup.com/articles/cognitive-walkthroughs/?utm_source=Alertbox&utm_campaign=8df358360e-EMAIL_CAMPAIGN_2020_11_12_08_52_COPY_01&utm_medium $| =$ email&utm_term=0_7f29a2b335- 8df358360e-40509353
 
 During  the cognitive  walk-through  of  the check-in  procedure, the evaluators  start  by looking  at the first screen that the new  patient would encounter (Figure 16.3)  to check in. The correct  action for the new  patient  would be to tap  on the square in the bottom-right corner of Figure 16.3. The evaluators then address the four analysis questions that have been
@@ -10443,14 +10443,14 @@ Google launched Google Analytics in  November 2005, and even as early�
 
 Figure 16.4 shows parts of the Google Analytics dashboard for the accompanying website for the  previous edition of this book, id-book.com, during October 2022. The first segment  (a)  shows  information  about  who  accessed  the  site  and  how  long  they  stayed,  the second segment (b) shows the devices used to view the website and the pages visited, and the third segment (c) shows the languages spoken by the users. Box 16.4 contains a case study about using Google Analytics for evaluating a community website for air monitoring.
 
-![](images/951e7d8826c4fd40e8820e76bf471afb23fbc0bf2f3817ebfc3a0b139ae08907.jpg)  
+![](images/951e7d8826c4fd40e8820e76bf471afb23fbc0bf2f3817ebfc3a0b139ae08907.webp)  
 (a)
 
-![](images/4299df86f4553a98255113601d18ca98ea61ab0bed303bc7e7a2b7d320dea261.jpg)  
+![](images/4299df86f4553a98255113601d18ca98ea61ab0bed303bc7e7a2b7d320dea261.webp)  
 (b)   
 Figure 16.4 Segments of the Google Analytics dashboard for id-book.com during October 2022: (a) audience overview, (b) the devices used to access the site, and (c) the languages of the users
 
-![](images/7d2e9c197b2eaa77471bf3a146827480bef811412f1d9ebbcd3b504e89362a3c.jpg)  
+![](images/7d2e9c197b2eaa77471bf3a146827480bef811412f1d9ebbcd3b504e89362a3c.webp)  
 (c)   
 Figure 16.4 Continued
 
@@ -10514,7 +10514,7 @@ In another example, an employee working for Microsoft’s Bing search 
 combining it with the first line below the title, as shown in Figure 16.5 in which the original title is shown at the top and the revised design is shown below (Kohavi et al., 2022). No one thought this small change would have an effect, but the results of the A/B test were astonishing and very profitable for the company. Revenue from sales increased by 12 percent, which was  more  than $\$ 1000$ US.  Because  the  results  seemed  unbelievable, the  experiment  was repeated several times, and the results were found to be the same.
 
 Figure 16.5 Original ad title for buying flowers (top) and suggested new title design (below)   
-![](images/5872684604646f7453ebf11b6e2b4f12251993f33f7bbda998b5b13aaebeded6.jpg)  
+![](images/5872684604646f7453ebf11b6e2b4f12251993f33f7bbda998b5b13aaebeded6.webp)  
 Source: Kohavi et al. (2022), Cambridge University Press
 
 The results of both of these experiments demonstrate that small changes can have a big effect. However, care is needed when setting up A/B testing to ensure that it is actually testing

@@ -16,7 +16,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 微课视频
 
-![](images/EPUB/images/image_070.jpg)
+![](images/EPUB/images/image_070.webp)
 
 网页交互UI组件使用详解
 
@@ -28,7 +28,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 当用户产生操作或输入错误时，会出现吐司提示，如图2-37所示。
 
-![](images/EPUB/images/image_071.jpg)
+![](images/EPUB/images/image_071.webp)
 
 图2-37 吐司提示
 
@@ -40,7 +40,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 鼠标指针移入则立即显示提示，移出提示则立即消失，不承载复杂文本和操作，如图2-38所示。
 
-![](images/EPUB/images/image_072.jpg)
+![](images/EPUB/images/image_072.webp)
 
 图2-38 气泡提示
 
@@ -52,7 +52,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 输入框主要用于用户输入文本，是以字符串的方式将输入内容提交到数据库，如图2-39所示。
 
-![](images/EPUB/images/image_073.jpg)
+![](images/EPUB/images/image_073.webp)
 
 图2-39 输入框
 
@@ -60,7 +60,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 当一个数据集合有清晰的层级结构时，我们可以通过级联选择器进行逐级查看并选择，如图2-40所示。
 
-![](images/EPUB/images/image_074.jpg)
+![](images/EPUB/images/image_074.webp)
 
 图2-40 级联选择器
 
@@ -72,11 +72,11 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 复选框用于在一组可选项中进行多项选择，如图2-42所示。
 
-![](images/EPUB/images/image_075.jpg)
+![](images/EPUB/images/image_075.webp)
 
 ▲图2-41 单选框
 
-![](images/EPUB/images/image_076.jpg)
+![](images/EPUB/images/image_076.webp)
 
 图2-42 复选框
 
@@ -88,7 +88,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 按钮用于开始一个即时操作。在设计中，有5种基本按钮类型：主要按钮、默认按钮、虚线按钮、文本按钮、链接按钮，如图2-43所示。
 
-![](images/EPUB/images/image_077.jpg)
+![](images/EPUB/images/image_077.webp)
 
 图2-43 按钮类型
 
@@ -96,7 +96,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 布局主要是协助进行页面的整体布局，通常用于应用型网站，如图2-44所示。
 
-![](images/EPUB/images/image_078.jpg)
+![](images/EPUB/images/image_078.webp)
 
 图2-44 顶部侧边布局
 
@@ -112,11 +112,11 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 上传是通过单击或者拖动上传文件，将信息（网页、文字、图片、视频等）通过网页或者上传工具发布到远程服务器上的过程，如图2-46所示。
 
-![](images/EPUB/images/image_079.jpg)
+![](images/EPUB/images/image_079.webp)
 
 ▲图2-45 标记/徽标数
 
-![](images/EPUB/images/image_080.jpg)
+![](images/EPUB/images/image_080.webp)
 
 图2-46 上传
 
@@ -128,11 +128,11 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 当加载数据时网页中会显示动效，合适的加载动效会有效缓解用户的焦虑情绪，如图2-48所示。
 
-![](images/EPUB/images/image_081.jpg)
+![](images/EPUB/images/image_081.webp)
 
 ▲图2-47 进度条
 
-![](images/EPUB/images/image_082.jpg)
+![](images/EPUB/images/image_082.webp)
 
 图2-48 加载
 
@@ -146,11 +146,11 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 导航菜单一般分为顶部导航和侧边导航，如图2-49和图2-50所示。
 
-![](images/EPUB/images/image_083.jpg)
+![](images/EPUB/images/image_083.webp)
 
 ▲图2-49 顶部导航
 
-![](images/EPUB/images/image_084.jpg)
+![](images/EPUB/images/image_084.webp)
 
 图2-50 侧边导航
 
@@ -162,11 +162,11 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 下拉菜单是弹出的菜单列表，可将动作或菜单折叠到下拉菜单中，如图2-52所示。
 
-![](images/EPUB/images/image_085.jpg)
+![](images/EPUB/images/image_085.webp)
 
 ▲图2-51 面包屑
 
-![](images/EPUB/images/image_086.jpg)
+![](images/EPUB/images/image_086.webp)
 
 图2-52 下拉菜单
 
@@ -178,7 +178,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 表格是为页面和功能提供导航的菜单列表，展示行、列数据，如图2-53所示。
 
-![](images/EPUB/images/image_087.jpg)
+![](images/EPUB/images/image_087.webp)
 
 图2-53 表格
 
@@ -186,7 +186,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 通用列表是最基础的列表展示，可以承载文字、列表、图片、段落，常用于后台数据展示页面，如图2-54所示。
 
-![](images/EPUB/images/image_088.jpg)
+![](images/EPUB/images/image_088.webp)
 
 图2-54 通用列表
 
@@ -194,7 +194,7 @@ UI组件就是用户界面成套元件，是界面设计常用控件或元件。
 
 卡片组件是一种通用卡片容器，用户可以将信息聚合在卡片组件中展示。该组件可承载文字、列表、图片、段落，常用于后台概览页面，如图2-55所示。
 
-![](images/EPUB/images/image_089.jpg)
+![](images/EPUB/images/image_089.webp)
 
 图2-55 卡片
 

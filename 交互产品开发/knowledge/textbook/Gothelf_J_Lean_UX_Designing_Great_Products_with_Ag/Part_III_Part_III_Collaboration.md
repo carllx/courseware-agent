@@ -231,7 +231,7 @@ a more formal wireframe and workflow, while Greg began to write the
 infrastructure code necessary to get the data they needed to the
 presentation layer.
 
-![](images/assets/lux3_1401.png)
+![](images/assets/lux3_1401.webp)
 
 ###### Figure 14-1. Examples of whiteboard sketches
 
@@ -472,7 +472,7 @@ but frequently large, comprehensive bound volumes. As the world moved
 online, these books sometimes moved onto the web as PDF documents, web
 pages, or even wikis.
 
-![](images/assets/lux3_1402.png)
+![](images/assets/lux3_1402.webp)
 
 ###### Figure 14-2. Example of brand standards guidelines, this one from NASA^([2](#ch14.html_ch01fn15))
 
@@ -679,7 +679,7 @@ included design technologists (frontend developers who are passionate
 about both design and code), interaction designers, graphic designers, a
 technical writer, and a product owner.
 
-![](images/assets/lux3_1403.png)
+![](images/assets/lux3_1403.webp)
 
 ###### Figure 14-3. The GE Predix design system
 
@@ -701,7 +701,7 @@ with your end users. In this instance, it was a hybrid: designing with a
 cross-functional team of designers and developers *who actually are*
 your users.
 
-![](images/assets/lux3_1404.png)
+![](images/assets/lux3_1404.webp)
 
 ###### Figure 14-4. The GE Predix design system on GitHub
 
@@ -1030,7 +1030,7 @@ Studio, and simple conversation, your team can build a shared
 understanding that allows them to move forward at a much faster pace
 than in traditional environments.
 
-![](images/assets/lux3_1405.png)
+![](images/assets/lux3_1405.webp)
 
 ###### Figure 14-5. A team using collaborative design techniques
 
@@ -1198,7 +1198,7 @@ preprinted template to hand to participants. (If you’re using an online
 tool, don’t force people to draw in that tool—that tends to be hard and
 slow. Instead, ask people to work on paper then share a photo or scan.)
 
-![](images/assets/lux3_0902.png)
+![](images/assets/lux3_0902.webp)
 
 ###### Figure 9-2. A blank “six-up” template
 
@@ -1223,7 +1223,7 @@ you can draw every interface. We’re confident everyone on your team can
 draw those shapes, and this seemingly silly idea can help level the
 playing field.
 
-![](images/assets/lux3_0903.png)
+![](images/assets/lux3_0903.webp)
 
 ###### Figure 9-3. A wall full of completed six-up drawings
 
@@ -1257,7 +1257,7 @@ like these are very helpful. Comments such as “I don’t like that
 concept” provide little value and don’t give the presenter concrete
 ideas to use for iterating.
 
-![](images/assets/lux3_0904.png)
+![](images/assets/lux3_0904.webp)
 
 ###### Figure 9-4. A team presenting and critiquing drawings during a Design Studio
 
@@ -1287,7 +1287,7 @@ team 10 minutes for this step.
 When the time is up, bring everyone together and go through the
 present-and-critique process again.
 
-![](images/assets/lux3_0905.png)
+![](images/assets/lux3_0905.webp)
 
 ###### Figure 9-5. A team working together in a Design Studio exercise
 

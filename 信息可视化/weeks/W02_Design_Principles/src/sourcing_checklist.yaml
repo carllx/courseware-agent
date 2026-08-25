@@ -16,7 +16,7 @@
   - splitLine real image
   - splitLine demo video
   target_path: ../public/videos/S07f_AI_Prompt_Battle.webm
-  current_asset: ../public/slides/S07f_AI_Prompt_Battle.png
+  current_asset: ../public/slides/S07f_AI_Prompt_Battle.webp
   no_ai_flag: true
   confirmed_urls: []
   stitch_mode: auto
@@ -39,8 +39,8 @@
   - 定量信息的视觉展示 photo
   - 定量信息的视觉展示 real image
   - 定量信息的视觉展示 product shot high resolution
-  target_path: ../public/slides/S01b_Edward_Tufte_Intro_real.png
-  current_asset: ../public/slides/S01b_Edward_Tufte_Intro.png
+  target_path: ../public/slides/S01b_Edward_Tufte_Intro_real.webp
+  current_asset: ../public/slides/S01b_Edward_Tufte_Intro.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -59,8 +59,8 @@
   search_queries:
   - '"挑战者号：表格掩埋了 7 条人命" historical photo'
   - '"挑战者号：表格掩埋了 7 条人命" archive image'
-  target_path: ../public/slides/S00_Review_Challenger_real.png
-  current_asset: ../public/slides/w01_review/S02c_Tufte_Scatterplot.png
+  target_path: ../public/slides/S00_Review_Challenger_real.webp
+  current_asset: ../public/slides/w01_review/S02c_Tufte_Scatterplot.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -77,8 +77,8 @@
   description: '"Stevens 定律实证：你的大脑在骗你"'
   scene_excerpt: 三组红色实体圆的对比展示——上方标注实际面积比 1:2:4，下方用虚线圈出人脑感知的等效面积比约 1:1.4:2.5，两组数字之间用醒目的黄色闪电符号标注"心理压缩系数 0.7"。
   search_queries: []
-  target_path: ../public/slides/S05c_Area_Volume_Illusion_real.png
-  current_asset: ../public/slides/S05c_Area_Volume_Illusion.png
+  target_path: ../public/slides/S05c_Area_Volume_Illusion_real.webp
+  current_asset: ../public/slides/S05c_Area_Volume_Illusion.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -97,8 +97,8 @@
   search_queries:
   - '"你以为的 3 倍差距，实际是 100 倍——面积通道的认知陷阱" historical photo'
   - '"你以为的 3 倍差距，实际是 100 倍——面积通道的认知陷阱" archive image'
-  target_path: ../public/slides/S05d_Wealth_Bubble_Lie_real.png
-  current_asset: ../public/slides/S05d_Wealth_Bubble_Lie.png
+  target_path: ../public/slides/S05d_Wealth_Bubble_Lie_real.webp
+  current_asset: ../public/slides/S05d_Wealth_Bubble_Lie.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -115,7 +115,7 @@
   description: '"深度解剖：直击犯罪现场"'
   scene_excerpt: 屏幕展示一张带有血色印记的“信息法医解剖台”画面，放大展示通道映射错误的局部特写。
   search_queries: []
-  target_path: ../public/slides/S08b2_Autopsy_Table_real.png
+  target_path: ../public/slides/S08b2_Autopsy_Table_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -135,7 +135,7 @@
   search_queries:
   - 画面中央是一个巨大的闪烁问号 背景由模糊的各种图表碎片（柱状图、散点图、桑基图的 demonstration
   target_path: ../public/videos/S02c_Transition_Grammar.webm
-  current_asset: ../public/slides/S02c_Transition_Grammar.png
+  current_asset: ../public/slides/S02c_Transition_Grammar.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -156,8 +156,8 @@
   - TreeMap photo
   - TreeMap real image
   - TreeMap portrait
-  target_path: ../public/slides/S02d3_Metaphor_Hierarchies_real.png
-  current_asset: ../public/slides/S02d3_Metaphor_Hierarchies.png
+  target_path: ../public/slides/S02d3_Metaphor_Hierarchies_real.webp
+  current_asset: ../public/slides/S02d3_Metaphor_Hierarchies.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -179,8 +179,8 @@
   - RenderMode photo
   - RenderMode real image
   - RenderMode portrait
-  target_path: ../public/slides/S03c_Channel_Metaphor_real.png
-  current_asset: ../public/slides/S03c_Channel_Metaphor.png
+  target_path: ../public/slides/S03c_Channel_Metaphor_real.webp
+  current_asset: ../public/slides/S03c_Channel_Metaphor.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -197,8 +197,8 @@
   description: '"破局韦伯盲区：用发散图放大微小差异"'
   scene_excerpt: '左半屏：两根近乎等高的巨大柱子（标注“目标: 15000 亿”和“实际: 15001 亿”），顶部差异肉眼难辨，上方用红色虚线框标注“韦伯盲区”；右半屏：切换为发散性误差偏离图，以 15000 亿的目标值为零点基线，那一亿的超额业绩被显著放大为清晰可见的偏差条。整体风格为商业数据新闻设计感，而非教材学术图。'
   search_queries: []
-  target_path: ../public/slides/S05e_Weber_Diverging_Bar_real.png
-  current_asset: ../public/slides/S05e_Weber_Diverging_Bar.png
+  target_path: ../public/slides/S05e_Weber_Diverging_Bar_real.webp
+  current_asset: ../public/slides/S05e_Weber_Diverging_Bar.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -219,8 +219,8 @@
   - ColorBrewer photo
   - ColorBrewer real image
   - ColorBrewer portrait
-  target_path: ../public/slides/S06e_Accessibility_ColorBrewer_real.png
-  current_asset: ../public/slides/S06e_Accessibility_ColorBrewer.png
+  target_path: ../public/slides/S06e_Accessibility_ColorBrewer_real.webp
+  current_asset: ../public/slides/S06e_Accessibility_ColorBrewer.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -241,8 +241,8 @@
   - ColorBrewer photo
   - ColorBrewer real image
   - ColorBrewer portrait
-  target_path: ../public/slides/S06f_ColorBrewer_Simulator_Tools_real.png
-  current_asset: ../public/slides/S06f_ColorBrewer_Simulator_Tools.png
+  target_path: ../public/slides/S06f_ColorBrewer_Simulator_Tools_real.webp
+  current_asset: ../public/slides/S06f_ColorBrewer_Simulator_Tools.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -262,8 +262,8 @@
   search_queries:
   - Munzner 通道有效性量表 photo
   - Munzner 通道有效性量表 real image
-  target_path: ../public/slides/S08b_Stage1_Audit_Guide_real.png
-  current_asset: ../public/slides/S08b_Stage1_Audit_Guide.png
+  target_path: ../public/slides/S08b_Stage1_Audit_Guide_real.webp
+  current_asset: ../public/slides/S08b_Stage1_Audit_Guide.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto

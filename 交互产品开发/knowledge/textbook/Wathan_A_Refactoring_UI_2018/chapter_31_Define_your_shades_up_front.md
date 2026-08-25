@@ -17,9 +17,9 @@ So how do you put together a palette like this anyways?
 Start by picking a *base* color for the scale you want to create — the
 color in the middle that your lighter and darker shades are based on.
 
-![](images/index-149_1.png)
+![](images/index-149_1.webp)
 
-![](images/index-149_2.png)
+![](images/index-149_2.webp)
 
 149
 
@@ -47,11 +47,11 @@ lightest shade might be used to tint the background of an element.
 A simple alert component is a good example that combines both of these
 use cases, so it can be a great place to pick these colors.
 
-![](images/index-150_1.png)
+![](images/index-150_1.webp)
 
-![](images/index-150_2.png)
+![](images/index-150_2.webp)
 
-![](images/index-150_3.png)
+![](images/index-150_3.webp)
 
 Define your shades up front
 
@@ -79,7 +79,7 @@ between the shades on either side.
 This creates four more holes in the scale ( *800*, *600*, *400*, and
 *200*), which you can fill using the same approach.
 
-![](images/index-151_1.png)
+![](images/index-151_1.webp)
 
 151
 
@@ -115,7 +115,7 @@ Just try to avoid adding *new* shades too often if you can avoid it. If
 you’re not diligent about limiting your palette, you might as well have
 no color system at all.
 
-![](images/index-152_1.png)
+![](images/index-152_1.webp)
 
-![](images/index-152_2.png)
+![](images/index-152_2.webp)
 

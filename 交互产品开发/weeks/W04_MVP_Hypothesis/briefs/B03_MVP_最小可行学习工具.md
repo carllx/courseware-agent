@@ -51,15 +51,15 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 12-1 | Box 8 of the Lean UX Canvas: MVPs and Experiments | `images/assets/lux3_1201.png` | ✅ 已迁移 (`/public/textbook/Fig_12-1.png`) |
-| Fig 12-2 | Our adapted version of the Truth Curve | `images/assets/lux3_1202.png` | ✅ 已迁移 (`/public/textbook/Fig_12-2.png`) |
-| Fig 12-3 | An example of a Kickstarter page | `images/assets/lux3_1203.png` | ✅ 已迁移 (`/public/textbook/Fig_12-3.png`) |
-| Fig 12-4 | Feature fake found in Flickr’s Apple TV app | `images/assets/lux3_1204.png` | ✅ 已迁移 (`/public/textbook/Fig_12-4.png`) |
-| Fig 12-5 | Screen after clicking the feature-fake button | `images/assets/lux3_1205.png` | ✅ 已迁移 (`/public/textbook/Fig_12-5.png`) |
-| Fig 12-6 | Feature fake on MapMyRun | `images/assets/lux3_1206.png` | ✅ 已迁移 (`/public/textbook/Fig_12-6.png`) |
-| Fig 12-7 | Wizard of Oz site for Taproot Foundation | `images/assets/lux3_1207.png` | ✅ 已迁移 (`/public/textbook/Fig_12-7.png`) |
-| Fig 12-8 | Trello board behind Wizard of Oz | `images/assets/lux3_1208.png` | ✅ 已迁移 (`/public/textbook/Fig_12-8.png`) |
-| Fig 12-9 | Polished solution for Taproot Foundation | `images/assets/lux3_1209.png` | ✅ 已迁移 (`/public/textbook/Fig_12-9.png`) |
+| Fig 12-1 | Box 8 of the Lean UX Canvas: MVPs and Experiments | `images/assets/lux3_1201.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-1.webp`) |
+| Fig 12-2 | Our adapted version of the Truth Curve | `images/assets/lux3_1202.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-2.webp`) |
+| Fig 12-3 | An example of a Kickstarter page | `images/assets/lux3_1203.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-3.webp`) |
+| Fig 12-4 | Feature fake found in Flickr’s Apple TV app | `images/assets/lux3_1204.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-4.webp`) |
+| Fig 12-5 | Screen after clicking the feature-fake button | `images/assets/lux3_1205.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-5.webp`) |
+| Fig 12-6 | Feature fake on MapMyRun | `images/assets/lux3_1206.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-6.webp`) |
+| Fig 12-7 | Wizard of Oz site for Taproot Foundation | `images/assets/lux3_1207.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-7.webp`) |
+| Fig 12-8 | Trello board behind Wizard of Oz | `images/assets/lux3_1208.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-8.webp`) |
+| Fig 12-9 | Polished solution for Taproot Foundation | `images/assets/lux3_1209.webp` | ✅ 已迁移 (`/public/textbook/Fig_12-9.webp`) |
 
 ## 易混淆概念辨析
 

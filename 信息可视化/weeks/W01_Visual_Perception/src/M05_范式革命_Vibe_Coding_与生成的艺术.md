@@ -12,7 +12,7 @@
 > *   **Layout**: `Full`
 > *   **Scene**: 人类设计师不再握着画笔，而是像交响乐指挥家一样，面对着全息的数据粒子流发号施令，代表着 Vibe Coding 的全新心智框架。
 > *   **Text**: "范式革命：从画图工到数据交响乐指挥家"
-> *   **Asset**: ![Vibe Coding心智隐喻](../public/slides/S17_Vibe_Coding_Intro.png)
+> *   **Asset**: ![Vibe Coding心智隐喻](../public/slides/S17_Vibe_Coding_Intro.webp)
 
 请大家在脑海里建立起这套关于**设计搜索空间**的心智模型。它将帮助我们在后续面对复杂数据时，理解为何我们常常陷入平庸妥协，以及如何借助新范式破局。
 
@@ -34,7 +34,7 @@
     - "2. 知识空间: 你的潜艇级别（受限于你目前掌握的代码能力工具）。"
     - "3. 备选空间: 氧气即将耗尽（死线逼近），你无力瞎逛，只真实测试了 3 块礁石。"
     - "4. 选定方案: 最终向上交付的结果，被迫拿最后一块平庸贝壳交差。"
-> *   **Asset**: ![设计搜索空间漏斗模型](../public/slides/S17_Design_Space.png)
+> *   **Asset**: ![设计搜索空间漏斗模型](../public/slides/S17_Design_Space.webp)
 
 想找出一个绝佳的图表方案，就像是大海捞针。请看屏幕右侧这个不断收缩的“倒漏斗”模型：
 
@@ -48,7 +48,7 @@
 > *   **Layout**: `Flow`
 > *   **Scene**: 康定斯基与达达主义的“有限理性”视觉碰撞。画面表现一位设计师在无数飘忽不定的碎片（代表无尽的视觉可能性）中挣扎，最后被迫抓住一块朴素的积木。
 > *   **Text**: "为什么总是向平庸妥协？因为工具卡住了你的手脚"
-> *   **Asset**: ![康定斯基有限理性哲学图示](../public/slides/S17b_Bounded_Rationality_Philosophy.png)
+> *   **Asset**: ![康定斯基有限理性哲学图示](../public/slides/S17b_Bounded_Rationality_Philosophy.webp)
 
 因为精力和技术边界有限，面对复杂数据，我们往往摸到一个及格方案就立即接受。这种受限于工具的**妥协窘境**正是传统创作的软肋。打破这种尴尬，意味着一场极速的创作革命。
 
@@ -57,8 +57,8 @@
 > *   **Layout**: `Center`
 > *   **Scene**: 前 OpenAI 科学家 Andrej Karpathy 的经典原声演讲截图。他正站在大屏幕前展示“程序空间”拓扑图，讲述 Software 2.0：人类不再需要逐行死磕代码，而是去划定一个范围，让算法引擎自己去寻找极好的表现形式。
 > *   **Text**: "软件 2.0 时代：把搬砖的苦活交给机器"
-> *   **Asset**: ![Software 2.0 演讲截图](../public/slides/S18_Software_Evolution_real.png)
-> *   **Asset (AI fallback)**: ![预览](../public/slides/S18_Software_Evolution.png)
+> *   **Asset**: ![Software 2.0 演讲截图](../public/slides/S18_Software_Evolution_real.webp)
+> *   **Asset (AI fallback)**: ![预览](../public/slides/S18_Software_Evolution.webp)
 > **Source**: Locked -- 人工选定的全景演讲截图，Andrej Karpathy (YouTube)
 
 我们必须牢牢把握这一**范式转移的力量**，它将深刻重塑你们的**创作习惯**。
@@ -81,7 +81,7 @@
 > *   **List**:
     - "❌ **手工作坊 (Hand-Crafting)**: 底层物理执行耗时极长，脑力被软件操作掏空。"
     - "✅ **直觉指导 (Vibe Coding)**: 专注统筹大局与美感目标，分钟内探索高阶方案。"
-> *   **Asset**: ![工作流范式对比](../public/slides/S18b_Workflow_Comparison.png)
+> *   **Asset**: ![工作流范式对比](../public/slides/S18b_Workflow_Comparison.webp)
 
 > [CASE STUDY: 传统制作 vs 直觉指导的火花碰撞]
 > 让我们来看一个典型场景对比。假设期末作业，老师给你一份“包含十年全球气温变化”的巨量数字表格，让你做一个可以互动的彩色气温动画。
@@ -103,7 +103,7 @@
 > *   **List**:
     - "传统工作流：被面板困死的操作工"
     - "直觉编程 (Vibe Coding)：用指令驱动的高效美术指导"
-> *   **Asset**: ![预览](../public/slides/S18c_Vibe_Coding_Speed.png)
+> *   **Asset**: ![预览](../public/slides/S18c_Vibe_Coding_Speed.webp)
 
 > [ACTIVITY]
 > *   **Type**: `QA`
@@ -123,7 +123,7 @@
 > *   **List**:
     - "若不审查逻辑就全盘接受，那是一种盲目的自杀。" —— Simon Willison
     - "Vibe Coding 撤销了你搬砖的辛苦，但也把审查真相的重担全部扔给了你。"
-> *   **Asset**: ![可视化海市蜃楼隐喻](../public/slides/S19_The_Catch_Simons.png)
+> *   **Asset**: ![可视化海市蜃楼隐喻](../public/slides/S19_The_Catch_Simons.webp)
 
 <!-- 知识源: vibe-coding-paradigm note 挑战与 AI 幻觉 -->
 
@@ -145,7 +145,7 @@
 > *   **List**:
     - "被扭曲的 3D 谎言：近大远小摧毁客观比例"
     - "严谨的 2D 真相：让数据回归客观的平视映射"
-> *   **Asset**: ![预览](../public/slides/S19a_Cyberpunk_3D_Pie.png)
+> *   **Asset**: ![预览](../public/slides/S19a_Cyberpunk_3D_Pie.webp)
 
 更要命的，是**数学基座**上偷偷摸摸的修改：
 
@@ -161,7 +161,7 @@
 > *   **Layout**: `Split`
 > *   **Scene**: 左右对比同一份微增数据：左侧是 Y 轴起点为 10000 的“火箭升空”陡峭折线图；右侧是 Y 轴正常从 0 开始的平缓波纹折线图。
 > *   **Text**: "截断坐标轴：私自篡改地平线的比例欺诈"
-> *   **Asset**: ![预览](../public/slides/S19b_Truncated_Y_Axis.png)
+> *   **Asset**: ![预览](../public/slides/S19b_Truncated_Y_Axis.webp)
 
 在 AI 时代，机器只是为了满足“排版紧凑”的表面要求，便悄无声息地制造了视觉上的**虚假繁荣**。
 
@@ -174,7 +174,7 @@
 > *   **Layout**: `Center`
 > *   **Scene**: 一个坚定的人物剪影站在巨大的由 0 和 1 构成的数据瀑布前，手里握着一把红色的“审计印章”。
 > *   **Text**: "从底层执行到心智裁决：用认知常识审查机器引擎"
-> *   **Asset**: ![预览](../public/slides/S19c_Auditor_Mindset.png)
+> *   **Asset**: ![预览](../public/slides/S19c_Auditor_Mindset.webp)
 
 只要你敢与大模型共舞，请永远把下面这句话刻在脑子里：**机器确实能极快地为你渲染出一张张炫目的高级表皮。但面对底层的空间度量、光影引致的心理偏倚以及数据求真纪律时，它依然像个初学者。**
 
@@ -185,7 +185,7 @@
 > *   **Layout**: `Split`
 > *   **Scene**: 机器渲染出的炫目但失真的图表，与人类设计师冷静审视、一针见血的红色修改批注形成的对比张力。
 > *   **Text**: "成为美与确切的最终裁决者"
-> *   **Asset**: ![人类审计机器的张力](../public/slides/S19d_Auditor_Action.png)
+> *   **Asset**: ![人类审计机器的张力](../public/slides/S19d_Auditor_Action.webp)
 
 有了跨时代的工具，你不再是当年那个因为一点排版挪移而熬到脱发、累死累活的图库装配工了；你蜕变成了能够决定什么是“美与确切”的**审查与裁决者**。你能够一眼看破绚烂虚饰下埋伏的**数据畸变雷区**。
 
@@ -196,7 +196,7 @@
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是一张极其枯燥的 Excel 股票数据波动表；右侧是基于同一份数据，利用代码（如 p5.js 或 Shader）生成的如同呼吸般闪耀的粒子星云艺术图。
 > *   **Text**: "生成的艺术 (Generative Art)：跳出坐标系的数据狂想"
-> *   **Asset**: ![生成的艺术隐喻](../public/slides/S20_Generative_Art_Intro.png)
+> *   **Asset**: ![生成的艺术隐喻](../public/slides/S20_Generative_Art_Intro.webp)
 
 既然大家已经具备了清醒的“审计员”心态，不再轻易被机器的劣质幻觉所欺骗，那么我们终于可以安全地解开 Vibe Coding 的最后一层封印——**生成的艺术 (Generative Art)**。这也是我们这个模块标题中极其浪漫的后半句。
 
@@ -213,7 +213,7 @@
 > *   **Layout**: `Full`
 > *   **Scene**: Refik Anadol 在 MoMA 的震撼数字装置《Unsupervised》。大屏幕上是不断翻滚、如液态颜料般流动的生成式艺术模型。
 > *   **Text**: "Refik Anadol《Unsupervised》：让机器去梦见 200 年的艺术史"
-> *   **Asset**: ![Refik Anadol 艺术作品](../public/slides/S20a_Refik_Anadol_MoMA.png)
+> *   **Asset**: ![Refik Anadol 艺术作品](../public/slides/S20a_Refik_Anadol_MoMA.webp)
 >
 最终在巨大的展厅里，呈现出的是一面如同拥有呼吸一般、不断变幻着形态与色彩的液态数字瀑布。这就是《Unsupervised》（无监督）。他将人类两百年的美学积淀，变成了一种宏大的视觉流体。在这里，你不需要去看懂精确的数值刻度，你只需要站在大屏幕前，去**感受**数据带来的压倒性的情感震撼。
 
@@ -229,7 +229,7 @@
 > *   **Layout**: `Center`
 > *   **Scene**: 实战大工坊的沉浸式视觉冲突。一...
 > *   **Text**: "【大工坊实战揭幕】：用你刚学到的 Vibe Coding 揪出 AI 的视觉谎言"
-> *   **Asset**: ![实战大工坊活动封面](../public/slides/S20_Vibe_Demo_Activity.png)
+> *   **Asset**: ![实战大工坊活动封面](../public/slides/S20_Vibe_Demo_Activity.webp)
 
 
 这就是我希望在进入实战工坊前，给到大家最真诚的忠告：面对智能引擎，你要做清醒的**设计架构师**，而不是被机器操控的**执行工具**。

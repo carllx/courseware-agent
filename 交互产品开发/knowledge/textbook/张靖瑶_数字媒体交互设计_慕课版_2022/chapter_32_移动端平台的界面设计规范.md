@@ -16,13 +16,13 @@ Android是一个开源的系统，国内外有很多的手机厂商，这就导�
 
 屏幕密度计算公式如图3-33所示。
 
-![](images/EPUB/images/image_146.jpg)
+![](images/EPUB/images/image_146.webp)
 
 图3-33 屏幕密度计算公式
 
 屏幕分辨率为1080px×1920px设备的屏幕密度的计算方法如图3-34所示。
 
-![](images/EPUB/images/image_147.jpg)
+![](images/EPUB/images/image_147.webp)
 
 图3-34 Android屏幕密度的计算方法
 
@@ -30,7 +30,7 @@ Android是一个开源的系统，国内外有很多的手机厂商，这就导�
 
 Android硬件设备尺寸多且不统一，这就给界面适配带来了很大的工作量。为了解决这个问题，Android手机屏幕有自己初始的固定密度，界面根据这些屏幕不同的密度会自行适配，这涉及设计稿的尺寸和切图的相关内容，这点我们同时需要掌握，为后面的设计工作打下基础。以下是Android的密度划分以及代表的分辨率，如图3-35所示。
 
-![](images/EPUB/images/image_148.jpg)
+![](images/EPUB/images/image_148.webp)
 
 图3-35 Android密度划分
 
@@ -52,11 +52,11 @@ Android硬件设备尺寸多且不统一，这就给界面适配带来了很大�
 
 我们以主流设备的尺寸来看，界面中各控件的尺寸设计如图3-37所示。
 
-![](images/EPUB/images/image_149.jpg)
+![](images/EPUB/images/image_149.webp)
 
 ▲图3-36 设计稿尺寸
 
-![](images/EPUB/images/image_150.jpg)
+![](images/EPUB/images/image_150.webp)
 
 图3-37 界面中各控件的尺寸设计
 
@@ -64,7 +64,7 @@ Android硬件设备尺寸多且不统一，这就给界面适配带来了很大�
 
 对于分辨率众多的Android设备，为了方便界面适配，Google公司按照DPI大小将它们分成了4种模式（MDPI、HDPI、XHDPI和XXHDPI），如图3-38所示。
 
-![](images/EPUB/images/image_151.jpg)
+![](images/EPUB/images/image_151.webp)
 
 图3-38 图标规范
 
@@ -72,7 +72,7 @@ Android硬件设备尺寸多且不统一，这就给界面适配带来了很大�
 
 在Android平台中使用的英文字体为Roboto字体，中文字体为思源黑体；在Android 5.0之后，使用的是思源黑体，如图3-39所示。字体文件有两个名称，即“Source Han Sans”和“Noto Sans CJK”。
 
-![](images/EPUB/images/image_152.jpg)
+![](images/EPUB/images/image_152.webp)
 
 图3-39 思源黑体字重展示
 
@@ -88,7 +88,7 @@ iOS平台在界面设计中制定了常用的一些尺寸规范和方法，如�
 
 ● 逻辑分辨率：物理分辨率是硬件所支持的，逻辑分辨率是软件可以达到的像素，例如iPhone 6/7/8的375pt×667pt、iPhone 6/7/8 plus的414pt×736pt等，如图3-40所示。
 
-![](images/EPUB/images/image_153.jpg)
+![](images/EPUB/images/image_153.webp)
 
 图3-40 物理分辨率与逻辑分辨率
 
@@ -100,7 +100,7 @@ iOS平台在界面设计中制定了常用的一些尺寸规范和方法，如�
 
 Photoshop默认的分辨率是72DPI，如图3-41所示。也就是说，通常界面设计师提供的设计图，如果字体大小单位是px,2倍图，则iOS中的字号pt = px / 2。
 
-![](images/EPUB/images/image_154.jpg)
+![](images/EPUB/images/image_154.webp)
 
 图3-41 Photoshop中的DPI
 
@@ -114,11 +114,11 @@ iOS应用中的界面包括状态栏、标签栏、导航栏等，iOS严格规�
 
 字体的颜色设置很少用纯黑色，一般用深灰色和浅灰色、粗体和细体来区分重要信息和次要信息，从而进行信息层级的划分。
 
-![](images/EPUB/images/image_155.jpg)
+![](images/EPUB/images/image_155.webp)
 
 ▲图3-42 界面布局
 
-![](images/EPUB/images/image_156.jpg)
+![](images/EPUB/images/image_156.webp)
 
 图3-43 栏高度
 
@@ -130,7 +130,7 @@ iOS应用中的界面包括状态栏、标签栏、导航栏等，iOS严格规�
 
 ● 较弱：普遍用于背景色和不需要突出的边角信息。
 
-![](images/EPUB/images/image_157.jpg)
+![](images/EPUB/images/image_157.webp)
 
 图3-44 标准色规范
 
@@ -140,7 +140,7 @@ App内的文字大小设置与所在界面、所在层级、所表达内容密�
 
 百度公司曾经做过一项调查，关于App字体大小的调查结果如图3-45所示。
 
-![](images/EPUB/images/image_158.jpg)
+![](images/EPUB/images/image_158.webp)
 
 图3-45 iOS中App字号调查结果
 
@@ -156,13 +156,13 @@ App内的文字大小设置与所在界面、所在层级、所表达内容密�
 
 ● 弱：普遍与一般标准色组合，用于辅助性文字，如一些次要的文案说明。
 
-![](images/EPUB/images/image_159.jpg)
+![](images/EPUB/images/image_159.webp)
 
 图3-46 标准字规范
 
 不同界面区域中不同功能字体的大小如图3-47所示。
 
-![](images/EPUB/images/image_160.jpg)
+![](images/EPUB/images/image_160.webp)
 
 图3-47 不同界面区域中不同功能字体的大小
 
@@ -170,7 +170,7 @@ App内的文字大小设置与所在界面、所在层级、所表达内容密�
 
 在iOS中，中文方面默认使用苹方字体，如图3-48所示。该字体字形纤细、中宫饱满，利于阅读。iOS还提供了6个字重供设计开发者使用，所以后面的设计趋势中，字重的使用开始变得多元化起来，使用semibold中粗体、大字号作为界面的标题变得更为流行起来。
 
-![](images/EPUB/images/image_161.jpg)
+![](images/EPUB/images/image_161.webp)
 
 图3-48 苹方字体
 
@@ -182,19 +182,19 @@ App内的文字大小设置与所在界面、所在层级、所表达内容密�
 
 ● 图标还应该根据不同的功能需求设计成不同的状态，如常态、选中态、点击态等，如图3-49所示。
 
-![](images/EPUB/images/image_162.jpg)
+![](images/EPUB/images/image_162.webp)
 
 图3-49 图标常态及选中态
 
 ● 导航栏与工具栏图标的标准大小都是24pt×24pt，最大不超过28pt×28pt，如图3-50所示。
 
-![](images/EPUB/images/image_163.jpg)
+![](images/EPUB/images/image_163.webp)
 
 图3-50 导航栏与工具栏图标的尺寸
 
 ● 标签栏图标的尺寸如图3-51所示。
 
-![](images/EPUB/images/image_164.jpg)
+![](images/EPUB/images/image_164.webp)
 
 图3-51 标签栏图标的尺寸
 

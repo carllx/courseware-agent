@@ -64,7 +64,7 @@ In some cases, depending on user work flows, tabbed panes can be appropriate. Ta
 
 because they obscure what was on the screen before the user navigated to them. However, this idiom is appropriate for the main work area when multiple documents or independent views of a document are required (such as in Microsoft Excel; see Figure 12-1).
 
-![](images/e0198684bb51154e1ef81bc369820cc5f1236d1c1a5f9f6cdbc4786d5e0c8ae0.jpg)  
+![](images/e0198684bb51154e1ef81bc369820cc5f1236d1c1a5f9f6cdbc4786d5e0c8ae0.webp)  
 Figure 12-1: Microsoft Excel makes use of tabbed panes (visible in the lower left) to let users navigate between related worksheets. Excel also makes use of splitters to provide adjacent panes for viewing multiple, distant parts of a single spreadsheet without constant scrolling. Both these idioms help reduce navigational excise for Excel users.
 
 Some developers use tabs to break complex product capabilities into smaller chunks. They reason that using these capabilities will somehow become easier if the functionality is cut into bite-sized pieces. Actually, putting parts of a single facility onto separate panes increases excise and decreases users' understanding and orientation.
@@ -75,9 +75,9 @@ on tabs can help—see Chapter 15). Therefore, users must click through each tab
 
 Tabbed panes can be appropriate when there are multiple supporting panes for a primary work area that are not used at the same time. The support panes can be stacked, and the user can choose the pane suitable for his current tasks, which is only a click away. A classic example involves the color mixer and swatches area in Adobe Illustrator, as shown in Figure 12-2. These two tools are mutually exclusive ways of selecting a drawing color, and users typically know which is appropriate for a given task.
 
-![](images/48a3f0a397b5088daf1e6d47e7e1adc9c69688e4d3084993a54bf5165cb55ec2.jpg)
+![](images/48a3f0a397b5088daf1e6d47e7e1adc9c69688e4d3084993a54bf5165cb55ec2.webp)
 
-![](images/3f1977a7e4f5c75b59e3c691b776184c4ed8f86151970f226466434879e19ceb.jpg)  
+![](images/3f1977a7e4f5c75b59e3c691b776184c4ed8f86151970f226466434879e19ceb.webp)  
 Figure 12-2: Tabbed palettes in Adobe Illustrator allow users to switch between the mixer and swatches, which provide alternative mechanisms for picking a color.
 
 # Navigation between tools and menus
@@ -86,7 +86,7 @@ Another important and overlooked form of navigation results from a user's need t
 
 Adobe Photoshop exhibits some undesirable behaviors in how it forces users to navigate between palette controls. For example, the Paint Bucket tool and the Gradient tool each occupy the same location on the tool palette. You must select between them by clicking and holding the visible control, which opens a menu, as shown in Figure 12-3. However, both are fill tools, and if both are used frequently, it would be better to place each of them on the palette next to each other to avoid that frequent, flow-disrupting tool navigation.
 
-![](images/832d8d8d23fbc611644f6406021fc7246c8f708c97b75076df8b6fef9383b394.jpg)  
+![](images/832d8d8d23fbc611644f6406021fc7246c8f708c97b75076df8b6fef9383b394.webp)  
 Figure 12-3: In Adobe Photoshop, the Paint Bucket tool is hidden in a combo icon button (see Chapter 21) on its tool palette. Even though users make frequent use of both the Gradient tool and the Paint Bucket tool, they are forced to access this menu anytime they need to switch between these tools.
 
 # Navigation of information
@@ -103,7 +103,7 @@ Zooming and panning are navigational tools for exploring 2D and 3D information. 
 
 representations of real-world 2D and 3D environments (architectural walkthroughs, or topographic maps, for example). They can fall short when they are used to examine arbitrary or abstract data presented in more than two dimensions. Some information visualization tools use zoom to mean "Display more attribute details about objects"—a logical rather than spatial zoom. As the view of the object enlarges, attributes (often textual) appear superimposed over its graphical representation. This technique works great when the attributes in question are tightly associated with spatial data, such as that employed in Google Maps (see Figure 12-4). But for abstract data spaces, this kind of interaction is almost always better served through an adjacent supporting pane that displays the properties of selected objects in a more standard, readable form.
 
-![](images/ad3d53655517b7745a0f67ac4dc65786270014767c7837dd11088e5b315e5bdd.jpg)  
+![](images/ad3d53655517b7745a0f67ac4dc65786270014767c7837dd11088e5b315e5bdd.webp)  
 Figure 12-4: The Google Maps app makes excellent use of a combination of spatial and logical zoom. As the user physically zooms in by spreading his fingers apart on the map, location details such as transit lines, traffic congestion, street names, and places of business also come into view. Zoom usually works best when applied to concrete rather than abstract data spaces, such as maps.
 
 Panning and zooming, especially when paired, create navigational difficulties for users. Although this situation is improving due to the prevalence of online maps and easy to grasp gestural interfaces, it is still possible for people to get lost using virtual spaces. Humans are not used to moving in unconstrained 3D environments, and they have difficulty perceiving 3D properly when it is projected on a 2D screen. (See Chapter 18 for more on 3D manipulation.)
@@ -126,9 +126,9 @@ Screen real estate consumed by skeuomorphic representations is also excessive, p
 
 It's all too easy to fall into the trap of skeuomorphic excise in the name of user friendliness. Apple's iOS veered uncomfortably in the direction of skeuomorphism for versions 4, 5, and 6, but it seems to have finally snapped out of it in iOS 7, as shown in Figure 12-5.
 
-![](images/b4764e554d0c561b0660b770553393d11c2ad61ba8bb21c8bcf8bcca9267ec52.jpg)
+![](images/b4764e554d0c561b0660b770553393d11c2ad61ba8bb21c8bcf8bcca9267ec52.webp)
 
-![](images/94282ceaae7a78bf11a44f0bfc9cfcd65153607b275fea0a6557e2df7d4af75a.jpg)  
+![](images/94282ceaae7a78bf11a44f0bfc9cfcd65153607b275fea0a6557e2df7d4af75a.webp)  
 Figure 12-5: In iOS 6 (left), Apple indulged in some excesses of skeuomorphism that seem to have been purged in iOS 7 (right).
 
 # Modal excise
@@ -149,12 +149,12 @@ The typical modal error message is unnecessary. It either tells the user somethi
 
 The message stops an already annoying and time-consuming procedure, making it take even longer. A user cannot fetch a cup of coffee after telling the application to save his artwork, because he might return only to see the function incomplete and the application mindlessly holding up the process. We discuss how to eliminate these sorts of error messages in Chapter 21.
 
-![](images/2c8d46e106da9f1d4b7c799f6b97fab1030e5181759365aa45105b5a5390477c.jpg)  
+![](images/2c8d46e106da9f1d4b7c799f6b97fab1030e5181759365aa45105b5a5390477c.webp)  
 Figure 12-6: This ugly, useless error message box stops the proceedings with idiocy. You can't verify or identify what it tells you, and it gives you no options for responding other than to admit your own culpability by clicking OK. This message comes up only when the application is saving—when you have entrusted it to do something simple and straightforward. The application can't even save a file without help, and it won't tell you what help it needs!
 
 Figure 12-7 shows another frustrating example, this time from Microsoft Outlook.
 
-![](images/7bc62a847cd82c308efd4987ddc41425970459752abcb75bd4d2acd33cf3dba0.jpg)  
+![](images/7bc62a847cd82c308efd4987ddc41425970459752abcb75bd4d2acd33cf3dba0.webp)  
 Figure 12-7: Here is a horrible confirmation box that stops the proceedings with idiocy. If the application is smart enough to detect the difference, why can't it correct the problem itself? The options the dialog offers are scary. It is telling you that you can explode one of two boxes: One contains garbage, and the other contains the family dog—but the application won't say which is which. And if you click Cancel, what does that mean? Will it still explode your dog?
 
 This dialog is asking you to make an irreversible and potentially costly decision based on no information whatsoever! If the dialog occurs just after you changed some rules, doesn't it stand to reason that you want to keep them? And if you don't, wouldn't you like a bit more information, such as exactly what rules are in conflict and which of them are the more recently created? You also don't have a clear idea what happens when you click Cancel. Are you canceling the dialog and leaving the rules mismatched? Are you discarding recent changes that led to the mismatch? The kind of fear and uncertainty that this poorly designed interaction arouses in users is completely unnecessary. We discuss how to improve this kind of situation in Chapter 21.
@@ -181,7 +181,7 @@ Users must perform visual work to decode onscreen information, such as finding a
 
 A significant source of visual work is the use of overly stylized graphics and interface elements (see Figure 12-8). Visual style can certainly create mood and reinforce brand, but it shouldn't do so at the expense of utility and usability by forcing users to decode visual elements to understand which represent controls and critical information and which are merely ornamental. The use of visual style, at least in apps geared toward productivity rather than entertainment, should support the clear communication of information and interface behavior.
 
-![](images/b42fdf893708b353b0a2220864e207f3146da1a3faf31a357bec35d671feb2ba.jpg)  
+![](images/b42fdf893708b353b0a2220864e207f3146da1a3faf31a357bec35d671feb2ba.webp)  
 Figure 12-8: The home page of Blue Bell Creameries provides a good example of visual excise. Text is highly stylized and doesn't follow a layout grid. It's difficult for users to differentiate between décor and navigational elements. This requires users to do visual work to interact with the site. This isn't always a bad thing—just the right amount of the right kind of work can be a source of entertainment (as with games and puzzles).
 
 For more discussion on striking the right balance to create effective visual interface designs, see Chapter 17.

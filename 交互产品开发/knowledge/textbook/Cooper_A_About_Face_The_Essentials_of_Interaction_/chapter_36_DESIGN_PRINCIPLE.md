@@ -10,7 +10,7 @@ A common but subtle form of contextual help is known as *hints*: small and often
 
 before it gets input focus. Once the field gets a cursor in it, the input hint text is cleared, and the field is ready for input. An expansion of this idea has become popular in apps that have a larger or central content area that is initially empty. Rather than sit there emptily without lifting a finger to help the user figure out how to get started, clever apps use this empty space to provide a more verbose description of what to do. Or they even provide one-time configuration controls as part of a content area hint, as shown in Figure 16-7.
 
-![](images/7d16d5b8951790ef1f6d3067f796ace2c6c869aef8876acbcb94bffe442c0cbf.jpg)  
+![](images/7d16d5b8951790ef1f6d3067f796ace2c6c869aef8876acbcb94bffe442c0cbf.webp)  
 Figure 16-7: Camera+ is an iOS photo app that uses the otherwise empty photo content area at initial launch to provide some verbose hinting and configuration controls.
 
 # Pros and cons of wizards
@@ -41,7 +41,7 @@ Unfortunately for mobile interfaces, touchscreens cannot yet support a finger ho
 
 ToolTip overlays are usually triggered by tapping a help button. Brief, ToolTip-like labels or notes for the primary functions on the current screen are displayed, each in proximity and pointing to its associated control (see Figure 16-8). The difference is that they are all turned on at once and presented modally, often with a close box that must be tapped to dismiss them.
 
-![](images/944228de98d9a793050cdf0b3a960b74e4aea9d2d4390e6ab9ef0ab824acfbb0.jpg)  
+![](images/944228de98d9a793050cdf0b3a960b74e4aea9d2d4390e6ab9ef0ab824acfbb0.webp)  
 Figure 16-8: Pinnacle Studio has a Tooltip overlay facility, which they call pop-up help. It is launched from the app's help menu. Their implementation is interesting because you can continue to use the app while the pop-up help is activated (not that you'd typically want to); it is dismissed by tapping the yellow button in the lower left corner.
 
 While this approach can be overwhelming, it can be appropriate for complex authoring apps if used as a kind of "cheat sheet" for helping users remember controls and functions. As such, this idiom is best not used as a welcome screen.

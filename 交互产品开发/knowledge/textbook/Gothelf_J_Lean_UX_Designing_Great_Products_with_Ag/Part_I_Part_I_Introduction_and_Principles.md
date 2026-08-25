@@ -290,7 +290,7 @@ We like to use a weekly rhythm to schedule research, as demonstrated in
 call this “Three, twelve, one” because it’s based on the following
 guidelines: three users; by twelve noon; once a week.
 
-![](images/assets/lux3_1501.png)
+![](images/assets/lux3_1501.webp)
 
 ###### Figure 15-1. The three, twelve, one activity calendar
 
@@ -617,7 +617,7 @@ step-by-step feedback on the process, insight about specific design
 elements, or even meaningful feedback on copy choices. You *won’t* be
 able to learn much (if anything) about the usability of your concept.
 
-![](images/assets/lux3_1502.png)
+![](images/assets/lux3_1502.webp)
 
 ###### Figure 15-2. Example of a sketch that can be used with customers
 
@@ -633,7 +633,7 @@ point your test participants are focused primarily on the words on the
 page and the selections they’re making. Wireframes provide a good
 opportunity to begin testing copy choices.
 
-![](images/assets/lux3_1503.png)
+![](images/assets/lux3_1503.webp)
 
 ###### Figure 15-3. Example of a wireframe
 
@@ -653,7 +653,7 @@ watching your users click, tap, and swipe, you need to ask them what
 they would expect and then validate those responses against your planned
 experience.
 
-![](images/assets/lux3_1504.png)
+![](images/assets/lux3_1504.webp)
 
 ###### Figure 15-4. Example of mock-up from Skype in the Classroom (design by Made By Many)
 
@@ -731,7 +731,7 @@ your organization and harness them to drive your ongoing product design
 and research, as depicted in
 [Figure 15-5](#ch15.html_customers_can_provide_feedback_through).
 
-![](images/assets/lux3_1505.png)
+![](images/assets/lux3_1505.webp)
 
 ###### Figure 15-5. Customers can provide feedback through many channels
 
@@ -1143,7 +1143,7 @@ into the development stream to be implemented during the development
 sprint, as is illustrated in
 [Figure 16-1](#ch16.html_sy_and_millerapostrophes_quotation_mark).
 
-![](images/assets/lux3_1601.png)
+![](images/assets/lux3_1601.webp)
 
 ###### Figure 16-1. Sy and Miller’s “Staggered Sprints” model
 
@@ -1280,7 +1280,7 @@ each activity as possible. The quantity of discovery and delivery work
 will fluctuate from sprint to sprint. This is normal, and you can
 anticipate this as you make plans.
 
-![](images/assets/lux3_1602.png)
+![](images/assets/lux3_1602.webp)
 
 ###### Figure 16-2. Dual-rack Agile works when it’s one team. Image concept: Gary Pedretti and Pawel Mysliwiec
 
@@ -1363,7 +1363,7 @@ stories Product Backlog Items or PBIs.) Or you can integrate the work
 into the story itself, ensuring that no feature gets shipped without
 discovery and design work taking place.
 
-![](images/assets/lux3_1603.png)
+![](images/assets/lux3_1603.webp)
 
 ###### Figure 16-3. Common patterns to manage UX work in the backlog
 
@@ -1426,7 +1426,7 @@ shows you how to layer existing activities on top of Scrum. Try it. See
 what works for you and your team and then adjust based on what you
 decide during your retrospectives.
 
-![](images/assets/lux3_1604.png)
+![](images/assets/lux3_1604.webp)
 
 ###### Figure 16-4. Mapping Lean UX activities to the Scrum framework
 
@@ -1446,7 +1446,7 @@ a sequence of sprints.) Your measures of success for your theme are
 outcomes, as demonstrated in
 [Figure 16-5](#ch16.html_sprints_tied_together_with_a_theme_or_p).
 
-![](images/assets/lux3_1605.png)
+![](images/assets/lux3_1605.webp)
 
 ###### Figure 16-5. Sprints tied together with a theme or product goal
 
@@ -1464,7 +1464,7 @@ creating a backlog of ideas from which to test and learn. In addition,
 this activity will help define the scope of your theme a bit
 better—assuming that you’ve built in some customer feedback loops.
 
-![](images/assets/lux3_1606.png)
+![](images/assets/lux3_1606.webp)
 
 ###### Figure 16-6. The Lean UX Canvas can capture your sprint theme
 
@@ -1477,7 +1477,7 @@ activities as each new sprint begins
 This allows the team to use the latest insight to create the backlog for
 the next sprint.
 
-![](images/assets/lux3_1607.png)
+![](images/assets/lux3_1607.webp)
 
 ###### Figure 16-7. Timing and scope of sketching and ideation sessions
 
@@ -1493,7 +1493,7 @@ planning meeting to write user stories together, and then estimate and
 prioritize the stories. (See
 [Figure 16-8](#ch16.html_hold_sprint_planning_meetings_immediate).)
 
-![](images/assets/lux3_1608.png)
+![](images/assets/lux3_1608.webp)
 
 ###### Figure 16-8. Hold sprint planning meetings immediately after brainstorming sessions
 
@@ -1520,7 +1520,7 @@ same time.
 Experiment stories look just like user stories, as illustrated in
 [Figure 16-9](#ch16.html_experiment_stories).
 
-![](images/assets/lux3_1609.png)
+![](images/assets/lux3_1609.webp)
 
 ###### Figure 16-9. Experiment stories
 
@@ -1570,7 +1570,7 @@ rather than *can people use my product?*) After you have established
 that there is a desire for your product, subsequent tests with
 higher-fidelity artifacts will reveal whether your solution is usable.
 
-![](images/assets/lux3_1610.png)
+![](images/assets/lux3_1610.webp)
 
 ###### Figure 16-10. Conversations with users happen during every sprint
 
@@ -1711,7 +1711,7 @@ colleague Nicole Rufuku came up with a remarkably simple and powerful
 tool for doing just this: the Risks Dashboard
 ([Figure 16-11](#ch16.html_the_risks_dashboard)).
 
-![](images/assets/lux3_1611.png)
+![](images/assets/lux3_1611.webp)
 
 ###### Figure 16-11. The Risks Dashboard
 
@@ -1784,7 +1784,7 @@ takes place in our Agile process? We use outcome-based road maps.
 Here is what an Agile product road map should look like
 ([Figure 16-12](#ch16.html_an_agile_product_road_map)).
 
-![](images/assets/lux3_1612.png)
+![](images/assets/lux3_1612.webp)
 
 ###### Figure 16-12. An Agile product road map
 
@@ -6044,7 +6044,7 @@ developed to help program evaluators answer this question. The model is
 usually visualized as shown in
 [Figure 3-1](#ch03.html_the_logic_model-id00045).
 
-![](images/assets/lux3_0301.png)
+![](images/assets/lux3_0301.webp)
 
 ###### Figure 3-1. The logic model
 
@@ -6106,7 +6106,7 @@ outcomes—you need to understand the ways that different users get value
 and then deliver that value to them in a way that *also* creates value
 for your organization.
 
-![](images/assets/lux3_0302.png)
+![](images/assets/lux3_0302.webp)
 
 ###### Figure 3-2. Aligned value
 
@@ -6185,7 +6185,7 @@ Exploitation in UX,” Culture Clash, February 4, 2021,
 
 ## Chapter 10. Box 6: Hypotheses
 
-![](images/assets/lux3_1001.png)
+![](images/assets/lux3_1001.webp)
 
 ###### Figure 10-1. Box 6 of the Lean UX Canvas: Hypotheses
 
@@ -6252,7 +6252,7 @@ physically move our Post-it notes into the appropriate boxes to make
 rows of related ideas. Each column is directly related to a specific box
 of the canvas, from Box 2 on the left to Box 5 on the right.
 
-![](images/assets/lux3_1002.png)
+![](images/assets/lux3_1002.webp)
 
 ###### Figure 10-2. A hypothesis table
 
@@ -6272,7 +6272,7 @@ becomes even easier. Copy and paste your notes from other parts of the
 canvas into Box 6 and move them around as necessary to complete the
 chart.
 
-![](images/assets/lux3_1003.png)
+![](images/assets/lux3_1003.webp)
 
 ###### Figure 10-3. Working on the hypothesis chart
 
@@ -6380,7 +6380,7 @@ will challenge our design capabilities. In this case, we don’t normalize
 for a specific type of risk so we can consider all aspects of risk for
 each hypothesis.
 
-![](images/assets/lux3_1004.png)
+![](images/assets/lux3_1004.webp)
 
 ###### Figure 10-4. The Hypothesis Prioritization Canvas
 
@@ -6443,7 +6443,7 @@ Dictionary of Difficult Words* (New York: Oxford University Press,
 
 ## Chapter 11. Box 7: What’s the Most Important Thing We Need to Learn First?
 
-![](images/assets/lux3_1101.png)
+![](images/assets/lux3_1101.webp)
 
 ###### Figure 11-1. Box 7 of the Lean UX Canvas: Learning
 
@@ -6515,7 +6515,7 @@ again.
 
 ## Chapter 12. Box 8: MVPs and Experiments
 
-![](images/assets/lux3_1201.png)
+![](images/assets/lux3_1201.webp)
 
 ###### Figure 12-1. Box 8 of the Lean UX Canvas: MVPs and Experiments
 
@@ -6759,7 +6759,7 @@ want to put into your MVP. Remember the second key question: *What’s the
 smallest thing that you can do to learn the next most important thing?*
 Anything more than that is waste.
 
-![](images/assets/lux3_1202.png)
+![](images/assets/lux3_1202.webp)
 
 ###### Figure 12-2. Our adapted version of the Truth Curve is a useful reminder that learning is continuous, and increased investment is only warranted when the facts dictate it
 

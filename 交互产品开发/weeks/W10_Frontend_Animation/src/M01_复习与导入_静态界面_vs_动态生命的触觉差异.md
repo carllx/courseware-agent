@@ -14,7 +14,7 @@
 > **Slide**: M1-01_Static_Illusion
 > **Layout**: `Full`
 > **Scene**: 一张具有冲击力的对比图：左侧是一个非常精美的蜡像馆人物，逼真但毫无生气；右侧是一个真实正在呼吸和流汗的运动员特写。
-> *   **Asset**: ![预览](../public/slides/M1-01_Static_Illusion.png)
+> *   **Asset**: ![预览](../public/slides/M1-01_Static_Illusion.webp)
 > **Search**: `wax figure vs real human vitality breathing comparison`
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
@@ -28,7 +28,7 @@
 > **Slide**: M1-02_Digital_Friction_Abrupt
 > **Layout**: `Split`
 > **Scene**: 左侧标注“人类现实预期”，配图为手指按下弹簧，弹簧产生渐进式下陷回弹律动；右侧标注“零帧突变灾难”，配图为手指点按屏幕的一个像素块，画面毫无预兆瞬间破裂重组成另一个完全陌生的界面框，充满机械感剪接的生硬与冰冷。
-> *   **Asset**: ![预览](../public/slides/M1-02_Digital_Friction_Abrupt.png)
+> *   **Asset**: ![预览](../public/slides/M1-02_Digital_Friction_Abrupt.webp)
 > **知识节点**: `about-face-ch01-digital-fail`
 
 在《About Face 4》中提到过，数字产品的“恶劣行为”很多时候并非界面难看，而是它忽视了人们对于空间感和因果律的需求。
@@ -39,7 +39,7 @@
 > **Slide**: M1-03_Evolution_of_Motion
 > **Layout**: `Flow`
 > **Scene**: UI 动效的救赎之路编年史：早期 jQuery 切图年代 -> iOS 7 及 Material Design 的物理拟真动效普及 -> 今天 2025 AI 直接生成参数化高级弹性曲线 (Framer Motion 时代)。
-> *   **Asset**: ![预览](../public/slides/M1-03_Evolution_of_Motion.png)
+> *   **Asset**: ![预览](../public/slides/M1-03_Evolution_of_Motion.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 > [STORY TIME]
@@ -65,7 +65,7 @@
 > **Slide**: M1-04_The_Motion_Engineering_Barrier
 > **Layout**: `Split`
 > **Scene**: 两张形成惨烈残酷鲜明对比的工作台照片。左侧是一位交互体验设计师在优雅华丽、参数齐全且直观的 Principle/AE 动效软件时间轴面前游刃有余地调节着优美的柔和呼吸缓动曲线；旁边配字“设计环境的诗意岁月静好”。右侧则是一位疲惫、眼窝深陷的前端底层重构开发工程师面对着一块密密麻麻充斥着如 `requestAnimationFrame` 递归、错综复杂的恐怖的 DOM 节点重绘状态锁、以及一段长达三百行并且混杂了各种不知名第三方库相互绞杀冲突报错的陈旧冗余胶水屎山补丁级联钩子代码段；旁边配字“工程实现的无间炼狱炼药锅”。
-> *   **Asset**: ![预览](../public/slides/M1-04_The_Motion_Engineering_Barrier.png)
+> *   **Asset**: ![预览](../public/slides/M1-04_The_Motion_Engineering_Barrier.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 > [LIFE CONNECT]
@@ -83,7 +83,7 @@
 > **Slide**: M1-04b_Design_Dev_Chasm
 > **Layout**: `Split`
 > **Scene**: 左侧"设计师的世界"：After Effects 时间轴编辑器中一段完美的弹性阻尼曲线录屏。右侧"开发者的世界"：满屏密密麻麻的三角函数、贝塞尔参数和 requestAnimationFrame 回调代码。中间是一道标注"实现门槛深渊"的巨大裂缝。
-> *   **Asset**: ![预览](../public/slides/M1-04b_Design_Dev_Chasm.png)
+> *   **Asset**: ![预览](../public/slides/M1-04b_Design_Dev_Chasm.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 这道裂缝就是过去十年里无数精美动效胎死腹中的根源。设计师在 AE 里把动效调到完美，但开发者面对的是另一个宇宙——他要用纯数学把每一帧的坐标、速度、加速度手动计算出来。两个工种之间的沟通成本，往往比实现本身还高。而 Vibe Coding 工作流做的事情，就是用一段自然语言直接跨越这道深渊。
@@ -103,7 +103,7 @@
 > **Slide**: M1-05_AI_Motion_Democratization
 > **Layout**: `Full`
 > **Scene**: 展示一张光辉满屏幕的界面：在一块终端黑框里，人类仅仅用自然语言输入“添加一个带物理弹性的卡片入场动画，延迟0.3秒”，系统便瞬间自动召唤并写满了一大段包含 Framer Motion 复杂 `spring` 阻尼算法核心参数组件代码。
-> *   **Asset**: ![预览](../public/slides/M1-05_AI_Motion_Democratization.png)
+> *   **Asset**: ![预览](../public/slides/M1-05_AI_Motion_Democratization.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 这才是这门课程在这个时代最大的红利。
@@ -117,7 +117,7 @@
 > **Layout**: `Agenda`
 > **Scene**: 本课三大知识板块路线图。板块一"微交互的作用机制"(M2)：Saffer四要素→AFA法则→缓动曲线→新中式美学。板块二"AI代码接入流"(M3)：GSAP隔离→Lottie边界→GPU性能→无障碍降级。板块三"实战+互评"(M4-M5)：动效注入→性能排雷→防御性设计。
 > **List**: 1. M2 微交互作用机制：四要素解构 + AFA法则 + 缓动哲学 2. M3 AI代码接入：GSAP隔离 + 性能优化 + 无障碍兜底 3. M4-M5 实战互评：动效注入 + 性能排雷
-> *   **Asset**: ![预览](../public/slides/M1-06_Agenda_Map.png)
+> *   **Asset**: ![预览](../public/slides/M1-06_Agenda_Map.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 这就是今天的征途。我们从理解"为什么需要动效"出发，经过"动效遵循什么法则"，深入到"如何用 AI 安全落地"，最后在实战中检验一切。每个板块环环相扣，理论为实践铺路，实践为理论验证。

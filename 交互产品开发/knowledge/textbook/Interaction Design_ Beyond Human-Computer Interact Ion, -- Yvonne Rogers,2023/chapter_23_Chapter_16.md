@@ -82,7 +82,7 @@ Exactly which heuristics are appropriate and how many are needed for 
 Another concern is the number of researchers needed to carry out a heuristic evaluation that identifies the majority of usability problems. Empirical tests were conducted suggesting that  three  to  five  researchers  can typically  identify  up  to 75  percent  of  the  total  usability problems, as shown in Figure 16.1 (Nielsen, 1994a). However, employing several researchers can be resource  intensive. Therefore, the overall  conclusion is  that while more  researchers might  be better, fewer can  be used—especially  if they  are experienced  and knowledgeable about the product and the people for whom it is designed.
 
 Figure 16.1 Curve  showing  the  proportion of usability  problems in an interface  found  by heuristic evaluation using various numbers of evaluators   
-![](images/d0021895b843ed725b4a02eb30669928800e57b79883ca40fcd949077ce4126a.jpg)  
+![](images/d0021895b843ed725b4a02eb30669928800e57b79883ca40fcd949077ce4126a.webp)  
 Source: Nielsen and Mack (1994). Used courtesy of John Wiley & Sons, Inc.
 
 # Heuristic Evaluation for Websites
@@ -137,7 +137,7 @@ A  similar approach  to Budd’s is also taken by Leigh Howells in he
 objective are proposed. This can be done either to show the occurrence of different heuristics from an evaluation or to compare the results of different researchers’ evaluations, as shown in  Figure  16.2. First, a calculation  is  done  to find  the  mean number  of usability problems identified by each researcher, which is then displayed around the diagram (in this case there were seven researchers). Then a single value representing the mean of all of the researchers’ individual means is calculated and displayed in the center of the diagram. In addition to being able to compare the relative performance of different experts and the overall usability of the design, a version of this procedure can be used to compare the usability of different prototypes or for comparisons with competitors’ products.
 
 Figure 16.2 Radar diagram showing the mean number of problems identified by each of the seven researchers and the overall mean of all the researchers, which is shown in the center of the diagram   
-![](images/313fce209111db3194dccc8d084f1b5a40a52b6ece01f68980692fb15ccdf3f6.jpg)  
+![](images/313fce209111db3194dccc8d084f1b5a40a52b6ece01f68980692fb15ccdf3f6.webp)  
 Source: Granollers (2018). Used courtesy of Springer Nature
 
 # ACTIVITY 16.1

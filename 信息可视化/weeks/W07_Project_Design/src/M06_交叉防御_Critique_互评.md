@@ -13,7 +13,7 @@ minutes: 15
 > *   **Layout**: `Full`
 > *   **Scene**: 左侧是一张布满红笔批注、指出逻辑漏洞的 UI 草图（One Pager），右侧是清晰的评审维度表，呈现专业严谨的氛围。
 > *   **Text**: "Critique：用逻辑排雷"
-> *   **Asset**: ![预览](../assets/slides/m06_s18_critique_methodology.png)
+> *   **Asset**: ![预览](../assets/slides/m06_s18_critique_methodology.webp)
 
 > [PACING]
 > （语速放缓，语气转为专业严谨）
@@ -28,7 +28,7 @@ minutes: 15
 > *   **Scene**: 一张真实的错误数据可视化截图（离散分类数据被错误赋予 3D 高度导致视觉重叠），配合警示图标。
 > *   **Text**: "逻辑断层：当视觉编码违背数据类型"
 > *   **Source**: `External`
-> *   **Asset**: ![预览](../public/slides/m06_s18_1_bad_data_mapping.png)
+> *   **Asset**: ![预览](../public/slides/m06_s18_1_bad_data_mapping.webp)
 
 > [CASE STUDY]
 > 让我分享一个上届的真实案例。大家看大屏幕上这张错误的数据可视化截图，就是真实的教训。在 **One Pager（一页纸项目提案）互评阶段**，有一个小组的提案收到了诸多“效果肯定很震撼”的赞美。然而，**没有任何人指出**其中的一个基础逻辑错误：他们试图把**离散的分类数据（Categorical Data，比如男/女、苹果/橘子等平等的身份标签）**，**强行拉伸成连续的 3D 高度（Height Channel，代表高低、大小的量化数值）**。这就好比非要用身高来衡量苹果和橘子谁更“高级”一样荒谬，硬生生把平权的标签做成了有等级的物理高度。
@@ -51,7 +51,7 @@ minutes: 15
 > *   **Text**: "Critique 的三个核心维度"
 > *   **List**: 数据锚定 / 嵌套模型 / 数据断层
 > *   **Source**: `AI_Gen`
-> *   **Asset**: ![预览](../assets/slides/m06_s18_2_critique_diagram.png)
+> *   **Asset**: ![预览](../assets/slides/m06_s18_2_critique_diagram.webp)
 
 > [VISUAL]
 > *   **Slide**: `S18_2a_Data_Anchoring`
@@ -59,7 +59,7 @@ minutes: 15
 > *   **Scene**: 左侧是一张带有夸张“发光星球”和“赛博朋克光晕”的草图，右侧红笔圈出这些特效并打上问号，指出找不到对应的数据列，标记为“视觉噪音”。
 > *   **Text**: "任务一：审查数据锚定"
 > *   **Source**: `AI_Gen`
-> *   **Asset**: ![预览](../assets/slides/m06_s18_2a_data_anchoring.png)
+> *   **Asset**: ![预览](../assets/slides/m06_s18_2a_data_anchoring.webp)
 
 **第一，审查视觉元素是否有“数据锚定”（即：画出的每个视觉特征，能不能像钉子一样死死钉在对应的数据列上）。**
 如图所示，很多 One Pager 充斥着“酷炫的滤镜”、“科技感光环”等冗余形容词。依据**郝亚维老师的《信息可视化设计》工作流**，第一步必须是**建立信息逻辑**。互评时，请拿着红笔指着草图上的那颗发光星球问：“**它的半径死抠的是哪一列数据？它的光晕强度绑定的是哪一列数据？**”如果对方答不上来，或者数据表里根本没有能决定大小和颜色的数值列，这就是毫无意义的**视觉噪音**，会直接导致**“认知负荷过高”**。请划掉并铲除这些无数据支撑的表述。
@@ -69,7 +69,7 @@ minutes: 15
 > *   **Layout**: `Center`
 > *   **Scene**: 一个带有叉号的反面示范：左侧标注“Why 未定”，右侧是纠结颜色的设计图，以示“跨层跳跃”。
 > *   **Text**: "跨层跳跃：地基未稳，切勿上漆"
-> *   **Asset**: ![预览](../assets/slides/m06_s18_2b_nested_model_violation.png)
+> *   **Asset**: ![预览](../assets/slides/m06_s18_2b_nested_model_violation.webp)
 > *   **Source**: `External`
 
 **第二，检查是否违背嵌套模型（Nested Model，即没有搞懂问题就开始挑图表）。**
@@ -80,7 +80,7 @@ minutes: 15
 > *   **Layout**: `Center`
 > *   **Scene**: 左侧是宣称要根据情绪变色的交互文案，右侧是缺失情绪字段的 JSON 数据，下方显示控制台的 undefined 红色报错。
 > *   **Text**: "数据断层：无源之水导致的崩溃"
-> *   **Asset**: ![预览](../public/slides/m06_s18_3_data_fault_line.png)
+> *   **Asset**: ![预览](../public/slides/m06_s18_3_data_fault_line.webp)
 > *   **Source**: `External`
 
 **第三，通过交叉扫描揪出“数据断层”（即：想当然地虚构数据）。**
@@ -116,7 +116,7 @@ minutes: 15
 > *   **Text**: "互评执行：下游验证"
 > *   **List**: 1.交换提案 / 2.标注跳跃 / 3.标记噪音 / 4.核对字段
 > *   **Source**: `AI_Gen`
-> *   **Asset**: ![预览](../assets/slides/m06_s18_4_critique_workshop.png)
+> *   **Asset**: ![预览](../assets/slides/m06_s18_4_critique_workshop.webp)
 
 > [ACTIVITY]
 > *   **Type**: `Workshop`

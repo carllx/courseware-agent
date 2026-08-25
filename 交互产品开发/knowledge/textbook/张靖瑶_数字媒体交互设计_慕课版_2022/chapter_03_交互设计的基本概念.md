@@ -22,13 +22,13 @@
 
 用户体验分为5个层面：战略层、范围层、结构层、框架层、表现层，如图1-1所示。
 
-![](images/EPUB/images/image_002.jpg)
+![](images/EPUB/images/image_002.webp)
 
 ▲图1-1 用户体验
 
 ▼微课视频
 
-![](images/EPUB/images/image_003.jpg)
+![](images/EPUB/images/image_003.webp)
 
 用户体验——结构层
 
@@ -50,7 +50,7 @@
 
 ⑤ 表现层指的是“视觉设计”，主要解决“产品框架层的逻辑排布”的感知呈现问题。
 
-![](images/EPUB/images/image_004.jpg)
+![](images/EPUB/images/image_004.webp)
 
 图1-2 结构层
 
@@ -62,7 +62,7 @@
 
 尼尔森十大交互设计可用性原则被称为“启发式”原则，是对广泛经验的总结，可以把它当作一种经验来学习，并与现实中的设计技巧结合使用，如图1-3所示。
 
-![](images/EPUB/images/image_005.jpg)
+![](images/EPUB/images/image_005.webp)
 
 图1-3 尼尔森十大交互设计可用性原则
 
@@ -76,15 +76,15 @@ App产品应该同时满足有经验用户和无经验用户的使用需求，�
 
 对于用户来说，同样的文字、状态、按钮应该触发相同的事情，遵从通用的平台惯例，即同一用语、功能、操作保持一致。
 
-![](images/EPUB/images/image_006.jpg)
+![](images/EPUB/images/image_006.webp)
 
 ▲图1-4 支付宝首页
 
-![](images/EPUB/images/image_007.jpg)
+![](images/EPUB/images/image_007.webp)
 
 ▲图1-5 新增应用
 
-![](images/EPUB/images/image_008.jpg)
+![](images/EPUB/images/image_008.webp)
 
 图1-6 自定义应用
 
@@ -104,7 +104,7 @@ App产品应该同时满足有经验用户和无经验用户的使用需求，�
 
 如某软件的音乐播放界面，如图1-7所示，其在视觉及功能布局方面做得美观简约，看起来有留声机的代入感，功能主次分明、用户体验感好，这是优美且简约原则的一种体现。
 
-![](images/EPUB/images/image_009.jpg)
+![](images/EPUB/images/image_009.webp)
 
 图1-7 优美且简约原则
 
@@ -120,11 +120,11 @@ App产品应该同时满足有经验用户和无经验用户的使用需求，�
 
 把组件、按钮及选项可视化，以降低用户的记忆负荷。用户不需要记住各个对话框中的信息。软件产品的使用指南应该是可见的，而且在合适的时候用户可以再次查看。例如一些App更新后的“新功能引导”，App更新完以后，当用户触发某些功能时，会出现类似遮罩的提示，如图1-8所示；这些提示用于告诉用户功能所在的地方以及功能的具体作用，如图1-9所示。这种做法在很多App中都会出现，这就是易取原则的一种体现。
 
-![](images/EPUB/images/image_010.jpg)
+![](images/EPUB/images/image_010.webp)
 
 ▲图1-8 易取原则1
 
-![](images/EPUB/images/image_011.jpg)
+![](images/EPUB/images/image_011.webp)
 
 图1-9 易取原则2
 
@@ -134,11 +134,11 @@ App产品应该同时满足有经验用户和无经验用户的使用需求，�
 
 以两款App登录界面为例：有必要在比较重要的功能入口处提供相应的帮助入口，如图1-10和图1-11所示。不管是什么样的产品，都要给用户提供一个帮助入口，以帮助用户解决操作过程中遇到的问题。
 
-![](images/EPUB/images/image_012.jpg)
+![](images/EPUB/images/image_012.webp)
 
 ▲图1-10 App帮助入口1
 
-![](images/EPUB/images/image_013.jpg)
+![](images/EPUB/images/image_013.webp)
 
 图1-11 App帮助入口2
 
@@ -158,7 +158,7 @@ App产品应该同时满足有经验用户和无经验用户的使用需求，�
 
 如用户注册邮箱，在输入出错时不但会出现错误提示，还会给出相应的建议，如图1-12所示，帮助用户进行正确的操作，在提高注册效率的同时也提供了良好的用户体验。
 
-![](images/EPUB/images/image_014.jpg)
+![](images/EPUB/images/image_014.webp)
 
 图1-12 错误提示
 

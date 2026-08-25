@@ -12,13 +12,13 @@
 
 我们的视觉系统自动对视觉输入构建结构，并在神经系统层面上感知形状、图形和物体，而不是只看到互不相连的边、线和区域，如图2-1所示。这体现了格式塔原理的封闭性，即我们的视觉系统自动尝试将“敞开”的图形“关闭”起来，从而将其感知为完整的物体。
 
-![](images/EPUB/images/image_033.jpg)
+![](images/EPUB/images/image_033.webp)
 
 图2-1 格式塔原理的封闭性
 
 最重要的格式塔原理包括接近性原理、相似性原理、连续性原理、封闭性原理、对称性原理、主体/背景原理、共同命运原理，如图2-2所示。
 
-![](images/EPUB/images/image_034.jpg)
+![](images/EPUB/images/image_034.webp)
 
 图2-2 格式塔原理
 
@@ -32,11 +32,11 @@
 
 网格：网格是栅格系统最小的单位，栅格是由一系列规律的小网格组成的；在网页设计中经常将网格的大小定义为8，以8为基础倍数，元素大小可以被大多数浏览器识别并整除，最大程度避免出现半像素的情况，且元素以8像素为步进单位，元素的大小、间距有规律可循。目前前端开源组件库也多基于8为最小单位来设计，如图2-4所示。
 
-![](images/EPUB/images/image_035.jpg)
+![](images/EPUB/images/image_035.webp)
 
 ▲图2-3 栅格系统
 
-![](images/EPUB/images/image_036.jpg)
+![](images/EPUB/images/image_036.webp)
 
 图2-4 网格
 
@@ -44,7 +44,7 @@
 
 槽：页面内容的间距，槽的数值越大，页面留白越多，视觉效果越松散，槽的数值通常是固定的，如图2-5所示。
 
-![](images/EPUB/images/image_037.jpg)
+![](images/EPUB/images/image_037.webp)
 
 图2-5 列和槽
 
@@ -54,11 +54,11 @@
 
 盒子/区域：建立好基础栅格之后，一块内容通常会占用一定的区域，我们把这个区域称为内容盒子，如图2-7所示。
 
-![](images/EPUB/images/image_038.jpg)
+![](images/EPUB/images/image_038.webp)
 
 ▲图2-6 格栅宽度、边距
 
-![](images/EPUB/images/image_039.jpg)
+![](images/EPUB/images/image_039.webp)
 
 图2-7 盒子/区域
 
@@ -66,7 +66,7 @@
 
 菲茨定律（Fitts' Law）是由保罗·菲茨（Paul M. Fitts）博士在对人类操作过程中的运动特征、运动时间、运动范围和运动准确性进行研究之后提出的，该定律是被用来预测从任意一点到目标位置所需时间的数学模型，在人机交互（Human-Computer Interaction,HCI）和设计领域的影响深远，如图2-8所示。
 
-![](images/EPUB/images/image_040.jpg)
+![](images/EPUB/images/image_040.webp)
 
 图2-8 菲茨定律
 
@@ -74,7 +74,7 @@
 
 ● 界面中可点击区域在合理的范围内越大，越容易被点击，如图2-9所示。
 
-![](images/EPUB/images/image_041.jpg)
+![](images/EPUB/images/image_041.webp)
 
 图2-9 菲茨定律的应用1
 
@@ -82,11 +82,11 @@
 
 ● 出现在用户操作的对象旁边的右键菜单比下拉菜单和工具栏打开得更快，因为不需要移动鼠标指针到屏幕的其他位置，如图2-11所示。
 
-![](images/EPUB/images/image_042.jpg)
+![](images/EPUB/images/image_042.webp)
 
 ▲图2-10 菲茨定律的应用2
 
-![](images/EPUB/images/image_043.jpg)
+![](images/EPUB/images/image_043.webp)
 
 图2-11 菲茨定律的应用3
 
@@ -94,7 +94,7 @@
 
 希克定律（Hick' s Law）指的是一个人面临的选择越多，做出决定所需要的时间就越长。希克定律多应用于软件/网站界面的菜单及子菜单的设计中，在移动设备中也比较适用，如图2-12所示。设计中应给用户尽量少的选择，降低用户的决策成本。
 
-![](images/EPUB/images/image_044.jpg)
+![](images/EPUB/images/image_044.webp)
 
 图2-12 希克定律的应用
 
@@ -106,13 +106,13 @@
 
 ● PC端导航或选项卡尽量不要超过9个，移动应用的选项卡不要超过5个，如图2-13所示。
 
-![](images/EPUB/images/image_045.jpg)
+![](images/EPUB/images/image_045.webp)
 
 图2-13 7±2法则的应用1
 
 ● 如果导航或选项卡的内容很多，可以用一个层级结构来展示各段及其子段，并注意其深度和广度的平衡，如图2-14所示。
 
-![](images/EPUB/images/image_046.jpg)
+![](images/EPUB/images/image_046.webp)
 
 图2-14 7±2 法则的应用2
 
@@ -122,11 +122,11 @@
 
 复杂度守恒定律（Law of Conservation of Complexity），由泰斯勒（Larry Tesler）于1984年提出，也称泰斯勒定律（Tesler' s Law）。该定律认为每一个过程都有其固有的复杂度，存在一个临界点，超过这个点，过程就不能再简化了，只能将固有的复杂度从一个地方移动到另外一个地方，如图2-16所示。
 
-![](images/EPUB/images/image_047.jpg)
+![](images/EPUB/images/image_047.webp)
 
 ▲图2-15 7±2法则的应用3
 
-![](images/EPUB/images/image_048.jpg)
+![](images/EPUB/images/image_048.webp)
 
 图2-16 复杂度守恒定律
 
@@ -136,7 +136,7 @@
 
 除了首页置顶内容，推荐内容对于每个人都是不一样的，它是根据个人的浏览爱好或者倾向进行的推荐。要实现这样的效果或者体验，需要很强的技术和大量服务器的支持，这种做法就是通过技术手段，将用户复杂度降低，将基于用户的协同过渡技术转移给了开发者。
 
-![](images/EPUB/images/image_049.jpg)
+![](images/EPUB/images/image_049.webp)
 
 图2-17 复杂度守恒定律的应用
 
@@ -150,7 +150,7 @@
 
 简洁网页最重要的一个方面是只展示有用的东西，但这并不意味着我们不能提供给用户很多的信息，我们可以用“更多”链接来实现，如图2-18所示。
 
-![](images/EPUB/images/image_050.jpg)
+![](images/EPUB/images/image_050.webp)
 
 图2-18 奥卡姆剃刀定律的应用1
 
@@ -158,7 +158,7 @@
 
 让用户通过很少的单击就能找到他们想要的东西，能提升产品的用户体验，如图2-19所示。
 
-![](images/EPUB/images/image_051.jpg)
+![](images/EPUB/images/image_051.webp)
 
 图2-19 奥卡姆剃刀定律的应用2
 
@@ -174,15 +174,15 @@
 
 做过多的决定也是一种压力，总的来说，用户希望在浏览网页的时候思考得少一点，如图2-22所示。
 
-![](images/EPUB/images/image_052.jpg)
+![](images/EPUB/images/image_052.webp)
 
 ▲图2-20 段落数量过多的页面示例
 
-![](images/EPUB/images/image_053.jpg)
+![](images/EPUB/images/image_053.webp)
 
 ▲图2-21 奥卡姆剃刀定律的应用3
 
-![](images/EPUB/images/image_054.jpg)
+![](images/EPUB/images/image_054.webp)
 
 图2-22 奥卡姆剃刀定律的应用4
 
@@ -202,11 +202,11 @@
 
 匡字型布局去掉了国字型布局的右边部分，给主内容区释放了空间，常用于政府机关类网站、学校学术类网站，如图2-24所示。
 
-![](images/EPUB/images/image_055.jpg)
+![](images/EPUB/images/image_055.webp)
 
 ▲图2-23 国字型布局
 
-![](images/EPUB/images/image_056.jpg)
+![](images/EPUB/images/image_056.webp)
 
 图2-24 匡字型布局
 
@@ -218,11 +218,11 @@
 
 这种布局将整个页面在垂直方向分为3列，网站的内容按栏目分布在3列中，最大限度地突出主页的索引功能，如图2-26所示。
 
-![](images/EPUB/images/image_057.jpg)
+![](images/EPUB/images/image_057.webp)
 
 ▲图2-25 三字型布局
 
-![](images/EPUB/images/image_058.jpg)
+![](images/EPUB/images/image_058.webp)
 
 图2-26 川字型布局
 
@@ -230,7 +230,7 @@
 
 海报型布局的首屏是一个大海报，很多企业官网都采用这种布局类型，给人简单、大气的感觉，同时首屏也可以播放视频，如图2-27所示。
 
-![](images/EPUB/images/image_059.jpg)
+![](images/EPUB/images/image_059.webp)
 
 图2-27 海报型布局
 
@@ -238,7 +238,7 @@
 
 标题文本型布局的页面最上面往往是标题或类似的一些内容，标题下面是正文，这种布局在一些学术类网站或者一些文章页面很常见，如图2-28所示。
 
-![](images/EPUB/images/image_060.jpg)
+![](images/EPUB/images/image_060.webp)
 
 图2-28 标题文本型布局
 
@@ -246,7 +246,7 @@
 
 综合型布局就是上述几种布局类型的综合运用，比较灵活，图2-29所示的网页就包含匡字型、标题文本型等布局类型。
 
-![](images/EPUB/images/image_061.jpg)
+![](images/EPUB/images/image_061.webp)
 
 图2-29 综合型布局
 

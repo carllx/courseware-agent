@@ -7,7 +7,7 @@
 > **Layout**: `Split`
 > **Scene**: 错误预防。左图：夏威夷导弹警报控制台界面（极其简陋的纯文本下拉框）。右图：丰田车间的物理防呆插头。
 > **知识节点**: `nielsen-h5-h9-safety-critical-errors`, `nielsen-10-heuristics`
-> *   **Asset**: ![预览](../public/slides/M3-01.png)
+> *   **Asset**: ![预览](../public/slides/M3-01.webp)
 
 **H5: 错误预防 (Error Prevention)**
 
@@ -41,7 +41,7 @@
 > **Layout**: `Split`
 > **Scene**: 诊断和恢复。反面案例：经典的 Windows "出现未知错误，强制关闭" 弹框以及密密麻麻的 Java 堆栈溢出代码。正面案例：Mailchimp 表单填错时，不仅告诉你密码不对，还用绿色打勾/红色打叉告诉你具体哪一条规则没满足（必须包含大写、必须包含数字等），输入框实时反馈。
 > **知识节点**: `nielsen-h5-h9-safety-critical-errors`
-> *   **Asset**: ![预览](../public/slides/M3-02.png)
+> *   **Asset**: ![预览](../public/slides/M3-02.webp)
 
 **H9: 帮助用户诊断与恢复 (Help Users Recognize, Diagnose, and Recover from Errors)**
 
@@ -67,7 +67,7 @@
 > **Layout**: `Split`
 > **Scene**: 灵活性与效率。展示 Figma 的界面，新手可以通过顶部菜单栏一步步找到 "Create Component" （创建组件），而老手直接按下 `Cmd + Option + K`。同时展示命令行终端（Terminal）这种作为极客终极加速器的存在。
 > **知识节点**: `nielsen-10-heuristics`
-> *   **Asset**: ![预览](../public/slides/M3-03.png)
+> *   **Asset**: ![预览](../public/slides/M3-03.webp)
 
 **H7: 灵活性与效率 (Flexibility and Efficiency of Use)**
 
@@ -96,7 +96,7 @@ Figma 或者 Adobe Photoshop 是完美践行 H7 的标杆。新手可以通过�
 > **Layout**: `Comparison`
 > **Scene**: 美学与极简。左图：一个塞满了十几个 widget、各种红绿闪烁广告、跑马灯的古典门户网站，以及日本充满密密麻麻中文字体的乐天市场首页。右图：极其克制、只有输入框和 Logo 的 Google 搜索主页，以及极其克制的苹果官网。
 > **知识节点**: `nielsen-h8-minimalist-signal-noise`, `nielsen-10-heuristics`
-> *   **Asset**: ![预览](../public/slides/M3-04.png)
+> *   **Asset**: ![预览](../public/slides/M3-04.webp)
 
 **H8: 美学与极简设计 (Aesthetic and Minimalist Design)**
 
@@ -118,7 +118,7 @@ Google 搜索引擎主页是 H8 的丰碑。当你在面对一片白茫茫的屏
 > **Layout**: `Split`
 > **Scene**: 帮助与文档。展示一个悬停在复杂金融报税表单旁边的 `(?)` 图标，Hover 后立刻弹出一句话 Tooltip (工具提示) 解释。另一边展示一个长达 800 页的传统软件电子操作手册的封面（上面布满灰尘）。
 > **知识节点**: `nielsen-10-heuristics`
-> *   **Asset**: ![预览](../public/slides/M3-05.png)
+> *   **Asset**: ![预览](../public/slides/M3-05.webp)
 
 **H10: 帮助与文档 (Help and Documentation)**
 
@@ -162,7 +162,7 @@ Google 搜索引擎主页是 H8 的丰碑。当你在面对一片白茫茫的屏
 > **Layout**: `Center`
 > **Scene**: 黑色背景，居中显示一行大字：“1994年的法则，能指导2024年的空间计算吗？”
 > **知识节点**: `nielsen-10-heuristics`, `case-cognitive-overload`
-> *   **Asset**: ![预览](../public/slides/M3-06.png)
+> *   **Asset**: ![预览](../public/slides/M3-06.webp)
 
 我们刚才花了整整一个多小时，把 Jakob Nielsen 在 1994 年提出的这十条“圣经”嚼碎了咽下去。但在我们真正把它当作金科玉律去套用到你们下半学期的期末项目之前，我必须在这里踩一脚刹车。
 作为大学的交互课堂，我们不仅要学会使用前人的工具，更要学会**审视工具本身的局限性**。
@@ -191,7 +191,7 @@ Nielsen 原则是极其冷静、极其“工程师思维”的产物。它们关
 > **Layout**: `Split`
 > **Scene**: 演进。展示 Nielsen 原则与现代组件设计的结合。例如空状态（Empty States）设计如何同时满足 H1（可见性）和 H10（帮助文档）。
 > **知识节点**: `refactoring-ui-empty-states`
-> *   **Asset**: ![预览](../public/slides/M3-07.png)
+> *   **Asset**: ![预览](../public/slides/M3-07.webp)
 
 **局限三：它们是“启发式（Heuristics）”，而非绝对的“数学定律”**
 

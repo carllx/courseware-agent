@@ -1,6 +1,6 @@
 # Chapter 11. Box 7: What’s the Most Important Thing We Need to Learn First?
 
-![](images/assets/lux3_1101.png)
+![](images/assets/lux3_1101.webp)
 
 ###### Figure 11-1. Box 7 of the Lean UX Canvas: Learning
 

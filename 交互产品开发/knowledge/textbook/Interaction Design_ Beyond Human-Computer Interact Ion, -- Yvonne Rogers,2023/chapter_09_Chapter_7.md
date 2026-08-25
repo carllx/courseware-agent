@@ -82,7 +82,7 @@ CMU’s  Future Interfaces Group: The  Next Phase  of Computer-Human Interact
 
 Early interactive interfaces required the user to type in commands that were typically abbreviations (for example, ls) at the prompt symbol appearing on the computer display, to which the system responded (see Figure 7.1). Another way of issuing commands is by pressing certain  combinations  of keys  (such  as $\mathrm { C t r l } { + } \mathrm { V } _ { \cdot }$ ). Some  commands  are  also  a fixed  part  of the keyboard, such as delete, enter, and escape, while other function keys can be programmed by the user as specific commands (for instance, F11 commanding print action).
 
-![](images/ca90b849e93e9b7765efa086ca71af2cf06de1ad70dc46c0542bea225f80ebb2.jpg)  
+![](images/ca90b849e93e9b7765efa086ca71af2cf06de1ad70dc46c0542bea225f80ebb2.webp)  
 Figure 7.1  A Unix terminal display showing directories listed alphabetically for the command ls -a Source: Yvonne Rogers
 
 Command-line  interfaces  have  been  largely  superseded  by  graphical  interfaces  that incorporated commands such as menus, icons, keyboard shortcuts, and pop-up/predictable text commands  as part of an application. Where command-line interfaces continue to have an advantage is when people find them easier and faster to use than equivalent menu-based systems (Raskin, 2000). People also prefer command-line  interfaces for performing certain operations as part of a complex software package, such as for CAD environments (such as Rhino3D and AutoCAD), to allow expert designers to interact rapidly and precisely with the software. They also provide scripting for batch operations, and they are being increasingly used on the web, where the search bar acts as a general-purpose command-line facility, for example, www.yubnub.org.
@@ -108,7 +108,7 @@ The first generation of WIMP interfaces were primarily boxy in design;
 
 prominent.  (A  widget  is  a  standardized  display  representation  of a  control,  like  a  button or scrollbar, that can be manipulated by  the user.) Nowadays, GUIs have been adapted for mobile and touchscreens. Instead of using a mouse and keyboard as input, the default action for most users is to swipe and touch using a single finger when browsing and interacting with digital content. (For more on this subject, see sections 7.2.6 and 7.2.10.)
 
-![](images/62a648085cb02c5d06295fd04c2a080f6f13dc1e9107a1bfd6d1e6a1e237ae1d.jpg)  
+![](images/62a648085cb02c5d06295fd04c2a080f6f13dc1e9107a1bfd6d1e6a1e237ae1d.webp)  
 Figure 7.2  The boxy look of the first generation of GUIs
 
 The basic building blocks of the WIMP are still part of the modern GUI used as part of a display, but they have evolved into a number of different forms and types. For example, there are now many different types of icons and menus, including audio icons and audio menus, 3D animated icons, and even tiny icon-based menus that can fit onto a smartwatch screen. Apple has also introduced the “complication” display, which shows miniature symbols and snippets of information on the watch face, intended for the wearer to be able to view each time they raise their wrist (see Figure 7.3). The GUI elements include “circulars” and “inlines” that are used to show small snippets of information, date, time, current schedule, notifications, etc.
@@ -116,7 +116,7 @@ The basic building blocks of the WIMP are still part of the modern 
 The basic building block on the desktop and laptop is the window in which apps, browsers, dialog boxes, interactive forms, feedback/error messages, etc., are presented. Other kinds of graphical elements that have been incorporated into the GUI include toolbars and docks (a  row or column  of available  applications  and icons  of  other  objects  such  as open  files) and rollovers (where text labels appear next to an icon or part of the screen as the cursor is rolled over it). Next, we give an overview of the design considerations for windows, menus, and icons.
 
 Figure 7.3  An Apple watchOS complication display that includes the features “circulars” (three kinds shown in the bottom line) and “inlines” (shown in the middle and the upper right hand corner of the display)   
-![](images/d696de0c368c143a09a56b7e53211d952937dbf74249029ac90f9bfcebd0fc7e.jpg)  
+![](images/d696de0c368c143a09a56b7e53211d952937dbf74249029ac90f9bfcebd0fc7e.webp)  
 Source: developer.apple.com/design/human-interface-guidelines/components/system-experiences/ complications
 
 # Window Design
@@ -129,45 +129,45 @@ One of the problems of having multiple windows open is that it can 
 
 # Google
 
-![](images/3d112c13aa59336e5b8831f0941aa57879153acd3d0e6a7ac5ed9f807af7176c.jpg)
+![](images/3d112c13aa59336e5b8831f0941aa57879153acd3d0e6a7ac5ed9f807af7176c.webp)
 
-![](images/dd4e7f28f7c5b9dfd5918fdea38b5e3e055d8b51e0d7d9ff2e7d83afe5f8cecc.jpg)
+![](images/dd4e7f28f7c5b9dfd5918fdea38b5e3e055d8b51e0d7d9ff2e7d83afe5f8cecc.webp)
 
 Home
 
-![](images/869ecc2c98ba7eb98f78de46fe5759042060f89dfe21733d9e51aa15a1d844ee.jpg)
+![](images/869ecc2c98ba7eb98f78de46fe5759042060f89dfe21733d9e51aa15a1d844ee.webp)
 
 （6）Feed
 
-![](images/b9d0005ba453a1e8cfcf54b2fe7ce88f9c90ecedbf6114722928e22e04f4639e.jpg)
+![](images/b9d0005ba453a1e8cfcf54b2fe7ce88f9c90ecedbf6114722928e22e04f4639e.webp)
 
 All Documents
 
-![](images/0dd96604e460930c6595e2ff686cb8f8707247994e36a9174593f6f3605c7f2b.jpg)
+![](images/0dd96604e460930c6595e2ff686cb8f8707247994e36a9174593f6f3605c7f2b.webp)
 
 Royal Autom..
 
-![](images/5f9b012b04665f2d330879e2c8a4479ee86272314ee51a4454ce7efe74ee9442.jpg)
+![](images/5f9b012b04665f2d330879e2c8a4479ee86272314ee51a4454ce7efe74ee9442.webp)
 
 LogInIntera..
 
-![](images/0f45eb75c256d22c9ae9782baabbde053744fdc46fdcd32eca5d7c151beb2a17.jpg)
+![](images/0f45eb75c256d22c9ae9782baabbde053744fdc46fdcd32eca5d7c151beb2a17.webp)
 
 Interactive In..
 
-![](images/64947707a28e7182ac134b734a4be73bec181bb861d2d2ad50b32af909d067aa.jpg)
+![](images/64947707a28e7182ac134b734a4be73bec181bb861d2d2ad50b32af909d067aa.webp)
 
 Online Banking
 
-![](images/ba04331834406437db3751664385ea19556aa3f6befdbec6f0c6464aa632c5ef.jpg)
+![](images/ba04331834406437db3751664385ea19556aa3f6befdbec6f0c6464aa632c5ef.webp)
 
 Interaction D..
 
-![](images/4e4e3237df43e2cc562dc7e3a53ca5455941abf6bf90748504760b25cd44f0cf.jpg)
+![](images/4e4e3237df43e2cc562dc7e3a53ca5455941abf6bf90748504760b25cd44f0cf.webp)
 
 HUMAN INTE...
 
-![](images/834b945cba159dfee6505bfe3b46e0f1294186572566a786ef118a2a89e13c00.jpg)  
+![](images/834b945cba159dfee6505bfe3b46e0f1294186572566a786ef118a2a89e13c00.webp)  
 Figure 7.4  Part of the home page for my current Google browser showing favicons of top sites visited below the search bar
 
 Add shortcut
@@ -191,7 +191,7 @@ To add to the frustration, many online forms often accept only fixed data f
 Another gripe about online registration forms is the country of residence box that opens up as a  never-ending menu, listing  all  of the  countries  in the  world  in alphabetical order. Instead of typing in the country in which they reside, people are required to select the  one they are from, which is fine if you happen to live in Australia or Austria but not if you live in Venezuela or Zambia (see Figure 7.5).
 
 Figure 7.5  A scrolling menu of country names   
-![](images/7b120db45bbfbdb3db4be9de95cc59dba09327d5dea7748d293d726be61dd38e.jpg)  
+![](images/7b120db45bbfbdb3db4be9de95cc59dba09327d5dea7748d293d726be61dd38e.webp)  
 Source: www.jollyflorist.com
 
 (Continued)
@@ -206,7 +206,7 @@ Go to the interflora.co.uk website, and hover over the international menu o
 
 Earlier versions of the full list of countries to which flowers could be sent by interflora.co.uk listed eight countries at the top, starting with the United Kingdom and then the United States, France, Germany, Italy, Switzerland, Austria, and Spain. This was followed by the remaining set of countries listed in alphabetical order. The reason for having this particular ordering is likely to have been because the top eight are the countries that have the most customers, with the UK residents using the service the most. At the time of writing, the UK’s current version showed the “most popular international destinations” with a national flag for each country beside them in a table format, followed by a listing of all countries in alphabetical order using a row of letters and shaded blocks across the page (see Figure 7.6). Do you think this is an improvement over the use of a single scrolling list of country names shown in the Jollyflorist website in Figure 7.5? Does it make searching for a country quicker?
 
-![](images/856bd8aafd0a20f84c6a01ded33edb49f2cf520045b3a8f27d25095f17ddec80.jpg)  
+![](images/856bd8aafd0a20f84c6a01ded33edb49f2cf520045b3a8f27d25095f17ddec80.webp)  
 Figure 7.6  An excerpt of the listing of countries in shaded blocks in alphabetical order below a row of letters of the alphabet
 
 Source: www.interflora.co.uk
@@ -230,13 +230,13 @@ Interface menus are typically ordered across the top row or down the�
 There are numerous menu interface styles, including flat lists, drop-down, pop-up, contextual, collapsible, mega, flyout, and expanding ones, such as cascading menus. Flat menus are good at displaying a small number of options at the same time or where the size of the display is small, for example on smartphones, cameras, and smartwatches. Expanding menus enable more options to be shown on a single screen than is possible with a single flat menu list. This makes navigation more flexible, allowing for the selection of options to be done in the same window. An example is  the cascading menu, which provides secondary  and even tertiary menus  to appear  alongside  the  primary  active  drop-down  menu, enabling  further related options to be selected, such as when selecting track changes from the tools menu leads to a secondary menu of three options by which to track changes in a Word document. The downside of using expanding menus, however, is that they require precise control. People can often end up making errors, namely, overshooting or selecting the wrong options. In particular, cascading menus require them to move their cursor over the menu item, while holding the mouse or touchpad down, and then to move their cursor over to the next menu list when the cascading menu appears and select the next desired option. This can result in someone underor overshooting a menu option, or sometimes accidentally closing the entire menu. Another example of an expandable menu is a mega menu, in which  many options can  be displayed using  a  2D drop-down  layout  (see  Figure  7.7). This  type  of menu  is  popular  with  online shopping sites, where lots of items can be viewed at a glance on the same screen without the need to scroll. Hovering, tapping, or clicking is used to reveal more details for a selected item.
 
 Figure 7.7  A megamenu   
-![](images/2b3b50f69c244dfa90e5a110f1ec090e63d63318bed366e3ccbdf4280ce13d97.jpg)  
+![](images/2b3b50f69c244dfa90e5a110f1ec090e63d63318bed366e3ccbdf4280ce13d97.webp)  
 Source: www.johnlewis.com
 
 Collapsible  menus  provide  an  alternative  approach  to  expanding  menus  in  that they allow further options to be made visible by selecting a header. The headings appear adjacent to each other, providing the user with an overview of the content available (see Figure 7.8). This reduces the amount of scrolling needed. Contextual menus provide access to often-used commands associated with a particular item, for example, an icon. They provide appropriate commands that make sense in the context of a current task. They appear when the user rightclicks in Windows or presses the Control key while clicking an interface element in macOS. For example, right-clicking or clicking a photo on a website together with holding down the Ctrl key results in a small set of relevant menu options appearing in an overlapping window, such as open it in a new window, save it, or copy it. The advantage of contextual menus is that they provide a limited number of options associated with an interface element, overcoming some of the navigation problems associated with cascading and expanding menus.
 
 Figure 7.8  A template for a collapsible menu   
-![](images/54a5a083e4fa023c3530ee557c4589344616a75e81a5730dc7d8a2d07bf62261.jpg)  
+![](images/54a5a083e4fa023c3530ee557c4589344616a75e81a5730dc7d8a2d07bf62261.webp)  
 Source: inclusive-components.design/collapsible-sections. Reproduced with permission of Smashing Magazine
 
 # ACTIVITY 7.2
@@ -269,31 +269,31 @@ Icons can be designed to represent objects and operations in the inte
 
 is being  represented  and how  it is represented. Many operations in an interface, however, are of actions to be performed on objects, making it more difficult  to represent  them using  direct mapping. Instead, a well-known technique is to use a combination of objects and symbols that capture the salient part of an action by using analogy, association, or convention (Rogers, 1989). For example, using a picture of a pair of scissors to represent cut in a word-processing application provides a sufficient clue as long as the person understands the convention of cut for deleting text.
 
-![](images/d99ac173b36cd102eb6389e7deb0447f5fad9e5cd8f46a69b352f0fd04a7cf62.jpg)
+![](images/d99ac173b36cd102eb6389e7deb0447f5fad9e5cd8f46a69b352f0fd04a7cf62.webp)
 
-![](images/18ff57c025d96ea5460d9de6be5a8ec955d37df44525484cdec6aa294dd61aa5.jpg)
+![](images/18ff57c025d96ea5460d9de6be5a8ec955d37df44525484cdec6aa294dd61aa5.webp)
 
-![](images/33f52aa7c02d844f0c6c5384fda8c719a039319dce3273cb02f5e06d2914703d.jpg)
+![](images/33f52aa7c02d844f0c6c5384fda8c719a039319dce3273cb02f5e06d2914703d.webp)
 
-![](images/c646073c3770c99e935682e9d92c96400a1644b24d5d696cb6adba07aefd61d8.jpg)
+![](images/c646073c3770c99e935682e9d92c96400a1644b24d5d696cb6adba07aefd61d8.webp)
 
-![](images/4d26e5f67480565c921cef22e7f747b4b460aebccde1fd2097b0a12d04dd7e82.jpg)
+![](images/4d26e5f67480565c921cef22e7f747b4b460aebccde1fd2097b0a12d04dd7e82.webp)
 
-![](images/cc9eefe19c98798c7a16cad7699a88a276e2cee7e122bb78896f690a179714e1.jpg)
+![](images/cc9eefe19c98798c7a16cad7699a88a276e2cee7e122bb78896f690a179714e1.webp)
 
-![](images/0bfc8dc0e3a7efc8d24054d01df72a96ac4f7891f1ec8c596b533526a070fcad.jpg)
+![](images/0bfc8dc0e3a7efc8d24054d01df72a96ac4f7891f1ec8c596b533526a070fcad.webp)
 
-![](images/4c7e2abb8f67baefde8568012582f92027fe9057648880233b67b046642123e6.jpg)  
+![](images/4c7e2abb8f67baefde8568012582f92027fe9057648880233b67b046642123e6.webp)  
 Figure 7.9  Two styles of Apple icons used to represent different kinds of functions
 
 Another approach that many smartphone designers use is flat 2D icons. These are simple and use strong colors and pictograms or symbols. The effect is to make them easily recognizable and distinctive. Examples shown in Figure 7.10a include the white ghost on a  yellow background (Snapchat), a white line  bubble with  a solid white phone handset  in a  speech bubble on a lime-green background (WhatsApp), and the sun next to a cloud (weather).
 
-![](images/2d42673e0e597c62ede722452d390d9fd2ce1d7b4f125108caa385e38c015b3c.jpg)  
+![](images/2d42673e0e597c62ede722452d390d9fd2ce1d7b4f125108caa385e38c015b3c.webp)  
 (a)
 
 (b)   
 Figure 7.10 2D icons designed for (a) a smartphone and (b) a smartwatch   
-![](images/2b98f067ec553ff1a8efb3a5b363fd8955416e08fe6602fdc9e77792d03ada53.jpg)  
+![](images/2b98f067ec553ff1a8efb3a5b363fd8955416e08fe6602fdc9e77792d03ada53.webp)  
 Source: (a) Yvonne Rogers (b) support.apple.com/en-ca/HT205550
 
 Icons that appear on toolbars or palettes as part of an application or presented on small device displays (such as digital cameras or smartwatches) have much less screen real estate available. Because of this, they have been designed to be simple, emphasizing the outline form of an object or symbol and using only grayscale or one or two colors (see Figure 7.10b). They
@@ -314,7 +314,7 @@ Show them to someone  else,  tell them that they are  icons  for  a  new 
 
 Figure 7.11 shows the basic Edit Photo icons on an iPhone that appear at the bottom of the screen when the edit function is selected. The box with extended lines and two arrows is the icon for cropping an image; the  three overlapping  translucent circles  represents “different lenses” that can be used; the wand above it means “auto-enhance”; the circle with plus and minus signs refers to exposure levels while the circle to the right of it with the simplified ying and yang symbol refers to brilliance levels.
 
-![](images/7787213a29dd03776cac4639dc48684cf69407606b51ce2e383e285cbc50dbe5.jpg)  
+![](images/7787213a29dd03776cac4639dc48684cf69407606b51ce2e383e285cbc50dbe5.webp)  
 Figure 7.11 The  two rows of basic Edit Photo icons  that appear at the bottom of an iPhone display
 
 Source: Yvonne Rogers
@@ -337,7 +337,7 @@ Text with links in it describing the structure and function of the he
 Hands-on  interactive  simulations  have  also  been  incorporated  as  part  of  multimedia learning environments. An early example was the Cardiac Tutor, developed to teach students about cardiac resuscitation. It required students to save patients by selecting the correct set of procedures  in the correct  order from  various options displayed  on the computer  screen (Eliot  and Woolf, 1994). Other  kinds  of multimedia  narratives and  games have  also been developed  to support  discovery learning by  encouraging children to explore different parts of the display by  noticing a hotspot or other kind of link. For example, KidsDiscover.com/ apps  has  many tablet  apps  that use  a  combination  of  animations,  photos,  interactive  3D models, and audio to teach kids about  science and social studies topics. Using swiping and touching, kids can reveal, scroll through, select audio narration, and watch video tours. Figure 7.12, for example, has a “slide” mechanism as part of a tablet interface that enables the child to do a side-by-side comparison  of what Roman ruins looks like now and in ancient Roman times.
 
 Figure 7.12 An example of a multimedia learning app designed for tablets   
-![](images/51588cf165d8b51740bec0f0b2b1f5daf755792ca90196843aeba9e69e0cff75.jpg)  
+![](images/51588cf165d8b51740bec0f0b2b1f5daf755792ca90196843aeba9e69e0cff75.webp)  
 Source: KidsDiscover app “Roman Empire for iPad”
 
 Multimedia has largely been developed for training, educational, and entertainment purposes.  But  to  what  extent  is  the  assumption  that  learning  (such  as  reading  and  scientific inquiry skills)  and playing can be enhanced  through interacting with engaging multimedia interfaces true? What actually happens when people are given unlimited, easy access to multiple media and simulations? Do they systematically switch between the various media and
@@ -385,7 +385,7 @@ In  the beginning,  head-mounted  displays were  used  to present VR  
 Another application area that has been explored is how VR can enrich the experience of reporting and witnessing current affairs and news, especially feelings of empathy and compassion to real-life experiences (Aronson-Rath et al., 2016). For example, the BBC together with Aardman Interactive and University College London researchers developed a VR experience called “We Wait,” where they put the viewer in a place that few foreign reporters have been, namely, on a boat with a group of refugees crossing the Mediterranean Sea (Steed et al., 2018). The goal  was to let news  reporters and other participants  experience how it felt to be there  on the boat with the refugees. They used a particular artistic polygon style rather than realism to create the characters sitting on the boat (see Figure 7.13). The characters had expressive eyes intended to convey human emotion in response to gaze interaction. The avatars were found  to generate  an empathic response from  participants. Other research investigating  the  benefits of immersive  storytelling has  also  found  similar empathetic  responses (Shin, 2018).
 
 Figure 7.13 Snapshot of polygon  graphics used to represent  avatars  for  the  “We  Wait”  VR experience   
-![](images/80a7db4e5d1dfc7a9e3e01062415096568c1451e3fb8bee50f71341e046cb8f4.jpg)  
+![](images/80a7db4e5d1dfc7a9e3e01062415096568c1451e3fb8bee50f71341e046cb8f4.webp)  
 Source: Steed, Pan, Watson and Slater, www.frontiersin.org/articles/10.3389/frobt.2018.00112/full. Licensed Under CC-BY 4.0
 
 Jakob Nielsen argues that VR is much harder to interact with and control compared with GUI interfaces. He claims that this is due partly because it has more degrees of freedom and partly because VR is new to many people who have less experience using it compared with GUIs. See www.youtube.com/ watch?v=f4GVG4C2BcE. Do you agree?
@@ -424,7 +424,7 @@ Web  designers  now have  a number  of languages  available to  design
 
 Another  interface element  that is  an  integral  part  of any  website  is  breadcrumb  navigation. Breadcrumbs are category  labels that appear  on a web  page that enable visitors to peruse other pages without losing track of where they have come from (see Figure 7.14). The term comes from the way-finding technique that Hansel used in the Brothers Grimm fairy tale Hansel and Gretel. The metaphor conjures up the idea of leaving a path to follow back. Breadcrumbs are also used by search engine optimization tools that match up a user’s search terms with relevant web  pages using the breadcrumbs. Breadcrumbs also extol usability in a number of ways, including helping people know where they are relative to the rest of the website, enabling  one-click  access to higher site  levels, attracting first-time  visitors to continue to browse a website  after having  viewed the landing page (Mifsud, 2011). Therefore, using them is good practice for other web applications besides websites.
 
-![](images/efe0d2ddea554ccde19dfa4f1ecb747ce88771c067dcb76ee5650bf02449b0bd.jpg)  
+![](images/efe0d2ddea554ccde19dfa4f1ecb747ce88771c067dcb76ee5650bf02449b0bd.webp)  
 Figure 7.14 A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights
 
 Source: www.bestbuy.ca
@@ -471,7 +471,7 @@ Larger-sized tablets are also used in mobile settings. For example, ma
 
 Smartphones and smartwatches have an assortment of sensors embedded in them, such as an  accelerometer to detect  movement, a thermometer to measure  temperature, and galvanic  skin  response  to  measure  changes  in  sweat level  on  one’s  skin. Other  apps may  be designed for fun. An example of an early app developed by magician Steve Sheraton simply for a moment  of pleasure  is  iBeer (see  Figure 7.15). Part  of its  success was  because of the ingenious use of the accelerometer inside the phone. It detects the tilting of the iPhone and uses  this  information  to mimic  a  glass of  beer  being consumed. The graphics  and  sounds are also very enticing;  the color of the beer  together with frothy bubbles  and accompanying sound effects gives the illusion of virtual beer being swished around a virtual glass. The beer  can be drained  if  the phone is  tilted  enough, followed by  a  belch sound  when  it has been finished. Since it first appeared in 2008, the iBeer app has been downloaded more than 90 million times!
 
-![](images/7ad20c886ed66bc81541da9583379e51b821be810c488b698594fe10aca258c6.jpg)  
+![](images/7ad20c886ed66bc81541da9583379e51b821be810c488b698594fe10aca258c6.webp)  
 hottrixdounload.co   
 Figure 7.15 The iBeer smartphone app
 
@@ -481,14 +481,14 @@ Smartphones can also be used to download contextual information by sca
 
 This method  became  popular  during the COVID-19 pandemic  in cafes, bars, and  restaurants where  customers  selected their  menu choices by  first scanning the QR  code on  a card attached to their table (see Figure 7.16) and then scrolling through the available menu options on their phone. One of the main benefits of this approach was that it reduced human contact during service. Not only could customers view a digital menu, they could also use it to order and pay for their meal.
 
-![](images/4dc8f78ae0897196409053a038c4d03dd6015d4bc3456d990f36ffa7f15ec082.jpg)  
+![](images/4dc8f78ae0897196409053a038c4d03dd6015d4bc3456d990f36ffa7f15ec082.webp)  
 Figure 7.16 Connecting to an online menu by scanning a QR code adhered to a  table in a restaurant
 
 Source: pos.toasttab.com/blog/restaurant-qr-code
 
 Another  kind of mobile  app that has  appeared  is one that uses  customers’ online  purchasing data—that they have to give permission for it to be accessed—to make recommendations and provide feedback to them. An example is a carbon footprint calculator, such as the Goodside app, that is intended to show people the environmental impact of their purchases (see  www.joingoodside.com). After  buying  a sweater  from  a major  sportswear  brand, the Goodside app accesses information about the purchaser’s transaction to determine the spending category that the sweater falls under. It then accesses the clothing company’s sustainability information to calculate the  carbon emissions associated with that  product. This is then shown as part  of an  aggregate carbon footprint visualization on the customer’s phone (see Figure 7.17). They can see how well they are doing overall and what action they might want to take based on this.
 
-![](images/1f632599a141155f5943505d581fc1ea49d5278843145cdbe59d193ff10ac735.jpg)  
+![](images/1f632599a141155f5943505d581fc1ea49d5278843145cdbe59d193ff10ac735.webp)  
 Figure 7.17 The  Goodside app, designed to show people automatically  the  environmental impact of their purchases made through accessing their transactions using their online bank app
 
 Source: www.joingoodside.com
@@ -526,7 +526,7 @@ Alan Cooper et al. (2014) in their classic  book suggest that appliance int
 Look at the controls on your toaster (or the one in Figure 7.18 if you don’t have one nearby) and describe what each does. Consider how these might  be replaced with an LCD  screen. What would be gained and lost from changing the interface in this way?
 
 Figure 7.18 A typical toaster with basic physical controls   
-![](images/0896bd91dc551276f4a36c88b73606a17c74fb180ada2a18a74c41c613bdf2b4.jpg)  
+![](images/0896bd91dc551276f4a36c88b73606a17c74fb180ada2a18a74c41c613bdf2b4.webp)  
 Source: uk.russellhobbs.com/product/brushed-stainless-steel-toaster-2-slice
 
 # Comment
@@ -541,7 +541,7 @@ A  voice  interface involves  a person  talking  with  a spoken  langu
 
 The first generation of speech  systems earned a reputation for mishearing all too often what a person said (see cartoon). However, they are now much more sophisticated and have higher levels of recognition accuracy. Machine learning algorithms have been developed that continue to improve their ability to recognize what someone is saying. Synthetic speech has also advanced significantly to be more friendlier, convincing, and pleasant than the artificially sounding synthesized speech that was typically used in the early systems.
 
-![](images/b5ac0cc0651f1ae82c9d3cb5ea76371147fa972e2e71ec5f95ffed02d116a316.jpg)  
+![](images/b5ac0cc0651f1ae82c9d3cb5ea76371147fa972e2e71ec5f95ffed02d116a316.webp)  
 Source: Reproduced with permission of King Features Syndicate
 
 Watch Sonatics (2022) video entitled What’s Her Secret? at youtu.be/gS1m TIxEW0. How convincing do you think the artificial voice is? Is it distinguishable from a human voice?
@@ -595,7 +595,7 @@ interfaces. A number of commercial guidelines are available for voice inte
 Pen-based  interfaces enable  people to write, draw,  select, and move objects on an  interface using light pens or styluses that capitalize on the well-honed drawing and writing skills. They have  been  used to interact with tablets and large displays, instead of mouse, touch, or keyboard  input,  for  selecting  items  and  supporting  freehand  sketching.  Smartpens,  like  the LiveScribe Echo 2 (see Figure 7.19), use a combination of an ink pen with a digital camera that digitally records everything written with the pen on special paper. The pen works by recognizing a special nonrepeating dot pattern that is printed on the paper. The nonrepeating nature of the pattern means that the pen is able to determine which page is being written on and where on the page the pen is pointing. When writing on digital paper with a smartpen, infrared light from the  pen illuminates  the dot pattern, which is then picked up by a tiny  sensor. The  pen decodes the dot pattern as the pen moves across the paper and stores the data temporarily in the pen. The digital pen can transfer data that has been stored in the pen via Bluetooth to a computer/tablet. Handwritten notes can also be converted and saved as standard typeface text that can then be edited and organized subsequently. This can be  useful for applications that require people to fill in paper-based forms and also for taking notes during meetings.
 
 Figure 7.19 Livescribe Echo 2 Smartpen   
-![](images/a8dfff983033b0c815fdc4a020e3c3ba0a19f01c0b79e0df0e5bc86e3b76d333.jpg)  
+![](images/a8dfff983033b0c815fdc4a020e3c3ba0a19f01c0b79e0df0e5bc86e3b76d333.webp)  
 Source: uk.livescribe.com/collections/smartpens/products/echo-2
 
 Another advantage of pen-based interfaces is that they allow people to annotate existing documents, such as spreadsheets, presentations, and diagrams, quickly and easily in a similar way to how they would do this when using paper-based versions. This is particularly useful for a team who is working together and communicating with each other from different locations. They are also very  versatile; for example, the Apple  pencil  when used with the iPad enables people to write, sketch, annotate, draw, and paint directly onto it.
@@ -621,7 +621,7 @@ of these methods enables someone to swipe and move through digital conte
 Both hands may be used on multitouch tabletops to enable people to make digital objects larger and smaller or to rotate them. Dwelling touches (pressing and holding a finger down) can also be used to enable someone  to perform  dragging actions  and to bring  up pop-up menus. One or more fingers can also be used together with a dwell action to provide a wider range of gestures. However, these can be quite  arbitrary, requiring  someone to learn them rather than being  intuitive. Another limitation of touchscreens is that they do not  provide tactile feedback in the same way that keys or mice do when pressed. To compensate, visual, audio, and haptic feedback can be used. (See also the section on shareable interfaces (7.2.14) for more background on multitouch design considerations.)
 
 Figure 7.20 A schematic of a multitouch interface   
-![](images/1614a4505d294a1f0596ccdc4926dfa551fdc2aabb0ce62e99ea652ea2a93f04.jpg)  
+![](images/1614a4505d294a1f0596ccdc4926dfa551fdc2aabb0ce62e99ea652ea2a93f04.webp)  
 Source: Willtron / CC BY 1.0
 
 # 7.2.11  Touchless
@@ -639,7 +639,7 @@ Several car dashboards have a form of gesture control; for example, B
 To ensure they are safe, the gestures were developed and tested in the iDrive system, by taking into account how focused the driver is when behind the wheel. More recently, Touchless Computing has emerged as a new  form of in-air gesture-based  interaction that anyone can  use  with  just  a  webcam  (see  www.intel.com/content/www/us/en/company-overview/ wonderful/motion-input-technology.html). The technique developed  is  called MotionInput, which provides a way of interacting with a PC without the need to touch a keyboard or the screen. Instead, a person interacts with the MotionInput software on their PC by making gestures with their hands, head, face, or full body. The software then analyzes their interactions and converts  them  into mouse, keyboard, and joypad  signals. The “multitouch in  the air” software was developed by computer  science undergraduate students at University  College London in  conjunction  with Intel, IBM, and  Microsoft. Compared  with the earlier Kinect gesture-based  systems, it doesn’t require any  specific equipment other than a webcam  and microphone, which most laptops already have.
 
 Figure 7.21 Touchless gesturing in the operating theater   
-![](images/580675d9868b580fa2fc23a9f9884a5dbed207cb9abd3adc45691867b6f76f60.jpg)  
+![](images/580675d9868b580fa2fc23a9f9884a5dbed207cb9abd3adc45691867b6f76f60.webp)  
 Source: Used courtesy of Kenton O’Hara
 
 # Research and Design Considerations
@@ -654,7 +654,7 @@ Haptic  interfaces provide  tactile  feedback, by  applying  vibration a
 
 Vibrotactile  feedback can also be used to  simulate the sense  of touch between  remote people who want to communicate. Actuators embedded  in clothing can be designed to recreate  the sensation  of  a hug  or a  squeeze  by  being  buzzed on  various  parts  of the body. Another  use  of  haptics  is  to  provide  real-time  feedback  to  guide  people when  learning  a musical instrument, such as a violin or drums. For example, the MusicJacket (van der Linden et al., 2011) was developed to help novice violin players learn how to hold their instrument correctly and develop good bowing action. Vibrotactile feedback was provided via the jacket to give nudges at key places on the arm and torso to inform the student when they were either holding their violin incorrectly or their bowing trajectory had deviated from a desired path (see Figure 7.22). A user study with novice players showed that they were able to react to the vibrotactile feedback and adjust their bowing or their posture in response.
 
-![](images/87cb4824cbf5205a7528772f2d6da76a4c562eb4c229edbfae80f145fee1fb79.jpg)  
+![](images/87cb4824cbf5205a7528772f2d6da76a4c562eb4c229edbfae80f145fee1fb79.webp)  
 Figure 7.22 The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position
 
 Source: Yvonne Rogers
@@ -664,7 +664,7 @@ Another  form  of feedback is called  ultrahaptics, which creates  the�
 Haptics are also being embedded into clothing, sometimes called exoskeletons. Inspired by the “Techno Trousers” in the Wallace and Gromit movie The Wrong Trousers, Jonathan Rossiter and his team (2018) developed a new kind of exoskeleton that can help people stand up  and move  around using artificial  muscles  that  consist  of air bubbles  that  act as  haptic feedback that are activated using tiny electric motors (see Figure 7.23). They are stiffened or relaxed using grapheme parts to make the trousers move. One application area is to help people who have walking difficulties and those who need to exercise but find it difficult to do so.
 
 Figure 7.23 Trousers with artificial muscles that use a new kind of bubble haptic feedback   
-![](images/737f23ad234e2407e5418c4f6e7d9b1440f77cce234a94b66dd1c51e4fc6585e.jpg)  
+![](images/737f23ad234e2407e5418c4f6e7d9b1440f77cce234a94b66dd1c51e4fc6585e.webp)  
 Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for Independent Living
 
 # Research and Design Considerations
@@ -683,7 +683,7 @@ virtual environment, or alternately using speech commands followed by g
 
 A person’s body movement can also be tracked so that it can be represented back to them on a screen in the form of an avatar that appears to move just like them. For example, the Kinect was developed as a gesture and body movement gaming input system for the Xbox. Although  now  defunct  in the gaming industry,  it proved effective at  detecting multimodal input in real time. It consisted of an RGB camera for facial and gesture recognition, a depth sensor  (an  infrared projector  paired  with a  monochrome camera) for  movement tracking, and downward-facing  mics for voice recognition  (see Figure 7.24). On  finding a body, the Kinect locked onto  it and measured the three-dimensional  positioning  of the key joints  in their body. This information was converted into a graphical avatar of the user that could be programmed to move just like them. Many people readily saw themselves as the avatar and learned how to play games in this manner.
 
-![](images/a58c88885ee1e636bd6e02884aaf26ec17f77cb9daf6a10b607df3e4d958899c.jpg)  
+![](images/a58c88885ee1e636bd6e02884aaf26ec17f77cb9daf6a10b607df3e4d958899c.webp)  
 Figure 7.24 Microsoft’s Xbox Kinect Source: Stephen Brashear / Invision for Microsoft / AP Images
 
 # Research and Design Considerations
@@ -698,12 +698,12 @@ Check out the video of Circle Twelve’s demonstration of the DiamondTo
 
 An advantage of shareable interfaces is that they provide a large interactional space that can support flexible group working, enabling groups to create content together at the same time. Compared with a co-located group trying to work around a single-user PC or laptop, where typically  one  person takes  control, making  it  more difficult  for others to take  part, multiple users can interact with a large display. People can point to and touch the information  being  displayed,  while  simultaneously  viewing  the  interactions  and  having  the  same shared point of reference (Rogers et al., 2009). There are now a number of tabletop apps that have been developed for museums and galleries that enable visitors to learn  about various aspects of the environment (see Clegg et al., 2019).
 
-![](images/fcbc49f13fdc322044cb463476ecc24b16d599b73c1ba2cf944f1942acc7137b.jpg)  
+![](images/fcbc49f13fdc322044cb463476ecc24b16d599b73c1ba2cf944f1942acc7137b.webp)  
 (a)
 
 (b)   
 Figure 7.25 (a)  A SmartBoard in use  during a  meeting and  (b)  Mitsubishi’s interactive  tabletop interface   
-![](images/28a04682205d4e7f85949cbed05e5a4cb87f2f6e0c9cdbae75bb40cb14806e26.jpg)  
+![](images/28a04682205d4e7f85949cbed05e5a4cb87f2f6e0c9cdbae75bb40cb14806e26.webp)  
 Source: (a)  Used  courtesy  of  SMART  Technologies Inc.  (www.smarttech.com/en/business)  (b)  Mitsubishi Electric Research Labs
 
 Another type of shareable interface is a software platform that enables groups of people to work together simultaneously even when geographically apart. Early examples included shared  editing  tools  developed  in  the  1980s  (for  example,  ShRedit).  Various  commercial products  now exist that enable multiple remote  people to work on  the same  document at the same time (such as Google Docs and Microsoft Excel). Some enable up to 50 people to edit the same document at the same time with more watching on. These software programs provide  various functions, such as  synchronous editing,  tracking changes, annotating, and commenting. Other collaborative tools include Miro (see Chapter 5) and the Balsamiq Wireframes  editor, which provides  a  range of shared functions, including  collaborative  editing, threaded comments with callouts, and project history.
@@ -740,7 +740,7 @@ The toolkits provide children with opportunities to connect physical el
 
 showing and telling  each other and their instructors about their discoveries  (Lechelt et al., 2018). These moments are facilitated by the cube’s form factor, making it easy to show off to others, for example, by waving a cube in the air (see Figure 7.26).
 
-![](images/c488deadfb2c25a34dd9d751f289c8268c12364c4d545be9cbe963d5d72e5c13.jpg)  
+![](images/c488deadfb2c25a34dd9d751f289c8268c12364c4d545be9cbe963d5d72e5c13.webp)  
 Figure 7.26 Learning to code with the MagicCubes; sharing, showing, and telling Source: Elpida Makriyannis
 
 Tangible toolkits have also been developed for the visually impaired. For example, Code Jumper was developed as a programming  language for teaching programming concepts to children aged 7–11, regardless of level of vision (Morrison et al., 2018). It consists of a set of pods that can be connected and manipulated to create physical strings of code that play stories or music.
@@ -751,7 +751,7 @@ Tangible toolkits have also been developed for the visually impaired. F
 
 Traditional methods for gathering public opinions, such as surveys, involve approaching people in situ, but it can disrupt the positive experience they are having. VoxBox (see Figure 7.27) is a  tangible system designed to gather opinions on a range  of topics in situ at an event through playful and engaging interaction (Golsteijn et al., 2015). It was intended to encourage wider participation by grouping similar questions, encouraging completion, gathering answers to open and closed questions, and connecting answers and results. It was designed as a large physical system that provides a range of tangible input  mechanisms through  which people give their  opinions, instead of using, for example, text messages or social media input. The various input mechanisms include sliders, buttons, knobs, and spinners about which people are all familiar. In addition, the system has a transparent tube at the side that drops a ball stepby-step as sets of questions are completed to act as an incentive for completion and as a progress indicator. The results of the selections were aggregated and presented as simple digital visualizations on the other side (for example, 95 percent are engaged; 5 percent are bored). VoxBox was  used at a  number of events drawing in the  crowds, who  become completely absorbed in answering questions in this tangible format.
 
-![](images/8d74833f294cd91388fe7cbfb7d2ee24e2f6607691aabcdc1fbcc092b19ba344.jpg)  
+![](images/8d74833f294cd91388fe7cbfb7d2ee24e2f6607691aabcdc1fbcc092b19ba344.webp)  
 Figure 7.27 VoxBox—front and back of the tangible machine questionnaire Source: Yvonne Rogers
 
 # Research and Design Considerations
@@ -776,7 +776,7 @@ Other AR apps have been developed to aid people walking in a city o
 
 The availability of mapping platforms, such as those provided by Niantics and Google, together with Apple’s ARKit, SparkAR Studio, and Google’s ARCore, has made it easier for developers  and  students  alike to  develop  new  kinds  of AR  games  and  AR  apps. Another popular AR game that has emerged since Pokémon Go is Jurassic World Alive, where players walk around in the real world to find as many virtual dinosaurs as they can. It is similar to Pokémon Go but with different gaming mechanisms. For example, players have to study the dinosaurs they  come across by collecting  their DNA and then re-creating it. Microsoft has also enabled new mixed reality user experiences to be created, enabling people wearing a Hololens headset to interact with virtual elements in their surroundings.
 
-![](images/f087f58b08c047fb800aea46ac55e8e73eee854d7911ef02fea7cf18ffeff2f5.jpg)  
+![](images/f087f58b08c047fb800aea46ac55e8e73eee854d7911ef02fea7cf18ffeff2f5.webp)  
 Figure 7.28 Augmented reality overlay used on a car windshield
 
 # Source: wayray.com
@@ -789,12 +789,12 @@ The same technology can be used to enable people to step into histor
 
 actor’s dressing room (see Figure 7.29b). On encountering the mirror in situ, visiting school children were fascinated by the way the virtual make-up made them look like Akhnaten and his wife, Nefertiti. The singers and make-up artists who were in the production also tried it out and saw great potential for using the app to enhance their existing repertoire of rehearsal and make-up tools.
 
-![](images/cbb7702ed46608f3bb9a27fb0b2c38b70d0aaed543ba7fe58d472f8b2f8aaf5b.jpg)  
+![](images/cbb7702ed46608f3bb9a27fb0b2c38b70d0aaed543ba7fe58d472f8b2f8aaf5b.webp)  
 (a)
 
 (b)   
 Figure 7.29 (a) A principal singer trying on the virtual look of Akhnaten and (b) a framed AR mirror in the ENO dressing room   
-![](images/40eeddc8e92d4d01705f584976ac5f47a74baf56970896de69e148f0d10dbcd5.jpg)  
+![](images/40eeddc8e92d4d01705f584976ac5f47a74baf56970896de69e148f0d10dbcd5.webp)  
 Source: Used courtesy of Ana Javornik
 
 # Research and Design Considerations
@@ -820,7 +820,7 @@ Exoskeleton clothing (see section 7.2.12) is also an area where fashio
 Google Glass was a  wearable that went on sale in 2014 in various fashion styles (see Figure 7.30). It was designed to look like a pair of glasses, but with one lens of the glass being an interactive display with an embedded camera that could be controlled with speech input. It allowed the wearer to take photos and videos on the move and look at digital content, such as email, texts, and maps. The wearer could also search the web using voice commands, and the results would appear on the screen. A number of applications were developed beyond those for everyday use, including WatchMeTalk, which provided live captions to help the hearingimpaired in their day-to-day conversations and Preview for Glass that enabled the wearer to watch a movie trailer the moment they looked at a movie poster.
 
 Figure 7.30 Google Glass   
-![](images/3ba223582107540652c7298e6e58d27e8858de93476eb2d72e4df36e473c36c0.jpg)  
+![](images/3ba223582107540652c7298e6e58d27e8858de93476eb2d72e4df36e473c36c0.webp)  
 Source: Google Inc.
 
 However, being in the company of someone wearing a Google Glass was felt by many to be unnerving, as the wearer looked up and to the right to view what was on the glass screen rather than looking at you and  into your eyes. One of the criticisms of wearers of Google Glass was that it made them appear to be staring into the distance. Others were worried that those wearing Google Glass were recording everything that was happening in front of them. As a reaction, a few bars and restaurants in the United States implemented a “no Glass” policy to prevent customers from recording other patrons.
@@ -847,10 +847,10 @@ and as search and rescue helpers in disasters (for instance, in fores
 
 Domestic robots that help with the cleaning and gardening have become popular. Robots are  also  being  developed  to  help  the  elderly  and  disabled  with  certain  activities, such  as picking up objects and cooking meals. Pet robots, in the guise of human companions, have been  commercialized.  Several  research teams  have  taken the “cute  and  cuddly” approach to  designing  robots,  signaling  to  humans  that  the  robots  are  more  pet-like  than  humanlike. For example, Mitsubishi developed Mel the penguin (Sidner and Lee, 2005) whose role was  to  host  events,  while the  Japanese  inventor  Takanori Shibata  first developed  Paro  in 2004, a baby  harp seal that looks like a cute  furry cartoon animal, and whose role was as a companion (see Figure 7.31). Sensors were embedded in the pet robots, enabling them to detect certain human behaviors and respond accordingly. For example, they can open, close, and move their eyes, giggle, and raise their flippers. The robots encourage being cuddled or spoken to, as if they were real pets or animals. The appeal of pet robots is thought to be partially due to their therapeutic qualities, being able to reduce stress and loneliness among the elderly and infirm (see Chapter 6 for more on cuddly robot pets). Paro has since been used to help patients with dementia  to make them feel more at ease and comforted both in care homes (Griffiths, 2014) and family homes (Inoue et al., 2021). It has been found to encourage social behavior among patients who often anthropomorphize it. For example, they might say as a joke “it’s farted on me!” which makes them and others around them laugh, leading to further laughter and joking. This form of encouraging of social interaction is thought to be therapeutic.
 
-![](images/2b743a8851867b10a564d246b9cf207997418648a8060eb79a25f15211e9f40d.jpg)
+![](images/2b743a8851867b10a564d246b9cf207997418648a8060eb79a25f15211e9f40d.webp)
 
 Figure 7.31 (a) Mel, the penguin robot, designed to host activities; (b) Japan’s Paro, an interactive seal, designed as a companion, primarily for the elderly and sick children   
-![](images/1c9b541f9f70bde1b2a1efe01ff89da98c7088e290ff7e17c8540d55d6758eb9.jpg)  
+![](images/1c9b541f9f70bde1b2a1efe01ff89da98c7088e290ff7e17c8540d55d6758eb9.webp)  
 Source: (a) Mitsubishi Electric Research Labs (b) Parorobots.com
 
 Watch the video of Robot Pets of the Future at youtu.be/wBFws1lhuv0.
@@ -859,7 +859,7 @@ Drones  are  a form  of unmanned  aircraft that  are  controlled  remo
 
 Drones have also been used in the agricultural and construction industries, such as flying them over buildings or vineyards to collect data in the form of video footage  and photographs (see Figure 7.32). They have also been used to track poachers in wildlife  parks in Africa (Preece, 2016). Compared with other forms of data collection, they can fly low and stream photos to a ground station where the images can be stitched together into maps and then used to determine the health of a crop or when is the best time to harvest the crop.
 
-![](images/dc407eaa23f094b377a66e75eb15573478c3a283e0014292133740c7db732bf6.jpg)  
+![](images/dc407eaa23f094b377a66e75eb15573478c3a283e0014292133740c7db732bf6.webp)  
 Figure 7.32 A drone being used to survey the state of a vineyard Source: Drone inspecting vineyard / Shutterstock
 
 Watch the video of a Firefly drone firework display at www.youtube.com/ watch?v=tcoIUd9Y3-w.
@@ -880,7 +880,7 @@ Brain–computer  interfaces  (BCI)  provide  a  communication  pathway  
 
 BrainGate is a kind of BCI that has been developed to enable people who are paralyzed to control robots and be able  to move a cursor on a computer screen displaying  the letters of the alphabet (see Figure 7.33). A study found that after training participants were able to “point and click” on letters—similar to using a computer mouse—to type specific sentences (Pandarinath et al., 2017). On average, they could type nearly 8 words per minute.
 
-![](images/b78fc46bc694c689221abd4368150677b8161e525322642f7e4ae86c90431c9a.jpg)  
+![](images/b78fc46bc694c689221abd4368150677b8161e525322642f7e4ae86c90431c9a.webp)  
 Figure 7.33 A brain-computer interface being used by a woman who is paralyzed to select letters on a screen (Pandarinath et al., 2017)
 
 Source: Brown University
@@ -893,7 +893,7 @@ as “concentrating,” “focused,” “motor activity,” “stressed,”�
 
 To test this, Fang et al. ran a user study, where groups of three  participants were asked to play a card game together, wearing the BBI  system headsets that were all connected. They found that the participants would try to guess the cards each other had on receiving electrical stimulation  via the BBI. It was not clear whether they could change the  state of each other’s brains, but the study findings suggested that this kind of playful mind guessing can add a whole new dimension to playing games. Other researchers are also trying to develop technology that can read people’s minds. Neuralink, for example, is in the business of developing implantable brain–computer interfaces, with the goal of being able to determine what people are thinking.
 
-![](images/29846dd645946932c5a4bbf15111574a17784032cc619b5e597c1f7fcfe25f50.jpg)
+![](images/29846dd645946932c5a4bbf15111574a17784032cc619b5e597c1f7fcfe25f50.webp)
 
 Source: Tim Cordell / Cartoon Stock
 
@@ -928,7 +928,7 @@ geared towards  accomplishing tasks autonomously. In terms of research cons
 Shape-changing interfaces employ physical shape  change as input  and  output to systems. A well-known example is a physical 3D bar chart that is positioned in a grid where a matrix of 3D rods move up and down to convey changes in a digital dataset. This type of dynamic physical representation has been found to help people with visualization tasks, including annotation, filtering, organization, and navigation (Alexander et al., 2018). Shape-changing interfaces have also been developed as a form of dynamic  material to explore novel interaction possibilities. Figure 7.34, for example, has been programmed using inFORM to show the shape of a car that can be felt by placing a hand over it. These kinds of shape-changing interfaces provide a different way of interacting with content compared with reading and touching digital displays.
 
 Figure 7.34 inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group   
-![](images/5625ae9f74843599a4549f1f4cfeff4fef38a3f768380c0ad010ca9dfcb3ecff.jpg)  
+![](images/5625ae9f74843599a4549f1f4cfeff4fef38a3f768380c0ad010ca9dfcb3ecff.webp)  
 Source: trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676
 
 Other examples of shape-changing interfaces include data sculptures, tactile cartographic maps,  and “physicalizations.” The  last  of  these  are  physical artifacts  that  are  designed  to encode data in specific materials. An example is Physikit (Houben et al., 2016), which is a physical-digital system comprising a set of physical cubes that convey digital properties and are programmed  to visualize  real-time environmental  data  in the  home, such as  moisture, $\mathrm { C O } _ { 2 }$ , or light levels. An example PhysiCube called PhysiMove has a rotating disk on the top of it that moves clockwise or counterclockwise, depending on the kind of data it receives as input. The  main  benefits of using  these kinds of physical instantiations  of data is  to make the data  more accessible and to enable people  to more readily connect with the context in which the data is being collected or is changing over time (Sauvé et al, 2022). For example, the PhysiCubes are intended to be located in a home setting, such as the living room, which helps with the  interpretation of  the data. Imagine a group  of people  is sitting in  the living room one evening watching the cup final on TV and halfway through the game a house plant based on the PhysiCube disk starts moving clockwise much more rapidly. This indicates high levels of carbon dioxide have been detected. The people in the room can then work out from the context that it is not that the game is boring, causing them to yawn, but that the spike in the $\mathrm { C O } _ { 2 }$ level data is caused by them cheering a lot and, in so doing, exhaling more.
@@ -947,7 +947,7 @@ Another  form  of  perceptual illusion that makes  virtual avatars appe
 
 The technology used includes three 65-million-pixel screens (massive flat displays that make the  images  projected  look  as  if  they  were  real)  and  motion-capture  technology  (see  Figure 7.35). Many people who have gone to the show are completely blown over by how lifelike they appear.
 
-![](images/a437b6b36b3cbcabaf9597769e0ec8e1f172b4d6f5224cf1554e657856276116.jpg)  
+![](images/a437b6b36b3cbcabaf9597769e0ec8e1f172b4d6f5224cf1554e657856276116.webp)  
 Figure 7.35 An infographic showing how avatars of the band ABBA were created Source: www.graphicnews.com/en/pages/38425/entertainment-abbas-mysterious-abbatars-revealed-1
 
 # Research and Design Considerations
@@ -1023,7 +1023,7 @@ ROWLAND, C., GOODMAN, E., CHARLIER, M., LIGHT,A., and LUI, A. (2015) D
 
 STAIANO, F.  (2022) Designing and Prototyping Interfaces with Figma: Learn essential UX/ UI design principles by creating interactive prototypes for mobile, tablet, and desktop. Birmingham Packt Publishing. This is a hands-on book for someone wanting to learn Figma and use it  to design responsive mobile applications for mobile, tablet and desktop interfaces. It covers the process of creating a complete design using the various Figma tools such as Components, Variants, Auto Layout.
 
-![](images/a64ebb1e369ac602508c780e684485ea0de1049411dbb861c6cc477849fa9ce5.jpg)
+![](images/a64ebb1e369ac602508c780e684485ea0de1049411dbb861c6cc477849fa9ce5.webp)
 
 # INTERVIEW with Leah Buechley
 
@@ -1062,6 +1062,6 @@ as  I  can,  to  the  entire  creative  process. I  develop  and  shar
 What excites you most about your work? I  am infatuated with materials. There  is nothing  more inspiring  than a  sheet  of heavy paper, a length of wool felt, a slab of clay, or a box  of old  motors. My thinking about  design and  technology is largely driven by explorations of materials  and their affordances. So, materials  are  always delightful. For example, the shape and surface pattern of the cup in Figure 7.36 were computationally  designed.  A  template of the  design was  then laser  cut  and  pressed into a flat sheet or “slab” of clay. Finally, the clay was  folded into shape  and  then fired and  glazed using  traditional  ceramic  techniques. But the real-world adoption of tools I’ve designed and the prospect this presents for changing technology culture is perhaps what’s most exciting. My most dearly held goal is to expand and diversify technology culture, and it’s tremendously rewarding to see evidence that my work is doing that.
 
 Figure 7.36 An example of a computational cup   
-![](images/fa3e18d72320957aca8e6c85c952ecce8347799cbef76f80662900ba434a7bb9.jpg)  
+![](images/fa3e18d72320957aca8e6c85c952ecce8347799cbef76f80662900ba434a7bb9.webp)  
 Source: Used courtesy of Leah Buechley
 

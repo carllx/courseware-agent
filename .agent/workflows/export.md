@@ -35,7 +35,7 @@ description: 将脚本导出为 TTS 纯文本、审阅 Word 文档或词汇表
 **A1: 标准模式**（含 `[SLIDE #N]` 标记）— 供录音员参考换页节奏或审计溯源。
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
+  .agent/scripts/validation/validate_script_length.py \
   --course "<课程>" --dump-text
 ```
 输出至 `<课程>/build/tts/<周次名>.txt`。
@@ -43,7 +43,7 @@ description: 将脚本导出为 TTS 纯文本、审阅 Word 文档或词汇表
 **A2: 盲读模式**（纯朗读文本）— 直接喂 TTS 引擎，无视觉标记。
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
+  .agent/scripts/validation/validate_script_length.py \
   --course "<课程>" --dump-text --blind-mode
 ```
 输出至 `<课程>/build/tts/<周次名>_blind.txt`。
@@ -56,7 +56,7 @@ description: 将脚本导出为 TTS 纯文本、审阅 Word 文档或词汇表
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/export_review_docx.py \
+  .agent/skills/export_tools/scripts/export_review_docx.py \
   --course "<课程>" --all
 ```
 输出至 `<课程>/build/presentations/review/` 目录。
@@ -66,7 +66,7 @@ description: 将脚本导出为 TTS 纯文本、审阅 Word 文档或词汇表
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
+  .agent/scripts/validation/validate_script_length.py \
   --course "<课程>" --dump-vocab
 ```
 输出 `<课程>/build/tts/Vocabulary_List.md`。

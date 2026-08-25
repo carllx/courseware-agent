@@ -59,7 +59,7 @@ description: 对指定逐字稿模块执行记忆逻辑专项优化（要旨可�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
+  .agent/scripts/validation/validate_script_length.py \
   --course "<课程>" --week <N> --module-breakdown
 ```
 
@@ -73,7 +73,7 @@ description: 对指定逐字稿模块执行记忆逻辑专项优化（要旨可�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/generate_cheat_sheet.py \
+  .agent/skills/cheat_sheet_generator/scripts/generate_cheat_sheet.py \
   "<脚本路径>" --diagnose
 ```
 
@@ -88,7 +88,7 @@ description: 对指定逐字稿模块执行记忆逻辑专项优化（要旨可�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_visual_text_sync.py \
+  .agent/scripts/validation/validate_visual_text_sync.py \
   --course "<课程>" --week <N>
 ```
 
@@ -245,7 +245,7 @@ description: 对指定逐字稿模块执行记忆逻辑专项优化（要旨可�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/generate_cheat_sheet.py \
+  .agent/skills/cheat_sheet_generator/scripts/generate_cheat_sheet.py \
   "<修复后的脚本路径>" --diagnose
 ```
 

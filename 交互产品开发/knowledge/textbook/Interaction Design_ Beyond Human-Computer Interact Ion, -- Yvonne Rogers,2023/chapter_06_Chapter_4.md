@@ -64,10 +64,10 @@ If someone knows exactly what they want to find out, they try to ma
 
 The way information is displayed can also greatly influence how easy or difficult it is to comprehend appropriate pieces of information. Look at Figure 4.1, and try the activity (based on Tullis, 1997). Here, the information-searching tasks are precise, requiring specific answers.
 
-![](images/46856fa974ff653d4948e3c8a65b0eda71b9faf5a08ce28c84151e059fc56169.jpg)  
+![](images/46856fa974ff653d4948e3c8a65b0eda71b9faf5a08ce28c84151e059fc56169.webp)  
 (a)
 
-![](images/1ec4fd6f0419522b3a5967ee308fbb8b229a29d76aaa0cef6daf24c921511b6e.jpg)  
+![](images/1ec4fd6f0419522b3a5967ee308fbb8b229a29d76aaa0cef6daf24c921511b6e.webp)  
 (b)   
 Figure 4.1  Two different ways of structuring the same information at the interface level. One makes it much easier to find information than the other.
 
@@ -105,7 +105,7 @@ To help people get back on track or prevent them being distracted in the fi
 
 Judith Borghouts, Duncan Brumby, and Anna Cox (2020) developed a design intervention called TimeToFocus, which is intended to provide people with awareness and feedback in real time about  their  distraction behavior. Essentially, it is a  browser extension  that asks a person to select a main task window to focus on (see Figure 4.2). If they get distracted by other online activities, such as email or browsing the web, it notifies them as to how much time they have switched away from their main task window. In a series of user studies investigating the effectiveness  of increasing awareness  of time spent  away from an allocated  task window, Borghouts  et al. found that their TimeToFocus  intervention enabled  participants to reflect more on their interruption behavior. In turn, this helped them change their working habits by reducing the number of irrelevant activities they partook in during their time away from the main task. Having a pop-up notification that reminds you of how long you have been away from your main task may just do the trick!
 
-![](images/10cab9c42035c7e9429ffa485c8a889596f7ceed12da32dea0849f72ba22c6fd.jpg)  
+![](images/10cab9c42035c7e9429ffa485c8a889596f7ceed12da32dea0849f72ba22c6fd.webp)  
 Figure 4.2  The  TimeToFocus  browser  extension (in upper-right  corner)  that pops up to warn a person about how much time they have spent away from their main task window Source: Borghouts et al. (2020)
 
 Many people are expected to multitask in the workplace nowadays, such as in hospitals, as  a  result  of  the  introduction  of  ever  more  technology  (for  example,  multiple  screens  in an  operating room). The technology  is  often introduced to provide new  kinds of real-time and changing information. Research into how  well clinicians  manage to switch and divide their attention  among different tasks in tech-rich environments  also suggests it is  complex, depending on a number of individual and contextual factors as to how effective they are at achieving this (Douglas et al., 2017). For example, a study of attention switching in a clinical setting showed that when there was a lot of attention switching—as indicated by logged
@@ -114,7 +114,7 @@ data from the electronic health records that were accessed—more wrong
 
 Managing the ever-increasing information load requires professionals, like clinicians, to develop new attention and scanning strategies, looking out for anomalies in data visualizations and listening for audio alarms alerting them to potential dangers. Interaction designers have tried to help by  including  the use of ambient displays that come on  when something needs attention—flashing  arrows to direct attention  to a particular type of data or  history logs of recent actions that can be quickly examined to refresh one’s memory of what has just happened on a given screen. In the future, other technologies, such as speech-based interfaces and augmented reality, may prove to be effective at alerting people to what needs attending to at a given time.
 
-![](images/5110bd181e1969c91a16ce87443b239fd7c3cb41f42840714852bf7b210e7e4c.jpg)  
+![](images/5110bd181e1969c91a16ce87443b239fd7c3cb41f42840714852bf7b210e7e4c.webp)  
 This project calls for real concentration. Are you still able tomonotask?
 
 Source: Chris Wildt / Cartoon Stock
@@ -126,7 +126,7 @@ Is It OK to Use a Phone While Driving?
 There has been considerable debate about whether drivers should be able to talk or text on their phones at the  same time as driving (see Figure 4.3). People talk on their phones while walking, so why not be able to do the same thing when driving? The main reasons are that driving is more demanding, drivers are more prone to being distracted, and there is a greater chance of causing accidents  (however, it is also the case that some pedestrians, when using their  phones, walk out  into a  road without  looking to see  whether any  cars are  coming). A meta-review of research that has investigated mobile phone use in cars has found that drivers’ reaction times to external events are longer when engaged in phone conversations (Caird et al., 2018).
 
 Figure 4.3  How distracting is it to be texting on the phone while driving?   
-![](images/b02816bef8381c45230513070808d4e9049b31c5b90646c5807ce9f567e0133b.jpg)  
+![](images/b02816bef8381c45230513070808d4e9049b31c5b90646c5807ce9f567e0133b.webp)  
 Source: Tetra Images / Alamy Stock Photo
 
 What might be the reasons for this deterioration in driving performance? Early research showed that drivers who use phones were much poorer at staying in their lane and maintaining the  correct speed (Stavrinos et al., 2013). It appears that drivers on a phone rely more on their expectations about  what is likely to happen next and, as a result, respond  much more slowly to unexpected events, such as the car  in front of them stopping (Briggs et al., 2018). Moreover,  phone  conversations  cause  the  driver visually to imagine  what is being talked about. The driver may also imagine the facial expression of the person to whom they are speaking. The visual imagery involved competes for the processing resources also needed to enable the driver to notice and react to what is in front of them on the road. The idea that using a hands-free device is safer than actually holding the phone to carry out a conversation is not true, as the same type of cognitive processing takes place both ways. And yet using a hands-free phone is legal in many countries. Research has shown how drivers rationalize to themselves why they can’t see a connection between talking on the phone when they are driving and the  risk of crashing (Wells et al, 2021). In particular, a common justification  is the perceived need to be always available should anyone need to contact them.
@@ -206,7 +206,7 @@ The  number of documents  written, images  created, music  files record
 
 To help people find what they  are looking for, a number of search and find tools have been developed, such as Apple’s Spotlight. Spotlight enables someone to type a partial name or even the first letter of a file that it then searches for throughout the entire system, including the content inside documents, apps, games, emails, contacts, images, calendars, and applications. Figure 4.4 shows a partial list of files  that Spotlight  matched to the  word cognition, categorized in terms of documents, mail and text messages, PDF documents, and so on.
 
-![](images/759feab34c158fa021ae24ba8465efda489cf2a0193cc2c1328e06eb041579ae.jpg)  
+![](images/759feab34c158fa021ae24ba8465efda489cf2a0193cc2c1328e06eb041579ae.webp)  
 Figure 4.4  Apple’s Spotlight search tool
 
 Google  search  tools  have  also  developed  many  advanced  features,  which  are  geared toward making it easier for someone to find the information or image they are looking for, by analyzing their query or keywords and ranking potential relevant results. AI has also been added to the mix to help narrow down possible images that someone might be looking for. For example, the search tool QuikFynd uses ML algorithms to identify common objects such as cats, dogs, mountains, etc.
@@ -288,10 +288,10 @@ Much research has been conducted into how to design technology to hel
 
 Since this seminal research, a number of digital memory apps have been developed for people with dementia. For example, RemArc has been designed to trigger long-term memories  in  people with  dementia  using  BBC Archive  material such  as old  photos,  videos, and sound clips. The idea is based on the principle of reminiscence therapy, which aims to help people who have dementia interact and converse more by stimulating their long-term memory with material from the past (remarc.bbcrewind.co.uk).
 
-![](images/8fa0177dd1b311237c88d616aca1702757d662fd156701bb470c8fcc488a9a70.jpg)
+![](images/8fa0177dd1b311237c88d616aca1702757d662fd156701bb470c8fcc488a9a70.webp)
 
 Figure 4.5  The SenseCam device and a digital image taken with it   
-![](images/a6e52bb617586abc66478d56ea799d0525257eaa824dcca3d6de035a2376dd57.jpg)  
+![](images/a6e52bb617586abc66478d56ea799d0525257eaa824dcca3d6de035a2376dd57.webp)  
 Source: Used courtesy of Microsoft Research Cambridge
 
 Other technologies, such as intelligent  agents and  smart pill  boxes, have  been  developed as cognitive aids intended to remind people with dementia when to take their medication and whether they have taken it already. A novel approach is “earables,” which when connected with smart objects  can act  as memory  aids (Franklin et al., 2021). The idea is based on a cognitive model of memory disorder that focuses on the various errors people with  dementia  make  in  everyday  activities. A  common  problem  is  mixing  up  everyday routines, for example, picking up the salt shaker instead of the sugar shaker when wanting to add  sugar to a cup  of coffee. Franklin et al. suggest developing a technology guidance system that could detect these before they have been executed, letting the person know just in time, via the earable, for example, to tell them to pick up the sugar shaker instead. However, such a smart system is currently just a design concept. Research is needed to determine whether it  is possible to  design such  a guidance system  that is both  accurate and  useful. Questions like how often such auditory interventions are heeded will need to be addressed. In  particular, how will  people  with dementia take to being told by a  voice system of  the potential errors they might make?
@@ -426,7 +426,7 @@ especially if it involves reading manuals or other documentation. An a
 An early  conceptual framework, which  was  influential  in HCI,  was known  as  the gulf of execution and the gulf of evaluation. It described the gaps that were assumed to exist between the user and the interface (Norman, 1986; Hutchins et al., 1986). The gulfs were intended to show how to design the latter to enable the user to cope with them. The first one, the gulf of execution, described the distance from the user to the physical system, while the second one, the gulf of evaluation, is the distance from the physical system to the user (see Figure 4.6). A challenge  for designers  is  to  find  ways  of bridging  the  gulfs  to reduce  the  cognitive  effort required to perform a task. In many ways the notions of gulfs provided a discourse by which to explore potential mappings and mismatches between how a system was designed to work and how a person understands how to do a task using it.
 
 Figure 4.6  Bridging the gulfs of execution and evaluation   
-![](images/f497bf54e296afd84f7ce372267da0e37bcec0245a64244819e0c79c44cb46c7.jpg)  
+![](images/f497bf54e296afd84f7ce372267da0e37bcec0245a64244819e0c79c44cb46c7.webp)  
 Source: www.nngroup.com/articles/two-ux-gulfs-evaluation-execution. Used  courtesy  of the Nielsen Norman Group
 
 # 4.3.3  Information Processing
@@ -434,7 +434,7 @@ Source: www.nngroup.com/articles/two-ux-gulfs-evaluation-execution. Used  cour
 Another approach to conceptualizing how the mind works has  been to use metaphors and analogies to describe cognitive processes. Numerous comparisons have been made, including conceptualizing the mind as a reservoir, a telephone network, a digital computer, and a deep learning network. A metaphor that was popular in the 1980s was the idea that the mind was an  information  processor. Information was  thought  to enter  and  exit the  mind  through a series of  ordered  processing stages  (see  Figure  4.7). Within  these  stages, various  processes were assumed to act upon mental representations. Processes include comparing and response selection. Mental representations  were assumed  to comprise  images, mental  models, rules, and other forms of knowledge.
 
 Figure 4.7  Human information processing model   
-![](images/fe3894775f367a4244ebc243a3e118f31710691ff5411a06db0a694c03b0b32a.jpg)  
+![](images/fe3894775f367a4244ebc243a3e118f31710691ff5411a06db0a694c03b0b32a.webp)  
 Source: P.  Barber (1998). Applied Cognitive Psychology. London: Methuen. Used courtesy of Taylor & Francis
 
 The  information  processing  model  provided  a  basis from  which  to  make  predictions about human performance. Hypotheses were made about how long someone would take to perceive and respond to a stimulus (also known as reaction time) and what bottlenecks might occur if a person was overloaded with too much information. One of the first HCI models to be derived from the information processing theory was the human processor model, which modeled  the cognitive processes of a user  interacting with a computer (Card  et al., 1983). Cognition  was conceptualized as a series of processing stages, where  perceptual, cognitive, and motor processors are organized in relation to one another. The model predicted which cognitive processes are involved when a user interacts with a computer, enabling calculations to be made of how long a user will take to carry out various tasks. In the 1980s, it was found to be a useful tool for comparing different word processors for a range of editing tasks. Nowadays, however, it is rarely used as other models of how the mind works have superseded it.
@@ -467,7 +467,7 @@ People  interact  with  or  create  information  by  using  a  variety�
 
 of external representations and physical tools has  greatly extended and supported people’s ability to carry out cognitive activities. Indeed, they are such an integral part of our cognitive activities  that  it is  difficult to  imagine how we  would go about  much  of our  everyday life without them.
 
-![](images/2c5d72c61ce3da98a25faced45b4872000417eef19155b6162d799534319dde1.jpg)  
+![](images/2c5d72c61ce3da98a25faced45b4872000417eef19155b6162d799534319dde1.webp)  
 Figure 4.8  A cognitive system in which information is propagated through different media
 
 There have been various ways in which the relationship between humans and technology has been theorized. Most well-known are external cognition (Scaife and Rogers, 1996) and the extended mind (Clark and Chalmers, 1998). The extended mind was a philosophical account  of how new  digital technologies were becoming an  extension of our  minds, while the theory of external cognition was concerned with how we could design new kinds of technologies and interfaces that would empower our cognitive abilities while reducing cognitive effort. These include the following (each of which are explained later):

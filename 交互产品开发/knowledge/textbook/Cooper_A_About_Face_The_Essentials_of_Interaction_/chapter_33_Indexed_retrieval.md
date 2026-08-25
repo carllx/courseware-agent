@@ -58,14 +58,14 @@ If the document is frequently edited
 
 Spotlight, the search function in Apple's OS X, provides effective attribute-based retrieval, as shown in Figure 14-7. Not only can the user look for documents according to meaningful properties, but he can save these searches as "Smart Folders." Doing so enables him to see documents related to a given client in one place and all proposals in a different place. (However, he would have to put some effort into identifying each proposal as such, because Spotlight can't recognize this.) It should be noted that one of the most important factors contributing to Spotlight's usefulness is the speed with which results are returned. This is a significant differentiating factor between it and the Windows search functionality. It was achieved through purposeful technical design that indexes content during idle time.
 
-![](images/0647899e4af90e44172e8b58437b10f3719f2733e13cc175f27699e76ff661a3.jpg)  
+![](images/0647899e4af90e44172e8b58437b10f3719f2733e13cc175f27699e76ff661a3.webp)  
 Figure 14-7: Spotlight, the search capability in Apple's OS X, allows users to find a document based on meaningful attributes such as the name, type of document, and when it was last opened.
 
 An attribute-based retrieval system can find documents for users without users ever having to explicitly organize documents in advance. But there is also considerable value in allowing users to tag or manually specify attributes about documents. This allows
 
 users to fill in the gaps where technology can't identify all the meaningful attributes. It also allows people to define de facto organizational schemes based on how they discuss and use information. The retrieval mechanism achieved by such tagging is often called a "folksonomy," a term credited to information architect Thomas Vander Wal. Folksonomies can be especially useful in social and collaborative situations. There they can provide an alternative to a globally defined taxonomy if it is undesirable or impractical to force everyone to adhere to and think in terms of a controlled vocabulary. Good examples of the use of tagging to facilitate information retrieval include Flickr, del.icio.us, and the highly popular social sharing app, Twitter (see Figure 14-8).
 
-![](images/6937242a83456629b145d8e6981cbc1c6332ae50b9c1a2166ac570f8f039cd5b.jpg)  
+![](images/6937242a83456629b145d8e6981cbc1c6332ae50b9c1a2166ac570f8f039cd5b.webp)  
 Figure 14-8: Twitter, whose hashtags have become part of mainstream culture, is the classic example of a folksonomy that has achieved widespread adoption.
 
 # Relational databases versus digital soup
@@ -108,7 +108,7 @@ One alternative is to use natural-language processing, in which the user can key
 
 A better approach, which we've used successfully on numerous projects, is a technique we call constrained natural-language output. Using this technique, the application provides an array of bounded controls for users to choose from. The controls line up so that they can be read like an English sentence. The user chooses from a list of valid alternatives, so the design is in essence a self-documenting, bounded query facility. Figure 14-9 shows how this works.
 
-![](images/82a477cb67dc061abcc92348b8afcc125c5910fd2237b96d356e2ae362e1c8e8.jpg)  
+![](images/82a477cb67dc061abcc92348b8afcc125c5910fd2237b96d356e2ae362e1c8e8.webp)  
 Figure 14-9: An example of a constrained natural-language output interface to an attribute-based retrieval engine, part of a Cooper design created for Softek's Storage Manager. These controls produce natural language as output, rather than attempting to accept natural language as input, for database queries. Each underlined phrase, when clicked, provides a drop-down menu with a list of selectable options. The user constructs a sentence from a dynamic series of choices that always guarantees a valid result.
 
 A natural-language output interface also is helpful for expressing everything from queries to plain old relational databases. Querying a database in the usual fashion is very hard for most people because it calls for Boolean notation and arcane database syntax, à la SQL.
@@ -121,5 +121,5 @@ The other concern is localization. If you are designing for multiple languages, 
 
 Both attribute-based retrieval engines and natural-language output interfaces require significant design and programming effort, but users will reap tremendous benefits in terms of power and flexibility in managing their data. Because the amount of data we all must manage is growing at an exponential rate, it makes sense to invest now in these more powerful, goal-directed tools wherever data must be managed.
 
-![](images/f16bf52ac06905be2fb51054165ad204e3c2f906098d31fdfc3bf70b58f47a31.jpg)
+![](images/f16bf52ac06905be2fb51054165ad204e3c2f906098d31fdfc3bf70b58f47a31.webp)
 

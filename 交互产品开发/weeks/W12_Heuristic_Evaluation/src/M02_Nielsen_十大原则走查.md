@@ -14,7 +14,7 @@
 > **Layout**: `Split`
 > **Scene**: 状态可见性对比。反面案例：一个点击后毫无反应的"提交"按钮，旁边放着一个满脸大汗拼命戳屏幕的用户。正面案例：点击后立刻变为幽暗的不可交互态（Disabled），按钮中央缓缓转动着一个小巧的 Loading 菊花，下方清晰地浮现一行字："正在努力上传表单数据 (45%)..."。
 > **知识节点**: nielsen-h1-h2-visibility-realworld
-> *   **Asset**: ![预览](../public/slides/M2-01.png)
+> *   **Asset**: ![预览](../public/slides/M2-01.webp)
 
 **H1: 系统状态可见性 (Visibility of System Status)**
 
@@ -52,7 +52,7 @@
 > **Layout**: `Split`
 > **Scene**: 真实世界隐喻匹配的世纪对决。反面案例：一款生鲜电商 App 竟然反人类地把承载用户想要购买果蔬的底部导购图标，画成了一个只有黑客才懂的"抽象多边形打包数据包"，并且在下方用极其生硬的六号字体写着"非持久化临时订单预备缓存区"。正面案例：依然是那辆所有人都认识的、极其经典带轮子的实体钢丝购物车图标，文字极其朴素温馨地写着两个大字："购物车"。
 > **知识节点**: nielsen-h1-h2-visibility-realworld
-> *   **Asset**: ![预览](../public/slides/M2-02.png)
+> *   **Asset**: ![预览](../public/slides/M2-02.webp)
 
 **H2: 系统与真实世界的匹配 (Match Between System and the Real World)**
 
@@ -91,7 +91,7 @@
 > **Layout**: `Split`
 > **Scene**: 紧急出口对比。反面案例：一个注册流程只能硬着头皮走到最后一步才能取消。正面案例：Gmail 发送邮件后底部弹出的 [撤销 (Undo)] 按钮。
 > **知识节点**: `nielsen-h3-h4-psychology-roots`
-> *   **Asset**: ![预览](../public/slides/M2-03.png)
+> *   **Asset**: ![预览](../public/slides/M2-03.webp)
 
 **H3: 用户控制与自由 (User Control and Freedom)**
 
@@ -125,7 +125,7 @@
 > **Layout**: `Comparison`
 > **Scene**: 平台全局一致性与认知惯性的对抗展示。展示占据业界标杆的 iOS 全局系统级那丝滑跟手的边缘"右滑返回上一级"惯性手势。旁边则极其讽刺地展示一个毫无交互底线的三流山寨 App：它有的页面是在左上角画一个丑陋的箭头返回，有的页面又强制你从屏幕底部极其反直觉地下滑关闭，有的页面则隐藏得极深只给一个几乎看不见的右上角的灰白色小 X。
 > **知识节点**: `nielsen-h3-h4-psychology-roots`
-> *   **Asset**: ![预览](../public/slides/M2-04.png)
+> *   **Asset**: ![预览](../public/slides/M2-04.webp)
 
 **H4: 一致性与标准 (Consistency and Standards)**
 
@@ -158,7 +158,7 @@
 > **Layout**: `Split`
 > **Scene**: 识别胜于重度短时回忆的终极进化论。反面案例：极其硬核复古的黑客级命令行界面（CLI 这个名词的代表 Linux 终端窗口），要求操作者不仅要盲打还要具备背诵几百条反常理代码组合字典的恐怖记忆库。正面案例：全世界最赚钱的那两个文本框——带有极其庞大敏锐、基于全网无数次点击权重预判的历史搜索建议与相关推荐悬浮下拉框的百度或者 Google 的引擎首页搜索中置栏。
 > **知识节点**: `nielsen-10-heuristics`
-> *   **Asset**: ![预览](../public/slides/M2-05.png)
+> *   **Asset**: ![预览](../public/slides/M2-05.webp)
 
 **H6: 识别胜于回忆 (Recognition Rather Than Recall)**
 

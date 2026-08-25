@@ -9,9 +9,9 @@ top left and a smaller list of actions in the top right.
 When you’re mixing font sizes like this, your instinct might be to
 vertically center the text for balance:
 
-![](images/index-119_1.png)
+![](images/index-119_1.webp)
 
-![](images/index-119_2.png)
+![](images/index-119_2.webp)
 
 119
 
@@ -23,7 +23,7 @@ text is close together the awkward alignment becomes more obvious: A
 better approach is to align mixed font sizes by their *baseline*, which
 is the imaginary line that letters rest on:
 
-![](images/index-120_1.png)
+![](images/index-120_1.webp)
 
 Baseline, not center
 
@@ -39,5 +39,5 @@ two pieces of text and offset their baselines.
 
 Baseline, not center
 
-![](images/index-122_1.png)
+![](images/index-122_1.webp)
 

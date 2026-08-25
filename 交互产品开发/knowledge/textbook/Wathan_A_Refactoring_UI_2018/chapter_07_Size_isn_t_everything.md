@@ -9,9 +9,9 @@ using font weight or color to do the same job.
 
 For example, making a primary element bolder lets you use a more
 
-![](images/index-39_1.png)
+![](images/index-39_1.webp)
 
-![](images/index-39_2.png)
+![](images/index-39_2.webp)
 
 39
 
@@ -24,7 +24,7 @@ Similarly, using a softer color for supporting text instead of a tiny
 font size makes it clear that the text is secondary while sacrificing
 less on readability:
 
-![](images/index-40_1.png)
+![](images/index-40_1.webp)
 
 Size isn’t everything
 
@@ -55,5 +55,5 @@ Size isn’t everything
 using a lighter weight to de-emphasize some text, use a lighter color or
 smaller font size instead.
 
-![](images/index-42_1.png)
+![](images/index-42_1.webp)
 

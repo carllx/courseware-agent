@@ -72,12 +72,12 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
      ```bash
      # 方式1: 课程级发现（V5 架构会自动编译 lesson.yaml）
      /opt/anaconda3/envs/mybase/bin/python \
-       .agent/skills/validation_suite/scripts/validate_script_length.py \
+       .agent/scripts/validation/validate_script_length.py \
        --course "<课程名>" --week <周次数字> --module "<模块关键词>" --segment-check
 
      # 方式2: 直传 segment 文件（推荐，精确针对当前文件）
      /opt/anaconda3/envs/mybase/bin/python \
-       .agent/skills/validation_suite/scripts/validate_script_length.py \
+       .agent/scripts/validation/validate_script_length.py \
        --file "<课程>/weeks/<周次>/src/M0X_Topic.md" \
        --module-breakdown --segment-check
      ```
@@ -106,7 +106,7 @@ description: "/write Phase 2 — 写作（Segment-by-Segment）"
    - 调用完整的模块验证：
      ```bash
      /opt/anaconda3/envs/mybase/bin/python \
-       .agent/skills/validation_suite/scripts/validate_script_length.py \
+       .agent/scripts/validation/validate_script_length.py \
        --course "<课程名>" --module-breakdown
      ```
    - 仅当该模块逻辑自检通过 **且** Slide 达底线后标记 `done`（字数预算仅作为参考，不作为硬性门禁）

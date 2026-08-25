@@ -33,7 +33,7 @@ Within this range of user testing approaches we focus on the followin
 •  Experiments, which usually take place in research labs but can sometimes be done remotely   
 In-the-wild studies, which take place in natural settings, such as people’s homes, schools, work, and leisure environments
 
-![](images/f199c969c7f6756096a8b8a7f8e7f478cf383c46e3e7a709fea8efb295cc6f64.jpg)  
+![](images/f199c969c7f6756096a8b8a7f8e7f478cf383c46e3e7a709fea8efb295cc6f64.webp)  
 Source: geek-and-poke.com. Licensed under CC-BY 3.0
 
 # 15.2 Usability Testing
@@ -69,7 +69,7 @@ Typically, large  company  labs contain  two  to  three  wall-mounted  v
 Figure  15.1  shows  a  typical  arrangement  in  which  designers  in  an  observation room  are watching a usability test through a one-way mirror.
 
 Figure 15.1 Diagram of the usability lab used by the U.S. Health and Human Services government department   
-![](images/692c13d3a8dbe73f9bcf0dd890c827e613d3d944df48067e40ea7a7c469573c9.jpg)  
+![](images/692c13d3a8dbe73f9bcf0dd890c827e613d3d944df48067e40ea7a7c469573c9.webp)  
 Source: HHS Usability Lab / U.S. General Services Administration / Public domain
 
 This link to the U.S. Health and Human Services (HHS) government department website describes the HHS usability processes lab: www.usability.gov/ how-to-and-tools/guidance/hhs-usability-lab.html.
@@ -84,12 +84,12 @@ As  the participants  moved  around the  mall, their  gaze  was  recor
 
 The  findings  from  these analyses  revealed that  participants  looked at  displays, particularly large plasma screens, more than had been previously reported in earlier studies by other researchers. Since  Nick Dalton and  his  colleagues reported this study  in 2015, equipment for  doing usability testing has become smaller and less cumbersome as discussed briefly in Box 15.1.
 
-![](images/120588328b4790562ed6a0520910f3613585930029620b1bbdcc9cfd048b2d5d.jpg)  
+![](images/120588328b4790562ed6a0520910f3613585930029620b1bbdcc9cfd048b2d5d.webp)  
 (a)
 
 (b)   
 Figure 15.2 (a) The Tobii Glasses Mobile Eye-Tracking System (b) Tobii Mobile Eye-Tracking glasses on sale in 2022   
-![](images/306be71a26d36c38aa5abdf044e529011136c89440875964d7f0f5b247156b6b.jpg)  
+![](images/306be71a26d36c38aa5abdf044e529011136c89440875964d7f0f5b247156b6b.webp)  
 Source: (a) Dalton et al.  (2015), p. 3891.  Reproduced with permission of  ACM Publications. (b)  www.tobiipro .com/news-events/on-demand-webinars/Wearable-eye-tracking-for-research
 
 # BOX 15.1
@@ -166,7 +166,7 @@ Source: www.nngroup.com/reports/ipad-app-and-website-usability. Used courtesy�
 The  testing  was  done  using  a  setup  (see  Figure  15.3)  similar  to  the  mobile  usability  kit described earlier. A camera recorded the participant’s interactions  and gestures when using the iPad and streamed the recording to a laptop computer. A webcam was also used to record the expressions on the participants’ faces and their think-aloud commentary. The laptop ran software called  Morae, which  synchronized these  two data streams. Up to three  observers (including the moderator sitting next to the participant) watched the video streams on their laptops situated  on  the table so that they  did  not  invade the participants’  personal space, rather than observing the participants directly.
 
 Figure 15.3 The setup used in the Chicago usability testing sessions   
-![](images/45a8229dcfb21ab14e1018225219251b3c5865f869be4724eec20709e5cc19a1.jpg)  
+![](images/45a8229dcfb21ab14e1018225219251b3c5865f869be4724eec20709e5cc19a1.webp)  
 Source: www.nngroup.com/reports/ ipad-app-and-website-usability.  Used courtesy  of  the  Nielsen Norman Group
 
 # Usability Problems
@@ -206,21 +206,21 @@ Despite the known benefits of remote testing (e.g., Hartson et al, 19
 Siltanen et al. conducted 22 remote usability tests in this way with experts spanning eight countries—Finland, India, China,  Germany, Indonesia, Malaysia, the  USA, and  the United Arab Emirates. This required ingenuity and special procedures to ensure that the tests were safe during the Covid  pandemic. Some tests  were conducted on  the participants’ premises where special disinfecting routines had to be implemented, others were conducted remotely using VR technology, and some were a hybrid. In this case study we discuss only the first of five different testing examples discussed in Siltanen’s and her colleagues’ paper, in which the researchers investigated  the  benefits  of a multiuser virtual  reality setup  for a collaborative review of a product. Figure 15.4 shows a participant wearing a VR headset, holding two paddles to initiate and control movement in the VR environment during testing.
 
 Figure 15.4 A participant in a test session   
-![](images/8be3d4aae991867e2118f9267ae75f62b1b16d418312afdceb2ce3a1fb0c172e.jpg)  
+![](images/8be3d4aae991867e2118f9267ae75f62b1b16d418312afdceb2ce3a1fb0c172e.webp)  
 Source: Siltanen et al. (2021) MDPI / CC BY 4.0
 
 The difficult part was working out how to test remote collaboration where the participants and observers were all in different locations. The way they  did this was to link them up  in the different locations using the VR software  environment DesignSpace. Figure 15.5 shows screen shots from one of the setups using this software. As shown, the participants and observers are represented virtually in different spaces; the participant on the left is operating machinery, and a team of observers is in the space on the right.
 
 Figure 15.6 shows a schematic of the complete setup used in the first testing case study, which took place across four different locations. A remote facilitator wearing a head-mounted display (HMD) was in the first location, and an observer with an HMD and tech support person were in the second location. One participant with an HMD was in a third location, and two participants were in a fourth location, one of whom was wearing an HMD, and the other was using a desktop computer. There was also an on-site assistant in the fourth location.
 
-![](images/94708c36c78436fc40753d8cf46a67724e10ad4dd3ff38247194a4c51c8fee0f.jpg)
+![](images/94708c36c78436fc40753d8cf46a67724e10ad4dd3ff38247194a4c51c8fee0f.webp)
 
 Figure 15.5 Screenshots from the DesignSpace VR environments   
-![](images/7e3bd9eff3c86207bda89f7e4ca3feab674451074926c63f81dfbd9000288580.jpg)  
+![](images/7e3bd9eff3c86207bda89f7e4ca3feab674451074926c63f81dfbd9000288580.webp)  
 Source: Siltanen et al. (2021) MDPI / CC BY 4.0
 
 Figure 15.6 The testing setup used with the DesignSpace environment   
-![](images/c483271a147161d93cad214b3d82e4a9fd6cfb6642721a27451582094676ef3c.jpg)  
+![](images/c483271a147161d93cad214b3d82e4a9fd6cfb6642721a27451582094676ef3c.webp)  
 Source: Siltanen, S. 2021 / MDPI / CC BY 4.0
 
 Because of social distancing and the need to disinfect equipment, facilitators could not help participants put on equipment, and the instructions telling the participants what to do had to be presented  on  large screens rather  than face-to-face. Traveling  between  sites was not  allowed either  or was limited. Furthermore, as conditions  changed due  to COVID, so did the test setup. Collecting data became trickier. For example, facial masks resulted in participants’ comments  being muffled, and facial expressions, which are important  data, were hard to gauge.
@@ -336,7 +336,7 @@ Before  launching  this  study, Blaine  Price  and  his  colleagues  (Pr
 
 The goal of their in-the-wild study was to evaluate the use of Painpad by patients recovering from ambulatory surgery (total hip or knee replacement) in the natural environments of two UK hospitals. Painpad (see Figure 15.7) enables patients to monitor their own pain levels by pressing the keys on the pad to record their pain rating. The researchers were interested in many  aspects related  to how  patients  interacted with Painpad, particularly  how robust and easy  it was to use  in the hospital environments. They  also wanted to see whether the patients rated their pain every two hours as they were asked to do and how the patients’ ratings using Painpad compared with the ratings that the nurses collected. They wanted to look for insights about the preferences and needs of the older patients who used Painpad and for design insights around visibility, customizability, ease  of operation, and the contextual factors that affected its usability in hospital environments.
 
-![](images/7eeb3b63773bfe2cf6c64871e28854a3564a7dd9e4fa3bc58b6530f3ab6468e9.jpg)  
+![](images/7eeb3b63773bfe2cf6c64871e28854a3564a7dd9e4fa3bc58b6530f3ab6468e9.webp)  
 Figure 15.7 Painpad, a tangible device for inpatient self-logging of pain Source: Price et al. (2018). Reproduced with permission of ACM Publications / CC BY 4.0
 
 # Data Collection and Participants
@@ -456,7 +456,7 @@ NIELSEN, J. and BUDIU, R. Mobile Usability. New Riders Press. This cla
 
 ROBSON, C. Experiment, Design and Statistics in Psychology (3rd ed.). Penguin UK. This is a classic that provides a useful introduction to experimental design and basic statistics. A more recent book by COLIN ROBSON and  KIERAN McCARTAN (2016)  entitled Real World Research (4th  ed.), published by  John Wiley  &  Sons, is  a valuable  resource for those who want to do research in applied settings. In addition to describing how to collect and analyze data, there is a chapter about ethical and political considerations.
 
-![](images/6ce564e736977200bbdeea315e83f99c74fa725400155d6ff9c9277f8326c0f7.jpg)
+![](images/6ce564e736977200bbdeea315e83f99c74fa725400155d6ff9c9277f8326c0f7.webp)
 
 # INTERVIEW with danah boyd
 

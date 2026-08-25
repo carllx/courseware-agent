@@ -42,16 +42,16 @@ Figure 13.2 shows the use of two augmented slider types, a dual slider for movie
 
 <table><tr><td>System</td><td>FilmFinder</td></tr><tr><td>What: Data</td><td>Table: nine value attributes.</td></tr><tr><td>How: Encode</td><td>Scatterplot; detail view with text/images.</td></tr><tr><td>How: Facet</td><td>Multiform, overview-detail.</td></tr><tr><td>How: Reduce</td><td>Item filtering.</td></tr></table>
 
-![](images/5fa254e3912609971c57123c4c68d7c8fa1c453d0b70eda2c5c1cf8d45250d91.jpg)  
+![](images/5fa254e3912609971c57123c4c68d7c8fa1c453d0b70eda2c5c1cf8d45250d91.webp)  
 (a)
 
-![](images/47138cb3afb935bf8049830d252d21c42276b662e11dfa16f1511d13c20f12b6.jpg)
+![](images/47138cb3afb935bf8049830d252d21c42276b662e11dfa16f1511d13c20f12b6.webp)
 
-![](images/18a89f54c1abeea86b11015a46312f75fb7f3cd41a236f97910916e56ae0ccc0.jpg)  
+![](images/18a89f54c1abeea86b11015a46312f75fb7f3cd41a236f97910916e56ae0ccc0.webp)  
 (c)   
 Figure 13.2. FilmFinder features tightly coupled interactive filtering, where the result of moving sliders and pressing buttons is immediately reflected in the visual encoding. (a) Exploration begins with an overview of all movies in the dataset. (b) Moving the actor slider to select Sean Connery filters out most of the other movies, leaving enough room to draw labels. (c) Clicking on the mark representing a movie brings up a detail view. From [Ahlberg and Shneiderman 94, Color Plates 1, 2, and 3].
 
-![](images/b917e3fbca269de9b87b2a95d24f3fbe35bead06af6745e3704f2f698594bd01.jpg)  
+![](images/b917e3fbca269de9b87b2a95d24f3fbe35bead06af6745e3704f2f698594bd01.webp)  
 Figure 13.3. The scented widget idiom adds visual encoding information directly to standard graphical widgets to make filtering possible with high information density displays. From [Willett et al. 07, Figure 2].
 
 Standard widgets for filtering controls can be augmented by concisely visually encoding information about the dataset, but in the part of the screen normally thought of as the control panel rather than a separate display area. The idea is to do so while using no or minimal additional screen real estate, in order to create displays that have high information density. These augmented widgets are called scented widgets [Willett et al. 07], alluding to the idea of information scent: cues that help a searcher decide whether there is value in drilling down further into a particular information source, versus looking elsewhere [Pirolli 07]. Figure 13.3 shows several examples. One way to add information is by inserting a concise statistical graphic, such as a bar or line chart. Another choice is by inserting icons or text labels. A third choice is to treat some part of the existing widget as a mark and encode more information into that region using visual channels such as hue, saturation, and opacity.
@@ -71,9 +71,9 @@ Item filtering and attribute filtering can be combined, with the result of showi
 
 Figure 13.4 shows an example of the Dimensional Ordering, Spacing, and Filtering Approach (DOSFA) idiom [Yang et al. 03a]. As the name suggests, the idiom features attribute filtering.* Figure 13.4 shows DOSFA on a dataset of 215 attributes representing word counts and 298 points representing documents in a collection of medical abstracts. DOSFA can be used with many visual encoding approaches; this figure shows it in use with star plots. In Figure 13.4(a) the plot axes are so densely packed that little structure can be seen. Figure 13.4(b) shows the plots after the dimensions are ordered by similarity and filtered by both similarity and importance thresholds. The filtered display does show clear visual patterns.
 
-![](images/0eddcf947445161366f24e866a77ace30f6eb871862af72ab569ed868ede5da3.jpg)
+![](images/0eddcf947445161366f24e866a77ace30f6eb871862af72ab569ed868ede5da3.webp)
 
-![](images/77cddc4b4138c8cebd7af751974f0b6bdf70738047a6334eb4087ab8f0eecb4b.jpg)  
+![](images/77cddc4b4138c8cebd7af751974f0b6bdf70738047a6334eb4087ab8f0eecb4b.webp)  
 Figure 13.4. The DOSFA idiom shown on star glyphs with a medical records dataset of 215 dimensions and 298 points. (a) The full dataset is so dense that patterns cannot be seen. (b) After ordering on similarity and filtering on both similarity and importance, the star glyphs show structure. From [Yang et al. 03a, Figures 3a and 3d].
 
 <table><tr><td>System</td><td>DOSFA</td></tr><tr><td>What: Data</td><td>Table: many value attributes.</td></tr><tr><td>How: Encode</td><td>Star plots.</td></tr><tr><td>How: Facet</td><td>Small multiples with matrix alignment.</td></tr><tr><td>How: Reduce</td><td>Attribute filtering.</td></tr></table>
@@ -100,7 +100,7 @@ The most straightforward use of item aggregation is within static visual encodin
 
 The idiom of histograms shows the distribution of items within an original attribute. Figure 13.5 shows a histogram of the distribution of weights for all of the cats in a neighborhood, binned into 5-pound blocks. The range of the original attribute is partitioned into bins, and the number of items that fall into each bin is computed and saved as a derived ordered attribute. The visual encoding of a histogram is very similar to bar charts, with a line mark that uses spatial position in one direction and the bins distributed along an axis in the other direction. One difference is that histograms are sometimes shown without space between the bars to visually imply continuity, whereas bar charts conversely have spaces between the bars to imply discretization. Despite their visual similarity, histograms are very different than bar charts. They do not show the original table directly; rather, they are an example of an aggregation idiom that shows a derived table that is more concise than the original dataset. The number of bins in the histogram can be chosen independently of the number of items in the dataset. The choice of bin size is crucial and tricky: a histogram can look quite different depending on the discretization chosen. One possible solution to the problem is to compute the number of bins based on dataset characteristics; another is to provide the user with controls to easily change the number of bins interactively, to see how the histogram changes.
 
-![](images/14bf435244e73c6da836599b474365aecd4d07584984b181d9c866a955db2cf7.jpg)  
+![](images/14bf435244e73c6da836599b474365aecd4d07584984b181d9c866a955db2cf7.webp)  
 Weight Class (lbs)   
 Figure 13.5. The histogram idiom aggregates an arbitrary number of items into a concise representation of their distribution.
 
@@ -114,7 +114,7 @@ Figure 13.6 shows a continuous scatterplot of a tornado air-flow dataset, with t
 
 Scatterplots began as a idiom for discrete, categorical data. They have been generalized to a mathematical framework of density functions for continuous data, giving rise to continuous scatterplots in the 2D case
 
-![](images/f510ad30bac5a13fb2299739420a98a3cd9bfe61aedf5e474e6976ad669cae2b.jpg)  
+![](images/f510ad30bac5a13fb2299739420a98a3cd9bfe61aedf5e474e6976ad669cae2b.webp)  
 Figure 13.6. The continuous scatterplot idiom uses color to show the density at each location, solving the problem of occlusion from overplotting and allowing scalability to large datasets. From [Bachthaler and Weiskopf 08, Figure 9].
 
 and continuous histograms in the 1D case [Bachthaler and Weiskopf 08]. Continuous scatterplots use a dense, space-filling 2D matrix alignment, where each pixel is given a different color. Although the idiom of continuous scatterplots has a similar name to the idiom of scatterplots, analysis via the framework of design choices shows that the approach is in fact very different.
@@ -131,10 +131,10 @@ The boxplot can be considered an item reduction idiom that provides an aggregate
 
 * Boxplots are also known as box-and-whisker diagrams.
 
-![](images/f7090132572025b0c0dcd7c0a5c7a5c1e7db50e33ed2900e6e3b6e187b9489af.jpg)  
+![](images/f7090132572025b0c0dcd7c0a5c7a5c1e7db50e33ed2900e6e3b6e187b9489af.webp)  
 (a)
 
-![](images/088ac795e727d9ea1b4dc36cebd2a59fbf846156e14a0d9a6d5acd0ca1534d0a.jpg)  
+![](images/088ac795e727d9ea1b4dc36cebd2a59fbf846156e14a0d9a6d5acd0ca1534d0a.webp)  
 (b)   
 Figure 13.7. The boxplot is an idiom presenting summary statistics for the distribution of a quantitative attribute, using five derived values. These plots illustrate four kinds of distributions: normal (n), skewed (s), peaked (k), and multimodal (mm). (a) Standard box plots. (b) Vase plots, which use horizontal spatial position to show density directly. From [Wickham and Stryjewski 12, Figure 5].
 
@@ -152,10 +152,10 @@ Figure 13.8 shows the example of SolarPlot, a radial histogram with an interacti
 
 <table><tr><td>Idiom</td><td>SolarPlot</td></tr><tr><td>What: Data</td><td>Table: one quantitative attribute.</td></tr><tr><td>What: Derived</td><td>Derived table: one derived ordered key attribute (bin), one derived quantitative value attribute (item</td></tr></table>
 
-![](images/00381a64b2f36f469cf6baa282539002c81d516cf778938737fb1c63ebe9a4cc.jpg)  
+![](images/00381a64b2f36f469cf6baa282539002c81d516cf778938737fb1c63ebe9a4cc.webp)  
 (a)
 
-![](images/c5303ecd0bcc1114024ac4b10609b2ab75b2e4b1e4cdc5cb57fc1848237c4f71.jpg)  
+![](images/c5303ecd0bcc1114024ac4b10609b2ab75b2e4b1e4cdc5cb57fc1848237c4f71.webp)  
   
 Figure 13.8. The SolarPlot circular histogram idiom provides indirect control of aggregation level by changing the circle size. (a) The small circle shows the increase in ticket sales over time. (b) Enlarging the circle shows seasonal patterns in addition to the gradual increase. From [Chuah 98, Figures 1 and 2].
 
@@ -167,12 +167,12 @@ The general design choice of hierarchical aggregation is to construct the derive
 
 The idiom of hierarchical parallel coordinates [Fua et al. 99] uses interactively controlled aggregation as a design choice to increase the scalability of the basic parallel coordinates visual encoding to hundreds of thousands of items. The dataset is transformed by computing derived data: a hierarchical clustering of the items. Several statistics about each cluster are computed, including the number of points it contains; the mean, minimum, and maximum values; and the depth in the hierarchy. A cluster is represented by a band of varying width and opacity, where the mean is in the middle and width at each axis depends on the minimum and
 
-![](images/903bc90b871bb937bff5ad77e180e27827d29f228523a8c3e817bdab17fe9390.jpg)
+![](images/903bc90b871bb937bff5ad77e180e27827d29f228523a8c3e817bdab17fe9390.webp)
 
-![](images/7481be47c37115561b2a72b8ea959a8c90401f4a0fe2e508a7d5cf1612d0c0e5.jpg)  
+![](images/7481be47c37115561b2a72b8ea959a8c90401f4a0fe2e508a7d5cf1612d0c0e5.webp)  
 (b)
 
-![](images/8743c1c4340e029e9c82bca4afe8a578c8d0cb6bc6366e89ee34afcbc71bb3d0.jpg)  
+![](images/8743c1c4340e029e9c82bca4afe8a578c8d0cb6bc6366e89ee34afcbc71bb3d0.webp)  
 (c)   
 Figure 13.9. Hierarchical parallel coordinates provide multiple levels of detail. (a) The single top cluster has large extent. (b) When several clusters are shown, each has a smaller extent. (c) When many clusters are shown, the proximity-based coloring helps them remain distinguishable from each other. From [Fua et al. 99, Figure 4].
 
@@ -182,13 +182,13 @@ The level of detail displayed at a global level for the entire dataset can be in
 
 <table><tr><td>Idiom</td><td>Hierarchical Parallel Coordinates</td></tr><tr><td>What: Data</td><td>Table.</td></tr><tr><td>What: Derived</td><td>Cluster hierarchy atop original table of items. Five per-cluster attributes: count, mean, min, max, depth.</td></tr><tr><td>How: Encode</td><td>Parallel coordinates. Color clusters by proximity in hierarchy.</td></tr><tr><td>How: Reduce</td><td>Interactive item aggregation to change level of detail.</td></tr><tr><td>Scale</td><td>Items: 10,000–100,000. Clusters: one dozen.</td></tr></table>
 
-![](images/46bd0a000453cf3f3df0c184b9cd2b0d58453406435f4ed16de0533dce33bb04.jpg)  
+![](images/46bd0a000453cf3f3df0c184b9cd2b0d58453406435f4ed16de0533dce33bb04.webp)  
 (a)
 
-![](images/1e5df29d1fa77d03128aab2dc1edd46f4f70fe31d5cc4e2e4ba6bc819e1af2c8.jpg)  
+![](images/1e5df29d1fa77d03128aab2dc1edd46f4f70fe31d5cc4e2e4ba6bc819e1af2c8.webp)  
 (b)
 
-![](images/0a9323edab3f997ec41993d6d4d8618f06c69d00cb4dade28f166077b920f26a.jpg)  
+![](images/0a9323edab3f997ec41993d6d4d8618f06c69d00cb4dade28f166077b920f26a.webp)  
 (c)   
 Figure 13.10. Modifiable Areal Unit Problem (MAUP) example, showing how different boundaries for aggregation regions lead to very different visual patterns on choropleth maps. (a) Central region is high density. (b) Central region is medium density. (c) Central region is low density. From http://www.e-education.psu.edu/geog486/l4 p7.html, Figure 4.cg.6.
 
@@ -200,20 +200,20 @@ The challenge of spatial aggregation is to take the spatial nature of data into 
 
 The geowigs family of idioms, namely, geographically weighted interactive graphics, provides sophisticated support for spatial aggregation using geographically weighted regression and geographically weighted summary statistics [Dykes and Brunsdon 07]. Figure 13.11 shows a multivariate geographic dataset used to explore social issues in 19th century France. The six quantitative attributes are population per crime against persons $( x l )$ , population per crime against property $( x 2 )$ , percentage who can read
 
-![](images/c9af486dcb0a3b30b5276d6d5e4d1ce5e01d8dea0bbde1f6a2e019ad1f6a059e.jpg)  
+![](images/c9af486dcb0a3b30b5276d6d5e4d1ce5e01d8dea0bbde1f6a2e019ad1f6a059e.webp)  
 (a)
 
-![](images/caee5784af551bb4b7d558654e9af01c55854a2c4e62a154f33d58ec0fc49ecd.jpg)
+![](images/caee5784af551bb4b7d558654e9af01c55854a2c4e62a154f33d58ec0fc49ecd.webp)
 
-![](images/3616bed1f9e3342c141f73db16ca1cb9ab727365a874bf95430ec249764b3a1d.jpg)  
+![](images/3616bed1f9e3342c141f73db16ca1cb9ab727365a874bf95430ec249764b3a1d.webp)  
 (b)
 
-![](images/7555f7ebb5949f043eb7d86e393fa0e76bc4c9fa3fa28ee7e0776f55433f0824.jpg)
+![](images/7555f7ebb5949f043eb7d86e393fa0e76bc4c9fa3fa28ee7e0776f55433f0824.webp)
 
-![](images/517ac69ee306f9613e10f0baa46c290bc8c4b299ed555bc9a7d6e5ff9491b2b7.jpg)  
+![](images/517ac69ee306f9613e10f0baa46c290bc8c4b299ed555bc9a7d6e5ff9491b2b7.webp)  
 (c)
 
-![](images/74cc9476f016d7eb3eb9f09ce2e3732cbb233578833527ababc8f6918ae7b019.jpg)  
+![](images/74cc9476f016d7eb3eb9f09ce2e3732cbb233578833527ababc8f6918ae7b019.webp)  
 (d)   
 Figure 13.11. Geowigs are geographically weighted interactive graphics. (a) A choropleth map showing attribute x1. (b) The set of gw-boxplots for all six attributes at two scales. (c) Weighting maps showing the scales: local and larger. (d) A gw-mean map at the larger scale. From [Dykes and Brunsdon 07, Figures 7a and 2].
 
@@ -260,14 +260,14 @@ Images, videos, and other multimedia documents are usually transformed to create
 
 A typical analysis scenario is complex enough that it is useful to break it down into a chained sequence, rather than just analyzing it as a single instance. In the first step, a low-dimensional table is derived from the high-dimensional table using multidimensional scaling. In the second step, the low-dimensional data is encoded as a color-coded scatterplot, according to a conjectured clustering. The user’s goal is a discovery task, to verify whether there are visible clusters and identify those that have semantic meaning given the documents that comprise them. Figure 13.12 shows a scatterplot view of a real-world document collection dataset, dimensionally reduced with the Glimmer multidimensional scaling (MDS) algorithm [Ingram et al. 09]. In this scenario, the user can interactively navigate within the scatterplot, and selecting a point shows document keywords in a popup display and the full text of the document in another view. In the third step, the user’s goal is to produce annotations by adding text labels to the verified clusters. Figure 13.13 summarizes this what–why– how analyis.
 
-![](images/ffd20df932bc839079bf29d372a6c00d71801b0146998e9f9e61f2a88d4219a4.jpg)
+![](images/ffd20df932bc839079bf29d372a6c00d71801b0146998e9f9e61f2a88d4219a4.webp)
 
-![](images/240fded854ef17201b702ed74e0a4f10ea87ca4055bcfdcbd82ee6d0ebdbc914.jpg)  
+![](images/240fded854ef17201b702ed74e0a4f10ea87ca4055bcfdcbd82ee6d0ebdbc914.webp)  
 Figure 13.12. Dimensionality reduction of a large document collection using Glimmer for multidimensional scaling. The results are laid out in a single 2D scatterplot, allowing the user to verify that the conjectured clustering shown with color coding is partially supported by the spatial layout. From [Ingram et al. 09, Figure 8].
 
-![](images/e9874d03c2963623ac5d45612741e0c65c2c7ca459dec219ee8a513ffeeab55b.jpg)
+![](images/e9874d03c2963623ac5d45612741e0c65c2c7ca459dec219ee8a513ffeeab55b.webp)
 
-![](images/e468fe71c4bc99f85340c63d09b76287b38abf9d4c72fbb26dcebf302b6a95bb.jpg)  
+![](images/e468fe71c4bc99f85340c63d09b76287b38abf9d4c72fbb26dcebf302b6a95bb.webp)  
 Figure 13.13. A chained sequence of what–why–how analysis instances for the scenario of dimensionality reduction of document collection data.
 
 <table><tr><td>Idiom</td><td>Dimensionality Reduction for Document Collections</td></tr><tr><td>What: Data</td><td>Text document collection.</td></tr><tr><td>What: Derived</td><td>Table with 10,000 attributes.</td></tr><tr><td>What: Derived</td><td>Table with two attributes.</td></tr><tr><td>How: Encode</td><td>Scatterplot, colored by conjectured clustering.</td></tr><tr><td>How: Reduce</td><td>Attribute aggregation (dimensionality reduction) with MDS.</td></tr><tr><td>Scale</td><td>Original attributes: 10,000. Derived attributes: two. Items: 100,000.</td></tr></table>
@@ -310,28 +310,28 @@ Dimensionality Reduction The foundational ideas behind multidimensional scaling 
 
 Elide Data
 
-![](images/7ba617344d6d180f1bd152a759ccaf625ef880b8d7208fae1d4090780dcf587a.jpg)
+![](images/7ba617344d6d180f1bd152a759ccaf625ef880b8d7208fae1d4090780dcf587a.webp)
 
 Superimpose Layer
 
-![](images/6cf98a1e42ff4571ab68e889ec7058cf10b4d8e2e108f443e2b3ad8d76312ba7.jpg)
+![](images/6cf98a1e42ff4571ab68e889ec7058cf10b4d8e2e108f443e2b3ad8d76312ba7.webp)
 
 Distor t Geometr y
 
-![](images/be7cc56dff48887d45b07b1e3f6e27d94e8579f92ebb9745713412ad695c3ea1.jpg)
+![](images/be7cc56dff48887d45b07b1e3f6e27d94e8579f92ebb9745713412ad695c3ea1.webp)
 
 # Reduce
 
 $\circled{ \div}$ Filter
 
-![](images/45509cef3706172b8dd6046b15f07ff0985008f852b213e963d72694fa5f53d3.jpg)
+![](images/45509cef3706172b8dd6046b15f07ff0985008f852b213e963d72694fa5f53d3.webp)
 
 $\circled{ \div}$ Aggregate
 
-![](images/0dd2cc7e0c7985062745c18fc3518e3f165fd3b30b5aae74d922b252e99c222f.jpg)
+![](images/0dd2cc7e0c7985062745c18fc3518e3f165fd3b30b5aae74d922b252e99c222f.webp)
 
 $\circled{  }$ Embed
 
-![](images/533a7c591d15141f600145074dc91398c3393cf955db3fe63e684af62183d74b.jpg)  
+![](images/533a7c591d15141f600145074dc91398c3393cf955db3fe63e684af62183d74b.webp)  
 Figure 14.1. Design choices for embedding focus information within context.
 

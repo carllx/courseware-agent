@@ -1,6 +1,6 @@
 # Chapter 7. Box 3: Users
 
-![](images/assets/lux3_0701.png)
+![](images/assets/lux3_0701.webp)
 
 ###### Figure 7-1. Box 3 of the Lean UX Canvas: Users
 
@@ -45,7 +45,7 @@ your colleagues’ minds
 ([Figure 7-2](#ch07.html_dogsdot_we_are_indebted_to_our_learned))? How
 do you know?
 
-![](images/assets/lux3_0702.png)
+![](images/assets/lux3_0702.webp)
 ###### Figure 7-2. Dogs. We are indebted to our learned colleague Adrian Howard for this concept.
 
 The same thing happens when someone says, “the user.” The proto-persona
@@ -104,7 +104,7 @@ device, like an iPhone, will completely change the way they interact
 with your product. We only want to write down the “differences that make
 a difference.”
 
-![](images/assets/lux3_0703.png)
+![](images/assets/lux3_0703.webp)
 
 ###### Figure 7-3. A completed proto-persona template
 
@@ -185,7 +185,7 @@ you’re trying to displace long-held tools like email or spreadsheets,
 you might be in for a tough fight. It’s good to get that information
 sooner rather than later.
 
-![](images/assets/lux3_0704.png)
+![](images/assets/lux3_0704.webp)
 
 ###### Figure 7-4. The banana slicer. Who buys these?
 

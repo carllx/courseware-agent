@@ -10,7 +10,7 @@
 > **Slide**: M3-01_The_Handoff_Crisis
 > **Layout**: `Split`
 > **Scene**: 左侧展示传统工作流的“交付死亡谷”：设计师移交一个沉重的 AE 或 Principle 演示源文件，旁边标明“无法解析的黑盒”；右侧展示 Vibe Coding 时代的全新工作流：设计师直接通过 Prompt 调用 Framer Motion 库，生成带有物理参数的 JSX 代码结构树。
-> *   **Asset**: ![预览](../public/slides/M3-01_The_Handoff_Crisis.png)
+> *   **Asset**: ![预览](../public/slides/M3-01_The_Handoff_Crisis.webp)
 > **知识节点**: `w10-ai-prompt-gsap-workflow`
 
 > [STORY TIME]
@@ -25,7 +25,7 @@
 > **Slide**: M3-02_Prompt_for_Physics
 > **Layout**: `Full`
 > **Scene**: 一张结构图展示“外行指令”与“内行 Prompt”的区别对比。外行：“让这个按钮弹一下（Make it bouncy）”；内行：“使用弹簧物理模型（Spring），设定质量（Mass）为 1.2，阻尼（Damping）为 14，刚度（Stiffness）限制在 120，实现带有回落余韵的重型物理按下反馈”。
-> *   **Asset**: ![预览](../public/slides/M3-02_Prompt_for_Physics.png)
+> *   **Asset**: ![预览](../public/slides/M3-02_Prompt_for_Physics.webp)
 > **Search**: `prompt engineering for Framer Motion spring physics properties`
 > **知识节点**: `frontend-animation-techniques`
 
@@ -45,7 +45,7 @@
 > **Slide**: M3-02c_ScrollTrigger_Architecture
 > **Layout**: `Flow`
 > **Scene**: 滚动事件降维拦截架构图。左侧是传统的 `window.onscroll` 事件直接冲击并且锁死主线程的混乱线团；右侧则是现代库通过时间轴预计算截断监听，将用户的滚动位移比例安全转化为补间动画 timeline 进而避免管线阻塞的干净防波堤。
-> *   **Asset**: ![预览](../public/slides/M3-02c_ScrollTrigger_Architecture.png)
+> *   **Asset**: ![预览](../public/slides/M3-02c_ScrollTrigger_Architecture.webp)
 > **知识节点**: `frontend-animation-techniques`
 
 > [TEACHING MOMENT]
@@ -60,7 +60,7 @@
 > **Slide**: M3-02B_Lottie_vs_Code
 > **Layout**: `Split`
 > **Scene**: 左右两屏的底层解析对比剖视图画。左侧挂载一块包含复杂矢量描图路径关键帧的 Lottie/Bodymovin JSON 文件运行原理，旁边标写“定格录制播放器”；右侧展示 AI 书写的原生 CSS `@keyframes` 配合 `transform: translate3d` 硬件图层合成计算网格示意图，标写“像素级实时重绘掌控引擎”。
-> *   **Asset**: ![预览](../public/slides/M3-02B_Lottie_vs_Code.png)
+> *   **Asset**: ![预览](../public/slides/M3-02B_Lottie_vs_Code.webp)
 > **知识节点**: `frontend-animation-techniques`
 
 > [STORY TIME]
@@ -75,7 +75,7 @@
 > **Slide**: M3-02b_Lottie_vs_Native
 > **Layout**: `Comparison`
 > **Scene**: 两列对比表。左列"Lottie JSON"：录制回放、固定循环、漠视窗口变化、无法响应系统主题、文件体积大。右列"AI原生代码"：活体状态机、响应式布局、自动同步Design Tokens、内存警告自动降级、按需渲染。
-> *   **Asset**: ![预览](../public/slides/M3-02b_Lottie_vs_Native.png)
+> *   **Asset**: ![预览](../public/slides/M3-02b_Lottie_vs_Native.webp)
 > **知识节点**: `ai-driven-animation-generation`
 
 这张对比表请大家牢记。在你做技术选型的决策时刻，判断标准只有一个：你的动效需要"听话"还是需要"活着"？如果只是一次性播放的品牌开屏动画，Lottie 完全够用。但如果你的组件需要感知环境、响应交互、适配主题——那它必须是扎根在代码生态中的原生活体。
@@ -99,7 +99,7 @@
 > **Slide**: M3-03b_Rendering_Pipeline
 > **Layout**: `Flow`
 > **Scene**: 浏览器渲染管线五阶段流程图，从左到右：Script(JS执行) → Style(样式计算) → Layout(排版，标红加粗) → Paint(绘制，标黄) → Composite(合成，标绿)。Layout阶段有一个向下的箭头指向"触发属性：margin, width, height, top"并标注"🔴 最昂贵"；Composite阶段指向"触发属性：transform, opacity"并标注"🟢 GPU加速"。
-> *   **Asset**: ![预览](../public/slides/M3-03b_Rendering_Pipeline.png)
+> *   **Asset**: ![预览](../public/slides/M3-03b_Rendering_Pipeline.webp)
 > **知识节点**: `frontend-animation-techniques`
 
 > 浏览器渲染 DOM 节点时，必须走完这条流水线：加载结构 → 计算样式 → Layout 排版 → Paint 绘制 → Composite 合成。
@@ -114,7 +114,7 @@
 > **Slide**: M3-04b_Transform_vs_Margin
 > **Layout**: `Comparison`
 > **Scene**: 左右对比。左侧"危险操作"：代码 `margin-left: 100px`，下方显示 Chrome DevTools 性能面板中大量红色 Layout 重排条，帧率跌至 15fps。右侧"安全操作"：代码 `transform: translateX(100px)`，下方性能面板绿色一片，帧率稳定 60fps。
-> *   **Asset**: ![预览](../public/slides/M3-04b_Transform_vs_Margin.png)
+> *   **Asset**: ![预览](../public/slides/M3-04b_Transform_vs_Margin.webp)
 > **知识节点**: `frontend-animation-techniques`
 
 这张图就是你和大模型协作时的底线红线图。左边的代码让 CPU 每帧都在重新计算整个页面的几何布局，右边的代码让 GPU 在独立图层上轻松完成位移。性能差距可以达到十倍以上。下次当你审查智能体交接的动态源码时，第一件事就是搜索 `margin`、`width`、`height`、`top`、`left` 这些关键词——如果它们出现在动画属性中，立刻要求重新生成。
@@ -123,7 +123,7 @@
 > **Slide**: M3-03_State_Machine_Animation
 > **Layout**: `Split`
 > **Scene**: 左侧展示初级开发经常遗漏的缺陷场景：一个抽屉菜单在用户点击关闭时毫无退场动画，硬生生直接消失断裂；右侧展示 AI 大模型自动补齐的 `AnimatePresence` 生命周期状态机控制流程结构截帧，展示完整的退出生命节点拦截。
-> *   **Asset**: ![预览](../public/slides/M3-03_State_Machine_Animation.png)
+> *   **Asset**: ![预览](../public/slides/M3-03_State_Machine_Animation.webp)
 > **知识节点**: `ai-driven-animation-generation`
 
 > [STORY TIME]
@@ -138,7 +138,7 @@
 > **Slide**: M3-04_Generative_UI_Motion
 > **Layout**: `Full`
 > **Scene**: 远期视野：生成式 UI 动效系统架构原理图。展示一个大语言模型不光生成文案，还根据文本的情绪分析结论（如系统报错判定为焦急情绪），实时向底层的 CSS/JS 参数端口发送剧烈震动相关的变量指令，实现动效本身的 AI 生成化渲染调整。
-> *   **Asset**: ![预览](../public/slides/M3-04_Generative_UI_Motion.png)
+> *   **Asset**: ![预览](../public/slides/M3-04_Generative_UI_Motion.webp)
 > **知识节点**: `ai-driven-animation-generation`
 
 > [TEACHING MOMENT]
@@ -153,7 +153,7 @@
 > **Slide**: M3-05b_Generative_UI_Architecture
 > **Layout**: `Flow`
 > **Scene**: 生成式 UI 动效系统链路图。从左至右：用户输入文本 → NLP情绪分析引擎（标注"积极/警告/紧急"三个输出） → 动画参数生成器（输出缓动曲线类型、振幅、频率） → 前端渲染引擎实时应用。链路下方标注"Runtime Generation, Not Pre-built"。
-> *   **Asset**: ![预览](../public/slides/M3-05b_Generative_UI_Architecture.png)
+> *   **Asset**: ![预览](../public/slides/M3-05b_Generative_UI_Architecture.webp)
 > **知识节点**: `ai-driven-animation-generation`
 
 想象这样一个场景：你在客服对话框里输入"我的订单丢失了，已经等了三天！"后台 AI 解析到愤怒情绪，立刻向动画引擎发送高频震荡参数。于是整个对话界面的边框出现急促的警示红色脉冲，配合一个紧急优先处理的标签弹入。你的情绪被系统读懂了——不是通过一句客套的"请稍候"，而是通过界面本身的动态变化。这就是生成式微交互的终极愿景。在这套科幻却即将落地的闭环链条里，数字系统真正实现了从“被动响应”到“主动共情”的升维跨越。屏幕将变成能敏锐捕捉心跳的电子视网膜，大模型通过分析打字力度与语境，把情绪指纹无缝映射到每一个按钮的形变与阴影深浅之中。
@@ -172,7 +172,7 @@
 > **Slide**: M3-06_Reduced_Motion_Code
 > **Layout**: `Split`
 > **Scene**: 展示一段 CSS 媒体查询代码片段。上半部是 `@media (prefers-reduced-motion: reduce)` 内部将所有 `animation-duration` 和 `transition-duration` 重置为 `0.01ms` 的规则；下半部是 React 组件中使用 `useReducedMotion()` 自定义钩子根据返回值切换动画模式的逻辑判断代码。
-> *   **Asset**: ![预览](../public/slides/M3-06_Reduced_Motion_Code.png)
+> *   **Asset**: ![预览](../public/slides/M3-06_Reduced_Motion_Code.webp)
 > **知识节点**: `frontend-animation-techniques`
 
 正如这段高亮的代码截片所展示的那样，这就是为弱势群体织就的那道隐形救命安全网。当这段带有系统底层权限侦听逻辑的分支被大模型毫不遗漏地强制植入到你的组件渲染树深处之后，宿主智能设备的操作系统内核只要检测到当前用机的主人开启了全局的"减弱动态效果"求生开关，那么页面流层中原本即将肆意上演的所有极为粗暴的大跨度复杂物理冲击位移，都会在微秒间被极其冷酷地静默物理降维抹杀，就地替换为最温和且没有任何空间眩晕压迫感的透明度渐变交融。普通的视力健全用户甚至很长一段时间都不会察觉到少了一块什么东西，但那些正饱受晕动症恶心折磨的障碍群体的脆弱前庭神经海马体，绝对会在内心深处由衷地为你这份不可见的伟大同理心和极度克制的代码操守发报致谢。
@@ -181,7 +181,7 @@
 > **Slide**: M3-05_Accessible_Motion
 > **Layout**: `Split`
 > **Scene**: 左侧展示普通用户的设备系统设置页面，显示“减弱动态效果”处于关闭状态，对应的 App 界面展示欢快且带有物理阻尼的深层弹跳卡片；右侧展示特殊需求用户的设备系统中，“Accessibility -> 减弱动态效果（Reduce Motion）”处于开启激活动态，此时 App 界面自动屏蔽了所有 X/Y 轴大跨度冲击位移，直接降维成温和普通的透明度渐隐变色交融。
-> *   **Asset**: ![预览](../public/slides/M3-05_Accessible_Motion.png)
+> *   **Asset**: ![预览](../public/slides/M3-05_Accessible_Motion.webp)
 > **知识节点**: `frontend-animation-techniques`
 
 > [STORY TIME]

@@ -265,7 +265,7 @@ Probes are a useful device for getting more information, especially ne
 
 Interviews are often conducted with one interviewer and one interviewee, but it is also common to interview people in groups. One form of group interview that is sometimes used in interaction  design activities is  the focus  group. Normally, three  to ten  people  are  involved, and the discussion is led by a trained facilitator. Participants are selected to provide a representative  sample of the target population. For example, in the evaluation of an  interactive university  campus map, a  group of  administrators, faculty, students, and  potential visitors may  form  three separate focus groups  because they  use the map  for different purposes. In requirements activities, a focus group may be held in order to identify conflicts in expectations or terminology from different stakeholders.
 
-![](images/bb207de9a6df3e287144d482185d8d54091921d51df22b4a47f6fc7664cbb69b.jpg)  
+![](images/bb207de9a6df3e287144d482185d8d54091921d51df22b4a47f6fc7664cbb69b.webp)  
 The focus group hated it.So he showed it toanout-of-focus group.   
 Source: Mike Baldwin / Cartoon Stock
 
@@ -293,18 +293,18 @@ Interviewees may  not understand  jargon or complex language  and might
 
 Several devices are available for reading ebooks, watching movies, and browsing photographs (see Figure 8.3). The design differs between makes and models, but they are all aimed at providing a comfortable user experience.
 
-![](images/9fbfc1ca1312cd15c087056a0dec9b3f3cef9d6beb90d74b82ba31ddb0942200.jpg)  
+![](images/9fbfc1ca1312cd15c087056a0dec9b3f3cef9d6beb90d74b82ba31ddb0942200.webp)  
 (a)
 
-![](images/de070df7ba17c0e5f08e5e0ced5669177396215d75b696903b3920f9ab401486.jpg)  
+![](images/de070df7ba17c0e5f08e5e0ced5669177396215d75b696903b3920f9ab401486.webp)  
 (b)
 
-![](images/6dc169caf914f6b29468e1107792223e5e656e768989b909af92835db57eb85e.jpg)  
+![](images/6dc169caf914f6b29468e1107792223e5e656e768989b909af92835db57eb85e.webp)  
 (c)
 
 (d)   
 Figure 8.3  (a) Kobo’s eReader, (b) Amazon’s Kindle, (c) Apple’s iPad, and (d)  Samsung Galaxy phone   
-![](images/62ae3d5939bfde8f830c4cc5bfff07258e41d7b0904e491248a243174d9fecf1.jpg)  
+![](images/62ae3d5939bfde8f830c4cc5bfff07258e41d7b0904e491248a243174d9fecf1.webp)  
 Source: (a) Hadrian/Shutterstock, (b) Helen Sharp, (c) Mark Lennihan / AP Images, and (d) Helen Sharp
 
 The developers of a new device for reading ebooks want to find out how appealing it will be to young people aged 14–16, so they have decided to conduct some interviews.
@@ -413,7 +413,7 @@ Conducting  focus  groups  remotely  presents  further  challenges  becau
 
 Whether  conducted  in a  face-to-face  or remote  setting,  interviews  can  benefit  from  using artifacts relevant to the goal of the study as a focus for discussion. These props can provide context for the interviewer and interviewees and help to ground the data in concrete examples. Example props are personas, prototypes, or scenarios (examples of these are covered in Chapter  11,  “Discovering  Requirements,”  and  Chapter  12,  “Design,  Prototyping,  and Construction”). Figure 8.4 illustrates the use of personas in a focus group setting.
 
-![](images/244d85f51f9ac29002a89b63af3dd425b1f3434eae6ea3a06342142731e0ca7a.jpg)  
+![](images/244d85f51f9ac29002a89b63af3dd425b1f3434eae6ea3a06342142731e0ca7a.webp)  
 Figure 8.4  Enriching a focus group with personas displayed on the wall for all participants to see
 
 Almohannad Albastaki et al. (2020) investigated the feasibility of using a virtual experience  prototype  to  augment  remote  interviews. They  investigated  robotic  expressions  with design  experts using a  nonimmersive  virtual  reality simulation. In their  study, participants were  asked  to  explore  a  simulation  of  an  urban  robot  operating  in  an  alleyway  at  night
@@ -477,7 +477,7 @@ CNN news
 
 (b)
 
-![](images/2c8481ba567f8a28b53e9b2d684b1054caee8305adc68605e89002988938f2e8.jpg)  
+![](images/2c8481ba567f8a28b53e9b2d684b1054caee8305adc68605e89002988938f2e8.webp)  
 Figure 8.5  (a) Radio buttons are used when only one option can be selected. (b) Check boxes are used when several options can be selected. (c) A drop-down menu for currency.
 
 (c)
@@ -514,7 +514,7 @@ In both cases, respondents would be asked to tick one of the boxes,�
 
 Semantic differential scales explore a range of bipolar attitudes about a particular item, each of  which is  represented  as a pair  of  adjectives. The  participant  is  asked  to choose  a  point between the two extremes to indicate agreement with the poles, as shown in Figure 8.6. The score for the investigation is found by summing the  scores for each bipolar pair. Scores are then computed across groups of participants. Notice that in this example the poles are mixed so that good and bad features are distributed on the right and the left. In this example, there are seven positions on the scale.
 
-![](images/85ad52d93bfe6757e98dfb20864cebb9f63c53733ae1f4a0a1c96c7e588461b3.jpg)  
+![](images/85ad52d93bfe6757e98dfb20864cebb9f63c53733ae1f4a0a1c96c7e588461b3.webp)  
 Figure 8.6  An example of a semantic differential scale
 
 # BOX 8.3
@@ -531,7 +531,7 @@ When designing a scale, one rule of thumb is to use a small number, such 
 
 Spot four poorly designed features in the excerpt from a questionnaire on the use of fitness trackers in Figure 8.7.
 
-![](images/5e8180ce36db20d9b1544bc24702940858ad4d997fbdf1e9b9c4d4d949fe3d91.jpg)  
+![](images/5e8180ce36db20d9b1544bc24702940858ad4d997fbdf1e9b9c4d4d949fe3d91.webp)  
 Figure 8.7  A questionnaire with poorly designed features
 
 # Comment
@@ -556,7 +556,7 @@ While  questionnaires are most commonly online, paper questionnaires are
 
 Online questionnaires are interactive and can include check boxes, radio buttons, pulldown and pop-up menus, help screens, graphics, or videos (see Figure 8.8). They can also provide immediate data validation; for example, the entry must be a number between 1 and 20 and automatically skip questions that are irrelevant to some respondents, such as questions aimed only at teenagers. Other advantages of online questionnaires include faster response rates and automatic transfer of responses into a database for analysis (Toepoel, 2016).
 
-![](images/ee3c697fa299571293e0dfaf8422a79ce3cc66c081df6562ba4db4b713e6754d.jpg)  
+![](images/ee3c697fa299571293e0dfaf8422a79ce3cc66c081df6562ba4db4b713e6754d.webp)  
 Figure 8.8  An excerpt from a web-based questionnaire showing check boxes, radio buttons, and pull-down menus
 
 Source: Microsoft Corporation
@@ -761,14 +761,14 @@ One of the problems with observation is that the observer doesn’t k
 Imagine observing someone in a lab setting, who has  been asked to evaluate the interface of the web search engine Lycos.com. The participant is told to look for an ebike for a 10-year-old child. They are told to type www.lycos.com and then proceed however they think best. They type the URL and get a screen similar to the one in Figure 8.9.
 
 Figure 8.9  Home page of Lycos search engine   
-![](images/9fff2370bf575aa497f4459838ded995753ca8b27e65ba12bd388f3a8cbaeded.jpg)  
+![](images/9fff2370bf575aa497f4459838ded995753ca8b27e65ba12bd388f3a8cbaeded.webp)  
 Source: Lycos
 
 Next,  they  type  child's  ebike  in  the  search  box. They  get  a  screen  similar  to  the  one shown in Figure 8.10. They are silent. What is going on? What are they thinking? One way
 
 around the problem of knowing what they are doing is to collect a think-aloud protocol, a technique developed by Anders Ericsson  and Herbert Simon (1984) for examining people’s problem-solving  strategies. The technique  requires  people to  say  out  loud  everything  that they are thinking and trying to do so that their thought processes are externalized.
 
-![](images/4f0e357c1da80675ead9f1428ac2ec185033ccecf57e6a3b149a64b1fa3ae7c6.jpg)  
+![](images/4f0e357c1da80675ead9f1428ac2ec185033ccecf57e6a3b149a64b1fa3ae7c6.webp)  
 Figure 8.10 The screen that appears in response to searching for “child’s ebike”
 
 # LYCOS

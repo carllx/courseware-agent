@@ -12,10 +12,10 @@ The most common visual encoding idiom for tree and network data is with node–l
 
 Figure 9.2(b) shows a small tree of a few hundred nodes laid out with a spline radial layout. This layout uses essentially the same algorithm for density without overlap, but the visual encoding is radial rather than rectilinear: the depth of the tree is encoded as distance away from the center of the circle. Also, the links of
 
-![](images/40138097e6d8b4b27f3aaee2cd7ed5aafb1fbb5fa08401062b672c42316f62c3.jpg)  
+![](images/40138097e6d8b4b27f3aaee2cd7ed5aafb1fbb5fa08401062b672c42316f62c3.webp)  
 (a)
 
-![](images/962029e55e8541718a7be3938fb57acd0ab80ca2cb8dd9aca5826b31b48cf5b4.jpg)  
+![](images/962029e55e8541718a7be3938fb57acd0ab80ca2cb8dd9aca5826b31b48cf5b4.webp)  
 (b)   
 Figure 9.2. Node–link layouts of small trees. (a) Triangular vertical for tiny tree. From [Buchheim et al. 02, Figure 2d]. (b) Spline radial layout for small tree. From http://mbostock.github.com/d3/ex/tree.html.
 
@@ -23,10 +23,10 @@ the graph are drawn as smoothly curving splines rather than as straight lines.
 
 Figure 9.3(a) shows a larger tree of 5161 nodes laid out as a rectangular horizontal node–link diagram, with the root on the left and the leaves stretching out to the right. The edges are colored with a purple to orange continuous colormap according to the Strahler centrality metric discussed in Section 3.7.2. The spatial layout is fundamentally the same as the triangular one, but from this zoomed-out position the edges within a subtree form a single perceptual block where the spacing in between them cannot be seen. Figure 9.3(b) shows the same tree laid out with the BubbleTree algorithm [Grivet et al. 06]. BubbleTree is a radial rather than rectilinear approach where subtrees are laid out in full circles rather than partial circular arcs. Spatial position does encode information about tree depth, but as relative distances to the center of the parent rather than as absolute distances in screen space.
 
-![](images/488e4ae12b2d2ed02f6a23643b63be87d032fcd43db2f6ed52ae3940ee8f70d8.jpg)  
+![](images/488e4ae12b2d2ed02f6a23643b63be87d032fcd43db2f6ed52ae3940ee8f70d8.webp)  
 (a)
 
-![](images/a0fdf7038a814d15b182b585dfa480379fb868bf31473bd67e8c059d1bc87562.jpg)  
+![](images/a0fdf7038a814d15b182b585dfa480379fb868bf31473bd67e8c059d1bc87562.webp)  
 (b)   
 Figure 9.3. Two layouts of a 5161-node tree. (a) Rectangular horizontal node–link layout. (b) BubbleTree node–link layout.
 
@@ -48,10 +48,10 @@ Force-directed network layout idioms typically do not directly use spatial posit
 
 Analyzing the visual encoding created by force-directed placement is somewhat subtle. Spatial position does not directly encode any attributes of either nodes or links; the placement algorithm uses it indirectly. A tightly interconnected group of nodes with many links between them will often tend to form a visual clump, so spatial proximity does indicate grouping through a strong perceptual cue. However, some visual clumps may simply be artifacts: nodes that have been pushed near each other because they were repelled from elsewhere, not because they are closely connected in the network. Thus, proximity is sometimes meaningful but sometimes arbitrary; this ambiguity can mislead the user. This situation is a specific instance of the general problem that occurs in all idioms where spatial position is implicitly chosen rather than deliberately used to encode information.
 
-![](images/67b56107f23eb11c54a6eb1496732d43c77fa7ed063a93b396039ab8173dd33e.jpg)  
+![](images/67b56107f23eb11c54a6eb1496732d43c77fa7ed063a93b396039ab8173dd33e.webp)  
 (a)
 
-![](images/7c8d9dd4e1f993e65f6bb779565ebc9b565c14da1f20844a97cbe258d885a8e6.jpg)  
+![](images/7c8d9dd4e1f993e65f6bb779565ebc9b565c14da1f20844a97cbe258d885a8e6.webp)  
 (b)   
 Figure 9.4. Node–link layouts of small networks. (a) Force-directed placement of small network of 75 nodes, with size coding for link attributes. (b) Larger network, with size coding for node attributes. From http://bl.ocks.org/ mbostock/4062045 and http://bl.ocks.org/1062288.
 
@@ -76,10 +76,10 @@ layout with the more and more complex versions, both the speed and quality of th
 
 Figure 9.5(a) shows a network of 7220 nodes and 13,800 edges using the multilevel scalable force-directed placement (sfdp) algorithm $[ \mathrm { H u } ~ 0 5 ]$ , where the edges are colored by length. Significant cluster structure is indeed visible in the layout, where the dense clusters with short orange and yellow edges can be distinguished from the long blue and green edges between them. However, even these sophisticated idioms hit their limits with sufficiently large networks and fall prey to the hairball problem. Figure 9.5(b) shows a network of 26,028 nodes and 100,290 edges, where the sfdp layout does not show much visible structure. The enormous number of overlapping lines leads to overwhelming visual clutter caused by occlusion.
 
-![](images/201f411f5ad8f4f07c20fede300241e0257e49f1079fb49da7aa1c298e4f6c8c.jpg)  
+![](images/201f411f5ad8f4f07c20fede300241e0257e49f1079fb49da7aa1c298e4f6c8c.webp)  
 (a)
 
-![](images/62e78393203182b4d2369bd894da2b1e115d0c1fe09ec04e4ba9a037a7f60ca6.jpg)  
+![](images/62e78393203182b4d2369bd894da2b1e115d0c1fe09ec04e4ba9a037a7f60ca6.webp)  
   
 Figure 9.5. Multilevel graph drawing with sfdp [Hu 05]. (a) Cluster structure is visible for a large network of 7220 nodes and 13,800 edges. (b) A huge graph of 26,028 nodes and 100,290 edges is a “hairball” without much visible structure. From [Hu 14].
 
@@ -99,13 +99,13 @@ For undirected networks where links are symmetric, only half of the matrix needs
 
 Adjacency matrix views use 2D alignment, just like the tabular matrix views covered in Section7.5.2.
 
-![](images/ab918f43b2a8a3a98c995f65ac269275fa11aefc79de9683e51e99012a43c72e.jpg)  
+![](images/ab918f43b2a8a3a98c995f65ac269275fa11aefc79de9683e51e99012a43c72e.webp)  
 (a)
 
-![](images/ec80f2e2bcf3b1fd4209df928c8d74b2172544f4bb1e6dab047425fa3ca45571.jpg)  
+![](images/ec80f2e2bcf3b1fd4209df928c8d74b2172544f4bb1e6dab047425fa3ca45571.webp)  
 (b)
 
-![](images/f9959abcfd4b3f9375e04b099ce2df1ccff25e74d65a97ffef0310ce45899be7.jpg)  
+![](images/f9959abcfd4b3f9375e04b099ce2df1ccff25e74d65a97ffef0310ce45899be7.webp)  
 (c)   
 Figure 9.6. Comparing node–link matrix and matrix views of a network. (a) Node–link and matrix views of small network. (b) Matrix view of larger network. (c) Node–link view of larger network. From [Gehlenborg and Wong 12, Figures 1 and 2].
 
@@ -137,7 +137,7 @@ One major weakness of matrix views is unfamiliarity: most users are able to easi
 
 Reordering is discussed further in Section 7.5.
 
-![](images/cd08fc961b72b5c4be222b94b0f33261fcfc066a85fd325db63a6826b017ed00.jpg)  
+![](images/cd08fc961b72b5c4be222b94b0f33261fcfc066a85fd325db63a6826b017ed00.webp)  
 Figure 9.7. Characteristic patterns in matrix views and node–link views: both can show cliques and clusters clearly. From [McGuffin 12, Figure 6].
 
 structure of node subsets where edges connect each node in one subset with one in another is salient, but different, in both views. The degree of a node, namely, the number of edges that connect to it, can be found by counting the number of filled-in cells in a row or column.
@@ -156,7 +156,7 @@ Containment marks are very effective at showing complete information about hiera
 
 The idiom of treemaps is an alternative to node–link tree drawings, where the hierarchical relationships are shown with containment rather than connection. All of the children of a tree node are enclosed within the area allocated that node, creating a nested layout. The size of the nodes is mapped to some attribute of the node. Figure 9.8 is a treemap view of the
 
-![](images/276175e811b4fba43da756768954eb6a289ce2fb23498ed806e4eeaefcd3a91b.jpg)  
+![](images/276175e811b4fba43da756768954eb6a289ce2fb23498ed806e4eeaefcd3a91b.webp)  
 Figure 9.8. Treemap layout showing hierarchical structure with containment rather than connection, in contrast to the node–link diagrams of the same 5161-node tree in Figure 9.3.
 
 same dataset as Figure 9.3, a 5161-node computer file system. Here, node size encodes file size. Containment marks are not as effective as the pairwise connection marks for tasks focused on topological structure, such as tracing paths through the tree, but they shine for tasks that pertain to understanding attribute values at the leaves of the tree. They are often used when hierarchies are shallow rather than deep. Treemaps are very effective for spotting the outliers of very large attribute values, in this case large files.
@@ -167,23 +167,23 @@ Figure 9.9 shows seven different visual encoding idioms for tree data. Two of th
 
 Although connection and containment marks that depict the link structure of the network explicitly are very common ways to encode networks, they are not the only way. In most of the trees in Figure 9.9, the spatial position channel is explicitly used to show
 
-![](images/bf47d383fdeee22ad77fe9c4943bf833e35f51a95e75e16b560d1f5f34548d69.jpg)  
+![](images/bf47d383fdeee22ad77fe9c4943bf833e35f51a95e75e16b560d1f5f34548d69.webp)  
 (a)
 
-![](images/589d9e59ab5573e672490c0df0cb15aee9daa50d570b96cd3b500b828c09f575.jpg)  
+![](images/589d9e59ab5573e672490c0df0cb15aee9daa50d570b96cd3b500b828c09f575.webp)  
 (b)
 
-![](images/d780f4359bdc84aa6ed0bc290055da574a46382b2da4995a776493bb7df3b0e5.jpg)  
+![](images/d780f4359bdc84aa6ed0bc290055da574a46382b2da4995a776493bb7df3b0e5.webp)  
 (c)
 
-![](images/956a708f9474b5a48ad9f3043bf1db040e2436440cda2a985356b21e870c756a.jpg)  
+![](images/956a708f9474b5a48ad9f3043bf1db040e2436440cda2a985356b21e870c756a.webp)  
 (d)
 
-![](images/cda5dc6b7ac46de06d4132f688937ac97bf473d122e7f69f9ff94504f1ba18a3.jpg)
+![](images/cda5dc6b7ac46de06d4132f688937ac97bf473d122e7f69f9ff94504f1ba18a3.webp)
 
-![](images/bd0d812fd2507ec5c6a73bbc94e3a86034e2243512268a0893cb1dd159761f03.jpg)
+![](images/bd0d812fd2507ec5c6a73bbc94e3a86034e2243512268a0893cb1dd159761f03.webp)
 
-![](images/52c73367f6e779b050ddf924f941e45365e395f941403c237f986365289d4ccb.jpg)  
+![](images/52c73367f6e779b050ddf924f941e45365e395f941403c237f986365289d4ccb.webp)  
 (g)   
 Figure 9.9. Seven visual encoding idioms showing the same tree dataset, using different combinations of visual channels. (a) Rectilinear vertical node–link, using connection to show link relationships, with vertical spatial position showing tree depth and horizontal spatial position showing sibling order. (b) Icicle, with vertical spatial position and size showing tree depth, and horizontal spatial position showing link relationships and sibling order. (c) Radial node– link, using connection to show link relationships, with radial depth spatial position showing tree depth and radial angular position showing sibling order. (d) Concentric circles, with radial depth spatial position and size showing tree depth and radial angular spatial position showing link relationships and sibling order. (e) Nested circles, using radial containment, with nesting level and size showing tree depth. (f) Treemap, using rectilinear containment, with nesting level and size showing tree depth. (g) Indented outline, with horizontal spatial position showing tree depth and link relationships and vertical spatial position showing sibling order. From [McGuffin and Robert 10, Figure 1].
 
@@ -198,13 +198,13 @@ Containment is often used for exploring such compound networks. In the sfdp exam
 * The term multilevel network is sometimes used as a synonym for compound network.   
 Cluster hierarchies are discussed further in Section 7.5.2.
 
-![](images/2266cd92c9829d2f0f651cf31289557c9104a1a1bd55b7490e65faa8eea3eb3e.jpg)  
+![](images/2266cd92c9829d2f0f651cf31289557c9104a1a1bd55b7490e65faa8eea3eb3e.webp)  
 (a)
 
-![](images/53cdeeadefb4f44630796869769adb6a0ba3412368f6f5b52eafaad94bc0434c.jpg)  
+![](images/53cdeeadefb4f44630796869769adb6a0ba3412368f6f5b52eafaad94bc0434c.webp)  
 (b)
 
-![](images/f0f2f1ab1ee372914f59b58136b7f27939828dc8cffbd7902768cf9eb2cdf975.jpg)  
+![](images/f0f2f1ab1ee372914f59b58136b7f27939828dc8cffbd7902768cf9eb2cdf975.webp)  
   
 Figure 9.10. GrouseFlocks uses containment to show graph hierarchy structure. (a) Original graph. (b) Cluster hierarchy built atop the graph, shown with a node– link layout. (c) Network encoded using connection, with hierarchy encoded using containment. From [Archambault et al. 08, Figure 3].
 
@@ -230,29 +230,29 @@ Treemaps Treemaps were first proposed at the University of Maryland [Johnson and
 
 # Encode Map
 
-![](images/19e7001ca8c7ddc57580baa2497bca3e60a829dd10b24464cf21322625a39bb2.jpg)
+![](images/19e7001ca8c7ddc57580baa2497bca3e60a829dd10b24464cf21322625a39bb2.webp)
 
 # Color
 
 Color Encoding
 
-![](images/39eb33f6596656888ed7e6751f0d7f408bf9d735e7e358bba3bd8bfe8dc164ae.jpg)
+![](images/39eb33f6596656888ed7e6751f0d7f408bf9d735e7e358bba3bd8bfe8dc164ae.webp)
 
 Saturation
 
-![](images/b23276abfc45abf9d8a0916ef58a7843510bf5ef6425a959c81175f93c4112d3.jpg)
+![](images/b23276abfc45abf9d8a0916ef58a7843510bf5ef6425a959c81175f93c4112d3.webp)
 
-![](images/de9648fc7e75e6d7f9a9b280990a3e0148bdd29201d37c0e2d5dc623fd1da6ba.jpg)
+![](images/de9648fc7e75e6d7f9a9b280990a3e0148bdd29201d37c0e2d5dc623fd1da6ba.webp)
 
-![](images/416f52359f01f435e19e4f54003aef552836400b9b6d4bf3f1ff4479749b79e8.jpg)
+![](images/416f52359f01f435e19e4f54003aef552836400b9b6d4bf3f1ff4479749b79e8.webp)
 
-![](images/11ac60a97748b73f07c2a094348c6ea1363654e8833fa792f97c4c9d97dcec92.jpg)
+![](images/11ac60a97748b73f07c2a094348c6ea1363654e8833fa792f97c4c9d97dcec92.webp)
 
 Color Map
 
 Categorical
 
-![](images/4bbba39f14f6afbd785b15718e76953d02f8fd0f9e1ed6e48cfbc3cc4007a17f.jpg)
+![](images/4bbba39f14f6afbd785b15718e76953d02f8fd0f9e1ed6e48cfbc3cc4007a17f.webp)
 
 Ordered
 
@@ -260,41 +260,41 @@ S equential
 
 Diverging
 
-![](images/d747bf26f3489755b4416aad5fcb55f0a8cbc23fb70412c4ab5525b7adfcba4c.jpg)
+![](images/d747bf26f3489755b4416aad5fcb55f0a8cbc23fb70412c4ab5525b7adfcba4c.webp)
 
-![](images/f7069de8f2ef1763c4ff8ae13c2ce9a5166ff608485eca97f97f6551fa1fb039.jpg)
+![](images/f7069de8f2ef1763c4ff8ae13c2ce9a5166ff608485eca97f97f6551fa1fb039.webp)
 
 Bivariate
 
-![](images/c5ce3aa23c0a6b2e4c6caa66a58cdf6f89e82d01515e2a8b2b76b51da540bfc2.jpg)
+![](images/c5ce3aa23c0a6b2e4c6caa66a58cdf6f89e82d01515e2a8b2b76b51da540bfc2.webp)
 
 $\textcircled{7}$ Size, Angle, Cur vature, ...
 
 Length
 
-![](images/c9f4cccb4f28236e2f4a3e46499b57b5eb74a6b5b719e4c31b648b0ba073e5e5.jpg)
+![](images/c9f4cccb4f28236e2f4a3e46499b57b5eb74a6b5b719e4c31b648b0ba073e5e5.webp)
 
 Angle
 
-![](images/e004471bcfd5886540bad3a7b7763db1b4cd741df7122f8339f7c708596fdd72.jpg)
+![](images/e004471bcfd5886540bad3a7b7763db1b4cd741df7122f8339f7c708596fdd72.webp)
 
 Area
 
-![](images/b9773dd0649a43245027b6267a0378617e1b538a3416f7340f2e934d9fe6093c.jpg)
+![](images/b9773dd0649a43245027b6267a0378617e1b538a3416f7340f2e934d9fe6093c.webp)
 
 Cur vature
 
-![](images/d657fc4690da4400b35f2a644d0e8df8c679b6e8bf20ef4c96c968cb209777d6.jpg)
+![](images/d657fc4690da4400b35f2a644d0e8df8c679b6e8bf20ef4c96c968cb209777d6.webp)
 
 Volume
 
-![](images/b079c303de710ffc933063902595fcb86394ea5b623099dc8970f1262d41f89f.jpg)
+![](images/b079c303de710ffc933063902595fcb86394ea5b623099dc8970f1262d41f89f.webp)
 
 Shape
 
-![](images/d7fa2175c4db2f5900ba07c130cfe02885e1695634f4c2cee373b2e9341dd75e.jpg)
+![](images/d7fa2175c4db2f5900ba07c130cfe02885e1695634f4c2cee373b2e9341dd75e.webp)
 
-![](images/a82c030b01a4e2a21d53abce34e99807d378a712d90e45efe191cd5811c1c754.jpg)
+![](images/a82c030b01a4e2a21d53abce34e99807d378a712d90e45efe191cd5811c1c754.webp)
 
 Motion
 
@@ -302,6 +302,6 @@ Motion
 
 Direction, Rate, Frequenc y, ...
 
-![](images/cc036d3d76add7fe42a47f82451201c8325ef3abd814470e73a836a9641823c3.jpg)  
+![](images/cc036d3d76add7fe42a47f82451201c8325ef3abd814470e73a836a9641823c3.webp)  
 Figure 10.1. Design choices for mapping color and other visual encoding channels.
 

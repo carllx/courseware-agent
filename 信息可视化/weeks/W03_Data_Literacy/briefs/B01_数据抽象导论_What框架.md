@@ -86,11 +86,11 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 (相对于 knowledge/textbook/Visualization Analysis & Design.../) | 已迁移路径 | 迁移状态 |
 |:---|:---|:---|:---|:---|
-| Fig 2.2 | 五种基本数据类型图解 (Items, Attributes, Links, Positions, Grids) | `images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.jpg` (L49) | ![](../public/textbook/Fig2.2_五种基本数据类型图解.png) | ✅ 已迁移 |
-| Fig 2.3 | 四种基本数据集类型组合图 | `images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.jpg` (L80) | ![](../public/textbook/Fig2.3_四种基本数据集类型组合图.png) | ✅ 已迁移 |
-| Fig 2.4 | 四种数据集类型详细结构图 (多图组合: L87-L103) | `images/9ac995de...` + `images/911c7a3b...` + `images/706cea01...` + `images/ab552197...` + `images/f6465d6c...` + `images/b6cedccd...` | ![](../public/textbook/Fig2.4_四种数据集类型详细结构图.png) | ✅ 已迁移 |
-| Fig 2.5 | 扁平表示例 (订单数据) | `images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.jpg` (L124) | ![](../public/textbook/Fig2.5_扁平表示例.png) | ✅ 已迁移 |
-| Fig 2.6 | 数据集可用性：静态 vs 动态 | `images/27c75eece0fe13591a3f7b9afbae3f8f9ebd797cc2fd931ada7846f0db884415.jpg` (L211) | ![](../public/textbook/Fig2.6_数据集可用性.png) | ✅ 已迁移 |
+| Fig 2.2 | 五种基本数据类型图解 (Items, Attributes, Links, Positions, Grids) | `images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.webp` (L49) | ![](../public/textbook/Fig2.2_五种基本数据类型图解.webp) | ✅ 已迁移 |
+| Fig 2.3 | 四种基本数据集类型组合图 | `images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.webp` (L80) | ![](../public/textbook/Fig2.3_四种基本数据集类型组合图.webp) | ✅ 已迁移 |
+| Fig 2.4 | 四种数据集类型详细结构图 (多图组合: L87-L103) | `images/9ac995de...` + `images/911c7a3b...` + `images/706cea01...` + `images/ab552197...` + `images/f6465d6c...` + `images/b6cedccd...` | ![](../public/textbook/Fig2.4_四种数据集类型详细结构图.webp) | ✅ 已迁移 |
+| Fig 2.5 | 扁平表示例 (订单数据) | `images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.webp` (L124) | ![](../public/textbook/Fig2.5_扁平表示例.webp) | ✅ 已迁移 |
+| Fig 2.6 | 数据集可用性：静态 vs 动态 | `images/27c75eece0fe13591a3f7b9afbae3f8f9ebd797cc2fd931ada7846f0db884415.webp` (L211) | ![](../public/textbook/Fig2.6_数据集可用性.webp) | ✅ 已迁移 |
 
 ## 易混淆概念辨析
 - **Data (数据)** 在本书中既指单数也指复数，不与 Metadata（元数据）作硬性区分。

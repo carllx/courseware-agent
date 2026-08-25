@@ -9,7 +9,7 @@ For example, picture a dropdown menu. You’re probably picturing a white
 box with a bit of a drop shadow and a list of links stacked inside of
 it:
 
-![](images/index-243_1.png)
+![](images/index-243_1.webp)
 
 243
 
@@ -23,9 +23,9 @@ colorful icons — do something fun with it!
 
 And don’t just stop at dropdowns; what about something like a table?
 
-![](images/index-244_1.png)
+![](images/index-244_1.webp)
 
-![](images/index-244_2.png)
+![](images/index-244_2.webp)
 
 Think outside the box
 
@@ -38,9 +38,9 @@ Tables don’t *have* to work this way, though — if a column doesn’t need
 to be sortable, there’s no reason you can’t combine it with a related
 column and introduce some interesting hierarchy:
 
-![](images/index-245_1.png)
+![](images/index-245_1.webp)
 
-![](images/index-245_2.png)
+![](images/index-245_2.webp)
 
 245
 
@@ -51,7 +51,7 @@ makes sense, or introduce some color to enrich the existing data: How
 about radio buttons? There’s nothing more boring than a stack of labels
 with little circles next to them.
 
-![](images/index-246_1.png)
+![](images/index-246_1.webp)
 
 Think outside the box
 

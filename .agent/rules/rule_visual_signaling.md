@@ -115,7 +115,7 @@ Speech 中出现 ≥3 个并列要点时，不再一刀切地要求 VISUAL 块�
 自动化检测：
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_visual_text_sync.py \
+  .agent/scripts/validation/validate_visual_text_sync.py \
   --course "<课程>" --week <N>
 ```
 

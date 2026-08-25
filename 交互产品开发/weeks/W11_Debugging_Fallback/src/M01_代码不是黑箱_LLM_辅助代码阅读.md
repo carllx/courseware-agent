@@ -6,7 +6,7 @@
 > *   **Slide**: `S01_Title_W11`
 > *   **Layout**: `Center`
 > *   **Scene**: W11 标题页。背景是错综复杂的代码流与清晰的用户界面交织的画面，暗示代码的底层与表象。标题文字："逻辑排障与兜底策略：当 AI 生成失控时"。
-> *   **Asset**: ![预览](../public/slides/S01_Title_W11.png)
+> *   **Asset**: ![预览](../public/slides/S01_Title_W11.webp)
 > *   **Text**: "W11 逻辑排障与兜底策略"
 
 上节课，我们用 AI 为产品注入了充满生命力的微交互动效。你们的产品在视觉上，已经非常接近真实上线、乃至获得苹果设计的 App 了。弹跳的果冻反馈，丝滑的转场动画，一切看起来都那么完美。
@@ -19,7 +19,7 @@
 > *   **Slide**: `S02_Anxiety_Red_Screen`
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是极简优雅的界面截图，右侧是控制台密密麻麻、猩红一片 Petro Error 报错。
-> *   **Asset**: ![预览](../public/slides/S02_Anxiety_Red_Screen.png)
+> *   **Asset**: ![预览](../public/slides/S02_Anxiety_Red_Screen.webp)
 > *   **Search**: `Frontend developer panic red console error`
 
 在 Vibe Coding 的工作流里，AI 生成代码的速度越快，它在暗处积累的技术债和逻辑盲区也就越多。面对屏幕上突然标红的报错控制台，面对一行行看似外星文字的 `TypeError: Cannot read properties of undefined`，或者干脆就是一个点击后毫无反应、无声嘲笑你的空白页面，很多非计算机专业同学的第一反应，是巨大的恐慌。
@@ -34,7 +34,7 @@
 > *   **Slide**: `S03_Read_Explain_Fix`
 > *   **Layout**: `Flow`
 > *   **Scene**: 展示 "Read → Explain → Fix" 三步法的环形流程图。第一步：遇到报错（一段标红的控制台信息）；第二步：向 AI 提问（一个 Cursor Chat 气泡，强调 Explain 词汇）；第三步：定位并修复代码（绿色对钩标志）。
-> *   **Asset**: ![预览](../public/slides/S03_Read_Explain_Fix.png)
+> *   **Asset**: ![预览](../public/slides/S03_Read_Explain_Fix.webp)
 > *   **Text**: "破局三步法：Read → Explain → Fix"
 
 我们总结了一套极其有效的应对框架。正如大屏幕的环形图所示，它只有三个词：**Read（阅读） → Explain（解释） → Fix（修复）**。第一步，在遇到红框报错时冷静寻找证据；第二步，通过向 AI 提问让它用人话解释错误原因；最后一步才是精准定位并打上修复补丁。
@@ -44,7 +44,7 @@
 > *   **Slide**: `S03_The_Read_Phase`
 > *   **Layout**: `Split`
 > *   **Scene**: 界面截图，左半边是 Chrome 浏览器的 DevTools 面板，右半边标注着"Read：找到犯罪现场"。
-> *   **Asset**: ![预览](../public/slides/S03_The_Read_Phase.png)
+> *   **Asset**: ![预览](../public/slides/S03_The_Read_Phase.webp)
 > *   **Search**: `Chrome DevTools console error reading`
 
 **第一步：Read（阅读）。这是排障的勘察现场阶段。**
@@ -77,7 +77,7 @@
 > *   **Slide**: `S04_The_Explain_Phase`
 > *   **Layout**: `Split`
 > *   **Scene**: 巨大的金句卡片："不要让 AI 直接写代码，让它先说人话。"
-> *   **Asset**: ![预览](../public/slides/S04_The_Explain_Phase.png)
+> *   **Asset**: ![预览](../public/slides/S04_The_Explain_Phase.webp)
 
 接下来，是这套框架里最容易被跳过，但也最重要的一步——**Explain（解释）**。
 
@@ -96,7 +96,7 @@
 > *   **Slide**: `S05_The_Fix_Phase`
 > *   **Layout**: `Split`
 > *   **Scene**: 列出 Fix 的三个黄金法则：确认逻辑定锚点、限制三轮防雪崩、善用退回保险绳。
-> *   **Asset**: ![预览](../public/slides/S05_The_Fix_Phase.png)
+> *   **Asset**: ![预览](../public/slides/S05_The_Fix_Phase.webp)
 
 **最后一步：Fix（修复）。**
 当你听懂了 AI 用通俗语言讲的诊断结果，比如"原来是因为我们把数组当成对象去按键名查找了"。此时，你才向 AI 下达手术指令："理解了，请在这个基础上，帮我写出对数据结构的安全守卫判断，加上空值防御，然后给出修复方案。"
@@ -109,7 +109,7 @@
 > *   **Slide**: `S06_Frontend_Taxonomy_Title`
 > *   **Layout**: `Center`
 > *   **Scene**: 大字标题："前端报错的五大元凶"。配以侦探解谜的视觉元素（放大镜、散落的代码片段汇聚成五个类别文件夹）。
-> *   **Asset**: ![预览](../public/slides/S06_Frontend_Taxonomy_Title.png)
+> *   **Asset**: ![预览](../public/slides/S06_Frontend_Taxonomy_Title.webp)
 > *   **Text**: "前端报错的五大元凶"
 
 为了让你在听 AI 解释的时候更有底气，我们把大多数看似千奇百怪的前端错误，归结为了 5 类。理解了这 5 类分类法，或者叫 Taxonomy，你就能看透界面崩溃的底层密码。
@@ -131,7 +131,7 @@
 > *   **Slide**: `S05_Taxonomy_Event_Leak`
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是鼠标疯狂点击无响应的鬼畜动图。右侧是文字解析："事件监听泄漏"。
-> *   **Asset**: ![预览](../public/slides/S05_Taxonomy_Event_Leak.png)
+> *   **Asset**: ![预览](../public/slides/S05_Taxonomy_Event_Leak.webp)
 
 **第二类：事件没绑好，或者监听泄漏，英文是 Event Listener Leak。**
 现象很有戏剧性。要么是点击事件触发了个寂寞，如泥牛入海。要么是走向另一个极端——你点了一下，页面不仅响应了，而且疯狂地重复响应了十几次，甚至直接吃光内存卡死浏览器。
@@ -164,7 +164,7 @@
 > *   **Slide**: `S06_Taxonomy_Missing_Dependency`
 > *   **Layout**: `Split`
 > *   **Scene**: 零件散落一地的机器图解。文字标注："组件没引入 / 渲染失败"。
-> *   **Asset**: ![预览](../public/slides/S06_Taxonomy_Missing_Dependency.png)
+> *   **Asset**: ![预览](../public/slides/S06_Taxonomy_Missing_Dependency.webp)
 
 **第四类：组件没引入，也就是 Render Failure。**
 这种报错往往非常决绝。整个屏幕直接变成死寂的白色。如果按下 F12 打开开发者工具，你会看到猩红色的报错语：`ReferenceError: X is not defined` 或者 `Cannot read properties of undefined`。
@@ -202,7 +202,7 @@
 > *   **Slide**: `S07_AWS_S3_Crash`
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是命令行黑底白字界面，显示一条错误输入的指令；右侧是大片的数据中心变红、网站集体宕机的插画。
-> *   **Asset**: ![预览](../public/slides/S07_AWS_S3_Crash.png)
+> *   **Asset**: ![预览](../public/slides/S07_AWS_S3_Crash.webp)
 > *   **Text**: "一个参数拼写错误，也就是 Typo 引发的血案"
 
 > [CASE STUDY: AWS S3 史诗级宕机与对命令行的敬畏心]

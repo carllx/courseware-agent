@@ -10,9 +10,9 @@ worse: An easy fix for this is to also communicate that information in
 some other way, like by adding icons to indicate if the change is
 positive or negative.
 
-![](images/index-167_1.png)
+![](images/index-167_1.webp)
 
-![](images/index-167_2.png)
+![](images/index-167_2.webp)
 
 167
 
@@ -25,7 +25,7 @@ In situations like this, try relying on *contrast* instead of using
 completely different colors. It’s much easier for someone who’s
 colorblind to tell the
 
-![](images/index-168_1.png)
+![](images/index-168_1.webp)
 
 Don’t rely on color alone
 

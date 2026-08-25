@@ -22,7 +22,7 @@ If you add features to your application that are complex to manage, users will b
 
 A particularly useful design pattern that exemplifies commensurate effort is progressive disclosure. In progressive disclosure, advanced or less frequently used controls are hidden in an expanding pane, which offers a small expand/hide toggle control to give the user access. This type of design is a boon to expert users, because the toggle is usually "sticky"; that is, once left open, it stays that way. It also gives intermediates an easy window into more advanced features but allows them to be stowed away neatly when not in use. Many of Adobe's Creative Suite tools make good use of progressive disclosure in their tool palettes, as shown in Figure 10-2.
 
-![](images/a432e989c6fd6d08aa52386ff04b00ba1c29998cd9a8c25ed7317c16173cb427.jpg)  
+![](images/a432e989c6fd6d08aa52386ff04b00ba1c29998cd9a8c25ed7317c16173cb427.webp)  
 Figure 10-2: Adobe Creative Suite applications all make similar use of progressive disclosure to tame the complexity of their tool palettes for intermediates. Experts can expand them and take advantage of the sticky expansion state, which is remembered across sessions.
 
 # Organizing for inflection

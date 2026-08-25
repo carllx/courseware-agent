@@ -16,9 +16,9 @@ in the hierarchy.
 • **Primary actions should be obvious.** Solid, high contrast background
 colors work great here.
 
-![](images/index-61_1.png)
+![](images/index-61_1.webp)
 
-![](images/index-61_2.png)
+![](images/index-61_2.webp)
 
 61
 
@@ -33,9 +33,9 @@ these actions like links is usually the best approach.
 When you take a hierarchy-first approach to designing the actions on
 page, the result is a much less busy UI that communicates more clearly:
 
-![](images/index-62_1.png)
+![](images/index-62_1.webp)
 
-![](images/index-62_2.png)
+![](images/index-62_2.webp)
 
 Semantics are secondary
 

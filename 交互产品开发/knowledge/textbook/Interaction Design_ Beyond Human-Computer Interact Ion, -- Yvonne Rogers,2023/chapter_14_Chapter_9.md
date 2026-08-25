@@ -110,7 +110,7 @@ A  range of  statistics are  used within  interaction  design studies 
 
 Averages are fairly well-known numerical measures of central tendency. However, there are three  different types  of average, and  using the right one can  help communicate  results more  effectively. These  three  are  mean, median, and  mode. Mean refers  to the  commonly understood interpretation of average; that is, add together all  the figures and divide by the number of figures with which you started. Median and mode averages are less well-known but are very useful. The median is the middle value of the data when the numbers are ranked. The mode is  the most  commonly occurring number. For example, in a set of data (2, 3, 4, 6, 6, 7, 7, 7, 8), the  median  is 6  and the  mode  is  7, while the  mean is $5 0 / 9 = 5 . 5 6$ . In  this case, the difference between the different averages is not that great. However, consider the set (2, 2, 2, 2, 450). Now the median is 2, the mode is 2, and the mean is $4 5 8 / 5 = 9 1 . 6 !$ Which of these to use depends on the type of data and its distribution. The mode can be used for any type of data but is most effective for nominal and ordinal data such as level of anxiety or ethnicity; the median is only useful where the data can be ordered, e.g., reaction time or test score; and the mean is most meaningful where scores on a scale are equally spaced, such as  temperature. If  the  data has  a “normal” distribution, the  averages  will all  be  the  same; however, in a skewed distribution, mode and mean will be affected by outliers, so the median is the best measure.
 
-![](images/389fed460f35a5a39b31239c37a7fa1fa29698522289d134f88ad695184eda87.jpg)  
+![](images/389fed460f35a5a39b31239c37a7fa1fa29698522289d134f88ad695184eda87.webp)  
 Source: Mike Baldwin / Cartoon Stock
 
 Before any analysis can take place, the data needs to be collated into analyzable datasets. Quantitative  data can usually be translated into rows  and columns, where one row equals one record, such as respondent or interviewee. If these are entered into a spreadsheet such as Excel, this makes simple  manipulations and dataset filtering easier. Before  entering data  in this way, it is important to decide how to represent the different possible answers. For example, “don’t know” represents a different response from no answer at all, and they need to be distinguished, perhaps with separate columns in the spreadsheet. Also, if dealing with options from  a closed-ended question, such as job role, there are two different possible approaches that affect the analysis. One approach is to have a column headed “Job role” and to enter the
@@ -147,15 +147,15 @@ Disagree
 
 Strongly disagree
 
-![](images/7c158ec23ce13c12d55010ab693f26fb974728f6087843474ad8c6a63d01e1eb.jpg)
+![](images/7c158ec23ce13c12d55010ab693f26fb974728f6087843474ad8c6a63d01e1eb.webp)
 
-![](images/0be626dc34d780ac41e0eb234aca44c7182744ed813dbe96dbb5ac45454cd422.jpg)
+![](images/0be626dc34d780ac41e0eb234aca44c7182744ed813dbe96dbb5ac45454cd422.webp)
 
-![](images/9033b1ac397fdff0545e3001930f5364b36b4936412acc9ad8da32ea4702a088.jpg)
+![](images/9033b1ac397fdff0545e3001930f5364b36b4936412acc9ad8da32ea4702a088.webp)
 
-![](images/fefa88b8c032c8645849eb4fdceb485e337aba710a7c12637ec50a5c49a40388.jpg)
+![](images/fefa88b8c032c8645849eb4fdceb485e337aba710a7c12637ec50a5c49a40388.webp)
 
-![](images/a312021de5d602b992d47062f6177ffb0cbe6caf1e36cc9e458e92d24777976c.jpg)
+![](images/a312021de5d602b992d47062f6177ffb0cbe6caf1e36cc9e458e92d24777976c.webp)
 
 The data could then be analyzed using a simple spreadsheet or table:
 
@@ -173,16 +173,16 @@ Table 9.2  Data Gathered During a Study of a Photo Sharing App
 
 Adding one more user to Table 9.2 with an error rate of 9 and plotting the new data as a scatter graph (see Figure 9.2) illustrates how graphs can help to identify outliers. Outliers are usually removed from  the main dataset because they distort the general patterns. However, outliers may also be interesting cases to investigate further in case there are special circumstances surrounding those participants and their session.
 
-![](images/a2adc8190a461dd9b087ff472716429dd8010b34c9a78214d08ddbef394914c5.jpg)  
+![](images/a2adc8190a461dd9b087ff472716429dd8010b34c9a78214d08ddbef394914c5.webp)  
 (a)
 
-![](images/2ba08c2d9089f225d4a1a17b6eccf917fee0f56cf387d1a9697711dea119cae0.jpg)  
+![](images/2ba08c2d9089f225d4a1a17b6eccf917fee0f56cf387d1a9697711dea119cae0.webp)  
 (b)   
 Figure 9.1  Graphical representations of the data in Table 9.2 (a) The distribution of errors made (take note of the scale used in these graphs, as seemingly large differences may be much smaller in reality). (b) The spread of social media experience within the participant group.
 
 These initial investigations also help to identify other areas for further investigation. For example, is there something special about people with error rate 0 or something distinctive about the performance of those who use social media only once a month?
 
-![](images/39f9d9c1252205c65be14d09023971979fc78f59ead69c96947d71e34766f7f8.jpg)  
+![](images/39f9d9c1252205c65be14d09023971979fc78f59ead69c96947d71e34766f7f8.webp)  
 Figure 9.2  Using a scatter diagram helps to identify outliers quite quickly.
 
 # ACTIVITY 9.1
@@ -197,9 +197,9 @@ Using a spreadsheet application, generate a bar graph and a scatter dia
 
 The bar graph and scatter diagram are shown here.
 
-![](images/ddb3033eebefeb279f503649f788646bfb8b0413ef181d9c8b6002a4d8c8ad63.jpg)
+![](images/ddb3033eebefeb279f503649f788646bfb8b0413ef181d9c8b6002a4d8c8ad63.webp)
 
-![](images/6fb7d52f5f81c6bac25cd56414a18cc5e57e77e142739d6d7968bf78695608af.jpg)
+![](images/6fb7d52f5f81c6bac25cd56414a18cc5e57e77e142739d6d7968bf78695608af.webp)
 
 From these two diagrams, there are two areas for  further investigation. First, the values for user N (24) and user S (26) are higher than the others and could be looked at in more detail. In addition, there appears to be a trend that participants at the beginning of the testing time (particularly B, C, D, E, F,  and G) performed faster than those toward the end of the testing time. This is not a clear-cut situation, as O also performed well, and I, L, and P were almost as fast, but there may be something about this later testing time that has affected the results, and it is worth investigating further.
 
@@ -207,7 +207,7 @@ It is fairly straightforward to compare two sets of results  using th
 
 For each pair of adjectives, place a  cross at the  point  between  them that reflects the extent to which you believe the adjectives describe the smartphone design. Please place only one cross between the marks on each line.
 
-![](images/8f33b76c3d809120d29d8303b7aab98c34048deac00853fc19a9e31047aac37c.jpg)
+![](images/8f33b76c3d809120d29d8303b7aab98c34048deac00853fc19a9e31047aac37c.webp)
 
 Table 9.3 and Table 9.4 show the tabulated results from 100 respondents. Note that the responses have been translated into five categories, numbered from  1 to 5, based on where the respondent marked the line between each pair of adjectives. It is possible that respondents may have intentionally put a cross closer to one side of the box than the other, but it is acceptable to lose this nuance in the data, provided that the original data is not lost, and any further analysis could refer to it.
 
@@ -221,7 +221,7 @@ Table 9.3  Phone 1
 
 The graph in Figure 9.3 shows how the two smartphone designs varied according to the respondents’ perceptions of how modern the design is. This graphical notation shows clearly how the two designs compare.
 
-![](images/5ef4292d82be2c68c7b2df0c943cecadf9b8dea66aba8f0670db2989ea20726f.jpg)  
+![](images/5ef4292d82be2c68c7b2df0c943cecadf9b8dea66aba8f0670db2989ea20726f.webp)  
 Figure 9.3  A graphical comparison of two smartphone designs according to whether they are perceived as modern or dated
 
 Data logs that  capture users’ interactions automatically, such as with a website or app, can also be analyzed and represented graphically, thus helping to identify patterns in behavior. Also, more sophisticated  manipulations  and graphical images  can be used  to highlight patterns in collected data.
@@ -290,7 +290,7 @@ Table 9.5  Example themes that show diverse discussions related to addicti
 
 A  common technique for identifying themes and looking  for an overall  narrative is to create an affinity diagram. Affinity diagrams are widely used in interaction design to organize large amounts of data and ideas (see Figure 9.4). Both digital and physical diagramming are popular, with differing opinions about which is preferable. For example, Christian Remy et al. (2021) investigated the challenges and opportunities of digital distributed affinity diagramming tools. Although they found that digital tools saved time, improved manipulation, and helped get an overview of the data, they also found that the digital tool reduced awareness of co-participant’s actions and provided fewer clues about ownership of the notes. On the other hand, students’ experience of the Miro collaborative canvas tool described in Chapter 5, “Social Interaction,” was very positive and referred to increased awareness!
 
-![](images/04da3e5557f5d33b7832384b666f5d3aa00cdad357dc9b4da9dfdc0bd6ab6e34.jpg)  
+![](images/04da3e5557f5d33b7832384b666f5d3aa00cdad357dc9b4da9dfdc0bd6ab6e34.webp)  
 Figure 9.4  Section of an affinity diagram built during the design of a web application Source: Courtesy of Madeline Smith
 
 To read more about the use of affinity diagrams in interaction design, see

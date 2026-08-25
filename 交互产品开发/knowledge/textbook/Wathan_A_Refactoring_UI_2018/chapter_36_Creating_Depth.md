@@ -1,6 +1,6 @@
 **Creating Depth**
 
-![](images/index-172_1.png)
+![](images/index-172_1.webp)
 
 **Emulate a light source**
 
@@ -11,9 +11,9 @@ into the background?
 Creating this effect might look complicated at first, but it actually
 only requires you to understand one fundamental rule.
 
-![](images/index-173_1.jpg)
+![](images/index-173_1.webp)
 
-![](images/index-173_2.png)
+![](images/index-173_2.webp)
 
 173
 
@@ -34,9 +34,9 @@ light.
 The only way those edges could possibly be oriented that way is if the
 panel itself is raised, so that’s how our brains perceive it.
 
-![](images/index-174_1.jpg)
+![](images/index-174_1.webp)
 
-![](images/index-174_2.png)
+![](images/index-174_2.webp)
 
 Emulate a light source
 
@@ -51,7 +51,7 @@ and the bottom edge is lighter, indicating that it’s angled upward.
 To create this same sense of depth in your designs, all you need to do
 is mimic the way light affects things in the real world.
 
-![](images/index-175_1.png)
+![](images/index-175_1.webp)
 
 175
 
@@ -75,9 +75,9 @@ of the top edge and hide the bottom edge.
 Since the top edge is facing upward, make it slightly lighter than the
 face of
 
-![](images/index-176_1.png)
+![](images/index-176_1.webp)
 
-![](images/index-176_2.png)
+![](images/index-176_2.webp)
 
 Emulate a light source
 
@@ -97,9 +97,9 @@ Do this by adding a small dark box shadow with a slight vertical offset
 *(you* *only want the shadow to appear below the element)*: Don’t get
 carried away with the blur radius, a couple of pixels is plenty. These
 
-![](images/index-177_1.png)
+![](images/index-177_1.webp)
 
-![](images/index-177_2.png)
+![](images/index-177_2.webp)
 
 177
 
@@ -118,9 +118,9 @@ Looking slightly downward, only the bottom lip would be visible. Since
 it’s facing towards the sky, give that edge a slightly lighter color
 using a bottom border or inset shadow with a negative vertical offset:
 
-![](images/index-178_1.png)
+![](images/index-178_1.webp)
 
-![](images/index-178_2.png)
+![](images/index-178_2.webp)
 
 Emulate a light source
 
@@ -147,5 +147,5 @@ that are busy and unclear. Borrowing some visual cues from the real
 world is a great way to add a bit of depth, but there’s no need to try
 and make things look photo-realistic.
 
-![](images/index-180_1.png)
+![](images/index-180_1.webp)
 

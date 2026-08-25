@@ -12,7 +12,7 @@
 > **Slide**: M1-01_Handoff_Disaster
 > **Layout**: `Split`
 > **Scene**: 左侧展示一张布满红线条和十六进制色值的极其复杂的 Figma 交付稿（如同蜘蛛网）；右侧则是开发还原出来的页面：间距畸形，圆角消失，字体依然是浏览器的默认宋体。
-> *   **Asset**: ![预览](../public/slides/M1-01_Handoff_Disaster.png)
+> *   **Asset**: ![预览](../public/slides/M1-01_Handoff_Disaster.webp)
 > **Search**: `design to developer handoff disaster misalignment meme`
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
@@ -30,7 +30,7 @@
 > **Slide**: M1-02_Vibe_Coding_Tweet
 > **Layout**: `Full`
 > **Scene**: Andrej Karpathy 的推文截图，关键词 Vibe Coding 被打上高亮标记。
-> *   **Asset**: ![预览](../public/slides/M1-02_Vibe_Coding_Tweet.png)
+> *   **Asset**: ![预览](../public/slides/M1-02_Vibe_Coding_Tweet.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 2025 年初，前 OpenAI 科学家 Andrej Karpathy 提出了一个终极预言——**Vibe Coding（氛围编程）**。
@@ -41,7 +41,7 @@
 > **Slide**: M1-03_Toolchain_Evolution
 > **Layout**: `Flow`
 > **Scene**: 工具链进化史：2015 Sketch/Zeplin (切图交付) → 2020 Figma/DevMode (参数对接) → 2024+ v0/Cursor (意图直接生成代码)。
-> *   **Asset**: ![预览](../public/slides/M1-03_Toolchain_Evolution.png)
+> *   **Asset**: ![预览](../public/slides/M1-03_Toolchain_Evolution.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 在这个新纪元里，我们的主战工具链变了。
@@ -58,7 +58,7 @@ v0 负责根据自然语言和参考图，直接生成极其规范的 React 与 
 > **Slide**: M1-04_Architect_vs_Draftsman
 > **Layout**: `Comparison`
 > **Scene**: 左侧：一个低头死抠屏幕某个特定像素、在孤立画板里纠结的“绘图员”。右侧：一个交响乐团的“指挥家”，闭着眼睛，用手势控制着庞大系统各声部的起承转合。
-> *   **Asset**: ![预览](../public/slides/M1-04_Architect_vs_Draftsman.png)
+> *   **Asset**: ![预览](../public/slides/M1-04_Architect_vs_Draftsman.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 听到这里，很多毫无编程基础的数字媒体艺术同学们可能会松一口气：“太好了，我只要动动嘴皮子，AI 就能帮我做出产品了，我什么都不用做了。”
@@ -92,7 +92,7 @@ v0 负责根据自然语言和参考图，直接生成极其规范的 React 与 
 > **Slide**: M1-04b_Declarative_Paradigm
 > **Layout**: `Comparison`
 > **Scene**: 左右分栏对比。左侧为传统命令式 (Imperative) UI 搭建泥沼：拖拽一个个生硬的矩形，痛苦地在右侧面板设置宽度拉扯与极小的 BorderRadius=8px；右侧为声明式 (Declarative) 的系统生成盛况：只需在终端输入框写下极少的一句话指令「生成一个基于暗黑模式的二级警戒卡片，它必须必须遵循当前的 Primary Token 的衍生值体系」。
-> *   **Asset**: ![预览](../public/slides/M1-04b_Declarative_Paradigm.png)
+> *   **Asset**: ![预览](../public/slides/M1-04b_Declarative_Paradigm.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 
@@ -120,7 +120,7 @@ v0 负责根据自然语言和参考图，直接生成极其规范的 React 与 
 > **Slide**: M1-05_The_Magic_Myth
 > **Layout**: `Split`
 > **Scene**: 左侧是典型的外行输入：“帮我生成一个类似淘宝的超酷炫主页”。右侧是 AI 吐出来的灾难代码图示：颜色混乱、无响应式断点、空载状态报错（被戏称为“弗兰肯斯坦的怪物”）。
-> *   **Asset**: ![预览](../public/slides/M1-05_The_Magic_Myth.png)
+> *   **Asset**: ![预览](../public/slides/M1-05_The_Magic_Myth.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 想象一下，你对 v0 甩出一句外行至极的 Prompt：“帮我生成一个炫酷的电商主页。”
@@ -130,7 +130,7 @@ AI 会怎么做？它是一个极度渴望讨好你的实习生，但它同时�
 > **Slide**: M1-06_Shift_of_Labor
 > **Layout**: `Flow`
 > **Scene**: Vibe Coding 模式下的努力重定向图表。显示人类精力的消耗曲线：底层代码实现（暴跌），而前期的 System Design 系统设计（剧增）与后期的 QA 把控检验（剧增）。
-> *   **Asset**: ![预览](../public/slides/M1-06_Shift_of_Labor.png)
+> *   **Asset**: ![预览](../public/slides/M1-06_Shift_of_Labor.webp)
 > **知识节点**: `vibe-coding-human-ai-collaboration`
 
 所以，我们要如何在这种巨变中活下来？

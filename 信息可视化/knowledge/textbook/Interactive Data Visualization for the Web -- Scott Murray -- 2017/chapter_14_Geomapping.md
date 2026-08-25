@@ -234,7 +234,7 @@ data-type="xref">Figure 14-1</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_simple" class="figure">
 <img
-src="images/f03b63a900fcb61a7ddc54efb9e2d34274ea68acb6f15d80b6fc99e5d05f4316.png"
+src="images/f03b63a900fcb61a7ddc54efb9e2d34274ea68acb6f15d80b6fc99e5d05f4316.webp"
 class="calibre219" alt="dvw2 1401" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-1.
 </span>Our first view of GeoJSON data</h6>
@@ -339,7 +339,7 @@ data-type="xref">Figure 14-2</a>. Getting there! See
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_centered" class="figure">
 <img
-src="images/91e1afb7db4e239b361db6ee73d78feb03d008ef9e864c3cb342807a401c0cf7.png"
+src="images/91e1afb7db4e239b361db6ee73d78feb03d008ef9e864c3cb342807a401c0cf7.webp"
 class="calibre212" alt="dvw2 1402" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-2.
 </span>The same GeoJSON data, but now with a centered projection</h6>
@@ -366,7 +366,7 @@ will shrink the map; anything larger will expand it.
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_scaled" class="figure">
 <img
-src="images/7d66473e85eb20f7d44fdaca5c38600d8f9eef4af2f3e18112bf7e8eb1e7dfac.png"
+src="images/7d66473e85eb20f7d44fdaca5c38600d8f9eef4af2f3e18112bf7e8eb1e7dfac.webp"
 class="calibre220" alt="dvw2 1403" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-3.
 </span>The USA, scaled and centered within the image</h6>
@@ -384,7 +384,7 @@ data-type="xref">Figure 14-4</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_filled" class="figure">
 <img
-src="images/6bbb0dfdde620dabce8d062d79d1fd93c6faf5b759f1ff4762eac755f5094b5f.png"
+src="images/6bbb0dfdde620dabce8d062d79d1fd93c6faf5b759f1ff4762eac755f5094b5f.webp"
 class="calibre221" alt="dvw2 1404" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-4.
 </span>Now more blue-ish than black</h6>
@@ -622,7 +622,7 @@ yourself in *05_choropleth.html*.
 <figure class="calibre35">
 <div id="ch14.xhtml_choropleth_map" class="figure">
 <img
-src="images/c85bffdeedc339f45d2958a560f4346bdeafb249c7548373d59f3048ee0b08c3.png"
+src="images/c85bffdeedc339f45d2958a560f4346bdeafb249c7548373d59f3048ee0b08c3.webp"
 class="calibre222" alt="dvw2 1405" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-5. </span>A
 choropleth map showing agricultural productivity by state</h6>
@@ -843,7 +843,7 @@ data-type="xref">Figure 14-6</a> is pretty nice! Check out the code in
 <figure class="calibre35">
 <div id="ch14.xhtml_choropleth_with_cities" class="figure">
 <img
-src="images/22f10e0c6f9aae3721163fe7eeca6ad2ec2536371a9826e3cc99725f0793947f.png"
+src="images/22f10e0c6f9aae3721163fe7eeca6ad2ec2536371a9826e3cc99725f0793947f.webp"
 class="calibre224" alt="dvw2 1406" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-6.
 </span>The top 50 largest US cities, represented as cute little yellow
@@ -876,7 +876,7 @@ custom D3 scale function. (I’ll leave that to you.)
 <figure class="calibre35">
 <div id="ch14.xhtml_choropleth_with_cities_sized" class="figure">
 <img
-src="images/a587c06313d1023497322f4ff3c8217579a405a3bf291081a6bdbeafad201138.png"
+src="images/a587c06313d1023497322f4ff3c8217579a405a3bf291081a6bdbeafad201138.webp"
 class="calibre225" alt="dvw2 1407" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-7.
 </span>Cities as dots, with area set by population</h6>
@@ -953,7 +953,7 @@ data-type="xref">Figure 14-8</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_pan" class="figure">
 <img
-src="images/6bee6c39e32979a1bf6f3c682a4b0a68994060d517f52b579439a2ec409393e8.png"
+src="images/6bee6c39e32979a1bf6f3c682a4b0a68994060d517f52b579439a2ec409393e8.webp"
 class="calibre226" alt="dvw2 1408" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-8.
 </span>Pan example</h6>
@@ -974,7 +974,7 @@ data-type="xref">Figure 14-9</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_panned" class="figure">
 <img
-src="images/34689b2c1e75bf5c49f0e0c61be38f7951738b1a4f3e52d13320106db859df10.png"
+src="images/34689b2c1e75bf5c49f0e0c61be38f7951738b1a4f3e52d13320106db859df10.webp"
 class="calibre227" alt="dvw2 1409" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-9.
 </span>Pan example, panned</h6>
@@ -1246,7 +1246,7 @@ data-type="xref">Figure 14-10</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_d3event" class="figure">
 <img
-src="images/2ff1676eb075f08b9889c0ff84acc943d3f24dbe79ded4337db8222eaac05f1b.png"
+src="images/2ff1676eb075f08b9889c0ff84acc943d3f24dbe79ded4337db8222eaac05f1b.webp"
 class="calibre201" alt="dvw2 1410" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-10.
 </span>Logging the contents of a d3.event</h6>
@@ -1385,7 +1385,7 @@ triggering a zoom event.)
 <figure class="calibre35">
 <div id="ch14.xhtml_d3event-zoom" class="figure">
 <img
-src="images/9bbd522b38064c43a540c15e3d8c99c6dc49cab08f96b9495889aacd4585f813.png"
+src="images/9bbd522b38064c43a540c15e3d8c99c6dc49cab08f96b9495889aacd4585f813.webp"
 class="calibre228" alt="dvw2 1411" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-11.
 </span>Logging the contents of several very zoom-y events</h6>
@@ -1421,7 +1421,7 @@ data-type="xref">Figure 14-12</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoom-prop" class="figure">
 <img
-src="images/dd5b1464e38dd582a5370db7faf7cdc158ac29cba2019baecfba11c762291a78.png"
+src="images/dd5b1464e38dd582a5370db7faf7cdc158ac29cba2019baecfba11c762291a78.webp"
 class="calibre229" alt="dvw2 1412" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-12.
 </span>Exposing the sneakily hidden zoom transform values</h6>
@@ -1442,7 +1442,7 @@ same values.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoomtransform" class="figure">
 <img
-src="images/b8218b8129c230f3280399821a77c08118b675787bab136d17c5053842d9723e.png"
+src="images/b8218b8129c230f3280399821a77c08118b675787bab136d17c5053842d9723e.webp"
 class="calibre52" alt="dvw2 1413" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-13.
 </span>Transform values, retrieved two different ways</h6>
@@ -1549,7 +1549,7 @@ changes the default view.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoomymap" class="figure">
 <img
-src="images/403c3af8d6cc88fd388c4f9589a1ae9c162014e4a79c5030ecd06b8163e5d8ed.png"
+src="images/403c3af8d6cc88fd388c4f9589a1ae9c162014e4a79c5030ecd06b8163e5d8ed.webp"
 class="calibre230" alt="dvw2 1414" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-14.
 </span>The new, awe-inspiring default view</h6>
@@ -1564,7 +1564,7 @@ data-type="xref">Figure 14-15</a>). It’s so smooth!
 <figure class="calibre35">
 <div id="ch14.xhtml_mapny" class="figure">
 <img
-src="images/08820c4250063c3f5f81750caf16b3064510ea4c1d8c031132617e215d2276f7.png"
+src="images/08820c4250063c3f5f81750caf16b3064510ea4c1d8c031132617e215d2276f7.webp"
 class="calibre231" alt="dvw2 1415" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-15.
 </span>Special shout-out to all 8,550,405 residents of NYC</h6>
@@ -1624,7 +1624,7 @@ data-type="xref">Figure 14-16</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoomybuttons" class="figure">
 <img
-src="images/31f714314bae28b51c9b6f25493450bbca61fee4a192868482fa56d7a2bd831e.png"
+src="images/31f714314bae28b51c9b6f25493450bbca61fee4a192868482fa56d7a2bd831e.webp"
 class="calibre232" alt="dvw2 1416" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-16.
 </span>Map, now with zoom-ier buttons</h6>
@@ -1679,7 +1679,7 @@ data-type="xref">Figure 14-17</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_toofar" class="figure">
 <img
-src="images/a53903c59d80d7c41720e565b5a7d23c21ac8e0a83874526d86bfd3245b3e961.png"
+src="images/a53903c59d80d7c41720e565b5a7d23c21ac8e0a83874526d86bfd3245b3e961.webp"
 class="calibre148" alt="dvw2 1417" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-17.
 </span>If this doesn’t remind you of Powers of Ten, by Charles and Ray
@@ -1745,7 +1745,7 @@ data-type="xref">Figure 14-18</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_newbuttons" class="figure">
 <img
-src="images/06159bbb0215eb886db3a38b841ee338050d547d99b9ab5cd5643731535e21bc.png"
+src="images/06159bbb0215eb886db3a38b841ee338050d547d99b9ab5cd5643731535e21bc.webp"
 class="calibre233" alt="dvw2 1418" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-18.
 </span>Map with new preset buttons</h6>
@@ -1760,7 +1760,7 @@ data-type="xref">Figure 14-19</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_pnwclicked" class="figure">
 <img
-src="images/3dd3bc17028590f3440e2e40701a767f7f3f32b3888dc42a4025cbac231121c9.png"
+src="images/3dd3bc17028590f3440e2e40701a767f7f3f32b3888dc42a4025cbac231121c9.webp"
 class="calibre234" alt="dvw2 1419" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-19.
 </span>After clicking the “Pacific Northwest” button</h6>
@@ -1850,7 +1850,7 @@ choropleth fills.
 <figure class="calibre35">
 <div id="ch14.xhtml_maplabels" class="figure">
 <img
-src="images/1d457c2a2cb85474e4fe1cfa655ed11cfa36cbf9bc3697fb4489d732a314afdb.png"
+src="images/1d457c2a2cb85474e4fe1cfa655ed11cfa36cbf9bc3697fb4489d732a314afdb.webp"
 class="calibre235" alt="dvw2 1420" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-20.
 </span>Data values, labeled</h6>
@@ -1899,7 +1899,7 @@ data-type="xref">Figure 14-21</a> to see.
 <figure class="calibre35">
 <div id="ch14.xhtml_maplabelsse" class="figure">
 <img
-src="images/e5d8f76811a37312fff35b46340b61ba170e380c73bb50bb466aa7fd2839374a.png"
+src="images/e5d8f76811a37312fff35b46340b61ba170e380c73bb50bb466aa7fd2839374a.webp"
 class="calibre236" alt="dvw2 1421" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-21.
 </span>Exploring agricultural productivity values in the 2004
@@ -2491,7 +2491,7 @@ data-type="xref">Figure 14-22</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_oceans" class="figure">
 <img
-src="images/8ceafc1e19101bc9ee24ffbefec4694d147928ca80d4c6b9fafb545206c4d09e.png"
+src="images/8ceafc1e19101bc9ee24ffbefec4694d147928ca80d4c6b9fafb545206c4d09e.webp"
 class="calibre238" alt="dvw2 1422" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-22.
 </span>GeoJSON showing, um, the world’s oceans?</h6>
@@ -2539,7 +2539,7 @@ data-type="xref">Figure 14-23</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_oceans2" class="figure">
 <img
-src="images/1eed3a82f7c43d2780872e62650a4749388ee78a58be61cbe1953054fc3be144.png"
+src="images/1eed3a82f7c43d2780872e62650a4749388ee78a58be61cbe1953054fc3be144.webp"
 class="calibre239" alt="dvw2 1423" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-23.
 </span>GeoJSON of the world’s oceans, now properly projected</h6>

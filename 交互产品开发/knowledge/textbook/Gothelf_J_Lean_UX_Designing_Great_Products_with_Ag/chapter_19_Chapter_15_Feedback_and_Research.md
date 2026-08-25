@@ -247,7 +247,7 @@ We like to use a weekly rhythm to schedule research, as demonstrated in
 call this “Three, twelve, one” because it’s based on the following
 guidelines: three users; by twelve noon; once a week.
 
-![](images/assets/lux3_1501.png)
+![](images/assets/lux3_1501.webp)
 
 ###### Figure 15-1. The three, twelve, one activity calendar
 
@@ -566,7 +566,7 @@ step-by-step feedback on the process, insight about specific design
 elements, or even meaningful feedback on copy choices. You *won’t* be
 able to learn much (if anything) about the usability of your concept.
 
-![](images/assets/lux3_1502.png)
+![](images/assets/lux3_1502.webp)
 
 ###### Figure 15-2. Example of a sketch that can be used with customers
 
@@ -582,7 +582,7 @@ point your test participants are focused primarily on the words on the
 page and the selections they’re making. Wireframes provide a good
 opportunity to begin testing copy choices.
 
-![](images/assets/lux3_1503.png)
+![](images/assets/lux3_1503.webp)
 
 ###### Figure 15-3. Example of a wireframe
 
@@ -602,7 +602,7 @@ watching your users click, tap, and swipe, you need to ask them what
 they would expect and then validate those responses against your planned
 experience.
 
-![](images/assets/lux3_1504.png)
+![](images/assets/lux3_1504.webp)
 
 ###### Figure 15-4. Example of mock-up from Skype in the Classroom (design by Made By Many)
 
@@ -654,7 +654,7 @@ your organization and harness them to drive your ongoing product design
 and research, as depicted in
 [Figure 15-5](#ch15.html_customers_can_provide_feedback_through).
 
-![](images/assets/lux3_1505.png)
+![](images/assets/lux3_1505.webp)
 
 ###### Figure 15-5. Customers can provide feedback through many channels
 

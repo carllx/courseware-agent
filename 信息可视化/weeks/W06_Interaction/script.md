@@ -36,7 +36,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Title`
 > *   **Scene**: 左半边是印在旧报纸上的一张静态饼图；右半边是深色模式屏幕上，一串数据流随着鼠标滚轮向下滑动，像多米诺骨牌一样连续重组、变形、变色，呈现出极具生命力的动态视效。
 > *   **Text**: "滑动揭秘：以现代滚动叙事导演数据图景"
-> *   **Asset**: ![预览](assets/slides/S01_Title_W06.png)
+> *   **Asset**: ![预览](assets/slides/S01_Title_W06.webp)
 
 在过去五周的课程里，我们像钟表匠一样，精心挑选标记（Marks），精准打磨通道（Channels）。我们学习了如何像艺术家一样雕琢留白与隐喻。
 
@@ -57,7 +57,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是一位看着复杂的满屏图表抓狂的分析师；右侧是一个干净的界面，只有一个滑块，随着滑块拖动，图表中的数据如拨云见日般清晰。
 > *   **Caption**: 交互的本质不是炫技，而是认知的减负。
-> *   **Asset**: ![预览](assets/slides/S01b_The_Cognitive_Relief.png)
+> *   **Asset**: ![预览](assets/slides/S01b_The_Cognitive_Relief.webp)
 
 很多人对交互的理解，停留在网页前端设计师为了"炫技"加上的几个悬停动效（Hover），或者是点击后弹出的工具提示（Tooltip）。但这远远不够。
 
@@ -76,7 +76,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Grid`
 > *   **Scene**: 屏幕呈现一座高科技控制台。上方写着"改变 (Change)"，下方有排布旋钮与滑块；左下写着"选择 (Select)"，下方有聚光灯的图标；右下写着"导航 (Navigate)"，下方有可缩放的三维摄像机视角。
 > *   **Caption**: Tamara Munzner：掌握交互设计的三大操作族，就是掌握了魔法遥控器。
-> *   **Asset**: ![预览](assets/slides/S02_Interaction_Taxonomy.png)
+> *   **Asset**: ![预览](assets/slides/S02_Interaction_Taxonomy.webp)
 
 在可视化理论权威 Tamara Munzner 的框架中，交互操作 (也就是 `ch11-manipulate` 核心操作框架族) 被分为了三大魔法操作族。她认为，所有的交互，无论它在代码层面上多么复杂，归根结底都在做这三件事：改变视图、选择元素、或者在数据中导航。
 
@@ -92,7 +92,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Image`
 > *   **Scene**: Hans Rosling 在 TED 舞台上，背后是著名的 Gapminder 气泡动画，代表一个个国家的各色气泡在 200 年的时间轴上飞速上升和游走。
 > *   **Search**: `Hans Rosling TED Gapminder presentation bubble chart`
-> *   **Asset**: ![预览](assets/slides/S02b_Hans_Rosling_Magic.png)
+> *   **Asset**: ![预览](assets/slides/S02b_Hans_Rosling_Magic.webp)
 
 大家一定在社交网络上刷到过这样一段著名的 TED 演讲。
 
@@ -126,7 +126,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是一张密密麻麻的航空路线图（Hairball），令人眼晕。右侧，用户的鼠标停留在一个名为"JFK"的节点上，与之无关的数千条航线全部变成了低明度的幽灵般灰色，而与 JFK 相连的几十条航线则闪耀着金黄色的光芒。
 > *   **Text**: "选择：在混沌中打下聚光灯"
-> *   **Asset**: ![预览](assets/slides/S03_Select_and_Filter.png)
+> *   **Asset**: ![预览](assets/slides/S03_Select_and_Filter.webp)
 
 通过单选、多选甚至用鼠标套索刷选，也就是 Brushing，我们在满屏的混沌中打下一束聚光灯。
 
@@ -139,7 +139,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Diagram`
 > *   **Scene**: 一个带有三个图表的联动仪表盘：柱状图、饼图、地图。当在柱状图点击"2023年"时，一道光芒迅速传导至饼图和地图，它们立刻自动刷新，只显示 2023 年下的细分数据。这种联动称为 Cross-filtering。
 > *   **Text**: "联动高亮 (Brushing and Linking)：牵一发而动全身"
-> *   **Asset**: ![预览](assets/slides/S03b_Cross_Filtering.png)
+> *   **Asset**: ![预览](assets/slides/S03b_Cross_Filtering.webp)
 
 选择操作的高阶形态，叫做联动高亮。
 
@@ -156,7 +156,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Slide**: `S04_Navigation_Zoom`
 > *   **Layout**: `Split`
 > *   **Scene**: 一个动态演示。左半边是几何缩放：放大一张纽约地图，街道越来越宽，但依然只有那么几条线。右半边是语义缩放：放大同样的地图，当放大到一定程度，原本的街道线条瞬间解体，变成了详细的街区房屋建模和餐厅图标，甚至显示出了交通拥堵的红绿线。
-> *   **Asset**: ![预览](assets/slides/S04_Navigation_Zoom.png)
+> *   **Asset**: ![预览](assets/slides/S04_Navigation_Zoom.webp)
 
 但我们在数据维度最常用、也最强大的，叫做语义缩放，Semantic Zoom。
 
@@ -173,7 +173,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Grid`
 > *   **Scene**: 不是一个大图表旁边带一堆下拉框，而是直接在屏幕上整齐横向排布了整整 50 个细小的折线图，代表美国 50 个州。一眼望去，不需要任何点击，立刻能发现其中有两个州的折线形状与众不同（红色高亮）。
 > *   **Text**: "妥协的艺术：与其点击切换，不如一眼看穿"
-> *   **Asset**: ![预览](assets/slides/S04b_Small_Multiples.png)
+> *   **Asset**: ![预览](assets/slides/S04b_Small_Multiples.webp)
 
 讲到这里，你们可能已经跃跃欲试，想要给你们所有的项目加上狂野的缩放、复杂的刷选引擎和漫游镜头。
 
@@ -246,7 +246,7 @@ tags: [interaction-manipulate-taxonomy, scrollytelling-gsap-arch, motion-storybo
 > *   **Layout**: `Quadrant`
 > *   **Scene**: 屏幕上分成四个象限，分别显示：1. 航班晚点时间直方图；2. 一天中起飞时间的直方图；3. 飞行距离的散点图；4. 航空公司航线的地图。四个象限的数据是高度连通的。
 > *   **Text**: "跨视图联动：切开多维度的手术刀"
-> *   **Asset**: ![预览](assets/slides/S03c_Cross_Filtering_Deep_Dive.png)
+> *   **Asset**: ![预览](assets/slides/S03c_Cross_Filtering_Deep_Dive.webp)
 
 大家看这张图。假设这是全美国一千万条航班的数据。
 
@@ -287,7 +287,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Image`
 > *   **Scene**: 屏幕展示了一个用户在错综复杂的数据森林中寻路的示意图。每个数据节点散发着一种被称为"信息气味 (Information Scent)"的微光，引导用户决定应该放大查看哪个区域。
 > *   **Search**: `information foraging theory information scent navigation visual`
-> *   **Asset**: ![预览](assets/slides/S04c_Information_Scent.png)
+> *   **Asset**: ![预览](assets/slides/S04c_Information_Scent.webp)
 
 但当我们构建这样一个无限缩放的数据宇宙时，我们面临着一个致命的问题：在这个黑暗的森林里，如果没有路标，用户怎么知道该往哪里放大？如果他放大了一段毫无价值的平淡折线，他就会感到无比沮丧。
 
@@ -318,7 +318,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是一张简洁、通过颜色高亮直接标出结论的静态《华尔街日报》版图表；右侧是一个有着 20 多个复选框和 5 根滑轨下拉菜单的"探索式仪表盘"控制台，让人望而生畏。
 > *   **Text**: "设计的克制：不要逼迫读者去'工作'"
-> *   **Asset**: ![预览](assets/slides/S05_Interaction_Fatigue.png)
+> *   **Asset**: ![预览](assets/slides/S05_Interaction_Fatigue.webp)
 
 对于大众读者而言，当他们在手机上刷新闻时，他们的耐心通常只有 3 到 5 秒钟。如果你在一开始就扔出一个带有 10 个筛选按钮的庞大图表，并且不提供任何默认的结论，他们只会感到一种强烈的**认知阻力**。读者会觉得自己不是在看新闻，而是被强迫去一个陌生的系统里"上夜班"。
 
@@ -356,7 +356,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 >   *   过滤噪音、聚焦信号：这是你唯一需要达成的目标。
 >   *   先总览，后细节：这是不可违背的人性规律。
 >   *   若非必要，绝不增添实体：这是设计的黄金克制法则。
-> *   **Asset**: ![预览](assets/slides/S06_Module_Summary.png)
+> *   **Asset**: ![预览](assets/slides/S06_Module_Summary.webp)
 
 这就是你们作为一名数据可视化界面架构师的底层方法论。
 
@@ -397,7 +397,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Comparison`
 > *   **Scene**: 左侧是典型的拥挤仪表盘，写着 "Let readers explore"; 右侧是一条有着清晰起承转合时间线的"单行道"叙事长图，写着 "Guide readers through"。
 > *   **Text**: "放弃控制权，也就放弃了注意力"
-> *   **Asset**: ![预览](assets/slides/S07_Dashboard_vs_Story.png)
+> *   **Asset**: ![预览](assets/slides/S07_Dashboard_vs_Story.webp)
 
 对于大众读者而言，他们的耐心只有 5 秒钟。如果你在一篇讲述气候变化或疫情传播的新闻主页上，给出一个有着 50 个旋钮、同时展示了十几个散点图的庞大控件，并且不提供任何解释，他们通常只看一眼就会跑掉。
 
@@ -412,7 +412,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Image`
 > *   **Scene**: 一张图，左边是给了用户 24 种果酱选择的超市货架（导致用户选择困难而放弃购买），右边是只给了 6 种经典口味的货架（购买率大幅上升）。
 > *   **Caption**: 交互设计中的"选择悖论"（Paradox of Choice）同样适用。
-> *   **Asset**: ![预览](assets/slides/S07b_Paradox_of_Choice.png)
+> *   **Asset**: ![预览](assets/slides/S07b_Paradox_of_Choice.webp)
 
 在行为经济学中，这被称为"选择悖论"。如果你赋予用户 50 个维度的切片筛选项，最终的结果通常是：用户一个都不选，直接关掉网页。
 
@@ -425,7 +425,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Split`
 > *   **Scene**: 左半边是一个巨大的向下滚动的鼠标滚轮图标；右半边是齿轮啮合的模型：鼠标向下滚动引发了下方时间轴的推移（X轴），镜头视角的拉近（Z轴），以及核心数据的变化（Y轴）。
 > *   **Text**: "Scrollytelling: 滚轮就是你的播放键"
-> *   **Asset**: ![预览](assets/slides/S08_Scrollytelling_Concept.png)
+> *   **Asset**: ![预览](assets/slides/S08_Scrollytelling_Concept.webp)
 
 滚动叙事巧妙地完美结合了 Scroll (滚动) 和 Storytelling (说故事) 两个单词。
 
@@ -443,7 +443,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Diagram`
 > *   **Scene**: 玩家在驾驶一辆过山车，过山车有一个方向盘。玩家以为自己在控制方向，但其实过山车是死死卡在铁轨上的。
 > *   **Caption**: 滚动叙事的双重隐喻：你以为你在探索，其实是被引导。
-> *   **Asset**: ![预览](assets/slides/S08b_The_Illusion_of_Control.png)
+> *   **Asset**: ![预览](assets/slides/S08b_The_Illusion_of_Control.webp)
 
 这种"控制错觉"（Illusion of Control）正是滚动叙事最迷人的心理学基础。读者讨厌被强制填鸭式的观看 5 分钟的微纪录片，但如果这 5 分钟的内容是由他们手指一次次拨动滚轮来"解锁"的，他们的多巴胺系统就会给出正向反馈，他们会认为这是自己"探索"出来的洞察。
 
@@ -464,7 +464,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Diagram`
 > *   **Scene**: 一个三明治般的架构图。最上层是白色的文本方块（Narrative Layer）；中间是透明的、布满传感器的网格（Trigger Layer）；底层是一个庞大运转的显卡或 ECharts 引擎核心（Render Layer）。
 > *   **Text**: "分解魔法：叙事、触发与渲染"
-> *   **Asset**: ![预览](assets/slides/S09_Three_Layer_Architecture.png)
+> *   **Asset**: ![预览](assets/slides/S09_Three_Layer_Architecture.webp)
 
 **1. 叙事层 (Narrative Layer)**
 
@@ -476,7 +476,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Code`
 > *   **Scene**: 在深色主题编辑器（如 VS Code）中高亮显示的 HTML 代码片段。左侧带有数字行号，展示几个包裹着文本、带有 `class="step"` 的透明 div 容器，它们之间用夸张的空白间距（如 `margin-bottom: 100vh`）隔开，暗示了物理滚动距离的跨度。
 > *   **Caption**: 叙事层本质：裹着巨大空白的文本盒子。
-> *   **Asset**: ![预览](assets/slides/S09b_Narrative_Divs.png)
+> *   **Asset**: ![预览](assets/slides/S09b_Narrative_Divs.webp)
 
 你可以想象有十块玻璃板从上到下排布，每一块写着一句话。块与块之间通常有满屏高度的透明间距。每当你向下滑动，一段新的文本块进入这片真空，再穿过屏幕，最后从顶部离开。这无聊，本身没有任何交互能力。
 
@@ -496,7 +496,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Code`
 > *   **Scene**: 左半边是一张浏览器窗口的示意图，上面有红色的虚拟横线标记着 `start`（触发位）和 `end`；右半边是简单的一段核心 JS 代码：`ScrollTrigger.create({ trigger: ".step", onEnter: () => chart.setOption(...) })`。
 > *   **Caption**: "当文本行触碰触发线，就是魔法爆裂的时刻"
-> *   **Asset**: ![预览](assets/slides/S10_Trigger_Mechanism.png)
+> *   **Asset**: ![预览](assets/slides/S10_Trigger_Mechanism.webp)
 
 这是一个永远潜伏在暗中观察的监听网络。当它发现屏幕上方那根看不见的水位线，正好碰到了"第三段解说文字（`.step-3`）"时，它犹如一个专业的打板导演，瞬间向底层的图表引擎发送一条全频段开机信号："Action！执行第三幕的变化！"
 
@@ -525,7 +525,7 @@ Pad++ 虽然因为当时的硬件性能限制未能普及成为大众操作系�
 > *   **Layout**: `Split`
 > *   **Scene**: 一个动态 GIF 网页交互录屏演示。网页分为左右两列。不管读者怎么疯狂地上下滚动鼠标滚轮（左侧深灰色的文字解说区 `.step` 在像瀑布一样飞速上下穿梭经过），右侧占据了整整全屏 60% 主视觉宽度的那个巨大彩色数据图表（`.graphic` 容器）却纹丝不动地死死钉牢在屏幕右边！它不仅不跟着网页一起被往上卷走，反而在原地淡定地做着内部图表的数据变幻（例如散点在聚拢又散开）。
 > *   **Text**: "流水的字，铁打的图"
-> *   **Asset**: ![预览](assets/slides/S11_Pinned_Architecture.png)
+> *   **Asset**: ![预览](assets/slides/S11_Pinned_Architecture.webp)
 
 这种排版为什么被奉为神作标配？
 大家回想一下你们看过的那些老旧教科书里的粗劣网页：看一段长文本，然后要艰难地用鼠标拖着滚轮往上爬十几页，就为了看一眼配图的折线长什么样。看完之后，又要拖着鼠标滚几十页回去找刚才读到哪儿了。在手机那可怜的窄小屏幕上，这种"图文分离"的反复横跳式阅读，简直就是对读者的满清十大酷刑。读者只需要在脑海里丢失 0.5 秒的短期记忆锚点，整篇深度长文的心流就会彻底崩断稀碎。
@@ -558,7 +558,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Slide**: `S12_Interaction_Fatigue`
 > *   **Layout**: `Chart`
 > *   **Scene**: 一张模拟读者心电图和注意力衰减的图表。前 3 个滚动特效，注意力达到波峰，到了第 10 个特效，注意力曲线像断崖一样跌入低谷，并配有警告图标："警惕：为了炫技而炫技，是毁灭故事最快的捷径"。
-> *   **Asset**: ![预览](assets/slides/S12_Interaction_Fatigue.png)
+> *   **Asset**: ![预览](assets/slides/S12_Interaction_Fatigue.webp)
 
 如果一部电影全片两个小时全是在打碎玻璃、全是爆炸连天没有一秒钟安静对白，这就是不入流的烂片。我们需要留白。我们需要安静的呼吸节奏。
 
@@ -571,7 +571,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Image`
 > *   **Scene**: 屏幕上不是一个巨大复杂的动态折线图，而是由 50 个整整齐齐、大小如邮票般、排满屏幕网格阵列的极简迷你小折线图组成。每个图的 X 轴和 Y 轴比例完全一模一样，分别代表了美国 50 个大州。
 > *   **Text**: "重复的力量：用空间维度替换时间维度的疲劳"
-> *   **Asset**: ![预览](assets/slides/S13_Small_Multiples.png)
+> *   **Asset**: ![预览](assets/slides/S13_Small_Multiples.webp)
 
 什么是小多图？
 与其在一个庞大的图表框架里，用 50 根缠绕交织在一起、互相打结得像一团乱麻的彩色面条线（为了展示 50 个州的新冠疫情爆发曲线），还强制读者去在旁边寻找那个眼花缭乱的图例（Legend）；
@@ -610,7 +610,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Diagram`
 > *   **Scene**: 一个漏斗形的视觉模型。最上方是庞大、密集的海洋般的数据云（Overview）；中间经过几道带有漏网和放大镜的屏障（Zoom & Filter）；最底部滴落下来的是几颗璀璨、带有详细参数标签的钻石（Details-on-demand）。
 > *   **Text**: "寻找信息的神圣准则：Shneiderman 漏斗"
-> *   **Asset**: ![预览](assets/slides/S08c_Shneiderman_Mantra.png)
+> *   **Asset**: ![预览](assets/slides/S08c_Shneiderman_Mantra.webp)
 
 在 Shneiderman 准则的指导下，各种复杂的商业智能（BI）仪表盘如雨后春笋般爆发。Tableau、Power BI 等重型武器开始统治整个企业级数据仓库。在这些专业工具里，用户被赋予了像神一样的权力。你可以随意拖拽维度、添加复杂的交叉过滤条件、随时进行上卷（Roll-up）和下钻（Drill-down）。
 
@@ -662,7 +662,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Diagram`
 > *   **Scene**: 一张精密的视线追踪热力图（Eye-tracking Heatmap）对比。左侧是不及格的设计，文字经过很久了，图表才慢吞吞变化，用户的视线焦躁地在乱窜；右侧是顶级大厂的杰作，文字只要刚触碰到触发基准线（Trigger Hook），右侧的数据爆点就精准地同频如礼花般炸开，用户的视线舒服地被牢牢吸附在屏幕中央。
 > *   **Caption**: "节奏的魔法：偏差半秒，就会彻底摧毁信任"
-> *   **Asset**: ![预览](assets/slides/S11b_Sync_Precision.png)
+> *   **Asset**: ![预览](assets/slides/S11b_Sync_Precision.webp)
 
 [CASE STUDY: Bloomberg 的"What's Warming the World?" 深度解剖]
 没有任何案例比彭博社（Bloomberg）的专栏《What's Warming the World?》更能完美地诠释这套注意力工程学法则。
@@ -678,7 +678,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Split`
 > *   **Scene**: 彭博社案例截图。背景固定着真实的全球升温基准线。动画演示轨道变化与太阳辐射变化对应的温度影响曲线生发过程，呈现平缓的趋势。
 > *   **Text**: "用数据驳斥直觉：当变量随滚动剥落"
-> *   **Asset**: ![预览](assets/slides/S11e_Bloomberg_Orbit_Sun.png)
+> *   **Asset**: ![预览](assets/slides/S11e_Bloomberg_Orbit_Sun.webp)
 
 当这行文字越过屏幕中线（即触达 Threshold 触发线）的一瞬间，图表中立刻生发变动。一条代表地球轨道周期影响的平缓辅助线被绘制出来。通过强烈的视觉重叠对比，读者的大脑在极短时间内就能得出结论：轨道变化并非变暖元凶。无需过多文字辟谣，数据图形本身完成了自证。
 
@@ -692,7 +692,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Image`
 > *   **Scene**: Bloomberg 案例的最终全屏截图。前期所有自然因素指标线均褪色为灰色底纹；代表工业温室气体排放的深红色粗实折线与真实温度基准线高度重合，直至画面最高点。
 > *   **Text**: "真理的最后一击：高维数据现身绝杀"
-> *   **Asset**: ![预览](assets/slides/S11c_The_Grand_Finale.png)
+> *   **Asset**: ![预览](assets/slides/S11c_The_Grand_Finale.webp)
 
 当读者的手指滚动到底部，人类温室气体排放的数据线才最终压轴出场。它与真实的温度上升基线形成了惊人的重合。此时，冗长的宣讲不再被需要。科学怀疑论在确凿的数据重叠视觉面前不攻自破。
 
@@ -734,7 +734,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Comparison`
 > *   **Scene**: 体验对比图。左侧是一个带有点击圆点的传统网页轮播图（Stepper），旁配数据指标：包含明显交互阻尼，流失率较高。右侧为丝滑的纵向滚动轨道，配文：无缝衔接引发潜意识滚动，阅读停留时长与完成度均获提升。
 > *   **Text**: "摩擦力的鸿沟：点击制造决断，滚动延续呼吸"
-> *   **Asset**: ![预览](assets/slides/S11d_Scroll_vs_Click.png)
+> *   **Asset**: ![预览](assets/slides/S11d_Scroll_vs_Click.webp)
 
 要回答这个问题，我们需要理解不同输入设备在物理触发时带来的心理预期差异。
 
@@ -750,7 +750,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Slide**: `S11f_Continuity_Of_State`
 > *   **Layout**: `Diagram`
 > *   **Scene**: 状态连续性图示。连续的曲线坐标变换动效，强调读者大脑是如何在一整段无断点的补帧动画中建立因果关联的。
-> *   **Asset**: ![预览](assets/slides/S11f_Continuity_Of_State.png)
+> *   **Asset**: ![预览](assets/slides/S11f_Continuity_Of_State.webp)
 
 相对而言，滚动叙事构筑的是高度紧密的连续态（Continuous）控制流。比如在彭博社案例里的趋势比较线，并非直接闪现到屏幕。它的轨迹绘制，受控于用户转动滚轮的精确进度——像拉开帷罩般徐徐展开。读者甚至可以通过回滚鼠标来回溯变量增加的过程。
 
@@ -786,7 +786,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧显示 ScrollTrigger 的核心配置参数（trigger, start, end, scrub, toggleActions），右侧对应一个动态 ECharts 实例，随着左侧参数的高亮，右侧展现对应的滚动响应模式。
 > *   **Text**: "工业标准：将 DOM 滚动深度映射为动画播放进度"
-> *   **Asset**: ![预览](assets/slides/S11g_ScrollTrigger_StateMachine.png)
+> *   **Asset**: ![预览](assets/slides/S11g_ScrollTrigger_StateMachine.webp)
 
 在复杂的数据变迁中，图表通常具有多个确定的中间状态（Keyframes）。通过 `ScrollTrigger`，我们可以定义一个跨越多个视口高度的通用时间轴（Timeline），并将各个状态的数据变更挂载到时间轴的特定进度点上。当用户向下滚动时，图表会平滑过渡到下一个特征点；当用户向上回滚时，图表状态亦能精准回滚。这种不可逆时间在屏幕空间上的双向映射，是构建大型数据长卷的基石。
 
@@ -832,7 +832,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Split`
 > *   **Scene**: 左半边是经典的希区柯克手绘电影分镜稿（旁边标注着机位、景别和对白）；右半边是完全对应的"数据分镜表"：机位对应了图表的 Layout，景别对应了语义 Zoom 的层级，推拉摇移对应了图表的过渡动效（ease 缓动曲线），而对白对应了叙事层文本。
 > *   **Text**: "数据导演：将视听语言降维映射到代码表"
-> *   **Asset**: ![预览](assets/slides/S18_Film_vs_Data_Storyboard.png)
+> *   **Asset**: ![预览](assets/slides/S18_Film_vs_Data_Storyboard.webp)
 
 在这里，我要求你们完成一次跨学科的降维映射。这要求你们将大脑的运转模式，从"讲故事"强行切换到"算坐标"。
 
@@ -856,7 +856,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Grid`
 > *   **Scene**: 一个带有 X, Y, Z 三个粗壮轴线的三维空间直角坐标系模型。X轴用亮眼的绿色写着"Trigger（我讲什么）"，Y轴用明黄色拉出"Render（你看到什么）"，Z轴用冰冷的幽蓝色刻着"Code（机器做什么）"。
 > *   **Text**: "数据动作指挥棒：X/Y/Z 三维模型"
-> *   **Asset**: ![预览](assets/slides/S19_Three_Dimensional_Deconstruction.png)
+> *   **Asset**: ![预览](assets/slides/S19_Three_Dimensional_Deconstruction.webp)
 
 在绘制你的分镜手稿时，无论你用的是 Excel 还是白板，你必须为每一个互动滚屏操作划定这三个绝对清晰的维度（X/Y/Z 轴），缺一不可。这三个维度不仅是工程层面的划分，更是认知层面的解构。
 
@@ -883,7 +883,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Table`
 > *   **Scene**: 展示一张真实的工业级 Scrollytelling 分镜表（JSON/Excel混排表格巨幅特写），表头清晰列出令人苏爽的工程化秩序排列：Step编号序列、Trigger文本(X)、视觉描述意象(Y)、图表Options变更(Z)、缓动曲线类型(Ease-emotion type)。
 > *   **Caption**: 别写代码，先填表。填满这张表，你就赢了百分之八十。
-> *   **Asset**: ![预览](assets/slides/S20_Storyboard_Practice.png)
+> *   **Asset**: ![预览](assets/slides/S20_Storyboard_Practice.webp)
 
 当你把你的文章切成 10 句话，你其实就得到了 10 个 Step 的天然触发点切片缝隙。你强迫自己痛苦但又理性去填完这 10 个 Step 对应的 X/Y/Z 轴格子。这就相当于竣工交付了一份完美无缺、甚至具备法律效力的工程蓝图。不仅如此，它由于高度解耦，它甚至是结构化的、可以下一秒钟立即丢给 AI 直接无缝对接编译为标准 JSON 配置文件的元资产（Meta Assets）。在这条降纬链道上，人类设计师的不可替代权威性体现得淋漓尽致。
 
@@ -904,7 +904,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Quadrant`
 > *   **Scene**: 四组动态圆球展示不同缓动曲线的效果，每个圆球上方悬浮相应的数学曲线函数图谱。
 > *   **Text**: "数据的性格特征：通过缓动函数构建物理隐喻"
-> *   **Asset**: ![预览](assets/slides/S21_Easing_Psychology.png)
+> *   **Asset**: ![预览](assets/slides/S21_Easing_Psychology.webp)
 
 **1. `Power / Sine / Quad` (平滑过渡基准曲线)**
 
@@ -919,7 +919,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Chart`
 > *   **Scene**: 一个带有动感尾迹的元素执行 Back 缓动：它略微超越目标界线后，通过具有弹性的阻尼振荡，最终稳稳吸附于目标点。
 > *   **Text**: "Back 函数：创造具有张力的物理反馈"
-> *   **Asset**: ![预览](assets/slides/S21b_Easing_Back.png)
+> *   **Asset**: ![预览](assets/slides/S21b_Easing_Back.webp)
 
 这是一种带有戏剧张力的缓动函数。
 当为元素指定 `ease: "back.out"` 时，该元素在到达目标点前会保持较高速度，冲过警戒线后，再像一根被拉伸的橡皮筋一样，经过短暂的回弹震荡锁定在目标刻度。
@@ -932,7 +932,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Chart`
 > *   **Scene**: 演示 Bounce 缓动的物理模型图：一个沉重的色块落下，接触底部坐标轴后产生几次明显的抛物线弹跳，最终静止。
 > *   **Text**: "Bounce 函数：模拟高重力场景的情绪爆发"
-> *   **Asset**: ![预览](assets/slides/S21c_Easing_Bounce.png)
+> *   **Asset**: ![预览](assets/slides/S21c_Easing_Bounce.webp)
 
 `Bounce` 提供了一种强烈的视觉重量感，它模拟了物体从高处坠落并撞击坚硬地面的物理形变与回弹。
 在常规的严肃商业图表中通常需谨慎使用。但在可视化例如股市暴跌、灾难性指标断崖式下行等具有强烈情感爆发力的场景时，配以 `bounce.out` 会使得数据立柱在触底时产生沉重的视觉冲击力。
@@ -948,7 +948,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Split`
 > *   **Scene**: 左半区大图为北冰洋科考队记录的夏末冰盖覆盖总面积趋势表，呈断层式下降。右半区展示架构师的工程演算拆解过程。
 > *   **Text**: "打板开机：用三维模型解剖北极冰盖的衰败趋势"
-> *   **Asset**: ![预览](assets/slides/S22_Climate_Data_Case.png)
+> *   **Asset**: ![预览](assets/slides/S22_Climate_Data_Case.webp)
 
 假设我们将这份全球冰盖衰减数据集，运用 Scrollytelling 三层架构结合分镜法投射出来，其工程拆解如下：
 
@@ -1000,7 +1000,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Comparison`
 > *   **Scene**: 对比图。上方是十个柱状图同时、匀速上升，像一堵墙；下方是十个柱状图以 `stagger: 0.05s` 的延迟依次上升，像微风拂过麦浪般的阶梯状波浪流动。
 > *   **Text**: "Stagger 魔法：打破机械的整齐划一"
-> *   **Asset**: ![预览](assets/slides/S22b_Stagger_Effect.png)
+> *   **Asset**: ![预览](assets/slides/S22b_Stagger_Effect.webp)
 
 > [CASE STUDY]
 > 打开代码演示窗，我们现在有一个包含 50 个节点的散点图。
@@ -1031,7 +1031,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Code`
 > *   **Scene**: 屏幕呈现的是一段结构犹如军事部署命令般的提示词架构，黑底绿字，每个层级缩进清晰，直指底层核心。在这段冰冷的代码架构上方，全息投影般悬浮着它刚刚生成的炫酷 Pinned 滚屏叙事页面效果作为光晕。
 > *   **Text**: "跨越千行代码的鸿沟：全栈结构化 Prompt"
-> *   **Asset**: ![预览](assets/slides/S23_Prompt_AI_Architecture.png)
+> *   **Asset**: ![预览](assets/slides/S23_Prompt_AI_Architecture.webp)
 
 大家仔细看屏幕上这层悬浮的光晕。这就是你们马上要通过自然语言亲手召唤出来的神迹。
 
@@ -1046,7 +1046,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Diagram`
 > *   **Scene**: 一座清晰的三层金字塔。底层宽大，标注为"第一层：HTML 拓扑骨架"（声明 Pinned 布局、.step 容器数量、视口高度间距）；中间层标注为"第二层：库与生命周期绑定"（指定 ECharts + GSAP ScrollTrigger，声明触发点映射）；塔尖标注为"第三层：视觉调性与缓动情绪"（色盘约束、Ease 指令、响应式降级）。每层之间用箭头连接，标注"从骨骼到灵魂"。
 > *   **Text**: "Prompt 金字塔：骨骼→神经→灵魂"
-> *   **Asset**: ![预览](assets/slides/S23b_Prompt_Pyramid.png)
+> *   **Asset**: ![预览](assets/slides/S23b_Prompt_Pyramid.webp)
 
 这座三层金字塔是你们把分镜表翻译成 AI 指令的唯一合法通道。
 
@@ -1069,7 +1069,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Diagram`
 > *   **Scene**: 一个带有三次迭代箭头循环的流程图。第一圈标注"AI 首版输出 → 浏览器裸跑检视"；第二圈标注"发现问题 → 结构化 Prompt 修正"（旁注常见问题：sticky 失效、markers 残留、字体回退空白）；第三圈标注"手动微调间距 → 删除调试标记 → 完成品"。中央写着"不要指望一次搞定"。
 > *   **Text**: "迭代三圈法则：AI 的草稿需要你的导演剪辑"
-> *   **Asset**: ![预览](assets/slides/S23c_AI_Iteration_Loop.png)
+> *   **Asset**: ![预览](assets/slides/S23c_AI_Iteration_Loop.webp)
 
 请各位务必牢记这个铁律——AI 第一次生成的代码永远不是成品，它充其量只是一份粗糙的导演初剪。你必须经历至少两到三轮的精修迭代才能把它打磨成可以公开展示的状态。
 
@@ -1115,7 +1115,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `List`
 > *   **Scene**: 屏幕呈现一个熠熠生辉、类似金字塔发光的稳固结构图，从底部的渲染层，到中间的触发层，再到顶部的叙事层。旁边用醒目大字标出："你手里握着的三把梭子：改变、选择、导航"。
 > *   **Text**: "知识重铸与心智淬炼：空间架构导演的最高权力清单"
-> *   **Asset**: ![预览](assets/slides/S24_Course_Summary.png)
+> *   **Asset**: ![预览](assets/slides/S24_Course_Summary.webp)
 
 [PHILOSOPHY: 极简主义的终极武器]
 在整个交互设计的进化历程中，有一条看似矛盾却颠扑不破的法则：你手中掌握的技术武器越强大，你的克制就必须越深沉。正如密斯·凡德罗留给现代设计界的遗训——"Less is more"。在我们今天所掌握的 Scrollytelling 这门武器面前，最考验功力的绝不是让页面如何炫目震颤，而是在信息的滚滚洪流中敢于做减法，给数据最纯净的舞台。
@@ -1137,7 +1137,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧是严苛的课后特训任务指令白板。右侧是往届优秀学生作业截图的快速闪录动图，展示页面如何随着黑白文字的推演而在右侧爆发出一帧帧精致的数据切换过场。
 > *   **Text**: "课后：亲自导演并排演你的第一部数据短篇大厂电影"
-> *   **Asset**: ![预览](assets/slides/S25_Homework.png)
+> *   **Asset**: ![预览](assets/slides/S25_Homework.webp)
 
 **本周课后超级任务清单：**
 
@@ -1153,7 +1153,7 @@ Pinned 架构不仅是设计，它是对重力与物理直觉的彻底颠覆。
 > *   **Layout**: `Image`
 > *   **Scene**: 一个带有强烈的工业未来感设计的赛博朋克深色系数字沙盘总中控台推演模型，多种颜色和复杂材质的数据仪表图表不仅在 2D 屏幕上拥挤，而是直接悬浮脱轨在立体网格构建空间中闪烁流窜，屏幕中央倒映出一串绿色的 Git 合并和 Node 终端报错拉锯乱码。
 > *   **Text**: "W07 暴风雪预告：脱离温室，全面走入立体的全栈数字工业深渊"
-> *   **Asset**: ![预览](assets/slides/S26_Next_Week_Teaser.png)
+> *   **Asset**: ![预览](assets/slides/S26_Next_Week_Teaser.webp)
 
 在此，请大家务必好好享受这最后一个、你们还能在单机上无忧无虑敲几个前端代码看几眼本地浏览器刷新效果的恬静美好周末。
 

@@ -19,7 +19,7 @@
   - iPhone demo video
   - iPad demo video
   target_path: ../public/videos/M4-02e.webm
-  current_asset: ../public/slides/M4-02e.png
+  current_asset: ../public/slides/M4-02e.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -67,7 +67,7 @@
   - 用户卡片 (User Card) 的双重构建 real image
   - 用户卡片 (User Card) 的双重构建 demo video
   target_path: ../public/videos/M6-01.webm
-  current_asset: ../public/slides/M6-01.png
+  current_asset: ../public/slides/M6-01.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -88,8 +88,8 @@
   search_queries:
   - iPad photo
   - iPad real image
-  target_path: ../public/slides/M4-04a-2b_real.png
-  current_asset: ../public/slides/M4-04a-2b.png
+  target_path: ../public/slides/M4-04a-2b_real.webp
+  current_asset: ../public/slides/M4-04a-2b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: single
@@ -111,7 +111,7 @@
   - 设计师的心碎瞬间 archive image
   - 呈现一个强烈的“灾难”对比：左侧是 Figma 里静态完美的“用户卡片（User demonstration
   target_path: ../public/videos/M0-01.webm
-  current_asset: ../public/slides/M0-01.png
+  current_asset: ../public/slides/M0-01.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -130,8 +130,8 @@
   search_queries:
   - 脆弱的现实：物理变量击碎绝对坐标 historical photo
   - 脆弱的现实：物理变量击碎绝对坐标 archive image
-  target_path: ../public/slides/M1-01b_real.png
-  current_asset: ../public/slides/M1-01b.png
+  target_path: ../public/slides/M1-01b_real.webp
+  current_asset: ../public/slides/M1-01b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: single
@@ -152,8 +152,8 @@
   search_queries:
   - 胖手指灾难 historical photo
   - 胖手指灾难 archive image
-  target_path: ../public/slides/M3-01_real.png
-  current_asset: ../public/slides/M3-01.png
+  target_path: ../public/slides/M3-01_real.webp
+  current_asset: ../public/slides/M3-01.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -173,7 +173,7 @@
   search_queries:
   - 碎步间距的终端适配问题 historical photo
   - 碎步间距的终端适配问题 archive image
-  target_path: ../public/slides/M4-05c_real.png
+  target_path: ../public/slides/M4-05c_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -193,7 +193,7 @@
   search_queries:
   - 一分为二的灾难隐喻图：左侧是一个试图装下各种奇形怪状几何体的固定钢铁盒子 盒子边 demonstration
   target_path: ../public/videos/M2-01b.webm
-  current_asset: ../public/slides/M2-01b.png
+  current_asset: ../public/slides/M2-01b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -212,7 +212,7 @@
   search_queries:
   - 对比概念图 左侧是一张被打印机吐出的固定尺寸纸张；右侧是像水流一样自上而下自然发 demonstration
   target_path: ../public/videos/M2-02.webm
-  current_asset: ../public/slides/M2-02.png
+  current_asset: ../public/slides/M2-02.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -231,7 +231,7 @@
   search_queries:
   - 隐喻图——一双紧紧握拳的手（象征绝对控制）逐渐松开 变成托举流动数字水滴的手势（ demonstration
   target_path: ../public/videos/M2-02a.webm
-  current_asset: ../public/slides/M2-02a.png
+  current_asset: ../public/slides/M2-02a.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -280,7 +280,7 @@
   search_queries:
   - 直观对比演示“加大 Padding 防误触”和“增加 Margin 拉开社交距离 demonstration
   target_path: ../public/videos/M3-02c.webm
-  current_asset: ../public/slides/M3-02c.png
+  current_asset: ../public/slides/M3-02c.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -299,7 +299,7 @@
   search_queries:
   - 尺寸本能机制隐喻 一只坚固的“硬质木箱（Fixed）” 无论里面装的是一块小石头 demonstration
   target_path: ../public/videos/M3-03a.webm
-  current_asset: ../public/slides/M3-03a.png
+  current_asset: ../public/slides/M3-03a.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -318,7 +318,7 @@
   search_queries:
   - 尺寸本能机制隐喻 极具韧性的“热缩膜（Hug）” 随着内部物品的膨胀 热缩膜像被 demonstration
   target_path: ../public/videos/M3-03b.webm
-  current_asset: ../public/slides/M3-03b.png
+  current_asset: ../public/slides/M3-03b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -337,7 +337,7 @@
   search_queries:
   - 画面左侧是设计师绝望地逐个测量并手动调整几十个盒子间距的繁重体力劳动；右侧是成百 demonstration
   target_path: ../public/videos/M3-04.webm
-  current_asset: ../public/slides/M3-04.png
+  current_asset: ../public/slides/M3-04.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -356,7 +356,7 @@
   search_queries:
   - 将“生硬的铁块（Fixed）”、“高弹力紧身衣（Hug）”与“有魔力的流动水（F demonstration
   target_path: ../public/videos/M4-02d.webm
-  current_asset: ../public/slides/M4-02d.png
+  current_asset: ../public/slides/M4-02d.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -375,7 +375,7 @@
   search_queries:
   - 在全黑的卧室环境里 用户看着手机屏幕 手机屏幕四周是暗色调的 UI 但在正中央突 demonstration
   target_path: ../public/videos/M5-05b.webm
-  current_asset: ../public/slides/M5-05b.png
+  current_asset: ../public/slides/M5-05b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -395,8 +395,8 @@
   search_queries:
   - CSS Flexbox photo
   - CSS Flexbox real image
-  target_path: ../public/slides/M0-02_real.png
-  current_asset: ../public/slides/W06_M00_本节目标.png
+  target_path: ../public/slides/M0-02_real.webp
+  current_asset: ../public/slides/W06_M00_本节目标.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -416,8 +416,8 @@
   search_queries:
   - iPad photo
   - iPad real image
-  target_path: ../public/slides/M4-04a-2_real.png
-  current_asset: ../public/slides/M4-04a-2.png
+  target_path: ../public/slides/M4-04a-2_real.webp
+  current_asset: ../public/slides/M4-04a-2.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -451,7 +451,7 @@
   search_queries:
   - iPad photo
   - iPad real image
-  target_path: ../public/slides/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译_narr_L129_real.png
+  target_path: ../public/slides/M04_讲授_弹性宇宙_Flexbox与AutoLayout双向翻译_narr_L129_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -478,7 +478,7 @@
   search_queries:
   - Refactoring UI photo
   - Refactoring UI real image
-  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L25_real.png
+  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L25_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -513,7 +513,7 @@
   search_queries:
   - IBM Carbon photo
   - IBM Carbon real image
-  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L185_real.png
+  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L185_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -552,7 +552,7 @@
   search_queries:
   - isDarkMode photo
   - isDarkMode real image
-  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L249_real.png
+  target_path: ../public/slides/M05_讲授_秩序的终局_间距刻度与Design_Token_narr_L249_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -570,8 +570,8 @@
   description: 刘海屏危机：被硬件击碎的绝对坐标
   scene_excerpt: 2017 年 iPhone X 刚发布时的典型未适配 App 截图：顶部导航栏的“返回”和“菜单”按钮被物理刘海直接遮挡了一半，右上角的UI元素与系统时间重叠，呈现出死守绝对坐标导致的典型布局灾难。
   search_queries: []
-  target_path: ../public/slides/M2-02b_real.png
-  current_asset: ../public/slides/M2-02b.png
+  target_path: ../public/slides/M2-02b_real.webp
+  current_asset: ../public/slides/M2-02b.webp
   no_ai_flag: false
   confirmed_urls:
   - https://assets.content.technologyadvice.com/636450451833773441_5a32799fe2.webp

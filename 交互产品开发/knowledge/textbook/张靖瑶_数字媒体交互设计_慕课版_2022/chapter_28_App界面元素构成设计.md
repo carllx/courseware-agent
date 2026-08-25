@@ -8,11 +8,11 @@ App界面元素构成设计的一个要点是选择正确的界面元素。
 
 我们可以采用一些技巧，使用户完成目标的过程变得容易些。比如，当我们把界面第一次呈现给用户的时候，应仔细考虑每一个选项的默认值，如图3-14和图3-15所示。
 
-![](images/EPUB/images/image_124.jpg)
+![](images/EPUB/images/image_124.webp)
 
 ▲图3-14 提升用户体验感1
 
-![](images/EPUB/images/image_125.jpg)
+![](images/EPUB/images/image_125.webp)
 
 图3-15 提升用户体验感2
 
@@ -28,17 +28,17 @@ App界面包括启动页、引导页、登录注册页、首页等界面。
 
 启动页是启动App时的初始界面，一般由Logo、Slogan（口号）、版本号、产品名、公司名、版权信息等组合而成，出现时长一般在3秒内，如图3-16和图3-17所示。
 
-![](images/EPUB/images/image_126.jpg)
+![](images/EPUB/images/image_126.webp)
 
 ▲图3-16 启动页1
 
-![](images/EPUB/images/image_127.jpg)
+![](images/EPUB/images/image_127.webp)
 
 ▲图3-17 启动页2
 
 ▼微课视频
 
-![](images/EPUB/images/image_128.jpg)
+![](images/EPUB/images/image_128.webp)
 
 ### App界面的构成
 
@@ -48,11 +48,11 @@ App界面包括启动页、引导页、登录注册页、首页等界面。
 
 设计时需要注意的是文字信息不宜过多，主题内容要突出，图片要符合品牌调性的同时数量也不宜太多。
 
-![](images/EPUB/images/image_129.jpg)
+![](images/EPUB/images/image_129.webp)
 
 ▲图3-18 引导页1
 
-![](images/EPUB/images/image_130.jpg)
+![](images/EPUB/images/image_130.webp)
 
 图3-19 引导页2
 
@@ -76,7 +76,7 @@ App首页通常由以下几个标准的信息区域构成。
 
 通常导航栏高度为88～132px，分别对应iPhone SE～ iPhone 14的尺寸（部分设备），iOS严格规定了标准信息区域的高度，所我们也需要严格遵守，如图3-20所示。
 
-![](images/EPUB/images/image_131.jpg)
+![](images/EPUB/images/image_131.webp)
 
 图3-20 iOS界面信息区域高度
 
@@ -88,17 +88,17 @@ App首页通常由以下几个标准的信息区域构成。
 
 注意：iPhone X及之后版本的底部要预留68px的主页指示器的位置。
 
-![](images/EPUB/images/image_132.jpg)
+![](images/EPUB/images/image_132.webp)
 
 ▲图3-21 底部标签栏
 
-![](images/EPUB/images/image_133.jpg)
+![](images/EPUB/images/image_133.webp)
 
 ▲图3-22 功能操作区
 
 ▼微课视频
 
-![](images/EPUB/images/image_134.jpg)
+![](images/EPUB/images/image_134.webp)
 
 ### App界面元素的设计
 
@@ -114,11 +114,11 @@ App界面元素的设计主要从显著性元素、视觉和心理需求，以�
 
 感觉类元素主要体现在颜色、位置、大小等物理特征上，而认知类元素则反映物体与人的关系，如图3-23和图3-24所示。
 
-![](images/EPUB/images/image_135.jpg)
+![](images/EPUB/images/image_135.webp)
 
 ▲图3-23 感觉类元素
 
-![](images/EPUB/images/image_136.jpg)
+![](images/EPUB/images/image_136.webp)
 
 图3-24 认知类元素
 
@@ -132,11 +132,11 @@ App界面元素的设计主要从显著性元素、视觉和心理需求，以�
 
 视线流是用户视觉焦点在界面上的运动轨迹，操作流是用户在操作界面形成的触点移动轨迹。人的视线习惯是从上到下、从左到右，且水平运动快于垂直运动，所以界面中左上象限比其他象限更容易获得注意，如F形布局、Z形布局的形式更符合我们的视线习惯，如图3-25和图3-26所示。
 
-![](images/EPUB/images/image_137.jpg)
+![](images/EPUB/images/image_137.webp)
 
 ▲图3-25 F形布局
 
-![](images/EPUB/images/image_138.jpg)
+![](images/EPUB/images/image_138.webp)
 
 图3-26 Z形布局
 

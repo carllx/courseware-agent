@@ -58,20 +58,20 @@ A prototype is one manifestation of a design that allows stakeholders�
 In fact, a prototype can be anything from a paper-based storyboard to a complex piece of software and from a cardboard mockup to a molded or pressed piece of metal. For example, when the idea for the PalmPilot (a precursor to mobile and smartphones, introduced in 1992) was  being developed, Jeff  Hawkins  (founder of  the company)  carved  up  a piece  of  wood about the size and shape of the device he had imagined (see Figure 12.1).
 
 Figure 12.1 The PalmPilot wooden prototype   
-![](images/87291641d62873a627b6eedb3ed652c8eb23c92899e95ed6402d35c70ec546fd.jpg)  
+![](images/87291641d62873a627b6eedb3ed652c8eb23c92899e95ed6402d35c70ec546fd.webp)  
 Source: Mark Richards / Computer History Museum
 
 Jeff  Hawkins used  to carry  this piece  of wood around  with him and  pretend to  enter information  into  it, just  to see  what it  would be  like to  own such  a device  (Bergman and Haitani, 2000). This is an example of a simple (some might even say bizarre) prototype, but it  served  its  purpose  of  simulating  scenarios  of  use. Advances  in  3D  printer  technologies, coupled with reduced prices, have increased their use in design. It is now common practice to take a 3D model from a software package and print a prototype, or indeed a final product. Soft toys, prosthetics, chocolate, dresses, shoes, and whole houses may be “printed” in this way (see Figure 12.2). Advances in sustainable printing techniques have also been made. For example, the Soft Materials  Lab at  Linz  Institute of Technology have produced  a  gelatinbased “ink” that can be used in 3D printing and then dissolved and reused.
 
-![](images/4eb6e97833fed20e8c5a77183e2d766c211a8fd2f67bf0638a61d375ebe15010.jpg)  
+![](images/4eb6e97833fed20e8c5a77183e2d766c211a8fd2f67bf0638a61d375ebe15010.webp)  
 (a)
 
-![](images/ee0ea0190d5757dedbdfb6eb7e003125582fa80acc2b6211ab8c89753a213844.jpg)  
+![](images/ee0ea0190d5757dedbdfb6eb7e003125582fa80acc2b6211ab8c89753a213844.webp)  
 (b)
 
 (c)   
 Figure 12.2 Examples of 3D printing: (a) model jet engine, (b) Synapse Dress by Anouk Wipprecht: embedded with sensors, the wearer can control the dress’s lighting pattern, and (c) custom-made climbing shoes based on a scan of the wearer’s feet   
-![](images/f0649de09ce9e4412e51dfbb5f368264267b9d1bfb27a400d564c89e3f595a18.jpg)  
+![](images/f0649de09ce9e4412e51dfbb5f368264267b9d1bfb27a400d564c89e3f595a18.webp)  
 Source: (a) Catiav5ftw / MakerBot Industries, LLC / CC BY-NC 4.0, www.thingiverse.com/thing:392115. Licensed under CC-BY-3.0, (b) ANOUK WIPPRECHTSYNAPSE DRESS created for Intel in 2014, www.niccolocasas.com/ SYNAPSE-DRESS, and (c) Photo Credits: ATHOS
 
 To see a wide range of useful objects that can be printed by 3D technology, visit this site: all3dp.com/1/useful-cool-things-3d-print-ideas-3d-printerprojects-stuff.
@@ -87,7 +87,7 @@ Prototypes  answer  questions  and  support  designers  in  choosing  be
 To read about IDEO’s reflections of prototyping, and some examples of the prototypes they have created, see www.ideou.com/blogs/inspiration/ all-prototypes-are-not-created-equal.
 
 Figure 12.3 A paper-based prototype of a handheld device to support an autistic child   
-![](images/4c3da4a98e78fb8a2d469658ffc38bbcfcef69a54e7b6d8b0bffa814407185b6.jpg)  
+![](images/4c3da4a98e78fb8a2d469658ffc38bbcfcef69a54e7b6d8b0bffa814407185b6.webp)  
 Source: Used courtesy of Sigil Khwaja
 
 # 12.2.3  Low-Fidelity Prototyping
@@ -104,19 +104,19 @@ Low-fidelityÂprototypingÂcomesÂinÂmanyÂforms.ÂWeÂexploreÂfourÂcommonÂt
 
 StoryboardingÂisÂoftenÂusedÂinÂconjunctionÂwithÂscenarios,ÂasÂdescribedÂinÂChapterÂ11.Â AÂstoryboardÂconsistsÂofÂaÂseriesÂofÂsketchesÂshowingÂhowÂsomeoneÂmightÂprogressÂthroughÂaÂ taskÂusingÂtheÂproductÂunderÂdevelopment.ÂItÂcanÂbeÂaÂseriesÂofÂscreensÂorÂaÂseriesÂofÂscenesÂshow-Â ingÂhowÂsomeoneÂcanÂperformÂaÂtaskÂusingÂanÂinteractiveÂdevice.ÂWhenÂusedÂinÂconjunctionÂwithÂ aÂscenario,ÂtheÂstoryboardÂprovidesÂmoreÂdetailÂandÂoffersÂstakeholdersÂaÂchanceÂtoÂrole-playÂ withÂaÂprototype,ÂinteractingÂwithÂitÂbyÂsteppingÂthroughÂtheÂscenario.ÂTheÂexampleÂstoryboardÂ shownÂinÂ FigureÂ 12.4depictsÂ ÂsomeoneÂcalledÂChristinaÂusingÂaÂnewÂmobileÂdeviceÂforÂexploringÂ historicalÂsites.ÂThisÂstoryboardÂcapturesÂtheÂcontextÂofÂuseÂandÂhowÂChristinaÂmightÂbeÂsup-Â portedÂinÂherÂsearchÂforÂinformationÂaboutÂtheÂpotteryÂtradeÂatÂtheÂAcropolisÂinÂancientÂGreece.Â
 
-![](images/1e06b2972d680e6c6d31930483c9a80d7d5e95b952cca9c4c4436cb4acdcd603.jpg)  
+![](images/1e06b2972d680e6c6d31930483c9a80d7d5e95b952cca9c4c4436cb4acdcd603.webp)  
 Christina walks up hill; the product gives her information about the site
 
-![](images/66e456b1b411d0d95e5fe4dfb8840c427757d67f73daff41242a36524dc55cf2.jpg)  
+![](images/66e456b1b411d0d95e5fe4dfb8840c427757d67f73daff41242a36524dc55cf2.webp)  
 Christina adjusts the preferences to find information about the pottery trade in ancient Greece
 
-![](images/e2d55bd47e89e5e11af32d8ea034880b79cc7fa77c32882ef6c4a989eebd828c.jpg)  
+![](images/e2d55bd47e89e5e11af32d8ea034880b79cc7fa77c32882ef6c4a989eebd828c.webp)  
 Christina scrambles to the highest point
 
-![](images/e334dea90d0d2a9190cff612bd8383d57905fa3a1464504244dfa199c06050be.jpg)  
+![](images/e334dea90d0d2a9190cff612bd8383d57905fa3a1464504244dfa199c06050be.webp)  
 Christina stores information about the pottery trader's way of life in ancient Greece
 
-![](images/3cdfc0da956b531c6525f173d709e8a97b63199f2bfb1e3a95d42571028e99da.jpg)  
+![](images/3cdfc0da956b531c6525f173d709e8a97b63199f2bfb1e3a95d42571028e99da.webp)  
 Christina takes a photogr aph of the location of the pottery market   
 FigureÂ 12.4AnÂ ÂexampleÂstoryboardÂforÂaÂmobileÂdeviceÂtoÂexploreÂancientÂsitesÂsuchÂasÂtheÂAcropolisÂ
 
@@ -126,7 +126,7 @@ There are many templates and free software  available to support the 
 
 As  Saul  Greenberg  et  al. (2012)  comment, however, “Sketching  is  not  about  drawing. Rather,  it  is  about  design” (p.  7).  They further  point  out  how someone  can get  over their drawing inhibitions by devising their own symbols and icons and practicing them—referred to as a sketching vocabulary (p. 85). They stress how the drawings don’t have to be anything more than simple boxes, stick figures, and stars. Elements that might be required in a storyboard  sketch, for  example, include digital devices, people, emotions, tables, books, and so forth, and actions such as give, find, transfer, and write. When sketching an interface design, various icons, dialog boxes, and so on need to be drawn. Some simple examples for achieving this are shown in Figure 12.5. Mark Baskinger and William Bardel (2013)  provide further tips for those new to sketching. Activity 12.1 provides an opportunity to practice sketching some symbols, intended to be drawn simply.
 
-![](images/a52ed999d474fb2165a67a9ef936ceee0427b22438d9011e8343bdf7c96ff688.jpg)  
+![](images/a52ed999d474fb2165a67a9ef936ceee0427b22438d9011e8343bdf7c96ff688.webp)  
 Figure 12.5 Some simple sketches for low-fidelity prototyping
 
 # ACTIVITY 12.1
@@ -137,24 +137,24 @@ Produce a storyboard that depicts something you do regularly such as filli
 
 Figure 12.6 shows our attempt at a storyboard for hiring a bike share.
 
-![](images/bc9cf9515d94936cfb42be25555af6608a6a7ffb25da9b7fa349e9518f72c4fb.jpg)
+![](images/bc9cf9515d94936cfb42be25555af6608a6a7ffb25da9b7fa349e9518f72c4fb.webp)
 
-![](images/97a42f9bfa6097c3c5a16fb54f2a1739ad17d250d65a44378cd777686c4a2ffc.jpg)
+![](images/97a42f9bfa6097c3c5a16fb54f2a1739ad17d250d65a44378cd777686c4a2ffc.webp)
 
-![](images/fdfd27989f02100590255d88795c2a979e5cb5d4f565f0cd4062834dca72b577.jpg)
+![](images/fdfd27989f02100590255d88795c2a979e5cb5d4f565f0cd4062834dca72b577.webp)
 
-![](images/6b5ce746ae94dc7d7678f6184c674afa68cc51093bdff77d52b6515b9a27d812.jpg)
+![](images/6b5ce746ae94dc7d7678f6184c674afa68cc51093bdff77d52b6515b9a27d812.webp)
 
-![](images/ead3e184a0bf8370c4f417a4739db86483c3120e19da7946f04aef189c4c97ed.jpg)
+![](images/ead3e184a0bf8370c4f417a4739db86483c3120e19da7946f04aef189c4c97ed.webp)
 
-![](images/e60789d44e715997b92acf48e287376ea33a81b0385788bb5a2a79cf1de77b33.jpg)  
+![](images/e60789d44e715997b92acf48e287376ea33a81b0385788bb5a2a79cf1de77b33.webp)  
 Figure 12.6 A storyboard showing how to hire a bike share
 
 # Prototyping with Index Cards
 
 Using index cards (small pieces of cardboard about $3 { \times } 5$ inches) or sticky notes is a successful and simple way to prototype an interaction, and it is used for developing a range of interactive products including websites and smartphone apps (see Figure 12.7). Each card represents one element of the interaction, perhaps a screen or just an icon, menu, or dialog exchange. In evaluation studies, the participant can step through the cards, pretending to perform the task while interacting with the cards. This is also referred to as paper prototyping. Section 12.5.2 provides a more detailed example of this kind of prototyping.
 
-![](images/d55cdfd9a3272a3f867094d906b5d7d99a7318e7a2837fac52e4524758de4c6b.jpg)  
+![](images/d55cdfd9a3272a3f867094d906b5d7d99a7318e7a2837fac52e4524758de4c6b.webp)  
 Figure 12.7 Card-based prototype developed for a phone interface
 
 # Wizard of $O z$
@@ -165,7 +165,7 @@ Using this  technique enables  researchers to  have control and  more 
 
 To read more about five common low-fidelity prototypes (sketches, paper, Lego, digital, and Wizard of Oz) and how to use them, see this website: www .interaction-design.org/literature/article/prototyping-learn-eight-commonmethods-and-best-practices.
 
-![](images/c824ff689c190764b3e486c10f1c77161f7f3f3839420b4518bc065167631292.jpg)  
+![](images/c824ff689c190764b3e486c10f1c77161f7f3f3839420b4518bc065167631292.webp)  
 Figure 12.8 An early schematic for a Wizard of Oz study for a listening typewriter Source: Gould et al., 1983
 
 # 12.2.4  High-Fidelity Prototyping
@@ -215,7 +215,7 @@ IDEO  (www.ideou.com/blogs/inspiration/why-everyone-should-prototype-not-justde
 
 This article discusses the benefits of high- and low-fidelity prototyping and includes a checklist to help decide which to use: www.nngroup.com/articles/ ux-prototype-hi-lo-fidelity/?lm=aesthetic-usability-effect&pt=article.
 
-![](images/4387ec5fc3f9f9bb0dfe3e54e7d85866d9c41a473053f11dc4af17ab0dcf4c90.jpg)  
+![](images/4387ec5fc3f9f9bb0dfe3e54e7d85866d9c41a473053f11dc4af17ab0dcf4c90.webp)  
 "THEN IN HERE WE DOACLAYMOCK-UP OFTHE COMPUTERMODEL"
 
 # Source: Reproduced with permission of Penwil Cartoons
@@ -276,9 +276,9 @@ Source: Price et al. (2010)
 
 The core components of the conceptual model are metaphors and analogies, the concepts to which users are exposed, the relationship between those concepts, and the mappings between the concepts and user experience being supported (Chapter 3). Some of these will derive from the product’s requirements, such as the concepts involved in an  activity and their relationships, which may be captured through scenarios and use cases. Others such as suitable metaphors  and  analogies  will  be  informed  by  immersion  in  the  data  and  understanding  the application domain.
 
-![](images/a1115f15edc26bde308a88fd3020b47be0c73202e168bcc9701efef628130af9.jpg)
+![](images/a1115f15edc26bde308a88fd3020b47be0c73202e168bcc9701efef628130af9.webp)
 
-![](images/451b10618829a295fff744958e1a13f1805fa4dd2838f4c84fc34e444d953791.jpg)  
+![](images/451b10618829a295fff744958e1a13f1805fa4dd2838f4c84fc34e444d953791.webp)  
 Figure 12.10  Peter being caught eating the pastry out of the fridge at breakfast (scene 2, negative reaction)
 
 Source: Price et al. (2010) / Association for Computing Machinery
@@ -291,7 +291,7 @@ Which interaction type(s) would best support the users’ activities?
 
 All of these approaches provide  different ways of thinking  about the product and help generate potential conceptual models.
 
-![](images/1faad8392f8dc464ecc57f6845628a56e1aa39b47fe6bb7ccaba901c77d10290.jpg)  
+![](images/1faad8392f8dc464ecc57f6845628a56e1aa39b47fe6bb7ccaba901c77d10290.webp)  
 Figure 12.11  An example mood board developed for a personal safety product called Guard Llama Source: johnnyhuang.design/guardllama.html
 
 # Interface Metaphors
@@ -423,7 +423,7 @@ There are many aspects to the concrete design of interactive products:
 
 As an example of concrete design decisions, Figure 12.12 shows the initial prototype of a new interface design for radio astronomy visualization software (Rampersad et al., 2017). This prototype illustrates aspects of concrete design including screen layout and icon design. In this study, the concrete design went through three iterations using prototypes of increasing levels of fidelity.
 
-![](images/f7c5ba25c65720c86d886b0192bfe94a2c3c3bfe312172f9ef484126ddf0530c.jpg)  
+![](images/f7c5ba25c65720c86d886b0192bfe94a2c3c3bfe312172f9ef484126ddf0530c.webp)  
 Figure 12.12  A paper prototype for the home view of an astronomy visualization package, illustrating some aspects of concrete design. On the left side is a large area for displaying the data, and on the right side there is an expanding side menu containing icons for additional functionality. In the middle is a list of data variables. The screen layout, relative sizes and locations of interface elements, and design of specific icons are all aspects of concrete design.
 
 Two  aspects  that have drawn  particular attention for concrete  design  are accessibility and  inclusiveness. Accessibility  and inclusiveness  were introduced  in  Chapter  1, “What  is Interaction Design?” Accessibility refers to the extent to which a product is accessible to as many people as possible, while inclusiveness means being fair, open, and equal to everyone. The aim of inclusive design is to empower people in their everyday and working lives (Rogers and Marsden, 2013).
@@ -494,17 +494,17 @@ For example, the scenario says nothing about the kinds of input and 
 
 The storyboard in Figure 12.13 includes elements of the environment and some of the screens. While drawing this, various questions came to mind such as how can the interaction be designed for all of the family? Will they sit or stand? How to handle remote participants? What kind of help needs to be available? What physical components does the travel organizer need?  How to enable all  of the  family to interact with the  system (notice that  the first scene uses voice input while other scenes have a keyboard option as well)? And so on. In this exercise, the questions it prompts are just as important as the end product.
 
-![](images/721b58f7e525916aa6b85dab7ef30e07cea16223a33b8af5bc1fae15fbacc488.jpg)
+![](images/721b58f7e525916aa6b85dab7ef30e07cea16223a33b8af5bc1fae15fbacc488.webp)
 
-![](images/1f7c975fdffaccefb381345b121f14fe01e946dedb4945f8bbb51d64a81741ea.jpg)
+![](images/1f7c975fdffaccefb381345b121f14fe01e946dedb4945f8bbb51d64a81741ea.webp)
 
-![](images/56d4bf876bccbfb6ae4f504c012f1f4d257a33ceaf82317ad13060ddce1410bd.jpg)
+![](images/56d4bf876bccbfb6ae4f504c012f1f4d257a33ceaf82317ad13060ddce1410bd.webp)
 
-![](images/c7e37b3bfd55643a3d91ea06a6f6a1087fda67df7d85171e8c5289aefeb74cac.jpg)
+![](images/c7e37b3bfd55643a3d91ea06a6f6a1087fda67df7d85171e8c5289aefeb74cac.webp)
 
-![](images/ca873e6443758430ede93709994f9eedf0e98da1d494ac64bedb4f2feded83de.jpg)
+![](images/ca873e6443758430ede93709994f9eedf0e98da1d494ac64bedb4f2feded83de.webp)
 
-![](images/d3984e9ddbaf745959d05e16502fc23cd72ae6901ac28e82bfd7b0174df9f553.jpg)  
+![](images/d3984e9ddbaf745959d05e16502fc23cd72ae6901ac28e82bfd7b0174df9f553.webp)  
 FigureÂ 12.13The Â ÂstoryboardÂforÂtheÂtravelÂorganizerÂ
 
 # ACTIVITYÂ12.5Â
@@ -523,15 +523,15 @@ TheÂfollowingÂisÂbasedÂonÂtheÂscenarioÂinÂtheÂcommentÂforÂActivityÂ1
 
 TheÂstoryboardÂisÂshownÂinÂFigureÂ 12.14.IssuesÂ ÂthatÂaroseÂwhileÂdrawingÂthisÂstoryboardÂ includedÂhowÂtoÂdisplayÂtheÂreports,ÂwhatÂkindÂofÂvirtualÂrealityÂequipmentÂisÂneeded,ÂandÂ whatÂinputÂdevicesÂareÂneededâ€”akeyboardÂ ÂorÂtouchscreen,ÂaÂsteeringÂwheel,Âaccelerator,ÂandÂ brakeÂpedals?ÂHowÂmuchÂlikeÂactualÂcarÂcontrolsÂdoÂtheÂinputÂdevicesÂneedÂtoÂbe?ÂYouÂmayÂ haveÂthoughtÂofÂotherÂissues.Â
 
-![](images/873fd7650364be0555da3bdf1d0329da98dbbb3149776c6023f329db867f41a3.jpg)
+![](images/873fd7650364be0555da3bdf1d0329da98dbbb3149776c6023f329db867f41a3.webp)
 
-![](images/c4cd376d7c50bb328d43c7d04778534f2a1d705af559daeaf9924485c8daf86c.jpg)
+![](images/c4cd376d7c50bb328d43c7d04778534f2a1d705af559daeaf9924485c8daf86c.webp)
 
-![](images/107112f3966605ba3df19249bf4c6eca67aed06dfd8b2a49d1d7300acae859ca.jpg)
+![](images/107112f3966605ba3df19249bf4c6eca67aed06dfd8b2a49d1d7300acae859ca.webp)
 
-![](images/3cc85422e80e8a2038e406aa7c3e10b07b18793a0ad9492e4082377693ee7034.jpg)
+![](images/3cc85422e80e8a2038e406aa7c3e10b07b18793a0ad9492e4082377693ee7034.webp)
 
-![](images/ec066734ef47a172b16c78006cabbb03f24762de01965c3add2f37e589c79e5d.jpg)  
+![](images/ec066734ef47a172b16c78006cabbb03f24762de01965c3add2f37e589c79e5d.webp)  
 Figure 12.14  The storyboard generated from the one-stop car shop scenario in Activity 11.4
 
 # 12.5.2  Generating Card-Based Prototypes
@@ -542,7 +542,7 @@ For example, consider the use cases for the visa requirements aspect 
 
 This second  use  case  can  be translated into cards as  follows. For  each  step in the use case,  the  travel  organizer  will  need to  have  an  interaction  component  to  deal  with  it, for example,  input  via  a  button,  menu  option, or  voice,  and  output  via  a  display  or  sound. By stepping  through the use case, a card-based prototype can be developed that covers the required behavior, and different designs can be considered. For example, Figure 12.15 shows six dialogue elements on six separate cards. The set on the left has been written in friendlier language, while the set on the right is more official. These cover steps 1, 2, 3, 4, and 5.
 
-![](images/ac58776b63776c23f3c0da00ce6c25f440e632638bbff9b114cc8beef8cf6198.jpg)  
+![](images/ac58776b63776c23f3c0da00ce6c25f440e632638bbff9b114cc8beef8cf6198.webp)  
 Figure 12.15  Cards 1–3 of a card-based prototype for the travel organizer
 
 The alternative courses, for example those dealing with error messages, would also each have a card, and the tone and information contained in the error message could be evaluated with stakeholders. For example, step 7.1 might translate into a simple “No visa information is available,” or a more helpful, “I am not able to find visa information for you to visit your chosen destination. Please contact the <destination country>’s embassy.”
@@ -563,7 +563,7 @@ Look at the storyboard in Figure 12.4. This storyboard shows Christina explo
 
 Figure 12.16 shows the  two cards we drew. The first is simply an Ancient Greek pot, while the second attempts to capture the idea of a pottery seller in the market. When we stepped through the storyboard with a colleague and showed them these alternatives, both were found to require improvement. The pot on its own did not capture the pottery trade, and it wasn’t clear what the market seller represented, but there was  a preference for  the  latter, and  the feedback was useful.
 
-![](images/440ffc531bd95d69fc1820038754d652cf84d9c1e30d931b7ffb398c815a8f11.jpg)  
+![](images/440ffc531bd95d69fc1820038754d652cf84d9c1e30d931b7ffb398c815a8f11.webp)  
 Figure 12.16  Two icons to represent “pottery trade” for the new mobile device for exploring historic sites depicted in the storyboard of Figure 12.4
 
 # 12.5.3  Mapping the Overall Experience
@@ -578,10 +578,10 @@ This video illustrates the benefits of experience mapping using a time
 
 User flows  are another  way to  capture the overall  user experience, focusing  on screen content and design. These are used particularly for mobile apps or websites and are similar to timeline customer journey maps because they capture the flow that someone may go through when using  the product.  User flows  come in  various forms  but  are usually  represented in a  flowchart  showing  different  options  and  decision points  through the  customer  journey. Generating a user flow helps determine the number of screens or pages needed to keep the user engaged, maps out the different paths through the product, and supports the design of individual screens.
 
-![](images/1349cf7283b5e461118556a470b7cc0229197ce3a379d0c4896c976155b35899.jpg)  
+![](images/1349cf7283b5e461118556a470b7cc0229197ce3a379d0c4896c976155b35899.webp)  
 (a)
 
-![](images/8c85d8b6e73b93be8594c22a7b25ebb6a7bf7cc2f7f0b714cd473551a873d495.jpg)  
+![](images/8c85d8b6e73b93be8594c22a7b25ebb6a7bf7cc2f7f0b714cd473551a873d495.webp)  
 (b)   
 Figure 12.17  (a) An experience map using a wheel representation and (b) an example timeline illustrating how different issues may be captured
 
@@ -597,7 +597,7 @@ For an overview of different mapping techniques used in UX design, se
 
 Design thinking refers to an approach to complex problem-solving  and innovative design. It is a human-centered approach that focuses on understanding what people want and what technology can do for them. Design thinking is often described in terms of a number of phases that together evolve a solution, but there are many variations. For example, Isabell Osann et al. (2020) suggest six phases in two clusters: the orientation cluster involves the three phases understand, observe, and synthesize, while the solution cluster involves ideate, prototype, and test. IDEO (www.ideou.com/pages/design-thinking) observes that although it teaches design thinking as a series of linear steps (see Figure 12.18), it is an iterative  process  that can  be adapted  to specific needs. IDEO emphasizes human  needs, empathy, and  collaboration by looking at a design challenge through three lenses: desirability, feasibility, and viability. On the other hand, Bon Ku and Ellen Lupton (2022) highlight two core principles of design thinking as embracing a human-centered perspective and applying a creative mindset. They identify three main phases: observe, imagine, and make.
 
-![](images/77e84dbd2f979588ae913aa0e5c7b7354fae999e3cd22af4a26dc4b2fae594e1.jpg)  
+![](images/77e84dbd2f979588ae913aa0e5c7b7354fae999e3cd22af4a26dc4b2fae594e1.webp)  
 Figure 12.18  IDEO’s design thinking steps
 
 Source: Phases for the design thinking process. Intended to be iterative, not sequential
@@ -647,11 +647,11 @@ Other toolkits have been developed from the basic Arduino kit. The mo
 Magic Cubes is a novel toolkit that is assembled from six sides that are slotted together to become an interactive cube that lights up in different colors, depending on how vigorously it is shaken. Intended to encourage children to learn, share, and fire their imagination to come up with new games and other uses, see it in action at uclmagiccube.weebly.com/video.html.
 
 Figure 12.19  The Arduino board   
-![](images/6bdaed3dc5091f4406b2ebd0f14c5893e5308d386d532f840739ae4090e8c895.jpg)  
+![](images/6bdaed3dc5091f4406b2ebd0f14c5893e5308d386d532f840739ae4090e8c895.webp)  
 Source: Courtesy of Dr Nicolai Marquardt
 
 Figure 12.20  The Lilypad Arduino kit   
-![](images/262a716bbe68c2aca4357c1b64fafde76b310aae38d65b15985feb83eca98edd.jpg)  
+![](images/262a716bbe68c2aca4357c1b64fafde76b310aae38d65b15985feb83eca98edd.webp)  
 Source: Courtesy of Leah Beuchley
 
 Other kinds of easy-to-use and quick-to-get-started physical toolkits, intended to provide new  opportunities  for  people to be inventive and  creative, include electronics  kits (sphero .com), Raspberry Pi (www.raspberrypi.org), and Makey Makey (makeymakey.com).
@@ -661,7 +661,7 @@ Another  popular  physical  computing  system  is  the  BBC  micro:bit 
 using a variant of JavaScript. This means that the micro:bit provides a great experience for young students and other beginner programmers, while also supporting more sophisticated programming. As a result, micro:bit has been widely adopted in schools around the world.
 
 Figure 12.21  The BBC micro:bit   
-![](images/b7d9f545b0dffd4c18a4646d1af959deff94e726606162b84b9b1b4f81c172a8.jpg)  
+![](images/b7d9f545b0dffd4c18a4646d1af959deff94e726606162b84b9b1b4f81c172a8.webp)  
 Source: Used Courtesy of Micro:bit Foundation
 
 Physical  toolkits  are  readily  available  and  have  a  wide use  and  appeal. For  example, Wenn-Chieh Tsai et al. (2020) have developed a kit for use by IoT practitioners to investigate alternatives for emerging technologies, and Lee Jones et al. (2020) have developed a toolkit for  prototyping  e-textile  wearables. Toolkits are  often  used  by  children,  or  students  in  a formal educational setting, or by designers to enable them to start creating small electronic gadgets  and  digital tools. They  also  have a key  role  in widening  access  for  people to create useful and interesting projects and by engaging in the maker movement (see Box 12.6). Melissa Escamilla Perez et al. (2020) emphasize the benefits and opportunities for engaging families in play and collaboration through intergenerational making. They worked with five adults and seven children between 2 and 10 years old to identify the kind of interactions that take place while creating a personalized game.
@@ -756,7 +756,7 @@ KU,  B., and  LUPTON,  E.  (2020)  Health  Design  Thinking $2 ^ { \math
 
 INTERACTIONS MAGAZINE  (2018)  Designing AI. ACM. This issue of  the Interactions magazine is all about design and different aspects of it including sketching, human-centered design  for  children, collaborative  art, design  capabilities,  and  the  special  topic  of  designing for AI.
 
-![](images/c51e8f7fa0e4a47db758150e42a973a134913b0949d20d39a514ab09fdace73c.jpg)
+![](images/c51e8f7fa0e4a47db758150e42a973a134913b0949d20d39a514ab09fdace73c.webp)
 
 # INTERVIEW
 

@@ -6,9 +6,9 @@ You’ve spent a ton of time crafting the perfect realistic sample data,
 picking out usernames and avatars, and putting together a beautiful and
 electrifying screen.
 
-![](images/index-235_1.png)
+![](images/index-235_1.webp)
 
-![](images/index-235_2.png)
+![](images/index-235_2.webp)
 
 235
 
@@ -24,7 +24,7 @@ Try incorporating an image or illustration to grab the user’s attention,
 and emphasizing the call-to-action to encourage them to take the next
 step:
 
-![](images/index-236_1.png)
+![](images/index-236_1.webp)
 
 Don’t overlook empty states
 
@@ -43,5 +43,5 @@ don’t settle for plain and boring.
 
 Don’t overlook empty states
 
-![](images/index-238_1.png)
+![](images/index-238_1.webp)
 

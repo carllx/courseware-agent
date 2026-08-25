@@ -28,6 +28,12 @@
             "name": "毕业设计档案归档",
             "path": "毕业设计档案归档",
             "status": "pending"
+        },
+        {
+            "id": "creation_and_originality",
+            "name": "造物与创格",
+            "path": "造物与创格",
+            "status": "pending"
         }
     ],
     "skills": [
@@ -50,16 +56,22 @@
             "description": "叙事考古/概念发掘"
         },
         {
-            "id": "validation-suite",
-            "name": "Validation Suite",
-            "path": "skills/validation_suite",
-            "description": "验证套件（链接/时长/语法）"
-        },
-        {
             "id": "librarian",
             "name": "Librarian",
             "path": "skills/librarian",
             "description": "知识枢纽查询引擎（三层漏斗：hub扫描 → search_knowledge → view_file段落）"
+        },
+        {
+            "id": "cheat-sheet-generator",
+            "name": "Cheat Sheet Generator",
+            "path": "skills/cheat_sheet_generator",
+            "description": "教师备课套件生成器"
+        },
+        {
+            "id": "export-tools",
+            "name": "Export Tools",
+            "path": "skills/export_tools",
+            "description": "项目文档导出工具链"
         },
         {
             "id": "pptx-nfu-branded",

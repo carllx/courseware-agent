@@ -10,7 +10,7 @@ Jason Csizmadi
 
 Jason Csizmadi
 
-![](images/31133b85bf4f050c6edeae0a356932a2b3dd842d1cd2e32cb27d78b66b2555ce.jpg)
+![](images/31133b85bf4f050c6edeae0a356932a2b3dd842d1cd2e32cb27d78b66b2555ce.webp)
 
 # ACKNOWLEDGMENTS
 

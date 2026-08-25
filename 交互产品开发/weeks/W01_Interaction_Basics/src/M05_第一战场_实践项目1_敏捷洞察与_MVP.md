@@ -8,7 +8,7 @@
 > [VISUAL]
 > **Slide**: W01_S06a
 > **Layout**: `Flow`
-> *   **Asset**: ![预览](../public/slides/W01_S06a.png)
+> *   **Asset**: ![预览](../public/slides/W01_S06a.webp)
 > **Text**: 敏捷的呼吸节律：构建与抛弃
 > **Scene**: 敏捷开发循环图（Think -> Make -> Check），高亮 "Think" 与 "Make" 的前期交界阶段，并标注 "实践项目1: 定性研究与概念流向"。
 
@@ -21,7 +21,7 @@
 > [VISUAL]
 > **Slide**: W01_S06b
 > **Layout**: `Split`
-> *   **Asset**: ![预览](../public/slides/W01_S06b.png)
+> *   **Asset**: ![预览](../public/slides/W01_S06b.webp)
 > **Text**: 业务痛点陈述模板
 > **Scene**: Gothelf 的业务痛点陈述模板拆解，用填空题的形式展示三个核心部分（原有目标、世界变化、预期可衡量结果）。
 > **List**: 1. 系统设计的[原有目标] / 2. 现在[世界发生了什么变化] / 3. 我们的改进请求是[可衡量的结果]
@@ -35,7 +35,7 @@
 > [VISUAL]
 > **Slide**: W01_S06c
 > **Layout**: `Full`
-> *   **Asset**: ![预览](../public/slides/W01_S06c.png)
+> *   **Asset**: ![预览](../public/slides/W01_S06c.webp)
 > **Text**: 切穿盲目听从
 > **Scene**: 医生问诊图对比。左边是"假医生"（听病人说切阑尾就拿刀 = 需求执行者），右边是"真医生"（拿着听诊器问症状再做判断 = 设计诊断者）。
 
@@ -57,7 +57,7 @@
 > [VISUAL]
 > **Slide**: W01_S06d
 > **Layout**: `Flow`
-> *   **Asset**: ![预览](../public/slides/W01_S06d.png)
+> *   **Asset**: ![预览](../public/slides/W01_S06d.webp)
 > **Text**: 保真度与证据强度的博弈
 > **Scene**: 一张从左到右递进的图形。左端是"纸质原型"（低保真、低成本），右端是"完整代码"（高保真、高成本）。上面压着一条向上弯曲的箭头曲线，标注"Truth Curve: 证据越多，投入越高"。
 
@@ -88,7 +88,7 @@
 > [VISUAL]
 > **Slide**: W01_S06e
 > **Layout**: `Full`
-> *   **Asset**: ![预览](../public/slides/W01_S06e.png)
+> *   **Asset**: ![预览](../public/slides/W01_S06e.webp)
 > **Text**: 白板流转法则
 > **Scene**: 粗糙但逻辑清晰的白板线框图 (Wireframe) 照片，上面贴着便利贴连着箭头，强调前期注重流转逻辑而非视觉细节。
 
@@ -108,7 +108,7 @@
 > [VISUAL]
 > **Slide**: W01_S07a
 > **Layout**: `Split`
-> *   **Asset**: ![预览](../public/slides/W01_S07a.png)
+> *   **Asset**: ![预览](../public/slides/W01_S07a.webp)
 > **Text**: 课程五大收尾法则
 > **Scene**: 五大核心收获总结卡片，每条配一个概念图标，呼应全课核心理念。
 > **List**: 1. 为行为和情绪设计 / 2. 用户心理模型够用即可 / 3. 可用性与体验双线并重 / 4. 穿透任务直达目标 / 5. 用约束与可见性赋能

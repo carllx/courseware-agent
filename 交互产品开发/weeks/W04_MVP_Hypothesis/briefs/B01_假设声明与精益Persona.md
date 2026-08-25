@@ -46,14 +46,14 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 6-1 | Box 2 of the Lean UX Canvas: Business Outcomes | `images/assets/lux3_0601.png` | ✅ 已迁移 (`/public/textbook/Fig_6-1.png`) |
-| Fig 6-2 | Metrics Mountain | `images/assets/lux3_0602.png` | ✅ 已迁移 (`/public/textbook/Fig_6-2.png`) |
-| Fig 6-3 | Connecting outcomes to impacts | `images/assets/lux3_0603.png` | ✅ 已迁移 (`/public/textbook/Fig_6-3.png`) |
-| Fig 6-4 | King's outcome-to-impact map | `images/assets/lux3_0604.png` | ✅ 已迁移 (`/public/textbook/Fig_6-4.png`) |
-| Fig 10-1 | Box 6 of the Lean UX Canvas: Hypotheses | `images/assets/lux3_1001.png` | ✅ 已迁移 (`/public/textbook/Fig_10-1.png`) |
-| Fig 10-2 | A hypothesis table | `images/assets/lux3_1002.png` | ✅ 已迁移 (`/public/textbook/Fig_10-2.png`) |
-| Fig 10-3 | Working on the hypothesis chart | `images/assets/lux3_1003.png` | ✅ 已迁移 (`/public/textbook/Fig_10-3.png`) |
-| Fig 10-4 | The Hypothesis Prioritization Canvas | `images/assets/lux3_1004.png` | ✅ 已迁移 (`/public/textbook/Fig_10-4.png`) |
+| Fig 6-1 | Box 2 of the Lean UX Canvas: Business Outcomes | `images/assets/lux3_0601.webp` | ✅ 已迁移 (`/public/textbook/Fig_6-1.webp`) |
+| Fig 6-2 | Metrics Mountain | `images/assets/lux3_0602.webp` | ✅ 已迁移 (`/public/textbook/Fig_6-2.webp`) |
+| Fig 6-3 | Connecting outcomes to impacts | `images/assets/lux3_0603.webp` | ✅ 已迁移 (`/public/textbook/Fig_6-3.webp`) |
+| Fig 6-4 | King's outcome-to-impact map | `images/assets/lux3_0604.webp` | ✅ 已迁移 (`/public/textbook/Fig_6-4.webp`) |
+| Fig 10-1 | Box 6 of the Lean UX Canvas: Hypotheses | `images/assets/lux3_1001.webp` | ✅ 已迁移 (`/public/textbook/Fig_10-1.webp`) |
+| Fig 10-2 | A hypothesis table | `images/assets/lux3_1002.webp` | ✅ 已迁移 (`/public/textbook/Fig_10-2.webp`) |
+| Fig 10-3 | Working on the hypothesis chart | `images/assets/lux3_1003.webp` | ✅ 已迁移 (`/public/textbook/Fig_10-3.webp`) |
+| Fig 10-4 | The Hypothesis Prioritization Canvas | `images/assets/lux3_1004.webp` | ✅ 已迁移 (`/public/textbook/Fig_10-4.webp`) |
 
 ## 易混淆概念辨析
 

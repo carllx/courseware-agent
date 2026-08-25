@@ -14,9 +14,9 @@ reader to find the next line when the text wraps. Have you ever
 accidentally read the same line of text twice, or accidentally skipped a
 line? The line-height was probably too short.
 
-![](images/index-123_1.png)
+![](images/index-123_1.webp)
 
-![](images/index-123_2.png)
+![](images/index-123_2.webp)
 
 123
 
@@ -34,7 +34,7 @@ That means that your line-height and paragraph width should be
 proportional — narrow content can use a shorter line-height like 1.5,
 but wide content might need a line-height as tall as 2.
 
-![](images/index-124_1.png)
+![](images/index-124_1.webp)
 
 Line-height is proportional
 
@@ -52,7 +52,7 @@ But as text gets larger, your eyes don’t need as much help. This means
 that for large headline text you might not need any extra line spacing,
 and a line-height of 1 is perfectly fine.
 
-![](images/index-125_1.png)
+![](images/index-125_1.webp)
 
 125
 
@@ -61,7 +61,7 @@ Line-height is proportional
 Line-height and font size are *inversely* proportional — use a taller
 line-height for small text and a shorter line-height for large text.
 
-![](images/index-126_1.png)
+![](images/index-126_1.webp)
 
-![](images/index-126_2.png)
+![](images/index-126_2.webp)
 

@@ -16,7 +16,7 @@
 > *   **Slide**: `S03_Cover`
 > *   **Layout**: `Center`
 > *   **Scene**: 标题页，严肃而温馨的风格，文案："安全实习，平安归来"。
-> *   **Asset**: ![预览](assets/slides/S03_Cover.png)
+> *   **Asset**: ![预览](assets/slides/S03_Cover.webp)
 
 同学们好。请大家先看屏幕。
 在动员大会上，我们已经强调了**实习的时间逻辑**和**材料规范**。特别是**法定节假日严禁落款**这一条，这是法律红线，也是评价你职业素养的底线，请务必死记硬背下来。
@@ -32,7 +32,7 @@
 > *   **Slide**: `S03_Scam_Case`
 > *   **Layout**: `Split`
 > *   **Scene**: 昏暗背景，手机显示"高薪内推"，旁边是破碎钱币。文字："真实案例：高薪陷阱"。
-> *   **Asset**: ![预览](assets/slides/S03_Scam_Case.png)
+> *   **Asset**: ![预览](assets/slides/S03_Scam_Case.webp)
 
 请同学们看大屏幕。
 老师不仅关心你们的学业，更关心你们的口袋和安危。
@@ -50,7 +50,7 @@
 > *   **Slide**: `S03_Scam_Alert`
 > *   **Layout**: `Center`
 > *   **Scene**: 黑底红字，警示语："凡是入职要交钱的，99.9% 都是骗子！"
-> *   **Asset**: ![预览](assets/slides/S03_Scam_Alert.png)
+> *   **Asset**: ![预览](assets/slides/S03_Scam_Alert.webp)
 
 除了资金账户，也要注意生活半径里的陷阱。
 在外租房的同学，请务必检查房源的合法性，不租住没有证件的“黑公寓”或二房东的房子；出行时，即便再急也坚决不坐“黑车”。
@@ -60,7 +60,7 @@
 > *   **Slide**: `S03_Physical_Safety`
 > *   **Layout**: `Grid`
 > *   **Scene**: 三个图标警示：1. 🏠 房屋租赁（拒绝黑中介）；2. 🚗 交通出行（拒乘黑车）；3. 🌙 夜间行动（结伴/位置共享）。
-> *   **Asset**: ![预览](assets/slides/S03_Physical_Safety.png)
+> *   **Asset**: ![预览](assets/slides/S03_Physical_Safety.webp)
 
 大家请看这张图标，我们总结了三个核心警示点：
 首先是 **房屋租赁**，要坚决拒绝黑中介，确保租房合同上有正式的物权证明；
@@ -77,7 +77,7 @@
 > *   **Slide**: `S03_Contact_Card`
 > *   **Layout**: `Split`
 > *   **Scene**: 分类清晰的通讯录列表。分为：教学行政（卢老师）、人员管理（汪老师）、安全保卫（陈老师）。
-> *   **Asset**: ![预览](assets/slides/S03_Contact_Card.png)
+> *   **Asset**: ![预览](assets/slides/S03_Contact_Card.webp)
 
 正如屏幕上这张联系卡所示，请现在拿出手机，我们做一个互动，存好以下三个关键号码。
 **牢记“黄金时间”原则**：
@@ -108,7 +108,7 @@
 > *   **Slide**: `S03_Discipline_Rule`
 > *   **Layout**: `Flow`
 > *   **Scene**: 纪律红线图：1. 请假 = 双重确认（企业+校内）；2. 失联 > 24H = 紧急报警。
-> *   **Asset**: ![预览](assets/slides/S03_Discipline_Rule.png)
+> *   **Asset**: ![预览](assets/slides/S03_Discipline_Rule.webp)
 
 这里我们要明确责任的边界：
 如果你请假，必须同时拿到企业导师和校内导师的签字或线上确认；
@@ -127,7 +127,7 @@
 > *   **Slide**: `S03_Final_Commitment`
 > *   **Layout**: `Full`
 > *   **Scene**: 老师目送学生远行的背影或毕业典礼温馨画面。配文："平安实习，顺利毕业"。
-> *   **Asset**: ![预览](assets/slides/S03_Final_Commitment.png)
+> *   **Asset**: ![预览](assets/slides/S03_Final_Commitment.webp)
 
 同学们，实习是你们职业生涯真正意义上的起点。
 所谓职业精神，第一条就是“对自己负责”。

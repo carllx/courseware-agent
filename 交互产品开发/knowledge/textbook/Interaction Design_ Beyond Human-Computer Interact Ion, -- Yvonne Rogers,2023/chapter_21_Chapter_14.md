@@ -47,7 +47,7 @@ From a business and marketing perspective, well-designed products sell.�
 
 popular the product is in the marketplace. Evaluation data enables designers to focus on real problems and the needs of different groups of people and make informed decisions about the design, rather than on debating what each other likes or dislikes. It also enables problems to be fixed before the product goes on sale or to be improved during its use.
 
-![](images/477f596450a8e40f1adc4eb13cfe4c5f26b1881e05a305d278422e1ee00b00a4.jpg)  
+![](images/477f596450a8e40f1adc4eb13cfe4c5f26b1881e05a305d278422e1ee00b00a4.webp)  
 "It's thelatest innovation in office safety. When your computer crashes,anair bag isactivated so you won't bang your head in frustration."
 
 Source: © Glasbergen. Reproduced with permission of Glasbergen Cartoon Service
@@ -157,12 +157,12 @@ Usability Testing 101 by Kate Moran (2019) describes how usability testin
 
 Look at Figure 14.1, which shows two devices for recording activity and measuring heart rate: (a) Fitbit 2 Smartwatch and (b) Fitbit Lux. Assume that you are considering buying one  of these devices. What usability issues would you want to know about, and what aesthetic design issues would be important to you when deciding which one to purchase? What else might you want to consider when making a decision?
 
-![](images/b05e15333abfc1d234ae928b4770ce074754316e52f4a60d6a548afc20940cbd.jpg)  
+![](images/b05e15333abfc1d234ae928b4770ce074754316e52f4a60d6a548afc20940cbd.webp)  
 (a)
 
 (b)   
 Figure 14.1 Devices for monitoring activity and heart rate (a) Fitbit 2 Smartwatch and (b) Fitbit Lux   
-![](images/05ba6631aef65869f7e6f02a98946b8ae31dd0a23083ef75ef2af66c42e73463.jpg)  
+![](images/05ba6631aef65869f7e6f02a98946b8ae31dd0a23083ef75ef2af66c42e73463.webp)  
 Source: Figure 14.1 (a) Fitbit 2 Smartwatch (b) Fitbit Lux
 
 # Comment
@@ -187,9 +187,9 @@ activities and reactions  such as eye trackers, motion detection systems, a
 
 Living labs can  be large  and  may  house  hundreds and  even thousands  of people,  a large array of technology, and other items. The Person-Environment-Activity Research Laboratory (PEARL)  is a  massive  space  of around 4000 square meters and  10 meters high (www.ucl.ac.uk/person-environment-activity-research-laboratory). It is used to study  user experiences in large installations of equipment for railways, high streets, town squares, theaters, etc., before they are deployed into the community. In this environment, researchers, developers, engineers, and other specialists work together to examine what people do, how they do it, and their emotional reactions. For example, they are able to test detailed differences in the environment such as the effects of space, color, lighting, and sound under controlled conditions. Projects have focused  on transport, cities and  communities, creative arts,  education, government, health, and more. Figure 14.2 shows (a) a railway installation and (b) a pop-up theater in which researchers were investigating the public’s reactions.
 
-![](images/100715bdcca3b2fd8613d1ad0169667c88cc865ef9a16c516e5e0cebeee4de96.jpg)
+![](images/100715bdcca3b2fd8613d1ad0169667c88cc865ef9a16c516e5e0cebeee4de96.webp)
 
-![](images/aca702fc6ba57feb4b131f9636acbf3a1de5a418ccf41f6fe020f2e09e3442ee.jpg)  
+![](images/aca702fc6ba57feb4b131f9636acbf3a1de5a418ccf41f6fe020f2e09e3442ee.webp)  
   
 Figure 14.2 PEARL testing scenes: (a) a railway station and (b) a pop-up theater in which researchers investigate the publics’ interactions with the items being tested [a train and train station in (a), and the theater design in (b)] and their emotional responses.
 
@@ -296,7 +296,7 @@ Data  collection: The  pre-driving  survey completed  by  each  particip
 Data analysis and results: The results of the study showed that DeepTake reliably predicted the need for a driver to take over control of the simulated car 96 percent of the time. The data from the simulator study with users (i.e., the user study) indicated that participants completed the takeovers within an acceptable time 93 percent of the time and that 83 percent of the takeovers were of acceptable quality, which was a measure of how safely and accurately the participants  completed the takeovers. Because the primary focus of research on  DeepTake was testing  the feasibility  of predicting  takeovers by  collecting and analyzing quantitative measurements, the researchers did not collect data about how participants felt about their study experience. To cope with this limitation, the researchers planned a follow-up study to  collect qualitative  user experience data, which  is not reported  here, but Activity  14.5 encourages  you  to  think about  the kind  of data  that might be useful to collect. Interestingly, while the researchers’ work so far does not focus on the user interface of the system, it does provide an alternative way of putting users at the center of development.
 
 Figure 14.3 User study setup. This custom driving simulator consists of a 30-inch monitor, a Logitech G29 steering wheel, and 10.5-inch Apple iPad Air on which the non-driving tasks are displayed. For switching between the automated and manual control of the vehicle, the participant needs to press the two blue buttons on the steering wheel simultaneously. The participant wore a pair of eye-tracking glasses and a wearable device with sensors for collecting skin.   
-![](images/dd756afcf9232135d083244ffc85dc22695911ddb8bd69dc38e36ef730c1d283.jpg)  
+![](images/dd756afcf9232135d083244ffc85dc22695911ddb8bd69dc38e36ef730c1d283.webp)  
 Source: Pakdamanian et al., 2021. CHI’2021 https://dl.acm.org/doi/pdf/10.1145/3411764.3445563
 
 # ACTIVITY 14.5
@@ -321,7 +321,7 @@ The overall purpose of the study was to find out about participants�
 
 The study consisted of four data  collection sessions  using the Ethnobot  over two days and involved 13 participants, who ranged in age and came from diverse backgrounds. One session  occurred in the early afternoon and the other in the late afternoon on each  day of the study. Each session lasted several hours. To participate in the study, each participant was given a smartphone and shown how to use the Ethnobot app (Figure 14.4), which they could experience on their own or in groups as they wished.
 
-![](images/dd9703f2fab181b2d4698137ca115609bbec605b178c6653128efcefd491f6aa.jpg)  
+![](images/dd9703f2fab181b2d4698137ca115609bbec605b178c6653128efcefd491f6aa.webp)  
 Figure 14.4 The Ethnobot used at the Royal Highland Show in Scotland. Notice that the Ethnobot directed participant Billy to a particular place (that is, Aberdeenshire Village). Next, Ethnobot asks “. . . What’s going on?” and the screen shows five of the experience buttons from which Billy needs to select a response.
 
 Source: Tallyn et al. (2018). Reproduced with permission of ACM Publications
@@ -339,7 +339,7 @@ A lot of data was collected that had to be analyzed. The pre-establi
 Overall, the analyses revealed  that participants  spent an  average  of 120  minutes  with the Ethnobot on each session and recorded an average of 71 responses, while submitting an average of 12 photos. In general, participants responded well to prompting by the Ethnobot and were eager to add more information. For example, one participant said, “I really enjoyed going around and taking pictures and [to the question] ‘have you got something to add’ [said] yeah! I have, I always say ‘yes’. . . .” A total of 435 pre-established responses were collected, including 70 that were about what the participants did or experienced (see Figure 14.5). The most frequent  response was “I learned something” followed by “I tried something” and “I enjoyed something.” Some participants also supplied photos to illustrate their experiences.
 
 Figure 14.5 The number of prewritten experience responses submitted by participants to the pre-established questions that Ethnobot asked them about their experiences   
-![](images/d79e587a374c880735ef0fa6aba2c4119bfaae2d147f3c84a2cdbd06d45084f6.jpg)  
+![](images/d79e587a374c880735ef0fa6aba2c4119bfaae2d147f3c84a2cdbd06d45084f6.webp)  
 Source: Tallyn et al., 2018 / ACM, Inc. / CC BY-4.0
 
 When the researchers asked the participants about their reactions to selecting prewritten comments, eight participants remarked that they were rather restrictive and that they would like more flexibility to answer the questions. For example, one participant said, “Maybe there should have been more options, in terms of your reactions to the different parts of the show.” However, in general, participants enjoyed their experience of the RHS and of using Ethnobot.

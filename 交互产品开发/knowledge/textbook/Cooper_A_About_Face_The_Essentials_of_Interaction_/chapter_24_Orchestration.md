@@ -47,7 +47,7 @@ Mullet and Sano's classic Designing Visual Interfaces (Prentice Hall, 1994) incl
 
 A minimalist approach to product design is inextricably tied to a clear understanding of purpose—what the user of a product is trying to accomplish using the tool. Without this sense of purpose, interactive products are just a disorganized jumble of technological capabilities. A model example where a strong sense of purpose has driven a minimal user interface is the classic Google search interface, shown in Figure 11-1. It consists of a text field, two buttons (Google Search, which takes the user to a list of results, and I'm Feeling Lucky, which takes the user directly to the top result), the Google logotype, and a couple of links to the broader universe of Google functionality. Another good example of a minimal user interface is the iPod Shuffle. By carefully defining an appropriate set of features to meet a specific set of user needs, Apple created a highly usable product with one switch and five buttons (and no screen!). Still another example is iA Writer, an incredibly simple iOS text editor app. It doesn't have much of a user interface other than an area in which to write text. The text is saved automatically, eliminating the need to interact with files.
 
-![](images/5adb170ff235124181be6ff38a8c58c7ccaaac764f25286b8ee7ba656117fb25.jpg)  
+![](images/5adb170ff235124181be6ff38a8c58c7ccaaac764f25286b8ee7ba656117fb25.webp)  
 Figure 11-1: The celebrated Google search interface is a classic example of minimalist interface design, where every screen element is purposeful and direct.
 
 It's worth noting that the quest for simplicity can be taken too far; reduction is a balancing act that requires a good understanding of users' mental models. The iPod Shuffle's
@@ -64,7 +64,7 @@ This ideal interaction is not a dialogue—it's more like using a tool. When a c
 
 The driver certainly doesn't expect the car to interrogate him with a dialog box, nor would a carpenter appreciate the dialog shown in Figure 11-2 if it appeared on his hammer.
 
-![](images/848e9664e1005ad4d8541d504f516a87ff94e11e555454d26d52ff1a4f03c921.jpg)  
+![](images/848e9664e1005ad4d8541d504f516a87ff94e11e555454d26d52ff1a4f03c921.webp)  
 Figure 11-2: Nobody wants to be scolded, particularly by a machine. If we guide our machines in a dunderheaded way, we expect to get a dunderheaded response. Sure, they can protect us from fatal errors, but scolding isn't the same thing as protecting.
 
 One of the reasons interactive products often aggravate people is that they don't act enough like cars or hammers. Instead, they have the temerity to try to engage us in a dialogue—to inform us of our shortcomings and to demand answers. From the user's point of view, the roles are reversed: The person should do the demanding, and the software should do the answering. One of the most important ways of letting the users direct the action in an interface is direct manipulation. We'll discuss this at length in Chapter 13.
@@ -75,7 +75,7 @@ Dialog boxes (confirmation dialogs in particular) ask questions. Toolbars and pa
 
 Choices are important, but there is a difference between being free to make choices based on presented information and being interrogated by the application in modal fashion. Users would much rather direct their software the way they direct their automobiles down the street. Automobiles offer drivers sophisticated choices without once issuing a dialog box. Imagine the situation shown in Figure 11-3.
 
-![](images/936bba7c36435f53c019683c621efd3a1f90cd44dff806016ac35228db7f1a9f.jpg)  
+![](images/936bba7c36435f53c019683c621efd3a1f90cd44dff806016ac35228db7f1a9f.webp)  
 Figure 11-3: Imagine if you had to steer your car by clicking buttons on a dialog box! This dialog box gives you some idea of how normal people feel about the dialog boxes in your software.
 
 Not only is directly manipulating a steering wheel a more appropriate idiom for communicating with your car, but it also puts you in the superior position, directing your car where it should go. Modeless choices help give users the feeling of control and mastery they want when using digital products.
@@ -102,9 +102,9 @@ Jet fighters have a heads-up display, or HUD, that superimposes the readings of 
 
 information about activity in the main work area. Many drawing applications, such as Adobe Photoshop, already provide ruler guides, thumbnail maps, and other modeless feedback in the periphery of their windows. We further discuss rich modeless feedback in Chapter 15.
 
-![](images/d20de083c2e481f9783b99bedcdeff5aeb872b7ebf136924e7a7e4550cfb9a11.jpg)
+![](images/d20de083c2e481f9783b99bedcdeff5aeb872b7ebf136924e7a7e4550cfb9a11.webp)
 
-![](images/d63652f924f059de16dcf68feed8459a0e382ab8e4f4a817fe10a49648cc671d.jpg)  
+![](images/d63652f924f059de16dcf68feed8459a0e382ab8e4f4a817fe10a49648cc671d.webp)  
 Figure 11-4: In Word 2010, Microsoft lets you see what page you are on, the number of total pages, and the number of words in the document displayed modelessly on the lower-left edge of the window. Clicking on the word count opens the Word Count dialog, which provides more detailed information.
 
 # Design for the probable but anticipate the possible
@@ -115,7 +115,7 @@ Developers tend to view possibilities as being the same as probabilities. For ex
 
 This dialog box is inappropriate and unnecessary. How often do you choose to abandon changes you make to a document? This dialog is tantamount to your spouse telling you not to spill soup on your shirt every time you eat. We'll discuss the implications of removing this dialog in Chapter 14.
 
-![](images/577c5f93d08246af0a69cc4cbc2febd99c8be611a7570862dacbaa70ff40218d.jpg)  
+![](images/577c5f93d08246af0a69cc4cbc2febd99c8be611a7570862dacbaa70ff40218d.webp)  
 Figure 11-5: This is easily the most unnecessary dialog box in the world of GUI. Of course we want to save our work! It is the normal state of events. Not saving it would be out of the ordinary and would be worthy of a dialog, but not this.
 
 Developers are judged by their ability to create software that handles the many possible, but improbable, conditions that crop up inside complex logical systems. This doesn't mean, however, that they should render that readiness to handle offbeat possibilities directly into a user interface. This sort of thing runs counter to a user's expectations and interrupts their flow by asking them to accommodate the possibility. Dialogs, controls, and options that are used a hundred times a day should not sit side by side with dialogs, controls, and options that are used once a year or never.
@@ -126,7 +126,7 @@ You might get hit by a bus, but you probably will get to work safely this mornin
 
 How an application chooses to represent information is another thing that can confuse or overwhelm normal humans. One area frequently abused is the representation of quantitative, or numeric, information. If an application needs to show the amount of free space on disk, it could do what the ancient Windows 3.0 File Manager did: give you the exact number of free bytes, as shown in Figure 11-6.
 
-![](images/4d36f193df8a95dfdece36ead004f02964b283960fa86c8dc66c100d7eadc9b7.jpg)  
+![](images/4d36f193df8a95dfdece36ead004f02964b283960fa86c8dc66c100d7eadc9b7.webp)  
 Figure 11-6: The old Windows 3.0 File Manager took great pains to report the exact number of bytes used by files on the disk. Did this precision help us understand if we needed to clear space on the disk? Wouldn't a visual representation that showed disk usage in a proportional manner be more meaningful? Luckily, Windows now employs bar and pie charts to indicate disk usage.
 
 In the lower-left corner, the application tells us the number of free bytes and the total number of bytes on the disk. These numbers are hard to read and interpret. With billions of bytes of disk storage, it ceases to be important to us just how many hundreds are left, yet the display rigorously shows us down to the kilobyte. But even while the application is telling us the state of our disk with precision, it is failing to communicate. What we really need to know is whether the disk is getting full, or whether we can add a new 20 MB application and still have sufficient working room. These raw numbers, precise as they are, do little to help us make sense of the facts, and pull us out of flow as we try and figure out what's really happening.
@@ -141,7 +141,7 @@ When someone is asleep, he usually looks asleep. When someone is awake, he looks
 
 These sorts of cues are important enough that they became a core part of the user interface of Baxter, a two-armed stationary industrial robot created by Rethink Robotics (see Figure 11-7), whose founder, Rodney Brooks, also invented the Roomba vacuuming robot. Baxter is designed to work alongside humans on a light manufacturing line. It features a large, face-like screen with cartoonish animated eyes that can look in a direction before reaching the destination. It reports system status via simple and universal facial expressions.
 
-![](images/daaf077cc01dc16b34e662d44f83845048aeb1a89a37495d7382aed228dc2ad2.jpg)  
+![](images/daaf077cc01dc16b34e662d44f83845048aeb1a89a37495d7382aed228dc2ad2.webp)  
 Figure 11-7: Baxter is a two-armed industrial robot designed to work alongside humans in a light manufacturing production line. It communicates status using facial expressions.
 
 While they probably should not be anthropomorphized as fully as Baxter, our day-to-day software applications and devices should provide similar clues. When an application is asleep, it should look asleep. When an application is awake, it should look awake. When it's busy, it should look busy. When the product is engaged in some significant internal action like performing a complex calculation and connecting to a database, it should be obvious to us that it won't be quite as responsive as usual. When the app is sending a large file, we should see a modeless progress bar. This lets the user plan their next steps accordingly.

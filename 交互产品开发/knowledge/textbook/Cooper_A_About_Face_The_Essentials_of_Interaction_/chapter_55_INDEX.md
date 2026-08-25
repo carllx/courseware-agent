@@ -4179,7 +4179,7 @@ BRENDAN KNERAM, FORMER COOPER INTERN
 
 We're a team of passionate leaders, innovators, and craftspeople.
 
-![](images/8e393c130f2cf126373a9d62f1e0791baf0fc75504832b6d0baaef1f53be0021.jpg)
+![](images/8e393c130f2cf126373a9d62f1e0791baf0fc75504832b6d0baaef1f53be0021.webp)
 
 # Cooper U Courses
 
@@ -4189,7 +4189,7 @@ cooper.com/training
 
 cooperu@cooper.com
 
-![](images/5cff9a5ad638442bd29d5abc92b3d74e313fae0c2aa9e1db8bfb574cc8baff43.jpg)
+![](images/5cff9a5ad638442bd29d5abc92b3d74e313fae0c2aa9e1db8bfb574cc8baff43.webp)
 
 # Our Studio
 
@@ -4199,7 +4199,7 @@ cooper.com/careers
 
 careers@cooper.com
 
-![](images/d7d8872b03181fbba4316a99e2a27d76fabaf757372d79fb3a3f47b1bf936f9d.jpg)
+![](images/d7d8872b03181fbba4316a99e2a27d76fabaf757372d79fb3a3f47b1bf936f9d.webp)
 
 # MASTERING INTERACTION DESIGN FOR NEW DEVICES AND INTERFACES.
 
@@ -4214,19 +4214,19 @@ The first three editions of About Face shaped the evolution of interaction desig
 
 # ABOUT THE AUTHORS
 
-![](images/73c31ff8111d71a29599493e463c93f92b8a53ea444aff9bdcc6b76a05f0a344.jpg)
+![](images/73c31ff8111d71a29599493e463c93f92b8a53ea444aff9bdcc6b76a05f0a344.webp)
 
 ALAN COOPER is a founder of Cooper and a pioneer of modern computing. His groundbreaking work has influenced a generation of programmers, business people, and users.
 
-![](images/548a3ff9079b8be4c9da9080dc668d03ac6a01682d6d9db4d5b495293ddb3940.jpg)
+![](images/548a3ff9079b8be4c9da9080dc668d03ac6a01682d6d9db4d5b495293ddb3940.webp)
 
 ROBERT REIMANN was founding president of the Interaction Design Association (IxDA). He is Principal Interaction Designer at PatientsLikeMe, and former Director of Design R&D at Cooper.
 
-![](images/73191153a1c03c6f52653f28567743fc4e055e8fc1680f16c4132ee059f867b0.jpg)
+![](images/73191153a1c03c6f52653f28567743fc4e055e8fc1680f16c4132ee059f867b0.webp)
 
 DAVID CRONIN is a Design Director at GE. He was also Director of Interaction Design at Smart Design, and a former Managing Director at Cooper.
 
-![](images/d7bc69634109c61a20c4eb7e724b72f006c7cd15997f4194e89d933d31dffeb7.jpg)  
+![](images/d7bc69634109c61a20c4eb7e724b72f006c7cd15997f4194e89d933d31dffeb7.webp)  
 COMPUTERS/User Interfaces $50.00 USA/$60.00 CAN
 
 CHRISTOPHER NOESSEL is Cooper's first Design Fellow, and the co-author of Make It So. He teaches and speaks about design all over the world.

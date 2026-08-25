@@ -1,6 +1,6 @@
-![](images/assets/cover.png)
+![](images/assets/cover.webp)
 
-![](images/assets/cover.png)
+![](images/assets/cover.webp)
 
 # Praise for the 3rd Edition of *Lean UX*
 
@@ -1758,7 +1758,7 @@ developed to help program evaluators answer this question. The model is
 usually visualized as shown in
 [Figure 3-1](#ch03.html_the_logic_model-id00045).
 
-![](images/assets/lux3_0301.png)
+![](images/assets/lux3_0301.webp)
 
 ###### Figure 3-1. The logic model
 
@@ -1820,7 +1820,7 @@ outcomes—you need to understand the ways that different users get value
 and then deliver that value to them in a way that *also* creates value
 for your organization.
 
-![](images/assets/lux3_0302.png)
+![](images/assets/lux3_0302.webp)
 
 ###### Figure 3-2. Aligned value
 
@@ -2088,7 +2088,7 @@ include a diverse set of viewpoints, and that, when you’re done, the
 extended team has built shared understanding and the path forward is
 clear.
 
-![](images/assets/lux3_0401.png)
+![](images/assets/lux3_0401.webp)
 
 ###### Figure 4-1. The [Lean UX Canvas](https://www.jeffgothelf.com/blog/leanuxcanvas-v2)
 
@@ -2100,7 +2100,7 @@ book *The Toyota Kata*^([2](#ch04.html_ch01fn9))—to its desired future
 state or *target condition* (“LATER” in
 [Figure 4-2](#ch04.html_the_key_areas_of_the_lean_ux_canvas)).
 
-![](images/assets/lux3_0402.png)
+![](images/assets/lux3_0402.webp)
 
 ###### Figure 4-2. The key areas of the Lean UX Canvas
 
@@ -2290,7 +2290,7 @@ Liberating Structures, accessed June 16, 2021,
 
 # Chapter 5. Box 1: Business Problem
 
-![](images/assets/lux3_0501.png)
+![](images/assets/lux3_0501.webp)
 
 ###### Figure 5-1. Box 1 of the Lean UX Canvas: Business Problem
 
@@ -2538,7 +2538,7 @@ ecommerce platform.”
 
 # Chapter 6. Box 2: Business Outcomes
 
-![](images/assets/lux3_0601.png)
+![](images/assets/lux3_0601.webp)
 
 ###### Figure 6-1. Box 2 of the Lean UX Canvas: Business Outcomes
 
@@ -2655,7 +2655,7 @@ metaphor.
 Instead of a funnel, we present Metrics Mountain
 ([Figure 6-2](#ch06.html_metrics_mountaindot_concept_by_jeff_pat)).
 
-![](images/assets/lux3_0602.png)
+![](images/assets/lux3_0602.webp)
 
 ###### Figure 6-2. Metrics Mountain. Concept by Jeff Patton and Jeff Gothelf.
 
@@ -2765,7 +2765,7 @@ Here’s how it works:
 At this point, your whiteboard should start to look like the map shown
 in [Figure 6-3](#ch06.html_outcome_to_impact_mapping):
 
-![](images/assets/lux3_0603.png)
+![](images/assets/lux3_0603.webp)
 
 ###### Figure 6-3. Outcome-to-impact mapping
 
@@ -2819,13 +2819,13 @@ Teams will often find that one outcome drives multiple impact metrics
 chart. Build the chart that works for your business and your team. Just
 don’t compromise the content of the exercise.
 
-![](images/assets/lux3_0604.png)
+![](images/assets/lux3_0604.webp)
 
 ###### Figure 6-4. Real world example of an outcome to impact map, courtesy of Delphine Sassi and the team at King
 
 # Chapter 7. Box 3: Users
 
-![](images/assets/lux3_0701.png)
+![](images/assets/lux3_0701.webp)
 
 ###### Figure 7-1. Box 3 of the Lean UX Canvas: Users
 
@@ -2870,7 +2870,7 @@ your colleagues’ minds
 ([Figure 7-2](#ch07.html_dogsdot_we_are_indebted_to_our_learned))? How
 do you know?
 
-![](images/assets/lux3_0702.png)
+![](images/assets/lux3_0702.webp)
 ###### Figure 7-2. Dogs. We are indebted to our learned colleague Adrian Howard for this concept.
 
 The same thing happens when someone says, “the user.” The proto-persona
@@ -2929,7 +2929,7 @@ device, like an iPhone, will completely change the way they interact
 with your product. We only want to write down the “differences that make
 a difference.”
 
-![](images/assets/lux3_0703.png)
+![](images/assets/lux3_0703.webp)
 
 ###### Figure 7-3. A completed proto-persona template
 
@@ -3010,7 +3010,7 @@ you’re trying to displace long-held tools like email or spreadsheets,
 you might be in for a tough fight. It’s good to get that information
 sooner rather than later.
 
-![](images/assets/lux3_0704.png)
+![](images/assets/lux3_0704.webp)
 
 ###### Figure 7-4. The banana slicer. Who buys these?
 
@@ -3060,7 +3060,7 @@ be more targeted and more successful.
 
 # Chapter 8. Box 4: User Outcomes and Benefits
 
-![](images/assets/lux3_0801.png)
+![](images/assets/lux3_0801.webp)
 
 ###### Figure 8-1. Box 4 of the Lean UX Canvas: User Outcomes and Benefits
 
@@ -3178,7 +3178,7 @@ grandma the baby from across the country.”
 
 # Chapter 9. Box 5: Solutions
 
-![](images/assets/lux3_0901.png)
+![](images/assets/lux3_0901.webp)
 
 ###### Figure 9-1. Box 5 of the Lean UX Canvas: Solutions
 
@@ -3352,7 +3352,7 @@ preprinted template to hand to participants. (If you’re using an online
 tool, don’t force people to draw in that tool—that tends to be hard and
 slow. Instead, ask people to work on paper then share a photo or scan.)
 
-![](images/assets/lux3_0902.png)
+![](images/assets/lux3_0902.webp)
 
 ###### Figure 9-2. A blank “six-up” template
 
@@ -3377,7 +3377,7 @@ you can draw every interface. We’re confident everyone on your team can
 draw those shapes, and this seemingly silly idea can help level the
 playing field.
 
-![](images/assets/lux3_0903.png)
+![](images/assets/lux3_0903.webp)
 
 ###### Figure 9-3. A wall full of completed six-up drawings
 
@@ -3407,7 +3407,7 @@ like these are very helpful. Comments such as “I don’t like that
 concept” provide little value and don’t give the presenter concrete
 ideas to use for iterating.
 
-![](images/assets/lux3_0904.png)
+![](images/assets/lux3_0904.webp)
 
 ###### Figure 9-4. A team presenting and critiquing drawings during a Design Studio
 
@@ -3433,7 +3433,7 @@ team 10 minutes for this step.
 When the time is up, bring everyone together and go through the
 present-and-critique process again.
 
-![](images/assets/lux3_0905.png)
+![](images/assets/lux3_0905.webp)
 
 ###### Figure 9-5. A team working together in a Design Studio exercise
 
@@ -3496,7 +3496,7 @@ facilitation becomes a core skill set for the designers on your team.
 
 # Chapter 10. Box 6: Hypotheses
 
-![](images/assets/lux3_1001.png)
+![](images/assets/lux3_1001.webp)
 
 ###### Figure 10-1. Box 6 of the Lean UX Canvas: Hypotheses
 
@@ -3559,7 +3559,7 @@ physically move our Post-it notes into the appropriate boxes to make
 rows of related ideas. Each column is directly related to a specific box
 of the canvas, from Box 2 on the left to Box 5 on the right.
 
-![](images/assets/lux3_1002.png)
+![](images/assets/lux3_1002.webp)
 
 ###### Figure 10-2. A hypothesis table
 
@@ -3579,7 +3579,7 @@ becomes even easier. Copy and paste your notes from other parts of the
 canvas into Box 6 and move them around as necessary to complete the
 chart.
 
-![](images/assets/lux3_1003.png)
+![](images/assets/lux3_1003.webp)
 
 ###### Figure 10-3. Working on the hypothesis chart
 
@@ -3683,7 +3683,7 @@ will challenge our design capabilities. In this case, we don’t normalize
 for a specific type of risk so we can consider all aspects of risk for
 each hypothesis.
 
-![](images/assets/lux3_1004.png)
+![](images/assets/lux3_1004.webp)
 
 ###### Figure 10-4. The Hypothesis Prioritization Canvas
 
@@ -3738,7 +3738,7 @@ Dictionary of Difficult Words* (New York: Oxford University Press,
 
 # Chapter 11. Box 7: What’s the Most Important Thing We Need to Learn First?
 
-![](images/assets/lux3_1101.png)
+![](images/assets/lux3_1101.webp)
 
 ###### Figure 11-1. Box 7 of the Lean UX Canvas: Learning
 
@@ -3798,7 +3798,7 @@ again.
 
 # Chapter 12. Box 8: MVPs and Experiments
 
-![](images/assets/lux3_1201.png)
+![](images/assets/lux3_1201.webp)
 
 ###### Figure 12-1. Box 8 of the Lean UX Canvas: MVPs and Experiments
 
@@ -4014,7 +4014,7 @@ want to put into your MVP. Remember the second key question: *What’s the
 smallest thing that you can do to learn the next most important thing?*
 Anything more than that is waste.
 
-![](images/assets/lux3_1202.png)
+![](images/assets/lux3_1202.webp)
 
 ###### Figure 12-2. Our adapted version of the Truth Curve is a useful reminder that learning is continuous, and increased investment is only warranted when the facts dictate it
 
@@ -4046,7 +4046,7 @@ proposed ideas. Landing page tests don’t have to be pages. They can be
 advertisements or other online messages that have the components listed
 above.
 
-![](images/assets/lux3_1203.png)
+![](images/assets/lux3_1203.webp)
 
 ###### Figure 12-3. An example of a Kickstarter page
 
@@ -4070,7 +4070,7 @@ a feature fake that Flickr used. In this case, they offered a button
 labeled “Use as screensaver” that was ostensibly meant for the user to
 specify a photo album as the screensaver for their device.
 
-![](images/assets/lux3_1204.png)
+![](images/assets/lux3_1204.webp)
 
 ###### Figure 12-4. An example of a feature fake found in Flickr’s Apple TV app
 
@@ -4081,7 +4081,7 @@ used this to gather evidence that a customer would like this feature. By
 measuring click rates, they could assess demand for this feature before
 they built it.
 
-![](images/assets/lux3_1205.png)
+![](images/assets/lux3_1205.webp)
 
 ###### Figure 12-5. The screen that appears after clicking the feature-fake button
 
@@ -4091,7 +4091,7 @@ opportunity to take and upload photos while jogging using two modal
 overlays. No feature existed until they got an indication that a) people
 wanted this feature and b) how much they’d be willing to pay for it.
 
-![](images/assets/lux3_1206.png)
+![](images/assets/lux3_1206.webp)
 
 ###### Figure 12-6. Another example of a feature fake, this one on the MapMyRun website
 
@@ -4158,11 +4158,11 @@ of our interactions in a simple Trello board
 ([Figure 12-8](#ch12.html_our_quotation_markdatabasequotation_mar)),
 which served as our “database.”
 
-![](images/assets/lux3_1207.png)
+![](images/assets/lux3_1207.webp)
 
 ###### Figure 12-7. The Wizard of Oz site for Taproot Foundation
 
-![](images/assets/lux3_1208.png)
+![](images/assets/lux3_1208.webp)
 
 ###### Figure 12-8. Our “database” was simply a Trello board
 
@@ -4175,7 +4175,7 @@ applying some mature graphic design polish
 ([Figure 12-9](#ch12.html_the_taproot_plus_site_with_more_polishe))—after
 we had learned enough to understand how to communicate our brand.
 
-![](images/assets/lux3_1209.png)
+![](images/assets/lux3_1209.webp)
 
 ###### Figure 12-9. The Taproot Plus site with more polished graphic design
 
@@ -4970,7 +4970,7 @@ a more formal wireframe and workflow, while Greg began to write the
 infrastructure code necessary to get the data they needed to the
 presentation layer.
 
-![](images/assets/lux3_1401.png)
+![](images/assets/lux3_1401.webp)
 
 ###### Figure 14-1. Examples of whiteboard sketches
 
@@ -5195,7 +5195,7 @@ but frequently large, comprehensive bound volumes. As the world moved
 online, these books sometimes moved onto the web as PDF documents, web
 pages, or even wikis.
 
-![](images/assets/lux3_1402.png)
+![](images/assets/lux3_1402.webp)
 
 ###### Figure 14-2. Example of brand standards guidelines, this one from NASA^([2](#ch14.html_ch01fn15))
 
@@ -5390,7 +5390,7 @@ included design technologists (frontend developers who are passionate
 about both design and code), interaction designers, graphic designers, a
 technical writer, and a product owner.
 
-![](images/assets/lux3_1403.png)
+![](images/assets/lux3_1403.webp)
 
 ###### Figure 14-3. The GE Predix design system
 
@@ -5412,7 +5412,7 @@ with your end users. In this instance, it was a hybrid: designing with a
 cross-functional team of designers and developers *who actually are*
 your users.
 
-![](images/assets/lux3_1404.png)
+![](images/assets/lux3_1404.webp)
 
 ###### Figure 14-4. The GE Predix design system on GitHub
 
@@ -5585,7 +5585,7 @@ Studio, and simple conversation, your team can build a shared
 understanding that allows them to move forward at a much faster pace
 than in traditional environments.
 
-![](images/assets/lux3_1405.png)
+![](images/assets/lux3_1405.webp)
 
 ###### Figure 14-5. A team using collaborative design techniques
 
@@ -5848,7 +5848,7 @@ We like to use a weekly rhythm to schedule research, as demonstrated in
 call this “Three, twelve, one” because it’s based on the following
 guidelines: three users; by twelve noon; once a week.
 
-![](images/assets/lux3_1501.png)
+![](images/assets/lux3_1501.webp)
 
 ###### Figure 15-1. The three, twelve, one activity calendar
 
@@ -6167,7 +6167,7 @@ step-by-step feedback on the process, insight about specific design
 elements, or even meaningful feedback on copy choices. You *won’t* be
 able to learn much (if anything) about the usability of your concept.
 
-![](images/assets/lux3_1502.png)
+![](images/assets/lux3_1502.webp)
 
 ###### Figure 15-2. Example of a sketch that can be used with customers
 
@@ -6183,7 +6183,7 @@ point your test participants are focused primarily on the words on the
 page and the selections they’re making. Wireframes provide a good
 opportunity to begin testing copy choices.
 
-![](images/assets/lux3_1503.png)
+![](images/assets/lux3_1503.webp)
 
 ###### Figure 15-3. Example of a wireframe
 
@@ -6203,7 +6203,7 @@ watching your users click, tap, and swipe, you need to ask them what
 they would expect and then validate those responses against your planned
 experience.
 
-![](images/assets/lux3_1504.png)
+![](images/assets/lux3_1504.webp)
 
 ###### Figure 15-4. Example of mock-up from Skype in the Classroom (design by Made By Many)
 
@@ -6255,7 +6255,7 @@ your organization and harness them to drive your ongoing product design
 and research, as depicted in
 [Figure 15-5](#ch15.html_customers_can_provide_feedback_through).
 
-![](images/assets/lux3_1505.png)
+![](images/assets/lux3_1505.webp)
 
 ###### Figure 15-5. Customers can provide feedback through many channels
 
@@ -6647,7 +6647,7 @@ into the development stream to be implemented during the development
 sprint, as is illustrated in
 [Figure 16-1](#ch16.html_sy_and_millerapostrophes_quotation_mark).
 
-![](images/assets/lux3_1601.png)
+![](images/assets/lux3_1601.webp)
 
 ###### Figure 16-1. Sy and Miller’s “Staggered Sprints” model
 
@@ -6780,7 +6780,7 @@ each activity as possible. The quantity of discovery and delivery work
 will fluctuate from sprint to sprint. This is normal, and you can
 anticipate this as you make plans.
 
-![](images/assets/lux3_1602.png)
+![](images/assets/lux3_1602.webp)
 
 ###### Figure 16-2. Dual-rack Agile works when it’s one team. Image concept: Gary Pedretti and Pawel Mysliwiec
 
@@ -6863,7 +6863,7 @@ stories Product Backlog Items or PBIs.) Or you can integrate the work
 into the story itself, ensuring that no feature gets shipped without
 discovery and design work taking place.
 
-![](images/assets/lux3_1603.png)
+![](images/assets/lux3_1603.webp)
 
 ###### Figure 16-3. Common patterns to manage UX work in the backlog
 
@@ -6922,7 +6922,7 @@ shows you how to layer existing activities on top of Scrum. Try it. See
 what works for you and your team and then adjust based on what you
 decide during your retrospectives.
 
-![](images/assets/lux3_1604.png)
+![](images/assets/lux3_1604.webp)
 
 ###### Figure 16-4. Mapping Lean UX activities to the Scrum framework
 
@@ -6938,7 +6938,7 @@ a sequence of sprints.) Your measures of success for your theme are
 outcomes, as demonstrated in
 [Figure 16-5](#ch16.html_sprints_tied_together_with_a_theme_or_p).
 
-![](images/assets/lux3_1605.png)
+![](images/assets/lux3_1605.webp)
 
 ###### Figure 16-5. Sprints tied together with a theme or product goal
 
@@ -6956,7 +6956,7 @@ creating a backlog of ideas from which to test and learn. In addition,
 this activity will help define the scope of your theme a bit
 better—assuming that you’ve built in some customer feedback loops.
 
-![](images/assets/lux3_1606.png)
+![](images/assets/lux3_1606.webp)
 
 ###### Figure 16-6. The Lean UX Canvas can capture your sprint theme
 
@@ -6969,7 +6969,7 @@ activities as each new sprint begins
 This allows the team to use the latest insight to create the backlog for
 the next sprint.
 
-![](images/assets/lux3_1607.png)
+![](images/assets/lux3_1607.webp)
 
 ###### Figure 16-7. Timing and scope of sketching and ideation sessions
 
@@ -6985,7 +6985,7 @@ planning meeting to write user stories together, and then estimate and
 prioritize the stories. (See
 [Figure 16-8](#ch16.html_hold_sprint_planning_meetings_immediate).)
 
-![](images/assets/lux3_1608.png)
+![](images/assets/lux3_1608.webp)
 
 ###### Figure 16-8. Hold sprint planning meetings immediately after brainstorming sessions
 
@@ -7012,7 +7012,7 @@ same time.
 Experiment stories look just like user stories, as illustrated in
 [Figure 16-9](#ch16.html_experiment_stories).
 
-![](images/assets/lux3_1609.png)
+![](images/assets/lux3_1609.webp)
 
 ###### Figure 16-9. Experiment stories
 
@@ -7062,7 +7062,7 @@ rather than *can people use my product?*) After you have established
 that there is a desire for your product, subsequent tests with
 higher-fidelity artifacts will reveal whether your solution is usable.
 
-![](images/assets/lux3_1610.png)
+![](images/assets/lux3_1610.webp)
 
 ###### Figure 16-10. Conversations with users happen during every sprint
 
@@ -7153,7 +7153,7 @@ colleague Nicole Rufuku came up with a remarkably simple and powerful
 tool for doing just this: the Risks Dashboard
 ([Figure 16-11](#ch16.html_the_risks_dashboard)).
 
-![](images/assets/lux3_1611.png)
+![](images/assets/lux3_1611.webp)
 
 ###### Figure 16-11. The Risks Dashboard
 
@@ -7222,7 +7222,7 @@ takes place in our Agile process? We use outcome-based road maps.
 Here is what an Agile product road map should look like
 ([Figure 16-12](#ch16.html_an_agile_product_road_map)).
 
-![](images/assets/lux3_1612.png)
+![](images/assets/lux3_1612.webp)
 
 ###### Figure 16-12. An Agile product road map
 
@@ -7520,7 +7520,7 @@ beginning of conversations that helped Jeff, his UX team, and the rest
 of TheLadders’ product development staff build an integrated,
 collaborative practice.
 
-![](images/assets/lux3_IV01.png)
+![](images/assets/lux3_IV01.webp)
 
 ###### Figure IV-1. The UX team at TheLadders expressed their feelings about our Agile/UX integration efforts
 
@@ -8150,7 +8150,7 @@ desire to stay the course during implementation and to be able to
 predict when the work will ship with some degree of confidence. This is
 done in the name of predictability and efficiency.
 
-![](images/assets/lux3_1701.png)
+![](images/assets/lux3_1701.webp)
 
 ###### Figure 17-1. Jeff’s “award” for inspiring undocumented creativity in engineers
 

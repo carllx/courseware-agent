@@ -122,7 +122,7 @@ product's business and technical stakeholders. The next sections offer a more el
 
 The translation of robust models into design solutions consists of two major phases. The Requirements Definition, shown in Figure 4-1, answers the broad questions about what a product is and what it should do. The Framework Definition answers questions about how a product behaves and how it is structured to meet user goals.
 
-![](images/1ca761f605f7e774e40714274ad3f8c7b714e6675afa3a7a3935f7ae1f117659.jpg)  
+![](images/1ca761f605f7e774e40714274ad3f8c7b714e6675afa3a7a3935f7ae1f117659.webp)  
 Figure 4-1: An overview of the Requirements Definition process
 
 In this section, we'll discuss the Requirements Definition in detail. The Framework Definition is covered in Chapter 5. The methods described here are based on the persona-based scenario methodology developed by Robert Reimann, Kim Goodwin, Lane Halley, David Cronin, and Wayne Greenwood, and refined over the last decade by design practitioners at Cooper.
@@ -292,7 +292,7 @@ Now you are ready to delve deeper into the details of your product's behaviors a
 10. Kuutti, 1995   
 11.Shneiderman,1998
 
-![](images/04b614507b732ef08a5a7c78e2893da4da5015a40bc3fb7c3cd13c563eb1b855.jpg)
+![](images/04b614507b732ef08a5a7c78e2893da4da5015a40bc3fb7c3cd13c563eb1b855.webp)
 
-![](images/2fae095ddcd1c06177a90668b6a6ad31ab20b928a91af8469d7845c605752ef3.jpg)
+![](images/2fae095ddcd1c06177a90668b6a6ad31ab20b928a91af8469d7845c605752ef3.webp)
 

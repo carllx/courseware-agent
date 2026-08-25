@@ -16,9 +16,9 @@ can remain static
 — 2.5em might be the perfect headline size on desktop but there’s no
 guarantee that it’ll be the right size on smaller screens.
 
-![](images/index-93_1.png)
+![](images/index-93_1.webp)
 
-![](images/index-93_2.png)
+![](images/index-93_2.webp)
 
 93
 
@@ -31,7 +31,7 @@ rendered font size of 35px — way too big for a small screen!
 A better headline size for small screens might be somewhere between 20px
 and 24px:
 
-![](images/index-94_1.png)
+![](images/index-94_1.webp)
 
 Relative sizing doesn’t scale
 
@@ -62,9 +62,9 @@ should be defined in terms of the current font size. That way if you
 want a larger or smaller button, you only need to change the font size
 and the padding will update automatically, right?
 
-![](images/index-95_1.png)
+![](images/index-95_1.webp)
 
-![](images/index-95_2.png)
+![](images/index-95_2.webp)
 
 95
 
@@ -83,5 +83,5 @@ Let go of the idea that everything needs to scale proportionately —
 giving yourself the freedom to fine-tune things independently makes it a
 hell of a lot easier to design for multiple contexts.
 
-![](images/index-96_1.png)
+![](images/index-96_1.webp)
 

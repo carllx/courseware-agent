@@ -1,6 +1,6 @@
 **Working with Images**
 
-![](images/index-200_1.png)
+![](images/index-200_1.webp)
 
 **Use good photos**
 
@@ -32,5 +32,5 @@ Whatever you do, don’t design using placeholder images and expect to be
 able to take some photos with your smartphone and swap them in later. It
 never works.
 
-![](images/index-202_1.png)
+![](images/index-202_1.webp)
 

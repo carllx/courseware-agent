@@ -85,11 +85,11 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 (相对于 knowledge/textbook/Visualization Analysis & Design.../) | 已迁移路径 | 迁移状态 |
 |:---|:---|:---|:---|:---|
-| Fig 3.1 | Actions + Targets 全景映射图 | `images/09771069f26c7f7a3c67a6b06d349512125f79a13bc20021f5d75bf5927f8c2d.jpg` (L400, ch06) | ![](../public/textbook/Fig3.1_Task_Abstraction.png) | ✅ 已迁移 |
-| Fig 3.2 | 动作的三层拆解：Analyze, Search, Query | `images/8338b3ad2ca06daea679c7d9deb0bee57a3b7eb45d2e7cd3b49bad11d916f37d.jpg` (L45, ch07) | ![](../public/textbook/Fig3.2_动作的三层拆解.png) | ✅ 已迁移 |
-| Fig 3.5 | Derive 差值图经典案例 (贸易差额) | `images/673fa0bbb460f9b80c5ef88036f441827675459148f5c21c1e5a1d79b7f59da2.jpg` (L182, ch07) | ![](../public/textbook/Fig3.5_Derive差值图.png) | ✅ 已迁移 |
-| Fig 3.6 | Targets 详细树状图 (Trends, Outliers, Features) | `images/c06e5416889462171602e0bb05ee392465a2be63288edf6eb3de281bf961409a.jpg` (L255, ch07) | ![](../public/textbook/Fig3.6_Targets详细树状图.png) | ✅ 已迁移 |
-| Fig 3.10/3.11 | Strahler 数字派生过滤 | `images/5d354f57...` (inline ref in W03_07) | ![](../public/textbook/Fig3.11_Derive_Tree.png) | ✅ 已迁移 |
+| Fig 3.1 | Actions + Targets 全景映射图 | `images/09771069f26c7f7a3c67a6b06d349512125f79a13bc20021f5d75bf5927f8c2d.webp` (L400, ch06) | ![](../public/textbook/Fig3.1_Task_Abstraction.webp) | ✅ 已迁移 |
+| Fig 3.2 | 动作的三层拆解：Analyze, Search, Query | `images/8338b3ad2ca06daea679c7d9deb0bee57a3b7eb45d2e7cd3b49bad11d916f37d.webp` (L45, ch07) | ![](../public/textbook/Fig3.2_动作的三层拆解.webp) | ✅ 已迁移 |
+| Fig 3.5 | Derive 差值图经典案例 (贸易差额) | `images/673fa0bbb460f9b80c5ef88036f441827675459148f5c21c1e5a1d79b7f59da2.webp` (L182, ch07) | ![](../public/textbook/Fig3.5_Derive差值图.webp) | ✅ 已迁移 |
+| Fig 3.6 | Targets 详细树状图 (Trends, Outliers, Features) | `images/c06e5416889462171602e0bb05ee392465a2be63288edf6eb3de281bf961409a.webp` (L255, ch07) | ![](../public/textbook/Fig3.6_Targets详细树状图.webp) | ✅ 已迁移 |
+| Fig 3.10/3.11 | Strahler 数字派生过滤 | `images/5d354f57...` (inline ref in W03_07) | ![](../public/textbook/Fig3.11_Derive_Tree.webp) | ✅ 已迁移 |
 
 ## 易混淆概念辨析
 - **Explore (探索) vs Discover (发现)**：在本书框架中，Discover 是顶层 Analyze 动作（为了生成/验证新假设），而 Explore 是中层 Search 动作（在不知道目标身份和位置的情况下去寻找结构）。

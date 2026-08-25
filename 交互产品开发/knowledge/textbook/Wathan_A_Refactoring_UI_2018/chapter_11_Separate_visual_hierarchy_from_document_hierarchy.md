@@ -15,7 +15,7 @@ perfect sense semantically, but because we’re trained to believe that h1
 elements should be big, it’s easy to fall into the trap of making those
 titles bigger than they really need to be.
 
-![](images/index-55_1.png)
+![](images/index-55_1.webp)
 
 55
 
@@ -37,5 +37,5 @@ Don’t let the element you’re using influence how you choose to style it
 pick elements for semantic purposes and style them however you need to
 create the best visual hierarchy.
 
-![](images/index-56_1.png)
+![](images/index-56_1.webp)
 

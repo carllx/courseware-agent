@@ -114,7 +114,7 @@ a more formal wireframe and workflow, while Greg began to write the
 infrastructure code necessary to get the data they needed to the
 presentation layer.
 
-![](images/assets/lux3_1401.png)
+![](images/assets/lux3_1401.webp)
 
 ###### Figure 14-1. Examples of whiteboard sketches
 
@@ -339,7 +339,7 @@ but frequently large, comprehensive bound volumes. As the world moved
 online, these books sometimes moved onto the web as PDF documents, web
 pages, or even wikis.
 
-![](images/assets/lux3_1402.png)
+![](images/assets/lux3_1402.webp)
 
 ###### Figure 14-2. Example of brand standards guidelines, this one from NASA^([2](#ch14.html_ch01fn15))
 
@@ -534,7 +534,7 @@ included design technologists (frontend developers who are passionate
 about both design and code), interaction designers, graphic designers, a
 technical writer, and a product owner.
 
-![](images/assets/lux3_1403.png)
+![](images/assets/lux3_1403.webp)
 
 ###### Figure 14-3. The GE Predix design system
 
@@ -556,7 +556,7 @@ with your end users. In this instance, it was a hybrid: designing with a
 cross-functional team of designers and developers *who actually are*
 your users.
 
-![](images/assets/lux3_1404.png)
+![](images/assets/lux3_1404.webp)
 
 ###### Figure 14-4. The GE Predix design system on GitHub
 
@@ -729,7 +729,7 @@ Studio, and simple conversation, your team can build a shared
 understanding that allows them to move forward at a much faster pace
 than in traditional environments.
 
-![](images/assets/lux3_1405.png)
+![](images/assets/lux3_1405.webp)
 
 ###### Figure 14-5. A team using collaborative design techniques
 

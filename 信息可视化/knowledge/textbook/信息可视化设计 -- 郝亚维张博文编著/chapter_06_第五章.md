@@ -10,79 +10,79 @@
 
 思维导图是一种将思维形象化的方法 放射性思考是人类大脑的自然思考方式 每一种进入大脑的资料 不论是感觉 记忆还是想法 包括文字 数字 符码 香气 食物 线条、 颜色、 意象、 节奏、 音符等， 都可以成为一个思考中心， 并由此中心向外发散出成千上万的关节点 每一个关节点代表与中心主题的一个连接 而每一个连接又可以成为另一个中心主题 再向外发散出成千上万的关节点 呈现出放射性立体结构 就如同大脑中的神经元一样互相连接 也就是个人数据库 思维导图是一种图像式思维的工具 也是信息可视化设计中一种利用图像式思考的辅助工具 思维导图是使用一个中央关键词或想法引起形象化的构造和分类的想法 它用一个中央关键词或想法以辐射线形连接所有的代表字词 想法 任务或其他关联项目的图解方式 能有效地展开信息表现的逻辑与隶属关系 思维导图常用的软件有 和 图 软件的图级结构模板如图 5 － 2、 图 5 － 3 所示。
 
-![](images/87e332b0bc89eb6c1047943dc98a9d963206e7f0fdd3f2984fb02d5f87802efb.jpg)
+![](images/87e332b0bc89eb6c1047943dc98a9d963206e7f0fdd3f2984fb02d5f87802efb.webp)
 
-![](images/e24140d7449653458d94c4ad130fcae8f76bfcec74c2d54a29ec0be0036df909.jpg)  
+![](images/e24140d7449653458d94c4ad130fcae8f76bfcec74c2d54a29ec0be0036df909.webp)  
 图 5 － 1 XMind 和 MindMaster 软件图标
 
-![](images/111a60fdb42c2db2608f273849bad69d4e06591a2277576f25719624db68adbe.jpg)
+![](images/111a60fdb42c2db2608f273849bad69d4e06591a2277576f25719624db68adbe.webp)
 
-![](images/55dead51d3f90d137ee98a07164379b5ae55cacbb88a53349791901c95b52fe8.jpg)
+![](images/55dead51d3f90d137ee98a07164379b5ae55cacbb88a53349791901c95b52fe8.webp)
 
-![](images/9e66cbd778e6ba9819ce4d80ff728800c4b85a1e86c9aa5d0f0c6298112b06e9.jpg)
+![](images/9e66cbd778e6ba9819ce4d80ff728800c4b85a1e86c9aa5d0f0c6298112b06e9.webp)
 
-![](images/66c989ee56767e86b21df53509e110173514afe65e3509c65ec4ce159c8ae40b.jpg)
+![](images/66c989ee56767e86b21df53509e110173514afe65e3509c65ec4ce159c8ae40b.webp)
 
-![](images/53d5f80be8fb3b1f56779ec7e79d570f258698b28ddf7aea428a28f727ab461e.jpg)
+![](images/53d5f80be8fb3b1f56779ec7e79d570f258698b28ddf7aea428a28f727ab461e.webp)
 
-![](images/42c29de5771c5c7b8af2e642e7eba355392c451c265d410fded6990e733d76ee.jpg)
+![](images/42c29de5771c5c7b8af2e642e7eba355392c451c265d410fded6990e733d76ee.webp)
 
-![](images/5bae7ab7af3bfb0b3efe418eba3a790cfddbf5e98a4dbb5f71bf439a2a6ba18d.jpg)
+![](images/5bae7ab7af3bfb0b3efe418eba3a790cfddbf5e98a4dbb5f71bf439a2a6ba18d.webp)
 
-![](images/8356b8eb41610e9b97d03a559d20ddbc7746068907b98255d26a9d11d2e92cf4.jpg)
+![](images/8356b8eb41610e9b97d03a559d20ddbc7746068907b98255d26a9d11d2e92cf4.webp)
 
-![](images/357d24cd4188905af0cf28cd0d377750d34ddeb17464319ccb011d18a60041c2.jpg)
+![](images/357d24cd4188905af0cf28cd0d377750d34ddeb17464319ccb011d18a60041c2.webp)
 
-![](images/b9532ba489137e9435bb93a6079a7b6c4068709790c23ef49b6570c0886e9f54.jpg)
+![](images/b9532ba489137e9435bb93a6079a7b6c4068709790c23ef49b6570c0886e9f54.webp)
 
-![](images/13c833f6fd1d384e4bc1911a653436c4cec5be3e193e565dd67a42773a87643f.jpg)
+![](images/13c833f6fd1d384e4bc1911a653436c4cec5be3e193e565dd67a42773a87643f.webp)
 
-![](images/4005aa29989001927cddd81e4cd113d1f92b20667e9c8c1becebd0e113e5ff5b.jpg)
+![](images/4005aa29989001927cddd81e4cd113d1f92b20667e9c8c1becebd0e113e5ff5b.webp)
 
-![](images/ecbab8cd9f13fe148cc6611eac62a8cd399c322f7ae74ba7158c3866fde73321.jpg)
+![](images/ecbab8cd9f13fe148cc6611eac62a8cd399c322f7ae74ba7158c3866fde73321.webp)
 
-![](images/058c7422ccf83721fd0ab607d59fb5712bbf44d563f94bdf19ea09258a0b7ea2.jpg)
+![](images/058c7422ccf83721fd0ab607d59fb5712bbf44d563f94bdf19ea09258a0b7ea2.webp)
 
 图5 －2 软件图级结构模板1  
-![](images/2adf66dd84b1108758c020a4df3c1a421c3483204aff5227bb98748846a3c831.jpg)  
+![](images/2adf66dd84b1108758c020a4df3c1a421c3483204aff5227bb98748846a3c831.webp)  
 思维导图 逻辑图 括号图 组织结构图
 
-![](images/722f972e5ebb7e553b0ec488cd71d87a960f32f22db7f68d3e2ff90b31348792.jpg)
+![](images/722f972e5ebb7e553b0ec488cd71d87a960f32f22db7f68d3e2ff90b31348792.webp)
 
-![](images/d75ad53443f8e443e216cea3eeabc5976136dde4fd622810004156907c4ffb77.jpg)
+![](images/d75ad53443f8e443e216cea3eeabc5976136dde4fd622810004156907c4ffb77.webp)
 
-![](images/4372253702679949278c490461454cd94ce263c123a62ec37c9429f0e8aed5e2.jpg)
+![](images/4372253702679949278c490461454cd94ce263c123a62ec37c9429f0e8aed5e2.webp)
 
-![](images/8b46a20bb077ac47ce43636b194deb3e81c4a1f598ea0751f70e4adc55bd3bdb.jpg)
+![](images/8b46a20bb077ac47ce43636b194deb3e81c4a1f598ea0751f70e4adc55bd3bdb.webp)
 
-![](images/c1295ef92590f65b54dd3768ea9dd6c4689974a82daff592a5632949923569c0.jpg)
+![](images/c1295ef92590f65b54dd3768ea9dd6c4689974a82daff592a5632949923569c0.webp)
 
-![](images/fcbc1ba3c6f596942f5f78592ac2e1fcc035909ceb8608923ffe6fbba05530ae.jpg)
+![](images/fcbc1ba3c6f596942f5f78592ac2e1fcc035909ceb8608923ffe6fbba05530ae.webp)
 
-![](images/4d62a1d4c531061883f5d300f5c60014d4078b2bbe5760ccb4e23a54b1f839e2.jpg)
+![](images/4d62a1d4c531061883f5d300f5c60014d4078b2bbe5760ccb4e23a54b1f839e2.webp)
 
-![](images/1c00656547b63ce52979fa4a238b2539f05f5324a994b9bef6f0df1a56a5f442.jpg)
+![](images/1c00656547b63ce52979fa4a238b2539f05f5324a994b9bef6f0df1a56a5f442.webp)
 
-![](images/204216034d9605e2785ee828568365e20932190bee0abb3e8112e791c03d2b3d.jpg)
+![](images/204216034d9605e2785ee828568365e20932190bee0abb3e8112e791c03d2b3d.webp)
 
-![](images/933192f35fc94c0c8bcc29d28202a33dcc9df149e61c3127ad4b6f9d00fc43a5.jpg)
+![](images/933192f35fc94c0c8bcc29d28202a33dcc9df149e61c3127ad4b6f9d00fc43a5.webp)
 
-![](images/c171a1975617f3bd709253000592d91ef63eeebc460d241cbc9e28c8e9163f3e.jpg)
+![](images/c171a1975617f3bd709253000592d91ef63eeebc460d241cbc9e28c8e9163f3e.webp)
 
-![](images/661a17bd4c747d23e4ff6f88df52155a997e08ff7dde575c850d9734c6c2a9f8.jpg)
+![](images/661a17bd4c747d23e4ff6f88df52155a997e08ff7dde575c850d9734c6c2a9f8.webp)
 
-![](images/1fa7cbda5decce8f60064daff9fff85c98e301ea935eb8fa50adbcd5a147231d.jpg)
+![](images/1fa7cbda5decce8f60064daff9fff85c98e301ea935eb8fa50adbcd5a147231d.webp)
 
-![](images/31d2d2f2d75090c3896445e865cb2426b1d574e30567e6bb520a83d315d80a7a.jpg)
+![](images/31d2d2f2d75090c3896445e865cb2426b1d574e30567e6bb520a83d315d80a7a.webp)
 
-![](images/d1c39f8ef444902822b610a04c244738f4ff3087c67767adcf82560262f41ac5.jpg)
+![](images/d1c39f8ef444902822b610a04c244738f4ff3087c67767adcf82560262f41ac5.webp)
 
-![](images/69bcdc2c2a7f35cdbf6604fc4683bcc45566c133abe0965eeb371f07a3ef893b.jpg)
+![](images/69bcdc2c2a7f35cdbf6604fc4683bcc45566c133abe0965eeb371f07a3ef893b.webp)
 
-![](images/3794088b0afd54f3d728aba196556be2c3d10e8b9a7dda50d6361cca9b10ebe4.jpg)
+![](images/3794088b0afd54f3d728aba196556be2c3d10e8b9a7dda50d6361cca9b10ebe4.webp)
 
 图5 －3 软件图级结构模板2  
-![](images/0a0686eaf8a099bea6f050936fff1b55528dd076b58dc31b3622a534d0ef8b5e.jpg)  
+![](images/0a0686eaf8a099bea6f050936fff1b55528dd076b58dc31b3622a534d0ef8b5e.webp)  
 产品介绍 解析电商文案撰写过程 这样读书就够了 商业计划 项目计划  
 国内知名前端大佬汇总 会议记录 婚礼筹备 筹办生日派对 年度个人工作计划  
 小公司团队管理 活动策划创意 生产成本归因 如何提高商业效率  
@@ -131,52 +131,52 @@
 
 本练习从简单直观的信息开始， 选取学校区域内的一个单体建筑， 要求学生亲自调研，研究建筑内外部具体位置的信息与功能信息， 加以结构清晰化的视觉表达。 案例选取学校一栋高层教学楼， 学生设计分为一般性分层图表表达 （图5 －4、 图5 －5） 和用楼层错层插图图表表达 （图5 －6、 图5 －7）， 分别用色彩、 插图和符号等表示具体楼层区域功能和设备的配置情况。
 
-![](images/f754e5e72bd94790b58f7c059688fe8548ac3dc0851c52c4bb1a3317961779fe.jpg)  
+![](images/f754e5e72bd94790b58f7c059688fe8548ac3dc0851c52c4bb1a3317961779fe.webp)  
 图5 －4 高层教学楼一般性分层图表之一 （设计者： 李伟卓 郑志远）
 
 图 图 所示作品是学生用 的表现形式展现学校教学楼的立体特点 同时用拟人 拟物的图标表示人物和工具等 强化每一层的教学和功能属性 把学校的一些典型的标志性物品进行点缀 增加了地图图表的趣味性
 
-![](images/86242fab190b5133ad0eb4feca7e115ed8335ce5dfdcbe5b3e4bfc9a2b43d00b.jpg)  
+![](images/86242fab190b5133ad0eb4feca7e115ed8335ce5dfdcbe5b3e4bfc9a2b43d00b.webp)  
 图5 －5 高层教学楼一般性分层图表之二 （设计者： 陈一宁 宋新茹）
 
-![](images/8894fdda3adf346e1b96fe8a02597c5cb96a92ce7898f5b3805e2c0a2b07d804.jpg)  
+![](images/8894fdda3adf346e1b96fe8a02597c5cb96a92ce7898f5b3805e2c0a2b07d804.webp)  
 图5 －6 高层教学楼楼层错层插图  
 图表之一 （设计者： 马宇昂 何佳虹）
 
-![](images/c887c25488f5de343812646dc8f31c12b75e69cc0ce2a576ec9efa5837f1945b.jpg)  
+![](images/c887c25488f5de343812646dc8f31c12b75e69cc0ce2a576ec9efa5837f1945b.webp)  
 图5 －7 高层教学楼楼层错层插图  
 图表之二 （设计者： 李梦帆 乔楠）
 
-![](images/a7f2efb9f5b034d09b686c2bd183033e753d49d51720eb0a5a7dfc3a671a13ea.jpg)  
+![](images/a7f2efb9f5b034d09b686c2bd183033e753d49d51720eb0a5a7dfc3a671a13ea.webp)  
 图 5 － 8 采用 2?? 5D 表现形式展示学校教学楼的立体特点 （设计者： 黄梦瑶 薄扬）
 
-![](images/6b6a70db3b511137585c27ce230170a0c38d243aae04719a389a7e8871e8bbec.jpg)  
+![](images/6b6a70db3b511137585c27ce230170a0c38d243aae04719a389a7e8871e8bbec.webp)  
 图5 －9 采用2??5D 表现形式展示学校教学楼不同楼层的细节插图之一 （设计者： 黄裴瑶 薄扬）
 
-![](images/1f1be8de8d49cfa5b583c7d9fccc3ba78dce1de966abad6bec83cda2b03ac205.jpg)  
+![](images/1f1be8de8d49cfa5b583c7d9fccc3ba78dce1de966abad6bec83cda2b03ac205.webp)  
 图5 －10 采用2??5D 表现形式展示学校教学楼不同楼层的细节插图之二（设计者： 黄梦瑶 薄扬）
 
-![](images/85571b27da62ccf03ba33473cfac8b1b6187f987e9be02ee79bbc3807c2bb953.jpg)  
+![](images/85571b27da62ccf03ba33473cfac8b1b6187f987e9be02ee79bbc3807c2bb953.webp)  
 图 5 － 11 采用 2?? 5D 表现形式展示学校教学楼不同楼层的细节插图之三（设计者： 黄梦瑶 薄扬）
 
 图5 －12 为学生选取学校服务中心分层进行信息图表设计， 图5 －13 是学生实地调研后整理的思维导图 采用文字和照片相结合的方法梳理建筑物的信息和位置关系
 
-![](images/07b8b26313fc5e853749a14c7e41113ce21b8d3442452495b71941ea693ee748.jpg)  
+![](images/07b8b26313fc5e853749a14c7e41113ce21b8d3442452495b71941ea693ee748.webp)  
 图5 －12 学校服务中心分层信息图表 （设计者： 卢辉玥）
 
-![](images/3b05d98cb20967ab56e0b56cd2b9512380c3028877c890661e84b3073ea97e75.jpg)  
+![](images/3b05d98cb20967ab56e0b56cd2b9512380c3028877c890661e84b3073ea97e75.webp)  
 图5 －13 实地调研整理的思维导图 （设计者： 卢辉玥）
 
 图 是学生对校园整体区域的地图设计展示 表达方法采用 风格的视觉纵深感展示， 从草图到最终实现的过程也是强化视觉风格的过程。
 
-![](images/7d659aed0733fc0285651977e52f5f58ded3385427cea6376b858a4edfb99200.jpg)
+![](images/7d659aed0733fc0285651977e52f5f58ded3385427cea6376b858a4edfb99200.webp)
 
-![](images/6159bd688e876e00496947374572c19c6ce8f0bd83edb3015cf2efdfa5bf8cdb.jpg)
+![](images/6159bd688e876e00496947374572c19c6ce8f0bd83edb3015cf2efdfa5bf8cdb.webp)
 
-![](images/6132270e43977c7dfa059e4fe62f7c8a276fbd7ff03a7df7ab1bb0c8dd1a3295.jpg)
+![](images/6132270e43977c7dfa059e4fe62f7c8a276fbd7ff03a7df7ab1bb0c8dd1a3295.webp)
 
 图5 －14 采用3D 风格设计的校园整体区域地图， 具有视觉纵深感 （设计者： 杨添翼）  
-![](images/90a71e800f64631abd6b8fa5a37547a3fe7b48c9fa6aabddcaf4ec8a2c6e34b0.jpg)  
+![](images/90a71e800f64631abd6b8fa5a37547a3fe7b48c9fa6aabddcaf4ec8a2c6e34b0.webp)  
 （a） 草图之一； （b） 草图之二； （c） 草图之三； （d） 成品图
 
 # （二） 区域地图信息艺术性表达练习
@@ -189,11 +189,11 @@
 
 图 绘制的是北京奥林匹克公园地区的区域地图 设计者选取了胡安 米罗的两幅作品 星座密码爱上了一个女人 和 一天的诞生 作为艺术表达的灵感来源 这两幅作品
 
-![](images/11a9ecf9af27fcd3f2d6b2df8f7e35ab421531b8c54f90e9073e3eb55c24c9c4.jpg)
+![](images/11a9ecf9af27fcd3f2d6b2df8f7e35ab421531b8c54f90e9073e3eb55c24c9c4.webp)
 
-![](images/b34f855102e25167e93a2ae8556db65ea02b034ac78b72162d6ef121dbd0250f.jpg)
+![](images/b34f855102e25167e93a2ae8556db65ea02b034ac78b72162d6ef121dbd0250f.webp)
 
-![](images/bd0da6f687c5d959b267ed2ba4bd023c11b53124eb74a2d4271f71a2070b7624.jpg)  
+![](images/bd0da6f687c5d959b267ed2ba4bd023c11b53124eb74a2d4271f71a2070b7624.webp)  
 图5 －15 北京奥林匹克公园地区区域地图， 作品汲取胡安·米罗两幅作品的艺术表达灵感
 
 都是胡安 米罗超现实主义绘画的代表作 学生从中提取了画作的一些元素和颜色 融入区域地图的信息表达中。 在 《一天的诞生》 中选取了蓝色、 黄色、 红色、 黑色作为地图绘制主要的颜色， 分别作为空地、 建筑、 水域、 道路的颜色， 并运用黑色划分区域的方式来进行绘制。 从 《星座密码爱上了一个女人》 中提取了米色作为绿化区域的颜色， 同时绘制了一些比较有代表性的图标作为地标性建筑的标志， 如眼睛图标代表展览， 螺旋纹代表立交桥。
@@ -204,18 +204,18 @@
 
 图 绘制的是北京西直门立交桥地区的区域地图 设计艺术参考图选自日本浮世绘画家歌川国芳的作品 《龙宫玉取姬》。 歌川国芳生动地描绘出富有个性的典型人物肖像， 以玉取姬和章鱼为主体 以海浪为背景展现搏斗的情景 颜色以红蓝色调为主 对比强烈 学生设计的区域地图借助单线、 色彩渐变的表现形式， 将西直门立交桥复杂的情况用章鱼作为象征形象 隐喻其复杂性和四通八达的路况
 
-![](images/e877d8f679e260f6db8e36af8939eeb5f91183df0aca617f87743121488dfcc6.jpg)
+![](images/e877d8f679e260f6db8e36af8939eeb5f91183df0aca617f87743121488dfcc6.webp)
 
-![](images/ccdfd394cf3c346ad4148b215df898b84d486172b002611e4dad036fb4644f3f.jpg)
+![](images/ccdfd394cf3c346ad4148b215df898b84d486172b002611e4dad036fb4644f3f.webp)
 
-![](images/3793071be584f9d51868f5e796e8aa7d0cefd8be3f11538aa96c6a054bb83c53.jpg)
+![](images/3793071be584f9d51868f5e796e8aa7d0cefd8be3f11538aa96c6a054bb83c53.webp)
 
-![](images/1323e86f777ed23742b63fe6a6c3cf9250b48314248003e29bae516b6d999d0d.jpg)
+![](images/1323e86f777ed23742b63fe6a6c3cf9250b48314248003e29bae516b6d999d0d.webp)
 
-![](images/a3a48d3415ffda2bb795ffd17f59ff3eb2c99f0c96ac189c8cc95ac8ffc65892.jpg)
+![](images/a3a48d3415ffda2bb795ffd17f59ff3eb2c99f0c96ac189c8cc95ac8ffc65892.webp)
 
 图5 －16 北京西直门立交桥地区的区域地图及形象选取、 色彩选取  
-![](images/ea8ea422ace8cfc600054c63463ecb6b2d78988b2b5e10e623cdda3438958c0c.jpg)  
+![](images/ea8ea422ace8cfc600054c63463ecb6b2d78988b2b5e10e623cdda3438958c0c.webp)  
 （a） 区域地图作品完成图； （b） 作品选取了日本浮世绘画家歌川国芳作品的形象； （c） 作品以红蓝色调为主， 对比强烈
 
 # ［区域地图3］ 蒙古国乌兰巴托市小圈路地区地图
@@ -224,21 +224,21 @@
 
 蒙古国留学生米希尔为故乡蒙古国乌兰巴托市小圈路地区绘制了区域地图 蒙古乌兰巴托城市的中心从上空看起来像蒙古包的形态 小圈路地区是城市的文化艺术中心 是文艺演出的主要场所 学生尝试运用达达主义等拼贴的艺术风格进行作品的最后视觉呈现 区域地图中的图标采用艺术的拼贴形象代表， 整个作品体现出小圈路地区的艺术风格特征 （图5 －17 ～图 5 － 21）。
 
-![](images/dd2e3d54c3aee63ab6b8611c193b27967fe352181ddd9490a0d73a81a1873df2.jpg)  
+![](images/dd2e3d54c3aee63ab6b8611c193b27967fe352181ddd9490a0d73a81a1873df2.webp)  
 图 5 － 17 乌兰巴托市小圈路地区地图
 
-![](images/6973b77da1c0a8f82916e1b9a2fc430960a19eade13ba88112d1c012f6400fa6.jpg)
+![](images/6973b77da1c0a8f82916e1b9a2fc430960a19eade13ba88112d1c012f6400fa6.webp)
 
-![](images/5e9039ff4a153b102f0f4fd33be246b5f013622529a37335007aae2b5a932440.jpg)  
+![](images/5e9039ff4a153b102f0f4fd33be246b5f013622529a37335007aae2b5a932440.webp)  
 图5 －18 乌兰巴托市小圈路地区建筑分布色彩尝试
 
-![](images/c64e4796d7f9b38b7f32cd0b804177a1787d88bf6d1e66522329c4b99f29a90a.jpg)  
+![](images/c64e4796d7f9b38b7f32cd0b804177a1787d88bf6d1e66522329c4b99f29a90a.webp)  
 图5 －19 乌兰巴托市小圈路地区区域地图图标设计
 
-![](images/59a7d7d01e33618203b543a81f37662ff13ae68280ce074a03e0d62a3cba562a.jpg)  
+![](images/59a7d7d01e33618203b543a81f37662ff13ae68280ce074a03e0d62a3cba562a.webp)  
 图5 －20 乌兰巴托市小圈路地区区域地图拼贴风格
 
-![](images/6818069184cd449fac96f3b4cb8e800f8de924d06badc7db5f785dc4047eb089.jpg)  
+![](images/6818069184cd449fac96f3b4cb8e800f8de924d06badc7db5f785dc4047eb089.webp)  
 图5 －21 乌兰巴托市小圈路地区区域地图最终成品
 
 # （三） 事件地图信息练习
@@ -251,13 +251,13 @@
 
 作品为梳理第二次世界大战中著名的诺曼底登陆战役 完成信息可视化图表设计 在地图中以战斗双方军力布置的位置进行重点展示。 学生调研有关诺曼底登陆事件前后所有信息 整理出详细的思维导图 从中选择自己表达的重点信息 图 是以战役时间线梳理的思维导图 图 是以海滩地理位置为重点梳理的思维导图 图 为完成作品图。
 
-![](images/8914186346dfbc24e4741963f52870f00f0545588354c639e01d31881b2950bf.jpg)  
+![](images/8914186346dfbc24e4741963f52870f00f0545588354c639e01d31881b2950bf.webp)  
 图5 －22 诺曼底登陆战役， 以时间线梳理的思维导图
 
-![](images/116102056b6f92b97f8b42ceccc544754313f0a4533d681515ca9221da4ae0f1.jpg)  
+![](images/116102056b6f92b97f8b42ceccc544754313f0a4533d681515ca9221da4ae0f1.webp)  
 图5 －23 诺曼底登陆战役， 双方以海滩地理位置为重点梳理的思维导图
 
-![](images/49fb338574345b6135b7c1d1ab307b9b51fb735b976140525dcd12552d6e423f.jpg)  
+![](images/49fb338574345b6135b7c1d1ab307b9b51fb735b976140525dcd12552d6e423f.webp)  
 图5 －24 诺曼底登陆战役作品完成图
 
 ［事件地图2］ 影片 《闪灵》
@@ -268,10 +268,10 @@
 
 酒店展开 所有的剧情和经典场面都在酒店的特定房间和场所发生 因此学生选择以酒店的地图形式进行视觉表达。 图5 －25 是学生整理的影片 《闪灵》 的剧情思维导图。 图5 －26 是作品完成图 学生用类似建筑施工图的表现手法 用色彩填充区域 在关键场景用标志性的地毯底纹图示呼应剧情， 用影片中经典场景图像置入关键地理位置， 如双胞胎女孩场景。
 
-![](images/2f10f0fcdc9771e6ee0baecd25b4512baadc8bdb379a7cdc0bc11439329a01ff.jpg)  
+![](images/2f10f0fcdc9771e6ee0baecd25b4512baadc8bdb379a7cdc0bc11439329a01ff.webp)  
 图 5 － 25 影片 《闪灵》 剧情思维导图
 
-![](images/825e7a2a94d957b270f9d639ada72488706c6c200e1a6f1fc873199842f44ef7.jpg)  
+![](images/825e7a2a94d957b270f9d639ada72488706c6c200e1a6f1fc873199842f44ef7.webp)  
 图5 －26 影片 《闪灵》 作品完成图
 
 # ［事件地图3］ 影片 《前目的地》
@@ -280,7 +280,7 @@
 
 学生选择了悬疑影片 前目的地 进行信息化视觉设计 该影片剧情如同 莫比乌斯环”， 周而复始地延续着主人公的命运， 情节紧张， 充满悬念。 学生没有选择剧情作为主要表达方式 而是选择事件发生所在地与建筑物为表达的突破口 尝试用另一种方式进行梳理。 图5 －27 是影片 《前目的地》 剧情、 时间、 人物等的思维导图梳理。 图5 －28 为完成作品， 作者用2??5D 的视觉表达方式展现如迷宫般的剧情， 用数字符号表达人物和剧情出现的位置和时间顺序。
 
-![](images/96a8b3790f7da7f5a751c0e31f89d918d65aad768806301dde13f0ac56086ebe.jpg)  
+![](images/96a8b3790f7da7f5a751c0e31f89d918d65aad768806301dde13f0ac56086ebe.webp)  
 图5 －27 影片 《前目的地》 剧情、 时间、 人物等的思维导图
 
 # 三、 整合信息设计
@@ -292,7 +292,7 @@
 （3） 准确图示表达能力。  
 （4） 尝试艺术风格进行信息处理与多样表达的能力。
 
-![](images/a672173b5e7e49145d7a0a9147939b0c79f89b89b1307d618dcc3d0aab30aae2.jpg)  
+![](images/a672173b5e7e49145d7a0a9147939b0c79f89b89b1307d618dcc3d0aab30aae2.webp)  
 图5 －28 影片 《前目的地》 完成作品
 
 本节的整合信息设计项目由三部分组成： 单一项目或事物信息图； 推理逻辑信息图； 整合复杂信息设计图 综合训练学生具备以下能力
@@ -313,7 +313,7 @@
 
 血液循环系统是血液在体内流动的通道 分为心血管系统和淋巴系统两部分 淋巴系统是静脉系统的辅助系统 一般所说的循环系统指的是心血管系统 血液循环系统由血液 血管和心脏组成 如果分为两大部分 即血管和心脏 心血管系统是由心脏 血管 毛细血管及血液组成的一个封闭的运输系统 同时许多激素及其他物质也通过血液的运输到达其靶器官 以此协调整个机体的功能 因此 维持血液循环系统处于良好的工作状态 是机体得以生存的条件 图 为学生整理的血液循环系统结构思维导图 图 为成品完成图学生用 软件绘制人体的血液循环系统的精美插图作为信息图主图 两侧布局相关联的器官和系统信息 图 是细节图 对于各个器官和关键结构信息都绘制了相对应的插图符号。
 
-![](images/ee59ea1d4633b72f03044a462a49770269c647008d8ce34f1811f1ec7eaba2f8.jpg)  
+![](images/ee59ea1d4633b72f03044a462a49770269c647008d8ce34f1811f1ec7eaba2f8.webp)  
 图5 －29 《血液循环系统》 思维导图
 
 # THE BLOOD CIRCULATORY SYSTEM
@@ -326,16 +326,16 @@ BASIC INFORAMATION
 
 循环系统星血液在体内流动的通道，分为心面管系统和淋巴系统两部分。淋巴系统是静脉系统的辅助装置。而一般所说的循环系统脂的是心血管系统。
 
-![](images/290d66765704e865d3f148b73ec9d33a19f3d81f3a16836795c5dcc112895f40.jpg)  
+![](images/290d66765704e865d3f148b73ec9d33a19f3d81f3a16836795c5dcc112895f40.webp)  
 lymphatic System 淋巴系统
 
-![](images/3121288cbffb7b7378fcc2d92c7bba3ca9943f575e2f39d01f09b9e7e7c869d0.jpg)
+![](images/3121288cbffb7b7378fcc2d92c7bba3ca9943f575e2f39d01f09b9e7e7c869d0.webp)
 
-![](images/8a9d77d2f783758b72f8ac2bd7f4821b24dcf5e32d7ca442f3fa81e15d55684c.jpg)  
+![](images/8a9d77d2f783758b72f8ac2bd7f4821b24dcf5e32d7ca442f3fa81e15d55684c.webp)  
 lymphoid Tissue 淋巴组织  
 和小，在中要作用。
 
-![](images/dbbd3afaada0cd8146476398d57288ab5c2e6d9f7988c34ab4530cbd3cc411b2.jpg)  
+![](images/dbbd3afaada0cd8146476398d57288ab5c2e6d9f7988c34ab4530cbd3cc411b2.webp)  
 Lymph Gland 淋巴管  
   
 ***   
@@ -343,16 +343,16 @@ Lymph Gland 淋巴管
   
 淋巴导管
 
-![](images/2e36b2373fb54e64a7c659d67c8e076da5ea3c316a6ba039ead485e73635a788.jpg)  
+![](images/2e36b2373fb54e64a7c659d67c8e076da5ea3c316a6ba039ead485e73635a788.webp)  
 Lymphoid Organ 淋巴器官
 
-![](images/ffaa548e5ae68cddb20ab6e39b550748b35e8b5638481d20b91911a0c2471922.jpg)
+![](images/ffaa548e5ae68cddb20ab6e39b550748b35e8b5638481d20b91911a0c2471922.webp)
 
-![](images/b418272fa4d5c7f0983b21d49a2306e605db3e50ce53796b89f8cd23de1253c6.jpg)  
+![](images/b418272fa4d5c7f0983b21d49a2306e605db3e50ce53796b89f8cd23de1253c6.webp)  
   
 大管的，不时的左，计而，其不
 
-![](images/84b8af673097cf836330f4695176dffaef363e3bce893ba7f7a23b25b3c2d745.jpg)  
+![](images/84b8af673097cf836330f4695176dffaef363e3bce893ba7f7a23b25b3c2d745.webp)  
 Pulmonary Circulation 肺循环
 
 施年人1600-3700g
@@ -381,35 +381,35 @@ Pulmonary Circulation 肺循环
 
 全身毛细血管
 
-![](images/b040a651d2c7f3fab462f4b32c2a8a2d915a4dc7da5d3ce64fa17bc5e03edfc5.jpg)  
+![](images/b040a651d2c7f3fab462f4b32c2a8a2d915a4dc7da5d3ce64fa17bc5e03edfc5.webp)  
 血液循环的主要意义，在于保证机体新陈代谢的进行。  
 另外，通过循环将内分泌腺所分泌的激素输送到全身各部分，以调节机体的生理机能。  
 图5 －30 《血液循环系统》 作品完成图  
 Cardiovascular System心血管系统  
 心血管系统是由心脏，血管，毛细血管及血液组成的封闭运输系统。
 
-![](images/f923b6dbc117d06efe08cfd53dbac5a3d6c61ca656c7ecd68a7849201e84f8dc.jpg)
+![](images/f923b6dbc117d06efe08cfd53dbac5a3d6c61ca656c7ecd68a7849201e84f8dc.webp)
 
-![](images/fda40ac11eb753a1762e75a0d08fb6fdc2d551c84b93154e9d51d1ef30d8dcd4.jpg)
+![](images/fda40ac11eb753a1762e75a0d08fb6fdc2d551c84b93154e9d51d1ef30d8dcd4.webp)
 
-![](images/3af6a7ca096ba4b8264f07e012feb4e9475c30d0fb5be34b2f375e150357e250.jpg)
+![](images/3af6a7ca096ba4b8264f07e012feb4e9475c30d0fb5be34b2f375e150357e250.webp)
 
-![](images/0100ecf698e96307eb9013e2eb764c27f24dba00853bd3a8a4e849eec4db75f6.jpg)
+![](images/0100ecf698e96307eb9013e2eb764c27f24dba00853bd3a8a4e849eec4db75f6.webp)
 
-![](images/c09ead24cb32acd9fa57d4e8485a3db1d32f68ec9fe63ba761de95d5f72a074b.jpg)  
+![](images/c09ead24cb32acd9fa57d4e8485a3db1d32f68ec9fe63ba761de95d5f72a074b.webp)  
 Aorta主动肤
 
-![](images/08c0c578e0df67b942a94070b55bd0bd09e585c0dfe85b3d9d8e065018fb232f.jpg)
+![](images/08c0c578e0df67b942a94070b55bd0bd09e585c0dfe85b3d9d8e065018fb232f.webp)
 
 100-13 100m 外
 
 Atria心厨 Atria心房
 
-![](images/ea93f9c3d11a3b3c5b07d25c405a21ee425584939ced42b0246024396c0e7984.jpg)
+![](images/ea93f9c3d11a3b3c5b07d25c405a21ee425584939ced42b0246024396c0e7984.webp)
 
 4 4左心房接受来自左，右防静协
 
-![](images/ee635dbb71b037742c8528a301bb87c20104371cbf9c60ca1dda00f7d0568025.jpg)
+![](images/ee635dbb71b037742c8528a301bb87c20104371cbf9c60ca1dda00f7d0568025.webp)
 
 3日 3日 1 1出心能本身静脉自的目流口 心能本穿静绿血的日流口
 
@@ -417,33 +417,33 @@ Atrium心室
 
 LettAtrum东心室
 
-![](images/1beb8cebc6acc90cd22dae657aa0cf944e26f15ace2f9adb9e7fcb5c8cd22a28.jpg)
+![](images/1beb8cebc6acc90cd22dae657aa0cf944e26f15ace2f9adb9e7fcb5c8cd22a28.webp)
 
 22日
 
 口，周附有口， 口，
 
-![](images/393f045d3663d98c49969502e0227d54cbc7233ac7aba36f6ae0f92e4f3bd0fb.jpg)
+![](images/393f045d3663d98c49969502e0227d54cbc7233ac7aba36f6ae0f92e4f3bd0fb.webp)
 
 22起
 
 ， ），置、后量。
 
-![](images/b4778ecfcf7b09d0c1f567f1b299a7338262292418ad7bacb6cacc90ff82319d.jpg)
+![](images/b4778ecfcf7b09d0c1f567f1b299a7338262292418ad7bacb6cacc90ff82319d.webp)
 
-![](images/8db30bf764f2a1ce0b58875681ca14b58d78c08316dfd076fa1872c2ebce47d4.jpg)  
+![](images/8db30bf764f2a1ce0b58875681ca14b58d78c08316dfd076fa1872c2ebce47d4.webp)  
 A 右心房 上腔静脉 左心房 下腔静脉 左心室 0 12各级 Atrium心室 Left Atrium左心室 22 22   
 12身体下部毛 身体下留
 
-![](images/1a4b19364484d3c70a7d0dd0f901caff9881def7949cbb7221916c5923ab21cb.jpg)  
+![](images/1a4b19364484d3c70a7d0dd0f901caff9881def7949cbb7221916c5923ab21cb.webp)  
   
 Venacava
 
 下腔静防
 
-![](images/1580151502ba99352f47eff5ee32c1453c91f6d73adb0335fc6c06a9a33a4847.jpg)
+![](images/1580151502ba99352f47eff5ee32c1453c91f6d73adb0335fc6c06a9a33a4847.webp)
 
-![](images/788a50386e0de8199611884807b3955607a9cc8081118611b68e14b7926041a0.jpg)  
+![](images/788a50386e0de8199611884807b3955607a9cc8081118611b68e14b7926041a0.webp)  
 图5 －31 《血液循环系统》 细节设计图
 
 # ［主题项目／事物2］ 《垃圾分类》
@@ -470,84 +470,84 @@ Venacava
 
 伞是一种能够提供阴凉环境或遮蔽雨 雪 阳光等的生活用品 伞与人们的生活息息相关 中国是世界上最早发明雨伞的国家 伞是中国劳动人民一个重要的创造 受中国文化影响 亚洲许多国家很早就有使用伞的传统 而欧洲至 世纪才开始风靡中国伞 该学生对伞的发明等信息进行调研 在信息设计图表中表现伞的分类 构造折数和在世界各地的传播 图 的信息量虽然不是很复杂庞大 但学生用中国黑白木刻古朴的艺术形式加以表现， 增加了信息图表的艺术表达特质。
 
-![](images/6eb9551b3d2284235d7bcffe34380b9496b9522106a221eb7fc30e82b50c273d.jpg)  
+![](images/6eb9551b3d2284235d7bcffe34380b9496b9522106a221eb7fc30e82b50c273d.webp)  
 图5 －32 扁平化风格的 《垃圾分类》
 
-![](images/1467e2ca0dda8ca75bd99f5db70368f7dc08b19392ec5fae7ebc8cb8f7063d15.jpg)  
+![](images/1467e2ca0dda8ca75bd99f5db70368f7dc08b19392ec5fae7ebc8cb8f7063d15.webp)  
 图5 －33 采用2??5D 方式绘制的 《垃圾分类》
 
-![](images/17daf0526e1ed534c7da6e312e332b0508c8e97162350cf319541a67c6cbd54b.jpg)  
+![](images/17daf0526e1ed534c7da6e312e332b0508c8e97162350cf319541a67c6cbd54b.webp)  
 图5 －34 《扑克》 信息可视化图表设计
 
-![](images/96905a57010348abaa8e73334db7886749cafb5725c9047064c634825fe673cc.jpg)  
+![](images/96905a57010348abaa8e73334db7886749cafb5725c9047064c634825fe673cc.webp)  
 图5 －35 《朱耷》 作品完成图
 
-![](images/5b6eb80f57b724b620494a5d2ee9b7ad93b65be037005e60adbba185e30201c1.jpg)  
+![](images/5b6eb80f57b724b620494a5d2ee9b7ad93b65be037005e60adbba185e30201c1.webp)  
 早期
 
-![](images/e3fee41265bd4f8d555b462797d44d50175dff7b2895cc92902d4fcde11177b0.jpg)  
+![](images/e3fee41265bd4f8d555b462797d44d50175dff7b2895cc92902d4fcde11177b0.webp)  
 中期
 
-![](images/695188292a4667b86dff50c46cfaac7ebd49666489c6841d7e80d757ccde20b1.jpg)  
+![](images/695188292a4667b86dff50c46cfaac7ebd49666489c6841d7e80d757ccde20b1.webp)  
 晚期
 
-![](images/1966b65c7d832c6ef14dedfe3a845db44205c22e6e64d25bd85c7667e7627122.jpg)
+![](images/1966b65c7d832c6ef14dedfe3a845db44205c22e6e64d25bd85c7667e7627122.webp)
 
 禽类
 
-![](images/514ed2b11f9e568d08a8be3a42f897a836933f4f7a6a492ddcfa900b53d5804e.jpg)
+![](images/514ed2b11f9e568d08a8be3a42f897a836933f4f7a6a492ddcfa900b53d5804e.webp)
 
 鱼类
 
-![](images/9eb4fd712e6eaba47cad0b78822cebb1cf67c88aa3ab0edf9fdc12517017e7bb.jpg)
+![](images/9eb4fd712e6eaba47cad0b78822cebb1cf67c88aa3ab0edf9fdc12517017e7bb.webp)
 
 猫
 
-![](images/fc2eb369d492497e2116cad9b28718d2ce193d1c26559c71b18a9b8ebd5558c5.jpg)
+![](images/fc2eb369d492497e2116cad9b28718d2ce193d1c26559c71b18a9b8ebd5558c5.webp)
 
 鹿
 
-![](images/059ef474d2f8bacb50705b34d0d3c7f5556b8b8550d10df1d916df3ce121c9c7.jpg)
+![](images/059ef474d2f8bacb50705b34d0d3c7f5556b8b8550d10df1d916df3ce121c9c7.webp)
 
-![](images/9e79716132432e66b15d585fdff7102fe181a94c4f12f3756eb68d1227e1a64e.jpg)
+![](images/9e79716132432e66b15d585fdff7102fe181a94c4f12f3756eb68d1227e1a64e.webp)
 
-![](images/114714139658ce39dbca411990fb793a8ccf82d334f80e2df878f9aaceecc766.jpg)
+![](images/114714139658ce39dbca411990fb793a8ccf82d334f80e2df878f9aaceecc766.webp)
 
 山类
 
-![](images/cc3cdf1d4aa1ae89470cdaa4d1d9c53578424dafaafdf1faf9aaa450cb38091c.jpg)
+![](images/cc3cdf1d4aa1ae89470cdaa4d1d9c53578424dafaafdf1faf9aaa450cb38091c.webp)
 
-![](images/b80868842bd89e959f1106abfdecf7bba10af84023d87c2e9b6ead525eae2ac3.jpg)
+![](images/b80868842bd89e959f1106abfdecf7bba10af84023d87c2e9b6ead525eae2ac3.webp)
 
 .
 
-![](images/cdb348645c31afe785d9b867286c596884912f4438e77edc553cc655b502a0ae.jpg)
+![](images/cdb348645c31afe785d9b867286c596884912f4438e77edc553cc655b502a0ae.webp)
 
-![](images/f4c362fc693baf916660b3f2f71c2a499c86357abe67a0f1ce82883372271139.jpg)
+![](images/f4c362fc693baf916660b3f2f71c2a499c86357abe67a0f1ce82883372271139.webp)
 
-![](images/7267a36b84f971c6d25a0c6899ccc4459270c8c814286569421393faf28003c1.jpg)
+![](images/7267a36b84f971c6d25a0c6899ccc4459270c8c814286569421393faf28003c1.webp)
 
 梅花
 
-![](images/773d29db071f1e27f594c685fa369bdb1173ebea9d0b59901e2a10c02a141df3.jpg)
+![](images/773d29db071f1e27f594c685fa369bdb1173ebea9d0b59901e2a10c02a141df3.webp)
 
 菊花
 
-![](images/6c9c561781e9d9919cd3e51cac749635fd54b67f8e022765f8caea6398c82a8a.jpg)
+![](images/6c9c561781e9d9919cd3e51cac749635fd54b67f8e022765f8caea6398c82a8a.webp)
 
-![](images/9257d52c19f5f7f57ebb48bc0c6afcbb500e644c06c86ee24d62461a16a96b6d.jpg)
+![](images/9257d52c19f5f7f57ebb48bc0c6afcbb500e644c06c86ee24d62461a16a96b6d.webp)
 
 ●芍药
 
-![](images/68a8b993af6805af8c8d8b95c15d798a9f03c5a40de706e26dd43dab21d0c84a.jpg)
+![](images/68a8b993af6805af8c8d8b95c15d798a9f03c5a40de706e26dd43dab21d0c84a.webp)
 
 忘忧草
 
-![](images/6876a3fbc739c9aa7c85bfaa4afd4732bb2896074dcaece266cf270c98f97d52.jpg)
+![](images/6876a3fbc739c9aa7c85bfaa4afd4732bb2896074dcaece266cf270c98f97d52.webp)
 
-![](images/a6aab29de14c0d62da78384bf5648a8d549630d0f44aa5d307f7fc2aef11c2aa.jpg)
+![](images/a6aab29de14c0d62da78384bf5648a8d549630d0f44aa5d307f7fc2aef11c2aa.webp)
 
-![](images/00bee18129ca6b01cca74ea436668d057c54df64ac67f4993926f4a18909c618.jpg)  
+![](images/00bee18129ca6b01cca74ea436668d057c54df64ac67f4993926f4a18909c618.webp)  
   
 图5 －36 《朱耷》 细节设计图
 
@@ -557,7 +557,7 @@ Venacava
 
 用色变化 印章使用比例 画面动物眼珠朝向
 
-![](images/de04749ce4a4121038568df5ebf94211c428dbf25cce1a866c8f09adcb6ce2e3.jpg)  
+![](images/de04749ce4a4121038568df5ebf94211c428dbf25cce1a866c8f09adcb6ce2e3.webp)  
 图5 －37 《伞》 作品完成图
 
 ［主题项目 ／ 事物 6］ 《漫威宇宙》
@@ -574,18 +574,18 @@ Venacava
 
 学生该设计的前期调研 主要通过研读政府报告理解相关政策 统计我国林业的发展状况， 总结林业三大效益———生态效益、 社会效益和经济效益。 三大效益是统一的， 是相互联系和相互渗透的 调研后学生用扁平化的插图风格绘制林业三大效益的信息图 将自然 人类和城市建设三大主题图融合到森林中， 体现了人、 社会与林业和谐共处的主题 （图5 －40）。
 
-![](images/9d0b63b92eebcb0be80079f679267471ee71ca7899ab18d6d98c047507c16f8a.jpg)  
+![](images/9d0b63b92eebcb0be80079f679267471ee71ca7899ab18d6d98c047507c16f8a.webp)  
 图5 －38 《漫威宇宙》 作品完成图
 
-![](images/7b4fdf243ef1736a5b25286f2eac97dd3a198d49c24c47d38dcf79b9bf872e05.jpg)  
+![](images/7b4fdf243ef1736a5b25286f2eac97dd3a198d49c24c47d38dcf79b9bf872e05.webp)  
 图5 －39 《漫威宇宙》 细节设计图
 
-![](images/163dc7388c8eb56b02f8e6a6cebfccd02111d480c93e7a1f1ddd34c8191c0c0d.jpg)
+![](images/163dc7388c8eb56b02f8e6a6cebfccd02111d480c93e7a1f1ddd34c8191c0c0d.webp)
 
-![](images/3ae1208cbaefe4898d7dcdbb401270bf5ab4f5a5541c6493ea5bac50d61b87ac.jpg)
+![](images/3ae1208cbaefe4898d7dcdbb401270bf5ab4f5a5541c6493ea5bac50d61b87ac.webp)
 
 图5 －40 《中国林业》 作品完成图  
-![](images/2783b8038664a9ab500c33a3f9694ca223732fb825412db0e407a41ebee9767b.jpg)  
+![](images/2783b8038664a9ab500c33a3f9694ca223732fb825412db0e407a41ebee9767b.webp)  
 （a） 林业的生态效益； （b） 林业的经济效益； （c） 林业的社会效益
 
 # ［主题项目 ／ 事物 8］ 《2000—2019 年重大空难史》
@@ -594,42 +594,42 @@ Venacava
 
 空难指飞行器在飞行中发生故障 遭遇自然灾害或其他意外事故所造成的灾难 是由于不可抗拒的原因或人为因素造成的事故 并由此带来灾难性的人员伤亡和财产损失 该学生确定选题后 进行调研和数据的收集整理统计 图 并按照事故年份 事故地点航空公司 事故机型 事故原因进行梳理 分析整理后的信息进行数据图表的视觉化图 选择合适的图表类型进行数据的表达 根据整体版面设计进行色彩统筹 从配色到图表进行细节设计 （ 图 5 － 43） 。
 
-![](images/0949b9c735c8deeeefdd13b1c6c1e0c9ec5ebe345dd332311902040323098d51.jpg)  
+![](images/0949b9c735c8deeeefdd13b1c6c1e0c9ec5ebe345dd332311902040323098d51.webp)  
 图 5 － 41 《2000—2019 年重大空难史》 调研和数据统计图
 
-![](images/f9807d00bbb4a94327c638e0b74562ca6334913facba440c2a5d60e4f5d8d62d.jpg)
+![](images/f9807d00bbb4a94327c638e0b74562ca6334913facba440c2a5d60e4f5d8d62d.webp)
 
-![](images/fbefcfd7d42f911b29c1c65dcce0e080a9d331e124b932a63d7c33f6801da8e4.jpg)
+![](images/fbefcfd7d42f911b29c1c65dcce0e080a9d331e124b932a63d7c33f6801da8e4.webp)
 
-![](images/9ed1de5d89f7ff07250603add6d3d4f855df91f85c213fa417acf33627225a85.jpg)
+![](images/9ed1de5d89f7ff07250603add6d3d4f855df91f85c213fa417acf33627225a85.webp)
 
-![](images/ae06ea89fe95dfca4daa24d4656e3b18d2eacb2a2edc999450e86e4cf63e373b.jpg)
+![](images/ae06ea89fe95dfca4daa24d4656e3b18d2eacb2a2edc999450e86e4cf63e373b.webp)
 
-![](images/8208e8ea8bcf3d934035e71d0f85f7628af1166830bf6c78ce3f54a2b8734783.jpg)  
+![](images/8208e8ea8bcf3d934035e71d0f85f7628af1166830bf6c78ce3f54a2b8734783.webp)  
 图5 －42 《2000—2019 年重大空难史》 数据图表的视觉化设计
 
-![](images/9c520924fdb60fb3cca0f318e4cd9b94eb7a213964de6519e981144fd3cfae32.jpg)
+![](images/9c520924fdb60fb3cca0f318e4cd9b94eb7a213964de6519e981144fd3cfae32.webp)
 
-![](images/3ca83aded6768597f507ce4fac18794a6bbbe0ec02497f022fe860d18edf90b1.jpg)
+![](images/3ca83aded6768597f507ce4fac18794a6bbbe0ec02497f022fe860d18edf90b1.webp)
 
-![](images/83e7e6812ad1d7118c6dfbe20b7f44ebf221cc7282d58c0abaf13c914377a2d7.jpg)
+![](images/83e7e6812ad1d7118c6dfbe20b7f44ebf221cc7282d58c0abaf13c914377a2d7.webp)
 
-![](images/e18d8890ca1198ab634325a1e5c2f5cfe7a3b6aebb0bdef5ffb4ce5140a84c07.jpg)
+![](images/e18d8890ca1198ab634325a1e5c2f5cfe7a3b6aebb0bdef5ffb4ce5140a84c07.webp)
 
-![](images/1cfaf2a55a80ae269474753b3d665b585916c21ffa061aee81ef4d61a522930d.jpg)  
+![](images/1cfaf2a55a80ae269474753b3d665b585916c21ffa061aee81ef4d61a522930d.webp)  
 图5 －43 《2000—2019 年重大空难史》 从配色到图表的细节设计
 
 图5 －44 为整体版式设计过程， 根据视觉流程和信息主次进行了整体布局的调整， 用软件绘制主题图形和细节图形 并进行数据符号 图标 标题字体和文案字体细节设计
 
 图 为作品完成图 以突出飞机结构组件插图为主 图表文字说明为辅的版式构成 用英文字母排序指引视觉阅读顺序
 
-![](images/e20573380df371adaf8c61a07990dfcfdcbf18b6933d3b71e865d8bbc49999dc.jpg)
+![](images/e20573380df371adaf8c61a07990dfcfdcbf18b6933d3b71e865d8bbc49999dc.webp)
 
 图 5 － 44 《2000—2019 年重大空难史》 整体版式设计过程  
-![](images/eb01dc7ccb0ac79ede3ad6c4e9f842c1a118d2931279caec7cc2d57b388142b9.jpg)  
+![](images/eb01dc7ccb0ac79ede3ad6c4e9f842c1a118d2931279caec7cc2d57b388142b9.webp)  
 （a） 版式一； （b） 版式二
 
-![](images/a90177cff04c018c36800e3a038f73b906fe6c2fb09f7f56fcbc922658158859.jpg)  
+![](images/a90177cff04c018c36800e3a038f73b906fe6c2fb09f7f56fcbc922658158859.webp)  
 图 5 － 45 《2000—2019 年重大空难史》 作品完成图
 
 # （二） 推理逻辑信息———从电影或大事件中挖掘线索
@@ -650,10 +650,10 @@ Venacava
 
 恐怖游轮 是 年上映的一部悬疑影片 由英国和澳大利亚合拍 该片讲述单身母亲杰西和一群朋友乘坐游艇出海游玩遇到风暴 登上一艘路过的游轮后 却发现这艘 年失踪的神秘游轮里空无一人， 随之而来的连环凶杀让杰西等人陷入恐怖之中。 该片逻辑关系复杂， 信息量大且相互关联。 该学生设计了两张信息可视化图展现电影复杂的逻辑关系、 人物关系等信息。 图5 －46 是用三角金字塔形配合影片的剧名， 从立体层叠关系表现一层一层的循环关系 图 是表现该影片关键隐喻作用的图形信息 海鸥 项链 雨衣 斧子等
 
-![](images/bb7bb5b01390e5f529b5666377a7e2f55d967797eb3738ec57f07b818ad6f4a0.jpg)  
+![](images/bb7bb5b01390e5f529b5666377a7e2f55d967797eb3738ec57f07b818ad6f4a0.webp)  
 图5 －46 影片 《恐怖游轮》 信息图作品完成图之一
 
-![](images/8bec46af563bbbb71b7dfdc1836568cd724dab4b2bdecd79d17479125e93c4de.jpg)  
+![](images/8bec46af563bbbb71b7dfdc1836568cd724dab4b2bdecd79d17479125e93c4de.webp)  
 图5 －47 影片 《恐怖游轮》 信息图作品完成图之二
 
 # ［推理逻辑项目 2］ 电影 《盗梦空间》 信息图
@@ -662,10 +662,10 @@ Venacava
 
 影片 盗梦空间 是由克里斯托弗 诺兰执导 莱昂纳多 迪卡普里奥 玛丽昂 歌迪亚等主演的电影 影片剧情游走于梦境与现实之间 被定义为 发生在意识结构内的当代动作科幻片 影片讲述主人公进入他人梦境 从他人的潜意识中盗取机密 并重塑他人梦境的故事。 设计者选取影片中主人公梦境和现实的关键物件 “陀螺” 作为视觉主图形化展现电影情节 在图形分层中表达剧情的几个梦境层次 图 主色调配合梦境的主题设计 呈半透明的紫色 更为确切的剧情关系图放置在图 下方 设计者为剧中人物设计了图标， 和图层情节一一对应 （图5 －49）。
 
-![](images/c1be3453359cc832cf35882a3f66dcddcb90872f56533f4a6311ad3f69a77dcf.jpg)  
+![](images/c1be3453359cc832cf35882a3f66dcddcb90872f56533f4a6311ad3f69a77dcf.webp)  
 图5 －48 影片 《盗梦空间》 信息图作品完成图
 
-![](images/c8f8b2e604b267a562ba050a7c4d58a0094a942abdbfc747aeff339dea9d751b.jpg)  
+![](images/c8f8b2e604b267a562ba050a7c4d58a0094a942abdbfc747aeff339dea9d751b.webp)  
 图5 －49 影片 《盗梦空间》 信息图的细节设计， 左侧为剧中人物图标
 
 # ［推理逻辑项目3］ 切尔诺贝利核事故信息图
@@ -674,7 +674,7 @@ Venacava
 
 切尔诺贝利核事故是一起发生在苏联统治下乌克兰境内切尔诺贝利核电站的核子反应堆事故。 该事故被认为是世界历史上最严重的核电事故。 1986 年 4 月 26 日凌晨 1 点 23分， 乌克兰普里皮亚季邻近的切尔诺贝利核电厂的第四号反应堆发生了爆炸。 连续的爆炸引发了大火并散发出大量高能辐射物质到大气层中 这些辐射尘覆盖了大面积区域这次灾难所释放出的辐射线剂量是二战时期爆炸于广岛原子弹的400 倍以上。 设计者按照时间线的方式表达这一天核事件发生的经过。 按照左右两条时间线展示， 左侧展示内部爆炸线， 右侧展示外部的救援线。 位于主图上方是发生爆炸的第四号反应堆 （图5 －50）。
 
-![](images/ae9097d608ec975680cb104d3f007da7dd8aa452561af0c7b307fcb5dd55348c.jpg)  
+![](images/ae9097d608ec975680cb104d3f007da7dd8aa452561af0c7b307fcb5dd55348c.webp)  
 图5 －50 切尔诺贝利核事故信息图作品完成图
 
 # ［推理逻辑项目4］ 电影 《罗拉快跑》 信息图
@@ -683,7 +683,7 @@ Venacava
 
 罗拉快跑 是由汤姆 提克威导演 编剧 由弗兰卡 波坦特 莫里兹 布雷多等主演的犯罪爱情影片。 影片讲述了为了拯救男友而奔跑的罗拉要在 20 分钟内得到 10 万马克。影片于1998 年在德国上映。 该片导演并不屈从于好莱坞的经典叙述模式， 而是采用了三段式的格局 假定性 命运 的不可预知的结局让人不断关注自身 影片 蝴蝶效应 的寓意隐晦的表达、 混同电子音乐和罗拉狂奔的脚步， 让人有一种释怀和爽快。 设计者采用像素游戏的视觉风格来诠释剧情， 信息展示除了用三段式的道路表达剧情， 还设定人物数值属性， 并且分析了剧情的节奏信息 （图5 －51）。 整体画面具有游戏化倾向。
 
-![](images/b6a378dcaaf60e8deefaa60dcc099fcf27eb9dafa8cdc1f825c1dfd3b1df5dc1.jpg)  
+![](images/b6a378dcaaf60e8deefaa60dcc099fcf27eb9dafa8cdc1f825c1dfd3b1df5dc1.webp)  
 图5 －51 影片 《罗拉快跑》 信息图作品完成图
 
 # ［推理逻辑项目 5］ 动画片 《名侦探柯南》 “东京电视台杀人事件” 信息图
@@ -692,7 +692,7 @@ Venacava
 
 日本电视动画片 名侦探柯南 改编自青山刚昌创作的同名漫画作品 主要讲述了因受神秘组织袭击而身体缩小的工藤新一化名江户川柯南 默默展开对各种犯罪案件推理的故事 设计者选取了 名侦探柯南 中 东京电视台杀人事件 这一复杂案例进行事件梳理和信息可视化表达 设计者绘制了精美的线形立体建筑内部插图 在展现建筑结构的同时用不同颜色的虚线脚印表现受害人和嫌疑犯在建筑物中的行动轨迹 （图 5 －52）。 红黑色的配色使画面视觉重点醒目突出。
 
-![](images/903e8f8288e7f230a6c2a76a5e176b37f1e56e015d0e79178865ef48c9d1c7e4.jpg)  
+![](images/903e8f8288e7f230a6c2a76a5e176b37f1e56e015d0e79178865ef48c9d1c7e4.webp)  
 图 5 － 52 《名侦探柯南》 “东京电视台杀人事件” 信息图作品完成图
 
 # （三） 整合信息设计
@@ -705,28 +705,28 @@ Venacava
 
 相声是一种民间说唱曲艺 它以说 学 逗 唱为形式 以逗笑愉悦听众为目的 相声艺术源于华北， 流行于京津冀， 普及于全国及海内外。 中国相声有三大发源地： 北京天桥、天津劝业场和南京夫子庙。 相声分为北派与南派。 相声主要采用口头方式表演， 主要道具有折扇 手绢 醒木 表演形式有单口相声 对口相声 群口相声 相声是扎根于民间 源于生活、 深受群众欢迎的曲艺表演艺术形式。 央视春节联欢晚会上每年都有相声表演节目。 该组学生通过调研 36 年春节联欢晚会信息， 从侧面表达了相声作为传统艺术形式的变迁和兴衰。 调研及信息整理分析如图5 －53、 图5 －54 所示， 作品完成图如图 5 －55 所示。 图 5 －56 为信息可视化延展设计， 是学生将静态信息可视化图制作成立体装置作品， 是信息可视化作品的多元化尝试。
 
-![](images/9c2c91a8a34b423cd04f07ba62e4c150ebb1038123e4a73110ccfaa242a6a434.jpg)  
+![](images/9c2c91a8a34b423cd04f07ba62e4c150ebb1038123e4a73110ccfaa242a6a434.webp)  
 历年春晚相声97个.xlsx
 
-![](images/2d6fc9bc477bc54ee9b33fb2f7e5859bd0e65f30c77dbcaf7358aae2fb1f99ad.jpg)  
+![](images/2d6fc9bc477bc54ee9b33fb2f7e5859bd0e65f30c77dbcaf7358aae2fb1f99ad.webp)  
 相声.docx
 
-![](images/61ae54024d3c6787cf6798d7b074a52d5466c8e9f9283c8abf329cfdc7e52b3b.jpg)  
+![](images/61ae54024d3c6787cf6798d7b074a52d5466c8e9f9283c8abf329cfdc7e52b3b.webp)  
 相声1类型.xlsx
 
-![](images/ea08e6462506c4023b9b2d61d7246166338b42296dde13d954e4f0a70f169714.jpg)  
+![](images/ea08e6462506c4023b9b2d61d7246166338b42296dde13d954e4f0a70f169714.webp)  
 相声2形式.xlsx
 
-![](images/8af0ea4c9bd93ec981b75959a778faefde51d79ac649e348987db176993b2cd5.jpg)  
+![](images/8af0ea4c9bd93ec981b75959a778faefde51d79ac649e348987db176993b2cd5.webp)  
 相声3服装.xlsx
 
-![](images/7e1e1202094c0292e31b54da4649bd24f7089530a84fa6c54a44d74da91ca773.jpg)  
+![](images/7e1e1202094c0292e31b54da4649bd24f7089530a84fa6c54a44d74da91ca773.webp)  
 相声4师承2.xlsx
 
-![](images/df195c6af52e8cfeace7b034cb983ca83f2bee5f3b843159c3f7486914039841.jpg)  
+![](images/df195c6af52e8cfeace7b034cb983ca83f2bee5f3b843159c3f7486914039841.webp)  
 相声5主要表演方式.xlsx
 
-![](images/86f0928f1befaaff13ef888c2ebafe8442eccae81ff1dfb3094556385cec6d2e.jpg)  
+![](images/86f0928f1befaaff13ef888c2ebafe8442eccae81ff1dfb3094556385cec6d2e.webp)  
 图5 －54 《春节联欢晚会相声节目36 年发展史》 调研及信息整理分析之二
 
 相声6时长.xlsx
@@ -735,10 +735,10 @@ Venacava
 
 <table><tr><td>年份</td><td>作品</td><td>类型</td><td>形式</td><td>服装</td><td>演员</td><td>师承</td><td>主流</td><td>主要表演方式时长</td><td>1934</td></tr><tr><td>1983</td><td>猜谜语</td><td>传统</td><td>对口</td><td>混搭</td><td>姜昆,马季</td><td>马季</td><td>一头沉</td><td>4:51</td><td>1983</td></tr><tr><td>1983</td><td>山村景象</td><td>歌颂</td><td>对口</td><td>西装</td><td>马季,赵炎</td><td>侯宝林,马季</td><td>一头沉</td><td>16:05</td><td>1983</td></tr><tr><td>1983</td><td>对口词</td><td>歌颂</td><td>对口</td><td>中山装</td><td>姜昆,李文华</td><td>马季,马三立</td><td>一头沉</td><td>27分9秒</td><td>1983</td></tr><tr><td>1983</td><td>礼节</td><td>娱乐</td><td>对口</td><td>西装</td><td>侯耀文,石富宽</td><td>赵佩茹,高凤山</td><td>一头沉</td><td>30分18秒</td><td>1983</td></tr><tr><td>1983</td><td>错走了这一步</td><td>讽刺</td><td>对口</td><td>工装</td><td>姜昆、李文华</td><td>马季,马三立</td><td>一头沉</td><td>16:32</td><td>1983</td></tr><tr><td>1984</td><td>宇宙牌香烟</td><td>讽刺</td><td>单口</td><td>工装</td><td>马季</td><td>侯宝林</td><td>不明</td><td>7:52</td><td>1984</td></tr><tr><td>1984</td><td>春联</td><td>娱乐</td><td>对口</td><td>西装</td><td>马季,赵炎</td><td>侯宝林,马季</td><td>子母眼</td><td>8:31</td><td>1984</td></tr><tr><td>1984</td><td>夸家乡</td><td>歌颂</td><td>对口</td><td>中山装</td><td>姜昆,李文华</td><td>马季,马三立</td><td>一头沉</td><td>12:33</td><td>1984</td></tr><tr><td>1985</td><td>大乐,特乐</td><td>传统</td><td>单口</td><td>大褂</td><td>马三立</td><td>周德山</td><td>不明</td><td>11:48</td><td>1985</td></tr><tr><td>1985</td><td>看电视</td><td>娱乐</td><td>对口</td><td>西装</td><td>姜昆,李金宝</td><td>马季</td><td>一头沉</td><td>6:48</td><td>1985</td></tr><tr><td>1986</td><td>照相</td><td>不明</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>腿子活</td><td>10:27</td><td>1986</td></tr><tr><td>1986</td><td>虎年谈虎</td><td>娱乐</td><td>对口</td><td>西装</td><td>刘伟,冯巩</td><td>马季</td><td>子母眼</td><td>5:16</td><td>1986</td></tr><tr><td>1986</td><td>戏迷</td><td>传统</td><td>对口</td><td>大褂</td><td>侯耀文,石富宽</td><td>赵佩茹,高凤山</td><td>一头沉</td><td>8:27</td><td>1986</td></tr><tr><td>1986</td><td>怪声独唱</td><td>娱乐</td><td>对口</td><td>西装</td><td>笑林,李国胜</td><td>马季,罗荣寿</td><td>一头沉</td><td>7:56</td><td>1986</td></tr><tr><td>1987</td><td>虎口题想</td><td>讽刺</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>子母眼</td><td>16:11</td><td>1987</td></tr><tr><td>1987</td><td>五官争功</td><td>讽刺</td><td>群口</td><td>西装</td><td>马季、刘伟、冯巩、赵炎、王金宝</td><td>马季</td><td>不明</td><td>18:14</td><td>1987</td></tr><tr><td>1987</td><td>巧对影联</td><td>传统</td><td>对口</td><td>西装</td><td>刘伟,冯巩</td><td>马季</td><td>子母眼</td><td>9:31</td><td>1987</td></tr><tr><td>1987</td><td>学播音</td><td>娱乐</td><td>对口</td><td>西装</td><td>笑林,李国胜</td><td>马季,罗荣寿</td><td>一头沉</td><td>12:08</td><td>1987</td></tr><tr><td>1987</td><td>打岔</td><td>娱乐</td><td>对口</td><td>西装</td><td>侯耀文,石富宽</td><td>赵佩茹,高凤山</td><td>子母眼</td><td>6:30</td><td>1987</td></tr><tr><td>1988</td><td>求全责备</td><td>讽刺</td><td>群口</td><td>西装</td><td>刘伟,冯巩,李毅,戴志诚,牛振华,戴宝强,郑皓怡样,</td><td>马季</td><td>不明</td><td>9:25</td><td>1988</td></tr><tr><td>1988</td><td>攀比</td><td>讽刺</td><td>对口</td><td>西装</td><td>笑林,李国胜</td><td>马季,罗荣寿</td><td>子母眼</td><td>8:24</td><td>1988</td></tr><tr><td>1988</td><td>电梯奇遇</td><td>讽刺</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>一头沉</td><td>16:37</td><td>1988</td></tr><tr><td>1988</td><td>巧立名目</td><td>讽刺</td><td>对口</td><td>西装</td><td>牛群,马立山</td><td>马季,高元物</td><td>腿子活</td><td>9:18</td><td>1988</td></tr><tr><td>1989</td><td>生日祝词</td><td>娱乐</td><td>对口</td><td>西装</td><td>牛群,冯巩</td><td>马季</td><td>子母眼</td><td>8:52</td><td>1989</td></tr><tr><td>1989</td><td>插风捉影</td><td>讽刺</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>一头沉</td><td>10:10</td><td>1989</td></tr><tr><td>1989</td><td>送别</td><td>娱乐</td><td>对口</td><td>西装</td><td>刘伟,马季</td><td>马季,侯宝林</td><td>一头沉</td><td>9:24</td><td>1989</td></tr><tr><td>1990</td><td>无所适从</td><td>讽刺</td><td>对口</td><td>西装</td><td>牛群,冯巩</td><td>马季</td><td>子母眼</td><td>4:49</td><td>1990</td></tr><tr><td>1990</td><td>三顺茅庐</td><td>讽刺</td><td>对口</td><td>西装</td><td>刘伟,刘惠</td><td>马季,姜昆</td><td>腿子活</td><td>9:30</td><td>1990</td></tr><tr><td>1991</td><td>训徒</td><td>传统</td><td>群口</td><td>大褂</td><td>马季,赵炎,史可达</td><td>侯宝林,马季</td><td>不明</td><td>11:18</td><td>1991</td></tr><tr><td>1991</td><td>亚运之最</td><td>总结性</td><td>对口</td><td>西装</td><td>牛群,冯巩</td><td>马季</td><td>子母眼</td><td>7:52</td><td>1991</td></tr><tr><td>1991</td><td>着急</td><td>讽刺</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>一头沉</td><td>13:11</td><td>1991</td></tr><tr><td>1991</td><td>学唱歌</td><td>传统</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>一头沉</td><td>12:00</td><td>1991</td></tr><tr><td>1992</td><td>宠物热</td><td>娱乐</td><td>对口</td><td>西装</td><td>李金斗,陈涌泉</td><td>赵振铎,谭伯如</td><td>一头沉</td><td>7:09</td><td>1992</td></tr><tr><td>1992</td><td>改门脸</td><td>讽刺</td><td>对口</td><td>西装</td><td>唐爱国,齐立强</td><td>姜昆</td><td>一头沉</td><td>6:32</td><td>1992</td></tr><tr><td>1992</td><td>论捧</td><td>讽刺</td><td>群口</td><td>西装</td><td>闫月明,平李,李建华</td><td>高英培,李伯祥</td><td>不明</td><td>8:14</td><td>1992</td></tr><tr><td>1992</td><td>小站联欢会</td><td>歌颂</td><td>对口</td><td>海军装</td><td>侯耀文,石富宽</td><td>赵佩茹,高凤山</td><td>腿子活</td><td>8:50</td><td>1992</td></tr><tr><td>1992</td><td>办晚会</td><td>讽刺</td><td>对口</td><td>西装</td><td>牛群,冯巩</td><td>马季</td><td>腿子活</td><td>8:49</td><td>1992</td></tr><tr><td>1992</td><td>美丽畅想曲</td><td>讽刺</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>一头沉</td><td>8:41</td><td>1992</td></tr><tr><td>1992</td><td>拍卖</td><td>娱乐</td><td>对口</td><td>西装</td><td>牛群,冯巩</td><td>马季</td><td>腿子活</td><td>10:39</td><td>1993</td></tr><tr><td>1993</td><td>楼道曲</td><td>讽刺</td><td>对口</td><td>西装</td><td>姜昆,唐杰忠</td><td>马季,刘宝瑞</td><td>一头沉</td><td>10:54</td><td>1993</td></tr><tr><td>1993</td><td>侯大明白</td><td>讽刺</td><td>对口</td><td>西装</td><td>侯耀文,石富宽</td><td>赵佩茹,高凤山</td><td>一头沉</td><td>9:10</td><td>1993</td></tr><tr><td>1994</td><td>点子公司</td><td>讽刺</td><td>对口</td><td>西装</td><td>牛群,冯巩</td><td>马季</td><td>子母眼</td><td>11:16</td><td>1994</td></tr><tr><td>1994</td><td>跑题</td><td>讽刺</td><td>群口</td><td>戏装</td><td>李金斗,石富宽,闫月明,单联丽</td><td>赵佩茹,高凤山</td><td>不明</td><td>11:07</td><td>1994</td></tr><tr><td>1995</td><td>最差先生</td><td>讽刺</td><td>对口</td><td>西装</td><td>牛群,冯巩</td><td>马季</td><td>子母眼</td><td>11:11</td><td>1995</td></tr></table>
 
-![](images/8ece2675dbe27c81ec3dd7ad4158990400fa6acb99e707cb2cd8db4afd451331.jpg)  
+![](images/8ece2675dbe27c81ec3dd7ad4158990400fa6acb99e707cb2cd8db4afd451331.webp)  
 图5 －55 《春节联欢晚会相声节目36 年发展史》 作品完成图
 
-![](images/3a72a1421f2dfbf9b9bbfb8bf12a413c9f676943eaad52e36a281dbd13d624bd.jpg)  
+![](images/3a72a1421f2dfbf9b9bbfb8bf12a413c9f676943eaad52e36a281dbd13d624bd.webp)  
 图5 －56 《春节联欢晚会相声节目36 年发展史》 信息可视化延展设计
 
 ［整合信息设计项目2］ 《中国脱贫攻坚之路》
@@ -749,25 +749,25 @@ Venacava
 
 华民族几千年的绝对贫困的问题 也兑现了党向人民向历史作出的庄严承诺 彰显了党领导下的我国社会主义制度的政治优势。 打赢脱贫攻坚战不仅对我国意义深远， 成果也惠及世界，提前 年实现了 联合国 年可持续发展议程 的减贫目标 创造了人类反贫困史的中国奇迹， 为全球治理贫困贡献了中国智慧和中国方案。 图5 －57 为调研资料， 图5 －58 为信息整理分析 成品完成图如图 图 所示 图 为扶贫县信息数据细节图
 
-![](images/0dfde77158e558fa2cb726ac7b231b21f38753c34a6606ef90f4700c8fd0c76f.jpg)  
+![](images/0dfde77158e558fa2cb726ac7b231b21f38753c34a6606ef90f4700c8fd0c76f.webp)  
 2019年度国务...室部门决算.pdf
 
-![](images/1031923aa93e66dc92decb5c4cc3c68ea529f9874854019845dc32b1e5e5ad4a.jpg)  
+![](images/1031923aa93e66dc92decb5c4cc3c68ea529f9874854019845dc32b1e5e5ad4a.webp)  
 2017年度国务...室部门决算.pdf
 
-![](images/92f038897105a2bbe4a278e78c8efcb34edfff4e120fc9563c722cf23c1dbe91.jpg)  
+![](images/92f038897105a2bbe4a278e78c8efcb34edfff4e120fc9563c722cf23c1dbe91.webp)  
 2016年度国务...室部门决算.pdf
 
-![](images/d44b58311a31be6d8e7a1c10a826714206c622ccedb144f1bd73f52570779a67.jpg)  
+![](images/d44b58311a31be6d8e7a1c10a826714206c622ccedb144f1bd73f52570779a67.webp)  
 2018年度国务...室部门决算.pdf
 
-![](images/0b2188d686aa87d29c30bffa98d9d7ad9997e0dc020e5207e45b62f6e3204342.jpg)  
+![](images/0b2188d686aa87d29c30bffa98d9d7ad9997e0dc020e5207e45b62f6e3204342.webp)  
 2020年度国务...室部门决算.pdf
 
-![](images/e85d2316273c44445d4e0bda39257c6f1b3a40f01116b9d573dc3b9089f43f05.jpg)  
+![](images/e85d2316273c44445d4e0bda39257c6f1b3a40f01116b9d573dc3b9089f43f05.webp)  
 国务院扶贫开...室部门决算.pdf
 
-![](images/407082baecb5609c5cbfa8f767c96e6c29ba301b596031b516b6f7dea0896501.jpg)  
+![](images/407082baecb5609c5cbfa8f767c96e6c29ba301b596031b516b6f7dea0896501.webp)  
 图5 －58 《中国脱贫攻坚之路》 信息整理分析
 
 其他来源.docx
@@ -778,13 +778,13 @@ Venacava
 
 <table><tr><td colspan="3">一、2016年摘帽贫困县名单</td><td colspan="2">贫困县介绍、政策、资金投入、实际情况等数据信息</td></tr><tr><td>省份</td><td>数量</td><td rowspan="2">名单</td><td></td><td></td></tr><tr><td>合计</td><td>28</td><td></td><td></td></tr><tr><td>河北</td><td>3</td><td>海兴县、南皮县</td><td>海兴县位于河北省东南,现辖4镇3乡两个农场,197个行政村,总人口22万人,农业人口18.2万人。1994年被列为国家级贫困县,2002年被重新确定为国家扶贫开发工作重点县。2017年,全县78个贫困村脱贫出列,10134名贫困群众稳定脱贫,贫困发生率由2016年初的6.8%下降到0.89%。2018年全县剩余6个贫困村脱贫出列,至此全县84个贫困村全部跳出贫困行列</td><td>南皮县位于沧州市中南部,辖6镇3乡、312个行政村,总人口36万人。2017年11月1日,南皮县正式退出贫困县。2018年全县共有建档立卡贫困户2365户5676人,剩余未脱贫贫困户649户1695人,贫困发生率下降到0.51%</td></tr><tr><td>江西</td><td>2</td><td>井冈山市、吉安县</td><td>井冈山市隶属于江西省吉安市,位于江西省西南部,地处湘赣两省交界的罗霄山脉中段,古有“衡衡湘赣之交,千里罗霄之腹”之称。2015年,井冈山市整合各类资金2.8亿元,举全市之力深入开展“党员干部进村户、精准扶贫大会战”活动,精准识别出贫困户4456户15008人,全市贫困人口减少7016人,下降幅度达46.75%,贫困户人均增收1500元以上,贫困发生率由13.5%降至7.15%</td><td>吉安县古称庐陵,地处江西省中部,县域面积2117平方公里,现辖13镇6乡、306个村委会、22个社区居委会,总人口50万。2014年,吉安县建档立卡贫困人口1.7万户,5.5万人,贫困发生率为14.2%。到2015年脱贫人口0.5万户、1.7万人,未脱贫贫困人口1.2万户3.8万人,贫困发生率为9.7%。一年的时间,贫困发生率下降了4.5%。2017年86个贫困村全部摘帽。2018年1402人实现脱贫,贫困人口减少到1301户3255人,贫困发生率下降到0.8%</td></tr><tr><td>河南</td><td>2</td><td>兰考县、滑县</td><td>兰考县是焦裕禄精神的发祥地,地处豫东平原,辖16个乡镇、1个产业集聚区、1个商务中心区,451个行政村,总人口83万,总面积1116平方公里。是省直管县体制改革试点县、国家级扶贫开发工作重点县。2018年打好稳定脱贫奔小康新战役</td><td>湄县位于豫北平原,与濮阳、延津、浚县、长垣、封丘、内黄接壤。全县面积1814平方公里,耕地面积195.21万亩。湄县县辖12镇10乡和新区管委会,总人口134.5万人,常住人口114.1万人。城镇化率达到22.02%。2011年被确定为国家扶贫开发工作重点县。2018年脱贫攻坚再战再捷,全年脱贫1357户、3874人,贫困发生率降到0.83%</td></tr></table>
 
-![](images/c3599882e3a8c8db1be6d5984d71fb3d65bc2c1484156eaebde61ef5a7fbfb29.jpg)  
+![](images/c3599882e3a8c8db1be6d5984d71fb3d65bc2c1484156eaebde61ef5a7fbfb29.webp)  
 图5 －59 《中国脱贫攻坚之路》作品完成图之一
 
-![](images/a09029d704eeb98d40d06e602b673a872e425bcf91e3a72052eb9b41c2026327.jpg)  
+![](images/a09029d704eeb98d40d06e602b673a872e425bcf91e3a72052eb9b41c2026327.webp)  
 图5 －60 《中国脱贫攻坚之路》作品完成图之二
 
-![](images/3109c904af9dbff58b8e75e959c5f7b999f3936759628fb95ee1bd8bffc00548.jpg)  
+![](images/3109c904af9dbff58b8e75e959c5f7b999f3936759628fb95ee1bd8bffc00548.webp)  
 图5 －61 《中国脱贫攻坚之路》 细节设计图
 
 # ［整合信息设计项目3］ 《塑料污染》
@@ -795,19 +795,19 @@ Venacava
 
 图 为调研资料 图 为信息整理分析 图 图 为作品完成图图5 －69 为细节设计图。
 
-![](images/8eaccb11fa83ee3578b977cf9626a809cf573ab89ce05ac790bf5c8ee0d2d791.jpg)  
+![](images/8eaccb11fa83ee3578b977cf9626a809cf573ab89ce05ac790bf5c8ee0d2d791.webp)  
 各国处理不当的塑料废物占塑料废物总量的比例（2010）.xlsx
 
-![](images/1d5c4c2df68b612356d260abc77613623d5c0c1ba73ea5d7e0e66c07a1e02436.jpg)  
+![](images/1d5c4c2df68b612356d260abc77613623d5c0c1ba73ea5d7e0e66c07a1e02436.webp)  
 各国分大区的管理不善占全球的总量比例（2010）.xlsx
 
-![](images/d43a202aa3c9a4956eac70d50fff8858f4e497369fb5602d0aa0f9dedc59452a.jpg)  
+![](images/d43a202aa3c9a4956eac70d50fff8858f4e497369fb5602d0aa0f9dedc59452a.webp)  
 各国管理不善的量占全球总量的比例（2010）.xlsx
 
-![](images/d5ef30f4563354362238830a30ebc359aed5f00996f81444bd09d53a18613dc4.jpg)  
+![](images/d5ef30f4563354362238830a30ebc359aed5f00996f81444bd09d53a18613dc4.webp)  
 各国人均每天产生多少千克（2010）.xlsx
 
-![](images/45d67e959f33212f483a57b9d342d9826b3026693fd1ab18b2e572b627101b49.jpg)  
+![](images/45d67e959f33212f483a57b9d342d9826b3026693fd1ab18b2e572b627101b49.webp)  
 各国塑料废物总量万吨（2010）.xlsx  
 图5 －62 《塑料污染》 调研资料
 
@@ -1051,27 +1051,27 @@ Venacava
 
 卡塔尔103933
 
-![](images/7e28e89c8f0f59648bd7d71829011d76424df372ed7005ec0c78ec45e99febe9.jpg)
+![](images/7e28e89c8f0f59648bd7d71829011d76424df372ed7005ec0c78ec45e99febe9.webp)
 
-![](images/035d41d309c0a7e41d48b3a39b0d1c54d18ce5fc6f59767426e623d105a1d056.jpg)
+![](images/035d41d309c0a7e41d48b3a39b0d1c54d18ce5fc6f59767426e623d105a1d056.webp)
 
-![](images/83c865ea67e5be4c82a178f5b17d4d8320d03917201564d29ec525537c00befe.jpg)  
+![](images/83c865ea67e5be4c82a178f5b17d4d8320d03917201564d29ec525537c00befe.webp)  
 图5 －63 《塑料污染》 信息整理分析  
 图5 －64 《塑料污染》 作品完成图之一
 
-![](images/ca304bb3346f8b57ef0ffbfe2892741c4855e1457e9b53ffba4932bf049c8a41.jpg)  
+![](images/ca304bb3346f8b57ef0ffbfe2892741c4855e1457e9b53ffba4932bf049c8a41.webp)  
 图5 －66 《塑料污染》 作品完成图之三
 
-![](images/06b27fc7c3d1d6b97f87e765b3d7bc16adf9643a0cb27ff1f7f4d7d1338877e5.jpg)  
+![](images/06b27fc7c3d1d6b97f87e765b3d7bc16adf9643a0cb27ff1f7f4d7d1338877e5.webp)  
 图5 －65 《塑料污染》 作品完成图之二
 
-![](images/ff0cb1a57e3daed4e814b75716a631e502d1703aa74444f15956870587cb2c9a.jpg)  
+![](images/ff0cb1a57e3daed4e814b75716a631e502d1703aa74444f15956870587cb2c9a.webp)  
 图5 －67 《塑料污染》 作品完成图之四
 
-![](images/1713602d4ad7a38669ee515aa006dc1315a3f80472958428c19b4903702bfb55.jpg)  
+![](images/1713602d4ad7a38669ee515aa006dc1315a3f80472958428c19b4903702bfb55.webp)  
 图5 －68 《塑料污染》 作品完成图之五
 
-![](images/2ca2f9e398c47d0d58f4ad7e94241cd637f8492291b3a658c572bb2b5fca3d3f.jpg)  
+![](images/2ca2f9e398c47d0d58f4ad7e94241cd637f8492291b3a658c572bb2b5fca3d3f.webp)  
 图5 －69 《塑料污染》 细节设计图
 
 # ［整合信息设计项目4］ 《忽视的噪声》
@@ -1082,25 +1082,25 @@ Venacava
 
 噪声污染按声源的机械特点可分为气体扰动产生的噪声 固体振动产生的噪声 液体撞击产生的噪声以及电磁作用产生的电磁噪声 噪声按声音的频率可分为低频 中频 高频噪声 $< 4 0 0 ~ \mathrm { H z }$ 为低频噪声 $4 0 0 \sim 1 0 0 0 ~ \mathrm { H z }$ 为中频噪声 $> 1 0 0 0 ~ \mathrm { H z }$ 为高频噪声 设计者的设计选取北京 个商业地区进行噪声测试 尝试梳理出噪声形成的种类 分析在人们生活中常常被忽视的噪声现象 设计者将实地测试采集噪声分贝数据逐一记录 获得一手信息 通过数据对比分析噪声与人的情绪的关系 通过平面数据可视化与交互数据的图表把噪声演变成信息可视化设计系列作品 图 为实地调研地图及信息整理分析 图 图为作品完成图 图 为细节设计图 设计者尝试在交互设计中生成噪声的立体模型 如图 5 － 74 所示。
 
-![](images/e4b595c0cd3924b299d3050a9cc82f579c3e388a07b697f3d69f63f556db32f5.jpg)
+![](images/e4b595c0cd3924b299d3050a9cc82f579c3e388a07b697f3d69f63f556db32f5.webp)
 
-![](images/4c0d824933a1b3b2078d7bec6274692eaa0426e8b59096c9c99a5bcb43edabf9.jpg)
+![](images/4c0d824933a1b3b2078d7bec6274692eaa0426e8b59096c9c99a5bcb43edabf9.webp)
 
 (b)   
 图5 －70 《忽视的噪声》 实地调研地图及信息整理分析  
-![](images/5d8c3177fed176bc87f689b361f4219d1067f7bef4f23ab1453ae380dc6dc90c.jpg)  
+![](images/5d8c3177fed176bc87f689b361f4219d1067f7bef4f23ab1453ae380dc6dc90c.webp)  
 实地调研地图 信息整理分析
 
-![](images/59875f4cf7ed9fcf891cbcbaab667d7ccd9926b6c3cc7f521f71c0d674b86f4e.jpg)  
+![](images/59875f4cf7ed9fcf891cbcbaab667d7ccd9926b6c3cc7f521f71c0d674b86f4e.webp)  
 图5 －71 《忽视的噪声》 作品完成图之一
 
-![](images/4982e9270bfb811af9826fd7d54459c292b57cf5f93be5e5e5c775cbdac425aa.jpg)  
+![](images/4982e9270bfb811af9826fd7d54459c292b57cf5f93be5e5e5c775cbdac425aa.webp)  
 图5 －72 《忽视的噪声》 作品完成图之二
 
-![](images/624d47ac13d52871e0d90c236e278cf991370a186b087e842e8633218f4d988d.jpg)  
+![](images/624d47ac13d52871e0d90c236e278cf991370a186b087e842e8633218f4d988d.webp)  
 图5 －73 《忽视的噪声》 细节设计
 
-![](images/eb1ba80431c3ebd0af7ba51586badf92cad4e0e04c208c878cc153acd0a71560.jpg)  
+![](images/eb1ba80431c3ebd0af7ba51586badf92cad4e0e04c208c878cc153acd0a71560.webp)  
 图5 －74 《忽视的噪声》 立体模型
 
 ［整合信息设计项目5］ 《2009—2018 年中国旅游业概况》
@@ -1111,7 +1111,7 @@ Venacava
 
 来 我国旅游业经历了起步 成长 拓展和综合发展 个阶段 最终推动国内旅游 出境旅游 入境旅游的全面繁荣 我国实现了从旅游短缺型国家到旅游大国的历史性跨越 成为全球最大的国内旅游市场 全球第一大国际旅游消费国 全球第四大旅游目的地国家 从旅游人数来看， 2013 年以来， 我国旅游人数维持两位数增长速度， 2017 年旅游人数首次突破50亿人次。 2018 年上半年， 旅游消费需求保持旺盛： 国内旅游人数达 28 亿人次， 比上年同期增长 $1 1 . 4 \%$ ； 全年旅游人数达55 亿人次， 同比增长 $1 0 . 8 \%$ 。 该学生根据设计选题研究分析了2009—2018 年中国旅游业的发展数据， 旅游业的发展从直观上体现中国经济的飞速发展，体现出人们生活水平的提高 不断追求精神和娱乐休闲的享受 该学生在设计制作上运用阿里云 软件系统的大屏幕信息可视化的一些组件 力求图表的直观与数据的清晰图 5 － 75 为作品完成图。
 
-![](images/824aa8ba7c3c90304b5fc775f0d53cc550fdfb34ce21c93210cda33160ece864.jpg)  
+![](images/824aa8ba7c3c90304b5fc775f0d53cc550fdfb34ce21c93210cda33160ece864.webp)  
 图 5 － 75 《2009—2018 年中国旅游业概况》 作品完成图
 
 ［整合信息设计项目 6］ 《阿尔茨海默症———以中国河南为例》
@@ -1152,13 +1152,13 @@ Venacava
 
 <table><tr><td colspan="2">研究名称</td><td>前瞻性观察类型</td><td>发表时间</td><td>下载量</td><td>数据库</td></tr><tr><td>194</td><td>Alois Alzheimer(1864-1915).IL Dementia before and after Alzheimer: a brief history.</td><td>相关研究2</td><td>1994-09-13</td><td>a</td><td>PubMed 期刊-</td></tr><tr><td>195</td><td>Alois Alzheimer(1864-1915).IL Dementia before and after Alzheimer: a brief history.</td><td>相关研究2</td><td>1994-09-13</td><td>a</td><td>PubMed 期刊-</td></tr><tr><td>196</td><td>Alois Alzheimer, 1864-1915.</td><td>相关研究2</td><td>1994-09-13</td><td>a</td><td>PubMed 期刊-</td></tr><tr><td>197</td><td>Alois Alzheimer on presenile dementia.</td><td>相关研究2</td><td>1988-11-05</td><td>a</td><td>PubMed 期刊-</td></tr><tr><td>198</td><td>Alois Alzheimer on presenile dementia.</td><td>相关研究2</td><td>1988-10-01</td><td>a</td><td>PubMed 期刊-</td></tr><tr><td>199</td><td>Alois Alzheimer on presenile dementia.</td><td>相关研究2</td><td>1988-07-11</td><td>a</td><td>PubMed 期刊-</td></tr><tr><td>200</td><td>Alois Alzheimer.</td><td>相关研究2</td><td>1988-06-19</td><td>a</td><td>PubMed 期刊-</td></tr><tr><td>201</td><td>Alois Alzheimer.</td><td>相关研究2</td><td>1988-06-01</td><td>a</td><td>PubMed 期刊-</td></tr></table>
 
-![](images/44f1d1154d1404c7e7f0dc304c75b6c9493faf50882258c2f7ccbb92bbf16be1.jpg)  
+![](images/44f1d1154d1404c7e7f0dc304c75b6c9493faf50882258c2f7ccbb92bbf16be1.webp)  
 图5 －76 《阿尔茨海默症———以中国河南为例》 调研及信息整理分析  
 图 5 － 77 《阿尔茨海默症———以中国河南为例》 作品完成图
 
-![](images/627f11912d1f2641508253ed70296c9e552b0597f3e9d46a39d9729ebdac768f.jpg)
+![](images/627f11912d1f2641508253ed70296c9e552b0597f3e9d46a39d9729ebdac768f.webp)
 
-![](images/98063e83f7cea3c14d9946cd752e1129d4ffdaa4238caff56a9ea2868fb20edd.jpg)  
+![](images/98063e83f7cea3c14d9946cd752e1129d4ffdaa4238caff56a9ea2868fb20edd.webp)  
 图5 －78 《阿尔茨海默症———以中国河南为例》 细节设计图
 
 ［整合信息设计项目 7］ 《手机品牌消亡史》
@@ -1167,7 +1167,7 @@ Venacava
 
 1991 年以来， 各个手机品牌陆续进入中国市场。 随着社会经济的不断发展、 手机市场的不断竞争 以前一些熟知的手机品牌已渐渐退出了人们的视野 新的品牌在中国市场有着很好的发展并取得成功。 该学生的设计项目调查了从 1991—2020 年以来各个手机品牌在中国市场的发展和兴衰， 以及目前市场各个手机品牌所占的比例和手机机型的变迁。 图5 －79为作品完成图。
 
-![](images/dc41e65a04d338235a059f7b20cd3c8722c0e12a558bf93ef2a3e36fe9348ca1.jpg)  
+![](images/dc41e65a04d338235a059f7b20cd3c8722c0e12a558bf93ef2a3e36fe9348ca1.webp)  
 图5 －79 《手机品牌消亡史》 作品完成图
 
 ［整合信息设计项目8］ 《85 后、 90 后手机使用情况调查》
@@ -1178,6 +1178,6 @@ Venacava
 
 85 后、 90 后年轻人使用的手机品牌、 消费倾向及使用习惯、 爱好进行了调查， 收集 85 后、90 后用户使用手机数据， 分析不同年龄用户对手机的依赖程度和依赖因素。 图 5 －80 为作品完成图。
 
-![](images/7816b8209a68849ee3f23618385088c4f4bdd5eac29eeb4c51d0a0523d533e2a.jpg)  
+![](images/7816b8209a68849ee3f23618385088c4f4bdd5eac29eeb4c51d0a0523d533e2a.webp)  
 图5 －80 《85 后、 90 后手机使用情况调查》 作品完成图
 

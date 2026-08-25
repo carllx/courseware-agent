@@ -1,4 +1,4 @@
-![](images/de4753f8e0d106e3409f28ac2c0d8f8ebb1e6be97f79baf74d591b3031e55113.jpeg)
+![](images/de4753f8e0d106e3409f28ac2c0d8f8ebb1e6be97f79baf74d591b3031e55113.webp)
 
 <span id="titlepage.xhtml"></span>
 
@@ -6,7 +6,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewbox="0 0 566 744" preserveaspectratio="none">
 
-<image width="566" height="744" xlink:href="cover.jpeg"></image>
+<image width="566" height="744" xlink:href="cover.webp"></image>
 </svg>
 
 </div>

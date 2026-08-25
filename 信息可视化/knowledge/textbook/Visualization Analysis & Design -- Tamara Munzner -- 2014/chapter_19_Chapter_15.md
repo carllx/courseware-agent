@@ -25,7 +25,7 @@ SPLOMs are an example of the design choice of matrix alignments, discussed in Se
 
 Graph-theoretic scagnostics is a scalable idiom for the exploration of scatterplot matrices, or SPLOMs [Wilkinson et al. 05, Wilkinson et al. 06]. A scagnostics SPLOM is a next step beyond a standard SPLOM, just as a SPLOM is a step beyond a single scatterplot. A single scatterplot supports direct comparison between two attributes by plotting their values along two spatial axes. A scatterplot matrix is the systematic way to compare all possible pairs of attributes, with the attributes ordered along both the rows and the columns and one scatterplot at each cell of the matrix. Figure 15.2 shows a SPLOM for a dataset of abalone measurements that has nine attributes.
 
-![](images/a730662944a6fab1171808f40f28f445564d8bc344b884c8ba9e29149dad098f.jpg)  
+![](images/a730662944a6fab1171808f40f28f445564d8bc344b884c8ba9e29149dad098f.webp)  
 Figure 15.2. Scatterplot matrices (SPLOM) showing abalone data. From [Wilkinson et al. 05, Figure 1].
 
 The scalability challenge of a SPLOM is that the size of the matrix grows quadratically. Each individual plot requires enough screen space to distinguish the points within it, so this idiom does not scale well past a few dozen attributes.
@@ -38,10 +38,10 @@ The idea is that the distribution of points in the scagnostics SPLOM should prov
 
 <table><tr><td>System</td><td>Scagnostics</td></tr><tr><td>What: Data</td><td>Table.</td></tr><tr><td>What: Derived</td><td>Nine quantitative attributes per scatterplot (pairwise combination of original attributes).</td></tr><tr><td>Why: Tasks</td><td>Identify, compare, and summarize; distributions and correlation.</td></tr><tr><td>How: Encode</td><td>Scatterplot, scatterplot matrix.</td></tr><tr><td>How: Manipulate</td><td>Select.</td></tr><tr><td>How: Facet</td><td>Juxtaposed small-multiple views coordinated with linked highlighting, popup detail view.</td></tr><tr><td>Scale</td><td>Original attributes: dozens.</td></tr></table>
 
-![](images/119aac9590620bc9d939034d29ca16d61b55cd69ae7db5a16dee50f2281f2984.jpg)  
+![](images/119aac9590620bc9d939034d29ca16d61b55cd69ae7db5a16dee50f2281f2984.webp)  
 Figure 15.3. The nine scagnostics measures that describe scatterplot shape, with examples of real-world datasets rated low, medium, and high for each of the nine measures. From [Wilkinson and Wills 08, Figure 6].
 
-![](images/81b35ed29247ff3bce98392a52b0a74ca0aceb3d2b6a5c4246e6eca9dd10185c.jpg)  
+![](images/81b35ed29247ff3bce98392a52b0a74ca0aceb3d2b6a5c4246e6eca9dd10185c.webp)  
 Figure 15.4. Scagnostics SPLOM for the abalone dataset, where each point represents an entire scatterplot in the original matrix. The selected point is highlighed in red in each view, and the scatterplot corresponding to it is shown in a popup detail view. From [Wilkinson et al. 05, Figure 5].
 
 # 15.4 VisDB
@@ -54,19 +54,19 @@ The spatial ordering of regions within VisDB views is not a standard aligned rec
 
 One of the two layouts partitions the dataset by attribute into small multiple views shown side by side, with one view for each attribute. Figure 15.5(a) illustrates the idiom schematically, and Figure 15.6(a) shows an example with a dataset of 1000 items. The items are placed in the same order across all views but colored according to relevance score for that view’s attribute. They are ordered by the derived overall relevance attribute, which is also the coloring attribute in the upper left view; spatial position and color provide redundant information in this view. In the other views with coloring by each other attribute, there are different visual patterns of color. The user can inspect the patterns within the individual views to carry out the abstract task of characterizing distributions and finding groups of similar values within individual attributes and per-attribute outlier detection. Comparing between the patterns in different views corresponds to the abstract task of looking for correlations between attributes.
 
-![](images/710b761fafc3e860263c295693745650edb56a6324153e5cb54fa175f8147d67.jpg)  
+![](images/710b761fafc3e860263c295693745650edb56a6324153e5cb54fa175f8147d67.webp)  
 (a)
 
-![](images/8d946a8b18bbbde28b08ab418e724eca7f48ab79784f76580d5f17d48dbe268d.jpg)  
+![](images/8d946a8b18bbbde28b08ab418e724eca7f48ab79784f76580d5f17d48dbe268d.webp)  
 (b)   
 Figure 15.5. VisDB layouts schematically, for a dataset with five attributes. (a) Each attribute is shown in a separate small-multiple view. (b) In an alternate VisDB layout, each item is shown with a glyph with per-attribute sections in a single combined view. From [Keim and Kriegel 94, Figures 2 and 4].
 
 The second layout uses a single view where the space has been partitioned into one region for each item, containing a glyph that shows all of the attributes for that item. Figure 15.5(b) shows the schematic diagram, and Figure 15.6(b) shows a screenshot. This item-based partition supports the abstract task of comparison across items and finding groups of similar items, rather than comparison across attributes.
 
-![](images/40364c791a9fbd08b4487f9620c9d216ecde04a4d24fda35f0c4e2551c24b0a9.jpg)  
+![](images/40364c791a9fbd08b4487f9620c9d216ecde04a4d24fda35f0c4e2551c24b0a9.webp)  
 (a)
 
-![](images/cd9157009a3901ed9782f3c9be5ea2040d7788d0c10e46513de2e2d5c35a1292.jpg)  
+![](images/cd9157009a3901ed9782f3c9be5ea2040d7788d0c10e46513de2e2d5c35a1292.webp)  
 (b)   
 Figure 15.6. VisDB screenshots with a dataset of eight attributes and 1000 items. (a) Attribute-based grouping with one small-multiple view for each attribute. (b) Item-based grouping has a single combined view with multiattribute glyph. From [Keim and Kriegel 94, Figure 6].
 
@@ -76,10 +76,10 @@ The small-multiples layout is effective for up to 10–12 attributes, where each
 
 VisDB is an early example of a very information-dense design that tests the upper limits of useful information density. It is also a very clear example of how different strategies for partitioning space can be used to support different tasks.
 
-![](images/b4a44d7b2a33cc1226f6d63aa3ba43193cd7188ddc8e5594b53954ca54b6bfe2.jpg)  
+![](images/b4a44d7b2a33cc1226f6d63aa3ba43193cd7188ddc8e5594b53954ca54b6bfe2.webp)  
 (a)
 
-![](images/6b73e3c666b5d74743a006c12678c609d5aa3c25b71e3277e8f6c5c67c7459e1.jpg)  
+![](images/6b73e3c666b5d74743a006c12678c609d5aa3c25b71e3277e8f6c5c67c7459e1.webp)  
 (b)   
 Figure 15.7. VisDB layout orientation and colors. (a) Layouts are are ordered internally in a spiral emanating from the center. (b) The VisDB sequential colormap uses multiple hues with monotonically increasing luminance. From [Keim and Kriegel 94, Figures 2 and 3].
 
@@ -97,14 +97,14 @@ The overview cluster heatmap at the top uses an aggregated representation where 
 
 ‣ For more on cluster heatmaps, see Section 7.5.2.
 
-![](images/b953455ae84072b3baa49f8da512bebd8338b5d1a1e0d6ab9eb1016b64c700e6.jpg)  
+![](images/b953455ae84072b3baa49f8da512bebd8338b5d1a1e0d6ab9eb1016b64c700e6.webp)  
 Figure 15.8. Hierachical Clustering Explorer uses interactive aggregation and filtering for the scalable display of a multidimensional table showing gene activity in different conditions using multiple overview+detail cluster heatmap views. From [Seo and Shneiderman 02, Figure 2].
 
 drogram above the bar and partitions the heatmap into pieces that correspond to the number of clusters just below the bar.
 
 The detail view at the bottom shows a heatmap of the cluster selected in the top overview. It also shows the second dendrogram for hierarchical clustering of the rows on the side; this dendrogram is not shown above in order to to maximize the number of columns that can fit within the overview. The background of the
 
-![](images/1ba76d05cb3da0507897e1c94bd3ce1b3a42af69e5739dce0d6a44ffc18f7f32.jpg)  
+![](images/1ba76d05cb3da0507897e1c94bd3ce1b3a42af69e5739dce0d6a44ffc18f7f32.webp)  
 Figure 15.9. HCE on a demographics dataset showing the rank-by-feature idiom for systematic exploration of pairwise combinations of attributes using a matrix overview and scatterplot. From [Seo and Shneiderman 05, Figure 1].
 
 selected cluster is highlighted in yellow in the overview, and the correspondence between the views is emphasized by coloring the column labels along the top of the detail view yellow as well, for linked highlighting.
@@ -113,7 +113,7 @@ HCE has also been used for exploring datasets from other domains, including cens
 
 * Mapping the name of this idiom into the vocabulary used in this book, rank is used as a synonym for order, and feature means either attribute or attribute pair.
 
-![](images/15825dc313799a98f0a5f19928d3395fb055fa00561beb622c42dc097fc58285.jpg)  
+![](images/15825dc313799a98f0a5f19928d3395fb055fa00561beb622c42dc097fc58285.webp)  
 Figure 15.10. Detail of HCE rank-by-feature views for ranking individual attributes using a list overview and histogram/boxplot. From [Seo and Shneiderman 05, Figure 2].
 
 The results appear in three views, as shown at the bottom of Figure 15.9 and in the detail screenshot in Figure 15.10. The lower left of Figure 15.9 shows an aggregate compact view with the same matrix alignment as a SPLOM, where each cell of the matrix has only a single area mark colored by the chosen criterion with a diverging blue–white–brown colormap. On the left of Figure 15.10 is a compact aggregate overview display with list alignment that matches the ordering used in the cluster heatmap, with the same area mark coloring. In the middle of Figure 15.10 is an intermediate level of detail view for all attributes that shows them in a list alignment that is both ordered and colored by the criterion. This list is less compact, showing a middle level of detail for each attribute, and thus it supports navigation through scrolling. On the right is a detail view to show the full details for the selected attribute with a histogram as shown in Figure 15.10, or the selected attribute pair with a scatterplot as shown in Figure 15.9. The user can select by clicking on a cell in the list or matrix views or by flipping through alternatives quickly using the single or double sliders in the respective detail views.*
@@ -126,10 +126,10 @@ The results appear in three views, as shown at the bottom of Figure 15.9 and in 
 
 Connection, containment, and matrix views of networks are different visual encodings of the same data abstraction; they both depict the link structure of a network. In contrast, the PivotGraph idiom [Wattenberg 06] visually encodes a different data abstraction: a new network derived from the original one by aggregating groups of nodes and links into a roll-up according to categorical attribute values on the nodes. The user can also select attributes of interest that filter the derived network. Roll-ups can be made for up to two attributes at once; for two dimensions nodes are laid out on a grid, and for one dimension they are laid out on a line. Node positions in the grid are computed to minimize link-crossing clutter, and the links between them are drawn as curves. The user interactively explores the graph through roll-up and selection to see visual encodings that directly summarize the high-level relationships between the attribute-based groups and can drill down to see more details for any node or link on demand. When the user chooses a different roll-up, an animated transition smoothly interpolates between the two layouts.
 
-![](images/760d852eebc0ca69791546a4a6df90c662d9467beddae03e476191b7408081cb.jpg)  
+![](images/760d852eebc0ca69791546a4a6df90c662d9467beddae03e476191b7408081cb.webp)  
 (a)
 
-![](images/2e685761e6aa20b13331a6e2946df64afed1fbd7acd609d045d7bf15fb31c75a.jpg)  
+![](images/2e685761e6aa20b13331a6e2946df64afed1fbd7acd609d045d7bf15fb31c75a.webp)  
 (b)   
 Figure 15.11. The PivotGraph idiom. (a) Node–link view of small network with two attributes on nodes: gender (M/F) is encoded by node shape, and company division (1/2) is encoded by grayscale value. (b) The schematic PivotGraph roll-up of the same simple network where size of nodes and links of the derived graph shows the number of items in these aggregated groups. From [Wattenberg 06, Figure 4].
 
@@ -137,7 +137,7 @@ Figure 15.11 shows an example of a simple node–link drawing in Figure 15.11(a)
 
 Figure 15.12 shows a more complex example rolled up by gender and office locations; the dataset is an anonymized version of a real corporate social network. Most of the cross-gender communication occurs in location B, and there are no women at location A. An additional quantitative attribute is encoded with a diverging
 
-![](images/e1d0862bc9841b0059ca0faa925b6a6f57a624c09fd32c31346c9ad601b9af2c.jpg)  
+![](images/e1d0862bc9841b0059ca0faa925b6a6f57a624c09fd32c31346c9ad601b9af2c.webp)  
 Figure 15.12. PivotGraph on graph rolled up by gender and location, showing most cross-gender communication occurs in location B. From [Wattenberg 06, Figure 5].
 
 red–green colormap, the number of inward links versus outward links at each node.
@@ -160,13 +160,13 @@ The proposed structure-based coloring redundantly emphasizes the hierarchical in
 
 The scalability of InterRing is moderate; it handles hundreds of nodes easily, where the leaf labels are large enough to read. The space-filling geometric configuration yields about three times
 
-![](images/e352dc5ca5a8e55bd5cad26a251cf6487fd9959eb5970be50f6316a77a9ac61a.jpg)  
+![](images/e352dc5ca5a8e55bd5cad26a251cf6487fd9959eb5970be50f6316a77a9ac61a.webp)  
 (a)
 
-![](images/7926d50693d9aa59f6def6f578bf4de6f97cf8bce2dd2a436934ededf23ddf82.jpg)  
+![](images/7926d50693d9aa59f6def6f578bf4de6f97cf8bce2dd2a436934ededf23ddf82.webp)  
 (b)
 
-![](images/961752ea98ee3635ba0c0d0930c7f4968f807d4e68cc2a23cc9815f95067a7c8.jpg)  
+![](images/961752ea98ee3635ba0c0d0930c7f4968f807d4e68cc2a23cc9815f95067a7c8.webp)  
 (c)   
 Figure 15.13. The InterRing hierarchy vis idiom uses a space-filling radial visual encoding and distortion-based focus+context interaction. (a) The hierarchy before distortion. (b) The blue selected subtree is enlarged. (c) A second tan region is enlarged. From [Yang et al. 02, Figure 4].
 
@@ -188,7 +188,7 @@ There is a categorical attribute for the relationship encoded by each link, such
 
 The linguistics researchers did not need to inspect the full network; rather, they wanted to see the results of their query algorithms that traversed the network, returning an ordered set of the
 
-![](images/5c51d8bb1193aca6325d861ada5374b89b7063bd357dd6a7397ce24133f4be25.jpg)  
+![](images/5c51d8bb1193aca6325d861ada5374b89b7063bd357dd6a7397ce24133f4be25.webp)  
 Figure 15.14. The Constellation high-level layout bases horizontal spatial position on the plausibility attribute, where more room is allocated to definitions on highly plausible and usually short paths on the left, and less room to those on less plausible and typically longer paths on the right. From [Munzner 00, Figure 5.4].
 
 top 10 or 50 highest-ranking paths between two words, a source and a sink. The paths are ranked with the quantitative attribute of plausibility, as computed by their traversal algorithms. Each path consists of an ordered list of words, and attached to each of these words is the set of all the definitions that were used during the computation to place it within the path.
@@ -203,37 +203,37 @@ The mid-level spatial layout handles a path segment: one word in the path along 
 
 The low-level spatial layout of a definition is illustrated in Figure 15.19(a). A ladder-like rectilinear structure encodes with both spatial position and line marks. Each leafword is enclosed in its own blue label box. Vertical lines show the hierarchical microstructure inside the definition and are colored white, and horizontal edges are color coded to show the link type.
 
-![](images/0e36bef33c9650463735fc648c351cb110182854b77a46b8130787be2ff1d7fc.jpg)  
+![](images/0e36bef33c9650463735fc648c351cb110182854b77a46b8130787be2ff1d7fc.webp)  
 (a)
 
-![](images/8323d0719e495991bcabd48b1784a330ae87dd9472ea232b541f460eba0328de.jpg)  
+![](images/8323d0719e495991bcabd48b1784a330ae87dd9472ea232b541f460eba0328de.webp)  
 (b)
 
-![](images/fd939de8a401d8e8f89c899f65e7f10a3af216a9eb4e90b3a81b5da59eb5ce07.jpg)  
+![](images/fd939de8a401d8e8f89c899f65e7f10a3af216a9eb4e90b3a81b5da59eb5ce07.webp)  
 (c)   
 Figure 15.15. Resizing grid cells to increase information density. (a) Base curvilinear grid. (b) After eliminating the empty columns. (c) After eliminating empty cell rows in each column. From [Munzner 00, Figure 5.13].
 
-![](images/c24166f00d09f8d1c8206a5897f122ab07eb20bedfc13942a7bc08d980b7feff.jpg)  
+![](images/c24166f00d09f8d1c8206a5897f122ab07eb20bedfc13942a7bc08d980b7feff.webp)  
 (a)
 
-![](images/457c45c1647d184a2eb458ef7623558663acc4ff3856ac4d008406092317d290.jpg)  
+![](images/457c45c1647d184a2eb458ef7623558663acc4ff3856ac4d008406092317d290.webp)  
 (b)
 
-![](images/203a53de36baf6225a2e5438f12670f58c7a34fddbdc44226cf3734f46198b6d.jpg)  
+![](images/203a53de36baf6225a2e5438f12670f58c7a34fddbdc44226cf3734f46198b6d.webp)  
 Figure 15.16. Constellation uses the design choice of dynamic superimposed layers. (a) Edges in the background layer are not obtrusive. (b) The newly selected foreground layer is distinguished from the background with changes of the size, luminance, and saturation channels. From [Munzner 00, Figure 5.5].   
 Figure 15.17. The constellation showing all relations of type Part is highlighted. From [Munzner 00, Figure 5.16a].
 
-![](images/821d03c8bf76e5cf140716b62c65e05393d112b730f0d81c39424e94a1a6b299.jpg)  
+![](images/821d03c8bf76e5cf140716b62c65e05393d112b730f0d81c39424e94a1a6b299.webp)  
 (a)
 
-![](images/1938ad2b97c96655ed8b30038751bd5ba012051b6caed0d7569b5ebfe208310f.jpg)  
+![](images/1938ad2b97c96655ed8b30038751bd5ba012051b6caed0d7569b5ebfe208310f.webp)  
 (b)   
 Figure 15.18. Mid-level Constellation path segment layout, using containment to show hierarchical relationship between path word in tan and its associated definitions in green. (a) One of the definitions is for the path word itself. (b) Path word that is not itself defined, but only appears within other definitions. From [Munzner 00, Figure 5.9].
 
-![](images/4bb176ba8611037a73d01cc706f7dfaa009738d0371b078e0c2dafff4911a40d.jpg)  
+![](images/4bb176ba8611037a73d01cc706f7dfaa009738d0371b078e0c2dafff4911a40d.webp)  
 (a)
 
-![](images/df6f3d708ac7d7e90e21da880804b32579368cdfa008a07419b56402b4604975.jpg)  
+![](images/df6f3d708ac7d7e90e21da880804b32579368cdfa008a07419b56402b4604975.webp)  
 (b)   
 Figure 15.19. Low-level Constellation definition layout, using rectilinear links and spatial position. (a) The base layout, with horizontal lines color-coded for link type. (b) Long-distance links are drawn between the master version of the word and all of its duplicated proxies. From [Munzner 00, Figure 5.10].
 
@@ -241,11 +241,11 @@ Each definition is drawn with all of its associated words in order to make it ea
 
 Constellation is optimized for three different viewing levels: a global view for interpath relationships, a local view for reading individual definitions, and an intermediate view for associations within path segments. It uses a subtle form of semantic zooming to achieve this effect, where the amount of space devoted to different classes of words changes dynamically depending on the zoom level. Figure 15.20 shows three steps of a zoom animated transition sequence. In the first frame, the words at the top are given much more space than the rest; in the last frame, the allocation of space is nearly equal for all words.
 
-![](images/f2802466dfb3d8d9c560458a1c6461d72556a26abd7ecbef7d14eabf2a07f02d.jpg)
+![](images/f2802466dfb3d8d9c560458a1c6461d72556a26abd7ecbef7d14eabf2a07f02d.webp)
 
-![](images/f1551d3efbc5a3f67d7a7745317f12fc873ceb5cdac892adea342b4324b02c9a.jpg)
+![](images/f1551d3efbc5a3f67d7a7745317f12fc873ceb5cdac892adea342b4324b02c9a.webp)
 
-![](images/7ea8df7475bb2d33475d9b41fd672e2ddc153d533eccbb44c9458e90db6cce4f.jpg)  
+![](images/7ea8df7475bb2d33475d9b41fd672e2ddc153d533eccbb44c9458e90db6cce4f.webp)  
 Figure 15.20. Constellation uses a subtle version of the semantic zooming design choice, where the space allocated for the first word versus the rest of the definition changes according to the zoom level. From [Munzner 00, Figure 5.19].
 
 <table><tr><td>System</td><td>Constellation</td></tr><tr><td>What: Data</td><td>Three-level network of paths, subgraphs (defi-nitions), and nodes (word senses).</td></tr><tr><td>Why: Tasks</td><td>Discover/verify: browse and locate types of paths, identify and compare.</td></tr><tr><td>How: Encode</td><td>Containment and connection link marks, hori-zontal spatial position for plausibility attribute, vertical spatial position for order within path, color links by type.</td></tr><tr><td>How: Manipulate</td><td>Navigate: semantic zooming. Change: Ani-mated transitions.</td></tr><tr><td>How: Reduce</td><td>Superimpose dynamic layers.</td></tr><tr><td>Scale</td><td>Paths: 10–50. Subgraphs: 1–30 per path. Nodes: several thousand.</td></tr></table>
@@ -264,7 +264,7 @@ InterRing The InterRing system supports hierarchy exploration through focus+cont
 
 Constellation The Constellation system supports browsing a complex multilevel network with a specialized layout and dynamic layering [Munzner et al. 99,Munzner 00].
 
-![](images/56154ad24ca6ab41ef30fa0ea56c4497d317566ca930f19919cc18c461703452.jpg)
+![](images/56154ad24ca6ab41ef30fa0ea56c4497d317566ca930f19919cc18c461703452.webp)
 
 #
 
@@ -328,7 +328,7 @@ Figure 7.5 Courtesy of Robert P. Bosch, Jr.
 Figure 7.6 Copyright $\circledcirc$ 2008 by IEEE.   
 Figure 7.7 Copyright $\circledcirc$ 2008 by IEEE.   
 Figure 7.10 Copyright $\circledcirc$ 2006 by IEEE.   
-Figure 7.11 From http://en.wikipedia.org/wiki/File:Heatmap.png. Created by Miguel Andrade using the program Cluster from Michael Eisen, which is available from http://rana.lbl.gov/ EisenSoftware.htm, with data extracted from the StemBase database of gene expression data.   
+Figure 7.11 From http://en.wikipedia.org/wiki/File:Heatmap.webp. Created by Miguel Andrade using the program Cluster from Michael Eisen, which is available from http://rana.lbl.gov/ EisenSoftware.htm, with data extracted from the StemBase database of gene expression data.   
 Figure 7.13 “Hyperdimensional Data Analysis Using Parallel Coordinates,” Edward J. Wegman, Journal American Statistical Association 85:411 (1990), 664–675. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
 Figure 7.14 Copyright $\circledcirc$ 1999 by IEEE.   
 Figure 7.15(a,b) “A layered grammar of graphics,” Hadley Wickham, Journal of Computational and Graphical Statistics 19:1 (2010), 3-28. Reprinted by permission of the American Statistical Association (http://www.amstat.org).   
@@ -357,7 +357,7 @@ Figure 9.4 Courtesy of Michael Bostock, made with D3 [Bostock et al. 11]. From h
 Figure 9.5 From “A Gallery of Large Graphs,” JDG Homologycis-n4c6, b14 and b4. Courtesy of Yifan Hu; see http://yifanhu.net/GALLERY/GRAPHS/citation.html.   
 Figure 9.6 Reprinted by permission from Macmillan Publishers Ltd: Nature Methods [Gehlenborg and Wong 12], copyright 2012.
 
-Figure 9.7 Courtesy of Michael McGuffin, from http://www.michaelmcguffin.com/courses/vis/ patternsInAdjacencyMatrix.png.   
+Figure 9.7 Courtesy of Michael McGuffin, from http://www.michaelmcguffin.com/courses/vis/ patternsInAdjacencyMatrix.webp.   
 Figure 9.8 Courtesy of David Auber, made with Tulip [Auber et al. 12].   
 Figure 9.9 Michael J. McGuffin and Jean-Marc Robert, Information Visualization (9:2) pp. 115–140, copyright $\circledcirc$ 2010 by SAGE Publications. Reprinted by Permission of SAGE.   
 Figure 9.10 Copyright $\circledcirc$ 2008 by IEEE.   

@@ -6,9 +6,9 @@ backgrounds, but it doesn’t look so great on colored backgrounds.
 That’s because the effect we’re actually seeing with grey on white is
 *reduced* *contrast*.
 
-![](images/index-43_1.png)
+![](images/index-43_1.webp)
 
-![](images/index-43_2.png)
+![](images/index-43_2.webp)
 
 43
 
@@ -23,9 +23,9 @@ text and reduce the opacity:
 While this *does* reduce the contrast, it often results in text that
 looks dull, washed out, and sometimes even disabled.
 
-![](images/index-44_1.png)
+![](images/index-44_1.webp)
 
-![](images/index-44_2.png)
+![](images/index-44_2.webp)
 
 Don’t use grey text on colored backgrounds
 
@@ -47,7 +47,7 @@ without the text looking faded.
 
 Don’t use grey text on colored backgrounds
 
-![](images/index-46_1.png)
+![](images/index-46_1.webp)
 
-![](images/index-46_2.png)
+![](images/index-46_2.webp)
 

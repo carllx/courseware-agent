@@ -14,7 +14,7 @@
 > *   **Scene**: 一具由绿色代码构成的冰冷数字骷髅，没有灵魂，无法传递任何情感与意图。
 > *   **Caption**: "缺乏意图的图表：仅仅是数字骷髅，无法刺穿人类心智。"
 > *   **Text**: "缺乏意图的图表：仅仅是数字骷髅，无法刺穿人类心智。"
-> *   **Asset**: ![预览](../public/slides/S22a_Data_Skeleton.png)
+> *   **Asset**: ![预览](../public/slides/S22a_Data_Skeleton.webp)
 
 > [PHILOSOPHY] 人文锚点：信息设计师的真身是跨界翻译官
 > 这个世界上最遥远的距离，不是大模型与底层代码的报错，而是“人类那充斥隐喻的业务语言”与“计算机极度理性的计算矩阵”之间的鸿沟。大模型听不懂“我要看清今年的动静”，绘图引擎也不在乎“异常波动预警”。在这个时代，信息可视化架构师的核心价值，就是扮演“跨界翻译官”！你必须冷酷地抽干甲方话语里的情绪水分，把复杂的领域概念，降维拆解为机器能够精准执行的通用操作指令。
@@ -25,7 +25,7 @@
 > *   **Scene**: 一个被成千上万份完美标注了“**分类**、**量化**”属性的整洁数据表格包围的数据分析师，手握着顶级的可视化开发工具，却双眼空洞地望着屏幕，不知从何画起。
 > *   **Caption**: "最悲哀的迷失：你拥有了整个世界的原材料，却不知道客户要用它造什么船。"
 > *   **Text**: "最悲哀的迷失：你拥有了整个世界的原材料，却不知道客户要用它造什么船。"
-> *   **Asset**: ![预览](../public/slides/S22b_The_Lost_Analyst.png)
+> *   **Asset**: ![预览](../public/slides/S22b_The_Lost_Analyst.webp)
 
 当你完美解构了一份包含两千万条全国电商交易流水记录的**长表**，你的代码技能随时待命。但问题是，你到底该将其渲染成一张十分重要绚丽、宏大壮观、用于给投资人年度峰会展示炫耀的“宇宙级全国热力高亮分布图”？还是该将它切分为非常克制、满屏皆是致密交互下钻控件阀的“异常极速跌损退货预警侦测排查面板”？
 
@@ -38,8 +38,8 @@
 > *   **Text**: "将凡人的愿望，压缩降维成执行指令网。"
 > *   **Caption**: "将凡人的狂妄愿望，压缩降维成底层机器界面触发的执行指令网。"
 > *   **List**: ["将凡人的狂妄愿望，压缩降维成底层机器界面触发的执行指令网。"]
-> *   **Asset**: ![预览](../public/slides/S23_The_Why_Intent_Funnel.png)
-> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.jpg)
+> *   **Asset**: ![预览](../public/slides/S23_The_Why_Intent_Funnel.webp)
+> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 这就是 Munzner 传授的第二大架构神技：基于 Why（底层意图解码驱动）的动作降维拆分法术。把那些没有逻辑的业务废话，强效脱水逼迫压缩成计算机可以执行的三大行动分层逻辑指令网关：Analyze（高维动作解析）、Search（猎物寻址围捕模式）、以及 Query（观测反馈确认级）。任何庞杂混沌的客户诉求只要抛进这口巨大的高频压榨熔炉漏斗，都会被无情碾碎、剥离情绪，然后降维成系统底层的点击、拉伸、对比与缩放。这不但是过滤，更是对人类虚妄心智的一次确实整形结构重铸风暴。只要你能熟练操纵这个漏斗引擎，你就能将所有感性的要求转化为理性的机器指令动作。
@@ -51,8 +51,8 @@
 > *   **Text**: "行动降维：解析、寻猎、微观操作"
 > *   **Caption**: "行动降维三步曲：从高维解析到精准微操。"
 > *   **List**: ["Analyze（高维动作解析）", "Search（猎物寻址模式）", "Query（微观动作反馈）"]
-> *   **Asset**: ![预览](../public/slides/S23b_Action_Trinity.png)
-> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.jpg)
+> *   **Asset**: ![预览](../public/slides/S23b_Action_Trinity.webp)
+> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 ### 1. 第一过滤级行动判决：高维解析域，即 Analyze
@@ -66,8 +66,8 @@
 > *   **Text**: "解析受众面具：汇报、猎手、享受者"
 > *   **List**: ["宣示展示，即 Present：不容反驳的战果汇报", "幽暗发现，即 Discover：死守边界的可疑风暴捕猎", "消遣享受，即 Enjoy：零压力的情感共鸣赋予"]
 > *   **Caption**: "认清分析受众所佩戴的面具：汇报者、猎手、抑或旁观的享受者。"
-> *   **Asset**: ![预览](../public/slides/S26_Analyze_Layer.png)
-> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.jpg)
+> *   **Asset**: ![预览](../public/slides/S26_Analyze_Layer.webp)
+> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 *   **Present（宣示展示）**：当你探明了所有的结果，此时唯一目的是向世界无争议地**宣告胜利**。
@@ -81,7 +81,7 @@
     > *   **Scene**: 模拟纽约时报大选版面：极简的红蓝大色块覆盖全图，配以极具冲击力的巨大粗体数字。没有任何冗余控件。
     > *   **Caption**: "Present 的极高独断力：剥夺交互，只留震撼。"
     > *   **Text**: "Present 的极高独断力：剥夺交互，只留震撼。"
-    > *   **Asset**: ![预览](../public/slides/S26a_Present_NYT.png)
+    > *   **Asset**: ![预览](../public/slides/S26a_Present_NYT.webp)
 
 *   **Discover（幽暗发现）**：这里弥漫着求生绝境的战栗感。
     
@@ -92,7 +92,7 @@
     > *   **List**: ["发现意图：在无边的噪音中捕捉微弱的死亡闪烁"]
     > *   **Text**: "幽暗发现：在噪音中捕捉异动"
     > *   **Caption**: "分析不是为了证实，而是为了在未知中寻找刺伤眼球的异常。"
-    > *   **Asset**: ![预览](../public/slides/S24_Analyze_Discovery_Path.png)
+    > *   **Asset**: ![预览](../public/slides/S24_Analyze_Discovery_Path.webp)
 
     *   **设计制约法则**：分析学者面对着刚刚脱敏下发的数百万条非常混杂留痕流水，犹如潜水员在深海强压盲区摸索。他们正试图非常敏锐地挖掘其内深藏不露的恶意潜伏规律。这种图表，绝不纵容哪怕一次异常峰值的漏网。画面必然充斥非常致密的预警图层。同时必须搭载海量深潜的无限互动切片与过滤控件组。
     *   > [CASE STUDY] 彭博金融数据终端（Bloomberg Terminal）的密集视场
@@ -105,7 +105,7 @@
     > *   **Caption**: "发现者的视场：摒弃美学留白，在极致密度的图层中压榨波动信号。"
     > *   **Text**: "发现者的视场：摒弃美学留白，在极致密度的图层中压榨波动信号。"
     > *   **List**: ["潜水员的深海摸索", "致密预警图层", "无限过滤控件"]
-    > *   **Asset**: ![预览](../public/slides/S24b_Bloomberg_Terminal.png)
+    > *   **Asset**: ![预览](../public/slides/S24b_Bloomberg_Terminal.webp)
 
 *   **Enjoy（消遣享受）**：这里完全舍弃了以上两者带有的强压强目的性的战斗血腥意味。
     
@@ -116,7 +116,7 @@
     > *   **List**: ["消遣意图：抚慰情绪的数据浪漫"]
     > *   **Text**: "消遣享受：抚慰情绪的数据浪漫"
     > *   **Caption**: "当数据褪去效率的外衣，它就是用来引发情感共鸣的时光切片。"
-    > *   **Asset**: ![预览](../public/slides/S25_Enjoy_Spotify.png)
+    > *   **Asset**: ![预览](../public/slides/S25_Enjoy_Spotify.webp)
 
     *   **设计制约法则**：这是放松神经的领地，设计师的职责不再是施加强压或深渊探灯，而是情感的抚慰羁绊。此时的可视化可以不择手段地大量引入高度柔化圆润的物理碰撞动效交互、平滑丝滑的曲线以及没有攻击性的低反差柔和马卡龙渐变色阶包裹层。
     *   > [CASE STUDY] Spotify Wrapped 的年度沉浸时光长卷
@@ -128,7 +128,7 @@
     > *   **Scene**: 星轨、粒子、柔和马卡龙渐变构成的时光长卷。枯燥日志化为了美丽的光谱。
     > *   **Caption**: "柔化的数据隐喻：零压力的情感共鸣与时光漫游。"
     > *   **Text**: "柔化的数据隐喻：零压力的情感共鸣与时光漫游。"
-    > *   **Asset**: ![预览](../public/slides/S25b_Enjoy_Aesthetics.png)
+    > *   **Asset**: ![预览](../public/slides/S25b_Enjoy_Aesthetics.webp)
 
 > [VISUAL]
 > *   **Slide**: `S26b_Produce_Layer`
@@ -136,8 +136,8 @@
 > *   **Scene**: 左半边是一双眼睛仅仅停留在观看屏幕上的消费数据（Consume）；右半边则是一只机械臂猛然伸出，在屏幕图海上重重盖下大红印章，并将其抽屉式归档（Produce）。
 > *   **Caption**: "从被动的视界观察者，完全质变进化为掌握留痕主权与定义新**维度**的造物主引擎。"
 > *   **Text**: "从被动的视界观察者，完全质变进化为掌握留痕主权与定义新**维度**的造物主引擎。"
-> *   **Asset**: ![预览](../public/slides/S26b_Produce_Layer.png)
-> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.jpg)
+> *   **Asset**: ![预览](../public/slides/S26b_Produce_Layer.webp)
+> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 除去上述三种“消费型（Consume）”动作体系，Analyze 层级还隐藏着另一套极具攻击性的“创生型（Produce）”矩阵**分类**：
@@ -149,8 +149,8 @@
 > *   **Scene**: 在一张庞大的网络图上，用户用鲜红的画笔圈出了一个微小异常群落（Annotate），随即将该画面如拍立得般快照定格封装入库（Record）。
 > *   **Caption**: "创生型重击：标注以宣示主权，刻录以传承军火。"
 > *   **Text**: "创生型重击：标注以宣示主权，刻录以传承军火。"
-> *   **Asset**: ![预览](../public/slides/S26c_Annotate_Record.png)
-> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.jpg)
+> *   **Asset**: ![预览](../public/slides/S26c_Annotate_Record.webp)
+> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 ### 2. 第二过滤级行动判决：目标围猎寻址场，即 Search
@@ -164,8 +164,8 @@
 > *   **Text**: "猎手的四重地狱：明确检索到混沌探索"
 > *   **List**: ["明确检索，即 Lookup：目标明确，坐标已知", "迷雾定位，即 Locate：目标明确，坐标丢失", "大浪淘金，即 Browse：目标模糊，锁定高地", "混沌乱猎，即 Explore：茫然无知，全域探测"]
 > *   **Caption**: "猎手的四重地狱：从完全掌控猎物到盲眼闯入太初深渊。"
-> *   **Asset**: ![预览](../public/slides/S27_Search_Matrix.png)
-> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.jpg)
+> *   **Asset**: ![预览](../public/slides/S27_Search_Matrix.webp)
+> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 这四种寻猎情境，定义了你在构筑大屏时必须装配的交互密度大阵：
@@ -179,7 +179,7 @@
 > *   **Scene**: 左侧：一个极简搜索框直接定位到目标点。右侧：全图变暗，只有符合条件的目标如星辰般爆闪（Hover/Filter）。
 > *   **Caption**: "从直达靶心到点亮夜空：前两种轻量猎寻。"
 > *   **Text**: "从直达靶心到点亮夜空：前两种轻量猎寻。"
-> *   **Asset**: ![预览](../public/slides/S27c_Search_Lookup_Locate.png)
+> *   **Asset**: ![预览](../public/slides/S27c_Search_Lookup_Locate.webp)
 
 3.  **Browse（大浪淘金）**：内心茫然无确切指定目标悬赏，但依凭深厚战斗经验直觉行事。只要动用火力集中扫射图线上矗立的最巅峰高塔或者是色彩最深浓的红色谷底带，必能捞到有价值的大鱼。这就要求界面务必装载**平滑无极的缩放画布 (Semantic Zooming)** 和** 支持平移拖拽的切入点底版 (Pan/Drag Canvas)**，让老练猎手能像巡河雄鹰般在这无垠像素疆域任意盘旋扫荡。
 4.  **Explore（混沌探索乱猎）**：处于蒙昧的太初黑暗中。既不曾知晓猎物属性，更完全不知目标栖息地图的何处深渊。只有面对这种最高深度的深水区迷局探险，才能授权你搬出**套索多边几何框选阵列 (Lasso Selection)**，以及**多重仪表盘极限联动交叉过滤 (Cross-Filtering)** 这种超级重火力航母复合式交互组件网络。
@@ -190,7 +190,7 @@
 > *   **Scene**: 左侧：展现明确检索，即 Lookup 下的极简搜索框响应。右侧：展现混沌探索，即 Explore 下密密麻麻的框选、缩放、多重条件联动高亮组合技响应。
 > *   **Caption**: "四种寻猎状态强制驱动出迥异的交互军火库。"
 > *   **Text**: "四种寻猎状态强制驱动出迥异的交互军火库。"
-> *   **Asset**: ![预览](../public/slides/S27b_Search_Interactions.png)
+> *   **Asset**: ![预览](../public/slides/S27b_Search_Interactions.webp)
 
 > [TEACHING MOMENT] 你的朋友圈属于哪种交互火力阵？
 > 让我们的思维进入一场实战判定：当你在枯燥疲惫的高铁旅途上，随手打开微信朋友圈，漫无目的地滑动卡片流。此刻你的大脑到底处于上述矩阵中的哪一格？
@@ -209,8 +209,8 @@
 > *   **Text**: "微操落点：识别、比较、概览"
 > *   **List**: ["指认识别，即 Identify：全盘聚焦孤立点", "对抗比较，即 Compare：狂暴衡量悬殊鸿沟", "万象概览，即 Summarize：纵览全局大脉络走势"]
 > *   **Caption**: "微操审判的三部曲：极微观的点射、极惨烈的对决、壮阔的鸟瞰全貌。"
-> *   **Asset**: ![预览](../public/slides/S28_Query_Types.png)
-> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.jpg)
+> *   **Asset**: ![预览](../public/slides/S28_Query_Types.webp)
+> *   **Resource**: ![Munzner Fig3.1](../public/textbook/Fig3.1_Task_Abstraction.webp)
 > *   **Source**: Textbook
 
 *   **Identify（指认识别）**：将狭窄的准星收束到全局唯一的观察主体上。例如悬停在一个散点上查询它的气温读数。
@@ -230,7 +230,7 @@
 > *   **Scene**: 交互阻尼曲线。Identify 是趋近于零的悬停即显，Compare 是强联动的跨维爆闪，Summarize 是彻底让渡空间的纯净视界。
 > *   **Caption**: "组件匹配的暴政：不同粒度的意图必须受到严格的 UI 节制约束。"
 > *   **Text**: "组件匹配的暴政：不同粒度的意图必须受到严格的 UI 节制约束。"
-> *   **Asset**: ![预览](../public/slides/S28c_UI_Restraint.png)
+> *   **Asset**: ![预览](../public/slides/S28c_UI_Restraint.webp)
 
 > [PHILOSOPHY] 人文锚点：技术霸权（Anti-Tech Hegemony）凝视下的无底交互深渊
 > 当你在精心构筑这套非常深邃、从 Lookup 到 Explore 的交互操控漏斗时，请务必时刻保持清醒。当今硅谷的资本科技巨头们，总是极尽能事地在终端界面上，海量铺设最为极高丝滑、没有摩擦力的“混沌探索深渊（Explore）”与“消遣沉浸流（Enjoy）”动效。
@@ -272,7 +272,7 @@
 > *   **Scene**: 左侧：一张包含“进口”和“出口”字段的基础数据表。右侧：一道强光闪过，两列数据碰撞后产生出一列全新的耀眼荧光绿数据柱——“贸易顺逆差”。
 > *   **Caption**: "当原始数据无法讲述真相时，用数学逻辑创造出属于你的第一手全新度量！"
 > *   **Text**: "当原始数据无法讲述真相时，用数学逻辑创造出属于你的第一手全新度量！"
-> *   **Asset**: ![预览](../public/slides/S28b_Derive_Concept.png)
+> *   **Asset**: ![预览](../public/slides/S28b_Derive_Concept.webp)
 
 它的核心理念无比狂妄：永远不要仅仅只是画你拿到的那副底牌！如果原始数据画不出神韵，那你就应当像创世神一般，动用数学逻辑组合，在这堆原石中**派生**出原本不存在的全新高层次属性！直接抛弃旧图，画这新图！
 
@@ -298,8 +298,8 @@
 > *   **List**: ["无情派生：用数学屠宰边缘噪音，让主干骨架重见天日"]
 > *   **Text**: "网络派生：屠宰噪音，重塑主干"
 > *   **Caption**: "派生过滤的残酷神权：它不是画全景，而是敢于斩断九成的无意义关联。"
-> *   **Asset**: ![预览](../public/slides/S30_Strahler_Derive_Tree.png)
-> *   **Resource**: ![Munzner Fig3.11](../public/textbook/Fig3.11_Derive_Tree.jpg)
+> *   **Asset**: ![预览](../public/slides/S30_Strahler_Derive_Tree.webp)
+> *   **Resource**: ![Munzner Fig3.11](../public/textbook/Fig3.11_Derive_Tree.webp)
 > *   **Source**: Textbook
 >
 面对这种视觉死局，高阶派生大师根本不想去硬刚这个数量级。他们从拓扑学的异度空间召唤出了绝秘的评价体系：斯特劳勒数（Strahler Number）。他们不画图，而是先算这五十万个节点的层级重要性权值。无情抹杀掉四十九万五千个无关痛痒的边缘节点，只留下区区五千个承载着架构命脉的核心粗壮主干。一瞬间，厚重的黑色泥沼退避三舍，一棵骨感且傲然挺立的神经晶格树之王被清晰地推到了视网膜前。这就叫派生过滤的残酷神权。
@@ -316,7 +316,7 @@
 > *   **Scene**: 三层巨大的铁制过滤重碾同轴相嵌、严密咬合运作，将高层的模糊愿望硬生生压片成了不能辩驳的计算机机械底层行动语言执行阵。
 > *   **Caption**: "意图解码的连贯神权：通过三重审级，你终将获得主宰系统的终极机器语言发条。"
 > *   **Text**: "意图解码的连贯神权：通过三重审级，你终将获得主宰系统的终极机器语言发条。"
-> *   **Asset**: ![预览](../public/slides/S29_Funnel_Combined.png)
+> *   **Asset**: ![预览](../public/slides/S29_Funnel_Combined.webp)
 
 三个层级——Analyze（意图）、Search（坐标）、Query（落点）——彼此咬合、环环相扣，共同构成了将莫糊诉求转化为精确机器指令的解码网络。这不仅是可视化设计的框架，更是一种思维方式的训练：在你正式打开任何代码编辑器之前，先在这张三级漏斗里走完一整圈。当你能清晰说出"这是一个 Present 意图下的 Locate 场景，用户的 Query 是 Compare"，你就已经完成了设计中最有价值的工作。剩下的色彩、布局、交互，不过是这个决策的自然延伸。缺少了意图定位框架，再华丽的图表也只是黑暗中射出的一支随机之箭；而有了它，每一根像素的落地都将有据可依。
 
@@ -331,7 +331,7 @@
 > *   **Scene**: Analyze、Search、Query 三重齿轮严丝合缝地咬合在一起，爆发出耀眼的“机器可执行指令”蓝光。
 > *   **Text**: "三重合一：将人类愿望翻译为无懈可击的代码指令。"
 > *   **Caption**: "三重合一：将人类愿望翻译为无懈可击的代码指令。"
-> *   **Asset**: ![预览](../public/slides/S29b_The_Trinity_Completed.png)
+> *   **Asset**: ![预览](../public/slides/S29b_The_Trinity_Completed.webp)
 
 通过这个漏斗，你将散漫、矛盾的甲方需求，硬性转译为纯净的底层机器代码组件与交互阵列。但这依然不够。光有对底层物质粒子的洞察（What），光有读心理想（Why），依旧救不活一个充满垃圾数据的项目。我们要解决最后一道也是最硬核的难关：荡平表格乱象的**行动纲领**。
 

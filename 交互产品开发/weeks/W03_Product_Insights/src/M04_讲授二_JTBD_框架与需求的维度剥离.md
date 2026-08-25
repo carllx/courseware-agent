@@ -6,7 +6,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-16
 > **Layout**: `Center`
-> **Asset**: ![预览](../public/slides/w03-slide-16.png)
+> **Asset**: ![预览](../public/slides/w03-slide-16.webp)
 > **Scene**: 漆黑的背景上，只亮着一盏昏黄的聚光灯，照亮了一把孤独的、满是伤痕的工业电钻
 > **Text**: JTBD (Jobs-to-be-Done)：从"卖电钻"到"买墙洞"
 
@@ -24,7 +24,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-16_fix1
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-16_fix1.png)
+> **Asset**: ![预览](../public/slides/w03-slide-16_fix1.webp)
 > **Scene**: 用户拿着电钻，注视着墙上必须打出的圆洞，电钻仅被视为耗材
 > **Text**: 经典 JTBD 隐喻：没人想买四分之一英寸的电钻
 
@@ -39,7 +39,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-16_fix2
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-16_fix2.png)
+> **Asset**: ![预览](../public/slides/w03-slide-16_fix2.webp)
 > **Scene**: 产品经理盯着满满一墙的产品功能特征便利贴
 > **Text**: 堆砌功能特征无法触及痛点核心
 
@@ -67,7 +67,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-17b
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-17b.png)
+> **Asset**: ![预览](../public/slides/w03-slide-17b.webp)
 > **Scene**: 左侧是试图通过加糖加果肉来"优化配方"的研发会议；右侧是早上六点多，观察员坐在餐厅角落记录
 > **Text**: 放弃问卷，回归田野观察
 > 
@@ -77,7 +77,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-18
 > **Layout**: Flow
-> **Asset**: ![预览](../public/slides/w03-slide-18.png)
+> **Asset**: ![预览](../public/slides/w03-slide-18.webp)
 > **Scene**: 拥堵的高速公路上，一名司机一边单手握着方向盘，一边用吸管喝着一杯浓稠的奶昔
 > **Text**: 破案："雇佣"奶昔去对抗漫长无聊的早高峰通勤
 
@@ -86,7 +86,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-17_fix1
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-17_fix1.png)
+> **Asset**: ![预览](../public/slides/w03-slide-17_fix1.webp)
 > **Scene**: 凌晨的高速公路与通勤司机
 > **Text**: 第一段奶昔故事的启示：产品是为了消磨漫长的通勤
 
@@ -99,7 +99,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-18_alt
 > **Layout**: Grid
-> **Asset**: ![预览](../public/slides/w03-slide-18_alt.png)
+> **Asset**: ![预览](../public/slides/w03-slide-18_alt.webp)
 > **Scene**: 香蕉、甜甜圈、干贝果面包三种食物在车厢内的尴尬食用场景
 > **Text**: 竞争对手根本不是其他奶昔
 > **List**: 香蕉：吃得太快 | 甜甜圈：弄脏方向盘 | 贝果：太干难以下咽
@@ -113,7 +113,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-18b
 > **Layout**: `Comparison`
-> **Asset**: ![预览](../public/slides/w03-slide-18b.png)
+> **Asset**: ![预览](../public/slides/w03-slide-18b.webp)
 > **Scene**: 对比图。传统解法思维：把奶昔变甜、加果肉；JTBD解法：让奶昔变粘稠，配细吸管，以及快取车道
 > **Text**: 颠覆直觉的重构：为填补无聊时间而生的反向设计
 > **List**: 传统解法: 变甜加果肉 | JTBD解法: 浓稠加细吸管与快取车道
@@ -127,7 +127,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-19
 > **Layout**: `Split`
-> **Asset**: ![预览](../public/slides/w03-slide-19.png)
+> **Asset**: ![预览](../public/slides/w03-slide-19.webp)
 > **Scene**: 用户大脑皮层的三维分解图，如同俄罗斯套娃：最外层是机械臂（功能），中间层是戴着面具的人（社会），最深层是一颗跳动的心脏（情感）
 > **Text**: 需求的三维解绑：功能、社会与情感
 > **List**: 1. 功能性（Functional） | 2. 社会性（Social） | 3. 情感性（Emotional）
@@ -137,7 +137,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-18_fix1
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-18_fix1.png)
+> **Asset**: ![预览](../public/slides/w03-slide-18_fix1.webp)
 > **Scene**: 产品经理必须跳出"喝"这个动作，思考整个生命周期
 > **Text**: 不要盯着"奶昔"，盯紧用户的"生活主线"
 
@@ -157,7 +157,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-19_functional_failure
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-19_functional_failure.png)
+> **Asset**: ![预览](../public/slides/w03-slide-19_functional_failure.webp)
 > **RenderMode**: themed
 > **Scene**: [Emotional/Psychological Tension: frustrating, broken, dead-end] 左侧是一把在剪纸板时直接从转轴处崩裂的廉价剪刀；右侧是在迷宫般的陌生高架桥下，司机绝望地看着手机导航 App 突然宕机死屏的画面。
 > **Keywords**: broken scissors, navigation app crash, frustrated driver
@@ -172,7 +172,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-20_social
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-19_fix1.png)
+> **Asset**: ![预览](../public/slides/w03-slide-19_fix1.webp)
 > **Scene**: 维系社交体面的虚荣面具
 > **Text**: 维度二：社交假面 (Social Job)
 > **List**: 维护社会人设 / 面子文化 / 阶层宣告
@@ -186,7 +186,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-20_emotional
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-20.png)
+> **Asset**: ![预览](../public/slides/w03-slide-20.webp)
 > **Scene**: 极度孤独、灯光暗淡的凌晨三点浴室里，一个人卸下所有防备站在镜子前，深深地凝视着自己布满血丝和绝望疲惫的双眼
 > **Text**: 维度三：情感幽灵 (Emotional Job)
 > **List**: 缓解隐秘恐惧 / 避免失控焦虑 / 建立最高壁垒
@@ -203,7 +203,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-20_medical_func
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-20_medical_func.png)
+> **Asset**: ![预览](../public/slides/w03-slide-20_medical_func.webp)
 > **Scene**: 8K分辨率下放大显示微小血管断层的高科技屏幕
 > **Text**: 【功能维度】绝不允许一微米的漂移
 
@@ -212,7 +212,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-20_medical_social
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-20_medical_social.png)
+> **Asset**: ![预览](../public/slides/w03-slide-20_medical_social.webp)
 > **Scene**: 左侧是复杂精密的机械臂操作，右侧是主刀医生被一群实习医生崇拜注视的急诊室场景
 > **Text**: 【社交维度】维持顶级精英的绝对掌控力
 
@@ -221,7 +221,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-21
 > **Layout**: `Comparison`
-> **Asset**: ![预览](../public/slides/w03-slide-21.png)
+> **Asset**: ![预览](../public/slides/w03-slide-21.webp)
 > **Scene**: 医疗控制端对比：左侧是密密麻麻参数的仪表盘，右侧是带有防误触确认界面的清晰 UI
 > **Text**: 【情感维度】建立安全感与掌控力
 > **List**: 传统仪表盘: 密集恐惧 | 改进版 UI: 防误触确认
@@ -233,7 +233,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-21_fix1
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-21_fix1.png)
+> **Asset**: ![预览](../public/slides/w03-slide-21_fix1.webp)
 > **Scene**: B端系统操作界面与紧张的用户
 > **Text**: 多维解绑的商业终极意义
 
@@ -242,7 +242,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-22
 > **Layout**: Grid
-> **Asset**: ![预览](../public/slides/w03-slide-22.png)
+> **Asset**: ![预览](../public/slides/w03-slide-22.webp)
 > **Scene**: 四宫格展示违和的产品场景实验：左上是试图把木梳卖给寺庙里的和尚，右上是一个大汗淋漓的健身房跑步机面板上放了一包高热量薯片，左下是一根昂贵的宝格丽钻石项链戴在一只流浪宠物狗脖子上，右下是一辆拉风的法拉利跑车卡死在积满泥水的农村下雨农田里
 > **Text**: 致命前置：情境（Context）决定了一切高级功能的生死
 > **List**: 场景1: 把木梳卖给和尚 | 场景2: 跑步机上面吃薯片 | 场景3: 宠物狗戴钻石项链 | 场景4: 法拉利陷在泥地
@@ -257,7 +257,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-22_coffee
 > **Layout**: Comparison
-> **Asset**: ![预览](../public/slides/w03-slide-22_coffee.png)
+> **Asset**: ![预览](../public/slides/w03-slide-22_coffee.webp)
 > **Scene**: 左侧是焦急看表在冷雨中等咖啡的迟到打工人，右侧是阳光明媚的下午在户外悠闲喝拉花咖啡的约会情侣
 > **Text**: Context 的致命反转：时间、地点与情绪状态重塑了痛点
 > **List**: 场景一：极限通勤 (极速交付) | 场景二：悠闲约会 (阶层质感拉花)
@@ -269,7 +269,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-23
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-23.png)
+> **Asset**: ![预览](../public/slides/w03-slide-23.webp)
 > **Scene**: 左侧是传统工业产品公司的盲目的开发逻辑链：发现自己机器的小缺陷 -> 拼命添加补丁新功能 -> 盲目测试排期发布。右侧是拥有 JTBD 上帝视角高手的逻辑链：敏锐观察真实世界阻力 -> 无情解构任务三维度 -> 彻底重新定义业务边界
 > **Text**: 突破竞争的死亡边界：因为你的对手根本从来不是同行
 
@@ -283,7 +283,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-23_coffee_war
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-23_coffee_war.png)
+> **Asset**: ![预览](../public/slides/w03-slide-23_coffee_war.webp)
 > **Scene**: 星巴克、Costa、瑞幸咖啡在CBD楼下激烈肉搏的价格战与发泡牛奶比拼
 > **Text**: 传统视角的盲区：在同质化特征里陷入红海厮杀
 > 
@@ -294,7 +294,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-23b
 > **Layout**: `List`
-> **Asset**: ![预览](../public/slides/w03-slide-23b.png)
+> **Asset**: ![预览](../public/slides/w03-slide-23b.webp)
 > **Scene**: 星巴克在中心，包围它的是跨界竞争者：西西弗书店、隐秘下沉中庭、深睡按摩馆
 > **Text**: 跨界猎杀：当对手不再是同行
 > **List**: 1. 公共书店 (安静阅读) | 2. 下沉中庭 (隐秘休息) | 3. 按摩 SPA (沉浸安眠)
@@ -317,7 +317,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-24
 > **Layout**: `Full`
-> **Asset**: ![预览](../public/slides/w03-slide-24.png)
+> **Asset**: ![预览](../public/slides/w03-slide-24.webp)
 > **Scene**: 少年大卫握着普通石块对峙装甲巨无霸歌利亚的油画
 > **Text**: 切入垂直市场：寻找未被满足的深层痛点
 
@@ -326,7 +326,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-25
 > **Layout**: Flow
-> **Asset**: ![预览](../public/slides/w03-slide-25.png)
+> **Asset**: ![预览](../public/slides/w03-slide-25.webp)
 > **Scene**: 一张从表层需求逐步剥茧，直到触及底层心理动机的推演逻辑图
 > **Text**: 1. 拆除表象标签 -> 2. 田野行为观测 -> 3. 三维剥离核心 -> 4. 锁定情境 -> 5. 跨界替代
 
@@ -335,7 +335,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-29_jtbd_universe
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-29_jtbd_universe.png)
+> **Asset**: ![预览](../public/slides/w03-slide-29_jtbd_universe.webp)
 > **Scene**: 一幅深邃如星图般的架构图，从表层的产品特征层层下钻，直至人性深渊的原始需求
 > **Text**: JTBD 宇宙全貌：在真实时空中捕获底层雇佣关系
 
@@ -362,7 +362,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-29_activity_intro
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-29_activity_intro.png)
+> **Asset**: ![预览](../public/slides/w03-slide-29_activity_intro.webp)
 > **Scene**: 粗暴地把一个高科技产品大卸三块（功能、社会、情感）的解剖台
 > **Text**: 战前准备：你们的直觉武器库
 
@@ -381,7 +381,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-29_activity_warning
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-29_activity_warning.png)
+> **Asset**: ![预览](../public/slides/w03-slide-29_activity_warning.webp)
 > **Scene**: 打工人在开放式工位上戴上降噪耳机，仿佛进入了一个专属的保护罩
 > **Text**: 挖掘表象下的隐秘动机
 

@@ -40,17 +40,17 @@ Scatterplots are effective for the abstract tasks of providing overviews and cha
 
 Glyphs and views are discussed further in Section 12.4.
 
-![](images/08d4171ca2449cce16ad856196246bf5bf62fb2a903b75330c64e3ec27f6d6de.jpg)  
+![](images/08d4171ca2449cce16ad856196246bf5bf62fb2a903b75330c64e3ec27f6d6de.webp)  
 Figure 7.2. Scatterplot. Each point mark represents a country, with horizontal and vertical spatial position encoding the primary quantitative attributes of life expectancy and infant mortality. The color channel is used for the categorical country attribute and the size channel for quantitative population attribute. From [Robertson et al. 08, Figure 1c].
 
 whether the points form a line along the diagonal. The stronger the correlation, the closer the points fall along a perfect diagonal line; positive correlation is an upward slope, and negative is downward. Figure 7.2 shows a highly negatively correlated dataset.
 
 Additional transformations can also be used to shed more light on the data. Figure 7.3(a) shows the relationship between diamond price and weight. Figure 7.3(b) shows a scatterplot of derived attributes created by logarithmically scaling the originals; the transformed attributes are strongly positively correlated.
 
-![](images/7a4d97e3793773deb11225557769f71f491e5590826f3a5ea229c6395c538aac.jpg)  
+![](images/7a4d97e3793773deb11225557769f71f491e5590826f3a5ea229c6395c538aac.webp)  
 (a)
 
-![](images/1a7e3e95f41d440be8380dcd79a281a08280dcc25146568241793b0a5986659a.jpg)  
+![](images/1a7e3e95f41d440be8380dcd79a281a08280dcc25146568241793b0a5986659a.webp)  
 (b)   
 Figure 7.3. Scatterplots. (a) Original diamond price/carat data. (b) Derived log-scale attributes are highly positively correlated. From [Wickham 10, Figure 10].
 
@@ -82,10 +82,10 @@ The well-known bar chart idiom is a simple initial example. Figure 7.4 shows a b
 
 The scalability issues with bar charts are that there must be enough room on the screen to have white space interleaved between the bar line marks so that they are distinguishable. A bar corresponds to a level of the categorical key attribute, and it’s common to show between several and dozens of bars. In the limit, a full-screen chart with 1000 pixels could handle up to hundreds of bars, but not thousands.
 
-![](images/3dffd33aed6d6bb48bf70521de7f0b69db59aa1d355cf2e00ac1912d63d4df65.jpg)  
+![](images/3dffd33aed6d6bb48bf70521de7f0b69db59aa1d355cf2e00ac1912d63d4df65.webp)  
 (a)
 
-![](images/40debfdeceeb6ec0a42b77aa69e7609f01dd32772f6a7f6ddf7718f6bf487c22.jpg)  
+![](images/40debfdeceeb6ec0a42b77aa69e7609f01dd32772f6a7f6ddf7718f6bf487c22.webp)  
 (b)   
 15 15Figure 7.4. Bar chart. The key attribute, species, separates the marks along 10 10the horizontal spatial axis. The value attribute, weight, expresses the value with 5 5aligned vertical spatial position and line marks. (a) Marks ordered alphabetically according to species name. (b) Marks ordered by the weight attribute used for bar heights.
 
@@ -101,7 +101,7 @@ Figure 7.5 shows an example of a stacked bar chart used to inspect information f
 
 Each component of the bar is separately stacked, so that the full bar height shows the value for the combination of all items in the stack. The heights of the lowest bar component and the full combined bar are both easy to compare against other bars because they can be read off against the flat baseline; that is, the judgement is position against a common scale. The other components in the stack are more difficult to compare
 
-![](images/29893994d9aa1e7374d39b1b4a3d24a14b26d3d410de6153881be06449fd329a.jpg)  
+![](images/29893994d9aa1e7374d39b1b4a3d24a14b26d3d410de6153881be06449fd329a.webp)  
 Figure 7.5. Stacked bar chart. The Thor memory profiler shows cache misses stacked and colored by miss type. From [Bosch 01, Figure 4.1].
 
 Stacked bars are typically used for absolute data; relative proportions of parts to a whole can be shown with a normalized stacked bar chart, where each bar shows the same information as in an entire pie chart, as discussed in Section 7.6.3.
@@ -116,13 +116,13 @@ The scalability of stacked bar charts is similar to standard bar charts in terms
 
 Figure 7.6 shows a more complex generalized stacked graph display idiom with a dataset of music listening history, with one time series per artist counting the number of times their music was listened to each week [Byron and Wattenberg 08]. The streamgraph idiom shows derived geometry that emphasizes the continuity of the horizontal layers that represent the artists, rather than showing individual vertical glyphs that would emphasize listening behavior at a specific point in time.1 The derived geometry is the result of a global computation, whereas individual glyphs can be constructed using only calculations about their own local region. The streamgraph idiom emphasizes the legibility of the individual streams with a deliberately organic silhouette, rather than using the horizontal axis as
 
-![](images/60927791453e2f0fd8606a5b62047d7c8c73927dc7bc534046fe919309f7627c.jpg)  
+![](images/60927791453e2f0fd8606a5b62047d7c8c73927dc7bc534046fe919309f7627c.webp)  
 Figure 7.6. Streamgraph of music listening history. From [Byron and Wattenberg 08, Figure 0].
 
-![](images/f338c8c269b54554c3975af9ac1c75171ff9b26b8922d67de2fca022a6b81f87.jpg)  
+![](images/f338c8c269b54554c3975af9ac1c75171ff9b26b8922d67de2fca022a6b81f87.webp)  
 (a)
 
-![](images/84f2112f4beb242e7dfc2aff1a45e922fab039e7816830ac4593d4618e569d24.jpg)  
+![](images/84f2112f4beb242e7dfc2aff1a45e922fab039e7816830ac4593d4618e569d24.webp)  
 (b)   
 Figure 7.7. Streamgraphs with layers ordered by different derived attributes. (a) Volatility of artist’s popularity. (b) Onset time when artist’s music of first gained attention. From [Byron and Wattenberg 08, Figure 15].
 
@@ -144,10 +144,10 @@ The idiom of line charts augments dot charts with line connection marks running 
 
 <table><tr><td>Idiom</td><td>Dot Charts</td></tr><tr><td>What: Data</td><td>Table: one quantitative value attribute, one ordered key attribute.</td></tr><tr><td>How: Encode</td><td>Express value attribute with aligned vertical position and point marks. Separate/order into horizontal regions by key attribute.</td></tr></table>
 
-![](images/dbcfa39d978dab7e8c3a94235aa70cda5a7166c84ca3ace989712a52c661e2bc.jpg)  
+![](images/dbcfa39d978dab7e8c3a94235aa70cda5a7166c84ca3ace989712a52c661e2bc.webp)  
 (a)
 
-![](images/709519fce29715e5ffd6eecaefa618ad5b1ab8ce1c5358405c149e2adbdd3600.jpg)  
+![](images/709519fce29715e5ffd6eecaefa618ad5b1ab8ce1c5358405c149e2adbdd3600.webp)  
 (b)   
 Figure 7.8. Line charts versus dot charts. (a) Dot charts use a point mark to show the value for each item. (b) Line charts use point marks connected by lines between them.
 
@@ -159,13 +159,13 @@ Line charts should be used for ordered keys but not categorical keys. A line cha
 
 When designing a line chart, an important question to consider is its aspect ratio: the ratio of width to height of the entire plot. While many standard charting packages simply use a square or some other fixed size, in many cases this default choice hides dataset structure. The relevant perceptual principle is that our ability to judge angles is more accurate at exact diagonals than at arbitrary directions. We can easily tell that an angle like $4 3 ^ { \circ }$ is off from the exact $4 5 ^ { \circ }$ diagonal, whereas we cannot tell $2 0 ^ { \circ }$ from $2 2 ^ { \circ }$ . The
 
-![](images/f58039224a6842f0ade0445a32b18c832ccfe2a6dc0180d258429529afe078d9.jpg)
+![](images/f58039224a6842f0ade0445a32b18c832ccfe2a6dc0180d258429529afe078d9.webp)
 
-![](images/be253f1727129f6ddbdd69d45db08e2ab5d3505a0441768f6696c0de38ceccb2.jpg)
+![](images/be253f1727129f6ddbdd69d45db08e2ab5d3505a0441768f6696c0de38ceccb2.webp)
 
-![](images/149c1ef90c533d7f798115068978483912f20dda443167f31e1e08879cd3a487.jpg)
+![](images/149c1ef90c533d7f798115068978483912f20dda443167f31e1e08879cd3a487.webp)
 
-![](images/fd64d77b68689db18dafdef650bdd9a2b6ae76b18ab1e4e7a7287b722ef7fcb2.jpg)  
+![](images/fd64d77b68689db18dafdef650bdd9a2b6ae76b18ab1e4e7a7287b722ef7fcb2.webp)  
 Figure 7.9. Bar charts and line charts both encode a single attribute. Bar charts encourage discrete comparisons, while line graphs encourage trend assessments. Line charts should not be used for categorical data, as in the upper right, because their implications are misleading. After [Zacks and Tversky 99, Figure 2].
 
 idiom of banking to $4 5 ^ { \circ }$ computes the best aspect ratio for a chart in order to maximize the number of line segments that fall close to the diagonal. Multiscale banking to $4 5 ^ { \circ }$ automatically finds a set of informative aspect ratios using techniques from signal processing to analyze the line graph in the frequency domain, with the derived variable of the power spectrum. Figure 7.10 shows the classic sunspot example dataset. The aspect ratio close to 4 in Figure 7.10(a) shows the classic low-frequency oscillations in the maximum values of each sunspot cycle. The aspect ratio close to 22 in Figure 7.10(b) shows that many cycles have a steep onset followed by a more gradual decay. The blue line graphs the data itself, while the red line is the derived locally weighted regression line showing the trend.
@@ -174,10 +174,10 @@ idiom of banking to $4 5 ^ { \circ }$ computes the best aspect ratio for a chart
 
 Datasets with two keys are often arranged in a two-dimensional matrix alignment where one key is distributed along the rows and
 
-![](images/8b3ede83258035c6a37a39da6ef08616019b162d0517cd6ad40db35b985db183.jpg)  
+![](images/8b3ede83258035c6a37a39da6ef08616019b162d0517cd6ad40db35b985db183.webp)  
 (a)
 
-![](images/647afda8cdc8b5264c43479a074033b50dc8dd7349ac3e22fd2fbe4b68f40710.jpg)  
+![](images/647afda8cdc8b5264c43479a074033b50dc8dd7349ac3e22fd2fbe4b68f40710.webp)  
 (b)   
 Figure 7.10. Sunspot cycles. The multiscale banking to $4 5 ^ { \circ }$ idiom exploits our orientation resolution accuracy at the diagonal. (a) An aspect ratio close to 4 emphasizes low-frequency structure. (b) An aspect ratio close to 22 shows higherfrequency structure: cycle onset is mostly steeper than the decay. From [Heer and Agrawala 06, Figure 5].
 
@@ -191,7 +191,7 @@ The benefit of heatmaps is that visually encoding quantitative data with color u
 
 See Section 10.3 for more on colormap design and Section 10.3.4 for the particular problem of colorblind-safe design.
 
-![](images/bd59e24cd8b628cc84a35cb813f9f2740876fd30ee208432d4e1f63433788df7.jpg)  
+![](images/bd59e24cd8b628cc84a35cb813f9f2740876fd30ee208432d4e1f63433788df7.webp)  
 Figure 7.11. Cluster heatmap. A heatmap provides a compact summary of a quantitative value attribute with 2D matrix alignment by two key attributes and small area marks colored with a diverging colormap. The cluster heatmap includes trees drawn on the periphery showing how the matrix is ordered according to the derived data of hierarchical clusterings on its rows and columns.
 
 providing overviews with high information density. The area marks in a heatmap are often several pixels on a side for easy distinguishability, so a matrix of $2 0 0 ~ \times ~ 2 0 0$ with 40,000 items is easily handled. The limit is area marks of a single pixel, for a dense heatmap showing one million items. Thus, the scalability limits are hundreds of levels for each of the two categorical key attributes. In contrast, only a small number of different levels of the quantitative attribute can be distinguishable, because of the limits on color perception in small noncontiguous regions: between 3 and 11 bins.2
@@ -263,9 +263,9 @@ The issue of separable versus integral channels is covered in Section 5.5.3.
 
 <table><tr><td colspan="4">Table</td></tr><tr><td>Math</td><td>Physics</td><td>Dance</td><td>Drama</td></tr><tr><td>85</td><td>95</td><td>70</td><td>65</td></tr><tr><td>90</td><td>80</td><td>60</td><td>50</td></tr><tr><td>65</td><td>50</td><td>90</td><td>90</td></tr><tr><td>50</td><td>40</td><td>95</td><td>80</td></tr><tr><td>40</td><td>60</td><td>80</td><td>90</td></tr></table>
 
-![](images/d5fa3602662d72146964ad0732e3faa25a1bf81669ea5ebe1a70531e23901b9a.jpg)
+![](images/d5fa3602662d72146964ad0732e3faa25a1bf81669ea5ebe1a70531e23901b9a.webp)
 
-![](images/376437371ea3a89ac093016d0bc16f06b8f443189ee51471eedabc2d5f35a055.jpg)  
+![](images/376437371ea3a89ac093016d0bc16f06b8f443189ee51471eedabc2d5f35a055.webp)  
 Figure 7.12. Comparison of scatterplot matrix and parallel coordinate idioms for a small data table. After [McGuffin 14].
 
 upward for positive correlation and downward for negative correlation. If the attributes are not correlated, the points fall throughout the twodimensional region rather than tightly along the diagonal. With parallel coordinates, correlation is also visible, but through different kinds of visual patterns, as illustrated in Figure 7.13. If two neighboring axes have high positive correlation, the line segments are mostly parallel. If two axes have high negative correlation, the line segments mostly cross over each other at a single spot between the axes. The pattern in between uncorrelated axes is a mix of crossing angles.
@@ -274,7 +274,7 @@ However, in practice, SPLOMs are typically easier to use for the task of finding
 
 Parallel coordinates visually encode data using two dimensions of spatial position. Of course, any individual axis requires only one spatial dimension, but the second dimension is used to lay out multiple axes. The scalability is high in terms of the number of quantitative attribute values that can be discriminated, since the high-precision channel of planar spatial position is used. The exact number is roughly proportional to the screen space extent of the axes, in pixels. The scalability is moderate in
 
-![](images/69b32066e5bba24b99159f2f3150d39ad4ad875551f5c53abd1ab566da2edd11.jpg)  
+![](images/69b32066e5bba24b99159f2f3150d39ad4ad875551f5c53abd1ab566da2edd11.webp)  
 Figure 7.13. Parallel coordinates were designed to show correlation between neighboring axes. At the top, parallel lines show perfect positive correlation. At the bottom, all of the lines cross over each other at a single spot in between the two axes, showing perfect negative correlation. In the middle, the mix of crossings shows uncorrelated data. From [Wegman 90, Figure 3].
 
 terms of number of attributes that can be displayed: dozens is common. As the number of attributes shown increases, so does the width required to display them, so a parallel coordinates display showing many attributes is typically a wide and flat rectangle. Assuming that the axes are vertical, then the amount of vertical screen space required to distinguish position along them does not change, but the amount of horizontal screen space increases as more axes are added. One limit is that there must be enough room between the axes to discern the patterns of intersection or parallelism of the line segments that pass between them.
@@ -285,9 +285,9 @@ The patterns made easily visible by parallel coordinates have to do with the pai
 
 Section 13.4.1 covers scaling to larger datasets with hierarchical parallel coordinates.
 
-![](images/ac44ddf03246d63c3198a5e196c1cfabfa74ed8848d19cac313d08e2f15ed497.jpg)
+![](images/ac44ddf03246d63c3198a5e196c1cfabfa74ed8848d19cac313d08e2f15ed497.webp)
 
-![](images/cba937af3f6d9d87e5ed5fc564d5232fe105b4858126eeed69f502adcd90f2c8.jpg)  
+![](images/cba937af3f6d9d87e5ed5fc564d5232fe105b4858126eeed69f502adcd90f2c8.webp)  
   
 Figure 7.14. Parallel coordinates scale to dozens of attributes and hundreds of items, but not to thousands of items. (a) Effective use with 13 items and 7 attributes. (b) Ineffective use with over 16,000 items and 5 attributes. From [Fua et al. 99, Figures 1 and 2].
 
@@ -310,13 +310,13 @@ However, from a perceptual point of view, rectilinear and radial layouts are not
 
 * In mathematical language, the angle channel is nonmonotonic.
 
-![](images/c41cfd15cfcaafbfc037f3ff7517d3dbb432b9dc559ba35e8668cf113e5a5fed.jpg)  
+![](images/c41cfd15cfcaafbfc037f3ff7517d3dbb432b9dc559ba35e8668cf113e5a5fed.webp)  
 (a)
 
-![](images/1afc5997d816d40fa37e1454438ca60faeb2e51eaf0baec911bc3c431cacded4.jpg)  
+![](images/1afc5997d816d40fa37e1454438ca60faeb2e51eaf0baec911bc3c431cacded4.webp)  
 (b)
 
-![](images/a08b075fbd52439546cbd889c78ba6ebced8f632aa9b005c0c13a87c8f2e9ff6.jpg)  
+![](images/a08b075fbd52439546cbd889c78ba6ebced8f632aa9b005c0c13a87c8f2e9ff6.webp)  
 (c)   
 Figure 7.15. Layout coordinate systems. (a) Radial layouts use polar coordinates, with one spatial position and one angle channel. (b) Rectlinear layouts use two perpendicular spatial position channels. After [Wickham 10, Figure 8]. (c) Transforming rectilinear to radial layouts maps two parallel bounding lines to a point at the center and a circle at the perimeter.
 
@@ -326,9 +326,9 @@ may be misleading. Radial layouts imply an asymmetry of importance between the t
 
 The same five-attribute dataset is encoded with a rectilinear bar chart in Figure 7.16(a) and with a radial alternative in Figure 7.16(b). In both cases, line marks are used to encode a quantitative attribute with the length channel, and the only difference is the radial versus the rectilinear orientation of the axes.
 
-![](images/3e00cf249c52c1217625c0626f41ba223674d6bafa15fdea58c64f887296a531.jpg)
+![](images/3e00cf249c52c1217625c0626f41ba223674d6bafa15fdea58c64f887296a531.webp)
 
-![](images/3fd1c23a365217a7cf5badd1e7f77c4505f04ec4b930862ed8ba9dc07fd7226d.jpg)  
+![](images/3fd1c23a365217a7cf5badd1e7f77c4505f04ec4b930862ed8ba9dc07fd7226d.webp)  
   
 Figure 7.16. Radial versus rectilinear layouts. (a) Rectilinear bar chart. (b) Radial bar chart. After [Booshehrian et al. 11, Figure 4].
 
@@ -338,19 +338,19 @@ Figure 7.16. Radial versus rectilinear layouts. (a) Rectilinear bar chart. (b) R
 
 The most commonly used radial statistical graphic is the pie chart, shown in Figure 7.17(a). Pie charts encode a single attribute with area marks and the angle channel. Despite their popularity, pie charts are clearly problematic when considered according to the visual channel properties discussed in Section 5.5. Angle judgements on area marks are less accurate than length judgements on line marks. The wedges vary in width along the radial axis, from narrow near the center to wide near the outside, making the area judgement particularly difficult. Figure 7.17(b) shows a bar chart with the same data, where the perceptual judgement required to read the data is the high-accuracy position along a common scale channel. Figure 7.17(c) shows a third radial chart that is a more direct equivalent of a bar chart transformed into polar coordinates. The polar area chart also encodes a single quantitative attribute but varies the length of the wedge just as a bar chart varies the length of the bar, rather than varying the angle as in a pie chart.* The data in Figure 7.17 shows the clarity distribution of diamonds, where I1 is worst and $I F$ is best. These instances redundantly encode each mark with color for easier legibility, but these idioms could be used without color coding.
 
-![](images/4a9b7cc1c7ae1b6fe78d5ddea019cbe1750b940408fe2417ef80694f5816d98c.jpg)  
+![](images/4a9b7cc1c7ae1b6fe78d5ddea019cbe1750b940408fe2417ef80694f5816d98c.webp)  
 * Synonyms for polar area chart are rose plot and coxcomb plot; these were first popularized by Florence Nightingale in the 19th century in her analysis of Crimean war medical data.
 
-![](images/768c063235c3ba3497645982a2f3e09e7d21e1cba380a66a29c7ba15ff37840c.jpg)
+![](images/768c063235c3ba3497645982a2f3e09e7d21e1cba380a66a29c7ba15ff37840c.webp)
 
-![](images/66654b314458cda32aa2080b7120bf3605a39b1f7fc0483d5977f76caea61eca.jpg)  
+![](images/66654b314458cda32aa2080b7120bf3605a39b1f7fc0483d5977f76caea61eca.webp)  
 Figure 7.17. Pie chart versus bar chart accuracy. (a) Pie charts require angle and area judgements. (b) Bar charts require only high-accuracy length judgements for individual items. (c) Polar area charts are a more direct equivalent of bar charts, where the length of each wedge varies like the length of each bar. From [Wickham 10, Figures 15 and 16].
 
-![](images/b0db9051cddd8e14fe9cf1302bbb6dee419132a93a924902f1bdf1cc8abbf81d.jpg)
+![](images/b0db9051cddd8e14fe9cf1302bbb6dee419132a93a924902f1bdf1cc8abbf81d.webp)
 
-![](images/db8ef50380ef938ba17e116b126ad428c6f05c94717e638cc095e3211fe587f9.jpg)
+![](images/db8ef50380ef938ba17e116b126ad428c6f05c94717e638cc095e3211fe587f9.webp)
 
-![](images/e1063310a2fafec78e1437005973fc580616c36bab3b4eab3e09b3bc4a95bb98.jpg)  
+![](images/e1063310a2fafec78e1437005973fc580616c36bab3b4eab3e09b3bc4a95bb98.webp)  
 Figure 7.18. Relative contributions of parts to a whole. (a) A single pie chart shows the relative contributions of parts to a whole, such as percentages, using area judgements. (b) Each bar in a normalized stacked bar chart also shows the relative contributions of parts to a whole, with a higher-accuracy length encoding. (c) A stacked bar chart shows the absolute counts in each bar, in contrast to the percentages when each bar is normalized to the same vertical length. From http://bl.ocks.org/mbostock/3887235, http://bl.ocks.org/mbostock/3886208, http://bl.ocks. org/mbostock/3886394.
 
 The most useful property of pie charts is that they show the relative contribution of parts to a whole. The sum of the wedge angles must add up to the $3 6 0 ^ { \circ }$ of a full circle, matching normalized data such as percentages where the parts must add up to $1 0 0 \%$ . However, this property is not unique to pie charts; a single bar in a normalized stacked bar chart can also be used to show this property with the more accurate channel of length judgements. A stacked bar chart uses a composite glyph made of stacking multiple sub-bars of different colors on top of each other; a normalized stacked bar chart stretches each of these bars to the maximum possible length, showing percentages rather than absolute counts. Only the lowest sub-bar in a stacked bar chart is aligned with the others in its category, allowing the very highest accuracy channel of position with respect to a common frame to be used. The other sub-bars use unaligned position, a channel that is less accurate than aligned position, but still more accurate than angle comparisons.
@@ -367,10 +367,10 @@ Figure 7.19 compares rectilinear and radial layouts for 12 iconic time-series da
 
 A first empirical study on radial versus rectilinear grid layouts by Diehl et al. focused on the abstract task of memorizing positions of objects for a few seconds [Diehl et al. 10]. They compared performance in terms of accuracy and speed for rectilinear grids of rows and columns versus radial grids of sectors and rows. (The study did not investigate the effect of periodicity.) In general, rectilinear
 
-![](images/31905a549e7f36254dc13272f815d7e8ee3c28cda4132bd4b657f065e85ecce0.jpg)  
+![](images/31905a549e7f36254dc13272f815d7e8ee3c28cda4132bd4b657f065e85ecce0.webp)  
 (a)
 
-![](images/e128a5c40c4bfdae53582fcd36b94d4e5e4aa888e981a6c1dac269092af65644.jpg)  
+![](images/e128a5c40c4bfdae53582fcd36b94d4e5e4aa888e981a6c1dac269092af65644.webp)  
 (b)   
 Figure 7.19. Glyphmaps. (a) Rectilinear layouts are more effective at showing the differences between linear and nonlinear trends. (b) Radial layouts are more effective at showing cyclic patterns. From [Wickham et al. 12, Figure 3].
 
@@ -396,7 +396,7 @@ Most of the screen is devoted to a large and dense overview of source code using
 
 The dataset used by Tarantula is an interesting complex combination of the software source code, the test results, and derived data. The original dataset is the software source code itself. Software code is highly structured text that is divided into numbered lines and has multiscale hierarchical structure with divisions into units such as packages, files, and methods. Most complex tasks in the software engineering domain require reading snippets of code line by line in the order that they were written by the programmer as a subtask, so changing or ignoring the order of lines within a method would not be an appropriate transformation. However, it’s common with software engineering tasks that only a small number of the many units in a software project need to be read at any given time.
 
-![](images/833ed4675dbfd8e6f228212bec9708f3e4d0e42d8118674250703558ab73e0b6.jpg)  
+![](images/833ed4675dbfd8e6f228212bec9708f3e4d0e42d8118674250703558ab73e0b6.webp)  
 Figure 7.20. Tarantula shows a dense overview of source code with lines color coded by execution status of a software test suite. From [Jones et al. 02, Figure 4].
 
 The design choice of a dense overview to provide orientation and a detail view where a small amount of text is shown legibly is thus reasonable.
@@ -447,7 +447,7 @@ Radial Layouts Radial layouts were characterized through empirical user studies 
 
 Dense Layouts Dense layouts have been explored extensively for many datatypes [Keim 00]. The SeeSoft system was an early dense layout for text and source code [Eick et al. 92]; Tarantula is a later system using that design choice [Jones et al. 02].
 
-![](images/a1799096d720a07cf9320c5b8f0ce17daa5bc4e9349f64988c3f938dbe2b6553.jpg)
+![](images/a1799096d720a07cf9320c5b8f0ce17daa5bc4e9349f64988c3f938dbe2b6553.webp)
 
 #
 
@@ -474,9 +474,9 @@ Geometric (sparse seeds)
 Tex tures (dense seeds)   
 Features (globally derived)
 
-![](images/b40eb504efe1f1e11ae7bf19dce5d2e90bea8df77ad35daf33a600fa2ad83fa0.jpg)
+![](images/b40eb504efe1f1e11ae7bf19dce5d2e90bea8df77ad35daf33a600fa2ad83fa0.webp)
 
-![](images/cc19596cc438d0966049bcddf050c1f2bb9fba3ba02a6b070cea57c7fa208397.jpg)  
+![](images/cc19596cc438d0966049bcddf050c1f2bb9fba3ba02a6b070cea57c7fa208397.webp)  
 Figure 8.1. Design choices for using given spatial data: geometry or spatial fields.
 
 r↑↑↑ス  

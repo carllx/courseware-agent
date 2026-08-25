@@ -26,9 +26,9 @@ looking at them.
 How are you supposed to make a confident decision if none of these would
 really be bad choices?
 
-![](images/index-29_1.png)
+![](images/index-29_1.webp)
 
-![](images/index-29_2.png)
+![](images/index-29_2.webp)
 
 29
 
@@ -48,9 +48,9 @@ perfect.
 Define a restrictive type scale in advance and use that to make any
 future font size decisions.
 
-![](images/index-30_1.png)
+![](images/index-30_1.webp)
 
-![](images/index-30_2.png)
+![](images/index-30_2.webp)
 
 Limit your choices
 
@@ -78,7 +78,7 @@ Chances are, two of those options will seem like *obviously* bad
 choices. If it’s the options on the outside, you’re done — the middle
 option is the only good choice.
 
-![](images/index-31_1.png)
+![](images/index-31_1.webp)
 
 31
 

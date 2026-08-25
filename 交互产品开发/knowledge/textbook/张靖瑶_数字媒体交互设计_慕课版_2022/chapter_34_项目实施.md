@@ -16,7 +16,7 @@
 
 对于一款美食小吃类App产品，用户行为应该是这样的，浏览美食→确认下单→等待送达（催单、退单）→订单送达（评价），这为我们界面的构成提供了设计的基础。下面进行App的UI设计。
 
-![](images/EPUB/images/image_180.jpg)
+![](images/EPUB/images/image_180.webp)
 
 图3-66 主流外卖App首页
 
@@ -26,7 +26,7 @@
 
 颜色上以红色、黄色、白色为主，这几种颜色具有动力、刺激、欢庆、幸福等氛围，可以给用户传递购买的欲望，如图3-67所示。
 
-![](images/EPUB/images/image_181.jpg)
+![](images/EPUB/images/image_181.webp)
 
 图3-67 界面风格
 
@@ -46,7 +46,7 @@
 
 ④ 会员页：主要展示优惠、跨店红包领取、开通会员等信息，如图3-69所示。
 
-![](images/EPUB/images/image_182.jpg)
+![](images/EPUB/images/image_182.webp)
 
 图3-68 界面构成
 
@@ -54,15 +54,15 @@
 
 ⑥ 我的页面：展示个人信息设置、常用功能分类、购物车、评价等信息，如图3-71所示。
 
-![](images/EPUB/images/image_183.jpg)
+![](images/EPUB/images/image_183.webp)
 
 ▲图3-69 会员页
 
-![](images/EPUB/images/image_184.jpg)
+![](images/EPUB/images/image_184.webp)
 
 ▲图3-70 订单页
 
-![](images/EPUB/images/image_185.jpg)
+![](images/EPUB/images/image_185.webp)
 
 图3-71 个人中心页
 
@@ -76,21 +76,21 @@
 
 ③ 布局上，页面侧重表现图片的冲击力，因此页面内容区域的比例比较大，外边距数值设置为48px，通过留白来产生视觉层次关系，给予内容充足的空间，提升整齐度，如图3-73所示。
 
-![](images/EPUB/images/image_186.jpg)
+![](images/EPUB/images/image_186.webp)
 
 ▲图3-72 设置字体的粗细及字重
 
-![](images/EPUB/images/image_187.jpg)
+![](images/EPUB/images/image_187.webp)
 
 图3-73 外边距设置
 
 ④ 版式设计上首页采用了卡片式布局，可以在同一页面展示不同内容，内容间相互独立；订单页采用列表式布局，便于在屏幕中展示多条订单信息，可通过上下滑动来进行查看，如图3-74和图3-75所示。
 
-![](images/EPUB/images/image_188.jpg)
+![](images/EPUB/images/image_188.webp)
 
 ▲图3-74 卡片式布局
 
-![](images/EPUB/images/image_189.jpg)
+![](images/EPUB/images/image_189.webp)
 
 图3-75 列表式布局
 
@@ -104,19 +104,19 @@
 
 在适配界面前，我们先了解什么是@2x、@3x，如图3-76所示。
 
-![](images/EPUB/images/image_190.jpg)
+![](images/EPUB/images/image_190.webp)
 
 图3-76 @2x、@3x
 
 @2x、@3x可以简单地理解为倍数关系，如果使用750px×1334px（iPhone 6/7/8）尺寸做设计稿（其他尺寸可参见前面的介绍），那么切片输出就是@2x，缩小2倍就是@1x，扩大1.5倍就是@3x，如图3-77所示。
 
-![](images/EPUB/images/image_191.jpg)
+![](images/EPUB/images/image_191.webp)
 
 图3-77 iPhone倍数转换
 
 iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/8）、1242px×2208px（@3x）（iPhone 6s/7/8 Plus及以上机型）、1125px×2436px（@3x）/750px×1624px（@2x）（iPhone X）。在设计中，设计师需要设计一套基准设计图来达到适配多个分辨率的目的，我们可以选择中间尺寸750px×1334px作为基准，向下适配640px×1136px，向上适配1242px×2208px和750px×1624px/1125px×2436px，如图3-78所示。
 
-![](images/EPUB/images/image_192.jpg)
+![](images/EPUB/images/image_192.webp)
 
 图3-78 基准适配
 
@@ -126,7 +126,7 @@ iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/
 
 微课视频
 
-![](images/EPUB/images/image_193.jpg)
+![](images/EPUB/images/image_193.webp)
 
 #### 切图
 
@@ -134,11 +134,11 @@ iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/
 
 通常我们只需要对图标进行切图，文字、线条和一些标准的几何形状是不需要切图的。例如搜索框，只需要在标注中描述它的尺寸、圆角大小、背景色值、不透明度即可，开发工程师可以用代码实现这种效果，如图3-79和图3-80所示。
 
-![](images/EPUB/images/image_194.jpg)
+![](images/EPUB/images/image_194.webp)
 
 ▲图3-79 切图
 
-![](images/EPUB/images/image_195.jpg)
+![](images/EPUB/images/image_195.webp)
 
 图3-80 标注
 
@@ -146,7 +146,7 @@ iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/
 
 微课视频
 
-![](images/EPUB/images/image_196.jpg)
+![](images/EPUB/images/image_196.webp)
 
 尺寸标注插件
 
@@ -156,13 +156,13 @@ iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/
 
 ① 切图资源尺寸为双数，这样保证切图资源在工程师开发时是高清显示。因为1px是智能手机能够识别的最小单位，换句话说就是1px不能在智能手机中被分为两份。所以如果是单数切图的话，手机系统就会自动拉伸切图元素，从而导致切图元素边缘模糊，造成开发出来的App界面效果与原设计效果相差甚远，如图3-81所示。
 
-![](images/EPUB/images/image_197.jpg)
+![](images/EPUB/images/image_197.webp)
 
 图3-81 切图资源尺寸为双数
 
 ② 同一模块内，切图大小应保持一致，如图3-82所示。
 
-![](images/EPUB/images/image_198.jpg)
+![](images/EPUB/images/image_198.webp)
 
 图3-82 切图大小一致
 
@@ -180,7 +180,7 @@ iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/
 
 例如搜索框，只需要在标注中标明尺寸大小、圆角大小、描边粗细、色值即可，开发工程师会根据设计效果通过代码来实现，如图3-83所示。
 
-![](images/EPUB/images/image_199.jpg)
+![](images/EPUB/images/image_199.webp)
 
 图3-83 搜索框不需要切图
 
@@ -188,13 +188,13 @@ iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/
 
 在工作中对图标的命名规范、有良好习惯是很重要的，便于平面设计师与原型开发人员进行交接，图片的名称中尽量不要有中文、特殊符号以及空格，使用下划线进行连接。
 
-建议切图名称：页面（类别）\_功能_状态.png。
+建议切图名称：页面（类别）\_功能_状态.webp。
 
-举例：button_search_default@2x.png（对应中文：按钮_搜索_默认@2x.png)。
+举例：button_search_default@2x.webp（对应中文：按钮_搜索_默认@2x.webp)。
 
 登录界面的命名如图3-84所示。常用切图命名图表见附录。
 
-![](images/EPUB/images/image_200.jpg)
+![](images/EPUB/images/image_200.webp)
 
 图3-84 登录界面的命名
 
@@ -202,7 +202,7 @@ iOS现行主流设备的分辨率分别是750px×1334px（@2x）（iPhone 6s/7/
 
 使用Cutterman，只需要单击“导出选中图层”按钮，选中的图标就会根据我们的需要自动输出为不同倍数的图片；同时需要设定图片的输出路径，如图3-85所示。
 
-![](images/EPUB/images/image_201.jpg)
+![](images/EPUB/images/image_201.webp)
 
 图3-85 一键导出
 
@@ -214,11 +214,11 @@ Cutterman输出支持iOS平台的@1x、@2x、@3x，如图3-86所示。
 
 Cutterman输出支持Android平台的多种主流分辨率大小图片，如XXXHPDI、XXHPDI、XHDPI、HDPI、MDPI等，如图3-87所示。
 
-![](images/EPUB/images/image_202.jpg)
+![](images/EPUB/images/image_202.webp)
 
 ▲图3-86 支持iOS平台
 
-![](images/EPUB/images/image_203.jpg)
+![](images/EPUB/images/image_203.webp)
 
 图3-87 支持Android平台
 
@@ -228,7 +228,7 @@ Android手机的尺寸非常多，且不统一，总的来说分为LDPI、MDPI�
 
 设计师一般以720px×1280px做设计图，如图3-88所示。
 
-![](images/EPUB/images/image_204.jpg)
+![](images/EPUB/images/image_204.webp)
 
 图3-88 Android平台对应的屏幕密度
 
@@ -242,11 +242,11 @@ Android设计时使用sp作为字体单位，如在PPI=160、字体大小为100%
 
 sp和px的换算公式：sp×PPI/160 = px,sp = px/（PPI/160），对应的单位换算如图3-90所示。
 
-![](images/EPUB/images/image_205.jpg)
+![](images/EPUB/images/image_205.webp)
 
 ▲图3-89 Android平台需要切图的套数
 
-![](images/EPUB/images/image_206.jpg)
+![](images/EPUB/images/image_206.webp)
 
 图3-90 Android平台不同密度对应的文字单位换算
 
@@ -254,7 +254,7 @@ sp和px的换算公式：sp×PPI/160 = px,sp = px/（PPI/160），对应的�
 
 设计师在作图时一般以iPhone 6（750px×1334px）为标准进行界面设计，让开发进行适配。原因是向上和向下适配的时候界面调整的幅度最小，最方便适配，图3-91所示提供了iOS平台手机的主要型号对应的切图倍数。
 
-![](images/EPUB/images/image_207.jpg)
+![](images/EPUB/images/image_207.webp)
 
 图3-91 iOS平台手机型号对应切图倍数
 
@@ -264,7 +264,7 @@ sp和px的换算公式：sp×PPI/160 = px,sp = px/（PPI/160），对应的�
 
 当界面设计定稿之后，设计师需要对界面进行标注，以供开发工程师在还原界面时作为参考。在一份设计稿中需要标注的内容是文字的字号大小、粗细、颜色、不透明度、色值，界面的背景颜色、不透明度，以及各个图标、列表、文字之间的间距，如图3-92所示。
 
-![](images/EPUB/images/image_208.jpg)
+![](images/EPUB/images/image_208.webp)
 
 图3-92 界面的标注
 
@@ -276,25 +276,25 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 给项目命名，如图3-95所示，平台选择“iOS”，单击“创建项目”按钮后，就可以将需要标注的PSD设计稿导入软件中，如图3-96所示。
 
-![](images/EPUB/images/image_209.jpg)
+![](images/EPUB/images/image_209.webp)
 
 ▲图3-93 操作界面
 
-![](images/EPUB/images/image_210.jpg)
+![](images/EPUB/images/image_210.webp)
 
 ▲图3-94 项目列表界面
 
-![](images/EPUB/images/image_211.jpg)
+![](images/EPUB/images/image_211.webp)
 
 ▲图3-95 创建项目
 
-![](images/EPUB/images/image_212.jpg)
+![](images/EPUB/images/image_212.webp)
 
 图3-96 导入设计稿
 
 导入设计稿后，进入操作界面，如图3-97所示，软件的标注分为“设计”和“开发”模式。
 
-![](images/EPUB/images/image_213.jpg)
+![](images/EPUB/images/image_213.webp)
 
 图3-97 操作界面
 
@@ -306,7 +306,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 ● Web类型：支持px、rem、vw/vh和rpx这4种单位切换，以及1x和2x之间的分辨率切换，如图3-98所示。
 
-![](images/EPUB/images/image_214.jpg)
+![](images/EPUB/images/image_214.webp)
 
 图3-98 不同设备对应的单位类型
 
@@ -322,7 +322,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为数字键“1”。可以选中设计稿中需要标注的元素，并单击智能标注中对应的工具生成尺寸标注，如图3-99所示。
 
-![](images/EPUB/images/image_215.jpg)
+![](images/EPUB/images/image_215.webp)
 
 图3-99 尺寸标注
 
@@ -330,7 +330,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为数字键“2”。选中设计稿中的文字元素，并单击智能标注中对应的工具生成文本样式标注，如图3-100所示。
 
-![](images/EPUB/images/image_216.jpg)
+![](images/EPUB/images/image_216.webp)
 
 图3-100 文本样式标注
 
@@ -340,7 +340,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为数字键“3”。选中设计稿中的图片元素，并单击智能标注中对应的工具来生成区域标注，如图3-101所示。
 
-![](images/EPUB/images/image_217.jpg)
+![](images/EPUB/images/image_217.webp)
 
 图3-101 区域标注
 
@@ -348,7 +348,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为数字键“4”。按Ctrl/CMD键的同时选中设计稿中两个嵌套的元素，并单击智能标注中对应的工具生成内间距标注，如图3-102所示。
 
-![](images/EPUB/images/image_218.jpg)
+![](images/EPUB/images/image_218.webp)
 
 图3-102 内间距标注
 
@@ -364,11 +364,11 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为“V”。此工具可以选择我们已经创建的标注信息，选择标注之后可以通过软件的顶栏修改标注的属性，如图3-104所示。
 
-![](images/EPUB/images/image_219.jpg)
+![](images/EPUB/images/image_219.webp)
 
 ▲图3-103 样式标注
 
-![](images/EPUB/images/image_220.jpg)
+![](images/EPUB/images/image_220.webp)
 
 图3-104 选择工具
 
@@ -376,7 +376,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为“R”。创建一个距离标注，顶栏会显示图3-105所示的属性设置，可以修改距离标注的颜色，以及距离文本所在的位置。
 
-![](images/EPUB/images/image_221.jpg)
+![](images/EPUB/images/image_221.webp)
 
 图3-105 距离标注
 
@@ -384,7 +384,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为“M”。创建一个区域标注，顶栏会显示图3-106所示的属性设置，可以修改区域标注的颜色、是否显示距离标签，以及距离标签的位置。
 
-![](images/EPUB/images/image_222.jpg)
+![](images/EPUB/images/image_222.webp)
 
 图3-106 区域标注
 
@@ -392,7 +392,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为“C”。创建一个颜色标注，顶栏会显示图3-107所示的属性设置，可以修改标注的颜色。
 
-![](images/EPUB/images/image_223.jpg)
+![](images/EPUB/images/image_223.webp)
 
 图3-107 颜色标注
 
@@ -400,7 +400,7 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为“T”。使用该工具可创建一个可输入文本的文字标注，如图3-108所示。
 
-![](images/EPUB/images/image_224.jpg)
+![](images/EPUB/images/image_224.webp)
 
 图3-108 文字标注
 
@@ -408,13 +408,13 @@ Pxcook是一款连接设计师与开发者的协作工具。当软件安装完�
 
 快捷键为“P”。使用该工具可创建一个坐标点标注，标记元素的行、列起始坐标点，如图3-109所示。
 
-![](images/EPUB/images/image_225.jpg)
+![](images/EPUB/images/image_225.webp)
 
 图3-109 坐标点标注
 
-设计稿标注完成后，将文件导出为带有标注信息的“.png”格式的图片，或者保存为“.pxcp”格式的标注文件，如图3-110所示。
+设计稿标注完成后，将文件导出为带有标注信息的“.webp”格式的图片，或者保存为“.pxcp”格式的标注文件，如图3-110所示。
 
-![](images/EPUB/images/image_226.jpg)
+![](images/EPUB/images/image_226.webp)
 
 图3-110 导出标注文件
 
@@ -430,13 +430,13 @@ App交互设计中，很多设计师都会采用动态效果来吸引用户的�
 
 打开Photoshop，选择菜单栏中的“图像→图像大小”，快捷键是Ctrl+Alt+I，即可打开“图像大小”对话框，输入我们需要的大小即可，如图3-111所示。
 
-![](images/EPUB/images/image_227.jpg)
+![](images/EPUB/images/image_227.webp)
 
 ▲图3-111 调整图像大小
 
 ▼微课视频
 
-![](images/EPUB/images/image_228.jpg)
+![](images/EPUB/images/image_228.webp)
 
 App动态元素的几种优化设置
 
@@ -444,7 +444,7 @@ App动态元素的几种优化设置
 
 删掉重复帧，只留关键帧，通过增加关键帧的延迟时间，保持动画的节奏，因为每一帧都占用着GIF动图的大小，所以帧越少文件也就越小，如图3-112所示。
 
-![](images/EPUB/images/image_229.jpg)
+![](images/EPUB/images/image_229.webp)
 
 图3-112 减少帧数
 
@@ -456,15 +456,15 @@ App动态元素的几种优化设置
 
 可通过调整色彩损耗值来缩小GIF文件的大小，调整损耗值前后该GIF文件大小的对比如图3-115所示。
 
-![](images/EPUB/images/image_230.jpg)
+![](images/EPUB/images/image_230.webp)
 
 ▲图3-113 打开“存储为Web所用格式”对话框
 
-![](images/EPUB/images/image_231.jpg)
+![](images/EPUB/images/image_231.webp)
 
 ▲图3-114 减少颜色数
 
-![](images/EPUB/images/image_232.jpg)
+![](images/EPUB/images/image_232.webp)
 
 图3-115 调整色彩损耗值
 
@@ -472,7 +472,7 @@ App动态元素的几种优化设置
 
 单击“存储为Web所用格式”对话框右上角的上下文菜单，然后选择“优化文件大小”命令，在弹出的对话框中输入我们的文件大小需求即可，如图3-116所示。
 
-![](images/EPUB/images/image_233.jpg)
+![](images/EPUB/images/image_233.webp)
 
 图3-116 优化文件大小
 

@@ -236,17 +236,17 @@ to think about seminal issues. The goal is for readers to understand�
 
 This book is accompanied by a website (www.id-book.com), which provides a variety of resources,  including  slides  for  each  chapter, comments  on  chapter  activities,  and  other resources written by researchers and designers. There are video interviews with a wide range of experts from the field, including professional interaction designers and university professors. We selected people to interview who cover different topics, and we deliberately selected a range of people, from gurus in the field to newly established researchers and professionals. Pointers to respected blogs, online tutorials, YouTube videos, and other useful materials are also provided.
 
-![](images/fa55d323c213f9683b9ab3e3d90e25fe2fd3c589fd207ebb25e097414d6fb896.jpg)
+![](images/fa55d323c213f9683b9ab3e3d90e25fe2fd3c589fd207ebb25e097414d6fb896.webp)
 
-![](images/b292a79b6744de5af0e773328a32fa8a306c174eab75243cbf9ee2a737c3e4a0.jpg)
+![](images/b292a79b6744de5af0e773328a32fa8a306c174eab75243cbf9ee2a737c3e4a0.webp)
 
-![](images/45dcf400e6c96b3cf16e5f4a9e39bd9e32693ac14710e18a7d03474361806485.jpg)
+![](images/45dcf400e6c96b3cf16e5f4a9e39bd9e32693ac14710e18a7d03474361806485.webp)
 
-![](images/15e78f0a3f26b7881adaac1e95f249251e339b8956b81e424d79a9a0512c9a11.jpg)
+![](images/15e78f0a3f26b7881adaac1e95f249251e339b8956b81e424d79a9a0512c9a11.webp)
 
-![](images/fa8d1d02aba4bee042077a1a291d3f9cc0e8d8a0f950e6683590f64e43e64678.jpg)
+![](images/fa8d1d02aba4bee042077a1a291d3f9cc0e8d8a0f950e6683590f64e43e64678.webp)
 
-![](images/4560a726efe95cac0a2f4cdde40db36d5d9a1a46ff67aea10ee78d1c3bf4c6d7.jpg)
+![](images/4560a726efe95cac0a2f4cdde40db36d5d9a1a46ff67aea10ee78d1c3bf4c6d7.webp)
 
 # INTERACTION DESIGN
 

@@ -18,7 +18,7 @@ title: "夺回叙事权 Scrollytelling 与电影级编导"
 > *   **Layout**: `Comparison`
 > *   **Scene**: [Emotional tension: overwhelming vs guided clarity] Split view. Left: a chaotic, claustrophobic dashboard filled with complex gauges and switches. Right: a clean, minimalist vertical scrolling timeline offering breathing room. Incorporate recognizable elements like a smartphone showing a scrolling feed and a vintage gauge.
 > *   **Text**: "放弃控制权，也就放弃了注意力"
-> *   **Asset**: ![预览](assets/slides/S07_Dashboard_vs_Story.png)
+> *   **Asset**: ![预览](assets/slides/S07_Dashboard_vs_Story.webp)
 
 大众面临着两个致命门槛：陡峭的学习曲线与可怕的目标迷失。
 
@@ -51,7 +51,7 @@ title: "夺回叙事权 Scrollytelling 与电影级编导"
 > *   **Layout**: `Split`
 > *   **Scene**: [Emotional tension: precise mechanical control, satisfying progression] Left side features a prominent computer mouse scroll wheel. Right side shows an intricate mechanism of interlocking gears connected to a timeline and data charts, illustrating how scrolling physically drives the narrative forward.
 > *   **Text**: "Scrollytelling: 滚轮就是你的播放键"
-> *   **Asset**: ![预览](assets/slides/S08_Scrollytelling_Concept.png)
+> *   **Asset**: ![预览](assets/slides/S08_Scrollytelling_Concept.webp)
 
 **滚动叙事 (Scrollytelling)** 巧妙地结合了 **Scroll (滚动)** 和 **Storytelling (叙事)** 两个概念。
 
@@ -67,7 +67,7 @@ title: "夺回叙事权 Scrollytelling 与电影级编导"
 > *   **Layout**: `Diagram`
 > *   **Scene**: [Emotional tension: deceptive freedom, thrilling but restricted] A rollercoaster cart speeding along thick steel tracks. The cart has a steering wheel, representing the illusion of control, while the rigid tracks dictate the inevitable path.
 > *   **Caption**: 滚动叙事的双重隐喻：你以为你在探索，其实是被引导。
-> *   **Asset**: ![预览](assets/slides/S08b_The_Illusion_of_Control.png)
+> *   **Asset**: ![预览](assets/slides/S08b_The_Illusion_of_Control.webp)
 
 这种**"控制错觉" (Illusion of Control)** 正是滚动叙事最迷人的心理学基础。如果内容是由读者亲自拨动滚轮来"解锁"的，多巴胺系统就会给出正向反馈，让他们认为这是自己"探索"出来的洞察。
 
@@ -85,7 +85,7 @@ title: "夺回叙事权 Scrollytelling 与电影级编导"
 > *   **Layout**: `Diagram`
 > *   **Scene**: [Emotional tension: structural clarity, technological elegance] A 3D exploded isometric diagram showing three distinct layers like a sandwich. Top layer: floating white text boxes. Middle layer: a transparent glass grid equipped with glowing sensors. Bottom layer: a complex, glowing chart rendering engine.
 > *   **Text**: "架构分解：三层解耦模型"
-> *   **Asset**: ![预览](assets/slides/S09_Three_Layer_Architecture.png)
+> *   **Asset**: ![预览](assets/slides/S09_Three_Layer_Architecture.webp)
 
 #### 1.3.1 承载文本：传递解码指令的叙事层
 
@@ -97,7 +97,7 @@ title: "夺回叙事权 Scrollytelling 与电影级编导"
 > *   **Layout**: `Split`
 > *   **Scene**: [Emotional tension: vast emptiness, structured spacing] A dark mode code editor interface showing HTML code blocks. The code features glowing div tags containing text, separated by dramatically large vertical empty spaces, illustrating the concept of extreme margin spacing in web layout.
 > *   **Caption**: 叙事层本质：裹着巨大空白的文本盒子。
-> *   **Asset**: ![预览](assets/slides/S09b_Narrative_Divs.png)
+> *   **Asset**: ![预览](assets/slides/S09b_Narrative_Divs.webp)
 
 你可以想象有十块玻璃板从上到下排布，每一块写着一句话。块与块之间通常有满屏高度的透明间距。每当你向下滑动，一段新的文本块进入这片真空，再穿过屏幕，最后从顶部离开。它们本身没有任何交互能力。
 
@@ -117,7 +117,7 @@ title: "夺回叙事权 Scrollytelling 与电影级编导"
 > *   **Layout**: `Split`
 > *   **Scene**: [Emotional tension: precise timing, sharp technological boundaries] Left side: a stylized web browser window intersected by a glowing red laser threshold line. Right side: a glowing JavaScript code snippet representing a scroll trigger mechanism activating upon crossing the threshold.
 > *   **Caption**: "当文本块跨越触发线，即启动图表状态更新"
-> *   **Asset**: ![预览](assets/slides/S10_Trigger_Mechanism.png)
+> *   **Asset**: ![预览](assets/slides/S10_Trigger_Mechanism.webp)
 
 触发层是一个精密的坐标监听系统。当它检测到屏幕设定的虚拟触发线，正好碰到了"第三段解说文字（`.step-3`）"的顶部边缘时，它会立刻向底层的图表引擎发送一条明确的执行指令："调用 `setOption`，加载第三幕的数据状态。"
 
@@ -164,7 +164,7 @@ title: "夺回叙事权 Scrollytelling 与电影级编导"
 > *   **Layout**: `Split`
 > *   **Scene**: [Emotional tension: solid stability amidst flowing motion] A split screen composition. On the left, a waterfall-like blur of flowing text blocks moving vertically. On the right, a heavy, solidly anchored 3D scatter plot chart securely pinned to the background, remaining entirely static while its internal data points glow.
 > *   **Text**: "流动的文本，固定的图表"
-> *   **Asset**: ![预览](assets/slides/S11_Pinned_Architecture.png)
+> *   **Asset**: ![预览](assets/slides/S11_Pinned_Architecture.webp)
 
 为什么这种排版成为了工业界标配？
 在传统图文长网页中，读者看完文本后常需滚动回去比对数据配图。在手机端狭小屏幕上，这种"图文分离"的反复横跳会导致极高的**视觉检索成本**。一旦失去焦点，阅读心流就会被打断。
@@ -200,7 +200,7 @@ Pinned 架构底层通过 CSS 的 **`position: sticky`** 属性实现。**就像
 > *   **Slide**: `S12_Interaction_Fatigue`
 > *   **Layout**: `Center`
 > *   **Scene**: [Emotional tension: exhaustion, cognitive drain, dramatic crash] An abstract chart resembling an ECG heartbeat monitor. The line shows initial high peaks of excitement, followed by a sudden, steep cliff-like drop into a flatline abyss, representing severe interaction fatigue and loss of attention. Include a warning sign icon.
-> *   **Asset**: ![预览](assets/slides/S12_Interaction_Fatigue.png)
+> *   **Asset**: ![预览](assets/slides/S12_Interaction_Fatigue.webp)
 
 如果一部电影全片两个小时全是在打碎玻璃、全是爆炸连天没有一秒钟安静对白，这就是不入流的烂片。我们需要留白。我们需要安静的呼吸节奏。
 
@@ -214,7 +214,7 @@ Pinned 架构底层通过 CSS 的 **`position: sticky`** 属性实现。**就像
 > *   **Layout**: `Full`
 > *   **Scene**: [Emotional tension: rigorous order, calm visual clarity, soothing rhythm] A meticulously organized grid array of 50 miniature, stamp-sized line graphs. The layout is perfectly aligned like a sterile laboratory tray, replacing chaotic overlap with structured spatial repetition, creating a feeling of ultimate control.
 > *   **Text**: "Facet & Juxtapose：用空间平铺替换时间演化"
-> *   **Asset**: ![预览](assets/slides/S13_Small_Multiples.png)
+> *   **Asset**: ![预览](assets/slides/S13_Small_Multiples.webp)
 
 与其在一个坐标系里强行挤入 50 根相互交错的折线（如展示 50 个州的新冠疫情趋势），导致灾难性的**视觉遮挡 (Occlusion)**；不如直接在 Pinned 区域，并置 50 张坐标比例严格对齐的微型卡片，每张只画一条纯粹的趋势线。
 
@@ -278,7 +278,7 @@ Pinned 架构底层通过 CSS 的 **`position: sticky`** 属性实现。**就像
 > *   **Layout**: `Diagram`
 > *   **Scene**: [Emotional tension: anxious chaos vs satisfying precision] A side-by-side comparison. Left: chaotic, scattered eye-tracking paths over a delayed UI, conveying frustration. Right: a precise, sharp laser threshold line triggering an immediate, perfectly aligned data chart update, focusing attention instantly.
 > *   **Caption**: "视听同步：毫秒级响应维系认知心流"
-> *   **Asset**: ![预览](assets/slides/S11b_Sync_Precision.png)
+> *   **Asset**: ![预览](assets/slides/S11b_Sync_Precision.webp)
 
 [CASE STUDY: Bloomberg 的"What's Warming the World?" 深度解剖]
 没有任何案例比彭博社（Bloomberg）的专栏《What's Warming the World?》更能完美地诠释这套注意力工程学法则。
@@ -294,7 +294,7 @@ Pinned 架构底层通过 CSS 的 **`position: sticky`** 属性实现。**就像
 > *   **Layout**: `Split`
 > *   **Scene**: [Emotional tension: uncovering objective truth, stripping away noise] A data visualization scene. A stable baseline chart representing global temperature is fixed in the background. Subtle, flat auxiliary lines representing orbital and solar variations are overlaid, creating a stark visual contrast against the sharp rising baseline.
 > *   **Text**: "用数据驳斥直觉：当变量随滚动剥落"
-> *   **Asset**: ![预览](assets/slides/S11e_Bloomberg_Orbit_Sun.png)
+> *   **Asset**: ![预览](assets/slides/S11e_Bloomberg_Orbit_Sun.webp)
 
 当这行文字越过屏幕中线（即触达 Threshold 触发线）的一瞬间，图表中立刻生发变动。一条代表地球轨道周期影响的平缓辅助线被绘制出来。通过强烈的视觉重叠对比，读者的大脑在极短时间内就能得出结论：轨道变化并非变暖元凶。无需过多文字辟谣，数据图形本身完成了自证。
 
@@ -308,7 +308,7 @@ Pinned 架构底层通过 CSS 的 **`position: sticky`** 属性实现。**就像
 > *   **Layout**: `Full`
 > *   **Scene**: [Emotional tension: undeniable proof, dramatic stark revelation] A climactic data visualization. All background auxiliary lines are faded into low-contrast grey noise. In stark contrast, a single, highly saturated thick line perfectly overlaps with a rising temperature baseline on the Y-axis, proving a clear causal link.
 > *   **Text**: "论证性叠加：通过视觉层级控制实现因果对齐"
-> *   **Asset**: ![预览](assets/slides/S11c_The_Grand_Finale.png)
+> *   **Asset**: ![预览](assets/slides/S11c_The_Grand_Finale.webp)
 
 当读者滚动到底部时，最高权重的数据特征——人类温室气体排放压轴出场。
 此时，图表系统执行了经典的**通道高亮 (Channel Highlighting)** 操作：将前期辅助线降级为灰度噪音，而代表温室气体的折线则被赋予极高的色彩饱和度。它在 Y 轴空间上与真实的温度上升基准线形成了严丝合缝的重叠。
@@ -376,7 +376,7 @@ Pinned 架构底层通过 CSS 的 **`position: sticky`** 属性实现。**就像
 > *   **Layout**: `Comparison`
 > *   **Scene**: [Emotional tension: jarring friction versus effortless smooth continuity] A side-by-side UX comparison. Left: a rigid carousel with distinct clickable dots, emitting sparks of friction to symbolize cognitive hesitation. Right: a buttery smooth vertical scrolling track, conveying an uninterrupted, frictionless flow of reading and breathing.
 > *   **Text**: "摩擦力的鸿沟：点击制造决断，滚动延续呼吸"
-> *   **Asset**: ![预览](assets/slides/S11d_Scroll_vs_Click.png)
+> *   **Asset**: ![预览](assets/slides/S11d_Scroll_vs_Click.webp)
 
 要回答这个问题，我们需要理解不同输入设备在物理触发时带来的心理预期差异。
 
@@ -392,7 +392,7 @@ Pinned 架构底层通过 CSS 的 **`position: sticky`** 属性实现。**就像
 > *   **Slide**: `S11f_Continuity_Of_State`
 > *   **Layout**: `Diagram`
 > *   **Scene**: [Emotional tension: seamless evolution, unbroken logical flow] A schematic showing continuous state transformation. A fluid, morphing curve leaves a glowing, unbroken motion trail behind it, visualizing how seamless tweening animation helps the brain construct effortless causal relationships without jarring cuts.
-> *   **Asset**: ![预览](assets/slides/S11f_Continuity_Of_State.png)
+> *   **Asset**: ![预览](assets/slides/S11f_Continuity_Of_State.webp)
 
 相对而言，滚动叙事构筑的是紧密的**连续态 (Continuous)** 控制流。趋势线的轨迹绘制直接受控于滚轮进度，读者甚至可回滚鼠标来回溯过程。
 

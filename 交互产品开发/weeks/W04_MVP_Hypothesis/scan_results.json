@@ -171,14 +171,14 @@
       {
         "slide_id": "W04-23b2-Dropbox-Video-MVP",
         "scene": "Dropbox 的经典三分钟演示视频画面，旁边的图表显示 Hacker News 流量如何将候补名单从 5000 瞬间推高至 75000。",
-        "asset": "../public/slides/W04-23b2-Dropbox-Video-MVP.png",
+        "asset": "../public/slides/W04-23b2-Dropbox-Video-MVP.webp",
         "exists": true,
         "size_kb": 5.0400390625
       },
       {
         "slide_id": "W04-23e-Wizard-Of-Oz-Examples",
         "scene": "上半部分是 Taproot 员工在地下室人肉收发邮件，下半部分是亚马逊员工躲在隔壁房间手动输入 Alexa 的回答指令。",
-        "asset": "../public/slides/W04-23e-Wizard-Of-Oz-Examples.png",
+        "asset": "../public/slides/W04-23e-Wizard-Of-Oz-Examples.webp",
         "exists": true,
         "size_kb": 5.1396484375
       }
@@ -219,14 +219,14 @@
       {
         "slide_id": "W04-23g-Workshop-Exp1",
         "scene": "极简风格的四宫格看板，分别呈现“痛点重算”、“锁定真凶”、“假设提炼”和“构思 MVP”四大实战关卡指令。",
-        "asset": "../public/slides/W04-23g-Workshop-Exp1.png",
+        "asset": "../public/slides/W04-23g-Workshop-Exp1.webp",
         "exists": false,
         "size_kb": 0.0
       },
       {
         "slide_id": "W04-24b-Office-Ribbon-MVP",
         "scene": "还原 Office Ribbon 界面大改版时的极简测试原型（无真实功能，只有外观点击热区探测），强调其规避核心风险的价值。",
-        "asset": "../public/slides/W04-24b-Office-Ribbon-MVP.png",
+        "asset": "../public/slides/W04-24b-Office-Ribbon-MVP.webp",
         "exists": true,
         "size_kb": 5.0146484375
       }

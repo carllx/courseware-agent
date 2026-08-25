@@ -10,7 +10,7 @@
 > **Slide**: M3-01_Copilot_Bugs
 > **Layout**: `Full`
 > **Scene**: 一个耸人听闻的数据图表：GitClear 在 2024 年的大型代码库统计，使用了 AI 辅助的开发者，代码中的“代码流失率 (Code Churn)”和“隐性缺陷 BUG 率”反而急剧上升。图表上高耸的红色柱状图极具视觉压迫感。
-> *   **Asset**: ![预览](../public/slides/M3-01_Copilot_Bugs.png)
+> *   **Asset**: ![预览](../public/slides/M3-01_Copilot_Bugs.webp)
 > **Search**: `GitClear report AI code quality bug rate increase churn`
 > **知识节点**: `ai-code-generation-constraints`
 
@@ -29,7 +29,7 @@
 > **Slide**: M3-02_AI_Constraints_Global
 > **Layout**: `Split`
 > **Scene**: 荧幕上冷峻地罗列出六大陷阱：1. 自动化讽刺 (可靠性陷阱)；2. 安全盲区 (XSS注入等)；3. 上下文盲区 (架构断裂)；4. 差不多对陷阱 (边缘态缺失)；5. 架构性技术债 (硬编码地狱)；6. 幽灵幻觉 (伪造 API)。
-> *   **Asset**: ![预览](../public/slides/M3-02_AI_Constraints_Global.png)
+> *   **Asset**: ![预览](../public/slides/M3-02_AI_Constraints_Global.webp)
 > **知识节点**: `ai-code-generation-constraints`
 
 我们逐一深潜，看看这些隐秘的烂尾冰山是如何撞沉你们的项目巨轮的。
@@ -42,7 +42,7 @@
 > **Slide**: M3-03_Ironies_of_Automation
 > **Layout**: `Split`
 > **Scene**: 左侧是伦敦大学学院人机工程学家 Lisanne Bainbridge 和她 1983 年的神作论文标题《Ironies of Automation》片段；右侧是一个极具隐喻性的场景图：飞行员在高度自动化的驾驶舱里一直喝咖啡，突然警报大作，他手忙脚乱完全不知道如何接管机械。
-> *   **Asset**: ![预览](../public/slides/M3-03_Ironies_of_Automation.png)
+> *   **Asset**: ![预览](../public/slides/M3-03_Ironies_of_Automation.webp)
 > **Search**: `Lisanne Bainbridge Ironies of Automation human factors 1983`
 > **知识节点**: `ai-code-generation-constraints`
 
@@ -65,7 +65,7 @@
 > **Slide**: M3-04_Context_Blindness
 > **Layout**: `Full`
 > **Scene**: 展示一个被称为“科学怪人缝合怪”的前端界面灾难现场：抽屉组件、底层弹窗和全屏拦截框因为调用了三种互斥的第三方库，而在暗黑模式下相互穿模绞杀。
-> *   **Asset**: ![预览](../public/slides/M3-04_Context_Blindness.png)
+> *   **Asset**: ![预览](../public/slides/M3-04_Context_Blindness.webp)
 > **List**:
 > - 局部最优的碎片化记忆
 > - 第三方伪生态库混乱合并
@@ -91,7 +91,7 @@
 > **Slide**: M3-05_Almost_Right_Trap
 > **Layout**: `Split`
 > **Scene**: 左侧是完美数据的 Happy Path；右侧则是被超长德语复合词条击穿撑爆、导致购买按钮错位覆盖的惨烈崩溃现场。
-> *   **Asset**: ![预览](../public/slides/M3-05_Almost_Right_Trap.png)
+> *   **Asset**: ![预览](../public/slides/M3-05_Almost_Right_Trap.webp)
 > **List**:
 > - 迎合正常路径的假象
 > - 隐藏的边缘态死锁
@@ -118,7 +118,7 @@
 > **Slide**: M3-06_Architectural_Debt
 > **Layout**: `Split`
 > **Scene**: 背景是密密麻麻的 `style={{margin-top: 43px}}` 魔法数值硬编码，中间引用软件工程“破窗理论”。
-> *   **Asset**: ![预览](../public/slides/M3-06_Architectural_Debt.png)
+> *   **Asset**: ![预览](../public/slides/M3-06_Architectural_Debt.webp)
 > **List**:
 > - DRY 原则的彻底破产
 > - 魔法数值 (Magic Numbers) 泛滥
@@ -141,7 +141,7 @@
 > **Slide**: M3-07_Feature_Hallucination
 > **Layout**: `Full`
 > **Scene**: 展示一段高级情绪雷达图表界面，背后的调用却指向 `getUserKeystrokePressureSensorData()` 这种纯捏造、根本无法落地的幽灵路由 API。
-> *   **Asset**: ![预览](../public/slides/M3-07_Feature_Hallucination.png)
+> *   **Asset**: ![预览](../public/slides/M3-07_Feature_Hallucination.webp)
 > **List**:
 > - 迎合式表象伪装
 > - 虚拟并不存在的底层路由接口
@@ -165,7 +165,7 @@ AI 生成的前端沙盒子框架随时随刻都能在浅层次的视觉欺骗�
 > **Slide**: M3-08_Security_Blind_Spots
 > **Layout**: `Full`
 > **Scene**: 精美的富文本预览界面的底层源代码中，暴露了未经过滤防线消毒直接渲染用户输入的高危漏洞代码块。
-> *   **Asset**: ![预览](../public/slides/M3-08_Security_Blind_Spots.png)
+> *   **Asset**: ![预览](../public/slides/M3-08_Security_Blind_Spots.webp)
 > **List**:
 > - 废弃高危生态开源版本库的潜伏
 > - 内容转义清洗防线的缺失
@@ -183,7 +183,7 @@ AI 生成的前端沙盒子框架随时随刻都能在浅层次的视觉欺骗�
 > **Slide**: M3-09_Man_Machine_Matrix
 > **Layout**: `Split`
 > **Scene**: 荧幕展示人机职责边界矩阵。左翼阵营 (AI 的战术阵地)：局部组件微观代码死磕生成、繁琐布局参数机械暴力转译、重复性基础结构单元极速重构。右翼高地 (人类指挥官的守护战)：跨模块深层一致性宏观校验、极其微妙的品牌美学风格阈值卡点判定、绝境边缘极端兜底防线设置。
-> *   **Asset**: ![预览](../public/slides/M3-09_Man_Machine_Matrix.png)
+> *   **Asset**: ![预览](../public/slides/M3-09_Man_Machine_Matrix.webp)
 > **知识节点**: `ai-code-generation-constraints`
 
 面对这深坑密布的六大深渊陷阱，我们到底必须要构建怎样的心智才可以并且最终有资格与其共舞而不轻易被它所反向吞噬同化？

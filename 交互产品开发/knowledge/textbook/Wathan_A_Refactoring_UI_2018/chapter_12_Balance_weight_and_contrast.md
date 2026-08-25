@@ -19,9 +19,9 @@ pretty “heavy”
 and cover a lot of surface area. As a result, when you put an icon next
 to some text, the icon tends to feel emphasized.
 
-![](images/index-57_1.png)
+![](images/index-57_1.webp)
 
-![](images/index-57_2.png)
+![](images/index-57_2.webp)
 
 57
 
@@ -33,7 +33,7 @@ create balance it needs to be de-emphasized in some other way.
 A simple and effective way to do this is to lower the contrast of the
 icon by giving it a softer color.
 
-![](images/index-58_1.png)
+![](images/index-58_1.webp)
 
 Balance weight and contrast
 
@@ -53,7 +53,7 @@ This is useful when things like thin 1px borders are too subtle using a
 soft color, but darkening the color makes the design feel harsh and
 noisy.
 
-![](images/index-59_1.png)
+![](images/index-59_1.webp)
 
 59
 
@@ -62,5 +62,5 @@ Balance weight and contrast
 Making the border a bit heavier by increasing the width helps to
 emphasize it without losing the softer look:
 
-![](images/index-60_1.png)
+![](images/index-60_1.webp)
 

@@ -1,0 +1,7 @@
+topic: 毕设开题通关局
+title: 从“零基础”到拿下毕业设计
+description: 基于教务红线，打通毕设生命周期，提供方法论与AI工具，明确产出指标与答辩规则。
+status: ready
+segments:
+  - id: M01
+    src: src/M01_毕设开题通关局.md

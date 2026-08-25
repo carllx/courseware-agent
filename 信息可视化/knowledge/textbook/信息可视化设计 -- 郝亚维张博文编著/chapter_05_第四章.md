@@ -18,37 +18,37 @@
 
 江南大学近几年运用设计的力量 进行了系列的扶贫活动 在设计方法指引下 以设计推进地域文化资源的融合 生产生活方式的创新 审美价值的提升 从而为乡村振兴提供方式和路径上的支持 尤其是信息可视化设计 其在主题知识化 情感体验 交叉融合等方面显示出明显的优势 可以运用信息可视化的设计方法 为乡村振兴与精准扶贫提供设计服务 以江南大学团队的信息可视化设计作品 图 图为例 运用信息可视化的设计方法与短视频媒体呈现形式的结合 来诠释数据叙事作品
 
-![](images/5d6b338bf694bd25d47277ee0cccb8a99c6d8c5c3315c066f81a08fd90a569e2.jpg)  
+![](images/5d6b338bf694bd25d47277ee0cccb8a99c6d8c5c3315c066f81a08fd90a569e2.webp)  
 图 4 － 1 《解构藏文》 1
 
-![](images/2b3bbf05b129266c6b87415b1ce2e712b2eb118668ee633386bdc11c940b434e.jpg)  
+![](images/2b3bbf05b129266c6b87415b1ce2e712b2eb118668ee633386bdc11c940b434e.webp)  
 图 4 － 2 《解构藏文》 2
 
-![](images/d5cfd6ad9c47ae8cd74aa9c1d3a1796acdae3d3e9397a4f49fc996eaf1a20201.jpg)  
+![](images/d5cfd6ad9c47ae8cd74aa9c1d3a1796acdae3d3e9397a4f49fc996eaf1a20201.webp)  
 图 4 － 3 《解构藏文》 3
 
 如今 互联网与社交媒体将私人表达转化为公共交流 迅速扩展了城乡间的文化亲密性 因此 该作品收集了快手平台扶贫计划中的活跃用户 并对其视频进行了分析 提取出各个账号中的描述文字 同时 通过机器算法自动生成图片 从而构成生动的贫困账户群体 在此基础上， 利用 unity 技术软件设计开发网页， 将活跃用户账号中的视频资料数据抽取出来，提取描述性文本输入 Deep － Zee 中生成影像， 以艺术与科技结合的角度描绘数据叙事景观。
 
-![](images/aed8d68b3d908b9e5937a4ce9407260f9a0fcc1c965bd1ef0261b955772ce003.jpg)  
+![](images/aed8d68b3d908b9e5937a4ce9407260f9a0fcc1c965bd1ef0261b955772ce003.webp)  
 图 4 － 4 《Invisible Pixel》 1
 
-![](images/84bdf9dc0e9f070fc3010d56fd57449df7372dd7d6a61b52996958ea956266fd.jpg)  
+![](images/84bdf9dc0e9f070fc3010d56fd57449df7372dd7d6a61b52996958ea956266fd.webp)  
 图 4 － 5 《Invisible Pixel》 2
 
-![](images/3edef58aa8bd98da93d9a39a60f131ae0274c107bc90bb103659fec12632c426.jpg)  
+![](images/3edef58aa8bd98da93d9a39a60f131ae0274c107bc90bb103659fec12632c426.webp)  
 图 4 － 6 《Invisible Pixel》 3
 
 # （三） 向帆
 
 年年初 清华大学美术学院视觉传达设计系副教授向帆发表了 数据追问 全国美展油画作品视觉化解读 这篇文章通过向帆和她的团队对全国美展获奖油画作品的视觉化分析为一个图像数据库来做研究 除了完成了交互平台视频展示外 向帆和她的团队还设计了一些人工智能图像分析等有趣的视觉化试验， 运用谷歌的人工智能开源代码分析全国美展油画作品 显现了色调 题材 作品名称 画幅 获奖经历等因素与获奖的相关度 提出了不同于传统视角的艺术观察新方法 可谓计算机科学技术与艺术研究的精彩案例 向帆和她的团队根据文章创作的信息可视化作品 随着数字音乐的有力节奏 张获奖油画作品如一些彩色的小斑点般在人们眼前铺陈而来 人们既能凌空鸟瞰一片斑斓的油画天地 又能瞬时俯冲而下观察每个作品的细节 这种观赏油画的方式是前所未有的 该作品的可视化界面如图 图 所示
 
-![](images/b61611fc10069346c4565b8dd8fd3f999b3dc320f2959f787f9f043d26198f76.jpg)  
+![](images/b61611fc10069346c4565b8dd8fd3f999b3dc320f2959f787f9f043d26198f76.webp)  
 图 4 － 7 《Award Puzzle》 可视化界面之一
 
-![](images/dc8b47fa89a0750a9702adaf48d445a2bc2c15bbba1324efcd227508d3332077.jpg)  
+![](images/dc8b47fa89a0750a9702adaf48d445a2bc2c15bbba1324efcd227508d3332077.webp)  
 图 4 － 8 《Award Puzzle》 可视化界面之二
 
-![](images/eb32a73799362dfcca69ae4b5b00960671369303e43a343dc50af1f685a99af0.jpg)  
+![](images/eb32a73799362dfcca69ae4b5b00960671369303e43a343dc50af1f685a99af0.webp)  
 图 4 － 9 《Award Puzzle》 可视化界面之三
 
 # 二、 外国信息可视化设计师 ／ 团队及作品
@@ -63,40 +63,40 @@
 
 张圣焕凭借兴趣做了大量非商业性的信息可视化设计作品， 餐饮类、 地图类等， 只要感兴趣的领域他都会设计。 张圣焕说： “那时， 不图赚钱， 只因喜好， 没想到它们在平台上的公益传播却带来了很好的社会价值 大家很喜欢这种结构清晰 有趣味且易懂的信息传播形式 这让我很有成就感 并决定一直做下去 张圣焕的设计特点是拟物扁平的插图画风详细绘制组成物品的部分和构件。 他的代表作品有韩国首尔和济州岛地域地图信息可视化设计 （图 4 － 10、 图 4 － 11）， 食品类信息可视化设计 （图 4 － 12 ～ 图 4 － 14）， 书籍装订和印刷类信息可视化设计 （图 4 － 15 ～ 图 4 － 17）。
 
-![](images/7b0a4c9c10f42abf8b586488bad987af4df8a5c3d322cea40ca310ab7e46216a.jpg)  
+![](images/7b0a4c9c10f42abf8b586488bad987af4df8a5c3d322cea40ca310ab7e46216a.webp)  
 图4 －10 首尔地图信息可视化设计
 
-![](images/a5c2dd26370f660c401636a50fe9b2ab8bd825b84ed19f428ff40cdd78052fc9.jpg)  
+![](images/a5c2dd26370f660c401636a50fe9b2ab8bd825b84ed19f428ff40cdd78052fc9.webp)  
 图4 －11 济州岛地图信息可视化设计
 
 信息可视化作品 《打包清单》 是为出国旅行打包行李的过程和注意事项等进行的设计，图4 －18 为作品的草图设计及最终成品。
 
 信息可视化作品 紫菜包饭 是为食品紫菜包饭的制作过程和种类等进行的设计 图4 －19 为作品的草图设计及最终成品。
 
-![](images/7eb40bc30683b5eef04cae576db9128134bc95d8701b27dec6c19052ab57ddef.jpg)  
+![](images/7eb40bc30683b5eef04cae576db9128134bc95d8701b27dec6c19052ab57ddef.webp)  
 图4 －12 食品类信息可视化设计之一
 
-![](images/5b974a4c780b6b004babecb99d691c8f47f92d737a5d0a3f424872b4dd15ba61.jpg)  
+![](images/5b974a4c780b6b004babecb99d691c8f47f92d737a5d0a3f424872b4dd15ba61.webp)  
 图4 －13 食品类信息可视化设计之二
 
-![](images/2f715bb116d1d7b6fa34c15fcc61febb64e9baeb43e383c0ff11eb080823ce12.jpg)  
+![](images/2f715bb116d1d7b6fa34c15fcc61febb64e9baeb43e383c0ff11eb080823ce12.webp)  
 图4 －14 食品类信息可视化设计之三
 
-![](images/f7e92bc3e5bac844197f9bd970705b09bf2b6fdd8d4a2073cf07540d818bd053.jpg)  
+![](images/f7e92bc3e5bac844197f9bd970705b09bf2b6fdd8d4a2073cf07540d818bd053.webp)  
 图4 －15 书籍装订类信息可视化设计
 
-![](images/3bdf9a2fcca6ef21d0b3e3cc5ae88b191805483c94d47f0d775cc3ac78133a18.jpg)  
+![](images/3bdf9a2fcca6ef21d0b3e3cc5ae88b191805483c94d47f0d775cc3ac78133a18.webp)  
 图4 －16 印刷类信息可视化设计之一
 
-![](images/c3f802c945d90f39b310c296bbdcd1ea62fbab7a7eb8ee4ed844af55f8c95c81.jpg)  
+![](images/c3f802c945d90f39b310c296bbdcd1ea62fbab7a7eb8ee4ed844af55f8c95c81.webp)  
 图 4 － 17 印刷类信息可视化设计之二
 
-![](images/0713928520ce141f2f4aeb670dba2be20d635736a87f7f8119b1bab95970722b.jpg)
+![](images/0713928520ce141f2f4aeb670dba2be20d635736a87f7f8119b1bab95970722b.webp)
 
-![](images/45c3ca80aab589380ed7cd8ecbc597bf12b53dd0a07e981b5ab851840db3d326.jpg)
+![](images/45c3ca80aab589380ed7cd8ecbc597bf12b53dd0a07e981b5ab851840db3d326.webp)
 
 图4 －18 《打包清单》 设计草图及最终成品  
-![](images/0047007c1f46a54b6b26b95be18bbf9ce8b83145a657e9dbc6765de2876a1ae0.jpg)  
+![](images/0047007c1f46a54b6b26b95be18bbf9ce8b83145a657e9dbc6765de2876a1ae0.webp)  
 （a） 草图设计之一； （b） 草图设计之二； （c） 最终成品
 
 <!-- Chunk 2 End -->
@@ -105,40 +105,40 @@
 
 <!-- Chunk 3 Start -->
 
-![](images/febf487020013ce1b4c7783c23a587cc89bc394ce2ffa584a02732725e21db9d.jpg)
+![](images/febf487020013ce1b4c7783c23a587cc89bc394ce2ffa584a02732725e21db9d.webp)
 
-![](images/d10ceeb261b54eaebec1eeb2e9d758957f42cf1ebf5c105c2ceee16d05e65056.jpg)
+![](images/d10ceeb261b54eaebec1eeb2e9d758957f42cf1ebf5c105c2ceee16d05e65056.webp)
 
 图 4 － 19 《紫菜包饭》 草图设计及最终成品  
-![](images/d4683426f67149af51127d44b194b9488cca5efda063c4e04aafa1b2c1f20865.jpg)  
+![](images/d4683426f67149af51127d44b194b9488cca5efda063c4e04aafa1b2c1f20865.webp)  
 （a） 草图设计之一； （b） 草图设计之二； （c） 最终成品
 
 信息可视化作品 《烧酒》 是为韩国烧酒的制作过程和种类等进行设计的， 图 4 － 20 为作品草图设计及最终成品。
 
-![](images/1ceb7a5b11af2757705a83654cc397c3a4e5d6c0349b4138a59869909909fe5a.jpg)
+![](images/1ceb7a5b11af2757705a83654cc397c3a4e5d6c0349b4138a59869909909fe5a.webp)
 
-![](images/6b05ea1e9d304824cdafe24f71c508541650a5d5118d8b73f4fcd0958e963d2d.jpg)
+![](images/6b05ea1e9d304824cdafe24f71c508541650a5d5118d8b73f4fcd0958e963d2d.webp)
 
-![](images/ee2a0af67922588405025e3cfcbf8fb46e0334651d0873f2c4f08525fce07ae5.jpg)
+![](images/ee2a0af67922588405025e3cfcbf8fb46e0334651d0873f2c4f08525fce07ae5.webp)
 
-![](images/8d551cadd8bf2bb262294fdcbec62fc87ab3224abe6d3ee35005827117daccf4.jpg)
+![](images/8d551cadd8bf2bb262294fdcbec62fc87ab3224abe6d3ee35005827117daccf4.webp)
 
 图4 －20 《烧酒》 草图设计及最终成品  
-![](images/139ef41110d7b6f064c2eda239e02c2fd3f629850620d90ff06dffc71e8d7c1e.jpg)  
+![](images/139ef41110d7b6f064c2eda239e02c2fd3f629850620d90ff06dffc71e8d7c1e.webp)  
 草图设计 最终成品
 
 信息可视化作品 《了解猫咪护理》 是为如何照顾猫咪和收养流浪猫以及对猫咪形态特征的科普说明等进行的设计， 图4 －21 为作品的草图设计过程及最终成品。
 
-![](images/1c97ce2b204044ff9a3452b5ad33685c093107ff573be5f393bf9f9e2dd0d624.jpg)
+![](images/1c97ce2b204044ff9a3452b5ad33685c093107ff573be5f393bf9f9e2dd0d624.webp)
 
-![](images/6676401509557e1d3bc47fac7637893f53073782c5d13a9ce2b90524902c7f2f.jpg)
+![](images/6676401509557e1d3bc47fac7637893f53073782c5d13a9ce2b90524902c7f2f.webp)
 
-![](images/2b962b86fe5df6e4d193b04d02c6159264f25d2d15ba05175f83e103a2c1360b.jpg)
+![](images/2b962b86fe5df6e4d193b04d02c6159264f25d2d15ba05175f83e103a2c1360b.webp)
 
-![](images/f9c881c6d0a03d0d528045f07ec633b36aa9218ae58f6e0d10271c61574ba4a6.jpg)
+![](images/f9c881c6d0a03d0d528045f07ec633b36aa9218ae58f6e0d10271c61574ba4a6.webp)
 
 图4 －21 《了解猫咪护理》 草图设计及最终成品  
-![](images/39905f69ba58551daf3cf64598bf5278b1b9310a2139f2d6c4f6d84fadb51e6b.jpg)  
+![](images/39905f69ba58551daf3cf64598bf5278b1b9310a2139f2d6c4f6d84fadb51e6b.webp)  
 （a） ～ （d） 草图设计； （e） 最终成品
 
 # （二） 彼得·格兰迪 （英国）
@@ -153,32 +153,32 @@
 
 阿道夫·阿兰兹 （Adolfo Arranz） 是世界上最被推崇的信息可视化设计师之一。 他先加入了西班牙报纸 世界 后来又成为新加坡传媒公司的创意总监 入行这些年来 他几乎荣获了国际的主要奖项 目前他负责管理中国香港一家报纸的咨询图像部 阿道夫 阿兰兹认为大部分的设计项目都是个有趣的挑战 能让你学习新知识 因为咨询图像的好坏取决于前期信息资料的搜集和研究的丰富性 这背后是一个持续不断学习的过程
 
-![](images/eda0e44a543856c992e2d53f0fdc9fb2542696e1098579c1fc0517a00a0c7f79.jpg)  
+![](images/eda0e44a543856c992e2d53f0fdc9fb2542696e1098579c1fc0517a00a0c7f79.webp)  
 图 4 － 22 《健康的嘴》
 
-![](images/f0662b054c74f685a6dc5200e7c9dcc6773ea0835e75d41230be1df5d9da4e58.jpg)  
+![](images/f0662b054c74f685a6dc5200e7c9dcc6773ea0835e75d41230be1df5d9da4e58.webp)  
 图4 －23 《一眨眼就明白事实》
 
-![](images/47a41f2c68bd74c208d59eb1cf46c03cba103aeeffd082f90c6dc64ade01a761.jpg)
+![](images/47a41f2c68bd74c208d59eb1cf46c03cba103aeeffd082f90c6dc64ade01a761.webp)
 
-![](images/7ae3cd816dcc89ac05471b489f7393bdc0639d1a7fd6a32854de71f1c78d8cb4.jpg)  
+![](images/7ae3cd816dcc89ac05471b489f7393bdc0639d1a7fd6a32854de71f1c78d8cb4.webp)  
 图 4 － 24 《感觉器官》
 
-![](images/41df20a9af0385a3130ab6b6a164650f3730f2d30221dad0e058d2fbcd25f02c.jpg)  
+![](images/41df20a9af0385a3130ab6b6a164650f3730f2d30221dad0e058d2fbcd25f02c.webp)  
 图 4 － 25 《心》
 
 阿道夫·阿兰兹的其他信息可视化设计作品有 《小龙》 （图 4 －26）、 《猎人和猎物》（图 4 － 27）、 《口味问题》 （图 4 － 28）、 《珠穆朗玛峰》 （图 4 － 29）。
 
-![](images/a8167d80323f2acb42da690b7697f9b0b34481e81dcf18dbe1d046055c00d8c0.jpg)  
+![](images/a8167d80323f2acb42da690b7697f9b0b34481e81dcf18dbe1d046055c00d8c0.webp)  
 图 4 － 26 《小龙》
 
-![](images/9b1ff914ced3b703d1946d496486d152f56dd59f8ac309fd37660a068904afae.jpg)  
+![](images/9b1ff914ced3b703d1946d496486d152f56dd59f8ac309fd37660a068904afae.webp)  
 图 4 －27 《猎人和猎物》
 
-![](images/a57c421ba6992dee2f1230c9969052ec2a02120ad901e3b5fdb1ec134b9a1efd.jpg)  
+![](images/a57c421ba6992dee2f1230c9969052ec2a02120ad901e3b5fdb1ec134b9a1efd.webp)  
 图 4 － 28 《口味问题》
 
-![](images/0985e97a7e5a17af7b7b99faad2dc4303e0f257c2b837fe807c292b808c4f48f.jpg)  
+![](images/0985e97a7e5a17af7b7b99faad2dc4303e0f257c2b837fe807c292b808c4f48f.webp)  
 图 4 － 29 《珠穆朗玛峰》
 
 # （四） 安娜·库阿 （西班牙）
@@ -195,32 +195,32 @@
 
 以下是安娜 库阿的设计作品 图 是地图设计 图 是东京图形符号图 4 － 32 是 《在博尔德生活和工作学习的费用是多少》。
 
-![](images/36aac143ee8ba537cdef669acc0bf7270cee686fe34f1a74a1facc6d168e5cf7.jpg)  
+![](images/36aac143ee8ba537cdef669acc0bf7270cee686fe34f1a74a1facc6d168e5cf7.webp)  
 图4 －30 地图设计
 
-![](images/ea675786fb47a85bb45b176af2cf2f819bf80a90185a1b4b9b264a2bd2edabbe.jpg)  
+![](images/ea675786fb47a85bb45b176af2cf2f819bf80a90185a1b4b9b264a2bd2edabbe.webp)  
 图4 －31 东京图形符号
 
-![](images/3e5546af1bde87abbedd2a83c77df797e433397b99d80b066577b9850f14b9f5.jpg)  
+![](images/3e5546af1bde87abbedd2a83c77df797e433397b99d80b066577b9850f14b9f5.webp)  
 图 4 － 32 《在博尔德生活和工作学习的费用是多少》
 
 # （五） 扬·施沃乔团队 （德国）
 
 扬 施沃乔 在柏林设立了一个信息可视化图表设计工作室 自年以来 他一直在管理 办公室 他率领的团队设计的作品获得了众多国家的国际奖项。 扬·施沃乔和他的团队的设计风格和特点是： 理性分析结构， 信息图表制图如建筑师般精细 如体育场馆信息图 图 图 在德国帆船戈奇福克下水周年之际 他和他的团队开始以 的形式重新创建帆船视觉图形并将其创作成信息可视化图表 这个项目是他与戈奇福克新闻官方合作设计的作品 他一直认为信息可视化设计内容与事实相符是非常重要的设计原则 所以在设计项目前他认真阅读包含该船的建造计划等相关内容， 最终这个作品在许多报纸和杂志以及线上发表 （图4 －37）。
 
-![](images/817a193f3d4d4c1e7c2dc4d5c4ede74e5fadb8566fb80a40ef93ec4e9b1495b4.jpg)  
+![](images/817a193f3d4d4c1e7c2dc4d5c4ede74e5fadb8566fb80a40ef93ec4e9b1495b4.webp)  
 图4 －33 体育场馆信息图1
 
-![](images/f7053d2a000f4a87c969d6aedb82f74af662f5401ea55bbf1eec4ae0cb3f629f.jpg)  
+![](images/f7053d2a000f4a87c969d6aedb82f74af662f5401ea55bbf1eec4ae0cb3f629f.webp)  
 图4 －34 体育场馆信息图2
 
-![](images/656d4f4f95b60ad9446999cae0b9254e872f18d93df7437007b21fe0bf95404a.jpg)  
+![](images/656d4f4f95b60ad9446999cae0b9254e872f18d93df7437007b21fe0bf95404a.webp)  
 图4 －35 体育场馆信息图3
 
-![](images/486049825f6ec6202b92b475345da9dee3529f7413ee5d8b94bfc8819f0a05f6.jpg)  
+![](images/486049825f6ec6202b92b475345da9dee3529f7413ee5d8b94bfc8819f0a05f6.webp)  
 图4 －36 体育场馆信息图4
 
-![](images/974e6efe60f8477c2f8ee52905631e4325da380e659fbf07f78e0373ca8c6e5d.jpg)  
+![](images/974e6efe60f8477c2f8ee52905631e4325da380e659fbf07f78e0373ca8c6e5d.webp)  
 图4 －37 《帆船戈奇福克》
 
 # （六） 阿尔贝托·卢卡斯·洛佩兹 （美国）
@@ -231,36 +231,36 @@
 
 的是零售商厦 餐厅 办公室 酒店和住宅的组合 他为了给作品中每座建筑增加最大的细节， 中间插图是采用墨水手工绘制的方式进行设计。 他认为信息可视化图表设计的基本原则之一是使复杂性更加清晰， 所以采用轻微的透视绘制， 以确保每座建筑物图形都能立即被识别， 一目了然地了解建筑的社会意义， 并发现人类历史上的趋势。 他的其他代表作品有《皇后 “斯特拉”》 （图 4 － 39）。
 
-![](images/6137661e678a519355d9aa3d59a57442522ba042d4b3bac2506a6aaec0000d80.jpg)  
+![](images/6137661e678a519355d9aa3d59a57442522ba042d4b3bac2506a6aaec0000d80.webp)  
 图 4 －38 《社会晴雨表》
 
-![](images/5d966c6c4d1c18d8942901b082c61026d17048f4169cc324fe845b7030f76ae0.jpg)  
+![](images/5d966c6c4d1c18d8942901b082c61026d17048f4169cc324fe845b7030f76ae0.webp)  
 图 4 － 39 《皇后 “斯特拉”》
 
 # （七） 安东尼奥·法拉赫 （阿曼苏丹国）
 
 安东尼奥·法拉赫 （Antonio Fararh） 是马斯喀特媒体集团的信息可视化设计图表编辑，也是 阿曼时报 和 青年报 的出版商 安东尼奥 法拉赫在信息可视化领域成果突出， 先后获得了100 多个奖项。 他的信息可视化设计作品视觉效果突出， 并且在信息叙事上设计逻辑清晰 在丰富内容的同时让人们理解所要表达和陈述的复杂信息 如他所设计的一张关于传统文化的信息图表 因为阿曼苏丹国的养蜂文化产业将在阿曼苏丹国泰晤士报 和 青年报 上以双页格式出版 用来庆祝阿曼苏丹国国庆 信息图表中运用矢量插图清晰解释了阿曼苏丹国养蜂的两种方法 一种是用空心枣椰树干 另一种是用树枝养蜂 图 安东尼奥 法拉赫其他的设计作品如图 图 所示
 
-![](images/3af6388b6211357f00ada9a5e48b03514215c049950b423a75422478ee5c467b.jpg)  
+![](images/3af6388b6211357f00ada9a5e48b03514215c049950b423a75422478ee5c467b.webp)  
 图4 －40 阿曼苏丹国养蜂信息图
 
-![](images/15e94dabafd73e5ae67e87a629921343f93f06a46e4fba1d1d67ba1badc5fb32.jpg)  
+![](images/15e94dabafd73e5ae67e87a629921343f93f06a46e4fba1d1d67ba1badc5fb32.webp)  
 图4 －41 安东尼奥·法拉赫的设计作品之一
 
-![](images/a840d2ad523e86e300495a52cd3d7421415d638d1374aded8d34fb4deadaf9e0.jpg)  
+![](images/a840d2ad523e86e300495a52cd3d7421415d638d1374aded8d34fb4deadaf9e0.webp)  
 图 4 － 42 安东尼奥·法拉赫设计作品之二
 
-![](images/300612bf7dba0cae5186b1a825c686a77f216835c47c641f56fd98d89075c011.jpg)  
+![](images/300612bf7dba0cae5186b1a825c686a77f216835c47c641f56fd98d89075c011.webp)  
 图4 －43 安东尼奥·法拉赫设计作品之三
 
-![](images/397baf9a14ec68e0e942d463eedade6da3143dbd118fddf3395117d2b38fb020.jpg)  
+![](images/397baf9a14ec68e0e942d463eedade6da3143dbd118fddf3395117d2b38fb020.webp)  
 图4 －44 安东尼奥·法拉赫设计作品之四
 
 # 三、 国外交互信息可视化设计研究机构及作品
 
 在信息大爆炸的时代 每天都有很多的新消息 新发现 新趋势向人们狂轰滥炸 作为信息可视化设计师 需要具备熟悉使用计算机语言和工具的能力 运用计算机辅助技术能为清晰快速地分析数据规律 获得洞见 符号传达信息 赋予诗意般的比喻 和文学意义里的比喻一样， 两者间需有某种强关联性， 才能构成比喻。 赋予其诗意， 则是为了动人的体验。信息数据瞬息万变 将信息可视化与交互设计相结合 互相配合 满足人们的信息需求 满足人们对信息获取的更好体验。
 
-![](images/a06edb5ec07cd0425a0560b5d510a8fd03d4e4b19ddf30aead6a103b0d93edf3.jpg)  
+![](images/a06edb5ec07cd0425a0560b5d510a8fd03d4e4b19ddf30aead6a103b0d93edf3.webp)  
 图4 －45 安东尼奥·法拉赫设计作品之五
 
 # （一） 研究机构— 密度设计研究实验室
@@ -269,7 +269,7 @@
 
 该实验室的设计师认为 作为设计师 能够熟悉使用计算机语言和工具能够大大减轻工作的负担 计算机辅助能更清晰 容易地分析数据规律 作品 年孕产妇死亡率 图是以 年产妇死亡率为主题 以花作为隐喻 因为鲜花会凋零 以给予下一代生命 以动态数字花瓣的变化呈现鲜花凋零的过程 每片花瓣的数量对应孕产妇死亡率数字该作品呼吁人们要关心全世界的生育健康 尤其是要关心第三世界国家的生育健康
 
-![](images/95c6af4e0115d10ec5dc39b784911a81879172896ba5f59f4832864d7d4d1653.jpg)  
+![](images/95c6af4e0115d10ec5dc39b784911a81879172896ba5f59f4832864d7d4d1653.webp)  
 图 4 － 46 《2015 年孕产妇死亡率》
 
 # （二） 作品
@@ -298,56 +298,56 @@
 
 每加仑的海水塑料微粒超过1?? 3 万个。 作品 《塑料灾难》 信息可视化设计界面如图4 －58 ～图 4 － 62 所示。
 
-![](images/c9e4f0b78541daae8e1fef8483729e78bde218c9f4ec5dbe23efccac883bc85a.jpg)  
+![](images/c9e4f0b78541daae8e1fef8483729e78bde218c9f4ec5dbe23efccac883bc85a.webp)  
 图4 －47 《洛杉矶及芝加哥的收入差距》信息可视化设计界面之一
 
-![](images/b6b9bdf229df534b97b1071c58c14ca2ca3059983d2636d51fdf119a2a9d9d06.jpg)  
+![](images/b6b9bdf229df534b97b1071c58c14ca2ca3059983d2636d51fdf119a2a9d9d06.webp)  
 图4 －48 《洛杉矶及芝加哥的收入差距》信息可视化设计界面之二
 
-![](images/10c04c53a1e332cc435fe46a38eba802da0112cd698e4eb71ce5cfb0e159114b.jpg)  
+![](images/10c04c53a1e332cc435fe46a38eba802da0112cd698e4eb71ce5cfb0e159114b.webp)  
 图4 －49 《探索海洋》 信息可视化设计界面之一
 
-![](images/e95ce0a9ca1726cf8d03ee3cc727a854d721d93fe71fa02e54f881de1f0a92c4.jpg)  
+![](images/e95ce0a9ca1726cf8d03ee3cc727a854d721d93fe71fa02e54f881de1f0a92c4.webp)  
 图4 －50 《探索海洋》 信息可视化设计界面之二
 
-![](images/a51c4ccbf6b69e45c200cd6e815173b471834d7c2a077e5d0e6ab1d3c5c63185.jpg)  
+![](images/a51c4ccbf6b69e45c200cd6e815173b471834d7c2a077e5d0e6ab1d3c5c63185.webp)  
 图4 －51 《探索海洋》 信息可视化设计界面之三
 
-![](images/6bf2eca2a180fe7f8f7dcaad7db01b1efce78f68f3ebfc13cf5d56e1b1c1ee7c.jpg)  
+![](images/6bf2eca2a180fe7f8f7dcaad7db01b1efce78f68f3ebfc13cf5d56e1b1c1ee7c.webp)  
 图4 －52 《探索海洋》 信息可视化设计界面之四
 
-![](images/6f3ae7a86133a1699da5271945bebc034ae63ee8a719fe559d9d814a07246570.jpg)  
+![](images/6f3ae7a86133a1699da5271945bebc034ae63ee8a719fe559d9d814a07246570.webp)  
 图4 －53 《探索海洋》 信息可视化设计界面之五
 
-![](images/5479ab67b7731e955af1a21865bd6f4f68808ee13288427709a1974ec5adc9bd.jpg)  
+![](images/5479ab67b7731e955af1a21865bd6f4f68808ee13288427709a1974ec5adc9bd.webp)  
 图4 －54 《探索海洋》 信息可视化设计界面之六
 
-![](images/95c7cdcfe010dd6030262f0be6b90d0a1b89bb58a4d8958e67ec0cb4183d3966.jpg)  
+![](images/95c7cdcfe010dd6030262f0be6b90d0a1b89bb58a4d8958e67ec0cb4183d3966.webp)  
 图4 －55 《紫禁城的历史： 视觉解说》信息可视化设计界面之一
 
-![](images/2003a2a2e2a00e74808138123688f58277e380b1f49628e06ed6612169a54f56.jpg)  
+![](images/2003a2a2e2a00e74808138123688f58277e380b1f49628e06ed6612169a54f56.webp)  
 图4 －56 《紫禁城的历史： 视觉解说》信息可视化设计界面之二
 
-![](images/f53b0e311469a6c8693c9ae4db6ca4a7e36dea03f7f7897656979cf378e48fb5.jpg)  
+![](images/f53b0e311469a6c8693c9ae4db6ca4a7e36dea03f7f7897656979cf378e48fb5.webp)  
 图4 －57 《紫禁城的历史： 视觉解说》信息可视化设计界面之三
 
-![](images/c643dffc1fb0cb62a929e4a3133f0ebc9ef9ce9090760b22f2439cdc520b79bb.jpg)  
+![](images/c643dffc1fb0cb62a929e4a3133f0ebc9ef9ce9090760b22f2439cdc520b79bb.webp)  
 图 4 － 58 《塑料灾难》信息可视化设计界面之一
 
-![](images/3f48cbd3f40a591127495994cab7099f8a4b451c315f9ff18e31e587a4b9a71f.jpg)  
+![](images/3f48cbd3f40a591127495994cab7099f8a4b451c315f9ff18e31e587a4b9a71f.webp)  
 图 4 － 59 《塑料灾难》信息可视化设计界面之二
 
-![](images/a8cc5394ca5e01080271b50ce740831b2629cf674da215beb1ac529d66213659.jpg)
+![](images/a8cc5394ca5e01080271b50ce740831b2629cf674da215beb1ac529d66213659.webp)
 
-![](images/bb36ab2d33c0e686256851a01c2564049749858901d99294322932ba59f84d16.jpg)  
+![](images/bb36ab2d33c0e686256851a01c2564049749858901d99294322932ba59f84d16.webp)  
 图4 －60 《塑料灾难》 信息可视化设计界面之三
 
-![](images/26b7fe2a398153afa028ba2426ecc4afa362676987da81a9b242e36a5f5cd112.jpg)
+![](images/26b7fe2a398153afa028ba2426ecc4afa362676987da81a9b242e36a5f5cd112.webp)
 
-![](images/8b00230331f491dff6f91a57970b73c8ccedb689eaf6ae1da734eb8d7a336002.jpg)  
+![](images/8b00230331f491dff6f91a57970b73c8ccedb689eaf6ae1da734eb8d7a336002.webp)  
 图4 －61 《塑料灾难》 信息可视化设计界面之四
 
-![](images/acfae8a00278aca33d02cd6fc28eeeed458ded6a71d61cf6fae6735fe59e89d9.jpg)  
+![](images/acfae8a00278aca33d02cd6fc28eeeed458ded6a71d61cf6fae6735fe59e89d9.webp)  
 图4 －62 《塑料灾难》 信息可视化设计界面之五
 
 # 5?? 《1790—2016 年美国移民年轮》
@@ -359,7 +359,7 @@
 Simulated Dendrochronology of U.S.Immigration 1790-2016
 
 图 4 － 63 《1790—2016 年美国移民年轮》信息可视化设计界面之一  
-![](images/42c36adf065f75eb78dfc29793823f7d1c3998fee1d3fb359d8300d0536e2443.jpg)  
+![](images/42c36adf065f75eb78dfc29793823f7d1c3998fee1d3fb359d8300d0536e2443.webp)  
 Nature has its own ways of organizing information: organisms grow and register information from the environment. This is particularly notable in trees, which, through thcir rings, tell the story of their growth. Drawing on this phenomenon as a visual metaphor, the United States can be envisioned as a tree, with shapes and growing patterns influenced by immigration. The nation, the tree, is hundreds of years old, and its cels are made out of immigrants. As time passes, the cells are deposited in decennial rings that capture waves of immigration.
 
 # A forest of trees
@@ -367,18 +367,18 @@ Nature has its own ways of organizing information: organisms grow and register i
 The U.S.and its population growth can also be envisioned as a forest of trees.Tree sections,one for each state in the U.S., show the growth profile due to incoming immigration,but also due to newborns (here referred to as natural-borns).
 
 图 4 － 65 《1790—2016 年美国移民年轮》 信息可视化设计界面之三  
-![](images/1df5d3146a7af82507fb83bc90cb1ed92627f46062bb41da8e2c4b99554a14cb.jpg)  
+![](images/1df5d3146a7af82507fb83bc90cb1ed92627f46062bb41da8e2c4b99554a14cb.webp)  
 Each state has grown at different rates, with varying immigration profiles. Some are larger, some are smaller, and some have complex shapes that portray their immigration profile. Tree rings that are nearly circular indicate that population growth due to immigration was much less significant than that due to natural-born persons.
 
 Each state has grown at different rates, with varying immigration profiles. Some are larger, some are smaller, and some have complex shapes that portray their immigration
 
-![](images/7564657221dfccd31b6b10b095e5ce00d0839f84526d50dce304b045e2e22b44.jpg)  
+![](images/7564657221dfccd31b6b10b095e5ce00d0839f84526d50dce304b045e2e22b44.webp)  
 图 4 － 64 《1790—2016 年美国移民年轮》信息可视化设计界面之二
 
-![](images/1a37b5114f346c7abb226eb8bb6fcd3058555dedb3cbd988013e18d2a96eca57.jpg)  
+![](images/1a37b5114f346c7abb226eb8bb6fcd3058555dedb3cbd988013e18d2a96eca57.webp)  
 图 4 － 66 《1790—2016 年美国移民年轮》 信息可视化设计界面之四
 
-![](images/62f495d4654bd62555882bfe4fa9520260200a7b071d95c5c3a9567f943f8493.jpg)  
+![](images/62f495d4654bd62555882bfe4fa9520260200a7b071d95c5c3a9567f943f8493.webp)  
 图 4 － 67 《1790—2016 年美国移民年轮》 信息可视化设计界面之五
 
 # 6?? 《卫星： 在轨 60 年》
@@ -389,24 +389,24 @@ Each state has grown at different rates, with varying immigration profiles. Some
 
 年为纪念空间探索 周年 罗西亚 塞戈尼亚和其设计团队统计了地球的每一颗人造卫星， 并制作了3D 交互信息可视化地图。 报道从 “第一颗卫星” “空间巴比伦” “卫星的命运 轨道运行 我们为什么需要卫星 卫星的未来 等几个方面全面展示了人类利用卫星探索空间的历史和现状， 如图4 －68～图4 －74 所示。
 
-![](images/e9c2977af981bf46f2c4a0e11baf7ebba7f5fec6871881a48bdeb0c1296dd277.jpg)  
+![](images/e9c2977af981bf46f2c4a0e11baf7ebba7f5fec6871881a48bdeb0c1296dd277.webp)  
 图 4 － 68 《卫星： 在轨 60 年》信息可视化设计界面之一
 
-![](images/a8e7481f13c5e6a592ca2c1be02ed183032c8cdbdaae1786aa22cb5d3dfdc0d6.jpg)  
+![](images/a8e7481f13c5e6a592ca2c1be02ed183032c8cdbdaae1786aa22cb5d3dfdc0d6.webp)  
 图 4 － 69 《卫星： 在轨 60 年》信息可视化设计界面之二
 
-![](images/52775211e3f2cfb07af0c57e36198b690f758da018fd428e4edf6bb7741cfed4.jpg)  
+![](images/52775211e3f2cfb07af0c57e36198b690f758da018fd428e4edf6bb7741cfed4.webp)  
 图4 －70 《卫星： 在轨60 年》 信息可视化设计界面之三
 
-![](images/d1916673cd058901ae2982953f5e46c440d22382982626a67664a59cf5373648.jpg)  
+![](images/d1916673cd058901ae2982953f5e46c440d22382982626a67664a59cf5373648.webp)  
 图 4 － 71 《卫星： 在轨 60 年》信息可视化设计界面之四
 
-![](images/21012cec44990399cfe35a1bce7e4188d54b661c6952a26abb8277eb74408617.jpg)  
+![](images/21012cec44990399cfe35a1bce7e4188d54b661c6952a26abb8277eb74408617.webp)  
 图 4 － 72 《卫星： 在轨 60 年》信息可视化设计界面之五
 
-![](images/e33ec3795394ecdab3ca55f91b7fbfe72c764454afe9ba7a311d5b6b95a811ad.jpg)  
+![](images/e33ec3795394ecdab3ca55f91b7fbfe72c764454afe9ba7a311d5b6b95a811ad.webp)  
 图 4 － 73 《卫星： 在轨 60 年》信息可视化设计界面之六
 
-![](images/5e29dd3aac53c08d9c28d47d2920606dd94e0d94fc593779f568cb61648d0bc7.jpg)  
+![](images/5e29dd3aac53c08d9c28d47d2920606dd94e0d94fc593779f568cb61648d0bc7.webp)  
 图 4 － 74 《卫星： 在轨 60 年》信息可视化设计界面之七
 

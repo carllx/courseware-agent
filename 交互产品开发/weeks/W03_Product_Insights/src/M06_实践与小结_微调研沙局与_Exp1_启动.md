@@ -6,7 +6,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-30
 > **Layout**: `Center`
-> **Asset**: ![预览](../public/slides/w03-slide-30.png)
+> **Asset**: ![预览](../public/slides/w03-slide-30.webp)
 > **Scene**: 一群没有实战经验的新兵正站在模拟舱外，神情紧张
 > **Text**: Pre-Flight: 在滚出大楼前，先证明你能活过模拟舱
 
@@ -19,7 +19,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-36_arena
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-36_arena.png)
+> **Asset**: ![预览](../public/slides/w03-slide-36_arena.webp)
 > **Scene**: 屏幕上闪现巨大的倒计时沙漏和严酷的实战角斗场背景
 > **Text**: 停止纸上谈兵，下沉到真实的泥泞中去
 
@@ -33,7 +33,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-28b
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-28b.png)
+> **Asset**: ![预览](../public/slides/w03-slide-28b.webp)
 > **Scene**: 赛博朋克风格的 AI 审讯室，屏幕上跳动着心率与测谎波形
 > **Text**: 飞行模拟舱：对抗带有社会面具的硅基人类
 
@@ -47,7 +47,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-36_activity_rules
 > **Layout**: List
-> **Asset**: ![预览](../public/slides/w03-slide-36_activity_rules.png)
+> **Asset**: ![预览](../public/slides/w03-slide-36_activity_rules.webp)
 > **Scene**: AI 陪练终端界面与标准画像卡提取指引
 > **Text**: 陪练终端的三大目标
 > **List**: 1. 击穿 AI 的三层防御 | 2. 提取深层痛点与物理怪癖 | 3. 提取四大模块标准卡
@@ -63,7 +63,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-31
 > **Layout**: Grid
-> **Asset**: ![预览](../public/slides/w03-slide-31.png)
+> **Asset**: ![预览](../public/slides/w03-slide-31.webp)
 > **Scene**: 满屏密集排列的标准用户画像结构卡
 > **Text**: 全班复盘：同一主题，不同角色，JTBD 差异一目了然
 > **List**: 1. AI 陪练访谈（5-Why） | 2. 四大模块结构卡（/总结） | 3. 实践项目 报告规范对齐
@@ -75,7 +75,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-32
 > **Layout**: `Center`
-> **Asset**: ![预览](../public/slides/w03-slide-32.png)
+> **Asset**: ![预览](../public/slides/w03-slide-32.webp)
 > **Scene**: 一份盖着绝密红印的指令书被重重拍在桌面上，标题印着 EXP.01
 > **Text**: 第一场项目代号：EXP.01 荒野与猎物 (User Insight & Journey)
 
@@ -99,7 +99,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-37_roles
 > **Layout**: Grid
-> **Asset**: ![预览](../public/slides/w03-slide-37_roles.png)
+> **Asset**: ![预览](../public/slides/w03-slide-37_roles.webp)
 > **Scene**: Hacker, Hipster, Hustler 三种兵种的角色卡片
 > **Text**: 黄金铁三角：商业逻辑、技术可行性与体验尊严
 > **List**: Hustler (商业/破局者) | Hipster (体验/控制者) | Hacker (技术/工程师)
@@ -110,7 +110,7 @@
 > [VISUAL]
 > **Slide**: W03-06-Persona-Mockup
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/W03-06-Persona-Mockup.png)
+> **Asset**: ![预览](../public/slides/W03-06-Persona-Mockup.webp)
 > **Scene**: 展示一张基于四大模块标准格式排版的 Proto-Persona 报告卡草稿范例。
 > **Text**: 交付物标准：四大模块画像草稿
 
@@ -120,7 +120,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-38_failure_case
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-38_failure_case.png)
+> **Asset**: ![预览](../public/slides/w03-slide-38_failure_case.webp)
 > **Scene**: 左侧是装帧精美、堆满图表的问卷报告；右侧是一个空荡荡的大学社团活动室和无人问津的报名表
 > **Text**: 死于大楼里的完美报告
 
@@ -132,7 +132,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-38_data_illusion
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-38_data_illusion.png)
+> **Asset**: ![预览](../public/slides/w03-slide-38_data_illusion.webp)
 > **Scene**: 精美的彩色饼图漂浮在屏幕上，下方掩盖的是真实的痛楚
 > **Text**: 数据的欺骗性：爬虫抓不到深层的恐惧
 >
@@ -144,7 +144,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-38_field_reality
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-38_field_reality.png)
+> **Asset**: ![预览](../public/slides/w03-slide-38_field_reality.webp)
 > **Scene**: 清晨 6 点药店门口真实排队的老人和冻红的双手
 > **Text**: 脱离肉身碰撞的洞察，比无知更可怕
 >
@@ -153,7 +153,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-33
 > **Layout**: `Split`
-> **Asset**: ![预览](../public/slides/w03-slide-33.png)
+> **Asset**: ![预览](../public/slides/w03-slide-33.webp)
 > **Scene**: 屏幕上嵌着三条战火淬炼出的经验军规
 > **Text**: 三条核心训诫：说谎本能 · JTBD 视角 · 先导验证
 > **List**: 1. 用户往往言不由衷 | 2. 切开真实的墙洞 | 3. 无定量验证即是空谈
@@ -164,7 +164,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-31b
 > **Layout**: Title
-> **Asset**: ![预览](../public/slides/w03-slide-31b.png)
+> **Asset**: ![预览](../public/slides/w03-slide-31b.webp)
 > **Scene**: 在幽暗的灯光下，一张布满使用痕迹的真实账单被高亮照亮，隐喻用实际付出的代价戳破语言的谎言
 > **Text**: "不要问他们将来会不会用，看他们现在为了解决问题付出了什么代价。"
 
@@ -182,7 +182,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-34
 > **Layout**: `Center`
-> **Asset**: ![预览](../public/slides/w03-slide-34.png)
+> **Asset**: ![预览](../public/slides/w03-slide-34.webp)
 > **Scene**: 昏暗聚光灯下，一把锋利的锥子正刺穿迷雾
 > **Text**: 保持求知，保持敏锐，下周见 (Stay Hungry, Stay Sharp)
 

@@ -14,7 +14,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Industry_Map`
 > *   **Layout**: `Flow`
-> *   **Asset**: ![预览](assets/slides/S02_Industry_Map.png)
+> *   **Asset**: ![预览](assets/slides/S02_Industry_Map.webp)
 > *   **Scene**: 泛娱乐内容产业三大赛道分支图：游戏与交互、影视动画、新媒体运营，各赛道下方列出典型岗位。
 
 同学们
@@ -46,7 +46,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Base_Yueyou`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S02_Base_Yueyou.png)
+> *   **Asset**: ![预览](assets/slides/S02_Base_Yueyou.webp)
 > *   **Scene**: 悦游公司简介卡片：Logo + 标签"动漫游戏开发 / 技术服务" + 核心业务关键词 + 广州分公司信息。
 
 *   **标签**: 动漫游戏开发 / 技术服务
@@ -60,7 +60,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Base_Coco`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S02_Base_Coco.png)
+> *   **Asset**: ![预览](assets/slides/S02_Base_Coco.webp)
 > *   **Scene**: 口可口可公司简介卡片：Logo + 标签"软件开发 / 互动娱乐" + VR/AR/MR/XR 技术栈 + 知识产权数据（94 项软著、21 项专利）。
 
 *   **标签**: 软件开发 / 互动娱乐
@@ -76,7 +76,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Base_Yuanxiang`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S02_Base_Yuanxiang.png)
+> *   **Asset**: ![预览](assets/slides/S02_Base_Yuanxiang.webp)
 > *   **Scene**: 原象公司简介卡片：Logo + 标签"整合营销 / 数字广告" + 服务品牌案例 + 校企合作数据。
 
 *   **标签**: 整合营销 / 数字广告
@@ -95,7 +95,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Base_XZC`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S02_Base_XZC.png)
+> *   **Asset**: ![预览](assets/slides/S02_Base_XZC.webp)
 > *   **Scene**: 新众创公司简介卡片：Logo + 标签"网络技术 / 软件开发" + 核心业务关键词。
 
 *   **标签**: 网络技术 / 软件开发
@@ -109,7 +109,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Base_MingJiang`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S02_Base_MingJiang.png)
+> *   **Asset**: ![预览](assets/slides/S02_Base_MingJiang.webp)
 > *   **Scene**: 名匠公司简介卡片：Logo + 标签"游戏美术外包 / 3D 制作" + 核心技术（动作捕捉系统专利）+ 高校合作案例。
 
 *   **标签**: 游戏美术外包 / 3D 制作
@@ -136,7 +136,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Skill_Match`
 > *   **Layout**: `Full`
-> *   **Asset**: ![预览](assets/slides/S02_Skill_Match.png)
+> *   **Asset**: ![预览](assets/slides/S02_Skill_Match.webp)
 > *   **Scene**: 技能-公司匹配对照表：左列为技能方向（3D 建模、UI/UX、动效、平面创意、技术开发），右列为对应推荐公司。
 
 不要只看公司名气，**要看你的作品集里装的是什么**。请大家看屏幕上这张匹配表：
@@ -184,7 +184,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Portfolio_Tips`
 > *   **Layout**: `Comparison`
-> *   **Asset**: ![预览](assets/slides/S02_Portfolio_Tips.png)
+> *   **Asset**: ![预览](assets/slides/S02_Portfolio_Tips.webp)
 > *   **Scene**: 左侧：作品集"三要三不要"清单；右侧：简历"数据化表达"示例对比（反面 vs 正面）。
 
 选好了心仪的方向，下一步就是**让自己配得上那个方向**。重点讲两件事：作品集和简历。
@@ -226,7 +226,7 @@
 > [VISUAL]
 > *   **Slide**: `S02_Next_Steps`
 > *   **Layout**: `Split`
-> *   **Asset**: ![预览](assets/slides/S02_Next_Steps.png)
+> *   **Asset**: ![预览](assets/slides/S02_Next_Steps.webp)
 > *   **Scene**: 接下来的行动清单：1. 确定意向赛道 2. 研究目标公司 3. 准备作品集 4. 完善简历 5. 参加安全教育课程。
 
 > [LIFE CONNECT: 找工作就像找对象]

@@ -39,14 +39,14 @@ status: complete
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 5.15 | 北京奥林匹克公园地区区域地图 | ![](images/bd0da6f687c5d959b267ed2ba4bd023c11b53124eb74a2d4271f71a2070b7624.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_15.jpg` |
-| Fig 5.16 | 北京西直门立交桥地区的区域地图及形象选取 | ![](images/ea8ea422ace8cfc600054c63463ecb6b2d78988b2b5e10e623cdda3438958c0c.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_16.jpg` |
-| Fig 5.21 | 乌兰巴托市小圈路地区区域地图最终成品 | ![](images/6818069184cd449fac96f3b4cb8e800f8de924d06badc7db5f785dc4047eb089.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_21.jpg` |
-| Fig 5.24 | 诺曼底登陆战役作品完成图 | ![](images/49fb338574345b6135b7c1d1ab307b9b51fb735b976140525dcd12552d6e423f.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_24.jpg` |
-| Fig 5.26 | 影片《闪灵》作品完成图 | ![](images/825e7a2a94d957b270f9d639ada72488706c6c200e1a6f1fc873199842f44ef7.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_26.jpg` |
-| Fig 5.28 | 影片《前目的地》完成作品 | ![](images/a672173b5e7e49145d7a0a9147939b0c79f89b89b1307d618dcc3d0aab30aae2.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_28.jpg` |
-| Fig 5.71 | 《忽视的噪声》作品完成图之一 | ![](images/59875f4cf7ed9fcf891cbcbaab667d7ccd9926b6c3cc7f521f71c0d674b86f4e.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_71.jpg` |
-| Fig 5.74 | 《忽视的噪声》立体模型 | ![](images/eb1ba80431c3ebd0af7ba51586badf92cad4e0e04c208c878cc153acd0a71560.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_5_74.jpg` |
+| Fig 5.15 | 北京奥林匹克公园地区区域地图 | ![](images/bd0da6f687c5d959b267ed2ba4bd023c11b53124eb74a2d4271f71a2070b7624.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_15.webp` |
+| Fig 5.16 | 北京西直门立交桥地区的区域地图及形象选取 | ![](images/ea8ea422ace8cfc600054c63463ecb6b2d78988b2b5e10e623cdda3438958c0c.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_16.webp` |
+| Fig 5.21 | 乌兰巴托市小圈路地区区域地图最终成品 | ![](images/6818069184cd449fac96f3b4cb8e800f8de924d06badc7db5f785dc4047eb089.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_21.webp` |
+| Fig 5.24 | 诺曼底登陆战役作品完成图 | ![](images/49fb338574345b6135b7c1d1ab307b9b51fb735b976140525dcd12552d6e423f.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_24.webp` |
+| Fig 5.26 | 影片《闪灵》作品完成图 | ![](images/825e7a2a94d957b270f9d639ada72488706c6c200e1a6f1fc873199842f44ef7.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_26.webp` |
+| Fig 5.28 | 影片《前目的地》完成作品 | ![](images/a672173b5e7e49145d7a0a9147939b0c79f89b89b1307d618dcc3d0aab30aae2.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_28.webp` |
+| Fig 5.71 | 《忽视的噪声》作品完成图之一 | ![](images/59875f4cf7ed9fcf891cbcbaab667d7ccd9926b6c3cc7f521f71c0d674b86f4e.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_71.webp` |
+| Fig 5.74 | 《忽视的噪声》立体模型 | ![](images/eb1ba80431c3ebd0af7ba51586badf92cad4e0e04c208c878cc153acd0a71560.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_5_74.webp` |
 
 ## 易混淆概念辨析
 

@@ -14,9 +14,9 @@ Displaying user-uploaded images at their intrinsic aspect ratio can
 really throw off a layout, especially if there are a lot of images on
 the screen at once.
 
-![](images/index-215_1.png)
+![](images/index-215_1.webp)
 
-![](images/index-215_2.png)
+![](images/index-215_2.webp)
 
 215
 
@@ -29,9 +29,9 @@ fit.
 This is really easy to do with CSS these days by making the image a
 background image, and setting the background-size property to cover.
 
-![](images/index-216_1.png)
+![](images/index-216_1.webp)
 
-![](images/index-216_2.png)
+![](images/index-216_2.webp)
 
 Beware user-uploaded content
 
@@ -46,7 +46,7 @@ together, causing the image to lose its shape.
 Instead of trying to solve this with a border, try using a subtle inner
 box shadow:
 
-![](images/index-217_1.png)
+![](images/index-217_1.webp)
 
 217
 

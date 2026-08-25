@@ -42,11 +42,11 @@ At the highest level, the framework distinguishes between two possible goals of 
 
 The most common use case for vis is for the user to consume information that has already been generated as data stored in a
 
-![](images/8338b3ad2ca06daea679c7d9deb0bee57a3b7eb45d2e7cd3b49bad11d916f37d.jpg)
+![](images/8338b3ad2ca06daea679c7d9deb0bee57a3b7eb45d2e7cd3b49bad11d916f37d.webp)
 
 # Actions
 
-![](images/c345f2bda4aa9d59f924450791d2b5a8731262d69204a399fe67b5ca41ea5831.jpg)
+![](images/c345f2bda4aa9d59f924450791d2b5a8731262d69204a399fe67b5ca41ea5831.webp)
 
 # Analyze
 
@@ -54,53 +54,53 @@ Consume
 
 Discover
 
-![](images/d680f1706d6609d35087b4c1480b4bc0355006035b88d12a3a76f3c3972bf772.jpg)
+![](images/d680f1706d6609d35087b4c1480b4bc0355006035b88d12a3a76f3c3972bf772.webp)
 
 Present
 
-![](images/94da9d8a351e16dad3f37e287659bae57930646ad5d86eeb1fb9351fb864e21e.jpg)
+![](images/94da9d8a351e16dad3f37e287659bae57930646ad5d86eeb1fb9351fb864e21e.webp)
 
 Enjoy
 
-![](images/5f0ac56b0e99c6f7e97e4c673281e3162123b566f73ac654d0282ea784696587.jpg)
+![](images/5f0ac56b0e99c6f7e97e4c673281e3162123b566f73ac654d0282ea784696587.webp)
 
 Produce
 
 Annotate
 
-![](images/c5d2d08ddf1d6d11f71596abcbe7e944dec1c9811c9376c7226d1166e44ec4c5.jpg)
+![](images/c5d2d08ddf1d6d11f71596abcbe7e944dec1c9811c9376c7226d1166e44ec4c5.webp)
 
 Record
 
-![](images/89a5b997e6dd8843a7bea73bbc3204f206e08d4c023ecd8371a6b939ce236f2e.jpg)
+![](images/89a5b997e6dd8843a7bea73bbc3204f206e08d4c023ecd8371a6b939ce236f2e.webp)
 
 Derive
 
-![](images/0c5ee56ebd553e0a4ad53395ca4c7375755ee6ce032b7287e532c94ae5e157d2.jpg)
+![](images/0c5ee56ebd553e0a4ad53395ca4c7375755ee6ce032b7287e532c94ae5e157d2.webp)
 
-![](images/41d48af1995ad06455121d0011e7e874514cd766a0251807cbb6b32d4edd4d92.jpg)
+![](images/41d48af1995ad06455121d0011e7e874514cd766a0251807cbb6b32d4edd4d92.webp)
 
-![](images/c318a072392340b1fc1113369702278f0a8141fce362bcfbd9d0b6378474bc8e.jpg)
+![](images/c318a072392340b1fc1113369702278f0a8141fce362bcfbd9d0b6378474bc8e.webp)
 
 # Search
 
 <table><tr><td></td><td>Target known</td><td>Target unknown</td></tr><tr><td>Location known</td><td>••••Lookup</td><td>••••Browse</td></tr><tr><td>Location unknown</td><td>&lt;••••Locate</td><td>&lt;••••Explore</td></tr></table>
 
-![](images/aa55201b8c36beacd945f7b435f5c6cbc179a67e62f541273dd8bba67a481e88.jpg)
+![](images/aa55201b8c36beacd945f7b435f5c6cbc179a67e62f541273dd8bba67a481e88.webp)
 
 # Query
 
 Identify
 
-![](images/3f61e6ff15436f33f73faf5d1131e1208ece69aa9b03d8ccd26cf6e18871a261.jpg)
+![](images/3f61e6ff15436f33f73faf5d1131e1208ece69aa9b03d8ccd26cf6e18871a261.webp)
 
 Compare
 
-![](images/f918b8641bbcdcd2b86e2e45fbc81e14103acbc6b30974bf2985a297bf569ac4.jpg)
+![](images/f918b8641bbcdcd2b86e2e45fbc81e14103acbc6b30974bf2985a297bf569ac4.webp)
 
 Summarize
 
-![](images/2df91f7765755916794ea6bae0bf3e78a175b867adf61816dd785d6d326afe7b.jpg)  
+![](images/2df91f7765755916794ea6bae0bf3e78a175b867adf61816dd785d6d326afe7b.webp)  
 Figure 3.2. Three levels of actions: analyze, search, and query.
 
 format amenable to computation. The framework has three further distinctions within that case: whether the goal is to present something that the user already understands to a third party, or for the user to discover something new or analyze information that
@@ -133,9 +133,9 @@ One aspect of this classification that’s tricky is that the goals of the event
 
 Figure 3.3 shows the Name Voyager, which was created for expectant parents deciding what to name their new baby. When the user types characters of a name, the vis shows data for the popularity of names in the United States since 1900 that start with that sequence of characters. The tool uses the visual encoding idiom where each name has a stripe whose height corresponds to popularity at a given time. Currently popular names are brighter, and gender is encoded by color. The Name Voyager appealed to many people with no interest in having children, who analyzed many different historical trends and posted extensively about their findings in their personal blogs, motivated by their own enjoyment rather than a pressing need [Wattenberg 05].
 
-![](images/089a76ca416e55d45cad1ce152888bdf1760eed76c3aae4f6baeb8cd25c7e7a2.jpg)
+![](images/089a76ca416e55d45cad1ce152888bdf1760eed76c3aae4f6baeb8cd25c7e7a2.webp)
 
-![](images/7d18d1b3301d6d548f9aeac0f16dc7303b2592c8bd38d2a8eca0e043b5f3e688.jpg)  
+![](images/7d18d1b3301d6d548f9aeac0f16dc7303b2592c8bd38d2a8eca0e043b5f3e688.webp)  
 Figure 3.3. Name Voyager, a vis tool originally intended for parents focused deciding on what to name their expected baby, ended up being used by many nonparents to analyze historical trends for their own enjoyment. Left: Names starting with ‘O’ had a notable dip in popularity in the middle of the century. Right: Names starting with ‘LAT’ show a trend of the 1970s. After [Wattenberg 05, Figures 2 and 3], using http://www.babynamewizard.com.
 
 # 3.4.2 Produce
@@ -152,7 +152,7 @@ The annotate goal refers to the addition of graphical or textual annotations ass
 
 The record goal saves or captures visualization elements as persistent artifacts. These artifacts include screen shots, lists of book-
 
-![](images/d508147e0e769bfe300b4a6f986c60a0acebe88fe015da998349c3e780820dbb.jpg)  
+![](images/d508147e0e769bfe300b4a6f986c60a0acebe88fe015da998349c3e780820dbb.webp)  
 Figure 3.4. Graphical history recorded during an analysis session with Tableau. From [Heer et al. 08, Figure 1].
 
 marked elements or locations, parameter settings, interaction logs, or annotations. The record choice saves a persistent artifact, in contrast to the annotate, which attaches information temporarily to existing elements; an annotation made by a user can subsequently be recorded. One interesting example of a record goal is to assemble a graphical history, in which the output of each task includes a static snapshot of the view showing its current state, and these snapshots accumulate in a branching meta-visualization showing what occurred during the user’s entire session of using the vis tool. Figure 3.4 shows an example from the Tableau vis tool [Heer et al. 08]. Recording and retaining artifacts such as these are often desirable for maintaining a sense of analytical provenance, allowing users to revisit earlier states or parameter settings.
@@ -179,10 +179,10 @@ A new derived attribute may be created using arithmetic, logical, or statistical
 
 * A synonym for derive is transform.
 
-![](images/673fa0bbb460f9b80c5ef88036f441827675459148f5c21c1e5a1d79b7f59da2.jpg)  
+![](images/673fa0bbb460f9b80c5ef88036f441827675459148f5c21c1e5a1d79b7f59da2.webp)  
 (a)
 
-![](images/ffa74fefdcd34b6b905d1213f1058c1015e60ba8264887eabcdd204055f907d9.jpg)  
+![](images/ffa74fefdcd34b6b905d1213f1058c1015e60ba8264887eabcdd204055f907d9.webp)  
 (b)   
 Figure 3.5. Derived attributes can be directly visually encoded. (a) Two original data attributes are plotted, imports and exports. (b) The quantitative derived attribute of trade balance, the difference between the two originals, can be plotted directly.
 
@@ -252,27 +252,27 @@ Section 6.7 discusses the question of how and when to provide overviews.
 * There are many other synonyms for outliers, including anomalies, novelties, deviants, and surprises.   
 Attributes are discussed in detail in Chapter 2.
 
-![](images/c06e5416889462171602e0bb05ee392465a2be63288edf6eb3de281bf961409a.jpg)
+![](images/c06e5416889462171602e0bb05ee392465a2be63288edf6eb3de281bf961409a.webp)
 
 # Targets
 
-![](images/fb97f665e8a82fb3894c620ecab3dee68107a8351c85b3beb10dd4d1b6706292.jpg)
+![](images/fb97f665e8a82fb3894c620ecab3dee68107a8351c85b3beb10dd4d1b6706292.webp)
 
 # All Data
 
 Trends
 
-![](images/429a9a98a93f0bcee5f61d26fc5f6b644464a552c9e72bd0564e2307789e4a17.jpg)
+![](images/429a9a98a93f0bcee5f61d26fc5f6b644464a552c9e72bd0564e2307789e4a17.webp)
 
 Outliers
 
-![](images/83f7307b2a79d858eb37d5e84e4da519f5a86491f90996e3ba2ae3b407897a18.jpg)
+![](images/83f7307b2a79d858eb37d5e84e4da519f5a86491f90996e3ba2ae3b407897a18.webp)
 
 Features
 
-![](images/10400392187c8865276cc1ca71ac96c7b71ad4a4da98693f00a4fb3c4be57d59.jpg)
+![](images/10400392187c8865276cc1ca71ac96c7b71ad4a4da98693f00a4fb3c4be57d59.webp)
 
-![](images/de37c41109c21a37bcdbef23014ba9c0685a06277bc073bba02543f9f738dd8f.jpg)
+![](images/de37c41109c21a37bcdbef23014ba9c0685a06277bc073bba02543f9f738dd8f.webp)
 
 # Attributes
 
@@ -280,45 +280,45 @@ One
 
 Distribution
 
-![](images/d9622d20f5f75486fdffd01d85fb8a807f3af7a3a5d4c5fc07be213078ad9ae4.jpg)
+![](images/d9622d20f5f75486fdffd01d85fb8a807f3af7a3a5d4c5fc07be213078ad9ae4.webp)
 
 Many
 
 Dependency
 
-![](images/6fa2c12cb59ff2cb3a9e7f382f241d869976641669699103f01a6b7659fd5e1d.jpg)
+![](images/6fa2c12cb59ff2cb3a9e7f382f241d869976641669699103f01a6b7659fd5e1d.webp)
 
 Correlation
 
-![](images/38db14212a12a7d4d5a36796f8ee5d5967f855a4bf92e8d2e8fbd9ddfe825e24.jpg)
+![](images/38db14212a12a7d4d5a36796f8ee5d5967f855a4bf92e8d2e8fbd9ddfe825e24.webp)
 
 Similarity
 
-![](images/ade5f745a88296b3b03767722af457a5d74baa1075926f1b3aa98f0370db4b24.jpg)
+![](images/ade5f745a88296b3b03767722af457a5d74baa1075926f1b3aa98f0370db4b24.webp)
 
-![](images/a410ed24516ca6515b205281afad7f7463d31e55a81b717a4601415f83917adf.jpg)
+![](images/a410ed24516ca6515b205281afad7f7463d31e55a81b717a4601415f83917adf.webp)
 
 # Network Data
 
 Topology
 
-![](images/5145e6229321fea0bd3763786a6a8fb2931381575c563c03ac11a0936a2d0ee8.jpg)
+![](images/5145e6229321fea0bd3763786a6a8fb2931381575c563c03ac11a0936a2d0ee8.webp)
 
-![](images/dc4eae9936b7aca73ebab1b409cf67e4d8b0802959b18bf56e93fe9b7eb216ae.jpg)
+![](images/dc4eae9936b7aca73ebab1b409cf67e4d8b0802959b18bf56e93fe9b7eb216ae.webp)
 
-![](images/36da0bddaf81fca5fdf8a587fc53b34da9ec15140d5b278165f0f8d08ab17a4f.jpg)
+![](images/36da0bddaf81fca5fdf8a587fc53b34da9ec15140d5b278165f0f8d08ab17a4f.webp)
 
 Paths
 
-![](images/d2e44d8c1a90dc44071f3a0f7756f664e945a49d40dfa2d9320570944f7c3228.jpg)
+![](images/d2e44d8c1a90dc44071f3a0f7756f664e945a49d40dfa2d9320570944f7c3228.webp)
 
-![](images/1572404460598ff26768a28706ccc1100c888214b6727d3ce5a580bc91fb65ee.jpg)
+![](images/1572404460598ff26768a28706ccc1100c888214b6727d3ce5a580bc91fb65ee.webp)
 
 # Spatial Data
 
 Shape
 
-![](images/d3f2aea4cde8265930daa25d2847c4402ef5547f84e73f5c48a62098ae686c79.jpg)  
+![](images/d3f2aea4cde8265930daa25d2847c4402ef5547f84e73f5c48a62098ae686c79.webp)  
 Figure 3.6. The goals of the user might be to find or understand specific aspects of the data: trends and outliers for all kinds of data; individual values, the minimum or maximum extremes of the range, or the entire distribution of a single attribute; or the dependencies, correlations, or similarities between multiple attributes; topology or paths for network data, and shape for spatial data.
 
 target that has high-level scope is the distribution of all values for an attribute.
@@ -339,7 +339,7 @@ The network datatype is covered in Section 2.4.2, and choices for how arrange ne
 
 Section 2.4.3.1 covers the dataset type of spatial fields, and Section 2.4.4 covers geometry. Choices for arranging spatial data are covered in Chapter 8.
 
-![](images/9e5e4fa3240e85195cabebda5421c9f5eed2bb15ca7a6d9db42c0d39601aeca0.jpg)  
+![](images/9e5e4fa3240e85195cabebda5421c9f5eed2bb15ca7a6d9db42c0d39601aeca0.webp)  
 Figure 3.7. How to design vis idioms: encode, manipulate, facet, and reduce.
 
 reduce the data shown has the options of filter data away, aggregate many data elements together, and embed focus and context information together within a single view.
@@ -356,10 +356,10 @@ The what–why–how analysis framework is useful for comparative analysis, for 
 
 SpaceTree [Plaisant et al. 02], shown in Figure 3.8(a), and Tree-Juxtaposer [Munzner et al. 03], shown in Figure 3.8(b), are tree vis
 
-![](images/96c857db4516a4f05d74b218e5023a20fcc9451532eda261e1fb9db7fcaacc46.jpg)  
+![](images/96c857db4516a4f05d74b218e5023a20fcc9451532eda261e1fb9db7fcaacc46.webp)  
 (a)
 
-![](images/532f3951d1f74c5414fdf9b1fd8dfc0ebb37374303cb56157b01b259e265c776.jpg)  
+![](images/532f3951d1f74c5414fdf9b1fd8dfc0ebb37374303cb56157b01b259e265c776.webp)  
 (b)   
 Figure 3.8. Comparing two idioms. (a) SpaceTree [Plaisant et al. 02]. (b) TreeJuxtaposer. From http://www.cs.umd. edu/hcil/spacetree and [Munzner et al. 03, Figure 1].
 
@@ -367,7 +367,7 @@ What?
 
 $\textcircled{ \div}$ Tree
 
-![](images/12ea4cebea11af9d34acc1e874adc09fe97cafa21f701e7c75adec5ce155feef.jpg)
+![](images/12ea4cebea11af9d34acc1e874adc09fe97cafa21f701e7c75adec5ce155feef.webp)
 
 Why?
 
@@ -379,11 +379,11 @@ Locate
 
 Identify
 
-![](images/b944bb2d5e53a98bc5d7ae6f852768e029b8c885e7fc104546bc1f7b7e8ac640.jpg)
+![](images/b944bb2d5e53a98bc5d7ae6f852768e029b8c885e7fc104546bc1f7b7e8ac640.webp)
 
-![](images/b8b1c61c94883c6dfbe1fc5ab02a29281a618f4196e4d2a9277e43b676045dab.jpg)
+![](images/b8b1c61c94883c6dfbe1fc5ab02a29281a618f4196e4d2a9277e43b676045dab.webp)
 
-![](images/5ba8d216d69dff604f601c282917846c3038cc9adfe36220be20f6b8eb3cbe31.jpg)
+![](images/5ba8d216d69dff604f601c282917846c3038cc9adfe36220be20f6b8eb3cbe31.webp)
 
 How?
 
@@ -393,25 +393,25 @@ Encode
 
 Navigate
 
-![](images/99cdc52a1b4283376c8cd12d83ed39aa4e75f624119ad481b074121c8d4f1bbc.jpg)
+![](images/99cdc52a1b4283376c8cd12d83ed39aa4e75f624119ad481b074121c8d4f1bbc.webp)
 
 Selec t
 
-![](images/c5a12c2cb0a975636082ed0837398d031d3788db40cc6d06310ace99796dd890.jpg)
+![](images/c5a12c2cb0a975636082ed0837398d031d3788db40cc6d06310ace99796dd890.webp)
 
 Filter
 
-![](images/ec0de4bb026529fb1f71f569711aed9d2c18e3c853a4d91faefd6b70ea157b88.jpg)
+![](images/ec0de4bb026529fb1f71f569711aed9d2c18e3c853a4d91faefd6b70ea157b88.webp)
 
 Aggregate
 
-![](images/46f1332029c7d05391152989df5fb503a774aa362e816c50d7879e1df68addf6.jpg)
+![](images/46f1332029c7d05391152989df5fb503a774aa362e816c50d7879e1df68addf6.webp)
 
 $\circled{ \div}$ Targets
 
 Path bet ween t wo nodes
 
-![](images/0f7d197510f0fc8808481d126df046064561397726e2c88fbe0e892a1fec7225.jpg)
+![](images/0f7d197510f0fc8808481d126df046064561397726e2c88fbe0e892a1fec7225.webp)
 
 $\circled{ \div}$ TreeJux taposer
 
@@ -423,13 +423,13 @@ Selec t
 
 Arrange
 
-![](images/3558cb4c8ce6b6c645cf6ca5d03484cc33dbb17580a8967d085186b0f8bf716f.jpg)
+![](images/3558cb4c8ce6b6c645cf6ca5d03484cc33dbb17580a8967d085186b0f8bf716f.webp)
 
-![](images/7cae1151640d575c60d4fb85c9dcd4e108319fd7f399ea741324d55cf12a5670.jpg)
+![](images/7cae1151640d575c60d4fb85c9dcd4e108319fd7f399ea741324d55cf12a5670.webp)
 
-![](images/5438da97d074666fb2a93eff70854e670a0c828e688058c48681d1466a7f1d4e.jpg)
+![](images/5438da97d074666fb2a93eff70854e670a0c828e688058c48681d1466a7f1d4e.webp)
 
-![](images/3a8642c83402d19ec68ad94abaf7658071dc423908d0fe897c95b2470e83128d.jpg)  
+![](images/3a8642c83402d19ec68ad94abaf7658071dc423908d0fe897c95b2470e83128d.webp)  
 Figure 3.9. Analyzing what–why–how comparatively for the SpaceTree and TreeJuxtaposer idioms.
 
 tools that use somewhat different idioms. What these tools take as input data is the same: a large tree composed of nodes and links. Why these tools are being used is for the same goal in this scenario: to present a path traced between two nodes of interest to a colleague. In more detail, both tools can be used to locate paths between nodes and identify them.
@@ -440,10 +440,10 @@ Some aspects of idioms are the same: both systems allow the user to navigate and
 
 In a vis showing a complex network or tree, it is useful to be able to filter out most of the complexity by drawing a simpler picture that communicates the key aspects of its topological structure. One way to support this kind of summarization is to calculate a new derived attribute that measures the importance of each node in the graph and filter based on that attribute. Many different approaches to calculating importance have been proposed; centrality metrics do so in a way that takes into account network topology. The Strahler number is a measure of node importance originally
 
-![](images/5d354f57cd9d29339071b1edc9aa3a0f03de01a6f49b887106130bef700976eb.jpg)  
+![](images/5d354f57cd9d29339071b1edc9aa3a0f03de01a6f49b887106130bef700976eb.webp)  
 (a)
 
-![](images/0672e9f9fb817e0230116786b78a9c436eb9531ca0fe4f8bb865e92f4b6309a3.jpg)  
+![](images/0672e9f9fb817e0230116786b78a9c436eb9531ca0fe4f8bb865e92f4b6309a3.webp)  
 (b)   
 Figure 3.10. The derived quantitative attribute of Strahler numbers is used to filter the tree in order to create a recognizable summary. (a) The important skeleton of a large tree is visible when only 5000 of the highest-ranked nodes are drawn. (b) The full tree has over a half million nodes. From [Auber 02, Figures 10 and 13].
 
@@ -453,7 +453,7 @@ Figure 3.10 shows an example of filtering according to the Strahler derived attr
 
 To summarize this example concisely in terms of a what–why– how analysis, as shown in Figure 3.11, a new quantitative attribute is derived and used to filter away the peripheral parts of a tree, in support of the task of summarizing the tree’s overall topology. As in the previous example, the tree is encoded as a node–link diagram, the most common choice for tree and network arrangment.
 
-![](images/0f931ad214b2dd7a6a110e0b0a8edf1c24fc02e8dc57da59d9a4cf625a637202.jpg)  
+![](images/0f931ad214b2dd7a6a110e0b0a8edf1c24fc02e8dc57da59d9a4cf625a637202.webp)  
 Figure 3.11. Analyzing a chained sequence of two instances where an attribute is derived in order to summarize a tree by filtering away the unimportant parts.
 
 # 3.7.3 Deriving Many New Attributes
@@ -464,31 +464,31 @@ The original dataset is a time-varying spatial field with measurements along a c
 
 Multiple views are discussed further in Chapter 12.
 
-![](images/89217d59f7c7d088fb838a0c22a0a8790c9cd172cde09f9c3776948c5068f688.jpg)
+![](images/89217d59f7c7d088fb838a0c22a0a8790c9cd172cde09f9c3776948c5068f688.webp)
 
-![](images/154516125ef2537f03217097e8b7afe8a3f55359c3b90f10580ce679918f44eb.jpg)
+![](images/154516125ef2537f03217097e8b7afe8a3f55359c3b90f10580ce679918f44eb.webp)
 
-![](images/2ca169c22e28bb43a5337af42531ccc969c8ad5849b956b4e020a7efe48d7b5a.jpg)
+![](images/2ca169c22e28bb43a5337af42531ccc969c8ad5849b956b4e020a7efe48d7b5a.webp)
 
-![](images/bc87c31dd59d99ecaca748b1e021947c78357dfcc606b4efbf576c8e51ddf985.jpg)
+![](images/bc87c31dd59d99ecaca748b1e021947c78357dfcc606b4efbf576c8e51ddf985.webp)
 
-![](images/2a6816fbb98c9343547690afa4a7a20297f23c5d0f405f698427debc7e1540c9.jpg)
+![](images/2a6816fbb98c9343547690afa4a7a20297f23c5d0f405f698427debc7e1540c9.webp)
 
-![](images/ce375f12b8d5f3a18390cfa03cb39f58a09d24bf9c7715df349a92c49430ebd1.jpg)  
+![](images/ce375f12b8d5f3a18390cfa03cb39f58a09d24bf9c7715df349a92c49430ebd1.webp)  
 Figure 3.12. Computational fluid dynamics vis showing the list of many derived attributes (top left), one view of the original spatial field (top right), and four other views showing pairs of selected derived attributes. The multiple juxtaposed views are coordinated with shared colored highlights. From [Henze 98, Figure 5].
 
 recirculation zone can easily be selected in this view. The pressure vs temperature pane in the bottom middle of Figure 3.12 shows another derived space made by plotting the pressure versus the temperature. In this view, the red recirculation zone and the yellow wake appear where both the pressure and temperature variables are high, in the upper right. Without getting into the exact technical meaning of the derived variables as used in fluid dynamics (vorticity, entropy, enthalpy, and so on), the point of this example is that many structures of interest in fluid dynamics can be seen more easily from layouts in the derived spaces.
 
-![](images/c71de7b98f515daae1034e11ea6d70e19dd3eb71520fc85a2be8d39e013c498c.jpg)  
+![](images/c71de7b98f515daae1034e11ea6d70e19dd3eb71520fc85a2be8d39e013c498c.webp)  
 Task 1   
   
 Spatial field
 
-![](images/bfff1accb52ca5c7ce12b3b56a7fd8865a05725ee6e8d58f3dac9b5602fde5e2.jpg)  
+![](images/bfff1accb52ca5c7ce12b3b56a7fd8865a05725ee6e8d58f3dac9b5602fde5e2.webp)  
   
 Many quantitative attributes
 
-![](images/207aac39c4b0a21cb09ab9d23d039ce8a2862f5df069e2955bbfe00d19e67fbc.jpg)
+![](images/207aac39c4b0a21cb09ab9d23d039ce8a2862f5df069e2955bbfe00d19e67fbc.webp)
 
 # What?
 
@@ -497,23 +497,23 @@ $\circled{ \div}$ Out Many quantitative attributes
 
 # Why?
 
-![](images/1eae5748e5ac19b975e747224759f51e734ff480e8eb31aa5054ad0df57bc015.jpg)  
+![](images/1eae5748e5ac19b975e747224759f51e734ff480e8eb31aa5054ad0df57bc015.webp)  
 Derive
 
-![](images/5d7ea3b53379fe92881738fe6fd0713250116082472c1aa3c3c5a8fcc9e635ab.jpg)  
+![](images/5d7ea3b53379fe92881738fe6fd0713250116082472c1aa3c3c5a8fcc9e635ab.webp)  
 Task 2   
 I n   
 Spatial field
 
-![](images/88315431532501860acb5bfa8ab5c172473a148c8e766c7f38b71dc0755508ea.jpg)  
+![](images/88315431532501860acb5bfa8ab5c172473a148c8e766c7f38b71dc0755508ea.webp)  
 I n   
 $^ +$ M any quantitative attributes
 
-![](images/c5b40fbd082a74ff1173bf91f8bde721bdab3a98c47357ee015605d22728bce6.jpg)
+![](images/c5b40fbd082a74ff1173bf91f8bde721bdab3a98c47357ee015605d22728bce6.webp)
 
-![](images/d5e7e6e8524ad0294b668242be04799c394f5702e5da6bb3388e9850b21a983e.jpg)
+![](images/d5e7e6e8524ad0294b668242be04799c394f5702e5da6bb3388e9850b21a983e.webp)
 
-![](images/c50d5b36b4ccef6bfbe12e4ab7ba4d76194e56558bf5666344520c0b34c0d198.jpg)  
+![](images/c50d5b36b4ccef6bfbe12e4ab7ba4d76194e56558bf5666344520c0b34c0d198.webp)  
 Figure 3.13. Analyzing a chained sequence, where many attributes are derived and visually encoded.
 
 taposed attribute plots with ed coloring
@@ -566,23 +566,23 @@ Derive Many vis pipeline models discuss the idea of data transformation as a cri
 
 Examples The analysis examples are SpaceTree [Plaisant et al. 02], TreeJuxtaposer [Munzner et al. 03], Strahler numbers for tree simplification [Auber 02], and linked derived spaces for feature detection [Henze 98].
 
-![](images/e641038b50cac96bba834993cb899ee3d1cf08cc48b82819d3b76af46526fd0d.jpg)
+![](images/e641038b50cac96bba834993cb899ee3d1cf08cc48b82819d3b76af46526fd0d.webp)
 
 # Domain situation
 
 Obser ve target users using existing tools
 
-![](images/3e61542445b078a6687e5c2457d01c13a231d8d1cff932d589bb30219eab2909.jpg)
+![](images/3e61542445b078a6687e5c2457d01c13a231d8d1cff932d589bb30219eab2909.webp)
 
 # D a ta / task a bst r a c tio n
 
-![](images/3eada9a9635254c7ba3bbdb4bbf614be74273143d5a8924f07325b7ce7faee84.jpg)
+![](images/3eada9a9635254c7ba3bbdb4bbf614be74273143d5a8924f07325b7ce7faee84.webp)
 
 # Visu al e n c o d ing / i n t e r a c ti o n idi o m
 
 Justify design with respec t to alternatives
 
-![](images/484f5f53a626b1a4d5950c39ff453d622408ebd56e16a8c074ff9fecf4284878.jpg)  
+![](images/484f5f53a626b1a4d5950c39ff453d622408ebd56e16a8c074ff9fecf4284878.webp)  
 Figure 4.1. The four nested levels of vis design have different threats to validity at each level, and validation approaches should be chosen accordingly.
 
 # A lg o rit h m

@@ -9,7 +9,7 @@ slow you down at best, and create ugly, inconsistent designs at worst.
 Instead, limit yourself to a constrained set of values, defined in
 advance.
 
-![](images/index-71_1.png)
+![](images/index-71_1.webp)
 
 71
 
@@ -36,7 +36,7 @@ Even increasing the width of a card from 500px to 520px is only a
 difference of 4%, which is *eight times* less significant than the jump
 from 12px to 16px.
 
-![](images/index-72_1.png)
+![](images/index-72_1.webp)
 
 Establish a spacing and sizing system
 
@@ -57,7 +57,7 @@ scale using factors and multiples of that value.
 16px is a great number to start with because it divides nicely, and also
 happens to be the default font size in every major web browser.
 
-![](images/index-73_1.png)
+![](images/index-73_1.webp)
 
 73
 
@@ -75,7 +75,7 @@ you’re able to design a hell of a lot faster, especially if you design
 in the browser *(sticking to a system is easier when you’re typing in
 numbers than when* *you’re dragging with the mouse.)*
 
-![](images/index-74_1.png)
+![](images/index-74_1.webp)
 
 Establish a spacing and sizing system
 
@@ -96,5 +96,5 @@ than that.
 
 Establish a spacing and sizing system
 
-![](images/index-76_1.png)
+![](images/index-76_1.webp)
 

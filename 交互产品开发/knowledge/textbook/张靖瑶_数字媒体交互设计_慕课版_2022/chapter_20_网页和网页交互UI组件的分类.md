@@ -12,13 +12,13 @@
 
 综合资讯类网页以提供信息资讯为主，是目前最普遍的网页形式之一，大部分企业的综合门户类网页都属于这类。其特点是信息量大，访问群体广，功能比较简单，基本包含检索、留言等简单的交互，如图2-35所示。
 
-![](images/EPUB/images/image_067.jpg)
+![](images/EPUB/images/image_067.webp)
 
 ▲图2-35 综合资讯类网页
 
 ▼微课视频
 
-![](images/EPUB/images/image_068.jpg)
+![](images/EPUB/images/image_068.webp)
 
 网页的分类和设计规范
 
@@ -54,7 +54,7 @@
 
 综合类网页的特点是提供两个以上类型的服务。
 
-![](images/EPUB/images/image_069.jpg)
+![](images/EPUB/images/image_069.webp)
 
 图2-36 功能类网页
 

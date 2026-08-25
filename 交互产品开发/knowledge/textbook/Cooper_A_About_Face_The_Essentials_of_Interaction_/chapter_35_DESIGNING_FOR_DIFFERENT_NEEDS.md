@@ -24,7 +24,7 @@ Direct-manipulation controls like drag handles; real-time manipulation controls 
 
 Keyboard accelerators and gestures take the idea of immediacy one step further: There is no locus of these commands in the visual interface—only invisible keystrokes, swipes, pinches, or flicks of the finger. These types of command interfaces express an invisible modality. Users must memorize invisible commands, because typically the interface offers little or no visual indication that they exist. Invisible commands also need to be initially identified for the user, unless they follow widely used conventions (such as flicking up or down to scroll on a touchscreen interface) or by having a reliable way to inform new users that they exist. Invisible commands are used extensively by intermediates and even more by experts.
 
-![](images/4a0299d9a07826b90286e365f1caafbd07e39825c4a052bb0da8d183c22c644a.jpg)  
+![](images/4a0299d9a07826b90286e365f1caafbd07e39825c4a052bb0da8d183c22c644a.webp)  
 Figure 16-1: Menus on the Windows version of Adobe Reader give users a textual overview of the application's functionality, call out keyboard mnemonics and accelerators, and offer toolbar icons. Unfortunately, this pedagogic idiom is seldom available in mobile apps, due to space constraints.
 
 # Information in the world versus information in the head
@@ -51,7 +51,7 @@ Better still is to integrate memorization vectors directly into the main interfa
 
 The accelerator for Save is Ctrl+S (Cmd+S on the Mac). Accelerators are noted explicitly on the right side of a menu item; this acts as a memorization vector. Adobe Reader, as shown in Figure 16-1, takes this a step further by also including the icons for toolbar commands to the left of their corresponding menu commands. Microsoft, meanwhile, shows accelerators as part of the ToolTips on the controls in the Ribbon UI in their Office Suite applications (see Figure 16-2).
 
-![](images/dae3c5990a0790dcd91d4403b3cbb9da42dc3bc12826335aab6996439cf4653b.jpg)  
+![](images/dae3c5990a0790dcd91d4403b3cbb9da42dc3bc12826335aab6996439cf4653b.webp)  
 Figure 16-2: Office Suite applications use small pop-up boxes to display mnemonics when Alt is pressed, and ToolTips to display keyboard accelerators, since the standard menus have been replaced by the toolbar-ish Ribbon UI.
 
 Mac applications usually don't support mnemonics, but they often do have accelerator and palette or toolbar icon mappings.
@@ -92,21 +92,21 @@ OS X has an interesting variant of this in the settings for mouse and trackpad g
 
 Guided tours usually launch automatically the first time an app is run, and sometimes when a new version of an app is released with significant new features. It's important that tours have a "skip" button available on each screen of the tour, in case the user wants to get straight to work without visiting each screen. Of course, a screen to dismiss the tour at the end also is needed. The final screen of the tour should include a way to manually relaunch the tour.
 
-![](images/8a89aed02b373e65da436452db6793cc31c69ece9e243b3c41d8597c14f016c2.jpg)  
+![](images/8a89aed02b373e65da436452db6793cc31c69ece9e243b3c41d8597c14f016c2.webp)  
 Figure 16-3: FiftyThree Inc.'s iOS app, Paper, uses a guided tour to explain its main features and interactions. The user swipes through a set of illustrated cards, each of which describes a different pair of features or interactions. When the app is opened for the first time, the Welcome tour is available from an About menu accessed by tapping the company logo.
 
 Generally speaking, tours shouldn't go on for more than five to seven screens at most. If you make them too long, your users probably will be unable to remember what they've just seen. They also will begin getting antsy if the tour seems interminable.
 
 Overlays are a different approach to introducing functionality, best suited to relatively simple apps whose functions are not pedagogically evident. As the name implies, an overlay is like a transparent sheet laid over the interface on which arrows and descriptive text are embedded. The end result is a set of annotations that point out the app's key features or behaviors and give brief descriptions of their usage (see Figure 16-4).
 
-![](images/aa4a1f96f57d5133bc5959cc99303ddf0e8e39673fe9c77ed9d8809b6a5e6be4.jpg)  
+![](images/aa4a1f96f57d5133bc5959cc99303ddf0e8e39673fe9c77ed9d8809b6a5e6be4.webp)  
 Figure 16-4: The Snapseed app uses an overlay to show key features and behaviors. Unlike some overlays that use a close box, Snapseed's allows you to tap anywhere on the screen to dismiss. After initial use, the overlay remains accessible from the Help menu.
 
 Like guided tours, overlays typically are launched when an app is first run (or when it is updated with a major new release version). An overlay should include a means to relaunch it somewhere in the app—often in a settings menu or via a tiny help icon placed in an unobtrusive corner of the screen.
 
 Zite, shown in Figure 16-5, is a newsreader app that combines the sequential guided tour concept with the idea of an overlay. It walks the user through a series of full-screen overlays accessed by swiping. It ends with a large Done button in the center of the screen.
 
-![](images/a2e58adb3ec63ca32352085afe263e32f7a04ebded294e5200d06aae834a1a02.jpg)  
+![](images/a2e58adb3ec63ca32352085afe263e32f7a04ebded294e5200d06aae834a1a02.webp)  
 Figure 16-5: Zite is a newsreader app that uses a combination of guided tour and overlay to introduce readers to the app. The tour is available at any time from a tab in the menu system.
 
 This approach is useful in that each feature discussed can be shown in the spatial context of a full screen, potentially making it a bit easier for users to orient themselves.
@@ -117,7 +117,7 @@ Not all users of document-creation applications are capable of building nicely-f
 
 For example, consider an app like OmniGraffle on the Mac, shown in Figure 16-6, which lets you create diagrams, flowcharts, and user interface mock-ups.
 
-![](images/004e83c63f47286fc156e0c74672de190d1d94f630a86b0b3d8cd29bb2003b6c.jpg)  
+![](images/004e83c63f47286fc156e0c74672de190d1d94f630a86b0b3d8cd29bb2003b6c.webp)  
 Figure 16-6: OmniGraffle Pro offers galleries of templates at both the document level and the level of line and shape styles.
 
 Undoubtedly some users will want to create their diagrams from scratch, but most would jump at the chance to start with some stylistic choices made for them in the form of layout templates. Similarly, some users may want to draw their own shapes for things such as arrows and stars, but most people would be happy to select from a gallery of predefined shapes (OmniGraffle calls them stencils). Naturally, users should be able to tweak a template after they choose it.

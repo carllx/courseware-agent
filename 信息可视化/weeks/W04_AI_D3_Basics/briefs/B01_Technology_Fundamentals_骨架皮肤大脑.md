@@ -51,12 +51,12 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig3.1 | Typical default rendering of simple HTML | `images/ff2a5a09...jpg` (L498) | ✅ `public/textbook/Fig3.1_.png` |
-| Fig3.2 | Looking at the source code in a new window in Chrome | `images/61f5d7dc...jpg` (L791) | ✅ `public/textbook/Fig3.2_.png` |
-| Fig3.3 | Chrome’s web inspector | `images/ab2978a0...jpg` (L829) | ✅ `public/textbook/Fig3.3_.png` |
-| Fig3.4 | Inspector with element box highlighted | `images/0912b2c6...jpg` (L899) | ✅ `public/textbook/Fig3.4_.png` |
-| Fig3.8 | CSS cascading and inheritance at work | `images/0ff69d13...jpg` (L1444) | ✅ `public/textbook/Fig3.8_CSS.png` |
-| Fig3.9 | A fresh JavaScript console | `images/df6c4edf...jpg` (L1516) | ✅ `public/textbook/Fig3.9_A.png` |
+| Fig3.1 | Typical default rendering of simple HTML | `images/ff2a5a09...webp` (L498) | ✅ `public/textbook/Fig3.1_.webp` |
+| Fig3.2 | Looking at the source code in a new window in Chrome | `images/61f5d7dc...webp` (L791) | ✅ `public/textbook/Fig3.2_.webp` |
+| Fig3.3 | Chrome’s web inspector | `images/ab2978a0...webp` (L829) | ✅ `public/textbook/Fig3.3_.webp` |
+| Fig3.4 | Inspector with element box highlighted | `images/0912b2c6...webp` (L899) | ✅ `public/textbook/Fig3.4_.webp` |
+| Fig3.8 | CSS cascading and inheritance at work | `images/0ff69d13...webp` (L1444) | ✅ `public/textbook/Fig3.8_CSS.webp` |
+| Fig3.9 | A fresh JavaScript console | `images/df6c4edf...webp` (L1516) | ✅ `public/textbook/Fig3.9_A.webp` |
 
 *(注：原书 Chapter 3 共有 27 张配图，以上提取了在解释基础概念与开发者工具时最具教学辅助价值的关键图表)*
 

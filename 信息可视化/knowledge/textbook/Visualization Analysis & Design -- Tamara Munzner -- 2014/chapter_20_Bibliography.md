@@ -319,7 +319,7 @@
 [Zhang 97] Jiajie Zhang. “The Nature of External Representations in Problem Solving.” Cognitive Science 21:2 (1997), 179–217. (page 19)   
 [Zuk et al. 08] Torre Zuk, Lothar Schlesier, Petra Neumann, Mark S. Hancock, and Sheelagh Carpendale. “Heuristics for Information Visualization Evaluation.” In Proceedings of the AVI Workshop on BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV), Article no. 9. ACM, 2008. (page 78)
 
-![](images/c1773c36673f1415085df84dd8c4527cf825a987ddde9cb53ad5ae7b07d8541c.jpg)
+![](images/c1773c36673f1415085df84dd8c4527cf825a987ddde9cb53ad5ae7b07d8541c.webp)
 
 #
 

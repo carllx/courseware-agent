@@ -49,7 +49,7 @@ data-type="xref">Chapter 13</a>?
 <figure class="calibre35">
 <div id="ch16.xhtml_stacked_area_chart_from_earlier" class="figure">
 <img
-src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.png"
+src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.webp"
 class="calibre214" alt="dvw2 1601" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-1.
 </span>Stacked area chart</h6>
@@ -78,7 +78,7 @@ full dataset in *vehicle_sales_data.csv*.
 <figure class="calibre35">
 <div id="ch16.xhtml_vehicles_data_set" class="figure">
 <img
-src="images/07e06fc026a41f42964a44d83646631a0231c6d207d9f4f88d269b1e41f99654.png"
+src="images/07e06fc026a41f42964a44d83646631a0231c6d207d9f4f88d269b1e41f99654.webp"
 class="calibre244" alt="dvw2 1602" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-2.
 </span>Our new dataset</h6>
@@ -136,7 +136,7 @@ data-type="xref">Figure 16-3</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_evehicles_data_set" class="figure">
 <img
-src="images/b40aef24667bec2b442e03e24899e5b64193bcd4f49039fdae0b1c513458091e.png"
+src="images/b40aef24667bec2b442e03e24899e5b64193bcd4f49039fdae0b1c513458091e.webp"
 class="calibre245" alt="dvw2 1603" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-3.
 </span>Our earlier, e-vehicle dataset</h6>
@@ -356,7 +356,7 @@ data-type="xref">Figure 16-4</a> here:
 <figure class="calibre35">
 <div id="ch16.xhtml_initial_chart" class="figure">
 <img
-src="images/d9e0a9e05584aa84d407982d3bac691702d57a35fcc4bd005967bac7b9975693.png"
+src="images/d9e0a9e05584aa84d407982d3bac691702d57a35fcc4bd005967bac7b9975693.webp"
 class="calibre246" alt="dvw2 1604" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-4.
 </span>The initial chart</h6>
@@ -381,7 +381,7 @@ data-type="xref">Figure 16-5</a>, I’ve set `w` to 1,400 pixels.
 <figure class="calibre35">
 <div id="ch16.xhtml_wide_chart" class="figure">
 <img
-src="images/15973bd9ab4e18fb80d34271613687a5179b3a7e40e2710a717f7fd17c8d373b.png"
+src="images/15973bd9ab4e18fb80d34271613687a5179b3a7e40e2710a717f7fd17c8d373b.webp"
 class="calibre247" alt="dvw2 1605" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-5.
 </span>The initial chart, widened to 1,400 pixels</h6>
@@ -441,7 +441,7 @@ data-type="xref">Figure 16-6</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_type_colors" class="figure">
 <img
-src="images/2dc6a7b7f4d23cdaf54904bd8edd5d12b944b7495beac374517d5dabdbce8136.png"
+src="images/2dc6a7b7f4d23cdaf54904bd8edd5d12b944b7495beac374517d5dabdbce8136.webp"
 class="calibre248" alt="dvw2 1606" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-6.
 </span>Vehicles, colored by type</h6>
@@ -485,7 +485,7 @@ data-type="xref">Figure 16-7</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_sorted_by_type" class="figure">
 <img
-src="images/3b400fce591e4e564c52cf8ffca8fd4307fc719bcf6519b112ca082aa2607ecc.png"
+src="images/3b400fce591e4e564c52cf8ffca8fd4307fc719bcf6519b112ca082aa2607ecc.webp"
 class="calibre249" alt="dvw2 1607" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-7.
 </span>Vehicles, sorted by type</h6>
@@ -534,7 +534,7 @@ data-type="xref">Figure 16-8</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_types_only" class="figure">
 <img
-src="images/8909c7b043a2de3751342b25da55e6dd047629f940388945b122897139289144.png"
+src="images/8909c7b043a2de3751342b25da55e6dd047629f940388945b122897139289144.webp"
 class="calibre250" alt="dvw2 1608" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-8.
 </span>Four areas, one for each of the four types</h6>
@@ -589,7 +589,7 @@ data-type="xref">Figure 16-9</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_transition_one" class="figure">
 <img
-src="images/d9d7ed4890217c8d4f4b69c08a9580408c60f373e1c707a23f04829179864316.png"
+src="images/d9d7ed4890217c8d4f4b69c08a9580408c60f373e1c707a23f04829179864316.webp"
 class="calibre251" alt="dvw2 1609" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-9.
 </span>After the first transition, the BEV area is visible, while the
@@ -605,7 +605,7 @@ data-type="xref">Figure 16-10</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_transition_two" class="figure">
 <img
-src="images/0c43ba382260774f980e0b0a80e805983fd545a0ca717dfa3616827ea8f890e6.png"
+src="images/0c43ba382260774f980e0b0a80e805983fd545a0ca717dfa3616827ea8f890e6.webp"
 class="calibre251" alt="dvw2 1610" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-10.
 </span>After the second transition, the BEV area has grown to fit the
@@ -677,7 +677,7 @@ data-type="xref">Figure 16-11</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_updated_y_axis" class="figure">
 <img
-src="images/1cd7579fc92da0b887d9990d75fed11b5b0332cc701e47a70832a6a0a23c6c0c.png"
+src="images/1cd7579fc92da0b887d9990d75fed11b5b0332cc701e47a70832a6a0a23c6c0c.webp"
 class="calibre252" alt="dvw2 1611" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-11.
 </span>Y-axis, transitioned</h6>
@@ -711,7 +711,7 @@ can’t see them.
 <figure class="calibre35">
 <div id="ch16.xhtml_hidden_vehicle_areas" class="figure">
 <img
-src="images/df9024bcc2aea406a67ea27a9cde4c766663b2bf984fce1e9258e41bd56ad0e5.png"
+src="images/df9024bcc2aea406a67ea27a9cde4c766663b2bf984fce1e9258e41bd56ad0e5.webp"
 class="calibre253" alt="dvw2 1612" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-12.
 </span>Hidden vehicle areas</h6>
@@ -735,7 +735,7 @@ data-type="xref">Figure 16-13</a> after we click the BEV category.
 <figure class="calibre35">
 <div id="ch16.xhtml_proper_transition" class="figure">
 <img
-src="images/22933e52374b8e89fd79f79a1e55aa6dc87aca1621405574ce450af0c82412a6.png"
+src="images/22933e52374b8e89fd79f79a1e55aa6dc87aca1621405574ce450af0c82412a6.webp"
 class="calibre254" alt="dvw2 1613" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-13. </span>A
 proper sequence of transitions, in which vehicle areas are visible at
@@ -787,7 +787,7 @@ resuming again a year later.
 <figure class="calibre35">
 <div id="ch16.xhtml_prius_phev" class="figure">
 <img
-src="images/58003a6161784a1fc5a071b54316f9305c4bb34d4f0084717e099897b8e5149e.png"
+src="images/58003a6161784a1fc5a071b54316f9305c4bb34d4f0084717e099897b8e5149e.webp"
 class="calibre255" alt="dvw2 1614" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-14.
 </span>The magical Prius plug-in sales disappearing act</h6>
@@ -823,7 +823,7 @@ data-type="xref">Figure 16-15</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_prius_phev_clicked" class="figure">
 <img
-src="images/fcc8f2f228c0c8a0b7749cf472ba73c7b25f580ce32415d4d9378165244748be.png"
+src="images/fcc8f2f228c0c8a0b7749cf472ba73c7b25f580ce32415d4d9378165244748be.webp"
 class="calibre256" alt="dvw2 1615" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-15.
 </span>The magical Prius plug-in sales disappearing act, standing alone
@@ -979,7 +979,7 @@ data-type="xref">Figure 16-16</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_back_button" class="figure">
 <img
-src="images/64c697e671dcf26864b4bb5da396f44caf6cf9e9d46d8086c6a9ae819f3258fe.png"
+src="images/64c697e671dcf26864b4bb5da396f44caf6cf9e9d46d8086c6a9ae819f3258fe.webp"
 class="calibre257" alt="dvw2 1616" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-16.
 </span>Looking at the traditional, HEV Prius—with back button!</h6>
@@ -1103,7 +1103,7 @@ data-type="xref">Figure 16-17</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_refined_style" class="figure">
 <img
-src="images/f092e0669149c9a73cf56d2a2a4fe56a2b8cec5e6b7e4e561d4f169223ebd5a8.png"
+src="images/f092e0669149c9a73cf56d2a2a4fe56a2b8cec5e6b7e4e561d4f169223ebd5a8.webp"
 class="calibre258" alt="dvw2 1617" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-17.
 </span>Dynamic text used for back button</h6>
@@ -1192,7 +1192,7 @@ data-type="xref">Figure 16-18</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_missed_target" class="figure">
 <img
-src="images/b0555cbe8c9d107acd9ce8bfccd3c183ab3f2ff66b7f36f25d4c1ba94cfe105e.png"
+src="images/b0555cbe8c9d107acd9ce8bfccd3c183ab3f2ff66b7f36f25d4c1ba94cfe105e.webp"
 class="calibre259" alt="dvw2 1618" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-18.
 </span>Oops, I dropped the chart</h6>
@@ -1210,7 +1210,7 @@ data-type="xref">Figure 16-19</a>).
 <figure class="calibre35">
 <div id="ch16.xhtml_hit_target" class="figure">
 <img
-src="images/b92f718f394bc39cbaf0c622442fd16670d96d2e53cf002e8ed9b4d372e68205.png"
+src="images/b92f718f394bc39cbaf0c622442fd16670d96d2e53cf002e8ed9b4d372e68205.webp"
 class="calibre259" alt="dvw2 1619" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-19.
 </span>SVG appended to #chartContainer, as intended</h6>
@@ -1283,7 +1283,7 @@ data-type="xref">Figure 16-20</a>. Explore the code in
 <figure class="calibre35">
 <div id="ch16.xhtml_final_ev_chart" class="figure">
 <img
-src="images/d79f23fa67ae22943ff2a075d8a5d2baa38b041e1f45c5de8864f077b67a16df.png"
+src="images/d79f23fa67ae22943ff2a075d8a5d2baa38b041e1f45c5de8864f077b67a16df.webp"
 class="calibre259" alt="dvw2 1620" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-20.
 </span>Our final electric-drive vehicle chart (and page!)</h6>

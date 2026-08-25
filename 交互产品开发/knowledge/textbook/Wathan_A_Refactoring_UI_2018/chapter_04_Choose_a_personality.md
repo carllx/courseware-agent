@@ -8,9 +8,9 @@ On the surface, giving a design a particular personality might sound
 abstract and handwavy, but a lot of it is determined by a few solid,
 concrete factors.
 
-![](images/index-21_1.png)
+![](images/index-21_1.webp)
 
-![](images/index-21_2.png)
+![](images/index-21_2.webp)
 
 21
 
@@ -25,9 +25,9 @@ serif typeface in your design:
 
 For a playful look, you could use a rounded sans serif:
 
-![](images/index-22_1.png)
+![](images/index-22_1.webp)
 
-![](images/index-22_2.png)
+![](images/index-22_2.webp)
 
 Choose a personality
 
@@ -44,9 +44,9 @@ feel to you.
 
 Blue is safe and familiar — nobody ever complains about blue:
 
-![](images/index-23_1.png)
+![](images/index-23_1.webp)
 
-![](images/index-23_2.png)
+![](images/index-23_2.webp)
 
 23
 
@@ -61,9 +61,9 @@ practical — a lot of it is just about what looks good to you — it can be
 helpful to think about when you’re trying to understand *why* you think
 a color is the right fit.
 
-![](images/index-24_1.png)
+![](images/index-24_1.webp)
 
-![](images/index-24_2.png)
+![](images/index-24_2.webp)
 
 Choose a personality
 
@@ -79,9 +79,9 @@ much of a personality on its own:
 
 A large border radius starts to feel more playful:
 
-![](images/index-25_1.png)
+![](images/index-25_1.webp)
 
-![](images/index-25_2.png)
+![](images/index-25_2.webp)
 
 25
 
@@ -99,7 +99,7 @@ interface have a massive influence on the overall personality.
 
 Using a less personal tone might feel more official or professional:
 
-![](images/index-26_1.png)
+![](images/index-26_1.webp)
 
 Choose a personality
 
@@ -130,5 +130,5 @@ to look like a second-rate version of something else.
 
 Choose a personality
 
-![](images/index-28_1.png)
+![](images/index-28_1.webp)
 

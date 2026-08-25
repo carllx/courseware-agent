@@ -57,9 +57,9 @@ exams:
             '
           practice_deadline: 2026年6月21日
           example_images:
-          - assets/exams/interact_a_portfolio_1781359046801.png
-          - assets/exams/interact_a_resume_1781359058863.png
-          - assets/exams/interact_a_creative_1781359072295.png
+          - assets/exams/interact_a_portfolio_1781359046801.webp
+          - assets/exams/interact_a_resume_1781359058863.webp
+          - assets/exams/interact_a_creative_1781359072295.webp
         B:
           practice_theme: '选取具体的非遗或在地文化元素，进行数字化体验重构与多页面的互动设计。应用场景为“面向在地文化或非遗主题的互动重塑系统”。需要你充分发挥创造力对在地文化进行现代转译。要求设计系统至少包含
             4 个相互独立且逻辑关联的页面，交互链路完整且能在数据逻辑与代码层面跑通。
@@ -84,9 +84,9 @@ exams:
             '
           practice_deadline: 2026年6月21日
           example_images:
-          - assets/exams/interact_b_pottery_1781359707799.png
-          - assets/exams/interact_b_weaving_1781359720674.png
-          - assets/exams/interact_b_architecture_1781359731491.png
+          - assets/exams/interact_b_pottery_1781359707799.webp
+          - assets/exams/interact_b_weaving_1781359720674.webp
+          - assets/exams/interact_b_architecture_1781359731491.webp
     sections:
     - section_name: 交互逻辑与信息架构
       total_score: 25

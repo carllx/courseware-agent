@@ -17,7 +17,7 @@
 > **Text**: 胖手指灾难
 > **Scene**: 宏观特写镜头下的手指触控分析图。画面展示一根人类食指按压在发光的玻璃屏幕上，底层显现出代表像素的数字网格。在手指与玻璃接触的位置，有一个标准的工业圆形光圈（代表 7 毫米真实物理接触面积），以此说明物理触碰范围远大于底层的视觉像素按钮。
 > **Search**: `iOS 44px minimum touch target size fat finger error button spacing`
-> **Asset**: ![预览](../public/slides/M3-01.png)
+> **Asset**: ![预览](../public/slides/M3-01.webp)
 > **Source**: `AI_Gen`
 
 作为数字产品的用户，你大概率经历过这类**误触灾难**：明明瞄准了“保存”按钮，点下瞬间却触发了紧贴旁边的“删除”。又或者在粗糙的应用中，看到毫无关联的信息卡片紧紧挤在一起，**缺乏基本的边界感**。
@@ -30,7 +30,7 @@
 > **Text**: 44像素起源
 > **Scene**: 2007 年初代 iPhone 发布会乔布斯展示触控的照片，或 Apple HIG 的 44px 官方规范图。
 > **Search**: `Steve Jobs iPhone 2007 touch area Apple HIG 44px`
-> **Asset**: ![预览](../public/slides/M3-01c_real.png)
+> **Asset**: ![预览](../public/slides/M3-01c_real.webp)
 > **Source**: Web Source
 
 > [STORY]
@@ -74,7 +74,7 @@
 > **Text**: 鞋盒隐喻与真实映射
 > **Scene**: 左侧隐喻再现：现实世界货架上的鞋盒比喻。一双崭新的鞋子放在耐克鞋盒里，周围裹着海绵。右侧界面映射：一个真实的 UI 按钮，对应标注出文字 (Content)、文字到边界的蓝底区域 (Padding)、描边 (Border)、周围与其他输入框推开的白色留白 (Margin)。
 > **Search**: `css box model shoebox metaphor real world`
-> **Asset**: ![预览](../public/slides/M3-02.png)
+> **Asset**: ![预览](../public/slides/M3-02.webp)
 > **Source**: `Manual`
 
 建立起**容器思维 (Container Thinking)**，意味着你要把整个网页想象成一个标准的仓储货架系统。大盒装中盒、中盒装小盒的层层嵌套机制，在工程上称为 **Nesting (嵌套)**（白话解释：像俄罗斯套娃一样的层层物理包裹机制）。解决刚才 User Card 元素散落问题的方法，就是把头像和文字装进“信息盒子”，再把信息盒子和按钮一起装进“外层卡片盒子”。任何内容都必须置于标准“盒子”的约束下，这是 DOM 渲染的基础规则。
@@ -98,7 +98,7 @@
 > **List**: 内容区/内边距/边框/外边距
 > **Source**: `AI_Gen`
 > **Search**: `css box model layers content padding border margin 3d anatomy`
-> **Asset**: ![预览](../public/slides/M3-02-anatomy.png)
+> **Asset**: ![预览](../public/slides/M3-02-anatomy.webp)
 
 > [TECH NOTE]
 > **盒子解剖学：四层物理边界**
@@ -115,7 +115,7 @@
 > **List**: 内边距/外边距
 > **Scene**: 直观对比演示“加大 Padding 防误触”和“增加 Margin 拉开社交距离”的前后效果。左侧展示极易误触的狭小按钮与拥挤卡片，右侧展示通过增加透明区（Padding）撑大触控面积以及通过加大间距（Margin）实现呼吸感的完美修复方案。
 > **Search**: `padding margin UX improvement touch target spacing`
-> **Asset**: ![预览](../public/slides/M3-02c.png)
+> **Asset**: ![预览](../public/slides/M3-02c.webp)
 > **Source**: `Manual`
 
 > [TEACHING MOMENT]
@@ -159,7 +159,7 @@
 > **Scene**: 尺寸本能机制隐喻。一只坚固的“硬质木箱（Fixed）”，无论里面装的是一块小石头还是一头大象，木箱的长宽被完全固定，多出的部分直接破框而出（Overflow）。
 > **Search**: `intrinsic sizing fixed container rigid box overflow`
 > **知识节点**: `dom-box-model-mental-map`
-> **Asset**: ![预览](../public/slides/M3-03a.png)
+> **Asset**: ![预览](../public/slides/M3-03a.webp)
 > **Source**: `AI_Gen`
 
 第一种机制，被称为 **Fixed (固定尺寸)**。
@@ -172,7 +172,7 @@
 > **Layout**: `Image`
 > **Text**: 国际化溢出问题
 > **Scene**: 展示 2018 年某国际租车巨头 App 德文版的真实截图。底部的结算按钮被设置了固定宽度 (Fixed)，导致超长德文单词 "Mietwagenbuchung" 溢出按钮边界并与导航栏重叠，遮挡了点击区域，凸显尺寸硬编码带来的可用性问题。
-> **Asset**: ![预览](../public/slides/M3-03_case.png)
+> **Asset**: ![预览](../public/slides/M3-03_case.webp)
 > **Source**: `AI_Gen`
 
 > [CASE STUDY]
@@ -194,7 +194,7 @@
 > **Scene**: 尺寸本能机制隐喻。极具韧性的“热缩膜（Hug）”，随着内部物品的膨胀，热缩膜像被吸干了空气一样，紧紧贴合着内容物同步撑大。
 > **Search**: `intrinsic sizing hug container shrink wrap`
 > **知识节点**: `dom-box-model-mental-map`
-> **Asset**: ![预览](../public/slides/M3-03b.png)
+> **Asset**: ![预览](../public/slides/M3-03b.webp)
 > **Source**: `AI_Gen`
 
 第二种机制，被称为 **Hug / 内容撑开（白话解释：随内容胀缩的热缩膜）**。
@@ -240,7 +240,7 @@
 > **Scene**: 画面左侧是设计师绝望地逐个测量并手动调整几十个盒子间距的繁重体力劳动；右侧是成百上千个盒子受统一中央规则指挥，像流水般自动整齐排列的高效自动化场景。
 > **Search**: `manual margin alignment vs fluid flexbox automation`
 > **Source**: `AI_Gen`
-> **Asset**: ![预览](../public/slides/M3-04.png)
+> **Asset**: ![预览](../public/slides/M3-04.webp)
 > **Source**: `AI_Gen`
 
 驯服单体仅仅是开始，现代界面的真正挑战在于**阵列级调度**。面对真实业务中成百上千需统一调整间距的动态列表项，若继续依赖**手动设定 Margin** 的个体微调模式，不仅极度低效，更无法应对动态增减的数据。为了让庞大的**盒子群落**能受统一规则指挥并实现**自动流动重排**，我们将从单体物理学跃迁至宏观调度机制——直接跨入下一模块：**弹性布局系统 (Flexbox)**（白话解释：能让成百上千的盒子像流水一样自动排队、自动分配空间的智能指挥官）。

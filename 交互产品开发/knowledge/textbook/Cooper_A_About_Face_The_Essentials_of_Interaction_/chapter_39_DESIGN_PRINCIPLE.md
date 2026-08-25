@@ -6,7 +6,7 @@ As pilot and poet Antoine de Saint-Exupéry famously said, "Perfection is attain
 
 Related to the drive for simplicity is the concept of leverage, which is where a single interface element is used for several related purposes. For example, in Microsoft Windows 8, an icon appears next to the window's title, as shown in Figure 17-5. This icon visually communicates the window's contents (for example, whether it is an Explorer window or a Word document) and provides access to window configuration commands such as Minimize, Maximize, and Close.
 
-![](images/93e7f50a8a53995d39c7d31993713747bab3f54a376a5521e232d00c6159b84d.jpg)  
+![](images/93e7f50a8a53995d39c7d31993713747bab3f54a376a5521e232d00c6159b84d.webp)  
 Figure 17-5: The icon in the title bar of windows in Windows 8 is a good example of leverage. It communicates the window's contents and provides access to window configuration commands.
 
 # Visual Information Design Principles
@@ -40,7 +40,7 @@ We will briefly discuss each of these principles as they apply to the informatio
 
 You should provide a means for users to compare related variables and trends or to compare before-and-after scenarios. Comparison provides a context that makes the information more valuable and comprehensible to users (see Figure 17-6). Adobe Photoshop, along with many other graphics tools, makes frequent use of previews, which allow users to easily do before-and-after comparisons interactively.
 
-![](images/b45a77e20fdcf7d36084706973989de8377ec19f859c31d5c9843764e54cd151.jpg)  
+![](images/b45a77e20fdcf7d36084706973989de8377ec19f859c31d5c9843764e54cd151.webp)  
 Figure 17-6: This graph from Google finance compares the performance of two stocks with the S&P 500 over a period of time. The visual patterns allow a viewer to see that Barclays Bank (BCS) and UBS are closely correlated to each other and only loosely correlate to the S&P 500.
 
 # Show causality
@@ -57,7 +57,7 @@ easier and correlations (causality) clearer. Investors are often interested in t
 
 Diagrams that require separate keys or legends to decode require additional cognitive processing by users and are less effective than diagrams with integrated legends and labels. Reading and deciphering diagram legends is yet another form of navigation-related excise. Users must move their focus between diagram and legend and then reconcile the two in their minds. Figure 17-7 shows an interactive example that integrates text, graphics, and data, as well as input and output—a highly efficient combination for users.
 
-![](images/1b3822c0a82c6f2962d1e1191a23d732ca3e570273ec1da0fe1d6e73d1926a9f.jpg)  
+![](images/1b3822c0a82c6f2962d1e1191a23d732ca3e570273ec1da0fe1d6e73d1926a9f.webp)  
 Figure 17-7: This "Communication Plan" is an interface element from a tool for managing outbound marketing campaigns that was designed by Cooper. It gives textual information a visual structure, which in turn is augmented by iconic representations of different object types. Not only does this tool provide output of the current structure of the Communication Plan, but it also allows the user to modify that structure directly through drag-and-drop interactions.
 
 # Ensure the content's quality, relevance, and integrity
@@ -131,11 +131,11 @@ One of the visual interface designer's most important tools is the idea of a "de
 
 A good example is Microsoft's Metro design language, the foundation of Windows 8, Windows Phone, and Xbox user interfaces. By using a common set of visual elements such as content tiles, Microsoft has created a variety of interfaces and experiences that are clearly recognizable (see Figure 17-8).
 
-![](images/6b095092a602253648cc15ce4cc789da1ddde1592abcc521b16134343bdae02e.jpg)
+![](images/6b095092a602253648cc15ce4cc789da1ddde1592abcc521b16134343bdae02e.webp)
 
-![](images/64b119e2c42b950d718aeb9a393d01aff39bc79ecee8944deb786c608e6038fb.jpg)
+![](images/64b119e2c42b950d718aeb9a393d01aff39bc79ecee8944deb786c608e6038fb.webp)
 
-![](images/256b492a28f17937f09a869d9de38a69aa4b2972741ac8ce88ad76bee304659c.jpg)  
+![](images/256b492a28f17937f09a869d9de38a69aa4b2972741ac8ce88ad76bee304659c.webp)  
 Figure 17-8: Cross-platform examples of Microsoft's Metro design language.
 
 In some cases, this language emerges as a vernacular. But in our experience, it is best arrived at through an explicit process that evaluates a variety of potential visual and interaction languages in terms of brand appropriateness and fitness for purpose. The best design languages evolve through the product design process in a user-centric way. Every design decision is rationalized against other decisions, and variation is reduced to just what is required to create meaning, utility, and the right emotional tone for users.

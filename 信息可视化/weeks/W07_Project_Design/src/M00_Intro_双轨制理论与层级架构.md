@@ -24,7 +24,7 @@
 > *   **Scene**: 路透社2014年发布的“佛罗里达州枪击案死亡人数”图表原图。图表特征为Y轴倒置（0在最上方），数据曲线用血红色填充形成“滴血”的视觉假象。
 > *   **Layout**: `Center`
 > *   **Source**: `External`
-> *   **Asset**: ![预览](../public/slides/m00_reuters_gun_deaths.png)
+> *   **Asset**: ![预览](../public/slides/m00_reuters_gun_deaths.webp)
 
 > [ACTIVITY]
 > *   **Type**: `QA`
@@ -41,7 +41,7 @@
 > *   **Scene**: 双轨制理论架构树状对比图，使用对立色调（冷蓝代表科学的精确，暖橙代表艺术的感性）。左侧分支标明“骨骼：严谨的科学映射”，右侧分支标明“灵魂：感性的视觉认知”。
 > *   **List**: 科学骨架, 艺术皮囊
 > *   **Layout**: `Split`
-> *   **Asset**: ![预览](../assets/slides/m00_dual_track_tree.png)
+> *   **Asset**: ![预览](../assets/slides/m00_dual_track_tree.webp)
 
 ### 1.1 科学定调：严谨映射构筑客观真相
 
@@ -85,7 +85,7 @@
 > *   **Scene**: 3D Z轴层级叠加动画。从底部的纯数据网格（Layer 1），升起基础的几何图形（Layer 2），接着图形爆发出醒目的色彩与高光（Layer 3），最后出现引导视线的动态光轨（Layer 4）。
 > *   **List**: 逻辑骨架, 视觉映射, 注意落点, 叙事引导
 > *   **Layout**: `Center` -> `Full` 动态展开
-> *   **Asset**: ![预览](../assets/slides/m00_four_layers_3d.png)
+> *   **Asset**: ![预览](../assets/slides/m00_four_layers_3d.webp)
 
 **第一层：逻辑骨架层 (Logic & Structure)。**
 拿到原始数据后，第一步不是打开设计软件，而是理清数据的前因后果，剔除无关数据（噪音），搭建逻辑骨架。它决定了作品是传递真实洞察，还是仅有视觉外壳。
@@ -98,7 +98,7 @@
 > *   **Scene**: 局部特写 3D 层级图的 Layer 3 和 Layer 4。画面切分为上下两部分：下半部分展示高频闪烁的红光（Bottom-up），上半部分展示一个戴眼镜的人脑轮廓，正顺着光轨寻找线索（Top-down）。右下角标明引用出处：Colin Ware, Perception for Design。
 > *   **List**: 生理本能, 经验驱动
 > *   **Layout**: `Center`
-> *   **Asset**: ![预览](../assets/slides/m00_layers_3_4_detail.png)
+> *   **Asset**: ![预览](../assets/slides/m00_layers_3_4_detail.webp)
 
 **第三层：注意落点层 (Attention & Salience)。**
 过去大家觉得这层靠的是“艺术直觉”，但用认知科学的术语来说，这叫**“自下而上加工”（Bottom-up Processing）**。说大白话就是：这是大脑的**生理本能反射**。比如在一堆灰点中突然出现一个红点，你的眼睛根本不受控制，在 0.1 秒内就会被强行拉过去。通过高对比度颜色或突兀形状，我们是在直接“劫持”受众的视觉神经，完成**瞬间锁定**，强制他们聚焦核心。

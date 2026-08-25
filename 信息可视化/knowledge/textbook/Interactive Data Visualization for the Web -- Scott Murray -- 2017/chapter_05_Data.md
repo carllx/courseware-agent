@@ -125,7 +125,7 @@ data-type="xref">Figure 5-1</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_Web_inspector" class="figure">
 <img
-src="images/50f5b63782e371b66ba51c84318014f87281e51558667dd47a2f6ca442bfd1be.png"
+src="images/50f5b63782e371b66ba51c84318014f87281e51558667dd47a2f6ca442bfd1be.webp"
 class="calibre75" alt="dvw2 0501" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-1. </span>Web
 inspector</h6>
@@ -152,7 +152,7 @@ data-type="xref">Figure 5-2</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_Web_inspector_again" class="figure">
 <img
-src="images/a36b00a3949184ab361811e0f62b5ad7ebc7d6770e6f1aea3d939be25f02bc2e.png"
+src="images/a36b00a3949184ab361811e0f62b5ad7ebc7d6770e6f1aea3d939be25f02bc2e.webp"
 class="calibre75" alt="dvw2 0502" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-2. </span>Web
 inspector, reflecting the modified DOM</h6>
@@ -572,7 +572,7 @@ the example code.)
 <figure class="calibre35">
 <div id="ch05.xhtml_Array_logged_to_console" class="figure">
 <img
-src="images/ebaddeeb8bbd60d06bbe9533dcbd2b6a238a01c953fae60ea10c693899958aab.png"
+src="images/ebaddeeb8bbd60d06bbe9533dcbd2b6a238a01c953fae60ea10c693899958aab.webp"
 class="calibre76" alt="dvw2 0503" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-3.
 </span>Array logged to console</h6>
@@ -592,7 +592,7 @@ data-type="xref">Figure 5-4</a>).
 <figure class="calibre35">
 <div id="ch05.xhtml_Array_elements_expanded" class="figure">
 <img
-src="images/451cea0685cb550216dbd3eb5e9c205d248b64ef6f0bfe2db00f2b639ac7fa97.png"
+src="images/451cea0685cb550216dbd3eb5e9c205d248b64ef6f0bfe2db00f2b639ac7fa97.webp"
 class="calibre77" alt="dvw2 0504" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-4.
 </span>Array elements expanded</h6>
@@ -622,7 +622,7 @@ data-type="xref">Figure 5-5</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_The_secret_columns_array" class="figure">
 <img
-src="images/2e45eb90951e45720cf2809bf61e7a93c86baf81c71c1f1832475e6a5b093daf.png"
+src="images/2e45eb90951e45720cf2809bf61e7a93c86baf81c71c1f1832475e6a5b093daf.webp"
 class="calibre78 pcalibre7" alt="dvw2 0505" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-5. </span>The
 secret columns array</h6>
@@ -940,7 +940,7 @@ data-type="xref">Figure 5-6</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_Dynamic_paragraphs" class="figure">
 <img
-src="images/c88b59ec153e19654b2b5c61cc01da63934dbecf8ca575ba1f1b1fbe6d7e1514.png"
+src="images/c88b59ec153e19654b2b5c61cc01da63934dbecf8ca575ba1f1b1fbe6d7e1514.webp"
 class="calibre79" alt="dvw2 0506" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-6.
 </span>Dynamic paragraphs</h6>
@@ -1008,7 +1008,7 @@ data-type="xref">Figure 5-7</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_new_p_elements_in_the_inspector" class="figure">
 <img
-src="images/f056a71b415c1e197044899b13cfe0ce65395dc931a54dd793102a2f5216f94f.png"
+src="images/f056a71b415c1e197044899b13cfe0ce65395dc931a54dd793102a2f5216f94f.webp"
 class="calibre75" alt="dvw2 0507" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-7. </span>New
 p elements in the web inspector</h6>
@@ -1029,7 +1029,7 @@ d3.selectAll("p")
 <figure class="calibre35">
 <div id="ch05.xhtml_A_selection_of_five_paragraphs" class="figure">
 <img
-src="images/ae76e4b48d54fc9312ffdcce8146131e524215c95e448a5b356717ab373b4b2c.png"
+src="images/ae76e4b48d54fc9312ffdcce8146131e524215c95e448a5b356717ab373b4b2c.webp"
 class="calibre80" alt="dvw2 0508" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-8. </span>A
 selection of five paragraphs</h6>
@@ -1046,7 +1046,7 @@ data-type="xref">Figure 5-9</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_selection_expanded" class="figure">
 <img
-src="images/5d49406cf9ef3db62491a44cffa25812074cda562fceafdd364edf1e857d1af7.png"
+src="images/5d49406cf9ef3db62491a44cffa25812074cda562fceafdd364edf1e857d1af7.webp"
 class="calibre81" alt="dvw2 0509" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-9.
 </span>Selection, expanded</h6>
@@ -1061,7 +1061,7 @@ data-type="xref">Figure 5-10</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_our_selections_groups" class="figure">
 <img
-src="images/b0e33129c471b65d72d4e7a9de493194d152773f5d4e8f4fecd9bfa7e5415999.png"
+src="images/b0e33129c471b65d72d4e7a9de493194d152773f5d4e8f4fecd9bfa7e5415999.webp"
 class="calibre82" alt="dvw2 0510" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-10.
 </span>Our selection’s groups</h6>
@@ -1077,7 +1077,7 @@ data-type="xref">Figure 5-11</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_expanded_nodelist" class="figure">
 <img
-src="images/fa23651ce40da07ddf8447fc3456dadedaf0094bb92fa2fff9ebf733eb71108b.png"
+src="images/fa23651ce40da07ddf8447fc3456dadedaf0094bb92fa2fff9ebf733eb71108b.webp"
 class="calibre83" alt="dvw2 0511" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-11.
 </span>Expanded NodeList</h6>
@@ -1093,7 +1093,7 @@ data-type="xref">Figure 5-12</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_the_p_element_expanded" class="figure">
 <img
-src="images/23a545679ea8772b56218f04f3e757f55a5be39dd0a9397c57a1dd21a54d980e.png"
+src="images/23a545679ea8772b56218f04f3e757f55a5be39dd0a9397c57a1dd21a54d980e.webp"
 class="calibre84" alt="dvw2 0512" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-12.
 </span>The p element, expanded</h6>
@@ -1108,7 +1108,7 @@ data-type="xref">Figure 5-13</a>).
 <figure class="calibre35">
 <div id="ch05.xhtml_finally_bound_data" class="figure">
 <img
-src="images/e8a910fe8293a25a56bae5fd99bcfdd21f737f13cab0c842329fafeb8dc25e18.png"
+src="images/e8a910fe8293a25a56bae5fd99bcfdd21f737f13cab0c842329fafeb8dc25e18.webp"
 class="calibre84" alt="dvw2 0513" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-13.
 </span>Finally, bound data</h6>
@@ -1177,7 +1177,7 @@ data-type="xref">Figure 5-14</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_more_dynamic_paragraphs" class="figure">
 <img
-src="images/af0f50dda5f94d0adf7ecba89250098f6bc5c3d80c0ba28a124f75ad23b84a5c.png"
+src="images/af0f50dda5f94d0adf7ecba89250098f6bc5c3d80c0ba28a124f75ad23b84a5c.webp"
 class="calibre85" alt="dvw2 0514" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-14.
 </span>More dynamic paragraphs</h6>
@@ -1293,7 +1293,7 @@ data-type="xref">Figure 5-15</a>, as seen in example file
 <figure class="calibre35">
 <div id="ch05.xhtml_Still_more_dynamic_paragraphs" class="figure">
 <img
-src="images/0e797a66b669bc7e19962096767fde2e27143bc9ae23dc7c1d2afbc64f546f07.png"
+src="images/0e797a66b669bc7e19962096767fde2e27143bc9ae23dc7c1d2afbc64f546f07.webp"
 class="calibre86" alt="dvw2 0515" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-15.
 </span>Still more dynamic paragraphs</h6>
@@ -1429,7 +1429,7 @@ data-type="xref">Figure 5-16</a>, as seen in
 <figure class="calibre35">
 <div id="ch05.xhtml_Red_paragraphs" class="figure">
 <img
-src="images/44bb566da0d350d49bbd59d5240422cd00b711e297a5e3e8fe5eb27c7ac2cce3.png"
+src="images/44bb566da0d350d49bbd59d5240422cd00b711e297a5e3e8fe5eb27c7ac2cce3.webp"
 class="calibre87" alt="dvw2 0516" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-16.
 </span>Red paragraphs</h6>
@@ -1459,7 +1459,7 @@ data-type="xref">Figure 5-17</a>, in
 <figure class="calibre35">
 <div id="ch05.xhtml_Dynamically_styled_paragraphs" class="figure">
 <img
-src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.png"
+src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.webp"
 class="calibre85" alt="dvw2 0517" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-17.
 </span>Dynamically styled paragraphs</h6>

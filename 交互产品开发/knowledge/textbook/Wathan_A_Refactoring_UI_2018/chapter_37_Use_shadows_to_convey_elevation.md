@@ -11,9 +11,9 @@ higher blur radius make an element feel much closer to the user:
 The closer something feels to the user, the more it will attract their
 focus.
 
-![](images/index-181_1.png)
+![](images/index-181_1.webp)
 
-![](images/index-181_2.png)
+![](images/index-181_2.webp)
 
 181
 
@@ -24,7 +24,7 @@ want the user to notice it but don’t want it to dominate the page:
 Medium shadows are useful for things like dropdowns; elements that need
 to sit a bit further above the rest of the UI:
 
-![](images/index-182_1.png)
+![](images/index-182_1.webp)
 
 Use shadows to convey elevation
 
@@ -42,9 +42,9 @@ in your designs.
 You don’t need a ton of different shadows — five options is usually
 plenty.
 
-![](images/index-183_1.png)
+![](images/index-183_1.webp)
 
-![](images/index-183_2.png)
+![](images/index-183_2.webp)
 
 183
 
@@ -63,7 +63,7 @@ drag each item to sort them. Adding a shadow to an item when a user
 clicks it makes it feel like it pops forward above the other items in
 the list, and makes it clear to the user that they can drag it:
 
-![](images/index-184_1.png)
+![](images/index-184_1.webp)
 
 Use shadows to convey elevation
 
@@ -82,5 +82,5 @@ sit on the z-axis and assign it a shadow accordingly.
 
 Use shadows to convey elevation
 
-![](images/index-186_1.png)
+![](images/index-186_1.webp)
 

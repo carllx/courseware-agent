@@ -20,7 +20,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Cover`
 > *   **Layout**: `Center`
-> *   **Asset**: ![预览](assets/slides/S01_Cover.png)
+> *   **Asset**: ![预览](assets/slides/S01_Cover.webp)
 > *   **Text**: "2026届毕业实习动员会"
 > *   **Scene**: 标题页。主视觉为校徽与中央大标题。背景透出职场剪影。
 
@@ -31,7 +31,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Game_Mode`
 > *   **Layout**: `Split`
-> *   **Asset**: ![预览](assets/slides/S01_Game_Mode.png)
+> *   **Asset**: ![预览](assets/slides/S01_Game_Mode.webp)
 > *   **Scene**: 左边是温馨的新手村（学校/Easy Mode），右边是风雨交加的荒野（职场/Hard Mode）。中间是一个破裂的护盾图标。
 
 英国法学家梅因（Henry Maine）说过：进步社会的运动，是"从身份到契约"的运动。在学校，你靠"学生"身份受保护；到了职场，没人管你是谁，大家只认那张签了字的契约。一个合同日期写错，就可能白干一个月——职场没有补考键。
@@ -45,7 +45,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Timeline_Matrix`
 > *   **Layout**: `Flow`
-> *   **Asset**: ![预览](assets/slides/S01_Timeline_Matrix.png)
+> *   **Asset**: ![预览](assets/slides/S01_Timeline_Matrix.webp)
 > *   **Text**: "实习主线任务：通关路线图"
 > *   **Scene**: 三阶段实习时间轴，标注为“装备期”、“练级期”、“存档期”。重点高亮第一阶段的“6个关键任务点”。
 
@@ -77,7 +77,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Meeting_Evidence`
 > *   **Layout**: `Full`
-> *   **Asset**: ![预览](assets/slides/S01_Meeting_Evidence.png)
+> *   **Asset**: ![预览](assets/slides/S01_Meeting_Evidence.webp)
 > *   **Caption**: "Your Face is Your Pass（露脸即考勤）"
 > *   **Scene**: 线上会议“开摄像头”的截图墙。右侧文字：Your Face is Your Pass（露脸即考勤）。
 
@@ -111,7 +111,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Grading_System`
 > *   **Layout**: `Flow`
-> *   **Asset**: ![预览](assets/slides/S01_Grading_System.png)
+> *   **Asset**: ![预览](assets/slides/S01_Grading_System.webp)
 > *   **Scene**: 通关评价体系天平图。左侧30%（企业导师）：关键词“工作表现/黑盒”；右侧70%（校内导师）：关键词“文档留痕/白盒”。
 
 这门课的评分很现实，实行**双BOSS制**：
@@ -131,7 +131,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Story_Case`
 > *   **Layout**: `Split`
-> *   **Asset**: ![预览](assets/slides/S01_Story_Case.png)
+> *   **Asset**: ![预览](assets/slides/S01_Story_Case.webp)
 > *   **Scene**: 时间错位风险对比图。左侧是 1月-2月 的“无证打工区”（深红色警戒），右侧是 3月 的“合规申请点”。展示由于申请滞后导致的法律效力断层。
 
 请大家看这组对比图。左边的红色区域就是很多同学容易踩进去的“时间陷阱”。
@@ -144,7 +144,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Time_Logic`
 > *   **Layout**: `Flow`
-> *   **Asset**: ![预览](assets/slides/S01_Time_Logic.png)
+> *   **Asset**: ![预览](assets/slides/S01_Time_Logic.webp)
 > *   **Text**: "不可逆的时间法则：文件递交顺序"
 > *   **List**:
 >     1. **签署承诺**: 先补签《安全承诺书》（离校前必签）
@@ -166,7 +166,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Doc_Checklist`
 > *   **Layout**: `Split`
-> *   **Asset**: ![预览](assets/slides/S01_Doc_Checklist.png)
+> *   **Asset**: ![预览](assets/slides/S01_Doc_Checklist.webp)
 > *   **Text**: "核心装备包（护盾值）"
 > *   **List**: 申请表, 安全承诺书, 三方协议
 > *   **Scene**: 核心装备包：申请表、承诺书、三方协议。每样东西旁边标注着“护盾值”。
@@ -183,7 +183,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_App_Form_Detail`
 > *   **Layout**: `Center`
-> *   **Asset**: ![预览](assets/slides/S01_App_Form_Detail.png)
+> *   **Asset**: ![预览](assets/slides/S01_App_Form_Detail.webp)
 > *   **Text**: "装备一：分散实习申请表（通行证）"
 > *   **Scene**: 申请表局部特写。红圈圈出“班级全称”和“盖章处”。两个错误示范被打叉（简称、章名不符）。
 > *   **Search**: 实习申请表 填写规范 班级全称 公章一致性
@@ -201,7 +201,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Safety_Commitment`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S01_Safety_Commitment.png)
+> *   **Asset**: ![预览](assets/slides/S01_Safety_Commitment.webp)
 > *   **Text**: "装备二：安全承诺书（日期陷阱）"
 > *   **Scene**: 承诺书底部日期栏特写。日期处打了一个巨大的问号（?），旁边注明“Wait for Signal”。
 > *   **Search**: 实习安全承诺书 签署日期 法律效力
@@ -213,7 +213,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Tripartite_Agreement`
 > *   **Layout**: `Comparison`
-> *   **Asset**: ![预览](assets/slides/S01_Tripartite_Agreement.png)
+> *   **Asset**: ![预览](assets/slides/S01_Tripartite_Agreement.webp)
 > *   **Text**: "装备三：三方协议 vs 劳动合同"
 > *   **Scene**: 左侧是三方协议（保底），右侧是正式劳动合同（更强）。天平倾向右侧。
 > *   **Search**: 三方协议 劳动合同 区别 实习权益
@@ -239,7 +239,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Stamp_Signature`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S01_Stamp_Signature.png)
+> *   **Asset**: ![预览](assets/slides/S01_Stamp_Signature.webp)
 > *   **Text**: "洁癖规则：红章与真迹"
 > *   **Scene**: 四格漫画风格的规则展示：1.红章特写（对）vs 黑白复印件（错）；2.盖章在空白处（对）vs 盖住字（错）；3.手写签名（对）vs 电子签名（错）。
 > *   **Search**: 公章使用规范 实习证明 红色鲜章 手写签名
@@ -261,7 +261,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Safety_Alert`
 > *   **Layout**: `Grid`
-> *   **Asset**: ![预览](assets/slides/S01_Safety_Alert.png)
+> *   **Asset**: ![预览](assets/slides/S01_Safety_Alert.webp)
 > *   **Text**: "紧急汇报流程：校外不孤单"
 > *   **Scene**: 一个醒目的红色求救按钮图标，连接着两位老师的电话。
 
@@ -281,7 +281,7 @@
 > [VISUAL]
 > *   **Slide**: `S01_Contacts`
 > *   **Layout**: `Center`
-> *   **Asset**: ![预览](assets/slides/S01_Contacts.png)
+> *   **Asset**: ![预览](assets/slides/S01_Contacts.webp)
 > *   **Scene**: 紧急联系人信息卡片。大字展示张巍老师和夏莉娜老师的姓名与手机号，背景简洁方便拍照。
 
 任何搞不定的状况，尤其涉及到生命安全或法律风险的，直接打这两个电话：

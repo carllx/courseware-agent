@@ -16,7 +16,7 @@
 
 ① 常规操作：功能区左侧第一部分按钮可以帮助我们完成保存、撤销和重做操作，如图5-2所示。
 
-![](images/EPUB/images/image_500.jpg)
+![](images/EPUB/images/image_500.webp)
 
 图5-1 墨刀工作界面
 
@@ -26,23 +26,23 @@
 
 ④ 图层：控制组件的层级显示关系，选中组件后可单击“置顶”“置底”“上/下移一层”按钮进行调整，如图5-5所示。
 
-![](images/EPUB/images/image_501.jpg)
+![](images/EPUB/images/image_501.webp)
 
 ▲图5-2 常规操作
 
-![](images/EPUB/images/image_502.jpg)
+![](images/EPUB/images/image_502.webp)
 
 ▲图5-3 缩放
 
-![](images/EPUB/images/image_503.jpg)
+![](images/EPUB/images/image_503.webp)
 
 ▲图5-4 对齐/分布
 
-![](images/EPUB/images/image_504.jpg)
+![](images/EPUB/images/image_504.webp)
 
 ▲图5-5 图层
 
-![](images/EPUB/images/image_505.jpg)
+![](images/EPUB/images/image_505.webp)
 
 图5-6 组合
 
@@ -64,23 +64,23 @@
 
 ⑨ 下载：一键下载原型的离线演示文件，如图5-8所示。
 
-![](images/EPUB/images/image_506.jpg)
+![](images/EPUB/images/image_506.webp)
 
 图5-7 素材库
 
 ⑩ 分享：一键将做好的项目通过链接、二维码的形式发送给其他人预览，如图5-9所示。
 
-![](images/EPUB/images/image_507.jpg)
+![](images/EPUB/images/image_507.webp)
 
 ▲图5-8 下载
 
-![](images/EPUB/images/image_508.jpg)
+![](images/EPUB/images/image_508.webp)
 
 图5-9 分享
 
 ⑪ 工作流：一键打开工作流编辑界面，快速掌握项目全局交互信息，如图5-10所示。
 
-![](images/EPUB/images/image_509.jpg)
+![](images/EPUB/images/image_509.webp)
 
 图5-10 工作流
 
@@ -88,7 +88,7 @@
 
 ⑬ 标注：快速打开项目页面信息标注页，如图5-11所示。
 
-![](images/EPUB/images/image_510.jpg)
+![](images/EPUB/images/image_510.webp)
 
 图5-11 标注
 
@@ -98,11 +98,11 @@
 
 页面回收站：保留14天内删除的页面，如图5-13所示。
 
-![](images/EPUB/images/image_511.jpg)
+![](images/EPUB/images/image_511.webp)
 
 ▲图5-12 图形设计工具
 
-![](images/EPUB/images/image_512.jpg)
+![](images/EPUB/images/image_512.webp)
 
 图5-13 页面回收站
 
@@ -116,11 +116,11 @@
 
 图层栏显示当前面板中的所有元件，如图5-16所示。
 
-![](images/EPUB/images/image_513.jpg)
+![](images/EPUB/images/image_513.webp)
 
 ▲图5-14 收起工具
 
-![](images/EPUB/images/image_514.jpg)
+![](images/EPUB/images/image_514.webp)
 
 图5-15 页面栏
 
@@ -134,19 +134,19 @@
 
 “全局事件”面板可以为元件添加交互效果，如图5-19所示。
 
-![](images/EPUB/images/image_515.jpg)
+![](images/EPUB/images/image_515.webp)
 
 ▲图5-16 图层栏
 
-![](images/EPUB/images/image_516.jpg)
+![](images/EPUB/images/image_516.webp)
 
 ▲图5-17 内置组件
 
-![](images/EPUB/images/image_517.jpg)
+![](images/EPUB/images/image_517.webp)
 
 ▲图5-18 设置栏
 
-![](images/EPUB/images/image_518.jpg)
+![](images/EPUB/images/image_518.webp)
 
 图5-19 “全局事件”面板
 
@@ -154,11 +154,11 @@
 
 工作区是创建原型的区域，显示当前页面的所有内容，如图5-20所示；在“页面设置”面板中可以对页面进行背景颜色和大小的设置，如图5-21所示。
 
-![](images/EPUB/images/image_519.jpg)
+![](images/EPUB/images/image_519.webp)
 
 ▲图5-20 工作区
 
-![](images/EPUB/images/image_520.jpg)
+![](images/EPUB/images/image_520.webp)
 
 图5-21 “页面设置”面板
 
@@ -186,19 +186,19 @@
 
 ● 设置指示点及指示点颜色，选择是否显示指示点。
 
-![](images/EPUB/images/image_521.jpg)
+![](images/EPUB/images/image_521.webp)
 
 ▲图5-22 “轮播图”组件
 
-![](images/EPUB/images/image_522.jpg)
+![](images/EPUB/images/image_522.webp)
 
 ▲图5-23 设置轮播图图片
 
-![](images/EPUB/images/image_523.jpg)
+![](images/EPUB/images/image_523.webp)
 
 ▲图5-24 调整顺序
 
-![](images/EPUB/images/image_524.jpg)
+![](images/EPUB/images/image_524.webp)
 
 图5-25 其他设置
 
@@ -210,7 +210,7 @@
 
 ① 添加音频：使用“网页”组件添加音频效果，进行音乐播放器的制作。
 
-![](images/EPUB/images/image_525.jpg)
+![](images/EPUB/images/image_525.webp)
 
 图5-26 添加“网页”组件
 
@@ -226,29 +226,29 @@
 
 ● 使用“腾讯地图”来添加地图，腾讯地图开放平台：http://lbs.qq.com/。首先，注册腾讯地图账号，然后创建个人的key，如图5-31所示。
 
-![](images/EPUB/images/image_526.jpg)
+![](images/EPUB/images/image_526.webp)
 
 ▲图5-27 生成外链播放器
 
-![](images/EPUB/images/image_527.jpg)
+![](images/EPUB/images/image_527.webp)
 
 ▲图5-28 HTML代码
 
-![](images/EPUB/images/image_528.jpg)
+![](images/EPUB/images/image_528.webp)
 
 ▲图5-29 在“网页”组件里添加音频链接
 
-![](images/EPUB/images/image_529.jpg)
+![](images/EPUB/images/image_529.webp)
 
 ▲图5-30 播放音频
 
-![](images/EPUB/images/image_530.jpg)
+![](images/EPUB/images/image_530.webp)
 
 图5-31 创建用户key
 
 ● 在官网顶部，单击“开发文档”，选择“地图组件”查看详情，如图5-32所示。
 
-![](images/EPUB/images/image_531.jpg)
+![](images/EPUB/images/image_531.webp)
 
 图5-32 查看详情
 
@@ -258,11 +258,11 @@
 
 ● 单击“预览”按钮，就可以看到地图的显示效果，如图5-34所示。
 
-![](images/EPUB/images/image_532.jpg)
+![](images/EPUB/images/image_532.webp)
 
 ▲图5-33 添加地图URL
 
-![](images/EPUB/images/image_533.jpg)
+![](images/EPUB/images/image_533.webp)
 
 图5-34 地图的显示效果
 
@@ -272,7 +272,7 @@
 
 ● 从网站中选择要置入的视频，单击视频下方的“分享”按钮，单击“复制通用代码”按钮，如图5-35所示。
 
-![](images/EPUB/images/image_534.jpg)
+![](images/EPUB/images/image_534.webp)
 
 图5-35 复制通用代码
 
@@ -280,11 +280,11 @@
 
 ● 单击“预览”按钮，在预览页面中可看到视频播放效果，如图5-37所示。
 
-![](images/EPUB/images/image_535.jpg)
+![](images/EPUB/images/image_535.webp)
 
 ▲图5-36 粘贴地址
 
-![](images/EPUB/images/image_536.jpg)
+![](images/EPUB/images/image_536.webp)
 
 图5-37 视频播放效果
 
@@ -298,27 +298,27 @@
 
 ① 选中组件，单击鼠标右键，选择“添加组件素材到→我的组件”命令，如图5-39所示。
 
-![](images/EPUB/images/image_537.jpg)
+![](images/EPUB/images/image_537.webp)
 
 ▲图5-38 “我的组件”面板
 
-![](images/EPUB/images/image_538.jpg)
+![](images/EPUB/images/image_538.webp)
 
 图5-39 创建“我的组件”
 
 ② 选中元素后，在“我的组件”面板中单击“新建组件”按钮，给组件设置名称，如图5-40所示。
 
-![](images/EPUB/images/image_539.jpg)
+![](images/EPUB/images/image_539.webp)
 
 图5-40 新建组件
 
 创建成功后，便可以通过双击或者拖动的方式进行使用，如图5-41所示。如果自定义的组件数量很多，还可以使用“搜索”功能来提升工作效率，如图5-42所示。
 
-![](images/EPUB/images/image_540.jpg)
+![](images/EPUB/images/image_540.webp)
 
 ▲图5-41 使用“我的组件”
 
-![](images/EPUB/images/image_541.jpg)
+![](images/EPUB/images/image_541.webp)
 
 图5-42 搜索“我的组件”
 
@@ -328,7 +328,7 @@
 
 “图标”面板在工作区右侧的元件栏中，打开“图标”面板后，可以通过搜索或分类查找的方式选用图标库中的开源图标，可以在“图标”面板设置图标的默认颜色及尺寸，如图5-43所示。
 
-![](images/EPUB/images/image_542.jpg)
+![](images/EPUB/images/image_542.webp)
 
 图5-43 “图标”面板
 
@@ -338,7 +338,7 @@
 
 在工作区，选中需要下载的图标后，单击右下角的导出按钮即可保存SVG/PNG格式的图标到本地。如需批量下载SVG图标，可按住Shift键的同时用鼠标左键点选，多选完成后，单击导出按钮，如图5-44所示。
 
-![](images/EPUB/images/image_543.jpg)
+![](images/EPUB/images/image_543.webp)
 
 图5-44 下载图标
 
@@ -354,7 +354,7 @@
 
 选中组件，单击鼠标右键，选择“转换为母版”命令，命名。在该项目创建的所有母版都会存放在“母版”面板中，如图5-45所示。
 
-![](images/EPUB/images/image_544.jpg)
+![](images/EPUB/images/image_544.webp)
 
 图5-45 新建母版
 
@@ -362,7 +362,7 @@
 
 鼠标指针悬浮在母版缩略图上方，单击“…”在弹出的下拉菜单中再单击“编辑”选项，即可进入母版编辑界面。修改完成后，母版在该项目里所有的实例都会同步更新修改，如图5-46所示。
 
-![](images/EPUB/images/image_545.jpg)
+![](images/EPUB/images/image_545.webp)
 
 图5-46 编辑母版
 
@@ -376,17 +376,17 @@
 
 第二种办法是选中组件，然后拖动组件左边出现的闪电图标到目标页面，如图5-48所示。
 
-![](images/EPUB/images/image_546.jpg)
+![](images/EPUB/images/image_546.webp)
 
 ▲图5-47 添加交互链接方法1
 
-![](images/EPUB/images/image_547.jpg)
+![](images/EPUB/images/image_547.webp)
 
 图5-48 添加交互链接方法2
 
 如果想要删除某个链接，只需单击该链接上的剪刀图标，如图5-49所示。
 
-![](images/EPUB/images/image_548.jpg)
+![](images/EPUB/images/image_548.webp)
 
 图5-49 删除链接
 
@@ -396,11 +396,11 @@
 
 ② 事件：事件是对所有组件来说的，需要选中某个组件之后，在右侧的“事件”面板中进行事件的添加，如图5-51所示。
 
-![](images/EPUB/images/image_549.jpg)
+![](images/EPUB/images/image_549.webp)
 
 ▲图5-50 添加全局事件
 
-![](images/EPUB/images/image_550.jpg)
+![](images/EPUB/images/image_550.webp)
 
 图5-51 添加事件
 
@@ -416,19 +416,19 @@
 
 事件行为包含跳转页面、跳转超链接、切换页面状态和切换组件状态4种，如图5-54所示。选择完行为动作后即可对相应的页面或者组件进行效果的设置，如图5-55所示。
 
-![](images/EPUB/images/image_551.jpg)
+![](images/EPUB/images/image_551.webp)
 
 ▲图5-52 手指触发事件
 
-![](images/EPUB/images/image_552.jpg)
+![](images/EPUB/images/image_552.webp)
 
 ▲图5-53 鼠标触发事件
 
-![](images/EPUB/images/image_553.jpg)
+![](images/EPUB/images/image_553.webp)
 
 ▲图5-54 事件行为
 
-![](images/EPUB/images/image_554.jpg)
+![](images/EPUB/images/image_554.webp)
 
 图5-55 添加交互事件
 
@@ -442,7 +442,7 @@
 
 ② 在项目管理页选中项目，单击“更多分享”，复制“分享”面板中的链接发给对方即可，如图5-56所示。
 
-![](images/EPUB/images/image_555.jpg)
+![](images/EPUB/images/image_555.webp)
 
 图5-56 分享
 
@@ -466,19 +466,19 @@
 
 在功能区中单击“下载”按钮，选择“安卓APK”选项，将其下载到安卓设备上，如图5-60所示。
 
-![](images/EPUB/images/image_556.jpg)
+![](images/EPUB/images/image_556.webp)
 
 ▲图5-57 设置部分页面可见
 
-![](images/EPUB/images/image_557.jpg)
+![](images/EPUB/images/image_557.webp)
 
 ▲图5-58 重置分享链接
 
-![](images/EPUB/images/image_558.jpg)
+![](images/EPUB/images/image_558.webp)
 
 ▲图5-59 墨刀App离线演示
 
-![](images/EPUB/images/image_559.jpg)
+![](images/EPUB/images/image_559.webp)
 
 图5-60 安卓APK离线演示
 
@@ -496,13 +496,13 @@ HTML文件的具体使用步骤。
 
 ● 下载完文件，解压文件，双击index文件即可用浏览器打开（建议用Chrome浏览器打开），如图5-61所示。
 
-![](images/EPUB/images/image_560.jpg)
+![](images/EPUB/images/image_560.webp)
 
 图5-61 下载HTML离线演示文件
 
 ② 下载PNG格式的文件：在功能区单击“下载”按钮，即可选择下载PNG格式的文件。下载PNG格式的文件时可以选择下载当前页面或者打包下载所有页面，并且可以选择是否包含画布外元素，如图5-62所示。
 
-![](images/EPUB/images/image_561.jpg)
+![](images/EPUB/images/image_561.webp)
 
 图5-62 下载PNG格式的文件
 
@@ -510,7 +510,7 @@ HTML文件的具体使用步骤。
 
 选中项目，单击“分享”按钮，在“分享”面板中可以设置是否显示项目边框；如需临时设置显示/隐藏项目边框，可以在运行界面左上角单击“设置”按钮来进行调整，如图5-63所示。
 
-![](images/EPUB/images/image_562.jpg)
+![](images/EPUB/images/image_562.webp)
 
 图5-63 显示/隐藏项目边框
 
@@ -524,17 +524,17 @@ HTML文件的具体使用步骤。
 
 ② 项目编辑完成后，可以通过单击右上角的“分享”按钮，设置“允许查看PRD”选项打开，且设置“默认预览模式”为“PRD”，如图5-65所示。
 
-![](images/EPUB/images/image_563.jpg)
+![](images/EPUB/images/image_563.webp)
 
 ▲图5-64 工作区外放置元素
 
-![](images/EPUB/images/image_564.jpg)
+![](images/EPUB/images/image_564.webp)
 
 图5-65 设置“允许查看PRD”和“默认预览模式”
 
 ③ 设置好之后，将项目链接分享给其他同事，他们在获取链接后，就可以查看PRD的内容，如图5-66所示。
 
-![](images/EPUB/images/image_565.jpg)
+![](images/EPUB/images/image_565.webp)
 
 图5-66 分享PRD
 
@@ -548,7 +548,7 @@ HTML文件的具体使用步骤。
 
 为了更方便预览整个页面，墨刀提供了“长页面”模式，即“无设备框、不能滚动、不显示画板外内容”的模式，如图5-67所示。
 
-![](images/EPUB/images/image_566.jpg)
+![](images/EPUB/images/image_566.webp)
 
 图5-67 “长页面”模式
 
@@ -570,33 +570,33 @@ HTML文件的具体使用步骤。
 
 单击右上方的小圆圈，如图5-68所示，可以打开“页面状态”面板，可以看到有一个状态1。单击“新建”按钮可以新建状态2，新建的状态没有任何组件，如果想要在不同的状态中放置不同的组件，可以选择新建状态，如图5-69所示；也可以选择状态1，单击“复制”按钮，复制出来的状态内容和状态1是一样的。如果对复制的状态的组件进行大小、位置等属性的修改，然后在状态1中添加一个点击交互效果，设置动效为“神奇移动”，就可以出现交互动画效果。所谓的“神奇移动”，是不同状态间同一个组件的平滑过渡效果。
 
-![](images/EPUB/images/image_567.jpg)
+![](images/EPUB/images/image_567.webp)
 
 ▲图5-68 “页面状态”面板
 
-![](images/EPUB/images/image_568.jpg)
+![](images/EPUB/images/image_568.webp)
 
 图5-69 新建状态
 
 如果有多个状态，需要对每个状态进行重命名操作，如图5-70所示，以方便后续选择相应的状态，单击某个状态然后拖动它就可以调整状态的顺序，如图5-71所示。
 
-![](images/EPUB/images/image_569.jpg)
+![](images/EPUB/images/image_569.webp)
 
 ▲图5-70 状态重命名
 
-![](images/EPUB/images/image_570.jpg)
+![](images/EPUB/images/image_570.webp)
 
 图5-71 调整状态的顺序
 
 如果希望修改某个状态里的组件时，同步修改其他状态里该组件的样式。如文字内容需要保持一致，那么选中修改后的组件，单击鼠标右键，选择“添加/替换到其他状态”命令，如图5-72所示。
 
-![](images/EPUB/images/image_571.jpg)
+![](images/EPUB/images/image_571.webp)
 
 图5-72 “添加/替换到其他状态”命令
 
 删除某个状态里的组件，对其他状态里的该组件没有影响，不过在这个状态里该组件是灰色的。如果要恢复该组件，就选中该组件，单击鼠标右键，选择“从其他状态替换”命令，就可以将替换状态中的组件恢复到这个状态中。如果想从所有的状态中删除这个组件，选中组件后单击鼠标右键，选择“从所有状态删除”命令即可，如图5-73所示。
 
-![](images/EPUB/images/image_572.jpg)
+![](images/EPUB/images/image_572.webp)
 
 图5-73 删除状态中的组件
 
@@ -610,21 +610,21 @@ HTML文件的具体使用步骤。
 
 第二种方式是将组件添加到“我的组件”中，然后在“我的组件”面板中找到该组件，单击“编辑”按钮，就可以为该组件添加组件状态，如图5-75所示。
 
-![](images/EPUB/images/image_573.jpg)
+![](images/EPUB/images/image_573.webp)
 
 ▲图5-74 添加组件状态的方式1
 
-![](images/EPUB/images/image_574.jpg)
+![](images/EPUB/images/image_574.webp)
 
 图5-75 添加组件状态的方式2
 
 如果这个组件状态需要在多个地方用到，并且需要同步修改，可以将制作好的组件状态转换为母版，如图5-76所示。这样就可以在不同页面中复用同一个组件状态，并且在对母版进行修改编辑后，如图5-77所示，其他使用该母版的地方也会同步进行修改。
 
-![](images/EPUB/images/image_575.jpg)
+![](images/EPUB/images/image_575.webp)
 
 ▲图5-76 将组件状态转换为母版
 
-![](images/EPUB/images/image_576.jpg)
+![](images/EPUB/images/image_576.webp)
 
 图5-77 修改组件状态的母版
 

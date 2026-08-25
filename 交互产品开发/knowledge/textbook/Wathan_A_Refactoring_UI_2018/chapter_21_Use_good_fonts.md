@@ -18,7 +18,7 @@ the system font stack:
 -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica
 Neue;
 
-![](images/index-109_1.png)
+![](images/index-109_1.webp)
 
 109
 
@@ -40,7 +40,7 @@ well as the italic variations of those weights.
 A great way to limit the number of options you have to choose from is to
 crank that up to 10+ *(to account for italics)*:
 
-![](images/index-110_1.png)
+![](images/index-110_1.webp)
 
 Use good fonts
 
@@ -70,9 +70,9 @@ This is especially useful when you’re trying to pick out something other
 than a neutral UI typeface. Picking a nice serif with some personality
 for example can be tough.
 
-![](images/index-111_1.png)
+![](images/index-111_1.webp)
 
-![](images/index-111_2.png)
+![](images/index-111_2.webp)
 
 111
 
@@ -108,7 +108,7 @@ will help get you by in the meantime.
 
 Use good fonts
 
-![](images/index-114_1.png)
+![](images/index-114_1.webp)
 
-![](images/index-114_2.png)
+![](images/index-114_2.webp)
 

@@ -127,7 +127,7 @@ include a diverse set of viewpoints, and that, when you’re done, the
 extended team has built shared understanding and the path forward is
 clear.
 
-![](images/assets/lux3_0401.png)
+![](images/assets/lux3_0401.webp)
 
 ###### Figure 4-1. The [Lean UX Canvas](https://www.jeffgothelf.com/blog/leanuxcanvas-v2)
 
@@ -139,7 +139,7 @@ book *The Toyota Kata*^([2](#ch04.html_ch01fn9))—to its desired future
 state or *target condition* (“LATER” in
 [Figure 4-2](#ch04.html_the_key_areas_of_the_lean_ux_canvas)).
 
-![](images/assets/lux3_0402.png)
+![](images/assets/lux3_0402.webp)
 
 ###### Figure 4-2. The key areas of the Lean UX Canvas
 

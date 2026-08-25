@@ -38,7 +38,7 @@ FFmpeg 抽帧 → Python (Pillow/OpenCV) 提取主色 → NumPy 拼接 → matpl
 ```
 
 **关键步骤**：
-1. `ffmpeg -i movie.mp4 -vf fps=1 frames/frame_%04d.jpg` — 每秒抽 1 帧
+1. `ffmpeg -i movie.mp4 -vf fps=1 frames/frame_%04d.webp` — 每秒抽 1 帧
 2. KMeans 聚类提取每帧主色调（k=3~5）
 3. 色条拼接为 Movie Barcode 长图
 4. 进一步用 D3.js 做交互版（hover 显示对应帧/时间戳）

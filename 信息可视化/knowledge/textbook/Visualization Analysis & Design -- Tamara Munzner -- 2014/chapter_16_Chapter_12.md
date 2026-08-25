@@ -52,10 +52,10 @@ fully supported by a single view of a specific dataset, more complex ones often 
 
 The EDV system features the idiom of linked highlighting between views [Wills 95]. Figure 12.2 shows a baseball statistics dataset with linked bar charts, scatterplots, and a histogram [Wills 95]. In Figure 12.2(a), the viewer has selected players with high salaries in the smoothed histogram view on the upper right. The distribution of these players is very different in the other plots. In the Years played view bar chart on the upper left, there are no rookie players. The Assists-PutOuts scatterplot does not show much correlation with salary. Comparing the CHits/Years plot showing batting ability in terms of career home runs with average career hits shows that the hits per year is more correlated with salary than the home runs
 
-![](images/946fd125b453cebbe254f8323811ef27730ed0ff66428b6396489028fefbdd82.jpg)  
+![](images/946fd125b453cebbe254f8323811ef27730ed0ff66428b6396489028fefbdd82.webp)  
 (a)
 
-![](images/f3d5ca882a32f71e428bd999f3c80371f9be1cbe042f59d94cb86a29686fa4c4.jpg)  
+![](images/f3d5ca882a32f71e428bd999f3c80371f9be1cbe042f59d94cb86a29686fa4c4.webp)  
 (b)   
 Figure 12.2. Linked highlighting between views shows how regions that are contiguous in one view are distributed within another. (a) Selecting the high salaries in the upper right window shows different distributions in the other views. (b) Selecting the bottom group in the Assists-PutOuts window shows that the clump corresponds to specific positions played. From [Wills 95, Figures 4 and 5].
 
@@ -83,7 +83,7 @@ There are several standard approaches in choosing how many views to use in total
 
 Interactive online geographic maps are a widely used idiom that combines the shared encoding and overview–detail choices for geographic data, with a large map exploration view augmented by a small “bird’s-eye” view providing an orienting overview, as shown in Figure 12.3. A small rectangle
 
-![](images/7de45697e7959738daa65b41654391fd0a61964cd94b955a3ad13db52adc01ab.jpg)  
+![](images/7de45697e7959738daa65b41654391fd0a61964cd94b955a3ad13db52adc01ab.webp)  
 Figure 12.3. Overview–detail example with geographic maps, where the views have the same encoding and dataset; they differ in viewpoint and size. Made with Google Maps, http://maps.google.com.
 
 within the overview shows the region viewable within the detail view. The minimum navigational linkage is unidirectional, where position and size of the rectangle in the overview updates as the user pans and zooms within the large detail view. With bidirectionally linked views, the rectangle can also be moved within the small view to update the region shown in the large one.
@@ -100,7 +100,7 @@ Microarrays measure gene expression, which is the activity level of a gene. They
 
 The designers identified the five tasks of finding genes that were on or off across the whole time period, finding genes whose values rose or fell over a specified time window, finding genes with similar time-series patterns, relating all these sets to known functional groups of genes, and exporting the results for use within other tools.
 
-![](images/dc0bc7dd4462d76fc29372eb8e1887ff957ad4b7f41b6400ef18e65491127d1c.jpg)  
+![](images/dc0bc7dd4462d76fc29372eb8e1887ff957ad4b7f41b6400ef18e65491127d1c.webp)  
 Figure 12.4. Multiform overview–detail vis tool for microarray exploration features a central scatterplot linked with the graph view in the upper left. From [Craig and Kennedy 03, Figure 3].
 
 For more on superimposed line charts, see Section 12.5.2.
@@ -140,7 +140,7 @@ Cerebral is also multiform; the view at the bottom uses parallel coordinates for
 
 The convention of red– green colormaps in bioinformatics is discussed in Section 7.5.2.
 
-![](images/61670325cf69e869df201a082daf12ce0b285f4ce17f415493697427361fca3e.jpg)  
+![](images/61670325cf69e869df201a082daf12ce0b285f4ce17f415493697427361fca3e.webp)  
 Figure 12.5. Cerebral uses small-multiple views to show the same base graph of gene interactions colored according to microarray measurements made at different times. The coloring in the main view uses the derived attribute of the difference in values between the two chosen views. From [Barsky et al. 08, Figure 2].
 
 <table><tr><td>System</td><td>Cerebral</td></tr><tr><td>What: Data</td><td>Multidimensional table: one categorical key attribute (gene), one categorical key attribute (condition), one quantitative value attribute (gene activity at condition). Network: nodes (genes), links (known interaction between genes), one ordered attribute on nodes: location within cell of interaction.</td></tr><tr><td>What: Derived</td><td>One quantitative value attribute (difference between measurements for two partitions).</td></tr><tr><td>How: Encode</td><td>Node-link network using connection marks, vertical spatial position expressing interaction location, containment marks for coregulated gene groups, diverging colormap. Small-multiple network views aligned in matrix. Parallel coordinates.</td></tr><tr><td>How: Facet</td><td>Partition: small multiple views partitioned on condition, and multiform views. Coordinate: linked high-lighting and navigation.</td></tr></table>
@@ -151,7 +151,7 @@ Figure 12.5. Cerebral uses small-multiple views to show the same base graph of g
 
 <!-- Chunk 7 Start -->
 
-![](images/d449eb118bca70ff2feda7397c4acebf79342b7ca7d4d8e1d7d0028a5e3e0f92.jpg)  
+![](images/d449eb118bca70ff2feda7397c4acebf79342b7ca7d4d8e1d7d0028a5e3e0f92.webp)  
 Figure 12.6. Design choices for how to coordinate between views relating to sharing encoding and data.
 
 # 12.3.3 Share Navigation: Synchronize
@@ -172,7 +172,7 @@ Figure 12.7 shows a vis of census data that uses many views. In addition to geog
 
 Bivariate colormaps are covered in Section 10.3.3.
 
-![](images/6321452c0101802169644b6bc9d04e8e597852a773dd775201d79e6aa77d96f3.jpg)  
+![](images/6321452c0101802169644b6bc9d04e8e597852a773dd775201d79e6aa77d96f3.webp)  
 Figure 12.7. The Improvise toolkit [Weaver 04] was used to create this census vis that has many forms of coordination between views. It has many multiform views, some of which use small multiples, and some of which provide additional detail information. From http://www.cs.ou.edu/~weaver/improvise/examples/census.
 
 attribute. The list views allow direct sorting by and selection within an attribute of interest. The map in the upper left view is a small overview, with linked navigation to the large geographic detail view in the top middle.
@@ -221,10 +221,10 @@ The term glyph has been used for structures at a range of sizes. Glyphs like the
 
 In the middle of the size spectrum are simpler structures such as a single multipart bar in a stacked bar chart. At the extreme end
 
-![](images/6fe6ae97e34df921f64c32f500752b7bd8d0e448bf71065972cd2f4881e1bbc4.jpg)  
+![](images/6fe6ae97e34df921f64c32f500752b7bd8d0e448bf71065972cd2f4881e1bbc4.webp)  
 (a)
 
-![](images/2dcf58be307d86fe731a15fb8ebc42bf918ce2f0eb369b5f47bd536c5e3700ca.jpg)  
+![](images/2dcf58be307d86fe731a15fb8ebc42bf918ce2f0eb369b5f47bd536c5e3700ca.webp)  
 (b)   
 Figure 12.8. Partitioning and bar charts. (a) Single bar chart with grouped bars: separated by state key into regions, using seven-mark glyphs within each region. (b) Four aligned small-multiple bar chart views: separated by group key into vertically aligned list of regions, with a full bar chart in each region. From http://bl.ocks.org/mbostock/3887051, after http://bl.ocks.org/mbostock/4679202.
 
@@ -252,10 +252,10 @@ In this figure, the partitioning is by year for the matrix columns and by site f
 
 The value of main-effects ordering is that outliers countervailing to the general trends are visible. The Morris plots in the third row do not match up with the others, suggesting that perhaps the years had been switched. Figure 12.9(b) shows a trellis where the vertical ordering between and within the plots is alphabetical. This display does not provide any useful
 
-![](images/31c64de5ea931d8ee7c68134ad95e4342e3b8816983f943f8602d858843c654c.jpg)  
+![](images/31c64de5ea931d8ee7c68134ad95e4342e3b8816983f943f8602d858843c654c.webp)  
 (a)
 
-![](images/d880f2ba68d48deeaee0bd1b52479981f964ff3830cfd34bf1e8060367b99128.jpg)  
+![](images/d880f2ba68d48deeaee0bd1b52479981f964ff3830cfd34bf1e8060367b99128.webp)  
 (b)   
 Figure 12.9. Trellis facets the data into a matrix of dot chart views, allowing the user control of partitioning and orderering. (a) With main-effects ordering, the plots are ordered by median values within the plots for the sites, and the shared vertical axis within each plot is ordered by median values within the varieties. The Morris site in the third row is a visible outlier that does not fit the general trends. (b) With a simple alphabetical ordering of plots and axes, no trends are visible, so no outliers can be detected. From [Becker et al. 96, Figures 1 and 3].
 
@@ -263,7 +263,7 @@ hints of outliers versus the trends, since no particular general trend is visibl
 
 Figure 12.10 shows another plot with a different structure to further investigate the anomaly. The plots are still partitioned vertically by site, but no further. Both years are thus included within the same view and distinguished from each other by color. The switch in color patterns in the third row shows convincing evidence for the theory that the Morris data is incorrect.
 
-![](images/8498410bd2e409a4956a48158c89df9765f9693dc0764e21d55f06dcc29c4c2e.jpg)  
+![](images/8498410bd2e409a4956a48158c89df9765f9693dc0764e21d55f06dcc29c4c2e.webp)  
 Figure 12.10. A second Trellis plot combines the years into a single plot with year encoded by color, showing strong evidence of an anomaly in the data. From [Becker et al. 96, Figure 2].
 
 <table><tr><td>System</td><td>Trellis</td></tr><tr><td>What: Data</td><td>Multidimensional table: three categorical key attributes, one quantitative value attribute.</td></tr><tr><td>What: Derived</td><td>Medians for each partition.</td></tr><tr><td>How: Encode</td><td>Dot charts aligned in 2D matrix.</td></tr><tr><td>How: Facet</td><td>Partitioned by any combination of keys into regions.</td></tr></table>
@@ -280,17 +280,17 @@ One way to consider this arrangement is as a recursive subdivision using matrix 
 
 Figure 12.11(b) shows another configuration of the same dataset with the same basic spatial arrangement but a different order of partitioning. It is partitioned first by neighborhood and then by residence type, with the bottom levels by year and month as in the previous example. The color coding is by a slightly different derived attribute, the average price within the group. In this encoding it is easy to spot expensive neighborhoods, which are the views near the center. It is also easy to see that detached houses, in the lower right corner of each view, are more expensive than the other types.
 
-![](images/95f1d7bfad1cc952725fe0c8103188cabe8150f50a264d0b34650d99135d5305.jpg)  
+![](images/95f1d7bfad1cc952725fe0c8103188cabe8150f50a264d0b34650d99135d5305.webp)  
 (a)
 
-![](images/0235e724a117e52e0290ca5445f00c06278991edcdd494e93532bf92c06a9ff4.jpg)  
+![](images/0235e724a117e52e0290ca5445f00c06278991edcdd494e93532bf92c06a9ff4.webp)  
   
 Figure 12.11. The HiVE system supports exploration through different partitioning choices. (a) Recursive matrix alignment where the first split is by the house type attribute, and the second by neighborhood. The lowest levels show time with years as rows and months as columns. (b) Switching the order of the first and second splits shows radically different patterns. From [Slingsby et al. 09, Figures 7b and 2c].
 
-![](images/2f57ec4fd1e06ae88a57f98ba7ab0de172801c23f500c2aa51dafda1eb3c8220.jpg)  
+![](images/2f57ec4fd1e06ae88a57f98ba7ab0de172801c23f500c2aa51dafda1eb3c8220.webp)  
 (a)
 
-![](images/e26d6ef5d3285e4aa6676950b367fa146c87bd59dbfc87100e51dfce2ab640a8.jpg)  
+![](images/e26d6ef5d3285e4aa6676950b367fa146c87bd59dbfc87100e51dfce2ab640a8.webp)  
 (b)   
 Figure 12.12. HiVE with different arrangements. (a) Sizing regions according to sale counts yields a treemap. (b) Arranging the second-level regions as choropleth maps. From [Slingsby et al. 09, Figures 7a and 7c].
 
@@ -331,9 +331,9 @@ Figure 12.13 shows an example that lets the viewer easily shift attention betwee
 
 Checking luminance contrast explicitly is an example of the slogan Get It Right in Black and White discussed in Section 6.9.
 
-![](images/37f82dc0fe25e3a76e6e11d1834455d6a25efb675ef5dcb5640fc0c7683b3290.jpg)
+![](images/37f82dc0fe25e3a76e6e11d1834455d6a25efb675ef5dcb5640fc0c7683b3290.webp)
 
-![](images/0a83e7fb3449c5d1ed42cfe220a8b033d3123bf2f75f4bf6c320af861092a16a.jpg)  
+![](images/0a83e7fb3449c5d1ed42cfe220a8b033d3123bf2f75f4bf6c320af861092a16a.webp)  
 (b)   
 Figure 12.13. Static visual layering in maps. (a) The map layers are created by differences in the hue, saturation, luminance, and size channels on both area and line marks. (b) The grayscale view shows that each layer uses a different range in the luminance channel, providing luminance contrast. From [Stone 10].
 
@@ -343,20 +343,20 @@ Figure 12.13. Static visual layering in maps. (a) The map layers are created by 
 
 Figure 12.14 shows a common use of the superimpose design choice, where several lines representing different data items are superimposed to create combined charts. The alignment of the simple constituent drawings is straightforward: they are all superimposed directly on top of each other so that they share the same frame. This simple superimposition works well because the only mark is a thin line that is mostly disjoint with the other marks. Figure 12.14(a) shows that the amount of occlusion is very small with only three lines. This idiom is still usable with even nearly one dozen items superimposed, as shown in Figure 12.14(b). However, Figure 12.14(c) shows that this approach does not scale to many dozens or hundreds of items.
 
-![](images/bb6b9fa7eeca040090e2dd57605d2ef7af5fad57687cf9a1a3b6ee320811e6ef.jpg)
+![](images/bb6b9fa7eeca040090e2dd57605d2ef7af5fad57687cf9a1a3b6ee320811e6ef.webp)
 
-![](images/dd3628abd414f1585be13520fcd99f8c00ae8a48b76716442275d492917660c1.jpg)
+![](images/dd3628abd414f1585be13520fcd99f8c00ae8a48b76716442275d492917660c1.webp)
 
-![](images/6a260059584f5d551ab81721064740bcd7d7d7245875741e2ee7cf0c46250ae1.jpg)  
+![](images/6a260059584f5d551ab81721064740bcd7d7d7245875741e2ee7cf0c46250ae1.webp)  
 (c)   
 Multiple line charts can be superimposed within the same global frame. (a) A small number of items Figure 12.14.is easily readable. (b) Up to a few dozen lines can still be understood. (c) This technique does not scale to hundreds of items.
 
 <table><tr><td>Idiom</td><td>Superimposed Line Charts</td></tr><tr><td>What: Data</td><td>Multidimensional table: one ordered key attribute (time), one categorical key attribute (machine), one quantitative value attribute (CPU utilization).</td></tr><tr><td>How: Encode</td><td>Line charts, colored by machine attribute.</td></tr><tr><td>How: Facet</td><td>Superimpose: static layers, distinguished with color.</td></tr><tr><td>Scale</td><td>Ordered key attribute: hundreds. Categorical key attribute: one dozen.</td></tr></table>
 
-![](images/466856d0b6c87ed4623193394cc5900837adc6047b229acc8e535e15757d5b33.jpg)  
+![](images/466856d0b6c87ed4623193394cc5900837adc6047b229acc8e535e15757d5b33.webp)  
 (a)
 
-![](images/6c88b2cbbc9133e83a07a1b2bf3d4f66e02036a74c86c2b00c4c073174a7deef.jpg)  
+![](images/6c88b2cbbc9133e83a07a1b2bf3d4f66e02036a74c86c2b00c4c073174a7deef.webp)  
 (b)   
 Figure 12.15. Empirical study comparing superimposed line charts to juxtaposed filled-area line charts. (a) Superimposed line charts performed best for tasks carried out within a local visual span. (b) Juxtaposed filled area charts were best for global tasks, especially as the number of time series increased. From [Javed et al. 10, Figures 1 and 2].
 
@@ -368,7 +368,7 @@ Compound networks are defined and discussed in Section 9.5.
 
 A more complex example of static superimposition is the hierarchical edge bundles idiom [Holten 06]. It operates on a compound network, a combination of a base network and a cluster hierarchy that groups its nodes.
 
-![](images/f011263d46e1d10b274c2eb16e3d1567eb26c0a02f2988d7a988a6fba68edf11.jpg)  
+![](images/f011263d46e1d10b274c2eb16e3d1567eb26c0a02f2988d7a988a6fba68edf11.webp)  
 Figure 12.16. The hierarchical edge bundles idiom shows a compound network in three layers: the tree structure in back with containment circle marks, the red– green graph edges with connection marks in a middle layer, and the graph nodes in a front layer. From [Holten 06, Figure 13].
 
 The software engineering example in Figure 12.16 shows the call graph network, namely, which functions call what other functions in a software system, in conjunction with the hierarchical structure of the source code in which these function calls are defined.
@@ -387,7 +387,7 @@ With dynamic layers, a layer with different salience than the rest of the view i
 
 The Cerebral system, shown also in Figure 12.5, uses the design choice of dynamic layering. Figure 12.17 shows the dynamic creation of a foreground layer that updates constantly as the user moves the cursor. When the cursor is directly over a node, the foreground layer shows its one-hop neighborhood: all of the nodes in the network that are a single topological hop away from it, plus the links to them from the target node. The one-hop neighborhood is visually emphasized with a distinctive fully saturated red to create a foreground layer that is visually distinct from the background layer, which has only low-saturation colors. The marks in the foreground layer also have larger linewidth.
 
-![](images/135d3f96dd1594bddd3c7c98874d712b71814dead23a46823cdb37e51f3ab80d.jpg)  
+![](images/135d3f96dd1594bddd3c7c98874d712b71814dead23a46823cdb37e51f3ab80d.webp)  
 Figure 12.17. Cerebral dynamically creates a foreground visual layer of all nodes one topological hop away in the network from the node underneath the cursor. From [Barsky et al. 07, Figure 1].
 
 # 12.6 Further Reading
@@ -412,27 +412,27 @@ other very readable article discusses the benefits of superimposed dot charts co
 
 # Reduce
 
-![](images/824722dcd36d8db0758cf18505cff730779d4f3b42cae661bcaf325c8e200661.jpg)  
+![](images/824722dcd36d8db0758cf18505cff730779d4f3b42cae661bcaf325c8e200661.webp)  
 $\circled{ \div}$ Filter   
 Items
 
-![](images/442221661d5d3ce58e40ed62ceab02d6b4b6660d2891bac26bb3cb4c7d4c63f7.jpg)  
+![](images/442221661d5d3ce58e40ed62ceab02d6b4b6660d2891bac26bb3cb4c7d4c63f7.webp)  
 Attributes   
 $\textcircled{ \div}$ Aggregate
 
-![](images/bc799be4d03a581b36f23b8a9d133d50fc75b6d30205601e02116bde98a86b0d.jpg)  
+![](images/bc799be4d03a581b36f23b8a9d133d50fc75b6d30205601e02116bde98a86b0d.webp)  
 Items
 
-![](images/d48861764b8dd77abd3a193488170c2d7fd922e0d2e405cfd36baa310ed05531.jpg)  
+![](images/d48861764b8dd77abd3a193488170c2d7fd922e0d2e405cfd36baa310ed05531.webp)  
 Attributes
 
-![](images/94fec6ab79cc13c728169ce7a780dbcab21b57fed8b40226e33f013645ad27d2.jpg)  
+![](images/94fec6ab79cc13c728169ce7a780dbcab21b57fed8b40226e33f013645ad27d2.webp)  
 $\circled{ \div}$ Filter
 
-![](images/8d702b7c661d7760d7f418d8991752e2a53fbafb25f2e9b1be0b8578e2837bc0.jpg)  
+![](images/8d702b7c661d7760d7f418d8991752e2a53fbafb25f2e9b1be0b8578e2837bc0.webp)  
 Aggregate
 
-![](images/8131fb9986657f2a2bf7c5b9b6f133f061e788a22039659e2ebac77eb7df56e2.jpg)  
+![](images/8131fb9986657f2a2bf7c5b9b6f133f061e788a22039659e2ebac77eb7df56e2.webp)  
 Embed   
 Figure 13.1. Design choices for reducing (or increasing) the amount of data items and attributes to show.
 

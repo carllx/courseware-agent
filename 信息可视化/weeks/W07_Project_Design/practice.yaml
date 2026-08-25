@@ -1,30 +1,30 @@
-# W07_practice.yaml — 大师逆向工程与项目启航
+# W07_practice.yaml — 数据情绪提取与项目启航
 week: 7
-title: "大师逆向工程与项目启航"
+title: "数据情绪提取与项目启航"
 experiment_link: [4]
 total_minutes: 90
 
 theory_prerequisites:
+  - "Hao Yawei 第5章：思维导图与信息地图"
   - "Munzner 嵌套模型四层验证"
-  - "Hao Yawei 第4、6章案例解构框架"
 
 phases:
   - id: P1
-    name: "鉴赏反刍：大师作品逆向解构"
+    name: "案例推演：基于学生真实对话的开题模拟"
     minutes: 45
     type: workshop
-    description: "从抽象/编码维度反推经典作品的架构设计"
-    tools: ["教材案例资料", "白板/协作文档"]
+    description: "分析 B04 学生真实开题记录，提炼数据情绪与可视化映射策略"
+    tools: ["B04_教学指导对话与学生课题集", "白板/协作文档"]
     steps:
-      - "分组领取指定的经典信息可视化作品案例"
-      - "填写《逆向工程解剖表》（识别 Data Abstraction 与 Visual Encoding）"
-      - "运用嵌套模型讨论该作品为何没有发生级联崩塌"
-      - "总结可复用于期末项目的设计模式"
+      - "分组领取指定的同侪学生开题案例（如崔雯茜的《铁肺》、林良广的宿舍生命周期）"
+      - "填写《开题逻辑解剖表》（提炼数据来源、情绪锚点与目标图表类型）"
+      - "运用嵌套模型讨论该开题设计可能存在的级联崩塌风险"
+      - "总结并转化用于自己期末项目的设计模式"
     theory_link: 
-      - concept_id: "hao_masterworks"
-        description: "M02/M03 大师作品解构"
+      - concept_id: "hao_info_map"
+        description: "第5章：信息地图与数据情绪应用"
     deliverables:
-      - "《逆向工程解剖表》"
+      - "《开题逻辑解剖表》"
 
   - id: P2
     name: "项目立项与交叉防御 Critique"

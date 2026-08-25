@@ -6,7 +6,7 @@
 
 # INTERACTION DESIGN
 
-![](images/19127ff0126ba984fb3323a2f53f6a1bc71468b59106d3b871a717836ba40444.jpg)
+![](images/19127ff0126ba984fb3323a2f53f6a1bc71468b59106d3b871a717836ba40444.webp)
 
 beyond human-computer interaction
 
@@ -216,7 +216,7 @@ Eric Paulos, Professor, University of Berkeley, California, USA
 
 Sixth Edition
 
-![](images/41caf18be39383c4a7a5e36feb91becd63b95a4b5ed8d0910949dbbb27c5c050.jpg)
+![](images/41caf18be39383c4a7a5e36feb91becd63b95a4b5ed8d0910949dbbb27c5c050.webp)
 
 WILEY
 

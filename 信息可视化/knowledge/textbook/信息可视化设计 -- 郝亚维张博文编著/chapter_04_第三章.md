@@ -12,59 +12,59 @@
 
 柱状图又称长条图 柱状统计图 条图 条状图 棒形图 是一种以长方形的长度为变量的统计图表 图 长条图用来比较两个或两个以上的数量变化信息 不同时间或者不同条件 柱状图也可横向排列 或用多维方式表达 图 绘制柱状图时 长条柱或柱组中线须对齐项目刻度
 
-![](images/78591236a7e1dda4b809e031991316cf0851f6950efbd033136de040f19fa794.jpg)
+![](images/78591236a7e1dda4b809e031991316cf0851f6950efbd033136de040f19fa794.webp)
 
 图3 －1 柱状图  
-![](images/c80741c2662f02833ebfa7dded489df9f6cbdab7461ba46302d9563167ad4795.jpg)  
+![](images/c80741c2662f02833ebfa7dded489df9f6cbdab7461ba46302d9563167ad4795.webp)  
 动画延迟柱状图 带背景的柱状图
 
-![](images/94e2c1c821ba96ba2a5f5859d81a3f3da7298d4ce797257319d5150656575290.jpg)
+![](images/94e2c1c821ba96ba2a5f5859d81a3f3da7298d4ce797257319d5150656575290.webp)
 
-![](images/1dc3381ce8cfe6f9cdb3dcbedc23dd88d8b31b14c82ab514a6a4ec74b13c87e5.jpg)  
+![](images/1dc3381ce8cfe6f9cdb3dcbedc23dd88d8b31b14c82ab514a6a4ec74b13c87e5.webp)  
 特性示例：渐变色阴影点击缩放   
   
 (d)
 
-![](images/58da8ba538356422b9e1ef08205dc7b33a0322081987556c07e7c0e8682e452b.jpg)
+![](images/58da8ba538356422b9e1ef08205dc7b33a0322081987556c07e7c0e8682e452b.webp)
 
-![](images/7f98c2a586b009181b22fc7d4e075fc7a8e99920146181d7ecf2c1a370749c77.jpg)
+![](images/7f98c2a586b009181b22fc7d4e075fc7a8e99920146181d7ecf2c1a370749c77.webp)
 
-![](images/90e8bf5a0cdc33ec1c993a9a688ad1ba65fe660c5432bb7117f774ec6b8f7f9a.jpg)
+![](images/90e8bf5a0cdc33ec1c993a9a688ad1ba65fe660c5432bb7117f774ec6b8f7f9a.webp)
 
 图 3 －1 柱状图 （续）  
-![](images/52d6d0e46b9505cd47297657ec4ce905933f65739f7d6e13c65c7a7e1ecd18b7.jpg)  
+![](images/52d6d0e46b9505cd47297657ec4ce905933f65739f7d6e13c65c7a7e1ecd18b7.webp)  
 柱状图框选 特性示例 渐变色阴影点击 条形标签旋转  
 （f） 大型条形图； （g） 正负条形图； （h） 交错正负轴标签
 
-![](images/8cf75052521b592a1a10e32d15fba2e7fcad7e20991f6b0974bcb5ae8f4565b4.jpg)
+![](images/8cf75052521b592a1a10e32d15fba2e7fcad7e20991f6b0974bcb5ae8f4565b4.webp)
 
-![](images/c9872e4ab6b4f14783583794f3b453cad544c9577df59b4431ce5d9ece8b821e.jpg)
+![](images/c9872e4ab6b4f14783583794f3b453cad544c9577df59b4431ce5d9ece8b821e.webp)
 
-![](images/e0a8d918806cb179ddc32f25ada4cffe7187997e24104080852c25865d1f9967.jpg)
+![](images/e0a8d918806cb179ddc32f25ada4cffe7187997e24104080852c25865d1f9967.webp)
 
-![](images/4f76236bd20b4100d17fe394d7214d141fa39c403a43cd79dd24afe94fe0e36a.jpg)
+![](images/4f76236bd20b4100d17fe394d7214d141fa39c403a43cd79dd24afe94fe0e36a.webp)
 
-![](images/06d944f4ff800addc570598c6d0a31438aac8b578f39b93ff03e4f9f634cd935.jpg)
+![](images/06d944f4ff800addc570598c6d0a31438aac8b578f39b93ff03e4f9f634cd935.webp)
 
 图 3 －1 柱状图 （续）  
-![](images/6d46b8c7bdef212bb89ec05f377d3f53be3f4baee8cda6ffbcab0b0a0a465c12.jpg)  
+![](images/6d46b8c7bdef212bb89ec05f377d3f53be3f4baee8cda6ffbcab0b0a0a465c12.webp)  
 极坐标系下的堆叠柱状图 极坐标系下的堆叠柱状图 极坐标系下的堆叠柱状图  
 （l） 天气统计柱状图； （m） 简易柱状图； （n） 堆叠柱状图
 
-![](images/90a0bfbbe2cc6c65822904ecbac2f20eb06c5f24db7fbbe4dcd34e5315c123b2.jpg)
+![](images/90a0bfbbe2cc6c65822904ecbac2f20eb06c5f24db7fbbe4dcd34e5315c123b2.webp)
 
 图 3 － 1 柱状图 （续）  
-![](images/98e3e843239b4f5bb5b40bcf5dad32322020d3f05ab35843d9f6050e5414459f.jpg)  
+![](images/98e3e843239b4f5bb5b40bcf5dad32322020d3f05ab35843d9f6050e5414459f.webp)  
 （o） 阶梯瀑布图； （p） 人口统计柱状图
 
-![](images/1881f916e8e6a8f57b3876e098e99b413806b5086e36fd5bd02f2d4f6958f2bf.jpg)
+![](images/1881f916e8e6a8f57b3876e098e99b413806b5086e36fd5bd02f2d4f6958f2bf.webp)
 
-![](images/89519134588025fd619b0dce6c14403195caa41d4e14b0d718342df6c51d5ae4.jpg)
+![](images/89519134588025fd619b0dce6c14403195caa41d4e14b0d718342df6c51d5ae4.webp)
 
-![](images/9acb01f71bde4d1099dfa6902a2efdacfbd3d0dd500ff86d51cf77b596838eaa.jpg)
+![](images/9acb01f71bde4d1099dfa6902a2efdacfbd3d0dd500ff86d51cf77b596838eaa.webp)
 
 图3 －2 三维柱状图  
-![](images/ef639423b27e880f22c242b6e92c2c2813abd1e90c68a3cf13b19a645c233640.jpg)  
+![](images/ef639423b27e880f22c242b6e92c2c2813abd1e90c68a3cf13b19a645c233640.webp)  
 带有数据的三维柱状图 三维柱状图 全球人口  
 打卡式三维柱状图 三维柱状图 单纯噪声形
 
@@ -74,93 +74,93 @@
 
 显示在相等时间间隔下数据的趋势 在折线图中 类别数据沿水平轴均匀分布 所有值数据沿垂直轴均匀分布。 如果分类标签是文本并且代表均匀分布的数值 （如月、 季度或财政年度）， 则应该使用折线图。 当有多个系列时， 尤其适合使用折线图。 如果有几个均匀分布的数值标签 （尤其是年）， 也应该使用折线图。 如果拥有的数值标签多于 10 个， 则建议使用散点图。 折线图也可进行丰富三维形态的演变 （图 3 － 4）。
 
-![](images/61de1402e2fe501dca0f5ce0343b84fafa4ee6a5fda5283bf5a77b7437db9cc6.jpg)
+![](images/61de1402e2fe501dca0f5ce0343b84fafa4ee6a5fda5283bf5a77b7437db9cc6.webp)
 
-![](images/5c4b16bf70ee01dbe02d5828e1f8dae2ba21cdb8eac711546d75a26e8363a60a.jpg)
+![](images/5c4b16bf70ee01dbe02d5828e1f8dae2ba21cdb8eac711546d75a26e8363a60a.webp)
 
-![](images/1cfb5fcb05d6c097b31f70f8ad1d4776d5d5084071ce06b22d835abebf11fbca.jpg)
+![](images/1cfb5fcb05d6c097b31f70f8ad1d4776d5d5084071ce06b22d835abebf11fbca.webp)
 
-![](images/c7cb15ed59db6b4ef805e1e7377c4a9382faaead729ff06d27fe1e7520f6b31b.jpg)
+![](images/c7cb15ed59db6b4ef805e1e7377c4a9382faaead729ff06d27fe1e7520f6b31b.webp)
 
-![](images/d1d2fae5cbdbb81a3dd871b82498a5a3d65a385a6684ce20843e7608626b0b60.jpg)
+![](images/d1d2fae5cbdbb81a3dd871b82498a5a3d65a385a6684ce20843e7608626b0b60.webp)
 
 图3 －3 折线图  
-![](images/e7736dd71852d1073a2ba21efcde1f736bbc676f86dc581a27147b74d375583f.jpg)  
+![](images/e7736dd71852d1073a2ba21efcde1f736bbc676f86dc581a27147b74d375583f.webp)  
 基础折线图 基础平滑折线图 基础面积图 折线图堆叠  
 （e） 堆叠面积图； （f） 渐变堆叠面积图
 
-![](images/df8be1403cc42d8578df5ca7a9e7dcb2c7546fc340125f432dbb4ea8ee2b28d8.jpg)
+![](images/df8be1403cc42d8578df5ca7a9e7dcb2c7546fc340125f432dbb4ea8ee2b28d8.webp)
 
-![](images/61b6be8e5fd31570e4e8b653b96177c2f5fe666889fafd0b2c2688a5e4cf9601.jpg)
+![](images/61b6be8e5fd31570e4e8b653b96177c2f5fe666889fafd0b2c2688a5e4cf9601.webp)
 
-![](images/18d11d352d34242c7262a7e4353e8ab6db8b4f49ff4908300cbe2acb1d007fcd.jpg)
+![](images/18d11d352d34242c7262a7e4353e8ab6db8b4f49ff4908300cbe2acb1d007fcd.webp)
 
-![](images/1b2598ff10abe1512d768ec5f165245b3a8de2118c450fb12b873f5004a4e9ff.jpg)
+![](images/1b2598ff10abe1512d768ec5f165245b3a8de2118c450fb12b873f5004a4e9ff.webp)
 
-![](images/def952fa779f86611e378e8f0e9941bd97ade0129d1f169068e95e86105a93a8.jpg)
+![](images/def952fa779f86611e378e8f0e9941bd97ade0129d1f169068e95e86105a93a8.webp)
 
 图 3 －3 折线图 （续）  
-![](images/77c0b61792cca35729595c2414d785fe734b025e2055f2ddcee0c16f8357cb0b.jpg)  
+![](images/77c0b61792cca35729595c2414d785fe734b025e2055f2ddcee0c16f8357cb0b.webp)  
 未来一周气温变化 折线图区域高亮 雨量流量关系图  
 （j） 时间轴折线图； （k） 动态数据 $^ +$ 时间坐标轴； （l） 函数绘图
 
-![](images/7dc0bef5e7180f9f147a9a11a6a6e80b2c93d866d22b8039bc9f7e2e9ff0de19.jpg)
+![](images/7dc0bef5e7180f9f147a9a11a6a6e80b2c93d866d22b8039bc9f7e2e9ff0de19.webp)
 
-![](images/1a90baa27c0cdeddd43b739c344de79e2267a6bc72c9e861e7c73610c69600bf.jpg)
+![](images/1a90baa27c0cdeddd43b739c344de79e2267a6bc72c9e861e7c73610c69600bf.webp)
 
-![](images/cc706abc14d30a302871011926e74e61fbb4f076ab53228b883b0704f8328d04.jpg)
+![](images/cc706abc14d30a302871011926e74e61fbb4f076ab53228b883b0704f8328d04.webp)
 
 图 3 －3 折线图 （续）  
-![](images/8ff27d74c5af142c4e9f731163aa30557e46427057a9a091f4f2d832547df65a.jpg)  
+![](images/8ff27d74c5af142c4e9f731163aa30557e46427057a9a091f4f2d832547df65a.webp)  
 （m） 动态排序折线图； （n） 折线图的标记线； （o） 自定义折线图样式； （p） 双数值轴折线图
 
-![](images/609328f99ed01f120fc74ff6db533299fc3ca549595b1533c02b4f602175386f.jpg)  
+![](images/609328f99ed01f120fc74ff6db533299fc3ca549595b1533c02b4f602175386f.webp)  
 图3 －4 三维折线图正交投影
 
 # （三） 饼状图
 
 饼状图常用于统计学模型 有 与 饼状图 饼状图为圆形 饼状图显示一个数据系列 （数据系列： 在图表中绘制的相关数据点， 这些数据源自数据表的行或列。 图表中的每个数据系列具有唯一的颜色或图案）。 图形形式用饼状图或圆环图的扇面、 圆点图形表示。 相同颜色的数据标记组成一个数据系列， 显示为整个饼状图的百分比 （图3 －5）。
 
-![](images/862547ebea95b060a1a2faff83852c6502656e0221bfb54fec4f65ec907eee45.jpg)
+![](images/862547ebea95b060a1a2faff83852c6502656e0221bfb54fec4f65ec907eee45.webp)
 
-![](images/21bb967c6cf28f5e9396d81bbcb379030a52d7507131007a32dc5645603399e1.jpg)
+![](images/21bb967c6cf28f5e9396d81bbcb379030a52d7507131007a32dc5645603399e1.webp)
 
-![](images/ea57dfe9b81745c365c6a395ca6f7e114a279d4510b2b05cdc44a31feb07e874.jpg)
+![](images/ea57dfe9b81745c365c6a395ca6f7e114a279d4510b2b05cdc44a31feb07e874.webp)
 
-![](images/3dc97fa359b9f30e94a2a589fa6fb8b71d548593aae26fcc52d1c41464e09c2a.jpg)
+![](images/3dc97fa359b9f30e94a2a589fa6fb8b71d548593aae26fcc52d1c41464e09c2a.webp)
 
-![](images/3ec66b1bfa8c1a43b0591e4347dd89a4eb764fde45e507a0709b36a7597edc52.jpg)
+![](images/3ec66b1bfa8c1a43b0591e4347dd89a4eb764fde45e507a0709b36a7597edc52.webp)
 
-![](images/3706f983ea5c54817b18cd9272a6866cd24c5c3d4db61a39485d8b5d8e9cd28b.jpg)  
+![](images/3706f983ea5c54817b18cd9272a6866cd24c5c3d4db61a39485d8b5d8e9cd28b.webp)  
   
 图3 －5 饼状图
 
 （a） 某站点用户访问来源； （b） 圆角环形图； （c） 环形图；  
 饼图自定义样式 饼图纹理 南丁格尔玫瑰图
 
-![](images/8853626fd309218346e781a3d91cc34cb0e824857e2c1ff097fa6df8e90ac657.jpg)
+![](images/8853626fd309218346e781a3d91cc34cb0e824857e2c1ff097fa6df8e90ac657.webp)
 
-![](images/b34beeded4c11072a4773d87b81fb99ed83167c98ae81c080c342f63682af329.jpg)
+![](images/b34beeded4c11072a4773d87b81fb99ed83167c98ae81c080c342f63682af329.webp)
 
-![](images/137629f59768a5a91e66df65cc70d3f2839cb9c515cf63b719f21b4ba746e947.jpg)
+![](images/137629f59768a5a91e66df65cc70d3f2839cb9c515cf63b719f21b4ba746e947.webp)
 
-![](images/714131cfd7242f9008862f54653a24007332530a1a5ffc15f5cb3b3a9e5f4d22.jpg)
+![](images/714131cfd7242f9008862f54653a24007332530a1a5ffc15f5cb3b3a9e5f4d22.webp)
 
-![](images/d27dab0e5f0e5537c371efefb5d9a751ca399b276aed5bbe3a4c5c9a19f36a7b.jpg)
+![](images/d27dab0e5f0e5537c371efefb5d9a751ca399b276aed5bbe3a4c5c9a19f36a7b.webp)
 
 图 3 －5 饼状图 （续）  
-![](images/f7b9d817391e949505fbab60e8d10e0e9ed5e4518d152efd553b476d4a082f84.jpg)  
+![](images/f7b9d817391e949505fbab60e8d10e0e9ed5e4518d152efd553b476d4a082f84.webp)  
 （g） 基础南丁格尔玫瑰图； （h） 饼图标签对齐； （i） 饼图引导线调整；  
 可滚动的图例 富文本标签 嵌套环形图
 
-![](images/7768c0243368f41c2807bf834daac0262d67454bc38f4cbf0c628337eea73cf7.jpg)
+![](images/7768c0243368f41c2807bf834daac0262d67454bc38f4cbf0c628337eea73cf7.webp)
 
-![](images/fba031b5ee983c7b5dbef36479006e7735a547a37ce58eaa3abd236abdc5cd29.jpg)
+![](images/fba031b5ee983c7b5dbef36479006e7735a547a37ce58eaa3abd236abdc5cd29.webp)
 
-![](images/d8462a27cb1a764592f607ca1e4d3f24423f265af857b154b71bcf0281801e82.jpg)
+![](images/d8462a27cb1a764592f607ca1e4d3f24423f265af857b154b71bcf0281801e82.webp)
 
 图 3 － 5 饼状图 （续）  
-![](images/a569a8b7ab2cd9ca6b5ea3d345c5da5225992c387745b25226330e05db67bef6.jpg)  
+![](images/a569a8b7ab2cd9ca6b5ea3d345c5da5225992c387745b25226330e05db67bef6.webp)  
 （m） 分割数据到数个饼图； （n） 默认 encode 设置； （o） 日历饼图； （p） 联动和共享数据集
 
 # （四） 散点图
@@ -171,48 +171,48 @@
 
 地图是按照一定的法则 使用制图方法 通过制图有选择地以二维或多维形式与手段在平面或球面上表示地球 或其他天体 上各种事物的空间分布 联系及时间的发展变化状态的图形或图像 它具有严格的数学基础 符号系统 文字注记 并能用地图概括原则 科学地反映出自然和社会经济现象的分布特征及其相互关系 古代地图一般画在羊皮纸或石板上 传统地图的载体多为纸张 随着科技的发展出现了电子地图等多种载体
 
-![](images/8556ab67040c4f009fafc90f72abc8c04a91aad068db61b1fd96f63ccf7fd3a9.jpg)
+![](images/8556ab67040c4f009fafc90f72abc8c04a91aad068db61b1fd96f63ccf7fd3a9.webp)
 
-![](images/dbca73666c862d0e8becbcb8e811b7f4cbb2383f7f7c49802e2b3f640c443eec.jpg)
+![](images/dbca73666c862d0e8becbcb8e811b7f4cbb2383f7f7c49802e2b3f640c443eec.webp)
 
-![](images/dbb99339f8596a6f1e6de77cb776406625f4e70af68c904a722738a48258232d.jpg)
+![](images/dbb99339f8596a6f1e6de77cb776406625f4e70af68c904a722738a48258232d.webp)
 
-![](images/4eac8d99b0992b7d43fdbd15cc39a42fe2e1f1a148e9521e01162aeb42bd605c.jpg)
+![](images/4eac8d99b0992b7d43fdbd15cc39a42fe2e1f1a148e9521e01162aeb42bd605c.webp)
 
-![](images/5e7317d454f2d14ed0c269e5ff24acf6936ffdf5adcdc75692ac5cca4f7cb5c4.jpg)
+![](images/5e7317d454f2d14ed0c269e5ff24acf6936ffdf5adcdc75692ac5cca4f7cb5c4.webp)
 
 图3 －6 散点图  
-![](images/f07caf49b9cdcee77ea22e4abcc15a0fece655c4a01d0859b5659262410dcf7c.jpg)  
+![](images/f07caf49b9cdcee77ea22e4abcc15a0fece655c4a01d0859b5659262410dcf7c.webp)  
 基础散点图 鲶鱼图 数据聚合 涟漪特效散点图  
 打卡气泡图 单轴散点图
 
-![](images/2e7bf4b3de98fa22c3fa856092b9ba0d4b933d5481c9100f4125557b16eb6230.jpg)
+![](images/2e7bf4b3de98fa22c3fa856092b9ba0d4b933d5481c9100f4125557b16eb6230.webp)
 
-![](images/b31339152e3473282369894c155b0844908fae3a466eb1e1cf27c0918fe78f2a.jpg)
+![](images/b31339152e3473282369894c155b0844908fae3a466eb1e1cf27c0918fe78f2a.webp)
 
-![](images/982eb4be0e2baf2528a19dbb5fa580a348625182f23e70158cd85df4a270046b.jpg)
+![](images/982eb4be0e2baf2528a19dbb5fa580a348625182f23e70158cd85df4a270046b.webp)
 
-![](images/5cac8c38fc43c56bbc7553d8951c01864754f5bb36423768fd3be745c1ac9f69.jpg)
+![](images/5cac8c38fc43c56bbc7553d8951c01864754f5bb36423768fd3be745c1ac9f69.webp)
 
-![](images/26c16bb9e65ec4d52bbbb1f484d2391e8b44dd2a08b2c1dab009fc131cb9576b.jpg)
+![](images/26c16bb9e65ec4d52bbbb1f484d2391e8b44dd2a08b2c1dab009fc131cb9576b.webp)
 
 图 3 －6 散点图 （续）  
-![](images/701fbc0dd5934d71d2f28d6700b90801df2482ab1b8d989c316b66a0460bd90b.jpg)  
+![](images/701fbc0dd5934d71d2f28d6700b90801df2482ab1b8d989c316b66a0460bd90b.webp)  
 （g） 男性女性身高体重分布； （h） 散点图标签顶部对齐； （i） 气泡图；  
 气泡图 营养分布散点图 营养分布散点矩阵
 
-![](images/887cbe71cf1dc5975cc9a34add778e467020cdffa545ce0b6c5bbee14ba99235.jpg)
+![](images/887cbe71cf1dc5975cc9a34add778e467020cdffa545ce0b6c5bbee14ba99235.webp)
 
-![](images/ba828aa2dc370c44b98bae239918b0a83d297a62cadb00d859f3ed2a5d387d57.jpg)
+![](images/ba828aa2dc370c44b98bae239918b0a83d297a62cadb00d859f3ed2a5d387d57.webp)
 
-![](images/78461d1a8f49082fe8bc3a818ab4dcd2284b71384fdcb7869a5fdf8db2f22d3b.jpg)
+![](images/78461d1a8f49082fe8bc3a818ab4dcd2284b71384fdcb7869a5fdf8db2f22d3b.webp)
 
-![](images/e91a8c278a9d4e8f62aba5f4170f41d7aaa951d00c0ea5eac5a1e6011ddbac64.jpg)
+![](images/e91a8c278a9d4e8f62aba5f4170f41d7aaa951d00c0ea5eac5a1e6011ddbac64.webp)
 
-![](images/5b6a93e7c2b11ea1deb08b29e77a0be4443c556b5ee31228eb5e9cba8c0229b4.jpg)
+![](images/5b6a93e7c2b11ea1deb08b29e77a0be4443c556b5ee31228eb5e9cba8c0229b4.webp)
 
 图3 －7 三维散点图  
-![](images/8916fa9399288c193ad6bed966d8e1de568ab729c9e74e2b642e73128d946fb7.jpg)  
+![](images/8916fa9399288c193ad6bed966d8e1de568ab729c9e74e2b642e73128d946fb7.webp)  
 （a） 3D 散点图； （b） 设置数据的三维散点图； （c） 3D 散点图———全球人口；  
 三维散点图正交投影 三维散点图和散点矩阵结合使用 散点图 单纯噪声形
 
@@ -220,84 +220,84 @@
 
 雷达图也称网络图 蜘蛛图 星图 蜘蛛网图 不规则多边形图 极坐标图 是以同一点开始的轴上表示 个或更多个变量的二维图表的形式显示多变量数据的图形方法 轴的相对位置和角度通常是无信息的 它相当于平行坐标图 轴径向排列 雷达图主要应用于企业经营状况 如收益性 生产性 流动性 安全性和成长性的评价 上述指标的分布组合在一起非常像雷达的形状， 因此得名 （图 3 － 8）。
 
-![](images/fbbff503d1eb8b2b4552c6f025de9bc0db929fe766fb8acfd6d156dde2d97ab9.jpg)
+![](images/fbbff503d1eb8b2b4552c6f025de9bc0db929fe766fb8acfd6d156dde2d97ab9.webp)
 
-![](images/48ad8fd8f461f6f2bc5d372ac39e0ea9362cd1f991d60eca3efd037bcb795bdc.jpg)
+![](images/48ad8fd8f461f6f2bc5d372ac39e0ea9362cd1f991d60eca3efd037bcb795bdc.webp)
 
-![](images/ad2274f0edffa54356b0e76c9f5cb33837ca77462807575945bcf1ce9efa6ecb.jpg)
+![](images/ad2274f0edffa54356b0e76c9f5cb33837ca77462807575945bcf1ce9efa6ecb.webp)
 
 图3 －8 雷达图  
-![](images/e9356649ddbfe11555561473aa4e0c024f089d7b0979c7d6ac3d58abd88a6493.jpg)  
+![](images/e9356649ddbfe11555561473aa4e0c024f089d7b0979c7d6ac3d58abd88a6493.webp)  
 （a） 基础雷达图； （b） AQL －雷达图； （c） 自定义雷达图； （d） 浏览器占比变化
 
 # （七） 漏斗图
 
 漏斗图一般是以单个研究的效应量为横坐标 样本含量为纵坐标的散点图 在平面坐标系中的集合为一个倒置的漏斗形 因此称为漏斗图 样本量小 研究精度低 分布在漏斗图的底部， 向周围分散； 样本量大， 研究精度高， 分布在漏斗图的顶部， 向中间集中。 实际使用时 做数据分析的研究个数较少时不宜做漏斗图 一般推荐数据分析的研究个数在 个及以上才做漏斗图 图
 
-![](images/06bc30dc774f29a7c532e42f917170a0d888c94f7474405c62cb865d61b09704.jpg)
+![](images/06bc30dc774f29a7c532e42f917170a0d888c94f7474405c62cb865d61b09704.webp)
 
 图3 －9 漏斗图  
-![](images/c47a28104bcbd670cffa5ea85d4c98772e662a88c8da8004b7e07442b14581bf.jpg)  
+![](images/c47a28104bcbd670cffa5ea85d4c98772e662a88c8da8004b7e07442b14581bf.webp)  
 一般漏斗图 对比漏斗图之一
 
-![](images/8302e8adee513f4ef33e38bc95cc81a0b9bbf2328e89bdd7a64e299603187956.jpg)
+![](images/8302e8adee513f4ef33e38bc95cc81a0b9bbf2328e89bdd7a64e299603187956.webp)
 
 图 3 －9 漏斗图 （续）  
-![](images/e5d77489e85d2a210c8a6d1e767a1a3a7b302e08230e0559024db71a7cc903ce.jpg)  
+![](images/e5d77489e85d2a210c8a6d1e767a1a3a7b302e08230e0559024db71a7cc903ce.webp)  
 （c） 对比漏斗图之二； （d） 对比漏斗图之三
 
 # （八） 热力图
 
 热力图是以特殊高亮的形式展示访客热度的页面区域和访客所在地理区域的图表图示热力图直观地将网页流量数据分布通过不同颜色区块呈现 给中小网站网页优化与调整提供了有力的参考依据， 方便合作网站提高用户体验 （图 3 － 10）。
 
-![](images/16f350160fef347cdb077920a66ed97adb5fbbfa96b4bb2959ad428ff6819d91.jpg)
+![](images/16f350160fef347cdb077920a66ed97adb5fbbfa96b4bb2959ad428ff6819d91.webp)
 
-![](images/a58396ffeb5f2065efcd1d5f1a6634f5e9027b11e8b2149558e971703adf2e44.jpg)
+![](images/a58396ffeb5f2065efcd1d5f1a6634f5e9027b11e8b2149558e971703adf2e44.webp)
 
-![](images/96258e22c4e239b937aac1290823a25c268d2a088def7140e3ddf7c7bc085437.jpg)
+![](images/96258e22c4e239b937aac1290823a25c268d2a088def7140e3ddf7c7bc085437.webp)
 
 图 3 －10 热力图  
-![](images/d2c99a57c3f607ebeba199409bc887eedf4c6d7b84d813cc2c0103612d7e7f2f.jpg)  
+![](images/d2c99a57c3f607ebeba199409bc887eedf4c6d7b84d813cc2c0103612d7e7f2f.webp)  
 （a） 笛卡尔坐标系上的热力图； （b） 热力图———2w 数据；  
 （c） 热力图———颜色的离散映射； （d） 热力图与百度地图扩展
 
-![](images/f0f2bf13fe20023c571e4afdb63556c0a16a8945570f494b2f6144d01b3f5f57.jpg)
+![](images/f0f2bf13fe20023c571e4afdb63556c0a16a8945570f494b2f6144d01b3f5f57.webp)
 
 图 3 － 10 热力图 （续）  
-![](images/6373df24751a1da9a82c400f284d7070182ce1296c9c7e2ea2a896f37bb3a407.jpg)  
+![](images/6373df24751a1da9a82c400f284d7070182ce1296c9c7e2ea2a896f37bb3a407.webp)  
 （e） 日历热力图； （f） 纵向日历图
 
 # （九） 关系图
 
 关系图是表示关系 属性和联系的概念关系模型图 是用连线来表示事物相互关系的一种方法 可找出因素之间的因果关系 便于通观全局 分析研究以及拟定出解决问题的措施和计划 图 为关系图 图 为三维关系图
 
-![](images/1214f1820f505dcab1d75714f6cebb1e81f933f4180a4dcb73433360e3e69b62.jpg)
+![](images/1214f1820f505dcab1d75714f6cebb1e81f933f4180a4dcb73433360e3e69b62.webp)
 
-![](images/5f239805d782fb1b662c7d109f918c6f3500032cc25608d332d7d3c233237496.jpg)
+![](images/5f239805d782fb1b662c7d109f918c6f3500032cc25608d332d7d3c233237496.webp)
 
-![](images/014615fda6b8f1cbb1e224858e3b8a2af230a081463fea87d9affc0d77cd964f.jpg)
+![](images/014615fda6b8f1cbb1e224858e3b8a2af230a081463fea87d9affc0d77cd964f.webp)
 
 图 3 －11 关系图  
-![](images/0b4a62794d2083174a254766e3f24b12ffe37703a06d8811faad0afbd007399d.jpg)  
+![](images/0b4a62794d2083174a254766e3f24b12ffe37703a06d8811faad0afbd007399d.webp)  
 （a） 力引导布局； （b） WebKit 模块关系依赖图； （c） NPM 依赖关系图； （d） 日历关系图
 
-![](images/af909bad7d3e0dde6755d8a395d7d7b0f216f885d7b97db7287a2ff999dc11ae.jpg)
+![](images/af909bad7d3e0dde6755d8a395d7d7b0f216f885d7b97db7287a2ff999dc11ae.webp)
 
-![](images/17bcd6f49c58c49d407a4a047e832a8e02dba68a825766afa72f2a3846c99609.jpg)
+![](images/17bcd6f49c58c49d407a4a047e832a8e02dba68a825766afa72f2a3846c99609.webp)
 
-![](images/cb6851f6fdb7841fcdec6be4ba33e2bd5bf1eb49d90dcc04079f889aafe66179.jpg)
+![](images/cb6851f6fdb7841fcdec6be4ba33e2bd5bf1eb49d90dcc04079f889aafe66179.webp)
 
 图 3 － 11 关系图 （续）  
-![](images/aa8a5731295b9e758fc658c780816440311e950dea848799b7cd23e80ea43e8d.jpg)  
+![](images/aa8a5731295b9e758fc658c780816440311e950dea848799b7cd23e80ea43e8d.webp)  
 （e） 关系图自动隐藏重叠标签； （f） 《悲惨世界》 人物关系图；  
 悲惨世界 人物关系图 环形布局 动态增加图节点
 
-![](images/c0c5815b6f6b39a1b76645ddafca5f8fd037cbcb10540f5d29bf9a8bed635ceb.jpg)
+![](images/c0c5815b6f6b39a1b76645ddafca5f8fd037cbcb10540f5d29bf9a8bed635ceb.webp)
 
-![](images/e29df69b97d3e97a0ab69031c525bfa1a7fcbac8f45cb78c99180052a1362014.jpg)
+![](images/e29df69b97d3e97a0ab69031c525bfa1a7fcbac8f45cb78c99180052a1362014.webp)
 
 图3 －12 三维关系图  
-![](images/67a2905f3a2ab5654a2d5f1ce63abf6eb43033394690dffa5048c0443b9c7e0f.jpg)  
+![](images/67a2905f3a2ab5654a2d5f1ce63abf6eb43033394690dffa5048c0443b9c7e0f.webp)  
 （a） GPU 图形布局； （b） GL 图形———大型互联网； （c） 1w 节点 2w7 边的 NPM 依赖图
 
 # （十） 树图
@@ -306,60 +306,60 @@
 
 两个或两个以上分支 然后从每一个分支再继续展开 依此类推 它拥有树干和多个分支所以很像一棵树。 树图通常是用来将主要的类别逐渐分解成许多越来越详细的层。 绘制树图有助于思维从一般到具体的逐步转化
 
-![](images/d64ced50ee627db848989c32c568bcccfd474cba1cf119a7d5c3f5abe59902e7.jpg)
+![](images/d64ced50ee627db848989c32c568bcccfd474cba1cf119a7d5c3f5abe59902e7.webp)
 
-![](images/7a354caa4652916f8be68157de6a35c24da84efe41d0b12ae5105a2990946fb5.jpg)
+![](images/7a354caa4652916f8be68157de6a35c24da84efe41d0b12ae5105a2990946fb5.webp)
 
-![](images/3c419711d58d785d0f0a7fddcdc1c1f229fb6b0cd07aa5d11f50a4f75273c0b3.jpg)
+![](images/3c419711d58d785d0f0a7fddcdc1c1f229fb6b0cd07aa5d11f50a4f75273c0b3.webp)
 
-![](images/109843237d26ec2df1f12a6ac05daf6dfd55917844c9f263a154a8de151a22a0.jpg)
+![](images/109843237d26ec2df1f12a6ac05daf6dfd55917844c9f263a154a8de151a22a0.webp)
 
-![](images/2a9258de44105a5fd057f2c2affd47bbc60436183425ca8808aa51093c62a4d9.jpg)
+![](images/2a9258de44105a5fd057f2c2affd47bbc60436183425ca8808aa51093c62a4d9.webp)
 
 图 3 － 13 树图  
-![](images/cf159453db32c6143d17924ed3cb8b901314e67df928569069c7b89f4d696c95.jpg)  
+![](images/cf159453db32c6143d17924ed3cb8b901314e67df928569069c7b89f4d696c95.webp)  
 从左到右树状图 多棵树 从下到上树状图 从右到左树状图  
 拆线树图 径向树状图
 
 图 3 － 13 树图 （续）  
-![](images/612299aa838cbb5afc9f51407cd8b45fb7e485a89993386890ca1fb1af486ee7.jpg)  
+![](images/612299aa838cbb5afc9f51407cd8b45fb7e485a89993386890ca1fb1af486ee7.webp)  
 从上到下树状图
 
 # （十一） 桑基图
 
 桑基图即桑基能量分流图 也称桑基能量平衡图 它是一种特定类型的流程图 图中延伸的分支的宽度对应数据流量的大小 通常应用于能源 材料 金融等数据的可视化分析因 年马修 亨利 桑基绘制的 蒸汽机的能源效率图 而闻名 此后便以其名字命名为桑基图 （图 3 － 14）。
 
-![](images/71aa6d0c7a5688335bb72c7cb50e81e0ba884c0aeefcfd9305953e1d6bef24c4.jpg)
+![](images/71aa6d0c7a5688335bb72c7cb50e81e0ba884c0aeefcfd9305953e1d6bef24c4.webp)
 
-![](images/8303db471154994d4ca04062c41576e63413e20aaac0082f2cc45992e52ba19a.jpg)
+![](images/8303db471154994d4ca04062c41576e63413e20aaac0082f2cc45992e52ba19a.webp)
 
-![](images/2d3fb2ff7f95842e26a8c4859b65ed62aaf13776fd26f529b041899a1a0df86d.jpg)
+![](images/2d3fb2ff7f95842e26a8c4859b65ed62aaf13776fd26f529b041899a1a0df86d.webp)
 
 图 3 －14 桑基图  
-![](images/18d306b929db6fa07c5397c700aa2bfc33ba3d8b1d5b884f7513687321501bda.jpg)  
+![](images/18d306b929db6fa07c5397c700aa2bfc33ba3d8b1d5b884f7513687321501bda.webp)  
 基础桑基图 垂直方向的桑基图 节点自定义样式桑基图 层级自定义样式桑基图
 
-![](images/5653556642d2c86168b2984084f5ddbfed76aabf3a2199ae52560bcdb7ab084d.jpg)
+![](images/5653556642d2c86168b2984084f5ddbfed76aabf3a2199ae52560bcdb7ab084d.webp)
 
-![](images/1a4f990e872397db5aa8b385112717c1636495ec3f10de46277ed2595f5aa717.jpg)
+![](images/1a4f990e872397db5aa8b385112717c1636495ec3f10de46277ed2595f5aa717.webp)
 
 图 3 － 14 桑基图 （续）  
-![](images/cb0b0c110f6559dfcbad8bcce1ded3cb20bc5477ef3e18cda9dccb52fca6e286.jpg)  
+![](images/cb0b0c110f6559dfcbad8bcce1ded3cb20bc5477ef3e18cda9dccb52fca6e286.webp)  
 （e） 渐变色边桑基图； （f） 左对齐布局桑基图； （g） 右对齐布局桑基图
 
 # （十二） 河流图
 
 河流图是堆叠面积图的一个变种 形态像河流的图 主要表达多数据波线的变化（图3 －15）。 不同类型的数据用不同颜色的面积区域来显示， 每个填充区域从左到右按照时间顺序流动 每个类别的数据数值变化就会形成一条条粗细不一的河流 并汇集在一起形成更大的河流 不同于堆叠面积图 河流图并不是将数据数值绘在一个个笔直的轴上 而是将数据分散到一个变化的中心基准线上 该基准线不一定是笔直的
 
-![](images/bc7bbbd5607b0be83ce328b1ff73afc06dd3374ff5b1d2eef192132937e97cd7.jpg)
+![](images/bc7bbbd5607b0be83ce328b1ff73afc06dd3374ff5b1d2eef192132937e97cd7.webp)
 
 图 3 －15 河流图  
-![](images/83a75b5b3f9bf754672aaf5bb57c44b75b108cdb4a25bd51d122104f2d767bbe.jpg)  
+![](images/83a75b5b3f9bf754672aaf5bb57c44b75b108cdb4a25bd51d122104f2d767bbe.webp)  
 主题河流图 调频河流图
 
 以上列举的是常见的图表类型 随着计算技术和计算机生成技术的开发 图表的视觉形态从二维到三维产生了丰富的变化， 信息可视化设计师应根据数据信息的分析， 合理地选择图表的表达方式 图 是国外数据分析网站提供的数据判断与信息图表类型的选择路线。
 
-![](images/8ddca8fc8613443e39cbcc03cfd46d2a3c503831de920ece3a757d61fe57eee1.jpg)  
+![](images/8ddca8fc8613443e39cbcc03cfd46d2a3c503831de920ece3a757d61fe57eee1.webp)  
 图3 －16 数据判断与信息图表类型的选择路线
 
 # 二、 现代信息可视化设计工具
@@ -370,10 +370,10 @@
 
 是苹果公司开发的电子表单应用程序 作为办公软件套装 的一部分 与Pages、 Keynote 分别销售。 图 3 － 18 为 Numbers 软件图标， 图 3 － 19 是用 Numbers 制作的数据图表。
 
-![](images/fe6c357edee2d4951962c31d1d79887bf06841b0cea3d6c7eba9552b4180b696.jpg)  
+![](images/fe6c357edee2d4951962c31d1d79887bf06841b0cea3d6c7eba9552b4180b696.webp)  
 图 3 － 17 Excel 软件图标
 
-![](images/d7f51276bff98169abd103c420e9d62b92f88c8b41090bd7e67daad1fb02f09c.jpg)  
+![](images/d7f51276bff98169abd103c420e9d62b92f88c8b41090bd7e67daad1fb02f09c.webp)  
 图 3 － 18 Numbers 软件图标
 
 # 月度预算
@@ -382,9 +382,9 @@
 
 在交易工作表，以查看实际支出与预算的比较情况。
 
-![](images/7abed61cdb20e57a33572fbf187591b29f1f61d41114ec3c7c9a631e1e94c8ff.jpg)
+![](images/7abed61cdb20e57a33572fbf187591b29f1f61d41114ec3c7c9a631e1e94c8ff.webp)
 
-![](images/f7df3cb0f17b6845bbe60a004b7398b7ebfbe5e971bd0fc1b1aee81f815059ae.jpg)
+![](images/f7df3cb0f17b6845bbe60a004b7398b7ebfbe5e971bd0fc1b1aee81f815059ae.webp)
 
 摘要 (按类别)   
 图 3 －19 用 Numbers 制作的数据图表  
@@ -395,23 +395,23 @@
 
 互联网时代下建立在因特网上的网络商店 是一个可以让顾客从家里的计算机购物 商人可以贩卖产品的服务场所 互联网上有在线图表制作网站 如图表秀 花火数据等 都拥有丰富的基础图表格式， 用户可以在线完成信息图表制作。 如图3 －20、 图3 －21 所示， 网络商店提供的各种平面 立体图表组件模板
 
-![](images/5f48e359aeabf149094f7af97726553fc80b8bfd04c17ce3402010fcb3b3af42.jpg)  
+![](images/5f48e359aeabf149094f7af97726553fc80b8bfd04c17ce3402010fcb3b3af42.webp)  
 图3 －20 网络商店提供的各种平面图表组件模板
 
 # （三） 谷歌图表 API
 
 谷歌提供了大量现成的图表类型 从简单的线图表到复杂的分层树地图等 它还内置了动画， 用户可进行交互控制 （图 3 － 22）。
 
-![](images/7ab0fa65c8cedb6c2275e14a9d16d94a264b1c9ed7ad90227e9306a2e2af80ba.jpg)  
+![](images/7ab0fa65c8cedb6c2275e14a9d16d94a264b1c9ed7ad90227e9306a2e2af80ba.webp)  
 图3 －21 网络商店提供的各种立体图表组件模板
 
-![](images/b82e0c9192d2ac8f8eb4c96095da0fc1e77dc3887268f1ea0b1d3dfcfd6318fd.jpg)
+![](images/b82e0c9192d2ac8f8eb4c96095da0fc1e77dc3887268f1ea0b1d3dfcfd6318fd.webp)
 
-![](images/4d376a5121e33d772910e00851df1a3df178fd39b5680994f6bdf027bc65d11c.jpg)
+![](images/4d376a5121e33d772910e00851df1a3df178fd39b5680994f6bdf027bc65d11c.webp)
 
-![](images/e95f7f2bef34294c6f2ed6fc27f9e5cf39fc38ca5011e42ee97f5d9dafd2b2a2.jpg)
+![](images/e95f7f2bef34294c6f2ed6fc27f9e5cf39fc38ca5011e42ee97f5d9dafd2b2a2.webp)
 
-![](images/5660180f7d7ed68d520369e42efad02af025a51cb393701964770f9e54e132a4.jpg)  
+![](images/5660180f7d7ed68d520369e42efad02af025a51cb393701964770f9e54e132a4.webp)  
 图 3 －22 谷歌图表 API
 
 # （四） D3
@@ -422,14 +422,14 @@
 
 Processing 是一门开源编程语言和与之配套的集成开发环境 （ IDE） 的名称。 Processing运用于大量的新媒体和互动艺术作品中， 是数据可视化的招牌工具 （图 3 － 24）。 Processing是适合设计师和数据艺术家的开源语言 具有语法简单 操作便捷的特点 在数据可视化方面 不仅可以绘制二维图形 还可以绘制三维图形 除此之外 为了扩展其核心功能， Processing 还包含许多扩展库和工具， 支持播放声音、 动画、 计算机视觉和三维几何造型等 图
 
-![](images/7e250acc2447796138cb7c29e248269eef518e4549d8934fb962ea4b0c65d9ae.jpg)  
+![](images/7e250acc2447796138cb7c29e248269eef518e4549d8934fb962ea4b0c65d9ae.webp)  
 图 3 －23 D3 界面及图表
 
-![](images/36e28faadbbe878f21792af0de0de63d117cfe20c1884688afad4415766c35ff.jpg)
+![](images/36e28faadbbe878f21792af0de0de63d117cfe20c1884688afad4415766c35ff.webp)
 
 # Processing
 
-![](images/9e79dee5b57fd31f1dc6c85f94462c57a850efc087ea534d390082894a06c22c.jpg)  
+![](images/9e79dee5b57fd31f1dc6c85f94462c57a850efc087ea534d390082894a06c22c.webp)  
 图 3 － 24 Processing 图标  
 图 3 － 25 Processing 生成的设计图
 
@@ -441,22 +441,22 @@ Processing 是一门开源编程语言和与之配套的集成开发环境 （ I
 
 Sigma?? js 是一个开源的轻量级库， 用来显示交互式的静态和动态图表 （图 3 － 27）。
 
-![](images/a72563f14e73a28c526d64005e8f839b944265797eb49374b5684bdc63568bee.jpg)  
+![](images/a72563f14e73a28c526d64005e8f839b944265797eb49374b5684bdc63568bee.webp)  
 图 3 － 26 Timeline 图表
 
-![](images/559b710141e3ad39cbe71ed00d58cddd7e24a119c16a3149c4b3ba129ea38ee2.jpg)
+![](images/559b710141e3ad39cbe71ed00d58cddd7e24a119c16a3149c4b3ba129ea38ee2.webp)
 
-![](images/19adb978a55c94653ae1c598a576c8912f9e8553928bce2a9523a39f8a3636d0.jpg)  
+![](images/19adb978a55c94653ae1c598a576c8912f9e8553928bce2a9523a39f8a3636d0.webp)  
 图 3 － 27 Sigma?? js 界面图
 
 # （八） Apache Echarts
 
 是一款基于 的数据可视化图表库 图 提供直观 生动、 可交互、 可个性化定制的数据可视化图表。 Apache Echarts 致力于让开发者以更方便的方式创造灵活丰富的可视化作品 （图 3 － 29）。
 
-![](images/4900f9f88486737a4eef5cfb89f37403e1950ef6540cda99be4cd30d88f6a92e.jpg)  
+![](images/4900f9f88486737a4eef5cfb89f37403e1950ef6540cda99be4cd30d88f6a92e.webp)  
 图 3 － 28 Apache Echarts 首页
 
-![](images/12285385eb365613eede6e4cc8d6d79262d925de05d384c5970482a9f6383296.jpg)  
+![](images/12285385eb365613eede6e4cc8d6d79262d925de05d384c5970482a9f6383296.webp)  
 图 3 － 29 Apache Echarts 界面
 
 # （九） 阿里云 DataV
@@ -465,37 +465,37 @@ Sigma?? js 是一个开源的轻量级库， 用来显示交互式的静态和�
 
 据监控、 气象监控风险预警、 地理信息分析等多种业务的展示需求， 如图 3 －31 ～ 图 3 －34所示。
 
-![](images/d10c1dd22c687dfbc360d05b93765d14e70b409ddbcbd1bed119225dd7d8eaac.jpg)  
+![](images/d10c1dd22c687dfbc360d05b93765d14e70b409ddbcbd1bed119225dd7d8eaac.webp)  
 专业级大数据可视化
 
 专精于地理信息与业务数据融合的可视化，提供丰富的行业模版和交互组件，支持自定义组件接入
 
-![](images/32d97465162289e79ea4863316e6b4ba7277e6dc5c79b1f2673262840c8994a0.jpg)  
+![](images/32d97465162289e79ea4863316e6b4ba7277e6dc5c79b1f2673262840c8994a0.webp)  
 多种数据源支持
 
 支持接入包括阿里云分析型数据库、关系型数据库、本地CSV上传和在线API等，支持动态请求
 
-![](images/0c710b58a0391fdcfd4944cec56d4b45eef6748148a27b307882fe02e653b168.jpg)  
+![](images/0c710b58a0391fdcfd4944cec56d4b45eef6748148a27b307882fe02e653b168.webp)  
 图形化编辑界面
 
 拖拽即可完成样式和数据配置，无须编程就能轻松搭建数据大屏
 
-![](images/d94b6296394011e0e1765e687991cfbc605dfeef7daa2245347fbb1cdf0fa1c3.jpg)  
+![](images/d94b6296394011e0e1765e687991cfbc605dfeef7daa2245347fbb1cdf0fa1c3.webp)  
 灵活部署和发布
 
 适配非常规拼接大屏，支持加密发布，支持本地部署
 
-![](images/5c59d9aa22b9ef82e7f8bea68a386575f49076108814e6fb21481ff7b9219813.jpg)  
+![](images/5c59d9aa22b9ef82e7f8bea68a386575f49076108814e6fb21481ff7b9219813.webp)  
 图 3 －30 阿里云 DataV 产品优势  
 图3 －31 区域经济监测数据大屏
 
-![](images/934b49371f8514dbc53eba5cec50d985227970cecc498a6541a1604087f311d8.jpg)  
+![](images/934b49371f8514dbc53eba5cec50d985227970cecc498a6541a1604087f311d8.webp)  
 图3 －32 城市气象数据可视化大屏
 
-![](images/d96b544c3464c82693ec02e5aedfafaeef5fcc99273f358346a4763072732697.jpg)  
+![](images/d96b544c3464c82693ec02e5aedfafaeef5fcc99273f358346a4763072732697.webp)  
 图3 －33 商圈生态模拟展示
 
-![](images/7767207dcebc62b40495f0af508648afc6b59f9991c6a28fc21ed633c553a1d1.jpg)  
+![](images/7767207dcebc62b40495f0af508648afc6b59f9991c6a28fc21ed633c553a1d1.webp)  
 图3 －34 智能楼宇体征画像
 
 # （十） Python
@@ -506,6 +506,6 @@ Sigma?? js 是一个开源的轻量级库， 用来显示交互式的静态和�
 
 2021 年 10 月， 语言流行指数的编译器 Tiobe 将 Python （ 图 3 － 35） 加冕为 “ 最受欢迎的编程语言”， 20 年来首次将其置于 Java、 C 和 JavaScript 之上。
 
-![](images/0321a7190625837f594464aec5ebb63dc9bf6cda17f59058b331d5f86550420a.jpg)  
+![](images/0321a7190625837f594464aec5ebb63dc9bf6cda17f59058b331d5f86550420a.webp)  
 图 3 － 35 Python 图标
 

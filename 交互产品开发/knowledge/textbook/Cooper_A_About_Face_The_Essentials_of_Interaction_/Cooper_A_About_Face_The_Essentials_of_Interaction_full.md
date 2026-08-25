@@ -84,7 +84,7 @@ For Ben and Miles, for your patience and inspiration. —Christopher
 
 And for all the designers and engineers in our industry who are helping to imagine and build a better future.
 
-![](images/7a85ea15aaec06c602cb498170b05633d3f1f804a91a9c4e428f90b7c5e5d547.jpg)
+![](images/7a85ea15aaec06c602cb498170b05633d3f1f804a91a9c4e428f90b7c5e5d547.webp)
 
 # ABOUT THE AUTHORS
 
@@ -182,7 +182,7 @@ Jason Csizmadi
 
 Jason Csizmadi
 
-![](images/31133b85bf4f050c6edeae0a356932a2b3dd842d1cd2e32cb27d78b66b2555ce.jpg)
+![](images/31133b85bf4f050c6edeae0a356932a2b3dd842d1cd2e32cb27d78b66b2555ce.webp)
 
 # ACKNOWLEDGMENTS
 
@@ -474,7 +474,7 @@ What is indisputable is the awesome power of interaction design: giving technolo
 
 —Alan Cooper
 
-![](images/24284a20b140e3c0f004e5b4a380c9db099ea21d817c221b9170f981e7d5bcf4.jpg)
+![](images/24284a20b140e3c0f004e5b4a380c9db099ea21d817c221b9170f981e7d5bcf4.webp)
 
 # INTRODUCTION TO THE FOURTH EDITION
 
@@ -530,7 +530,7 @@ Extending this thinking into the world of digital products, we find it useful to
 
 Of course, often a design project requires careful attention to the orchestration of a number of design disciplines to achieve an appropriate user experience, as shown in Figure 1. It is in these situations that we feel the term user experience design is most applicable.
 
-![](images/f51bff6bd3274b4eb98bcbe5400c619d3507f12727b0398dbe1149ea078592e1.jpg)  
+![](images/f51bff6bd3274b4eb98bcbe5400c619d3507f12727b0398dbe1149ea078592e1.webp)  
 Figure 1: User experience (UX) design has three overlapping concerns: form, behavior, and content. Interaction design focuses on the design of behavior but also is concerned with how that behavior relates to form and content. Similarly, information architecture focuses on the structure of content but also is concerned with behaviors that provide access to content and how the content is presented to the user. Industrial design and graphic design are concerned with the form of products and services but also must ensure that their form supports use, which requires attention to behavior and content.
 
 # What This Book Is and What It Is Not
@@ -590,7 +590,7 @@ Are Running the Asylum (Sams, 2004), you will find new and updated information a
 
 We hope this book informs you and intrigues you. Most of all, we hope it makes you think about the design of digital products in new ways. The practice of interaction design is constantly evolving, and it is new and varied enough to generate a wide variety of opinions on the subject. If you have an interesting opinion, or if you just want to talk, we'd be happy to hear from you. E-mail us at alan@cooper.com, rmreimann@gmail.com, davcron@gmail.com, or chrisnoessel@gmail.com.
 
-![](images/d9bde6e5b77080181ae92fbdf5ed333b5921ce9c004b89ae2535396524d80887.jpg)
+![](images/d9bde6e5b77080181ae92fbdf5ed333b5921ce9c004b89ae2535396524d80887.webp)
 
 # Goal-Directed Design
 
@@ -601,7 +601,7 @@ CH 4 Setting the Vision:Scenarios and Requirements
 CH 5 Designing the Product: Framework and Design Refinement   
 CH.6 Creative Teamwork
 
-![](images/bb93a8bc403d70c937ee3905fc09c32819b3efe67fc29f5c2d5f3d76e17809c1.jpg)
+![](images/bb93a8bc403d70c937ee3905fc09c32819b3efe67fc29f5c2d5f3d76e17809c1.webp)
 
 # A DESIGN PROCESS FOR DIGITAL PRODUCTS
 
@@ -634,7 +634,7 @@ Digital products often blame users for making mistakes that are not their fault,
 
 Digital products and software frequently interrogate users, peppering them with a string of terse questions that they are neither inclined nor prepared to answer: "Where did you hide that file?" Patronizing questions like "Are you sure?" and "Did you really want to delete that file, or did you have some other reason for pressing the Delete key?" are equally irritating and demeaning.
 
-![](images/7e30bd159ca19146479d3de32c84682dfed049fe55207d0d64ef996329ca8689.jpg)  
+![](images/7e30bd159ca19146479d3de32c84682dfed049fe55207d0d64ef996329ca8689.webp)  
 Figure 1-1: Thanks for sharing. Why didn't the application notify the library? Why did it want to notify the library? Why is it telling us? And what are we OKing, anyway? It is not OK that the application failed!
 
 Our software-enabled products also fail to act with a basic level of decency. They forget information we tell them and don't do a very good job of anticipating our needs. Even the iPhone—generally the baseline for good user experience on a digital device—doesn't anticipate that someone might not want to be pestered with a random phone call when he is in the middle of a business meeting that is sitting right there in the iPhone's own calendar. Why can't it quietly put a call that isn't from a family member into voicemail?
@@ -686,13 +686,13 @@ Thus, the people who are most often responsible for creating our digital product
 
 The results of poor product vision are, unfortunately, digital products that irritate rather than please, reduce rather than increase productivity, and fail to meet user needs. Figure 1-2 shows the evolution of the development process and where, if at all, design has historically fit in. Most of digital product development is stuck in the first, second, or third step of this evolution, where design either plays no real role or becomes a surface-level patch on shoddy interactions—"lipstick on the pig," as one of our clients called it. The core activities in the design process, as we will soon discuss, should precede coding and testing to ensure that products truly meet users' needs.
 
-![](images/350174abed6c788aebd1cc9859fe7320d9780d0f525525c87e393ad429767ace.jpg)
+![](images/350174abed6c788aebd1cc9859fe7320d9780d0f525525c87e393ad429767ace.webp)
 
-![](images/791a91964307e96669ffb9c7ffeedb898d1d6973e8b11a7dfa2b9ad374f83d1d.jpg)
+![](images/791a91964307e96669ffb9c7ffeedb898d1d6973e8b11a7dfa2b9ad374f83d1d.webp)
 
-![](images/109da4acf2b88b9dfe41d9e44d3744111be27d3c214aad39a1494ecd2f4b6e66.jpg)
+![](images/109da4acf2b88b9dfe41d9e44d3744111be27d3c214aad39a1494ecd2f4b6e66.webp)
 
-![](images/94c61bf94c2b9bb0422fb32a6edc5779813cfe6c384a2dc4f297e10210f48cc6.jpg)  
+![](images/94c61bf94c2b9bb0422fb32a6edc5779813cfe6c384a2dc4f297e10210f48cc6.webp)  
 Figure 1-2: The evolution of the software development process. The first diagram depicts the early days of the software industry, when smart developers dreamed up products and then built and tested them. Inevitably, professional managers were brought in to help facilitate the process by translating market opportunities into product requirements. As depicted in the third diagram, the industry matured, and testing became a discipline in its own right. With the popularization of the graphical user interface (GUI), graphic designers were brought in to create icons and other visual elements. The final diagram shows the Goal-Directed approach to software development, where decisions about a product's capabilities, form, and behavior are made before the expensive and challenging construction phase.
 
 # Ignorance about real users
@@ -739,7 +739,7 @@ The traditions of design that corporations have relied on to provide the critica
 
 Interaction design isn't merely a matter of aesthetic choice; rather, it is based on an understanding of users and cognitive principles. This is good news, because it makes the design of behavior quite amenable to a repeatable process of analysis and synthesis. It doesn't mean that the design of behavior can be automated, any more than the design of form or content can be automated, but it does mean that a systematic approach is possible. Rules of form and aesthetics mustn't be discarded, of course. They must work in harmony with the larger concern of achieving user goals via appropriately designed behaviors.
 
-![](images/4a607ea81a0cdfe328400ad23ad1cb294ea07cf1b825431675461f2589487378.jpg)  
+![](images/4a607ea81a0cdfe328400ad23ad1cb294ea07cf1b825431675461f2589487378.webp)  
 Figure 1-3: Building successful digital products. Three major processes need to be followed in tandem to create successful technology products. This book addresses the first and foremost issue: how to create a product people will desire.
 
 You can apply this to companies that have struggled to find the balance:
@@ -843,15 +843,15 @@ In the world of software, an application's represented model can (and often shou
 
 The closer the represented model comes to the user's mental model, the easier he will find the application to use and understand. Generally, offering a represented model that follows the implementation model too closely significantly reduces the user's ability to learn and use the application. This occurs because the user's mental model of his tasks usually differs from the software's implementation model.
 
-![](images/211d638b69e8cf59a63a7f9fe2c3c7afe0c5f894561d22488cebd6bd3b29ccfb.jpg)  
+![](images/211d638b69e8cf59a63a7f9fe2c3c7afe0c5f894561d22488cebd6bd3b29ccfb.webp)  
 Implementation Model reflects technology
 
-![](images/edd0cec31508d94e8157e309d3c32d5b6e06e7db778e8ad61c8d71dd8535a171.jpg)
+![](images/edd0cec31508d94e8157e309d3c32d5b6e06e7db778e8ad61c8d71dd8535a171.webp)
 
-![](images/300f8af06d39b5ff3addb91513232304bdb60f0b46117461cf60e6d1d6029c2a.jpg)  
+![](images/300f8af06d39b5ff3addb91513232304bdb60f0b46117461cf60e6d1d6029c2a.webp)  
 worse
 
-![](images/99d6f5c2aaa5bec053116ba9bc28ccdaa3b0d09f0e8bd5cfb58921bb3cd0fc09.jpg)  
+![](images/99d6f5c2aaa5bec053116ba9bc28ccdaa3b0d09f0e8bd5cfb58921bb3cd0fc09.webp)  
 Mental Model   
 reflects user's vision   
 Figure 1-4: A comparison of the implementation model, mental model, and represented model. The way engineers must build software is often a given, dictated by various technical and business constraints. The model for how the software actually works is called the implementation model. The way users perceive the jobs they need to do and how the application helps them do so is their mental model of interaction with the software. It is based on their own ideas of how they do their jobs and how computers might work. The way designers choose to represent the working of the application to the user is called the represented model. Unlike the other two models, it is an aspect of software over which designers have great control. One of the designer's most important goals should be to make the represented model match a user's mental model as closely as possible. Therefore, it is critical that designers understand in detail how their target users think about the work they do with the software.
@@ -868,7 +868,7 @@ In Adobe Photoshop Express on the iPad, users can adjust a set of ten different 
 
 mental model, because the user—likely an amateur photographer—is thinking in terms of how his photo looks, not in terms of abstract numbers.
 
-![](images/148a27b549b5c64920b2917b767a47558cf29e7e06f732aa5d67f278158f6dae.jpg)  
+![](images/148a27b549b5c64920b2917b767a47558cf29e7e06f732aa5d67f278158f6dae.webp)  
 Figure 1-5: Adobe Photoshop Express for iPad has a great example of software design to match user mental models. The interface shows a set of thumbnail images of the photo being edited. A user can tap the thumbnail that best represents the desired setting, which can then be tweaked using the single large slider below the photo. The interface follows mental models of photographers who are after a particular look, not a set of abstract numeric values.
 
 If the represented model for software closely follows users' mental models, it eliminates needless complexity from the user interface by providing a cognitive framework that makes it evident to the user how his goals and needs can be met.
@@ -911,7 +911,7 @@ If design is to become product definition, designers need to take on a broader r
 
 One of the problems with the current development process is that roles in the process are overspecialized: Researchers perform research, and designers perform design (see Figure 1-6). The results of user and market research are analyzed by the usability and market researchers and then thrown over the transom to designers or developers. What is missing in this model is a systematic means of translating and synthesizing the research into design solutions. One of the ways to address this problem is for designers to learn to be researchers.
 
-![](images/b4c92db1753b9e226a225e773f16dcd85ceb60b8bee90054f816a183e71cc867.jpg)  
+![](images/b4c92db1753b9e226a225e773f16dcd85ceb60b8bee90054f816a183e71cc867.webp)  
 Figure 1-6: A problematic design process. Traditionally, research and design have been separated, with each activity handled by specialists. Research has, until recently, referred primarily to market research, and design is too often limited to visual design or skin-deep industrial design. More recently, user research has expanded to include qualitative, ethnographic data. Yet, without including designers in the research process, the connection between research data and design solutions remains tenuous at best.
 
 There is a compelling reason to involve designers in the research process. One of the most powerful tools designers offer is empathy: the ability to feel what others are feeling. The direct and extensive exposure to users that proper user research entails immersed designers in the users' world and gets them thinking about users long before they propose solutions. One of the most dangerous practices in product development is isolating designers from the users, because doing so eliminates empathic knowledge.
@@ -930,7 +930,7 @@ The other reason, however, is that few methods capture user behaviors in a manne
 
 Instead, we need an explicit, systematic process to bridge the gap between research and design for defining user models, establishing design requirements, and translating those into a high-level interaction framework (see Figure 1-7). Goal-Directed Design seeks to bridge the gap that currently exists in the digital product development process—the gap between user research and design—through a combination of new techniques and known methods brought together in more effective ways.
 
-![](images/df907082ec7816cb1eb3ee58e9ed82aa3ffc9dfc78e23f5a459b2f2e041c8c0a.jpg)  
+![](images/df907082ec7816cb1eb3ee58e9ed82aa3ffc9dfc78e23f5a459b2f2e041c8c0a.webp)  
 Figure 1-7: The Goal-Directed Design process
 
 # A process overview
@@ -947,7 +947,7 @@ One of the principal outcomes of field observation and user interviews is an eme
 
 Chapter 2 provides a more detailed discussion of Goal-Directed research techniques.
 
-![](images/a5d9dc6bae1a9f5851b255c4fab0a50dc08f8e9f4f510b3dd2f1b218a3fb735c.jpg)  
+![](images/a5d9dc6bae1a9f5851b255c4fab0a50dc08f8e9f4f510b3dd2f1b218a3fb735c.webp)  
 Figure 1-8: A more detailed look at the Goal-Directed Design process
 
 # Modeling
@@ -1038,7 +1038,7 @@ The remainder of this book is dedicated to answering these questions. We share t
 3. Alexander, 1979   
 4. Gamma, et al, 1994
 
-![](images/4cd3adab281724cd1606d9b31fa423ac3416891a8b1b7fa14ee3bce2851067ed.jpg)
+![](images/4cd3adab281724cd1606d9b31fa423ac3416891a8b1b7fa14ee3bce2851067ed.webp)
 
 # UNDERSTANDING THE PROBLEM: DESIGN RESEARCH
 
@@ -1113,7 +1113,7 @@ Once your users have been successfully represented by behavioral models (persons
 
 Figure 2-1 shows the relationship between various types of quantitative research and the qualitative Goal-Directed Design research techniques discussed in this chapter.
 
-![](images/88182da6dcc579d09f79962e0876fd13dd68fffdf3fd3fc068ab7546aa966d6f.jpg)  
+![](images/88182da6dcc579d09f79962e0876fd13dd68fffdf3fd3fc068ab7546aa966d6f.webp)  
 Figure 2-1: The relationship between quantitative research and qualitative, Goal-Directed design research
 
 # Goal-Directed Design Research
@@ -1131,7 +1131,7 @@ Stakeholder interviews
 - User and customer interviews   
 - User observation/ethnographic field studies
 
-![](images/bdc93829f845cbceafeecb6f14bfd156adc5c8c7504779b0ffa502d4839f2400.jpg)  
+![](images/bdc93829f845cbceafeecb6f14bfd156adc5c8c7504779b0ffa502d4839f2400.webp)  
 Figure 2-2 shows these activities.   
 Figure 2-2: An overview of the Goal-Directed design research process
 
@@ -1548,7 +1548,7 @@ User research is the critical foundation on which your designs are built. Take t
 
 $\left( {0 < x}\right) t + x < p - 1 < 1.$
 
-![](images/915ec694f9f829562cc96fb578cc50401a004ed297fe24f3aafaf437f38aae64.jpg)
+![](images/915ec694f9f829562cc96fb578cc50401a004ed297fe24f3aafaf437f38aae64.webp)
 
 # MODELING USERS: PERSONAS AND GOALS
 
@@ -1576,32 +1576,32 @@ To create a product that must satisfy a diverse audience of users, logic might t
 
 When you broadly and arbitrarily extend a product's functionality to include many constituencies, you increase the cognitive load and navigational overhead for all users. Facilities that may please some users will likely interfere with the satisfaction of others, as shown in Figure 3-1.
 
-![](images/7eefd5131707b7d39c03e794f597cba92277ed7249fb2333780e30d2d91ec02e.jpg)  
+![](images/7eefd5131707b7d39c03e794f597cba92277ed7249fb2333780e30d2d91ec02e.webp)  
 Figure 3-1: If you try to design an automobile that pleases every possible driver, you end up with a car with every possible feature that pleases nobody. Software today is too often designed to please too many users, resulting in low user satisfaction. Figure 3-2 provides an alternative approach.
 
-![](images/4a9c6bcabd7584cac2b8aeba433ef70fc1e67450d9f1ebf0acd5bcc92e5a9dc2.jpg)  
+![](images/4a9c6bcabd7584cac2b8aeba433ef70fc1e67450d9f1ebf0acd5bcc92e5a9dc2.webp)  
 Alessandro's goals
 
 - Go fast   
 - Have fun
 
-![](images/fb36fd6c7dee67c00f2237bcc6c2d477785942ccdfff60a3dee3c1f786705b19.jpg)
+![](images/fb36fd6c7dee67c00f2237bcc6c2d477785942ccdfff60a3dee3c1f786705b19.webp)
 
-![](images/83bb2b20128594723e5b6d16f7d7daf0b72dcf466f6b34a343155aeade3fd7c0.jpg)  
+![](images/83bb2b20128594723e5b6d16f7d7daf0b72dcf466f6b34a343155aeade3fd7c0.webp)  
 Marge's goals
 
 - Be safe   
 - Be comfortable
 
-![](images/5282a65c71db1521924ca6c560ebc840b9cf32866065c8e688efdfe7fcc0a951.jpg)
+![](images/5282a65c71db1521924ca6c560ebc840b9cf32866065c8e688efdfe7fcc0a951.webp)
 
-![](images/273dbcdcb75c7b9af97ed7eb16f89532b39b38b07f815e77ab9f7c308482dcb4.jpg)  
+![](images/273dbcdcb75c7b9af97ed7eb16f89532b39b38b07f815e77ab9f7c308482dcb4.webp)  
 Dale's goals
 
 - Haul big loads   
 - Be reliable
 
-![](images/2d3cb51338b42204e7a0f8abf6499a210cc405c4ac93c0fd36af9916912e78e1.jpg)  
+![](images/2d3cb51338b42204e7a0f8abf6499a210cc405c4ac93c0fd36af9916912e78e1.webp)  
 Figure 3-2: By designing different cars for different people with different specific goals, we can create designs that other people with needs similar to our target drivers also find satisfying. The same holds true for the design of digital products and software.
 
 The key to this approach is to first choose the right individuals to design for—users whose needs best represent the needs of a larger set of key constituents (see Figure 3-2). Then you prioritize these individuals so that the needs of the most important users are met without compromising our ability to meet the needs of secondary users. Personas provide a powerful tool for communicating about different types of users and their needs and then deciding which users are the most important to target in the design of form and behavior.
@@ -1743,7 +1743,7 @@ Marketing professionals may be familiar with a process similar to persona develo
 
 However, market segments play a role in persona development. They can help determine the demographic range within which to frame the persona hypothesis (see Chapter 2). Personas are segmented along ranges of usage behavior, not demographics or buying behavior, so there is seldom a one-to-one mapping of market segments to personas. Rather, market segments can act as an initial filter to limit the scope of interviews to people within target markets (see Figure 3-3). Also, we typically use the prioritization of personas as a way to make strategic product definition decisions (see the discussion of persona types later in this chapter). These decisions should incorporate market intelligence; understanding the relationship between user personas and market segments can be an important consideration here.
 
-![](images/7d9a27e105161d5e982b8130244b21e503499e45f3eeceff58b4b1b1a02147b9.jpg)  
+![](images/7d9a27e105161d5e982b8130244b21e503499e45f3eeceff58b4b1b1a02147b9.webp)  
 Figure 3-3: Personas versus market segments. Market segments can be used in the Research phase to limit the range of personas to target markets. However, there is seldom a one-to-one mapping between market segments and personas.
 
 # Understanding Goals
@@ -1810,7 +1810,7 @@ Experience goals
 End goals   
 Life goals
 
-![](images/b08f7b5372a3fa41899801b562d74ebc7bbb324e2b24542678d66c3a57134b72.jpg)  
+![](images/b08f7b5372a3fa41899801b562d74ebc7bbb324e2b24542678d66c3a57134b72.webp)  
 Figure 3-4: The three types of user goals
 
 # Experience goals
@@ -1940,7 +1940,7 @@ construct personas. It also helps experienced designers to stay focused on actua
 7 Designate persona types.   
 8 Expand the description of attributes and behaviors.
 
-![](images/e3f51100b94726796633c7bea7a647d320c2aea5afa70de4703e0d6e0b86534e.jpg)  
+![](images/e3f51100b94726796633c7bea7a647d320c2aea5afa70de4703e0d6e0b86534e.webp)  
 Figure 3-5: Overview of the persona creation process
 
 # Step 1: Group interview subjects by role
@@ -1975,7 +1975,7 @@ such as confidence in using technology. Others will represent multiple discrete 
 
 Mapping the interviewee to a precise point in the range isn't as critical as identifying the placement of interviewees in relationship to each other. In other words, it doesn't matter if an interviewee falls at precisely 45 or 50 percent on the scale. There's often no good way to measure this precisely; you must rely on your gut feeling based on your observations of the subject. The desired outcome of this step is to accurately represent how multiple subjects cluster with respect to each significant variable, as shown in Figure 3-6.
 
-![](images/64418a26b78b2dc31475c0317ed47b058e70bb6efc61d081f065d64fb3dd4e8a.jpg)  
+![](images/64418a26b78b2dc31475c0317ed47b058e70bb6efc61d081f065d64fb3dd4e8a.webp)  
 Figure 3-6: Mapping interview subjects to behavioral variables. This example is from an online store. Interview subjects are mapped across each behavioral axis. Precision of the absolute position of an individual subject on an axis is less important than its relative position to other subjects. Clusters of subjects across multiple axes indicate significant behavior patterns.
 
 # Step 4: Identify significant behavior patterns
@@ -2122,7 +2122,7 @@ Try to keep photos across persona sets similar in style and crop.
 
 We have also found it sometimes useful to create photographic collages for each persona to convey more emotional and experiential forces that drive the persona (see Figure 3-7). Numerous small images juxtaposed have the potential to convey things that are difficult to describe in words. There are also times that we find it useful to create models of the personas' environments (for example, in the form of a floor plan). Again, this helps make these environmental considerations more tangible.
 
-![](images/8a5c7635e61f5d96b2e0e3132bf8caf04cd422f33c61184a7bddf2827c688419.jpg)  
+![](images/8a5c7635e61f5d96b2e0e3132bf8caf04cd422f33c61184a7bddf2827c688419.webp)  
 Figure 3-7: Collages such as this, combined with carefully written narratives, are an effective way to convey the emotional and experiential aspects of a persona.
 
 When creating such communication aides, it's important to remember that personas are design and decision-making tools, not an end in themselves. While power can come from creating a holistic image of a persona, too much embellishment and theater can potentially make personas seem like a fluffy waste of time. This can ultimately reduce their usefulness as user models.
@@ -2257,9 +2257,9 @@ Personas and other models make sense of otherwise overwhelming and confusing use
 9. Dillon, 2001   
 10. Goodwin, 2001
 
-![](images/078662884ff3daee43bd8670078f9edd01310f22cbb5cb3cc6bb408c2a87941a.jpg)
+![](images/078662884ff3daee43bd8670078f9edd01310f22cbb5cb3cc6bb408c2a87941a.webp)
 
-![](images/6ebce230b2fdb706b7e7a3a30a99307e6ac8dd35989e8dd363206b3f00c06e6d.jpg)
+![](images/6ebce230b2fdb706b7e7a3a30a99307e6ac8dd35989e8dd363206b3f00c06e6d.webp)
 
 # SETTING THE VISION: SCENARIOS AND DESIGN REQUIREMENTS
 
@@ -2385,7 +2385,7 @@ product's business and technical stakeholders. The next sections offer a more el
 
 The translation of robust models into design solutions consists of two major phases. The Requirements Definition, shown in Figure 4-1, answers the broad questions about what a product is and what it should do. The Framework Definition answers questions about how a product behaves and how it is structured to meet user goals.
 
-![](images/1ca761f605f7e774e40714274ad3f8c7b714e6675afa3a7a3935f7ae1f117659.jpg)  
+![](images/1ca761f605f7e774e40714274ad3f8c7b714e6675afa3a7a3935f7ae1f117659.webp)  
 Figure 4-1: An overview of the Requirements Definition process
 
 In this section, we'll discuss the Requirements Definition in detail. The Framework Definition is covered in Chapter 5. The methods described here are based on the persona-based scenario methodology developed by Robert Reimann, Kim Goodwin, Lane Halley, David Cronin, and Wayne Greenwood, and refined over the last decade by design practitioners at Cooper.
@@ -2555,9 +2555,9 @@ Now you are ready to delve deeper into the details of your product's behaviors a
 10. Kuutti, 1995   
 11.Shneiderman,1998
 
-![](images/04b614507b732ef08a5a7c78e2893da4da5015a40bc3fb7c3cd13c563eb1b855.jpg)
+![](images/04b614507b732ef08a5a7c78e2893da4da5015a40bc3fb7c3cd13c563eb1b855.webp)
 
-![](images/2fae095ddcd1c06177a90668b6a6ad31ab20b928a91af8469d7845c605752ef3.jpg)
+![](images/2fae095ddcd1c06177a90668b6a6ad31ab20b928a91af8469d7845c605752ef3.webp)
 
 # DESIGNING THE PRODUCT: FRAMEWORK AND REFINEMENT
 
@@ -2596,7 +2596,7 @@ The interaction framework defines not only the high-level structure of screen la
 Construct key path scenarios.   
 6 Check designs with validation scenarios.
 
-![](images/24ead2ec7e79e7e3a190ef99d0bc73102ae0d4b5b95e90ba6ae9918211b7694b.jpg)  
+![](images/24ead2ec7e79e7e3a190ef99d0bc73102ae0d4b5b95e90ba6ae9918211b7694b.webp)  
 Figure 5-1: The Framework Definition process
 
 Even though we've broken the process into numerically sequenced steps, typically this is not a linear effort. Rather, it occurs in iterative loops. In particular, Steps 3 through 5 may be switched, depending on the designer's thought process (more on this later). The six steps are described in the following sections.
@@ -2679,7 +2679,7 @@ Using detailed interaction design principles and patterns is extremely helpful a
 
 Now we're ready to sketch the interface. This visualization of the interface should be simple at first. Around the studio, we often call this the rectangles phase. Our sketches start by subdividing each view into rough rectangular areas corresponding to panes, control components (such as toolbars), and other top-level containers, as shown in Figure 5-2. Label the rectangles, and illustrate and describe how one grouping or element affects others. Draw arrows from one set of rectangles to others to represent flows or state changes.
 
-![](images/eb57738aaa02028700ea075b053e4071f11f296a90d911983b67fbf535311b90.jpg)  
+![](images/eb57738aaa02028700ea075b053e4071f11f296a90d911983b67fbf535311b90.webp)  
 Figure 5-2: An early framework sketch from designs Cooper created for Cross Country TravCorps, an online portal for traveling nurses. Framework sketches should be simple, starting with rectangles, names, and brief descriptions of relationships between functional areas. Details can be visually hinted at to give an idea of the contents, but don't fall into the trap of designing detail at this stage.
 
 You may want to sketch different ways of fitting together top-level containers in the interface. This visualization of the interface should be simple at first: boxes representing each functional group and/or container with names and descriptions of the relationships between the different areas (see Figure 5-2).
@@ -2710,7 +2710,7 @@ By using a sequence of low-fidelity sketches accompanied by the narrative of the
 
 Because creative human activities are rarely a sequential, linear process, the steps in the Framework phase shouldn't be thought of as a simple sequence. It is common to move back and forth between steps and to iterate the whole process several times until you have a solid design solution. Depending on how you think, you have a couple of different ways to approach Steps 3 through 5. You may find that one works better for you than another.
 
-![](images/0a4a5486af7dd2d98e34f4cb414465a93c2e2f2f11ea44b04286d899e99c38cc.jpg)  
+![](images/0a4a5486af7dd2d98e34f4cb414465a93c2e2f2f11ea44b04286d899e99c38cc.webp)  
 Figure 5-3: A more evolved Framework rendering from the Cross Country TravCorps job search web application
 
 Verbal thinkers may want to use the scenario to drive the process and approach Steps 3 through 5 in the following sequence:
@@ -2776,7 +2776,7 @@ Visual language studies should relate to the personas' experience goals, as well
 
 Substantial work is often required to translate a style guide for marketing collateral into a meaningful look and feel for an interactive product or website. It's also important to consider environmental factors and persona aptitudes when devising visual styles. Screens that must be visible under bright lights or from a distance require high contrast and more saturated colors. The elderly and other sight-impaired users require larger and more readable typefaces.
 
-![](images/ef874e2ad204909d1fa5f3383cfa02d92c09059360a726f65899e1ce935d01cb.jpg)  
+![](images/ef874e2ad204909d1fa5f3383cfa02d92c09059360a726f65899e1ce935d01cb.webp)  
 Figure 5-4: Visual language studies are used to explore a variety of visual styles abstractly and somewhat independent of the interaction design. This is useful because it allows us to have initial discussions about visual language without getting hung up on interaction design details. Of course, eventually visual design and interaction design must be conducted in lockstep.
 
 We typically show between three and five different approaches during our initial review with stakeholders, most often using each one to optimize a particular experience attribute. This is a little different from our approach to interaction design, in which a product usually has one optimal behavioral framework. Visually, several different styles all can be consistent with experience keywords and goals. Using experience attributes to develop these approaches helps move stakeholders away from personal tastes and biases by providing a vocabulary for an experience that is in sync with the brand's meaning.
@@ -2865,7 +2865,7 @@ Refinement phase. It is also critical for the programming team to be intimately 
 
 The Refinement phase is marked by the translation of the sketched storyboards into full-resolution screens that depict the user interface at the pixel level, as shown in Figure 5-5.
 
-![](images/cfecfca2b9b0534897527d98896d07d19d20134c10681f01452f1355e1eea125.jpg)  
+![](images/cfecfca2b9b0534897527d98896d07d19d20134c10681f01452f1355e1eea125.webp)  
 Figure 5-5: Full-resolution bitmap screens for Cross Country TravCorps based on the Framework illustration from Figure 5-3. Note that minor changes to the layout naturally result from the realities of pixels and screen resolution. Visual and interaction designers need to work together closely at this stage to ensure that visual changes to the design continue to reinforce appropriate product behaviors and meet the goals of the primary personas.
 
 The basic process of design refinement follows the same steps we used to develop the design framework, this time at deeper and deeper levels of detail. (Of course, it isn't necessary to revisit the form factor and input methods unless an unexpected cost or manufacturing issue crops up with the hardware.) After following Steps 2 through 6 at the view and pane levels, while incorporating the increasingly refined visual and industrial designs, use scenarios to motivate and address the product's more granular components.
@@ -2960,7 +2960,7 @@ __________
 
 __________
 
-![](images/03acf9dcb0b6c85e12c58015da0b5d8d5eedc52c59e8828c564cc5dcbc80e5a1.jpg)
+![](images/03acf9dcb0b6c85e12c58015da0b5d8d5eedc52c59e8828c564cc5dcbc80e5a1.webp)
 
 # CREATIVE TEAMWORK
 
@@ -3004,7 +3004,7 @@ In our hiring process at Cooper, we seek to identify individuals who will make p
 
 Generation and synthesis live on the same spectrum of creativity, as shown in Figure 6-1. Most designers sit on one side of the spectrum, favoring either synthetic or generative skills. A strong Generator typically needs a partner of equal strength in synthesis to strike a healthy balance. When working alone, strong Generators may zoom in too quickly on an incomplete solution or spend too much time casting about in the muddiness of a brainstorm. They need a Synthesizer to help make decisions at the right level at the right times and to keep the design moving forward.
 
-![](images/43118ace54ef1b16db79bacad698e6227917bf020e19401bfb2affa2eabe1540.jpg)  
+![](images/43118ace54ef1b16db79bacad698e6227917bf020e19401bfb2affa2eabe1540.webp)  
 Figure 6-1: Generation and synthesis form a creative spectrum.
 
 Synthesizers initiate dialog within their teams. Instead of proposing new ideas and solutions, Synthesizers ask questions to locate the intent and value within ideas that have already been proposed. As the conversations proceed, Synthesizers seek clarity, expose gaps, and draw connections. When working alone, strong Synthesizers can struggle to move beyond list-making and scenario thinking. They need a Generator to pull ideas into concrete, connected form.
@@ -3015,12 +3015,12 @@ The following sections outline the qualities, characteristics, and interplay bet
 
 In a typical design meeting, the distinction between roles often manifests itself from the first moment, as shown in Figure 6-2. Who instinctively reaches for the marker and heads to the whiteboard when confronted with a design problem?
 
-![](images/0c7dbfac8356e24c166647f17e1857170abd97f7933a81eba06b29dec3dece4f.jpg)  
+![](images/0c7dbfac8356e24c166647f17e1857170abd97f7933a81eba06b29dec3dece4f.webp)  
 Figure 6-2: Generators and synthesizers complement each other.
 
 Each role tends to inhabit a specific physical and mental space during design meetings. Successful Generators tend to grab the marker to visualize ideas, as shown in Figure 6-3. Synthesizers tend to organize, listing the qualities of a good solution or refreshing their understanding of the problem, the user's goals, and the usage context.
 
-![](images/06774a7194eed0b3d6254e92319890642169075e96b6336bc1f36b7c4b9c0fb2.jpg)  
+![](images/06774a7194eed0b3d6254e92319890642169075e96b6336bc1f36b7c4b9c0fb2.webp)  
 Figure 6-3: Generators and synthesizers approach design problems from different angles.
 
 Generators tend to be relentlessly concrete thinkers, whereas the best Synthesizers lead with storytelling and prompting.
@@ -3043,12 +3043,12 @@ As a design meeting progresses, the Generator and Synthesizer work together to e
 
 As shown in Figure 6-4, creative minds often disagree, especially when they're coming at the problem from different directions. Early on in a creative partnership, trust must be established. Generators must take the lead in concept direction. This means that Synthesizers must cede both the literal and figurative whiteboard marker. At the same time, Generators must trust Synthesizers to steer the discussion, to keep from getting mired in details, and to reframe the problem when necessary. This means that Generators must feel comfortable with introducing newly formed ideas and not feel threatened when their partner evaluates and critiques these ideas. Most ideas are bad, after all, and a primary goal in a thought partnership is to identify an idea's quality or promise early on and dispense with the craft.
 
-![](images/f4d1635d03a5066ffebd29d84a5a6bcf9e98e816a985ebbd83378d3f7a452cc1.jpg)  
+![](images/f4d1635d03a5066ffebd29d84a5a6bcf9e98e816a985ebbd83378d3f7a452cc1.webp)  
 Figure 6-4: Generators and synthesizers have different responsibilities, strengths, and pitfalls.
 
 In the detailed design phase, the team often spends the morning working together and then separates to document details, as shown in Figure 6-5. The Generator typically opens a drawing tool and begins capturing decisions in the form of drawings. The Synthesizer captures decisions, either in schematics that help explain the flow or in text that explains the rationale. The details that the team documents can be communicated in a variety of ways, depending on the team's size and needs. In our practice, we favor frequent, lightweight, informal notes over formal documentation milestones.
 
-![](images/7a379b3ba853fd29bf1a7a363cbcb07d878c05789c38ba25395f68ab5ea7daf4.jpg)  
+![](images/7a379b3ba853fd29bf1a7a363cbcb07d878c05789c38ba25395f68ab5ea7daf4.webp)  
 Figure 6-5: Generators and synthesizers perform different tasks away from the whiteboard.
 
 # Getting started with thought partnership
@@ -3287,9 +3287,9 @@ CH 15 Preventing Errors and Informing Decisions
 CH 16 Designing for Different Needs   
 CH 17 Integrating Visual Design
 
-![](images/029f14f1831c8c09f7c2900214a6273ab43aa0995ffb90578afb0184ba1499e0.jpg)
+![](images/029f14f1831c8c09f7c2900214a6273ab43aa0995ffb90578afb0184ba1499e0.webp)
 
-![](images/edecdeff4e41316cbb4268cb7e47e8801f96ab43c992ba134bf487933b278932.jpg)
+![](images/edecdeff4e41316cbb4268cb7e47e8801f96ab43c992ba134bf487933b278932.webp)
 
 # A BASIS FOR GOOD PRODUCT BEHAVIOR
 
@@ -3488,18 +3488,18 @@ One of the most commonly used high-level structural patterns in the desktop appl
 
 This pattern is optimal for full-screen applications that require user access to many different kinds of objects, manipulation of those objects in groups, and display of detailed content or attributes of individual objects or documents. The pattern permits all this to be done smoothly in a single screen without the need for additional windows. Many e-mail clients use this pattern, and variations of it appear in many authoring and information management tools where rapid access to and manipulation of various types of objects is common.
 
-![](images/acb997cc326057fdad50943e1826178887925363890d5a38e0608e15a8291c15.jpg)  
+![](images/acb997cc326057fdad50943e1826178887925363890d5a38e0608e15a8291c15.webp)  
 Figure 7-1: The primary structural pattern used by Microsoft Outlook is widely used throughout the industry, across many diverse product domains. The left-vertical pane provides navigation and drives the content of the overview pane in the upper right. A selection in this pane populates the lower-right pane with detail or document content.
 
 # Mobile: Double Printer
 
 Pioneered by Facebook and Path mobile apps, drawers that are exposed by swiping the main content view to the right (to expose the left drawer) or left (to expose the right drawer) are now common in many mobile apps on iOS and Android (see Figure 7-2). The left drawer typically contains primary navigation for the mobile app. The right drawer, when it exists, typically is used for access to an ancillary list of objects (such as friends in the case of Facebook).
 
-![](images/0b0190161692b617a89c95831192d272015ce31bb762dcebbb127f25aa39e490.jpg)
+![](images/0b0190161692b617a89c95831192d272015ce31bb762dcebbb127f25aa39e490.webp)
 
-![](images/0ca0e6e14bad2176475435b0389900ef4b7086b8687c25872308cedede05f7c5.jpg)
+![](images/0ca0e6e14bad2176475435b0389900ef4b7086b8687c25872308cedede05f7c5.webp)
 
-![](images/5224ac71df6ef21c637770054523cf70cdb2026b0e2ef1fb62f4987a2bc25099.jpg)  
+![](images/5224ac71df6ef21c637770054523cf70cdb2026b0e2ef1fb62f4987a2bc25099.webp)  
 Figure 7-2: Facebook's Double Printer is another structural pattern that has become nearly as ubiquitous for mobile apps as the Organizer-Workspace pattern has for desktop apps. The printer on the left provides navigation and drives the app's content view. The pane on the right is used for rapid global access to a list of ancillary objects—in this case, your Facebook friends.
 
 Like the Organizer-Workspace pattern, the Double Printer is almost perfectly optimized for its context—in this case, mobile rather than desktop. Swiping across the main content pane to reveal lists of navigation or communications options is a simple gross motor action, ideal for one-handed use. Selecting from the open drawers is similarly easy to do with the thumb, and the animated opening and shutting of the drawers is aesthetically satisfying as well. It's no wonder this pattern has been so quickly and widely adopted.
@@ -3996,7 +3996,7 @@ Applications that monopolize users' attention for long, continuous periods of ti
 
 Users working with sovereign applications often find themselves in a state of flow. Sovereign applications are usually used maximized (we'll talk more about window states in Chapter 18). For example, it is hard to imagine using Microsoft Outlook in a 3-by-4-inch window. That size is inconvenient for Outlook's main job: allowing you to create and view e-mail and appointments (see Figure 9-1). A sovereign product dominates the user's workflow as his primary tool.
 
-![](images/8556fb282222b4dfa1eeac6c4bcebd6501686a25a68559cc783f8f4410c20ecf.jpg)  
+![](images/8556fb282222b4dfa1eeac6c4bcebd6501686a25a68559cc783f8f4410c20ecf.webp)  
 Figure 9-1: Microsoft Outlook is a classic example of a sovereign-posture application. It stays onscreen, interacting with the user for long, uninterrupted periods, and with its multiple adjacent panes for navigation and supporting information, it begs to take up the full screen.
 
 # Target intermediate users
@@ -4043,14 +4043,14 @@ Sovereign applications should exploit rich input.
 
 Go ahead and use the corners and edges of the application's window for controls. In a jet cockpit, the most frequently used controls are situated directly in front of the pilot. Those needed only occasionally or in an emergency are found on the armrests, overhead, and side panels. In Word for Mac, Microsoft has put the most frequently used functions at the top of the window, as shown in Figure 9-2. Microsoft also put visually dislocating functions on small controls near the bottom of the screen. These controls change the appearance of the entire visual display—Draft View, Outline View, Publishing layout View, Print Layout View, Notebook Layout View, and Focus View. Neophytes do not often use them and, if accidentally triggered, they can be confusing. Placing them near the bottom of the screen makes them almost invisible to new users. Their segregated positioning subtly and silently indicates that they should be used with caution. More experienced users, with more confidence in their understanding of and control over the application, will begin to notice these controls and wonder about their purpose. They can experimentally select them when they feel fully prepared for the consequences. This is an accurate and useful mapping of control placement to usage.
 
-![](images/1a7552bc3491156b819ec826462dfdc5b3b9706cf14ed5d2b9df104865be6b3f.jpg)  
+![](images/1a7552bc3491156b819ec826462dfdc5b3b9706cf14ed5d2b9df104865be6b3f.webp)  
 Figure 9-2: Microsoft Word has placed controls at both the top and bottom of the application. The controls at the bottom are used to change views and are appropriately segregated because they can cause significant visual dislocation.
 
 # Design for documents
 
 The dictum that sovereign applications should fill the screen is also true of document windows within the application itself. Child windows containing documents should always be maximized inside the application unless the user explicitly instructs otherwise, or the user needs to simultaneously work in several documents to accomplish a specific task.
 
-![](images/9ac3968b49193c23a463adec5199792e9b667ee5d58d455bc55e9250471b2b69.jpg)
+![](images/9ac3968b49193c23a463adec5199792e9b667ee5d58d455bc55e9250471b2b69.webp)
 
 Maximize document views within sovereign applications.
 
@@ -4072,7 +4072,7 @@ Although a transient application can certainly operate alone on your desktop, it
 
 In cases when the entire computer system is fulfilling a transient role in the real world, it is not necessarily appropriate to minimize the use of pixels and visual attention. Examples of this include process monitors in a fabrication environment, or digital imaging systems in an operating room. Here, the entire computer screen is referred to in a transient manner, while the user is engaged in a sovereign mechanical activity. In these cases, it is still critical for information to be obvious and easily understood from across the room. This clearly requires a bolder use of color and a more generous allotment of real estate, as shown in Figure 9-3.
 
-![](images/6a5dd62cc84bd21bd301b2f30e117bbab41878b3e348306979a64305a6cc633b.jpg)  
+![](images/6a5dd62cc84bd21bd301b2f30e117bbab41878b3e348306979a64305a6cc633b.webp)  
 Figure 9-3: OS X Dashboard widgets and the iTunes Miniplayer are good examples of transient applications. They are referred to or interacted with briefly before the user's attention turns to an activity in a sovereign application. The use of rich dimensional rendering gives them an appropriate amount of visual gravity.
 
 # Make it bright and clear
@@ -4095,7 +4095,7 @@ Of course, rare exceptions to the monothematic nature of transient applications 
 
 Keep in mind that a transient application will likely be called on to help manage some aspect of a sovereign application (as shown in Figure 9-4). This means that the transient application, as it is positioned on top of the sovereign, may obscure the very information that it is chartered to work on. This implies that the transient application must be movable, which means it must have a title bar or other obvious affordance for dragging.
 
-![](images/e0600edbd7ed4ef7a113c32f2fedb6fae963fac43f3e80f389a2cdac1bf2fa47.jpg)  
+![](images/e0600edbd7ed4ef7a113c32f2fedb6fae963fac43f3e80f389a2cdac1bf2fa47.webp)  
 Figure 9-4: Art Directors Toolkit by Code Line Communications is a transient application. It provides a number of discrete functions such as calculating dimensions of a layout grid. These functions are designed to support the use of a sovereign layout application such as Adobe InDesign. The many functions are organized into tabs and are directly accessible at all times.
 
 It is vital to keep the amount of management overhead as low as possible with transient applications. All the user wants to do is perform a specific function or get a certain piece of information, and then move on. It is unreasonable to force the user to add nonproductive window-management tasks to this interaction.
@@ -4118,7 +4118,7 @@ A question that is often taken for granted with applications of other postures b
 
 when they are almost never needed leads to useless visual clutter. Daemonic icons should be employed persistently only if they provide continuous and useful status information. Microsoft solved this problem by hiding daemonic icons that are not actively being used to report status or access functionality in a pop-up menu, as shown in Figure 9-5.
 
-![](images/e97f8239e8d5c005d68208014726c6ea618f716da297958f68368d5a3de873a6.jpg)  
+![](images/e97f8239e8d5c005d68208014726c6ea618f716da297958f68368d5a3de873a6.webp)  
 Figure 9-5: The status area of the taskbar in Windows 8. The speaker icon provides modeless visual status information, because the icon changes if the speaker's volume is low or muted. Hovering over the icon provides more information and clicking or right-clicking it provides access to the volume and other audio controls. To the right of the speaker icon, the Dropbox icon modelessly indicates that Dropbox is automaticallyyncing its desktop folder.
 
 Both Mac OS and Windows also employ control panels as an effective approach to configure daemonic applications. These user-activated transient applications give users a consistent place to go to configure daemons. It is also important to provide direct, inline access to daemonic applications anytime an issue with them prevents someone from accomplishing what he aims to. (Of course, the standard disclaimer apply: Don't interrupt users unnecessarily.) For example, if a taskbar icon indicates a problem with a printer, clicking that icon should provide a mechanism to troubleshoot and rectify the problem.
@@ -4169,7 +4169,7 @@ Mobile web access may also point toward a transient posture. Mobile users are li
 
 More and more websites go beyond simple clicking and searching to offer transactional functionality that allows users to accomplish something beyond acquiring information. Classic examples of transactional websites are online storefronts and financial services sites, as shown in Figure 9-6.
 
-![](images/fcf02c2c50501afc6fc9ea42d68c40e7c45b67dbb2f4adb98aaf99d73ce2eb26.jpg)  
+![](images/fcf02c2c50501afc6fc9ea42d68c40e7c45b67dbb2f4adb98aaf99d73ce2eb26.webp)  
 Figure 9-6: Amazon is the classic example of a transactional e-commerce website. It was one of the first, and most successful, of its kind.
 
 These typically are structured in a hierarchical page-based manner, similar to an informational website, but in addition to informational content, the pages contain functional elements with complex behaviors. In the case of the online store, these functional elements include the shopping cart, the checkout features, and the ability to save a user profile. Some shopping sites have more sophisticated and interactive tools as well, such as "configurators," which allow users to customize or choose options related to their purchases.
@@ -4206,7 +4206,7 @@ Sovereign web applications strive to deliver information and functionality in a 
 
 Unlike page-oriented informational and transactional websites, the design of sovereign web applications is best approached in the same manner as desktop applications. Designers also need a clear understanding of the medium's technical limitations and what the development organization can reasonably accomplish on time and within budget. Like sovereign desktop applications, most sovereign web applications should be full-screen applications, densely populated with controls and data objects. They also should make use of specialized panes or other screen regions to group related functions and objects. Users should have the feeling that they are in an environment, not that they are navigating from page to page or place to place. Redrawing and re-rendering information should be minimized (as opposed to the behavior on websites, where almost any action requires a full redraw).
 
-![](images/7b5588e11ac8ec2256b3840c30334b5b3953d1f9f3fdb48647c83f9b07e8ca56.jpg)  
+![](images/7b5588e11ac8ec2256b3840c30334b5b3953d1f9f3fdb48647c83f9b07e8ca56.webp)  
 Figure 9-7: Proto.io's web-based interactive prototyping environment is as rich and refined as many desktop authoring environments, featuring drag-and-drop assembly and direct manipulation of all interactive objects.
 
 Treating sovereign web applications as desktop applications rather than as collections of web pages has a benefit. It allows designers to break out of the constraints of page-oriented models of browser interaction to address the complex behaviors that these client-server applications require. Websites are effective places to get information you need, just as elevators are effective places to get to a particular floor in a building. But you don't try to do actual work in elevators. Similarly, users are not served by being forced to attempt to do real, interaction-rich transactional work using page-based websites accessed through a browser.
@@ -4239,12 +4239,12 @@ Satellite posture, then, emphasizes retrieving and viewing data. It uses as much
 
 Satellite posture is less common these days than convergence handheld devices. Since the advent of the iPhone and its competitors, these have become tiny, full-fledged computers in their own right. However, satellite posture is still the model for dedicated content-oriented devices such as digital cameras, highly portable dedicated e-readers like the e-ink Kindles (see Figure 9-8), and what remains of the dedicated digital audio and video player market, such as the iPod Nano. Applications on convergence devices that are focused on content navigation and/or playback may adopt what is essentially a satellite posture.
 
-![](images/733d8f0fb8e2903ea753263b070060f2fc5cb417037b7f602b2ecf82a0656687.jpg)  
+![](images/733d8f0fb8e2903ea753263b070060f2fc5cb417037b7f602b2ecf82a0656687.webp)  
 Figure 9-8: Amazon's Kindle is a good example of a satellite posture device. It is used almost exclusively to view content (e-books) that has been purchased andynced from the cloud. Previous-generation satellite posture devices relied onyncing to a desktop computer to retrieve their data. The Kindle was one of the first to provide directyncing with a cloud service.
 
 One new development for satellite devices is the advent of wearable computing. Wristwatch and eyeglass format devices typically pair with a standalone convergence device via Bluetooth or other wireless connections, and provide notifications and other contextual information via small touchscreens or heads-up displays and voice commands. These devices take a highly transient posture, providing just enough information and possible actions to be relevant in the moment. The Samsung Gear smart watch and Google Glass are excellent examples of this new and rapidly evolving breed of satellite posture devices (see Figure 9-9).
 
-![](images/b1488ebbef4207f2bebe4e81c522398a81d8c0ab1200541fcd88a143745b894e.jpg)  
+![](images/b1488ebbef4207f2bebe4e81c522398a81d8c0ab1200541fcd88a143745b894e.webp)  
 Figure 9-9: The new frontier of wearable computing is represented by a new generation of satellite devices, such as the Samsung Gear smart watch and Google Glass. These devices provide succinct information and the minimum set of options necessary to support activity in a completely on-the-go context.
 
 # Standalone posture
@@ -4267,15 +4267,15 @@ Seven-inch tablets, especially those with a 16-by-9 aspect ratio, such as the Go
 
 Specific platform issues aside, tablets for the most part enforce the sovereign quality of their apps; the popular tablet operating systems permit only full-screen applications. These sovereign apps often have scrollable or zoomable main content views, with top, bottom, or side toolbars or palettes. They are similar to their desktop brethren in concept but are more sparse and simplified in execution, as shown in Figure 9-11.
 
-![](images/967d47c11bcb602e64983e7cd998769243886f52c7250bd51403134ca121eb70.jpg)  
+![](images/967d47c11bcb602e64983e7cd998769243886f52c7250bd51403134ca121eb70.webp)  
 Figure 9-10: Keynote for iPad is a sovereign-posture, iOS version of Apple's presentation software for the Mac. It has functions equivalent to its desktop cousin.
 
-![](images/46c24ad4d64f5ec0a3089a3951946e104b0715d8b1e09d25af8f5280cf57bdd8.jpg)  
+![](images/46c24ad4d64f5ec0a3089a3951946e104b0715d8b1e09d25af8f5280cf57bdd8.webp)  
 Figure 9-11: Adobe Sketchbook Pro is a drawing and painting app on the iPad. It supports a zoomable main drawing area, along with a top toolbar, and hideable tool palettes on the left and right.
 
 Android tablets support the concept of widgets—transient-posture micro-apps that access the functionality of an installed sovereign app without bringing it into the foreground. Users may position these widgets on a special home screen for easy access to things like weather, stock reports, or music playback controls. Windows Surface, shown in Figure 9-12, has a similar concept called tiles. They can contain active content from an installed sovereign app, but not controls, providing similar transient-posture access to content only.
 
-![](images/36904066582ad4f899b7336d0b41e565209b6510394b683bbe553eebe7c5f5b2.jpg)  
+![](images/36904066582ad4f899b7336d0b41e565209b6510394b683bbe553eebe7c5f5b2.webp)  
 Figure 9-12: Windows Surface supports tiles containing dynamic content.
 
 # Postures for Other Platforms
@@ -4304,7 +4304,7 @@ In one respect this is a big difference: It introduces the need for a current-fo
 
 The PlayStation 4 is a good example of how 10-foot UIs can use a layout similar to tablet UIs. Large buttons and simple left-right or up-down navigation, with at most 2 columns is the norm (see Figure 9-13). Seeing this screen out of context, you might believe it was from a multi-touch app.
 
-![](images/71340171308113775e513600811c574737fa53a91c42782ed53869b7c7eaabc9.jpg)  
+![](images/71340171308113775e513600811c574737fa53a91c42782ed53869b7c7eaabc9.webp)  
 Figure 9-13: The PlayStation 4 UI bears more than a passing resemblance to a touchscreen tablet app, and for good reason. Despite the differences in input mechanism, navigation is rather similar between 10-foot UIs and many content-browsing multi-touch tablet apps.
 
 # Automotive interface posture
@@ -4317,14 +4317,14 @@ Automotive navigation interfaces focus on rich, dynamic content. Map and current
 
 An impressive and beautiful—but perhaps a bit worrisome—exception to the typical automotive interface is the Tesla Model S infotainment interface, shown in Figure 9-14. It sports a single 17-inch multi-touch screen with adjustable panes for simultaneous navigation, entertainment, and HVAC controls. The interface resembles a tablet's interactive posture much more than it does a kiosk's. Perhaps this is the wave of the future. If so, we hope new cars will also include active accident avoidance systems to counteract any driver distraction that might occur as a result of such large and information-rich interactive displays on the dashboard.
 
-![](images/d1932cf88bd73dddc546057b6ecbc88ce473e1655aacf1bf2b41edd827527f50.jpg)  
+![](images/d1932cf88bd73dddc546057b6ecbc88ce473e1655aacf1bf2b41edd827527f50.webp)  
 Figure 9-14: The Tesla Model S infotainment interface is impressive in both its size and level of interactivity. Its 17-inch multi-touch screen allows navigation, entertainment, and HVAC functions to be displayed simultaneously. This system bears more of a postural resemblance to a tablet than to a kiosk, as is more typical for automotive info systems.
 
 # Smart appliance posture
 
 Most appliances have simple displays and rely heavily on hardware buttons and dials to manipulate the appliance's state. In some cases, however, "smart" appliances (notably, washers and dryers) most often sport color LCD touchscreens allowing rich output and direct input, as shown in Figure 9-15.
 
-![](images/f61097d59ac38dfb256d60ac9d6ea640e52b5abf0f2d2c629aac47179dd94d8c.jpg)  
+![](images/f61097d59ac38dfb256d60ac9d6ea640e52b5abf0f2d2c629aac47179dd94d8c.webp)  
 Figure 9-15: This Samsung washing machine has a well-designed color touchscreen display, with a clear and simple navigational structure.
 
 Appliance interfaces usually are transient-posture interfaces. Users of these interfaces seldom are technology-savvy and therefore should be presented with the most simple and straightforward interface possible. These users are also accustomed to hardware controls. Unless an unprecedented ease of use can be achieved with a touchscreen, dials and buttons (with appropriate tactile, audible, and visual feedback via a view-only display or even hardware lamps) may be a better choice. Many appliance makers make the mistake of putting dozens of new—and unwanted—features into their new, digital models. Instead of making things easier, that "simple" LCD touchscreen becomes a confusing array of unworkable controls.
@@ -4369,7 +4369,7 @@ Statistics don't tell the whole story, however. The bell curve is a snapshot of 
 
 Although everybody spends some minimum time as a beginner, nobody remains in that state for long. People don't like to be incompetent, and beginners, by definition, are learning to be competent. Conversely, learning and improving are rewarding, so beginners become intermediates very quickly—or they drop out. All skiers, for example, spend time as beginners, but those who find they don't rapidly progress beyond more-falling-than-skiing quickly abandon the sport. The rest soon move off the bunny slopes onto the regular runs. Only a few ever make it onto the double black diamond runs for experts.
 
-![](images/1105e3e52139710c1b36dc90642fa42ce4155ed69b06b208a2f6e99d76e75274.jpg)  
+![](images/1105e3e52139710c1b36dc90642fa42ce4155ed69b06b208a2f6e99d76e75274.webp)  
 Figure 10-1: The demands that users place on digital products vary considerably with their experience.
 
 DESIGN PRINCIPLE
@@ -4420,7 +4420,7 @@ If you add features to your application that are complex to manage, users will b
 
 A particularly useful design pattern that exemplifies commensurate effort is progressive disclosure. In progressive disclosure, advanced or less frequently used controls are hidden in an expanding pane, which offers a small expand/hide toggle control to give the user access. This type of design is a boon to expert users, because the toggle is usually "sticky"; that is, once left open, it stays that way. It also gives intermediates an easy window into more advanced features but allows them to be stowed away neatly when not in use. Many of Adobe's Creative Suite tools make good use of progressive disclosure in their tool palettes, as shown in Figure 10-2.
 
-![](images/a432e989c6fd6d08aa52386ff04b00ba1c29998cd9a8c25ed7317c16173cb427.jpg)  
+![](images/a432e989c6fd6d08aa52386ff04b00ba1c29998cd9a8c25ed7317c16173cb427.webp)  
 Figure 10-2: Adobe Creative Suite applications all make similar use of progressive disclosure to tame the complexity of their tool palettes for intermediates. Experts can expand them and take advantage of the sticky expansion state, which is remembered across sessions.
 
 # Organizing for inflection
@@ -4575,7 +4575,7 @@ Mullet and Sano's classic Designing Visual Interfaces (Prentice Hall, 1994) incl
 
 A minimalist approach to product design is inextricably tied to a clear understanding of purpose—what the user of a product is trying to accomplish using the tool. Without this sense of purpose, interactive products are just a disorganized jumble of technological capabilities. A model example where a strong sense of purpose has driven a minimal user interface is the classic Google search interface, shown in Figure 11-1. It consists of a text field, two buttons (Google Search, which takes the user to a list of results, and I'm Feeling Lucky, which takes the user directly to the top result), the Google logotype, and a couple of links to the broader universe of Google functionality. Another good example of a minimal user interface is the iPod Shuffle. By carefully defining an appropriate set of features to meet a specific set of user needs, Apple created a highly usable product with one switch and five buttons (and no screen!). Still another example is iA Writer, an incredibly simple iOS text editor app. It doesn't have much of a user interface other than an area in which to write text. The text is saved automatically, eliminating the need to interact with files.
 
-![](images/5adb170ff235124181be6ff38a8c58c7ccaaac764f25286b8ee7ba656117fb25.jpg)  
+![](images/5adb170ff235124181be6ff38a8c58c7ccaaac764f25286b8ee7ba656117fb25.webp)  
 Figure 11-1: The celebrated Google search interface is a classic example of minimalist interface design, where every screen element is purposeful and direct.
 
 It's worth noting that the quest for simplicity can be taken too far; reduction is a balancing act that requires a good understanding of users' mental models. The iPod Shuffle's
@@ -4592,7 +4592,7 @@ This ideal interaction is not a dialogue—it's more like using a tool. When a c
 
 The driver certainly doesn't expect the car to interrogate him with a dialog box, nor would a carpenter appreciate the dialog shown in Figure 11-2 if it appeared on his hammer.
 
-![](images/848e9664e1005ad4d8541d504f516a87ff94e11e555454d26d52ff1a4f03c921.jpg)  
+![](images/848e9664e1005ad4d8541d504f516a87ff94e11e555454d26d52ff1a4f03c921.webp)  
 Figure 11-2: Nobody wants to be scolded, particularly by a machine. If we guide our machines in a dunderheaded way, we expect to get a dunderheaded response. Sure, they can protect us from fatal errors, but scolding isn't the same thing as protecting.
 
 One of the reasons interactive products often aggravate people is that they don't act enough like cars or hammers. Instead, they have the temerity to try to engage us in a dialogue—to inform us of our shortcomings and to demand answers. From the user's point of view, the roles are reversed: The person should do the demanding, and the software should do the answering. One of the most important ways of letting the users direct the action in an interface is direct manipulation. We'll discuss this at length in Chapter 13.
@@ -4603,7 +4603,7 @@ Dialog boxes (confirmation dialogs in particular) ask questions. Toolbars and pa
 
 Choices are important, but there is a difference between being free to make choices based on presented information and being interrogated by the application in modal fashion. Users would much rather direct their software the way they direct their automobiles down the street. Automobiles offer drivers sophisticated choices without once issuing a dialog box. Imagine the situation shown in Figure 11-3.
 
-![](images/936bba7c36435f53c019683c621efd3a1f90cd44dff806016ac35228db7f1a9f.jpg)  
+![](images/936bba7c36435f53c019683c621efd3a1f90cd44dff806016ac35228db7f1a9f.webp)  
 Figure 11-3: Imagine if you had to steer your car by clicking buttons on a dialog box! This dialog box gives you some idea of how normal people feel about the dialog boxes in your software.
 
 Not only is directly manipulating a steering wheel a more appropriate idiom for communicating with your car, but it also puts you in the superior position, directing your car where it should go. Modeless choices help give users the feeling of control and mastery they want when using digital products.
@@ -4630,9 +4630,9 @@ Jet fighters have a heads-up display, or HUD, that superimposes the readings of 
 
 information about activity in the main work area. Many drawing applications, such as Adobe Photoshop, already provide ruler guides, thumbnail maps, and other modeless feedback in the periphery of their windows. We further discuss rich modeless feedback in Chapter 15.
 
-![](images/d20de083c2e481f9783b99bedcdeff5aeb872b7ebf136924e7a7e4550cfb9a11.jpg)
+![](images/d20de083c2e481f9783b99bedcdeff5aeb872b7ebf136924e7a7e4550cfb9a11.webp)
 
-![](images/d63652f924f059de16dcf68feed8459a0e382ab8e4f4a817fe10a49648cc671d.jpg)  
+![](images/d63652f924f059de16dcf68feed8459a0e382ab8e4f4a817fe10a49648cc671d.webp)  
 Figure 11-4: In Word 2010, Microsoft lets you see what page you are on, the number of total pages, and the number of words in the document displayed modelessly on the lower-left edge of the window. Clicking on the word count opens the Word Count dialog, which provides more detailed information.
 
 # Design for the probable but anticipate the possible
@@ -4643,7 +4643,7 @@ Developers tend to view possibilities as being the same as probabilities. For ex
 
 This dialog box is inappropriate and unnecessary. How often do you choose to abandon changes you make to a document? This dialog is tantamount to your spouse telling you not to spill soup on your shirt every time you eat. We'll discuss the implications of removing this dialog in Chapter 14.
 
-![](images/577c5f93d08246af0a69cc4cbc2febd99c8be611a7570862dacbaa70ff40218d.jpg)  
+![](images/577c5f93d08246af0a69cc4cbc2febd99c8be611a7570862dacbaa70ff40218d.webp)  
 Figure 11-5: This is easily the most unnecessary dialog box in the world of GUI. Of course we want to save our work! It is the normal state of events. Not saving it would be out of the ordinary and would be worthy of a dialog, but not this.
 
 Developers are judged by their ability to create software that handles the many possible, but improbable, conditions that crop up inside complex logical systems. This doesn't mean, however, that they should render that readiness to handle offbeat possibilities directly into a user interface. This sort of thing runs counter to a user's expectations and interrupts their flow by asking them to accommodate the possibility. Dialogs, controls, and options that are used a hundred times a day should not sit side by side with dialogs, controls, and options that are used once a year or never.
@@ -4654,7 +4654,7 @@ You might get hit by a bus, but you probably will get to work safely this mornin
 
 How an application chooses to represent information is another thing that can confuse or overwhelm normal humans. One area frequently abused is the representation of quantitative, or numeric, information. If an application needs to show the amount of free space on disk, it could do what the ancient Windows 3.0 File Manager did: give you the exact number of free bytes, as shown in Figure 11-6.
 
-![](images/4d36f193df8a95dfdece36ead004f02964b283960fa86c8dc66c100d7eadc9b7.jpg)  
+![](images/4d36f193df8a95dfdece36ead004f02964b283960fa86c8dc66c100d7eadc9b7.webp)  
 Figure 11-6: The old Windows 3.0 File Manager took great pains to report the exact number of bytes used by files on the disk. Did this precision help us understand if we needed to clear space on the disk? Wouldn't a visual representation that showed disk usage in a proportional manner be more meaningful? Luckily, Windows now employs bar and pie charts to indicate disk usage.
 
 In the lower-left corner, the application tells us the number of free bytes and the total number of bytes on the disk. These numbers are hard to read and interpret. With billions of bytes of disk storage, it ceases to be important to us just how many hundreds are left, yet the display rigorously shows us down to the kilobyte. But even while the application is telling us the state of our disk with precision, it is failing to communicate. What we really need to know is whether the disk is getting full, or whether we can add a new 20 MB application and still have sufficient working room. These raw numbers, precise as they are, do little to help us make sense of the facts, and pull us out of flow as we try and figure out what's really happening.
@@ -4669,7 +4669,7 @@ When someone is asleep, he usually looks asleep. When someone is awake, he looks
 
 These sorts of cues are important enough that they became a core part of the user interface of Baxter, a two-armed stationary industrial robot created by Rethink Robotics (see Figure 11-7), whose founder, Rodney Brooks, also invented the Roomba vacuuming robot. Baxter is designed to work alongside humans on a light manufacturing line. It features a large, face-like screen with cartoonish animated eyes that can look in a direction before reaching the destination. It reports system status via simple and universal facial expressions.
 
-![](images/daaf077cc01dc16b34e662d44f83845048aeb1a89a37495d7382aed228dc2ad2.jpg)  
+![](images/daaf077cc01dc16b34e662d44f83845048aeb1a89a37495d7382aed228dc2ad2.webp)  
 Figure 11-7: Baxter is a two-armed industrial robot designed to work alongside humans in a light manufacturing production line. It communicates status using facial expressions.
 
 While they probably should not be anthropomorphized as fully as Baxter, our day-to-day software applications and devices should provide similar clues. When an application is asleep, it should look asleep. When an application is awake, it should look awake. When it's busy, it should look busy. When the product is engaged in some significant internal action like performing a complex calculation and connecting to a database, it should be obvious to us that it won't be quite as responsive as usual. When the app is sending a large file, we should see a modeless progress bar. This lets the user plan their next steps accordingly.
@@ -4716,7 +4716,7 @@ For example, when you ask many applications to print a document, they respond by
 
 More reasonable designs have one command to print and another command for print setup. The print command issues a dialog but just goes ahead and prints, using either previous settings or standard settings. The print setup function offers all those choices about paper and copies and fonts. Some applications allow the user to go directly from the configure dialog to printing, or vice-versa.
 
-![](images/c4a97e76e15a632cb87f8a72499e24d7f3b4024c596ba404e58f631c8f27745c.jpg)  
+![](images/c4a97e76e15a632cb87f8a72499e24d7f3b4024c596ba404e58f631c8f27745c.webp)  
 Figure 11-8: The Quick Print control in Microsoft Word offers immediate printing without a dialog box.
 
 The Quick Print control in Microsoft Word offers immediate printing without a dialog box (although unfortunately it is very small and hidden by default—see Figure 11-8). This is perfect for many people, but for those with multiple printers or printers on a network, it may offer too little information. The user may want to see which printer is selected before he either clicks the control or summons the dialog to change it first. This is a good candidate for some simple modeless output placed on a toolbar or status bar. (It is currently provided in the control's ToolTip in the Windows version, which is good, but the feedback could be better still.) Word's print setup user interface (which also includes a Print button) is called Print and is available as a menu item on the File tab of Word's ribbon control (more about that in Chapter 18).
@@ -4731,7 +4731,7 @@ Thus, most desktop applications have a reasonable rule of thumb: Put immediate a
 
 In the cockpit of every fighter jet is a brightly colored lever that, when pulled, fires a small rocket engine under the pilot's seat (see Figure 11-9). This blows the pilot, still in his seat, out of the aircraft so that he can then parachute safely to Earth. Ejector seat levers can be used only once, and their consequences are significant and irreversible.
 
-![](images/9f71a04e53673d68abc5bf6237300f4d9512d165bb3e0c4eee959100fcf3cafd.jpg)  
+![](images/9f71a04e53673d68abc5bf6237300f4d9512d165bb3e0c4eee959100fcf3cafd.webp)  
 Figure 11-9: Ejector seat levers have catastrophic results. One minute, the pilot is safely ensconced in his jet, and the next he is tumbling end over end in the wild blue yonder, while his jet goes on without him. The ejector seat is necessary for the pilot's safety, but a lot of design work has gone into ensuring that it never gets fired inadvertently. Allowing an unsuspecting user to configure an application by changing permanent objects is comparable to firing the ejector seat by accident. Hide those ejector seat levers!
 
 Just as a jet fighter needs an ejector seat lever, complex desktop applications need configuration facilities. Applications must have ejector seat levers so that users can occasionally move persistent objects (see Chapter 12) in the interface, or dramatically (sometimes irreversibly) alter the application's function, behavior, or content. The one thing that must never happen is accidental deployment of the ejector seat (see Figure 11-9). The interface design must ensure that the user can never inadvertently fire the ejector seat when all he wants to do is make a minor adjustment to the application.
@@ -4783,7 +4783,7 @@ Furthermore, designers should strive for these qualities when creating interacti
 - Simple, meaningful, and appropriate—In iOS7, Apple changed how you “kill” a running app. Previously, you tapped and held the app icon in the multitasking tray, waited for an X icon to appear on it, tapped it, and then pressed the home button to exit a mode. (This was almost the same action you took to delete the app from the product.) Now, you flick a representation of the app's last screen away from you, causing it to scoot off the top of the screen. This is much simpler and more satisfying, and it is appropriate to the function it triggers. (Sadly, it is equally undiscoverable, as shown in Figure 11-10.)   
 - Natural and smooth—Animated transitions, especially those providing feedback to gestural interfaces, should feel almost like real physical interactions, mimicking (if not modeling) motion attributes such as inertia, elasticity, and gravity.
 
-![](images/1c5654b4f232533074dfe9ed07ab8da6f48595a300b02ddb6219f5eec457404a.jpg)  
+![](images/1c5654b4f232533074dfe9ed07ab8da6f48595a300b02ddb6219f5eec457404a.webp)  
 Figure 11-10: In iOS7, to kill an app, you flick a representation of the app's last screen away from you. This is much simpler and more satisfying than the old method—tapping and holding the app icon to put it into a "delete mode."
 
 Motion is most successful when it has a rhythmic quality, in which the timing helps the user anticipate what will be shown next. Changes in timing can be used to cue users about changes in context, state, or mode. This visual feedback can also be reinforced by the use of sounds. Sounds can help direct user interaction (the "tap" of a button in iOS), express the effect of user interaction (the clicking as the selection changes in the PlayStation 3's main horizontal menu), or reinforce a transition (a whoosh that accompanies a swipe gesture).
@@ -4812,7 +4812,7 @@ $\therefore m - 1 \neq  0$ ; $\therefore$ 当 $m < \frac{3}{2}$ 且 $m \neq  1$ 
 
 <!-- Chunk 7 Start -->
 
-![](images/d00b6e3a281339651b859cfa580068d0da036dca5bc65d8d41f3bcefc14e4e70.jpg)
+![](images/d00b6e3a281339651b859cfa580068d0da036dca5bc65d8d41f3bcefc14e4e70.webp)
 
 # REDUCING WORK AND ELIMINATING EXCISE
 
@@ -4880,7 +4880,7 @@ In some cases, depending on user work flows, tabbed panes can be appropriate. Ta
 
 because they obscure what was on the screen before the user navigated to them. However, this idiom is appropriate for the main work area when multiple documents or independent views of a document are required (such as in Microsoft Excel; see Figure 12-1).
 
-![](images/e0198684bb51154e1ef81bc369820cc5f1236d1c1a5f9f6cdbc4786d5e0c8ae0.jpg)  
+![](images/e0198684bb51154e1ef81bc369820cc5f1236d1c1a5f9f6cdbc4786d5e0c8ae0.webp)  
 Figure 12-1: Microsoft Excel makes use of tabbed panes (visible in the lower left) to let users navigate between related worksheets. Excel also makes use of splitters to provide adjacent panes for viewing multiple, distant parts of a single spreadsheet without constant scrolling. Both these idioms help reduce navigational excise for Excel users.
 
 Some developers use tabs to break complex product capabilities into smaller chunks. They reason that using these capabilities will somehow become easier if the functionality is cut into bite-sized pieces. Actually, putting parts of a single facility onto separate panes increases excise and decreases users' understanding and orientation.
@@ -4891,9 +4891,9 @@ on tabs can help—see Chapter 15). Therefore, users must click through each tab
 
 Tabbed panes can be appropriate when there are multiple supporting panes for a primary work area that are not used at the same time. The support panes can be stacked, and the user can choose the pane suitable for his current tasks, which is only a click away. A classic example involves the color mixer and swatches area in Adobe Illustrator, as shown in Figure 12-2. These two tools are mutually exclusive ways of selecting a drawing color, and users typically know which is appropriate for a given task.
 
-![](images/48a3f0a397b5088daf1e6d47e7e1adc9c69688e4d3084993a54bf5165cb55ec2.jpg)
+![](images/48a3f0a397b5088daf1e6d47e7e1adc9c69688e4d3084993a54bf5165cb55ec2.webp)
 
-![](images/3f1977a7e4f5c75b59e3c691b776184c4ed8f86151970f226466434879e19ceb.jpg)  
+![](images/3f1977a7e4f5c75b59e3c691b776184c4ed8f86151970f226466434879e19ceb.webp)  
 Figure 12-2: Tabbed palettes in Adobe Illustrator allow users to switch between the mixer and swatches, which provide alternative mechanisms for picking a color.
 
 # Navigation between tools and menus
@@ -4902,7 +4902,7 @@ Another important and overlooked form of navigation results from a user's need t
 
 Adobe Photoshop exhibits some undesirable behaviors in how it forces users to navigate between palette controls. For example, the Paint Bucket tool and the Gradient tool each occupy the same location on the tool palette. You must select between them by clicking and holding the visible control, which opens a menu, as shown in Figure 12-3. However, both are fill tools, and if both are used frequently, it would be better to place each of them on the palette next to each other to avoid that frequent, flow-disrupting tool navigation.
 
-![](images/832d8d8d23fbc611644f6406021fc7246c8f708c97b75076df8b6fef9383b394.jpg)  
+![](images/832d8d8d23fbc611644f6406021fc7246c8f708c97b75076df8b6fef9383b394.webp)  
 Figure 12-3: In Adobe Photoshop, the Paint Bucket tool is hidden in a combo icon button (see Chapter 21) on its tool palette. Even though users make frequent use of both the Gradient tool and the Paint Bucket tool, they are forced to access this menu anytime they need to switch between these tools.
 
 # Navigation of information
@@ -4919,7 +4919,7 @@ Zooming and panning are navigational tools for exploring 2D and 3D information. 
 
 representations of real-world 2D and 3D environments (architectural walkthroughs, or topographic maps, for example). They can fall short when they are used to examine arbitrary or abstract data presented in more than two dimensions. Some information visualization tools use zoom to mean "Display more attribute details about objects"—a logical rather than spatial zoom. As the view of the object enlarges, attributes (often textual) appear superimposed over its graphical representation. This technique works great when the attributes in question are tightly associated with spatial data, such as that employed in Google Maps (see Figure 12-4). But for abstract data spaces, this kind of interaction is almost always better served through an adjacent supporting pane that displays the properties of selected objects in a more standard, readable form.
 
-![](images/ad3d53655517b7745a0f67ac4dc65786270014767c7837dd11088e5b315e5bdd.jpg)  
+![](images/ad3d53655517b7745a0f67ac4dc65786270014767c7837dd11088e5b315e5bdd.webp)  
 Figure 12-4: The Google Maps app makes excellent use of a combination of spatial and logical zoom. As the user physically zooms in by spreading his fingers apart on the map, location details such as transit lines, traffic congestion, street names, and places of business also come into view. Zoom usually works best when applied to concrete rather than abstract data spaces, such as maps.
 
 Panning and zooming, especially when paired, create navigational difficulties for users. Although this situation is improving due to the prevalence of online maps and easy to grasp gestural interfaces, it is still possible for people to get lost using virtual spaces. Humans are not used to moving in unconstrained 3D environments, and they have difficulty perceiving 3D properly when it is projected on a 2D screen. (See Chapter 18 for more on 3D manipulation.)
@@ -4942,9 +4942,9 @@ Screen real estate consumed by skeuomorphic representations is also excessive, p
 
 It's all too easy to fall into the trap of skeuomorphic excise in the name of user friendliness. Apple's iOS veered uncomfortably in the direction of skeuomorphism for versions 4, 5, and 6, but it seems to have finally snapped out of it in iOS 7, as shown in Figure 12-5.
 
-![](images/b4764e554d0c561b0660b770553393d11c2ad61ba8bb21c8bcf8bcca9267ec52.jpg)
+![](images/b4764e554d0c561b0660b770553393d11c2ad61ba8bb21c8bcf8bcca9267ec52.webp)
 
-![](images/94282ceaae7a78bf11a44f0bfc9cfcd65153607b275fea0a6557e2df7d4af75a.jpg)  
+![](images/94282ceaae7a78bf11a44f0bfc9cfcd65153607b275fea0a6557e2df7d4af75a.webp)  
 Figure 12-5: In iOS 6 (left), Apple indulged in some excesses of skeuomorphism that seem to have been purged in iOS 7 (right).
 
 # Modal excise
@@ -4965,12 +4965,12 @@ The typical modal error message is unnecessary. It either tells the user somethi
 
 The message stops an already annoying and time-consuming procedure, making it take even longer. A user cannot fetch a cup of coffee after telling the application to save his artwork, because he might return only to see the function incomplete and the application mindlessly holding up the process. We discuss how to eliminate these sorts of error messages in Chapter 21.
 
-![](images/2c8d46e106da9f1d4b7c799f6b97fab1030e5181759365aa45105b5a5390477c.jpg)  
+![](images/2c8d46e106da9f1d4b7c799f6b97fab1030e5181759365aa45105b5a5390477c.webp)  
 Figure 12-6: This ugly, useless error message box stops the proceedings with idiocy. You can't verify or identify what it tells you, and it gives you no options for responding other than to admit your own culpability by clicking OK. This message comes up only when the application is saving—when you have entrusted it to do something simple and straightforward. The application can't even save a file without help, and it won't tell you what help it needs!
 
 Figure 12-7 shows another frustrating example, this time from Microsoft Outlook.
 
-![](images/7bc62a847cd82c308efd4987ddc41425970459752abcb75bd4d2acd33cf3dba0.jpg)  
+![](images/7bc62a847cd82c308efd4987ddc41425970459752abcb75bd4d2acd33cf3dba0.webp)  
 Figure 12-7: Here is a horrible confirmation box that stops the proceedings with idiocy. If the application is smart enough to detect the difference, why can't it correct the problem itself? The options the dialog offers are scary. It is telling you that you can explode one of two boxes: One contains garbage, and the other contains the family dog—but the application won't say which is which. And if you click Cancel, what does that mean? Will it still explode your dog?
 
 This dialog is asking you to make an irreversible and potentially costly decision based on no information whatsoever! If the dialog occurs just after you changed some rules, doesn't it stand to reason that you want to keep them? And if you don't, wouldn't you like a bit more information, such as exactly what rules are in conflict and which of them are the more recently created? You also don't have a clear idea what happens when you click Cancel. Are you canceling the dialog and leaving the rules mismatched? Are you discarding recent changes that led to the mismatch? The kind of fear and uncertainty that this poorly designed interaction arouses in users is completely unnecessary. We discuss how to improve this kind of situation in Chapter 21.
@@ -4997,7 +4997,7 @@ Users must perform visual work to decode onscreen information, such as finding a
 
 A significant source of visual work is the use of overly stylized graphics and interface elements (see Figure 12-8). Visual style can certainly create mood and reinforce brand, but it shouldn't do so at the expense of utility and usability by forcing users to decode visual elements to understand which represent controls and critical information and which are merely ornamental. The use of visual style, at least in apps geared toward productivity rather than entertainment, should support the clear communication of information and interface behavior.
 
-![](images/b42fdf893708b353b0a2220864e207f3146da1a3faf31a357bec35d671feb2ba.jpg)  
+![](images/b42fdf893708b353b0a2220864e207f3146da1a3faf31a357bec35d671feb2ba.webp)  
 Figure 12-8: The home page of Blue Bell Creameries provides a good example of visual excise. Text is highly stylized and doesn't follow a layout grid. It's difficult for users to differentiate between décor and navigational elements. This requires users to do visual work to interact with the site. This isn't always a bad thing—just the right amount of the right kind of work can be a source of entertainment (as with games and puzzles).
 
 For more discussion on striking the right balance to create effective visual interface designs, see Chapter 17.
@@ -5042,7 +5042,7 @@ Persistent objects, in a desktop world, always include the application's windows
 
 On the web, similar rules apply. Well-designed websites make careful use of persistent objects that remain constant throughout the shopping experience, especially the top-level navigation bar along the top of the page. Not only do these areas provide clear navigational options, but their consistent presence and layout also help orient customers (see Figure 12-9).
 
-![](images/70a1658942ee5395474bf5761f797ea61f55e86d53ab0d5d99c9b76f79c99a60.jpg)  
+![](images/70a1658942ee5395474bf5761f797ea61f55e86d53ab0d5d99c9b76f79c99a60.webp)  
 Figure 12-9: The Design Within Reach website makes use of many persistent areas on the majority of its pages, such as the links and search field along the top and the browse tools on the side. These not only help users figure out where they can go but also help keep them oriented.
 
 In devices, similar rules apply to screens, but hardware controls themselves can take on the role of signposts—even more so when they offer visual or tactile feedback about their state. Radio buttons that, for example, light when selected, even a needle's position on a dial, can provide navigational information if integrated appropriately with the software.
@@ -5069,19 +5069,19 @@ Overviews serve a purpose similar to signposts in an interface: They help orient
 
 Overviews can be graphical or textual, depending on the nature of the content. An excellent example of a graphical overview is the aptly named Navigator palette in Adobe Photoshop, shown in Figure 12-10.
 
-![](images/50cb3e0873160d38977071c53ab6ba611946d1ec3f6eae208344d006e8e0f76c.jpg)
+![](images/50cb3e0873160d38977071c53ab6ba611946d1ec3f6eae208344d006e8e0f76c.webp)
 
-![](images/ee550f3f9a30495b5e5ef2b3c7fca4efb1f27710f571f449c73b15f10646b97f.jpg)  
+![](images/ee550f3f9a30495b5e5ef2b3c7fca4efb1f27710f571f449c73b15f10646b97f.webp)  
 Figure 12-10: On the left, Adobe makes use of an excellent overview idiom in Photoshop: the Navigator palette, which provides a thumbnail view of a large image with an outlined box that represents the portion of the image currently visible in the main display. Not only does the palette provide navigational context, but it can be used to pan and zoom the main display as well. A similar idiom is employed on the right in the Google Finance charting tool, in which the small graph on the bottom provides a big-picture view and context for the zoomed-in view on top.
 
 In the web world, the most common form of overview area is textual: the ubiquitous breadcrumb display (see Figure 12-11). Again, most breadcrumbs provide a navigational aid as well as a navigational control: Not only do they show where in the data structure a visitor is, but they also give him or her tools to move to different nodes in the structure in the form of links. This idiom has lost some popularity as websites have moved from being strictly hierarchical organizations to more associative organizations, which don't lend themselves as neatly to breadcrumbs.
 
-![](images/2abaec68302681b050b59f7d9d2f7dc02e76e5adc29fd713faf215ac64b276dc.jpg)  
+![](images/2abaec68302681b050b59f7d9d2f7dc02e76e5adc29fd713faf215ac64b276dc.webp)  
 Figure 12-11: A typical breadcrumb display from Amazon.com. Users see where they've been and can click anywhere in the breadcrumb trail to navigate to that link.
 
 A final interesting example of an overview tool is the annotated scrollbar, which is most useful for scrolling through text. They make clever use of the linear nature of both scrollbars and textual information to provide location information about the locations of selections, highlights, and potentially many other attributes of formatted or unformatted text. Hints about the locations of these items appear in the "track" that the thumb of the scrollbar moves in, at the appropriate location. When the thumb is over the annotation, the annotated feature of the text is visible in the display. Microsoft Word uses a variation of the annotated scrollbar; it shows the page number and nearest header in a ToolTip that remains active during the scroll, as shown in Figure 12-12.
 
-![](images/746a2a97cce4d2d27244746af86e5c4cc699b94f538a5c07aaee476184d4d35f.jpg)  
+![](images/746a2a97cce4d2d27244746af86e5c4cc699b94f538a5c07aaee476184d4d35f.webp)  
 Figure 12-12: An annotated scrollbar from Microsoft Word provides useful context for the user as he or she navigates through a document.
 
 # Properly map controls to functions
@@ -5090,7 +5090,7 @@ Mapping describes the relationship between a control, the thing it affects, and 
 
 Donald Norman provides an excellent example of mapping problems from the non-digital world in The Design of Everyday Things (Basic Books, 2002). Almost anyone who cooks has run into the annoyance of a stovetop whose burner knobs do not map appropriately to the burners they control. The typical stovetop, such as the one shown in Figure 12-13, features four burners arranged in a flat square with a burner in each corner. However, the knobs that operate those burners are laid out in a straight line on the front of the unit.
 
-![](images/2e990fc9e1903cf52418fd478545a9b236fcbbb0bd5dbb36ca73b56bb706a060.jpg)  
+![](images/2e990fc9e1903cf52418fd478545a9b236fcbbb0bd5dbb36ca73b56bb706a060.webp)  
 Figure 12-13: A stovetop with poor physical mapping of controls. Does the knob on the far left control the left-front or left-rear burner? Users must figure out the mapping anew each time they use the stovetop.
 
 In this case, we have a physical mapping problem. The result of using the control is reasonably clear: A burner will heat up when you turn a knob. However, the target of the control—which burner will get warm—is unclear. Does twisting the leftmost knob turn on the left-front burner, or does it turn on the left-rear burner? Users must find out by trial and error or by referring to the tiny icons next to the knobs. The unnaturalness of the mapping compels users to figure out this relationship anew every time they use the stove. This cognitive work may become habituated over time, but it still exists, making users prone to error if they are rushed or distracted (as people often are while preparing meals). In the best-case scenario, users feel stupid because they've twisted the wrong knob, and their food doesn't get hot until they notice the error. In the worst-case scenario, they might accidentally burn themselves or set fire to the kitchen.
@@ -5101,26 +5101,26 @@ In this layout, it's clear that the upper-left knob controls the upper-left burn
 
 Figure 12-15 shows another example of poor mapping—of a different type. In this case, it is the logical mapping of concepts to actions that is unclear.
 
-![](images/c1d36e959b5b3a0c5059bb43a2ba402a8bbf7e955642ebf7f093c42626464042.jpg)
+![](images/c1d36e959b5b3a0c5059bb43a2ba402a8bbf7e955642ebf7f093c42626464042.webp)
 
-![](images/04e27feb85cde14f06a37f2219f3bde76c9fa20af3eceb729109520c58b789b9.jpg)
+![](images/04e27feb85cde14f06a37f2219f3bde76c9fa20af3eceb729109520c58b789b9.webp)
 
-![](images/f72ef2cb27e6786d8cdab7ed8dfd2773035b7bcc773fe833d4822ddbab417e6c.jpg)
+![](images/f72ef2cb27e6786d8cdab7ed8dfd2773035b7bcc773fe833d4822ddbab417e6c.webp)
 
-![](images/2e19c509de4a8d2d610781be60508f7838cc70fa83e3b4d0c7cfc2a77e3f7b9f.jpg)
+![](images/2e19c509de4a8d2d610781be60508f7838cc70fa83e3b4d0c7cfc2a77e3f7b9f.webp)
 
-![](images/1fced25fbf730c5e3abe2b80006fabb20e08b1c4e2c2cf429d2edf8216c8a50d.jpg)
+![](images/1fced25fbf730c5e3abe2b80006fabb20e08b1c4e2c2cf429d2edf8216c8a50d.webp)
 
-![](images/64dec705702019a3588b8d014a1a87739622866993114798621af3258e73a92b.jpg)
+![](images/64dec705702019a3588b8d014a1a87739622866993114798621af3258e73a92b.webp)
 
-![](images/ecc8a7aacfdbe9c9a88a64f797ee9daf81341a0fe998ddaa57a09f862ca95d65.jpg)
+![](images/ecc8a7aacfdbe9c9a88a64f797ee9daf81341a0fe998ddaa57a09f862ca95d65.webp)
 
-![](images/f1471701ccdccab7f13cf98907fce1c645669efd1c167b17d7ee409c55ea8dde.jpg)
+![](images/f1471701ccdccab7f13cf98907fce1c645669efd1c167b17d7ee409c55ea8dde.webp)
 
-![](images/3eb6b5463f118c15a34eec570beba0775825474d75e085940216b4aa3e2bd42a.jpg)  
+![](images/3eb6b5463f118c15a34eec570beba0775825474d75e085940216b4aa3e2bd42a.webp)  
 Figure 12-14: Clear spatial mapping. On this stovetop, it is clear which knob maps to which burner, because the spatial arrangement of knobs clearly associates each knob with a burner.
 
-![](images/0415a5bcfd358f2d4a964a95abd15dfe096005161a3fb5fd2604c5a43bc7acd7.jpg)  
+![](images/0415a5bcfd358f2d4a964a95abd15dfe096005161a3fb5fd2604c5a43bc7acd7.webp)  
 Figure 12-15: An example of a logical mapping problem. If the user wants to see the most recent items first, does she choose Ascending or Descending? These terms don't map well to how users conceive of time.
 
 This website uses a pair of drop-down menus to sort a list of search results by date. The selection in the first drop-down determines the choices present in the second. When Re-sort results by: Date Placed is selected in the first menu, the second drop-down presents the options Ascending and Descending.
@@ -5129,7 +5129,7 @@ Unlike the poorly mapped stovetop knobs, the target of this control is clear—t
 
 The terms chosen to communicate the date-sorting options make it unclear what users should choose if they want to see the most recent items first in the list. Ascending and Descending do not map well to most users' mental model of time. People don't think of dates as ascending or descending; rather, they think of dates and events as being recent or ancient. A quick fix to this problem is to change the wording of the options to Most recent first and Oldest first, as shown in Figure 12-16.
 
-![](images/4bfd620f62a5b4734a27228a742dfef7ef4adf88df78e03e4c706bc5f3a2ceee.jpg)  
+![](images/4bfd620f62a5b4734a27228a742dfef7ef4adf88df78e03e4c706bc5f3a2ceee.webp)  
 Figure 12-16: Clear, logical mapping. "Most recent" and "Oldest" are terms that users can easily map to time-based sorting.
 
 Whether you make appliances, mobile apps, desktop applications, or websites, your product may have mapping problems. Mapping is an area where attention to detail pays off. You can measurably improve a product by seeking out and fixing mapping problems, even if you have very little time to make changes. The result is a product that is easier to understand and more pleasurable to use.
@@ -5160,14 +5160,14 @@ Digital products with representations of calendars are quite common, and they al
 
 Paper calendars show a single month because they are limited by the size of the paper, and a month is a convenient breaking point. High-resolution digital displays are not so constrained, but most designers copy the mechanical artifact faithfully, as shown in Figure 12-17.
 
-![](images/708429c5ebaab91170a0de4b5c5069a68efd4fa041ae04db3877f59ab96663b9.jpg)  
+![](images/708429c5ebaab91170a0de4b5c5069a68efd4fa041ae04db3877f59ab96663b9.webp)  
 Figure 12-17: The ubiquitous calendar is so familiar that we rarely stop to apply Information-Age sensibilities to its design on the screen. Calendars were originally designed to fit on stacked sheets of paper, not interactive digital displays. How would you redesign a digital calendar? Which of its aspects are artifacts of its old, Mechanical-Age platform?
 
 On an interactive screen, the calendar could easily be a continuously scrolling sequence of days, weeks, or months, as shown in Figure 12-18. Scheduling something from August 28 to September 4 would be simple if weeks were contiguous instead of broken up by the arbitrary monthly division.
 
 Similarly, the grid pattern in digital calendars is almost universally a fixed size. Why can't the width of columns of days or the height of rows of weeks be adjustable like a spreadsheet? Certainly you'd want to adjust the sizes of your weekends to reflect their relative importance in relation to your weekdays. If you're a businessperson, your working-week calendar would demand more space than a vacation week. The adjustable grid interface idiom is well known—every spreadsheet in the world uses it—but the mechanical representations of calendars are so firmly entrenched that we rarely see apps that deviate from them.
 
-![](images/683254b932e537d968fe4fc217fc59a87e3e76eed8a0b098581f6db052ddcd0e.jpg)  
+![](images/683254b932e537d968fe4fc217fc59a87e3e76eed8a0b098581f6db052ddcd0e.webp)  
 Figure 12-18: Scrolling is a familiar task to computer users. Why not replace the page-oriented calendar with a scrolling one to make it better? This perpetual calendar can do everything the old one can, and it also solves the mechanical-representation problem of scheduling across monthly boundaries. Don't drag old limitations onto new platforms out of habit. What other improvements can you think of?
 
 The designer of the software shown in Figure 12-17 probably thought of calendars as canonical objects that couldn't be altered from the familiar. Surprisingly, most time-management software handles time internally—in its implementation model—as a continuum, and renders it as discrete months only in its user interface—its represented model!
@@ -5254,7 +5254,7 @@ access third-party services, which, as shown in Figure 13-1, were represented by
 
 Relying heavily on a metaphor such as this means that you can intuit the software's basic functions. But the downside is that, after you understand its function, the metaphor adds significantly to the overhead of navigation. You must go back out onto the street to configure another service. You must go down the hallway and into the game room to play Solitaire. This may be normal in the physical world, but there is no reason for it in the world of software. Why not abandon this slavish devotion to metaphor and give the user easy access to functions? It turns out that a General Magic developer later created a bookmarking shortcut facility as a kludgy add-on, but alas, it was too little, too late.
 
-![](images/d1ce89e2f0dea914d8784e863dcb6e493edac1b87081b53c2e8112833b1e985b.jpg)  
+![](images/d1ce89e2f0dea914d8784e863dcb6e493edac1b87081b53c2e8112833b1e985b.webp)  
 Figure 13-1: The Magic Cap interface from General Magic was used in products from Sony and Motorola in the mid-1990s. It is a tour de force of metaphoric design. All the navigation in the interface, and most other interactions as well, were subordinated to the maintenance of spatial and physical metaphors. It was probably fun to design but was not particularly convenient to use after you became an intermediate. This was a shame, because some of the lower-level, nonmetaphoric data-entry interactions were quite sophisticated, well designed, and ahead of their time.
 
 General Magic's interface relied on what is called a global metaphor. This is a single, overarching metaphor that provides a framework for all the other metaphors in the system. It might work for a video game, but much less so for anything where efficiency is a concern.
@@ -5289,14 +5289,14 @@ Finally, although a metaphor is easier for first-time users to understand, it ex
 
 Although metaphorical and skeuomorphic user interfaces should, generally speaking, be avoided, there are always exceptions to the rule. Video games often employ diegetic interfaces to keep players in the game world. Simulation software, such as flight simulators, intentionally use controls resembling their real-world counterparts. Another genre of software that makes heavy use of metaphoric interfaces is music creation software. While simulating piano keys, drum pads, synthesizer knobs and sliders, or even the frets and strings of a guitar may seem a bit silly in a mouse-driven desktop interface, it feels quite different on a multitouch iPad screen. There the expressiveness of a virtual instrument can begin to match the expressiveness of a real-world one, as shown in Figure 13-2.
 
-![](images/fcb828af245843bfebf5cda1c7026f3f18a3269bbaedf59f3b0380bf3c2d8ba1.jpg)  
+![](images/fcb828af245843bfebf5cda1c7026f3f18a3269bbaedf59f3b0380bf3c2d8ba1.webp)  
 Figure 13-2: Sunrizer is an iPad synthesizer that closely resembles its hardware brethren. On a touchscreen, simulated knobs and sliders make sense if your users are accustomed to hardware user interfaces, since the interaction with them is so similar to the real-world interactions. However, the creators of Sunrizer have not become slaves to the global metaphor, but have rather improved on the real world as only a digital interface can. Swiping left or right on the keyboard slides higher or lower octave keys into view, effectively removing the limitations of screen width.
 
 On the other hand, digital musical instruments don't require the use of metaphor to be successful or expressive. TC-11 is an iPad synthesizer that uses an abstract, idiomatic interface that is both unique and extremely expressive, as shown in Figure 13-3.
 
 As people increasingly make use of multi-touch displays in place of hardware-controlled gadgets, tools, and instruments, it's reasonable to expect that real-world metaphors will eventually fade and be supplanted by idiomatic interfaces more optimized to expressive gestures. We'll discuss what it means to create idiomatic interfaces in the next section.
 
-![](images/8a8204267dbb409ef073cededf7b66274b4c28fe960f35357a6f320ff7ec6e8e.jpg)  
+![](images/8a8204267dbb409ef073cededf7b66274b4c28fe960f35357a6f320ff7ec6e8e.webp)  
 Figure 13-3: TC-11 takes a completely different approach to creating an expressive digital instrument. It sports a unique, abstract, and completely idiomatic user interface in which the user must learn by exploring the tonal and visual effects created by touching and gesturing. It even includes a sophisticated patch editor for building new sounds and interactions.
 
 # Idiomatic interfaces
@@ -5337,7 +5337,7 @@ The key observation about idioms is that although they must be learned, they are
 
 Marketing and advertising professionals understand well the idea of taking a simple action or symbol and imbuing it with meaning. After all, synthesizing idioms is the essence of product branding, in which a company takes a product or company name and imbues it with a desired meaning. The example of an idiomatic symbol shown in Figure 13-4 illustrates its power.
 
-![](images/09e3a69b4e9dc36e0c60cf692200bae24ce95a48808640e594fc1e89e4ff2f6e.jpg)  
+![](images/09e3a69b4e9dc36e0c60cf692200bae24ce95a48808640e594fc1e89e4ff2f6e.webp)  
 Figure 13-4: This idiomatic symbol has been imbued with meaning from its use, rather than by any connection to other objects. For anyone who grew up in the 1950s and 1960s, this otherwise meaningless symbol has the power to evoke fear because it represents nuclear radiation. Visual idioms, such as the American flag, can be just as powerful as metaphors, if not more so. The power comes from how we use them and what we associate with them, rather than from any innate connection to real-world objects.
 
 # Building Idioms
@@ -5352,7 +5352,7 @@ The more atomic elements an interaction vocabulary has, the more time-consuming 
 
 A properly formed interaction vocabulary can be represented by an inverted pyramid. All easy-to-learn communications systems obey the pattern shown in Figure 13-5. The bottom layer contains primitives, the atomic elements of which everything in the language is composed. In modern desktop graphical UIs, these primitives consist of positioning the mouse, clicking, and tapping a key on the keyboard. In touch-gesture systems they consist of tapping and dragging.
 
-![](images/f006da78d016da534456e7963276a18b32b0a6b33a74f35a72cd23209444f879.jpg)  
+![](images/f006da78d016da534456e7963276a18b32b0a6b33a74f35a72cd23209444f879.webp)  
 Figure 13-5: One of the primary reasons that graphical UIs are easy to use is that they enforce a restricted interaction vocabulary that builds complex idioms from a very small set of primitives: pointing, clicking, and dragging. These primitives can build a larger set of simple compounds. These in turn can be assembled into a wide variety of complex, domain-specific idioms, all of which are based on the same small set of easily learned actions.
 
 The middle layer contains compounds. These are more complex constructs created by combining one or more of the primitives. They include simple visual objects such as text display; actions such as double-clicking, dragging, swiping, and pinching; and manipulable objects like buttons, check boxes in a form, links, and resize handles.
@@ -5405,7 +5405,7 @@ In 1974, Ben Shneiderman coined the term "direct manipulation" to describe an in
 
 It's worth noting that two of his three points concern the visual feedback the application offers to users. It might be more accurate to call it "visual manipulation" because of the importance of what users see during the process. Virtual manual affordances and rich visual feedback are both key elements in the design of direct manipulation interfaces.
 
-![](images/dce881fd05cb050fdfe3a5585835da67023031841d1faac9e9c5b24ef1d5cb73.jpg)
+![](images/dce881fd05cb050fdfe3a5585835da67023031841d1faac9e9c5b24ef1d5cb73.webp)
 
 Rich visual feedback is the key to successful direct manipulation.
 
@@ -5421,7 +5421,7 @@ Similarly, most art and design tools (such as Adobe's Creative Suite) provide a 
 
 Figure 13-6 shows how multiple control points can be placed or selected by tapping. These points can be moved by dragging; and pinching on the currently selected point adjusts the diameter of the applied filter, with feedback to the user in the form of a circle and red tint to show the extent of the filter's application. Swiping horizontally controls the intensity of the filter, tracked both by the green meter surrounding the point, and the numeric scale at the bottom of the screen. Vertical swiping selects between brightness, contrast, and saturation. While this is a lot of functionality to build into gestures, it becomes second nature after a few uses due to the rich visual modeless feedback and fluidity with which images can be adjusted.
 
-![](images/7e3ecf868b1133c0ec5052a6b6b601e0ec3418fb7cf26e286b7936077d06c800.jpg)  
+![](images/7e3ecf868b1133c0ec5052a6b6b601e0ec3418fb7cf26e286b7936077d06c800.webp)  
 Figure 13-6: Google's Snapseed photo editor for the iPad uses gestural controls to position and manipulate visual effects parameters via tapping, pinching, twirling, and swiping. Numeric feedback is provided in addition to real-time previewing, but no textual numeric entry is required or, in fact, even allowed—not that it is missed.
 
 The principle of direct manipulation applies in a variety of situations. When items in a list need to be reordered, the user may want them ordered alphabetically, but he also may want them in order of personal preference—something no algorithm can offer. A user should be able to drag the items into the desired order directly, without an algorithm's interfering with this fundamental operation.
@@ -5430,10 +5430,10 @@ Drag and drop can also save the user from tiresome and repetitive use of dialogs
 
 You seldom see direct manipulation interfaces for entering complex numeric data. Usually you're given numeric entry fields or sliders. A great example of direct manipulation of graphically presented numeric data is the Addictive Synth app for the iPad, shown in Figure 13-8. It allows you to sketch waveforms and effect parameters for a music synthesizer with your finger and then play the results immediately on the onscreen piano keyboard.
 
-![](images/baa84e12acb7314cee3573d4a433e04e64a9cd72511e6d123315b2c32409ec84.jpg)  
+![](images/baa84e12acb7314cee3573d4a433e04e64a9cd72511e6d123315b2c32409ec84.webp)  
 Figure 13-7: The Sonos Desktop Controller lets you drag songs and albums from search-and-browse results to anywhere in the playback queue, to the Now Playing area for immediate playback, or to any room in the house. You do so with a single drag-and-drop gesture. Tablet versions of the app also allow similar direct manipulation of music.
 
-![](images/d8fe71b9381a2c9a58cda2696113009386856da6bad1d4c8313dd041f5f01e96.jpg)  
+![](images/d8fe71b9381a2c9a58cda2696113009386856da6bad1d4c8313dd041f5f01e96.webp)  
 Figure 13-8: Addictive Synth is an iPad music synthesizer that allows users to draw their own waveforms and audio effects curves with their finger and then hear the results in real time. There's a reason for the app's name: The experience is immersive and satisfying.
 
 Direct manipulation is simple, straightforward, easy to use, and easy to remember. However, as we have discussed, direct-manipulation idioms—like most other idioms—must first be learned. Luckily, because the visible and direct nature of these interactions bears a close resemblance to interactions with objects in the physical world, learning the idioms usually is easy. After you learn them, you seldom forget them.
@@ -5474,9 +5474,9 @@ Ironically, the current trend in mobile UIs is toward flattening and visually si
 
 Dynamic hinting is most often used in desktop user interfaces. It works like this: When the cursor passes over a pliant object, the object temporarily changes its appearance, as shown in Figure 13-9. This action occurs before any mouse buttons are clicked and is triggered by cursor flyover only. It is commonly called a "rollover." A good example of this is the behavior of icon buttons (see Chapter 21) on toolbars: Although it has no persistent button-like affordance, passing the cursor over any single icon button causes the affordance to appear. The result is a powerful hint that the control has the behavior of a button, and eliminating the persistent affordance dramatically reduces visual clutter on the toolbar.
 
-![](images/a82e41a012b8dca8b83a87d53dd018a637fae8e8fe2afd83b36fcd6699d70e36.jpg)
+![](images/a82e41a012b8dca8b83a87d53dd018a637fae8e8fe2afd83b36fcd6699d70e36.webp)
 
-![](images/a39f86ed84799a2b889873017d319f6ac1798503a92386be9854621773a1cbc1.jpg)  
+![](images/a39f86ed84799a2b889873017d319f6ac1798503a92386be9854621773a1cbc1.webp)  
 Figure 13-9: The buttons on the left are an example of static visual hinting: Their "clickability" is suggested by the dimensional rendering. The toolbar icon buttons on the right demonstrate dynamic visual hinting: While the Bold toggle doesn't appear to be a button at first glance, passing the mouse cursor over it causes it to change, thereby creating affordance.
 
 <!-- Chunk 7 End -->
@@ -5501,7 +5501,7 @@ Cursor hinting should first and foremost make it clear to users that an otherwis
 
 Generally speaking, controls should offer static or dynamic visual hinting, whereas pliant (manipulable) data more frequently should offer cursor hinting. For example, it is difficult to make dense tabular data visually hint at pliancy without disturbing its clear representation, so cursor hinting is the most effective method. Some controls are small and difficult for users to spot as readily as a button, and cursor hinting is vital for the success of such controls. The column dividers and screen splitters in Microsoft Excel are good examples, as shown in Figure 13-10.
 
-![](images/c75971bb8f32c896f3a7ae217dbf756b635ec32e462526a7f5106986b643fa14.jpg)  
+![](images/c75971bb8f32c896f3a7ae217dbf756b635ec32e462526a7f5106986b643fa14.webp)  
 Figure 13-10: Excel uses cursor hinting to highlight several controls that are not obviously pliant by themselves. You can set column width and row height by dragging the short vertical lines between each pair of columns or rows. The cursor changes to a two-headed horizontal arrow that both hints at the pliancy and indicates the permissible drag direction. The same is true for the screen-splitter controls. When the mouse is over an unselected editable cell, it shows the plus cursor, and when it is over a selected cell, it shows the drag cursor.
 
 Again, touchscreen users and designers are out of luck with using this kind of pliancy hinting. As we'll discuss in more detail in Chapter 19, other strategies must be employed in the design of touchscreen apps to ensure that users know what objects they can manipulate, when they can do so, and what actions and gestures are supported.
@@ -5512,7 +5512,7 @@ As you build your app, you may be tempted to look backwards to comfortable visua
 
 Instead, create memorable and appropriate idioms that make your users more effective and efficient, that are imbued with rich pliant feedback, and that allow users to focus on the content and functionality of your app rather than the confines of outmoded Mechanical Age metaphors and interactions. You'll be doing them a favor as they become the intermediate users they—and you—ultimately hope they will be.
 
-![](images/2f72e91531b6cb864c890c8d3df0af8e8a9252ae2015926d38166fe3ccaff713.jpg)
+![](images/2f72e91531b6cb864c890c8d3df0af8e8a9252ae2015926d38166fe3ccaff713.webp)
 
 # RETHINKING DATA ENTRY, STORAGE, AND RETRIEVAL
 
@@ -5604,13 +5604,13 @@ When the user does something that the application thinks is wrong, the best way 
 
 be wrong and end up subverting the user's intent. Furthermore, this approach fails to give the user the benefit of learning from the situation, ultimately compromising his ability to avoid the situation in the future. Our applications should, however, remember each of the user's actions and ensure that each action can be cleanly reversed, that no collateral information is lost, and that the user can figure out where the application thinks the problems might be. Essentially, we maintain a clear audit trail of his actions. Thus the principle "Audit, don't edit."
 
-![](images/e3cac629023153a22e080ec4748a7e9724eac89ed9d3c22a5bef574889ae8356.jpg)
+![](images/e3cac629023153a22e080ec4748a7e9724eac89ed9d3c22a5bef574889ae8356.webp)
 
 Audit, don't edit.
 
 Microsoft Word has an excellent example of auditing, as well as a nasty counterexample. This excellent example is how it handles real-time spell checking. As you type, red wavy underlines identify words that the application doesn't recognize, as shown in Figure 14-1. Right-clicking these words pops up a menu of alternatives you can choose from. But you don't have to change anything, and you are not interrupted by dialogs or other forms of modal idiocy.
 
-![](images/29e0bbdccb55d5cdd64eb9768ddc24e15ff8b93ae5bdc249e1ce7d85d324ad29.jpg)  
+![](images/29e0bbdccb55d5cdd64eb9768ddc24e15ff8b93ae5bdc249e1ce7d85d324ad29.webp)  
 Figure 14-1: Microsoft Word's automatic spell checker audits misspelled words with a wavy red underline, giving users modeless feedback. Right-clicking an underlined word pops up a menu of possible alternatives to choose from. This design idiom has been widely copied by both desktop and mobile apps.
 
 Word's AutoCorrect feature, on the other hand, can be a bit disturbing at first. As you type, it silently changes words it thinks are misspelled. It turns out that this feature is incredibly useful for fixing minor typos as you go. However, the corrections leave no obvious audit trail, so the user often doesn't realize that what he typed has been changed. It would be better if Word could provide some kind of mark that indicates it has made a correction on the off chance that it has miscorrected something. (This possibility becomes much more likely if, for instance, you are writing a technical paper heavy in specialized terminology and acronyms.)
@@ -5635,7 +5635,7 @@ The roots of the interaction problems with data storage lie, as you'd expect, in
 
 When a Save Changes dialog like the one shown in Figure 14-2 opens, users suppress a twinge of fear and confusion and click the Save button out of habit. A dialog that is always answered the same way is redundant and should be eliminated.
 
-![](images/c82be8860b1b71f41a5b0b8a947dc0593a79683250a9661330c39e52cb4d5476.jpg)  
+![](images/c82be8860b1b71f41a5b0b8a947dc0593a79683250a9661330c39e52cb4d5476.webp)  
 Figure 14-2: This is the question Word asks when you close a file after you have edited it. This dialog is a result of the developer's inflicting the implementation model of the disk file system on the hapless user. This dialog is so unexpected by new users that they often choose Don't Save inadvertently.
 
 The application launches the Save Changes dialog when the user requests Close or Quit because that is when it has to reconcile the differences between the copy of the
@@ -5656,7 +5656,7 @@ Experienced users also learn to use the Save Changes dialog for similar purposes
 
 When you save a document for the first time or choose the Save As command from the File menu, many applications display the Save As dialog, shown in Figure 14-3.
 
-![](images/49f697a1e85e1a22cc3d89ffc3c93768e78fcbfa081a15361a86e9ca810f62ef.jpg)  
+![](images/49f697a1e85e1a22cc3d89ffc3c93768e78fcbfa081a15361a86e9ca810f62ef.webp)  
 Figure 14-3: The Save As dialog provides two functions: It lets you name your file, and it lets you place it in a directory you choose. Users, however, don't have a clear concept of saving, so the title of the dialog does not match their mental models of the function. Furthermore, if a dialog allows you to name and place a document, you might expect it would allow you to rename and replace it as well. Unfortunately, our expectations are confounded by poor design.
 
 Functionally, this dialog offers two things: It lets users name a file, and it lets them choose which directory to place it in. Both of these functions demand that users have intimate knowledge of the file system and a fair amount of foresight into how they'll need to retrieve the file later. Users must know how to formulate an acceptable and memorable filename and understand the hierarchical file directory. Many users who master the name portion give up on trying to understand the directory tree. They put their documents on their Desktop or in the directory that the application chooses as the default. Occasionally, some action causes the application to forget its default directory, and these users must call in an expert to find their files.
@@ -5665,7 +5665,7 @@ The Save As dialog needs to decide what its purpose truly is. If it is to name a
 
 Forcing the user to go to Explorer to rename the document is a minor hardship, but therein lies a hidden trap. The bait is that Windows easily supports several applications running simultaneously. Attracted by this feature, the user tries to rename the file in the Explorer without first closing the document in the application. This very reasonable action triggers the trap, and the steel jaws clamp down hard on his leg. He is rebuffed with the rude error message box shown in Figure 14-4. Trying to rename an open file is a sharing violation, and the operating system rejects it with a patronizing error message.
 
-![](images/cbf6df2b41efde51ff5c4e7b86fe89e58d813fc5866569934d8a9cf52ac4994b.jpg)  
+![](images/cbf6df2b41efde51ff5c4e7b86fe89e58d813fc5866569934d8a9cf52ac4994b.webp)  
 Figure 14-4: If the user attempts to rename a file using Explorer while Word is still editing it, Explorer is too stupid to get around the problem. It is also too rude to be nice about it and puts up this patronizing error message. Rebuffed by both the editing application and the OS, a new user might conclude that a document cannot be renamed.
 
 The innocent user is merely trying to rename his document, and he finds himself lost in operating system arcana. Ironically, the one entity that has both the authority and the responsibility to change the document's name while it is still open—the application itself—refuses to even try.
@@ -5728,7 +5728,7 @@ In most applications, when you save a document for the first time, you can choos
 
 The document's name should be shown on the application's title bar. If the user decides to rename the document, he should be able to click the title to edit it in place. What could be simpler and more direct than that? Omnigraffle on OS X is one of the few applications supporting Rename as described here (see Figure 14-5).
 
-![](images/73f0db3eb2871b3b53970cbe4889a70b623f70eacfd4a86f26d3735f51089abd.jpg)  
+![](images/73f0db3eb2871b3b53970cbe4889a70b623f70eacfd4a86f26d3735f51089abd.webp)  
 Figure 14-5: Omnigraffle on OS X supports Rename. Clicking on the name of the file in the title bar of the document window opens a pop-up that lets you both rename and move the file.
 
 # Placing and positioning in the file system
@@ -5777,7 +5777,7 @@ New and Open work as before.
 - Close closes the document without a dialog or any other fuss after automatically saving changes.   
 - Rename/Move brings up a dialog that lets the user rename the current file or move it to another directory.
 
-![](images/000968c16306063a796977f97f049654839a353347669670c1f4553bf1633050.jpg)  
+![](images/000968c16306063a796977f97f049654839a353347669670c1f4553bf1633050.webp)  
 Figure 14-6: The revised File menu now better reflects the user's mental model, rather than the developer's implementation model. There is only one file, and the user owns it. If she wants, she can make tracked or one-off copies of it, rename it, discard any changes she's made, or change the file type. She no longer needs to understand or worry about the copy in RAM versus the copy on disk.
 
 - Create a Copy creates a new file that is a copy of the current document.   
@@ -5909,14 +5909,14 @@ If the document is frequently edited
 
 Spotlight, the search function in Apple's OS X, provides effective attribute-based retrieval, as shown in Figure 14-7. Not only can the user look for documents according to meaningful properties, but he can save these searches as "Smart Folders." Doing so enables him to see documents related to a given client in one place and all proposals in a different place. (However, he would have to put some effort into identifying each proposal as such, because Spotlight can't recognize this.) It should be noted that one of the most important factors contributing to Spotlight's usefulness is the speed with which results are returned. This is a significant differentiating factor between it and the Windows search functionality. It was achieved through purposeful technical design that indexes content during idle time.
 
-![](images/0647899e4af90e44172e8b58437b10f3719f2733e13cc175f27699e76ff661a3.jpg)  
+![](images/0647899e4af90e44172e8b58437b10f3719f2733e13cc175f27699e76ff661a3.webp)  
 Figure 14-7: Spotlight, the search capability in Apple's OS X, allows users to find a document based on meaningful attributes such as the name, type of document, and when it was last opened.
 
 An attribute-based retrieval system can find documents for users without users ever having to explicitly organize documents in advance. But there is also considerable value in allowing users to tag or manually specify attributes about documents. This allows
 
 users to fill in the gaps where technology can't identify all the meaningful attributes. It also allows people to define de facto organizational schemes based on how they discuss and use information. The retrieval mechanism achieved by such tagging is often called a "folksonomy," a term credited to information architect Thomas Vander Wal. Folksonomies can be especially useful in social and collaborative situations. There they can provide an alternative to a globally defined taxonomy if it is undesirable or impractical to force everyone to adhere to and think in terms of a controlled vocabulary. Good examples of the use of tagging to facilitate information retrieval include Flickr, del.icio.us, and the highly popular social sharing app, Twitter (see Figure 14-8).
 
-![](images/6937242a83456629b145d8e6981cbc1c6332ae50b9c1a2166ac570f8f039cd5b.jpg)  
+![](images/6937242a83456629b145d8e6981cbc1c6332ae50b9c1a2166ac570f8f039cd5b.webp)  
 Figure 14-8: Twitter, whose hashtags have become part of mainstream culture, is the classic example of a folksonomy that has achieved widespread adoption.
 
 # Relational databases versus digital soup
@@ -5959,7 +5959,7 @@ One alternative is to use natural-language processing, in which the user can key
 
 A better approach, which we've used successfully on numerous projects, is a technique we call constrained natural-language output. Using this technique, the application provides an array of bounded controls for users to choose from. The controls line up so that they can be read like an English sentence. The user chooses from a list of valid alternatives, so the design is in essence a self-documenting, bounded query facility. Figure 14-9 shows how this works.
 
-![](images/82a477cb67dc061abcc92348b8afcc125c5910fd2237b96d356e2ae362e1c8e8.jpg)  
+![](images/82a477cb67dc061abcc92348b8afcc125c5910fd2237b96d356e2ae362e1c8e8.webp)  
 Figure 14-9: An example of a constrained natural-language output interface to an attribute-based retrieval engine, part of a Cooper design created for Softek's Storage Manager. These controls produce natural language as output, rather than attempting to accept natural language as input, for database queries. Each underlined phrase, when clicked, provides a drop-down menu with a list of selectable options. The user constructs a sentence from a dynamic series of choices that always guarantees a valid result.
 
 A natural-language output interface also is helpful for expressing everything from queries to plain old relational databases. Querying a database in the usual fashion is very hard for most people because it calls for Boolean notation and arcane database syntax, à la SQL.
@@ -5972,7 +5972,7 @@ The other concern is localization. If you are designing for multiple languages, 
 
 Both attribute-based retrieval engines and natural-language output interfaces require significant design and programming effort, but users will reap tremendous benefits in terms of power and flexibility in managing their data. Because the amount of data we all must manage is growing at an exponential rate, it makes sense to invest now in these more powerful, goal-directed tools wherever data must be managed.
 
-![](images/f16bf52ac06905be2fb51054165ad204e3c2f906098d31fdfc3bf70b58f47a31.jpg)
+![](images/f16bf52ac06905be2fb51054165ad204e3c2f906098d31fdfc3bf70b58f47a31.webp)
 
 # PREVENTING ERRORS AND INFORMING DECISIONS
 
@@ -5998,15 +5998,15 @@ For example, in Microsoft Outlook 2013, an icon next to an e-mail sender's name 
 
 Here's another example, this time from iOS: When you download an app from the App Store, the downloading file appears on the Home screen as an icon with a small, dynamically updating progress indicator, showing visually how far along the app is in the download and install process (see Figure 15-2).
 
-![](images/c21da89ab80c65eb65deee461ef3f72591ba26010c08b672e2c684748ed89fca.jpg)  
+![](images/c21da89ab80c65eb65deee461ef3f72591ba26010c08b672e2c684748ed89fca.webp)  
 Figure 15-1: This pane from a Cooper design for a long-term health-care information system is a good example of RVMF. The diagram represents all the rooms in the facility. Color coding indicates male, female, empty, or mixed-gender rooms; numbers indicate empty beds; tiny boxes between rooms indicate shared bathrooms. Black triangles indicate health issues, and a tiny H means a held bed. This RVMF is supplemented with ToolTips, which show room numbers and occupant names and highlight any important notices about the room or its residents. A numeric summary of rooms, beds, and employees is given at the top. This display has a short learning curve. After mastering it, nurses and facility managers can understand their facility's status at a glance.
 
-![](images/927268192561e7dbc84bde19879d1a0509db6d8360c3fc244a118ebd0e1ced72.jpg)  
+![](images/927268192561e7dbc84bde19879d1a0509db6d8360c3fc244a118ebd0e1ced72.webp)  
 Figure 15-2: When apps are purchased from Apple's App Store, the app icon appears on the Home screen of the iPad or iPhone (upper right). A dynamically updating circular indicator on the icon marks the progress of the download-and-install process.
 
 A final example of RVMF is from the computer gaming world: Sid Meier's Civilization (see Figure 15-3). This game provides dozens of examples of RVMF in its main interface, which is a map of the historical world. You are the leader of an evolving civilization that you are trying to build. Civilization uses RVMF to indicate half a dozen dynamically changing attributes of a city, all represented visually. If a city is more advanced, its architecture is more modern. If it is larger, the icon is larger and more embellished. If it is plagued by civil unrest, smoke rises from the city. Individual troop and civilian units also show status visually, by way of tiny meters indicating unit health and strength. Even the landscape has RVMF: Dotted lines marking spheres of influence shift as units move and cities grow. Terrain changes as roads are laid, forests are cleared, and mountains are mined. Although dialogs exist in the game, much of the information needed to understand what is going on is communicated clearly with no words or dialogs whatsoever.
 
-![](images/c3d2d3b2e07e2ceec725c5909da4a2fa437c5931bd70d19a8e30a7dc918cdace.jpg)  
+![](images/c3d2d3b2e07e2ceec725c5909da4a2fa437c5931bd70d19a8e30a7dc918cdace.webp)  
 Figure 15-3: Civilization is a game in which you chart the course of civilization. Its interface provides dozens of examples of rich visual modeless feedback.
 
 Imagine if all the objects that had pertinent status information on your desktop or in your application could display their status in this manner. Printer icons could show how close the printer is to completing your print job. Icons for hard drives and removable media could show how full these items are. When an object is selected for drag and drop, all the places that could receive it would become highlighted to announce their receptiveness.
@@ -6153,7 +6153,7 @@ Many applications that implement single Undo treat the last undone action as an 
 
 Microsoft Word contains what has unfortunately become a somewhat typical facility—a variation of multiple Undo that we will call group multiple Undo. It has several levels, showing a textual description of each operation in the Undo stack. You can examine the list of past operations and select an operation in the list to undo. However, you are not undoing that one operation, but rather all operations back to that point, inclusive (see Figure 15-4). This style of multiple Undo is also employed by many Adobe products.
 
-![](images/e0b23c21534b1c5793db2a6985648d8dd4feb1db2f9fdf592998bf2e25651afc.jpg)  
+![](images/e0b23c21534b1c5793db2a6985648d8dd4feb1db2f9fdf592998bf2e25651afc.webp)  
 Figure 15-4: With Microsoft Office's Undo/Redo facility, you can undo multiple actions, but only as a group; you can't choose to undo only the thing you did three actions ago. Redo works in the same manner.
 
 As a result, you cannot recover your six missing paragraphs without first reversing all the intervening operations. After you select one or more operations to undo, the list of undone operations becomes available in reverse order in the Redo control. Redo works exactly the same way as Undo. You can select as many operations to redo as you want, and all operations up to that specific one are redone.
@@ -6210,7 +6210,7 @@ Users occasionally want to back up long distances, but when they do, the granula
 
 Many tools exist to support the versioning concept in source code, but this concept is just emerging in the world outside of software development. 37signals' Writeboard, for example (see Figure 15-5), automatically creates versions of a collaborative text document. It allows users to compare versions and, of course, revert to any previous version.
 
-![](images/2ff75d9efc295506f8be58396b4967befba5e71937ca5dff3ef102df6f127afb.jpg)  
+![](images/2ff75d9efc295506f8be58396b4967befba5e71937ca5dff3ef102df6f127afb.webp)  
 Figure 15-5: Google Docs allows multiple people to collaborate on a single document. It creates a new version every time the user saves changes to the document and allows users to view the different versions. This can be quite useful because it allows collaboration without worry that valuable work will be overwritten.
 
 Critical to the effectiveness of a versioning facility is the behavior of the revert command. It should provide a list of the available saved versions of the document in question. This should include some information about each document, such as the time and day it was recorded, the name of the person who recorded it, the size, and some optional user-entered notes. A user should be able to understand the differences among versions and ultimately choose to revert to any one of these versions. In the case of reversion, the current state of the document should be saved as another version that can be reverted to.
@@ -6225,7 +6225,7 @@ This idiom is much more useful for a graphic document than for a text document. 
 
 Some operations simply cannot be undone because they involve some action that triggers a device not under the application's direct control. For example, after an e-mail message has been sent, there is no undoing it. (Gmail gives you a short amount of time to halt an e-mail by not actually sending it for a few seconds after you click Send, which is really quite clever. See Figure 15-6.)
 
-![](images/a4ee1de5f8478869497b411249ebb446eebbe788f1b24537af9221bd5e34d346.jpg)  
+![](images/a4ee1de5f8478869497b411249ebb446eebbe788f1b24537af9221bd5e34d346.webp)  
 Figure 15-6: Gmail lets you temporarily undo the undoable—sending an e-mail message—by waiting a few seconds after you click Send before really sending it.
 
 Why isn't a filename Undo provided? Because it doesn't fall into the traditional view of what Undo is for; developers generally don't provide a true Undo function for changing a filename.
@@ -6244,7 +6244,7 @@ When used as comparison functions, Undo and Redo are really one function and not
 
 Compare may seem like an advanced function, and it is for some applications. Just as the Jump function may not be used by the majority of TV watchers, the Compare button would remain a nicety for frequent users. This shouldn't detract from its usefulness, however. And for some applications, like photo manipulation and other media authoring apps, visual comparison tools that show the future before it happens have become almost a necessity.
 
-![](images/fd6cf593d03770e28146c9744b4fe635117b4ef731c892284ad69c15b3684f22.jpg)  
+![](images/fd6cf593d03770e28146c9744b4fe635117b4ef731c892284ad69c15b3684f22.webp)  
 Figure 15-7: Numerous photo processing apps on the iPad, including Photo Toaster, provide preview thumbnails of the image you are working on, each showing the result of a different effect or image parameter change. Tapping the thumbnail applies the change to the image, which is in itself a sort of preview, since it can be undone with a single additional tap.
 
 # DESIGNING FOR DIFFERENT NEEDS
@@ -6273,7 +6273,7 @@ Direct-manipulation controls like drag handles; real-time manipulation controls 
 
 Keyboard accelerators and gestures take the idea of immediacy one step further: There is no locus of these commands in the visual interface—only invisible keystrokes, swipes, pinches, or flicks of the finger. These types of command interfaces express an invisible modality. Users must memorize invisible commands, because typically the interface offers little or no visual indication that they exist. Invisible commands also need to be initially identified for the user, unless they follow widely used conventions (such as flicking up or down to scroll on a touchscreen interface) or by having a reliable way to inform new users that they exist. Invisible commands are used extensively by intermediates and even more by experts.
 
-![](images/4a0299d9a07826b90286e365f1caafbd07e39825c4a052bb0da8d183c22c644a.jpg)  
+![](images/4a0299d9a07826b90286e365f1caafbd07e39825c4a052bb0da8d183c22c644a.webp)  
 Figure 16-1: Menus on the Windows version of Adobe Reader give users a textual overview of the application's functionality, call out keyboard mnemonics and accelerators, and offer toolbar icons. Unfortunately, this pedagogic idiom is seldom available in mobile apps, due to space constraints.
 
 # Information in the world versus information in the head
@@ -6300,7 +6300,7 @@ Better still is to integrate memorization vectors directly into the main interfa
 
 The accelerator for Save is Ctrl+S (Cmd+S on the Mac). Accelerators are noted explicitly on the right side of a menu item; this acts as a memorization vector. Adobe Reader, as shown in Figure 16-1, takes this a step further by also including the icons for toolbar commands to the left of their corresponding menu commands. Microsoft, meanwhile, shows accelerators as part of the ToolTips on the controls in the Ribbon UI in their Office Suite applications (see Figure 16-2).
 
-![](images/dae3c5990a0790dcd91d4403b3cbb9da42dc3bc12826335aab6996439cf4653b.jpg)  
+![](images/dae3c5990a0790dcd91d4403b3cbb9da42dc3bc12826335aab6996439cf4653b.webp)  
 Figure 16-2: Office Suite applications use small pop-up boxes to display mnemonics when Alt is pressed, and ToolTips to display keyboard accelerators, since the standard menus have been replaced by the toolbar-ish Ribbon UI.
 
 Mac applications usually don't support mnemonics, but they often do have accelerator and palette or toolbar icon mappings.
@@ -6341,21 +6341,21 @@ OS X has an interesting variant of this in the settings for mouse and trackpad g
 
 Guided tours usually launch automatically the first time an app is run, and sometimes when a new version of an app is released with significant new features. It's important that tours have a "skip" button available on each screen of the tour, in case the user wants to get straight to work without visiting each screen. Of course, a screen to dismiss the tour at the end also is needed. The final screen of the tour should include a way to manually relaunch the tour.
 
-![](images/8a89aed02b373e65da436452db6793cc31c69ece9e243b3c41d8597c14f016c2.jpg)  
+![](images/8a89aed02b373e65da436452db6793cc31c69ece9e243b3c41d8597c14f016c2.webp)  
 Figure 16-3: FiftyThree Inc.'s iOS app, Paper, uses a guided tour to explain its main features and interactions. The user swipes through a set of illustrated cards, each of which describes a different pair of features or interactions. When the app is opened for the first time, the Welcome tour is available from an About menu accessed by tapping the company logo.
 
 Generally speaking, tours shouldn't go on for more than five to seven screens at most. If you make them too long, your users probably will be unable to remember what they've just seen. They also will begin getting antsy if the tour seems interminable.
 
 Overlays are a different approach to introducing functionality, best suited to relatively simple apps whose functions are not pedagogically evident. As the name implies, an overlay is like a transparent sheet laid over the interface on which arrows and descriptive text are embedded. The end result is a set of annotations that point out the app's key features or behaviors and give brief descriptions of their usage (see Figure 16-4).
 
-![](images/aa4a1f96f57d5133bc5959cc99303ddf0e8e39673fe9c77ed9d8809b6a5e6be4.jpg)  
+![](images/aa4a1f96f57d5133bc5959cc99303ddf0e8e39673fe9c77ed9d8809b6a5e6be4.webp)  
 Figure 16-4: The Snapseed app uses an overlay to show key features and behaviors. Unlike some overlays that use a close box, Snapseed's allows you to tap anywhere on the screen to dismiss. After initial use, the overlay remains accessible from the Help menu.
 
 Like guided tours, overlays typically are launched when an app is first run (or when it is updated with a major new release version). An overlay should include a means to relaunch it somewhere in the app—often in a settings menu or via a tiny help icon placed in an unobtrusive corner of the screen.
 
 Zite, shown in Figure 16-5, is a newsreader app that combines the sequential guided tour concept with the idea of an overlay. It walks the user through a series of full-screen overlays accessed by swiping. It ends with a large Done button in the center of the screen.
 
-![](images/a2e58adb3ec63ca32352085afe263e32f7a04ebded294e5200d06aae834a1a02.jpg)  
+![](images/a2e58adb3ec63ca32352085afe263e32f7a04ebded294e5200d06aae834a1a02.webp)  
 Figure 16-5: Zite is a newsreader app that uses a combination of guided tour and overlay to introduce readers to the app. The tour is available at any time from a tab in the menu system.
 
 This approach is useful in that each feature discussed can be shown in the spatial context of a full screen, potentially making it a bit easier for users to orient themselves.
@@ -6366,7 +6366,7 @@ Not all users of document-creation applications are capable of building nicely-f
 
 For example, consider an app like OmniGraffle on the Mac, shown in Figure 16-6, which lets you create diagrams, flowcharts, and user interface mock-ups.
 
-![](images/004e83c63f47286fc156e0c74672de190d1d94f630a86b0b3d8cd29bb2003b6c.jpg)  
+![](images/004e83c63f47286fc156e0c74672de190d1d94f630a86b0b3d8cd29bb2003b6c.webp)  
 Figure 16-6: OmniGraffle Pro offers galleries of templates at both the document level and the level of line and shape styles.
 
 Undoubtedly some users will want to create their diagrams from scratch, but most would jump at the chance to start with some stylistic choices made for them in the form of layout templates. Similarly, some users may want to draw their own shapes for things such as arrows and stars, but most people would be happy to select from a gallery of predefined shapes (OmniGraffle calls them stencils). Naturally, users should be able to tweak a template after they choose it.
@@ -6383,7 +6383,7 @@ A common but subtle form of contextual help is known as *hints*: small and often
 
 before it gets input focus. Once the field gets a cursor in it, the input hint text is cleared, and the field is ready for input. An expansion of this idea has become popular in apps that have a larger or central content area that is initially empty. Rather than sit there emptily without lifting a finger to help the user figure out how to get started, clever apps use this empty space to provide a more verbose description of what to do. Or they even provide one-time configuration controls as part of a content area hint, as shown in Figure 16-7.
 
-![](images/7d16d5b8951790ef1f6d3067f796ace2c6c869aef8876acbcb94bffe442c0cbf.jpg)  
+![](images/7d16d5b8951790ef1f6d3067f796ace2c6c869aef8876acbcb94bffe442c0cbf.webp)  
 Figure 16-7: Camera+ is an iOS photo app that uses the otherwise empty photo content area at initial launch to provide some verbose hinting and configuration controls.
 
 # Pros and cons of wizards
@@ -6414,7 +6414,7 @@ Unfortunately for mobile interfaces, touchscreens cannot yet support a finger ho
 
 ToolTip overlays are usually triggered by tapping a help button. Brief, ToolTip-like labels or notes for the primary functions on the current screen are displayed, each in proximity and pointing to its associated control (see Figure 16-8). The difference is that they are all turned on at once and presented modally, often with a close box that must be tapped to dismiss them.
 
-![](images/944228de98d9a793050cdf0b3a960b74e4aea9d2d4390e6ab9ef0ab824acfbb0.jpg)  
+![](images/944228de98d9a793050cdf0b3a960b74e4aea9d2d4390e6ab9ef0ab824acfbb0.webp)  
 Figure 16-8: Pinnacle Studio has a Tooltip overlay facility, which they call pop-up help. It is launched from the app's help menu. Their implementation is interesting because you can continue to use the app while the pop-up help is activated (not that you'd typically want to); it is dismissed by tapping the yellow button in the lower left corner.
 
 While this approach can be overwhelming, it can be appropriate for complex authoring apps if used as a kind of "cheat sheet" for helping users remember controls and functions. As such, this idiom is best not used as a welcome screen.
@@ -6449,7 +6449,7 @@ Software applications are increasingly delivered online, without printed manuals
 
 In-app guides should not be the first line of help; that task should be handled by guided tours or overlays. Instead, in-app guides should be a reference for detailed information on using complex functions. If your app is a complex pro tool, your users will appreciate the inclusion of the guide in-app so that they don't have to go looking for it on your website, and even more so if the guide's table of contents is hyperlinked, and the guide itself is full-text searchable, well-indexed, and printable.
 
-![](images/4d702614ad51cf9d9aedb6434388255394aaafce0bf5f8dea367db56337b245d.jpg)  
+![](images/4d702614ad51cf9d9aedb6434388255394aaafce0bf5f8dea367db56337b245d.webp)  
 Figure 16-9: Steinberg's Cubasis app has a sophisticated help system that includes a searchable in-app user guide, as well as links to user forums and video tutorials.
 
 # Customizability
@@ -6784,14 +6784,14 @@ elements or groups of elements should be made judiciously, and always to achieve
 - Align within a set of controls—A related group of check boxes, radio buttons, or text fields should be aligned according to a regular grid.   
 - Align across control groups and panes—Groups of controls and other screen elements should all follow the same grid wherever possible.
 
-![](images/69221f6d0af6cb48ec3111bf71c67c94024e9234189172562451270de4644893.jpg)  
+![](images/69221f6d0af6cb48ec3111bf71c67c94024e9234189172562451270de4644893.webp)  
 Figure 17-1: Adobe Lightroom makes very effective use of alignment to a layout grid. Text, controls, and control groups are all tightly aligned, with a consistent atomic spacing grid. It should be noted that the right alignment of controls and control group labels may compromise scanability.
 
 A grid system is one of the most powerful tools available to the visual designer. Popularized by Swiss typographers in the years after World War II, a grid provides a uniform and consistent structure to layout, which is particularly important when you're designing an interface with several levels of visual or functional complexity. After interaction designers have defined the overall framework for the application and its user interface elements (as discussed in Chapter 5), visual interface designers should help regularize the layout into a grid structure. It should emphasize top-level elements and structures and provide room for lower-level or less-important controls.
 
 Typically, the grid divides the screen into several large horizontal and vertical regions, as shown in Figure 17-2. A well-designed grid employs an atomic grid unit that represents the smallest spacing between elements. For example, if your atomic unit is 4 pixels, spacing between screen elements and groups will all be in multiples of 4 pixels.
 
-![](images/a1a632ffc500ad65e55d7638aa9e9022a2515bbce28ca83dc2cff0fc4d780dac.jpg)  
+![](images/a1a632ffc500ad65e55d7638aa9e9022a2515bbce28ca83dc2cff0fc4d780dac.webp)  
 Figure 17-2: This sample layout grid prescribes the size and position of the various screen areas employed by a website. This grid ensures regularity across different screens. It also reduces the amount of work that a designer must do to lay out the screens and the work that the user must do to read and understand the screens.
 
 Ideally, a grid should also have consistent relationships between different-sized screen areas. These relationships typically are expressed as ratios. Here are three commonly used ratios:
@@ -6825,9 +6825,9 @@ No logical path
 
 Everything is all over the place
 
-![](images/b8652826175429efc90a7b0deefc1ed16af9b26d5ff791c87445969215c1afe7.jpg)
+![](images/b8652826175429efc90a7b0deefc1ed16af9b26d5ff791c87445969215c1afe7.webp)
 
-![](images/f10a7fa58654da60e23bd544d4149c9ba9ad2a7bc14b9272c079f63ec9bff2d2.jpg)  
+![](images/f10a7fa58654da60e23bd544d4149c9ba9ad2a7bc14b9272c079f63ec9bff2d2.webp)  
 Figure 17-3: Eye movement across an interface should form a logical path that enables users to efficiently and effectively accomplish goals and tasks.
 
 # Balance the interface elements
@@ -6888,7 +6888,7 @@ Instead of using words alone to describe the results of interface functions (or,
 
 Microsoft Word's Print Preview view, shown in Figure 17-4, shows what a printed document will look like with the current paper size and margin settings. Many users have trouble visualizing what a 1.2-inch left margin looks like; the Preview control shows them. Microsoft could go one better by allowing direct input on the Preview control in addition to output, allowing users to drag the picture's left margin and watch the numeric value in the corresponding spinner ratchet up and down. The associated text field is still important—you can't just replace it with the visual one. The text shows the precise values of the settings, whereas the visual control accurately portrays the look of the resulting page.
 
-![](images/680930985108c3348e44d1bc0f3a00c0febca641369e4fd0a7119aa284bf754c.jpg)  
+![](images/680930985108c3348e44d1bc0f3a00c0febca641369e4fd0a7119aa284bf754c.webp)  
 Figure 17-4: Microsoft Word Print Preview is a good example of a visual expression of application functionality. Rather than requiring users to visualize what a 1.2-inch margin might look like, this function allows the user to easily understand the ramifications of different settings.
 
 # Respond to commands
@@ -6943,7 +6943,7 @@ As pilot and poet Antoine de Saint-Exupéry famously said, "Perfection is attain
 
 Related to the drive for simplicity is the concept of leverage, which is where a single interface element is used for several related purposes. For example, in Microsoft Windows 8, an icon appears next to the window's title, as shown in Figure 17-5. This icon visually communicates the window's contents (for example, whether it is an Explorer window or a Word document) and provides access to window configuration commands such as Minimize, Maximize, and Close.
 
-![](images/93e7f50a8a53995d39c7d31993713747bab3f54a376a5521e232d00c6159b84d.jpg)  
+![](images/93e7f50a8a53995d39c7d31993713747bab3f54a376a5521e232d00c6159b84d.webp)  
 Figure 17-5: The icon in the title bar of windows in Windows 8 is a good example of leverage. It communicates the window's contents and provides access to window configuration commands.
 
 # Visual Information Design Principles
@@ -6977,7 +6977,7 @@ We will briefly discuss each of these principles as they apply to the informatio
 
 You should provide a means for users to compare related variables and trends or to compare before-and-after scenarios. Comparison provides a context that makes the information more valuable and comprehensible to users (see Figure 17-6). Adobe Photoshop, along with many other graphics tools, makes frequent use of previews, which allow users to easily do before-and-after comparisons interactively.
 
-![](images/b45a77e20fdcf7d36084706973989de8377ec19f859c31d5c9843764e54cd151.jpg)  
+![](images/b45a77e20fdcf7d36084706973989de8377ec19f859c31d5c9843764e54cd151.webp)  
 Figure 17-6: This graph from Google finance compares the performance of two stocks with the S&P 500 over a period of time. The visual patterns allow a viewer to see that Barclays Bank (BCS) and UBS are closely correlated to each other and only loosely correlate to the S&P 500.
 
 # Show causality
@@ -6994,7 +6994,7 @@ easier and correlations (causality) clearer. Investors are often interested in t
 
 Diagrams that require separate keys or legends to decode require additional cognitive processing by users and are less effective than diagrams with integrated legends and labels. Reading and deciphering diagram legends is yet another form of navigation-related excise. Users must move their focus between diagram and legend and then reconcile the two in their minds. Figure 17-7 shows an interactive example that integrates text, graphics, and data, as well as input and output—a highly efficient combination for users.
 
-![](images/1b3822c0a82c6f2962d1e1191a23d732ca3e570273ec1da0fe1d6e73d1926a9f.jpg)  
+![](images/1b3822c0a82c6f2962d1e1191a23d732ca3e570273ec1da0fe1d6e73d1926a9f.webp)  
 Figure 17-7: This "Communication Plan" is an interface element from a tool for managing outbound marketing campaigns that was designed by Cooper. It gives textual information a visual structure, which in turn is augmented by iconic representations of different object types. Not only does this tool provide output of the current structure of the Communication Plan, but it also allows the user to modify that structure directly through drag-and-drop interactions.
 
 # Ensure the content's quality, relevance, and integrity
@@ -7069,11 +7069,11 @@ One of the visual interface designer's most important tools is the idea of a "de
 
 A good example is Microsoft's Metro design language, the foundation of Windows 8, Windows Phone, and Xbox user interfaces. By using a common set of visual elements such as content tiles, Microsoft has created a variety of interfaces and experiences that are clearly recognizable (see Figure 17-8).
 
-![](images/6b095092a602253648cc15ce4cc789da1ddde1592abcc521b16134343bdae02e.jpg)
+![](images/6b095092a602253648cc15ce4cc789da1ddde1592abcc521b16134343bdae02e.webp)
 
-![](images/64b119e2c42b950d718aeb9a393d01aff39bc79ecee8944deb786c608e6038fb.jpg)
+![](images/64b119e2c42b950d718aeb9a393d01aff39bc79ecee8944deb786c608e6038fb.webp)
 
-![](images/256b492a28f17937f09a869d9de38a69aa4b2972741ac8ce88ad76bee304659c.jpg)  
+![](images/256b492a28f17937f09a869d9de38a69aa4b2972741ac8ce88ad76bee304659c.webp)  
 Figure 17-8: Cross-platform examples of Microsoft's Metro design language.
 
 In some cases, this language emerges as a vernacular. But in our experience, it is best arrived at through an explicit process that evaluates a variety of potential visual and interaction languages in terms of brand appropriateness and fitness for purpose. The best design languages evolve through the product design process in a user-centric way. Every design decision is rationalized against other decisions, and variation is reduced to just what is required to create meaning, utility, and the right emotional tone for users.
@@ -7206,7 +7206,7 @@ It turns out that a powerful idiom takes the best elements of tiled windows and 
 
 The advantage of multipaned applications is that independent but related information can be easily displayed in a single, sovereign posture screen in a manner that reduces both navigation and window management excise to almost nil. For a sovereign application of any complexity, multipane design is practically a requirement. Specifically, designs that provide navigation and/or building blocks in one pane and allow viewing or construction of data in an adjacent pane are an effective pattern that bears consideration.
 
-![](images/b4a477d575475cd88e29fee3993aaa07385fd32fa1a19c5c7ed2f8e54b56ecdb.jpg)  
+![](images/b4a477d575475cd88e29fee3993aaa07385fd32fa1a19c5c7ed2f8e54b56ecdb.webp)  
 Figure 18-1: Microsoft Outlook is a classic example of a multipaned application. The far-left pane contains a list of mailboxes. It also lets you switch between views such as Mail and Calendar. The top-center pane shows all the messages in the selected mailbox, and the pane below it shows the contents of the selected message. The pane on the right shows the next three appointments and upcoming tasks.
 
 Another form of multiple panes is stacked panes or tabs. These are common to preferences, settings, and other complex dialogs; they are also sometimes useful in sovereign windows. Most modern web browsers let users have many sites open at a time, accessible through tabs at the top. Another good example is Microsoft Excel, which allows related spreadsheets to be accessible via inverted tabs at the bottom of the screen. Excel makes use of stacked panes with its Sheets.
@@ -7263,14 +7263,14 @@ The result, then, when expediency trumps concern for user experience, is too man
 
 For example, in Adobe Photoshop, if you want to make a simple change to a photo's brightness and contrast (without worrying about adjustment layers), you must go to the Image menu, select the Adjustments submenu, and then select the Brightness/Contrast command. This triggers a dialog box where you can make your adjustments, as shown in Figure 18-2. This sequence is so common that it is completely unremarkable, and yet it is undeniably poor design. Adjusting the image is the primary task in a photo editing application. The image is in the main window, so that's also where the tools that affect it should be. Changing the brightness and contrast isn't a tangential task; it is integral to the application's purpose.
 
-![](images/32614494d0d7c7acb0aa3cbd31566b6231b78337b81fab046d71735abc2ce68a.jpg)  
+![](images/32614494d0d7c7acb0aa3cbd31566b6231b78337b81fab046d71735abc2ce68a.webp)  
 Figure 18-2: One of Adobe Photoshop's many rooms: Brightness/Contrast. We're all used to the fact that we have to invoke a dialog to perform a basic function, so we hardly notice it. But this creates unnecessary work for users, and of course the dialog obscures the most important thing on the screen—the image. Recent versions of Photoshop have begun to move controls like these into modeless sidebars.
 
 Putting functions in a dialog box emphasizes their separateness from the main task. Putting the brightness and contrast adjustment in a dialog box works just fine, but it creates an awkward interaction. From a developer's point of view, adjusting brightness and contrast is a single function, independent of many other functions, so it seems natural to segregate it into its own container. From the user's point of view, however, it is integral to the job at hand and should be obvious in the main window.
 
 The image editing UI is considerably improved in Adobe Lighthroom. The application is divided into views or "rooms," each concerned with a specific purpose: Library, Develop, Slideshow, Print, and Web. In the Develop view, brightness and contrast adjustment are presented in a pane on the right side of the main window, along with every other imaginable way of adjusting an image, as shown in Figure 18-3.
 
-![](images/dd228b821afdc7e67cb403d697f2dbbbb91b7f862a640433be9c8645968f5857.jpg)  
+![](images/dd228b821afdc7e67cb403d697f2dbbbb91b7f862a640433be9c8645968f5857.webp)  
 Figure 18-3: Adobe Lightroom shows vast improvements over Photoshop. Critical tools are grouped by purpose and presented directly in the main window, adjacent to the image being adjusted.
 
 DESIGN PRINCIPLE
@@ -7309,7 +7309,7 @@ After the menu is open, the user makes a single choice by clicking once or by dr
 
 As discussed briefly in Chapter 16, menus represent a pedagogic vector. Contrary to user-interface paradigms of 25 years ago, menus and dialog boxes aren't the main methods by which normal users perform everyday functions. So when a user looks at an application for the first time, it is often difficult to size up what that application is capable of. An excellent way to get an impression of an application's power and purpose is to glance at the set of available functions by way of its menus and the dialogs they open. We do this in the same way we look at a restaurant's menu posted at its entrance to get an idea of the type of food, the presentation, the setting, and the price.
 
-![](images/609cef9681c6c2e8152f2a8f734a740312639675cacc63dbc834ea6cb17d10df.jpg)
+![](images/609cef9681c6c2e8152f2a8f734a740312639675cacc63dbc834ea6cb17d10df.webp)
 
 Use menus to provide a pedagogic vector.
 
@@ -7317,7 +7317,7 @@ Understanding the scope of what an application can and can't do is one of the fu
 
 Toolbars and direct-manipulation idioms can be too inscrutable for a first-time user to understand, but the textual nature of the menus explains the functions. Reading the words "Format Gallery" (see Figure 18-4) is more enlightening to the new user than trying to interpret an icon button that looks like the one shown in the figure (although ToolTips obviously help).
 
-![](images/7a5bf14863c78cc56d2b0cb7f7dcfd97ad5db1a591e5ddbe812946ad2ce78dbb.jpg)  
+![](images/7a5bf14863c78cc56d2b0cb7f7dcfd97ad5db1a591e5ddbe812946ad2ce78dbb.webp)  
 Figure 18-4: A menu item reading "Format Gallery" is likely to be more enlightening to new users than an icon button like this one. But after new users become intermediates, it's a different story.
 
 For an infrequent user who is somewhat familiar with an application, the menu's main task is as an index to known tools: a place to look when he knows there is a function but he can't remember where it is or what it's called. He doesn't have to keep such trivia in his head. He can depend on the menu to keep it for him, available when he needs it.
@@ -7382,7 +7382,7 @@ A variant of the standard drop-down menu provides a secondary menu when the user
 
 navigate them smoothly. (If you trace the path required to select an item in a multilevel cascading menu—such as the Windows Start menu—you will notice that it looks like a path through a maze.)
 
-![](images/c9af0e657f7acd6d96f25ba45cfcb43d627837a198eb6d2ab5d67cc42f4e11b9.jpg)  
+![](images/c9af0e657f7acd6d96f25ba45cfcb43d627837a198eb6d2ab5d67cc42f4e11b9.webp)  
 Figure 18-5: An example of a cascading menu from Microsoft Word. Cascading menus make it difficult for users to find and browse the command set, but they do allow menus to usefully contain much larger command sets.
 
 Cascading or hierarchical menus were prevalent in the early days of graphical user interfaces. Menus in modern GUIs have flattened considerably, until most are now only one level deep—a monoline grouping, or flat hierarchy. In many cases, especially when optimizing interactions for novice users, flattening the organization of user choices (whether they be commands or objects) can greatly improve the discoverability and learnability of application user interfaces.
@@ -7399,7 +7399,7 @@ The ubiquitous toolbar is a relatively recent GUI development. Microsoft was the
 
 The typical toolbar is a collection of icon buttons in a slab attached to the top (when horizontal) or side (when vertical) of the main window, as shown in Figure 18-6. Essentially, a toolbar consists of one or sometimes two rows (or columns) of visible, immediate, graphically labeled functions.
 
-![](images/e9d26abcdc47ee9f27b0062c25161a3a0b6bf8bc7a19e1c4cc8391e229d2cce6.jpg)  
+![](images/e9d26abcdc47ee9f27b0062c25161a3a0b6bf8bc7a19e1c4cc8391e229d2cce6.webp)  
 Figure 18-6: Toolbars for Word (top), InDesign (center), and Omnigraffle (bottom) on the Mac. Notice how the Word and InDesign toolbars use icon buttons that show a button outline only on mouseover or selection. This saves space and improves readability.
 
 # Toolbars and menus
@@ -7444,7 +7444,7 @@ The problem is that using both text and images can be very expensive in terms of
 
 ToolTips are a clever and effective user interface idiom that adds a pedagogical vector to icon buttons without any of the drawbacks of text labeling (see Figure 18-7). In essence, ToolTips provide a text label on a tiny, transient pop-up window. The real genius of ToolTips is that they have a well-timed lag that displays the helpful information only after the user has hovered the mouse cursor on the item for a second or so. This is just enough of a delay for the user to be able point to and select the function without getting the ToolTip if she doesn't need it. This ensures that users aren't barraged by little pop-ups as they move the mouse across the toolbar. It also means that if the user forgets what a rarely used icon button is for, she needs to invest only a half-second to find out.
 
-![](images/9045c86f38f7edbc67f91e4e9319756e492f093e814fdba79f06b72d9eb8068e.jpg)  
+![](images/9045c86f38f7edbc67f91e4e9319756e492f093e814fdba79f06b72d9eb8068e.webp)  
 Figure 18-7: This ToolTip from Microsoft Word helps users who have forgotten the icon's meaning without using much real estate on text labels.
 
 ToolTips initially contained a single word or very short phrase that described the hovered-upon icon button. As of Microsoft Office 2007 on Windows, ToolTips now integrate lightweight help content into the ToolTip. By taking advantage of the inherent context sensitivity of ToolTips, better integration with other help mechanisms reduces the excise involved in learning an application.
@@ -7475,19 +7475,19 @@ This variety of controls contributed to a broadening use of the toolbar. When it
 
 It was only a matter of time before toolbars began sporting their own menus. The Word toolbar shown in Figure 18-8 shows the Undo drop-down menu. Such sophisticated and powerful idioms continue to push the old-fashioned menu bar further into the background as a purely pedagogic tool.
 
-![](images/c7a7762abf6f7355f41ba491523233bb035b191aed2f598e13c2158f09656f01.jpg)  
+![](images/c7a7762abf6f7355f41ba491523233bb035b191aed2f598e13c2158f09656f01.webp)  
 Figure 18-8: Toolbars now contain drop-down menus such as the Undo menu shown here. This provides a compact way to provide powerful functionality.
 
 # Movable toolbars
 
 Some applications, such as Adobe's Creative Suite, support movable and detachable toolbars or palettes. Pre-2007, the Microsoft Office suite had a battery of toolbars that users could choose to make visible or invisible. If they were visible, they could be dynamically positioned in one of five locations. They also could be attached—or docked—to any of the four sides of the application's main window. If the user dragged the toolbar away from the edge, it configured itself as a floating toolbar, complete with a mini title bar, as shown in Figure 18-9.
 
-![](images/2030311df6235912c6c2d3f0923d5ce44cfa5e9eb965c0cb469842ddb6384489.jpg)  
+![](images/2030311df6235912c6c2d3f0923d5ce44cfa5e9eb965c0cb469842ddb6384489.webp)  
 Figure 18-9: Toolbars can be docked horizontally (top), vertically (left), and dragged off the toolbar to form free-floating palettes.
 
 Allowing users to move toolbars around so flexibly also provided the possibility for users to obscure parts of toolbars with other toolbars. Microsoft addressed that problem with an expansion icon button and drop-down menu that appeared only when a toolbar was partly obscured. It provided access to hidden items via a drop-down menu, as shown in Figure 18-10.
 
-![](images/0f480f4ed1838e1e677d74bd3a9a80ebd2dcd79d47c7616d4cb29f2fd54552fd.jpg)  
+![](images/0f480f4ed1838e1e677d74bd3a9a80ebd2dcd79d47c7616d4cb29f2fd54552fd.webp)  
 Figure 18-10: Microsoft's clever way of allowing users to overlap toolbars (or fit them in smaller sizes) but still get at all their functions.
 
 Since 2007, Microsoft has moved away from the ultimate flexibility of toolbars to the more predictable and inviting ribbon control (discussed later in the chapter) and single quick-access toolbar. However, they still make use of the same menu idiom for accessing hidden ribbon and toolbar items.
@@ -7510,7 +7510,7 @@ As we discussed earlier in this chapter, Microsoft introduced a new GUI idiom wi
 
 presentation of icon buttons and textual commands. The tabs provide groupings similar to those used in menus (such as File, Home, Insert, Design, Transitions, Animations, Slide Show, Review, and View in PowerPoint 2010).
 
-![](images/caff8f86465e43de30113e65a4d176b9c34221ad59bea73849d9306d3a5c7f66.jpg)  
+![](images/caff8f86465e43de30113e65a4d176b9c34221ad59bea73849d9306d3a5c7f66.webp)  
 Figure 18-11: The ribbon in PowerPoint replaces the menu system and classic toolbars with what is essentially a tabbed, hybrid menu/toolbar.
 
 # Tool palettes
@@ -7527,21 +7527,21 @@ Tool palettes also, mostly for historical reasons dating back to MacPaint, tend 
 
 Palettes typically dock and float, mimicking the functionality from the toolbar. Palettes are, as we mentioned, popular in graphics applications, where modeless access to tools is useful—or even critical—for users to maintain a productive flow. Adobe Fireworks (RIP) and other applications originally developed by Macromedia were among the first to provide a more robust docking structure to minimize screen management excise. Recent versions of Photoshop and Illustrator have taken up the idiom, as shown in Figure 18-12.
 
-![](images/79ad32dadfdf874e65d68d553a686a7db66b640b84d01d8575d32cab8ef9d106.jpg)  
+![](images/79ad32dadfdf874e65d68d553a686a7db66b640b84d01d8575d32cab8ef9d106.webp)  
 Figure 18-12: The docked palettes in Adobe Illustrator provide interactivity similar to that of modeless dialog boxes, but they don't require users to spend as much effort and attention invoking, moving, and dismissing dialogs. It doesn't take a lot of imagination to see that these are really quite similar to toolbars in the sense that they use standard controls and widgets to provide application functionality directly, visibly, and persistently in the user interface.
 
 # Sidebars, task panes, and drawers
 
 The final step in the evolution of workflow-friendly modeless command idioms was the introduction of the sidebar or task pane—a pane in the application window dedicated to providing the kind of functions that were formerly delivered through dialog boxes. One of the first applications to do this was Autodesk's 3ds Max, a 3D modeling application that lets you adjust object parameters modelessly through a sidebar. Mainstream applications that feature sidebars include Microsoft Windows Explorer and Internet Explorer with their Explorer Bars, Mozilla Firefox with its Side Bar, Apple's iLife applications with their Inspectors, and Microsoft Office through its Task Pane. Adobe Lighthroom has adopted this approach wholeheartedly: Almost all the application's functionality is provided modelessly via sidebars, as shown in Figure 18-13. Recent versions of Adobe Creative Suite applications have begun to adopt similar approaches, with robust tabbed task panes replacing most modal access to functions.
 
-![](images/a8973f991f59fb08f065ab3548969adcb7d6023fefd17f4346045189ea03135d.jpg)  
+![](images/a8973f991f59fb08f065ab3548969adcb7d6023fefd17f4346045189ea03135d.webp)  
 Figure 18-13: Sidebars in Adobe Lightroom replace the need for dozens of dialog boxes. This approach is similar to the palette approach shown in Figure 18-12. But unlike palettes, the sidebar doesn't require users to position it on the screen and doesn't allow users to undock or dismiss it individually (although the entire sidebar may be hidden). This further reduces screen management excise and represents a significant improvement over using dialog boxes to present application functions.
 
 Sidebars hold a lot of promise as an interaction idiom—and they also need not be limited to the sides of the screen. A commonly employed pattern is the dedicated properties area below a document pane or "work space." It lets you modify a selected object while minimizing confusion and screen management excise, as shown in Figure 18-14. Sidebars can contain either persistent controls or contextual controls that change based on the current selection.
 
 Drawers represent a final variant of task panes. The pane can, for purposes of conserving screen real estate for the primary content area, be stowed mostly or completely offscreen in a pop-open drawer. While this can be handy on smaller desktop screens, it also brings back some of the screen management excise that task panes so neatly removed. An alternative to this, supported by many Adobe products, is the ability to hide (and restore) all secondary panes and palettes with a keystroke. This allows power users to temporarily remove the clutter of tools to better focus on the content they are authoring.
 
-![](images/42f17e6edad9a6b55b8efa473997e01a3ee90a146ca530a1065649c368ecd4e3.jpg)  
+![](images/42f17e6edad9a6b55b8efa473997e01a3ee90a146ca530a1065649c368ecd4e3.webp)  
 Figure 18-14: This design by Cooper for a customer relationship management (CRM) application features dedicated properties. When the user selects an object in the work space (the top half of the screen, on the left), its properties are displayed below. This retains the user's context and minimizes screen management excise.
 
 # Pointing, Selection, and Direct Manipulation
@@ -7564,7 +7564,7 @@ When you mouse around on the screen, there is a distinct dividing line between n
 
 Clicking a mouse button also requires fine motor control. Without it, the mouse and cursor move inadvertently, botching the intended action. The user must learn to plant the heel of his hand and go into fine motor control mode to position the cursor in the desired location. Then he must maintain that position when he clicks. Furthermore, if the cursor starts far away from the desired control, the user must first use gross motor control to move the cursor near the control before shifting to fine motor control to finish the job. Some controls, such as scrollbars, compound the problem by forcing users to switch between fine and gross motor skills several times to complete an interaction, as shown in Figure 18-15.
 
-![](images/fec310976f0656bbe4fd296aab3327fb5622115c7a41431d81a3c2257065e51f.jpg)  
+![](images/fec310976f0656bbe4fd296aab3327fb5622115c7a41431d81a3c2257065e51f.webp)  
 Figure 18-15: The familiar scrollbar, shown on the left, is one of the more difficult-to-use GUI controls. To switch between scrolling up and scrolling down, the user must transition from the fine motor control required for clicking the up button to the gross motor control needed to move her hand to the bottom of the bar. Then she must return to fine motor control to accurately position the mouse and click the down button. If the scrollbar were modified only slightly, as in the center, so that the two buttons were adjacent, the problem would go away. (Macintosh scrollbars can be similarly configured to place both arrow buttons at the bottom.) The scrollbar on the right is a bit visually cluttered, but it has the most flexible interaction. Scroll wheels and capacitive gesture sensors on the input device are also a great solution to the problem.
 
 It's important that designers pay significant attention to users' aptitudes, skills, and usage contexts and make a conscious decision about how much complex motor work using an interface should require. This is a delicate balancing act between reducing complexity and user effort and providing useful and powerful tools. It's almost always a good idea for things that are used together to be placed together.
@@ -7693,7 +7693,7 @@ Mouse-down over an object or data should select the object or data.
 
 On the other hand, if the cursor is positioned over a control rather than selectable data, the action on the mouse-down event is to tentatively activate the control's state transition. When the control finally sees the button-up event, it then commits to the state transition, as shown in Figure 18-16.
 
-![](images/95925b89ce1fd79ecc6bd87cba2bbe805e9212cfad686cf3c4c3d92fd7e0c61e.jpg)  
+![](images/95925b89ce1fd79ecc6bd87cba2bbe805e9212cfad686cf3c4c3d92fd7e0c61e.webp)  
 Figure 18-16: These images depict feedback and state change of a check box in Windows 8. The first image shows an unselected check box. The second is the mouseover state (or hover). The third shows the feedback to the click (or mouse-down). The fourth shows what happens when the button is released (mouse-up) but with a hover. The final image shows the selected state of the check box without a hover. Notice that although the click has visual feedback, the check box control doesn't register a state change until the mouse-up or release.
 
 DESIGN PRINCIPLE
@@ -7788,7 +7788,7 @@ The click-and-drag operation is also the basis for group selection. For contiguo
 
 In a collection of discrete objects, the click-and-drag operation generally begins a drag-and-drop move. If the mouse button is clicked in an area between objects, rather than on any specific object, it has a special meaning. It creates a drag rectangle, as shown in Figure 18-17.
 
-![](images/5faa50850cff5b0cdd45e4086efc54ed2777ee6df8bef915a39e6847428f865a.jpg)  
+![](images/5faa50850cff5b0cdd45e4086efc54ed2777ee6df8bef915a39e6847428f865a.webp)  
 Figure 18-17: When the cursor is not on any particular object at mouse-down time, the click-and-drag operation normally creates a drag rectangle that selects any object wholly enclosed by it when the mouse button is released. This is a familiar idiom to users of drawing applications and many word processors. This example is taken from Windows Explorer. The rectangle has been dragged from the upper left to the lower right.
 
 A drag rectangle is a dynamically sizable rectangle whose upper-left corner is the mouse-down point and whose lower-right corner is the mouse-up point. When the mouse button is released, any and all objects enclosed within the drag rectangle are selected as a group.
@@ -7845,7 +7845,7 @@ application (by dropping a file icon onto an application icon), or arranging obj
 
 The second type of drag-and-drop idiom is a little more indirect: The user drags the object to a specific area or onto another object to perform a function. These idioms are less popular but can be very useful. A good example of this can be found in the OS X Automator, as shown in Figure 18-18.
 
-![](images/f9abc3e12f6d8844802a9ba539272154ccbed2300633e8429c2648a699c2f59b.jpg)  
+![](images/f9abc3e12f6d8844802a9ba539272154ccbed2300633e8429c2648a699c2f59b.webp)  
 Figure 18-18: Apple's Automator tool in OS X allows users to set up common workflows, such as renaming an image, that are then represented as an icon. Users can then drag and drop files or folders onto the workflow icon to perform the function. While strictly speaking this isn't direct manipulation, it does provide a reasonably direct way to invoke a command.
 
 # Visual feedback for drag and drop
@@ -7928,7 +7928,7 @@ Another important detail required by auto-Scrolling is a time delay. If auto-Scr
 
 begin only after the drag cursor has been in the auto-Scroll zone for a reasonable amount of time—about a half-second.
 
-![](images/2a9e1690ee04a9afe80fa22d9cc95d0b20d930aa54fa28a78dd212ec2a578273.jpg)  
+![](images/2a9e1690ee04a9afe80fa22d9cc95d0b20d930aa54fa28a78dd212ec2a578273.webp)  
 Figure 18-19: This image expresses the concept of variable-speed autoScroll, as it could be applied to Windows Explorer. Unfortunately, autoScroll moves at a single speed that is impossible to control. It would be better if the autoScroll went faster the closer the cursor gets to the window's edge. (But it's also important to have a speed limit. AutoScroll doesn't help anyone if it goes too fast.) To its credit, Microsoft's idea of autoScrolling as the cursor approaches the inside edges of the enclosing scrollbox, rather than the outside, is clever indeed.
 
 If the user drags the cursor completely outside Word's scrollable text window, no auto-Scrolling occurs. Instead, the repositioning operation terminates in an application other than Word. For example, if the drag cursor goes outside Word and is positioned over PowerPoint, when the user releases the mouse button, the selection is pasted into the PowerPoint slide at the position indicated by the mouse. Furthermore, if the drag cursor moves within 3 or 4 millimeters of any of the borders of the PowerPoint Edit window, PowerPoint begins auto-Scrolling in the appropriate direction. This is a convenient feature, because the confines of contemporary screens mean that we often find ourselves with a loaded drag cursor and no place to drop its contents.
@@ -7941,21 +7941,21 @@ In the hardware world, controls like pushbuttons that have mechanical contacts c
 
 To avoid inadvertent repositioning, applications should establish a drag threshold. All mouse-movement messages that arrive after the mouse-down event are ignored unless the movement exceeds a small threshold amount, such as 3 pixels. This provides some protection against initiating an inadvertent drag operation. If the user can keep the mouse button within 3 pixels of the mouse-down point, the entire click action is interpreted as a selection command, and all tiny, spurious moves are ignored. As soon as the mouse moves beyond the 3-pixel threshold, the application can confidently change the operation into a drag, as shown in Figure 18-20. Whenever an object can be selected and dragged, the drag operation should be debounced.
 
-![](images/c8d2b0a6d80f02dd37618db4236100797fd5485531f0825fa1b462e18427305e.jpg)  
+![](images/c8d2b0a6d80f02dd37618db4236100797fd5485531f0825fa1b462e18427305e.webp)  
 Figure 18-20: Any object that can be both selected and dragged must be debounced. When the user clicks the object, the action must be interpreted as a selection rather than a drag, even if the user accidentally moves the mouse a pixel or two between the click and the release. The application must ignore any mouse movement as long as it stays within the uncommitted zone, which extends 3 pixels in each direction. After the cursor moves more than 3 pixels from the mouse-down coordinate, the action changes to a drag, and the object is considered "in play." This is called a drag threshold.
 
 Some applications may require more-complex drag thresholds. Three-dimensional applications often require drag thresholds that enable movement in three projected axes on the screen. Another such example arose in the design of a report generator for one of our clients. The user could reposition columns on the report by dragging them horizontally. For example, he could put the First Name column to the left of the Last Name column by dragging it into position from anywhere in the column. This was by far the most frequently used drag-and-drop idiom. However, another infrequently used drag operation allowed the values in one column to be interspersed vertically with the values of another column—for example, an address field and a state field (see Figure 18-21).
 
-![](images/03344b31fca12cce2adc000a577e592d7d984ab201b00f7c5a659c2663b7b47d.jpg)
+![](images/03344b31fca12cce2adc000a577e592d7d984ab201b00f7c5a659c2663b7b47d.webp)
 
-![](images/9fbf5aaede55cc200cb05d2bccc84a86cf1b91c0c4612937808ab544bbb06679.jpg)  
+![](images/9fbf5aaede55cc200cb05d2bccc84a86cf1b91c0c4612937808ab544bbb06679.webp)  
 Figure 18-21: This report-generator application offered an interesting feature that enabled the contents of one column to be interspersed with the contents of another by dragging and dropping it. This direct-manipulation action conflicted with the more-frequent drag-and-drop action of reordering the columns (like moving City to the left of Address). We used a special two-axis drag threshold to accomplish this.
 
 We wanted to follow the persona's mental model and enable him to drag the values of one column on top of the values of another to perform this stacking operation. However, this conflicted with the simple horizontal reordering of columns. We solved the problem by differentiating between horizontal drags and vertical drags. If the user dragged the column left or right, it meant that he was repositioning the column as a unit. If the user dragged the column up or down, it meant that he was interspersing the values of one column with the values of another.
 
 Because the horizontal drag was the predominant user action, and vertical drags were rare, we biased the drag threshold toward the horizontal axis. Instead of a square uncommitted zone, we created the spool-shaped zone shown in Figure 18-22. Because the horizontal-motion threshold was set to 4 pixels, it didn't take a big movement to commit users to the normal horizontal move while still insulating users from an inadvertent vertical move. To commit to the far less frequent vertical move, the user had to move the cursor 8 pixels on the vertical axis without deviating more than 4 pixels left or right. That motion is quite natural and easily learned.
 
-![](images/9442e8e9cc27ebe25fb78c2c06695e32b4af115bdffb9ce3459eb47d45382508.jpg)  
+![](images/9442e8e9cc27ebe25fb78c2c06695e32b4af115bdffb9ce3459eb47d45382508.webp)  
 Figure 18-22: This spool-shaped drag threshold allowed a bias toward horizontal dragging in a client's application. Horizontal dragging was by far the most frequently used type of drag in this application. This drag threshold made it difficult for the user to inadvertently begin a vertical drag. However, if the user really wanted to drag vertically, a bold move either up or down would cause the application to commit to the vertical mode with a minimum of excise.
 
 This axially asymmetric threshold can be used in other ways, too. Visio implements a similar idiom to differentiate between drawing a straight line and a curved line.
@@ -8054,7 +8054,7 @@ Handles tend to obscure the object they represent, so they don't make very good 
 
 the screen, the handles may not be visible. If they are hidden offscreen, not only are they unavailable for direct manipulation, but they are also useless as selection indicators.
 
-![](images/fcd0d21f158787639a78ff0f3002ca1c6ba7d925a58cf12216d3e078b74ec3a2.jpg)  
+![](images/fcd0d21f158787639a78ff0f3002ca1c6ba7d925a58cf12216d3e078b74ec3a2.webp)  
 Figure 18-23: The selected object has eight handles, one at each corner and one centered on each side. The handles indicate selection and are a convenient idiom for resizing and reshaping the object. Handles are sometimes implemented with pixel inversion, but in a multicolor universe they can get lost in the clutter. These handles from Microsoft PowerPoint 2010 feature a small amount of dimensional rendering to help them stand out on the slide. Non-rectangular objects display their drag handles in a rectangular bounding box around the object.
 
 As with dragging, a modifier key is often used to constrain the direction of a resize interaction. Another example of a constrained drag idiom, Shift is again used to force the resize to maintain the object's original aspect ratio. This can be quite useful. In some cases, it's also useful to constrain the resize to either a vertical, horizontal, or locked aspect ratio.
@@ -8065,7 +8065,7 @@ Many applications draw objects on the screen with polylines. A polyline is a gra
 
 it does on a rectangle, places one handle on top of every vertex of the polyline. The user can then drag any vertex of the polyline independently and actually change one small aspect of the object's internal shape rather than affecting it as a whole. This is shown in Figure 18-24.
 
-![](images/052304db4d263dc3b6387fa50e7f8c00f80aa9246f6152717aebb81b93dc2054.jpg)  
+![](images/052304db4d263dc3b6387fa50e7f8c00f80aa9246f6152717aebb81b93dc2054.webp)  
 Figure 18-24: These are vertex handles, so named because each vertex of the polygon has one handle. The user can click and drag any handle to reshape the polygon, one segment at a time. This idiom is primarily useful for drawing applications.
 
 Freeform objects in PowerPoint are rendered with polylines. If you click a freeform object, it is given a bounding rectangle with the standard eight handles. If you right-click the freeform object and choose Edit Points from the context menu, the bounding rectangle disappears, and vertex handles appear instead. It is important that both these idioms are available. The former is necessary to scale the image in proportion, and the latter is necessary to fine-tune the shape:
@@ -8124,7 +8124,7 @@ Shadows work pretty well, but all those grids and shadows can get in the way vis
 
 The idioms described in the previous section are all examples of rich visual modeless feedback, which we will discuss in detail in Chapter 15. However, for some applications, lots of grids and poles may be overkill. For example, Google's SketchUp is an architectural sketching application that lets users lay down their own drafting lines using a tape measure and protractor. As they draw their sketches, they get color-coded hinting that keeps them oriented to the right axes. Users can also turn on a blue-gradient sky and a ground color to help keep them oriented. Because the application is focused on architectural sketching, not general-purpose 3D modeling or animation, the designers were able to pull off a spare, powerful, and simple interface that is easy to both learn and use (see Figure 18-25).
 
-![](images/b12859944ada31f56af51f5098fb7fece7b61b0fd8fa9bad89d5fe10b5bc516d.jpg)  
+![](images/b12859944ada31f56af51f5098fb7fece7b61b0fd8fa9bad89d5fe10b5bc516d.webp)  
 Figure 18-25: SketchUp is a gem of an application that combines powerful 3D architectural sketching capability with smooth interaction, rich feedback, and a manageable set of design tools. Users can set sky color and real-world shadows according to location, orientation, and time of day and year. These help not only in presentation but also in orienting users. Users also can lay down 3D grid and measurement guides just as in a 2D sketching application. Camera rotate and zoom functions are cleverly mapped to the mouse scroll wheel, allowing fluid access while using other tools. ToolTips provide textual hints that help users draw lines and align objects.
 
 # Wireframes and bounding boxes
@@ -8161,7 +8161,7 @@ One more issue specific to 3D applications is the number of spatial manipulation
 
 Not only does this mean that assignment of modifier keys and keyboard shortcuts is critical in 3D applications, but another problem also occurs: It can be difficult to tell the difference between camera transformations and object transformations by looking at a camera viewpoint, even though the actual difference between the two can be quite significant. One way around this problem is to include a thumbnail, absolute view of the scene in a corner of the screen. It could be enlarged or reduced as needed and could provide a reality check and global navigation method in case the user gets lost in space. (Note that this kind of thumbnail view is useful for navigating large 2D diagrams as well.)
 
-![](images/97b480d721777aa2255ff61e79ee580a3952c008e3b5c465175044d01bf040c0.jpg)
+![](images/97b480d721777aa2255ff61e79ee580a3952c008e3b5c465175044d01bf040c0.webp)
 
 # DESIGNING FOR MOBILE AND OTHER DEVICES
 
@@ -8219,22 +8219,22 @@ Modern handheld-format devices also continue to use some of the same basic layou
 
 Stacks are perhaps the primary pattern used by most non-game mobile apps—especially on handheld devices. The tall and narrow form factor of smartphones and other handheld mobile devices dictates a list-like display for most types of content or control. The main exception is icons and thumbnails; more about these below. Stacks are vertically organized structures with a content area, usually arranged in a list or grid, with a top and/or bottom bar for navigating content and accessing functions. Most iOS, Android, and Windows Phone apps follow this top-level pattern, as shown in Figure 19-1.
 
-![](images/0ea33bd48a7fee46e921cbd846efeaab25d8ab45de95cebd795cf79ead0e35f8.jpg)
+![](images/0ea33bd48a7fee46e921cbd846efeaab25d8ab45de95cebd795cf79ead0e35f8.webp)
 
-![](images/c67ff98b4bed7dfebe2a28a29179730549aa097cf01ddff99041f11872396d8a.jpg)
+![](images/c67ff98b4bed7dfebe2a28a29179730549aa097cf01ddff99041f11872396d8a.webp)
 
-![](images/8507d9b64f8bc79ec902c8818642cd21e70b2acefe9d5b2788c0dd64966f2716.jpg)  
+![](images/8507d9b64f8bc79ec902c8818642cd21e70b2acefe9d5b2788c0dd64966f2716.webp)  
 Figure 19-1: Typical mobile apps use a stack layout pattern including content, control, and navigation elements.
 
 # Screenrousels
 
 Screen wallpapers are an alternative top-level pattern that is most appropriate for a dashboard-like display that has multiple instances or variants between which the user can quickly navigate via a swipe gesture to the left or right. The classic example of this pattern is the iOS Weather app, shown in Figure 19-2. The user swipes between identically laid-out cards or screens that, in the case of the Weather app, represent different locations. The few interactions on a wallpaper screen occur in place on the card; there usually is no drill-down navigation, as you typically see in the Stacks pattern. Carpels may or may not have top or bottom bars associated with them, but they usually do have a page marker widget that shows the user's place in the wallpaper content. Carpels often don't provide circular flow, but rather disallow further swiping at the far left and right. In most cases, there's no reason not to make it circular, which makes navigating between screens much easier.
 
-![](images/6da6bbc31a0b42ab95962a540624fd7cf61788e2b380756253b99b4bbebf8dca.jpg)
+![](images/6da6bbc31a0b42ab95962a540624fd7cf61788e2b380756253b99b4bbebf8dca.webp)
 
-![](images/198e1cb80649c0342cd7b09faad02b5b161fb0910c467ff0278f9573b0bdf9f1.jpg)
+![](images/198e1cb80649c0342cd7b09faad02b5b161fb0910c467ff0278f9573b0bdf9f1.webp)
 
-![](images/d5268ab71e7b85c5a760fc5f387576c3d89601fae317989e1e30434362d99f10.jpg)  
+![](images/d5268ab71e7b85c5a760fc5f387576c3d89601fae317989e1e30434362d99f10.webp)  
 Figure 19-2: The iOS Weather app is the classic example of a screen carousel pattern, where you can navigate between several instances of self-contained dashboard-like screens by swiping left or right. A place marker widget in the bottom bar shows the user his current position in the sequence of screens. This implementation of the pattern doesn't wrap around from the end to the beginning of the carousel, making navigation across the set harder than it needs to be.
 
 # Orientation and layout
@@ -8245,9 +8245,9 @@ Most modern mobile devices can detect their screen orientation (portrait or land
 
 However, for applications such as photo or video capture and editing, it makes sense to allow rotation to landscape orientation, since the medium itself can be in that orientation. For these sorts of apps, iconic controls make the most sense, since they can simply be rotated right along with the screen and thus minimize user disorientation (see Figure 19-3). However, this means that extra care must be taken to ensure that users can easily figure out what the controls mean.
 
-![](images/3779e2311eab639e6c33006d241ba624c38277416e8da3237e05bc383728e7d6.jpg)
+![](images/3779e2311eab639e6c33006d241ba624c38277416e8da3237e05bc383728e7d6.webp)
 
-![](images/ce8419b7b2e19f65f25394467730f419af8d4094b53440324ef2ab14c313dccd.jpg)  
+![](images/ce8419b7b2e19f65f25394467730f419af8d4094b53440324ef2ab14c313dccd.webp)  
 Figure 19-3: The Slow Shutter app on iOS does a great job of making a smooth transition from portrait to landscape. iOS's native Camera app also allows this sort of transition. But since it uses a scrolling selection bar containing text labels, the result is difficult-to-read, rotated text when the app is in landscape orientation.
 
 # Tablet format apps
@@ -8262,9 +8262,9 @@ These additional index panes can themselves have navigation and functions associ
 
 In portrait mode, index panes typically are launched from a button and overlap the main content area. Unless the content of your app's index pane is particularly narrow, you will probably want to opt for this approach (see Figure 19-4). Non-overlapping panes provide a superior interaction, even in portrait, if they are narrow enough to fit.
 
-![](images/29f17f72b966e9ab69fa77958313a8fdbff5ae4c364092a38a5081fb150fce3f.jpg)
+![](images/29f17f72b966e9ab69fa77958313a8fdbff5ae4c364092a38a5081fb150fce3f.webp)
 
-![](images/14fc378c5047c8b06deb60e72a69ef9b948b39b429246c41a792eb47e7a2063c.jpg)  
+![](images/14fc378c5047c8b06deb60e72a69ef9b948b39b429246c41a792eb47e7a2063c.webp)  
 Figure 19-4: iOS's iPad Mail app presents a navigable index pane containing mail folders and their contents. In portrait mode, the pane is launched from a button on the left of the app's nav bar and overlaps the rest of the screen until it is dismissed. In landscape mode, the pane is permanently placed adjacent to the detailed content pane.
 
 When rotated to landscape, the standard pattern calls for the overlapping pane to become a permanent adjacent pane.
@@ -8275,7 +8275,7 @@ Tablet screens are large enough to support pop-up panels that don't overlay the 
 
 Pop-up panels are different from dialogs, in that they are attached to a particular control or content object and are used to make changes to parameters associated with that object. This association typically is shown via a speech balloon caret that extends from the pop-up canvas to the control it is associated with, as shown in Figure 19-5.
 
-![](images/d0ae94387607ee4a325186b763c1f8d3d5da3dd85c7d6aed1b33e01133673b9e.jpg)  
+![](images/d0ae94387607ee4a325186b763c1f8d3d5da3dd85c7d6aed1b33e01133673b9e.webp)  
 Figure 19-5: The Procreate digital painting app on iOS makes extensive use of pop-up control panels as a means of configuring the drawing tools in the app's tool bar. These pop-up panels show their connection to the tool via a speech-balloon-like caret that emerges from the otherwise rectangular panel.
 
 # Orientation-based layout
@@ -8288,9 +8288,9 @@ The high-resolution displays on modern touchscreen tablets rival those of many l
 
 However, due to the complexity of productivity and creative authoring apps that seek to replace similar desktop apps, there is more of a case for adopting more desktop-like tool bars and panes. Audio and video production apps in particular seem well-suited to a more desktop-like approach, as shown in Figure 19-6. Here relatively dense control layouts, multiple panes, complex tool bars and control panels, large pop-up panels or drawers, and drag-and-drop idioms make sense.
 
-![](images/188269b9cce7ca4e5707400d705d2413795f6c551dfc2cc8ed95caad5d3a14a2.jpg)
+![](images/188269b9cce7ca4e5707400d705d2413795f6c551dfc2cc8ed95caad5d3a14a2.webp)
 
-![](images/9e15900c4c68c2f60a2fb70ad8ba3fbbc4bac9de57ca3dc7e22e3fb6f3c8fa13.jpg)  
+![](images/9e15900c4c68c2f60a2fb70ad8ba3fbbc4bac9de57ca3dc7e22e3fb6f3c8fa13.webp)  
 Figure 19-6: Steinberg's Cubasis and Corel's Pinnacle Studio are examples of media production apps that are well suited to a more complex layout that more closely resembles desktop apps.
 
 If your app is in this category, keep the following principles in mind:
@@ -8309,7 +8309,7 @@ For certain apps, especially those in the domain of music production, interfaces
 
 Mini-tablets such as Google's Nexus 7 and the Kindle Fire are popular, inexpensive mobile devices that handily fit into a large purse or pocket, making them popular with consumers. From a user experience perspective, however, their combination of a narrow 16:9 aspect ratio, support for both screen orientations, and a small size represent challenges for a designer of touch-based experience. There simply isn't as much room for finger-sized controls as on a full-sized tablet. But at the same time, there's a bit too much room for apps designed for phones to look aesthetically well proportioned, especially using standard OS widgetry.
 
-![](images/f4c59a8b8fd9e3d50b753fbec5c4c95b4fb2da827081bfd725282afcae1fa5fb.jpg)  
+![](images/f4c59a8b8fd9e3d50b753fbec5c4c95b4fb2da827081bfd725282afcae1fa5fb.webp)  
 Figure 19-7: Positive Grid's Final Touch app provides pro-quality audio mastering on the iPad. While making extensive use of hardware control metaphors, its smart layout and workflow, along with judicious use of direct-manipulation idioms in combination with the hardware-like controls, make it both extremely powerful and easy to use.
 
 Navigation and layout strategies employed by handheld and tablet format apps will work for mini-tablets, with some caveats:
@@ -8340,7 +8340,7 @@ Tapping a content item in a list typically drills down a level in the hierarchy,
 
 As we'll discuss in a minute, list views often work in conjunction with tab bars to provide access to multiple screens of content, each in its separately maintained list. Apple's Music app is a good example of this, with lists of albums, artists, and songs available on different tabs, each with its own (slightly different, but related) drill-down hierarchies (see Figure 19-8).
 
-![](images/173ce9ccb67a040a202c5e8b38550acbabfd4f6a7084bc3441c49d7d6a37356a.jpg)  
+![](images/173ce9ccb67a040a202c5e8b38550acbabfd4f6a7084bc3441c49d7d6a37356a.webp)  
 Figure 19-8: The iOS Music app has tabbed lists of albums, artists, and songs, among others. Navigating between lists is accomplished via a bottom tab bar.
 
 Lists can either be finite in length or allow infinite scrolling. This kind of scrolling presents an initial subset of items from a very large set (such as web search results) and then presents an additional block of results each time the user reaches the bottom of the list. While infinite scrolling is a necessary compromise due to limited computing resources, it is a reasonably elegant solution, as long as the incremental load time can be kept under a second or so.
@@ -8349,11 +8349,11 @@ Lists can either be finite in length or allow infinite scrolling. This kind of s
 
 Grids are used to organize content such as apps, thumbnails, and function icons into regular rows and columns. The most obvious example of this is the home screen of the iPhone, with its editable grid of app icons. Android supports a similar interface. Microsoft has taken the idea of the app icon grid and transformed it into the more innovative Start screen grid. It mixes apps and notifications in an aesthetically pleasing and useful way, as shown in Figure 19-9.
 
-![](images/fdcb4f3e1a9486ff47ad2196c769da8ffbc5b723b0f28e0b0464ce15dbb97b3b.jpg)
+![](images/fdcb4f3e1a9486ff47ad2196c769da8ffbc5b723b0f28e0b0464ce15dbb97b3b.webp)
 
-![](images/91cc5be9de84dc399ed3220d9ca6fa4069ac637d4004e6945ea6d8ffebf5d9a8.jpg)
+![](images/91cc5be9de84dc399ed3220d9ca6fa4069ac637d4004e6945ea6d8ffebf5d9a8.webp)
 
-![](images/5bbd8654f94cb63d85656f5660971f395fbb49ddece56a0356225c957f9097dc.jpg)  
+![](images/5bbd8654f94cb63d85656f5660971f395fbb49ddece56a0356225c957f9097dc.webp)  
 Figure 19-9: iOS and Android home screens use a similar app grid, both of which are derived from the original Palm Pilot. Microsoft, on the other hand, evolved its Zune interface into the Metro UI, with its unique Start screen grid that seamlessly—and beautifully—combines apps and notifications.
 
 Within an app, grid views (also called gallery views) often are used to present media objects. These include photos, videos, and music albums (with cover art), or small, encapsulated cards (more on this later) containing image, text, and sometimes button or link elements. One challenge with presenting grids of content objects is making sure users understand how to navigate them. The iPhone's home screen uses horizontal swipes to navigate between grid "pages." Most apps that use grids as a primary navigation and selection mechanism, such as Rdio (see Figure 19-10), use pageless, and sometimes infinite, vertical scrolling to expose more grid objects (albums in this case). The direction of scrolling is nicely disambiguated by sizing the album art so that the bottom-most visible row is partly cut off. This provides the necessary visual hint that a vertical swipe up will reveal more choices.
@@ -8364,14 +8364,14 @@ Within an app, grid views (also called gallery views) often are used to present 
 
 <!-- Chunk 12 Start -->
 
-![](images/900a6e5870f2303d5c403e00dc8a1224ba4bce30384b181b2564d876500b10a7.jpg)  
+![](images/900a6e5870f2303d5c403e00dc8a1224ba4bce30384b181b2564d876500b10a7.webp)  
 Figure 19-10: The Rdio streaming music app using a two-column scrolling grid to display album choices. The bottom-most visible row is cut off, which hints that scrolling is vertical.
 
 Apple's Photos app, shown in Figure 19-11, uses a much tighter four-column grid for the Camera Roll, which also scrolls vertically.
 
 Grids also can scroll horizontally, as in Apple's Music app when the iPhone is rotated to landscape orientation, as shown in Figure 19-12.
 
-![](images/d1e6fc7e50e3ccc2436bf315c6e8f2be9946d0241b4340f2c922f2e6c5915766.jpg)  
+![](images/d1e6fc7e50e3ccc2436bf315c6e8f2be9946d0241b4340f2c922f2e6c5915766.webp)  
 Figure 19-11: The Camera Roll in Apple's Photos app uses a tighter grid with four vertically scrolling columns on the iPhone.
 
 It might be tempting to allow zooming in and out on the grid via a pinch gesture, but generally this is not a good idea, especially in the narrow portrait orientation of the handheld form factor. Issues quickly arise concerning the legibility and hit area of the icons or thumbnails, as well as column width of text labels and metadata.
@@ -8380,7 +8380,7 @@ As with lists, tapping a content item in a grid typically drills down into a hie
 
 Like lists, grids can be either finite or infinitely scrolling, where rows or columns of additional items are added incrementally when the end of the grid is reached.
 
-![](images/1ab1d930067abbf86d273aa3f69fb538be86245a7749f98d5ae36327e9060352.jpg)  
+![](images/1ab1d930067abbf86d273aa3f69fb538be86245a7749f98d5ae36327e9060352.webp)  
 Figure 19-12: When rotated to landscape view on an iPhone, Apple's Music app displays a horizontally scrolling grid of album art. Tapping the art drills down to a view of the album that includes the album art, vertically scrolling track list, and transport controls.
 
 # Contentrousels
@@ -8395,11 +8395,11 @@ Typically, content carousel are used to present a relatively small set of object
 
 example of this is the Crackle app on iPhone, shown in Figure 19-13. The app has a large carousel at the top of its Featured tab. It wraps and includes a page marker widget so that users know when they've returned to the beginning. (This trick works only with carousel containing a short list of items.) It also auto-advances the carousel every few seconds—a common variation of the idiom. This helps users understand the behavior, as well as helping the app feel more dynamic and ensuring that users are exposed to the featured items. Care must be taken not to auto-advance a carousel so fast that users have trouble reading or focusing on the content. This animation should also pause while the user is interacting with other elements on the screen to avoid disorienting transitions.
 
-![](images/51919e36ec0e447ba7a1de7a88255c325688b1b5e63c60901930b9d1b40f8115.jpg)
+![](images/51919e36ec0e447ba7a1de7a88255c325688b1b5e63c60901930b9d1b40f8115.webp)
 
-![](images/2b213130cc86d44b2656ff68df5386a47fd54ede0f62bf61db6ed15cd9d5b7e7.jpg)
+![](images/2b213130cc86d44b2656ff68df5386a47fd54ede0f62bf61db6ed15cd9d5b7e7.webp)
 
-![](images/d070ffc3ce1d850ad611adae7a1eb007713d23009ce38c1569f7e132868dfefc.jpg)  
+![](images/d070ffc3ce1d850ad611adae7a1eb007713d23009ce38c1569f7e132868dfefc.webp)  
 Figure 19-13: The Crackle app on the iPhone (left) offers a good example of a content carousel on its Featured tab. It works well. But the arrow that indicates a drilldown to the details of each carousel item is sized and positioned such that it looks more like a way to navigate to the next carousel item. Safari on the iPhone (right) offers an example of a vertical carousel in place of browser tabs. The iPad App Store app (center) makes use of a 3D layered effect.
 
 Much less common is a vertically oriented carousel. Apple employs one in Safari for the iPhone in iOS 7 in place of browser tabs. The user swipes up and down to browse, taps to select, and swipes left to delete a tab (see Figure 19-13).
@@ -8412,7 +8412,7 @@ Simply put, swimlanes are a vertical stack of carousels, each of which can be sc
 
 The Netflix app makes great use of swimlanes for category-based content. Users scroll vertically through the categories and horizontally to browse a category. It works well even though the screen's portrait orientation makes for a narrow viewpoint on the content, as shown in Figure 19-14. The Apple App Store uses both a carousel and a set of swimlanes on its Featured tab. This combination works well, because the navigational gestures are identical for all elements on the screen.
 
-![](images/55d05de9dbcbfb6bb403bed73b40795bd4736aacb36c07f9172b20420c4cedc5.jpg)  
+![](images/55d05de9dbcbfb6bb403bed73b40795bd4736aacb36c07f9172b20420c4cedc5.webp)  
 Figure 19-14: The Netflix app uses swimlanes as its primary browse paradigm. Apple's App Store combines the use of a carousel and a set of swimlanes for items highlighted on its Featured tab.
 
 The authors have seldom seen swimlanes that auto-wrap back to the beginning of the list. But they probably should, with a marker of some kind between the end and beginning object so that users receive visual feedback that indicates when they have returned to the starting point in the list. While swimlanes typically are used for finite lists of featured items, you can imagine them being used with infinitely scrolling lists as well. (Imagine categorized search results, for example.) However, swimlanes—unlike carousel—should never auto-advance.
@@ -8423,16 +8423,16 @@ Cards are a relatively new idiom for mobile that can perhaps in some ways trace 
 
 Fast-forward to modern mobile applications, and the same need arises: How do you present meaningful chunks of rich-media content for easy consumption on a constrained display? Add to this the social and contextual nature of most mobile interactions, and you have what exemplifies the modern card-based UI—a self-contained interactive object combining media, text, web links, and social actions such as commenting, sharing, tagging, and adding media. Facebook and LinkedIn both use cards as a central idiom in their handheld apps, as shown in Figure 19-15.
 
-![](images/32820fc2685c1d41d38a63bcc0ca3b52afdde2d86f21fd0cfded261dce07e420.jpg)
+![](images/32820fc2685c1d41d38a63bcc0ca3b52afdde2d86f21fd0cfded261dce07e420.webp)
 
-![](images/13ec0027bc4098a8140a51b06d36f5be6deba6beb782c43708689fa9b8b4823c.jpg)  
+![](images/13ec0027bc4098a8140a51b06d36f5be6deba6beb782c43708689fa9b8b4823c.webp)  
 Figure 19-15: Facebook and LinkedIn's apps both use cards as a central idiom.
 
 The Google Search app's Google Now feature has a different approach to cards. It is more focused on contextual information (time, location, and information pulled from
 
 the usage of other Google apps) than it is on social interaction. Google's cards are small encapsulations of data pulled from other Google services, such as weather, maps, stocks, restaurant reviews, and notifications pulled from calendar and e-mail data. Tapping their content takes the user to the full app or web interface from which they originated, providing an avenue for deeper interaction if desired (see Figure 19-16). Google's cards also have individual settings that can be accessed by tapping an icon in the upper-right corner. Doing so flips over the card, revealing access to a configuration interface.
 
-![](images/51c7b7da94a4e75b478f4edaa7691a65cefbb96868489fb93d636a0ca6d596fa.jpg)
+![](images/51c7b7da94a4e75b478f4edaa7691a65cefbb96868489fb93d636a0ca6d596fa.webp)
 
 Stocks today 5/2014, 4:30 PM EDT
 
@@ -8454,7 +8454,7 @@ Bonhamas Auctioners PressReleases - 20 hours , 36 min .
 
 Update to website you recently visited
 
-![](images/38a7029ee2249e9fbbc2ae82f0fc0b1f3891f0447588051acbc879267cbfb081.jpg)
+![](images/38a7029ee2249e9fbbc2ae82f0fc0b1f3891f0447588051acbc879267cbfb081.webp)
 
 Male Celebs Become Terrifying When Given
 
@@ -8462,7 +8462,7 @@ Zooey Deschanel's Baby Blues
 
 People Magazine - 22 hours, 39 minutes ago.
 
-![](images/ae6e959e7db93ad314fa1244047ecb16a1a71c28c6029463dc6dd14ac364a9bf.jpg)
+![](images/ae6e959e7db93ad314fa1244047ecb16a1a71c28c6029463dc6dd14ac364a9bf.webp)
 
 Mad Men Season 7
 
@@ -8474,11 +8474,11 @@ Shipped - Tuesday, May 27, 4:11 PM
 
 Estimated arrival:
 
-![](images/76f2e3bb79476a7619ebdf016d282275572d0a32d09f44e180a04313e9da1e30.jpg)
+![](images/76f2e3bb79476a7619ebdf016d282275572d0a32d09f44e180a04313e9da1e30.webp)
 
 Track all packages
 
-![](images/6c1b715b8d65bb1047a514e35b0fa318b0dc41cdcb08015ff0c4602eb3a9b978.jpg)
+![](images/6c1b715b8d65bb1047a514e35b0fa318b0dc41cdcb08015ff0c4602eb3a9b978.webp)
 
 View email
 
@@ -8486,11 +8486,11 @@ Logitech Ultrathin for iPad Air (2014)
 
 Table PC Review - 17 hours. 51 minutes ago.
 
-![](images/aa4e228d8b31bd35aac54adf00fa25734574e5913fe055fde43005f040bc493b.jpg)
+![](images/aa4e228d8b31bd35aac54adf00fa25734574e5913fe055fde43005f040bc493b.webp)
 
 IPad
 
-![](images/610fa27f809e2ad595aa2041db8fac829380c2e7e7e6808548842b600339d6bf.jpg)
+![](images/610fa27f809e2ad595aa2041db8fac829380c2e7e7e6808548842b600339d6bf.webp)
 
 43 minutes to work
 
@@ -8500,12 +8500,12 @@ Heavy traffic on 1-90 E and Memorial Dr
 
 Walnut St
 
-![](images/7bce985806ab5123fbceb9da0d102943727cf5e3fcff7002b101fc20e101e99a.jpg)  
+![](images/7bce985806ab5123fbceb9da0d102943727cf5e3fcff7002b101fc20e101e99a.webp)  
 Figure 19-16: The Google Search app uses cards that return encapsulated snippets of useful information based on the user's current context, including location, time, and relevant related information pulled from other Google services.
 
 Cards are most often displayed in a scrolling vertical list, but they also lend themselves to grid, carousel, and swimlane layouts. Facebook's Paper app provides a good example of the use of cards in a nonstandard layout: The top half of the screen is a category card that cycles through individual posts. If it is tapped, the post is expanded on a full-screen card, as shown in Figure 19-17. Under the category card is an infinitely scrolling swimlane of posts fitting the category. Swiping up on these expands the swimlane to full-screen height, making more detailed content visible. (Swiping down returns them to the bottom of the screen.) Tapping any shared content inside the expanded card takes the user to the content's original source.
 
-![](images/a897ae57852e258b2c268f7ac506cf73e20d42a24f5396dc348b6b44eded17b7.jpg)  
+![](images/a897ae57852e258b2c268f7ac506cf73e20d42a24f5396dc348b6b44eded17b7.webp)  
 Figure 19-17: Facebook's Paper app is a good example of cards used in a nonlist layout. Content navigation in the app is achieved via a card carousel of content categories (each of which automatically cycles through recent content) and an infinite card swimlane that the user can browse through.
 
 # Navigation and tool bars
@@ -8516,27 +8516,27 @@ Bars are the primary mechanism for navigating to the different functional and co
 
 Tab bars contain a set of text and/or icon buttons. (iOS tab buttons frequently sport an icon with a text label beneath it.) Tapping a tab button switches to a different list or grid view in the main content area, as you'd expect a tab to do. Each tab in a tab bar maintains its own content hierarchy of associated lists and grids and typically preserves the state of that hierarchy while the app is running. Tab bars are frequently found at the bottom of iOS screens and, more frequently, at or near the top of Android and Windows Phone screens, as shown in Figure 19-18.
 
-![](images/abfe82b0d5e66698ca66611e9660aba9eee2a656bcb460b9faf6fc7bedebae4e.jpg)
+![](images/abfe82b0d5e66698ca66611e9660aba9eee2a656bcb460b9faf6fc7bedebae4e.webp)
 
-![](images/df462fae2823183a2bc5e507290f550732d12571223030883f9b13b2b0cb101c.jpg)  
+![](images/df462fae2823183a2bc5e507290f550732d12571223030883f9b13b2b0cb101c.webp)  
 Figure 19-18: Use of tab bars in iOS, Android, and Windows Phone. iOS tab bars typically are at the bottom of the screen, and Android tab bars generally form a secondary navigation beneath a nav bar (or action bar, in Android terms). Windows Phone uses a tab bar that is purely textual, without rendering a bar rectangle.
 
 Some tablet apps use vertical tab bars aligned to the left edge of the screen. Spotify and Twitter currently use this tab bar variant in their iOS tablet apps, as shown in Figure 19-19.
 
-![](images/d9258d84293ff2a9b0bb90ab8172983e92eff49fa0357f34b05c266982838011.jpg)
+![](images/d9258d84293ff2a9b0bb90ab8172983e92eff49fa0357f34b05c266982838011.webp)
 
-![](images/1e72f3a84ff59579fa8ac1956421eac94c7342498a9f46706f39af063374038a.jpg)  
+![](images/1e72f3a84ff59579fa8ac1956421eac94c7342498a9f46706f39af063374038a.webp)  
 Figure 19-19: Twitter and Spotify use vertical tab bars in their tablet apps. They use buttons containing both icons and text for clarity, which works well given the large amount of vertical space available.
 
 # More... controls
 
 The narrow aspect ratio of most handheld screens, as well as the need to provide fingertip-sized hit areas, limits the practical number of controls that can live in a bar to no more than about five. Both iOS and Android deal with this limitation using two strategies.
 
-![](images/aeb30d52e456dd3599d3c029ea8cb7e1b884682d354538b490ced165551207b3.jpg)
+![](images/aeb30d52e456dd3599d3c029ea8cb7e1b884682d354538b490ced165551207b3.webp)
 
-![](images/8834dc88f01b86380f50553c5e555ef4ba51cf0d3058a6c829747d935f84d418.jpg)
+![](images/8834dc88f01b86380f50553c5e555ef4ba51cf0d3058a6c829747d935f84d418.webp)
 
-![](images/9f6999f224d00d72b702a394a2eb15832fcae24b1f5a5e2dc331eb47aefaeb01.jpg)  
+![](images/9f6999f224d00d72b702a394a2eb15832fcae24b1f5a5e2dc331eb47aefaeb01.webp)  
 Figure 19-20: More... controls in iOS's Music app (left), and Rdio (right). Rdio's More... control launches a modal pop-up that allows genre selection of radio stations.
 
 The More... control, shown in Figure 19-20, is a tab bar or action bar control that gets around the limited screen real estate of mobile apps. In iOS this is usually a tab that shows a screen of additional navigation options. It often has an edit mode that allows the user to drag an option from that screen onto the bar, which swaps the dragged option with the one occupying the slot in the bar that the new option was dropped on. In Android, a More... control lives on the right side of the action menu (see the section on nav and action bars later in this chapter) and opens a pop-up menu of additional navigation options or (more typically) functions. Some iOS apps, such as the Rdio streaming music app for iPhone, use a similar idiom in the upper right of the screen as a way to select additional options via a full-screen modal pop-up.
@@ -8545,7 +8545,7 @@ The More... control, shown in Figure 19-20, is a tab bar or action bar control t
 
 A different approach to the same problem that the More... control addresses is the tab carousel, which elegantly marries the concept of tabs with that of horizontally swipable carousel. Tabs are shown in the tab bar as usual but extend off the edges of the screen. The selected tab is centered or otherwise highlighted in the tab bar. Tapping another tab selects it. Swiping the tab bar (and, in some cases, the view it controls) selects the adjacent tab on the left or right and slides the contents into view, as shown in Figure 19-21.
 
-![](images/d6345335a78c892b8702ed996b8ae262654023332e48b1dc91f9730ad4d1dcbb.jpg)  
+![](images/d6345335a78c892b8702ed996b8ae262654023332e48b1dc91f9730ad4d1dcbb.webp)  
 Figure 19-21: Spotify's iPhone app uses a tab carousel in its Your Music section, which is accessed via its main navigation drawer.
 
 As with other carousel views, it is important that at least one tab label is initially shown extending off the edge of the screen, to provide the hint of scrollability in the tab bar. Windows Phone uses a variant of the tab carousel as a primary navigation mechanism in its apps. The tab bar is not rendered, but purely textual tabs are employed (see Figure 19-18).
@@ -8554,11 +8554,11 @@ As with other carousel views, it is important that at least one tab label is ini
 
 Nav bars, located at the top of the screen, provide a way to navigate a list or grid hierarchy, as shown in Figure 19-22. Typically they contain at the very least a back button on the left and the title of the current list, grid, or other type of content screen in the center. Android calls this set of controls an action bar. Frequently, function menus or buttons are included on the right.
 
-![](images/1920e7d097a22ede02e19152e2a0280c39cc014e3dc49a29ee26925779ab97e6.jpg)
+![](images/1920e7d097a22ede02e19152e2a0280c39cc014e3dc49a29ee26925779ab97e6.webp)
 
-![](images/c42978e6a50676d0b26c4dc5d548a47f57a7ba00583ceb88e83bd71b53fbe7d7.jpg)
+![](images/c42978e6a50676d0b26c4dc5d548a47f57a7ba00583ceb88e83bd71b53fbe7d7.webp)
 
-![](images/990f0e191fe5a37366482630271079b9bbbd1f0dae05614012c0325d28a8ce56.jpg)  
+![](images/990f0e191fe5a37366482630271079b9bbbd1f0dae05614012c0325d28a8ce56.webp)  
 Figure 19-22: Use of nav bars in iOS (left), Android (center), and Windows phone (right). Android encourages an action bar at the top of the screen, which incorporates navigation and access to functions. Android and Windows Phone also makes use of a system-level nav bar at the bottom of the screen. Windows Phone's Metro design language discourages use of top nav bars.
 
 Most versions of Android (and Windows Phone, as of 8.1) have a system-level navigation bar at the bottom. It contains a back control (which takes the user to the previously viewed screen, regardless of app or hierarchy), a home control, and a "recents" control (Windows Phone also includes search). The presence of a ubiquitous bar at the bottom means that Android apps typically place most of their app navigation at the top of the screen.
@@ -8583,12 +8583,12 @@ On tablets, more-complex tool bars supporting pop-up control panels and palettes
 
 Just as carousel have crossbred with tab bars, they have also combined with tool bars, allowing more functions than can comfortably fit across the screen to be accessible with a horizontal swipe. Tool carousel seem particularly popular with image processing apps such as Google's Snapseed, shown in Figure 19-24. Each item in the tool carousel is a labeled thumbnail that both describes and shows a small example of the filter or effect applied to an image. (In an ideal world, the image would be the one you were actually editing at the time, but scale can become an issue.)
 
-![](images/3c30df7f5285950c63e075e7742dca8333f3be9e4ed49400e63298ba48d7c522.jpg)  
+![](images/3c30df7f5285950c63e075e7742dca8333f3be9e4ed49400e63298ba48d7c522.webp)  
 Figure 19-23: The Art Studio app uses vertical tool bars as well as a desktop-like menu bar and sliders embedded in its bottom tool bar. Authoring tools like this begin to rival the complexity of desktop applications. The tablet screen becomes quite cluttered with this many controls, so Art Studio lets you hide them while working, similar to desktop design tools such as Adobe Photoshop.
 
-![](images/15b30bd50d5e946d875f413310d833f14ed3146bfa2b029a233ff6795fda0e17.jpg)
+![](images/15b30bd50d5e946d875f413310d833f14ed3146bfa2b029a233ff6795fda0e17.webp)
 
-![](images/8e27ced0bfdf7f335c8b6e7cb55ccc5f852d9adaeff980ea8b057a606858fda6.jpg)  
+![](images/8e27ced0bfdf7f335c8b6e7cb55ccc5f852d9adaeff980ea8b057a606858fda6.webp)  
 Figure 19-24: Google's Snapseed app uses a carousel to let you select the tool. After it is selected, the appropriate controls for the tool are shown, in some cases including a secondary tool carousel for choosing a specific setting.
 
 By stacking two bars, you can build a rather complex set of features in a way that tames the complexity. A tool bar lets you select the category of tool (effects, filters, adjustments), and a tool carousel contains items for each specific tool or variant in a category.
@@ -8603,21 +8603,21 @@ This isn't a good idea for a couple reasons. First, a row of text labels in a ba
 
 Drawers are a clever idiom that provides access to a vertical list of navigational elements similar to tabs. They use minimal screen real estate by hiding in a panel that lives in a layer under the main content area. The drawer icon is also called the hamburger menu icon due to its shape: three short, stacked lines. Tapping this icon—or, sometimes, swiping across the main content area—slides the content area horizontally to reveal the drawer under it. As with tabs, the current selection is highlighted. Tapping a drawer item simultaneously swaps what is displayed in the content area and snaps the drawer back shut. Items in the drawer are usually textual, but may have icons and other adornments. Additional controls may also live in the drawer. Google's Gmail app on the iPhone, shown in Figure 19-25, illustrates a typical use of the drawer idiom.
 
-![](images/347c5d95a8cb738de2fcaa0a135019707e533a978daf33cdbf9546d0f611d87d.jpg)  
+![](images/347c5d95a8cb738de2fcaa0a135019707e533a978daf33cdbf9546d0f611d87d.webp)  
 Figure 19-25: The Gmail app on the iPhone uses a drawer with additional navigation elements inside it. It's a little disconcerting that the account management UI slides down from the top while the settings UI slides up from the bottom (and takes up the full screen), even though both controls are next to each other in the drawer.
 
 # Secondary-action drawers
 
 Drawers can be used to replace a navigational tab bar or can be used to interact with a secondary set of objects in the app. Drawers usually slide open from the left, but not always. Some secondary actions are put in a drawer that deploys from the right. The current version of the Facebook app for the iPhone uses a set of fairly standard bottom tabs (including a More... tab) for its main navigation. It also offers a right-hand drawer that gives you access to a list of online friends for chatting, as shown in Figure 19-26.
 
-![](images/864d4c7a2b6de1e5ce01e887399848791a3d1cfd2ca45a511f3093b092493d9e.jpg)  
+![](images/864d4c7a2b6de1e5ce01e887399848791a3d1cfd2ca45a511f3093b092493d9e.webp)  
 Figure 19-26: The Facebook app on the iPhone uses a right-hand drawer to let you access online friends for chatting.
 
 # Double drawers
 
 Path, an intriguing timeline-based social networking app on iOS, has successfully opted to minimize its use of tab and tool bars in favor of idioms that take up less main screen real estate. The Path design, as shown in Figure 19-27, uses two drawers—a standard left-hand drawer for primary navigation between views, and a Facebook-like right-hand drawer for messaging friends. Path also uses a nonstandard but interesting tool menu control that fans open from the lower-left corner of the main content area when activated. Although it adds a tap to access these functions, the interaction is both clear and pleasing in its execution, and it allows the content area to shine.
 
-![](images/cb46ed199816ebbe6e9bc8ce65f80c0e255da312477de4a308a7239d0e9a5f2a.jpg)  
+![](images/cb46ed199816ebbe6e9bc8ce65f80c0e255da312477de4a308a7239d0e9a5f2a.webp)  
 Figure 19-27: The Path app on the iPhone uses both a standard left-hand drawer for primary navigation and a right-hand drawer for messaging friends. In addition, Path uses a nonstandard pop-up action menu that fans out from the lower-left corner of the main content area when tapped.
 
 # Item-level drawers
@@ -8632,9 +8632,9 @@ The Slacker streaming music app on iPhone, shown in Figure 19-28, provides a wor
 
 containing an info button. Tapping it takes the user to a detailed metadata screen. While this idea reduces UI clutter, its discoverability is low, because swiping individual grid items is a nonstandard interaction. Therefore, this type of interaction requires some explanation in a welcome or help UI, and even then it's questionable whether most users will find it.
 
-![](images/897f99c4a7e173f2cc34a4e0e4349c2e12ae12bd770266e0a9b968bc566a625b.jpg)
+![](images/897f99c4a7e173f2cc34a4e0e4349c2e12ae12bd770266e0a9b968bc566a625b.webp)
 
-![](images/f7c5811556a73176182a35d5e65e02a59303571bb9bad688b2f50ea3ef0ec422.jpg)  
+![](images/f7c5811556a73176182a35d5e65e02a59303571bb9bad688b2f50ea3ef0ec422.webp)  
 Figure 19-28: Slacker's streaming music app uses item-level drawers in both grid and list views to give access to an info button that takes users to a detailed metadata screen for the selected item. Although it is elegant in terms of avoiding clutter, its discoverability is low.
 
 # Drawer behaviors to avoid
@@ -8655,7 +8655,7 @@ Limit the number of animated screen transitions.
 
 Unlike Google's Gmail app, the Google+ app for iOS, shown in Figure 19-29, breaks drawer convention. It slides the drawer open on top of the main content area, rather than having the content area slide over to reveal the drawer underneath. This type of behavior usually is seen on tablets when an index pane of content is opened in portrait mode. It's puzzling why Google didn't stick with the more appropriate drawer idiom it was already using for its Gmail app.
 
-![](images/bfdb286d9e708bda11c261bec19c6fb453964d85ecb0e67c7f73da4b7d60c700.jpg)  
+![](images/bfdb286d9e708bda11c261bec19c6fb453964d85ecb0e67c7f73da4b7d60c700.webp)  
 Figure 19-29: The Google+ app breaks the drawer pattern by sliding it over the content area—more like a content index pane—instead of sliding away the content area to reveal the drawer's contents.
 
 # The drawer controversy
@@ -8678,17 +8678,17 @@ The iDraw app, shown in Figure 19-30, provides a good example tap-to-reveal: Tap
 
 Similarly, streaming video apps use the tap-to-reveal idiom for controls that normally are hidden during playback. Tapping anywhere on the video playback area of the YouTube app (see Figure 19-31) launches transport, volume, and other controls.
 
-![](images/2150359a3d4206bdff3f56e35247792abd0a61e524cad508706796667b1661f4.jpg)  
+![](images/2150359a3d4206bdff3f56e35247792abd0a61e524cad508706796667b1661f4.webp)  
 Figure 19-30: The iDraw app uses traditional desktop-style drag handles that appear when an object is tapped. An additive selection mode allows successive taps to select additional objects as a group.
 
-![](images/731935cc0b464ecba23f3c9a58ac8503bfbeb24a0a80b40d2316ff71cd630c31.jpg)  
+![](images/731935cc0b464ecba23f3c9a58ac8503bfbeb24a0a80b40d2316ff71cd630c31.webp)  
 Figure 19-31: YouTube makes its transport, volume, and other controls temporarily available as icons superimposed on the video display area when it is tapped. This design method helps eliminate clutter, but it must be discovered. Luckily, most mobile video apps use this idiom, and tapping the playback area isn't that much of a stretch discovery-wise.
 
 # Direct manipulation controls
 
 Some apps go to the next step of direct manipulation that touch-based screens permit—replacing cumbersome indirect-manipulation idioms such as sliders with gestures on the object being edited. The best of these, such as Google's Snapseed image editor, provide dynamic feedback hints that show roughly how the gestures will affect the object being edited. For instance, when you use the tilt-shift effect, tapping the image displays a center adjustment point, as well as sets of double lines indicating the effect's angle and transition interval (see Figure 19-32). The user can move the effect's center point, swipe horizontally to widen or narrow the transition area (also tracked by a thermometer-like display below), and twist his or her thumb and forefinger on the screen to change the angle of the effect. Although some discovery and learning are involved, it quickly becomes second nature and provides a tremendously immersive way of editing and correcting photos.
 
-![](images/3adef2cbe9056f39cc8cf30f5452d22facb5f73ff221f3ce0f6d15d9ec1f5992.jpg)  
+![](images/3adef2cbe9056f39cc8cf30f5452d22facb5f73ff221f3ce0f6d15d9ec1f5992.webp)  
 Figure 19-32: Snapseed provides innovative and highly immersive direct-manipulation tools for editing images, eliminating the need for the traditional banks of knobs and sliders that such interfaces usually entail. The price of this approach is a steeper discovery curve, but this disadvantage can be offset as Snapseed does—with one-time welcome/help screens for each tool.
 
 # Searching, sorting, and filtering
@@ -8709,16 +8709,16 @@ Of course, even with the best possible browse options, the user's need to search
 - Auto-complete—As the user types, displaying a list of popular options matching the entered letters can dramatically decrease keyboard time and user frustration.   
 - Tap-ahead—This is a refinement on top of auto-complete. Tap-ahead allows users to take any auto-completed term option the app provides as the result of auto-suggest, load it into the search box, and run a new auto-complete query. This might be overkill for some searches, but it is certainly useful for web searches and in more technical domains where precision of search terms might be important. The Google Search app uses tap-ahead, as shown in Figure 19-33.
 
-![](images/dd43c0d098f49441bed7877ce3555c053b92acbe3733c61710d7d7e0a07e46a9.jpg)
+![](images/dd43c0d098f49441bed7877ce3555c053b92acbe3733c61710d7d7e0a07e46a9.webp)
 
-![](images/7d7d9f45eb9806459a1fbe184973de55c397b1fe5665362601e67988473d6991.jpg)  
+![](images/7d7d9f45eb9806459a1fbe184973de55c397b1fe5665362601e67988473d6991.webp)  
 Figure 19-33: Google's Search app uses voice search and recent/frequent search suggestions (left), auto-complete (right), and tap-ahead (both).
 
 - Recent/frequent searches—Humans are creatures of habit who typically search for the same things repeatedly. Any search functionality should remember past searches and present them as soon as the user taps the search box. Ideally these results should be organized in order of most frequent and most recent. They also should support tap-ahead so that they can be used to start a related search if desired, as the Google Search app does.   
 - Auto-suggest—A more sophisticated improvement on strict auto-complete, autosuggest uses fuzzy matching techniques to provide spell-corrected, controlled-vocabulary, and synonym options in its option list. Typically, auto-suggest options include a small set of strict auto-complete options at the top, with a larger set of suggested results beneath.   
 - Categorized suggestions—Building on auto-suggest, an app that needs to search across several types of data can provide suggested options in each category. iOS's Spotlight search, shown in Figure 19-34, does this well. It provides instantaneous categorized suggestions (with thumbnail images where appropriate) pulled from apps, contacts, music, videos, mail, messages, calendar, notes, reminders, and more.
 
-![](images/6078acac8058ee8970d7b02f98637d699b6daaa1887f4fe318098b37ffd84261.jpg)  
+![](images/6078acac8058ee8970d7b02f98637d699b6daaa1887f4fe318098b37ffd84261.webp)  
 Figure 19-34: iOS's Spotlight search uses voice search, auto-suggest, and categorized suggestions.
 
 # Sorting and filtering
@@ -8729,9 +8729,9 @@ Amazon's iPhone app, shown in Figure 19-35, has a straightforward search that re
 
 this is good so far. But the refine UI infuriatingly forces you to choose a department before you can even see a sort by option (or any other filter options) and takes you back to the results page before you can choose it! The consequence is that users may not even realize that additional sort and filter options are available.
 
-![](images/c829b5e3ec78e749f04dec6cef76a3e2c1f50c252d051dd731ab5e669f384180.jpg)
+![](images/c829b5e3ec78e749f04dec6cef76a3e2c1f50c252d051dd731ab5e669f384180.webp)
 
-![](images/fc2e0885d6b0aff9c2099e0767f34380f9f609a72efe4d79310bf32d433fd5e2.jpg)  
+![](images/fc2e0885d6b0aff9c2099e0767f34380f9f609a72efe4d79310bf32d433fd5e2.webp)  
 Figure 19-35: Amazon's iPhone app fails users by allowing them to choose only one refinement option at a time and by hiding most refinement options until a department filter is selected. Undoubtedly this is due to a database integration issue on Amazon's back end, but it is Amazon's customers who suffer.
 
 The OpenTable app, shown in Figure 19-36, takes a better approach for users. The search portion of the interface has appropriate filters for a restaurant reservation app built in: time and location, as well as the expected keyword search for restaurants. Both time and location are also sensibly prepopulated. Search refinement options are clear and simple, with the most important at the top, and more fussy criteria collapsed at the bottom. The only faux pas OpenTable makes is placing its filter control behind a somewhat obscure icon in the lower right of the screen, where people are almost sure to miss it.
@@ -8740,16 +8740,16 @@ Yelp takes a no-nonsense approach to refinement in its app, with a prominent Ref
 
 Yelp and Amazon both get another detail right: Filtered results are indicated by a narrow filter bar anchored to the top of the results view. This bar contains a terse textual summary of all current filters on the results. A nice addition to this interface would be the ability to swipe horizontally to see a full list of active filters (the list is truncated in the Yelp interface). Another advantage would be the ability to tap to toggle the filters on and off without needing to return to the refine screen.
 
-![](images/3a766289cb2b218b4809917573e956fbfa0b5237f7baa39bbbabf203c6d410c0.jpg)
+![](images/3a766289cb2b218b4809917573e956fbfa0b5237f7baa39bbbabf203c6d410c0.webp)
 
-![](images/f889230ef2aa61d2198c1e303046b797e571c018011870614d0f7d2249a937f5.jpg)
+![](images/f889230ef2aa61d2198c1e303046b797e571c018011870614d0f7d2249a937f5.webp)
 
-![](images/7aa90e80819149ecaf3533658f828f1d39612053ae7ad6af65c8fbfb7a0f6035.jpg)  
+![](images/7aa90e80819149ecaf3533658f828f1d39612053ae7ad6af65c8fbfb7a0f6035.webp)  
 Figure 19-36: OpenTable's app does a great job searching (left) and filtering (right), except for the filter control placement (center). It's almost invisible in the lower right of the screen, especially since it disappears entirely when you scroll down (though it does come back when you scroll up).
 
-![](images/6c15533f90f4180514316c5f1e4073476a6a564dc0d2f744eb67b9a33131bce6.jpg)
+![](images/6c15533f90f4180514316c5f1e4073476a6a564dc0d2f744eb67b9a33131bce6.webp)
 
-![](images/cfd88a2c3f23096eeb6cdbaafc5ca50ccfa7b1cbbbbe5bda8a9446749c721380.jpg)  
+![](images/cfd88a2c3f23096eeb6cdbaafc5ca50ccfa7b1cbbbbe5bda8a9446749c721380.webp)  
 Figure 19-37: The Yelp app gets searching and filtering right. A clearly labeled Filter button is at the top left of the results screen (left), and a full-screen modal pop-up appropriately mixes filter and sort criteria (right). The results screen also shows a narrow filter bar identifying which filters have been set (left).
 
 # Welcome and help screens
@@ -8874,12 +8874,12 @@ Similarly, when an incoming call arrives, the phone could check your location (s
 
 It's unfortunate that phone manufacturers haven't yet applied this kind of integration to the core suite of phone apps. However, some clever apps like IFTTT (If This Then That) do allow apps that participate in their service to be wired together with customizable rules that allow for some level of app integration (see Figure 19-38).
 
-![](images/f9f2094a6fdcf37faf26612626a9f828f8b938bf072b0417a017b26db012fd6e.jpg)  
+![](images/f9f2094a6fdcf37faf26612626a9f828f8b938bf072b0417a017b26db012fd6e.webp)  
 Figure 19-38: The IFTTT app lets users wire together apps by allowing them to specify output and input triggers, effectively allowing simple app integration.
 
 For music production, Audiobus (see Figure 19-39) is an integration-oriented iOS app that allows other compatible iOS audio applications to route multiple input audio streams to multiple audio outputs. This effectively allows an entire virtual recording studio to exist within an iPhone or iPad.
 
-![](images/4af9db521bd60ed443569cc73b5bc2343c8ce7111c0f929ccecafaba1f5db04d.jpg)  
+![](images/4af9db521bd60ed443569cc73b5bc2343c8ce7111c0f929ccecafaba1f5db04d.webp)  
 Figure 19-39: The Audiobus app allows users to chain together the audio streams from compatible running apps. Doing so supports input, output, and effects, allowing an entire virtual recording studio to exist within an iPad.
 
 # Other Devices
@@ -8914,7 +8914,7 @@ Embedded systems often benefit from custom hardware. Desktop computers are meant
 
 It is therefore critical to design the hardware and software elements of the system's interface—and the interactions between them—simultaneously, and from a goal-directed, ergonomic, and aesthetic perspective. Many of the best, most innovative digital devices of the last several decades, such as the TiVo and the original iPod, were designed from such a holistic perspective. Hardware and software combine seamlessly to create a compelling and effective experience for users, as shown in Figure 19-40. This doesn't occur often enough in the standard development process. Hardware engineering teams regularly hand off completed mechanical and industrial designs to the software teams, who must then accommodate them, regardless of what is best from the user's perspective.
 
-![](images/6f6c152c3c9d6b924bbbd90d7061f2f5d00feb0812c4e25d67359d18f6f14a9d.jpg)  
+![](images/6f6c152c3c9d6b924bbbd90d7061f2f5d00feb0812c4e25d67359d18f6f14a9d.webp)  
 Figure 19-40: A Cooper design for a smart desktop phone, exhibiting strong integration of hardware and software controls. Users can easily adjust volume/speakerphone, dial new numbers, and control playback of voicemail messages with hardware controls. They also can manage known contacts/numbers, incoming calls, call logs, voicemail, and conferencing features using the touchscreen and thumbwheel. Rather than attempting to load too much functionality into the system, the design focuses on making the most frequent and important phone features much easier to use. Note the finger-sized regions devoted to touchable areas on the screen and the use of text hints to reinforce the interactions.
 
 # Let context drive the design
@@ -8973,9 +8973,9 @@ On the surface, kiosks may appear to have much in common with desktop interfaces
 
 Kiosks generally fall into two categories: transactional and explorational. Transactional kiosks provide a tightly scoped transaction or service. These include bank machines (ATMs) and ticketing machines such as those used in airports, train and bus depots, and some movie theaters. Even gasoline pumps and vending machines can be considered a simple type of transactional kiosk. Users of transactional kiosks have specific goals in mind: to get cash, a ticket, a Tootsie Roll, or a specific piece of information. These users have no interest in anything but accomplishing their goals as quickly and painlessly as possible.
 
-![](images/f09411b65aecc096ad000c4eb8056a06270443882749d06ceeb925918be4fd6f.jpg)
+![](images/f09411b65aecc096ad000c4eb8056a06270443882749d06ceeb925918be4fd6f.webp)
 
-![](images/5437f5d245d34c08a06392653b7557fe8df57c3b6bde6a79d6fe6b8156595386.jpg)  
+![](images/5437f5d245d34c08a06392653b7557fe8df57c3b6bde6a79d6fe6b8156595386.webp)  
 Figure 19-41: The GettyGuide, a system of informational kiosks at the J. Getty Center and Villa in Los Angeles, designed by Cooper in collaboration with the Getty and Triplecode
 
 Explorational kiosks are most often found in museums or as an information display in a mall. Educational and entertainment-oriented kiosks typically are not a main attraction, but provide additional information and a richer experience for users who have come to see the main exhibits. (A few museums, such as science museums and the Experience Music Project in Seattle, have interactive kiosks that can be exhibits.) Explorational kiosks are somewhat different from transactional kiosks in that users typically have open-ended expectations when approaching them. They may be curious, or want to be entertained or enlightened, but they may not have any specific end goals in mind. (On the other hand, they may also be interested in finding the café or the nearest restroom, which are goals that can be supported alongside the more open-ended experience goals.) For explorational kiosks, the act of exploring must engage the user. Therefore, not only must the kiosk's interface be clear and easy to navigate, but it also must be aesthetically pleasing and visually (and possibly audibly) exciting to users. Each screen must be interesting in itself and also should encourage users to further explore other content in the system.
@@ -9107,28 +9107,28 @@ Since the early days of the commercial web, the term primary navigation has sign
 
 Top navigation is a superior approach in most cases (see Figure 20-1). Side navigation makes the page crowded and occupies the page's visual entry point, forcing the user to scan past it to read content. The biggest limitation of top navigation—that it can accommodate only a few items of limited length—may actually be one of its greatest benefits. Forcing designers to reduce the number of major areas of a website or application—and to keep the titles short and punchy—usually has a better chance of resulting in something that is comprehensible and useful to users.
 
-![](images/d4a97edec50abde3a9626ecdc0d2b4982166189e682d3ff198f0d73f42695834.jpg)  
+![](images/d4a97edec50abde3a9626ecdc0d2b4982166189e682d3ff198f0d73f42695834.webp)  
 Figure 20-1: Basecamp illustrates the common practice of placing primary navigation on the top of the page. The topmost black bar allows the user to switch between different applications, the navigation adjacent to the Basecamp logo provides access to the major areas of Basecamp itself.
 
 As with most rules of thumb, there are exceptions. If you have a large heterogeneous content space, reducing to items that can fit on a horizontal bar can result in navigation terms that are meaninglessly abstract to your users. The biggest advantages of left-side navigation are that items can be longer, there can be more of them, and they are easier
 
 for users to scan because they are left-aligned. Amazon, which is well known for using analytics to optimize its page designs, and which sells almost everything known to man, currently uses left-hand navigation for product categorization on some pages. But on every page except the home page, this navigation is hidden until the user mouses over Show by Department to reveal it (see Figure 20-2).
 
-![](images/fd4cdf30d933a592c20564ffa79c123e710fab66a3450d179544bb2776b80398.jpg)
+![](images/fd4cdf30d933a592c20564ffa79c123e710fab66a3450d179544bb2776b80398.webp)
 
-![](images/92aeb40f3c5c14ad22e14824425c008f30251c28be5051495ac54c8385fcac13.jpg)  
+![](images/92aeb40f3c5c14ad22e14824425c008f30251c28be5051495ac54c8385fcac13.webp)  
 Figures 20-2: Amazon uses an approach to side-navigation where it is displayed to the user on the home page, but requires a mouseover to access on all other pages.
 
 This brings us to another important topic in web design: dynamically hiding and showing navigation controls that depend on the user's location in the system, and even where he or she is on a page. An increasingly popular and successful pattern is to keep this top navigation bar locked to the top of the browser window when the user scrolls. Branding and other elements are minimized so that the bar takes up less screen real estate and visual attention as the user engages with content lower down the page (see Figure 20-3).
 
 When considering the best approach for primary navigation, it's important to consider people using mobile web browsers. If this is a vital platform for you (and, in this day and age, in most cases, it should be), make sure you think through how well your navigation works on smaller screens. One common and utilitarian approach is not to show the navigation persistently and to reveal it only when the user clicks a menu or "hamburger icon" control (three stacked horizontal lines).
 
-![](images/92c9926623e884949727d874f1b1d2b455b5ee2304c67a8dbc458e31c52cefd3.jpg)
+![](images/92c9926623e884949727d874f1b1d2b455b5ee2304c67a8dbc458e31c52cefd3.webp)
 
-![](images/76cb582fa789b140af3fb5736244d93e08a6e6748244e18fbb111e32311ef226.jpg)  
+![](images/76cb582fa789b140af3fb5736244d93e08a6e6748244e18fbb111e32311ef226.webp)  
 Figure 20-3: The header of Google+ is persistent, but makes itself smaller when the user scrolls down the page
 
-![](images/d952ddc6e330a08b554e0f41873c258fba41b3f3466a59415618d2eba11c4f88.jpg)
+![](images/d952ddc6e330a08b554e0f41873c258fba41b3f3466a59415618d2eba11c4f88.webp)
 
 A healthy debate is currently under way about whether most users understand the hamburger icon. At least one statistically significant study has shown that, for at least some users, the word "menu" performs better than the hamburger icon. Figure 20-13, in the later section on the mobile web, shows how the Boston Globe employs a responsive approach to a top navigation, reducing the number of navigation items for smaller browser windows, ultimately shrinking to a single "sections" menu for smartphone-sized screens.
 
@@ -9202,14 +9202,14 @@ Handcrafted, American-made furniture combines beauty and functionality to tackle
 
 SHARE THIS ROOM:
 
-![](images/748acfcf5cf520581374868396e6dcd0a7f053a75b3bbdf86460d794f197274a.jpg)
+![](images/748acfcf5cf520581374868396e6dcd0a7f053a75b3bbdf86460d794f197274a.webp)
 
 previous | next
 
-![](images/11d28367943a4558289e25c85a2b15e93f8b1347e98fe4e45dfce5c9211dcf01.jpg)  
+![](images/11d28367943a4558289e25c85a2b15e93f8b1347e98fe4e45dfce5c9211dcf01.webp)  
 Figure 20-5: Hovering over Room & Board's primary navigation provides easily accessible links to sub-pages, without requiring the user to navigate to the office section page first.
 
-![](images/0b88a360a20a9a48b813475d03b4cb6bec3df16c0909c14a2bfc71e25cf324d5.jpg)  
+![](images/0b88a360a20a9a48b813475d03b4cb6bec3df16c0909c14a2bfc71e25cf324d5.webp)  
 Figure 20-6: When you're looking at the page for a desk on the Room & Board website, you can see where you are in the site and navigate back up using the breadcrumbs.
 
 On some sites, clicking each breadcrumb "step" opens a pop-up menu of lateral links, enabling users to navigate more easily to different parts of the site hierarchy without as many clicks—a feature borrowed from recent Windows OS file browser interfaces.
@@ -9238,12 +9238,12 @@ looking for. There are a number of good strategies for doing this. Sometimes usi
 
 One of the most successful innovations in searching has been auto-complete, also known as type ahead. When the user types in his or her search terms, a number of choices for complete search terms are presented. These can be based on previous searches (as Google does) or actual results (the Spotlight search function in Apple OS X). Auto-complete greatly increases the chances that the user will enter a search term that is likely to have a meaningful result set (see Figure 20-7).
 
-![](images/cc12fad88940c18761d80abab6a5a89b4b4538876a64ffe668a38784d07081a3.jpg)  
+![](images/cc12fad88940c18761d80abab6a5a89b4b4538876a64ffe668a38784d07081a3.webp)  
 Figure 20-7: Google Search's auto-complete provides a list of expanded search terms based on what the user has already typed into the search field.
 
 Disambiguation, or auto-suggest is another tool Google has normalized as part of searching. As you can see in Figure 20-8, if the searcher types a word that is spelled similarly to a more commonly searched word (or, more often, mistypes or misspell the word they really meant to search for), Google displays a list of suggestions along with the results. It also provides a link to the top suggestion as part of the results.
 
-![](images/9f053cfb0c8a2c63e8c5d61a09896d1cae9695357d8b12e3746d07920d8fe9fb.jpg)  
+![](images/9f053cfb0c8a2c63e8c5d61a09896d1cae9695357d8b12e3746d07920d8fe9fb.webp)  
 Figure 20-8: Google Search also supports auto-suggest, which provides a list of search terms based on fuzzy matching based on what the user has typed, in essence allowing the search box to auto-correct spelling errors.
 
 Did you mean: software
@@ -9290,12 +9290,12 @@ Auto-complete, auto-suggest, and faceted search help users find things faster.
 
 Allowing users to narrow their search in a structured way helps them form a query that specifies precisely what they're looking for. An effective faceted search mechanism should provide users some visibility into the characteristics of the set of items they're searching, as well as give them ideas about how to make the result set small enough to efficiently find the desired item. Chapter 14 discusses some related approaches for attribute based sorting and filtering.
 
-![](images/1a656a387548d416d1f8c558b8ad1f6aa8e41915c8abe782c03c8fff86fdec93.jpg)  
+![](images/1a656a387548d416d1f8c558b8ad1f6aa8e41915c8abe782c03c8fff86fdec93.webp)  
 Figure 20-9: Yelp provides effective faceted search mechanisms, allowing users to quickly fine-tune a search
 
 Categorized suggestions is yet another method of speeding the user to relevant results when a search term is applicable across many different categories or domains. This is achieved by the system offering a list of suggestions, each of which scopes the search to a particular category. Amazon, with its dozens of retail departments, makes good use of categorized suggestions (see Figure 20-10).
 
-![](images/d2518a452eecf3e497ffca07a14794e4e804cb6ea373a6ec140857c9ee286466.jpg)  
+![](images/d2518a452eecf3e497ffca07a14794e4e804cb6ea373a6ec140857c9ee286466.webp)  
 Figure 20-10: Amazon makes good use of categorized suggestions in its main search box, which allows both explicit scoping via a dropdown to the left of the search field, and categorized suggestions once you start typing.
 
 # Scrolling
@@ -9318,11 +9318,11 @@ One method is to create an effective visual rhythm through the use of white spac
 
 Even though it makes sense to let a single "unit" of content scroll on a single long page, some sites still divide it across several pages. The reasons for this most often seem not to be about minimizing either vertical scrolling or page load size, but rather maximizing ad revenue from the multiple loads. If the content is finite, paging it like this makes finding, saving, and using the content a more convoluted task even with print functions. Paging makes sense only for very long lists of similar elements, such as search results or news articles.
 
-![](images/aba4ee81e421d01a19ab6e95d46ffc89ecfe2020567a4aefe3d9f3db1a70a4d6.jpg)
+![](images/aba4ee81e421d01a19ab6e95d46ffc89ecfe2020567a4aefe3d9f3db1a70a4d6.webp)
 
-![](images/1b49787fd119848922d03641b258b6d335cb93ff1d506878344008612a6c5867.jpg)
+![](images/1b49787fd119848922d03641b258b6d335cb93ff1d506878344008612a6c5867.webp)
 
-![](images/d9a4040e604d2c5a4de4e044d89f31c0e33ba026c14bebdd375cdecc84fba462.jpg)  
+![](images/d9a4040e604d2c5a4de4e044d89f31c0e33ba026c14bebdd375cdecc84fba462.webp)  
 Figures 20-11: The Nest website consists of a number of long scrolling pages.
 
 # The header and footer
@@ -9331,7 +9331,7 @@ An obvious and hugely important characteristic of the scrolling page is that the
 
 The bottom of the page, or footer, is where, if you're lucky and wise, the user ends up, because he's viewed all the content that came before it on the page. This makes it a great place to suggest where the user should go next—often to related content. You can see this pattern used to good effect on many media websites. Another effective use of the footer is for persistent access to more rarely visited areas of your site or application, like legal notices, or for a complete fat navigation that includes all top-level and second-level pages (see Figure 20-12). These can certainly be effective approaches. But it's important to consider the circumstances under which your users might need access to these links and whether you imagine they'll be web-savvy enough to scroll to the bottom of the page to look for them.
 
-![](images/9b15e34e7f1d421098ea80c96686060231c153f346123e1126aa755628a2f60a.jpg)  
+![](images/9b15e34e7f1d421098ea80c96686060231c153f346123e1126aa755628a2f60a.webp)  
 Figures 20-12: The fat footer on Zappos.com contains a condensed sitemap as well as other social and promotional content and links.
 
 # Paging versus infinite scrolling
@@ -9371,11 +9371,11 @@ The basic idea with responsive design is not to have multiple versions of a webs
 
 An alternative (and, sometimes, more effective) approach is to create a separate mobile version of the site or application. One of the biggest reasons for this is that screen size is only one consideration on the mobile web. It's also critical to think about how your designs accommodate touch interaction and other sensors, as well as how they perform in sunlight and other challenging lighting conditions. Because of these usage considerations, it is sometimes a better choice to create a separate version of your web application or site for mobile users.
 
-![](images/c9a15b41725d58edaa4a12d390bee0211ea5c0bd998faf89a28e1a2ad631b024.jpg)
+![](images/c9a15b41725d58edaa4a12d390bee0211ea5c0bd998faf89a28e1a2ad631b024.webp)
 
-![](images/751af1d2eb19da97a1c659bba86087896762f274af04b7e59be39cf3f2ca1015.jpg)
+![](images/751af1d2eb19da97a1c659bba86087896762f274af04b7e59be39cf3f2ca1015.webp)
 
-![](images/060140ea500fc1d67b761a3edddc74758c961db9dabcedada884d0b80eb3fe4e.jpg)  
+![](images/060140ea500fc1d67b761a3edddc74758c961db9dabcedada884d0b80eb3fe4e.webp)  
 Figure 20-13: The Boston Globe's website has several different breakpoint screen widths that change how the content is flowed and accessed on a desktop, tablet, or phone.
 
 # The Future
@@ -9395,7 +9395,7 @@ __________
 
 $\therefore m - 1 \neq  0$ ; $\therefore$ 当 $m < \frac{3}{2}$ 且 $m \neq  1$ 时方程有两个不等实数根
 
-![](images/2faff7684b8d0e2b0b3d24db207134a03321753995c43a5aa18bc75efa497ea2.jpg)
+![](images/2faff7684b8d0e2b0b3d24db207134a03321753995c43a5aa18bc75efa497ea2.webp)
 
 # DESIGN DETAILS: CONTROLS AND DIALOGS
 
@@ -9427,9 +9427,9 @@ A control that corresponds to a verb is called an imperative control because it 
 
 Buttons were once identified by their simulated-3D raised aspect. However, the trend of flattening affordances, started in the mobile world, removes the 3D cues and threatens to degrade these controls' learnability, as shown in Figure 21-1. Generally, if the control is rectangular (with rounded edges on some platforms), it has the visual affordance of an imperative. It executes as soon as the user either taps it or clicks and releases it using the mouse. In dialogs (discussed later in this chapter), a default button is often highlighted to indicate the most common action for the user to take.
 
-![](images/6051ff185aa85893dbf0c3887e5ebf4abd079a6a63e626779161a9f40d0577c5.jpg)
+![](images/6051ff185aa85893dbf0c3887e5ebf4abd079a6a63e626779161a9f40d0577c5.webp)
 
-![](images/af2bc1156122faf23fcd6b7c3c2a86115a1aefb62336f92ca05cfe8835adefad.jpg)  
+![](images/af2bc1156122faf23fcd6b7c3c2a86115a1aefb62336f92ca05cfe8835adefad.webp)  
 Figure 21-1: Standard buttons from Microsoft Windows (top left) Apple OS X (top right), Android (bottom left), and iOS (bottom right). Although pushbuttons were once given a 3D raised affordance indicating pressability, a flatter look appears to be the growing trend.
 
 The button is arguably the most easily discoverable idiom in the designer's toolkit. It isn't surprising that it has evolved with such diversity across the user interface. The manipulation affordances of faux three-dimensional buttons prompted their widespread use.
@@ -9444,9 +9444,9 @@ The toolbar (discussed at length in Chapter 18) has grown into a de facto standa
 
 When buttons moved to the toolbar, they changed from rectangular to square, and their text labels were replaced with iconic ones. Thus was born the icon button: half button, half icon (see Figure 21-2).
 
-![](images/d43d3ec8757951e14699050f78c6fad0aeac14ea22d92e97ffcab22ed1082b61.jpg)
+![](images/d43d3ec8757951e14699050f78c6fad0aeac14ea22d92e97ffcab22ed1082b61.webp)
 
-![](images/41ba1495ac057e24c3a1e3a3f59e0ec059a63eadbd3e108d4bb86d2666fdcc35.jpg)  
+![](images/41ba1495ac057e24c3a1e3a3f59e0ec059a63eadbd3e108d4bb86d2666fdcc35.webp)  
 Figure 21-2: Icon buttons from Microsoft Office. On the left are examples in Office for Windows, and on the right are the same examples in Office for OS X. Icon buttons aren't rendered with a button affordance until the mouse cursor passes over them.
 
 In Windows 98, the icon button (aka the toolbar button) continued to evolve, losing its raised affordance except when used. This move reduced visual clutter in response to the overcrowding of toolbars. Unfortunately, this made it more difficult for newcomers to understand the idiom. Starting with Windows 2000, desktop icon buttons revealed their affordance only when pointed at by the mouse cursor.
@@ -9463,20 +9463,20 @@ However, even the best icon designers will be hard pressed to devise an icon sys
 
 Hyperlinks, or links, are a web convention that has found their way into all sorts of different applications. Typically taking the form of blue underlined text (CSS styling can play havoc with this standard in all sorts of ways, such as changing their default and traversed colors, or providing a focus highlight color on mouseover), a link is an imperative control used for navigation. This direct and useful interaction idiom has grown beyond its simple beginnings in taking users to a web page that provides more details about a hyperlinked word or phrase—the original concept behind hypertext. Links now form the navigational infrastructure of complex transactional websites such as Amazon.com (see Figure 21-3), and, somewhat amazingly, they remain up to the task.
 
-![](images/fea0757959481bebd981d5ace6db3767c47ed4281e8c51b2d1262891cefd1295.jpg)  
+![](images/fea0757959481bebd981d5ace6db3767c47ed4281e8c51b2d1262891cefd1295.webp)  
 Kingsoft Office for Android (Free)  
 Kingsoft Office Corporation  
 ★★★☆ (472)  
 $0.00
 
-![](images/2809b59889099adf16045a24fd4fb2040b204f1030a39b8010f417a6251aa0e7.jpg)  
+![](images/2809b59889099adf16045a24fd4fb2040b204f1030a39b8010f417a6251aa0e7.webp)  
 Office Mac Home and Student
 2011...
 Microsoft
 ★★★☆ (732)
 $489.99 $112.22
 
-![](images/3679a9ca1134ebf1ac43b095f6806bfa776628fcc53b57d66c809edeaf43d991.jpg)  
+![](images/3679a9ca1134ebf1ac43b095f6806bfa776628fcc53b57d66c809edeaf43d991.webp)  
 Microsoft Office Home & Student 2010...
 Windows
 ★★★★☆ (1.520)
@@ -9489,7 +9489,7 @@ Unfortunately, the idiom's success and utility have given many designers the wro
 
 A common web tactic for dialog boxes is to present options using a combination of a button for the "default" choice and an adjacent hyperlink for the other option. This is effective because a button has a greater visual weight and real estate for easier selection. Unfortunately, it has been used too often to trick users into not noticing the link, and, thinking they only have one option, making an expensive choice. Because of this, the tactic can be seen as manipulative, potentially reducing the user's trust in the site and the brand.
 
-![](images/a2f0c100aeccc90c2c5c1501da34ab41f35d5249846c14647c5c15573141e944.jpg)
+![](images/a2f0c100aeccc90c2c5c1501da34ab41f35d5249846c14647c5c15573141e944.webp)
 
 Use links for navigation and buttons for action.
 
@@ -9505,7 +9505,7 @@ As with many things in interaction design, both approaches have advantages and d
 
 The check box was one of the earliest visual control idioms. It has been a favorite for presenting a single, binary choice or for selecting from among several choices in a short list (see Figure 21-4). The check box has a strong visual affordance for clicking; it appears as a pliant area because of a mouseover highlight or a 3D "recessed" visual treatment. (The flattening trend in mobile visual design threatens learnability here as well.) After the user selects it and sees the checkmark appear, he has learned all he needs to know to make it work at will: Click to check; click again to uncheck. The check box is simple, visual, and elegant.
 
-![](images/005eb75bc024908bea889ba733d68432f7e5e532c4e1beeb8673c27bd2fd52dc.jpg)  
+![](images/005eb75bc024908bea889ba733d68432f7e5e532c4e1beeb8673c27bd2fd52dc.webp)  
 Figure 21-4: Standard check boxes from Microsoft Windows (top left), Apple OS X (top right), Android (bottom left), and iOS (bottom right). Again, the trend towards flatness decreases learnability. iOS also breaks the standard check box idiom by using a circular control rather than a square.
 
 The check box is, however, primarily a text-based control. The check box is a familiar, effective idiom, but it has the same strengths and weaknesses as menus. Well-written text can make check boxes unambiguous. However, this exacting text forces users to slow down to read it, and it takes up a considerable amount of real estate.
@@ -9518,7 +9518,7 @@ have learned to recognize this shape. There is no good reason to deviate from th
 
 Check boxes work well to allow binary state changes, but this idiom isn't well-suited for toolbars. It is, however, possible to implement a more graphical approach to the unitary check box by modifying the icon button idiom. By allowing an icon button to stay in the pushed-in state when clicked, and then returning to the nondepressed state when it is clicked again, you create a toggle button (see Figure 21-5). The pushed-in state is no longer momentary, but rather locks in place until clicked again. The button's toggle behavior has changed its character sufficiently to move it into an entirely different category of control: from imperative to selection.
 
-![](images/4eba098fdde35338d731e955bedcc671b16223bf4d6141191527e7d669a4ec88.jpg)  
+![](images/4eba098fdde35338d731e955bedcc671b16223bf4d6141191527e7d669a4ec88.webp)  
 Figure 21-5: These images depict toggle buttons in their flat, mouseover, clicked, and selected states.
 
 The toggle button is superseding the check box as a single-selection idiom. It is especially appropriate in modeless interactions that do not require interrupting the user's flow to make a decision. Toggle buttons are more space-efficient than check boxes. They are smaller because they can rely on visual recognition instead of text labels to indicate their purpose. Of course, this means that they exhibit the same problem as imperative icon buttons: the icon's inscrutability. We are saved once again by ToolTips. Those tiny pop-up windows give us just enough text to disambiguate the icon button without permanently consuming too many pixels.
@@ -9531,7 +9531,7 @@ The control suggests that you can click it, so when it displays the play icon, i
 
 approach is that the control could be interpreted as indicating the player's state—paused or playing. This means that there are two very reasonable and contradictory interpretations of the icons on the button. The control can serve as either a state indicator or a state-switching selection control, but not both (see Figure 21-6). Of course there's music playing to confirm your selection in a music player, but there are plenty of interfaces where such explicit confirmation is not available.
 
-![](images/aa8a96ef72519fb4ab9885043c6c15208154bacc930aafdc5aa971a549e09106.jpg)  
+![](images/aa8a96ef72519fb4ab9885043c6c15208154bacc930aafdc5aa971a549e09106.webp)  
 Figure 21-6: State-switching button controls are very efficient. They save space by controlling two mutually exclusive options with a single control. The problem with these controls is that they fail to fulfill the second duty of every control—to inform users of their current state. If the button says ON when the state is off, it is unclear what the setting is. If it says OFF when the state is off, however, where is the ON button? Using switch controls makes much more sense in this instance.
 
 The solution is to either spell out the verb—Play or Pause—in text on the button or, better yet, to use some other technique altogether. For example, you could replace the button with two buttons or, as some audio players do, with icons for both states. Doing so would make the toggle's state-switching nature more explicit. If this last approach also included highlighting the icon representing the active state, it would work almost perfectly. Unfortunately, however, almost every audio player app now uses the broken state-switching idiom, toggling between the play and pause icon, and most users have now become accustomed to it, for better or worse.
@@ -9540,7 +9540,7 @@ The solution is to either spell out the verb—Play or Pause—in text on the bu
 
 Similar in appearance to the check box is the radio button, shown in Figure 21-7. When radios were first put in automobiles, people discovered that tuning the radio by rotating a knob while driving was unsafe. So, automotive radios were offered with a panel consisting of a half-dozen chrome-plated buttons. When pressed, each one would mechanically dial the tuner to a preset station. Now you could tune to your favorite station—without taking your eyes off the road—just by pushing a button.
 
-![](images/a38cf6582abd4a111f0e996f5221e9faa812d9bd1699f42c6e80409a56a1ebd8.jpg)  
+![](images/a38cf6582abd4a111f0e996f5221e9faa812d9bd1699f42c6e80409a56a1ebd8.webp)  
 Figure 21-7: Standard radio buttons from Microsoft Windows (top left), Apple OS X (top right), Android (bottom left). iOS (bottom right) doesn't have a radio button idiom, but makes use of the switch control for some instances where a radio button might be used on other platforms.
 
 The behavior of GUI radio buttons, like their mechanical forebears, is mutually exclusive: When one option is selected, the previously selected option automatically deselects. Only one button can be selected at a time. Consequently, radio buttons always come in groups of two or more, and one radio button in each group must always be selected. Presenting a single radio button doesn't make sense for the user—you should use a check box or similar selection control in that instance.
@@ -9557,35 +9557,35 @@ Just as with all icon button idioms, these are efficient consumers of space, let
 
 either will be clever enough to learn from the ToolTips or will learn more slowly, but just as reliably, from other, parallel, pedagogic command vectors.
 
-![](images/a34047f8722564e8fc80a63874d0ac35b4f2c57447887c3eb3b598b664c41177.jpg)  
+![](images/a34047f8722564e8fc80a63874d0ac35b4f2c57447887c3eb3b598b664c41177.webp)  
 Figure 21-8: Word's alignment controls are a bank of radio icon buttons, which act like traditional radio buttons. One is always selected, and when another is clicked, the first one returns to its unselected state. This variant is a space-conservative idiom that is well suited for frequently used options.
 
 # Switches
 
 The switch control is a more compact version of two radio buttons used together. (It is also a more understandable version of a single check box, since both states are labeled explicitly.) It has two states, typically on and off, which are labeled on either side of the switch, as shown in Figure 21-9. Clicking either side of the switch or, on mobile, swiping in the appropriate direction slides the switch's 3D affordance to the on or off position. These are handy in Settings screens on mobile apps, where many app functions often can be selectively turned on and off. They are less common, and somewhat more awkward to use, in desktop and web apps.
 
-![](images/d9c4beff992440955807a0c1c193f40e2dc68fd017cdebd784c7120ecb42732b.jpg)  
+![](images/d9c4beff992440955807a0c1c193f40e2dc68fd017cdebd784c7120ecb42732b.webp)  
 Figure 21-9: Switch controls are prevalent in mobile apps (such as in iOS, shown here), especially on Settings screens, which contain product features that can be turned on and off.
 
 # Combo icon buttons
 
 A variant of the radio icon button replaces the bank of icon buttons with a drop-down list of icons. Because of its similarity to the combo box control (see the later section "Combo Boxes"), we call this a combo icon button (see Figure 21-10). Normally in Windows it looks like a single icon button with a small down arrow to its right. If you click the arrow, it drops down a menu of several icon buttons from which users may choose. The selected icon button then appears on the toolbar next to the arrow. Clicking the icon button itself actuates the imperative indicated by the selected state. Like menus, icon buttons also should activate if the user clicks and holds the arrow, drags, and then releases over the desired selection.
 
-![](images/7db7e03ffbdd488c757e84ae19ec170ac061531d9900705d1a76bc64f98e9faa.jpg)  
+![](images/7db7e03ffbdd488c757e84ae19ec170ac061531d9900705d1a76bc64f98e9faa.webp)  
 Figure 21-10: This combo icon button from Microsoft Office is a group of icon buttons that behave like a combo box.
 
 Variations on combo icon buttons include drawing a small downward- or right-pointing triangle in the lower-right corner of the combo icon button icon in place of the separate down arrow that is seen in Microsoft toolbars. Adobe products use this variant in their palette controls. The user must click and hold the icon button itself to bring up the menu (which, in Adobe palette controls, unfolds to the right rather than down, as shown in Figure 21-11). You can vary this idiom quite a bit. Creative software designers are doing just that in the never-ending bid to cram more functions onto screens that are always too small.
 
-![](images/dcba5100c16b955861833a33d6e08113dfcb0a2dc41b05db8909ccf683301180.jpg)
+![](images/dcba5100c16b955861833a33d6e08113dfcb0a2dc41b05db8909ccf683301180.webp)
 
-![](images/bfc7593df53a69f5d6f4fdd76632ca0448f625a9cb1c8ed0f47be9b68ff6d352.jpg)  
+![](images/bfc7593df53a69f5d6f4fdd76632ca0448f625a9cb1c8ed0f47be9b68ff6d352.webp)  
 Figure 21-11: These combo icon buttons taken from Adobe Photoshop (left) and Mozilla Firefox (right) show the diversity of idiom applications. In Photoshop, the combo icon button is used to switch between various modal cursor tools, whereas in Firefox it is used to select a previously visited web page to return to. In the first example, it is used to configure the user interface, whereas in the second it is used to perform an action.
 
 You can see a Microsoft variant in Word, where the icon button for specifying the colors of highlights and text show combo icon button menus that look more like little palettes than stacks of icon buttons. As you can see from Figure 21-11, these menus can pack a lot of power and information into a compact control. This facility is definitely for frequent users, particularly mouse-heavy users, and less for first-timers. However, for users who have at least basic familiarity with the available tools, the idiom is instantly clear after it is discovered or demonstrated. This is an excellent control idiom for sovereign-posture applications with which users interact for long hours. Working a menu with relatively small targets demands sufficient manual dexterity. But this is much faster than going to the menu bar, pulling down a menu, selecting an item, watching the dialog deploy, selecting a color on the dialog, and then clicking the OK button.
 
 With the introduction of the ribbon control idiom, Microsoft moved away from traditional combo icon buttons and instead offered yet another variant of this idea: an icon button attached to a more standard menu. Clicking the icon button fires off an imperative command. Clicking the arrow to the right of or below the button launches a menu with related but less frequently accessed functions (see Figure 21-12).
 
-![](images/5b7d16d4c4064c67010b5098420a84ea595173801bb059b04500c4cd54204a4a.jpg)  
+![](images/5b7d16d4c4064c67010b5098420a84ea595173801bb059b04500c4cd54204a4a.webp)  
 Figure 21-12: Microsoft Office's ribbon control contains a new variant of combo button icons. Clicking the button launches an imperative, and clicking the arrow opens a more traditional menu of related functions.
 
 # List controls
@@ -9594,23 +9594,23 @@ List controls allow users to select from a finite set of text strings, each repr
 
 List controls are small text areas with a vertical scrollbar on the right edge, as shown in Figure 21-13. The application displays objects as discrete lines of text in the box, and the scrollbar moves them up or down. The user can select a single line of text at a time by clicking it. A list control variant allows multiple selection, in which the user can select more than one item at a time, usually by Shift-clicking for continuous or Ctrl-clicking for discontinuous items.
 
-![](images/aac2a65b3d2d6946f3da94a72df90d2b5e153cd947ebededea478f6d310535fa.jpg)  
+![](images/aac2a65b3d2d6946f3da94a72df90d2b5e153cd947ebededea478f6d310535fa.webp)  
 Figure 21-13: On the left is a list control from Windows. The images on the right show a Windows drop-down menu in its closed and open states.
 
 The drop-down menu, discussed previously, can also be considered a variant of the list control. These ubiquitous controls show only the selected item in a single row, until the control is clicked or tapped. Doing so reveals other available choices (also shown in Figure 21-13).
 
 Apple's iOS operating system has introduced a gestured-based variant of the list control sometimes called the "barrel control." In it, the list of text items are rendered to appear as though they are wrapped around a cylinder that you rotate by swiping until the desired item is centered in the control. The interesting twist on this control, besides its barrel-shaped rendering, is that it can contain independently scrolling columns. This makes it ideal for purposes such as selecting dates and times. This clever approach merges several related list controls into a single widget, as shown in Figure 21-14.
 
-![](images/c4bd5b3a8f4958a3156d989540705469c94b3bbd9121f1d5c1c8d32cede84456.jpg)  
+![](images/c4bd5b3a8f4958a3156d989540705469c94b3bbd9121f1d5c1c8d32cede84456.webp)  
 Figure 21-14: iOS supports a gesture-based "barrel control" ListView variant that also supports multiple independently swappable scrolling columns. The barrel control thus can merge several related list controls into a single widget.
 
 Early list controls handled only text. Unfortunately, that decision often affects their behavior to this day. A list control filled with line after line of text unrelieved by visual symbols is a dry desert indeed. However, starting with Windows 95, Microsoft has allowed each line of text in a ListView control to be preceded with an icon (without the need for custom coding). This can be useful. In many situations, users benefit from seeing a graphical identifier next to important text entries (see Figure 21-15). A newer convention is to use the list items in a drop-down or other ListView control as a preview
 
 facility. This is commonly used in cases where the control functions as both a selection control and an imperative control, such as when you select a style in Microsoft Word.
 
-![](images/9ebcf0ced44b0ce480525385ad69c656a3a7013c4b1fec77e59046a553348bbc.jpg)
+![](images/9ebcf0ced44b0ce480525385ad69c656a3a7013c4b1fec77e59046a553348bbc.webp)
 
-![](images/d55f247eca41d7258d3ec1b548f6c43438dc5c6342cf2ff4cf1f40e053bcf7e4.jpg)  
+![](images/d55f247eca41d7258d3ec1b548f6c43438dc5c6342cf2ff4cf1f40e053bcf7e4.webp)  
 Figure 21-15: On the left is a list control with icons from Windows that allows users to visually identify the application they are looking for. On the right is the style drop-down list from Office 2010. Here, the items in the list provide a preview of the effects of their selection.
 
 # DESIGN PRINCIPLE
@@ -9637,7 +9637,7 @@ It just so happens that we already have another well-established idiom to indica
 
 List controls can be treated as palettes of goodies to use in a direct-manipulation idiom. If the list were part of a report-writing application, for example, you could click an entry and drag it to the surface of the report to add a column representing that field. It's not selection in the usual sense, because it is a completely captive operation. Without a doubt, many applications would benefit if they used list controls that supported dragging and dropping.
 
-![](images/501717f9bf409a4b2bf23c793e13c1599b09c2893aed261c0863958557bcb2e4.jpg)  
+![](images/501717f9bf409a4b2bf23c793e13c1599b09c2893aed261c0863958557bcb2e4.webp)  
 Figure 21-16: Selection normally is a mutually exclusive operation. When the need arises to discard mutual exclusivity to provide multiple selection, things can become confusing if some of the items can be scrolled out of sight. Earmarking is a solution. Put check boxes next to each text item, and use them instead of selection to indicate the user's choices. Check boxes are a clearly non-mutually exclusive idiom and a familiar GUI idiom. Users grasp the workings of this idiom right away.
 
 Such draggable items can help users gather items into a set. Providing two adjacent list controls, one showing available items and the other showing chosen items, is a common GUI idiom. One or sometimes a bidirectional pair of arrow buttons placed between them allows items to be selected and transferred from one box to the other (see Figure 21-17). It is so much more pleasant when the idiom is buttressed with the ability to just click and drag the desired item from one box to another, without having to go through the intermediate steps of selection and function invocation.
@@ -9652,7 +9652,7 @@ Why not let users move what's important to them to a region at the top, and sort
 
 user wants to do after long hours of familiarization with an application. It takes a lot of effort to fine-tune a directory like this, and the application must remember the exact settings from session to session. Otherwise, the ability to reorder things is worthless.
 
-![](images/09f51b20d69ab6867ab2d85f3300dd3117a313cf4c5a60e3fdf1774db069f302.jpg)  
+![](images/09f51b20d69ab6867ab2d85f3300dd3117a313cf4c5a60e3fdf1774db069f302.webp)  
 Figure 21-17: This dialog from Microsoft Outlook Express would benefit from the ability to drag a contact from the list on the left into the To, Cc, and Bcc lists. The arrow button functionality is a bit less clear since the lists that the contacts are copied to are below the list being copied from, rather than adjacent to it. Note also the unfortunate use of a horizontal scrollbar—but luckily, the dialog can be expanded by dragging the lower left corner.
 
 Being able to drag items from one place to another in a list control is powerful, but it demands that autoscrolling be implemented (see Chapter 18). If you pick up an item in the list but the place you need to drop it is currently scrolled out of view, you must be able to scroll the ListView without putting down the dragged object.
@@ -9691,7 +9691,7 @@ Drop-down lists (also called pop-up lists) take the place of a stack of radio bu
 
 The combo box is—as its name suggests—a combination of a list box and an edit field (see Figure 21-18). It provides an unambiguous method of data entry into a list control. As with normal list boxes, a drop-down variant has a reduced impact on screen real estate.
 
-![](images/639426c75e3800e48ae667583deb9542ecb2387950d05c31a99ca99c7809c56b.jpg)  
+![](images/639426c75e3800e48ae667583deb9542ecb2387950d05c31a99ca99c7809c56b.webp)  
 Figure 21-18: The Word font selection drop-down combo box allows users to select a font from the drop-down list or simply type the name of the desired font into the text field.
 
 Combo boxes clearly differentiate between the text-entry part and the list-selection part, minimizing user confusion. For single selection, the combo box is a superb control. You can use the edit field to enter new items, and it also shows the current selection in the list. When the current selection is showing in the edit field, the user can edit it there—sort of a poor man's edit-in-place.
@@ -9736,14 +9736,14 @@ Most quantitative values needed by software are bounded, yet many applications s
 
 Figure 21-19 shows a vertical trackbar used by Microsoft in the Windows Display Settings dialog. It works like a slider or scrollbar, but has several discrete positions that represent distinct resolution settings. Microsoft could easily have used a simple drop-down list in its place. In many cases, a slider is a nice choice because it displays the range of valid entries. A drop-down menu isn't much smaller, but it keeps its options hidden until clicked—a less friendly stance. It's unclear why Microsoft chose to put a slider inside a drop-down menu.
 
-![](images/28da38c1237dbe1879fcf81118baee1e9bf9bd628b74426c1a7feedfb82b8bf0.jpg)  
+![](images/28da38c1237dbe1879fcf81118baee1e9bf9bd628b74426c1a7feedfb82b8bf0.webp)  
 Figure 21-19: A bounded control lets users enter only valid values. It does not let them enter invalid values, only to reject them when they try to move on. This figure shows a bounded slider control from the Display Settings dialog in Windows. The slider (which, oddly, is deployed inside a drop-down menu) has several discrete positions. As you drag the slider, the legend beside it reflects different allowable screen resolutions, with recommended resolutions shown even when the trackbar thumb is not on the detent.
 
 # Spinners
 
 Spinner controls are a common form of numeric entry control that permit data entry using the mouse, keyboard, or finger. Spinners on the desktop contain a small edit field with two half-height buttons attached, as shown in Figure 21-20. On iOS they're called steppers and have plus or minus buttons side-by-side, making them much easier to actuate with fingers.
 
-![](images/54f2bfc67f226f0f8e684e307c2f9658ff312b3a287efede1932ae3a412c3bd8.jpg)  
+![](images/54f2bfc67f226f0f8e684e307c2f9658ff312b3a287efede1932ae3a412c3bd8.webp)  
 Figure 21-20: The Page Setup dialog from Microsoft Word makes heavy use of the spinner control. By clicking either of the small, arrowed buttons, the user may increase or decrease the specific numeric value in small, discrete steps. If the user wants to make a large change in one action or enter a precise setting, he can use the edit field portion for direct text entry. The arrow button portion of the control embodies bounding, whereas the edit field portion does not.
 
 Spinners blur the difference between bounded and unbounded controls. Using either of the two small arrow buttons enables the user to change the value in the edit field in small, discrete steps. These steps are bounded, meaning that the value doesn't go above the upper limit set by the application or below the lower limit. If the user wants to make a large change in one action or enter a specific number, he can do so by clicking in the edit field portion and typing in it, just like entering text into any other edit field. Unfortunately, the edit field portion of this control is unbounded, leaving users free to enter
@@ -9756,7 +9756,7 @@ Overall, the spinner is an excellent idiom and can be used in place of plain edi
 
 Dials and sliders are idioms borrowed directly from Mechanical-Age metaphors of rotating knobs and sliding levers. Dials are very space-efficient. Both can do a nice job of providing visual feedback about settings, as shown in Figure 21-21.
 
-![](images/7c837de849e8042f4bdde75add04e32c40eb76ddcd04472a6dec1693216ccfca.jpg)  
+![](images/7c837de849e8042f4bdde75add04e32c40eb76ddcd04472a6dec1693216ccfca.webp)  
 Figure 21-21: Korg's iPolysix app, a software synthesizer, makes heavy use of dials and sliders. These are effective interface elements because musicians and producers are familiar with them from hardware. More importantly, they provide users with more visual and easy-to-comprehend feedback about parameter settings than a long list of numbers, which aren't that exciting to look at while making music. iPolysix dials make users move their finger in an arc, rather than up-down or left-right swipes, which would be easier to control.
 
 Improperly implemented, dials can be extremely difficult to manipulate. Sliders are often a better option where space isn't at a premium, because they visually suggest the fact that movement is along just one axis.
@@ -9777,7 +9777,7 @@ Breaking free from the heritage of traditional GUI controls and the baggage of m
 
 function. Such control surfaces often provide a mechanism for visual feedback. These controls are also most appropriate for situations where users attempt to express themselves in regards to a number of variables and are willing to spend some effort developing proficiency with a challenging idiom.
 
-![](images/c795834923d83425002564e38eb7021343f4da7ba9a862183e65a5baa28dfdae.jpg)  
+![](images/c795834923d83425002564e38eb7021343f4da7ba9a862183e65a5baa28dfdae.webp)  
 Figure 21-22: Camel Audio's Alchemy Pro app employs a variety of two-dimensional bounded input controls. These provide good visual feedback, allow users to adjust multiple parameters from a single control, and support more expressive gestural user interactions. Their bounded nature also provides users with context about how the current settings fit within the allowable ranges and eliminates the chance that the user will make an invalid entry. No musician wants to be stopped by an error dialog!
 
 # Unbounded entry: text edit controls
@@ -9818,7 +9818,7 @@ To provide rich visual feedback, the entry field could change colors or reveal a
 
 Another good solution to the validation control problem is the hint. This little pop-up text looks and behaves much like a ToolTip: It explains the range of acceptable data for a validation control. Whereas a ToolTip appears when the cursor sits for a moment on a control, a hint appears as soon as the control detects an invalid character. (It also can appear, just like a ToolTip, if the cursor sits unmoving on the field for a second or so.) For example, if the user enters a nonnumeric character in a numeric-only field, the application would show the hint near the point of the offending entry, yet without obscuring it. It would say, for example, ZIP codes can only contain numeric characters, 0-9. Yes, the user is rejected, but he is not ignored. The hint also works for passive validation, as shown in Figure 21-23.
 
-![](images/302bbc22f962adf1b8cfdbfc4cc37a83c3ea80a5e95a4a4b5816db66cf19245b.jpg)  
+![](images/302bbc22f962adf1b8cfdbfc4cc37a83c3ea80a5e95a4a4b5816db66cf19245b.webp)  
 Figure 21-23: The ToolTip idiom is so effective that it could easily be extended to other uses. Instead of yellow ToolTips offering flyover labels for icon buttons, we could have pink ones offering flyover hints for unbounded edit fields. These hints can help eliminate traditional error messages. In this example, if the user enters a value lower than is allowed, the application would replace the entered value with the lowest allowable value and modelessly display a hint that explains the reason for the substitution. The user can enter a new value or accept the minimum without being stopped by an error dialog.
 
 # Handling out-of-bounds data
@@ -9831,7 +9831,7 @@ It's nice when a text edit control is smart enough to recognize appropriate unit
 
 Say that the field is requesting a column width. The user can enter either a number or a number and an indicator of the measurement system, as just described. Users also could be allowed to enter the word default, and the application would set the column width to its default value. The user could alternatively enter best fit, and the application would measure all the entries in the column and choose the most appropriate width for the circumstances. This scenario has a problem, however, because the words "default" and "best fit" must be in the user's head rather than in the application somewhere. This is easy to solve, though. All we need to do is provide the same functionality through a combo box. The user can drop down the box and find a few standard widths and the words "default" and "best fit." Microsoft uses this idea in Word, as shown in Figure 21-24.
 
-![](images/2f0c7a481ebe3189d6c596cd05fb3ac58ec4b335fd4e6f2975450b93df5f88b5.jpg)  
+![](images/2f0c7a481ebe3189d6c596cd05fb3ac58ec4b335fd4e6f2975450b93df5f88b5.webp)  
 Figure 21-24: The drop-down combo box makes an excellent tool for bounded entry fields because it can accommodate entry values other than numbers. The user doesn't have to remember or type words like "page width" or "whole page," because they are there to be chosen from the drop-down list. The application interprets the words as the appropriate number, and everyone is satisfied.
 
 The user can pull down the combo box, see items like Page Width and Whole Page, and choose the appropriate one. With this idiom, the information has migrated from the user's head into the application, where it is visible and choosable.
@@ -9894,7 +9894,7 @@ Shortcomings in contextual information aside, one of the biggest problems with s
 
 The ubiquity of scrollbars has resulted in some unfortunate misuse. Most significant here is their shortcomings in navigating time. Without getting too philosophical or theological, we can all hopefully agree that time has no meaningful beginning or end (at least within the perception of the human mind). What, then, is the meaning of dragging the thumb to one end of a calendar scrollbar? (See Figure 21-25.)
 
-![](images/f5f19fefd44f585dff632ff047f72e294e3e5b59b50f62c375486d827d1e857b.jpg)  
+![](images/f5f19fefd44f585dff632ff047f72e294e3e5b59b50f62c375486d827d1e857b.webp)  
 Figure 21-25: This image shows a limitation of using a scrollbar for navigating the endless stream of time. Dragging the thumb all the way to the end of the scrollbar takes the user one year into the future. This seems a bit arbitrary and limiting.
 
 On mobile platforms, and now even in some desktop apps, scrollbars appear only when scrolling takes place. This makes more sense on mobile, where scrolling is performed via gesture—although it also means that a user has to scroll when they don't really want to, in order to discover where in a document they are.
@@ -9911,7 +9911,7 @@ There are some viable alternatives to scrollbars. One of the best is the documen
 
 Splitters are useful tools for dividing a sovereign application into multiple related panes in which information can be viewed, manipulated, or transferred. Movable splitters should always advertise their pliancy with cursor hinting. Although it is easy and tempting to make all splitters movable, you should exercise care in choosing which ones to make movable. In general, a splitter should be unable to be moved in such a way that makes a pane's contents unusable. In cases where panes need to collapse, a drawer may be a better idiom.
 
-![](images/e54f32a9a0c1b831d59f59b20e2ebe2e4e5651b12b48bf0b19b4a511ce95d9b5.jpg)  
+![](images/e54f32a9a0c1b831d59f59b20e2ebe2e4e5651b12b48bf0b19b4a511ce95d9b5.webp)  
 Figure 21-26: Ableton Live features a document navigator on the top of the arrangement screen that provides an overview of the entire song. The black rectangle denotes which part of the song the work area below is zoomed in on. The navigator provides context in a potentially confusing situation and simultaneously provides a direct navigation idiom where the user may move the rectangle to focus on a different part of the song.
 
 # Drawers and levers
@@ -10092,7 +10092,7 @@ You should think about something else when considering the need for process repo
 
 Process dialogs are, of course, much easier to develop than building animation right into the main window of an application. They also provide a convenient place for the Cancel button, so it is a reasonable compromise to fling up a process dialog for the duration of a time-consuming task. But don't lose sight of the fact that, by doing this, we are still going to another room for a this-room function. It is an easy solution, but not the correct one. Web browsers such as Google Chrome and Microsoft Internet Explorer provide a much more elegant solution. Because loading web pages is so intrinsic to their operation, the progress indicator (an animated circle) is displayed on the currently loading browser tab, as shown in Figure 21-27.
 
-![](images/868e0591d41a8935abc78b0727f54b25f8ead44b45f18bb28255fe3b993b4ce1.jpg)  
+![](images/868e0591d41a8935abc78b0727f54b25f8ead44b45f18bb28255fe3b993b4ce1.webp)  
 Figure 21-27: Web browsers such as Google Chrome don't launch a process dialog every time they load a page. Rather, a progress indicator is displayed in the tab for the currently loading page. Other browsers place this indicator in the URL field or in a status bar at the bottom of the window. This allows users to easily understand what's going on without obscuring their view of the partially loaded web page in front of them.
 
 # Notification dialogs
@@ -10113,7 +10113,7 @@ Bulletin dialogs, like process dialogs, are launched, unrequested, by the applic
 
 The ubiquitous error dialog best characterizes the bulletin dialog. Normally, the application's name is shown in the caption bar, and a brief text description of the problem is displayed in the body. A graphic icon that indicates the problem's class or severity, along with an OK button, usually completes the ensemble. Sometimes a button to summon online help is added. An example from Word is shown in Figure 21-28.
 
-![](images/454107767405c1de7aab50a7963844dfa01fa77a0dbed7234ea527b318410a52.jpg)  
+![](images/454107767405c1de7aab50a7963844dfa01fa77a0dbed7234ea527b318410a52.webp)  
 Figure 21-28: Here's a typical bulletin dialog. It is never requested by the user but is always issued unilaterally by the application when the application fails to do its job or when it just wants to brag about having survived the procedure. This dialog in effect blames the user, rather than helping solve the problem. Users interpret this as saying "The measurement must be between -22 inches and 22 inches, and you are a buffoon for not knowing that fundamental fact. You are so stupid that I won't even try to correct it for you!"
 
 Bulletin dialogs normally are application-modal: They stop all further progress of the application until the user issues a terminating command—like tapping the OK button. This type of bulletin is blocking because the application cannot continue until the user responds.
@@ -10142,7 +10142,7 @@ In the 1990s, tabbed dialogs became an established standard in the world of comm
 
 On a more positive note, this idiom also allows application objects with numerous properties to have correspondingly rich property dialogs without making those boxes excessively large and crowded with controls (see Figure 21-29). Many function dialogs that were previously jam-packed with controls now make better use of their space. Before tabbed dialogs, this problem was more clumsily solved with expanding and cascading dialogs, which we'll discuss shortly.
 
-![](images/9338c28ac7bdad9dffe44a994aa86375a5e50f1c854db1e7fdbd7b0e98c31d04.jpg)  
+![](images/9338c28ac7bdad9dffe44a994aa86375a5e50f1c854db1e7fdbd7b0e98c31d04.webp)  
 Figure 21-29: This is a tabbed dialog from iTunes. Combining the different properties of a song in one dialog is effective for users because they have a single place to go to find such things. Note that the terminating controls are correctly placed outside the tabbed pane, in the lower right.
 
 More controls won't necessarily mean that users will find the interface easier to use or more powerful. The contents of the various tabs must have a meaningful rationale for being together. Otherwise, this ability is just another way to build a product according to what is easy for developers, rather than what is good for users.
@@ -10153,7 +10153,7 @@ Tabs are successful because the idiom follows many users' mental model of how th
 
 Because it's easy to cram so many controls into a tabbed dialog, the temptation is great to add more and more tabs to a dialog. The now-defunct Options dialog from Microsoft Word, shown in Figure 21-30, illustrates this problem. The 10 tabs are far too numerous to show in a single line, so they are stacked two deep. The problem with this idiom, called stacked tabs, is that the user has to do a significant amount of work to find the single option she wants to change. While the labels of the tabs may give her some help, she is still forced to scan the contents of several tabs while switching between them. And as if that isn't enough, when she clicks a tab in the back row, the entire row of tabs moves forward, pushing the other two rows to the back. Few users are happy with this, because it's disconcerting to click a tab and then have it move out from under the mouse. It's no wonder that Microsoft has largely abandoned this idiom.
 
-![](images/68bbaf7229622ebce8542a6cba5c589b7c9c5d0ae358b9b994b63f14985d6d87.jpg)  
+![](images/68bbaf7229622ebce8542a6cba5c589b7c9c5d0ae358b9b994b63f14985d6d87.webp)  
 Figure 21-30: The now-defunct Options properties dialog from Word was an abuse of the tabbed dialog idiom. The problem was that users had to do a lot of work to find the option they were looking for.
 
 Stacked tabs illustrate the following axiom of user-interface design: All idioms, regardless of their merits, have practical limits. A group of five radio buttons may be excellent, but a group of 50 is ridiculous. Five or six tabs in a row is fine, but adding enough tabs to require stacking greatly reduces the idiom's usefulness.
@@ -10168,9 +10168,9 @@ Don't stack tabs.
 
 Expanding dialogs unfold to expose more controls. The dialog shows a button marked More, or uses a down-pointing arrow icon button that toggles to point up when the dialog has been expanded. When the user clicks it, the dialog grows to occupy more screen space. The newly added portion of the dialog contains added functionality, usually for advanced users or more-complex, but related, operations. The Find and Replace dialog in Microsoft Word, shown in Figure 21-31, is a familiar example of this idiom.
 
-![](images/7c45d556c231e2fafa9038eae96611f5f8ef67e759cab8c769d81001eb566645.jpg)
+![](images/7c45d556c231e2fafa9038eae96611f5f8ef67e759cab8c769d81001eb566645.webp)
 
-![](images/769e03d015cc25462c035ec818372d8d22eb909dd4a86957a866728db915d61e.jpg)  
+![](images/769e03d015cc25462c035ec818372d8d22eb909dd4a86957a866728db915d61e.webp)  
 Figure 21-31: The Microsoft Word Find and Replace dialog is an example of an expanding dialog. The image on the left shows it in its original state; the one on the right is what happens after the arrow toggle button is clicked.
 
 Expanding dialogs give infrequent or first-time users the luxury of not having to confront the complex facilities that more frequent users don't find confusing or overwhelming. Think of the dialog as being in either beginner or advanced mode. However, these types of dialogs must be designed with care. When an application has one dialog for beginners and another for experts, it all too often simultaneously insults the beginners and hassles the experts. It's usually a good idea for the dialog to remember what mode it was used in the last time it was invoked. Of course, this means you should always remember to include a Less command to return the dialog to simple beginner mode.
@@ -10179,7 +10179,7 @@ Expanding dialogs give infrequent or first-time users the luxury of not having t
 
 Cascading dialogs are a diabolical idiom whereby controls, usually pushbuttons, in one dialog summon another dialog in a hierarchical pile. The second dialog usually covers the first one either partially or completely. Sometimes the second dialog can summon yet a third one. What a mess! Thankfully, cascading dialogs have fallen from grace and are hard to find anymore. Figure 21-32 shows an example taken from Windows Vista.
 
-![](images/26747badd82204e75b0fdc7432e5106b8facafd1aed5a8fd1f7116d58dc8ab8a.jpg)  
+![](images/26747badd82204e75b0fdc7432e5106b8facafd1aed5a8fd1f7116d58dc8ab8a.webp)  
 Figure 21-32: You can still find a few (terrible) cascading dialogs in Windows. Each dialog offers a set of terminating buttons. The resulting excise and ambiguity are not helpful.
 
 It is, simply put, hard to understand what is going on with cascading dialogs. Part of the problem is that the second dialog covers at least part of the first. That isn't the big issue. After all, combo boxes and pop-up menus do that, and some dialogs can be moved. The real confusion comes from the presence of a second set of terminating buttons. What is the scope of each Cancel? What are we OKing?
@@ -10204,7 +10204,7 @@ Since the early days of computing, developers have largely left unexamined the n
 
 Humans have emotions and feelings; applications don't. When one module of code rejects the input of another, the rejected module doesn't care; it doesn't scowl, get hurt, or seek counseling. Humans, on the other hand, get angry when they are flatly told they did something stupid. Make no mistake: When the user sees an error message, it is as if someone has told her she is stupid (see Figure 21-33). Unsurprisingly, users hate this. Despite this inevitable reaction, some developers use error messages anyway. They don't know how else to create reliable software.
 
-![](images/719991865cfce469942e51e4eba4f4d724e0d9e0be470b0565567e81fa4af170.jpg)  
+![](images/719991865cfce469942e51e4eba4f4d724e0d9e0be470b0565567e81fa4af170.webp)  
 Figure 21-33: No matter how nicely your error messages are phrased, this is how they will be interpreted.
 
 The assumption that users need to be told when they are wrong is false in most circumstances. How important is it for you to know that you requested an invalid type size? Most of the time, applications can and should make reasonable substitutions rather than scolding users.
@@ -10245,7 +10245,7 @@ Undoubtedly, these solutions cause more work for developers. However, it is the 
 
 Users are unsympathetic to the difficulties developers face. They don't see the technical rationale behind an error message. All they see is the application's unwillingness to deal with things in a human way. They see all error messages as some variant of the one shown in Figure 21-34.
 
-![](images/39bfb4cf6a15f22ebfba2dc8eb4f00997a881c0ff37c993e16535694b1d4c514.jpg)  
+![](images/39bfb4cf6a15f22ebfba2dc8eb4f00997a881c0ff37c993e16535694b1d4c514.webp)  
 Figure 21-34: This is how most users perceive error bulletin dialogs. They see them as Kafkaesque interrogations, with each successive choice leading to a blacker pit of retribution and regret.
 
 One of the problems with error messages is that they are usually ex post facto reports of failure. They say, "Bad things just happened, and all you can do is acknowledge the catastrophe." Such reports are not helpful. And these dialogs almost always come with an OK button, requiring the user to be an accessory to the crime. These error messages are reminiscent of the scene in old war movies where an ill-fated soldier steps on a landmine while advancing across the battlefield. He and his buddies clearly hear the click of the mine's triggering mechanism. The soldier realizes that although he's safe now, as soon as he removes his foot from the mine, it will explode, taking some large and useful part of his body with it. This is likely the feeling users will get when they see your app's ill-considered error messages.
@@ -10286,7 +10286,7 @@ It is wrong for the application to dump the problem in the user's lap and wash i
 
 Figure 21-35 shows an example of a reasonable error message. Notice that it is polite, illuminating, and helpful. It doesn't suggest that the user's behavior is anything but impeccable.
 
-![](images/7521e64e72b253fce9f856a15f3f707a3760fd7edf0bdb868fc08b6aac3b66c3.jpg)  
+![](images/7521e64e72b253fce9f856a15f3f707a3760fd7edf0bdb868fc08b6aac3b66c3.webp)  
 Figure 21-35: If you must use an error dialog, it should look something like this. It politely and clearly illuminates the problem and proposes a good solution. The action buttons and resulting effects are also clearly described.
 
 # Alerts and confirmations
@@ -10303,7 +10303,7 @@ Conversely, if the user directs the application to do something—dragging a fil
 
 The rationale for alerts is to keep users informed. This is a great objective, but it need not come at the expense of smooth interaction flow. The alert shown in Figure 21-36 is an example of how alerts are more trouble than help. The Find dialog (the one underneath) already forces the user to click Cancel when the search is completed, but the superimposed alert box adds another flow-breaking button. To return to his work, the user first must click the OK button in the alert and then the Cancel button in the Find dialog. If the information provided by the alert were built into the main Find dialog, the user's burden would be reduced by half.
 
-![](images/17a8995363fa5e9e6b6eb0af4732f9733dc1d6020e8e9d5d88c3b70cc3d9733d.jpg)  
+![](images/17a8995363fa5e9e6b6eb0af4732f9733dc1d6020e8e9d5d88c3b70cc3d9733d.webp)  
 Figure 21-36: A typical alert dialog. It is unnecessary and inappropriate and stops the proceedings with idiocy. Word has finished searching the document. Should reporting that fact be a different facility than the search mechanism itself? If not, why does it use a different dialog?
 
 # How to eliminate alerts
@@ -10314,14 +10314,14 @@ Of course, software must keep users informed of its actions. It should have visu
 
 Software should be flexible and forgiving, but it doesn't need to be fawning and obsequious. The dialog shown in Figure 21-37 is a classic example of an alert that should be put out of its misery. It announces that the application successfully completed a synchronization—its sole reason for existence. This occurs a few seconds after we told it to synchronize. It stops the proceedings to announce the obvious. It's as though the application wants approval for how hard it worked. If a person interacted with us like this, we'd be uncomfortable and find him overbearing. Of course, some feedback is appropriate, but is another dialog that must be dismissed really necessary?
 
-![](images/c656992950d763974633031c23a42b62d692555b2fbac67cb5d0af229abb8e42.jpg)  
+![](images/c656992950d763974633031c23a42b62d692555b2fbac67cb5d0af229abb8e42.webp)  
 Figure 21-37: This dialog, from AirSet Desktop Sync, is unnecessarily obsequious. We tell it to synchronize and are promptly stopped in our tracks by this important message. Do we really need the application to waste our time demanding recognition that it managed to do its job?
 
 # Confirmations: the dialog that cried wolf
 
 When an application feels unconfident about its actions, it often asks the user for approval with a dialog, like the one shown in Figure 21-38. This is called a confirmation. Sometimes a confirmation is offered because the application second-guesses one of the user's actions. Sometimes the application feels that it is not competent to make a decision it faces, and it uses a confirmation to give the user the choice instead.
 
-![](images/b09cdbf342b937bbd33a2c546cda91dce3fc5d4244067d8503f6c07d8428da0c.jpg)  
+![](images/b09cdbf342b937bbd33a2c546cda91dce3fc5d4244067d8503f6c07d8428da0c.webp)  
 Figure 21-38: Every time we delete a file in Windows, we get this confirmation dialog asking if we're sure. Yes, we're sure. We're always sure. And if we're wrong, we expect Windows to be able to recover the file for us. Windows lives up to that expectation with its Recycle Bin. So, why does it still issue the confirmation message? When a confirmation box is issued routinely, users get used to approving it routinely. So, when it eventually reports an impending disaster to the user, he goes ahead and approves it anyway, because it is routine. Do your users a favor and never create another confirmation dialog.
 
 Confirmations get written into software when a developer arrives at an impasse in her coding. Typically, she realizes that she is about to direct the application to take some bold action, and she feels unsure about taking responsibility for it. Sometimes the bold action is based on some condition the application detects, but more often it is based on a command the user issues. Typically, the confirmation will be launched after the user issues a command that is irrecoverable or whose results might cause undue alarm.
@@ -10354,7 +10354,7 @@ Even better than acting in haste and forcing users to rescue the application wit
 
 Occasionally, a situation arises that really can't be protected by Undo. Is this a legitimate case for a confirmation dialog? Not necessarily. A better approach is to provide users with protection the way we give them protection on the freeway: with consistent and clear markings. You can often build excellent, modeless warnings right into the interface. For instance, look at the dialog from Adobe Photoshop shown in Figure 21-39, telling us that our document is larger than the available print area. Why has the application waited until now to inform us of this fact? What if guides showing the actual printable region were visible on the page at all times (unless the user hid them)? What if the parts of the picture outside the printable area were highlighted when the user moved the cursor over the Print button in the toolbar? Clear, rich modeless feedback (as discussed in Chapter 15) is the best way to address these problems.
 
-![](images/b223e40c514d0ab36533ef5e5f0a25ba1de8782b3d0f73753b7041b599268366.jpg)  
+![](images/b223e40c514d0ab36533ef5e5f0a25ba1de8782b3d0f73753b7041b599268366.webp)  
 Figure 21-39: This dialog provides too little help too late. What if the application could display the printable region right in the main interface as dotted guides? There's no reason for users to be subjected to dialogs like these.
 
 # DESIGN PRINCIPLE
@@ -10525,7 +10525,7 @@ Do; don't ask.
 - Make all actions reversible.   
 - Provide modeless feedback to help users avoid mistakes.
 
-![](images/915bea9f8b0ec7d12ed33c4df652a4dd6e0a8c266ad8f4e0a40f563d43469e96.jpg)
+![](images/915bea9f8b0ec7d12ed33c4df652a4dd6e0a8c266ad8f4e0a40f563d43469e96.webp)
 
 # BIBLIOGRAPHY
 
@@ -14814,7 +14814,7 @@ BRENDAN KNERAM, FORMER COOPER INTERN
 
 We're a team of passionate leaders, innovators, and craftspeople.
 
-![](images/8e393c130f2cf126373a9d62f1e0791baf0fc75504832b6d0baaef1f53be0021.jpg)
+![](images/8e393c130f2cf126373a9d62f1e0791baf0fc75504832b6d0baaef1f53be0021.webp)
 
 # Cooper U Courses
 
@@ -14824,7 +14824,7 @@ cooper.com/training
 
 cooperu@cooper.com
 
-![](images/5cff9a5ad638442bd29d5abc92b3d74e313fae0c2aa9e1db8bfb574cc8baff43.jpg)
+![](images/5cff9a5ad638442bd29d5abc92b3d74e313fae0c2aa9e1db8bfb574cc8baff43.webp)
 
 # Our Studio
 
@@ -14834,7 +14834,7 @@ cooper.com/careers
 
 careers@cooper.com
 
-![](images/d7d8872b03181fbba4316a99e2a27d76fabaf757372d79fb3a3f47b1bf936f9d.jpg)
+![](images/d7d8872b03181fbba4316a99e2a27d76fabaf757372d79fb3a3f47b1bf936f9d.webp)
 
 # MASTERING INTERACTION DESIGN FOR NEW DEVICES AND INTERFACES.
 
@@ -14849,19 +14849,19 @@ The first three editions of About Face shaped the evolution of interaction desig
 
 # ABOUT THE AUTHORS
 
-![](images/73c31ff8111d71a29599493e463c93f92b8a53ea444aff9bdcc6b76a05f0a344.jpg)
+![](images/73c31ff8111d71a29599493e463c93f92b8a53ea444aff9bdcc6b76a05f0a344.webp)
 
 ALAN COOPER is a founder of Cooper and a pioneer of modern computing. His groundbreaking work has influenced a generation of programmers, business people, and users.
 
-![](images/548a3ff9079b8be4c9da9080dc668d03ac6a01682d6d9db4d5b495293ddb3940.jpg)
+![](images/548a3ff9079b8be4c9da9080dc668d03ac6a01682d6d9db4d5b495293ddb3940.webp)
 
 ROBERT REIMANN was founding president of the Interaction Design Association (IxDA). He is Principal Interaction Designer at PatientsLikeMe, and former Director of Design R&D at Cooper.
 
-![](images/73191153a1c03c6f52653f28567743fc4e055e8fc1680f16c4132ee059f867b0.jpg)
+![](images/73191153a1c03c6f52653f28567743fc4e055e8fc1680f16c4132ee059f867b0.webp)
 
 DAVID CRONIN is a Design Director at GE. He was also Director of Interaction Design at Smart Design, and a former Managing Director at Cooper.
 
-![](images/d7bc69634109c61a20c4eb7e724b72f006c7cd15997f4194e89d933d31dffeb7.jpg)  
+![](images/d7bc69634109c61a20c4eb7e724b72f006c7cd15997f4194e89d933d31dffeb7.webp)  
 COMPUTERS/User Interfaces $50.00 USA/$60.00 CAN
 
 CHRISTOPHER NOESSEL is Cooper's first Design Fellow, and the co-author of Make It So. He teaches and speaks about design all over the world.

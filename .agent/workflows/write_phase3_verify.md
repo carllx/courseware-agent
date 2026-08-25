@@ -84,7 +84,7 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 - 运行 `validate_visual_text_sync.py` 检查当前编写的模块：
   ```bash
   /opt/anaconda3/envs/mybase/bin/python \
-    .agent/skills/validation_suite/scripts/validate_visual_text_sync.py \
+    .agent/scripts/validation/validate_visual_text_sync.py \
     --course "<课程名>" --week <周次>
   ```
 - **修复 Signaling Sync (🔴 必须)**: 按内容类型分流修复：
@@ -158,7 +158,7 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 ```bash
 # 从 Workspace 根目录运行：
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
+  .agent/scripts/validation/validate_script_length.py \
   --course "<课程名>"
 ```
 
@@ -180,7 +180,7 @@ description: "/write Phase 3 — 校验（Alignment + Length + Coverage）"
 ```bash
 # 从 Workspace 根目录运行：
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
+  .agent/scripts/validation/validate_script_length.py \
   --course "<课程名>" --module-breakdown
 ```
 

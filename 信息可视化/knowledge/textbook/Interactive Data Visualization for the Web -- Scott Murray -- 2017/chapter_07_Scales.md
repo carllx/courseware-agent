@@ -129,7 +129,7 @@ data-type="xref">Figure 7-1</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_input_output_axes" class="figure">
 <img
-src="images/9269569d499ed160c4b79cf2bf7f3df5adab1d3a0cb0a149c138d182adcc2dd6.png"
+src="images/9269569d499ed160c4b79cf2bf7f3df5adab1d3a0cb0a149c138d182adcc2dd6.webp"
 class="calibre115" alt="dvw2 0701" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-1. </span>An
 input domain and an output range, visualized as parallel axes</h6>
@@ -533,7 +533,7 @@ apparent.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_using_x_and_y_scales" class="figure">
 <img
-src="images/4b0c59bf431b7cf17bd8c70c6fdfb4f71bf348e6b1bbe70c8ba288925c130c92.png"
+src="images/4b0c59bf431b7cf17bd8c70c6fdfb4f71bf348e6b1bbe70c8ba288925c130c92.webp"
 class="calibre116" alt="dvw2 0702" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-2.
 </span>Scatterplot using x and y scales</h6>
@@ -582,7 +582,7 @@ data-type="xref">Figure 7-3</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_y_scale_inverted" class="figure">
 <img
-src="images/d9a6d2f6e452b40342332eb4de0283b1a86161121e9692d9e4bc35b764d06e63.png"
+src="images/d9a6d2f6e452b40342332eb4de0283b1a86161121e9692d9e4bc35b764d06e63.webp"
 class="calibre104" alt="dvw2 0703" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-3.
 </span>Scatterplot with y scale inverted</h6>
@@ -627,7 +627,7 @@ data-type="xref">Figure 7-4</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_padding" class="figure">
 <img
-src="images/bd54808aaba094b85be0deee62d8ab7bcb36477f08cd391a84d3afd9dcca2339.png"
+src="images/bd54808aaba094b85be0deee62d8ab7bcb36477f08cd391a84d3afd9dcca2339.webp"
 class="calibre117" alt="dvw2 0704" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-4.
 </span>Scatterplot with padding</h6>
@@ -648,7 +648,7 @@ data-type="xref">Figure 7-5</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_more_padding" class="figure">
 <img
-src="images/7ad430cea008d93cc0adf207638cb2aa7f1340d8feaaa9cabecdea0451c6189b.png"
+src="images/7ad430cea008d93cc0adf207638cb2aa7f1340d8feaaa9cabecdea0451c6189b.webp"
 class="calibre118" alt="dvw2 0705" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-5.
 </span>Scatterplot with more padding</h6>
@@ -706,7 +706,7 @@ property other than an axis value. (See *05_scaled_plot_radii.html*.)
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_scaled_radii" class="figure">
 <img
-src="images/b4d5c1966bbbce13e5397bbd00797537e54c3dc0840ef2f013ab19e56c431bf9.png"
+src="images/b4d5c1966bbbce13e5397bbd00797537e54c3dc0840ef2f013ab19e56c431bf9.webp"
 class="calibre119" alt="dvw2 0706" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-6.
 </span>Scatterplot with scaled radii</h6>
@@ -726,7 +726,7 @@ newcomer in the top-right corner.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_big_numbers_added" class="figure">
 <img
-src="images/fadac066d6f84b19136399db9293e823c5e1af31acfd7ff59b7681b07bd3ef79.png"
+src="images/fadac066d6f84b19136399db9293e823c5e1af31acfd7ff59b7681b07bd3ef79.webp"
 class="calibre120" alt="dvw2 0707" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-7.
 </span>Scatterplot with big numbers added</h6>
@@ -743,7 +743,7 @@ data-type="xref">Figure 7-8</a>, I’ve increased the value of `h` from
 <figure class="calibre35">
 <div id="ch07.xhtml_Large_scaled_scatterplot" class="figure">
 <img
-src="images/3a5fb0c46c0c8832cb9c16463390a3a9ead0724cdc9d4e2696f5e2b458fa1013.png"
+src="images/3a5fb0c46c0c8832cb9c16463390a3a9ead0724cdc9d4e2696f5e2b458fa1013.webp"
 class="calibre121" alt="dvw2 0708" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-8.
 </span>Large, scaled scatterplot</h6>
@@ -974,7 +974,7 @@ data-type="xref">Figure 7-9</a>.
 <div id="ch07.xhtml_Using_a_square_root_scale_for_circle_areas"
 class="figure">
 <img
-src="images/40702f1c46b781b02ddd378346b5d50e712914c02cfb1e72d5cacd64ee39a424.png"
+src="images/40702f1c46b781b02ddd378346b5d50e712914c02cfb1e72d5cacd64ee39a424.webp"
 class="calibre122" alt="dvw2 0709" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-9.
 </span>Using a square root scale for circle areas</h6>
@@ -1150,7 +1150,7 @@ data-type="xref">Figure 7-10</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Look_mom_no_strings" class="figure">
 <img
-src="images/d157d91c78f58feacbe4fc3c6b249e985db1b5cf8e0b3cee7d54e5a02d7ce6db.png"
+src="images/d157d91c78f58feacbe4fc3c6b249e985db1b5cf8e0b3cee7d54e5a02d7ce6db.webp"
 class="calibre123" alt="dvw2 0710" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-10.
 </span>Look mom, no strings!</h6>
@@ -1190,7 +1190,7 @@ data-type="xref">Figure 7-11</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_verifying_xscale_domain" class="figure">
 <img
-src="images/61e22e9939f88a7112095f3313f7cb9e06e9c8916e816d33405c9d732bd6b014.png"
+src="images/61e22e9939f88a7112095f3313f7cb9e06e9c8916e816d33405c9d732bd6b014.webp"
 class="calibre98" alt="dvw2 0711" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-11.
 </span>Verifying the xScale domain runs from January 1 through January
@@ -1216,7 +1216,7 @@ data-type="xref">Figure 7-12</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_time_scaled_circles" class="figure">
 <img
-src="images/ece70debff35e655ef93b103c858cb2c7b074f60b3e70dd1623462fe87cef0f1.png"
+src="images/ece70debff35e655ef93b103c858cb2c7b074f60b3e70dd1623462fe87cef0f1.webp"
 class="calibre124" alt="dvw2 0712" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-12.
 </span>Time-scaled circles</h6>

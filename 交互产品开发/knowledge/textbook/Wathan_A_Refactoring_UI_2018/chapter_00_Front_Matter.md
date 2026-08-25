@@ -1,4 +1,4 @@
-![](images/index-1_1.png)
+![](images/index-1_1.webp)
 
 **Contents**
 

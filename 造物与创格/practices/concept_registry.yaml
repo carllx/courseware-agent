@@ -1,0 +1,4 @@
+# concept_registry.yaml — 概念 ID 注册表
+# SSOT: 本文件是 theory_link.concept_id 的唯一定义点
+# Schema Version: 1.0 (ADR 043)
+concepts: []

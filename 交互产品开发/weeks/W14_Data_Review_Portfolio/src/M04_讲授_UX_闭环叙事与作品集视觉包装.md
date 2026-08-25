@@ -7,7 +7,7 @@
 > **Slide**: 你的作品集为什么像流水账？
 > **Layout**: `Center`
 > **Scene**: 揭示常见的新手作品集目录结构：调研 -> 人物画像 -> 竞品分析 -> 颜色字体 -> 最终视觉。打上巨大的红色 ❌ 叉叉。
-> *   **Asset**: ![预览](../public/slides/w14_slide_15_text_1774183537309.png)
+> *   **Asset**: ![预览](../public/slides/w14_slide_15_text_1774183537309.webp)
 
 
 > [STORY TIME]
@@ -28,7 +28,7 @@
 > **Slide**: "英雄之旅"与用户体验的完美同构
 > **Layout**: `Split`
 > **Scene**: 左侧是坎贝尔的英雄之旅圆环，右侧是对应的数字产品 UX 闭环结构。引出 `hero-journey-portfolio` 核心点。
-> *   **Asset**: ![预览](../public/slides/w14_slide_16_split_1774183559478.png)
+> *   **Asset**: ![预览](../public/slides/w14_slide_16_split_1774183559478.webp)
 
 
 > [PHILOSOPHY]
@@ -56,7 +56,7 @@
 > **Slide**: 深度拆解：一份满分作品集的幻灯片级再造
 > **Layout**: `Full`
 > **Scene**: 左右分栏对照。左侧是传统的"艺术生流水账"，右侧是经得起商业拷问的"UX闭环英雄之旅"。
-> *   **Asset**: ![预览](../public/slides/w14_slide_17_image_1774183577769.png)
+> *   **Asset**: ![预览](../public/slides/w14_slide_17_image_1774183577769.webp)
 
 
 > [CASE STUDY]
@@ -111,7 +111,7 @@
 > **Slide**: 艺术生做作品集的三大误区
 > **Layout**: `Split`
 > **Scene**: 揭示数字媒体艺术学生的常见排版和逻辑雷区。
-> *   **Asset**: ![预览](../public/slides/w14_slide_18_list_1774183596813.png)
+> *   **Asset**: ![预览](../public/slides/w14_slide_18_list_1774183596813.webp)
 
 
 大家平时在构思呈现方式时，特别容易踩中屏幕上列出的这三大逻辑盲区和视觉排版雷区。那些看似精致的视觉包装，往往反而削弱了你们在逻辑深度上的核心竞争力。
@@ -130,7 +130,7 @@
 > **Slide**: 作品集的工业标准 —— 八章节法
 > **Layout**: `Flow`
 > **Scene**: 展示从项目背景到结果反思的完整结构骨架。对应 `portfolio-case-study-structure`。
-> *   **Asset**: ![预览](../public/slides/w14_slide_19_timeline_1774183616305.png)
+> *   **Asset**: ![预览](../public/slides/w14_slide_19_timeline_1774183616305.webp)
 
 
 现在大家看到的这条长长的时间轴，就是业界推崇的高分标杆：从项目的初期背景定位，一路延伸至最终的结果反思。这就是支撑一份顶级案例设计的结构骨架法门。
@@ -153,7 +153,7 @@
 > **Slide**: 坦诚面对失误：从隐蔽到大声疾呼
 > **Layout**: `Full`
 > **Scene**: 两张图对比：左边是打满马赛克掩饰失误的作品，右边是用高亮笔标出"这里我曾经搞砸了"的作品集。
-> *   **Asset**: ![预览](../public/slides/w14_slide_20_image_1774183635394.png)
+> *   **Asset**: ![预览](../public/slides/w14_slide_20_image_1774183635394.webp)
 
 
 > [STORY TIME]

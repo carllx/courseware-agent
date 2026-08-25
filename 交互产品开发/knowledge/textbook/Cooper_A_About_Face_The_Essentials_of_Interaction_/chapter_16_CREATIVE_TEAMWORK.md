@@ -40,7 +40,7 @@ In our hiring process at Cooper, we seek to identify individuals who will make p
 
 Generation and synthesis live on the same spectrum of creativity, as shown in Figure 6-1. Most designers sit on one side of the spectrum, favoring either synthetic or generative skills. A strong Generator typically needs a partner of equal strength in synthesis to strike a healthy balance. When working alone, strong Generators may zoom in too quickly on an incomplete solution or spend too much time casting about in the muddiness of a brainstorm. They need a Synthesizer to help make decisions at the right level at the right times and to keep the design moving forward.
 
-![](images/43118ace54ef1b16db79bacad698e6227917bf020e19401bfb2affa2eabe1540.jpg)  
+![](images/43118ace54ef1b16db79bacad698e6227917bf020e19401bfb2affa2eabe1540.webp)  
 Figure 6-1: Generation and synthesis form a creative spectrum.
 
 Synthesizers initiate dialog within their teams. Instead of proposing new ideas and solutions, Synthesizers ask questions to locate the intent and value within ideas that have already been proposed. As the conversations proceed, Synthesizers seek clarity, expose gaps, and draw connections. When working alone, strong Synthesizers can struggle to move beyond list-making and scenario thinking. They need a Generator to pull ideas into concrete, connected form.
@@ -51,12 +51,12 @@ The following sections outline the qualities, characteristics, and interplay bet
 
 In a typical design meeting, the distinction between roles often manifests itself from the first moment, as shown in Figure 6-2. Who instinctively reaches for the marker and heads to the whiteboard when confronted with a design problem?
 
-![](images/0c7dbfac8356e24c166647f17e1857170abd97f7933a81eba06b29dec3dece4f.jpg)  
+![](images/0c7dbfac8356e24c166647f17e1857170abd97f7933a81eba06b29dec3dece4f.webp)  
 Figure 6-2: Generators and synthesizers complement each other.
 
 Each role tends to inhabit a specific physical and mental space during design meetings. Successful Generators tend to grab the marker to visualize ideas, as shown in Figure 6-3. Synthesizers tend to organize, listing the qualities of a good solution or refreshing their understanding of the problem, the user's goals, and the usage context.
 
-![](images/06774a7194eed0b3d6254e92319890642169075e96b6336bc1f36b7c4b9c0fb2.jpg)  
+![](images/06774a7194eed0b3d6254e92319890642169075e96b6336bc1f36b7c4b9c0fb2.webp)  
 Figure 6-3: Generators and synthesizers approach design problems from different angles.
 
 Generators tend to be relentlessly concrete thinkers, whereas the best Synthesizers lead with storytelling and prompting.
@@ -79,12 +79,12 @@ As a design meeting progresses, the Generator and Synthesizer work together to e
 
 As shown in Figure 6-4, creative minds often disagree, especially when they're coming at the problem from different directions. Early on in a creative partnership, trust must be established. Generators must take the lead in concept direction. This means that Synthesizers must cede both the literal and figurative whiteboard marker. At the same time, Generators must trust Synthesizers to steer the discussion, to keep from getting mired in details, and to reframe the problem when necessary. This means that Generators must feel comfortable with introducing newly formed ideas and not feel threatened when their partner evaluates and critiques these ideas. Most ideas are bad, after all, and a primary goal in a thought partnership is to identify an idea's quality or promise early on and dispense with the craft.
 
-![](images/f4d1635d03a5066ffebd29d84a5a6bcf9e98e816a985ebbd83378d3f7a452cc1.jpg)  
+![](images/f4d1635d03a5066ffebd29d84a5a6bcf9e98e816a985ebbd83378d3f7a452cc1.webp)  
 Figure 6-4: Generators and synthesizers have different responsibilities, strengths, and pitfalls.
 
 In the detailed design phase, the team often spends the morning working together and then separates to document details, as shown in Figure 6-5. The Generator typically opens a drawing tool and begins capturing decisions in the form of drawings. The Synthesizer captures decisions, either in schematics that help explain the flow or in text that explains the rationale. The details that the team documents can be communicated in a variety of ways, depending on the team's size and needs. In our practice, we favor frequent, lightweight, informal notes over formal documentation milestones.
 
-![](images/7a379b3ba853fd29bf1a7a363cbcb07d878c05789c38ba25395f68ab5ea7daf4.jpg)  
+![](images/7a379b3ba853fd29bf1a7a363cbcb07d878c05789c38ba25395f68ab5ea7daf4.webp)  
 Figure 6-5: Generators and synthesizers perform different tasks away from the whiteboard.
 
 # Getting started with thought partnership
@@ -323,7 +323,7 @@ CH 15 Preventing Errors and Informing Decisions
 CH 16 Designing for Different Needs   
 CH 17 Integrating Visual Design
 
-![](images/029f14f1831c8c09f7c2900214a6273ab43aa0995ffb90578afb0184ba1499e0.jpg)
+![](images/029f14f1831c8c09f7c2900214a6273ab43aa0995ffb90578afb0184ba1499e0.webp)
 
-![](images/edecdeff4e41316cbb4268cb7e47e8801f96ab43c992ba134bf487933b278932.jpg)
+![](images/edecdeff4e41316cbb4268cb7e47e8801f96ab43c992ba134bf487933b278932.webp)
 

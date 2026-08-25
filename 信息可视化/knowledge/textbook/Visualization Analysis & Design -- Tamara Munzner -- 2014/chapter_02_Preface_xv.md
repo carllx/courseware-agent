@@ -502,7 +502,7 @@ Idiom and System Examples Index 397
 
 Concept Index 399
 
-![](images/1c296ab0b2e9fd74f89da5e3a59c7b115bc0038eae981dd648799142390a01b9.jpg)
+![](images/1c296ab0b2e9fd74f89da5e3a59c7b115bc0038eae981dd648799142390a01b9.webp)
 
 #
 

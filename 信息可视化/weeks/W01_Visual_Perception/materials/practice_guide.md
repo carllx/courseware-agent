@@ -43,7 +43,7 @@
 1. **领取神秘盲盒**：请通过以下入口进入本次**「腾讯在线联机表格」**协同游戏：
    - **文档链接**：[【企微文档】Datasaurus_for_Tencent_Docs](https://doc.weixin.qq.com/sheet/e3_AcQAogZfAOkSG3ZchdMI3TKqS0Yff?scode=AGYAEgcDAA4XBnGzHrAcQAogZfAOk&tab=000001)
    - **扫码直达**：  
-     ![扫码进入协同表格](../public/practice/datasaurus_tencent_doc_qr.png)
+     ![扫码进入协同表格](../public/practice/datasaurus_tencent_doc_qr.webp)
      *(注：教师后备使用的备用源文件路径为 `public/practice/Datasaurus_for_Tencent_Docs.xlsx`)*
 
    进入文档后，你会发现表格底部有 5 个不同的数据子表（Sheet），分别被命名为“神秘盲盒_1号”到“5号”。请每个同学或小组任意抢占一个盲盒表单。
@@ -62,7 +62,7 @@
    - 请四处走动，看看周围小组的屏幕：虽然平均数字**分毫不差**，但在可视化的还原下，有人那里是霸王龙，有人是五角星，有人是一组被撕裂的离散块！
    - 参考下方全部数据集的变异网格：
 
-![Datasaurus Dozen 统计值与散点图网格](../public/practice/datasaurus_dozen_stats_grid.jpg)
+![Datasaurus Dozen 统计值与散点图网格](../public/practice/datasaurus_dozen_stats_grid.webp)
 
 **💡 认知沉淀：这只假恐龙，教了我们哪些看“真数据”的规矩？**
 
@@ -90,13 +90,13 @@
 
 **规则**：在下方这张 15×25 的纯数字矩阵中，请在 **10 秒内** 数出所有数字 "3" 的个数。
 
-![纯数字矩阵基线版——无视觉辅助](../public/practice/preattentive_numbers_baseline.png)
+![纯数字矩阵基线版——无视觉辅助](../public/practice/preattentive_numbers_baseline.webp)
 
 > **痛点体验**：你是否经历了痛苦的逐行逐列扫描？这就是经典的**串行搜索 (Serial Search)**——当所有元素在颜色、大小、形状上完全同质化时，大脑被迫一个一个检查，效率极其低下。
 
 现在请看同一张矩阵的高亮版本：
 
-![数字矩阵高亮版——颜色通道介入](../public/practice/preattentive_numbers_highlighted.png)
+![数字矩阵高亮版——颜色通道介入](../public/practice/preattentive_numbers_highlighted.webp)
 
 > **"啪"的一声**：所有的 "3" 以红色粗体瞬间弹出！你甚至不需要刻意去找，它们就像荧光弹一样击穿了你的视网膜。这就是**前注意弹出效应 (Pre-attentive Pop-out)**——颜色通道是人类视觉系统中最强大的并行检索武器。
 
@@ -104,10 +104,10 @@
 
 | 通道开关 | 图示 (占位符) | 极速弹出体验 |
 |------|------|------|
-| **色彩阵营 (色相变异)** | ![颜色弹出](../public/practice/preattentive_color_pop.png) | 在一片死寂的深蓝色点阵汪洋中，那一颗正红色的圆点，是否像闪电般直接刺伤了你的视网膜？ |
-| **形态阵营 (尺寸突变)** | ![大小弹出](../public/practice/preattentive_size_pop.png) | 在上百个微小如尘埃的等大圆点中，那颗体积极度膨胀的巨大星球，是否根本无需寻找就暴力跃出？ |
-| **形态阵营 (形状截断)** | ![形状弹出](../public/practice/preattentive_shape_pop.png) | 全是柔和平滑的圆形阵列里，突然硬生生砸进一个边缘极其锐利、带有折角的方块阵营异类，是否显得格格不入？ |
-| **形态阵营 (方向逆折)** | ![方向弹出](../public/practice/preattentive_orientation_pop.png) | 在几百根如同树木般整齐划一垂直向上的平行线段中，那一根强行被拗断成 45 度交错逆角的线条，是否瞬间引爆了你的视觉纠错强迫症？ |
+| **色彩阵营 (色相变异)** | ![颜色弹出](../public/practice/preattentive_color_pop.webp) | 在一片死寂的深蓝色点阵汪洋中，那一颗正红色的圆点，是否像闪电般直接刺伤了你的视网膜？ |
+| **形态阵营 (尺寸突变)** | ![大小弹出](../public/practice/preattentive_size_pop.webp) | 在上百个微小如尘埃的等大圆点中，那颗体积极度膨胀的巨大星球，是否根本无需寻找就暴力跃出？ |
+| **形态阵营 (形状截断)** | ![形状弹出](../public/practice/preattentive_shape_pop.webp) | 全是柔和平滑的圆形阵列里，突然硬生生砸进一个边缘极其锐利、带有折角的方块阵营异类，是否显得格格不入？ |
+| **形态阵营 (方向逆折)** | ![方向弹出](../public/practice/preattentive_orientation_pop.webp) | 在几百根如同树木般整齐划一垂直向上的平行线段中，那一根强行被拗断成 45 度交错逆角的线条，是否瞬间引爆了你的视觉纠错强迫症？ |
 
 > **理论收网**：颜色、大小与方向都是独立的前注意通道。只要目标在**单一维度**上与背景产生强烈对比，大脑就能在约 200ms 以内完成**并行扫描**，且不受干扰元素数量的影响。
 
@@ -115,13 +115,13 @@
 
 现在请看下方这张图——你的任务是找到其中所有的 **"红色圆形"**：
 
-![联合搜索阻碍——颜色×形状双重维度](../public/practice/no_preattentive_conjunction.png)
+![联合搜索阻碍——颜色×形状双重维度](../public/practice/no_preattentive_conjunction.webp)
 
 > **认知宕机**：当你需要同时在两个维度（颜色 + 形状）上筛选目标时，弹出效应彻底失效！大脑被迫重新退化为逐元素的串行扫描模式。这就是**联合搜索 (Conjunction Search)** 的代价。
 
 再看这张"散落圆点计数"测试：
 
-![计数困难——缺乏组织的均质散点](../public/practice/no_preattentive_counting.png)
+![计数困难——缺乏组织的均质散点](../public/practice/no_preattentive_counting.webp)
 
 > **设计法则**：如果你要让观众一眼看见重点，**永远不要让两个不同的前注意通道在同一图表中无谓地打架**。保留背景收敛，才能让亮点显形。这就是作为“聚光灯报警器”的前注意机制的**核心霸权——极端排他法则**。
 
@@ -145,18 +145,18 @@
 
 ### 4.1 病历 A：彻底失控的意面图 (Spaghetti Chart)
 
-![意面图：15 条无差别折线的认知灾难](../public/practice/bad_chart_spaghetti.png)
+![意面图：15 条无差别折线的认知灾难](../public/practice/bad_chart_spaghetti.webp)
 
 - **主治维度**：【图底层级】 (Hierarchy / Figure-Ground)
 - **病因**：15 条色彩极度相似、且全被强行提拔为“视觉主体强色”的折线在同一张 2D 坐标系内死死纠缠，互不退让。
 - **症状**：你根本无法追踪任何一条线的趋势走向；所有的线条都在拼命争夺大脑皮层的有限注意力资源，画面毫无主次，等于一团废纸。
 - **处方**：执行极端的纯粹降噪幽灵化——将暂不需要追踪的 14 条线统统降维让渡为极度微弱的浅灰色（打入 Background 背景死牢），仅把唯一需要对焦的关注标的高亮为实心的红色（提拔为绝对的 Figure 主角）。
 
-![图底分离修复版：在噪声中精准聚焦](../public/practice/good_chart_figure_ground.png)
+![图底分离修复版：在噪声中精准聚焦](../public/practice/good_chart_figure_ground.webp)
 
 ### 4.2 病历 B：支离破碎的爆炸切片饼图
 
-![严重碎片化且爆裂的离散饼图](../public/practice/bad_chart_exploded_pie.png)
+![严重碎片化且爆裂的离散饼图](../public/practice/bad_chart_exploded_pie.webp)
 *(注：抛除其他透视畸变不谈，这张图单从**数据网格切割倾向**上已经完全犯了格式塔死罪)*
 
 - **主治维度**：【视觉完形】 (Closure / Simplicity)
@@ -165,11 +165,11 @@
 - **处方**：向大脑对“简单对称性”的偏好妥协。强行收拢极度断裂的心智长尾（果断将一众 3% 以下的微小碎片合并为单个灰色的“其他”区块），剔除爆裂间隙，将其归纳为仅容纳 3-5 个核心对比阵营的干净半透明环形阵列。
 
 *(修复参考效果：长尾归并后的极简规整完形)*
-![极简完形：长尾收拢与结构化净环型图](../public/practice/good_chart_pie_simplified.png)
+![极简完形：长尾收拢与结构化净环型图](../public/practice/good_chart_pie_simplified.webp)
 
 ### 4.3 病历 C：反人类的卡片散落大盘排版
 
-![仪表板布局灾难：违反邻近性原则](../public/practice/bad_chart_dashboard_layout.png)
+![仪表板布局灾难：违反邻近性原则](../public/practice/bad_chart_dashboard_layout.webp)
 
 - **主治维度**：【群组缝合·基础】 (Grouping / Proximity & Similarity)
 - **病因**：属于同一个核心业务链的“销售额”和“退货预警”被远远流放到了显示器的对角线两端；而原本该互斥的两个边缘指标卡却紧靠在一起。
@@ -177,11 +177,11 @@
 - **处方**：物理防区封锁管控。对齐！再对齐！把同类卡片统统拖到同一个像素坐标空间内强制互相吸附贴紧（邻近定律），并通过显性拉开的外边距鸿沟切断它们与其他业务族的关联。
 
 *(修复参考效果)*
-![空间分区修复版：同类归组、层级清晰](../public/practice/good_chart_spatial_region.png)
+![空间分区修复版：同类归组、层级清晰](../public/practice/good_chart_spatial_region.webp)
 
 ### 4.4 病历 D：被极权推翻的排版法则与多维关联嵌套
 
-![依赖距离产生错误认知的发病状态](../public/practice/bad_chart_gestalt_override.png)
+![依赖距离产生错误认知的发病状态](../public/practice/bad_chart_gestalt_override.webp)
 *(在这个极简对照组中，图表 A 和 B 因为物理距离极近，大脑在 200 毫秒内瞬间认定它们是一伙的；而 C 被孤立了)*
 
 - **主治维度**：【多维数据编码映射】 (Multi-dimensional Grouping / Common Region & Connectedness)
@@ -192,7 +192,7 @@
   3. **第三维·即时因果（利用连通血脉）**：最后不仅画框，甚至可以用一条极其明晃晃的红色实体线把 B 和 C 纵贯相牵。连通法则代表着最不可抗拒的因果逻辑（比如 B 正在向 C 进行高危数据的实时熔断报警与传输）。
 
 *(修复参考效果：哪怕 A 和 B 几乎脸贴脸，但连线和画框无情瓦解了二维排版！我们在同一套视觉里，不冲突地嵌套了物理、安全、数据流三套截然不同的业务架构关系)*
-![极权武力缝合：连线或画框对距离的绝对覆盖，并且建立多维映射架构](../public/practice/good_chart_gestalt_override.png)
+![极权武力缝合：连线或画框对距离的绝对覆盖，并且建立多维映射架构](../public/practice/good_chart_gestalt_override.webp)
 
 ### 4.5 病历 E：群魔乱舞的炫技式延迟入场加载 (新增)
 
@@ -223,15 +223,15 @@
 
 **Step 1** — 打开 [RAWGraphs 2.0](https://rawgraphs.io/)，将课件提供的 Spotify 样本 CSV 数据粘贴入数据面板。
 
-![Step 1：数据粘贴与解析](../public/practice/rawgraphs_step1_paste.png)
+![Step 1：数据粘贴与解析](../public/practice/rawgraphs_step1_paste.webp)
 
 **Step 2** — 确认数据解析成功（250 行数据，1750 个单元格），滚动到 "Choose a chart"。
 
-![Step 2：数据预览与图表选择](../public/practice/rawgraphs_step2_preview.png)
+![Step 2：数据预览与图表选择](../public/practice/rawgraphs_step2_preview.webp)
 
 选择 **Bubble Chart** 气泡图类型：
 
-![Step 2.5：选择 Bubble Chart](../public/practice/rawgraphs_step3_chart_select.png)
+![Step 2.5：选择 Bubble Chart](../public/practice/rawgraphs_step3_chart_select.webp)
 
 **Step 3** — 在 Mapping 面板进行维度映射：
   - `Valence` → X Axis
@@ -239,15 +239,15 @@
   - `Stream_Count` → Size（气泡大小）
   - `Genre` → Color（颜色编码）
 
-![Step 3：维度映射](../public/practice/rawgraphs_step4_mapping.png)
+![Step 3：维度映射](../public/practice/rawgraphs_step4_mapping.webp)
 
 **Step 4** — **制造灾难体验**：在 Customize 面板中，将 "Max diameter" 强制拉大至 **60** 像素。
 
-![Step 4：Max diameter = 60，气泡彼此重叠](../public/practice/rawgraphs_step5_export.png)
+![Step 4：Max diameter = 60，气泡彼此重叠](../public/practice/rawgraphs_step5_export.webp)
 
 **Step 5** — **体验痛点**：观察上百个巨型气泡色块暴力重叠造成的"认知拥堵"，感受浏览器 DOM 引擎在面对海量高频矢量图节点刷新时濒临卡死崩溃的物理极限（Display Capacity）。切身体会混乱堆叠的像素是如何将数据规律彻底掩埋的。
 
-![Step 5：认知拥堵全景——前注意重叠痛感的极限体验](../public/practice/rawgraphs_step6_congestion.png)
+![Step 5：认知拥堵全景——前注意重叠痛感的极限体验](../public/practice/rawgraphs_step6_congestion.webp)
 
 ### 5.3 Track B：黑盒降噪直出（AI Sandbox 高阶指令驱动）
 
@@ -273,7 +273,7 @@
 ![智谱数据分析模式：一键直出极简极客图表](../public/practice/zhipu_vibe_demo.webp)
 
 **最终静态成品**：可以直接下载网页生成的图片成品用于后续的组装——
-![Vibe Coding 算法降噪渲染最终确认](../public/practice/glm_vibe_demo.png)
+![Vibe Coding 算法降噪渲染最终确认](../public/practice/glm_vibe_demo.webp)
 
 > **反思**：经过真实的、自动化沙箱的运行（见上方动图），你彻底剥去了拖沓的多模块网页交互。你现在的身份从"点鼠标操作软件的操作员"，升级为了用自然语言调动"代码探针与算力引擎的指挥官"。在这个极简流程中，心智 100% 聚焦在"审美裁决"与"格式塔重构"上。
 

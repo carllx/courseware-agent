@@ -14,26 +14,26 @@ Learning to reason about marks and channels gives you the building blocks for an
 
 A mark is a basic graphical element in an image. Marks are geometric primitive objects classified according to the number of spatial dimensions they require. Figure 5.2 shows examples: a zerodimensional (0D) mark is a point, a one-dimensional (1D) mark is a line, and a two-dimensional (2D) mark is an area. A threedimensional (3D) volume mark is possible, but they are not frequently used.
 
-![](images/2c40271ff1f1c92ebd6568da369fbcbd922bbb30ada3054703006029a94217a9.jpg)  
+![](images/2c40271ff1f1c92ebd6568da369fbcbd922bbb30ada3054703006029a94217a9.webp)  
 Figure 5.2. Marks are geometric primitives.
 
 The term channel is popular in the vis literature and is not meant to imply any particular theory about the underlying mechanisms of human visual perception. There are many, many synonyms for visual channel: nearly any combination of visual, graphical, perceptual, retinal for the first word, and channel, attribute, dimension, variable, feature, and carrier for the second word.
 
 A visual channel is a way to control the appearance of marks, independent of the dimensionality of the geometric primitive.* Figure 5.3 shows a few of the many visual channels that can encode information as properties of a mark. Some pertain to spatial position, including aligned planar position, unaligned planar position, depth (3D position), and spatial region. Others pertain to color, which has three distinct aspects: hue, saturation, and luminance. There are three size channels, one for each added dimension: length is 1D size, area is 2D size, and volume is 3D size. The motion-oriented channels include the motion pattern, for instance, oscillating circles versus straight jumps, the direction of motion, and the velocity. Angle is also a channel, sometimes called tilt. Curvature is also a visual channel. Shape is a complex phenomenon, but it is treated as a channel in this framework.
 
-![](images/568e79888e730882f63bf26ccc18c1e052f55091222396393ebf8f431d683832.jpg)  
+![](images/568e79888e730882f63bf26ccc18c1e052f55091222396393ebf8f431d683832.webp)  
 Figure 5.3. Visual channels control the appearance of marks.
 
-![](images/aba3ee7af994a2cbbcde0924d7178df37f884bffaf48042a0376238ffc329590.jpg)  
+![](images/aba3ee7af994a2cbbcde0924d7178df37f884bffaf48042a0376238ffc329590.webp)  
 (a)
 
-![](images/3207c641e960a185bc75c15010c65379ee6179cbe33f8c13a8cb40f1968480e0.jpg)  
+![](images/3207c641e960a185bc75c15010c65379ee6179cbe33f8c13a8cb40f1968480e0.webp)  
 (b)
 
-![](images/59c8a506f2f036770dd5119e758322753527bbc7dd6940b64ad84c27c0ea95d6.jpg)  
+![](images/59c8a506f2f036770dd5119e758322753527bbc7dd6940b64ad84c27c0ea95d6.webp)  
 (c)
 
-![](images/66313be5c94f811d69eefae78e9614302429953104143e91daef1c1db2b57af6.jpg)  
+![](images/66313be5c94f811d69eefae78e9614302429953104143e91daef1c1db2b57af6.webp)  
 (d)   
 Figure 5.4. Using marks and channels. (a) Bar charts encode two attributes using a line mark with the vertical spatial position channel for the quantitative attribute, and the horizontal spatial position channel for the categorical attribute. (b) Scatterplots encode two quantitative attributes using point marks and both vertical and horizontal spatial position. (c) A third categorical attribute is encoded by adding color to the scatterplot. (d) Adding the visual channel of size encodes a fourth quantitative attribute as well.
 
@@ -71,23 +71,23 @@ All channels are not equal: the same data attribute encoded with two different v
 
 # Marks as I tems/Nodes
 
-![](images/babd6e741e41a1ce4685aeaf1d3f33f1d06fec897a9cc5f189a0cf6f340fbf61.jpg)  
+![](images/babd6e741e41a1ce4685aeaf1d3f33f1d06fec897a9cc5f189a0cf6f340fbf61.webp)  
 $\textcircled{ \div}$ Points
 
-![](images/f857c3342b35cd500e9341c0a2e27b651618967f906bd65dd7618f610039f87f.jpg)  
+![](images/f857c3342b35cd500e9341c0a2e27b651618967f906bd65dd7618f610039f87f.webp)  
 Lines
 
-![](images/7f30e9b3fd5a2d2adac9ea087c3f4d65da94205312d593727d5cd87fd73ecd88.jpg)  
+![](images/7f30e9b3fd5a2d2adac9ea087c3f4d65da94205312d593727d5cd87fd73ecd88.webp)  
 Areas
 
-![](images/d63fe2643bdc1e5dcadfbc33a40add3a9d42a38b0ebdc7804266bf60ca548706.jpg)
+![](images/d63fe2643bdc1e5dcadfbc33a40add3a9d42a38b0ebdc7804266bf60ca548706.webp)
 
 # Marks as Links
 
-![](images/5b223557ed77bc119805da4af06c50648eebdecafc03f5aa597fb3f8582fe79b.jpg)  
+![](images/5b223557ed77bc119805da4af06c50648eebdecafc03f5aa597fb3f8582fe79b.webp)  
 $\textcircled{ \div}$ Containment
 
-![](images/264407726afd96d74ba4affc9b27faa062a2161d1cbc415c50ce1aad306bc266.jpg)  
+![](images/264407726afd96d74ba4affc9b27faa062a2161d1cbc415c50ce1aad306bc266.webp)  
 $\textcircled{ \div}$ Connec tion   
 Figure 5.5. Marks can represent individual items, or links between them.
 
@@ -129,7 +129,7 @@ Channels: Expressiveness Types and Effec tiveness R anks
 
 $\textcircled{ \div}$ Magnitude Channels: Ordered Attributes
 
-![](images/4d63d0f515d6bc48f32064ad73d83707e77268cab095484d614394310021acef.jpg)  
+![](images/4d63d0f515d6bc48f32064ad73d83707e77268cab095484d614394310021acef.webp)  
 Figure 5.6. Channels ranked by effectiveness according to data and channel type. Ordered data should be shown with the magnitude channels, and categorical data with the identity channels.
 
 $\circled{  }$ Identity Channels: Categorical Attributes
@@ -160,7 +160,7 @@ $$
 
 where $S$ is the perceived sensation and $I$ is the physical intensity. The power law exponent $n$ ranges from the sublinear 0.5 for brightness to the superlinear 3.5 for electric current. That is, the sublinear phenomena are compressed, so doubling the physical
 
-![](images/b3119f251df7f330a73f93086d2a3b9987404fbb68e789e1999a3d26e4e12e7f.jpg)  
+![](images/b3119f251df7f330a73f93086d2a3b9987404fbb68e789e1999a3d26e4e12e7f.webp)  
 Steven's Psychophysical Power Law: S= IN   
 Figure 5.7. Stevens showed that the apparent magnitude of all sensory channels follows a power law $S = I ^ { n }$ , where some sensations are perceptually magnified compared with their objective intensity (when $n > 1$ ) and some compressed (when $n < 1 _ { . }$ ). Length perception is completely accurate, whereas area is compressed and saturation is magnified. Data from Stevens [Stevens 75, p. 15].
 
@@ -168,7 +168,7 @@ brightness results in a perception that is considerably less than twice as brigh
 
 Another set of answers to the question of accuracy comes from controlled experiments that directly map human response to visually encoded abstract information, giving us explicit rankings of perceptual accuracy for each channel type. For example, Cleveland and McGill’s experiments on the magnitude channels [Cleveland and McGill 84a] showed that aligned position against a common scale is most accurately perceived, followed by unaligned position against an identical scale, followed by length, followed by angle. Area judgements are notably less accurate than all of these. They also propose rankings for channels that they did not directly test: after area is an equivalence class of volume, curvature, and lumi-
 
-![](images/57bd524df99ed0d693646b5daa39794faaff6f2cb63a58699b70a40f24fb0f92.jpg)  
+![](images/57bd524df99ed0d693646b5daa39794faaff6f2cb63a58699b70a40f24fb0f92.webp)  
 Figure 5.8. Error rates across visual channels, with recent crowdsourced results replicating and extending seminal work from Cleveland and McGill [Cleveland and McGill 84a]. After [Heer and Bostock 10, Figure 4].
 
 nance; that class is followed by hue in last place. (This last place ranking is for hue as a magnitude channel, a very different matter than its second-place rank as a identity channel.) These accuracy results for visual encodings dovetail nicely with the psychophysical channel measurements in Figure 5.7. Heer and Bostock confirmed and extended this work using crowdsourcing, summarized in Figure 5.8 [Heer and Bostock 10]. The only discrepancy is that the later work found length and angle judgements roughly equivalent.
@@ -187,7 +187,7 @@ You cannot treat all visual channels as completely independent from each other, 
 
 Clearly, you cannot separately encode two attributes of information using vertical and horizontal spatial position and then expect to encode a third attribute using planar proximity. In this case it
 
-![](images/1638bcd12b65e49ae0a1386fea202f5369c7a8c2740cdf28b878277c78bcfa62.jpg)  
+![](images/1638bcd12b65e49ae0a1386fea202f5369c7a8c2740cdf28b878277c78bcfa62.webp)  
 Figure 5.9. Linewidth has a limited number of discriminable bins.
 
 is obvious that the third channel precludes the use of the first two. However, some of the interchannel interference is less obvious.
@@ -196,7 +196,7 @@ Figure 5.10 shows pairs of visual channels at four points along this continuum. 
 
 Next is an example of interference between channels, showing that size is not fully separable from color hue. We can easily distinguish the large half from the small half, but within the small half discriminating between the two colors is much more difficult. Size interacts with many visual channels, including shape.
 
-![](images/9db2d16e02f22a05bd251e27ed5d07637330e0b032c76811a656eee828fbb369.jpg)  
+![](images/9db2d16e02f22a05bd251e27ed5d07637330e0b032c76811a656eee828fbb369.webp)  
 Figure 5.10. Pairs of visual channels fall along a continuum from fully separable to intrinsically integral. Color and location are separable channels well suited to encode different data attributes for two different groupings that can be selectively attended to. However, size interacts with hue, which is harder to perceive for small objects. The horizontal size and and vertical size channels are automatically fused into an integrated perception of area, yielding three groups. Attempts to code separate information along the red and green axes of the RGB color space fail, because we simply perceive four different hues. After [Ware 13, Figure 5.23].
 
 The third example shows an integral pair. Encoding one variable with horizontal size and another with vertical size is ineffective because what we directly perceive is the planar size of the circles, namely, their area. We cannot easily distinguish groupings of wide from narrow, and short from tall. Rather, the most obvious perceptual grouping is into three sets: small, medium, and large. The medium category includes the horizontally flattened as well as the vertically flattened.
@@ -219,40 +219,40 @@ Popout is not an all-or-nothing phenomenon. It depends on both the channel itsel
 
 * Visual popout is often called preattentive processing or tunable detection.
 
-![](images/8907137bc803689791357c5f88b7c421f36f65bfb77d81081a8aecd0f0833107.jpg)  
+![](images/8907137bc803689791357c5f88b7c421f36f65bfb77d81081a8aecd0f0833107.webp)  
 (a)
 
-![](images/aa089bd51b56121c3e01292360f633b4e3fc690305d0f01d0c3ab0ff88c9d98d.jpg)  
+![](images/aa089bd51b56121c3e01292360f633b4e3fc690305d0f01d0c3ab0ff88c9d98d.webp)  
 (b)
 
-![](images/e85d5fd3909ebddee46e591384178133e57ea3deecc25a1b6a31f70eb6c729d9.jpg)  
+![](images/e85d5fd3909ebddee46e591384178133e57ea3deecc25a1b6a31f70eb6c729d9.webp)  
 (c)
 
-![](images/755aee6cbb4655414c2812bae7db6bcdb3e41ad7bb47586e10d247cb2a340619.jpg)  
+![](images/755aee6cbb4655414c2812bae7db6bcdb3e41ad7bb47586e10d247cb2a340619.webp)  
 (d)
 
-![](images/37fca9242bbec853684dc7dc65c6e955d0755502c3de539ffb97dbb8f377ad6d.jpg)  
+![](images/37fca9242bbec853684dc7dc65c6e955d0755502c3de539ffb97dbb8f377ad6d.webp)  
 (e)
 
-![](images/404e062e1b81b67c30e699c21eff023d8c0143c45244e66b543cb6c4f00e32c1.jpg)  
+![](images/404e062e1b81b67c30e699c21eff023d8c0143c45244e66b543cb6c4f00e32c1.webp)  
 (f)   
 Figure 5.11. Visual popout. (a) The red circle pops out from a small set of blue circles. (b) The red circle pops out from a large set of blue circles just as quickly. (c) The red circle also pops out from a small set of square shapes, although a bit slower than with color. (d) The red circle also pops out of a large set of red squares. (e) The red circle does not take long to find from a small set of mixed shapes and colors. (f) The red circle does not pop out from a large set of red squares and blue circles, and it can only be found by searching one by one through all the objects. After http://www.csc.ncsu.edu/faculty/healey/PP by Christopher G. Healey.
 
-![](images/be41c98ab22c653f36feaa346f144d98cc06ca6dce5385a4fe0f5990c979ad93.jpg)  
+![](images/be41c98ab22c653f36feaa346f144d98cc06ca6dce5385a4fe0f5990c979ad93.webp)  
 (a)
 
-![](images/7122811b101b8111e6237cf3667abc98c663b5f5c5231615d58acdbf5e71f6a0.jpg)  
+![](images/7122811b101b8111e6237cf3667abc98c663b5f5c5231615d58acdbf5e71f6a0.webp)  
 (b)
 
-![](images/88a8e2cbe01bb79b1cfa6d4a1f3c7a888d84bfb15f1f4ffc9c294f52274e0977.jpg)
+![](images/88a8e2cbe01bb79b1cfa6d4a1f3c7a888d84bfb15f1f4ffc9c294f52274e0977.webp)
 
-![](images/cb5a040d5ca29c648746a1df03a45a4d8313096381d63f35b0247113dcf985cd.jpg)  
+![](images/cb5a040d5ca29c648746a1df03a45a4d8313096381d63f35b0247113dcf985cd.webp)  
 (d)
 
-![](images/aaf194f001b94dab7eec49840cd05a4ca5821a8325294c0772ac1b8c5a354ba0.jpg)  
+![](images/aaf194f001b94dab7eec49840cd05a4ca5821a8325294c0772ac1b8c5a354ba0.webp)  
 (e)
 
-![](images/c90741fb775cd0b1a8e92f3cd41f3e8644fd39dbab16cead0def4c33c02e549e.jpg)  
+![](images/c90741fb775cd0b1a8e92f3cd41f3e8644fd39dbab16cead0def4c33c02e549e.webp)  
   
 Figure 5.12. Many channels support visual popout, including (a) tilt, (b) size, (c) shape, (d) proximity, and (e) shadow direction. (f) However, parallel line pairs do not pop out from a sea of slightly tilted distractor object pairs and can only be detected through serial search. After http://www.csc.ncsu.edu/faculty/healey/PP by Christopher G. Healey.
 
@@ -288,34 +288,34 @@ This principle holds true for all sensory modalities. The fact that our senses w
 
 An example based on Weber’s Law illuminates why position along a scale can be more accurately perceived than a pure length judgement of position without a scale. The length judgement in Figure 5.13(a) is difficult to make with unaligned and unframed bars. It is easier with framing, as in Figure 5.13(b), or alignment, as in Figure 5.13(c), so that the bars can be judged against a common scale. When making a judgement without a common scale, the only information is the length of the bars themselves. Placing a common frame around the bars provides another way to estimate magnitude: we can check the length of the unfilled bar. Bar B is only about $1 5 \%$ longer than Bar A, approaching the range where length differences are difficult to judge. But the unfilled part of the frame for Bar B is about $5 0 \%$ smaller than the one for Bar A, an easily discriminable difference. Aligning the bars achieves the same effect without the use of a frame.
 
-![](images/ed98a00b69726917e02a7f04068918f0a6ef232a4db74b60de3f4459011f67fe.jpg)  
+![](images/ed98a00b69726917e02a7f04068918f0a6ef232a4db74b60de3f4459011f67fe.webp)  
 A   
 Unframed Unaligned   
 (a)
 
-![](images/8763e47180d8beee12c9e2770981a40584bee0d86cbf218c4649313c3cc1c73b.jpg)  
+![](images/8763e47180d8beee12c9e2770981a40584bee0d86cbf218c4649313c3cc1c73b.webp)  
 A   
 Framed Unaligned   
 (b)
 
-![](images/3fea15c478553ac7e4b346812f81bacdd93ed2a99a0d4f2ebe28cf07d2cb0189.jpg)  
+![](images/3fea15c478553ac7e4b346812f81bacdd93ed2a99a0d4f2ebe28cf07d2cb0189.webp)  
 Unframed Aligned   
   
 Figure 5.13. Weber’s Law states that we judge based on relative, not absolute differences. (a) The lengths of unframed, unaligned rectangles of slightly different sizes are hard to compare. (b) Adding a frame allows us to compare the very different sizes of the unfilled rectangles between the bar and frame tops. (c) Aligning the bars also makes the judgement easy. Redrawn and extended after [Cleveland and McGill 84a, Figure 12].
 
 Another example shows that our perception of color and luminance is completely contextual, based on the contrast with surrounding colors. In Figure 5.14(a), the two labeled squares in a checkerboard appear to be quite different shades of gray. In Figure 5.14(b), superimposing a solid gray mask that touches both squares shows that they are identical. Conversely, Figure 5.15
 
-![](images/f53bdd6e778b4f3d7325482e984d957f39c76926af9668d0d75db3a2ffe6b994.jpg)  
+![](images/f53bdd6e778b4f3d7325482e984d957f39c76926af9668d0d75db3a2ffe6b994.webp)  
 (a)
 
-![](images/f79e934778462b9ab7e6cbfa417abf1e6979ad14e62f37c456ebc0e73f141699.jpg)  
+![](images/f79e934778462b9ab7e6cbfa417abf1e6979ad14e62f37c456ebc0e73f141699.webp)  
 (b)   
 Figure 5.14. Luminance perception is based on relative, not absolute, judgements. (a) The two squares A and B appear quite different. (b) Superimposing a gray mask on the image shows that they are in fact identical.
 
-![](images/eb1d429eca8b7cb533e5116ec9227340625b424b182e032b506ed8ca0ca40df6.jpg)  
+![](images/eb1d429eca8b7cb533e5116ec9227340625b424b182e032b506ed8ca0ca40df6.webp)  
 (a)
 
-![](images/383242a1d940967786df199ccc3893807d39f9ced3881110704b1cb1a74b50ec.jpg)  
+![](images/383242a1d940967786df199ccc3893807d39f9ced3881110704b1cb1a74b50ec.webp)  
 (b)   
 Figure 5.15. Color perception is also relative to surrounding colors and depends on context. (a) Both cubes have tiles that appear to be red. (b) Masking the intervening context shows that the colors are very different: with yellow apparent lighting, they are orange; with blue apparent lighting, they are purple.
 

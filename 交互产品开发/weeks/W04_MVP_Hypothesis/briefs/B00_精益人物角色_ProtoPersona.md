@@ -44,10 +44,10 @@ status: done
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 7-1 | Box 3 of the Lean UX Canvas: Users | `images/assets/lux3_0701.png` | ✅ 已迁移 (`/public/textbook/Fig_7-1.png`) |
-| Fig 7-2 | Dogs. We are indebted to our learned colleague... | `images/assets/lux3_0702.png` | ✅ 已迁移 (`/public/textbook/lux3_0702.png`) |
-| Fig 7-3 | A completed proto-persona template | `images/assets/lux3_0703.png` | ✅ 已迁移 (`/public/textbook/Fig_7-3.png`) |
-| Fig 7-4 | The banana slicer. Who buys these? | `images/assets/lux3_0704.png` | ✅ 已迁移 (`/public/textbook/Fig_7-4.png`) |
+| Fig 7-1 | Box 3 of the Lean UX Canvas: Users | `images/assets/lux3_0701.webp` | ✅ 已迁移 (`/public/textbook/Fig_7-1.webp`) |
+| Fig 7-2 | Dogs. We are indebted to our learned colleague... | `images/assets/lux3_0702.webp` | ✅ 已迁移 (`/public/textbook/lux3_0702.webp`) |
+| Fig 7-3 | A completed proto-persona template | `images/assets/lux3_0703.webp` | ✅ 已迁移 (`/public/textbook/Fig_7-3.webp`) |
+| Fig 7-4 | The banana slicer. Who buys these? | `images/assets/lux3_0704.webp` | ✅ 已迁移 (`/public/textbook/Fig_7-4.webp`) |
 
 ## 易混淆概念辨析
 

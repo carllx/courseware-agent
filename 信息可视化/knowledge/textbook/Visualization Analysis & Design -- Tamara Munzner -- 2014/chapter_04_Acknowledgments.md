@@ -34,7 +34,7 @@ I thank my family for their decades of love and support: Naomi Munzner, Sheila O
 
 thank Ari for the painting featured on the cover and for the way that his artwork has shaped me over my lifetime; see http://www. aribertmunzner.com.
 
-![](images/a6e42b35159ca06a7cec434be85a623fc6211f1f530d39bfc3d8cf396acee32f.jpg)
+![](images/a6e42b35159ca06a7cec434be85a623fc6211f1f530d39bfc3d8cf396acee32f.webp)
 
 #
 

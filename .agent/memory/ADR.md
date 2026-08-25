@@ -75,7 +75,7 @@
 **Context**: 课程逐字稿和视觉素材完成后，PPT 仅展示 `[VISUAL]` 块的"投影面"（标题+图+列表），逐字稿 80%+ 的叙事内容仅存在于 Speaker Notes（不可见）。参考已有项目（数字音频编辑 Audition 混响课程）的 Vite+React H5 预览系统，该系统通过 `Slide_Database.md` 独立数据源 + SRT 字幕实现音频-幻灯片毫秒级同步。但当前课程工作区的脚本格式不同——视觉数据内嵌在脚本 `[VISUAL]` 块中而非独立数据库，需要适配解析器。
 **Decision**:
 1. **Workspace 级通用部署**：H5 生成器（`delivery/generate_course_h5.py`）和模板（`delivery/h5_template/`）部署在 workspace `delivery/` 级别，遵循 PPT 生成器（`generate_course_ppt.js`）的架构范式。CLI 用法：`python delivery/generate_course_h5.py <课程> <脚本>`（单讲模式）或 `python delivery/generate_course_h5.py --all`（全量模式，v2.0）。
-2. **解析器复用**：H5 JSON 生成器直接导入 `.agent/skills/validation_suite/scripts/script_parser.py`，不重复实现脚本解析逻辑。`ScriptBlock` -> `slides.json` 的转化层仅负责结构映射和主题注入。
+2. **解析器复用**：H5 JSON 生成器直接导入 `.agent/scripts/core/script_parser.py`，不重复实现脚本解析逻辑。`ScriptBlock` -> `slides.json` 的转化层仅负责结构映射和主题注入。
 3. **TextPanel 差异化定位**：H5 的核心价值在于 TextPanel（文本面板），将 PPT 中不可见的 Speaker Notes 以可阅读的形式呈现。支持 5 种段落类型差异化渲染：speech / 口头标签（CASE STUDY 等） / 技术注释 / 活动块 / 普通文本。
 4. **主题运行时注入**：CSS 变量由 `slides.json` 的 `theme` 对象在运行时通过 `document.documentElement.style.setProperty()` 注入，无需编译时绑定。自动加载课程的 `visual_system.yaml`。
 5. **灰盒降级**：当 `image` 字段对应的物理文件不存在时，自动渲染灰盒占位（虚线框 + Scene 文字描述 + Layout 标签 + 预期素材路径诊断信息），与参考项目逻辑一致。
@@ -141,9 +141,9 @@
 3. **SSOT 消除**：`write_phase1_prep.md` Step 2.8 的硬编码覆盖率阈值替换为 `rule_saturation.md` §2 引用。
 4. **best_practices 固化**：迁移到 `.agent/rules/rule_best_practices.md`，INDEX.md 注册为全局规则。
 5. **DEPENDENCY_MAP.md 创建**：三层矩阵（规则→工作流/技能、工作流→工作流、技能→工作流），供 `/update_guidance` §C 引用。
-6. **下游同步**：3 个规则 frontmatter consumers 更新（drp→phase2, saturation→phase1, outline→phase3）；TL;DR 阈值同步（60→70%）；SSOT 行 Step 编号更新；`_epilogue.md` Phase 引用更新；`update_guidance.md` §C 引用 DEPENDENCY_MAP；`validation_suite/SKILL.md` 补充新参数文档。
+6. **下游同步**：3 个规则 frontmatter consumers 更新（drp→phase2, saturation→phase1, outline→phase3）；TL;DR 阈值同步（60→70%）；SSOT 行 Step 编号更新；`_epilogue.md` Phase 引用更新；`update_guidance.md` §C 引用 DEPENDENCY_MAP；`` 补充新参数文档。
 
-**变更文件**：`INDEX.md`、`DEPENDENCY_MAP.md`（新建）、`write.md`、`write_phase1_prep.md`（新建）、`write_phase2_compose.md`（新建）、`write_phase3_verify.md`（新建）、`rule_best_practices.md`（新建）、`rule_drp.md`、`rule_saturation.md`、`rule_outline_alignment.md`、`_epilogue.md`、`update_guidance.md`、`validation_suite/SKILL.md`、`ADR.md`。
+**变更文件**：`INDEX.md`、`DEPENDENCY_MAP.md`（新建）、`write.md`、`write_phase1_prep.md`（新建）、`write_phase2_compose.md`（新建）、`write_phase3_verify.md`（新建）、`rule_best_practices.md`（新建）、`rule_drp.md`、`rule_saturation.md`、`rule_outline_alignment.md`、`_epilogue.md`、`update_guidance.md`、``、`ADR.md`。
 
 ## ADR 031: 目录重构 `planning/` → `practices/` 与结构化素材层
 **Date**: 2026-03-26  
@@ -242,9 +242,9 @@
 **影响**:
 - 审计单周预计节省 ~65% tokens，审计单模块预计节省 ~80% tokens。
 - 全课程审计行为完全向后兼容（不加 `--week` 时行为不变）。
-- `INDEX.md`、`validation_suite/SKILL.md` 已同步更新。
+- `INDEX.md`、`` 已同步更新。
 
-**变更文件**：`script_parser.py`、`validate_spec.py`、`validate_visuals.py`、`check_draft_status.py`、`validate_project.py`、`audit.md`、`validation_suite/SKILL.md`、`INDEX.md`、`ADR.md`。
+**变更文件**：`script_parser.py`、`validate_spec.py`、`validate_visuals.py`、`check_draft_status.py`、`validate_project.py`、`audit.md`、``、`INDEX.md`、`ADR.md`。
 
 ## ADR 036: H5 引擎片段渲染与源映射回馈 (Phase 6)
 
@@ -454,12 +454,12 @@ ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_t
 **Decision**:
 1. **统一兼容边界**: 清理 `course_loader.py`，移除 `load_course_section` 中的旧版动态读取兜底逻辑，保证全量加载和局部加载行为严格一致。
 2. **底层加载 Fail-Fast**: 使用正则表达式严格提取 `exp_id`。如果提取失败或完全缺失，强制抛出带有文件名的 `ValueError`，在数据管道最初端立即阻断构建进程，绝不隐式放行。
-3. **独立学时验证**: 将全局学时对账业务剥离出通用 Loader。在根目录新建 `validation-suite/check_experiment_hours.py`，负责累加所有 `exp_*.yaml` 中的 `hours`，与 `course_meta.yaml` 进行严格对账。同时将其挂载到统一检查入口 `validate_project.py`。
+3. **独立学时验证**: 将全局学时对账业务剥离出通用 Loader。在根目录新建 `.agent/scripts/validation/check_experiment_hours.py`，负责累加所有 `exp_*.yaml` 中的 `hours`，与 `course_meta.yaml` 进行严格对账。同时将其挂载到统一检查入口 `validate_project.py`。
 **影响**:
 - 数据不合规的课程在编译起点就会立即抛错并挂起，防止烂数据流向渲染层。
 - Loader 职责回归纯粹读取（不再越权清洗或计算学时），学时对账业务转移至外部专业检查链。
 
-**变更文件**：`course_loader.py`、`validation-suite/check_experiment_hours.py`、`.agent/skills/validation_suite/scripts/validate_project.py`、`.agent/skills/validation_suite/SKILL.md`、`.agent/memory/ADR.md`。
+**变更文件**：`course_loader.py`、`.agent/scripts/validation/check_experiment_hours.py`、`.agent/scripts/validation/validate_project.py`、``、`.agent/memory/ADR.md`。
 
 ## ADR 046: 放宽全实践课程实验学时对账条件
 **Date**: 2026-06-15
@@ -472,7 +472,7 @@ ADR 037 Phase 7 创建 `vite-plugin-h5-hot-reload.js` 时，针对 `engines/h5_t
 - 全实践课程获得更大的活动排布灵活性。
 - “正式实验(Experiment)”与“平时练习(Practice)”在时间填充上形成了互补关系，贴合现代实践课程的真实教学场景。
 
-**变更文件**：`validation-suite/check_experiment_hours.py`、`.agent/rules/rule_experiment_compliance.md`、`.agent/memory/ADR.md`。
+**变更文件**：`.agent/scripts/validation/check_experiment_hours.py`、`.agent/rules/rule_experiment_compliance.md`、`.agent/memory/ADR.md`。
 
 ## ADR 047: 期末考核分类的官方枚举修正 (Assessment Type Enum)
 **Date**: 2026-06-15

@@ -53,7 +53,7 @@ During the pandemic a social phenomenon that emerged to compensate for not 
 
 (Continued)
 
-![](images/58958b3ad1711ecdf8654f27831edf42ab92977131accfae4fb8b560c8215f08.jpg)  
+![](images/58958b3ad1711ecdf8654f27831edf42ab92977131accfae4fb8b560c8215f08.webp)  
 Figure 5.1  A Zoom birthday party in full swing
 
 # Source: Yvonne Rogers
@@ -64,7 +64,7 @@ A  growing concern that is being raised  within society is  how much�
 
 South Korea (Wakefield, 2022). Even when sitting together, we often end up being in our own digital bubbles  (see Figure 5.2). Sherry Turkle in her  book called Reclaiming Conversation (2015)  bemoaned the negative impact  that this  trend is  having on  everyday life, especially how it is  affecting conversation. She pointed out that many people will admit to preferring texting to talking to others, as it  is easier, requires less effort, and is more convenient. Furthermore, her research has shown that when children hear adults talking less, they likewise talk less. This in turn reduces opportunities to learn how to empathize. She argues that while online communication has its place in society, it is time to reclaim conversation, where people put down their phones more often and (re)learn the art and joy of spontaneously talking to each other. Do you agree with her view?
 
-![](images/b7c2b9399e480cc6f440068c1572f85663e98d8e681ad84396be60a6edf68efb.jpg)  
+![](images/b7c2b9399e480cc6f440068c1572f85663e98d8e681ad84396be60a6edf68efb.webp)  
 Figure 5.2  A family sits together, but they are all in their own digital bubbles—including the dog! Source: Yvonne Rogers
 
 On  the other hand, it should  be stressed that several  technologies have been  designed to encourage social interaction to good effect. For example, voice assistants that come with smart speakers,  such as Amazon’s Echo  devices, provide  a large number  of skills intended to support multiple users taking part at the same time, offering the  potential for families to play together. An example skill is Open the Magic Door, which enables families with young children to choose their path in a story e.g., saving monkeys on a tropical island, by selecting different options through the narrative. Social interaction may be further encouraged by the affordance of a smart speaker when placed on a surface in the home, such as a kitchen counter  or  mantelpiece.  In  particular, its  physical  presence  in  this  shared  location  affords
@@ -165,7 +165,7 @@ Taking turns also provides opportunities for the listener to initiate r
 
 Conversational  user  interfaces, such  as  chatbots,  are  becoming  more  sophisticated  in how they emulate the kind of turn-taking that takes place face to face. They do so by analyzing large numbers of conversational patterns using machine  learning models. For example, Replika,  which  is  an AI-based  companion  chatbot, was designed  to  simulate  human  conversation  through  encouraging turn-taking  with  the user.  Figure  5.3  shows  a snippet  of a conversation I had with Replika, where our conversation takes place through turn-taking.
 
-![](images/b4dbc87e60d83b0d60b80b3e7b8c2f0033afd3e8857ff2ff92f9aaa7d033b768.jpg)  
+![](images/b4dbc87e60d83b0d60b80b3e7b8c2f0033afd3e8857ff2ff92f9aaa7d033b768.webp)  
 Figure 5.3  A snippet of my conversation with Replika, a conversational companion, showing turn-taking
 
 Source: Yvonne Rogers
@@ -202,7 +202,7 @@ AÂvarietyÂofÂsocialÂtechnologiesÂhaveÂbeenÂdevelopedÂtoÂsupportÂremote
 
 VideoconferencingÂisÂanÂonlineÂtechnologyÂthatÂenablesÂpeopleÂinÂdifferentÂlocationsÂtoÂcon-Â nectÂandÂmeetÂwithÂeachÂotherÂviaÂtheÂInternet.ÂMuchÂresearchÂwasÂconductedÂinÂtheÂ1980sÂ andÂ1990sÂwhereÂnovelÂsystemsÂwereÂdevelopedÂtoÂenableÂpeopleÂtoÂtalkÂremotelyÂasÂifÂtheyÂ wereÂinÂtheÂsameÂphysicalÂroom.ÂAnÂearlyÂexampleÂwasÂtheÂVideoWindowÂ(FishÂetÂal.,Â1990)Â thatÂwasÂdesignedÂtoÂconnectÂtwoÂloungeÂareas,ÂwhichÂwereÂ50Â milesapart,Â ÂviaÂaÂ3-footÂbyÂ 5-footÂpictureÂwindowÂontoÂwhichÂvideoÂimagesÂofÂeachÂlocationÂwereÂprojectedÂ(seeÂ FigureÂ 5.4).TheÂ ÂlargeÂsizeÂenabledÂviewersÂtoÂseeÂaÂroomÂofÂpeopleÂroughlyÂtheÂsameÂsizeÂasÂ themselves.ÂAÂstudyÂofÂitsÂuseÂshowedÂthatÂmanyÂofÂtheÂconversationsÂthatÂtookÂplaceÂbetweenÂ theÂremoteÂconversantsÂwereÂindeedÂindistinguishableÂfromÂsimilarÂface-to-faceÂinteractions,Â withÂtheÂdifferenceÂbeingÂthatÂtheyÂspokeÂaÂbitÂlouderÂandÂconstantlyÂtalkedÂaboutÂtheÂvideoÂ systemÂ(KrautÂetÂ al.,1990). Â ÂOtherÂearlyÂresearchÂonÂhowÂpeopleÂinteractedÂwhenÂusingÂvide-Â oconferencingÂshowedÂhowÂtheyÂtendedÂtoÂprojectÂthemselvesÂmore,ÂtakeÂlongerÂconversa-Â tionalÂturns,ÂandÂinterruptÂeachÂotherÂlessÂ(Oâ€™ConnailletÂÂ al.,1993).Â Â
 
-![](images/bdd308aa70d928180a9a585fb2b4591948e4a4e28e711304d4d741fbeac361e9.jpg)  
+![](images/bdd308aa70d928180a9a585fb2b4591948e4a4e28e711304d4d741fbeac361e9.webp)  
 FigureÂ 5.4DiagramÂ ÂofÂVideoWindowÂsystemÂinÂuseÂ
 
 Since  then,  videoconferencing  has  advanced  significantly  and  become  adopted  worldwide  as  a  mainstream  communication  tool.  Software  was  developed  so  that  it could  run on  PCs,  smartphones,  or  tablets.  Most  people’s first  experience  of  videoconferencing  was using the free software, Skype. Then other free video apps came along such as FaceTime and WhatsApp. During the pandemic, Zoom and Teams became more widely  used. From being largely a means to chat with others online, these tools rapidly evolved to be more like virtual meeting rooms, providing a range of other functions that could support online activities. These included letting users choose from a variety of background screens, having a parallel window to chat in, assigning people to breakout rooms for smaller group discussions, and providing a range of emojis intended to be used in the moment as a form of expression. Other functions that became popular included the ability for people to share their screens, exchange files, and communicate via digital whiteboards. To indicate who has the floor, screen effects were also made available such as enlarging the person who was talking to take up most of the display window or highlighting their window portal in a different color when they were talking.
@@ -220,7 +220,7 @@ It also proved very difficult to socialize with other classmates during lesso
 The virtual spaces could also be customized in a variety of ways, for example, as a school, a playground, or other fantasy social world. Another kind of virtual space that was used to support  teams  working  together is Sococo (see Figure 5.5).  It has  a  similar  rationale—to enable people to connect throughout the day as if they were in the same office building.
 
 Figure 5.5  A Sococo virtual  space where different meeting and social spaces were developed by a research team at University College London. Each room was given a friendly name to give it character.   
-![](images/293502667cb1978495907030612282e40907a7970cce74b68e6eef441bdff2d4.jpg)  
+![](images/293502667cb1978495907030612282e40907a7970cce74b68e6eef441bdff2d4.webp)  
 Source: Kate Jones (kate.e.jones@ucl.ac.uk)
 
 How best to represent the activity of online social interaction in virtual spaces has been the  subject  of much  research. A design principle  that has  been influential  is social  translucence (Erickson and Kellogg, 2000). This refers to the importance of designing communication systems to enable participants and their activities to be visible to one another. This idea was very  much behind the early communication tool, Babble, developed at  IBM by David Smith  (Erickson et  al., 1999), which  provided a  dynamic  visualization  of  the participants in  an  ongoing  chat  room. A  large  2D circle  was  depicted  using  colored  marbles  on  each user’s monitor. Marbles  inside  the  circle  conveyed  those  individuals  active  in  the  current
@@ -230,7 +230,7 @@ conversation. Marbles outside the circle showed users involved in other
 360 cameras have also started to be used with videoconferencing that capture  a panoramic view of a meeting room. Instead of having a webcam positioned to face only one direction, the 360 camera is typically placed in the middle of the group meeting on a table. This enables remote team members to see all those present during the meeting. Some systems, such as Meeting Owl, can even automatically  focus on  the person  who is  currently speaking in the room by detecting when they are talking and then zooming in on them. Figure 5.6 shows what they see—which is a split screen view of all the members present in the meeting and the person talking blown up beneath that.
 
 Figure 5.6  The Meeting Owl setup being used in a hybrid meeting   
-![](images/b0fa1f8440fe1287a32a7cc8327854e1095ebd3f5f36735682537988aa4a7310.jpg)  
+![](images/b0fa1f8440fe1287a32a7cc8327854e1095ebd3f5f36735682537988aa4a7310.webp)  
 Source: https://meetingstore.co.uk/product/owl-labs-meeting-owl-pro
 
 The benefits of working at home were found to be many, including a flexible schedule, the ability to wear  casual clothes, fewer distractions from colleagues, and zero commuting. People also  saved money  by  not  having  to  travel each  day. It  is  not  surprising, therefore, that after the pandemic many people wanted to continue working  from home and be able to come into work for one or two days a week. To accommodate this, hybrid working came into being. The idea was to get the best of both worlds, enabling people to still work at home for part of the week but also encouraging them to come into work on certain days in order to re-establish and create a sense of community. While some found it improved their work-life
@@ -242,7 +242,7 @@ However, hybrid working is still in its infancy. The experience for rem
 To address this inequality, Microsoft has been conducting research into how to support more  equitable  hybrid meetings  with  a  focus  on  how  to  make  them  more  inclusive. This has involved them rethinking not just the physical meeting spaces but also the whole digital experience  of online  communication  and collaboration. To begin,  they  experimented  with where to place the video feeds of remote members on a shared screen. Instead of having them appear at the top, they placed them at the bottom (see Figure 5.7). The effect was to promote better eye gaze, which is at the same level as the participants in the room. In the rest of the display, documents are presented that can be annotated and changed in real time, in relation to what the team is working on.
 
 Figure 5.7  A prototype of a technology-enhanced hybrid meeting (Microsoft)   
-![](images/3ae1ccf2cc5665b3c57270e1a7ca0d4e83cdef52fc28d6120c237fc03b90eb8f.jpg)  
+![](images/3ae1ccf2cc5665b3c57270e1a7ca0d4e83cdef52fc28d6120c237fc03b90eb8f.webp)  
 Source: www.microsoft.com/en-us/worklab/designing-the-new-hybrid-meeting-experience
 
 # 5.4.2  Telepresence
@@ -263,7 +263,7 @@ A recent experience I had of socializing in a 3D virtual world, via a de
 
 and actions all helped to provide a sense of connecting with others. They also helped with the virtual socializing, especially ice-breaking, but I wouldn’t say they provided real social presence. Other attempts to improve the sense of being there are being experimented with in the Metaverse, as described next.
 
-![](images/3eb2d0b6d4c491f88f4d68c43e19f82ea26d374f828151baa7c898885cd53aec.jpg)  
+![](images/3eb2d0b6d4c491f88f4d68c43e19f82ea26d374f828151baa7c898885cd53aec.webp)  
 Figure 5.8  Yvonne trying to dance after giving a keynote at a virtual conference Source: Yvonne Rogers
 
 # BOX 5.3
@@ -277,7 +277,7 @@ The idea of the Metaverse has been around for 20–30 years. Essentially, 
 More recently,  Second Life has  become more commercial.  For  example, the  firstever Fashion Week took place in Second Life in early  2022 (www.youtube.com/watch?v= pa2HVUk5s5c&t=14s). Much of it resembled the events that take place in a physical fashion show, with a catwalk, audience, and models showing off new clothing ranges. However, if you watch the video, it looks like the human digital models are floating along the virtual catwalk rather than walking. To address this strangeness, some designers used cartoon cats instead of digital  human models to show off their  clothing (see Figure 5.9). One of the reasons for switching to cartoon characters is it avoids all the problems of trying to make a human model appear lifelike. After the virtual fashion show, the skins of the outfits that were modeled could be purchased by those attending. Once purchased, they could then dress up their own avatars in the skins and walk around parading them.
 
 Figure 5.9  Dolce & Gabbana cat  model showing off a snazzy skin that people can purchase to wear on their own avatar in Second Life   
-![](images/3aa6ceed3c5b1f0b9be7b859c02ac931a02b3e613be733bb791d43b476cc3620.jpg)  
+![](images/3aa6ceed3c5b1f0b9be7b859c02ac931a02b3e613be733bb791d43b476cc3620.webp)  
 Source: coin3.net/the-first-ever-metaverse-fashion-week-digital-fashion-is-here-to-stay
 
 Video A well-researched and personal account of the history of Second Life is presented by Bolly Coco (1999–2021): www.youtube.com/watch?v=8tEORJpmsCE.
@@ -286,7 +286,7 @@ In the early 2020s, Mark Zuckerberg (Meta) began talking up the Metaverse 
 
 Figure 5.10 shows  a  version  of Zuckerberg’s vision of the  Metaverse. Three  avatars are enjoying the outdoors, moving their arms and hands with the VR controllers, as if they are together, even though they are apart in the physical world. However, there is something slightly odd about the avatars. They don’t have any legs! The reason for this is largely down to technical limitations. In contrast to the VR hand controllers that can map onto arm movements relatively well in real time, the sensors and controllers that were available at the time that could be placed on someone’s legs were not able to represent leg and foot movements in VR very well. It is often the case that obstacles can get in the way (such as someone’s stomach), resulting in movements of the legs being obscured and not able to be detected accurately. Because of this, VR headsets, like Oculus, initially were not configured to capture the whole body of a person. Current research, however, is exploring how to overcome these kinds  of occlusion problems. In the future, we may see people putting on a whole body suit (like a Spiderman outfit), rather than just a VR headset when entering the Metaverse.
 
-![](images/727e8247080adc18cd40ee91006d78e76bf78a27e18929b00ce6d5422986b9e7.jpg)  
+![](images/727e8247080adc18cd40ee91006d78e76bf78a27e18929b00ce6d5422986b9e7.webp)  
 Figure 5.10 Meta’s vision of three  friends  socializing  in a  3D world  represented  as torso avatars
 
 Source: Facebook www.cnet.com/tech/computing/ facebook-goes-meta-what-is-the-metaverse-and-why-is-big-tech-obsessed
@@ -307,10 +307,10 @@ During a live session, class members move around the Miro canvas and�
 
 in the course all commented afterward about how it created a greater awareness of others’ activities and a feeling of being at a place together.
 
-![](images/29308e1e50944385b7c9ed45ef42c29821902c48cc8a027ee921a2d76c5bc16f.jpg)  
+![](images/29308e1e50944385b7c9ed45ef42c29821902c48cc8a027ee921a2d76c5bc16f.webp)  
 (a)
 
-![](images/64b0bba40ac0b486fbd7bb659c445f51cc785023ea6349bbecde90abff4c1305.jpg)  
+![](images/64b0bba40ac0b486fbd7bb659c445f51cc785023ea6349bbecde90abff4c1305.webp)  
 (b)   
 Figure 5.11 (a) A Miro board used in an online class on interaction design where students upload their posters and add comments using yellow post-it notes. The professor and teaching assistants also added theirs using orange ones. (b) A zoomed-in screen of two of the student posters.
 
@@ -322,7 +322,7 @@ Source: Nic Marquardt
 
 Instead of talking to a remote family member via videoconferencing, in the future it may be possible to talk to a  miniature-size (or  life-size) 3D image of them. Proto (formerly Portl), a startup company  set up by David Nussbaum in 2020, has been exploring this possibility through creating boxes where a 3D digital person appears in them. They look so lifelike they could almost be there (see Figure 5.12). The box works by being brightly lit with embedded LEDs above, below, and from the sides (see Figure 5.13). It also captures the person’s shadows as they move around the box to give them the appearance of volumetric depth. The recipient can interact with them almost in real time.
 
-![](images/036fa179a930135ac618f1e2d3a4e5005443bfb95467e854a3e9609042acfcad.jpg)  
+![](images/036fa179a930135ac618f1e2d3a4e5005443bfb95467e854a3e9609042acfcad.webp)  
 Figure 5.12 David Nussbaum demonstrating  how  they capture and present  the Proto person in a box
 
 Source: Proto Inc.
@@ -330,7 +330,7 @@ Source: Proto Inc.
 Proto is also developing smaller, more affordable boxes for the domestic market, where the  person in the box can be recorded with more affordable technology, by simply using  a smartphone on a tripod. Do you think this way of communicating with others will be more engaging and immersive than current videoconferencing or the Metaverse? Will the size of the projected person matter? In particular, what will be the difference between having a life-size 3D person or a small 3D person appear in the box?
 
 Figure 5.13 Talking with a 3D video of granny in a box (Proto M). The embedded camera at the top of the box faces the mother and child so that Granny can see and hear them in real time. They can also see and hear Granny.   
-![](images/568f9f66136c20b2d3aa6640d4486d0e18f3c9e4fa65be836c9cfcbaa82c815e.jpg)  
+![](images/568f9f66136c20b2d3aa6640d4486d0e18f3c9e4fa65be836c9cfcbaa82c815e.webp)  
 Source: www.portlhologram.com
 
 # 5.5  Co-Presence
@@ -377,7 +377,7 @@ Various technologies have been designed to capitalize on existing forms
 
 Augmented reality (AR) sandboxes have been developed for museum visitors to interact with a landscape, consisting of mountains, valleys, and rivers. The sand is real, while the landscape is virtual. Visitors can sculpt the sand into different-shaped contours that change their appearance to look like a river or land, depending on the height of the sand piles. Figure 5.14 shows an AR sandbox that was installed at the V&A museum in London. On observing two young children playing at the sandbox, this author overheard one say to the other while flattening a pile of sand, “Let’s turn this land into sea.” The other replied, “OK, but let’s make an island on that.” They continued to talk about how and why they should change their landscape. It was a pleasure to watch this dovetailing of explaining and doing.
 
-![](images/f01a5b05e05ff2f8e671e0b4febb5c1ea5c98f57b6a54d578e08ac9d32057fa6.jpg)  
+![](images/f01a5b05e05ff2f8e671e0b4febb5c1ea5c98f57b6a54d578e08ac9d32057fa6.webp)  
 Figure 5.14 Visitors creating together using an augmented reality sandbox at the V&A Museum in London
 
 Source: Yvonne Rogers
@@ -389,14 +389,14 @@ Often in meetings, some people  dominate while others say very  little
 Real-time feedback presented via ambient displays has also been shown to provide a form of awareness for co-located groups. LEDs glowing in tabletops and abstract visualizations on handheld and wall displays have been designed to represent how different group members are performing, such as turn-taking. An early prototype was the Reflect Table  that was designed to monitor and analyze ongoing conversations using embedded microphones in front of each person and represents this in the form of increasing numbers of colored LEDs, as shown in Figure 5.15 (Bachour et al., 2008). A study investigated whether students became more aware of how  much they  were speaking  during a group  meeting when their  relative levels  of talk were displayed in this manner and, if so, whether they regulated their levels of participation more effectively. In other words, would the girl in the bottom right reduce her contributions (as she clearly has been talking the most) while the boy in the bottom left increase his (as he has been  talking the least)? The findings were  mixed: Some participants  changed their level to match the levels of others, while others became frustrated and chose simply to ignore the LEDs. Specifically, those who spoke the most changed their behavior the most (that is, reduced their level), while those who spoke the least changed theirs the least (in other words, did not increase their level). Another finding was that participants who believed that it was beneficial to contribute equally to the conversation  took more notice of the  LEDs and regulated their conversation level accordingly. For example, one participant said that she refrained from talking to avoid having a lot more lights than the others (Bachour et al., 2010). Conversely, participants who thought it was not important took less notice. How do you think you would react?
 
 Figure 5.15 The Reflect Table   
-![](images/9a6c7600f8cb98f17adf0e25cd2058de250bcc79307d79c43c02c9c4ba7cc3a0.jpg)  
+![](images/9a6c7600f8cb98f17adf0e25cd2058de250bcc79307d79c43c02c9c4ba7cc3a0.webp)  
 Source: Used courtesy of Pierre Dillenbourg
 
 An  implication from  the various user  studies  on  co-located collaboration  around  tabletops is that designing shareable interfaces to encourage more equitable participation isn’t straightforward. Providing  explicit real-time  feedback  on  how  much someone  is  speaking in a group may be a good way of showing everyone who is talking too much, but it may be intimidating for those who are  talking too little. Allowing  discreet and accessible ways for adding and manipulating content to an ongoing collaborative task at a shareable surface may be more effective at encouraging greater participation from people who normally find it difficult or who are simply unable to contribute verbally to group settings (for example, those on the autistic spectrum, those who stutter, or those who are shy or are non-native speakers).
 
 Most of the research on awareness has focused on developing technologies for augmenting visual awareness. But what about people who are blind or have low vision? How can we enhance their sense of the environment? Social interaction can be particularly challenging for them, especially trying to remember who is in a co-located social setting. To help address this situation, Cecily Morrison and colleagues (2021) developed PeopleLens (see Figure 5.16), a new wearable technology to help blind people make sense of and engage  with their immediate social surroundings. It comprises a head-mounted  augmented reality device that uses computer vision algorithms to locate, identify, track, and capture the gaze directions of people in the  vicinity. It  then presents this information to the wearer, when requested, through using spatialized audio so that it appears to come from the direction of the person.
 
-![](images/2f50aa5987615eb546751d9910d9aa64c20036b1669c789670e5cbba431c51c3.jpg)  
+![](images/2f50aa5987615eb546751d9910d9aa64c20036b1669c789670e5cbba431c51c3.webp)  
 Figure 5.16 PeopleLens:  a head-mounted device that enhances a blind child’s spatial awareness of those around them
 
 Source: Cecily Morrison

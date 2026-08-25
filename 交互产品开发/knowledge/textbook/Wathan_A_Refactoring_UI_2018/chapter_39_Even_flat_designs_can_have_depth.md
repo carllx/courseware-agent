@@ -7,7 +7,7 @@ interacts with things in the real-world.
 But the most effective flat designs still convey depth, they just do it
 in a different way.
 
-![](images/index-191_1.png)
+![](images/index-191_1.webp)
 
 191
 
@@ -25,7 +25,7 @@ want it to feel inset like a well:
 This is just as applicable to non-flat designs, too — color is just
 another tool in your toolbelt for conveying distance.
 
-![](images/index-192_1.png)
+![](images/index-192_1.webp)
 
 Even flat designs can have depth
 
@@ -43,5 +43,5 @@ bit without sacrificing that flat aesthetic.
 
 Even flat designs can have depth
 
-![](images/index-194_1.png)
+![](images/index-194_1.webp)
 

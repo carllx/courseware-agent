@@ -25,7 +25,7 @@
 ### 2.3 数据类型 (Data Types)
 构成数据集的五种基本组成部分（参见 Figure 2.2）：
 
-![Figure 2.2 — 五种基本数据类型：Items, Attributes, Links, Positions, Grids](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.jpg)
+![Figure 2.2 — 五种基本数据类型：Items, Attributes, Links, Positions, Grids](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.webp)
 1. **属性 (Attribute)**：可以被测量、观察或记录的特定性质（如工资、价格、温度）。同义词：变量（Variable）。*注意：教材明确提出避免使用"维度 (Dimension)"指代数据列，因为 Dimension 被专用于指代空间位置（Spatial position）。*
 2. **条目 (Item)**：离散的个体实体（如表格中的行、网络中的节点）。例如：人、股票、基因、城市。
 3. **链接 (Link)**：条目之间的关系，通常在网络中出现。
@@ -35,15 +35,15 @@
 ### 2.4 数据集类型 (Dataset Types)
 数据集（Dataset）是任何作为分析目标的信息集合。四种基本类型由基本数据类型组合而成（参见 Figure 2.3 & 2.4）：
 
-![Figure 2.3 — 四种数据集类型（Tables, Networks, Fields, Geometry）与五种数据类型的组合映射](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.jpg)
+![Figure 2.3 — 四种数据集类型（Tables, Networks, Fields, Geometry）与五种数据类型的组合映射](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.webp)
 
-![Figure 2.4 — 四种数据集类型的详细内部结构](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/57ab6618a5ebecf7cfdc5b2ba1a9b8845fb8d21699411be139bd73f2679256c7.jpg)
+![Figure 2.4 — 四种数据集类型的详细内部结构](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/57ab6618a5ebecf7cfdc5b2ba1a9b8845fb8d21699411be139bd73f2679256c7.webp)
 
 #### 2.4.1 表格 (Tables)
 - 最常见的数据集形式，由行和列组成。
 - **扁平表 (Flat Table)**：每一行代表一个数据**条目 (Item)**，每一列代表数据集的一个**属性 (Attribute)**。行列交叉的单元格（Cell）包含该组合的值。
 
-![Figure 2.5 — 扁平表示例：行=Item，列=Attribute，交叉=Cell](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.jpg)
+![Figure 2.5 — 扁平表示例：行=Item，列=Attribute，交叉=Cell](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.webp)
 
 - **多维表 (Multidimensional Table)**：具有更复杂的索引结构，需要多个键（Keys）来定位一个单元格。
 
@@ -77,7 +77,7 @@
 
 #### 2.4.6 数据集可用性 (Dataset Availability)
 
-![Figure 2.6 — 数据集可用性：静态文件 vs 动态流](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/294bcebd305e1801ab508d03e1dc6e2aef6b42be347085f3c91022126140e08f.jpg)
+![Figure 2.6 — 数据集可用性：静态文件 vs 动态流](../textbook/Visualization%20Analysis%20%26%20Design%20--%20Tamara%20Munzner%20--%202014/images/294bcebd305e1801ab508d03e1dc6e2aef6b42be347085f3c91022126140e08f.webp)
 
 - **静态 (Static)**：默认方法，假设整个数据集可以一次性获得（作为一个文件）。（同义词：Offline）
 - **动态 (Dynamic)**：数据作为流（Stream）在可视化会话期间逐渐流入，可能增加/删除条目或更改值。（同义词：Online）

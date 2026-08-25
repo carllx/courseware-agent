@@ -1,0 +1,310 @@
+# course.yaml 模板
+# ============================================================
+# 使用方法: 复制到课程根目录，重命名为 course.yaml，按需填写
+# Schema: 对齐 ADR 005-013 的所有字段要求
+# ⚠️ DMA 专业: 请参考 `.agent/rules/rule_dma_course_design.md`
+# ⚠️ 人培合规: 请参考 `.agent/rules/rule_training_plan_compliance.md`
+# ============================================================
+
+# ──────────────────────────────────────────────────────────
+# 人培参考 (Training Plan Reference)
+# ──────────────────────────────────────────────────────────
+# 本课程服务年级: XX级 (20XX 入学)
+# 适用人培版本:   20XX 人培（数字媒体艺术四年制本科）
+# 人培中课程名:   【填写人培中的官方课程名称】
+# 人培学分/学时:  X学分 / X学时 (理X+实X)
+# 实际开课设置:   X学分 / X学时 (理X+实X), 以实际排课为准
+# 人培支撑矩阵:   参见 training_plan_2025.yaml 的 course_matrix
+# ──────────────────────────────────────────────────────────
+
+agent:
+  standards:
+    visual_system: "../../.agent/styles/theme_academic_minimal.yaml"
+
+course:
+  name: "毕业设计指导"                              # 课程中文名
+  code: "ARCHIVE2026"                              # 教务系统课程代码
+  semester: "2025-2026-2"
+  nature: "专题指导"                            # 专业必修课 / 专业选修课 / 通识课 / ...
+  credits: 1.0
+  department: ""
+  major: ""
+  prerequisites: ""
+  resources_url: "无"                   # 课程网站 URL（无则填"无"）
+  classes:
+    - name: ""                          # 班级名称
+      teaching_class_name: 
+        full_name: "毕业论文(设计)"
+        class_group: "3班"
+        grade_and_major: "22数艺专升本"
+        course_name: "毕业论文(设计)"
+        class_id: null
+      student_count: 10
+      # archive_id: 0                    # 可选：班级归档序号，每学期由系部汇总表分配。不同课程、不同班级序号各不相同。
+      schedule_time: ""                 # 如: 周三2-5节
+      classroom: ""
+      # week_range: "1-15"             # 可选: 多班课程需声明起止周次
+      # official_weeks: 15             # 可选: 教务注册周数（ADR 012），多班时必填
+      # excluded_weeks: []             # 可选: 停课周次列表，进度表/教案自动跳过
+      #   ⚠️ 生成器偏移映射会跳过停课周，calendar 内容自动顺延（ADR 013）
+      #   ⚠️ excluded_weeks 中的周次必须在 week_range 范围内（audit F11）
+      # official_weeks: 15             # 可选: 教务注册周数（ADR 012），多班时必填
+      # excluded_weeks: [16]           # 可选: 法定假期停课周，生成器自动跳过并顺延映射（ADR 013）
+  # --- 多班课程 (ADR 012 + 013) ---
+  # 多班课程须为每个班级声明 week_range + official_weeks
+  # excluded_weeks 触发进度表/教案生成器自动跳过逻辑
+  # hours 节点应含 per_class: true 以消除学时歧义
+  hours:
+    total: 0
+    theory: 0
+    practice: 0
+    minutes_per_period: 45                # 每课时分钟数（默认45），用于 steps 分钟校验
+  introduction:
+    content: |
+      课程简介正文。
+    design: |
+      教学设计理念正文。
+
+teacher:
+  name: ""
+  title: ""                             # 必填：学术职称（如 教授 / 副教授 / 讲师...）。⚠️ 注意：“专任教师”是岗位而非职称，若无职称填“无”，不可留空。
+  office: ""
+  department: ""
+  team: ""                              # 必填：课程团队成员。如无其他协作教师，请填“无”，且不可留空。
+
+# --- 课程目标 (ADR 005 + ADR 010) ---
+# ⚠️ 每维度至少 3 条，每条 desc 必须有独立教学聚焦点
+# ⚠️ 必须使用 mappings 数组格式（支持一对多映射）
+# ⚠️ requirement/point 编号须与人培方案精确对应
+objectives:
+  knowledge:
+    - index: 1
+      desc: ""
+      mappings:
+        - requirement: ""                # 如: 2 专业知识
+          point: ""                      # 如: 2.1 基础知识掌握
+          support_level: M               # H/M/L
+    - index: 2
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: M
+    - index: 3
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: M
+  ability:
+    - index: 1
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: M
+    - index: 2
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: M
+    - index: 3
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: M
+  quality:
+    - index: 1
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: L
+    - index: 2
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: L
+    - index: 3
+      desc: ""
+      mappings:
+        - requirement: ""
+          point: ""
+          support_level: L
+
+semester_config:
+  start_date: ""                        # 格式: "YYYY-MM-DD"
+
+textbooks:
+  - title: ""
+    author: ""
+    publisher: ""
+    year: ""
+    type: textbook                      # textbook / reference
+
+# teaching_requirements 支持两种格式 (ADR 008):
+#   纯文本: teaching_requirements: "通过本章学习..."
+#   结构化: teaching_requirements:
+#              knowledge: "知识维度目标"
+#              ability: "能力维度目标"
+#              quality: "素质维度目标"
+#              method: "过程与方法"
+# 推荐使用结构化格式，教案生成器将按维度分行显示
+# ⚠️ objectives.mappings[].point 必须与 graduation_requirements.yaml 精确一致
+calendar:
+  - week: 1
+    chapter_title: "第1章 开题通关局——从“零基础”到拿下毕业设计"
+    topic: "毕设开题通关局"
+    content: |-
+      1.1 确立航线：认识毕设生命周期
+      1.2 严守底线：选题的“痛点”与“安全红线”
+      1.3 吃透指标：“带着镣铐跳舞”的硬杠杠
+      1.4 实战拆解：开题报告核心与 AI 赋能
+      1.5 知己知彼：评分标准与答辩技巧
+    hours_theory: 2
+    hours_practice: 2
+    teaching_requirements:
+      knowledge: "掌握毕业设计生命周期的四个关键节点；理解基于真实痛点的选题原则；熟悉各专业方向的具体工作量指标与技术红线。"
+      ability: "能够运用JTBD模型进行选题痛点挖掘；能够利用AI大模型辅助进行学术理论检索并完成理论应用；能够撰写合规的《任务书》与《开题报告》。"
+      quality: "建立全周期的项目管理意识；树立严格的学术规范与防抄袭底线思维。"
+      method: "案例分析法、实战演练法、互动讨论法"
+    focus: "JTBD痛点挖掘模型的应用与选题验证；《任务书》与《开题报告》核心骨架的撰写。"
+    difficulty: "理论框架如何与具体设计实践深度结合（What-Why-How路径）。"
+    ideology: "培养学生解决社会真实问题的责任感，恪守学术诚信原则。"
+    teaching_method: "现场讲授、案例剖析与实战填表自查。"
+    supported_objectives: ["知识1", "能力1", "素质1"]
+    task: "根据课堂分发的《任务书自查单》与《开题报告骨架》，于下周前完成个人的《任务书》初稿。"
+    lessons:
+      - topic: "毕设开题通关局"
+        objectives:
+          - "明确毕设生死节点，掌握JTBD选题模型，完成合规的开题报告骨架。"
+        steps:
+          - stage: 导入
+            summary: "从往届开题惨痛案例切入，明确毕设严峻性与红线要求。"
+            minutes: 15
+          - stage: 讲授
+            summary: "讲解毕设生命周期、选题痛点模型（JTBD）、各方向硬性产出指标及开题报告的10大核心要素。"
+            ideology: "学术诚信与社会责任感。"
+            minutes: 60
+          - stage: 实践
+            summary: "发放脚手架工具（自查单与模板），学生现场利用NotebookLM等AI工具进行选题检索与理论框架构建。"
+            minutes: 80
+          - stage: 小结
+            summary: "回顾开题三板斧，重申时间节点与交付要求。"
+            minutes: 10
+
+  - week: 16
+    chapter_title: "第16章 归档全流程指南"
+    topic: "毕业设计档案归档指南"
+    content: |-
+      16.1 总体要求与归档顺序
+      16.2 过程性材料汇编避坑
+    hours_theory: 2
+    hours_practice: 2
+    teaching_requirements:
+      knowledge: "掌握毕业设计各阶段材料的归档逻辑及时间要求。"
+      ability: "能够独立完成符合教务标准的档案袋整理与装订。"
+    focus: "文件填报中的时间线倒挂防范与装订排版规范。"
+    difficulty: "不同层级文件与签名流程的逻辑对应关系。"
+    teaching_method: "案例分析与实操演示。"
+    supported_objectives: ["能力2", "素质2"]
+    task: "按照《进程时间安排表》，完善个人档案袋的原件及复印件。"
+    lessons:
+      - topic: "毕业设计档案归档指南"
+        objectives:
+          - "了解毕业设计过程档案袋构成，避开常见被退回雷区。"
+        steps:
+          - stage: 导入
+            summary: "重申材料规范性在毕设最后一公里的重要性。"
+            minutes: 15
+          - stage: 讲授
+            summary: "拆解归档过程中的红线（日期填写、导师签名、装订顺序）。"
+            minutes: 60
+          - stage: 实践
+            summary: "分发材料样本，学生自查手中的档案目录与日期。"
+            minutes: 80
+          - stage: 小结
+            summary: "总结易错清单，提醒最终上交的时间红线。"
+            minutes: 10
+  # --- 常规周模板 (W2 ~ W(N-1)) ---
+  # - week: 2
+  #   chapter_title: "第二章 {topic}"
+  #   topic: ""
+  #   content: |-
+  #     2.1 ...
+  #     2.2 ...
+  #   exp_id: 1                            # 含实验内容的周次挂载对应实验 ID
+  #     - topic: ""
+  #       objectives: [...]
+  #       steps:
+  #         - stage: 复习        # 常规周必须包含
+  #           summary: ""
+  #           minutes: 10
+  #         - stage: 导入        # 常规周必须包含
+  #           summary: ""
+  #           minutes: 10
+  #         - stage: 讲授
+  #           summary: ""
+  #           minutes: 60
+  #         - stage: 实践
+  #           summary: ""
+  #           minutes: 80
+  #         - stage: 小结
+  #           summary: ""
+  #           minutes: 10
+
+# --- 实验列表 (ADR 001 + ADR 011) ---
+# ⚠️ type 枚举必须含「性」啀缀：验证性 / 综合性 / 设计性 / 演示性
+# ⚠️ 实验4（期末大作）惯例应为综合性，禁用 创新/研究 等枚举外属分
+# 推荐分配策略：实验1→验证性 / 实验2/3→设计性+综合性各一 / 实验4→综合性
+experiments: []
+
+# --- 考核方式 (ADR 005 + ADR 011) ---
+# normal_items.name: "章节测试N" 或 "命题测试N"（无括号）
+# normal_items.desc: "对应实验N「实验名称」。考核要求：..."
+# ⚠️ final_score_ratio > 0 时必须同时填写 final_item，不可仅有 normal_items
+# ⚠️ 强制约束：attendance_ratio + Σ(normal_items.ratio) 必须严格等于 normal_score_ratio
+assessment_methods:
+  normal_score_ratio: 50
+  final_score_ratio: 50
+  attendance_ratio: 10
+  normal_items:
+    - name: 章节测试1
+      ratio: 10
+      desc: "对应实验1「」。考核要求：..."
+    - name: 章节测试2
+      ratio: 15
+      desc: "对应实验2「」。考核要求：..."
+    - name: 章节测试3
+      ratio: 15
+      desc: "对应实验3「」。考核要求：..."
+  final_item:                           # 必填：final_score_ratio > 0 时不可缺少
+    name: 期末综合项目考查
+    ratio: 100
+    desc: "对应实验4「」。考核要求：..."
+
+# --- 考试结构 (ADR 006 + ADR 011) ---
+# sections 必须拆分为多个评分维度，禁止笼统一句话
+# questions[].type 必须使用枚举标准属分：综合性 / 设计性 / 验证性 / 演示性
+exams:
+  final_exam:
+    - name: 期末综合项目考查
+      total_score: 100
+      duration: 120
+      sections:
+        - section_name: ""
+          total_score: 0
+          questions:
+            - content: "对应实验N「」。考核要求：..."
+              type: "综合性"            # 验证性/综合性/设计性/演示性
+              score: 0
+
+# ──────────────────────────────────────────────────────────
+# 知识点注册表 (Concept Registry) — ADR 043
+# ──────────────────────────────────────────────────────────
+# ⚠️ concept_registry 为独立文件，不内嵌于 course.yaml（ADR 043 R-2）。
+# /new_course 工作流 Step 3.2 会自动创建 <课程>/concept_registry.yaml。
+# 详见 .agent/templates/practice_schema.md v3.0 的 theory_link 规范。

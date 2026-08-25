@@ -54,7 +54,7 @@ data-type="xref">Figure 6-1</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_A_humble_div" class="figure">
 <img
-src="images/d820ffe24ac0816a665d90f413c4ce3b40166c46b9dc3a0e6a9f7d9bf19f2b7b.png"
+src="images/d820ffe24ac0816a665d90f413c4ce3b40166c46b9dc3a0e6a9f7d9bf19f2b7b.webp"
 class="calibre88" alt="dvw2 0601" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-1. </span>A
 humble div</h6>
@@ -122,7 +122,7 @@ HTML elements:
 ``` calibre39
 <p class="caption">
 <select id="country">
-<img src="logo.png" width="100px" alt="Logo" />
+<img src="logo.webp" width="100px" alt="Logo" />
 ```
 
 contain a total of five attributes (and corresponding values), all of
@@ -132,7 +132,7 @@ which could be set with `attr()`:
 |-----------|------------|
 | `class`   | `caption`  |
 | `id`      | `country`  |
-| `src`     | `logo.png` |
+| `src`     | `logo.webp` |
 | `width`   | `100px`    |
 | `alt`     | `Logo`     |
 
@@ -236,7 +236,7 @@ data-xrefstyle="select:labelnumber">6-3</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Five_divs_masquerading_as_one" class="figure">
 <img
-src="images/fbf0b34d4859a4af5fd05d7726bc9a9ac362203b27e5c3b575cd87f9cded14e0.png"
+src="images/fbf0b34d4859a4af5fd05d7726bc9a9ac362203b27e5c3b575cd87f9cded14e0.webp"
 class="calibre90" alt="dvw2 0602" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-2.
 </span>Five divs masquerading as one</h6>
@@ -247,7 +247,7 @@ class="calibre90" alt="dvw2 0602" />
 <div id="ch06.xhtml_Five_divs_masquerading_as_one_inspector"
 class="figure">
 <img
-src="images/db7a9cfdd0147597db86cd74de2064057a0391b218269184205806b1a2761997.png"
+src="images/db7a9cfdd0147597db86cd74de2064057a0391b218269184205806b1a2761997.webp"
 class="calibre91" alt="dvw2 0603" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-3.
 </span>Five divs masquerading as one, as seen through the web
@@ -305,7 +305,7 @@ data-type="xref">Figure 6-4</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_A_small_bar_chart" class="figure">
 <img
-src="images/fef561559c9fe0f75f34f8406b6bf108b35d91bce26a20103831eb37a6af8d01.png"
+src="images/fef561559c9fe0f75f34f8406b6bf108b35d91bce26a20103831eb37a6af8d01.webp"
 class="calibre92" alt="dvw2 0604" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-4. </span>A
 small bar chart</h6>
@@ -347,7 +347,7 @@ data-type="xref">Figure 6-5</a>).
 <figure class="calibre35">
 <div id="ch06.xhtml_A_taller_bar_chart" class="figure">
 <img
-src="images/828ad42358fe59c2a08290ed150aa5e675d5f08e6c9dbcf22693e34525d2ba7d.png"
+src="images/828ad42358fe59c2a08290ed150aa5e675d5f08e6c9dbcf22693e34525d2ba7d.webp"
 class="calibre93" alt="dvw2 0605" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-5. </span>A
 taller bar chart</h6>
@@ -404,7 +404,7 @@ var dataset = [ 25, 7, 5, 26, 11, 8, 25, 14, 23, 19,
 <figure class="calibre35">
 <div id="ch06.xhtml_New_data_values" class="figure">
 <img
-src="images/2be7f5029603c68d84ed6e0017edad49e6b92a2850546ed318ad50bc71b4227a.png"
+src="images/2be7f5029603c68d84ed6e0017edad49e6b92a2850546ed318ad50bc71b4227a.webp"
 class="calibre94" alt="dvw2 0606" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-6. </span>New
 data values</h6>
@@ -418,7 +418,7 @@ data-type="xref">Figure 6-7</a> shows 25 data points instead of 5!
 <figure class="calibre35">
 <div id="ch06.xhtml_Lots_more_data_values" class="figure">
 <img
-src="images/bed9955b698e73853f8284fc6c0ab95900df20851316781b6d1f8567f8697ba6.png"
+src="images/bed9955b698e73853f8284fc6c0ab95900df20851316781b6d1f8567f8697ba6.webp"
 class="calibre95" alt="dvw2 0607" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-7.
 </span>Lots more data values</h6>
@@ -481,7 +481,7 @@ data-type="xref">Figure 6-8</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Bar_charts_with_random_values" class="figure">
 <img
-src="images/bcb515640bf8c151a9d195cd62ef48ea10387b6007e7950dd643e9736d1e7dd6.png"
+src="images/bcb515640bf8c151a9d195cd62ef48ea10387b6007e7950dd643e9736d1e7dd6.webp"
 class="calibre96" alt="dvw2 0608" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-8. </span>Bar
 charts with random values</h6>
@@ -527,7 +527,7 @@ data-type="xref">Figure 6-9</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Random_values_in_console" class="figure">
 <img
-src="images/f6b99e06a5faf2a94ceb46824f367d279b99b1264ad0754da2efc224ea57c192.png"
+src="images/f6b99e06a5faf2a94ceb46824f367d279b99b1264ad0754da2efc224ea57c192.webp"
 class="calibre97" alt="dvw2 0609" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-9.
 </span>Random values in console</h6>
@@ -567,7 +567,7 @@ data-type="xref">Figure 6-10</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Random_integer_values_in_console" class="figure">
 <img
-src="images/5996aa50a3f78222aeb342bab522f89ae49aad2f58b7c8a96bfbfdae739cb3ae.png"
+src="images/5996aa50a3f78222aeb342bab522f89ae49aad2f58b7c8a96bfbfdae739cb3ae.webp"
 class="calibre98" alt="dvw2 0610" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-10.
 </span>Random integer values in console</h6>
@@ -787,7 +787,7 @@ circles.attr("cx", function(d, i) {
 <figure class="calibre35">
 <div id="ch06.xhtml_Row_of_data_circles" class="figure">
 <img
-src="images/a19548724423417696f8b4c46f893affeb702e6226c084fb84238a463d993521.png"
+src="images/a19548724423417696f8b4c46f893affeb702e6226c084fb84238a463d993521.webp"
 class="calibre99" alt="dvw2 0611" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-11.
 </span>Row of data circles</h6>
@@ -896,7 +896,7 @@ data-type="xref">Figure 6-12</a>, as seen in
 <figure class="calibre35">
 <div id="ch06.xhtml_Colorful_data_circles" class="figure">
 <img
-src="images/22060d293b08326680162a2a683c12c4ad13f4339d53372a1efc06d4c92eba57.png"
+src="images/22060d293b08326680162a2a683c12c4ad13f4339d53372a1efc06d4c92eba57.webp"
 class="calibre100" alt="dvw2 0612" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-12.
 </span>Colorful data circles</h6>
@@ -973,7 +973,7 @@ data-type="xref">Figure 6-13</a> made of `div`s.
 <figure class="calibre35">
 <div id="ch06.xhtml_Bar_chart_with_divs" class="figure">
 <img
-src="images/e061463743bafbc85b89aa866fbee3ac4bc37087f4eab8012966b21af2b51e55.png"
+src="images/e061463743bafbc85b89aa866fbee3ac4bc37087f4eab8012966b21af2b51e55.webp"
 class="calibre101" alt="dvw2 0613" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-13.
 </span>Bar chart with divs</h6>
@@ -1063,7 +1063,7 @@ yet.
 <figure class="calibre35">
 <div id="ch06.xhtml_One_lonely_bar" class="figure">
 <img
-src="images/8bb9d239f05b535646e76d2b7142296edf6d24aa764051feef428407f641e100.png"
+src="images/8bb9d239f05b535646e76d2b7142296edf6d24aa764051feef428407f641e100.webp"
 class="calibre102" alt="dvw2 0614" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-14.
 </span>One lonely bar</h6>
@@ -1091,7 +1091,7 @@ data-type="xref">Figure 6-15</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Twenty_bars" class="figure">
 <img
-src="images/0a8f12701c0635e0da5bc9c2d697c9777c746a6ceb91720a09efe8cbc0edbe9c.png"
+src="images/0a8f12701c0635e0da5bc9c2d697c9777c746a6ceb91720a09efe8cbc0edbe9c.webp"
 class="calibre103" alt="dvw2 0615" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-15.
 </span>Twenty bars</h6>
@@ -1109,7 +1109,7 @@ data-type="xref">Figure 6-16</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Twentyfour_bars" class="figure">
 <img
-src="images/56ee4f0f756d27e701b17148632d71f5e48fd2e192549b739e3b5cbe27feb027.png"
+src="images/56ee4f0f756d27e701b17148632d71f5e48fd2e192549b739e3b5cbe27feb027.webp"
 class="calibre104" alt="dvw2 0616" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-16.
 </span>Twenty-four bars</h6>
@@ -1140,7 +1140,7 @@ data-type="xref">Figure 6-17</a>…
 <figure class="calibre35">
 <div id="ch06.xhtml_Twenty_evenly_spaced_bars" class="figure">
 <img
-src="images/4bbd6223c5c491880465caf7d317f43d6c7003276c2a26af05c18372fc74ea17.png"
+src="images/4bbd6223c5c491880465caf7d317f43d6c7003276c2a26af05c18372fc74ea17.webp"
 class="calibre105" alt="dvw2 0617" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-17.
 </span>Twenty evenly spaced bars</h6>
@@ -1154,7 +1154,7 @@ data-type="xref">Figure 6-18</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Five_evenly_spaced_bars" class="figure">
 <img
-src="images/9fa5d0fe34bde002a63e7bee3d083651e580616c47f98ea7194a551c2bbfdd4d.png"
+src="images/9fa5d0fe34bde002a63e7bee3d083651e580616c47f98ea7194a551c2bbfdd4d.webp"
 class="calibre106" alt="dvw2 0618" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-18.
 </span>Five evenly spaced bars</h6>
@@ -1193,7 +1193,7 @@ data-type="xref">Figure 6-19</a> and
 <div id="ch06.xhtml_Twenty_evenly_spaced_bars_with_dynamic_widths"
 class="figure">
 <img
-src="images/f1d3a85595363eff8a1bb04ee841b77ad326148f98801b4c114ed1292a450ccb.png"
+src="images/f1d3a85595363eff8a1bb04ee841b77ad326148f98801b4c114ed1292a450ccb.webp"
 class="calibre107" alt="dvw2 0619" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-19.
 </span>Twenty evenly spaced bars with dynamic widths</h6>
@@ -1213,7 +1213,7 @@ data-type="xref">Figure 6-21</a>).
 <div id="ch06.xhtml_Five_evenly_spaced_bars_with_dynamic_widths"
 class="figure">
 <img
-src="images/a54db560d8efca0ad0f7d60cf0857cf9caab4efa4208cd4ddb946ac33086fa28.png"
+src="images/a54db560d8efca0ad0f7d60cf0857cf9caab4efa4208cd4ddb946ac33086fa28.webp"
 class="calibre104" alt="dvw2 0620" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-20.
 </span>Five evenly spaced bars with dynamic widths</h6>
@@ -1224,7 +1224,7 @@ class="calibre104" alt="dvw2 0620" />
 <div id="ch06.xhtml_One_hundred_evenly_spaced_bars_with_dynamic_widths"
 class="figure">
 <img
-src="images/82b146de7035bb39107500109f30a62421b08098922413a0706180eae786dfda.png"
+src="images/82b146de7035bb39107500109f30a62421b08098922413a0706180eae786dfda.webp"
 class="calibre107" alt="dvw2 0621" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-21.
 </span>One hundred evenly spaced bars with dynamic widths</h6>
@@ -1248,7 +1248,7 @@ data-type="xref">Figure 6-22</a> looks funky.
 <figure class="calibre35">
 <div id="ch06.xhtml_Dynamic_heights" class="figure">
 <img
-src="images/364097c3ac81b571df1e0e7fa13e733d87be5d6e20f383fb0e4793691a8b58c2.png"
+src="images/364097c3ac81b571df1e0e7fa13e733d87be5d6e20f383fb0e4793691a8b58c2.webp"
 class="calibre108" alt="dvw2 0622" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-22.
 </span>Dynamic heights</h6>
@@ -1272,7 +1272,7 @@ data-type="xref">Figure 6-23</a>—but don’t blame D3, blame SVG.
 <figure class="calibre35">
 <div id="ch06.xhtml_Dynamic_heights_magnified" class="figure">
 <img
-src="images/fd86b7ddc64c77b479b5d9a361eaca16f8b8d9f38505380b225815277387ad0b.png"
+src="images/fd86b7ddc64c77b479b5d9a361eaca16f8b8d9f38505380b225815277387ad0b.webp"
 class="calibre109" alt="dvw2 0623" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-23.
 </span>Dynamic heights, magnified</h6>
@@ -1313,7 +1313,7 @@ data value itself:
 <figure class="calibre35">
 <div id="ch06.xhtml_Growing_down_from_above" class="figure">
 <img
-src="images/07645090e21b747ca2fc00faf8b463528c4c5c37c5fc11b0d7b3f579f1f604d3.png"
+src="images/07645090e21b747ca2fc00faf8b463528c4c5c37c5fc11b0d7b3f579f1f604d3.webp"
 class="calibre110" alt="dvw2 0624" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-24.
 </span>Growing down from above</h6>
@@ -1329,7 +1329,7 @@ could do this more properly using D3 scales, but we’re not there yet.)
 <figure class="calibre35">
 <div id="ch06.xhtml_Growing_bigger_from_above" class="figure">
 <img
-src="images/2bf45f2d325d2f8838c45d1dee26c2eaf1ce4026d8fd0749ef8848e32042c232.png"
+src="images/2bf45f2d325d2f8838c45d1dee26c2eaf1ce4026d8fd0749ef8848e32042c232.webp"
 class="calibre109" alt="dvw2 0625" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-25.
 </span>Growing bigger from above</h6>
@@ -1371,7 +1371,7 @@ data-type="xref">Figure 6-26</a> in *18_making_a_bar_chart_teal.html*.
 <figure class="calibre35">
 <div id="ch06.xhtml_Teal_bars" class="figure">
 <img
-src="images/e32919ae841e1c6c2c2e07cc288d3a8ee0dd6649cc294a6421fe2104b97eaf3a.png"
+src="images/e32919ae841e1c6c2c2e07cc288d3a8ee0dd6649cc294a6421fe2104b97eaf3a.webp"
 class="calibre109" alt="dvw2 0626" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-26.
 </span>Teal bars</h6>
@@ -1407,7 +1407,7 @@ data-type="xref">Figure 6-27</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Datadriven_blue_bars" class="figure">
 <img
-src="images/af7d39062236c6caa101e965f4acfaf6509db2af05af435b300e32c77859c8f5.png"
+src="images/af7d39062236c6caa101e965f4acfaf6509db2af05af435b300e32c77859c8f5.webp"
 class="calibre111" alt="dvw2 0627" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-27.
 </span>Data-driven blue bars</h6>
@@ -1497,7 +1497,7 @@ data-type="xref">Figure 6-28</a>).
 <figure class="calibre35">
 <div id="ch06.xhtml_Baby_value_labels" class="figure">
 <img
-src="images/fbd819c42ee936f6f0d2d36887bc29de5f436abf2ecc3301f1d2d1558e715751.png"
+src="images/fbd819c42ee936f6f0d2d36887bc29de5f436abf2ecc3301f1d2d1558e715751.webp"
 class="calibre107" alt="dvw2 0628" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-28.
 </span>Baby value labels!</h6>
@@ -1523,7 +1523,7 @@ data-type="xref">Figure 6-29</a> is better, but not legible.
 <figure class="calibre35">
 <div id="ch06.xhtml_Inbar_value_labels" class="figure">
 <img
-src="images/025416effe66a19797a2daf261120aeb9282e7a6eb5dc7a25438379846621223.png"
+src="images/025416effe66a19797a2daf261120aeb9282e7a6eb5dc7a25438379846621223.webp"
 class="calibre107" alt="dvw2 0629" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-29.
 </span>In-bar value labels</h6>
@@ -1546,7 +1546,7 @@ data-type="xref">Figure 6-30</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Really_nice_value_labels" class="figure">
 <img
-src="images/7275dec781c7967efd430b08dc1c50047605377a76950671b63a6f12ed550b79.png"
+src="images/7275dec781c7967efd430b08dc1c50047605377a76950671b63a6f12ed550b79.webp"
 class="calibre107" alt="dvw2 0630" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-30.
 </span>Really nice value labels</h6>
@@ -1588,7 +1588,7 @@ data-type="xref">Figure 6-31</a> and
 <figure class="calibre35">
 <div id="ch06.xhtml_Centered_labels" class="figure">
 <img
-src="images/2004c3b70babd08efc898124bdd307728be8fc339144c17f9b0fb67fa393473a.png"
+src="images/2004c3b70babd08efc898124bdd307728be8fc339144c17f9b0fb67fa393473a.webp"
 class="calibre104" alt="dvw2 0631" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-31.
 </span>Centered labels</h6>
@@ -1722,7 +1722,7 @@ data-type="xref">Figure 6-32</a> in *22_scatterplot.html*.
 <figure class="calibre35">
 <div id="ch06.xhtml_Simple_scatterplot" class="figure">
 <img
-src="images/e924d1de37427f796c80e3c8e1e33c47029338be005ae74cc0381f103045db39.png"
+src="images/e924d1de37427f796c80e3c8e1e33c47029338be005ae74cc0381f103045db39.webp"
 class="calibre104" alt="dvw2 0632" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-32.
 </span>Simple scatterplot</h6>
@@ -1806,7 +1806,7 @@ r = sqrt ( A / π )  //Flip the equation around for legibility
 ```
 
 So our solution for *r* is <img
-src="images/1f443e14d36569bca7e378ffd84c29a2521f6469a5d92062ea36282548588d52.png"
+src="images/1f443e14d36569bca7e378ffd84c29a2521f6469a5d92062ea36282548588d52.webp"
 class="calibre114"
 alt="r equals StartRoot StartFraction upper A Over pi EndFraction EndRoot" />.
 As long as we know the area *A*, we just divide by pi, then take the
@@ -1868,7 +1868,7 @@ data-type="xref">Figure 6-33</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Scatterplot_with_sized_circles" class="figure">
 <img
-src="images/a37a5af16870b3f5c5b39bf7c124687f2fa3b31a722b4497e21200ab8ca5c3d0.png"
+src="images/a37a5af16870b3f5c5b39bf7c124687f2fa3b31a722b4497e21200ab8ca5c3d0.webp"
 class="calibre104" alt="dvw2 0633" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-33.
 </span>Scatterplot with sized circles</h6>
@@ -1966,7 +1966,7 @@ data-type="indexterm" primary="" startref="Screat06"></span>
 <figure class="calibre35">
 <div id="ch06.xhtml_Scatterplot_with_labels" class="figure">
 <img
-src="images/bf6584c7cd34e3b0c02f7737470bbfb03ffb48f801ad3c1b04ef65a9504d1ba2.png"
+src="images/bf6584c7cd34e3b0c02f7737470bbfb03ffb48f801ad3c1b04ef65a9504d1ba2.webp"
 class="calibre104" alt="dvw2 0634" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-34.
 </span>Scatterplot with labels</h6>

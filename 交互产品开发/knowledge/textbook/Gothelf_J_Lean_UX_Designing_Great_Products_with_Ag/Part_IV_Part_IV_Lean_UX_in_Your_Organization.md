@@ -21,7 +21,7 @@ beginning of conversations that helped Jeff, his UX team, and the rest
 of TheLadders’ product development staff build an integrated,
 collaborative practice.
 
-![](images/assets/lux3_IV01.png)
+![](images/assets/lux3_IV01.webp)
 
 ###### Figure IV-1. The UX team at TheLadders expressed their feelings about our Agile/UX integration efforts
 
@@ -689,7 +689,7 @@ desire to stay the course during implementation and to be able to
 predict when the work will ship with some degree of confidence. This is
 done in the name of predictability and efficiency.
 
-![](images/assets/lux3_1701.png)
+![](images/assets/lux3_1701.webp)
 
 ###### Figure 17-1. Jeff’s “award” for inspiring undocumented creativity in engineers
 

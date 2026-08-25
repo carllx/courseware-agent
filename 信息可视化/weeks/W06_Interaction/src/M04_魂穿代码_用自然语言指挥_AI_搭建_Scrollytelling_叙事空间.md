@@ -13,7 +13,7 @@ title: "魂穿代码 用自然语言指挥 AI 搭建 Scrollytelling 叙事空间
 > *   **Layout**: `Center`
 > *   **Scene**: [Emotional/Psychological Tension: Empowerment, awe-inspiring, high contrast between cold logic and glowing creation, breaking the wall.] A futuristic workspace setup. A glowing green terminal screen displaying highly structured prompt architecture like military deployment orders. Hovering above this cold code interface is a holographic, luminous projection of a modern scrollytelling web UI layout with a scroll wheel, radiating a sense of creation. Contemporary tech photography style.
 > *   **Text**: "跨越千行代码的鸿沟：从打字员到架构师"
-> *   **Asset**: ![预览](assets/slides/S23_Prompt_AI_Architecture.png)
+> *   **Asset**: ![预览](assets/slides/S23_Prompt_AI_Architecture.webp)
 
 大家仔细看屏幕上这层悬浮的光晕。这就是你们马上要通过自然语言亲手召唤出来的神迹。
 
@@ -29,7 +29,7 @@ title: "魂穿代码 用自然语言指挥 AI 搭建 Scrollytelling 叙事空间
 > *   **Scene**: [Emotional/Psychological Tension: Structural clarity, foundational stability, methodical, ascending intellectual order.] A luminous 3D pyramid composed of three distinct architectural layers. The wide base consists of wireframe HTML structures; the middle layer features glowing logic nodes and connecting circuitry; the peak is a radiant crystal representing visual encoding and emotion. Blueprint grid background.
 > *   **Text**: "Prompt 金字塔：骨骼→神经→灵魂"
 > *   **List**: 拓扑骨架 / 逻辑绑定 / 视觉调性
-> *   **Asset**: ![预览](assets/slides/S23b_Prompt_Pyramid.png)
+> *   **Asset**: ![预览](assets/slides/S23b_Prompt_Pyramid.webp)
 
 这座三层金字塔是你们把分镜表翻译成 AI 指令的唯一合法通道。
 
@@ -79,7 +79,7 @@ title: "魂穿代码 用自然语言指挥 AI 搭建 Scrollytelling 叙事空间
 > *   **Scene**: [Emotional/Psychological Tension: Relentless refinement, cyclical evolution, patient craftsmanship, precision.] An infinite loop diagram composed of three concentric circular arrows. Surrounding the arrows are a glowing browser window icon, a magnifying glass, and a wrench tool icon, symbolizing the iterative polishing process from raw output to finalized narrative space. Clean minimalist vector graphic style.
 > *   **Text**: "迭代三圈法则：AI 的草稿需要你的导演剪辑"
 > *   **List**: 骨架验证 / 逻辑校准 / 情绪抛光
-> *   **Asset**: ![预览](assets/slides/S23c_AI_Iteration_Loop.png)
+> *   **Asset**: ![预览](assets/slides/S23c_AI_Iteration_Loop.webp)
 
 AI 第一次生成的代码充其量只是一份粗糙的初剪，必须经历两到三轮的精修迭代。
 

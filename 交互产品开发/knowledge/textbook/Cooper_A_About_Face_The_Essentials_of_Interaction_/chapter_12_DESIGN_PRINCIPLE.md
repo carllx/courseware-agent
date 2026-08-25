@@ -67,7 +67,7 @@ Try to keep photos across persona sets similar in style and crop.
 
 We have also found it sometimes useful to create photographic collages for each persona to convey more emotional and experiential forces that drive the persona (see Figure 3-7). Numerous small images juxtaposed have the potential to convey things that are difficult to describe in words. There are also times that we find it useful to create models of the personas' environments (for example, in the form of a floor plan). Again, this helps make these environmental considerations more tangible.
 
-![](images/8a5c7635e61f5d96b2e0e3132bf8caf04cd422f33c61184a7bddf2827c688419.jpg)  
+![](images/8a5c7635e61f5d96b2e0e3132bf8caf04cd422f33c61184a7bddf2827c688419.webp)  
 Figure 3-7: Collages such as this, combined with carefully written narratives, are an effective way to convey the emotional and experiential aspects of a persona.
 
 When creating such communication aides, it's important to remember that personas are design and decision-making tools, not an end in themselves. While power can come from creating a holistic image of a persona, too much embellishment and theater can potentially make personas seem like a fluffy waste of time. This can ultimately reduce their usefulness as user models.
@@ -202,7 +202,7 @@ Personas and other models make sense of otherwise overwhelming and confusing use
 9. Dillon, 2001   
 10. Goodwin, 2001
 
-![](images/078662884ff3daee43bd8670078f9edd01310f22cbb5cb3cc6bb408c2a87941a.jpg)
+![](images/078662884ff3daee43bd8670078f9edd01310f22cbb5cb3cc6bb408c2a87941a.webp)
 
-![](images/6ebce230b2fdb706b7e7a3a30a99307e6ac8dd35989e8dd363206b3f00c06e6d.jpg)
+![](images/6ebce230b2fdb706b7e7a3a30a99307e6ac8dd35989e8dd363206b3f00c06e6d.webp)
 

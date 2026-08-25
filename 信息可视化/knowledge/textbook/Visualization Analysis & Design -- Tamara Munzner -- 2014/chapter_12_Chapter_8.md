@@ -37,7 +37,7 @@ Figure 8.2 shows an example of US unemployment rates from 2008 with a segmented 
 
 The problem of spatial aggregation and its relationship to region boundaries is covered in Section 13.4.2.
 
-![](images/4ac5f11c3fe0ac72695d21a390df6093e1611f592406d7f4f9d1aa52ec589b72.jpg)  
+![](images/4ac5f11c3fe0ac72695d21a390df6093e1611f592406d7f4f9d1aa52ec589b72.webp)  
 Figure 8.2. Choropleth map showing regions as area marks using given geometry, where a quantitative attribute is encoded with color. From http://bl.ocks.org/ mbostock/4060606.
 
 <table><tr><td>Idiom</td><td>Choropleth Map</td></tr><tr><td>What: Data</td><td>Geographic geometry data. Table with one quantitative attribute per region.</td></tr><tr><td>How: Encode</td><td>Space: use given geometry for area mark boundaries. Color: sequential segmented colormap.</td></tr></table>
@@ -52,13 +52,13 @@ A scalar spatial field has a single value associated with each spatially defined
 
 There are three major families of idioms for visually encoding scalar fields: slicing, as shown in Figure 8.3(a); isocontours, as in shown Figure 8.3(b); and direct volume rendering, as shown in Figure 8.3(c). With the isocontours idiom, the derived data of lower-dimensional surface geometry is computed and then is shown using standard computer graphics techniques: typically 2D isosurfaces for a 3D field, or 1D isolines for a 2D field. With the di-
 
-![](images/b983fe60e4b2191e6b081fcf9e09e3b4d05621ed1237b2eaddab389325281fd1.jpg)  
+![](images/b983fe60e4b2191e6b081fcf9e09e3b4d05621ed1237b2eaddab389325281fd1.webp)  
 (a)
 
-![](images/df4295cb085a03f842ae1badd45b4ec6c0cc04735603f0947aa833944de58fe9.jpg)  
+![](images/df4295cb085a03f842ae1badd45b4ec6c0cc04735603f0947aa833944de58fe9.webp)  
 (b)
 
-![](images/5942641190cbd9b380d245623240057df0159a24cb81462ff2062b68c149f688.jpg)  
+![](images/5942641190cbd9b380d245623240057df0159a24cb81462ff2062b68c149f688.webp)  
 (c)   
 Figure 8.3. Spatial scalar fields shown with three different idioms. (a) A single 2D slice of a turbine blade dataset. (b) Multiple semitransparent isosurfaces of a 3D tooth dataset. (c) Direct volume rendering of the entire 3D turbine dataset. From [Kniss 02, Figures 1.2 and 2.1b].
 
@@ -79,7 +79,7 @@ Topographic terrain maps are a familiar example of isolines in widespread use by
 
 <table><tr><td>Idiom</td><td>Topographic Terrain Map</td></tr><tr><td>What: Data</td><td>2D spatial field; geographic data.</td></tr><tr><td>What: Derived</td><td>Geometry: set of isolines computed from field.</td></tr><tr><td>How: Encode</td><td>Use given geographic data geometry of points, lines, and region marks. Use derived geometry as line marks (blue).</td></tr><tr><td>Why: Tasks</td><td>Query shape.</td></tr><tr><td>Scale</td><td>Dozens of contour levels.</td></tr></table>
 
-![](images/246c9d1919e94106997d61eee7755c95a1e2cdd49c9f9c6e5442ccb2a80ca1f8.jpg)  
+![](images/246c9d1919e94106997d61eee7755c95a1e2cdd49c9f9c6e5442ccb2a80ca1f8.webp)  
 Figure 8.4. Topographic terrain map, with isolines in blue. From https://data.linz.govt.nz/layer/768-nz-mainland -contours-topo-150k.
 
 Spatial navigation is discussed further in Section 11.5.
@@ -96,10 +96,10 @@ The flexible isosurfaces idiom uses one more level of derived data, the simplifi
 
 Filtering is discussed in Section 13.3.2 and coordinating multiple views is discussed in Section 12.3.
 
-![](images/850d5b03e6819e00c1647d88fc8f2b7b5c6dd9734ca9e463083faf86edfa06b7.jpg)  
+![](images/850d5b03e6819e00c1647d88fc8f2b7b5c6dd9734ca9e463083faf86edfa06b7.webp)  
 Figure 8.5. A full contour tree with over 1.5 million edges does not help the user explore isosurfaces. From [Carr et al. 04, Figure 1].
 
-![](images/584d9d8dd93473b7dd0735b7772059239694daa554b7ad560752f06129e5e7e4.jpg)  
+![](images/584d9d8dd93473b7dd0735b7772059239694daa554b7ad560752f06129e5e7e4.webp)  
 Figure 8.6. The flexible isosurfaces idiom uses the simplified contour tree of under 100 edges to help users identify meaningful structure. From [Carr et al. 04, Figure 1].
 
 <table><tr><td>Idiom</td><td>Flexible Isosurfaces</td></tr><tr><td>What: Data</td><td>Spatial field.</td></tr><tr><td>What: Derived</td><td>Geometry: surfaces. Tree: simplified contour tree.</td></tr><tr><td>How: Encode</td><td>Surfaces: use given. Tree: line marks, vertical spa-tial position encodes isovalue.</td></tr><tr><td>Why: Tasks</td><td>Query shape.</td></tr><tr><td>Scale</td><td>One dozen contour levels.</td></tr></table>
@@ -120,17 +120,17 @@ Cutting planes are covered in Section 11.6.2.
 
 <table><tr><td>Idiom</td><td>Multidimensional Transfer Functions</td></tr><tr><td>What: Data</td><td>3D spatial field.</td></tr><tr><td>What: Derived</td><td>3D spatial field: gradient of original field.</td></tr><tr><td>What: Derived</td><td>Table: two key attributes, values binned from min to max for both data and derived data. One derived quantitative value attribute (item count per bin).</td></tr><tr><td>How: Encode</td><td>3D view: use given spatial field data, color and opacity from multidimensional transfer function. Joint histogram view: area marks in 2D matrix alignment, grayscale sequential colormap.</td></tr></table>
 
-![](images/911fa6d657381ca69f52c03da3d557cc012996d869457ab105016b16796459df.jpg)  
+![](images/911fa6d657381ca69f52c03da3d557cc012996d869457ab105016b16796459df.webp)  
 (a)
 
-![](images/3716d163c9fc73fe4a7f5b6d3f362379b1d6f80ac6fd40410155d79d29eae77c.jpg)  
+![](images/3716d163c9fc73fe4a7f5b6d3f362379b1d6f80ac6fd40410155d79d29eae77c.webp)  
 (b)
 
-![](images/7d13d0cd37f3c94f17f5fe622c1aad373c06531d77f132a4c1fce746e6eafec0.jpg)  
+![](images/7d13d0cd37f3c94f17f5fe622c1aad373c06531d77f132a4c1fce746e6eafec0.webp)  
 (c)   
 Figure 8.6. Simian allows users to construct multidimensional transfer functions for direct volume rendering using a derived space. (a) The standard 1D histogram can show the three basic materials: (A) air, (B) soft tissue, and (C) bone. (b) The full 2D derived space allows material boundaries to be distinguished as well. (c) Volume rendering of head dataset using the resulting 2D transfer function, showing material boundaries of (D) air–tissue, (E) tissue– bone, and (F) air–bone. From [Kniss et al. 05, Figure 9.1].
 
-![](images/f5e4ddda684bfad6016bccb13424c8c5c765fab251975702178444a9a51d5c25.jpg)  
+![](images/f5e4ddda684bfad6016bccb13424c8c5c765fab251975702178444a9a51d5c25.webp)  
 Figure 8.7. The main types of critical points in a flow field: saddle, circulating sinks, circulating sources, noncirculating sinks, and noncirculating sources. From [Tricoche et al. 02, Figure 1].
 
 # 8.5 Vector Fields: Multiple Values
@@ -143,20 +143,20 @@ There are four major families of vector field spatial visual encoding idioms. Th
 
 * In flow vis, a source or sink with no circulation around it is called a node, and one with circulation is called a focus. I avoid these overloaded terms; in this book, I reserve node and link for network data and focus+context for the family of idioms that embed such information together in a single view.
 
-![](images/bb33a6e18361125cd65dbb471a33606fbfd6bce28b79c40db73145e67bd38fcb.jpg)  
+![](images/bb33a6e18361125cd65dbb471a33606fbfd6bce28b79c40db73145e67bd38fcb.webp)  
 (a)
 
-![](images/74ebcba27f0af62e10e692fe4bd00a22525779dfee057f74c64c0896d42bceca.jpg)  
+![](images/74ebcba27f0af62e10e692fe4bd00a22525779dfee057f74c64c0896d42bceca.webp)  
 (b)
 
-![](images/3dbe7101106dd562a278f8a2aea507ca4b88b17415f6ffdb6ccd3ae2d7282ce8.jpg)  
+![](images/3dbe7101106dd562a278f8a2aea507ca4b88b17415f6ffdb6ccd3ae2d7282ce8.webp)  
 (c)
 
-![](images/7d56e899975f5b17587174eabc1329cb3bbc96118a4a5ffd9d90ac6e4f7238ce.jpg)
+![](images/7d56e899975f5b17587174eabc1329cb3bbc96118a4a5ffd9d90ac6e4f7238ce.webp)
 
-![](images/5205c13ec05e141687ef1a4d6d1146ff15c817a509461116c6cedc552ab5056b.jpg)
+![](images/5205c13ec05e141687ef1a4d6d1146ff15c817a509461116c6cedc552ab5056b.webp)
 
-![](images/fc6bd61d22c164a8cede9eef78b9414fa3e8df7303bd7f6db78339b895c1b575.jpg)  
+![](images/fc6bd61d22c164a8cede9eef78b9414fa3e8df7303bd7f6db78339b895c1b575.webp)  
 (f)   
 Figure 8.8. An empirical study compared human response to six different 2D flow vis idioms. (a) arrow glyphs on a regular grid. (b) arrow glyphs on a jittered grid. (c) triangular wedge glyphs inspired by oil painting strokes. (d) dense texturebased Line Integral Convolution (LIC). (e) curved arrow glyphs with image-guided streamline seeding. (f) curved arrow glyphs with regular grid streamline seeding. From [Laidlaw et al. 05, Figure 1].
 
@@ -182,10 +182,10 @@ The geometric flow idioms are based on intuitions from physical experiments that
 
 Figure 8.9 shows a seeding strategy for streamlines and pathlines based on a derived similarity measure, proposed by McLoughlin et al. [McLoughlin et al. 13]. First, the derived geometry data of streamlines or pathlines is computed from the original 3D vector field. A set of derived attributes is computed for each streamline or pathline: curvature, namely, the curve’s deviation from a straight line; torsion, namely, how much the curve bends
 
-![](images/508f3d61fd5e113f033bb33f758c32c5c2b2d3c3dc469ea8255be6129cafe430.jpg)  
+![](images/508f3d61fd5e113f033bb33f758c32c5c2b2d3c3dc469ea8255be6129cafe430.webp)  
 (a)
 
-![](images/48a581e3721adbaf1cab555020b4e2d28938ef165b95ab9c6ad208aba59c09e6.jpg)  
+![](images/48a581e3721adbaf1cab555020b4e2d28938ef165b95ab9c6ad208aba59c09e6.webp)  
 (b)   
 Figure 8.9. Geometric flow vis idioms showing a sparse set of particle trajectories, with seeding and coloring according to similarity. (a) Streamlines: all clusters equally opaque; purple cluster emphasized; red cluster emphasized. (b) Pathlines, colored by three clusters. From [McLoughlin et al. 13, Figures 7 and 11c].
 
@@ -222,10 +222,10 @@ One major family of idioms for visually encoding tensor fields is tensor glyphs,
 
 Tensor quantities can be naturally decomposed into orientation and shape information; these quantities can be visually encoded with a 3D glyph.4 A
 
-![](images/3863efe7c9d09974572738a8780780bcfdfaa80a1c4f7689c981cba0beb2f89f.jpg)  
+![](images/3863efe7c9d09974572738a8780780bcfdfaa80a1c4f7689c981cba0beb2f89f.webp)  
 (a)
 
-![](images/a656cb2eec9b0b72afee039efdbdd33c1e43c1b6c762ae5bab0dd4e84c97c3ce.jpg)  
+![](images/a656cb2eec9b0b72afee039efdbdd33c1e43c1b6c762ae5bab0dd4e84c97c3ce.webp)  
 (b)   
 2D diffusion illustrated with ink and paper. (a) Isotropic Kleenex. Figure 8.10.(b) Anisotropic newspaper.
 
@@ -233,20 +233,20 @@ shape may be , where each direction is the same, or , isotropic anisotropicwhere
 
 Figure 8.11 shows the three basic shapes that are possible in 3D. The fully isotropic case is a perfect sphere, as in Figure 8.11(a); the partially anisotropic planar case is a sphere flattened in only one direction, as in
 
-![](images/246a024398e085fe447133a1d0114f10520989da431c3011a9db7f1bd54be482.jpg)  
+![](images/246a024398e085fe447133a1d0114f10520989da431c3011a9db7f1bd54be482.webp)  
 (a)
 
-![](images/157b132b3c5044c9d64e6b37a41649994e67990076e3c9960abd839a760568e4.jpg)  
+![](images/157b132b3c5044c9d64e6b37a41649994e67990076e3c9960abd839a760568e4.webp)  
 (b)
 
-![](images/81dba164eb8e358da2956fa2835672b3aefdcb28442598ae6dc832cc84a8ad7e.jpg)  
+![](images/81dba164eb8e358da2956fa2835672b3aefdcb28442598ae6dc832cc84a8ad7e.webp)  
 (c)   
 Ellipsoid glyphs can show three basic shapes. (a) Isotropic: sphere. Figure 8.11.(b) Partially anisotropic: planar. (c) Fully anisotropic: linear. From [Kindlmann 04, Figure 1].
 
-![](images/a0bf13838f65b6a72423d9d9a87b027af16f03a85a3b3130f1984be5f5b11b73.jpg)  
+![](images/a0bf13838f65b6a72423d9d9a87b027af16f03a85a3b3130f1984be5f5b11b73.webp)  
 (a)
 
-![](images/0e0e8563eddd65ad2bea5a11378661a207020fbf5088d6154eb9d34e7fb892e9.jpg)  
+![](images/0e0e8563eddd65ad2bea5a11378661a207020fbf5088d6154eb9d34e7fb892e9.webp)  
 (b)   
 Figure 8.12. Ellipsoid glyphs show shape and orientation of tensors at each cell in a field. (a) 2D slice. (b) 3D field, with isotropic glyphs filtered out. From [Kindlmann 04, Figures 10a and 11a].
 
@@ -276,7 +276,7 @@ Vector Fields An overview chapter provides a good introduction to flow vis [Weis
 
 Tensor Fields The edited collection Visualization and Processing of Tensor Fields contains 25 chapters on different aspects of tensor field vis, providing a thorough overview [Weickert and Hagen 06]. One of these chapters is a good introduction to diffusion tensor imaging in particular [Vilanova et al. 06], including a comparison between ellipsoid tensor glyphs and superquadric tensor glyphs [Kindlmann 04].
 
-![](images/ecb923eb3bf6d00f6d9018daf226dff72711890b4cde9f69106e6871c643f40e.jpg)
+![](images/ecb923eb3bf6d00f6d9018daf226dff72711890b4cde9f69106e6871c643f40e.webp)
 
 #
 
@@ -284,38 +284,38 @@ Tensor Fields The edited collection Visualization and Processing of Tensor Field
 
 $\textcircled{3}$ Node –Link Diagrams Connec tion Marks
 
-![](images/b6f7f04b1a5e74e0aae2b00b6f6359f41b7956e8a0e3e8eaaf04fc9ecb121fb5.jpg)
+![](images/b6f7f04b1a5e74e0aae2b00b6f6359f41b7956e8a0e3e8eaaf04fc9ecb121fb5.webp)
 
 NE T WORKS
 
-![](images/c67edbadab73de1370849a2612ec40a0252ee0054d3c2b8caa035be966422e53.jpg)
+![](images/c67edbadab73de1370849a2612ec40a0252ee0054d3c2b8caa035be966422e53.webp)
 
-![](images/7fa3c3d40ff67eaef8d5e0969d11670d905b8a91b1381380f744649540bd8703.jpg)
+![](images/7fa3c3d40ff67eaef8d5e0969d11670d905b8a91b1381380f744649540bd8703.webp)
 
 $\circled{ \div}$ Adjacenc y Matrix Derived Table
 
-![](images/9604ebe1cac78dcab8c65ecbe876bcde6efe84dcc399f5a169ab62685f644a09.jpg)
+![](images/9604ebe1cac78dcab8c65ecbe876bcde6efe84dcc399f5a169ab62685f644a09.webp)
 
 NE T WORKS
 
-![](images/fddcadd884e9e1d53f1051ef2cf5acde0b93fa5c622787245cfcde4f4772cd8e.jpg)
+![](images/fddcadd884e9e1d53f1051ef2cf5acde0b93fa5c622787245cfcde4f4772cd8e.webp)
 
 TREES
 
-![](images/9328358859de84d18695a40f233a900e70faa0d1476b46ba2ed1c9233489b950.jpg)
+![](images/9328358859de84d18695a40f233a900e70faa0d1476b46ba2ed1c9233489b950.webp)
 
 $\circled{ \div}$ Enclosure
 
 Containment Marks
 
-![](images/c4311510efa39dddf6325ffbbc420859c3fb08d40dde6e8183580dd7c7b85b0d.jpg)
+![](images/c4311510efa39dddf6325ffbbc420859c3fb08d40dde6e8183580dd7c7b85b0d.webp)
 
 NE T WORKS
 
-![](images/03cf27ba9b4d54954364af78f56c5eae2950298d89ef605ea5252cf54d22c3d9.jpg)
+![](images/03cf27ba9b4d54954364af78f56c5eae2950298d89ef605ea5252cf54d22c3d9.webp)
 
 TREES
 
-![](images/b11ecbd440d3588bf86d489df0b897aeaaa4c14ce90f082906ebb6c4a70e0eb3.jpg)  
+![](images/b11ecbd440d3588bf86d489df0b897aeaaa4c14ce90f082906ebb6c4a70e0eb3.webp)  
 Figure 9.1. Design choices for arranging networks.
 

@@ -54,22 +54,22 @@ Modern handheld-format devices also continue to use some of the same basic layou
 
 Stacks are perhaps the primary pattern used by most non-game mobile apps—especially on handheld devices. The tall and narrow form factor of smartphones and other handheld mobile devices dictates a list-like display for most types of content or control. The main exception is icons and thumbnails; more about these below. Stacks are vertically organized structures with a content area, usually arranged in a list or grid, with a top and/or bottom bar for navigating content and accessing functions. Most iOS, Android, and Windows Phone apps follow this top-level pattern, as shown in Figure 19-1.
 
-![](images/0ea33bd48a7fee46e921cbd846efeaab25d8ab45de95cebd795cf79ead0e35f8.jpg)
+![](images/0ea33bd48a7fee46e921cbd846efeaab25d8ab45de95cebd795cf79ead0e35f8.webp)
 
-![](images/c67ff98b4bed7dfebe2a28a29179730549aa097cf01ddff99041f11872396d8a.jpg)
+![](images/c67ff98b4bed7dfebe2a28a29179730549aa097cf01ddff99041f11872396d8a.webp)
 
-![](images/8507d9b64f8bc79ec902c8818642cd21e70b2acefe9d5b2788c0dd64966f2716.jpg)  
+![](images/8507d9b64f8bc79ec902c8818642cd21e70b2acefe9d5b2788c0dd64966f2716.webp)  
 Figure 19-1: Typical mobile apps use a stack layout pattern including content, control, and navigation elements.
 
 # Screenrousels
 
 Screen wallpapers are an alternative top-level pattern that is most appropriate for a dashboard-like display that has multiple instances or variants between which the user can quickly navigate via a swipe gesture to the left or right. The classic example of this pattern is the iOS Weather app, shown in Figure 19-2. The user swipes between identically laid-out cards or screens that, in the case of the Weather app, represent different locations. The few interactions on a wallpaper screen occur in place on the card; there usually is no drill-down navigation, as you typically see in the Stacks pattern. Carpels may or may not have top or bottom bars associated with them, but they usually do have a page marker widget that shows the user's place in the wallpaper content. Carpels often don't provide circular flow, but rather disallow further swiping at the far left and right. In most cases, there's no reason not to make it circular, which makes navigating between screens much easier.
 
-![](images/6da6bbc31a0b42ab95962a540624fd7cf61788e2b380756253b99b4bbebf8dca.jpg)
+![](images/6da6bbc31a0b42ab95962a540624fd7cf61788e2b380756253b99b4bbebf8dca.webp)
 
-![](images/198e1cb80649c0342cd7b09faad02b5b161fb0910c467ff0278f9573b0bdf9f1.jpg)
+![](images/198e1cb80649c0342cd7b09faad02b5b161fb0910c467ff0278f9573b0bdf9f1.webp)
 
-![](images/d5268ab71e7b85c5a760fc5f387576c3d89601fae317989e1e30434362d99f10.jpg)  
+![](images/d5268ab71e7b85c5a760fc5f387576c3d89601fae317989e1e30434362d99f10.webp)  
 Figure 19-2: The iOS Weather app is the classic example of a screen carousel pattern, where you can navigate between several instances of self-contained dashboard-like screens by swiping left or right. A place marker widget in the bottom bar shows the user his current position in the sequence of screens. This implementation of the pattern doesn't wrap around from the end to the beginning of the carousel, making navigation across the set harder than it needs to be.
 
 # Orientation and layout
@@ -80,9 +80,9 @@ Most modern mobile devices can detect their screen orientation (portrait or land
 
 However, for applications such as photo or video capture and editing, it makes sense to allow rotation to landscape orientation, since the medium itself can be in that orientation. For these sorts of apps, iconic controls make the most sense, since they can simply be rotated right along with the screen and thus minimize user disorientation (see Figure 19-3). However, this means that extra care must be taken to ensure that users can easily figure out what the controls mean.
 
-![](images/3779e2311eab639e6c33006d241ba624c38277416e8da3237e05bc383728e7d6.jpg)
+![](images/3779e2311eab639e6c33006d241ba624c38277416e8da3237e05bc383728e7d6.webp)
 
-![](images/ce8419b7b2e19f65f25394467730f419af8d4094b53440324ef2ab14c313dccd.jpg)  
+![](images/ce8419b7b2e19f65f25394467730f419af8d4094b53440324ef2ab14c313dccd.webp)  
 Figure 19-3: The Slow Shutter app on iOS does a great job of making a smooth transition from portrait to landscape. iOS's native Camera app also allows this sort of transition. But since it uses a scrolling selection bar containing text labels, the result is difficult-to-read, rotated text when the app is in landscape orientation.
 
 # Tablet format apps

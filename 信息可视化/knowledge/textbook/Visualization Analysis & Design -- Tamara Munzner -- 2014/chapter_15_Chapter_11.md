@@ -28,15 +28,15 @@ The possibilities for how the view changes can be based on any of the other desi
 
 For example, the visual encoding could be changed to a completely different idiom. Some vis tools allow the user to manually change between several different idioms, such as switching from a node–link layout to a matrix layout of a network. Giving the user control of the encoding is particularly common in general-purpose systems designed to flexibly accommodate a large range of possible datasets, rather than special-purpose systems fine tuned for a very particular task. Figure 11.2 shows a sequence of different visual encodings of the same product sales dataset created with the Tableau system, which supports fluidly moving between encodings via drag and drop interactions to specify which attributes to encode with which channels. Figure 11.2(a) shows the data encoded with simple bars, changed to stacked bars in Figure 11.2(b). Figure 11.2(c) shows a recommendation of alternate encodings that are good choices taking into account the types and semantics of
 
-![](images/e221d0770647b78cfa87030e1f32d6f155cb5e3e74d8363ccc5cfbf3862fe8ad.jpg)  
+![](images/e221d0770647b78cfa87030e1f32d6f155cb5e3e74d8363ccc5cfbf3862fe8ad.webp)  
 (a)
 
-![](images/15160738b2c90204086616d88bbf5f98ffe0936f77c9e794ed34f46a08ade7a2.jpg)  
+![](images/15160738b2c90204086616d88bbf5f98ffe0936f77c9e794ed34f46a08ade7a2.webp)  
 (b)
 
-![](images/745d6113202322f93e5baf22f1409fbb8f60224de3e229885063def659ce5cba.jpg)
+![](images/745d6113202322f93e5baf22f1409fbb8f60224de3e229885063def659ce5cba.webp)
 
-![](images/f7d16a304bee52fcfff94e36edffa55102cfd36cdbaca92e1668003c4b7bd05f.jpg)  
+![](images/f7d16a304bee52fcfff94e36edffa55102cfd36cdbaca92e1668003c4b7bd05f.webp)  
   
 Figure 11.2. Tableau supports fluid changes between visual encoding idioms with drag and drop interaction. (a) Data encoded with bars. (b) Data encoded with stacked bars. (c) The user selects a completely different visual encoding. (d) Data encoded using geographic positions.
 
@@ -57,19 +57,19 @@ The LineUp system is designed to support exploration of tables with many attribu
 
 Figure 11.3 compares several different rankings of top universities. On the left is a customized combination of attributes and weights for the 2012 data, and in the middle is the official ranking for 2012, with colored
 
-![](images/a729ece02ff4b1ce6aeedaa9a98fc85eb32efc708c768757a960ab3ca1e510bb.jpg)  
+![](images/a729ece02ff4b1ce6aeedaa9a98fc85eb32efc708c768757a960ab3ca1e510bb.webp)  
 Figure 11.3. The LineUp system for comparing multiattribute rankings with reordering and realignment. From [Gratzl et al. 13, Figure 1].
 
-![](images/1ae17a5fa107a80f6045ff0ba309e845083f88d41bb164a341fa903cf1d67b0d.jpg)  
+![](images/1ae17a5fa107a80f6045ff0ba309e845083f88d41bb164a341fa903cf1d67b0d.webp)  
 (a)
 
-![](images/cee9ba353eedf547c0176ada8bc706cc3b83cd4094598469574bcf4332d7c700.jpg)  
+![](images/cee9ba353eedf547c0176ada8bc706cc3b83cd4094598469574bcf4332d7c700.webp)  
 (b)
 
-![](images/e8e25eaecb3ce3f8e690cd09ff38773a1d42d6ee4e424e044b3b193fb811007b.jpg)  
+![](images/e8e25eaecb3ce3f8e690cd09ff38773a1d42d6ee4e424e044b3b193fb811007b.webp)  
 (c)
 
-![](images/4afb45966048c9dcc80bd0d911d48522afcee1045f0a6ccd23d90da16eef6658.jpg)  
+![](images/4afb45966048c9dcc80bd0d911d48522afcee1045f0a6ccd23d90da16eef6658.webp)  
   
 Figure 11.4. Changing the alignment in Lineup. (a) Classical stacked bars. (b) Diverging stacked bars. (c) Ordered stacked bars. (d) Separately aligned bars: small multiple bar charts. From [Gratzl et al. 13, Figure 4].
 
@@ -104,15 +104,15 @@ One of the best-justified uses of animation is the idiom of animated transition,
 
 The benefit of animated transitions is that they help users maintain a sense of context between the two states by explicitly showing how an item in the first state moves to its new position in the second state, rather than forcing users to do item tracking on their own using internal cognitive and memory resources. These transitions are most useful when the amount of change is limited, because people cannot track everything that occurs
 
-![](images/389b64855e96ccd1c6c1e0ee99ec9735725cd15dcde5084b812540d9dd22f0bc.jpg)
+![](images/389b64855e96ccd1c6c1e0ee99ec9735725cd15dcde5084b812540d9dd22f0bc.webp)
 
-![](images/19af32fdb3c4fd72e1e1877c5caff55417a4aa25797f1728942b06a70773506c.jpg)
+![](images/19af32fdb3c4fd72e1e1877c5caff55417a4aa25797f1728942b06a70773506c.webp)
 
-![](images/8c9518eeb62178ca9f715071e838470cdfa3ccb71e913ece75708dbe6045d2f5.jpg)
+![](images/8c9518eeb62178ca9f715071e838470cdfa3ccb71e913ece75708dbe6045d2f5.webp)
 
-![](images/6308896a2cc3ea94b008f021a81c93581673b6ae83f9ea0d3a430e68b809f6f1.jpg)
+![](images/6308896a2cc3ea94b008f021a81c93581673b6ae83f9ea0d3a430e68b809f6f1.webp)
 
-![](images/e837c5ed57929beeb8aa4893f04ea43532db7edfe1e68b4bee404be9a873d529.jpg)  
+![](images/e837c5ed57929beeb8aa4893f04ea43532db7edfe1e68b4bee404be9a873d529.webp)  
 Figure 11.5. Frames from an animated transition showing zoom between levels in a compound network arranged as an adjacency matrix. From [van Ham 03, Figure 4].
 
 if many items change in different ways all over the frame. They work well when either a small number of objects change while the rest stay the same, or when groups of objects move together in similar ways. Transitions can also be broken down into a small number of stages. An empirical study showed that carefully designed animated transitions do indeed support better graphical perception of change [Heer and Robertson 07].
@@ -177,7 +177,7 @@ Figure 11.6 shows the idiom of context-preserving visual links, where links are 
 
 Edge bundling is discussed further in Section 12.5.2.
 
-![](images/7a90dba59c311b3a48b16c003fae12c315bd5e2e0c142a766ea6f09ac355a3d7.jpg)  
+![](images/7a90dba59c311b3a48b16c003fae12c315bd5e2e0c142a766ea6f09ac355a3d7.webp)  
 Figure 11.6. The context-preserving visual links idiom is an example of the design choice to coordinate betweeen views by explicitly drawing links as connection marks between items and regions of interest. From [Steinberger et al. 11, Figure 1].
 
 <table><tr><td>Idiom</td><td>Context-Preserving Visual Links</td></tr><tr><td>What: Data</td><td>Any data.</td></tr><tr><td>How: Encode</td><td>Any encoding. Highlight with link marks connecting items across views.</td></tr><tr><td>How: Manipulate</td><td>Select any element.</td></tr><tr><td>(How: Coordinate)</td><td>Juxtaposed multiple views.</td></tr></table>
@@ -220,7 +220,7 @@ Figure 11.7 shows an example from the LiveRAC system for analyzing large collect
 
 ‣ Filtering and aggregation are covered in Chapter 13.
 
-![](images/5374c1ce039bf55ad91288965ed404dc83d2b1976927736259ba2e13bc8698a4.jpg)  
+![](images/5374c1ce039bf55ad91288965ed404dc83d2b1976927736259ba2e13bc8698a4.webp)  
 Figure 11.7. LiveRAC uses semantic zooming within a stretchable grid of timeseries line charts. From [McLachlan et al. 08, Figure 2b].
 
 Focus+context approaches are discussed further in Chapter 14.
@@ -255,10 +255,10 @@ It is also possible to slice along a plane at an arbitrary orientation that does
 
 * Using the vocabulary of signal processing, care must taken to minimize sampling and interpolation artifacts. These questions are also discussed in Section 8.4.
 
-![](images/98003240049353cb2269cf3b71e946b9eb257f9fa160664c5f6503df92f1f690.jpg)  
+![](images/98003240049353cb2269cf3b71e946b9eb257f9fa160664c5f6503df92f1f690.webp)  
 (a)
 
-![](images/643b37d77edb7ba316fdbdcd32df8b61b7da45c2e64570bc5462bf4b3409b131.jpg)  
+![](images/643b37d77edb7ba316fdbdcd32df8b61b7da45c2e64570bc5462bf4b3409b131.webp)  
 (b)   
 Figure 11.8. The slice choice eliminates a dimension/attribute by extracting only the items with a chosen value in that dimension. The cut choice eliminates all data on one side of a spatial cutting plane. (a) Axis-aligned slice. (b) Axis-aligned cut. From [Rieder et al. 08, Figures 7c and 0].
 
@@ -268,10 +268,10 @@ Slicing is not restricted to a change from 3D to 2D. The same idea holds in the 
 
 The HyperSlice system uses the design choice of slicing for attribute reduction to display abstract data with many attributes: scalar functions with many variables [van Wijk and van Liere 93]. The visual encoding is a set of views showing all possible orthogonal two-dimensional slices aligned in a matrix. Figure 11.9(a) shows the intuition behind the system for a simple 3D example of three planes that intersect at right angles to each other. The views are coordinated with linked navigation of the high-dimensional space, where each view is both a display and a control: dragging with a view changes the slice value based on its pair of dimen-
 
-![](images/8bff59bc09da9461ae8267d36e3b1236e61af593b3c4e07301bd9003a268cd7e.jpg)  
+![](images/8bff59bc09da9461ae8267d36e3b1236e61af593b3c4e07301bd9003a268cd7e.webp)  
 (a)
 
-![](images/8ee9a1f1d0c3206f49297bfdd117d2499d6887a27825dfbaeda6984882ab0ba3.jpg)  
+![](images/8ee9a1f1d0c3206f49297bfdd117d2499d6887a27825dfbaeda6984882ab0ba3.webp)  
 (b)   
 Figure 11.9. The HyperSlice system uses extracting only the items with a chosen value in that dimension. (a) Three 3D planes that intersect at right angles. (b) Four-dimensional dataset where function value is encoded with luminance. From [van Wijk and van Liere 93, Figures 1 and 4].
 
@@ -307,7 +307,7 @@ Semantic Zooming The $\mathrm { P a d } { + + }$ system was an early exploration
 
 Constrained Navigation Early work evangelized the idea of constrained navigation in 3D [Mackinlay et al. 90]; later work provides a framework for calculating smooth and efficient 2D panning and zooming trajectories [van Wijk and Nuij 03].
 
-![](images/02ac39474a1451ce30a56bc250d835989794e8542544560541d033e537a0d20e.jpg)
+![](images/02ac39474a1451ce30a56bc250d835989794e8542544560541d033e537a0d20e.webp)
 
 #
 
@@ -316,38 +316,38 @@ $\circledast$ Jux tapose and Coordinate Multiple Side-by-Side Views
 →Share Encoding: Same/Different   
 Linked Highlighting
 
-![](images/e2a1dd7f1719f665f343af0c621d2c00f3adc72213a6a401bd4298cabf82edf7.jpg)
+![](images/e2a1dd7f1719f665f343af0c621d2c00f3adc72213a6a401bd4298cabf82edf7.webp)
 
-![](images/ffad0214d6c3d6b55e9e26e97cc0b36b71232b1525dc1d68886c8d59daae3f9c.jpg)
+![](images/ffad0214d6c3d6b55e9e26e97cc0b36b71232b1525dc1d68886c8d59daae3f9c.webp)
 
 Share Data: All/Subset/None
 
-![](images/983ac9fe26d433e528a07822127c1f63d28db971c9e83a38e8d44fa10a653227.jpg)
+![](images/983ac9fe26d433e528a07822127c1f63d28db971c9e83a38e8d44fa10a653227.webp)
 
-![](images/37d27495e1539ee1cebf3c770a248836b322b03e2e6bfa91a9286dab50d34cfb.jpg)
+![](images/37d27495e1539ee1cebf3c770a248836b322b03e2e6bfa91a9286dab50d34cfb.webp)
 
-![](images/867b28e276de33f230feadc4707462852f424e641f1c166d244d858b83d52576.jpg)
+![](images/867b28e276de33f230feadc4707462852f424e641f1c166d244d858b83d52576.webp)
 
 Share Navigation
 
-![](images/33e483f7deb7acd323f2e80c3babe8ad46cc03aec662311d7bd95a1645655ae5.jpg)
+![](images/33e483f7deb7acd323f2e80c3babe8ad46cc03aec662311d7bd95a1645655ae5.webp)
 
-![](images/cb55446989a9b27d26bb0a04a09a22b4076236b6cdd03dd2e8f3b5f6358fa88c.jpg)
+![](images/cb55446989a9b27d26bb0a04a09a22b4076236b6cdd03dd2e8f3b5f6358fa88c.webp)
 
-![](images/9903d10fa3717f96e96eef8f5d89329acb6313697c3f5c6e53020a4c45fbea73.jpg)
+![](images/9903d10fa3717f96e96eef8f5d89329acb6313697c3f5c6e53020a4c45fbea73.webp)
 
 $\circled{  }$ Par tition into Side-by-Side Views
 
-![](images/c64d157c342c6f395f3efb8c6d223ea639d5d7da16f475cf9bffc02b6cb4e778.jpg)
+![](images/c64d157c342c6f395f3efb8c6d223ea639d5d7da16f475cf9bffc02b6cb4e778.webp)
 
-![](images/d905b82462030698f27ff91eb1a6bc5450ef3f436f7d4c1e4c287a80aacf1b0b.jpg)
+![](images/d905b82462030698f27ff91eb1a6bc5450ef3f436f7d4c1e4c287a80aacf1b0b.webp)
 
 $\circledcirc$ Superimpose Layers
 
-![](images/d5702f18594f3bfdf8db9c463021d75b985c5b9a5af0af114faa8b96c9abf9f5.jpg)
+![](images/d5702f18594f3bfdf8db9c463021d75b985c5b9a5af0af114faa8b96c9abf9f5.webp)
 
-![](images/f037bedf423b5684a57eca13596bad0cc0b41f4f50509462c667b3bc59f0abfe.jpg)
+![](images/f037bedf423b5684a57eca13596bad0cc0b41f4f50509462c667b3bc59f0abfe.webp)
 
-![](images/ceed01b4da01a0e7a71d5c14dc2b76678c6b483f90ce8376a10d3c2bf55b817b.jpg)  
+![](images/ceed01b4da01a0e7a71d5c14dc2b76678c6b483f90ce8376a10d3c2bf55b817b.webp)  
 Figure 12.1. Design choices of how to facet information between multiple views.
 

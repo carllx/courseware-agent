@@ -56,7 +56,7 @@ Refinement phase. It is also critical for the programming team to be intimately 
 
 The Refinement phase is marked by the translation of the sketched storyboards into full-resolution screens that depict the user interface at the pixel level, as shown in Figure 5-5.
 
-![](images/cfecfca2b9b0534897527d98896d07d19d20134c10681f01452f1355e1eea125.jpg)  
+![](images/cfecfca2b9b0534897527d98896d07d19d20134c10681f01452f1355e1eea125.webp)  
 Figure 5-5: Full-resolution bitmap screens for Cross Country TravCorps based on the Framework illustration from Figure 5-3. Note that minor changes to the layout naturally result from the realities of pixels and screen resolution. Visual and interaction designers need to work together closely at this stage to ensure that visual changes to the design continue to reinforce appropriate product behaviors and meet the goals of the primary personas.
 
 The basic process of design refinement follows the same steps we used to develop the design framework, this time at deeper and deeper levels of detail. (Of course, it isn't necessary to revisit the form factor and input methods unless an unexpected cost or manufacturing issue crops up with the hardware.) After following Steps 2 through 6 at the view and pane levels, while incorporating the increasingly refined visual and industrial designs, use scenarios to motivate and address the product's more granular components.
@@ -151,5 +151,5 @@ __________
 
 __________
 
-![](images/03acf9dcb0b6c85e12c58015da0b5d8d5eedc52c59e8828c564cc5dcbc80e5a1.jpg)
+![](images/03acf9dcb0b6c85e12c58015da0b5d8d5eedc52c59e8828c564cc5dcbc80e5a1.webp)
 

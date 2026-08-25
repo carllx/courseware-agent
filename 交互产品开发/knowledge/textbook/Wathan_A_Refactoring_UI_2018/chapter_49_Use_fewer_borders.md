@@ -7,7 +7,7 @@ While borders are a great way to distinguish two elements from one
 another, they aren’t the only way, and using too many of them can make
 your design feel busy and cluttered.
 
-![](images/index-239_1.png)
+![](images/index-239_1.webp)
 
 239
 
@@ -22,7 +22,7 @@ distracting.
 This approach works best when the element you are applying the box
 shadow to is not the same color as the background.
 
-![](images/index-240_1.png)
+![](images/index-240_1.webp)
 
 Use fewer borders
 
@@ -36,7 +36,7 @@ all you need to create distinction between them.
 If you’re already using different background colors in addition to a
 border, try removing the border; you might not need it.
 
-![](images/index-241_1.png)
+![](images/index-241_1.webp)
 
 241
 
@@ -50,5 +50,5 @@ increase the separation?
 Spacing things further apart is a great way to create distinction
 between groups of elements without introducing any new UI at all.
 
-![](images/index-242_1.png)
+![](images/index-242_1.webp)
 

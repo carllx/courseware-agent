@@ -1,6 +1,6 @@
 **Starting from Scratch**
 
-![](images/index-8_1.png)
+![](images/index-8_1.webp)
 
 **Start with a feature, not a layout**
 
@@ -25,7 +25,7 @@ you’ve designed a few features, you don’t even have the information you
 need to make a decision about how the navigation should work. No wonder
 it’s frustrating!
 
-![](images/index-9_1.png)
+![](images/index-9_1.webp)
 
 9
 
@@ -51,7 +51,7 @@ Your interface will need:
 
 Start with that.
 
-![](images/index-10_1.png)
+![](images/index-10_1.webp)
 
 Start with a feature, not a layout
 
@@ -64,5 +64,5 @@ Google.
 
 Start with a feature, not a layout
 
-![](images/index-12_1.png)
+![](images/index-12_1.webp)
 

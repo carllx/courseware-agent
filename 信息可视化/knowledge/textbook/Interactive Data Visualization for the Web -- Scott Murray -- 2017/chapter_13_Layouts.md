@@ -76,7 +76,7 @@ data-type="xref">Figure 13-1</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_simple_pie_chart" class="figure">
 <img
-src="images/0bd5dd9c42880cdf2835e1bc867310353e9db837e117835fac406bc6930c0219.png"
+src="images/0bd5dd9c42880cdf2835e1bc867310353e9db837e117835fac406bc6930c0219.webp"
 class="calibre208" alt="dvw2 1301" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-1. </span>A
 simple pie chart</h6>
@@ -124,7 +124,7 @@ data-type="xref">Figure 13-2</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_pieified_data" class="figure">
 <img
-src="images/972bcb818f97df15a62de286a38b318128278275199fac9ac4a6c5208ffe40ad.png"
+src="images/972bcb818f97df15a62de286a38b318128278275199fac9ac4a6c5208ffe40ad.webp"
 class="calibre209" alt="dvw2 1302" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-2.
 </span>Your data, pie-ified</h6>
@@ -320,7 +320,7 @@ var innerRadius = w / 3;
 <figure class="calibre35">
 <div id="ch13.xhtml_simple_doughnut_chart" class="figure">
 <img
-src="images/c8d836d74a0ae94fd2c9ee753c45b239011dec2d6f5455c6247ea9d43f851c99.png"
+src="images/c8d836d74a0ae94fd2c9ee753c45b239011dec2d6f5455c6247ea9d43f851c99.webp"
 class="calibre210" alt="dvw2 1303" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-3. </span>A
 simple doughnut chart</h6>
@@ -387,7 +387,7 @@ data-type="xref">Figure 13-4</a>. See all the code in
 <figure class="calibre35">
 <div id="ch13.xhtml_simple_stacked_bar_chart" class="figure">
 <img
-src="images/ba684c426ac6c544a1daeaaac8343acf3918bc6ee06eaa3153cfb1703758e0de.png"
+src="images/ba684c426ac6c544a1daeaaac8343acf3918bc6ee06eaa3153cfb1703758e0de.webp"
 class="calibre211" alt="dvw2 1304" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-4. </span>A
 simple stacked bar chart (blue = apples, orange = oranges, green =
@@ -576,7 +576,7 @@ different order.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_bar_reordered" class="figure">
 <img
-src="images/f8702200f35549823772c9f004419e56a600e82af82b6d169be8cd93b5797165.png"
+src="images/f8702200f35549823772c9f004419e56a600e82af82b6d169be8cd93b5797165.webp"
 class="calibre212" alt="dvw2 1305" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-5.
 </span>The same stacked bar chart, reordered</h6>
@@ -642,7 +642,7 @@ data-type="xref">Figure 13-6</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_bar_anchored" class="figure">
 <img
-src="images/68fcb13c270d59c644cc2c5d3002b83005981d78eb70b2310ad00a19acb2a007.png"
+src="images/68fcb13c270d59c644cc2c5d3002b83005981d78eb70b2310ad00a19acb2a007.webp"
 class="calibre213" alt="dvw2 1306" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-6.
 </span>The same stacked bar chart, now anchored at the bottom</h6>
@@ -700,7 +700,7 @@ data-type="xref">Figure 13-7</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_area" class="figure">
 <img
-src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.png"
+src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.webp"
 class="calibre214" alt="dvw2 1307" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-7. </span>A
 stacked area chart</h6>
@@ -717,7 +717,7 @@ data-type="xref">Figure 13-8</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_area_hover" class="figure">
 <img
-src="images/1a6b3391b71e2e5fc62deaaf6548e903789e445b97f8dfaeb25f959711c16b0e.png"
+src="images/1a6b3391b71e2e5fc62deaaf6548e903789e445b97f8dfaeb25f959711c16b0e.webp"
 class="calibre215" alt="dvw2 1308" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-8. </span>A
 stacked area chart, with tooltips!</h6>
@@ -878,7 +878,7 @@ coding toward in *07_force.html*.
 <figure class="calibre35">
 <div id="ch13.xhtml_force_layouta" class="figure">
 <img
-src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.png"
+src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.webp"
 class="calibre216" alt="dvw2 1309" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-9. </span>A
 simple force layout</h6>
@@ -1153,7 +1153,7 @@ coordinates and map them on to the visual elements in the DOM.
 <figure class="calibre35">
 <div id="ch13.xhtml_force_data_added" class="figure">
 <img
-src="images/e8f581aaf79ae487985d34fc05a85a8577ba3dafbebcfc1080a29a58fc68e06d.png"
+src="images/e8f581aaf79ae487985d34fc05a85a8577ba3dafbebcfc1080a29a58fc68e06d.webp"
 class="calibre217" alt="dvw2 1310" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-10.
 </span>The first node in dataset, with lots of supplemental data added
@@ -1169,7 +1169,7 @@ data-type="xref">Figure 13-11</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_force_layout" class="figure">
 <img
-src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.png"
+src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.webp"
 class="calibre216" alt="dvw2 1311" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-11. </span>A
 simple force layout with 10 nodes and 12 edges</h6>
@@ -1259,7 +1259,7 @@ data-type="xref">Figure 13-13</a>).
 <figure class="calibre35">
 <div id="ch13.xhtml_force_drag" class="figure">
 <img
-src="images/a2a02970aff0787918cb24f04f4c377d57ca9c700dbb0333f1fd6269ac0d3ced.png"
+src="images/a2a02970aff0787918cb24f04f4c377d57ca9c700dbb0333f1fd6269ac0d3ced.webp"
 class="calibre218" alt="dvw2 1312" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-12.
 </span>Dragging a node to change the arrangement of nodes</h6>
@@ -1269,7 +1269,7 @@ class="calibre218" alt="dvw2 1312" />
 <figure class="calibre35">
 <div id="ch13.xhtml_force_drag_2" class="figure">
 <img
-src="images/7da70141f09835219fac09fa1b84035094a00a9afd7deff0c2fa265b64c90d20.png"
+src="images/7da70141f09835219fac09fa1b84035094a00a9afd7deff0c2fa265b64c90d20.webp"
 class="calibre218" alt="dvw2 1313" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-13.
 </span>Dragging some more</h6>

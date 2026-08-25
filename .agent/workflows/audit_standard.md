@@ -92,7 +92,7 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
 >
 > ```bash
 > /opt/anaconda3/envs/mybase/bin/python \
->   .agent/skills/validation_suite/scripts/generate_cheat_sheet.py \
+>   .agent/skills/cheat_sheet_generator/scripts/generate_cheat_sheet.py \
 >   "<脚本路径>" --diagnose
 > ```
 
@@ -231,6 +231,7 @@ description: Standard 级别检查 — Part A-E (叙事完整性 + Deep Listen +
 1. 理论归因是否准确（如"Kenneth Craik 在 1943 年提出"）
 2. 技术细节是否正确（如"Bang-Bang Control 是恒温器的实际工作原理"）
 3. 案例时效性是否过期（如"微信删除机制是否仍然不可恢复"）
-4. 不确定者标记 `[FACT_CHECK_NEEDED]` 🟡
+4. 人物校验 (Q11 复核)：检查被自动化快检标记为 `[NAME_MISMATCH]` 的疑似学生错别字。结合上下文语义判断是否属于合理例外（如同名名人），若是真实拼写错误则执行最终替换。
+5. 不确定者标记 `[FACT_CHECK_NEEDED]` 🟡
 
 > **严重度**：`[FACT_CHECK_NEEDED]` 🟡 中严重度 → 建议核实但不阻断。

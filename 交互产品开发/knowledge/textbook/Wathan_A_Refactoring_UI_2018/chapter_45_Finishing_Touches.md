@@ -1,8 +1,8 @@
 **Finishing Touches**
 
-![](images/index-220_1.png)
+![](images/index-220_1.webp)
 
-![](images/index-220_2.png)
+![](images/index-220_2.webp)
 
 **Supercharge the defaults**
 
@@ -17,9 +17,9 @@ Checkmarks and arrows are great generic choices for a lot of situations,
 but you can also use something more specific to your content, like a
 padlock icon for a list of security-related features:
 
-![](images/index-221_1.png)
+![](images/index-221_1.webp)
 
-![](images/index-221_2.png)
+![](images/index-221_2.webp)
 
 221
 
@@ -32,7 +32,7 @@ something as simple as changing the color and font weight, or something
 as fancy as a thick and colorful custom underline that partially
 overlaps the text:
 
-![](images/index-222_1.png)
+![](images/index-222_1.webp)
 
 Supercharge the defaults
 
@@ -49,5 +49,5 @@ boring to feeling polished and well-designed.
 
 Supercharge the defaults
 
-![](images/index-224_1.png)
+![](images/index-224_1.webp)
 

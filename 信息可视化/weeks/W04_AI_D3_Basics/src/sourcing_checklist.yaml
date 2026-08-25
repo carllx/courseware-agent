@@ -15,8 +15,8 @@
   - TypeError real image
   - TypeError product shot high resolution
   - TypeError portrait
-  target_path: ../public/slides/S16b_Console_Error_real.png
-  current_asset: ../public/slides/s16b_console_error.png
+  target_path: ../public/slides/S16b_Console_Error_real.webp
+  current_asset: ../public/slides/s16b_console_error.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -35,7 +35,7 @@
   search_queries:
   - 一个设计师在 After Effects 里对着密密麻麻、成百上千个数据动画关键 demonstration
   target_path: ../public/videos/S08c_AE_Keyframe_Hell.webm
-  current_asset: ../public/slides/s08c_ae_keyframe_hell.png
+  current_asset: ../public/slides/s08c_ae_keyframe_hell.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -58,8 +58,8 @@
   - xAxis real image
   - yAxis photo
   - yAxis real image
-  target_path: ../public/slides/S08_Auto_Layout_real.png
-  current_asset: ../public/slides/s08_auto_layout.png
+  target_path: ../public/slides/S08_Auto_Layout_real.webp
+  current_asset: ../public/slides/s08_auto_layout.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto

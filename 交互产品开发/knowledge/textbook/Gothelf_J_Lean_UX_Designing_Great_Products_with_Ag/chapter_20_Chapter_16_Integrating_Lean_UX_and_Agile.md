@@ -236,7 +236,7 @@ into the development stream to be implemented during the development
 sprint, as is illustrated in
 [Figure 16-1](#ch16.html_sy_and_millerapostrophes_quotation_mark).
 
-![](images/assets/lux3_1601.png)
+![](images/assets/lux3_1601.webp)
 
 ###### Figure 16-1. Sy and Miller’s “Staggered Sprints” model
 
@@ -369,7 +369,7 @@ each activity as possible. The quantity of discovery and delivery work
 will fluctuate from sprint to sprint. This is normal, and you can
 anticipate this as you make plans.
 
-![](images/assets/lux3_1602.png)
+![](images/assets/lux3_1602.webp)
 
 ###### Figure 16-2. Dual-rack Agile works when it’s one team. Image concept: Gary Pedretti and Pawel Mysliwiec
 
@@ -452,7 +452,7 @@ stories Product Backlog Items or PBIs.) Or you can integrate the work
 into the story itself, ensuring that no feature gets shipped without
 discovery and design work taking place.
 
-![](images/assets/lux3_1603.png)
+![](images/assets/lux3_1603.webp)
 
 ###### Figure 16-3. Common patterns to manage UX work in the backlog
 
@@ -511,7 +511,7 @@ shows you how to layer existing activities on top of Scrum. Try it. See
 what works for you and your team and then adjust based on what you
 decide during your retrospectives.
 
-![](images/assets/lux3_1604.png)
+![](images/assets/lux3_1604.webp)
 
 ###### Figure 16-4. Mapping Lean UX activities to the Scrum framework
 
@@ -527,7 +527,7 @@ a sequence of sprints.) Your measures of success for your theme are
 outcomes, as demonstrated in
 [Figure 16-5](#ch16.html_sprints_tied_together_with_a_theme_or_p).
 
-![](images/assets/lux3_1605.png)
+![](images/assets/lux3_1605.webp)
 
 ###### Figure 16-5. Sprints tied together with a theme or product goal
 
@@ -545,7 +545,7 @@ creating a backlog of ideas from which to test and learn. In addition,
 this activity will help define the scope of your theme a bit
 better—assuming that you’ve built in some customer feedback loops.
 
-![](images/assets/lux3_1606.png)
+![](images/assets/lux3_1606.webp)
 
 ###### Figure 16-6. The Lean UX Canvas can capture your sprint theme
 
@@ -558,7 +558,7 @@ activities as each new sprint begins
 This allows the team to use the latest insight to create the backlog for
 the next sprint.
 
-![](images/assets/lux3_1607.png)
+![](images/assets/lux3_1607.webp)
 
 ###### Figure 16-7. Timing and scope of sketching and ideation sessions
 
@@ -574,7 +574,7 @@ planning meeting to write user stories together, and then estimate and
 prioritize the stories. (See
 [Figure 16-8](#ch16.html_hold_sprint_planning_meetings_immediate).)
 
-![](images/assets/lux3_1608.png)
+![](images/assets/lux3_1608.webp)
 
 ###### Figure 16-8. Hold sprint planning meetings immediately after brainstorming sessions
 
@@ -601,7 +601,7 @@ same time.
 Experiment stories look just like user stories, as illustrated in
 [Figure 16-9](#ch16.html_experiment_stories).
 
-![](images/assets/lux3_1609.png)
+![](images/assets/lux3_1609.webp)
 
 ###### Figure 16-9. Experiment stories
 
@@ -651,7 +651,7 @@ rather than *can people use my product?*) After you have established
 that there is a desire for your product, subsequent tests with
 higher-fidelity artifacts will reveal whether your solution is usable.
 
-![](images/assets/lux3_1610.png)
+![](images/assets/lux3_1610.webp)
 
 ###### Figure 16-10. Conversations with users happen during every sprint
 
@@ -742,7 +742,7 @@ colleague Nicole Rufuku came up with a remarkably simple and powerful
 tool for doing just this: the Risks Dashboard
 ([Figure 16-11](#ch16.html_the_risks_dashboard)).
 
-![](images/assets/lux3_1611.png)
+![](images/assets/lux3_1611.webp)
 
 ###### Figure 16-11. The Risks Dashboard
 
@@ -811,7 +811,7 @@ takes place in our Agile process? We use outcome-based road maps.
 Here is what an Agile product road map should look like
 ([Figure 16-12](#ch16.html_an_agile_product_road_map)).
 
-![](images/assets/lux3_1612.png)
+![](images/assets/lux3_1612.webp)
 
 ###### Figure 16-12. An Agile product road map
 

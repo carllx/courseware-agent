@@ -26,7 +26,7 @@ Statistics don't tell the whole story, however. The bell curve is a snapshot of 
 
 Although everybody spends some minimum time as a beginner, nobody remains in that state for long. People don't like to be incompetent, and beginners, by definition, are learning to be competent. Conversely, learning and improving are rewarding, so beginners become intermediates very quickly—or they drop out. All skiers, for example, spend time as beginners, but those who find they don't rapidly progress beyond more-falling-than-skiing quickly abandon the sport. The rest soon move off the bunny slopes onto the regular runs. Only a few ever make it onto the double black diamond runs for experts.
 
-![](images/1105e3e52139710c1b36dc90642fa42ce4155ed69b06b208a2f6e99d76e75274.jpg)  
+![](images/1105e3e52139710c1b36dc90642fa42ce4155ed69b06b208a2f6e99d76e75274.webp)  
 Figure 10-1: The demands that users place on digital products vary considerably with their experience.
 
 DESIGN PRINCIPLE

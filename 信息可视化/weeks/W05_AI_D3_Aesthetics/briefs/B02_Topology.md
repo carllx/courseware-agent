@@ -52,15 +52,15 @@ status: complete
 
 | Figure | 教材图注 | 教材原文路径 | 迁移状态 |
 |:---|:---|:---|:---|
-| Fig 8.2 | 等值区域图 (Choropleth Maps) | ![](images/4ac5f11c3fe0ac72695d21a390df6093e1611f592406d7f4f9d1aa52ec589b72.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_8_2.jpg` |
-| Fig 9.4 | 力导向布局 (Force-Directed Layouts)(a) | ![](images/67b56107f23eb11c54a6eb1496732d43c77fa7ed063a93b396039ab8173dd33e.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_4.jpg` |
-| Fig 9.4 | 力导向布局 (Force-Directed Layouts)(b) | ![](images/7c8d9dd4e1f993e65f6bb779565ebc9b565c14da1f20844a97cbe258d885a8e6.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_4.jpg` |
-| Fig 9.5 | sfdp算法结构可见 (a) | ![](images/201f411f5ad8f4f07c20fede300241e0257e49f1079fb49da7aa1c298e4f6c8c.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_5.jpg` |
-| Fig 9.5 | 毛线球问题 (Hairball) (b) | ![](images/62e78393203182b4d2369bd894da2b1e115d0c1fe09ec04e4ba9a037a7f60ca6.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_5.jpg` |
-| Fig 9.6 | 节点链接图与邻接矩阵视图对比 (a) | ![](images/ab918f43b2a8a3a98c995f65ac269275fa11aefc79de9683e51e99012a43c72e.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_6.jpg` |
-| Fig 9.6 | 节点链接图与邻接矩阵视图对比 (b) | ![](images/ec80f2e2bcf3b1fd4209df928c8d74b2172544f4bb1e6dab047425fa3ca45571.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_6.jpg` |
-| Fig 9.6 | 节点链接图与邻接矩阵视图对比 (c) | ![](images/f9959abcfd4b3f9375e04b099ce2df1ccff25e74d65a97ffef0310ce45899be7.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_6.jpg` |
-| Fig 9.8 | 树图 (Treemaps) | ![](images/276175e811b4fba43da756768954eb6a289ce2fb23498ed806e4eeaefcd3a91b.jpg) | ✅ 已迁移 <br> `../public/textbook/Fig_9_8.jpg` |
+| Fig 8.2 | 等值区域图 (Choropleth Maps) | ![](images/4ac5f11c3fe0ac72695d21a390df6093e1611f592406d7f4f9d1aa52ec589b72.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_8_2.webp` |
+| Fig 9.4 | 力导向布局 (Force-Directed Layouts)(a) | ![](images/67b56107f23eb11c54a6eb1496732d43c77fa7ed063a93b396039ab8173dd33e.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_4.webp` |
+| Fig 9.4 | 力导向布局 (Force-Directed Layouts)(b) | ![](images/7c8d9dd4e1f993e65f6bb779565ebc9b565c14da1f20844a97cbe258d885a8e6.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_4.webp` |
+| Fig 9.5 | sfdp算法结构可见 (a) | ![](images/201f411f5ad8f4f07c20fede300241e0257e49f1079fb49da7aa1c298e4f6c8c.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_5.webp` |
+| Fig 9.5 | 毛线球问题 (Hairball) (b) | ![](images/62e78393203182b4d2369bd894da2b1e115d0c1fe09ec04e4ba9a037a7f60ca6.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_5.webp` |
+| Fig 9.6 | 节点链接图与邻接矩阵视图对比 (a) | ![](images/ab918f43b2a8a3a98c995f65ac269275fa11aefc79de9683e51e99012a43c72e.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_6.webp` |
+| Fig 9.6 | 节点链接图与邻接矩阵视图对比 (b) | ![](images/ec80f2e2bcf3b1fd4209df928c8d74b2172544f4bb1e6dab047425fa3ca45571.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_6.webp` |
+| Fig 9.6 | 节点链接图与邻接矩阵视图对比 (c) | ![](images/f9959abcfd4b3f9375e04b099ce2df1ccff25e74d65a97ffef0310ce45899be7.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_6.webp` |
+| Fig 9.8 | 树图 (Treemaps) | ![](images/276175e811b4fba43da756768954eb6a289ce2fb23498ed806e4eeaefcd3a91b.webp) | ✅ 已迁移 <br> `../public/textbook/Fig_9_8.webp` |
 
 ---
 

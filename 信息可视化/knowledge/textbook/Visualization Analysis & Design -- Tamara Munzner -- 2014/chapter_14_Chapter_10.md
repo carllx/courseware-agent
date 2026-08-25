@@ -30,17 +30,17 @@ The most common color space in computer graphics is the system where colors are 
 
 Another color space, the hue–saturation–lightness or HSL system, is more intuitive and is heavily used by artists and designers. The hue axis captures what we normally think of as pure colors that are not mixed with white or black: red, blue, green, yellow, purple, and so on. The saturation axis is the amount of white mixed with that pure color. For instance, pink is a partially desaturated red. The lightness axis is the amount of black mixed with a color. A common design for color pickers is a disk with white at the center and the hue axis wrapped around the outside, with separate linear control for the amount of darkness versus lightness, as shown in Figure 10.2. The HSV space is very similar, where V stands for grayscale value and is linearly related to L.
 
-![](images/4ff4a1704638bfd26639baf9aea4709d1d26a2c6268013f5ac6b254ac11c8bda.jpg)  
+![](images/4ff4a1704638bfd26639baf9aea4709d1d26a2c6268013f5ac6b254ac11c8bda.webp)  
 Figure 10.2. A common HSL/HSV colorpicker design, as in this example from Mac OS X, is to show a color wheel with fully saturated color around the outside and white at the center of the circle, and a separate control for the darkness.
 
 Despite the popularity of the HSL space, it is only pseudoperceptual: it does not truly reflect how we perceive color. In particular, the lightness $L$ is wildly different from how we perceive luminance. Figure 10.3 shows six different hues, arranged in order of their luminance. The corresponding computed $L$ values are all identical. The true luminance is a somewhat better match with our perceptual experience: there is some variation between the boxes. However, our perception of luminance does not match what
 
-![](images/49dbf250b38f901815366b885aabaa53a30193ce15ff46bf938d20d628d5d8b7.jpg)  
+![](images/49dbf250b38f901815366b885aabaa53a30193ce15ff46bf938d20d628d5d8b7.webp)  
 Figure 10.3. Comparing HSL lightness, true luminance, and perceptually linear luminance $L ^ { * }$ for six colors. The computed HSL lightness $L$ is the same for all of these colors, showing the limitations of that color system. The true luminance values of these same six colors, as could be measured with an instrument. The computed perceptually linear luminance $L ^ { * }$ of these colors is the best match with what we see. After [Stone 06].
 
-![](images/3ba41be8bf798e6793e45f16887422b90d9a4dbc40b1a5360271af94c5259774.jpg)
+![](images/3ba41be8bf798e6793e45f16887422b90d9a4dbc40b1a5360271af94c5259774.webp)
 
-![](images/a3efc3a5c612933383b966e645fdc0cf77fe441265e876b0ffc61d3ed5bb4c31.jpg)  
+![](images/a3efc3a5c612933383b966e645fdc0cf77fe441265e876b0ffc61d3ed5bb4c31.webp)  
 Figure 10.4. The spectral sensitivity of our eyes to luminance depends on the wavelength of the incoming light. After [Kaiser 96], http://www.yorku.ca/eye/ photopik.htm.
 
 an instrument would measure: the amount of luminance that humans perceive depends on the wavelength. Figure 10.4 shows the roughly bell-shaped spectral sensitivity curve for daylight vision. We are much more sensitive to middle wavelengths of green and yellow than to the outer wavelengths of red and blue.
@@ -67,7 +67,7 @@ Moreover, saturation interacts strongly with the size channel: it is more diffic
 
 $^ { \star }$ This hybrid usage of luminance, saturation, and hue does not correspond exactly to any of the standard color spaces used in computer graphics.
 
-![](images/eeb83db37483413cdf67fda3a24326fc59cbe13a531bb2c4cca0c28e0c24af82.jpg)  
+![](images/eeb83db37483413cdf67fda3a24326fc59cbe13a531bb2c4cca0c28e0c24af82.webp)  
 Figure 10.5. The luminance and saturation channels are automatically interpreted as ordered by our perceptual system, but the hue channel is not.
 
 saturation and hue are not separable channels within small regions for the purpose of categorical color coding.
@@ -105,7 +105,7 @@ Continuous versus discrete data semantics is discussed in Section 2.4.3.
 
 <!-- Chunk 6 Start -->
 
-![](images/a8335449ac65b5785aac43f3b6370866e2a3594d2281df1047c61743239af373.jpg)  
+![](images/a8335449ac65b5785aac43f3b6370866e2a3594d2281df1047c61743239af373.webp)  
 Figure 10.6. The colormap categorization partially mirrors the data types: categorical versus ordered, and sequential and diverging within ordered. Bivariate encodings of two separate attributes at once is safe if one has only two levels, but they can be difficult to interpret when both attributes have multiple levels. After [Brewer 99].
 
 # 10.3.1 Categorical Colormaps
@@ -118,9 +118,9 @@ Categorical colormaps are typically designed by using color as an integral ident
 
 The number of discriminable colors for coding small separated regions is limited to between six and twelve bins. You should remember to include background color and any default object colors in your total count: some or all of the most basic choices of black, white, and gray are often devoted to those uses. Easily nameable colors are desirable, both for memorability and ability to discuss them using words. A good set of initial choices are the fully saturated and easily nameable colors, which are also the opponent
 
-![](images/57f794b57f044dad2f511a01c87c8ffb49864ff9355513da6c50e71044f81727.jpg)
+![](images/57f794b57f044dad2f511a01c87c8ffb49864ff9355513da6c50e71044f81727.webp)
 
-![](images/2b4b1ed076d9411ed2ec3813af051e2ef9aad4afe3322f9d6d9127b6c1aeaaa7.jpg)  
+![](images/2b4b1ed076d9411ed2ec3813af051e2ef9aad4afe3322f9d6d9127b6c1aeaaa7.webp)  
 (b)   
 Figure 10.7. Saturation and area. (a) The ten-element low-saturation map works well with large areas. (b) The eight-element high-saturation map would be better suited for small regions and works poorly for these large areas. Made with ColorBrewer, http://www.colorbrewer2.org.
 
@@ -128,10 +128,10 @@ color axes: red, blue, green, and yellow. Other possibilities when more colors a
 
 A good resource for creating colormaps is ColorBrewer at http: //www.colorbrewer2.org, a system that incorporates many perceptual guidelines into its design in order to provide safe suggestions. It was used to create both the ten-element low-saturation map in Figure 10.7(a) and the eight-element high-saturation map in Figure 10.7(b). The low-saturation pastel map is well suited for large regions, leaving fully saturated colors for small road marks. In contrast, the eight-element map that uses highly saturated colors is much too bright for the large areas shown here, but would be a good fit for small line or point marks.
 
-![](images/5c85c46b168648e73fd34dda083cbfa8eacee07fc589e718e87bb12a00fc6a9b.jpg)  
+![](images/5c85c46b168648e73fd34dda083cbfa8eacee07fc589e718e87bb12a00fc6a9b.webp)  
 (a)
 
-![](images/08e72126e58bfa3dae207cdd1d29b9ac52b903a2f9c2d18519d7cc32a409cb0a.jpg)  
+![](images/08e72126e58bfa3dae207cdd1d29b9ac52b903a2f9c2d18519d7cc32a409cb0a.webp)  
   
 Figure 10.8. Ineffective categorical colormap use. (a) The 21 colors used as an index for each mouse chromosome can indeed be distinguished in large regions next to each other. (b) In noncontiguous small regions only about 12 bins of color can be distinguished from each other, so a lot of information about how regions in the mouse genome map to the human genome is lost. From [Sinha and Meller 07, Figure 2].
 
@@ -151,10 +151,10 @@ An ordered colormap is appropriate for encoding ordinal or quantitative attribut
 
 Aggregation and filtering idioms are covered in Chapter 13.
 
-![](images/c267b92ad03e970285e6429d6afddb0c4e2e125f0953d7f92661536acdb5a6ee.jpg)  
+![](images/c267b92ad03e970285e6429d6afddb0c4e2e125f0953d7f92661536acdb5a6ee.webp)  
 Effective categorical colormap use: A large space of visual en-Figure 10.9.coding possibilities for 27 categories was considered systematically in addition to the color channel, including size and shape channels and more complex glyphs. From [Maguire et al. 12, Figure 5].
 
-![](images/3ccab865d5de3e36381d14ba516ac4eef89507324da083a51bcc3ee135a43200.jpg)  
+![](images/3ccab865d5de3e36381d14ba516ac4eef89507324da083a51bcc3ee135a43200.webp)  
 Effective categorical colormap use: The final design uses the color Figure 10.10.channel for only four of the categories. From [Maguire et al. 12, Figure 6].
 
 or white; when luminance is the varying quantity, the other end is dark or black. A  colormap has two hues at the endpoints divergingand a neutral color as a midpoint, such as white, gray, or black, or a high-luminance color such as yellow.
@@ -163,10 +163,10 @@ The question of how many unique hues to use in continuous colormaps depends on w
 
 One advantage of the rainbow colormap shown in Figure 10.11(a) is that people can easily discuss specific subranges because the
 
-![](images/4efe67d8d233c5060ba9f445a6564b0d01616359b83038faef91b37185695fe9.jpg)  
+![](images/4efe67d8d233c5060ba9f445a6564b0d01616359b83038faef91b37185695fe9.webp)  
 (a)
 
-![](images/f7d1776065c4c533e1d912a97634af9c9f3a4690fcbbb981a075d1ff8c783edf.jpg)  
+![](images/f7d1776065c4c533e1d912a97634af9c9f3a4690fcbbb981a075d1ff8c783edf.webp)  
 (b)   
 Figure 10.11. Rainbow versus two-hue continuous colormap. (a) Using many hues, as in this rainbow colormap, emphasizes mid-scale structure. (b) Using only two hues, the blue–yellow colormap emphasizes large-scale structure. From [Bergman et al. 95, Figures 1 and 2].
 
@@ -176,10 +176,10 @@ However, rainbow colormaps suffer from three serious problems at the perceptual 
 
 One way to address all three problems is to design monotonically increasing luminance colormaps: that is, where the multiple hues are ordered according to their luminance from lowest to high-
 
-![](images/760a54b9ff2adb17a0e28b25beb2458c8a1a16db3c0e2470d9fc2eba7bce978f.jpg)  
+![](images/760a54b9ff2adb17a0e28b25beb2458c8a1a16db3c0e2470d9fc2eba7bce978f.webp)  
 (a)
 
-![](images/bb18422afac1c7b84809c9d05637f42900bcb45d9c2c3c51019648dab418ca3a.jpg)  
+![](images/bb18422afac1c7b84809c9d05637f42900bcb45d9c2c3c51019648dab418ca3a.webp)  
 (b)   
 Figure 10.12. Rainbow versus multiple-hue continuous colormap with monotonically increasing luminance. (a) Three major problems with the common continuous rainbow colormap are perceptual nonlinearity, the expressivity mismatch of using hue for ordering, and the accuracy mismatch of using hue for fine-grained detail. (b) A colormap that combines monotonically increasing luminance with multiple hues for semantic categories, with a clear segmentation at the zero point, succeeds in showing high-level, mid-level, and low-level structure. From [Rogowitz and Treinish 98, Figure 1].
 
@@ -187,13 +187,13 @@ est. The varying hues allow easy segmentation into categorical regions, for both
 
 It is possible to create a perceptually linear rainbow colormap, but at the cost of losing part of the dynamic range because the fully saturated colors are not available for use. Figure 10.13 shows an example created with a system for calibrating perceptually based colormaps [Kindlmann 02]. The perceptually nonlinear rainbow
 
-![](images/7270b4fe49fa662ec62bdda7b13cbef166f1ed4fde1d2840d67cdb78b0f8d677.jpg)  
+![](images/7270b4fe49fa662ec62bdda7b13cbef166f1ed4fde1d2840d67cdb78b0f8d677.webp)  
 (a)
 
-![](images/5f4e5022647a6830cc18cdb88af6ce09ca9ffac4092b7f258bd1574fe3058766.jpg)  
+![](images/5f4e5022647a6830cc18cdb88af6ce09ca9ffac4092b7f258bd1574fe3058766.webp)  
 (b)
 
-![](images/ea54713b3427e46724c5a77b19111a108c2d623a3abb711ddfd21a9265ea58fa.jpg)  
+![](images/ea54713b3427e46724c5a77b19111a108c2d623a3abb711ddfd21a9265ea58fa.webp)  
 (c)   
 Figure 10.13. Appropriate use of rainbows. (a) The standard rainbow colormap is perceptually nonlinear. (b) Perceptually linear rainbows are possible [Kindlmann 02], but they are less bright with a decreased dynamic range. (c) Segmented rainbows work well for categorical data when the number of categories is small.
 
@@ -239,15 +239,15 @@ The volume channel is quite inaccurate. The volume channel is at the bottom of t
 
 A larger-dimensional size coding clearly subsumes a smallerdimensional one: length and area cannot be simultaneously used to encode different dimensions. Similarly, the combination of smaller-dimensional sizes is usually integral rather than separable, as illustrated in Figure 5.10 where the combination of small width, large width, small height, and large height yielded three groups rather than four: small areas, large areas, and flattened areas. It is possible that people asked to make area judgements might take the shortcut of simply making length judgements.
 
-![](images/8eb2f4c74f5e8ca142b108052b705794243c5cb935fe9dda7008450b6f6212e8.jpg)
+![](images/8eb2f4c74f5e8ca142b108052b705794243c5cb935fe9dda7008450b6f6212e8.webp)
 
 Sequential orderedSequential ordered line mark or arrow glyphline mark or arrow glyph
 
-![](images/cd235b06acf699424c0c69619b3e6fa7b20138c72913e3698f3f071b5ec19a52.jpg)
+![](images/cd235b06acf699424c0c69619b3e6fa7b20138c72913e3698f3f071b5ec19a52.webp)
 
 Diverging ordered arrow glyph
 
-![](images/ae1b964ce4a97af05cf86415fd49c3255dfbeed87b36325ad8e80d20d64e3aaf.jpg)  
+![](images/ae1b964ce4a97af05cf86415fd49c3255dfbeed87b36325ad8e80d20d64e3aaf.webp)  
 Figure 10.14. Tiltmaps using the angle channel to show three different types of ordered data. (a) A sequential attribute can be shown with either a line mark or an arrow glyph in one quadrant. (b) A diverging attribute can be shown with two quadrants and an arrow glyph. (c) A cyclic attribute can be shown with all four quadrants and arrow glyphs.
 
 Cyclic ordered arrow glyph
@@ -322,36 +322,36 @@ Texture Ware proposes breaking down texture into orientation, scale, and constra
 
 $\circled{ \div}$ Change o ver Time
 
-![](images/412e217c0e9339473d05571d760f97690c9bf77ecd4de4ba2310f6e3accb3863.jpg)
+![](images/412e217c0e9339473d05571d760f97690c9bf77ecd4de4ba2310f6e3accb3863.webp)
 
 $\textcircled{7}$ Selec t
 
-![](images/e83d65b383dd9678c4125e36b9aa7a2dd45d5c74afd6c8c27f74d3940bfc82af.jpg)
+![](images/e83d65b383dd9678c4125e36b9aa7a2dd45d5c74afd6c8c27f74d3940bfc82af.webp)
 
 $\textcircled{ \div}$ Navigate
 
 I tem Reduc tion
 
-![](images/39eb40797da5277534ec051b2e992275a3a005dda5429acc34c2a0710d773182.jpg)
+![](images/39eb40797da5277534ec051b2e992275a3a005dda5429acc34c2a0710d773182.webp)
 
 Pan/Translate
 
-![](images/6e8b757e809b7d98d238aa72a52299d28479a119f9fc013e1edc6d2b1831f902.jpg)
+![](images/6e8b757e809b7d98d238aa72a52299d28479a119f9fc013e1edc6d2b1831f902.webp)
 
 Constrained
 
-![](images/0a1aac3fd88e2850409b06e9a24307d447830af1de5f51d5188abdc6e019d182.jpg)
+![](images/0a1aac3fd88e2850409b06e9a24307d447830af1de5f51d5188abdc6e019d182.webp)
 
 Attribute Reduc tion
 
-![](images/b91093df611a7a8bdd2a49a1afb2b9320112b1d1fa4a11f6ca8815dd3e54d519.jpg)
+![](images/b91093df611a7a8bdd2a49a1afb2b9320112b1d1fa4a11f6ca8815dd3e54d519.webp)
 
 Cut
 
-![](images/68b9abfc8daacef0c22c8598f65c38006d361eaccf3b77383015dce90ae9092e.jpg)
+![](images/68b9abfc8daacef0c22c8598f65c38006d361eaccf3b77383015dce90ae9092e.webp)
 
 Project
 
-![](images/a0485933918abf234c0f8202b71efeada16693e20cc03fa775e3bc98c9c5fd3e.jpg)  
+![](images/a0485933918abf234c0f8202b71efeada16693e20cc03fa775e3bc98c9c5fd3e.webp)  
 Figure 11.1. Design choices for idioms that change a view.
 

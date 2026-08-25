@@ -5,7 +5,7 @@
 > **Slide**: 评估方法的双轨图
 > **Layout**: `Split`
 > **Scene**: 左侧是一位医生在独自看着 X 光片（代表专家评审）；右侧是医生在病床前握着患者的手倾听（代表真实用户测试）。建立「专家检查」与「真实对话」的隐喻，引入可用性测试的意义。
-> *   **Asset**: ![预览](assets/slides/w13_slide_01.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_01.webp)
 
 
 > [STORY TIME]
@@ -24,7 +24,7 @@
 > **Slide**: W12与W13范式的跃迁
 > **Layout**: `Flow`
 > **Scene**: 动画展示从「无直接参与者」向「受控环境+真实参与者」的跃迁，引出教材对评估范式的经典分类。
-> *   **Asset**: ![预览](assets/slides/w13_slide_02.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_02.webp)
 
 
 > [THEORY]
@@ -45,7 +45,7 @@
 > **Slide**: 形成性 vs 总结性评估的界限
 > **Layout**: `Comparison`
 > **Scene**: 时间轴展示产品生命周期。标注形成性评估在开发中期（修剪枝叶），总结性评估在发布节点（最终成绩单）。
-> *   **Asset**: ![预览](assets/slides/w13_slide_03.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_03.webp)
 
 
 > [TECH NOTE]
@@ -63,7 +63,7 @@
 > **Slide**: 漏斗分析 vs 可用性测试 ，即 **What vs Why**，
 > **Layout**: `Split`
 > **Scene**: 左边是一张冷冰冰的转化率漏斗图，右边是一个用户对着屏幕抓狂的真实表情抓拍。
-> *   **Asset**: ![预览](assets/slides/w13_slide_04.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_04.webp)
 
 
 > [DEEP DIVE]
@@ -102,7 +102,7 @@
 > **Slide**: 谷歌的蓝色与 Airbnb 的心形
 > **Layout**: `Split`
 > **Scene**: 左侧展示 Google 著名的 41 种蓝色测试截屏；右侧展示 Airbnb 早期界面中，星星收藏图标转变为心形图标的对比。
-> *   **Asset**: ![预览](assets/slides/w13_slide_05.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_05.webp)
 
 
 > [CASE STUDY]
@@ -135,7 +135,7 @@
 > **Slide**: 三角测量法 ，即 **Triangulation**， 的力场
 > **Layout**: `Flow`
 > **Scene**: 动态展示由专家评估、可用性测试与在线 A/B 测试构成的铁三角，三者的劣势完美互补。
-> *   **Asset**: ![预览](assets/slides/w13_slide_06.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_06.webp)
 
 
 > [THEORY]
@@ -159,7 +159,7 @@
 > **Slide**: 黑白胶片上的认知先驱
 > **Layout**: `Full`
 > **Scene**: 展示一张二十世纪八十年代早期的黑白档案照片。照片中，一位被试者坐在庞大笨重的早期计算机屏幕前，头顶戴着简陋的电极帽，而旁边的研究人员正拿着记事本紧张地记录着被试口中不绝如缕的喃喃自语。
-> *   **Asset**: ![预览](assets/slides/w13_slide_07.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_07.webp)
 
 
 > [TECH NOTE]
@@ -179,7 +179,7 @@
 > **Slide**: 记忆的失真轮盘
 > **Layout**: `Flow`
 > **Scene**: 一个漏斗模型，展示信息从短期记忆过滤为长期记忆的过程中，是如何被个体的"面子"、"合理化"以及"社会期待"严重污染并重构的。
-> *   **Asset**: ![预览](assets/slides/w13_slide_08.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_08.webp)
 
 
 > [THEORY]
@@ -202,7 +202,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: 同步辐射的光芒：CTA 的崛起
 > **Layout**: `Split`
 > **Scene**: 罗列出并发TAP技法法的三个无法撼动的底层优势：数据的绝对新鲜度、无需昂贵设备、突破社交防御。
-> *   **Asset**: ![预览](assets/slides/w13_slide_09.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_09.webp)
 
 
 > [THEORY]
@@ -222,7 +222,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: iPad 经典研究与开荒者的启示
 > **Layout**: `Split`
 > **Scene**: 左侧是高度凝练的核心洞察提要，右侧是 2010 年第一代 iPad 发布时的真实场景照片（一位用户正用双手捧着笨重、崭新的初代 iPad，眉头微皱，尝试理解从 iPhone 到 iPad 的隐喻跳跃）。
-> *   **Asset**: ![预览](assets/slides/w13_slide_10.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_10.webp)
 
 
 > [CASE STUDY]
@@ -256,7 +256,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: 主持人的两难陷阱 ，即 **The Moderator's Dilemma**，
 > **Layout**: `Split`
 > **Scene**: 屏幕中央是一个被放大镜注视的挣扎的用户。四周列出四个闪烁着红色警告标志的禁忌雷区：Leading, Silence, Defensiveness, False Rescue。
-> *   **Asset**: ![预览](assets/slides/w13_slide_11.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_11.webp)
 
 
 > [PHILOSOPHY]
@@ -288,7 +288,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: 沉默与自卫：应对高压的冷酷
 > **Layout**: `Split`
 > **Scene**: 左侧是研究员咬紧牙关保持沉默的冷酷表情；右侧是一位新手面对用户指责试图解释架构时的慌张。展示克服本能的专业难度。
-> *   **Asset**: ![预览](assets/slides/w13_slide_12.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_12.webp)
 
 
 **陷阱 3：解释自身设计的防御本能，即 **Defensiveness**，**
@@ -308,7 +308,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: 社交面具的撕裂：被试受邀者的重重防御
 > **Layout**: `Center`
 > **Scene**: 动画气泡展示。左侧是用户真实的潜台词"这破软件太卡了"，右侧是用户最终说出口的代码伪装"可能是我手机内存不够了，哎，老了"。
-> *   **Asset**: ![预览](assets/slides/w13_slide_13.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_13.webp)
 
 
 > [STORY TIME]
@@ -351,7 +351,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: 新时代的低成本补位：远程无调节测试
 > **Layout**: `Comparison`
 > **Scene**: 对比面对面（In-person moderated，高成本时间）与 远程无调节（Remote unmoderated，自动化规模测试）形式的优劣象限卡。
-> *   **Asset**: ![预览](assets/slides/w13_slide_14.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_14.webp)
 
 
 > [TECH NOTE]
@@ -375,7 +375,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: 华丽的实验舱 vs 车库里的游击战
 > **Layout**: `Split`
 > **Scene**: 左侧是高度工业化的专业单面玻璃观察室（单向镜、眼动仪阵列、高规格隔音系统）；右侧是星巴克角落里的一台破旧笔记本电脑和两把极其普通的椅子。用这组极端的画面对比，彻底击破新手的器材焦虑。
-> *   **Asset**: ![预览](assets/slides/w13_slide_15.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_15.webp)
 
 
 > [THEORY]
@@ -394,7 +394,7 @@ RTA 的操作模式很像电子竞技比赛结束后的录像复盘。它的基�
 > **Slide**: 五人制 ROI 拐点曲线
 > **Layout**: `Flow`
 > **Scene**: 赫赫有名的 Nielsen-Landauer 数学回归模型曲线。横坐标是测试的真实用户样本数量，纵轴是能被发现的系统严重问题比例。动画演示：当横坐标艰难爬升到数字 5 时，纵向的绿色区域直接势如破竹地突破了 85% 的红线标识。
-> *   **Asset**: ![预览](assets/slides/w13_slide_16.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_16.webp)
 
 
 > [CASE STUDY]
@@ -422,7 +422,7 @@ Jakob Nielsen 根据泊松分布概率模型，以及海量实验室数据，推
 > **Slide**: 微型降维测试车间 (3 人联合兵种)
 > **Layout**: `Split`
 > **Scene**: 给出一个典型的上帝俯视视角的办公桌战术布置图。画面的核心焦点是中央紧握手机的被试者。左侧偏后方的阴影死角坐着如同空气般静止的观察员（标注红色警告：保持绝对防守姿态与闭嘴）。而在画面的最右边边缘地带，固定着一个正在打时间戳的冷酷键盘手——记录员。
-> *   **Asset**: ![预览](assets/slides/w13_slide_17.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_17.webp)
 
 
 > [TECH NOTE]
@@ -458,7 +458,7 @@ Jakob Nielsen 根据泊松分布概率模型，以及海量实验室数据，推
 > **Slide**: 灾难量化仪：严重度打分矩阵
 > **Layout**: `Split`
 > **Scene**: 一张极其冷血的工业评估表格。以红绿灯演化出来的五级梯度（绿-黄-橙-红-黑），从上到下罗列着由轻至重的 0 到 4 级史诗级可用障碍灾难评测。
-> *   **Asset**: ![预览](assets/slides/w13_slide_18.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_18.webp)
 
 
 > [THEORY]
@@ -500,7 +500,7 @@ Jakob Nielsen 根据泊松分布概率模型，以及海量实验室数据，推
 2. 角色洗牌 (测试/观察/记录)
 3. 收集火力 (发现严重度排序)
 > **Scene**: 引导进入本单元的高潮实测环节。
-> *   **Asset**: ![预览](assets/slides/w13_slide_19.png)
+> *   **Asset**: ![预览](assets/slides/w13_slide_19.webp)
 
 
 > [ACTIVITY]

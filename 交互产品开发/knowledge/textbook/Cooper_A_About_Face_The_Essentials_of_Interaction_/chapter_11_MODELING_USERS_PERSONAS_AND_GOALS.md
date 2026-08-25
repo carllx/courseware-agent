@@ -24,32 +24,32 @@ To create a product that must satisfy a diverse audience of users, logic might t
 
 When you broadly and arbitrarily extend a product's functionality to include many constituencies, you increase the cognitive load and navigational overhead for all users. Facilities that may please some users will likely interfere with the satisfaction of others, as shown in Figure 3-1.
 
-![](images/7eefd5131707b7d39c03e794f597cba92277ed7249fb2333780e30d2d91ec02e.jpg)  
+![](images/7eefd5131707b7d39c03e794f597cba92277ed7249fb2333780e30d2d91ec02e.webp)  
 Figure 3-1: If you try to design an automobile that pleases every possible driver, you end up with a car with every possible feature that pleases nobody. Software today is too often designed to please too many users, resulting in low user satisfaction. Figure 3-2 provides an alternative approach.
 
-![](images/4a9c6bcabd7584cac2b8aeba433ef70fc1e67450d9f1ebf0acd5bcc92e5a9dc2.jpg)  
+![](images/4a9c6bcabd7584cac2b8aeba433ef70fc1e67450d9f1ebf0acd5bcc92e5a9dc2.webp)  
 Alessandro's goals
 
 - Go fast   
 - Have fun
 
-![](images/fb36fd6c7dee67c00f2237bcc6c2d477785942ccdfff60a3dee3c1f786705b19.jpg)
+![](images/fb36fd6c7dee67c00f2237bcc6c2d477785942ccdfff60a3dee3c1f786705b19.webp)
 
-![](images/83bb2b20128594723e5b6d16f7d7daf0b72dcf466f6b34a343155aeade3fd7c0.jpg)  
+![](images/83bb2b20128594723e5b6d16f7d7daf0b72dcf466f6b34a343155aeade3fd7c0.webp)  
 Marge's goals
 
 - Be safe   
 - Be comfortable
 
-![](images/5282a65c71db1521924ca6c560ebc840b9cf32866065c8e688efdfe7fcc0a951.jpg)
+![](images/5282a65c71db1521924ca6c560ebc840b9cf32866065c8e688efdfe7fcc0a951.webp)
 
-![](images/273dbcdcb75c7b9af97ed7eb16f89532b39b38b07f815e77ab9f7c308482dcb4.jpg)  
+![](images/273dbcdcb75c7b9af97ed7eb16f89532b39b38b07f815e77ab9f7c308482dcb4.webp)  
 Dale's goals
 
 - Haul big loads   
 - Be reliable
 
-![](images/2d3cb51338b42204e7a0f8abf6499a210cc405c4ac93c0fd36af9916912e78e1.jpg)  
+![](images/2d3cb51338b42204e7a0f8abf6499a210cc405c4ac93c0fd36af9916912e78e1.webp)  
 Figure 3-2: By designing different cars for different people with different specific goals, we can create designs that other people with needs similar to our target drivers also find satisfying. The same holds true for the design of digital products and software.
 
 The key to this approach is to first choose the right individuals to design for—users whose needs best represent the needs of a larger set of key constituents (see Figure 3-2). Then you prioritize these individuals so that the needs of the most important users are met without compromising our ability to meet the needs of secondary users. Personas provide a powerful tool for communicating about different types of users and their needs and then deciding which users are the most important to target in the design of form and behavior.
@@ -191,7 +191,7 @@ Marketing professionals may be familiar with a process similar to persona develo
 
 However, market segments play a role in persona development. They can help determine the demographic range within which to frame the persona hypothesis (see Chapter 2). Personas are segmented along ranges of usage behavior, not demographics or buying behavior, so there is seldom a one-to-one mapping of market segments to personas. Rather, market segments can act as an initial filter to limit the scope of interviews to people within target markets (see Figure 3-3). Also, we typically use the prioritization of personas as a way to make strategic product definition decisions (see the discussion of persona types later in this chapter). These decisions should incorporate market intelligence; understanding the relationship between user personas and market segments can be an important consideration here.
 
-![](images/7d9a27e105161d5e982b8130244b21e503499e45f3eeceff58b4b1b1a02147b9.jpg)  
+![](images/7d9a27e105161d5e982b8130244b21e503499e45f3eeceff58b4b1b1a02147b9.webp)  
 Figure 3-3: Personas versus market segments. Market segments can be used in the Research phase to limit the range of personas to target markets. However, there is seldom a one-to-one mapping between market segments and personas.
 
 # Understanding Goals
@@ -258,7 +258,7 @@ Experience goals
 End goals   
 Life goals
 
-![](images/b08f7b5372a3fa41899801b562d74ebc7bbb324e2b24542678d66c3a57134b72.jpg)  
+![](images/b08f7b5372a3fa41899801b562d74ebc7bbb324e2b24542678d66c3a57134b72.webp)  
 Figure 3-4: The three types of user goals
 
 # Experience goals
@@ -388,7 +388,7 @@ construct personas. It also helps experienced designers to stay focused on actua
 7 Designate persona types.   
 8 Expand the description of attributes and behaviors.
 
-![](images/e3f51100b94726796633c7bea7a647d320c2aea5afa70de4703e0d6e0b86534e.jpg)  
+![](images/e3f51100b94726796633c7bea7a647d320c2aea5afa70de4703e0d6e0b86534e.webp)  
 Figure 3-5: Overview of the persona creation process
 
 # Step 1: Group interview subjects by role
@@ -423,7 +423,7 @@ such as confidence in using technology. Others will represent multiple discrete 
 
 Mapping the interviewee to a precise point in the range isn't as critical as identifying the placement of interviewees in relationship to each other. In other words, it doesn't matter if an interviewee falls at precisely 45 or 50 percent on the scale. There's often no good way to measure this precisely; you must rely on your gut feeling based on your observations of the subject. The desired outcome of this step is to accurately represent how multiple subjects cluster with respect to each significant variable, as shown in Figure 3-6.
 
-![](images/64418a26b78b2dc31475c0317ed47b058e70bb6efc61d081f065d64fb3dd4e8a.jpg)  
+![](images/64418a26b78b2dc31475c0317ed47b058e70bb6efc61d081f065d64fb3dd4e8a.webp)  
 Figure 3-6: Mapping interview subjects to behavioral variables. This example is from an online store. Interview subjects are mapped across each behavioral axis. Precision of the absolute position of an individual subject on an axis is less important than its relative position to other subjects. Clusters of subjects across multiple axes indicate significant behavior patterns.
 
 # Step 4: Identify significant behavior patterns

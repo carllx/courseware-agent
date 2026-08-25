@@ -119,7 +119,7 @@ Mouse-down over an object or data should select the object or data.
 
 On the other hand, if the cursor is positioned over a control rather than selectable data, the action on the mouse-down event is to tentatively activate the control's state transition. When the control finally sees the button-up event, it then commits to the state transition, as shown in Figure 18-16.
 
-![](images/95925b89ce1fd79ecc6bd87cba2bbe805e9212cfad686cf3c4c3d92fd7e0c61e.jpg)  
+![](images/95925b89ce1fd79ecc6bd87cba2bbe805e9212cfad686cf3c4c3d92fd7e0c61e.webp)  
 Figure 18-16: These images depict feedback and state change of a check box in Windows 8. The first image shows an unselected check box. The second is the mouseover state (or hover). The third shows the feedback to the click (or mouse-down). The fourth shows what happens when the button is released (mouse-up) but with a hover. The final image shows the selected state of the check box without a hover. Notice that although the click has visual feedback, the check box control doesn't register a state change until the mouse-up or release.
 
 DESIGN PRINCIPLE
@@ -214,7 +214,7 @@ The click-and-drag operation is also the basis for group selection. For contiguo
 
 In a collection of discrete objects, the click-and-drag operation generally begins a drag-and-drop move. If the mouse button is clicked in an area between objects, rather than on any specific object, it has a special meaning. It creates a drag rectangle, as shown in Figure 18-17.
 
-![](images/5faa50850cff5b0cdd45e4086efc54ed2777ee6df8bef915a39e6847428f865a.jpg)  
+![](images/5faa50850cff5b0cdd45e4086efc54ed2777ee6df8bef915a39e6847428f865a.webp)  
 Figure 18-17: When the cursor is not on any particular object at mouse-down time, the click-and-drag operation normally creates a drag rectangle that selects any object wholly enclosed by it when the mouse button is released. This is a familiar idiom to users of drawing applications and many word processors. This example is taken from Windows Explorer. The rectangle has been dragged from the upper left to the lower right.
 
 A drag rectangle is a dynamically sizable rectangle whose upper-left corner is the mouse-down point and whose lower-right corner is the mouse-up point. When the mouse button is released, any and all objects enclosed within the drag rectangle are selected as a group.
@@ -271,7 +271,7 @@ application (by dropping a file icon onto an application icon), or arranging obj
 
 The second type of drag-and-drop idiom is a little more indirect: The user drags the object to a specific area or onto another object to perform a function. These idioms are less popular but can be very useful. A good example of this can be found in the OS X Automator, as shown in Figure 18-18.
 
-![](images/f9abc3e12f6d8844802a9ba539272154ccbed2300633e8429c2648a699c2f59b.jpg)  
+![](images/f9abc3e12f6d8844802a9ba539272154ccbed2300633e8429c2648a699c2f59b.webp)  
 Figure 18-18: Apple's Automator tool in OS X allows users to set up common workflows, such as renaming an image, that are then represented as an icon. Users can then drag and drop files or folders onto the workflow icon to perform the function. While strictly speaking this isn't direct manipulation, it does provide a reasonably direct way to invoke a command.
 
 # Visual feedback for drag and drop
@@ -354,7 +354,7 @@ Another important detail required by auto-Scrolling is a time delay. If auto-Scr
 
 begin only after the drag cursor has been in the auto-Scroll zone for a reasonable amount of time—about a half-second.
 
-![](images/2a9e1690ee04a9afe80fa22d9cc95d0b20d930aa54fa28a78dd212ec2a578273.jpg)  
+![](images/2a9e1690ee04a9afe80fa22d9cc95d0b20d930aa54fa28a78dd212ec2a578273.webp)  
 Figure 18-19: This image expresses the concept of variable-speed autoScroll, as it could be applied to Windows Explorer. Unfortunately, autoScroll moves at a single speed that is impossible to control. It would be better if the autoScroll went faster the closer the cursor gets to the window's edge. (But it's also important to have a speed limit. AutoScroll doesn't help anyone if it goes too fast.) To its credit, Microsoft's idea of autoScrolling as the cursor approaches the inside edges of the enclosing scrollbox, rather than the outside, is clever indeed.
 
 If the user drags the cursor completely outside Word's scrollable text window, no auto-Scrolling occurs. Instead, the repositioning operation terminates in an application other than Word. For example, if the drag cursor goes outside Word and is positioned over PowerPoint, when the user releases the mouse button, the selection is pasted into the PowerPoint slide at the position indicated by the mouse. Furthermore, if the drag cursor moves within 3 or 4 millimeters of any of the borders of the PowerPoint Edit window, PowerPoint begins auto-Scrolling in the appropriate direction. This is a convenient feature, because the confines of contemporary screens mean that we often find ourselves with a loaded drag cursor and no place to drop its contents.
@@ -367,21 +367,21 @@ In the hardware world, controls like pushbuttons that have mechanical contacts c
 
 To avoid inadvertent repositioning, applications should establish a drag threshold. All mouse-movement messages that arrive after the mouse-down event are ignored unless the movement exceeds a small threshold amount, such as 3 pixels. This provides some protection against initiating an inadvertent drag operation. If the user can keep the mouse button within 3 pixels of the mouse-down point, the entire click action is interpreted as a selection command, and all tiny, spurious moves are ignored. As soon as the mouse moves beyond the 3-pixel threshold, the application can confidently change the operation into a drag, as shown in Figure 18-20. Whenever an object can be selected and dragged, the drag operation should be debounced.
 
-![](images/c8d2b0a6d80f02dd37618db4236100797fd5485531f0825fa1b462e18427305e.jpg)  
+![](images/c8d2b0a6d80f02dd37618db4236100797fd5485531f0825fa1b462e18427305e.webp)  
 Figure 18-20: Any object that can be both selected and dragged must be debounced. When the user clicks the object, the action must be interpreted as a selection rather than a drag, even if the user accidentally moves the mouse a pixel or two between the click and the release. The application must ignore any mouse movement as long as it stays within the uncommitted zone, which extends 3 pixels in each direction. After the cursor moves more than 3 pixels from the mouse-down coordinate, the action changes to a drag, and the object is considered "in play." This is called a drag threshold.
 
 Some applications may require more-complex drag thresholds. Three-dimensional applications often require drag thresholds that enable movement in three projected axes on the screen. Another such example arose in the design of a report generator for one of our clients. The user could reposition columns on the report by dragging them horizontally. For example, he could put the First Name column to the left of the Last Name column by dragging it into position from anywhere in the column. This was by far the most frequently used drag-and-drop idiom. However, another infrequently used drag operation allowed the values in one column to be interspersed vertically with the values of another column—for example, an address field and a state field (see Figure 18-21).
 
-![](images/03344b31fca12cce2adc000a577e592d7d984ab201b00f7c5a659c2663b7b47d.jpg)
+![](images/03344b31fca12cce2adc000a577e592d7d984ab201b00f7c5a659c2663b7b47d.webp)
 
-![](images/9fbf5aaede55cc200cb05d2bccc84a86cf1b91c0c4612937808ab544bbb06679.jpg)  
+![](images/9fbf5aaede55cc200cb05d2bccc84a86cf1b91c0c4612937808ab544bbb06679.webp)  
 Figure 18-21: This report-generator application offered an interesting feature that enabled the contents of one column to be interspersed with the contents of another by dragging and dropping it. This direct-manipulation action conflicted with the more-frequent drag-and-drop action of reordering the columns (like moving City to the left of Address). We used a special two-axis drag threshold to accomplish this.
 
 We wanted to follow the persona's mental model and enable him to drag the values of one column on top of the values of another to perform this stacking operation. However, this conflicted with the simple horizontal reordering of columns. We solved the problem by differentiating between horizontal drags and vertical drags. If the user dragged the column left or right, it meant that he was repositioning the column as a unit. If the user dragged the column up or down, it meant that he was interspersing the values of one column with the values of another.
 
 Because the horizontal drag was the predominant user action, and vertical drags were rare, we biased the drag threshold toward the horizontal axis. Instead of a square uncommitted zone, we created the spool-shaped zone shown in Figure 18-22. Because the horizontal-motion threshold was set to 4 pixels, it didn't take a big movement to commit users to the normal horizontal move while still insulating users from an inadvertent vertical move. To commit to the far less frequent vertical move, the user had to move the cursor 8 pixels on the vertical axis without deviating more than 4 pixels left or right. That motion is quite natural and easily learned.
 
-![](images/9442e8e9cc27ebe25fb78c2c06695e32b4af115bdffb9ce3459eb47d45382508.jpg)  
+![](images/9442e8e9cc27ebe25fb78c2c06695e32b4af115bdffb9ce3459eb47d45382508.webp)  
 Figure 18-22: This spool-shaped drag threshold allowed a bias toward horizontal dragging in a client's application. Horizontal dragging was by far the most frequently used type of drag in this application. This drag threshold made it difficult for the user to inadvertently begin a vertical drag. However, if the user really wanted to drag vertically, a bold move either up or down would cause the application to commit to the vertical mode with a minimum of excise.
 
 This axially asymmetric threshold can be used in other ways, too. Visio implements a similar idiom to differentiate between drawing a straight line and a curved line.
@@ -480,7 +480,7 @@ Handles tend to obscure the object they represent, so they don't make very good 
 
 the screen, the handles may not be visible. If they are hidden offscreen, not only are they unavailable for direct manipulation, but they are also useless as selection indicators.
 
-![](images/fcd0d21f158787639a78ff0f3002ca1c6ba7d925a58cf12216d3e078b74ec3a2.jpg)  
+![](images/fcd0d21f158787639a78ff0f3002ca1c6ba7d925a58cf12216d3e078b74ec3a2.webp)  
 Figure 18-23: The selected object has eight handles, one at each corner and one centered on each side. The handles indicate selection and are a convenient idiom for resizing and reshaping the object. Handles are sometimes implemented with pixel inversion, but in a multicolor universe they can get lost in the clutter. These handles from Microsoft PowerPoint 2010 feature a small amount of dimensional rendering to help them stand out on the slide. Non-rectangular objects display their drag handles in a rectangular bounding box around the object.
 
 As with dragging, a modifier key is often used to constrain the direction of a resize interaction. Another example of a constrained drag idiom, Shift is again used to force the resize to maintain the object's original aspect ratio. This can be quite useful. In some cases, it's also useful to constrain the resize to either a vertical, horizontal, or locked aspect ratio.
@@ -491,7 +491,7 @@ Many applications draw objects on the screen with polylines. A polyline is a gra
 
 it does on a rectangle, places one handle on top of every vertex of the polyline. The user can then drag any vertex of the polyline independently and actually change one small aspect of the object's internal shape rather than affecting it as a whole. This is shown in Figure 18-24.
 
-![](images/052304db4d263dc3b6387fa50e7f8c00f80aa9246f6152717aebb81b93dc2054.jpg)  
+![](images/052304db4d263dc3b6387fa50e7f8c00f80aa9246f6152717aebb81b93dc2054.webp)  
 Figure 18-24: These are vertex handles, so named because each vertex of the polygon has one handle. The user can click and drag any handle to reshape the polygon, one segment at a time. This idiom is primarily useful for drawing applications.
 
 Freeform objects in PowerPoint are rendered with polylines. If you click a freeform object, it is given a bounding rectangle with the standard eight handles. If you right-click the freeform object and choose Edit Points from the context menu, the bounding rectangle disappears, and vertex handles appear instead. It is important that both these idioms are available. The former is necessary to scale the image in proportion, and the latter is necessary to fine-tune the shape:
@@ -550,7 +550,7 @@ Shadows work pretty well, but all those grids and shadows can get in the way vis
 
 The idioms described in the previous section are all examples of rich visual modeless feedback, which we will discuss in detail in Chapter 15. However, for some applications, lots of grids and poles may be overkill. For example, Google's SketchUp is an architectural sketching application that lets users lay down their own drafting lines using a tape measure and protractor. As they draw their sketches, they get color-coded hinting that keeps them oriented to the right axes. Users can also turn on a blue-gradient sky and a ground color to help keep them oriented. Because the application is focused on architectural sketching, not general-purpose 3D modeling or animation, the designers were able to pull off a spare, powerful, and simple interface that is easy to both learn and use (see Figure 18-25).
 
-![](images/b12859944ada31f56af51f5098fb7fece7b61b0fd8fa9bad89d5fe10b5bc516d.jpg)  
+![](images/b12859944ada31f56af51f5098fb7fece7b61b0fd8fa9bad89d5fe10b5bc516d.webp)  
 Figure 18-25: SketchUp is a gem of an application that combines powerful 3D architectural sketching capability with smooth interaction, rich feedback, and a manageable set of design tools. Users can set sky color and real-world shadows according to location, orientation, and time of day and year. These help not only in presentation but also in orienting users. Users also can lay down 3D grid and measurement guides just as in a 2D sketching application. Camera rotate and zoom functions are cleverly mapped to the mouse scroll wheel, allowing fluid access while using other tools. ToolTips provide textual hints that help users draw lines and align objects.
 
 # Wireframes and bounding boxes
@@ -587,5 +587,5 @@ One more issue specific to 3D applications is the number of spatial manipulation
 
 Not only does this mean that assignment of modifier keys and keyboard shortcuts is critical in 3D applications, but another problem also occurs: It can be difficult to tell the difference between camera transformations and object transformations by looking at a camera viewpoint, even though the actual difference between the two can be quite significant. One way around this problem is to include a thumbnail, absolute view of the scene in a corner of the screen. It could be enlarged or reduced as needed and could provide a reality check and global navigation method in case the user gets lost in space. (Note that this kind of thumbnail view is useful for navigating large 2D diagrams as well.)
 
-![](images/97b480d721777aa2255ff61e79ee580a3952c008e3b5c465175044d01bf040c0.jpg)
+![](images/97b480d721777aa2255ff61e79ee580a3952c008e3b5c465175044d01bf040c0.webp)
 

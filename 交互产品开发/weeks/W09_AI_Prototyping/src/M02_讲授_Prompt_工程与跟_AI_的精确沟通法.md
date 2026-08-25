@@ -9,7 +9,7 @@
 > **Slide**: M2-01_Haircut_Tragedy
 > **Layout**: `Full`
 > **Scene**: 一张极其生动、令人捧腹的理发店惨剧网络梗图。左边标着“顾客的要求：要有呼吸感、少年感、显脸小”；右边标着“理发师的最终交付：如同被狗啃过一样的精神小伙平头”。
-> *   **Asset**: ![预览](../public/slides/M2-01_Haircut_Tragedy.png)
+> *   **Asset**: ![预览](../public/slides/M2-01_Haircut_Tragedy.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 
@@ -40,14 +40,14 @@
 > **Slide**: M2-01b_Tacit_Knowledge_Gap
 > **Layout**: `Split`
 > **Scene**: 左侧是人类脑海中预设的隐性知识冰山（包含审美底座、商业常识、防错规则）；右侧是大模型接收到的仅仅露出水面的三个字“购物车”。冰山之间产生巨大的断层。
-> *   **Asset**: ![预览](../public/slides/M2-01b_Tacit_Knowledge_Gap.png)
+> *   **Asset**: ![预览](../public/slides/M2-01b_Tacit_Knowledge_Gap.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 > [VISUAL]
 > **Slide**: M2-02_Speech_Act_Theory
 > **Layout**: `Split`
 > **Scene**: 左侧是牛津大学哲学家 J.L. 奥斯汀 (J.L. Austin) 和著作《How to Do Things with Words》；右侧是对 Prompt 指令本质的哲学解构——从描述性语言升级为创造现实的行动性语言。
-> *   **Asset**: ![预览](../public/slides/M2-02_Speech_Act_Theory.png)
+> *   **Asset**: ![预览](../public/slides/M2-02_Speech_Act_Theory.webp)
 > **Search**: `John Langshaw Austin How to Do Things with Words Speech Act Theory`
 > **知识节点**: `prompt-engineering-ui`
 
@@ -63,7 +63,7 @@
 > **Slide**: M2-03_RCPVU_Global_Framework
 > **Layout**: `Grid`
 > **Scene**: 展示 RCPVU 系统指令体系层级结构。R (Role) / C (Context) / P (Platform) / V (Visual Style) / U (UI Components)。
-> *   **Asset**: ![预览](../public/slides/M2-03_RCPVU_Global_Framework.png)
+> *   **Asset**: ![预览](../public/slides/M2-03_RCPVU_Global_Framework.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 你必须要像一个极度冷静、容不得半点沙子的偏执暴君系统架构师一样，雷打不动、按部就班地从宏观世界到微观原子世界，向 AI 下达强制性纪律：
@@ -72,7 +72,7 @@
 > **Slide**: M2-04_RCPVU_RC
 > **Layout**: `Full`
 > **Scene**: 放大展示 RCPVU 的前两层—— Role 与 Context 指令。
-> *   **Asset**: ![预览](../public/slides/M2-04_RCPVU_RC.png)
+> *   **Asset**: ![预览](../public/slides/M2-04_RCPVU_RC.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 第一层，**Role（身份劫持层）**。绝不能让 AI 保持默认助理嘴脸。起手第一句必须是洗脑覆盖：“你现在是十五年硅谷大厂经验的前端重架构工程师，代码极度严谨，绝不使用内联样式”。把你面前这张白纸模型脑中的发散知识树，果决截肢，把它的注意力（Attention）死死锁定在“高保真工程代码域”的绝对禁区。你必须以极其高傲的态度，劫持其最高人格系统。
@@ -96,7 +96,7 @@
 > **Slide**: M2-05_RCPVU_P
 > **Layout**: `Full`
 > **Scene**: 放大展示 Platform 层（技术约束）。
-> *   **Asset**: ![预览](../public/slides/M2-05_RCPVU_P.png)
+> *   **Asset**: ![预览](../public/slides/M2-05_RCPVU_P.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 第三层，**Platform（技术土壤层）**。在代码兵工厂，绝对不能让它去自由发挥和瞎猜技术栈！
@@ -116,7 +116,7 @@
 > **Slide**: M2-06_RCPVU_V_and_Tokens
 > **Layout**: `Split`
 > **Scene**: 左（❌业余指令）：清爽蓝色主按钮。右（✅工程法典）：主按钮底色锁定 primary-600(#2563EB)，圆角映射 radius-md(8px)，禁用态不透明度压至50%。
-> *   **Asset**: ![预览](../public/slides/M2-06_RCPVU_V_and_Tokens.png)
+> *   **Asset**: ![预览](../public/slides/M2-06_RCPVU_V_and_Tokens.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 第四层，也是决定命脉的一层，**V (Visual Style) 视觉风格纪律层**。
@@ -138,7 +138,7 @@
 > **Slide**: M2-07_RCPVU_U_Components
 > **Layout**: `Split`
 > **Scene**: U Components 分解展示：导航头、信息阵列、控制盘。
-> *   **Asset**: ![预览](../public/slides/M2-07_RCPVU_U_Components.png)
+> *   **Asset**: ![预览](../public/slides/M2-07_RCPVU_U_Components.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 最后一层深潜，**U（UI Components）实体构件集结册**。
@@ -148,7 +148,7 @@
 > **Slide**: M2-08_Three_Stage_Iteration_Flow
 > **Layout**: `Flow`
 > **Scene**: 揭示三阶段分段迭代全景推演景：Scaffold (骨架) -> Skin (皮肤) -> Interaction (交互)。
-> *   **Asset**: ![预览](../public/slides/M2-08_Three_Stage_Iteration_Flow.png)
+> *   **Asset**: ![预览](../public/slides/M2-08_Three_Stage_Iteration_Flow.webp)
 > **知识节点**: `prompt-engineering-ui`, `book-refactoring-ui`
 
 > [STORY TIME]
@@ -165,7 +165,7 @@
 > **Slide**: M2-09_Iteration_Stage_1_Scaffold
 > **Layout**: `Full`
 > **Scene**: 骨架期：全是一片绝对死气沉沉的黑白网格辅助线。
-> *   **Asset**: ![预览](../public/slides/M2-09_Iteration_Stage_1_Scaffold.png)
+> *   **Asset**: ![预览](../public/slides/M2-09_Iteration_Stage_1_Scaffold.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 **第一步，建立纯粹物理骨架 (Stage 1: Scaffold Build)。**
@@ -188,7 +188,7 @@
 > **Slide**: M2-10_Iteration_Stage_2_Skin
 > **Layout**: `Split`
 > **Scene**: 左侧是生硬灰色骨架；右侧是一场 Token 强杀覆盖执行展现血肉丰满的成品态。
-> *   **Asset**: ![预览](../public/slides/M2-10_Iteration_Stage_2_Skin.png)
+> *   **Asset**: ![预览](../public/slides/M2-10_Iteration_Stage_2_Skin.webp)
 > **知识节点**: `prompt-engineering-ui`
 
 **第二步，注入品牌系统级超级皮肤法典 (Stage 2: Token Skin Super-Injection)。**
@@ -205,7 +205,7 @@
 > **Slide**: M2-11_Iteration_Stage_3_Interaction
 > **Layout**: `Full`
 > **Scene**: 光标移动至刚寂静的卡片上产生极细腻上凸位浮升，泛出阴影。
-> *   **Asset**: ![预览](../public/slides/M2-11_Iteration_Stage_3_Interaction.png)
+> *   **Asset**: ![预览](../public/slides/M2-11_Iteration_Stage_3_Interaction.webp)
 > **知识节点**: `prompt-engineering-ui`, `book-refactoring-ui`
 
 **第三步，注入深层逻辑的微交互反馈 (Stage 3: Vitality Interaction Injection)。**
@@ -229,5 +229,5 @@
 > **Slide**: M2-12_Dictator_vs_Beggar
 > **Layout**: `Comparison`
 > **Scene**: 左侧为“乞讨者模式”：人类蒙眼盲盒抽卡，祈议 AI 吐出好代码；右侧为“系统独裁者模式”：人类用三条锁链（Scaffold、Skin、Interaction）将巨兽牢牢控制在矩阵铁轨上。
-> *   **Asset**: ![预览](../public/slides/M2-12_Dictator_vs_Beggar.png)
+> *   **Asset**: ![预览](../public/slides/M2-12_Dictator_vs_Beggar.webp)
 > **知识节点**: `prompt-engineering-ui`

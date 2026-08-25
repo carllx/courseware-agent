@@ -18,14 +18,14 @@ Finally, although a metaphor is easier for first-time users to understand, it ex
 
 Although metaphorical and skeuomorphic user interfaces should, generally speaking, be avoided, there are always exceptions to the rule. Video games often employ diegetic interfaces to keep players in the game world. Simulation software, such as flight simulators, intentionally use controls resembling their real-world counterparts. Another genre of software that makes heavy use of metaphoric interfaces is music creation software. While simulating piano keys, drum pads, synthesizer knobs and sliders, or even the frets and strings of a guitar may seem a bit silly in a mouse-driven desktop interface, it feels quite different on a multitouch iPad screen. There the expressiveness of a virtual instrument can begin to match the expressiveness of a real-world one, as shown in Figure 13-2.
 
-![](images/fcb828af245843bfebf5cda1c7026f3f18a3269bbaedf59f3b0380bf3c2d8ba1.jpg)  
+![](images/fcb828af245843bfebf5cda1c7026f3f18a3269bbaedf59f3b0380bf3c2d8ba1.webp)  
 Figure 13-2: Sunrizer is an iPad synthesizer that closely resembles its hardware brethren. On a touchscreen, simulated knobs and sliders make sense if your users are accustomed to hardware user interfaces, since the interaction with them is so similar to the real-world interactions. However, the creators of Sunrizer have not become slaves to the global metaphor, but have rather improved on the real world as only a digital interface can. Swiping left or right on the keyboard slides higher or lower octave keys into view, effectively removing the limitations of screen width.
 
 On the other hand, digital musical instruments don't require the use of metaphor to be successful or expressive. TC-11 is an iPad synthesizer that uses an abstract, idiomatic interface that is both unique and extremely expressive, as shown in Figure 13-3.
 
 As people increasingly make use of multi-touch displays in place of hardware-controlled gadgets, tools, and instruments, it's reasonable to expect that real-world metaphors will eventually fade and be supplanted by idiomatic interfaces more optimized to expressive gestures. We'll discuss what it means to create idiomatic interfaces in the next section.
 
-![](images/8a8204267dbb409ef073cededf7b66274b4c28fe960f35357a6f320ff7ec6e8e.jpg)  
+![](images/8a8204267dbb409ef073cededf7b66274b4c28fe960f35357a6f320ff7ec6e8e.webp)  
 Figure 13-3: TC-11 takes a completely different approach to creating an expressive digital instrument. It sports a unique, abstract, and completely idiomatic user interface in which the user must learn by exploring the tonal and visual effects created by touching and gesturing. It even includes a sophisticated patch editor for building new sounds and interactions.
 
 # Idiomatic interfaces
@@ -65,7 +65,7 @@ The key observation about idioms is that although they must be learned, they are
 
 Marketing and advertising professionals understand well the idea of taking a simple action or symbol and imbuing it with meaning. After all, synthesizing idioms is the essence of product branding, in which a company takes a product or company name and imbues it with a desired meaning. The example of an idiomatic symbol shown in Figure 13-4 illustrates its power.
 
-![](images/09e3a69b4e9dc36e0c60cf692200bae24ce95a48808640e594fc1e89e4ff2f6e.jpg)  
+![](images/09e3a69b4e9dc36e0c60cf692200bae24ce95a48808640e594fc1e89e4ff2f6e.webp)  
 Figure 13-4: This idiomatic symbol has been imbued with meaning from its use, rather than by any connection to other objects. For anyone who grew up in the 1950s and 1960s, this otherwise meaningless symbol has the power to evoke fear because it represents nuclear radiation. Visual idioms, such as the American flag, can be just as powerful as metaphors, if not more so. The power comes from how we use them and what we associate with them, rather than from any innate connection to real-world objects.
 
 # Building Idioms
@@ -80,7 +80,7 @@ The more atomic elements an interaction vocabulary has, the more time-consuming 
 
 A properly formed interaction vocabulary can be represented by an inverted pyramid. All easy-to-learn communications systems obey the pattern shown in Figure 13-5. The bottom layer contains primitives, the atomic elements of which everything in the language is composed. In modern desktop graphical UIs, these primitives consist of positioning the mouse, clicking, and tapping a key on the keyboard. In touch-gesture systems they consist of tapping and dragging.
 
-![](images/f006da78d016da534456e7963276a18b32b0a6b33a74f35a72cd23209444f879.jpg)  
+![](images/f006da78d016da534456e7963276a18b32b0a6b33a74f35a72cd23209444f879.webp)  
 Figure 13-5: One of the primary reasons that graphical UIs are easy to use is that they enforce a restricted interaction vocabulary that builds complex idioms from a very small set of primitives: pointing, clicking, and dragging. These primitives can build a larger set of simple compounds. These in turn can be assembled into a wide variety of complex, domain-specific idioms, all of which are based on the same small set of easily learned actions.
 
 The middle layer contains compounds. These are more complex constructs created by combining one or more of the primitives. They include simple visual objects such as text display; actions such as double-clicking, dragging, swiping, and pinching; and manipulable objects like buttons, check boxes in a form, links, and resize handles.
@@ -133,7 +133,7 @@ In 1974, Ben Shneiderman coined the term "direct manipulation" to describe an in
 
 It's worth noting that two of his three points concern the visual feedback the application offers to users. It might be more accurate to call it "visual manipulation" because of the importance of what users see during the process. Virtual manual affordances and rich visual feedback are both key elements in the design of direct manipulation interfaces.
 
-![](images/dce881fd05cb050fdfe3a5585835da67023031841d1faac9e9c5b24ef1d5cb73.jpg)
+![](images/dce881fd05cb050fdfe3a5585835da67023031841d1faac9e9c5b24ef1d5cb73.webp)
 
 Rich visual feedback is the key to successful direct manipulation.
 
@@ -149,7 +149,7 @@ Similarly, most art and design tools (such as Adobe's Creative Suite) provide a 
 
 Figure 13-6 shows how multiple control points can be placed or selected by tapping. These points can be moved by dragging; and pinching on the currently selected point adjusts the diameter of the applied filter, with feedback to the user in the form of a circle and red tint to show the extent of the filter's application. Swiping horizontally controls the intensity of the filter, tracked both by the green meter surrounding the point, and the numeric scale at the bottom of the screen. Vertical swiping selects between brightness, contrast, and saturation. While this is a lot of functionality to build into gestures, it becomes second nature after a few uses due to the rich visual modeless feedback and fluidity with which images can be adjusted.
 
-![](images/7e3ecf868b1133c0ec5052a6b6b601e0ec3418fb7cf26e286b7936077d06c800.jpg)  
+![](images/7e3ecf868b1133c0ec5052a6b6b601e0ec3418fb7cf26e286b7936077d06c800.webp)  
 Figure 13-6: Google's Snapseed photo editor for the iPad uses gestural controls to position and manipulate visual effects parameters via tapping, pinching, twirling, and swiping. Numeric feedback is provided in addition to real-time previewing, but no textual numeric entry is required or, in fact, even allowed—not that it is missed.
 
 The principle of direct manipulation applies in a variety of situations. When items in a list need to be reordered, the user may want them ordered alphabetically, but he also may want them in order of personal preference—something no algorithm can offer. A user should be able to drag the items into the desired order directly, without an algorithm's interfering with this fundamental operation.
@@ -158,10 +158,10 @@ Drag and drop can also save the user from tiresome and repetitive use of dialogs
 
 You seldom see direct manipulation interfaces for entering complex numeric data. Usually you're given numeric entry fields or sliders. A great example of direct manipulation of graphically presented numeric data is the Addictive Synth app for the iPad, shown in Figure 13-8. It allows you to sketch waveforms and effect parameters for a music synthesizer with your finger and then play the results immediately on the onscreen piano keyboard.
 
-![](images/baa84e12acb7314cee3573d4a433e04e64a9cd72511e6d123315b2c32409ec84.jpg)  
+![](images/baa84e12acb7314cee3573d4a433e04e64a9cd72511e6d123315b2c32409ec84.webp)  
 Figure 13-7: The Sonos Desktop Controller lets you drag songs and albums from search-and-browse results to anywhere in the playback queue, to the Now Playing area for immediate playback, or to any room in the house. You do so with a single drag-and-drop gesture. Tablet versions of the app also allow similar direct manipulation of music.
 
-![](images/d8fe71b9381a2c9a58cda2696113009386856da6bad1d4c8313dd041f5f01e96.jpg)  
+![](images/d8fe71b9381a2c9a58cda2696113009386856da6bad1d4c8313dd041f5f01e96.webp)  
 Figure 13-8: Addictive Synth is an iPad music synthesizer that allows users to draw their own waveforms and audio effects curves with their finger and then hear the results in real time. There's a reason for the app's name: The experience is immersive and satisfying.
 
 Direct manipulation is simple, straightforward, easy to use, and easy to remember. However, as we have discussed, direct-manipulation idioms—like most other idioms—must first be learned. Luckily, because the visible and direct nature of these interactions bears a close resemblance to interactions with objects in the physical world, learning the idioms usually is easy. After you learn them, you seldom forget them.
@@ -201,9 +201,9 @@ Ironically, the current trend in mobile UIs is toward flattening and visually si
 
 Dynamic hinting is most often used in desktop user interfaces. It works like this: When the cursor passes over a pliant object, the object temporarily changes its appearance, as shown in Figure 13-9. This action occurs before any mouse buttons are clicked and is triggered by cursor flyover only. It is commonly called a "rollover." A good example of this is the behavior of icon buttons (see Chapter 21) on toolbars: Although it has no persistent button-like affordance, passing the cursor over any single icon button causes the affordance to appear. The result is a powerful hint that the control has the behavior of a button, and eliminating the persistent affordance dramatically reduces visual clutter on the toolbar.
 
-![](images/a82e41a012b8dca8b83a87d53dd018a637fae8e8fe2afd83b36fcd6699d70e36.jpg)
+![](images/a82e41a012b8dca8b83a87d53dd018a637fae8e8fe2afd83b36fcd6699d70e36.webp)
 
-![](images/a39f86ed84799a2b889873017d319f6ac1798503a92386be9854621773a1cbc1.jpg)  
+![](images/a39f86ed84799a2b889873017d319f6ac1798503a92386be9854621773a1cbc1.webp)  
 Figure 13-9: The buttons on the left are an example of static visual hinting: Their "clickability" is suggested by the dimensional rendering. The toolbar icon buttons on the right demonstrate dynamic visual hinting: While the Bold toggle doesn't appear to be a button at first glance, passing the mouse cursor over it causes it to change, thereby creating affordance.
 
 <!-- Chunk 7 End -->
@@ -228,7 +228,7 @@ Cursor hinting should first and foremost make it clear to users that an otherwis
 
 Generally speaking, controls should offer static or dynamic visual hinting, whereas pliant (manipulable) data more frequently should offer cursor hinting. For example, it is difficult to make dense tabular data visually hint at pliancy without disturbing its clear representation, so cursor hinting is the most effective method. Some controls are small and difficult for users to spot as readily as a button, and cursor hinting is vital for the success of such controls. The column dividers and screen splitters in Microsoft Excel are good examples, as shown in Figure 13-10.
 
-![](images/c75971bb8f32c896f3a7ae217dbf756b635ec32e462526a7f5106986b643fa14.jpg)  
+![](images/c75971bb8f32c896f3a7ae217dbf756b635ec32e462526a7f5106986b643fa14.webp)  
 Figure 13-10: Excel uses cursor hinting to highlight several controls that are not obviously pliant by themselves. You can set column width and row height by dragging the short vertical lines between each pair of columns or rows. The cursor changes to a two-headed horizontal arrow that both hints at the pliancy and indicates the permissible drag direction. The same is true for the screen-splitter controls. When the mouse is over an unselected editable cell, it shows the plus cursor, and when it is over a selected cell, it shows the drag cursor.
 
 Again, touchscreen users and designers are out of luck with using this kind of pliancy hinting. As we'll discuss in more detail in Chapter 19, other strategies must be employed in the design of touchscreen apps to ensure that users know what objects they can manipulate, when they can do so, and what actions and gestures are supported.
@@ -239,5 +239,5 @@ As you build your app, you may be tempted to look backwards to comfortable visua
 
 Instead, create memorable and appropriate idioms that make your users more effective and efficient, that are imbued with rich pliant feedback, and that allow users to focus on the content and functionality of your app rather than the confines of outmoded Mechanical Age metaphors and interactions. You'll be doing them a favor as they become the intermediate users they—and you—ultimately hope they will be.
 
-![](images/2f72e91531b6cb864c890c8d3df0af8e8a9252ae2015926d38166fe3ccaff713.jpg)
+![](images/2f72e91531b6cb864c890c8d3df0af8e8a9252ae2015926d38166fe3ccaff713.webp)
 

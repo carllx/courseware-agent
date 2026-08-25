@@ -64,12 +64,12 @@ description: 审查脚本与课程配置的质量（分级审计：快速/标准
 ```bash
 # 从 Workspace 根目录运行：
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_project.py \
+  .agent/scripts/validation/validate_project.py \
   --course "<课程>" {WEEK_FILTER}
 
 # Draft 模块追踪：
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/check_draft_status.py \
+  .agent/scripts/validation/check_draft_status.py \
   --course "<课程>" {WEEK_FILTER}
 ```
 
@@ -83,7 +83,7 @@ description: 审查脚本与课程配置的质量（分级审计：快速/标准
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_spec.py \
+  .agent/scripts/core/validate_spec.py \
   --course "<课程>" {WEEK_FILTER}
 ```
 检查：知识标签白名单、VISUAL/ACTIVITY 块完整性、Layout 类型、Slide ID 唯一性、旧格式残留。
@@ -92,7 +92,7 @@ description: 审查脚本与课程配置的质量（分级审计：快速/标准
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_visuals.py \
+  .agent/scripts/validation/validate_visuals.py \
   --course "<课程>" {WEEK_FILTER}
 ```
 交叉比对脚本引用与物理文件。
@@ -117,7 +117,7 @@ description: 审查脚本与课程配置的质量（分级审计：快速/标准
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_script_length.py \
+  .agent/scripts/validation/validate_script_length.py \
   --course "<课程>" {WEEK_FILTER}
 ```
 
@@ -174,7 +174,7 @@ Agent 需对照 `extract_week.py --week N` 输出的 `calendar` 条目，逐项�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_visual_text_sync.py \
+  .agent/scripts/validation/validate_visual_text_sync.py \
   --course "<课程>" {WEEK_FILTER}
 ```
 
@@ -199,6 +199,19 @@ Q8 自动化结果可直接用于 Standard Part A 的 Signaling Sync 人工复�
 | [V1] Scene 有效率 ≥ 90% | Scene ≥ 10 字 | `[SCENE_EMPTY]` 🟡 |
 | [V2] Text 覆盖率 ≥ 50% | 含 Text 的 VISUAL 占比 | `[TEXT_LOW]` 🟡 |
 | [V3] Layout 一致性 | Grid/Comparison 须含 List | `[LAYOUT_MISMATCH]` 🟡 |
+
+### Q11: 学生姓名合规检查 (Student Name Guard)
+
+> **引用规范**: `.agent/rules/rule_student_name_guard.md`
+
+```bash
+/opt/anaconda3/envs/mybase/bin/python \
+  .agent/scripts/validation/validate_student_names.py \
+  --course "<课程>" {WEEK_FILTER}
+```
+
+自动扫描文本中的疑似姓名错别字（基于 `students_roster.yaml` 和拼音滑动比对）。
+发现疑似问题 → 标记 `[NAME_MISMATCH]` 🟡（建议在 Part F-lite 中由 Agent 进行语义复核）。
 
 ---
 

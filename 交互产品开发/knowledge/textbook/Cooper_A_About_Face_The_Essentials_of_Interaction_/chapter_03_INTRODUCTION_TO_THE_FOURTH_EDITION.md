@@ -52,7 +52,7 @@ Extending this thinking into the world of digital products, we find it useful to
 
 Of course, often a design project requires careful attention to the orchestration of a number of design disciplines to achieve an appropriate user experience, as shown in Figure 1. It is in these situations that we feel the term user experience design is most applicable.
 
-![](images/f51bff6bd3274b4eb98bcbe5400c619d3507f12727b0398dbe1149ea078592e1.jpg)  
+![](images/f51bff6bd3274b4eb98bcbe5400c619d3507f12727b0398dbe1149ea078592e1.webp)  
 Figure 1: User experience (UX) design has three overlapping concerns: form, behavior, and content. Interaction design focuses on the design of behavior but also is concerned with how that behavior relates to form and content. Similarly, information architecture focuses on the structure of content but also is concerned with behaviors that provide access to content and how the content is presented to the user. Industrial design and graphic design are concerned with the form of products and services but also must ensure that their form supports use, which requires attention to behavior and content.
 
 # What This Book Is and What It Is Not
@@ -112,5 +112,5 @@ Are Running the Asylum (Sams, 2004), you will find new and updated information a
 
 We hope this book informs you and intrigues you. Most of all, we hope it makes you think about the design of digital products in new ways. The practice of interaction design is constantly evolving, and it is new and varied enough to generate a wide variety of opinions on the subject. If you have an interesting opinion, or if you just want to talk, we'd be happy to hear from you. E-mail us at alan@cooper.com, rmreimann@gmail.com, davcron@gmail.com, or chrisnoessel@gmail.com.
 
-![](images/d9bde6e5b77080181ae92fbdf5ed333b5921ce9c004b89ae2535396524d80887.jpg)
+![](images/d9bde6e5b77080181ae92fbdf5ed333b5921ce9c004b89ae2535396524d80887.webp)
 

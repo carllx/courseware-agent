@@ -14,13 +14,13 @@
 
 对一些重要的内容进行放大显示，通过放大主体内容或者标题来突出视觉层次关系，从而突出主要内容，如图3-1所示。
 
-![](images/EPUB/images/image_110.jpg)
+![](images/EPUB/images/image_110.webp)
 
 ▲图3-1 尺寸大小和比例
 
 ▼微课视频
 
-![](images/EPUB/images/image_111.jpg)
+![](images/EPUB/images/image_111.webp)
 
 视觉层次结构的创建
 
@@ -28,7 +28,7 @@
 
 人们对每种色彩的认知是不一样的，鲜艳的颜色更容易吸引人们的注意力。通常在UI设计中，蓝色文字代表可点击，红色代表出错或警示；浅色就没有那么强的吸引力（如图中的灰色和淡黄色等），如图3-2所示。
 
-![](images/EPUB/images/image_112.jpg)
+![](images/EPUB/images/image_112.webp)
 
 图3-2 颜色
 
@@ -40,7 +40,7 @@
 
 可通过参考线和网格进行布局设计，每组元素都会变得紧密关联。
 
-![](images/EPUB/images/image_113.jpg)
+![](images/EPUB/images/image_113.webp)
 
 图3-3 字体
 
@@ -50,15 +50,15 @@
 
 分组和对齐页面元素在一定程度上可以引导视觉，可以运用格式塔原理中的相似性、接近性、连续性、封闭性原理进行布局，如图3-6所示。
 
-![](images/EPUB/images/image_114.jpg)
+![](images/EPUB/images/image_114.webp)
 
 ▲图3-4 外边距1
 
-![](images/EPUB/images/image_115.jpg)
+![](images/EPUB/images/image_115.webp)
 
 ▲图3-5 外边距2
 
-![](images/EPUB/images/image_116.jpg)
+![](images/EPUB/images/image_116.webp)
 
 图3-6 分组、对齐
 
@@ -74,11 +74,11 @@
 
 在颜色的构成、元素的形状、丰富的程度等细节方面遵循一致性原则，可以使图标显得更加专业，如图3-8所示。这也是一种视觉引导。
 
-![](images/EPUB/images/image_117.jpg)
+![](images/EPUB/images/image_117.webp)
 
 ▲图3-7 视觉引导
 
-![](images/EPUB/images/image_118.jpg)
+![](images/EPUB/images/image_118.webp)
 
 图3-8 图标一致性
 
@@ -92,11 +92,11 @@
 
 非模态反馈是将反馈以干扰度最小的方式传达给用户，如图3-9所示；模态反馈则是强调反馈信息的重要性，一般带有可操作的选项，如图3-10所示。这两种类型最大的差别在于“反馈是否会中断当前的操作流程”。
 
-![](images/EPUB/images/image_119.jpg)
+![](images/EPUB/images/image_119.webp)
 
 ▲图3-9 非模态反馈
 
-![](images/EPUB/images/image_120.jpg)
+![](images/EPUB/images/image_120.webp)
 
 图3-10 模态反馈
 
@@ -104,11 +104,11 @@
 
 从认知方式出发，反馈设计要遵循人的认知心理过程，反馈的内容也要符合用户的认知。反馈内容的呈现可以通过视觉暗示，如图3-11所示；也可以为异常流程提供解决方法来优化反馈设计，如图3-12所示。
 
-![](images/EPUB/images/image_121.jpg)
+![](images/EPUB/images/image_121.webp)
 
 ▲图3-11 视觉暗示
 
-![](images/EPUB/images/image_122.jpg)
+![](images/EPUB/images/image_122.webp)
 
 图3-12 提供解决方法
 
@@ -116,7 +116,7 @@
 
 反馈响应要及时告知用户主要指反馈信息的及时性，很大程度影响着反馈设计的体验度。App要让用户明白现在发生什么、未来结果可能会如何发展，应该在当前页及时地给予用户提醒，如图3-13所示。
 
-![](images/EPUB/images/image_123.jpg)
+![](images/EPUB/images/image_123.webp)
 
 图3-13 反馈及时告知用户
 

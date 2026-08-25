@@ -71,7 +71,7 @@ Once your users have been successfully represented by behavioral models (persons
 
 Figure 2-1 shows the relationship between various types of quantitative research and the qualitative Goal-Directed Design research techniques discussed in this chapter.
 
-![](images/88182da6dcc579d09f79962e0876fd13dd68fffdf3fd3fc068ab7546aa966d6f.jpg)  
+![](images/88182da6dcc579d09f79962e0876fd13dd68fffdf3fd3fc068ab7546aa966d6f.webp)  
 Figure 2-1: The relationship between quantitative research and qualitative, Goal-Directed design research
 
 # Goal-Directed Design Research
@@ -89,7 +89,7 @@ Stakeholder interviews
 - User and customer interviews   
 - User observation/ethnographic field studies
 
-![](images/bdc93829f845cbceafeecb6f14bfd156adc5c8c7504779b0ffa502d4839f2400.jpg)  
+![](images/bdc93829f845cbceafeecb6f14bfd156adc5c8c7504779b0ffa502d4839f2400.webp)  
 Figure 2-2 shows these activities.   
 Figure 2-2: An overview of the Goal-Directed design research process
 
@@ -506,5 +506,5 @@ User research is the critical foundation on which your designs are built. Take t
 
 $\left( {0 < x}\right) t + x < p - 1 < 1.$
 
-![](images/915ec694f9f829562cc96fb578cc50401a004ed297fe24f3aafaf437f38aae64.jpg)
+![](images/915ec694f9f829562cc96fb578cc50401a004ed297fe24f3aafaf437f38aae64.webp)
 

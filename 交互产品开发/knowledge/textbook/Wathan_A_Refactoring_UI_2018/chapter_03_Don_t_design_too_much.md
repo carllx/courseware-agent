@@ -13,7 +13,7 @@ every edge case should look is really hard, especially in the abstract.
 *How should this calendar look when there are two events scheduled at
 the* *same time?*
 
-![](images/index-17_1.png)
+![](images/index-17_1.webp)
 
 17
 
@@ -37,9 +37,9 @@ advance.
 Iterate on the working design until there are no more problems left to
 solve,
 
-![](images/index-18_1.png)
+![](images/index-18_1.webp)
 
-![](images/index-18_2.png)
+![](images/index-18_2.webp)
 
 Don’t design too much
 
@@ -61,7 +61,7 @@ management tool. You know that one day, you’d like users to be able to
 attach files to their comments, so you include an attachments section in
 your design.
 
-![](images/index-19_1.png)
+![](images/index-19_1.webp)
 
 19
 
@@ -85,5 +85,5 @@ considerably.
 If part of a feature is a “nice-to-have”, **design it later**. Build the
 simple version first and you’ll always have something to fall back on.
 
-![](images/index-20_1.png)
+![](images/index-20_1.webp)
 

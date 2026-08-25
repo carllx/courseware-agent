@@ -34,7 +34,7 @@ pletely elided items to filter out. Those interpretations are made by algorithms
 
 The DOITrees Revisited system shown in Figure 14.2 uses multiple foci to show an elided version of a 600,000 node tree. The shaded triangles provide an aggregate representation showing the size of the elided subtrees. The context in which to show them is computed using tree traversal from the many focus nodes up toward their common ancestors and the tree root. In this case, distance is computed topologically based on hops through the tree, rather than geometrically through Euclidean space. The focus nodes can be chosen explicitly by clicking, or indirectly through searching.
 
-![](images/792bbb12fcad28c208b80bbd2d360e0038851be5cd1021c51bcf3fa0eb50a010.jpg)  
+![](images/792bbb12fcad28c208b80bbd2d360e0038851be5cd1021c51bcf3fa0eb50a010.webp)  
 Figure 14.2. DOITrees Revisited uses elision to show multiple focus nodes within context in a 600,000 node tree. From [Heer and Card 04, Figure 1].
 
 <table><tr><td>System</td><td>DOITrees Revisited</td></tr><tr><td>What: Data</td><td>Tree.</td></tr><tr><td>How: Encode</td><td>Node-link layout.</td></tr><tr><td>How: Reduce</td><td>Embed: elide, multiple foci.</td></tr><tr><td>Scale</td><td>Nodes: hundreds of thousands.</td></tr></table>
@@ -55,7 +55,7 @@ Another choice for integrating focus and context is the use of superimposed laye
 
 The Toolglass and Magic Lenses system shown in Figure 14.3 uses a seethrough lens to show color-coded Gaussian curvature in a foreground layer, atop the background layer consisting of the rest of the 3D scene. Within the lens, details are shown, and the unchanged remainder of the other view provides context. The lens layer occludes the region beneath it. The system handled many different kinds of data with different visual encodings of it; this example shows 3D spatial data. The curvature lens shows that the object in the scene that appears to be a perfect sphere when rendered with standard computer graphics techniques is in fact a faceted object made from multiple patches.
 
-![](images/90ee5dd640c4837d5ca4c23d32bbc7b39c9bece1d60158e9ca42b8708a2e1a34.jpg)  
+![](images/90ee5dd640c4837d5ca4c23d32bbc7b39c9bece1d60158e9ca42b8708a2e1a34.webp)  
 Figure 14.3. The Toolglass and Magic Lenses idiom provides focus and context through a superimposed local layer: the see-through lens color codes the patchwork sphere with Gaussian curvature information and provides a numeric value for the point at the center. From [Bier et al. 93, Figure 12].
 
 # System
@@ -86,7 +86,7 @@ These choices are now illustrated through five examples of distortion idioms: 3D
 
 Several early idioms used 3D perspective to provide a global distortion region with a single focus point. The interaction metaphor was constrained geometric navigation. The perspective distortion arising from
 
-![](images/2a57e3a8a199f1ab41bf697de3f01c59bb72e947e1d7b0a44dc393a218fbb55c.jpg)  
+![](images/2a57e3a8a199f1ab41bf697de3f01c59bb72e947e1d7b0a44dc393a218fbb55c.webp)  
 Figure 14.4. The Cone Tree system used 3D perspective for focus+context, providing a global distortion region with a single focus point, and using standard geometric navigation for interaction. From [Card and Mackinlay 99, Figure 10].
 
 The costs and benefits of 3D are discussed in Section 6.3.
@@ -103,10 +103,10 @@ The fisheye lens distortion idiom uses a single focus with local extent and radi
 
 Figure 14.5 shows two examples of a fisheye lens used with an online poker player dataset. The scatterplot in Figure 14.5(a) shows the percentage of time that a player goes to showdown (playing until people have to show all of their cards) versus the flop (playing until the point where three cards are placed face-up on the board). In the dense matrix view of Figure 14.5(b), blocks representing players are color coded according to their winning rate, and a space-filling curve is used to lay out these blocks in order of a specific derived attribute; in this case, a particular betting strategy. In the parts of the scene under the fisheye lens, the labels are large enough to read; that focus region remains embedded within
 
-![](images/7e9831c2dd8f4f09ba7017ccc152495e708d83bcd1f726177166867f065d3847.jpg)  
+![](images/7e9831c2dd8f4f09ba7017ccc152495e708d83bcd1f726177166867f065d3847.webp)  
 (a)
 
-![](images/0ee59058afe4bb28019745f0f58d4020864bbde7982e7e650591a06b958b15df.jpg)  
+![](images/0ee59058afe4bb28019745f0f58d4020864bbde7982e7e650591a06b958b15df.webp)  
 (b)   
 Figure 14.5. Focus+context with interactive fisheye lens, with poker player dataset. (a) Scatterplot showing correlation between two strategies. (b) Dense matrix view showing correlation between a specific complex strategy and the player’s winning rate, encoded by color.
 
@@ -118,7 +118,7 @@ the surrounding context, showing the global pattern within the rest of the datas
 
 The distortion idiom of hyperbolic geometry uses a single radial global focus with the interaction metaphor of hyperbolic translation. This approach exploits the mathematics of non-Euclidean geometry to elegantly accommodate structures such as trees that grow by an exponential factor, in contrast to standard Euclidean geometry where there is only a polynomial amount of space available for placing items. An infinite non-Euclidean plane can be mapped to a finite Euclidean circle, and similarly an infinite non-Euclidean volume can be mapped to a finite sphere in Euclidean space. The interaction metaphor is hyperbolic translation, which corresponds to changing the focus point of the projection; the visual effect
 
-![](images/d627eef6761bf80318c24d6b3c51535cbe31f03d27b421ddb1d9c0627299d761.jpg)  
+![](images/d627eef6761bf80318c24d6b3c51535cbe31f03d27b421ddb1d9c0627299d761.webp)  
 Figure 14.6. Animated transition showing navigation through 3D hyperbolic geometry for a file system tree laid out with the H3 idiom, where the first three frames show hyperbolic translation changing the focus point and the last three show standard 3D rotation spinning the structure around. From [Munzner 98, Figure 3].
 
 is changing which items are magnified at the center, versus minimized at the periphery, for a global effect with similarities to using a fisheye lens that extends across the entire scene.
@@ -135,12 +135,12 @@ The stretch and squish navigation idiom uses multiple rectangular foci of global
 
 These figures also illustrate the visual encoding idiom of guaranteed visibility that ensures that important objects are always visible within the scene, even if they are very small. Guaranteed visibility is an example of aggregation that operates at the subpixel level and takes the importance attribute of each item into account. Standard graphics systems use assumptions that work well when drawing realistic scenes but are not necessarily true for abstract data. In reality, distant objects are not visually
 
-![](images/31a2ac8bd5f8f17388e22caaf002a3e56d55ec69b3bbd3c9bc2fe21027092d51.jpg)
+![](images/31a2ac8bd5f8f17388e22caaf002a3e56d55ec69b3bbd3c9bc2fe21027092d51.webp)
 
-![](images/96b48bacb1c2bfac1c45af204271c4265547c028b3e309cdd093ce8946c91ebe.jpg)  
+![](images/96b48bacb1c2bfac1c45af204271c4265547c028b3e309cdd093ce8946c91ebe.webp)  
 (b)
 
-![](images/39600d73d48abae91e5d1a52169003a353e5b679071052a2e1bcba10bec72b6c.jpg)  
+![](images/39600d73d48abae91e5d1a52169003a353e5b679071052a2e1bcba10bec72b6c.webp)  
 Figure 14.7. TreeJuxtaposer uses stretch and squish navigation with multiple rectangular foci for exploring phylogenetic trees. (a) Stretching a single region when comparing two small trees. (b) Stretching multiple regions within a large tree. From [Munzner et al. 03, Figures 5 and 1].   
 Figure 14.8. PRISequenceJuxtaposer supports comparing gene sequences using the stretch and squish navigation idiom with the guaranteed visibility of marks representing items with a high importance value, via a rendering algorithm with custom subpixel aggregation. From [Slack et al. 06, Figure 3].
 
@@ -154,18 +154,18 @@ used for the box color coding also indicates importance, so the boxes representi
 
 The nonlinear magnification fields idiom relies on a general computational framework featuring multiple foci of arbitrary magnification levels and shapes, whose scope can be constrained to affect only local regions. The underlying mathematical framework supports calculations of the implicit
 
-![](images/723d1b503c82b528ede7a7670ab06fd9646202f73d3484c16e86e6a516d12a2b.jpg)
+![](images/723d1b503c82b528ede7a7670ab06fd9646202f73d3484c16e86e6a516d12a2b.webp)
 
-![](images/0b54a07512a0eea1b403a6df31746826455bf5b33db30b5253d9d4bbad00877f.jpg)
+![](images/0b54a07512a0eea1b403a6df31746826455bf5b33db30b5253d9d4bbad00877f.webp)
 
-![](images/15e2676a9de6f3a85a8ba22370ef9d1929950b95c166e70e4b1a039793b96fdb.jpg)  
+![](images/15e2676a9de6f3a85a8ba22370ef9d1929950b95c166e70e4b1a039793b96fdb.webp)  
 (a)
 
-![](images/dbf6142e2868bd92b263405cafd5e29804c6d3866a6c743720c426fe9377e3aa.jpg)
+![](images/dbf6142e2868bd92b263405cafd5e29804c6d3866a6c743720c426fe9377e3aa.webp)
 
-![](images/d8a200d0d233267e3707c4070ceb1af7b7e25013a585b4e1f5e7023e4629b685.jpg)
+![](images/d8a200d0d233267e3707c4070ceb1af7b7e25013a585b4e1f5e7023e4629b685.webp)
 
-![](images/cbb4424d7b932d54a2ee8e44d44bf97bb9fcfab0fe17a2ba228613c5257b077d.jpg)  
+![](images/cbb4424d7b932d54a2ee8e44d44bf97bb9fcfab0fe17a2ba228613c5257b077d.webp)  
 (b)   
 Figure 14.9. General frameworks calculate the magnification and minimization fields needed to achieve desired transformations in the image. (a) Desired transformations. (b) Calculated magnification fields. From [Keahey 98, Figure 3].
 
@@ -191,15 +191,15 @@ Figure 14.10 illustrates four different approaches on the same node–link graph
 
 The local fisheye distortion has a small circle region of very high magnification at the center of the lens surrounded by a larger intermediate region that continuously varies from medium magnification to very high compression, returning to low compression in the outer periphery. Although fisheye lenses were developed with the goal of reducing the viewer’s disorientation, unfortunately they can be quite disorienting. The continuous magnification change introduces some amount of cognitive load to untangle the underlying shape from the imposed distortion. Distortion is less problematic with familiar shapes, like geographic maps of known places, be-
 
-![](images/0b09acffd0f3538672d73ddee1e0abfc5506a84e074812e87fc1af64b85eeb24.jpg)  
+![](images/0b09acffd0f3538672d73ddee1e0abfc5506a84e074812e87fc1af64b85eeb24.webp)  
 (a)
 
-![](images/ac67ec549f0a7189a2d588104be54da42807e9fc67b7acdd5e8f637e6d5119bb.jpg)  
+![](images/ac67ec549f0a7189a2d588104be54da42807e9fc67b7acdd5e8f637e6d5119bb.webp)  
 (b)
 
-![](images/1d3a4fb55adf591c803c319b157c9c10436e1cffeecb7dfb3597d1b2b0fe1795.jpg)
+![](images/1d3a4fb55adf591c803c319b157c9c10436e1cffeecb7dfb3597d1b2b0fe1795.webp)
 
-![](images/2ae34c7ef9e09ba95de06c19cf3eccdb19bd301498de4ecbfb8a4e781c32b33f.jpg)  
+![](images/2ae34c7ef9e09ba95de06c19cf3eccdb19bd301498de4ecbfb8a4e781c32b33f.webp)  
   
 Figure 14.10. Four approaches to graph exploration. (a) Fisheye lens. (b) Magnifying lens. (c) Neighborhood highlighting with layering. (d) Neighborhood highlighting with both layering and Bring and Go interaction. From [Lambert et al. 10, Figures 2a, 2b, 3b, and 4b].
 
@@ -229,24 +229,24 @@ Hyperbolic Geometry Hyperbolic 2D trees were proposed at Xerox PARC [Lamping et 
 
 Stretch and Squish Navigation The TreeJuxtaposer system proposed the guaranteed visibility idiom and presented algorithms for stretch and squish navigation of large trees [Munzner et al. 03], followed by the PRISAD framework that provided further scalability and handled several data types [Slack et al. 06].
 
-![](images/259cc7fb0e7de191b4c2356442f663285d5afd85f85f7a169bbe271f485ee41f.jpg)
+![](images/259cc7fb0e7de191b4c2356442f663285d5afd85f85f7a169bbe271f485ee41f.webp)
 
 #
 
-![](images/0e9dcad1ccf1b84beb39454ed6b99c8bbd097133e08f2884b2cafe494f685c7d.jpg)  
+![](images/0e9dcad1ccf1b84beb39454ed6b99c8bbd097133e08f2884b2cafe494f685c7d.webp)  
 (a)
 
-![](images/e9ef0992848a70616df96d45f3b2ec3445a03e5c730f9728d07a19f0a0dd699e.jpg)  
+![](images/e9ef0992848a70616df96d45f3b2ec3445a03e5c730f9728d07a19f0a0dd699e.webp)  
 (b)
 
-![](images/176d1b0716a9964864737a3501b7daee85ba9b7b740331ced70bfc6b56e113f4.jpg)
+![](images/176d1b0716a9964864737a3501b7daee85ba9b7b740331ced70bfc6b56e113f4.webp)
 
-![](images/7153819f75ff6be1a9818ab74cb336376726a9d279f5841cb47ccecca853b597.jpg)  
+![](images/7153819f75ff6be1a9818ab74cb336376726a9d279f5841cb47ccecca853b597.webp)  
 (d)
 
-![](images/b5f31e3ffeea80f7e89f6b8c3bd4862e5bad223adcf63a93cb402a800561e36c.jpg)
+![](images/b5f31e3ffeea80f7e89f6b8c3bd4862e5bad223adcf63a93cb402a800561e36c.webp)
 
-![](images/58c31d4791bd047cda6a36a9a7db5d33206d09e94fb34a30098a4eab7242a18c.jpg)  
+![](images/58c31d4791bd047cda6a36a9a7db5d33206d09e94fb34a30098a4eab7242a18c.webp)  
 (f)   
 Figure 15.1. Six case studies of full vis systems. (a) Scagnostics, from [Wilkinson et al. 05, Figure 5]. (b) VisDB, from [Keim and Kriegel 94, Figure 6]. (c) Hierarchical Clustering Explorer, from [Seo and Shneiderman 05, Figure 1]. (d) PivotGraph, from [Wattenberg 06, Figure 5]. (e) InterRing, from [Yang et al. 02, Figure 4]. (f) Constellation, from [Munzner 00, Figure 5.5].
 

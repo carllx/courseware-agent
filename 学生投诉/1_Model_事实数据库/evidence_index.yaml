@@ -1,0 +1,22 @@
+evidences:
+  EVIDENCE_HOSPITAL:
+    file: "住院证明.JPG"
+    description: "证实第1-8周病假及备案事实"
+  EVIDENCE_ATTENDANCE_REGULAR:
+    file: "原始聊天记录或考勤导出数据"
+    description: "4月29日-6月14日9次常规签到的客观打卡记录"
+  EVIDENCE_ROOM_JUNE15:
+    file: "佐证5_6月15日第16周_超强负荷排课证明_教务处课室申请.jpg"
+    description: "证实6月15日的4学时补课记录。注：该次补课于14日课上口头通知，遗漏超星群文字发布，故唯一客观佐证为教务处课室申请表。"
+  EVIDENCE_ROOM_JUNE17:
+    file: "佐证5_6月17日第16周_超强负荷排课证明_超星群上课通知.jpg"
+    description: "证实6月17日的极限高压补课安排（1-4节在原定申请课室，5-15节转移至3 实验室 208，必要时可向全班同学取证）"
+  EVIDENCE_CHAT_JUNE22_29:
+    files: ["佐证4_6月22日...jpg", "佐证4_6月29日...jpg"]
+    description: "证实教师在群内持续追踪辅导意向，并非放任不管"
+  EVIDENCE_NOTICE_JULY_FINAL:
+    files: ["期末课程验收与答疑安排通知.md", "佐证5_7月2日...jpg"]
+    description: "证实接到投诉后，为赶在考试周前完成，通过班委逐一私聊落实于7月2日第8-15节的最终8学时收尾补课安排"
+  EVIDENCE_CLASS_DATA:
+    files: ["影视班-2023级数字媒体艺术...xlsx", "影视班-2024级...xlsx", "游戏班-2024级...xlsx"]
+    description: "受牵连的交互产品开发与信息可视化三大班级的系统底座信息"

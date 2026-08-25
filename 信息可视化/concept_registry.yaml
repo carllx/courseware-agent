@@ -95,6 +95,10 @@ concepts:
     name: "Munzner 嵌套模型验证"
     first_introduced: W07
 
+  - id: hao_info_map
+    name: "Hao Yawei 第5章：思维导图与信息地图"
+    first_introduced: W07
+
   # === W08: 项目开发 ===
   - id: debug_funnel
     name: "排错漏斗的全栈扩展"

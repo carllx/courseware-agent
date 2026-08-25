@@ -8,7 +8,7 @@ This calculated approach to picking the perfect color scheme is
 extremely seductive, but it’s not very useful unless you want your site
 to look like this:
 
-![](images/index-143_1.png)
+![](images/index-143_1.webp)
 
 143
 
@@ -26,9 +26,9 @@ You can break a good color palette down into three categories.
 Text, backgrounds, panels, form controls — almost everything in an
 interface is grey.
 
-![](images/index-144_1.png)
+![](images/index-144_1.webp)
 
-![](images/index-144_2.png)
+![](images/index-144_2.webp)
 
 You need more colors than you think
 
@@ -46,9 +46,9 @@ don’t have to compromise too much.
 True black tends to look pretty unnatural, so start with a really dark
 grey and work your way up to white in steady increments.
 
-![](images/index-145_1.png)
+![](images/index-145_1.webp)
 
-![](images/index-145_2.png)
+![](images/index-145_2.webp)
 
 145
 
@@ -75,11 +75,11 @@ communicating different things to the user.
 For example, you might want to use an eye-grabbing color like yellow,
 pink, or teal to highlight a new feature:
 
-![](images/index-146_1.png)
+![](images/index-146_1.webp)
 
-![](images/index-146_2.png)
+![](images/index-146_2.webp)
 
-![](images/index-146_3.png)
+![](images/index-146_3.webp)
 
 You need more colors than you think
 
@@ -108,5 +108,5 @@ All in, it’s not uncommon to need as many as *ten* different colors with
 
 *shades each* for a complex UI.
 
-![](images/index-148_1.png)
+![](images/index-148_1.webp)
 

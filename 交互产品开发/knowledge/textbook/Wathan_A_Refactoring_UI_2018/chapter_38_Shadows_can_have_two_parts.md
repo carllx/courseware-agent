@@ -14,9 +14,9 @@ The first shadow is larger and softer, with a considerable vertical
 offset and large blur radius. It simulates the shadow cast behind an
 object by a direct light source.
 
-![](images/index-187_1.png)
+![](images/index-187_1.webp)
 
-![](images/index-187_2.png)
+![](images/index-187_2.webp)
 
 187
 
@@ -30,7 +30,7 @@ Using two shadows like this gives you a lot more control than you’d get
 with a single shadow — you can keep the larger shadow nice and subtle
 while still
 
-![](images/index-188_1.png)
+![](images/index-188_1.webp)
 
 Shadows can have two parts
 
@@ -44,7 +44,7 @@ As an object gets further away from a surface, the small, dark shadow
 created by a lack of ambient light slowly disappears *(go ahead, try it
 out with* *something on your desk)*.
 
-![](images/index-189_1.png)
+![](images/index-189_1.webp)
 
 189
 
@@ -57,5 +57,5 @@ represent a higher elevation.
 It should be quite distinct for your lowest elevation, and almost *(or*
 *completely)* invisible at your highest elevation.
 
-![](images/index-190_1.png)
+![](images/index-190_1.webp)
 

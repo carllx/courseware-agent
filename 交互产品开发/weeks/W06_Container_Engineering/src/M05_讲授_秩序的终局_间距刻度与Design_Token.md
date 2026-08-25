@@ -16,7 +16,7 @@
 > **Scene**: 左右两套间距排版策略实战对比。左侧标注着"随意间距"：整个 UI 界面内充斥着毫无规律的 13px, 17px, 21px，视觉表现上显得杂乱无章。右侧标注着"系统化刻度"：所有的元素内外间距全都严格地踩在以 4px 或 8px 为最小公倍数的整倍数网络上，画面形成了一股工业节律感和对齐秩序感。
 > **Search**: `spacing system scale 8px ui design consistency refactoring ui`
 > **知识节点**: `refactoring-ui-layout-spacing`
-> *   **Asset**: ![预览](../public/slides/M5-01.png)
+> *   **Asset**: ![预览](../public/slides/M5-01.webp)
 
 使用盒模型搭建完界面骨架后，必然面临一个细节拷问：盒子间的间距到底留多少？
 
@@ -35,7 +35,7 @@
 > **Text**: 8点网格像素对齐原理
 > **Scene**: 4px/8px 网格在屏幕缩放下如何完美对齐物理像素的原理图解。展示在 @1.5x 和 @2x 缩放倍率下，8px 能够绝对纯粹地折算为 12px 和 16px 物理像素，不会产生亚像素模糊。
 > **Source**: `Manual`
-> *   **Asset**: ![8点网格](../public/slides/M5-01a-grid.png)
+> *   **Asset**: ![8点网格](../public/slides/M5-01a-grid.webp)
 
 你需要一把数字世界的游标卡尺。在现代交互设计中，业界确立了著名的**8点网格系统（8-Point Grid System）**，即采用以 **4px 或 8px** 为基准的倍数系统。为什么必须是 4 和 8？因为现代屏幕的物理像素密度（PPI）缩放通常是 1.5 倍、2 倍甚至 3 倍。如果基准是 5px，乘以 1.5 倍会产生 7.5px 的**亚像素（Sub-pixel）**，导致边缘模糊（**锯齿化**）。而 4 和 8 能在主流缩放倍率下保持绝对锐利的**物理边缘折算**。
 
@@ -56,7 +56,7 @@
 > **Scene**: 强烈的微距对比图（Macro shot）。左侧是高分屏上的 15px 奇数间距，边缘锐利；右侧是 1.5x 缩放倍率下的显示异常，15px 折算成 22.5 个物理像素，导致黑色线条边缘被迫呈现灰色的半透明抗锯齿像素块，显得毛糙模糊。
 > **Keywords**: `sub-pixel rendering blur, anti-aliasing artifact, macro pixel grid, blurry UI edges, 1.5x scaling issue`
 > **Source**: `AI_Gen`
-> *   **Asset**: ![亚像素模糊](../public/slides/M5-01b.png)
+> *   **Asset**: ![亚像素模糊](../public/slides/M5-01b.webp)
 
 > [CASE STUDY] (接上文)
 > 最终的结果是：界面上所有依靠 15px 间距对齐的细线条、文字边缘，全部出现了一层灰蒙蒙的模糊光晕。原本锐利精致的 UI 骨架，看起来就像是被拉伸的低分辨率图片。
@@ -73,7 +73,7 @@
 > **Text**: 间距刻度规范表
 > **Scene**: 工业级排版刻度规范表。直观展示 4, 8, 12, 16, 24, 32 等间距阶梯，以及它们在 UI 骨架中的对应应用位置。
 > **Source**: `Manual`
-> *   **Asset**: ![刻度规范](../public/slides/M5-01c.png)
+> *   **Asset**: ![刻度规范](../public/slides/M5-01c.webp)
 
 有了这套**刻度网格**，你不再需要用方向键微调 2 像素。这也是为什么在刚才的 User Card 实践中，我们要求大家设定的 Gap 是 24px，Padding 是 32px，而不是随意的 23px 或 31px。这种数学约束不仅解放了决策算力，更让界面的空白产生统一的**视觉节律感（Rhythm）**，就像古典音乐中 4/4 拍的时间网格，让整个界面像交响乐一样精准协同。
 
@@ -86,7 +86,7 @@
 > **Scene**: 清晰展示在复杂用户表单登录设计中有关"消除歧义间距"的经典正反案例大剖析。左侧的错误案例（其组内标签与内容的间距数值，和不同组块之间的上下间距完全相等），这就导致普通用户一眼扫过去，分不清中间那个悬空的副标题标签，到底是归属于上方的输入框，还是属于下方的输入框；右侧是经过修正的绝对正确案例，设计师通过加大组与组之间的隔离留白（全局 Margin），并且极度收紧同一组内标题和输入框的贴合间距（局部 Gap），通过经典的格式塔亲密性原则原理，明确了所有的从属统治关系。
 > **Search**: `avoid ambiguous spacing form design proximity gestalt principle UI`
 > **知识节点**: `refactoring-ui-layout-spacing`
-> *   **Asset**: ![预览](../public/slides/M5-02.png)
+> *   **Asset**: ![预览](../public/slides/M5-02.webp)
 
 建立系统刻度，还能自动解决一个影响认知的核心排版问题——**歧义间距（Ambiguous Spacing）**。
 
@@ -125,7 +125,7 @@
 > **Scene**: 展示 Brad Frost [Atomic Design 原子设计] 理论架构。从底层基础的 Design Tokens（色块参数、间距倍数），向上聚合成基础的 Atoms（原子级：如底层按钮），再组合为 Molecules（分子级：如表单输入区），最终组装为 Organisms（有机宏观模块体系）。画面高亮突出最底层的 Token。
 > **Search**: `atomic design tokens semantic naming structure framework ui components`
 > **知识节点**: `component-thinking-token-api`
-> *   **Asset**: ![预览](../public/slides/M5-03.png)
+> *   **Asset**: ![预览](../public/slides/M5-03.webp)
 
 掌握了基于盒子的弹性布局与间距刻度后，为了让前端工程（特别是 AI 辅助生成工具）准确理解我们的设计意图，我们需要将这些散落的视觉属性封装起来，这就是现代 UI 工程的核心物料——**Design Token (设计标准令牌体系)**。
 
@@ -141,7 +141,7 @@
 > - 代码映射
 > **Scene**: 三列渐进矩阵对比，展示数值进化为 Token 语义并转化为代码的过程：状态1提取吸色板蓝值 `#3B82F6` → Token 命名 `color-primary-500` → 前端类名 `bg-primary-500`；状态2背景白底层 `#FFFFFF` → Token `surface-card-base` → `bg-surface-card`；状态3圆角 12px → Token `radius-lg` → `rounded-lg`。
 > **知识节点**: `component-thinking-token-api`
-> *   **Asset**: ![预览](../public/slides/M5-04.png)
+> *   **Asset**: ![预览](../public/slides/M5-04.webp)
 
 > [STORY TIME]
 > 大家刚才在写 User Card 时，是不是在 CSS 里直接敲下了 `background-color: #7b7b7b;` 和 `border-radius: 16px;`？这种直接写死数值的行为，在工程界被称为**硬编码 (Hardcode)**。
@@ -174,7 +174,7 @@
 > - 组件专用
 > **Scene**: 展示 W3C 标准推荐的 Design Token 三层架构。底层为基础的【Global Tokens (全局变量)】；中间层赋能语义，定义为【Alias Tokens (意图别名)】；最顶层为具体的【Component Specific Tokens (组件专用)】。
 > **Search**: `design tokens three tier architecture global alias component specific w3c format`
-> *   **Asset**: ![预览](../public/slides/M5-04b.png)
+> *   **Asset**: ![预览](../public/slides/M5-04b.webp)
 
 1. **Global Tokens（全局变量）**：类似于调色厂里最原始的**基础油漆桶**，上面贴着出厂成分表（如 `blue-500 = #3B82F6`）。它只负责客观存在，不管你怎么用。
 2. **Alias Tokens（意图别名）**：类似于贴在油漆桶上的**用途标签**。它本身不存具体的颜料配方，只表达你的设计意图（如宣告这桶油漆被指定为**品牌主色**，即 `color-primary = blue-500`）。
@@ -196,7 +196,7 @@
 > **Scene**: AI 隐喻图：海量设计师和前端工程师在堆积如山的旧代码和画板中，焦头烂额地手动查改颜色，四周散落着无数包含 Hex 色值的纸条。
 > **Keywords**: `developers and designers overwhelmed, messy code, hex color codes everywhere, chaos`
 > **Source**: `AI_Gen`
-> *   **Asset**: ![硬编码混乱](../public/slides/M5-04b-2.png)
+> *   **Asset**: ![硬编码混乱](../public/slides/M5-04b-2.webp)
 
 > [CASE STUDY] (接上文)
 > **但有了 Token 的三层架构后，情况彻底改变。**
@@ -212,7 +212,7 @@
 > **Scene**: 一张工程联动图。左侧展示一个代码编辑器窗口，一行 JSON 配置文件中的 `#0F62FE` 正在被修改为 `#0050E6`；右侧呈现发散状的网络，连接着多个云端控制台和移动端 APP，这些终端在配置修改的瞬间亮起统一的新品牌蓝。
 > **Keywords**: `JSON code editing, blue fiber optic nodes, UI synchronization, global dashboard update`
 > **Source**: `AI_Gen`
-> *   **Asset**: ![全球同步手术](../public/slides/M5-04c.png)
+> *   **Asset**: ![全球同步手术](../public/slides/M5-04c.webp)
 
 > [CASE STUDY] (接上文)
 > 这版配置更新被推送到代码仓库。全球数千个产品线的构建流水线在下一次自动编译时，会自动拉取最新的 Token 字典。
@@ -244,7 +244,7 @@
 > **Scene**: 深色模式（Dark Mode）硬编码与 Token 架构的对比。左侧：复杂的 `if (theme === 'dark')` 逻辑分支；右侧：基于 `surface-card-base` 等语义化 Alias Token 的无缝主题切换机制。
 > **Search**: `hardcoded dark mode vs semantic design tokens architecture seamless theme switching`
 > **知识节点**: `component-thinking-token-api`
-> *   **Asset**: ![预览](../public/slides/M5-05.png)
+> *   **Asset**: ![预览](../public/slides/M5-05.webp)
 
 > [CASE STUDY]
 > **暗黑模式（Dark Mode）的硬编码陷阱**
@@ -261,7 +261,7 @@
 > **Scene**: 在全黑的卧室环境里，用户看着手机屏幕。手机屏幕四周是暗色调的 UI，但在正中央突然弹出了一个纯白底色的协议弹窗。白光照亮了用户的脸庞，引起视觉不适。
 > **Keywords**: `dark room looking at phone, white screen glare on face, user squinting from bright light, dark mode UI bug`
 > **Source**: `AI_Gen`
-> *   **Asset**: ![午夜闪光弹](../public/slides/M5-05b.png)
+> *   **Asset**: ![午夜闪光弹](../public/slides/M5-05b.webp)
 
 > [CASE STUDY] (接上文)
 > 引入 Token 的中间层架构后，UI 组件仅绑定 **Alias Token（意图别名）**（如 `surface-card-base`）。
@@ -284,6 +284,6 @@
 > **Text**: AI 生成与 Token 约束
 > **Scene**: AI IDE (如 Cursor) 截图。展示在输入框中向 AI 下达带有 Token 约束的 Prompt：“生成一个商品卡片，按钮背景引用 `bg-primary-500`，圆角锁定为 `radius-lg`”，而 AI 生成的代码完美应用了这些语义变量而非绝对数值。
 > **Source**: `Manual`
-> *   **Asset**: ![AI生成](../public/slides/M5-05c.png)
+> *   **Asset**: ![AI生成](../public/slides/M5-05c.webp)
 
 ---

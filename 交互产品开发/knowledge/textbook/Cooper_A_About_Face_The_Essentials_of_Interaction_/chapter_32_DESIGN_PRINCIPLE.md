@@ -24,7 +24,7 @@ In most applications, when you save a document for the first time, you can choos
 
 The document's name should be shown on the application's title bar. If the user decides to rename the document, he should be able to click the title to edit it in place. What could be simpler and more direct than that? Omnigraffle on OS X is one of the few applications supporting Rename as described here (see Figure 14-5).
 
-![](images/73f0db3eb2871b3b53970cbe4889a70b623f70eacfd4a86f26d3735f51089abd.jpg)  
+![](images/73f0db3eb2871b3b53970cbe4889a70b623f70eacfd4a86f26d3735f51089abd.webp)  
 Figure 14-5: Omnigraffle on OS X supports Rename. Clicking on the name of the file in the title bar of the document window opens a pop-up that lets you both rename and move the file.
 
 # Placing and positioning in the file system
@@ -73,7 +73,7 @@ New and Open work as before.
 - Close closes the document without a dialog or any other fuss after automatically saving changes.   
 - Rename/Move brings up a dialog that lets the user rename the current file or move it to another directory.
 
-![](images/000968c16306063a796977f97f049654839a353347669670c1f4553bf1633050.jpg)  
+![](images/000968c16306063a796977f97f049654839a353347669670c1f4553bf1633050.webp)  
 Figure 14-6: The revised File menu now better reflects the user's mental model, rather than the developer's implementation model. There is only one file, and the user owns it. If she wants, she can make tracked or one-off copies of it, rename it, discard any changes she's made, or change the file type. She no longer needs to understand or worry about the copy in RAM versus the copy on disk.
 
 - Create a Copy creates a new file that is a copy of the current document.   

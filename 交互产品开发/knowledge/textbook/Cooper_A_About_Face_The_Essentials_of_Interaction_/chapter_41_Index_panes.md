@@ -60,7 +60,7 @@ It turns out that a powerful idiom takes the best elements of tiled windows and 
 
 The advantage of multipaned applications is that independent but related information can be easily displayed in a single, sovereign posture screen in a manner that reduces both navigation and window management excise to almost nil. For a sovereign application of any complexity, multipane design is practically a requirement. Specifically, designs that provide navigation and/or building blocks in one pane and allow viewing or construction of data in an adjacent pane are an effective pattern that bears consideration.
 
-![](images/b4a477d575475cd88e29fee3993aaa07385fd32fa1a19c5c7ed2f8e54b56ecdb.jpg)  
+![](images/b4a477d575475cd88e29fee3993aaa07385fd32fa1a19c5c7ed2f8e54b56ecdb.webp)  
 Figure 18-1: Microsoft Outlook is a classic example of a multipaned application. The far-left pane contains a list of mailboxes. It also lets you switch between views such as Mail and Calendar. The top-center pane shows all the messages in the selected mailbox, and the pane below it shows the contents of the selected message. The pane on the right shows the next three appointments and upcoming tasks.
 
 Another form of multiple panes is stacked panes or tabs. These are common to preferences, settings, and other complex dialogs; they are also sometimes useful in sovereign windows. Most modern web browsers let users have many sites open at a time, accessible through tabs at the top. Another good example is Microsoft Excel, which allows related spreadsheets to be accessible via inverted tabs at the bottom of the screen. Excel makes use of stacked panes with its Sheets.
@@ -117,14 +117,14 @@ The result, then, when expediency trumps concern for user experience, is too man
 
 For example, in Adobe Photoshop, if you want to make a simple change to a photo's brightness and contrast (without worrying about adjustment layers), you must go to the Image menu, select the Adjustments submenu, and then select the Brightness/Contrast command. This triggers a dialog box where you can make your adjustments, as shown in Figure 18-2. This sequence is so common that it is completely unremarkable, and yet it is undeniably poor design. Adjusting the image is the primary task in a photo editing application. The image is in the main window, so that's also where the tools that affect it should be. Changing the brightness and contrast isn't a tangential task; it is integral to the application's purpose.
 
-![](images/32614494d0d7c7acb0aa3cbd31566b6231b78337b81fab046d71735abc2ce68a.jpg)  
+![](images/32614494d0d7c7acb0aa3cbd31566b6231b78337b81fab046d71735abc2ce68a.webp)  
 Figure 18-2: One of Adobe Photoshop's many rooms: Brightness/Contrast. We're all used to the fact that we have to invoke a dialog to perform a basic function, so we hardly notice it. But this creates unnecessary work for users, and of course the dialog obscures the most important thing on the screen—the image. Recent versions of Photoshop have begun to move controls like these into modeless sidebars.
 
 Putting functions in a dialog box emphasizes their separateness from the main task. Putting the brightness and contrast adjustment in a dialog box works just fine, but it creates an awkward interaction. From a developer's point of view, adjusting brightness and contrast is a single function, independent of many other functions, so it seems natural to segregate it into its own container. From the user's point of view, however, it is integral to the job at hand and should be obvious in the main window.
 
 The image editing UI is considerably improved in Adobe Lighthroom. The application is divided into views or "rooms," each concerned with a specific purpose: Library, Develop, Slideshow, Print, and Web. In the Develop view, brightness and contrast adjustment are presented in a pane on the right side of the main window, along with every other imaginable way of adjusting an image, as shown in Figure 18-3.
 
-![](images/dd228b821afdc7e67cb403d697f2dbbbb91b7f862a640433be9c8645968f5857.jpg)  
+![](images/dd228b821afdc7e67cb403d697f2dbbbb91b7f862a640433be9c8645968f5857.webp)  
 Figure 18-3: Adobe Lightroom shows vast improvements over Photoshop. Critical tools are grouped by purpose and presented directly in the main window, adjacent to the image being adjusted.
 
 DESIGN PRINCIPLE
@@ -163,7 +163,7 @@ After the menu is open, the user makes a single choice by clicking once or by dr
 
 As discussed briefly in Chapter 16, menus represent a pedagogic vector. Contrary to user-interface paradigms of 25 years ago, menus and dialog boxes aren't the main methods by which normal users perform everyday functions. So when a user looks at an application for the first time, it is often difficult to size up what that application is capable of. An excellent way to get an impression of an application's power and purpose is to glance at the set of available functions by way of its menus and the dialogs they open. We do this in the same way we look at a restaurant's menu posted at its entrance to get an idea of the type of food, the presentation, the setting, and the price.
 
-![](images/609cef9681c6c2e8152f2a8f734a740312639675cacc63dbc834ea6cb17d10df.jpg)
+![](images/609cef9681c6c2e8152f2a8f734a740312639675cacc63dbc834ea6cb17d10df.webp)
 
 Use menus to provide a pedagogic vector.
 
@@ -171,7 +171,7 @@ Understanding the scope of what an application can and can't do is one of the fu
 
 Toolbars and direct-manipulation idioms can be too inscrutable for a first-time user to understand, but the textual nature of the menus explains the functions. Reading the words "Format Gallery" (see Figure 18-4) is more enlightening to the new user than trying to interpret an icon button that looks like the one shown in the figure (although ToolTips obviously help).
 
-![](images/7a5bf14863c78cc56d2b0cb7f7dcfd97ad5db1a591e5ddbe812946ad2ce78dbb.jpg)  
+![](images/7a5bf14863c78cc56d2b0cb7f7dcfd97ad5db1a591e5ddbe812946ad2ce78dbb.webp)  
 Figure 18-4: A menu item reading "Format Gallery" is likely to be more enlightening to new users than an icon button like this one. But after new users become intermediates, it's a different story.
 
 For an infrequent user who is somewhat familiar with an application, the menu's main task is as an index to known tools: a place to look when he knows there is a function but he can't remember where it is or what it's called. He doesn't have to keep such trivia in his head. He can depend on the menu to keep it for him, available when he needs it.
@@ -236,7 +236,7 @@ A variant of the standard drop-down menu provides a secondary menu when the user
 
 navigate them smoothly. (If you trace the path required to select an item in a multilevel cascading menu—such as the Windows Start menu—you will notice that it looks like a path through a maze.)
 
-![](images/c9af0e657f7acd6d96f25ba45cfcb43d627837a198eb6d2ab5d67cc42f4e11b9.jpg)  
+![](images/c9af0e657f7acd6d96f25ba45cfcb43d627837a198eb6d2ab5d67cc42f4e11b9.webp)  
 Figure 18-5: An example of a cascading menu from Microsoft Word. Cascading menus make it difficult for users to find and browse the command set, but they do allow menus to usefully contain much larger command sets.
 
 Cascading or hierarchical menus were prevalent in the early days of graphical user interfaces. Menus in modern GUIs have flattened considerably, until most are now only one level deep—a monoline grouping, or flat hierarchy. In many cases, especially when optimizing interactions for novice users, flattening the organization of user choices (whether they be commands or objects) can greatly improve the discoverability and learnability of application user interfaces.
@@ -253,7 +253,7 @@ The ubiquitous toolbar is a relatively recent GUI development. Microsoft was the
 
 The typical toolbar is a collection of icon buttons in a slab attached to the top (when horizontal) or side (when vertical) of the main window, as shown in Figure 18-6. Essentially, a toolbar consists of one or sometimes two rows (or columns) of visible, immediate, graphically labeled functions.
 
-![](images/e9d26abcdc47ee9f27b0062c25161a3a0b6bf8bc7a19e1c4cc8391e229d2cce6.jpg)  
+![](images/e9d26abcdc47ee9f27b0062c25161a3a0b6bf8bc7a19e1c4cc8391e229d2cce6.webp)  
 Figure 18-6: Toolbars for Word (top), InDesign (center), and Omnigraffle (bottom) on the Mac. Notice how the Word and InDesign toolbars use icon buttons that show a button outline only on mouseover or selection. This saves space and improves readability.
 
 # Toolbars and menus
@@ -298,7 +298,7 @@ The problem is that using both text and images can be very expensive in terms of
 
 ToolTips are a clever and effective user interface idiom that adds a pedagogical vector to icon buttons without any of the drawbacks of text labeling (see Figure 18-7). In essence, ToolTips provide a text label on a tiny, transient pop-up window. The real genius of ToolTips is that they have a well-timed lag that displays the helpful information only after the user has hovered the mouse cursor on the item for a second or so. This is just enough of a delay for the user to be able point to and select the function without getting the ToolTip if she doesn't need it. This ensures that users aren't barraged by little pop-ups as they move the mouse across the toolbar. It also means that if the user forgets what a rarely used icon button is for, she needs to invest only a half-second to find out.
 
-![](images/9045c86f38f7edbc67f91e4e9319756e492f093e814fdba79f06b72d9eb8068e.jpg)  
+![](images/9045c86f38f7edbc67f91e4e9319756e492f093e814fdba79f06b72d9eb8068e.webp)  
 Figure 18-7: This ToolTip from Microsoft Word helps users who have forgotten the icon's meaning without using much real estate on text labels.
 
 ToolTips initially contained a single word or very short phrase that described the hovered-upon icon button. As of Microsoft Office 2007 on Windows, ToolTips now integrate lightweight help content into the ToolTip. By taking advantage of the inherent context sensitivity of ToolTips, better integration with other help mechanisms reduces the excise involved in learning an application.
@@ -329,19 +329,19 @@ This variety of controls contributed to a broadening use of the toolbar. When it
 
 It was only a matter of time before toolbars began sporting their own menus. The Word toolbar shown in Figure 18-8 shows the Undo drop-down menu. Such sophisticated and powerful idioms continue to push the old-fashioned menu bar further into the background as a purely pedagogic tool.
 
-![](images/c7a7762abf6f7355f41ba491523233bb035b191aed2f598e13c2158f09656f01.jpg)  
+![](images/c7a7762abf6f7355f41ba491523233bb035b191aed2f598e13c2158f09656f01.webp)  
 Figure 18-8: Toolbars now contain drop-down menus such as the Undo menu shown here. This provides a compact way to provide powerful functionality.
 
 # Movable toolbars
 
 Some applications, such as Adobe's Creative Suite, support movable and detachable toolbars or palettes. Pre-2007, the Microsoft Office suite had a battery of toolbars that users could choose to make visible or invisible. If they were visible, they could be dynamically positioned in one of five locations. They also could be attached—or docked—to any of the four sides of the application's main window. If the user dragged the toolbar away from the edge, it configured itself as a floating toolbar, complete with a mini title bar, as shown in Figure 18-9.
 
-![](images/2030311df6235912c6c2d3f0923d5ce44cfa5e9eb965c0cb469842ddb6384489.jpg)  
+![](images/2030311df6235912c6c2d3f0923d5ce44cfa5e9eb965c0cb469842ddb6384489.webp)  
 Figure 18-9: Toolbars can be docked horizontally (top), vertically (left), and dragged off the toolbar to form free-floating palettes.
 
 Allowing users to move toolbars around so flexibly also provided the possibility for users to obscure parts of toolbars with other toolbars. Microsoft addressed that problem with an expansion icon button and drop-down menu that appeared only when a toolbar was partly obscured. It provided access to hidden items via a drop-down menu, as shown in Figure 18-10.
 
-![](images/0f480f4ed1838e1e677d74bd3a9a80ebd2dcd79d47c7616d4cb29f2fd54552fd.jpg)  
+![](images/0f480f4ed1838e1e677d74bd3a9a80ebd2dcd79d47c7616d4cb29f2fd54552fd.webp)  
 Figure 18-10: Microsoft's clever way of allowing users to overlap toolbars (or fit them in smaller sizes) but still get at all their functions.
 
 Since 2007, Microsoft has moved away from the ultimate flexibility of toolbars to the more predictable and inviting ribbon control (discussed later in the chapter) and single quick-access toolbar. However, they still make use of the same menu idiom for accessing hidden ribbon and toolbar items.
@@ -364,7 +364,7 @@ As we discussed earlier in this chapter, Microsoft introduced a new GUI idiom wi
 
 presentation of icon buttons and textual commands. The tabs provide groupings similar to those used in menus (such as File, Home, Insert, Design, Transitions, Animations, Slide Show, Review, and View in PowerPoint 2010).
 
-![](images/caff8f86465e43de30113e65a4d176b9c34221ad59bea73849d9306d3a5c7f66.jpg)  
+![](images/caff8f86465e43de30113e65a4d176b9c34221ad59bea73849d9306d3a5c7f66.webp)  
 Figure 18-11: The ribbon in PowerPoint replaces the menu system and classic toolbars with what is essentially a tabbed, hybrid menu/toolbar.
 
 # Tool palettes
@@ -381,21 +381,21 @@ Tool palettes also, mostly for historical reasons dating back to MacPaint, tend 
 
 Palettes typically dock and float, mimicking the functionality from the toolbar. Palettes are, as we mentioned, popular in graphics applications, where modeless access to tools is useful—or even critical—for users to maintain a productive flow. Adobe Fireworks (RIP) and other applications originally developed by Macromedia were among the first to provide a more robust docking structure to minimize screen management excise. Recent versions of Photoshop and Illustrator have taken up the idiom, as shown in Figure 18-12.
 
-![](images/79ad32dadfdf874e65d68d553a686a7db66b640b84d01d8575d32cab8ef9d106.jpg)  
+![](images/79ad32dadfdf874e65d68d553a686a7db66b640b84d01d8575d32cab8ef9d106.webp)  
 Figure 18-12: The docked palettes in Adobe Illustrator provide interactivity similar to that of modeless dialog boxes, but they don't require users to spend as much effort and attention invoking, moving, and dismissing dialogs. It doesn't take a lot of imagination to see that these are really quite similar to toolbars in the sense that they use standard controls and widgets to provide application functionality directly, visibly, and persistently in the user interface.
 
 # Sidebars, task panes, and drawers
 
 The final step in the evolution of workflow-friendly modeless command idioms was the introduction of the sidebar or task pane—a pane in the application window dedicated to providing the kind of functions that were formerly delivered through dialog boxes. One of the first applications to do this was Autodesk's 3ds Max, a 3D modeling application that lets you adjust object parameters modelessly through a sidebar. Mainstream applications that feature sidebars include Microsoft Windows Explorer and Internet Explorer with their Explorer Bars, Mozilla Firefox with its Side Bar, Apple's iLife applications with their Inspectors, and Microsoft Office through its Task Pane. Adobe Lighthroom has adopted this approach wholeheartedly: Almost all the application's functionality is provided modelessly via sidebars, as shown in Figure 18-13. Recent versions of Adobe Creative Suite applications have begun to adopt similar approaches, with robust tabbed task panes replacing most modal access to functions.
 
-![](images/a8973f991f59fb08f065ab3548969adcb7d6023fefd17f4346045189ea03135d.jpg)  
+![](images/a8973f991f59fb08f065ab3548969adcb7d6023fefd17f4346045189ea03135d.webp)  
 Figure 18-13: Sidebars in Adobe Lightroom replace the need for dozens of dialog boxes. This approach is similar to the palette approach shown in Figure 18-12. But unlike palettes, the sidebar doesn't require users to position it on the screen and doesn't allow users to undock or dismiss it individually (although the entire sidebar may be hidden). This further reduces screen management excise and represents a significant improvement over using dialog boxes to present application functions.
 
 Sidebars hold a lot of promise as an interaction idiom—and they also need not be limited to the sides of the screen. A commonly employed pattern is the dedicated properties area below a document pane or "work space." It lets you modify a selected object while minimizing confusion and screen management excise, as shown in Figure 18-14. Sidebars can contain either persistent controls or contextual controls that change based on the current selection.
 
 Drawers represent a final variant of task panes. The pane can, for purposes of conserving screen real estate for the primary content area, be stowed mostly or completely offscreen in a pop-open drawer. While this can be handy on smaller desktop screens, it also brings back some of the screen management excise that task panes so neatly removed. An alternative to this, supported by many Adobe products, is the ability to hide (and restore) all secondary panes and palettes with a keystroke. This allows power users to temporarily remove the clutter of tools to better focus on the content they are authoring.
 
-![](images/42f17e6edad9a6b55b8efa473997e01a3ee90a146ca530a1065649c368ecd4e3.jpg)  
+![](images/42f17e6edad9a6b55b8efa473997e01a3ee90a146ca530a1065649c368ecd4e3.webp)  
 Figure 18-14: This design by Cooper for a customer relationship management (CRM) application features dedicated properties. When the user selects an object in the work space (the top half of the screen, on the left), its properties are displayed below. This retains the user's context and minimizes screen management excise.
 
 # Pointing, Selection, and Direct Manipulation
@@ -418,7 +418,7 @@ When you mouse around on the screen, there is a distinct dividing line between n
 
 Clicking a mouse button also requires fine motor control. Without it, the mouse and cursor move inadvertently, botching the intended action. The user must learn to plant the heel of his hand and go into fine motor control mode to position the cursor in the desired location. Then he must maintain that position when he clicks. Furthermore, if the cursor starts far away from the desired control, the user must first use gross motor control to move the cursor near the control before shifting to fine motor control to finish the job. Some controls, such as scrollbars, compound the problem by forcing users to switch between fine and gross motor skills several times to complete an interaction, as shown in Figure 18-15.
 
-![](images/fec310976f0656bbe4fd296aab3327fb5622115c7a41431d81a3c2257065e51f.jpg)  
+![](images/fec310976f0656bbe4fd296aab3327fb5622115c7a41431d81a3c2257065e51f.webp)  
 Figure 18-15: The familiar scrollbar, shown on the left, is one of the more difficult-to-use GUI controls. To switch between scrolling up and scrolling down, the user must transition from the fine motor control required for clicking the up button to the gross motor control needed to move her hand to the bottom of the bar. Then she must return to fine motor control to accurately position the mouse and click the down button. If the scrollbar were modified only slightly, as in the center, so that the two buttons were adjacent, the problem would go away. (Macintosh scrollbars can be similarly configured to place both arrow buttons at the bottom.) The scrollbar on the right is a bit visually cluttered, but it has the most flexible interaction. Scroll wheels and capacitive gesture sensors on the input device are also a great solution to the problem.
 
 It's important that designers pay significant attention to users' aptitudes, skills, and usage contexts and make a conscious decision about how much complex motor work using an interface should require. This is a delicate balancing act between reducing complexity and user effort and providing useful and powerful tools. It's almost always a good idea for things that are used together to be placed together.

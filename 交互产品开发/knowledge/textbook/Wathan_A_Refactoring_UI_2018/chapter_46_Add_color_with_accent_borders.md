@@ -10,11 +10,11 @@ bit bland.
 
 For example, across the top of a card:
 
-![](images/index-225_1.png)
+![](images/index-225_1.webp)
 
-![](images/index-225_2.png)
+![](images/index-225_2.webp)
 
-![](images/index-225_3.png)
+![](images/index-225_3.webp)
 
 225
 
@@ -26,7 +26,7 @@ Add color with accent borders
 
 …or as a short accent underneath a headline:
 
-![](images/index-226_1.png)
+![](images/index-226_1.webp)
 
 Add color with accent borders
 
@@ -43,5 +43,5 @@ your UI, and it can go a long way towards making something feel more
 
 Add color with accent borders
 
-![](images/index-228_1.png)
+![](images/index-228_1.webp)
 

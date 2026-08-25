@@ -12,7 +12,7 @@ data-type="xref">Chapter 7</a>’s example
 <figure class="calibre35">
 <div id="ch08.xhtml_Large_scaled_scatterplot2" class="figure">
 <img
-src="images/624251c80fe60b94c4e5063c17b79f0b4e541ea57b299721e003a86aab81246d.png"
+src="images/624251c80fe60b94c4e5063c17b79f0b4e541ea57b299721e003a86aab81246d.webp"
 class="calibre125" alt="dvw2 0801" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-1.
 </span>Large, scaled scatterplot</h6>
@@ -208,7 +208,7 @@ example *01_axes.html*.
 <figure class="calibre35">
 <div id="ch08.xhtml_Simple_axis_wrong_place" class="figure">
 <img
-src="images/f4eb3eaaea9cc49197dbd82d65e8d27b69d172980bbb6b81714bfe1ba5c228b6.png"
+src="images/f4eb3eaaea9cc49197dbd82d65e8d27b69d172980bbb6b81714bfe1ba5c228b6.webp"
 class="calibre126" alt="dvw2 0802" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-2.
 </span>Simple axis, but in the wrong place</h6>
@@ -320,7 +320,7 @@ data-type="indexterm" primary="" startref="trans08"></span>
 <figure class="calibre35">
 <div id="ch08.xhtml_Correctly_positioned_axis" class="figure">
 <img
-src="images/e1d4118764de009e7483694546e8d0a11a2948265dcac4a5a6af865e23bde03f.png"
+src="images/e1d4118764de009e7483694546e8d0a11a2948265dcac4a5a6af865e23bde03f.webp"
 class="calibre127" alt="dvw2 0803" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-3.
 </span>Correctly positioned axis</h6>
@@ -374,7 +374,7 @@ data-type="xref">Figure 8-4</a>.
 <div id="ch08.xhtml_Axis_with_styles_overridden_with_CSS"
 class="figure">
 <img
-src="images/60ca2b1c55736731f8486c508f93e6aff75d4c545dee41812b4f0589870c63a6.png"
+src="images/60ca2b1c55736731f8486c508f93e6aff75d4c545dee41812b4f0589870c63a6.webp"
 class="calibre128 pcalibre7" alt="dvw2 0804" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-4.
 </span>Axis with styles overridden with CSS</h6>
@@ -504,7 +504,7 @@ labels remain easy to read.
 <figure class="calibre35">
 <div id="ch08.xhtml_Fewer_ticks" class="figure">
 <img
-src="images/87991e9771ccefef611a5e7fd6090aac20fdb4111855da8a9a0ccea65043d78c.png"
+src="images/87991e9771ccefef611a5e7fd6090aac20fdb4111855da8a9a0ccea65043d78c.webp"
 class="calibre129" alt="dvw2 0805" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-5.
 </span>Fewer ticks</h6>
@@ -538,7 +538,7 @@ data-type="xref">Figure 8-6</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_Manually_specified_tick_values" class="figure">
 <img
-src="images/b14ab61f75b101734ca1650401976a023b179258aa0f1d77ab489c340aa883d6.png"
+src="images/b14ab61f75b101734ca1650401976a023b179258aa0f1d77ab489c340aa883d6.webp"
 class="pcalibre7 calibre130" alt="dvw2 0806" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-6.
 </span>Manually specified tick values</h6>
@@ -594,7 +594,7 @@ is translated to the right by the amount `padding`.
 <figure class="calibre35">
 <div id="ch08.xhtml_Initial_Y_axis" class="figure">
 <img
-src="images/cd02add720e607d4450bce1d24376af1b05bc210e43ff19e9795606daa45854d.png"
+src="images/cd02add720e607d4450bce1d24376af1b05bc210e43ff19e9795606daa45854d.webp"
 class="calibre131" alt="dvw2 0807" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-7.
 </span>Initial y-axis</h6>
@@ -621,7 +621,7 @@ data-type="xref">Figure 8-8</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_Scatterplot_with_Y_axis" class="figure">
 <img
-src="images/edb004d5d175beb76331c2262006597ace144ba3838adc115bba76d54b4106eb.png"
+src="images/edb004d5d175beb76331c2262006597ace144ba3838adc115bba76d54b4106eb.webp"
 class="calibre132" alt="dvw2 0808" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-8.
 </span>Scatterplot with y-axis</h6>
@@ -673,7 +673,7 @@ data-type="xref">Figure 8-9</a>).
 <figure class="calibre35">
 <div id="ch08.xhtml_Scatterplot_with_random_data" class="figure">
 <img
-src="images/6e9aacb936e0e1e3595aede75564d51075d7ddcb7b32b5c26d17f0c8191961d4.png"
+src="images/6e9aacb936e0e1e3595aede75564d51075d7ddcb7b32b5c26d17f0c8191961d4.webp"
 class="calibre133" alt="dvw2 0809" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-9.
 </span>Scatterplot with random data</h6>
@@ -698,7 +698,7 @@ data-type="xref">Figure 8-10</a>. Our final scatterplot code lives in
 <div id="ch08.xhtml_Scatterplot_with_random_data_and_no_red_labels"
 class="figure">
 <img
-src="images/55db10ba3f99960b0aed48f539104d8bbcc55d4de399b1fae0afa2aa981e635e.png"
+src="images/55db10ba3f99960b0aed48f539104d8bbcc55d4de399b1fae0afa2aa981e635e.webp"
 class="calibre134" alt="dvw2 0810" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-10.
 </span>Scatterplot with random data and no red labels</h6>
@@ -790,7 +790,7 @@ Test out the following statements in the console and note the results:
 <figure class="calibre35">
 <div id="ch08.xhtml_Testing_format_console" class="figure">
 <img
-src="images/dd774178eaac692663342f936a05b32fc61c11de92a3a34d5561676a04a87a21.png"
+src="images/dd774178eaac692663342f936a05b32fc61c11de92a3a34d5561676a04a87a21.webp"
 class="calibre136 pcalibre7" alt="dvw2 0811" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-11.
 </span>Testing d3.format() in the console</h6>
@@ -842,7 +842,7 @@ data-type="xref">Figure 8-12</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_time_based_axis" class="figure">
 <img
-src="images/bc8b7c474ce010094427ace48b858e6fd984d90547c70128c50f85c996b2a3e5.png"
+src="images/bc8b7c474ce010094427ace48b858e6fd984d90547c70128c50f85c996b2a3e5.webp"
 class="calibre137" alt="dvw2 0812" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-12.
 </span>Easy time-based axis</h6>
@@ -866,7 +866,7 @@ data-type="xref">Figure 8-13</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_time_series_cleaned_up" class="figure">
 <img
-src="images/71d4f3fe3775e4676f42d4df3a9e3ef9018c6686278d79dbbe359da59cfc471e.png"
+src="images/71d4f3fe3775e4676f42d4df3a9e3ef9018c6686278d79dbbe359da59cfc471e.webp"
 class="calibre138" alt="dvw2 0813" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-13.
 </span>Time series, cleaned up</h6>

@@ -12,9 +12,9 @@ of really dark areas. White text might look great in the dark areas, but
 it gets lost in the light areas. Dark text looks great in the light
 areas, but gets lost in the dark areas.
 
-![](images/index-203_1.png)
+![](images/index-203_1.webp)
 
-![](images/index-203_2.png)
+![](images/index-203_2.webp)
 
 203
 
@@ -28,7 +28,7 @@ make the contrast between the text and the background more consistent.
 One way to increase the overall text contrast is to add a
 semi-transparent overlay to the background image.
 
-![](images/index-204_1.png)
+![](images/index-204_1.webp)
 
 Text needs consistent contrast
 
@@ -49,7 +49,7 @@ the image itself:
 Lowering the contrast will change how light or dark the image feels
 overall, so make sure to adjust the brightness to compensate.
 
-![](images/index-205_1.png)
+![](images/index-205_1.webp)
 
 205
 
@@ -71,7 +71,7 @@ the image contrast**, to balance things out a bit.
 This can also be a great way to make a background image pair more nicely
 with your existing brand colors.
 
-![](images/index-206_1.png)
+![](images/index-206_1.webp)
 
 Text needs consistent contrast
 
@@ -93,7 +93,7 @@ combining that with a text shadow means you can reduce it a little less.
 
 Text needs consistent contrast
 
-![](images/index-208_1.png)
+![](images/index-208_1.webp)
 
-![](images/index-208_2.png)
+![](images/index-208_2.webp)
 

@@ -14,8 +14,8 @@
   search_queries:
   - iOS photo
   - iOS real image
-  target_path: ../public/slides/w03-slide-04_budget_app_real.png
-  current_asset: ../public/slides/w03-slide-04_budget_app.png
+  target_path: ../public/slides/w03-slide-04_budget_app_real.webp
+  current_asset: ../public/slides/w03-slide-04_budget_app.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -34,8 +34,8 @@
   search_queries:
   - 产品洞察与痛点切入 historical photo
   - 产品洞察与痛点切入 archive image
-  target_path: ../public/slides/w03-slide-01_real.png
-  current_asset: ../public/slides/w03-slide-01.png
+  target_path: ../public/slides/w03-slide-01_real.webp
+  current_asset: ../public/slides/w03-slide-01.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -54,8 +54,8 @@
   search_queries:
   - 刀法入门：从倾听者变成解剖者 historical photo
   - 刀法入门：从倾听者变成解剖者 archive image
-  target_path: ../public/slides/w03-slide-08_surgical_knife_real.png
-  current_asset: ../public/slides/w03-slide-08_surgical_knife.png
+  target_path: ../public/slides/w03-slide-08_surgical_knife_real.webp
+  current_asset: ../public/slides/w03-slide-08_surgical_knife.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -72,8 +72,8 @@
   description: 定量告诉你有多少人，定性告诉你为什么
   scene_excerpt: 左侧是成堆的枯燥数据报表、漏斗和饼图（冷冰冰的"What"）；右侧是拿着黑客帝国般放大镜观察单个用户皱眉表情的极致特写（鲜活的"Why"）
   search_queries: []
-  target_path: ../public/slides/w03-slide-08_real.png
-  current_asset: ../public/slides/w03-slide-08.png
+  target_path: ../public/slides/w03-slide-08_real.webp
+  current_asset: ../public/slides/w03-slide-08.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -92,8 +92,8 @@
   search_queries:
   - 诱导性提问不仅获取谎言，更会销毁真实的记忆 historical photo
   - 诱导性提问不仅获取谎言，更会销毁真实的记忆 archive image
-  target_path: ../public/slides/w03-slide-12_loftus_experiment_real.png
-  current_asset: ../public/slides/w03-slide-12_loftus_experiment_real.png
+  target_path: ../public/slides/w03-slide-12_loftus_experiment_real.webp
+  current_asset: ../public/slides/w03-slide-12_loftus_experiment_real.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -112,8 +112,8 @@
   search_queries:
   - 从产品特征到真实情境的视角转换 historical photo
   - 从产品特征到真实情境的视角转换 archive image
-  target_path: ../public/slides/w03-slide-17_real.png
-  current_asset: ../public/slides/w03-slide-17.png
+  target_path: ../public/slides/w03-slide-17_real.webp
+  current_asset: ../public/slides/w03-slide-17.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -130,8 +130,8 @@
   description: B 端潜规则：为医疗精英的权力感买单
   scene_excerpt: 左侧是克制极简的现代 UI，右侧是复杂且充满威严感的重症监护仪器实体操作台
   search_queries: []
-  target_path: ../public/slides/w03-slide-26_medical_director_ego_real.png
-  current_asset: ../public/slides/w03-slide-26_medical_director_ego.png
+  target_path: ../public/slides/w03-slide-26_medical_director_ego_real.webp
+  current_asset: ../public/slides/w03-slide-26_medical_director_ego.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -149,8 +149,8 @@
   scene_excerpt: B端系统操作界面与紧张的用户
   search_queries:
   - B端系统操作界面与紧张的用户 screenshot
-  target_path: ../public/slides/w03-slide-21_fix1_real.png
-  current_asset: ../public/slides/w03-slide-21_fix1.png
+  target_path: ../public/slides/w03-slide-21_fix1_real.webp
+  current_asset: ../public/slides/w03-slide-21_fix1.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -170,8 +170,8 @@
   search_queries:
   - 突破竞争的死亡边界：因为你的对手根本从来不是同行 historical photo
   - 突破竞争的死亡边界：因为你的对手根本从来不是同行 archive image
-  target_path: ../public/slides/w03-slide-23_real.png
-  current_asset: ../public/slides/w03-slide-23.png
+  target_path: ../public/slides/w03-slide-23_real.webp
+  current_asset: ../public/slides/w03-slide-23.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -190,7 +190,7 @@
   search_queries:
   - 数据的欺骗性：爬虫抓不到深层的恐惧 historical photo
   - 数据的欺骗性：爬虫抓不到深层的恐惧 archive image
-  target_path: ../public/slides/w03-slide-38_data_illusion_real.png
+  target_path: ../public/slides/w03-slide-38_data_illusion_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -210,7 +210,7 @@
   search_queries:
   - 脱离肉身碰撞的洞察，比无知更可怕 historical photo
   - 脱离肉身碰撞的洞察，比无知更可怕 archive image
-  target_path: ../public/slides/w03-slide-38_field_reality_real.png
+  target_path: ../public/slides/w03-slide-38_field_reality_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -230,8 +230,8 @@
   search_queries:
   - '"不要问他们将来会不会用，看他们现在为了解决问题付出了什么代价。" historical photo'
   - '"不要问他们将来会不会用，看他们现在为了解决问题付出了什么代价。" archive image'
-  target_path: ../public/slides/w03-slide-31b_real.png
-  current_asset: ../public/slides/w03-slide-31b.png
+  target_path: ../public/slides/w03-slide-31b_real.webp
+  current_asset: ../public/slides/w03-slide-31b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -250,7 +250,7 @@
   search_queries:
   - 会议室里优雅喝咖啡提需求的护士长 vs 急诊室凌晨三点满手是血戴着手套疯狂点不中 demonstration
   target_path: ../public/videos/w03-slide-11_nurse_case.webm
-  current_asset: ../public/slides/w03-slide-11_nurse_case.png
+  current_asset: ../public/slides/w03-slide-11_nurse_case.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -269,7 +269,7 @@
   search_queries:
   - 一个由表象尖端不断向下突破硬土层、深挖到地心岩浆的倒金字塔图例 每一次看似完美的 demonstration
   target_path: ../public/videos/w03-slide-14.webm
-  current_asset: ../public/slides/w03-slide-14.png
+  current_asset: ../public/slides/w03-slide-14.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -288,7 +288,7 @@
   search_queries:
   - 用场景时间线死死钉住飘忽不定的访谈谎言 demonstration
   target_path: ../public/videos/w03-slide-14_wrapup.webm
-  current_asset: ../public/slides/w03-slide-14_wrapup.png
+  current_asset: ../public/slides/w03-slide-14_wrapup.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -307,7 +307,7 @@
   search_queries:
   - 用户拿着电钻 注视着墙上必须打出的圆洞 电钻仅被视为耗材 demonstration
   target_path: ../public/videos/w03-slide-16_fix1.webm
-  current_asset: ../public/slides/w03-slide-16_fix1.png
+  current_asset: ../public/slides/w03-slide-16_fix1.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -326,7 +326,7 @@
   search_queries:
   - 屏幕上打出巨大的 POV 填空题 对应小美深夜在车库翻找钥匙的恐惧 demonstration
   target_path: ../public/videos/w03-slide-30_garage_story.webm
-  current_asset: ../public/slides/w03-slide-30_garage_story.png
+  current_asset: ../public/slides/w03-slide-30_garage_story.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -345,7 +345,7 @@
   search_queries:
   - 打车场景指标对比 上方悬挂着"年度营收曲线"（滞后）；下方显示着一个倒计时秒表" demonstration
   target_path: ../public/videos/w03-slide-29.webm
-  current_asset: ../public/slides/w03-slide-29.png
+  current_asset: ../public/slides/w03-slide-29.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -364,7 +364,7 @@
   search_queries:
   - 严格的 AI 模拟舱纪律清单与 Figma 模板链接二维码 demonstration
   target_path: ../public/videos/w03-slide-36_activity_rules.webm
-  current_asset: ../public/slides/w03-slide-36_activity_rules.png
+  current_asset: ../public/slides/w03-slide-36_activity_rules.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -383,7 +383,7 @@
   search_queries:
   - 九宫格展示：屏幕上密集闪烁着各组初学排版的 Figma 截图 其中不乏被红笔暴力 demonstration
   target_path: ../public/videos/w03-slide-31.webm
-  current_asset: ../public/slides/w03-slide-31.png
+  current_asset: ../public/slides/w03-slide-31.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -409,7 +409,7 @@
   search_queries:
   - iOS photo
   - iOS real image
-  target_path: ../public/slides/M01_复习_从认知摩擦到商业洞察_narr_L129_real.png
+  target_path: ../public/slides/M01_复习_从认知摩擦到商业洞察_narr_L129_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -430,8 +430,8 @@
   search_queries:
   - 辛普森一家 photo
   - 辛普森一家 real image
-  target_path: ../public/slides/w03-slide-06_walmart_real.png
-  current_asset: ../public/slides/w03-slide-06_walmart.png
+  target_path: ../public/slides/w03-slide-06_walmart_real.webp
+  current_asset: ../public/slides/w03-slide-06_walmart.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -452,8 +452,8 @@
   - RenderMode photo
   - RenderMode real image
   - RenderMode portrait
-  target_path: ../public/slides/w03-slide-10_ethnography_real.png
-  current_asset: ../public/slides/w03-slide-10_anthropology.png
+  target_path: ../public/slides/w03-slide-10_ethnography_real.webp
+  current_asset: ../public/slides/w03-slide-10_anthropology.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -473,8 +473,8 @@
   search_queries:
   - AI Feature photo
   - AI Feature real image
-  target_path: ../public/slides/w03-slide-29_jtbd_universe_real.png
-  current_asset: ../public/slides/w03-slide-29_jtbd_universe.png
+  target_path: ../public/slides/w03-slide-29_jtbd_universe_real.webp
+  current_asset: ../public/slides/w03-slide-29_jtbd_universe.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -495,8 +495,8 @@
   - MacBook photo
   - MacBook real image
   - MacBook portrait
-  target_path: ../public/slides/w03-slide-30_real.png
-  current_asset: ../public/slides/w03-slide-30.png
+  target_path: ../public/slides/w03-slide-30_real.webp
+  current_asset: ../public/slides/w03-slide-30.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -516,8 +516,8 @@
   search_queries:
   - AI Agent photo
   - AI Agent real image
-  target_path: ../public/slides/w03-slide-28b_real.png
-  current_asset: ../public/slides/w03-slide-28b.png
+  target_path: ../public/slides/w03-slide-28b_real.webp
+  current_asset: ../public/slides/w03-slide-28b.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -541,7 +541,7 @@
   search_queries:
   - MacBook photo
   - MacBook real image
-  target_path: ../public/slides/M06_实践与小结_微调研沙局与_实践环节_启动_narr_L14_real.png
+  target_path: ../public/slides/M06_实践与小结_微调研沙局与_实践环节_启动_narr_L14_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []

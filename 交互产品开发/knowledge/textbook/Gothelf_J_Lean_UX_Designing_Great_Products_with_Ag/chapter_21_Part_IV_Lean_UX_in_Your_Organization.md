@@ -15,7 +15,7 @@ beginning of conversations that helped Jeff, his UX team, and the rest
 of TheLadders’ product development staff build an integrated,
 collaborative practice.
 
-![](images/assets/lux3_IV01.png)
+![](images/assets/lux3_IV01.webp)
 
 ###### Figure IV-1. The UX team at TheLadders expressed their feelings about our Agile/UX integration efforts
 

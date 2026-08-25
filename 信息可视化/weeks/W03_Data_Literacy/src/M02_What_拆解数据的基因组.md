@@ -19,7 +19,7 @@
 > *   **Scene**: 展现 Munzner 数据抽象分类体系的树状架构，从顶层的 Dataset Types 向下分化到 Item 和 Attribute。
 > *   **Caption**: "数据抽象分类地图：摒弃表面现象，直击核心属性结构。"
 > *   **Text**: "数据抽象分类地图"
-> *   **Asset**: ![预览](../public/slides/S01b_Taxonomy_Intro.png)
+> *   **Asset**: ![预览](../public/slides/S01b_Taxonomy_Intro.webp)
 
 
 ### 2.1 数据的五大基本构成
@@ -38,7 +38,7 @@
 >     - 位置
 >     - 网格
 > *   **Caption**: "五大基本类型：数据重组的基础单元。"
-> *   **Asset**: ![Munzner Fig2.2](../public/textbook/Fig2.2_五种基本数据类型图解.png)
+> *   **Asset**: ![Munzner Fig2.2](../public/textbook/Fig2.2_五种基本数据类型图解.webp)
 > *   **Source**: Textbook
 
 为了让大家有直观的画面感，我们拿一个具体的场景来串联它们：
@@ -54,7 +54,7 @@
 > *   **Scene**: 分层漏斗模型，从底层的 Item 向上装配 Attribute，再由 Link 串联。
 > *   **Caption**: "数据抽象层级：从微粒到系统。"
 > *   **Text**: "数据抽象层级：从微粒到系统。"
-> *   **Asset**: ![预览](../public/slides/S13c_Data_Abstraction_Levels.png)
+> *   **Asset**: ![预览](../public/slides/S13c_Data_Abstraction_Levels.webp)
 
 这五个基本零件看起来很简单，但在实际工作中，它们是我们破解数据的核心武器。**掌握它们，不是为了应付理论考试，而是为了赋予你一种“黑客帝国般的矩阵视觉”**——让你能一眼看穿杂乱无章的现实业务，直接在脑海里将它们劈开、重组为数据积木：
 
@@ -64,7 +64,7 @@
 > *   **Scene**: 左侧是一张混乱的城市早高峰打车街景照片；右侧是同一场景的“黑客帝国”数据透视——车辆变成了发光的独立点(Item)，位置映射为坐标系(Position)，乘客与车之间连起配对虚线(Link)。
 > *   **Caption**: "数据视界：剥离现实的物理表象，透视底层的结构基因。"
 > *   **Text**: "数据视界：透视底层的结构基因。"
-> *   **Asset**: ![预览](../public/slides/S13d_Data_Structure.png)
+> *   **Asset**: ![预览](../public/slides/S13d_Data_Structure.webp)
 
 > [ACTIVITY]
 > *   **Type**: `Quiz`
@@ -81,7 +81,7 @@
 > *   **Scene**: 从单一圆点开始，衍生出连线、三维坐标，扩展为数据拓扑网。
 > *   **Text**: "结构演化：从微观到宏观"
 > *   **Caption**: "五种微观元素构筑出数据集的整体形态。"
-> *   **Asset**: ![预览](../public/slides/S13b_Data_Dimensions_Expansion.png)
+> *   **Asset**: ![预览](../public/slides/S13b_Data_Dimensions_Expansion.webp)
 
 ### 2.2 数据的四大分类
 
@@ -98,7 +98,7 @@
 >     - 连续场
 >     - 几何空间
 > *   **Caption**: "洞悉数据集类型，是选择可视化策略的前提。"
-> *   **Asset**: ![Munzner Fig2.3](../public/textbook/Fig2.3_四种基本数据集类型组合图.png)
+> *   **Asset**: ![Munzner Fig2.3](../public/textbook/Fig2.3_四种基本数据集类型组合图.webp)
 > *   **Source**: Textbook
 
 1.  **Tables（表格）**：最常见的 Excel 表。它就是由 **Item（行对象）** 和 **Attribute（列特征）** 这两种基础零件拼装出来的。
@@ -110,7 +110,7 @@
 > *   **Scene**: 左侧：医疗 CT 扫描脑切片图；右侧：风洞气流风场压强演示。
 > *   **Caption**: "连续场数据：在任意两点间都能细分出中间值。"
 > *   **Text**: "连续场数据：在任意两点间都能细分出中间值。"
-> *   **Asset**: ![预览](../public/slides/S15_Continuous_Fields.png)
+> *   **Asset**: ![预览](../public/slides/S15_Continuous_Fields.webp)
 
 3.  **Fields（连续场）**：比如天气预报的温度渐变图。其实气象站只有几个点，但电脑会自动把中间的空白填补上颜色，连成一片。
 
@@ -120,7 +120,7 @@
 > *   **Scene**: 展示从稀疏离散的测量点，平滑生成色彩渐变的面图层。
 > *   **Caption**: "电脑会自动在测量点之间填补色彩，生成无缝的连续图像。"
 > *   **Text**: "自动填补：把离散的点连成面"
-> *   **Asset**: ![预览](../public/slides/S15a_Interpolation_Magic.png)
+> *   **Asset**: ![预览](../public/slides/S15a_Interpolation_Magic.webp)
 
 4.  **Geometry（几何空间）**：比如纯粹的地图国家轮廓线，只有形状，没有附带的其他数值。
 
@@ -130,7 +130,7 @@
 > *   **Scene**: 三维立体数据魔方，每一面展示时间、空间、品类等不同维度的投影。
 > *   **Text**: "多维表：跨越时空的交叉定位"
 > *   **Caption**: "理解多维表的关键在于拆解多个坐标轴的联合标识。"
-> *   **Asset**: ![预览](../public/slides/S15b_MultiDimensional_Cube.png)
+> *   **Asset**: ![预览](../public/slides/S15b_MultiDimensional_Cube.webp)
 
 生活中的数据大多是**多维表格**。比如一张超市小票，同时包含了时间、门店（地点）、商品、价格多个维度。理清数据，就像是在这些维度里找我们要看的角度。
 
@@ -140,7 +140,7 @@
 > *   **Scene**: 超市收据小票被解构成时间、地点、用户、商品品类 四条交叉坐标轴。
 > *   **Caption**: "降维解剖：一张小票背后的多维属性交叉。"
 > *   **Text**: "降维解剖：一张小票背后的多维属性交叉。"
-> *   **Asset**: ![预览](../public/slides/S15c_Receipt_Hypercube.png)
+> *   **Asset**: ![预览](../public/slides/S15c_Receipt_Hypercube.webp)
 
 > [VISUAL]
 > *   **Slide**: `S15d_Data_Availability`
@@ -148,7 +148,7 @@
 > *   **Scene**: 静态文件块对比源源不断流出的动态数据瀑布，展示图表动态坐标轴的自适应机制。
 > *   **Caption**: "静态文件与动态流：动态图表引擎必须应对的数据流速差异。"
 > *   **Text**: "静态文件与动态流：动态图表引擎必须应对的数据流速差异。"
-> *   **Asset**: ![预览](../public/slides/S15d_Data_Availability.png)
+> *   **Asset**: ![预览](../public/slides/S15d_Data_Availability.webp)
 
 **静态数据 vs 动态数据**：
 静态数据就像是一次性装盘端给你的死文件（如 Excel）；动态数据则是接通了水管、源源不断喷涌的实时数据流。图表若要承接动态流，你的坐标轴就必须具备动态伸缩的生命力。
@@ -176,7 +176,7 @@
 >     - 序数型
 >     - 量化型
 > *   **Caption**: "判断法则：数据有高低顺序吗？能精确计算差值吗？"
-> *   **Asset**: ![Munzner Fig2.7](../public/textbook/Fig2.7_属性分类树.png)
+> *   **Asset**: ![Munzner Fig2.7](../public/textbook/Fig2.7_属性分类树.webp)
 > *   **Source**: Textbook
 
 > [VISUAL]
@@ -185,7 +185,7 @@
 > *   **Scene**: 三个外观相同的数字"1"，分别显露出：ID编码、VIP等级、和1公斤重量三种截然不同的内涵。
 > *   **Caption**: "穿透数字表象：相同的数字外形，其计算法则可能天差地别。"
 > *   **Text**: "穿透数字表象：相同的数字外形，其计算法则可能天差地别。"
-> *   **Asset**: ![预览](../public/slides/S16b_Number_Illusion.png)
+> *   **Asset**: ![预览](../public/slides/S16b_Number_Illusion.webp)
 
 1. **Categorical（分类型 - 纯标签）**
 完全没有大小、高低之分，**绝对不能进行任何加减计算**。
@@ -198,7 +198,7 @@
 > *   **Scene**: 列表展示普通高校学号序列，红灯警报提示：“切勿迷信阿拉伯数字的伪装！”
 > *   **Text**: "剥落伪装：不是所有数字都能计算"
 > *   **Caption**: "将邮编或学号相加求平均，是典型的计算灾难。"
-> *   **Asset**: ![预览](../public/slides/S17_The_Numbers_Trap.png)
+> *   **Asset**: ![预览](../public/slides/S17_The_Numbers_Trap.webp)
 
 2. **Ordinal（序数型 - 粗略排序）**
 有高低顺序，但**不能做精确的数值计算**。
@@ -213,7 +213,7 @@
 >     - 序数型
 >     - 量化型
 > *   **Caption**: "序数仅有顺序，量化可作差值计算。"
-> *   **Asset**: ![预览](../public/slides/S18_Ordinal_Vs_Quantitative.png)
+> *   **Asset**: ![预览](../public/slides/S18_Ordinal_Vs_Quantitative.webp)
 
 3. **Quantitative（量化型 - 真实数量）**
 拥有精确的刻度，这是真正的数字，**支持精确的加减乘除**。
@@ -225,7 +225,7 @@
 > *   **Scene**: 数据清洗前的“属性定性分类”检查清单。
 > *   **Caption**: "定性审判：清洗计算前，先敲定数据列的属性类别。"
 > *   **Text**: "定性审判：清洗计算前，先敲定数据列的属性类别。"
-> *   **Asset**: ![预览](../public/slides/S18b_Attribute_Trial.png)
+> *   **Asset**: ![预览](../public/slides/S18b_Attribute_Trial.webp)
 
 对于真正的数字（量化型数据），它还能细分为三种变化方向：
 
@@ -239,7 +239,7 @@
 >     - 单向顺序
 >     - 发散型
 >     - 周期型
-> *   **Asset**: ![Munzner Fig2.7](../public/textbook/Fig2.7_属性分类树.png)
+> *   **Asset**: ![Munzner Fig2.7](../public/textbook/Fig2.7_属性分类树.webp)
 > *   **Source**: Textbook
 
 *   **Sequential（单向顺序）**：从零开始，数值向一个方向越来越大（如年龄）。
@@ -252,7 +252,7 @@
 > *   **Scene**: 24 小时圆盘，展示 23:59 无缝平滑过渡到 00:00 的环形结构。
 > *   **Caption**: "周期型数据必须平滑回环，避免首尾断裂。"
 > *   **Text**: "周期型数据必须平滑回环，避免首尾断裂。"
-> *   **Asset**: ![预览](../public/slides/S20_Cyclic_Clock.png)
+> *   **Asset**: ![预览](../public/slides/S20_Cyclic_Clock.webp)
 
 > [ACTIVITY]
 > *   **Type**: `Quiz`
@@ -278,7 +278,7 @@
 > *   **Scene**: 极简的“双向发散”条形图线框图示，一根标红的中心轴代表 100% 达标线，两侧的条形分别向正负两极延伸。
 > *   **Caption**: "以 100% 达标线为中心零轴，高于目标的向右延伸，低于目标的向左延伸。"
 > *   **Text**: "寻找中心基准：100% 是双向发散的零点"
-> *   **Asset**: ![预览](../public/slides/S19b_Diverging_Target.png)
+> *   **Asset**: ![预览](../public/slides/S19b_Diverging_Target.webp)
 
 > [ACTIVITY]
 > *   **Type**: `Quiz`
@@ -329,7 +329,7 @@
 >     - 标识符
 >     - 承载内容
 > *   **Caption**: "标识符必须精准对应并开启承载内容的保险柜。"
-> *   **Asset**: ![Munzner Fig2.8](../public/textbook/Fig2.8_表格与连续场的语义对比图.png)
+> *   **Asset**: ![Munzner Fig2.8](../public/textbook/Fig2.8_表格与连续场的语义对比图.webp)
 > *   **Source**: Textbook
 
 *   **Key（唯一标识符）**：就像**快递单号**，**绝对不能重复**。它的作用是精准定位到唯一的一个对象。比如学号、身份证号、具体的门店编号。
@@ -341,7 +341,7 @@
 > *   **Scene**: 代表 Key 的探针准确击中坐标网格上的点，随后释放出对应的 Value 数据量。
 > *   **Caption**: "标识符与数值的明确分工。"
 > *   **Text**: "标识符与数值的明确分工。"
-> *   **Asset**: ![预览](../public/slides/S21a_Key_Value_Functions.png)
+> *   **Asset**: ![预览](../public/slides/S21a_Key_Value_Functions.webp)
 
 **常见陷阱：没有使用唯一的单号 (Key)**
 
@@ -351,7 +351,7 @@
 > *   **Scene**: 左面：“学号”完美对应独立散点；右面：将“城市名称”作为 Key，导致不同人的数据点挤在一起重叠。
 > *   **Text**: "定位必须唯一：防止点位重叠丢失"
 > *   **Caption**: "用模糊的分类来定位，会导致画面上一大堆点叠成一个。"
-> *   **Asset**: ![预览](../public/slides/S21b_Key_Uniqueness_Demo.png)
+> *   **Asset**: ![预览](../public/slides/S21b_Key_Uniqueness_Demo.webp)
 
 如果画散点图时，你用“城市名称”作为找人的 Key，因为一个城市有很多家门店，画图软件就会把同一个城市所有门店的点**全部叠在同一个位置上**，导致图上最后只剩下一个点！这叫“点位重叠丢失”。
 
@@ -361,7 +361,7 @@
 > *   **Scene**: 左图：基于模糊标签渲染的光团挤成一团；右图：基于精准唯一标签渲染，光点排布清晰独立。
 > *   **Text**: "唯一标识：防止数据点重叠"
 > *   **Caption**: "唯一的标识符能确保每个点都能独立显示出来。"
-> *   **Asset**: ![预览](../public/slides/S20b_Key_Collision_Simulation.png)
+> *   **Asset**: ![预览](../public/slides/S20b_Key_Collision_Simulation.webp)
 
 **一招鲜记住**：画点图时，一定要找一列绝对不会重复的“单号（如学号/工号）”来做 Key。**这不仅是为了避免图表渲染死机，更是为了让数据平原上原本挤压重叠的生命，能够被物理劈开并重新夺回独立的发言权！**
 
@@ -371,7 +371,7 @@
 > *   **Scene**: 界面因为定位键不唯一，导致几百个散点重叠合并成一个点的错误展示。
 > *   **Caption**: "定位键不唯一，导致大量散点重叠丢失。"
 > *   **Text**: "重叠丢失：没有唯一标识的后果"
-> *   **Asset**: ![预览](../public/slides/S22_Key_Value_Traps.png)
+> *   **Asset**: ![预览](../public/slides/S22_Key_Value_Traps.webp)
 
 
 
@@ -385,7 +385,7 @@
 > *   **Scene**: 时间聚合展示，从“天”合并为“周”，再合并为“月”。
 > *   **Caption**: "灵活缩放：在看细节和看大趋势之间切换。"
 > *   **Text**: "灵活缩放：时间可以合并着看"
-> *   **Asset**: ![预览](../public/slides/S23_Time_Hierarchy.png)
+> *   **Asset**: ![预览](../public/slides/S23_Time_Hierarchy.webp)
 
 看清了数据“是什么 (What)”之后，下一章我们将深入挖掘分析数据“为了什么 (Why)”。
 
@@ -399,7 +399,7 @@
 > *   **Scene**: 左侧是 Excel 中的灾害数据，右侧是学生画出的数据属性分类树（指示哪些列是分类标签，哪些是数值）。
 > *   **Caption**: "验证站 2：识别属性类别，识破隐藏的数据陷阱。"
 > *   **Text**: "验证站 2：识别属性类别，识破隐藏的数据陷阱。"
-> *   **Asset**: ![预览](../public/slides/S23b_Demo_Station_2.png)
+> *   **Asset**: ![预览](../public/slides/S23b_Demo_Station_2.webp)
 
 > [ACTIVITY]
 > *   **Type**: `Workshop`

@@ -35,7 +35,7 @@ The interaction framework defines not only the high-level structure of screen la
 Construct key path scenarios.   
 6 Check designs with validation scenarios.
 
-![](images/24ead2ec7e79e7e3a190ef99d0bc73102ae0d4b5b95e90ba6ae9918211b7694b.jpg)  
+![](images/24ead2ec7e79e7e3a190ef99d0bc73102ae0d4b5b95e90ba6ae9918211b7694b.webp)  
 Figure 5-1: The Framework Definition process
 
 Even though we've broken the process into numerically sequenced steps, typically this is not a linear effort. Rather, it occurs in iterative loops. In particular, Steps 3 through 5 may be switched, depending on the designer's thought process (more on this later). The six steps are described in the following sections.
@@ -118,7 +118,7 @@ Using detailed interaction design principles and patterns is extremely helpful a
 
 Now we're ready to sketch the interface. This visualization of the interface should be simple at first. Around the studio, we often call this the rectangles phase. Our sketches start by subdividing each view into rough rectangular areas corresponding to panes, control components (such as toolbars), and other top-level containers, as shown in Figure 5-2. Label the rectangles, and illustrate and describe how one grouping or element affects others. Draw arrows from one set of rectangles to others to represent flows or state changes.
 
-![](images/eb57738aaa02028700ea075b053e4071f11f296a90d911983b67fbf535311b90.jpg)  
+![](images/eb57738aaa02028700ea075b053e4071f11f296a90d911983b67fbf535311b90.webp)  
 Figure 5-2: An early framework sketch from designs Cooper created for Cross Country TravCorps, an online portal for traveling nurses. Framework sketches should be simple, starting with rectangles, names, and brief descriptions of relationships between functional areas. Details can be visually hinted at to give an idea of the contents, but don't fall into the trap of designing detail at this stage.
 
 You may want to sketch different ways of fitting together top-level containers in the interface. This visualization of the interface should be simple at first: boxes representing each functional group and/or container with names and descriptions of the relationships between the different areas (see Figure 5-2).
@@ -149,7 +149,7 @@ By using a sequence of low-fidelity sketches accompanied by the narrative of the
 
 Because creative human activities are rarely a sequential, linear process, the steps in the Framework phase shouldn't be thought of as a simple sequence. It is common to move back and forth between steps and to iterate the whole process several times until you have a solid design solution. Depending on how you think, you have a couple of different ways to approach Steps 3 through 5. You may find that one works better for you than another.
 
-![](images/0a4a5486af7dd2d98e34f4cb414465a93c2e2f2f11ea44b04286d899e99c38cc.jpg)  
+![](images/0a4a5486af7dd2d98e34f4cb414465a93c2e2f2f11ea44b04286d899e99c38cc.webp)  
 Figure 5-3: A more evolved Framework rendering from the Cross Country TravCorps job search web application
 
 Verbal thinkers may want to use the scenario to drive the process and approach Steps 3 through 5 in the following sequence:
@@ -215,7 +215,7 @@ Visual language studies should relate to the personas' experience goals, as well
 
 Substantial work is often required to translate a style guide for marketing collateral into a meaningful look and feel for an interactive product or website. It's also important to consider environmental factors and persona aptitudes when devising visual styles. Screens that must be visible under bright lights or from a distance require high contrast and more saturated colors. The elderly and other sight-impaired users require larger and more readable typefaces.
 
-![](images/ef874e2ad204909d1fa5f3383cfa02d92c09059360a726f65899e1ce935d01cb.jpg)  
+![](images/ef874e2ad204909d1fa5f3383cfa02d92c09059360a726f65899e1ce935d01cb.webp)  
 Figure 5-4: Visual language studies are used to explore a variety of visual styles abstractly and somewhat independent of the interaction design. This is useful because it allows us to have initial discussions about visual language without getting hung up on interaction design details. Of course, eventually visual design and interaction design must be conducted in lockstep.
 
 We typically show between three and five different approaches during our initial review with stakeholders, most often using each one to optimize a particular experience attribute. This is a little different from our approach to interaction design, in which a product usually has one optimal behavioral framework. Visually, several different styles all can be consistent with experience keywords and goals. Using experience attributes to develop these approaches helps move stakeholders away from personal tastes and biases by providing a vocabulary for an experience that is in sync with the brand's meaning.

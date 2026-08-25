@@ -1,6 +1,6 @@
 **Designing Text**
 
-![](images/index-102_1.png)
+![](images/index-102_1.webp)
 
 **Establish a type scale**
 
@@ -15,7 +15,7 @@ It leads to annoying inconsistencies in your designs.
 
 So how do you define a type system?
 
-![](images/index-103_1.png)
+![](images/index-103_1.webp)
 
 103
 
@@ -82,7 +82,7 @@ by hand. You don’t have to worry about subpixel rounding errors this
 way, and you have total control over which sizes exist instead of
 outsourcing that job to some mathematical formula.
 
-![](images/index-105_1.png)
+![](images/index-105_1.webp)
 
 105
 
@@ -95,9 +95,9 @@ aligns nicely with the spacing and sizing scale recommended in
 It’s constrained just enough to speed up your decision making, but isn’t
 so limited as to make you feel like you’re missing a useful size.
 
-![](images/index-106_1.png)
+![](images/index-106_1.webp)
 
-![](images/index-106_2.png)
+![](images/index-106_2.webp)
 
 Establish a type scale
 
@@ -126,5 +126,5 @@ font size is 17.5px, not a value from your type scale!
 Stick to *px* or *rem* units — it’s the only way to guarantee you’re
 actually sticking to the system.
 
-![](images/index-108_1.png)
+![](images/index-108_1.webp)
 

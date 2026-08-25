@@ -8,13 +8,13 @@ Axure RP 9是一款备受瞩目的产品原型设计软件，它可以让设�
 
 微课视频
 
-![](images/EPUB/images/image_235.jpg)
+![](images/EPUB/images/image_235.webp)
 
 ### Axure RP 9的工作界面
 
 在熟悉Axure RP 9的基础操作之前，先要弄清Axure RP 9工作界面中每个板块的功能划分，这样比较方便我们操作时更快地找到对应的功能选项，所以本小节主要熟悉此软件的工作界面，如图4-2所示。
 
-![](images/EPUB/images/image_236.jpg)
+![](images/EPUB/images/image_236.webp)
 
 图4-2 Axure RP 9的工作界面
 
@@ -26,7 +26,7 @@ Axure RP 9的每个菜单包含同类的操作命令，我们可以根据要�
 
 Axure RP 9的工具栏由上半部分的工具按钮和下半部分的样式按钮组成，如图4-3所示。
 
-![](images/EPUB/images/image_237.jpg)
+![](images/EPUB/images/image_237.webp)
 
 图4-3 工具栏
 
@@ -38,11 +38,11 @@ Axure RP 9的工具栏由上半部分的工具按钮和下半部分的样式�
 
 “元件”面板自带Default元件、Flow元件、Icons元件，通过“元件”面板可管理外部元件库，如图4-6所示。
 
-![](images/EPUB/images/image_238.jpg)
+![](images/EPUB/images/image_238.webp)
 
 ▲图4-4 “页面”面板
 
-![](images/EPUB/images/image_239.jpg)
+![](images/EPUB/images/image_239.webp)
 
 图4-5 “概要”面板
 
@@ -50,11 +50,11 @@ Axure RP 9中的母版可以简单理解为公共元件模板，将母版应�
 
 注意：选中“元件”面板中的元件，将其拖动到工作区中即可使用；另外，可将自己做好的组合元件保存在元件库中，再次使用时直接将其拖动到工作区即可。
 
-![](images/EPUB/images/image_240.jpg)
+![](images/EPUB/images/image_240.webp)
 
 ▲图4-6 “元件”面板
 
-![](images/EPUB/images/image_241.jpg)
+![](images/EPUB/images/image_241.webp)
 
 图4-7 “母版”面板
 
@@ -86,19 +86,19 @@ Axure RP 9中的母版可以简单理解为公共元件模板，将母版应�
 
 当页面过多时，可以通过单击工作区右上角的“选择与管理标签”按钮，在弹出的菜单中选择命令，执行相应的操作。
 
-![](images/EPUB/images/image_242.jpg)
+![](images/EPUB/images/image_242.webp)
 
 ▲图4-8 “样式”面板
 
-![](images/EPUB/images/image_243.jpg)
+![](images/EPUB/images/image_243.webp)
 
 ▲图4-9 “交互”面板
 
-![](images/EPUB/images/image_244.jpg)
+![](images/EPUB/images/image_244.webp)
 
 ▲图4-10 “说明”面板
 
-![](images/EPUB/images/image_245.jpg)
+![](images/EPUB/images/image_245.webp)
 
 图4-11 工作区
 
@@ -114,11 +114,11 @@ Axure RP 9中的母版可以简单理解为公共元件模板，将母版应�
 
 Default元件分为4个类型，如图4-12所示，这些元件可以满足原型设计中的一些基本需求，图4-13所示为基本元件。
 
-![](images/EPUB/images/image_246.jpg)
+![](images/EPUB/images/image_246.webp)
 
 ▲图4-12 Default元件
 
-![](images/EPUB/images/image_247.jpg)
+![](images/EPUB/images/image_247.webp)
 
 图4-13 基本元件展示
 
@@ -126,11 +126,11 @@ Default元件分为4个类型，如图4-12所示，这些元件可以满足原�
 
 Flow元件即“流程图元件”，Axure RP 9为用户提供了专用的Flow元件，如图4-14所示。使用Flow元件可以更好地设计制作流程图页面，如图4-15所示。
 
-![](images/EPUB/images/image_248.jpg)
+![](images/EPUB/images/image_248.webp)
 
 ▲图4-14 Flow元件
 
-![](images/EPUB/images/image_249.jpg)
+![](images/EPUB/images/image_249.webp)
 
 图4-15 Flow元件展示
 
@@ -138,11 +138,11 @@ Flow元件即“流程图元件”，Axure RP 9为用户提供了专用的Flow
 
 Icons元件即“图标元件”。Axure RP 9为用户提供了专用的Icons元件，如图4-16所示。使用Icons元件可以更好地制作页面原型，如图4-17所示。
 
-![](images/EPUB/images/image_250.jpg)
+![](images/EPUB/images/image_250.webp)
 
 ▲图4-16 Icons元件
 
-![](images/EPUB/images/image_251.jpg)
+![](images/EPUB/images/image_251.webp)
 
 图4-17 Icons元件展示
 
@@ -152,7 +152,7 @@ Icons元件即“图标元件”。Axure RP 9为用户提供了专用的Icons�
 
 微课视频
 
-![](images/EPUB/images/image_252.jpg)
+![](images/EPUB/images/image_252.webp)
 
 ### Axure RP 9中的交互功能
 
@@ -162,7 +162,7 @@ Icons元件即“图标元件”。Axure RP 9为用户提供了专用的Icons�
 
 注意：当窗口空间不够大时，可采用以下方法来打开“交互编辑器”对话框，如图4-18所示。
 
-![](images/EPUB/images/image_253.jpg)
+![](images/EPUB/images/image_253.webp)
 
 图4-18 “交互编辑器”对话框
 
@@ -178,11 +178,11 @@ Axure RP 9原型交互设计中实现交互行为需要以下三部分。
 
 ③ 针对该情形的动作。
 
-![](images/EPUB/images/image_254.jpg)
+![](images/EPUB/images/image_254.webp)
 
 ▲图4-19 打开“交互编辑器”对话框1
 
-![](images/EPUB/images/image_255.jpg)
+![](images/EPUB/images/image_255.webp)
 
 图4-20 打开“交互编辑器”对话框2
 
@@ -214,19 +214,19 @@ if（条件2）
 
 注意：可用鼠标来调整情形的顺序，特别是使用条件逻辑时，情形的顺序是非常重要的。
 
-![](images/EPUB/images/image_256.jpg)
+![](images/EPUB/images/image_256.webp)
 
 ▲图4-21 元件的交互事件
 
-![](images/EPUB/images/image_257.jpg)
+![](images/EPUB/images/image_257.webp)
 
 ▲图4-22 页面的交互事件
 
-![](images/EPUB/images/image_258.jpg)
+![](images/EPUB/images/image_258.webp)
 
 ▲图4-23 添加情形
 
-![](images/EPUB/images/image_259.jpg)
+![](images/EPUB/images/image_259.webp)
 
 图4-24 为情形添加条件逻辑
 
@@ -238,11 +238,11 @@ if（条件2）
 
 可用鼠标来调整动作的顺序，如图4-26所示。
 
-![](images/EPUB/images/image_260.jpg)
+![](images/EPUB/images/image_260.webp)
 
 ▲图4-25 添加动作
 
-![](images/EPUB/images/image_261.jpg)
+![](images/EPUB/images/image_261.webp)
 
 图4-26 调整动作顺序
 
@@ -256,7 +256,7 @@ if（条件2）
 
 表4-1 页面和母版的事件
 
-![](images/EPUB/images/image_262.jpg)
+![](images/EPUB/images/image_262.webp)
 
 #### **2.元件的动作集**
 
@@ -264,7 +264,7 @@ if（条件2）
 
 表4-2 链接
 
-![](images/EPUB/images/image_263.jpg)
+![](images/EPUB/images/image_263.webp)
 
 ### **4.3.5**
 
@@ -280,7 +280,7 @@ if（条件2）
 
 系统函数是系统已经创建好的函数变量，用于直接获取对象的特定属性值，可划分为以下10类：中继器/数据集函数、元件函数、页面函数、窗口函数、鼠标指针函数、数字函数、字符串函数、数学函数、日期函数和布尔函数，如图4-27所示。
 
-![](images/EPUB/images/image_264.jpg)
+![](images/EPUB/images/image_264.webp)
 
 图4-27 系统函数
 
@@ -288,7 +288,7 @@ if（条件2）
 
 表4-3 元件函数的名称和用途
 
-![](images/EPUB/images/image_265.jpg)
+![](images/EPUB/images/image_265.webp)
 
 #### **2.自定义变量**
 
@@ -298,7 +298,7 @@ if（条件2）
 
 在菜单栏中，选择“项目→全局变量”，在弹出的“全局变量”对话框中，单击“添加”按钮，可以设置全局变量的名称及默认值（通常情况下默认值为空），如图4-28所示。之后在页面或元件的交互中动态地设置全局变量的值。
 
-![](images/EPUB/images/image_266.jpg)
+![](images/EPUB/images/image_266.webp)
 
 图4-28 创建全局变量
 
@@ -308,11 +308,11 @@ if（条件2）
 
 使用局部变量，需要单击“fx”按钮，打开“编辑文本”对话框，先设置局部变量，如图4-29所示。然后在“编辑文本”对话框中，选择“插入变量或函数”选项，打开下拉列表，进行局部变量的选择，如图4-30所示。
 
-![](images/EPUB/images/image_267.jpg)
+![](images/EPUB/images/image_267.webp)
 
 ▲图4-29 “编辑文本”对话框
 
-![](images/EPUB/images/image_268.jpg)
+![](images/EPUB/images/image_268.webp)
 
 图4-30 局部变量的选择
 
@@ -324,7 +324,7 @@ Axure RP 9的函数变量的基本语法是：用“\[\[ \]\]”（英文双�
 
 例如，\[\[LVAR.width\]\]表示变量LVAR的宽度。\[\[This.width\]\]表示当前元件的宽度，如图4-31所示。
 
-![](images/EPUB/images/image_269.jpg)
+![](images/EPUB/images/image_269.webp)
 
 图4-31 函数变量的语法
 
@@ -336,7 +336,7 @@ Axure RP 9的函数变量的基本语法是：用“\[\[ \]\]”（英文双�
 
 微课视频
 
-![](images/EPUB/images/image_270.jpg)
+![](images/EPUB/images/image_270.webp)
 
 页面及互交样式设置
 
@@ -350,7 +350,7 @@ Axure RP 9的函数变量的基本语法是：用“\[\[ \]\]”（英文双�
 
 操作方法：“选择元件→单击鼠标右键→交互样式”，或者在元件的“交互”面板中找到“交互样式”，单击“+”按钮添加新的交互样式，如图4-32所示，即可打开“交互样式”对话框。
 
-![](images/EPUB/images/image_271.jpg)
+![](images/EPUB/images/image_271.webp)
 
 图4-32 添加元件交互样式
 
@@ -358,7 +358,7 @@ Axure RP 9的函数变量的基本语法是：用“\[\[ \]\]”（英文双�
 
 Axure RP 9中的元件交互样式有如下几种，如图4-33所示。
 
-![](images/EPUB/images/image_272.jpg)
+![](images/EPUB/images/image_272.webp)
 
 图4-33 “交互样式”对话框
 
@@ -378,7 +378,7 @@ Axure RP 9中的元件交互样式有如下几种，如图4-33所示。
 
 在Axure RP 9中可以为动作设定动画，以丰富视觉效果。一个动画通常有两个参数，即效果和时间，如图4-34所示。
 
-![](images/EPUB/images/image_273.jpg)
+![](images/EPUB/images/image_273.webp)
 
 图4-34 动作动画
 
@@ -386,7 +386,7 @@ Axure RP 9中的元件交互样式有如下几种，如图4-33所示。
 
 通常有9种可见性效果可供选择，如图4-35所示。这些效果适用于“显示/隐藏”及“设置面板状态”动作。
 
-![](images/EPUB/images/image_274.jpg)
+![](images/EPUB/images/image_274.webp)
 
 图4-35 可见性效果
 
@@ -398,11 +398,11 @@ Axure RP 9中的元件交互样式有如下几种，如图4-33所示。
 
 “移动”动作可以指定目标元件（部件）的移动范围。在更多选项中，单击“添加界限”按钮，即可对边界的顶部、左侧、右侧、底部进行设置，如图4-37所示。
 
-![](images/EPUB/images/image_275.jpg)
+![](images/EPUB/images/image_275.webp)
 
 ▲图4-36 运动效果
 
-![](images/EPUB/images/image_276.jpg)
+![](images/EPUB/images/image_276.webp)
 
 图4-37 设置边界
 

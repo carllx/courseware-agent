@@ -7,8 +7,8 @@
 > *   **Slide**: `S02_Visual_Atoms_Comparison`
 > *   **Layout**: `Split`
 > *   **Scene**: 左右分栏对比视图。左侧展示微信运动步数排行榜的极简界面，通过1D线条（柱状图）长度映射数字大小；右侧展示《纽约时报》美国新冠风险评估地图，通过2D版图的面标记和颜色深浅映射极高风险地域。两者的强烈对比展示了从日常图表到史诗级数据叙事，其底层构件其实是相同的视觉原子。
-> *   **Asset 1**: ![微信运动步数信息图](../public/slides/S02_WeChat_Steps.jpg)
-> *   **Asset 2**: ![《纽约时报》新冠风险地图](../public/slides/S02_NYT_Covid_Map.jpg)
+> *   **Asset 1**: ![微信运动步数信息图](../public/slides/S02_WeChat_Steps.webp)
+> *   **Asset 2**: ![《纽约时报》新冠风险地图](../public/slides/S02_NYT_Covid_Map.webp)
 > *   **Source**: `External`
 > *   **Text**: "视觉原子的力量：从微信步数到全景地图"
 
@@ -19,7 +19,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03_Marks_Channels_Intro`
-> *   **Asset**: ![AI生成预览](../public/slides/S03_Marks_Channels_Intro.png)
+> *   **Asset**: ![AI生成预览](../public/slides/S03_Marks_Channels_Intro.webp)
 > *   **Layout**: `Grid`
 > *   **Scene**: 一张充满科技感的"数据可视化控制台"设计图。画面左侧的全息投影中悬浮着基础几何图形（点、线、多边形面），即"Marks"；右侧则是一个带有色彩、大小、位置推子和旋钮的调音台式控制面板，即"Channels"。面板上的推子射出光束，直接连接并控制左侧的几何图形，精准传达出"通道控制标记"的核心逻辑。
 > *   **Text**: "视觉编码的独立基石：从抽象数据到具象图形的桥梁"
@@ -36,7 +36,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03b_Marks_Hierarchy`
-> *   **Asset**: ![Munzner Fig 5.2](../public/textbook/Fig5.2_Marks_Geometry.jpg)
+> *   **Asset**: ![Munzner Fig 5.2](../public/textbook/Fig5.2_Marks_Geometry.webp)
 > *   **Source**: Textbook
 > *   **Layout**: `Split`
 > *   **Scene**: 从左到右的几何属性阶梯图：0D 点（标注"自由度：最高"）→1D 线（标注"自由度：中等，长度已被占用"）→2D 面（标注"状态分化：自由缩放 vs 空间锚定"），展示不同标记在承载数据时的物理约束。
@@ -57,7 +57,7 @@
 > [VISUAL]
 > *   **Slide**: `S03b2_Items_and_Links`
 > *   **RenderMode**: `pure`
-> *   **Asset**: ![预览](../public/slides/S03b2_Items_and_Links.png)
+> *   **Asset**: ![预览](../public/slides/S03b2_Items_and_Links.webp)
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧展示零散的点与柱子（Items），右侧展示将它们串联起来的网状线条（Connection）与层叠的嵌套面（Containment，如代表文件层级的树图）。
 > *   **Text**: "标记的网络功能：表达个体 vs 表达关系"
@@ -75,7 +75,7 @@
 > [VISUAL]
 > *   **Slide**: `S03c_Channel_Metaphor`
 > *   **RenderMode**: `pedagogical`
-> *   **Asset**: ![预览](../public/slides/S03c_Channel_Metaphor.png)
+> *   **Asset**: ![预览](../public/slides/S03c_Channel_Metaphor.webp)
 > *   **Layout**: `Center`
 > *   **Scene**: 类似 Figma 或设计软件的 UI 界面。画布中央悬浮着基础的矢量几何节点（点、线、面，代表 Marks），右侧是带有数值联动效果的属性控制面板（代表 Channels）。属性面板中的 Fill 颜色拾色器、X/Y 坐标数值、Stroke 粗细等选项正射出光束，精准控制着画布中央几何图形的对应属性。
 > *   **Text**: "通道：操控几何原子的属性面板"
@@ -90,7 +90,7 @@
 > *   **RenderMode**: `pedagogical`
 > *   **Layout**: `Center`
 > *   **Scene**: 展示“身份通道”的分类图解（纯白背景，瑞士红点缀）。通过不同的几何形状（圆、方、三角）对元素进行无序归类。
-> *   **Asset**: ![身份通道](../public/slides/S03c1_Identity_Channels.png)
+> *   **Asset**: ![身份通道](../public/slides/S03c1_Identity_Channels.webp)
 > *   **Source**: `AI_Gen`
 > *   **Text**: "感官模态之一：身份通道"
 
@@ -101,7 +101,7 @@
 > *   **RenderMode**: `pedagogical`
 > *   **Layout**: `Center`
 > *   **Scene**: 展示“量化通道”的刻度图解。通过柱状图的长度递增和气泡图面积的扩大，直观表示数值大小的有序排列（最大数值用瑞士红高亮）。
-> *   **Asset**: ![量化通道](../public/slides/S03c2_Magnitude_Channels.png)
+> *   **Asset**: ![量化通道](../public/slides/S03c2_Magnitude_Channels.webp)
 > *   **Source**: `AI_Gen`
 > *   **Text**: "感官模态之二：量化通道"
 
@@ -114,7 +114,7 @@
 > *   **RenderMode**: `pedagogical`
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧展示“空间区域（分类）”：画面被粗略划分为左半区和右半区，代表不同的阵营；右侧展示“空间位置（量化）”：带有X/Y轴刻度的精确网格坐标系，标出了某个数据点的确切数值。
-> *   **Asset**: ![空间的双重属性](../public/slides/S03c3_Space_Duality.png)
+> *   **Asset**: ![空间的双重属性](../public/slides/S03c3_Space_Duality.webp)
 > *   **Source**: `AI_Gen`
 > *   **Text**: "空间的双重属性：区域（分类） vs 坐标（量化）"
 
@@ -126,7 +126,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03c_Five_Dim_Scatter`
-> *   **Asset 1**: ![主图](../public/slides/S03c_Five_Dim_Comparison.png)
+> *   **Asset 1**: ![主图](../public/slides/S03c_Five_Dim_Comparison.webp)
 > *   **Source**: `AI_Gen`
 > *   **Layout**: `Split`
 > *   **Scene**: 展示一张极致纯净的五维数据散点图解（纯白背景，精确细线）。散点在 X 轴和 Y 轴上排布（代表年龄与收入）；散点本身包含不同的形状（圆形与方形代表学历类别），不同的面积大小（代表健康评分），以及黑白线框与瑞士红高亮的颜色对比（代表性别）。整体呈现 Edward Tufte 风格的极简学术图表感，彻底剔除所有纸张纹理与装饰噪音。
@@ -175,7 +175,7 @@
 > *   **RenderMode**: `pedagogical`
 > *   **Layout**: `Split`
 > *   **Scene**: 左右分栏的教学图解。左侧代表"表达性（类型匹配拼图）"：分类数据（圆、三角、方形）箭头指向身份通道面板（色相色板），连续数据（递增柱状图）箭头指向量化通道面板（大小梯度圆圈），红叉标记错误的交叉连接；右侧代表"有效性（阶级排名阶梯）"：顶部瑞士红高亮的空间坐标轴图标（#1 最有效），中部面积圆圈，底部明度渐变条（最末位）。纯白背景，Edward Tufte 极简线框风格。
-> *   **Asset**: ![表达性与有效性](../public/slides/S04_Expressiveness_Effectiveness.png)
+> *   **Asset**: ![表达性与有效性](../public/slides/S04_Expressiveness_Effectiveness.webp)
 > *   **Source**: `AI_Gen`
 > *   **Text**: "法则降临：表达性与有效性"
 
@@ -211,7 +211,7 @@
 > *   **Layout**: `Grid`
 > *   **Scene**: 一个 2x2 的图解矩阵。上半部分展示无序分类数据（如苹果、香蕉）：正确映射到不同形状的几何图标，并用红叉标出错误的“映射到不同大小圆圈”；下半部分展示有序连续数据（如温度计）：正确映射到不同大小的圆圈，并用红叉标出错误的“映射到不同形状的几何图标”。
 > *   **Keywords**: 分类映射形状, 连续映射大小
-> *   **Asset**: ![预览](../public/slides/S04a1_Expressiveness_Rule.png)
+> *   **Asset**: ![预览](../public/slides/S04a1_Expressiveness_Rule.webp)
 > *   **Source**: `AI_Gen`
 > *   **Text**: "表达性原则：分类用身份通道，连续用量化通道"
 
@@ -225,7 +225,7 @@
 > *   **Layout**: `Comparison`
 > *   **Scene**: 左侧是错误的"新饮料分布地图"（四个大小不一的圆圈，其中青柠汽水的圆圈被突出标大，带有问号），右侧是正确的修改版（四个相同大小但不同颜色的圆圈，清晰区分四款饮料）。
 > *   **Keywords**: 错误大小气泡, 正确颜色气泡
-> *   **Asset**: ![预览](../public/slides/S04a2_Beverage_Map_Fail.png)
+> *   **Asset**: ![预览](../public/slides/S04a2_Beverage_Map_Fail.webp)
 > *   **Source**: `AI_Gen`
 > *   **Text**: "日常翻车：用大小代表分类引发的认知噪音"
 
@@ -237,7 +237,7 @@
 > *   **Layout**: `Comparison`
 > *   **Scene**: 左侧展示错误的重复编码（四个货架格子里放着瓶子，不仅位置被分开，瓶身还画蛇添足地画上了四种复杂的纹理图案，被红叉标出）；右侧展示正确的极简编码（四个格子里放着纯白统一的无纹理瓶子，让“空间区域”独自承担分类任务）。
 > *   **Keywords**: 货架, 饮料瓶
-> *   **Asset**: ![预览](../public/slides/S04a3_Redundant_Encoding.png)
+> *   **Asset**: ![预览](../public/slides/S04a3_Redundant_Encoding.webp)
 > *   **Source**: `AI_Gen`
 > *   **Text**: "重复编码：画蛇添足的视觉噪音"
 
@@ -250,7 +250,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S04b_Expressiveness_Disaster`
-> *   **Asset**: ![哈佛医学院彩虹色带误诊案例](../public/slides/S04b_Harvard_Rainbow_Disaster.png)
+> *   **Asset**: ![哈佛医学院彩虹色带误诊案例](../public/slides/S04b_Harvard_Rainbow_Disaster.webp)
 > *   **Source**: Web Source
 > *   **Layout**: `Full`
 > *   **Scene**: 展示哈佛医学院论文原图的 2x2 对比矩阵。左侧是彩虹色带渲染的血管（色彩突兀断裂），右侧是红灰单色渐变渲染的血管（平滑连续）。
@@ -280,7 +280,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S04_Channel_Effectiveness`
-> *   **Resource**: ![Munzner Fig 5.1/5.6](../public/textbook/Fig5.1_Channel_Effectiveness.jpg)
+> *   **Resource**: ![Munzner Fig 5.1/5.6](../public/textbook/Fig5.1_Channel_Effectiveness.webp)
 > *   **Source**: Textbook
 > *   **Layout**: `Grid`
 > *   **Scene**: 展示 Tamara Munzner 理论中通道的视觉效能硬性排序梯队。左列为最强的量化通道（对齐位置打头阵）；右列为身份通道（空间区域和色相打头阵）。
@@ -324,7 +324,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S05_Gapminder_Base`
-> *   **Asset**: ![预览](../public/slides/S05_Gapminder_Base.png)
+> *   **Asset**: ![预览](../public/slides/S05_Gapminder_Base.webp)
 > *   **Layout**: `Center`
 > *   **Scene**: Gapminder 经典气泡图。X轴人均GDP，Y轴预期健康寿命，气泡大小代表人口，颜色代表大洲，带有多条气泡随时间移动的轨迹。
 > *   **Text**: "遵守铁律：Gapminder的五维交响乐"
@@ -336,7 +336,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S03c2_Bubble_Chart_Anatomy`
-> *   **Asset**: ![预览](../public/slides/S03c2_Bubble_Chart_Anatomy.png)
+> *   **Asset**: ![预览](../public/slides/S03c2_Bubble_Chart_Anatomy.webp)
 > *   **Layout**: `Split`
 > *   **Scene**: 左侧展示一个标准气泡图；右侧将其拆解为三层透明度叠加的图层——底层的 X/Y 坐标轴（量化位置）、漂浮的颜色层（身份色相）、以及最上层不同膨胀程度的外壳（量化面积）。
 > *   **Text**: "解剖气泡图：撕碎流行的外衣"
@@ -351,7 +351,7 @@
 
 > [VISUAL]
 > *   **Slide**: `S05c_Nightingale_Rose`
-> *   **Asset**: ![预览](../public/slides/S05c_Nightingale_Rose.jpg)
+> *   **Asset**: ![预览](../public/slides/S05c_Nightingale_Rose.webp)
 > *   **Source**: Web Source
 > *   **Layout**: `Full`
 > *   **Scene**: 佛罗伦萨·南丁格尔经典的极坐标面积图（鸡冠花图），标记了不同颜色代表的不同死因，展现着挽救生命的巨大视觉震撼。

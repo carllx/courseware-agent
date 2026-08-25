@@ -13,7 +13,7 @@ description: Standard 级别检查 — Part P (Practice 冒烟检查)。仅在�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_practice.py \
+  .agent/scripts/validation/validate_practice.py \
   --course "<课程>" --week <周次数字>
 ```
 

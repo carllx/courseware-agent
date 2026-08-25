@@ -22,15 +22,15 @@ For example, in Microsoft Outlook 2013, an icon next to an e-mail sender's name 
 
 Here's another example, this time from iOS: When you download an app from the App Store, the downloading file appears on the Home screen as an icon with a small, dynamically updating progress indicator, showing visually how far along the app is in the download and install process (see Figure 15-2).
 
-![](images/c21da89ab80c65eb65deee461ef3f72591ba26010c08b672e2c684748ed89fca.jpg)  
+![](images/c21da89ab80c65eb65deee461ef3f72591ba26010c08b672e2c684748ed89fca.webp)  
 Figure 15-1: This pane from a Cooper design for a long-term health-care information system is a good example of RVMF. The diagram represents all the rooms in the facility. Color coding indicates male, female, empty, or mixed-gender rooms; numbers indicate empty beds; tiny boxes between rooms indicate shared bathrooms. Black triangles indicate health issues, and a tiny H means a held bed. This RVMF is supplemented with ToolTips, which show room numbers and occupant names and highlight any important notices about the room or its residents. A numeric summary of rooms, beds, and employees is given at the top. This display has a short learning curve. After mastering it, nurses and facility managers can understand their facility's status at a glance.
 
-![](images/927268192561e7dbc84bde19879d1a0509db6d8360c3fc244a118ebd0e1ced72.jpg)  
+![](images/927268192561e7dbc84bde19879d1a0509db6d8360c3fc244a118ebd0e1ced72.webp)  
 Figure 15-2: When apps are purchased from Apple's App Store, the app icon appears on the Home screen of the iPad or iPhone (upper right). A dynamically updating circular indicator on the icon marks the progress of the download-and-install process.
 
 A final example of RVMF is from the computer gaming world: Sid Meier's Civilization (see Figure 15-3). This game provides dozens of examples of RVMF in its main interface, which is a map of the historical world. You are the leader of an evolving civilization that you are trying to build. Civilization uses RVMF to indicate half a dozen dynamically changing attributes of a city, all represented visually. If a city is more advanced, its architecture is more modern. If it is larger, the icon is larger and more embellished. If it is plagued by civil unrest, smoke rises from the city. Individual troop and civilian units also show status visually, by way of tiny meters indicating unit health and strength. Even the landscape has RVMF: Dotted lines marking spheres of influence shift as units move and cities grow. Terrain changes as roads are laid, forests are cleared, and mountains are mined. Although dialogs exist in the game, much of the information needed to understand what is going on is communicated clearly with no words or dialogs whatsoever.
 
-![](images/c3d2d3b2e07e2ceec725c5909da4a2fa437c5931bd70d19a8e30a7dc918cdace.jpg)  
+![](images/c3d2d3b2e07e2ceec725c5909da4a2fa437c5931bd70d19a8e30a7dc918cdace.webp)  
 Figure 15-3: Civilization is a game in which you chart the course of civilization. Its interface provides dozens of examples of rich visual modeless feedback.
 
 Imagine if all the objects that had pertinent status information on your desktop or in your application could display their status in this manner. Printer icons could show how close the printer is to completing your print job. Icons for hard drives and removable media could show how full these items are. When an object is selected for drag and drop, all the places that could receive it would become highlighted to announce their receptiveness.
@@ -177,7 +177,7 @@ Many applications that implement single Undo treat the last undone action as an 
 
 Microsoft Word contains what has unfortunately become a somewhat typical facility—a variation of multiple Undo that we will call group multiple Undo. It has several levels, showing a textual description of each operation in the Undo stack. You can examine the list of past operations and select an operation in the list to undo. However, you are not undoing that one operation, but rather all operations back to that point, inclusive (see Figure 15-4). This style of multiple Undo is also employed by many Adobe products.
 
-![](images/e0b23c21534b1c5793db2a6985648d8dd4feb1db2f9fdf592998bf2e25651afc.jpg)  
+![](images/e0b23c21534b1c5793db2a6985648d8dd4feb1db2f9fdf592998bf2e25651afc.webp)  
 Figure 15-4: With Microsoft Office's Undo/Redo facility, you can undo multiple actions, but only as a group; you can't choose to undo only the thing you did three actions ago. Redo works in the same manner.
 
 As a result, you cannot recover your six missing paragraphs without first reversing all the intervening operations. After you select one or more operations to undo, the list of undone operations becomes available in reverse order in the Redo control. Redo works exactly the same way as Undo. You can select as many operations to redo as you want, and all operations up to that specific one are redone.
@@ -234,7 +234,7 @@ Users occasionally want to back up long distances, but when they do, the granula
 
 Many tools exist to support the versioning concept in source code, but this concept is just emerging in the world outside of software development. 37signals' Writeboard, for example (see Figure 15-5), automatically creates versions of a collaborative text document. It allows users to compare versions and, of course, revert to any previous version.
 
-![](images/2ff75d9efc295506f8be58396b4967befba5e71937ca5dff3ef102df6f127afb.jpg)  
+![](images/2ff75d9efc295506f8be58396b4967befba5e71937ca5dff3ef102df6f127afb.webp)  
 Figure 15-5: Google Docs allows multiple people to collaborate on a single document. It creates a new version every time the user saves changes to the document and allows users to view the different versions. This can be quite useful because it allows collaboration without worry that valuable work will be overwritten.
 
 Critical to the effectiveness of a versioning facility is the behavior of the revert command. It should provide a list of the available saved versions of the document in question. This should include some information about each document, such as the time and day it was recorded, the name of the person who recorded it, the size, and some optional user-entered notes. A user should be able to understand the differences among versions and ultimately choose to revert to any one of these versions. In the case of reversion, the current state of the document should be saved as another version that can be reverted to.
@@ -249,7 +249,7 @@ This idiom is much more useful for a graphic document than for a text document. 
 
 Some operations simply cannot be undone because they involve some action that triggers a device not under the application's direct control. For example, after an e-mail message has been sent, there is no undoing it. (Gmail gives you a short amount of time to halt an e-mail by not actually sending it for a few seconds after you click Send, which is really quite clever. See Figure 15-6.)
 
-![](images/a4ee1de5f8478869497b411249ebb446eebbe788f1b24537af9221bd5e34d346.jpg)  
+![](images/a4ee1de5f8478869497b411249ebb446eebbe788f1b24537af9221bd5e34d346.webp)  
 Figure 15-6: Gmail lets you temporarily undo the undoable—sending an e-mail message—by waiting a few seconds after you click Send before really sending it.
 
 Why isn't a filename Undo provided? Because it doesn't fall into the traditional view of what Undo is for; developers generally don't provide a true Undo function for changing a filename.
@@ -268,6 +268,6 @@ When used as comparison functions, Undo and Redo are really one function and not
 
 Compare may seem like an advanced function, and it is for some applications. Just as the Jump function may not be used by the majority of TV watchers, the Compare button would remain a nicety for frequent users. This shouldn't detract from its usefulness, however. And for some applications, like photo manipulation and other media authoring apps, visual comparison tools that show the future before it happens have become almost a necessity.
 
-![](images/fd6cf593d03770e28146c9744b4fe635117b4ef731c892284ad69c15b3684f22.jpg)  
+![](images/fd6cf593d03770e28146c9744b4fe635117b4ef731c892284ad69c15b3684f22.webp)  
 Figure 15-7: Numerous photo processing apps on the iPad, including Photo Toaster, provide preview thumbnails of the image you are working on, each showing the result of a different effect or image parameter change. Tapping the thumbnail applies the change to the image, which is in itself a sort of preview, since it can be undone with a single additional tap.
 

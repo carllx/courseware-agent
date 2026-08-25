@@ -28,9 +28,9 @@ description: "逐字稿综合审查与修复（Subagent 串行协同版，支持
 
 #### Step 2.0: 自动化基线扫描 (Orchestrator 亲自执行)
 - **动作**：主控调用终端工具运行以下脚本，并将输出结果暂存，在后续派发任务时作为 Context 喂给子代理：
-  1. `python .agent/skills/validation_suite/scripts/validate_script_length.py "<脚本路径>" --module-breakdown`（获取字数和密度退化情况）
-  2. `python .agent/skills/validation_suite/scripts/validate_visual_text_sync.py "<脚本路径>"`（获取 Signaling Sync 信标错误）
-  3. （可选）`python .agent/skills/validation_suite/scripts/generate_cheat_sheet.py "<脚本路径>" --diagnose`（获取骨架链与段落推进率）
+  1. `python .agent/scripts/validation/validate_script_length.py "<脚本路径>" --module-breakdown`（获取字数和密度退化情况）
+  2. `python .agent/scripts/validation/validate_visual_text_sync.py "<脚本路径>"`（获取 Signaling Sync 信标错误）
+  3. （可选）`python .agent/skills/cheat_sheet_generator/scripts/generate_cheat_sheet.py "<脚本路径>" --diagnose`（获取骨架链与段落推进率）
 
 #### Step 2.1: 认知排雷专家 (Cognitive Auditor)
 - **动作**：使用 `define_subagent` 动态定义名为 `cognitive_auditor` 的子代理。

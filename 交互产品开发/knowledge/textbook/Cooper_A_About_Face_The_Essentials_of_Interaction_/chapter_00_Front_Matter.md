@@ -84,7 +84,7 @@ For Ben and Miles, for your patience and inspiration. —Christopher
 
 And for all the designers and engineers in our industry who are helping to imagine and build a better future.
 
-![](images/7a85ea15aaec06c602cb498170b05633d3f1f804a91a9c4e428f90b7c5e5d547.jpg)
+![](images/7a85ea15aaec06c602cb498170b05633d3f1f804a91a9c4e428f90b7c5e5d547.webp)
 
 # ABOUT THE AUTHORS
 

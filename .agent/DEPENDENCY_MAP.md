@@ -58,9 +58,6 @@
 | `librarian` | `/write` Phase 1 Step 2.3 | 知识扫描 |
 | `narrative_archaeologist` | `/write` Phase 1 Step 2.5 | 深度调研 |
 | `script_format` | `/write` Phase 2 Step 3, `/memory_optimize` Phase 2 (M5) | 写作规范 + 段落物理负荷 |
-| `validation_suite` | `/write`, `/audit`, `/generate_assets`, `/memory_optimize` | 验证器调用（含 cheat_sheet --diagnose） |
-| `validation_suite` (rules) | `/update_guidance` §C | `validate_rules.py` — 规则 frontmatter 合规性 |
-| `validation_suite` (V5) | `/audit`, `/new_course` | `validate_package.py` — V5 package.yaml 校验 |
 | `docx` | `/export` | Word 导出 |
 | `pptx` | `/ppt` | PPT 生成 |
 | `pdf` | 按需 | PDF 处理 |

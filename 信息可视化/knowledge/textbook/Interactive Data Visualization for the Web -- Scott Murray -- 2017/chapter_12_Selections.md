@@ -44,7 +44,7 @@ data-type="xref">Figure 12-1</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_simple_selection" class="figure">
 <img
-src="images/7dce6737eb79a96a26ef3bd71eaa7ecc4d8a2c3c7fda762c3094609b691eeb41.png"
+src="images/7dce6737eb79a96a26ef3bd71eaa7ecc4d8a2c3c7fda762c3094609b691eeb41.webp"
 class="calibre180" alt="dvw2 1201" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-1. </span>A
 simple selection</h6>
@@ -63,7 +63,7 @@ data-type="xref">Figure 12-2</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_groups" class="figure">
 <img
-src="images/2cd09a2e36d40ad97fad862a89c89ba4987564709289e950c928e9d2f3af2c85.png"
+src="images/2cd09a2e36d40ad97fad862a89c89ba4987564709289e950c928e9d2f3af2c85.webp"
 class="calibre181" alt="dvw2 1202" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-2.
 </span>Revealing _groups</h6>
@@ -79,7 +79,7 @@ data-type="xref">Figure 12-3</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_body_expanded" class="figure">
 <img
-src="images/e699c74f95288e0b75f48bceb63471c36afc1b5d6daa1df2fe39cad7736c65b1.png"
+src="images/e699c74f95288e0b75f48bceb63471c36afc1b5d6daa1df2fe39cad7736c65b1.webp"
 class="calibre182" alt="dvw2 1203" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-3.
 </span>body, expanded</h6>
@@ -118,7 +118,7 @@ data-type="xref">Figure 12-4</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_path" class="figure">
 <img
-src="images/7ee14274e6ca36b6870379c8c35d98128ba8199578482741d10f65fa17a33dc0.png"
+src="images/7ee14274e6ca36b6870379c8c35d98128ba8199578482741d10f65fa17a33dc0.webp"
 class="calibre183" alt="dvw2 1204" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-4.
 </span>Selecting a path</h6>
@@ -135,7 +135,7 @@ data-type="xref">Figure 12-5</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_data" class="figure">
 <img
-src="images/5ed2be778cd7bb3c245d1210fda587cb8298235973093f070145a138b01c0bc9.png"
+src="images/5ed2be778cd7bb3c245d1210fda587cb8298235973093f070145a138b01c0bc9.webp"
 class="calibre184" alt="dvw2 1205" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-5.
 </span>Revealing the bound data</h6>
@@ -158,7 +158,7 @@ returns *all* matching items.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_circles" class="figure">
 <img
-src="images/94bc8db61c7477f44162cbd40c31e1c518756a297ac1c464e2398ffb384975bf.png"
+src="images/94bc8db61c7477f44162cbd40c31e1c518756a297ac1c464e2398ffb384975bf.webp"
 class="calibre185" alt="dvw2 1206" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-6.
 </span>Selecting all the circles</h6>
@@ -174,7 +174,7 @@ data-type="xref">Figure 12-7</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_hover" class="figure">
 <img
-src="images/8fc648eb9a3553090154e506518079598b89ac1bf9e6533cc973fd8acd91abc6.png"
+src="images/8fc648eb9a3553090154e506518079598b89ac1bf9e6533cc973fd8acd91abc6.webp"
 class="calibre150" alt="dvw2 1207" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-7.
 </span>Mousing over an element to identify it</h6>
@@ -485,7 +485,7 @@ data-type="xref">Figure 12-8</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_bars_merge" class="figure">
 <img
-src="images/3e2ba59816e5afb828854357872faee4bd93f38d0be55e1bbfd5c51ce7715689.png"
+src="images/3e2ba59816e5afb828854357872faee4bd93f38d0be55e1bbfd5c51ce7715689.webp"
 class="calibre186" alt="dvw2 1208" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-8.
 </span>Bar chart with options to add and remove values</h6>
@@ -541,7 +541,7 @@ Let’s look at that first selection, `svg.selectAll("rect")`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/544c0e7290b5a78fdabda56c9c8d213951d3e693730e5a3a1dd2bb4863cf882f.png"
+src="images/544c0e7290b5a78fdabda56c9c8d213951d3e693730e5a3a1dd2bb4863cf882f.webp"
 class="calibre187" alt="dvw2 12in01" />
 <h6 class="calibre37"></h6>
 </div>
@@ -555,7 +555,7 @@ Now let’s uncomment `svg.selectAll("rect").data(dataset, key)`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/3e0e4c83c4a60fbb5b1e3138b3650434b72e198d01fc48a6312df0dde37b826b.png"
+src="images/3e0e4c83c4a60fbb5b1e3138b3650434b72e198d01fc48a6312df0dde37b826b.webp"
 class="calibre188" alt="dvw2 12in02" />
 <h6 class="calibre37"></h6>
 </div>
@@ -569,7 +569,7 @@ Let’s expand each of those, plus `_groups`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/6f0075c992533b921c3696fd8ddb006689968a82ef1780585a1c103acb972439.png"
+src="images/6f0075c992533b921c3696fd8ddb006689968a82ef1780585a1c103acb972439.webp"
 class="calibre189" alt="dvw2 12in03" />
 <h6 class="calibre37"></h6>
 </div>
@@ -583,7 +583,7 @@ just a moment.) Let’s expand that further:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/739699f2edbf3c749afd1b8a746950c292f9cb6293a0b6babe2d4f8a323aa46c.png"
+src="images/739699f2edbf3c749afd1b8a746950c292f9cb6293a0b6babe2d4f8a323aa46c.webp"
 class="calibre190" alt="dvw2 12in04" />
 <h6 class="calibre37"></h6>
 </div>
@@ -598,7 +598,7 @@ Let’s expand the first `EnterNode`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/8bb6541cf9ea65f52dff584ef5a0aa5f488460b274170ec2d93955fc5d571fb7.png"
+src="images/8bb6541cf9ea65f52dff584ef5a0aa5f488460b274170ec2d93955fc5d571fb7.webp"
 class="calibre190" alt="dvw2 12in05" />
 <h6 class="calibre37"></h6>
 </div>
@@ -613,7 +613,7 @@ selection, as with `svg.selectAll("rect").data(dataset, key).enter()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/dd4919bd8daa55b2c6c9e0e89f4bdfb4de5c7450b40f9798cbca6041badb4b8d.png"
+src="images/dd4919bd8daa55b2c6c9e0e89f4bdfb4de5c7450b40f9798cbca6041badb4b8d.webp"
 class="calibre191" alt="dvw2 12in06" />
 <h6 class="calibre37"></h6>
 </div>
@@ -624,7 +624,7 @@ Okay, this looks like a normal selection again. Let’s expand `_groups`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/8d61d95f5cff9ef1c591cda29546c361743f8acb4dd33b529757937b89dfc4d2.png"
+src="images/8d61d95f5cff9ef1c591cda29546c361743f8acb4dd33b529757937b89dfc4d2.webp"
 class="calibre190" alt="dvw2 12in07" />
 <h6 class="calibre37"></h6>
 </div>
@@ -644,7 +644,7 @@ svg.selectAll("rect").data(dataset, key).enter().append("rect")
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/f9f77691494a1df32db6aacb6ec45de8443c83621d0bfe8caff16efe97ccc0f9.png"
+src="images/f9f77691494a1df32db6aacb6ec45de8443c83621d0bfe8caff16efe97ccc0f9.webp"
 class="calibre192" alt="dvw2 12in08" />
 <h6 class="calibre37"></h6>
 </div>
@@ -655,7 +655,7 @@ This, too, looks like a normal selection. Let’s expand `_groups`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/eb0480e6c94fec213ebc1415e3f64826b61ce44d639fff5b986ca63f6a6e953b.png"
+src="images/eb0480e6c94fec213ebc1415e3f64826b61ce44d639fff5b986ca63f6a6e953b.webp"
 class="calibre190" alt="dvw2 12in09" />
 <h6 class="calibre37"></h6>
 </div>
@@ -669,7 +669,7 @@ even verify that the joined data values have transferred over:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/8ce168f2781eade149836b897e7ba6b4cad03394163689f966551a65044e98ec.png"
+src="images/8ce168f2781eade149836b897e7ba6b4cad03394163689f966551a65044e98ec.webp"
 class="calibre193" alt="dvw2 12in10" />
 <h6 class="calibre37"></h6>
 </div>
@@ -709,7 +709,7 @@ a selection containing a `NodeList` array of 20 items:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/789dd8219818c823ace8ef6aa8a36a107c0cf1d905eb1ee7a79aa11b962a605d.png"
+src="images/789dd8219818c823ace8ef6aa8a36a107c0cf1d905eb1ee7a79aa11b962a605d.webp"
 class="calibre194" alt="dvw2 12in11" />
 <h6 class="calibre37"></h6>
 </div>
@@ -722,7 +722,7 @@ that includes the enter and exit subselections. Here’s
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/fc9db5fa583fbda34606337359fea449e8355acd23e324a4aacae4da055eedb5.png"
+src="images/fc9db5fa583fbda34606337359fea449e8355acd23e324a4aacae4da055eedb5.webp"
 class="calibre195" alt="dvw2 12in12" />
 <h6 class="calibre37"></h6>
 </div>
@@ -733,7 +733,7 @@ Let’s expand the `_enter` and `_exit` subselections.
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/b4db2874f76e3cf77514a78e6b95e4774d7c898782166a81103bf4dddd844be8.png"
+src="images/b4db2874f76e3cf77514a78e6b95e4774d7c898782166a81103bf4dddd844be8.webp"
 class="calibre185" alt="dvw2 12in13" />
 <h6 class="calibre37"></h6>
 </div>
@@ -783,7 +783,7 @@ value to a numerically named property.
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/ec1e69b53306b60c7dbd38ddbb2228d49af0383f96e56858957a06d25795e18b.png"
+src="images/ec1e69b53306b60c7dbd38ddbb2228d49af0383f96e56858957a06d25795e18b.webp"
 class="pcalibre7 calibre196" alt="dvw2 12in14" />
 <h6 class="calibre37"></h6>
 </div>
@@ -804,7 +804,7 @@ Adding a nonnumerically named property to an array does *not* affect the
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/aee8c9a516703678de89600cd2fe72a78e9d7b560ffa8d98a778ec303ce94501.png"
+src="images/aee8c9a516703678de89600cd2fe72a78e9d7b560ffa8d98a778ec303ce94501.webp"
 class="calibre197 pcalibre7" alt="dvw2 12in15" />
 <h6 class="calibre37"></h6>
 </div>
@@ -841,7 +841,7 @@ down, you can see the final `rect` has a position value of 19 (the
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/781327eacba981364b0ac27d53955828313dc41f734eebffafbd18e3fef4ac4d.png"
+src="images/781327eacba981364b0ac27d53955828313dc41f734eebffafbd18e3fef4ac4d.webp"
 class="calibre198" alt="dvw2 12in16" />
 <h6 class="calibre37"></h6>
 </div>
@@ -862,7 +862,7 @@ items.
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/326ea5e5b0aab169924e2a9b08a6b70d31247b0af793777a6475872dbddb0e3d.png"
+src="images/326ea5e5b0aab169924e2a9b08a6b70d31247b0af793777a6475872dbddb0e3d.webp"
 class="calibre199" alt="dvw2 12in17" />
 <h6 class="calibre37"></h6>
 </div>
@@ -873,7 +873,7 @@ Back to *adding* data values. In the next step, we grab `bars.enter()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/658a5e4739f276ebda9cfa207c76b3951dac50feca89002f2601d4321603d891.png"
+src="images/658a5e4739f276ebda9cfa207c76b3951dac50feca89002f2601d4321603d891.webp"
 class="calibre200" alt="dvw2 12in18" />
 <h6 class="calibre37"></h6>
 </div>
@@ -889,7 +889,7 @@ We then append a rectangle for the one placeholder element, using
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/f093f9bcd3db592add0cca739e94f7e5bb0dde001adf0fb403114338afcc0070.png"
+src="images/f093f9bcd3db592add0cca739e94f7e5bb0dde001adf0fb403114338afcc0070.webp"
 class="calibre201" alt="dvw2 12in19" />
 <h6 class="calibre37"></h6>
 </div>
@@ -908,7 +908,7 @@ create it using `bars.enter().append("rect").merge(bars)`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/2cb1114b8f07f955069e559b311bbc93a8d6fd21bf7b658e0ae3b2f5691f4db6.png"
+src="images/2cb1114b8f07f955069e559b311bbc93a8d6fd21bf7b658e0ae3b2f5691f4db6.webp"
 class="calibre202" alt="dvw2 12in20" />
 <h6 class="calibre37"></h6>
 </div>
@@ -947,7 +947,7 @@ we look at the exit selection, `bars.exit()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/819e1524dc51d97b174c217d860b93b7d6b0bd37951236be0595e93a746f272e.png"
+src="images/819e1524dc51d97b174c217d860b93b7d6b0bd37951236be0595e93a746f272e.webp"
 class="calibre200" alt="dvw2 12in21" />
 <h6 class="calibre37"></h6>
 </div>
@@ -962,7 +962,7 @@ Finally, it’s time to say goodbye, so we call `bars.exit().remove()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/0401e4158f063f25647ed2f282dc6f88e53e517cf0b975d9512a26d55c9e9ca9.png"
+src="images/0401e4158f063f25647ed2f282dc6f88e53e517cf0b975d9512a26d55c9e9ca9.webp"
 class="calibre200" alt="dvw2 12in22" />
 <h6 class="calibre37"></h6>
 </div>
@@ -1013,7 +1013,7 @@ data-type="xref">Figure 12-9</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_conditional_paras" class="figure">
 <img
-src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.png"
+src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.webp"
 class="calibre85" alt="dvw2 1209" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-9.
 </span>Conditionally formatted paragraphs</h6>
@@ -1110,7 +1110,7 @@ data-type="xref">Figure 12-10</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_slide_to_filter" class="figure">
 <img
-src="images/96b0c4bf91e2e2726174809018b9b6b3938d394bd88f026d66d7252bf3192289.png"
+src="images/96b0c4bf91e2e2726174809018b9b6b3938d394bd88f026d66d7252bf3192289.webp"
 class="calibre203" alt="dvw2 1210" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-10.
 </span>Dragging a slider to filter by value</h6>
@@ -1153,7 +1153,7 @@ data-type="xref">Figure 12-11</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_radio_filter_threshold" class="figure">
 <img
-src="images/6e4998bd9b9c269c074b7a17e4e7445aba9cf4529186f4fb525fe76fa9f6f02a.png"
+src="images/6e4998bd9b9c269c074b7a17e4e7445aba9cf4529186f4fb525fe76fa9f6f02a.webp"
 class="calibre204" alt="dvw2 1211" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-11.
 </span>Using radio buttons to set the filter threshold value</h6>
@@ -1171,7 +1171,7 @@ data-type="xref">Figure 12-12</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_radio_filter_combos" class="figure">
 <img
-src="images/6f47dff37dc9f8b4c359a5f2ef5828d3be7bcbe60c4b9d04baa9e2c9bdb40347.png"
+src="images/6f47dff37dc9f8b4c359a5f2ef5828d3be7bcbe60c4b9d04baa9e2c9bdb40347.webp"
 class="calibre205" alt="dvw2 1212" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-12.
 </span>Using radio buttons to set different conditions on filters</h6>
@@ -1234,7 +1234,7 @@ data-type="xref">Figure 12-13</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_before_each" class="figure">
 <img
-src="images/d6aed4d121b0f02c050d683c641c329185af8638f4024fd1425a94ec40528256.png"
+src="images/d6aed4d121b0f02c050d683c641c329185af8638f4024fd1425a94ec40528256.webp"
 class="calibre206" alt="dvw2 1213" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-13.
 </span>Scatterplot, prior to calling each() on each circle</h6>
@@ -1310,7 +1310,7 @@ data-type="xref">Figure 12-14</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_after_each" class="figure">
 <img
-src="images/51f58ee28c3854effb71be76acc8b75823191f3436f3906341e925a014ccf8ec.png"
+src="images/51f58ee28c3854effb71be76acc8b75823191f3436f3906341e925a014ccf8ec.webp"
 class="calibre207" alt="dvw2 1214" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-14.
 </span>each() circle, freaking out, over time</h6>

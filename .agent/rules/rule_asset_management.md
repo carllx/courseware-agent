@@ -112,5 +112,5 @@ ffmpeg -i input.mp4 -c:v libvpx-vp9 -crf 35 -b:v 0 -row-mt 1 -c:a libopus -b:a 6
 
 在课程根目录下运行验证：
 ```bash
-python .agent/skills/validation_suite/scripts/validate_links.py
+python .agent/scripts/validation/validate_links.py
 ```

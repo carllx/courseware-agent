@@ -14,8 +14,8 @@
   - 中国统计年鉴 photo
   - 中国统计年鉴 real image
   - 中国统计年鉴 product shot high resolution
-  target_path: ../public/slides/S05c_Pixel_Overload_real.png
-  current_asset: ../public/slides/S05c_Pixel_Overload.png
+  target_path: ../public/slides/S05c_Pixel_Overload_real.webp
+  current_asset: ../public/slides/S05c_Pixel_Overload.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -32,8 +32,8 @@
   description: '"透视底层：数据的骨骼决定了可视化的肉身。"'
   scene_excerpt: 冰山剖面特写。水面下的原始数据表格逐渐发光，隐现出错综复杂的连接线与结构关系。
   search_queries: []
-  target_path: ../public/slides/S01a_Iceberg_Core_Illusion_real.png
-  current_asset: ../public/slides/S01a_Iceberg_Core_Illusion.png
+  target_path: ../public/slides/S01a_Iceberg_Core_Illusion_real.webp
+  current_asset: ../public/slides/S01a_Iceberg_Core_Illusion.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -52,7 +52,7 @@
   search_queries:
   - 一张普通的超市收据小票 被激光射线解构成时间、地点、用户、SKU 四条交织的维度 demonstration
   target_path: ../public/videos/S15c_Receipt_Hypercube.webm
-  current_asset: ../public/slides/S15c_Receipt_Hypercube.png
+  current_asset: ../public/slides/S15c_Receipt_Hypercube.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -71,7 +71,7 @@
   search_queries:
   - 左图：基于“航班号”渲染的雷达界面 数十架飞机挤成一团模糊亮点；右图：基于“经纬 demonstration
   target_path: ../public/videos/S20b_Key_Collision_Simulation.webm
-  current_asset: ../public/slides/S20b_Key_Collision_Simulation.png
+  current_asset: ../public/slides/S20b_Key_Collision_Simulation.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -90,7 +90,7 @@
   search_queries:
   - 模拟纽约时报大选版面：极简的红蓝大色块覆盖全图 配以极具冲击力的巨大粗体数字 没 demonstration
   target_path: ../public/videos/S26a_Present_NYT.webm
-  current_asset: ../public/slides/S26a_Present_NYT.png
+  current_asset: ../public/slides/S26a_Present_NYT.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -109,7 +109,7 @@
   search_queries:
   - 左侧：一个极简搜索框直接定位到目标点 右侧：全图变暗 只有符合条件的目标如星辰般 demonstration
   target_path: ../public/videos/S27c_Search_Lookup_Locate.webm
-  current_asset: ../public/slides/S27c_Search_Lookup_Locate.png
+  current_asset: ../public/slides/S27c_Search_Lookup_Locate.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -128,7 +128,7 @@
   search_queries:
   - 交互阻尼曲线 Identify 是趋近于零的悬停即显 Compare 是强联动的 demonstration
   target_path: ../public/videos/S28c_UI_Restraint.webm
-  current_asset: ../public/slides/S28c_UI_Restraint.png
+  current_asset: ../public/slides/S28c_UI_Restraint.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -185,7 +185,7 @@
   search_queries:
   - 中国统计年鉴 photo
   - 中国统计年鉴 real image
-  target_path: ../public/slides/M01_为什么你的_AI_画不出一张正常的图_narr_L183_real.png
+  target_path: ../public/slides/M01_为什么你的_AI_画不出一张正常的图_narr_L183_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []
@@ -206,8 +206,8 @@
   search_queries:
   - longData photo
   - longData real image
-  target_path: ../public/slides/S35d_Group_By_Gatling_real.png
-  current_asset: ../public/slides/S35d_Group_By_Gatling.png
+  target_path: ../public/slides/S35d_Group_By_Gatling_real.webp
+  current_asset: ../public/slides/S35d_Group_By_Gatling.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -227,8 +227,8 @@
   search_queries:
   - longData photo
   - longData real image
-  target_path: ../public/slides/S35b_Data_Binding_Loop_real.png
-  current_asset: ../public/slides/S35b_Data_Binding_Loop.png
+  target_path: ../public/slides/S35b_Data_Binding_Loop_real.webp
+  current_asset: ../public/slides/S35b_Data_Binding_Loop.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -255,7 +255,7 @@
   search_queries:
   - 集团三季度核心战报汇总.xlsx photo
   - 集团三季度核心战报汇总.xlsx real image
-  target_path: ../public/slides/M04_驯服混沌_Tidy_Data_的真理之眼_narr_L24_real.png
+  target_path: ../public/slides/M04_驯服混沌_Tidy_Data_的真理之眼_narr_L24_real.webp
   current_asset: ''
   no_ai_flag: false
   confirmed_urls: []

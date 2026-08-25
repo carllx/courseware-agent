@@ -1,0 +1,40 @@
+name: "Industrial Brutalism"
+description: "工业粗野主义与材质异化"
+
+palette:
+  bg_base: "#1A1A18"
+  bg_surface: "#292825"
+  bg_elevated: "#3D3B38"
+  primary: "#D94228"
+  primary_light: "#F0654D"
+  secondary: "#A69B86"
+  tertiary: "#E5C222"
+  text_main: "#F2EFE8"
+  text_secondary: "#9C9993"
+  border: "#5C5A56"
+
+typography:
+  display_cn: "ZCOOL QingKe HuangYou"
+  display_en: "Oswald"
+  body_cn: "Noto Sans SC"
+  body_en: "Inter"
+  quotes_cn: "Noto Serif SC"
+  quotes_en: "Courier New"
+
+style:
+  prompt_templates:
+    base_en: "brutalist design, raw texture, high contrast tension, gritty lighting, unpolished, emotional and psychological tension, evoking a sense of resistance and weight, dark cinematic atmosphere"
+    pedagogical_en: "industrial blueprint style, slightly distressed texture, architectural lines, high-contrast markers in oxidized red and warning yellow, clear structural focus"
+    pure_geometry_en: "pure brutalist geometry, heavy concrete-like solid shapes, striking abstract layout, high contrast architectural light"
+  prompt_variants:
+    Title: "heavy asymmetric editorial layout, imposing dark background, striking typography arrangement, raw material texture"
+    Diagram: "brutalist blueprint layout, stark logical nodes with warning yellow accents, strong geometric structures, high contrast"
+    List: "structured heavy card grid, deep shadows, numbered items with oxidized red accents, robust typography"
+    Comparison: "stark contrast split screen, conflicting forces, left side rigid and constrained, right side chaotic or raw, deep shadows"
+    Pedagogical_Layout: "clear industrial instruction layout, high legibility despite the gritty vibe, precise geometric markers"
+
+generation_guide:
+  context_routing:
+    contemporary: "contemporary industrial brutalism, stark photography"
+    historical: "ancient raw material textures, archaeological lighting and heavy shadows"
+  pedagogical_routing: "If not explicitly set to themed, pedagogical mode uses clear contrast and markers over raw textures"

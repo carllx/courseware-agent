@@ -13,7 +13,7 @@
 > - 调研脱节
 > - 沉没成本
 > **Text**: 传统画像的三个致命隐患
-> **Asset**: ![预览](../public/slides/W04-06-Persona-Death.png)
+> **Asset**: ![预览](../public/slides/W04-06-Persona-Death.webp)
 
 在传统的产品开发（甚至很多同学的期末大作业）中，"用户画像"（也就是 Persona）往往是一份为了应付汇报而编写的厚重文档。大家去网上抄一堆数据，拼凑出一份精美的报告，假装很懂用户。但这种传统做法存在致命隐患：
 - **太慢且容易过期**。花大力气做出的用户模型，很多时候只是为了填满 PPT 的页数，跟真实世界脱节。
@@ -27,7 +27,7 @@
 > **Layout**: Split
 > **Scene**: 原著《精益 UX》中的 Lean UX 画布“用户”模块 (Box 3)。这代表了我们不再追求完美的终极画像，而是快速假设。
 > **Text**: 画板革命：先假设再验证 (Box 3: Users)
-> **Asset**: ![教材原图](../public/textbook/Fig_7-1.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_7-1.webp)
 
 为了解决这些问题，Lean UX 提出了一种替代方案：**原型用户画像**，也就是 **Proto-Persona**。
 
@@ -38,7 +38,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Image
 > **Scene**: 展示 Proto-Persona 的四象限画板结构：左侧是用便利贴快速构建模板，右侧是手绘的极简纸片人画像。完美对应了“无需专业调研，只需一块白板快速手绘”的核心精神。
 > **Text**: 快速画，持续改
-> *   **Asset**: ![预览](../public/slides/W04-06-Proto-Persona-Canvas.png)
+> *   **Asset**: ![预览](../public/slides/W04-06-Proto-Persona-Canvas.webp)
 > **Source**: [LinkedIn](https://media.licdn.com/dms/image/v2/C5612AQH9XFFhOC1Dpw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520060640524?e=2147483647&v=beta&t=8IML6TuiFh-Elli84_ChRXxdNtCxZdIFQTlau2IfVJU)
 
 它的核心精神就两句话：**先假设，再验证；快速画，持续改。** 
@@ -60,7 +60,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > - 模板具象
 > - 交叉审视
 > **Text**: 六步推演的极速冲刺
-> **Asset**: ![预览](../public/slides/W04-07-Proto-Persona-Intro.png)
+> **Asset**: ![预览](../public/slides/W04-07-Proto-Persona-Intro.webp)
 
 具体怎么操作？这是一场需要全员对齐的工作坊：
 1. **疯狂脑暴**：倒计时 5 分钟，独立在便利贴上写下各自心目中的核心受众画像标签。
@@ -75,7 +75,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 团队围在白板前互相找茬，有人拿着放大镜审视便利贴，隐喻交叉验证的重要性。
 > **Text**: 突破团队自嗨
-> **Asset**: ![预览](../public/slides/W04-08a-Cross-Validation.png)
+> **Asset**: ![预览](../public/slides/W04-08a-Cross-Validation.webp)
 
 > [ACTIVITY]
 > **Type**: `QA`
@@ -89,7 +89,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Full
 > **Scene**: 《精益 UX》中真实的 Proto-Persona 手绘模板（包含左上角的速写头像、右上角的行为特征、下方的痛点与目标拆解）。
 > **Text**: 标准化 Proto-Persona 模板 (Four-Module)
-> **Asset**: ![教材原图](../public/textbook/Fig_7-3.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_7-3.webp)
 
 如何勾勒出一个经得起推敲的 Proto-Persona 假人？
 在经典的 Lean UX 教材中，作者提出了简单的“三窗格”（也就是 Tri-pane）画法。但在我们的课程体系中，为了与 W03 的 5-Whys 深度访谈法无缝衔接，我们将其严谨化升级为了**四大标准模块**。只需一张 A4 纸，将其划分为四个区域：
@@ -99,7 +99,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Image
 > **Scene**: 一张具有真实白板手绘感的中文四大模块原型用户画像（Proto-Persona）草图。画面被分为四个象限：左上角极简素描头像与痛点情境，右上角行为核心特征图表，左下角人口统计学数据，右下角核心目标与需求拆解。使用温暖色调与红色点缀，呈现共情张力。
 > **Text**: 中文四大模块 Proto-Persona 实例
-> **Asset**: ![中文四大模块原型画像](../public/slides/W04-08c-Chinese-Proto-Persona-Example.png)
+> **Asset**: ![中文四大模块原型画像](../public/slides/W04-08c-Chinese-Proto-Persona-Example.webp)
 
 **模块一：人物素描与情境 (Sketch & Context)。** 用粗糙的笔触画出极简头像，这能让团队产生真实的共情。在头像下方，用一句简短的话描述TA的核心痛点场景（例如：“重度拖延、考前焦虑的大李”），赋予这个人物真实的灵魂。注意，这里我们只需要极简的情境代入，不需要长篇大论的“人口学普查”。
 
@@ -121,7 +121,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 极尽反差的对比：左侧是庄重优雅的英国王储查尔斯国王，右侧是狂野叛逆的摇滚主唱 Ozzy Osbourne，两人头上顶着完全相同的人口学标签数据。
 > **Text**: 人口学标签的荒谬性
-> **Asset**: ![B类采购占位](../public/slides/W04-09b-Ozzy-Vs-Charles.png)
+> **Asset**: ![B类采购占位](../public/slides/W04-09b-Ozzy-Vs-Charles.webp)
 > **Source**: Web Source
 
 业界有一个极其经典的反证。假如我们只看这些冷冰冰的指标：1948 年出生于英国、男性、已婚、银行资产丰厚、常居英国。如果不看照片，你会以为这是高度同质化的同一类用户群。
@@ -133,7 +133,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Image
 > **Scene**: 冰山隐喻，海面上是虚假的人口标签，海面下是庞大的真实行为习惯。
 > **Text**: 行为习惯的冰山模型
-> **Asset**: ![预览](../public/slides/W04-09c-Behavior-Vs-Demographics.png)
+> **Asset**: ![预览](../public/slides/W04-09c-Behavior-Vs-Demographics.webp)
 
 如果让你为他们设计一款 App，你敢相信人口报表上说他们是“同属性用户”，从而给他们做一样的界面吗？绝不可能！因为他们的生活方式和操作习惯有着天壤之别。
 因此，在模块二，我们必须坚决抛弃“查户口”式的描写，只写那些能够**直接影响软件使用行为**的特征。
@@ -147,7 +147,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > [VISUAL]
 > **Slide**: W04-JTBD-Recall-Matryoshka
 > **Layout**: Split
-> **Asset**: ![W03 回顾](../public/slides/W04-JTBD-Recall-Matryoshka.png)
+> **Asset**: ![W03 回顾](../public/slides/W04-JTBD-Recall-Matryoshka.webp)
 > **Scene**: 用户大脑皮层的三维分解图，如同俄罗斯套娃：最外层是机械臂（功能），中间层是戴着面具的人（社会），最深层是一颗跳动的心脏（情感）
 > **Text**: 快速回忆：JTBD 的三层套娃
 > **List**: 1. 功能性（Functional） | 2. 社会性（Social） | 3. 情感性（Emotional）
@@ -178,7 +178,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **List**:
 > - 公式：【具象用户】非常需要【动词+任务】，因为【深层动机】
 > **Text**: 痛点陈述公式 (Problem Statement)
-> **Asset**: ![预览](../public/slides/W04-10-JTBD-Problem.png)
+> **Asset**: ![预览](../public/slides/W04-10-JTBD-Problem.webp)
 
 看到了吗？只有通过 5-Whys 往下挖，你才会发现，用户要“打卡”的深层情感动机其实是“缓解一个人备考的孤独感，渴望同伴的认可”。
 
@@ -203,7 +203,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Diagram
 > **Scene**: 漏斗形状的提炼过程，上面是杂乱的标签和抱怨，经过漏斗提炼出一张发光的痛点陈述卡。
 > **Text**: 痛点陈述的极简提炼
-> **Asset**: ![预览](../public/slides/W04-10c-Problem-Statement-Funnel.png)
+> **Asset**: ![预览](../public/slides/W04-10c-Problem-Statement-Funnel.webp)
 
 > [ACTIVITY]
 > **Type**: `Quiz`
@@ -226,7 +226,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > - 容忍阈值超限
 > - 认知熟练度异常
 > - 需求弹性偏离
-> **Asset**: ![预览](../public/slides/W04-10d-We-Are-Not-Users.png)
+> **Asset**: ![预览](../public/slides/W04-10d-We-Are-Not-Users.webp)
 
 在画完三分区模板后，我需要特别给大家打一剂清醒针。Jeff Gothelf 在教材中反复锤打的一条核心警告是：**我们不是用户，也就是 We Are Not Our Users**。作为交互设计专业的学生，你们处于一个极其危险的"专家诅咒"位置——你们个人对软件的容忍阈值、用智能手机的认知熟练度、以及对界面设计形态的需求弹性，远远超出了普罗大众的常规水位线。当你知道三手指滑动可以触发 iPad 的多任务管理器时，你已经是世界上非常非常少见的极端用户了。你的妈妈——我想大部分同学的妈妈都是如此——遇到这个手势时的第一反应是惊恼地抬头问你"孩子，我的屏幕怎么又乱了"。你凭自己的共情去捏造臆想的假画像，总是会远比你以为的更乐观。
 
@@ -241,7 +241,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > - 痛点检验
 > - 付费意愿
 > **Text**: 击碎确认偏误的三道验尸墙
-> **Asset**: ![预览](../public/slides/W04-11-Three-Validations.png)
+> **Asset**: ![预览](../public/slides/W04-11-Three-Validations.webp)
 
 记住，Proto-Persona 是一份**随时可推翻的活文档**。当你把这张 A4 纸画完，它仅仅是你们团队“一厢情愿的幻觉”。在进入更深层的敏捷迭代之前，你手里的这个假人物，必须立刻去闯三关开展早期验证：
 
@@ -250,7 +250,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 左侧是幻想中完美的受众（如同发光的剪影），右侧是在街头茫然寻找却一无所获的设计师。
 > **Text**: 幻觉与现实的碰撞
-> **Asset**: ![预览](../public/slides/W04-11b-Harsh-Reality-Check.png)
+> **Asset**: ![预览](../public/slides/W04-11b-Harsh-Reality-Check.webp)
 
 **第一关：这类用户真的存在于地球上吗？**
 你们走到街上或是拉响人脉网，尝试按特征招募 5 个人。如果你发现哪怕找遍全校都凑不齐你画的这种具有特定行为模式（而不是人口统计）的人，说明什么？说明你的假设纯属虚构，**立即撕毁重新画脸，这是命令。**
@@ -260,7 +260,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 设计师拿着访谈记录感到绝望，真实的用户正在摆手，表示对这个所谓的“痛点”完全不在意，他们有别的烦恼。
 > **Text**: 痛点错位的真实访谈
-> **Asset**: ![预览](../public/slides/W04-11c-Pain-Point-Check.png)
+> **Asset**: ![预览](../public/slides/W04-11c-Pain-Point-Check.webp)
 
 **第二关：他们真的遭遇了你猜测的巨大痛点吗？**
 假设你找到了这批人，通过上周学的 JTBD 访谈和观察，你绝望地发现，由于种种原因，他们对你臆想中的那个“巨大痛点”根本无感，他们有别的情景和烦恼。此时，你要果断抛弃你最初的方向，将白纸下半区全数抹掉。这是你避免浪费几个月生命的最昂贵但最值得的教训。
@@ -272,7 +272,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 著名的“香蕉切片机”商品图——一个荒谬但解决“真实痛点”的过度设计产物。
 > **Text**: 痛点存在 = 愿意买单？(香蕉切片机陷阱)
-> **Asset**: ![教材原图](../public/textbook/Fig_7-4.png)
+> **Asset**: ![教材原图](../public/textbook/Fig_7-4.webp)
 
 这一关是杀伤力最强的真实意愿检测。你不能只问"你觉得这个产品想法怎么样？"这种空洞的问题，因为人们在口头表态时总是倾向于礼貌和敷衍。你要观察的是行为信号：他有没有愿意留下真实的邮箱以获取后续通知？有没有在你的简陋纸质原型上，主动去点击那个"立即使用"按钮？只有当用户愿意付出真实的时间或行动成本时，你的假设才算初步成立。
 
@@ -285,7 +285,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > - 伪需现形
 > - 败于成本
 > **Text**: 伪刚需：痛点存在但不致命
-> **Asset**: ![预览](../public/slides/W04-12-Angel-Investor-Failure.png)
+> **Asset**: ![预览](../public/slides/W04-12-Angel-Investor-Failure.webp)
 
 > [CASE STUDY]
 > **校园闲置交易 App 的“伪刚需”血案**
@@ -309,7 +309,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Comparison
 > **Scene**: 左侧是带有声波符号的对话气泡，散发着轻松的氛围，象征“廉价的口头赞扬”（听觉感知）；右侧是需要真实填写邮箱的注册表单和点击动作，象征“沉重的行为成本”（视觉/触觉感知）。
 > **Text**: 赞扬免费，行为昂贵
-> **Asset**: ![预览](../public/slides/W04-12c-Cheap-Praise.png)
+> **Asset**: ![预览](../public/slides/W04-12c-Cheap-Praise.webp)
 
 > [TEACHING MOMENT]
 > **警惕“廉价的赞同”**
@@ -323,7 +323,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 左侧是设计师像保护婴儿一样抱着自己的 Proto-Persona 画板，右侧是他在实地访谈中焦急地向用户“推销”自己的理念，试图寻找支持证据。
 > **Text**: 警惕确证偏误
-> **Asset**: ![预览](../public/slides/W04-12b-Confirmation-Bias.png)
+> **Asset**: ![预览](../public/slides/W04-12b-Confirmation-Bias.webp)
 
 > [TEACHING MOMENT]
 > **警惕“只听顺耳话”的错觉**
@@ -335,7 +335,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 左侧是充满密密麻麻数据图表与调节滑块的极客减脂 App 界面；右侧是一个精疲力尽、满头大汗的大学生，正摆手拒绝这种需要耗费脑力的复杂操作。
 > **Text**: 预设原型的坍塌：极客减脂计算器
-> **Asset**: ![预览](../public/slides/W04-13-Geek-Fatloss.png)
+> **Asset**: ![预览](../public/slides/W04-13-Geek-Fatloss.webp)
 
 > [CASE STUDY]
 > **失败的“极客减脂计算器”与 Persona 崩溃**
@@ -350,7 +350,7 @@ Proto-Persona 不再是一份完美的最终报告，而是一张可以随时涂
 > **Layout**: Split
 > **Scene**: 左侧是一台极具未来感、标价高昂的智能烹饪机器人；右侧是冷清的预售页面，转化率大屏显示为“0”，凸显出“存在痛点却不愿买单”的残酷反差。
 > **Text**: 致命关卡：零转化率的预售
-> **Asset**: ![预览](../public/slides/W04-14-Cooking-Robot.png)
+> **Asset**: ![预览](../public/slides/W04-14-Cooking-Robot.webp)
 
 > [ACTIVITY]
 > **Type**: `Quiz`

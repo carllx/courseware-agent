@@ -15,7 +15,7 @@
   - 权力的游戏 real image
   - 权力的游戏 demo video
   target_path: ../public/videos/S00c_W5_GenerativeArt.webm
-  current_asset: ../public/slides/S00c_W5_GenerativeArt.png
+  current_asset: ../public/slides/S00c_W5_GenerativeArt.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -37,8 +37,8 @@
   search_queries:
   - Visual Explanations photo
   - Visual Explanations real image
-  target_path: ../public/slides/S02c_Challenger_Disaster_real.png
-  current_asset: ../public/slides/S02c_Challenger_Disaster.png
+  target_path: ../public/slides/S02c_Challenger_Disaster_real.webp
+  current_asset: ../public/slides/S02c_Challenger_Disaster.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -57,8 +57,8 @@
   search_queries:
   - '"空间异变：被宏观模型抹平的微观灾难" historical photo'
   - '"空间异变：被宏观模型抹平的微观灾难" archive image'
-  target_path: ../public/slides/S02e_Zillow_Heatmap_real.png
-  current_asset: ../public/slides/S02e_Zillow_Heatmap.png
+  target_path: ../public/slides/S02e_Zillow_Heatmap_real.webp
+  current_asset: ../public/slides/S02e_Zillow_Heatmap.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -77,7 +77,7 @@
   search_queries:
   - 深色极简学术底座 利用格式塔原理在视觉中心呈现悬浮的几何块与克制的网格线 烘托概 demonstration
   target_path: ../public/videos/S00b_W1_W2_Perception.webm
-  current_asset: ../public/slides/S00b_W1_W2_Perception.png
+  current_asset: ../public/slides/S00b_W1_W2_Perception.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -97,7 +97,7 @@
   search_queries:
   - 一张具有赛博解剖学风格的人类眼球到大脑神经通路解析图 一条红色的高速高亮轨迹代表 demonstration
   target_path: ../public/videos/S09a_Visual_Pathway_V1.webm
-  current_asset: ../public/slides/S09a_Visual_Pathway_V1.png
+  current_asset: ../public/slides/S09a_Visual_Pathway_V1.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -116,7 +116,7 @@
   search_queries:
   - 展示一张秩序井然的大型二维阵列排布（如数百个均匀分布的圆点） 唯独在界外的右下角 demonstration
   target_path: ../public/videos/S09e_Pre_attentive_Spatial.webm
-  current_asset: ../public/slides/S09e_Pre_attentive_Spatial.png
+  current_asset: ../public/slides/S09e_Pre_attentive_Spatial.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -135,7 +135,7 @@
   search_queries:
   - 一张充满静态波纹噪音图的底图 但在画面边缘角落布置出强烈的带有视线重影与模糊特效 demonstration
   target_path: ../public/videos/S09f_Pre_attentive_Motion.webm
-  current_asset: ../public/slides/S09f_Pre_attentive_Motion.png
+  current_asset: ../public/slides/S09f_Pre_attentive_Motion.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -154,7 +154,7 @@
   search_queries:
   - 左侧是对翻页式比对的恶感——用户需要凭记忆看前面的报表；右侧是现代 Dashbo demonstration
   target_path: ../public/videos/S10d_Memory_Limit_UI.webm
-  current_asset: ../public/slides/S10d_Memory_Limit_UI.png
+  current_asset: ../public/slides/S10d_Memory_Limit_UI.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -173,7 +173,7 @@
   search_queries:
   - 篮球赛场纯净版上帝俯角视角 深色木板球场上完全去除了外围干扰线、观众和裁判 仅保 demonstration
   target_path: ../public/videos/S14c_Basketball_Analogy.webm
-  current_asset: ../public/slides/s14c_basketball.png
+  current_asset: ../public/slides/s14c_basketball.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -192,7 +192,7 @@
   search_queries:
   - 实战大工坊的沉浸式视觉冲突 一... demonstration
   target_path: ../public/videos/S20_Vibe_Demo_Activity.webm
-  current_asset: ../public/slides/S20_Vibe_Demo_Activity.png
+  current_asset: ../public/slides/S20_Vibe_Demo_Activity.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto
@@ -212,8 +212,8 @@
   search_queries:
   - 大明混一图 photo
   - 大明混一图 real image
-  target_path: ../public/slides/S07d_Gods_Eye_View_real.png
-  current_asset: ../public/slides/S07d_Gods_Eye_View.png
+  target_path: ../public/slides/S07d_Gods_Eye_View_real.webp
+  current_asset: ../public/slides/S07d_Gods_Eye_View.webp
   no_ai_flag: false
   confirmed_urls: []
   stitch_mode: auto

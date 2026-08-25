@@ -2,13 +2,13 @@
 
 交互设计不仅仅是输出设计方案，交互设计的流程如图1-13所示。
 
-![](images/EPUB/images/image_015.jpg)
+![](images/EPUB/images/image_015.webp)
 
 ▲图1-13 交互设计的流程
 
 ▼微课视频
 
-![](images/EPUB/images/image_016.jpg)
+![](images/EPUB/images/image_016.webp)
 
 交互设计流程及用户体验
 
@@ -28,11 +28,11 @@
 
 微课视频
 
-![](images/EPUB/images/image_017.jpg)
+![](images/EPUB/images/image_017.webp)
 
 ▲交互设计流程——需求分析
 
-![](images/EPUB/images/image_018.jpg)
+![](images/EPUB/images/image_018.webp)
 
 图1-14 用户研究报告文档的结构
 
@@ -42,7 +42,7 @@
 
 功能需求列表的价值是帮助产品经理理清思路，以及帮助项目团队的其他成员了解产品的功能需求，如图1-15所示。
 
-![](images/EPUB/images/image_019.jpg)
+![](images/EPUB/images/image_019.webp)
 
 图1-15 产品功能列表
 
@@ -54,19 +54,19 @@
 
 原型是一种让用户提前体验产品、交流设计构想、展示复杂系统的方式。本质上而言，原型是一种沟通工具，也是交互设计师与项目经理（Project Manager,PM)、产品设计（Product Design,PD）师、开发工程师沟通的最好工具。
 
-![](images/EPUB/images/image_020.jpg)
+![](images/EPUB/images/image_020.webp)
 
 图1-16 场景故事板
 
 对产品需求分析定位后，就进入产品原型设计阶段，此时交互设计师运用设计理论、设计规范和设计原则画出交互稿，并说明哪些元素需要进行数据监测，将交互稿提交给交互组进行评审。这个阶段交互设计师需要编写交互文档，也就是交互设计文档（Design Requirement Drawing, DRD），它主要用来承载设计思路、设计方案、信息架构、原型线框、交互说明等内容。交互设计文档的结构如图1-17所示。
 
-![](images/EPUB/images/image_021.jpg)
+![](images/EPUB/images/image_021.webp)
 
 ▲图1-17 交互设计文档的结构
 
 ▼微课视频
 
-![](images/EPUB/images/image_022.jpg)
+![](images/EPUB/images/image_022.webp)
 
 交互设计流程——原型设计和视觉设计
 

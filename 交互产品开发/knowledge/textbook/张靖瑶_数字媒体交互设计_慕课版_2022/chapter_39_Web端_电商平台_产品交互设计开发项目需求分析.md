@@ -44,7 +44,7 @@ Windows操作系统。
 
 业务流程如图4-1所示。
 
-![](images/EPUB/images/image_234.jpg)
+![](images/EPUB/images/image_234.webp)
 
 图4-1 业务流程
 

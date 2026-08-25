@@ -59,7 +59,7 @@ description: 从逐字稿生成教师备课套件（骨架卡片、冷热弧线�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/generate_cheat_sheet.py \
+  .agent/skills/cheat_sheet_generator/scripts/generate_cheat_sheet.py \
   "<脚本路径>" \
   --output "<输出目录>"
 ```
@@ -73,7 +73,7 @@ description: 从逐字稿生成教师备课套件（骨架卡片、冷热弧线�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/generate_cheat_sheet.py \
+  .agent/skills/cheat_sheet_generator/scripts/generate_cheat_sheet.py \
   "<脚本路径>" --diagnose
 ```
 
@@ -86,7 +86,7 @@ description: 从逐字稿生成教师备课套件（骨架卡片、冷热弧线�
 // turbo
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_visual_text_sync.py \
+  .agent/scripts/validation/validate_visual_text_sync.py \
   --course "<课程名>" --week <周次>
 ```
 
@@ -101,7 +101,7 @@ Agent 应将此输出与 Step 3 的 IAR 诊断合并，形成统一的诊断报�
 
 ```bash
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/generate_cheat_sheet.py \
+  .agent/skills/cheat_sheet_generator/scripts/generate_cheat_sheet.py \
   "<脚本路径>" --level N
 ```
 

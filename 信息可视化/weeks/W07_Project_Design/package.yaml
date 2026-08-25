@@ -22,13 +22,11 @@ segments:
 - id: M00
   src: src/M00_Intro_双轨制理论与层级架构.md
 - id: M01
-  src: src/M01_逆向解构大师作品的底层逻辑.md
+  src: src/M01_基于B04的学生课题拆解_1.md
 - id: M02
-  src: src/M02_国际神作的避坑与反思.md
+  src: src/M02_基于B04的学生课题拆解_2.md
 - id: M03
-  src: src/M03_大师逆向工程_文化自信篇.md
-- id: M04
-  src: src/M04_大师逆向工程_大国重器篇.md
+  src: src/M03_基于B04的学生课题拆解_3.md
 - id: M05
   src: src/M05_鉴赏反哺_从偷师到立项.md
 - id: M06

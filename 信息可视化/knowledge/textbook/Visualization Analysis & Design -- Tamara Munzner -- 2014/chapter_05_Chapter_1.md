@@ -47,7 +47,7 @@ In the middle stages of a transition, you can build a vis tool aimed at the desi
 
 You can also design a vis tool for end users in conjunction with other computational decision making to illuminate whether the automatic system is doing the right thing according to human judgement. The tool might be intended for interim use when making deployment decisions in the late stages of a transition, for example, to see if the result of a machine learning system seems to be trustworthy before entrusting it to spend millions of dollars trading stocks. In some cases vis tools are abandoned after that decision is made; in other cases vis tools continue to be in play with long-term use to monitor a system, so that people can take action if they spot unreasonable behavior.
 
-![](images/8f1b393435929ba89de2e82403c01faf1be42b22b3ab7bde7cc5f1ce1efcfa64.jpg)  
+![](images/8f1b393435929ba89de2e82403c01faf1be42b22b3ab7bde7cc5f1ce1efcfa64.webp)  
 Figure 1.1. The Variant View vis tool supports biologists in assessing the impact of genetic variants by speeding up the exploratory analysis process. From [Ferstay et al. 13, Figure 1].
 
 In contrast to these transitional uses, you can also design vis tools for long-term use, where a person will stay in the loop indefinitely. A common case is exploratory analysis for scientific discovery, where the goal is to speed up and improve a user’s ability to generate and check hypotheses. Figure 1.1 shows a vis tool designed to help biologists studying the genetic basis of disease through analyzing DNA sequence variation. Although these scientists make heavy use of computation as part of their larger workflow, there’s no hope of completely automating the process of cancer research any time soon.
@@ -58,10 +58,10 @@ You can also design vis tools for presentation. In this case, you’re supportin
 
 By enlisting computation, you can build tools that allow people to explore or present large datasets that would be completely infeasible to draw by hand, thus opening up the possibility of seeing how datasets change over time.
 
-![](images/c5035c20032cf4ee963b9956471a54e817a126292d34a2b81ae404d255a945cd.jpg)  
+![](images/c5035c20032cf4ee963b9956471a54e817a126292d34a2b81ae404d255a945cd.webp)  
 (a)
 
-![](images/6888b68b6226f6f51a121038b37a71041f6fb1b41575a782d008491e744f5a64.jpg)  
+![](images/6888b68b6226f6f51a121038b37a71041f6fb1b41575a782d008491e744f5a64.webp)  
 (b)   
 Figure 1.2. The Cerebral vis tool captures the style of hand-drawn diagrams in biology textbooks with vertical layers that correspond to places within a cell where interactions between genes occur. (a) A small network of 57 nodes and 74 edges might be possible to lay out by hand with enough patience. (b) Automatic layout handles this large network of 760 nodes and 1269 edges and provides a substrate for interactive exploration: the user has moved the mouse over the MSK1 gene, so all of its immmediate neighbors in the network are highlighted in red. From [Barsky et al. 07, Figures 1 and 2].
 
@@ -103,13 +103,13 @@ Anscombe’s Quar tet: R aw Data
 
 <table><tr><td rowspan="2"></td><td colspan="2">1</td><td colspan="2">2</td><td colspan="2">3</td><td colspan="2">4</td></tr><tr><td>X</td><td>Y</td><td>X</td><td>Y</td><td>X</td><td>Y</td><td>X</td><td>Y</td></tr><tr><td rowspan="11"></td><td>10.0</td><td>8.04</td><td>10.0</td><td>9.14</td><td>10.0</td><td>7.46</td><td>8.0</td><td>6.58</td></tr><tr><td>8.0</td><td>6.95</td><td>8.0</td><td>8.14</td><td>8.0</td><td>6.77</td><td>8.0</td><td>5.76</td></tr><tr><td>13.0</td><td>7.58</td><td>13.0</td><td>8.74</td><td>13.0</td><td>12.74</td><td>8.0</td><td>7.71</td></tr><tr><td>9.0</td><td>8.81</td><td>9.0</td><td>8.77</td><td>9.0</td><td>7.11</td><td>8.0</td><td>8.84</td></tr><tr><td>11.0</td><td>8.33</td><td>11.0</td><td>9.26</td><td>11.0</td><td>7.81</td><td>8.0</td><td>8.47</td></tr><tr><td>14.0</td><td>9.96</td><td>14.0</td><td>8.10</td><td>14.0</td><td>8.84</td><td>8.0</td><td>7.04</td></tr><tr><td>6.0</td><td>7.24</td><td>6.0</td><td>6.13</td><td>6.0</td><td>6.08</td><td>8.0</td><td>5.25</td></tr><tr><td>4.0</td><td>4.26</td><td>4.0</td><td>3.10</td><td>4.0</td><td>5.39</td><td>19.0</td><td>12.50</td></tr><tr><td>12.0</td><td>10.84</td><td>12.0</td><td>9.13</td><td>12.0</td><td>8.15</td><td>8.0</td><td>5.56</td></tr><tr><td>7.0</td><td>4.82</td><td>7.0</td><td>7.26</td><td>7.0</td><td>6.42</td><td>8.0</td><td>7.91</td></tr><tr><td>5.0</td><td>5.68</td><td>5.0</td><td>4.74</td><td>5.0</td><td>5.73</td><td>8.0</td><td>6.89</td></tr><tr><td>Mean</td><td>9.0</td><td>7.5</td><td>9.0</td><td>7.5</td><td>9.0</td><td>7.5</td><td>9.0</td><td>7.5</td></tr><tr><td>Variance</td><td>10.0</td><td>3.75</td><td>10.0</td><td>3.75</td><td>10.0</td><td>3.75</td><td>10.0</td><td>3.75</td></tr><tr><td>Correlation</td><td colspan="2">0.816</td><td colspan="2">0.816</td><td colspan="2">0.816</td><td colspan="2">0.816</td></tr></table>
 
-![](images/080ce98b38c21eabef9edce974bb299932f6c982322612c6600d38e36735e114.jpg)
+![](images/080ce98b38c21eabef9edce974bb299932f6c982322612c6600d38e36735e114.webp)
 
-![](images/7d1148076583f33edd368c99c6a2f5b3e8da1b526eff47c89ee7716607722786.jpg)
+![](images/7d1148076583f33edd368c99c6a2f5b3e8da1b526eff47c89ee7716607722786.webp)
 
-![](images/ab75198c307ffff11a9f6be4350ff897c9a67b1dc169de4b4dad1424a5496b0c.jpg)
+![](images/ab75198c307ffff11a9f6be4350ff897c9a67b1dc169de4b4dad1424a5496b0c.webp)
 
-![](images/43e7d1216dfe03ca06ae02421893e0f9871f398e111ebad32cbbe62c2730f494.jpg)  
+![](images/43e7d1216dfe03ca06ae02421893e0f9871f398e111ebad32cbbe62c2730f494.webp)  
 Figure 1.3. Anscombe’s Quartet is four datasets with identical simple statistical properties: mean, variance, correlation, and linear regression line. However, visual inspection immediately shows how their structures are quite different. After [Anscombe 73, Figures 1–4].
 
 are familiar with these statistical measures, then the scatterplot of the first dataset probably isn’t surprising, and matches your intuition. The second scatterplot shows a clear nonlinear pattern in the data, showing that summarizing with linear regression doesn’t adequately capture what’s really happening. The third dataset shows how a single outlier can lead to a regression line that’s misleading in a different way because its slope doesn’t quite match the line that our eyes pick up clearly from the rest of the data. Finally, the fourth dataset shows a truly pernicious case where these measures dramatically mislead, with a regression line that’s almost perpendicular to the true pattern we immediately see in the data.
@@ -130,7 +130,7 @@ A vis idiom is a distinct approach to creating and manipulating visual represent
 
 Many vis idioms have been proposed. Simple static idioms include many chart types that have deep historical roots, such as scatterplots, bar charts, and line charts. A more complicated idiom can link together multiple simple charts through interaction. For example, selecting one bar in a bar chart could also result in highlighting associated items in a scatterplot that shows a different view of the same data. Figure 1.4 shows an even more complex idiom that supports incremental layout of a multilevel network through interactive navigation. Data from Internet Movie Database showing all movies connected to Sharon Stone is shown, where actors are represented as grey square nodes and links between them
 
-![](images/f85e608e2a28439c31e07ef5cedb8d0f8ada056bf58fe01334fbbb90d93eaaa2.jpg)  
+![](images/f85e608e2a28439c31e07ef5cedb8d0f8ada056bf58fe01334fbbb90d93eaaa2.webp)  
 Figure 1.4. The Grouse vis tool features a complex idiom that combines visual encoding and interaction, supporting incremental layout of a network through interactive navigation. From [Archambault et al. 07a, Figure 5].
 
 mean appearance in the same movie. The user has navigated by opening up several metanodes, shown as discs, to see structure at many levels of the hierarchy simultaneously; metanode color encodes the topological structure of the network features it contains, and hexagons indicate metanodes that are still closed. The inset shows the details of the opened-up clique of actors who all appear in the movie Anything but Here, with name labels turned on.
@@ -163,7 +163,7 @@ The most fundamental reason that vis design is a difficult enterprise is that th
 
 Figure 1.5 contrasts two ways to think about design in terms of traversing a search space. In addressing design problems, it’s not a very useful goal to optimize; that is, to find the very best choice. A more appropriate goal when you design is to satisfy; that is, to find one of the many possible good solutions rather than one of the even larger number of bad ones. The diagram shows five spaces, each of which is progressively smaller than the previous. First, there is the space of all possible solutions, including potential solutions that nobody has ever thought of before. Next, there is the set of possibilities that are known to you, the vis designer. Of course, this set might be small if you are a novice designer who is not aware of the full array of methods that have been proposed in the past. If you’re in that situation, one of the goals of this book is to enlarge the set of methods that you know about. The next set is the
 
-![](images/fd8157337340e59b16c68d87c614e9e36e96588e27b23810687944c29c3a7548.jpg)  
+![](images/fd8157337340e59b16c68d87c614e9e36e96588e27b23810687944c29c3a7548.webp)  
 Figure 1.5. A search space metaphor for vis design.
 
 consideration space, which contains the solutions that you actively consider. This set is necessarily smaller than the known space, because you can’t consider what you don’t know. An even smaller set is the proposal space of possibilities that you investigate in detail. Finally, one of these becomes the selected solution.
@@ -202,11 +202,11 @@ Display capacity is a third kind of limitation to consider. Vis designers often 
 
 * Synonyms for information density include graphic density and data–ink ratio.
 
-![](images/8fc25394812ff2de21e1dcb9a7c5fbc5e5382da775ce660e830d067e573571ac.jpg)
+![](images/8fc25394812ff2de21e1dcb9a7c5fbc5e5382da775ce660e830d067e573571ac.webp)
 
-![](images/6a72ae6e604eebd10a16e7e1eeae4e9c6983523516e48ffc107e86f71f02e923.jpg)
+![](images/6a72ae6e604eebd10a16e7e1eeae4e9c6983523516e48ffc107e86f71f02e923.webp)
 
-![](images/7d4cd0316a549533bd9e85f44bf2b0e87309fc1f30943d1ef5a5e9b6054a4f06.jpg)  
+![](images/7d4cd0316a549533bd9e85f44bf2b0e87309fc1f30943d1ef5a5e9b6054a4f06.webp)  
 Figure 1.6. Low and high information density visual encodings of the same small tree dataset; nodes are the same size in each. (a) Low information density. (b) Higher information density, but depth in tree cannot be read from spatial position. (c) High information density, while maintaining property that depth is encoded with position. From [McGuffin and Robert 10, Figure 3].
 
 ent ways. The layout in Figure 1.6(a) encodes the depth from root to leaves in the tree with vertical spatial position. However, the information density is low. In contrast, the layout in Figure 1.6(b) uses nodes of the same size but is drawn more compactly, so it has higher information density; that is, the ratio between the size of each node and the area required to display the entire tree is larger. However, the depth cannot be easily read off from spatial position. Figure 1.6(c) shows a very good alternative that combines the benefits of both previous approaches, with both high information density from a compact view and position coding for depth.
@@ -217,7 +217,7 @@ There is a trade-off between the benefits of showing as much as possible at once
 
 This book is built around the premise that analyzing existing systems is a good stepping stone to designing new ones. When you’re confronted with a vis problem as a designer, it can be hard to decide what to do. Many computer-based vis idioms and tools have
 
-![](images/b45917b9fd715e686911222aeb90114d69b3fe3ece037df4336d2b70718e87fe.jpg)  
+![](images/b45917b9fd715e686911222aeb90114d69b3fe3ece037df4336d2b70718e87fe.webp)  
 Figure 1.7. Three-part analysis framework for a vis instance: why is the task being performed, what data is shown in the views, and how is the vis idiom constructed in terms of design choices.
 
 been created in the past several decades, and considering them one by one leaves you faced with a big collection of different possibilities. There are so many possible combinations of data, tasks, and idioms that it’s unlikely that you’ll find exactly what you need to know just by reading papers about previous vis tools. Moreover, even if you find a likely candidate, you might need to dig even deeper into the literature to understand whether there’s any evidence that the tool was a success.
@@ -232,7 +232,7 @@ The combination of distinguishing why from how and chained sequences allows you 
 
 ‣ Chapter 2 discusses data and the question of what. Chapter 3 covers tasks and the question of why. Chapters 7 through 14 answer the question of how idioms can be designed in detail.
 
-![](images/423079adb81cdf33eefe4a73cf5223433e9cfde34bec97a3a1e38a8d14f8095b.jpg)  
+![](images/423079adb81cdf33eefe4a73cf5223433e9cfde34bec97a3a1e38a8d14f8095b.webp)  
 Figure 1.8. Analyzing vis usage as chained sequences of instances, where the output of one instance is the input to another.
 
 your analysis. For example, a user could sort the items shown within the vis. That operation could be an end in itself, if the user’s goal is to produce a list of items ranked according to a particular criterion as a result of an analysis session. Or, the sorting could be the means to another end, for example, finding outliers that do not match the main trend of the data; in this case, it is simply done along the way as one of many different operations.
@@ -255,7 +255,7 @@ What Resource Limitations Matter? Ware’s textbook provides a very thorough dis
 
 # Datasets
 
-![](images/55cda3c914a06f75a8a09a823815faf52571b1725d2e963c744b09da72dfdb8e.jpg)
+![](images/55cda3c914a06f75a8a09a823815faf52571b1725d2e963c744b09da72dfdb8e.webp)
 
 # Data Types
 
@@ -269,7 +269,7 @@ Positions
 
 Grids
 
-![](images/44a33f3071037fc1c9e714c7c07d691af28bb553c56e5c137561761106f2a72a.jpg)
+![](images/44a33f3071037fc1c9e714c7c07d691af28bb553c56e5c137561761106f2a72a.webp)
 
 # Data and Dataset Types
 
@@ -305,81 +305,81 @@ Clusters, Sets, Lists
 
 I tems
 
-![](images/ceae0b06865fee7611eaf4dfa1da22cc7cb3e258fd365416756063bcc974d679.jpg)
+![](images/ceae0b06865fee7611eaf4dfa1da22cc7cb3e258fd365416756063bcc974d679.webp)
 
 # Dataset Types
 
 Tables
 
-![](images/9a61b4d4f6755a1a0049cd6388e551ee38c3a96a35f084f98cc81ba56fd61f70.jpg)
+![](images/9a61b4d4f6755a1a0049cd6388e551ee38c3a96a35f084f98cc81ba56fd61f70.webp)
 
 Networks
 
-![](images/4cf962aec8fa2226f07db43d5daeb5be3ed77b79a182b89a935bdc098e9e2a8e.jpg)
+![](images/4cf962aec8fa2226f07db43d5daeb5be3ed77b79a182b89a935bdc098e9e2a8e.webp)
 
 Fields (Continuous)
 
-![](images/9e50474b1322eef44d422ea6849a35828f2d78d364182ea2b43a06e3040369a1.jpg)
+![](images/9e50474b1322eef44d422ea6849a35828f2d78d364182ea2b43a06e3040369a1.webp)
 
 Multidimensional Table
 
-![](images/7f6a87372b52785e734dc8e597c7f5fdb8ed4063b821ed895fbfb6de6a351c06.jpg)
+![](images/7f6a87372b52785e734dc8e597c7f5fdb8ed4063b821ed895fbfb6de6a351c06.webp)
 
 Trees
 
-![](images/9243e5dbbd84801a3c9d1c3caa932ad62f97ffde2d41e03e8934c41eb48b99e1.jpg)
+![](images/9243e5dbbd84801a3c9d1c3caa932ad62f97ffde2d41e03e8934c41eb48b99e1.webp)
 
 Geometr y (Spatial)
 
-![](images/e9df5e29c03a9a85b76112cd50472926e983ac22e031dab78917669badc0f133.jpg)
+![](images/e9df5e29c03a9a85b76112cd50472926e983ac22e031dab78917669badc0f133.webp)
 
-![](images/bfce3979c810f47d31c094477ce566a135835a17dff9b644cc81684c9247d30f.jpg)
+![](images/bfce3979c810f47d31c094477ce566a135835a17dff9b644cc81684c9247d30f.webp)
 
 # Dataset Availability
 
 Static
 
-![](images/4e62d3ddced052cbdd681c67ea63e13d2678256b4051e59362ecf783b0bf031e.jpg)
+![](images/4e62d3ddced052cbdd681c67ea63e13d2678256b4051e59362ecf783b0bf031e.webp)
 
 D ynamic
 
-![](images/1a754faa37c7b06bdd5217a758aa401e5878f032aee1773d3eaac3bd979c764f.jpg)
+![](images/1a754faa37c7b06bdd5217a758aa401e5878f032aee1773d3eaac3bd979c764f.webp)
 
 # Attributes
 
-![](images/0cdeefa59e753ebdae2b7d6f3d964ffed81bc347caff10803428cc91e2c47e68.jpg)
+![](images/0cdeefa59e753ebdae2b7d6f3d964ffed81bc347caff10803428cc91e2c47e68.webp)
 
 # Attribute Types
 
 Categorical
 
-![](images/4e421ab95d900f3fcf3e6701bf853e867911f7e46a4900bfe8e6dcb6a37fa8b6.jpg)
+![](images/4e421ab95d900f3fcf3e6701bf853e867911f7e46a4900bfe8e6dcb6a37fa8b6.webp)
 
 Ordered
 
 Ordinal
 
-![](images/29661a6a1af7a1ca5fe6be23bf4d88993d4adffd32f7757851c5684194a2a43e.jpg)
+![](images/29661a6a1af7a1ca5fe6be23bf4d88993d4adffd32f7757851c5684194a2a43e.webp)
 
 Quantitative
 
-![](images/1c750c8cac3d9c44be539070d3c7a4be52f3e942e2b81ae00309a6897e2c6cf9.jpg)
+![](images/1c750c8cac3d9c44be539070d3c7a4be52f3e942e2b81ae00309a6897e2c6cf9.webp)
 
-![](images/ce4876c85097e0225195449c377504c79f5d4e18748f0311877d523322263d05.jpg)
+![](images/ce4876c85097e0225195449c377504c79f5d4e18748f0311877d523322263d05.webp)
 
 # Ordering Direc tion
 
 Sequential
 
-![](images/092a9f478c386fb62a13eb3b0f0c556391cd2caf956fa341c359abb0a686ed96.jpg)
+![](images/092a9f478c386fb62a13eb3b0f0c556391cd2caf956fa341c359abb0a686ed96.webp)
 
 Diverging
 
-![](images/b6fb7afb077cc16ca2733cc1a1a0a4322e0e391b1045c3df0eb360aa24e01a15.jpg)
+![](images/b6fb7afb077cc16ca2733cc1a1a0a4322e0e391b1045c3df0eb360aa24e01a15.webp)
 
 Cyclic
 
-![](images/1abde98693cf0261bc4587133cbbf6079968b87293a2278d5e51736d9c587940.jpg)  
+![](images/1abde98693cf0261bc4587133cbbf6079968b87293a2278d5e51736d9c587940.webp)  
 Figure 2.1. What can be visualized: data, datasets, and attributes.
 
 What?

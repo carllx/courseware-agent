@@ -1,6 +1,6 @@
 # Chapter 8. Box 4: User Outcomes and Benefits
 
-![](images/assets/lux3_0801.png)
+![](images/assets/lux3_0801.webp)
 
 ###### Figure 8-1. Box 4 of the Lean UX Canvas: User Outcomes and Benefits
 

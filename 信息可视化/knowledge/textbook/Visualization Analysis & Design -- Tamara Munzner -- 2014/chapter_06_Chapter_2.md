@@ -46,7 +46,7 @@ Deriving data is discussed in Section 3.4.2.3.
 
 Figure 2.2 shows the five basic data types discussed in this book: items, attributes, links, positions, and grids. An attribute is some specific property that can be measured, observed, or logged.* For example, attributes could be salary, price, number of sales, protein expression levels, or temperature. An item is an individual entity that is discrete, such as a row in a simple table or a node
 
-![](images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.jpg)  
+![](images/8e52e2952bd0901895f8ed5305e52be3fb574c3d81cd2c428f7a29b7529b5276.webp)  
 Figure 2.2. The five basic data types: items, attributes, links, positions, and grids.
 
 # Data Types
@@ -77,29 +77,29 @@ Figure 2.4 shows the internal structure of the four basic dataset types in detai
 
 # $\textcircled{7}$ Data and Dataset Types
 
-![](images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.jpg)  
+![](images/c38b97fd5f3d90b27f2c046a543edf95a1ae3372e405f67785345ffaa9114fc8.webp)  
 Figure 2.3. The four basic dataset types are tables, networks, fields, and geometry; other possible collections of items are clusters, sets, and lists. These datasets are made up of five core data types: items, attributes, links, positions, and grids.
 
-![](images/57ab6618a5ebecf7cfdc5b2ba1a9b8845fb8d21699411be139bd73f2679256c7.jpg)
+![](images/57ab6618a5ebecf7cfdc5b2ba1a9b8845fb8d21699411be139bd73f2679256c7.webp)
 
 # Dataset Types
 
-![](images/9ac995dea3d8dfced8be0f5e5b264b0ffbbe3370801a3043b3669c5383d40589.jpg)  
+![](images/9ac995dea3d8dfced8be0f5e5b264b0ffbbe3370801a3043b3669c5383d40589.webp)  
 Tables
 
-![](images/911c7a3b1644585d4f407ca5b13f861312a6bd0cf10bdcec4eb302a5e56fe513.jpg)  
+![](images/911c7a3b1644585d4f407ca5b13f861312a6bd0cf10bdcec4eb302a5e56fe513.webp)  
 Net works
 
-![](images/706cea01d11eb9490ef18d2d682ad47fb6cde34b1e4992e88d5b807244bc77c8.jpg)  
+![](images/706cea01d11eb9490ef18d2d682ad47fb6cde34b1e4992e88d5b807244bc77c8.webp)  
 Fields (Continuous)
 
-![](images/ab55219725b195262880b49049e5a23219e852b82b6578633a4ccd492b4a4a2e.jpg)  
+![](images/ab55219725b195262880b49049e5a23219e852b82b6578633a4ccd492b4a4a2e.webp)  
 Geometr y (Spatial)
 
-![](images/f6465d6c40ec588b7f1da29fb59a62550efb740b55ebcde9120609217968444b.jpg)  
+![](images/f6465d6c40ec588b7f1da29fb59a62550efb740b55ebcde9120609217968444b.webp)  
 Multidimensional Table
 
-![](images/b6cedccd478d9866ddede7d69aa0f9569face981469b3f47919ba098c9ad21b3.jpg)  
+![](images/b6cedccd478d9866ddede7d69aa0f9569face981469b3f47919ba098c9ad21b3.webp)  
 Trees   
 Figure 2.4. The detailed structure of the four basic dataset types.
 
@@ -121,7 +121,7 @@ Keys and values are discussed further in Section 2.6.1.
 
 <!-- Chunk 2 Start -->
 
-![](images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.jpg)  
+![](images/4f110c91ba095f239fff6d1bbe676b51cb1f72978c2ed01b45555847342b8630.webp)  
 Figure 2.5. In a simple table of orders, a row represents an item, a column represents an attribute, and their intersection is the cell containing the value for that pairwise combination.
 
 * A synonym for networks is graphs. The word graph is also deeply overloaded in vis. Sometimes it is used to mean network as we discuss here, for instance in the vis subfield called graph drawing or the mathematical subfield called graph theory. Sometimes it is used in the field of statistical graphics to mean chart, as in bar graphs and line graphs.
@@ -198,17 +198,17 @@ Many other kinds of data either fit into one of the previous categories or do so
 
 The set of basic types presented above is a starting point for describing the what part of an analysis instance that pertains to
 
-![](images/294bcebd305e1801ab508d03e1dc6e2aef6b42be347085f3c91022126140e08f.jpg)
+![](images/294bcebd305e1801ab508d03e1dc6e2aef6b42be347085f3c91022126140e08f.webp)
 
 # Dataset Availability
 
 Static
 
-![](images/e9ff84720f2b9e376107e7177fc61d1006722045a47e51f07fa5949bd228292b.jpg)
+![](images/e9ff84720f2b9e376107e7177fc61d1006722045a47e51f07fa5949bd228292b.webp)
 
 Dynamic
 
-![](images/27c75eece0fe13591a3f7b9afbae3f8f9ebd797cc2fd931ada7846f0db884415.jpg)  
+![](images/27c75eece0fe13591a3f7b9afbae3f8f9ebd797cc2fd931ada7846f0db884415.webp)  
 Figure 2.6. Dataset availability can be either static or dynamic, for any dataset type.
 
 data; that is, the data abstraction. In simple cases, it may be possible to describe your data abstraction using only that set of terms. In complex cases, you may need additional description as well. If so, your goal should be to translate domain-specific terms into words that are as generic as possible.
@@ -229,43 +229,43 @@ Figure 2.7 shows the attribute types. The major disinction is between categorica
 
 # Attributes
 
-![](images/d3d577a260cbf2d2a221d09bea8dc9cca114454d264c1484fe3f9b88c2d5f64c.jpg)
+![](images/d3d577a260cbf2d2a221d09bea8dc9cca114454d264c1484fe3f9b88c2d5f64c.webp)
 
 # Attribute Types
 
-![](images/a316b9dce44e21cb8852c4e8dbe9c51a219c011ff93155071cd0e1b20d55462b.jpg)
+![](images/a316b9dce44e21cb8852c4e8dbe9c51a219c011ff93155071cd0e1b20d55462b.webp)
 
 Categorical
 
-![](images/1f92e2b25c8c8576edab66d249c101c6851bc75f05033b18fa70f14d142c86c3.jpg)
+![](images/1f92e2b25c8c8576edab66d249c101c6851bc75f05033b18fa70f14d142c86c3.webp)
 
-![](images/5496c9cdc27a1f06a2fd684c72e352190c288d8a969c7478e4516d07d9197044.jpg)
+![](images/5496c9cdc27a1f06a2fd684c72e352190c288d8a969c7478e4516d07d9197044.webp)
 
 Ordered
 
 Ordinal
 
-![](images/07818af464cdd9bbfb0061d0e0abf57618784181795cef07a3f336e6e815522a.jpg)
+![](images/07818af464cdd9bbfb0061d0e0abf57618784181795cef07a3f336e6e815522a.webp)
 
 Quantitative
 
-![](images/df190ff4a72c4dc712d72454d0a723d43b95397a2e905a3bcb7f62fdcbcd4f6b.jpg)
+![](images/df190ff4a72c4dc712d72454d0a723d43b95397a2e905a3bcb7f62fdcbcd4f6b.webp)
 
-![](images/d72a8f1133056fa3c8be9ba3a431210bac281ffce7f66dd9bf001c0b11e101c3.jpg)
+![](images/d72a8f1133056fa3c8be9ba3a431210bac281ffce7f66dd9bf001c0b11e101c3.webp)
 
 # Ordering Direc tion
 
 Sequential
 
-![](images/fd5d0eafaecca0c0d2e35ff263ae4205f501ce7c14242b345fb25071598fc93a.jpg)
+![](images/fd5d0eafaecca0c0d2e35ff263ae4205f501ce7c14242b345fb25071598fc93a.webp)
 
 Diverging
 
-![](images/62bba646f43448d207bc2f73f9459f669fe9e858314c065f7c46122504dcc2bf.jpg)
+![](images/62bba646f43448d207bc2f73f9459f669fe9e858314c065f7c46122504dcc2bf.webp)
 
 Cyclic
 
-![](images/53d553fd1ecb7a894a3d63e5b9b2c0bd228f1d2dbb2a36a607e086ee97468934.jpg)  
+![](images/53d553fd1ecb7a894a3d63e5b9b2c0bd228f1d2dbb2a36a607e086ee97468934.webp)  
 Figure 2.7. Attribute types are categorical, ordinal, or quantitative. The direction of attribute ordering can be sequential, diverging, or cyclic.
 
 # 2.5.1 Categorical
@@ -314,20 +314,20 @@ A key attribute acts as an index that is used to look up value attributes.* The 
 
 A simple flat table has only one key, where each item corresponds to a row in the table, and any number of value attributes. In this case, the key might be completely implicit, where it’s simply the index of the row. It might be explicit, where it is contained within the table as an attribute. In this case, there must not be any duplicate values within that attribute. In tables, keys may be categorical or ordinal attributes, but quantititive attributes are typically unsuitable as keys because there is nothing to prevent them from having the same values for multiple items.
 
-![](images/b323d1c56de0f5380cbe657be68d1fd79ace875be397a4dc68a6be03918c879b.jpg)  
+![](images/b323d1c56de0f5380cbe657be68d1fd79ace875be397a4dc68a6be03918c879b.webp)  
 Tables
 
-![](images/b3e08941d393d2ef75fba0fdc56398fb9fdb79b09787e73ef38a7ad6ed16a485.jpg)  
+![](images/b3e08941d393d2ef75fba0fdc56398fb9fdb79b09787e73ef38a7ad6ed16a485.webp)  
 Fields (Continuous)
 
-![](images/bfc5954975772a732915940c0836d8f302ca7c20981f1dd2519a3f3ead721414.jpg)  
+![](images/bfc5954975772a732915940c0836d8f302ca7c20981f1dd2519a3f3ead721414.webp)  
 Key and value semantics for tables and fields.
 
 For example, in Table 2.1, Name is a categorical attribute that might appear to be a reasonable key at first, but the last line shows that two people have the same name, so it is not a good choice. Favorite Fruit is clearly not a key, despite being categorical, because Pear appears in two different rows. The quantitative attribute of Age has many duplicate values, as does the ordinal attribute of Shirt Size. The first attribute in this flat table has an explicit unique identifier that acts as the key.4 This key attribute could either be ordinal, for example if the order that the rows were entered into the table captures interesting temporal information, or categorical, if it’s simply treated as a unique code.
 
 Figure 2.9 shows the order table from Figure 2.5 where each attribute is colored according to its type. There is no explicit key: even the Order ID attribute has duplicates, because orders consist of multiple items with different container sizes, so it does not act as a unique identifier. This table is an example of using an implicit key that is the row number within the table.
 
-![](images/87ab3d9f47413a2fdcab036e97a8904ec2165dd6fab519c3069c74e7c2e74838.jpg)  
+![](images/87ab3d9f47413a2fdcab036e97a8904ec2165dd6fab519c3069c74e7c2e74838.webp)  
 Figure 2.9. The order table with the attribute columns colored by their type; none of them is a key.
 
 # 2.6.1.2 Multidimensional Tables
@@ -397,7 +397,7 @@ Key and Value Semantics The Polaris vis system, which has been commercialized as
 
 Temporal Semantics A good resource for time-oriented data vis is a recent book, Visualization of Time-Oriented Data [Aigner et al. 11].
 
-![](images/09771069f26c7f7a3c67a6b06d349512125f79a13bc20021f5d75bf5927f8c2d.jpg)
+![](images/09771069f26c7f7a3c67a6b06d349512125f79a13bc20021f5d75bf5927f8c2d.webp)
 
 #
 
@@ -413,29 +413,29 @@ Consume
 
 Discover
 
-![](images/3399c6a93ddedf97faf87f64ddac2f11d22121d960c146b8e7f787bbb6ed28f2.jpg)
+![](images/3399c6a93ddedf97faf87f64ddac2f11d22121d960c146b8e7f787bbb6ed28f2.webp)
 
 Present
 
-![](images/401f00d8e382cfbd9f35be696bca492a1d4e3f1496aecf9d232bc86deff769a6.jpg)
+![](images/401f00d8e382cfbd9f35be696bca492a1d4e3f1496aecf9d232bc86deff769a6.webp)
 
 Enjoy
 
-![](images/6effa18294bf4732e950325ac0b9523f614ec43314909c3f5bbbe6a1a7a1cb40.jpg)
+![](images/6effa18294bf4732e950325ac0b9523f614ec43314909c3f5bbbe6a1a7a1cb40.webp)
 
 Produce
 
 Annotate
 
-![](images/305738805e1eb5c50da94bbaf7a0f1eed2cb8d24a6c64f07f82a56bc77a0b22f.jpg)
+![](images/305738805e1eb5c50da94bbaf7a0f1eed2cb8d24a6c64f07f82a56bc77a0b22f.webp)
 
 Record
 
-![](images/76f1c5eb58244f86eccf3726089602f16cfb2952034fee1c829c1bfc22f713b1.jpg)
+![](images/76f1c5eb58244f86eccf3726089602f16cfb2952034fee1c829c1bfc22f713b1.webp)
 
 Derive
 
-![](images/febb68854a6502135b7d18c3f84377cb60661422782241c3829fb078c571b1b2.jpg)
+![](images/febb68854a6502135b7d18c3f84377cb60661422782241c3829fb078c571b1b2.webp)
 
 # $\textcircled{7}$ Search
 
@@ -445,29 +445,29 @@ Derive
 
 Identify
 
-![](images/8885e474aec78869dc3fdfe70da71693032de288ef3e0a1c268a6ab076f043f9.jpg)
+![](images/8885e474aec78869dc3fdfe70da71693032de288ef3e0a1c268a6ab076f043f9.webp)
 
 Compare
 
-![](images/0ee301384150c8b16a79eb0f8af22f7838946f65836615eafef72e23c621a75a.jpg)
+![](images/0ee301384150c8b16a79eb0f8af22f7838946f65836615eafef72e23c621a75a.webp)
 
 Summarize
 
-![](images/e2e1e9cfb126505daead8388d88caff12fe64ecefd713be9ff6fb95660a1607f.jpg)
+![](images/e2e1e9cfb126505daead8388d88caff12fe64ecefd713be9ff6fb95660a1607f.webp)
 
 # All Data
 
 Trends
 
-![](images/d15f5255486882228220aa9c7960e291040c8bf3661f49200bd88e414db456c0.jpg)
+![](images/d15f5255486882228220aa9c7960e291040c8bf3661f49200bd88e414db456c0.webp)
 
 Outliers
 
-![](images/5f010cf7ecb1946f53247663579594bead241b664f71870b124e5021ce8bd1ce.jpg)
+![](images/5f010cf7ecb1946f53247663579594bead241b664f71870b124e5021ce8bd1ce.webp)
 
 Features
 
-![](images/46a0414324f5b683e32cc6bd63bde875249d712368fdc0701941c8c4531f105d.jpg)
+![](images/46a0414324f5b683e32cc6bd63bde875249d712368fdc0701941c8c4531f105d.webp)
 
 # Attributes
 
@@ -475,7 +475,7 @@ One
 
 Distribution
 
-![](images/b9da6ad87b8ed5b866c9ec1a8e96dac6f05def2fd720899dfcf525dce628fedf.jpg)
+![](images/b9da6ad87b8ed5b866c9ec1a8e96dac6f05def2fd720899dfcf525dce628fedf.webp)
 
 Extremes
 
@@ -483,34 +483,34 @@ Many
 
 Dependency
 
-![](images/0683c03637bbfe0d26c5485d9ba31fe04fa69f02bbde25e379f992b38a2de6b5.jpg)
+![](images/0683c03637bbfe0d26c5485d9ba31fe04fa69f02bbde25e379f992b38a2de6b5.webp)
 
 Correlation
 
-![](images/5a61efa5699d1d3577daa31c2b7fa3b9ebbcbfdd08f9f4cc2cd4534488b6b12e.jpg)
+![](images/5a61efa5699d1d3577daa31c2b7fa3b9ebbcbfdd08f9f4cc2cd4534488b6b12e.webp)
 
 Similarity
 
-![](images/2ecd01868861865fcbf8fdb5901d4d0b4e74818f54a808369837c5f0552d87f2.jpg)
+![](images/2ecd01868861865fcbf8fdb5901d4d0b4e74818f54a808369837c5f0552d87f2.webp)
 
 # Network Data
 
 Topology
 
-![](images/c8b9f59f0ea96cdf7303941ff29b0011d775e019d3e9ca935bb6425342ff802b.jpg)
+![](images/c8b9f59f0ea96cdf7303941ff29b0011d775e019d3e9ca935bb6425342ff802b.webp)
 
-![](images/0cd44456df73147f52c529eb0fed3d246940dd875890f14a309752ea8f2d5d80.jpg)
+![](images/0cd44456df73147f52c529eb0fed3d246940dd875890f14a309752ea8f2d5d80.webp)
 
 Paths
 
-![](images/2ced12035c61e582051c206fe80e3f5f9e7d85df477f1d228dedfa5ee896432e.jpg)
+![](images/2ced12035c61e582051c206fe80e3f5f9e7d85df477f1d228dedfa5ee896432e.webp)
 
 # Spatial Data
 
 Shape
 
-![](images/ddae0e0d16f7660d91d6b3508124b1a258b00212a2b3023015aa68af1cd14fe0.jpg)
+![](images/ddae0e0d16f7660d91d6b3508124b1a258b00212a2b3023015aa68af1cd14fe0.webp)
 
-![](images/5134287128150f451ff8c57c10da3ebf74c2fa7510b5ebcb11b840d4bb769346.jpg)  
+![](images/5134287128150f451ff8c57c10da3ebf74c2fa7510b5ebcb11b840d4bb769346.webp)  
 Figure 3.1. Why people are using vis in terms of actions and targets.
 

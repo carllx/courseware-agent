@@ -16,7 +16,7 @@ This chapter introduces two more levels of design to consider, one above the why
 
 Splitting the complex problem of vis design into four cascading levels provides an analysis framework that lets you address different concerns separately. Figure 4.2 shows these four levels.
 
-![](images/0fc39424f1826862f476b57448f53c5157b1cd058dcee887a6792a26cc7f4995.jpg)  
+![](images/0fc39424f1826862f476b57448f53c5157b1cd058dcee887a6792a26cc7f4995.webp)  
 Figure 4.2. The four nested levels of vis design.
 
 At the top is the situation level, where you consider the details of a particular application domain for vis. Next is the what–why abstraction level, where you map those domain-specific problems and data into forms that are independent of the domain. The following how level is the design of idioms that specify the approach to visual encoding and interaction. Finally, the last level is the design of algorithms to instantiate those idioms computationally.
@@ -69,7 +69,7 @@ Chapter 2 covers abstract data types, and Section 3.4.2.3 discusses transforming
 
 Chapters 7 through 14 feature a thorough look at the design space of vis idioms.
 
-![](images/1d826fbc93cfba1e576318f35b7c3f704661b88dd4e8aac5dfb7ffd45b75a7de.jpg)  
+![](images/1d826fbc93cfba1e576318f35b7c3f704661b88dd4e8aac5dfb7ffd45b75a7de.webp)  
 Figure 4.3. Word Tree combines the visual encoding idiom of a hierarchical tree of keywords laid out horizontally and the interaction idiom of navigation based on keyword selection. From [Wattenberg and Viegas 08, Figure 3].
 
 Chapters 5 and 6 cover principles of human perception and memory that are relevant for making idiom design choices.
@@ -90,7 +90,7 @@ The nested model emphasizes separating algorithm design, where your primary conc
 
 Of course, there is an interplay between these levels. For example, a design that requires something to change dynamically when the user moves the mouse may not be feasible if computing that would take minutes or hours instead of a fraction of a second. However, clever algorithm design could save the day if you come up with a way to precompute data that supports a fast enough response.
 
-![](images/fce9b0f720447759f0aa96c30011f5fac25814e3a411f350d3819b8d98db67ba.jpg)
+![](images/fce9b0f720447759f0aa96c30011f5fac25814e3a411f350d3819b8d98db67ba.webp)
 
 # Angles of Attack
 
@@ -112,7 +112,7 @@ Section 1.12 presented many questions to consider when validating a vis design.
 
 Validating the effectiveness of a vis design is difficult because there are so many possible questions on the table. Considering the validity of your decisions at each level of the nested model separately
 
-![](images/012079474f18ae9f0a3cbf9e4dc7b536558fbe8125104dd98d247c3b180dfef9.jpg)  
+![](images/012079474f18ae9f0a3cbf9e4dc7b536558fbe8125104dd98d247c3b180dfef9.webp)  
 Figure 4.4. The four nested levels of vis design have different threats to validity at each level.
 
 can help you find your way through this thicket of questions about validating your decisions, in the same way that the levels also constrain the decision-making process itself.
@@ -136,7 +136,7 @@ Different threats require very different approaches to validation. Figure 4.5 sh
 
 <!-- Chunk 3 Start -->
 
-![](images/bc7f32c9d1d45c184d66563f47a9fcb82a8b5d6c559de2992f25f90a1098f730.jpg)  
+![](images/bc7f32c9d1d45c184d66563f47a9fcb82a8b5d6c559de2992f25f90a1098f730.webp)  
 Figure 4.5. Threats and validation at each of the four levels. Many threats at the outer levels require downstream validation, which cannot be carried out until the inner levels within them are addressed, as shown by the red lines. Any single project would only address a subset of these levels, not all of them at once.
 
 these ideas in more detail. I give only a brief outline of each validation method here; the Further Reading section at the end of this chapter has pointers to more thorough discussions of their use.
@@ -209,23 +209,23 @@ This section presents examples of several vis research papers, analyzed accordin
 
 McGuffin and Balakrishnan present a system for the visualization of genealogical graphs [McGuffin and Balakrishnan 05]. They pro-
 
-![](images/5d37080be29afc4d88adf560298a7a3f5ac8c92618ee1cf11643406a5158bf95.jpg)
+![](images/5d37080be29afc4d88adf560298a7a3f5ac8c92618ee1cf11643406a5158bf95.webp)
 
-![](images/1d3ce2a6760849c3af4dbcade3f96d72ebe541f607d5a2c48d7d781f842d1682.jpg)  
+![](images/1d3ce2a6760849c3af4dbcade3f96d72ebe541f607d5a2c48d7d781f842d1682.webp)  
 (a)
 
-![](images/b7b5f83efc7cec66af15a7c34b38fc64f243cf025c928e1762c6d3bca728a184.jpg)
+![](images/b7b5f83efc7cec66af15a7c34b38fc64f243cf025c928e1762c6d3bca728a184.webp)
 
-![](images/294e8ed9920d2b10540971ab1ca2979123d0063fb0c55cf2f9cc6493a41d47e6.jpg)
+![](images/294e8ed9920d2b10540971ab1ca2979123d0063fb0c55cf2f9cc6493a41d47e6.webp)
 
-![](images/8b350da571e381092d769fbea13ec9ef5e7d4f8cd3296e8f016b7bdebd04df71.jpg)  
+![](images/8b350da571e381092d769fbea13ec9ef5e7d4f8cd3296e8f016b7bdebd04df71.webp)  
 Figure 4.6. Genealogical graphs. (a) Three layouts for the dual-tree: classical node–link top-to-bottom at the top, classical left-to-right on the left, and the new indented outline algorithm on the right. (b) Widget for subtree collapsing and expanding with ballistic drags. From [McGuffin and Balakrishnan 05, Figures 13 and 14].
 
 pose multiple new visual encoding idioms, including one based on the dual-tree, a subgraph formed by the union of two trees, as shown in Figure 4.6(a). Their prototype features sophisticated interaction idioms, including automatic camera framing, animated transitions, and a new widget for ballistically dragging out subtrees to arbitrary depths as shown in Figure 4.6(b).
 
 This exemplary paper explicitly covers all four levels. The first domain situation level is handled concisely but clearly: their domain is genealogy, and they briefly discuss the needs of and current tools available for genealogical hobbyists. The paper particularly shines in the analysis at the second abstraction level. They point out that the very term family tree is highly misleading, be-
 
-![](images/9b3905e49fdc0b8a59dc8f6edc08106f2dea375afc846162aacc17c11f1da506.jpg)  
+![](images/9b3905e49fdc0b8a59dc8f6edc08106f2dea375afc846162aacc17c11f1da506.webp)  
 Figure 4.7. Genealogical graphs [McGuffin and Balakrishnan 05] validation levels.
 
 cause the data type in fact is a more general graph with specialized constraints on its structure. They discuss conditions for which the data type is a true tree, a multitree, or a directed acyclic graph. They map the domain problem of recognizing nuclear family structure into an abstract task of determining subgraph structure. At the third level of the model, they discuss the strengths and weaknesses of several visual encoding idiom design choices, including using connection, containment, adjacency and alignment, and indentation. They present in passing two more specialized encoding idioms, fractal node–link and containment for free trees, before presenting in detail their main proposal for visual encoding. They also carefully address interaction idiom design, which also falls into the third level of the model. At the fourth level of algorithm design, they concisely cover the algorithmic details of dual-tree layout.
@@ -238,7 +238,7 @@ Henry and Fekete present the MatrixExplorer system for social network analysis [
 
 Design choices for visual encoding idioms for network data are discussed in Chapter 9.
 
-![](images/a78af210b231e5c7d0bc38f66d759e7444f173a3c5325030041f8a6203fe4930.jpg)  
+![](images/a78af210b231e5c7d0bc38f66d759e7444f173a3c5325030041f8a6203fe4930.webp)  
 Figure 4.8. MatrixExplorer features both node–link and matrix representations in an interface designed for sociologists and historians to explore social networks. From [Henry and Fekete 06, Figure 1].
 
 The strengths and weaknesses of matrix and node– link representations of networks are discussed in Section 9.4.
@@ -247,7 +247,7 @@ ipatory design sessions with social science researchers. They use both matrix re
 
 All four levels of the model are addressed, with validation at three of the levels, shown in Figure 4.9. At the domain situation level, there is explicit characterization of the social network analysis domain, which is validated with the qualitative techniques of interviews and an exploratory study using participatory design methods with social scientists and other researchers who use social network data. At the abstraction level, the paper includes a detailed list of requirements of the target user needs discussed in terms of abstract tasks and data. There is a thorough discussion of the primary encoding idiom design decision to use both node–link and matrix views to show the data, and also of many secondary encoding issues. There is also a discussion of both basic interaction idioms and more complex interaction via interactive reordering and clustering. In both cases the authors use the immediate validation method of justifying these design decisions. There is also an extensive downstream validation of this level using qualitative discussion of result images. At the algorithm level, the focus is on the reordering algorithm. Downstream benchmark timings are mentioned very briefly.
 
-![](images/c5b0c2ac4f6cc89614ca08891a98e3e743a941f504d6e466c9a846c89ec73808.jpg)  
+![](images/c5b0c2ac4f6cc89614ca08891a98e3e743a941f504d6e466c9a846c89ec73808.webp)  
 Figure 4.9. MatrixExplorer [Henry and Fekete 06] validation methods.
 
 # 4.7.3 Flow Maps
@@ -258,22 +258,22 @@ In their paper, Phan et al. focus on the innermost algorithm design level, but t
 
 The visual encoding of geographic data is discussed in Section 8.3.1.
 
-![](images/e4bfe1ee1f9d172b6fbea4362a39c614dba2da63e6ee55efff37d72976f29171.jpg)  
+![](images/e4bfe1ee1f9d172b6fbea4362a39c614dba2da63e6ee55efff37d72976f29171.webp)  
 (a)
 
-![](images/726a61be46952b59ce75e08e8275aac62b46ca1eb83530d9d9488e8515e982da.jpg)  
+![](images/726a61be46952b59ce75e08e8275aac62b46ca1eb83530d9d9488e8515e982da.webp)  
 (b)   
 Figure 4.10. Flow maps showing migration patterns from 1995 to 2000 US Census data. (a) Migration from California. (b) The top ten states that sent migrants to California shown in green, and to New York in blue. From [Phan et al. 05, Figures 1c and 10].
 
 Four validation methods were used in this paper, shown in Figure 4.11. At the algorithm level, there is an immediate complexity analysis. There is also a brief downstream report of system timing, saying that all images were computed in a few seconds. There is also a more involved downstream validation through the qualita-
 
-![](images/3966c14fade484c73c3fdac47a07b0fbef74bf604c1d9c3bc7f0efe0ef8cc4b4.jpg)  
+![](images/3966c14fade484c73c3fdac47a07b0fbef74bf604c1d9c3bc7f0efe0ef8cc4b4.webp)  
 Figure 4.11. Flow map [Phan et al. 05] validation methods.
 
-![](images/1d5841b8e11a2bc045c47890773078a0d381b6928c50844a013fabb009d09d71.jpg)  
+![](images/1d5841b8e11a2bc045c47890773078a0d381b6928c50844a013fabb009d09d71.webp)  
 (a)
 
-![](images/78a1ca0004382b507a6ff8b2af9f1a50b611dc302bccffaeac0f679d153825a9.jpg)  
+![](images/78a1ca0004382b507a6ff8b2af9f1a50b611dc302bccffaeac0f679d153825a9.webp)  
 (b)   
 Figure 4.12. LiveRAC supports exploration of system management time-series data with a reorderable matrix and semantic zooming. (a) The first several dozen rows have been stretched out to show sparklines for the devices. (b) The top three rows have been enlarged more, so the charts appear in full detail. From [McLachlan et al. 08, Figure 3].
 
@@ -285,7 +285,7 @@ McLachlan et al. present the LiveRAC system for exploring system management time
 
 Reorderable matrix alignments are covered in Section 7.5.2, semantic zooming is covered in Section 11.5.2, and stretch and squish navigation is covered in Section 14.5.
 
-![](images/2e903d8f5d8dd7538379613c5ac6570159f848f423178e5c22a6f1325fdeaf02.jpg)  
+![](images/2e903d8f5d8dd7538379613c5ac6570159f848f423178e5c22a6f1325fdeaf02.webp)  
 Figure 4.13. LiveRAC [McLachlan et al. 08] validation methods.
 
 web hosting service. Four validation methods were used in this paper, shown in Figure 4.13.
@@ -306,15 +306,15 @@ Although a quick glance might lead to an assumption that this graph drawing pape
 
 Noack clearly distinguishes between the two aspects of energybased methods for force-directed graph layout: the energy model itself versus the algorithm that searches for a state with minimum total energy. In the vocabulary of my model, his LinLog energy model is a visual encoding idiom. Requiring that the edges between clusters are longer than those within clusters is a visual encoding
 
-![](images/684bf1f3a71021abebdedb97556c6f3cb73fbd49c313c710126ff0e411bc5cf2.jpg)
+![](images/684bf1f3a71021abebdedb97556c6f3cb73fbd49c313c710126ff0e411bc5cf2.webp)
 
-![](images/d8184dbb411bf8d8c441d148b97bad3cf6ae47704ea7374c941655bfe9b3d775.jpg)  
+![](images/d8184dbb411bf8d8c441d148b97bad3cf6ae47704ea7374c941655bfe9b3d775.webp)  
 (b)   
 Figure 4.14. The LinLog energy model reveals clusters in node–link graphs. (a) LinLog clearly shows clusters with spatial separation. (b) The popular Fructerman-Reingold model for force-directed placement does not separate the clusters. From [Noack 03, Figure 1].
 
 ‣ Force-directed placement is discussed in Section 9.2.
 
-![](images/835cb5a986be6e8878c3ab8e7c4a7600354479374dcc0ba17f8c10f97270fe88.jpg)  
+![](images/835cb5a986be6e8878c3ab8e7c4a7600354479374dcc0ba17f8c10f97270fe88.webp)  
 Figure 4.15. LinLog [Noack 03] validation methods.
 
 # Q ualita tive/quan tita tive r esult image analysis
@@ -329,10 +329,10 @@ This paper does not in fact address the innermost algorithm level. Noack explici
 
 Heer et al. compare line charts to the more space-efficient horizon graphs [Heer et al. 09], as Figure 4.16 shows. They identify transition points at which reducing the chart height results in significantly differing drops in estimation accuracy across the compared chart types, and they find optimal positions in the speed–accuracy trade-off curve at which viewers performed quickly without attendant drops in accuracy. This paper features lab studies that are designed to validate (or invalidate) specific design choices at the
 
-![](images/b042707e425208dbffa412301f336c6129983bb72fdd174e4f8d1abce1bc1d73.jpg)  
+![](images/b042707e425208dbffa412301f336c6129983bb72fdd174e4f8d1abce1bc1d73.webp)  
 Figure 4.16. Experiment 2 of Sizing the Horizon compared filled line charts, one-band horizon graphs, and twoband horizon graphs of different sizes to find transition points where reducing chart height results in major drops in estimation accuracy across chart types. From [Heer et al. 09, Figure 7].
 
-![](images/bd5367065a8b21b52180c92d08656770a3190c01b1457ac2f2a6b6aa7b8f734a.jpg)  
+![](images/bd5367065a8b21b52180c92d08656770a3190c01b1457ac2f2a6b6aa7b8f734a.webp)  
 Figure 4.17. Lab studies as a validation method.
 
 Lab study, measur e human time/err ors for task
@@ -359,10 +359,10 @@ Experiment Design For lab studies, my current favorite references for experiment
 
 Channels: Expressiveness Types and Effec tiveness R anks
 
-![](images/ba68902f44c8e7e18ddcbe9a8ef1cc59c2e5f0989cc8a207876eb87e3da630da.jpg)  
+![](images/ba68902f44c8e7e18ddcbe9a8ef1cc59c2e5f0989cc8a207876eb87e3da630da.webp)  
 $\textcircled{3}$ Magnitude Channels: Ordered Attributes
 
-![](images/ad11dc1d074326491524d6514855f882b4037bca83327b949cdf384f29025a6f.jpg)  
+![](images/ad11dc1d074326491524d6514855f882b4037bca83327b949cdf384f29025a6f.webp)  
 $\textcircled{3}$ Identity Channels: Categorical Attributes   
 Figure 5.1. The effectiveness of channels that modify the appearance of marks depends on matching the expressiveness of channels with the attributes being encoded.
 

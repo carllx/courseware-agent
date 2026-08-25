@@ -150,7 +150,7 @@ You should think about something else when considering the need for process repo
 
 Process dialogs are, of course, much easier to develop than building animation right into the main window of an application. They also provide a convenient place for the Cancel button, so it is a reasonable compromise to fling up a process dialog for the duration of a time-consuming task. But don't lose sight of the fact that, by doing this, we are still going to another room for a this-room function. It is an easy solution, but not the correct one. Web browsers such as Google Chrome and Microsoft Internet Explorer provide a much more elegant solution. Because loading web pages is so intrinsic to their operation, the progress indicator (an animated circle) is displayed on the currently loading browser tab, as shown in Figure 21-27.
 
-![](images/868e0591d41a8935abc78b0727f54b25f8ead44b45f18bb28255fe3b993b4ce1.jpg)  
+![](images/868e0591d41a8935abc78b0727f54b25f8ead44b45f18bb28255fe3b993b4ce1.webp)  
 Figure 21-27: Web browsers such as Google Chrome don't launch a process dialog every time they load a page. Rather, a progress indicator is displayed in the tab for the currently loading page. Other browsers place this indicator in the URL field or in a status bar at the bottom of the window. This allows users to easily understand what's going on without obscuring their view of the partially loaded web page in front of them.
 
 # Notification dialogs
@@ -171,7 +171,7 @@ Bulletin dialogs, like process dialogs, are launched, unrequested, by the applic
 
 The ubiquitous error dialog best characterizes the bulletin dialog. Normally, the application's name is shown in the caption bar, and a brief text description of the problem is displayed in the body. A graphic icon that indicates the problem's class or severity, along with an OK button, usually completes the ensemble. Sometimes a button to summon online help is added. An example from Word is shown in Figure 21-28.
 
-![](images/454107767405c1de7aab50a7963844dfa01fa77a0dbed7234ea527b318410a52.jpg)  
+![](images/454107767405c1de7aab50a7963844dfa01fa77a0dbed7234ea527b318410a52.webp)  
 Figure 21-28: Here's a typical bulletin dialog. It is never requested by the user but is always issued unilaterally by the application when the application fails to do its job or when it just wants to brag about having survived the procedure. This dialog in effect blames the user, rather than helping solve the problem. Users interpret this as saying "The measurement must be between -22 inches and 22 inches, and you are a buffoon for not knowing that fundamental fact. You are so stupid that I won't even try to correct it for you!"
 
 Bulletin dialogs normally are application-modal: They stop all further progress of the application until the user issues a terminating command—like tapping the OK button. This type of bulletin is blocking because the application cannot continue until the user responds.
@@ -200,7 +200,7 @@ In the 1990s, tabbed dialogs became an established standard in the world of comm
 
 On a more positive note, this idiom also allows application objects with numerous properties to have correspondingly rich property dialogs without making those boxes excessively large and crowded with controls (see Figure 21-29). Many function dialogs that were previously jam-packed with controls now make better use of their space. Before tabbed dialogs, this problem was more clumsily solved with expanding and cascading dialogs, which we'll discuss shortly.
 
-![](images/9338c28ac7bdad9dffe44a994aa86375a5e50f1c854db1e7fdbd7b0e98c31d04.jpg)  
+![](images/9338c28ac7bdad9dffe44a994aa86375a5e50f1c854db1e7fdbd7b0e98c31d04.webp)  
 Figure 21-29: This is a tabbed dialog from iTunes. Combining the different properties of a song in one dialog is effective for users because they have a single place to go to find such things. Note that the terminating controls are correctly placed outside the tabbed pane, in the lower right.
 
 More controls won't necessarily mean that users will find the interface easier to use or more powerful. The contents of the various tabs must have a meaningful rationale for being together. Otherwise, this ability is just another way to build a product according to what is easy for developers, rather than what is good for users.
@@ -211,7 +211,7 @@ Tabs are successful because the idiom follows many users' mental model of how th
 
 Because it's easy to cram so many controls into a tabbed dialog, the temptation is great to add more and more tabs to a dialog. The now-defunct Options dialog from Microsoft Word, shown in Figure 21-30, illustrates this problem. The 10 tabs are far too numerous to show in a single line, so they are stacked two deep. The problem with this idiom, called stacked tabs, is that the user has to do a significant amount of work to find the single option she wants to change. While the labels of the tabs may give her some help, she is still forced to scan the contents of several tabs while switching between them. And as if that isn't enough, when she clicks a tab in the back row, the entire row of tabs moves forward, pushing the other two rows to the back. Few users are happy with this, because it's disconcerting to click a tab and then have it move out from under the mouse. It's no wonder that Microsoft has largely abandoned this idiom.
 
-![](images/68bbaf7229622ebce8542a6cba5c589b7c9c5d0ae358b9b994b63f14985d6d87.jpg)  
+![](images/68bbaf7229622ebce8542a6cba5c589b7c9c5d0ae358b9b994b63f14985d6d87.webp)  
 Figure 21-30: The now-defunct Options properties dialog from Word was an abuse of the tabbed dialog idiom. The problem was that users had to do a lot of work to find the option they were looking for.
 
 Stacked tabs illustrate the following axiom of user-interface design: All idioms, regardless of their merits, have practical limits. A group of five radio buttons may be excellent, but a group of 50 is ridiculous. Five or six tabs in a row is fine, but adding enough tabs to require stacking greatly reduces the idiom's usefulness.
@@ -226,9 +226,9 @@ Don't stack tabs.
 
 Expanding dialogs unfold to expose more controls. The dialog shows a button marked More, or uses a down-pointing arrow icon button that toggles to point up when the dialog has been expanded. When the user clicks it, the dialog grows to occupy more screen space. The newly added portion of the dialog contains added functionality, usually for advanced users or more-complex, but related, operations. The Find and Replace dialog in Microsoft Word, shown in Figure 21-31, is a familiar example of this idiom.
 
-![](images/7c45d556c231e2fafa9038eae96611f5f8ef67e759cab8c769d81001eb566645.jpg)
+![](images/7c45d556c231e2fafa9038eae96611f5f8ef67e759cab8c769d81001eb566645.webp)
 
-![](images/769e03d015cc25462c035ec818372d8d22eb909dd4a86957a866728db915d61e.jpg)  
+![](images/769e03d015cc25462c035ec818372d8d22eb909dd4a86957a866728db915d61e.webp)  
 Figure 21-31: The Microsoft Word Find and Replace dialog is an example of an expanding dialog. The image on the left shows it in its original state; the one on the right is what happens after the arrow toggle button is clicked.
 
 Expanding dialogs give infrequent or first-time users the luxury of not having to confront the complex facilities that more frequent users don't find confusing or overwhelming. Think of the dialog as being in either beginner or advanced mode. However, these types of dialogs must be designed with care. When an application has one dialog for beginners and another for experts, it all too often simultaneously insults the beginners and hassles the experts. It's usually a good idea for the dialog to remember what mode it was used in the last time it was invoked. Of course, this means you should always remember to include a Less command to return the dialog to simple beginner mode.
@@ -237,7 +237,7 @@ Expanding dialogs give infrequent or first-time users the luxury of not having t
 
 Cascading dialogs are a diabolical idiom whereby controls, usually pushbuttons, in one dialog summon another dialog in a hierarchical pile. The second dialog usually covers the first one either partially or completely. Sometimes the second dialog can summon yet a third one. What a mess! Thankfully, cascading dialogs have fallen from grace and are hard to find anymore. Figure 21-32 shows an example taken from Windows Vista.
 
-![](images/26747badd82204e75b0fdc7432e5106b8facafd1aed5a8fd1f7116d58dc8ab8a.jpg)  
+![](images/26747badd82204e75b0fdc7432e5106b8facafd1aed5a8fd1f7116d58dc8ab8a.webp)  
 Figure 21-32: You can still find a few (terrible) cascading dialogs in Windows. Each dialog offers a set of terminating buttons. The resulting excise and ambiguity are not helpful.
 
 It is, simply put, hard to understand what is going on with cascading dialogs. Part of the problem is that the second dialog covers at least part of the first. That isn't the big issue. After all, combo boxes and pop-up menus do that, and some dialogs can be moved. The real confusion comes from the presence of a second set of terminating buttons. What is the scope of each Cancel? What are we OKing?
@@ -262,7 +262,7 @@ Since the early days of computing, developers have largely left unexamined the n
 
 Humans have emotions and feelings; applications don't. When one module of code rejects the input of another, the rejected module doesn't care; it doesn't scowl, get hurt, or seek counseling. Humans, on the other hand, get angry when they are flatly told they did something stupid. Make no mistake: When the user sees an error message, it is as if someone has told her she is stupid (see Figure 21-33). Unsurprisingly, users hate this. Despite this inevitable reaction, some developers use error messages anyway. They don't know how else to create reliable software.
 
-![](images/719991865cfce469942e51e4eba4f4d724e0d9e0be470b0565567e81fa4af170.jpg)  
+![](images/719991865cfce469942e51e4eba4f4d724e0d9e0be470b0565567e81fa4af170.webp)  
 Figure 21-33: No matter how nicely your error messages are phrased, this is how they will be interpreted.
 
 The assumption that users need to be told when they are wrong is false in most circumstances. How important is it for you to know that you requested an invalid type size? Most of the time, applications can and should make reasonable substitutions rather than scolding users.
@@ -303,7 +303,7 @@ Undoubtedly, these solutions cause more work for developers. However, it is the 
 
 Users are unsympathetic to the difficulties developers face. They don't see the technical rationale behind an error message. All they see is the application's unwillingness to deal with things in a human way. They see all error messages as some variant of the one shown in Figure 21-34.
 
-![](images/39bfb4cf6a15f22ebfba2dc8eb4f00997a881c0ff37c993e16535694b1d4c514.jpg)  
+![](images/39bfb4cf6a15f22ebfba2dc8eb4f00997a881c0ff37c993e16535694b1d4c514.webp)  
 Figure 21-34: This is how most users perceive error bulletin dialogs. They see them as Kafkaesque interrogations, with each successive choice leading to a blacker pit of retribution and regret.
 
 One of the problems with error messages is that they are usually ex post facto reports of failure. They say, "Bad things just happened, and all you can do is acknowledge the catastrophe." Such reports are not helpful. And these dialogs almost always come with an OK button, requiring the user to be an accessory to the crime. These error messages are reminiscent of the scene in old war movies where an ill-fated soldier steps on a landmine while advancing across the battlefield. He and his buddies clearly hear the click of the mine's triggering mechanism. The soldier realizes that although he's safe now, as soon as he removes his foot from the mine, it will explode, taking some large and useful part of his body with it. This is likely the feeling users will get when they see your app's ill-considered error messages.
@@ -344,7 +344,7 @@ It is wrong for the application to dump the problem in the user's lap and wash i
 
 Figure 21-35 shows an example of a reasonable error message. Notice that it is polite, illuminating, and helpful. It doesn't suggest that the user's behavior is anything but impeccable.
 
-![](images/7521e64e72b253fce9f856a15f3f707a3760fd7edf0bdb868fc08b6aac3b66c3.jpg)  
+![](images/7521e64e72b253fce9f856a15f3f707a3760fd7edf0bdb868fc08b6aac3b66c3.webp)  
 Figure 21-35: If you must use an error dialog, it should look something like this. It politely and clearly illuminates the problem and proposes a good solution. The action buttons and resulting effects are also clearly described.
 
 # Alerts and confirmations
@@ -361,7 +361,7 @@ Conversely, if the user directs the application to do something—dragging a fil
 
 The rationale for alerts is to keep users informed. This is a great objective, but it need not come at the expense of smooth interaction flow. The alert shown in Figure 21-36 is an example of how alerts are more trouble than help. The Find dialog (the one underneath) already forces the user to click Cancel when the search is completed, but the superimposed alert box adds another flow-breaking button. To return to his work, the user first must click the OK button in the alert and then the Cancel button in the Find dialog. If the information provided by the alert were built into the main Find dialog, the user's burden would be reduced by half.
 
-![](images/17a8995363fa5e9e6b6eb0af4732f9733dc1d6020e8e9d5d88c3b70cc3d9733d.jpg)  
+![](images/17a8995363fa5e9e6b6eb0af4732f9733dc1d6020e8e9d5d88c3b70cc3d9733d.webp)  
 Figure 21-36: A typical alert dialog. It is unnecessary and inappropriate and stops the proceedings with idiocy. Word has finished searching the document. Should reporting that fact be a different facility than the search mechanism itself? If not, why does it use a different dialog?
 
 # How to eliminate alerts
@@ -372,14 +372,14 @@ Of course, software must keep users informed of its actions. It should have visu
 
 Software should be flexible and forgiving, but it doesn't need to be fawning and obsequious. The dialog shown in Figure 21-37 is a classic example of an alert that should be put out of its misery. It announces that the application successfully completed a synchronization—its sole reason for existence. This occurs a few seconds after we told it to synchronize. It stops the proceedings to announce the obvious. It's as though the application wants approval for how hard it worked. If a person interacted with us like this, we'd be uncomfortable and find him overbearing. Of course, some feedback is appropriate, but is another dialog that must be dismissed really necessary?
 
-![](images/c656992950d763974633031c23a42b62d692555b2fbac67cb5d0af229abb8e42.jpg)  
+![](images/c656992950d763974633031c23a42b62d692555b2fbac67cb5d0af229abb8e42.webp)  
 Figure 21-37: This dialog, from AirSet Desktop Sync, is unnecessarily obsequious. We tell it to synchronize and are promptly stopped in our tracks by this important message. Do we really need the application to waste our time demanding recognition that it managed to do its job?
 
 # Confirmations: the dialog that cried wolf
 
 When an application feels unconfident about its actions, it often asks the user for approval with a dialog, like the one shown in Figure 21-38. This is called a confirmation. Sometimes a confirmation is offered because the application second-guesses one of the user's actions. Sometimes the application feels that it is not competent to make a decision it faces, and it uses a confirmation to give the user the choice instead.
 
-![](images/b09cdbf342b937bbd33a2c546cda91dce3fc5d4244067d8503f6c07d8428da0c.jpg)  
+![](images/b09cdbf342b937bbd33a2c546cda91dce3fc5d4244067d8503f6c07d8428da0c.webp)  
 Figure 21-38: Every time we delete a file in Windows, we get this confirmation dialog asking if we're sure. Yes, we're sure. We're always sure. And if we're wrong, we expect Windows to be able to recover the file for us. Windows lives up to that expectation with its Recycle Bin. So, why does it still issue the confirmation message? When a confirmation box is issued routinely, users get used to approving it routinely. So, when it eventually reports an impending disaster to the user, he goes ahead and approves it anyway, because it is routine. Do your users a favor and never create another confirmation dialog.
 
 Confirmations get written into software when a developer arrives at an impasse in her coding. Typically, she realizes that she is about to direct the application to take some bold action, and she feels unsure about taking responsibility for it. Sometimes the bold action is based on some condition the application detects, but more often it is based on a command the user issues. Typically, the confirmation will be launched after the user issues a command that is irrecoverable or whose results might cause undue alarm.
@@ -412,7 +412,7 @@ Even better than acting in haste and forcing users to rescue the application wit
 
 Occasionally, a situation arises that really can't be protected by Undo. Is this a legitimate case for a confirmation dialog? Not necessarily. A better approach is to provide users with protection the way we give them protection on the freeway: with consistent and clear markings. You can often build excellent, modeless warnings right into the interface. For instance, look at the dialog from Adobe Photoshop shown in Figure 21-39, telling us that our document is larger than the available print area. Why has the application waited until now to inform us of this fact? What if guides showing the actual printable region were visible on the page at all times (unless the user hid them)? What if the parts of the picture outside the printable area were highlighted when the user moved the cursor over the Print button in the toolbar? Clear, rich modeless feedback (as discussed in Chapter 15) is the best way to address these problems.
 
-![](images/b223e40c514d0ab36533ef5e5f0a25ba1de8782b3d0f73753b7041b599268366.jpg)  
+![](images/b223e40c514d0ab36533ef5e5f0a25ba1de8782b3d0f73753b7041b599268366.webp)  
 Figure 21-39: This dialog provides too little help too late. What if the application could display the printable region right in the main interface as dotted guides? There's no reason for users to be subjected to dialogs like these.
 
 

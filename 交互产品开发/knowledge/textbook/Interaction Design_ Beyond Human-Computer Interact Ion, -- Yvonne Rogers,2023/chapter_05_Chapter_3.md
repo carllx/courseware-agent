@@ -23,7 +23,7 @@ When coming up with new ideas as part of a design project, it is i
 
 For  example, consider  the idea  that a designer has  of creating  a voice-assisted  mobile robot  that  can  help  waiters  in  a  restaurant  take  orders  and  deliver  meals  to  customers (see Figure 3.1). The first  question to ask is: Why? What  problem would this address? The designer might say that the robot could help take orders and entertain customers by having a conversation with them at the table. They could also make recommendations  that can be customized to different customers, such as restless children or fussy eaters. However, none of these addresses an actual problem. Rather, they are couched in terms of the putative benefits of the  new solution. In contrast, an actual problem identified might be the following: “It is difficult to recruit good waiters who provide the level of customer service to which we have become accustomed.”
 
-![](images/83016af47b9a246fd03212cdf8bfde59933213e9a8cdbef44634cd57e659a542.jpg)  
+![](images/83016af47b9a246fd03212cdf8bfde59933213e9a8cdbef44634cd57e659a542.webp)  
 Figure 3.1  A nonspeaking robot waiter in Shanghai. Imagine what would be gained if it could also have a conversation with customers.
 
 Source: ZUMA Press / Alamy Stock Photo
@@ -37,7 +37,7 @@ These  kinds of robot servers first appeared  after the  pandemic when
 in the kitchen; the cooks load up the trays on its shelves and then send it to a preset area of the dining room to deliver the food. The customers or the human waiter removes the food and drinks from the robot server. After the customers finish their meal, the waiters then load the dirty dishes back onto the tray. In this sense, the robot server is like a tool, there to save waiters’ time rather than replacing them.
 
 Figure 3.2  A robot server with a set of trays that orders are placed onto   
-![](images/9949df766c964278b4ab944ce1eda8efc6fc263b1f925aa77b583f010a7f5234.jpg)  
+![](images/9949df766c964278b4ab944ce1eda8efc6fc263b1f925aa77b583f010a7f5234.webp)  
 Source: www.richtechrobotics.com
 
 Video To see one in action, visit www.richtechrobotics.com/matradee.
@@ -94,7 +94,7 @@ There was much hype and fanfare about  the enhanced user experience 3D and
 received worldwide when viewing 3D films at a cinema. Similarly, an assumption made about curved TV was that it would provide  more flexibility for viewers  to optimize the viewing angles in someone’s living room.
 
 Figure 3.3  A family watching 3D TV   
-![](images/2ff0f7b50b27063e09a27a293cb36a8a415071cfad34eb9c5354b051aa6d33e7.jpg)  
+![](images/2ff0f7b50b27063e09a27a293cb36a8a415071cfad34eb9c5354b051aa6d33e7.webp)  
 Source: Andrey Popov/Shutterstock
 
 The unanswered question for both concepts was this: Could the enhanced cinema viewing experience that both claimed become an actual desired living room experience? There was no existing problem to overcome—what was being proposed was a new way of experiencing TV. The problem they might have assumed existed was that the experience of viewing TV at home was inferior to that of the  cinema. The claim could have been that people would be prepared to pay more for a better-quality viewing experience more akin to that of the cinema.
@@ -138,7 +138,7 @@ Once formulated and agreed upon, a conceptual model can then become a
 
 Another term that is sometimes used is a design concept. Essentially, it is a set of ideas for a design. Typically, it is composed of scenarios, images, storyboards, mood boards, or text-based documents. For example, Figure 3.4 shows the first page of a design concept developed for an ambient display that was aimed at changing people’s behavior in a building, that is, to take the stairs instead of the elevator. Part of the design concept was envisioned as an animated pattern of twinkly lights that would be embedded in the carpet near the entrance of the building with the intention of luring people toward the stairs (Hazlewood et al., 2010 / ACM, Inc.).
 
-![](images/3c6e62ef3a2a3f7292e7de0fb6f9723b688177ad8ad90ce4dae89b83e74ecc96.jpg)  
+![](images/3c6e62ef3a2a3f7292e7de0fb6f9723b688177ad8ad90ce4dae89b83e74ecc96.webp)  
 Figure 3.4  The first page of a design concept for an ambient display
 
 Many products are actually based on well-established conceptual models. For example, a conceptual model based on the core aspects of the customer experience when at a store underlies most online shopping websites. These include placing items that a customer wants to purchase into a shopping cart or basket and proceeding to checkout when they’re ready to make the purchase. Collections of patterns are now readily available to help design the interface for these core transactional processes, together with many other aspects of a user experience, meaning interaction designers do not have to start from scratch every time they design or redesign an application. Examples include patterns for online forms and navigation on mobile phones.
@@ -152,7 +152,7 @@ A Classic Conceptual Model: The Xerox Star
 The Star interface, developed by Xerox in 1981 (see Figure 3.5), revolutionized the way that interfaces were designed for personal computing  (Smith et al., 1982;  Miller and  Johnson, 1996) and is viewed as the forerunner of today’s Mac and Windows desktop interfaces. Originally, it was designed as an office system, targeted at workers not interested in computing per se, and it was based on a conceptual model that included the familiar knowledge of an office. Paper, folders, filing cabinets, and mailboxes were represented as icons on the screen and were designed to possess some of the properties of their physical counterparts. Dragging a document icon across the  desktop screen was seen as equivalent to picking up a piece of paper in the physical world and moving it (but this, of course, is a very different action). Similarly, dragging a digital  document into a digital folder was seen as being analogous to placing a physical document into a physical cabinet. In addition, new concepts that were incorporated as part of the desktop metaphor were operations that could not be performed in the physical world. For example, digital files could be placed onto an icon of a printer on the desktop, resulting in the computer printing them out.
 
 Figure 3.5  The Xerox Star   
-![](images/93bcfc47d482278fa807383e92e9b974cd142e3f0661afac6b524bcc2e06eab4.jpg)  
+![](images/93bcfc47d482278fa807383e92e9b974cd142e3f0661afac6b524bcc2e06eab4.webp)  
 Source: Used courtesy of Xerox
 
 Video The history of the Xerox Star is at youtu.be/Cn4vC80Pv6Q.
@@ -173,7 +173,7 @@ Interface metaphors are intended to provide familiar entities that enab
 
 An interface metaphor that has become a staple  in UX is the card. Many of the social media  apps,  such  as Twitter  and  Pinterest,  present their  content  on  digital  cards  that  are based on the idea behind most physical cards. They have a familiar form, having been around for a long time. Just think of how many kinds there are: playing cards, business cards, birthday cards, credit cards, and postcards to name a few. They have strong associations, providing an  intuitive way  of organizing  limited content  that is “card sized.” They  can easily  be flicked through, sorted, and themed. They structure content into meaningful chunks, similar to how paragraphs are used to chunk a set of related sentences into distinct sections (Babich, 2016). They have also become the standard interface model used in many self-ordering kiosks (see Figure 3.6).
 
-![](images/16df1dd90e106436d58627aad6d1726cf4f7975d07c0b743169b31e1bcdd93b7.jpg)  
+![](images/16df1dd90e106436d58627aad6d1726cf4f7975d07c0b743169b31e1bcdd93b7.webp)  
 Figure 3.6  A self-ordering kiosk found in many fast-food restaurants that uses a card metaphor as part of the interface. Each food or drink item is displayed on its own card with associated description and price. This enables the customer to easily select items they want to purchase from the category types in the card matrix while also going back and forth between the other high-level categories (e.g., burgers, vegan, cold drinks), shown down the left side of the display.
 
 In  many  cases, metaphors become  integrated  into common  parlance,  as  witnessed  by the way  people talk about  them. For  example, parents  talk about  how  much screen  time children are allowed each day in the same way they talk more generally about spending time. It  can also  become  an everyday  term in its  own right, e.g., Googling.  Moreover, it  is hard not to use metaphorical terms when talking about technology  use, as they  have become so ingrained in the language that we use to express ourselves. Just ask yourself or someone else to describe Twitter or Instagram and how people use them. Then try doing it without using a single metaphor.
@@ -218,11 +218,11 @@ One of the main benefits of designing an interaction based on issuing
 
 There  are  many different  kinds of vending  machines in the  world. Each offers a range  of goods, requiring users to part with some of their money. Figure 3.7 shows photos of three different types of vending machines: one that provides soft drinks and the other two that deliver a range of snacks. Each machine uses an instructional mode of interaction. However, the way they do so is quite different.
 
-![](images/01ad0f4503f33d6618876d06c189723819fcac6880ad328765e15583f1f59bfe.jpg)
+![](images/01ad0f4503f33d6618876d06c189723819fcac6880ad328765e15583f1f59bfe.webp)
 
-![](images/132743dca10fc2a738057125d1a4eda23afcbea77472b47fac355c58d0fba20e.jpg)
+![](images/132743dca10fc2a738057125d1a4eda23afcbea77472b47fac355c58d0fba20e.webp)
 
-![](images/25c2ac9b4f6207c3510aae30bfe4c031f7268d4be0c636c8377e56314a8d4ebd.jpg)  
+![](images/25c2ac9b4f6207c3510aae30bfe4c031f7268d4be0c636c8377e56314a8d4ebd.webp)  
 Figure 3.7  Three different types of vending machine
 
 What instructions must be issued to obtain a soda from the first machine, a bar of chocolate from the second, and a packet of chips from the third one? Why has it been necessary to design a more complex mode of interaction for the second vending machine? What problems can arise with this mode of interaction?
@@ -247,7 +247,7 @@ A  main  benefit  of  developing  a  conceptual model  that  uses  a 
 
 message. You can also ask it  indirect questions that  it knows how to answer, such as “Do I need an umbrella today?” It will look up the weather for where you are and then answer with something like, “It doesn’t look like it’s going to rain today” while also providing a weather forecast (see Figure 3.8).
 
-![](images/9d6b827797eb9250ea73c5de98f6c1a44bf119d17c860c782b258d9bf3c91c16.jpg)  
+![](images/9d6b827797eb9250ea73c5de98f6c1a44bf119d17c860c782b258d9bf3c91c16.webp)  
 Figure 3.8  Siri’s response to the question “Do I need an umbrella today?”
 
 A problem that can arise from using a conversational-based interaction type is that certain kinds of tasks are transformed into cumbersome and one-sided interactions. This is especially true for automated phone-based systems that use auditory menus to advance the interaction. Users  have  to listen to a voice providing several options, then make a selection, and finally repeat through further layers of menus before accomplishing their goal, for example, reaching a real human or paying a bill. Here is the beginning of a dialogue between someone who wants to find out about car insurance and an insurance company’s phone reception system:
@@ -264,7 +264,7 @@ A problem that can arise from using a conversational-based interaction�
 
 “You have reached the  car insurance division. If you require  information about  fully comprehensive insurance, say 1; third-party insurance, say 2. . . .”
 
-![](images/a1957fcae14cd2d9e19aa70c997eada8154279ecf3ebe3ac5053a04d2dc360b4.jpg)
+![](images/a1957fcae14cd2d9e19aa70c997eada8154279ecf3ebe3ac5053a04d2dc360b4.webp)
 
 “If you’d like to press 1, press 3.
 
@@ -303,10 +303,10 @@ This mode of interaction involves people moving through virtual or phy
 
 Many  3D virtual environments  have  been built  that comprise digital  worlds designed for people to move between various spaces to socialize in (e.g., Metaverse), to learn in (e.g., virtual conferences), or to play video games in (such as Fortnite). Many virtual landscapes depicting cities, parks, buildings, rooms, and datasets have also been built, both realistic and abstract, that enable users to fly over them and zoom in and out of different parts. Other augmented environments that have been developed are intended to be used in one’s living room, where hologram people or virtual animals can magically be made to appear (see Figure 3.9a). There are also virtual worlds that are larger than life, enabling people to move around them and experience things that are normally impossible or invisible to the eye. Architects create highly realistic VR representations of planned buildings and spaces that enable their clients and customers  to imagine how  they will use and move through them. 3D visualizations  of complex datasets have also been generated that enable scientists and researchers to immerse themselves in and manipulate the data points, using hand gestures (see Figure 3.9b).
 
-![](images/a15117791cd9aacaa20c66c7e2e725460c48c9d638eeaa9eaa6e98de662b0895.jpg)  
+![](images/a15117791cd9aacaa20c66c7e2e725460c48c9d638eeaa9eaa6e98de662b0895.webp)  
 (a)
 
-![](images/6531ca4ef0ecdea93c14fc5c300d64a2747574193ada1bf0e8172f26566057c2.jpg)  
+![](images/6531ca4ef0ecdea93c14fc5c300d64a2747574193ada1bf0e8172f26566057c2.webp)  
 (b)   
 Figure 3.9  (a) A drop-in virtual lion appearing in someone’s living room created with Google 3D object; and (b) architects working together designing a 3D virtual model.
 
@@ -316,7 +316,7 @@ Source: (a) www.cnet.com/tech/services-and-software/google-3d-animals-how-to-us
 
 This mode of interaction involves the system taking the initiative to alert, describe, or show a person something that it “thinks” is of interest or relevance to the context they are presently in. It can do this through detecting the location and/or presence of someone in a vicinity (for instance, a nearby coffee bar where friends are meeting) and notifying them about it on their phone or watch. Smartphones and wearable devices are becoming increasingly proactive in initiating  user  interaction  in  this  way, rather  than  waiting  for  the  user  to  ask,  command, explore, or manipulate. An example is a fitness tracker that notifies the wearer of a milestone they have reached for a given activity, for example, having walked 10,000 steps in a day. The fitness tracker does this automatically without any requests made by the wearer; the wearer can respond by looking at the notification on their screen or listening to an audio announcement that is made. Another example is when the system automatically provides some funny or useful information for the user, based on what it has learned from their repeated behaviors when carrying out particular actions in a given context. For example, after taking a photo of a friend’s cute dog in the park, Google Lens will automatically pop up information that identifies the breed of the dog (see Figure 3.10).
 
-![](images/87b834b9d05e2e3c659971aca97ebda507b3ba022eac728371b7ec866673f353.jpg)  
+![](images/87b834b9d05e2e3c659971aca97ebda507b3ba022eac728371b7ec866673f353.webp)  
 Figure 3.10 Google Lens in action, providing pop-up information about Pembroke Welsh Corgi having recognized the image as one
 
 Source: https://lens.google.com
@@ -473,7 +473,7 @@ JOHNSON, J. and HENDERSON, A.  (2012) Conceptual Models:  Core to  Good
 
 LONG, J. (2021) Approaches and Frameworks for HCI Research. CUP. This book is intended for junior researchers starting  out. It surveys  research models and methods in use today. It also provides a general framework intended to bring together the disparate concepts that can be used to inform their own research frameworks and methods.
 
-![](images/dd933a31b5229ca4aa5c63b7e5bc505d27a9801ec7fb2ed70bdbb91af8ae02a3.jpg)
+![](images/dd933a31b5229ca4aa5c63b7e5bc505d27a9801ec7fb2ed70bdbb91af8ae02a3.webp)
 
 # INTERVIEW with Albrecht Schmidt
 

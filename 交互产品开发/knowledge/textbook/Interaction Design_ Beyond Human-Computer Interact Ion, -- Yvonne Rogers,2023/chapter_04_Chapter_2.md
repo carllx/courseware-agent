@@ -41,7 +41,7 @@ Deliver:  Different  solutions  are  tested  at small  scale  and eithe
 
 As indicated  by the arrows in Figure 2.1, the process is  not linear, and the phases may be iterated several times to progress from the Challenge to the Outcome, but as pointed out by  the Design  Council, “in  an  ever-changing and  digital world, no idea  is  ever ‘finished.’” In the framework  for innovation, the core double diamond process is supported  by design principles, a  method  bank, and two  characteristics  of organizational  culture  (engagement and leadership). The four design principles that support the double diamond focus on people,
 
-![](images/59f1bc8460ea9cc1057cf63253050cf1e3f63124a0c7f1219d97bb8e8b1305c5.jpg)  
+![](images/59f1bc8460ea9cc1057cf63253050cf1e3f63124a0c7f1219d97bb8e8b1305c5.webp)  
 Figure 2.1  The  Design Council’s  framework  for  innovation with the  double diamond  of design at its heart
 
 Source: 2019,  Design Council  www.designcouncil.org.uk/news-opinion/what-framework-innovation-designcouncils-evolved-double-diamond last accessed by 20 May 2022
@@ -75,10 +75,10 @@ intuitive, but it is a very valuable step. The second phase guided me towar
 
 Developing solutions (the third phase) led me to consider how to interact with the product—seeing detail on a large screen would be useful, and a summary to carry with me on a  mobile device would support my travel. The  type of support  also depends  on where the meeting is being held. Planning a trip abroad requires both a high-level view to check visas, vaccinations, and travel advice, as well as a detailed view about the proximity of accommodation to the meeting venue and specific flight times. Planning a local trip is much less complicated. In terms of testing the design, I  found myself thinking about  the design as I went along, modifying it in response to my assessment. If the product was to be used for others, then I would not rely solely on my own assessment but would involve others too.
 
-![](images/b5ccd8ea7df75cca56fdc363f7b1196c6462744bd5256f489b0496b9fc59d43c.jpg)  
+![](images/b5ccd8ea7df75cca56fdc363f7b1196c6462744bd5256f489b0496b9fc59d43c.webp)  
 (a)
 
-![](images/6cbf00d01ea36122abd9ec442f029eee587e4f19d598f34279f7d8582fbfffda.jpg)  
+![](images/6cbf00d01ea36122abd9ec442f029eee587e4f19d598f34279f7d8582fbfffda.webp)  
 (b)   
 Figure 2.2  Initial sketches of the trip organizer showing (a) a large screen covering the entire journey from home to Beerwah in Australia and (b) the smartphone screen available for the leg of the journey at Paris (Charles de Gaulle) airport
 
@@ -178,7 +178,7 @@ Once a product has been released, a different kind of user involvement is
 
 Error reporting systems (ERSs, also called online crashing analysis) automatically collect information from users that is used to improve applications in the longer term. This is done with users’ permission, but with a minimal reporting burden. Figure 2.3 shows two dialog boxes for the Windows error reporting system that is built into Microsoft operating systems. This kind of reporting can have a significant effect on the quality of applications. For example, 29 percent of the errors fixed by the Windows XP (Service Pack 1) team were based on information collected through their ERS (Kinshumann et al., 2011). While Windows XP is no longer being  supported, this statistic illustrates the impact ERSs can have. The system uses a sophisticated approach to error reporting based on five strategies: automatic aggregation of error reports; progressive data collection so that the data collected (such as abbreviated or full stack and memory dumps) varies depending on the level of data needed to diagnose the error; minimal user interaction; preserving user privacy; and providing solutions directly to users where possible. By using these strategies, plus statistical analysis, effort can be focused on the bugs that have the highest impact on the most users.
 
-![](images/05791469b740487c1408a00fbec40d404da6aaba274e507f578142b3a72a8021.jpg)  
+![](images/05791469b740487c1408a00fbec40d404da6aaba274e507f578142b3a72a8021.webp)  
 Figure 2.3  Two typical dialog boxes from the Windows error reporting system
 
 # 2.2.4  What Is a People-Centered Approach?
@@ -258,12 +258,12 @@ The activities to discover requirements, design alternatives, build prot
 
 Understanding what activities are involved in interaction design is the first step to being able to do it, but it is also important to consider how the activities are related to one another. The term lifecycle  model (or process model)  is used to represent  a model that captures  a set of activities and how they are related. Existing models have varying levels of sophistication and complexity  and  are  often  not  prescriptive.  For  projects  involving  only  a  few  experienced developers, a simple process is adequate. However, for larger systems involving tens or hundreds of developers, a simple process just isn’t enough to provide the management structure and discipline necessary to engineer a usable product.
 
-![](images/f9ae41409eadcb7d407bc6128e4e1d878badf6cc39eba837b53cb65b6df4e2a0.jpg)  
+![](images/f9ae41409eadcb7d407bc6128e4e1d878badf6cc39eba837b53cb65b6df4e2a0.webp)  
 Source: Fran / Cartoon Stock
 
 Many  lifecycle models  have  been proposed  in  fields  related to  interaction design. For example, software engineering  lifecycle models include the waterfall, spiral, and V  models (for more information about these models, see Pressman and Maxim [2019]). HCI has been less  associated  with  lifecycle models, but  two  well-known  ones  are  the  Star  (Hartson  and Hix, 1989) and an international standard model ISO 9241-210. Rather than explaining the details  of these  models, we  focus  on the  simple  lifecycle model  shown  in  Figure  2.4. This model shows how the four activities of interaction design are related, and it incorporates the principles of people-centered design discussed earlier.
 
-![](images/66be0180bcbe65f47f1ea9eac3119ae0760f3f5d8bf46cd0d7612030f08e400b.jpg)  
+![](images/66be0180bcbe65f47f1ea9eac3119ae0760f3f5d8bf46cd0d7612030f08e400b.webp)  
 Figure 2.4  A simple interaction design lifecycle model
 
 Many projects start by discovering requirements from which alternative designs are generated. Prototype versions of the designs are developed and then evaluated. During prototyping or based on feedback from evaluations, the team may need to refine the requirements or to redesign. One or more  alternative designs  may follow this  iterative cycle in parallel. Implicit in this cycle is that the final product will emerge  in an evolutionary fashion from an initial idea through to the finished product or from limited functionality to sophisticated functionality. Exactly how this evolution happens varies from project to project. However many times the product goes through the cycle, development ends with an evaluation activity  that ensures  that  the final  product meets  the prescribed  user experience and  usability criteria. This evolutionary production relates to the right side of the double diamond, but note that in this interaction design process, discovering requirements may also be revisited.
@@ -297,7 +297,7 @@ A key aspect of design sprints is that they are timeboxed: enough time to te
 This design sprint approach has been picked up by many organizations and tailored to their own particular circumstances. One of the earliest design sprints was developed by Google Ventures and optimized for startups (Knapp et al., 2016). Its sprint is divided into planning, followed by five phases, and each phase  is completed in a day. In this sprint, the  first two phases (Understand and Define) are combined into one called Unpack. Teams are encouraged to iterate  on the  last two  phases (Prototype and  Validate)  and  to develop  and  re-test prototypes.
 
 Figure 2.5  The six phases of the design sprint   
-![](images/ee460a23f0068493f101732026cef7a529c722d50cbd783b4d11b15931e83d78.jpg)  
+![](images/ee460a23f0068493f101732026cef7a529c722d50cbd783b4d11b15931e83d78.webp)  
 Source: https://designsprintkit.withgoogle.com/methodology/overview last accessed by 20 May 2022
 
 To see a more detailed description of the design sprint approach and a set of resources to plan and run a design sprint, go to designsprintkit.withgoogle .com/methodology/overview.
@@ -315,7 +315,7 @@ Research in the  wild (RITW) develops technology solutions in everyday living 
 Figure 2.6 shows the framework for RITW studies. In terms of the four activities introduced  in section  2.2.5, this framework  focuses  on designing, prototyping, and  evaluating technology and ideas and is one way in which requirements may be discovered. It also considers relevant theory since often the purpose of an RITW study is to investigate a theory, idea, concept, or observation. Any one RITW study may emphasize the elements of the framework to a different degree.
 
 Figure 2.6  A  framework  for research in the wild (RITW) studies illustrating that all of the study elements connect to each other   
-![](images/c911ec54b903b27480c807f66ef459a558b43196b88d9cd05d22bf3f2700fc3e.jpg)  
+![](images/c911ec54b903b27480c807f66ef459a558b43196b88d9cd05d22bf3f2700fc3e.webp)  
 Source: Rogers and Marshall (2017), p. 6. Used courtesy of Morgan & Claypool
 
 Technology: Concerned with appropriating existing infrastructures/devices (e.g., Internet of Things toolkit, mobile app) in situ or developing new ones for a given setting (e.g., a novel public display)
@@ -360,10 +360,10 @@ The process of articulating the problem space is typically done as a�
 
 one another. Although time-consuming and sometimes resulting in disagreements among the design team, the benefits of this process can far outweigh the associated costs: There will be much less  chance  of incorrect assumptions and unsupported  claims creeping  into a design solution  that later  turns out  to be unusable or unwanted. Spending  time enumerating  and reflecting upon ideas during the early stages of the design process enables more options and possibilities to be considered. Furthermore, designers are increasingly expected to justify their choice of problems and to be able to present clearly and convincingly their rationale in business as well as design language. Being able to think and analyze, present, and argue is valued as much as the ability to create a product (Kolko, 2011).
 
-![](images/0b7337d13540e54cb5f7c89fef5be7c222979a511a9865f5196713c4966f0fb4.jpg)  
+![](images/0b7337d13540e54cb5f7c89fef5be7c222979a511a9865f5196713c4966f0fb4.webp)  
 (a)
 
-![](images/6d1d41ab036c6db153a423847c819b65d51f813557ebdd48d0564bf16e0c1215.jpg)  
+![](images/6d1d41ab036c6db153a423847c819b65d51f813557ebdd48d0564bf16e0c1215.webp)  
 (b)   
 Figure 2.7  (a) An example immersive holographic display that shows information about the vehicle, navigation, infotainment, and surroundings at different distances, and (b) an augmented reality navigation system available in some cars today
 
@@ -393,11 +393,11 @@ Extend your solution with a feature that makesit fun or captivating
 
 ...ad an unusual
 
-![](images/23db41bb6808b709e3caa789678b55775090260d525f8bdcdbb96f406a9ef701.jpg)
+![](images/23db41bb6808b709e3caa789678b55775090260d525f8bdcdbb96f406a9ef701.webp)
 
 engaging to use
 
-![](images/5329b207be06b3c0ace73646cdb53f6108e49e7c2ca1c46a84897e2b3b7ff892.jpg)
+![](images/5329b207be06b3c0ace73646cdb53f6108e49e7c2ca1c46a84897e2b3b7ff892.webp)
 
 # Durable
 
@@ -405,12 +405,12 @@ solutiondurable,long-lasting
 
 permanent, endless solution
 
-![](images/52e11f3f2aa00b6110d1e2f98e76ce91fe652905ac5f2213e74f48881dd00e8e.jpg)
+![](images/52e11f3f2aa00b6110d1e2f98e76ce91fe652905ac5f2213e74f48881dd00e8e.webp)
 
 add itrobust,sollid
 
 Figure 2.8  Two creativity triggers   
-![](images/b5fc7d794e8cc5b3214d0f21b63570ad9734a29a6a9d582935986d52eea469ea.jpg)  
+![](images/b5fc7d794e8cc5b3214d0f21b63570ad9734a29a6a9d582935986d52eea469ea.webp)  
 Source: Burnay et al. (2016)
 
 <table><tr><td>Name</td><td>Description</td><td>Guideline 1</td><td>Guideline 2</td><td>Example</td></tr><tr><td>Entertaining</td><td>Extend your solution with a feature that makes it fun or captivating</td><td>...add an unusual feature that no competitor&#x27;s solution has</td><td>... find a feature for your solution that makes it witty and engaging to use</td><td>Google regularly provides diverting content on a regular basis to its users, under the form of interactive Doodles focusing on a specific theme.</td></tr><tr><td>Durable</td><td>Find a feature that makes your solution durable, long-lasting</td><td>... think about your solution as a permanent, end-less, solution</td><td>... add a component to your solution that makes it robust, solid</td><td>A rechargeable battery can be used and recharged more than a hundred times with the same power quality, making it a durable product.</td></tr></table>

@@ -1,6 +1,6 @@
-![](images/assets/cover.png)
+![](images/assets/cover.webp)
 
-![](images/assets/cover.png)
+![](images/assets/cover.webp)
 
 # Praise for the 3rd Edition of *Lean UX*
 

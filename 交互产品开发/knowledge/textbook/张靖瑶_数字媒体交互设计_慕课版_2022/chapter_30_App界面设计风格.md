@@ -10,15 +10,15 @@ App界面设计风格是指App通过主要的几种颜色搭配、页面布局�
 
 同样是即时通信社交应用，设计风格为什么会有差别？这是由产品的定位和目标用户决定的，如图3-27和图3-28所示。
 
-![](images/EPUB/images/image_139.jpg)
+![](images/EPUB/images/image_139.webp)
 
 ▲图3-27 微信界面设计风格
 
-![](images/EPUB/images/image_140.jpg)
+![](images/EPUB/images/image_140.webp)
 
 ▲图3-28 QQ界面设计风格
 
 ▼微课视频
 
-![](images/EPUB/images/image_141.jpg)
+![](images/EPUB/images/image_141.webp)
 

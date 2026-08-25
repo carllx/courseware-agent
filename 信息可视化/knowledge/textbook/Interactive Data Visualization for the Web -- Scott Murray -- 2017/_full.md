@@ -1,4 +1,4 @@
-![](images/de4753f8e0d106e3409f28ac2c0d8f8ebb1e6be97f79baf74d591b3031e55113.jpeg)
+![](images/de4753f8e0d106e3409f28ac2c0d8f8ebb1e6be97f79baf74d591b3031e55113.webp)
 
 <span id="titlepage.xhtml"></span>
 
@@ -6,7 +6,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewbox="0 0 566 744" preserveaspectratio="none">
 
-<image width="566" height="744" xlink:href="cover.jpeg"></image>
+<image width="566" height="744" xlink:href="cover.webp"></image>
 </svg>
 
 </div>
@@ -880,7 +880,7 @@ larger values are *mapped* as taller bars.
 <div id="ch01_split_000.xhtml_data_values_mapped_to_visuals"
 class="figure">
 <img
-src="images/b92f44558515760757920b90634ac53b4297ba6a6c831655637df086b8f7ef28.png"
+src="images/b92f44558515760757920b90634ac53b4297ba6a6c831655637df086b8f7ef28.webp"
 class="calibre36" alt="dvw2 0101" />
 <h6 class="calibre37"><span class="keep-together">Figure 1-1.
 </span>Data values mapped to visuals</h6>
@@ -2552,14 +2552,14 @@ sometimes see such tags written in *self-closing* fashion, with a
 trailing slash before the closing angle bracket:
 
 ``` calibre39
-<img src="photo.jpg" />
+<img src="photo.webp" />
 ```
 
 As of HTML5, the self-closing slash is optional, so the following code
 is equivalent to the preceding code:
 
 ``` calibre39
-<img src="photo.jpg">
+<img src="photo.webp">
 ```
 
 </div>
@@ -2666,7 +2666,7 @@ data-type="xref">Figure 3-1</a>.
 <div id="ch03.xhtml_Typical_default_rendering_of_simple_HTML"
 class="figure">
 <img
-src="images/ff2a5a09c1588fa018543bfa89e46d397f5697f10aafdd86ff674904672a93e4.png"
+src="images/ff2a5a09c1588fa018543bfa89e46d397f5697f10aafdd86ff674904672a93e4.webp"
 class="calibre44" alt="dvw2 0301" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-1.
 </span>Typical default rendering of simple HTML</h6>
@@ -2959,7 +2959,7 @@ whatever browser you choose.
 <figure class="calibre35">
 <div id="ch03.xhtml_plain_source_view_window" class="figure">
 <img
-src="images/61f5d7dc21036558032968e2764dcc3695340d9a631280d3addd8b5b237f775e.png"
+src="images/61f5d7dc21036558032968e2764dcc3695340d9a631280d3addd8b5b237f775e.webp"
 class="calibre45" alt="dvw2 0302" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-2.
 </span>Looking at the source code in a new window in Chrome</h6>
@@ -2997,7 +2997,7 @@ inspector, you can watch elements as they change.
 <figure class="calibre35">
 <div id="ch03.xhtml_Safari_web_inspector" class="figure">
 <img
-src="images/ab2978a0998d16ee5e3ae671061e22e101e263cd278a4c455101b77678a57664.png"
+src="images/ab2978a0998d16ee5e3ae671061e22e101e263cd278a4c455101b77678a57664.webp"
 class="calibre46" alt="dvw2 0303" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-3.
 </span>Chrome’s web inspector</h6>
@@ -3067,7 +3067,7 @@ data-type="xref">Figure 3-4</a>.
 <div id="ch03.xhtml_Inspector_with_element_box_highlighted"
 class="figure">
 <img
-src="images/0912b2c6f3a71325c114b36ea76dceff6ba4ad0856142aba3de2f821ad03cf58.png"
+src="images/0912b2c6f3a71325c114b36ea76dceff6ba4ad0856142aba3de2f821ad03cf58.webp"
 class="calibre47" alt="dvw2 0304" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-4.
 </span>Inspector with element box highlighted</h6>
@@ -3420,7 +3420,7 @@ data-type="xref">Figure 3-5</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_Rendering_of_an_embedded_CSS_rule" class="figure">
 <img
-src="images/a86412ea03532caa18a9ba60ba4ef27adc9278ae744ef612015f12430fcbe226.png"
+src="images/a86412ea03532caa18a9ba60ba4ef27adc9278ae744ef612015f12430fcbe226.webp"
 class="calibre48" alt="dvw2 0305" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-5.
 </span>Rendering of an embedded CSS rule</h6>
@@ -3492,7 +3492,7 @@ are kind of a hassle</p>
 <figure class="calibre35">
 <div id="ch03.xhtml_Rendering_of_an_inline_CSS_rule" class="figure">
 <img
-src="images/0ac3d59b1f77e3fd02d020b67b2a1054e50f54ae3b010d325640e8e282b215e4.png"
+src="images/0ac3d59b1f77e3fd02d020b67b2a1054e50f54ae3b010d325640e8e282b215e4.webp"
 class="calibre49" alt="dvw2 0306" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-6.
 </span>Rendering of an inline CSS rule</h6>
@@ -3567,7 +3567,7 @@ though we never specified `p { color: white; }`.
 <figure class="calibre35">
 <div id="ch03.xhtml_Inherited_style" class="figure">
 <img
-src="images/e3e541c12406543dcac400c70cb57b6684f9e943fb23e5a1b345b675728542ca.png"
+src="images/e3e541c12406543dcac400c70cb57b6684f9e943fb23e5a1b345b675728542ca.webp"
 class="calibre50" alt="dvw2 0307" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-7.
 </span>Inherited style</h6>
@@ -3612,7 +3612,7 @@ p.highlight {
 <div id="ch03.xhtml_CSS_cascading_and_inheritance_at_work"
 class="figure">
 <img
-src="images/0ff69d13878853386fddfbebae48a51380365114f518513a29738017509427f2.png"
+src="images/0ff69d13878853386fddfbebae48a51380365114f518513a29738017509427f2.webp"
 class="calibre51" alt="dvw2 0308" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-8. </span>CSS
 cascading and inheritance at work</h6>
@@ -3684,7 +3684,7 @@ data-type="xref">Figure 3-9</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_A_fresh_JavaScript_console" class="figure">
 <img
-src="images/df6c4edf586061cdc2a0ede5132d31b97a18587c04a5d6dbc993f82552180a1e.png"
+src="images/df6c4edf586061cdc2a0ede5132d31b97a18587c04a5d6dbc993f82552180a1e.webp"
 class="calibre52" alt="dvw2 0309" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-9. </span>A
 fresh JavaScript console…delicious!</h6>
@@ -4907,7 +4907,7 @@ data-type="xref">Figure 3-10</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_The_global_namespace" class="figure">
 <img
-src="images/1d5d2411859a4883177ec99abedf0474948c5b528796e7d127fc0126718f1bd4.png"
+src="images/1d5d2411859a4883177ec99abedf0474948c5b528796e7d127fc0126718f1bd4.webp"
 class="calibre46" alt="dvw2 0310" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-10.
 </span>The global namespace</h6>
@@ -4936,7 +4936,7 @@ data-type="xref">Figure 3-11</a>.
 <div id="ch03.xhtml_The_global_namespace_now_with_zebras"
 class="figure">
 <img
-src="images/73fd2fa52ca1b52d357a0fdeeb7e2fef3bc85c5996bbce9bd182a59ac29b3eac.png"
+src="images/73fd2fa52ca1b52d357a0fdeeb7e2fef3bc85c5996bbce9bd182a59ac29b3eac.webp"
 class="calibre46" alt="dvw2 0311" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-11.
 </span>The global namespace, now with zebras</h6>
@@ -5034,7 +5034,7 @@ follows.
 <figure class="calibre35">
 <div id="ch03.xhtml_A_small_SVG_circle" class="figure">
 <img
-src="images/5509e8283b61836fa33511637f13041f0309a2affe76fcfc859344621fba59a1.png"
+src="images/5509e8283b61836fa33511637f13041f0309a2affe76fcfc859344621fba59a1.webp"
 class="calibre64" alt="dvw2 0312" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-12. </span>A
 small SVG circle with a stroke applied</h6>
@@ -5134,7 +5134,7 @@ data-type="xref">Figure 3-13</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_The_SVG_coordinates_system" class="figure">
 <img
-src="images/8f7c92db6cc30d243d7926d5937d6654dcd7a3cf6dbb4875a40d851e95931fd9.png"
+src="images/8f7c92db6cc30d243d7926d5937d6654dcd7a3cf6dbb4875a40d851e95931fd9.webp"
 class="calibre65" alt="dvw2 0313" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-13.
 </span>The SVG coordinates system</h6>
@@ -5155,7 +5155,7 @@ data-type="xref">Figure 3-14</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_rect" class="figure">
 <img
-src="images/9d7b1b90799b96b07949910ab600e11558c0150ab973e45501a013aa85298069.png"
+src="images/9d7b1b90799b96b07949910ab600e11558c0150ab973e45501a013aa85298069.webp"
 class="calibre66" alt="dvw2 0314" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-14. </span>An
 SVG rect</h6>
@@ -5176,7 +5176,7 @@ data-type="xref">Figure 3-15</a>).
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_circle" class="figure">
 <img
-src="images/61d24383e3257d8834c872f5dff8db024501c9740484b693f67250efe3f42685.png"
+src="images/61d24383e3257d8834c872f5dff8db024501c9740484b693f67250efe3f42685.webp"
 class="calibre64" alt="dvw2 0315" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-15. </span>An
 SVG circle</h6>
@@ -5196,7 +5196,7 @@ data-type="xref">Figure 3-16</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_ellipse" class="figure">
 <img
-src="images/986c174bda14d8c4664c4488561b2690d75fb7f79377e6ad3c22e839d3c61e16.png"
+src="images/986c174bda14d8c4664c4488561b2690d75fb7f79377e6ad3c22e839d3c61e16.webp"
 class="calibre67" alt="dvw2 0316" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-16. </span>An
 SVG ellipse</h6>
@@ -5217,7 +5217,7 @@ line to be visible:
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_line" class="figure">
 <img
-src="images/9abaaec5b6122c1edf32b8786da44388ccfe9d24edc23ad78bec09162706549c.png"
+src="images/9abaaec5b6122c1edf32b8786da44388ccfe9d24edc23ad78bec09162706549c.webp"
 class="calibre66" alt="dvw2 0317" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-17. </span>An
 SVG line</h6>
@@ -5240,7 +5240,7 @@ data-type="xref">Figure 3-18</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_SVG_text" class="figure">
 <img
-src="images/3a2f7eb44042925dd3ce53654eb1d6ffc1925e19200da5d18c741acdc22c5efd.png"
+src="images/3a2f7eb44042925dd3ce53654eb1d6ffc1925e19200da5d18c741acdc22c5efd.webp"
 class="calibre66" alt="dvw2 0318" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-18.
 </span>SVG text</h6>
@@ -5262,7 +5262,7 @@ data-type="xref">Figure 3-19</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_More_SVG_text" class="figure">
 <img
-src="images/2a898bf58313d3a52aa28663c37035488296022eaedd113a79ac76ea5ce0d742.png"
+src="images/2a898bf58313d3a52aa28663c37035488296022eaedd113a79ac76ea5ce0d742.webp"
 class="calibre66" alt="dvw2 0319" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-19.
 </span>More SVG text</h6>
@@ -5285,7 +5285,7 @@ the same as the height of our SVG:
 <figure class="calibre35">
 <div id="ch03.xhtml_Even_More_SVG_text" class="figure">
 <img
-src="images/98097464940c53bebf166601809642f1858ade8c6e3be8a15845cedb6a0e5ceb.png"
+src="images/98097464940c53bebf166601809642f1858ade8c6e3be8a15845cedb6a0e5ceb.webp"
 class="calibre66" alt="dvw2 0320" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-20.
 </span>Clipped SVG text</h6>
@@ -5356,7 +5356,7 @@ data-type="xref">Figure 3-21</a>.
 <figure class="calibre35">
 <div id="ch03.xhtml_An_SVG_circle2" class="figure">
 <img
-src="images/83ecbd9bc6e5d5cdb7207b63a07edeb1c941293d992cb743e3ca6b458dad6b42.png"
+src="images/83ecbd9bc6e5d5cdb7207b63a07edeb1c941293d992cb743e3ca6b458dad6b42.webp"
 class="calibre68" alt="dvw2 0321" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-21. </span>An
 SVG circle with style properties applied</h6>
@@ -5455,7 +5455,7 @@ top” of the purple one, then the green square on top of that, and so on.
 <figure class="calibre35">
 <div id="ch03.xhtml_Overlapping_SVG_elements" class="figure">
 <img
-src="images/4942fd37c5f46d22fa528629e84aa9fdf4fc90184b1909409cc98b72119111e7.png"
+src="images/4942fd37c5f46d22fa528629e84aa9fdf4fc90184b1909409cc98b72119111e7.webp"
 class="calibre69" alt="dvw2 0322" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-22.
 </span>Overlapping SVG elements</h6>
@@ -5513,7 +5513,7 @@ green, and blue, plus an alpha (transparency) value between 0.0 and 1.0:
 <figure class="calibre35">
 <div id="ch03.xhtml_RGBA_SVG_shapes" class="figure">
 <img
-src="images/ac5c35770e93ea1cd1e37f6bb1cbe3ef71293455326fc499e3fd7b68851d0d04.png"
+src="images/ac5c35770e93ea1cd1e37f6bb1cbe3ef71293455326fc499e3fd7b68851d0d04.webp"
 class="calibre70" alt="dvw2 0323" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-23.
 </span>RGBA SVG shapes</h6>
@@ -5545,7 +5545,7 @@ like two separate `5px` strokes.
 <figure class="calibre35">
 <div id="ch03.xhtml_More_RGBA_SVG_shapes" class="figure">
 <img
-src="images/8012f300dff60bc48bad7e6d85c97a47420981f4921e374aa815415eb11ea02e.png"
+src="images/8012f300dff60bc48bad7e6d85c97a47420981f4921e374aa815415eb11ea02e.webp"
 class="calibre71" alt="dvw2 0324" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-24.
 </span>More RGBA SVG shapes</h6>
@@ -5561,7 +5561,7 @@ circles.
 <figure class="calibre35">
 <div id="ch03.xhtml_Opaque_circles" class="figure">
 <img
-src="images/bdcc753dcfa76635c55e02a86091b8b1c9d531cee411c9d7469b5962b0211a02.png"
+src="images/bdcc753dcfa76635c55e02a86091b8b1c9d531cee411c9d7469b5962b0211a02.webp"
 class="calibre72" alt="dvw2 0325" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-25.
 </span>Opaque circles</h6>
@@ -5585,7 +5585,7 @@ values:
 <figure class="calibre35">
 <div id="ch03.xhtml_Semiopaque_circles" class="figure">
 <img
-src="images/740187c34fab8498bcb72b3ee6f3ed1580815b0188cb6f39fcd873460cc1db09.png"
+src="images/740187c34fab8498bcb72b3ee6f3ed1580815b0188cb6f39fcd873460cc1db09.webp"
 class="calibre73" alt="dvw2 0326" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-26.
 </span>Semiopaque circles</h6>
@@ -5612,7 +5612,7 @@ two do:
 <figure class="calibre35">
 <div id="ch03.xhtml_More_opaque_circles" class="figure">
 <img
-src="images/1b71e8e1152c9117cd1503cf1617787e927abc31ea0887e40619510cf5970a44.png"
+src="images/1b71e8e1152c9117cd1503cf1617787e927abc31ea0887e40619510cf5970a44.webp"
 class="calibre74" alt="dvw2 0327" />
 <h6 class="calibre37"><span class="keep-together">Figure 3-27.
 </span>More opaque circles</h6>
@@ -6116,7 +6116,7 @@ data-type="xref">Figure 5-1</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_Web_inspector" class="figure">
 <img
-src="images/50f5b63782e371b66ba51c84318014f87281e51558667dd47a2f6ca442bfd1be.png"
+src="images/50f5b63782e371b66ba51c84318014f87281e51558667dd47a2f6ca442bfd1be.webp"
 class="calibre75" alt="dvw2 0501" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-1. </span>Web
 inspector</h6>
@@ -6143,7 +6143,7 @@ data-type="xref">Figure 5-2</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_Web_inspector_again" class="figure">
 <img
-src="images/a36b00a3949184ab361811e0f62b5ad7ebc7d6770e6f1aea3d939be25f02bc2e.png"
+src="images/a36b00a3949184ab361811e0f62b5ad7ebc7d6770e6f1aea3d939be25f02bc2e.webp"
 class="calibre75" alt="dvw2 0502" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-2. </span>Web
 inspector, reflecting the modified DOM</h6>
@@ -6563,7 +6563,7 @@ the example code.)
 <figure class="calibre35">
 <div id="ch05.xhtml_Array_logged_to_console" class="figure">
 <img
-src="images/ebaddeeb8bbd60d06bbe9533dcbd2b6a238a01c953fae60ea10c693899958aab.png"
+src="images/ebaddeeb8bbd60d06bbe9533dcbd2b6a238a01c953fae60ea10c693899958aab.webp"
 class="calibre76" alt="dvw2 0503" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-3.
 </span>Array logged to console</h6>
@@ -6583,7 +6583,7 @@ data-type="xref">Figure 5-4</a>).
 <figure class="calibre35">
 <div id="ch05.xhtml_Array_elements_expanded" class="figure">
 <img
-src="images/451cea0685cb550216dbd3eb5e9c205d248b64ef6f0bfe2db00f2b639ac7fa97.png"
+src="images/451cea0685cb550216dbd3eb5e9c205d248b64ef6f0bfe2db00f2b639ac7fa97.webp"
 class="calibre77" alt="dvw2 0504" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-4.
 </span>Array elements expanded</h6>
@@ -6613,7 +6613,7 @@ data-type="xref">Figure 5-5</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_The_secret_columns_array" class="figure">
 <img
-src="images/2e45eb90951e45720cf2809bf61e7a93c86baf81c71c1f1832475e6a5b093daf.png"
+src="images/2e45eb90951e45720cf2809bf61e7a93c86baf81c71c1f1832475e6a5b093daf.webp"
 class="calibre78 pcalibre7" alt="dvw2 0505" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-5. </span>The
 secret columns array</h6>
@@ -6931,7 +6931,7 @@ data-type="xref">Figure 5-6</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_Dynamic_paragraphs" class="figure">
 <img
-src="images/c88b59ec153e19654b2b5c61cc01da63934dbecf8ca575ba1f1b1fbe6d7e1514.png"
+src="images/c88b59ec153e19654b2b5c61cc01da63934dbecf8ca575ba1f1b1fbe6d7e1514.webp"
 class="calibre79" alt="dvw2 0506" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-6.
 </span>Dynamic paragraphs</h6>
@@ -6999,7 +6999,7 @@ data-type="xref">Figure 5-7</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_new_p_elements_in_the_inspector" class="figure">
 <img
-src="images/f056a71b415c1e197044899b13cfe0ce65395dc931a54dd793102a2f5216f94f.png"
+src="images/f056a71b415c1e197044899b13cfe0ce65395dc931a54dd793102a2f5216f94f.webp"
 class="calibre75" alt="dvw2 0507" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-7. </span>New
 p elements in the web inspector</h6>
@@ -7020,7 +7020,7 @@ d3.selectAll("p")
 <figure class="calibre35">
 <div id="ch05.xhtml_A_selection_of_five_paragraphs" class="figure">
 <img
-src="images/ae76e4b48d54fc9312ffdcce8146131e524215c95e448a5b356717ab373b4b2c.png"
+src="images/ae76e4b48d54fc9312ffdcce8146131e524215c95e448a5b356717ab373b4b2c.webp"
 class="calibre80" alt="dvw2 0508" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-8. </span>A
 selection of five paragraphs</h6>
@@ -7037,7 +7037,7 @@ data-type="xref">Figure 5-9</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_selection_expanded" class="figure">
 <img
-src="images/5d49406cf9ef3db62491a44cffa25812074cda562fceafdd364edf1e857d1af7.png"
+src="images/5d49406cf9ef3db62491a44cffa25812074cda562fceafdd364edf1e857d1af7.webp"
 class="calibre81" alt="dvw2 0509" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-9.
 </span>Selection, expanded</h6>
@@ -7052,7 +7052,7 @@ data-type="xref">Figure 5-10</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_our_selections_groups" class="figure">
 <img
-src="images/b0e33129c471b65d72d4e7a9de493194d152773f5d4e8f4fecd9bfa7e5415999.png"
+src="images/b0e33129c471b65d72d4e7a9de493194d152773f5d4e8f4fecd9bfa7e5415999.webp"
 class="calibre82" alt="dvw2 0510" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-10.
 </span>Our selection’s groups</h6>
@@ -7068,7 +7068,7 @@ data-type="xref">Figure 5-11</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_expanded_nodelist" class="figure">
 <img
-src="images/fa23651ce40da07ddf8447fc3456dadedaf0094bb92fa2fff9ebf733eb71108b.png"
+src="images/fa23651ce40da07ddf8447fc3456dadedaf0094bb92fa2fff9ebf733eb71108b.webp"
 class="calibre83" alt="dvw2 0511" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-11.
 </span>Expanded NodeList</h6>
@@ -7084,7 +7084,7 @@ data-type="xref">Figure 5-12</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_the_p_element_expanded" class="figure">
 <img
-src="images/23a545679ea8772b56218f04f3e757f55a5be39dd0a9397c57a1dd21a54d980e.png"
+src="images/23a545679ea8772b56218f04f3e757f55a5be39dd0a9397c57a1dd21a54d980e.webp"
 class="calibre84" alt="dvw2 0512" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-12.
 </span>The p element, expanded</h6>
@@ -7099,7 +7099,7 @@ data-type="xref">Figure 5-13</a>).
 <figure class="calibre35">
 <div id="ch05.xhtml_finally_bound_data" class="figure">
 <img
-src="images/e8a910fe8293a25a56bae5fd99bcfdd21f737f13cab0c842329fafeb8dc25e18.png"
+src="images/e8a910fe8293a25a56bae5fd99bcfdd21f737f13cab0c842329fafeb8dc25e18.webp"
 class="calibre84" alt="dvw2 0513" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-13.
 </span>Finally, bound data</h6>
@@ -7168,7 +7168,7 @@ data-type="xref">Figure 5-14</a>.
 <figure class="calibre35">
 <div id="ch05.xhtml_more_dynamic_paragraphs" class="figure">
 <img
-src="images/af0f50dda5f94d0adf7ecba89250098f6bc5c3d80c0ba28a124f75ad23b84a5c.png"
+src="images/af0f50dda5f94d0adf7ecba89250098f6bc5c3d80c0ba28a124f75ad23b84a5c.webp"
 class="calibre85" alt="dvw2 0514" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-14.
 </span>More dynamic paragraphs</h6>
@@ -7284,7 +7284,7 @@ data-type="xref">Figure 5-15</a>, as seen in example file
 <figure class="calibre35">
 <div id="ch05.xhtml_Still_more_dynamic_paragraphs" class="figure">
 <img
-src="images/0e797a66b669bc7e19962096767fde2e27143bc9ae23dc7c1d2afbc64f546f07.png"
+src="images/0e797a66b669bc7e19962096767fde2e27143bc9ae23dc7c1d2afbc64f546f07.webp"
 class="calibre86" alt="dvw2 0515" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-15.
 </span>Still more dynamic paragraphs</h6>
@@ -7420,7 +7420,7 @@ data-type="xref">Figure 5-16</a>, as seen in
 <figure class="calibre35">
 <div id="ch05.xhtml_Red_paragraphs" class="figure">
 <img
-src="images/44bb566da0d350d49bbd59d5240422cd00b711e297a5e3e8fe5eb27c7ac2cce3.png"
+src="images/44bb566da0d350d49bbd59d5240422cd00b711e297a5e3e8fe5eb27c7ac2cce3.webp"
 class="calibre87" alt="dvw2 0516" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-16.
 </span>Red paragraphs</h6>
@@ -7450,7 +7450,7 @@ data-type="xref">Figure 5-17</a>, in
 <figure class="calibre35">
 <div id="ch05.xhtml_Dynamically_styled_paragraphs" class="figure">
 <img
-src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.png"
+src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.webp"
 class="calibre85" alt="dvw2 0517" />
 <h6 class="calibre37"><span class="keep-together">Figure 5-17.
 </span>Dynamically styled paragraphs</h6>
@@ -7549,7 +7549,7 @@ data-type="xref">Figure 6-1</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_A_humble_div" class="figure">
 <img
-src="images/d820ffe24ac0816a665d90f413c4ce3b40166c46b9dc3a0e6a9f7d9bf19f2b7b.png"
+src="images/d820ffe24ac0816a665d90f413c4ce3b40166c46b9dc3a0e6a9f7d9bf19f2b7b.webp"
 class="calibre88" alt="dvw2 0601" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-1. </span>A
 humble div</h6>
@@ -7617,7 +7617,7 @@ HTML elements:
 ``` calibre39
 <p class="caption">
 <select id="country">
-<img src="logo.png" width="100px" alt="Logo" />
+<img src="logo.webp" width="100px" alt="Logo" />
 ```
 
 contain a total of five attributes (and corresponding values), all of
@@ -7627,7 +7627,7 @@ which could be set with `attr()`:
 |-----------|------------|
 | `class`   | `caption`  |
 | `id`      | `country`  |
-| `src`     | `logo.png` |
+| `src`     | `logo.webp` |
 | `width`   | `100px`    |
 | `alt`     | `Logo`     |
 
@@ -7731,7 +7731,7 @@ data-xrefstyle="select:labelnumber">6-3</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Five_divs_masquerading_as_one" class="figure">
 <img
-src="images/fbf0b34d4859a4af5fd05d7726bc9a9ac362203b27e5c3b575cd87f9cded14e0.png"
+src="images/fbf0b34d4859a4af5fd05d7726bc9a9ac362203b27e5c3b575cd87f9cded14e0.webp"
 class="calibre90" alt="dvw2 0602" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-2.
 </span>Five divs masquerading as one</h6>
@@ -7742,7 +7742,7 @@ class="calibre90" alt="dvw2 0602" />
 <div id="ch06.xhtml_Five_divs_masquerading_as_one_inspector"
 class="figure">
 <img
-src="images/db7a9cfdd0147597db86cd74de2064057a0391b218269184205806b1a2761997.png"
+src="images/db7a9cfdd0147597db86cd74de2064057a0391b218269184205806b1a2761997.webp"
 class="calibre91" alt="dvw2 0603" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-3.
 </span>Five divs masquerading as one, as seen through the web
@@ -7800,7 +7800,7 @@ data-type="xref">Figure 6-4</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_A_small_bar_chart" class="figure">
 <img
-src="images/fef561559c9fe0f75f34f8406b6bf108b35d91bce26a20103831eb37a6af8d01.png"
+src="images/fef561559c9fe0f75f34f8406b6bf108b35d91bce26a20103831eb37a6af8d01.webp"
 class="calibre92" alt="dvw2 0604" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-4. </span>A
 small bar chart</h6>
@@ -7842,7 +7842,7 @@ data-type="xref">Figure 6-5</a>).
 <figure class="calibre35">
 <div id="ch06.xhtml_A_taller_bar_chart" class="figure">
 <img
-src="images/828ad42358fe59c2a08290ed150aa5e675d5f08e6c9dbcf22693e34525d2ba7d.png"
+src="images/828ad42358fe59c2a08290ed150aa5e675d5f08e6c9dbcf22693e34525d2ba7d.webp"
 class="calibre93" alt="dvw2 0605" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-5. </span>A
 taller bar chart</h6>
@@ -7899,7 +7899,7 @@ var dataset = [ 25, 7, 5, 26, 11, 8, 25, 14, 23, 19,
 <figure class="calibre35">
 <div id="ch06.xhtml_New_data_values" class="figure">
 <img
-src="images/2be7f5029603c68d84ed6e0017edad49e6b92a2850546ed318ad50bc71b4227a.png"
+src="images/2be7f5029603c68d84ed6e0017edad49e6b92a2850546ed318ad50bc71b4227a.webp"
 class="calibre94" alt="dvw2 0606" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-6. </span>New
 data values</h6>
@@ -7913,7 +7913,7 @@ data-type="xref">Figure 6-7</a> shows 25 data points instead of 5!
 <figure class="calibre35">
 <div id="ch06.xhtml_Lots_more_data_values" class="figure">
 <img
-src="images/bed9955b698e73853f8284fc6c0ab95900df20851316781b6d1f8567f8697ba6.png"
+src="images/bed9955b698e73853f8284fc6c0ab95900df20851316781b6d1f8567f8697ba6.webp"
 class="calibre95" alt="dvw2 0607" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-7.
 </span>Lots more data values</h6>
@@ -7976,7 +7976,7 @@ data-type="xref">Figure 6-8</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Bar_charts_with_random_values" class="figure">
 <img
-src="images/bcb515640bf8c151a9d195cd62ef48ea10387b6007e7950dd643e9736d1e7dd6.png"
+src="images/bcb515640bf8c151a9d195cd62ef48ea10387b6007e7950dd643e9736d1e7dd6.webp"
 class="calibre96" alt="dvw2 0608" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-8. </span>Bar
 charts with random values</h6>
@@ -8022,7 +8022,7 @@ data-type="xref">Figure 6-9</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Random_values_in_console" class="figure">
 <img
-src="images/f6b99e06a5faf2a94ceb46824f367d279b99b1264ad0754da2efc224ea57c192.png"
+src="images/f6b99e06a5faf2a94ceb46824f367d279b99b1264ad0754da2efc224ea57c192.webp"
 class="calibre97" alt="dvw2 0609" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-9.
 </span>Random values in console</h6>
@@ -8062,7 +8062,7 @@ data-type="xref">Figure 6-10</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Random_integer_values_in_console" class="figure">
 <img
-src="images/5996aa50a3f78222aeb342bab522f89ae49aad2f58b7c8a96bfbfdae739cb3ae.png"
+src="images/5996aa50a3f78222aeb342bab522f89ae49aad2f58b7c8a96bfbfdae739cb3ae.webp"
 class="calibre98" alt="dvw2 0610" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-10.
 </span>Random integer values in console</h6>
@@ -8282,7 +8282,7 @@ circles.attr("cx", function(d, i) {
 <figure class="calibre35">
 <div id="ch06.xhtml_Row_of_data_circles" class="figure">
 <img
-src="images/a19548724423417696f8b4c46f893affeb702e6226c084fb84238a463d993521.png"
+src="images/a19548724423417696f8b4c46f893affeb702e6226c084fb84238a463d993521.webp"
 class="calibre99" alt="dvw2 0611" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-11.
 </span>Row of data circles</h6>
@@ -8391,7 +8391,7 @@ data-type="xref">Figure 6-12</a>, as seen in
 <figure class="calibre35">
 <div id="ch06.xhtml_Colorful_data_circles" class="figure">
 <img
-src="images/22060d293b08326680162a2a683c12c4ad13f4339d53372a1efc06d4c92eba57.png"
+src="images/22060d293b08326680162a2a683c12c4ad13f4339d53372a1efc06d4c92eba57.webp"
 class="calibre100" alt="dvw2 0612" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-12.
 </span>Colorful data circles</h6>
@@ -8468,7 +8468,7 @@ data-type="xref">Figure 6-13</a> made of `div`s.
 <figure class="calibre35">
 <div id="ch06.xhtml_Bar_chart_with_divs" class="figure">
 <img
-src="images/e061463743bafbc85b89aa866fbee3ac4bc37087f4eab8012966b21af2b51e55.png"
+src="images/e061463743bafbc85b89aa866fbee3ac4bc37087f4eab8012966b21af2b51e55.webp"
 class="calibre101" alt="dvw2 0613" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-13.
 </span>Bar chart with divs</h6>
@@ -8558,7 +8558,7 @@ yet.
 <figure class="calibre35">
 <div id="ch06.xhtml_One_lonely_bar" class="figure">
 <img
-src="images/8bb9d239f05b535646e76d2b7142296edf6d24aa764051feef428407f641e100.png"
+src="images/8bb9d239f05b535646e76d2b7142296edf6d24aa764051feef428407f641e100.webp"
 class="calibre102" alt="dvw2 0614" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-14.
 </span>One lonely bar</h6>
@@ -8586,7 +8586,7 @@ data-type="xref">Figure 6-15</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Twenty_bars" class="figure">
 <img
-src="images/0a8f12701c0635e0da5bc9c2d697c9777c746a6ceb91720a09efe8cbc0edbe9c.png"
+src="images/0a8f12701c0635e0da5bc9c2d697c9777c746a6ceb91720a09efe8cbc0edbe9c.webp"
 class="calibre103" alt="dvw2 0615" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-15.
 </span>Twenty bars</h6>
@@ -8604,7 +8604,7 @@ data-type="xref">Figure 6-16</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Twentyfour_bars" class="figure">
 <img
-src="images/56ee4f0f756d27e701b17148632d71f5e48fd2e192549b739e3b5cbe27feb027.png"
+src="images/56ee4f0f756d27e701b17148632d71f5e48fd2e192549b739e3b5cbe27feb027.webp"
 class="calibre104" alt="dvw2 0616" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-16.
 </span>Twenty-four bars</h6>
@@ -8635,7 +8635,7 @@ data-type="xref">Figure 6-17</a>…
 <figure class="calibre35">
 <div id="ch06.xhtml_Twenty_evenly_spaced_bars" class="figure">
 <img
-src="images/4bbd6223c5c491880465caf7d317f43d6c7003276c2a26af05c18372fc74ea17.png"
+src="images/4bbd6223c5c491880465caf7d317f43d6c7003276c2a26af05c18372fc74ea17.webp"
 class="calibre105" alt="dvw2 0617" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-17.
 </span>Twenty evenly spaced bars</h6>
@@ -8649,7 +8649,7 @@ data-type="xref">Figure 6-18</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Five_evenly_spaced_bars" class="figure">
 <img
-src="images/9fa5d0fe34bde002a63e7bee3d083651e580616c47f98ea7194a551c2bbfdd4d.png"
+src="images/9fa5d0fe34bde002a63e7bee3d083651e580616c47f98ea7194a551c2bbfdd4d.webp"
 class="calibre106" alt="dvw2 0618" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-18.
 </span>Five evenly spaced bars</h6>
@@ -8688,7 +8688,7 @@ data-type="xref">Figure 6-19</a> and
 <div id="ch06.xhtml_Twenty_evenly_spaced_bars_with_dynamic_widths"
 class="figure">
 <img
-src="images/f1d3a85595363eff8a1bb04ee841b77ad326148f98801b4c114ed1292a450ccb.png"
+src="images/f1d3a85595363eff8a1bb04ee841b77ad326148f98801b4c114ed1292a450ccb.webp"
 class="calibre107" alt="dvw2 0619" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-19.
 </span>Twenty evenly spaced bars with dynamic widths</h6>
@@ -8708,7 +8708,7 @@ data-type="xref">Figure 6-21</a>).
 <div id="ch06.xhtml_Five_evenly_spaced_bars_with_dynamic_widths"
 class="figure">
 <img
-src="images/a54db560d8efca0ad0f7d60cf0857cf9caab4efa4208cd4ddb946ac33086fa28.png"
+src="images/a54db560d8efca0ad0f7d60cf0857cf9caab4efa4208cd4ddb946ac33086fa28.webp"
 class="calibre104" alt="dvw2 0620" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-20.
 </span>Five evenly spaced bars with dynamic widths</h6>
@@ -8719,7 +8719,7 @@ class="calibre104" alt="dvw2 0620" />
 <div id="ch06.xhtml_One_hundred_evenly_spaced_bars_with_dynamic_widths"
 class="figure">
 <img
-src="images/82b146de7035bb39107500109f30a62421b08098922413a0706180eae786dfda.png"
+src="images/82b146de7035bb39107500109f30a62421b08098922413a0706180eae786dfda.webp"
 class="calibre107" alt="dvw2 0621" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-21.
 </span>One hundred evenly spaced bars with dynamic widths</h6>
@@ -8743,7 +8743,7 @@ data-type="xref">Figure 6-22</a> looks funky.
 <figure class="calibre35">
 <div id="ch06.xhtml_Dynamic_heights" class="figure">
 <img
-src="images/364097c3ac81b571df1e0e7fa13e733d87be5d6e20f383fb0e4793691a8b58c2.png"
+src="images/364097c3ac81b571df1e0e7fa13e733d87be5d6e20f383fb0e4793691a8b58c2.webp"
 class="calibre108" alt="dvw2 0622" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-22.
 </span>Dynamic heights</h6>
@@ -8767,7 +8767,7 @@ data-type="xref">Figure 6-23</a>—but don’t blame D3, blame SVG.
 <figure class="calibre35">
 <div id="ch06.xhtml_Dynamic_heights_magnified" class="figure">
 <img
-src="images/fd86b7ddc64c77b479b5d9a361eaca16f8b8d9f38505380b225815277387ad0b.png"
+src="images/fd86b7ddc64c77b479b5d9a361eaca16f8b8d9f38505380b225815277387ad0b.webp"
 class="calibre109" alt="dvw2 0623" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-23.
 </span>Dynamic heights, magnified</h6>
@@ -8808,7 +8808,7 @@ data value itself:
 <figure class="calibre35">
 <div id="ch06.xhtml_Growing_down_from_above" class="figure">
 <img
-src="images/07645090e21b747ca2fc00faf8b463528c4c5c37c5fc11b0d7b3f579f1f604d3.png"
+src="images/07645090e21b747ca2fc00faf8b463528c4c5c37c5fc11b0d7b3f579f1f604d3.webp"
 class="calibre110" alt="dvw2 0624" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-24.
 </span>Growing down from above</h6>
@@ -8824,7 +8824,7 @@ could do this more properly using D3 scales, but we’re not there yet.)
 <figure class="calibre35">
 <div id="ch06.xhtml_Growing_bigger_from_above" class="figure">
 <img
-src="images/2bf45f2d325d2f8838c45d1dee26c2eaf1ce4026d8fd0749ef8848e32042c232.png"
+src="images/2bf45f2d325d2f8838c45d1dee26c2eaf1ce4026d8fd0749ef8848e32042c232.webp"
 class="calibre109" alt="dvw2 0625" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-25.
 </span>Growing bigger from above</h6>
@@ -8866,7 +8866,7 @@ data-type="xref">Figure 6-26</a> in *18_making_a_bar_chart_teal.html*.
 <figure class="calibre35">
 <div id="ch06.xhtml_Teal_bars" class="figure">
 <img
-src="images/e32919ae841e1c6c2c2e07cc288d3a8ee0dd6649cc294a6421fe2104b97eaf3a.png"
+src="images/e32919ae841e1c6c2c2e07cc288d3a8ee0dd6649cc294a6421fe2104b97eaf3a.webp"
 class="calibre109" alt="dvw2 0626" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-26.
 </span>Teal bars</h6>
@@ -8902,7 +8902,7 @@ data-type="xref">Figure 6-27</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Datadriven_blue_bars" class="figure">
 <img
-src="images/af7d39062236c6caa101e965f4acfaf6509db2af05af435b300e32c77859c8f5.png"
+src="images/af7d39062236c6caa101e965f4acfaf6509db2af05af435b300e32c77859c8f5.webp"
 class="calibre111" alt="dvw2 0627" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-27.
 </span>Data-driven blue bars</h6>
@@ -8992,7 +8992,7 @@ data-type="xref">Figure 6-28</a>).
 <figure class="calibre35">
 <div id="ch06.xhtml_Baby_value_labels" class="figure">
 <img
-src="images/fbd819c42ee936f6f0d2d36887bc29de5f436abf2ecc3301f1d2d1558e715751.png"
+src="images/fbd819c42ee936f6f0d2d36887bc29de5f436abf2ecc3301f1d2d1558e715751.webp"
 class="calibre107" alt="dvw2 0628" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-28.
 </span>Baby value labels!</h6>
@@ -9018,7 +9018,7 @@ data-type="xref">Figure 6-29</a> is better, but not legible.
 <figure class="calibre35">
 <div id="ch06.xhtml_Inbar_value_labels" class="figure">
 <img
-src="images/025416effe66a19797a2daf261120aeb9282e7a6eb5dc7a25438379846621223.png"
+src="images/025416effe66a19797a2daf261120aeb9282e7a6eb5dc7a25438379846621223.webp"
 class="calibre107" alt="dvw2 0629" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-29.
 </span>In-bar value labels</h6>
@@ -9041,7 +9041,7 @@ data-type="xref">Figure 6-30</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Really_nice_value_labels" class="figure">
 <img
-src="images/7275dec781c7967efd430b08dc1c50047605377a76950671b63a6f12ed550b79.png"
+src="images/7275dec781c7967efd430b08dc1c50047605377a76950671b63a6f12ed550b79.webp"
 class="calibre107" alt="dvw2 0630" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-30.
 </span>Really nice value labels</h6>
@@ -9083,7 +9083,7 @@ data-type="xref">Figure 6-31</a> and
 <figure class="calibre35">
 <div id="ch06.xhtml_Centered_labels" class="figure">
 <img
-src="images/2004c3b70babd08efc898124bdd307728be8fc339144c17f9b0fb67fa393473a.png"
+src="images/2004c3b70babd08efc898124bdd307728be8fc339144c17f9b0fb67fa393473a.webp"
 class="calibre104" alt="dvw2 0631" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-31.
 </span>Centered labels</h6>
@@ -9217,7 +9217,7 @@ data-type="xref">Figure 6-32</a> in *22_scatterplot.html*.
 <figure class="calibre35">
 <div id="ch06.xhtml_Simple_scatterplot" class="figure">
 <img
-src="images/e924d1de37427f796c80e3c8e1e33c47029338be005ae74cc0381f103045db39.png"
+src="images/e924d1de37427f796c80e3c8e1e33c47029338be005ae74cc0381f103045db39.webp"
 class="calibre104" alt="dvw2 0632" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-32.
 </span>Simple scatterplot</h6>
@@ -9301,7 +9301,7 @@ r = sqrt ( A / π )  //Flip the equation around for legibility
 ```
 
 So our solution for *r* is <img
-src="images/1f443e14d36569bca7e378ffd84c29a2521f6469a5d92062ea36282548588d52.png"
+src="images/1f443e14d36569bca7e378ffd84c29a2521f6469a5d92062ea36282548588d52.webp"
 class="calibre114"
 alt="r equals StartRoot StartFraction upper A Over pi EndFraction EndRoot" />.
 As long as we know the area *A*, we just divide by pi, then take the
@@ -9363,7 +9363,7 @@ data-type="xref">Figure 6-33</a>.
 <figure class="calibre35">
 <div id="ch06.xhtml_Scatterplot_with_sized_circles" class="figure">
 <img
-src="images/a37a5af16870b3f5c5b39bf7c124687f2fa3b31a722b4497e21200ab8ca5c3d0.png"
+src="images/a37a5af16870b3f5c5b39bf7c124687f2fa3b31a722b4497e21200ab8ca5c3d0.webp"
 class="calibre104" alt="dvw2 0633" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-33.
 </span>Scatterplot with sized circles</h6>
@@ -9461,7 +9461,7 @@ data-type="indexterm" primary="" startref="Screat06"></span>
 <figure class="calibre35">
 <div id="ch06.xhtml_Scatterplot_with_labels" class="figure">
 <img
-src="images/bf6584c7cd34e3b0c02f7737470bbfb03ffb48f801ad3c1b04ef65a9504d1ba2.png"
+src="images/bf6584c7cd34e3b0c02f7737470bbfb03ffb48f801ad3c1b04ef65a9504d1ba2.webp"
 class="calibre104" alt="dvw2 0634" />
 <h6 class="calibre37"><span class="keep-together">Figure 6-34.
 </span>Scatterplot with labels</h6>
@@ -9650,7 +9650,7 @@ data-type="xref">Figure 7-1</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_input_output_axes" class="figure">
 <img
-src="images/9269569d499ed160c4b79cf2bf7f3df5adab1d3a0cb0a149c138d182adcc2dd6.png"
+src="images/9269569d499ed160c4b79cf2bf7f3df5adab1d3a0cb0a149c138d182adcc2dd6.webp"
 class="calibre115" alt="dvw2 0701" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-1. </span>An
 input domain and an output range, visualized as parallel axes</h6>
@@ -10054,7 +10054,7 @@ apparent.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_using_x_and_y_scales" class="figure">
 <img
-src="images/4b0c59bf431b7cf17bd8c70c6fdfb4f71bf348e6b1bbe70c8ba288925c130c92.png"
+src="images/4b0c59bf431b7cf17bd8c70c6fdfb4f71bf348e6b1bbe70c8ba288925c130c92.webp"
 class="calibre116" alt="dvw2 0702" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-2.
 </span>Scatterplot using x and y scales</h6>
@@ -10103,7 +10103,7 @@ data-type="xref">Figure 7-3</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_y_scale_inverted" class="figure">
 <img
-src="images/d9a6d2f6e452b40342332eb4de0283b1a86161121e9692d9e4bc35b764d06e63.png"
+src="images/d9a6d2f6e452b40342332eb4de0283b1a86161121e9692d9e4bc35b764d06e63.webp"
 class="calibre104" alt="dvw2 0703" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-3.
 </span>Scatterplot with y scale inverted</h6>
@@ -10148,7 +10148,7 @@ data-type="xref">Figure 7-4</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_padding" class="figure">
 <img
-src="images/bd54808aaba094b85be0deee62d8ab7bcb36477f08cd391a84d3afd9dcca2339.png"
+src="images/bd54808aaba094b85be0deee62d8ab7bcb36477f08cd391a84d3afd9dcca2339.webp"
 class="calibre117" alt="dvw2 0704" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-4.
 </span>Scatterplot with padding</h6>
@@ -10169,7 +10169,7 @@ data-type="xref">Figure 7-5</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_more_padding" class="figure">
 <img
-src="images/7ad430cea008d93cc0adf207638cb2aa7f1340d8feaaa9cabecdea0451c6189b.png"
+src="images/7ad430cea008d93cc0adf207638cb2aa7f1340d8feaaa9cabecdea0451c6189b.webp"
 class="calibre118" alt="dvw2 0705" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-5.
 </span>Scatterplot with more padding</h6>
@@ -10227,7 +10227,7 @@ property other than an axis value. (See *05_scaled_plot_radii.html*.)
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_scaled_radii" class="figure">
 <img
-src="images/b4d5c1966bbbce13e5397bbd00797537e54c3dc0840ef2f013ab19e56c431bf9.png"
+src="images/b4d5c1966bbbce13e5397bbd00797537e54c3dc0840ef2f013ab19e56c431bf9.webp"
 class="calibre119" alt="dvw2 0706" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-6.
 </span>Scatterplot with scaled radii</h6>
@@ -10247,7 +10247,7 @@ newcomer in the top-right corner.
 <figure class="calibre35">
 <div id="ch07.xhtml_Scatterplot_with_big_numbers_added" class="figure">
 <img
-src="images/fadac066d6f84b19136399db9293e823c5e1af31acfd7ff59b7681b07bd3ef79.png"
+src="images/fadac066d6f84b19136399db9293e823c5e1af31acfd7ff59b7681b07bd3ef79.webp"
 class="calibre120" alt="dvw2 0707" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-7.
 </span>Scatterplot with big numbers added</h6>
@@ -10264,7 +10264,7 @@ data-type="xref">Figure 7-8</a>, I’ve increased the value of `h` from
 <figure class="calibre35">
 <div id="ch07.xhtml_Large_scaled_scatterplot" class="figure">
 <img
-src="images/3a5fb0c46c0c8832cb9c16463390a3a9ead0724cdc9d4e2696f5e2b458fa1013.png"
+src="images/3a5fb0c46c0c8832cb9c16463390a3a9ead0724cdc9d4e2696f5e2b458fa1013.webp"
 class="calibre121" alt="dvw2 0708" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-8.
 </span>Large, scaled scatterplot</h6>
@@ -10495,7 +10495,7 @@ data-type="xref">Figure 7-9</a>.
 <div id="ch07.xhtml_Using_a_square_root_scale_for_circle_areas"
 class="figure">
 <img
-src="images/40702f1c46b781b02ddd378346b5d50e712914c02cfb1e72d5cacd64ee39a424.png"
+src="images/40702f1c46b781b02ddd378346b5d50e712914c02cfb1e72d5cacd64ee39a424.webp"
 class="calibre122" alt="dvw2 0709" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-9.
 </span>Using a square root scale for circle areas</h6>
@@ -10671,7 +10671,7 @@ data-type="xref">Figure 7-10</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_Look_mom_no_strings" class="figure">
 <img
-src="images/d157d91c78f58feacbe4fc3c6b249e985db1b5cf8e0b3cee7d54e5a02d7ce6db.png"
+src="images/d157d91c78f58feacbe4fc3c6b249e985db1b5cf8e0b3cee7d54e5a02d7ce6db.webp"
 class="calibre123" alt="dvw2 0710" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-10.
 </span>Look mom, no strings!</h6>
@@ -10711,7 +10711,7 @@ data-type="xref">Figure 7-11</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_verifying_xscale_domain" class="figure">
 <img
-src="images/61e22e9939f88a7112095f3313f7cb9e06e9c8916e816d33405c9d732bd6b014.png"
+src="images/61e22e9939f88a7112095f3313f7cb9e06e9c8916e816d33405c9d732bd6b014.webp"
 class="calibre98" alt="dvw2 0711" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-11.
 </span>Verifying the xScale domain runs from January 1 through January
@@ -10737,7 +10737,7 @@ data-type="xref">Figure 7-12</a>.
 <figure class="calibre35">
 <div id="ch07.xhtml_time_scaled_circles" class="figure">
 <img
-src="images/ece70debff35e655ef93b103c858cb2c7b074f60b3e70dd1623462fe87cef0f1.png"
+src="images/ece70debff35e655ef93b103c858cb2c7b074f60b3e70dd1623462fe87cef0f1.webp"
 class="calibre124" alt="dvw2 0712" />
 <h6 class="calibre37"><span class="keep-together">Figure 7-12.
 </span>Time-scaled circles</h6>
@@ -10839,7 +10839,7 @@ data-type="xref">Chapter 7</a>’s example
 <figure class="calibre35">
 <div id="ch08.xhtml_Large_scaled_scatterplot2" class="figure">
 <img
-src="images/624251c80fe60b94c4e5063c17b79f0b4e541ea57b299721e003a86aab81246d.png"
+src="images/624251c80fe60b94c4e5063c17b79f0b4e541ea57b299721e003a86aab81246d.webp"
 class="calibre125" alt="dvw2 0801" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-1.
 </span>Large, scaled scatterplot</h6>
@@ -11035,7 +11035,7 @@ example *01_axes.html*.
 <figure class="calibre35">
 <div id="ch08.xhtml_Simple_axis_wrong_place" class="figure">
 <img
-src="images/f4eb3eaaea9cc49197dbd82d65e8d27b69d172980bbb6b81714bfe1ba5c228b6.png"
+src="images/f4eb3eaaea9cc49197dbd82d65e8d27b69d172980bbb6b81714bfe1ba5c228b6.webp"
 class="calibre126" alt="dvw2 0802" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-2.
 </span>Simple axis, but in the wrong place</h6>
@@ -11147,7 +11147,7 @@ data-type="indexterm" primary="" startref="trans08"></span>
 <figure class="calibre35">
 <div id="ch08.xhtml_Correctly_positioned_axis" class="figure">
 <img
-src="images/e1d4118764de009e7483694546e8d0a11a2948265dcac4a5a6af865e23bde03f.png"
+src="images/e1d4118764de009e7483694546e8d0a11a2948265dcac4a5a6af865e23bde03f.webp"
 class="calibre127" alt="dvw2 0803" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-3.
 </span>Correctly positioned axis</h6>
@@ -11201,7 +11201,7 @@ data-type="xref">Figure 8-4</a>.
 <div id="ch08.xhtml_Axis_with_styles_overridden_with_CSS"
 class="figure">
 <img
-src="images/60ca2b1c55736731f8486c508f93e6aff75d4c545dee41812b4f0589870c63a6.png"
+src="images/60ca2b1c55736731f8486c508f93e6aff75d4c545dee41812b4f0589870c63a6.webp"
 class="calibre128 pcalibre7" alt="dvw2 0804" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-4.
 </span>Axis with styles overridden with CSS</h6>
@@ -11331,7 +11331,7 @@ labels remain easy to read.
 <figure class="calibre35">
 <div id="ch08.xhtml_Fewer_ticks" class="figure">
 <img
-src="images/87991e9771ccefef611a5e7fd6090aac20fdb4111855da8a9a0ccea65043d78c.png"
+src="images/87991e9771ccefef611a5e7fd6090aac20fdb4111855da8a9a0ccea65043d78c.webp"
 class="calibre129" alt="dvw2 0805" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-5.
 </span>Fewer ticks</h6>
@@ -11365,7 +11365,7 @@ data-type="xref">Figure 8-6</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_Manually_specified_tick_values" class="figure">
 <img
-src="images/b14ab61f75b101734ca1650401976a023b179258aa0f1d77ab489c340aa883d6.png"
+src="images/b14ab61f75b101734ca1650401976a023b179258aa0f1d77ab489c340aa883d6.webp"
 class="pcalibre7 calibre130" alt="dvw2 0806" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-6.
 </span>Manually specified tick values</h6>
@@ -11421,7 +11421,7 @@ is translated to the right by the amount `padding`.
 <figure class="calibre35">
 <div id="ch08.xhtml_Initial_Y_axis" class="figure">
 <img
-src="images/cd02add720e607d4450bce1d24376af1b05bc210e43ff19e9795606daa45854d.png"
+src="images/cd02add720e607d4450bce1d24376af1b05bc210e43ff19e9795606daa45854d.webp"
 class="calibre131" alt="dvw2 0807" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-7.
 </span>Initial y-axis</h6>
@@ -11448,7 +11448,7 @@ data-type="xref">Figure 8-8</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_Scatterplot_with_Y_axis" class="figure">
 <img
-src="images/edb004d5d175beb76331c2262006597ace144ba3838adc115bba76d54b4106eb.png"
+src="images/edb004d5d175beb76331c2262006597ace144ba3838adc115bba76d54b4106eb.webp"
 class="calibre132" alt="dvw2 0808" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-8.
 </span>Scatterplot with y-axis</h6>
@@ -11500,7 +11500,7 @@ data-type="xref">Figure 8-9</a>).
 <figure class="calibre35">
 <div id="ch08.xhtml_Scatterplot_with_random_data" class="figure">
 <img
-src="images/6e9aacb936e0e1e3595aede75564d51075d7ddcb7b32b5c26d17f0c8191961d4.png"
+src="images/6e9aacb936e0e1e3595aede75564d51075d7ddcb7b32b5c26d17f0c8191961d4.webp"
 class="calibre133" alt="dvw2 0809" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-9.
 </span>Scatterplot with random data</h6>
@@ -11525,7 +11525,7 @@ data-type="xref">Figure 8-10</a>. Our final scatterplot code lives in
 <div id="ch08.xhtml_Scatterplot_with_random_data_and_no_red_labels"
 class="figure">
 <img
-src="images/55db10ba3f99960b0aed48f539104d8bbcc55d4de399b1fae0afa2aa981e635e.png"
+src="images/55db10ba3f99960b0aed48f539104d8bbcc55d4de399b1fae0afa2aa981e635e.webp"
 class="calibre134" alt="dvw2 0810" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-10.
 </span>Scatterplot with random data and no red labels</h6>
@@ -11617,7 +11617,7 @@ Test out the following statements in the console and note the results:
 <figure class="calibre35">
 <div id="ch08.xhtml_Testing_format_console" class="figure">
 <img
-src="images/dd774178eaac692663342f936a05b32fc61c11de92a3a34d5561676a04a87a21.png"
+src="images/dd774178eaac692663342f936a05b32fc61c11de92a3a34d5561676a04a87a21.webp"
 class="calibre136 pcalibre7" alt="dvw2 0811" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-11.
 </span>Testing d3.format() in the console</h6>
@@ -11669,7 +11669,7 @@ data-type="xref">Figure 8-12</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_time_based_axis" class="figure">
 <img
-src="images/bc8b7c474ce010094427ace48b858e6fd984d90547c70128c50f85c996b2a3e5.png"
+src="images/bc8b7c474ce010094427ace48b858e6fd984d90547c70128c50f85c996b2a3e5.webp"
 class="calibre137" alt="dvw2 0812" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-12.
 </span>Easy time-based axis</h6>
@@ -11693,7 +11693,7 @@ data-type="xref">Figure 8-13</a>.
 <figure class="calibre35">
 <div id="ch08.xhtml_time_series_cleaned_up" class="figure">
 <img
-src="images/71d4f3fe3775e4676f42d4df3a9e3ef9018c6686278d79dbbe359da59cfc471e.png"
+src="images/71d4f3fe3775e4676f42d4df3a9e3ef9018c6686278d79dbbe359da59cfc471e.webp"
 class="calibre138" alt="dvw2 0813" />
 <h6 class="calibre37"><span class="keep-together">Figure 8-13.
 </span>Time series, cleaned up</h6>
@@ -11756,7 +11756,7 @@ data-type="xref">Figure 9-1</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_The_bar_chart_as_seen_last" class="figure">
 <img
-src="images/9d4688e8d07558c38c8d7857d1cf9764733c710ec6f2ead2e47b23733da37e61.png"
+src="images/9d4688e8d07558c38c8d7857d1cf9764733c710ec6f2ead2e47b23733da37e61.webp"
 class="calibre139" alt="dvw2 0901" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-1. </span>The
 bar chart, as seen last</h6>
@@ -11790,7 +11790,7 @@ changed under the hood. You can follow along by opening
 <figure class="calibre35">
 <div id="ch09.xhtml_A_scalable_flexible_bar_chart" class="figure">
 <img
-src="images/51a141fa39998a965e7db16ab5b616bdbb82fa0f19527d453d7f7e021d1cdf6a.png"
+src="images/51a141fa39998a965e7db16ab5b616bdbb82fa0f19527d453d7f7e021d1cdf6a.webp"
 class="calibre140" alt="dvw2 0902" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-2. </span>A
 scalable, flexible bar chart</h6>
@@ -12126,7 +12126,7 @@ can throw at it.
 <figure class="calibre35">
 <div id="ch09.xhtml_The_bar_chart" class="figure">
 <img
-src="images/51a141fa39998a965e7db16ab5b616bdbb82fa0f19527d453d7f7e021d1cdf6a.png"
+src="images/51a141fa39998a965e7db16ab5b616bdbb82fa0f19527d453d7f7e021d1cdf6a.webp"
 class="calibre140" alt="dvw2 0903" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-3. </span>The
 bar chart</h6>
@@ -12340,7 +12340,7 @@ data-type="xref">Figure 9-4</a> to start.
 <figure class="calibre35">
 <div id="ch09.xhtml_Updateable_bar_chart" class="figure">
 <img
-src="images/8b6273f8b0ab4e3754b3bf46c9da2fe6ce3b52c3bb4922848ee0a828dc6be336.png"
+src="images/8b6273f8b0ab4e3754b3bf46c9da2fe6ce3b52c3bb4922848ee0a828dc6be336.webp"
 class="calibre141" alt="dvw2 0904" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-4.
 </span>Updatable bar chart</h6>
@@ -12355,7 +12355,7 @@ data-type="xref">Figure 9-5</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_Bar_chart_data_updated" class="figure">
 <img
-src="images/5ad85a5c897f92364269bd91d0f4d9f79402b88274bf89a6af65c3c6d1c53572.png"
+src="images/5ad85a5c897f92364269bd91d0f4d9f79402b88274bf89a6af65c3c6d1c53572.webp"
 class="calibre142" alt="dvw2 0905" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-5. </span>Bar
 chart, data updated</h6>
@@ -12421,7 +12421,7 @@ data-type="xref">Figure 9-6</a>.
 <div id="ch09.xhtml_Updated_chart_with_correct_colors_and_labels"
 class="figure">
 <img
-src="images/15d089fe1ece74fbc7b408d08f40df47a1fa9d259f7b6f155542d1078fb0631c.png"
+src="images/15d089fe1ece74fbc7b408d08f40df47a1fa9d259f7b6f155542d1078fb0631c.webp"
 class="calibre143" alt="dvw2 0906" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-6.
 </span>Updated chart with correct colors and labels</h6>
@@ -12882,7 +12882,7 @@ data-type="xref">Figure 9-7</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_Initial_view" class="figure">
 <img
-src="images/903c874338c8ef440eb9f9ba0d6a3b0194a2dc7a80c6440ecf780cbc1775dad6.png"
+src="images/903c874338c8ef440eb9f9ba0d6a3b0194a2dc7a80c6440ecf780cbc1775dad6.webp"
 class="calibre143" alt="dvw2 0907" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-7.
 </span>Initial view</h6>
@@ -12904,7 +12904,7 @@ following:
 <figure class="calibre35">
 <div id="ch09.xhtml_Random_data_applied" class="figure">
 <img
-src="images/440d46b1c557e1c91ac0702d115afd59a06c7fdadd6eb65b67860315a8b7a77e.png"
+src="images/440d46b1c557e1c91ac0702d115afd59a06c7fdadd6eb65b67860315a8b7a77e.webp"
 class="calibre144" alt="dvw2 0908" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-8.
 </span>Random data applied</h6>
@@ -12982,7 +12982,7 @@ data-type="xref">Figure 9-9</a>, I replaced `25` with `50`.
 <figure class="calibre35">
 <div id="ch09.xhtml_Tootallwrongnumber" class="figure">
 <img
-src="images/57689eb5f1bab0d022033625cc00cce550a8c466b75f825adfcb62dea525ac5f.png"
+src="images/57689eb5f1bab0d022033625cc00cce550a8c466b75f825adfcb62dea525ac5f.webp"
 class="calibre145" alt="dvw2 0909" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-9. </span>Too
 tall! We used the wrong magic number!</h6>
@@ -13033,7 +13033,7 @@ data-type="xref">Figure 9-10</a>.
 <div id="ch09.xhtml_Randomdatabuttheyaxisscaleautomaticallyaccommodates"
 class="figure">
 <img
-src="images/2b66d93e28786d3c1afe95c3bf12e489fd81e4226fc8bd0ba576662f2377e81a.png"
+src="images/2b66d93e28786d3c1afe95c3bf12e489fd81e4226fc8bd0ba576662f2377e81a.webp"
 class="calibre146" alt="dvw2 0910" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-10.
 </span>Random data, but the y-axis scale automatically accommodates</h6>
@@ -13050,7 +13050,7 @@ data-type="xref">Figure 9-11</a>, the scale tops out at 83.
 <div id="ch09.xhtml_Aslightlydifferentscaleduetoslightlydifferentdata"
 class="figure">
 <img
-src="images/864f7c9887964c9eb99c4a1cc47e8e02887cd22898af01365d481daa6051c6f4.png"
+src="images/864f7c9887964c9eb99c4a1cc47e8e02887cd22898af01365d481daa6051c6f4.webp"
 class="calibre145" alt="dvw2 0911" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-11. </span>A
 slightly different scale, due to slightly different data</h6>
@@ -13090,7 +13090,7 @@ tweaks, in *19_axes_static.html*.
 id="ch09.xhtml_Updatedscatterplotnowwithdataupdatesanddynamicscales"
 class="figure">
 <img
-src="images/878a90d03757ce31abfab02066ecc982f6af0fcd6cf45b2616f355397e3df021.png"
+src="images/878a90d03757ce31abfab02066ecc982f6af0fcd6cf45b2616f355397e3df021.webp"
 class="calibre147" alt="dvw2 0912" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-12.
 </span>Updated scatterplot, now with data updates and dynamic
@@ -13238,7 +13238,7 @@ values.
 <figure class="calibre35">
 <div id="ch09.xhtml_Hotpinkcirclesinmidtransition" class="figure">
 <img
-src="images/0b9b54aaa3bbacc9b27fb6948c51554c072d537f51035c5d87b4aca1aa117ec7.png"
+src="images/0b9b54aaa3bbacc9b27fb6948c51554c072d537f51035c5d87b4aca1aa117ec7.webp"
 class="calibre148" alt="dvw2 0913" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-13.
 </span>Hot pink circles, midtransition</h6>
@@ -13439,7 +13439,7 @@ data-type="xref">Figure 9-14</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_Pointsexceedingthechartarea" class="figure">
 <img
-src="images/ba15c464ff8239e7b73f18a23c1cb9b10ec2ca01e02b45701d69e938f63b3b6b.png"
+src="images/ba15c464ff8239e7b73f18a23c1cb9b10ec2ca01e02b45701d69e938f63b3b6b.webp"
 class="calibre149" alt="dvw2 0914" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-14.
 </span>Points exceeding the chart area</h6>
@@ -13537,7 +13537,7 @@ data-type="xref">Figure 9-15</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_ThedimensionsofarectwithinaclipPath" class="figure">
 <img
-src="images/70cb7057a7938d7986e0e049c327d92899ae7fbded2f0fc2538e6179de030a17.png"
+src="images/70cb7057a7938d7986e0e049c327d92899ae7fbded2f0fc2538e6179de030a17.webp"
 class="calibre150" alt="dvw2 0915" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-15.
 </span>The dimensions of a rect within a clipPath</h6>
@@ -13569,7 +13569,7 @@ data-type="xref">Figure 9-16</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_Pointscontainedwithinthechartarea" class="figure">
 <img
-src="images/ea5845b5a8954bef662f015d93f1270f7cb2c51070b3a7f8c36b4bbbca8b9104.png"
+src="images/ea5845b5a8954bef662f015d93f1270f7cb2c51070b3a7f8c36b4bbbca8b9104.webp"
 class="calibre151" alt="dvw2 0916" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-16.
 </span>Points contained within the chart area</h6>
@@ -13829,7 +13829,7 @@ data-type="xref">Figure 9-17</a> shows the initial chart.
 <figure class="calibre35">
 <div id="ch09.xhtml_Initialbarchart" class="figure">
 <img
-src="images/98804d11da23801338e2ba15c24265cd76c1c525b7ca523ad8d92dc663e2d71e.png"
+src="images/98804d11da23801338e2ba15c24265cd76c1c525b7ca523ad8d92dc663e2d71e.webp"
 class="calibre152" alt="dvw2 0917" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-17.
 </span>Initial bar chart</h6>
@@ -13844,7 +13844,7 @@ text. Note the new bar on the right.
 <figure class="calibre35">
 <div id="ch09.xhtml_Afteroneclick" class="figure">
 <img
-src="images/1466d19ad720a2e5ba58a1099d467fcd005be003518452a2a84d33336b1309e7.png"
+src="images/1466d19ad720a2e5ba58a1099d467fcd005be003518452a2a84d33336b1309e7.webp"
 class="calibre153" alt="dvw2 0918" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-18.
 </span>After one click</h6>
@@ -13861,7 +13861,7 @@ data-type="xref">Figure 9-20</a> shows the result after three clicks.
 <figure class="calibre35">
 <div id="ch09.xhtml_Aftertwoclicks" class="figure">
 <img
-src="images/62e497f5479463541a69574bed18144a6859c01a35d0364799dd0a48b41683a4.png"
+src="images/62e497f5479463541a69574bed18144a6859c01a35d0364799dd0a48b41683a4.webp"
 class="calibre154" alt="dvw2 0919" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-19.
 </span>After two clicks</h6>
@@ -13871,7 +13871,7 @@ class="calibre154" alt="dvw2 0919" />
 <figure class="calibre35">
 <div id="ch09.xhtml_Afterthreeclicks" class="figure">
 <img
-src="images/aa438a720c39142e73ebdece8cf8ae3e65fbf85f08f07a9e4ee66d8ec3b453b1.png"
+src="images/aa438a720c39142e73ebdece8cf8ae3e65fbf85f08f07a9e4ee66d8ec3b453b1.webp"
 class="calibre155" alt="dvw2 0920" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-20.
 </span>After three clicks</h6>
@@ -13886,7 +13886,7 @@ data-type="xref">Figure 9-21</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_Aftermanyclicks" class="figure">
 <img
-src="images/06b3f954400d2cd06f14ca789bcfb6849f633e0fab976e00f06392088699be5f.png"
+src="images/06b3f954400d2cd06f14ca789bcfb6849f633e0fab976e00f06392088699be5f.webp"
 class="calibre156" alt="dvw2 0921" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-21.
 </span>After many clicks</h6>
@@ -14015,7 +14015,7 @@ data-type="xref">Figure 9-22</a> shows the initial view.
 <figure class="calibre35">
 <div id="ch09.xhtml_Initial_bar_chart" class="figure">
 <img
-src="images/33bb604b0541066f40b3e9be21b5278f5dbd632e082a3cffa7bc5925eef88cfc.png"
+src="images/33bb604b0541066f40b3e9be21b5278f5dbd632e082a3cffa7bc5925eef88cfc.webp"
 class="calibre157" alt="dvw2 0922" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-22.
 </span>Initial bar chart</h6>
@@ -14030,7 +14030,7 @@ data-type="xref">Figure 9-23</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_After_one_click" class="figure">
 <img
-src="images/646bbeb98f354c7aae787aa7914437f441c4b272241afce10b22883b3955ccc1.png"
+src="images/646bbeb98f354c7aae787aa7914437f441c4b272241afce10b22883b3955ccc1.webp"
 class="calibre158" alt="dvw2 0923" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-23.
 </span>After one click</h6>
@@ -14048,7 +14048,7 @@ data-type="xref">Figure 9-25</a> shows what displays after three clicks.
 <figure class="calibre35">
 <div id="ch09.xhtml_After_two_clicks" class="figure">
 <img
-src="images/2f782afc5ba5a762744036b09ee8ef7152548e65ce648a6232a4e3de5b19e73c.png"
+src="images/2f782afc5ba5a762744036b09ee8ef7152548e65ce648a6232a4e3de5b19e73c.webp"
 class="calibre159" alt="dvw2 0924" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-24.
 </span>After two clicks</h6>
@@ -14058,7 +14058,7 @@ class="calibre159" alt="dvw2 0924" />
 <figure class="calibre35">
 <div id="ch09.xhtml_After_three_clicks" class="figure">
 <img
-src="images/a52073b466c57720090347a383a0d78b2231365a09534015fe118f3da571e0a8.png"
+src="images/a52073b466c57720090347a383a0d78b2231365a09534015fe118f3da571e0a8.webp"
 class="calibre160" alt="dvw2 0925" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-25.
 </span>After three clicks</h6>
@@ -14073,7 +14073,7 @@ data-type="xref">Figure 9-26</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_After_many_clicks" class="figure">
 <img
-src="images/15ab00078e4f0d79fb56965d2c78543781afcfeef6dfd03097bfb3c4ba895861.png"
+src="images/15ab00078e4f0d79fb56965d2c78543781afcfeef6dfd03097bfb3c4ba895861.webp"
 class="calibre146" alt="dvw2 0926" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-26.
 </span>After many clicks</h6>
@@ -14417,7 +14417,7 @@ data-type="xref">Figure 9-27</a> is unchanged.
 <figure class="calibre35">
 <div id="ch09.xhtml_Initial-bar-chart" class="figure">
 <img
-src="images/6e43876a41061f4b1456883f64b01b5a835b2510b317ee54a75026b8494e75aa.png"
+src="images/6e43876a41061f4b1456883f64b01b5a835b2510b317ee54a75026b8494e75aa.webp"
 class="calibre141" alt="dvw2 0927" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-27.
 </span>Initial bar chart</h6>
@@ -14437,7 +14437,7 @@ removed.
 <figure class="calibre35">
 <div id="ch09.xhtml_After-one-click" class="figure">
 <img
-src="images/44deda33b639c660c17a83ee4bfe8320062c5a0ec38a0af9336646f2af25b6bc.png"
+src="images/44deda33b639c660c17a83ee4bfe8320062c5a0ec38a0af9336646f2af25b6bc.webp"
 class="calibre161" alt="dvw2 0928" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-28.
 </span>After one click</h6>
@@ -14452,7 +14452,7 @@ data-type="xref">Figure 9-29</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_After-two-clicks" class="figure">
 <img
-src="images/01fdf6f45c7f4032f3ab8bd29f99c3b634370b568433a0a35824978dae34bd54.png"
+src="images/01fdf6f45c7f4032f3ab8bd29f99c3b634370b568433a0a35824978dae34bd54.webp"
 class="calibre160" alt="dvw2 0929" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-29.
 </span>After two clicks</h6>
@@ -14470,7 +14470,7 @@ data-type="xref">Figure 9-31</a>.
 <figure class="calibre35">
 <div id="ch09.xhtml_After-three-clicks" class="figure">
 <img
-src="images/46c3768b14d0591e8983ab63926b4bf378f4f91baba1421a7b221e51112cd174.png"
+src="images/46c3768b14d0591e8983ab63926b4bf378f4f91baba1421a7b221e51112cd174.webp"
 class="calibre162" alt="dvw2 0930" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-30.
 </span>After three clicks</h6>
@@ -14480,7 +14480,7 @@ class="calibre162" alt="dvw2 0930" />
 <figure class="calibre35">
 <div id="ch09.xhtml_After-many-clicks" class="figure">
 <img
-src="images/5ebb9d97e41107317b60ed62a4215ccfda8fcaea270293124afd6fe561543e33.png"
+src="images/5ebb9d97e41107317b60ed62a4215ccfda8fcaea270293124afd6fe561543e33.webp"
 class="calibre163" alt="dvw2 0931" />
 <h6 class="calibre37"><span class="keep-together">Figure 9-31.
 </span>After many clicks</h6>
@@ -14871,7 +14871,7 @@ rect:hover {
 <figure class="calibre35">
 <div id="ch10.xhtml_simple_css_only_mouse_hover" class="figure">
 <img
-src="images/72fd58fed69d5db45f6592197c937f39175906ca85f468a4527560bd198c522e.png"
+src="images/72fd58fed69d5db45f6592197c937f39175906ca85f468a4527560bd198c522e.webp"
 class="calibre164" alt="dvw2 1001" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-1. </span>A
 simple CSS-only mouse hover effect</h6>
@@ -14972,7 +14972,7 @@ data-type="xref">Figure 10-2</a>).
 <figure class="calibre35">
 <div id="ch10.xhtml_using_d3" class="figure">
 <img
-src="images/6de919475259e85e9d9e89a38ecec1189b0b7d262d0f0747c5db215323263e54.png"
+src="images/6de919475259e85e9d9e89a38ecec1189b0b7d262d0f0747c5db215323263e54.webp"
 class="calibre165" alt="dvw2 1002" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-2.
 </span>Using D3 to set an orange fill on mouseover</h6>
@@ -15004,7 +15004,7 @@ data-type="xref">Figure 10-3</a>.
 <figure class="calibre35">
 <div id="ch10.xhtml_results_d3" class="figure">
 <img
-src="images/1015768b99e8d07317e964b780d5772189628ef042673a2878d8a5859bc678a5.png"
+src="images/1015768b99e8d07317e964b780d5772189628ef042673a2878d8a5859bc678a5.webp"
 class="calibre166" alt="dvw2 1003" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-3.
 </span>Moving the mouse left to right, with fills set on mouseover and
@@ -15038,7 +15038,7 @@ Try that out in *06_smoother.html*.
 <figure class="calibre35">
 <div id="ch10.xhtml_smooth" class="figure">
 <img
-src="images/30b6e2a517f110ed1faf4ce64cfe9d5f072db4df0b735c86011f27efcf8d6ca2.png"
+src="images/30b6e2a517f110ed1faf4ce64cfe9d5f072db4df0b735c86011f27efcf8d6ca2.webp"
 class="calibre167" alt="dvw2 1004" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-4.
 </span>Moving the mouse left to right (Smooth Operator Edition)</h6>
@@ -15283,7 +15283,7 @@ watch them reorganize.
 <figure class="calibre35">
 <div id="ch10.xhtml_click-to-sort" class="figure">
 <img
-src="images/d32254ee67529b61bde325e25c8cfded6ba1f0487e63fe2a81e627c28ffb746c.png"
+src="images/d32254ee67529b61bde325e25c8cfded6ba1f0487e63fe2a81e627c28ffb746c.webp"
 class="calibre145" alt="dvw2 1005" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-5.
 </span>The view after click-to-sort</h6>
@@ -15343,7 +15343,7 @@ data-type="xref">Figure 10-6</a>).
 <figure class="calibre35">
 <div id="ch10.xhtml_interrupted" class="figure">
 <img
-src="images/b0b916e911106d6e778c8ec09abf72e19e15b7c074263386c496b0ade43c2363.png"
+src="images/b0b916e911106d6e778c8ec09abf72e19e15b7c074263386c496b0ade43c2363.webp"
 class="calibre168" alt="dvw2 1006" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-6.
 </span>Transitions, interrupted</h6>
@@ -15466,7 +15466,7 @@ data-type="xref">Figure 10-7</a>.
 <figure class="calibre35">
 <div id="ch10.xhtml_second-sort" class="figure">
 <img
-src="images/24b9f5babf7b1168cec2e803c6335f6199ab7b8672af1da490edb54886280058.png"
+src="images/24b9f5babf7b1168cec2e803c6335f6199ab7b8672af1da490edb54886280058.webp"
 class="calibre146" alt="dvw2 1007" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-7.
 </span>The second sort, now in descending order</h6>
@@ -15550,7 +15550,7 @@ JavaScript, so you have no control over it.
 <figure class="calibre35">
 <div id="ch10.xhtml_chrome-tooltip" class="figure">
 <img
-src="images/082d8c7e70482919190d3bd6689d800a5524223303b18eb08f9631c15f2a5b3d.png"
+src="images/082d8c7e70482919190d3bd6689d800a5524223303b18eb08f9631c15f2a5b3d.webp"
 class="calibre165" alt="dvw2 1008" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-8. </span>A
 ridiculously simple default browser tooltip, as seen in Chrome</h6>
@@ -15597,7 +15597,7 @@ data-type="xref">Figure 10-9</a>):
 <figure class="calibre35">
 <div id="ch10.xhtml_default-tooltip" class="figure">
 <img
-src="images/e6fb2f888aa8ea6a316486609da872774b790b31b271006ca20ae0343ca84ae3.png"
+src="images/e6fb2f888aa8ea6a316486609da872774b790b31b271006ca20ae0343ca84ae3.webp"
 class="calibre169" alt="dvw2 1009" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-9. </span>A
 default browser tooltip, with a prefix added</h6>
@@ -15704,7 +15704,7 @@ this simple example.
 <figure class="calibre35">
 <div id="ch10.xhtml_element-tooltip" class="figure">
 <img
-src="images/790bd611ab47e5976fdeb822113aa2d3a8ed4b9829799809c9bae9a7f871f61e.png"
+src="images/790bd611ab47e5976fdeb822113aa2d3a8ed4b9829799809c9bae9a7f871f61e.webp"
 class="calibre140" alt="dvw2 1010" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-10.
 </span>An SVG element tooltip</h6>
@@ -15755,7 +15755,7 @@ data-xrefstyle="select:labelnumber">10-12</a> for examples.
 <figure class="calibre35">
 <div id="ch10.xhtml_div-tooltip" class="figure">
 <img
-src="images/ac409c17b2f932fd08a417e2850df31130e1a3dcefa95b636718bd00e3e78b49.png"
+src="images/ac409c17b2f932fd08a417e2850df31130e1a3dcefa95b636718bd00e3e78b49.webp"
 class="calibre170" alt="dvw2 1011" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-11.
 </span>An HTML div tooltip</h6>
@@ -15765,7 +15765,7 @@ class="calibre170" alt="dvw2 1011" />
 <figure class="calibre35">
 <div id="ch10.xhtml_overlapping-tooltip" class="figure">
 <img
-src="images/7021e754f0c708aea2b61caa14caabe12c01fbedbee20521c96847f7d1070208.png"
+src="images/7021e754f0c708aea2b61caa14caabe12c01fbedbee20521c96847f7d1070208.webp"
 class="calibre171" alt="dvw2 1012" />
 <h6 class="calibre37"><span class="keep-together">Figure 10-12.
 </span>An HTML div tooltip, overlapping the bounds of the SVG image
@@ -16020,7 +16020,7 @@ data-type="xref">Figure 11-1</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_path_and_d" class="figure">
 <img
-src="images/2292aab9e1b42e34fa8fe8646f22babedaf96b53fc8eec68fddca71c3c0d5483.png"
+src="images/2292aab9e1b42e34fa8fe8646f22babedaf96b53fc8eec68fddca71c3c0d5483.webp"
 class="calibre46" alt="dvw2 1101" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-1. </span>A
 path and its d attribute</h6>
@@ -16217,7 +16217,7 @@ original dataset.
 <figure class="calibre35">
 <div id="ch11.xhtml_using_consoletable" class="figure">
 <img
-src="images/7a21503e939b5d3b30f19df61675e8bcd64002f1510772e7169bd1e504ce9b8c.png"
+src="images/7a21503e939b5d3b30f19df61675e8bcd64002f1510772e7169bd1e504ce9b8c.webp"
 class="calibre173" alt="dvw2 1102" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-2.
 </span>Using console.table() to verify data</h6>
@@ -16361,7 +16361,7 @@ data-type="xref">Figure 11-3</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_verifying_data_array_bound_path" class="figure">
 <img
-src="images/5242f49686e6754ac07dc35e6132f553282cac3491ebe31fe1d6a3dca9b16ac4.png"
+src="images/5242f49686e6754ac07dc35e6132f553282cac3491ebe31fe1d6a3dca9b16ac4.webp"
 class="calibre46" alt="dvw2 1103" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-3.
 </span>Verifying the data array bound to a single path element</h6>
@@ -16398,7 +16398,7 @@ data-type="xref">Figure 11-4</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_adding_padding_axes" class="figure">
 <img
-src="images/8dbcfbe60b32fc6235fccb09491f0eb9c7978990f1a5dcaabdc55c9c0e20ff3a.png"
+src="images/8dbcfbe60b32fc6235fccb09491f0eb9c7978990f1a5dcaabdc55c9c0e20ff3a.webp"
 class="calibre174" alt="dvw2 1104" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-4.
 </span>Added padding and axes</h6>
@@ -16463,7 +16463,7 @@ data-type="xref">Figure 11-5</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_invalid_excluded" class="figure">
 <img
-src="images/a8fec0651bd68280301c623bfd03d3b661ed5cdcb7fb45f159bec4f767e5550b.png"
+src="images/a8fec0651bd68280301c623bfd03d3b661ed5cdcb7fb45f159bec4f767e5550b.webp"
 class="calibre175" alt="dvw2 1105" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-5.
 </span>Line chart, invalid CO<sub>2</sub> values excluded</h6>
@@ -16485,7 +16485,7 @@ gaps are clearly visible.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_invalid_excluded_big" class="figure">
 <img
-src="images/0c91f295035305425bdc3a47c339e1df0109f9952fe354737a74064aebec7d40.png"
+src="images/0c91f295035305425bdc3a47c339e1df0109f9952fe354737a74064aebec7d40.webp"
 class="calibre176" alt="dvw2 1106" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-6.
 </span>Zoomed in to reveal the gaps</h6>
@@ -16519,7 +16519,7 @@ data-type="xref">Figure 11-7</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_adjusted" class="figure">
 <img
-src="images/740aa1268f32a684b830e73b3d6ca6f3d7a1e8fea28df76e37b4a1e7906d8c05.png"
+src="images/740aa1268f32a684b830e73b3d6ca6f3d7a1e8fea28df76e37b4a1e7906d8c05.webp"
 class="calibre177" alt="dvw2 1107" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-7.
 </span>Adjusted yScale and new red line</h6>
@@ -16569,7 +16569,7 @@ data-type="xref">Figure 11-8</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_line_chart_labeled" class="figure">
 <img
-src="images/99420b66d947854c22a6787681cf723ef7b7161ac59c197099c6b10d45c83506.png"
+src="images/99420b66d947854c22a6787681cf723ef7b7161ac59c197099c6b10d45c83506.webp"
 class="calibre177" alt="dvw2 1108" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-8.
 </span>Labeled line chart with two lines, teal and red</h6>
@@ -16626,7 +16626,7 @@ working toward.
 <figure class="calibre35">
 <div id="ch11.xhtml_area_chart" class="figure">
 <img
-src="images/01d1da095ee989397eb733a3fecbc1310ec567c521ec42685f73d864dcb8d155.png"
+src="images/01d1da095ee989397eb733a3fecbc1310ec567c521ec42685f73d864dcb8d155.webp"
 class="calibre178" alt="dvw2 1109" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-9.
 </span>Area chart</h6>
@@ -16710,7 +16710,7 @@ data-type="xref">Figure 11-10</a>.
 <figure class="calibre35">
 <div id="ch11.xhtml_area_chart_red" class="figure">
 <img
-src="images/4636dd0ee040d363aeb97cdc3e753ca328f834a042d7721e61d4d9998766b0a8.png"
+src="images/4636dd0ee040d363aeb97cdc3e753ca328f834a042d7721e61d4d9998766b0a8.webp"
 class="calibre179" alt="dvw2 1110" />
 <h6 class="calibre37"><span class="keep-together">Figure 11-10.
 </span>Area chart, with both areas</h6>
@@ -16794,7 +16794,7 @@ data-type="xref">Figure 12-1</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_simple_selection" class="figure">
 <img
-src="images/7dce6737eb79a96a26ef3bd71eaa7ecc4d8a2c3c7fda762c3094609b691eeb41.png"
+src="images/7dce6737eb79a96a26ef3bd71eaa7ecc4d8a2c3c7fda762c3094609b691eeb41.webp"
 class="calibre180" alt="dvw2 1201" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-1. </span>A
 simple selection</h6>
@@ -16813,7 +16813,7 @@ data-type="xref">Figure 12-2</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_groups" class="figure">
 <img
-src="images/2cd09a2e36d40ad97fad862a89c89ba4987564709289e950c928e9d2f3af2c85.png"
+src="images/2cd09a2e36d40ad97fad862a89c89ba4987564709289e950c928e9d2f3af2c85.webp"
 class="calibre181" alt="dvw2 1202" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-2.
 </span>Revealing _groups</h6>
@@ -16829,7 +16829,7 @@ data-type="xref">Figure 12-3</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_body_expanded" class="figure">
 <img
-src="images/e699c74f95288e0b75f48bceb63471c36afc1b5d6daa1df2fe39cad7736c65b1.png"
+src="images/e699c74f95288e0b75f48bceb63471c36afc1b5d6daa1df2fe39cad7736c65b1.webp"
 class="calibre182" alt="dvw2 1203" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-3.
 </span>body, expanded</h6>
@@ -16868,7 +16868,7 @@ data-type="xref">Figure 12-4</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_path" class="figure">
 <img
-src="images/7ee14274e6ca36b6870379c8c35d98128ba8199578482741d10f65fa17a33dc0.png"
+src="images/7ee14274e6ca36b6870379c8c35d98128ba8199578482741d10f65fa17a33dc0.webp"
 class="calibre183" alt="dvw2 1204" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-4.
 </span>Selecting a path</h6>
@@ -16885,7 +16885,7 @@ data-type="xref">Figure 12-5</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_data" class="figure">
 <img
-src="images/5ed2be778cd7bb3c245d1210fda587cb8298235973093f070145a138b01c0bc9.png"
+src="images/5ed2be778cd7bb3c245d1210fda587cb8298235973093f070145a138b01c0bc9.webp"
 class="calibre184" alt="dvw2 1205" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-5.
 </span>Revealing the bound data</h6>
@@ -16908,7 +16908,7 @@ returns *all* matching items.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_circles" class="figure">
 <img
-src="images/94bc8db61c7477f44162cbd40c31e1c518756a297ac1c464e2398ffb384975bf.png"
+src="images/94bc8db61c7477f44162cbd40c31e1c518756a297ac1c464e2398ffb384975bf.webp"
 class="calibre185" alt="dvw2 1206" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-6.
 </span>Selecting all the circles</h6>
@@ -16924,7 +16924,7 @@ data-type="xref">Figure 12-7</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_selection_hover" class="figure">
 <img
-src="images/8fc648eb9a3553090154e506518079598b89ac1bf9e6533cc973fd8acd91abc6.png"
+src="images/8fc648eb9a3553090154e506518079598b89ac1bf9e6533cc973fd8acd91abc6.webp"
 class="calibre150" alt="dvw2 1207" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-7.
 </span>Mousing over an element to identify it</h6>
@@ -17235,7 +17235,7 @@ data-type="xref">Figure 12-8</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_bars_merge" class="figure">
 <img
-src="images/3e2ba59816e5afb828854357872faee4bd93f38d0be55e1bbfd5c51ce7715689.png"
+src="images/3e2ba59816e5afb828854357872faee4bd93f38d0be55e1bbfd5c51ce7715689.webp"
 class="calibre186" alt="dvw2 1208" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-8.
 </span>Bar chart with options to add and remove values</h6>
@@ -17291,7 +17291,7 @@ Let’s look at that first selection, `svg.selectAll("rect")`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/544c0e7290b5a78fdabda56c9c8d213951d3e693730e5a3a1dd2bb4863cf882f.png"
+src="images/544c0e7290b5a78fdabda56c9c8d213951d3e693730e5a3a1dd2bb4863cf882f.webp"
 class="calibre187" alt="dvw2 12in01" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17305,7 +17305,7 @@ Now let’s uncomment `svg.selectAll("rect").data(dataset, key)`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/3e0e4c83c4a60fbb5b1e3138b3650434b72e198d01fc48a6312df0dde37b826b.png"
+src="images/3e0e4c83c4a60fbb5b1e3138b3650434b72e198d01fc48a6312df0dde37b826b.webp"
 class="calibre188" alt="dvw2 12in02" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17319,7 +17319,7 @@ Let’s expand each of those, plus `_groups`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/6f0075c992533b921c3696fd8ddb006689968a82ef1780585a1c103acb972439.png"
+src="images/6f0075c992533b921c3696fd8ddb006689968a82ef1780585a1c103acb972439.webp"
 class="calibre189" alt="dvw2 12in03" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17333,7 +17333,7 @@ just a moment.) Let’s expand that further:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/739699f2edbf3c749afd1b8a746950c292f9cb6293a0b6babe2d4f8a323aa46c.png"
+src="images/739699f2edbf3c749afd1b8a746950c292f9cb6293a0b6babe2d4f8a323aa46c.webp"
 class="calibre190" alt="dvw2 12in04" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17348,7 +17348,7 @@ Let’s expand the first `EnterNode`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/8bb6541cf9ea65f52dff584ef5a0aa5f488460b274170ec2d93955fc5d571fb7.png"
+src="images/8bb6541cf9ea65f52dff584ef5a0aa5f488460b274170ec2d93955fc5d571fb7.webp"
 class="calibre190" alt="dvw2 12in05" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17363,7 +17363,7 @@ selection, as with `svg.selectAll("rect").data(dataset, key).enter()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/dd4919bd8daa55b2c6c9e0e89f4bdfb4de5c7450b40f9798cbca6041badb4b8d.png"
+src="images/dd4919bd8daa55b2c6c9e0e89f4bdfb4de5c7450b40f9798cbca6041badb4b8d.webp"
 class="calibre191" alt="dvw2 12in06" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17374,7 +17374,7 @@ Okay, this looks like a normal selection again. Let’s expand `_groups`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/8d61d95f5cff9ef1c591cda29546c361743f8acb4dd33b529757937b89dfc4d2.png"
+src="images/8d61d95f5cff9ef1c591cda29546c361743f8acb4dd33b529757937b89dfc4d2.webp"
 class="calibre190" alt="dvw2 12in07" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17394,7 +17394,7 @@ svg.selectAll("rect").data(dataset, key).enter().append("rect")
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/f9f77691494a1df32db6aacb6ec45de8443c83621d0bfe8caff16efe97ccc0f9.png"
+src="images/f9f77691494a1df32db6aacb6ec45de8443c83621d0bfe8caff16efe97ccc0f9.webp"
 class="calibre192" alt="dvw2 12in08" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17405,7 +17405,7 @@ This, too, looks like a normal selection. Let’s expand `_groups`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/eb0480e6c94fec213ebc1415e3f64826b61ce44d639fff5b986ca63f6a6e953b.png"
+src="images/eb0480e6c94fec213ebc1415e3f64826b61ce44d639fff5b986ca63f6a6e953b.webp"
 class="calibre190" alt="dvw2 12in09" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17419,7 +17419,7 @@ even verify that the joined data values have transferred over:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/8ce168f2781eade149836b897e7ba6b4cad03394163689f966551a65044e98ec.png"
+src="images/8ce168f2781eade149836b897e7ba6b4cad03394163689f966551a65044e98ec.webp"
 class="calibre193" alt="dvw2 12in10" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17459,7 +17459,7 @@ a selection containing a `NodeList` array of 20 items:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/789dd8219818c823ace8ef6aa8a36a107c0cf1d905eb1ee7a79aa11b962a605d.png"
+src="images/789dd8219818c823ace8ef6aa8a36a107c0cf1d905eb1ee7a79aa11b962a605d.webp"
 class="calibre194" alt="dvw2 12in11" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17472,7 +17472,7 @@ that includes the enter and exit subselections. Here’s
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/fc9db5fa583fbda34606337359fea449e8355acd23e324a4aacae4da055eedb5.png"
+src="images/fc9db5fa583fbda34606337359fea449e8355acd23e324a4aacae4da055eedb5.webp"
 class="calibre195" alt="dvw2 12in12" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17483,7 +17483,7 @@ Let’s expand the `_enter` and `_exit` subselections.
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/b4db2874f76e3cf77514a78e6b95e4774d7c898782166a81103bf4dddd844be8.png"
+src="images/b4db2874f76e3cf77514a78e6b95e4774d7c898782166a81103bf4dddd844be8.webp"
 class="calibre185" alt="dvw2 12in13" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17533,7 +17533,7 @@ value to a numerically named property.
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/ec1e69b53306b60c7dbd38ddbb2228d49af0383f96e56858957a06d25795e18b.png"
+src="images/ec1e69b53306b60c7dbd38ddbb2228d49af0383f96e56858957a06d25795e18b.webp"
 class="pcalibre7 calibre196" alt="dvw2 12in14" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17554,7 +17554,7 @@ Adding a nonnumerically named property to an array does *not* affect the
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/aee8c9a516703678de89600cd2fe72a78e9d7b560ffa8d98a778ec303ce94501.png"
+src="images/aee8c9a516703678de89600cd2fe72a78e9d7b560ffa8d98a778ec303ce94501.webp"
 class="calibre197 pcalibre7" alt="dvw2 12in15" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17591,7 +17591,7 @@ down, you can see the final `rect` has a position value of 19 (the
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/781327eacba981364b0ac27d53955828313dc41f734eebffafbd18e3fef4ac4d.png"
+src="images/781327eacba981364b0ac27d53955828313dc41f734eebffafbd18e3fef4ac4d.webp"
 class="calibre198" alt="dvw2 12in16" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17612,7 +17612,7 @@ items.
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/326ea5e5b0aab169924e2a9b08a6b70d31247b0af793777a6475872dbddb0e3d.png"
+src="images/326ea5e5b0aab169924e2a9b08a6b70d31247b0af793777a6475872dbddb0e3d.webp"
 class="calibre199" alt="dvw2 12in17" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17623,7 +17623,7 @@ Back to *adding* data values. In the next step, we grab `bars.enter()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/658a5e4739f276ebda9cfa207c76b3951dac50feca89002f2601d4321603d891.png"
+src="images/658a5e4739f276ebda9cfa207c76b3951dac50feca89002f2601d4321603d891.webp"
 class="calibre200" alt="dvw2 12in18" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17639,7 +17639,7 @@ We then append a rectangle for the one placeholder element, using
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/f093f9bcd3db592add0cca739e94f7e5bb0dde001adf0fb403114338afcc0070.png"
+src="images/f093f9bcd3db592add0cca739e94f7e5bb0dde001adf0fb403114338afcc0070.webp"
 class="calibre201" alt="dvw2 12in19" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17658,7 +17658,7 @@ create it using `bars.enter().append("rect").merge(bars)`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/2cb1114b8f07f955069e559b311bbc93a8d6fd21bf7b658e0ae3b2f5691f4db6.png"
+src="images/2cb1114b8f07f955069e559b311bbc93a8d6fd21bf7b658e0ae3b2f5691f4db6.webp"
 class="calibre202" alt="dvw2 12in20" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17697,7 +17697,7 @@ we look at the exit selection, `bars.exit()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/819e1524dc51d97b174c217d860b93b7d6b0bd37951236be0595e93a746f272e.png"
+src="images/819e1524dc51d97b174c217d860b93b7d6b0bd37951236be0595e93a746f272e.webp"
 class="calibre200" alt="dvw2 12in21" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17712,7 +17712,7 @@ Finally, it’s time to say goodbye, so we call `bars.exit().remove()`:
 <figure class="calibre35">
 <div class="figure">
 <img
-src="images/0401e4158f063f25647ed2f282dc6f88e53e517cf0b975d9512a26d55c9e9ca9.png"
+src="images/0401e4158f063f25647ed2f282dc6f88e53e517cf0b975d9512a26d55c9e9ca9.webp"
 class="calibre200" alt="dvw2 12in22" />
 <h6 class="calibre37"></h6>
 </div>
@@ -17763,7 +17763,7 @@ data-type="xref">Figure 12-9</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_conditional_paras" class="figure">
 <img
-src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.png"
+src="images/3a0b03bbd75a830a6a10bdfe5ef0be5511fe0ff48e9cc36073c6628e161beacd.webp"
 class="calibre85" alt="dvw2 1209" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-9.
 </span>Conditionally formatted paragraphs</h6>
@@ -17860,7 +17860,7 @@ data-type="xref">Figure 12-10</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_slide_to_filter" class="figure">
 <img
-src="images/96b0c4bf91e2e2726174809018b9b6b3938d394bd88f026d66d7252bf3192289.png"
+src="images/96b0c4bf91e2e2726174809018b9b6b3938d394bd88f026d66d7252bf3192289.webp"
 class="calibre203" alt="dvw2 1210" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-10.
 </span>Dragging a slider to filter by value</h6>
@@ -17903,7 +17903,7 @@ data-type="xref">Figure 12-11</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_radio_filter_threshold" class="figure">
 <img
-src="images/6e4998bd9b9c269c074b7a17e4e7445aba9cf4529186f4fb525fe76fa9f6f02a.png"
+src="images/6e4998bd9b9c269c074b7a17e4e7445aba9cf4529186f4fb525fe76fa9f6f02a.webp"
 class="calibre204" alt="dvw2 1211" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-11.
 </span>Using radio buttons to set the filter threshold value</h6>
@@ -17921,7 +17921,7 @@ data-type="xref">Figure 12-12</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_radio_filter_combos" class="figure">
 <img
-src="images/6f47dff37dc9f8b4c359a5f2ef5828d3be7bcbe60c4b9d04baa9e2c9bdb40347.png"
+src="images/6f47dff37dc9f8b4c359a5f2ef5828d3be7bcbe60c4b9d04baa9e2c9bdb40347.webp"
 class="calibre205" alt="dvw2 1212" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-12.
 </span>Using radio buttons to set different conditions on filters</h6>
@@ -17984,7 +17984,7 @@ data-type="xref">Figure 12-13</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_before_each" class="figure">
 <img
-src="images/d6aed4d121b0f02c050d683c641c329185af8638f4024fd1425a94ec40528256.png"
+src="images/d6aed4d121b0f02c050d683c641c329185af8638f4024fd1425a94ec40528256.webp"
 class="calibre206" alt="dvw2 1213" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-13.
 </span>Scatterplot, prior to calling each() on each circle</h6>
@@ -18060,7 +18060,7 @@ data-type="xref">Figure 12-14</a>.
 <figure class="calibre35">
 <div id="ch12.xhtml_after_each" class="figure">
 <img
-src="images/51f58ee28c3854effb71be76acc8b75823191f3436f3906341e925a014ccf8ec.png"
+src="images/51f58ee28c3854effb71be76acc8b75823191f3436f3906341e925a014ccf8ec.webp"
 class="calibre207" alt="dvw2 1214" />
 <h6 class="calibre37"><span class="keep-together">Figure 12-14.
 </span>each() circle, freaking out, over time</h6>
@@ -18163,7 +18163,7 @@ data-type="xref">Figure 13-1</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_simple_pie_chart" class="figure">
 <img
-src="images/0bd5dd9c42880cdf2835e1bc867310353e9db837e117835fac406bc6930c0219.png"
+src="images/0bd5dd9c42880cdf2835e1bc867310353e9db837e117835fac406bc6930c0219.webp"
 class="calibre208" alt="dvw2 1301" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-1. </span>A
 simple pie chart</h6>
@@ -18211,7 +18211,7 @@ data-type="xref">Figure 13-2</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_pieified_data" class="figure">
 <img
-src="images/972bcb818f97df15a62de286a38b318128278275199fac9ac4a6c5208ffe40ad.png"
+src="images/972bcb818f97df15a62de286a38b318128278275199fac9ac4a6c5208ffe40ad.webp"
 class="calibre209" alt="dvw2 1302" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-2.
 </span>Your data, pie-ified</h6>
@@ -18407,7 +18407,7 @@ var innerRadius = w / 3;
 <figure class="calibre35">
 <div id="ch13.xhtml_simple_doughnut_chart" class="figure">
 <img
-src="images/c8d836d74a0ae94fd2c9ee753c45b239011dec2d6f5455c6247ea9d43f851c99.png"
+src="images/c8d836d74a0ae94fd2c9ee753c45b239011dec2d6f5455c6247ea9d43f851c99.webp"
 class="calibre210" alt="dvw2 1303" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-3. </span>A
 simple doughnut chart</h6>
@@ -18474,7 +18474,7 @@ data-type="xref">Figure 13-4</a>. See all the code in
 <figure class="calibre35">
 <div id="ch13.xhtml_simple_stacked_bar_chart" class="figure">
 <img
-src="images/ba684c426ac6c544a1daeaaac8343acf3918bc6ee06eaa3153cfb1703758e0de.png"
+src="images/ba684c426ac6c544a1daeaaac8343acf3918bc6ee06eaa3153cfb1703758e0de.webp"
 class="calibre211" alt="dvw2 1304" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-4. </span>A
 simple stacked bar chart (blue = apples, orange = oranges, green =
@@ -18663,7 +18663,7 @@ different order.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_bar_reordered" class="figure">
 <img
-src="images/f8702200f35549823772c9f004419e56a600e82af82b6d169be8cd93b5797165.png"
+src="images/f8702200f35549823772c9f004419e56a600e82af82b6d169be8cd93b5797165.webp"
 class="calibre212" alt="dvw2 1305" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-5.
 </span>The same stacked bar chart, reordered</h6>
@@ -18729,7 +18729,7 @@ data-type="xref">Figure 13-6</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_bar_anchored" class="figure">
 <img
-src="images/68fcb13c270d59c644cc2c5d3002b83005981d78eb70b2310ad00a19acb2a007.png"
+src="images/68fcb13c270d59c644cc2c5d3002b83005981d78eb70b2310ad00a19acb2a007.webp"
 class="calibre213" alt="dvw2 1306" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-6.
 </span>The same stacked bar chart, now anchored at the bottom</h6>
@@ -18787,7 +18787,7 @@ data-type="xref">Figure 13-7</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_area" class="figure">
 <img
-src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.png"
+src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.webp"
 class="calibre214" alt="dvw2 1307" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-7. </span>A
 stacked area chart</h6>
@@ -18804,7 +18804,7 @@ data-type="xref">Figure 13-8</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_stacked_area_hover" class="figure">
 <img
-src="images/1a6b3391b71e2e5fc62deaaf6548e903789e445b97f8dfaeb25f959711c16b0e.png"
+src="images/1a6b3391b71e2e5fc62deaaf6548e903789e445b97f8dfaeb25f959711c16b0e.webp"
 class="calibre215" alt="dvw2 1308" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-8. </span>A
 stacked area chart, with tooltips!</h6>
@@ -18965,7 +18965,7 @@ coding toward in *07_force.html*.
 <figure class="calibre35">
 <div id="ch13.xhtml_force_layouta" class="figure">
 <img
-src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.png"
+src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.webp"
 class="calibre216" alt="dvw2 1309" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-9. </span>A
 simple force layout</h6>
@@ -19240,7 +19240,7 @@ coordinates and map them on to the visual elements in the DOM.
 <figure class="calibre35">
 <div id="ch13.xhtml_force_data_added" class="figure">
 <img
-src="images/e8f581aaf79ae487985d34fc05a85a8577ba3dafbebcfc1080a29a58fc68e06d.png"
+src="images/e8f581aaf79ae487985d34fc05a85a8577ba3dafbebcfc1080a29a58fc68e06d.webp"
 class="calibre217" alt="dvw2 1310" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-10.
 </span>The first node in dataset, with lots of supplemental data added
@@ -19256,7 +19256,7 @@ data-type="xref">Figure 13-11</a>.
 <figure class="calibre35">
 <div id="ch13.xhtml_force_layout" class="figure">
 <img
-src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.png"
+src="images/6c6afce155471570904aa4cb7f1b72760fd90675bf37df9b366794302e694a6d.webp"
 class="calibre216" alt="dvw2 1311" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-11. </span>A
 simple force layout with 10 nodes and 12 edges</h6>
@@ -19346,7 +19346,7 @@ data-type="xref">Figure 13-13</a>).
 <figure class="calibre35">
 <div id="ch13.xhtml_force_drag" class="figure">
 <img
-src="images/a2a02970aff0787918cb24f04f4c377d57ca9c700dbb0333f1fd6269ac0d3ced.png"
+src="images/a2a02970aff0787918cb24f04f4c377d57ca9c700dbb0333f1fd6269ac0d3ced.webp"
 class="calibre218" alt="dvw2 1312" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-12.
 </span>Dragging a node to change the arrangement of nodes</h6>
@@ -19356,7 +19356,7 @@ class="calibre218" alt="dvw2 1312" />
 <figure class="calibre35">
 <div id="ch13.xhtml_force_drag_2" class="figure">
 <img
-src="images/7da70141f09835219fac09fa1b84035094a00a9afd7deff0c2fa265b64c90d20.png"
+src="images/7da70141f09835219fac09fa1b84035094a00a9afd7deff0c2fa265b64c90d20.webp"
 class="calibre218" alt="dvw2 1313" />
 <h6 class="calibre37"><span class="keep-together">Figure 13-13.
 </span>Dragging some more</h6>
@@ -19626,7 +19626,7 @@ data-type="xref">Figure 14-1</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_simple" class="figure">
 <img
-src="images/f03b63a900fcb61a7ddc54efb9e2d34274ea68acb6f15d80b6fc99e5d05f4316.png"
+src="images/f03b63a900fcb61a7ddc54efb9e2d34274ea68acb6f15d80b6fc99e5d05f4316.webp"
 class="calibre219" alt="dvw2 1401" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-1.
 </span>Our first view of GeoJSON data</h6>
@@ -19731,7 +19731,7 @@ data-type="xref">Figure 14-2</a>. Getting there! See
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_centered" class="figure">
 <img
-src="images/91e1afb7db4e239b361db6ee73d78feb03d008ef9e864c3cb342807a401c0cf7.png"
+src="images/91e1afb7db4e239b361db6ee73d78feb03d008ef9e864c3cb342807a401c0cf7.webp"
 class="calibre212" alt="dvw2 1402" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-2.
 </span>The same GeoJSON data, but now with a centered projection</h6>
@@ -19758,7 +19758,7 @@ will shrink the map; anything larger will expand it.
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_scaled" class="figure">
 <img
-src="images/7d66473e85eb20f7d44fdaca5c38600d8f9eef4af2f3e18112bf7e8eb1e7dfac.png"
+src="images/7d66473e85eb20f7d44fdaca5c38600d8f9eef4af2f3e18112bf7e8eb1e7dfac.webp"
 class="calibre220" alt="dvw2 1403" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-3.
 </span>The USA, scaled and centered within the image</h6>
@@ -19776,7 +19776,7 @@ data-type="xref">Figure 14-4</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_geojson_filled" class="figure">
 <img
-src="images/6bbb0dfdde620dabce8d062d79d1fd93c6faf5b759f1ff4762eac755f5094b5f.png"
+src="images/6bbb0dfdde620dabce8d062d79d1fd93c6faf5b759f1ff4762eac755f5094b5f.webp"
 class="calibre221" alt="dvw2 1404" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-4.
 </span>Now more blue-ish than black</h6>
@@ -20014,7 +20014,7 @@ yourself in *05_choropleth.html*.
 <figure class="calibre35">
 <div id="ch14.xhtml_choropleth_map" class="figure">
 <img
-src="images/c85bffdeedc339f45d2958a560f4346bdeafb249c7548373d59f3048ee0b08c3.png"
+src="images/c85bffdeedc339f45d2958a560f4346bdeafb249c7548373d59f3048ee0b08c3.webp"
 class="calibre222" alt="dvw2 1405" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-5. </span>A
 choropleth map showing agricultural productivity by state</h6>
@@ -20235,7 +20235,7 @@ data-type="xref">Figure 14-6</a> is pretty nice! Check out the code in
 <figure class="calibre35">
 <div id="ch14.xhtml_choropleth_with_cities" class="figure">
 <img
-src="images/22f10e0c6f9aae3721163fe7eeca6ad2ec2536371a9826e3cc99725f0793947f.png"
+src="images/22f10e0c6f9aae3721163fe7eeca6ad2ec2536371a9826e3cc99725f0793947f.webp"
 class="calibre224" alt="dvw2 1406" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-6.
 </span>The top 50 largest US cities, represented as cute little yellow
@@ -20268,7 +20268,7 @@ custom D3 scale function. (I’ll leave that to you.)
 <figure class="calibre35">
 <div id="ch14.xhtml_choropleth_with_cities_sized" class="figure">
 <img
-src="images/a587c06313d1023497322f4ff3c8217579a405a3bf291081a6bdbeafad201138.png"
+src="images/a587c06313d1023497322f4ff3c8217579a405a3bf291081a6bdbeafad201138.webp"
 class="calibre225" alt="dvw2 1407" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-7.
 </span>Cities as dots, with area set by population</h6>
@@ -20345,7 +20345,7 @@ data-type="xref">Figure 14-8</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_pan" class="figure">
 <img
-src="images/6bee6c39e32979a1bf6f3c682a4b0a68994060d517f52b579439a2ec409393e8.png"
+src="images/6bee6c39e32979a1bf6f3c682a4b0a68994060d517f52b579439a2ec409393e8.webp"
 class="calibre226" alt="dvw2 1408" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-8.
 </span>Pan example</h6>
@@ -20366,7 +20366,7 @@ data-type="xref">Figure 14-9</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_panned" class="figure">
 <img
-src="images/34689b2c1e75bf5c49f0e0c61be38f7951738b1a4f3e52d13320106db859df10.png"
+src="images/34689b2c1e75bf5c49f0e0c61be38f7951738b1a4f3e52d13320106db859df10.webp"
 class="calibre227" alt="dvw2 1409" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-9.
 </span>Pan example, panned</h6>
@@ -20638,7 +20638,7 @@ data-type="xref">Figure 14-10</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_d3event" class="figure">
 <img
-src="images/2ff1676eb075f08b9889c0ff84acc943d3f24dbe79ded4337db8222eaac05f1b.png"
+src="images/2ff1676eb075f08b9889c0ff84acc943d3f24dbe79ded4337db8222eaac05f1b.webp"
 class="calibre201" alt="dvw2 1410" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-10.
 </span>Logging the contents of a d3.event</h6>
@@ -20777,7 +20777,7 @@ triggering a zoom event.)
 <figure class="calibre35">
 <div id="ch14.xhtml_d3event-zoom" class="figure">
 <img
-src="images/9bbd522b38064c43a540c15e3d8c99c6dc49cab08f96b9495889aacd4585f813.png"
+src="images/9bbd522b38064c43a540c15e3d8c99c6dc49cab08f96b9495889aacd4585f813.webp"
 class="calibre228" alt="dvw2 1411" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-11.
 </span>Logging the contents of several very zoom-y events</h6>
@@ -20813,7 +20813,7 @@ data-type="xref">Figure 14-12</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoom-prop" class="figure">
 <img
-src="images/dd5b1464e38dd582a5370db7faf7cdc158ac29cba2019baecfba11c762291a78.png"
+src="images/dd5b1464e38dd582a5370db7faf7cdc158ac29cba2019baecfba11c762291a78.webp"
 class="calibre229" alt="dvw2 1412" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-12.
 </span>Exposing the sneakily hidden zoom transform values</h6>
@@ -20834,7 +20834,7 @@ same values.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoomtransform" class="figure">
 <img
-src="images/b8218b8129c230f3280399821a77c08118b675787bab136d17c5053842d9723e.png"
+src="images/b8218b8129c230f3280399821a77c08118b675787bab136d17c5053842d9723e.webp"
 class="calibre52" alt="dvw2 1413" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-13.
 </span>Transform values, retrieved two different ways</h6>
@@ -20941,7 +20941,7 @@ changes the default view.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoomymap" class="figure">
 <img
-src="images/403c3af8d6cc88fd388c4f9589a1ae9c162014e4a79c5030ecd06b8163e5d8ed.png"
+src="images/403c3af8d6cc88fd388c4f9589a1ae9c162014e4a79c5030ecd06b8163e5d8ed.webp"
 class="calibre230" alt="dvw2 1414" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-14.
 </span>The new, awe-inspiring default view</h6>
@@ -20956,7 +20956,7 @@ data-type="xref">Figure 14-15</a>). It’s so smooth!
 <figure class="calibre35">
 <div id="ch14.xhtml_mapny" class="figure">
 <img
-src="images/08820c4250063c3f5f81750caf16b3064510ea4c1d8c031132617e215d2276f7.png"
+src="images/08820c4250063c3f5f81750caf16b3064510ea4c1d8c031132617e215d2276f7.webp"
 class="calibre231" alt="dvw2 1415" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-15.
 </span>Special shout-out to all 8,550,405 residents of NYC</h6>
@@ -21016,7 +21016,7 @@ data-type="xref">Figure 14-16</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_zoomybuttons" class="figure">
 <img
-src="images/31f714314bae28b51c9b6f25493450bbca61fee4a192868482fa56d7a2bd831e.png"
+src="images/31f714314bae28b51c9b6f25493450bbca61fee4a192868482fa56d7a2bd831e.webp"
 class="calibre232" alt="dvw2 1416" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-16.
 </span>Map, now with zoom-ier buttons</h6>
@@ -21071,7 +21071,7 @@ data-type="xref">Figure 14-17</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_toofar" class="figure">
 <img
-src="images/a53903c59d80d7c41720e565b5a7d23c21ac8e0a83874526d86bfd3245b3e961.png"
+src="images/a53903c59d80d7c41720e565b5a7d23c21ac8e0a83874526d86bfd3245b3e961.webp"
 class="calibre148" alt="dvw2 1417" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-17.
 </span>If this doesn’t remind you of Powers of Ten, by Charles and Ray
@@ -21137,7 +21137,7 @@ data-type="xref">Figure 14-18</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_newbuttons" class="figure">
 <img
-src="images/06159bbb0215eb886db3a38b841ee338050d547d99b9ab5cd5643731535e21bc.png"
+src="images/06159bbb0215eb886db3a38b841ee338050d547d99b9ab5cd5643731535e21bc.webp"
 class="calibre233" alt="dvw2 1418" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-18.
 </span>Map with new preset buttons</h6>
@@ -21152,7 +21152,7 @@ data-type="xref">Figure 14-19</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_pnwclicked" class="figure">
 <img
-src="images/3dd3bc17028590f3440e2e40701a767f7f3f32b3888dc42a4025cbac231121c9.png"
+src="images/3dd3bc17028590f3440e2e40701a767f7f3f32b3888dc42a4025cbac231121c9.webp"
 class="calibre234" alt="dvw2 1419" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-19.
 </span>After clicking the “Pacific Northwest” button</h6>
@@ -21242,7 +21242,7 @@ choropleth fills.
 <figure class="calibre35">
 <div id="ch14.xhtml_maplabels" class="figure">
 <img
-src="images/1d457c2a2cb85474e4fe1cfa655ed11cfa36cbf9bc3697fb4489d732a314afdb.png"
+src="images/1d457c2a2cb85474e4fe1cfa655ed11cfa36cbf9bc3697fb4489d732a314afdb.webp"
 class="calibre235" alt="dvw2 1420" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-20.
 </span>Data values, labeled</h6>
@@ -21291,7 +21291,7 @@ data-type="xref">Figure 14-21</a> to see.
 <figure class="calibre35">
 <div id="ch14.xhtml_maplabelsse" class="figure">
 <img
-src="images/e5d8f76811a37312fff35b46340b61ba170e380c73bb50bb466aa7fd2839374a.png"
+src="images/e5d8f76811a37312fff35b46340b61ba170e380c73bb50bb466aa7fd2839374a.webp"
 class="calibre236" alt="dvw2 1421" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-21.
 </span>Exploring agricultural productivity values in the 2004
@@ -21883,7 +21883,7 @@ data-type="xref">Figure 14-22</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_oceans" class="figure">
 <img
-src="images/8ceafc1e19101bc9ee24ffbefec4694d147928ca80d4c6b9fafb545206c4d09e.png"
+src="images/8ceafc1e19101bc9ee24ffbefec4694d147928ca80d4c6b9fafb545206c4d09e.webp"
 class="calibre238" alt="dvw2 1422" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-22.
 </span>GeoJSON showing, um, the world’s oceans?</h6>
@@ -21931,7 +21931,7 @@ data-type="xref">Figure 14-23</a>.
 <figure class="calibre35">
 <div id="ch14.xhtml_oceans2" class="figure">
 <img
-src="images/1eed3a82f7c43d2780872e62650a4749388ee78a58be61cbe1953054fc3be144.png"
+src="images/1eed3a82f7c43d2780872e62650a4749388ee78a58be61cbe1953054fc3be144.webp"
 class="calibre239" alt="dvw2 1423" />
 <h6 class="calibre37"><span class="keep-together">Figure 14-23.
 </span>GeoJSON of the world’s oceans, now properly projected</h6>
@@ -22000,7 +22000,7 @@ data-type="xref">Figure 15-1</a> is a bitmap screenshot I made using
 <figure class="calibre35">
 <div id="ch15.xhtml_bitmap_export" class="figure">
 <img
-src="images/2481c17bbcc939793c5c93257fae42ecc68033ba0f808f2903bbc7f6460b58f4.png"
+src="images/2481c17bbcc939793c5c93257fae42ecc68033ba0f808f2903bbc7f6460b58f4.webp"
 class="calibre240" alt="dvw2 1501" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-1. </span>A
 PNG screenshot</h6>
@@ -22044,7 +22044,7 @@ data-type="xref">Figure 15-2</a>).
 <figure class="calibre35">
 <div id="ch15.xhtml_pdf_export" class="figure">
 <img
-src="images/56d633f5383b7926b48793201b9b0fa5f9b46af2c6306a3c5e5dfbf844b8d14f.png"
+src="images/56d633f5383b7926b48793201b9b0fa5f9b46af2c6306a3c5e5dfbf844b8d14f.webp"
 class="calibre241" alt="dvw2 1502" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-2. </span>A
 PDF maintains the original vector data for clarity</h6>
@@ -22106,7 +22106,7 @@ the element in the web inspector, and then click Copy.
 <figure class="calibre35">
 <div id="ch15.xhtml_copy_the_svg" class="figure">
 <img
-src="images/76c1864fe7b1966b120f9109e2dc106facdc46855085013666fd0cbb8f56ca8b.png"
+src="images/76c1864fe7b1966b120f9109e2dc106facdc46855085013666fd0cbb8f56ca8b.webp"
 class="calibre242" alt="dvw2 1503" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-3.
 </span>Copying the D3-generated SVG code from the DOM</h6>
@@ -22121,7 +22121,7 @@ data-type="xref">Figure 15-4</a>.
 <figure class="calibre35">
 <div id="ch15.xhtml_paste_the_svg" class="figure">
 <img
-src="images/ec5cc2e2eee48c7942e75c5886185ad9630e48d83cc903d9ebc8bab332a362d7.png"
+src="images/ec5cc2e2eee48c7942e75c5886185ad9630e48d83cc903d9ebc8bab332a362d7.webp"
 class="calibre243" alt="dvw2 1504" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-4.
 </span>SVG code pasted into a new document</h6>
@@ -22136,7 +22136,7 @@ data-type="xref">Figure 15-5</a>, or any other SVG-compatible program.
 <figure class="calibre35">
 <div id="ch15.xhtml_svg_in_sketch" class="figure">
 <img
-src="images/b2e53bdee5312b6e72ecc4b61b04bbe330d4d50c8382b896ca2db373e768c160.png"
+src="images/b2e53bdee5312b6e72ecc4b61b04bbe330d4d50c8382b896ca2db373e768c160.webp"
 class="calibre243" alt="dvw2 1505" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-5.
 </span>Exported SVG opened in Sketch</h6>
@@ -22151,7 +22151,7 @@ individually selectable and editable.
 <figure class="calibre35">
 <div id="ch15.xhtml_edit_the_svg" class="figure">
 <img
-src="images/497f72c524d14b2b7231966a9f7f0d996465b7b9a4681ee5a81a50de924971ac.png"
+src="images/497f72c524d14b2b7231966a9f7f0d996465b7b9a4681ee5a81a50de924971ac.webp"
 class="calibre243" alt="dvw2 1506" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-6.
 </span>One SVG element selected</h6>
@@ -22178,7 +22178,7 @@ this is a joke, and is the *opposite* of what I always say, which is
 <figure class="calibre35">
 <div id="ch15.xhtml_edited_svg" class="figure">
 <img
-src="images/43fc2573c1a3a7aa5f358ae17f136a56834bfb2f4e78072320059c0c8d443844.png"
+src="images/43fc2573c1a3a7aa5f358ae17f136a56834bfb2f4e78072320059c0c8d443844.webp"
 class="calibre243" alt="dvw2 1507" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-7.
 </span>Don’t try gradients at home</h6>
@@ -22268,7 +22268,7 @@ data-type="xref">Chapter 13</a>?
 <figure class="calibre35">
 <div id="ch16.xhtml_stacked_area_chart_from_earlier" class="figure">
 <img
-src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.png"
+src="images/4991021671214143e7a82ef74cb9f011962554f59aef6adfaad20bce72f8e6a4.webp"
 class="calibre214" alt="dvw2 1601" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-1.
 </span>Stacked area chart</h6>
@@ -22297,7 +22297,7 @@ full dataset in *vehicle_sales_data.csv*.
 <figure class="calibre35">
 <div id="ch16.xhtml_vehicles_data_set" class="figure">
 <img
-src="images/07e06fc026a41f42964a44d83646631a0231c6d207d9f4f88d269b1e41f99654.png"
+src="images/07e06fc026a41f42964a44d83646631a0231c6d207d9f4f88d269b1e41f99654.webp"
 class="calibre244" alt="dvw2 1602" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-2.
 </span>Our new dataset</h6>
@@ -22355,7 +22355,7 @@ data-type="xref">Figure 16-3</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_evehicles_data_set" class="figure">
 <img
-src="images/b40aef24667bec2b442e03e24899e5b64193bcd4f49039fdae0b1c513458091e.png"
+src="images/b40aef24667bec2b442e03e24899e5b64193bcd4f49039fdae0b1c513458091e.webp"
 class="calibre245" alt="dvw2 1603" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-3.
 </span>Our earlier, e-vehicle dataset</h6>
@@ -22575,7 +22575,7 @@ data-type="xref">Figure 16-4</a> here:
 <figure class="calibre35">
 <div id="ch16.xhtml_initial_chart" class="figure">
 <img
-src="images/d9e0a9e05584aa84d407982d3bac691702d57a35fcc4bd005967bac7b9975693.png"
+src="images/d9e0a9e05584aa84d407982d3bac691702d57a35fcc4bd005967bac7b9975693.webp"
 class="calibre246" alt="dvw2 1604" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-4.
 </span>The initial chart</h6>
@@ -22600,7 +22600,7 @@ data-type="xref">Figure 16-5</a>, I’ve set `w` to 1,400 pixels.
 <figure class="calibre35">
 <div id="ch16.xhtml_wide_chart" class="figure">
 <img
-src="images/15973bd9ab4e18fb80d34271613687a5179b3a7e40e2710a717f7fd17c8d373b.png"
+src="images/15973bd9ab4e18fb80d34271613687a5179b3a7e40e2710a717f7fd17c8d373b.webp"
 class="calibre247" alt="dvw2 1605" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-5.
 </span>The initial chart, widened to 1,400 pixels</h6>
@@ -22660,7 +22660,7 @@ data-type="xref">Figure 16-6</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_type_colors" class="figure">
 <img
-src="images/2dc6a7b7f4d23cdaf54904bd8edd5d12b944b7495beac374517d5dabdbce8136.png"
+src="images/2dc6a7b7f4d23cdaf54904bd8edd5d12b944b7495beac374517d5dabdbce8136.webp"
 class="calibre248" alt="dvw2 1606" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-6.
 </span>Vehicles, colored by type</h6>
@@ -22704,7 +22704,7 @@ data-type="xref">Figure 16-7</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_sorted_by_type" class="figure">
 <img
-src="images/3b400fce591e4e564c52cf8ffca8fd4307fc719bcf6519b112ca082aa2607ecc.png"
+src="images/3b400fce591e4e564c52cf8ffca8fd4307fc719bcf6519b112ca082aa2607ecc.webp"
 class="calibre249" alt="dvw2 1607" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-7.
 </span>Vehicles, sorted by type</h6>
@@ -22753,7 +22753,7 @@ data-type="xref">Figure 16-8</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_types_only" class="figure">
 <img
-src="images/8909c7b043a2de3751342b25da55e6dd047629f940388945b122897139289144.png"
+src="images/8909c7b043a2de3751342b25da55e6dd047629f940388945b122897139289144.webp"
 class="calibre250" alt="dvw2 1608" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-8.
 </span>Four areas, one for each of the four types</h6>
@@ -22808,7 +22808,7 @@ data-type="xref">Figure 16-9</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_transition_one" class="figure">
 <img
-src="images/d9d7ed4890217c8d4f4b69c08a9580408c60f373e1c707a23f04829179864316.png"
+src="images/d9d7ed4890217c8d4f4b69c08a9580408c60f373e1c707a23f04829179864316.webp"
 class="calibre251" alt="dvw2 1609" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-9.
 </span>After the first transition, the BEV area is visible, while the
@@ -22824,7 +22824,7 @@ data-type="xref">Figure 16-10</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_transition_two" class="figure">
 <img
-src="images/0c43ba382260774f980e0b0a80e805983fd545a0ca717dfa3616827ea8f890e6.png"
+src="images/0c43ba382260774f980e0b0a80e805983fd545a0ca717dfa3616827ea8f890e6.webp"
 class="calibre251" alt="dvw2 1610" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-10.
 </span>After the second transition, the BEV area has grown to fit the
@@ -22896,7 +22896,7 @@ data-type="xref">Figure 16-11</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_updated_y_axis" class="figure">
 <img
-src="images/1cd7579fc92da0b887d9990d75fed11b5b0332cc701e47a70832a6a0a23c6c0c.png"
+src="images/1cd7579fc92da0b887d9990d75fed11b5b0332cc701e47a70832a6a0a23c6c0c.webp"
 class="calibre252" alt="dvw2 1611" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-11.
 </span>Y-axis, transitioned</h6>
@@ -22930,7 +22930,7 @@ can’t see them.
 <figure class="calibre35">
 <div id="ch16.xhtml_hidden_vehicle_areas" class="figure">
 <img
-src="images/df9024bcc2aea406a67ea27a9cde4c766663b2bf984fce1e9258e41bd56ad0e5.png"
+src="images/df9024bcc2aea406a67ea27a9cde4c766663b2bf984fce1e9258e41bd56ad0e5.webp"
 class="calibre253" alt="dvw2 1612" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-12.
 </span>Hidden vehicle areas</h6>
@@ -22954,7 +22954,7 @@ data-type="xref">Figure 16-13</a> after we click the BEV category.
 <figure class="calibre35">
 <div id="ch16.xhtml_proper_transition" class="figure">
 <img
-src="images/22933e52374b8e89fd79f79a1e55aa6dc87aca1621405574ce450af0c82412a6.png"
+src="images/22933e52374b8e89fd79f79a1e55aa6dc87aca1621405574ce450af0c82412a6.webp"
 class="calibre254" alt="dvw2 1613" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-13. </span>A
 proper sequence of transitions, in which vehicle areas are visible at
@@ -23006,7 +23006,7 @@ resuming again a year later.
 <figure class="calibre35">
 <div id="ch16.xhtml_prius_phev" class="figure">
 <img
-src="images/58003a6161784a1fc5a071b54316f9305c4bb34d4f0084717e099897b8e5149e.png"
+src="images/58003a6161784a1fc5a071b54316f9305c4bb34d4f0084717e099897b8e5149e.webp"
 class="calibre255" alt="dvw2 1614" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-14.
 </span>The magical Prius plug-in sales disappearing act</h6>
@@ -23042,7 +23042,7 @@ data-type="xref">Figure 16-15</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_prius_phev_clicked" class="figure">
 <img
-src="images/fcc8f2f228c0c8a0b7749cf472ba73c7b25f580ce32415d4d9378165244748be.png"
+src="images/fcc8f2f228c0c8a0b7749cf472ba73c7b25f580ce32415d4d9378165244748be.webp"
 class="calibre256" alt="dvw2 1615" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-15.
 </span>The magical Prius plug-in sales disappearing act, standing alone
@@ -23198,7 +23198,7 @@ data-type="xref">Figure 16-16</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_back_button" class="figure">
 <img
-src="images/64c697e671dcf26864b4bb5da396f44caf6cf9e9d46d8086c6a9ae819f3258fe.png"
+src="images/64c697e671dcf26864b4bb5da396f44caf6cf9e9d46d8086c6a9ae819f3258fe.webp"
 class="calibre257" alt="dvw2 1616" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-16.
 </span>Looking at the traditional, HEV Prius—with back button!</h6>
@@ -23322,7 +23322,7 @@ data-type="xref">Figure 16-17</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_refined_style" class="figure">
 <img
-src="images/f092e0669149c9a73cf56d2a2a4fe56a2b8cec5e6b7e4e561d4f169223ebd5a8.png"
+src="images/f092e0669149c9a73cf56d2a2a4fe56a2b8cec5e6b7e4e561d4f169223ebd5a8.webp"
 class="calibre258" alt="dvw2 1617" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-17.
 </span>Dynamic text used for back button</h6>
@@ -23411,7 +23411,7 @@ data-type="xref">Figure 16-18</a>.
 <figure class="calibre35">
 <div id="ch16.xhtml_missed_target" class="figure">
 <img
-src="images/b0555cbe8c9d107acd9ce8bfccd3c183ab3f2ff66b7f36f25d4c1ba94cfe105e.png"
+src="images/b0555cbe8c9d107acd9ce8bfccd3c183ab3f2ff66b7f36f25d4c1ba94cfe105e.webp"
 class="calibre259" alt="dvw2 1618" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-18.
 </span>Oops, I dropped the chart</h6>
@@ -23429,7 +23429,7 @@ data-type="xref">Figure 16-19</a>).
 <figure class="calibre35">
 <div id="ch16.xhtml_hit_target" class="figure">
 <img
-src="images/b92f718f394bc39cbaf0c622442fd16670d96d2e53cf002e8ed9b4d372e68205.png"
+src="images/b92f718f394bc39cbaf0c622442fd16670d96d2e53cf002e8ed9b4d372e68205.webp"
 class="calibre259" alt="dvw2 1619" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-19.
 </span>SVG appended to #chartContainer, as intended</h6>
@@ -23502,7 +23502,7 @@ data-type="xref">Figure 16-20</a>. Explore the code in
 <figure class="calibre35">
 <div id="ch16.xhtml_final_ev_chart" class="figure">
 <img
-src="images/d79f23fa67ae22943ff2a075d8a5d2baa38b041e1f45c5de8864f077b67a16df.png"
+src="images/d79f23fa67ae22943ff2a075d8a5d2baa38b041e1f45c5de8864f077b67a16df.webp"
 class="calibre259" alt="dvw2 1620" />
 <h6 class="calibre37"><span class="keep-together">Figure 16-20.
 </span>Our final electric-drive vehicle chart (and page!)</h6>
@@ -23623,7 +23623,7 @@ pdf-bookmark="“Close Votes”">
 <figure class="calibre35">
 <div id="app01.xhtml_cv_default" class="figure">
 <img
-src="images/3ff5836c10a2b06f3775f4767e3692230a90a612bc080d1a3855c653262d363b.png"
+src="images/3ff5836c10a2b06f3775f4767e3692230a90a612bc080d1a3855c653262d363b.webp"
 class="calibre260" alt="dvw2 aa01" />
 <h6 class="calibre37"><span class="keep-together">Figure A-1. </span>The
 initial view of “Close Votes”</h6>
@@ -23661,7 +23661,7 @@ impact, if people are still talking about it.
 <figure class="calibre35">
 <div id="app01.xhtml_cv_urk" class="figure">
 <img
-src="images/f2b580b8965b5ee37c142423fc7607a1e53e2d8481b1e0e33b562ef24c42b708.png"
+src="images/f2b580b8965b5ee37c142423fc7607a1e53e2d8481b1e0e33b562ef24c42b708.webp"
 class="calibre261" alt="dvw2 aa02" />
 <h6 class="calibre37"><span class="keep-together">Figure A-2.
 </span>Similarity of Urk’s voting as compared to all other cities</h6>
@@ -23756,7 +23756,7 @@ around.
 <figure class="calibre35">
 <div id="app01.xhtml_cv_pop" class="figure">
 <img
-src="images/ef69971634e5a22c3225fd59f38bf5193546a7468f17020f22a23e7e27fa0ffc.png"
+src="images/ef69971634e5a22c3225fd59f38bf5193546a7468f17020f22a23e7e27fa0ffc.webp"
 class="calibre260" alt="dvw2 aa03" />
 <h6 class="calibre37"><span class="keep-together">Figure A-3.
 </span>Circles sized by population, organized radially by
@@ -23888,7 +23888,7 @@ pdf-bookmark="“What Size Am I?”">
 <figure class="calibre35">
 <div id="app01.xhtml_wsai_initial" class="figure">
 <img
-src="images/bb578a413b93b9fba66f91c68886ce6679d31088fea95dc3c24984c7c2aee742.png"
+src="images/bb578a413b93b9fba66f91c68886ce6679d31088fea95dc3c24984c7c2aee742.webp"
 class="calibre263" alt="dvw2 aa04" />
 <h6 class="calibre37"><span class="keep-together">Figure A-4. </span>The
 initial view of “What Size Am I?”</h6>
@@ -23931,7 +23931,7 @@ online shopping where you can’t try clothes on.
 <figure class="calibre35">
 <div id="app01.xhtml_wsai_asos" class="figure">
 <img
-src="images/684b26843cd90404daad63ac88d354c446979efa76d7f60a402b34d1d7ced30f.png"
+src="images/684b26843cd90404daad63ac88d354c446979efa76d7f60a402b34d1d7ced30f.webp"
 class="calibre264" alt="dvw2 aa05" />
 <h6 class="calibre37"><span class="keep-together">Figure A-5.
 </span>Showing bust, waist, and hip measurements for the wide range of
@@ -23997,7 +23997,7 @@ make it better on mobile.
 <figure class="calibre35">
 <div id="app01.xhtml_wsai_gap" class="figure">
 <img
-src="images/54849843222923fa4e81464d821b91d9806d6292f7044984d5395a64fef7bec2.png"
+src="images/54849843222923fa4e81464d821b91d9806d6292f7044984d5395a64fef7bec2.webp"
 class="calibre265" alt="dvw2 aa06" />
 <h6 class="calibre37"><span class="keep-together">Figure A-6.
 </span>Showing a comparatively narrow range of bust, waist, and hip
@@ -24103,7 +24103,7 @@ pdf-bookmark="“Explained Visually” Series">
 <figure class="calibre35">
 <div id="app01.xhtml_ev_initial" class="figure">
 <img
-src="images/a77e9a7dc0bb15e3d933a1f52bfe1d57149b0018a79d94ec539cd51982709d37.png"
+src="images/a77e9a7dc0bb15e3d933a1f52bfe1d57149b0018a79d94ec539cd51982709d37.webp"
 class="calibre266" alt="dvw2 aa07" />
 <h6 class="calibre37"><span class="keep-together">Figure A-7. </span>The
 “Explained Visually” series home</h6>
@@ -24159,7 +24159,7 @@ entirely by insulting each other.
 <figure class="calibre35">
 <div id="app01.xhtml_ev_exp_1" class="figure">
 <img
-src="images/5ec00b28c7a8f8fec319f6014a40981b86e91143063e08442d4a03a07b5e9020.png"
+src="images/5ec00b28c7a8f8fec319f6014a40981b86e91143063e08442d4a03a07b5e9020.webp"
 class="calibre267" alt="dvw2 aa08" />
 <h6 class="calibre37"><span class="keep-together">Figure A-8. </span>One
 view of the interactive explanation on “Exponentiation”</h6>
@@ -24248,7 +24248,7 @@ other of us, even if both of us worked on the ideas.
 <figure class="calibre35">
 <div id="app01.xhtml_ev_exp_2" class="figure">
 <img
-src="images/0b3e28d395642315f8d005080ccdf7efa4cdb8f71013c1a1e229a6818148a4b8.png"
+src="images/0b3e28d395642315f8d005080ccdf7efa4cdb8f71013c1a1e229a6818148a4b8.webp"
 class="calibre268" alt="dvw2 aa09" />
 <h6 class="calibre37"><span class="keep-together">Figure A-9. </span>One
 of several interactive graphics in “Eigenvectors and Eigenvalues”</h6>
@@ -24331,7 +24331,7 @@ pdf-bookmark="“Workers’ Comp Benefits: How Much Is a Limb Worth?”">
 <figure class="calibre35">
 <div id="app01.xhtml_wcb_initial" class="figure">
 <img
-src="images/580917093aa5512a0af0ebbfe2ed4743c0b18ac2b62a083881a58d612707a61d.png"
+src="images/580917093aa5512a0af0ebbfe2ed4743c0b18ac2b62a083881a58d612707a61d.webp"
 class="calibre269" alt="dvw2 aa10" />
 <h6 class="calibre37"><span class="keep-together">Figure A-10.
 </span>The initial view of “Workers’ Comp Benefits: How Much Is a Limb
@@ -24413,7 +24413,7 @@ hand, you gotta move on.
 <figure class="calibre35">
 <div id="app01.xhtml_wcb_pinky" class="figure">
 <img
-src="images/80402e679772e1ed28604c58a2da6a32b779e984fbca3eb64fd7eecec90093c1.png"
+src="images/80402e679772e1ed28604c58a2da6a32b779e984fbca3eb64fd7eecec90093c1.webp"
 class="calibre270" alt="dvw2 aa11" />
 <h6 class="calibre37"><span class="keep-together">Figure A-11.
 </span>Oregon values pinky fingers more highly than any other
@@ -24530,7 +24530,7 @@ from Gawker</a>.
 <figure class="calibre35">
 <div id="app01.xhtml_wcb_al_leg" class="figure">
 <img
-src="images/47b78a8fc548d8eb97ef1e37114193dea6f38d4c220edd2816db9b0b95b8702b.png"
+src="images/47b78a8fc548d8eb97ef1e37114193dea6f38d4c220edd2816db9b0b95b8702b.webp"
 class="calibre271" alt="dvw2 aa12" />
 <h6 class="calibre37"><span class="keep-together">Figure A-12.
 </span>Alabama compensates workers less for lost legs than any other
@@ -24608,7 +24608,7 @@ pdf-bookmark="“Farmers’ Markets” Series">
 <figure class="calibre35">
 <div id="app01.xhtml_fm_initial" class="figure">
 <img
-src="images/74a596fb500654664a008f2b7bd426e63a426c4b064d1aeff3e43606e42de38b.png"
+src="images/74a596fb500654664a008f2b7bd426e63a426c4b064d1aeff3e43606e42de38b.webp"
 class="calibre272" alt="dvw2 aa13" />
 <h6 class="calibre37"><span class="keep-together">Figure A-13.
 </span>Small multiples map illustrating availability of goods at
@@ -24670,7 +24670,7 @@ most striking comparison to be maple with seafood.
 <figure class="calibre35">
 <div id="app01.xhtml_fm_map" class="figure">
 <img
-src="images/ede3832a08d5d2352fb0d5d5d25c7de4e8c8b93f2d760643eb04c88786694965.png"
+src="images/ede3832a08d5d2352fb0d5d5d25c7de4e8c8b93f2d760643eb04c88786694965.webp"
 class="calibre273" alt="dvw2 aa14" />
 <h6 class="calibre37"><span class="keep-together">Figure A-14.
 </span>Goods availability map with area plots representing totals by
@@ -24702,7 +24702,7 @@ calls your attention to its most definable parts.
 <figure class="calibre35">
 <div id="app01.xhtml_fm_kmeans" class="figure">
 <img
-src="images/c23a95f2b4be29ca57dccf791b7a1e8ed0875716496659b48e1851e15d9102e2.png"
+src="images/c23a95f2b4be29ca57dccf791b7a1e8ed0875716496659b48e1851e15d9102e2.webp"
 class="calibre274" alt="dvw2 aa15" />
 <h6 class="calibre37"><span class="keep-together">Figure A-15.
 </span>K-means clustering for farmers’ market goods</h6>
@@ -24804,7 +24804,7 @@ pdf-bookmark="“Weather Circles”">
 <figure class="calibre35">
 <div id="app01.xhtml_wc_home" class="figure">
 <img
-src="images/ed49887a6dd5f16b8cf860be951a4b9316cd39f91247a1d976ec8e20c9870480.png"
+src="images/ed49887a6dd5f16b8cf860be951a4b9316cd39f91247a1d976ec8e20c9870480.webp"
 class="calibre275" alt="dvw2 aa15a" />
 <h6 class="calibre37"><span class="keep-together">Figure A-16.
 </span>The default view of “Weather Circles”</h6>
@@ -24927,7 +24927,7 @@ up the glass and the max a circle closer to the rim.
 <figure class="calibre35">
 <div id="app01.xhtml_wc_scale" class="figure">
 <img
-src="images/6807a9f2388d356ec8081ffe45900345b19a3442b57d5a326a18b5a9c6302d26.png"
+src="images/6807a9f2388d356ec8081ffe45900345b19a3442b57d5a326a18b5a9c6302d26.webp"
 class="calibre276" alt="dvw2 aa15b" />
 <h6 class="calibre37"><span class="keep-together">Figure A-17.
 </span>Mousing over reveals a scale guide</h6>
@@ -24966,7 +24966,7 @@ much more to explore!
 <figure class="calibre35">
 <div id="app01.xhtml_wc_sffog" class="figure">
 <img
-src="images/f4060b4a8d8048c471275c36e1133ab38e47ed043b350788c6aa13d4b28321b1.png"
+src="images/f4060b4a8d8048c471275c36e1133ab38e47ed043b350788c6aa13d4b28321b1.webp"
 class="calibre277" alt="dvw2 aa15c" />
 <h6 class="calibre37"><span class="keep-together">Figure A-18.
 </span>Months of peak fog in San Francisco—note how it’s “cloudiest” in
@@ -25152,7 +25152,7 @@ pdf-bookmark="“Data Sketches” Series">
 <figure class="calibre35">
 <div id="app01.xhtml_ds_home" class="figure">
 <img
-src="images/9d6f1d8074e9352bc2bec61ca9f296e80d272f5ab05efaeff86fa87708a5ebf2.png"
+src="images/9d6f1d8074e9352bc2bec61ca9f296e80d272f5ab05efaeff86fa87708a5ebf2.webp"
 class="calibre278" alt="dvw2 aa16" />
 <h6 class="calibre37"><span class="keep-together">Figure A-19.
 </span>Just three months’ worth of projects from the “Data Sketches”
@@ -25228,7 +25228,7 @@ meaningful to them too.
 <figure class="calibre35">
 <div id="app01.xhtml_ds_process" class="figure">
 <img
-src="images/8e03ade4f1579264b24566607d936f79fdc73658a7186d1c9bf62674dee01c2d.png"
+src="images/8e03ade4f1579264b24566607d936f79fdc73658a7186d1c9bf62674dee01c2d.webp"
 class="calibre279" alt="dvw2 aa17" />
 <h6 class="calibre37"><span class="keep-together">Figure A-20. </span>An
 excerpt of process notes from October 2016, “Presidents &amp;
@@ -25294,7 +25294,7 @@ February will use HTML5 canvas.
 <figure class="calibre35">
 <div id="app01.xhtml_ds_nadieh" class="figure">
 <img
-src="images/50706e6d3c1db1445bdcec0538b7293204e06f5fe5c180964603f698eddbfc28.png"
+src="images/50706e6d3c1db1445bdcec0538b7293204e06f5fe5c180964603f698eddbfc28.webp"
 class="calibre280" alt="dvw2 aa18" />
 <h6 class="calibre37"><span class="keep-together">Figure A-21.
 </span>Still image from Nadieh’s February “Nature” sketch</h6>
@@ -25367,7 +25367,7 @@ collaborate with each other on things like our upcoming talks about
 <figure class="calibre35">
 <div id="app01.xhtml_ds_shirley" class="figure">
 <img
-src="images/0e375ab46937d35178c50f4d9614b8c07e9879287bb3cdfad9423db29ca3bc38.png"
+src="images/0e375ab46937d35178c50f4d9614b8c07e9879287bb3cdfad9423db29ca3bc38.webp"
 class="calibre281" alt="dvw2 aa19" />
 <h6 class="calibre37"><span class="keep-together">Figure A-22.
 </span>Excerpt from Shirley’s August “Olympics” sketch</h6>
@@ -26176,7 +26176,7 @@ data-type="xref">Figure C-1</a>).
 <figure class="calibre35">
 <div id="app03.xhtml_d3_gallery" class="figure">
 <img
-src="images/bc3a0141c4f9ad964a9a92c10d84d363c1f0c40b5c3e545eabc9f280d89027ac.png"
+src="images/bc3a0141c4f9ad964a9a92c10d84d363c1f0c40b5c3e545eabc9f280d89027ac.webp"
 class="calibre282" alt="dvw2 ac01" />
 <h6 class="calibre37"><span class="keep-together">Figure C-1.
 </span>Christophe Viau’s searchable D3.js Gallery</h6>
@@ -26372,7 +26372,7 @@ data-type="xref">Figure D-1</a>.
 <figure class="calibre35">
 <div id="app04.xhtml_blocks_homepage" class="figure">
 <img
-src="images/7ccf8070b98d68a692112cbd43223fa043caaaa637647e1b8538f43da0024791.png"
+src="images/7ccf8070b98d68a692112cbd43223fa043caaaa637647e1b8538f43da0024791.webp"
 class="calibre283" alt="The bl.ocks.org home page" />
 <h6 class="calibre37"><span class="keep-together">Figure D-1. </span>The
 bl.ocks.org home page</h6>
@@ -26393,7 +26393,7 @@ data-type="xref">Figure D-2</a>.
 <figure class="calibre35">
 <div id="app04.xhtml_mbostocks_blocks" class="figure">
 <img
-src="images/ad57849ebe56e5fb2ec8f36d65f88ef300895e03810d44275bdcdf9761b6720b.png"
+src="images/ad57849ebe56e5fb2ec8f36d65f88ef300895e03810d44275bdcdf9761b6720b.webp"
 class="calibre284" alt="Mike Bostock’s personal blocks page" />
 <h6 class="calibre37"><span class="keep-together">Figure D-2.
 </span>Mike Bostock’s personal blocks page</h6>
@@ -26411,7 +26411,7 @@ class="calibre5 pcalibre pcalibre2 pcalibre3 pcalibre1">my blocks</a>.
 <figure class="calibre35">
 <div id="app04.xhtml_fadetofront" class="figure">
 <img
-src="images/4633bfeedcf660ab384318ffaf556c971b9c6ebd28b038e671f8b3e64554341c.png"
+src="images/4633bfeedcf660ab384318ffaf556c971b9c6ebd28b038e671f8b3e64554341c.webp"
 class="calibre285" alt="A block, magestically titled Fade to Front" />
 <h6 class="calibre37"><span class="keep-together">Figure D-3. </span>A
 block, majestically titled “Fade to Front”</h6>
@@ -26433,7 +26433,7 @@ for my block</a>.
 <figure class="calibre35">
 <div id="app04.xhtml_fadetofront_source" class="figure">
 <img
-src="images/a267f073663ccb2ce0ea4f3b6d9111383e965777c39e3361f19c4bf76e5a00eb.png"
+src="images/a267f073663ccb2ce0ea4f3b6d9111383e965777c39e3361f19c4bf76e5a00eb.webp"
 class="calibre286" alt="The gist source code for Fade to Front" />
 <h6 class="calibre37"><span class="keep-together">Figure D-4. </span>The
 gist source code for “Fade to Front”</h6>
@@ -26526,7 +26526,7 @@ Optionally:
   class="calibre5 pcalibre pcalibre2 pcalibre3 pcalibre1">Markdown</a>-formatted
   file.
 
-- Include a 230 × 120 pixel PNG image named *thumbnail.png*, and that
+- Include a 230 × 120 pixel PNG image named *thumbnail.webp*, and that
   image will appear on your personal blocks page.
 
 </div>
@@ -26558,7 +26558,7 @@ data-type="xref">Figure D-5</a>.
 <figure class="calibre35">
 <div id="app04.xhtml_new_gist_page" class="figure">
 <img
-src="images/f7d64a77b5716caa06d86cb4d581a6a60bbf542353ea74a42e9ede68fa842550.png"
+src="images/f7d64a77b5716caa06d86cb4d581a6a60bbf542353ea74a42e9ede68fa842550.webp"
 class="calibre287" alt="Ready to make a new gist" />
 <h6 class="calibre37"><span class="keep-together">Figure D-5.
 </span>Ready to make a new gist</h6>
@@ -26614,7 +26614,7 @@ data-type="xref">Figure D-6</a> shows my gist as it normally appears.
 <figure class="calibre35">
 <div id="app04.xhtml_gist_without_extension" class="figure">
 <img
-src="images/f9ec507c50f767198f0055fcba03aec598a896e7af0875cc02615b9f6cf69222.png"
+src="images/f9ec507c50f767198f0055fcba03aec598a896e7af0875cc02615b9f6cf69222.webp"
 class="calibre288" alt="The normal appearance of a gist page" />
 <h6 class="calibre37"><span class="keep-together">Figure D-6. </span>The
 normal appearance of a gist page</h6>
@@ -26629,7 +26629,7 @@ installed.
 <figure class="calibre35">
 <div id="app04.xhtml_gist_with_extension_1" class="figure">
 <img
-src="images/5851c1db6cc980adfae8892f283a734472a75f786bb0541fc4e53f2b639a7ad3.png"
+src="images/5851c1db6cc980adfae8892f283a734472a75f786bb0541fc4e53f2b639a7ad3.webp"
 class="calibre289"
 alt="My gist page after installing the blocks browser extension" />
 <h6 class="calibre37"><span class="keep-together">Figure D-7. </span>My
@@ -26645,7 +26645,7 @@ data-type="xref">Figure D-8</a>.)
 <figure class="calibre35">
 <div id="app04.xhtml_gist_with_extension_2" class="figure">
 <img
-src="images/c68283281acd9e42335b930f29f363b04b0357bae9f1e847bf1d532c2787a924.png"
+src="images/c68283281acd9e42335b930f29f363b04b0357bae9f1e847bf1d532c2787a924.webp"
 class="calibre290"
 alt="Highlighting the subtle shortcut added by the blocks browser extension" />
 <h6 class="calibre37"><span class="keep-together">Figure D-8.
@@ -26690,7 +26690,7 @@ data-type="xref">Figure D-9</a>.
 <figure class="calibre35">
 <div id="app04.xhtml_gist_revisions" class="figure">
 <img
-src="images/ffac496091a9d98787bd28f0e7891fe5a4cb3589e8e6dbf125a0fda7ea3f044a.png"
+src="images/ffac496091a9d98787bd28f0e7891fe5a4cb3589e8e6dbf125a0fda7ea3f044a.webp"
 class="calibre291" alt="Revision history of a gist" />
 <h6 class="calibre37"><span class="keep-together">Figure D-9.
 </span>Revision history of a gist</h6>
@@ -26772,7 +26772,7 @@ data-type="xref">Figure D-10</a>.
 <figure class="calibre35">
 <div id="app04.xhtml_blockbuilder" class="figure">
 <img
-src="images/b1646886989b9bd66db88b456d8a22d6bf208362c0d7efb3c23d7d00e4436089.png"
+src="images/b1646886989b9bd66db88b456d8a22d6bf208362c0d7efb3c23d7d00e4436089.webp"
 class="calibre292" alt="dvw2 ad10" />
 <h6 class="calibre37"><span class="keep-together">Figure D-10. </span>My
 block, as viewed on Bl.ock Builder</h6>

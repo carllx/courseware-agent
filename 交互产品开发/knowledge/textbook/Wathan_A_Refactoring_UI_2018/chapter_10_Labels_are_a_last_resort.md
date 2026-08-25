@@ -24,9 +24,9 @@ phrase
 *“Customer Support”* listed below someone’s name in an employee
 directory,
 
-![](images/index-49_1.png)
+![](images/index-49_1.webp)
 
-![](images/index-49_2.png)
+![](images/index-49_2.webp)
 
 49
 
@@ -48,7 +48,7 @@ For example, if you need to display inventory in an e-commerce
 interface, instead of “In stock: 12”, try something like “12 left in
 stock”.
 
-![](images/index-50_1.png)
+![](images/index-50_1.webp)
 
 Labels are a last resort
 
@@ -67,9 +67,9 @@ Sometimes you really *do* need a label; for example when you’re
 displaying multiple pieces of similar data and they need to be easily
 scannable, like on a dashboard.
 
-![](images/index-51_1.png)
+![](images/index-51_1.webp)
 
-![](images/index-51_2.png)
+![](images/index-51_2.webp)
 
 51
 
@@ -105,5 +105,5 @@ slightly lighter color for the value is often enough.
 
 Labels are a last resort
 
-![](images/index-54_1.png)
+![](images/index-54_1.webp)
 

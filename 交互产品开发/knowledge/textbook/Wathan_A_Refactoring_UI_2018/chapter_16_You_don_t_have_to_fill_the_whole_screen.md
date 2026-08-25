@@ -13,9 +13,9 @@ If you only need 600px, use 600px. Spreading things out or making things
 unnecessarily wide just makes an interface harder to interpret, while a
 little extra space around the edges never hurt anyone.
 
-![](images/index-77_1.png)
+![](images/index-77_1.webp)
 
-![](images/index-77_2.png)
+![](images/index-77_2.webp)
 
 77
 
@@ -25,7 +25,7 @@ This is just as applicable to individual sections of an interface, too.
 You don’t need to make *everything* full-width just because something
 else (like your navigation) is full-width.
 
-![](images/index-78_1.png)
+![](images/index-78_1.webp)
 
 You don’t have to fill the whole screen
 
@@ -43,7 +43,7 @@ something small when the constraints are real.
 If you’re building a responsive web application, try starting with a
 ~400px canvas and designing the mobile layout first.
 
-![](images/index-79_1.png)
+![](images/index-79_1.webp)
 
 79
 
@@ -59,7 +59,7 @@ If you’re designing something that works best at a narrower width but
 feels unbalanced in the context of an otherwise wide UI, see if you can
 split it into columns instead of just making it wider.
 
-![](images/index-80_1.png)
+![](images/index-80_1.webp)
 
 You don’t have to fill the whole screen
 
@@ -67,7 +67,7 @@ You don’t have to fill the whole screen
 
 For example, take this narrow form layout:
 
-![](images/index-81_1.png)
+![](images/index-81_1.webp)
 
 81
 
@@ -94,5 +94,5 @@ it if you don’t have to.
 
 You don’t have to fill the whole screen
 
-![](images/index-84_1.png)
+![](images/index-84_1.webp)
 

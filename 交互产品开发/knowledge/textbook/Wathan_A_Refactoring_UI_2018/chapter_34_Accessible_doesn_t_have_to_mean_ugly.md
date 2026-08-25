@@ -9,9 +9,9 @@ For typical *dark-text-on-a-light-background* situations, meeting this
 recommendation is pretty easy, but it gets a lot trickier when you start
 working with color.
 
-![](images/index-163_1.png)
+![](images/index-163_1.webp)
 
-![](images/index-163_2.png)
+![](images/index-163_2.webp)
 
 163
 
@@ -26,7 +26,7 @@ This can create hierarchy issues when those elements aren’t supposed to
 be the focus of the page — dark colored backgrounds will really grab the
 user’s attention.
 
-![](images/index-164_1.png)
+![](images/index-164_1.webp)
 
 Accessible doesn’t have to mean ugly
 
@@ -51,9 +51,9 @@ If you start by taking the background color and simply adjusting the
 lightness and saturation, you’ll find that it’s hard to meet the
 recommended contrast ratio without getting very close to pure white.
 
-![](images/index-165_1.png)
+![](images/index-165_1.webp)
 
-![](images/index-165_2.png)
+![](images/index-165_2.webp)
 
 165
 
@@ -69,5 +69,5 @@ a brighter color, like cyan, magenta, or yellow.
 This can make it a lot easier to make the text accessible while still
 keeping it colorful.
 
-![](images/index-166_1.png)
+![](images/index-166_1.webp)
 

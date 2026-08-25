@@ -29,7 +29,7 @@ description: 修改指导文档/规范/配置后，审计下游影响并同步�
 | **A: course.yaml 结构变更** | `course.yaml` 的 `objectives`/`calendar`/`experiments`/`assessment_methods` | → §A |
 | **B: 脚本格式规范变更** | `script_format/SKILL.md`、`rule_narrative_standards.md`、标签白名单 | → §B |
 | **C: ADR / 全局规则变更** | `.agent/rules/rule_*.md`、`ADR.md` | → §C |
-| **D: 验证器/生成器代码变更** | `validation_suite/scripts/*.py`、`engines/*.js`、`engines/*.py`、`engines/h5_template/` | → §D |
+| **D: 验证器/生成器代码变更** | `scripts/validation/*.py`、`engines/*.js`、`engines/*.py`、`engines/h5_template/` | → §D |
 | **E: 通用文档修改** | `README.md`、`INDEX.md`、`docs/`、skill 文档 | → §E |
 | **F: 跨项目 Schema/Spec 同步** | `course_schema.py`、`Spec_*.md`、`Data_Dictionary.md` 等教务端源文件 | → §F |
 
@@ -100,7 +100,7 @@ grep_search "<变更关键词>" --path .agent/ --includes "*.md,*.py,*.js"
    - `workflows/*.md` → 更新工作流步骤描述
    - `rules/rule_*.md` → 检查规则间是否冲突
    - `skills/*/SKILL.md` → 更新技能文档
-   - `validation_suite/scripts/*.py` → 更新校验逻辑
+   - `scripts/validation/*.py` → 更新校验逻辑
 3. **一致性验证**：确保新 ADR 的约束在所有引用处被正确反映
 
 ### §D: 验证器/生成器代码变更
@@ -158,7 +158,7 @@ grep_search "<变更关键词>" --path .agent/ --includes "*.md,*.py,*.js"
 ```bash
 # 自动化校验（推荐，替代手动 grep）
 /opt/anaconda3/envs/mybase/bin/python \
-  .agent/skills/validation_suite/scripts/validate_practice.py --all
+  .agent/scripts/validation/validate_practice.py --all
 
 # G6: extract_week.py 跨课程同步检查
 diff .agent/templates/extract_week.py 交互产品开发/extract_week.py

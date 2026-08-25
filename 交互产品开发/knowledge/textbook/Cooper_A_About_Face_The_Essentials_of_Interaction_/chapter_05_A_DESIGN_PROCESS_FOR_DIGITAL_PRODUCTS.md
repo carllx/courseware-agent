@@ -29,7 +29,7 @@ Digital products often blame users for making mistakes that are not their fault,
 
 Digital products and software frequently interrogate users, peppering them with a string of terse questions that they are neither inclined nor prepared to answer: "Where did you hide that file?" Patronizing questions like "Are you sure?" and "Did you really want to delete that file, or did you have some other reason for pressing the Delete key?" are equally irritating and demeaning.
 
-![](images/7e30bd159ca19146479d3de32c84682dfed049fe55207d0d64ef996329ca8689.jpg)  
+![](images/7e30bd159ca19146479d3de32c84682dfed049fe55207d0d64ef996329ca8689.webp)  
 Figure 1-1: Thanks for sharing. Why didn't the application notify the library? Why did it want to notify the library? Why is it telling us? And what are we OKing, anyway? It is not OK that the application failed!
 
 Our software-enabled products also fail to act with a basic level of decency. They forget information we tell them and don't do a very good job of anticipating our needs. Even the iPhone—generally the baseline for good user experience on a digital device—doesn't anticipate that someone might not want to be pestered with a random phone call when he is in the middle of a business meeting that is sitting right there in the iPhone's own calendar. Why can't it quietly put a call that isn't from a family member into voicemail?
@@ -81,13 +81,13 @@ Thus, the people who are most often responsible for creating our digital product
 
 The results of poor product vision are, unfortunately, digital products that irritate rather than please, reduce rather than increase productivity, and fail to meet user needs. Figure 1-2 shows the evolution of the development process and where, if at all, design has historically fit in. Most of digital product development is stuck in the first, second, or third step of this evolution, where design either plays no real role or becomes a surface-level patch on shoddy interactions—"lipstick on the pig," as one of our clients called it. The core activities in the design process, as we will soon discuss, should precede coding and testing to ensure that products truly meet users' needs.
 
-![](images/350174abed6c788aebd1cc9859fe7320d9780d0f525525c87e393ad429767ace.jpg)
+![](images/350174abed6c788aebd1cc9859fe7320d9780d0f525525c87e393ad429767ace.webp)
 
-![](images/791a91964307e96669ffb9c7ffeedb898d1d6973e8b11a7dfa2b9ad374f83d1d.jpg)
+![](images/791a91964307e96669ffb9c7ffeedb898d1d6973e8b11a7dfa2b9ad374f83d1d.webp)
 
-![](images/109da4acf2b88b9dfe41d9e44d3744111be27d3c214aad39a1494ecd2f4b6e66.jpg)
+![](images/109da4acf2b88b9dfe41d9e44d3744111be27d3c214aad39a1494ecd2f4b6e66.webp)
 
-![](images/94c61bf94c2b9bb0422fb32a6edc5779813cfe6c384a2dc4f297e10210f48cc6.jpg)  
+![](images/94c61bf94c2b9bb0422fb32a6edc5779813cfe6c384a2dc4f297e10210f48cc6.webp)  
 Figure 1-2: The evolution of the software development process. The first diagram depicts the early days of the software industry, when smart developers dreamed up products and then built and tested them. Inevitably, professional managers were brought in to help facilitate the process by translating market opportunities into product requirements. As depicted in the third diagram, the industry matured, and testing became a discipline in its own right. With the popularization of the graphical user interface (GUI), graphic designers were brought in to create icons and other visual elements. The final diagram shows the Goal-Directed approach to software development, where decisions about a product's capabilities, form, and behavior are made before the expensive and challenging construction phase.
 
 # Ignorance about real users
@@ -134,7 +134,7 @@ The traditions of design that corporations have relied on to provide the critica
 
 Interaction design isn't merely a matter of aesthetic choice; rather, it is based on an understanding of users and cognitive principles. This is good news, because it makes the design of behavior quite amenable to a repeatable process of analysis and synthesis. It doesn't mean that the design of behavior can be automated, any more than the design of form or content can be automated, but it does mean that a systematic approach is possible. Rules of form and aesthetics mustn't be discarded, of course. They must work in harmony with the larger concern of achieving user goals via appropriately designed behaviors.
 
-![](images/4a607ea81a0cdfe328400ad23ad1cb294ea07cf1b825431675461f2589487378.jpg)  
+![](images/4a607ea81a0cdfe328400ad23ad1cb294ea07cf1b825431675461f2589487378.webp)  
 Figure 1-3: Building successful digital products. Three major processes need to be followed in tandem to create successful technology products. This book addresses the first and foremost issue: how to create a product people will desire.
 
 You can apply this to companies that have struggled to find the balance:
@@ -238,15 +238,15 @@ In the world of software, an application's represented model can (and often shou
 
 The closer the represented model comes to the user's mental model, the easier he will find the application to use and understand. Generally, offering a represented model that follows the implementation model too closely significantly reduces the user's ability to learn and use the application. This occurs because the user's mental model of his tasks usually differs from the software's implementation model.
 
-![](images/211d638b69e8cf59a63a7f9fe2c3c7afe0c5f894561d22488cebd6bd3b29ccfb.jpg)  
+![](images/211d638b69e8cf59a63a7f9fe2c3c7afe0c5f894561d22488cebd6bd3b29ccfb.webp)  
 Implementation Model reflects technology
 
-![](images/edd0cec31508d94e8157e309d3c32d5b6e06e7db778e8ad61c8d71dd8535a171.jpg)
+![](images/edd0cec31508d94e8157e309d3c32d5b6e06e7db778e8ad61c8d71dd8535a171.webp)
 
-![](images/300f8af06d39b5ff3addb91513232304bdb60f0b46117461cf60e6d1d6029c2a.jpg)  
+![](images/300f8af06d39b5ff3addb91513232304bdb60f0b46117461cf60e6d1d6029c2a.webp)  
 worse
 
-![](images/99d6f5c2aaa5bec053116ba9bc28ccdaa3b0d09f0e8bd5cfb58921bb3cd0fc09.jpg)  
+![](images/99d6f5c2aaa5bec053116ba9bc28ccdaa3b0d09f0e8bd5cfb58921bb3cd0fc09.webp)  
 Mental Model   
 reflects user's vision   
 Figure 1-4: A comparison of the implementation model, mental model, and represented model. The way engineers must build software is often a given, dictated by various technical and business constraints. The model for how the software actually works is called the implementation model. The way users perceive the jobs they need to do and how the application helps them do so is their mental model of interaction with the software. It is based on their own ideas of how they do their jobs and how computers might work. The way designers choose to represent the working of the application to the user is called the represented model. Unlike the other two models, it is an aspect of software over which designers have great control. One of the designer's most important goals should be to make the represented model match a user's mental model as closely as possible. Therefore, it is critical that designers understand in detail how their target users think about the work they do with the software.

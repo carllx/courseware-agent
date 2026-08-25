@@ -1,6 +1,6 @@
 # Chapter 5. Box 1: Business Problem
 
-![](images/assets/lux3_0501.png)
+![](images/assets/lux3_0501.webp)
 
 ###### Figure 5-1. Box 1 of the Lean UX Canvas: Business Problem
 

@@ -8,9 +8,9 @@ As a general rule, you should trust the typeface designer and leave
 letter-spacing alone. That said, there are a couple of common situations
 where adjusting it can improve your designs.
 
-![](images/index-133_1.png)
+![](images/index-133_1.webp)
 
-![](images/index-133_2.png)
+![](images/index-133_2.webp)
 
 133
 
@@ -33,9 +33,9 @@ Avoid trying to make this work the other way around though — headline
 fonts rarely work well at small sizes even if you increase the letter
 spacing.
 
-![](images/index-134_1.png)
+![](images/index-134_1.webp)
 
-![](images/index-134_2.png)
+![](images/index-134_2.webp)
 
 Use letter-spacing effectively
 

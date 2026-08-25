@@ -27,7 +27,7 @@
 *(三维的体积标记也有可能，但极少被使用。)*
 
 > 图 5.2：标记是几何图元。
-> ![](images/2c40271ff1f1c92ebd6568da369fbcbd922bbb30ada3054703006029a94217a9.jpg)
+> ![](images/2c40271ff1f1c92ebd6568da369fbcbd922bbb30ada3054703006029a94217a9.webp)
 
 **维度二：网络功能分类（个体 vs 关系）**
 在数据集中，标记不仅可以代表独立的**节点 (Items/Nodes)**，也可以代表节点之间的**链接 (Links)**。
@@ -37,8 +37,8 @@
 *(注：链接绝对不能用点来表示，尽管个体项目可以用点表示。)*
 
 > 图 5.5：标记既可以代表个体项目，也可以代表它们之间的链接。
-> ![](images/babd6e741e41a1ce4685aeaf1d3f33f1d06fec897a9cc5f189a0cf6f340fbf61.jpg) ![](images/f857c3342b35cd500e9341c0a2e27b651618967f906bd65dd7618f610039f87f.jpg) ![](images/7f30e9b3fd5a2d2adac9ea087c3f4d65da94205312d593727d5cd87fd73ecd88.jpg) ![](images/d63fe2643bdc1e5dcadfbc33a40add3a9d42a38b0ebdc7804266bf60ca548706.jpg)
-> ![](images/5b223557ed77bc119805da4af06c50648eebdecafc03f5aa597fb3f8582fe79b.jpg) ![](images/264407726afd96d74ba4affc9b27faa062a2161d1cbc415c50ce1aad306bc266.jpg)
+> ![](images/babd6e741e41a1ce4685aeaf1d3f33f1d06fec897a9cc5f189a0cf6f340fbf61.webp) ![](images/f857c3342b35cd500e9341c0a2e27b651618967f906bd65dd7618f610039f87f.webp) ![](images/7f30e9b3fd5a2d2adac9ea087c3f4d65da94205312d593727d5cd87fd73ecd88.webp) ![](images/d63fe2643bdc1e5dcadfbc33a40add3a9d42a38b0ebdc7804266bf60ca548706.webp)
+> ![](images/5b223557ed77bc119805da4af06c50648eebdecafc03f5aa597fb3f8582fe79b.webp) ![](images/264407726afd96d74ba4affc9b27faa062a2161d1cbc415c50ce1aad306bc266.webp)
 
 ### 5.2.2 认识通道（Channels）的全部面貌
 
@@ -51,7 +51,7 @@
 *   **其他**：角度 (Angle/Tilt)、曲率 (Curvature)、形状 (Shape) 以及 运动模式 (Motion)。
 
 > 图 5.3：视觉通道控制标记的外观。
-> ![](images/568e79888e730882f63bf26ccc18c1e052f55091222396393ebf8f431d683832.jpg)
+> ![](images/568e79888e730882f63bf26ccc18c1e052f55091222396393ebf8f431d683832.webp)
 
 **维度二：两大认知阵营（核心）**
 人类的感知系统将通道分为两种根本不同的感官模态：
@@ -67,10 +67,10 @@
 *   (d) **添加尺寸**：给点标记挂载大小面积（量化通道），编码第四个定量属性。
 
 > 图 5.4：使用标记与通道。
-> ![](images/aba3ee7af994a2cbbcde0924d7178df37f884bffaf48042a0376238ffc329590.jpg) (a)
-> ![](images/3207c641e960a185bc75c15010c65379ee6179cbe33f8c13a8cb40f1968480e0.jpg) (b)
-> ![](images/59c8a506f2f036770dd5119e758322753527bbc7dd6940b64ad84c27c0ea95d6.jpg) (c)
-> ![](images/66313be5c94f811d69eefae78e9614302429953104143e91daef1c1db2b57af6.jpg) (d)
+> ![](images/aba3ee7af994a2cbbcde0924d7178df37f884bffaf48042a0376238ffc329590.webp) (a)
+> ![](images/3207c641e960a185bc75c15010c65379ee6179cbe33f8c13a8cb40f1968480e0.webp) (b)
+> ![](images/59c8a506f2f036770dd5119e758322753527bbc7dd6940b64ad84c27c0ea95d6.webp) (c)
+> ![](images/66313be5c94f811d69eefae78e9614302429953104143e91daef1c1db2b57af6.webp) (d)
 
 **⚠️ 组合约束警告**：通道不能随意挂载到所有标记上。例如，面 (Area) 标记的形状和面积本身就被约束用于表示物理轮廓，因此无法再用尺寸通道来编码额外属性。线标记已被其长度占据了一个维度，但可以通过变粗（宽度）来附加额外属性。只有点标记 (0D) 是完全不受几何约束的，可以挂载形状和面积变化。
 
@@ -108,9 +108,9 @@
 > **注**：空间位置通道 (Spatial position) 在两类榜单中均拔得头筹，而且是**唯一**对两类数据都最有效的通道。这意味着你把什么数据映射给空间位置（如 X 轴和 Y 轴），将绝对主导观众对数据的心理模型。
 
 > 图 5.1/5.6：基于数据和通道类型的效能排名榜单。
-> ![](images/ba68902f44c8e7e18ddcbe9a8ef1cc59c2e5f0989cc8a207876eb87e3da630da.jpg)
-> ![](images/ad11dc1d074326491524d6514855f882b4037bca83327b949cdf384f29025a6f.jpg)
-> ![](images/4d63d0f515d6bc48f32064ad73d83707e77268cab095484d614394310021acef.jpg)
+> ![](images/ba68902f44c8e7e18ddcbe9a8ef1cc59c2e5f0989cc8a207876eb87e3da630da.webp)
+> ![](images/ad11dc1d074326491524d6514855f882b4037bca83327b949cdf384f29025a6f.webp)
+> ![](images/4d63d0f515d6bc48f32064ad73d83707e77268cab095484d614394310021acef.webp)
 
 ---
 
@@ -124,19 +124,19 @@ Stevens 的心理物理学幂定律表明，人类对不同视觉通道的感知
 如图 5.7，**长度感知是完美的线性 ($n=1.0$)**，我们能非常精准地判断线的长度差。但**面积感知会受到心理压缩 ($n=0.7$)**，这意味着一个面积实际上是 2 倍的圆，在人眼看来往往达不到 2 倍大。而**颜色饱和度则会被放大 ($n=1.7$)**。
 
 > 图 5.7：Stevens 心理物理学幂定律
-> ![](images/b3119f251df7f330a73f93086d2a3b9987404fbb68e789e1999a3d26e4e12e7f.jpg)
+> ![](images/b3119f251df7f330a73f93086d2a3b9987404fbb68e789e1999a3d26e4e12e7f.webp)
 
 Cleveland 和 McGill 的经典实验及 Heer 的现代复刻实验（图 5.8）同样证明了量化通道存在着断崖式的误差率分布：对齐位置的误差率最低，而面积、颜色的误差率极高。
 
 > 图 5.8：跨视觉通道的感知误差率。
-> ![](images/57bd524df99ed0d693646b5daa39794faaff6f2cb63a58699b70a40f24fb0f92.jpg)
+> ![](images/57bd524df99ed0d693646b5daa39794faaff6f2cb63a58699b70a40f24fb0f92.webp)
 
 ### 5.4.2 可辨识性 (Discriminability)
 
 即使通道很有效，它可能包含的“可分辨阶梯数 (Bins)”也很有限。例如（图 5.9），利用线宽 (Linewidth) 来区分数据时，人眼最多只能辨认 3 到 4 种不同的粗细。如果你强行把几百个连续数字映射给线宽，这个通道就会失效。
 
 > 图 5.9：线宽只有非常有限的可用感知区间。
-> ![](images/1638bcd12b65e49ae0a1386fea202f5369c7a8c2740cdf28b878277c78bcfa62.jpg)
+> ![](images/1638bcd12b65e49ae0a1386fea202f5369c7a8c2740cdf28b878277c78bcfa62.webp)
 
 ### 5.4.3 可分离性 (Separability)
 
@@ -147,7 +147,7 @@ Cleveland 和 McGill 的经典实验及 Heer 的现代复刻实验（图 5.8）�
 *   **极端不可分离**：红光 + 绿光。人类只会看到黄色，无法逆推回红绿各多少。
 
 > 图 5.10：视觉通道的可分离性连续体。
-> ![](images/9db2d16e02f22a05bd251e27ed5d07637330e0b032c76811a656eee828fbb369.jpg)
+> ![](images/9db2d16e02f22a05bd251e27ed5d07637330e0b032c76811a656eee828fbb369.webp)
 
 ### 5.4.4 视觉弹出 (Popout)
 
@@ -156,17 +156,17 @@ Cleveland 和 McGill 的经典实验及 Heer 的现代复刻实验（图 5.8）�
 **重点警告**：弹出效应通常只能在**单一通道**中生效。如图 5.11 (f)，如果你要求观众寻找一个“红色的圆”（组合了颜色和形状两个通道），弹出效应失效，大脑被迫进行逐个扫描搜索 (Serial search)，耗时将随干扰项数量线性增加。
 
 > 图 5.11：视觉弹出。
-> ![](images/8907137bc803689791357c5f88b7c421f36f65bfb77d81081a8aecd0f0833107.jpg) (a)
-> ![](images/aa089bd51b56121c3e01292360f633b4e3fc690305d0f01d0c3ab0ff88c9d98d.jpg) (b)
-> ![](images/e85d5fd3909ebddee46e591384178133e57ea3deecc25a1b6a31f70eb6c729d9.jpg) (c)
-> ![](images/755aee6cbb4655414c2812bae7db6bcdb3e41ad7bb47586e10d247cb2a340619.jpg) (d)
-> ![](images/37fca9242bbec853684dc7dc65c6e955d0755502c3de539ffb97dbb8f377ad6d.jpg) (e)
-> ![](images/404e062e1b81b67c30e699c21eff023d8c0143c45244e66b543cb6c4f00e32c1.jpg) (f)
+> ![](images/8907137bc803689791357c5f88b7c421f36f65bfb77d81081a8aecd0f0833107.webp) (a)
+> ![](images/aa089bd51b56121c3e01292360f633b4e3fc690305d0f01d0c3ab0ff88c9d98d.webp) (b)
+> ![](images/e85d5fd3909ebddee46e591384178133e57ea3deecc25a1b6a31f70eb6c729d9.webp) (c)
+> ![](images/755aee6cbb4655414c2812bae7db6bcdb3e41ad7bb47586e10d247cb2a340619.webp) (d)
+> ![](images/37fca9242bbec853684dc7dc65c6e955d0755502c3de539ffb97dbb8f377ad6d.webp) (e)
+> ![](images/404e062e1b81b67c30e699c21eff023d8c0143c45244e66b543cb6c4f00e32c1.webp) (f)
 
 除了颜色和形状，倾斜角度、大小、空间接近度以及阴影方向都支持弹出效应（图 5.12）。需要注意的是，图 5.12(f) 展示了一个反例：平行线对 (Parallelism) 不能从微小倾斜的线对中弹出，必须通过逐个扫描才能发现。
 
 > 图 5.12：支持视觉弹出的各种通道。
-> ![](images/be41c98ab22c653f36feaa346f144d98cc06ca6dce5385a4fe0f5990c979ad93.jpg) ![](images/7122811b101b8111e6237cf3667abc98c663b5f5c5231615d58acdbf5e71f6a0.jpg) ![](images/88a8e2cbe01bb79b1cfa6d4a1f3c7a888d84bfb15f1f4ffc9c294f52274e0977.jpg) ![](images/cb5a040d5ca29c648746a1df03a45a4d8313096381d63f35b0247113dcf985cd.jpg) ![](images/aaf194f001b94dab7eec49840cd05a4ca5821a8325294c0772ac1b8c5a354ba0.jpg) ![](images/c90741fb775cd0b1a8e92f3cd41f3e8644fd39dbab16cead0def4c33c02e549e.jpg)
+> ![](images/be41c98ab22c653f36feaa346f144d98cc06ca6dce5385a4fe0f5990c979ad93.webp) ![](images/7122811b101b8111e6237cf3667abc98c663b5f5c5231615d58acdbf5e71f6a0.webp) ![](images/88a8e2cbe01bb79b1cfa6d4a1f3c7a888d84bfb15f1f4ffc9c294f52274e0977.webp) ![](images/cb5a040d5ca29c648746a1df03a45a4d8313096381d63f35b0247113dcf985cd.webp) ![](images/aaf194f001b94dab7eec49840cd05a4ca5821a8325294c0772ac1b8c5a354ba0.webp) ![](images/c90741fb775cd0b1a8e92f3cd41f3e8644fd39dbab16cead0def4c33c02e549e.webp)
 
 ### 5.4.5 分组 (Grouping)
 
@@ -186,14 +186,14 @@ Cleveland 和 McGill 的经典实验及 Heer 的现代复刻实验（图 5.8）�
 *   **色彩的相对性错觉**：我们的亮度和颜色感知完全受限于上下文。图 5.14 显示了 A 和 B 两个方块其实亮度完全相同。图 5.15 显示了在不同光照暗示下，完全相同颜色的色块会被大脑脑补成橙色或紫色（色彩恒常性）。这警告我们：在使用颜色通道编码信息时，务必小心周围环境的干扰。
 
 > 图 5.13：相对判断。对齐或加边框让对比更容易。
-> ![](images/ed98a00b69726917e02a7f04068918f0a6ef232a4db74b60de3f4459011f67fe.jpg)
-> ![](images/8763e47180d8beee12c9e2770981a40584bee0d86cbf218c4649313c3cc1c73b.jpg)
-> ![](images/3fea15c478553ac7e4b346812f81bacdd93ed2a99a0d4f2ebe28cf07d2cb0189.jpg)
+> ![](images/ed98a00b69726917e02a7f04068918f0a6ef232a4db74b60de3f4459011f67fe.webp)
+> ![](images/8763e47180d8beee12c9e2770981a40584bee0d86cbf218c4649313c3cc1c73b.webp)
+> ![](images/3fea15c478553ac7e4b346812f81bacdd93ed2a99a0d4f2ebe28cf07d2cb0189.webp)
 
 > 图 5.14：亮度的感知是相对的，图 A 和图 B 的方块实际颜色完全一致。
-> ![](images/f53bdd6e778b4f3d7325482e984d957f39c76926af9668d0d75db3a2ffe6b994.jpg)
-> ![](images/f79e934778462b9ab7e6cbfa417abf1e6979ad14e62f37c456ebc0e73f141699.jpg)
+> ![](images/f53bdd6e778b4f3d7325482e984d957f39c76926af9668d0d75db3a2ffe6b994.webp)
+> ![](images/f79e934778462b9ab7e6cbfa417abf1e6979ad14e62f37c456ebc0e73f141699.webp)
 
 > 图 5.15：颜色感知的上下文依赖。
-> ![](images/eb1d429eca8b7cb533e5116ec9227340625b424b182e032b506ed8ca0ca40df6.jpg)
-> ![](images/383242a1d940967786df199ccc3893807d39f9ced3881110704b1cb1a74b50ec.jpg)
+> ![](images/eb1d429eca8b7cb533e5116ec9227340625b424b182e032b506ed8ca0ca40df6.webp)
+> ![](images/383242a1d940967786df199ccc3893807d39f9ced3881110704b1cb1a74b50ec.webp)

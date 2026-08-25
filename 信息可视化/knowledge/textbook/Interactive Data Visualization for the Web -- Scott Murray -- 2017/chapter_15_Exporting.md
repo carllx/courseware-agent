@@ -36,7 +36,7 @@ data-type="xref">Figure 15-1</a> is a bitmap screenshot I made using
 <figure class="calibre35">
 <div id="ch15.xhtml_bitmap_export" class="figure">
 <img
-src="images/2481c17bbcc939793c5c93257fae42ecc68033ba0f808f2903bbc7f6460b58f4.png"
+src="images/2481c17bbcc939793c5c93257fae42ecc68033ba0f808f2903bbc7f6460b58f4.webp"
 class="calibre240" alt="dvw2 1501" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-1. </span>A
 PNG screenshot</h6>
@@ -80,7 +80,7 @@ data-type="xref">Figure 15-2</a>).
 <figure class="calibre35">
 <div id="ch15.xhtml_pdf_export" class="figure">
 <img
-src="images/56d633f5383b7926b48793201b9b0fa5f9b46af2c6306a3c5e5dfbf844b8d14f.png"
+src="images/56d633f5383b7926b48793201b9b0fa5f9b46af2c6306a3c5e5dfbf844b8d14f.webp"
 class="calibre241" alt="dvw2 1502" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-2. </span>A
 PDF maintains the original vector data for clarity</h6>
@@ -142,7 +142,7 @@ the element in the web inspector, and then click Copy.
 <figure class="calibre35">
 <div id="ch15.xhtml_copy_the_svg" class="figure">
 <img
-src="images/76c1864fe7b1966b120f9109e2dc106facdc46855085013666fd0cbb8f56ca8b.png"
+src="images/76c1864fe7b1966b120f9109e2dc106facdc46855085013666fd0cbb8f56ca8b.webp"
 class="calibre242" alt="dvw2 1503" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-3.
 </span>Copying the D3-generated SVG code from the DOM</h6>
@@ -157,7 +157,7 @@ data-type="xref">Figure 15-4</a>.
 <figure class="calibre35">
 <div id="ch15.xhtml_paste_the_svg" class="figure">
 <img
-src="images/ec5cc2e2eee48c7942e75c5886185ad9630e48d83cc903d9ebc8bab332a362d7.png"
+src="images/ec5cc2e2eee48c7942e75c5886185ad9630e48d83cc903d9ebc8bab332a362d7.webp"
 class="calibre243" alt="dvw2 1504" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-4.
 </span>SVG code pasted into a new document</h6>
@@ -172,7 +172,7 @@ data-type="xref">Figure 15-5</a>, or any other SVG-compatible program.
 <figure class="calibre35">
 <div id="ch15.xhtml_svg_in_sketch" class="figure">
 <img
-src="images/b2e53bdee5312b6e72ecc4b61b04bbe330d4d50c8382b896ca2db373e768c160.png"
+src="images/b2e53bdee5312b6e72ecc4b61b04bbe330d4d50c8382b896ca2db373e768c160.webp"
 class="calibre243" alt="dvw2 1505" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-5.
 </span>Exported SVG opened in Sketch</h6>
@@ -187,7 +187,7 @@ individually selectable and editable.
 <figure class="calibre35">
 <div id="ch15.xhtml_edit_the_svg" class="figure">
 <img
-src="images/497f72c524d14b2b7231966a9f7f0d996465b7b9a4681ee5a81a50de924971ac.png"
+src="images/497f72c524d14b2b7231966a9f7f0d996465b7b9a4681ee5a81a50de924971ac.webp"
 class="calibre243" alt="dvw2 1506" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-6.
 </span>One SVG element selected</h6>
@@ -214,7 +214,7 @@ this is a joke, and is the *opposite* of what I always say, which is
 <figure class="calibre35">
 <div id="ch15.xhtml_edited_svg" class="figure">
 <img
-src="images/43fc2573c1a3a7aa5f358ae17f136a56834bfb2f4e78072320059c0c8d443844.png"
+src="images/43fc2573c1a3a7aa5f358ae17f136a56834bfb2f4e78072320059c0c8d443844.webp"
 class="calibre243" alt="dvw2 1507" />
 <h6 class="calibre37"><span class="keep-together">Figure 15-7.
 </span>Don’t try gradients at home</h6>

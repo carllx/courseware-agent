@@ -172,14 +172,14 @@ elements or groups of elements should be made judiciously, and always to achieve
 - Align within a set of controls—A related group of check boxes, radio buttons, or text fields should be aligned according to a regular grid.   
 - Align across control groups and panes—Groups of controls and other screen elements should all follow the same grid wherever possible.
 
-![](images/69221f6d0af6cb48ec3111bf71c67c94024e9234189172562451270de4644893.jpg)  
+![](images/69221f6d0af6cb48ec3111bf71c67c94024e9234189172562451270de4644893.webp)  
 Figure 17-1: Adobe Lightroom makes very effective use of alignment to a layout grid. Text, controls, and control groups are all tightly aligned, with a consistent atomic spacing grid. It should be noted that the right alignment of controls and control group labels may compromise scanability.
 
 A grid system is one of the most powerful tools available to the visual designer. Popularized by Swiss typographers in the years after World War II, a grid provides a uniform and consistent structure to layout, which is particularly important when you're designing an interface with several levels of visual or functional complexity. After interaction designers have defined the overall framework for the application and its user interface elements (as discussed in Chapter 5), visual interface designers should help regularize the layout into a grid structure. It should emphasize top-level elements and structures and provide room for lower-level or less-important controls.
 
 Typically, the grid divides the screen into several large horizontal and vertical regions, as shown in Figure 17-2. A well-designed grid employs an atomic grid unit that represents the smallest spacing between elements. For example, if your atomic unit is 4 pixels, spacing between screen elements and groups will all be in multiples of 4 pixels.
 
-![](images/a1a632ffc500ad65e55d7638aa9e9022a2515bbce28ca83dc2cff0fc4d780dac.jpg)  
+![](images/a1a632ffc500ad65e55d7638aa9e9022a2515bbce28ca83dc2cff0fc4d780dac.webp)  
 Figure 17-2: This sample layout grid prescribes the size and position of the various screen areas employed by a website. This grid ensures regularity across different screens. It also reduces the amount of work that a designer must do to lay out the screens and the work that the user must do to read and understand the screens.
 
 Ideally, a grid should also have consistent relationships between different-sized screen areas. These relationships typically are expressed as ratios. Here are three commonly used ratios:
@@ -213,9 +213,9 @@ No logical path
 
 Everything is all over the place
 
-![](images/b8652826175429efc90a7b0deefc1ed16af9b26d5ff791c87445969215c1afe7.jpg)
+![](images/b8652826175429efc90a7b0deefc1ed16af9b26d5ff791c87445969215c1afe7.webp)
 
-![](images/f10a7fa58654da60e23bd544d4149c9ba9ad2a7bc14b9272c079f63ec9bff2d2.jpg)  
+![](images/f10a7fa58654da60e23bd544d4149c9ba9ad2a7bc14b9272c079f63ec9bff2d2.webp)  
 Figure 17-3: Eye movement across an interface should form a logical path that enables users to efficiently and effectively accomplish goals and tasks.
 
 # Balance the interface elements
@@ -276,7 +276,7 @@ Instead of using words alone to describe the results of interface functions (or,
 
 Microsoft Word's Print Preview view, shown in Figure 17-4, shows what a printed document will look like with the current paper size and margin settings. Many users have trouble visualizing what a 1.2-inch left margin looks like; the Preview control shows them. Microsoft could go one better by allowing direct input on the Preview control in addition to output, allowing users to drag the picture's left margin and watch the numeric value in the corresponding spinner ratchet up and down. The associated text field is still important—you can't just replace it with the visual one. The text shows the precise values of the settings, whereas the visual control accurately portrays the look of the resulting page.
 
-![](images/680930985108c3348e44d1bc0f3a00c0febca641369e4fd0a7119aa284bf754c.jpg)  
+![](images/680930985108c3348e44d1bc0f3a00c0febca641369e4fd0a7119aa284bf754c.webp)  
 Figure 17-4: Microsoft Word Print Preview is a good example of a visual expression of application functionality. Rather than requiring users to visualize what a 1.2-inch margin might look like, this function allows the user to easily understand the ramifications of different settings.
 
 # Respond to commands

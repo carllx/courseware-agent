@@ -1,0 +1,10 @@
+week: 1
+topic: 毕业设计档案归档指南
+title: 毕业设计档案归档指南
+description: 本模块详细梳理了26届毕业设计档案归档的全流程，帮助师生避开填报雷区，规范归档要求。
+theory_hours: 2
+practice_hours: 0
+status: ready
+segments:
+  - id: M01
+    src: src/M16_毕业设计档案归档全流程指南.md

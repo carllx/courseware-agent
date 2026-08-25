@@ -50,7 +50,7 @@ VALID_ACTIVITY_TYPES = {"Practice", "QA", "Quiz", "Demo", "Discussion", "Worksho
 ## 上下文引用（收件方必读）
 
 - **触发源**：W01 审计报告（`audit_W01.md`）
-- **白名单定义**：[script_parser.py L84](file:///Users/yamlam/Downloads/2025-2026-2%20课程/.agent/skills/validation_suite/scripts/script_parser.py#L84)
+- **白名单定义**：[script_parser.py L84](file:///Users/yamlam/Downloads/2025-2026-2%20课程/.agent/scripts/core/script_parser.py#L84)
 - **相关课程**：交互产品开发（`course.yaml`），以及工作区内其他课程
 - **关键 ADR**：无直接相关 ADR
 
@@ -163,9 +163,9 @@ VALID_ACTIVITY_TYPES = {"Practice", "QA", "Quiz", "Demo", "Discussion", "Worksho
 | 路径 | 是否受影响 | 说明 |
 |:-----|:----------:|:-----|
 | `skills/script_format/SKILL.md` | ✅ 需修改 | L134 Activity Type 字段补齐 `QA` / `Demo` / `Warm-up` |
-| `skills/validation_suite/scripts/script_parser.py` | ⬜ 不改 | `VALID_ACTIVITY_TYPES` 维持 7 种 |
-| `skills/validation_suite/scripts/validate_spec.py` | ⬜ 不改 | 引用 `script_parser.py` 白名单，无变动 |
-| `skills/validation_suite/scripts/validate_script_length.py` | ⬜ 不改 | 时长估算逻辑天然兼容 |
+| `scripts/core/script_parser.py` | ⬜ 不改 | `VALID_ACTIVITY_TYPES` 维持 7 种 |
+| `scripts/core/validate_spec.py` | ⬜ 不改 | 引用 `script_parser.py` 白名单，无变动 |
+| `scripts/validation/validate_script_length.py` | ⬜ 不改 | 时长估算逻辑天然兼容 |
 | `workflows/write.md` | ⬜ 不改 | 未引用 Activity Type 枚举 |
 | `workflows/audit.md` | ⬜ 不改 | 审计规则引用 `script_format/SKILL.md`，自动继承更新 |
 | `rules/*` | ⬜ 不改 | 全部规则文件未引用 Homework 或 Activity Type |

@@ -6,7 +6,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-26
 > **Layout**: `Center`
-> **Asset**: ![预览](../public/slides/w03-slide-26.png)
+> **Asset**: ![预览](../public/slides/w03-slide-26.webp)
 > **Scene**: 高度黑暗的背景上，一个红色的锋利箭头，精准地刺穿了一张写满模糊抱怨字眼的废纸
 > **Text**: 问题陈述 (Problem Statement)：把同理心转化为系统需求
 
@@ -22,7 +22,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-27
 > **Layout**: `Grid`
-> **Asset**: ![预览](../public/slides/w03-slide-27.png)
+> **Asset**: ![预览](../public/slides/w03-slide-27.webp)
 > **Scene**: 像化学方程式一样严密卡扣的三个巨大拼接公式块，正在发出金属碰撞的火花
 > **Text**: [高度具象的目标用户] 非常需要 [去完成某个动词任务] ，因为 [我们挖掘出了一条非常犀利的底层阻力/内心动机]
 > **List**: 1️⃣ [高度具象的目标用户] | 2️⃣ 非常需要 [动词任务] | 3️⃣ 因为 [底层阻力/动机]
@@ -33,7 +33,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-25b
 > **Layout**: Title
-> **Asset**: ![预览](../public/slides/w03-slide-25b.png)
+> **Asset**: ![预览](../public/slides/w03-slide-25b.webp)
 > **Scene**: 在一个仅有一盏昏暗路灯的漆黑小巷中，微光与周围浓重的黑暗形成对比，隐喻表层需求与深层安全感的差异
 > **Text**: "用户需要一个更亮的灯" vs "用户需要感受到安全"
 
@@ -42,7 +42,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-30_garage_story
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-30_garage_story.png)
+> **Asset**: ![预览](../public/slides/w03-slide-30_garage_story.webp)
 > **Scene**: 屏幕上打出巨大的 POV 填空题，对应小美深夜在车库翻找钥匙的恐惧
 > **Text**: 用 POV 公式套用深夜车库场景
 
@@ -56,7 +56,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-30_bad_example
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-30_bad_example.png)
+> **Asset**: ![预览](../public/slides/w03-slide-30_bad_example.webp)
 > **Scene**: 坐在豪华办公室里写着"做个大按钮"的冷漠需求文档，与车库里极度恐惧急需安全感的女性形成刺眼对比
 > **Text**: 正确的废话解决不了生存恐惧
 
@@ -66,7 +66,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-30_jtbd_master
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-30_jtbd_master.png)
+> **Asset**: ![预览](../public/slides/w03-slide-30_jtbd_master.webp)
 > **Scene**: 工程师看着一份带有绝望情境描述的需求文档，脑海中浮现出安全护盾的设计图
 > **Text**: 跨部门号召力：把现象翻译成带体温的需求
 
@@ -77,7 +77,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-28
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-28.png)
+> **Asset**: ![预览](../public/slides/w03-slide-28.webp)
 > **Scene**: 左侧是汽车仪表盘上正在疯狂跳动的实时时速表和油门深度（先导）；右侧是用黑色相框非常讽刺地裱起来的、上个月由于超速而寄到你家的违章全景罚单照片（滞后）
 > **Text**: 滞后 = 尸检报告 vs 先导 = 实时方向盘
 > **List**: 滞后指标 (Lagging): 验证结果的法医尸检报告 | 先导指标 (Leading): 预判生死翻车的实时方向盘
@@ -87,7 +87,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-26b
 > **Layout**: Center
-> **Asset**: ![预览](../public/slides/w03-slide-26b.png)
+> **Asset**: ![预览](../public/slides/w03-slide-26b.webp)
 > **Scene**: 打车软件的界面进化图，从简单的叫车按钮到复杂的安全共享中心
 > **Text**: 从 Problem Statement 到最终产品形态的跳跃
 
@@ -109,7 +109,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-34_leading_indicators
 > **Layout**: Split
-> **Asset**: ![预览](../public/slides/w03-slide-34_leading_indicators.png)
+> **Asset**: ![预览](../public/slides/w03-slide-34_leading_indicators.webp)
 > **Scene**: 左侧是代表"死亡判决"的滞后营收数据，右侧是代表"预警雷达"的早期用户行为测试
 > **Text**: 生存法则：寻找预判翻车的先导雷达
 > **List**: 滞后指标 (Lagging): 看到即死亡 (如销量、利润) | 先导指标 (Leading): 预判趋势的早期雷达 (如原型点击率)
@@ -123,7 +123,7 @@
 > [VISUAL]
 > **Slide**: w03-slide-29
 > **Layout**: `Comparison`
-> **Asset**: ![预览](../public/slides/w03-slide-29.png)
+> **Asset**: ![预览](../public/slides/w03-slide-29.webp)
 > **Scene**: 打车场景指标对比。上方悬挂着"年度营收曲线"（滞后）；下方显示着一个倒计时秒表"平均每次上车前在车外徘徊犹豫秒数"（先导）
 > **Text**: 放弃宏大叙事，用微观行为预判宏观结果
 > **List**: 滞后指标 (Lagging): 验证结果的法医尸检报告 | 先导指标 (Leading): 预判生死翻车的实时方向盘

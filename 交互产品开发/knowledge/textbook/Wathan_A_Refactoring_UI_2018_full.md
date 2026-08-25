@@ -1,4 +1,4 @@
-![](images/index-1_1.png)
+![](images/index-1_1.webp)
 
 **Contents**
 
@@ -169,7 +169,7 @@
 
 **Starting from Scratch**
 
-![](images/index-8_1.png)
+![](images/index-8_1.webp)
 
 **Start with a feature, not a layout**
 
@@ -194,7 +194,7 @@ you’ve designed a few features, you don’t even have the information you
 need to make a decision about how the navigation should work. No wonder
 it’s frustrating!
 
-![](images/index-9_1.png)
+![](images/index-9_1.webp)
 
 9
 
@@ -220,7 +220,7 @@ Your interface will need:
 
 Start with that.
 
-![](images/index-10_1.png)
+![](images/index-10_1.webp)
 
 Start with a feature, not a layout
 
@@ -233,7 +233,7 @@ Google.
 
 Start with a feature, not a layout
 
-![](images/index-12_1.png)
+![](images/index-12_1.webp)
 
 **Detail comes later**
 
@@ -256,9 +256,9 @@ can be a great way to quickly explore a bunch of different layout ideas.
 Even when you’re ready to refine an idea in higher fidelity, resist the
 temptation to introduce color right away.
 
-![](images/index-13_1.png)
+![](images/index-13_1.webp)
 
-![](images/index-13_2.png)
+![](images/index-13_2.webp)
 
 13
 
@@ -288,7 +288,7 @@ when you’ve made a decision.
 
 Detail comes later
 
-![](images/index-16_1.png)
+![](images/index-16_1.webp)
 
 **Don’t design too much**
 
@@ -305,7 +305,7 @@ every edge case should look is really hard, especially in the abstract.
 *How should this calendar look when there are two events scheduled at
 the* *same time?*
 
-![](images/index-17_1.png)
+![](images/index-17_1.webp)
 
 17
 
@@ -329,9 +329,9 @@ advance.
 Iterate on the working design until there are no more problems left to
 solve,
 
-![](images/index-18_1.png)
+![](images/index-18_1.webp)
 
-![](images/index-18_2.png)
+![](images/index-18_2.webp)
 
 Don’t design too much
 
@@ -353,7 +353,7 @@ management tool. You know that one day, you’d like users to be able to
 attach files to their comments, so you include an attachments section in
 your design.
 
-![](images/index-19_1.png)
+![](images/index-19_1.webp)
 
 19
 
@@ -377,7 +377,7 @@ considerably.
 If part of a feature is a “nice-to-have”, **design it later**. Build the
 simple version first and you’ll always have something to fall back on.
 
-![](images/index-20_1.png)
+![](images/index-20_1.webp)
 
 **Choose a personality**
 
@@ -389,9 +389,9 @@ On the surface, giving a design a particular personality might sound
 abstract and handwavy, but a lot of it is determined by a few solid,
 concrete factors.
 
-![](images/index-21_1.png)
+![](images/index-21_1.webp)
 
-![](images/index-21_2.png)
+![](images/index-21_2.webp)
 
 21
 
@@ -406,9 +406,9 @@ serif typeface in your design:
 
 For a playful look, you could use a rounded sans serif:
 
-![](images/index-22_1.png)
+![](images/index-22_1.webp)
 
-![](images/index-22_2.png)
+![](images/index-22_2.webp)
 
 Choose a personality
 
@@ -425,9 +425,9 @@ feel to you.
 
 Blue is safe and familiar — nobody ever complains about blue:
 
-![](images/index-23_1.png)
+![](images/index-23_1.webp)
 
-![](images/index-23_2.png)
+![](images/index-23_2.webp)
 
 23
 
@@ -442,9 +442,9 @@ practical — a lot of it is just about what looks good to you — it can be
 helpful to think about when you’re trying to understand *why* you think
 a color is the right fit.
 
-![](images/index-24_1.png)
+![](images/index-24_1.webp)
 
-![](images/index-24_2.png)
+![](images/index-24_2.webp)
 
 Choose a personality
 
@@ -460,9 +460,9 @@ much of a personality on its own:
 
 A large border radius starts to feel more playful:
 
-![](images/index-25_1.png)
+![](images/index-25_1.webp)
 
-![](images/index-25_2.png)
+![](images/index-25_2.webp)
 
 25
 
@@ -480,7 +480,7 @@ interface have a massive influence on the overall personality.
 
 Using a less personal tone might feel more official or professional:
 
-![](images/index-26_1.png)
+![](images/index-26_1.webp)
 
 Choose a personality
 
@@ -511,7 +511,7 @@ to look like a second-rate version of something else.
 
 Choose a personality
 
-![](images/index-28_1.png)
+![](images/index-28_1.webp)
 
 **Limit your choices**
 
@@ -541,9 +541,9 @@ looking at them.
 How are you supposed to make a confident decision if none of these would
 really be bad choices?
 
-![](images/index-29_1.png)
+![](images/index-29_1.webp)
 
-![](images/index-29_2.png)
+![](images/index-29_2.webp)
 
 29
 
@@ -563,9 +563,9 @@ perfect.
 Define a restrictive type scale in advance and use that to make any
 future font size decisions.
 
-![](images/index-30_1.png)
+![](images/index-30_1.webp)
 
-![](images/index-30_2.png)
+![](images/index-30_2.webp)
 
 Limit your choices
 
@@ -593,7 +593,7 @@ Chances are, two of those options will seem like *obviously* bad
 choices. If it’s the options on the outside, you’re done — the middle
 option is the only good choice.
 
-![](images/index-31_1.png)
+![](images/index-31_1.webp)
 
 31
 
@@ -655,7 +655,7 @@ systems in finer detail.
 
 **Hierarchy is Everything**
 
-![](images/index-36_1.png)
+![](images/index-36_1.webp)
 
 **Not all elements are equal**
 
@@ -674,7 +674,7 @@ When everything in an interface is competing for attention, it feels
 noisy and chaotic, like one big wall of content where it’s not clear
 what actually matters:
 
-![](images/index-37_1.png)
+![](images/index-37_1.webp)
 
 37
 
@@ -689,7 +689,7 @@ So how do you actually make this happen? In the following chapters,
 we’ll cover a number of specific strategies you can use to introduce
 hierarchy into your designs.
 
-![](images/index-38_1.png)
+![](images/index-38_1.webp)
 
 **Size isn’t everything**
 
@@ -702,9 +702,9 @@ using font weight or color to do the same job.
 
 For example, making a primary element bolder lets you use a more
 
-![](images/index-39_1.png)
+![](images/index-39_1.webp)
 
-![](images/index-39_2.png)
+![](images/index-39_2.webp)
 
 39
 
@@ -717,7 +717,7 @@ Similarly, using a softer color for supporting text instead of a tiny
 font size makes it clear that the text is secondary while sacrificing
 less on readability:
 
-![](images/index-40_1.png)
+![](images/index-40_1.webp)
 
 Size isn’t everything
 
@@ -748,7 +748,7 @@ Size isn’t everything
 using a lighter weight to de-emphasize some text, use a lighter color or
 smaller font size instead.
 
-![](images/index-42_1.png)
+![](images/index-42_1.webp)
 
 **Don’t use grey text on colored**
 
@@ -760,9 +760,9 @@ backgrounds, but it doesn’t look so great on colored backgrounds.
 That’s because the effect we’re actually seeing with grey on white is
 *reduced* *contrast*.
 
-![](images/index-43_1.png)
+![](images/index-43_1.webp)
 
-![](images/index-43_2.png)
+![](images/index-43_2.webp)
 
 43
 
@@ -777,9 +777,9 @@ text and reduce the opacity:
 While this *does* reduce the contrast, it often results in text that
 looks dull, washed out, and sometimes even disabled.
 
-![](images/index-44_1.png)
+![](images/index-44_1.webp)
 
-![](images/index-44_2.png)
+![](images/index-44_2.webp)
 
 Don’t use grey text on colored backgrounds
 
@@ -801,9 +801,9 @@ without the text looking faded.
 
 Don’t use grey text on colored backgrounds
 
-![](images/index-46_1.png)
+![](images/index-46_1.webp)
 
-![](images/index-46_2.png)
+![](images/index-46_2.webp)
 
 **Emphasize by de-emphasizing**
 
@@ -824,7 +824,7 @@ color so they sit more in the background:
 You can apply this thinking to bigger pieces of an interface as well.
 For
 
-![](images/index-47_1.png)
+![](images/index-47_1.webp)
 
 47
 
@@ -834,7 +834,7 @@ example, if a sidebar feels like it’s competing with your main content
 area, don’t give it a background color — let the content sit directly on
 the page background instead:
 
-![](images/index-48_1.png)
+![](images/index-48_1.webp)
 
 **Labels are a last resort**
 
@@ -862,9 +862,9 @@ phrase
 *“Customer Support”* listed below someone’s name in an employee
 directory,
 
-![](images/index-49_1.png)
+![](images/index-49_1.webp)
 
-![](images/index-49_2.png)
+![](images/index-49_2.webp)
 
 49
 
@@ -886,7 +886,7 @@ For example, if you need to display inventory in an e-commerce
 interface, instead of “In stock: 12”, try something like “12 left in
 stock”.
 
-![](images/index-50_1.png)
+![](images/index-50_1.webp)
 
 Labels are a last resort
 
@@ -905,9 +905,9 @@ Sometimes you really *do* need a label; for example when you’re
 displaying multiple pieces of similar data and they need to be easily
 scannable, like on a dashboard.
 
-![](images/index-51_1.png)
+![](images/index-51_1.webp)
 
-![](images/index-51_2.png)
+![](images/index-51_2.webp)
 
 51
 
@@ -943,7 +943,7 @@ slightly lighter color for the value is often enough.
 
 Labels are a last resort
 
-![](images/index-54_1.png)
+![](images/index-54_1.webp)
 
 **Separate visual hierarchy from**
 
@@ -964,7 +964,7 @@ perfect sense semantically, but because we’re trained to believe that h1
 elements should be big, it’s easy to fall into the trap of making those
 titles bigger than they really need to be.
 
-![](images/index-55_1.png)
+![](images/index-55_1.webp)
 
 55
 
@@ -986,7 +986,7 @@ Don’t let the element you’re using influence how you choose to style it
 pick elements for semantic purposes and style them however you need to
 create the best visual hierarchy.
 
-![](images/index-56_1.png)
+![](images/index-56_1.webp)
 
 **Balance weight and contrast**
 
@@ -1009,9 +1009,9 @@ pretty “heavy”
 and cover a lot of surface area. As a result, when you put an icon next
 to some text, the icon tends to feel emphasized.
 
-![](images/index-57_1.png)
+![](images/index-57_1.webp)
 
-![](images/index-57_2.png)
+![](images/index-57_2.webp)
 
 57
 
@@ -1023,7 +1023,7 @@ create balance it needs to be de-emphasized in some other way.
 A simple and effective way to do this is to lower the contrast of the
 icon by giving it a softer color.
 
-![](images/index-58_1.png)
+![](images/index-58_1.webp)
 
 Balance weight and contrast
 
@@ -1043,7 +1043,7 @@ This is useful when things like thin 1px borders are too subtle using a
 soft color, but darkening the color makes the design feel harsh and
 noisy.
 
-![](images/index-59_1.png)
+![](images/index-59_1.webp)
 
 59
 
@@ -1052,7 +1052,7 @@ Balance weight and contrast
 Making the border a bit heavier by increasing the width helps to
 emphasize it without losing the softer look:
 
-![](images/index-60_1.png)
+![](images/index-60_1.webp)
 
 **Semantics are secondary**
 
@@ -1072,9 +1072,9 @@ in the hierarchy.
 • **Primary actions should be obvious.** Solid, high contrast background
 colors work great here.
 
-![](images/index-61_1.png)
+![](images/index-61_1.webp)
 
-![](images/index-61_2.png)
+![](images/index-61_2.webp)
 
 61
 
@@ -1089,9 +1089,9 @@ these actions like links is usually the best approach.
 When you take a hierarchy-first approach to designing the actions on
 page, the result is a much less busy UI that communicates more clearly:
 
-![](images/index-62_1.png)
+![](images/index-62_1.webp)
 
-![](images/index-62_2.png)
+![](images/index-62_2.webp)
 
 Semantics are secondary
 
@@ -1111,7 +1111,7 @@ there.
 
 **Layout and Spacing**
 
-![](images/index-66_1.png)
+![](images/index-66_1.webp)
 
 **Start with too much white space**
 
@@ -1120,7 +1120,7 @@ element a little more room to breathe.
 
 Sounds simple enough, right? So how come we don’t usually do it?
 
-![](images/index-67_1.png)
+![](images/index-67_1.webp)
 
 67
 
@@ -1139,7 +1139,7 @@ minimum amount of breathing room necessary to not look *actively bad*.
 To make something actually look *great*, you usually need more white
 space.
 
-![](images/index-68_1.png)
+![](images/index-68_1.webp)
 
 Start with too much white space
 
@@ -1148,7 +1148,7 @@ Start with too much white space
 A better approach is to start by giving something *way too much* space,
 then remove it until it you’re happy with the result.
 
-![](images/index-69_1.png)
+![](images/index-69_1.webp)
 
 69
 
@@ -1174,7 +1174,7 @@ The important thing is to make this a deliberate decision instead of
 just being the default. It’s a lot more obvious when you need to remove
 white space than it is when you need to add it.
 
-![](images/index-70_1.png)
+![](images/index-70_1.webp)
 
 **Establish a spacing and sizing**
 
@@ -1189,7 +1189,7 @@ slow you down at best, and create ugly, inconsistent designs at worst.
 Instead, limit yourself to a constrained set of values, defined in
 advance.
 
-![](images/index-71_1.png)
+![](images/index-71_1.webp)
 
 71
 
@@ -1216,7 +1216,7 @@ Even increasing the width of a card from 500px to 520px is only a
 difference of 4%, which is *eight times* less significant than the jump
 from 12px to 16px.
 
-![](images/index-72_1.png)
+![](images/index-72_1.webp)
 
 Establish a spacing and sizing system
 
@@ -1237,7 +1237,7 @@ scale using factors and multiples of that value.
 16px is a great number to start with because it divides nicely, and also
 happens to be the default font size in every major web browser.
 
-![](images/index-73_1.png)
+![](images/index-73_1.webp)
 
 73
 
@@ -1255,7 +1255,7 @@ you’re able to design a hell of a lot faster, especially if you design
 in the browser *(sticking to a system is easier when you’re typing in
 numbers than when* *you’re dragging with the mouse.)*
 
-![](images/index-74_1.png)
+![](images/index-74_1.webp)
 
 Establish a spacing and sizing system
 
@@ -1276,7 +1276,7 @@ than that.
 
 Establish a spacing and sizing system
 
-![](images/index-76_1.png)
+![](images/index-76_1.webp)
 
 **You don’t have to fill the whole**
 
@@ -1295,9 +1295,9 @@ If you only need 600px, use 600px. Spreading things out or making things
 unnecessarily wide just makes an interface harder to interpret, while a
 little extra space around the edges never hurt anyone.
 
-![](images/index-77_1.png)
+![](images/index-77_1.webp)
 
-![](images/index-77_2.png)
+![](images/index-77_2.webp)
 
 77
 
@@ -1307,7 +1307,7 @@ This is just as applicable to individual sections of an interface, too.
 You don’t need to make *everything* full-width just because something
 else (like your navigation) is full-width.
 
-![](images/index-78_1.png)
+![](images/index-78_1.webp)
 
 You don’t have to fill the whole screen
 
@@ -1325,7 +1325,7 @@ something small when the constraints are real.
 If you’re building a responsive web application, try starting with a
 ~400px canvas and designing the mobile layout first.
 
-![](images/index-79_1.png)
+![](images/index-79_1.webp)
 
 79
 
@@ -1341,7 +1341,7 @@ If you’re designing something that works best at a narrower width but
 feels unbalanced in the context of an otherwise wide UI, see if you can
 split it into columns instead of just making it wider.
 
-![](images/index-80_1.png)
+![](images/index-80_1.webp)
 
 You don’t have to fill the whole screen
 
@@ -1349,7 +1349,7 @@ You don’t have to fill the whole screen
 
 For example, take this narrow form layout:
 
-![](images/index-81_1.png)
+![](images/index-81_1.webp)
 
 81
 
@@ -1376,7 +1376,7 @@ it if you don’t have to.
 
 You don’t have to fill the whole screen
 
-![](images/index-84_1.png)
+![](images/index-84_1.webp)
 
 **Grids are overrated**
 
@@ -1395,9 +1395,9 @@ percentages.
 For example, in a 12-column grid each column is 8.33% wide. As long as
 an
 
-![](images/index-85_1.png)
+![](images/index-85_1.webp)
 
-![](images/index-85_2.png)
+![](images/index-85_2.webp)
 
 85
 
@@ -1414,9 +1414,9 @@ For example, consider a traditional sidebar layout. Using a 12-column
 grid system, you might give the sidebar a width of three columns (25%)
 and the main content area a width of nine columns (75%).
 
-![](images/index-86_1.png)
+![](images/index-86_1.webp)
 
-![](images/index-86_2.png)
+![](images/index-86_2.webp)
 
 Grids are overrated
 
@@ -1437,9 +1437,9 @@ width that’s optimized for its contents. The main content area can then
 flex to fill the remaining space, using its own *internal* grid to lay
 out its children.
 
-![](images/index-87_1.png)
+![](images/index-87_1.webp)
 
-![](images/index-87_2.png)
+![](images/index-87_2.webp)
 
 87
 
@@ -1448,9 +1448,9 @@ Grids are overrated
 This applies within components, too — don’t use percentages to size
 something unless you actually want it to scale.
 
-![](images/index-88_1.png)
+![](images/index-88_1.webp)
 
-![](images/index-88_2.png)
+![](images/index-88_2.webp)
 
 Grids are overrated
 
@@ -1466,7 +1466,7 @@ On medium-sized screens you realize the card is a little narrow even
 though you have the space to make it bigger, so at that screen size you
 switch it to a width of 8 columns, with two empty columns on each side.
 
-![](images/index-89_1.png)
+![](images/index-89_1.webp)
 
 89
 
@@ -1483,7 +1483,7 @@ Instead of sizing elements like this based on a grid, give them a
 max-width so they don’t get too large, and only force them to shrink
 when the screen gets smaller than that max-width.
 
-![](images/index-90_1.png)
+![](images/index-90_1.webp)
 
 Grids are overrated
 
@@ -1496,7 +1496,7 @@ and don’t make any compromises until it’s actually necessary.
 
 Grids are overrated
 
-![](images/index-92_1.png)
+![](images/index-92_1.webp)
 
 **Relative sizing doesn’t scale**
 
@@ -1516,9 +1516,9 @@ can remain static
 — 2.5em might be the perfect headline size on desktop but there’s no
 guarantee that it’ll be the right size on smaller screens.
 
-![](images/index-93_1.png)
+![](images/index-93_1.webp)
 
-![](images/index-93_2.png)
+![](images/index-93_2.webp)
 
 93
 
@@ -1531,7 +1531,7 @@ rendered font size of 35px — way too big for a small screen!
 A better headline size for small screens might be somewhere between 20px
 and 24px:
 
-![](images/index-94_1.png)
+![](images/index-94_1.webp)
 
 Relative sizing doesn’t scale
 
@@ -1562,9 +1562,9 @@ should be defined in terms of the current font size. That way if you
 want a larger or smaller button, you only need to change the font size
 and the padding will update automatically, right?
 
-![](images/index-95_1.png)
+![](images/index-95_1.webp)
 
-![](images/index-95_2.png)
+![](images/index-95_2.webp)
 
 95
 
@@ -1583,7 +1583,7 @@ Let go of the idea that everything needs to scale proportionately —
 giving yourself the freedom to fine-tune things independently makes it a
 hell of a lot easier to design for multiple contexts.
 
-![](images/index-96_1.png)
+![](images/index-96_1.webp)
 
 **Avoid ambiguous spacing**
 
@@ -1596,9 +1596,9 @@ Say you’re designing a form with stacked labels and inputs. If the
 margin below the label is the same as the margin below the input, the
 elements in the form group won’t feel obviously “connected”.
 
-![](images/index-97_1.png)
+![](images/index-97_1.webp)
 
-![](images/index-97_2.png)
+![](images/index-97_2.webp)
 
 97
 
@@ -1610,9 +1610,9 @@ means accidentally putting the wrong data in the wrong field.
 The fix is to increase the space between each form group so it’s clear
 which label belongs to which input:
 
-![](images/index-98_1.png)
+![](images/index-98_1.webp)
 
-![](images/index-98_2.png)
+![](images/index-98_2.webp)
 
 Avoid ambiguous spacing
 
@@ -1624,7 +1624,7 @@ space above section headings:
 …and in bulleted lists, when the space between bullets matches the
 line-height of a single bullet:
 
-![](images/index-99_1.png)
+![](images/index-99_1.webp)
 
 99
 
@@ -1640,7 +1640,7 @@ interfaces that are hard to understand always look worse.
 
 **Designing Text**
 
-![](images/index-102_1.png)
+![](images/index-102_1.webp)
 
 **Establish a type scale**
 
@@ -1655,7 +1655,7 @@ It leads to annoying inconsistencies in your designs.
 
 So how do you define a type system?
 
-![](images/index-103_1.png)
+![](images/index-103_1.webp)
 
 103
 
@@ -1722,7 +1722,7 @@ by hand. You don’t have to worry about subpixel rounding errors this
 way, and you have total control over which sizes exist instead of
 outsourcing that job to some mathematical formula.
 
-![](images/index-105_1.png)
+![](images/index-105_1.webp)
 
 105
 
@@ -1735,9 +1735,9 @@ aligns nicely with the spacing and sizing scale recommended in
 It’s constrained just enough to speed up your decision making, but isn’t
 so limited as to make you feel like you’re missing a useful size.
 
-![](images/index-106_1.png)
+![](images/index-106_1.webp)
 
-![](images/index-106_2.png)
+![](images/index-106_2.webp)
 
 Establish a type scale
 
@@ -1766,7 +1766,7 @@ font size is 17.5px, not a value from your type scale!
 Stick to *px* or *rem* units — it’s the only way to guarantee you’re
 actually sticking to the system.
 
-![](images/index-108_1.png)
+![](images/index-108_1.webp)
 
 **Use good fonts**
 
@@ -1788,7 +1788,7 @@ the system font stack:
 -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica
 Neue;
 
-![](images/index-109_1.png)
+![](images/index-109_1.webp)
 
 109
 
@@ -1810,7 +1810,7 @@ well as the italic variations of those weights.
 A great way to limit the number of options you have to choose from is to
 crank that up to 10+ *(to account for italics)*:
 
-![](images/index-110_1.png)
+![](images/index-110_1.webp)
 
 Use good fonts
 
@@ -1840,9 +1840,9 @@ This is especially useful when you’re trying to pick out something other
 than a neutral UI typeface. Picking a nice serif with some personality
 for example can be tough.
 
-![](images/index-111_1.png)
+![](images/index-111_1.webp)
 
-![](images/index-111_2.png)
+![](images/index-111_2.webp)
 
 111
 
@@ -1878,9 +1878,9 @@ will help get you by in the meantime.
 
 Use good fonts
 
-![](images/index-114_1.png)
+![](images/index-114_1.webp)
 
-![](images/index-114_2.png)
+![](images/index-114_2.webp)
 
 **Keep your line length in check**
 
@@ -1895,9 +1895,9 @@ between 45 and 75 characters per line. The easiest way to do this on the
 web is using *em* units, which are relative to the current font size. A
 width of 20-35em will get you in the right ballpark.
 
-![](images/index-115_1.png)
+![](images/index-115_1.webp)
 
-![](images/index-115_2.png)
+![](images/index-115_2.webp)
 
 115
 
@@ -1913,7 +1913,7 @@ If you’re mixing paragraph text with images or other large components,
 you should still limit the paragraph width even if the overall content
 area needs to be wider to accommodate the other elements.
 
-![](images/index-116_1.png)
+![](images/index-116_1.webp)
 
 Keep your line length in check
 
@@ -1926,7 +1926,7 @@ same content area, but the result almost always looks more polished.
 
 Keep your line length in check
 
-![](images/index-118_1.png)
+![](images/index-118_1.webp)
 
 **Baseline, not center**
 
@@ -1939,9 +1939,9 @@ top left and a smaller list of actions in the top right.
 When you’re mixing font sizes like this, your instinct might be to
 vertically center the text for balance:
 
-![](images/index-119_1.png)
+![](images/index-119_1.webp)
 
-![](images/index-119_2.png)
+![](images/index-119_2.webp)
 
 119
 
@@ -1953,7 +1953,7 @@ text is close together the awkward alignment becomes more obvious: A
 better approach is to align mixed font sizes by their *baseline*, which
 is the imaginary line that letters rest on:
 
-![](images/index-120_1.png)
+![](images/index-120_1.webp)
 
 Baseline, not center
 
@@ -1969,7 +1969,7 @@ two pieces of text and offset their baselines.
 
 Baseline, not center
 
-![](images/index-122_1.png)
+![](images/index-122_1.webp)
 
 **Line-height is proportional**
 
@@ -1987,9 +1987,9 @@ reader to find the next line when the text wraps. Have you ever
 accidentally read the same line of text twice, or accidentally skipped a
 line? The line-height was probably too short.
 
-![](images/index-123_1.png)
+![](images/index-123_1.webp)
 
-![](images/index-123_2.png)
+![](images/index-123_2.webp)
 
 123
 
@@ -2007,7 +2007,7 @@ That means that your line-height and paragraph width should be
 proportional — narrow content can use a shorter line-height like 1.5,
 but wide content might need a line-height as tall as 2.
 
-![](images/index-124_1.png)
+![](images/index-124_1.webp)
 
 Line-height is proportional
 
@@ -2025,7 +2025,7 @@ But as text gets larger, your eyes don’t need as much help. This means
 that for large headline text you might not need any extra line spacing,
 and a line-height of 1 is perfectly fine.
 
-![](images/index-125_1.png)
+![](images/index-125_1.webp)
 
 125
 
@@ -2034,9 +2034,9 @@ Line-height is proportional
 Line-height and font size are *inversely* proportional — use a taller
 line-height for small text and a shorter line-height for large text.
 
-![](images/index-126_1.png)
+![](images/index-126_1.webp)
 
-![](images/index-126_2.png)
+![](images/index-126_2.webp)
 
 **Not every link needs a color**
 
@@ -2047,9 +2047,9 @@ But when you’re designing an interface where almost everything is a
 link, using a treatment designed to make links “pop” in paragraph text
 can be really overbearing.
 
-![](images/index-127_1.png)
+![](images/index-127_1.webp)
 
-![](images/index-127_2.png)
+![](images/index-127_2.webp)
 
 127
 
@@ -2066,9 +2066,9 @@ adding an underline or changing the color *only on hover*.
 They’ll still be discoverable to any users who think to try, but won’t
 compete for attention with more important actions on the page.
 
-![](images/index-128_1.png)
+![](images/index-128_1.webp)
 
-![](images/index-128_2.png)
+![](images/index-128_2.webp)
 
 **Align with readability in mind**
 
@@ -2084,9 +2084,9 @@ them effectively.
 Center-alignment can look great for headlines or short, independent
 blocks of text.
 
-![](images/index-129_1.png)
+![](images/index-129_1.webp)
 
-![](images/index-129_2.png)
+![](images/index-129_2.webp)
 
 129
 
@@ -2100,9 +2100,9 @@ a bit too long, the easiest fix is to rewrite the content and make it
 shorter: Not only will it fix the alignment issue, it will make your
 design feel more consistent, too.
 
-![](images/index-130_1.png)
+![](images/index-130_1.webp)
 
-![](images/index-130_2.png)
+![](images/index-130_2.webp)
 
 Align with readability in mind
 
@@ -2121,7 +2121,7 @@ Justified text looks great in print and can work well on the web when
 you’re going for a more formal look, but without special care, it can
 create a lot of awkward gaps between words:
 
-![](images/index-131_1.png)
+![](images/index-131_1.webp)
 
 131
 
@@ -2133,7 +2133,7 @@ to mimic a print look, perhaps for an online magazine or newspaper. Even
 then, left aligned text works great too, so it’s really just a matter of
 preference.
 
-![](images/index-132_1.png)
+![](images/index-132_1.webp)
 
 **Use letter-spacing effectively**
 
@@ -2145,9 +2145,9 @@ As a general rule, you should trust the typeface designer and leave
 letter-spacing alone. That said, there are a couple of common situations
 where adjusting it can improve your designs.
 
-![](images/index-133_1.png)
+![](images/index-133_1.webp)
 
-![](images/index-133_2.png)
+![](images/index-133_2.webp)
 
 133
 
@@ -2170,9 +2170,9 @@ Avoid trying to make this work the other way around though — headline
 fonts rarely work well at small sizes even if you increase the letter
 spacing.
 
-![](images/index-134_1.png)
+![](images/index-134_1.webp)
 
-![](images/index-134_2.png)
+![](images/index-134_2.webp)
 
 Use letter-spacing effectively
 
@@ -2199,9 +2199,9 @@ all-caps text to improve readability:
 
 **Working with Color**
 
-![](images/index-138_1.png)
+![](images/index-138_1.webp)
 
-![](images/index-138_2.png)
+![](images/index-138_2.webp)
 
 **Ditch hex for HSL**
 
@@ -2218,11 +2218,11 @@ intuitively perceives: *hue*, *saturation*, and *lightness*.
 a color that lets us identify two colors as “blue” even if they aren’t
 identical.
 
-![](images/index-139_1.png)
+![](images/index-139_1.webp)
 
-![](images/index-139_2.png)
+![](images/index-139_2.webp)
 
-![](images/index-139_3.png)
+![](images/index-139_3.webp)
 
 139
 
@@ -2237,9 +2237,9 @@ grey (no color), and 100% saturation is vibrant and intense.
 Without saturation, hue is irrelevant — rotating the hue when saturation
 is 0% doesn’t actually change the color at all.
 
-![](images/index-140_1.png)
+![](images/index-140_1.webp)
 
-![](images/index-140_2.png)
+![](images/index-140_2.webp)
 
 Ditch hex for HSL
 
@@ -2269,9 +2269,9 @@ HSB is more common than HSL in design software, but browsers only
 understand HSL, so if you’re designing for the web, HSL should be your
 weapon of choice.
 
-![](images/index-142_1.png)
+![](images/index-142_1.webp)
 
-![](images/index-142_2.png)
+![](images/index-142_2.webp)
 
 **You need more colors than you**
 
@@ -2285,7 +2285,7 @@ This calculated approach to picking the perfect color scheme is
 extremely seductive, but it’s not very useful unless you want your site
 to look like this:
 
-![](images/index-143_1.png)
+![](images/index-143_1.webp)
 
 143
 
@@ -2303,9 +2303,9 @@ You can break a good color palette down into three categories.
 Text, backgrounds, panels, form controls — almost everything in an
 interface is grey.
 
-![](images/index-144_1.png)
+![](images/index-144_1.webp)
 
-![](images/index-144_2.png)
+![](images/index-144_2.webp)
 
 You need more colors than you think
 
@@ -2323,9 +2323,9 @@ don’t have to compromise too much.
 True black tends to look pretty unnatural, so start with a really dark
 grey and work your way up to white in steady increments.
 
-![](images/index-145_1.png)
+![](images/index-145_1.webp)
 
-![](images/index-145_2.png)
+![](images/index-145_2.webp)
 
 145
 
@@ -2352,11 +2352,11 @@ communicating different things to the user.
 For example, you might want to use an eye-grabbing color like yellow,
 pink, or teal to highlight a new feature:
 
-![](images/index-146_1.png)
+![](images/index-146_1.webp)
 
-![](images/index-146_2.png)
+![](images/index-146_2.webp)
 
-![](images/index-146_3.png)
+![](images/index-146_3.webp)
 
 You need more colors than you think
 
@@ -2385,7 +2385,7 @@ All in, it’s not uncommon to need as many as *ten* different colors with
 
 *shades each* for a complex UI.
 
-![](images/index-148_1.png)
+![](images/index-148_1.webp)
 
 **Define your shades up front**
 
@@ -2406,9 +2406,9 @@ So how do you put together a palette like this anyways?
 Start by picking a *base* color for the scale you want to create — the
 color in the middle that your lighter and darker shades are based on.
 
-![](images/index-149_1.png)
+![](images/index-149_1.webp)
 
-![](images/index-149_2.png)
+![](images/index-149_2.webp)
 
 149
 
@@ -2436,11 +2436,11 @@ lightest shade might be used to tint the background of an element.
 A simple alert component is a good example that combines both of these
 use cases, so it can be a great place to pick these colors.
 
-![](images/index-150_1.png)
+![](images/index-150_1.webp)
 
-![](images/index-150_2.png)
+![](images/index-150_2.webp)
 
-![](images/index-150_3.png)
+![](images/index-150_3.webp)
 
 Define your shades up front
 
@@ -2468,7 +2468,7 @@ between the shades on either side.
 This creates four more holes in the scale ( *800*, *600*, *400*, and
 *200*), which you can fill using the same approach.
 
-![](images/index-151_1.png)
+![](images/index-151_1.webp)
 
 151
 
@@ -2504,9 +2504,9 @@ Just try to avoid adding *new* shades too often if you can avoid it. If
 you’re not diligent about limiting your palette, you might as well have
 no color system at all.
 
-![](images/index-152_1.png)
+![](images/index-152_1.webp)
 
-![](images/index-152_2.png)
+![](images/index-152_2.webp)
 
 **Don’t let lightness kill your**
 
@@ -2521,11 +2521,11 @@ That means that if you don’t want the lighter and darker shades of a
 given color to look washed out, you need to increase the saturation as
 the lightness gets further away from 50%.
 
-![](images/index-153_1.png)
+![](images/index-153_1.webp)
 
-![](images/index-153_2.png)
+![](images/index-153_2.webp)
 
-![](images/index-153_3.png)
+![](images/index-153_3.webp)
 
 153
 
@@ -2555,7 +2555,7 @@ RGB
 
 components into this formula:
 
-![](images/index-154_1.png)
+![](images/index-154_1.webp)
 
 Don’t let lightness kill your saturation
 
@@ -2577,11 +2577,11 @@ On the surface, this is certainly an interesting thing to understand
 about color. But things get really interesting when you realize how you
 can use this knowledge in your designs.
 
-![](images/index-155_1.png)
+![](images/index-155_1.webp)
 
-![](images/index-155_2.png)
+![](images/index-155_2.webp)
 
-![](images/index-155_3.png)
+![](images/index-155_3.webp)
 
 155
 
@@ -2600,11 +2600,11 @@ you can change the brightness of a color is *by rotating its hue*.
 To make a color lighter, rotate the hue towards the nearest bright hue —
 60°, 180°, or 300°.
 
-![](images/index-156_1.png)
+![](images/index-156_1.webp)
 
-![](images/index-156_2.png)
+![](images/index-156_2.webp)
 
-![](images/index-156_3.png)
+![](images/index-156_3.webp)
 
 Don’t let lightness kill your saturation
 
@@ -2632,9 +2632,9 @@ hue more than 20-30°
 or it will look like a totally different color instead of just lighter
 or darker.
 
-![](images/index-158_1.png)
+![](images/index-158_1.webp)
 
-![](images/index-158_2.png)
+![](images/index-158_2.webp)
 
 **Greys don’t have to be grey**
 
@@ -2647,9 +2647,9 @@ actually saturated quite heavily:
 This saturation is what makes some greys feel cool and other greys feel
 warm.
 
-![](images/index-159_1.png)
+![](images/index-159_1.webp)
 
-![](images/index-159_2.png)
+![](images/index-159_2.webp)
 
 159
 
@@ -2687,7 +2687,7 @@ other.
 
 Greys don’t have to be grey
 
-![](images/index-162_1.png)
+![](images/index-162_1.webp)
 
 **Accessible doesn’t have to mean**
 
@@ -2702,9 +2702,9 @@ For typical *dark-text-on-a-light-background* situations, meeting this
 recommendation is pretty easy, but it gets a lot trickier when you start
 working with color.
 
-![](images/index-163_1.png)
+![](images/index-163_1.webp)
 
-![](images/index-163_2.png)
+![](images/index-163_2.webp)
 
 163
 
@@ -2719,7 +2719,7 @@ This can create hierarchy issues when those elements aren’t supposed to
 be the focus of the page — dark colored backgrounds will really grab the
 user’s attention.
 
-![](images/index-164_1.png)
+![](images/index-164_1.webp)
 
 Accessible doesn’t have to mean ugly
 
@@ -2744,9 +2744,9 @@ If you start by taking the background color and simply adjusting the
 lightness and saturation, you’ll find that it’s hard to meet the
 recommended contrast ratio without getting very close to pure white.
 
-![](images/index-165_1.png)
+![](images/index-165_1.webp)
 
-![](images/index-165_2.png)
+![](images/index-165_2.webp)
 
 165
 
@@ -2762,7 +2762,7 @@ a brighter color, like cyan, magenta, or yellow.
 This can make it a lot easier to make the text accessible while still
 keeping it colorful.
 
-![](images/index-166_1.png)
+![](images/index-166_1.webp)
 
 **Don’t rely on color alone**
 
@@ -2776,9 +2776,9 @@ worse: An easy fix for this is to also communicate that information in
 some other way, like by adding icons to indicate if the change is
 positive or negative.
 
-![](images/index-167_1.png)
+![](images/index-167_1.webp)
 
-![](images/index-167_2.png)
+![](images/index-167_2.webp)
 
 167
 
@@ -2791,7 +2791,7 @@ In situations like this, try relying on *contrast* instead of using
 completely different colors. It’s much easier for someone who’s
 colorblind to tell the
 
-![](images/index-168_1.png)
+![](images/index-168_1.webp)
 
 Don’t rely on color alone
 
@@ -2805,7 +2805,7 @@ saying; never use it as the only means of communication.
 
 **Creating Depth**
 
-![](images/index-172_1.png)
+![](images/index-172_1.webp)
 
 **Emulate a light source**
 
@@ -2816,9 +2816,9 @@ into the background?
 Creating this effect might look complicated at first, but it actually
 only requires you to understand one fundamental rule.
 
-![](images/index-173_1.jpg)
+![](images/index-173_1.webp)
 
-![](images/index-173_2.png)
+![](images/index-173_2.webp)
 
 173
 
@@ -2839,9 +2839,9 @@ light.
 The only way those edges could possibly be oriented that way is if the
 panel itself is raised, so that’s how our brains perceive it.
 
-![](images/index-174_1.jpg)
+![](images/index-174_1.webp)
 
-![](images/index-174_2.png)
+![](images/index-174_2.webp)
 
 Emulate a light source
 
@@ -2856,7 +2856,7 @@ and the bottom edge is lighter, indicating that it’s angled upward.
 To create this same sense of depth in your designs, all you need to do
 is mimic the way light affects things in the real world.
 
-![](images/index-175_1.png)
+![](images/index-175_1.webp)
 
 175
 
@@ -2880,9 +2880,9 @@ of the top edge and hide the bottom edge.
 Since the top edge is facing upward, make it slightly lighter than the
 face of
 
-![](images/index-176_1.png)
+![](images/index-176_1.webp)
 
-![](images/index-176_2.png)
+![](images/index-176_2.webp)
 
 Emulate a light source
 
@@ -2902,9 +2902,9 @@ Do this by adding a small dark box shadow with a slight vertical offset
 *(you* *only want the shadow to appear below the element)*: Don’t get
 carried away with the blur radius, a couple of pixels is plenty. These
 
-![](images/index-177_1.png)
+![](images/index-177_1.webp)
 
-![](images/index-177_2.png)
+![](images/index-177_2.webp)
 
 177
 
@@ -2923,9 +2923,9 @@ Looking slightly downward, only the bottom lip would be visible. Since
 it’s facing towards the sky, give that edge a slightly lighter color
 using a bottom border or inset shadow with a negative vertical offset:
 
-![](images/index-178_1.png)
+![](images/index-178_1.webp)
 
-![](images/index-178_2.png)
+![](images/index-178_2.webp)
 
 Emulate a light source
 
@@ -2952,7 +2952,7 @@ that are busy and unclear. Borrowing some visual cues from the real
 world is a great way to add a bit of depth, but there’s no need to try
 and make things look photo-realistic.
 
-![](images/index-180_1.png)
+![](images/index-180_1.webp)
 
 **Use shadows to convey elevation**
 
@@ -2967,9 +2967,9 @@ higher blur radius make an element feel much closer to the user:
 The closer something feels to the user, the more it will attract their
 focus.
 
-![](images/index-181_1.png)
+![](images/index-181_1.webp)
 
-![](images/index-181_2.png)
+![](images/index-181_2.webp)
 
 181
 
@@ -2980,7 +2980,7 @@ want the user to notice it but don’t want it to dominate the page:
 Medium shadows are useful for things like dropdowns; elements that need
 to sit a bit further above the rest of the UI:
 
-![](images/index-182_1.png)
+![](images/index-182_1.webp)
 
 Use shadows to convey elevation
 
@@ -2998,9 +2998,9 @@ in your designs.
 You don’t need a ton of different shadows — five options is usually
 plenty.
 
-![](images/index-183_1.png)
+![](images/index-183_1.webp)
 
-![](images/index-183_2.png)
+![](images/index-183_2.webp)
 
 183
 
@@ -3019,7 +3019,7 @@ drag each item to sort them. Adding a shadow to an item when a user
 clicks it makes it feel like it pops forward above the other items in
 the list, and makes it clear to the user that they can drag it:
 
-![](images/index-184_1.png)
+![](images/index-184_1.webp)
 
 Use shadows to convey elevation
 
@@ -3038,7 +3038,7 @@ sit on the z-axis and assign it a shadow accordingly.
 
 Use shadows to convey elevation
 
-![](images/index-186_1.png)
+![](images/index-186_1.webp)
 
 **Shadows can have two parts**
 
@@ -3056,9 +3056,9 @@ The first shadow is larger and softer, with a considerable vertical
 offset and large blur radius. It simulates the shadow cast behind an
 object by a direct light source.
 
-![](images/index-187_1.png)
+![](images/index-187_1.webp)
 
-![](images/index-187_2.png)
+![](images/index-187_2.webp)
 
 187
 
@@ -3072,7 +3072,7 @@ Using two shadows like this gives you a lot more control than you’d get
 with a single shadow — you can keep the larger shadow nice and subtle
 while still
 
-![](images/index-188_1.png)
+![](images/index-188_1.webp)
 
 Shadows can have two parts
 
@@ -3086,7 +3086,7 @@ As an object gets further away from a surface, the small, dark shadow
 created by a lack of ambient light slowly disappears *(go ahead, try it
 out with* *something on your desk)*.
 
-![](images/index-189_1.png)
+![](images/index-189_1.webp)
 
 189
 
@@ -3099,7 +3099,7 @@ represent a higher elevation.
 It should be quite distinct for your lowest elevation, and almost *(or*
 *completely)* invisible at your highest elevation.
 
-![](images/index-190_1.png)
+![](images/index-190_1.webp)
 
 **Even flat designs can have depth**
 
@@ -3110,7 +3110,7 @@ interacts with things in the real-world.
 But the most effective flat designs still convey depth, they just do it
 in a different way.
 
-![](images/index-191_1.png)
+![](images/index-191_1.webp)
 
 191
 
@@ -3128,7 +3128,7 @@ want it to feel inset like a well:
 This is just as applicable to non-flat designs, too — color is just
 another tool in your toolbelt for conveying distance.
 
-![](images/index-192_1.png)
+![](images/index-192_1.webp)
 
 Even flat designs can have depth
 
@@ -3146,7 +3146,7 @@ bit without sacrificing that flat aesthetic.
 
 Even flat designs can have depth
 
-![](images/index-194_1.png)
+![](images/index-194_1.webp)
 
 **Overlap elements to create layers**
 
@@ -3157,9 +3157,9 @@ For example, instead of containing a card entirely within another
 element, offset it so it crosses the transition between two different
 backgrounds:
 
-![](images/index-195_1.png)
+![](images/index-195_1.webp)
 
-![](images/index-195_2.png)
+![](images/index-195_2.webp)
 
 195
 
@@ -3175,9 +3175,9 @@ example the controls on this carousel:
 
 This technique can work great with images as well, but without special
 
-![](images/index-196_1.png)
+![](images/index-196_1.webp)
 
-![](images/index-196_2.png)
+![](images/index-196_2.webp)
 
 Overlap elements to create layers
 
@@ -3196,7 +3196,7 @@ clashing.
 
 **Working with Images**
 
-![](images/index-200_1.png)
+![](images/index-200_1.webp)
 
 **Use good photos**
 
@@ -3228,7 +3228,7 @@ Whatever you do, don’t design using placeholder images and expect to be
 able to take some photos with your smartphone and swap them in later. It
 never works.
 
-![](images/index-202_1.png)
+![](images/index-202_1.webp)
 
 **Text needs consistent contrast**
 
@@ -3244,9 +3244,9 @@ of really dark areas. White text might look great in the dark areas, but
 it gets lost in the light areas. Dark text looks great in the light
 areas, but gets lost in the dark areas.
 
-![](images/index-203_1.png)
+![](images/index-203_1.webp)
 
-![](images/index-203_2.png)
+![](images/index-203_2.webp)
 
 203
 
@@ -3260,7 +3260,7 @@ make the contrast between the text and the background more consistent.
 One way to increase the overall text contrast is to add a
 semi-transparent overlay to the background image.
 
-![](images/index-204_1.png)
+![](images/index-204_1.webp)
 
 Text needs consistent contrast
 
@@ -3281,7 +3281,7 @@ the image itself:
 Lowering the contrast will change how light or dark the image feels
 overall, so make sure to adjust the brightness to compensate.
 
-![](images/index-205_1.png)
+![](images/index-205_1.webp)
 
 205
 
@@ -3303,7 +3303,7 @@ the image contrast**, to balance things out a bit.
 This can also be a great way to make a background image pair more nicely
 with your existing brand colors.
 
-![](images/index-206_1.png)
+![](images/index-206_1.webp)
 
 Text needs consistent contrast
 
@@ -3325,9 +3325,9 @@ combining that with a text shadow means you can reduce it a little less.
 
 Text needs consistent contrast
 
-![](images/index-208_1.png)
+![](images/index-208_1.webp)
 
-![](images/index-208_2.png)
+![](images/index-208_2.webp)
 
 **Everything has an intended size**
 
@@ -3348,11 +3348,11 @@ they fit your needs.
 They’re vector images after all, so the quality isn’t going to suffer if
 you increase the size, right?
 
-![](images/index-209_1.png)
+![](images/index-209_1.webp)
 
-![](images/index-209_2.png)
+![](images/index-209_2.webp)
 
-![](images/index-209_3.png)
+![](images/index-209_3.webp)
 
 209
 
@@ -3369,7 +3369,7 @@ shape and giving the shape a background color:
 This lets you keep the actual icon closer to its intended size, while
 still filling the larger space.
 
-![](images/index-210_1.png)
+![](images/index-210_1.webp)
 
 Everything has an intended size
 
@@ -3392,9 +3392,9 @@ If you want to include a detailed screenshot in your design, take the
 screenshot at a smaller screen size *(like maybe your tablet layout)*
 and save a
 
-![](images/index-211_1.png)
+![](images/index-211_1.webp)
 
-![](images/index-211_2.png)
+![](images/index-211_2.webp)
 
 211
 
@@ -3404,7 +3404,7 @@ lot of space for it so you don’t have to shrink it as much: Or consider
 taking just a partial screenshot, so you can display it in less space
 without needing to scale it down:
 
-![](images/index-212_1.png)
+![](images/index-212_1.webp)
 
 Everything has an intended size
 
@@ -3429,9 +3429,9 @@ see next to the page title in a browser tab.
 If you try to shrink a logo drawn at 128px down to favicon size, it all
 turns to
 
-![](images/index-213_1.png)
+![](images/index-213_1.webp)
 
-![](images/index-213_2.png)
+![](images/index-213_2.webp)
 
 213
 
@@ -3444,7 +3444,7 @@ A better approach is to redraw a super simplified version of the logo at
 the target size, so you control the compromises instead of leaving it up
 to the browser:
 
-![](images/index-214_1.png)
+![](images/index-214_1.webp)
 
 **Beware user-uploaded content**
 
@@ -3462,9 +3462,9 @@ Displaying user-uploaded images at their intrinsic aspect ratio can
 really throw off a layout, especially if there are a lot of images on
 the screen at once.
 
-![](images/index-215_1.png)
+![](images/index-215_1.webp)
 
-![](images/index-215_2.png)
+![](images/index-215_2.webp)
 
 215
 
@@ -3477,9 +3477,9 @@ fit.
 This is really easy to do with CSS these days by making the image a
 background image, and setting the background-size property to cover.
 
-![](images/index-216_1.png)
+![](images/index-216_1.webp)
 
-![](images/index-216_2.png)
+![](images/index-216_2.webp)
 
 Beware user-uploaded content
 
@@ -3494,7 +3494,7 @@ together, causing the image to lose its shape.
 Instead of trying to solve this with a border, try using a subtle inner
 box shadow:
 
-![](images/index-217_1.png)
+![](images/index-217_1.webp)
 
 217
 
@@ -3508,9 +3508,9 @@ shadow, a semi-transparent inner border works great, too.
 
 **Finishing Touches**
 
-![](images/index-220_1.png)
+![](images/index-220_1.webp)
 
-![](images/index-220_2.png)
+![](images/index-220_2.webp)
 
 **Supercharge the defaults**
 
@@ -3525,9 +3525,9 @@ Checkmarks and arrows are great generic choices for a lot of situations,
 but you can also use something more specific to your content, like a
 padlock icon for a list of security-related features:
 
-![](images/index-221_1.png)
+![](images/index-221_1.webp)
 
-![](images/index-221_2.png)
+![](images/index-221_2.webp)
 
 221
 
@@ -3540,7 +3540,7 @@ something as simple as changing the color and font weight, or something
 as fancy as a thick and colorful custom underline that partially
 overlaps the text:
 
-![](images/index-222_1.png)
+![](images/index-222_1.webp)
 
 Supercharge the defaults
 
@@ -3557,7 +3557,7 @@ boring to feeling polished and well-designed.
 
 Supercharge the defaults
 
-![](images/index-224_1.png)
+![](images/index-224_1.webp)
 
 **Add color with accent borders**
 
@@ -3571,11 +3571,11 @@ bit bland.
 
 For example, across the top of a card:
 
-![](images/index-225_1.png)
+![](images/index-225_1.webp)
 
-![](images/index-225_2.png)
+![](images/index-225_2.webp)
 
-![](images/index-225_3.png)
+![](images/index-225_3.webp)
 
 225
 
@@ -3587,7 +3587,7 @@ Add color with accent borders
 
 …or as a short accent underneath a headline:
 
-![](images/index-226_1.png)
+![](images/index-226_1.webp)
 
 Add color with accent borders
 
@@ -3604,7 +3604,7 @@ your UI, and it can go a long way towards making something feel more
 
 Add color with accent borders
 
-![](images/index-228_1.png)
+![](images/index-228_1.webp)
 
 **Decorate your backgrounds**
 
@@ -3620,9 +3620,9 @@ backgrounds.
 One way to add some excitement to a background is to simply change the
 color.
 
-![](images/index-229_1.png)
+![](images/index-229_1.webp)
 
-![](images/index-229_2.png)
+![](images/index-229_2.webp)
 
 229
 
@@ -3634,9 +3634,9 @@ adding some distinction between entire page sections.
 For a more energetic look, you could even use a slight gradient: For
 best results, use two hues that are no more than about 30° apart.
 
-![](images/index-230_1.png)
+![](images/index-230_1.webp)
 
-![](images/index-230_2.png)
+![](images/index-230_2.webp)
 
 Decorate your backgrounds
 
@@ -3657,9 +3657,9 @@ either
 Keep the contrast between the background and the pattern pretty low to
 ensure readability.
 
-![](images/index-231_1.png)
+![](images/index-231_1.webp)
 
-![](images/index-231_2.png)
+![](images/index-231_2.webp)
 
 231
 
@@ -3674,7 +3674,7 @@ Simple geometric shapes work well for this:
 
 …as do small chunks of a repeatable pattern:
 
-![](images/index-232_1.png)
+![](images/index-232_1.webp)
 
 Decorate your backgrounds
 
@@ -3688,7 +3688,7 @@ low so nothing interferes with the content.
 
 Decorate your backgrounds
 
-![](images/index-234_1.png)
+![](images/index-234_1.webp)
 
 **Don’t overlook empty states**
 
@@ -3698,9 +3698,9 @@ You’ve spent a ton of time crafting the perfect realistic sample data,
 picking out usernames and avatars, and putting together a beautiful and
 electrifying screen.
 
-![](images/index-235_1.png)
+![](images/index-235_1.webp)
 
-![](images/index-235_2.png)
+![](images/index-235_2.webp)
 
 235
 
@@ -3716,7 +3716,7 @@ Try incorporating an image or illustration to grab the user’s attention,
 and emphasizing the call-to-action to encourage them to take the next
 step:
 
-![](images/index-236_1.png)
+![](images/index-236_1.webp)
 
 Don’t overlook empty states
 
@@ -3735,7 +3735,7 @@ don’t settle for plain and boring.
 
 Don’t overlook empty states
 
-![](images/index-238_1.png)
+![](images/index-238_1.webp)
 
 **Use fewer borders**
 
@@ -3746,7 +3746,7 @@ While borders are a great way to distinguish two elements from one
 another, they aren’t the only way, and using too many of them can make
 your design feel busy and cluttered.
 
-![](images/index-239_1.png)
+![](images/index-239_1.webp)
 
 239
 
@@ -3761,7 +3761,7 @@ distracting.
 This approach works best when the element you are applying the box
 shadow to is not the same color as the background.
 
-![](images/index-240_1.png)
+![](images/index-240_1.webp)
 
 Use fewer borders
 
@@ -3775,7 +3775,7 @@ all you need to create distinction between them.
 If you’re already using different background colors in addition to a
 border, try removing the border; you might not need it.
 
-![](images/index-241_1.png)
+![](images/index-241_1.webp)
 
 241
 
@@ -3789,7 +3789,7 @@ increase the separation?
 Spacing things further apart is a great way to create distinction
 between groups of elements without introducing any new UI at all.
 
-![](images/index-242_1.png)
+![](images/index-242_1.webp)
 
 **Think outside the box**
 
@@ -3802,7 +3802,7 @@ For example, picture a dropdown menu. You’re probably picturing a white
 box with a bit of a drop shadow and a list of links stacked inside of
 it:
 
-![](images/index-243_1.png)
+![](images/index-243_1.webp)
 
 243
 
@@ -3816,9 +3816,9 @@ colorful icons — do something fun with it!
 
 And don’t just stop at dropdowns; what about something like a table?
 
-![](images/index-244_1.png)
+![](images/index-244_1.webp)
 
-![](images/index-244_2.png)
+![](images/index-244_2.webp)
 
 Think outside the box
 
@@ -3831,9 +3831,9 @@ Tables don’t *have* to work this way, though — if a column doesn’t need
 to be sortable, there’s no reason you can’t combine it with a related
 column and introduce some interesting hierarchy:
 
-![](images/index-245_1.png)
+![](images/index-245_1.webp)
 
-![](images/index-245_2.png)
+![](images/index-245_2.webp)
 
 245
 
@@ -3844,7 +3844,7 @@ makes sense, or introduce some color to enrich the existing data: How
 about radio buttons? There’s nothing more boring than a stack of labels
 with little circles next to them.
 
-![](images/index-246_1.png)
+![](images/index-246_1.webp)
 
 Think outside the box
 
@@ -3859,7 +3859,7 @@ interface to the next level.
 
 **Leveling Up**
 
-![](images/index-250_1.png)
+![](images/index-250_1.webp)
 
 **Leveling up**
 
@@ -3880,9 +3880,9 @@ do?”*
 
 Maybe it’s the way they inverted the background color on a datepicker:
 
-![](images/index-251_1.png)
+![](images/index-251_1.webp)
 
-![](images/index-251_2.png)
+![](images/index-251_2.webp)
 
 251
 
@@ -3900,7 +3900,7 @@ great way to discover new ideas that you can apply to your own designs.
 The absolute best way to notice the little details that make a design
 look
 
-![](images/index-252_1.png)
+![](images/index-252_1.webp)
 
 Leveling up
 

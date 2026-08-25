@@ -9,11 +9,11 @@ That means that if you don’t want the lighter and darker shades of a
 given color to look washed out, you need to increase the saturation as
 the lightness gets further away from 50%.
 
-![](images/index-153_1.png)
+![](images/index-153_1.webp)
 
-![](images/index-153_2.png)
+![](images/index-153_2.webp)
 
-![](images/index-153_3.png)
+![](images/index-153_3.webp)
 
 153
 
@@ -43,7 +43,7 @@ RGB
 
 components into this formula:
 
-![](images/index-154_1.png)
+![](images/index-154_1.webp)
 
 Don’t let lightness kill your saturation
 
@@ -65,11 +65,11 @@ On the surface, this is certainly an interesting thing to understand
 about color. But things get really interesting when you realize how you
 can use this knowledge in your designs.
 
-![](images/index-155_1.png)
+![](images/index-155_1.webp)
 
-![](images/index-155_2.png)
+![](images/index-155_2.webp)
 
-![](images/index-155_3.png)
+![](images/index-155_3.webp)
 
 155
 
@@ -88,11 +88,11 @@ you can change the brightness of a color is *by rotating its hue*.
 To make a color lighter, rotate the hue towards the nearest bright hue —
 60°, 180°, or 300°.
 
-![](images/index-156_1.png)
+![](images/index-156_1.webp)
 
-![](images/index-156_2.png)
+![](images/index-156_2.webp)
 
-![](images/index-156_3.png)
+![](images/index-156_3.webp)
 
 Don’t let lightness kill your saturation
 
@@ -120,7 +120,7 @@ hue more than 20-30°
 or it will look like a totally different color instead of just lighter
 or darker.
 
-![](images/index-158_1.png)
+![](images/index-158_1.webp)
 
-![](images/index-158_2.png)
+![](images/index-158_2.webp)
 

@@ -6,6 +6,6 @@ One of the principal outcomes of field observation and user interviews is an eme
 
 Chapter 2 provides a more detailed discussion of Goal-Directed research techniques.
 
-![](images/a5d9dc6bae1a9f5851b255c4fab0a50dc08f8e9f4f510b3dd2f1b218a3fb735c.jpg)  
+![](images/a5d9dc6bae1a9f5851b255c4fab0a50dc08f8e9f4f510b3dd2f1b218a3fb735c.webp)  
 Figure 1-8: A more detailed look at the Goal-Directed Design process
 

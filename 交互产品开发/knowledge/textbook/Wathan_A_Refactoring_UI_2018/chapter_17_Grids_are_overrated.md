@@ -15,9 +15,9 @@ percentages.
 For example, in a 12-column grid each column is 8.33% wide. As long as
 an
 
-![](images/index-85_1.png)
+![](images/index-85_1.webp)
 
-![](images/index-85_2.png)
+![](images/index-85_2.webp)
 
 85
 
@@ -34,9 +34,9 @@ For example, consider a traditional sidebar layout. Using a 12-column
 grid system, you might give the sidebar a width of three columns (25%)
 and the main content area a width of nine columns (75%).
 
-![](images/index-86_1.png)
+![](images/index-86_1.webp)
 
-![](images/index-86_2.png)
+![](images/index-86_2.webp)
 
 Grids are overrated
 
@@ -57,9 +57,9 @@ width that’s optimized for its contents. The main content area can then
 flex to fill the remaining space, using its own *internal* grid to lay
 out its children.
 
-![](images/index-87_1.png)
+![](images/index-87_1.webp)
 
-![](images/index-87_2.png)
+![](images/index-87_2.webp)
 
 87
 
@@ -68,9 +68,9 @@ Grids are overrated
 This applies within components, too — don’t use percentages to size
 something unless you actually want it to scale.
 
-![](images/index-88_1.png)
+![](images/index-88_1.webp)
 
-![](images/index-88_2.png)
+![](images/index-88_2.webp)
 
 Grids are overrated
 
@@ -86,7 +86,7 @@ On medium-sized screens you realize the card is a little narrow even
 though you have the space to make it bigger, so at that screen size you
 switch it to a width of 8 columns, with two empty columns on each side.
 
-![](images/index-89_1.png)
+![](images/index-89_1.webp)
 
 89
 
@@ -103,7 +103,7 @@ Instead of sizing elements like this based on a grid, give them a
 max-width so they don’t get too large, and only force them to shrink
 when the screen gets smaller than that max-width.
 
-![](images/index-90_1.png)
+![](images/index-90_1.webp)
 
 Grids are overrated
 
@@ -116,5 +116,5 @@ and don’t make any compromises until it’s actually necessary.
 
 Grids are overrated
 
-![](images/index-92_1.png)
+![](images/index-92_1.webp)
 

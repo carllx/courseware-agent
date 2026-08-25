@@ -17,7 +17,7 @@ color so they sit more in the background:
 You can apply this thinking to bigger pieces of an interface as well.
 For
 
-![](images/index-47_1.png)
+![](images/index-47_1.webp)
 
 47
 
@@ -27,5 +27,5 @@ example, if a sidebar feels like it’s competing with your main content
 area, don’t give it a background color — let the content sit directly on
 the page background instead:
 
-![](images/index-48_1.png)
+![](images/index-48_1.webp)
 
